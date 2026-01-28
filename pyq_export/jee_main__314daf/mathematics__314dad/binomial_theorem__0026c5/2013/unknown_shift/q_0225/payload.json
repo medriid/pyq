@@ -1,0 +1,43 @@
+{
+  "index": 225,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2013 (23 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The sum of the rational terms in the binomial expansion of $\\left(2^{\\frac{1}{2}}+3^{\\frac{1}{5}}\\right)^{10}$ is :"
+  },
+  "options": [
+    {
+      "text": "\n25\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n32\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n9\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n41",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\left(2^{1 / 2}+3^{1 / 5}\\right)^{10}={ }^{10} \\mathrm{C}_0\\left(2^{1 / 2}\\right)^{10}$\n$$\n+{ }^{10} \\mathrm{C}_1\\left(2^{1 / 2}\\right)^9\\left(3^{1 / 5}\\right)+\\ldots \\ldots+{ }^{10} \\mathrm{C}_{10}\\left(3^{1 / 5}\\right)^{10}\n$$\nThere are only two rational terms - first term\nand last term.\nNow sum of two rational terms\n$$\n=(2)^5+(3)^2=32+9=41\n$$"
+  }
+}

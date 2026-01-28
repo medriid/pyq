@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "For a $3 \\times 3$ matrix $M$, let trace $(M)$ denote the sum of all the diagonal elements of $M$. Let $A$ be a $3 \\times 3$ matrix such that $|A|=\\frac{1}{2}$ and trace $(A)=3$. If $B=\\operatorname{adj}(\\operatorname{adj}(2 A))$, then the value of $|B|+$ trace (B) equals :"
+  },
+  "options": [
+    {
+      "text": "56",
+      "is_correct": false
+    },
+    {
+      "text": "132",
+      "is_correct": false
+    },
+    {
+      "text": "174",
+      "is_correct": false
+    },
+    {
+      "text": "280",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\because \\operatorname{tr}(A)=3 \\text { and }|A|=\\frac{1}{2}$\nNow, $B=\\operatorname{adj}(\\operatorname{adj}(2 A))=|2 A|^{3-2} \\cdot(2 A)$\n$=2^3|A| \\cdot 2 A=8 A$\n$\\begin{aligned} & \\therefore \\operatorname{tr}(B)=8 \\operatorname{tr}(A)=24 \\\\ & \\text { and }|B|=|8 A|=8^3 \\cdot \\frac{1}{2}=256 \\\\ & \\therefore \\quad \\operatorname{trace}(B)+|B|=24+256\\end{aligned}$\n$=280$"
+  }
+}

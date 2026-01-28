@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2025 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "6160240548aa12a5f67c1a13",
+    "chapter_name": "Electrostatics",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Two co-axial conducting cylinders of same length $\\ell$ with radii $\\sqrt{2} R$ and $2 R$ are kept, as shown in Fig. 1. The charge on the inner cylinder is $Q$ and the outer cylinder is grounded. The annular region between the cylinders is filled with a material of dielectric constant $\\kappa=5$. Consider an imaginary plane of the same length $\\ell$ at a distance R from the common axis of the cylinders. This plane is parallel to the axis of the cylinders. The cross-sectional view of this arrangement is shown in Fig. 2. Ignoring edge effects, the flux of the electric field through the plane is ( $\\epsilon_0$ is the permittivity of free space):\n<img src=\"assets\\qt0002_67abfd4390da.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\mathrm{Q}}{30 \\epsilon_0}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\mathrm{Q}}{15 \\epsilon_0}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\mathrm{Q}}{60 \\epsilon_0}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\mathrm{Q}}{120 \\epsilon_0}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0002_b83e2c8a487b.png\"><br>Here we are assuming that \" $\\ell$ \" is very large just for the sake of symmetry. Outside cylinder will have zero electric field inside, so the flux generated on the plate will be due to inner cylinder only in sections AB and CD , as section be will be at that place where electric field is zero.<img src=\"assets\\st0002_eba092bf78f6.png\"><br>flux through element will be\n$\\begin{aligned} \\mathrm{d} \\phi & =\\overrightarrow{\\mathrm{E}} \\cdot \\overrightarrow{\\mathrm{dS}} \\\\ \\mathrm{d} \\phi & =\\frac{2 \\mathrm{k} \\lambda}{} \\mathrm{dy} \\cdot \\ell \\cdot \\cos \\theta ..... \\mathrm{(1)}\\end{aligned}$\nfrom figure we can say that\n$\\begin{aligned} & \\cos \\theta=\\frac{\\mathrm{R}}{\\mathrm{r}} \\Rightarrow \\mathrm{r}=\\mathrm{R} \\sec \\theta \\\\ & \\tan \\theta=\\frac{\\mathrm{y}}{\\mathrm{R}} \\Rightarrow \\mathrm{y}=\\mathrm{R} \\tan \\theta \\\\ & \\Rightarrow \\mathrm{dy}=\\mathrm{R} \\sec ^2 \\theta \\mathrm{~d} \\theta \\\\ & \\mathrm{~d} \\phi=\\frac{2 \\mathrm{k} \\lambda}{\\mathrm{R} \\sec \\theta} \\mathrm{R} \\cdot \\sec ^2 \\theta \\cdot \\ell \\cdot \\cos \\theta \\mathrm{~d} \\theta \\\\ & \\mathrm{~d} \\phi=2 \\mathrm{k} \\lambda \\ell \\mathrm{dq} \\\\ & \\int_0^{\\phi_{\\mathrm{AB}}} \\mathrm{d} \\phi=2 \\mathrm{k} \\lambda \\ell \\int_{\\pi / 4}^{\\pi / 3} \\mathrm{~d} \\theta \\\\ & \\phi_{\\mathrm{AB}}=2 \\mathrm{k} \\lambda \\ell\\left[\\frac{\\pi}{3}-\\frac{\\pi}{4}\\right]\\end{aligned}$\n$\\begin{aligned} & \\phi_{\\mathrm{AB}}=2 \\mathrm{kQ}\\left[\\frac{\\pi}{12}\\right] \\\\ & \\phi_{\\mathrm{AB}}=2 \\times \\frac{1}{4 \\pi \\epsilon_0 \\epsilon_{\\mathrm{r}}} \\mathrm{Q}\\left[\\frac{\\pi}{12}\\right] \\\\ & \\phi_{\\mathrm{AB}}=\\frac{\\mathrm{Q}}{120 \\epsilon_0} \\\\ & \\phi_{\\text {plate }}=\\phi_{\\mathrm{AB}}+\\phi_{\\mathrm{BC}}+\\phi_{\\mathrm{CD}} \\quad\\left(\\phi_{\\mathrm{CD}}=\\phi_{\\mathrm{AB}}\\right) \\\\ & \\phi_{\\text {plate }}=\\frac{\\mathrm{Q}}{60 \\epsilon_0}\\end{aligned}$"
+  }
+}

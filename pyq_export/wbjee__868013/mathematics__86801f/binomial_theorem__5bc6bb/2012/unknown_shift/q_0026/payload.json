@@ -1,0 +1,43 @@
+{
+  "index": 26,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd8ccf6aa19875bc6bb",
+    "chapter_name": "Binomial Theorem",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $\\sum_{r=2}^{\\infty} \\frac{1+2+\\quad+(r-1)}{r !}$"
+  },
+  "options": [
+    {
+      "text": "$e$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 e$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{e}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{3 e}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\sum_{r=2}^{\\infty} \\frac{(r-1) r}{2 r !}=\\sum_{r=2}^{\\infty} \\frac{1}{2(r-2) !}$\r\n$=\\frac{1}{2}\\left[\\frac{1}{0 !}+\\frac{1}{1 !}+\\frac{1}{2 !}+\\quad \\infty\\right]=\\frac{1}{2} e$"
+  }
+}

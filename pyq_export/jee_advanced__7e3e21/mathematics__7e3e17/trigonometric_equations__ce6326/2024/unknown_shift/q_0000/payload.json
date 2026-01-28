@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2024 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025356e2374b8d4ce6326",
+    "chapter_name": "Trigonometric Equations",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function defined by $f(x)=\\left\\{\\begin{array}{cc}x^2 \\sin \\left(\\frac{\\pi}{x^2}\\right), & \\text { if } x \\neq 0 \\\\ 0, & \\text { if } x=0\\end{array}\\right.$ Then which of the following statements is TRUE?"
+  },
+  "options": [
+    {
+      "text": "$f(x)=0$ has infinitely many solutions in the interval $\\left[\\frac{1}{10^{10}}, \\infty\\right)$.",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x)=0$ has no solutions in the interval $\\left[\\frac{1}{\\pi}, \\infty\\right)$.",
+      "is_correct": false
+    },
+    {
+      "text": "The set of solutions of $f(x)=0$ in the interval $\\left(0, \\frac{1}{10^{10}}\\right)$ is finite",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x)=0$ has more than 25 solutions in the interval $\\left(\\frac{1}{\\pi^2}, \\frac{1}{\\pi}\\right)$.",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Option-1 : $\\mathrm{f}(\\mathrm{x})=\\mathrm{x}^2 \\sin \\frac{\\pi}{\\mathrm{x}^2}$\n$f(x)=0 \\Rightarrow \\sin \\frac{\\pi}{x^2}=0 \\Rightarrow \\frac{\\pi}{x^2}=n \\pi, n \\in N$\n$\\mathrm{x}^2=\\frac{1}{\\mathrm{n}} \\Rightarrow \\mathrm{x}=\\frac{1}{\\sqrt{\\mathrm{n}}}$\n$\\frac{1}{\\sqrt{\\mathrm{n}}} \\geq \\frac{1}{10^{10}} \\Rightarrow 10^{10} \\geq \\sqrt{\\mathrm{n}} \\Rightarrow \\mathrm{n} \\leq 10^{20}$, finite number of solutions\nOption-2 : $\\mathrm{x}=\\frac{1}{\\sqrt{\\mathrm{n}}} \\Rightarrow \\frac{1}{\\sqrt{\\mathrm{n}}}>\\frac{1}{\\pi} \\Rightarrow \\pi>\\sqrt{\\mathrm{n}} \\Rightarrow \\mathrm{n} < \\pi^2$, Number of solutions is 9\nOption-3 $: \\mathrm{x}=\\frac{1}{\\sqrt{\\mathrm{n}}}, \\frac{1}{\\sqrt{\\mathrm{n}}} < \\frac{1}{10^{10}} \\Rightarrow \\sqrt{\\mathrm{n}}>10^{10} \\Rightarrow \\mathrm{n}>10^{20}$, Infinite number of solutions\nOption-4 : $\\frac{1}{\\pi^2} < \\frac{1}{\\sqrt{\\mathrm{n}}} < \\frac{1}{\\pi} \\Rightarrow \\sqrt{\\mathrm{n}} \\in\\left(\\pi, \\pi^2\\right) \\Rightarrow \\mathrm{n} \\in\\left(\\pi^2, \\pi^4\\right)$, Definitely more than 25 solutions"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 157,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 1 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602527bd39a958e960a359",
+    "chapter_name": "Complex Number",
+    "year": "2018",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The set of all $\\alpha \\in R$, for which $w=\\frac{1+(1-8 \\alpha) z}{1-z}$ is a purely imaginary number, for all $z \\in C$ satisfying $|z|=1$ and $\\operatorname{Re} z \\neq 1$, is"
+  },
+  "options": [
+    {
+      "text": "\n$\\{0\\}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nan empty set\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left\\{0, \\frac{1}{4},-\\frac{1}{4}\\right\\}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nequal to $R$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n&\\because|z|=1 \\text { \\& } \\operatorname{Re} z \\neq 1 \\\\\n&\\text { Suppose } z=x+i y \\Rightarrow x^2+y^2=1 \\ldots \\ldots(\\mathrm{i}) \\\\\n&\\text { Now, } w=\\frac{1+(1-8 \\alpha) z}{1-z} \\\\\n&\\Rightarrow w=\\frac{1+(1-8 \\alpha)(x+i y)}{1-(x+i y)} \\\\\n&\\Rightarrow w=\\frac{1+(1-8 \\alpha)(x+i y))((1-\\mathrm{x})+\\mathrm{iy})}{1-(x+i y))((1-\\mathrm{x})+\\mathrm{iy})} \\\\\n&\\Rightarrow \\quad w=\\frac{\\left[\\left(1+x(1-8 \\alpha)(1-x)-(1-8) y^2\\right]\\right.}{(1-x)^2+y^2} \\\\\n&+i \\frac{[(1+x(1-8 \\alpha)) y-(1-8 \\alpha) y(1-x)]}{(1-x)^2+y^2}\n\\end{aligned}\n$$\nIf, $w$ is purely imaginary. So,\n$$\n\\begin{aligned}\n&\\operatorname{Re} w=\\frac{\\left[(1+x(1-8 \\alpha))(1-\\alpha)-(1-8 \\alpha) y^2\\right]}{(1-x)^2+y^2} \\\\\n&=0 \\\\\n&\\Rightarrow(1-x)+x(1-8 \\alpha)(1-x)=(1-8) y^2 \\\\\n&\\Rightarrow(1-x)+x(1-8 \\alpha)-x^2(1-8 \\alpha)=(1-8 x) y^2 \\\\\n&\\Rightarrow(1-x)+x(1-8 \\alpha)=1-8 \\alpha \\\\\n&{\\left[\\text { From }(i), x^2+y^2=1\\right]}\n\\end{aligned}\n$$\n$\\Rightarrow 1-8 \\alpha=1$\n$\\Rightarrow \\alpha=0$\n$\\therefore \\alpha \\in\\{0\\}$"
+  }
+}

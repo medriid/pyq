@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let \\(A\\) and \\(B\\) are two independent events. The probability that both \\(A\\) and \\(B\\) happen is \\(\\frac{1}{12}\\) and probability that neither A nor \\(B\\) happen is \\(\\frac{1}{2}\\). Then"
+  },
+  "options": [
+    {
+      "text": "\\(P(A)=\\frac{1}{3}, P(B)=\\frac{1}{4}\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(P(A)=\\frac{1}{2}, P(B)=\\frac{1}{6}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(P(A)=\\frac{1}{6}, P(B)=\\frac{1}{2}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(P(A)=\\frac{2}{3}, P(B)=\\frac{1}{8}\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "\\(\\begin{array}{ll}\n\\text {Hint : } P(A \\cap B)=\\frac{1}{12} & \\Rightarrow P(A) P(B)=\\frac{1}{12} \\cdots (1) \\\\\nP\\left(A^{\\prime} \\cap B^{\\prime}\\right)=\\frac{1}{2} & \\Rightarrow P(A \\cup B)=1-\\frac{1}{2}=\\frac{1}{2}\n\\end{array}\\)\n\\(\\begin{aligned} & \\Rightarrow P(A)+P(B)-P(A) P(B)=\\frac{1}{2} \\\\ & \\Rightarrow P(A)+P(B)=\\frac{1}{2}+\\frac{1}{12}=\\frac{7}{12}\\end{aligned}\\)\n\\(\\begin{aligned} & \\text { From (1), } \\quad P(A)\\left(\\frac{7}{12}-P(A)\\right)=\\frac{1}{12} \\\\ & \\Rightarrow P(A)^2-\\frac{7}{12} P(A)+\\frac{1}{12}=0 \\\\ & \\Rightarrow 12 P(A)^2-7 P(A)+1=0 \\\\ & \\Rightarrow 12 P(A)^2-4 P(A)-3 P(A)+1=0 \\\\ & \\Rightarrow(3 P(A)-1)-(4 P(A)-1)=0\\end{aligned}\\)\n\\(\\begin{aligned} & \\therefore P(A)=\\frac{1}{3} \\text { or } \\quad P(A)=\\frac{1}{4} \\\\ & \\therefore \\quad P(B)=\\frac{1}{12} \\times 3 \\Rightarrow  P(B)=\\frac{1}{12} \\times 4 \\\\ & \\qquad\\qquad=\\frac{1}{4} \\qquad \\qquad \\qquad=\\frac{1}{3} \\\\ & \\therefore P(A)=\\frac{1}{3}, P(B)=\\frac{1}{4}\\end{aligned}\\)"
+  }
+}

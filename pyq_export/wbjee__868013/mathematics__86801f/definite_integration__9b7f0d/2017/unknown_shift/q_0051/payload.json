@@ -1,0 +1,43 @@
+{
+  "index": 51,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $I=\\int_{10}^{19} \\frac{\\sin x}{1+x^{6}} d x$. Then,"
+  },
+  "options": [
+    {
+      "text": "$|I|    < 10^{-9}$",
+      "is_correct": false
+    },
+    {
+      "text": "$|I|    < 10^{-7}$",
+      "is_correct": true
+    },
+    {
+      "text": "$|I|    < 10^{-5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$|I|>10^{-7}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "For $x>10,$ we have\r\n$|\\sin x|    < 1$ and $1+x^{8}>10^{8}$\r\n$\\Rightarrow \\quad \\frac{1}{1+x^{8}} \\leq 10^{-8}$\r\n$\\therefore \\quad\\left|\\int_{10}^{19} \\frac{\\sin x}{1+x^{8}} d x\\right| \\leq \\int_{10}^{19} \\frac{|\\sin x|}{1+x^{8}} d x$\r\n$\\quad \\leq \\int_{10}^{19} 10^{-8}=9 \\times 10^{-8} < 10^{-7}$"
+  }
+}

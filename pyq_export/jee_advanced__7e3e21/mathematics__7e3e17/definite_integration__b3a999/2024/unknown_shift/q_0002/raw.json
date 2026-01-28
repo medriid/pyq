@@ -1,0 +1,58 @@
+{
+  "_id": "66965df2d603121f43a46b21",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "66965789b31faf98fda8fefa",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2024-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Paper 2)",
+      "title": "JEE Advanced 2024 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Paragraph: Let \\(f:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow[0,1]\\) be the function defined by \\(f(x)=\\sin ^2 x\\) and let \\(g:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow[0, \\infty)\\) be the function defined by \\(g(x)=\\sqrt{\\frac{\\pi x}{2}-x^2}\\).\nQuestion: The value of $2 \\int_0^{\\frac{\\pi}{2}} f(x) g(x) d x-\\int_0^{\\frac{\\pi}{2}} g(x) d x$ is",
+    "image": null
+  },
+  "options": [],
+  "correctValue": 0,
+  "solution": {
+    "text": "$I=2 \\int_0^{\\frac{\\pi}{2}} \\underbrace{\\sin ^2 x \\cdot \\sqrt{\\frac{\\pi x}{2}-x^2}}_{I_1}-\\int_0^{\\frac{\\pi}{2}} g(x) d x$\nLet $I_1=\\int_0^{\\frac{\\pi}{2}} \\sin ^2 x \\sqrt{\\left(\\frac{\\pi}{4}\\right)^2-\\left(x-\\frac{\\pi}{4}\\right)^2}$\n(making perfect square)\napply kings\n$I_1=\\int_0^{\\frac{\\pi}{2}} \\cos ^2 x \\sqrt{\\left(\\frac{\\pi}{4}\\right)^2-\\left(\\frac{\\pi}{2}-x\\right)^2}$\nadd both\n$2 I_1=\\int_0^{\\frac{\\pi}{2}} \\sqrt{\\left(\\frac{\\pi}{4}\\right)^2-\\left(x-\\frac{\\pi}{4}\\right)^2}$\ni.e. $2 I_1=\\int_0^{\\frac{\\pi}{2}} g(x)$\nNow $I=2 I_1-\\int_0^{\\frac{\\pi}{2}} g(x)=0$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "95135373c42146dfb9d919539636aac8",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/Ikc5IwydsSy0K.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/Ikc5IwydsSy0K.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "66965789b31faf98fda8fefa",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2024-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Paper 2)",
+    "title": "JEE Advanced 2024 (Paper 2)"
+  },
+  "evalStatus": "incorrect",
+  "lastPracticed": "2024-09-29T11:18:59.200Z"
+}

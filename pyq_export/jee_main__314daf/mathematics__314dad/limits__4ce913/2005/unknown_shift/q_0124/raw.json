@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d656c5",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2005-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2005",
+      "title": "JEE Main 2005"
+    }
+  ],
+  "question": {
+    "text": "$\\lim _{n \\rightarrow \\infty}\\left[\\frac{1}{n^2} \\sec ^2 \\frac{1}{n^2}+\\frac{2}{n^2} \\sec ^2 \\frac{4}{n^2}+\\ldots .+\\frac{1}{n^2} \\sec ^2 1\\right]$ equals",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "oZvxV",
+      "text": "\n$\\frac{1}{2} \\sec 1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "sZh2C",
+      "text": "\n$\\frac{1}{2} \\operatorname{cosec} 1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Y54QT",
+      "text": "\n$\\tan 1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "rT1vO",
+      "text": "\n$\\frac{1}{2} \\tan 1$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\lim _{n \\rightarrow \\infty}\\left[\\frac{1}{n^2} \\sec ^2 \\frac{1}{n^2}+\\frac{2}{n^2} \\sec ^2 \\frac{4}{n^2}+\\frac{3}{n^2} \\sec ^2 \\frac{9}{n^2}+\\ldots .+\\frac{1}{n} \\sec ^2 1\\right]$ is equal to $\\lim _{n \\rightarrow \\infty} \\frac{r}{n^2} \\sec ^2 \\frac{r^2}{n^2}=\\lim _{n \\rightarrow \\infty} \\frac{1}{n} \\cdot \\frac{r}{n} \\sec ^2 \\frac{r^2}{n^2}$\n$\\Rightarrow$ Given limit is equal to value of integral $\\int_0^1 x \\sec ^2 x^2 d x$\nor $\\frac{1}{2} \\int_0^1 2 x \\sec x^2 d x=\\frac{1}{2} \\int_0^1 \\sec ^2 t d t$\n[put $\\left.x^2=t\\right]$ $=\\frac{1}{2}(\\tan t)_0^1=\\frac{1}{2} \\tan 1$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2005-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2005",
+    "title": "JEE Main 2005"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 26,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2007 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602569f6f39ee3d4ae5835",
+    "chapter_name": "Differential Equations",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The differential equation $\\frac{d y}{d x}=\\frac{\\sqrt{1-y^2}}{y}$ determines a family of circles with"
+  },
+  "options": [
+    {
+      "text": "\nvariable radii and a fixed centre at $(0,1)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nvariable radii and a fixed centre at $(0,-1)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nfixed radius 1 and variable centres along the $\\mathrm{X}$-axis\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nfixed radius 1 and variable centres along the $\\mathrm{Y}$-axis",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\frac{d y}{d x}=\\frac{\\sqrt{1-y^2}}{y} \\\\\n& \\Rightarrow \\quad \\int \\frac{y}{\\sqrt{1-y^2}} d y=\\int d x \\\\\n& \\Rightarrow \\quad-\\sqrt{1-y^2}=x+C \\\\\n& \\Rightarrow \\quad(x+c)^2+y^2=1 \\\\\n&\n\\end{aligned}\n$$\nCentre $(-C, 0)$ and radius $=1$."
+  }
+}

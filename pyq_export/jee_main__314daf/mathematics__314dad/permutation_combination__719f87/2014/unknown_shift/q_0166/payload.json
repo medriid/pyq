@@ -1,0 +1,43 @@
+{
+  "index": 166,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (11 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "An eight digit number divisible by 9 is to be formed using digits from 0 to 9 without repeating the digits. The number of ways in which this can be done is:"
+  },
+  "options": [
+    {
+      "text": "\n$72(7 !)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$18(7 !)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$40(7 !)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$36(7 !)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "We know that any number is divisible by 9 if sum of the digits of the number is divisible by 9 .\nNow sum of the digits from 0 to 9\n$$\n\\begin{aligned}\n&=0+1+2+3+4+5+6+7+8+9 \\\\\n&=45\n\\end{aligned}\n$$\nHence to form 8 digits numbers which are divisible by 9 , a pair of digits either 0 and 9,1 and 8,2 and 7,3 and 6 or 4 and 5 are not used.\n<img src=\"assets\\st0166_a6b6a4f91cb9.png\"><br>\nHence total number of 8 digits numbers which are divisible by 9\n$$\n\\begin{aligned}\n&=8 \\times(7 !)+7 \\times(7 !)+7 \\times(7 !)+7 \\times(7 !) \\\\\n&+7 \\times(7 !) \\\\\n&=36 \\times(7 !)\n\\end{aligned}\n$$"
+  }
+}

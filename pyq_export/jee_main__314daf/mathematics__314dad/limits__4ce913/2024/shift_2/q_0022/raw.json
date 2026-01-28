@@ -1,0 +1,63 @@
+{
+  "_id": "66446712970e6e9ab542cff1",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda69",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-04T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (04 Apr Shift 2)",
+      "title": "JEE Main 2024 (04 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $f(x)=\\int_0^x\\left(t+\\sin \\left(1-e^{\\prime}\\right)\\right) d t, x \\in \\mathbb{R}$. Then, $\\lim _{x \\rightarrow 0} \\frac{f(x)}{x^3}$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "5XPhj",
+      "text": "$-\\frac{1}{6}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "EfGNs",
+      "text": "$\\frac{2}{3}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "GIXOI",
+      "text": "$-\\frac{2}{3}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "8Lrld",
+      "text": "$\\frac{1}{6}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow 0} \\frac{f(x)}{x^3}$<br />Using L Hopital Rule.\n$\\lim _{x \\rightarrow 0} \\frac{f^{\\prime}(x)}{3 x^2}=\\lim _{x \\rightarrow 0} \\frac{x+\\sin \\left(1-e^x\\right)}{3 x^2}$ (Again L Hopital)\nUsing L.H. Rule\n$\\begin{aligned}\n& =\\lim _{x \\rightarrow 0} \\frac{-\\left[\\sin \\left(1-e^x\\right)\\left(-e^x\\right) \\cdot e^x+\\cos \\left(1-e^x\\right) \\cdot e^x\\right]}{6} \\\\\n& =-\\frac{1}{6}\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda69",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-04T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (04 Apr Shift 2)",
+    "title": "JEE Main 2024 (04 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

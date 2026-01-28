@@ -1,0 +1,63 @@
+{
+  "_id": "64b169ecf23ac7d519f9afb9",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c43",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2008-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008 (Paper 2)",
+      "title": "JEE Advanced 2008 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let a solution $y=y(x)$ of the differential equation $x \\sqrt{x^2-1} d y-y \\sqrt{y^2-1} d x=0$ satisfy $y(2)=\\frac{2}{\\sqrt{3}}$\nStatement $1 y(x)=\\sec \\left(\\sec ^{-1} x-\\frac{\\pi}{6}\\right)$\nStatement $2 y(x)$ is given by $\\frac{1}{y}=\\frac{2 \\sqrt{3}}{x}-\\sqrt{1-\\frac{1}{x^2}}$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "TPjtD",
+      "text": "\nStatement 1 is true, Statement 2 is true, Statement 2 is a correct explanation for Statement 1.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "9R3kA",
+      "text": "\nStatement 1 is true, Statement 2 is true, Statement 2 is not a correct explanation for Statement 1.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "aSrUC",
+      "text": "\nStatement 1 is true, Statement 2 is false.\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "6QoQ4",
+      "text": "\nStatement 1 is false, Statement 2 is true",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\because \\frac{d y}{d x}=\\frac{y \\sqrt{y^2-1}}{x \\sqrt{x^2-1}} \\Rightarrow \\int \\frac{d y}{y \\sqrt{y^2-1}}=\\int \\frac{d x}{x \\sqrt{x^2-1}}$ $\\Rightarrow \\quad \\sec ^{-1} y=\\sec ^{-1} x+C$ At $\\quad x=2, y=\\frac{2}{\\sqrt{3}}$ $$ \\frac{\\pi}{6}=\\frac{\\pi}{3}+C \\Rightarrow C=-\\frac{\\pi}{6} $$\nNow, $y=\\sec \\left(\\sec ^{-1} x-\\frac{\\pi}{6}\\right)$\n\n$$\n\\begin{aligned}\n& =\\cos \\left[\\cos ^{-1} \\frac{1}{x}-\\cos ^{-1} \\frac{\\sqrt{3}}{2}\\right] \\\\\n& =\\cos \\left[\\cos ^{-1}\\left(\\frac{\\sqrt{3}}{2 x}+\\sqrt{1-\\frac{1}{x^2}} \\sqrt{1-\\frac{3}{4}}\\right)\\right] \\\\\n\\Rightarrow \\quad \\frac{1}{y} & =\\frac{\\sqrt{3}}{2 x}+\\frac{1}{2} \\sqrt{1-\\frac{1}{x^2}} \\\\",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c43",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2008-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008 (Paper 2)",
+    "title": "JEE Advanced 2008 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

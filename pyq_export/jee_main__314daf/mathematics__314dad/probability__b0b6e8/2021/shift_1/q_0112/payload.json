@@ -1,0 +1,43 @@
+{
+  "index": 112,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (27 Jul Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2021",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The probability that a randomly selected <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>-</mo></math>digit number belongs to the set&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"\" open=\"{\"><mrow><mi>n</mi><mo>&#8712;</mo><mi>N</mi><mo>:</mo><mfenced><mrow><msup><mn>2</mn><mi>n</mi></msup><mo>-</mo><mn>2</mn></mrow></mfenced></mrow></mfenced></math>&nbsp;is a&nbsp;multiple of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>}</mo></math>&nbsp;is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>Total two-digit numbers is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn></math></p><p>So, total number of cases <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>90</mn></mmultiscripts><mo>=</mo><mn>90</mn></math></p><p>Now,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi>n</mi></msup><mo>-</mo><mn>2</mn><mo>=</mo><msup><mfenced><mrow><mn>3</mn><mo>-</mo><mn>1</mn></mrow></mfenced><mi>n</mi></msup><mo>-</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>0</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><msup><mn>3</mn><mi>n</mi></msup><mo>-</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>&#183;</mo><msup><mn>3</mn><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>+</mo><mo>&#8230;</mo><mo>+</mo><msup><mfenced><mrow><mo>-</mo><mn>1</mn></mrow></mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>&#183;</mo><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mn>3</mn><mo>+</mo><msup><mfenced><mrow><mo>-</mo><mn>1</mn></mrow></mfenced><mi>n</mi></msup><mo>&#183;</mo><mmultiscripts><mi>C</mi><mi>n</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>-</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>3</mn><mfenced><mrow><msup><mn>3</mn><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>-</mo><mi>n</mi><msup><mn>3</mn><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></msup><mo>+</mo><mo>&#8230;</mo><mo>+</mo><msup><mfenced><mrow><mo>-</mo><mn>1</mn></mrow></mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>&#183;</mo><mi>n</mi></mrow></mfenced><mo>+</mo><msup><mfenced><mrow><mo>-</mo><mn>1</mn></mrow></mfenced><mi>n</mi></msup><mo>-</mo><mn>2</mn></math></p><p>Here, the term&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mo>-</mo><mn>1</mn></mrow></mfenced><mi>n</mi></msup><mo>-</mo><mn>2</mn></math>&nbsp;should be&nbsp;multiple of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>.</mo></math></p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><msup><mn>2</mn><mi>n</mi></msup><mo>-</mo><mn>2</mn></mrow></mfenced></math>&nbsp;is multiple&nbsp;of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>&nbsp;only when <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> is odd.</p><p>There are total&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn></math>&nbsp;odd two-digit numbers.</p><p>Hence, the required&nbsp;probability&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>45</mn></mmultiscripts><mn>90</mn></mfrac><mo>=</mo><mfrac><mn>45</mn><mn>90</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math></p>"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 27,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c989d521687020e0bf6",
+    "chapter_name": "Semiconductors",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A NOR gate and a NAND gate are connected as shown in the figure. Two different sets of inputs are given to this setup. In the first case, the inputs to the gates are $A=0, B=0$, $C=0 .$ In the second case, the inputs are $A=1, B=0, C=1 .$ The output $D$ in the first case and second case respectively are <img src=\"assets\\qt0027_67653a9686c9.png\">"
+  },
+  "options": [
+    {
+      "text": "0 and 0",
+      "is_correct": false
+    },
+    {
+      "text": "0 and 1",
+      "is_correct": false
+    },
+    {
+      "text": "1 and 0",
+      "is_correct": false
+    },
+    {
+      "text": "1 and 1",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "In first case $A=0, B=0$\r\n$\\therefore$ Output of NOR gate, $Y=\\overline{A+B}=1$ \r\nThis output is the input for NAND gate, $i . e ., Y=1$\r\nand $C=0$\r\n$\\therefore \\quad D=\\overline{Y \\cdot C}=1$\r\nIn second case $A=1, B=0$\r\n$\\therefore$ Output of NOR gate, $Y=\\overline{A+B}=0$ \r\nThis output is the input for NAND gate $i . e . . Y=0$\r\nand $C=1$\r\n$\\therefore \\quad D=\\overline{Y \\cdot C}=1$"
+  }
+}

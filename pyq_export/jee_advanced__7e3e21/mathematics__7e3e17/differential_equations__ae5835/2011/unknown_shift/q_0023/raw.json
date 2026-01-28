@@ -1,0 +1,38 @@
+{
+  "_id": "64b16a17f23ac7d519f9b13e",
+  "type": "numerical",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c49",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2011-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011 (Paper 2)",
+      "title": "JEE Advanced 2011 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $y^{\\prime}(x)+y(x) g^{\\prime}(x)=g(x) g^{\\prime}(x) y(0)=0, x \\in R$, where $f^{\\prime}(x)$ denotes $\\frac{d f(x)}{d x}$ and $g(x)$ is a given non-constant differentiable function on $R$ with $g(0)=g(2)=0$. Then, the value of $y$ (2) is...",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "0",
+  "solution": {
+    "text": "$\\frac{d y}{d x}+y \\cdot g^{\\prime}(x)=g(x) g^{\\prime}(x)$\n$$\n\\mathrm{IF}=e^{\\int g^{\\prime}(x) d x}=e^{g(x)}\n$$\n$\\therefore$ Solution is\n\n$$\ny\\left(e^{g(x)}\\right)=\\int g(x) \\cdot g^{\\prime}(x) \\cdot e^{g(x)} d x+C\n$$\nPut $g(x)=t, g^{\\prime}(x) d x=d t$\n$$\n\\begin{aligned}\n& y\\left(e^{g(x)}\\right)=\\int t \\cdot e^t d t+C \\\\\n= & t \\cdot e^t-\\int 1 \\cdot e^t d t+C=t \\cdot e^t-e^t+C \\\\\n& y e^{g(x)}=(g(x)-1) e^{g(x)}+C \\quad \\ldots(\\mathrm{i})\n\\end{aligned}\n$$\nGiven, $y(0)=0, g(0)=g(2)=0$\n\n$\\therefore$ Eq. (i) becomes,\n$$\n\\begin{aligned}\n& \\quad y(0) \\cdot e^{g(0)}=(g(0)-1) \\cdot e^{g(0)}+C \\\\\n& \\Rightarrow \\quad 0=(-1) \\cdot 1+C \\Rightarrow C=1 \\\\\n& \\therefore \\quad y(x) \\cdot e^{g(x)}=(g(x)-1) e^{g(x)}+1 \\\\\n& \\Rightarrow \\quad y(2) \\cdot e^{g(2)}=(g(2)-1) e^{g(2)}+1 \\\\\n& \\text { where, } \\quad g(2)=0 \\\\\n& \\Rightarrow \\quad y(2) \\cdot 1=(-1) \\cdot 1+1 \\Rightarrow y(2)=0\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c49",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2011-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011 (Paper 2)",
+    "title": "JEE Advanced 2011 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

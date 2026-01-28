@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (23 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602555685234356f221f74",
+    "chapter_name": "Functions",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $f(x)=\\log _{\\mathrm{e}} x$ and $g(x)=\\frac{x^4-2 x^3+3 x^2-2 x+2}{2 x^2-2 x+1}$. Then the domain of $f \\circ g$ is"
+  },
+  "options": [
+    {
+      "text": "$[0, \\infty)$",
+      "is_correct": false
+    },
+    {
+      "text": "$[1, \\infty)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(0, \\infty)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathbb{R}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$f(g(x))=\\ln \\left(\\frac{x^4-2 x^3+3 x^2-2 x+2}{2 x^2-2 x+1}\\right)$\n\nSince $2 x^2-2 x+1>0 \\quad \\forall x \\in \\mathbb{R} \\because(-2)^2-4(2) < 0$\nConsider\n$\\begin{aligned}\n& x^4-2 x^3+3 x^2-2 x+2 \\\\\n& =\\left(x^4-2 x^3+x^2\\right)+\\left(x^2-2 x+1\\right)+\\left(1+x^2\\right) \\\\\n& =x^2(x-1)^2+(x-1)^2+\\left(x^2+1\\right)>0 \\forall x \\in \\mathbb{R} \\\\\n& \\Rightarrow g(x)>0 \\forall x \\in \\mathbb{R} \\\\\n& \\Rightarrow \\ln f((x)), f(x)>0 \\forall x \\in \\mathbb{R} \\\\\n& \\Rightarrow x \\in \\mathbb{R} \\text { is domain }\n\\end{aligned}$"
+  }
+}

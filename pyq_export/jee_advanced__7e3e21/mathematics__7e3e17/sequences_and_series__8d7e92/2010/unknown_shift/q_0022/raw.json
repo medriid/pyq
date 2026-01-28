@@ -1,0 +1,38 @@
+{
+  "_id": "64b16a02f23ac7d519f9b083",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c46",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010 (Paper 1)",
+      "title": "JEE Advanced 2010 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $S_k, k=1,2, \\ldots, 100$, denote the sum of the infinite geometric series whose first term is $\\frac{k-1}{k !}$ and the common ratio is $\\frac{1}{k}$. Then the value of $\\frac{100^2}{100 !}+\\sum_{k=1}^{100}\\left|\\left(k^2-3 k+1\\right) S_k\\right|$ is",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "4",
+  "solution": {
+    "text": "We have, $S_k=\\frac{\\frac{k-1}{k !}}{1-\\frac{1}{k}}=\\frac{1}{(k-1) !}$\nNow,\n$$\n\\begin{aligned}\n& \\left(k^2-3 k+1\\right) S_k=\\{(k-2)(k-1)-1\\} \\\\\n& =\\frac{1}{(k-3) !}-\\frac{1}{(k-1) !} \\\\\n& \\Rightarrow \\sum_{k=1}^{100}\\left|\\left(k^2-3 k+1\\right) S_k\\right| \\\\\n& =1+1+2-\\left(\\frac{1}{99 !}+\\frac{1}{98 !}\\right)=4-\\frac{100^2}{100 !}\n\\end{aligned}\n$$\n\n$$\n\\Rightarrow \\quad \\frac{100^2}{100 !}+\\sum_{k=1}^{100}\\left|\\left(k^2-3 k+1\\right) S_k\\right|=4\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c46",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010 (Paper 1)",
+    "title": "JEE Advanced 2010 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 165,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2019 (10 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602555685234356f221f74",
+    "chapter_name": "Functions",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let <math><mi>N</mi></math> be the set of natural numbers and two functions <math><mi>f</mi></math> and <math><mi>g</mi></math> be defined as <math><mi>f</mi><mo>,</mo><mi>g</mi><mo>:</mo><mi>N</mi><mo>&#8594;</mo><mi>N</mi></math> such that<br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced separators=\"|\"><mi>n</mi></mfenced><mo>=</mo><mfenced open=\"{\" close=\"\" separators=\"|\"><mtable><mtr><mtd><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>,</mo><mi>&#160;</mi><mi>&#160;</mi><mi>&#160;</mi><mi>i</mi><mi>f</mi><mi>&#160;</mi><mi>n</mi><mi>&#160;</mi><mi>i</mi><mi>s</mi><mi>&#160;</mi><mi>o</mi><mi>d</mi><mi>d</mi></mtd></mtr><mtr><mtd><mi>&#160;</mi><mi>&#160;</mi><mi>&#160;</mi><mfrac><mi>n</mi><mn>2</mn></mfrac><mo>,</mo><mi>&#160;</mi><mi>&#160;</mi><mi>&#160;</mi><mi>&#160;</mi><mi>i</mi><mi>f</mi><mi>&#160;</mi><mi>n</mi><mi>&#160;</mi><mi>i</mi><mi>s</mi><mi>&#160;</mi><mi>e</mi><mi>v</mi><mi>e</mi><mi>n</mi></mtd></mtr></mtable></mfenced></math><br /><br />and <math><mi>g</mi><mfenced separators=\"|\"><mrow><mi>n</mi></mrow></mfenced><mo>=</mo><mi>n</mi><mo>-</mo><msup><mrow><mfenced separators=\"|\"><mrow><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mrow><mi>n</mi></mrow></msup><mo>.</mo></math> Then <math><mi>f</mi><mi>o</mi><mi>g</mi></math> is:"
+  },
+  "options": [
+    {
+      "text": "onto but not one-one",
+      "is_correct": true
+    },
+    {
+      "text": "Both one-one and onto",
+      "is_correct": false
+    },
+    {
+      "text": "One-one but not onto",
+      "is_correct": false
+    },
+    {
+      "text": "Neither one-one nor onto",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "We have,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mi>n</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\" separators=\"|\"><mtable><mtr><mtd><mi>n</mi><mo>+</mo><mn>1</mn><mo>,</mo><mi>&#160;</mi><mi>i</mi><mi>f</mi><mtext>&#8201;</mtext><mi>n</mi><mtext>&#8201;</mtext><mi>o</mi><mi>d</mi><mi>d</mi></mtd></mtr><mtr><mtd><mi>n</mi><mo>-</mo><mn>1</mn><mo>,</mo><mi>&#160;</mi><mi>i</mi><mi>f</mi><mtext>&#8201;</mtext><mi>n</mi><mtext>&#8201;</mtext><mi>e</mi><mi>v</mi><mi>e</mi><mi>n</mi></mtd></mtr></mtable></mfenced></math><br /><br /><math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>g</mi><mfenced separators=\"|\"><mrow><mn>1</mn></mrow></mfenced></mrow></mfenced><mo>=</mo><mi>f</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>1</mn></math><br /><br /><math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>g</mi><mfenced separators=\"|\"><mrow><mn>2</mn></mrow></mfenced></mrow></mfenced><mo>=</mo><mi>f</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>1</mn></math><br /><br /><math><mo>&#8756;</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>g</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow></mfenced></math> is many one.<br /><br /><math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>g</mi><mfenced separators=\"|\"><mrow><mn>2</mn><mi>k</mi></mrow></mfenced></mrow></mfenced><mo>=</mo><mi>f</mi><mo>(</mo><mn>2</mn><mi>k</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>=</mo><mi>k</mi></math><br /><br /><math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>g</mi><mfenced separators=\"|\"><mrow><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfenced><mo>=</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mn>2</mn><mi>k</mi><mo>+</mo><mn>2</mn></mrow></mfenced><mo>=</mo><mi>k</mi><mo>+</mo><mn>1</mn></math><br /><br /><math><mo>&#8756;</mo><mi>f</mi><mo>(</mo><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo></math> is onto."
+  }
+}

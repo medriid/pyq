@@ -1,0 +1,44 @@
+{
+  "index": 2,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd8ccf6aa19875bc6bb",
+    "chapter_name": "Binomial Theorem",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If n is a positive integer, the value of $(2 n+1)^n C_0+(2 n-1)^n C_1+(2 n-3)^n C_2+\\ldots .+1 \\cdot{ }^n C_n$ is"
+  },
+  "options": [
+    {
+      "text": "$(n+1) 2^n$",
+      "is_correct": true
+    },
+    {
+      "text": "$3^{\\text {n }}$",
+      "is_correct": false
+    },
+    {
+      "text": "$f^{\\prime}(2)$ where $f(x)=x^{n+1}$",
+      "is_correct": true
+    },
+    {
+      "text": "$(n+1) 2^{n+1}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\text { Hint: } \\sum_{r=0}^n(2 n+1-2 r)^n C_r \\\\ & =(2 n+1) \\sum_{r=0}^n{ }^n C_r-2 \\sum_{r=0}^n r \\cdot{ }^n C_r \\\\ & =(2 n+1) \\cdot 2^n-2 \\cdot n \\cdot 2^{n-1}=(n+1) \\cdot 2^n \\\\ & \\text { If } f(x)=x^{n+1} \\Rightarrow f^{\\prime}(2)=(n+1) \\cdot 2^n\\end{aligned}$"
+  }
+}

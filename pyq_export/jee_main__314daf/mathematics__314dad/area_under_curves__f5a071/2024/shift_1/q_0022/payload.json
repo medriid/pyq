@@ -1,0 +1,24 @@
+{
+  "index": 22,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602565bccda81624f5a071",
+    "chapter_name": "Area Under Curves",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let the area of the region enclosed by the curve $y=\\min \\{\\sin x, \\cos x\\}$ and the $x$ axis between $x=-\\pi$ to $x=\\pi$ be $A$. Then $A^2$ is equal to ___________"
+  },
+  "options": [],
+  "correct_answer": "16",
+  "solution": {
+    "text": "$\\begin{aligned} & y=\\min \\{\\sin x, \\cos x\\} \\\\ & x-\\text { axis } \\quad x-\\pi \\quad x=\\pi\\end{aligned}$<br /><img src=\"assets\\st0022_e14fea1114c4.png\"><br />$\\begin{aligned} & \\int_0^{\\pi / 4} \\sin x=(\\cos x)_{\\pi / 4}^0=1-\\frac{1}{\\sqrt{2}} \\\\ & \\int_{-\\pi}^{-3 \\pi / 4}(\\sin x-\\cos x)=(-\\cos x-\\sin x)_{-\\pi}^{-3 \\pi / 4} \\\\ & =(\\cos x+\\sin x)_{-3 \\pi / 4}^{-\\pi} \\\\ & =(-1+0)-\\left(-\\frac{1}{\\sqrt{2}}-\\frac{1}{\\sqrt{2}}\\right) \\\\ & =-1+\\frac{1}{\\sqrt{2}}+\\frac{1}{\\sqrt{2}} \\\\ & \\int_{\\pi / 4}^{\\pi / 2} \\cos x d x=(\\sin x)_{\\pi / 4}^{\\pi / 2}=1-\\frac{1}{\\sqrt{2}} \\\\ & A=4 \\\\ & A^2=16\\end{aligned}$"
+  }
+}

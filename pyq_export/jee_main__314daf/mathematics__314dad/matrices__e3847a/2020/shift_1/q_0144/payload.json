@@ -1,0 +1,24 @@
+{
+  "index": 144,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2020 (08 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2020",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The number of all <math><mn>3</mn><mo>&#215;</mo><mn>3</mn></math> matrices <math><mi>A</mi><mo>,</mo></math> with entries from the set <math><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mo>-</mo><mn>1</mn><mo>,</mo><mi></mi><mn>0</mn><mo>,</mo><mi></mi><mn>1</mn></mrow></mfenced></math> such that the sum of the diagonal elements of <math><mi>A</mi><msup><mrow><mi>A</mi></mrow><mrow><mi>T</mi></mrow></msup></math> is <math><mn>3</mn><mo>,</mo></math> is ___________."
+  },
+  "options": [],
+  "correct_answer": "672",
+  "solution": {
+    "text": "Let,&nbsp;<math><mi>A</mi><mo>=</mo><msub><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><msub><mrow><mi>a</mi></mrow><mrow><mi>i</mi><mi>i</mi></mrow></msub></mrow></mfenced></mrow><mrow><mn>3</mn><mo>&#215;</mo><mn>3</mn></mrow></msub></math><br /><math><mi>t</mi><mi>r</mi><mo>(</mo><mi>A</mi><msup><mrow><mi>A</mi></mrow><mrow><mi>T</mi></mrow></msup><mo>)</mo><mo>=</mo><mn>3</mn></math><br /><math><msubsup><mrow><mi>a</mi></mrow><mrow><mn>11</mn></mrow><mrow><mn>2</mn></mrow></msubsup><mo>+</mo><msubsup><mrow><mi>a</mi></mrow><mrow><mn>12</mn></mrow><mrow><mn>2</mn></mrow></msubsup><mi mathvariant=\"normal\"></mi><mo>+</mo><msubsup><mrow><mi>a</mi></mrow><mrow><mn>13</mn></mrow><mrow><mn>2</mn></mrow></msubsup><mo>+</mo><msubsup><mrow><mi>a</mi></mrow><mrow><mn>21</mn></mrow><mrow><mn>2</mn></mrow></msubsup><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><msubsup><mrow><mi>a</mi></mrow><mrow><mn>33</mn></mrow><mrow><mn>2</mn></mrow></msubsup><mo>=</mo><mn>3</mn></math><br />Possible cases<br /><math><mfenced close=\"}\" open=\"\" separators=\"|\"><mrow><mtable><mtr><mtd><mn>0</mn><mo>,</mo><mn>0,0</mn><mo>,</mo><mn>0,0</mn><mo>,</mo><mn>0,1</mn><mo>,</mo><mn>1,1</mn></mtd><mtd><mo>&#8594;</mo><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn><mo>,</mo><mn>0,0</mn><mo>,</mo><mn>0,0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mo>-</mo><mn>1</mn><mo>,</mo><mo>-</mo><mn>1</mn><mo>,</mo><mo>-</mo><mn>1</mn></mtd><mtd><mo>&#8594;</mo><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn><mo>,</mo><mn>0,0</mn><mo>,</mo><mn>0,0</mn><mo>,</mo><mn>0,1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mo>-</mo><mn>1</mn></mtd><mtd><mo>&#8594;</mo><mn>3</mn></mtd></mtr><mtr><mtd><mn>0</mn><mo>,</mo><mn>0,0</mn><mo>,</mo><mn>0,0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mo>-</mo><mn>1,1</mn><mo>,</mo><mo>-</mo><mn>1</mn></mtd><mtd><mo>&#8594;</mo><mn>3</mn></mtd></mtr></mtable></mrow></mfenced><msup><mrow><mo>&#8201;</mo></mrow><mrow><mn>9</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>6</mn></mrow></msub><mo>&#215;</mo><mn>8</mn><mo>=</mo><mn>84</mn><mo>&#215;</mo><mn>8</mn><mo>=</mo><mn>672</mn></math>"
+  }
+}

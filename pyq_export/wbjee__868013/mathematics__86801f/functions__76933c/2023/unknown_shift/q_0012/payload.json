@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0f42b7a9706676933c",
+    "chapter_name": "Functions",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In the interval \\((-2 \\pi, 0)\\), the function \\(f(x)=\\sin \\left(\\frac{1}{x^3}\\right)\\)"
+  },
+  "options": [
+    {
+      "text": "never changes sign",
+      "is_correct": false
+    },
+    {
+      "text": "changes sign only once",
+      "is_correct": false
+    },
+    {
+      "text": "changes sign more than once but finitely many times",
+      "is_correct": false
+    },
+    {
+      "text": "changes sign infinitely many times",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Hint : \\(x \\in(-2 \\pi, 0), f(x)=\\sin \\left(\\frac{1}{x^3}\\right)\\)\n\\(\\begin{aligned}\n& \\because-2 \\pi  < x < 0 \\\\\n& \\Rightarrow-8 \\pi^3 < x^3 < 0 \\\\\n& \\Rightarrow-\\infty < \\frac{1}{x^3} < -\\frac{1}{8 \\pi^3}\n\\end{aligned}\\)\nHence, \\(\\sin \\left(\\frac{1}{x^3}\\right)\\) will take all values from -1 to 1 , and will change its sign infinitely many times since it is a periodic function"
+  }
+}

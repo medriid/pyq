@@ -1,0 +1,24 @@
+{
+  "index": 11,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If the sum of the first 10 terms of the series $\\frac{4.1}{1+4.1^4}+\\frac{4.2}{1+4.2^4}+\\frac{4.3}{1+4.3^4}+\\ldots$ is $\\frac{m}{n}$, where $\\operatorname{gcd}(m, n)=1$, then $m+n$ is equal to______"
+  },
+  "options": [],
+  "correct_answer": "441",
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{T}_{\\mathrm{r}}=\\frac{4 . \\mathrm{r}}{1+4 . \\mathrm{r}^4} \\\\ & \\mathrm{~T}_{\\mathrm{r}}=\\frac{4 . \\mathrm{r}}{\\left(2 \\mathrm{r}^2+2 \\mathrm{r}+1\\right)\\left(2 \\mathrm{r}^2-2 \\mathrm{r}+1\\right)} \\\\ & \\mathrm{T}_{\\mathrm{r}}=\\frac{\\left(2 \\mathrm{r}^2+2 \\mathrm{r}+1\\right)-\\left(2 \\mathrm{r}^2-2 \\mathrm{r}+1\\right)}{\\left(2 \\mathrm{r}^2+2 \\mathrm{r}+1\\right)\\left(2 \\mathrm{r}^2-2 \\mathrm{r}+1\\right)}\\end{aligned}$<br/>$\\begin{aligned} & \\mathrm{T}_{\\mathrm{r}}=\\frac{1}{2 \\mathrm{r}^2-2 \\mathrm{r}+1}-\\frac{1}{2 \\mathrm{r}^2+2 \\mathrm{r}+1} \\\\ & \\mathrm{~T}_1=\\frac{1}{1}-\\frac{1}{5} \\\\ & \\mathrm{~T}_2=\\frac{1}{5}-\\frac{1}{13}\\end{aligned}$<br/>$\\begin{aligned} & \\mathrm{T}_{10}=\\frac{1}{181}-\\frac{1}{221} \\\\ & \\mathrm{~S}_{10}=1-\\frac{1}{221}=\\frac{220}{221}=\\frac{\\mathrm{m}}{\\mathrm{n}} \\\\ & \\mathrm{m}+\\mathrm{n}=441\\end{aligned}$"
+  }
+}

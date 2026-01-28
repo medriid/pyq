@@ -1,0 +1,63 @@
+{
+  "_id": "64a81416e0ff5a5425a85856",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec4",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "WBJEE 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $\\alpha$ and $\\beta$ be iwo distinct roots of $a \\cos \\theta+b \\sin \\theta=c,$ where $a, b, c$ are three\r\nreal constants and $0 \\in|0,2 \\pi|$. Then, $\\alpha+\\beta$ is also a root of the same equation, if",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "agAkl",
+      "text": "$a+b=c$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "DWZMl",
+      "text": "$b+c=a$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "L8leA",
+      "text": "$c+a=b$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "KGGsY",
+      "text": "$c=a$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given equation is $a \\cos \\theta+b \\sin \\theta=c$\r\n$\\Rightarrow a\\left(\\frac{1-\\tan ^{2} \\frac{\\theta}{2}}{1+\\tan ^{2} \\frac{\\theta}{2}}\\right)+\\frac{2 b \\tan \\frac{\\theta}{2}}{1+\\tan ^{2} \\frac{\\theta}{2}}=c$\r\n$\\left[\\because \\cos \\theta=\\frac{1-\\tan ^{2} \\frac{\\theta}{2}}{1+\\tan ^{2} \\frac{\\theta}{2}}\\right.$ and $\\left.\\sin \\theta=\\frac{2 \\tan \\frac{\\theta}{2}}{1+\\tan ^{2} \\frac{\\theta}{2}}\\right]$\r\n$\\Rightarrow a\\left(1-\\tan ^{2} \\frac{\\theta}{2}\\right)+2 b \\tan \\frac{\\theta}{2}=c\\left(1+\\tan ^{2} \\frac{\\theta}{2}\\right)$\r\n$\\Rightarrow a-\\operatorname{atan}^{2} \\frac{\\theta}{2}+2 b \\tan \\frac{\\theta}{2}-c-c \\tan ^{2} \\frac{\\theta}{2}=0$\r\n$\\Rightarrow(c+a) \\tan ^{2} \\frac{\\theta}{2}-2 b \\tan \\frac{\\theta}{2}+(c-a)=0$\r\nLet $\\alpha$ and $\\beta$ be the roots of the equation $\\therefore \\alpha+\\beta=\\frac{2 b}{c+a}$ and $\\alpha \\beta=\\frac{c-a}{c+a}$\r\nNow, $\\tan \\frac{\\alpha+\\beta}{2}=\\frac{\\frac{2 b}{c+a}}{1-\\frac{c-a}{c+a}}$\r\n$=\\frac{\\frac{c+a}{c+a-c+a}}{c+a}=\\frac{b}{a}$\r\nsince, $\\frac{b}{c}$ is a root of the equation. $\\therefore \\quad(c+a) \\frac{b^{2}}{a^{2}}-2 b\\left(\\frac{b}{a}\\right)+c-a=0$\r\n$\\Rightarrow b^{2} c+b^{2} a-2 b^{2} a+c a^{2}-a^{3}=0$\r\n$\\Rightarrow-b^{2} a+b^{2} c+c a^{2}-a^{3}=0$\r\n$\\Rightarrow \\quad b^{2} c-b^{2} a+c a^{2}-a^{3}=0$\r\n$\\Rightarrow \\quad b^{2}(c-a)+a^{2}(c-a)=0$\r\n$\\Rightarrow \\quad(c-a)\\left(b^{2}+a^{2}\\right)=0$\r\n$\\Rightarrow c-a=0 \\quad$ or $\\quad b^{2}+a^{2}=0$\r\n$\\Rightarrow \\quad c=a$ or $b^{2}+a^{2}=0$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec4",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "WBJEE 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

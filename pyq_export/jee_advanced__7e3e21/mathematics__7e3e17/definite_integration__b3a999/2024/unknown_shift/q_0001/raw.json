@@ -1,0 +1,58 @@
+{
+  "_id": "66965df3d603121f43a46d6f",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "66965789b31faf98fda8fefa",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2024-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Paper 2)",
+      "title": "JEE Advanced 2024 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let \\(f:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow[0,1]\\) be the function defined by \\(f(x)=\\sin ^2 x\\) and let \\(g:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow[0, \\infty)\\) be the function defined by \\(g(x)=\\sqrt{\\frac{\\pi x}{2}-x^2}\\).\nThe value of $\\frac{16}{\\pi^3} \\int_0^{\\frac{\\pi}{2}} f(x) g(x) d x$ is",
+    "image": null
+  },
+  "options": [],
+  "correctValue": 0.25,
+  "solution": {
+    "text": "Now $I_1=\\int_0^{\\frac{\\pi}{2}} f(x) \\cdot g(x) d x=\\frac{1}{2} \\int_0^{\\frac{\\pi}{2}} g(x) d x$ (it is explained in previous question solution)\ni.e. $\\frac{1}{2} \\int_0^{\\frac{\\pi}{2}} \\sqrt{\\left(\\frac{\\pi}{4}\\right)^2-\\left(x-\\frac{\\pi}{4}\\right)^2} \\mathrm{dx}$\nUsing $\\int \\sqrt{a^2-x^2}=\\frac{1}{2}\\left(x \\sqrt{a^2-x^2}+a^2 \\sin ^{-1}\\left(\\frac{x}{a}\\right)\\right)+C$\n$\\Rightarrow \\frac{1}{2}\\left[\\frac{\\left(x-\\frac{\\pi}{4}\\right)}{2} \\sqrt{\\frac{\\pi x}{2}-x^2}+\\frac{\\frac{\\pi^2}{2}}{2} \\sin ^{-1}\\left(\\frac{x-\\frac{\\pi}{4}}{\\frac{\\pi}{4}}\\right)\\right]_0^{\\pi / 2}$\n$\\begin{aligned} & \\Rightarrow \\frac{1}{2}\\left[\\left(0+\\frac{\\pi^3}{64}\\right)-\\left(0+\\left(\\frac{-\\pi^3}{64}\\right)\\right)\\right] \\\\ & \\Rightarrow \\frac{1}{2} \\times \\frac{\\pi^3}{32}\\end{aligned}$\nNow $\\frac{16}{\\pi^3} \\times \\frac{\\pi^3}{64}=\\frac{1}{4}=0.25$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "66d44bd8974e42e9844e644abcb19d4f",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/I5z6vFMyNeXhi.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/I5z6vFMyNeXhi.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "66965789b31faf98fda8fefa",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2024-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Paper 2)",
+    "title": "JEE Advanced 2024 (Paper 2)"
+  },
+  "evalStatus": "incorrect",
+  "lastPracticed": "2024-09-29T11:24:41.636Z"
+}

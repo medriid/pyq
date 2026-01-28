@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $f(x)=\\int_0^t t\\left(t^2-9 t+20\\right) d t, 1 \\leq x \\leq 5$. If the range of $f$ is $[\\alpha, \\beta]$, then $4(\\alpha+\\beta)$ equals :"
+  },
+  "options": [
+    {
+      "text": "253",
+      "is_correct": false
+    },
+    {
+      "text": "154",
+      "is_correct": false
+    },
+    {
+      "text": "125",
+      "is_correct": false
+    },
+    {
+      "text": "157",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$f^{\\prime}(x)=x\\left(x^2-9 x+20\\right), x \\in(1,5)$\n$=(x-4) x(x-5)$\n<img src=\"assets\\st0010_e6a81b07ad07.png\"><br>\n$\\begin{aligned} & \\Rightarrow f^{\\prime}(x)>0 \\forall x \\in(1,4) \\\\ & \\Rightarrow f^{\\prime}(x) < 0 \\forall x \\in(4,5) \\\\ & \\Rightarrow f(x) \\text { increasing in }(1,4) \\\\ & \\quad f(x) \\text { decreasing in }(4,5) \\\\ & \\Rightarrow \\text { critical points to check: }\\end{aligned}$\n$\\begin{aligned} & x=1,4,5 \\\\ & f(x)=\\int_0^x\\left(t^3-9 t^2+20 t\\right) d t \\\\ & =\\frac{t^4}{4}-3 t^3+\\left.10 t^2\\right|_0 ^x=\\frac{x^4}{4}-3 x^3+10 x^2 \\\\ & f(1)=\\frac{1}{4}-3+10=\\frac{29}{4} \\\\ & f(4)=4^3-3.4^3+10.4^2=-2.4^3+10.4^2=32 \\\\ & f(5)=\\frac{5^4}{4}-3.5^3+10.25=\\frac{5^4}{4}-125=\\frac{125}{4}\\end{aligned}$\n$\\begin{aligned} & \\text { Range } \\Rightarrow\\left[\\frac{29}{4}, 32\\right] \\Rightarrow 4(\\alpha+\\beta)=128+29 \\\\ & =157\\end{aligned}$"
+  }
+}

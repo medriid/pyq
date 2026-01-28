@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254da66d43264e2f6510",
+    "chapter_name": "Sets and Relations",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Define a relation R on the interval \\(\\left[0, \\frac{\\pi}{2}\\right)\\) by \\(x \\mathrm{R} y\\) if and only if \\(\\sec ^2 x-\\tan ^2 y=1\\). Then R is :"
+  },
+  "options": [
+    {
+      "text": "both reflexive and transitive but not symmetric",
+      "is_correct": false
+    },
+    {
+      "text": "an equivalence relation",
+      "is_correct": true
+    },
+    {
+      "text": "reflexive but neither symmetric not transitive",
+      "is_correct": false
+    },
+    {
+      "text": "both reflexive and symmetric but not transitive",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\sec ^2 x-\\tan ^2 x=1 \\quad(\\text { on replacing } y \\text { with } x) \\\\\n& \\Rightarrow \\text { Reflexive } \\\\\n& \\sec ^2 x-\\tan ^2 y=1 \\\\\n& \\Rightarrow 1+\\tan ^2 x+1-\\sec ^2 y=1 \\\\\n& \\Rightarrow \\sec ^2 y-\\tan ^2 x=1 \\\\\n& \\Rightarrow \\text { symmetric } \\\\\n& \\sec ^2 x-\\tan ^2 y=1 \\\\\n& \\sec ^2 y-\\tan ^2 z=1\n\\end{aligned}$\n\nAdding both\n\n$\\begin{aligned}\n& \\Rightarrow \\sec ^2 x-\\tan ^2 y+\\sec ^2 y-\\tan ^2 z=1+1 \\\\\n& \\sec ^2 x+1-\\tan ^2 z=2 \\\\\n& \\sec ^2 x-\\tan ^2 z=1 \\\\\n& \\Rightarrow \\text { Transitive }\n\\end{aligned}$\nhence equivalence releation"
+  }
+}

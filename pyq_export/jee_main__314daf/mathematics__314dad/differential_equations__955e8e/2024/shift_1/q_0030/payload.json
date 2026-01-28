@@ -1,0 +1,43 @@
+{
+  "index": 30,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $y=y(x)$ be the solution of the differential equation $\\left(1+x^2\\right) \\frac{d y}{d x}+y=e^{\\tan ^{-1} x}$, $y(1)=0$. Then $y(0)$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{2}\\left(e^{\\pi / 2}-1\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}\\left(1-e^{\\pi / 2}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{4}\\left(1-e^{\\pi / 2}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{4}\\left(e^{\\pi / 2}-1\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\frac{d y}{d x}+\\frac{y}{1+x^2}=\\frac{e^{\\tan ^{-1} x}}{1+x^2} \\\\ & \\text { I.F. }=e^{\\int \\frac{1}{1+x^2} d x}=e^{\\tan ^{-1} x} \\\\ & y \\cdot e^{\\tan ^{-1} x}=\\int\\left(\\frac{e^{\\tan ^{-1} x}}{1+x^2}\\right) e^{\\tan ^{-1} x} \\cdot d x \\\\ & \\text { Let } \\tan ^{-1} x=z \\quad \\therefore \\frac{d x}{1+x^2}=d z \\\\ & \\therefore y \\cdot e^z=\\int e^{2 z} d z=\\frac{e^{2 z}}{2}+C \\\\ & y \\cdot e^{\\tan ^{-1} x}=\\frac{e^{2 \\tan ^{-1} x}}{2}+C \\\\ & \\Rightarrow y=\\frac{e^{\\tan ^{-1} x}}{2}+\\frac{C}{e^{\\tan ^{-1} x}}\\end{aligned}$<br />$\\begin{aligned} & \\because \\mathrm{y}(1)=0 \\Rightarrow 0=\\frac{\\mathrm{e}^{\\pi / 4}}{2}+\\frac{\\mathrm{C}}{\\mathrm{e}^{\\pi / 4}} \\Rightarrow \\mathrm{C}=\\frac{-\\mathrm{e}^{\\pi / 2}}{2} \\\\ & \\therefore \\mathrm{y}=\\frac{\\mathrm{e}^{\\tan ^{-1} \\mathrm{x}}}{2}-\\frac{\\mathrm{e}^{\\pi / 2}}{2 \\mathrm{e}^{\\tan ^{-1} \\mathrm{x}}} \\\\ & \\therefore \\mathrm{y}(0)=\\frac{1-\\mathrm{e}^{\\pi / 2}}{2}\\end{aligned}$"
+  }
+}

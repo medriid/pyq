@@ -1,0 +1,63 @@
+{
+  "_id": "64a81476e0ff5a5425a85be3",
+  "previousYearPapers": [
+    {
+      "_id": "61a1eb3cb860a4fc00943685",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2021-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021",
+      "title": "WBJEE 2021"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "If $\\int \\frac{\\sin 2 x}{(a+b \\cos x)^{2}} d x=\\alpha\\left[\\log _{e}|a+b \\cos x|+\\frac{a}{a+b \\cos x}\\right]+c$, then $\\alpha=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Xen1j",
+      "text": "$\\frac{2}{\\mathrm{~b}^{2}}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "kNksu",
+      "text": "$\\frac{2}{a^{2}}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "5pu9h",
+      "text": "$-\\frac{2}{b^{2}}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "Hq975",
+      "text": "$-\\frac{2}{\\mathrm{a}^{2}}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\int \\frac{\\sin 2 x}{(a+b \\cos x)^{2}} d x$\r\nPut $a+b \\cos x=t$\r\n$-b \\sin x d x=d t$\r\n$=\\int \\frac{2 \\sin x \\cos x}{t^{2}} \\cdot \\frac{d t}{-b \\sin x}=\\int \\frac{-2}{b} \\cdot\\left(\\frac{t-a}{b}\\right) \\cdot \\frac{1}{t^{2}} d t=\\frac{-2}{b^{2}} \\int\\left(\\frac{1}{t}-\\frac{a}{t^{2}}\\right) d t \\quad \\therefore \\alpha=\\frac{-2}{b^{2}}$\r\n$=-\\frac{2}{b^{2}}\\left[\\ln |t|+\\frac{a}{t}\\right]+c$\r\n$=\\frac{-2}{b^{2}}\\left[\\ln |a+b \\cos x|+\\frac{a}{a+b \\cos x}\\right]+c$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a1eb3cb860a4fc00943685",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2021-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021",
+    "title": "WBJEE 2021"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

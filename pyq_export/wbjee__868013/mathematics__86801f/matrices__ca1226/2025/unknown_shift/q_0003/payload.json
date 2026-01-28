@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2025",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0788c63c34f9ca1226",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "An $n \\times n$ matrix is formed using 0,1 and -1 as its elements. The number of such matrices which are skew symmetric is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{n(n-1)}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$(n-1)^2$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^{n(n-1) / 2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$3^{n(n-1) / 2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$3^{\\frac{n(n-1)}{2}}$\nEach diagonal entry must be ' 0 ' and sum of conjugate elements will be ' 0 '. So, we need to select elements of one side of the diagonal, where each entry has three options."
+  }
+}

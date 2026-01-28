@@ -1,0 +1,63 @@
+{
+  "_id": "64b169e4f23ac7d519f9af6b",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c42",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2008-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008 (Paper 1)",
+      "title": "JEE Advanced 2008 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "If $0 < x < 1$, then $\\sqrt{1+x^2}\\left[\\left\\{x \\cos \\left(\\cot ^{-1} x\\right)+\\sin \\left(\\cot ^{-1} x\\right)\\right\\}^2-1\\right]^{\\frac{1}{2}}$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "c7Fna",
+      "text": "\n$\\frac{x}{\\sqrt{1+x^2}}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "AEG2n",
+      "text": "\n$x$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ixaS5",
+      "text": "\n$x \\sqrt{1+x^2}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "ZA534",
+      "text": "\n$\\sqrt{1+x^2}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have, $0 < x < 1$\nLet $\\quad \\cot ^{-1} x=\\theta$\n$\\Rightarrow \\quad \\cot \\theta=x$\n$\\therefore \\quad \\sin \\theta=\\frac{1}{\\sqrt{1+x^2}}=\\sin \\left(\\cot ^{-1} x\\right)$\nand $\\quad \\cos \\theta=\\frac{x}{\\sqrt{1+x^2}}=\\cos \\left(\\cot ^{-1} x\\right)$\nNow, $\\sqrt{1+x^2}\\left[\\left\\{x \\cos \\left(\\cot ^{-1} x\\right)+\\sin \\left(\\cot ^{-1} x\\right)\\right\\}^2-1\\right]^{1 / 2}$<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/gdRdKnY4ku1SFC16FGAuw3rwedtFLoTtWorYa_mxRmU.original.fullsize.png\"><br>\n$$\n\\text { Now, } \\begin{aligned}\n& \\sqrt{1+x^2}\\left[\\left\\{x \\cos \\left(\\cot ^{-1} x\\right)+\\sin \\left(\\cot ^{-1} x\\right)\\right\\}^2-1\\right]^{1 / 2} \\\\\n&=\\sqrt{1+x^2}\\left[\\left\\{x \\frac{x}{\\sqrt{1+x^2}}+\\frac{1}{\\sqrt{1+x^2}}\\right\\}^2-1\\right]^{1 / 2} \\\\\n&=\\sqrt{1+x^2}\\left[\\left(\\frac{1+x^2}{\\sqrt{1+x^2}}\\right)^2-1\\right]^{1 / 2} \\\\\n&=\\sqrt{1+x^2}\\left[1+x^2-1\\right]^{1 / 2} \\\\\n&=x \\sqrt{1+x^2}\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c42",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2008-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008 (Paper 1)",
+    "title": "JEE Advanced 2008 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

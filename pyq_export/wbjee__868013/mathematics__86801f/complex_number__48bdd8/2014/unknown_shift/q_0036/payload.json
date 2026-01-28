@@ -1,0 +1,43 @@
+{
+  "index": 36,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc9a79d891b2548bdd8",
+    "chapter_name": "Complex Number",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\alpha, \\beta$ denote the cube roots of unity other than 1 and $\\alpha \\neq \\beta .$ Let $S=\\sum_{n=0}^{\\infty}(-1)^{n}\\left(\\frac{\\alpha}{\\beta}\\right)^{n} .$ Then the value of $S$ is"
+  },
+  "options": [
+    {
+      "text": "either $-2 \\omega$ or $-2 \\omega^{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "either $-2 \\omega$ or $2 \\omega^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "either $2 \\omega$ or $-2 \\omega^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "either $2 \\omega$ or $2 \\omega^{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Case I Let $\\alpha=\\omega$ and $\\beta=\\omega^{2}$\r\n$S=\\sum_{n=0}^{302}(-1)^{n}\\left(\\frac{\\omega}{\\omega^{2}}\\right)^{n}$\r\n$=\\sum_{n=0}^{302}(-1)^{n}\\left(\\omega^{2}\\right)^{n}$\r\n$=1-\\omega^{2}+\\omega^{4}-\\omega^{6}+\\omega^{8}-\\omega^{10}+\\omega^{12}$\r\n$\\quad+\\ldots+\\omega^{600}-\\omega^{602}+\\omega^{604}$\r\n$=1-\\omega^{2}+\\omega-1+\\omega^{2}-\\omega+1+\\ldots$\r\n$=0+\\ldots+1-\\omega^{2}+\\omega$\r\n$=-\\omega^{2}-\\omega^{2}=-2 \\omega^{2} \\quad\\left[\\because 1+\\omega+\\omega^{2}=0\\right]$\r\nCase II Let $\\alpha=\\omega^{2}$ and $\\beta=\\omega$\r\n$\\therefore S=\\sum_{n=0}^{\\infty_{2}}(-1)^{n}\\left(\\frac{\\omega^{2}}{\\omega}\\right)^{n}$\r\n$=\\sum_{n=0}^{302}(-1)^{n}\\left(\\frac{\\omega^{4}}{\\omega^{3}}\\right)^{n}$\r\n$=\\sum_{n=0}^{302}(-1)^{n}(\\omega)$\r\n$=1-\\omega+\\omega^{2}-\\omega^{3}+\\omega^{4}-\\omega^{5}+\\omega^{6}-\\ldots$\r\n$+\\omega^{300}-\\omega^{301}+\\omega^{302}$\r\n$=1-\\omega+\\omega^{2}-1+\\omega-\\omega^{2}+1$\r\n$=0+\\ldots+1+\\omega^{2}-\\omega$\r\n$=-\\omega-\\omega=-2 \\omega$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 80,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2010",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\frac{\\mathrm{d}}{\\mathrm{dx}}\\{\\mathrm{f}(\\mathrm{x})\\}=\\mathrm{g}(\\mathrm{x})$, then $\\int_a^b \\mathrm{f}(\\mathrm{x}) \\mathrm{g}(\\mathrm{x}) \\mathrm{dx}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{2}\\left[\\mathrm{f}^2(\\mathrm{~b})-\\mathrm{f}^2(\\mathrm{a})\\right]$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{2}\\left[\\mathrm{~g}^2(\\mathrm{~b})-\\mathrm{g}^2(\\mathrm{a})\\right]$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(b)-f(a)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}\\left[\\mathrm{f}\\left(\\mathrm{b}^2\\right)-\\mathrm{f}\\left(\\mathrm{a}^2\\right)\\right]$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Hints $: f(x)=\\int g(x) d x$\n$$\n\\begin{aligned}\n& \\int_a^b f(x) \\cdot g(x) \\cdot d x=(f(x) f(x))_a^b-\\int_a^b g(x) f(x) d x \\\\\n& I=f^2(b)-f^n(a)^{-1} \\\\\n& I=\\frac{1}{2}\\left(f^2(b)-f^2(a)\\right)\n\\end{aligned}\n$$"
+  }
+}

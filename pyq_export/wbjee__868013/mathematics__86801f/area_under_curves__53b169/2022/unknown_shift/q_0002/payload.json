@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1f21590031c653b169",
+    "chapter_name": "Area Under Curves",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Area of the figure bounded by the parabola $y^2+8 x=16$ and $y^2-24 x=48$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{11}{9}$ sq. unit",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{32}{3} \\sqrt{6}$ sq. unit",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{16}{3}$ sq. unit",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{24}{5}$ sq. unit",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{gathered}\ny^2=-8(x-2) \\\\\ny^2=24(x+2) \\cdots(2)\n\\end{gathered}\n$$\nSolving (1) and $(2) \\Rightarrow x=-1$\nArea $=2\\left[\\int_{-2}^{-1} 2 \\sqrt{6} \\sqrt{x+2} \\mathrm{dx}+\\int_{-1}^2 2 \\sqrt{2} \\sqrt{2-x} \\mathrm{dx}\\right]=\\frac{32}{3} \\sqrt{6}$ sq. unit\n<img src=\"assets\\st0002_ec4d76ca0abb.png\">"
+  }
+}

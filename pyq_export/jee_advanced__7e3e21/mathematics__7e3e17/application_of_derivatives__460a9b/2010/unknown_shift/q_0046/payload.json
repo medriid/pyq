@@ -1,0 +1,43 @@
+{
+  "index": 46,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2010 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255d3df243724d460a9b",
+    "chapter_name": "Application of Derivatives",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nConsider the polynomial $f(x)=1+2 x+3 x^2+4 x^3$. Let $s$ be the sum of all distinct real roots of $f(x)$ and let $t=|s|$.<strong>Question:</strong>\nThe real number $s$ lies in the interval"
+  },
+  "options": [
+    {
+      "text": "\n$\\left(-\\frac{1}{4}, 0\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left(-11,-\\frac{3}{4}\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left(-\\frac{3}{4},-\\frac{1}{2}\\right)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\left(0, \\frac{1}{4}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given, $f(x)=4 x^3+3 x^2+2 x+1$\n$$\n\\begin{aligned}\n& f^{\\prime}(x)=2\\left(6 x^2+3 x+1\\right) \\\\\n& D=9-24 < 0\n\\end{aligned}\n$$\nHence, $f(x)=0$ has only one real root.\n$$\n\\begin{aligned}\nf\\left(-\\frac{1}{2}\\right) & =1-1+\\frac{3}{4}-\\frac{4}{8}>0 \\\\\nf\\left(-\\frac{3}{4}\\right) & =1-\\frac{6}{4}+\\frac{27}{16}-\\frac{108}{64} \\\\\n& =\\frac{64-96+108-108}{64} < 0\n\\end{aligned}\n$$\n$f(x)$ changes its sign in $\\left(-\\frac{3}{4}, \\frac{-1}{2}\\right)$, hence $f(x)=0$ has a root in $\\left(\\frac{-3}{4}, \\frac{-1}{2}\\right)$."
+  }
+}

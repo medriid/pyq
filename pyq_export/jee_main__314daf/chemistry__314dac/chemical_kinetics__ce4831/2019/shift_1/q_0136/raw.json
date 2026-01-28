@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a66417cc3fb48d6660c",
+  "previousYearPapers": [
+    {
+      "_id": "615d92ecde3d91842a5cf7f4",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2019-04-10T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019 (10 Apr Shift 1)",
+      "title": "JEE Main 2019 (10 Apr Shift 1)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "A bacterial infection in an internal wound grows as <math><msup><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mi mathvariant=\"normal\">&#39;</mi></mrow></msup><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">t</mi></mrow></mfenced><mo>=</mo><msub><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>0</mn></mrow></msub><mi mathvariant=\"normal\">e</mi><mi mathvariant=\"normal\">x</mi><mi mathvariant=\"normal\">p</mi><mo>&#8289;</mo><mo>(</mo><mi mathvariant=\"normal\">t</mi><mo>)</mo></math> , where the time <math><mi mathvariant=\"normal\">t</mi></math> is in hours. A dose of antibiotic, taken orally, needs 1 hour to reach the wound. Once it reaches there, the bacterial population goes down as <math><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">N</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">t</mi></mrow></mfrac><mo>=</mo><mo>-</mo><mn>5</mn><msup><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>2</mn></mrow></msup></math> . What will be the plot of <math><mfrac><mrow><msub><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>0</mn></mrow></msub></mrow><mrow><mi mathvariant=\"normal\">N</mi></mrow></mfrac></math> vs <math><mi mathvariant=\"normal\">t</mi></math> after <math><mn>1</mn></math> hour?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "pPTDk",
+      "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/cc5b85ce-b5fd-475f-8783-ba30b9acf3aa-image.png\" style=\"width: 200px; height: 179px;\" />",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "SHNwa",
+      "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/211fae64-86b2-4fa8-bbb4-afb275e170f9-image.png\" style=\"width: 200px; height: 189px;\" />",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "ELhVy",
+      "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/16357485-196a-4fc7-abf7-d93f2baff837-image.png\" style=\"width: 200px; height: 185px;\" />",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "d8lwf",
+      "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/38951e4d-a194-40b6-a892-6118d9880856-image.png\" style=\"width: 200px; height: 188px;\" />",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "From 0 to 1 hour, <math><msup><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mi mathvariant=\"normal\">'</mi></mrow></msup><mo>=</mo><msub><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>0</mn></mrow></msub><msup><mrow><mi mathvariant=\"normal\">e</mi></mrow><mrow><mi mathvariant=\"normal\">t</mi></mrow></msup></math>  <br/>From 1 hour onwards <math><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">N</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">t</mi></mrow></mfrac><mo>=</mo><mo>-</mo><mn>5</mn><msup><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>2</mn></mrow></msup></math>  <br/>So at <math><mi mathvariant=\"normal\">t</mi><mo>=</mo><mn>1</mn></math> hour, <math><msup><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mi mathvariant=\"normal\">'</mi></mrow></msup><mo>=</mo><mi mathvariant=\"normal\">e</mi><msub><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>0</mn></mrow></msub></math>  <br/><math><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">N</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">t</mi></mrow></mfrac><mo>=</mo><mo>-</mo><mn>5</mn><msup><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>2</mn></mrow></msup></math>  <br/><math><mrow><msubsup><mo stretchy=\"true\">∫</mo><mrow><mi mathvariant=\"normal\">e</mi><msub><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>0</mn></mrow></msub></mrow><mrow><mi mathvariant=\"normal\">N</mi></mrow></msubsup><mrow><msup><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mo>-</mo><mn>2</mn></mrow></msup><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">N</mi></mrow></mrow><mo>=</mo><mo>-</mo><mn>5</mn><mrow><msubsup><mo stretchy=\"true\">∫</mo><mrow><mn>1</mn></mrow><mrow><mi mathvariant=\"normal\">t</mi></mrow></msubsup><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">t</mi></mrow></mrow></math>  <br/><math><mfrac><mrow><mn>1</mn></mrow><mrow><mi mathvariant=\"normal\">N</mi></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi mathvariant=\"normal\">e</mi><msub><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>0</mn></mrow></msub></mrow></mfrac><mo>=</mo><mn>5</mn><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">t</mi><mo>-</mo><mn>1</mn></mrow></mfenced></math>  <br/><math><mfrac><mrow><msub><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>0</mn></mrow></msub></mrow><mrow><mi mathvariant=\"normal\">N</mi></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi mathvariant=\"normal\">e</mi></mrow></mfrac><mo>=</mo><mn>5</mn><msub><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>0</mn></mrow></msub><mo>(</mo><mi mathvariant=\"normal\">t</mi><mo>-</mo><mn>1</mn><mo>)</mo></math>  <br/><math><mfrac><mrow><msub><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>0</mn></mrow></msub></mrow><mrow><mi mathvariant=\"normal\">N</mi></mrow></mfrac><mo>=</mo><mn>5</mn><msub><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>0</mn></mrow></msub><mo>(</mo><mi mathvariant=\"normal\">t</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi mathvariant=\"normal\">e</mi></mrow></mfrac></math>  <br/><math><mfrac><mrow><msub><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>0</mn></mrow></msub></mrow><mrow><mi mathvariant=\"normal\">N</mi></mrow></mfrac><mo>=</mo><mn>5</mn><msub><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>0</mn></mrow></msub><mi mathvariant=\"normal\">t</mi><mo>+</mo><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi mathvariant=\"normal\">e</mi></mrow></mfrac><mo>-</mo><mn>5</mn><msub><mrow><mi mathvariant=\"normal\">N</mi></mrow><mrow><mn>0</mn></mrow></msub></mrow></mfenced></math>  <br/>Which is following <math><mi mathvariant=\"normal\">y</mi><mo>=</mo><mi mathvariant=\"normal\">m</mi><mi mathvariant=\"normal\">x</mi><mo>+</mo><mi mathvariant=\"normal\">C</mi></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ecde3d91842a5cf7f4",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2019-04-10T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019 (10 Apr Shift 1)",
+    "title": "JEE Main 2019 (10 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

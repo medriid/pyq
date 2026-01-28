@@ -1,0 +1,63 @@
+{
+  "_id": "64b169f4f23ac7d519f9affc",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c44",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009 (Paper 1)",
+      "title": "JEE Advanced 2009 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nA fair die is tossed repeatedly until a six is obtained. Let $X$ denotes the number of tosses required.<strong>Question:</strong>\nThe conditional probability that $X \\geq 6$ given $X>3$ equals",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "TXZ8d",
+      "text": "\n$\\frac{125}{216}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "eiOAl",
+      "text": "\n$\\frac{25}{216}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "CUugx",
+      "text": "\n$\\frac{5}{36}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "LTGLO",
+      "text": "\n$\\frac{25}{36}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$P((X \\geq 6) /(X>3))$\n\n$$\n\\begin{aligned}\n& =\\frac{P((X>3) /(X \\geq 6)) \\cdot P(X \\geq 6)}{P(X>3)} \\\\\n& =\\frac{1 \\cdot\\left[\\left(\\frac{5}{6}\\right)^5 \\cdot \\frac{1}{6}+\\left(\\frac{5}{6}\\right)^6 \\cdot \\frac{1}{6}+\\ldots \\infty\\right]}{\\left[\\left(\\frac{5}{6}\\right)^3 \\cdot \\frac{1}{6}+\\left(\\frac{5}{6}\\right)^4 \\cdot \\frac{1}{6}+\\ldots \\infty\\right]}=\\frac{25}{36} \\\\\n&\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c44",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009 (Paper 1)",
+    "title": "JEE Advanced 2009 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

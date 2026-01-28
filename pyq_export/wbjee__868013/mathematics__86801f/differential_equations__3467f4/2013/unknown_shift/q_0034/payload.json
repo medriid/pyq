@@ -1,0 +1,43 @@
+{
+  "index": 34,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The solution of the differential equation $\\left(y^{2}+2 x\\right) \\frac{d y}{d x}=y$ satisfies $x=1, y=1$. Then the solution is"
+  },
+  "options": [
+    {
+      "text": "$x=y^{2}\\left(1+\\log _{e} y\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$y=x^{2}\\left(1+\\log _{e} x\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$x=y^{2}\\left(1-\\log _{e} y\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$y=x^{2}\\left(1-\\log _{e} x\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given differential equation is \r\n$\\left(y^{2}+2 x\\right) \\frac{d y}{d x}=y \\Rightarrow \\frac{d x}{d y}=\\left(\\frac{y^{2}+2 x}{y}\\right)$\r\n$\\Rightarrow \\quad \\frac{d x}{d y}=y+\\frac{2 x}{y}$\r\n$\\Rightarrow \\quad \\frac{d x}{d y}-\\frac{2}{y} \\cdot x=y$\r\n$\\mathrm{IF}=e^{\\int \\frac{2}{y} d y}=e^{-2 \\mathrm{bg} \\gamma}=\\mathrm{y}^{-2}=\\frac{1}{\\mathrm{y}^{2}}$\r\n$\\therefore$ Complete solution is $x \\cdot \\frac{1}{y^{2}}=\\int y \\cdot \\frac{1}{y^{2}} d y+C$\r\n$\\Rightarrow \\quad \\frac{x}{y^{2}}=\\int \\frac{d y}{y}+C=\\log _{e} y+c$\r\n$\\Rightarrow \\quad x=y^{2} \\log _{e} y+C y^{2}$\r\n$A t+x=1 y=1$ then from Eq $(i),$ we get\r\n$$\r\n1=0+C \\Rightarrow C=1\r\n$$\r\n$\\therefore$ From Eq. (i), we get\r\n$$\r\nx=y^{2}\\left(\\log _{e} y+1\\right)\r\n$$\r\nWhich is the required solution."
+  }
+}

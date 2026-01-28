@@ -1,0 +1,43 @@
+{
+  "index": 198,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (09 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The probability of a man hitting a target is $\\frac{2}{5}$. He fires at the target $k$ times $(k$, a given number). Then the minimum $k$, so that the probability of hitting the target at least once is more than $\\frac{7}{10}$, is :"
+  },
+  "options": [
+    {
+      "text": "\n3\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n5\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n2\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n4",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\frac{2}{5}+\\frac{3}{5} \\times \\frac{2}{5}+\\left(\\frac{3}{5}\\right)^2 \\times \\frac{2}{5}+\\ldots \\ldots+\\left(\\frac{3}{5}\\right)^k \\cdot \\frac{2}{5}>\\frac{7}{10} \\\\\n\\Rightarrow & \\frac{2}{5}\\left[1+\\frac{3}{5}+\\left(\\frac{3}{5}\\right)^2+\\ldots \\ldots+\\left(\\frac{3}{5}\\right)^k\\right]>\\frac{7}{10} \\\\\n\\Rightarrow & \\frac{2}{5} \\times \\frac{1-\\left(\\frac{3}{5}\\right)^k}{1-\\frac{3}{5}}>\\frac{7}{10} \\Rightarrow 1-\\left(\\frac{3}{5}\\right)^k>\\frac{7}{10} \\\\\n\\Rightarrow & \\left(\\frac{3}{5}\\right)^k < \\frac{3}{10} \\Rightarrow k \\geq 3\n\\end{aligned}\n$$\nHence minimum value of $k=3$"
+  }
+}

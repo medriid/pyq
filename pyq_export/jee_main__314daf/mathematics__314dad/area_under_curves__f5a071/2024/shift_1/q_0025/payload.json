@@ -1,0 +1,43 @@
+{
+  "index": 25,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602565bccda81624f5a071",
+    "chapter_name": "Area Under Curves",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let the area of the region enclosed by the curves $y=3 x, 2 y=27-3 x$ and $y=3 x-x \\sqrt{x}$ be $A$. Then $10 A$ is equal to"
+  },
+  "options": [
+    {
+      "text": "172",
+      "is_correct": false
+    },
+    {
+      "text": "162",
+      "is_correct": true
+    },
+    {
+      "text": "154",
+      "is_correct": false
+    },
+    {
+      "text": "184",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$y=3 x, 2 y=27-3 x \\& y=3 x-x \\sqrt{x}$\n<img src=\"assets\\st0025_1c5669365bde.png\"><br />$\\begin{aligned} & \\mathrm{A}=\\int_0^3 3 \\mathrm{x}-(3 \\mathrm{x}-\\mathrm{x} \\sqrt{\\mathrm{x}}) \\mathrm{dx}+\\int_3^9\\left(\\frac{27-3 \\mathrm{x}}{2}-(3 \\mathrm{x}-\\mathrm{x} \\sqrt{\\mathrm{x}})\\right) \\mathrm{dx} \\\\ & \\mathrm{A}=\\int_0^3 \\mathrm{x}^{3 / 2} \\mathrm{dx}+\\int_3^9 \\frac{27}{2}-\\frac{9 \\mathrm{x}}{2}+\\mathrm{x}^{3 / 2} \\mathrm{dx} \\\\ & \\mathrm{A}=\\left[\\frac{2 \\mathrm{x}^{5 / 2}}{5}\\right]_0^3+\\frac{27}{2}[\\mathrm{x}]_3^9-\\frac{9}{2}\\left[\\frac{\\mathrm{x}^2}{2}\\right]_3^9+\\left[\\frac{2 \\mathrm{x}^{5 / 2}}{5}\\right]_3^9 \\\\ & \\mathrm{~A}=\\frac{2}{5}\\left(3^{5 / 2}\\right)+\\frac{27}{2}(6)-\\frac{9}{4}(72)+\\frac{2}{5}\\left(9^{5 / 2}-3^{5 / 2}\\right) \\\\ & \\mathrm{A}=\\frac{2}{5}\\left(3^{5 / 2}\\right)+81-162+\\frac{2}{5} \\times 3^5-\\frac{2}{5} \\times 3^{5 / 2} \\\\ & \\mathrm{~A}=\\frac{486}{5}-81=\\frac{81}{5} \\\\ & 10 \\mathrm{~A}=162 \\\\ & \\text {Ans. }=(2)\\end{aligned}$"
+  }
+}

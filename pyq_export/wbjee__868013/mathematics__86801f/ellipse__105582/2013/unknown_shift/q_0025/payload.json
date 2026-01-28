@@ -1,0 +1,43 @@
+{
+  "index": 25,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ce93095e9d0d7105582",
+    "chapter_name": "Ellipse",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The locus of the mid-points of the chords of an ellipse $x^{2}+4 y^{2}=4$ that are drawn from the positive end of the minor axis, is"
+  },
+  "options": [
+    {
+      "text": "a circle with centre $\\left(\\frac{1}{2}, 0\\right)$ and radius 1",
+      "is_correct": false
+    },
+    {
+      "text": "a parabola with focus $\\left(\\frac{1}{2}, 0\\right)$ and directrix $x=-1$",
+      "is_correct": false
+    },
+    {
+      "text": "an ellipse with centre $\\left(0, \\frac{1}{2}\\right),$ major axis 1 and minor axis $\\frac{1}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "a hyperbola with centre $\\left(0, \\frac{1}{2}\\right),$ transverse axis 1 and conjugate axis $\\frac{1}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0025_323378077cfc.png\">\r\n\r\nGiven equation of an ellipse is\r\n$$\r\nx^{2}+4 y^{2}=4\r\n$$\r\n$\\Rightarrow \\quad \\frac{x^{2}}{4}+\\frac{y^{2}}{1}=1$\r\n$\\therefore$ Coordinate of positive end of minor axis is $B(0,1)$ Let mid-point of the chord $B P$ is $M(h, k)$ \r\nThen, $\\quad(h, k)=\\left(\\frac{0+x}{2}, \\frac{1+y}{2}\\right)$\r\n$\\Rightarrow \\quad h=\\frac{x}{2} \\quad \\Rightarrow x=2 h$\r\nand $\\quad k=\\frac{1+y}{2} \\Rightarrow y=2 k-1$\r\n$\\therefore$\r\n$P(x, y)=\\{2 h,(2 k-1)\\}$\r\nSince, the point '$P$' lies ellipses so form Eq. (i). we get $(2 h)_{1}^{2}+4(2 k-1)^{2}=4$\r\n$\\Rightarrow \\quad 4 h^{2}+4(2 k-1)^{2}=4$\r\n$\\Rightarrow \\quad h^{2}+4 k^{2}+1-4 k=1$\r\n$\\Rightarrow \\quad h^{2}+4 k^{2}-4 k=0$\r\nThus, required locus is an ellipse whose equation is $x^{2}+4 y^{2}-4 y=0$\r\n$\\Rightarrow \\quad \\frac{(x-0)^{2}}{1}+\\frac{\\left(y-\\frac{1}{2}\\right)^{2}}{\\left(\\frac{1}{4}\\right)}=1$\r\nwhose centre $\\left(0, \\frac{1}{2}\\right)$ and major and minor axis $\\frac{1}{2}$"
+  }
+}

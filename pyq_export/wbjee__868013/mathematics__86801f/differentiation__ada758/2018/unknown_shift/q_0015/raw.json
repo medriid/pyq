@@ -1,0 +1,63 @@
+{
+  "_id": "64a81440e0ff5a5425a859e9",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7d",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2018-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018",
+      "title": "WBJEE 2018"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Let $f_{1}(x)=e^{x}, f_{2}(x)=e^{f_{1}(x)} \\ldots \\ldots$\r\n$f_{n+1}(x)=c^{f n(x)}$ for all $n \\geq 1 .$ Then for any fixed\r\n$n \\cdot \\frac{d}{d x} f_{n}(x)$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "spfBP",
+      "text": "$f_{n}(x)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "VXvaX",
+      "text": "$f_{n}(x)f_{n-1}(x)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "tekaC",
+      "text": "$f_{n}(x)f_{n-1}(x)...f_{1}(x)$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "c8HWd",
+      "text": "$f_{n}(x)...f_{1}(x)e^{x}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have, $f_{1}(x)=e^{x}$\r\n$$\r\n\\begin{array}{r}\r\nf_{2}(x)=e^{f_{1}(x)} \\\\\r\n\\cdots \\cdot \\cdots \\cdots \\\\\r\n\\cdots f_{n+1}(x)=e^{f_{n}(x)}\r\n\\end{array}\r\n$$\r\n$f_{n}(x)=e^{f_{n-1}(x)}$\r\nOn taking log both sides, we get\r\n$\\quad \\log \\left\\{f_{n}(x)\\right\\}=f_{n-1}(x) \\log e$\r\n$\\Rightarrow \\quad \\frac{d}{d x} \\log \\left(f_{n}(x)\\right)=\\frac{d}{d x} f_{n-1}(x) \\quad(\\because \\log e=1)$\r\n$\\Rightarrow \\quad \\frac{1}{f_{n}(x)} \\frac{d}{d x} f_{n}(x)=f_{n-1}^{\\prime}(x)$\r\n$\\Rightarrow \\quad \\frac{d}{d x} f_{n}(x)=f_{n}(x) f_{n-1}^{\\prime}(x) \\quad \\ldots$ (i)\r\nNow, $\\quad f_{1}^{\\prime}(x)=e^{x}$\r\n$\\begin{array}{l}\\text { and } \\quad f_{2}(x)=e^{f_{1}(x)} \\\\ \\Rightarrow \\log f_{2}(x)=f_{1}(x) \\log e=f_{1}(x) \\\\ \\Rightarrow \\quad \\frac{1}{f_{2}(x)} \\cdot f_{2}^{\\prime}(x)=f_{1}^{\\prime}(x) \\\\ \\Rightarrow \\quad \\begin{aligned} f_{2}^{\\prime}(x) &=f_{2}(x) \\cdot f_{1}^{\\prime}(x) \\\\=f_{2}(x) \\cdot e^{x} &\\left(\\because f_{1}^{\\prime}(x)=e^{x}\\right) \\end{aligned} \\\\ =f_{2}(x) \\cdot f_{1}(x) & {\\left[\\because e^{x}=f_{1}(x)\\right] \\ldots(\\mathrm{ii})}\\end{array}$\r\nFrom Eq. (i). $\\frac{d}{d x} f_{n}(x)=f_{n}(x) \\cdot f_{n-1}(x) \\ldots f_{1}(x)[\\mathrm{using} \\mathrm{Eq}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7d",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2018-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018",
+    "title": "WBJEE 2018"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

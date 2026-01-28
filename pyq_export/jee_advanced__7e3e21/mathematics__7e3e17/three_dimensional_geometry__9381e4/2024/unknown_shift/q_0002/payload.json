@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2024 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256fa38382a3a99381e4",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\gamma \\in \\mathbb{R}$ be such that the lines $\\mathrm{L}_1: \\frac{x+11}{1}=\\frac{\\mathrm{y}+21}{2}=\\frac{\\mathrm{z}+29}{3}$ and $L_2: \\frac{x+16}{3}=\\frac{y+11}{2}=\\frac{z+4}{\\gamma}$ intersect. Let $\\mathrm{R}_1$ be the point of intersection of $\\mathrm{L}_1$ and $\\mathrm{L}_2$. Let $\\mathrm{O}=(0,0,0)$, and $\\hat{\\mathrm{n}}$ denote a unit normal vector to the plane containing both the lines $\\mathrm{L}_1$ and $\\mathrm{L}_2$.\nMatch each entry in List-I to the correct entry in List-II.\n<img src=\"assets\\qt0002_fb8479ddd13b.png\"/>\n The correct option is"
+  },
+  "options": [
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(3) \\quad(\\mathrm{Q}) \\rightarrow(4) \\quad(\\mathrm{R}) \\rightarrow(1) \\quad(\\mathrm{S}) \\rightarrow(2)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(5) \\quad(\\mathrm{Q}) \\rightarrow(4) \\quad(\\mathrm{R}) \\rightarrow(1) \\quad(\\mathrm{S}) \\rightarrow(2)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(3) \\quad(\\mathrm{Q}) \\rightarrow(4) \\quad(\\mathrm{R}) \\rightarrow(1) \\quad(\\mathrm{S}) \\rightarrow(5)$",
+      "is_correct": true
+    },
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(3) \\quad(\\mathrm{Q}) \\rightarrow(1) \\quad(\\mathrm{R}) \\rightarrow(4) \\quad(\\mathrm{S}) \\rightarrow(5)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{L}_1: \\frac{\\mathrm{x}+11}{1}=\\frac{\\mathrm{y}+21}{2}=\\frac{\\mathrm{z}+29}{3}=\\mathrm{a} \\\\ & \\mathrm{L}_2: \\frac{\\mathrm{x}+16}{3}=\\frac{\\mathrm{y}+11}{2}=\\frac{\\mathrm{z}+4}{\\gamma}=\\mathrm{b}\\end{aligned}$\n$\\begin{aligned} & x=a-11=3 b-16 \\Rightarrow a-3 b=-5...(1) \\\\ & y=2 a-21=2 b-11 \\Rightarrow 2 a-2 b=10...(2) \\\\ & z=3 a-29=b r-4 \\Rightarrow 3 a-b \\gamma=25...(3)\\end{aligned}$\nfrom (1) & (2)\n$\\mathrm{a}=10, \\mathrm{~b}=5$\nNow from (3)\n$3(10)-5 \\gamma=25 \\quad \\therefore \\gamma=1$\n$\\begin{aligned} & \\mathrm{R}_1 \\equiv(-1,-1,1) \\\\ & \\mathrm{OR}_1=-\\hat{\\mathrm{i}}-\\hat{\\mathrm{j}}+\\hat{\\mathrm{k}} \\\\ & \\overrightarrow{\\mathrm{n}}=\\left|\\begin{array}{lrr}\\mathrm{i} & \\mathrm{j} & \\mathrm{k} \\\\ 1 & 2 & 3 \\\\ 3 & 2 & 1\\end{array}\\right|=-4 \\hat{\\mathrm{i}}-(-8) \\hat{\\mathrm{j}}-4 \\hat{\\mathrm{k}} \\\\ & \\overrightarrow{\\mathrm{n}}=-4 \\hat{\\mathrm{i}}+8 \\hat{\\mathrm{j}}+4 \\hat{\\mathrm{k}}=-4(\\hat{\\mathrm{i}}-2 \\hat{\\mathrm{j}}+\\hat{\\mathrm{k}}) \\\\ & \\hat{\\mathrm{n}}= \\pm \\frac{4(\\hat{\\mathrm{i}}-2 \\hat{\\mathrm{j}}+\\hat{\\mathrm{k}})}{4 \\sqrt{6}}= \\pm \\frac{(\\hat{\\mathrm{i}}-2 \\hat{\\mathrm{j}}+\\hat{\\mathrm{k}})}{\\sqrt{6}} \\\\ & \\overrightarrow{\\mathrm{OR}}_1 \\cdot \\hat{\\mathrm{n}}= \\pm(-\\hat{\\mathrm{i}}-\\hat{\\mathrm{j}}+\\hat{\\mathrm{k}})\\left(\\frac{\\hat{\\mathrm{i}}-2 \\hat{\\mathrm{j}}+\\hat{\\mathrm{k}}}{\\sqrt{6}}\\right)= \\pm \\frac{2}{\\sqrt{6}}= \\pm \\sqrt{\\frac{4}{6}}= \\pm \\sqrt{\\frac{2}{3}}\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 340,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (22 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256d4f8c6827c3ba126d",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathrm{Q}$ be the foot of perpendicular from the origin to the plane $4 x-3 y+z+13=0$ and $R$ be a point $(-1,-6)$ on the plane. Then length $Q R$ is :"
+  },
+  "options": [
+    {
+      "text": "\n$\\sqrt{14}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\sqrt{\\frac{19}{2}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$3 \\sqrt{\\frac{7}{2}}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{3}{\\sqrt{2}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $\\mathrm{P}$ be the image of $\\mathrm{O}$ in the given plane.\n<img src=\"assets\\st0340_2f9a13818506.png\"><br>\nEquation of the plane, $4 x-3 y+z+13=0$ OP is normal to the plane, therefore direction ratio of OP are proportional to $4,-3,1$\nSince OP passes through $(0,0,0)$ and has direction ratio proportional to $4,-3,1$. Therefore equation of OP is\n$$\n\\begin{aligned}\n& \\frac{x-0}{4}=\\frac{y-0}{-3}=\\frac{z-0}{1}=r \\text { (let) } \\\\\n\\therefore \\quad & x=4 r, y=-3 r, z=r\n\\end{aligned}\n$$\nLet the coordinate of $\\mathrm{P}$ be $(4 r,-3 r, r)$\nSince $Q$ be the mid point of OP\n$$\n\\therefore \\quad \\mathrm{Q}=\\left(2 r,-\\frac{3}{2} r, \\frac{r}{2}\\right)\n$$\nSince Q lies in the given plane\n$$\n\\begin{aligned}\n& 4 x-3 y+z+13=0 \\\\\n\\therefore & 8 r+\\frac{9}{2} r+\\frac{r}{2}+13=0 \\\\\n\\Rightarrow & r=\\frac{-13}{8+\\frac{9}{2}+\\frac{1}{2}}=\\frac{-26}{26}=-1\n\\end{aligned}\n$$\n$\\begin{aligned} \\therefore \\quad & \\mathrm{Q}=\\left(-2, \\frac{3}{2},-\\frac{1}{2}\\right) \\\\ & \\mathrm{QR}=\\sqrt{(-1+2)^2+\\left(1-\\frac{3}{2}\\right)^2+\\left(-6+\\frac{1}{2}\\right)^2} \\\\ & =\\sqrt{1+\\frac{1}{4}+\\frac{121}{4}}=3 \\sqrt{\\frac{7}{2}}\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int \\frac{x^{2}-1}{x^{4}+3 x^{2}+1} d x(x>0)$ is"
+  },
+  "options": [
+    {
+      "text": "$\\tan ^{-1}\\left(x+\\frac{1}{x}\\right)+C$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\tan ^{-1}\\left(x-\\frac{1}{x}\\right)+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log _{e}\\left|\\frac{x+\\frac{1}{x}-1}{x+\\frac{1}{x}+1}\\right|+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log _{e}\\left|\\frac{x-\\frac{1}{x}-1}{x-\\frac{1}{x}+1}\\right|+C$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $I=\\int \\frac{x^{2}-1}{x^{4}+3 x^{2}+1} d x$\r\n$=\\int \\frac{1-1 / x^{2}}{x^{2}+3+1 / x^{2}} d x$\r\n$=\\int \\frac{1-1 / x^{2}}{\\left(x^{2}+\\frac{1}{x^{2}}\\right)+3} d x$\r\n$=\\int \\frac{1-1 / x^{2}}{\\left(x+\\frac{1}{x}\\right)^{2}-2+3} d x$\r\n$=\\int \\frac{1-1 / x^{2}}{\\left(x+\\frac{1}{x}\\right)^{2}+1} d x$\r\nLet $x+\\frac{1}{x}=t$\r\n$\\Rightarrow \\quad\\left(1-\\frac{1}{x^{2}}\\right) d x=d t$\r\n$\\Rightarrow \\quad I=\\int \\frac{d t}{t^{2}+1}$\r\n$=\\tan ^{-1} t+C$\r\n$=\\tan ^{-1}\\left(x+\\frac{1}{x}\\right)+C\\left[\\because t=x+\\frac{1}{x}\\right]$"
+  }
+}

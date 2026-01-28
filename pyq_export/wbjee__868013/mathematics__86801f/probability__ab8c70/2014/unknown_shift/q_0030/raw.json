@@ -1,0 +1,63 @@
+{
+  "_id": "64a81400e0ff5a5425a8578b",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "A student answers a multiple choice question with 5 alternatives, of which exactly one is correct. The probability that he knows the correct answer is $p, 0    < p < 1 .$ If he does not know the correct answer, he randomly ticks one answer. Given that he has answered the question correctly, the probability that he did not tick the answer randomly, is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "W8Meu",
+      "text": "$\\frac{3 p}{4 p+3}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "CU531",
+      "text": "$\\frac{5 p}{3 p+2}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "B90bq",
+      "text": "$\\frac{5 p}{4 p+1}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "xOEwO",
+      "text": "$\\frac{4 p}{3 p+1}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let, $\\quad E_{1}=$ Student does not know the answer\r\n$E_{2}=$ Student knows the answer\r\nand $\\quad E=$ Student answer correctly.\r\n$\\therefore$\r\n$P\\left(E_{1}\\right)=1-p$\r\n$P\\left(E_{2}\\right)=p$\r\n$P\\left(\\frac{E}{E_{2}}\\right)=1$ and $P\\left(\\frac{E}{E_{1}}\\right)=\\frac{1}{5}$\r\n$\\therefore$ The probability that student did not tick the answer randomly\r\n= The probability that student tick the answer correctly $=\\frac{P\\left(E_{2}\\right) P\\left(\\frac{E}{E_{2}}\\right)}{P\\left(E_{1}\\right) P\\left(\\frac{E}{E_{1}}\\right)+P\\left(E_{2}\\right) P\\left(\\frac{E}{E_{2}}\\right)}$\r\n$=\\frac{p(1)}{(1-p) \\frac{1}{5}+p(1)}$\r\n$=\\frac{p}{\\frac{1-p+5 p}{5}}=\\frac{5 p}{1+4 p}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

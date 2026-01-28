@@ -1,0 +1,83 @@
+{
+  "_id": "64b16a5df23ac7d519f9b3bc",
+  "previousYearPapers": [
+    {
+      "_id": "615d92eede3d91842a5cf82a",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2017-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2017 (Paper 1)",
+      "title": "JEE Advanced 2017 (Paper 1)"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 1,
+  "question": {
+    "text": "Which of the following is (are) NOT the square of a <math><mn>3</mn><mo>&#215;</mo><mn>3</mn></math> matrix with real entries?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "8M27K",
+      "text": "<math><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mo>-</mo><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mo>-</mo><mn>1</mn></mtd></mtr></mtable></mrow></mfenced></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "GJCEp",
+      "text": "<math><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mo>-</mo><mn>1</mn></mtd></mtr></mtable></mrow></mfenced></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "Zv8A5",
+      "text": "<math><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mrow></mfenced></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "F2PiQ",
+      "text": "<math><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mtable><mtr><mtd><mo>-</mo><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mo>-</mo><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mo>-</mo><mn>1</mn></mtd></mtr></mtable></mrow></mfenced></math>",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let \\(A=\\left[\\begin{array}{ccc}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & -1\\end{array}\\right]\\).Then, \\(|A|=-1\\)\r\nIf \\(\\mathrm{A}\\) is a prefect square of matrix \\(A_1\\). Then, \\(A_1^2=A\\)\r\n\\(\\Rightarrow\\left|A_1\\right|^2=|A| \\Rightarrow\\left|A_1\\right|^2=-1 \\Rightarrow A_1\\) cannot be a real matrix\r\nSo, option correct.\r\nLet \\(R=\\left[\\begin{array}{ccc}-1 & 0 & 0 \\\\ 0 & -1 & 0 \\\\ 0 & 0 & -1\\end{array}\\right]\\) be the sqare of a \\(3 \\times 3\\) matrix \\(B_1\\), Then,\r\n\\(B=B_1^2 \\Rightarrow\\left|B_1\\right|^2=|B| \\Rightarrow\\left|B_1\\right|^2=\\left|\\begin{array}{ccc}\r\n-1 & 0 & 0 \\\\\r\n0 & -1 & 0 \\\\\r\n0 & 0 & -1\r\n\\end{array}\\right|=-1\\)\r\nSo, B cannot be the perfect square of a real matrix.\r\nIn option, the given matrix is the identity matrix \\(I_3\\) such that \\(I_3=I_3^2\\)\r\n\\(\\begin{aligned}\r\n&\\text { Conisder the matrix }\\left[\\begin{array}{ccc}\r\n1 & 0 & 0 \\\\\r\n0 & -1 & 0 \\\\\r\n0 & 0 & -1\r\n\\end{array}\\right] \\text { given in option. Clearly, } \\\\\r\n&{\\left[\\begin{array}{ccc}\r\n1 & 0 & 0 \\\\\r\n0 & -1 & 0 \\\\\r\n0 & 0 & -1\r\n\\end{array}\\right]=\\left[\\begin{array}{ccc}\r\n1 & 0 & 0 \\\\\r\n0 & 0 & 1 \\\\\r\n0 & -1 & 0\r\n\\end{array}\\right]\\left[\\begin{array}{ccc}\r\n1 & 0 & 0 \\\\\r\n0 & 0 & 1 \\\\\r\n0 & -1 & 0\r\n\\end{array}\\right]}\r\n\\end{aligned}\\)\r\nThus, the matrix given in option is the perfect square of a real matrix.",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "ceda3eeccf5c42e995147747260f1a8f",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/0Y3DTVFafjHmE.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/0Y3DTVFafjHmE.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eede3d91842a5cf82a",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2017-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2017 (Paper 1)",
+    "title": "JEE Advanced 2017 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

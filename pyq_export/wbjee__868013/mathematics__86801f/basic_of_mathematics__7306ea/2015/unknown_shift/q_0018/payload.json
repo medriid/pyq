@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc3bb4fafbb887306ea",
+    "chapter_name": "Basic of Mathematics",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\text {If } \\log _{0.2}(x-1)>\\log _{0.04}(x+5), \\text { then }$"
+  },
+  "options": [
+    {
+      "text": "$-1    < x < 4$",
+      "is_correct": false
+    },
+    {
+      "text": "$2    < x < 3$",
+      "is_correct": false
+    },
+    {
+      "text": "$1    < x < 4$",
+      "is_correct": true
+    },
+    {
+      "text": "$1    < x < 3$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have, $\\log _{0.2}(x-1)>\\log _{0.04}(x+5)$\r\n$\\Rightarrow \\quad \\log _{0.2}(x-1)>\\log _{0.2^{2}}(x+5)$\r\n$\\Rightarrow \\quad \\log _{0.2}(x-1)>\\frac{1}{2} \\log _{0.2}(x+5)$\r\n$\\Rightarrow \\quad 2 \\log _{0.2}(x-1)>\\log _{0.2}(x+5)$\r\n$\\Rightarrow \\quad \\log _{0.2}(x-1)^{2}>\\log _{0.2}(x+5)$\r\n$\\Rightarrow \\quad(x-1)^{2}    < x+5$\r\n$\\left[\\because \\log _{a} x>\\log _{a} y \\Rightarrow x < y,\\right.$ if $\\left.0 < a < 1\\right]$\r\n$\\Rightarrow \\quad x^{2}-2 x+1 < x+5$\r\n$\\Rightarrow \\quad x^{2}-3 x-4 < 0$\r\n$\\Rightarrow \\quad x^{2}-4 x+x-4 < 0$\r\n$\\Rightarrow x(x-4)+1(x-4) < 0$\r\n$\\Rightarrow \\quad(x-4)(x+1) < 0$\r\n$\\Rightarrow \\quad x \\in(-1,4)$\r\nBut $\\quad x>1$\r\n$\\Rightarrow \\quad x \\in(1,4)$"
+  }
+}

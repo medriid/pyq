@@ -1,0 +1,63 @@
+{
+  "_id": "64a81401e0ff5a5425a8578f",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The minimum value of $2^{\\sin x}+2^{\\cos x}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "oh59j",
+      "text": "$2^{1-1 / \\sqrt{2}}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "iIQWB",
+      "text": "$2^{1+1 / \\sqrt{2}}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "icWrY",
+      "text": "$2^{\\sqrt{2}}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "mjWox",
+      "text": "2",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We know that\r\n$\\mathrm{AM} \\geq \\mathrm{GM}$\r\n$\\therefore \\quad \\frac{2^{\\sin x}+2^{\\cos x}}{2} \\geq \\sqrt{2^{\\sin x} 2^{\\cos x}}$\r\n$\\Rightarrow 2^{\\sin x}+2^{\\cos x} \\geq 2 \\sqrt{2^{\\sin x+\\cos x}}$\r\n$\\Rightarrow 2^{\\sin x}+2^{\\cos x} \\geq 2 \\times 2^{\\frac{\\sin x+\\cos x}{2}}$\r\n$\\Rightarrow 2^{\\sin x}+2^{\\cos x} \\geq 2^{1+\\frac{\\sin x+\\cos x}{2}}$\r\nBut $\\sin x+\\cos x=\\sqrt{2} \\sin \\left(x+\\frac{\\pi}{4}\\right) \\geq-\\sqrt{2}$\r\n$\\therefore \\quad 2^{\\sin x}+2^{\\cos x} \\geq 2^{1-\\frac{\\sqrt{2}}{2}}$\r\n$\\Rightarrow 2^{\\sin x}+2^{\\cos x} \\geq 2^{1-\\frac{1}{\\sqrt{2}}}, \\forall x \\in R$\r\nHence, minimum value is $2^{1-\\frac{1}{\\sqrt{2}}}$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

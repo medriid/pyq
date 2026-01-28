@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a02f23ac7d519f9b07d",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c46",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010 (Paper 1)",
+      "title": "JEE Advanced 2010 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nLet $p$ be an odd prime number and $T_p$ be the following set of $2 \\times 2$ matrices\n$$\nT_p=\\left\\{A=\\left[\\begin{array}{ll}\na & b \\\\\nc & a\n\\end{array}\\right] ; a, b, c \\in\\{0,1,2, \\ldots, p-1\\}\\right\\}\n$$<strong>Question:</strong>\nThe number of $A$ in $T_p$ such that $A$ is either symmetric or skew-symmetric or both, and det $(A)$ is divisible by $p$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "IWmZU",
+      "text": "\n$(p-1)^2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "jDwxX",
+      "text": "\n$2(p-1)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "LJMvW",
+      "text": "\n$(p-1)^2+1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "nk4QR",
+      "text": "\n$2 p-1$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $A=\\left[\\begin{array}{ll}a & b \\\\ c & a\\end{array}\\right]$,\n$a, b, c \\in\\{0,1,2, \\ldots, p-1\\}$\nIf $A$ is skew-symmetric matrix, then $a=0, b=-c$\n$\\therefore \\quad|A|=-b^2$.\nThus, $P$ divides $|A|$ only when $b=0$...(i)\nAgain, if $A$ is symmetric matrix, then $b=c$ and $|A|=a^2-b^2$.\nThus, $p$ divides $|A|$ if either $p$ divides $(a-b)$ or $p$ divides $(a+b)$. $p$ divides $(a-b)$, only when $a=b$ ie, $a=b \\in\\{0,1,2, \\ldots,(p-1)\\}$\nie, pchoices\n$p$ divides $(a+b)$.\n$\\Rightarrow p$ choices, including $a=b=0$ included in (i)\n$\\therefore$ Total number of choices are $(p+p-1)=2 p-1$.\nHence, (c) is the correct option.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c46",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010 (Paper 1)",
+    "title": "JEE Advanced 2010 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

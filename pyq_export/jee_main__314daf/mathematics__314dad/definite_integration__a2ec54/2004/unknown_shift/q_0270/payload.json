@@ -1,0 +1,43 @@
+{
+  "index": 270,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2004",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2004",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\int_0^\\pi x f(\\sin x) d x=A \\int_0^{\\pi / 2} f(\\sin x) d x$, then $A$ is"
+  },
+  "options": [
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\pi$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{\\pi}{4}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2 \\pi$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $I=\\int_0^\\pi x f(\\sin x) d x=\\int_0^\\pi(\\pi-x) f(\\sin x) d x=\\pi \\int_0^\\pi f(\\sin x) d x-I \\quad(\\sin c e f(2 a-x)=f(x))$\n$\\Rightarrow I=\\pi \\int_0^{\\pi / 2} f(\\sin x) d x \\Rightarrow A=\\pi$"
+  }
+}

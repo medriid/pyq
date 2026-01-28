@@ -1,0 +1,58 @@
+{
+  "_id": "6682bd34ba0e94a3c4025b2f",
+  "type": "numerical",
+  "level": 1,
+  "questionLabels": [],
+  "question": {
+    "text": "In an examination of Mathematics paper, there are <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math> questions of equal marks and the question paper is divided into three sections : <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi><mo>,</mo><mi mathvariant=\"normal\">B</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">C</mi></math>. A student is required to attempt total <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math> questions taking at least <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> questions from each section. If section <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi></math> has <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> questions, section <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">B</mi></math> has <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> questions and section <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">C</mi></math> has <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> questions, then the total number of ways a student can select <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math> questions is _________.",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "11376",
+  "solution": {
+    "text": "<blockquote><p>Given,</p><p>Mathematics paper has <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math> questions of equal marks</p><p>and have three sections <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi><mo>,</mo><mo> </mo><mi mathvariant=\"normal\">B</mi><mo> </mo><mo>&amp;</mo><mo> </mo><mi mathvariant=\"normal\">C</mi></math>, also <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi></math> has <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> questions, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">B</mi></math> has <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> questions and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">C</mi></math> has <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> questions,</p><p>Now, if <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> questions from each section are selected,</p><p>then remaining <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> questions can be selected either in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>,</mo><mo> </mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> or <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> or <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> {as we have already selected <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>×</mo><mn>3</mn><mo>=</mo><mn>12</mn></math> questions}</p><p>So, the total ways will be<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>5</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts><mo>·</mo><mmultiscripts><mi>C</mi><mn>5</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><mo>·</mo><mmultiscripts><mi>C</mi><mn>5</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>6</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts><mmultiscripts><mi>C</mi><mn>5</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><mo>·</mo><mmultiscripts><mi>C</mi><mn>4</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><mo>×</mo><mn>2</mn><mo>+</mo></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>5</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts><mo>·</mo><mmultiscripts><mi>C</mi><mn>6</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><mo>·</mo><mmultiscripts><mi>C</mi><mn>4</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><mo>×</mo><mn>2</mn><mo>+</mo><mmultiscripts><mi>C</mi><mn>4</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts><mo>·</mo><mmultiscripts><mi>C</mi><mn>6</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><mo>·</mo><mmultiscripts><mi>C</mi><mn>5</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><mo>×</mo><mn>2</mn><mo>+</mo><mmultiscripts><mi>C</mi><mn>7</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts><mo>·</mo><mmultiscripts><mi>C</mi><mn>4</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><mo>·</mo><mmultiscripts><mi>C</mi><mn>4</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>56</mn><mo>·</mo><mn>6</mn><mo>·</mo><mn>6</mn><mo>+</mo><mn>28</mn><mo>·</mo><mn>6</mn><mo>·</mo><mn>15</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>56</mn><mo>·</mo><mn>15</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>70</mn><mo>·</mo><mn>6</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>8</mn><mo>·</mo><mn>15</mn><mo>·</mo><mn>15</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2016</mn><mo>+</mo><mn>5040</mn><mo>+</mo><mn>1680</mn><mo>+</mo><mn>840</mn><mo>+</mo><mn>1800</mn><mo>=</mo><mn>11376</mn></math></p></blockquote>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "1b045d2ab20044a39baa24493bb6d7c2",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/66u7qLoOb22PN.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/66u7qLoOb22PN.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYearPapers": [
+    {
+      "_id": "65c4c0c11d30997d3436bb03",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-01-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (30 Jan Shift 2)",
+      "title": "JEE Main 2024 (30 Jan Shift 2)"
+    }
+  ],
+  "previousYear": {
+    "_id": "65c4c0c11d30997d3436bb03",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-01-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (30 Jan Shift 2)",
+    "title": "JEE Main 2024 (30 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

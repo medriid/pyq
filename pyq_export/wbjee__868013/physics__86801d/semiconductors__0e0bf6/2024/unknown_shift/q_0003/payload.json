@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c989d521687020e0bf6",
+    "chapter_name": "Semiconductors",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In the given network of AND and OR gates, output Q can be written as (assuming n even)\n<img src=\"assets\\qt0003_fdb832fc4679.png\"/><br/>"
+  },
+  "options": [
+    {
+      "text": "$X_0 X_1+X_2 X_3+\\ldots X_{n-1} X_n$",
+      "is_correct": false
+    },
+    {
+      "text": "$X_0 X_1 \\ldots X_n+X_1 X_2 \\ldots X_n+X_2 X_3 \\ldots X_n+X_n$",
+      "is_correct": false
+    },
+    {
+      "text": "$X_0 X_1 \\ldots X_{n-1}+X_{n-2}+X_{n-2} X_{n-1}+X_n$",
+      "is_correct": false
+    },
+    {
+      "text": "$X_0 X_1 \\ldots X_{n-1}+X_2 X_3 X_5 \\ldots X_{n-1}+X_{n-2} X_{n-1}+X_n$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Hint: $\\left[\\left\\{\\left(X_0 X_1+X_2\\right) X_3+X_4\\right\\} X_5+X_6\\right] X_7+\\ldots \\ldots$"
+  }
+}

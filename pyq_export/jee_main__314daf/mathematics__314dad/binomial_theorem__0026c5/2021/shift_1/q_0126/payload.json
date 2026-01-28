@@ -1,0 +1,43 @@
+{
+  "index": 126,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (27 Aug Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2021",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mn>20</mn></munderover><msup><mfenced><mmultiscripts><mi>C</mi><mi>k</mi><none></none><mprescripts></mprescripts><none></none><mn>20</mn></mmultiscripts></mfenced><mn>2</mn></msup></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>21</mn><none/><mprescripts/><none/><mn>40</mn></mmultiscripts></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>20</mn><none/><mprescripts/><none/><mn>41</mn></mmultiscripts></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>20</mn><none/><mprescripts/><none/><mn>40</mn></mmultiscripts></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>19</mn><none/><mprescripts/><none/><mn>40</mn></mmultiscripts></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mn>20</mn></munderover><msup><mfenced><mmultiscripts><mi>C</mi><mi>k</mi><none></none><mprescripts></mprescripts><none></none><mn>20</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mn>20</mn></munderover><mmultiscripts><mi>C</mi><mi>k</mi><none></none><mprescripts></mprescripts><none></none><mn>20</mn></mmultiscripts><mo>.</mo><mmultiscripts><mi>C</mi><mrow><mn>20</mn><mo>-</mo><mi>k</mi></mrow><none></none><mprescripts></mprescripts><none></none><mn>20</mn></mmultiscripts></math></p><p>Sum of suffix is constant so summation will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>20</mn><none></none><mprescripts></mprescripts><none></none><mn>40</mn></mmultiscripts></math></p>"
+  }
+}

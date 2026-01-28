@@ -1,0 +1,43 @@
+{
+  "index": 66,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252bf7c1fee30bacd8f7",
+    "chapter_name": "Permutation Combination",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of ways in which we can put <math><mn>5</mn></math> different balls in <math><mn>5</mn></math> different boxes such that atmost three boxes are empty, is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><msup><mrow><mn>5</mn></mrow><mrow><mn>5</mn></mrow></msup><mo>+</mo><mn>5</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><msup><mrow><mn>5</mn></mrow><mrow><mn>5</mn></mrow></msup><mo>-</mo><mn>10</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><msup><mrow><mn>5</mn></mrow><mrow><mn>5</mn></mrow></msup><mo>-</mo><mn>5</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><msup><mrow><mn>5</mn></mrow><mrow><mn>5</mn></mrow></msup><mo>-</mo><msup><mrow><mn>4</mn></mrow><mrow><mn>5</mn></mrow></msup></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<math><mn>5</mn></math> different balls can be put in <math><mn>5</mn></math> different boxes in <math><msup><mrow><mn>5</mn></mrow><mrow><mn>5</mn></mrow></msup></math> ways.<br />At most <math><mn>3</mn></math> empty boxes are allowed<br />Number of ways in which <math><mn>4</mn></math> boxes are empty <math><mo>=</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>5</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>×</mo><msup><mrow><mn>1</mn></mrow><mrow><mn>5</mn></mrow></msup><mo>=</mo><mn>5</mn><mo>.</mo></math><br />Number of ways in which <math><mn>5</mn></math> boxes are empty <math><mo>=</mo><mn>0</mn><mo>,</mo></math> as balls has to be placed in one of the boxes.<br /><math><mo>⇒</mo></math> Required number of ways <math><mo>=</mo><msup><mrow><mn>5</mn></mrow><mrow><mn>5</mn></mrow></msup><mo>-</mo><mn>5</mn><mo>.</mo></math><br />"
+  }
+}

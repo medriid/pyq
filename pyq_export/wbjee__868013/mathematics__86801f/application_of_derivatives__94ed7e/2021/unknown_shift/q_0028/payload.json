@@ -1,0 +1,43 @@
+{
+  "index": 28,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $g(x)=\\int_{x}^{2 x} \\frac{f(t)}{t} d t$ where $x>0$ and $f$ be continuous function and $f(2 x)=f(x)$, then"
+  },
+  "options": [
+    {
+      "text": "$g(x)$ is strictly increasing function",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{g}(\\mathrm{x})$ is strictly decreasing function",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{g}(\\mathrm{x})$ is constant function",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{g}(\\mathrm{x})$ is not derivable function",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$g(x)=\\int_{x}^{2 x} \\frac{f(t)}{t} d t$\r\n$g^{\\prime}(x)=\\frac{f(2 x)}{2 x} \\cdot 2^{\\prime}-\\frac{f(x)}{x} \\cdot 1=\\frac{f(2 x)-f(x)}{x}=\\frac{f(x)-f(x)}{x}[\\because f(2 x)=f(x)]$\r\n$g^{\\prime}(x)=0$\r\n$g(x)=$ constant."
+  }
+}

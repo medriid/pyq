@@ -1,0 +1,24 @@
+{
+  "index": 14,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $a_1, a_2, \\ldots, a_{2024}$ be an Arithmetic Progression such that $a_1+\\left(a_5+a_{10}+a_{15}+\\ldots+a_{2020}\\right)+a_{2024}=2233$. Then $a_1+a_2+a_3+\\ldots+a_{2024}$ is equal to _______"
+  },
+  "options": [],
+  "correct_answer": "11132",
+  "solution": {
+    "text": "As $a_1+a_5+a_{10}+\\ldots+a_{2020}+a_{2024}=2233$  ...(1)\nWe know in arithmetic progression.\nSum of terms equidistant from ends is equal\n$\\therefore$ from (1)\n$\\underbrace{a_1+a_{2024}=a_5+a_{2020}=a_{10}+a_{2015}=\\ldots}_{203 \\text { pairs }}$\n$\\begin{aligned} & \\Rightarrow \\quad 203\\left(a_1+a_{2024}\\right)=2233 \\\\ & \\Rightarrow \\quad a_1+a_{2024}=11\\end{aligned}$\nNow $\\begin{aligned} \\sum_{i=1}^{2024} a_i & =S_{2024}=\\frac{2024}{2}\\left[a_1+a_{2024}\\right] \\\\ & =1012(11) \\\\ & =11132\\end{aligned}$"
+  }
+}

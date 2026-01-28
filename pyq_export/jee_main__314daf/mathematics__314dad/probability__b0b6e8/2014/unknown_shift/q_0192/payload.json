@@ -1,0 +1,43 @@
+{
+  "index": 192,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (11 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A set $\\mathrm{S}$ contains 7 elements. A non-empty subset $A$ of $S$ and an element $x$ of $S$ are chosen at random. Then the probability that $\\mathrm{x} \\in \\mathrm{A}$ is:"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{64}{127}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{63}{128}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{31}{128}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $\\mathrm{S}=\\left\\{x_1, x_2, x_3, x_4, x_5, x_6, x_7\\right\\}$\nLet the chosen element be $\\mathrm{x}_{\\mathrm{i}}$.\nTotal number of subsets of $\\mathrm{S}=2^7=128$\nNo. of non-empty subsets of S $=128-1$ $=127$\nWe need to find number of those subsets that contains $x_i$.\n\\begin{array}{|l|l|l|l|l|l|l|}\n\\hline 2 & 2 & 2 & 2 & 1 & 2 & 2 \\\\\n\\hline\n\\end{array}\n$x_1 x_2$-—- $x_i=-x_7$\nFor those subsets containing $x_i$, each element has 2 choices.\ni.e., (included or not included) in subset, However as the subset must contain $x_i$, $x_i$ has only one choice. (included one)\nSo, total no. of subsets containing $x_i=2 \\times 2 \\times 2 \\times 2 \\times 1 \\times 2 \\times 2=64$\nRequired prob\n$$\n=\\frac{\\text { No. of subsets containing } x_i}{\\text { Total no. of non-empty subsets }}\n$$\n\n$$\n=\\frac{64}{127}\n$$"
+  }
+}

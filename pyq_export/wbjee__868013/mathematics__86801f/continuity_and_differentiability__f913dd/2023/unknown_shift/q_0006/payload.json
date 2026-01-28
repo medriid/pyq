@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d10462f802c3ef913dd",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let \\(f(x)=\\left\\{\\begin{array}{cc}x+1, & -1 \\leq x \\leq 0 \\\\ -x, & 0 \\leq x \\leq 1\\end{array}\\right.\\)"
+  },
+  "options": [
+    {
+      "text": "\\(f(x)\\) is discontinuous in \\([-1,1]\\) and so has no maximum value or minimum value in \\([-1,1]\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(f(x)\\) is continuous in \\([-1,1]\\) and so has maximum value and minimum value",
+      "is_correct": false
+    },
+    {
+      "text": "\\(f(x)\\) is discontinuous in \\([-1,1]\\) but still has the maximum and minimum value",
+      "is_correct": true
+    },
+    {
+      "text": "\\(f(x)\\) is bounded in \\([-1,1]\\) and does not attain maximum or minimum value",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hint : \\(f(x)= \\begin{cases}x+1 & -1 \\leq x \\leq 0 \\\\ -x & 0  < x \\leq 1\\end{cases}\\)\n\\(\\left.\\begin{array}{l}f\\left(-1^{-}\\right)=0 \\\\ f(-1)=0 \\\\ f\\left(-1^{+}\\right)=0\\end{array}\\right]\\) continuous at \\(x=-1\\)\n\\(\\left.\\begin{array}{l}\\mathrm{f}(0)=1 \\\\ \\mathrm{f}\\left(0^{-}\\right)=1 \\\\ \\mathrm{f}\\left(0^{+}\\right)=0\\end{array}\\right]\\) discontinuous at \\(\\mathrm{x}=0\\)<img src=\"assets\\st0006_ee8fa1b56920.png\"><br>\nobviously \\(f(x)\\) has local maximum at \\(x=0\\)"
+  }
+}

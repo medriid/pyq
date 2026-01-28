@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65a2d",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7ce",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2012-05-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (12 May Online)",
+      "title": "JEE Main 2012 (12 May Online)"
+    }
+  ],
+  "question": {
+    "text": "The sum of the series\n$$\n\\frac{1}{1+\\sqrt{2}}+\\frac{1}{\\sqrt{2}+\\sqrt{3}}+\\frac{1}{\\sqrt{3}+\\sqrt{4}}+\\ldots\n$$\nupto 15 terms is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "2P477",
+      "text": "\n1\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "gsIEe",
+      "text": "\n2\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Qo7fs",
+      "text": "\n3\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "a3lVd",
+      "text": "\n4",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given series is\n$$\n\\begin{aligned}\n& \\frac{1}{1+\\sqrt{2}}+\\frac{1}{\\sqrt{2}+\\sqrt{3}}+\\frac{1}{\\sqrt{3}+\\sqrt{4}}+\\ldots . . \\\\\n& n^{\\text {th }} \\text { term }=\\frac{1}{\\sqrt{n}+\\sqrt{n+1}} \\\\\n& \\therefore 15^{\\text {th }} \\text { term }=\\frac{1}{\\sqrt{15}+\\sqrt{16}}\n\\end{aligned}\n$$\nThus, given series upto 15 terms is\n$$\n\\frac{1}{1+\\sqrt{2}}+\\frac{1}{\\sqrt{2}+\\sqrt{3}}+\\frac{1}{\\sqrt{3}+\\sqrt{4}}+\\ldots \\ldots+\\frac{1}{\\sqrt{15}+\\sqrt{16}}\n$$\nThis can be re-written as\n$$\n\\frac{1-\\sqrt{2}}{-1}+\\frac{\\sqrt{2}-\\sqrt{3}}{-1}+\\frac{\\sqrt{3}-\\sqrt{4}}{-1}+\\ldots \\ldots+\\frac{\\sqrt{15}-\\sqrt{16}}{-1}\n$$\n(By rationalization)\n$$\n\\begin{gathered}\n=-1+\\sqrt{2}-\\sqrt{2}+\\sqrt{3}-\\sqrt{3}+\\sqrt{4}+\\ldots . .-\\sqrt{14}+\\sqrt{15} \\\\\n-\\sqrt{15}+\\sqrt{16} \\\\\n=-1+\\sqrt{16}=-1+4=3\n\\end{gathered}\n$$\nHence, the required sum $=3$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7ce",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2012-05-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (12 May Online)",
+    "title": "JEE Main 2012 (12 May Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

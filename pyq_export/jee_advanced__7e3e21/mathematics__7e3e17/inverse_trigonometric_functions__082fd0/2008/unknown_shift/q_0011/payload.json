@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2008 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255376e9154085082fd0",
+    "chapter_name": "Inverse Trigonometric Functions",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $0 < x < 1$, then $\\sqrt{1+x^2}\\left[\\left\\{x \\cos \\left(\\cot ^{-1} x\\right)+\\sin \\left(\\cot ^{-1} x\\right)\\right\\}^2-1\\right]^{\\frac{1}{2}}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{x}{\\sqrt{1+x^2}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x \\sqrt{1+x^2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\sqrt{1+x^2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have, $0 < x < 1$\nLet $\\quad \\cot ^{-1} x=\\theta$\n$\\Rightarrow \\quad \\cot \\theta=x$\n$\\therefore \\quad \\sin \\theta=\\frac{1}{\\sqrt{1+x^2}}=\\sin \\left(\\cot ^{-1} x\\right)$\nand $\\quad \\cos \\theta=\\frac{x}{\\sqrt{1+x^2}}=\\cos \\left(\\cot ^{-1} x\\right)$\nNow, $\\sqrt{1+x^2}\\left[\\left\\{x \\cos \\left(\\cot ^{-1} x\\right)+\\sin \\left(\\cot ^{-1} x\\right)\\right\\}^2-1\\right]^{1 / 2}$<img src=\"assets\\st0011_b5532b168f0e.png\"><br>\n$$\n\\text { Now, } \\begin{aligned}\n& \\sqrt{1+x^2}\\left[\\left\\{x \\cos \\left(\\cot ^{-1} x\\right)+\\sin \\left(\\cot ^{-1} x\\right)\\right\\}^2-1\\right]^{1 / 2} \\\\\n&=\\sqrt{1+x^2}\\left[\\left\\{x \\frac{x}{\\sqrt{1+x^2}}+\\frac{1}{\\sqrt{1+x^2}}\\right\\}^2-1\\right]^{1 / 2} \\\\\n&=\\sqrt{1+x^2}\\left[\\left(\\frac{1+x^2}{\\sqrt{1+x^2}}\\right)^2-1\\right]^{1 / 2} \\\\\n&=\\sqrt{1+x^2}\\left[1+x^2-1\\right]^{1 / 2} \\\\\n&=x \\sqrt{1+x^2}\n\\end{aligned}\n$$"
+  }
+}

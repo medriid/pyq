@@ -1,0 +1,24 @@
+{
+  "index": 25,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252bf7c1fee30bacd8f7",
+    "chapter_name": "Permutation Combination",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A total of <math><mn>6</mn></math> Boys and <math><mn>6</mn></math> girls are to sit in a row alternatively and in a circle.&nbsp;Let <math><mtext mathvariant=\"normal\">m</mtext></math> be the number of arrangements in the row and <math><mtext mathvariant=\"normal\">n</mtext></math> be the number of arrangements in the circle. If <math><mtext mathvariant=\"normal\">k</mtext><mo>=</mo><mfrac><mrow><mtext mathvariant=\"normal\">m</mtext></mrow><mrow><mn>10</mn><mtext mathvariant=\"normal\">n</mtext></mrow></mfrac></math>, then the value of <math><mtext>k</mtext></math> is"
+  },
+  "options": [],
+  "correct_answer": "1.2",
+  "solution": {
+    "text": "<p>Linear permutations with boy in the first place are&nbsp;of the form <math><msub><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mn>1</mn></mrow></msub><msub><mrow><mi mathvariant=\"normal\">G</mi></mrow><mrow><mn>1</mn></mrow></msub><msub><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mn>2</mn></mrow></msub><msub><mrow><mi mathvariant=\"normal\">G</mi></mrow><mrow><mn>2</mn></mrow></msub><msub><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mn>3</mn></mrow></msub><msub><mrow><mi mathvariant=\"normal\">G</mi></mrow><mrow><mn>3</mn></mrow></msub><msub><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mn>4</mn></mrow></msub><msub><mrow><mi mathvariant=\"normal\">G</mi></mrow><mrow><mn>4</mn></mrow></msub><msub><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mn>5</mn></mrow></msub><msub><mrow><mi mathvariant=\"normal\">G</mi></mrow><mrow><mn>5</mn></mrow></msub><msub><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mn>6</mn></mrow></msub><msub><mrow><mi mathvariant=\"normal\">G</mi></mrow><mrow><mn>6</mn></mrow></msub></math> and the number of such arrangements is <math><mn>6</mn><mo>!</mo><mo>×</mo><mn>6</mn><mo>!</mo><mo>.</mo></math><br />The number of linear permutations with girl in the first place is <math><mn>6</mn><mo>!</mo><mo>×</mo><mn>6</mn><mo>!</mo></math><br />So, the number of arrangements in row&nbsp;<math><mo>=</mo><mi mathvariant=\"normal\">m</mi><mo>=</mo><mn>2</mn><mo>×</mo><mn>6</mn><mo>!</mo><mo>×</mo><mn>6</mn><mo>!</mo></math><br />(In circular permutations, start with a place which can be filled by a boy or a girl and after that the arrangements become linear)</p><p>Placing the boys first and then arranging the girls in <math><mn>6</mn></math> gaps, the number of such circular arrangements is <math><mn>5</mn><mo>!</mo><mo>×</mo><mn>6</mn><mo>!</mo><mo>⇒</mo><mi mathvariant=\"normal\">n</mi><mo>=</mo><mn>5</mn><mo>!</mo><mo>×</mo><mn>6</mn><mo>!</mo></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi mathvariant=\"normal\">k</mi><mo>=</mo><mfrac><mi mathvariant=\"normal\">m</mi><mrow><mn>10</mn><mi mathvariant=\"normal\">n</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>×</mo><mn>6</mn><mo>!</mo><mo>×</mo><mn>6</mn><mo>!</mo></mrow><mrow><mn>10</mn><mo>×</mo><mn>5</mn><mo>!</mo><mo>×</mo><mn>6</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mfrac><mn>12</mn><mn>10</mn></mfrac><mo>=</mo><mn>1.2</mn></math></p>"
+  }
+}

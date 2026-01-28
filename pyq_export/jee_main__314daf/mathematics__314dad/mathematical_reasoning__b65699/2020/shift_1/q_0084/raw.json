@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a68417cc3fb48d66d1b",
+  "previousYearPapers": [
+    {
+      "_id": "615d92ecde3d91842a5cf7fa",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2020-01-08T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2020 (08 Jan Shift 1)",
+      "title": "JEE Main 2020 (08 Jan Shift 1)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "Which one of the following is a tautology?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "RguKI",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced separators=\"|\"><mrow><mi>p</mi><mo>&#8743;</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>&#8594;</mo><mi>q</mi></mrow></mfenced></mrow></mfenced><mo>&#8594;</mo><mi>q</mi></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "SQbno",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>&#8594;</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>&#8743;</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>&#8594;</mo><mi>q</mi></mrow></mfenced></mrow></mfenced></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "X7m7O",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>&#8743;</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>&#8744;</mo><mi>q</mi></mrow></mfenced></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "FstbT",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>&#8744;</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>&#8743;</mo><mi>q</mi></mrow></mfenced></math>",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<table border='1px solid'> <thead> <tr> <th> <math><mi>p</mi></math> </th> <th> <math><mi>q</mi></math> </th> <th> <math><mi>p</mi><mo>→</mo><mi>q</mi></math> </th> <th> <math><mi>p</mi><mo>∧</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>∧</mo><mo>→</mo><mi>q</mi></mrow></mfenced><mi></mi></math> </th> <th> <math><mfenced separators=\"|\"><mrow><mi>p</mi><mo>∧</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>→</mo><mi>q</mi></mrow></mfenced></mrow></mfenced><mo>→</mo><mi>q</mi></math> </th> <th> <math><mi>q</mi><mo>→</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>∧</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>→</mo><mi>q</mi></mrow></mfenced></mrow></mfenced></math> </th> <th> <math><mi>p</mi><mo>∧</mo><mi>q</mi></math> </th> <th> <math><mi>p</mi><mo>∨</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>∧</mo><mi>q</mi></mrow></mfenced></math> </th> <th> <math><mi>p</mi><mo>∨</mo><mi>q</mi></math> </th> <th> <math><mi>p</mi><mo>∧</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>∨</mo><mi>q</mi></mrow></mfenced></math> </th> </tr> </thead> <tbody> <tr> <td> <math><mi>T</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>T</mi></math> </td> </tr> <tr> <td> <math><mi>T</mi></math> </td> <td> <math><mi>F</mi></math> </td> <td> <math><mi>F</mi></math> </td> <td> <math><mi>F</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>F</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>T</mi></math> </td> </tr> <tr> <td> <math><mi>F</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>F</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>F</mi></math> </td> <td> <math><mi>F</mi></math> </td> <td> <math><mi>F</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>F</mi></math> </td> </tr> <tr> <td> <math><mi>F</mi></math> </td> <td> <math><mi>F</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>F</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>T</mi></math> </td> <td> <math><mi>F</mi></math> </td> <td> <math><mi>F</mi></math> </td> <td> <math><mi>F</mi></math> </td> <td> <math><mi>F</mi></math> </td> </tr> </tbody> </table>",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "615d92ecde3d91842a5cf7fa",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2020-01-08T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2020 (08 Jan Shift 1)",
+    "title": "JEE Main 2020 (08 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $f(\\mathrm{x})= \\begin{cases}(1+\\mathrm{ax})^{1 / \\mathrm{x}} & , \\quad \\mathrm{x} \\lt 0 \\\\ 1+\\mathrm{b} & , \\quad \\mathrm{x}=0 \\\\ \\frac{(\\mathrm{x}+4)^{1 / 2}-2}{(\\mathrm{x}+\\mathrm{c})^{1 / 3}-2} & ,\\end{cases}$<br/>be continuous at $x=0$. Then $e^a b c$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$64$",
+      "is_correct": false
+    },
+    {
+      "text": "$72$",
+      "is_correct": false
+    },
+    {
+      "text": "$48$",
+      "is_correct": true
+    },
+    {
+      "text": "$36$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}<br/>& f\\left(0^{-}\\right)=\\mathrm{e}^{\\lim _{x \\rightarrow 0} \\frac{\\mathrm{ax}}{\\mathrm{x}}}=\\mathrm{e}^{\\mathrm{a}} \\\\\n& \\mathrm{f}(0)=1+\\mathrm{b} \\\\\n& \\mathrm{f}\\left(0^{+}\\right)=\\frac{\\frac{1}{2 \\sqrt{\\mathrm{x}+4}}}{\\frac{1}{3}(\\mathrm{x}+\\mathrm{c})^{-\\frac{2}{3}}}=\\frac{\\frac{1}{2(2)}}{\\frac{1}{3} \\cdot \\mathrm{c}^{-\\frac{2}{3}}} \\\\\n& =\\frac{3}{4} \\mathrm{c}^{2 / 3}<br/>\\end{aligned}$<br/>Also at $\\mathrm{x}=0$;<br/>$c^{1 / 3}=2 \\Rightarrow c=8$<br/>So $\\mathrm{f}\\left(0^{+}\\right)=\\frac{3}{4}(8)^{2 / 3}=3$<br/>Now, $\\mathrm{e}^{\\mathrm{a}}=\\mathrm{b}+1=3$<br/>$\\mathrm{e}^{\\mathrm{a}} . \\mathrm{b} \\cdot \\mathrm{c}=3 \\cdot 2 \\cdot 8=48$"
+  }
+}

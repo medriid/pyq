@@ -1,0 +1,63 @@
+{
+  "_id": "64b169def23ac7d519f9af37",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c41",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2007-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2007 (Paper 2)",
+      "title": "JEE Advanced 2007 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nLet $A_1, G_1, H_1$ denote the arithmetic, geometric and harmonic means respectively, of two distinct positive numbers. For $n \\geq 2$, let $A_{n-1}$ and $H_{n-1}$ has arithmetic, geometric and harmonic means as $A_n, G_n, H_n$, respectively.<strong>Question:</strong>\nWhich of the following statements is correct?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "4iCDg",
+      "text": "\n$A_1>A_2>\\ldots$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "11hoS",
+      "text": "\n$A_1 < A_2 < A_3 < \\ldots$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "0xR7b",
+      "text": "\n$A_1>A_3>A_5>\\ldots$ and $A_2 < A_4 < A_6 < \\ldots$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "4Hgzn",
+      "text": "\n$A_1 < A_3 < A_5 < \\ldots$ and $A_2>A_4>A_6>\\ldots$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $f(x)=k e^x-x$\n$\\begin{aligned} & & f^{\\prime}(x) & =k e^x-1=0 \\\\ & & x & =-\\ln k \\\\ & \\therefore & f^{\\prime \\prime}(x) & =k e^x \\\\ & \\text { Hence, } & {\\left[f^{\\prime \\prime}(x)\\right]_{x=-\\ln k} } & =1>0 \\\\ & & f(-\\ln k) & =1+\\ln k\\end{aligned}$\nFor one root of given equation\n$$\n\\begin{aligned}\n1+\\ln k & =0 \\\\\nHence,\nk & =\\frac{1}{e} .\n\\end{aligned}\n$$\n$A_2$ is $A M$ of $A_1$ and $H_1$ and $A_1>H_1$\n$$\n\\Rightarrow \\quad A_1>A_2>H_1\n$$\n$A_3$ is $\\mathrm{AM}$ of $\\mathrm{A}_2$ and $\\mathrm{H}_2$ and $\\mathrm{A}_2>\\mathrm{H}_2$\n$$\n\\begin{array}{ll}\n\\Rightarrow & A_2>A_3>H_2 \\\\\n\\therefore & A_1>A_2>A_3>\\ldots\n\\end{array}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c41",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2007-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2007 (Paper 2)",
+    "title": "JEE Advanced 2007 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

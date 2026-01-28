@@ -1,0 +1,43 @@
+{
+  "index": 92,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2012 (07 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)$ be an indefinite integral of $\\cos ^3 x$.\nStatement 1: $f(x)$ is a periodic function of period\n$\\pi$.\nStatement 2: $\\cos ^3 x$ is a periodic function."
+  },
+  "options": [
+    {
+      "text": "\nStatement 1 is true, Statement 2 is false.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nBoth the Statements are true, but Statement 2 is not the correct explanation of Statement 1.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nBoth the Statements are true, and Statement 2 is correct explanation of Statement 1.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement 1 is false, Statement 2 is true.",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Statement $-2: \\cos ^3 x$ is a periodic function. it is a true statement.\nStatement-1\nGiven $f(x)=\\int \\cos ^3 x d x$\n$$\n\\begin{aligned}\n& =\\int\\left(\\frac{\\cos 3 x}{4}+\\frac{3 \\cos x}{4}\\right) d x \\\\\n& =\\frac{1}{4} \\frac{\\sin 3 x}{3}+\\frac{3}{4} \\sin x \\\\\n& =\\frac{1}{12} \\sin 3 x+\\frac{3}{4} \\sin x\n\\end{aligned}\n$$\nNow, period of $\\frac{1}{12} \\sin 3 x=\\frac{2 \\pi}{3}$\nPeriod of $\\frac{3}{4} \\sin x=2 \\pi$\nHence period of $f(x)=\\frac{\\text { L.C.M. }(2 \\pi, 2 \\pi}{\\text { HCF of }(1,3)}$\n\n$$\n=\\frac{2 \\pi}{1}=2 \\pi\n$$\nThus, $f(x)$ is a periodic function of period $2 \\pi$.\nHence, Statement $-1$ is false."
+  }
+}

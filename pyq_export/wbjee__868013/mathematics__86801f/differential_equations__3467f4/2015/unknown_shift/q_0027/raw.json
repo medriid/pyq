@@ -1,0 +1,63 @@
+{
+  "_id": "64a81415e0ff5a5425a8584c",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec4",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "WBJEE 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The integrating factor of the differential equation $\\frac{d y}{d x}+\\left(3 x^{2} \\tan ^{-1} y -x^{3}\\right)\\left(1+y^{2}\\right)=0$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "X55GY",
+      "text": "$e^{x^{2}}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "aiJ9t",
+      "text": "$e^{x^{3}}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "uPsHh",
+      "text": "$e^{3 x^{2}} \\quad$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "jM0iz",
+      "text": "$e^{3 x^{3}}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $\\frac{d y}{d x}=-\\left(3 x^{2} \\tan ^{-1} y-x^{3}\\right)\\left(1+y^{2}\\right)$\r\n$\\Rightarrow \\quad \\frac{d y}{d x}=x^{3}\\left(1+y^{2}\\right)-3 x^{2}\\left(\\tan ^{-1} y\\right)\\left(1+y^{2}\\right)$\r\n$\\Rightarrow \\frac{1}{\\left(1+y^{2}\\right)} \\cdot \\frac{d y}{d x}=x^{3}-3 x^{2} \\tan ^{-1} y$\r\n$\\Rightarrow \\frac{1}{1+y^{2}} \\cdot \\frac{d y}{d x}+3 x^{2} \\tan ^{-1} y=x^{3}$\r\nPut $\\tan ^{-1} y=t \\Rightarrow \\frac{1}{1+y^{2}} \\cdot \\frac{d y}{d x}=\\frac{d t}{d x}$\r\n$\\therefore \\quad \\frac{d t}{d x}+3 t x^{2}=x^{3}$\r\nwhich is linear differential equation in $t$.\r\nNow.\r\n$\\mathrm{I} \\quad \\mathrm{F}=e^{\\int 3 \\mathrm{x}^{2} d x}=e^{x^{3}}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec4",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "WBJEE 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

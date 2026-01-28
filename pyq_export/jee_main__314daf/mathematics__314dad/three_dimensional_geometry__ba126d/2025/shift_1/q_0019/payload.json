@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256d4f8c6827c3ba126d",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let \\(\\mathrm{L}_1: \\frac{x-1}{1}=\\frac{y-2}{-1}=\\frac{z-1}{2}\\) and \\(\\mathrm{L}_2: \\frac{x+1}{-1}=\\frac{y-2}{2}=\\frac{z}{1}\\) be two lines.\nLet \\(L_3\\) be a line passing through the point \\((\\alpha, \\beta, \\gamma)\\) and be perpendicular to both \\(L_1\\) and \\(L_2\\). If \\(L_3\\) intersects \\(\\mathrm{L}_1\\), then \\(|5 \\alpha-11 \\beta-8 \\gamma|\\) equals :"
+  },
+  "options": [
+    {
+      "text": "20",
+      "is_correct": false
+    },
+    {
+      "text": "18",
+      "is_correct": false
+    },
+    {
+      "text": "25",
+      "is_correct": true
+    },
+    {
+      "text": "16",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\text { DR's of } L_3=\\overrightarrow{\\mathrm{m}} \\times \\overrightarrow{\\mathrm{n}}=\\left|\\begin{array}{ccc}\\hat{\\mathrm{i}} & \\hat{\\mathrm{j}} & \\hat{\\mathrm{k}} \\\\ 1 & -1 & 2 \\\\ -1 & 2 & 1\\end{array}\\right| \\\\ & =-5 \\hat{\\mathrm{i}}-3 \\hat{\\mathrm{j}}+\\hat{\\mathrm{k}} \\\\ & L_3: \\frac{x-\\alpha}{-5}=\\frac{y-\\beta}{-3}=\\frac{z-\\gamma}{1}=\\lambda \\\\ & \\quad A(\\alpha-5 \\lambda, \\beta-3 \\lambda, \\gamma+\\lambda) \\\\ & L_1: \\frac{x-1}{1}=\\frac{y-2}{-1}=\\frac{z-1}{2}=k\\end{aligned}$\n\n\n$\\mathrm{B}(\\mathrm{k}+1,-\\mathrm{k}+2,2 \\mathrm{k}+1)$\n\nNow\n$\\begin{aligned}\n& \\alpha-5 \\lambda=\\mathrm{k}+1 \\Rightarrow \\alpha=5 \\lambda+\\mathrm{k}+1 \\\\\n& \\beta-3 \\lambda=-\\mathrm{k}+2 \\Rightarrow \\beta=3 \\lambda-\\mathrm{k}+2 \\\\\n& \\gamma+\\lambda=2 \\mathrm{k}-1 \\Rightarrow \\gamma=-\\lambda+2 \\mathrm{k}+1 \\\\\n& |5 \\alpha-11 \\beta-8 \\gamma|=|-25| \\\\\n& =25\n\\end{aligned}$"
+  }
+}

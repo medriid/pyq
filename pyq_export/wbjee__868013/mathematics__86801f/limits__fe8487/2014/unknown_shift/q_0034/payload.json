@@ -1,0 +1,43 @@
+{
+  "index": 34,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $[x]$ denote the greatest integer less than or equal to $x$ for any real number $x$. Then, $\\lim _{n \\rightarrow \\infty} \\frac{[n \\sqrt{2}]}{n}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have. $n \\sqrt{2}-1    < [n \\sqrt{2]} \\leq n \\sqrt{2} \\quad[\\because x-1 \\leq[x] \\leq x]$\r\n$\\Rightarrow \\quad \\sqrt{2}-\\frac{1}{n} < [n \\sqrt{2}] \\leq 1$\r\n$\\therefore$ By Sandwich theorem. $\\lim _{n \\rightarrow \\infty}\\left(\\sqrt{2}-\\frac{1}{n}\\right)=\\sqrt{2}$"
+  }
+}

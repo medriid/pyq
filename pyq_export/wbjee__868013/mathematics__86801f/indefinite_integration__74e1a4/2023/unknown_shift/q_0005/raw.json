@@ -1,0 +1,63 @@
+{
+  "_id": "64a81493e0ff5a5425a85cf5",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad6",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2023-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023",
+      "title": "WBJEE 2023"
+    }
+  ],
+  "question": {
+    "text": "If \\(\\int \\frac{d x}{(x+1)(x-2)(x-3)}=\\frac{1}{k} \\log _e\\left\\{\\frac{|x-3|^3|x+1|}{(x-2)^4}\\right\\}+c\\), then the value of \\(k\\) is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "90oxT",
+      "text": "4",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "g94fT",
+      "text": "6",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ZvCCZ",
+      "text": "8",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "90P0Q",
+      "text": "12",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint: \\(\\int \\frac{d x}{(x+1)(x-2)(x-3)}=\\int\\left(\\frac{A}{x+1}+\\frac{B}{(x-2)}+\\frac{C}{x-3}\\right) d x\\)\n\\(\\begin{aligned}\n& \\frac{1}{(x+1)(x-2)(x-3)}=\\frac{A(x-2)(x-3)+B(x+1)(x-3)+C(x+1)(x-2)}{(x+1)(x-2)(x-3)} \\\\\n& \\Rightarrow 1=A(x-2)(x-3)+B(x+1)(x-3)+C(x+1)(x-2) \\\\\n& \\text { for } x=-1 \\\\\n& 1=A(-3)(-4) \\Rightarrow A=\\frac{1}{12} \\\\\n& \\text { for } x=2 \\\\\n& 1=B(3)(-1) \\Rightarrow B=-\\frac{1}{3}\n\\end{aligned}\\)\n\\(\\text { for } x=3\\)\n\\(\\begin{aligned} & 1=C(4)(1) \\Rightarrow C=\\frac{1}{4} \\\\ & \\therefore I=\\frac{1}{12} \\int \\frac{1}{x+1} d x-\\frac{1}{3} \\int \\frac{1}{x-2} d x+\\frac{1}{4} \\int \\frac{1}{x-3} d x \\\\ & =\\frac{1}{12} \\ln |x+1|-\\frac{1}{3} \\ln |x-2|+\\frac{1}{4} \\ln |x-3|+C \\\\ & =\\frac{1}{12}\\left[\\ln |x+1|-\\ln |x-2|^4+\\ln |x-3|^3\\right]+C \\\\ & =\\frac{1}{12} \\ln \\frac{(|x+1|)(|x-3|)^3}{(x-2)^4}-C \\\\ & \\therefore k=12\\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad6",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2023-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023",
+    "title": "WBJEE 2023"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

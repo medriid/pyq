@@ -1,0 +1,83 @@
+{
+  "_id": "685102c16bba689a3eb09c9f",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "684c67d769037fad219cb0c2",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2025-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (Paper 2)",
+      "title": "JEE Advanced 2025 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $x_0$ be the real number such that $e^{x_0}+x_0=0$. For a given real number $\\alpha$, define $g(x)=\\frac{3 x e^x+3 x-\\alpha e^x-\\alpha x}{3\\left(e^x+1\\right)}$\nfor all real numbers $x$.\nThen which one of the following statements is TRUE?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "JPmI3",
+      "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/h7sx77AU_0lY5AHjMVOUbifoU5blYfN0Um3hH05Ev7I.original.fullsize.png\"><br>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ZOoY7",
+      "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/DzcoIwGcoAKpHi3sMNOwWg0iPXfWO1N-ovzgdXGphMA.original.fullsize.png\"><br>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "1CdZH",
+      "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/qustdTazrmDDA5bVY1CYmelD3VlbdJJJqPIWlmM8-u4.original.fullsize.png\"><br>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "tGWcx",
+      "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/Voccczcm9oFiCjg8PrDyRN3keema4wpNfd6SQguCxX4.original.fullsize.png\"><br>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & e^{x_0}+x_0=0 \\\\ & g(x)=\\frac{3 x e^x+3 x-\\alpha e^x-\\alpha x}{3\\left(e^x+1\\right)} \\\\ & g(x)=x-\\frac{\\alpha\\left(e^x+x\\right)}{3\\left(e^x+1\\right)}, g(x)+e^{x_0}=x+e^{x_0}-\\frac{\\alpha}{3}\\left(\\frac{e^x+x}{e^x+1}\\right) \\\\ & g(x)+e^{x_0}=\\left(x-x_0\\right)-\\frac{\\alpha}{3}\\left(\\frac{e^x+x}{e^x+1}\\right) \\\\ & \\Rightarrow \\text { As very clear } g\\left(x_0\\right)+x_0 \\Rightarrow 0\\end{aligned}$\n$\\begin{aligned} & \\lim _{x \\rightarrow x_0}\\left|\\frac{g(x)+e^{x_0}}{x-x_0}\\right| \\frac{0 \\uparrow}{0 \\uparrow}=\\lim _{x \\rightarrow x_0}\\left|\\frac{g^{\\prime}(x)}{1}\\right|=\\left|g^{\\prime}\\left(x_0\\right)\\right| \\\\ & g^{\\prime}(x)=1-\\frac{\\alpha}{3}\\left(\\frac{\\left(e^x+1\\right)\\left(e^x+1\\right)-\\left(e^x+x\\right) e^x}{\\left(e^x+1\\right)^2}\\right) \\\\ & g^{\\prime}\\left(x_0\\right)=1-\\frac{\\alpha}{3}\\left(\\frac{\\left(e^{x_0}+1\\right)^2}{\\left(e^{x_0}+1\\right)^2}\\right)=1-\\frac{\\alpha}{3} \\\\ & \\Rightarrow \\lim _{x \\rightarrow x_0}\\left|\\frac{g(x)+e^{x_0}}{x-x_0}\\right|=\\left|g^{\\prime}\\left(x_0\\right)\\right|=\\left|1-\\frac{\\alpha}{3}\\right|\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "eb8d10e819a049a6b8c38d93957386f9",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/Y3Al1Jkto4XxU.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/Y3Al1Jkto4XxU.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "684c67d769037fad219cb0c2",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2025-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (Paper 2)",
+    "title": "JEE Advanced 2025 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

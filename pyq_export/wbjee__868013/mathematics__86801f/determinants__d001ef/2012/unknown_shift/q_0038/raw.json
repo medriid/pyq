@@ -1,0 +1,63 @@
+{
+  "_id": "64a813d4e0ff5a5425a855e9",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012",
+      "title": "WBJEE 2012"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "The number of real values of $\\alpha$ for which the system of equations\r\n$\r\n\\begin{array}{l}\r\nx+3 y+5 z=\\alpha x \\\\\r\n5 x+y+3 z=\\alpha y\r\n\\end{array}\r\n$\r\n$3 x+5 y+z=\\alpha z$\r\nhas infinite number of solutions is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "nXNSA",
+      "text": "1",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "BDfe7",
+      "text": "2",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "lW0bB",
+      "text": "4",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "ReYEm",
+      "text": "6",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "The system of equations are\r\n$$\r\n\\begin{array}{l}\r\nx+3 y+5 z=\\alpha x \\\\\r\n5 x+y+3 z=\\alpha y \\\\\r\n3 x+5 y+z=\\alpha z \\\\\r\n(1-\\alpha) x+3 y+5 z=0 \\\\\r\n5 x+(1-\\alpha) y+3 z=0 \\\\\r\n3 x+5 y+(1-\\alpha) z=0\r\n\\end{array}\r\n$$\r\nFor infinite number of solutions, we must have $\\left|\\begin{array}{ccc}1-\\alpha & 3 & 5 \\\\ 5 & 1-\\alpha & 3 \\\\ 3 & 5 & 1-\\alpha\\end{array}\\right|=0$\r\n$\\Rightarrow \\quad\\left|\\begin{array}{ccc}9-\\alpha & 3 & 5 \\\\ 9-\\alpha & 1-\\alpha & 3 \\\\ 9-\\alpha & 5 & 1-\\alpha\\end{array}\\right|=0,$\r\n$C_{1} \\rightarrow C_{2}+C_{2}+C_{3}$\r\nTaking $(9-\\alpha)$ common from the first column, we get $\\begin{array}{l}\\Rightarrow \\quad(9-\\alpha)\\left|\\begin{array}{ccc}1 & 3 & 5 \\\\ 1 & 1-\\alpha & 3 \\\\ 1 & 5 & 1-\\alpha\\end{array}\\right|=0 \\\\ \\Rightarrow & (9-\\alpha)\\left|\\begin{array}{ccc}1 & 3 & 5 \\\\ 0 & -\\alpha-2 & -2 \\\\ 0 & 2 & -\\alpha-4\\end{array} \\mid=0\\right. \\\\ \\Rightarrow & (9-\\alpha)\\left|\\begin{array}{cc}\\alpha+2 & 2 \\\\ -2 & \\alpha+4\\end{array}\\right|=0 \\\\ \\Rightarrow & (9-\\alpha)\\left(\\alpha^{2}+6 \\alpha+8+4\\right)=0 \\\\ (\\alpha-9)\\left(\\alpha^{2}+6 \\alpha+12\\right)=0\\end{array}$\r\n$\\Rightarrow \\alpha=9$ is the only real value of $\\alpha$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012",
+    "title": "WBJEE 2012"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

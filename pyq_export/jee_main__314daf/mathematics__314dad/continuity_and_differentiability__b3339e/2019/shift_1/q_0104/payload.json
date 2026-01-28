@@ -1,0 +1,43 @@
+{
+  "index": 104,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $f(x)=\\left\\{\\begin{array}{cl}-1, & -2 \\leq x  < 0 \\\\ x^{2}-1, & 0 \\leq x \\leq 2\\end{array}\\right.$ and\r\n\r\n$g(x)=|\\eta(x)|+f(x \\mid) .$ Then, in the interval $(-2,2), g$ is:"
+  },
+  "options": [
+    {
+      "text": "differentiable at all points",
+      "is_correct": false
+    },
+    {
+      "text": "not continuous",
+      "is_correct": false
+    },
+    {
+      "text": "not differentiable at two points",
+      "is_correct": false
+    },
+    {
+      "text": "not differentiable at one point",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$f(x)=\\left\\{\\begin{array}{cc}-1, & -2 \\leq x  < 0 \\\\ x^{2}-1, & 0 \\leq x \\leq 2\\end{array}\\right.$\r\n\r\n$\\text { Then, } f(x \\mid)=\\left\\{\\begin{array}{cc}\r\n\r\n-1, & -2 \\leq|x| < 0 \\\\\r\n\r\n|x|^{2}-1, & 0 \\leq|x| \\leq 2\r\n\r\n\\end{array}\\right.$\r\n\r\n$\\Rightarrow f(|x|)=x^{2}-1,-2 \\leq x \\leq 2$\r\n\r\n$\\Rightarrow g(x)=\\left\\{\\begin{aligned} 1+x^{2}-1, &-2 \\leq x < 0 \\\\\\left(x^{2}-1\\right)+\\left|x^{2}-1\\right|, & 0 \\leq x \\leq 2 \\end{aligned}\\right.$\r\n\r\n$=\\left\\{\\begin{array}{cc}x^{2}, & -2 \\leq x < 0 \\\\ 0, & 0 \\leq x < 1 \\\\ 2\\left(x^{2}-1\\right), & 1 \\leq x \\leq 2\\end{array}\\right.$\r\n\r\n$g^{\\prime}\\left(0^{-}\\right)=0, g^{\\prime}\\left(0^{*}\\right)=0, g^{\\prime}\\left(1^{-}\\right)=0, g^{\\prime}\\left(1^{+}\\right)=4$\r\n\r\n$\\Rightarrow g(x)$ is non-differentiable at $x=1$ $\\Rightarrow g(x)$ is not differentiable at one point."
+  }
+}

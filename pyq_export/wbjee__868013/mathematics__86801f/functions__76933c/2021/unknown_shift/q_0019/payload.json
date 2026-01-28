@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0f42b7a9706676933c",
+    "chapter_name": "Functions",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f: R \\rightarrow R$ be such that $f(0)=0$ and $\\left|f^{\\prime}(x)\\right| \\leq 5$ for all $x$. Then $f(1)$ is in"
+  },
+  "options": [
+    {
+      "text": "$(5,6)$",
+      "is_correct": false
+    },
+    {
+      "text": "$[-5,5]$",
+      "is_correct": true
+    },
+    {
+      "text": "$(-\\infty,-5) \\cup(5, \\infty)$",
+      "is_correct": false
+    },
+    {
+      "text": "$[-4,4]$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\left|f^{\\prime}(x)\\right| \\leq 5$\r\n$\\int_{0}^{1}-5 d x \\leq \\int_{0}^{1} f^{\\prime}(x) d x \\leq \\int_{0}^{1} 5 d x$\r\n$\\Rightarrow-5 \\leq f(1)-0 \\leq 5$\r\n$\\Rightarrow-5 \\leq f(1) \\leq 5$\r\n$\\Rightarrow f(1) \\in[-5,5]$"
+  }
+}

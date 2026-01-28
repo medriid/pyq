@@ -1,0 +1,61 @@
+{
+  "_id": "6151e863dabf1ce085ef6a82",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "01",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "The number of ways of selecting <math><mn>15</mn></math> teams from <math><mn>15</mn></math> men and <math><mn>15</mn></math> women, such that each team consists of a man and a woman, is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "HE2BD",
+      "text": "<math><mn>1960</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "CARiU",
+      "text": "<math><mn>15</mn><mo>!</mo></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "EP2Sa",
+      "text": "<math><msup><mrow><mfenced separators=\"|\"><mrow><mn>15</mn><mo>!</mo></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "S9kAp",
+      "text": "<math><mn>14</mn><mo>!</mo></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "First team can be selected in <math><mfenced separators=\"|\"><mrow><mi>&nbsp;</mi><msup><mrow></mrow><mrow><mn>15</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>.</mo><msup><mrow></mrow><mrow><mn>15</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mfenced></math> way second in <math><mfenced separators=\"|\"><mrow><msup><mrow></mrow><mrow><mn>14</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mfenced><mfenced separators=\"|\"><mrow><msup><mrow></mrow><mrow><mn>14</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mfenced></math> way's and so on<br /><br />So number of ways of selections <math><mn>15</mn></math> teams <math><mo>=</mo><mfrac><mrow><msup><mrow><mfenced separators=\"|\"><mrow><mn>15</mn><mo>!</mo></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>15</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mfenced separators=\"|\"><mrow><mn>15</mn><mo>!</mo></mrow></mfenced></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

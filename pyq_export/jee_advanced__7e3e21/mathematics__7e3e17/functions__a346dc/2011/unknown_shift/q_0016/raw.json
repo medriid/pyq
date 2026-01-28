@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a17f23ac7d519f9b13d",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c49",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2011-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011 (Paper 2)",
+      "title": "JEE Advanced 2011 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $f:(0,1) \\rightarrow R$ be defined by $f(x)=\\frac{b-x}{1-b x}$, where $b$ is a constant such that $0 < b < 1$. Then,",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "SaKy9",
+      "text": "\n$f$ if not invertible on $(0,1)$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "mpfwq",
+      "text": "\n$f \\neq f^{-1}$ on $(0,1)$ and $f^{\\prime}(b)=\\frac{1}{f^{\\prime}(0)}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "GSarq",
+      "text": "\n$f=f^{-1}$ on $(0,1)$ and $f^{\\prime}(b)=\\frac{1}{f^{\\prime}(0)}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7n8xY",
+      "text": "\n$f^{-1}$ is differentiable on $(0,1)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Here, $f(x)=\\frac{b-x}{1-b x}$ where, $0 < b < 1,0 < x < 1$ For function to be invertible it should be one-one onto.\n$\\therefore$ Check range :\nLet $\\quad f(x)=y \\Rightarrow y=\\frac{b-x}{1-b x}$\n$$\n\\begin{aligned}\n& \\Rightarrow y-b x y=b-x \\Rightarrow x(1-b y)=b-y \\\\\n& \\Rightarrow \\quad x=\\frac{b-y}{1-b y}\n\\end{aligned}\n$$\n\nwhere, $0 < x < 1$\n$$\n\\begin{gathered}\n\\therefore \\quad 0 < \\frac{b-y}{1-b y} < 1 \\\\\n\\frac{b-y}{1-b y}>0 \\text { and } \\frac{b-y}{1-b y} < 1 \\\\\n\\quad+\\quad-\\quad+ \\\\\n\\Rightarrow \\quad b \\\\\ny < b \\text { or } y>\\frac{1}{b} \\\\\n\\frac{(b-1)(y+1)}{1-b y} < -1 < y < \\frac{1}{b}\n\\end{gathered}\n$$\nFrom Eqs. (i) and (ii), we get $y \\in\\left(-1, \\frac{1}{b}\\right) \\subset$ Codomain\nThus, $f(x)$ is not invertible.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c49",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2011-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011 (Paper 2)",
+    "title": "JEE Advanced 2011 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

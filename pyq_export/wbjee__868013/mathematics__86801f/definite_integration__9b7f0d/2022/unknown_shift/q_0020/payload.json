@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathrm{f}$ be derivable in $[0,1]$, then"
+  },
+  "options": [
+    {
+      "text": "there exists $c \\in(0,1)$ such that $\\int_0^c f(x) d x=(1-c) f(c)$",
+      "is_correct": true
+    },
+    {
+      "text": "there does not exist any point $d \\in(0,1)$ for which $\\int_0^d f(x) d x=(1-d) f(d)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\int_0^c f(x) d x$ does not exist, for any $c \\in(0,1)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\int_0^c f(x) d x$ is independent of $c, c \\in(0,1)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $g(x)=x \\int_0^x f(t) d t-\\int_0^x f(t) d t$\nNow, $g(0)=0$\n$g(1)=0$\nBy Rolle's Theorem\n$g^{\\prime}(x)=0$\nfor some $x \\in(0,1)$\n$g^{\\prime}(x)=x f(x)+\\int_0^x f(t) d t-f(x)=0$"
+  }
+}

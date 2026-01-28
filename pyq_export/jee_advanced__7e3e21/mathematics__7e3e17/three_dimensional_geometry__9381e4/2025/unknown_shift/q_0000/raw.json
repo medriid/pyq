@@ -1,0 +1,83 @@
+{
+  "_id": "685102bd6bba689a3eb09c73",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "684c67d769037fad219cb0c1",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2025-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (Paper 1)",
+      "title": "JEE Advanced 2025 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $L_1$ be the line of intersection of the planes given by the equation- $2 x+3 y+z=4 \\text { and } x+2 y+z=5 .$\nLet $L_2$ be the line passing through the point $P(2,-1,3)$ and parallel to $L_1$. Let $M$ denote the plane given by the equation- $2 x+y-2 z=6$\nSuppose that the line $L_2$ meets the plane $M$ at the point $Q$. Let $R$ be the foot of the perpendicular drawn from $P$ to the plane $M$.\nThen which of the following statements is (are) TRUE?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "FTpQZ",
+      "text": "The length of the line segment $P Q$ is $9 \\sqrt{3}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "LISQv",
+      "text": "The length of the line segment $Q R$ is 15",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7XWHU",
+      "text": "The area of $\\triangle P Q R$ is $\\frac{3}{2} \\sqrt{234}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "jfzmM",
+      "text": "The acute angle between the line segments $P Q$ and $P R$ is $\\cos ^{-1}\\left(\\frac{1}{2 \\sqrt{3}}\\right)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $L_1: \\vec{r}=\\vec{a}+t \\vec{b}$\n$\\overrightarrow{\\mathrm{b}}=\\left|\\begin{array}{ccc}\\hat{\\mathrm{i}} & \\hat{\\mathrm{j}} & \\hat{\\mathrm{k}} \\\\ 2 & 3 & 1 \\\\ 1 & 2 & 1\\end{array}\\right|=\\hat{\\mathrm{i}}(1)-\\hat{\\mathrm{j}}(1)+\\hat{\\mathrm{k}}(1)$\nDr's of $L_1: <1,-1,1>$\n$\\begin{aligned}\n& L_1: \\frac{x+1}{1}=\\frac{y-0}{-1}=\\frac{z-6}{1} \\\\\n& \\& L_2: \\frac{x-2}{1}=\\frac{y+1}{-1}=\\frac{z-3}{1}=\\lambda \\\\\n& M: 2 x+y-2 z-6=0\n\\end{aligned}$\nLet point on $\\mathrm{L}_2(\\lambda+2,-\\lambda-1, \\lambda+3)$\n$\\begin{aligned}\n& 2(\\lambda+2)-\\lambda-1-2 \\lambda-6-6=0 \\\\\n& 2 \\lambda+4-3 \\lambda-13=0 \\\\\n& \\lambda=-9 \\\\\n& \\therefore Q(-7,8,-6)\n\\end{aligned}$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/J_-cnHbNEsFw31b7TfQK1lk9TvbcJFMDBjMc2Ih_VAA.original.fullsize.png\"><br>Line PR: $\\frac{x-2}{2}=\\frac{y+1}{1}=\\frac{z-3}{-2}=\\mu$\n$\\mathrm{R}(2 \\mu+2, \\mu-1,-2 \\mu+3)$\nPut in plane\n$\\begin{aligned}\n& 2(2 \\mu+2)+\\mu-1-2(-2 \\mu+3)-6=0 \\\\\n& 4 \\mu+4+\\mu-1+4 \\mu-6-6=0 \\\\\n& 9 \\mu-9=0 \\Rightarrow \\mu=1 \\\\\n& \\mathrm{R}(4,0,1) \\\\\n& \\mathrm{P}(2,-1,3) \\& \\mathrm{Q}(-7,8,-6) \\\\\n& \\mathrm{PQ}=\\sqrt{81+81+81}=9 \\sqrt{3} \\\\\n& \\mathrm{Q}(-7,8,-6) \\& \\mathrm{R}(4,0,1)\n\\end{aligned}$\n$\\mathrm{QR}=\\sqrt{121+64+49}=\\sqrt{234}$\nArea ( $\\triangle \\mathrm{PQR}$ )\n$\\begin{aligned}\n& =\\frac{1}{2}|\\overrightarrow{\\mathrm{QP}} \\times \\overrightarrow{\\mathrm{QR}}| \\\\\n& =\\frac{1}{2}\\left|\\begin{array}{ccc}\n\\hat{\\mathrm{i}} & \\hat{\\mathrm{j}} & \\hat{\\mathrm{k}} \\\\\n9 & -9 & 9 \\\\\n11 & -8 & 7\n\\end{array}\\right| \\\\\n& =\\frac{3}{2} \\sqrt{234} \\\\\n& \\overrightarrow{\\mathrm{PQ}}=-9 \\hat{\\mathrm{i}}+9 \\hat{\\mathrm{j}}-9 \\hat{\\mathrm{k}}=-9(\\hat{\\mathrm{i}}-\\hat{\\mathrm{j}}+\\hat{\\mathrm{k}}) \\\\\n& \\overrightarrow{\\mathrm{PR}}=2 \\hat{\\mathrm{i}}+\\hat{\\mathrm{j}}-2 \\hat{\\mathrm{k}}\n\\end{aligned}$\n$\\begin{aligned} & \\cos \\theta=\\left|\\frac{\\overrightarrow{\\mathrm{PQ}} \\cdot \\overrightarrow{\\mathrm{PR}}}{\\mathrm{PQ} \\cdot \\mathrm{PR}}\\right| \\\\ & =\\frac{9}{9 \\sqrt{3} \\times 3}=\\frac{1}{3 \\sqrt{3}} \\\\ & \\theta=\\cos ^{-1}\\left(\\frac{1}{3 \\sqrt{3}}\\right)\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "185094d0910c47b1bac2d4b6b485b51a",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/E02eI9lLj6F9h.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/E02eI9lLj6F9h.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "684c67d769037fad219cb0c1",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2025-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (Paper 1)",
+    "title": "JEE Advanced 2025 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

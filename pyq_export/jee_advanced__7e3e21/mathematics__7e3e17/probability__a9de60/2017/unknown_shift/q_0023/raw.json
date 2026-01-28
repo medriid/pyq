@@ -1,0 +1,83 @@
+{
+  "_id": "64b16a5cf23ac7d519f9b3b7",
+  "previousYearPapers": [
+    {
+      "_id": "615d92eede3d91842a5cf82a",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2017-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2017 (Paper 1)",
+      "title": "JEE Advanced 2017 (Paper 1)"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 1,
+  "question": {
+    "text": "Let <math><mi>X</mi></math> and <math><mi>Y</mi></math> be two events such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced separators=\"|\"><mi>X</mi></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced separators=\"|\"><mi>X</mi><mi>Y</mi></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi><mo>|</mo><mi>X</mi></mrow></mfenced><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>.</mo></math> Then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "uEobG",
+      "text": "<math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>4</mn></mrow><mrow><mn>15</mn></mrow></mfrac></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "Djrk5",
+      "text": "<math><mi>P</mi><mfenced separators=\"|\"><mrow><mover accent=\"true\"> <mi>X</mi> <mo stretchy=\"true\">¯</mo> </mover><mo>|</mo><mi>&nbsp;Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "MCjiN",
+      "text": "<math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>∩</mo><mi>Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>5</mn></mrow></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "QtrQK",
+      "text": "<math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>∪</mo><mi>Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mn>5</mn></mrow></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Using formula <math> <mrow> <mi>P</mi><mfenced separators=\"|\"><mrow><mi>X&nbsp;</mi><mo>|</mo><mi>&nbsp;Y</mi></mrow></mfenced><mo>=</mo><mfrac> <mrow> <mi>P</mi><mrow><mo>(</mo> <mrow> <mi>X</mi><mo>∩</mo><mi>Y</mi> </mrow> <mo>)</mo></mrow> </mrow> <mrow> <mi>P</mi><mrow><mo>(</mo> <mi>Y</mi> <mo>)</mo></mrow> </mrow> </mfrac> </mrow></math>&nbsp;and&nbsp;<math><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y&nbsp;</mi><mo>|</mo><mi>&nbsp;X</mi></mrow></mfenced><mo>=</mo><mfrac> <mrow> <mi>P</mi><mrow><mo>(</mo> <mrow> <mi>Y</mi><mo>∩</mo><mi>X</mi> </mrow> <mo>)</mo></mrow> </mrow> <mrow> <mi>P</mi><mrow><mo>(</mo> <mi>X</mi> <mo>)</mo></mrow> </mrow> </mfrac> </mrow> </math><br /><math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac><mo>;</mo><mfrac><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>∩</mo><mi>Y</mi></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi></mrow></mfenced></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>;</mo><mfrac><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi><mo>∩</mo><mi>X</mi></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi></mrow></mfenced></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mn>5</mn></mrow></mfrac></math><br />From this information, we get<br /><math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>∩</mo><mi>Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mn>15</mn></mrow></mfrac><mo>;</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>4</mn></mrow><mrow><mn>15</mn></mrow></mfrac></math><br />Using formula <math> <mrow> <mi>P</mi><mo stretchy=\"false\">(</mo><mi>X</mi><mo>∪</mo><mi>Y</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>X</mi><mo stretchy=\"false\">)</mo><mo>+</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>Y</mi><mo stretchy=\"false\">)</mo><mo>−</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>X</mi><mo>∩</mo><mi>Y</mi><mo stretchy=\"false\">)</mo> </mrow> </math><br /><math><mo>∴</mo><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>∪</mo><mi>Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>4</mn></mrow><mrow><mn>15</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mn>15</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>7</mn></mrow><mrow><mn>15</mn></mrow></mfrac></math><br /><math><mi>P</mi><mfenced separators=\"|\"><mrow><mover accent=\"true\"> <mi>X</mi> <mo stretchy=\"true\">¯</mo> </mover><mo>|</mo><mi>&nbsp;Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mover accent=\"true\"><mrow><mi>X</mi></mrow><mo>-</mo></mover><mo>∩</mo><mi>Y</mi></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi></mrow></mfenced></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi></mrow></mfenced><mo>-</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>∩</mo><mi>Y</mi></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi></mrow></mfenced></mrow></mfrac></math><br /><math><mo>⇒</mo><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>P</mi><mfenced separators=\"|\"><mrow><mover accent=\"true\"> <mi>X</mi> <mo stretchy=\"true\">¯</mo> </mover><mo>|</mo><mi>&nbsp;Y</mi></mrow></mfenced><mo>=</mo><mn>1</mn><mo>-</mo><mfrac><mrow><mfrac><mrow><mn>2</mn></mrow><mrow><mn>15</mn></mrow></mfrac></mrow><mrow><mfrac><mrow><mn>4</mn></mrow><mrow><mn>15</mn></mrow></mfrac></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "392e987fda59479f9f75f7b8859f4f7b",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/5qcEK1BmAL1hM.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/5qcEK1BmAL1hM.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eede3d91842a5cf82a",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2017-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2017 (Paper 1)",
+    "title": "JEE Advanced 2017 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

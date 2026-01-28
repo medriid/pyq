@@ -1,0 +1,43 @@
+{
+  "index": 41,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2009",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd8ccf6aa19875bc6bb",
+    "chapter_name": "Binomial Theorem",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For each $n \\in N, 2^{3 n}-1$ is divisible by\nwhere $\\mathrm{N}$ is a set of natural numbers"
+  },
+  "options": [
+    {
+      "text": "7",
+      "is_correct": true
+    },
+    {
+      "text": "8",
+      "is_correct": false
+    },
+    {
+      "text": "6",
+      "is_correct": false
+    },
+    {
+      "text": "16",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\text { Hints : } 2^{3 \\mathrm{n}}=(8)^{\\mathrm{n}}=(1+7)^{\\mathrm{n}}=1+{ }^{\\mathrm{n}} \\mathrm{C}_1 7+{ }^{\\mathrm{n}} \\mathrm{C}_2 7^2 \\ldots+{ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{n}} 7^{\\mathrm{n}} \\\\\n& 2^{3 \\mathrm{n}}-1=7\\left[{ }^{\\mathrm{n}} \\mathrm{C}_1+{ }^{\\mathrm{n}} \\mathrm{C}_2 7+\\ldots\\right]\n\\end{aligned}\n$$"
+  }
+}

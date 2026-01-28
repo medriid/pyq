@@ -1,0 +1,63 @@
+{
+  "_id": "64a81462e0ff5a5425a85b20",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7f",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2020-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2020",
+      "title": "WBJEE 2020"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "$\\int \\frac{\\mathrm{f}(\\mathrm{x}) \\varphi^{\\prime}(\\mathrm{x})+\\varphi(\\mathrm{x}) \\mathrm{f}^{\\prime}(\\mathrm{x})}{(\\mathrm{f}(\\mathrm{x}) \\varphi(\\mathrm{x})+1) \\sqrt{\\mathrm{f}(\\mathrm{x}) \\varphi(\\mathrm{x})-1}} \\mathrm{dx}=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "GqYgW",
+      "text": "$\\sin ^{-1} \\sqrt{\\frac{\\mathrm{f}(\\mathrm{x})}{\\varphi(\\mathrm{x})}}+\\mathrm{c}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "CEbKp",
+      "text": "$\\cos ^{-1} \\sqrt{(f(x))^{2}-(\\varphi(x))^{2}}+c$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "OQvoy",
+      "text": "$\\sqrt{2} \\tan ^{-1} \\sqrt{\\frac{f(x) \\varphi(x)-1}{2}}+c$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "oxM10",
+      "text": "$\\sqrt{2} \\tan ^{-1} \\sqrt{\\frac{f(x) \\varphi(x)+1}{2}}+c$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint:\r\nLet $f(x) \\phi(x)=t$\r\n$\\int \\frac{d t}{(t+1) \\sqrt{t-1}}$\r\nLet $t-1=p^{2}, d t=2 p d p$\r\n$\\Rightarrow \\int \\frac{2 d p}{p^{2}+2}=\\sqrt{2} \\tan ^{-1}\\left|\\sqrt{\\frac{f(x) \\phi(x)-1}{2}}\\right|+c$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7f",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2020-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2020",
+    "title": "WBJEE 2020"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

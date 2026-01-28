@@ -1,0 +1,63 @@
+{
+  "_id": "64a81458e0ff5a5425a85ac9",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7e",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2019-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019",
+      "title": "WBJEE 2019"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 1,
+  "question": {
+    "text": "Let $A=\\left(\\begin{array}{lll}3 & 0 & 3 \\\\ 0 & 3 & 0 \\\\ 3 & 0 & 3\\end{array}\\right) .$ Then, the roots of the equation $\\operatorname{det}\\left(A-\\lambda I_{3}\\right)=0$ (where $I_{3}$ is the identity matrix of order 3 ) are",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "7Btyb",
+      "text": "3,0,3",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "H9cqE",
+      "text": "0,3,6",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "qrEM6",
+      "text": "1,0,-6",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "mtWGX",
+      "text": "3,3,6",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have,\r\n$$\r\nA=\\left[\\begin{array}{lll}\r\n3 & 0 & 3 \\\\\r\n0 & 3 & 0 \\\\\r\n3 & 0 & 3\r\n\\end{array}\\right]\r\n$$\r\nAgain, we have\r\n$$\r\n\\left|\\begin{array}{ccc}\r\n3-\\lambda & 0 & 3 \\\\\r\n0 & 3-\\lambda & 0 \\\\\r\n3 & 0 & 3-\\lambda\r\n\\end{array}\\right|=0\r\n$$\r\n$\\Rightarrow(3-\\lambda)\\left[(3-\\lambda)^{2}-0\\right]-0+3[0-3(3-\\lambda)]=0$\r\n$\\Rightarrow (3-\\lambda)^{3}-9(3-\\lambda)=0$\r\n$\\Rightarrow (3-\\lambda)\\left[(3-\\lambda)^{2}-9\\right]=0$\r\n$\\Rightarrow (3-\\lambda)\\left(9+\\lambda^{2}-6 \\lambda-9\\right)=0$\r\n$\\Rightarrow (3-\\lambda)\\left(\\lambda^{2}-6 \\lambda\\right)=0$\r\n$\\Rightarrow \\quad(3-\\lambda) \\lambda(\\lambda-6)=0$\r\n${\\lambda}=3,0,6$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7e",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2019-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019",
+    "title": "WBJEE 2019"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

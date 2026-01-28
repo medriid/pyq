@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025537539c1075ba01de6",
+    "chapter_name": "Inverse Trigonometric Functions",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The integral $\\int_{1 / 4}^{3 / 4} \\cos \\left(2 \\cot ^{-1} \\sqrt{\\frac{1-x}{1+x}}\\right) d x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$1 / 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$-1 / 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$-1 / 4$",
+      "is_correct": true
+    },
+    {
+      "text": "$1 / 4$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & I=\\int_{1 / 4}^{3 / 4} \\cos \\left(2 \\cot ^{-1}\\left(\\sqrt{\\frac{1-x}{1+x}}\\right) d x\\right) \\\\ & \\int_{1 / 4}^{3 / 4} \\cos \\left(2\\left(\\tan ^{-1} \\sqrt{\\frac{1+x}{1+x}}\\right)\\right) d x \\\\ & \\left.\\int_{1 / 4}^{3 / 4} \\frac{1-\\tan ^2\\left(\\tan ^{-1} \\sqrt{\\frac{1+x}{1-x}}\\right)}{1+\\tan ^2\\left(\\tan ^{-1} \\sqrt{\\frac{1+x}{1-x}}\\right.}\\right) d x\\end{aligned}$\n$\\begin{aligned} & =\\int_{1 / 4}^{3 / 4} \\frac{1-\\left(\\frac{1+x}{1-x}\\right)}{1+\\left(\\frac{1+x}{1-x}\\right)} d x=\\int_{1 / 4}^{3 / 4} \\frac{-2 x}{2} d x \\\\ & =\\int_{1 / 4}^{3 / 4}(-x) d x=-\\left(\\frac{x^2}{2}\\right)_{1 / 4}^{3 / 4} \\\\ & =-\\frac{1}{2}\\left[\\frac{9}{16}-\\frac{1}{16}\\right] \\\\ & =-\\frac{1}{4}\\end{aligned}$"
+  }
+}

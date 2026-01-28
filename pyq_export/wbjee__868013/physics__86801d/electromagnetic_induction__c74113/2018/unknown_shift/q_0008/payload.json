@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c8f2c567a99ecc74113",
+    "chapter_name": "Electromagnetic Induction",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "As shown in the figure, a rectangular loop of a conducting wire is moving away with a constant velocity $v$ in a perpendiculat direction from a very long straight conductor carrying a steady current $l$. When the\r\nbreadth of the rectangular loop is very small compared to its distance from the straight conductor, how does the emf. $E$ induced in the loop vary with time $t ?$\r\n<img src=\"assets\\qt0008_12236f5c6fdc.png\">"
+  },
+  "options": [
+    {
+      "text": "$E \\propto \\frac{1}{t^{2}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$E \\propto \\frac{1}{t}$",
+      "is_correct": false
+    },
+    {
+      "text": "$E \\alpha-\\ln (t)$",
+      "is_correct": false
+    },
+    {
+      "text": "$E \\propto \\frac{1}{t^{3}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0008_0e9bcf0fe392.png\">\r\n\r\n$\\therefore$ Motional emf in the loop.\r\n$$\r\n\\begin{aligned}\r\nE &=E_{1}-E_{2}=vl l\\left(B_{1}-B_{2}\\right) \\\\\r\n&=v\\left(\\frac{\\mu_{0}}{2 \\pi} \\cdot \\frac{I}{y}-\\frac{\\mu_{0} I}{2 \\pi(y+b)}\\right] \\\\\r\n&=\\frac{\\mu_{0}}{2 \\pi} \\cdot I \\cdot v l\\left[\\frac{y+b-y}{y(y+b)}\\right]=\\frac{\\mu_{0}}{2 \\pi} \\cdot \\frac{v I l}{y(y+b)} b\r\n\\end{aligned}\r\n$$\r\n$\\because \\quad b< < y$\r\n$\\therefore \\quad E=\\frac{\\mu_{0}}{2 \\pi} \\cdot \\frac{v l I}{y^{2}} b$\r\n$\\because v=$ constant\r\n$$\r\n$$\r\nThus, $\\quad E=\\frac{\\mu_{0}}{2 \\pi} \\cdot \\frac{v l l}{v^{2} t^{2}} b$\r\nHence, $\\quad E \\propto \\frac{1}{t^{2}}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 50,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $I_{1}=\\int_{0}^{n}[x] d x$ and $I_{2}=\\int_{0}^{n}\\{x\\} d x,$ where $[x]$\r\nand $\\{x\\}$ are integral and fractional parts of $x$ and $n \\in N-\\{1\\} .$ Then, $I_{1} / I_{2}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{n-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{n}$",
+      "is_correct": false
+    },
+    {
+      "text": "$n$",
+      "is_correct": false
+    },
+    {
+      "text": "$n-1$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "We have, $I_{1}=\\int_{0}^{n}[x] d x$\r\n$=\\int_{0}^{1}[x] d x+\\int_{1}^{2}[x] d x$\r\n$\\quad+\\int_{2}^{3}[x] d x+\\ldots+\\int_{n-1}^{n}[x] d x$\r\n$=\\int_{0}^{1} 0 d x+\\int_{2}^{3} 1 d x+\\int_{2}^{3} 2 d x$\r\n$\\quad+\\ldots+\\int_{n-1}^{n}(n-1) d x$\r\n$=0+[x]_{1}^{2}+2[x]_{2}^{3}+\\ldots+(n-1)[x]_{n-1}^{n}$\r\n$=(2-1)+2(3-2)+\\ldots+$\r\n$=\\frac{n(n-1)}{2}$\r\n$\\begin{aligned} \\text { Now, } I_{2} &=\\int_{0}^{n}\\{x\\} d x=\\int_{0}^{n} x-[x] d x \\\\ &=\\int_{0}^{n} x d x-\\int_{0}^{n}[x] d x \\\\ &=\\left[\\frac{x^{2}}{2}\\right]_{0}^{n}-I_{1} \\\\ &=\\frac{n^{2}}{2}-\\frac{n(n-1)}{2} \\\\ &=\\frac{n^{2}-n^{2}+n}{2} \\\\ &=\\frac{n}{2} \\\\ \\therefore \\quad \\frac{I_{1}}{I_{2}}=\\frac{\\frac{n(n-1)}{2}}{\\frac{n}{2}} \\\\=&(n-1) \\end{aligned}$"
+  }
+}

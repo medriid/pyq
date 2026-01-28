@@ -1,0 +1,63 @@
+{
+  "_id": "64b169def23ac7d519f9af34",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c41",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2007-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2007 (Paper 2)",
+      "title": "JEE Advanced 2007 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nIf a continuous $f$ defined on the real line $R$, assume positive and negative values in $R$, then the equation $f(x)=0$ has a root in $R$. For example, if it is known that a continuous function $f$ on $R$ is positive at some point and its minimum values is negative, then the equation $f(x)=0$ has a root in $R$.\nConsider $f(x)=k e^x-x$ for all real $x$, where $k$ is real constant.<strong>Question:</strong>\nThe positive value of $k$ for which $k e^x-x=0$ has only one root is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "PPqgK",
+      "text": "\n$\\frac{1}{e}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "BCoBG",
+      "text": "\n1\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "l6u7g",
+      "text": "\n$e$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7ojUA",
+      "text": "\n$\\log _e 2$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $f(x)=k e^x-x$\n$\\begin{aligned} & & f^{\\prime}(x) & =k e^x-1=0 \\\\ & & x & =-\\ln k \\\\ & \\therefore & f^{\\prime \\prime}(x) & =k e^x \\\\ & \\text { Hence, } & {\\left[f^{\\prime \\prime}(x)\\right]_{x=-\\ln k} } & =1>0 \\\\ & & f(-\\ln k) & =1+\\ln k\\end{aligned}$\nFor one root of given equation\n$$\n\\begin{aligned}\n1+\\ln k & =0 \\\\\nHence,\nk & =\\frac{1}{e} .\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c41",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2007-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2007 (Paper 2)",
+    "title": "JEE Advanced 2007 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

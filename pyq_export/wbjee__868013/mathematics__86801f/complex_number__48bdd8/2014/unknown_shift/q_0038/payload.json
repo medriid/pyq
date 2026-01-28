@@ -1,0 +1,43 @@
+{
+  "index": 38,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc9a79d891b2548bdd8",
+    "chapter_name": "Complex Number",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Suppose that $z_{1}, z_{2}, z_{3}$ are three vertices of an equilateral triangle in the angand plane. Let $\\alpha=\\frac{1}{2}(\\sqrt{3}+i)$ and $\\beta$ be a non-zero complex number. The points $a z_{1}+\\beta, \\alpha z_{2}+\\beta, \\alpha z_{3}+\\beta$ will be"
+  },
+  "options": [
+    {
+      "text": "the vertices of an equilateral triangle",
+      "is_correct": true
+    },
+    {
+      "text": "the vertices of an isosceles triangle",
+      "is_correct": false
+    },
+    {
+      "text": "collinear",
+      "is_correct": false
+    },
+    {
+      "text": "the vertices of a scalene triangle",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Since, $z_{1}, z_{2}$ and $z_{3}$ are the vertices of an\r\nequilateral triangle, therefore\r\n$$\r\n\\begin{aligned}\r\n\\left|z_{1}-z_{2}\\right| &=\\left|z_{2}-z_{3}\\right| \\\\\r\n&=\\left|z_{3}-z_{1}\\right|=k \\\\\r\n\\alpha &=\\frac{1}{2}(\\sqrt{3}+i)\r\n\\end{aligned}\r\n$$\r\nAlso,\r\n$\\Rightarrow \\quad|\\alpha|=\\frac{1}{2} \\sqrt{3+1}=\\frac{1}{2} \\times 2=1$\r\nLet $A=\\alpha z_{1}+\\beta, B=\\alpha z_{2}+\\beta$\r\nand\r\n$$\r\nC=\\alpha z_{3}+\\beta\r\n$$\r\nNow. $|A B|=\\left|\\alpha z_{2}+\\beta-\\left(\\alpha z_{1}+\\beta\\right)\\right|$\r\n$$\r\n\\begin{aligned}\r\n&=\\left|\\alpha\\left(z_{2}-z_{1}\\right)\\right| \\\\\r\n&=|\\alpha|\\left|z_{2}-z_{1}\\right| \\\\\r\n&=|1|\\left|z_{2}-z_{1}\\right| \\\\\r\n&=1\\left|z_{2}-z_{1}\\right| \\\\\r\n&=\\left|z_{2}-z_{1}\\right|=k \\\\\r\n\\text { Similarly, } & B C=C A=k\r\n\\end{aligned}\r\n$$\r\nHence, the points $\\alpha z_{1}+\\beta, \\alpha z_{2}+\\beta$ and $\\alpha z_{3}+\\beta$\r\nare the vertices of an equilateral triangle."
+  }
+}

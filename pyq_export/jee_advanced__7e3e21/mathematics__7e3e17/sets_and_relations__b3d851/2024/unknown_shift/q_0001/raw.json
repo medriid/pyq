@@ -1,0 +1,58 @@
+{
+  "_id": "66965df1d603121f43a468e6",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "66965789b31faf98fda8fefa",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2024-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Paper 2)",
+      "title": "JEE Advanced 2024 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "If the value of $n(Y)+n(Z)$ is $k^2$, then $|k|$ is\nLet \\(S=\\{1,2,3,4,5,6\\}\\) and \\(X\\) be the set of all relations \\(R\\) from \\(S\\) to \\(S\\) that satisfy both the following properties:\r\ni. \\(R\\) has exactly 6 elements.\r\nii. For each \\((a, b) \\in R\\), we have \\(|a-b| \\geq 2\\).\r\nLet \\(Y=\\{R \\in X\\) : The range of \\(R\\) has exactly one element \\(\\}\\) and \\(Z=\\{R \\in X: R\\) is a function from \\(S\\) to \\(S\\}\\).\r\nLet \\(n(A)\\) denote the number of elements in a set \\(A\\).",
+    "image": null
+  },
+  "options": [],
+  "correctValue": 36,
+  "solution": {
+    "text": "given $|a-b| \\geq 2$ so if\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/hn7i07O6ZaG7UvnOx0EtvNsr1x2V_GouFl2skzjeIFQ.original.fullsize.png\">\ni.e. Total elements in $\\mathrm{X}$ is ${ }^{20} \\mathrm{C}_6$\nNow for $\\mathrm{n}(\\mathrm{Y})$,\nrange of $\\mathrm{R}$ has exactly one element i.e. second elements must be constant in $\\mathrm{R}$ and since $\\mathrm{R}$ must have 6 element so it is not possible to satisfy both condition so $\\mathrm{n}(\\mathrm{Y})=0$.\n$\\begin{aligned} & \\text { for } \\quad n(z) \\\\ & 1 \\rightarrow 3,4,5,6 \\\\ & 2 \\rightarrow 4,5,6 \\\\ & 3 \\rightarrow 1,5,6 \\\\ & 4 \\rightarrow 1,2,6 \\\\ & 5 \\rightarrow 1,2,3 \\\\ & 6 \\rightarrow 1,2,3,4 \\\\ & \\end{aligned}$\nno. of relation that are function will be $\\quad={ }^4 \\mathrm{C}_1 \\times{ }^3 \\mathrm{C}_1 \\times{ }^3 \\mathrm{C}_1 \\times{ }^3 \\mathrm{C}_1 \\times{ }^3 \\mathrm{C}_1 \\times{ }^4 \\mathrm{C}_1$\n$\\begin{aligned} & =(4 \\times 3 \\times 3)^2=k^2 \\\\ & \\text { i.e. } \\mathrm{k}=36\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "fd810d1b6e164c5c89f87636f09a28e9",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/oFFcJQTqrIPzh.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/oFFcJQTqrIPzh.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "66965789b31faf98fda8fefa",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2024-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Paper 2)",
+    "title": "JEE Advanced 2024 (Paper 2)"
+  },
+  "evalStatus": "incorrect",
+  "lastPracticed": "2024-08-12T00:46:49.061Z"
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a0ff23ac7d519f9b0fa",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c48",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2011-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011 (Paper 1)",
+      "title": "JEE Advanced 2011 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $M$ and $N$ be two $3 \\times 3$ non-singular skew-symmetric matrices such that $M N=N M$. If $P^T$ denotes the transpose of $P$, then $M^2 N^2\\left(M^T N\\right)^{-1}\\left(M N^{-1}\\right)^T$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "JNy9S",
+      "text": "\n$M^2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "UEZ6W",
+      "text": "\n$-N^2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "K6lJ5",
+      "text": "\n$-M^2$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "JXfH1",
+      "text": "\n$M N$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $M^T=-M, N^T=-N$\nand $\\quad M N=N M$\n$$\n\\begin{aligned}\n\\therefore & M^2 N^2\\left(M^T N\\right)^{-1}\\left(M N^{-1}\\right)^T \\\\\n& =M^2 N^2 N^{-1}\\left(M^T\\right)^{-1}\\left(N^{-1}\\right)^T \\cdot M^T \\\\\n& =M^2 N\\left(N N^{-1}\\right)(-M)^{-1}\\left(N^T\\right)^{-1}(-M) \\\\\n& =M^2 N\\left(-M^{-1}\\right)(-N)^{-1}(-M) \\\\\n& =-M^2 N M^{-1} N^{-1} M \\\\\n& =-M \\cdot(M N) M^{-1} N^{-1} M \\\\\n& =-M(N M) M^{-1} N^{-1} M \\\\\n& =-M N\\left(N M^{-1}\\right) N^{-1} M \\\\\n& =-M\\left(N N^{-1}\\right) M=-M^2\n\\end{aligned}\n$$\nNote Here, non-singular word should not be used, since there is no non-singular $3 \\times 3$ skew-symmetric matrix.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c48",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2011-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011 (Paper 1)",
+    "title": "JEE Advanced 2011 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

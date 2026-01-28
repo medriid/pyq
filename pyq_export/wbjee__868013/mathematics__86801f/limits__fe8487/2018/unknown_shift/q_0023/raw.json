@@ -1,0 +1,63 @@
+{
+  "_id": "64a81441e0ff5a5425a859ec",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7d",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2018-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018",
+      "title": "WBJEE 2018"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $f(x)=3 x^{10}-7\r\nx^{8}+5 x^{6}-21 x^{3}+3 x^{2}-7$\r\nThen $\\lim _{h \\rightarrow 0} \\frac{f(1-h)-f(1)}{h^{3}+3 h}$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "bX8Wi",
+      "text": "does not exist",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "TIfHq",
+      "text": "is $\\frac{50}{3}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "c75OH",
+      "text": "is $\\frac{53}{3}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "OogS9",
+      "text": "is $\\frac{22}{3}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have, $f(x)=3 x^{10}-7 x^{8}+5 x^{6}-21 x^{3}+3 x^{2}-7$\r\n$\\therefore \\quad f(1-h)=3(1-h)^{10}-7(1-h)^{8}$\r\n$+5(1-h)^{6}-21\\left(1-h^{3}+3(1-h)^{2}-7\\right.$\r\n$=3\\left(1-10 h+45 h^{2}-120 h^{3}+\\ldots \\ldots+h^{10}\\right)$\r\n$-7\\left(1-8 h+28 h^{2}-56 h^{3}+\\ldots . .+h^{8}\\right)$\r\n$+5\\left(1-6 h+15 h^{2}-20 h^{3}+\\ldots . .+h^{6}\\right)$\r\n$-21\\left(1-3 h+3 h^{2}-h^{3}\\right)$\r\n$+3\\left(1-2 h+h^{2}\\right)-7$\r\n$\\Rightarrow f(1-h)=-24+53 h+h^{2}(-46)+h^{3}(-47)+\\ldots$\r\nand $\\quad f(1)=-24$\r\n$\\therefore \\quad \\lim _{h \\rightarrow 0} \\frac{f(1-h)-f(1)}{h^{3}+3 h}$\r\n$=\\lim _{h \\rightarrow 0} \\frac{-24+53 h+h^{2}(-46)+h^{3}(-47)+\\ldots-(-24)}{h\\left(h^{2}+3\\right)}$\r\n$=\\lim _{h \\rightarrow 0} \\frac{53 h+h^{2}(-46)+h^{3}(-47)+\\ldots}{h\\left(h^{2}+3\\right)}$\r\n$=\\lim _{h \\rightarrow 0} \\frac{53+h(-46)+h^{2}(-47)+\\ldots}{h^{2}+3}=\\frac{53}{3}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7d",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2018-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018",
+    "title": "WBJEE 2018"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

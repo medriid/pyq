@@ -1,0 +1,46 @@
+{
+  "index": 22,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2006",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254c69a6d9e75b0bb565",
+    "chapter_name": "Properties of Triangles",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Internal bisector of $\\angle A$ of $\\triangle A B C$ meets side $B C$ at $D$. A line drawn through $D$ perpendicular to $A D$ intersects the side $A C$ at $E$ and side $A B$ at $F$. If $a, b$ and $c$ represent sides of $\\triangle A B C$, then"
+  },
+  "options": [
+    {
+      "text": "\n$A E$ is $\\mathrm{HM}$ of $b$ and $c$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$A D=\\frac{2 b c}{b+c} \\cos \\frac{A}{2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$E F=\\frac{4 b c}{b+c} \\sin \\frac{A}{2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nthe $\\triangle A E F$ is isosceles",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "solution": {
+    "text": "We have, $\\triangle A B C=\\triangle A B D+\\triangle A C D$\n$$\n\\begin{aligned}\n& \\Rightarrow \\frac{1}{2} b c \\sin A=\\frac{1}{2} c A D \\sin \\frac{A}{2}+\\frac{1}{2} b A D \\sin \\frac{A}{2} \\\\\n& \\Rightarrow \\quad A D=\\frac{2 b c}{b+c} \\cos \\frac{A}{2}\n\\end{aligned}\n$$\nAgain, $\\quad A E=A D \\sec \\frac{A}{2}=\\frac{2 b c}{b+c}$\n$\\therefore A E$ is $\\mathrm{HM}$ of $b$ and $c$.\n$$\n\\begin{aligned}\nE F & =E D+D F=2 D E=2 A D \\tan \\frac{A}{2} \\\\\n& =2 \\frac{2 b c}{b+c} \\cos \\frac{A}{2} \\tan \\frac{A}{2}=\\frac{4 b c}{b+c} \\sin \\frac{A}{2}\n\\end{aligned}\n$$\nAs $A D \\perp E F$ and $D E=D F$ and $A D$ is bisector.\n$\\Rightarrow \\triangle A E F$ is isosceles.\n<img src=\"assets\\st0022_f59bf89401a7.png\"><br>"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 65,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $f(x)=\\sin x+2 \\cos ^{2} x, \\frac{\\pi}{4} \\leq x \\leq \\frac{3 \\pi}{4} .$ Then, $f$ attains its"
+  },
+  "options": [
+    {
+      "text": "minimum at $x=\\frac{\\pi}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "maximum at $x=\\frac{\\pi}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "minimum $x=\\frac{\\pi}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "maximum at $x=\\sin ^{-1}\\left(\\frac{1}{4}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given, $f(x)=\\sin x+2 \\cos ^{2} x, x \\in\\left[\\frac{\\pi}{4}, \\frac{3 \\pi}{4}\\right]$\r\n$\\therefore \\quad f^{\\prime}(x)=\\cos x-4 \\cos x \\cdot \\sin x$\r\nand $f^{\\prime}(x)=-\\sin x-4 \\cos 2 x$\r\nFor maximum or minimum of $f(x)$ \r\nPut $\\quad f^{\\prime}(x)=0$\r\n$\\Rightarrow \\quad \\cos x-4 \\cos x \\cdot \\sin x=0$\r\n$\\Rightarrow \\quad \\cos x(1-4 \\sin x)=0$\r\n$\\Rightarrow \\quad \\cos x=0=\\cos \\frac{\\pi}{2}$ and $\\sin x \\neq \\frac{1}{4}$\r\n$\\because x \\in\\left[\\frac{\\pi}{4}, \\frac{3 \\pi}{4}\\right] \\Rightarrow x=\\frac{\\pi}{2}$\r\nNow, $\\quad f^{''}\\left(\\frac{\\pi}{2}\\right)=-\\sin \\frac{\\pi}{2}-4 \\cos \\pi$\r\n$$\r\n=-1+4=3>0(\\mathrm{min})\r\n$$\r\nSo, $f(x)$ is minimum at $x=\\frac{\\pi}{2}$\r\nand its minimum value is $f\\left(\\frac{\\pi}{2}\\right)=\\sin \\frac{\\pi}{2}+2 \\cos ^{2} \\frac{\\pi}{2}=1-2 \\times 0=1$"
+  }
+}

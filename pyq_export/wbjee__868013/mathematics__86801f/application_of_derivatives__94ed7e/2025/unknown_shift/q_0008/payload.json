@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2025",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)$ be continuous on $[0,5]$ and differentiable in $(0,5)$. If $f(0)=0$ and $\\left|f^{\\prime}(x)\\right| \\leq \\frac{1}{5}$ for all $x$ in $(0,5)$, then $\\forall x$ in $[0,5]$."
+  },
+  "options": [
+    {
+      "text": "$|f(x)| \\leq 1$",
+      "is_correct": true
+    },
+    {
+      "text": "$|f(x)| \\leq \\frac{1}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x)=\\frac{x}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$|f(x)| \\geq 1$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\left|f^{\\prime}(x)\\right| \\leq \\frac{1}{5}, \\Rightarrow\\left|\\frac{f(x)-f(0)}{x-0}\\right| \\leq \\frac{1}{5}$\n$\\Rightarrow\\left|\\frac{f(x)}{x}\\right| \\leq \\frac{1}{5}, \\quad|f(x)| \\leq \\frac{|x|}{5} \\Rightarrow|f(x)| \\leq 1 \\quad\\left(0 \\leq x \\leq 5 \\Rightarrow 0 \\leq \\frac{x}{5} \\leq 1\\right)$"
+  }
+}

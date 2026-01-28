@@ -1,0 +1,58 @@
+{
+  "_id": "66446744970e6e9ab542d1be",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda6e",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-08T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (08 Apr Shift 1)",
+      "title": "JEE Main 2024 (08 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\alpha=\\sum_{r=0}^n\\left(4 r^2+2 r+1\\right){ }^n C_r$ and $\\beta=\\left(\\sum_{r=0}^n \\frac{{ }^n C_r}{r+1}\\right)+\\frac{1}{n+1}$. If $140 < \\frac{2 \\alpha}{\\beta} < 281$, then the value of $n$ is _______",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "5",
+  "solution": {
+    "text": "$\\begin{aligned} & \\alpha=\\sum_{r=0}^n\\left(4 r^2+2 r+1\\right) \\cdot{ }^n C_r \\\\ & \\alpha=4 \\sum_{r=0}^n r^2 \\cdot \\frac{n}{r} \\cdot{ }^{n-1} C_{r-1}+2 \\sum_{r=0}^n r \\cdot \\frac{n}{r} \\cdot{ }^{n-1} C_{r-}+\\sum_{r=0}^n{ }^n C_r \\\\ & +4 n \\sum_{r=0}^n{ }^{n-1} C_{r-1}+2 n \\sum_{r=0}^n{ }^{n-1} C_{r-1}+\\sum_{r=0}^n{ }^n C_r \\\\ & \\alpha=4 n(n-1) \\cdot 2^{n-2}+4 n \\cdot 2^{n-1}+2 n \\cdot 2^{n-1}+2^n \\\\ & \\alpha=2^{n-2}[4 n(n-1)+8 n+4 n+4] \\\\ & \\alpha=2^{n-2}\\left[4 n^2+8 n+4\\right] \\\\ & \\alpha=2 n(n+1)^2 \\\\ & \\beta=\\sum_{r=0}^n \\frac{{ }^n C_r}{r+1}+\\frac{1}{n+1} \\\\ & =\\sum_{r=0}^n \\frac{C^{n+1} C_{r+1}}{n+1}+\\frac{1}{n+1} \\\\ & =\\frac{1}{n+1}\\left(1+{ }^{n+1} C_1+\\ldots .+{ }^{n+1} C_{n+1}\\right) \\\\ & =\\frac{2^{n+1}}{n+1} \\\\ & \\frac{2 \\alpha}{\\beta}=\\frac{2^{n+1}(n+1)^2}{2^{n+1}} \\cdot(n+1)=(n+1)^3 \\\\ & 140 < (n+1)^3 < 281 \\\\ & n=4 \\Rightarrow(n+1)^3=125 \\\\ & n=5 \\Rightarrow(n+1)^3=216 \\\\ & n=6 \\Rightarrow(n+1)^3=343 \\\\ & \\therefore n=5\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "788484b979254934b8734a1eb3456332",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/NaZnoIxiQ99Gd.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/NaZnoIxiQ99Gd.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda6e",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-08T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (08 Apr Shift 1)",
+    "title": "JEE Main 2024 (08 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

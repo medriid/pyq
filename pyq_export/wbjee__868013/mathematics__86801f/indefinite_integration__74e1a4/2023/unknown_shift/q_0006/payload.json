@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If \\(I=\\int \\frac{x^2 d x}{(x \\sin x+\\cos x)^2}=f(x)+\\tan x+c\\), then \\(f(x)\\) is"
+  },
+  "options": [
+    {
+      "text": "\\(\\frac{\\sin x}{x \\sin x+\\cos x}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{1}{(x \\sin x+\\cos x)^2}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{-x}{\\cos x(x \\sin x+\\cos x)}\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(\\frac{1}{\\sin x(x \\cos x+\\sin x)}\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hint : \\(I=\\int \\frac{x^2}{(x \\sin x+\\cos x)^2} d x=\\int \\frac{x}{(x \\sin x+\\cos x)^2} \\times \\frac{x}{\\cos x} d x\\)\n\\(I=-\\frac{1}{(x \\sin x+\\cos x)} \\cdot \\frac{x}{\\cos x}+\\int \\frac{1}{(x \\sin x+\\cos x)} \\cdot \\frac{(\\cos x+x \\sin x)}{\\cos ^2 x} d x\\)\n\\(\\begin{aligned} & I=-\\frac{1}{(x \\sin x+\\cos x)} \\cdot \\frac{x}{\\cos x}+\\int \\sec ^2 x d x \\\\ & I=-\\frac{x}{(x \\sin x+\\cos x) \\cos x}+\\tan x+C \\\\ & \\therefore f(x)=\\frac{-x}{\\cos x(x \\sin x+C)}\\end{aligned}\\)"
+  }
+}

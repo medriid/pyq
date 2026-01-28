@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602525fb63982f7225f1d8",
+    "chapter_name": "Quadratic Equation",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $\\alpha_\\theta$ and $\\beta_\\theta$ be the distinct roots of $2 x^2+(\\cos \\theta) x-1=0, \\theta \\in(0,2 \\pi)$. If m and M are the minimum and the maximum values of $\\alpha_\\theta^4+\\beta_\\theta^4$, then $16(M+m)$ equals :"
+  },
+  "options": [
+    {
+      "text": "24",
+      "is_correct": false
+    },
+    {
+      "text": "25",
+      "is_correct": true
+    },
+    {
+      "text": "17",
+      "is_correct": false
+    },
+    {
+      "text": "27",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & 2 x^2+(\\cos \\theta) x-1=0 \\\\ & \\alpha_\\theta+\\beta_\\theta=\\frac{-\\cos \\theta}{2} \\\\ & \\alpha_\\theta \\cdot \\beta_\\theta=\\frac{-1}{2} \\\\ & \\alpha_\\theta^2+\\beta_\\theta^2=\\left(\\alpha_\\theta+\\beta_\\theta\\right)^2-2 \\alpha_\\theta \\beta_\\theta \\frac{\\cos ^2 \\theta}{4}+1\\end{aligned}$\n$\\begin{aligned}\n& \\alpha_\\theta^4+\\beta_\\theta^4=\\left(a_\\theta^2+\\beta_\\theta^2\\right)^2-2 \\alpha_\\theta^2 \\beta_\\theta^2=\\left(\\frac{\\cos ^2 \\theta}{4}+1\\right)^2-\\frac{2}{4} \\\\\n& =\\left(\\frac{\\cos ^2 \\theta}{4}+1\\right)^2-\\frac{1}{2}\n\\end{aligned}$\n\nMaximum when $\\cos \\theta=1$\n$\\begin{aligned}\n& M=\\left(\\frac{1}{4}+1\\right)^2-\\frac{1}{2} \\\\\n& M=\\frac{17}{16}\n\\end{aligned}$\n\nMinimum when $\\cos \\theta=0$\n$\\begin{aligned}\n& m=1-\\frac{1}{2}=\\frac{1}{2} \\\\\n& 16(M+m)=16\\left(\\frac{17}{16}+\\frac{1}{2}\\right)=25\n\\end{aligned}$"
+  }
+}

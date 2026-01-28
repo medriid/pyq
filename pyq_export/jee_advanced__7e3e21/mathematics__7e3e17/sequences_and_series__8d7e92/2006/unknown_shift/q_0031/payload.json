@@ -1,0 +1,24 @@
+{
+  "index": 31,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2006",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252d532b5c23dd8d7e92",
+    "chapter_name": "Sequences and Series",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $A_n=\\left(\\frac{3}{4}\\right)-\\left(\\frac{3}{4}\\right)^2+\\left(\\frac{3}{4}\\right)^3+\\ldots+(-1)^{n-1}\\left(\\frac{3}{4}\\right)^n$ and $B_n=1-A_n$. Find a least odd natural number $n_0$, so that $B_n>A_n, \\forall n \\geq n_0$."
+  },
+  "options": [],
+  "correct_answer": "7",
+  "solution": {
+    "text": "$B_n=1-A_n>A_n \\Rightarrow A_n < \\frac{1}{2}$ Now, $A_n=\\frac{\\frac{3}{4}\\left(1-\\left(-\\frac{3}{4}\\right)^n\\right)}{1+\\frac{3}{4}} < \\frac{1}{2} \\Rightarrow\\left(-\\frac{3}{4}\\right)>-\\frac{1}{6}$\nObviously, it is true for all even values of $n$. But, for\n$$\n\\begin{aligned}\nn & =1, & \\frac{3}{4} & < \\frac{1}{6} \\\\\nn & =3, & \\frac{27}{64} & < \\frac{1}{6} \\\\\nn & =5, & \\frac{243}{1024} & >\\frac{1}{6}\n\\end{aligned}\n$$\nwhich is true for $n=7$.\nObviously, $n_0=7$"
+  }
+}

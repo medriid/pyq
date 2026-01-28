@@ -1,0 +1,43 @@
+{
+  "index": 138,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2006",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The set of points where $f(x)=\\frac{x}{1+|x|}$ is differentiable is"
+  },
+  "options": [
+    {
+      "text": "\n$(-\\infty, 0) \\cup(0, \\infty)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(-\\infty,-1) \\cup(-1, \\infty)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(-\\infty, \\infty)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$(0, \\infty)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\nf(x)=\\left\\{\\begin{array}{ll}\n\\frac{x}{1-x}, & x < 0 \\\\\n\\frac{x}{1+x}, & x \\geq 0\n\\end{array} \\quad \\Rightarrow f^{\\prime}(x)= \\begin{cases}\\frac{1}{(1-x)^2}, & x < 0 \\\\\n\\frac{1}{(1+x)^2}, & x \\geq 0\\end{cases}\\right.\n$$\n$\\therefore f^{\\prime}(x)$ exist at everywhere."
+  }
+}

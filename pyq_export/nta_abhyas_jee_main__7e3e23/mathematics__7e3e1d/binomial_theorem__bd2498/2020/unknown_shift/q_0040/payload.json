@@ -1,0 +1,43 @@
+{
+  "index": 40,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025320696c5af2bbd2498",
+    "chapter_name": "Binomial Theorem",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The sum of the rational terms in the expansion of <math><msup><mrow><mfenced separators=\"|\"><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><msup><mrow><mn>3</mn></mrow><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>5</mn></mrow></mfrac></mrow></msup></mrow></mfenced></mrow><mrow><mn>10</mn></mrow></msup></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><mn>31</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>41</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mn>51</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>61</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "The general term is given by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>T</mtext><mrow><mtext>r</mtext><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mmultiscripts><mtext>C</mtext><mtext>r</mtext><none/><mprescripts/><none/><mn>10</mn></mmultiscripts><msup><mn>2</mn><mfrac><mfenced><mrow><mn>10</mn><mo>&#8722;</mo><mtext>r</mtext></mrow></mfenced><mn>2</mn></mfrac></msup><msup><mn>3</mn><mfrac><mtext>r</mtext><mn>5</mn></mfrac></msup></math><br />This is rational if <math><mn>10</mn><mo>-</mo><mi mathvariant=\"normal\">r</mi></math> is even and <math><mi mathvariant=\"normal\">r</mi></math> is a multiple of <math><mn>5</mn><mo>.</mo></math><br /><math><mo>&#8658;</mo><mi mathvariant=\"normal\">r</mi><mo>=</mo><mn>0,10</mn></math><br />So, the sum of the rational terms is<br /><math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>10</mn></mrow></msup><msub><mrow><mi mathvariant=\"normal\">C</mi></mrow><mrow><mn>0</mn></mrow></msub><msup><mrow><mn>2</mn></mrow><mrow><mn>5</mn></mrow></msup><msup><mrow><mo>+</mo></mrow><mrow><mn>10</mn></mrow></msup><msub><mrow><mi mathvariant=\"normal\">C</mi></mrow><mrow><mn>10</mn></mrow></msub><mo>&#215;</mo><msup><mrow><mn>3</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>=</mo><mn>32</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>41</mn></math>"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 248,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2003",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2003",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of integral terms in the expansion of $(\\sqrt{3}+8 \\sqrt{5})^{256}$ is"
+  },
+  "options": [
+    {
+      "text": "\n35\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n32\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n33\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n34",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\mathrm{T}_{\\mathrm{r}+1}={ }^{256} \\mathrm{C}_{\\mathrm{r}}(\\sqrt{3})^{256-\\mathrm{r}}(\\sqrt[8]{5})^{\\mathrm{r}}={ }^{256} \\mathrm{C}_{\\mathrm{r}}(3)^{\\frac{256-\\mathrm{r}}{2}}(5)^{\\mathrm{r} / 8}$\nTerms will be integral if $\\frac{256-\\mathrm{r}}{2} \\& \\frac{\\mathrm{r}}{8}$ both are +ve integer. As $0 \\leq \\mathrm{r} \\leq 256 \\therefore \\mathrm{r}=0,8,16,24, \\ldots \\ldots \\ldots \\ldots 256$\nFor above values of $\\mathrm{r},\\left(\\frac{256-\\mathrm{r}}{2}\\right)$ is also an integer."
+  }
+}

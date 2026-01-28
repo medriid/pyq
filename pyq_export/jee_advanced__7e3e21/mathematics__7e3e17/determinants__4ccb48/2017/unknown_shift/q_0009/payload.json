@@ -1,0 +1,44 @@
+{
+  "index": 9,
+  "type": "multipleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2017 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602551450953a91a4ccb48",
+    "chapter_name": "Determinants",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Which of the following is (are) NOT the square of a <math><mn>3</mn><mo>&#215;</mo><mn>3</mn></math> matrix with real entries?"
+  },
+  "options": [
+    {
+      "text": "<math><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mo>-</mo><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mo>-</mo><mn>1</mn></mtd></mtr></mtable></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mo>-</mo><mn>1</mn></mtd></mtr></mtable></mrow></mfenced></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mtable><mtr><mtd><mo>-</mo><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mo>-</mo><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mo>-</mo><mn>1</mn></mtd></mtr></mtable></mrow></mfenced></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "D"
+  ],
+  "solution": {
+    "text": "Let \\(A=\\left[\\begin{array}{ccc}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & -1\\end{array}\\right]\\).Then, \\(|A|=-1\\)\r\nIf \\(\\mathrm{A}\\) is a prefect square of matrix \\(A_1\\). Then, \\(A_1^2=A\\)\r\n\\(\\Rightarrow\\left|A_1\\right|^2=|A| \\Rightarrow\\left|A_1\\right|^2=-1 \\Rightarrow A_1\\) cannot be a real matrix\r\nSo, option correct.\r\nLet \\(R=\\left[\\begin{array}{ccc}-1 & 0 & 0 \\\\ 0 & -1 & 0 \\\\ 0 & 0 & -1\\end{array}\\right]\\) be the sqare of a \\(3 \\times 3\\) matrix \\(B_1\\), Then,\r\n\\(B=B_1^2 \\Rightarrow\\left|B_1\\right|^2=|B| \\Rightarrow\\left|B_1\\right|^2=\\left|\\begin{array}{ccc}\r\n-1 & 0 & 0 \\\\\r\n0 & -1 & 0 \\\\\r\n0 & 0 & -1\r\n\\end{array}\\right|=-1\\)\r\nSo, B cannot be the perfect square of a real matrix.\r\nIn option, the given matrix is the identity matrix \\(I_3\\) such that \\(I_3=I_3^2\\)\r\n\\(\\begin{aligned}\r\n&\\text { Conisder the matrix }\\left[\\begin{array}{ccc}\r\n1 & 0 & 0 \\\\\r\n0 & -1 & 0 \\\\\r\n0 & 0 & -1\r\n\\end{array}\\right] \\text { given in option. Clearly, } \\\\\r\n&{\\left[\\begin{array}{ccc}\r\n1 & 0 & 0 \\\\\r\n0 & -1 & 0 \\\\\r\n0 & 0 & -1\r\n\\end{array}\\right]=\\left[\\begin{array}{ccc}\r\n1 & 0 & 0 \\\\\r\n0 & 0 & 1 \\\\\r\n0 & -1 & 0\r\n\\end{array}\\right]\\left[\\begin{array}{ccc}\r\n1 & 0 & 0 \\\\\r\n0 & 0 & 1 \\\\\r\n0 & -1 & 0\r\n\\end{array}\\right]}\r\n\\end{aligned}\\)\r\nThus, the matrix given in option is the perfect square of a real matrix."
+  }
+}

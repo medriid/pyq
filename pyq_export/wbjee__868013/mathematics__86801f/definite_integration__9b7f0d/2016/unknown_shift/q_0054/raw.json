@@ -1,0 +1,63 @@
+{
+  "_id": "64a81425e0ff5a5425a858e3",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7b",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2016-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2016",
+      "title": "WBJEE 2016"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The value of $\\lim _{n \\rightarrow \\infty}\\left\\{\\frac{\\sqrt{n+1}+\\sqrt{n+2}+\\ldots+\\sqrt{2 n-1}}{n^{3 / 2}}\\right\\}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "rFgsv",
+      "text": "$\\frac{2}{3}(2 \\sqrt{2}-1)$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "g1IdD",
+      "text": "$\\frac{2}{3}(\\sqrt{2}-1)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "zVDIG",
+      "text": "$\\frac{2}{3}(\\sqrt{2}+1)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "OmTTj",
+      "text": "$\\frac{2}{3}(2 \\sqrt{2}+1)$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\because \\lim _{n \\rightarrow \\infty \\left[\\frac{\\sqrt{n+1}+\\sqrt{n+2}+\\ldots+\\sqrt{2 n-1}}{n^{\\frac{3}{2}}}\\right]}$\r\n$=\\lim _{n \\rightarrow \\infty 1}\\left[\\sqrt{1+\\frac{1}{n}}+\\sqrt{1+\\frac{2}{n}}+\\ldots+\\sqrt{1+\\frac{n-1}{n}}\\right] \\frac{1}{n}$\r\n$=\\lim _{n \\rightarrow \\infty 1} \\sum_{r=1}^{n-1} \\frac{1}{n} \\sqrt{1+\\frac{r}{n}}$\r\n$=\\int_{0}^{1} \\sqrt{1+x} d x=\\left[\\frac{2}{3}(1+x)^{3 / 2}\\right]_{0}^{1}=\\frac{2}{3}(2 \\sqrt{2}-1)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7b",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2016-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2016",
+    "title": "WBJEE 2016"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

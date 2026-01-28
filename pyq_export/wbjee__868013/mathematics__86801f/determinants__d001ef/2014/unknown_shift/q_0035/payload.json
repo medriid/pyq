@@ -1,0 +1,43 @@
+{
+  "index": 35,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0a7e939ac068d001ef",
+    "chapter_name": "Determinants",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $I$ denote the $3 \\times 3$ identity matrix and $P$ be a matrix obtained by rearranging the columns of\r\n$I$. Then,"
+  },
+  "options": [
+    {
+      "text": "there are six distinct choices for $P$ and $\\operatorname{det}(P)=1$",
+      "is_correct": false
+    },
+    {
+      "text": "there are six distinct choices for $P$ and $\\operatorname{det}(P)=\\pm 1$",
+      "is_correct": true
+    },
+    {
+      "text": "there are more than one choices for $P$ and some of them are not invertible",
+      "is_correct": false
+    },
+    {
+      "text": "there are more than one choices for $P$ and $P^{-1}=1$ in each choice",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given, $I=\\left[\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right]$\r\nThen, $\\quad \\operatorname{det}(I)=1$\r\nIf we take $I$ as\r\n$$\r\nA_{1}=\\left[\\begin{array}{lll}\r\n0 & 1 & 0 \\\\\r\n1 & 0 & 0 \\\\\r\n0 & 0 & 1\r\n\\end{array}\\right]\r\n$$\r\nThen, $\\quad \\operatorname{det}\\left(I_{1}\\right)=-1$\r\nSimilarly, there are four other possibilities,\r\n$$\r\n\\left[\\begin{array}{lll}\r\n1 & 0 & 0 \\\\\r\n0 & 0 & 1 \\\\\r\n0 & 1 & 0\r\n\\end{array}\\right] \\cdot\\left[\\begin{array}{lll}\r\n0 & 0 & 1 \\\\\r\n1 & 0 & 0 \\\\\r\n0 & 1 & 0\r\n\\end{array}\\right]\r\n$$\r\n$$\r\n\\left[\\begin{array}{lll}\r\n0 & 1 & 0 \\\\\r\n0 & 0 & 1 \\\\\r\n1 & 0 & 0\r\n\\end{array}\\right] \\cdot\\left[\\begin{array}{lll}\r\n0 & 0 & 1 \\\\\r\n0 & 1 & 0 \\\\\r\n1 & 0 & 0\r\n\\end{array}\\right]\r\n$$\r\nwho will give a determinant either -1 or 1 . Hence, there are six distinct choices for $P$ and\r\n$\\operatorname{det}(P)=\\pm 1$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2012 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254c69a6d9e75b0bb565",
+    "chapter_name": "Properties of Triangles",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $P Q R$ be a triangle of area $\\Delta$ with $a=2, b=\\frac{7}{2}$ and $c=\\frac{5}{2} ;$ where $a, b$, and $c$ are the lengths of the sides of the triangle opposite to the angles at $P, Q$ and $R$ respectively. Then $\\frac{2 \\sin P-\\sin 2 P}{2 \\sin P+\\sin 2 P}$ equals."
+  },
+  "options": [
+    {
+      "text": "$\\frac{3}{4 \\Delta}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{45}{4 \\Delta}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\frac{3}{4 \\Delta}\\right)^{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\left(\\frac{45}{4 \\Lambda}\\right)^{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\frac{2 \\sin P-\\sin 2 P}{2 \\sin P+\\sin 2 P}=\\frac{2 \\sin P-2 \\sin P \\cos P}{2 \\sin P+2 \\sin P \\cos P}=\\frac{1-\\cos P}{1-\\sin P}$\r\n\r\n$=\\frac{2 \\sin ^{2} \\frac{P}{2}}{2 \\cos ^{2} \\frac{P}{2}}=\\tan ^{2} \\frac{P}{2}=\\frac{(s-b)(s-c)}{s(s-a)}$ where $s=\\frac{a+b+c}{2}$\r\n\r\n$=\\frac{(s-b)^{2}(s-c)^{2}}{s(s-a)(s-b)(s-c)}=\\frac{(a+c-b)^{2}(a+b-c)^{2}}{16 . \\Delta^{2}}$\r\n\r\n$=\\frac{\\left(2+\\frac{5}{2}-\\frac{7}{2}\\right)^{2}\\left(2+\\frac{7}{2}-\\frac{5}{2}\\right)^{2}}{16 \\Delta^{2}}=\\frac{1 \\times 9}{16 \\Delta^{2}}=\\left(\\frac{3}{4 \\Delta}\\right)^{2}$"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "6682bd57ba0e94a3c4025c0a",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>x</mi><mo>(</mo><mi>t</mi><mo>)</mo></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mi>y</mi><mo>(</mo><mi>t</mi><mo>)</mo></math> be solutions of the differential equations <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>dx</mi><mi>dt</mi></mfrac><mo>+</mo><mi>ax</mi><mo>=</mo><mn>0</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>dy</mi><mi>dt</mi></mfrac><mo>+</mo><mi>by</mi><mo>=</mo><mn>0</mn></math> respectively, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">a</mi><mo>,</mo><mi mathvariant=\"normal\">b</mi><mo>∈</mo><mi mathvariant=\"normal\">R</mi></math>. Given that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>(</mo><mn>0</mn><mo>)</mo><mo>=</mo><mn>2</mn><mo> </mo><mo>;</mo><mo> </mo><mi>y</mi><mo>(</mo><mn>0</mn><mo>)</mo><mo>=</mo><mn>1</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo> </mo><mi>y</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>2</mn><mo> </mo><mi>x</mi><mo>(</mo><mn>1</mn><mo>)</mo></math>, the value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>, for which <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><mi>y</mi><mo>(</mo><mi>t</mi><mo>)</mo></math>, is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "h1ERs",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></msub><mn>2</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "1xoWh",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mn>4</mn></msub><mn>3</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "LNdMa",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mn>3</mn></msub><mn>4</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "x9ghP",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mfrac><mn>4</mn><mn>3</mn></mfrac></msub><mn>2</mn></math>",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>Given: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>dx</mi><mi>dt</mi></mfrac><mo>+</mo><mi>ax</mi><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mi>dx</mi><mi mathvariant=\"normal\">x</mi></mfrac><mo>=</mo><mo>-</mo><mi>adt</mi></math></p><p>Integrating both sides,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mo>∫</mo><mfrac><mi>dx</mi><mi mathvariant=\"normal\">x</mi></mfrac><mo>=</mo><mo>-</mo><mi mathvariant=\"normal\">a</mi><mo>∫</mo><mi>dt</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>log</mi><mo>|</mo><mi mathvariant=\"normal\">x</mi><mo>|</mo><mo>=</mo><mo>-</mo><mi>at</mi><mo>+</mo><mi mathvariant=\"normal\">c</mi></math></p><p>At <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">t</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi mathvariant=\"normal\">x</mi><mo>=</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>log</mi><mn>2</mn><mo>=</mo><mn>0</mn><mo>+</mo><mi mathvariant=\"normal\">c</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>logx</mi><mo>=</mo><mo>-</mo><mi>at</mi><mo>+</mo><mi>log</mi><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>logx</mi><mo>-</mo><mi>log</mi><mn>2</mn><mo>=</mo><mo>-</mo><mi>at</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>log</mi><mfenced><mfrac><mi>x</mi><mn>2</mn></mfrac></mfenced><mo>=</mo><mo>-</mo><mi>at</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mi mathvariant=\"normal\">x</mi><mn>2</mn></mfrac><mo>=</mo><msup><mi mathvariant=\"normal\">e</mi><mrow><mo>-</mo><mi>at</mi></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi mathvariant=\"normal\">x</mi><mo>=</mo><mn>2</mn><msup><mi mathvariant=\"normal\">e</mi><mrow><mo>-</mo><mi>at</mi></mrow></msup><mo> </mo><mo> </mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>(</mo><mi mathvariant=\"normal\">i</mi><mo>)</mo></math></p><p>It is also given that, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>dy</mi><mi>dt</mi></mfrac><mo>+</mo><mi>by</mi><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mi>dy</mi><mi mathvariant=\"normal\">y</mi></mfrac><mo>=</mo><mo>-</mo><mi>bdt</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>log</mi><mo>|</mo><mi mathvariant=\"normal\">y</mi><mo>|</mo><mo>=</mo><mo>-</mo><mi>bt</mi><mo>+</mo><mi mathvariant=\"normal\">λ</mi></math></p><p>At, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">t</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi mathvariant=\"normal\">y</mi><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>0</mn><mo>=</mo><mn>0</mn><mo>+</mo><mi>λ</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi mathvariant=\"normal\">y</mi><mo>=</mo><msup><mi mathvariant=\"normal\">e</mi><mrow><mo>-</mo><mi>bt</mi></mrow></msup><mo> </mo><mo> </mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>(</mo><mi>ii</mi><mo>)</mo></math></p><p>According to question,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo> </mo><mi>y</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>2</mn><mo> </mo><mi>x</mi><mo>(</mo><mn>1</mn><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>3</mn><msup><mi mathvariant=\"normal\">e</mi><mrow><mo>-</mo><mi mathvariant=\"normal\">b</mi></mrow></msup><mo>=</mo><mn>2</mn><mfenced><mrow><mn>2</mn><msup><mi mathvariant=\"normal\">e</mi><mrow><mo>-</mo><mi mathvariant=\"normal\">a</mi></mrow></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi mathvariant=\"normal\">e</mi><mrow><mi mathvariant=\"normal\">a</mi><mo>-</mo><mi mathvariant=\"normal\">b</mi></mrow></msup><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>For</mtext><mo> </mo><mi>x</mi><mfenced><mi>t</mi></mfenced><mo>=</mo><mi>y</mi><mfenced><mi>t</mi></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>2</mn><msup><mi mathvariant=\"normal\">e</mi><mrow><mo>-</mo><mi>at</mi></mrow></msup><mo>=</mo><msup><mi mathvariant=\"normal\">e</mi><mrow><mo>-</mo><mi>bt</mi></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>2</mn><mo>=</mo><msup><mi mathvariant=\"normal\">e</mi><mrow><mo>(</mo><mi mathvariant=\"normal\">a</mi><mo>-</mo><mi mathvariant=\"normal\">b</mi><mo>)</mo><mi mathvariant=\"normal\">t</mi></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>2</mn><mo>=</mo><msup><mfenced><mfrac><mn>4</mn><mn>3</mn></mfrac></mfenced><mi mathvariant=\"normal\">t</mi></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>log</mi><mfenced><mn>2</mn></mfenced><mo>=</mo><mi mathvariant=\"normal\">t</mi><mo>×</mo><mi>log</mi><mfenced><mfrac><mn>4</mn><mn>3</mn></mfrac></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msub><mi>log</mi><mfrac><mn>4</mn><mn>3</mn></mfrac></msub><mn>2</mn><mo>=</mo><mi mathvariant=\"normal\">t</mi></math></p>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYearPapers": [
+    {
+      "_id": "65c4c0c01d30997d3436bafe",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-01-27T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (27 Jan Shift 1)",
+      "title": "JEE Main 2024 (27 Jan Shift 1)"
+    }
+  ],
+  "previousYear": {
+    "_id": "65c4c0c01d30997d3436bafe",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-01-27T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (27 Jan Shift 1)",
+    "title": "JEE Main 2024 (27 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

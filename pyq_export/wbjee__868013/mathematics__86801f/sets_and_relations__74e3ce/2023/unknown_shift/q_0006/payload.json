@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d00146ed0ebdd74e3ce",
+    "chapter_name": "Sets and Relations",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let \\(A, B, C\\) are subsets of set \\(X\\). Then consider the validity of the following set theoretic statement :"
+  },
+  "options": [
+    {
+      "text": "\\(A \\cup(B \\backslash C)=(A \\cup B) \\backslash(A \\cup C)\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\((A \\backslash B) \\backslash C=A \\backslash(B \\cup C)\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\((A \\cup B) \\backslash A=A \\backslash B\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(A \\backslash C=B \\backslash C\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Hint:<br />\\(\\begin{aligned}\n:(A \\backslash B) \\backslash C & =\\left(A \\cap B^{\\prime}\\right) \\cap C^{\\prime} \\\\\n& =A \\cap\\left(B^{\\prime} \\cap C^{\\prime}\\right) \\\\\n& =A \\cap(B \\cup C)^{\\prime} \\\\\n& =A \\backslash(B \\cup C)\n\\end{aligned}\\)"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If the system of equations\n$\\begin{aligned}\n& x+2 y-3 z=2 \\\\\n& 2 x+\\lambda y+5 z=5 \\\\\n& 14 x+3 y+\\mu z=33\n\\end{aligned}$\nhas infinitely many solutions, then $\\lambda+\\mu$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "13",
+      "is_correct": false
+    },
+    {
+      "text": "10",
+      "is_correct": false
+    },
+    {
+      "text": "12",
+      "is_correct": true
+    },
+    {
+      "text": "11",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\Delta=\\left|\\begin{array}{ccc}\n1 & 2 & -3 \\\\\n2 & \\lambda & 5 \\\\\n14 & 3 & \\mu\n\\end{array}\\right|=0 \\Rightarrow \\lambda \\mu+42 \\lambda-4 \\mu+107=0 \\\\\n& \\Delta_1=\\left|\\begin{array}{ccc}\n2 & 2 & -3 \\\\\n5 & \\lambda & 5 \\\\\n33 & 3 & \\mu\n\\end{array}\\right|=0 \\Rightarrow 2 \\lambda \\mu+99 \\lambda-10 \\mu+255=0 \\\\\n& \\Delta_2=\\left|\\begin{array}{ccc}\n1 & 2 & -3 \\\\\n2 & 5 & 5 \\\\\n14 & 33 & \\mu\n\\end{array}\\right|=0 \\Rightarrow \\mu=13\n\\end{aligned}$\nAlso, $\\lambda=-1$\nHence, $\\lambda+\\mu=13-1=12$"
+  }
+}

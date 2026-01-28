@@ -1,0 +1,63 @@
+{
+  "_id": "67729bf1546ddd78415aaf2f",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67729a70099eafe69352f9c1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024",
+      "title": "WBJEE 2024"
+    }
+  ],
+  "question": {
+    "text": "The coefficient of $a^{10} b^7 c^3$ in the expansion of $(b c+c a+a b)^{10}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "BbFLG",
+      "text": "140",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "avOqZ",
+      "text": "150",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7lKtW",
+      "text": "120",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "Skg5I",
+      "text": "160",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint : \\((b c+c a+a b)^{10}=\\sum \\frac{10}{\\left\\lfloor n_1\\right\\lfloor n_2 \\lfloor n_3}(b c)^{n_1}(c a)^{n_2}(a b)^{n_3}=\\sum \\frac{10}{\\left\\lfloor n_1\\right \\lfloor n_2 \\lfloor n_3} b^{n_1+n_3} c^{n_1+n_2} a^{n_2+n_3}\\)\n\\(\\begin{array}{l|l}\\mathrm{n}_1+\\mathrm{n}_3=7 & \\mathrm{n}_1+\\mathrm{n}_2+\\mathrm{n}_3=10 \\\\ \\mathrm{n}_1+\\mathrm{n}_2=3 & \\mathrm{n}_1=0, \\mathrm{n}_2=3 \\\\ \\mathrm{n}_2+\\mathrm{n}_3=10 & \\mathrm{n}_3=7\\end{array}\\)\nCoefficient of \\(a^{10} b^7 c^3=\\frac{\\lfloor 10}{\\lfloor{3} \\lfloor{7}}=\\frac{10 \\times 9 \\times 8}{3 \\times 2}=10 \\times 3 \\times 4=120\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67729a70099eafe69352f9c1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024",
+    "title": "WBJEE 2024"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

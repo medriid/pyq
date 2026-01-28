@@ -1,0 +1,43 @@
+{
+  "index": 144,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (12 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mn>1</mn><mo>,</mo><mi>&#160;</mi><mn>2</mn><mo>,</mo><mi>&#160;</mi><mn>3</mn><mo>,</mo><mo>&#160;</mo><mo>&#8230;</mo><mo>.</mo><mo>,</mo><mn>100</mn></mrow></mfenced></math>, then number of non-empty subsets <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> such that the product of elements in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> is even is :"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>100</mn></msup><mo>-</mo><mn>1</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>50</mn></msup><mo>+</mo><mn>1</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>50</mn></msup><mfenced separators=\"|\"><mrow><msup><mn>2</mn><mn>50</mn></msup><mo>-</mo><mn>1</mn></mrow></mfenced></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>50</mn></msup><mo>-</mo><mn>1</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>As we know that the product of numbers is even when at least one of the number must be even.</p><p>Hence total subsets of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> in which product of numbers is even&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo></math> Total subsets <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8211;</mo></math> total subsets in which all the elements are odd</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>2</mn><mn>100</mn></msup><mo>-</mo><msup><mn>2</mn><mn>50</mn></msup><mo>=</mo><msup><mn>2</mn><mn>50</mn></msup><mfenced separators=\"|\"><mrow><msup><mn>2</mn><mn>50</mn></msup><mo>-</mo><mn>1</mn></mrow></mfenced></math>.</p>"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c806d628b5819d90b84",
+    "chapter_name": "Mechanical Properties of Fluids",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A body floats with $\\frac{1}{\\mathrm{n}}$ of its volume keeping outside of water. If the body has been taken to height h inside water and released, it will come to the surface after time t. Then"
+  },
+  "options": [
+    {
+      "text": "$t \\propto \\sqrt{\\mathrm{n}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$t \\propto n$",
+      "is_correct": false
+    },
+    {
+      "text": "$t \\propto \\sqrt{\\mathrm{n}+1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$t \\propto \\sqrt{\\mathrm{n}-1}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0004_81a531b32f1a.png\"/><br/>\n$F_B=m g ; V\\left(1-\\frac{1}{n}\\right) \\sigma g=V d g, \\Rightarrow d=\\left(\\frac{n-1}{n}\\right) \\sigma$<img src=\"assets\\st0004_394be8b556fc.png\"/><br/>\n\n$a=\\frac{F_b-m g}{m}=\\frac{v \\sigma g}{m}-g, \\quad a=\\frac{v \\sigma g}{v\\left(\\frac{n-1}{n}\\right) \\sigma}-g, \\quad \\Rightarrow a=\\frac{n g}{n-1}-g_n \\Rightarrow a=\\frac{g}{n-1}$\n\nNow for time, $h=\\frac{1}{2} a t^2, h=\\frac{1}{2} \\frac{g}{(n-1)} t^2, \\Rightarrow t=\\sqrt{\\frac{2 h}{g}(n-1)}=\\Rightarrow t \\alpha \\sqrt{n-1}$"
+  }
+}

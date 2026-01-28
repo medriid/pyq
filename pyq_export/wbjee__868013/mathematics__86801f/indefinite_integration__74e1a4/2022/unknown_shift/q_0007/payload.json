@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\int \\frac{x^{1 / 2}}{\\sqrt{1-x^3}} d x=\\frac{2}{3} g(f(x))+c$; then"
+  },
+  "options": [
+    {
+      "text": "$f(x)=\\sqrt{x}, g(x)=x^{3 / 2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x)=x^{3 / 2}, g(x)=\\sin ^{-1} x$",
+      "is_correct": true
+    },
+    {
+      "text": "$f(x)=\\sqrt{x}, g(x)=\\sin ^{-1} x$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\quad f(x)=\\sin ^{-1} x, g(x)=x^{3 / 2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\int \\frac{x^{1 / 2} d x}{\\sqrt{1-\\left(x^{3 / 2}\\right)^2}}=2 / 3 \\int \\frac{d t}{\\sqrt{1-t^2}}$\n$x^{3 / 2}=t$\n$3 / 2 x^{1 / 2} d x=d t$\n$=2 / \\sin ^{-1}(t)+c$\n$=2 / 3 \\sin ^{-1}\\left(x^{3 / 2}\\right)+c$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 22,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The solution of the differential equation $\\left(x^2+y^2\\right) \\mathrm{d} x-5 x y \\mathrm{~d} y=0, y(1)=0$, is :"
+  },
+  "options": [
+    {
+      "text": "$\\left|x^2-2 y^2\\right|^6=x$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left|x^2-4 y^2\\right|^6=x$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left|x^2-4 y^2\\right|^5=x^2$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\left|x^2-2 y^2\\right|^5=x^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\left(x^2+y^2\\right) d x=5 x y d y \\\\\n& \\Rightarrow \\frac{d y}{d x}=\\frac{x^2+y^2}{5 x y}\n\\end{aligned}$<br />Put $y=V x$\n$\\begin{aligned}\n& \\Rightarrow \\mathrm{V}+\\mathrm{x} \\frac{\\mathrm{dv}}{\\mathrm{dx}}=\\frac{1+\\mathrm{V}^2}{5 \\mathrm{~V}} \\\\\n& \\Rightarrow \\frac{\\mathrm{xdv}}{\\mathrm{dx}}=\\frac{1-4 \\mathrm{~V}^2}{5 \\mathrm{~V}} \\\\\n& \\Rightarrow \\int \\frac{\\mathrm{V}}{1-4 \\mathrm{~V}^2} \\mathrm{dV}=\\int \\frac{\\mathrm{dx}}{5 \\mathrm{x}}\n\\end{aligned}$<br />Let $1-4 \\mathrm{~V}^2=\\mathrm{t}$\n$\\Rightarrow-8 \\mathrm{~V} \\mathrm{dV}=\\mathrm{dt}$\n$\\begin{aligned} & \\Rightarrow \\int \\frac{\\mathrm{dt}}{(-8)(\\mathrm{t})}=\\int \\frac{\\mathrm{dx}}{5 \\mathrm{x}} \\\\ & \\Rightarrow \\frac{-1}{8} \\ln |\\mathrm{t}|=\\frac{1}{5} \\ln |\\mathrm{x}|+\\ln \\mathrm{C} \\\\ & \\Rightarrow-5 \\ln |\\mathrm{t}|=8 \\ln |\\mathrm{x}|+\\ln \\mathrm{K} \\\\ & \\Rightarrow \\ln \\mathrm{x}^8+\\ln \\left|\\mathrm{t}^5\\right|+\\ln \\mathrm{K}=0 \\\\ & \\Rightarrow \\mathrm{x}^8\\left|\\mathrm{t}^5\\right|=\\mathrm{C} \\\\ & \\Rightarrow \\mathrm{x}^8\\left|1-4 \\mathrm{~V}^2\\right|^5=\\mathrm{C} \\\\ & \\Rightarrow \\mathrm{x}^8\\left|\\frac{\\mathrm{x}^2-4 \\mathrm{y}^2}{\\mathrm{x}^2}\\right|^5=\\mathrm{C} \\\\ & \\Rightarrow\\left|\\mathrm{x}^2-4 \\mathrm{y}^2\\right|^5=\\mathrm{Cx} \\mathrm{x}^2 \\\\ & \\text { given } \\mathrm{y}(1)=0 \\\\ & \\Rightarrow|1|^5=\\mathrm{C} \\Rightarrow \\mathrm{C}=1 \\\\ & \\Rightarrow\\left|\\mathrm{x}^2-4 \\mathrm{y}^2\\right|^5=\\mathrm{x}^2\\end{aligned}$"
+  }
+}

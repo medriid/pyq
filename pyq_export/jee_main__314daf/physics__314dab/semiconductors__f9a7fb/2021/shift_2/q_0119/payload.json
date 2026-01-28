@@ -1,0 +1,43 @@
+{
+  "index": 119,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2021 (17 Mar Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602457307cfc9adff9a7fb",
+    "chapter_name": "Semiconductors",
+    "year": "2021",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "<p>Which one of the following will be the output of the given circuit?</p><p><img src=\"assets\\qt0119_9f42c38f5759.png\" style=\"width: 507px; height: 100px;\" /></p>"
+  },
+  "options": [
+    {
+      "text": "NOR Gate",
+      "is_correct": false
+    },
+    {
+      "text": "NAND Gate",
+      "is_correct": false
+    },
+    {
+      "text": "AND Gate",
+      "is_correct": false
+    },
+    {
+      "text": "XOR Gate",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>Output of the above circuit can be obtained as<br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo>(</mo><mover><mrow><mi>A</mi><mo>&#8901;</mo><mi>B</mi></mrow><mo>&#175;</mo></mover><mo>)</mo><mo>&#8901;</mo><mo>(</mo><mi>A</mi><mo>+</mo><mi>B</mi><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo>(</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>+</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>)</mo><mo>&#8901;</mo><mo>(</mo><mi>A</mi><mo>+</mo><mi>B</mi><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>.</mo><mi>B</mi><mo>+</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>.</mo><mi>A</mi><mo>+</mo><mi>A</mi><mo>.</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>+</mo><mi>B</mi><mo>.</mo><mover><mi>B</mi><mo>&#175;</mo></mover></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>.</mo><mi>B</mi><mo>+</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>.</mo><mi>A</mi><mo>+</mo><mn>0</mn><mo>+</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>.</mo><mi>B</mi><mo>+</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>.</mo><mi>A</mi></math>,&nbsp;which is XOR gate</p><p><img src=\"assets\\st0119_13e40f39b254.png\" style=\"width: 496px; height: 180px;\" /></p>"
+  }
+}

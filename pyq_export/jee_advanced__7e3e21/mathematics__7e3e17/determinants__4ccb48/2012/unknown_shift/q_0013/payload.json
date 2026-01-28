@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2012 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602551450953a91a4ccb48",
+    "chapter_name": "Determinants",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $P=\\left[a_{i j}\\right]$ be a $3 \\times 3$ matrix and let $Q=\\left[b_{i j}\\right]$, where $b_{i j}=2^{i+j} a_{i j}$ for $1 \\leq i, j \\leq 3$. If the determinant of $P$ is 2 , then the determinant of the matrix $Q$ is"
+  },
+  "options": [
+    {
+      "text": "$2^{10}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^{11}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^{12}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^{13}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$|Q|=\\left|\\begin{array}{lll}2^{2} a_{11} & 2^{3} a_{12} & 2^{4} a_{13} \\\\ 2^{3} a_{21} & 2^{4} a_{22} & 2^{5} a_{23} \\\\ 2^{4} a_{31} & 2^{5} a_{32} & 2^{6} a_{33}\\end{array}\\right|$\r\n\r\n$=2^{2} \\cdot 2^{3} \\cdot 2^{4}\\left|\\begin{array}{ccc}a_{11} & a_{12} & a_{13} \\\\ 2 a_{21} & 2 a_{22} & 2 a_{23} \\\\ 2^{2} a_{31} & 2^{2} a_{32} & 2^{2} a_{33}\\end{array}\\right|$\r\n\r\n$=2^{9} \\cdot 2 \\cdot 2^{2}\\left|\\begin{array}{lll}a_{11} & a_{12} & a_{13} \\\\ a_{21} & a_{22} & a_{23} \\\\ a_{31} & a_{32} & a_{33}\\end{array}\\right|$\r\n\r\n$=2^{12} \\times|P|=2^{12} \\times 2=2^{13}$"
+  }
+}

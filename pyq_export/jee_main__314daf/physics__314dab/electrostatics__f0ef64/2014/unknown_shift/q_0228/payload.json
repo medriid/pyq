@@ -1,0 +1,43 @@
+{
+  "index": 228,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602402632932165bf0ef64",
+    "chapter_name": "Electrostatics",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A spherically symmetric charge distribution is characterised by a charge density having the following variations:\n$\\rho(r)=\\rho_o\\left(1-\\frac{r}{R}\\right)$ for $r < R$\n$\\rho(\\mathrm{r})=0$ for $r \\geq \\mathrm{R}$\nWhere $r$ is the distance from the centre of the charge distribution $\\rho_{\\mathrm{o}}$ is a constant. The electric field at an internal point $(r < R)$ is:"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{\\rho_{\\mathrm{o}}}{4 \\varepsilon_{\\mathrm{o}}}\\left(\\frac{\\mathrm{r}}{3}-\\frac{\\mathrm{r}^2}{4 \\mathrm{R}}\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\rho_0}{\\varepsilon_0}\\left(\\frac{r}{3}-\\frac{r^2}{4 R}\\right)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{\\rho_{\\mathrm{o}}}{3 \\varepsilon_{\\mathrm{o}}}\\left(\\frac{\\mathrm{r}}{3}-\\frac{\\mathrm{r}^2}{4 \\mathrm{R}}\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\rho_{\\mathrm{o}}}{12 \\varepsilon_{\\mathrm{o}}}\\left(\\frac{\\mathrm{r}}{3}-\\frac{\\mathrm{r}^2}{4 \\mathrm{R}}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let us consider a spherical shell of radius $x$ and thickness $\\mathrm{dx}$.\n\n\n<img src=\"assets\\st0228_812472eb44ea.png\"><br>\n\n\nCharge on this shell\n$$\nd q=\\rho .4 \\pi x^2 d x=\\rho_0\\left(1-\\frac{x}{R}\\right) \\cdot 4 \\pi x^2 d x\n$$\n$\\therefore$ Total charge in the spherical region from centre to $r(r < R)$ is\n$$\n\\begin{aligned}\n&q=\\int d q=4 \\pi \\rho_0 \\int_0^r\\left(1-\\frac{x}{R}\\right) x^2 d x \\\\\n&=4 \\pi \\rho_0\\left[\\frac{x^3}{3}-\\frac{x^4}{4 R}\\right]_0^r \\\\\n&=4 \\pi \\rho_0\\left[\\frac{r^3}{3}-\\frac{r^4}{4 R}\\right] \\\\\n&=4 \\pi \\rho_0 r^3\\left[\\frac{1}{3}-\\frac{r}{4 R}\\right]\n\\end{aligned}\n$$\n$\\therefore$ Electric field at $\\mathrm{r}, \\mathrm{E}=\\frac{1}{4 \\pi \\varepsilon_0} \\cdot \\frac{\\mathrm{q}}{\\mathrm{r}^2}$\n\n$$\n\\begin{aligned}\n&=\\frac{1}{4 \\pi \\varepsilon_0} \\cdot \\frac{4 \\pi \\rho_0 r^3}{r^2}\\left[\\frac{1}{3}-\\frac{r}{4 R}\\right] \\\\\n&=\\frac{\\rho_0}{\\varepsilon_0}\\left[\\frac{r}{3}-\\frac{r^2}{4 R}\\right]\n\\end{aligned}\n$$"
+  }
+}

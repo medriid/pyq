@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a61417cc3fb48d6551e",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c3",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2003-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2003",
+      "title": "JEE Main 2003"
+    }
+  ],
+  "question": {
+    "text": "The solution of the differential equation $\\left(1+y^2\\right)+\\left(x-e^{\\tan ^{-1} y}\\right) \\frac{d y}{d x}=0$, is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "5SLm9",
+      "text": "\n$x e^{2 \\tan ^{-1} y}=e^{\\tan ^{-1} y}+k$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "hehyq",
+      "text": "\n$(x-2)=k e^{2 \\tan ^{-1} y}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "rhSVS",
+      "text": "\n$2 x e^{\\tan ^{-1} y}=e^{2 \\tan ^{-1} y}+k$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "QUCuY",
+      "text": "\n$x e^{\\tan ^{-1} y}=\\tan ^{-1} y+k$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\left(1+y^2\\right)+\\left(x-e^{\\tan ^{-1} y}\\right) \\frac{d y}{d x}=0$\n$\\left(1+y^2\\right) \\frac{d x}{d y}+x=e^{\\tan ^{-1} y} \\Rightarrow \\frac{d x}{d y}+\\frac{x}{\\left(1+y^2\\right)}=\\frac{e^{\\tan ^{-1} y}}{\\left(1+y^2\\right)}$\nI.F. $=e^{\\int \\frac{1}{\\left(1+y^2\\right)} d y}=e \\tan ^{-1} y$\n$x\\left(e^{\\tan ^{-1} y}\\right)=\\int \\frac{e^{\\tan ^{-1} y}}{1+y} e^{\\tan ^{-1} y d y}$\n$x\\left(e^{\\tan ^{-1} y}\\right)=\\frac{e^{2 \\tan ^{-1} y}}{2}+C \\quad \\therefore 2 x e^{\\tan ^{-1} y}=e^{2 \\tan ^{-1} y}+k$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c3",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2003-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2003",
+    "title": "JEE Main 2003"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

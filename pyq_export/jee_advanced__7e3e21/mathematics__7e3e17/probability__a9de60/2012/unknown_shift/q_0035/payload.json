@@ -1,0 +1,44 @@
+{
+  "index": 35,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2012 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025732b001edb3fa9de60",
+    "chapter_name": "Probability",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $X$ and $Y$ be two events such that $P(X \\mid Y)=\\frac{1}{2}$, $P(Y / X)=\\frac{1}{3}$ and $P(X \\cap Y)=\\frac{1}{6}$. Which of the following is (are) correct?"
+  },
+  "options": [
+    {
+      "text": "$P(X \\cup Y)=\\frac{2}{3}$",
+      "is_correct": true
+    },
+    {
+      "text": "$X$ and $Y$ are independent",
+      "is_correct": true
+    },
+    {
+      "text": "$X$ and $Y$ are not independent",
+      "is_correct": false
+    },
+    {
+      "text": "$P\\left(X^{c} \\cap Y\\right)=\\frac{1}{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "B"
+  ],
+  "solution": {
+    "text": "$\\because P(X / Y)=\\frac{P(X \\cap Y)}{P(Y)} \\Rightarrow \\frac{1}{2}=\\frac{1 / 6}{P(Y)} \\Rightarrow P(Y)=\\frac{1}{3}$\r\n\r\nSimilarly, $\\mathrm{P}(Y / X)=\\frac{P(X \\cap Y)}{P(X)}$\r\n\r\n$\\Rightarrow \\frac{1}{3}=\\frac{1 / 6}{P(X)} \\Rightarrow P(X)=\\frac{1}{2}$\r\n\r\n(a) $P(X \\cup Y)=P(X)+P(Y)-P(X \\cap Y)=\\frac{1}{2}+\\frac{1}{3}-\\frac{1}{6}=\\frac{2}{3}$\r\n\r\n$\\therefore$ (a) is true.\r\n\r\n(b) $\\because P(X \\cap Y)=P(X) P(Y)$\r\n\r\n$\\Rightarrow X$ and $Y$ are independent events.\r\n\r\n$\\therefore$ (b) is true.\r\n\r\nBut (c) is not true.\r\n\r\n(d) $\\mathrm{P}\\left(X^{C} \\cap Y\\right)=P\\left(X^{C}\\right) \\times P(Y)=\\frac{1}{2} \\times \\frac{1}{3}=\\frac{1}{6}$\r\n\r\n$\\therefore$ (d) is not true."
+  }
+}

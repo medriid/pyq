@@ -1,0 +1,43 @@
+{
+  "index": 119,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (10 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602565bccda81624f5a071",
+    "chapter_name": "Area Under Curves",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The area (in sq. units) of the region bounded by the curves <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mn>2</mn><mi mathvariant=\"italic\">x</mi></msup></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfenced open=\"|\" close=\"|\" separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced></math>, in the first quadrant is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mrow><msub><mi>log</mi><mi>e</mi></msub><mo>&#8289;</mo><mn>2</mn></mrow></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mi>e</mi></msub><mo>&#8289;</mo><mn>2</mn><mo>+</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>3</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p>We know that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"|\" open=\"|\"><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable columnalign=\"left\" columnspacing=\"1.4ex\"><mtr><mtd><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>x</mi><mo>,</mo></mtd><mtd><mi>x</mi><mo>&#8805;</mo><mn>0</mn></mtd></mtr><mtr><mtd><mo>-</mo><mi>x</mi><mo>,</mo></mtd><mtd><mi>x</mi><mo>&#60;</mo><mn>0</mn></mtd></mtr></mtable></mfenced></math></p><p>Hence,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"|\" open=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable columnalign=\"left\" columnspacing=\"1.4ex\"><mtr><mtd><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>,</mo></mtd><mtd><mi>x</mi><mo>&#8805;</mo><mo>-</mo><mn>1</mn></mtd></mtr><mtr><mtd><mo>-</mo><mfenced><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>,</mo></mtd><mtd><mi>x</mi><mo>&#60;</mo><mo>-</mo><mn>1</mn></mtd></mtr></mtable></mfenced></math><br />The graph&nbsp;of the given functions is</p><p><img alt=\"\" src=\"assets\\st0119_3c2a5b3c65e8.jpeg\" style=\"width: 380px; height: 196px;\" /><br />The shaded area is the required area.</p><p>Area&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><mfenced separators=\"|\"><mrow><msub><mi>y</mi><mrow><mi>l</mi><mi>i</mi><mi>n</mi><mi>e</mi></mrow></msub><mo>-</mo><msub><mi>y</mi><mrow><mi>c</mi><mi>u</mi><mi>r</mi><mi>v</mi><mi>e</mi></mrow></msub></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p>Area&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn><mo>-</mo><msup><mn>2</mn><mi>x</mi></msup></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p>Using&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8747;</mo><msup><mi>x</mi><mi>n</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mo>&#8747;</mo><msup><mi>a</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>a</mi><mi>x</mi></msup><mrow><msub><mi>log</mi><mi>e</mi></msub><mi>a</mi></mrow></mfrac><mo>,</mo></math>&nbsp;we get</p><p>Area&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mi>x</mi><mo>-</mo><mfrac><msup><mn>2</mn><mi>x</mi></msup><mrow><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></mrow></mfrac></mrow></mfenced><mn>0</mn><mn>1</mn></msubsup></math></p><p>Area&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced separators=\"|\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>-</mo><mfrac><mn>2</mn><mrow><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></mrow></mfrac></mrow></mfenced><mo>-</mo><mi>&#160;</mi><mfenced separators=\"|\"><mrow><mn>0</mn><mo>+</mo><mn>0</mn><mo>-</mo><mfrac><mn>1</mn><mrow><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></mrow></mfrac></mrow></mfenced></math></p><p>Area&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mrow><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></mrow></mfrac></math>&nbsp;sq units.</p>"
+  }
+}

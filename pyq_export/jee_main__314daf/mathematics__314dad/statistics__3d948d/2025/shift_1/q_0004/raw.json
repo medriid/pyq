@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eecac8b73881fdaea2e8",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d97610",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-29T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (29 Jan Shift 1)",
+      "title": "JEE Main 2025 (29 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let \\(x_1, x_2, \\ldots, x_{10}\\) be ten observations such that \\(\\sum_{i=1}^{10}\\left(x_i-2\\right)=30, \\sum_{i=1}^{10}\\left(x_i-\\beta\\right)^2=98, \\beta\\gt2\\), and their variance is \\(\\frac{4}{5}\\). If \\(\\mu\\) and \\(\\sigma^2\\) are respectively the mean and the variance of \\(2\\left(x_1-1\\right)+4 \\beta\\), \\(2\\left(x_2-1\\right)+4 \\beta, \\ldots ., 2\\left(x_{10}-1\\right)+4 \\beta\\), then \\(\\frac{\\beta \\mu}{\\sigma^2}\\) is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "2UTgH",
+      "text": "100",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "xqtGy",
+      "text": "120",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "VIt51",
+      "text": "110",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "CIQ54",
+      "text": "90",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\sum_{l=1}^{10}\\left(x_l-2\\right)=30 \\\\\n& \\sum_{i=1}^{10} x_l=50 \\\\\n& \\Rightarrow \\text { Mean }=5 \\\\\n& \\text { Variance }=\\frac{4}{5}=\\frac{\\sum x_l^2}{10}-(\\bar{x})^2 \\\\\n& \\frac{4}{5}=\\frac{\\sum x_l^2}{10}-25 \\\\\n& \\Rightarrow \\sum x_l^2=258\n\\end{aligned}$\nNow, $\\sum_{l=1}^{10}\\left(x_l-\\beta\\right)^2=98$\n$\\begin{aligned}\n& \\sum_{l=1}^{10} x_l^2-2 \\beta \\sum_{l=1}^{10} x_l+10 \\beta^2=98 \\\\\n& \\Rightarrow 258-2 \\beta(50)+10 \\beta^2=98 \\\\\n& \\Rightarrow 10 \\beta^2-100 \\beta+160=0 \\\\\n& \\Rightarrow \\beta^2-10 \\beta+16=0 \\\\\n& \\Rightarrow \\beta=8 \\text { as } \\beta>2\n\\end{aligned}$\nNow, as per the question\n$2\\left(x_1-1\\right)+4 \\beta, 2\\left(x_2-1\\right)+4 \\beta, \\ldots 2\\left(x_{10}-1\\right)+4 \\beta$\nCan be simplified as\n$2 x_1+30,2 x_2+30, \\ldots, 2 x_{10}+30$\n$\\begin{aligned} & \\mu=2(5)+30=40 \\\\ & \\sigma^2=2^2\\left(\\frac{4}{5}\\right)=\\frac{16}{5} \\\\ & \\frac{\\beta \\mu}{\\sigma^2}=\\frac{8 \\times 40}{\\frac{16}{5}}=100\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "8cd563c1f8d6440280297490b9b02ff6",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/LeUcSlWRlIp6p.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/LeUcSlWRlIp6p.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d97610",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-29T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (29 Jan Shift 1)",
+    "title": "JEE Main 2025 (29 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

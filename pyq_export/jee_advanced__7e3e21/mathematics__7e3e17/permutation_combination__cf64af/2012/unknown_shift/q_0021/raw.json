@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a24f23ac7d519f9b1b6",
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c4b",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2012-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (Paper 2)",
+      "title": "JEE Advanced 2012 (Paper 2)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $a_{n}$ denote the number of all $n$-digit positive integers formed by the digits 0,1 or both such that no consecutive digits in them are 0 . Let $b_{n}=$ the number of such $n$-digit integers ending with digit 1 and $c_{n}=$ the number of such $n$-digit integers ending with digit 0 .\r\n\r\n<strong> Question:</strong> The value of $b_{6}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "SJoSL",
+      "text": "7",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "LAuab",
+      "text": "8",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "lliy8",
+      "text": "9",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "rvZHy",
+      "text": "11",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\because a_{n}=$ number of all $n$ digit +ve integers formed by the digits 0,1 or both such that no consecutive digits in them are 0 .\r\n\r\nand $b_{n}=$ number of such $n$ digit integers ending with 1 $c_{n}=$ number of such $n$ digit integers ending with 0\r\n\r\nClearly, $a_{n}=b_{n}+c_{n}\\left(\\because a_{n}\\right.$ can end with 0 or 1)\r\n\r\nAlso $b_{n}=a_{n-1}$ and $c_{n}=a_{n-2}[\\because$ if last digit is 0 , second last has to be 1]\r\n\r\n$\\therefore$ We get $a_{n}=a_{n-1}+a_{n-2}, n \\geq 3$\r\n\r\nAlso $a_{1}=1, a_{2}=2$,\r\n\r\nNow by this recurring formula, we get\r\n\r\n$\\begin{aligned} a_{3} &=a_{2}+a_{1}=3 \\\\ a_{4} &=a_{3}+a_{2}=3+2=5 \\\\ a_{5} &=a_{4}+a_{3}=5+3=8 \\\\ \\text { Also } b_{6} &=a_{5}=8 \\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c4b",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2012-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (Paper 2)",
+    "title": "JEE Advanced 2012 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 60,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=\\max \\{x+|x|, x-[x]\\}, \\quad$ where $\\quad \\mid x]$ denotes the greateat integer $\\leq x$. Then, the value of $\\int_{-3}^{3} f(x) d x$ is"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "$51 / 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$21 / 2$",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given, $f(x)=\\max \\{x+|x|, x-[x]\\}$\r\n$$\r\n\\begin{aligned}\r\n=\\left\\{\\begin{array}{ll}\r\n2 x, & x \\geq 0 \\\\\r\nx-[x], & x \\leq 0\r\n\\end{array}\\right.\\\\\r\n\\begin{aligned}\r\n\\int_{-3}^{3} f(x) d x &=\\int_{-3}^{0} x-[x] d x+\\int_{0}^{3} 2 x d x \\\\\r\n&=3 \\int_{-1}^{0}(1+x) d x+2 \\int_{0}^{3} x d x\r\n\\end{aligned}\r\n\\end{aligned}\r\n$$\r\n[$\\because$ $x-[x]$ is a periodic function at $x=1]$\r\n$$\r\n\\begin{array}{l}\r\n=3\\left[x+\\frac{x^{2}}{2}\\right]_{-1}^{0}+2\\left[\\frac{x^{2}}{2}\\right]_{0}^{3} \\\\\r\n=3\\left[0-0-\\left(-1+\\frac{1}{2}\\right)\\right]+3^{2}-0 \\\\\r\n=3\\left[\\frac{1}{2}\\right]+9=\\frac{3}{2}+9 \\\\\r\n=\\frac{21}{2}\r\n\\end{array}\r\n$$"
+  }
+}

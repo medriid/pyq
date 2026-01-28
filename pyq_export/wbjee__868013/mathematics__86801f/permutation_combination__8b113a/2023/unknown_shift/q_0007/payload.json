@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ccd1d619927718b113a",
+    "chapter_name": "Permutation Combination",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "\\(\\mathrm{n}\\) objects are distributed at random among \\(\\mathrm{n}\\) persons. The number of ways in which this can be done so that at least one of them will not get any object is"
+  },
+  "options": [
+    {
+      "text": "\\(n !-n\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(n^n-n\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(n^n-n^2\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(n^n-n\\) !",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Hint : Total number of ways of distributing \\(n\\) objects randomly among \\(n\\) persons \\(=\\mathrm{n}^n\\)\nNumber of ways in which each person gets exactly one object \\(={ }^n P_n=n\\) !\n\\(\\therefore\\) Required number of ways \\(=n^n-n\\) !"
+  }
+}

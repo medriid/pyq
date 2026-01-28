@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602558b700fbea58c9cf49",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced><mo>=</mo><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>&#8901;</mo><mi>f</mi><mfenced separators=\"|\"><mi>y</mi></mfenced></math> for all <math><mi>x</mi><mo>,</mo><mi mathvariant=\"normal\"></mi><mi>y</mi><mo>&#8712;</mo><mi>R</mi></math> and <math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo><mn>1</mn><mo>+</mo><mi>x</mi><mi>&#981;</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mrow><mrow><mi mathvariant=\"normal\">log</mi></mrow><mo>&#8289;</mo><mrow><mn>3</mn></mrow></mrow></math>.&nbsp;If&nbsp;<math><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder></mrow><mo>&#8289;</mo><mrow><mi>&#981;</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow></mrow><mo>=</mo><mn>1</mn></math>,&nbsp;then <math> <mrow> <msup> <mi>f</mi> <mo>&#8242;</mo> </msup> <mfenced> <mi>x</mi> </mfenced></mrow> </math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><msup><mrow><mrow><mrow><mi mathvariant=\"normal\">log</mi></mrow><mo>⁡</mo><mrow><mn>3</mn></mrow></mrow></mrow><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow></msup></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mrow><mrow><mi mathvariant=\"normal\">log</mi></mrow><mo>⁡</mo><mrow><msup><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow></mfenced></mrow><mrow><mn>3</mn></mrow></msup></mrow></mrow></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mrow><mrow><mi mathvariant=\"normal\">log</mi></mrow><mo>⁡</mo><mrow><mn>3</mn></mrow></mrow></math>",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<math> <mrow> <msup> <mi>f</mi> <mo>&#8242;</mo> </msup> <mfenced> <mi>x</mi> </mfenced><mo>=</mo><munder> <mrow> <mi>lim</mi></mrow> <mrow> <mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow> </munder> <mfrac> <mrow> <mi>f</mi><mfenced> <mrow> <mi>x</mi><mo>+</mo><mi>h</mi></mrow> </mfenced><mo>&#8722;</mo><mi>f</mi><mfenced> <mi>x</mi> </mfenced></mrow> <mi>h</mi> </mfrac> </mrow> </math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mo>&#8289;</mo><mfrac><mrow><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>&#8901;</mo><mi>f</mi><mfenced separators=\"|\"><mi>h</mi></mfenced><mo>-</mo><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced></mrow><mi>h</mi></mfrac><mo>&#160;</mo><mfenced open=\"[\" close=\"]\" separators=\"|\"><mrow><mo>&#8757;</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced><mo>=</mo><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>&#8901;</mo><mi>f</mi><mfenced separators=\"|\"><mi>y</mi></mfenced></mrow></mfenced></math><br /><math><mo>=</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mi mathvariant=\"normal\"></mi><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder></mrow><mo>&#8289;</mo><mrow><mfenced separators=\"|\"><mrow><mfrac><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>h</mi></mrow></mfenced><mo>-</mo><mn>1</mn></mrow><mrow><mi>h</mi></mrow></mfrac></mrow></mfenced></mrow></mrow></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mo>&#8289;</mo><mfrac><mrow><mn>1</mn><mo>+</mo><mi>h</mi><mi>&#981;</mi><mfenced separators=\"|\"><mi>h</mi></mfenced><mi>log</mi><mo>&#8289;</mo><mn>3</mn><mo>-</mo><mn>1</mn></mrow><mi>h</mi></mfrac><mo>&#160;</mo><mfenced open=\"[\" close=\"]\" separators=\"|\"><mrow><mo>&#8757;</mo><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mn>1</mn><mo>+</mo><mi>x</mi><mi>&#981;</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>log</mi><mo>&#8289;</mo><mn>3</mn></mrow></mfenced></math><br /><math><mo>=</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mrow><mrow><mi mathvariant=\"normal\">log</mi></mrow><mo>&#8289;</mo><mrow><mn>3</mn></mrow></mrow><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder></mrow><mo>&#8289;</mo><mrow><mi>&#981;</mi><mfenced separators=\"|\"><mrow><mi>h</mi></mrow></mfenced></mrow></mrow></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>&#215;</mo><mi>log</mi><mo>&#8289;</mo><mn>3</mn><mo>&#215;</mo><mn>1</mn><mo>&#160;</mo><mfenced open=\"[\" close=\"]\" separators=\"|\"><mrow><mo>&#8757;</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mo>&#8289;</mo><mi>&#981;</mi><mfenced separators=\"|\"><mi>h</mi></mfenced><mo>=</mo><mn>1</mn></mrow></mfenced></math><br /><math><mo>=</mo><mrow><mrow><mi mathvariant=\"normal\">log</mi></mrow><mo>&#8289;</mo><mrow><msup><mrow><mn>3</mn></mrow><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow></msup></mrow></mrow></math>"
+  }
+}

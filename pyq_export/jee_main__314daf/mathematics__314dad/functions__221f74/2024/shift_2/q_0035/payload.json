@@ -1,0 +1,43 @@
+{
+  "index": 35,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (05 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602555685234356f221f74",
+    "chapter_name": "Functions",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $f, g: \\mathbf{R} \\rightarrow \\mathbf{R}$ be defined as :\n$f(x)=|x-1| \\text { and } g(x)= \\begin{cases}\\mathrm{e}^x, \\text { MARA } & x \\geq 0 \\\\ x+1, & x \\leq 0\\end{cases}$<br />Then the function $f(g(x))$ is"
+  },
+  "options": [
+    {
+      "text": "neither one-one nor onto.",
+      "is_correct": true
+    },
+    {
+      "text": "one-one but not onto.",
+      "is_correct": false
+    },
+    {
+      "text": "onto but not one-one.",
+      "is_correct": false
+    },
+    {
+      "text": "both one-one and onto.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & f(g(x))=|g(x)-1| \\\\ & f o g\\left[\\begin{array}{cc}\\left|e^x-1\\right| & x \\geq 0 \\\\ |x+1-1| & x \\leq 0\\end{array}\\right. \\\\ & \\text { fog }\\left[\\begin{array}{cc}e^x-1 & x \\geq 0 \\\\ -x & x \\leq 0\\end{array}\\right.\\end{aligned}$\n<img src=\"assets\\st0035_ccc6813d35a0.png\"><br>"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e08",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d8",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (11 Apr Online)",
+      "title": "JEE Main 2014 (11 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "In a geometric progression, if the ratio of the sum of first 5 terms to the sum of their reciprocals is 49 , and the sum of the first and the third term is 35. Then the first term of this geometric progression is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "C56t4",
+      "text": "\n7\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "pM2cq",
+      "text": "\n21\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "QC5R0",
+      "text": "\n28\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "V4jLK",
+      "text": "\n42",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "According to Question\n$$\n\\Rightarrow \\frac{S_5}{S_5^{\\prime}}=49\n$$\n(here, $S_5=$ Sum of first 5 terms and $S_5=$ Sum of their reciprocals)\n$$\n\\begin{aligned}\n&\\Rightarrow \\frac{\\frac{a\\left(r^5-1\\right)}{(r-1)}}{\\frac{a^{-1}\\left(r^{-5}-1\\right)}{\\left(r^{-1}-1\\right)}}=49 \\\\\n&\\Rightarrow \\frac{a\\left(r^5-1\\right) \\times\\left(r^{-1}-1\\right)}{a^{-1}\\left(r^{-5}-1\\right) \\times(r-1)}=49 \\\\\n&\\text { or } \\frac{a^2\\left(1-r^5\\right) \\times(1-r) \\times r^5}{\\left(1-r^5\\right) \\times(1-\\mathrm{r}) \\times r}=49 \\\\\n&\\Rightarrow a^2 r^4=49 \\Rightarrow a^2 r^4=7^2 \\\\\n&\\Rightarrow a r^2=7\n\\end{aligned}\n$$\nAlso, given, $S_1+S_3=35$ $a+a r^2=35$\nNow substituting the value of eq. (1) in eq. (2)\n$a+7=35$\n$a=28$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d8",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (11 Apr Online)",
+    "title": "JEE Main 2014 (11 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\int f(x) \\sin x \\cos x d x=\\frac{1}{2\\left(b^{2}-a^{2}\\right)} \\log f(x)+c$\r\nwhere $c$ is the constant of integration, then $f(x)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{2}{\\left(b^{2}-a^{2}\\right) \\sin 2 x}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2}{a b \\sin 2 x}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2}{\\left(b^{2}-a^{2}\\right) \\cos 2 x}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{2}{a b \\cos 2 x}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have. $\\int f(x) \\sin x \\cos x d x=\\frac{1}{2 b^{2}-a^{2}} \\log (f(x))+c$\r\n$\\Rightarrow f(x) \\sin x \\cos x=\\frac{1}{\\left.2 b^{2}-a^{2}\\right)} \\cdot \\frac{1}{f(x)} \\cdot f'(x)$\r\n$\\Rightarrow \\quad f(x) \\sin 2 x=\\frac{1}{b^{2}-a^{2}} \\cdot \\frac{f'(x)}{f(x)}$\r\n$\\Rightarrow \\quad \\sin 2 x=\\frac{1}{b^{2}-a^{2}} \\frac{f(x)}{(f(x))^{2}}$\r\n$\\Rightarrow \\quad \\int \\sin 2 x d x=\\frac{1}{b^{2}-a^{2}} \\int \\frac{f(x)}{(f(x))^{2}} d x$\r\n$\\Rightarrow \\quad \\frac{-\\cos 2 x}{2}=\\frac{1}{b^{2}-a^{2}} \\cdot\\left(\\frac{-1}{f(x)}\\right)$\r\n$\\Rightarrow \\quad \\quad \\frac{\\cos 2 x\\left(b^{2}-a^{2}\\right)}{2}=\\frac{1}{f(x)}$\r\n$\\Rightarrow \\quad f(x)=\\frac{2}{\\left(b^{2}-a^{2}\\right) \\cos 2 x}$"
+  }
+}

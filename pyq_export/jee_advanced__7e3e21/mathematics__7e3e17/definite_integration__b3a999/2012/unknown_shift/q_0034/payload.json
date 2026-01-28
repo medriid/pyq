@@ -1,0 +1,43 @@
+{
+  "index": 34,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2012 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602563f6918f74a3b3a999",
+    "chapter_name": "Definite Integration",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of the integral $\\int_{-\\pi / 2}^{\\pi / 2}\\left(x^{2}+\\ln \\frac{\\pi+x}{\\pi-x}\\right) \\cos x d x$ is"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi^{2}}{2}-4$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\pi^{2}}{2}+4$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi^{2}}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\int_{-\\pi / 2}^{\\pi / 2}\\left[x^{2}+\\ln \\left(\\frac{\\pi+x}{\\pi-x}\\right)\\right] \\cos x d x$ $=\\int_{-\\pi / 2}^{\\pi / 2} x^{2} \\cos x d x+\\int_{-\\pi / 2}^{\\pi / 2} \\ln \\left(\\frac{\\pi+x}{\\pi-x}\\right) \\cos x d x$ $=2 \\int_{0}^{\\pi / 2} x^{2} \\cos x d x+0 \\quad\\left[\\because x^{2} \\cos x\\right.$ is an even function and $\\ln \\left(\\frac{\\pi+x}{\\pi-x}\\right) \\cos x$ is an odd function] $=2\\left[x^{2} \\sin x+2 x \\cos x-2 \\sin x\\right]_{0}^{\\pi / 2}=\\frac{\\pi^{2}}{2}-4$"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "index": 39,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2010 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602563f6918f74a3b3a999",
+    "chapter_name": "Definite Integration",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For any real number $x$, let $[x]$ denotes the largest integer less than or equal to $x$. Let $f$ be a real valued function defined on the interval $[-10,10]$ by $f(x)=\\left\\{\\begin{array}{cc}x-[x] & \\text { if }[x] \\text { is odd } \\\\ 1+[x]-x & \\text { if }[x] \\text { is even }\\end{array}\\right.$.\nThen the value of $\\frac{\\pi^2}{10} \\int_{-10}^{10} f(x) \\cos \\pi x d x$ is"
+  },
+  "options": [],
+  "correct_answer": "4",
+  "solution": {
+    "text": "Given, $f(x)=\\left\\{\\begin{array}{cc}x-[x] & \\text { if }[x] \\text { is odd } \\\\ 1+[x]-x & \\text { if }[x] \\text { is even }\\end{array}\\right.$ $f(x)$ and $\\cos \\pi x$ both are periodic with period 2 and both are even.\n$$\n\\begin{aligned}\n\\therefore \\quad & \\int_{-10}^{10} f(x) \\cos \\pi x d x \\\\\n& =2 \\int_0^{10} f(x) \\cos \\pi x d x\n\\end{aligned}\n$$\n<img src=\"assets\\st0039_1c2aff9d8e4e.png\"><br>\n$$\n\\begin{aligned}\n& =10 \\int_0^2 f(x) \\cos \\pi x d x \\\\\n& \\text { Now, } \\quad \\int_0^1 f(x) \\cos \\pi x d x \\\\\n& =\\int_0^1(1-x) \\cos \\pi x d x=-\\int_0^1 u \\cos \\pi u d u \\\\\n& \\text { and } \\int_1^2 f(x) \\cos \\pi x d x \\\\\n& =\\int_1^2(x-1) \\cos \\pi x d x=-\\int_0^1 u \\cos \\pi u d u \\\\\n& \\therefore \\quad \\int_{-10}^{10} f(x) \\cos \\pi x d x \\\\\n& =-20 \\int_0^1 u \\cos \\pi u d u=\\frac{40}{\\pi^2} \\\\\n& \\Rightarrow \\quad \\frac{\\pi^2}{10} \\int_{-10}^{10} f(x) \\cos \\pi x d x=4\n\\end{aligned}\n$$"
+  }
+}

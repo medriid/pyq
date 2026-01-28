@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c82a7939c5791425117",
+    "chapter_name": "Thermodynamics",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider a thermodynamic process where internal energy $U=A P^2 \\mathrm{~V}(\\mathrm{~A}=$ constant). If the process is performed adiabatically, then"
+  },
+  "options": [
+    {
+      "text": "$A P^2(V+1)=$ constant",
+      "is_correct": false
+    },
+    {
+      "text": "$(\\mathrm{AP}+1)^2 \\mathrm{~V}=\\mathrm{constant}$",
+      "is_correct": true
+    },
+    {
+      "text": "$(\\mathrm{AP}+1) \\mathrm{V}^2=$ constant",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{V}{(A P+1)^2}=$ constant",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$U=A P^2 V$\n$\\frac{d U}{d V}=A P^2+2 P A V \\frac{d P}{d V}$ [For adiabatic process $\\left.d Q=0, d U=-d w=-P d V\\right]$\n$-\\frac{P d V}{d V}=A P^2+2 P A V \\frac{d P}{d V}$\n$-1=A P+2 A V \\frac{d P}{d V} \\Rightarrow-1-A P=2 A V \\frac{d P}{d V}$\n$-\\int \\frac{d V}{V}=\\int \\frac{2 A d P}{A P+1}$\n$-\\ell n V+C=\\frac{2 A}{A} \\ln (A P+1)$\n$C=\\ell n(A P+1)^2+\\ell n V \\Rightarrow C=(A P+1)^2 V$"
+  }
+}

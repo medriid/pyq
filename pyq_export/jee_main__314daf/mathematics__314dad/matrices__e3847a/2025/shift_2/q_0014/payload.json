@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $A=\\left[\\begin{array}{cc}\\frac{1}{\\sqrt{2}} & -2 \\\\ 0 & 1\\end{array}\\right]$ and $P=\\left[\\begin{array}{cc}\\cos \\theta & -\\sin \\theta \\\\ \\sin \\theta & \\cos \\theta\\end{array}\\right], \\theta\\gt0$. If $\\mathrm{B}=\\mathrm{PAP}^{\\mathrm{T}}, \\mathrm{C}=\\mathrm{P}^{\\mathrm{T}} \\mathrm{B}^{10} \\mathrm{P}$ and the sum of the diagonal elements of $C$ is $\\frac{\\mathrm{m}}{\\mathrm{n}}$, where $\\operatorname{gcd}(\\mathrm{m}, \\mathrm{n})=1$, then $\\mathrm{m}+\\mathrm{n}$ is :"
+  },
+  "options": [
+    {
+      "text": "$127$",
+      "is_correct": false
+    },
+    {
+      "text": "$258$",
+      "is_correct": false
+    },
+    {
+      "text": "$65$",
+      "is_correct": true
+    },
+    {
+      "text": "$2049$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\mathrm{P}=\\left[\\begin{array}{cc}\n\\cos \\theta & -\\sin \\theta \\\\\n\\sin \\theta & \\cos \\theta\n\\end{array}\\right] \\\\\n& \\because \\mathrm{P}^{\\mathrm{T}} \\mathrm{P}=\\mathrm{I} \\\\\n& \\mathrm{~B}=\\mathrm{PAPT}\n\\end{aligned}$\n\nPre multiply by $\\mathrm{P}^{\\mathrm{T}}$ ( Given)\n$\\mathrm{P}^{\\mathrm{T}} \\mathrm{~B}=\\mathrm{P}^{\\mathrm{T}} \\mathrm{P} \\mathrm{AP}^{\\mathrm{T}}=\\mathrm{AP}^{\\mathrm{T}}$\n\nNow post multiply by P\n$\\mathrm{P}^{\\mathrm{T}} \\mathrm{BP}=\\mathrm{AP}^{\\mathrm{T}} \\mathrm{P}=\\mathrm{A}$\n<img src=\"assets\\st0014_d9f2ec0b5c4f.png\"><br>\n\n\n\n$\\mathrm{A}^2=\\mathrm{P}^{\\mathrm{T}} \\mathrm{~B}^2 \\mathrm{P}$\n\nSimilarly $A^{10}=P^T B^{10} P=C$\n$\\begin{aligned}\n& A=\\left[\\begin{array}{cc}\n\\frac{1}{\\sqrt{2}} & -2 \\\\\n0 & 1\n\\end{array}\\right] \\text { (Given) } \\\\\n& \\Rightarrow A^2=\\left[\\begin{array}{cc}\n\\frac{1}{2} & -\\sqrt{2}-2 \\\\\n0 & 1\n\\end{array}\\right]\n\\end{aligned}$\n\nSimilarly check $A^3$ and so on since $C=A^{10}$ $\\Rightarrow$ Sum of diagonal elements of C is $\\left(\\frac{1}{\\sqrt{2}}\\right)^{10}+1$\n\n$\\begin{aligned} & =\\frac{1}{32}+1=\\frac{33}{32}=\\frac{\\mathrm{m}}{\\mathrm{n}} \\\\ & \\operatorname{g~cd}(\\mathrm{m}, \\mathrm{n})=1(\\text { Given }) \\\\ & \\Rightarrow \\mathrm{m}+\\mathrm{n}=65\\end{aligned}$"
+  }
+}

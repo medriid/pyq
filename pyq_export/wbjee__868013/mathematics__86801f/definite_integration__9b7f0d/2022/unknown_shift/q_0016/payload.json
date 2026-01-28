@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f$ be a non-negative function defined in $[0, \\pi / 2], f^{\\prime}$ exists and be continuous for all $x$ and $\\int_0^x \\sqrt{1-\\left(f^{\\prime}(t)\\right)^2} d t=\\int_0^x f(t) d t$ and $f(0)=0$. Then"
+  },
+  "options": [
+    {
+      "text": "$f\\left(\\frac{1}{2}\\right)  < \\frac{1}{2}$ and $f\\left(\\frac{1}{3}\\right) > \\frac{1}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$f\\left(\\frac{1}{2}\\right) > \\frac{1}{2}$ and $f\\left(\\frac{1}{3}\\right)  < \\frac{1}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$f\\left(\\frac{4}{3}\\right)  < \\frac{4}{3}$ and $f\\left(\\frac{2}{3}\\right) < \\frac{2}{3}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{f}\\left(\\frac{4}{3}\\right) > \\frac{4}{3}$ and $\\mathrm{f}\\left(\\frac{2}{3}\\right) > \\frac{2}{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\int_0^x \\sqrt{1-\\left(f^{\\prime}(t)\\right)^2} d t=\\int_0^x f(t) d t$\nUsing Leibnitz Rule,\n$\\begin{aligned}\n&\\sqrt{1-\\left(f^{\\prime}(x)\\right)^2}=f(x) \\\\\n&\\therefore f^{\\prime}(x)=\\pm \\sqrt{1-f^2(x)} \\Rightarrow \\int \\frac{d f(x)}{\\sqrt{1-f^2(x)}}=\\pm \\int d x \\\\\n&\\sin ^{-1}(f(x))=\\pm x+c \\\\\n&\\therefore f(x)=\\sin (\\pm x+C) \\\\\n&\\because f(0)=0 \\Rightarrow C=0 \\\\\n&\\therefore f(x)=\\sin x \\text { or }-\\sin x\n\\end{aligned}$\nBut $f$ is non-negative on $[0, \\pi / 2]$\n$\\begin{aligned}\n&\\therefore \\mathrm{f}(\\mathrm{x})=\\operatorname{Sin} \\mathrm{x} \\\\\n&\\because \\mathrm{f}(\\mathrm{x})  < \\mathrm{x} \\text { for all } \\mathrm{x} > 0 \\\\\n&\\therefore \\mathrm{f}\\left(\\frac{4}{3}\\right) < \\frac{4}{3} \\text { and } \\mathrm{f}\\left(\\frac{2}{3}\\right) < \\frac{2}{3}\n\\end{aligned}$"
+  }
+}

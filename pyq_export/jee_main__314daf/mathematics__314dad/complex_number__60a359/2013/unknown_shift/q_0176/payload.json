@@ -1,0 +1,43 @@
+{
+  "index": 176,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2013 (22 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602527bd39a958e960a359",
+    "chapter_name": "Complex Number",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If a complex number $z$ statisfies the equation $x+\\sqrt{2}|z+1|+i=0$, then $|z|$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "\n2\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\sqrt{3}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\sqrt{5}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given equation is\n$$\n\\begin{aligned}\n& z+\\sqrt{2}|z+1|+i=0 \\\\\n& \\text { put } z=x+i y \\text { in the given equation. } \\\\\n& (x+i y)+\\sqrt{2}|x+i y+1|+i=0 \\\\\n& \\Rightarrow x+i y+\\sqrt{2}\\left[\\sqrt{(x+1)^2+y^2}\\right]+i=0\n\\end{aligned}\n$$\nNow, equating real and imaginary part, we get\n$$\n\\begin{aligned}\n& x+\\sqrt{2} \\sqrt{(x+1)^2+y^2}=0 \\text { and } \\\\\n& y+1=0 \\Rightarrow y=-1 \\\\\n& \\Rightarrow x+\\sqrt{2} \\sqrt{(x+1)^2+(-1)^2}=0 \\\\\n& \\Rightarrow \\sqrt{2} \\sqrt{(x+1)^2+1}=-x \\\\\n& \\Rightarrow 2\\left[(x+1)^2+1\\right]=x^2 \\\\\n& \\Rightarrow x^2+4 x+4=0 \\\\\n& \\Rightarrow x=-2\n\\end{aligned}\n$$\nThus, $z=-2+i(-1) \\Rightarrow|z|=\\sqrt{5}$"
+  }
+}

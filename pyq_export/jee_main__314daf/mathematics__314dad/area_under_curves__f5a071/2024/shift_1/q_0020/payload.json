@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602565bccda81624f5a071",
+    "chapter_name": "Area Under Curves",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The parabola $y^2=4 x$ divides the area of the circle $x^2+y^2=5$ in two parts. The area of the smaller part is equal to:"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{3}+5 \\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{3}+\\sqrt{5} \\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2}{3}+5 \\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{2}{3}+\\sqrt{5} \\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & y^2=4 x \\\\ & x^2+y^2=5\\end{aligned}$\n$\\therefore$ Area of shaded region as shown in the figure will be\n<img src=\"assets\\st0020_59b385f7eab2.png\"><br />$\\begin{aligned} & \\mathrm{A}_1=\\int_0^1 \\sqrt{4 \\mathrm{x}} \\mathrm{dx}+\\int_1^{\\sqrt{5}} \\sqrt{5-\\mathrm{x}^2} \\mathrm{dx} \\\\ & =\\frac{4}{3} \\cdot\\left[\\mathrm{x}^{\\frac{3}{2}}\\right]_0^1+\\left[\\frac{\\mathrm{x}}{2} \\sqrt{5-\\mathrm{x}^2}+\\frac{5}{2} \\sin ^{-1} \\frac{\\mathrm{x}}{\\sqrt{5}}\\right]_1^{\\sqrt{5}} \\\\ & =\\frac{1}{3}+\\frac{5 \\pi}{4}-\\frac{5}{2} \\sin ^{-1}\\left(\\frac{1}{\\sqrt{5}}\\right) \\\\ & \\therefore \\text { Required Area }=2 \\mathrm{~A}_1 \\\\ & =\\frac{2}{3}+\\frac{5 \\pi}{2}-5 \\sin ^{-1}\\left(\\frac{1}{\\sqrt{5}}\\right) \\\\ & =\\frac{2}{3}+5\\left(\\frac{\\pi}{2}-\\sin ^{-1} \\frac{1}{\\sqrt{5}}\\right) \\\\ & =\\frac{2}{3}+5 \\cos ^{-1} \\frac{1}{\\sqrt{5}} \\\\ & =\\frac{2}{3}+5 \\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)\\end{aligned}$"
+  }
+}

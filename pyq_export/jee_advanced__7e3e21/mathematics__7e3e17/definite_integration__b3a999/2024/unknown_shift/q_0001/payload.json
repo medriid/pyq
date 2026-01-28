@@ -1,0 +1,24 @@
+{
+  "index": 1,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2024 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602563f6918f74a3b3a999",
+    "chapter_name": "Definite Integration",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let \\(f:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow[0,1]\\) be the function defined by \\(f(x)=\\sin ^2 x\\) and let \\(g:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow[0, \\infty)\\) be the function defined by \\(g(x)=\\sqrt{\\frac{\\pi x}{2}-x^2}\\).\nThe value of $\\frac{16}{\\pi^3} \\int_0^{\\frac{\\pi}{2}} f(x) g(x) d x$ is"
+  },
+  "options": [],
+  "correct_answer": 0.25,
+  "solution": {
+    "text": "Now $I_1=\\int_0^{\\frac{\\pi}{2}} f(x) \\cdot g(x) d x=\\frac{1}{2} \\int_0^{\\frac{\\pi}{2}} g(x) d x$ (it is explained in previous question solution)\ni.e. $\\frac{1}{2} \\int_0^{\\frac{\\pi}{2}} \\sqrt{\\left(\\frac{\\pi}{4}\\right)^2-\\left(x-\\frac{\\pi}{4}\\right)^2} \\mathrm{dx}$\nUsing $\\int \\sqrt{a^2-x^2}=\\frac{1}{2}\\left(x \\sqrt{a^2-x^2}+a^2 \\sin ^{-1}\\left(\\frac{x}{a}\\right)\\right)+C$\n$\\Rightarrow \\frac{1}{2}\\left[\\frac{\\left(x-\\frac{\\pi}{4}\\right)}{2} \\sqrt{\\frac{\\pi x}{2}-x^2}+\\frac{\\frac{\\pi^2}{2}}{2} \\sin ^{-1}\\left(\\frac{x-\\frac{\\pi}{4}}{\\frac{\\pi}{4}}\\right)\\right]_0^{\\pi / 2}$\n$\\begin{aligned} & \\Rightarrow \\frac{1}{2}\\left[\\left(0+\\frac{\\pi^3}{64}\\right)-\\left(0+\\left(\\frac{-\\pi^3}{64}\\right)\\right)\\right] \\\\ & \\Rightarrow \\frac{1}{2} \\times \\frac{\\pi^3}{32}\\end{aligned}$\nNow $\\frac{16}{\\pi^3} \\times \\frac{\\pi^3}{64}=\\frac{1}{4}=0.25$"
+  }
+}

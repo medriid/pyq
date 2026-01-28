@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a10f23ac7d519f9b0fd",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c48",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2011-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011 (Paper 1)",
+      "title": "JEE Advanced 2011 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $f: R \\rightarrow R$ be a function such that $f(x+y)=f(x)+f(y), \\forall x, y \\in R$. If $f(x)$ is differentiable at $x=0$, then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "PZqEx",
+      "text": "\n$f(x)$ is differentiable only in a finite interval containing zero\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "vTTcd",
+      "text": "\n$f(x)$ is continuous, $\\forall x \\in R$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "EMwQ9",
+      "text": "\n$f^{\\prime}(x)$ is constant, $\\forall x \\in R$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "kNczA",
+      "text": "\n$f(x)$ is differentiable except at finitely many points",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$f(x+y)=f(x)+f(y)$, as $f(x)$ is differentiable at $x=0$.\n$$\n\\begin{aligned}\n\\Rightarrow & f^{\\prime}(0)=k \\\\\n\\text { Now, } f^{\\prime}(x) & =\\lim _{h \\rightarrow 0} \\frac{f(x+h)-f(x)}{h} \\\\\n& =\\lim _{h \\rightarrow 0} \\frac{f(x)+f(h)-f(x)}{h} \\\\\n& =\\lim _{h \\rightarrow 0} \\frac{f(h)}{h} \\quad\\left[\\frac{0}{0} \\text { from }\\right]\n\\end{aligned}\n$$\nGiven, $f(x+y)=f(x)+f(y), \\forall x, y$\n$$\n\\begin{aligned}\n& \\therefore & f(0) & =f(0)+f(0), \\\\\n& \\text { when } & x & =y=0 \\Rightarrow f(0)=0\n\\end{aligned}\n$$\nUsing L'Hospital's rule,\n$$\n\\lim _{h \\rightarrow 0} \\frac{f^{\\prime}(h)}{1}=f^{\\prime}(0)=k\n$$\n$\\Rightarrow f^{\\prime}(x)=k$, on integrating both sides, $f(x)=k x+C$, as $f(0)=0 \\Rightarrow C=0$\nSo, $f(x)=k x$\n$\\therefore f(x)$ is continuous for all $x \\in R$ and $f^{\\prime}(x)=k$, i.e. constant for all $x \\in R$.\nHence, both (b) and (c) are correct.\nSolutions (Q. Nos. 12-13)\n$$\n\\left.\\left(\\begin{array}{l}\n3 \\mathrm{~W} \\\\\n2 \\mathrm{R}\n\\end{array}\\right)(\\underbrace{1 \\mathrm{~W}}_{u_1})\\right\\} \\text { Initial }\n$$\nHead appears.\n$\\left(\\begin{array}{l}2 \\mathrm{~W} \\\\ 2 \\mathrm{R}\\end{array}\\right) \\underset{u_1}{\\mathrm{wW}}(\\underbrace{2 \\mathrm{~W}}_{u_2})$\nor $\\left.\\left(\\begin{array}{l}3 \\mathrm{~W} \\\\ 1 \\mathrm{R}\\end{array}\\right) \\underset{u_1}{\\stackrel{1 \\mathrm{R}}{u_1}}\\left(\\begin{array}{c}1 \\mathrm{~W} \\\\ 1 \\mathrm{R}\\end{array}\\right)\\right)_{u_2}^{u_2}$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/GBdGyDD_0UwU3UqT52VW0IalBzIUtwdpq7GUfZVxGHE.original.fullsize.png\"><br>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c48",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2011-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011 (Paper 1)",
+    "title": "JEE Advanced 2011 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

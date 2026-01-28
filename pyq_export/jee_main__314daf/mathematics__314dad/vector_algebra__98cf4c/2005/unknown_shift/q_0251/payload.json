@@ -1,0 +1,43 @@
+{
+  "index": 251,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\vec{a}=\\hat{i}-\\hat{k}, \\vec{b}=x \\hat{i}+\\hat{j}+(1-x) \\hat{k}$ and $\\vec{c}=y \\hat{i}+x \\hat{j}+(1+x-y) \\hat{k}$. Then $[\\vec{a}, \\vec{b}, \\vec{c}]$ depends on"
+  },
+  "options": [
+    {
+      "text": "\nonly $y$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nonly $\\mathrm{x}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nboth $x$ and $y$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nneither $x$ nor $y$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\vec{a}=\\hat{i}-\\hat{k}, \\vec{b}=x \\hat{i}+\\hat{j}+(1-x) \\hat{k}$ and $\\vec{c}=y \\hat{i}+x \\hat{j}+(1+x-y) \\hat{k}$\n$[\\vec{a} \\vec{b} \\vec{c}]=\\vec{a} \\cdot(\\vec{b} \\times \\vec{c})$\n$$\n\\begin{aligned}\n& \\vec{b} \\times \\vec{c}=\\left|\\begin{array}{ccc}\n\\hat{i} & \\hat{j} & \\hat{k} \\\\\nx & 1 & 1-x \\\\\ny & x & 1+x-y\n\\end{array}\\right|=\\hat{i}\\left(1+x-x-x^2\\right)-\\hat{j}\\left(x+x^2-x y-y+x y\\right)+\\hat{k}\\left(x^2-y\\right) \\\\\n& \\vec{a} .(\\vec{b} \\times \\vec{c})=1\n\\end{aligned}\n$$\nwhich does not depend on $\\mathrm{x}$ and $\\mathrm{y}$"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "6151e86301dd2a23b7cd763c",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "24",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> objects are arranged in a row, then the number of ways of selecting three objects such that no two of them are next to each other is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "tLe6R",
+      "text": "<math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mi>n</mi><mo>-</mo><mn>3</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>3</mn></mrow></msub></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "G2PUE",
+      "text": "<math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mi>n</mi><mo>-</mo><mn>3</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "jXido",
+      "text": "<math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "9tqvX",
+      "text": "<math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>3</mn></mrow></msub></math>",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let \\(x\\) be the number of objects to the left of the first object chosen, \\(y\\) the number of objects between the first and the second, \\(\\mathrm{z}\\) the number of objects between the second and the third and \\(u\\) the number of objects to the right of the third objects. Then, \\(x, u \\geq 0 ; y, z \\geq 1\\) and \\(x+y+z+u=n-3\\). Let \\(y_{1}=\\) \\(\\mathrm{y}-1\\) and \\(\\mathrm{z}_{1}=\\mathrm{z}-1\\). Then, \\(\\mathrm{y}_{1} \\geq 0, \\mathrm{z}_{1} \\geq 0\\) such that \\(\\mathrm{x}+\\mathrm{y}_{1}+\\mathrm{z}_{1}+\\mathrm{u}=\\mathrm{n}-5\\). The total number of non-negative integral solutions of this equation is \\({ }^{\\mathrm{n}-5+4-1} \\mathrm{C}_{4-1}={ }^{\\mathrm{n}-2} \\mathrm{C}_{3} .\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

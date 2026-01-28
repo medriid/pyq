@@ -1,0 +1,44 @@
+{
+  "index": 21,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Whichever of the following is/are correct?"
+  },
+  "options": [
+    {
+      "text": "To evaluate $I_{1}=\\int_{-2}^{2} \\frac{d x}{4+x^{2}}$, it is possible to put $x=\\frac{1}{t}$",
+      "is_correct": false
+    },
+    {
+      "text": "To evaluate $I_{2}=\\int_{0}^{1} \\sqrt{\\left(x^{2}+1\\right)} d x$, it is possible to put $x=\\sec t$",
+      "is_correct": false
+    },
+    {
+      "text": "To evaluate $I_{2}=\\int_{0}^{1} \\sqrt{\\left(x^{2}+1\\right)} \\mathrm{dx}$, it is not possible to put $x=\\operatorname{cosec} \\theta$",
+      "is_correct": true
+    },
+    {
+      "text": "To evaluate $\\mathrm{I}_{1}$, it is not possible to put $\\mathrm{x}=\\frac{1}{\\mathrm{t}}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "C",
+    "D"
+  ],
+  "solution": {
+    "text": "$\\mathrm{I}_{1}=\\int_{-2}^{2} \\frac{\\mathrm{dx}}{4+\\mathrm{x}^{2}}=2 \\int_{0}^{2} \\frac{\\mathrm{dx}}{4+\\mathrm{x}^{2}}>0$\r\nBy\r\n$\\mathrm{x}=1 / \\mathrm{t}, \\quad \\mathrm{I}_{1}=\\int_{-1 / 2}^{1 / 2} \\frac{-\\mathrm{dt}}{4 \\mathrm{t}^{2}+1}     < 0$\r\nSo not possible\r\n$\\mathrm{I}_{2}=\\int_{0}^{1} \\sqrt{\\mathrm{x}^{2}+1} \\mathrm{dx}, \\mathrm{x}=\\operatorname{cosec} \\theta$\r\nSince $x \\in(0,1)$ and $\\operatorname{cosec} \\theta \\in(-\\infty,-1] \\cup[1, \\infty)$\r\nSo not possible"
+  }
+}

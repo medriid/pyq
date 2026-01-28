@@ -1,0 +1,63 @@
+{
+  "_id": "64b169ddf23ac7d519f9af2e",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c41",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2007-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2007 (Paper 2)",
+      "title": "JEE Advanced 2007 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $E^c$ denotes the complement of an event $E$. Let $E, F, G$ be pairwise independent events with $P(G)>0$ and $P(E \\cap F \\cap G)=0$. Then, $P\\left(E^c \\cap F^c \\mid G\\right)$ equals",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "FZZxV",
+      "text": "\n$P\\left(E^c\\right)+P\\left(F^c\\right)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "CzAky",
+      "text": "\n$P\\left(E^c\\right)-P\\left(F^c\\right)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "l6j11",
+      "text": "\n$P\\left(E^c\\right)-P(F)$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "BIhnJ",
+      "text": "\n$P(E)-P\\left(F^c\\right)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\text { } \\begin{aligned}\nP\\left(\\frac{E^c \\cap F^c}{G}\\right) & =\\frac{P\\left(E^c \\cap F^c \\cap G\\right)}{P(G)} \\\\\n& =\\frac{P(G)-P(E \\cap G)-P(G \\cap F)}{P(G)} \\\\\n& =\\frac{P(G)[1-P(E)-P(F)]}{P(G)} \\\\\n& =1-P(E)-P(F) \\\\\n& =P\\left(E^c\\right)-P(F) .\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c41",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2007-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2007 (Paper 2)",
+    "title": "JEE Advanced 2007 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

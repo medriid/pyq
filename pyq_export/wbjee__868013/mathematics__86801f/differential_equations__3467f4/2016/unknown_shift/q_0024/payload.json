@@ -1,0 +1,43 @@
+{
+  "index": 24,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the solution of the differential equation $x \\frac{d y}{d x}+y=x e^{x}$ be $x y=e^{x} \\phi(x)+C,$ then $\\phi(x)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$x+1$",
+      "is_correct": false
+    },
+    {
+      "text": "$x-1$",
+      "is_correct": true
+    },
+    {
+      "text": "$1-x$",
+      "is_correct": false
+    },
+    {
+      "text": "$x$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given, $\\quad x \\frac{d y}{d x}+y=x e^{x}$\r\n$\\Rightarrow \\quad \\frac{d y}{d x}+\\frac{y}{x}=e^{x}$\r\nOn comparing Eq. by $\\frac{d y}{d x}+P y=Q$, we get\r\n$\\therefore$\r\n$$\r\n\\begin{array}{l}\r\nP=\\frac{1}{x} \\text { and } Q=e^{x} \\\\\r\nIF=e^{\\int \\frac{1}{x} d x}\r\n\\end{array}\r\n$$\r\n$$\r\n=e^{log^{x}}=x\r\n$$\r\nHence, solution of differential equation,\r\n$$\r\n\\begin{array}{ll}\r\n\\quad y \\cdot x=\\int x e^{x} d x+C \\\\\r\n\\Rightarrow \\quad x y=x e^{x}-\\int e^{x} d x+C \\\\\r\n\\Rightarrow \\quad x y=x e^{x}-e^{x}+C\r\n\\end{array}\r\n$$\r\n$\\Rightarrow \\quad x y=e^{x}(x-1)+C$\r\n$\\because xy=e^{x} \\phi(x)+c$ [given]\r\n$$\r\n\\phi(x)=(x-1)\r\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2008 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602558b3ddd6290d8a872c",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f$ and $g$ be real valued functions defined on interval $(-1,1)$ such that $g^{\\prime \\prime}(x)$ is continuous, $g(0) \\neq 0, g^{\\prime}(0)=0, g^{\\prime \\prime}(0) \\neq 0$ and $f(x)=g(x) \\sin x$.\nStatement $1 \\lim _{x \\rightarrow 0}[g(x) \\cos x-g(0) \\operatorname{cosec} x]=f^{\\prime \\prime}(0)$.\nStatement $2 f^{\\prime}(0)=g(0)$."
+  },
+  "options": [
+    {
+      "text": "\nStatement 1 is true, Statement 2 is true, Statement 2 is a correct explanation for Statement 1.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement 1 is true, Statement 2 is true, Statement 2 is not a correct explanation for Statement 1.\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nStatement 1 is true, Statement 2 is false.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement 1 is false, Statement 2 is true",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "We have,\n$$\n\\begin{aligned}\n& \\lim _{x \\rightarrow 0} \\frac{g(x) \\cos x-g(0)}{\\sin x} \\\\\n& =\\lim _{x \\rightarrow 0} \\frac{g^{\\prime}(x) \\cos x-g(x) \\sin x}{\\cos x}=0\n\\end{aligned}\n$$\nSince, $f(x)=g(x) \\sin x$\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad f^{\\prime}(x)=g^{\\prime}(x) \\sin x+g(x) \\cos x \\\\\n& \\Rightarrow \\quad f^{\\prime \\prime}(x)=g^{\\prime \\prime}(x) \\sin x+2 g^{\\prime}(x) \\cos x-g(x) \\sin x \\\\\n& \\Rightarrow \\quad f^{\\prime \\prime}(0)=0\n\\end{aligned}\n$$\nThus, $\\lim _{x \\rightarrow 0}[g(x) \\cos x-g(0) \\operatorname{cosec} x]=0=f^{\\prime \\prime}(0)$\n$\\Rightarrow$ Statement 1 is true.\nStatement 2. $f^{\\prime}(x)=g^{\\prime}(x) \\sin x+g(x) \\cos x$\n$$\n\\Rightarrow \\quad f^{\\prime}(0)=g(0)\n$$\nStatement 2 is not a correct explanation of Statement 1."
+  }
+}

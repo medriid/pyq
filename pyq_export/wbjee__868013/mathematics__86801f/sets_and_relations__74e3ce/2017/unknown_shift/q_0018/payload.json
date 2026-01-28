@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "multipleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d00146ed0ebdd74e3ce",
+    "chapter_name": "Sets and Relations",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "On $R$, the set of real numbers, a relation $\\rho$ is defined as $a \\rho b$ if and only if $1+a b>0$. Then,"
+  },
+  "options": [
+    {
+      "text": "$\\rho$ is an equivalence relation",
+      "is_correct": false
+    },
+    {
+      "text": "$\\rho$ is reflexive and transitive but not symmetric",
+      "is_correct": false
+    },
+    {
+      "text": "$\\rho$ is reflexive and symmetric but not transitive",
+      "is_correct": true
+    },
+    {
+      "text": "$\\rho$ is only symmetric",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We know that, \r\n$1+a^{2}>0, a \\in R$\r\n$\\Rightarrow \\quad(a, a) \\in \\rho$\r\n$\\therefore \\rho$ is reflexive\r\nAgain, $\\quad$ let $(a, b) \\in \\rho$\r\n$\\Rightarrow \\quad 1+a b>0$\r\n$\\Rightarrow \\quad 1+b a>0$\r\n$\\Rightarrow \\quad(b, a) \\in \\rho$\r\n$\\therefore \\rho$ is symmetric Now, $\\quad(1,-0 \\cdot 1) \\in \\rho$\r\nand $(-0 \\cdot 1,-9) \\in \\rho$\r\nbut $\\quad(1,-9) \\notin \\rho$\r\n$\\therefore \\rho$ is not transitive."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a61417cc3fb48d6542d",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92e9de3d91842a5cf7c2",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2002-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2002",
+      "title": "JEE Main 2002"
+    }
+  ],
+  "question": {
+    "text": "$I_n=\\int_0^{\\pi / 4} \\tan ^n x d x$ then $\\operatorname{Lim}_{n \\rightarrow \\infty} n\\left[I_n+I_{n-2}\\right]$ equals",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Kb2a4",
+      "text": "\n1/2\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "iudbj",
+      "text": "\n1\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "umwy8",
+      "text": "\n$\\infty$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Yq5Mc",
+      "text": "\nzero",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\int_0^{\\pi / 4} \\tan ^n x\\left(1+\\tan ^2 x\\right) d x=\\int_0^{\\pi / 4} \\tan ^n x \\sec ^2 x d x=\\int_0^1 t^n d t$ where $t=\\tan x$\n$I_n+I_{n+2}=\\frac{1}{n+1} ; \\Rightarrow \\operatorname{Lim}_{x \\rightarrow \\infty} n\\left[l_n+I_{n+2}\\right]=\\operatorname{Lim}_{x \\rightarrow \\infty} n \\cdot \\frac{1}{n+1}=\\frac{n}{n+1}=\\frac{n}{n\\left(1+\\frac{1}{n}\\right)}=1$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92e9de3d91842a5cf7c2",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2002-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2002",
+    "title": "JEE Main 2002"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

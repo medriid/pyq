@@ -1,0 +1,58 @@
+{
+  "_id": "67a2eebbc8b73881fdaea267",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d9760e",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-28T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (28 Jan Shift 1)",
+      "title": "JEE Main 2025 (28 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let M denote the set of all real matrices of order $3 \\times 3$ and let $\\mathrm{S}=\\{-3,-2,-1,1,2\\}$. Let\n$$\n\\begin{aligned}\n& \\mathrm{S}_1=\\left\\{\\mathrm{A}=\\left[a_{\\mathrm{ij}}\\right] \\in \\mathrm{M}: \\mathrm{A}=\\mathrm{A}^{\\mathrm{T}} \\text { and } a_{\\mathrm{ij}} \\in \\mathrm{~S}, \\forall \\mathrm{i}, \\mathrm{j}\\right\\}, \\\\\n& \\mathrm{S}_2=\\left\\{\\mathrm{A}=\\left[a_{\\mathrm{ij}}\\right] \\in \\mathrm{M}: \\mathrm{A}=-\\mathrm{A}^{\\mathrm{T}} \\text { and } a_{\\mathrm{ij}} \\in \\mathrm{~S}, \\forall \\mathrm{i}, \\mathrm{j}\\right\\}, \\\\\n& \\mathrm{S}_3=\\left\\{\\mathrm{A}=\\left[a_{\\mathrm{ij}}\\right] \\in \\mathrm{M}: a_{11}+a_{22}+a_{33}=0 \\text { and } a_{\\mathrm{ij}} \\in \\mathrm{~S}, \\forall \\mathrm{i}, \\mathrm{j}\\right\\} .\n\\end{aligned}\n$$\nIf $n\\left(\\mathrm{~S}_1 \\cup_2 \\mathrm{US}_3\\right)=125 \\alpha$, then $\\alpha$ equals _______",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "1613",
+  "solution": {
+    "text": "$\\left[\\begin{array}{lll}\na_{11} & a_{12} & a_{13} \\\\\na_{21} & a_{22} & a_{23} \\\\\na_{31} & a_{32} & a_{33}\n\\end{array}\\right]$\n\nNo. of elements in $\\mathrm{S}_1: \\mathrm{A}=\\mathrm{A}^{\\mathrm{T}} \\Rightarrow 5^3 \\times 5^3$\nNo. of elements in $A=-A^T \\Rightarrow 0$\nsince no. zero in 5\nNo. of elements in $\\mathrm{S}_3 \\Rightarrow$\n$\\left.\\begin{array}{c}a_{11}+a_{22}+a_{33}=0 \\Rightarrow(1,2,-3) \\Rightarrow 31 \\\\ \\text { or } \\\\ (1,1,-2) \\Rightarrow 3 \\\\ \\text { or } \\\\ (-1,-1,2) \\Rightarrow 3\\end{array}\\right\\} \\Rightarrow 12 \\times 5^6$\n\n$\\begin{aligned} & \\mathrm{n}\\left(\\mathrm{S}_1 \\cap \\mathrm{~S}_3\\right)=12 \\times 5^3 \\\\ & \\mathrm{n}\\left(\\mathrm{S}_1 \\cup \\mathrm{~S}_2 \\cup \\mathrm{~S}_3\\right)=5^6(1+12)-12 \\times 5^3 \\\\ & \\quad \\Rightarrow 5^3 \\times\\left[13 \\times 5^3-12\\right]=125 \\alpha \\\\ & \\quad \\alpha=1613\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "85586a0445334e0595063e88891f9512",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/fyl4cetxb2cDP.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/fyl4cetxb2cDP.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d9760e",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-28T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (28 Jan Shift 1)",
+    "title": "JEE Main 2025 (28 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

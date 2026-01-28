@@ -1,0 +1,63 @@
+{
+  "_id": "64a81426e0ff5a5425a858f4",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7b",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2016-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2016",
+      "title": "WBJEE 2016"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 2,
+  "question": {
+    "text": "If $\\phi(t)=\\left\\{\\begin{array}{l}1, \\text { for } 0 \\leq t    < 1 \\\\ 0, \\text { otherwise }\\end{array},\\right.$ then $\\int_{-3000}^{3000}\\left(\\sum_{r^{\\prime}=2014}^{2016} \\phi(t-r') \\phi(t-2016)\\right) d t$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "XzVDL",
+      "text": "a real number",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "zrD3K",
+      "text": "1",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "41PxJ",
+      "text": "0",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "emW7y",
+      "text": "does not exist",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\int_{-3000}^{3000}\\left(\\sum_{r'=2014}^{2016} \\phi\\left(t-r^{\\prime}\\right) \\phi(t-2016)\\right) d t$\r\n$=\\int_{-3000}^{3000}[\\phi(t-2014) \\phi(t-2016)+\\phi(t-2015) \\phi(t-2016) +\\phi(t-2016) \\phi(t-2016)] \\mathrm{dt}$\r\n$=\\int_{-3000}^{3000} \\phi(t-2016)[\\phi(t-2014)+\\phi(t-2015)$ $+\\phi(t-2016)] d t$\r\n$=\\int_{-3000}^{2016} 0 d t+\\int_{2016}^{2017} 1 \\cdot(0+0+1) dt+\\int_{2017}^{3000} 0 d t$\r\n$=0+1+0=1$ which is a real number.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7b",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2016-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2016",
+    "title": "WBJEE 2016"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

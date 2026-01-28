@@ -1,0 +1,43 @@
+{
+  "index": 224,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $I_1=\\int_0^1 e^{-x} \\cos ^2 x d x ; I_2=\\int_0^1 e^{-x^2} \\cos ^2 x d x$ and $I_3=\\int_0^1 e^{-x^3} d x$; then"
+  },
+  "options": [
+    {
+      "text": "\n$I_2>I_3>I_1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$I_3>I_1>I_2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$I_2>I_1>I_3$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$I_3>I_2>I_1$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given:\n$$\n\\begin{aligned}\n&I_1=\\int_0^1 e^{-x} \\cos ^2 x d x \\\\\n&I_2=\\int_0^1 e^{-x^2} \\cos ^2 x d x \\text { and } \\\\\n&I_3=\\int_0^1 e^{-x^3} d x \\\\\n&\\text { For } x \\in(0,1) \\\\\n&\\Rightarrow x>x^2 \\text { or }-x < -x^2 \\\\\n&\\text { and } x^2>x^3 \\text { or }-x^2 < -x^3 \\\\\n&\\therefore e^{-x^2} < e^{-x^3} \\text { and } e^{-x} < e^{-x^2} \\\\\n&\\Rightarrow e^{-x} < e^{-x^2} < e^{-x^3} \\\\\n&\\Rightarrow e^{-x^3}>e^{-x^2}>e^{-x} \\\\\n&\\Rightarrow I_3>I_2>I_1\n\\end{aligned}\n$$"
+  }
+}

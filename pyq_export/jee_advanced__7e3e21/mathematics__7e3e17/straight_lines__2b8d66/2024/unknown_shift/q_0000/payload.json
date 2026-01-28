@@ -1,0 +1,45 @@
+{
+  "index": 0,
+  "type": "multipleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2024 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602538583ba4ad9c2b8d66",
+    "chapter_name": "Straight Lines",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathbb{R}^2$ denote $\\mathbb{R} \\times \\mathbb{R}$. Let $S=\\left\\{(a, b, c): a, b, c \\in \\mathbb{R} \\text { and } a x^2+2 b x y+c y^2>0 \\text { for all }(x, y) \\in \\mathbb{R}^2-\\{(0,0)\\}\\right\\} .$\nThen which of the following statements is (are) TRUE?"
+  },
+  "options": [
+    {
+      "text": "$\\left(2, \\frac{7}{2}, 6\\right) \\in S$",
+      "is_correct": false
+    },
+    {
+      "text": "If $\\left(3, b, \\frac{1}{12}\\right) \\in S$, then $|2 b| < 1$.",
+      "is_correct": true
+    },
+    {
+      "text": "For any given $(a, b, c) \\in S$, the system of linear equations\n$\\begin{aligned}& a x+b y=1 \\\\& b x+c y=-1\\end{aligned}$ \nhas a unique solution.",
+      "is_correct": true
+    },
+    {
+      "text": "For any given $(a, b, c) \\in S$, the system of linear equations\n$\\begin{aligned}& (a+1) x+b y=0 \\\\& b x+(c+1) y=0\\end{aligned}$\nhas a unique solution.",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "C",
+    "D"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\r\n& a x^2+2 b x y+c y^2>0 \\\\\r\n& y, x \\in \\mathbb{R}-\\{(0,0)\\} \\\\\r\n& \\Rightarrow c\\left(\\frac{y}{x}\\right)^2+2 b\\left(\\frac{y}{x}\\right)+a>0 \\\\\r\n& 4 b^2-4 a c<0 \\\\\r\n& \\Rightarrow b^2<a c\r\n\\end{aligned}\\)\r\n(A) \\(\\left(2, \\frac{7}{2}, 6\\right)\\)\r\n\\(\\left(\\frac{7}{2}\\right)^2>2 \\times 6\\)\r\n\\(\\therefore\\) option A is incorrect\r\n\\(\\begin{aligned}\r\n& \\text {(B) if }\\left(3, b, \\frac{1}{12}\\right) \\in S \\\\\r\n& \\Rightarrow b^2<3 \\cdot \\frac{1}{12} \\\\\r\n& \\Rightarrow b^2<\\frac{1}{4} \\\\\r\n& \\Rightarrow 4 b^2<1 \\\\\r\n& \\Rightarrow|2 b|<1 \\text { option } B \\text { is correct }\r\n\\end{aligned}\\)\r\n\\(\\begin{aligned}\r\n& \\text {(C) } a x+b y=1 \\\\\r\n& b x+c y=-1 \\\\\r\n& D=\\left|\\begin{array}{ll}\r\na & b \\\\\r\nb & c\r\n\\end{array}\\right|=a c-b^2 \\neq 0\r\n\\end{aligned}\\)\r\n\\(\\therefore\\) unique solution option C is correct.\r\n\\(\\begin{aligned}\r\n& \\text {(D) }(a+1) \\mathrm{x}+\\mathrm{by}=0 \\\\\r\n& \\mathrm{bx}+(\\mathrm{c}+1) \\mathrm{y}=0 \\\\\r\n& D=\\left|\\begin{array}{cc}\r\n(a+1) & b \\\\\r\nb & (c+1)\r\n\\end{array}\\right| \\\\\r\n& =(a+1)(c+1)-b^2 \\\\\r\n& \\Rightarrow a c-b^2+a+c+1 \\\\\r\n& b^2<a c \\Rightarrow a c \\text { is +ve } \\\\\r\n& \\Rightarrow a \\text { and care positive then }\\left(a c-b^2\\right)+a+c+1>0\r\n\\end{aligned}\\)\r\n\\(\\therefore\\) unique solution\r\n\\(\\therefore\\) option D is correct."
+  }
+}

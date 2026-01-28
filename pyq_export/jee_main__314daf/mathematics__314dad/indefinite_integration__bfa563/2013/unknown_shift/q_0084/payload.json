@@ -1,0 +1,43 @@
+{
+  "index": 84,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (25 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the integral\n$$\n\\int \\frac{\\cos 8 x+1}{\\cot 2 x-\\tan 2 x} d x=A \\cos 8 x+k\n$$\nwhere $k$ is an arbitrary constant, then $\\mathrm{A}$ is equal to:"
+  },
+  "options": [
+    {
+      "text": "\n$-\\frac{1}{16}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n $\\frac{1}{16}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{8}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-\\frac{1}{8}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $\\mathrm{I}=\\int \\frac{\\cos 8 x+1}{\\cot 2 x-\\tan 2 x} d x$\nNow, $\\mathrm{D}^r=\\cot 2 x-\\tan 2 x=\\frac{\\cos 2 x}{\\sin 2 x}-\\frac{\\sin 2 x}{\\cos 2 x}$\n$$\n=\\frac{\\cos ^2 2 x-\\sin ^2 2 x}{\\sin 2 x \\cos 2 x}=\\frac{2 \\cos 4 x}{\\sin 4 x}\n$$\n$\\begin{aligned} \\therefore \\mathrm{I} &=\\int \\frac{2 \\cos ^2 4 x}{\\frac{2 \\cos 4 x}{\\sin 4 x}} d x=\\int \\frac{2 \\cos ^2 4 x \\cdot \\sin 4 x}{2 \\cos 4 x} d x \\\\ &=\\frac{1}{2} \\int \\sin 8 x d x=-\\frac{1}{2} \\frac{\\cos 8 x}{8}+k \\\\ &=-\\frac{1}{16} \\cdot \\cos 8 x+k \\\\ & \\text { Now },-\\frac{1}{16} \\cdot \\cos 8 x+k=\\mathrm{A} \\cos 8 x+k \\\\ & \\Rightarrow \\mathrm{A}=-\\frac{1}{16} \\end{aligned}$"
+  }
+}

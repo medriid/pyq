@@ -1,0 +1,61 @@
+{
+  "_id": "6151e8633f9c8a2e6319ee5a",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "10",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "If there are <math><mi>n</mi></math> number of seats and <math><mi>m</mi></math> number of people have to be seated, then the number of possible ways to do this is&nbsp;<math><mo>(here,&nbsp;</mo><mi>m</mi><mo>&lt;</mo><mi>n</mi><mo>)</mo></math>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "RCsRz",
+      "text": "<math><msup><mrow><mi>&nbsp;</mi></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>P</mi></mrow><mrow><mi>m</mi></mrow></msub></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "raAaH",
+      "text": "<math><msup><mrow><mi> </mi></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>m</mi></mrow></msub></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "WJXBh",
+      "text": "<math><msup><mrow><mi> </mi></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>×</mo><mo>(</mo><mi>m</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>!</mo></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "M5g9U",
+      "text": "<math><msup><mrow><mi> </mi></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><msub><mrow><mi>P</mi></mrow><mrow><mi>m</mi><mo>-</mo><mn>1</mn></mrow></msub></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<math><mo>∵</mo></math> Total number of seats<math><mo>=</mo><mi>n</mi></math><br /><br />and number of people<math><mo>=</mo><mi>m</mi></math><br /><br />1<sup>st</sup> person can be seated in <math><mi>n</mi></math> ways<br /><br />2<sup>nd</sup> person can be seated in <math><mfenced separators=\"|\"><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced></math> ways<br /><br /><math><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mo>⋯</mo><mo>⋯</mo><mo>⋯</mo><mo>⋯</mo><mo>⋯</mo></math><br /><br /><math><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mo>⋯</mo><mo>⋯</mo><mo>⋯</mo><mo>⋯</mo><mo>⋯</mo></math><br /><br /><math><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mo>⋯</mo><mo>⋯</mo><mo>⋯</mo><mo>⋯</mo></math><br /><br /><math><mi>m</mi></math><span style=\"display: none;\">&nbsp;</span><sup>th</sup><span style=\"display: none;\">&nbsp;</span> person can be seated in <math><mfenced separators=\"|\"><mrow><mi>n</mi><mo>-</mo><mi>m</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mi>w</mi><mi>a</mi><mi>y</mi><mi>s</mi></math><br /><br /><math><mo>∴</mo></math> Total number of ways<br /><br /><math><mo>=</mo><mi>n</mi><mfenced separators=\"|\"><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mfenced separators=\"|\"><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></mfenced><mo>…</mo><mfenced separators=\"|\"><mrow><mi>n</mi><mo>-</mo><mi>m</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>=</mo><msub><mrow><msup><mrow><mi>&nbsp;</mi></mrow><mrow><mi>n</mi></mrow></msup><mi>P</mi></mrow><mrow><mi>m</mi></mrow></msub></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

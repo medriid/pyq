@@ -1,0 +1,43 @@
+{
+  "index": 57,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2021 (22 Jul Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254533dd7c0008b65699",
+    "chapter_name": "Mathematical Reasoning",
+    "year": "2021",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Which of the following Boolean expressions is not a tautology?"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>p</mi><mo>&#8658;</mo><mi>q</mi><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>&#8658;</mo><mi>p</mi><mo>)</mo></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>q</mi><mo>&#8658;</mo><mi>p</mi><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>&#8658;</mo><mi>p</mi><mo>)</mo></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>p</mi><mo>&#8658;</mo><mo>~</mo><mi>q</mi><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>&#8658;</mo><mi>p</mi><mo>)</mo></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>~</mo><mi>p</mi><mo>&#8658;</mo><mi>q</mi><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>&#8658;</mo><mi>p</mi><mo>)</mo></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mn>1</mn></mfenced><mo>&#160;</mo><mo>(</mo><mi>p</mi><mo>&#8658;</mo><mi>q</mi><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>&#8658;</mo><mi>p</mi><mo>)</mo></math></p><p>By applying&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&#8658;</mo><mi>b</mi><mo>&#8801;</mo><mo>~</mo><mi>a</mi><mo>&#8744;</mo><mi>b</mi><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mo>~</mo><mfenced><mrow><mo>~</mo><mi>a</mi></mrow></mfenced><mo>=</mo><mi>a</mi><mo>,</mo></math>&nbsp;we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mo>~</mo><mi>p</mi><mo>&#8744;</mo><mi>q</mi><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mi>q</mi><mo>&#8744;</mo><mi>p</mi><mo>)</mo></math></p><p>Since, the operation disjunction is commutative, hence, we have</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mo>~</mo><mi>p</mi><mo>&#8744;</mo><mi>q</mi><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mi>p</mi><mo>&#8744;</mo><mi>q</mi><mo>)</mo></math></p><p>Now, applying the distributive law i.e. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&#8744;</mo><mfenced><mrow><mi>b</mi><mo>&#8744;</mo><mi>c</mi></mrow></mfenced><mo>&#8801;</mo><mfenced><mrow><mi>a</mi><mo>&#8744;</mo><mi>b</mi></mrow></mfenced><mo>&#8744;</mo><mfenced><mrow><mi>a</mi><mo>&#8744;</mo><mi>c</mi></mrow></mfenced><mo>,</mo></math>&nbsp;we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mo>~</mo><mi>p</mi><mo>&#8744;</mo><mi>p</mi><mo>)</mo><mo>&#8744;</mo><mi>q</mi></math></p><p>Also, we know that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>~</mo><mi>a</mi><mo>&#8744;</mo><mi>a</mi><mo>&#8801;</mo><mi>t</mi><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mi>t</mi><mo>&#8744;</mo><mi>a</mi><mo>&#8801;</mo><mi>t</mi><mo>,</mo></math>&nbsp;where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>&nbsp;represents tautology.</p><p>Thus, we have</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>t</mi><mo>&#8744;</mo><mi>q</mi><mo>=</mo><mi>t</mi><mo>.</mo></math></p><p>Hence, the option&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>A</mi></mfenced></math>&nbsp;is a tautology.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mn>2</mn></mfenced><mo>&#160;</mo><mo>(</mo><mi>q</mi><mo>&#8658;</mo><mi>p</mi><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>&#8658;</mo><mi>p</mi><mo>)</mo></math></p><p>Again, using the same definitions, we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>&#8744;</mo><mi>p</mi><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mi>q</mi><mo>&#8744;</mo><mi>p</mi><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>&#8744;</mo><mi>q</mi><mo>)</mo><mo>&#8744;</mo><mi>p</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>t</mi><mo>&#8744;</mo><mi>p</mi><mo>=</mo><mi>t</mi><mo>.</mo></math></p><p>Hence, the option&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>B</mi></mfenced></math>&nbsp;is also a tautology.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mn>3</mn></mfenced><mo>&#160;</mo><mo>(</mo><mi>p</mi><mo>&#8658;</mo><mo>~</mo><mi>q</mi><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>&#8658;</mo><mi>p</mi><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mo>~</mo><mi>p</mi><mo>&#8744;</mo><mo>~</mo><mi>q</mi><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mi>q</mi><mo>&#8744;</mo><mi>p</mi><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mo>~</mo><mi>p</mi><mo>&#8744;</mo><mi>p</mi><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>&#8744;</mo><mi>q</mi><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>t</mi><mo>&#8744;</mo><mi>t</mi><mo>=</mo><mi>t</mi><mo>.</mo></math></p><p>Hence, the option&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>C</mi></mfenced></math>&nbsp;is also a tautology.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mn>4</mn></mfenced><mo>&#160;</mo><mo>(</mo><mo>~</mo><mi>p</mi><mo>&#8658;</mo><mi>q</mi><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>&#8658;</mo><mi>p</mi><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mi>p</mi><mo>&#8744;</mo><mi>q</mi><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mi>q</mi><mo>&#8744;</mo><mi>p</mi><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mi>p</mi><mo>&#8744;</mo><mi>q</mi><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mi>p</mi><mo>&#8744;</mo><mi>q</mi><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>p</mi><mo>&#8744;</mo><mi>q</mi><mo>.</mo></math></p><p>Which is not a tautology.</p>"
+  }
+}

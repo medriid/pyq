@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let for $f(x)=7 \\tan ^8 x+7 \\tan ^6 x-3 \\tan ^4 x-3 \\tan ^2 x, \\quad \\mathrm{I}_1=\\int_0^{\\pi / 4} f(x) \\mathrm{d} x$ and $\\mathrm{I}_2=\\int_0^{\\pi / 4} x f(x) \\mathrm{d} x$. Then $7 \\mathrm{I}_1+12 \\mathrm{I}_2$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$2$",
+      "is_correct": false
+    },
+    {
+      "text": "$1$",
+      "is_correct": true
+    },
+    {
+      "text": "$2 \\pi$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\pi$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} f(x) & =7 \\tan ^8 x+7 \\tan ^6 x-3 \\tan ^4 x-3 \\tan ^2 x \\\\ & =7 \\tan ^6 x\\left(1+\\tan ^2 x\\right)-3 \\tan ^2 x\\left(1+\\tan ^2 x\\right) \\\\ & =\\left(7 \\tan ^6 x-3 \\tan ^2 x\\right)\\left(1+\\tan ^2 x\\right) \\\\ & =\\left(7 \\tan ^6 x-3 \\tan ^2 x\\right) \\sec ^2 x \\\\ l_1= & \\int_0^{\\frac{\\pi}{4}} f(x) d x=\\int_0^{\\frac{\\pi}{4}}\\left(7 \\tan ^6 x-3 \\tan ^2 x\\right) \\sec ^2 x d x \\\\ & =\\left.\\left(\\frac{7 \\tan ^7 x}{7}-\\frac{3 \\tan ^3 x}{3}\\right)\\right|_0 ^{\\frac{\\pi}{4}}=1-1=0\\end{aligned}$\n$\\begin{aligned}\nI_2= & \\int_0^{\\frac{\\pi}{4}} x f(x) d x=\\int_0^{\\frac{\\pi}{4}} x\\left(7 \\tan ^6 x-3 \\tan ^2 x\\right) \\sec ^2 x d x \\\\\n& =\\left.x\\left(\\tan ^7 x-\\tan ^3 x\\right)\\right|_0 ^{\\frac{\\pi}{4}}-\\int_0^{\\frac{\\pi}{4}} 1 \\cdot\\left(\\tan ^7 x-\\tan ^3 x\\right) d x \\\\\n& =0-\\int_0^{\\frac{\\pi}{4}} \\tan ^3 x\\left(\\tan ^2 x-1\\right)\\left(\\tan ^2 x+1\\right) d x \\\\\n& =\\int_0^{\\frac{\\pi}{4}}\\left(\\tan ^3 x-\\tan ^5 x\\right) \\sec ^2 x d x=\\frac{\\tan ^4 x}{4}-\\left.\\frac{\\tan ^6 x}{6}\\right|_0 ^{\\frac{\\pi}{4}} \\\\\n& =\\frac{1}{12}\n\\end{aligned}$\n\nHence $7 I_1+12 I_2=1$"
+  }
+}

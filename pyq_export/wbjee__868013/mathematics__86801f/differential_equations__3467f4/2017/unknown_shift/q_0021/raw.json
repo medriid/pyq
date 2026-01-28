@@ -1,0 +1,63 @@
+{
+  "_id": "64a81434e0ff5a5425a85977",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7c",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2017-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2017",
+      "title": "WBJEE 2017"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Solution of $(x+y)^{2} \\frac{d y}{d x}=a^{2}$ ('a' being a constant) is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "iOqM4",
+      "text": "$\\frac{(x+y)}{a}=\\tan \\frac{y+C}{a}, C$ is an arbitrary constant",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "DsBmE",
+      "text": "$x y=a \\tan C x, C$ is an arbitrary constant",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Y7waB",
+      "text": "$\\frac{x}{a}=\\tan \\frac{y}{C}, C$ is an arbitrary constant",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "JH2Gj",
+      "text": "$x y=\\tan (x+C), C$ is an arbitrary constant",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have, $(x+y)^{2} \\frac{d y}{d x}=a^{2}$\r\nLet $x+y=v$\r\n$\\therefore$\r\n$1+\\frac{d y}{d x}=\\frac{d v}{d x}$\r\n$\\frac{d y}{d x}=\\frac{d y}{d x}-1$\r\n$v^{2}\\left(\\frac{d v}{d x}-1\\right)=a^{2}$\r\n$\\Rightarrow$\r\n$v^{2} \\frac{d v}{d x}=v^{2}+a^{2}$\r\n$\\quad \\frac{d v}{d x}=\\frac{v^{2}+a^{2}}{v^{2}}$\r\n$\\Rightarrow \\quad \\frac{v^{2}}{v^{2}+d^{2}} d v=d x$\r\nOn integrating both sides, we get $\\int \\frac{v^{2}}{v^{2}+a^{2}} d v=\\int d x$\r\n$\\int\\left(1-\\frac{a^{2}}{v^{2}+a^{2}}\\right) \\mathrm{d} v=x+C^{\\prime}$\r\n$\\Rightarrow \\quad v-\\frac{a^{2}}{a} \\tan ^{-1} \\frac{v}{a}=x+C^{\\prime}$\r\n$\\Rightarrow \\quad x+y-a \\tan ^{-1} \\frac{x+y}{a}=x+C^{\\prime}$\r\n$\\Rightarrow \\quad y=a \\tan ^{-1} \\frac{x+y}{a}+C^{\\prime}$\r\n$=\\frac{y-C^{\\prime}}{a}=\\tan ^{-1} \\frac{x+y}{a}$\r\n$\\Rightarrow \\quad\\left(\\frac{x+y}{a}\\right)=\\tan \\left(\\frac{y+C}{a}\\right)$\r\nwhere $-C^{\\prime}=C$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7c",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2017-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2017",
+    "title": "WBJEE 2017"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

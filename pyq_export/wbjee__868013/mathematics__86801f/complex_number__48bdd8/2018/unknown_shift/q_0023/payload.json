@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc9a79d891b2548bdd8",
+    "chapter_name": "Complex Number",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $z_{1}$ and $z_{2}$ be complex numbers such that $z_{1} \\neq z_{2}$ and $\\left|z_{1}\\right|=\\left|z_{2}\\right| .$ If $\\operatorname{Re}\\left(z_{1}\\right)>0$ and\r\n$\\operatorname{Im}\\left(z_{2}\\right)    < 0,$ then $\\frac{z_{1}+z_{2}}{z_{1}-z_{2}}$ is"
+  },
+  "options": [
+    {
+      "text": "one",
+      "is_correct": false
+    },
+    {
+      "text": "real and positive",
+      "is_correct": false
+    },
+    {
+      "text": "real and negative",
+      "is_correct": false
+    },
+    {
+      "text": "purely imaginary",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $z_{1}=x_{1}+i y_{1}$ and $z_{2}=x_{2}+i y_{2}$\r\n$\\operatorname{Re}\\left(z_{1}\\right)>0 \\Rightarrow x_{1}>0$\r\n$\\begin{array}{lr}\\text { and } & \\operatorname{Im}\\left(z_{2}\\right)    < 0 \\\\ \\Rightarrow & y_{2} < 0 \\\\ \\text { Given, } & \\left|z_{1}\\right|=\\left|z_{2}\\right|\\end{array}$\r\n$\\Rightarrow \\quad\\left|z_{1}\\right|^{2}=\\left|z_{2}^{2}\\right|$\r\n$\\Rightarrow \\quad z_{1} \\bar{z}_{1}=z_{2} \\bar{z}_{2}$\r\nNow, $\\left(\\frac{z_{1}+z_{2}}{z_{1}-z_{2}}\\right)+\\left(\\frac{z_{1}+z_{2}}{z_{1}-z_{2}}\\right)$\r\n$=\\left(\\frac{z_{1}+z_{2}}{z_{1}-z_{2}}\\right)+\\left(\\frac{\\bar{z}_{1}+\\bar{z}_{2}}{\\bar{z}_{1}-\\bar{z}_{2}}\\right)$\r\n$=\\frac{z_{1} \\bar{z}_{1}+z_{2} \\bar{z}_{1}-z_{1} \\bar{z}_{2}-z_{2} \\bar{z}_{2}+z_{1} \\bar{z}_{1}+z_{1} \\bar{z}_{2}-z_{2} \\bar{z}_{1}+z_{2} \\bar{z}_{2}}{\\left(z_{1}-z_{2}\\right)\\left(\\bar{z}_{1}-\\bar{z}_{2}\\right)}$\r\n$=\\frac{2\\left(\\left|z_{1}\\right|^{2}-\\left|z_{2}\\right|^{2}\\right)}{\\left(z_{1}-z_{2}\\right)\\left(\\bar{z}_{1}-\\bar{z}_{2}\\right)}=0 \\quad\\left(\\because\\left|z_{1}\\right|^{2}=\\left|z_{2}\\right|^{2}\\right)$\r\n$=\\frac{z_{1}+z_{2}}{z_{1}-z_{2}}$ is purely imaginary."
+  }
+}

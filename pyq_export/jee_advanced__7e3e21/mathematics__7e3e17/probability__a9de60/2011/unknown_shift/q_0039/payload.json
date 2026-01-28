@@ -1,0 +1,43 @@
+{
+  "index": 39,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2011 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025732b001edb3fa9de60",
+    "chapter_name": "Probability",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nLet $U_1$ and $U_2$ be two urns such that $U_1$ contains 3 white and 2 red balls and $U_2$ contains only 1 white ball. A fair coin is tossed. If head appears then 1 ball is drawn at random from $U_1$ and put into $U_2$. However, if tail appears then 2 balls are drawn at random from $U_1$ and put into $U_2$. Now, 1 ball is drawn at random from $U_2$.<strong>Question:</strong>\nGiven that the drawn ball from $U_2$ is white, the probability that head appeared on the coin is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{17}{23}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{11}{23}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{15}{23}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{12}{23}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$P$ (head appeared/white from $V_2$ )\n$$\n\\begin{aligned}\n& =P(H) \\cdot \\frac{\\left\\{\\frac{{ }^3 C_1}{{ }^5 C_1} \\times \\frac{{ }^2 C_1}{{ }^2 C_1}+\\frac{{ }^2 C_1}{{ }^5 C_1} \\times \\frac{{ }^1 C_1}{{ }^2 C_1}\\right\\}}{\\frac{23}{30}} \\\\\n& =\\frac{1}{2} \\frac{\\left\\{\\frac{3}{5} \\times 1+\\frac{2}{5} \\times \\frac{1}{2}\\right\\}}{\\frac{23}{30}}=\\frac{12}{23} \\\\\n&\n\\end{aligned}\n$$"
+  }
+}

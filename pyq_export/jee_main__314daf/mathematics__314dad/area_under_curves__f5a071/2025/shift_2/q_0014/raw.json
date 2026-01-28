@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eea0c8b73881fdaea184",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d9760b",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-23T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (23 Jan Shift 2)",
+      "title": "JEE Main 2025 (23 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If the area of the region $\\left\\{(x, y):-1 \\leq x \\leq 1,0 \\leq y \\leq a+\\mathrm{e}^{|x|}-\\mathrm{e}^{-x}, \\mathrm{a}\\gt0\\right\\}$ is $\\frac{\\mathrm{e}^2+8 \\mathrm{e}+1}{\\mathrm{e}}$, then the value of $a$ is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "cYyTb",
+      "text": "8",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "lK3p3",
+      "text": "7",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "BxIm8",
+      "text": "5",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "BCaea",
+      "text": "6",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & y \\in\\left[0, a+e^{|x|}-e^{-x}\\right] \\\\ & \\text { (i) If } x \\geq 0 \\Rightarrow y \\in\\left(0, a+e^x-\\frac{1}{e^x}\\right) \\\\ & \\text { if } x < 0 \\Rightarrow y \\in\\left(0, a+e^{-x}-e^{-x}\\right) \\\\ & \\Rightarrow y \\in(0, a)\\end{aligned}$<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/ZoZSGZugqZszFXM36Oso_O6o_L_CFsvvtognCDjaHrw.original.fullsize.png\"><br>\n$\\begin{aligned} & \\text { Area }=(a)+\\int_0^1\\left(a+e^x-e^{-x}\\right) d x=\\frac{e^2+8 e+1}{e} \\\\ & =a+\\left.\\left(a x+e^x+e^{-x}\\right)\\right|_0 ^1=e+8+\\frac{1}{e} \\\\ & =a+\\left(a+e+\\frac{1}{e}-2\\right)=e+\\frac{1}{e}+8 \\\\ & \\Rightarrow 2 a-2=8 \\Rightarrow a=5\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "a249f15b723d4f97919fd6376fdde3ba",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/P1xns7WLBa73w.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/P1xns7WLBa73w.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d9760b",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-23T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (23 Jan Shift 2)",
+    "title": "JEE Main 2025 (23 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 26,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d00146ed0ebdd74e3ce",
+    "chapter_name": "Sets and Relations",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "We define a binary relation - on the set of all $3 \\times 3$ real matrices as $A \\sim B,$ if and only if there exist invertible matrices $P$ and $Q$ such that $B=P A Q^{-1} .$ The binary relation $\\sim$ is"
+  },
+  "options": [
+    {
+      "text": "neither reflexive nor symmetric",
+      "is_correct": false
+    },
+    {
+      "text": "reflexive and symmetric but not transitive",
+      "is_correct": false
+    },
+    {
+      "text": "symmetric and transitive but not reflexive",
+      "is_correct": false
+    },
+    {
+      "text": "an equivalence relation",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let the relation defined as $R=\\left\\{(A, B): B=P A Q^{-1}\\right\\}$\r\nFor reflexive\r\n$A=I A I^{-1}$\r\n$\\Rightarrow(A, A) \\in R$\r\n$\\Rightarrow R$ is reflexive\r\nFor symmetric\r\n$\\operatorname{Let}(A, B) \\in R$\r\n$\\therefore B=P A Q^{-1}$\r\n$\\Rightarrow \\quad B Q=P A\\left(Q^{-1} Q\\right)$\r\n$\\Rightarrow \\quad B Q=P A$\r\n$\\Rightarrow \\quad P^{-1}(B Q)=P^{-1} P(A)$\r\n$\\Rightarrow \\quad P^{-1} B Q=A$\r\n$\\Rightarrow(B, A) \\in R$\r\n$\\Rightarrow R$ is symmetric.\r\nFor transitive Let $(A, B) \\in R,(B, C) \\in R$\r\nThen, $\\quad A=P B Q^{-1}$ and $B=R C S^{-1}$\r\n$\\Rightarrow \\quad A=P R C S^{-1} Q^{-1}$\r\n$\\begin{array}{ll}\\Rightarrow & A=(P R) C(Q S)^{-1} \\\\ \\Rightarrow & (A, C) \\in R\\end{array}$\r\n$\\Rightarrow R$ is transitive. Hence, $R$ is an equivalence relation."
+  }
+}

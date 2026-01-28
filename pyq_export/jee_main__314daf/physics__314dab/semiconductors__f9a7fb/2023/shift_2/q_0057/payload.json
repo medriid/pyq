@@ -1,0 +1,43 @@
+{
+  "index": 57,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2023 (30 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602457307cfc9adff9a7fb",
+    "chapter_name": "Semiconductors",
+    "year": "2023",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "<p>The output <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> for the inputs <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> of circuit is given by</p><p><img alt=\"\" src=\"assets\\qt0057_75561f380901.png\" style=\"width: 400px; height: 134px;\" /></p><p>Truth table of the shown circuit is :</p>"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"[\" close=\"]\"><mtable><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"[\" close=\"]\"><mtable><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"[\" close=\"]\"><mtable><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"[\" close=\"]\"><mtable><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></mfenced></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p><img alt=\"\" src=\"assets\\qt0057_75561f380901.png\" style=\"width: 400px; height: 134px;\" /></p><p>Output using DeMorgan&#39;s theorem can be written as,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><menclose notation=\"top\"><mfenced><mrow><menclose notation=\"top\"><mfenced><mrow><mi>A</mi><mo>&#183;</mo><menclose notation=\"top\"><mi>A</mi><mo>&#183;</mo><mi>B</mi></menclose></mrow></mfenced></menclose><mo>&#183;</mo><menclose notation=\"top\"><mfenced><mrow><menclose notation=\"top\"><mi>A</mi><mo>&#183;</mo><mi>B</mi></menclose><mo>&#183;</mo><mi>B</mi></mrow></mfenced></menclose></mrow></mfenced></menclose><mspace linebreak=\"newline\"></mspace><mo>=</mo><menclose notation=\"top\"><menclose notation=\"top\"><mfenced><mrow><mi>A</mi><mo>&#183;</mo><menclose notation=\"top\"><mi>A</mi><mo>&#183;</mo><mi>B</mi></menclose></mrow></mfenced></menclose></menclose><mo>+</mo><menclose notation=\"top\"><menclose notation=\"top\"><mfenced><mrow><menclose notation=\"top\"><mi>A</mi><mo>&#183;</mo><mi>B</mi></menclose><mo>&#183;</mo><mi>B</mi></mrow></mfenced></menclose></menclose><mspace linebreak=\"newline\"></mspace><mo>=</mo><mfenced><mrow><mi>A</mi><mo>&#183;</mo><menclose notation=\"top\"><mi>A</mi><mo>&#183;</mo><mi>B</mi></menclose></mrow></mfenced><mo>+</mo><mfenced><mrow><menclose notation=\"top\"><mi>A</mi><mo>&#183;</mo><mi>B</mi></menclose><mo>&#183;</mo><mi>B</mi></mrow></mfenced><mspace linebreak=\"newline\"></mspace><mo>=</mo><mfenced><mrow><mi>A</mi><mo>&#183;</mo><mfenced><mrow><menclose notation=\"top\"><mi>A</mi></menclose><mo>+</mo><menclose notation=\"top\"><mi>B</mi></menclose></mrow></mfenced></mrow></mfenced><mo>+</mo><mfenced><mrow><mfenced><mrow><menclose notation=\"top\"><mi>A</mi></menclose><mo>+</mo><menclose notation=\"top\"><mi>B</mi></menclose></mrow></mfenced><mo>&#183;</mo><mi>B</mi></mrow></mfenced><mspace linebreak=\"newline\"></mspace><mo>=</mo><mi>A</mi><mo>&#183;</mo><menclose notation=\"top\"><mi>A</mi></menclose><mo>+</mo><mi>A</mi><mo>&#183;</mo><menclose notation=\"top\"><mi>B</mi></menclose><mo>+</mo><menclose notation=\"top\"><mi>A</mi></menclose><mo>&#183;</mo><mi>B</mi><mo>+</mo><menclose notation=\"top\"><mi>B</mi></menclose><mo>&#183;</mo><mi>B</mi><mspace linebreak=\"newline\"></mspace><mo>=</mo><mfenced><mrow><mi>A</mi><mo>+</mo><mi>B</mi></mrow></mfenced><mo>&#183;</mo><mfenced><mrow><menclose notation=\"top\"><mi>A</mi></menclose><mo>+</mo><menclose notation=\"top\"><mi>B</mi></menclose></mrow></mfenced></math></p><p>Which represents XOR gate.</p><p>Therefore, required truth table will be</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"[\" close=\"]\"><mtable><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></mfenced></math></p>"
+  }
+}

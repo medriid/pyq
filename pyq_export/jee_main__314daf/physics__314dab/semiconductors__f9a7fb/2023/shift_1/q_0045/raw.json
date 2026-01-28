@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a70417cc3fb48d68550",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "648b5a3a0d9d0b909f7b6492",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2023-04-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (11 Apr Shift 1)",
+      "title": "JEE Main 2023 (11 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "<p>The logic performed by the circuit shown in figure is equivalent to</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/895d8e5b-1950-462b-9fda-00091e45daac-image.png\" style=\"width: 400px; height: 126px;\" /></p>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "FlVTv",
+      "text": "AND",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "IuqKq",
+      "text": "NOR",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Z5jwz",
+      "text": "OR",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "XgxL9",
+      "text": "NAND",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>All the gates used in the given configuration are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NOR</mi></math>&nbsp;gates. Thus, the output can be found as follows-</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnalign=\"right center left\" columnspacing=\"0px\"><mtr><mtd><mi>Y</mi></mtd><mtd><mo>=</mo></mtd><mtd><menclose notation=\"top\"><mfenced><mrow><menclose notation=\"top\"><mi>a</mi></menclose><mo>+</mo><menclose notation=\"top\"><mi>b</mi></menclose></mrow></mfenced></menclose></mtd></mtr><mtr><mtd></mtd><mtd><mo>=</mo></mtd><mtd><menclose notation=\"top\"><mfenced><menclose notation=\"top\"><mi>a</mi><mi>b</mi></menclose></mfenced></menclose></mtd></mtr><mtr><mtd></mtd><mtd><mo>=</mo></mtd><mtd><mi>a</mi><mi>b</mi></mtd></mtr></mtable></math></p><p>The output of the given configuration can also be verified by the following truth table:</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\t<tbody>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Output</mi><mo>&#160;</mo><mi>from</mi><mo>&#160;</mo><mi>first</mi><mo>&#160;</mo><mi>gate</mi></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Output</mi><mo>&#160;</mo><mi>from</mi><mo>&#160;</mo><mi>second</mi><mo>&#160;</mo><mi>gate</mi></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math></td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t</tr>\t</tbody></table><p>The calculation and the truth table clearly shows that the configuration represents&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AND</mi></math>&nbsp;gate.</p>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "648b5a3a0d9d0b909f7b6492",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2023-04-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (11 Apr Shift 1)",
+    "title": "JEE Main 2023 (11 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

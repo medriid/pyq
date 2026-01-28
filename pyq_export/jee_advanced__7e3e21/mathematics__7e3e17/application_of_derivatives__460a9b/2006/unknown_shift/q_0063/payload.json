@@ -1,0 +1,44 @@
+{
+  "index": 63,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2006",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255d3df243724d460a9b",
+    "chapter_name": "Application of Derivatives",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<img src=\"assets\\qt0063_9abddfdde052.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\n$g(x)$ has local maxima at $x=1+\\log _e 2$ and local minima at $x=e$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$f(x)$ has local maxima at $x=1$, and local minima at $x=2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$g(x)$ has no local minima\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$f(x)$ has no local maxima",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "B"
+  ],
+  "solution": {
+    "text": "Here, $f(x)=\\left\\{\\begin{array}{cc}e^x, & 0 \\leq x \\leq 1 \\\\ 2-e^{x-1}, & 1 < x \\leq 2 \\\\ x-e, & 2 < x \\leq 3\\end{array}\\right.$ and $\\quad g(x)=\\int_0^x f(t) d t$\n$$\n\\Rightarrow \\quad g^{\\prime}(x)=f(x)\n$$\nwhere, $g^{\\prime}(x)=0$\n$\\Rightarrow \\quad x=1+\\log _e 2$\nand $\\quad x=e$.\nAlso, $\\quad g(x)=\\left\\{\\begin{array}{cc}-e^{x-1}, & 1 < x \\leq 2 \\\\ 1, & 2 < x \\leq 3\\end{array}\\right.$\n$g\\left(1+\\log _e 2\\right)=-e^{\\log _e 2} < 0$, hence at $x=1+\\log _e 2, g(x)$ has a local maximum.\nAlso, $g(e)=1>0$, hence at $x=e, g(x)$ has a local minima.\n$\\because f(x)$ is discontinuous at $x=1$, then we get\nLocal maxima at $x=1$ and local minima at $x=2$."
+  }
+}

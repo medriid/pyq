@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c82a7939c5791425117",
+    "chapter_name": "Thermodynamics",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The initial pressure and volume of a given mass of an ideal gas $\\left(\\right.$ with $\\frac{C_{p}}{C_{V}}=\\gamma),$ taken in a cylinder fitted with a piston, are $p_{0}$ and $V_{0}$ respectively. At this stage the gas has the same temperature as that of the surrounding medium which is $T_{0}$. It is adiabatically compressed to a volume equal to $\\frac{V_{0}}{2}$ Subsequently the gas is allowed to come to thermal equilibrium with the surroundings. What is the heat released to the surrounding?"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "$(2^{\\gamma-1}-1) \\frac{p_{0} V_{0}}{\\gamma-1}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\gamma {p_{0}} {V_{0}} ln2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{{p_{0}} V_{0}}{2(\\gamma-1)}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "The equation of state for an ideal gas undergoing adiabatic process is given as,\r\n$$\r\nT V^{\\gamma-1}=\\text { constant }\r\n$$\r\nLet the temperature after adiabatic compression as given in the question be $T$ then,\r\n$$\r\nT_{0} V^{\\gamma-1}=T\\left(\\frac{V_{0}}{2}\\right)^{\\gamma-1}\r\n$$\r\n$\\Rightarrow \\quad T=T_{0} 2^{\\gamma-1}$\r\nNow, heat released at volume $\\frac{V_{0}}{2}$ to achieve\r\ntemperature $T_{0}$ The net heat released can be determined by the\r\nequation.\r\n$$\r\n\\begin{aligned}\r\n\\Delta Q &=\\mu C_{V} \\Delta T \\\\\r\n&=\\mu \\times \\frac{R}{\\gamma-1} \\quad\\left(T_{0} 2^{\\gamma-1}-T_{0}\\right) \\\\\r\n&=\\frac{\\mu R T_{0}}{\\gamma-1}\\left(2^{\\gamma-1}-1\\right)\\left(\\because \\mu T_{0} R=p_{0} V_{0}\\right)\r\n\\end{aligned}\r\n$$\r\n$\\therefore$ Heat released $=\\frac{p_{0} V_{0}}{\\gamma-1}\\left(2^{\\gamma-1}-1\\right)$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025479bcff3fc153d948d",
+    "chapter_name": "Statistics",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If the mean of the following probability distribution of a random variable $\\mathrm{X}$ :\n$\\begin{array}{|c|c|c|c|c|c|}\n\\hline \\mathrm{X} & 0 & 2 & 4 & 6 & 8 \\\\\n\\hline \\mathrm{P}(\\mathrm{X}) & a & 2 a & a+b & 2 b & 3 b \\\\\n\\hline\n\\end{array}$\nis $\\frac{46}{9}$, then the variance of the distribution is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{173}{27}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{566}{81}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{151}{27}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{581}{81}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\sum P_i=1 \\\\ & a+2 a+a+b+2 b+3 b=1\\end{aligned}$\n$4 a+6 b=1$ ...(I)\n$\\mathrm{E}(\\mathrm{x})=$ mean $=\\frac{46}{9}$\n$\\begin{aligned} & \\sum P_i X_i=\\frac{46}{9} \\Rightarrow 4 a+4 a+4 b+12 b+24 b=\\frac{46}{9} \\\\ & 8 a+40 b=\\frac{46}{9}\\end{aligned}$\n$4 a+20 b=\\frac{23}{9}$ ...(II)\nSubtract (I) from (II) we get\n$\\begin{aligned}\n& \\mathrm{b}=\\frac{1}{9} \\& \\mathrm{a}=\\frac{1}{12} \\\\\n& \\text { Variance }=\\mathrm{E}\\left(\\mathrm{x}_{\\mathrm{i}}{ }^2\\right)-\\mathrm{E}\\left(\\mathrm{x}_{\\mathrm{i}}\\right)^2 \\\\\n& \\mathrm{E}\\left(\\mathrm{x}_{\\mathrm{i}}\\right)^2=0^2 \\times 9^2+2^2 \\times 2 \\mathrm{a}+4^2(\\mathrm{a}+\\mathrm{b})+6^2(2 \\mathrm{~b})+8^2(3 \\mathrm{~b}) \\\\\n& =24 \\mathrm{a}+280 \\mathrm{~b}\n\\end{aligned}$<br />Put $\\mathrm{a}=\\frac{1}{12} \\quad \\mathrm{~b}=\\frac{1}{9}$\n$\\begin{aligned}\n& \\mathrm{E}\\left(\\mathrm{x}_{\\mathrm{i}}^2\\right)=2+\\frac{280}{9}=\\frac{298}{9} \\\\\n& \\therefore \\sigma^2=\\mathrm{E}\\left(\\mathrm{x}_{\\mathrm{i}}^2\\right)-\\mathrm{E}\\left(\\mathrm{x}_{\\mathrm{i}}\\right)^2 \\\\\n& =\\frac{298}{9}-\\left(\\frac{46}{9}\\right)^2 \\\\\n& \\sigma^2=\\frac{298}{9}-\\frac{2116}{81} \\\\\n& =\\frac{566}{81}\n\\end{aligned}$"
+  }
+}

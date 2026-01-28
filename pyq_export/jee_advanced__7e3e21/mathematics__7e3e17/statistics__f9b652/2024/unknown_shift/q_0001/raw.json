@@ -1,0 +1,58 @@
+{
+  "_id": "66965dd0d603121f43a3f00b",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "66965789b31faf98fda8fef9",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Paper 1)",
+      "title": "JEE Advanced 2024 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $X$ be a random variable, and let $P(X=x)$ denote the probability that $X$ takes the value $x$. Suppose that the points $(x, P(X=x)), x=0,1,2,3,4$, lie on a fixed straight line in the $x y$-plane, and $P(X=x)=0$ for all $x \\in \\mathbb{R}-\\{0,1,2,3,4\\}$. If the mean of $X$ is $\\frac{5}{2}$, and the variance of $X$ is $\\alpha$, then the value of $24 \\alpha$ is ___",
+    "image": null
+  },
+  "options": [],
+  "correctValue": 42,
+  "solution": {
+    "text": "Let equation of line is y = mx + c\n$\\begin{array}{|c|c|c|c|c|c|c|}\r\n\\hline \\mathrm{x} & 0 & \\mathrm{l} & 2 & 3 & 4 & \\mathrm{R}-\\{0,1,2,3,4\\} \\\\\r\n\\hline \\mathrm{P}(\\mathrm{x}) & \\mathrm{c} & \\mathrm{m}+\\mathrm{c} & 2 \\mathrm{~m}+\\mathrm{c} & 3 \\mathrm{~m}+\\mathrm{c} & 4 \\mathrm{~m}+\\mathrm{c} & 0 \\\\\r\n\\hline\r\n\\end{array}$\n$\\sum_{x=0}^4(m x+c)=1 \\Rightarrow 10 m+5 c=1 \\Rightarrow 2 m+c=\\frac{1}{5}...(1)$\n$\\begin{aligned} & \\text { mean }=\\sum x_i P_i=\\sum_{\\mathrm{i}=0}^4\\left(\\mathrm{mx}_{\\mathrm{i}}+\\mathrm{c}\\right) \\cdot \\mathrm{x}_{\\mathrm{i}}=30 \\mathrm{~m}+10 \\mathrm{c}=\\frac{5}{2} \\\\ & \\therefore 3 \\mathrm{~m}+\\mathrm{c}=\\frac{1}{4} \\ldots(2)\\end{aligned}$\n$\\begin{aligned} & \\Sigma \\mathrm{P}_{\\mathrm{i}} \\mathrm{x}_{\\mathrm{i}}^2=\\sum_{\\mathrm{i}=0}^4\\left(\\mathrm{mx}_{\\mathrm{i}}+\\mathrm{c}\\right) \\mathrm{x}_1^2 \\\\ & =\\sum_{\\mathrm{i}=0}^4\\left(\\mathrm{mx}_{\\mathrm{i}}^3+\\mathrm{cx}_{\\mathrm{i}}^2\\right) \\Rightarrow 100 \\mathrm{~m}+30 \\mathrm{c} \\text { (Now putting } \\mathrm{m} \\text { and } \\mathrm{c} \\text { ) } \\\\ & \\Rightarrow \\Sigma \\mathrm{P}_{\\mathrm{i}} \\mathrm{x}_{\\mathrm{i}}^2=5+3=8 \\\\ & \\text { Variance }=\\Sigma \\mathrm{P}_{\\mathrm{i}} \\mathrm{x}_{\\mathrm{i}}^2-\\left(\\Sigma \\mathrm{P}_{\\mathrm{i}} \\mathrm{x}_{\\mathrm{i}}\\right)^2=8-\\left(\\frac{5}{2}\\right)^2=\\frac{7}{4} \\\\ & \\therefore 24 \\alpha=42\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "98dddc3b3cd849889065ce395abeef90",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/1KisWEI2Jmu5J.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/1KisWEI2Jmu5J.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "66965789b31faf98fda8fef9",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Paper 1)",
+    "title": "JEE Advanced 2024 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

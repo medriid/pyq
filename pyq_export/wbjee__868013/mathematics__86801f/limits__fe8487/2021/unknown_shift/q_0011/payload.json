@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $S_{n}=\\cot ^{-1} 2+\\cot ^{-1} 8+\\cot ^{-1} 18+\\cot ^{-1} 32+\\ldots \\ldots .$ to $n^{\\text {th }}$ term. Then $\\lim _{n \\rightarrow \\infty} S_{n}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\pi}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{4}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\pi}{6}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{8}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & t_{n}=\\cot ^{-1} 2 n^{2} \\\\=& \\tan ^{-1} \\frac{1}{2 n^{2}}=\\tan ^{-1} \\frac{(2 n+1)-(2 n-1)}{1+(2 n+1)(2 n-1)} \\\\=& \\tan ^{-1}(2 n+1)-\\tan ^{-1}(2 n-1) \\\\ \\therefore & S_{n}=\\tan ^{-1}(2 n+1)-\\tan ^{-1} 1 \\\\ \\therefore & \\operatorname{Lim}_{n \\rightarrow \\infty} S_{n}=\\pi / 2-\\pi / 4=\\pi / 4 \\end{aligned}$"
+  }
+}

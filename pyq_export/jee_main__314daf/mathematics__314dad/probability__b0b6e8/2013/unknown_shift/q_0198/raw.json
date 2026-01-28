@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65bf2",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7d2",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-09T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (09 Apr Online)",
+      "title": "JEE Main 2013 (09 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "The probability of a man hitting a target is $\\frac{2}{5}$. He fires at the target $k$ times $(k$, a given number). Then the minimum $k$, so that the probability of hitting the target at least once is more than $\\frac{7}{10}$, is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "U1hpa",
+      "text": "\n3\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "D3GSM",
+      "text": "\n5\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "gNdRI",
+      "text": "\n2\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "oqPU5",
+      "text": "\n4",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\frac{2}{5}+\\frac{3}{5} \\times \\frac{2}{5}+\\left(\\frac{3}{5}\\right)^2 \\times \\frac{2}{5}+\\ldots \\ldots+\\left(\\frac{3}{5}\\right)^k \\cdot \\frac{2}{5}>\\frac{7}{10} \\\\\n\\Rightarrow & \\frac{2}{5}\\left[1+\\frac{3}{5}+\\left(\\frac{3}{5}\\right)^2+\\ldots \\ldots+\\left(\\frac{3}{5}\\right)^k\\right]>\\frac{7}{10} \\\\\n\\Rightarrow & \\frac{2}{5} \\times \\frac{1-\\left(\\frac{3}{5}\\right)^k}{1-\\frac{3}{5}}>\\frac{7}{10} \\Rightarrow 1-\\left(\\frac{3}{5}\\right)^k>\\frac{7}{10} \\\\\n\\Rightarrow & \\left(\\frac{3}{5}\\right)^k < \\frac{3}{10} \\Rightarrow k \\geq 3\n\\end{aligned}\n$$\nHence minimum value of $k=3$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7d2",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-09T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (09 Apr Online)",
+    "title": "JEE Main 2013 (09 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 33,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2022 (25 Jul Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254533dd7c0008b65699",
+    "chapter_name": "Mathematical Reasoning",
+    "year": "2022",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Which of the following statements is a tautology?"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mfenced><mrow><mo>~</mo><mi>p</mi></mrow></mfenced><mo>&#8744;</mo><mi>q</mi></mrow></mfenced><mo>&#8658;</mo><mi>p</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>&#8658;</mo><mfenced><mrow><mfenced><mrow><mo>~</mo><mi>p</mi></mrow></mfenced><mo>&#8744;</mo><mi>q</mi></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mfenced><mrow><mo>~</mo><mi>p</mi></mrow></mfenced><mo>&#8744;</mo><mi>q</mi></mrow></mfenced><mo>&#8658;</mo><mi>q</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>&#8658;</mo><mfenced><mrow><mfenced><mrow><mo>~</mo><mi>p</mi></mrow></mfenced><mo>&#8744;</mo><mi>q</mi></mrow></mfenced></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<blockquote><p>Plotting the truth table of the following option we have,</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 300px;\">\t<tbody>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>~</mo><mi>p</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>~</mo><mi>q</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>~</mo><mi>p</mi><mo>&#8744;</mo><mi>q</mi></math></td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math></td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t</tr>\t</tbody></table><p>We know that,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>&#8658;</mo><mi>B</mi></math>&nbsp;is only false when&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>&nbsp;is true and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>&nbsp;is false, now using this rule and&nbsp;above table&nbsp;we will make truth table of options,</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 200px;\">\t<tbody>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mfenced><mrow><mo>~</mo><mi>p</mi></mrow></mfenced><mo>&#8744;</mo><mi>q</mi></mrow></mfenced><mo>&#8658;</mo><mi>p</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>&#8658;</mo><mfenced><mrow><mfenced><mrow><mo>~</mo><mi>p</mi></mrow></mfenced><mo>&#8744;</mo><mi>q</mi></mrow></mfenced></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mfenced><mrow><mo>~</mo><mi>p</mi></mrow></mfenced><mo>&#8744;</mo><mi>q</mi></mrow></mfenced><mo>&#8658;</mo><mi>q</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>&#8658;</mo><mfenced><mrow><mfenced><mrow><mo>~</mo><mi>p</mi></mrow></mfenced><mo>&#8744;</mo><mi>q</mi></mrow></mfenced></math></td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math></td>\t\t</tr>\t</tbody></table><p>&nbsp;</p><p>Hence&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>&#8658;</mo><mfenced><mrow><mfenced><mrow><mo>~</mo><mi>p</mi></mrow></mfenced><mo>&#8744;</mo><mi>q</mi></mrow></mfenced></math>&nbsp;is tautology.</p></blockquote>"
+  }
+}

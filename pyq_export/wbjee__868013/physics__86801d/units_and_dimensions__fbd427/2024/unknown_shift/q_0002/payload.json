@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c72a8a20f01b7fbd427",
+    "chapter_name": "Units and Dimensions",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the energy, $E=G^p h^q c^r$, where $G$ is the universal gravitational constant, $h$ is the Planck's constant and $c$ is the velocity of light, then the values of $p, q$ and $r$ are, respectively"
+  },
+  "options": [
+    {
+      "text": "$-1 / 2,1 / 2$ and $5 / 2$",
+      "is_correct": true
+    },
+    {
+      "text": "$1 / 2,-1 / 2$ and $-5 / 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$-1 / 2,1 / 2$ and $3 / 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$1 / 2,-1 / 2$ and $-3 / 2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\nE=G^p h^q c^r\n$$\n$$\n\\begin{aligned}\n& {\\left[\\mathrm{M}^1 \\mathrm{~L}^2 \\mathrm{~T}^{-2}\\right]=\\left[\\mathrm{M}^{-1} \\mathrm{~L}^3 \\mathrm{~T}^{-2}\\right]^p\\left[\\mathrm{ML}^2 \\mathrm{~T}^{-1}\\right]^q\\left[\\mathrm{LT}^{-1}\\right]^r} \\\\\n& =\\mathrm{M}^{-p+q} \\mathrm{~L}^{3 p+2 q+r} \\mathrm{~T}^{-2 p-q-r}\n\\end{aligned}\n$$\n\nApplying principle of homogeneity of dimensions, we get\n$$\n\\begin{aligned}\n& -p+q=1 \\\\\n& 3 p+2 q+r=2 \\\\\n& -2 p-q-r=-2\n\\end{aligned}\n$$\n\nAdd (iii) and (iv), $p+q=0$\nAdd (ii) and (v), we get $q=\\frac{1}{2}$\nFrom (ii), we get $p=q-1=\\frac{1}{2}-1=-\\frac{1}{2}$.\nPut in (iii), we get $-\\frac{3}{2}+1+r=2, \\quad r=5 / 2$"
+  }
+}

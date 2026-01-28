@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The integral \\(80 \\int_0^{\\frac{\\pi}{4}}\\left(\\frac{\\sin \\theta+\\cos \\theta}{9+16 \\sin 2 \\theta}\\right) d \\theta\\) is equal to :"
+  },
+  "options": [
+    {
+      "text": "\\(3 \\log _e 4\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(4 \\log _{\\mathrm{e}} 3\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(6 \\log _e 4\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(2 \\log _e 3\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & I=\\int_0^{\\frac{\\pi}{4}}\\left(\\frac{\\sin \\theta+\\cos \\theta}{9-16 \\sin 2 \\theta}\\right) d \\theta \\\\ & \\text { Take } \\sin \\theta-\\cos \\theta=t \\\\ & (\\cos \\theta+\\sin \\theta) d \\theta=d t \\\\ & (\\sin \\theta-\\cos \\theta)^2=t^2 \\\\ & \\Rightarrow \\sin 2 \\theta=1-t^2 \\\\ & \\theta=0 \\rightarrow t=-1 \\\\ & \\quad \\theta=\\frac{\\pi}{4} \\rightarrow t=0 \\\\ & I=\\int_{-1}^0 \\frac{d t}{9+16\\left(1-t^2\\right)} \\\\ & =\\frac{1}{16} \\int_{-1}^0 \\frac{d t}{25} \\frac{16}{16}-t^2 \\\\ & =\\frac{1}{4}\\left[\\frac{1}{10} \\log _{\\left\\lvert\\, \\frac{5+4 t}{}\\right.}^{5-4 t}\\right]_{-1}^0 \\\\ & =\\frac{1}{40}\\left[0+\\log _e 9\\right] \\\\ & I=\\frac{\\log _e 9}{40} \\\\ & 80 I=2 \\log _e 9 \\\\ & 80 I=4 \\log _e 3\\end{aligned}$"
+  }
+}

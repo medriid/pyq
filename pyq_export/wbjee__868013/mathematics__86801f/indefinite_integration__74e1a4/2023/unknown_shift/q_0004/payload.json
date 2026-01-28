@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of \\(\\int_0^{1 / 2} \\frac{d x}{\\sqrt{1-x^{2 n}}}\\) is \\((n \\in \\mathbb{N})\\)"
+  },
+  "options": [
+    {
+      "text": "less than or equal to \\(\\frac{\\pi}{6}\\)",
+      "is_correct": true
+    },
+    {
+      "text": "greater than or equal to 1",
+      "is_correct": false
+    },
+    {
+      "text": "less than \\(\\frac{1}{2}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "greater than \\(\\frac{\\pi}{6}\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Hint : For 0 to \\(\\frac{1}{2}\\)\n\\(\\begin{aligned} & x^2 \\geq x^{2 n} \\\\ & \\Rightarrow-x^2 \\leq-x^{2 n} \\\\ & \\Rightarrow 1-x^2 \\leq 1-x^{2 n} \\\\ & \\Rightarrow \\frac{1}{\\sqrt{1-x^2}} \\geq \\frac{1}{\\sqrt{1-x^{2 n}}} \\\\ & \\Rightarrow \\int_0^{1 / 2} \\frac{1}{\\sqrt{1-x^2}} d x \\geq \\int_0^{1 / 2} \\frac{1}{\\sqrt{1-x^{2 n}}} d x \\\\ & \\Rightarrow\\left[\\sin ^{-1} x\\right]_0^{1 / 2} \\geq \\mathrm{I} \\\\ & \\Rightarrow \\frac{\\pi}{6} \\geq I \\\\ & \\end{aligned}\\)"
+  }
+}

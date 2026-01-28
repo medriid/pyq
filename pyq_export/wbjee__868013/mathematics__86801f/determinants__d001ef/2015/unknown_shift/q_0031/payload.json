@@ -1,0 +1,43 @@
+{
+  "index": 31,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0a7e939ac068d001ef",
+    "chapter_name": "Determinants",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of distinct real roots of $\\left|\\begin{array}{lll}\\sin x & \\cos x & \\cos x \\\\ \\cos x & \\sin x & \\cos x \\\\ \\cos x & \\cos x & \\sin x\\end{array}\\right|=0$ in the interval $-\\frac{\\pi}{4} \\leq x \\leq \\frac{\\pi}{4}$ is"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": true
+    },
+    {
+      "text": ">2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given, $\\left|\\begin{array}{ccc}\\sin x & \\cos x & \\cos x \\\\ \\cos x & \\sin x & \\cos x \\\\ \\cos x & \\cos x & \\sin x\\end{array}\\right|=0$\r\n$\\sin x\\left(\\sin ^{2} x-\\cos ^{2} x\\right)-\\cos x\\left(\\sin x \\cos x-\\cos ^{2} x \\right ) + \\cos x \\left(\\cos ^{2} x-\\sin x \\cos x\\right)=0$\r\n$\\Rightarrow \\sin x(\\sin x-\\cos x)(\\sin x+\\cos x)$ $-\\cos ^{2} x(\\sin x-\\cos x)-\\cos ^{2} x$ $(\\sin x-\\cos x)=0$\r\n$\\Rightarrow(\\sin x-\\cos x)\\left(\\sin ^{2} x+\\sin x \\cos x-2 \\cos ^{2} x\\right)=0$\r\n$\\Rightarrow(\\sin x-\\cos x)\\left(\\sin ^{2} x+2 \\sin x\\right.\\left.\\cos x-\\sin x \\cos x-2 \\cos ^{2} x\\right)=0$\r\n$\\Rightarrow(\\sin x-\\cos x)^{2}(\\sin x+2 \\cos x)=0$\r\n$\\Rightarrow \\sin x-\\cos x=0$ or $\\sin x+2 \\cos x=0$\r\n$\\Rightarrow \\quad \\tan x=1$ or $\\tan x=-2$\r\nBut $\\quad x \\in\\left[-\\frac{\\pi}{4}, \\frac{\\pi}{4}\\right]$\r\n$\\Rightarrow$ Only one solution i.e. $x=\\frac{\\pi}{4}$"
+  }
+}

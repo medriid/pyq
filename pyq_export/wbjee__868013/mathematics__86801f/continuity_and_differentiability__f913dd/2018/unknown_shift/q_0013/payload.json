@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d10462f802c3ef913dd",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=\\left\\{\\begin{array}{cc}-2 \\sin x, & \\text { if } x \\leq-\\frac{\\pi}{2} \\\\ A \\sin x+B, & \\text { if }-\\frac{\\pi}{2}    < x < \\frac{\\pi}{2} \\text { . Then, } \\\\ \\cos x, & \\text { if } x \\geq \\frac{\\pi}{2}\\end{array}\\right.$"
+  },
+  "options": [
+    {
+      "text": "$f$ is discontinuous for all $A$ and $B$",
+      "is_correct": false
+    },
+    {
+      "text": "$f$ is continuous for all $A=-1$ and $B=1$",
+      "is_correct": true
+    },
+    {
+      "text": "$f$ is continuous for all $A=1$ and $B=-1$",
+      "is_correct": false
+    },
+    {
+      "text": "$f$ is continuous for all real values of $A B$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "At $\\quad x=-\\frac{\\pi}{2}$\r\n$$\r\n\\begin{array}{l}\r\n\\text { LHL }=-2 \\\\\r\n\\text { RHL }=-A+B \\\\\r\n\\text { For continuity, } \\mathrm{LHL}=\\mathrm{RHL}=f(-\\pi / 2)\r\n\\end{array}\r\n$$\r\n$\\Rightarrow \\quad-A+B=2$\r\nAt $x=\\pi / 2$\r\n$$\r\n\\begin{aligned}\r\n\\mathrm{LHL} &=A+B \\\\\r\n\\mathrm{RHL} &=0 \\\\\r\n\\text { For continuity, } \\mathrm{LHL} &=\\mathrm{RHL}=f(\\pi / 2)\r\n\\end{aligned}\r\n$$\r\n$\\Rightarrow \\quad A+B=0$\r\nOn solving Eqs. (i) and (ii), we get\r\n$$\r\nA=-1 \\text { and } B=1\r\n$$"
+  }
+}

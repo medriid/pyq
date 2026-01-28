@@ -1,0 +1,24 @@
+{
+  "index": 0,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2024 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602551450953a91a4ccb48",
+    "chapter_name": "Determinants",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $S=\\left\\{A=\\left(\\begin{array}{lll}0 & 1 & c \\\\ 1 & a & d \\\\ 1 & b & e\\end{array}\\right): a, b, c, d, e \\in\\{0,1\\}\\right.$ and $\\left.|A| \\in\\{-1,1\\}\\right\\}$, where $|A|$ denotes the determinant of $A$. Then the number of elements in $S$ is"
+  },
+  "options": [],
+  "correct_answer": 16,
+  "solution": {
+    "text": "\\(|A|=-(e-d)+c(b-a)= \\pm 1\\)\r\nCase (i) : \\(c=0 \\Rightarrow(e, d)=(1,0),(0,1) \\rightarrow 2\\) ways\r\nb and a can be each 2 ways\r\n\\(\\Rightarrow\\) Total \\(=8\\) ways\r\nCase (ii) : \\(c \\neq 0 \\Rightarrow c=1\\)\r\n\\(\\Rightarrow d-e+b-a= \\pm 1\\)\r\n\\(\\left.\\begin{array}{llll}1 & 1 & 1 & 0 \\\\ 1 & 1 & 0 & 1 \\\\ 0 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 1\\end{array}\\right\\} \\rightarrow 4 \\times 2=8\\) ways\r\nTotal \\(=16\\) ways"
+  }
+}

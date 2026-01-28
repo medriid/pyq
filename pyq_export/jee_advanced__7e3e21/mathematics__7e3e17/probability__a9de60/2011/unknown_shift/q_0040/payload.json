@@ -1,0 +1,43 @@
+{
+  "index": 40,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2011 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025732b001edb3fa9de60",
+    "chapter_name": "Probability",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nLet $U_1$ and $U_2$ be two urns such that $U_1$ contains 3 white and 2 red balls and $U_2$ contains only 1 white ball. A fair coin is tossed. If head appears then 1 ball is drawn at random from $U_1$ and put into $U_2$. However, if tail appears then 2 balls are drawn at random from $U_1$ and put into $U_2$. Now, 1 ball is drawn at random from $U_2$.<strong>Question:</strong>\nThe probability of the drawn ball from $U_2$ being white is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{13}{30}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{23}{30}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{19}{30}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{11}{30}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Now, probability of the drawn ball from $\\mathrm{V}_2$ being white is\n$$\n\\Rightarrow P \\text { (white/ } V_2 \\text { ) }\n$$\n\n$$\n\\begin{aligned}\n& \\left.\\Rightarrow P \\text { (white/ } V_2\\right) \\\\\n& =P(H) \\cdot\\left\\{\\frac{{ }^3 C_1}{{ }^5 C_1} \\times \\frac{{ }^2 C_1}{{ }^2 C_1}+\\frac{{ }^2 C_1}{{ }^5 C_1} \\times \\frac{{ }^1 C_1}{{ }^2 C_1}\\right\\} \\\\\n& +P(T)\\left\\{\\frac{{ }^3 C_2}{{ }^5 C_2} \\times \\frac{{ }^3 C_2}{{ }^3 C_2}+\\frac{{ }^2 C_2}{{ }^5 C_2} \\times \\frac{{ }^1 C_1}{{ }^3 C_2}\\right. \\\\\n& \\left.+\\frac{{ }^3 C_1 \\cdot{ }^2 C_1}{{ }^5 C_2} \\times \\frac{{ }^2 C_1}{{ }^3 C_2}\\right\\} \\\\\n& \\text { Now, } P\\left(\\text { white } / V_2\\right)=\\frac{1}{2}\\left\\{\\frac{3}{5} \\times 1+\\frac{2}{5} \\times \\frac{1}{2}\\right\\} \\\\\n& +\\frac{1}{2}\\left\\{\\frac{3}{10} \\times 1+\\frac{1}{10} \\times \\frac{1}{3}+\\frac{6}{10} \\times \\frac{2}{3}\\right\\}=\\frac{23}{30} \\\\\n&\n\\end{aligned}\n$$"
+  }
+}

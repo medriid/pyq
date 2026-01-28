@@ -1,0 +1,43 @@
+{
+  "index": 82,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252bf7c1fee30bacd8f7",
+    "chapter_name": "Permutation Combination",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of ways of arranging <math><mn>18</mn></math> boys such that <math><mn>3</mn></math> particular boys are always separate is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><mn>18</mn><mo>!</mo><mo>-</mo><mn>16</mn><mo>!</mo><mn>3</mn><mo>!</mo></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>16</mn><mo>!</mo><mi mathvariant=\"normal\"></mi><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">P</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>17</mn></mrow></mmultiscripts></mrow><mrow><mn>3</mn></mrow></msub></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>15</mn><mo>!</mo><mi mathvariant=\"normal\"></mi><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">P</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>16</mn></mrow></mmultiscripts></mrow><mrow><mn>3</mn></mrow></msub></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mn>17</mn><mo>!</mo><mi mathvariant=\"normal\"></mi><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">P</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>17</mn></mrow></mmultiscripts></mrow><mrow><mn>3</mn></mrow></msub></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "First arrange&nbsp;<math><mn>15</mn></math> boys in <math><mn>15</mn><mo>!</mo></math>&nbsp;ways.<br /><math><mn>16</mn></math> gaps will be created.&nbsp;<br />Select any <math><mn>3</mn></math> gaps out of <math><mn>16</mn></math> gaps in <math><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">C</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>16</mn></mrow></mmultiscripts></mrow><mrow><mn>3</mn></mrow></msub></math> ways.<br />Arrange <math><mn>3</mn><mi mathvariant=\"normal\"></mi></math> boys to be separated in these selected <math><mn>3</mn></math> gaps in <math><mn>3</mn><mo>!</mo></math> ways.<br />Number of ways <math><mo>=</mo><mn>15</mn><mo>!</mo><mo>×</mo><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">C</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>16</mn></mrow></mmultiscripts></mrow><mrow><mn>3</mn></mrow></msub><mo>×</mo><mn>3</mn><mo>!</mo></math><br /><math><mo>=</mo><mn>15</mn><mo>!</mo><mo>×</mo><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">P</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>16</mn></mrow></mmultiscripts></mrow><mrow><mn>3</mn></mrow></msub></math>"
+  }
+}

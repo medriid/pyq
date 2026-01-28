@@ -1,0 +1,43 @@
+{
+  "index": 33,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc594defad39e8768ec",
+    "chapter_name": "Quadratic Equation",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\alpha, \\beta$ are the roots of the quadratic equation $x^{2}+p x+q=0,$ then the values of $\\alpha^{3}+\\beta^{3}$ and $\\alpha^{4}+\\alpha^{3} \\beta^{2}+\\beta^{4}$ are respectively"
+  },
+  "options": [
+    {
+      "text": "$3 p q-p^{3}$ and $p^{4}-3 p^{2} q+3 q^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-p\\left(3 q-p^{2}\\right)$ and $\\left(p^{2}-q\\right)\\left(p^{2}+3 q\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$p q-4$ and $p^{4}-q^{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$3 p q-p^{3}$ and $\\left(p^{2}-q\\right)\\left(p^{2}-3 q\\right)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\because$ Sum of roots, $\\alpha+\\beta=-p$ and $\\alpha \\beta=q$ $\\therefore \\quad\\left(a^{3}+\\beta^{3}\\right)=(\\alpha+\\beta)^{3}-3 \\alpha \\beta(\\alpha+\\beta)$\r\n$$\r\n\\begin{aligned}\r\n=(-p)^{3}-3 q(-p) \\\\\r\n=&-p^{3}+3 p q \\\\\r\n&=\\left(\\alpha^{4}+\\beta^{4}\\right)+(\\alpha \\beta)^{2} \\\\\r\n&=\\left(\\alpha^{2}+\\beta^{2}\\right)^{2}-(\\alpha \\beta)^{2} \\\\\r\n&=\\left[(\\alpha+\\beta)^{2}-2 \\alpha \\beta\\right]^{2}-(\\alpha \\beta)^{2} \\\\\r\n&=\\left[(-p)^{2}-2 q\\right]^{2}-3(q)^{2} \\\\\r\n&=\\left[p^{2}-2 q\\right]^{2}-3 q^{2} \\\\\r\n&=p^{4}-4 p^{2} q+4 q^{2}-q^{2} \\\\\r\n&=p^{4}-4 p^{2} q+3 q^{2} \\\\\r\n&=p^{4}-3 p^{2} q-p^{2} q+3 q^{2} \\\\\r\n&=p^{2}\\left(p^{2}-3 q\\right)-q\\left(p^{2}-3 q\\right) \\\\\r\n&=\\left(p^{2}-q\\right)\\left(p^{2}-3 q\\right)\r\n\\end{aligned}\r\n$$"
+  }
+}

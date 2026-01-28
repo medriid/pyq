@@ -1,0 +1,43 @@
+{
+  "index": 48,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2007 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025732b001edb3fa9de60",
+    "chapter_name": "Probability",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $E^c$ denotes the complement of an event $E$. Let $E, F, G$ be pairwise independent events with $P(G)>0$ and $P(E \\cap F \\cap G)=0$. Then, $P\\left(E^c \\cap F^c \\mid G\\right)$ equals"
+  },
+  "options": [
+    {
+      "text": "\n$P\\left(E^c\\right)+P\\left(F^c\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$P\\left(E^c\\right)-P\\left(F^c\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$P\\left(E^c\\right)-P(F)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$P(E)-P\\left(F^c\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\text { } \\begin{aligned}\nP\\left(\\frac{E^c \\cap F^c}{G}\\right) & =\\frac{P\\left(E^c \\cap F^c \\cap G\\right)}{P(G)} \\\\\n& =\\frac{P(G)-P(E \\cap G)-P(G \\cap F)}{P(G)} \\\\\n& =\\frac{P(G)[1-P(E)-P(F)]}{P(G)} \\\\\n& =1-P(E)-P(F) \\\\\n& =P\\left(E^c\\right)-P(F) .\n\\end{aligned}\n$$"
+  }
+}

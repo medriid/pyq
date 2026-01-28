@@ -1,0 +1,43 @@
+{
+  "index": 225,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (25 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(1)=-2$ and $f^{\\prime}(x) \\geq 4.2$ for $1 \\leq x \\leq 6$. The possible value of $f(6)$ lies in the interval :"
+  },
+  "options": [
+    {
+      "text": "\n$[15,19)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n $(-\\infty, 12)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$[12,15)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$[19, \\infty)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given $f(1)=-2$ and $f^{\\prime}(x) \\geq 4.2$ for $1 \\leq x \\leq 6$\nConsider $f^{\\prime}(x)=\\frac{f(x+h)-f(x)}{h}$ $\\Rightarrow f(x+h)-f(x)=f^{\\prime}(x) \\cdot h \\geq(4.2) h$\nSo, $f(x+h) \\geq f(x)+(4.2) h$\nput $x=1$ and $h=5$, we get\n$f(6) \\geq f(1)+5(4.2) \\Rightarrow f(6) \\geq 19$\nHence $f(6)$ lies in $[19, \\infty)$"
+  }
+}

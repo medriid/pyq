@@ -1,0 +1,63 @@
+{
+  "_id": "64a81416e0ff5a5425a8585a",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec4",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "WBJEE 2015"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 2,
+  "question": {
+    "text": "If $\\cos x$ and $\\sin x$ are solutions of the differential equation $a_{0} \\frac{d^{2} y}{d x^{2}}+a_{1} \\frac{d y}{d x}+a_{2} y=0$ where $a_{0}, a_{1}$ and $a_{2}$ are real constants, then which of the following is/are always true?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "PTW4D",
+      "text": "$A \\cos x+B \\sin x$ is a solution, where $A$ and $B$ are feal constants",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "fKzag",
+      "text": "$A \\cos \\left(x+\\frac{\\pi}{4}\\right)$ is a solution, where $A$ is a real constant",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "WoDF5",
+      "text": "$A \\cos x \\sin x$ is a solution, where $A$ is a real constant",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "vzcrx",
+      "text": "$A \\cos \\left(x+\\frac{\\pi}{4}\\right)+B \\sin \\left(x -\\frac{\\pi}{4}\\right)$ is a solution, where A and $B$ are real constants",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $f(x)=\\cos x$ and $g(x)=\\sin x$ Consider the Wronskian of $f(x)$ and $g(x)$.\r\n$$\r\n\\begin{aligned}\r\nW &=\\left|\\begin{array}{ll}\r\nf(x) & g(x) \\\\\r\nf^{\\prime}(x) & g^{\\prime}(x)\r\n\\end{array}\\right| \\\\\r\n&=\\left|\\begin{array}{ll}\r\n\\cos x & \\sin x \\\\\r\n-\\sin x & \\cos x\r\n\\end{array}\\right| \\\\\r\n&=\\cos ^{2} x+\\sin ^{2} x=1 \\neq 0\r\n\\end{aligned}\r\n$$\r\nThus, the functions are linearly independent. So, the general solution of given differential equation is given by $y=A \\cos x+B \\sin x,$ where $A$ and $B$ are real constants.\r\n[$\\because$ if $y_{1}$ and $y_{2}$ are linearly independent solutions of the differential equation $a y^{\\prime \\prime}+b y^{\\prime}+c=0,$ then the general solution is $y=c_{1} y_{1}+c_{2} y_{2},$ where $c_{1}$ and $c_{2}$ are constants] Hence, option (a) is true.\r\n(b) Let $y=A \\cos \\left(x+\\frac{\\pi}{4}\\right)$\r\n$$\r\n\\begin{array}{l}\r\n=A\\left(\\cos x \\cdot \\cos \\frac{\\pi}{4}-\\sin x \\cdot \\sin \\frac{\\pi}{4}\\right) \\\\\r\n=\\frac{A}{\\sqrt{2}}(\\cos x-\\sin x) \\\\\r\n=\\frac{A}{\\sqrt{2}} \\cos x+\\left(-\\frac{A}{\\sqrt{2}}\\right) \\sin x\r\n\\end{array}\r\n$$\r\nwhich is in the form of general solution.\r\nHence, option (b) is true.\r\n(c) Let $y=A \\cos x \\sin x$\r\nwhich cannot be\r\nexpressed in the form of general solution.\r\n(d) Let $y=A \\cos \\left(x+\\frac{\\pi}{4}\\right)+B \\sin \\left(x-\\frac{\\pi}{4}\\right)$\r\n$$\r\n\\begin{array}{l}\r\n=A\\left(\\cos x \\cdot \\frac{1}{\\sqrt{2}}-\\sin x \\cdot \\frac{1}{\\sqrt{2}}\\right) \\\\\r\n\\quad+B\\left(\\sin x \\cdot \\frac{1}{\\sqrt{2}}-\\cos x \\cdot \\frac{1}{\\sqrt{2}}\\right) \\\\\r\n=\\cos x\\left(\\frac{A}{\\sqrt{2}}-\\frac{B}{\\sqrt{2}}\\right)+\\sin x\\left(\\frac{B}{\\sqrt{2}}-\\frac{A}{\\sqrt{2}}\\right) \\text { which is }\r\n\\end{array}\r\n$$\r\nin the form of general solution. Hence, option (d) is true.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec4",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "WBJEE 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

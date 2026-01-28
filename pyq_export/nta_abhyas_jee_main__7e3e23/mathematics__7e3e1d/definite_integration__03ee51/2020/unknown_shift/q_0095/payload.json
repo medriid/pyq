@@ -1,0 +1,43 @@
+{
+  "index": 95,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256482b554b07303ee51",
+    "chapter_name": "Definite Integration",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For <math><mi>x</mi><mo>∈</mo><mi>R</mi><mo>,</mo><mo>&nbsp;</mo><mi>x</mi><mo>≠</mo><mn>0</mn><mo>,</mo></math> if <math><mi>y</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math> is a differentiable function such that <math><mi>x</mi><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></munderover><mrow><mi>y</mi><mfenced separators=\"|\"><mrow><mi>t</mi></mrow></mfenced></mrow></mrow><mi>d</mi><mi>t</mi><mo>=</mo><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mi>&nbsp;</mi><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></munderover><mrow><mi>t</mi><mi>y</mi><mfenced separators=\"|\"><mrow><mi>t</mi></mrow></mfenced></mrow></mrow><mi>d</mi><mi>t</mi><mo>,</mo></math> then <math><mi>y</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math> equals (where <math><mi>C</mi></math> is a constant)"
+  },
+  "options": [
+    {
+      "text": "<math><mi>C</mi><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup><mi>&nbsp;</mi><msup><mrow><mi>e</mi></mrow><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mi>C</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac><mi> </mi><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mi>C</mi></mrow><mrow><mi>x</mi></mrow></mfrac><mi> </mi><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mi>C</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfrac><mi>&nbsp;</mi><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow></msup></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<math><mi>x</mi><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></munderover><mrow><mi>y</mi><mfenced separators=\"|\"><mrow><mi>t</mi></mrow></mfenced><mi>d</mi><mi>t</mi></mrow></mrow><mo>=</mo><mi>x</mi><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></munderover><mrow><mi>t</mi><mi>y</mi><mfenced separators=\"|\"><mrow><mi>t</mi></mrow></mfenced></mrow></mrow><mi>d</mi><mi>t</mi><mo>+</mo><mi>&nbsp;</mi><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></munderover><mrow><mi>t</mi><mi>y</mi><mfenced separators=\"|\"><mrow><mi>t</mi></mrow></mfenced></mrow></mrow><mi>d</mi><mi>t</mi></math><br /><br />Differentiate w.r.t. <math><mi>x</mi></math><br /><br /><math><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></munderover><mrow><mi>y</mi><mo>(</mo><mi>t</mi><mo>)</mo><mi>d</mi><mi>t</mi><mo>+</mo><mi>x</mi><mi>y</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow><mo>=</mo><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></munderover><mrow><mi>t</mi><mi>y</mi><mo>(</mo><mi>t</mi><mo>)</mo><mi>d</mi><mi>t</mi><mo>+</mo><mi>x</mi><mo>[</mo><mi>x</mi><mi>y</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>]</mo><mo>+</mo><mi>x</mi><mi>y</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow></math><br /><br /><math><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></munderover><mrow><mi>y</mi><mo>(</mo><mi>t</mi><mo>)</mo><mi>d</mi><mi>t</mi></mrow></mrow><mo>=</mo><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></munderover><mrow><mi>t</mi><mi>y</mi><mo>(</mo><mi>t</mi><mo>)</mo><mi>d</mi><mi>t</mi><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mi>y</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>&nbsp;</mi></mrow></mrow></math><br /><br />Differentiate again w.r.t. <math><mi>x</mi></math><br /><br /><math><mi>y</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>x</mi><mi>y</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mn>2</mn><mi>x</mi><mi>&nbsp;</mi><mi>y</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mi>y</mi><mi>'</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>&nbsp;</mi></math><br /><br /><math><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mn>3</mn><mi>x</mi></mrow></mfenced><mi>y</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi>y</mi><mi>'</mi></mrow></msup><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math><br /><br /><math><mfrac><mrow><msup><mrow><mi>y</mi><mi>'</mi></mrow></msup><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow><mrow><mi>y</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mo>-</mo><mn>3</mn><mi>x</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math><br /><br /><math><mfrac><mrow><mn>1</mn></mrow><mrow><mi>y</mi></mrow></mfrac><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mo>-</mo><mn>3</mn><mi>x</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math><br /><br />Integrating on both sides<br /><br /><math><mo>⇒</mo><mi>&nbsp;</mi><mi>l</mi><mi>o</mi><mi>g</mi><mi>&nbsp;</mi><mi>y</mi><mi>&nbsp;</mi><mo>=</mo><mi>&nbsp;</mi><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac><mo>-</mo><mn>3</mn><mi>l</mi><mi>o</mi><mi>g</mi><mi>&nbsp;</mi><mi>x</mi><mo>+</mo><mi>c</mi></math><br /><br /><math><mo>⇒</mo><mi>l</mi><mi>o</mi><mi>g</mi><mi>&nbsp;</mi><mo>(</mo><msup><mrow><mi>y</mi><mi>&nbsp;</mi><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>)</mo><mi>&nbsp;</mi><mo>=</mo><mi>&nbsp;</mi><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac><mo>+</mo><mi>c</mi></math><br /><br /><math><mo>⇒</mo><mi>y</mi><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>=</mo><mi>&nbsp;</mi><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac><mo>+</mo><mi>c</mi></mrow></msup></math><br /><br /><math><mo>⇒</mo><mi>y</mi><mo>=</mo><mfrac><mrow><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac><mo>+</mo><mi>c</mi></mrow></msup></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfrac></math><br /><br /><math><mo>⇒</mo><mi>y</mi><mo>=</mo><mfrac><mrow><mi>C</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfrac><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow></msup></math>"
+  }
+}

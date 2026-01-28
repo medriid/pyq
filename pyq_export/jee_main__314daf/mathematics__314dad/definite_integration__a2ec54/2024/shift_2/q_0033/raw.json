@@ -1,0 +1,63 @@
+{
+  "_id": "66446711970e6e9ab542cfeb",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda69",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-04T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (04 Apr Shift 2)",
+      "title": "JEE Main 2024 (04 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If the value of the integral $\\int_{-1}^1 \\frac{\\cos \\alpha x}{1+3^x} d x$ is $\\frac{2}{\\pi}$. Then, a value of $\\alpha$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "hUG1D",
+      "text": "$\\frac{\\pi}{3}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "uduc8",
+      "text": "$\\frac{\\pi}{6}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ZLSdF",
+      "text": "$\\frac{\\pi}{4}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "xq3WG",
+      "text": "$\\frac{\\pi}{2}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $I=\\int_{-1}^{+1} \\frac{\\cos \\alpha x}{1+3^x} d x$ ...(I)\n$I=\\int_{-1}^{+1} \\frac{\\cos \\alpha x}{1+3^{-x}} d x$\n$\\left(u \\operatorname{sing} \\int_a^b f(x) d x=\\int_a^b f(a+b-x) d x\\right)$ ...(II)\nAdd (1) and (II)\n$\\begin{aligned}\n& 2 I=\\int_{-1}^{+1} \\cos (\\alpha x) d x=2 \\int_0^1 \\cos (\\alpha x) d x \\\\\n& I=\\frac{\\sin \\alpha}{\\alpha}=\\frac{2}{\\pi}(\\text { given }) \\\\\n& \\therefore \\alpha=\\frac{\\pi}{2}\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda69",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-04T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (04 Apr Shift 2)",
+    "title": "JEE Main 2024 (04 Apr Shift 2)"
+  },
+  "evalStatus": "incorrect",
+  "lastPracticed": "2024-08-01T15:18:02.577Z"
+}

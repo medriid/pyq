@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2008 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602538583ba4ad9c2b8d66",
+    "chapter_name": "Straight Lines",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider three points $P=(-\\sin (\\beta-\\alpha),-\\cos \\beta), Q=(\\cos (\\beta-\\alpha), \\sin \\beta)$ and $R=(\\cos (\\beta-\\alpha+\\theta), \\sin (\\beta-\\theta)$, where $0 < \\alpha, \\beta, \\theta < \\frac{\\pi}{4}$. Then,"
+  },
+  "options": [
+    {
+      "text": "\n$P$ lies on the line segment $R Q$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$Q$ lies on the line segment $P R$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$R$ lies on the line segment $Q P$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$P, Q, R$ are non- collinear",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "For collinear points\n$$\n\\Delta=\\left|\\begin{array}{ccc}\n-\\sin (\\beta-\\alpha) & -\\cos \\beta & 1 \\\\\n\\cos (\\beta-\\alpha) & \\sin \\beta & 1 \\\\\n\\cos (\\beta-\\alpha+\\theta) & \\sin (\\beta-\\theta) & 1\n\\end{array}\\right|\n$$\nClearly, $\\Delta \\neq 0$ for any value of $\\alpha, \\beta, \\theta$, hence points are non-collinear."
+  }
+}

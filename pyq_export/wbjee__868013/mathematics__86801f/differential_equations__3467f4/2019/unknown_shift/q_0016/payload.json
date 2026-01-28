@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "General solution of $(x+y)^{2} \\frac{d y}{d x}=a^{2}, a \\neq 0$ is $(C$ is an arbitrary constant)"
+  },
+  "options": [
+    {
+      "text": "$\\frac{x}{a}=\\tan \\frac{y}{a}+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\tan x y=C$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\tan (x+y)=C$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\tan \\frac{y+C}{a}=\\frac{x+y}{a}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$(x+y)^{2} \\frac{d y}{d x}=a^{2}, a \\neq 0$\r\nLet $x+y=t$ \r\n$1+\\frac{d y}{d x}=\\frac{d t}{d x}$\r\n$\\Rightarrow \\quad \\frac{d y}{d x}=\\frac{d t}{d x}-1$\r\nTherefore, $t^{2}\\left(\\frac{d t}{d x}-1\\right)=a^{2}$\r\n$\\Rightarrow \\quad t^{2} \\frac{d t}{d x}-t^{2}=a^{2}$\r\n$\\Rightarrow \\quad t^{2} \\frac{d t}{d x}=a^{2}+t^{2}$\r\n$\\Rightarrow \\quad \\frac{t^{2}}{a^{2}+t^{2}} d t=d x$ [variable separation $]$\r\n$\\Rightarrow \\quad \\int \\frac{t^{2}}{\\left(t^{2}+a^{2}\\right)} d t=\\int d x$\r\n[integration]\r\n$\\Rightarrow \\quad \\int \\frac{t^{2}+a^{2}-a^{2}}{\\left(t^{2}+a^{2}\\right)} d t=x+C'$\r\n[doing $a^{2}$ adding and subtracting] $\\Rightarrow \\quad \\int\\left(1-\\frac{a^{2}}{t^{2}+a^{2}}\\right) d t=x+C'$\r\n$\\Rightarrow \\quad \\int d t-\\int \\frac{a^{2}}{t^{2}+a^{2}} d t=x+C'$\r\n$\\Rightarrow \\quad t-a^{2} \\int \\frac{d t}{t^{2}+a^{2}}=x+C^{\\prime}$\r\n$\\Rightarrow t-a^{2}\\left[\\frac{1}{a} \\tan ^{-1}\\left(\\frac{t}{a}\\right)\\right]=x+C'$\r\n$\\Rightarrow \\quad(x+y)-a \\tan ^{-1}\\left(\\frac{x+y}{a}\\right)$\r\n$=x+C'$ [on putting the value of t] $\\Rightarrow \\quad \\frac{y-C^{\\prime}}{a}=\\tan ^{-1}\\left(\\frac{x+y}{a}\\right)$\r\n$\\Rightarrow \\quad \\frac{x+y}{a}=\\tan \\left(\\frac{y-C^{\\prime}}{a}\\right)$\r\n$\\Rightarrow \\frac{x+y}{a}=\\tan \\left(\\frac{y+c}{a}\\right)$\r\n[where, $C=-C^{\\prime}$ is an arbitrary constant $]$ $\\Rightarrow \\quad \\tan \\left(\\frac{y+C}{a}\\right)=\\frac{x+y}{a}$"
+  }
+}

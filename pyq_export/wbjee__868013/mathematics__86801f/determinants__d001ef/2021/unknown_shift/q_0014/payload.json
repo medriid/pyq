@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0a7e939ac068d001ef",
+    "chapter_name": "Determinants",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $a_{n}(>0)$ be the $n^{\\text {th }}$ term of a G.P. then $\\left|\\begin{array}{lll}\\log a_{n} & \\log a_{n+1} & \\log a_{n+2} \\\\ \\log a_{n+3} & \\log a_{n+4} & \\log a_{n+5} \\\\ \\log a_{n+6} & \\log a_{n+7} & \\log a_{n+8}\\end{array}\\right|$ is equal to"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "$-2$",
+      "is_correct": false
+    },
+    {
+      "text": "0",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\log a_{n}=\\log \\left(a r^{n-1}\\right)=\\log a+(n-1) \\log r$\r\n<img src=\"assets\\st0014_c670a8d6f33c.png\"><br>\r\n$=\\left|\\begin{array}{ccc}\\log \\mathrm{a}+(\\mathrm{n}-1) \\log \\mathrm{r} & \\log \\mathrm{a}+\\mathrm{nlogr} & \\log \\mathrm{a}+(\\mathrm{n}+1) \\log \\mathrm{r} \\\\ 3 \\log \\mathrm{r} & 3 \\log \\mathrm{r} & 3 \\log \\mathrm{r} \\\\ 6 \\log r & 6 \\log r & 6 \\log r\\end{array}\\right|$\r\n= 0"
+  }
+}

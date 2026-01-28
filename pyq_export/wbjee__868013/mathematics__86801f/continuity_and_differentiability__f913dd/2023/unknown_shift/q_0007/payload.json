@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d10462f802c3ef913dd",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Suppose \\(f: \\mathbb{R} \\rightarrow \\mathbb{R}\\) be given by \\(f(x)=\\left\\{\\begin{array}{cc}1, \\quad \\text { if } x=1 \\\\ e^{\\left(x^{10}-1\\right)}+(x-1)^2 \\sin \\frac{1}{x-1}\\end{array}\\right., \\text { if } x \\neq 1 \\text { then }\\)"
+  },
+  "options": [
+    {
+      "text": "\\(f^{\\prime}(1)\\) does not exist",
+      "is_correct": true
+    },
+    {
+      "text": "\\(f^{\\prime}(1)\\) exists and is zero",
+      "is_correct": false
+    },
+    {
+      "text": "\\(f^{\\prime}(1)\\) exist and is 9",
+      "is_correct": false
+    },
+    {
+      "text": "\\(f^{\\prime}(1)\\) exists and is 10",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Hint: \\(f: R \\rightarrow R f(x)=\\left\\{\\begin{array}{cc} 1 & \\text { if } x=1 & \\\\  e^{\\left(x^{10}-1\\right)} &+(x-1)^2  &\\cdot \\sin \\left(\\frac{1}{x-1}\\right) \\text { if } x \\neq 1\\end{array}\\right.\\)\n\\(\\begin{aligned}\n& f\\left(1^{-}\\right)=1+0=1 \\\\\n& f\\left(1^{+}\\right)=1+0=1 \\\\\n& f(1)=1 \\\\\n& \\therefore \\quad f(x) \\text { is continuous at } x=1 \\\\\n& f^{\\prime}(x)=\\left\\{e^{\\left(x^{10}-1\\right)} \\cdot\\left(10 x^5\\right)+2(x-1) \\cdot \\sin \\left(\\frac{1}{x-1}\\right)-(x-1)^2 \\cdot \\cos \\left(\\frac{1}{x-1}\\right) \\cdot\\left(\\frac{1}{x-1}\\right)^2\\right\\}\n\\end{aligned}\\)\nwhich does not exist."
+  }
+}

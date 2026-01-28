@@ -1,0 +1,43 @@
+{
+  "index": 25,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The value of $k \\in \\mathrm{N}$ for which the integral $I_n=\\int_0^1\\left(1-x^k\\right)^n d x, n \\in \\mathbb{N}$, satisfies $147 I_{20}=148 I_{21}$ is"
+  },
+  "options": [
+    {
+      "text": "14",
+      "is_correct": false
+    },
+    {
+      "text": "8",
+      "is_correct": false
+    },
+    {
+      "text": "10",
+      "is_correct": false
+    },
+    {
+      "text": "7",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & I_n=\\int_0^1\\left(1-x^k\\right)^n \\cdot 1 d x \\\\ & I_n=\\left(1-x^k\\right)^n \\cdot x-n k \\int_0^1\\left(1-x^k\\right)^{n-1} \\cdot x^{k-1} \\cdot d x \\\\ & I_n=n k \\int_0^1\\left[\\left(1-x^k\\right)^n-\\left(1-x^k\\right)^{n-1}\\right] d x \\\\ & I_n=n k I_n-n k I_n \\\\ & \\frac{I_n}{I_{n-1}}=\\frac{n k}{n k+1} \\\\ & \\frac{I_{21}}{I_{20}}=\\frac{21 k}{1+21 k} \\\\ & =\\frac{147}{148} \\Rightarrow k=7\\end{aligned}$"
+  }
+}

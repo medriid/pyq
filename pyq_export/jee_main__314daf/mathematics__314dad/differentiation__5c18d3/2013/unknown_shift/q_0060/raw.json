@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65c56",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7d3",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-22T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (22 Apr Online)",
+      "title": "JEE Main 2013 (22 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "For $a>0, t \\in\\left(0, \\frac{\\pi}{2}\\right)$, let $x=\\sqrt{a^{\\sin ^{-1} t}}$ and $y=\\sqrt{a^{\\cos ^{-1} t}}$, Then, $1+\\left(\\frac{d y}{d x}\\right)^2$ equals :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "7qIFF",
+      "text": "\n$\\frac{x^2}{y^2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "pHqkl",
+      "text": "\n$\\frac{y^2}{x^2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "M9A5m",
+      "text": "\n$\\frac{x^2+y^2}{y^2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "JakgL",
+      "text": "\n$\\frac{x^2+y^2}{x^2}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\text { Let } x=\\sqrt{a^{\\sin ^{-1} t}} \\\\\n& \\Rightarrow \\quad x^2=a^{\\sin ^{-1} t} \\Rightarrow 2 \\log x=\\sin ^{-1} t \\cdot \\log a \\\\\n& \\Rightarrow \\quad \\frac{2}{x}=\\frac{\\log a}{\\sqrt{1-t^2}} \\cdot \\frac{d t}{d x} \\\\\n& \\Rightarrow \\quad \\frac{2 \\sqrt{1-t^2}}{x \\log a}=\\frac{d t}{d x}\n\\end{aligned}\n$$\nNow, let $y=\\sqrt{a^{\\cos ^{-1} t}}$\n$$\n\\begin{aligned}\n& \\Rightarrow 2 \\log y=\\cos ^{-1} t \\cdot \\log a \\\\\n& \\Rightarrow \\quad \\frac{2}{y} \\cdot \\frac{d y}{d x}=\\frac{-\\log a}{\\sqrt{1-t^2}} \\cdot \\frac{d t}{d x}\n\\end{aligned}\n$$\n$\\Rightarrow \\frac{2}{y} \\cdot \\frac{d y}{d x}=\\frac{-\\log a}{\\sqrt{1-t^2}} \\times \\frac{2 \\sqrt{1-t^2}}{x \\log a} \\quad$ (from(1)\n$$\n\\Rightarrow \\frac{d y}{d x}=-\\frac{y}{x}\n$$\nHence, $1+\\left(\\frac{d y}{d x}\\right)^2=1+\\left(\\frac{-y}{x}\\right)^2=\\frac{x^2+y^2}{x^2}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7d3",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-22T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (22 Apr Online)",
+    "title": "JEE Main 2013 (22 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

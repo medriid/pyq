@@ -1,0 +1,24 @@
+{
+  "index": 0,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2025 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "616023b0785fa46404399f50",
+    "chapter_name": "Motion In Two Dimensions",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A projectile of mass 200 g is launched in a viscous medium at an angle $60^{\\circ}$ with the horizontal, with an initial velocity of $270 \\mathrm{~m} / \\mathrm{s}$. It experiences a viscous drag force $\\vec{F}=-c \\vec{v}$ where the drag coefficient $c=0.1 \\mathrm{~kg} / \\mathrm{s}$ and $\\vec{v}$ is the instantaneous velocity of the projectile. The projectile hits a vertical wall after 2 s . Taking $e=2.7$, the horizontal distance of the wall from the point of projection (in m ) is"
+  },
+  "options": [],
+  "correct_answer": "170",
+  "solution": {
+    "text": "<img src=\"assets\\st0000_5e1a40b8abfb.png\"><br>$\\overrightarrow{\\mathrm{F}}_{\\mathrm{net}}=\\mathrm{m} \\frac{\\mathrm{~d} \\overrightarrow{\\mathrm{v}}}{\\mathrm{dt}}$\n$\\mathrm{mg}+\\overrightarrow{\\mathrm{F}}=\\frac{\\mathrm{md} \\overrightarrow{\\mathrm{v}}}{\\mathrm{dt}}$\n$\\mathrm{mg}-\\mathrm{C} \\overrightarrow{\\mathrm{v}}=\\frac{\\mathrm{md} \\overrightarrow{\\mathrm{v}}}{\\mathrm{dt}}$\nHorizontal direction\n$-\\mathrm{Cv}_{\\mathrm{x}}=\\frac{\\mathrm{mdv}_{\\mathrm{x}}}{\\mathrm{dt}}$\n$\\begin{aligned} & -\\frac{C}{m} \\int_0^t d t=\\int_{v_{0 x}}^{v_x} \\frac{d v_x}{v_x} \\\\ & -\\frac{t}{2}=\\ell n \\frac{v_x}{v_{0 x}} \\\\ & \\frac{d x}{d t}=v_x=v_{0 x} e^{-t / 2} \\\\ & \\int_0^{S_x} d x=v_{0 x} \\int_0^t e^{-t / 2} d t \\\\ & S_x=2 v_{0 x}\\left(1-e^{-t / 2}\\right) \\\\ & \\text { at } t=2 \\sec \\end{aligned}$\n$\\begin{aligned} & \\mathrm{S}_{\\mathrm{x}}=2 \\times 270 \\times \\cos 60^{\\circ}\\left[1-\\frac{1}{\\mathrm{e}}\\right] \\\\ & \\mathrm{S}_{\\mathrm{x}}=270\\left(1-\\frac{1}{2.7}\\right) \\\\ & =\\frac{270}{2.7} \\times(1.7) \\\\ & =170 \\mathrm{~m} \\\\ & \\mathrm{~S}_{\\mathrm{x}}=170 \\mathrm{~m}\\end{aligned}$"
+  }
+}

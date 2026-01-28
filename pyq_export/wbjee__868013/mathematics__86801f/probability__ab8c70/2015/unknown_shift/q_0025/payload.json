@@ -1,0 +1,43 @@
+{
+  "index": 25,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A person goes to office by car, scooter, bus and train, probability of which are $1 / 7,3 / 7$. $2 / 7$ and $1 / 7,$ respectively. Probability that he reaches office late, if he takes car, scooter, bus or train is $2 / 9,1 / 9,4 / 9,$ and $1 / 9,$ respectively. Given that he reached office in time, the probability that he travelled by a car, is"
+  },
+  "options": [
+    {
+      "text": "$1 / 7$",
+      "is_correct": true
+    },
+    {
+      "text": "$2 / 7$",
+      "is_correct": false
+    },
+    {
+      "text": "$3 / 7$",
+      "is_correct": false
+    },
+    {
+      "text": "$4 / 7$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let the event of person goes to office by a car, scooter, bus or train be $A, B, C$ and $D,$ respectively. We have, $P(A)=\\frac{1}{7}, P(B)=\\frac{3}{7}, P(C)=\\frac{2}{7}$\r\nand $P(D)=\\frac{1}{7}$\r\nLet $E=$ He reached office in time\r\nWe have\r\n$P\\left(\\frac{\\bar{E}}{A}\\right)=\\frac{2}{9}, P\\left(\\frac{\\bar{E}}{B}\\right)=\\frac{1}{9}, P\\left(\\frac{\\bar{E}}{C}\\right)=\\frac{4}{9}$\r\nand $P\\left(\\frac{\\bar{E}}{D}\\right)=\\frac{1}{9}$\r\n$\\begin{aligned} P\\left(\\frac{A}{E}\\right)=& P(A) \\cdot P\\left(\\frac{E}{A}\\right) \\\\ &+P(C) \\cdot P\\left(\\frac{E}{C}\\right)+P(D) \\cdot P\\left(\\frac{E}{D}\\right) \\\\ &=\\frac{\\frac{1}{7} \\cdot \\frac{7}{9}}{P(A) \\cdot P\\left(\\frac{E}{A}\\right)+P(B) \\cdot P\\left(\\frac{E}{B}\\right)} \\\\ &=\\frac{1}{7} \\cdot \\frac{7}{9}+\\frac{3}{7} \\cdot \\frac{8}{9}+\\frac{2}{7} \\cdot \\frac{5}{9}+\\frac{1}{7} \\cdot \\frac{8}{9} \\\\=& \\frac{7}{7+24+10+8}=\\frac{7}{49}=\\frac{1}{7} \\end{aligned}$"
+  }
+}

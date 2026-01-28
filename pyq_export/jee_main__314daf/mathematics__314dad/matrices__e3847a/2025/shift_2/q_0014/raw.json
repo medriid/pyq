@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eec1c8b73881fdaea29d",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d9760f",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-28T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (28 Jan Shift 2)",
+      "title": "JEE Main 2025 (28 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $A=\\left[\\begin{array}{cc}\\frac{1}{\\sqrt{2}} & -2 \\\\ 0 & 1\\end{array}\\right]$ and $P=\\left[\\begin{array}{cc}\\cos \\theta & -\\sin \\theta \\\\ \\sin \\theta & \\cos \\theta\\end{array}\\right], \\theta\\gt0$. If $\\mathrm{B}=\\mathrm{PAP}^{\\mathrm{T}}, \\mathrm{C}=\\mathrm{P}^{\\mathrm{T}} \\mathrm{B}^{10} \\mathrm{P}$ and the sum of the diagonal elements of $C$ is $\\frac{\\mathrm{m}}{\\mathrm{n}}$, where $\\operatorname{gcd}(\\mathrm{m}, \\mathrm{n})=1$, then $\\mathrm{m}+\\mathrm{n}$ is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Qyqju",
+      "text": "$127$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "sLrA0",
+      "text": "$258$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "byWWM",
+      "text": "$65$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "ApD1m",
+      "text": "$2049$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\mathrm{P}=\\left[\\begin{array}{cc}\n\\cos \\theta & -\\sin \\theta \\\\\n\\sin \\theta & \\cos \\theta\n\\end{array}\\right] \\\\\n& \\because \\mathrm{P}^{\\mathrm{T}} \\mathrm{P}=\\mathrm{I} \\\\\n& \\mathrm{~B}=\\mathrm{PAPT}\n\\end{aligned}$\n\nPre multiply by $\\mathrm{P}^{\\mathrm{T}}$ ( Given)\n$\\mathrm{P}^{\\mathrm{T}} \\mathrm{~B}=\\mathrm{P}^{\\mathrm{T}} \\mathrm{P} \\mathrm{AP}^{\\mathrm{T}}=\\mathrm{AP}^{\\mathrm{T}}$\n\nNow post multiply by P\n$\\mathrm{P}^{\\mathrm{T}} \\mathrm{BP}=\\mathrm{AP}^{\\mathrm{T}} \\mathrm{P}=\\mathrm{A}$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/ZbUzE9WwTQf-vGun3peGo50mOgS9MiWPEl_yf7YGT5Y.original.fullsize.png\"><br>\n\n\n\n$\\mathrm{A}^2=\\mathrm{P}^{\\mathrm{T}} \\mathrm{~B}^2 \\mathrm{P}$\n\nSimilarly $A^{10}=P^T B^{10} P=C$\n$\\begin{aligned}\n& A=\\left[\\begin{array}{cc}\n\\frac{1}{\\sqrt{2}} & -2 \\\\\n0 & 1\n\\end{array}\\right] \\text { (Given) } \\\\\n& \\Rightarrow A^2=\\left[\\begin{array}{cc}\n\\frac{1}{2} & -\\sqrt{2}-2 \\\\\n0 & 1\n\\end{array}\\right]\n\\end{aligned}$\n\nSimilarly check $A^3$ and so on since $C=A^{10}$ $\\Rightarrow$ Sum of diagonal elements of C is $\\left(\\frac{1}{\\sqrt{2}}\\right)^{10}+1$\n\n$\\begin{aligned} & =\\frac{1}{32}+1=\\frac{33}{32}=\\frac{\\mathrm{m}}{\\mathrm{n}} \\\\ & \\operatorname{g~cd}(\\mathrm{m}, \\mathrm{n})=1(\\text { Given }) \\\\ & \\Rightarrow \\mathrm{m}+\\mathrm{n}=65\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "ae49e291d8584dadbd3d9bd58c046a58",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/3WMtbjNsPrO9E.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/3WMtbjNsPrO9E.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d9760f",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-28T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (28 Jan Shift 2)",
+    "title": "JEE Main 2025 (28 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

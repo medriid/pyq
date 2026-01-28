@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $\\int_0^x \\sqrt{1-\\left(y^{\\prime}(t)\\right)^2} d t=\\int_0^x y(t) d t, 0 \\leq x \\leq 3, y \\geq 0, y(0)=0$. Then at $x=2, y^{\\prime \\prime}+y+1$ is equal to"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": true
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$1 / 2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\sqrt{1-\\left(y^{\\prime}(x)\\right)^2}=y(x) \\\\ & 1-\\left(\\frac{d y}{d x}\\right)^2=y^2 \\\\ & \\left(\\frac{d y}{d x}\\right)^2=1-y^2\\end{aligned}$\n$\\begin{aligned} & \\frac{d y}{\\sqrt{1-y^2}}=d x \\text { OR } \\frac{d y}{\\sqrt{1-y^2}}=-d x \\\\ & \\Rightarrow \\sin ^{-1} y=x+c, \\sin ^{-1} y=-x+c \\\\ & x=0, y=0 \\Rightarrow c=0 \\\\ & \\sin ^{-1} y=x, \\text { as } y \\geq 0 \\\\ & \\sin x=y \\\\ & \\Rightarrow \\frac{d y}{d x}=\\cos x \\\\ & \\frac{d^2 y}{d x^2}=-\\sin x \\\\ & \\Rightarrow-\\sin x+\\sin x+1=1\\end{aligned}$"
+  }
+}

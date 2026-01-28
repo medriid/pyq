@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $\\lim _{x \\rightarrow \\infty}\\left(\\left(\\frac{\\mathrm{e}}{1-\\mathrm{e}}\\right)\\left(\\frac{1}{\\mathrm{e}}-\\frac{x}{1+x}\\right)\\right)^x=\\alpha$, then the value of $\\frac{\\log _{\\mathrm{e}} \\alpha}{1+\\log _{\\mathrm{e}} \\alpha}$ equals :"
+  },
+  "options": [
+    {
+      "text": "$e^{-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{e}^2$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^{-2}$",
+      "is_correct": false
+    },
+    {
+      "text": "e",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\alpha=\\lim _{x \\rightarrow \\infty}\\left(\\left(\\frac{\\mathrm{e}}{1-\\mathrm{e}}\\right)\\left(\\frac{1}{\\mathrm{e}}-\\frac{\\mathrm{x}}{1+\\mathrm{x}}\\right)\\right)^{\\mathrm{x}}\\left(1^{\\infty} \\text { form }\\right) \\\\ & \\therefore \\alpha=\\mathrm{e}^{\\mathrm{L}} \\\\ & \\text { Where } \\mathrm{L}=\\lim _{x \\rightarrow \\infty} \\mathrm{x}\\left(\\left(\\frac{\\mathrm{e}}{1-\\mathrm{e}}\\right)\\left(\\frac{1}{\\mathrm{e}}-\\frac{\\mathrm{x}}{1+\\mathrm{x}}\\right)-1\\right) \\\\ & \\Rightarrow \\mathrm{L}=\\lim _{\\mathrm{x} \\rightarrow \\infty}\\left(\\frac{\\mathrm{e}}{1-\\mathrm{e}}\\right) \\mathrm{x}\\left(\\frac{1}{\\mathrm{e}}-\\frac{\\mathrm{x}}{1+\\mathrm{x}}-\\left(\\frac{1-\\mathrm{e}}{\\mathrm{e}}\\right)\\right) \\\\ & \\Rightarrow \\mathrm{L}=\\frac{\\mathrm{e}}{1-\\mathrm{e}} \\lim _{\\mathrm{x} \\rightarrow \\infty} \\mathrm{x}\\left(1-\\frac{\\mathrm{x}}{1+\\mathrm{x}}\\right) \\\\ & \\Rightarrow \\mathrm{L}=\\frac{\\mathrm{e}}{1-\\mathrm{e}} \\lim _{\\mathrm{x} \\rightarrow \\infty} \\frac{\\mathrm{x}}{\\mathrm{x}+1} \\\\ & \\Rightarrow \\mathrm{~L}=\\frac{\\mathrm{e}}{1-\\mathrm{e}} \\cdot 1 \\\\ & \\Rightarrow \\mathrm{~L}=\\frac{\\mathrm{e}}{1-\\mathrm{e}} \\\\ & \\therefore \\alpha=\\mathrm{e}^{\\frac{\\mathrm{e}}{1-\\mathrm{e}}} \\Rightarrow \\log \\alpha=\\frac{\\mathrm{e}}{1-\\mathrm{e}} \\\\ & \\therefore \\text { Required value }=\\frac{\\frac{\\mathrm{e}}{1-\\mathrm{e}}}{1+\\frac{\\mathrm{e}}{1-\\mathrm{e}}}=\\mathrm{e}\\end{aligned}$"
+  }
+}

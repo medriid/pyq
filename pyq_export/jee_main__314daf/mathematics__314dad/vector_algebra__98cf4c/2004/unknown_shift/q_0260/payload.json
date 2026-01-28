@@ -1,0 +1,43 @@
+{
+  "index": 260,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2004",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2004",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\bar{a}, \\bar{b}, \\bar{c}$ are non-coplanar vectors and $\\lambda$ is a real number, then the vectors $\\overline{\\mathrm{a}}+2 \\overline{\\mathrm{b}}+3 \\overline{\\mathrm{c}}, \\lambda \\overline{\\mathrm{b}}+4 \\overline{\\mathrm{c}}$ and $(2 \\lambda-1) \\overline{\\mathrm{c}}$ are non-coplanar for"
+  },
+  "options": [
+    {
+      "text": "\nall values of $\\lambda$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nall except one value of $\\lambda$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nall except two values of $\\lambda$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nno value of $\\lambda$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Condition for given three vectors to be coplanar is $\\left|\\begin{array}{ccc}1 & 2 & 3 \\\\ 0 & \\lambda & 4 \\\\ 0 & 0 & 2 \\lambda-1\\end{array}\\right|=0 \\Rightarrow \\lambda=0,1 / 2$\nHence given vectors will be non coplanar for all real values of $\\lambda$ except $0,1 / 2$"
+  }
+}

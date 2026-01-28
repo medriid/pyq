@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a24f23ac7d519f9b1b8",
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c4b",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2012-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (Paper 2)",
+      "title": "JEE Advanced 2012 (Paper 2)"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 3,
+  "question": {
+    "text": "For every integer $n$, let $a_{n}$ and $b_{n}$ be real numbers. Let function $f: I R \\rightarrow I R$ be given by\r\n\r\n$f(x)=\\left\\{\\begin{array}{lll}\r\n\r\na_{n}+\\sin \\pi x, & \\text { for } & x \\in[2 n, 2 n+1] \\\\\r\n\r\nb_{n}+\\cos \\pi x, & \\text { for } & x \\in(2 n-1,2 n)\r\n\r\n\\end{array}\\right.$\r\n\r\nfor all integers $n$. If $f$ is continuous, then which of the following hold $(s)$ for all $n$ ?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "nnPM1",
+      "text": "$a_{n-1}-b_{n-1}=0$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "XOdFZ",
+      "text": "$a_{n}-b_{n}=1$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "J0qAo",
+      "text": "$a_{n}-b_{n+1}=1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "2WcJP",
+      "text": "$a_{n-1}-b_{n}=-1$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given : $f(x)=\\left\\{\\begin{array}{ll}a_{n}+\\sin \\pi x, & x \\in[2 n, 2 n+1] \\\\ b_{n}+\\cos \\pi x, & x \\in(2 n-1,2 n)\\end{array}\\right.$\r\n\r\n$\\because f$ is continuous for all $n$\r\n\r\n$\\therefore$ At $x=2 n, \\mathrm{LHL}=\\mathrm{RHL}=f(2 n)$\r\n\r\n$\\Rightarrow b_{n}+\\cos 2 \\pi n=a_{n}+\\sin 2 \\pi n=a_{n}+\\sin 2 \\pi n$\r\n\r\n$\\Rightarrow b_{n}+1=a_{n} \\Rightarrow a_{n}-b_{n}=1, \\therefore$ option (b) is correct.\r\n\r\nAlso at $x=2 n+1, \\mathrm{LHL}=\\mathrm{RHL}=f(2 n+1)$\r\n\r\n$\\Rightarrow \\lim _{h \\rightarrow 0} a_{n}+\\sin \\pi(2 n+1-h)$\r\n\r\n$=\\lim _{h \\rightarrow 0} b_{n+1}+\\cos \\pi(2 n+1-h)=a_{n}+\\sin (2 n+1) \\pi$\r\n\r\n$\\Rightarrow a_{n}=b_{n+1}-1=a_{n} \\Rightarrow a_{n}-b_{n+1}=-1$\r\n\r\n$\\therefore$ option (c) is incorrect.\r\n\r\n$\\Rightarrow a_{n-1}-b_{n}=-1, \\therefore$ option (d) is correct.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c4b",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2012-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (Paper 2)",
+    "title": "JEE Advanced 2012 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

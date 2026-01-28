@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65a39",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7ce",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2012-05-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (12 May Online)",
+      "title": "JEE Main 2012 (12 May Online)"
+    }
+  ],
+  "question": {
+    "text": "The integral of $\\frac{x^2-x}{x^3-x^2+x-1}$ w.r.t. $x$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "1PGgI",
+      "text": "\n$\\frac{1}{2} \\log \\left(x^2+1+c\\right)$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "frf4K",
+      "text": "\n$\\frac{1}{2} \\log \\left|x^2-1\\right|+c$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Utdm2",
+      "text": "\n$\\log \\left(x^2+1+c\\right)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ETWDE",
+      "text": "\n$\\log \\left|x^2-1\\right|+c$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $I=\\int \\frac{x^2-x}{x^3-x^2+x-1} d x$\n$$\n=\\int \\frac{x(x-1)}{x^2(x-1)+(x-1)} d x=\\int \\frac{x d x}{x^2+1}\n$$\n\n$$\n\\left.=\\frac{1}{2} \\int \\frac{2 x d x}{\\left(x^2+1\\right.}\\right)\n$$\nLet $x^2+1=t \\Rightarrow 2 x d x=d t$\n$$\n\\begin{aligned}\n& \\therefore I=\\frac{1}{2} \\int \\frac{d t}{t}=\\frac{1}{2} \\log t+c \\\\\n& =\\frac{1}{2} \\log \\left(x^2+1\\right)+c\n\\end{aligned}\n$$\nwhere ' $c$ ' is the constant of integration.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7ce",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2012-05-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (12 May Online)",
+    "title": "JEE Main 2012 (12 May Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

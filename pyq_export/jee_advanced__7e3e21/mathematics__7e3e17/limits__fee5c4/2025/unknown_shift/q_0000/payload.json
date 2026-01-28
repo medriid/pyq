@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2025 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602544a0c712fd38fee5c4",
+    "chapter_name": "Limits",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $x_0$ be the real number such that $e^{x_0}+x_0=0$. For a given real number $\\alpha$, define $g(x)=\\frac{3 x e^x+3 x-\\alpha e^x-\\alpha x}{3\\left(e^x+1\\right)}$\nfor all real numbers $x$.\nThen which one of the following statements is TRUE?"
+  },
+  "options": [
+    {
+      "text": "<img src=\"assets\\ot1_0000_b3dc5127372f.png\"><br>",
+      "is_correct": false
+    },
+    {
+      "text": "<img src=\"assets\\ot2_0000_05de0b72006f.png\"><br>",
+      "is_correct": false
+    },
+    {
+      "text": "<img src=\"assets\\ot3_0000_5c42307fed90.png\"><br>",
+      "is_correct": true
+    },
+    {
+      "text": "<img src=\"assets\\ot4_0000_2212dd92a53c.png\"><br>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & e^{x_0}+x_0=0 \\\\ & g(x)=\\frac{3 x e^x+3 x-\\alpha e^x-\\alpha x}{3\\left(e^x+1\\right)} \\\\ & g(x)=x-\\frac{\\alpha\\left(e^x+x\\right)}{3\\left(e^x+1\\right)}, g(x)+e^{x_0}=x+e^{x_0}-\\frac{\\alpha}{3}\\left(\\frac{e^x+x}{e^x+1}\\right) \\\\ & g(x)+e^{x_0}=\\left(x-x_0\\right)-\\frac{\\alpha}{3}\\left(\\frac{e^x+x}{e^x+1}\\right) \\\\ & \\Rightarrow \\text { As very clear } g\\left(x_0\\right)+x_0 \\Rightarrow 0\\end{aligned}$\n$\\begin{aligned} & \\lim _{x \\rightarrow x_0}\\left|\\frac{g(x)+e^{x_0}}{x-x_0}\\right| \\frac{0 \\uparrow}{0 \\uparrow}=\\lim _{x \\rightarrow x_0}\\left|\\frac{g^{\\prime}(x)}{1}\\right|=\\left|g^{\\prime}\\left(x_0\\right)\\right| \\\\ & g^{\\prime}(x)=1-\\frac{\\alpha}{3}\\left(\\frac{\\left(e^x+1\\right)\\left(e^x+1\\right)-\\left(e^x+x\\right) e^x}{\\left(e^x+1\\right)^2}\\right) \\\\ & g^{\\prime}\\left(x_0\\right)=1-\\frac{\\alpha}{3}\\left(\\frac{\\left(e^{x_0}+1\\right)^2}{\\left(e^{x_0}+1\\right)^2}\\right)=1-\\frac{\\alpha}{3} \\\\ & \\Rightarrow \\lim _{x \\rightarrow x_0}\\left|\\frac{g(x)+e^{x_0}}{x-x_0}\\right|=\\left|g^{\\prime}\\left(x_0\\right)\\right|=\\left|1-\\frac{\\alpha}{3}\\right|\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 70,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $f$ is a real-valued differentiable function such that $f(x) f^{\\prime}(x)     < 0$ for all real $x,$ then"
+  },
+  "options": [
+    {
+      "text": "$f(x)$ must be an increasing function",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x)$ must be a decreasing function",
+      "is_correct": false
+    },
+    {
+      "text": "$|f(x)|$ must be an increasing function",
+      "is_correct": false
+    },
+    {
+      "text": "$|f(x)|$ must be a decreasing function",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given, $f(x) f^{\\prime}(x)     < 0$ $\\Rightarrow f(x)$ and $f^{\\prime}(x)$ must be of opposite sign.\r\n(i) Let $f(x)=e^{-x}$\r\n$\\therefore \\quad f^{\\prime}(x)=-e^{-x}$\r\n$\\Rightarrow f(x)>0$ and $f^{\\prime}(x) < 0, \\forall x \\in R$\r\n(ii) Let $f(x)=-e^{-x}$\r\n$\\therefore \\quad f^{\\prime}(x)=e^{-x}$\r\n$\\Rightarrow f(x) < 0$ and $f^{\\prime}(x)>0, \\forall x \\in R$\r\nBut $|f(x)|=\\left|\\pm e^{-x}\\right|=e^{-x}$ in both cases\r\n$\\therefore \\frac{d}{d x}|f(x)|=-e^{-x} < 0$ in both case, $\\forall x \\in R$\r\n$\\Rightarrow|f(x)|$ must be a decreasing function"
+  }
+}

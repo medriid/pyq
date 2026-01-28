@@ -1,0 +1,63 @@
+{
+  "_id": "64b169ecf23ac7d519f9afb4",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c43",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2008-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008 (Paper 2)",
+      "title": "JEE Advanced 2008 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $I=\\int \\frac{e^x}{e^{4 x}+e^{2 x}+1} d x, J=\\int \\frac{e^{-x}}{e^{-4 x}+e^{-2 x}+1} d x$.\nThen, for an arbitrary constant $C$, the value of $J-I$ equals",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "9V374",
+      "text": "\n$\\frac{1}{2} \\log \\left|\\frac{e^{4 x}-e^{2 x}+1}{e^{4 x}+e^{2 x}+1}\\right|+C$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "HhExW",
+      "text": "\n$\\frac{1}{2} \\log \\left|\\frac{e^{2 x}+e^x+1}{e^{2 x}-e^x+1}\\right|+C$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "IY9al",
+      "text": "\n$\\frac{1}{2} \\log \\left|\\frac{e^{2 x}-e^x+1}{e^{2 x}+e^x+1}\\right|+C$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "6ngK6",
+      "text": "\n$\\frac{1}{2} \\log \\left|\\frac{e^{4 x}+e^{2 x}+1}{e^{4 x}-e^{2 x}+1}\\right|+C$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Since, $J=\\int \\frac{e^{3 x}}{1+e^{2 x}+e^{4 x}} d x$\n$$\n\\begin{aligned}\n\\therefore J-I & =\\int \\frac{\\left(e^{3 x}-e^x\\right)}{1+e^{2 x}+e^{4 x}} d x=\\int \\frac{\\left(u^2-1\\right)}{1+u^2+u^4} d u \\\\\n& =\\int \\frac{\\left(1-\\frac{1}{u^2}\\right)}{1+\\frac{1}{u^2}+u^2} d u=\\int \\frac{\\left(1-\\frac{1}{u^2}\\right)}{\\left(u+\\frac{1}{u}\\right)^2-1} d u \\\\\n& =\\int \\frac{d t}{t^2-1} \\\\\n& =\\frac{1}{2} \\log \\left|\\frac{t-1}{t+1}\\right|+C \\\\\n& =\\frac{1}{2} \\log \\left|\\frac{u^2-u+1}{u^2+u+1}\\right|+C=\\frac{1}{2} \\log \\left|\\frac{e^{2 x}-e^x+1}{e^{2 x}+e^x+1}\\right|+C\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c43",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2008-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008 (Paper 2)",
+    "title": "JEE Advanced 2008 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

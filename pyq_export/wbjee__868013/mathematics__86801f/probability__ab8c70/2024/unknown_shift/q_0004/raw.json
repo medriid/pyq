@@ -1,0 +1,63 @@
+{
+  "_id": "67729bf3546ddd78415aaf3b",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67729a70099eafe69352f9c1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024",
+      "title": "WBJEE 2024"
+    }
+  ],
+  "question": {
+    "text": "Two integers $r$ and $s$ are drawn one at a time without replacement from the set $\\{1,2, \\ldots ., n\\}$. Then $P(r \\leq k / s \\leq k)=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "s9j8C",
+      "text": "$\\frac{\\mathrm{k}}{\\mathrm{n}}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "H7SUz",
+      "text": "$\\frac{\\mathrm{k}}{\\mathrm{n}-1}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7aAWa",
+      "text": "$\\frac{\\mathrm{k}-1}{\\mathrm{n}}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "tNQ1y",
+      "text": "$\\frac{\\mathrm{k}-1}{\\mathrm{n}-1}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint:\n$\\mathrm{p}(\\mathrm{r} \\leq \\mathrm{k} / \\mathrm{s} \\leq \\mathrm{k})=\\frac{\\mathrm{p}(\\mathrm{r} \\leq \\mathrm{k} \\cap \\mathrm{s} \\leq \\mathrm{k})}{\\mathrm{p}(\\mathrm{s} \\leq \\mathrm{k})}$\nNow, $\\mathrm{p}(\\mathrm{s} \\leq \\mathrm{k})=\\frac{\\mathrm{k}}{\\mathrm{n}}$\n$\\begin{aligned}\n& \\mathrm{p}(\\mathrm{r} \\leq \\mathrm{k} \\cap \\mathrm{s} \\leq \\mathrm{k})=\\frac{{ }^{\\mathrm{k}} C_2}{{ }^{\\mathrm{n}} C_2}=\\frac{\\mathrm{k}(\\mathrm{k}-1)}{\\mathrm{n}(\\mathrm{n}-1)} \\\\\n& \\therefore \\mathrm{p}(\\mathrm{r} \\leq \\mathrm{k} / \\mathrm{s} \\leq \\mathrm{k})=\\frac{\\frac{\\mathrm{k}(\\mathrm{k}-1)}{\\mathrm{n}(\\mathrm{n}-1)}}{\\frac{k}{n}}=\\frac{k-1}{n-1}\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67729a70099eafe69352f9c1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024",
+    "title": "WBJEE 2024"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

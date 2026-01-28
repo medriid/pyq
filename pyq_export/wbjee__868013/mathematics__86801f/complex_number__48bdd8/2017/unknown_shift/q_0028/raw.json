@@ -1,0 +1,63 @@
+{
+  "_id": "64a81435e0ff5a5425a8597c",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7c",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2017-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2017",
+      "title": "WBJEE 2017"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $z=x+i y,$ where $x$ and $y$ are real. The points $(x, y)$ in the $X-Y$ plane for which $\\frac{z+i}{z-i}$\r\nis purely imaginary, lie on",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "hfuJj",
+      "text": "a straight line",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "3YznR",
+      "text": "an ellipse",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "94HGz",
+      "text": "a hyperbola",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "ci46o",
+      "text": "a circle",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\frac{z+i}{z-i}=\\frac{(x+j)+i}{(x+i y)-i}$\r\n$=\\frac{x+(1+y) i}{x+(y-1) i}$\r\n$=\\frac{x+(y+1) i}{x+(y-1) i} \\times \\frac{x-(y-1) i}{x-(y-1) i}$\r\n$=\\frac{x^{2}-x(y-1) i+x(y+1) i-(y+1)(y-1) i^{2}}{x^{2}-(y-1)^{2} i^{2}}$\r\n$=\\frac{x^{2}+i[-x y+x+x y+x]+\\left(y^{2}-1\\right)}{x^{2}+(y-1)^{2}}$\r\n$=\\frac{x^{2}+y^{2}-1}{x^{2}+(y-1)^{2}}+\\frac{2 x}{x^{2}+(y-1)^{2}} i$\r\nNow, $\\frac{z+i}{z-i}$ is purely imaginary.\r\n$\\therefore$\r\n$\\operatorname{Re}\\left(\\frac{z+i}{z-i}\\right)=0$\r\n$\\begin{array}{lr}\\Rightarrow & \\frac{x^{2}+y^{2}-1}{x^{2}+(y-1)^{2}}=0 \\\\ \\Rightarrow & x^{2}+y^{2}=1\\end{array}$\r\n$\\therefore(x, y)$ lies on a circle.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7c",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2017-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2017",
+    "title": "WBJEE 2017"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,24 @@
+{
+  "index": 4,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2024 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "6160240548aa12a5f67c1a13",
+    "chapter_name": "Electrostatics",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "An infinitely long thin wire, having a uniform charge density per unit length of $5 \\mathrm{nC} / \\mathrm{m}$, is passing through a spherical shell of radius $1 \\mathrm{~m}$, as shown in the figure. A $10 \\mathrm{nC}$ charge is distributed uniformly over the spherical shell. If the configuration of the charges remains static, the magnitude of the potential difference between points $\\mathrm{P}$ and $\\mathrm{R}$, in Volt, is _______ .\n[Given: In SI units $\\frac{1}{4 \\pi \\epsilon_0}=9 \\times 10^9, \\ln 2=0.7$. Ignore the area pierced by the wire.]\n<img src=\"assets\\qt0004_145ea3f9a226.png\"><br>"
+  },
+  "options": [],
+  "correct_answer": 171,
+  "solution": {
+    "text": "<img src=\"assets\\st0004_4265d6e4d01f.png\">\ndue to wire\n$\\begin{aligned} & \\mathrm{dV}=-\\overrightarrow{\\mathrm{E}} \\cdot \\overrightarrow{\\mathrm{dx}} \\\\ & \\int_{\\mathrm{v}_{\\mathrm{P}}}^{\\mathrm{v}_{\\mathrm{R}}} \\mathrm{dV}=-\\int_{0.5}^2 \\frac{2 \\mathrm{k} \\lambda}{\\mathrm{x}} \\mathrm{dx} \\\\ & \\mathrm{v}_{\\mathrm{R}}-\\mathrm{v}_{\\mathrm{P}}=-2 \\mathrm{k} \\lambda \\ln \\frac{2}{0.5} \\\\ & =-2 \\times 9 \\times 10^9 \\times 3 \\times 10^{-9} \\times 2 \\times 0.7=-126 \\mathrm{~V}\\end{aligned}$\ndue to sphere\n$\\begin{aligned} & \\mathrm{v}_{\\mathrm{R}}-\\mathrm{v}_P=\\frac{\\mathrm{kQ}}{2}-\\frac{\\mathrm{kQ}}{1}=-\\frac{\\mathrm{kQ}}{2}=\\frac{-9 \\times 10^9 \\times 10 \\times 10^{-9}}{2} \\\\ &=-45 \\mathrm{~V} \\\\ & \\mathrm{v}_{\\mathrm{R}}-\\mathrm{v}_{\\mathrm{P}}=-126-45=-171 \\mathrm{~V} \\\\ & \\mathrm{v}_{\\mathrm{P}}-\\mathrm{v}_{\\mathrm{R}}=171 \\mathrm{~V}\\end{aligned}$"
+  }
+}

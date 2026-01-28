@@ -1,0 +1,58 @@
+{
+  "_id": "67a2ee86c8b73881fdaea0a4",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d97608",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-22T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (22 Jan Shift 1)",
+      "title": "JEE Main 2025 (22 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $A$ be a square matrix of order 3 such that $\\operatorname{det}(A)=-2$ and $\\operatorname{det}(3 \\operatorname{adj}(-6 \\operatorname{adj}(3 A)))=2^{\\mathrm{m}+\\mathrm{n}} \\cdot 3^{\\mathrm{mn}}, \\mathrm{m}\\gt\\mathrm{n}$. Then $4 \\mathrm{~m}+2 \\mathrm{n}$ is equal to _______",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "34",
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\text { As } A \\operatorname{adj} A=|A| l, \\operatorname{det}(\\lambda A)=\\lambda^n \\operatorname{det} A \\\\\n& \\operatorname{det}(3 \\operatorname{adj}(-6 \\operatorname{adj}(3 A)))=3^3 \\operatorname{det}(\\operatorname{adj}(-6 \\operatorname{adj}(3 A))) \\\\\n& =3^3(-6 \\operatorname{adj}(3 A))^2 \\\\\n& =3^3(-6)^6|3 A|^4 \\\\\n& =3^9 2^6 \\cdot 3^{12} \\cdot(-2)^4 \\\\\n& =3^{21} \\cdot 2^{10}\n\\end{aligned}$\n\nNow comparing with given condition\n$\\begin{aligned}\n& 2^{m+n} 3^{m n}=2^{10} \\cdot 3^{21} \\\\\n& m+n=10, m n=21 \\\\\n& \\Rightarrow \\quad m=7, n=3(m>n) \\\\\n& \\therefore \\quad 4 m+2 n=28+6=34\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "6f6ecbd1e21d4b75bd8982d707053101",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/OqweXkixLks2k.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/OqweXkixLks2k.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d97608",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-22T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (22 Jan Shift 1)",
+    "title": "JEE Main 2025 (22 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

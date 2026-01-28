@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2014 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252aaac414b50bcf64af",
+    "chapter_name": "Permutation Combination",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Six cards and six envelopes are numbered 1, 2, 3, 4, 5, 6 and cards are to be placed in envelopes so that<br />\r\n\r\n<br />\r\n\r\neach envelope contains exactly one card and no card is placed in the envelope bearing the same number and<br />\r\n\r\n<br />\r\n\r\nmore over the card numbered 1 is always placed in envelope numbered 2. Then the number of ways it can<br />\r\n\r\n<br />\r\n\r\nbe done is"
+  },
+  "options": [
+    {
+      "text": "264",
+      "is_correct": false
+    },
+    {
+      "text": "265",
+      "is_correct": false
+    },
+    {
+      "text": "53",
+      "is_correct": true
+    },
+    {
+      "text": "67",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Total number of placements of 6 cards into 6 envelopes when no card is placed in the envelope bearing the same number.<br /><math> <mrow> <mo>=</mo><mn>6</mn><mo>!</mo><mrow><mo>(</mo> <mrow> <mn>1</mn><mo>−</mo><mfrac> <mn>1</mn> <mrow> <mn>1</mn><mo>!</mo></mrow> </mfrac> <mo>+</mo><mfrac> <mn>1</mn> <mrow> <mn>2</mn><mo>!</mo></mrow> </mfrac> <mo>−</mo><mfrac> <mn>1</mn> <mrow> <mn>3</mn><mo>!</mo></mrow> </mfrac> <mo>+</mo><mfrac> <mn>1</mn> <mrow> <mn>4</mn><mo>!</mo></mrow> </mfrac> <mo>−</mo><mfrac> <mn>1</mn> <mrow> <mn>5</mn><mo>!</mo></mrow> </mfrac> <mo>+</mo><mfrac> <mn>1</mn> <mrow> <mn>6</mn><mo>!</mo></mrow> </mfrac> </mrow> <mo>)</mo></mrow></mrow> </math><br /><math> <mrow> <mo>=</mo><mn>6</mn><mo>!</mo><mrow><mo>(</mo> <mrow> <mfrac> <mn>1</mn> <mrow> <mn>2</mn><mo>!</mo></mrow> </mfrac> <mo>−</mo><mfrac> <mn>1</mn> <mrow> <mn>3</mn><mo>!</mo></mrow> </mfrac> <mo>+</mo><mfrac> <mn>1</mn> <mrow> <mn>4</mn><mo>!</mo></mrow> </mfrac> <mo>−</mo><mfrac> <mn>1</mn> <mrow> <mn>5</mn><mo>!</mo></mrow> </mfrac> <mo>+</mo><mfrac> <mn>1</mn> <mrow> <mn>6</mn><mo>!</mo></mrow> </mfrac> </mrow> <mo>)</mo></mrow></mrow> </math><br /><math> <mrow> <mo>=</mo><mn>360</mn><mo>−</mo><mn>120</mn><mo>+</mo><mn>30</mn><mo>−</mo><mn>6</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>265</mn></mrow> </math><br />Number of ways the card numbered 1 is placed among the above placements = 5 (envelope number 2, 3, 4, 5, 6)<br />So the required number of ways when card&nbsp;1 is placed&nbsp;in the envelope&nbsp;numbered 2 = 265 / 5 = 53"
+  }
+}

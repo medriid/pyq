@@ -1,0 +1,43 @@
+{
+  "index": 142,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2020 (02 Sep Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2020",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>E</mi><mi>C</mi></msup></math> denote the complement of an event <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>. Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>E</mi><mn>1</mn></msub><mo>,</mo><msub><mi>E</mi><mn>2</mn></msub></math>&nbsp;and&nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>E</mi><mn>3</mn></msub></math> be any pairwise independent events with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><msub><mi>E</mi><mn>1</mn></msub></mfenced><mo>&#62;</mo><mn>0</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><msub><mi>E</mi><mn>1</mn></msub><mo>&#8745;</mo><msub><mi>E</mi><mn>2</mn></msub><mo>&#8745;</mo><msub><mi>E</mi><mn>3</mn></msub></mrow></mfenced><mo>=</mo><mn>0</mn></math> then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mfenced><mrow><msubsup><mi>E</mi><mn>2</mn><mi>C</mi></msubsup><mo>&#8745;</mo><msubsup><mi>E</mi><mn>3</mn><mi>C</mi></msubsup></mrow></mfenced><mo>/</mo><msub><mi>E</mi><mn>1</mn></msub></mrow></mfenced></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><msubsup><mi>E</mi><mn>2</mn><mi>C</mi></msubsup></mfenced><mo>+</mo><mi>P</mi><mfenced><msub><mi>E</mi><mn>3</mn></msub></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><msubsup><mi>E</mi><mn>3</mn><mi>C</mi></msubsup></mfenced><mo>-</mo><mi>P</mi><mfenced><msubsup><mi>E</mi><mn>2</mn><mi>C</mi></msubsup></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><msub><mi>E</mi><mn>3</mn></msub></mfenced><mo>-</mo><mi>P</mi><mfenced><msubsup><mi>E</mi><mn>2</mn><mi>C</mi></msubsup></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><msubsup><mi>E</mi><mn>3</mn><mi>C</mi></msubsup></mfenced><mo>-</mo><mi>P</mi><mfenced><msub><mi>E</mi><mn>2</mn></msub></mfenced></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mfenced><mrow><msubsup><mi>E</mi><mn>2</mn><mi>C</mi></msubsup><mo>&#8745;</mo><msubsup><mi>E</mi><mn>3</mn><mi>C</mi></msubsup></mrow></mfenced><mo>/</mo><msub><mi>E</mi><mn>1</mn></msub></mrow></mfenced><mo>=</mo><mfrac><mrow><mi>P</mi><mfenced><mrow><msub><mi>E</mi><mn>1</mn></msub><mo>&#8745;</mo><mfenced><mrow><msubsup><mi>E</mi><mn>2</mn><mi>C</mi></msubsup><mo>&#8745;</mo><msubsup><mi>E</mi><mn>3</mn><mi>C</mi></msubsup></mrow></mfenced></mrow></mfenced></mrow><mrow><mi>P</mi><mo>(</mo><msub><mi>E</mi><mn>1</mn></msub><mo>)</mo></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mi>P</mi><mfenced><msub><mi>E</mi><mn>1</mn></msub></mfenced><mo>-</mo><mfenced open=\"{\" close=\"}\"><mrow><mi>P</mi><mfenced><mrow><msub><mi>E</mi><mn>1</mn></msub><mo>&#8745;</mo><msub><mi>E</mi><mn>2</mn></msub></mrow></mfenced><mo>+</mo><mi>P</mi><mfenced><mrow><msub><mi>E</mi><mn>1</mn></msub><mo>&#8745;</mo><msub><mi>E</mi><mn>3</mn></msub></mrow></mfenced><mo>-</mo><mi>P</mi><mfenced><mrow><msub><mi>E</mi><mn>1</mn></msub><mo>&#8745;</mo><msub><mi>E</mi><mn>2</mn></msub><mo>&#8745;</mo><msub><mi>E</mi><mn>3</mn></msub></mrow></mfenced></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced><msub><mi>E</mi><mn>1</mn></msub></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mi>P</mi><mfenced><msub><mi>E</mi><mn>1</mn></msub></mfenced><mo>-</mo><mi>P</mi><mfenced><mrow><msub><mi>E</mi><mn>1</mn></msub><mo>&#8745;</mo><msub><mi>E</mi><mn>2</mn></msub></mrow></mfenced><mo>-</mo><mi>P</mi><mfenced><mrow><msub><mi>E</mi><mn>1</mn></msub><mo>&#8745;</mo><msub><mi>E</mi><mn>3</mn></msub></mrow></mfenced><mo>-</mo><mn>0</mn></mrow><mrow><mi>P</mi><mfenced><msub><mi>E</mi><mn>1</mn></msub></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>-</mo><mfrac><mrow><mi>P</mi><mfenced><mrow><msub><mi>E</mi><mn>1</mn></msub><mo>&#8745;</mo><msub><mi>E</mi><mn>2</mn></msub></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced><msub><mi>E</mi><mn>1</mn></msub></mfenced></mrow></mfrac><mo>-</mo><mfrac><mrow><mi>P</mi><mfenced><mrow><msub><mi>E</mi><mn>1</mn></msub><mo>&#8745;</mo><msub><mi>E</mi><mn>3</mn></msub></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced><msub><mi>E</mi><mn>1</mn></msub></mfenced></mrow></mfrac><mo>=</mo><mn>1</mn><mo>-</mo><mi>P</mi><mfenced><mrow><msub><mi>E</mi><mn>2</mn></msub><mo>/</mo><msub><mi>E</mi><mn>1</mn></msub></mrow></mfenced><mo>-</mo><mi>P</mi><mfenced><mrow><msub><mi>E</mi><mn>3</mn></msub><mo>/</mo><msub><mi>E</mi><mn>1</mn></msub></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>-</mo><mi>P</mi><mfenced><msub><mi>E</mi><mn>2</mn></msub></mfenced><mo>-</mo><mi>P</mi><mfenced><msub><mi>E</mi><mn>3</mn></msub></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>P</mi><mfenced><msubsup><mi>E</mi><mn>3</mn><mi>C</mi></msubsup></mfenced><mo>-</mo><mi>P</mi><mfenced><msub><mi>E</mi><mn>2</mn></msub></mfenced></math>&nbsp;or&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><msubsup><mi>E</mi><mn>2</mn><mi>C</mi></msubsup></mfenced><mo>-</mo><mi>P</mi><mfenced><msub><mi>E</mi><mn>3</mn></msub></mfenced></math></p>"
+  }
+}

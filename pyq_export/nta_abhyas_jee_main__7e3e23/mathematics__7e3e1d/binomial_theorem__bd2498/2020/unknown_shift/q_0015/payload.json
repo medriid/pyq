@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025320696c5af2bbd2498",
+    "chapter_name": "Binomial Theorem",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The term independent of <math><mi>x</mi></math> in the expansion of <math><msup><mrow><mo>(</mo><mn>1</mn><mo>-</mo><mi>x</mi><mo>)</mo></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac><mo>)</mo></mrow><mrow><mn>10</mn></mrow></msup><mi mathvariant=\"normal\"></mi></math> is"
+  },
+  "options": [
+    {
+      "text": "<math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>10</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>5</mn></mrow></msub></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>10</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>6</mn></mrow></msub></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>11</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>5</mn></mrow></msub></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>17</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>7</mn></mrow></msub></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have,&nbsp;<math><msup><mrow><mo>(</mo><mn>1</mn><mo>-</mo><mi>x</mi><mo>)</mo></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac><mo>)</mo></mrow><mrow><mn>10</mn></mrow></msup><mi></mi></math><br /><math> <mrow> <mo>=</mo><mfenced> <mrow> <mn>1</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><msup> <mi>x</mi> <mn>2</mn> </msup> </mrow> </mfenced><mfenced> <mrow> <msup> <mi>x</mi> <mrow> <mn>10</mn></mrow> </msup> <mo>+</mo><mmultiscripts> <mi>C</mi> <mprescripts></mprescripts> <none></none> <mrow> <mn>10</mn></mrow> </mmultiscripts> <msub> <mrow></mrow> <mn>1</mn> </msub> <msup> <mi>x</mi> <mn>9</mn> </msup> <mo>·</mo><mfrac> <mn>1</mn> <mi>x</mi> </mfrac> <mo>+</mo><mmultiscripts> <mi>C</mi> <mprescripts></mprescripts> <none></none> <mrow> <mn>10</mn></mrow> </mmultiscripts> <msub> <mrow></mrow> <mn>2</mn> </msub> <msup> <mi>x</mi> <mn>8</mn> </msup> <mo>×</mo><mfrac> <mn>1</mn> <mrow> <msup> <mi>x</mi> <mn>2</mn> </msup> </mrow> </mfrac> <mo>+</mo><mn>...</mn><mo>+</mo><mfrac> <mn>1</mn> <mrow> <msup> <mi>x</mi> <mrow> <mn>10</mn></mrow> </msup> </mrow> </mfrac> </mrow> </mfenced></mrow> </math><br /><math> <mrow> <mo>=</mo><mfenced> <mrow> <mn>1</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><msup> <mi>x</mi> <mn>2</mn> </msup> </mrow> </mfenced><mfenced> <mrow> <msup> <mi>x</mi> <mrow> <mn>10</mn></mrow> </msup> <mo>+</mo><mmultiscripts> <mi>C</mi> <mprescripts></mprescripts> <none></none> <mrow> <mn>10</mn></mrow> </mmultiscripts> <msub> <mrow></mrow> <mn>1</mn> </msub> <msup> <mi>x</mi> <mn>8</mn> </msup> <mo>+</mo><mmultiscripts> <mi>C</mi> <mprescripts></mprescripts> <none></none> <mrow> <mn>10</mn></mrow> </mmultiscripts> <msub> <mrow></mrow> <mn>2</mn> </msub> <msup> <mi>x</mi> <mn>6</mn> </msup> <mo>+</mo><mn>...</mn><msup> <mo>+</mo> <mrow> <mn>10</mn></mrow> </msup> <msub> <mi>C</mi> <mn>9</mn> </msub> <mo>×</mo><mfrac> <mn>1</mn> <mrow> <msup> <mi>x</mi> <mn>8</mn> </msup> </mrow> </mfrac> <mo>+</mo><mfrac> <mn>1</mn> <mrow> <msup> <mi>x</mi> <mrow> <mn>10</mn></mrow> </msup> </mrow> </mfrac> </mrow> </mfenced></mrow> </math><br />So, the term independent of <math><mi>x</mi></math> is<br /><math> <mrow> <mmultiscripts> <mi>C</mi> <mprescripts></mprescripts> <none></none> <mrow> <mn>10</mn></mrow> </mmultiscripts> <msub> <mrow></mrow> <mn>5</mn> </msub> <mo>+</mo><mfenced> <mrow> <mo>−</mo><mn>2</mn></mrow> </mfenced><mo>×</mo><mn>0</mn><mo>+</mo><mmultiscripts> <mi>C</mi> <mprescripts></mprescripts> <none></none> <mrow> <mn>10</mn></mrow> </mmultiscripts> <msub> <mrow></mrow> <mn>6</mn> </msub> <mo>=</mo><mmultiscripts> <mi>C</mi> <mprescripts></mprescripts> <none></none> <mrow> <mn>10</mn></mrow> </mmultiscripts> <msub> <mrow></mrow> <mn>5</mn> </msub> <mo>+</mo><mmultiscripts> <mi>C</mi> <mprescripts></mprescripts> <none></none> <mrow> <mn>10</mn></mrow> </mmultiscripts> <msub> <mrow></mrow> <mn>6</mn> </msub> </mrow> </math><br /><math><mo>=</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>11</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>5</mn></mrow></msub></math>"
+  }
+}

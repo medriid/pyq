@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a1ef23ac7d519f9b17c",
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c4a",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (Paper 1)",
+      "title": "JEE Advanced 2012 (Paper 1)"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $\\mathrm{S}$ be the area of the region enclosed by $y=e^{-x^{2}}$, $y=0, x=0$ and $x=1$; then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "7t04D",
+      "text": "$S \\geq \\frac{1}{e}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "aRKW2",
+      "text": "$S \\geq 1-\\frac{1}{e}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "Uip9b",
+      "text": "$S \\leq \\frac{1}{4}\\left(1+\\frac{1}{\\sqrt{e}}\\right)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "yb0OO",
+      "text": "$S \\leq \\frac{1}{\\sqrt{2}}+\\frac{1}{\\sqrt{e}}\\left(1-\\frac{1}{\\sqrt{2}}\\right)$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "The given curve $y=e^{-x^{2}}$ Draw a rough sketch of curve at $x=0, y=1$ and at $x=1, y=1 / e$ $\\because y=e^{-x^{2}}$ $\\Rightarrow \\frac{d y}{d x}=-2 x e^{-x^{2}} < 0 \\quad \\forall x \\in(0,1)$\r\n\r\n$\\therefore y=e^{-x^{2}}$ is decreasing on $(0,1)$\r\n\r\nHence its graph is as shown in figure given below<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/EsW5pZYCySy0dpsUUr6Q7PG_G-p7oYK6ONlT1YJfaKg.original.fullsize.png\"><br>\r\n\r\nNow, $\\mathrm{S}=$ area exclosed by curve $=\\mathrm{XYCO}$\r\n\r\nand area of rectangle $\\mathrm{OCYL}=\\frac{1}{e}$\r\n\r\nClearly $S>\\frac{1}{e} \\quad \\therefore$ a is true.\r\n\r\nFor $x \\in[0,1] \\Rightarrow x^{2} < x$\r\n\r\n$\\begin{array}{l}\r\n\r\n\\Rightarrow-x^{2}>-x \\quad \\Rightarrow e^{-x^{2}} \\geq e^{-x} \\forall x \\in[0,1] \\\\\r\n\r\n\\Rightarrow \\int_{0}^{1} e^{-x^{2}} d x>\\int_{0}^{1} e^{-x} d x=1-\\frac{1}{e} \\\\\r\n\r\n\\Rightarrow S>1-\\frac{1}{e} \\quad \\therefore \\text { (b) is true. }\r\n\r\n\\end{array}$\r\n\r\nNow $S < $ area of rectangle $\\mathrm{XADO}+$ area of rectangle $\\mathrm{ZDCN}$ $\\Rightarrow S < \\frac{1}{\\sqrt{2}} \\times 1+\\left(1-\\frac{1}{\\sqrt{2}}\\right) \\frac{1}{\\sqrt{e}}$ $\\therefore S < \\frac{1}{\\sqrt{2}}+\\frac{1}{\\sqrt{e}}\\left(1-\\frac{1}{\\sqrt{2}}\\right) \\quad \\because(\\mathrm{d})$ is true\r\n\r\nAlso as $\\frac{1}{4}\\left(1+\\frac{1}{\\sqrt{e}}\\right) < 1-\\frac{1}{e} \\quad \\therefore$ (c) is incorrect.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c4a",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (Paper 1)",
+    "title": "JEE Advanced 2012 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

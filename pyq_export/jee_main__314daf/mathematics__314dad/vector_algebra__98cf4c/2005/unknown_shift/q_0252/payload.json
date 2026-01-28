@@ -1,0 +1,43 @@
+{
+  "index": 252,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\vec{a}, \\vec{b}, \\vec{c}$ are non-coplanar vectors and $\\lambda$ is a real number then $\\left[\\lambda(\\vec{a}+\\vec{b}) \\lambda^2 \\vec{b} \\lambda \\vec{c}\\right]=[\\vec{a} \\vec{b}+\\vec{c} \\vec{b}]$ for"
+  },
+  "options": [
+    {
+      "text": "\nexactly one value of $\\lambda$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nno value of $\\lambda$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nexactly three values of $\\lambda$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nexactly two values of $\\lambda$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& {\\left[\\begin{array}{lll}\n\\lambda(\\vec{a}+\\vec{b}) & \\lambda^2 \\vec{b} & \\lambda \\vec{c}\n\\end{array}\\right]=\\left[\\begin{array}{lll}\n\\vec{a} & \\vec{b}+\\vec{c} & \\vec{b}\n\\end{array}\\right]} \\\\\n& \\left|\\begin{array}{ccc}\n\\lambda & \\lambda & 0 \\\\\n0 & \\lambda^2 & 0 \\\\\n0 & 0 & \\lambda\n\\end{array}\\right|=\\left|\\begin{array}{lll}\n1 & 0 & 0 \\\\\n0 & 1 & 1 \\\\\n0 & 1 & 0\n\\end{array}\\right| \\\\\n& \\Rightarrow \\lambda^4=-1 \\\\\n&\n\\end{aligned}\n$$\nHence no real value of $\\lambda$."
+  }
+}

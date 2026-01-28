@@ -1,0 +1,63 @@
+{
+  "_id": "64a813fde0ff5a5425a85768",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "The solution of the differential equation $y \\frac{d y}{d x}=x\\left[\\frac{y^{2}}{x^{2}}+\\frac{\\phi\\left(\\frac{y^{2}}{x^{2}}\\right)}{\\phi^{\\prime}\\left(\\frac{y^{2}}{x^{2}}\\right)}\\right]$ is (where, $c$ is a constant)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "dTsnP",
+      "text": "$\\phi\\left(\\frac{y^{2}}{x^{2}}\\right)=c x$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "x5Ii0",
+      "text": "$x \\phi\\left(\\frac{y^{2}}{x^{2}}\\right)=c$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "NfsTA",
+      "text": "$\\phi\\left(\\frac{y^{2}}{x^{2}}\\right)=c x^{2}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "d8vda",
+      "text": "$x^{2} \\phi\\left(\\frac{y^{2}}{x^{2}}\\right)=c$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given differential equation can be rewritten as\r\n$$\r\n\\frac{d y}{d x}=\\frac{y}{x}+\\frac{x \\phi\\left(\\frac{y^{2}}{x^{2}}\\right)}{y \\phi^{\\prime}\\left(\\frac{y^{2}}{x^{2}}\\right)}\r\n$$\r\nPut $y=v x \\Rightarrow \\frac{d y}{d x}=v+x \\frac{d v}{d x}$\r\n$\\therefore$ Given equation becomes.\r\n$$\r\nv+x \\frac{d v}{d x}=\\frac{v x}{x}+\\frac{x \\phi\\left(\\frac{v^{2} x^{2}}{x^{2}}\\right)}{v x \\phi^{\\prime}\\left(\\frac{v^{2} x^{2}}{x^{2}}\\right)}\r\n$$\r\n$\\Rightarrow \\quad x \\frac{d v}{d x}=\\frac{\\phi\\left(v^{2}\\right)}{v \\phi^{\\prime}\\left(v^{2}\\right)}$\r\n$\\Rightarrow \\quad \\frac{v \\psi^{\\prime}\\left(v^{2}\\right)}{\\phi\\left(v^{2}\\right)} d v=\\frac{d x}{x}$\r\nOn integrating both sides, we get\r\n$$\r\n\\frac{1}{2} \\log \\phi\\left(v^{2}\\right)=\\log x+\\log c_{1}\r\n$$\r\n$\\Rightarrow \\quad \\log \\phi\\left(v^{2}\\right)=2 \\log x c_{1}$\r\n$\\Rightarrow \\quad \\phi\\left(v^{2}\\right)=\\left(x c_{1}\\right)^{2} \\Rightarrow \\phi\\left(\\frac{y^{2}}{x^{2}}\\right)=x^{2} c_{1}^{2}$\r\n$\\Rightarrow \\quad \\phi\\left(\\frac{y^{2}}{x^{2}}\\right)=x^{2} c \\quad$ (put $\\left.c_{1}^{2}=c\\right]$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

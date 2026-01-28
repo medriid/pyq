@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65d05",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-25T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (25 Apr Online)",
+      "title": "JEE Main 2013 (25 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "If for positive integers $r>1, n>2$, the coefficients of the $(3 r)^{\\text {th }}$ and $(r+2)^{\\text {th }}$ powers of $x$ in the expansion of $(1+x)^{2 n}$ are equal, then $n$ is equal to:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "2uiYp",
+      "text": "\n$2 r+1$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "5BzgM",
+      "text": "\n$2 r-1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Ceqwl",
+      "text": "\n$3 r$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "OxgSC",
+      "text": "\n $r+1$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Expansion of $(1+x)^{2 n}$ is $1+{ }^{2 n} \\mathrm{C}_1 x+{ }^{2 n} \\mathrm{C}_2 x^2$ $+\\ldots \\ldots .+{ }^{2 n} \\mathrm{C}_r x^n+{ }^{2 n} \\mathrm{C}_{r+1} x^{n+1}+\\ldots \\ldots+{ }^{2 n} \\mathrm{C}_{2 n} x^{2 n}$ As given ${ }^{2 n} \\mathrm{C}_{r+2}={ }^{2 n} \\mathrm{C}_{3 r}$\n$$\n\\begin{aligned}\n&\\Rightarrow \\frac{(2 n) !}{(r+2) !(2 n-r-2) !}=\\frac{(2 n) !}{(3 r) !(2 n-3 r) !} \\\\\n&\\Rightarrow(3 r) !(2 n-3 r) !=(r+2) !(2 n-r-2) !\n\\end{aligned}\n$$\nNow, put value of $n$ from the given choices.\nChoice (a) put $n=2 r+1$ in (1)\nLHS : $(3 r) !(4 r+2-3 r) !=(3 r) !(r+2) !$\nRHS : $(r+2) !(3 r) !$\n$$\n\\Rightarrow \\text { LHS }=\\text { RHS }\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-25T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (25 Apr Online)",
+    "title": "JEE Main 2013 (25 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

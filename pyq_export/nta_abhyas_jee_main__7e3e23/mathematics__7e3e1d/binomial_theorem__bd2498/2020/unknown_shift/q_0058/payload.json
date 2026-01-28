@@ -1,0 +1,43 @@
+{
+  "index": 58,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025320696c5af2bbd2498",
+    "chapter_name": "Binomial Theorem",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of different terms in the expansion of <math><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced></mrow><mrow><mn>201</mn></mrow></msup><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>x</mi><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfenced></mrow><mrow><mn>200</mn></mrow></msup></math> is"
+  },
+  "options": [
+    {
+      "text": "<math> <mrow>  <mn>200</mn></mrow></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow>  <mn>201</mn></mrow></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow>  <mn>202</mn></mrow></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow>  <mn>402</mn></mrow></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<math><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfenced></mrow><mrow><mn>200</mn></mrow></msup></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mmultiscripts><mi>C</mi><mn>0</mn><none></none><mprescripts></mprescripts><mi>&nbsp;</mi><mn>200</mn></mmultiscripts><mo>-</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><mi>&nbsp;</mi><mn>200</mn></mmultiscripts><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mo>…</mo><mo>…</mo><mo>…</mo><mo>…</mo><mo>.</mo></mrow></mfenced></math><br /><br />So, number of required terms&nbsp;<math><mo>=</mo><mn>2</mn><mo>×</mo><mn>201</mn><mo>=</mo><mn>402</mn></math>"
+  }
+}

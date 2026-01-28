@@ -1,0 +1,63 @@
+{
+  "_id": "64b169ddf23ac7d519f9af2a",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c41",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2007-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2007 (Paper 2)",
+      "title": "JEE Advanced 2007 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "If $|z|=1$ and $z \\neq \\pm 1$, then all the values of $\\frac{z}{1-z^2}$ lie on",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "wFk8A",
+      "text": "\na line not passing through the origin\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "HF6wQ",
+      "text": "\n$|z|=\\sqrt{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "FevKG",
+      "text": "\nthe X-axis\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "h4yrJ",
+      "text": "\nthe Y-axis",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $z=\\cos \\theta+i \\sin \\theta$\n$$\n\\begin{aligned}\n\\frac{z}{1-z^2} & =\\frac{\\cos \\theta+i \\sin \\theta}{1-(\\cos 2 \\theta+i \\sin 2 \\theta)} \\\\\n& =\\frac{\\cos \\theta+i \\sin \\theta}{2 \\sin ^2 \\theta-2 i \\sin \\theta \\cos \\theta} \\\\\n& =\\frac{\\cos \\theta+i \\sin \\theta}{-2 i \\sin \\theta(\\cos \\theta+i \\sin \\theta)} \\\\\n& =\\frac{i}{2 \\sin \\theta}\n\\end{aligned}\n$$\nHence, $\\frac{z}{1-z^2}$ lies on the imaginary axis, i.e. $x=0$.\nALITER\nLet\n$E=\\frac{z}{1-z^2}=\\frac{z}{z \\bar{z}-z^2}=\\frac{1}{\\bar{z}-z}$ which is imaginary.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c41",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2007-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2007 (Paper 2)",
+    "title": "JEE Advanced 2007 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

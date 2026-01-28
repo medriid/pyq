@@ -1,0 +1,43 @@
+{
+  "index": 182,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2019 (12 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If <math><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>+</mo><mo>(</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>)</mo><mtext>&#8201;</mtext><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>+</mo><mo>(</mo><msup><mrow><mn>3</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>)</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>3</mn></mrow></msub><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><mfenced separators=\"|\"><mrow><msup><mrow><mn>20</mn></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfenced><mtext>&#8201;</mtext><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>20</mn></mrow></msub><mo>=</mo><mi>A</mi><mfenced separators=\"|\"><mrow><msup><mrow><mn>2</mn></mrow><mrow><mi>&#946;</mi></mrow></msup></mrow></mfenced><mo>,</mo></math> then the ordered pair <math><mo>(</mo><mi>A</mi><mo>,</mo><mi>&#946;</mi><mo>)</mo></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><mfenced separators=\"|\"><mrow><mn>380</mn><mo>,</mo><mi> </mi><mn>19</mn></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mo>(</mo><mn>420</mn><mo>,</mo><mi> </mi><mn>18</mn><mo>)</mo></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mo>(</mo><mn>420</mn><mo>,</mo><mi> </mi><mn>19</mn><mo>)</mo></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mo>(</mo><mn>380</mn><mo>,</mo><mi> </mi><mn>18</mn><mo>)</mo></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<math><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow><mrow><mi>n</mi></mrow></msup><mo>=</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>0</mn></mrow></msub><mo>+</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><mi>x</mi><mo>+</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>n</mi></mrow></msub><msup><mrow><mi>x</mi></mrow><mrow><mi>n</mi></mrow></msup></math><br />Diff. w. r. t. <math><mi>x</mi></math><br /><math><mo>&#8658;</mo><mi>n</mi><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><mtext>&#8201;</mtext><mo>+</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>(</mo><mn>2</mn><mi>x</mi><mo>)</mo><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>n</mi></mrow></msub><mi>n</mi><msup><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></math><br />Multiply by <math><mi>x</mi></math> both side<br /><math><mo>&#8658;</mo><mi>n</mi><mi>x</mi><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><mi>x</mi><mo>+</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><mfenced separators=\"|\"><mrow><mn>2</mn><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfenced><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>n</mi></mrow></msub><mfenced separators=\"|\"><mrow><mi>n</mi><msup><mrow><mi>x</mi></mrow><mrow><mi>n</mi></mrow></msup></mrow></mfenced></math><br />Diff. w. r. t. <math><mi>x</mi></math><br /><math><mo>&#8658;</mo><mi>n</mi><mo>[</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>+</mo><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>)</mo><mi>x</mi><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></msup><mo>]</mo><mtext>&#8201;</mtext><mo>=</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><mtext>&#8201;</mtext><mo>+</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><msup><mrow><mn>2</mn></mrow><mrow><mn>2</mn></mrow></msup><mi>X</mi><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>(</mo><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>)</mo><msup><mrow><mi>x</mi></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></math><br />Put <math><mi>x</mi><mo>=</mo><mn>1</mn></math> and <math><mi>n</mi><mo>=</mo><mn>20</mn></math><br /><math><mo>&#8658;</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>+</mo><mtext>&#8201;</mtext><msup><mrow><mn>2</mn></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi>&#160;</mi></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>+</mo><mtext>&#8201;&#8201;</mtext><msup><mrow><mn>3</mn></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi>&#160;</mi></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>3</mn></mrow></msub><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><msup><mrow><mo>(</mo><mn>20</mn><mo>)</mo></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi>&#160;</mi></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>20</mn></mrow></msub></math><br /><math><mo>=</mo><mn>20</mn><mo>&#215;</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>18</mn></mrow></msup><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mn>2</mn><mo>+</mo><mn>19</mn></mrow></mfenced><mo>=</mo><mn>420</mn><mfenced separators=\"|\"><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>18</mn></mrow></msup></mrow></mfenced><mo>=</mo><mi>A</mi><mfenced separators=\"|\"><mrow><msup><mrow><mn>2</mn></mrow><mrow><mi>&#946;</mi></mrow></msup></mrow></mfenced></math><br />Hence, <math><mfenced separators=\"|\"><mrow><mi>A</mi><mo>,</mo><mi>&#946;</mi></mrow></mfenced><mo>=</mo><mo>(</mo><mn>420</mn><mo>,</mo><mi>&#160;</mi><mn>18</mn><mo>)</mo></math>"
+  }
+}

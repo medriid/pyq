@@ -1,0 +1,43 @@
+{
+  "index": 72,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2013 (23 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025537539c1075ba01de6",
+    "chapter_name": "Inverse Trigonometric Functions",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$S=\\tan ^{-1}\\left(\\frac{1}{n^2+n+1}\\right)+\\tan ^{-1}\\left(\\frac{1}{n^2+3 n+3}\\right)+\\ldots$ $+\\tan ^{-1}\\left(\\frac{1}{1+(n+19)(n+20)}\\right)$, then $\\tan S$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{20}{401+20 n}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{n}{n^2+20 n+1}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{20}{n^2+20 n+1}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{n}{401+20 n}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We know that,\n$$\n\\begin{array}{r}\n\\tan ^{-1} \\frac{1}{1+2}+\\tan ^{-1} \\frac{1}{1+2 \\times 3}+\\tan ^{-1} \\frac{1}{1+3 \\times 4}+\\ldots \\ldots+ \\\\\n\\tan ^{-1} \\frac{1}{1+(n-1) n}+\\tan ^{-1} \\frac{1}{1+n(n+1)}+\\ldots \\ldots+ \\\\\n\\tan ^{-1} \\frac{1}{1+(n+19)(n+20)}=\\tan ^{-1} \\frac{n+19}{n+21} \\\\\n\\Rightarrow \\tan ^{-1} \\frac{n-1}{n+1}+\\tan ^{-1} \\frac{1}{1+n(n+1)}+\\tan ^{-1} \\frac{1}{1+(n+1)(n+2)} \\\\\n+\\ldots \\ldots+\\frac{1}{1+(n+19)(n+20)}=\\tan ^{-1} \\frac{n+19}{n+21} \\\\\n\\tan ^{-1} \\frac{1}{1+n(n+1)}+\\tan ^{-1} \\frac{1}{1+(n+1)(n+2)}+\\ldots \\ldots+ \\\\\n\\frac{1}{1+(n+19)(n+20)}=\\tan ^{-1} \\frac{n+19}{n+21}-\\tan ^{-1} \\frac{n-1}{n+1}\n\\end{array}\n$$\n\n$$\n\\begin{aligned}\n& \\tan ^{-1}\\left(\\frac{1}{n^2+n+1}\\right)+\\tan ^{-1}\\left(\\frac{1}{n^2+3 n+3}\\right)+\\ldots \\ldots+ \\\\\n& \\quad=\\tan ^{-1}\\left(\\frac{\\frac{n+19}{n+21}-\\frac{n-1}{n+1}}{1+\\frac{n+19}{n+21} \\times \\frac{n-1}{n+1}}\\right) \\\\\n& \\quad=\\tan ^{-1} \\frac{1}{1+(n+19)(n+20)} \\frac{20}{n^2+20 n+1}=\\mathrm{S} \\\\\n& \\therefore \\quad \\tan ^{-1} \\mathrm{~S}=\\frac{20}{n^2+20 n+1}\n\\end{aligned}\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0a7e939ac068d001ef",
+    "chapter_name": "Determinants",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let \\(\\alpha, \\beta\\) be the roots of the equation \\(a x^2+b x+c=0, a, b, c\\) real and \\(s_n=\\alpha^n+\\beta^n\\) and \\(\\left|\\begin{array}{ccc}3 & 1+s_1 & 1+s_2 \\\\ 1+s_1 & 1+s_2 & 1+s_3 \\\\ 1+s_2 & 1+s_3 & 1+s_4\\end{array}\\right|=k \\frac{(a+b+c)^2}{a^4}\\) then \\(k=\\)"
+  },
+  "options": [
+    {
+      "text": "\\(b^2-4 a c\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(b^2+4 a c\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(b^2+2 a c\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(4 a c-b^2\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Hint: \\(\\left|\\begin{array}{ccc}3 & 1+s_1 & 1+s_2 \\\\ 1+s_1 & 1+s_2 & 1+s_3 \\\\ 1+s_2 & 1+s_3 & 1+s_4\\end{array}\\right|\\)\n\\(=\\left|\\begin{array}{ccc}\n1+1+1 & 1+\\alpha+\\beta & 1+\\alpha^2+\\beta^2 \\\\\n1+\\alpha+\\beta & 1+\\alpha^2+\\beta^2 & 1+\\alpha^3+\\beta^3 \\\\\n1+\\alpha^2+\\beta^2 & 1+\\alpha^3+\\beta^3 & 1+\\alpha^4+\\beta^4\n\\end{array}\\right|\\)\n\\(\\begin{aligned} & =\\left|\\begin{array}{ccc}1 & 1 & 1 \\\\ 1 & \\alpha & \\beta \\\\ 1 & \\alpha^2 & \\beta^2\\end{array}\\right| \\times\\left|\\begin{array}{ccc}1 & 1 & 1 \\\\ 1 & \\alpha & \\alpha^2 \\\\ 1 & \\beta & \\beta^2\\end{array}\\right| \\\\ & =\\{(1-\\alpha)(\\alpha-\\beta)(1-\\beta)\\}^2 \\\\ & =(1-(\\alpha+\\beta)+\\alpha \\beta)^2(\\alpha-\\beta)^2 \\\\ & =\\left(1+\\frac{b}{a}+\\frac{c}{a}\\right)^2\\left(\\frac{b^2}{a^2}-\\frac{4 c}{a}\\right) \\\\ & =\\frac{(a+b+c)^2}{a^2} \\times \\frac{b^2-4 a c}{a^2}=\\left(b^2-4 a c\\right) \\frac{(a+b+c)^2}{a^4} \\\\ & \\therefore k=b^2-4 a c\\end{aligned}\\)"
+  }
+}

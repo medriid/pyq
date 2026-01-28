@@ -1,0 +1,63 @@
+{
+  "_id": "67729bee546ddd78415aaf1c",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67729a70099eafe69352f9c1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024",
+      "title": "WBJEE 2024"
+    }
+  ],
+  "question": {
+    "text": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a differentiable function and $f(1)=4$. Then the value of $\\lim _{x \\rightarrow 1} \\int_4^{f(x)} \\frac{2 t}{x-1} d t$, if $f^{\\prime}(1)=2$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "WSYY6",
+      "text": "16",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "nBURB",
+      "text": "8",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "hIMMp",
+      "text": "4",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ax4GI",
+      "text": "2",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint : $\\operatorname{Lim}_{x \\rightarrow 1} \\int_4^{f(x)} \\frac{2 t}{x-1} d t,=\\operatorname{Lim}_{x \\rightarrow 1}\\left[\\frac{t^2}{x-1}\\right]_4^{f(x)}$\n$\\begin{aligned}\n& ==\\operatorname{Lim}_{x \\rightarrow 1} \\frac{[f(x)]^2-4^2}{x-1} \\quad\\left(\\frac{0}{0} \\text { form }\\right)[\\because f(1)=4] \\\\\n& =\\operatorname{Lim}_{x \\rightarrow 1} \\frac{2 f(x) f^{\\prime}(x)}{1}=2 f(1) f^{\\prime}(1)=2(4)(2)=16\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67729a70099eafe69352f9c1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024",
+    "title": "WBJEE 2024"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

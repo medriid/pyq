@@ -1,0 +1,43 @@
+{
+  "index": 227,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 1 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2018",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The value of the integral\n$$\n\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\sin ^4 x\\left(1+\\log \\left(\\frac{2+\\sin x}{2-\\sin x}\\right)\\right) d x \\text { is }\n$$"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{3}{16} \\pi$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n 0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{3}{8} \\pi$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{3}{4}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let\n$$\n\\begin{aligned}\nI &=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\sin ^4 x\\left(1+\\log \\left(\\frac{2+\\sin x}{2-\\sin x}\\right)\\right) d x \\ldots .(1) \\\\\n\\Rightarrow I &\\left.=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\sin ^4(-x)\\right)\\left(1+\\log \\left(\\frac{2+\\sin (-x)}{2-\\sin (-x)}\\right)\\right) \\cdot d x \\\\\n&=\\left[\\because \\int_a^b f(x) . d x=\\int_a^b f(a+b-x) \\cdot d x\\right]\n\\end{aligned}\n$$\n$$\n\\begin{aligned}\n&=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\left(\\sin ^4 x\\right)\\left(1+\\log \\left(\\frac{2-\\sin x}{2+\\sin x}\\right)\\right) \\cdot d x \\\\\n&=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\sin ^4 x\\left(1-\\log \\left(\\frac{2+\\sin x}{2-\\sin x}\\right)\\right) \\cdot d x \\ldots .(2)\n\\end{aligned}\n$$\nAfter adding equation (1) and (2) we get,\n$$\n\\begin{aligned}\n&2 I=2 \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\sin ^4 x \\cdot d x \\\\\n&2 I=4 \\int_0^{\\frac{\\pi}{2}} \\sin ^4 x \\cdot d x \\\\\n&I=2 \\int_0^{\\frac{\\pi}{2}} \\sin ^4 x \\cdot d x=\\frac{\\frac{3}{2} \\times \\frac{1}{2} \\times \\pi}{2 \\times 2}=\\frac{3 \\pi}{8} \\\\\n&{[\\text { By Gamma function] }}\n\\end{aligned}\n$$"
+  }
+}

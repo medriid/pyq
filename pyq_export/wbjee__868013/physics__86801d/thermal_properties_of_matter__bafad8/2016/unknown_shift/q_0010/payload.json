@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c81150b027922bafad8",
+    "chapter_name": "Thermal Properties of Matter",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The temperature of the water of a pond is $0^{\\circ} \\mathrm{C}$ while that of the surrounding atmosphere is $-20^{\\circ} \\mathrm{C}$. If the density of ice is $\\rho$ coefficient of thermal conductivity is $k$ and latent heat of melting is $L,$ then the thickness $Z$ of ice layer formed increases as a function of time $t$ is"
+  },
+  "options": [
+    {
+      "text": "$Z^{2}=\\frac{60 k}{\\rho L} t$",
+      "is_correct": false
+    },
+    {
+      "text": "$Z=\\sqrt{\\frac{40 k}{\\rho L} t}$",
+      "is_correct": false
+    },
+    {
+      "text": "$Z^{2}=\\frac{40 k}{\\rho l} \\sqrt{t}$",
+      "is_correct": false
+    },
+    {
+      "text": "$Z^{2}=\\frac{40 k}{\\rho L} t$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Temperature of water $=0^{\\circ} \\mathrm{C}$ \r\nTemperature of surrounding atmosphere $=-20^{\\circ} \\mathrm{C}$\r\nDensity of ice $=\\rho$\r\nCoefficient of thermal conductivity $=k$\r\nlatent heat of melting $=L$ \r\n<img src=\"assets\\st0010_adbace32f650.png\">\r\n\r\nThe rate of heat flow $H=\\frac{d Q}{d t}=\\frac{k A\\left(T_{1}-T_{2}\\right)}{x}$\r\n$$\r\n\\begin{array}{l}\r\n=\\frac{k f(0-(-20)]}{x} \\\\\r\n=\\frac{k A \\times 20}{x} \\\\\r\n\\frac{d Q}{d t}=\\frac{d m}{d t} \\cdot L \\quad(\\because m L=Q) \\\\\r\nd m=\\rho A \\cdot d x \\\\\r\n\\frac{d Q}{d t}=\\rho A \\cdot \\frac{d x}{d t} L=\\frac{k A \\cdot 20}{x} \\\\\r\n\\int_{0}^{Z} x \\cdot d x=\\frac{20 k}{\\rho L} \\int_{0}^{t} d t \\Rightarrow Z^{2}=\\frac{40 k}{\\rho L} t\r\n\\end{array}\r\n$$\r\nSo, thickness $Z$ increases as a function of time $t$ according to the above equation."
+  }
+}

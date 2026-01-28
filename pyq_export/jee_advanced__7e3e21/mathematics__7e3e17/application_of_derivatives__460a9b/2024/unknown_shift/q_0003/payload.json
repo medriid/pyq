@@ -1,0 +1,24 @@
+{
+  "index": 3,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2024 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255d3df243724d460a9b",
+    "chapter_name": "Application of Derivatives",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be defined by\n$f(x)=\\frac{\\sin x}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+3\\right)}+\\frac{2}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+3\\right)}$.\nThen the number of solutions of $f(x)=0$ in $\\mathbb{R}$ is"
+  },
+  "options": [],
+  "correct_answer": 1,
+  "solution": {
+    "text": "$f(x)=\\frac{\\left(x^{2023}+2024 x+2025\\right)}{e^{\\pi x}\\left(x^2-x+3\\right)}(\\sin x+2)$\n$\\because(\\sin x+2)$ is never zero\n$\\therefore$ for $x^{2023}+2024 x+2025=0$\n$\\begin{aligned} & \\text { let } \\phi(\\mathrm{x})=\\mathrm{x}^{2023}+2024 \\mathrm{x}+2025 \\\\ & \\phi^{\\prime}(\\mathrm{x})=2023 \\mathrm{x}^{2022}+2024>0 \\forall \\mathrm{x} \\in \\mathrm{R}\\end{aligned}$\n$\\therefore \\phi(\\mathrm{x})$ is an Strictly Increasing function\n$\\therefore \\phi(\\mathrm{x})=0$ for exactly one value of $\\mathrm{x}$\n$\\therefore \\mathrm{f}(\\mathrm{x})=0$ has one solution"
+  }
+}

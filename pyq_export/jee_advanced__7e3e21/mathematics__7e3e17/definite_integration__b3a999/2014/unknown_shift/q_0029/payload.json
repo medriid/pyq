@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2014 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602563f6918f74a3b3a999",
+    "chapter_name": "Definite Integration",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong> Paragraph: </strong>\r\n\r\nGiven that for each $a \\in(0,1)$,\r\n\r\n$\\lim _{h \\rightarrow 0^{+}} \\int_{h}^{1-h} t^{-a}(1-t)^{a-1} d t$\r\n\r\nexists. Let this limit be $g(a)$. In addition, it is given that the function $g(a)$ is differentiable on $(0,1)$.\r\n\r\n<br> <strong> Question: </strong>\r\n\r\nThe value of $g^{\\prime}\\left(\\frac{1}{2}\\right)$ is"
+  },
+  "options": [
+    {
+      "text": "<math><mfrac><mrow><mi>&#960;</mi></mrow><mrow><mn>2</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>&#960;</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mo>-</mo><mfrac><mrow><mi>&#960;</mi></mrow><mrow><mn>2</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "We have <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mi>a</mi></mfenced><mo>=</mo><mi>g</mi><mfenced><mrow><mn>1</mn><mo>-</mo><mi>a</mi></mrow></mfenced></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi></math> is differentiable.<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><msup><mi>g</mi><mo>&#39;</mo></msup><mfenced><mi>a</mi></mfenced><mo>=</mo><mo>-</mo><msup><mi>g</mi><mo>&#39;</mo></msup><mfenced><mrow><mn>1</mn><mo>-</mo><mi>a</mi></mrow></mfenced></math><br />Hence <math><msup><mrow><mi>g</mi></mrow><mrow><mi>&#8242;</mi></mrow></msup><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mfenced><mo>=</mo><mn>0</mn></math>."
+  }
+}

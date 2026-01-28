@@ -1,0 +1,43 @@
+{
+  "index": 53,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252e5b3a23bed752224f",
+    "chapter_name": "Sequences and Series",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<math><mrow><munderover><mo stretchy=\"false\">∑</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></munderover><mrow><mfrac><mrow><mi>r</mi></mrow><mrow><msup><mrow><mi>r</mi></mrow><mrow><mn>4</mn></mrow></msup><mo>+</mo><msup><mrow><mi>r</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></mrow></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><mfrac><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mi>n</mi></mrow><mrow><mn>2</mn><mfenced separators=\"|\"><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mfrac><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>2</mn><mi>n</mi></mrow><mrow><mn>2</mn><mfenced separators=\"|\"><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>2</mn><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mi>n</mi></mrow><mrow><mn>2</mn><mfenced separators=\"|\"><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mi>n</mi></mrow><mrow><mfenced separators=\"|\"><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let, <math><mi mathvariant=\"normal\">&#921;</mi><mfenced separators=\"|\"><mrow><mi>r</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mi>r</mi></mrow><mrow><msup><mrow><mi>r</mi></mrow><mrow><mn>4</mn></mrow></msup><mo>+</mo><msup><mrow><mi>r</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>r</mi></mrow><mrow><mfenced separators=\"|\"><mrow><msup><mrow><mi>r</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mfenced separators=\"|\"><mrow><msup><mrow><mi>r</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>-</mo><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfrac></math><br /><math><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mfrac><mrow><mfenced separators=\"|\"><mrow><msup><mrow><mi>r</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>-</mo><mfenced separators=\"|\"><mrow><msup><mrow><mi>r</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>-</mo><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow><mrow><mfenced separators=\"|\"><mrow><msup><mrow><mi>r</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mfenced separators=\"|\"><mrow><msup><mrow><mi>r</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>-</mo><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfrac></mrow></mfenced></math><br /><math><mo>=</mo><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mrow><mi>r</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mrow><mi>r</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>-</mo><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></mfenced></math><br /><math><mo>=</mo><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mfenced separators=\"|\"><mrow><mi>V</mi><mfenced separators=\"|\"><mrow><mi>r</mi></mrow></mfenced><mo>-</mo><mi>V</mi><mfenced separators=\"|\"><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mfenced></mrow></mfenced></math><br /><math><mo>&#8658;</mo><mrow><munderover><mo stretchy=\"false\">&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></munderover><mrow><mi mathvariant=\"normal\">&#921;</mi><mfenced separators=\"|\"><mrow><mi>r</mi></mrow></mfenced></mrow></mrow><mo>=</mo><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mfenced separators=\"|\"><mrow><mi>V</mi><mfenced separators=\"|\"><mrow><mi>n</mi></mrow></mfenced><mo>-</mo><mi>V</mi><mfenced separators=\"|\"><mrow><mn>0</mn></mrow></mfenced></mrow></mfenced></math><br /><math><mo>=</mo><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>-</mo><mn>1</mn></mrow></mfenced></math><br /><math><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mfrac><mrow><mfenced separators=\"|\"><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mi>n</mi></mrow></mfenced></mrow><mrow><mfenced separators=\"|\"><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfrac></math>"
+  }
+}

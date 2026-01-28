@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d656cc",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2005-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2005",
+      "title": "JEE Main 2005"
+    }
+  ],
+  "question": {
+    "text": "The system of equations\n$$\n\\begin{aligned}\n& \\alpha x+y+z=\\alpha-1 \\\\\n& x+\\alpha y+z=\\alpha-1 \\\\\n& x+y+\\alpha z=\\alpha-1\n\\end{aligned}\n$$\nhas no solution, if $\\alpha$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "uPhs5",
+      "text": "\n$-2$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "jzO7p",
+      "text": "\neither $-2$ or 1\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "qcpVi",
+      "text": "\nnot -2\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "hCVr4",
+      "text": "\n1",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\alpha x+y+z=\\alpha-1 \\\\\n& x+\\alpha y+z=\\alpha-1 \\\\\n& x+y+z \\alpha=\\alpha-1 \\\\\n& \\Delta=\\left|\\begin{array}{ccc}\n\\alpha & 1 & 1 \\\\\n1 & \\alpha & 1 \\\\\n1 & 1 & \\alpha\n\\end{array}\\right| \\\\\n& =\\alpha\\left(\\alpha^2-1\\right)-1(\\alpha-1)+1(1-\\alpha) \\\\\n& =\\alpha(\\alpha-1)(\\alpha+1)-1(\\alpha-1)-1(\\alpha-1) \\\\\n& \\Rightarrow(\\alpha-1)\\left[\\alpha^2+\\alpha-1-1\\right]=0 \\\\\n& \\Rightarrow(\\alpha-1)\\left[\\alpha^2+\\alpha-2\\right]=0 \\\\\n& {\\left[\\alpha^2+2 \\alpha-\\alpha-2\\right]=0} \\\\\n& (\\alpha-1)[\\alpha(\\alpha+2)-1(\\alpha+2)]=0 \\\\\n& (\\alpha-1)=0, \\alpha+2=0 \\Rightarrow \\alpha=-2,1 ; \\text { but } \\alpha \\neq 1\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "outOfSyllabusButGoodToSolve",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2005-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2005",
+    "title": "JEE Main 2005"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

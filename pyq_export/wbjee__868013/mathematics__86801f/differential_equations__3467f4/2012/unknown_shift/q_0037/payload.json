@@ -1,0 +1,43 @@
+{
+  "index": 37,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The integrating factor of the differential equation $3 x \\log _{e} x \\frac{d y}{d x}+y=2 \\log _{e} x$ is given by"
+  },
+  "options": [
+    {
+      "text": "$\\left(\\log _{e} x\\right)^{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log _{e}\\left(\\log _{e} x\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log _{e} x$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\log _{e} x\\right)^{1 / 3}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given, $3 x \\log _{e} x \\frac{d y}{d x}+y=2 \\log _{e} x$\r\nDividing both sides by $3 x \\log _{e} x,$ we get $\\frac{d y}{d x}+\\frac{1}{3 x \\log _{e} x} y=\\frac{2 \\log _{e} x}{3 x \\log _{e} x}$\r\n$\\Rightarrow \\frac{d y}{d x}+\\frac{1}{3 x \\log _{e} x} y=\\frac{2}{3 x}$\r\nwhich is linear form $\\frac{d y}{d x}+P y=Q,$ where $P$ and $Q$ are function of $x$ and the integrating factor is given by the following formula $e^{\\int P d x}$.\r\n$\\therefore$\r\n$\\mathrm{IF}=e^{\\int \\frac{1}{3 x \\log _{t} x}} d x$\r\n$\\begin{aligned} \\text { Put } \\log _{e} x &=t \\Rightarrow \\frac{1}{x} d x=d t \\\\ &=e^{1 / 3} \\int \\frac{d t}{t}=e^{1 / 3} \\log t \\\\ &=e^{\\log 1^{1 / 3}}=t^{1 / 3}=\\left(\\log _{e} x\\right)^{-1 / 3} \\end{aligned}$"
+  }
+}

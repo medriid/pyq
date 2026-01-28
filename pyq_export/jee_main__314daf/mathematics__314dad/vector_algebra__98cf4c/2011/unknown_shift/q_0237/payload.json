@@ -1,0 +1,43 @@
+{
+  "index": 237,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2011",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The vector $\\vec{a}$ and $\\vec{b}$ are not perpendicular and $\\vec{c}$ and $\\vec{d}$ are two vectors satisfying: $\\vec{b} \\times \\vec{c}=\\vec{b} \\times \\vec{d}$ and $\\vec{a} \\cdot \\vec{d}=0$. Then the vector $\\vec{d}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$\\vec{c}+\\left(\\frac{\\vec{a} \\cdot \\vec{c}}{\\vec{a} \\cdot \\vec{b}}\\right) \\vec{b}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\vec{b}+\\left(\\frac{\\vec{b} \\cdot \\vec{c}}{\\vec{a} \\cdot \\vec{b}}\\right) \\vec{c}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\vec{c}-\\left(\\frac{\\vec{a} \\cdot \\vec{c}}{\\vec{a} \\cdot \\vec{b}}\\right) \\vec{b}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\vec{b}-\\left(\\frac{\\vec{b} \\cdot \\vec{c}}{\\vec{a} \\cdot \\vec{b}}\\right) \\vec{c}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\overline{\\mathrm{b}} \\times \\overline{\\mathrm{c}}=\\overline{\\mathrm{b}} \\times \\overline{\\mathrm{d}}$\n$\\Rightarrow \\overline{\\mathrm{a}} \\times(\\overline{\\mathrm{b}} \\times \\overline{\\mathrm{c}})=\\overline{\\mathrm{a}} \\times(\\overline{\\mathrm{b}} \\times \\overline{\\mathrm{d}})$\n$\\Rightarrow(\\overline{\\mathrm{a}} \\cdot \\overline{\\mathrm{c}}) \\overline{\\mathrm{b}}-(\\overline{\\mathrm{a}} \\cdot \\overline{\\mathrm{b}}) \\overline{\\mathrm{c}}=(\\overline{\\mathrm{a}} \\cdot \\overline{\\mathrm{d}}) \\overline{\\mathrm{b}}-(\\overline{\\mathrm{a}} \\cdot \\overline{\\mathrm{b}}) \\overline{\\mathrm{d}}$\n$\\Rightarrow(\\overline{\\mathrm{a}} \\cdot \\overline{\\mathrm{c}}) \\overline{\\mathrm{b}}-(\\overline{\\mathrm{a}} \\cdot \\overline{\\mathrm{b}}) \\overline{\\mathrm{c}}=-(\\overline{\\mathrm{a}} \\cdot \\overline{\\mathrm{b}}) \\overline{\\mathrm{d}}$\n$\\therefore \\overline{\\mathrm{d}}=\\overline{\\mathrm{c}}-\\left(\\frac{\\overline{\\mathrm{a}} \\cdot \\overline{\\bar{c}}}{\\overline{\\mathrm{a}} \\overline{\\mathrm{b}}}\\right) \\overline{\\mathrm{b}}$"
+  }
+}

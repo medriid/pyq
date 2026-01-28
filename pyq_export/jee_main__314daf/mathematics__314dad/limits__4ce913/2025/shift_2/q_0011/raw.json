@@ -1,0 +1,83 @@
+{
+  "_id": "67a2ee9ec8b73881fdaea177",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d9760b",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-23T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (23 Jan Shift 2)",
+      "title": "JEE Main 2025 (23 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "$\\lim _{x \\rightarrow \\infty} \\frac{\\left(2 x^2-3 x+5\\right)(3 x-1)^{\\frac{x}{2}}}{\\left(3 x^2+5 x+4\\right) \\sqrt{(3 x+2)^x}}$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "2RoAh",
+      "text": "$\\frac{2}{\\sqrt{3 \\mathrm{e}}}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "3JVEA",
+      "text": "$\\frac{2 \\mathrm{e}}{\\sqrt{3}}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "qfYTF",
+      "text": "$\\frac{2}{3 \\sqrt{\\mathrm{e}}}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "rBBrI",
+      "text": "$\\frac{2 \\mathrm{e}}{3}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\lim _{x \\rightarrow \\infty} \\frac{\\left(2 x^2-3 x+5\\right)(3 x-1)^{x / 2}}{\\left(3 x^2+5 x+4\\right) \\sqrt{(3 x+2)^x}} \\\\\n& =\\lim _{x \\rightarrow \\infty} \\frac{x^2\\left(2-\\frac{3}{x}+\\frac{5}{x^2}\\right)(3 x)^{\\frac{x}{2}}}{x^2\\left(3+\\frac{5}{x}+\\frac{4}{x^2}\\right)(3 x)^{\\frac{x}{2}}} \\cdot \\frac{\\left(1-\\frac{1}{3 x}\\right)^{\\frac{x}{2}}}{\\left(1+\\frac{2}{3 x}\\right)^{\\frac{x}{2}}} \\\\\n& \\lim _{x \\rightarrow \\infty}\\left(1-\\frac{1}{3 x}\\right)^{\\frac{x}{2}}=e^{\\lim _{x \\rightarrow \\infty}\\left(1-\\frac{1}{3 x}-1\\right) \\times \\frac{x}{2}}=e^{\\frac{-1}{6}} \\\\\n& \\lim _{x \\rightarrow \\infty}\\left(1+\\frac{2}{3 x}\\right)=e^{\\lim _{x \\rightarrow \\infty}\\left(1+\\frac{2}{3 x}-1\\right) \\times \\frac{x}{2}} \\\\\n& =e^{\\frac{1}{3}}\n\\end{aligned}$\nSo, $\\frac{2}{3} \\times \\frac{e^{\\frac{-1}{6}}}{e^{\\frac{1}{3}}}=\\frac{2}{3} \\times \\frac{1}{e^{\\frac{1}{3}+\\frac{1}{6}}}=\\frac{2}{3 \\sqrt{e}}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "2961bd55473e48dbbafb0c91e6e847fe",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/EgyyFdF9gV1XN.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/EgyyFdF9gV1XN.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d9760b",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-23T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (23 Jan Shift 2)",
+    "title": "JEE Main 2025 (23 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

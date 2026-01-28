@@ -1,0 +1,43 @@
+{
+  "index": 240,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2006",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For natural numbers $m, n$ if $(1-y)^m(1+y)^n=1+a_1 y+a_2 y^2+\\ldots$, and $a_1=a_2=10$ then $(\\mathrm{m}, \\mathrm{n})$ is"
+  },
+  "options": [
+    {
+      "text": "\n(20, 45)\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n(35, 20)\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n(45, 35)\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n(35, 45)",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$(1-y)^m(1+y)^n=\\left[1-{ }^m C_1 y+{ }^m C_2 y^2-\\ldots\\right]\\left[1+{ }^n C_1 y+{ }^n C_2 y^2+\\ldots\\right]$\n$=1+(n-m)+\\left\\{\\frac{m(m-1)}{2}+\\frac{n(n-1)}{2}-m n\\right\\} y^2+\\ldots .$.\n$\\therefore a_1=n-m=10$ and $a_2=\\frac{m^2+n-m-n-2 m n}{2}=10$\nSo, $n-m=10$ and $(m-n)^2-(m+n)=20 \\quad \\Rightarrow m+n=80$\n$$\n\\therefore \\mathrm{m}=35, \\quad \\mathrm{n}=45\n$$"
+  }
+}

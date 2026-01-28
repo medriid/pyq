@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cdb6782a065e80b03d2",
+    "chapter_name": "Trigonometric Ratios & Identities",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The maximum and minimum values of $\\cos ^{6} \\theta+\\sin ^{6} \\theta$ are respectively"
+  },
+  "options": [
+    {
+      "text": "1 and $\\frac{1}{4}$",
+      "is_correct": true
+    },
+    {
+      "text": "1 and 0",
+      "is_correct": false
+    },
+    {
+      "text": "2 and 0",
+      "is_correct": false
+    },
+    {
+      "text": "1 and $\\frac{1}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $f(\\theta)=\\sin ^{6} \\theta+\\cos ^{6} \\theta$\r\n$\\Rightarrow \\quad f(\\theta)=\\left(\\sin ^{2} \\theta\\right)^{3}+\\left(\\cos ^{2} \\theta\\right)^{3}$\r\n$=\\left(\\sin ^{2} \\theta+\\cos ^{2} \\theta\\right)$\r\n$\\left(\\sin ^{4} \\theta+\\cos ^{4} \\theta-\\sin ^{2} \\theta-\\cos ^{2} \\theta\\right)$\r\n$\\left[\\because a^{3}+b^{3}=(a+b)\\left(a^{2}+b^{2}-a b\\right]\\right.$\r\n$=1 \\cdot\\left\\{\\left(\\sin ^{2} \\theta+\\cos ^{2} \\theta\\right)^{2}-3 \\sin ^{2} \\theta \\cdot \\cos ^{2} \\theta\\right\\}$\r\n$=1 \\cdot\\left(1-\\frac{3}{4} \\cdot 4 \\sin ^{2} \\theta \\cdot \\cos ^{2} \\theta\\right)$\r\n$=1-\\frac{3}{4}(\\sin 2 \\theta)^{2}(\\because \\sin 2 A=2 \\sin A \\cos A)$\r\n$=1-\\frac{3}{8}(1-\\cos 4 \\theta)$\r\n$=1-\\frac{3}{8}+\\frac{3}{8} \\cos 4 \\theta$\r\n$f(\\theta)=\\frac{5}{8}+\\frac{3}{8} \\cdot \\cos 4 \\theta$\r\n$-1 \\leq \\cos 4 \\theta \\leq 1$\r\n$\\Rightarrow \\quad \\frac{-3}{8} \\leq \\frac{3}{8} \\cos 4 \\theta \\leq \\frac{3}{8}$\r\n$\\Rightarrow \\quad \\frac{5}{8}-\\frac{3}{8} \\leq \\frac{5}{8}+\\frac{3}{8} \\cos 48 \\leq \\frac{5}{8}+\\frac{3}{8}$\r\n$\\Rightarrow \\quad \\frac{1}{4} \\leq f(\\theta) \\leq 1$\r\nSo, the maximum value is 1 and minimum value is $\\frac{1}{4}$"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64a81493e0ff5a5425a85cf0",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad6",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2023-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023",
+      "title": "WBJEE 2023"
+    }
+  ],
+  "question": {
+    "text": "Suppose \\(f: \\mathbb{R} \\rightarrow \\mathbb{R}\\) be given by \\(f(x)=\\left\\{\\begin{array}{cc}1, \\quad \\text { if } x=1 \\\\ e^{\\left(x^{10}-1\\right)}+(x-1)^2 \\sin \\frac{1}{x-1}\\end{array}\\right., \\text { if } x \\neq 1 \\text { then }\\)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "MLHM5",
+      "text": "\\(f^{\\prime}(1)\\) does not exist",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "uFhhF",
+      "text": "\\(f^{\\prime}(1)\\) exists and is zero",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "xmld8",
+      "text": "\\(f^{\\prime}(1)\\) exist and is 9",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "uYRSH",
+      "text": "\\(f^{\\prime}(1)\\) exists and is 10",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint: \\(f: R \\rightarrow R f(x)=\\left\\{\\begin{array}{cc} 1 & \\text { if } x=1 & \\\\  e^{\\left(x^{10}-1\\right)} &+(x-1)^2  &\\cdot \\sin \\left(\\frac{1}{x-1}\\right) \\text { if } x \\neq 1\\end{array}\\right.\\)\n\\(\\begin{aligned}\n& f\\left(1^{-}\\right)=1+0=1 \\\\\n& f\\left(1^{+}\\right)=1+0=1 \\\\\n& f(1)=1 \\\\\n& \\therefore \\quad f(x) \\text { is continuous at } x=1 \\\\\n& f^{\\prime}(x)=\\left\\{e^{\\left(x^{10}-1\\right)} \\cdot\\left(10 x^5\\right)+2(x-1) \\cdot \\sin \\left(\\frac{1}{x-1}\\right)-(x-1)^2 \\cdot \\cos \\left(\\frac{1}{x-1}\\right) \\cdot\\left(\\frac{1}{x-1}\\right)^2\\right\\}\n\\end{aligned}\\)\nwhich does not exist.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad6",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2023-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023",
+    "title": "WBJEE 2023"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The points of the ellipse $16 x^{2}+9 y^{2}=400$ at which the ordinate decreases at the same rate at which the abscissa increases is/are given by"
+  },
+  "options": [
+    {
+      "text": "$\\left(3, \\frac{16}{3}\\right)$ and $\\left(-3,-\\frac{16}{3}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\left(3,-\\frac{16}{3}\\right)$ and $\\left(-3, \\frac{16}{3}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\frac{1}{16}, \\frac{1}{9}\\right)$ and $\\left(-\\frac{1}{16},-\\frac{1}{9}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\frac{1}{16},-\\frac{1}{9}\\right)$ and $\\left(-\\frac{1}{16}, \\frac{1}{9}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given that, the ordinate decreases at the same rate at which the abscissa increases, therefore\r\n$$\r\n\\frac{d y}{d t}=-\\frac{d x}{d t}\r\n$$\r\nAlso, equation of ellipse\r\n$$\r\n16 x^{2}+9 y^{2}=400\r\n$$\r\nOn differentiating wrt. $t$, we get \r\n$16 \\times 2 x \\frac{d x}{d t}+9 \\times 2 y \\frac{d y}{d t}=0$\r\n$\\Rightarrow \\quad 16 x \\frac{d x}{d t}+9 y \\frac{d y}{d t}=0$\r\n$\\Rightarrow \\quad 9 y \\frac{d y}{d t}=-16 x \\frac{d x}{d t}$\r\n$\\Rightarrow \\quad 9 y \\frac{d y}{d t}=-16 x\\left(-\\frac{d y}{d t}\\right) \\quad$ [using $\\left.\\mathrm{Eq.}(i)\\right]$\r\n$\\Rightarrow \\quad 9 y=16 x \\Rightarrow y=\\frac{16}{9} x$\r\n$16 x^{2}+9\\left(\\frac{16}{9} x\\right)^{2}=400$\r\n$\\Rightarrow \\quad 16 x^{2}+\\frac{(16)^{2}}{9} x^{2}=400$\r\n$\\Rightarrow \\quad 16 x\\left[x+\\frac{16}{9} x\\right]=400$\r\n$\\Rightarrow \\quad 16 x\\left[\\frac{25}{9} x\\right]=400 \\Rightarrow x^{2}=\\frac{400 \\times 9}{25 \\times 16}$\r\n$\\Rightarrow \\quad x^{2}=9 \\Rightarrow x=\\pm 3$\r\n$\\therefore$ Required points are $\\left(3, \\frac{16}{3}\\right)$ and $\\left(-3-\\frac{16}{3}\\right)$"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "index": 3,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c8e8811f774a40dd9f1",
+    "chapter_name": "Magnetic Effects of Current",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A charged particle of charge \\(q\\) and mass \\(m\\) is placed at a distance \\(2 R\\) from the centre of a vertical cylindrical region of radius \\(R\\) where magnetic field varies as \\(\\vec{B}=\\left(4 t^2-2 t+6\\right) \\hat{k}\\) where \\(t\\) is time. Then which of the following statement(s) is/are true?"
+  },
+  "options": [
+    {
+      "text": "Induced electric field lines form closed loops",
+      "is_correct": true
+    },
+    {
+      "text": "Electric field varies linearly with \\(r\\) if \\(r  < R\\), where \\(r\\) is the radial distance from the centerline of the cylinder",
+      "is_correct": true
+    },
+    {
+      "text": "The charged particle will move in clockwise direction when viewed from top",
+      "is_correct": false
+    },
+    {
+      "text": "Acceleration of the charged particle is \\(\\frac{7 q}{2 m}\\) when \\(t=2 \\mathrm{sec}\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "B"
+  ],
+  "solution": {
+    "text": "Hint : <img src=\"assets\\st0003_44054cc05845.png\"><br>\n\\(r < R\\)\n\\(E \\times 2 \\pi r=\\frac{d \\phi}{d t}=\\frac{d}{d t}\\left(4 t^2-2 t+6\\right) \\times \\pi r^2\\)\n\\(\\begin{aligned}\n& E \\times 2 \\pi r=(8 t-2) \\pi r^2 \\\\\n& E=\\frac{(8 t-2) r}{2} \\\\\n& E=(4 t-1) r\n\\end{aligned}\\)\n\\(E \\propto r\\)\nFor \\(r > R\\)\n\\(\\begin{aligned}\n& E \\times 2 \\pi \\cdot(2 R)=\\frac{d}{d t}\\left[4 t^2-2 t+6\\right] \\times \\pi[R]^2 \\\\\n& E .4 \\pi R=[8 t-2] \\pi R^2 \\\\\n& E=\\frac{[8 t-2] R}{4} \\quad \\text { at } t=2, E=\\frac{14}{4} R=\\frac{7 R}{2} \\\\\n& \\text { acceleration }=\\frac{E q}{m}=\\frac{7 R q}{2 m}=\\frac{7 q R}{2 m}\n\\end{aligned}\\)"
+  }
+}

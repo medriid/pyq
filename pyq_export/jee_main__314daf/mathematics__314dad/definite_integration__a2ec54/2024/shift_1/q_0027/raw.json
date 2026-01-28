@@ -1,0 +1,58 @@
+{
+  "_id": "66446731970e6e9ab542d10f",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6c",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-06T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (06 Apr Shift 1)",
+      "title": "JEE Main 2024 (06 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $r_k=\\frac{\\int_0^1\\left(1-x^7\\right)^k d x}{\\int_0^1\\left(1-x^7\\right)^{k+1} d x}, k \\in \\mathbb{N}$. Then the value of $\\sum_{k=1}^{10} \\frac{1}{7\\left(r_k-1\\right)}$ is equal to________",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "65",
+  "solution": {
+    "text": "$\\begin{aligned} & I_K=\\int 1 \\cdot\\left(1-x^7\\right)^K d x \\\\ & I_K=\\left.\\left(1-x^7\\right)^K x\\right|_0 ^1+7 K \\int_0^1\\left(1-x^7\\right)^{K-1} x^6 \\cdot x d x \\\\ & I_K=-7 K \\int_0^1\\left(1-x^7\\right)^{K-1}\\left(\\left(1-x^7\\right)-1\\right) d x \\\\ & I_K=-7 K I_K+7 K I_{K-1} \\\\ & \\Rightarrow \\frac{I_K}{I_{K+1}}=\\frac{7 K+8}{7 K+7}\\end{aligned}$<br />$\\begin{aligned} & r_K=\\frac{7 K+8}{7 \\mathrm{~K}+7} \\\\ & \\mathrm{r}_{\\mathrm{K}}-1=\\frac{1}{7(\\mathrm{~K}+1)} \\\\ & \\Rightarrow 7\\left(\\mathrm{r}_{\\mathrm{K}}-1\\right)=\\frac{1}{\\mathrm{~K}+1} \\\\ & \\sum_{\\mathrm{K}=1}^{10}(\\mathrm{~K}+1)=11(6)-1=65\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "250f17f2af2c4a19b2e2d045a09673c0",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/9IkVrA6JNQLMe.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/9IkVrA6JNQLMe.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda6c",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-06T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (06 Apr Shift 1)",
+    "title": "JEE Main 2024 (06 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

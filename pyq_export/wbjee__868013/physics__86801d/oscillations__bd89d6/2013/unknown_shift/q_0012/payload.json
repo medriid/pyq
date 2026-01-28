@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c86b98428bab9bd89d6",
+    "chapter_name": "Oscillations",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A particle of mass $M$ and charge $q$ is at rest at the mid point between two other fixed similar charges each of magnitude $Q$ placed a distance $2 d$ apart. The system is collinear as shown in the figure. The particle is now displaced by a small amount $x(x< < d)$ along the joining the two charges and is left to itself. It will now oscillate about the mean position with a time period $\\left(\\varepsilon_{0}=\\right.$ permittivity of free space)<img src=\"assets\\qt0012_b2886e1a5555.png\">"
+  },
+  "options": [
+    {
+      "text": "$2 \\sqrt{\\frac{\\pi^{3} M \\varepsilon_{0} d}{Q q}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 \\sqrt{\\frac{\\pi^{2} M \\varepsilon_{0} d^{3}}{Q q}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 \\sqrt{\\frac{\\pi^{3} M \\varepsilon_{0} d^{3}}{Q q}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$2 \\sqrt{\\frac{\\pi^{3} M \\varepsilon_{0}}{Q q d^{3}}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Restoring force on displacement of $x$\r\n$\\begin{aligned} F &=K\\left[\\frac{q}{(d-x)^{2}}-\\frac{Q q}{(d+x)^{2}}\\right] \\\\ &=K Q q\\left[\\frac{1}{(d-x)^{2}}-\\frac{1}{(d+x)^{2}}\\right] \\\\ &=K Q q\\left[\\frac{4 d x}{\\left(d^{2}-x^{2}\\right)^{2}}\\right] \\\\ &=K Q q\\left[\\frac{4 d x}{d^{4}}\\right] \\text { If }(d>>x) \\\\ F &=K Q q\\left[\\frac{4 x}{d^{3}}\\right] \\end{aligned}$\r\nAcceleration, $a=\\frac{F}{m}=\\frac{4 K Q q x}{M d^{3}}$\r\nor $\\omega^{2}=\\frac{4 K Q q}{M d^{3}}$\r\n$\\therefore \\quad T=\\frac{2 \\pi}{\\omega}=2 \\pi \\sqrt{\\frac{M d^{3}}{4 K O q}}$\r\n$=2 \\sqrt{\\frac{\\pi^{3} M d^{3} \\varepsilon_{0}}{Q q}}$"
+  }
+}

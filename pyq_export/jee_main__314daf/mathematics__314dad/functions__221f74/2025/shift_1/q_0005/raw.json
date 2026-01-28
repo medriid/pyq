@@ -1,0 +1,83 @@
+{
+  "_id": "68542c817c09d044e4c1a256",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2fe9d87935e0d809787",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-04T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (4 Apr Shift 1)",
+      "title": "JEE Main 2025 (4 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Consider the sets $\\mathrm{A}=\\left\\{(\\mathrm{x}, \\mathrm{y}) \\in \\mathbb{R} \\times \\mathbb{R}: \\mathrm{x}^2+\\mathrm{y}^2=25\\right\\}$, $\\mathrm{B}=\\left\\{(\\mathrm{x}, \\mathrm{y}) \\in \\mathbb{R} \\times \\mathbb{R}: \\mathrm{x}^2+9 \\mathrm{y}^2=144\\right\\}, \\mathrm{C}=\\{(\\mathrm{x}, \\mathrm{y})$ $\\left.\\in \\mathbb{Z} \\times \\mathbb{Z}: x^2+y^2 \\leq 4\\right\\}$, and $D=A \\cap B$. The total number of one-one functions from the set D to the set C is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "5Z2dn",
+      "text": "15120",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "p34Ea",
+      "text": "19320",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "zbDQh",
+      "text": "17160",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "rhgvM",
+      "text": "18290",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\mathrm{A}: \\mathrm{x}^2+\\mathrm{y}^2=25...(i)$<br/>B : $\\frac{x^2}{144}+\\frac{y^2}{16}=1...(ii)$<br/>C: $x^2+y^2 \\leq 4...(iii)$<br/>Solve (1) \\& (2)<br/>$\\begin{aligned}<br/>& x^2+9\\left(25-x^2\\right)=144 \\\\\n& -8 x^2=144-225=-81 \\\\\n& x= \\pm \\frac{9}{2 \\sqrt{2}}<br/>\\end{aligned}$<br/>$\\operatorname{By}(1) \\Rightarrow y= \\pm \\sqrt{25-x^2}$<br/>$= \\pm \\sqrt{25-\\frac{81}{8}}= \\pm \\frac{\\sqrt{119}}{2 \\sqrt{2}}$<br/>$\\therefore \\mathrm{D}=\\mathrm{A} \\cap \\mathrm{~B}=$<br/>$\\left\\{\\left(\\frac{9}{2 \\sqrt{2}}, \\frac{\\sqrt{119}}{2 \\sqrt{2}}\\right),\\left(\\frac{9}{2 \\sqrt{2}},-\\frac{\\sqrt{119}}{2 \\sqrt{2}}\\right),\\left(\\frac{-9}{2 \\sqrt{2}}, \\frac{\\sqrt{119}}{2 \\sqrt{2}}\\right),\\left(\\frac{-9}{2 \\sqrt{2}}, \\frac{-\\sqrt{119}}{2 \\sqrt{2}}\\right)\\right\\}$<br/>No. of elements in set $D=4$<br/><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/hiM-DfQup4kp5DeFXCKLYfKiRDKdXweZmUqd6gSXHx8.original.fullsize.png\"/><br/>$\\begin{aligned}<br/>& \\because C=\\left\\{(x, y) \\in \\mathrm{Z} \\times \\mathrm{Z}: \\mathrm{x}^2+\\mathrm{y}^2 \\leq 4\\right\\} \\\\\n& =\\{(0,2),(2,0),(0,-2),(-2,0),(1,1),(-1,-1), \\\\\n& (1,-1),(-1,1),(1,0),(0,1),(-1,0),(0,-1), \\\\\n& (0,0)\\}<br/>\\end{aligned}$<br/>No. of elements in set $\\mathrm{C}=13$<br/>Total no. of one-one function from<br/>Set $D$ to $\\sec C \\Rightarrow 13 \\times 12 \\times 11 \\times 10=17160$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "7179891a57534a10b7de22afa99e09eb",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/KQdMreL753Aas.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/KQdMreL753Aas.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2fe9d87935e0d809787",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-04T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (4 Apr Shift 1)",
+    "title": "JEE Main 2025 (4 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

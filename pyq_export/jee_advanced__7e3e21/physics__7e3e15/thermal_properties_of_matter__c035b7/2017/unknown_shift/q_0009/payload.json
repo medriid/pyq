@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "multipleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2017 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "616023e361589c931bc035b7",
+    "chapter_name": "Thermal Properties of Matter",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A human body has a surface area of approximately <math><mn>1</mn><mi>&#160;</mi><msup><mrow><mi>m</mi></mrow><mrow><mn>2</mn></mrow></msup></math> . The normal body temperature is <math><mn>10</mn><mi>&#160;</mi><mi>K</mi></math> above the surrounding room temperature <math><msub><mrow><mi>T</mi></mrow><mrow><mn>0</mn></mrow></msub></math> . Take the room temperature to be <math><msub><mrow><mi>T</mi></mrow><mrow><mn>0</mn></mrow></msub><mo>=</mo><mn>300</mn><mi>&#160;</mi><mi>K</mi></math> . For <math><mi>&#160;</mi><msub><mrow><mi>T</mi></mrow><mrow><mn>0</mn></mrow></msub><mo>=</mo><mn>300</mn><mi>&#160;</mi><mi>K</mi></math> , the value of <math><mi>&#963;</mi><msup><mrow><mi>T</mi></mrow><mrow><mn>4</mn></mrow></msup><mo>=</mo><mn>460</mn><mfrac><mrow><mi>W</mi></mrow><mrow><msup><mrow><mi>m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math> (where <math><mi>&#963;</mi></math> is the Stefan-Boltzmann constant). Which of the following options is/are correct?"
+  },
+  "options": [
+    {
+      "text": "If the surrounding temperature reduces by a small amount <math><msub><mrow><mi mathvariant=\"normal\">&Delta;</mi><mi>T</mi></mrow><mrow><mn>0</mn></mrow></msub><mi>&nbsp;</mi><mo>&lt;</mo><mo>&lt;</mo><msub><mrow><mi>T</mi></mrow><mrow><mn>0</mn></mrow></msub><mi>&nbsp;</mi></math> , then to maintain the same body temperature the same (living) human being needs to radiate <math><mi mathvariant=\"normal\">&Delta;</mi><mi mathvariant=\"normal\">W</mi><mo>=</mo><mn>4</mn><mi mathvariant=\"normal\">&sigma;</mi><msubsup><mrow><mi mathvariant=\"normal\">T</mi></mrow><mrow><mn>0</mn></mrow><mrow><mn>3</mn></mrow></msubsup><msub><mrow><mi mathvariant=\"normal\">&Delta;</mi><mi>T</mi></mrow><mrow><mn>0</mn></mrow></msub><mi>&nbsp;</mi></math> more energy per unit time",
+      "is_correct": false
+    },
+    {
+      "text": "Reducing the exposed surface area of the body (e.g. by curling up) allows humans to maintain the same body temperature while reducing the energy lost by radiation.",
+      "is_correct": false
+    },
+    {
+      "text": "If the body temperature rises significantly then the peak in the spectrum of electromagnetic radiation emitted by the body would shift to longer wavelengths",
+      "is_correct": true
+    },
+    {
+      "text": "The amount of energy radiated by the body in 1 second is close to <math><mn>60</mn><mi>&nbsp;</mi><mi>J</mi><mi>o</mi><mi>u</mi><mi>l</mi><mi>e</mi><mi>s</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\r\n\r\n& \\text { Energy radiated }=\\sigma A\\left(T^4-T_0^4\\right) \\mathrm{t} \\\\\r\n\r\n& =\\sigma A\\left[\\left(\\mathrm{~T}_0+10\\right)^4-T_0^4\\right] t \\\\\r\n\r\n& =\\sigma A T_0^4\\left[\\left(1+\\frac{10}{T_0}\\right)^4-1\\right] t \\\\\r\n\r\n& =\\sigma A T_0^4\\left[\\frac{40}{T_0}\\right] \\times t=460 \\times 1 \\times \\frac{40}{300} \\times 1=61.33 J \\\\\r\n\r\n& P=\\frac{\\text { Energy radiated }}{\\text { time }}=\\sigma A T^4-\\sigma A T_0^4 \\\\\r\n\r\n& \\therefore\\left|\\frac{d p}{d T_0}\\right|=\\sigma A\\left(4 T_0^3\\right) \\therefore|d p|=\\sigma A\\left(4 T_0^3\\right) d T_0 \\\\\r\n\r\n& \\therefore|\\Delta P|=4 \\sigma A T_0^3\r\n\r\n\\end{aligned}\\)\r\n\r\nA, B are not correct options as human body is not a black body. Energy radiated \\(\\propto \\mathrm{A}\\) where \\(\\mathrm{A}\\) is the surface area of the body. ' \\(\\mathrm{C}\\) ' is the correct option"
+  }
+}

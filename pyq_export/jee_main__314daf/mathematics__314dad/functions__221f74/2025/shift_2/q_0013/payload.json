@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602555685234356f221f74",
+    "chapter_name": "Functions",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $f:[0,3] \\rightarrow$ A be defined by $f(x)=2 x^3-15 x^2+36 x+7$ and $g:[0, \\infty) \\rightarrow B$ be defined by $\\mathrm{g}(x)=\\frac{x^{2025}}{x^{2025}+1}$. If both the functions are onto and $\\mathrm{S}=\\{x \\in \\mathbf{Z}: x \\in \\mathrm{~A}$ or $x \\in \\mathrm{~B}\\}$, then $\\mathrm{n}(\\mathrm{S})$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$29$",
+      "is_correct": false
+    },
+    {
+      "text": "$30$",
+      "is_correct": true
+    },
+    {
+      "text": "$31$",
+      "is_correct": false
+    },
+    {
+      "text": "$36$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "as $f(x)$ is onto hence $A$ is range of $f(x)$\n$\\begin{aligned}\n& \\text { now } \\begin{array}{l}\n\\mathrm{f}^{\\prime}(\\mathrm{x})=6 \\mathrm{x}^2-30 \\mathrm{x}+36 \\\\\n\\quad=6(\\mathrm{x}-2)(\\mathrm{x}-3) \\\\\n\\quad \\mathrm{f}(2)=16-60+72+7=35 \\\\\n\\mathrm{f}(3)=54-135+108+7=34 \\\\\n\\mathrm{f}(0)=7\n\\end{array}\n\\end{aligned}$\nhence range $\\in[7,35]=\\mathrm{A}$\nalso for range of $g(x)$\n$\\begin{aligned}\n& g(x)=1-\\frac{1}{x^{2025}+1} \\in[0,1)=B \\\\\n& s=\\{0,7,8, \\ldots .35\\} \\text { hence } n(s)=30\n\\end{aligned}$"
+  }
+}

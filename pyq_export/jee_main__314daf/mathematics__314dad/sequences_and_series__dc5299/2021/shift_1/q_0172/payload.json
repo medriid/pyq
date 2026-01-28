@@ -1,0 +1,43 @@
+{
+  "index": 172,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (18 Mar Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2021",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>-</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>-</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><msup><mn>7</mn><mn>2</mn></msup><mo>-</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mfrac><mn>1</mn><mrow><mo>(</mo><mn>201</mn><msup><mo>)</mo><mn>2</mn></msup><mo>-</mo><mn>1</mn></mrow></mfrac></math>&nbsp;is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>101</mn><mn>404</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>101</mn></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>101</mn><mn>408</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>99</mn><mn>400</mn></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p>Given&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfrac><mn>1</mn><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>-</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>-</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><msup><mn>7</mn><mn>2</mn></msup><mo>-</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mfrac><mn>1</mn><mrow><mo>(</mo><mn>201</mn><msup><mo>)</mo><mn>2</mn></msup><mo>-</mo><mn>1</mn></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><msup><mo>)</mo><mn>2</mn></msup><mo>-</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>4</mn><mo>(</mo><mi>n</mi><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mfenced><mfrac><mrow><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>-</mo><mi>n</mi></mrow><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mfrac></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mfenced><mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>-</mo><mfrac><mn>1</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>S</mi><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>100</mn></munderover><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>100</mn></munderover><mfrac><mn>1</mn><mn>4</mn></mfrac><mfenced><mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>-</mo><mfrac><mn>1</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>S</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mfenced><mrow><mfenced><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced><mo>+</mo><mfenced><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></mfenced><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><mfenced><mrow><mfrac><mn>1</mn><mn>100</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>101</mn></mfrac></mrow></mfenced></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>S</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mfenced><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mn>101</mn></mfrac></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mfenced><mfrac><mn>100</mn><mn>101</mn></mfrac></mfenced><mo>=</mo><mfrac><mn>25</mn><mn>101</mn></mfrac></math></p>"
+  }
+}

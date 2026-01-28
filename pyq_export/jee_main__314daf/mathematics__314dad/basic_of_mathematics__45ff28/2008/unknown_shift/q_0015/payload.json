@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2008",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025235af5c6f5cc45ff28",
+    "chapter_name": "Basic of Mathematics",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Statement - 1: For every natural number $n \\geq 2, \\frac{1}{\\sqrt{1}}+\\frac{1}{\\sqrt{2}}+\\ldots+\\frac{1}{\\sqrt{n}}>\\sqrt{n}$.\nStatement $-2$ : For every natural number $n \\geq 2, \\sqrt{n(n+1)} < n+1$."
+  },
+  "options": [
+    {
+      "text": "\nStatement $-1$ is false, Statement $-2$ is true\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $-1$ is true, Statement $-2$ is true, Statement $-2$ is a correct explanation for Statement $-1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $-1$ is true, Statement $-2$ is true; Statement $-2$ is not a correct explanation for Statement $-1$.\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nStatement $-1$ is true, Statement $-2$ is false.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& P(n)=\\frac{1}{\\sqrt{1}}+\\frac{1}{\\sqrt{2}}+\\ldots+\\frac{1}{\\sqrt{n}} \\\\\n& P(2)=\\frac{1}{\\sqrt{1}}+\\frac{1}{\\sqrt{2}}>\\sqrt{2}\n\\end{aligned}\n$$\nLet us assume that $P(k)=\\frac{1}{\\sqrt{1}}+\\frac{1}{\\sqrt{2}}+\\ldots+\\frac{1}{\\sqrt{k}}>\\sqrt{k}$ is true $\\therefore P(k+1)=\\frac{1}{\\sqrt{1}}+\\frac{1}{\\sqrt{2}}+\\ldots+\\frac{1}{\\sqrt{k}}+\\frac{1}{\\sqrt{k+1}}>\\sqrt{k+1}$ has to be true. L.H.S. $>\\sqrt{\\mathrm{k}}+\\frac{1}{\\sqrt{\\mathrm{k}+1}}=\\frac{\\sqrt{\\mathrm{k}(\\mathrm{k}+1)}+1}{\\sqrt{\\mathrm{k}+1}}$\nSince $\\sqrt{k(k+1)}>k \\quad(\\forall k \\geq 0)$\n$$\n\\therefore \\frac{\\sqrt{\\mathrm{k}(\\mathrm{k}+1)}+1}{\\sqrt{\\mathrm{k}+1}}>\\frac{\\mathrm{k}+1}{\\sqrt{\\mathrm{k}+1}}=\\sqrt{\\mathrm{k}+1}\n$$\nLet $P(n)=\\sqrt{n(n+1)} < n+1$\nStatement $-1$ is correct.\n$$\nP(2)=\\sqrt{2 \\times 3} < 3\n$$\nIf $P(k)=\\sqrt{k(k+1)} < (k+1)$ is true\nNow $P(k+1)=\\sqrt{(k+1)(k+2)} < k+2$ has to be true\nSince $(k+1) < k+2$\n$$\n\\therefore \\sqrt{(\\mathrm{k}+1)(\\mathrm{k}+2)} < (\\mathrm{k}+2)\n$$\nHence Statement $-2$ is not a correct explanation of Statement $-1$."
+  }
+}

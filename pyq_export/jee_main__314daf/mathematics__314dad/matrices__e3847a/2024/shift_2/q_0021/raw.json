@@ -1,0 +1,83 @@
+{
+  "_id": "6644675f970e6e9ab542d2b9",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda71",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-09T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (09 Apr Shift 2)",
+      "title": "JEE Main 2024 (09 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $B=\\left[\\begin{array}{ll}1 & 3 \\\\ 1 & 5\\end{array}\\right]$ and $A$ be a $2 \\times 2$ matrix such that $A B^{-1}=A^{-1}$. If $B C B^{-1}=A$ and $C^4+\\alpha C^2+\\beta I=O$, then $2 \\beta-\\alpha$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Ufctx",
+      "text": "16",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "jji0F",
+      "text": "2",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "9vvDI",
+      "text": "8",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "2SRae",
+      "text": "10",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\mathrm{BCB}^{-1}=\\mathrm{A} \\\\\n& \\Rightarrow\\left(\\mathrm{BCB}^{-1}\\right)\\left(\\mathrm{BCB}^{-1}\\right)=\\mathrm{A} \\cdot \\mathrm{A} \\\\\n& \\Rightarrow \\mathrm{BCI} \\mathrm{CB}^{-1}=\\mathrm{A}^2 \\\\\n& \\Rightarrow \\mathrm{BC}^2 \\mathrm{~B}^{-1}=\\mathrm{A}^2 \\\\\n& \\Rightarrow \\mathrm{B}^{-1}\\left(\\mathrm{BC}^2 \\mathrm{~B}^{-1}\\right) \\mathrm{B}=\\mathrm{B}^{-1} \\text { (A.A)B }\n\\end{aligned}$<br />From equation (1)\n$\\begin{aligned}\n& \\mathrm{C}^2=\\mathrm{A}^{-1} \\cdot \\mathrm{A} \\cdot \\mathrm{B} \\\\\n& \\mathrm{C}^2=\\mathrm{B}\n\\end{aligned}$\n$\\begin{aligned}\n& \\text { Also } \\mathrm{AB}^{-1}=\\mathrm{A}^{-1} \\\\\n& \\Rightarrow \\mathrm{AB}^{-1} \\cdot \\mathrm{A}=\\mathrm{A}^{-1} \\mathrm{~A}=\\mathrm{I} \\\\\n& \\Rightarrow \\mathrm{A}^{-1}\\left(\\mathrm{AB}^{-1} \\mathrm{~A}\\right)=\\mathrm{A}^{-1} \\mathrm{I} \\\\\n& \\mathrm{B}^{-1} \\mathrm{~A}=\\mathrm{A}^{-1}\n\\end{aligned}$<br />Now characteristics equation of $\\mathrm{C}^2$ is\n$\\begin{aligned}\n& \\left|C_2-\\lambda I\\right|=0 \\\\\n& |B-\\lambda I|=0\n\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow\\left|\\begin{array}{cc}1-\\lambda & 3 \\\\ 1 & 5-\\lambda\\end{array}\\right|=0 \\\\ & \\Rightarrow(1-\\lambda)(5-1)-3=0 \\Rightarrow\\left(\\lambda^2-6 \\lambda+5\\right)-3=0 \\\\ & \\Rightarrow \\lambda^2-6 \\lambda+2=0 \\\\ & \\Rightarrow \\beta^2-6 \\mathrm{~B}+2 \\mathrm{I}=0 \\\\ & \\Rightarrow \\mathrm{C}^4-6 \\mathrm{C}^2+2 \\mathrm{I}=0 \\\\ & \\alpha=-6 \\\\ & \\beta=2 \\\\ & \\therefore 2 \\beta-\\alpha=4+6=10\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "d132582f3f224ab6b66a33cb027bdb82",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/Z8Q6jwUsJQ3MI.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/Z8Q6jwUsJQ3MI.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda71",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-09T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (09 Apr Shift 2)",
+    "title": "JEE Main 2024 (09 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

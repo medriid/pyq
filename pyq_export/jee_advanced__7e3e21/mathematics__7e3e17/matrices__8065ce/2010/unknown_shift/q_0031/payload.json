@@ -1,0 +1,43 @@
+{
+  "index": 31,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2010 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254f7a96128fc38065ce",
+    "chapter_name": "Matrices",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nLet $p$ be an odd prime number and $T_p$ be the following set of $2 \\times 2$ matrices\n$$\nT_p=\\left\\{A=\\left[\\begin{array}{ll}\na & b \\\\\nc & a\n\\end{array}\\right] ; a, b, c \\in\\{0,1,2, \\ldots, p-1\\}\\right\\}\n$$<strong>Question:</strong>\nThe number of $A$ in $T_p$ such that the trace of $A$ is not divisible by $p$ but det $(A)$ is divisible by $p$ is\n[Note : The trace of a matrix is the sum of its diagonal entries.]"
+  },
+  "options": [
+    {
+      "text": "\n$(p-1)\\left(p^2-p+1\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$p^3-(p-1)^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(p-1)^2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$(p-1)\\left(p^2-2\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Trace of $A=2 a$, will be divisible by $p$ iff $a=0$.\n$|A|=a^2-b c$, for $\\left(a^2-b c\\right)$ to be divisible\nby $p$. There are exactly $(p-1)$ ordered pairs $(b, c)$ for any value of $a$.\n$\\therefore$ Required number is $(p-1)^2$.\nHence, (c) is the correct option."
+  }
+}

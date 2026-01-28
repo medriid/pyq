@@ -1,0 +1,63 @@
+{
+  "_id": "64a81498e0ff5a5425a85d22",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad6",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2023-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023",
+      "title": "WBJEE 2023"
+    }
+  ],
+  "question": {
+    "text": "If \\(x=\\sin \\theta\\) and \\(y=\\sin k \\theta\\), then \\(\\left(1-x^2\\right) y_2-x y_1-\\alpha y=0\\), for \\(\\alpha=\\)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "e0Mno",
+      "text": "\\(\\mathrm{k}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "jWp7I",
+      "text": "\\(-\\mathrm{k}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "RkbMc",
+      "text": "\\(-\\mathrm{k}^2\\)",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "XUTIs",
+      "text": "\\(\\mathrm{k}^2\\)",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint : \\(x=\\sin \\theta\\)\n\\(y=\\sin k \\theta\\)\n\\(\\frac{d y}{d x}=\\frac{d y / d \\theta}{d x / d \\theta}=\\frac{k \\cos k \\theta}{\\cos \\theta}=y_1 \\ldots\\ldots (I)\\)\n\\(\\begin{aligned}\n& y_2=\\frac{d^2 y}{d x^2}=\\frac{d}{d \\theta}\\left(\\frac{d y}{d x}\\right) \\times \\frac{d \\theta}{d x}=\\left[\\frac{-k^2 \\sin (k \\theta) \\cdot \\cos \\theta+k \\cos (k \\theta) \\sin \\theta}{\\cos ^2 \\theta}\\right] \\times \\frac{1}{\\cos \\theta} \\\\\n& y_2=\\frac{k \\cos (k \\theta) \\sin \\theta-k^2 \\sin (k \\theta) \\cos \\theta}{\\cos ^3 \\theta} \\ldots \\ldots \\text { (II) }\n\\end{aligned}\\)\nalso, \\(1-x^2=1-\\sin ^2 \\theta=\\cos ^2 \\theta \\ldots \\ldots \\text { (III) }\\)\nSo, putting the values of \\(1-x^2, y_1\\) and \\(y_2\\) from (I), (II), (III) we get\n\\(\\begin{aligned}\n& \\left(1-x^2\\right) y_2-x y_1=\\alpha y \\\\\n& \\Rightarrow\\left(\\cos ^2 \\theta\\right)\\left[\\frac{k \\cos (k \\theta) \\sin \\theta-k^2 \\sin (k \\theta) \\cdot \\cos \\theta}{\\cos ^3 \\theta}\\right]-\\frac{k \\sin \\theta \\cos (k \\theta)}{\\cos \\theta}=\\alpha(\\sin k \\theta) \\\\\n& \\Rightarrow \\frac{k \\cos (k \\theta) \\sin \\theta-k^2 \\sin (k \\theta) \\cos \\theta-k \\sin \\theta \\cos (k \\theta)}{\\cos \\theta}=\\alpha \\sin (k \\theta) \\\\\n& \\Rightarrow-k^2 \\sin (k \\theta)=\\alpha \\sin (k \\theta)\n\\end{aligned}\\)\nSo, \\(\\alpha=-k^2\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad6",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2023-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023",
+    "title": "WBJEE 2023"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

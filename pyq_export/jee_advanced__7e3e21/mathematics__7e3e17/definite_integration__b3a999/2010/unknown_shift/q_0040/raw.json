@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a01f23ac7d519f9b078",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c46",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010 (Paper 1)",
+      "title": "JEE Advanced 2010 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "The value(s) of $\\int_0^1 \\frac{x^4(1-x)^4}{1+x^2} d x$ is (are)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "5NOr3",
+      "text": "\n$\\frac{22}{7}-\\pi$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "GUNAJ",
+      "text": "\n$\\frac{2}{105}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "3fxY1",
+      "text": "\n0\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "XCE6Z",
+      "text": "\n$\\frac{71}{15}-\\frac{3 \\pi}{2}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $I=\\int_0^1 \\frac{x^4(1-x)^4}{1+x^2} d x$\n$$\n\\begin{aligned}\n& =\\int_0^1 \\frac{\\left(x^4-1\\right)(1-x)^4+(1-x)^4}{\\left(1+x^2\\right)} d x \\\\\n& =\\int_0^1\\left(x^2-1\\right)(1-x)^4 d x \\\\\n& +\\int_0^1 \\frac{\\left(1+x^2-2 x\\right)^2}{\\left(1+x^2\\right)} d x \\\\\n& =\\int_0^1\\left\\{\\left(x^2-1\\right)(1-x)^4+\\left(1+x^2\\right)-4 x\\right. \\\\\n& \\left.+\\frac{4 x^2}{\\left(1+x^2\\right)}\\right\\} d x \\\\\n& =\\int_0^1\\left(\\left(x^2-1\\right)(1-x)^4+\\left(1+x^2\\right)-4 x\\right. \\\\\n& \\left.+4-\\frac{4}{1-x^2}\\right) d x \\\\\n& =\\int_0^1\\left(x^6-4 x^5+5 x^4-4 x^2\\right. \\\\\n& \\left.+4-\\frac{4}{1+x^2}\\right) d x \\\\\n& =\\left[\\frac{x^7}{7}-\\frac{4 x^6}{6}+\\frac{5 x^5}{5}\\right. \\\\\n&\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& \\left.\\quad-\\frac{4 x^3}{3}+4 x-4 \\tan ^{-1} x\\right]_0^1 \\\\\n= & \\frac{1}{7}-\\frac{4}{6}+\\frac{5}{5}-\\frac{4}{3}+4-4\\left(\\frac{\\pi}{4}-0\\right) \\\\\n= & \\frac{22}{7}-\\pi\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c46",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010 (Paper 1)",
+    "title": "JEE Advanced 2010 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "6151e863b42eaee0ad72144f",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "41",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "Let a random variable <math><mi>X</mi></math> has a binomial distribution with mean <math><mn>8</mn></math> and variance 4. If <math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>≤</mo><mn>2</mn></mrow></mfenced><mo>=</mo><mfrac><mrow><mi>k</mi></mrow><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>16</mn></mrow></msup></mrow></mfrac><mo>,</mo></math> then the value of&nbsp;<math><mi>k</mi></math> is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "KZS4S",
+      "text": "<math><mn>121</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "fY2Kk",
+      "text": "<math><mn>1</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "KXNmh",
+      "text": "<math><mn>17</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "UQJS3",
+      "text": "<math><mn>137</mn></math>",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> be the number of times the experiment is done,&nbsp;<math><mi>p</mi></math> is the probability of success and&nbsp;<math><mi>q</mi></math> is the probability of failure<br /><math><mo>&#8756;</mo></math> <math><mi>n</mi><mi>p</mi><mo>=</mo><mn>8</mn></math> (mean), <math><mi>n</mi><mi>p</mi><mi>q</mi><mo>=</mo><mn>4</mn></math> (variance)<br /><math><mo>&#8658;</mo><mi>q</mi><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>&#8658;</mo><mi>p</mi><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math><br /><math><mo>&#8658;</mo><mi>n</mi><mo>=</mo><mn>16</mn></math><br /><math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>&#8804;</mo><mn>2</mn></mrow></mfenced><mo>=</mo><mi>p</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>=</mo><mn>0</mn></mrow></mfenced><mo>+</mo><mi>p</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>=</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mi>p</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>=</mo><mn>2</mn></mrow></mfenced></math><br /><math><mo>=</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mn>16</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>0</mn></mrow></msub><msup><mrow><mi>p</mi></mrow><mrow><mn>0</mn></mrow></msup><msup><mrow><mi>q</mi></mrow><mrow><mn>16</mn></mrow></msup><mtext>&#8201;</mtext><mo>+</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mn>16</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><msup><mrow><mi>p</mi></mrow><mrow><mn>1</mn></mrow></msup><msup><mrow><mi>q</mi></mrow><mrow><mn>15</mn></mrow></msup><mtext>&#8201;</mtext><mo>+</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mn>16</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><msup><mrow><mi>p</mi></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi>q</mi></mrow><mrow><mn>14</mn></mrow></msup></math><br /><math><mo>=</mo><msup><mrow><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mfenced></mrow><mrow><mn>16</mn></mrow></msup><mo>+</mo><mn>16</mn><msup><mrow><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mfenced></mrow><mrow><mn>16</mn></mrow></msup><mo>+</mo><mtext>&#8201;</mtext><mn>120</mn><mo>&#215;</mo><msup><mrow><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mfenced></mrow><mrow><mn>16</mn></mrow></msup></math><br /><math><mo>=</mo><msup><mrow><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mfenced></mrow><mrow><mn>16</mn></mrow></msup><mfenced separators=\"|\"><mrow><mn>137</mn></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>137</mn></mrow><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>16</mn></mrow></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>k</mi></mrow><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>16</mn></mrow></msup></mrow></mfrac></math><br /><math><mo>&#8756;</mo><mtext>&#8201;</mtext><mi>k</mi><mo>=</mo><mn>137</mn></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

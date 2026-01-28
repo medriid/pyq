@@ -1,0 +1,43 @@
+{
+  "index": 25,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ccd1d619927718b113a",
+    "chapter_name": "Permutation Combination",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of all numbers having 5 digits, with distinct digits is"
+  },
+  "options": [
+    {
+      "text": "99999",
+      "is_correct": false
+    },
+    {
+      "text": "$9 \\times{ }^{9} P_{4}$",
+      "is_correct": true
+    },
+    {
+      "text": "${ }^{10} P_{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "${ }^{9} P_{4}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Total number of 5-digit numbers having all the digits distinct $={ }^{10} \\mathrm{P}_{5}-{ }^{9} \\mathrm{P}_{4}$\r\n$$\r\n\\begin{array}{l}\r\n=\\frac{10 !}{5 !}-\\frac{91}{5 !}=\\frac{10 \\times 9 !}{5 !}-\\frac{91}{51} \\\\\r\n=\\frac{91}{51}(10-1)=9 \\times \\frac{9!}{(9-4) !} \\\\\r\n=9 \\times 9 P_{4}\r\n\\end{array}\r\n$$"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "index": 56,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2008 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255d3df243724d460a9b",
+    "chapter_name": "Application of Derivatives",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)$ be a non-constant twice differentiable function defined on $(-\\infty, \\infty)$, such that $f(x)=f(1-x)$ and $f^{\\prime}\\left(\\frac{1}{4}\\right)=0$. Then,"
+  },
+  "options": [
+    {
+      "text": "\n$f^{\\prime}(x)$ vanishes atleast twice on $[0,1]$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$f^{\\prime}\\left(\\frac{1}{2}\\right)=0$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\int_{\\frac{1}{2}}^{\\frac{1}{2}} f\\left(x+\\frac{1}{2}\\right) \\sin x d x=0$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\int_0^{\\frac{1}{2}} f(t) e^{\\sin \\pi t} d t=\\int_{\\frac{1}{2}}^1 f(1-t) e^{\\sin \\pi t} d t$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "solution": {
+    "text": "Given that, $f(x)=f(1-x)$\nOn differentiating w.r.t. $x$, we get\n$$\nf^{\\prime}(x)=-f^{\\prime}(1-x)\n$$\nLet us put $\\quad x=\\frac{1}{2}$\n$$\n\\Rightarrow \\quad 2 f^{\\prime}\\left(\\frac{1}{2}\\right)=0 \\Rightarrow f^{\\prime}\\left(\\frac{1}{2}\\right)=0\n$$\nSince, $f^{\\prime}\\left(\\frac{1}{2}\\right)=0$ and $f^{\\prime}\\left(\\frac{1}{4}\\right)=0$\n$\\Rightarrow f^{\\prime \\prime}(x)=0$ at two points in $[0,1]$.\nNow, $\\int_{-1 / 2}^{1 / 2} f\\left(x+\\frac{1}{2}\\right) \\sin x d x=0$\nAs, $f\\left(x+\\frac{1}{2}\\right) \\sin x$ is an odd function which is clear from the following explanation.\nLet $g(x)=f\\left(x+\\frac{1}{2}\\right) \\sin x$,\n$$\ng(-x)=f\\left(\\frac{1}{2}-x\\right) \\sin (-x)=-\\sin x f\\left(1-\\left(\\frac{1}{2}-x\\right)\\right)=-\\sin x f\\left(\\frac{1}{2}+x\\right)=-g(x)\n$$\nMoreover, $\\int_{1 / 2}^1 f(1-t) e^{\\sin (\\pi t)} d t=\\int_0^{1 / 2} f(u) \\cdot e^{\\sin \\pi u} d u$ where, $1-t=u$."
+  }
+}

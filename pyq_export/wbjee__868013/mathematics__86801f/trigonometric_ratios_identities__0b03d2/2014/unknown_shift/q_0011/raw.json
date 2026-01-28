@@ -1,0 +1,63 @@
+{
+  "_id": "64a813fee0ff5a5425a85777",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "The sum of the series $\\sum_{n=1}^{\\infty} \\sin \\left(\\frac{n ! \\pi}{720}\\right)$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "hpMCK",
+      "text": "$\\sin \\left(\\frac{\\pi}{180}\\right)+\\sin \\left(\\frac{\\pi}{360}\\right)+\\sin \\left(\\frac{\\pi}{540}\\right)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "7xSoW",
+      "text": "$\\sin \\left(\\frac{\\pi}{6}\\right)+\\sin \\left(\\frac{\\pi}{30}\\right)+\\sin \\left(\\frac{\\pi}{120}\\right)+\\sin \\left(\\frac{\\pi}{360}\\right)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "fIz4m",
+      "text": "$\\sin \\left(\\frac{\\pi}{6}\\right)+\\sin \\left(\\frac{\\pi}{30}\\right)+\\sin \\left(\\frac{\\pi}{120}\\right)$ $+\\sin \\left(\\frac{\\pi}{360}\\right)+\\sin \\left(\\frac{\\pi}{720}\\right)$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "i3FGM",
+      "text": "$\\sin \\left(\\frac{\\pi}{180}\\right)+\\sin \\left(\\frac{\\pi}{360}\\right)$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We know that\r\n$$\r\n\\begin{array}{c}\r\n\\sin n \\pi=0, \\forall n \\in N \\\\\r\n\\therefore E=\\sum_{n=1}^{\\infty} \\sin \\left(\\frac{n ! \\pi}{720}\\right)=\\sin \\left(\\frac{\\pi}{720}\\right)+\\sin \\left(\\frac{2 ! \\pi}{720}\\right) \\\\\r\n+\\sin \\left(\\frac{3 ! \\pi}{720}\\right)+\\sin \\left(\\frac{4 ! \\pi}{720}\\right)+\\sin \\left(\\frac{5 ! \\pi}{720}\\right) \\\\\r\n+\\sin \\left(\\frac{6 ! \\pi}{720}\\right)+\\ldots+\\sin \\left(\\frac{720 ! \\pi}{720}\\right) \\\\\r\n+\\sin \\left(\\frac{\\pi}{720}\\right)+\\sin \\left(\\frac{\\pi}{320}\\right)+\\sin \\left(\\frac{\\pi}{120}\\right)+\\sin \\left(\\frac{\\pi}{30}\\right) \\\\\r\n\\end{array}\r\n$$\r\nHere, we see that after five terms of the above series all angles are multiple of $\\pi,$ i.e., $\\sin n \\pi$, so all further values are zero.\r\n$$\r\n\\begin{aligned}\r\n\\therefore \\quad E=\\sin \\left(\\frac{\\pi}{720}\\right)+\\sin \\left(\\frac{\\pi}{320}\\right)+\\sin \\left(\\frac{\\pi}{120}\\right) \\\\\r\n&+\\sin \\left(\\frac{\\pi}{30}\\right)+\\sin \\left(\\frac{\\pi}{6}\\right)\r\n\\end{aligned}\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

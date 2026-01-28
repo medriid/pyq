@@ -1,0 +1,63 @@
+{
+  "_id": "64a81499e0ff5a5425a85d2e",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad6",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2023-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023",
+      "title": "WBJEE 2023"
+    }
+  ],
+  "question": {
+    "text": "The value of \\(\\lim _{n \\rightarrow \\infty}\\left[\\left(\\frac{1}{2 \\cdot 3}+\\frac{1}{2^2 \\cdot 3}\\right)+\\left(\\frac{1}{2^2 \\cdot 3^2}+\\frac{1}{2^3 \\cdot 3^2}\\right)+\\ldots+\\left(\\frac{1}{2^n \\cdot 3^n}+\\frac{1}{2^{n+1} \\cdot 3^n}\\right)\\right]\\) is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "mPwAE",
+      "text": "\\(\\frac{3}{8}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "LUxwx",
+      "text": "\\(\\frac{3}{10}\\)",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "SyOJB",
+      "text": "\\(\\frac{3}{14}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "EPjOu",
+      "text": "\\(\\frac{3}{16}\\)",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\(\\begin{aligned}\n\\text{Hint : } & \\lim _{n \\rightarrow \\infty} \\sum_{x=1}^n\\left(\\frac{1}{2^x \\times 3^x}+\\frac{1}{2^{x+1} \\times 3^x}\\right) \\\\\n& =\\lim _{n \\rightarrow \\infty} \\sum_{x=1}^n \\frac{1}{6^x}\\left(1+\\frac{1}{2}\\right) \\\\\n& =\\frac{3}{2} \\times \\underbrace{\\lim _{n \\rightarrow \\infty}\\left(\\frac{1}{6}+\\frac{1}{6^2}+\\ldots \\cdots \\cdot \\frac{1}{6^n}\\right)}_{\\text {infinite GP }}=\\frac{3}{2} \\times \\frac{\\frac{1}{6}}{1-\\frac{1}{6}}=\\frac{3}{10}\n\\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad6",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2023-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023",
+    "title": "WBJEE 2023"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

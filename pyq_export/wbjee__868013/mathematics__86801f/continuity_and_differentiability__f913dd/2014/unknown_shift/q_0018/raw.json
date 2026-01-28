@@ -1,0 +1,63 @@
+{
+  "_id": "64a81402e0ff5a5425a85797",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $f(x)=\\left\\{\\begin{array}{ll}\\int_{0}^{x}|1-t| d t, & x>0 \\\\ x-\\frac{1}{2}, & x \\leq 1\\end{array} .\\right.$ Then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "JvoHC",
+      "text": "$f(x)$ is continuous at $x=1$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "Vjknb",
+      "text": "$f(x)$ is not continuous at $x=1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Tw453",
+      "text": "$f(x)$ is differentiable at $x=1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "e93aB",
+      "text": "$f(x)$ is not differentiable at $x=1$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given. $f(x)=\\left\\{\\begin{aligned} \\int_{0}^{x}|1-t| d t, & x>1 \\\\ x-\\frac{1}{2}, & x \\leq 1 \\end{aligned}\\right.$\r\nNow, for $x>1$, $\\int_{0}^{x}|1-t| d t$\r\n$$\r\n\\begin{aligned}\r\n&=\\int_{0}^{1}(1-t) d t+\\int_{1}^{x}(t-1) d t \\\\\r\n&=\\left[t-\\frac{t^{2}}{2}\\right]_{0}^{1}+\\left[\\frac{t^{2}}{2}-t\\right]_{1}^{x} \\\\\r\n&=\\left[1-\\frac{1}{2}-0\\right]+\\left[\\frac{x^{2}}{2}-x-\\frac{1}{2}+1\\right] \\\\\r\n&=\\frac{1}{2}+\\frac{x^{2}}{2}-x-\\frac{1}{2}+1 \\\\\r\n\\Rightarrow \\quad \\frac{x^{2}}{2}-x+1\r\n\\end{aligned}\r\n$$\r\n$\\therefore$ Eq. (i) becomes, $f(x)=\\left\\{\\begin{array}{ll}\\frac{x^{2}}{2}-x+1, & x>1 \\\\ x-\\frac{1}{2}, & x \\leq 1\\end{array}\\right.$\r\nContinuity at $x=1$\r\nand $\\begin{aligned} \\mathrm{LHL} &=\\lim (f(x)\\\\ &=\\lim _{x \\rightarrow 1}\\left(x-\\frac{1}{2}\\right)=1-\\frac{1}{2} \\\\ \\mathrm{RHL} &=\\lim _{x \\rightarrow 1^{+}} f(x) \\\\ &=\\lim _{x \\rightarrow 1}\\left(\\frac{x^{2}}{2}-x+1\\right) \\\\ &=\\frac{1}{2}-1+1=\\frac{1}{2} \\\\ f(1) &=1-\\frac{1}{2}=\\frac{1}{2} \\end{aligned}$\r\n$\\therefore \\quad f(1)=\\lim _{x \\rightarrow 1^{-}} f(x)=\\lim _{x \\rightarrow 1^{+}} f(x)$\r\nHence, $f(x)$ is continuous at $x=1$ \r\nDifferentiability at $x=1$\r\n$\\begin{aligned} L H D &=\\lim _{h \\rightarrow 0} \\frac{f(1-h)-f(1)}{-h} \\\\ &=\\lim _{h \\rightarrow 0} \\frac{(1-h)-\\frac{1}{2}-\\left(1-\\frac{1}{2}\\right)}{-h}=\\lim _{h \\rightarrow 0} \\frac{-h}{-h}=1 \\end{aligned}$\r\n$\\begin{aligned} \\mathrm{RHD} &=\\lim _{h \\rightarrow 0} \\frac{f(1+h)-f(1)}{h} \\\\ &=\\lim _{h \\rightarrow 0} \\frac{\\frac{(1+h)^{2}}{2}-(1+h)+1-\\left(1-\\frac{1}{2}\\right)}{h} \\\\ &=\\lim _{h \\rightarrow 0} \\frac{\\frac{1+h^{2}+2 h}{2}-1-h+1-\\frac{1}{2}}{h} \\\\ &=\\lim _{h \\rightarrow 0} \\frac{\\frac{1}{2}+\\frac{h^{2}}{2}+h-h-\\frac{1}{2}}{h} \\\\ &=\\lim _{h \\rightarrow 0} \\frac{h^{2}}{2 h}=0 \\end{aligned}$\r\n$\\mathrm{LHD} \\neq \\mathrm{RHD}$\r\nHence, $f(x)$ is not differentiable at $x=1$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

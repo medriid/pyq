@@ -1,0 +1,63 @@
+{
+  "_id": "66446743970e6e9ab542d1b2",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda6e",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-08T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (08 Apr Shift 1)",
+      "title": "JEE Main 2024 (08 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $y=y(x)$ be the solution of the differential equation $\\left(1+y^2\\right) e^{\\tan x} d x+\\cos ^2 x\\left(1+e^{2 \\tan x}\\right) d y=0, y(0)=1$. Then $y\\left(\\frac{\\pi}{4}\\right)$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "99UYO",
+      "text": "$\\frac{2}{e}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "DUarH",
+      "text": "$\\frac{2}{e^2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "1Ji56",
+      "text": "$\\frac{1}{e}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "6lUAL",
+      "text": "$\\frac{1}{e^2}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\left(1+y^2\\right) e^{\\tan x} d x+\\cos ^2 x\\left(1+e^{2 \\tan x}\\right) d y=0 \\\\ & \\int \\frac{\\sec ^2 x e^{\\tan x}}{1+e^{2 \\tan x}} d x+\\int \\frac{d y}{1+y^2}=C \\\\ & \\Rightarrow \\tan ^{-1}\\left(e^{\\tan x}\\right)+\\tan ^{-1} y=C \\\\ & \\text { for } x=0, y=1, \\tan ^{-1}(1)+\\tan ^{-1} 1=C\\end{aligned}$\n$\\mathrm{C}=\\frac{\\pi}{2}$\n$\\tan ^{-1}\\left(e^{\\tan x}\\right)+\\tan ^{-1} y=\\frac{\\pi}{2}$<br />Put $x=\\pi, \\tan ^{-1} e+\\tan ^{-1} y=\\frac{\\pi}{2}$\n$\\tan ^{-1} y=\\cot ^{-1} e$\n$y=\\frac{1}{e}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda6e",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-08T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (08 Apr Shift 1)",
+    "title": "JEE Main 2024 (08 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

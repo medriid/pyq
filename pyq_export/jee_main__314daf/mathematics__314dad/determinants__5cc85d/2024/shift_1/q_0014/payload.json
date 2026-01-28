@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $\\lambda, \\mu \\in \\mathbf{R}$. If the system of equations\n$\\begin{aligned}\n& 3 x+5 y+\\lambda z=3 \\\\\n& 7 x+11 y-9 z=2 \\\\\n& 97 x+155 y-189 z=\\mu\n\\end{aligned}$\nhas infinitely many solutions, then $\\mu+2 \\lambda$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "24",
+      "is_correct": false
+    },
+    {
+      "text": "25",
+      "is_correct": true
+    },
+    {
+      "text": "22",
+      "is_correct": false
+    },
+    {
+      "text": "27",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{array}{l}\n3 x+5 y+\\lambda z=3 \\\\\n7 x+11 y-9 z=2 \\\\\n97 x+155 y-189 z=\\mu \\\\\n93 x+155 y+31 \\lambda z=93 \\\\\n97 x+155 y-189 z=\\mu \\\\\n-\\quad+\\quad+\\quad- \\\\\n\\hline-4 x+(31 \\lambda+189) z=93-\\mu \\\\\n1085 x+1705 y-1395 z=310 \\\\\n1067 x+1705 y-2079 z=11 \\mu \\\\\n-\\quad+\\quad-\\quad \\\\\n\\hline 18 x+684 z=310-11 \\mu\n\\end{array}$\n$\\begin{aligned}\n& -36 x+9(31 \\lambda+189) z=9(93-\\mu) \\\\\n& 36 x+1368 z=2(310-11 \\mu) \\\\\n& (279 \\lambda+3069) z=1457-31 \\mu\n\\end{aligned}$\nfor infinite solutions -\n$\\begin{aligned}\n& \\lambda=\\frac{-3069}{279}=\\frac{-341}{31} \\\\\n& \\mu=\\frac{1457}{31}\n\\end{aligned}$\n$\\mu+2 \\lambda=\\frac{1457-682}{31}=\\frac{775}{31}=25$"
+  }
+}

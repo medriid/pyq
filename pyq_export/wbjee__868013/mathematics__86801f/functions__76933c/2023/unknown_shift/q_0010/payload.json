@@ -1,0 +1,44 @@
+{
+  "index": 10,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0f42b7a9706676933c",
+    "chapter_name": "Functions",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let \\(f(x)=x^m, m\\) being a non-negative integer. The value of \\(m\\) so that the equality \\(f^{\\prime}(a+b)=f^{\\prime}(a)+f^{\\prime}(b)\\) is valid for all \\(a\\), \\(b > 0\\) is"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": true
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "C"
+  ],
+  "solution": {
+    "text": "Hint : Let \\(f(x)=x^m, m \\geq 0, m \\in I\\)\n\\(\\begin{aligned}\n& f^{\\prime}(a+b)=f^{\\prime}(a)+f^{\\prime}(b), a, b > 0 \\\\\n& \\Rightarrow m(a+b)^{m-1}=m a^{m-1}+m \\cdot b^{m-1} \\\\\n& (a+b)^{m-1}=a^{m-1}+b^{m-1} \\quad f^{\\prime}(x)=m n^{m-1} \\\\\n& \\text { for } m=0 \\Rightarrow 0=0 \\\\\n& (a+b)^{-1}=a^{-1}+b^{-1}\n\\end{aligned}\\)\nNot satisfied\nfor \\(m=1\\)\n\\(\\begin{aligned}\n& (a+b)^0=a^{1-1}+b^{1-1} \\\\\n& 1=2\n\\end{aligned}\\)\nNot satisfied\nfor \\(m=2\\)\n\\(\\begin{aligned}\n& (a+b)^{2-1}=a^{2-1}+b^{2-1} \\\\\n& a+b=a+b \\text { (satisfied) } \\\\\n& \\text { for } m=3 \\\\\n& (a+b)^{3-1}=a^{3-1}+b^{3-1}\n\\end{aligned}\\)\nNot satisfied"
+  }
+}

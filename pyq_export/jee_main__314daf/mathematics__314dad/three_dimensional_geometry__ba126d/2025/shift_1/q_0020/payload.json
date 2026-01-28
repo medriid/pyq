@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256d4f8c6827c3ba126d",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let \\(\\overrightarrow{\\mathrm{a}}=\\hat{i}+2 \\hat{j}+\\hat{k}\\) and \\(\\quad \\overrightarrow{\\mathrm{b}}=2 \\hat{i}+7 \\hat{j}+3 \\hat{k} . \\quad\\) Let \\(\\mathrm{L}_1: \\overrightarrow{\\mathrm{r}}=(-\\hat{i}+2 \\hat{j}+\\hat{k})+\\lambda \\overrightarrow{\\mathrm{a}}, \\lambda \\in \\mathbf{R}\\) and \\(\\mathrm{L}_2: \\overrightarrow{\\mathrm{r}}=(\\hat{j}+\\hat{k})+\\mu \\overrightarrow{\\mathrm{b}}, \\mu \\in \\mathbf{R}\\) be two lines. If the line \\(\\mathrm{L}_3\\) passes through the point of intersection of \\(\\mathrm{L}_1\\) and \\(L_2\\), and is parallel to \\(\\vec{a}+\\vec{b}\\), then \\(L_3\\) passes through the point :"
+  },
+  "options": [
+    {
+      "text": "\\((5,17,4)\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\((2,8,5)\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\((8,26,12)\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\((-1,-1,1)\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & L_1: \\overrightarrow{\\mathrm{r}}=(-\\hat{\\mathrm{i}}+2 \\hat{\\mathrm{j}}+\\hat{\\mathrm{k}})+\\lambda(\\hat{\\mathrm{i}}+2 \\hat{\\mathrm{j}}+\\hat{\\mathrm{k}}) \\\\ & \\Rightarrow \\overrightarrow{\\mathrm{r}}=(\\lambda-1) \\hat{\\mathrm{i}}+2(\\lambda+1) \\hat{\\mathrm{j}}+(\\lambda+1) \\hat{\\mathrm{k}} \\\\ & \\mathrm{L}_2: \\overrightarrow{\\mathrm{r}}=(\\hat{\\mathrm{j}}+\\hat{\\mathrm{k}})+\\mu(2 \\hat{\\mathrm{i}}+7 \\hat{\\mathrm{j}}+3 \\hat{\\mathrm{k}}) \\\\ & \\Rightarrow \\overrightarrow{\\mathrm{r}}=2 \\mu \\hat{\\mathrm{i}}+(1+7 \\mu) \\hat{\\mathrm{j}}+(1+3 \\mu) \\hat{\\mathrm{k}}\\end{aligned}$\n\n\nFor point of intersection equating respective components\n$\\begin{aligned}\n& \\Rightarrow \\lambda-1=2 \\mu \\\\\n& 2(\\lambda+1)=1+7 \\mu \\\\\n& \\lambda+1=1+3 \\mu\n\\end{aligned}$\n\nWe get\n$\\begin{aligned}\n& \\Rightarrow \\lambda=3 \\text { and } \\mu=1 \\\\\n& \\Rightarrow \\vec{a}+\\vec{b}=3 \\hat{i}+9 \\hat{j}+4 \\hat{k}\n\\end{aligned}$\n$\\mathrm{L}_3: \\overrightarrow{\\mathrm{r}}=2 \\hat{\\mathrm{i}}+8 \\hat{\\mathrm{j}}+4 \\hat{\\mathrm{k}}+\\alpha(3 \\hat{\\mathrm{i}}+9 \\hat{\\mathrm{j}}+4 \\hat{\\mathrm{k}})$\n\nFor $\\alpha=2, \\overrightarrow{\\mathrm{r}}=8 \\hat{\\mathrm{i}}+26 \\hat{\\mathrm{j}}+12 \\hat{\\mathrm{k}}$"
+  }
+}

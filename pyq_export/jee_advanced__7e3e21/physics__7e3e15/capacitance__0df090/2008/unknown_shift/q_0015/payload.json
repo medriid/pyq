@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2008 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "620ab21cec588a56880df090",
+    "chapter_name": "Capacitance",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A parallel plate capacitor $C$ with plates of unit area and separation $d$ is filled with a liquid of dielectric constant $K=2$. The level of liquid is $\\frac{d}{3}$ initially. Suppose the liquid level decreases at a constant speed $v$, the time constant as a function of time $t$ is\n<img src=\"assets\\qt0015_4218695f91e0.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{6 \\varepsilon_0 R}{5 d+3 v t}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{(15 d+9 v t) \\varepsilon_0 R}{2 d^2-3 d v t-9 v^2 t^2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{6 \\varepsilon_0 R}{5 d-3 v t}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{(15 d-9 v t) \\varepsilon_0 R}{2 d^2+3 d v t-9 v^2 t^2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "After time $t$, thickness of liquid will remain $\\left(\\frac{d}{3}-v t\\right)$.\nNow, time constant as function of time\n$$\n\\begin{aligned}\n\\tau_c & =C R \\\\\n& \\left.=\\frac{\\varepsilon_0(1) \\cdot R}{\\left(d-\\frac{d}{3}+v t\\right)+\\frac{d / 3-v t}{2}} \\quad \\quad \\text { Applying } C=\\frac{\\varepsilon_0 A}{d-t+\\frac{t}{k}}\\right) \\\\\n& =\\frac{6 \\varepsilon_0 R}{5 d+3 v t}\n\\end{aligned}\n$$\n$\\therefore$ correct option is (a)."
+  }
+}

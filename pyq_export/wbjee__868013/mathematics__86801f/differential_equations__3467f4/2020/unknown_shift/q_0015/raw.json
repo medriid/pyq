@@ -1,0 +1,63 @@
+{
+  "_id": "64a81462e0ff5a5425a85b26",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7f",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2020-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2020",
+      "title": "WBJEE 2020"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $f$ be a differentiable function with $\\lim _{x \\rightarrow \\infty} f(x)=0 .$ If $y^{\\prime}+y f^{\\prime}(x)-f(x) f^{\\prime}(x)=0, \\lim _{x \\rightarrow \\infty} y(x)=0$, then $\\left(\\right.$ where $\\left.y^{\\prime}=\\frac{d y}{d x}\\right)$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "oh27X",
+      "text": "$y+1=e^{f(x)}+f(x)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "34DMs",
+      "text": "$y-1=e^{f(x)}+f(x)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "9iT7l",
+      "text": "$y+1=e^{-f(x)}+f(x)$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "7JydR",
+      "text": "$y-1=e^{-f f] x}+f(x)$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint:\r\n$\\frac{d y}{d x}+f^{\\prime}(x) y=f^{\\prime}(x) f(x)$\r\n$\\Rightarrow y \\times e^{f(x)}=\\int f^{\\prime}(x) f(x) e^{f(x)} d x$\r\n$\\Rightarrow y \\times e^{f(x)}=e^{f(x)}(f(x)-1)+c \\quad[$ Putting $f(x)=0 ; y=0, c=1]$\r\n$\\Rightarrow y \\times e^{f(x)}=e^{f(x)}(f(x)-1)+1$\r\n$\\Rightarrow y=f(x)-1+e^{-f(x)}$\r\n$\\Rightarrow y+1=e^{-f(x)}+f(x)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7f",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2020-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2020",
+    "title": "WBJEE 2020"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

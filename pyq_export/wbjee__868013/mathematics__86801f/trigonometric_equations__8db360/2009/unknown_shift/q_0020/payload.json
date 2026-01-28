@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2009",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cde479537dcd98db360",
+    "chapter_name": "Trigonometric Equations",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "General solution of $\\sin \\mathrm{x}+\\cos \\mathrm{x}=\\min _{a \\in I R}\\left\\{1, a^2-4 a+6\\right\\}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{n \\pi}{2}+(-1)^n \\frac{\\pi}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 n \\pi+(-1)^n \\frac{\\pi}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$n \\pi+(-1)^{n+1} \\frac{\\pi}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$n \\pi+(-1)^n \\frac{\\pi}{4}-\\frac{\\pi}{4}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Hints: $\\sin x+\\cos x=\\min _{x \\in I R}\\left\\{1, a^2-4 a+6\\right\\}$\n$$\n\\begin{aligned}\n& a^2-4 a+6=(a-2)^2+2 \\therefore \\min _{a \\in I R}\\left(a^2-4 a+6\\right)=2 \\\\\n& \\therefore \\min _{a \\in I R}\\left\\{1, a^2-4 a+6\\right\\}=\\min \\{1,2\\}=1 \\\\\n& \\sin x+\\cos x=1 \\Rightarrow \\frac{1}{\\sqrt{2}} \\sin x+\\frac{1}{\\sqrt{2}} \\cos x=\\frac{1}{\\sqrt{2}} \\\\\n& \\Rightarrow \\sin \\left(x+\\frac{\\pi}{4}\\right)=\\sin \\frac{\\pi}{4}, \\Rightarrow x+\\frac{\\pi}{4}=n \\pi+(-1)^n \\cdot \\frac{\\pi}{4}\n\\end{aligned}\n$$\n\n$$\n\\Rightarrow x=n \\pi+(-1)^n \\frac{\\pi}{4}-\\frac{\\pi}{4}\n$$"
+  }
+}

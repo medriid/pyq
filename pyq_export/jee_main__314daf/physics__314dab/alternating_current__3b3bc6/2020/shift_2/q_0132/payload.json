@@ -1,0 +1,43 @@
+{
+  "index": 132,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2020 (08 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "6160242d490647b9be3b3bc6",
+    "chapter_name": "Alternating Current",
+    "year": "2020",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "<img src=\"assets\\qt0132_b07708c7576a.png\" /><br />As shown in the figure, a battery of emf <math><mo>&#8712;</mo></math> is connected to an inductor <math><mi>L</mi></math> and resistance <math><mi>R</mi></math> in series. The switch is closed at <math><mi>t</mi><mo>=</mo><mn>0</mn><mo>.</mo></math> The total charge that flows from the battery, between <math><mi>t</mi><mo>=</mo><mn>0</mn></math> and <math><mi>t</mi><mo>=</mo><msub><mrow><mi>t</mi></mrow><mrow><mi>c</mi></mrow></msub></math> ( <math><msub><mrow><mi>t</mi></mrow><mrow><mi>c</mi></mrow></msub></math> is the time constant of the circuit) is:"
+  },
+  "options": [
+    {
+      "text": "<math><mfrac><mrow><mo>∈</mo><mi>L</mi></mrow><mrow><mi>e</mi><msup><mrow><mi>R</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mfrac><mrow><mo>∈</mo><mi>L</mi></mrow><mrow><msup><mrow><mi>R</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>e</mi></mrow></mfrac></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mo>∈</mo><mi>L</mi></mrow><mrow><msup><mrow><mi>R</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mo>∈</mo><mi>R</mi></mrow><mrow><mi>e</mi><msup><mrow><mi>L</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p><math><mi>q</mi><mo>=</mo><mrow><munderover><mo stretchy=\"false\">&#8747;</mo><mrow><mn>0</mn></mrow><mrow><msub><mrow><mi>T</mi></mrow><mrow><mi>c</mi></mrow></msub></mrow></munderover><mrow><mi>i</mi><mi>d</mi><mi>t</mi></mrow></mrow><mi></mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mo>&#8712;</mo><mi>R</mi></mfrac><msubsup><mfenced open=\"[\" close=\"]\" separators=\"|\"><mrow><mi>t</mi><mo>-</mo><mfrac><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mi>t</mi><msub><mi>T</mi><mi>c</mi></msub></mfrac></mrow></msup><mrow><mo>-</mo><mfrac><mn>1</mn><msub><mi>T</mi><mi>c</mi></msub></mfrac></mrow></mfrac></mrow></mfenced><mn>0</mn><msub><mi>T</mi><mi>c</mi></msub></msubsup><mspace linebreak=\"newline\"/><mo>=</mo><mfrac><mo>&#8712;</mo><mi>R</mi></mfrac><mfenced open=\"[\" close=\"]\" separators=\"|\"><mrow><msub><mi>T</mi><mi>c</mi></msub><mo>+</mo><msub><mi>T</mi><mi>c</mi></msub><msup><mi>e</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>-</mo><msub><mi>T</mi><mi>c</mi></msub></mrow></mfenced></math><br /><math><mo>=</mo><mfrac><mrow><mo>&#8712;</mo></mrow><mrow><mi>R</mi></mrow></mfrac><mo>&#215;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>e</mi></mrow></mfrac><mo>&#215;</mo><mfrac><mrow><mi>L</mi></mrow><mrow><mi>R</mi></mrow></mfrac></math></p><p>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>=</mo><mfrac><mrow><mo>&#8712;</mo><mi>L</mi></mrow><mrow><msup><mi>R</mi><mn>2</mn></msup><mi>e</mi></mrow></mfrac></math></p>"
+  }
+}

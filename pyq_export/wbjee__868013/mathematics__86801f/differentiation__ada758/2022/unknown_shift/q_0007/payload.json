@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the transformation $z=\\log \\tan \\frac{x}{2}$ reduces the differential equation $\\frac{d^2 y}{d x^2}+\\cot x \\frac{d y}{d x}+4 y \\operatorname{cosec}{ }^2 x=0$ into the form $\\frac{d^2 y}{d z^2}+k y=0$ then $k$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$-4$",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": true
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "$-2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\frac{d^2 y}{d z^2}=\\frac{d}{d z}\\left(\\frac{d y}{d z}\\right)=\\frac{d}{d z}\\left(\\frac{\\frac{d y}{d x}}{\\frac{d z}{d x}}\\right)$\n$=\\frac{d}{d z}\\left(\\frac{\\frac{d y}{d x}}{\\frac{1}{\\sin x}}\\right) \\quad\\left(\\because \\frac{d z}{d x}=\\frac{1}{\\sin x}\\right)$\n$=\\frac{d}{d z}\\left(\\sin x \\cdot \\frac{d y}{d x}\\right)=\\frac{\\frac{d}{d x}\\left(\\sin x \\cdot \\frac{d y}{d x}\\right)}{\\frac{d z}{d x}}$\n$=\\sin x\\left[\\cos x \\cdot \\frac{d y}{d x}+\\sin x \\frac{d^2 y}{d x^2}\\right]$\n$\\because \\frac{d^2 y}{d z^2}+k y=0$\n$\\therefore \\sin x \\cdot \\cos x \\cdot \\frac{d y}{d x}+\\sin ^2 x \\frac{d^2 y}{d x^2}+k y=0$\nDividing the equation by $\\sin ^2 x$, we get $\\frac{d^2 y}{d x^2}+\\cot x \\cdot \\frac{d y}{d x}+k \\cdot \\operatorname{cosec}^2 x \\cdot y=0$\nComparing with the equation\n$\\frac{d^2 y}{d x^2}+\\cot x \\cdot \\frac{d y}{d x}+4 \\operatorname{cosec}^2 x \\cdot y=0$\nWe get $k=4$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "multipleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2025 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "6160240548aa12a5f67c1a13",
+    "chapter_name": "Electrostatics",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Six infinitely large and thin non-conducting sheets are fixed in configurations I and II. As shown in the figure, the sheets carry uniform surface charge densities which are indicated in terms of $\\sigma_0$. The separation between any two consecutive sheets is $1 \\mu \\mathrm{~m}$. The various regions between the sheets are denoted as $1,2,3,4$ and 5. If $\\sigma_0=9 \\mu \\mathrm{C} / \\mathrm{m}^2$, then which of the following statements is/are correct: (Take permittivity of free space $\\epsilon_0=9 \\times 10^{-12} \\mathrm{~F} / \\mathrm{m}$):\n<img src=\"assets\\qt0000_2d296e1f729a.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "In region 4 of the configuration $I$, the magnitude of the electric field is zero.",
+      "is_correct": true
+    },
+    {
+      "text": "In region 3 of the configuration II, the magnitude of the electric field is $\\frac{\\sigma_0}{\\epsilon_0}$.",
+      "is_correct": false
+    },
+    {
+      "text": "Potential difference between the first and the last sheets of the configuration I is 5 V .",
+      "is_correct": false
+    },
+    {
+      "text": "Potential difference between the first and the last sheets of the configuration II is zero.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0000_98e410a8c77a.png\"><br>$\\begin{aligned}\\left(\\mathrm{E}_4\\right)_{\\mathrm{I}}= & \\frac{\\sigma_0}{2 \\epsilon_0}[1-1+1-1-1+1]=0 \\\\ \\left(\\mathrm{~V}_{\\text {First }}\\right)_{\\mathrm{I}} & =\\frac{-\\sigma_0}{2 \\epsilon_0}[-1+2-3+4-5] \\mathrm{d} \\\\ & =\\frac{-\\sigma_0}{2 \\epsilon_0}[-3] \\mathrm{d}=\\frac{\\sigma_0 3 \\mathrm{~d}}{2 \\epsilon_0}\\end{aligned}$\n$\\begin{aligned} & \\begin{aligned}\\left(V_{\\text {Last }}\\right)_I & =\\frac{-\\sigma_0}{2 \\epsilon_0}[1-2+3-4+5] \\\\ & =\\frac{\\sigma_0}{2 \\epsilon_0}[-3 \\mathrm{~d}]\\end{aligned} \\\\ & \\begin{aligned}\\left(V_{\\text {First }}-V_{\\text {Last }}\\right)_I & =\\frac{3 \\sigma_0 \\mathrm{~d}}{\\epsilon_0} \\\\ & =\\frac{3 \\times 9 \\times 10^{-6} \\times 1 \\times 10^{-6}}{9 \\times 10^{-12}}=3 \\mathrm{volt}\\end{aligned}\\end{aligned}$\n<img src=\"assets\\st0000_df910c920109.png\"><br>$\\begin{aligned} & \\begin{aligned}\\left(\\mathrm{E}_3\\right)_{\\text {II }}= & \\frac{\\sigma_0}{2 \\epsilon_0}\\left[\\frac{1}{2}-1+1+1-1+\\frac{1}{2}\\right]=\\frac{\\sigma_0}{2 \\epsilon_0} \\\\ & =\\frac{-\\sigma_0}{2 \\epsilon_0}\\left[-1+2-3+4-\\frac{5}{2}\\right] \\mathrm{d} \\\\ & =\\frac{-\\sigma_0}{2 \\epsilon_0}[2-2.5] \\mathrm{d}=\\frac{\\sigma_0 \\mathrm{~d}}{4 \\epsilon_0}\\end{aligned} \\\\ & \\begin{aligned}\\left(\\mathrm{V}_{\\text {Last }}\\right)_{\\text {II }} & =\\frac{-\\sigma_0}{2 \\epsilon_0}\\left[1-2+3-4+\\frac{5}{2}\\right] \\mathrm{d} \\\\ & =\\frac{-\\sigma_0}{2 \\epsilon_0}[6.5-6] \\mathrm{d}=\\frac{-\\sigma_0 \\mathrm{~d}}{4 \\epsilon_0}\\end{aligned} \\\\ & \\left(\\mathrm{~V}_{\\text {First }}-\\mathrm{V}_{\\text {Last }}\\right)_{\\text {II }}=\\frac{\\sigma_0 \\mathrm{~d}}{2 \\epsilon_0} \\neq 0\\end{aligned}$"
+  }
+}

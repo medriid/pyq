@@ -1,0 +1,83 @@
+{
+  "_id": "67a2ee8dc8b73881fdaea0e5",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d97609",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-22T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (22 Jan Shift 2)",
+      "title": "JEE Main 2025 (22 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If $\\lim _{x \\rightarrow \\infty}\\left(\\left(\\frac{\\mathrm{e}}{1-\\mathrm{e}}\\right)\\left(\\frac{1}{\\mathrm{e}}-\\frac{x}{1+x}\\right)\\right)^x=\\alpha$, then the value of $\\frac{\\log _{\\mathrm{e}} \\alpha}{1+\\log _{\\mathrm{e}} \\alpha}$ equals :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "yjcbk",
+      "text": "$e^{-1}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "rrLVa",
+      "text": "$\\mathrm{e}^2$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "iGod5",
+      "text": "$e^{-2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "p6p7Z",
+      "text": "e",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\alpha=\\lim _{x \\rightarrow \\infty}\\left(\\left(\\frac{\\mathrm{e}}{1-\\mathrm{e}}\\right)\\left(\\frac{1}{\\mathrm{e}}-\\frac{\\mathrm{x}}{1+\\mathrm{x}}\\right)\\right)^{\\mathrm{x}}\\left(1^{\\infty} \\text { form }\\right) \\\\ & \\therefore \\alpha=\\mathrm{e}^{\\mathrm{L}} \\\\ & \\text { Where } \\mathrm{L}=\\lim _{x \\rightarrow \\infty} \\mathrm{x}\\left(\\left(\\frac{\\mathrm{e}}{1-\\mathrm{e}}\\right)\\left(\\frac{1}{\\mathrm{e}}-\\frac{\\mathrm{x}}{1+\\mathrm{x}}\\right)-1\\right) \\\\ & \\Rightarrow \\mathrm{L}=\\lim _{\\mathrm{x} \\rightarrow \\infty}\\left(\\frac{\\mathrm{e}}{1-\\mathrm{e}}\\right) \\mathrm{x}\\left(\\frac{1}{\\mathrm{e}}-\\frac{\\mathrm{x}}{1+\\mathrm{x}}-\\left(\\frac{1-\\mathrm{e}}{\\mathrm{e}}\\right)\\right) \\\\ & \\Rightarrow \\mathrm{L}=\\frac{\\mathrm{e}}{1-\\mathrm{e}} \\lim _{\\mathrm{x} \\rightarrow \\infty} \\mathrm{x}\\left(1-\\frac{\\mathrm{x}}{1+\\mathrm{x}}\\right) \\\\ & \\Rightarrow \\mathrm{L}=\\frac{\\mathrm{e}}{1-\\mathrm{e}} \\lim _{\\mathrm{x} \\rightarrow \\infty} \\frac{\\mathrm{x}}{\\mathrm{x}+1} \\\\ & \\Rightarrow \\mathrm{~L}=\\frac{\\mathrm{e}}{1-\\mathrm{e}} \\cdot 1 \\\\ & \\Rightarrow \\mathrm{~L}=\\frac{\\mathrm{e}}{1-\\mathrm{e}} \\\\ & \\therefore \\alpha=\\mathrm{e}^{\\frac{\\mathrm{e}}{1-\\mathrm{e}}} \\Rightarrow \\log \\alpha=\\frac{\\mathrm{e}}{1-\\mathrm{e}} \\\\ & \\therefore \\text { Required value }=\\frac{\\frac{\\mathrm{e}}{1-\\mathrm{e}}}{1+\\frac{\\mathrm{e}}{1-\\mathrm{e}}}=\\mathrm{e}\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "3e72479767a046f1a60e52a6603ca259",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/EgiDuc260mkaI.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/EgiDuc260mkaI.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d97609",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-22T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (22 Jan Shift 2)",
+    "title": "JEE Main 2025 (22 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

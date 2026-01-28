@@ -1,0 +1,43 @@
+{
+  "index": 41,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd27e4f983047d18a96",
+    "chapter_name": "Sequences and Series",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The sum of the infinite series $1+\\frac{1}{3}+\\frac{1 \\cdot 3}{3 \\cdot 6}+\\frac{1 \\cdot 3 \\cdot 5}{3 \\cdot 6 \\cdot 9}+\\frac{1 \\cdot 3 \\cdot 5 \\cdot 7}{3 \\cdot 6 \\cdot 9 \\cdot 12}+\\ldots$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\sqrt{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{3}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\sqrt{\\frac{3}{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{\\frac{1}{3}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given series, $1+\\frac{1}{3}+\\frac{1 \\cdot 3}{3 \\cdot 6}+\\frac{1 \\cdot 3 \\cdot 5}{3 \\cdot 6 \\cdot 9}+\\frac{1 \\cdot 3 \\cdot 5 \\cdot 7}{3 \\cdot 6 \\cdot 9 \\cdot 12}+\\ldots \\infty$\r\n$=1+\\frac{1}{3}+\\frac{\\frac{1}{2} \\cdot \\frac{3}{2}}{1 \\cdot 2}\\left(\\frac{2}{3}\\right)^{2}+\\frac{1}{2} \\cdot \\frac{3}{1 \\cdot 2 \\cdot 3} \\cdot \\frac{5}{3}\\left(\\frac{2}{3}\\right)^{3} \\ldots \\infty$\r\n$=1+\\frac{1}{2} \\cdot \\frac{2}{3}+\\frac{\\frac{1}{2}\\left(\\frac{1}{2}+1\\right)}{2 !}\\left(\\frac{2}{3}\\right)^{2}+\\frac{\\frac{1}{2}\\left(\\frac{1}{2}+1\\right)\\left(\\frac{1}{2}+2\\right)}{3 !}$\r\n$=\\left(1-\\frac{2}{3}\\right)^{-1 / 2}=3^{1 / 2}=\\sqrt{3}$"
+  }
+}

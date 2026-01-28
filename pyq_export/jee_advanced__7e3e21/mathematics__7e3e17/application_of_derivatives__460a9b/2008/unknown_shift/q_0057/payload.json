@@ -1,0 +1,43 @@
+{
+  "index": 57,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2008 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255d3df243724d460a9b",
+    "chapter_name": "Application of Derivatives",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The total number of local maxima and local minima of the function $f(x)=\\left\\{\\begin{array}{lc}(2+x)^3 ; & -3 < x \\leq-1 \\\\ x^{\\frac{2}{3}} ; & -1 < x < 2\\end{array}\\right.$ is"
+  },
+  "options": [
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n2\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n3",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given that, $f(x)=\\left\\{\\begin{array}{l}(2+x)^3 ;-3 < x \\leq-1 \\\\ x^{2 / 3} ; \\quad-1 < x < 2\\end{array}\\right.$\n$$\n\\Rightarrow \\quad f^{\\prime}(x)=\\left\\{\\begin{array}{l}\n3(2+x)^2 ;-3 < x \\leq 1 \\\\\n\\frac{2}{3} x^{-\\frac{1}{3}} ; \\quad-1 < x < 2\n\\end{array}\\right.\n$$<img src=\"assets\\st0057_34ef063836e9.png\"><br>\nClearly, $f^{\\prime}(x)$ changes its sign at $x=-1$ from $+$ ve to -ve and so $f(x)$ has local maxima at $x=-1$.\nAlso, $f^{\\prime}(0)$ does not exist but $f^{\\prime}\\left(0^{-}\\right) < 0$ and $f^{\\prime}\\left(0^{+}\\right) < 0$.\nIt can only be inferred that $f(x)$ has a possibility of a minima at $x=0$.\nHence, the given function has one local maxima at $x=-1$ and one local minima at $x=0$."
+  }
+}

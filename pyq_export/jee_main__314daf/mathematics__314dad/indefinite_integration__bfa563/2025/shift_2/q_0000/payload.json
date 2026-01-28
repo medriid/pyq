@@ -1,0 +1,24 @@
+{
+  "index": 0,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $\\begin{aligned} \\int\\left(\\frac{1}{x}+\\frac{1}{x^3}\\right) & \\left(\\sqrt[23]{3 x^{-24}+x^{-26}}\\right) d x \\\\ & =-\\frac{\\alpha}{3(\\alpha+1)}\\left(3 x^\\beta+x^\\gamma\\right)^{\\frac{\\alpha+1}{\\alpha}}+C, x \\gt 0,\\end{aligned}$ $(\\alpha, \\beta, \\gamma \\in Z)$, where $C$ is the constant of integration, then $\\alpha+\\beta+\\gamma$ is equal to ________ ."
+  },
+  "options": [],
+  "correct_answer": "19",
+  "solution": {
+    "text": "$\\begin{aligned} & \\int\\left(\\frac{1}{\\mathrm{x}^2}+\\frac{1}{\\mathrm{x}^4}\\right)\\left(\\frac{3}{\\mathrm{x}}+\\frac{1}{\\mathrm{x}^3}\\right)^{\\frac{1}{23}} \\mathrm{dx} \\\\ & \\text { using } \\mathrm{t}=\\frac{3}{\\mathrm{x}}+\\frac{1}{\\mathrm{x}^3} \\Rightarrow \\mathrm{dt}=-3\\left(\\frac{1}{\\mathrm{x}^2}+\\frac{1}{\\mathrm{x}^4}\\right) \\mathrm{dx} \\\\ & \\int \\frac{\\mathrm{t}^{1 / 23} \\mathrm{dt}}{-3}=\\frac{\\mathrm{t}^{24 / 23}}{\\left(\\frac{24}{23}\\right)(-3)}+C \\\\ & \\Rightarrow \\alpha=23 \\beta=-1 \\gamma=-3 \\\\ & \\alpha+\\beta+\\gamma=19\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 31,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ce028e7fffd0df667aa",
+    "chapter_name": "Straight Lines",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A straight line through the point (3,-2) is ndined at an angle $60^{\\circ}$ to the line $\\sqrt{3} x+y=1$. If it intersects the $X$ -axis, then its equation vill be"
+  },
+  "options": [
+    {
+      "text": "$y+x \\sqrt{3}+2+3 \\sqrt{3}=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$y-x \\sqrt{3}+2+3 \\sqrt{3}=0$",
+      "is_correct": true
+    },
+    {
+      "text": "$y-x \\sqrt{3}-2-2 \\sqrt{3}=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$x-x \\sqrt{3}+2-3 \\sqrt{3}=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given line,\r\n$$\r\n\\begin{array}{l}\r\n\\sqrt{3} x+y=1 \\\\\r\ny=-\\sqrt{3} x+c\r\n\\end{array}\r\n$$\r\nWe know that, $m=-\\sqrt{3}$\r\n$$\r\n\\begin{aligned}\r\n\\text { that, } m &=-\\sqrt{3} \\quad[\\because y=m x+c] \\\\\r\n\\tan \\theta &=\\left|\\frac{m_{1}-m_{2}}{1+m_{1} m_{2}}\\right| \\\\\r\n\\tan 60^{\\circ} &=\\left|\\frac{m_{1}-(-\\sqrt{3})}{1+m_{1}(-\\sqrt{3})}\\right| \\quad\\left[\\because \\theta=60^{\\circ}\\right] \\\\\r\n\\sqrt{3}=&\\left|\\frac{m_{1}+\\sqrt{3}}{1-\\sqrt{3}} m_{1}\\right| \\\\\r\n\\pm \\sqrt{3}=& \\frac{m_{1}+\\sqrt{3}}{1-\\sqrt{3} m_{1}}\r\n\\end{aligned}\r\n$$\r\n\\begin{array}{l|l}\r\n\\hline taking + sign & taking - sign \\\\\r\n\\hline+\\sqrt{3}=\\frac{m_{1}+\\sqrt{3}}{1-\\sqrt{3} m_{1}} & -\\sqrt{3}=\\frac{m_{1}+\\sqrt{3}}{1-\\sqrt{3} m_{1}} \\\\\r\n\\sqrt{3}\\left(1-\\sqrt{3} m_{1}\\right)=m_{1}+\\sqrt{3} & \\Rightarrow-\\sqrt{3}\\left(1-\\sqrt{3} m_{1}\\right) \\\\\r\n& =m_{1}+\\sqrt{3} \\\\\r\n\\Rightarrow \\sqrt{3}-3 m_{1}=m_{1}+\\sqrt{3} & \\Rightarrow-\\sqrt{3}-3 m_{1}=m_{1}+\\sqrt{3} \\\\\r\n\\Rightarrow & \\Rightarrow 3 m_{1}-m_{1}=2 \\sqrt{3} \\\\\r\n\\Rightarrow 4m_{1}=0 & \\Rightarrow \\quad 2 m_{1}=2 \\sqrt{3} \\\\\r\n\\Rightarrow m_{1}=0 & \\Rightarrow \\quad m_{1}=\\sqrt{3}\r\n\\end{array}\r\ngiven point (3,-2) \r\n$y=m x$ + c\r\n$$\r\n\\begin{aligned}\r\n-2 &=3 \\sqrt{3}+c \\\\\r\nc &=-2-3 \\sqrt{3}\r\n\\end{aligned}\r\n$$\r\nHence, required equation\r\n$$\r\n\\therefore \\quad y=m x+c\r\n$$\r\n$$\r\n\\begin{array}{l}\r\ny=\\sqrt{3} x-2-3 \\sqrt{3} \\\\\r\ny-\\sqrt{3} x+2+3 \\sqrt{3}=0 \\\\\r\ny-x \\sqrt{3}+2+3 \\sqrt{3}=0\r\n\\end{array}\r\n$$"
+  }
+}

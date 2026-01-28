@@ -1,0 +1,43 @@
+{
+  "index": 34,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc9a79d891b2548bdd8",
+    "chapter_name": "Complex Number",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Find the maximum value of $|z|$ when $\\left|z-\\frac{3}{z}\\right|=2,$ where $z$ being a complex number."
+  },
+  "options": [
+    {
+      "text": "$1+\\sqrt{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "3",
+      "is_correct": true
+    },
+    {
+      "text": "$1+\\sqrt{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "We have, $|z|=\\left|z-\\frac{3}{z}+\\frac{3}{z}\\right|$\r\n$\\Rightarrow \\quad|z| \\leq\\left|z-\\frac{3}{z}\\right|+\\left|\\frac{3}{z}\\right|$\r\n[using triangle inequality] $\\Rightarrow \\quad|z| \\leq 2+\\left|\\frac{3}{z}\\right|$\r\n$\\left[\\because\\left|z-\\frac{3}{z}\\right|=2\\right]$\r\n$\\Rightarrow \\quad|z| \\leq 2+\\frac{3}{|z|}$\r\n$\\begin{array}{lr}\\Rightarrow & |z|^{2}-2|z|-3 \\leq 0 \\\\ \\Rightarrow & (|z|-3)(|z|+1) \\leq 0\\end{array}$\r\n$\\Rightarrow \\quad-1 \\leq|z| \\leq 3$\r\nThus, the maximum value of $|z|$ is 3 ."
+  }
+}

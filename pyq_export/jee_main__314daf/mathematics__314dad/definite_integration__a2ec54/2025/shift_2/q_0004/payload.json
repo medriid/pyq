@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The integral $\\int_0^\\pi \\frac{8 x d x}{4 \\cos ^2 x+\\sin ^2 x}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$2 \\pi^2$",
+      "is_correct": true
+    },
+    {
+      "text": "$4 \\pi^2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\pi^2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{3 \\pi^2}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}<br/>& I=\\int_0^\\pi \\frac{8 x d x}{4 \\cos ^2 x+\\sin ^2 x} \\\\\n& I=\\int_0^\\pi \\frac{8(\\pi-x) d x}{4 \\cos ^2 x+\\sin ^2 x}<br/>\\end{aligned}$<br/>$2 \\mathrm{I}=8 \\pi \\int_0^\\pi \\frac{d x}{4 \\cos ^2 x+\\sin ^2 x}$<br/>$2 \\mathrm{I}=8 \\pi \\times 2 \\int_0^{\\pi / 2} \\frac{\\sec ^2 x}{4+\\tan ^2 \\mathrm{x}} \\mathrm{dx}$<br/>$\\begin{aligned}<br/>& \\mathrm{I}=8 \\pi \\int_0^{\\infty} \\frac{\\mathrm{dt}}{4+\\mathrm{t}^2}=8 \\pi \\times \\frac{1}{2}\\left(\\tan ^{-1} \\frac{\\mathrm{t}}{2}\\right]_0^{\\infty} \\\\\n& =4 \\pi \\times \\frac{\\pi}{2}=2 \\pi^2<br/>\\end{aligned}$<br/>option (1)"
+  }
+}

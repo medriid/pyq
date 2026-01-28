@@ -1,0 +1,63 @@
+{
+  "_id": "64a813d6e0ff5a5425a855f6",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012",
+      "title": "WBJEE 2012"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "The general solution of the differential equation $\\frac{d y}{d x}=\\frac{x+y+1}{2 x+2 y+1}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "mdfJF",
+      "text": "$\\log _{e}|3 x+3 y+2|+3 x+6 y=C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "n0dTM",
+      "text": "$\\log _{e}|3 x+3 y+2|-3 x+6 y=C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "kn5ji",
+      "text": "$\\log _{e}|3 x+3 y+2|-3 x-6 y=C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "5E2dt",
+      "text": "$\\log _{e}|3 x+3 y+2|+3 x-6 y=C$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given differential equation, $\\frac{d y}{d x}=\\frac{x+y+1}{2 x+2 y+1}$\r\nPut $x+y=v$ $\\Rightarrow \\quad 1+\\frac{d y}{d x}=\\frac{d v}{d x} \\Rightarrow \\frac{d y}{d x}=\\frac{d v}{d x}-1$\r\n$\\therefore$ Eq.\r\n(i) becomes, $\\frac{d y}{d x}=\\frac{v+1}{2 v+1}$\r\n$\\Rightarrow \\quad \\frac{d v}{d x}-1=\\frac{v+1}{2 v+1} \\Rightarrow \\frac{d v}{d x}=\\frac{v+1}{2 v+1}+1$\r\n$\\Rightarrow \\quad \\frac{d v}{d x}=\\frac{v+1+2 v+1}{2 v+1} \\Rightarrow \\frac{d v}{d x}=\\frac{3 v+2}{2 v+1}$\r\n$\\Rightarrow \\frac{2 v+1}{3 v+2} d v=d x \\Rightarrow \\frac{\\left[\\frac{2}{3}(3 v+2)-\\frac{1}{3}\\right]}{3 v+2} d v=d x$\r\n$\\Rightarrow \\quad\\left[\\frac{2}{3}-\\frac{1}{3} \\times \\frac{1}{(3 v+2)}\\right] d v=d x$\r\nIntegrating both sides, we get $\\Rightarrow \\quad \\int\\left(\\frac{2}{3}-\\frac{1}{3} \\times \\frac{1}{(3 v+2)}\\right) d v=\\int d x+C^{\\prime}$\r\nWhere $c$ is a constant of integration.\r\n$\\Rightarrow \\quad \\frac{2}{3} v-\\frac{1}{3} \\frac{\\log (3 v+2)}{3}=x+C^{\\prime}$\r\n$\\Rightarrow \\quad \\frac{2}{3}(x+y)-\\frac{1}{9} \\log (3 x+3 y+2)=x+C$\r\n$\\Rightarrow \\quad 6 x+6 y-\\log (3 x+3 y+2)=9 x+C$\r\n$\\Rightarrow \\quad 3 x-6 y+\\log (3 x+3 y+2)=C$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012",
+    "title": "WBJEE 2012"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

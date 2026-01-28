@@ -1,0 +1,43 @@
+{
+  "index": 74,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (26 Feb Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2021",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math> be a differentiable function at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>a</mi></math> with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>'</mo></msup><mfenced><mi>a</mi></mfenced><mo>=</mo><mn>2</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>a</mi></mfenced><mo>=</mo><mn>4</mn></math>. Then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>a</mi></mrow></munder><mfrac><mrow><mi>x</mi><mi>f</mi><mfenced><mi>a</mi></mfenced><mo>-</mo><mi>a</mi><mi>f</mi><mfenced><mi>x</mi></mfenced></mrow><mrow><mi>x</mi><mo>-</mo><mi>a</mi></mrow></mfrac></math>&nbsp;equals:"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mn>4</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>-</mo><mn>4</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>-</mo><mn>2</mn><mi>a</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mn>4</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>&#39;</mo></msup><mfenced><mi>a</mi></mfenced><mo>=</mo><mn>2</mn><mo>,</mo><mi>f</mi><mfenced><mi>a</mi></mfenced><mo>=</mo><mn>4</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>a</mi></mrow></munder><mfrac><mrow><mi>x</mi><mi>f</mi><mfenced><mi>a</mi></mfenced><mo>-</mo><mi>a</mi><mi>f</mi><mfenced><mi>x</mi></mfenced></mrow><mrow><mi>x</mi><mo>-</mo><mi>a</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>a</mi></mrow></munder><mfrac><mrow><mi>f</mi><mfenced><mi>a</mi></mfenced><mo>-</mo><mi>a</mi><msup><mi>f</mi><mo>&#39;</mo></msup><mfenced><mi>x</mi></mfenced></mrow><mn>1</mn></mfrac></math> (L&#39;Hospitals rule)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>f</mi><mfenced><mi>a</mi></mfenced><mo>-</mo><mi>a</mi><msup><mi>f</mi><mo>&#39;</mo></msup><mfenced><mi>a</mi></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mo>-</mo><mn>2</mn><mi>a</mi></math></p>"
+  }
+}

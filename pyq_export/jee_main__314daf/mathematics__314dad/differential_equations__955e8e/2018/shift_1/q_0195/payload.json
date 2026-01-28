@@ -1,0 +1,43 @@
+{
+  "index": 195,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 1 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2018",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $y=y(x)$ be the solution of the differential equation $\\frac{d y}{d x}+2 y=f(x)$, where\n$$\nf(x)=\\left\\{\\begin{array}{lc}\n1, & x \\in[0,1] \\\\\n0, & \\text { otherwise }\n\\end{array}\\right.\n$$\nIf $y(0)=0$, then $y\\left(\\frac{3}{2}\\right)$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{e^2-1}{2 e^3}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n $\\frac{e^2-1}{e^3}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{2 e}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{e^2+1}{2 e^4}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "When $x \\in[0,1]$, then $\\frac{d y}{d x}+2 y=1$\n$$\n\\begin{aligned}\n&\\Rightarrow \\mathrm{y}=\\frac{1}{2}+C_1 e^{-2 x} \\\\\n&\\because y(0)=0 \\Rightarrow y(x)=\\frac{1}{2}-\\frac{1}{2} e^{-2 x} \\\\\n&\\text { Here, } y(1)=\\frac{1}{2}-\\frac{1}{2} e^{-2}=\\frac{e^2-1}{2 e^2}\n\\end{aligned}\n$$\nWhen $x \\notin[0,1]$, than $\\frac{d y}{d x}+2 y=0$\n$$\n\\begin{gathered}\n\\Rightarrow y=c_2 e^{-2 x} \\\\\n\\therefore y(1)=\\frac{e^2-1}{2 e^2} \\Rightarrow \\frac{e^2-1}{2}=c^2 e^{-2} \\Rightarrow C_2=\\frac{e^2-1}{2} \\\\\n\\therefore y(x)\\left(\\frac{e^2-1}{2}\\right) e^{-2 x} \\Rightarrow y\\left(\\frac{3}{2}\\right)=\\frac{e^2-1}{2 e^3}\n\\end{gathered}\n$$"
+  }
+}

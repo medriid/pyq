@@ -1,0 +1,43 @@
+{
+  "index": 276,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2014 (11 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In a geometric progression, if the ratio of the sum of first 5 terms to the sum of their reciprocals is 49 , and the sum of the first and the third term is 35. Then the first term of this geometric progression is:"
+  },
+  "options": [
+    {
+      "text": "\n7\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n21\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n28\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n42",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "According to Question\n$$\n\\Rightarrow \\frac{S_5}{S_5^{\\prime}}=49\n$$\n(here, $S_5=$ Sum of first 5 terms and $S_5=$ Sum of their reciprocals)\n$$\n\\begin{aligned}\n&\\Rightarrow \\frac{\\frac{a\\left(r^5-1\\right)}{(r-1)}}{\\frac{a^{-1}\\left(r^{-5}-1\\right)}{\\left(r^{-1}-1\\right)}}=49 \\\\\n&\\Rightarrow \\frac{a\\left(r^5-1\\right) \\times\\left(r^{-1}-1\\right)}{a^{-1}\\left(r^{-5}-1\\right) \\times(r-1)}=49 \\\\\n&\\text { or } \\frac{a^2\\left(1-r^5\\right) \\times(1-r) \\times r^5}{\\left(1-r^5\\right) \\times(1-\\mathrm{r}) \\times r}=49 \\\\\n&\\Rightarrow a^2 r^4=49 \\Rightarrow a^2 r^4=7^2 \\\\\n&\\Rightarrow a r^2=7\n\\end{aligned}\n$$\nAlso, given, $S_1+S_3=35$ $a+a r^2=35$\nNow substituting the value of eq. (1) in eq. (2)\n$a+7=35$\n$a=28$"
+  }
+}

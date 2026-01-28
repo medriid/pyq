@@ -1,0 +1,43 @@
+{
+  "index": 38,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc594defad39e8768ec",
+    "chapter_name": "Quadratic Equation",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=2 x^{2}+5 x+1$. If we write $f(x)$ as $f(x)=a(x+1)(x-2)+b(x-2)(x-1)+c(x-1)(x+1)$\r\nfor real numbers $a, b, c,$ then"
+  },
+  "options": [
+    {
+      "text": "there are infinite number of choices for $a, b, c$",
+      "is_correct": false
+    },
+    {
+      "text": "only one choice for a but infinite number of choices for $b$ and $c$",
+      "is_correct": false
+    },
+    {
+      "text": "exactly one choice for each of $a, b, c$",
+      "is_correct": true
+    },
+    {
+      "text": "more than one but finite number of choices for $a, b, c$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\r\n\\begin{array}{l}\r\n\\text { Given, } f(x)=2 x^{2}+5 x+1 \\\\\r\n\\text { Also, } f(x)=a(x+1)(x-2)+b(x-2)(x-1) \\\\\r\n+c(x-1)(x+1) \\\\\r\n\\qquad \\begin{array}{r}\r\n=a\\left(x^{2}-x-2\\right)+b\\left(x^{2}-3 x+2\\right) \\\\\r\n+c\\left(x^{2}-1\\right) \\\\\r\nf(x)=(a+b+c) x^{2}+(-a-3 b) x \\\\\r\n+(-2 a+2 b-c)\r\n\\end{array}\r\n\\end{array}\r\n$$\r\nOn equating the coefficients of $x^{2}$, $x$ and constant term  we get\r\n$$\r\n\\begin{array}{l}\r\na+b+c=2,-a-3 b=5 \\\\\r\n\\text { and }-2 a+2 b-c=1\r\n\\end{array}\r\n$$\r\nOn solving above equations, we get $a=-\\frac{35}{4}, b=\\frac{5}{4}$ and $c=\\frac{38}{4}$\r\nHence, exactly one choice for each of b and c"
+  }
+}

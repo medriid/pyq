@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0788c63c34f9ca1226",
+    "chapter_name": "Matrices",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $A$ and $B$ be two non-singular skew symmetric matrices such that $A B=B A$, then $A^{2} B^{2}\\left(A^{\\top} B\\right)^{-1}\\left(A B^{-1}\\right)^{\\top}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{A}^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\mathrm{B}^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\mathrm{A}^{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{AB}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\mathrm{AB}=\\mathrm{BA}, \\mathrm{A}^{\\top}=-\\mathrm{A}, \\mathrm{B}^{\\top}=-\\mathrm{B}$ \r\n$\\because$ matrices are non singular \r\n$\\therefore$ order is even \r\n$\\mathrm{A}^{2} \\mathrm{~B}^{2}\\left(\\mathrm{~A}^{\\top} \\mathrm{B}\\right)^{-1}\\left(\\mathrm{AB}^{-1}\\right)^{\\top}$\r\n$\\therefore$ order is even\r\n$A^{2} B^{2}\\left(A^{\\top} B\\right)^{-1}\\left(A B^{-1}\\right)^{\\top}$\r\n$=A^{2} B^{2}(-A B)^{-1}\\left(A B^{-1}\\right)^{\\top}$\r\n$=-A^{2} B^{2} B^{-1} A^{-1}\\left(B^{\\top}\\right)^{-1} A^{\\top}$\r\n$=-A^{2} B A^{-1} B^{-1} A$\r\n$=-A^{2} B(B A)^{-1} A$\r\n$=-A^{2} B(A B)^{-1} A=-A^{2} B B^{-1} A^{-1} A=-A^{2}$"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "index": 23,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $A=\\left[\\begin{array}{cc}2 & -1 \\\\ 1 & 1\\end{array}\\right]$. If the sum of the diagonal elements of $A^{13}$ is $3^n$, then $n$ is equal to_________"
+  },
+  "options": [],
+  "correct_answer": "7",
+  "solution": {
+    "text": "$A=\\left[\\begin{array}{cc}2 & -1 \\\\ 1 & 1\\end{array}\\right]$\n$\\begin{aligned} & A^2=\\left[\\begin{array}{cc}2 & -1 \\\\ 1 & 1\\end{array}\\right]\\left[\\begin{array}{cc}2 & -1 \\\\ 1 & 1\\end{array}\\right]=\\left[\\begin{array}{cc}3 & -3 \\\\ 3 & 0\\end{array}\\right] \\\\ & A^3=\\left[\\begin{array}{cc}3 & -3 \\\\ 3 & 0\\end{array}\\right]\\left[\\begin{array}{cc}2 & -1 \\\\ 1 & 1\\end{array}\\right]=\\left[\\begin{array}{cc}3 & -6 \\\\ 6 & -3\\end{array}\\right] \\\\ & A^4=\\left[\\begin{array}{cc}3 & -6 \\\\ 6 & -3\\end{array}\\right]\\left[\\begin{array}{cc}2 & -1 \\\\ 1 & 1\\end{array}\\right]=\\left[\\begin{array}{cc}0 & -9 \\\\ 9 & -9\\end{array}\\right] \\\\ & A^5=\\left[\\begin{array}{cc}0 & -9 \\\\ 9 & -9\\end{array}\\right]\\left[\\begin{array}{cc}2 & -1 \\\\ 1 & 1\\end{array}\\right]=\\left[\\begin{array}{cc}-9 & -9 \\\\ 9 & -18\\end{array}\\right] \\\\ & A^6=\\left[\\begin{array}{cc}-9 & -9 \\\\ 9 & -18\\end{array}\\right]\\left[\\begin{array}{cc}2 & -1 \\\\ 1 & 1\\end{array}\\right]=\\left[\\begin{array}{cc}-27 & 0 \\\\ 0 & -27\\end{array}\\right] \\\\ & A^7=\\left[\\begin{array}{cc}-27 & -0 \\\\ 0 & -27\\end{array}\\right]\\left[\\begin{array}{cc}-54 & 27 \\\\ -27 & -27\\end{array}\\right]=\\left[\\begin{array}{cc}3^6 \\times 2 & -27^2 \\\\ 27^2 & 3^6\\end{array}\\right] \\\\ & 3^7=3^n \\Rightarrow n=7\\end{aligned}$"
+  }
+}

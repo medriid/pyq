@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Two smallest squares are chosen one by one on a chess board. The probability that they have a side in common is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{9}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2}{7}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{18}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{5}{18}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Out of 64 squares, two squares are selected in 64C2 ways= \\(64 \\times 63\\)\nHint :\n$\\begin{array}{|l|l|l|l|l|l|l|l|}\\hline & & & & & & & \\\\\\hline & & & & & & & \\\\\\hline & & & & & & & \\\\\\hline & & & & & & & \\\\\\hline & & & & & & & \\\\\\hline & & & & & & & \\\\\\hline & & & & & & & \\\\\\hline & & & & & & & \\\\\\hline\\end{array}$\nFor each corner squarers there will be two options for each border squares there will be 3 options for each other squares there will be 4 options.\n$\\therefore$ favourable cases\n$\\frac{4 \\times 2+24 \\times 3+36 \\times 4}{2}=112$\n$\\therefore$ required probability $\\frac{112}{64 \\times 63}=\\frac{1}{18}$"
+  }
+}

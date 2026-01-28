@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2020",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c89e2db387e83a2dc00",
+    "chapter_name": "Capacitance",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A $400 \\Omega$ resistor, a $250 \\mathrm{mH}$ inductor and a $2.5 \\mu \\mathrm{F}$ capacitor are connected in series with an AC source of peak voltage $5 \\mathrm{~V}$ and angular frequency $2 \\mathrm{rad/sec}$. What is the peak value of the electrostatic energy of the capacitor?"
+  },
+  "options": [
+    {
+      "text": "$2 \\mu \\mathrm{J}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2.5 \\mu \\mathrm{J}$",
+      "is_correct": false
+    },
+    {
+      "text": "$3.33 \\mu \\mathrm{J}$",
+      "is_correct": false
+    },
+    {
+      "text": "$5 \\mu \\mathrm{J}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Hint: \r\nThe angular frequency is $2 \\mathrm{KHz}$. The unit given is incorrect Assuming it to be in radian / sec $X_{L}=2 \\times 10^{3} \\times 250 \\times 10^{-3}=500 \\Omega$\r\n$\\mathrm{X}_{\\mathrm{C}}=\\frac{1}{2.5 \\times 10^{-6} \\times 2 \\times 10^{3}}=200 \\Omega$\r\n$Z=\\sqrt{R^{2}+\\left(X_{L}-X_{c}\\right)^{2}}=500 \\Omega$\r\n$\\left(\\mathrm{V}_{\\mathrm{C}}\\right)_{\\text {peak }}=\\mathrm{i}_{\\text {peak }} \\mathrm{X}_{\\mathrm{c}}=\\frac{\\left(\\mathrm{V}_{\\mathrm{s}}\\right)_{\\text {peak }}}{\\mathrm{Z}} \\mathrm{X}_{\\mathrm{C}}=\\frac{5}{500} \\times 200=2 \\mathrm{~V}$\r\n$\\left(\\mathrm{U}_{\\mathrm{C}}\\right)_{\\max }=\\frac{1}{2} \\times 2.5 \\times 10^{-6} \\times(2)^{2}=5 \\mu \\mathrm{J}$"
+  }
+}

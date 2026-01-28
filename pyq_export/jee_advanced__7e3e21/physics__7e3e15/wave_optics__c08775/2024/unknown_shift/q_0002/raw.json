@@ -1,0 +1,58 @@
+{
+  "_id": "66965ddcd603121f43a41da0",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "66965789b31faf98fda8fefa",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2024-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Paper 2)",
+      "title": "JEE Advanced 2024 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "In a Young's double slit experiment, each of the two slits A and B, as shown in the figure, are oscillating about their fixed center and with a mean separation of $0.8 \\mathrm{~mm}$. The distance between the slits at time $t$ is given by $d=(0.8+0.04 \\sin \\omega t) \\mathrm{mm}$, where $\\omega=0.08 \\mathrm{rad} \\mathrm{s}^{-1}$. The distance of the screen from the slits is $1 \\mathrm{~m}$ and the wavelength of the light used to illuminate the slits is $6000 Ã…$. The interference pattern on the screen changes with time, while the central bright fringe (zeroth fringe) remains fixed at point $O$.\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/j1RUbFY6tbieebKo0ECGf1xdjFYzFP6CYbKQDE7tC7w.original.fullsize.png\">\nThe maximum speed in $\\mu \\mathrm{m} / \\mathrm{s}$ at which the $8^{\\text {th }}$ bright fringe will move is ________ .",
+    "image": null
+  },
+  "options": [],
+  "correctValue": 24,
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\mathrm{y}=\\mathrm{n} \\cdot \\frac{\\lambda \\mathrm{D}}{\\mathrm{d}} \\\\\n& \\mathrm{v}=\\frac{\\mathrm{dy}}{\\mathrm{dt}}=-\\mathrm{n} \\cdot \\frac{\\lambda \\cdot \\mathrm{d}}{\\mathrm{d}^2} \\cdot \\frac{d(d)}{d t} \\\\\n& d=0.8+0.04 \\sin \\omega t \\\\\n& \\frac{d(d)}{d t}=0.04 \\omega \\cos \\omega t\n\\end{aligned}$\n$\\text { for } \\mathrm{v} \\rightarrow \\max \\Rightarrow \\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}} \\rightarrow \\max \\text {. }$\nFor $\\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}} \\rightarrow \\max$.\n$\\begin{aligned}\n& \\cos \\omega \\mathrm{t}=1 \\Rightarrow \\sin \\omega \\mathrm{t}=0 \\\\\n& \\Rightarrow\\left(\\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}}\\right)_{\\max }=0.04 \\\\\n& \\Rightarrow \\mathrm{d}=0.8 \\mathrm{~mm} \\\\\n& \\mathrm{v}_{\\max }=\\frac{8 \\times 6000 \\times 10^{-10} \\times 1 \\times 0.04 \\times 0.08}{0.8 \\times 0.8 \\times 10^{-6} \\times 10^{-3}}=24 \\mu \\mathrm{m} / \\mathrm{s} .\n\\end{aligned}$\n(range is from 23.5 to 24.5)",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "5e79da121822443f921ef0b161f63afa",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/Z41JmaJcOq59y.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/Z41JmaJcOq59y.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "66965789b31faf98fda8fefa",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2024-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Paper 2)",
+    "title": "JEE Advanced 2024 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

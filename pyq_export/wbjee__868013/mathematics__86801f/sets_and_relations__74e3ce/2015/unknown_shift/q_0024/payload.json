@@ -1,0 +1,44 @@
+{
+  "index": 24,
+  "type": "multipleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d00146ed0ebdd74e3ce",
+    "chapter_name": "Sets and Relations",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A relation $\\rho$ on the set of real number $R$ is defined as $\\{x \\rho y: x y>0\\} .$ Then, which of the following is/are true?"
+  },
+  "options": [
+    {
+      "text": "$\\rho$ is reflexve and symmetric",
+      "is_correct": false
+    },
+    {
+      "text": "$\\rho$ is symmetric but not reflexive",
+      "is_correct": true
+    },
+    {
+      "text": "$\\rho$ is symmetric and transitive",
+      "is_correct": true
+    },
+    {
+      "text": "$\\rho$ is an equivalence relation",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "C"
+  ],
+  "solution": {
+    "text": "We have, $x p y: x y > 0$\r\n(i) Reflexive Suppose $x \\rho x \\in R$\r\n$\\Rightarrow x^{2} > 0$\r\nwhich is not true when $x=0$. Hence, relation is not reflexive.\r\n(ii) Symmetric $x p y \\in R$ $\\Rightarrow \\quad x y>0$\r\n$\\Rightarrow \\quad y x>0$\r\n$\\Rightarrow \\quad y \\rho x \\in R$\r\nIf $(x, y) \\in R,$ then, relation is symmetric.\r\n(iii) Transitive $\\mathrm{xp} \\mathrm{y} \\in \\mathrm{R}$\r\n$x y>0$\r\nand $\\quad y \\rho z \\in R$ $y z>0$\r\n$\\begin{array}{ll}<br />\\Rightarrow x y^{2} z > 0 \\\\<br />\\Rightarrow x z > 0 \\\\<br />\\Rightarrow (x, z) \\in R \\\\<br />\\text {If }(x, y) \\in R, \\text { then }(y, z) \\in R \\\\<br />\\Rightarrow (x, z) \\in R<br />\\end{array}$\r\nHence, relation is transitive."
+  }
+}

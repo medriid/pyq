@@ -1,0 +1,63 @@
+{
+  "_id": "64a8144be0ff5a5425a85a51",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7d",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2018-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018",
+      "title": "WBJEE 2018"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "A light charged particle is revolving in a circle of radius $r$ in electrostatic attraction of a static heavy particle with opposite charge How does the magnetic field vary at the centre of the circle due to the moving charge depend on $r ?$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "tKUcK",
+      "text": "$B \\propto \\frac{1}{r}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "WWdFR",
+      "text": "$B \\propto \\frac{1}{r^{2}}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "NgwZJ",
+      "text": "$B \\propto \\frac{1}{r^{\\frac{3}{2}}}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "IfIhc",
+      "text": "$B \\propto \\frac{1}{r^{\\frac{5}{2}}}$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/wbjee/2018_phy_a31.png\">\r\n\r\n$$\r\n\\begin{aligned}\r\n&\\begin{array}{l}\r\nF_{\\text {centripetal }}=m r \\omega^{2}=\\frac{1}{4 \\pi \\varepsilon_{0}} \\cdot \\frac{q_{1} q_{2}}{r^{2}} \\\\\r\n\\therefore \\quad \\omega^{2}=\\frac{1}{4 \\pi \\varepsilon_{0} m} \\cdot \\frac{q_{1} q_{2}}{r^{3}} \\Rightarrow \\omega=\\sqrt{\\frac{q_{1} q_{2}}{4 \\pi \\varepsilon_{0} m r^{3}}}\r\n\\end{array}\\\\\r\n&\\omega \\propto \\frac{1}{r^{3 / 2}}\r\n\\end{aligned}\r\n$$\r\nCurrent produced due to moving $q_{1}$\r\n$$\r\ni=\\frac{\\omega}{2 \\pi} q_{1}\r\n$$\r\nThus, magnetic field due to motion of $q_{1}$ in circular path at point $\\underline{O}$ $B=\\frac{\\mu_{0}}{2} \\cdot \\frac{i}{r}=\\frac{\\mu_{0}}{2} \\cdot \\frac{\\omega q_{1}}{2 \\pi r} \\quad[$ using $\\mathrm{Eq} \\cdot(\\mathrm{ii})]$\r\nHence, $B \\propto \\frac{\\omega}{r}$\r\nMagnetic field $B \\propto \\frac{1}{r^{3 / 2}}$ $[$ using Eq. (i) ]",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7d",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2018-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018",
+    "title": "WBJEE 2018"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

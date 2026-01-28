@@ -1,0 +1,44 @@
+{
+  "index": 0,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2025 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254f7a96128fc38065ce",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $I=\\left(\\begin{array}{ll}1 & 0 \\\\ 0 & 1\\end{array}\\right)$ and $P=\\left(\\begin{array}{ll}2 & 0 \\\\ 0 & 3\\end{array}\\right)$. Let $Q=\\left(\\begin{array}{ll}\\mathrm{x} & \\mathrm{y} \\\\ \\mathrm{z} & 4\\end{array}\\right)$ for some non-zero real numbers $x, y$, and $z$, for which there is $2 \\times 2$ matrix $R$ with all entries being non-zero real numbers, such that $Q R=R P$. Then which of the following statements is (are) TRUE?"
+  },
+  "options": [
+    {
+      "text": "The determinant of $Q-2 I$ is zero",
+      "is_correct": true
+    },
+    {
+      "text": "The determinant of $\\mathrm{Q}-6 I$ is 12",
+      "is_correct": true
+    },
+    {
+      "text": "The determinant of $Q-3 I$ is 15",
+      "is_correct": false
+    },
+    {
+      "text": "$y z=2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\mathrm{QR}=\\mathrm{RP} \\\\\n& P=\\left(\\begin{array}{ll}\n2 & 0 \\\\\n0 & 3\n\\end{array}\\right) \\quad Q=\\left(\\begin{array}{ll}\nx & y \\\\\nz & 4\n\\end{array}\\right) \\\\\n& \\left(\\begin{array}{ll}\nx & y \\\\\nz & 4\n\\end{array}\\right)\\left(\\begin{array}{ll}\nr_1 & r_2 \\\\\nr_3 & r_4\n\\end{array}\\right)=\\left(\\begin{array}{ll}\nr_1 & r_2 \\\\\nr_3 & r_4\n\\end{array}\\right)\\left(\\begin{array}{ll}\n2 & 0 \\\\\n0 & 3\n\\end{array}\\right) \\\\\n& \\left.\\begin{array}{l}\n\\mathrm{xr}_1+\\mathrm{yr}_3=2 \\mathrm{r}_1 \\\\\n\\mathrm{zr}_1+4 \\mathrm{r}_3=2 \\mathrm{r}_3\n\\end{array}\\right\\} \\rightarrow \\frac{\\mathrm{x}-2}{-\\mathrm{y}}=\\frac{\\mathrm{r}_3}{\\mathrm{r}_1}=\\frac{\\mathrm{z}}{-2}\n\\end{aligned}$\n\\(2 x-4=y z\\)<br>$\\left.\\begin{array}{l}\\mathrm{xr}_2+\\mathrm{yr}_4=3 \\mathrm{r}_2 \\\\ \\mathrm{zr}_2+4 \\mathrm{r}_4=3 \\mathrm{r}_4\\end{array}\\right\\} \\rightarrow \\frac{\\mathrm{x}-3}{-\\mathrm{y}}=\\frac{\\mathrm{r}_4}{\\mathrm{r}_2}=-\\mathrm{z} \\quad$ \\(\\mathrm{x}-3=\\mathrm{yz}\\)\n$\\Rightarrow 2 x-4=x-3$ \\(\\Rightarrow x=1 ~\\&~ y z=-2\\)\n$\\begin{aligned}\n& \\Rightarrow \\mathrm{Q}-\\lambda \\mathrm{I}=\\left(\\begin{array}{cc}\n\\mathrm{x}-\\lambda & \\mathrm{y} \\\\\n\\mathrm{z} & 4-\\lambda\n\\end{array}\\right) \\\\\n& |\\mathrm{Q}-\\lambda \\mathrm{I}|=(\\lambda-\\mathrm{x})(\\lambda-4)-\\mathrm{yz} \\\\\n& =\\lambda^2-(\\mathrm{x}+4) \\lambda+4 \\mathrm{x}-\\mathrm{yz} \\\\\n& |\\mathrm{Q}-\\lambda \\mathrm{I}|=\\lambda^2-5 \\lambda+6\n\\end{aligned}$\nNow verify the option"
+  }
+}

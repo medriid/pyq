@@ -1,0 +1,61 @@
+{
+  "_id": "6151e8639b98d546d9d3b22b",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "93",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "An inductor of inductance <math><mi>L</mi><mo>=</mo><mn>400</mn></math> mH and resistors of <math><msub><mrow><mi>R</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>=</mo><mn>2&nbsp;</mn><mi mathvariant=\"normal\">Ω</mi></math> and <math><msub><mrow><mi>R</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>=</mo><mn>2&nbsp;</mn><mi mathvariant=\"normal\">Ω</mi><mi>&nbsp;</mi></math> are connected to a battery emf <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>&nbsp;</mo><mi mathvariant=\"normal\">V</mi></math> as shown in the figure. The internal resistance of the battery is negligible. The switch S is closed at <math><mi>t</mi><mo>=</mo><mn>0</mn></math>. The potential drop across L as a function of time is<br />\r<br />\r<img alt=\"\" src=\"https://cdn-question-pool.getmarks.app/nta_abhyas/jee_main/images/WhatsApp_Image_2020-08-19_at_2.18.08_PM.jpeg\" style=\"max-width:100%; object-fit:contain\" style=\"width: 220px; height: 130px;\" />",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "LpRU9",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><msup><mi mathvariant=\"normal\">e</mi><mrow><mo>-5</mo><mi mathvariant=\"normal\">t</mi></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "mgNl4",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>12</mn><mi>t</mi></mfrac><msup><mi>e</mi><mrow><mn>3</mn><mi>t</mi></mrow></msup><mi>&#160;</mi><mi mathvariant=\"normal\">V</mi></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "CwkNX",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>t</mn><mn>0.2</mn></mfrac></mrow></msup></mrow></mfenced><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "vuTkQ",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>&#160;</mi><msup><mi>e</mi><mrow><mo>-5</mo><mi>t</mi></mrow></msup><mi>&#160;</mi><mi mathvariant=\"normal\">V</mi></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "In the branch containing L and <math><msub><mrow><mi>R</mi></mrow><mrow><mn>2</mn></mrow></msub></math><br /><br /><math><mi>i</mi><mo>=</mo><mfrac><mrow><mi>E</mi></mrow><mrow><msub><mrow><mi>R</mi></mrow><mrow><mn>2</mn></mrow></msub></mrow></mfrac><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfrac><mrow><msub><mrow><mi>R</mi></mrow><mrow><mn>2</mn></mrow></msub><mi>t</mi></mrow><mrow><mi>L</mi></mrow></mfrac></mrow></msup></mrow></mfenced></math><br /><br /><math><mfrac><mrow><mi>d</mi><mi>i</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>E</mi></mrow><mrow><msub><mrow><mi>R</mi></mrow><mrow><mn>2</mn></mrow></msub></mrow></mfrac><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfrac><mrow><msub><mrow><mi>R</mi></mrow><mrow><mn>2</mn></mrow></msub><mi>t</mi></mrow><mrow><mi>L</mi></mrow></mfrac></mrow></msup><mo>.</mo><mfrac><mrow><msub><mrow><mi>R</mi></mrow><mrow><mn>2</mn></mrow></msub></mrow><mrow><mi>L</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>E</mi></mrow><mrow><mi>L</mi></mrow></mfrac><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfrac><mrow><msub><mrow><mi>R</mi></mrow><mrow><mn>2</mn></mrow></msub><mi>t</mi></mrow><mrow><mi>L</mi></mrow></mfrac></mrow></msup></math><br /><br /><math><mo>&#8756;</mo><msub><mrow><mi>V</mi></mrow><mrow><mi>L</mi></mrow></msub><mo>=</mo><mi>L</mi><mfrac><mrow><mi>d</mi><mi>i</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>E</mi><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfrac><mrow><msub><mrow><mi>R</mi></mrow><mrow><mn>2</mn></mrow></msub><mi>t</mi></mrow><mrow><mi>L</mi></mrow></mfrac></mrow></msup></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>12</mn><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mrow><mn>2</mn><mi>t</mi></mrow><mrow><mn>400</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow></mfrac></mrow></msup><mo>=</mo><mn>12</mn><mtext>&#8201;&#8201;</mtext><msup><mi>e</mi><mrow><mo>-</mo><mn>5</mn><mi>t</mi></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

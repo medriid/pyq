@@ -1,0 +1,46 @@
+{
+  "index": 3,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2024 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256fa38382a3a99381e4",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathbb{R}^3$ denote the three-dimensional space. Take two points $P=(1,2,3)$ and $Q=(4,2,7)$. Let $\\operatorname{dist}(X, Y)$ denote the distance between two points $X$ and $Y$ in $\\mathbb{R}^3$. Let\n$\\begin{gathered}S=\\left\\{X \\in \\mathbb{R}^3:(\\operatorname{dist}(X, P))^2-(\\operatorname{dist}(X, Q))^2=50\\right\\} \\text { and } \\\\T=\\left\\{Y \\in \\mathbb{R}^3:(\\operatorname{dist}(Y, Q))^2-(\\operatorname{dist}(Y, P))^2=50\\right\\} .\\end{gathered}$\nThen which of the following statements is (are) TRUE?"
+  },
+  "options": [
+    {
+      "text": "There is a triangle whose area is 1 and all of whose vertices are from $S$.",
+      "is_correct": true
+    },
+    {
+      "text": "There are two distinct points $L$ and $M$ in $T$ such that each point on the line segment $L M$ is also in $T$.",
+      "is_correct": true
+    },
+    {
+      "text": "There are infinitely many rectangles of perimeter 48 , two of whose vertices are from $S$ and the other two vertices are from $T$.",
+      "is_correct": true
+    },
+    {
+      "text": "There is a square of perimeter 48 , two of whose vertices are from $S$ and the other two vertices are from $T$.",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}& \\mathrm{S}=\\left\\{\\mathrm{X}:(\\mathrm{XP})^2-(\\mathrm{XQ})^2=50\\right\\} \\\\& \\mathrm{T}=\\left\\{\\mathrm{Y}:(\\mathrm{YQ})^2-(\\mathrm{YP})^2=50\\right\\}\\end{aligned}$\nfor finding $S \\equiv X(x, y, z)$ and for $T \\equiv Y(x, y, z)$\n$\\begin{aligned}&\\left((x-1)^2+(y-1)^2+(\\mathrm{z}-1)^2\\right)-\\left((\\mathrm{x}-4)^2+(\\mathrm{y}-2)^2+(\\mathrm{z}-7)^2\\right)=50 \\\\& \\Rightarrow \\quad \\mathrm{S}=\\{(\\mathrm{x}, \\mathrm{y}, \\mathrm{z}): 6 \\mathrm{x}+8 \\mathrm{z}=105\\} \\\\& \\mathrm{T}=\\{(\\mathrm{x}, \\mathrm{y}, \\mathrm{z}): 6 \\mathrm{x}+8 \\mathrm{z}=5\\}\\end{aligned}$\nSince $\\mathrm{S}$ and $\\mathrm{T}$ both are plane ;\n(1) There exist a triangle in plane $\\mathrm{S}$ whose area $=1$ (always)\n(2) $\\mathrm{L} ~\\&~ \\mathrm{M}$ lies on plane $\\mathrm{T}$, hence line segment joining $\\mathrm{L} \\& \\mathrm{M}$ will lie on plane $\\mathrm{T}$.\n(3) Distance between $\\mathrm{S} \\& \\mathrm{~T}$\n$\\mathrm{d}=\\left|\\frac{105-5}{10}\\right|=10$\nHence for rectangle of perimeter 48 can exist.\n(4) For Square\n<img src=\"assets\\st0003_4b962f234a1c.png\">\nThere will be infinite such rectangle possible.\nHence Answers 1,2,3,4 are correct."
+  }
+}

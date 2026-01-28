@@ -1,0 +1,43 @@
+{
+  "index": 239,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2007",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In the binomial expansion of $(a-b)^n, n \\geq 5$, the sum of $5^{\\text {th }}$ and $6^{\\text {th }}$ terms is zero, then $\\frac{a}{b}$ equals"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{5}{n-4}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{6}{n-5}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{n-5}{6}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{n-4}{5}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "${ }^n C_4 a^{n-4}(-b)^4+{ }^n C_5 a^{n-5}(-b)^5=0$\n$\\Rightarrow\\left(\\frac{a}{b}\\right)=\\frac{n-5+1}{5}$."
+  }
+}

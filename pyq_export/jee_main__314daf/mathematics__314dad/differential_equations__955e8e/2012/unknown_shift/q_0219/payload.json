@@ -1,0 +1,43 @@
+{
+  "index": 219,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (Offline)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The population $\\mathrm{p}(\\mathrm{t})$ at time $t$ of a certain mouse species satisfies the differential equation $\\frac{\\mathrm{dp}(\\mathrm{t})}{\\mathrm{dt}}=0.5 \\mathrm{~p}(\\mathrm{t})$ $-450$. If $p(0)=850$, then the time at which the population becomes zero is"
+  },
+  "options": [
+    {
+      "text": "\n$2 \\ln 18$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\ln 9$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{2} \\ln 18$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\ln 18$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\frac{d(p(t))}{d t}=\\frac{1}{2} p(t)-450$\n$\\frac{d(p(t))}{d t}=\\frac{p(t)-900}{2}$\n$2 \\int \\frac{d(p(t))}{p(t)-900}=\\int d t$\n$2 \\ln |p(t)-900|=t+c$ \n$t=0 \\quad \\Rightarrow 2 \\ln 50=0+c \\quad \\Rightarrow c=2 \\ln 50$\n$\\therefore 2 \\ln |\\mathrm{p}(\\mathrm{t})-900|=\\mathrm{t}+2 \\ln 50$\n$P(\\mathrm{t})=0 \\quad \\Rightarrow 2 \\ln 900=\\mathrm{t}+2 \\ln 50$\n$t=2(\\ln 900-\\ln 50)=2 \\ln \\left(\\frac{900}{50}\\right)=2 \\ln 18$."
+  }
+}

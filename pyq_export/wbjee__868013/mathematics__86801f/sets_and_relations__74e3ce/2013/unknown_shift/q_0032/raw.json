@@ -1,0 +1,63 @@
+{
+  "_id": "64a813e9e0ff5a5425a856aa",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec2",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2013-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013",
+      "title": "WBJEE 2013"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "In the set of all $3 \\times 3$ real matrices a relation is defined as follows. A matrix $A$ is related to a matrix $B,$ if and only if there is a non-singular $3 \\times 3$ matrix $P,$ such that $B=P^{-1} A P .$ This relation is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "9tFyt",
+      "text": "reflexive, symmetric but not transitive",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "5rnlb",
+      "text": "reflexive, transitive but not symmetric",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "xCw1P",
+      "text": "symmetric, transitive but not reflexive",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "udBsv",
+      "text": "an equivalence relation",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let the relation defined as $R=\\left\\{(A, B) \\mid B=P^{-1} A P\\right\\}$\r\nFor reflexive, $A=I^{-1} A l$\r\n$\\Rightarrow (A, A) \\in R$\r\n$\\Rightarrow R$ is reflexive\r\nFor symmetric $\\operatorname{Let}(A B) \\in R$\r\n$\\because$\r\n$B=P^{-1} A P$\r\n$\\Rightarrow P B=A P \\Rightarrow P B P^{-1}=A$\r\n$\\Rightarrow$\r\n$A=\\left(P^{-1}\\right)^{-1} B\\left(P^{-1}\\right)$\r\n$\\Rightarrow (B, A) \\in R \\Rightarrow R$ is symmetric.\r\nFor transitive\r\nLet $(A, B) \\in R,(B, C) \\in R$\r\n$\\because A=P^{-1} B P$ and $B=Q^{-} C Q$\r\n$\\Rightarrow A=P^{-} Q^{-1} C Q P=(Q P)^{-1} C(Q P)$\r\n$\\Rightarrow (A, C) \\in R$\r\n$\\Rightarrow R$ is transitive. since, $A$ is reflexive, symmetric and transitive. So, $R$ is an equivalence relation.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec2",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2013-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013",
+    "title": "WBJEE 2013"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

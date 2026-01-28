@@ -1,0 +1,83 @@
+{
+  "_id": "66965dead603121f43a44ff4",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "66965789b31faf98fda8fefa",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2024-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Paper 2)",
+      "title": "JEE Advanced 2024 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function defined by $f(x)=\\left\\{\\begin{array}{cc}x^2 \\sin \\left(\\frac{\\pi}{x^2}\\right), & \\text { if } x \\neq 0 \\\\ 0, & \\text { if } x=0\\end{array}\\right.$ Then which of the following statements is TRUE?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "DUD2L",
+      "text": "$f(x)=0$ has infinitely many solutions in the interval $\\left[\\frac{1}{10^{10}}, \\infty\\right)$.",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "6KR5F",
+      "text": "$f(x)=0$ has no solutions in the interval $\\left[\\frac{1}{\\pi}, \\infty\\right)$.",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "aY4Rk",
+      "text": "The set of solutions of $f(x)=0$ in the interval $\\left(0, \\frac{1}{10^{10}}\\right)$ is finite",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "NzKBV",
+      "text": "$f(x)=0$ has more than 25 solutions in the interval $\\left(\\frac{1}{\\pi^2}, \\frac{1}{\\pi}\\right)$.",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Option-1 : $\\mathrm{f}(\\mathrm{x})=\\mathrm{x}^2 \\sin \\frac{\\pi}{\\mathrm{x}^2}$\n$f(x)=0 \\Rightarrow \\sin \\frac{\\pi}{x^2}=0 \\Rightarrow \\frac{\\pi}{x^2}=n \\pi, n \\in N$\n$\\mathrm{x}^2=\\frac{1}{\\mathrm{n}} \\Rightarrow \\mathrm{x}=\\frac{1}{\\sqrt{\\mathrm{n}}}$\n$\\frac{1}{\\sqrt{\\mathrm{n}}} \\geq \\frac{1}{10^{10}} \\Rightarrow 10^{10} \\geq \\sqrt{\\mathrm{n}} \\Rightarrow \\mathrm{n} \\leq 10^{20}$, finite number of solutions\nOption-2 : $\\mathrm{x}=\\frac{1}{\\sqrt{\\mathrm{n}}} \\Rightarrow \\frac{1}{\\sqrt{\\mathrm{n}}}>\\frac{1}{\\pi} \\Rightarrow \\pi>\\sqrt{\\mathrm{n}} \\Rightarrow \\mathrm{n} < \\pi^2$, Number of solutions is 9\nOption-3 $: \\mathrm{x}=\\frac{1}{\\sqrt{\\mathrm{n}}}, \\frac{1}{\\sqrt{\\mathrm{n}}} < \\frac{1}{10^{10}} \\Rightarrow \\sqrt{\\mathrm{n}}>10^{10} \\Rightarrow \\mathrm{n}>10^{20}$, Infinite number of solutions\nOption-4 : $\\frac{1}{\\pi^2} < \\frac{1}{\\sqrt{\\mathrm{n}}} < \\frac{1}{\\pi} \\Rightarrow \\sqrt{\\mathrm{n}} \\in\\left(\\pi, \\pi^2\\right) \\Rightarrow \\mathrm{n} \\in\\left(\\pi^2, \\pi^4\\right)$, Definitely more than 25 solutions",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "1bc9e508a20e4270929374eec6c76a4d",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/oxJ50ZI9Y1Fsq.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/oxJ50ZI9Y1Fsq.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "66965789b31faf98fda8fefa",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2024-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Paper 2)",
+    "title": "JEE Advanced 2024 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 52,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2009",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $\\lim _{n \\rightarrow \\infty}\\left[\\frac{n}{n^2+1^2}+\\frac{n}{n^2+2^2}+\\ldots \\ldots . . \\frac{n}{n^2+n^2}\\right]$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\pi}{4}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\log 2$",
+      "is_correct": false
+    },
+    {
+      "text": "zero",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\text { Hints : } \\lim _{n \\rightarrow \\infty}\\left[\\frac{n}{n^2+1^2}+\\frac{n}{n^2+2^2}+\\ldots+\\frac{n}{n^2+n^2}\\right]\n$$\n\n$$\n=\\lim _{n \\rightarrow \\infty} \\sum_{r=1}^n \\frac{n}{n^2+r^2}=\\lim _{n \\rightarrow \\infty} \\frac{1}{n} \\sum_{r=1}^n \\frac{1}{1+\\left(\\frac{r}{n}\\right)^2}=\\int_0^1 \\frac{d x}{1+x^2}=\\left[\\tan ^{-1} x\\right]_0^1=\\frac{\\pi}{4}\n$$"
+  }
+}

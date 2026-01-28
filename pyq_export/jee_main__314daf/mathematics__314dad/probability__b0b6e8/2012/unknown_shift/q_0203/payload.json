@@ -1,0 +1,43 @@
+{
+  "index": 203,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (Offline)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Three numbers are chosen at random without replacement from $\\{1,2,3, \\ldots . .8\\}$. The probability that their minimum is $3$ , given that their maximum is $6$ , is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{3}{8}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{5}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{1}{4}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{2}{5}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $A$ be the event that maximum is $6$. \n$B$ be event that minimum is $3$\n$P(A)=\\frac{{ }^5 C_2}{{ }^8 C_3}$ (the numbers $ < 6$ are $5$)\n$P(B)=\\frac{{ }^5 C_2}{{ }^8 C_3}$ (the numbers $>3$ are $5$)\n$P(A \\cap B)=\\frac{{ }^2 C_1}{{ }^8 C_3}$\nRequired probability is $\\mathrm{P}\\left(\\frac{\\mathrm{B}}{\\mathrm{A}}\\right)=\\frac{\\mathrm{P}(\\mathrm{A} \\cap \\mathrm{B})}{\\mathrm{P}(\\mathrm{A})}=\\frac{{ }^2 \\mathrm{C}_1}{{ }^5 \\mathrm{C}_2}=\\frac{2}{10}=\\frac{1}{5}$."
+  }
+}

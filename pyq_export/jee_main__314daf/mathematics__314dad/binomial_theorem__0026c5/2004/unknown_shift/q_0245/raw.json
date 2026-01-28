@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a61417cc3fb48d655ed",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c4",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2004-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2004",
+      "title": "JEE Main 2004"
+    }
+  ],
+  "question": {
+    "text": "If $S_n=\\sum_{r=0}^n \\frac{1}{{ }^n C_r}$ and $t_n=\\sum_{r=0}^n \\frac{r}{{ }^n C_r}$, then $\\frac{t_n}{S_n}$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "g6DUr",
+      "text": "\n$\\frac{1}{2} \\mathrm{n}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "xZwf9",
+      "text": "\n$\\frac{1}{2} n-1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "0GHzh",
+      "text": "\n$n-1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "csBkE",
+      "text": "\n$\\frac{2 n-1}{2}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$t=\\sum_{r=0}^n \\frac{r}{{ }^n C_r}=\\sum_{r=0}^n \\frac{n-r}{{ }^n C_{n-r}}=\\sum_{r=0}^n \\frac{n-r}{{ }^n C_r}\\left(\\because{ }^n C_r={ }^n C_{n-r}\\right)$\n$2 t_n=\\sum_{r=0}^n \\frac{r+n-r}{{ }^n C_r}=\\sum_{r=0}^n \\frac{n}{{ }^n C_r} \\Rightarrow t_n=\\frac{n}{2} \\sum_{r=0}^n \\frac{1}{{ }^n C_r}=\\frac{n}{2} S_n \\Rightarrow \\frac{t_n}{S_n}=\\frac{n}{2}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c4",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2004-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2004",
+    "title": "JEE Main 2004"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

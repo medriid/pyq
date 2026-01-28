@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int 2^{x}\\left[f^{\\prime}(x)+f(x) \\log 2\\right] d x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$2^{x} f^{\\prime}(x)+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^{x} \\log 2+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^{x} f(x)+C$",
+      "is_correct": true
+    },
+    {
+      "text": "$2^{x}+C$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $I=\\int 2^{n}\\left[f^{\\prime}(x)+f(x) \\log 2\\right] d x$\r\n$\\begin{array}{ll}\\text { Consider } & g(x)=2^{x} f(x) \\\\ \\Rightarrow & g^{\\prime}(x)=2^{x} f^{\\prime}(x)+2^{x} f(x) \\log 2 \\\\ \\Rightarrow & g^{\\prime}(x)=2^{x}\\left[f^{\\prime}(x)+f(x) \\log 2\\right] \\\\ \\therefore \\quad & \\quad I=\\int g^{\\prime}(x) d x=g(x)+C=2^{x} f(x)+C\\end{array}$"
+  }
+}

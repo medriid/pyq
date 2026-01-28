@@ -1,0 +1,58 @@
+{
+  "_id": "648b5a6d417cc3fb48d67b0e",
+  "previousYearPapers": [
+    {
+      "_id": "63134c746e7bc9b332483705",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2022-07-27T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022 (27 Jul Shift 1)",
+      "title": "JEE Main 2022 (27 Jul Shift 1)"
+    }
+  ],
+  "type": "numerical",
+  "level": 3,
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>&nbsp;be the set containing all <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>&#215;</mo><mn>3</mn></math>&nbsp;matrices with entries from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mo>-</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>1</mn></mrow></mfenced></math>. The total number of matrices <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>&#8712;</mo><mi>S</mi></math>&nbsp;such that the sum of all the diagonal elements of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>A</mi><mi>T</mi></msup><mi>A</mi></math>&nbsp;is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math>&nbsp;is ______.",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "5376",
+  "solution": {
+    "text": "<blockquote><p>Given that the sum of all the diagonal elements of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>A</mi><mi>T</mi></msup><mi>A</mi></math>&nbsp;is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math>, means sum of all diagonal elements is equal to sum of square each element of the matrix.</p><p>i.e.,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable columnalign=\"left\"><mtr><mtd><msub><mi>a</mi><mn>1</mn></msub></mtd><mtd><msub><mi>a</mi><mn>2</mn></msub></mtd><mtd><msub><mi>a</mi><mn>3</mn></msub></mtd></mtr><mtr><mtd><msub><mi>b</mi><mn>1</mn></msub></mtd><mtd><msub><mi>b</mi><mn>2</mn></msub></mtd><mtd><msub><mi>b</mi><mn>3</mn></msub></mtd></mtr><mtr><mtd><msub><mi>c</mi><mn>1</mn></msub></mtd><mtd><msub><mi>c</mi><mn>2</mn></msub></mtd><mtd><msub><mi>c</mi><mn>3</mn></msub></mtd></mtr></mtable></mfenced></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>A</mi><mi>T</mi></msup><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable columnalign=\"left\"><mtr><mtd><msub><mi>a</mi><mn>1</mn></msub></mtd><mtd><msub><mi>b</mi><mn>1</mn></msub></mtd><mtd><msub><mi>c</mi><mn>1</mn></msub></mtd></mtr><mtr><mtd><msub><mi>a</mi><mn>2</mn></msub></mtd><mtd><msub><mi>b</mi><mn>2</mn></msub></mtd><mtd><msub><mi>c</mi><mn>2</mn></msub></mtd></mtr><mtr><mtd><msub><mi>a</mi><mn>3</mn></msub></mtd><mtd><msub><mi>b</mi><mn>3</mn></msub></mtd><mtd><msub><mi>c</mi><mn>3</mn></msub></mtd></mtr></mtable></mfenced></math></p><p>Then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>t</mi><mi>r</mi></msub><mfenced><mrow><mi>A</mi><mo>&#183;</mo><msup><mi>A</mi><mi>T</mi></msup></mrow></mfenced></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mi>a</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>a</mi><mn>2</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>a</mi><mn>3</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>b</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>b</mi><mn>2</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>b</mi><mn>3</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>c</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>c</mi><mn>2</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>c</mi><mn>3</mn><mn>2</mn></msubsup></math></p><p>Given&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>i</mi></msub><mo>,</mo><msub><mi>b</mi><mi>i</mi></msub><mo>,</mo><msub><mi>c</mi><mi>i</mi></msub><mo>&#8712;</mo><mfenced close=\"}\" open=\"{\"><mrow><mo>-</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>1</mn></mrow></mfenced></math>&nbsp;for&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>i</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn></math></p><p>Now sum to be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math>&nbsp;exactly three of them should be&nbsp;zero and rest should be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>&nbsp;or&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>1</mn></math>.</p><p>So, total number&nbsp;of possible matrices&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>3</mn><none></none><mprescripts></mprescripts><none></none><mn>9</mn></mmultiscripts><mo>&#215;</mo><msup><mn>2</mn><mn>6</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>9</mn><mo>&#215;</mo><mn>8</mn><mo>&#215;</mo><mn>7</mn></mrow><mn>6</mn></mfrac><mo>&#215;</mo><mn>64</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>5376</mn></math></p></blockquote>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "eb2ed496f0d344168f64c6a0ef77e6c3",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/x6OiBY5ehTr8w.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/x6OiBY5ehTr8w.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "63134c746e7bc9b332483705",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2022-07-27T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022 (27 Jul Shift 1)",
+    "title": "JEE Main 2022 (27 Jul Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

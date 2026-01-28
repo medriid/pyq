@@ -1,0 +1,63 @@
+{
+  "_id": "64a8144ae0ff5a5425a85a41",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7d",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2018-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018",
+      "title": "WBJEE 2018"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The velocity $(v)$ of a particle (under a force $F$ ) depends on its distance $(x)$ from the origin (with $x>0) v \\propto\\frac{1}{\\sqrt{x}}$. Find how the magnitude\r\nof the force $(F)$ on the particle depends on $x ?$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "8zbNS",
+      "text": "$F \\propto \\frac{1}{x^{3 / 2}}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "xhn2R",
+      "text": "$F \\propto \\frac{1}{x}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "GrODQ",
+      "text": "$F \\propto \\frac{1}{x^{2}}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "knfdT",
+      "text": "$F \\times x$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "According to the question.\r\n$$\r\nv \\propto \\frac{1}{\\sqrt{x}}\r\n$$\r\nor $v=\\frac{k}{\\sqrt{x}}$\r\n$$\r\n\\frac{d v}{d t}=\\frac{d}{d t} \\cdot \\frac{K}{\\sqrt{x}}=k \\cdot \\frac{-1}{2} \\cdot x^{-\\frac{1}{2}-1} \\cdot \\frac{d x}{d t}\r\n$$\r\n$a=-\\frac{k}{2} \\cdot x^{-\\frac{3}{2}} \\cdot \\frac{k}{\\sqrt{x}}\\left[\\because \\frac{d x}{d t}=v\\right.$ and $v=\\frac{k}{\\sqrt{x}}$ from $\\left.\\mathrm{Eq}(i)\\right]$\r\n$$\r\n=\\frac{-k^{2}}{2} \\cdot \\frac{1}{x^{2}}\r\n$$\r\n$=m \\frac{k^{2}}{2} \\cdot \\frac{1}{x^{2}}$\r\n(magnitue\r\n$F=\\frac{k^{2}}{2} \\cdot \\frac{m}{x^{2}}$\r\n$\\therefore$\r\n$F x \\frac{1}{x^{2}}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7d",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2018-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018",
+    "title": "WBJEE 2018"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

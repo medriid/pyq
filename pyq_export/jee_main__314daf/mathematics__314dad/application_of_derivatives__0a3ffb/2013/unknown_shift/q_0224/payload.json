@@ -1,0 +1,43 @@
+{
+  "index": 224,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2013 (25 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If an equation of a tangent to the curve, $y-\\cos (x+f),-1-1 \\leq x \\leq 1+\\pi$, is $x+2 y=k$ then $k$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "\n1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n2\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\pi}{4}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\pi}{2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $y=\\cos (x+y)$\n$$\n\\Rightarrow \\frac{d y}{d x}=-\\sin (x+y)\\left(1+\\frac{d y}{d x}\\right)\n$$\nNow, given equation of tangent is\n$$\n\\begin{aligned}\n&x+2 y=k \\\\\n&\\Rightarrow \\text { Slope }=\\frac{-1}{2}\n\\end{aligned}\n$$\nSo, $\\frac{d y}{d x}=\\frac{-1}{2}$ put this value in (1), we get\n$$\n\\begin{aligned}\n&\\frac{-1}{2}=-\\sin (x+y)\\left(1-\\frac{1}{2}\\right) \\\\\n&\\Rightarrow \\sin (x+y)=1 \\\\\n&\\Rightarrow x+y=\\frac{\\pi}{2} \\Rightarrow y=\\frac{\\pi}{2}-x\n\\end{aligned}\n$$\nNow $\\frac{\\pi}{2}-x=\\cos (x+y)$\n$$\n\\Rightarrow x=\\frac{\\pi}{2} \\text { and } y=0\n$$\nThus $x+2 y=k \\quad \\Rightarrow \\frac{\\pi}{2}=k$"
+  }
+}

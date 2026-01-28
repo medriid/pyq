@@ -1,0 +1,43 @@
+{
+  "index": 168,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602457307cfc9adff9a7fb",
+    "chapter_name": "Semiconductors",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Truth table for the given circuit will be\n<img src=\"assets\\qt0168_6f46bbc0bd9d.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\n$$\n\\begin{array}{cc|c}\n\\mathrm{x} & \\mathrm{y} & \\mathrm{z} \\\\\n\\hline 0 & 0 & 1 \\\\\n0 & 1 & 1 \\\\\n1 & 0 & 1 \\\\\n1 & 1 & 0\n\\end{array}\n$$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$$\n\\begin{array}{cc|c}\n\\mathrm{x} & \\mathrm{y} & \\mathrm{z} \\\\\n\\hline 0 & 0 & 0 \\\\\n0 & 1 & 0 \\\\\n1 & 0 & 0 \\\\\n1 & 1 & 1\n\\end{array}\n$$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$$\n\\begin{array}{cc|c}\nx & y & z \\\\\n\\hline 0 & 0 & 1 \\\\\n0 & 1 & 1 \\\\\n1 & 0 & 1 \\\\\n1 & 1 & 1\n\\end{array}\n$$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$$\n\\begin{array}{cc|c}\n\\mathrm{x} & \\mathrm{y} & \\mathrm{z} \\\\\n\\hline 0 & 0 & 0 \\\\\n0 & 1 & 1 \\\\\n1 & 0 & 1 \\\\\n1 & 1 & 1\n\\end{array}\n$$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Truth table of the circuit is as follows\n$$\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline x & y & \\bar{x} & a=x \\cdot y & b=\\bar{x} \\cdot y & z=\\overline{a \\cdot b} \\\\\n\\hline 0 & 0 & 1 & 0 & 0 & 1 \\\\\n\\hline 0 & 1 & 1 & 0 & 1 & 1 \\\\\n\\hline 1 & 0 & 0 & 0 & 0 & 1 \\\\\n\\hline 1 & 1 & 0 & 1 & 0 & 1 \\\\\n\\hline\n\\end{array}\n$$"
+  }
+}

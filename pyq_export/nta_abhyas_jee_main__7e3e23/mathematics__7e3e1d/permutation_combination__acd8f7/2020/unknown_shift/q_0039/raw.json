@@ -1,0 +1,61 @@
+{
+  "_id": "6151e863a2fe35e4b3f447d3",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "53",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "A person predicts the outcome of <math><mn>20</mn></math> cricket matches of his home team. Each match can result either in a win, loss or tie for the home team. The total number of ways in which he can make the predictions such that exactly <math><mn>10</mn></math> predictions are correct, are equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "YySJo",
+      "text": "<math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>10</mn></mrow></msub><mo>⋅</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>10</mn></mrow></msup></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "iK2kP",
+      "text": "<math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>10</mn></mrow></msub><mo>⋅</mo><msup><mrow><mn>3</mn></mrow><mrow><mn>20</mn></mrow></msup></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "yHKrt",
+      "text": "<math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>10</mn></mrow></msub><mo>⋅</mo><msup><mrow><mn>3</mn></mrow><mrow><mn>10</mn></mrow></msup></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "HqWVi",
+      "text": "<math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>10</mn></mrow></msub><mo>⋅</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>20</mn></mrow></msup></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "In order to predict exactly <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math> correct predictions,<br /><math><mo>⇒</mo></math> we have to select <math><mn>10</mn></math> matches out of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math> in <math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>10</mn></mrow></msub></math> ways<br /><math><mo>⇒</mo></math> ways of making a correct prediction for each match is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>, so for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math> matches it is equal to <math><msup><mrow><mn>1</mn></mrow><mrow><mn>10</mn></mrow></msup><mo>=</mo><mn>1</mn><mo>.</mo></math><br /><math><mo>⇒</mo></math> Remaining <math><mn>10</mn></math> predictions must be wrong so for each incorrect prediction we have <math><mn>2</mn></math> choices out of <math><mn>3</mn><mo>,</mo></math> this can be done in <math><msup><mrow><mn>2</mn></mrow><mrow><mn>10</mn></mrow></msup></math> ways.<br />Hence, the required number of ways <math><mo>=</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>10</mn></mrow></msub><mfenced separators=\"|\"><mrow><mn>1</mn></mrow></mfenced><mo>⋅</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>10</mn></mrow></msup><mo>=</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>10</mn></mrow></msub><mo>×</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>10</mn></mrow></msup><mo>.</mo></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2025",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d10462f802c3ef913dd",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=|1-2 x|$, then"
+  },
+  "options": [
+    {
+      "text": "$f(x)$ is continuous but not differentiable at $x=\\frac{1}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$f(x)$ is differentiable but not continuous at $x=\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x)$ is both continuous and differentiable at $x=\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x)$ is neither differentiable nor continuous at $x=\\frac{1}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "The absolute value function can be rewritten as a piecewise function:\r\n\\(f(x)= \\begin{cases}1-2 x, & \\text { if } x \\leq \\frac{1}{2} \\\\ -(1-2 x), & \\text { if } x>\\frac{1}{2}\\end{cases}\\)\r\n2. Check for continuity at \\(x=\\frac{1}{2}\\) :\r\nLeft-hand limit: \\(\\lim _{x \\rightarrow \\frac{1}{2}} f(x)=\\lim _{x \\rightarrow \\frac{1}{2}}(1-2 x)=1-2\\left(\\frac{1}{2}\\right)=0\\)\r\nRight-hand limit: \\(\\lim _{x \\rightarrow \\frac{1}{2}} f(x)=\\lim _{x \\rightarrow \\frac{1}{2}}-(1-2 x)=-\\left(1-2\\left(\\frac{1}{2}\\right)\\right)=0\\)\r\nFunction value: \\(f\\left(\\frac{1}{2}\\right)=\\left|1-2\\left(\\frac{1}{2}\\right)\\right|=|1-1|=0\\)\r\nSince the left-hand limit, right-hand limit, and function value are all equal, the function is continuous at \\(x=\\frac{1}{2}\\).\r\n3. Check for differentiability at \\(x=\\frac{1}{2}\\) :\r\nLeft-hand derivative: \\(f^{\\prime}(x)=-2\\) for \\(x<\\frac{1}{2}\\), so \\(\\lim _{x \\rightarrow \\frac{1}{2}} f^{\\prime}(x)=-2\\).\r\nRight-hand derivative: \\(f^{\\prime}(x)=2\\) for \\(x>\\frac{1}{2}\\), so \\(\\lim _{x \\rightarrow \\frac{1}{2}^{+}} f^{\\prime}(x)=2\\).\r\nSince the left-hand derivative and right-hand derivative are not equal, the function is not differentiable at \\(x=\\frac{1}{2}\\)."
+  }
+}

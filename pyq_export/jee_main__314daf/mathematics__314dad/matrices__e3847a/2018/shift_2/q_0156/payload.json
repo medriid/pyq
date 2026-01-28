@@ -1,0 +1,43 @@
+{
+  "index": 156,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Suppose $A$ is any $3 \\times 3$ non-singular matrix and $(A-3 I)(A-5 I)=O$, where $I=I_3$ and $O=O_3$. If $\\alpha A+$ $\\beta A^{-1}=4 I$, then $\\alpha+\\beta$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n8\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n12\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n13\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n7",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "We have\n$$\n\\begin{aligned}\n&(A-3 I)(A-5 I)=O \\\\\n&\\Rightarrow A^2-8 A+15 I=O\n\\end{aligned}\n$$\nMultiplying both sides by $A^{-1}$, we get;\n$$\n\\begin{aligned}\nA^{-1} A \\cdot A-8 A^{-1} A+15 A^{-1} I=A^{-1} O \\\\\n\\Rightarrow & A-8 I+15 A^{-1}=O \\\\\n& A+15 A^{-1}=8 I \\\\\n& \\frac{A}{2}+\\frac{15 A^{-1}}{2}=4 I \\\\\n\\therefore & \\alpha+\\beta=\\frac{1}{2}+\\frac{15}{2}=\\frac{16}{2}=8\n\\end{aligned}\n$$"
+  }
+}

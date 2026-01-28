@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2010 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "6160242fab7a61dc9f1caa79",
+    "chapter_name": "Alternating Current",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "You are given many resistances, capacitors and inductors. These are connected to a variable DC voltage source (the first two circuits) or an AC voltage source of $50 \\mathrm{~Hz}$ frequency (the next three circuits) in different ways as shown in Column II. When a current $I$ (steady state for DC or rms for $A C$ ) flows through the circuit, the corresponding voltage $V_1$ and $V_2$ (indicated in circuits) are related as shown in Column I. Match the two\n<img src=\"assets\\qt0017_4553556659ce.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\n(A) R,S,T, (B) Q,R,T, (C) P, (D) Q,R,S\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n(A) R,S,T, (B) Q,R,S,T, (C) P,Q, (D) Q,R,S,T\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n(A) S,T, (B) Q,R,T, (C) P,Q, (D) Q,R,S,T\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n(A) S,T, (B) Q,R,S,T, (C) P, (D) Q,R,S",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "In circuit (P), I can't be non zero in steady state.\nIn circuit (Q) :\n$V_1=0$ and $V_2=2 I=V$ (also)\n$$\n\\begin{aligned}\n& \\text { In circuit (R): } V_1=X_L I=(2 \\pi f \\mathrm{~L}) I \\\\\n& \\quad=\\left(2 \\pi \\times 50 \\times 6 \\times 10^{-3}\\right) I \\\\\n& \\quad=1.88 I \\\\\n& V_2=2 I\n\\end{aligned}\n$$\nIn circuit (S): $V_1=X_L I=1.88 I$\n$$\n\\begin{array}{r}\nV_2=X_C I=\\left(\\frac{1}{2 \\pi f C}\\right) I \\\\\n=\\left(\\frac{1}{2 \\pi \\times 50 \\times 3 \\times 10^{-6}}\\right) I=(1061) I\n\\end{array}\n$$\nIn circuit (T):\n$$\n\\begin{aligned}\n& V_1=I R=(1000) I \\\\\n& V_2=X_C I=(1061) I\n\\end{aligned}\n$$\nTherefore the correct options are as under\n(A) $\\rightarrow$ R, S, T $\\quad$ (B) $\\rightarrow$ Q, R, S, T\n(C) $\\rightarrow$ Q or $P, Q \\quad$ (D) $\\rightarrow$ Q, R, S, T"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "67a2ee8fc8b73881fdaea0ef",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d97609",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-22T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (22 Jan Shift 2)",
+      "title": "JEE Main 2025 (22 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If $\\sum_{r=1}^{30} \\frac{r^2\\left({ }^{30} C_r\\right)^2}{{ }^{30} C_{r-1}}=\\alpha \\times 2^{29}$, then $\\alpha$ is equal to ______",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "465",
+  "solution": {
+    "text": "$\\begin{aligned} & \\sum_{\\mathrm{r}=1}^{30} \\frac{\\mathrm{r}^2\\left({ }^{30} \\mathrm{C}_{\\mathrm{r}}\\right)^2}{{ }^{30} \\mathrm{C}_{\\mathrm{r}-1}} \\\\ & =\\sum_{\\mathrm{r}=1}^{30} \\mathrm{r}^2\\left(\\frac{31-\\mathrm{r}}{\\mathrm{r}}\\right) \\cdot \\frac{30!}{\\mathrm{r}!(30-\\mathrm{r})!} \\\\ & \\left(\\because \\frac{{ }^{30} \\mathrm{C}_{\\mathrm{r}}}{{ }^{30} \\mathrm{C}_{\\mathrm{r}-1}}=\\frac{30-\\mathrm{r}+1}{\\mathrm{r}}=\\frac{31-\\mathrm{r}}{\\mathrm{r}}\\right)\\end{aligned}$\n\n\n$\\begin{aligned} & =\\sum_{\\mathrm{r}=1}^{30} \\frac{(31-\\mathrm{r}) 30!}{(\\mathrm{r}-1)!(30-\\mathrm{r})!} \\\\ & =30 \\sum_{\\mathrm{r}=1}^{30} \\frac{(31-\\mathrm{r}) 29!}{(\\mathrm{r}-1)!(30-\\mathrm{r})!} \\\\ & =30 \\sum_{\\mathrm{r}=1}^{30}(30-\\mathrm{r}+1)^{29} \\mathrm{C}_{30-\\mathrm{r}} \\\\ & =30\\left(\\sum_{\\mathrm{r}=1}^{30}(31-\\mathrm{r})^{29} \\mathrm{C}_{30-\\mathrm{r}}+\\sum_{\\mathrm{r}=1}^{30}{ }^{29} \\mathrm{C}_{30-\\mathrm{r}}\\right) \\\\ & =30\\left(29 \\times 2^{28}+2^{29}\\right)=30(29+2) 2^{28} \\\\ & =15 \\times 31 \\times 2^{29} \\\\ & =465\\left(2^{29}\\right) \\\\ & \\alpha=465\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "2e7d07acc2954feeb89fef2469242e7d",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/WNqo2Lsxnh7xs.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/WNqo2Lsxnh7xs.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d97609",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-22T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (22 Jan Shift 2)",
+    "title": "JEE Main 2025 (22 Jan Shift 2)"
+  },
+  "evalStatus": "correct",
+  "lastPracticed": "2025-02-09T04:51:25.443Z"
+}

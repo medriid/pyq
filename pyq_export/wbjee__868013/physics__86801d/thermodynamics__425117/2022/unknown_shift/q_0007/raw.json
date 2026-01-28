@@ -1,0 +1,63 @@
+{
+  "_id": "64a8148ae0ff5a5425a85ca0",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "63120b11f89b13efdfdcda63",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2022-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022",
+      "title": "WBJEE 2022"
+    }
+  ],
+  "question": {
+    "text": "Consider a thermodynamic process where internal energy $U=A P^2 \\mathrm{~V}(\\mathrm{~A}=$ constant). If the process is performed adiabatically, then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "EYOdG",
+      "text": "$A P^2(V+1)=$ constant",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "JXVaj",
+      "text": "$(\\mathrm{AP}+1)^2 \\mathrm{~V}=\\mathrm{constant}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "azkld",
+      "text": "$(\\mathrm{AP}+1) \\mathrm{V}^2=$ constant",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "pmxGr",
+      "text": "$\\frac{V}{(A P+1)^2}=$ constant",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$U=A P^2 V$\n$\\frac{d U}{d V}=A P^2+2 P A V \\frac{d P}{d V}$ [For adiabatic process $\\left.d Q=0, d U=-d w=-P d V\\right]$\n$-\\frac{P d V}{d V}=A P^2+2 P A V \\frac{d P}{d V}$\n$-1=A P+2 A V \\frac{d P}{d V} \\Rightarrow-1-A P=2 A V \\frac{d P}{d V}$\n$-\\int \\frac{d V}{V}=\\int \\frac{2 A d P}{A P+1}$\n$-\\ell n V+C=\\frac{2 A}{A} \\ln (A P+1)$\n$C=\\ell n(A P+1)^2+\\ell n V \\Rightarrow C=(A P+1)^2 V$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "63120b11f89b13efdfdcda63",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2022-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022",
+    "title": "WBJEE 2022"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "64b16a17f23ac7d519f9b141",
+  "type": "numerical",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c49",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2011-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011 (Paper 2)",
+      "title": "JEE Advanced 2011 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "$$\n\\text { Let } M \\text { be a } 3 \\times 3 \\text { matrix satisfying }\n$$\n\n$$\nM\\left[\\begin{array}{l}\n0 \\\\\n1 \\\\\n0\n\\end{array}\\right]=\\left[\\begin{array}{c}\n-1 \\\\\n2 \\\\\n3\n\\end{array}\\right], M\\left[\\begin{array}{c}\n1 \\\\\n-1 \\\\\n0\n\\end{array}\\right]=\\left[\\begin{array}{c}\n1 \\\\\n1 \\\\\n-1\n\\end{array}\\right] \\text { and } M\\left[\\begin{array}{l}\n1 \\\\\n1 \\\\\n1\n\\end{array}\\right]=\\left[\\begin{array}{c}\n0 \\\\\n0 \\\\\n12\n\\end{array}\\right]\n$$\nThen, the sum of the diagonal entries of $M$ is",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "9",
+  "solution": {
+    "text": "Let $M=\\left[\\begin{array}{lll}a_1 & a_2 & a_3 \\\\ b_1 & b_2 & b_3 \\\\ c_1 & c_2 & c_3\\end{array}\\right]$\n$\\therefore M\\left[\\begin{array}{l}0 \\\\ 1 \\\\ 0\\end{array}\\right]=\\left[\\begin{array}{r}-1 \\\\ 2 \\\\ 3\\end{array}\\right], M\\left[\\begin{array}{r}1 \\\\ -1 \\\\ 0\\end{array}\\right]=\\left[\\begin{array}{r}1 \\\\ 1 \\\\ -1\\end{array}\\right]$,\n$M\\left[\\begin{array}{l}1 \\\\ 1 \\\\ 1\\end{array}\\right]=\\left[\\begin{array}{r}0 \\\\ 0 \\\\ 12\\end{array}\\right]$,\n$$\n\\begin{aligned}\n\\Rightarrow & {\\left[\\begin{array}{l}\na_2 \\\\\nb_2 \\\\\nc_2\n\\end{array}\\right]=\\left[\\begin{array}{r}\n-1 \\\\\n2 \\\\\n3\n\\end{array}\\right],\\left[\\begin{array}{l}\na_1-a_2 \\\\\nb_1-b_2 \\\\\nc_1-c_2\n\\end{array}\\right]=\\left[\\begin{array}{r}\n1 \\\\\n1 \\\\\n-1\n\\end{array}\\right], } \\\\\n& {\\left[\\begin{array}{l}\na_1+a_2+a_3 \\\\\nb_1+b_2+b_3 \\\\\nc_1+c_2+c_3\n\\end{array}\\right]=\\left[\\begin{array}{r}\n0 \\\\\n0 \\\\\n12\n\\end{array}\\right] } \\\\\n\\Rightarrow & a_2=-1, b_2=2, c_2=3, a_1-a_2=1, \\\\\n\\Rightarrow & b_1-b_2=1, c_1-c_2=-1 \\\\\n\\Rightarrow \\quad & a_1+a_2+a_3=0, b_1+b_2+b_3=0, \\\\\n\\therefore & c_1+c_2+c_3=12 \\\\\n\\therefore & a_1=0, b_2=2 \\text { and } c_3=7\n\\end{aligned}\n$$\nHence, sum of diagonal elements\n$$\n=0+2+7=9\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c49",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2011-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011 (Paper 2)",
+    "title": "JEE Advanced 2011 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

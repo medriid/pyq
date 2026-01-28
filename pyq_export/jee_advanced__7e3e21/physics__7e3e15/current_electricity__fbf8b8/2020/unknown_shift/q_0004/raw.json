@@ -1,0 +1,83 @@
+{
+  "_id": "64b16a7df23ac7d519f9b4e0",
+  "previousYearPapers": [
+    {
+      "_id": "615d92eede3d91842a5cf830",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2020-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2020 (Paper 1)",
+      "title": "JEE Advanced 2020 (Paper 1)"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 3,
+  "question": {
+    "text": "<p>Shown in the figure is a semicircular metallic strip that has thickness <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> and resistivity <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ρ</mi></math>. Its inner radius is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>1</mn></msub></math> and outer radius is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>2</mn></msub></math>. If a voltage <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mn>0</mn></msub></math> is applied between its two ends, a current <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi></math> flows in it. In addition, it is observed that a transverse voltage <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">Δ</mi><mi>V</mi></math> develops between its inner and outer surfaces due to purely kinetic effects of moving electrons (ignore any role of the magnetic field due to the current). Then (figure is schematic and not drawn to scale)</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/1ed65e18-7535-4d05-8587-e562b7c26394-D491.png\"/></p>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "6svOg",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><mfrac><mrow><msub><mi>V</mi><mn>0</mn></msub><mi>t</mi></mrow><mrow><mi>&#960;</mi><mi>&#961;</mi></mrow></mfrac><mi>ln</mi><mfenced><mfrac><msub><mi>R</mi><mn>2</mn></msub><msub><mi>R</mi><mn>1</mn></msub></mfrac></mfenced></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "VpYEp",
+      "text": "the outer surface is at a higher voltage than the inner surface",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "NTuRu",
+      "text": "the outer surface is at a lower voltage than the inner surface",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "37ywd",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#916;</mi><mi>V</mi><mo>&#8733;</mo><msup><mi>I</mi><mn>2</mn></msup></math>",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/16401c73-4634-4b38-a094-0d8c0a11febf-D491.png\"/></p><p>Resistance of the strip <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>ρ</mi><mfrac><mrow><mi>π</mi><mi>r</mi></mrow><mi>tdr</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">R</mi><mo>=</mo></math>net resistance</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mi>R</mi></mfrac><mo>=</mo><mo>∫</mo><mfrac><mrow><mi>t</mi><mi>d</mi><mi>r</mi></mrow><mrow><mi>ρ</mi><mi>π</mi><mi>r</mi></mrow></mfrac><mfrac><mi>t</mi><mrow><mi>π</mi><mi>ρ</mi></mrow></mfrac><msubsup><mo>∫</mo><msub><mi>R</mi><mn>1</mn></msub><msub><mi>R</mi><mn>2</mn></msub></msubsup><mfrac><mrow><mi>d</mi><mi>r</mi></mrow><mi>r</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mfrac><mrow><mi>π</mi><mi>ρ</mi></mrow><mrow><mi>t</mi><mi>ln</mi><mfenced><mfrac><msub><mi>R</mi><mn>2</mn></msub><msub><mi>R</mi><mn>1</mn></msub></mfrac></mfenced></mrow></mfrac></math></p><p>Hence, current i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><msub><mi>V</mi><mn>0</mn></msub><mi>R</mi></mfrac><mo>=</mo><mfrac><mrow><msub><mi>V</mi><mn>0</mn></msub><mi>t</mi></mrow><mrow><mi>π</mi><mi>ρ</mi></mrow></mfrac><mi>ln</mi><mfenced><mfrac><msub><mi>R</mi><mn>2</mn></msub><msub><mi>R</mi><mn>1</mn></msub></mfrac></mfenced></math></p><p>for elementary dr,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>di</mi><mo>=</mo><mfrac><msub><mi mathvariant=\"normal\">V</mi><mn>0</mn></msub><mrow><mi>ρ</mi><mfenced><mfrac><mrow><mi>π</mi><mi mathvariant=\"normal\">r</mi></mrow><mi>tdr</mi></mfrac></mfenced></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mi mathvariant=\"normal\">V</mi><mn>0</mn></msub><mi>tdr</mi></mrow><mrow><mi>ρ</mi><mi>π</mi><mi mathvariant=\"normal\">r</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">i</mi><mo>=</mo><mi>nAe</mi><mi>v</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msub><mi>V</mi><mn>0</mn></msub><mi>t</mi><mi>d</mi><mi>r</mi></mrow><mrow><mi>ρ</mi><mi>π</mi><mi>r</mi></mrow></mfrac><mo>=</mo><mi>n</mi><mi>t</mi><mfenced><mrow><mi>d</mi><mi>r</mi></mrow></mfenced><mi>e</mi><mi>v</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>eE</mi><mo>=</mo><mi mathvariant=\"normal\">m</mi><mfrac><msup><mi mathvariant=\"normal\">v</mi><mn>2</mn></msup><mi mathvariant=\"normal\">r</mi></mfrac><mo>=</mo><mi mathvariant=\"normal\">m</mi><mfrac><msubsup><mi mathvariant=\"normal\">V</mi><mn>0</mn><mn>2</mn></msubsup><mrow><msup><mi mathvariant=\"normal\">n</mi><mn>2</mn></msup><msup><mi>ℓ</mi><mn>2</mn></msup><msup><mi>ρ</mi><mn>2</mn></msup><msup><mi>π</mi><mn>2</mn></msup><msup><mi mathvariant=\"normal\">r</mi><mn>2</mn></msup></mrow></mfrac><mo>×</mo><mfrac><mn>1</mn><mi mathvariant=\"normal\">r</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mfrac><msup><mi>v</mi><mn>2</mn></msup><mi>r</mi></mfrac><mo>=</mo><mi>m</mi><mfrac><msubsup><mi>V</mi><mn>0</mn><mn>2</mn></msubsup><mrow><msup><mi>n</mi><mn>2</mn></msup><msup><mi>ℓ</mi><mn>2</mn></msup><msup><mi>ρ</mi><mn>2</mn></msup><msup><mi>π</mi><mn>2</mn></msup><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo>×</mo><mfrac><mn>1</mn><mi>r</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mo>∝</mo><mfrac><mn>1</mn><msup><mi>r</mi><mn>3</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mo>=</mo><mi>k</mi><mfrac><mn>1</mn><msup><mi>r</mi><mn>3</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Δ</mi><mi>V</mi><mo>=</mo><mo>∫</mo><mi>E</mi><mi>d</mi><mi>r</mi><mo>=</mo><mi>k</mi><msubsup><mo>∫</mo><msub><mi>R</mi><mn>1</mn></msub><msub><mi>R</mi><mn>2</mn></msub></msubsup><mfrac><mrow><mi>d</mi><mi>r</mi></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac><mo>∝</mo><msubsup><mi>V</mi><mn>0</mn><mn>2</mn></msubsup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∴</mo><mo>  </mo><mo>∝</mo><mo>  </mo><msup><mi>i</mi><mn>2</mn></msup></math></p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "9e1934ae703f42de8c841fb2c4d2f8d7",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/79jbFiofbwwUk.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/79jbFiofbwwUk.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eede3d91842a5cf830",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2020-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2020 (Paper 1)",
+    "title": "JEE Advanced 2020 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

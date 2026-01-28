@@ -1,0 +1,44 @@
+{
+  "index": 23,
+  "type": "multipleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2017 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025732b001edb3fa9de60",
+    "chapter_name": "Probability",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let <math><mi>X</mi></math> and <math><mi>Y</mi></math> be two events such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced separators=\"|\"><mi>X</mi></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced separators=\"|\"><mi>X</mi><mi>Y</mi></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi><mo>|</mo><mi>X</mi></mrow></mfenced><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>.</mo></math> Then"
+  },
+  "options": [
+    {
+      "text": "<math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>4</mn></mrow><mrow><mn>15</mn></mrow></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mi>P</mi><mfenced separators=\"|\"><mrow><mover accent=\"true\"> <mi>X</mi> <mo stretchy=\"true\">¯</mo> </mover><mo>|</mo><mi>&nbsp;Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>∩</mo><mi>Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>5</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>∪</mo><mi>Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mn>5</mn></mrow></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "B"
+  ],
+  "solution": {
+    "text": "Using formula <math> <mrow> <mi>P</mi><mfenced separators=\"|\"><mrow><mi>X&nbsp;</mi><mo>|</mo><mi>&nbsp;Y</mi></mrow></mfenced><mo>=</mo><mfrac> <mrow> <mi>P</mi><mrow><mo>(</mo> <mrow> <mi>X</mi><mo>∩</mo><mi>Y</mi> </mrow> <mo>)</mo></mrow> </mrow> <mrow> <mi>P</mi><mrow><mo>(</mo> <mi>Y</mi> <mo>)</mo></mrow> </mrow> </mfrac> </mrow></math>&nbsp;and&nbsp;<math><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y&nbsp;</mi><mo>|</mo><mi>&nbsp;X</mi></mrow></mfenced><mo>=</mo><mfrac> <mrow> <mi>P</mi><mrow><mo>(</mo> <mrow> <mi>Y</mi><mo>∩</mo><mi>X</mi> </mrow> <mo>)</mo></mrow> </mrow> <mrow> <mi>P</mi><mrow><mo>(</mo> <mi>X</mi> <mo>)</mo></mrow> </mrow> </mfrac> </mrow> </math><br /><math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac><mo>;</mo><mfrac><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>∩</mo><mi>Y</mi></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi></mrow></mfenced></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>;</mo><mfrac><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi><mo>∩</mo><mi>X</mi></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi></mrow></mfenced></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mn>5</mn></mrow></mfrac></math><br />From this information, we get<br /><math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>∩</mo><mi>Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mn>15</mn></mrow></mfrac><mo>;</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>4</mn></mrow><mrow><mn>15</mn></mrow></mfrac></math><br />Using formula <math> <mrow> <mi>P</mi><mo stretchy=\"false\">(</mo><mi>X</mi><mo>∪</mo><mi>Y</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>X</mi><mo stretchy=\"false\">)</mo><mo>+</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>Y</mi><mo stretchy=\"false\">)</mo><mo>−</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>X</mi><mo>∩</mo><mi>Y</mi><mo stretchy=\"false\">)</mo> </mrow> </math><br /><math><mo>∴</mo><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>∪</mo><mi>Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>4</mn></mrow><mrow><mn>15</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mn>15</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>7</mn></mrow><mrow><mn>15</mn></mrow></mfrac></math><br /><math><mi>P</mi><mfenced separators=\"|\"><mrow><mover accent=\"true\"> <mi>X</mi> <mo stretchy=\"true\">¯</mo> </mover><mo>|</mo><mi>&nbsp;Y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mover accent=\"true\"><mrow><mi>X</mi></mrow><mo>-</mo></mover><mo>∩</mo><mi>Y</mi></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi></mrow></mfenced></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi></mrow></mfenced><mo>-</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>∩</mo><mi>Y</mi></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>Y</mi></mrow></mfenced></mrow></mfrac></math><br /><math><mo>⇒</mo><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>&nbsp;</mi><mi>P</mi><mfenced separators=\"|\"><mrow><mover accent=\"true\"> <mi>X</mi> <mo stretchy=\"true\">¯</mo> </mover><mo>|</mo><mi>&nbsp;Y</mi></mrow></mfenced><mo>=</mo><mn>1</mn><mo>-</mo><mfrac><mrow><mfrac><mrow><mn>2</mn></mrow><mrow><mn>15</mn></mrow></mfrac></mrow><mrow><mfrac><mrow><mn>4</mn></mrow><mrow><mn>15</mn></mrow></mfrac></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math>"
+  }
+}

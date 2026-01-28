@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253321995c266090cfc7",
+    "chapter_name": "Trigonometric Ratios & Identities",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $|\\cos \\theta \\cos (60-\\theta) \\cos (60+\\theta)| \\leq \\frac{1}{8}, \\theta \\epsilon[0,2 \\pi]$. Then, the sum of all $\\theta \\epsilon[0,2 \\pi]$, where $\\cos 3 \\theta$ attains its maximum value, is :"
+  },
+  "options": [
+    {
+      "text": "$15 \\pi$",
+      "is_correct": false
+    },
+    {
+      "text": "$18 \\pi$",
+      "is_correct": false
+    },
+    {
+      "text": "$6 \\pi$",
+      "is_correct": true
+    },
+    {
+      "text": "$9 \\pi$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We know that\n$(\\cos \\theta)\\left(\\cos( 6 0 ^ { \\circ } - \\theta ) \\left(\\cos \\left(60^{\\circ}+\\theta\\right)=\\frac{1}{4} \\cos 3 \\theta\\right.\\right.$\nSo equation reduces to $\\left|\\frac{1}{4} \\cos 3 \\theta\\right| \\leq \\frac{1}{8}$\n$\\begin{aligned}\n& \\Rightarrow|\\cos 3 \\theta| \\leq \\frac{1}{2} \\\\\n& \\Rightarrow-\\frac{1}{2} \\leq \\cos 3 \\theta \\leq \\frac{1}{2}\n\\end{aligned}$\n$\\Rightarrow$ maximum value of $\\cos 3 \\theta=\\frac{1}{2}$, here\n$\\begin{aligned}\n& \\Rightarrow 3 \\theta=2 \\mathrm{n} \\pi \\pm \\frac{\\pi}{3} \\\\\n& \\theta=\\frac{2 \\mathrm{n} \\pi}{3} \\pm \\frac{\\pi}{9}\n\\end{aligned}$\nAs $\\theta \\in[0,2 \\pi]$ possible values are\n$\\theta=\\left\\{\\frac{\\pi}{9}, \\frac{5 \\pi}{9}, \\frac{7 \\pi}{9}, \\frac{11 \\pi}{9}, \\frac{13 \\pi}{9}, \\frac{17 \\pi}{9}\\right\\}$\nWhose sum is\n$\\frac{\\pi}{9}+\\frac{5 \\pi}{9}+\\frac{7 \\pi}{9}+\\frac{11 \\pi}{9}+\\frac{13 \\pi}{9}+\\frac{17 \\pi}{9}=\\frac{54 \\pi}{9}=6 \\pi$"
+  }
+}

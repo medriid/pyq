@@ -1,0 +1,83 @@
+{
+  "_id": "67a2ee97c8b73881fdaea135",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d9760a",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-23T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (23 Jan Shift 1)",
+      "title": "JEE Main 2025 (23 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "The value of\n$\\int_{e^2}^{e^4} \\frac{1}{x}\\left(\\frac{e^{\\left(\\left(\\log _e x\\right)^2+1\\right)^{-1}}}{e^{\\left(\\left(\\log _e x\\right)^2+1\\right)^{-1}}+e^{\\left(\\left(6-\\log _e x\\right)^2+1\\right)^{-1}}}\\right) d x$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "8mYVc",
+      "text": "$2$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "0QaAK",
+      "text": "$\\log _e 2$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "sYx9O",
+      "text": "$1$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "ceA0E",
+      "text": "$e^2$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}\r\n& \\text {Put } \\ln x=t \\Rightarrow \\frac{1}{x} d x=d t \\quad \\begin{array}{|c|c|}\r\n\\hline x & t \\\\\r\n\\hline e^2 & 2 \\\\\r\n\\hline e^4 & 4 \\\\\r\n\\hline \\end{array} \\\\\r\n& I=\\int_2^4 \\frac{e^{\\left(\\mathrm{t}^2+1\\right)^{-1}}}{e^{\\left(\\mathrm{t}^2+1\\right)^{-1}}+e^{\\left((6-t)^2+1\\right)^{-1}}} d t \\quad \\ldots \\text { (i) } \\\\\r\n& I=\\int_2^4 \\frac{e^{\\left((6-t)^2+1\\right)^{-1}}}{e^{\\left((6-t)^2+1\\right)^{-1}}+e^{\\left(t^2+1\\right)^{-1}} d t} \\ldots \\text { (ii) } \\\\\r\n& \\left\\{\\text { Using } \\int_a^0 f(x) d x=\\int_a^0 f(a+b-x) d x\\right\\}\r\n\\end{aligned}$\r\nAdding (i) and (ii) gives\r\n$2 l=\\int d t \\Rightarrow l=1$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "e8b134ca12a543d385fcc708a53d191e",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/1uoc2g5Welb21.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/1uoc2g5Welb21.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d9760a",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-23T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (23 Jan Shift 1)",
+    "title": "JEE Main 2025 (23 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

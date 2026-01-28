@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2006",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "6160242fab7a61dc9f1caa79",
+    "chapter_name": "Alternating Current",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nThe capacitor of capacitance $C$ can be charged (with the help of a resistance $R$ ) by a voltage source $V$, by closing switch $S_1$ while keeping switch $S_2$ open. The capacitor can be connected in series with an inductor $L$ by closing switch $S_2$ and opening $S_1$.<img src=\"assets\\qt0020_007916a12c1f.png\"><br><strong>Question:</strong>\nIf the total charge stored in the $L C$ circuit is $Q_0$, then for $t \\geq 0$"
+  },
+  "options": [
+    {
+      "text": "\nthe charge on the capacitor is $Q=Q_0 \\cos \\left(\\frac{\\pi}{2}+\\frac{t}{\\sqrt{L C}}\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nthe charge on the capacitor is $Q=Q_0 \\cos \\left(\\frac{\\pi}{2}-\\frac{t}{\\sqrt{L C}}\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nthe charge on the capacitor is $Q=-L C \\frac{d^2 Q}{d t^2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nthe charge on the capacitor is $Q=-\\frac{1}{\\sqrt{L C}} \\frac{d^2 Q}{d t^2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Comparing the LC oscillations with normal SHM, we get\n$$\n\\frac{d^2 Q}{d t^2}=-\\omega^2 Q\n$$\nHere,\n$$\n\\begin{aligned}\n\\omega^2 & =\\frac{1}{L C} \\\\\nQ & =-L C \\frac{d^2 Q}{d t^2}\n\\end{aligned}\n$$\n$$\n\\therefore \\quad Q=-L C \\frac{d^2 Q}{d t^2}\n$$"
+  }
+}

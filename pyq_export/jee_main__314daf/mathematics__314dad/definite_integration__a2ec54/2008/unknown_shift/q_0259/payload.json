@@ -1,0 +1,43 @@
+{
+  "index": 259,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2008",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathrm{I}=\\int_0^1 \\frac{\\sin \\mathrm{x}}{\\sqrt{\\mathrm{x}}} \\mathrm{dx}$ and $\\mathrm{J}=\\int_0^1 \\frac{\\cos \\mathrm{x}}{\\sqrt{\\mathrm{x}}} \\mathrm{dx}$. Then which one of the following is true?"
+  },
+  "options": [
+    {
+      "text": "\n$\\mathrm{I}>\\frac{2}{3}$ and $\\mathrm{J}>2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$I < \\frac{2}{3}$ and $J < 2$",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\mathrm{I} < \\frac{2}{3}$ and $\\mathrm{J}>2$",
+      "is_correct": false
+    },
+    {
+      "text": "\n$I>\\frac{2}{3}$ and $\\mathrm{J} < 2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\mathrm{I}=\\int_0^1 \\frac{\\sin x}{\\sqrt{x}} \\mathrm{dx} < \\int_0^1 \\frac{\\mathrm{x}}{\\sqrt{\\mathrm{x}}} \\mathrm{dx}=\\int_0^1 \\sqrt{\\mathrm{x}} \\mathrm{dx}=\\left.\\frac{2}{3} \\mathrm{x}^{3 / 2}\\right|_0 ^1=\\frac{2}{3} \\\\\n& \\Rightarrow \\mathrm{I} < \\frac{2}{3} \\\\\n& \\mathrm{~J}=\\int_0^1 \\frac{\\cos x}{\\sqrt{\\mathrm{x}}} \\mathrm{dx} < \\int_0^1 \\frac{1}{\\sqrt{\\mathrm{x}}} \\mathrm{dx}=\\left.2 \\sqrt{\\mathrm{x}}\\right|_0 ^1=2 \\\\\n& \\therefore \\mathrm{J} \\leq 2 .\n\\end{aligned}\n$$"
+  }
+}

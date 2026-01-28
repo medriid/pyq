@@ -1,0 +1,63 @@
+{
+  "_id": "67729bee546ddd78415aaf1a",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67729a70099eafe69352f9c1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024",
+      "title": "WBJEE 2024"
+    }
+  ],
+  "question": {
+    "text": "If $\\int \\frac{\\log _e\\left(x+\\sqrt{\\left.1+x^2\\right)}\\right.}{\\sqrt{1+x^2}} d x=f(g(x))+c$ then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "WoAjn",
+      "text": "$f(x)=\\frac{x^2}{2}, g(x)=\\log _e\\left(x+\\sqrt{1+x^2}\\right)$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "7NV9v",
+      "text": "$f(x)=\\log _e\\left(x+\\sqrt{1+x^2}\\right), g(x)=\\frac{x^2}{2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "CLGqa",
+      "text": "$f(x)=x^2, g(x)=\\log _e\\left(x+\\sqrt{1+x^2}\\right)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "HEDm9",
+      "text": "$f(x)=\\log _e\\left(x-\\sqrt{1+x^2}\\right), g(x)=x^2$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint $:$ Let $\\log \\left(x+\\sqrt{1+x^2}\\right)=t \\Rightarrow \\frac{\\frac{\\sqrt{1+x^2}+x}{\\sqrt{1+x^2}} d x=d t}{x+\\sqrt{1+x^2}}$\n$\\begin{aligned}\n& \\Rightarrow \\frac{d x}{\\sqrt{1+\\mathrm{x}^2}}=\\mathrm{dt} \\quad \\therefore \\mathrm{I}=\\int \\frac{\\log \\left(\\mathrm{x}+\\sqrt{1+\\mathrm{x}^2}\\right.}{\\sqrt{1+\\mathrm{x}^2}} \\mathrm{dx}=\\int \\mathrm{t} \\cdot \\mathrm{dt} \\\\\n& \\mathrm{I}=\\frac{\\mathrm{t}^2}{2}+\\mathrm{c}=\\frac{\\left[\\log \\left(\\mathrm{x}+\\sqrt{\\mathrm{x}^2+1}\\right]^2\\right.}{2}+\\mathrm{c} \\\\\n& \\therefore \\mathrm{f}(\\mathrm{x})=\\frac{\\mathrm{x}^2}{2}, \\mathrm{~g}(\\mathrm{x})=\\log _{\\mathrm{e}}\\left(\\mathrm{x}+\\sqrt{1+\\mathrm{x}^2}\\right)\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67729a70099eafe69352f9c1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024",
+    "title": "WBJEE 2024"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

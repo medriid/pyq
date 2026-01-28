@@ -1,0 +1,43 @@
+{
+  "index": 248,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (09 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $x=\\int_0^y \\frac{d t}{\\sqrt{1+t^2}}$, then $\\frac{d^2 y}{d x^2}$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "\n$y$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\sqrt{1+y^2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{x}{\\sqrt{1+y^2}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$y^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$x=\\int_0^y \\frac{d t}{\\sqrt{1+t^2}}$\n$\\Rightarrow 1=\\frac{1}{\\sqrt{1+y^2}} \\cdot \\frac{d y}{d x}$\n$\\left[\\because\\right.$ If $\\mathrm{I}(x)=\\int_{\\phi(x)}^{\\psi(x)} f(t) d t$, then $\\frac{d \\mathrm{I}(x)}{d x}=f\\{\\psi(x)\\}$\n$\\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\sqrt{1-\\mathrm{y}^2}$\n$\\frac{d^2 y}{d x^2}=\\frac{1}{2 \\sqrt{1+y^2}} \\cdot 2 y \\cdot \\frac{d y}{d x}=\\frac{y}{\\sqrt{1+y^2}} \\cdot \\sqrt{1+y^2}=y$"
+  }
+}

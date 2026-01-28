@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0cf69476412f48314dac",
+    "subject_name": "Chemistry",
+    "chapter_id": "616024d3211ca7bc5ace4831",
+    "chapter_name": "Chemical Kinetics",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "<img src=\"assets\\qt0017_9b832cf49e7e.png\"/><br/>\nFor a given reaction $\\mathrm{R} \\rightarrow \\mathrm{P}, \\mathrm{t}_{1 / 2}$ is related to $[\\mathrm{A}]_0$ as given in table.\nGiven: $\\log 2=0.30$\nWhich of the following is true?\nA. The order of the reaction is $1 / 2$.\nB. If $[\\mathrm{A}]_0$ is 1 M , then $\\mathrm{t}_{1 / 2}$ is $200 \\sqrt{10} \\mathrm{~min}$\nC. The order of the reaction changes to 1 if the concentration of reactant changes from 0.100 M to 0.500 M .\nD. $\\mathrm{t}_{1 / 2}$ is 800 min for $[\\mathrm{A}]_0=1.6 \\mathrm{M}$\nChoose the correct answer from the options given below:\nOptions"
+  },
+  "options": [
+    {
+      "text": "A and C Only",
+      "is_correct": false
+    },
+    {
+      "text": "A, B and D Only",
+      "is_correct": true
+    },
+    {
+      "text": "C and D Only",
+      "is_correct": false
+    },
+    {
+      "text": "A and B Only",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\frac{t_1}{2} \\propto\\left(C_0\\right)^{1-\\eta}$\n$\\begin{aligned}\n& \\frac{t_1}{t_2}=\\left(\\frac{C_1}{C_2}\\right)^{1-\\eta} \\\\\n& \\Rightarrow \\frac{200}{100}=\\left(\\frac{0.100}{0.025}\\right)^{1-\\eta} \\\\\n& \\Rightarrow 2=(4)^{1-\\eta} \\\\\n& (1-\\eta)=\\frac{1}{2} \\\\\n& \\eta=\\frac{1}{2} \\\\\n& \\text { For } \\eta=\\frac{1}{2} \\\\\n& \\frac{-d A}{d t}=k(A)^{\\frac{1}{2}} \\\\\n& \\int_{C_0}^C \\frac{d A}{(A)^{\\frac{1}{2}}}=-\\int_0^t k d t \\\\\n& \\Rightarrow 2 \\mathrm{~A}^{\\frac{1}{2}}=-\\mathrm{kt} \\\\\n& \\Rightarrow \\sqrt{\\mathrm{C}}-\\sqrt{\\mathrm{C}_0}=\\frac{-\\mathrm{kt}}{2} \\\\\n& \\sqrt{\\mathrm{C}}-\\sqrt{\\mathrm{C}_0}-\\frac{\\mathrm{kt}}{2} \\\\\n& \\text { For } \\mathrm{C}_0=0.1 \\Rightarrow \\mathrm{t}_{\\frac{1}{2}}=200 \\mathrm{~min} \\\\\n& \\sqrt{\\frac{c_0}{2}}=\\sqrt{c_0}-\\frac{k t}{2} \\\\\n& \\frac{\\mathrm{kt}}{2}=\\sqrt{\\mathrm{c}_0}-\\sqrt{\\frac{\\mathrm{c}_0}{2}} \\\\\n& \\frac{\\mathrm{kt}}{2}=\\sqrt{\\mathrm{c}_0}\\left(\\frac{\\sqrt{2}-1}{\\sqrt{2}}\\right) \\\\\n& t_{\\frac{1}{2}}=\\frac{2 \\sqrt{c_0}}{k}\\left(\\frac{\\sqrt{2}-1}{\\sqrt{2}}\\right) \\\\\n& 200=\\frac{2 \\sqrt{0.1}}{k}\\left(\\frac{\\sqrt{2}-1}{\\sqrt{2}}\\right)\n\\end{aligned}$\n$\\mathrm{k}=\\frac{\\sqrt{0.1}}{100}\\left(\\frac{\\sqrt{2}-1}{\\sqrt{2}}\\right)$\nFor $\\mathrm{C}_0=1 \\mathrm{M}$\n$t_{\\frac{1}{2}}=\\frac{2 \\times 100(\\sqrt{2})}{\\sqrt{0.1}(\\sqrt{2}-1)} \\times \\frac{(\\sqrt{2}-1)}{\\sqrt{2}}$\n$\\Rightarrow 200 \\sqrt{10} \\mathrm{~min}$.\n$\\Rightarrow B$ is correct\nC is incorrect\nFor $\\mathrm{C}_0=1.6 \\mathrm{M}$\n$\\begin{aligned} & \\mathrm{t}_{\\frac{1}{2}}=\\frac{2 \\sqrt{1.6}(\\sqrt{2})(\\sqrt{2}-1) \\times 100}{\\sqrt{0.1}(\\sqrt{2}-1)(\\sqrt{2})} \\\\ & \\mathrm{t}_{\\frac{1}{2}}=400 \\times 2 \\mathrm{~min} \\\\ & \\mathrm{t}_{\\frac{1}{2}}=800 \\mathrm{~min}\\end{aligned}$"
+  }
+}

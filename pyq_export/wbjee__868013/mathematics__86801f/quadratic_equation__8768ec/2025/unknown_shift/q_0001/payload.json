@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2025",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc594defad39e8768ec",
+    "chapter_name": "Quadratic Equation",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $f(x)$ and $g(x)$ are two polynomials such that $\\phi(x)=f\\left(x^3\\right)+x g\\left(x^3\\right)$ is divisible by $x^2+x+1$, then"
+  },
+  "options": [
+    {
+      "text": "$\\phi(x)$ is divisible by $(x-1)$",
+      "is_correct": true
+    },
+    {
+      "text": "none of $f(x)$ and $g(x)$ is divisible by $(x-1)$",
+      "is_correct": false
+    },
+    {
+      "text": "$g(x)$ is divisible by $(x-1)$ but $f(x)$ is not divisible by $(x-1)$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x)$ is divisible by $(x-1)$ but $g(x)$ is not divisible by $(x-1)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\because$ By remainder theorom\n$\\begin{aligned}\n& \\phi(\\omega)=0 \\quad \\& \\phi\\left(\\omega^2\\right)=0 \\quad\\left(\\omega, \\omega^2 \\text { are complex cube root of unity }\\right) \\\\\n& \\Rightarrow f(1)+\\omega g(1)=0 \\quad \\& \\quad f(1)+\\omega^2 g(1)=0 \\\\\n& \\Rightarrow f(1)=g(1)=0 \\\\\n& \\therefore \\phi(1)=f(1)+g(1)=0\n\\end{aligned}$"
+  }
+}

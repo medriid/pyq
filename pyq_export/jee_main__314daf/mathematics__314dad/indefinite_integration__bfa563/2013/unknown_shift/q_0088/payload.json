@@ -1,0 +1,43 @@
+{
+  "index": 88,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2013 (07 Apr)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8747;</mo><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>&#968;</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></math>, then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8747;</mo><msup><mi>x</mi><mn>5</mn></msup><mi>f</mi><mrow><mo>(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo></mrow><mi>d</mi><mi>x</mi></math>,&nbsp;is equal to&nbsp;"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup><mi>&#968;</mi><mrow><mo>(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo></mrow><mo>&#8722;</mo><mo>&#8747;</mo><msup><mi>x</mi><mn>2</mn></msup><mi>&#968;</mi><mrow><mo>(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo></mrow><mi>d</mi><mi>x</mi><mo>+</mo><mi>c</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mrow><mo>[</mo><msup><mi>x</mi><mn>3</mn></msup><mi>&#968;</mi><mrow><mo>(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo></mrow><mo>&#8722;</mo><mo>&#8747;</mo><msup><mi>x</mi><mn>3</mn></msup><mi>&#968;</mi><mrow><mo>(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo></mrow><mi>d</mi><mi>x</mi><mo>]</mo></mrow><mo>+</mo><mi>c</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mrow><mo>[</mo><msup><mi>x</mi><mn>3</mn></msup><mi>&#968;</mi><mrow><mo>(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo></mrow><mo>&#8722;</mo><mo>&#8747;</mo><msup><mi>x</mi><mn>2</mn></msup><mi>&#968;</mi><mrow><mo>(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo></mrow><mi>d</mi><mi>x</mi><mo>]</mo></mrow><mo>+</mo><mi>c</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup><mi>&#968;</mi><mrow><mo>(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo></mrow><mo>&#8722;</mo><mn>3</mn><mo>&#8747;</mo><msup><mi>x</mi><mn>3</mn></msup><mi>&#968;</mi><mrow><mo>(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo></mrow><mi>d</mi><mi>x</mi><mo>+</mo><mi>c</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8747;</mo><msup><mi>x</mi><mn>5</mn></msup><mi>f</mi><mfenced><msup><mi>x</mi><mn>3</mn></msup></mfenced><mi>d</mi><mi>x</mi></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&#8747;</mo><msup><mi>x</mi><mn>3</mn></msup><mo>.</mo><msup><mi>x</mi><mn>2</mn></msup><mi>f</mi><mfenced separators=\"|\"><msup><mi>x</mi><mn>3</mn></msup></mfenced><mi>d</mi><mi>x</mi><mi>&#160;</mi></math>&nbsp;</p><p>Applying integration by parts, we get<br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>&#8747;</mo><msup><mi>x</mi><mn>2</mn></msup><mi>f</mi><mfenced><msup><mi>x</mi><mn>3</mn></msup></mfenced><mi>d</mi><mi>x</mi><mo>-</mo><mo>&#8747;</mo><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mfenced><msup><mi>x</mi><mn>3</mn></msup></mfenced><mo>&#8747;</mo><msup><mi>x</mi><mn>2</mn></msup><mi>f</mi><mfenced><msup><mi>x</mi><mn>3</mn></msup></mfenced><mi>d</mi><mi>x</mi></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup><mi>&#968;</mi><mfenced><msup><mi>x</mi><mn>3</mn></msup></mfenced><mo>-</mo><mo>&#8747;</mo><msup><mi>x</mi><mn>2</mn></msup><mi>&#968;</mi><mfenced><msup><mi>x</mi><mn>3</mn></msup></mfenced><mi>d</mi><mi>x</mi><mo>+</mo><mi>c</mi></math>, where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>&nbsp;is the constant of integration.</p>"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 133,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2012 (Offline)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025479bcff3fc153d948d",
+    "chapter_name": "Statistics",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathrm{x}_1, \\mathrm{x}_2, \\ldots \\ldots, \\mathrm{x}_{\\mathrm{n}}$ be $\\mathrm{n}$ observations, and let $\\overline{\\mathrm{x}}$ be their arithematic mean and $\\sigma^2$ be their variance. \nStatement $1$: Variance of $2 x_1, 2 x_2, \\ldots \\ldots, 2 x_n$ is $4 \\sigma^2$.\nStatement $2$: Arithmetic mean of $2 \\mathrm{x}_1, 2 \\mathrm{x}_2, \\ldots . ., 2 \\mathrm{x}_{\\mathrm{n}}$ is $4 \\overline{\\mathrm{x}}$."
+  },
+  "options": [
+    {
+      "text": "\nStatement $1$ is false, statement $2$ is true\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $1$ is true, statement $2$ is true; statement $2$ is a correct explanation for statement $1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $1$ is true, statement $2$ is true; statement $2$ is not a correct explanation for statement $1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $1$ is true, statement $2$ is false",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\sigma^2=\\sum \\frac{x_i^2}{n}-\\left(\\sum \\frac{x_i}{n}\\right)^2$\nVariance of $2 x_1, 2 x_2, \\ldots . ., 2 x_n=\\sum \\frac{\\left(2 x_i\\right)^2}{n}-\\left(\\sum \\frac{2 x_i}{n}\\right)^2=4\\left[\\sum \\frac{x_i^2}{n}-\\left(\\sum \\frac{x_i}{n}\\right)^2\\right]=4 \\sigma^2$ Statement $1$ is true.\nA.M. of $2 x_1, 2 x_2, \\ldots \\ldots, 2 x_n=\\frac{2 x_1+2 x_2+\\cdots+2 x_n}{n}=2\\left(\\frac{x_1+x_2+\\cdots+x_n}{n}\\right)=2 \\bar{x}$\nStatement $2$ is false."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 22,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $[x]$ denote the greatest integer less than or equal to $x$, then the value of the integral $\\int_{-1}^{1}(|x|-2[x]) d x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "3",
+      "is_correct": true
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "-2",
+      "is_correct": false
+    },
+    {
+      "text": "-3",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $I=\\int_{-1}^{1}(|x|-2[x]) d x$\r\n$=\\int_{-1}^{0}(|x|-2[x]) d x+\\int_{0}^{1}(|x|-2[x]) d x$\r\n$=\\int_{-1}^{0}(-x-2(-1)) d x+\\int_{0}^{1}(x-2(0)) d x$\r\n$\\quad=\\int_{-1}^{0}(-x+2) d x+\\int_{0}^{1} x d x$\r\n$\\quad=\\left(-\\frac{x^{2}}{2}+2 x\\right)_{-1}^{0}+\\left[\\frac{x^{2}}{2}\\right]_{0}$\r\n$\\quad=-\\left(-\\frac{1}{2}+2(-1)\\right)+\\frac{1}{2}$\r\n$\\quad=\\frac{1}{2}+2+\\frac{1}{2}=1+2=3$"
+  }
+}

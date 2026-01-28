@@ -1,0 +1,43 @@
+{
+  "index": 226,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (22 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the 7th term in the binomial expansion of $\\left(\\frac{3}{\\sqrt[3]{84}}+\\sqrt{3} \\ln x\\right)^9, x>0$, is equal to 729 , then $x$ can be:"
+  },
+  "options": [
+    {
+      "text": "\n$e^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$e$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{e}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2 e$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $r+1=7 \\Rightarrow r=6$\nGiven expansion is\n$$\n\\left(\\frac{3}{\\sqrt[3]{84}}+\\sqrt{3} \\ln x\\right)^9, x>0\n$$\nWe have\n$$\n\\mathrm{T}_{r+1}={ }^n \\mathrm{C}_r(x)^{n-r} a^r \\text { for }(x+a)^n \\text {. }\n$$\n$\\therefore$ According to the question\n$$\n\\begin{aligned}\n& 729={ }^9 \\mathrm{C}_6\\left(\\frac{3}{\\sqrt[3]{84}}\\right)^3 \\cdot(\\sqrt{3} \\ln x)^6 \\\\\n& \\Rightarrow 3^6=84 \\times \\frac{3^3}{84} \\times 3^3 \\times(6 \\ln x) \\\\\n& \\Rightarrow(\\ln x)^6=1 \\Rightarrow(\\ln x)^6=(\\ln e)^6 \\\\\n& \\Rightarrow x=\\mathrm{e}\n\\end{aligned}\n$$"
+  }
+}

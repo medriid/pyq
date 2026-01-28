@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd8ccf6aa19875bc6bb",
+    "chapter_name": "Binomial Theorem",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of irrational terms in the expansion of $\\left(3^{\\frac{1}{8}}+5^{\\frac{1}{4}}\\right)^{84}$ is"
+  },
+  "options": [
+    {
+      "text": "73",
+      "is_correct": false
+    },
+    {
+      "text": "74",
+      "is_correct": true
+    },
+    {
+      "text": "75",
+      "is_correct": false
+    },
+    {
+      "text": "76",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given, $\\left(3^{\\frac{1}{8}}+5^{\\frac{1}{4}}\\right)^{84}$\r\n$\\begin{aligned} \\text { here, } T_{r+1} &={ }^{84} C_{r}\\left(3^{\\frac{1}{8}}\\right)^{84-r}\\left(5^{\\frac{1}{4}}\\right)^{r} \\\\ &={ }^{84} C_{r}\\left(3^{\\frac{84-r}{8}}\\right) \\cdot 5^{\\frac{r}{4}} \\end{aligned}$\r\nsince, $T_{r}=1$ is rational for $r=4,12,20,28,36,44$ 52,60,68,76,84\r\nno. of rational terms $=11$\r\nHere, total number of terms $=85$ Number of irrational terms $=85-11$\r\n$$\r\n=74\r\n$$"
+  }
+}

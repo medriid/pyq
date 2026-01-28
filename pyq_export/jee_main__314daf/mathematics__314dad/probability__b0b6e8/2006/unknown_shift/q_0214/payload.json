@@ -1,0 +1,43 @@
+{
+  "index": 214,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2006",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "At a telephone enquiry system the number of phone cells regarding relevant enquiry follow Poisson distribution with an average of 5 phone calls during 10-minute time intervals. The probability that there is at the most one phone call during a 10-minute time period is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{6}{5^{\\mathrm{e}}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{5}{6}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{6}{55}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{6}{e^5}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$P(X=r)=\\frac{e^{-m} m^r}{r !}$\n$P(X \\leq 1)=P(X=0)+P(X=1)$\n$=e^{-5}+5 \\times e^{-5}=\\frac{6}{e^5}$"
+  }
+}

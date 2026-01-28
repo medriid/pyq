@@ -1,0 +1,43 @@
+{
+  "index": 135,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $\\left|\\begin{array}{ccc}a-b-c & 2 a & 2 a \\\\ 2 b & b-c-a & 2 b \\\\ 2 c & 2 c & c-a-b\\end{array}\\right|$\r\n\r\n$=(a+b+c)(x+a+b+c)^{2}, x \\neq 0$ and $a+b+c \\neq 0,$ then $x$\r\n\r\nis equal to"
+  },
+  "options": [
+    {
+      "text": "abc",
+      "is_correct": false
+    },
+    {
+      "text": "$-(a+b+c)$",
+      "is_correct": false
+    },
+    {
+      "text": "$2(a+b+c)$",
+      "is_correct": false
+    },
+    {
+      "text": "$-2(a+b+c)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\Delta=\\left|\\begin{array}{ccc}a-b-c & 2 a & 2 a \\\\ 2 b & b-c-a & 2 b \\\\ 2 c & 2 c & c-a-b\\end{array}\\right|$\r\n\r\n$R_{1} \\rightarrow R_{1}+R_{2}+R$\r\n\r\n$\\Delta=\\left|\\begin{array}{ccc}a+b+c & a+b+c & a+b+c \\\\ 2 b & b-c-a & 2 b \\\\ 2 c & 2 c & c-a-b\\end{array}\\right|$\r\n\r\n$=(a+b+c)\\left|\\begin{array}{ccc}1 & 1 & 1 \\\\ 2 b & b-c-a & 2 b \\\\ 2 c & 2 c & c-a-b\\end{array}\\right|$\r\n\r\n$\\begin{array}{l}\r\n\r\nC_{1} \\rightarrow C_{1}-C_{y}, C_{2} \\rightarrow C_{2}-C_{3} \\\\\r\n\r\n\\Delta=(a+b+c)\\left|\\begin{array}{ccc}\r\n\r\n0 & 0 & 1 \\\\\r\n\r\n0 & -b-c-a & 2 b \\\\\r\n\r\nc+a+b & c+a+b & c-a-b\r\n\r\n\\end{array}\\right|\r\n\r\n\\end{array}$\r\n\r\n$=(a+b+c)(a+b+c)^{2}$\r\n\r\nHence, $x=-2(a+b+c)$"
+  }
+}

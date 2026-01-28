@@ -1,0 +1,43 @@
+{
+  "index": 43,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc9a79d891b2548bdd8",
+    "chapter_name": "Complex Number",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $z=x+i y,$ where $x$ and $y$ are real numbers and $i=\\sqrt{-1}$, then the points $(x, y)$ for which $\\frac{z-1}{z-i}$ is real, lie on"
+  },
+  "options": [
+    {
+      "text": "an ellipse",
+      "is_correct": false
+    },
+    {
+      "text": "a circle",
+      "is_correct": false
+    },
+    {
+      "text": "a parabola",
+      "is_correct": false
+    },
+    {
+      "text": "a straight line",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given, $z=x+i y$\r\nNow, $\\frac{z-1}{z-i}=\\frac{(x+y)-1}{(x+i y)-i}$\r\n$=\\frac{(x-1)+i y}{x+i(y-1)} \\times \\frac{x-i(y-1)}{x-i(y-1)}$\r\n$=\\frac{x(x-1)+i x y-i(x-1)(y-1)+y(y-1)}{x^{2}+(y-1)^{2}}$\r\n$=\\frac{\\left(x^{2}+y^{2}-x-y\\right)+i(x y-x y+y+x-1)}{\\left(x^{2}+y^{2}+1^{-2 y}\\right)}$\r\n$=\\left(\\frac{x^{2}+y^{2}-x-y}{x^{2}+y^{2}-2 y+1}\\right)+i\\left(\\frac{x+y-1}{x^{2}+y^{2}-2 y+1}\\right) \\ldots(0)$\r\nGiven, $\\frac{z-1}{z-i}$ is real.\r\nSo, its imaginary part should be zero. i.e.. $\\quad \\frac{x+y-1}{x^{2}+y^{2}-2 y+1}=0$\r\n$\\Rightarrow \\quad x+y=1$\r\n$\\left(\\because x^{2}+y^{2}-2 y+1 \\neq 0\\right)$\r\nWhich represent a straight line."
+  }
+}

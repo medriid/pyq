@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1f21590031c653b169",
+    "chapter_name": "Area Under Curves",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area of the figure bounded by the parabolas $x=-2 y^{2}$ and $x=1-3 y^{2}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{4}{3} \\mathrm{sq}$ units",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{2}{3} \\mathrm{sq}$ units",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{3}{7}$ sq units",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{6}{7}$ sq units",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "We have, $x=-2 y^{2}$\r\n$\\Rightarrow \\quad y^{2}=-\\frac{1}{2} x$ ...(i)\r\nand $\\quad x=1-3 y^{2}$\r\n$\\Rightarrow y^{2}=-\\frac{1}{3}(x-1)$  ...(ii)\r\nFrom Eqs. (i) and (ii),we get. \r\n$\\begin{aligned} &-\\frac{1}{2} x=-\\frac{1}{3}(x-1) \\\\ \\Rightarrow & 3 x=2(x-1) \\\\ \\Rightarrow & 3 x=2 x-2 \\\\ \\Rightarrow & x=-2 \\\\ \\Rightarrow & y^{2}=-\\frac{1}{2}(-2)=1 \\\\ \\Rightarrow & y=\\pm 1 \\end{aligned}$\r\n$\\therefore$ Point of intersection of two curves is $(-2 \\pm 1)$\r\n<img src=\"assets\\st0009_768768c5de0b.png\">\r\n\r\n$\\therefore$ Required Area $=2 \\int_{0}^{1} \\sin x d x$\r\n$=2\\left[y-\\frac{y^{3}}{3}\\right]_{0}^{1}$\r\n$=2\\left[1-\\frac{1}{3}\\right]$\r\n$=\\frac{4}{3} \\mathrm{sq}$ units"
+  }
+}

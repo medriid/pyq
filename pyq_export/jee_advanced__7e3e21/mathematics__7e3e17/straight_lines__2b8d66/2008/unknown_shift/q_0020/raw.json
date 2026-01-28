@@ -1,0 +1,63 @@
+{
+  "_id": "64b169e4f23ac7d519f9af70",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c42",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2008-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008 (Paper 1)",
+      "title": "JEE Advanced 2008 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "A straight line through the vertex $P$ of a $\\triangle P Q R$ intersects the side $Q R$ at the point $S$ and the circumcircle of the $\\triangle P Q R$ at the point $T$. If $S$ is not the centre of the circumcircle, then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "5BVbf",
+      "text": "\n$\\frac{1}{P S}+\\frac{1}{S T} < \\frac{2}{\\sqrt{Q S \\cdot S R}}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "1EzkI",
+      "text": "\n$\\frac{1}{P S}+\\frac{1}{S T}>\\frac{2}{\\sqrt{Q S \\cdot S R}}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "i7j68",
+      "text": "\n$\\frac{1}{P S}+\\frac{1}{S T} < \\frac{4}{Q R}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "KDLBR",
+      "text": "\n$\\frac{1}{P S}+\\frac{1}{S T}>\\frac{4}{Q R}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let a straight line through the vertex $P$ of a given $\\triangle P Q R$ intersects the side $Q R$ at the point $S$ and the circumcircle of $\\triangle P Q R$ at the point $T$.\nPoints $P, Q, R, T$ are concyclic, hence\n$$\n\\begin{array}{rlrl}\nP S \\cdot S T & =Q S \\cdot S R & & \\\\\n\\Rightarrow \\quad P_1 & \\geq 2 \\sqrt{P S \\cdot S T} & \\\\\n& \\text { Now, } \\frac{P S+S T}{2} & \\geq \\sqrt{P S \\cdot S T} & {[\\because \\mathrm{AM} \\geq \\mathrm{GM}]}\n\\end{array}\n$$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/vrafhqNxAoheGeJLHlvdpbhAM3nv4TAWfk7gv8-lXXs.original.fullsize.png\"><br>\nand $\\quad \\frac{1}{P S}+\\frac{1}{S T} \\geq \\frac{2}{\\sqrt{P S \\cdot S T}}=\\frac{2}{\\sqrt{Q S \\cdot S R}}$\nAlso, $\\quad \\frac{S Q+Q R}{2} \\geq \\sqrt{S Q \\cdot S R}$\n$\\Rightarrow \\quad \\frac{Q R}{2} \\geq \\sqrt{S Q \\cdot S R}$\n\n$$\n\\begin{array}{ll}\n\\Rightarrow & \\frac{1}{\\sqrt{S Q \\cdot S R}} \\geq \\frac{2}{Q R} \\Rightarrow \\frac{2}{\\sqrt{S Q \\cdot S R}} \\geq \\frac{4}{Q R} \\\\\n\\text { Hence, } & \\frac{1}{P S}+\\frac{1}{S T} \\geq \\frac{2}{\\sqrt{Q S \\cdot S R}} \\geq \\frac{4}{Q R} .\n\\end{array}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c42",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2008-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008 (Paper 1)",
+    "title": "JEE Advanced 2008 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

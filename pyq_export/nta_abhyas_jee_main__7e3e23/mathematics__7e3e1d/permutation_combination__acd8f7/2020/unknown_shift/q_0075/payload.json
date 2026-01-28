@@ -1,0 +1,43 @@
+{
+  "index": 75,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252bf7c1fee30bacd8f7",
+    "chapter_name": "Permutation Combination",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of ways in which four different toys and five indistinguishable marbles can be distributed between <math><mn>3</mn></math> boys, if each boy receives at least one toy and at least one marble, is"
+  },
+  "options": [
+    {
+      "text": "<math><mn>42</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>100</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>150</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>216</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<math><mn>5</mn></math> identical marbles can be distributed to <math><mn>3</mn></math> boys, each receiving at least one in&nbsp;<math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>5</mn><mo>-</mo><mn>1</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>3</mn><mo>-</mo><mn>1</mn></mrow></msub><mo>=</mo><msub><mrow><mmultiscripts><mrow><mi>C</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>4</mn></mrow></mmultiscripts></mrow><mrow><mn>2</mn></mrow></msub><mi mathvariant=\"normal\"></mi></math> ways<br /><math><mn>4</mn></math> different toys can be grouped as <math><mn>2</mn><mo>,</mo><mi mathvariant=\"normal\"></mi><mn>1</mn><mo>,</mo><mi mathvariant=\"normal\"></mi><mn>1</mn></math> in&nbsp;<math><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo><mn>1</mn><mo>!</mo><mn>1</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac></math> ways<br />Two boys will get <math><mn>1</mn></math> each and they can be selected in <math><mmultiscripts><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>3</mn></mrow></mmultiscripts></math> ways.<br />Required number of ways <math><mo>=</mo><msub><mrow><mmultiscripts><mrow><mi>C</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>4</mn></mrow></mmultiscripts></mrow><mrow><mn>2</mn></mrow></msub><mo>&#215;</mo><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>&#215;</mo><msub><mrow><mmultiscripts><mrow><mi>C</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>3</mn></mrow></mmultiscripts></mrow><mrow><mn>2</mn></mrow></msub><mo>=</mo><mn>6</mn><mo>&#215;</mo><mn>12</mn><mo>&#215;</mo><mn>3</mn><mo>=</mo><mn>216</mn></math>"
+  }
+}

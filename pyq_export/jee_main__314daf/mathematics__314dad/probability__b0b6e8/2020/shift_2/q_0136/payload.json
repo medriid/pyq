@@ -1,0 +1,24 @@
+{
+  "index": 136,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2020 (05 Sep Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2020",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "In a bombing attack, there is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>%</mo></math> chance that a bomb will hit the target. At least two independent hits are required to destroy the target completely. Then the minimum number of bombs, that must be dropped to ensure that there is at least <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>99</mn><mo>%</mo></math> chance of completely destroying the target, is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo></math>"
+  },
+  "options": [],
+  "correct_answer": "11",
+  "solution": {
+    "text": "<p>let probability of hitting the target <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi mathvariant=\"normal\">p</mi><mo>&#8658;</mo><mi mathvariant=\"normal\">p</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math></p><p>Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> be the minimum number of bombs</p><p>According to given condition<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mfenced><mrow><mmultiscripts><mi>C</mi><mn>0</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><msup><mi>P</mi><mn>0</mn></msup><mo>(</mo><mn>1</mn><mo>-</mo><mi>P</mi><msup><mo>)</mo><mi>n</mi></msup><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><msup><mi>P</mi><mn>1</mn></msup><mo>(</mo><mn>1</mn><mo>-</mo><mi>P</mi><msup><mo>)</mo><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow></mfenced><mo>&#8805;</mo><mfrac><mn>99</mn><mn>100</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;&#160;</mo><msup><mn>2</mn><mi>n</mi></msup><mo>&#8805;</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mn>100</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnalign=\"left\"><mtr><mtd><mi>n</mi><mo>=</mo><mn>10</mn></mtd><mtd><mo>&#8658;</mo></mtd><mtd><msup><mn>2</mn><mn>10</mn></msup><mo>&#8805;</mo><mn>1100</mn><mtext>&#160;Reject&#160;</mtext></mtd></mtr><mtr><mtd><mi>n</mi><mo>=</mo><mn>11</mn></mtd><mtd><mo>&#8658;</mo></mtd><mtd><msup><mn>2</mn><mn>11</mn></msup><mo>&#8805;</mo><mn>1200</mn><mtext>&#160;Select&#160;</mtext></mtd></mtr></mtable></math></p>"
+  }
+}

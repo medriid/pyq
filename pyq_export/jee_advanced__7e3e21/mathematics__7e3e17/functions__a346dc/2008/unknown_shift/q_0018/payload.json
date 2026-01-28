@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2008 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602556cd23bba7eaa346dc",
+    "chapter_name": "Functions",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $g(x)=\\log f(x)$, where $f(x)$ is a twice differentiable positive function on $(0, \\infty)$ such that $f(x+1)=x f(x)$. Then, for $N=1,2,3, \\ldots . g^{\\prime \\prime}\\left(N+\\frac{1}{2}\\right)-g^{\\prime \\prime}\\left(\\frac{1}{2}\\right)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$-4\\left\\{1+\\frac{1}{9}+\\frac{1}{25}+\\ldots+\\frac{1}{(2 N-1)^2}\\right\\}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$4\\left\\{1+\\frac{1}{9}+\\frac{1}{25}+\\ldots+\\frac{1}{(2 N-1)^2}\\right\\}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-4\\left\\{1+\\frac{1}{9}+\\frac{1}{25}+\\ldots+\\frac{1}{(2 N+1)^2}\\right\\}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$4\\left\\{1+\\frac{1}{9}+\\frac{1}{25}+\\ldots+\\frac{1}{(2 N+1)^2}\\right\\}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Since, $\\quad f(x)=e^{g(x)}$\n$$\n\\begin{aligned}\n\\Rightarrow \\quad e^{g(x+1)} & =f(x+1) \\\\\n& =x f(x) \\\\\n& =x e^{g(x)}\n\\end{aligned}\n$$\nand\n$$\ng(x+1)=\\log x+g(x)\n$$\n$$\n\\Rightarrow \\quad g(x+1)-g(x)=\\log x\n$$\nReplacing $x$ by $x-\\frac{1}{2}$, we get\n$$\n\\begin{aligned}\ng\\left(x+\\frac{1}{2}\\right)-g\\left(x-\\frac{1}{2}\\right) & =\\log \\left(x-\\frac{1}{2}\\right)=\\log (2 x-1)-\\log 2 \\\\\n\\therefore g^{\\prime \\prime}\\left(x+\\frac{1}{2}\\right)-g^{\\prime \\prime}\\left(x-\\frac{1}{2}\\right) & =-\\frac{4}{(2 x-1)^2}\n\\end{aligned}\n$$\nSubstituting, $x=1,2,3, \\ldots, N$ in Eq. (ii) and adding, we get\n$$\ng^{\\prime \\prime}\\left(N+\\frac{1}{2}\\right)-g^{\\prime \\prime}\\left(\\frac{1}{2}\\right)=-4\\left\\{1+\\frac{1}{9}+\\frac{1}{25}+\\ldots+\\frac{1}{(2 N-1)^2}\\right\\} .\n$$"
+  }
+}

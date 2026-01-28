@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a69417cc3fb48d66f03",
+  "previousYearPapers": [
+    {
+      "_id": "615d92edde3d91842a5cf80f",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2021-03-16T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021 (16 Mar Shift 2)",
+      "title": "JEE Main 2021 (16 Mar Shift 2)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "<p>Consider the integral&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>10</mn></msubsup><mfrac><mrow><mfenced close=\"]\" open=\"[\"><mi>x</mi></mfenced><msup><mi>e</mi><mfenced close=\"]\" open=\"[\"><mi>x</mi></mfenced></msup></mrow><msup><mi>e</mi><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></msup></mfrac><mi>d</mi><mi>x</mi></math>&nbsp;where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"[\"><mi>x</mi></mfenced></math> denotes the greatest integer less than or equal to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Then the value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi></math> is equal to :</p>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "fjrML",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mfenced><mrow><mi>e</mi><mo>-</mo><mn>1</mn></mrow></mfenced></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "zMqeC",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mfenced><mrow><mi>e</mi><mo>+</mo><mn>1</mn></mrow></mfenced></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "cOCaP",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mfenced><mrow><mi>e</mi><mo>-</mo><mn>1</mn></mrow></mfenced></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "alRiW",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mfenced><mrow><mi>e</mi><mo>+</mo><mn>1</mn></mrow></mfenced></math>",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>10</mn></msubsup><mfenced close=\"]\" open=\"[\"><mi>x</mi></mfenced><mo>&#183;</mo><msup><mi>e</mi><mrow><mfenced close=\"]\" open=\"[\"><mi>x</mi></mfenced><mo>-</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><mn>0</mn><mi>d</mi><mi>x</mi><mo>+</mo><msubsup><mo>&#8747;</mo><mn>1</mn><mn>2</mn></msubsup><mn>1</mn><mo>&#183;</mo><msup><mi>e</mi><mrow><mn>2</mn><mo>-</mo><mi>x</mi></mrow></msup><mo>+</mo><msubsup><mo>&#8747;</mo><mn>2</mn><mn>3</mn></msubsup><mn>2</mn><mo>&#183;</mo><msup><mi>e</mi><mrow><mn>3</mn><mo>-</mo><mi>x</mi></mrow></msup><mo>+</mo><mo>&#8230;</mo><mo>.</mo><mo>.</mo><mo>+</mo><msubsup><mo>&#8747;</mo><mn>9</mn><mn>10</mn></msubsup><mn>9</mn><mo>&#183;</mo><msup><mi>e</mi><mrow><mn>10</mn><mo>-</mo><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mn>9</mn></munderover><msubsup><mo>&#8747;</mo><mi>n</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msubsup><mi>n</mi><mo>&#183;</mo><msup><mi>e</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn><mo>-</mo><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mn>9</mn></munderover><mi>n</mi><msubsup><mfenced><msup><mi>e</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn><mo>-</mo><mi>x</mi></mrow></msup></mfenced><mi>n</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msubsup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mn>9</mn></munderover><mi>n</mi><mo>&#183;</mo><mfenced><mrow><msup><mi>e</mi><mn>0</mn></msup><mo>-</mo><msup><mi>e</mi><mn>1</mn></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced><mrow><mi>e</mi><mo>-</mo><mn>1</mn></mrow></mfenced><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mn>9</mn></munderover><mi>n</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced><mrow><mi>e</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>&#183;</mo><mfrac><mrow><mn>9</mn><mo>&#183;</mo><mn>10</mn></mrow><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>45</mn><mfenced><mrow><mi>e</mi><mo>-</mo><mn>1</mn></mrow></mfenced></math></p>",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92edde3d91842a5cf80f",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2021-03-16T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021 (16 Mar Shift 2)",
+    "title": "JEE Main 2021 (16 Mar Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

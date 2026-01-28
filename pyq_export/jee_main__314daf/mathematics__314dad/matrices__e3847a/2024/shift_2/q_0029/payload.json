@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $A=\\left[\\begin{array}{ll}1 & 2 \\\\ 0 & 1\\end{array}\\right]$ and $B=I+\\operatorname{adj}(A)+(\\operatorname{adj} A)^2+\\ldots+(\\operatorname{adj} A)^{10}$. Then, the sum of all the elements of the matrix $B$ is:"
+  },
+  "options": [
+    {
+      "text": "-124",
+      "is_correct": false
+    },
+    {
+      "text": "22",
+      "is_correct": false
+    },
+    {
+      "text": "-88",
+      "is_correct": true
+    },
+    {
+      "text": "-110",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0029_08c1768cb9f2.png\"><br />$\\begin{aligned} & \\mathrm{B}=\\left[\\begin{array}{ll}1 & 0 \\\\ 0 & 1\\end{array}\\right]+\\left[\\begin{array}{cc}1 & -2 \\\\ 0 & 1\\end{array}\\right]+\\left[\\begin{array}{cc}1 & -4 \\\\ 0 & 1\\end{array}\\right]+\\ldots+\\left[\\begin{array}{cc}1 & -20 \\\\ 0 & 1\\end{array}\\right] \\\\ & \\mathrm{B}=\\left[\\begin{array}{cc}11 & -110 \\\\ 0 & 11\\end{array}\\right] \\Rightarrow \\text { sum of elements of } \\mathrm{B} \\\\ & =-88\\end{aligned}$"
+  }
+}

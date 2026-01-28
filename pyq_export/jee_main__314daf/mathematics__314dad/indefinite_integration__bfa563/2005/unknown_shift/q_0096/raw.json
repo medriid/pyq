@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d656e8",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2005-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2005",
+      "title": "JEE Main 2005"
+    }
+  ],
+  "question": {
+    "text": "$\\int\\left\\{\\frac{(\\log x-1)}{\\left(1+(\\log x)^2\\right.}\\right\\}^2 d x$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "JZX6n",
+      "text": "\n$\\frac{\\log x}{(\\log x)^2+1}+C$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "FYn8Q",
+      "text": "\n$\\frac{x}{x^2+1}+C$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "O5bek",
+      "text": "\n$\\frac{x e^x}{1+x^2}+C$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "PUcX7",
+      "text": "\n$\\frac{x}{(\\log x)^2+1}+C$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\int \\frac{(\\log x-1)^2}{\\left(1+(\\log x)^2\\right)^2} d x \\\\\n& =\\int\\left[\\frac{1}{\\left(1+(\\log x)^2\\right)}-\\frac{2 \\log x}{\\left(1+(\\log x)^2\\right)^2}\\right] d x \\\\\n& =\\int\\left[\\frac{e^t}{1+t^2}-\\frac{2 t e^t}{\\left(1+t^2\\right)^2}\\right] d t \\text { put } \\log x=t \\Rightarrow d x=e^t d t \\\\\n& \\int e^t\\left[\\frac{1}{1+t^2}-\\frac{2 t}{\\left(1+t^2\\right)^2}\\right] d t \\\\\n& =\\frac{e^t}{1+t^2}+c=\\frac{x}{1+(\\log x)^2}+c\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2005-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2005",
+    "title": "JEE Main 2005"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

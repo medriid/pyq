@@ -1,0 +1,43 @@
+{
+  "index": 178,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2021 (25 Feb Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2021",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>+</mo><mfrac><mi>n</mi><msup><mfenced><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mi>n</mi><msup><mfenced><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfenced><mn>2</mn></msup></mfrac><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mfrac><mi>n</mi><msup><mfenced><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup></mfrac></mrow></mfenced></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>+</mo><mfrac><mi>n</mi><msup><mfenced><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mi>n</mi><msup><mfenced><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfenced><mn>2</mn></msup></mfrac><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mfrac><mi>n</mi><msup><mfenced><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></munderover><mfrac><mi>n</mi><msup><mfenced><mrow><mi>n</mi><mo>+</mo><mi>r</mi></mrow></mfenced><mn>2</mn></msup></mfrac><mo>=</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></munderover><mfrac><mi>n</mi><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi><mi>r</mi><mo>+</mo><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mn>1</mn><mi>n</mi></mfrac><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></munderover><mfrac><mn>1</mn><mrow><msup><mfenced><mrow><mi>r</mi><mo>/</mo><mi>n</mi></mrow></mfenced><mn>2</mn></msup><mo>+</mo><mn>2</mn><mfenced><mrow><mi>r</mi><mo>/</mo><mi>n</mi></mrow></mfenced><mo>+</mo><mn>1</mn></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msup><mfenced><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup></mfrac><mo>=</mo><msubsup><mfenced close=\"]\" open=\"[\"><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mfenced><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mfrac></mfenced><mn>0</mn><mn>1</mn></msubsup><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math></p>"
+  }
+}

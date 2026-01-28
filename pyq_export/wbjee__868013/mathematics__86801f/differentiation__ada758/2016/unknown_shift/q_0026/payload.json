@@ -1,0 +1,43 @@
+{
+  "index": 26,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $y=(1+x)\\left(1+x^{2}\\right)\\left(1+x^{4}\\right) \\ldots\\left(1+x^{2 n}\\right),$ then the value of $\\left(\\frac{d y}{d x}\\right)$ at $x=0$ is"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "-1",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": true
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given,\r\n$y=(1+x)\\left(1+x^{2}\\right)\\left(1+x^{4}\\right)+\\ldots+\\left(1+x^{2 n}\\right)$\r\n$\\Rightarrow \\log y=\\log (1+x)+\\log \\left(1+x^{2}\\right)$ $+\\log \\left(1+x^{4}\\right)+\\ldots+\\log \\left(1+x^{2n}\\right)$\r\n$\\Rightarrow \\frac{1}{y} \\frac{d y}{d x}=\\frac{1}{1+x}+\\frac{2 x}{1+x^{2}}+\\frac{3 x^{2}}{1+x^{3}}+\\ldots+\\frac{2 n x^{2 n-1}}{1+x^{2 n}}$\r\n$\\Rightarrow \\frac{d y}{d x}=y\\left[\\frac{1}{1+x}+\\frac{2 x}{1+x^{2}}+\\frac{3 x^{2}}{1+x^{3}}+\\ldots+\\frac{2 n x^{2 n-1}}{1+x^{2 n}}\\right]$\r\n$\\therefore \\quad\\left(\\frac{d y}{d x}\\right)_{x=0}=y\\left(\\frac{1}{1+0}\\right)=1$"
+  }
+}

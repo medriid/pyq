@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e64",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d9",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (12 Apr Online)",
+      "title": "JEE Main 2014 (12 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\mathrm{f}, \\mathrm{g}: \\mathrm{R} \\rightarrow \\mathrm{R}$ be two functions defined by $f(x)= \\begin{cases}x \\sin \\left(\\frac{1}{x}\\right) & , x \\neq 0 \\\\ 0, & , x=0\\end{cases}$ and $g(x)=x f(x)$\nStatement I: $f$ is a continuous function at $\\mathrm{x}=0$.\nStatement II: $g$ is a differentiable function at $x=0$.",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "tiE9e",
+      "text": "\nBoth statement I and II are false.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "FnXhc",
+      "text": "\nBoth statement I and II are true.\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "5rs41",
+      "text": "\nStatement $\\mathrm{I}$ is true, statement $\\mathrm{II}$ is false.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "U95xr",
+      "text": "\nStatement $\\mathrm{I}$ is false, statement $\\mathrm{II}$ is true.",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n&f(x)= \\begin{cases}x \\sin \\left(\\frac{1}{x}\\right), & x \\neq 0 \\\\\n0, & x=0\\end{cases} \\\\\n&\\text { and } g(x)=x f(x) \\\\\n&\\text { For } f(x) \\\\\n&\\mathrm{LHL}=\\lim _{h \\rightarrow 0^{-}}\\left\\{-h \\sin \\left(-\\frac{1}{h}\\right)\\right\\}\n\\end{aligned}\n$$\n$=0 \\times$ a finite quantity between $-1$ and 1\n$$\n=0\n$$\n$$\n\\mathrm{RHL}=\\lim _{h \\rightarrow 0^{+}} h \\sin \\frac{1}{h}=0\n$$\nAlso, $f(0)=0$\nThus $\\mathrm{LHL}=\\mathrm{RHL}=f(0)$\n$\\therefore f(x)$ is continuous at $x=0$\n$$\ng(x)= \\begin{cases}x^2 \\sin \\frac{1}{x}, & x \\neq 0 \\\\ 0, & x=0\\end{cases}\n$$\nFor $g(x)$\n\n$$\n\\mathrm{LHL}=\\lim _{h \\rightarrow 0^{-}}\\left\\{-h^2 \\sin \\left(\\frac{1}{h}\\right)\\right\\}\n$$\n$=0^2 \\times$ a finite quantity between $-1$ and $1=0$\n$$\n\\text { RHL }=\\lim _{h \\rightarrow 0^{+}} h^2 \\sin \\left(\\frac{1}{h}\\right)=0\n$$\nAlso $g(0)=0$\n$\\therefore g(x)$ is continuous at $x=0$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d9",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (12 Apr Online)",
+    "title": "JEE Main 2014 (12 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

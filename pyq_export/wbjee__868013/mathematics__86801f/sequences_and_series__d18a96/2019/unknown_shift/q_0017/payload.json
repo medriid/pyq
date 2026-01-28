@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd27e4f983047d18a96",
+    "chapter_name": "Sequences and Series",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A particle starts at the origin and moves l unit horizontally to the right and reaches $P_{1}$, then it moves $\\frac{1}{2}$ unit vertically up and 2 reaches $P_{2}$, then it moves $\\frac{1}{4}$ unit horizontally to right and reaches $P_{3}$, then it moves $\\frac{1}{8}$ unit vertically down and reaches $P_{4}$, then it moves $\\frac{1}{16}$ unit horizontally to right and reaches $P_{\\mathrm{S}}$  and so on. Let $P_{n}=\\left(x_{n}, y_{n}\\right)$ and $\\lim _{n \\rightarrow \\infty} x_{n}=\\alpha$ and $\\lim _{n \\rightarrow \\infty} y_{n}=\\beta .$ Then, $(\\alpha, \\beta)$ is"
+  },
+  "options": [
+    {
+      "text": "(2,3)",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\frac{4}{3}, \\frac{2}{5}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\left(\\frac{2}{5}, 1\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\frac{4}{3}, 3\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "According to the given information in question, we can draw the situation of particle at different stages as following\r\n<img src=\"assets\\st0017_030b0f5093a2.png\">\r\nHere, $x_{1}=1, x_{2}=1, x_{3}=\\frac{5}{4}, x_{4}=\\frac{5}{4}$ and $x_{5}=\\frac{21}{16}$\r\n$y_{1}=0, y_{2}=\\frac{1}{2}, y_{3}=\\frac{1}{2}, y_{4}=\\frac{3}{8}$ and $y_{5}=\\frac{3}{8}$\r\n$\\therefore \\quad x_{n}=1+\\frac{1}{4}+\\frac{1}{4^{2}}+\\ldots \\infty=\\frac{1}{1-\\frac{1}{4}}=\\frac{1}{\\frac{3}{4}}=\\frac{4}{3}$\r\n$\\begin{aligned} \\text { and } y_{n}=& 0+\\frac{1}{2}-\\frac{1}{8}+\\ldots \\infty \\\\ &=\\frac{\\frac{1}{2}}{1-\\left(-\\frac{1}{4}\\right)}=\\frac{\\frac{1}{2}}{\\left(1+\\frac{1}{4}\\right)}=\\frac{\\frac{1}{2}}{\\frac{5}{4}}=\\frac{2}{5} \\\\ \\therefore \\quad(\\alpha, \\beta)=\\left(\\frac{4}{3}, \\frac{2}{5}\\right) \\end{aligned}$"
+  }
+}

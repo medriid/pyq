@@ -1,0 +1,83 @@
+{
+  "_id": "66446725970e6e9ab542d0a0",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6b",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-05T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (05 Apr Shift 2)",
+      "title": "JEE Main 2024 (05 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\beta(\\mathrm{m}, \\mathrm{n})=\\int_0^1 x^{\\mathrm{m}-1}(1-x)^{\\mathrm{n}-1} \\mathrm{~d} x, \\mathrm{~m}, \\mathrm{n}>0$. If $\\int_0^1\\left(1-x^{10}\\right)^{20} \\mathrm{~d} x=\\mathrm{a} \\times \\beta(\\mathrm{b}, \\mathrm{c})$, then $100(\\mathrm{a}+\\mathrm{b}+\\mathrm{c})$ equals____",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "pFsNg",
+      "text": "1021",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "YCvHo",
+      "text": "2120",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "e7VQN",
+      "text": "2012",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "DmlS2",
+      "text": "1120",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$I=\\int_0^1 1 \\cdot\\left(1-x^{10}\\right)^{20} d x$\n$x^{10}=t$\n$x=t^{1 / 10}$\n$d x=\\frac{1}{10}(t)^{-9 / 10} d t$\n$I=\\int_0^1(1-t)^{20} \\frac{1}{10}(t)^{-9 / 10} d t$\n$I=\\frac{1}{10} \\int_0^1 t^{-9 / 10}(1-t)^{20} d t$\n$a=\\frac{1}{10} \\quad b=\\frac{1}{10} \\quad c=21$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "8f59597255024da28651aa8b1faa2317",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/2EDWqPPaE2Bqh.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/2EDWqPPaE2Bqh.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda6b",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-05T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (05 Apr Shift 2)",
+    "title": "JEE Main 2024 (05 Apr Shift 2)"
+  },
+  "evalStatus": "correct",
+  "lastPracticed": "2024-08-01T15:10:45.911Z"
+}

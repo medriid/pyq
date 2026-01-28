@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c721898e31221afc8be",
+    "chapter_name": "Mathematics in Physics",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In a triangle $A B C$, the sides $A B$ and $A C$ are represented by the vectors $3 \\mathrm{i}+\\mathrm{j}+\\mathrm{k}$ and $\\mathrm{i}+2 \\mathrm{j}+\\mathrm{k}$, respectively. Calculate the angle $\\angle A B C$"
+  },
+  "options": [
+    {
+      "text": "$\\cos ^{-1} \\sqrt{\\frac{5}{11}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\cos ^{-1} \\sqrt{\\frac{6}{11}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(90^{\\circ}-\\cos ^{-1} \\sqrt{\\frac{5}{11}}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(180^{\\circ}-\\cos ^{-1} \\sqrt{\\frac{5}{11}}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0008_f4a040f0f350.png\">\r\n\r\n$A B=3 i+j+\\hat{k}$ and $A C=i+2 j+i$\r\n$8 A=-(3 i+j+k)$\r\n$\\angle A B C$ is angle between $B A$ and $B C$\r\n$B C=A C+B A$\r\n$=A C-A B$\r\n$=\\hat{i}+2 \\hat{j}+\\hat{k}-(3 \\hat{i}+\\hat{j}+\\hat{k})=-2 \\hat{i}+\\hat{j}$\r\n$B A \\cdot B C=|B A \\| B C| \\cos \\theta$\r\n$-(3 \\hat{i}+\\hat{j}+\\hat{k}) \\cdot(-2 \\hat{i}+\\hat{j})$\r\n$=\\left(\\sqrt{3^{2}+1^{2}+1^{2}}\\right) \\cdot\\left(\\sqrt{2^{2}+1^{2}}\\right) \\cos \\theta$\r\n$\\Rightarrow \\quad 6-1=\\sqrt{11 \\times 5} \\cdot \\cos \\theta$\r\n$\\cos \\theta=\\frac{5}{\\sqrt{55}}=\\sqrt{\\frac{5}{11}}=\\theta=\\cos ^{-1}=\\sqrt{\\frac{5}{11}}$"
+  }
+}

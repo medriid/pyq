@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a66f23ac7d519f9b40f",
+  "previousYearPapers": [
+    {
+      "_id": "615d92eede3d91842a5cf82c",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2018-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018 (Paper 1)",
+      "title": "JEE Advanced 2018 (Paper 1)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "<strong> Paragraph: </strong> If the measurement errors in all the independent quantities are known, then it is possible to determine the error in any dependent quantity. This is done by the use of series expansion and truncating the expansion at the first power of the error. For example, consider the relation <math><mi>z</mi><mi>&#160;</mi><mo>=</mo><mfrac><mrow><mi>x</mi></mrow><mrow><mi>y</mi></mrow></mfrac></math>. If the errors in <math><mi>x</mi><mo>,</mo><mi>&#160;</mi><mi>y</mi><mi>&#160;</mi><mi mathvariant=\"normal\">a</mi><mi mathvariant=\"normal\">n</mi><mi mathvariant=\"normal\">d</mi><mi>&#160;</mi><mi>z</mi><mi>&#160;</mi><mi mathvariant=\"normal\">a</mi><mi mathvariant=\"normal\">r</mi><mi mathvariant=\"normal\">e</mi><mi>&#160;</mi><mo>&#8710;</mo><mi>x</mi><mo>,</mo><mi>&#160;</mi><mo>&#8710;</mo><mi>y</mi><mi>&#160;</mi><mi mathvariant=\"normal\">a</mi><mi mathvariant=\"normal\">n</mi><mi mathvariant=\"normal\">d</mi><mi>&#160;</mi><mo>&#8710;</mo><mi>z</mi></math> , respectively, then<br /><br /><math><mi>z</mi><mo>&#177;</mo><mo>&#8710;</mo><mi>z</mi><mo>=</mo><mfrac><mrow><mi>x</mi><mo>&#177;</mo><mo>&#8710;</mo><mi>x</mi></mrow><mrow><mi>y</mi><mo>&#177;</mo><mo>&#8710;</mo><mi>y</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>x</mi></mrow><mrow><mi>y</mi></mrow></mfrac><mfenced separators=\"|\"><mrow><mn>1</mn><mo>&#177;</mo><mfrac><mrow><mo>&#8710;</mo><mi>x</mi></mrow><mrow><mi>x</mi></mrow></mfrac></mrow></mfenced><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>&#177;</mo><mfrac><mrow><mo>&#8710;</mo><mi>y</mi></mrow><mrow><mi>y</mi></mrow></mfrac></mrow></mfenced></mrow><mrow><mo>-</mo><mn>1</mn></mrow></msup></math><br /><br />The series expansion for <math><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>&#177;</mo><mfrac><mrow><mo>&#8710;</mo><mi>y</mi></mrow><mrow><mi>y</mi></mrow></mfrac></mrow></mfenced></mrow><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>, to first power in <math><mrow><mrow><mo>&#8710;</mo><mi>y</mi></mrow><mo>/</mo><mrow><mi>y</mi></mrow></mrow><mo>,</mo><mi>&#160;</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">s</mi><mi>&#160;</mi><mn>1</mn><mo>&#8723;</mo><mfenced separators=\"|\"><mrow><mrow><mrow><mo>&#8710;</mo><mi>y</mi></mrow><mo>/</mo><mrow><mi>y</mi></mrow></mrow></mrow></mfenced></math>. The relative errors in independent variables are always added. So the error in <math> <mi>z</mi> </math> will be<br /><br /><math> <mrow> <mtext>&#916;</mtext><mi>z</mi><mo>=</mo><mi>z</mi><mrow><mo>(</mo> <mrow> <mfrac> <mrow> <mtext>&#916;</mtext><mi>x</mi></mrow> <mi>x</mi> </mfrac> <mo>+</mo><mfrac> <mrow> <mtext>&#916;</mtext><mi>y</mi></mrow> <mi>y</mi> </mfrac> </mrow> <mo>)</mo></mrow><mo>.</mo></mrow> </math><br /><br> <strong> Question : </strong>The above derivation makes the assumption that <math> <mrow> <mfrac> <mrow> <mtext>&#916;</mtext><mi>r</mi></mrow> <mi>x</mi> </mfrac> <mo>&#8810;</mo><mn>1</mn><mo>,</mo><mfrac> <mrow> <mtext>&#916;</mtext><mi>y</mi></mrow> <mi>y</mi> </mfrac> <mo>&#8810;</mo><mn>1</mn></mrow> </math>. Therefore, the higher powers of these quantities are neglected.",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "BtuRR",
+      "text": "<math> <mrow> <mn>0.04</mn></mrow> </math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "wt988",
+      "text": "<math><mn>0.03</mn></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "TdSyH",
+      "text": "<math><mn>0.02</mn></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "Uffom",
+      "text": "<math><mn>0.01</mn></math>",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<math><mi>N</mi><mo>=</mo><msub><mrow><mi>N</mi></mrow><mrow><mn>0</mn></mrow></msub><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mi>&#955;</mi><mi>t</mi></mrow></msup></math><br /><math><mrow><mrow><mi mathvariant=\"normal\">ln</mi></mrow><mo>&#8289;</mo><mrow><mi>N</mi></mrow></mrow><mo>=</mo><mrow><mrow><mi mathvariant=\"normal\">ln</mi></mrow><mo>&#8289;</mo><mrow><msub><mrow><mi>N</mi></mrow><mrow><mn>0</mn></mrow></msub></mrow></mrow><mo>-</mo><mi>&#955;</mi><mi>t</mi></math><br /><math><mfrac><mrow><mn>d</mn><mi>N</mi></mrow><mrow><mi>N</mi></mrow></mfrac><mo>=</mo><mo>-</mo><mn>d</mn><mi>&#955;</mi><mi>t</mi></math><br />Converting to error,<br /><math><mfrac><mrow><mo>&#8710;</mo><mi>N</mi></mrow><mrow><mi>N</mi></mrow></mfrac><mo>=</mo><mo>&#8710;</mo><mi>&#955;</mi><mi>t</mi></math><br /><math><mo>&#8756;</mo><mi>&#160;</mi><mi>&#160;</mi><mo>&#8710;</mo><mi>&#955;</mi><mo>=</mo><mfrac><mrow><mn>40</mn></mrow><mrow><mn>2000</mn><mo>&#215;</mo><mi>L</mi></mrow></mfrac><mo>=</mo><mn>0.02</mn></math> (<math> <mi>N</mi> </math> is number of nuclei left undecayed)",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eede3d91842a5cf82c",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2018-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018 (Paper 1)",
+    "title": "JEE Advanced 2018 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64a81446e0ff5a5425a85a20",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7d",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2018-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018",
+      "title": "WBJEE 2018"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The least positive integer $n$ such that $\\left(\\begin{array}{cc}\\cos \\frac{\\pi}{4} & \\sin \\frac{\\pi}{4} \\\\ -\\sin \\frac{\\pi}{4} & \\cos \\frac{\\pi}{4}\\end{array}\\right)^{n}$ is an identity matrix of order 2 is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Z1e4F",
+      "text": "4",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "YUwff",
+      "text": "8",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "us1T8",
+      "text": "12",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "NDg5V",
+      "text": "16",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have, $\\left(\\begin{array}{cc}\\cos \\pi / 4 & \\sin \\pi / 4 \\\\ -\\sin \\frac{\\pi}{4} & \\cos \\frac{\\pi}{4}\\end{array}\\right)^{n}$\r\nLet $A=\\left(\\begin{array}{cc}\\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{2}} \\\\ -\\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{2}}\\end{array}\\right)$\r\n$\\Rightarrow \\quad A=\\left(\\begin{array}{cc}k & k \\\\ -k & k\\end{array}\\right)$\r\n$\\Rightarrow A^{2}=\\left(\\begin{array}{cc}k & k \\\\ -k & k\\end{array}\\right)\\left(\\begin{array}{cc}k & k \\\\ -k & k\\end{array}\\right)=\\left(\\begin{array}{cc}0 & 2 k^{2} \\\\ -2 k^{2} & 0\\end{array}\\right)$\r\n$A^{4}=\\left(\\begin{array}{cc}0 & 2 k^{2} \\\\ -2 k^{2} & 0\\end{array}\\right)\\left(\\begin{array}{cc}0 & 2 k^{2} \\\\ -2 k^{2} & 0\\end{array}\\right)$\r\n$A^{4}=\\left(\\begin{array}{cc}-4 k^{4} & 0 \\\\ 0 & -4 k^{4}\\end{array}\\right)=\\left(\\begin{array}{cc}-4 \\times \\frac{1}{4} & 0 \\\\ 0 & -4 \\times \\frac{1}{4}\\end{array}\\right)$\r\n$\\Rightarrow A^{4}=\\left(\\begin{array}{cc}-1 & 0 \\\\ 0 & -1\\end{array}\\right)$\r\n$\\Rightarrow A^{B}=\\left(\\begin{array}{cc}-1 & 0 \\\\ 0 & -1\\end{array}\\right)\\left(\\begin{array}{cc}-1 & 0 \\\\ 0 & -1\\end{array}\\right)=\\left(\\begin{array}{ll}1 & 0 \\\\ 0 & 1\\end{array}\\right)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7d",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2018-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018",
+    "title": "WBJEE 2018"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 36,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The solution of $25 \\frac{d^{2} y}{d x^{2}}-10 \\frac{d y}{d x}+y=0$, $y(0)=1, y(1)=2 e^{1 / 5}$ is"
+  },
+  "options": [
+    {
+      "text": "$y=e^{5 x}+e^{-5 x}$",
+      "is_correct": false
+    },
+    {
+      "text": "$y=(1+x) e^{5 x}$",
+      "is_correct": false
+    },
+    {
+      "text": "$y=(1+x) e^{x / 5}$",
+      "is_correct": true
+    },
+    {
+      "text": "$y=(1+x) e^{-x / 5}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $y=e^{\\pi x}$ be the solution of given differential equation,\r\n$\\Rightarrow \\quad \\frac{d y}{d x}=m e^{n x} \\Rightarrow \\frac{d^{2} y}{d x^{2}}=m^{2} e^{m x}$\r\n$\\therefore \\quad 25 \\frac{d^{2} y}{d x^{2}}-10 \\frac{d y}{d x}+y=0$\r\n$\\Rightarrow \\quad 25 \\mathrm{m}^{2} e^{m x}-10 m e^{m x}+e^{m x}=0$\r\n$\\Rightarrow \\quad e^{\\operatorname{mux}}\\left(25 m^{2}-10 m+1\\right)=0$\r\n$\\Rightarrow$ Auxiliary equation\r\n$\\Rightarrow \\quad(5 m-1)^{2}=0$\r\n$\\Rightarrow \\quad m=\\frac{1}{5}, \\frac{1}{5}$\r\nsince, roots are real and euqal.\r\n$\\therefore$ General solution is $y=\\left(c_{1}+c_{2} x\\right) e^{x / 5} \\ldots .$\r\n$$\r\n\\begin{array}{l}\r\ny(0)=1 \\Rightarrow c_{1}=1 \\\\\r\ny(1)=2 e^{1 / 5} \\Rightarrow 2 c^{1 / 5}=\\left(c_{1}+c_{2}\\right) e^{1 / 5}\r\n\\end{array}\r\n$$\r\n$\\Rightarrow \\quad c_{1}+c_{2}=2 \\Rightarrow c_{1}=1$\r\nPutting the value of $c_{1}$ and $c_{2}$ in Eq. (i), we get particular solution\r\n$$\r\ny=(1+x) e^{x / 5}\r\n$$"
+  }
+}

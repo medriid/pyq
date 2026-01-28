@@ -1,0 +1,43 @@
+{
+  "index": 241,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2012 (Offline)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $a, b \\in R$ be such that the function $f$ given by $f(x)=\\ln |x|+b x^2+a x, x \\neq 0$ has extreme values at $x=-1$ and $x=2$.\nStatement 1: $f$ has local maximum at $x=-1$ and at $x=2$.\nStatement 2: $\\mathrm{a}=\\frac{1}{2}$ and $\\mathrm{b}=\\frac{-1}{4}$"
+  },
+  "options": [
+    {
+      "text": "\nStatement $1$ is false, statement $2$ is true\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $1$ is true, statement $2$ is true; statement $2$ is a correct explanation for statement $1$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nStatement $1$ is true, statement $2$ is true; statement $2$ is not a correct explanation for statement $1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $1$ is true, statement $2$ is false",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$f^{\\prime}(x)=\\frac{1}{x}+2 b x+a$\n$f$ has extremevalues and differentiable\n$\\Rightarrow f^{\\prime}(-1)=0 \\quad \\Rightarrow a-2 b=1$\n$f^{\\prime}(2)=0 \\quad \\Rightarrow a+4 b=-\\frac{1}{2} \\quad \\Rightarrow a=\\frac{1}{2}, b=-\\frac{1}{4}$\n$f^{\\prime \\prime}(-1), f^{\\prime \\prime}(2)$ are negative. $f$ has local maxima at $-1,2$"
+  }
+}

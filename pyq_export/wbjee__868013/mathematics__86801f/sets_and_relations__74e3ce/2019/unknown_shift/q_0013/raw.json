@@ -1,0 +1,63 @@
+{
+  "_id": "64a81453e0ff5a5425a85a9e",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7e",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2019-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019",
+      "title": "WBJEE 2019"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let the relation $R_{1}$ be defined on $R$ as $a R_{1}b$ if $1+a b > 0 .$ Then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "v5r45",
+      "text": "$R_{1}$ is reflexive only.",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "6T08u",
+      "text": "$R_{1}$ is equivalence relation.",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "G0WcT",
+      "text": "$R_{1}$ is reflexive and transitive but not symmetric",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Fllpl",
+      "text": "$R_{1}$ is reflexive and symmetric but not transitive.",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We observe the following properties:\r\nReflexivity : Let a be an arbitrary element of $R$, Then, $a \\in R$ $\\Rightarrow 1+a \\cdot a=1+a^{2}>0 \\quad\\left[\\because a^{2}>0\\right.$ for all $\\left.a \\in R\\right]$\r\n$\\Rightarrow \\quad(a, a) \\in R_{1}$\r\n$\\left[\\right.$ By def. of $\\left.R_{1}\\right]$ \r\nThus, $(a, a) \\in R_{1}$ for all $a \\in R$. So, $R_{1}$ is reflexive on $R$. \r\nSymmetry : Let $(a, b) \\in R$ Then, $(a, b) \\in R_{1}$\r\n$\\Rightarrow \\quad 1+a b>0$\r\n$[\\because a b=b a$ for all $]$\r\n$\\Rightarrow \\quad 1+b a>0 \\Rightarrow(b, a) \\in R_{1}$\r\nThus, $(a, b) \\in R_{1} \\neq(b, a) \\in R,$ for all $a, b \\in R$ \r\nSo, $R_{1}$ is symmetric on $R$. \r\nTransitivity : we observe that $\\left(1, \\frac{1}{2}\\right) \\in R_{1}$ and $\\left(\\frac{1}{2},-1\\right) \\in R_{1}$ but (1,-1)$\\notin R_{1}$ because\r\n$1+1 \\times(-1)=0 \\gg 0$\r\nSo, $R_{1}$ is not transitive on $R$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7e",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2019-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019",
+    "title": "WBJEE 2019"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

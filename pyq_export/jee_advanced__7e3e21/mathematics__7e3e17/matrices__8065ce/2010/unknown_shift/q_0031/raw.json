@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a02f23ac7d519f9b07e",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c46",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010 (Paper 1)",
+      "title": "JEE Advanced 2010 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nLet $p$ be an odd prime number and $T_p$ be the following set of $2 \\times 2$ matrices\n$$\nT_p=\\left\\{A=\\left[\\begin{array}{ll}\na & b \\\\\nc & a\n\\end{array}\\right] ; a, b, c \\in\\{0,1,2, \\ldots, p-1\\}\\right\\}\n$$<strong>Question:</strong>\nThe number of $A$ in $T_p$ such that the trace of $A$ is not divisible by $p$ but det $(A)$ is divisible by $p$ is\n[Note : The trace of a matrix is the sum of its diagonal entries.]",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "GBvZk",
+      "text": "\n$(p-1)\\left(p^2-p+1\\right)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "RSIo6",
+      "text": "\n$p^3-(p-1)^2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "mpwtl",
+      "text": "\n$(p-1)^2$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "04aj1",
+      "text": "\n$(p-1)\\left(p^2-2\\right)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Trace of $A=2 a$, will be divisible by $p$ iff $a=0$.\n$|A|=a^2-b c$, for $\\left(a^2-b c\\right)$ to be divisible\nby $p$. There are exactly $(p-1)$ ordered pairs $(b, c)$ for any value of $a$.\n$\\therefore$ Required number is $(p-1)^2$.\nHence, (c) is the correct option.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c46",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010 (Paper 1)",
+    "title": "JEE Advanced 2010 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

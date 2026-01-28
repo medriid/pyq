@@ -1,0 +1,44 @@
+{
+  "index": 6,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2021 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602569f6f39ee3d4ae5835",
+    "chapter_name": "Differential Equations",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<p>For any real numbers&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#946;</mi></math>, let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>y</mi><mrow><mi>&#945;</mi><mo>,</mo><mi>&#946;</mi></mrow></msub><mfenced><mi>x</mi></mfenced><mo>,</mo><mi>x</mi><mo>&#8712;</mo><mi>R</mi></math>, be the solution of the differential equation</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>&#945;</mi><mi>y</mi><mo>=</mo><mi>x</mi><msup><mi>e</mi><mrow><mi>&#946;</mi><mi>x</mi></mrow></msup><mo>,</mo><mi>y</mi><mfenced><mn>1</mn></mfenced><mo>=</mo><mn>1</mn></math></p><p>Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfenced open=\"{\" close=\"}\"><mrow><msub><mi>y</mi><mrow><mi>&#945;</mi><mo>,</mo><mi>&#946;</mi></mrow></msub><mfenced><mi>x</mi></mfenced><mo>&#160;</mo><mo>:</mo><mi>&#945;</mi><mo>,</mo><mi>&#946;</mi><mo>&#8712;</mo><mi>R</mi></mrow></mfenced></math>. Then which of the following functions belong(s) to the set&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>?</p>"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup><mo>+</mo><mfenced><mrow><mi>e</mi><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mo>-</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup><mo>+</mo><mfenced><mrow><mi>e</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfrac><msup><mi>e</mi><mi>x</mi></msup><mn>2</mn></mfrac><mfenced><mrow><mi>x</mi><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced><mo>+</mo><mfenced><mrow><mi>e</mi><mo>-</mo><mfrac><msup><mi>e</mi><mn>2</mn></msup><mn>4</mn></mfrac></mrow></mfenced><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfrac><msup><mi>e</mi><mi>x</mi></msup><mn>2</mn></mfrac><mfenced><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>-</mo><mi>x</mi></mrow></mfenced><mo>+</mo><mfenced><mrow><mi>e</mi><mo>+</mo><mfrac><msup><mi>e</mi><mn>2</mn></msup><mn>4</mn></mfrac></mrow></mfenced><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "C"
+  ],
+  "solution": {
+    "text": "\\(\\frac{d y}{d x}+a y=x e^{\\beta x}\\)\r\nIntegrating factor (I.F.) \\(=\\mathrm{e}^{\\mathrm{adx}}=\\mathrm{e}^{\\mathrm{ax}}\\)\r\nSo, the solution is \\(y \\cdot e^{a x}=\\int x e^{\\beta x} \\cdot e^{a x} d x\\)\r\n\\(\\Rightarrow y e^{a x}=\\int x e^{(\\alpha+\\beta) x} d x\\)\r\nIf \\(\\alpha+\\beta \\neq 0\\)\r\n\\(\\Rightarrow y e^{a x}=x \\frac{e^{(\\alpha+\\beta) x}}{(\\alpha+\\beta)}-\\frac{e^{(\\alpha+\\beta) x}}{(\\alpha+\\beta)^2}+C\\)\r\n\\(\\Rightarrow y=\\frac{x e^{\\beta x}}{(\\alpha+\\beta)}-\\frac{e^{\\beta x}}{(\\alpha+\\beta)^2}+C e^{-a x}\\)\r\n\\(\\Rightarrow y=\\frac{e^{\\beta x}}{(\\alpha+\\beta)}\\left(x-\\frac{1}{a+\\beta}\\right)+C e^{-\\alpha x}\\)\r\nPut \\(\\alpha=\\beta=1\\) in (1)\r\n\\(y=\\frac{e^x}{2}\\left(x-\\frac{1}{2}\\right)+C e^{-x}\\)\r\n\\(y(1)=1\\)\r\n\\(1=\\frac{e}{2} \\times \\frac{1}{2}+\\frac{C}{e} \\Rightarrow c=e-\\frac{e^2}{4}\\)\r\nSo, \\(y=\\frac{e^x}{2}\\left(x-\\frac{1}{2}\\right)+\\left(e-\\frac{e^2}{4}\\right) e^{-x}\\)\r\nIf \\(\\alpha+\\beta=0 \\& \\alpha=1\\)\r\n\\(\\begin{aligned}\r\n&\\frac{d y}{d x}+y=x e^{-x} \\\\\r\n&\\text { I.F. }=e^x\r\n\\end{aligned}\\)\r\nSolution is \\(y e^x=\\int x d x\\)\r\n\\(\\Rightarrow y e^x=\\frac{x^2}{2}+C\\)\r\n\\(y=\\frac{x^2}{2} e^{-x}+C e^{-x}\\)\r\n\\(y(1)=1\\)\r\n\\(1=\\frac{1}{2 e}+\\frac{C}{e} \\Rightarrow C=e-\\frac{1}{2}\\)\r\n\\(y=\\frac{x^2}{2} e^{-x}+\\left(e-\\frac{1}{2}\\right) e^{-x}\\)"
+  }
+}

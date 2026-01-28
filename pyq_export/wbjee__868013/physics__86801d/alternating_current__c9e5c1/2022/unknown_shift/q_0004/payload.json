@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c90c6a1615f7dc9e5c1",
+    "chapter_name": "Alternating Current",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In a closed circuit there is only a coil of inductance $L$ and resistance $100 \\Omega$. The coil is situated in a uniform magnetic field. All on a sudden, the magnetic flux linked with the circuit changes by $5 \\mathrm{Weber}$. What amount of charge will flow in the circuit as a result?"
+  },
+  "options": [
+    {
+      "text": "$500 \\mathrm{C}$",
+      "is_correct": false
+    },
+    {
+      "text": "$0.05 \\mathrm{C}$",
+      "is_correct": true
+    },
+    {
+      "text": "$20 \\mathrm{C}$",
+      "is_correct": false
+    },
+    {
+      "text": "Value of $L$ is to be known to find the charge flown",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Emf $=-\\frac{\\mathrm{d} \\phi}{\\mathrm{dt}}($ Faraday's Law $)$\n$\\mathrm{i}_{\\text {induced }}=\\frac{\\mathrm{Emf}}{\\mathrm{R}}=-\\frac{\\mathrm{d} \\phi}{\\mathrm{dt}} \\times \\frac{1}{\\mathrm{R}}$\n$\\Rightarrow \\frac{\\mathrm{dq}}{\\mathrm{dt}}=-\\frac{1}{\\mathrm{R}} \\frac{\\mathrm{d} \\phi}{\\mathrm{dt}} \\Rightarrow \\mathrm{dq}=-\\frac{\\mathrm{d} \\phi}{\\mathrm{R}} \\Rightarrow \\int \\mathrm{dq}=-\\int \\frac{\\mathrm{d} \\phi}{\\mathrm{R}}$\n$\\Rightarrow \\mathrm{q}_{\\text {flown }}=\\frac{\\phi_{\\mathrm{i}}-\\phi_{\\mathrm{f}}}{\\mathrm{R}}=\\frac{5 \\text { weber }}{100}=0.05 \\mathrm{C} .$"
+  }
+}

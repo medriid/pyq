@@ -1,0 +1,61 @@
+{
+  "_id": "6151e8630bac5801a4e13c85",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "104",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "The number of ways in which <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi></math> distinct letters (addressed) can be distributed in <math><mi>N</mi></math> distinct mail boxes such that there are exactly <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> letters <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced separators=\"|\"><mrow><mi>n</mi><mo>&#60;</mo><mi>K</mi><mo>&#8804;</mo><mn>2</mn><mi>n</mi></mrow></mfenced></math> in one of the mail boxes is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "K8RNR",
+      "text": "<math><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">C</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>2</mn><mi>n</mi></mrow></mmultiscripts></mrow><mrow><mi>K</mi></mrow></msub><mo>&#x22C5;</mo><mi>N</mi></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "W69JO",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi mathvariant=\"normal\">C</mi><mi>K</mi><none/><mprescripts/><mrow/><mrow><mn>2</mn><mi>n</mi></mrow></mmultiscripts><mo>&#183;</mo><mi>N</mi><msup><mfenced separators=\"|\"><mrow><mi>N</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mi>K</mi></mrow></msup></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "pQQ8f",
+      "text": "<math><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">C</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>2</mn><mi>n</mi></mrow></mmultiscripts></mrow><mrow><mi>K</mi></mrow></msub><msup><mrow><mfenced separators=\"|\"><mrow><mi>N</mi><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mi>K</mi></mrow></msup></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "id4V5",
+      "text": "<math><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">C</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>2</mn><mi>n</mi></mrow></mmultiscripts></mrow><mrow><mi>K</mi></mrow></msub><msup><mrow><mfenced separators=\"|\"><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mi>K</mi></mrow></mfenced></mrow><mrow><mi>N</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>&#x22C5;</mo><mi>N</mi></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Select <math><mi>K</mi></math> letters from <math><mn>2</mn><mi>n</mi></math> in <math><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">C</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>2</mn><mi>n</mi></mrow></mmultiscripts></mrow><mrow><mi>K</mi></mrow></msub></math> ways.<br />Select <math><mn>1</mn></math> of the mail boxes in <math><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">C</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mi>N</mi></mrow></mmultiscripts></mrow><mrow><mn>1</mn></mrow></msub></math> way.<br />Remaining <math><mfenced separators=\"|\"><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mi>K</mi></mrow></mfenced></math> letters each have <math><mfenced separators=\"|\"><mrow><mi>N</mi><mo>-</mo><mn>1</mn></mrow></mfenced></math> options and can be allotted in <math><msup><mrow><mfenced separators=\"|\"><mrow><mi>N</mi><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mi>K</mi></mrow></msup></math> ways.<br />Hence, the required number of ways <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi mathvariant=\"normal\">C</mi><mi>K</mi><none/><mprescripts/><mrow/><mrow><mn>2</mn><mi>n</mi></mrow></mmultiscripts><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>1</mn><none/><mprescripts/><mrow/><mi>N</mi></mmultiscripts><msup><mfenced separators=\"|\"><mrow><mi>N</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mi>K</mi></mrow></msup><mo>.</mo></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

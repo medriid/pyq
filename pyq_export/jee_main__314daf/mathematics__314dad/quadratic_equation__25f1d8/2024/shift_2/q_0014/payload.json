@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602525fb63982f7225f1d8",
+    "chapter_name": "Quadratic Equation",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $\\alpha, \\beta ; \\alpha>\\beta$, be the roots of the equation $x^2-\\sqrt{2} x-\\sqrt{3}=0$. Let $\\mathrm{P}_n=\\alpha^n-\\beta^n, n \\in \\mathrm{N}$. Then $(11 \\sqrt{3}-10 \\sqrt{2}) \\mathrm{P}_{10}+(11 \\sqrt{2}+10) \\mathrm{P}_{11}-11 \\mathrm{P}_{12}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$10 \\sqrt{3} \\mathrm{P}_9$",
+      "is_correct": true
+    },
+    {
+      "text": "$11 \\sqrt{3} P_9$",
+      "is_correct": false
+    },
+    {
+      "text": "$10 \\sqrt{2} \\mathrm{P}_9$",
+      "is_correct": false
+    },
+    {
+      "text": "$11 \\sqrt{2} \\mathrm{P}_9$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\mathrm{x}^2-\\sqrt{2 \\mathrm{x}}-\\sqrt{3}=0\\left\\langle_\\beta^\\alpha\\right. \\\\\n& \\alpha^{\\mathrm{n}+2}-\\sqrt{2} \\alpha^{\\mathrm{n}+1}-\\sqrt{3} \\alpha^{\\mathrm{n}}=0 \\\\\n& \\text { and } \\beta^{\\mathrm{n}+2}-\\sqrt{2} \\beta^{\\mathrm{n}+1}-\\sqrt{3} \\beta^{\\mathrm{n}}=0\n\\end{aligned}$<br />Subtracting\n$\\begin{aligned}\n& \\left(\\alpha^{\\mathrm{n}+2}-\\beta^{\\mathrm{n}+2}\\right)-\\sqrt{2}\\left(\\alpha^{\\mathrm{n}+1}-\\beta^{\\mathrm{n}+1}\\right)-\\sqrt{3}\\left(\\alpha^{\\mathrm{n}}-\\beta^{\\mathrm{n}}\\right)=0 \\\\\n& \\Rightarrow \\mathrm{P}_{\\mathrm{n}+2}-\\sqrt{2} \\mathrm{P}_{\\mathrm{n}+1}-\\sqrt{3} \\mathrm{P}_{\\mathrm{n}}=0\n\\end{aligned}$\n$\\begin{aligned} & \\text { Put } \\mathrm{n}=10 \\\\ & \\mathrm{P}_{12}-\\sqrt{2} \\mathrm{P}_{11}-\\sqrt{3} \\mathrm{P}_{10}=0 \\\\ & \\mathrm{n}=9 \\\\ & \\mathrm{P}_{11}-\\sqrt{2} \\mathrm{P}_{10}-\\sqrt{3} \\mathrm{P}_9=0 \\\\ & 11\\left(\\sqrt{3} \\cdot \\mathrm{P}_{10}+\\sqrt{2} \\mathrm{P}_{11}-\\mathrm{P}_{11}\\right)-10\\left(\\sqrt{2} \\mathrm{P}_{10}-\\mathrm{P}_{11}\\right) \\\\ & =0-10\\left(-\\sqrt{3} \\mathrm{P}_9\\right)=10 \\sqrt{3} \\mathrm{P}_9\\end{aligned}$"
+  }
+}

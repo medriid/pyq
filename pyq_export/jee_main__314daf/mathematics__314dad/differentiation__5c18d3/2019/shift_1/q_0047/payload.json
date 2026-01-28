@@ -1,0 +1,43 @@
+{
+  "index": 47,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255a501b352fc65c18d3",
+    "chapter_name": "Differentiation",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If $x \\log _{e}\\left(\\log _{e} x\\right)-x^{2}+y^{2}=4(y>0),$ then $\\frac{d y}{d x}$ at $x=e$ is\r\n\r\nequal to :"
+  },
+  "options": [
+    {
+      "text": "$\\frac{(1+2 e)}{2 \\sqrt{4+e^{2}}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{(2 e-1)}{2 \\sqrt{4+e^{2}}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{(1+2 e)}{\\sqrt{4+e^{2}}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{e}{\\sqrt{4+e^{2}}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Consider the equation,\r\n\r\n$x \\log _{e}\\left(\\log _{e} x\\right)-x^{2}+y^{2}=4$\r\n\r\nDifferentiate both sides w.r.t. $x$\r\n\r\n$\\log _{e}\\left(\\log _{e} x\\right)+x \\cdot \\frac{1}{x \\cdot \\log _{e} x}-2 x+2 y \\frac{d y}{d x}=0$\r\n\r\n$\\log _{e}\\left(\\log _{e} x\\right)+\\frac{1}{\\log _{e} x}-2 x+2 y \\frac{d y}{d x}=0$\r\n\r\nWhen $x=e, y=\\sqrt{4+e^{2}}$. Put these values in (1),\r\n\r\n$0+1-2 e+2 \\sqrt{4+e^{2}} \\frac{d y}{d x}=0$\r\n\r\n$\\frac{d y}{d x}=\\frac{2 e-1}{2 \\sqrt{4+e^{2}}}$"
+  }
+}

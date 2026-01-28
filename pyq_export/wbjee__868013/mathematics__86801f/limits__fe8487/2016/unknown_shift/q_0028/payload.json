@@ -1,0 +1,43 @@
+{
+  "index": 28,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\lim _{x \\rightarrow 1}\\left(\\frac{1+x}{2+x}\\right)^{\\frac{(1-\\sqrt{x})}{(1-x)}}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "does not exist",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{\\frac{2}{3}}$",
+      "is_correct": true
+    },
+    {
+      "text": "ln 2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have, $\\lim _{x \\rightarrow 1}\\left(\\frac{1+x}{2+x}\\right)^{\\frac{1-\\sqrt{x}}{1-x}}$\r\n$=\\lim _{x \\rightarrow 1}\\left(\\frac{1+x}{2+x}\\right)^{\\frac{1-\\sqrt{x}}{(1+\\sqrt x)(1- \\sqrt x)}}$\r\n$=\\lim _{x \\rightarrow 1}\\left(\\frac{1+x}{2+x}\\right)^{\\frac{1}{1+\\sqrt{x}}}$\r\n$=\\left(\\frac{1+1}{2+1}\\right)^{\\frac{1}{1+1}}=\\left(\\frac{2}{3}\\right)^{\\frac{1}{2}}=\\sqrt{\\frac{2}{3}}$"
+  }
+}

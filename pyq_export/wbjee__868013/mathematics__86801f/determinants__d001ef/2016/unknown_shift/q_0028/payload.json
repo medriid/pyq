@@ -1,0 +1,43 @@
+{
+  "index": 28,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0a7e939ac068d001ef",
+    "chapter_name": "Determinants",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $x, y$ and $z$ are greater than 1 , then the value of $\\left|\\begin{array}{ccc}1 & \\log _{x} y & \\log _{x} z \\\\ \\log _{y} x & 1 & \\log _{y} z \\\\ \\log _{z} x & \\log _{z} y & 1\\end{array}\\right|$ is"
+  },
+  "options": [
+    {
+      "text": "$\\log x \\cdot \\log y \\cdot \\log z$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log x+\\log y+\\log z$",
+      "is_correct": false
+    },
+    {
+      "text": "0",
+      "is_correct": true
+    },
+    {
+      "text": "$1-\\{(\\log x) \\cdot(\\log y) \\cdot(\\log z)\\}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $\\Delta=\\left|\\begin{array}{ccc}1 & \\log _{x}y & \\log _{x} z \\\\ \\log _{y} x & 1 & \\log _{y} z \\\\ \\log _{z} x & \\log _{z} y & 1\\end{array}\\right|$\r\n$=\\left|\\begin{array}{lll}\\frac{\\log x}{\\log x} & \\frac{\\log y}{\\log x} & \\frac{\\log z}{\\log x} \\\\ \\frac{\\log x}{\\log y} & \\frac{\\log y}{\\log y} & \\frac{\\log z}{\\log y} \\\\ \\frac{\\log x}{\\log z} & \\frac{\\log y}{\\log z} & \\frac{\\log 2}{\\log z}\\end{array}\\right|$\r\nOn taking $\\frac{1}{\\log x} \\frac{1}{\\log y} \\frac{1}{\\log z}$ common from $R_{1}, R_{2}$ and $R_{3}$\r\nwe got\r\n$$\r\n=\\frac{1}{\\log x \\cdot \\log y \\cdot \\log z}\\left|\\begin{array}{lll}\r\n\\log x & \\log y & \\log z \\\\\r\n\\log x & \\log y & \\log z \\\\\r\n\\log x & \\log y & \\log z\r\n\\end{array}\\right|\r\n$$\r\n$\\therefore \\Delta=0$"
+  }
+}

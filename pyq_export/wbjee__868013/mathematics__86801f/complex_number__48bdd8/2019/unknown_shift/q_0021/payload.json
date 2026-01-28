@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc9a79d891b2548bdd8",
+    "chapter_name": "Complex Number",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The general value of the real angle $\\theta$, which satisfies the equation. $(\\cos \\theta+i \\sin \\theta)(\\cos 2 \\theta+i \\sin 2 \\theta) \\ldots$$(\\cos n \\theta+t \\sin n \\theta)=1$ is given by, (assuming $k$ is an integer)"
+  },
+  "options": [
+    {
+      "text": "$\\frac{2 k \\pi}{n+2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{4 k \\pi}{n(n+1)}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{4 x \\pi}{n+1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{6 k \\pi}{n(n+1)}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "We have,\r\n$(\\cos\\theta+i\\sin\\theta)(cos2\\theta+isin2\\theta)...(cosn\\theta+isinn\\theta) = 1$\r\n$\\Rightarrow e^{i\\theta}.e^{i(2\\theta)}.e^{i(3\\theta)}. ...e^{i(n\\theta)} = 1$\r\n$\\Rightarrow e^{i\\theta(1+2+3+...+n}=1$\r\n$\\Rightarrow e^{\\frac{in(n+1)\\theta}{2}}=1$\r\n$\\Rightarrow cos(\\frac{n(n+1)}{2}\\theta)+isin(\\frac{n(n+1)}{2}\\theta = 1 + 0i$\r\n$\\Rightarrow cos(\\frac{n(n+1)}{2}\\theta)=1$\r\n$\\Rightarrow \\frac{n(n+1)}{2}\\theta = 2k\\pi$\r\n$\\Rightarrow \\theta=\\frac{4k}{n(n+1)}\\pi$"
+  }
+}

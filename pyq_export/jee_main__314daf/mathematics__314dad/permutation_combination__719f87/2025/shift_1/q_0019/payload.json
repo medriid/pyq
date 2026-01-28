@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "From all the English alphabets, five letters are chosen and are arranged in alphabetical order. The total number of ways, in which the middle letter is ' M ', is :"
+  },
+  "options": [
+    {
+      "text": "$5148$",
+      "is_correct": true
+    },
+    {
+      "text": "$6084$",
+      "is_correct": false
+    },
+    {
+      "text": "$4356$",
+      "is_correct": false
+    },
+    {
+      "text": "$14950$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\underbrace{A B}_{12} \\quad \\underbrace{\\text { MN........Z }}_{13} \\\\\n& =\\underset{\\substack{\\text { Selection of two } \\\\\n\\text { leters before } \\mathrm{M}}}{{ }^{12} \\mathrm{C}_2} \\times \\underset{\\substack{\\text { Selection of two } \\\\\n\\text { leter after } \\mathrm{M}}}{{ }^{13} \\mathrm{C}_2}=5148\n\\end{aligned}$"
+  }
+}

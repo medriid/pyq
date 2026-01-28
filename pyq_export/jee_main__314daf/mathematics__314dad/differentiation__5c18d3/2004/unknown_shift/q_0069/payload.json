@@ -1,0 +1,43 @@
+{
+  "index": 69,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2004",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255a501b352fc65c18d3",
+    "chapter_name": "Differentiation",
+    "year": "2004",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $x=e^{y+e^{y+. .10 \\infty}}, x>0$, then $\\frac{d y}{d x}$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{\\mathrm{x}}{1+\\mathrm{x}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{x}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1-x}{x}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{1+x}{x}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$x=e^{y+e^{y+e^{y+\\ldots \\ldots \\infty}}} \\Rightarrow x=e^{y+x}$\n$\\Rightarrow \\ln x-x=y \\Rightarrow \\frac{d y}{d x}=\\frac{1}{x}-1=\\frac{1-x}{x}$"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a61417cc3fb48d65605",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c4",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2004-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2004",
+      "title": "JEE Main 2004"
+    }
+  ],
+  "question": {
+    "text": "If $f(x)=\\frac{e^x}{1+e^x}, l_1=\\int_{f(-a)}^{f(a)} x g\\{x(1-x)\\} d x$ and $I_2=\\int_{f(-a)}^{f(a)} g\\{x(1-x)\\} d x$ then the value of $\\frac{l_2}{l_1}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "UAJT6",
+      "text": "\n2\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "EuvM5",
+      "text": "\n$-3$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "2tb3s",
+      "text": "\n$-1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "qsNeW",
+      "text": "\n1",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$f(-a)+f(a)=1$\n$I_1=\\int_{f(-a)}^{f(a)} x g\\{x(1-x)\\} d x=\\int_{f(-a)}^{f(a)}(1-x) g\\{x(1-x)\\} d x \\quad\\left(\\because \\int_a^b f(x) d x=\\int_a^b f(a+b-x) d x\\right)$\n$2 I_1=\\int_{f(-a)}^{f(a)} g\\{x(1-x)\\} d x=I_2 \\Rightarrow I_2 / I_1=2$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c4",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2004-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2004",
+    "title": "JEE Main 2004"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

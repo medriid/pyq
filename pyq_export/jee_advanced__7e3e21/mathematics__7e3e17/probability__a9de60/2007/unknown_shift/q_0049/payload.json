@@ -1,0 +1,43 @@
+{
+  "index": 49,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2007 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025732b001edb3fa9de60",
+    "chapter_name": "Probability",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $H_1, H_2, \\ldots, H_n$ be mutually exclusive events with $P\\left(H_i\\right)>0, i=1,2, \\ldots, n$. Let $E$ be any other event with $0 < P(E) < 1$.\nStatement I $P\\left(H_i / E\\right)>P\\left(E / H_i\\right) P\\left(H_i\\right)$ for $i=1,2, \\ldots, n$.\nStatement II $\\sum_{i=1}^n P\\left(H_i\\right)=1$"
+  },
+  "options": [
+    {
+      "text": "\nStatement I is true, Statement II is true; Statement II is a correct explanation for Statement I\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement I is true, Statement II is true; Statement II is not a correct explanation for Statement II\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement I is true, Statement II is false\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement I is false, Statement II is true",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Statement : I If $P\\left(H_i \\cap E\\right)=0$ for some $i$, then\n$$\nP\\left(\\frac{H_i}{E}\\right)=P\\left(\\frac{E}{H_i}\\right)=0\n$$\nIf $P\\left(H_i \\cap E\\right) \\neq 0$ for $\\forall i=1,2, \\ldots . n$, then\n$$\n\\begin{aligned}\nP\\left(\\frac{H_i}{E}\\right) & =\\frac{P\\left(H_i \\cap E\\right)}{P\\left(H_i\\right)} \\times \\frac{P\\left(H_i\\right)}{P(E)} \\\\\n& \\left.=\\frac{P\\left(\\frac{E}{H_i}\\right) \\times P\\left(H_i\\right)}{P(E)}>P\\left(\\frac{E}{H_i}\\right) \\cdot P\\left(H_i\\right) \\quad \\text { [as } 0 < P(E) < 1\\right]\n\\end{aligned}\n$$\nHence, Statement I may not always be true.\nStatement II\nClearly, $H_1 \\cup H_2 \\cup \\ldots . \\cup H_n=S$ (sample space)\n$$\n\\Rightarrow \\quad P\\left(H_1\\right)+P\\left(H_2\\right)+\\ldots+P\\left(H_n\\right)=1 .\n$$\nHence, Statement II is true."
+  }
+}

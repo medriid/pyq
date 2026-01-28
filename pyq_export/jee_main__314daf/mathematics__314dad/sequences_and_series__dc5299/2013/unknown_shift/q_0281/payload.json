@@ -1,0 +1,43 @@
+{
+  "index": 281,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (25 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<img src=\"assets\\qt0281_15ca625db60f.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\n2925\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n1469\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1728\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1456",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Consider $1^2+3^2+5^2+\\ldots \\ldots+25^2$ $n^{\\text {th }}$ term $\\mathrm{T}_n=(2 n-1)^2, n=1, \\ldots \\ldots 13$\nNow, $\\mathrm{S}_n=\\sum_{n=1}^{13} \\mathrm{~T}_n=\\sum_{n=1}^{13}(2 n-1)^2$\n$$\n\\begin{aligned}\n&=\\sum_{n=1}^{13} 4 n^2+\\sum_{n=1}^{13} 1-\\sum_{n=1}^{13} 4 n \\\\\n&=4 \\sum n^2+13-4 \\sum n\n\\end{aligned}\n$$\n$$\n=4\\left[\\frac{n(n+1)(2 n+1)}{6}\\right]+13-4 \\frac{n(n+1)}{2}\n$$\nPut $n=13$, we get\n$$\n\\begin{aligned}\n&\\mathrm{S}_n=26 \\times 14 \\times 9+13-26 \\times 14 \\\\\n&=3276+13-364 \\\\\n&=2925 .\n\\end{aligned}\n$$"
+  }
+}

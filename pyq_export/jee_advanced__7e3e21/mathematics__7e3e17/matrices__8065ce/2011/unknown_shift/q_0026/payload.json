@@ -1,0 +1,43 @@
+{
+  "index": 26,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2011 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254f7a96128fc38065ce",
+    "chapter_name": "Matrices",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\omega \\neq 1$ be a cube root of unity and $S$ be the set of all non-singular matrices of the form $\\left[\\begin{array}{ccc}1 & a & b \\\\ \\omega & 1 & c \\\\ \\omega^2 & \\omega & 1\\end{array}\\right]$, where each of $a, b$ and $c$ is either $\\omega$ or $\\omega^2$. Then, the number of distinct matrices in the set $S$ is"
+  },
+  "options": [
+    {
+      "text": "\n2\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n6\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n4\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n8",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$|A| \\neq 0$, as non-singular.\n$$\n\\begin{aligned}\n& \\therefore \\quad\\left|\\begin{array}{ccc}\n1 & a & b \\\\\n\\omega & 1 & c \\\\\n\\omega^2 & \\omega & 1\n\\end{array}\\right| \\neq 0 \\\\\n& \\Rightarrow \\quad 1(1-c \\omega)-a\\left(\\omega-c \\omega^2\\right) \\\\\n& +b\\left(\\omega^2-\\omega^2\\right) \\neq 0 \\\\\n& \\Rightarrow \\quad 1-c \\omega-a \\omega+a c \\omega^2 \\neq 0 \\\\\n&\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad(1-c \\omega)(1-a \\omega) \\neq 0 \\\\\n& \\Rightarrow \\quad a \\neq \\frac{1}{\\omega}, c \\neq \\frac{1}{\\omega} \\Rightarrow a=\\omega, c=\\omega\n\\end{aligned}\n$$\nand $b \\in\\left\\{\\omega, \\omega^2\\right\\} \\Rightarrow 2$ solutions"
+  }
+}

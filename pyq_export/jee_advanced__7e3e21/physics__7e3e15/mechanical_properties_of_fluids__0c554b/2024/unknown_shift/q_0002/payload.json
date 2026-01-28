@@ -1,0 +1,24 @@
+{
+  "index": 2,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2024 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "616023dd6dc934e4a40c554b",
+    "chapter_name": "Mechanical Properties of Fluids",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Two large, identical water tanks, 1 and 2, kept on the top of a building of height $H$, are filled with water up to height $h$ in each tank. Both the tanks contain an identical hole of small radius on their sides, close to their bottom. A pipe of the same internal radius as that of the hole is connected to tank 2 , and the pipe ends at the ground level. When the water flows from the tanks 1 and 2 through the holes, the times taken to empty the tanks are $t_1$ and $t_2$, respectively. If $H=\\left(\\frac{16}{9}\\right) h$, then the ratio $t_1 / t_2$ is _______ ."
+  },
+  "options": [],
+  "correct_answer": 3,
+  "solution": {
+    "text": "<img src=\"assets\\st0002_c117da193e8b.png\">\n$\\begin{aligned} & \\mathrm{Av}=\\mathrm{av}_1 \\\\ & \\mathrm{~A}\\left(-\\frac{\\mathrm{dy}}{\\mathrm{dt}}\\right)=\\mathrm{a} \\sqrt{2 \\mathrm{gy}} ; \\mathrm{dt}=\\frac{\\mathrm{A}}{\\mathrm{a} \\sqrt{2 \\mathrm{~g}}} \\cdot \\frac{-d y}{\\sqrt{y}} \\\\ & \\int_0^{t_1} \\mathrm{dt}=\\frac{\\mathrm{A}}{\\mathrm{a} \\sqrt{2 \\mathrm{~g}}} \\int_{\\mathrm{h}}^0-\\frac{d y}{\\sqrt{y}} \\\\ & t_1=\\frac{\\mathrm{A}}{\\mathrm{a} \\sqrt{2 \\mathrm{~g}}} 2 \\sqrt{\\mathrm{h}} ; \\mathrm{t}_1=\\frac{\\mathrm{A}}{\\mathrm{a}} \\sqrt{\\frac{2 h}{g}}\\end{aligned}$<img src=\"assets\\st0002_d2e219cce06f.png\">\n$A v^{\\prime}=\\mathrm{av}_2$\n$\\begin{aligned} & A\\left(-\\frac{d y}{d t}\\right)=a \\sqrt{2 g(H+y)} \\\\ & d t=-\\frac{A}{a \\sqrt{2 g}} \\frac{d y}{\\sqrt{H+y}} \\\\ & \\int_0^{t_2} d t=-\\frac{A}{a \\sqrt{2 g}} \\int_H^0 \\frac{d y}{\\sqrt{H+y}} \\\\ & t_2=\\frac{A}{a \\sqrt{2 g}}(2)(\\sqrt{H+h}-\\sqrt{H}) \\quad \\& \\quad H=\\frac{16 h}{9} \\\\ & =\\frac{A}{a} \\sqrt{\\frac{2 h}{g}}\\left(\\frac{5}{3}-\\frac{4}{3}\\right) \\\\ & t_2=\\frac{A}{a} \\sqrt{\\frac{2 h}{g}}\\left(\\frac{1}{3}\\right)\\end{aligned}$\nratio $\\frac{\\mathrm{t}_1}{\\mathrm{t}_2}=3$"
+  }
+}

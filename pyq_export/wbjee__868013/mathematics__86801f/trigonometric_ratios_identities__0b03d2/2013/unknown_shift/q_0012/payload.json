@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cdb6782a065e80b03d2",
+    "chapter_name": "Trigonometric Ratios & Identities",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\sin ^{2} \\theta+3 \\cos \\theta=2,$ then $\\cos ^{3} \\theta+\\sec ^{3} \\theta$ is equal out to"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    },
+    {
+      "text": "9",
+      "is_correct": false
+    },
+    {
+      "text": "18",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given, $\\sin ^{2} \\theta+3 \\cos \\theta=2$\r\n$\\begin{array}{lr}\\Rightarrow & 1-\\cos ^{2} \\theta+3 \\cos \\theta=2 \\\\ \\Rightarrow & \\cos ^{2} \\theta-3 \\cos \\theta+1=0\\end{array}$\r\n$\\Rightarrow \\quad \\cos \\theta=\\frac{3 \\pm \\sqrt{9-4}}{2}$ (by quadratic formula)\r\n$\\Rightarrow \\quad \\cos \\theta=\\frac{3 \\pm \\sqrt{5}}{2}$\r\nHere, $\\cos \\theta=\\frac{3-\\sqrt{5}}{2}$\r\n$\\left(\\because \\frac{3+\\sqrt{5}}{2} > 1 \\text{ and } -1 \\leq \\cos \\theta \\leq 1\\right)$\r\nand $\\sec \\theta=\\frac{2}{3-\\sqrt{5}} \\times \\frac{3+\\sqrt{5}}{3-\\sqrt{5}}$\r\n$=\\frac{2(3+\\sqrt{5})}{4}=\\frac{3+\\sqrt{5}}{2}$\r\nNow, $\\cos ^{3} \\theta+\\sec ^{3} \\theta=(\\cos \\theta+\\sec \\theta)$\r\n$\\quad\\left(\\cos ^{2} \\theta+\\sec ^{2} \\theta-\\cos \\theta \\cdot \\sec \\theta\\right)$\r\n$\\begin{array}{l}\r\n=\\left(\\frac{3-\\sqrt{5}+3+\\sqrt{5}}{2}\\right) \\\\\r\n\\quad \\quad\\left\\{(\\cos \\theta+\\sec \\theta)^{2}-3 \\cos \\theta \\cdot \\sec \\theta\\right\\} \\\\\r\n=3 \\cdot\\left\\{(3)^{2}-3\\right\\}=3(9-3)=3 \\times 6=18\r\n\\end{array}$"
+  }
+}

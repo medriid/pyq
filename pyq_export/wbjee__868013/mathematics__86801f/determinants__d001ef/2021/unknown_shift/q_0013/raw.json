@@ -1,0 +1,63 @@
+{
+  "_id": "64a81478e0ff5a5425a85bf3",
+  "previousYearPapers": [
+    {
+      "_id": "61a1eb3cb860a4fc00943685",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2021-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021",
+      "title": "WBJEE 2021"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "The determinant $\\left|\\begin{array}{ccc}a^{2}+10 & a b & a c \\\\ a b & b^{2}+10 & b c \\\\ a c & b c & c^{2}+10\\end{array}\\right|$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "bcLiG",
+      "text": "divisible by 10 but not by 100",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "EPWFa",
+      "text": "divisible by 100",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "ep6Hu",
+      "text": "not divisible by 100",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "MgNWc",
+      "text": "not divisible by 10",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$=\\frac{1}{a b c}\\left|\\begin{array}{ccc}a\\left(a^{2}+10\\right) & a^{2} b & a^{2} c \\\\ a b^{2} & b\\left(b^{2}+10\\right) & b^{2} c \\\\ a c^{2} & b c^{2} & c\\left(c^{2}+10\\right)\\end{array}\\right|=\\frac{a b c}{a b c}\\left|\\begin{array}{ccc}a^{2}+10 & a^{2} & a^{2} \\\\ b^{2} & b^{2}+10 & b^{2} \\\\ c^{2} & c^{2} & c^{2}+10\\end{array}\\right|$\r\n$\\mathrm{R}_{1} \\rightarrow \\mathrm{R}_{1}+\\mathrm{R}_{2}+\\mathrm{R}_{3}$\r\n$=\\left(\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}+10\\right)\\left|\\begin{array}{ccc}1 & 1 & 1 \\\\ \\mathrm{~b}^{2} & \\mathrm{~b}^{2}+10 & \\mathrm{~b}^{2} \\\\ \\mathrm{c}^{2} & \\mathrm{c}^{2} & \\mathrm{c}^{2}+10\\end{array}\\right|$\r\n$=\\left(\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}+10\\right)\\left|\\begin{array}{ccc}1 & 0 & 0 \\\\ \\mathrm{~b}^{2} & 10 & 0 \\\\ \\mathrm{c}^{2} & 0 & 10\\end{array}\\right|\\left[\\begin{array}{c}\\mathrm{C}_{2}-\\mathrm{C}_{1} \\\\ \\mathrm{C}_{3}-\\mathrm{C} 1\\end{array}\\right]$\r\n$=\\left(\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}+10\\right) 100$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a1eb3cb860a4fc00943685",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2021-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021",
+    "title": "WBJEE 2021"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

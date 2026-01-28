@@ -1,0 +1,43 @@
+{
+  "index": 35,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc594defad39e8768ec",
+    "chapter_name": "Quadratic Equation",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For every real number $x$, let $f(x)=\\frac{x}{1 !}+\\frac{3}{2 !} x^{2}+\\frac{7}{3 !} x^{3}+\\frac{15}{4 !} x^{4}+\\ldots .$ Then the equation $f(x)=0$ has"
+  },
+  "options": [
+    {
+      "text": "no real solution",
+      "is_correct": false
+    },
+    {
+      "text": "exactly one real solution",
+      "is_correct": true
+    },
+    {
+      "text": "exactly two real solutions",
+      "is_correct": false
+    },
+    {
+      "text": "infinite number of real solutions",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given,\r\n$f(x)=\\frac{x}{1 !}+\\frac{3}{2 !} x^{2}+\\frac{7}{3 !} x^{3}+\\frac{15}{4 !} x^{4}+\\ldots$\r\n$=\\frac{\\left(2^{1}-1\\right) x}{1 !}+\\frac{\\left(2^{2}-1\\right) x^{2}}{2 !}+\\frac{\\left(2^{3}-1\\right) x^{3}}{3 !}$\r\n$+\\frac{\\left(2^{4}-1\\right)}{4 !} x^{4}+\\ldots$\r\n$=\\frac{2 x}{1 !}+\\frac{(2 x)^{2}}{2 !}+\\frac{(2 x)^{3}}{3 !}+\\frac{(2 x)^{4}}{4 !}+\\ldots$\r\n$-\\left(\\frac{x}{1 !}+\\frac{x^{2}}{2 !}+\\frac{x^{3}}{3 !}+\\frac{x^{4}}{4 !}+\\ldots\\right)$\r\n$=1+\\frac{2 x}{1 !}+\\frac{(2 x)^{2}}{2 !}+\\frac{(2 x)^{3}}{3 !}+\\frac{(2 x)^{4}}{4 !}+\\ldots$\r\n$-\\left(1+\\frac{x}{1 !}+\\frac{x^{2}}{2 !}+\\frac{x^{3}}{3 !}+\\frac{x^{4}}{4 !}+\\cdots\\right)$\r\n$\\Rightarrow \\quad f(x)=e^{2 x}-e^{x}$\r\nWhen we put $x=0,$ we get\r\n$$\r\nf(0)=e^{0}-e^{0}=1-1=0\r\n$$\r\nHence, exactly one real solution exists."
+  }
+}

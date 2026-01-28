@@ -1,0 +1,63 @@
+{
+  "_id": "6644672f970e6e9ab542d0fa",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6c",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-06T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (06 Apr Shift 1)",
+      "title": "JEE Main 2024 (06 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $y=y(x)$ be the solution of the differential equation $\\left(1+x^2\\right) \\frac{d y}{d x}+y=e^{\\tan ^{-1} x}$, $y(1)=0$. Then $y(0)$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "wm4cD",
+      "text": "$\\frac{1}{2}\\left(e^{\\pi / 2}-1\\right)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "nO8AW",
+      "text": "$\\frac{1}{2}\\left(1-e^{\\pi / 2}\\right)$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "BRbFr",
+      "text": "$\\frac{1}{4}\\left(1-e^{\\pi / 2}\\right)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "76HCM",
+      "text": "$\\frac{1}{4}\\left(e^{\\pi / 2}-1\\right)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\frac{d y}{d x}+\\frac{y}{1+x^2}=\\frac{e^{\\tan ^{-1} x}}{1+x^2} \\\\ & \\text { I.F. }=e^{\\int \\frac{1}{1+x^2} d x}=e^{\\tan ^{-1} x} \\\\ & y \\cdot e^{\\tan ^{-1} x}=\\int\\left(\\frac{e^{\\tan ^{-1} x}}{1+x^2}\\right) e^{\\tan ^{-1} x} \\cdot d x \\\\ & \\text { Let } \\tan ^{-1} x=z \\quad \\therefore \\frac{d x}{1+x^2}=d z \\\\ & \\therefore y \\cdot e^z=\\int e^{2 z} d z=\\frac{e^{2 z}}{2}+C \\\\ & y \\cdot e^{\\tan ^{-1} x}=\\frac{e^{2 \\tan ^{-1} x}}{2}+C \\\\ & \\Rightarrow y=\\frac{e^{\\tan ^{-1} x}}{2}+\\frac{C}{e^{\\tan ^{-1} x}}\\end{aligned}$<br />$\\begin{aligned} & \\because \\mathrm{y}(1)=0 \\Rightarrow 0=\\frac{\\mathrm{e}^{\\pi / 4}}{2}+\\frac{\\mathrm{C}}{\\mathrm{e}^{\\pi / 4}} \\Rightarrow \\mathrm{C}=\\frac{-\\mathrm{e}^{\\pi / 2}}{2} \\\\ & \\therefore \\mathrm{y}=\\frac{\\mathrm{e}^{\\tan ^{-1} \\mathrm{x}}}{2}-\\frac{\\mathrm{e}^{\\pi / 2}}{2 \\mathrm{e}^{\\tan ^{-1} \\mathrm{x}}} \\\\ & \\therefore \\mathrm{y}(0)=\\frac{1-\\mathrm{e}^{\\pi / 2}}{2}\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda6c",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-06T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (06 Apr Shift 1)",
+    "title": "JEE Main 2024 (06 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

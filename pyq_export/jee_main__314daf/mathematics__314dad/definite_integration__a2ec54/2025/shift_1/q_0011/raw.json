@@ -1,0 +1,58 @@
+{
+  "_id": "67a2eeccc8b73881fdaea2fd",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d97610",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-29T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (29 Jan Shift 1)",
+      "title": "JEE Main 2025 (29 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let \\(f:(0, \\infty) \\rightarrow \\mathbf{R}\\) be a twice differentiable function. If for some \\(\\mathrm{a} \\neq 0, \\int_0^1 f(\\lambda x) \\mathrm{d} \\lambda=\\mathrm{a} f(x), f(1)=1\\) and \\(f(16)=\\frac{1}{8}\\), then \\(16-f^{\\prime}\\left(\\frac{1}{16}\\right)\\) is equal to _______.",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "112",
+  "solution": {
+    "text": "Given, $\\int_0^1 f(\\lambda x) d \\lambda=a f(x)$\nLet $\\lambda x=u$\n$d \\lambda=\\frac{1}{x} d u$\n$\\therefore$ From (1) $\\frac{1}{x} \\int_0^x f(u) d u=a f(x)$\n$\\Rightarrow \\int_0^x f(u) d u=\\operatorname{axf}(x)$\nDifferentiate both sides\n$\\begin{aligned}\n& f(x)=a\\left(x f^{\\prime}(x)+f(x)\\right) \\\\\n& \\Rightarrow \\quad f(x)=a x f^{\\prime}(x)+a f(x) \\\\\n& \\Rightarrow \\quad(1-a) f(x)=a x f^{\\prime}(x) \\\\\n& \\Rightarrow \\quad \\frac{f^{\\prime}(x)}{f(x)}=\\frac{(1-a)}{a} \\cdot \\frac{1}{x}\n\\end{aligned}$\nIntegrate both side w.r.t. ( $x$ )\n$\\begin{aligned}\n& \\Rightarrow \\quad \\int \\frac{f^{\\prime}(x)}{f(x)} d x=\\frac{(1-a)}{a} \\int \\frac{1}{x} d x \\\\\n& \\Rightarrow \\ln f(x)=\\left(\\frac{1-a}{a}\\right) \\ln x+c\n\\end{aligned}$\nNow at $x=1 f(1)=1$\n$\\Rightarrow c=0$\nAlso given $f(16)=\\frac{1}{8}$\n$\\begin{aligned}\n& \\therefore \\quad \\frac{1}{8}=(16)^{\\frac{1-a}{a}} \\\\\n& \\Rightarrow \\quad 2^{-3}=2^{\\frac{4-4 a}{a}} \\\\\n& \\Rightarrow \\quad-3=\\frac{4-4 a}{a} \\\\\n& \\Rightarrow-3 a=4-4 a \\\\\n& \\Rightarrow a=4 \\\\\n& \\therefore \\quad f(x)=x^{-3 / 4} \\\\\n& f(x)=\\frac{-3}{4} x^{-\\frac{7}{4}}\n\\end{aligned}$\n$\\begin{aligned} & \\text { Put } x=\\frac{1}{16} \\\\ & f^{\\prime}\\left(\\frac{1}{16}\\right)=\\frac{-3}{4}\\left(\\frac{1}{16}\\right)^{-7 / 4}=\\frac{-3}{4} \\cdot 2^{-4 x\\left(\\frac{-7}{4}\\right)}=-96 \\\\ & \\therefore \\quad 16-f^{\\prime}\\left(\\frac{1}{16}\\right) \\Rightarrow 16-(-96)=112\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "1eba509b51e1496ab8973f55b07d7d28",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/FqBF4LPr1mfvB.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/FqBF4LPr1mfvB.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d97610",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-29T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (29 Jan Shift 1)",
+    "title": "JEE Main 2025 (29 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

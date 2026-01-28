@@ -1,0 +1,43 @@
+{
+  "index": 215,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (12 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let <math><mi>f</mi></math> and <math><mi>g</mi></math> be continuous functions on <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"[\" close=\"]\" separators=\"|\"><mrow><mn>0</mn><mo>,</mo><mi>a</mi></mrow></mfenced></math> such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>a</mi><mo>-</mo><mi>x</mi></mrow></mfenced></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>+</mo><mi>g</mi><mfenced separators=\"|\"><mrow><mi>a</mi><mo>-</mo><mi>x</mi></mrow></mfenced><mo>=</mo><mn>4</mn></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mo>&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mi>f</mi><mfenced><mi>x</mi></mfenced><mi>g</mi><mfenced><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mo stretchy=\"true\">&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>3</mn><msubsup><mo stretchy=\"true\">&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msubsup><mo stretchy=\"true\">&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mrow><mi>f</mi><mfenced><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></mrow></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msubsup><mo stretchy=\"true\">&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mrow><mi>f</mi><mfenced><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></mrow></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><msubsup><mo stretchy=\"true\">&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>g</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><msubsup><mo stretchy=\"true\">&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mi>f</mi><mfenced separators=\"|\"><mrow><mi>a</mi><mo>-</mo><mi>x</mi></mrow></mfenced><mi>g</mi><mfenced separators=\"|\"><mrow><mi>a</mi><mo>-</mo><mi>x</mi></mrow></mfenced><mi>d</mi><mi>x</mi></math>&nbsp; &nbsp; (Using properties of definite integration)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><msubsup><mo stretchy=\"true\">&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mfenced separators=\"|\"><mrow><mn>4</mn><mo>-</mo><mi>g</mi><mfenced separators=\"|\"><mi>x</mi></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi><mo>&#160;</mo><mo>&#160;</mo><mfenced open=\"[\" close=\"]\"><mrow><mo>&#8757;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mi>f</mi><mfenced><mrow><mi>a</mi><mo>-</mo><mi>x</mi></mrow></mfenced><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mi>g</mi><mfenced><mi>x</mi></mfenced><mo>+</mo><mi>g</mi><mfenced><mrow><mi>a</mi><mo>-</mo><mi>x</mi></mrow></mfenced><mo>=</mo><mn>4</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><mn>4</mn><msubsup><mo stretchy=\"true\">&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi><mo>-</mo><msubsup><mo stretchy=\"true\">&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>g</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><mn>4</mn><msubsup><mo stretchy=\"true\">&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi><mo>-</mo><mi>I</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>2</mn><mi>I</mi><mo>=</mo><mn>4</mn><msubsup><mo stretchy=\"true\">&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><mn>2</mn><msubsup><mo stretchy=\"true\">&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></math></p>"
+  }
+}

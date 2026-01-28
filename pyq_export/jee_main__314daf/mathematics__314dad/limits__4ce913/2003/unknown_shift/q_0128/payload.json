@@ -1,0 +1,43 @@
+{
+  "index": 128,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2003",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2003",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$$\n\\lim _{x \\rightarrow \\frac{\\pi}{2}} \\frac{\\left[1-\\tan \\left(\\frac{x}{2}\\right)\\right][1-\\sin x]}{\\left[1+\\tan \\left(\\frac{x}{2}\\right)\\right]\\left[\\pi-2 x^3\\right]}\n$$\nis"
+  },
+  "options": [
+    {
+      "text": "\n$\\infty$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{8}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{32}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow \\frac{\\pi}{2}} \\frac{\\tan \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right) \\cdot(1-\\sin x)}{(\\pi-2 x)^3}$\nLet $\\mathrm{x}=\\frac{\\pi}{2}+\\mathrm{y} ; \\mathrm{y} \\rightarrow 0$\n$=\\lim _{y \\rightarrow 0} \\frac{-\\tan \\left(-\\frac{y}{2}\\right) \\cdot(1-\\cos y)}{(-2 y)^3}=\\lim _{y \\rightarrow 0} \\frac{-\\tan \\frac{y}{2} 2 \\sin ^2 \\frac{y}{2}}{(-8) \\cdot \\frac{y^3}{8} \\cdot 8}$\n$=\\lim _{y \\rightarrow 0} \\frac{1}{32} \\frac{\\tan \\frac{y}{2}}{\\left(\\frac{y}{2}\\right)} \\cdot\\left[\\frac{\\sin y / 2}{y / 2}\\right]^2=\\frac{1}{32}$"
+  }
+}

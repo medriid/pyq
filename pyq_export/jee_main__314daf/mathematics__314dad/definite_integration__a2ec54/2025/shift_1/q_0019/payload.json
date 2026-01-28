@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (23 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The value of\n$\\int_{e^2}^{e^4} \\frac{1}{x}\\left(\\frac{e^{\\left(\\left(\\log _e x\\right)^2+1\\right)^{-1}}}{e^{\\left(\\left(\\log _e x\\right)^2+1\\right)^{-1}}+e^{\\left(\\left(6-\\log _e x\\right)^2+1\\right)^{-1}}}\\right) d x$ is"
+  },
+  "options": [
+    {
+      "text": "$2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log _e 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$1$",
+      "is_correct": true
+    },
+    {
+      "text": "$e^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\r\n& \\text {Put } \\ln x=t \\Rightarrow \\frac{1}{x} d x=d t \\quad \\begin{array}{|c|c|}\r\n\\hline x & t \\\\\r\n\\hline e^2 & 2 \\\\\r\n\\hline e^4 & 4 \\\\\r\n\\hline \\end{array} \\\\\r\n& I=\\int_2^4 \\frac{e^{\\left(\\mathrm{t}^2+1\\right)^{-1}}}{e^{\\left(\\mathrm{t}^2+1\\right)^{-1}}+e^{\\left((6-t)^2+1\\right)^{-1}}} d t \\quad \\ldots \\text { (i) } \\\\\r\n& I=\\int_2^4 \\frac{e^{\\left((6-t)^2+1\\right)^{-1}}}{e^{\\left((6-t)^2+1\\right)^{-1}}+e^{\\left(t^2+1\\right)^{-1}} d t} \\ldots \\text { (ii) } \\\\\r\n& \\left\\{\\text { Using } \\int_a^0 f(x) d x=\\int_a^0 f(a+b-x) d x\\right\\}\r\n\\end{aligned}$\r\nAdding (i) and (ii) gives\r\n$2 l=\\int d t \\Rightarrow l=1$"
+  }
+}

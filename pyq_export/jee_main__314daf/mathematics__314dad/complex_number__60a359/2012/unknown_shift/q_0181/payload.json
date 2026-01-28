@@ -1,0 +1,43 @@
+{
+  "index": 181,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (12 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602527bd39a958e960a359",
+    "chapter_name": "Complex Number",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area of the triangle whose vertices are complex numbers $z, i z, z+i z$ in the Argand diagram is"
+  },
+  "options": [
+    {
+      "text": "\n$2|z|^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$1 / 2|z|^2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$4|z|^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$|z|^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Vertices of triangle in complex form is $z, i z, z+i z$\nIn cartesian form vertices are $(x, y),(-y, x)$ and $(x-y, x+y)$\n$$\n\\begin{aligned}\n& \\therefore \\text { Area of triangle }=\\frac{1}{2}\\left|\\begin{array}{ccc}\nx & y & 1 \\\\\n-y & x & 1 \\\\\nx-y & x+y & 1\n\\end{array}\\right| \\\\\n& =\\frac{1}{2}[x(x-x-y)-y(-y-x+y)+1 \\\\\n& \\left.\\left(-y x-y^2-x^2+x y\\right)\\right]\n\\end{aligned}\n$$\n$$\n\\begin{aligned}\n& =\\frac{1}{2}\\left[-x y+x y-y^2-x^2\\right]=\\frac{1}{2}\\left(x^2+y^2\\right) \\\\\n& (\\because \\text { Area can not be negative }) \\\\\n& =\\frac{1}{2}|z|^2 \\quad\\left(\\because z=x+i y,|z|^2=x^2+y^2\\right)\n\\end{aligned}\n$$"
+  }
+}

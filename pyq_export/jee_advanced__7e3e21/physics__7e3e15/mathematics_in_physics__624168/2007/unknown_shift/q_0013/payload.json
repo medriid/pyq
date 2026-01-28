@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2007 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "620ab20a58b33b9d42624168",
+    "chapter_name": "Mathematics in Physics",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A student performs an experiment to determine the Young's modulus of a wire, exactly $2 \\mathrm{~m}$ long, by Searle's method. In a particular reading, the student measures the extension in the length of the wire to be $0.8 \\mathrm{~mm}$ with an uncertainty of $\\pm 0.05 \\mathrm{~mm}$ at a load of exactly $1.0 \\mathrm{~kg}$. The student also measures the diameter of the wire to be $0.4 \\mathrm{~mm}$ with an uncertainty of $\\pm 0.01 \\mathrm{~mm}$. Take $g=9.8 \\mathrm{~m} / \\mathrm{s}^2$ (exact). The Young's modulus obtained from the reading is"
+  },
+  "options": [
+    {
+      "text": "\n$(2.0 \\pm 0.3) 10^{11} \\mathrm{~N} / \\mathrm{m}^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(2.0 \\pm 0.2) \\times 10^{11} \\mathrm{~N} / \\mathrm{m}^2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$(2.0 \\pm 0.1) \\times 10^{11} \\mathrm{~N} / \\mathrm{m}^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(2.0 \\pm 0.05) \\times 10^{11} \\mathrm{~N} / \\mathrm{m}^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} Y & =\\frac{F L}{A l}=\\frac{4 F L}{\\pi d^2 l} \\\\ & =\\frac{(4)(1.0 \\times 9.8)(2)}{\\pi\\left(0.4 \\times 10^{-3}\\right)^2\\left(0.8 \\times 10^{-3}\\right)}=20 \\times 10^{11} \\mathrm{~N} / \\mathrm{m}^2\\end{aligned}$\nFurther $\\quad \\frac{\\Delta Y}{Y}=2\\left(\\frac{\\Delta d}{d}\\right)+\\left(\\frac{\\Delta l}{l}\\right)$\n$$\n\\begin{aligned}\n\\therefore \\quad \\Delta Y & =\\left\\{2\\left(\\frac{\\Delta d}{d}\\right)+\\left(\\frac{\\Delta l}{l}\\right)\\right\\} Y=\\left\\{2 \\times \\frac{0.01}{0.4}+\\frac{0.05}{0.8}\\right\\} \\times 2.0 \\times 10^{11} \\\\\n& =0.2 \\times 10^{11} \\mathrm{~N} / \\mathrm{m}^2 \\text { or }(Y+\\Delta Y)=(2+0.2) \\times 10^{11} \\mathrm{~N} / \\mathrm{m}^2\n\\end{aligned}\n$$\nThe correct option is (b)."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $f$ be a real valued continuous function defined on the positive real axis such that $g(x)=\\int_0^x \\mathrm{t} f(\\mathrm{t}) \\mathrm{dt}$. If $\\mathrm{g}\\left(x^3\\right)=x^6+x^7$, then value of $\\sum_{r=1}^{15} f\\left(\\mathrm{r}^3\\right)$ is :"
+  },
+  "options": [
+    {
+      "text": "$270$",
+      "is_correct": false
+    },
+    {
+      "text": "$340$",
+      "is_correct": false
+    },
+    {
+      "text": "$320$",
+      "is_correct": false
+    },
+    {
+      "text": "$310$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$g(x)=x^2+x^{7 / 3}$\n$\\begin{aligned} & g^{\\prime}(x)=2 x+\\frac{7}{3} x^{4 / 3} \\\\ & f(x)=\\frac{g^{\\prime}(x)}{x} \\\\ & f(x)=2+\\frac{7}{3} x^{1 / 3} \\\\ & f\\left(r^3\\right)=2+\\frac{7}{3} r \\\\ & \\sum_{r=1}^{15}\\left(2+\\frac{7}{3} r\\right)=2(15)+\\frac{7}{3}\\left(\\frac{15(16)}{2}\\right)\\end{aligned}$\n$=310$"
+  }
+}

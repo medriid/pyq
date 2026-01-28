@@ -1,0 +1,45 @@
+{
+  "index": 12,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2012 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025668251a1afed1b2257",
+    "chapter_name": "Area Under Curves",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathrm{S}$ be the area of the region enclosed by $y=e^{-x^{2}}$, $y=0, x=0$ and $x=1$; then"
+  },
+  "options": [
+    {
+      "text": "$S \\geq \\frac{1}{e}$",
+      "is_correct": true
+    },
+    {
+      "text": "$S \\geq 1-\\frac{1}{e}$",
+      "is_correct": true
+    },
+    {
+      "text": "$S \\leq \\frac{1}{4}\\left(1+\\frac{1}{\\sqrt{e}}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$S \\leq \\frac{1}{\\sqrt{2}}+\\frac{1}{\\sqrt{e}}\\left(1-\\frac{1}{\\sqrt{2}}\\right)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "B",
+    "D"
+  ],
+  "solution": {
+    "text": "The given curve $y=e^{-x^{2}}$ Draw a rough sketch of curve at $x=0, y=1$ and at $x=1, y=1 / e$ $\\because y=e^{-x^{2}}$ $\\Rightarrow \\frac{d y}{d x}=-2 x e^{-x^{2}} < 0 \\quad \\forall x \\in(0,1)$\r\n\r\n$\\therefore y=e^{-x^{2}}$ is decreasing on $(0,1)$\r\n\r\nHence its graph is as shown in figure given below<img src=\"assets\\st0012_564cfc053dc5.png\"><br>\r\n\r\nNow, $\\mathrm{S}=$ area exclosed by curve $=\\mathrm{XYCO}$\r\n\r\nand area of rectangle $\\mathrm{OCYL}=\\frac{1}{e}$\r\n\r\nClearly $S>\\frac{1}{e} \\quad \\therefore$ a is true.\r\n\r\nFor $x \\in[0,1] \\Rightarrow x^{2} < x$\r\n\r\n$\\begin{array}{l}\r\n\r\n\\Rightarrow-x^{2}>-x \\quad \\Rightarrow e^{-x^{2}} \\geq e^{-x} \\forall x \\in[0,1] \\\\\r\n\r\n\\Rightarrow \\int_{0}^{1} e^{-x^{2}} d x>\\int_{0}^{1} e^{-x} d x=1-\\frac{1}{e} \\\\\r\n\r\n\\Rightarrow S>1-\\frac{1}{e} \\quad \\therefore \\text { (b) is true. }\r\n\r\n\\end{array}$\r\n\r\nNow $S < $ area of rectangle $\\mathrm{XADO}+$ area of rectangle $\\mathrm{ZDCN}$ $\\Rightarrow S < \\frac{1}{\\sqrt{2}} \\times 1+\\left(1-\\frac{1}{\\sqrt{2}}\\right) \\frac{1}{\\sqrt{e}}$ $\\therefore S < \\frac{1}{\\sqrt{2}}+\\frac{1}{\\sqrt{e}}\\left(1-\\frac{1}{\\sqrt{2}}\\right) \\quad \\because(\\mathrm{d})$ is true\r\n\r\nAlso as $\\frac{1}{4}\\left(1+\\frac{1}{\\sqrt{e}}\\right) < 1-\\frac{1}{e} \\quad \\therefore$ (c) is incorrect."
+  }
+}

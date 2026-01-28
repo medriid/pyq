@@ -1,0 +1,63 @@
+{
+  "_id": "6557bcb8d43b5ec151ee5493",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "648b5a3a0d9d0b909f7b6494",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2023-04-13T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (13 Apr Shift 1)",
+      "title": "JEE Main 2023 (13 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "<p>Among</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>1</mn></mrow></mfenced><mo>:</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mn>1</mn><msup><mi>n</mi><mn>2</mn></msup></mfrac><mo>(</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>6</mn><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mn>2</mn><mi>n</mi><mo>)</mo><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>2</mn></mrow></mfenced><mo>:</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mn>1</mn><msup><mi>n</mi><mn>16</mn></msup></mfrac><mfenced><mrow><msup><mn>1</mn><mn>15</mn></msup><mo>+</mo><msup><mn>2</mn><mn>15</mn></msup><mo>+</mo><msup><mn>3</mn><mn>15</mn></msup><mo>+</mo><mo>&#8230;</mo><mo>+</mo><msup><mi>n</mi><mn>15</mn></msup></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>16</mn></mfrac></math></p>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "CzpoB",
+      "text": "Both&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>1</mn></mrow></mfenced></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>2</mn></mrow></mfenced></math>&nbsp;are true",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "YIlul",
+      "text": "Only&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>1</mn></mrow></mfenced></math>&nbsp;is true",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "LPimV",
+      "text": "Both&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>1</mn></mrow></mfenced></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>2</mn></mrow></mfenced></math>&nbsp;are false",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "PD4oT",
+      "text": "Only&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>2</mn></mrow></mfenced></math>&nbsp;is true",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<blockquote><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub><mo>:</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mn>1</mn><msup><mi>n</mi><mn>2</mn></msup></mfrac><mo>[</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>6</mn><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mn>2</mn><mi>n</mi><mo>]</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mn>2</mn><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub><mo>:</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mn>1</mn><msup><mi>n</mi><mn>16</mn></msup></mfrac><mfenced><mrow><msup><mn>1</mn><mn>15</mn></msup><mo>+</mo><msup><mn>2</mn><mn>15</mn></msup><mo>+</mo><msup><mn>3</mn><mn>15</mn></msup><mo>+</mo><mo>&#8230;</mo><mo>+</mo><msup><mi>n</mi><mn>15</mn></msup></mrow></mfenced></math></p><p>This is limit of sum.</p><p>We know that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mi>f</mi><mfenced><mfrac><mi>r</mi><mi>n</mi></mfrac></mfenced><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>d</mo><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8757;</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mrow><msubsup><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msup><mi>r</mi><mi>k</mi></msup></mrow><msup><mi>n</mi><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></msup></mfrac><mo>=</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mrow><msubsup><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msup><mfenced><mstyle displaystyle=\"true\"><mfrac><mi>r</mi><mi>n</mi></mfrac></mstyle></mfenced><mi>k</mi></msup></mrow><mi>n</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><msup><mi>x</mi><mi>k</mi></msup><mo>d</mo><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math></p><p>Here&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>15</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mrow><msubsup><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msup><mi>r</mi><mn>15</mn></msup></mrow><msup><mi>n</mi><mn>16</mn></msup></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>16</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo></math>&nbsp;Both&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mn>1</mn></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mn>2</mn></math>&nbsp;are correct</p><p>Hence this is the required option.</p></blockquote>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "648b5a3a0d9d0b909f7b6494",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2023-04-13T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (13 Apr Shift 1)",
+    "title": "JEE Main 2023 (13 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

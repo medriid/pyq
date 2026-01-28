@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2006",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602544a0c712fd38fee5c4",
+    "chapter_name": "Limits",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nRead the following passage and answer the questions.\nFor every function $f(x)$ which is twice differentiable, these will be good approximation of $\\int_a^b f(x) d x \\cong\\left(\\frac{b-a}{2}\\right)\\{f(a)+f(b)\\}$. Now, if we take $c=\\frac{a+b}{2}$, then using above again, we get $\\int_a^b f(x) d x=\\int_a^c f(x) d x+\\int_c^b f(x) d x \\cong \\frac{b-a}{4}\\{f(a)+f(b)+2 f(c)\\}$ and so on.\nWe get approximation for value of $\\int_a^b f(x) d x$.<strong>Question:</strong>\nIf $\\lim _{t \\rightarrow a} \\frac{\\int_a^t f(x) d x-\\frac{(t-a)}{2}\\{f(t)+f(a)\\}}{(t-a)^3}=0$, then degree of polynomial function $f(x)$ at most is"
+  },
+  "options": [
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n3\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n\\lim _{t \\rightarrow a} \\frac{\\int_a^t f(t) d t-\\frac{(t-a)}{2}(f(t)+f(a))}{(t-a)^3} & =0 \\\\\n\\Rightarrow \\quad \\lim _{h \\rightarrow 0} \\frac{\\int_a^{a+h} f(t) d t-\\frac{h}{2}(f(a+h)+f(a))}{h^3} & =0 \\\\\n\\Rightarrow \\quad \\lim _{h \\rightarrow 0} \\frac{f(a+h)-\\frac{1}{2}(f(a+h)+f(a))-\\frac{h}{2}\\left(f^{\\prime}(a+h)\\right)}{3 h^2} & =0\n\\end{aligned}\n$$\n$f^{\\prime}(a+h)-\\frac{1}{2} f^{\\prime}(a+h)$\n$\\Rightarrow \\quad \\lim _{h \\rightarrow 0} \\frac{-\\frac{1}{2} f^{\\prime}(a+h)-\\frac{h}{2} f^{\\prime \\prime}(a+h)}{6 h}=0$\n$\\Rightarrow \\quad \\lim _{h \\rightarrow 0} \\frac{-\\frac{h}{2} f^{\\prime}(a+h)}{6 h}=0$\n$\\Rightarrow \\quad f^{\\prime \\prime}(a)=0, \\forall a \\in R$\n$\\Rightarrow(x)$ must have maximum degree 1."
+  }
+}

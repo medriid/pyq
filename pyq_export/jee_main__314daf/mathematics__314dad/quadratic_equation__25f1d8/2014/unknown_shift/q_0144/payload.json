@@ -1,0 +1,43 @@
+{
+  "index": 144,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2014 (11 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602525fb63982f7225f1d8",
+    "chapter_name": "Quadratic Equation",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\alpha$ and $\\beta$ are roots of the equation, $x^2-4 \\sqrt{2} k x+2 e^{4 \\ln k}-1=0$ for some $k$, and $\\alpha^2+\\beta^2=66$, then $\\alpha^3+\\beta^3$ is equal to:"
+  },
+  "options": [
+    {
+      "text": "\n$248 \\sqrt{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$280 \\sqrt{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-32 \\sqrt{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-280 \\sqrt{2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$x^2-4 \\sqrt{2} k x+2 e^{4 \\ln k}-1=0$ or, $x^2-4 \\sqrt{2} k x+2 k^4-1=0$ $\\alpha+\\beta=4 \\sqrt{2} k$ and $\\alpha \\cdot \\beta=2 k^4-1$ Squaring both sides, we get\n$$\n\\begin{aligned}\n&(\\alpha+\\beta)^2=(4 \\sqrt{2} k)^2 \\\\\n&\\Rightarrow \\alpha^2+\\beta^2+2 \\alpha \\beta=32 k^2 \\\\\n&66+2 \\alpha \\beta=32 k^2 \\\\\n&66+2\\left(2 k^4-1\\right)=32 k^2 \\\\\n&66+4 k^4-2=32 k^2 \\\\\n&\\Rightarrow 4 k^4-32 k^2+64=0 \\\\\n&\\text { or, } k^4-8 k^2+16=0 \\\\\n&\\Rightarrow\\left(k^2\\right)^2-8 k^2+16=0 \\\\\n&\\Rightarrow\\left(k^2-4\\right)\\left(k^2-4\\right)=0 \\\\\n&\\Rightarrow k^2=4, k^2=4 \\\\\n&\\Rightarrow k=\\pm 2\n\\end{aligned}\n$$\nNow, $\\alpha^3+\\beta^3=(\\alpha+\\beta)\\left(\\alpha^2+\\beta^2-\\alpha \\beta\\right)$\n$$\n\\therefore \\alpha^3+\\beta^3=(4 \\sqrt{2} k)\\left[66-\\left(2 k^4-1\\right)\\right]\n$$\nPutting $k=-2,(k=+2$ cannot be taken because it does not satisfy the above equation)\n$\\therefore \\alpha^3+\\beta^3=(4 \\sqrt{2}(-2))\\left[66-2(-2)^4-1\\right]$\n$\\alpha^3+\\beta^3=(-8 \\sqrt{2})(66-32+1)=$\n$(-8 \\sqrt{2})(35)$\n$\\therefore \\alpha^3+\\beta^3=-280 \\sqrt{2}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d10462f802c3ef913dd",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=a_0+a_1|x|+a_2|x|^2+a_3|x|^3$, where $a_0, a_1, a_2, a_3$ are real constants. Then $f(x)$ is differentiable at $x=0$"
+  },
+  "options": [
+    {
+      "text": "whatever be $a_0, a_1, a_2, a_3$",
+      "is_correct": false
+    },
+    {
+      "text": "for no values of $a_0, a_1, a_2, a_3$",
+      "is_correct": false
+    },
+    {
+      "text": "only if $a_1=0$",
+      "is_correct": true
+    },
+    {
+      "text": "only if $a_1=0, a_3=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$f^{\\prime}\\left(0^{+}\\right)=\\lim _{x \\rightarrow 0}\\left(a_1+2 a_1 x+3 a_3 x^2\\right)=a_1$\n$f^{\\prime}\\left(0^{-}\\right)=\\lim _{x \\rightarrow 0}\\left(-a_1+2 a_1 x-3 a_3 x^2\\right)=-a_1$\n$f^{\\prime}\\left(0^{+}\\right)=f^{\\prime}\\left(0^{-}\\right) \\quad \\Rightarrow a_1=0$"
+  }
+}

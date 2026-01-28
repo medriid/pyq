@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd8ccf6aa19875bc6bb",
+    "chapter_name": "Binomial Theorem",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $S=\\frac{2}{1}{ }^{n} C_{0}+\\frac{2^{2}}{2}{ }^{n} C_{1}+\\frac{2^{3}}{3}{ }^{n} C_{2}$ $+\\ldots+\\frac{2^{n+1}}{n+1}{ }^{n} C_{n} .$ Then, $S$ equals"
+  },
+  "options": [
+    {
+      "text": "$\\frac{2^{n+1}-1}{n+1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{3^{n+1}-1}{n+1}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{3^{n}-1}{n}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2^{n}-1}{n}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "We know that $(1+x)^{n}={ }^{n} C_{0}+x{ }^{-} C_{1}+x^{2}{ }^{n} C_{2}+\\ldots+x^{n}{ }^{n} C_{n}$\r\nOn integrating both sides from 0 to 2 , we get\r\n$\\left[\\frac{(1+x)^{n+1}}{n+1}\\right]_{0}^{2}$\r\n$=\\left[x^{n} C_{0}+\\frac{x^{2}}{2}^{n} C_{1}+\\frac{x^{3}}{3}^{n} C_{2}+\\ldots+\\frac{x^{n+1}}{n+1}^{n} C_{n}\\right]_{0}^{2}$\r\n$\\Rightarrow \\frac{(3)^{n+1}}{n+1}-\\frac{1}{n+1}=2{ }^{n} C_{0}+\\frac{2^{2}}{2}{ }^{n} C_{1}+\\frac{2^{3}}{3}{ }^{n} C_{2}$\r\n$\\quad+\\ldots+\\frac{2^{n+1}}{n+1}{ }^{n} C_{n}-0$\r\n$\\Rightarrow \\frac{2}{1}{ }^{n} C_{0}+\\frac{2^{2}}{2}{ }^{n} C_{1}+\\frac{2^{3}}{3}{ }^{n} C_{2}+\\ldots+\\frac{2^{n+1}}{n+1}{ }^{n} C_{n}$\r\n$\\quad=\\frac{3^{n+1}-1}{n+1}$"
+  }
+}

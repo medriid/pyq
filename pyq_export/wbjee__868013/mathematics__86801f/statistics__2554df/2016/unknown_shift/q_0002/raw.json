@@ -1,0 +1,63 @@
+{
+  "_id": "64a81422e0ff5a5425a858cb",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7b",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2016-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2016",
+      "title": "WBJEE 2016"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Standard deviation of $n$ observations $a_{1}, a_{2}, a_{3}, \\ldots, a_{n}$ is ${\\sigma} .$ Then, the standard deviation of the observations $\\lambda a_{1}, \\lambda a_{2}, \\ldots, \\lambda a_{n}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "qhDNm",
+      "text": "$\\lambda {\\sigma}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "3f4C2",
+      "text": "$-\\lambda \\sigma$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "7Nh3k",
+      "text": "$|\\lambda| \\sigma$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "N47tO",
+      "text": "$\\lambda^{n} \\boldsymbol{\\sigma}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $x_{i}=a_{1}, a_{2}, a_{3}, \\ldots, a_{n}$\r\nand $y_{i}=\\lambda a_{1}, \\lambda a_{2}, \\lambda a_{3}, \\ldots, \\lambda a_{n-}$\r\n$$\r\ny_{i}=\\lambda x_{i}\r\n$$\r\n$\\because$\r\n$\\begin{aligned} \\bar{y} &=\\frac{\\Sigma y_{i}}{N} \\\\ &=\\frac{\\Sigma \\lambda x_{i}}{n} \\end{aligned}$\r\n$$\r\n\\begin{aligned}\r\n&=\\lambda \\frac{\\Sigma x_{i}}{n} \\\\\r\n&=\\lambda \\bar{x} \\\\\r\n\\sigma_{y} &=\\sqrt{\\frac{\\Sigma\\left(y_{i}-\\bar{y}\\right)^{2}}{N}} \\\\\r\n&=\\sqrt{\\frac{\\Sigma(\\lambda x_{i}-\\lambda \\bar{x})^{2}}{n}} \\\\\r\n&=\\sqrt{\\frac{\\lambda^{2} \\Sigma\\left(x_{i}-\\bar{x}\\right)^{2}}{n}} \\\\\r\n&=\\sqrt{\\lambda^{2} \\sigma_{x}^{2}}=|\\lambda| \\sigma_{x}=|\\lambda| \\sigma\r\n\\end{aligned}\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7b",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2016-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2016",
+    "title": "WBJEE 2016"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

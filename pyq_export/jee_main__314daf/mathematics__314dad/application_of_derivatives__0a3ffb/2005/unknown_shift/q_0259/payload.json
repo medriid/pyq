@@ -1,0 +1,43 @@
+{
+  "index": 259,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f$ be differentiable for all $x$. If $f(1)=-2$ and $f^{\\prime}(x) \\geq 2$ for $x \\in[1,6]$, then"
+  },
+  "options": [
+    {
+      "text": "\n$f(6) \\geq 8$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$f(6) < 8$",
+      "is_correct": false
+    },
+    {
+      "text": "\n$f(6) < 5$",
+      "is_correct": false
+    },
+    {
+      "text": "\n$f(6)=5$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "As $f(1)=-2 \\quad \\& f^{\\prime}(x) \\geq 2 \\quad \\forall x \\in[1,6]$\nApplying Lagrange's mean value theorem\n$$\n\\begin{aligned}\n& \\frac{f(6)-f(1)}{5}=f^{\\prime}(c) \\geq 2 \\\\\n& \\Rightarrow f(6) \\geq 10+f(1) \\\\\n& \\Rightarrow f(6) \\geq 10-2 \\\\\n& \\Rightarrow f(6) \\geq 8 .\n\\end{aligned}\n$$"
+  }
+}

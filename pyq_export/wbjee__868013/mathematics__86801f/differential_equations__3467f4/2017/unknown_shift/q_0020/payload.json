@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The integrating factor of the first order differential equation $x^{2}\\left(x^{2}-1\\right) \\frac{d y}{d x}+x\\left(x^{2}+1\\right) y=x^{2}-1$ is"
+  },
+  "options": [
+    {
+      "text": "$e^{x}$",
+      "is_correct": false
+    },
+    {
+      "text": "$x-\\frac{1}{x}$",
+      "is_correct": true
+    },
+    {
+      "text": "$x+\\frac{1}{x}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{x^{2}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "We have,\r\n$x^{2}\\left(x^{2}-1\\right) \\frac{d y}{d x}+x\\left(x^{2}+1\\right) y=x^{2}-1$\r\n$\\Rightarrow \\quad \\frac{d y}{d x}+\\frac{x^{2}+1}{x\\left(x^{2}-1\\right)} y=\\frac{1}{x^{2}}$\r\n$\\begin{aligned} I F=& e^{\\int \\frac{x^{2}+1}{x\\left(x^{2}-1\\right)} d x} \\\\ &=e^{\\int \\frac{x^{2}+1}{x(x-1)(x+1)}} d x \\end{aligned}$\r\nLet $\\frac{x^{2}+1}{x(x-1)(x+1)}=\\frac{A}{x}+\\frac{B}{x-1}+\\frac{C}{x+1}$\r\n$\\Rightarrow x^{2}+1=A(x-1)(x+1)+B x(x+1)$ $\\quad+\\operatorname{Cx}(x-1)$\r\n$\\begin{array}{ll}\\text { Put } x=0, & \\\\ \\therefore \\quad & 1=-A \\\\ \\Rightarrow & A=-1 \\\\ \\Rightarrow & \r\n\\end{array}$\r\nPut $x=1\r\n\\therefore \\quad 2=2 B$\r\n$\\begin{array}{ll}\\therefore & B=1 \\\\ \\Rightarrow & x=-1\\end{array}$\r\n$\\therefore \\quad 2=2 C$\r\n$\\Rightarrow C=1$\r\n$\\therefore \\frac{x^{2}+1}{x(x-1)(x+1)}=\\frac{-1}{x}+\\frac{1}{x-1}+\\frac{1}{x+1}$\r\n$\\therefore \\quad I F=e^{\\int\\left(\\frac{-1}{x}+\\frac{1}{x-1}+\\frac{1}{x+1}\\right) d x}$\r\n$=e^{[-\\log x+\\ln (x-1)+\\log (x+1)]}$\r\n$=e^{\\ln \\left(\\frac{x^{2}-1}{x}\\right)}=\\frac{x^{2}-1}{x}$\r\n$=x-\\frac{1}{x}$"
+  }
+}

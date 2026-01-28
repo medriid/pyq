@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023e7441e5bacfafa72af",
+    "chapter_name": "Thermodynamics",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "A Carnot engine $(\\mathrm{E})$ is working between two temperatures 473 K and 273 K . In a new system two engines - engine $E_1$ works between 473 K to 373 K and engine $E_2$ works between 373 K to 273 K .\nIf $\\eta_{12}, \\eta_1$ and $\\eta_2$ are the efficiencies of the engines $E, E_1$ and $E_2$, respectively, then"
+  },
+  "options": [
+    {
+      "text": "$\\eta_{12}=\\eta_1 \\eta_2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\eta_{12} \\geq \\eta_1+\\eta_2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\eta_{12}=\\eta_1+\\eta_2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\eta_{12} \\lt \\eta_1+\\eta_2$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Efficiencies of a carnot engine $\\eta=1-\\frac{T_{\\text {sink }}}{T_{\\text {source }}}$\n$\\begin{aligned}\n\\Rightarrow & \\eta_1=1-\\frac{373 \\mathrm{~K}}{473 \\mathrm{~K}}=\\frac{100}{473} \\\\\n& \\eta_2=1-\\frac{273 \\mathrm{~K}}{373 \\mathrm{~K}}=\\frac{100}{373} \\\\\n& \\eta_{12}=1-\\frac{273 \\mathrm{~K}}{473 \\mathrm{~K}}=\\frac{100}{473} \\\\\n& \\eta_{12}-\\eta_1=\\frac{200}{473}-\\frac{100}{473}=\\frac{100}{473} < \\frac{100}{373} \\\\\n\\Rightarrow & \\eta_{12}-\\eta_1 < \\eta_2 \\\\\n\\text { or } & \\eta_{12} < \\eta_1+\\eta_2\n\\end{aligned}$"
+  }
+}

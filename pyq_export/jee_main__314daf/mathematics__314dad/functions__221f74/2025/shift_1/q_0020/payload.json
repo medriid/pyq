@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602555685234356f221f74",
+    "chapter_name": "Functions",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $f(x)=\\frac{2^{x+2}+16}{2^{2 x+1}+2^{x+4}+32}$. Then the value of $8\\left(f\\left(\\frac{1}{15}\\right)+f\\left(\\frac{2}{15}\\right)+\\ldots+f\\left(\\frac{59}{15}\\right)\\right)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$92$",
+      "is_correct": false
+    },
+    {
+      "text": "$118$",
+      "is_correct": true
+    },
+    {
+      "text": "$102$",
+      "is_correct": false
+    },
+    {
+      "text": "$108$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& f(x)=\\frac{42^x+16}{2.2^{2 x}+16.2^x+32} \\\\\n& f(x)=\\frac{2\\left(2^x+4\\right)}{2^{2 x}+8.2^x+16} \\\\\n& f(x)=\\frac{2}{2^x+4} \\\\\n& f(4-x)=\\frac{2^x}{2\\left(2^x+4\\right)} \\\\\n& f(x)+f(4-x)=\\frac{1}{2}\n\\end{aligned}$\n\nSo, $\\quad \\mathrm{f}\\left(\\frac{1}{15}\\right)+\\mathrm{f}\\left(\\frac{59}{15}\\right)=\\frac{1}{2}$\n$\\begin{aligned}\n& \\text { Similarly }=f\\left(\\frac{29}{15}\\right)+f\\left(\\frac{31}{15}\\right)=\\frac{1}{2} \\\\\n& f\\left(\\frac{30}{15}\\right)=f(2)=\\frac{2}{2^2+4}=\\frac{2}{8}=\\frac{1}{4} \\\\\n& \\Rightarrow 8\\left(29 \\times \\frac{1}{2}+\\frac{1}{4}\\right)\n\\end{aligned}$\n\nAns. 118"
+  }
+}

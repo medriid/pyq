@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc594defad39e8768ec",
+    "chapter_name": "Quadratic Equation",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $b_{1} b_{2}=2\\left(c_{1}+c_{2}\\right)$ and $b_{1}, b_{2}, c_{1}, c_{2}$ are all real numbers, then at least one of the equations $\\bar{x}^{2}+h_{1} x+c_{1}=0$ and $x^{2}+b_{2} x+c_{2}=0$ has"
+  },
+  "options": [
+    {
+      "text": "real roots",
+      "is_correct": true
+    },
+    {
+      "text": "purely imagnary roots",
+      "is_correct": false
+    },
+    {
+      "text": "roots of the form $a+i b(a, b \\in R, a b \\neq 0)$",
+      "is_correct": false
+    },
+    {
+      "text": "rational roots",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "We have equations\r\n$$\r\n\\begin{aligned}\r\nx^{2}+b_{1} x+c_{1} &=0 \\\\\r\nD_{1} &=b_{1}^{2}-4 c_{1} \\\\\r\nx^{2}+b_{2} x+c_{2} &=0\r\n\\end{aligned}\r\n$$\r\n$$\r\n\\begin{array}{c}\r\nD_{2}=b_{2}^{2}-4 c_{2} \\\\\r\n\\text { Now, } D_{1}+D_{2}=b_{1}^{2}+b_{2}^{2}-4\\left(c_{1}+c_{2}\\right) \\\\\r\n=b_{1}^{2}+b_{2}^{2}-2 b_{1} b_{2} \\quad\\left[\\because b_{1} b_{2}=2\\left(c_{1}+c_{2}\\right)\\right] \\\\\r\n=\\left(b_{1}-b_{2}\\right)^{2} \\geq 0\r\n\\end{array}\r\n$$\r\n$\\Rightarrow$ At least one of $D_{1}$ and $D_{2}$ are non-negative\r\nreal roots."
+  }
+}

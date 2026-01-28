@@ -1,0 +1,63 @@
+{
+  "_id": "66446757970e6e9ab542d26f",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda70",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-09T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (09 Apr Shift 1)",
+      "title": "JEE Main 2024 (09 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "The solution of the differential equation $\\left(x^2+y^2\\right) \\mathrm{d} x-5 x y \\mathrm{~d} y=0, y(1)=0$, is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Rpr0Y",
+      "text": "$\\left|x^2-2 y^2\\right|^6=x$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "WNGJF",
+      "text": "$\\left|x^2-4 y^2\\right|^6=x$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "VdvKI",
+      "text": "$\\left|x^2-4 y^2\\right|^5=x^2$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "5Fyy1",
+      "text": "$\\left|x^2-2 y^2\\right|^5=x^2$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\left(x^2+y^2\\right) d x=5 x y d y \\\\\n& \\Rightarrow \\frac{d y}{d x}=\\frac{x^2+y^2}{5 x y}\n\\end{aligned}$<br />Put $y=V x$\n$\\begin{aligned}\n& \\Rightarrow \\mathrm{V}+\\mathrm{x} \\frac{\\mathrm{dv}}{\\mathrm{dx}}=\\frac{1+\\mathrm{V}^2}{5 \\mathrm{~V}} \\\\\n& \\Rightarrow \\frac{\\mathrm{xdv}}{\\mathrm{dx}}=\\frac{1-4 \\mathrm{~V}^2}{5 \\mathrm{~V}} \\\\\n& \\Rightarrow \\int \\frac{\\mathrm{V}}{1-4 \\mathrm{~V}^2} \\mathrm{dV}=\\int \\frac{\\mathrm{dx}}{5 \\mathrm{x}}\n\\end{aligned}$<br />Let $1-4 \\mathrm{~V}^2=\\mathrm{t}$\n$\\Rightarrow-8 \\mathrm{~V} \\mathrm{dV}=\\mathrm{dt}$\n$\\begin{aligned} & \\Rightarrow \\int \\frac{\\mathrm{dt}}{(-8)(\\mathrm{t})}=\\int \\frac{\\mathrm{dx}}{5 \\mathrm{x}} \\\\ & \\Rightarrow \\frac{-1}{8} \\ln |\\mathrm{t}|=\\frac{1}{5} \\ln |\\mathrm{x}|+\\ln \\mathrm{C} \\\\ & \\Rightarrow-5 \\ln |\\mathrm{t}|=8 \\ln |\\mathrm{x}|+\\ln \\mathrm{K} \\\\ & \\Rightarrow \\ln \\mathrm{x}^8+\\ln \\left|\\mathrm{t}^5\\right|+\\ln \\mathrm{K}=0 \\\\ & \\Rightarrow \\mathrm{x}^8\\left|\\mathrm{t}^5\\right|=\\mathrm{C} \\\\ & \\Rightarrow \\mathrm{x}^8\\left|1-4 \\mathrm{~V}^2\\right|^5=\\mathrm{C} \\\\ & \\Rightarrow \\mathrm{x}^8\\left|\\frac{\\mathrm{x}^2-4 \\mathrm{y}^2}{\\mathrm{x}^2}\\right|^5=\\mathrm{C} \\\\ & \\Rightarrow\\left|\\mathrm{x}^2-4 \\mathrm{y}^2\\right|^5=\\mathrm{Cx} \\mathrm{x}^2 \\\\ & \\text { given } \\mathrm{y}(1)=0 \\\\ & \\Rightarrow|1|^5=\\mathrm{C} \\Rightarrow \\mathrm{C}=1 \\\\ & \\Rightarrow\\left|\\mathrm{x}^2-4 \\mathrm{y}^2\\right|^5=\\mathrm{x}^2\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda70",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-09T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (09 Apr Shift 1)",
+    "title": "JEE Main 2024 (09 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

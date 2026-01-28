@@ -1,0 +1,63 @@
+{
+  "_id": "64a81400e0ff5a5425a85786",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The solution of the differential equation $\\frac{d y}{d x}+\\frac{y}{x \\log _{e} x}=\\frac{1}{x}$ under the condition $y=1$ when $x=e$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "eNC4V",
+      "text": "$2 y=\\log _{e} x+\\frac{1}{\\log _{e} x}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "aTYwQ",
+      "text": "$y=\\log _{e} x+\\frac{2}{\\log _{e} x}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "YFF30",
+      "text": "$y \\log _{e} x=\\log _{2} x+1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "mkVkq",
+      "text": "$y=\\log _{e} x+e$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, differential equation is $\\frac{d y}{d x}+\\frac{y}{x \\log _{e} x}=\\frac{1}{x}$\r\nIt is a linear equation of the form $\\frac{d y}{d x}+P y=Q$\r\nwhere $\\quad P=\\frac{1}{x \\log _{e} x}$ and $Q=\\frac{1}{x}$\r\n$\\therefore$ Integrating factor, $\\mathrm{IF}=e$\r\n$$\r\n\\begin{array}{l}\r\n=e^{\\int \\frac{1}{x \\log _{e} x} d x} \\\\\r\n=e^{\\left.\\log \\log _{e} x\\right)} \\\\\r\n=\\log _{e} x\r\n\\end{array}\r\n$$\r\n$\\therefore$ Solution of differential equation is $y \\times \\log _{e} x=\\int \\frac{1}{x} \\log _{e} x d x$\r\n$\\Rightarrow y \\times \\log _{e} x=\\frac{\\left(\\log _{e} x\\right)^{2}}{2}+C$\r\nWhen $y=1$ and $x=e,$ then\r\n$$\r\n\\begin{aligned}\r\n& 1 \\times \\log _{e} e=\\frac{\\left(\\log _{e} e\\right)^{2}}{2}+C \\\\\r\n\\Rightarrow \\quad 1 &=\\frac{1}{2}+C \\\\\r\n\\Rightarrow \\quad C=\\frac{1}{2}\r\n\\end{aligned}\r\n$$\r\nOn putting $C=\\frac{1}{2}$ in Eq. (i), we get\r\n$$\r\ny \\times \\log _{e} x=\\frac{\\left(\\log _{e} x\\right)^{2}}{2}+\\frac{1}{2}\r\n$$\r\n$\\Rightarrow \\quad 2 y=\\log _{e} x+\\frac{1}{\\log _{e} x}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

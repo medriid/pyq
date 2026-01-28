@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd27e4f983047d18a96",
+    "chapter_name": "Sequences and Series",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider the real valued function $\\mathrm{h}:\\{0,1,2 \\ldots \\ldots 100\\} \\rightarrow \\mathrm{R}$ such that $\\mathrm{h}(0)=5, \\mathrm{~h}(100)=20$ and satisfying $h(p)=\\frac{1}{2}\\{h(p+1)+h(p-1)\\}$ for every $p=1,2 \\ldots .99 .$ Then the value of $h(1)$ is"
+  },
+  "options": [
+    {
+      "text": "$5.15$",
+      "is_correct": true
+    },
+    {
+      "text": "$5.5$",
+      "is_correct": false
+    },
+    {
+      "text": "6",
+      "is_correct": false
+    },
+    {
+      "text": "$6.15$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$h(p)=\\frac{1}{2}(h(p+1)+h(p-1)) \\Rightarrow h(p-1), h(p), h(p+1)$ are in A.P.\r\n$h(100)=h(0)+99 d$\r\n$\\Rightarrow \\frac{20-5}{99}=d \\Rightarrow d=\\frac{15}{99} \\Rightarrow h(1)=h(0)+d=5+\\frac{15}{99}=5.15$"
+  }
+}

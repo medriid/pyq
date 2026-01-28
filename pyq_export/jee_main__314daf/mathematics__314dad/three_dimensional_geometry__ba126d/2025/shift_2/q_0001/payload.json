@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (8 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256d4f8c6827c3ba126d",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let the values of $\\lambda$ for which the shortest distance between the lines $\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}$ and $\\frac{x-\\lambda}{3}=\\frac{y-4}{4}=\\frac{z-5}{5}$ is $\\frac{1}{\\sqrt{6}}$ be $\\lambda_1$ and $\\lambda_2$. Then the radius of the circle passing through the points $(0,0),\\left(\\lambda_1, \\lambda_2\\right)$ and $\\left(\\lambda_2, \\lambda_1\\right)$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{5 \\sqrt{2}}{3}$",
+      "is_correct": true
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\sqrt{2}}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\overrightarrow{\\mathrm{p}}=2 \\hat{\\mathrm{i}}+3 \\hat{\\mathrm{j}}+4 \\hat{\\mathrm{k}}, \\overrightarrow{\\mathrm{q}}=3 \\hat{\\mathrm{i}}+4 \\hat{\\mathrm{j}}+5 \\hat{\\mathrm{k}} \\\\ & \\Rightarrow \\overrightarrow{\\mathrm{p}} \\times \\overrightarrow{\\mathrm{q}}=\\left|\\begin{array}{lll}\\hat{\\mathrm{i}} & \\hat{\\mathrm{j}} & \\hat{\\mathrm{k}} \\\\ 2 & 3 & 4 \\\\ 3 & 4 & 5\\end{array}\\right|=-\\hat{\\mathrm{i}}+2 \\hat{\\mathrm{j}}-\\hat{\\mathrm{k}} \\\\ & \\mathrm{A} \\equiv(1,2,3) B \\equiv(\\lambda, 4,5) \\\\ & \\text { Shortest Distance }=\\left|\\frac{\\overrightarrow{\\mathrm{AB}} \\cdot(\\overrightarrow{\\mathrm{P}} \\times \\overrightarrow{\\mathrm{q}})}{|\\overrightarrow{\\mathrm{P}} \\times \\overrightarrow{\\mathrm{q}}|}\\right|\\end{aligned}$<br/>$\\begin{aligned}<br/>& \\frac{1}{\\sqrt{6}}=\\left|\\frac{((\\lambda-1) \\hat{i}+2 \\hat{j}+2 \\hat{k}) \\cdot(-\\hat{i}+2 \\hat{j}-\\hat{k})}{\\sqrt{6}}\\right| \\\\\n& \\Rightarrow|-\\lambda+1+4-2|=1 \\Rightarrow|\\lambda-3|=1 \\\\\n& \\Rightarrow \\lambda=3 \\pm 1=4,2<br/>\\end{aligned}$<br/>Radius of circle passing through points<br/>$\\begin{aligned}<br/>& (0,0),(4,2) \\&(2,4) \\\\\n& =\\frac{\\text { abc }}{4 \\Delta}=\\frac{\\sqrt{20} \\times \\sqrt{20} \\times \\sqrt{8}}{4 \\times \\frac{1}{2}\\left|\\begin{array}{lll}<br/>1 & 1 & 1 \\\\\n0 & 4 & 2 \\\\\n0 & 2 & 4<br/>\\end{array}\\right|}=\\frac{20 \\times 2 \\sqrt{2}}{2 \\times 12} \\\\\n& =\\frac{5 \\sqrt{2}}{3}<br/>\\end{aligned}$"
+  }
+}

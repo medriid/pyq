@@ -1,0 +1,83 @@
+{
+  "_id": "685102bd6bba689a3eb09c71",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "684c67d769037fad219cb0c1",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2025-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (Paper 1)",
+      "title": "JEE Advanced 2025 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\mathbb{R}$ denote the set of all real numbers. Define the function $f: \\mathbb{R \\rightarrow \\mathbb { R }}$ by\n$f(\\mathrm{x})=\\left\\{\\begin{array}{cc}2-2 x^2-x^2 \\sin \\frac{1}{x} & \\text { if } x \\neq 0 \\\\ 2 & \\text { if } x=0\\end{array}\\right.$\nThen which one of the following statements is TRUE ?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "srb95",
+      "text": "$\\text { The function } f \\text { is NOT differentiable at } x=0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "M7KqZ",
+      "text": "There is a positive real number $\\delta$, such that $f$ is a decreasing function on the interval $(0, \\delta)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "NM1Kq",
+      "text": "For any positive real number $\\delta$, the function $f$ is NOT an increasing function on the interval $(-\\delta, 0)$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "RND1V",
+      "text": "$x=0$ is a point of local minima of $f$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "(A)\nRHD at $x=0: \\lim _{h \\rightarrow 0} \\frac{\\left(2-2 h^2-h^2 \\sin \\frac{1}{h}\\right)-2}{h}=0$\nSimilarly LHD at $\\mathrm{x}=0$ is also equal to 0 .\n$\\therefore$ Differentiable at $\\mathrm{x}=0$\n(B) $f^{\\prime}(x)=-4 x-2 x \\sin \\frac{1}{x}-x^2\\left(\\cos \\frac{1}{x}\\right)\\left(\\frac{-1}{x^2}\\right)$\n$\\begin{aligned}\n& f^{\\prime}(x)=-\\left(4 x+2 x \\sin \\frac{1}{x}\\right)+\\cos \\frac{1}{x} \\\\\n& f^{\\prime}(x)=-\\left(2 x\\left(4-\\sin \\frac{1}{x}\\right)\\right)+\\cos \\frac{1}{x}\n\\end{aligned}$\nfor $\\mathrm{x} \\in(0, \\delta)$\n$\\Rightarrow$ We can't say $f(x)$ is decreasing on $(0, \\delta)$ as $\\cos \\frac{1}{x}$ oscillates.\n(C) for $x \\in(-\\delta, 0)$, for any $\\delta>0$\n$\\Rightarrow f(x)$ is not increasing on $(-\\delta, 0)$ as $\\cos \\frac{1}{x}$ oscillates from -1 to 1.\n(D) $f(0)=2$\n$\\begin{aligned}\n& f(0+h) <2 \\\\\n& f(0-h) <2\n\\end{aligned}$\n$\\therefore \\mathrm{x}=0$ is local maxima",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "ea1df5a19eff4cd69eec25c77a610024",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/PIDAmZi1ozo3f.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/PIDAmZi1ozo3f.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "684c67d769037fad219cb0c1",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2025-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (Paper 1)",
+    "title": "JEE Advanced 2025 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

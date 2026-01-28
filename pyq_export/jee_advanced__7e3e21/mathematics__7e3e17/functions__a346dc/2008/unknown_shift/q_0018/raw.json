@@ -1,0 +1,63 @@
+{
+  "_id": "64b169ecf23ac7d519f9afb5",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c43",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2008-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008 (Paper 2)",
+      "title": "JEE Advanced 2008 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $g(x)=\\log f(x)$, where $f(x)$ is a twice differentiable positive function on $(0, \\infty)$ such that $f(x+1)=x f(x)$. Then, for $N=1,2,3, \\ldots . g^{\\prime \\prime}\\left(N+\\frac{1}{2}\\right)-g^{\\prime \\prime}\\left(\\frac{1}{2}\\right)$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "wXogO",
+      "text": "\n$-4\\left\\{1+\\frac{1}{9}+\\frac{1}{25}+\\ldots+\\frac{1}{(2 N-1)^2}\\right\\}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "MaoZH",
+      "text": "\n$4\\left\\{1+\\frac{1}{9}+\\frac{1}{25}+\\ldots+\\frac{1}{(2 N-1)^2}\\right\\}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "r8Ft6",
+      "text": "\n$-4\\left\\{1+\\frac{1}{9}+\\frac{1}{25}+\\ldots+\\frac{1}{(2 N+1)^2}\\right\\}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "6N0xF",
+      "text": "\n$4\\left\\{1+\\frac{1}{9}+\\frac{1}{25}+\\ldots+\\frac{1}{(2 N+1)^2}\\right\\}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Since, $\\quad f(x)=e^{g(x)}$\n$$\n\\begin{aligned}\n\\Rightarrow \\quad e^{g(x+1)} & =f(x+1) \\\\\n& =x f(x) \\\\\n& =x e^{g(x)}\n\\end{aligned}\n$$\nand\n$$\ng(x+1)=\\log x+g(x)\n$$\n$$\n\\Rightarrow \\quad g(x+1)-g(x)=\\log x\n$$\nReplacing $x$ by $x-\\frac{1}{2}$, we get\n$$\n\\begin{aligned}\ng\\left(x+\\frac{1}{2}\\right)-g\\left(x-\\frac{1}{2}\\right) & =\\log \\left(x-\\frac{1}{2}\\right)=\\log (2 x-1)-\\log 2 \\\\\n\\therefore g^{\\prime \\prime}\\left(x+\\frac{1}{2}\\right)-g^{\\prime \\prime}\\left(x-\\frac{1}{2}\\right) & =-\\frac{4}{(2 x-1)^2}\n\\end{aligned}\n$$\nSubstituting, $x=1,2,3, \\ldots, N$ in Eq. (ii) and adding, we get\n$$\ng^{\\prime \\prime}\\left(N+\\frac{1}{2}\\right)-g^{\\prime \\prime}\\left(\\frac{1}{2}\\right)=-4\\left\\{1+\\frac{1}{9}+\\frac{1}{25}+\\ldots+\\frac{1}{(2 N-1)^2}\\right\\} .\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c43",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2008-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008 (Paper 2)",
+    "title": "JEE Advanced 2008 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

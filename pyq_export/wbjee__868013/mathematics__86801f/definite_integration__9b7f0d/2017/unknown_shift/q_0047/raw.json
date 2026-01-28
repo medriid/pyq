@@ -1,0 +1,63 @@
+{
+  "_id": "64a81434e0ff5a5425a85976",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7c",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2017-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2017",
+      "title": "WBJEE 2017"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "$\\int_{0}^{100} e^{x-[x]} d x$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "p98U4",
+      "text": "$\\frac{e^{100}-1}{100}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "DSzCG",
+      "text": "$\\frac{e^{100}-1}{e-1}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "EARgo",
+      "text": "$100(e-1)$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "YXKQy",
+      "text": "$\\frac{e-1}{100}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $I=\\int_{0}^{100} e^{x-[x]} d x$\r\n$=100 \\int_{0}^{1} e^{x-[x]} d x$\r\n$[\\because x-[x]$ is a periodic function of period 1 and $\\int_{0}^{mT} f(x) d x=m \\int_{0}^{T} f(x) d x,$ where $T$ is period of $f(x)]$ $=100 \\int_{0}^{1} e^{x} d x[\\because x-[x]=x$ for $0    < x < 1]$\r\n$=100\\left[e^{x}\\right]_{0}^{1}$\r\n$=100\\left[e^{1}-e^{0}\\right]$\r\n$=100(e-1)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7c",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2017-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2017",
+    "title": "WBJEE 2017"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

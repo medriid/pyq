@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253f32f74d11258840f1",
+    "chapter_name": "Ellipse",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "A line passing through the point $\\mathrm{P}(\\sqrt{5}, \\sqrt{5})$ intersects the ellipse $\\frac{\\mathrm{x}^2}{36}+\\frac{\\mathrm{y}^2}{25}=1$ at $A$ and $B$ such that $(P A) .(P B)$ is maximum. Then $5\\left(P A^2+P B^2\\right)$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$218$",
+      "is_correct": false
+    },
+    {
+      "text": "$377$",
+      "is_correct": false
+    },
+    {
+      "text": "$290$",
+      "is_correct": false
+    },
+    {
+      "text": "$338$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given ellipse is $\\frac{x^2}{36}+\\frac{y^2}{25}=1$<br/><img src=\"assets\\st0008_190a949dd36f.png\"/><br/>Any point on line $A B$ can be assumed as<br/>$\\mathrm{Q}(\\sqrt{5}+\\mathrm{r} \\cos \\theta, \\sqrt{5}+\\mathrm{r} \\sin \\theta)$<br/>Putting this in equation of ellipse, we get<br/>$25(\\sqrt{5}+r \\cos \\theta)^2+36(\\sqrt{5}+r \\sin \\theta)^2=900$<br/>Simplifying, we get<br/>$\\begin{aligned}<br/>& \\mathrm{r}^2\\left(25 \\cos ^2 \\theta+36 \\sin ^2 \\theta\\right)+2 \\sqrt{5} \\mathrm{r}(25 \\cos \\theta+36 \\sin \\theta)-595=0 \\\\\n& \\quad|\\mathrm{r}|=\\mathrm{PA}, \\mathrm{~PB}<br/>\\end{aligned}$<br/>$\\text { Thus, } \\begin{aligned}<br/>\\text { PA } \\cdot \\mathrm{PB} & =\\frac{595}{25 \\cos ^2 \\theta+36 \\sin ^2 \\theta}=\\frac{595}{25+11 \\sin ^2 \\theta} \\\\\n& =\\text { maximum, if } \\sin ^2 \\theta=0<br/>\\end{aligned}$<br/>This means line $A B$ must be parallel to $x$-axis<br/>$\\Rightarrow y_A=y_B=\\sqrt{5}$<br/>Putting $\\mathrm{y}=\\sqrt{5}$ in equation of ellipse, we get<br/>$\\frac{x^2}{36}+\\frac{1}{5}=1 \\Rightarrow x^2=36 \\cdot \\frac{4}{5}$<br/>Hence,<br/>$\\mathrm{PA}^2+\\mathrm{PB}^2=\\left(\\sqrt{5}-\\frac{12}{\\sqrt{5}}\\right)^2+\\left(\\sqrt{5}+\\frac{12}{\\sqrt{5}}\\right)^2$<br/>$\\begin{aligned} & =2\\left(5+\\frac{144}{5}\\right)=\\frac{338}{5} \\\\ & 5\\left(\\mathrm{PA}^2+\\mathrm{PB}^2\\right)=338\\end{aligned}$"
+  }
+}

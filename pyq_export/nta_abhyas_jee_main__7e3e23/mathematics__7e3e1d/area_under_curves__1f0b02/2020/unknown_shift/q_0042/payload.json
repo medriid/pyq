@@ -1,0 +1,43 @@
+{
+  "index": 42,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025663b8251277a1f0b02",
+    "chapter_name": "Area Under Curves",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area (in sq. units) bounded by the curve <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable columnalign=\"left\" columnspacing=\"1.4ex\"><mtr><mtd><msup><mi>e</mi><mrow><mo>-</mo><mfenced close=\"|\" open=\"|\" separators=\"|\"><mi>x</mi></mfenced></mrow></msup></mtd><mtd><mfenced close=\"|\" open=\"|\" separators=\"|\"><mi>x</mi></mfenced><mo>≥</mo><mn>1</mn></mtd></mtr><mtr><mtd><mfenced close=\"|\" open=\"|\" separators=\"|\"><mi>x</mi></mfenced><mo>-</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mi>e</mi></mfrac></mtd><mtd><mfenced close=\"|\" open=\"|\" separators=\"|\"><mi>x</mi></mfenced><mo>&lt;</mo><mn>1</mn></mtd></mtr></mtable></mfenced></math>&nbsp;and the&nbsp;<math><mi>x</mi></math>-axis is"
+  },
+  "options": [
+    {
+      "text": "<math><mn>2</mn><mo>+</mo><mfrac><mrow><mn>2</mn></mrow><mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>2</mn><mo>+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>1</mn><mo>+</mo><mfrac><mrow><mn>2</mn></mrow><mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0042_ee143edd84b7.png\" style=\"width:2.90694in;height:1.42708in\" /><br /><math><mo>∵</mo></math> Graph of <math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math> is symmetric about <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>-axis, hence,<br />Area <math><mo>=</mo><mn>2</mn><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>0</mn></mrow><mrow><mi mathvariant=\"normal\">∞</mi></mrow></munderover><mrow><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi></mrow></mrow></math><br /><math><mo>=</mo><mn>2</mn><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>×</mo><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>e</mi></mrow></mfrac></mrow></mfenced><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>e</mi></mrow></mfrac></mrow></mfenced><mo>+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>×</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>e</mi></mrow></mfrac><mo>×</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>e</mi></mrow></mfrac><mo>+</mo><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>1</mn></mrow><mrow><mi mathvariant=\"normal\">∞</mi></mrow></munderover><mrow><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></mrow></mrow></mrow></mfenced></math><br /><math><mo>=</mo><mn>2</mn><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mi>e</mi></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>2</mn></mrow><mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></mfenced><mo>+</mo><msubsup><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mo>-</mo><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mi>x</mi></mrow></msup></mrow></mfenced></mrow><mrow><mn>1</mn></mrow><mrow><mi mathvariant=\"normal\">∞</mi></mrow></msubsup></mrow></mfenced></math><br /><math><mo>=</mo><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mi>e</mi></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>2</mn></mrow><mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mi>e</mi></mrow></mfrac></mrow></mfenced><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mn>2</mn></mrow><mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math>&nbsp;sq. units"
+  }
+}

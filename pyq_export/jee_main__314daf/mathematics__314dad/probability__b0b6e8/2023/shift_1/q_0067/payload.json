@@ -1,0 +1,43 @@
+{
+  "index": 67,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2023 (29 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2023",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Fifteen football players of a club-team are given <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math> T-shirts with their names written on the backside. If the players pick up the T-shirts randomly, then the probability that at least <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> players pick the correct T-shirt is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>24</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>15</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>36</mn></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>Given,</p><p>Fifteen football players of a club-team are given <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math> T-shirts with their names written on the backside</p><p>So, total sample space will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>!</mo></math></p><p>Now for at least <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> players pick the correct T-shirt,&nbsp;</p><p>Required probability<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>-</mo><mfrac><mrow><msub><mi>D</mi><mfenced><mn>15</mn></mfenced></msub><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>15</mn></mmultiscripts><mo>&#183;</mo><msub><mi>D</mi><mfenced><mn>14</mn></mfenced></msub><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>15</mn></mmultiscripts><msub><mi>D</mi><mfenced><mn>13</mn></mfenced></msub></mrow><mrow><mn>15</mn><mo>!</mo></mrow></mfrac></math></p><p>Where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>D</mi><mi>n</mi></msub></math>&nbsp;is de-arrangement and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>D</mi><mi>n</mi></msub><mo>&#8776;</mo><mfrac><mrow><mi>n</mi><mo>!</mo></mrow><mi>e</mi></mfrac><mo>&#160;</mo><mfenced close=\"}\" open=\"{\"><mrow><mtext>where&#160;</mtext><mi>e</mi><mo>&#8776;</mo><mn>2</mn><mo>.</mo><mn>73</mn></mrow></mfenced></math></p><p>Taking <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">D</mi><mfenced><mn>15</mn></mfenced></msub></math> as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>15</mn><mtext>&#160;!&#160;</mtext></mrow><mi>e</mi></mfrac></math>,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">D</mi><mrow><mo>(</mo><mn>14</mn><mo>)</mo></mrow></msub></math>&nbsp;as&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>14</mn><mo>!</mo></mrow><mi>e</mi></mfrac></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">D</mi><mrow><mo>(</mo><mn>13</mn><mo>)</mo></mrow></msub></math>&nbsp;as&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>13</mn><mo>!</mo></mrow><mi>e</mi></mfrac></math></p><p>We get ,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mfenced><mfrac><mrow><mfrac><mrow><mn>15</mn><mo>!</mo></mrow><mi>e</mi></mfrac><mo>+</mo><mn>15</mn><mo>&#183;</mo><mfrac><mrow><mn>14</mn><mo>!</mo></mrow><mi>e</mi></mfrac><mo>+</mo><mfrac><mrow><mn>15</mn><mo>&#215;</mo><mn>14</mn></mrow><mn>2</mn></mfrac><mo>&#215;</mo><mfrac><mrow><mn>13</mn><mo>!</mo></mrow><mi>e</mi></mfrac></mrow><mrow><mn>15</mn><mo>!</mo></mrow></mfrac></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>-</mo><mfenced><mrow><mfrac><mn>1</mn><mi>e</mi></mfrac><mo>+</mo><mfrac><mn>1</mn><mi>e</mi></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>e</mi></mrow></mfrac></mrow></mfenced><mo>=</mo><mn>1</mn><mo>-</mo><mfrac><mn>5</mn><mrow><mn>2</mn><mi>e</mi></mrow></mfrac><mo>&#8776;</mo><mo>.</mo><mn>08</mn></math></p><p>Note- This question was bonus as NTA as calculated the answer as&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mmultiscripts><mi>C</mi><mn>3</mn><none></none><mprescripts></mprescripts><none></none><mn>15</mn></mmultiscripts><mo>&#215;</mo><mn>12</mn><mo>!</mo></mrow><mrow><mn>15</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></math>, they have not considered the repetation cases.</p>"
+  }
+}

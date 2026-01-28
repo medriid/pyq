@@ -1,0 +1,43 @@
+{
+  "index": 38,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2006",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252823fcecb062bf7291",
+    "chapter_name": "Complex Number",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $w=\\alpha+i \\beta$, where $\\beta \\neq 0$ and $z \\neq 1$ satisfies the condition that $\\left(\\frac{w-\\bar{w} z}{1-z}\\right)$ is purely real, then the set of values of $z$ is"
+  },
+  "options": [
+    {
+      "text": "\n$|z|=1$ and $z \\neq 2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$|z|=1$ and $z \\neq 1$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$z=\\bar{Z}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nNone of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $z_1=\\frac{w-\\bar{w}_z}{1-z}$, be purely real.\n$$\n\\begin{array}{rlrl}\n\\Rightarrow & z_1 & =\\bar{z}_1 \\\\\n& \\therefore & \\frac{w-\\bar{w} z}{1-z} & =\\frac{\\bar{w}-w \\bar{z}}{1-\\bar{z}} \\\\\n\\Rightarrow & & w-w \\bar{z}-\\bar{w} z+\\bar{w} z \\cdot \\bar{z} & =\\bar{w}-z \\bar{w}-w \\bar{z}+w z \\cdot \\bar{z} \\\\\n\\Rightarrow & & (w-\\bar{w})+(\\bar{w}-w)|z|^2 & =0 \\\\\n\\Rightarrow & & (w-\\bar{w})\\left(1-|z|^2\\right) & =0 \\\\\n\\Rightarrow & & |z|^2 & =1 \\\\\n\\Rightarrow & & |z| & =1 \\text { and } z \\neq 1 .\n\\end{array}\n$$\n$$\n\\text { [as, } w-\\bar{w} \\neq 0 \\text {, since } \\beta \\neq 0 \\text { ] }\n$$"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "index": 1,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2025 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252823fcecb062bf7291",
+    "chapter_name": "Complex Number",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathbb{R}$ denote the set of all real numbers. Let $z_1=1+2 i$ and $z_2=3 i$ be two complex numbers, where $i=\\sqrt{-1}$. \nLet $S=\\left\\{(x, y) \\in \\mathbb{R} \\times \\mathbb{R}:\\left|x+i y-z_1\\right|=2\\left|x+i y-z_2\\right|\\right\\}$.\nThen which of the following statements is (are) TRUE?"
+  },
+  "options": [
+    {
+      "text": "$S$ is a circle with centre $\\left(-\\frac{1}{3}, \\frac{10}{3}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$S$ is a circle with centre $\\left(\\frac{1}{3}, \\frac{8}{3}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$S \\text { is a circle with radius } \\frac{\\sqrt{2}}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$S \\text { is a circle with radius } \\frac{2 \\sqrt{2}}{3}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n&\\begin{aligned}\n& |x+i y-1-2 i|=2|x+i y-3 i| \\\\\n& \\Rightarrow \\quad(x-1)^2+(y-2)^2=4\\left(x^2+(y-3)^2\\right) \\\\\n& \\Rightarrow \\quad 3 x^2+3 y^2+2 x-20 y+31=0 \\\\\n& \\Rightarrow \\quad x^2+y^2+\\frac{2 x}{3}-\\frac{20 y}{3}+\\frac{31}{3}=0\n\\end{aligned}\\\\\n&\\therefore \\mathrm{S} \\text { is a circle with centre }\\left(-\\frac{1}{3}, \\frac{10}{3}\\right) \\text { and radius }=\\sqrt{\\frac{1}{9}+\\frac{100}{9}-\\frac{31}{3}}=\\sqrt{\\frac{8}{9}}=\\frac{2 \\sqrt{2}}{3}\n\\end{aligned}$"
+  }
+}

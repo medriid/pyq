@@ -1,0 +1,43 @@
+{
+  "index": 258,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2009",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int_0^\\pi[\\cot x] d x,[\\bullet]$ denotes the greatest integer function, is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{\\pi}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-\\frac{\\pi}{2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\text { Let } \\mathrm{I}=\\int_0^\\pi[\\cot x] d x \\\\\n& =\\int_0^\\pi[\\cot (\\pi-x)] d x=\\int_0^\\pi[-\\cot x] d x\n\\end{aligned}\n$$\nAdding (1) and (2)\n$$\n\\begin{aligned}\n& 2 I=\\int_0^\\pi[\\cot x] d x+\\int_0^\\pi[-\\cot x] d x==\\int_0^\\pi(-1) d x \\quad[\\because[x]+[-x]=-1 \\text { if } x \\notin Z \\\\\n& =[-x]_0^\\pi=-\\pi \\\\\n& \\therefore I=-\\frac{\\pi}{2}\n\\end{aligned}\n$$"
+  }
+}

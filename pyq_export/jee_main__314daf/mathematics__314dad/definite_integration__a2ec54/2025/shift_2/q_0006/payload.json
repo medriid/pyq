@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "$4 \\int_0^1\\left(\\frac{1}{\\sqrt{3+x^2}+\\sqrt{1+x^2}}\\right) d x-3 \\log _e(\\sqrt{3})$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$2+\\sqrt{2}+\\log _e(1+\\sqrt{2})$",
+      "is_correct": false
+    },
+    {
+      "text": "$2-\\sqrt{2}-\\log _e(1+\\sqrt{2})$",
+      "is_correct": true
+    },
+    {
+      "text": "$2+\\sqrt{2}-\\log _e(1+\\sqrt{2})$",
+      "is_correct": false
+    },
+    {
+      "text": "$2-\\sqrt{2}+\\log _e(1+\\sqrt{2})$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & 4 \\int_0^1 \\frac{1}{\\sqrt{3+\\mathrm{x}^2}+\\sqrt{1+\\mathrm{x}^2}} \\mathrm{dx}-3 \\ln \\sqrt{3} \\\\ & =4 \\int_0^1 \\frac{\\sqrt{3+\\mathrm{x}^2}-\\sqrt{1+\\mathrm{x}^2}}{\\left(3+\\mathrm{x}^2\\right)-\\left(1-\\mathrm{x}^2\\right)} \\mathrm{dx}-\\frac{3}{2} \\ln 3 \\\\ & = \\\\ & 2\\left[\\left\\{\\frac{\\mathrm{x}}{2} \\sqrt{3+\\mathrm{x}^2}+\\frac{3}{2} \\ln \\left(\\mathrm{x}+\\sqrt{3+\\mathrm{x}^2}\\right)\\right\\}_0^1\\right. \\\\ & \\left.\\quad-\\left\\{\\frac{\\mathrm{x}}{2} \\sqrt{1+\\mathrm{x}^2}+\\frac{1}{2} \\ln \\left(\\mathrm{x}+\\sqrt{1+\\mathrm{x}^2}\\right)\\right\\}_0^1\\right]-\\frac{3}{2} \\ln 3\\end{aligned}$<br/>$\\begin{aligned}= & 2\\left[\\left\\{\\frac{1}{2} \\sqrt{4}+\\frac{3}{2} \\ln (1+\\sqrt{4})\\right\\}-\\left\\{0+\\frac{3}{2} \\ln \\sqrt{3}\\right\\}\\right. \\\\ & \\left.-\\left\\{\\frac{1}{2} \\sqrt{2}+\\frac{1}{2} \\ln (1+\\sqrt{2})\\right\\}+\\left\\{0+\\frac{1}{2}(0)\\right\\}\\right]-\\frac{3}{2} \\ln 3\\end{aligned}$<br/>$\\begin{aligned} & =2\\left[1+\\frac{3}{2} \\ln 3-\\frac{3}{4} \\ln 3-\\frac{1}{\\sqrt{2}}-\\frac{1}{2} \\ln (1+\\sqrt{2})\\right]-\\frac{3}{2} \\ln 3 \\\\ & =2+3 \\ln 3-\\frac{3}{2} \\ln 3-\\sqrt{2}-\\ln (1+\\sqrt{2})-\\frac{3}{2} \\ln 3 \\\\ & =2-\\sqrt{2}-\\ln (1+\\sqrt{2})\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 37,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If the solution $y=y(x)$ of the differential equation $\\left(x^4+2 x^3+3 x^2+2 x+2\\right) \\mathrm{d} y-\\left(2 x^2+2 x+3\\right) \\mathrm{d} x=0$ satisfies $y(-1)=-\\frac{\\pi}{4}$, then $y(0)$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\pi}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{\\pi}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{4}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\int d y=\\int \\frac{\\left(2 x^2+2 x+3\\right)}{x^4+2 x^3+3 x^2+2 x+2} d x \\\\ & y=\\int \\frac{\\left(2 x^2+2 x+3\\right)}{\\left(x^2+1\\right)\\left(x^2+2 x+2\\right)} d x \\\\ & y=\\int \\frac{d x}{x^2+2 x+2}+\\int \\frac{d x}{x^2+1} \\\\ & y=\\tan ^{-1}(x+1)+\\tan ^{-1} x+C \\\\ & y(-1)=\\frac{-\\pi}{4} \\\\ & \\frac{-\\pi}{4}=0-\\frac{\\pi}{4}+C \\Rightarrow C=0 \\\\ & \\Rightarrow y=\\tan ^{-1}(x+1)+\\tan ^{-1} x \\\\ & y(0)=\\tan ^{-1} 1=\\frac{\\pi}{4}\\end{aligned}$"
+  }
+}

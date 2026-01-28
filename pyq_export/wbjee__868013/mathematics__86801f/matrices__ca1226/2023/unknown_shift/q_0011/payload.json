@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0788c63c34f9ca1226",
+    "chapter_name": "Matrices",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let \\(A=\\left(\\begin{array}{lll}0 & 0 & 1 \\\\ 1 & 0 & 0 \\\\ 0 & 0 & 0\\end{array}\\right), B=\\left(\\begin{array}{lll}0 & 1 & 0 \\\\ 0 & 0 & 1 \\\\ 0 & 0 & 0\\end{array}\\right)\\) and \\(P=\\left(\\begin{array}{lll}0 & 1 & 0 \\\\ x & 0 & 0 \\\\ 0 & 0 & y\\end{array}\\right)\\) be an orthogonal matrix such that \\(B=PAP^{-1}\\) holds. Then"
+  },
+  "options": [
+    {
+      "text": "\\(x=1=y\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(x=1, y=0\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(x=0, y=1\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(x=-1, y=0\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Hint : \\(B=P A P^{-1}\\)\n\\(P^{-1} B P=P^{-1} P A P^{-1} P\\)\n\\(\\begin{aligned}\n& {\\left[\\begin{array}{ccc}\n0 & 0 & x y \\\\\nx & 0 & 0 \\\\\n0 & 0 & 0\n\\end{array}\\right]=A=\\left[\\begin{array}{lll}\n0 & 0 & 1 \\\\\n1 & 0 & 0 \\\\\n0 & 0 & 0\n\\end{array}\\right]} \\\\\n& \\therefore x=1=y\n\\end{aligned}\\)"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 76,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255664248d3dbfc7e6c7",
+    "chapter_name": "Functions",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The domain of definition of the function <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mi>&#160;</mi><msqrt><msub><mi>log</mi><mfenced separators=\"|\"><mrow><mfenced close=\"|\" open=\"|\" separators=\"|\"><mi mathvariant=\"normal\">x</mi></mfenced><mo>-</mo><mn>1</mn></mrow></mfenced></msub><mo>&#8289;</mo><mfenced separators=\"|\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow></mfenced></msqrt></math>, is"
+  },
+  "options": [
+    {
+      "text": "<math><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mo>-</mo><mn>3</mn><mo>,</mo><mi> </mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>∪</mo><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mn>1</mn><mo>,</mo><mi> </mi><mn>2</mn></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfenced separators=\"|\"><mrow><mo>-</mo><mn>2</mn><mo>,</mo><mi> </mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>∪</mo><mfenced open=\"[\" separators=\"|\"><mrow><mn>2</mn><mo>,</mo><mi> </mi><mi>∞</mi></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfenced close=\"]\" separators=\"|\"><mrow><mo>-</mo><mi>∞</mi><mo>,</mo><mi>&nbsp;</mi><mo>-</mo><mn>3</mn></mrow></mfenced><mo>∪</mo><mfenced separators=\"|\"><mrow><mo>-</mo><mn>2</mn><mo>,</mo><mi>&nbsp;</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>∪</mo><mfenced separators=\"|\"><mrow><mn>2</mn><mo>,</mo><mi>&nbsp;</mi><mi>∞</mi></mrow></mfenced></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mo>-</mo><mn>2</mn><mo>,</mo><mi> </mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>∪</mo><mfenced open=\"[\" separators=\"|\"><mrow><mn>2</mn><mo>,</mo><mi> </mi><mi>∞</mi></mrow></mfenced></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<math><mrow><mrow><msub><mrow><mi mathvariant=\"normal\">log</mi></mrow><mrow><mfenced separators=\"|\"><mrow><mi>&#160;</mi><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>-</mo><mn>1</mn></mrow></mfenced></mrow></msub></mrow><mo>&#8289;</mo><mrow><mfenced separators=\"|\"><mrow><mi>&#160;</mi><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow></mfenced><mo>&#8805;</mo><mn>0</mn></mrow></mrow></math><br /><br />Case 1: <math><mn>0</mn><mo>&#60;</mo><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>-</mo><mn>1</mn><mo>&#60;</mo><mn>1</mn></math><br /><br />i.e., <math><mn>1</mn><mo>&#60;</mo><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>&#60;</mo><mn>2</mn></math> , then<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>&#60;</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>4</mn><mi>&#160;</mi><mo>&#8804;</mo><mn>1</mn></math> <math><mo>&#8658;</mo><mi>&#160;</mi><mi>&#160;</mi><mi>&#160;</mi><mi>&#160;</mi><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>3</mn><mi>&#160;</mi><mo>&#8804;</mo><mn>0&#160;</mn></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#38;</mo><mi>&#160;</mi><msup><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfenced><mn>2</mn></msup><mo>&#62;</mo><mn>0</mn></math><br /><br /><math><mo>&#8658;</mo></math>&nbsp;<math><mo>-</mo><mn>3</mn><mi>&#160;</mi><mo>&#8804;</mo><mi>x</mi><mi>&#160;</mi><mo>&#8804;</mo><mo>-</mo><mn>1&#160;</mn></math><math><mo>&#38;</mo><mi>&#160;</mi><mi>x</mi><mo>&#8800;</mo><mo>-</mo><mn>2</mn></math><br /><br />So,&nbsp;<math><mi>x</mi><mo>&#8712;</mo><mfenced separators=\"|\"><mrow><mo>-</mo><mn>2</mn><mo>,</mo><mi>&#160;</mi><mo>-</mo><mn>1</mn></mrow></mfenced></math><br /><br />Case 2: <math><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>-</mo><mn>1</mn><mo>&#62;</mo><mn>1</mn></math><br /><br />i.e., <math><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>&#62;</mo><mn>2</mn></math><br /><br /><math><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>4</mn><mi>&#160;</mi><mo>&#8805;</mo><mn>1</mn></math><math><mo>&#8658;</mo><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfenced><mo>&#8805;</mo><mn>0</mn><mo>&#8658;</mo><mi>x</mi><mo>&#8712;</mo><mfenced close=\"]\" separators=\"|\"><mrow><mi>&#160;</mi><mo>-</mo><mi>&#8734;</mi><mo>,</mo><mo>-</mo><mn>3</mn><mi>&#160;</mi></mrow></mfenced><mi>&#160;</mi><mo>&#8746;</mo><mfenced open=\"[\" separators=\"|\"><mrow><mi>&#160;</mi><mo>-</mo><mn>1</mn><mi>&#160;</mi><mo>,</mo><mi>&#8734;</mi></mrow></mfenced></math><br /><br /><math><mo>&#8658;</mo></math> <math><mi>x</mi><mo>&#8712;</mo><mfenced close=\"]\" separators=\"|\"><mrow><mo>-</mo><mi>&#8734;</mi><mo>,</mo><mi>&#160;</mi><mo>-</mo><mn>3</mn></mrow></mfenced><mo>&#8746;</mo><mfenced separators=\"|\"><mrow><mn>2</mn><mo>,</mo><mi>&#160;</mi><mi>&#8734;</mi></mrow></mfenced></math><br />&nbsp;<br />Hence, domain is <math><mfenced close=\"]\" separators=\"|\"><mrow><mo>-</mo><mi mathvariant=\"normal\">&#8734;</mi><mo>,</mo><mo>-</mo><mn>3</mn></mrow></mfenced><mi mathvariant=\"normal\">&#160;</mi><mo>&#8746;</mo><mo>(</mo><mo>-</mo><mn>2</mn><mo>,</mo><mo>-</mo><mn>1</mn><mo>)</mo><mo>&#8746;</mo><mfenced separators=\"|\"><mrow><mn>2</mn><mo>,</mo><mi mathvariant=\"normal\">&#8734;</mi></mrow></mfenced></math>"
+  }
+}

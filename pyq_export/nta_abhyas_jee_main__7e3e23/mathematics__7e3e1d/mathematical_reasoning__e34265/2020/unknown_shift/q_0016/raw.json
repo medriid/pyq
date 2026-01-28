@@ -1,0 +1,61 @@
+{
+  "_id": "6151e863c86659976aaffbab",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "86",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "The logical statement&nbsp;<math><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mo>∼</mo><mfenced separators=\"|\"><mrow><mo>∼</mo><mi>p</mi><mo>∨</mo><mo>∼</mo><mi>q</mi></mrow></mfenced><mo>∨</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>∧</mo><mi>r</mi></mrow></mfenced></mrow></mfenced><mo>∧</mo><mfenced separators=\"|\"><mrow><mi>q</mi><mo>∧</mo><mi>r</mi></mrow></mfenced></math> is equivalent to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "2snpX",
+      "text": "<math><mfenced separators=\"|\"><mrow><mi>p</mi><mo>∧</mo><mi>q</mi></mrow></mfenced><mo>∨</mo><mi>r</mi></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "O6wmz",
+      "text": "<math><mo>∼</mo><mi>p</mi><mo>∨</mo><mi>r</mi></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "9mpro",
+      "text": "<math><mfenced separators=\"|\"><mrow><mo>∼</mo><mi>p</mi><mo>∧</mo><mi>q</mi></mrow></mfenced><mo>∧</mo><mi>r</mi></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "zdDCz",
+      "text": "<math><mfenced separators=\"|\"><mrow><mi>p</mi><mo>∧</mo><mi>r</mi></mrow></mfenced><mo>∧</mo><mi>q</mi></math>",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\((\\sim(\\sim p \\vee q) \\vee(p \\wedge r)) \\wedge(\\sim q \\wedge r)\\)\n\\(=((p \\wedge \\sim q) \\vee(p \\wedge r)) \\vee(\\sim q \\wedge r)\\)\n\\(=(p \\wedge(\\sim q \\vee r)) \\wedge(\\sim q \\wedge r)\\)\n\\(=p \\wedge(\\sim q \\wedge r)=p \\wedge(\\sim q) \\wedge r\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

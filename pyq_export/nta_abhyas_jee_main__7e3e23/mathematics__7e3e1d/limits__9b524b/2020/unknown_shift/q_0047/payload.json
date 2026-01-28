@@ -1,0 +1,43 @@
+{
+  "index": 47,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025440e7c3448e29b524b",
+    "chapter_name": "Limits",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of <math><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>x</mi><mo>→</mo><mfrac><mrow><mi>π</mi></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></munder></mrow><mo>⁡</mo><mrow><msup><mrow><mfenced separators=\"|\"><mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>⁡</mo><mrow><mn>2</mn><mi>x</mi></mrow></mrow></mrow></mfenced></mrow><mrow><mrow><mrow><msup><mrow><mi mathvariant=\"normal\">sec</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mo>⁡</mo><mrow><mn>2</mn><mi>x</mi></mrow></mrow></mrow></msup></mrow></mrow></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></msup></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><msup><mrow><mi>e</mi></mrow><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></msup></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "&nbsp;<math><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mfrac><mrow><mi>&#960;</mi></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></munder></mrow><mo>&#8289;</mo><mrow><msup><mrow><mfenced separators=\"|\"><mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>&#8289;</mo><mrow><mn>2</mn><mi>x</mi></mrow></mrow></mrow></mfenced></mrow><mrow><mrow><mrow><msup><mrow><mi mathvariant=\"normal\">sec</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mo>&#8289;</mo><mrow><mn>2</mn><mi>x</mi></mrow></mrow></mrow></msup></mrow></mrow></math>&nbsp;<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi>e</mi><mrow><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mfrac><mi>&#960;</mi><mn>4</mn></mfrac></mrow></munder><mo>&#8289;</mo><msup><mi>sec</mi><mn>2</mn></msup><mo>&#8289;</mo><mn>2</mn><mi>x</mi><mfenced separators=\"|\"><mrow><mi>sin</mi><mo>&#8289;</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced></mrow></msup><mspace linebreak=\"newline\"/><mo>=</mo><msup><mi>e</mi><mrow><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mfrac><mi>&#960;</mi><mn>4</mn></mfrac></mrow></munder><mo>&#8289;</mo><mfrac><mrow><mi>sin</mi><mo>&#8289;</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn></mrow><mrow><msup><mi>cos</mi><mn>2</mn></msup><mo>&#8289;</mo><mn>2</mn><mi>x</mi></mrow></mfrac></mrow></msup></math></p><p>Applying L&#39;Hospital Rule, we get,&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi>e</mi><mrow><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mfrac><mi>&#960;</mi><mn>4</mn></mfrac></mrow></munder><mo>&#8289;</mo><mfrac><mrow><mn>2</mn><mi>cos</mi><mn>2</mn><mi>x</mi></mrow><mrow><mn>2</mn><mi>cos</mi><mn>2</mn><mi>x</mi><mfenced><mrow><mo>-</mo><mn>2</mn><mi>sin</mi><mo>&#8289;</mo><mn>2</mn><mi>x</mi></mrow></mfenced></mrow></mfrac></mrow></msup></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi>e</mi><mrow><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mfrac><mi>&#960;</mi><mn>4</mn></mfrac></mrow></munder><mo>&#8289;</mo><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mrow><mn>2</mn><mi>sin</mi><mo>&#8289;</mo><mn>2</mn><mi>x</mi></mrow></mfrac></mrow></msup><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup></math></p>"
+  }
+}

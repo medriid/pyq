@@ -1,0 +1,43 @@
+{
+  "index": 96,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602427cba2fa9ed9e72f82",
+    "chapter_name": "Electromagnetic Induction",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "At the centre of a fixed large circular coil of radius $\\mathrm{R}$, a much smaller circular coil of radius $r$ is placed. The two coils are concentric and are in the same plane. The larger coil carries a current I. The smaller coil is set to rotate with a constant angular velocity $\\omega$ about an axis along their common diameter. Calculate the emf induced in the smaller coil after a time $t$ of its start of rotation."
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{\\mu_0 \\mathrm{I}}{2 \\mathrm{R}} \\omega \\mathrm{r}^2 \\sin \\omega \\mathrm{t}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\mu_0 I}{4 R} \\omega \\pi r^2 \\sin \\omega t$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\mu_0 I}{2 R} \\omega \\pi r^2 \\sin \\omega t$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{\\mu_0 \\mathrm{I}}{4 \\mathrm{R}} \\omega \\mathrm{r}^2 \\sin \\omega \\mathrm{t}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "According to Faraday's law of electromagnetic induction,\n$$\n\\begin{array}{r}\ne=-\\frac{d \\phi}{d t} \\text { and } \\phi=B A \\cos \\omega t=B \\pi r^2 \\cos \\omega t \\\\\n\\Rightarrow \\quad e=-\\frac{d}{d t}\\left(\\pi r^2 B \\cos \\omega t\\right)=\\pi r^2 B \\sin \\omega t(\\omega) \\\\\n\\therefore e=\\frac{\\mu_0 I}{2 R} \\pi \\omega r^2 \\sin \\omega t\\left(\\because B=\\frac{\\mu_0 I}{2 R}\\right)\n\\end{array}\n$$"
+  }
+}

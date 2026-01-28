@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eea7c8b73881fdaea1c0",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d9760c",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-24T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (24 Jan Shift 1)",
+      "title": "JEE Main 2025 (24 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "For some $n \\neq 10$, let the coefficients of the 5 th, 6 th and 7 th terms in the binomial expansion of $(1+\\mathrm{x})^{\\mathrm{n}+4}$ be in A.P. Then the largest coefficient in the expansion of $(1+\\mathrm{x})^{\\mathrm{n}+4}$ is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "HsBwK",
+      "text": "$20$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "mzPGF",
+      "text": "$10$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "rGYNW",
+      "text": "$35$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "Uvy5Y",
+      "text": "$70$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & (1+x)^{n+4} \\\\ & { }^{n+4} C_4,{ }^{n+4} C_5,{ }^{n+4} C_6, \\rightarrow \\text { A.P. } \\\\ & \\Rightarrow 2 \\times { }^{n+4} C_5={ }^{n+4} C_4+{ }^{n+4} C_6 \\\\ & \\Rightarrow 4 \\times{ }^{n+4} C_5=\\left({ }^{n+4} C_4+{ }^{n+4} C_5\\right)+\\left({ }^{n+4} C_5+{ }^{n+4} C_6\\right) \\\\ & \\Rightarrow 4 \\times{ }^{n+4} C_5={ }^{n+5} C_5+{ }^{n+5} C_6\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow 4 \\times \\frac{(\\mathrm{n}+4)!}{5!\\cdot(\\mathrm{n}-1)!}=\\frac{(\\mathrm{n}+6)!}{6!\\cdot \\mathrm{n}!} \\\\ & \\Rightarrow 4=\\frac{(\\mathrm{n}+6)(\\mathrm{n}+5)}{6 \\mathrm{n}} \\\\ & \\Rightarrow \\mathrm{n}^2+11 \\mathrm{n}+30=24 \\mathrm{n} \\\\ & \\Rightarrow \\mathrm{n}^2-13 \\mathrm{n}+30=0 \\\\ & \\Rightarrow \\mathrm{n}=3,10(\\text { rejected }) \\\\ & \\because \\mathrm{n} \\neq 10\\end{aligned}$\n$\\therefore$ Largest binomial coefficient in expansion of\n$\\begin{aligned}\n& (1+\\mathrm{x})^7 \\\\\n& (\\because \\mathrm{n}+4=7)\n\\end{aligned}$\nis coeff. of middle term\n$\\Rightarrow{ }^7 \\mathrm{C}_4={ }^7 \\mathrm{C}_3=35$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "d8fbca14bfe54b16bd111a265764f14f",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/AVinnBKh1FApJ.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/AVinnBKh1FApJ.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d9760c",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-24T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (24 Jan Shift 1)",
+    "title": "JEE Main 2025 (24 Jan Shift 1)"
+  },
+  "evalStatus": "correct",
+  "lastPracticed": "2025-02-09T09:53:40.526Z"
+}

@@ -1,0 +1,43 @@
+{
+  "index": 54,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (31 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The sum of the series <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mn>1</mn><mo>−</mo><mn>3</mn><mo>⋅</mo><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><msup><mn>1</mn><mn>4</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mn>2</mn><mrow><mn>1</mn><mo>−</mo><mn>3</mn><mo>⋅</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>4</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mn>3</mn><mrow><mn>1</mn><mo>−</mo><mn>3</mn><mo>⋅</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>3</mn><mn>4</mn></msup></mrow></mfrac><mo>+</mo><mo>.</mo><mo>...</mo></math> up to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math> terms is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>45</mn><mn>109</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfrac><mn>45</mn><mn>109</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>55</mn><mn>109</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfrac><mn>55</mn><mn>109</mn></mfrac></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>General term of the given series is given by,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><mfrac><mi>n</mi><mrow><mn>1</mn><mo>-</mo><mn>3</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msup><mi>n</mi><mn>4</mn></msup></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><mfrac><mi>n</mi><mrow><mfenced><mrow><msup><mi>n</mi><mn>4</mn></msup><mo>-</mo><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></mfenced><mo>-</mo><msup><mi>n</mi><mn>2</mn></msup></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><mfrac><mi>n</mi><mrow><msup><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup><mo>-</mo><msup><mi>n</mi><mn>2</mn></msup></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><mfrac><mi>n</mi><mrow><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn><mo>-</mo><mi>n</mi></mrow></mfenced><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn><mo>+</mo><mi>n</mi></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfrac><mrow><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn><mo>+</mo><mi>n</mi></mrow></mfenced><mo>-</mo><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn><mo>-</mo><mi>n</mi></mrow></mfenced></mrow><mrow><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn><mo>-</mo><mi>n</mi></mrow></mfenced><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn><mo>+</mo><mi>n</mi></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mn>1</mn><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn><mo>-</mo><mi>n</mi></mrow></mfenced></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn><mo>+</mo><mi>n</mi></mrow></mfenced></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><mfenced><mrow><mfrac><mn>1</mn><mrow><mo>-</mo><mn>1</mn></mrow></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>1</mn></mfrac></mrow></mfenced><mo>+</mo><mfenced><mrow><mfrac><mn>1</mn><mn>1</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></mfenced><mo>+</mo><mfenced><mrow><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>11</mn></mfrac></mrow></mfenced><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><mfenced><mrow><mfrac><mn>1</mn><mn>89</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>109</mn></mfrac></mrow></mfenced></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><mo>-</mo><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mn>109</mn></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><mo>-</mo><mn>55</mn></mrow><mn>109</mn></mfrac></math></p>"
+  }
+}

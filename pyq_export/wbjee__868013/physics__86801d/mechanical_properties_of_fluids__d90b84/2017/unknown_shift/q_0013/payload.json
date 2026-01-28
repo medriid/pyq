@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c806d628b5819d90b84",
+    "chapter_name": "Mechanical Properties of Fluids",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A uniform capillary tube of length $l$ and inner radius $r$ with its upper end sealed is submerged vertically into water. The outside pressure is $p_{0}$ and surface tension of water is $\\gamma$. When a length $x$ of the capillary is submerged into water, it is found that water levels inside and outside the capillary coincide. The value of $x$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{l}{\\left(1+\\frac{p_{0} r}{4 \\gamma}\\right)}$",
+      "is_correct": false
+    },
+    {
+      "text": "$l\\left(1-\\frac{p_{0} r}{4 \\gamma}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$l\\left(1-\\frac{p_{0} r}{2 \\gamma}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{l}{\\left(1+\\frac{p_{0} r}{2 \\gamma}\\right)}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "When the sealed capillary tube is submerged vertically into water, the pressure inside the tube changes\r\nFor the inside capillary,\r\n$$\r\np_{1} V_{1}=p_{2} v_{2}\r\n$$\r\n$\\therefore \\quad P_{0}(l A)=p^{\\prime}(l-x) A$\r\nwhere $p^{\\prime}$ is pressure in capillary after being submerged\r\n$\\therefore$\r\n$$\r\np^{\\prime}=\\frac{p_{0}l}{l-x}\r\n$$\r\nAccording to question, since level of water inside capillary coincides with outside.\r\n$$\r\n\\begin{array}{l}\r\n\\therefore \\quad p^{\\prime}-p_{0}=\\frac{2 \\gamma}{r} \\\\\r\n\\therefore \\quad \\frac{p_{d}}{l-x}-p_{0}=\\frac{2 \\gamma}{r}=\\frac{l}{\\left(1+\\frac{p_{0} r}{2 \\gamma}\\right)}\r\n\\end{array}\r\n$$"
+  }
+}

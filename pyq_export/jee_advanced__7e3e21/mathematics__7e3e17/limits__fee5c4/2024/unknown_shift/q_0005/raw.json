@@ -1,0 +1,83 @@
+{
+  "_id": "66965dc8d603121f43a3d2f6",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "66965789b31faf98fda8fef9",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Paper 1)",
+      "title": "JEE Advanced 2024 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $f(x)$ be a continuously differentiable function on the interval $(0, \\infty)$ such that $f(1)=2$ and $\\underset{t \\rightarrow x}{\\lim} \\frac{t^{10} f(x)-x^{10} f(t)}{t^9-x^9}=1$ for each $x>0$. Then, for all $x>0, f(x)$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "fYbtK",
+      "text": "$\\frac{31}{11 x}-\\frac{9}{11} x^{10}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "02JZk",
+      "text": "$\\frac{9}{11 x}+\\frac{13}{11} x^{10}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "NG7ME",
+      "text": "$\\frac{-9}{11 x}+\\frac{31}{11} x^{10}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "SsbmD",
+      "text": "$\\frac{13}{11 x}+\\frac{9}{11} x^{10}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\lim _{t \\rightarrow x} \\frac{t^{10} f(x)-x^{10} f(t)}{t^9-x^9}=1 \\\\ & \\Rightarrow \\lim _{t \\rightarrow x} \\frac{10 t^9 f(x)-x^{10} f^{\\prime}(t)}{9 t^8}=1\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow 10 x f(x)-x^2 f^{\\prime}(x)=9 \\\\ & \\Rightarrow x^2 f^{\\prime}(x)=10 x f(x)-9 \\\\ & \\Rightarrow f^{\\prime}(x)=\\frac{10 f(x)}{x}-\\frac{9}{x^2} \\\\ & \\Rightarrow \\frac{d y}{d x}-\\frac{10}{x} y=-\\frac{9}{x^2} \\\\ & \\Rightarrow y \\cdot \\frac{1}{x^{10}}=\\int-\\frac{9}{x^2} \\cdot \\frac{1}{x^{10}} d x \\\\ & \\Rightarrow \\frac{y}{x^{10}}=\\frac{9}{11 x^{11}}+c...(1)\\end{aligned}$\n$\\begin{aligned} & \\because \\mathrm{f}(1)=2 \\Rightarrow \\frac{2}{1}=\\frac{9}{11}+\\mathrm{c} \\Rightarrow \\mathrm{c}=\\frac{13}{11} \\\\ & \\therefore \\mathrm{f}(\\mathrm{x})=\\frac{9}{11 \\mathrm{x}}+\\frac{13}{11} \\mathrm{x}^{10}\\end{aligned}$\n$\\Rightarrow$ Option (2) is correct.",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "86d6a627b1a2411b92f03aead4335fec",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/qnY0Z61l4mw45.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/qnY0Z61l4mw45.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "66965789b31faf98fda8fef9",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Paper 1)",
+    "title": "JEE Advanced 2024 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $x y^{\\prime}+y-e^x=0, y(a)=b$, then $\\lim _{x \\rightarrow 1} y(x)$ is"
+  },
+  "options": [
+    {
+      "text": "$e+2 a b-e^a$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^2+a b-e^{-a}$",
+      "is_correct": false
+    },
+    {
+      "text": "$e-a b+e^a$",
+      "is_correct": false
+    },
+    {
+      "text": "$e+a b-e^a,\\left(y^{\\prime}=\\frac{d y}{d x}\\right)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\text {Hint : } \\quad xy^{\\prime}+y-e^x=0 \\\\ & \\Rightarrow \\quad x \\frac{d y}{d x}+y=e^x \\\\ & \\Rightarrow \\quad x d y+y d x=e^x d x \\\\ & \\Rightarrow \\quad \\int d(x y)=\\int e^x d x \\\\ & \\Rightarrow \\quad x y=e^x+c \\\\ & \\quad y(a)=b \\Rightarrow c=a b-e^a \\\\ & \\therefore \\quad y(x)=\\frac{e^x+a b-e^a}{x} \\\\ & \\therefore \\quad \\lim _{x \\rightarrow 1} y(x)=e+a b-e^a\\end{aligned}$"
+  }
+}

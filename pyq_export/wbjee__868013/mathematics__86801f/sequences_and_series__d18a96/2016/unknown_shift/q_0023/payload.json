@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd27e4f983047d18a96",
+    "chapter_name": "Sequences and Series",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The sum of $n$ terms of the following series $1^{3}+3^{3}+5^{3}+7^{3}+\\ldots$ is"
+  },
+  "options": [
+    {
+      "text": "$n^{2}\\left(2 n^{2}-1\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$n^{3}(n-1)$",
+      "is_correct": false
+    },
+    {
+      "text": "$n^{3}+8 n+4$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 n^{4}+3 n^{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "We have. $\\mathrm{1}^{3}+3^{3}+5^{3}+7^{3}+\\ldots$\r\n$\\begin{aligned} \\text { Now, } T_{n} &=(2 n-1)^{3} \\\\ &=8 n^{3}-3(2 n)^{2}(1)+3(2 n)\\left(0^{2}-(\\pi)^{3}\\right.\\\\ &=8 n^{3}-12 n^{2}+6 n-1 \\end{aligned}$\r\n$\\therefore \\quad S_{n}=\\Sigma T_{n}$\r\n$=\\frac{8 n^{2}(n+1)^{2}}{4}-\\frac{12 n(n+0) 2 n+1}{6}$$+\\frac{6 n(n+1)}{2}-n$\r\n$=2 n^{2}(n+1)^{2}-2 n(n+1)(2 n+1)+3 n(n+1)-n$\r\n$=n\\left[2 n(n+1)^{2}-2(n+1)(2 n+1)+3(n+1)-1\\right]$\r\n$=n\\left[2 n\\left(n^{2}+1+2 n\\right)-2\\left(2 n^{2}+3 n+1\\right)+3n+3-1\\right].$\r\n$=n\\left[2 n^{3}+2 n+4 n^{2}-4 n^{2}-6 n-2+3 n+2\\right]$\r\n$=n\\left[2 n^{3}-n\\right]=n^{2}\\left(2 n^{2}-1\\right).$"
+  }
+}

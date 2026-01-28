@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a71417cc3fb48d6868d",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "648b5a3a0d9d0b909f7b6494",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2023-04-13T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (13 Apr Shift 1)",
+      "title": "JEE Main 2023 (13 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "<p>The number of symmetric matrices of order 3, with all the entries from the set&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo>,</mo><mn>7</mn><mo>,</mo><mn>8</mn><mo>,</mo><mn>9</mn><mo>}</mo></math>&nbsp;is</p>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "szKbe",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>10</mn></msup></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "c957p",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>6</mn></msup></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "YaWwX",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><mn>10</mn></msup></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "1g0oV",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>9</mn></msup></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<blockquote><p>Given that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>&#8230;</mo><mn>8</mn><mo>,</mo><mn>9</mn><mo>}</mo></math></p><p>We need to find the number of symmetric matrices.</p><p>We know that a matrix is symmetric if&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>A</mi><mi>&#964;</mi></msup><mo>=</mo><mi>A</mi></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable columnalign=\"left\"><mtr><mtd><msub><mi>a</mi><mn>11</mn></msub></mtd><mtd><msub><mi>a</mi><mn>12</mn></msub></mtd><mtd><msub><mi>a</mi><mn>13</mn></msub></mtd></mtr><mtr><mtd><msub><mi>a</mi><mn>21</mn></msub></mtd><mtd><msub><mi>a</mi><mn>22</mn></msub></mtd><mtd><msub><mi>a</mi><mn>23</mn></msub></mtd></mtr><mtr><mtd><msub><mi>a</mi><mn>31</mn></msub></mtd><mtd><msub><mi>a</mi><mn>32</mn></msub></mtd><mtd><msub><mi>a</mi><mn>33</mn></msub></mtd></mtr></mtable></mfenced></math></p><p>Now&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>11</mn></msub><mo>,</mo><msub><mi>a</mi><mn>22</mn></msub><mo>,</mo><msub><mi>a</mi><mn>33</mn></msub></math>&nbsp;can have any digit from&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>&nbsp;to&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn></math>.</p><p>Number of ways this can be done is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>&#215;</mo><mn>10</mn><mo>&#215;</mo><mn>10</mn><mo>=</mo><msup><mn>10</mn><mn>3</mn></msup></math></p><p>Now&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>12</mn></msub><mo>=</mo><msub><mi>a</mi><mn>21</mn></msub></math>. So number of ways this can be done is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>&#215;</mo><mn>1</mn></math>.</p><p>Similarly&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>13</mn></msub><mo>=</mo><msub><mi>a</mi><mn>31</mn></msub></math>,&nbsp;So number of ways this can be done is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>&#215;</mo><mn>1</mn></math>.</p><p>Also,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>23</mn></msub><mo>=</mo><msub><mi>a</mi><mn>32</mn></msub></math>. So number of ways this can be done is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>&#215;</mo><mn>1</mn></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo></math>&nbsp;Total symmetric matrix<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>10</mn><mn>3</mn></msup><mo>&#215;</mo><mn>10</mn><mo>&#215;</mo><mn>10</mn><mo>&#215;</mo><mn>10</mn><mo>=</mo><msup><mn>10</mn><mn>6</mn></msup></math></p><p>Hence this is the correct option.</p></blockquote>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "648b5a3a0d9d0b909f7b6494",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2023-04-13T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (13 Apr Shift 1)",
+    "title": "JEE Main 2023 (13 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

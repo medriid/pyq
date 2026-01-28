@@ -1,0 +1,83 @@
+{
+  "_id": "67a2ee83c8b73881fdaea091",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d97608",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-22T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (22 Jan Shift 1)",
+      "title": "JEE Main 2025 (22 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $x=x(y)$ be the solution of the differential equation $y^2 \\mathrm{~d} x+\\left(x-\\frac{1}{y}\\right) \\mathrm{d} y=0$. If $x(1)=1$, then $x\\left(\\frac{1}{2}\\right)$ is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Ge4No",
+      "text": "$\\frac{1}{2}+\\mathrm{e}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "PCp3A",
+      "text": "$3+e$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "z3sNK",
+      "text": "$3-e$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "zNAUw",
+      "text": "$\\frac{3}{2}+e$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}\n& y^2 d x+\\left(x-\\frac{1}{y}\\right) d y=0 \\\\\n& y^2 d x=\\left(\\frac{1}{y}-x\\right) d y \\\\\n& \\Rightarrow y^2 \\frac{d x}{d y}=\\frac{1}{y}-x \\\\\n& \\Rightarrow \\frac{d x}{d y}+\\frac{x}{y^2}=\\frac{1}{y^3} \\\\\n& \\text { I.F. }=e^{\\int \\frac{1}{y^2} d y}=e^{\\frac{-1}{y}}\n\\end{aligned}$\n$\\therefore$ Solution is\n$x e^{\\frac{-1}{y}}=\\int e^{-\\frac{1}{y}} \\times \\frac{1}{y^3} d y+C$\nLet $\\frac{-1}{y}=t$\n$\\begin{aligned}\n& \\Rightarrow \\frac{1}{y^2} d y=d t \\\\\n& \\Rightarrow x e^{-\\frac{1}{y}}=-\\int e^t t d t+C \\\\\n& \\Rightarrow x e^{-\\frac{1}{y}}=-e^t(t-1)+C \\\\\n& \\Rightarrow x e^{-\\frac{1}{y}}=-e^{\\frac{-1}{y}}\\left(\\frac{-1}{y}-1\\right)+C\n\\end{aligned}$\n$x(1)=1$\n$\\Rightarrow e^{-1}=-e^{-1}(-2)+C$\n$\\Rightarrow C=-e^{-1}$\n$\\Rightarrow x=\\frac{1}{y}+1-e^{-1+\\frac{1}{y}}$\n$x\\left(\\frac{1}{2}\\right)=3-e$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "63a93ec404b1408b8b5437c364ca5cf1",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/emYPZ5UaXxFB6.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/emYPZ5UaXxFB6.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d97608",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-22T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (22 Jan Shift 1)",
+    "title": "JEE Main 2025 (22 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

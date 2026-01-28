@@ -1,0 +1,43 @@
+{
+  "index": 181,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (19 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $A^T$ denotes the transpose of the matrix $A=\\left[\\begin{array}{lll}0 & 0 & a \\\\ 0 & b & c \\\\ d & e & f\\end{array}\\right]$, where $a, b, c, d, e$ and $f$ are integers such that $a b d \\neq 0$, then the number of such matrices for which $A^{-1}=A^T$ is"
+  },
+  "options": [
+    {
+      "text": "\n2(3!)\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$3(2 !)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2^3$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$3^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned} \n& \\text { } A=\\left[\\begin{array}{lll}\n0 & 0 & a \\\\\n0 & b & c \\\\\nd & e & f\n\\end{array}\\right],|A|=-a b d \\neq 0 \\\\\n& c_{11}=+(b f-c e), c_{12}=-(-c \\mathrm{~d})=c d, \\\\\n& c_{21}=-(-c a)=a e, c_{22}=+(-a d)=-a d, \\\\\n& c_{31}=+(-a b)=-a b, c_{32} \\quad c_{23}=-(0)=0 \\\\\n& \\operatorname{Adj} A=\\left[\\begin{array}{ccc}\n(b f-c e) & a e & -a b \\\\\nc d & -a d & 0 \\\\\n-b d & 0 & 0\n\\end{array}\\right]\n\\end{aligned}\n$$\n$A^{-1}=\\frac{1}{|A|}(\\operatorname{adj} A)=\\frac{1}{a b d}\\left[\\begin{array}{ccc}b f-c e & a e & -a b \\\\ c d & -a d & 0 \\\\ -b d & 0 & 0\\end{array}\\right]$\n\n$$\n\\begin{aligned}\n& A^T=\\left[\\begin{array}{lll}\n0 & 0 & d \\\\\n0 & b & e \\\\\na & c & f\n\\end{array}\\right] \\\\\n& \\text { Now } A^{-1}=A^T \\\\\n& \\Rightarrow \\frac{1}{-a b d}\\left[\\begin{array}{ccc}\nb f-c e & a e & -a b \\\\\nc d & -a d & 0 \\\\\n-b d & 0 & 0\n\\end{array}\\right] \\\\\n& \\Rightarrow\\left[\\begin{array}{cccc}\nb f-c e & a e & -a b \\\\\nc d & -a d & 0 \\\\\n-b d & 0 & 0\n\\end{array}\\right] \\\\\n& \\therefore b f-c e=\\left[\\begin{array}{ccc}\n0 & 0 & d \\\\\n0 & b & e \\\\\na & c & f\n\\end{array}\\right]\n\\end{aligned}\n$$\n$a b d^2=a b, a b^2 d=a d, a^2 b d=b d \\quad$...(ii)\nabde $=a b c d=a b d f=0$\nFrom (ii),\n$\\left(a b d^2\\right) \\cdot\\left(a b^2 d\\right) \\cdot\\left(a^2 b d\\right)=a b . a d . b d$\n$\\Rightarrow(a b d)^4-(a b d)^2=0$\n$\\Rightarrow(a b d)^2\\left[(a b d)^2-1\\right]=0$\n$\\because a b d \\neq 0, \\therefore a b d=\\pm 1$\nFrom (iii) and (iv),\n$$\ne=c=f=0\n$$\nFrom (i) and (v),\n$$\nb f=a e=c d=0\n$$\nFrom (iv), (v) and (vi), it is clear that $a, b$, $d$ can be any non-zero integer such that $a b d=\\pm 1$\nBut it is only possible, if $a=b=d=\\pm 1$ Hence, there are 2 choices for each $a, b$ and $d$. there fore, there are $2 \\times 2 \\times 2$ choices for $a, b$ and $d$. Hence number of required matrices $=2 \\times 2 \\times 2=(2)^3$"
+  }
+}

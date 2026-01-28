@@ -1,0 +1,43 @@
+{
+  "index": 93,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2023 (24 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2023",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mn>22</mn></munderover><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mn>22</mn></mmultiscripts><mo>&#183;</mo><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mn>23</mn></mmultiscripts></math>&nbsp;is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>23</mn><none/><mprescripts/><none/><mn>45</mn></mmultiscripts></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>23</mn><none/><mprescripts/><none/><mn>44</mn></mmultiscripts></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>24</mn><none/><mprescripts/><none/><mn>45</mn></mmultiscripts></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>22</mn><none/><mprescripts/><none/><mn>44</mn></mmultiscripts></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p>Let,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mn>22</mn></munderover><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mn>22</mn></mmultiscripts><mo>&#183;</mo><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mn>23</mn></mmultiscripts></math></p><p>Now using&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>=</mo><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>-</mo><mi>r</mi></mrow><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts></math>&nbsp;we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mn>22</mn></munderover><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mn>22</mn></mmultiscripts><mo>&#183;</mo><mmultiscripts><mi>C</mi><mrow><mn>23</mn><mo>-</mo><mi>r</mi></mrow><none></none><mprescripts></mprescripts><none></none><mn>23</mn></mmultiscripts></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>S</mi><mo>=</mo><mmultiscripts><mi>C</mi><mn>0</mn><none></none><mprescripts></mprescripts><none></none><mn>22</mn></mmultiscripts><mo>&#183;</mo><mmultiscripts><mi>C</mi><mn>23</mn><none></none><mprescripts></mprescripts><none></none><mn>23</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>22</mn></mmultiscripts><mo>&#183;</mo><mmultiscripts><mi>C</mi><mn>22</mn><none></none><mprescripts></mprescripts><none></none><mn>23</mn></mmultiscripts><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mmultiscripts><mi>C</mi><mn>22</mn><none></none><mprescripts></mprescripts><none></none><mn>22</mn></mmultiscripts><mo>&#183;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>23</mn></mmultiscripts></math></p><p>Which is sum of coefficient of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>23</mn></msup></math>&nbsp;in the expansion of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced><mn>22</mn></msup><mo>&#183;</mo><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced><mn>23</mn></msup></math>&nbsp;or&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced><mrow><mn>23</mn><mo>+</mo><mn>22</mn></mrow></msup><mo>=</mo><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced><mn>45</mn></msup></math></p><p>Hence,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mn>22</mn></munderover><mmultiscripts><mi>C</mi><mi>r</mi><none/><mprescripts/><none/><mn>22</mn></mmultiscripts><mo>&#183;</mo><mmultiscripts><mi>C</mi><mrow><mn>23</mn><mo>-</mo><mi>r</mi></mrow><none/><mprescripts/><none/><mn>23</mn></mmultiscripts><mo>=</mo><mmultiscripts><mi>C</mi><mn>23</mn><none/><mprescripts/><none/><mn>45</mn></mmultiscripts></math></p>"
+  }
+}

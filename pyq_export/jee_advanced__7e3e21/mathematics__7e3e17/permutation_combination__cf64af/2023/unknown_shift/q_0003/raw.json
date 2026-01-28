@@ -1,0 +1,58 @@
+{
+  "_id": "64b16aaaf23ac7d519f9b680",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64b1672d25f94b8a85b91cda",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2023-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Paper 2)",
+      "title": "JEE Advanced 2023 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>&nbsp;be the set of all five digit numbers formed using <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>0</mn></math>. For example, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22240</mn></math> is in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>&nbsp;while <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>02244</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>44422</mn></math> are not in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>. Suppose that each element of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>&nbsp;has an equal chance of being chosen. Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>&nbsp;be the conditional probability that an element chosen at random is a multiple of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math> given that it is a multiple of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>. Then the value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>38</mn><mo>&#160;</mo><mi>p</mi></math>&nbsp;is equal to",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "31",
+  "solution": {
+    "text": "<blockquote><p>First we will find the sample space in which the number of five-digit numbers are divisible by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>,</p><p>So, fixing zero at the last place we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mrow><mo>-</mo><mo>-</mo><mo>-</mo><mo>-</mo><menclose notation=\"bottom\"><mn>0</mn></menclose></mrow><mo>&#9183;</mo></munder></math></p><p>Now in first four place following number can take place,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2224</mn><mo>&#160;</mo><mo>&#8594;</mo><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>4</mn><mo>&#160;</mo><mtext>ways</mtext></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2244</mn><mo>&#8594;</mo><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>6</mn><mo>&#160;</mo><mtext>ways</mtext></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2221</mn><mo>&#8594;</mo><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>4</mn><mo>&#160;</mo><mtext>ways</mtext></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2241</mn><mo>&#8594;</mo><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>12</mn><mo>&#160;</mo><mtext>ways</mtext></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2441</mn><mo>&#8594;</mo><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>12</mn><mo>&#160;</mo><mtext>ways</mtext></math></p><p>So, total sample space will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>38</mn></math>&nbsp;</p><p>Now finding the number of favourable outcomes,</p><p>So, Number of five-digit numbers divisible by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math> but <u>&#39;not&#39;</u> by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math></p><p>Now fixing&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math>&nbsp;in last two places, we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mrow><mo>-</mo><mo>-</mo><mo>-</mo><menclose notation=\"bottom\"><mn>1</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>0</mn></menclose></mrow><mo>&#9183;</mo></munder></math></p><p>So, the first three places can be occupied by,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>222</mn><mo>&#160;</mo><mo>&#8594;</mo><mo>&#160;</mo><mn>1</mn><mo>&#160;</mo><mtext>ways</mtext></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>224</mn><mo>&#160;</mo><mo>&#8594;</mo><mn>3</mn><mo>&#160;</mo><mtext>ways</mtext></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>244</mn><mo>&#160;</mo><mo>&#8594;</mo><mn>3</mn><mo>&#160;</mo><mtext>ways</mtext></math></p><p>So, total number of numbers which are divisible by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;but not&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math>&nbsp;will be,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>7</mn></math></p><p>So, favourable number of five-digit numbers that are divisible by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;<u>and</u>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>=</mo><mn>38</mn><mo>-</mo><mn>7</mn><mo>=</mo><mn>31</mn></math></p><p>Hence, probability is given by,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mfrac><mn>31</mn><mn>38</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>38</mn><mo>&#160;</mo><mi>p</mi><mo>=</mo><mn>31</mn></math></p></blockquote>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "473479566af54a168b991e5bf735b959",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/gYCVCRjmSIA0L.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/gYCVCRjmSIA0L.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64b1672d25f94b8a85b91cda",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2023-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Paper 2)",
+    "title": "JEE Advanced 2023 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

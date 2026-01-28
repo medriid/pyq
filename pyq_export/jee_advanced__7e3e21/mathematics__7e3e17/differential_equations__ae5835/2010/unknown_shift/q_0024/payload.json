@@ -1,0 +1,24 @@
+{
+  "index": 24,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2010 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602569f6f39ee3d4ae5835",
+    "chapter_name": "Differential Equations",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f$ be a real-valued differentiable function on $R$ (the set of all real numbers) such that $f(1)=1$. If the $y$-intercept of the tangent at any point $P(x, y)$ on the curve $y=f(x)$ is equal to the cube of the abscissa of $P$, then the value of $f(-3)$ is equal to"
+  },
+  "options": [],
+  "correct_answer": "9",
+  "solution": {
+    "text": "The equation of the tangent at $(x, y)$ to the given curve $y=f(x)$ is\n$$\n\\begin{gathered}\nY-y=\\frac{d y}{d x}(X-x) \\\\\nY \\text {-intercept }=y-x \\frac{d y}{d x}\n\\end{gathered}\n$$\nAccording to the question\n$$\nx^3=y-x \\frac{d y}{d x}\n$$\n\n$$\n\\Rightarrow \\quad \\frac{d y}{d x}-\\frac{y}{x}=-x^2\n$$\nwhich is linear in $x$.\n$$\n\\text { IF }=e^{\\int \\frac{-1}{x} d x}=\\frac{1}{x}\n$$\n$\\therefore$ Required solution is\n$$\n\\begin{aligned}\n& y \\cdot \\frac{1}{x}=\\int-x^2 \\cdot \\frac{1}{x} d x \\\\\n& \\Rightarrow \\quad \\frac{y}{x}=\\frac{-x^2}{2}+c \\\\\n& \\Rightarrow \\quad y=\\frac{-x^3}{2}+c x \\\\\n& \\text { At } x=1, y=1 \\text {, } \\\\\n& 1=\\frac{-1}{2}+c \\\\\n& \\Rightarrow \\quad c=\\frac{3}{2} \\\\\n&\n\\end{aligned}\n$$\nNow, $\\begin{aligned} f(-3) & =\\frac{27}{2}+\\frac{3}{2}(-3) \\\\ & =\\frac{27-9}{2}=9\\end{aligned}$"
+  }
+}

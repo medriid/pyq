@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0a7e939ac068d001ef",
+    "chapter_name": "Determinants",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The determinant $\\left|\\begin{array}{ccc}a^{2}+10 & a b & a c \\\\ a b & b^{2}+10 & b c \\\\ a c & b c & c^{2}+10\\end{array}\\right|$ is"
+  },
+  "options": [
+    {
+      "text": "divisible by 10 but not by 100",
+      "is_correct": false
+    },
+    {
+      "text": "divisible by 100",
+      "is_correct": true
+    },
+    {
+      "text": "not divisible by 100",
+      "is_correct": false
+    },
+    {
+      "text": "not divisible by 10",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$=\\frac{1}{a b c}\\left|\\begin{array}{ccc}a\\left(a^{2}+10\\right) & a^{2} b & a^{2} c \\\\ a b^{2} & b\\left(b^{2}+10\\right) & b^{2} c \\\\ a c^{2} & b c^{2} & c\\left(c^{2}+10\\right)\\end{array}\\right|=\\frac{a b c}{a b c}\\left|\\begin{array}{ccc}a^{2}+10 & a^{2} & a^{2} \\\\ b^{2} & b^{2}+10 & b^{2} \\\\ c^{2} & c^{2} & c^{2}+10\\end{array}\\right|$\r\n$\\mathrm{R}_{1} \\rightarrow \\mathrm{R}_{1}+\\mathrm{R}_{2}+\\mathrm{R}_{3}$\r\n$=\\left(\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}+10\\right)\\left|\\begin{array}{ccc}1 & 1 & 1 \\\\ \\mathrm{~b}^{2} & \\mathrm{~b}^{2}+10 & \\mathrm{~b}^{2} \\\\ \\mathrm{c}^{2} & \\mathrm{c}^{2} & \\mathrm{c}^{2}+10\\end{array}\\right|$\r\n$=\\left(\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}+10\\right)\\left|\\begin{array}{ccc}1 & 0 & 0 \\\\ \\mathrm{~b}^{2} & 10 & 0 \\\\ \\mathrm{c}^{2} & 0 & 10\\end{array}\\right|\\left[\\begin{array}{c}\\mathrm{C}_{2}-\\mathrm{C}_{1} \\\\ \\mathrm{C}_{3}-\\mathrm{C} 1\\end{array}\\right]$\r\n$=\\left(\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}+10\\right) 100$"
+  }
+}

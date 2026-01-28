@@ -1,0 +1,83 @@
+{
+  "_id": "6682bd4aba0e94a3c4025bb6",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mfenced><mtable><mtr><mtd><mi>x</mi></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mi>y</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mi>z</mi></mtd></mtr></mtable></mfenced></math> be a non-zero <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>×</mo><mn>3</mn></math> matrix, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>sin</mi><mi>θ</mi><mo>=</mo><mi>y</mi><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mo>=</mo><mi>z</mi><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi>π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>≠</mo><mn>0</mn><mo>,</mo><mi>θ</mi><mo>∈</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>2</mn><mi>π</mi><mo>)</mo></math>. For a square matrix <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>, let Trace<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>M</mi></mfenced></math> denote the sum of all the diagonal entries of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mo>.</mo></math> Then, among the statements:<br/><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi mathvariant=\"normal\">I</mi></mfenced></math> Trace<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>R</mi><mo>)</mo><mo>=</mo><mn>0</mn></math><br/><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>II</mi><mo>)</mo></math> If Trace<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>adj</mo><mo>(</mo><mo>adj</mo><mo>(</mo><mi>R</mi><mo>)</mo><mo>)</mo><mo>=</mo><mn>0</mn></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> has exactly one non-zero entry.",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "owULi",
+      "text": "Both <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi mathvariant=\"normal\">I</mi><mo>)</mo></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>II</mi><mo>)</mo></math> are true",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "uYSX5",
+      "text": "Only <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>II</mi><mo>)</mo></math> is true",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "PJaBD",
+      "text": "Neither <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi mathvariant=\"normal\">I</mi><mo>)</mo></math> nor <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>II</mi><mo>)</mo></math> is true",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "fFQYj",
+      "text": "Only <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi mathvariant=\"normal\">I</mi><mo>)</mo></math> is true",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<blockquote><p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>sin</mi><mi>θ</mi><mo>=</mo><mi>y</mi><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mo>=</mo><mi>z</mi><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi>π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mo>≠</mo><mn>0</mn></math>, </p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>=</mo><mfrac><mrow><mi>x</mi><mi>sin</mi><mi>θ</mi></mrow><mrow><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mstyle></mrow></mfenced></mrow></mfrac><mo>,</mo><mo> </mo><mi>z</mi><mo>=</mo><mfrac><mrow><mi>x</mi><mi>sin</mi><mi>θ</mi></mrow><mrow><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mstyle></mrow></mfenced></mrow></mfrac></math></p><p>Now, finding the trace of matrix we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mi>x</mi><mo>+</mo><mfrac><mrow><mi>x</mi><mi>sin</mi><mi>θ</mi></mrow><mrow><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mstyle></mrow></mfenced></mrow></mfrac><mo>+</mo><mfrac><mrow><mi>x</mi><mi>sin</mi><mi>θ</mi></mrow><mrow><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mstyle></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mfrac><mrow><mi>x</mi><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mo>+</mo><mi>x</mi><mi>sin</mi><mi>θ</mi><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mo>+</mo><mi>x</mi><mi>sin</mi><mi>θ</mi><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced></mrow><mrow><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mfrac><mrow><mi>x</mi><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mo>+</mo><mi>x</mi><mi>sin</mi><mi>θ</mi><mfenced><mrow><mi>sin</mi><mfenced><mrow><mi mathvariant=\"normal\">θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mo>+</mo><mi>sin</mi><mfenced><mrow><mi mathvariant=\"normal\">θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced></mrow></mfenced></mrow><mrow><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mfrac><mrow><mstyle displaystyle=\"true\"><mfrac><mi>x</mi><mn>2</mn></mfrac></mstyle><mo>·</mo><mn>2</mn><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mo>+</mo><mi>x</mi><mi>sin</mi><mi>θ</mi><mfenced><mrow><mn>2</mn><mi>sin</mi><mfenced><mrow><mi mathvariant=\"normal\">θ</mi><mo>+</mo><mi mathvariant=\"normal\">π</mi></mrow></mfenced><mi>cos</mi><mfenced><mfrac><mi mathvariant=\"normal\">π</mi><mn>3</mn></mfrac></mfenced></mrow></mfenced></mrow><mrow><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>·</mo><mfenced><mrow><mi>cos</mi><mfenced><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mn>3</mn></mfrac></mfenced><mo>-</mo><mi>cos</mi><mfenced><mrow><mn>2</mn><mi>θ</mi><mo>+</mo><mn>2</mn><mi>π</mi></mrow></mfenced></mrow></mfenced><mo>+</mo><mi>x</mi><mi>sin</mi><mi>θ</mi><mfenced><mrow><mo>-</mo><mn>2</mn><mi>sin</mi><mi>θ</mi><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced></mstyle><mrow><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi>π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>·</mo><mfenced><mrow><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>-</mo><mi>cos</mi><mn>2</mn><mi>θ</mi></mrow></mfenced><mo>-</mo><mi>x</mi><msup><mi>sin</mi><mn>2</mn></msup><mi>θ</mi></mstyle><mrow><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mo>-</mo><mi>x</mi><mo>-</mo><mn>2</mn><mi>x</mi><mi>cos</mi><mn>2</mn><mi>θ</mi><mo>-</mo><mn>4</mn><mi>x</mi><msup><mi>sin</mi><mn>2</mn></msup><mi>θ</mi></mstyle><mrow><mn>4</mn><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mo>-</mo><mi>x</mi><mo>-</mo><mn>2</mn><mi>x</mi><mfenced><mrow><mn>1</mn><mo>-</mo><mn>2</mn><msup><mi>sin</mi><mn>2</mn></msup><mi>θ</mi></mrow></mfenced><mo>-</mo><mn>4</mn><mi>x</mi><msup><mi>sin</mi><mn>2</mn></msup><mi>θ</mi></mstyle><mrow><mn>4</mn><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>4</mn><mi>x</mi><msup><mi>sin</mi><mn>2</mn></msup><mi>θ</mi><mo>-</mo><mn>4</mn><mi>x</mi><msup><mi>sin</mi><mn>2</mn></msup><mi>θ</mi></mstyle><mrow><mn>4</mn><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mo>-</mo><mn>3</mn><mi>x</mi></mstyle><mrow><mn>4</mn><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced><mi>sin</mi><mfenced><mrow><mi>θ</mi><mo>+</mo><mfrac><mrow><mn>4</mn><mi mathvariant=\"normal\">π</mi></mrow><mn>3</mn></mfrac></mrow></mfenced></mrow></mfrac><mo>≠</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi mathvariant=\"normal\">I</mi></mfenced></math> Trace <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi mathvariant=\"normal\">R</mi><mo>)</mo><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>≠</mo><mn>0</mn></math></p><p> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo></math> Statement (i) is False</p><p>Now, finding <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>Adj</mo><mo>(</mo><mo>Adj</mo><mo>(</mo><mi>R</mi><mo>)</mo><mo>)</mo></math></p><p>Now, using the property <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>Adj</mo><mo>(</mo><mo>Adj</mo><mo>(</mo><mi>R</mi><mo>)</mo><mo>)</mo><mo>=</mo><mi>R</mi><mo>|</mo><mi>R</mi><mo>|</mo></math> we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Trace</mi><mo> </mo><mo>(</mo><mi>Adj</mi><mo>(</mo><mi>Adj</mi><mo>(</mo><mi>R</mi><mo>)</mo><mo>)</mo><mo>)</mo><mo>=</mo><mi>x</mi><mi>y</mi><mi>z</mi><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>)</mo><mo>≠</mo><mn>0</mn></math></p><p>{As <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>≠</mo><mn>0</mn></math> proved above and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>,</mo><mi>y</mi><mo> </mo><mo>&amp;</mo><mo> </mo><mi>z</mi></math> are non zero}</p><p>Hence, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Trace</mi><mo>(</mo><mo>adj</mo><mo>(</mo><mo>adj</mo><mo>(</mo><mi>R</mi><mo>)</mo><mo>)</mo><mo>=</mo><mn>0</mn></math> is a false statement,</p><p>So, neither <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi mathvariant=\"normal\">I</mi></mfenced></math> nor <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>II</mi></mfenced></math> are true</p></blockquote>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "4b443452f7134b3ba0513b36ca95048e",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/lfmig1bJMOgqe.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/lfmig1bJMOgqe.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYearPapers": [
+    {
+      "_id": "65c4c0c11d30997d3436bb03",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-01-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (30 Jan Shift 2)",
+      "title": "JEE Main 2024 (30 Jan Shift 2)"
+    }
+  ],
+  "previousYear": {
+    "_id": "65c4c0c11d30997d3436bb03",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-01-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (30 Jan Shift 2)",
+    "title": "JEE Main 2024 (30 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

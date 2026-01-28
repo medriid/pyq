@@ -1,0 +1,43 @@
+{
+  "index": 190,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A number $\\mathrm{x}$ is chosen at random from the set $\\{1$, $2,3,4, \\ldots ., 100\\}$. Define the event: $\\mathrm{A}=$ the chosen number $x$ satisfies $\\frac{(x-10)(x-50)}{(x-30)} \\geq 0$\nThen $\\mathrm{P}(\\mathrm{A})$ is:"
+  },
+  "options": [
+    {
+      "text": "\n$0.71$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$0.70$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$0.51$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$0.20$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given $\\frac{(x-10)(x-50)}{(x-30)} \\geq 0$\nLet $x \\geq 10, x \\geq 50$ equation will be true $\\forall x \\geq 50$ as $\\left(\\frac{x-50}{x-30}\\right) \\geq 0, \\forall x \\in[10,30)$\n$$\n\\frac{(x-10)(x-50)}{x-30} \\geq 0 \\quad \\forall x \\in[10,30)\n$$\nTotal value of $x$ between 10 to 30 is 20 . Total values of $x$ between 50 to 100 including 50 and 100 is 51 .\nTotal values of $x=51+20=71$\n$$\nP(\\mathrm{~A})=\\frac{71}{100}=0.71\n$$"
+  }
+}

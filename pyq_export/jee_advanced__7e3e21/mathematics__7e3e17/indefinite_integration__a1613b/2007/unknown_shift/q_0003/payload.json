@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2007 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025609b22fd9ad3a1613b",
+    "chapter_name": "Indefinite Integration",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $F(x)$ be an indefinite integral of $\\sin ^2 x$.\nStatement I The function $F(x)$ satisfies $F(x+\\pi)=F(x)$ for all real $x$.\nStatement II $\\sin ^2(x+\\pi)=\\sin ^2 x$ for all real $x$."
+  },
+  "options": [
+    {
+      "text": "\nStatement I is true, Statement II is true; Statement II is a correct explanation for Statement I\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement I is true, Statement II is true; Statement II is not a correct explanation for Statement I.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement I is true, Statement II is false\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement I is false, Statement II is true",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& F(x)=\\int \\sin ^2 x d x=\\int \\frac{1-\\cos 2 x}{2} d x \\\\\n& \\Rightarrow F(x)=\\frac{1}{4}(2 x-\\sin 2 x)+c\n\\end{aligned}\n$$\nSince, $F(x+\\pi) \\neq F(x)$.\nHence, Statement I is false.\nBut Statement II is true as $\\sin ^2 x$ is periodic with period $\\pi$."
+  }
+}

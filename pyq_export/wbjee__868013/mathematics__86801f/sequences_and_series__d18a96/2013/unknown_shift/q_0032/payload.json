@@ -1,0 +1,43 @@
+{
+  "index": 32,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd27e4f983047d18a96",
+    "chapter_name": "Sequences and Series",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f: R \\rightarrow R$ be such that $f$ is injective and $f(x) f(y)=f(x+y) \\quad$ for $\\quad$ all $\\quad x, y \\in R, \\quad$ if $f(x), f(y)$ and $f(z)$ are in $G P,$ then $x, y$ and $z$ are in"
+  },
+  "options": [
+    {
+      "text": "AP always",
+      "is_correct": true
+    },
+    {
+      "text": "GP always",
+      "is_correct": false
+    },
+    {
+      "text": "AP depending on the values of $x, y$ and $z$",
+      "is_correct": false
+    },
+    {
+      "text": "GP depending on the values of $x, y$ and $z$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let the function, $f(x)=a^{kx}$ Which define in $f: R \\rightarrow R$ and injective also.\r\nNow, we have\r\n$$\r\nf(x) f(y)=f(x+y)\r\n$$\r\n$\\Rightarrow$\r\n$a^{k x} \\cdot a^{k y}=a^{k(x+y)}$\r\n$\\Rightarrow$\r\n$a^{k(x+y)}=a^{k(x+y)}$\r\n$\\because \\quad f(x), f(y)$ and $f(z)$ are in GP\r\n$\\therefore$\r\n$f(y)^{2}=f(x) \\cdot f(z)$\r\n$\\Rightarrow$\r\n$a^{2 k y}=a^{k x} \\cdot a^{k z}$\r\n$\\Rightarrow$\r\n$e^{2 k y}=e^{k(x+z)}$\r\nOn comparing, we get $2 k y=k(x+z) \\Rightarrow 2 y=x+z$\r\n$\\Rightarrow x, y$ and $z$ are in $A P$."
+  }
+}

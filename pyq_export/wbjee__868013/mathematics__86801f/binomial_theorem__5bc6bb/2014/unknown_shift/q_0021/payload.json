@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd8ccf6aa19875bc6bb",
+    "chapter_name": "Binomial Theorem",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of the sum $\\left({ }^{n} C_{1}\\right)^{2}+\\left({ }^{n} C_{2}\\right)^{2}+\\left({ }^{n} C_{3}\\right)^{2}+\\ldots+\\left({ }^{n} C_{n}\\right)^{2}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\left({ }^{2 n} C_{n}\\right)^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "${ }^{2 n} C_{n}$",
+      "is_correct": false
+    },
+    {
+      "text": "${ }^{2 n} \\mathrm{C}_{n}+1$",
+      "is_correct": false
+    },
+    {
+      "text": "${ }^{2 n} C_{n}-1$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "We know that\r\n$$\r\n\\begin{array}{r}\r\n(1+x)^{n}={ }^{n} C_{0}+{ }^{n} C_{1} x+{ }^{n} C_{2} x^{2} \\\\\r\n\\quad+\\ldots+{ }^{n} C_{n} x^{n} \\\\\r\n\\text { and }(x+1)^{n}={ }^{n} C_{0} x^{n}+{ }^{n} C_{1} x^{n-1} \\\\\r\n\\quad+{ }^{n} C_{2} x^{n-2}+\\ldots+{ }^{n} C_{n}\r\n\\end{array}\r\n$$\r\nOn multiplying Eqs. (i) and (ii), we get\r\n$$\r\n\\begin{array}{r}\r\n(1+x)^{2 n}=\\left({ }^{n} C_{0}+{ }^{n} C_{1} x+{ }^{n} C_{2} x^{2}+\\ldots+{ }^{n} C_{n} x^{n}\\right) \\\\\r\n\\quad \\times\\left({ }^{n} C_{0} x^{n}+{ }^{n} C_{1} x^{n-1}+{ }^{n} C_{2} x^{n-2}+\\ldots+{ }^{n} C_{n}\\right)\r\n\\end{array}\r\n$$\r\nCoefficient of $x^{n}$ in RHS\r\n$$\r\n=\\left({ }^{n} C_{0}\\right)^{2}+\\left({ }^{n} C_{1}\\right)^{2}+\\ldots+\\left({ }^{n} C_{n}\\right)^{2}\r\n$$\r\nand coefficient of $x^{n}$ in $\\mathrm{LHS}={ }^{2 n} \\mathrm{C}_{n}$\r\n$$\r\n\\begin{array}{c}\r\n\\therefore\\left({ }^{n} C_{0}\\right)^{2}+\\left({ }^{n} C_{1}\\right)^{2}+\\ldots+\\left({ }^{n} C_{n}\\right)^{2}=\\frac{2 n !}{n ! n !} \\\\\r\n\\Rightarrow\\left({ }^{n} C_{1}\\right)^{2}+\\ldots+\\left({ }^{n} C_{n}\\right)^{2}=\\frac{(2 n) !}{n ! n !}-1 \\\\\r\n\\quad={ }^{2 n} C_{n}-1\r\n\\end{array}\r\n$$"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "index": 28,
+  "type": "multipleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For two events $A$ and $B,$ let $P(A)=0.7$ and $P(B)=0.6 .$ The necessarily false statement(s) is/are"
+  },
+  "options": [
+    {
+      "text": "$P(A \\cap B)=0.35$",
+      "is_correct": false
+    },
+    {
+      "text": "$P(A \\cap B)=0.45$",
+      "is_correct": false
+    },
+    {
+      "text": "$P(A \\cap B)=0.65$",
+      "is_correct": true
+    },
+    {
+      "text": "$P(A \\cap B)=0.28$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "C",
+    "D"
+  ],
+  "solution": {
+    "text": "Given, $P(A)=0.7$ and $P(B)=0.6$\r\nWe know that\r\n$$\r\nP(A \\cap B) \\leq P(B)\r\n$$\r\n$\\therefore \\quad P(A \\cap B) \\leq 0.6$\r\nFrom Booley's inequality $P\\left(\\bigcap_{i=1}^{n} A_{i}\\right) \\geq \\sum_{i=1}^{n} P\\left(A_{i}\\right)-(n-1)$\r\n$\\therefore \\quad P(A \\cap B) \\geq[(P(A)+P(B)-(2-1)]$\r\n$\\Rightarrow \\quad P(A \\cap B) \\geq[0.7+0.6-1]$\r\n$\\Rightarrow \\quad P(A \\cap B) \\geq 0.3$\r\nFrom Eqs.\r\n(i) and (ii), we get\r\n$$\r\n0.3 \\leq P( A \\cap B) \\leq 0.6\r\n$$\r\nHence, options (c) and are (d) always incorrect"
+  }
+}

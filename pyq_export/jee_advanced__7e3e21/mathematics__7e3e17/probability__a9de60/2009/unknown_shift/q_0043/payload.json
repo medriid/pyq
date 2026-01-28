@@ -1,0 +1,43 @@
+{
+  "index": 43,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2009 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025732b001edb3fa9de60",
+    "chapter_name": "Probability",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nA fair die is tossed repeatedly until a six is obtained. Let $X$ denotes the number of tosses required.<strong>Question:</strong>\nThe conditional probability that $X \\geq 6$ given $X>3$ equals"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{125}{216}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{25}{216}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{5}{36}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{25}{36}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$P((X \\geq 6) /(X>3))$\n\n$$\n\\begin{aligned}\n& =\\frac{P((X>3) /(X \\geq 6)) \\cdot P(X \\geq 6)}{P(X>3)} \\\\\n& =\\frac{1 \\cdot\\left[\\left(\\frac{5}{6}\\right)^5 \\cdot \\frac{1}{6}+\\left(\\frac{5}{6}\\right)^6 \\cdot \\frac{1}{6}+\\ldots \\infty\\right]}{\\left[\\left(\\frac{5}{6}\\right)^3 \\cdot \\frac{1}{6}+\\left(\\frac{5}{6}\\right)^4 \\cdot \\frac{1}{6}+\\ldots \\infty\\right]}=\\frac{25}{36} \\\\\n&\n\\end{aligned}\n$$"
+  }
+}

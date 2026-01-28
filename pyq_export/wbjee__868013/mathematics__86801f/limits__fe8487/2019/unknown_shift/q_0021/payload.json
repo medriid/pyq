@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $\\lim _{x \\rightarrow 0} \\frac{1}{x}\\left[\\int_{y}^{a} e^{\\sin ^{2} t} d t-\\int_{x+y}^{a} e^{\\sin ^{2} t} d t\\right]$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$e^{\\sin ^{2} y}$",
+      "is_correct": true
+    },
+    {
+      "text": "$e^{2 \\sin y}$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^{\\mid \\sin y \\mid}$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^{\\operatorname{cosec}^{2} y}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "We have\r\n$\\lim _{x \\rightarrow 0} \\frac{1}{x}\\left[\\int_{y}^{a} e^{\\sin ^{2} t} d t-\\int_{x+y}^{a} e^{\\sin ^{2} t} d t\\right]$\r\n$=\\lim _{x \\rightarrow 0} \\frac{1}{x}\\left[\\int_{y}^{a} e^{\\sin ^{2} t} d t+\\int_{a}^{x+y} e^{\\sin ^{2} t} d t\\right]$\r\n$=\\lim _{x \\rightarrow 0} \\frac{1}{x} \\int_{y}^{x+y} e^{\\sin ^{2} t} d t$\r\n$=\\lim _{x \\rightarrow 0} \\frac{\\int_y^{x+y}e^{sin^{2t}}dt}{x}$\r\n$=\\lim _{x \\rightarrow 0} \\frac{e^{\\sin ^{2}(x+y)}(1+0)-0}{1}=e^{\\sin ^{2} y}$"
+  }
+}

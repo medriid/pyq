@@ -1,0 +1,83 @@
+{
+  "_id": "68542c7d7c09d044e4c1a23d",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2ff9d87935e0d80978a",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-04T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (4 Apr Shift 2)",
+      "title": "JEE Main 2025 (4 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If a curve $y=y(x)$ passes through the point $\\left(1, \\frac{\\pi}{2}\\right)$ and satisfies the differential equation $\\left(7 x^4 \\cot y-e^x \\operatorname{cosec} y\\right) \\frac{d x}{d y}=x^5, x \\geq 1$, then at $x=2$, the value of cosy is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "cwXu7",
+      "text": "$\\frac{2 \\mathrm{e}^2-\\mathrm{e}}{64}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "YGaUF",
+      "text": "$\\frac{2 \\mathrm{e}^2+\\mathrm{e}}{64}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "G79fT",
+      "text": "$\\frac{2 \\mathrm{e}^2-\\mathrm{e}}{128}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "oWJT5",
+      "text": "$\\frac{2 \\mathrm{e}^2+\\mathrm{e}}{128}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\frac{d y}{d x}=\\frac{7 \\cot y}{x}-\\frac{e^x \\operatorname{cosec} y}{x^5} \\\\ & \\frac{d y}{d x}=\\frac{7 \\cot y}{\\sin y \\cdot x}-\\frac{e^x}{\\sin y x^5} \\\\ & \\sin y \\frac{d y}{d x}-\\cos y \\cdot \\frac{7}{x}=\\frac{-e^x}{x^5} \\\\ & \\text { let }-\\cos y=t \\\\ & \\sin y \\frac{d y}{d x}=\\frac{d t}{d x}\\end{aligned}$<br/>$\\begin{aligned} & \\frac{d t}{d x}+\\frac{7 t}{x}=\\frac{-e^x}{x^5} \\\\ & \\text { I.F. }=x^7 \\\\ & \\text { t. } x^7=-\\int x^2 e^x d x \\\\ & \\operatorname{cosy} x^7=x^2 e^x-2 \\int x e^x d x \\\\ & \\operatorname{cosy} x^7=x^2 e^x-2 x e^x+2 e^x+c \\\\ & x=1, y=\\frac{\\pi}{2}, c=-e \\\\ & \\operatorname{cosy}=\\frac{2 e^2-e}{128} \\\\ & \\text { option }(3)\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "2cbd83eb56b24be585a71b6ec8cd9c36",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/YkMdKIGbC9JMT.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/YkMdKIGbC9JMT.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2ff9d87935e0d80978a",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-04T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (4 Apr Shift 2)",
+    "title": "JEE Main 2025 (4 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

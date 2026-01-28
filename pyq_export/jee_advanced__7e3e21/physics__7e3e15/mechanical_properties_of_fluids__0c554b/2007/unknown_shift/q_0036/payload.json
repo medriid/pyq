@@ -1,0 +1,43 @@
+{
+  "index": 36,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2007 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "616023dd6dc934e4a40c554b",
+    "chapter_name": "Mechanical Properties of Fluids",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Water is filled up to a height $h$ in a beaker of radius $R$ as shown in the figure. The density of water is $\\rho$, the surface tension of water is $T$ and the atmospheric pressure is $p_0$. Consider a vertical section $A B C D$ of the water column through a diameter of the beaker. The force on water on one side of this section by water on the other side of this section has magnitude.\n<img src=\"assets\\qt0036_9c66641c3875.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\n$\\left|2 p_0 R h+\\pi R^2 \\rho g h-2 R T\\right|$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left|2 p_0 R h+R \\rho g h^2-2 R T\\right|$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\left|p_0 \\pi R^2+R \\rho g h^2-2 R T\\right|$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left|p_0 \\pi R^2+R \\rho g h^2+2 R T\\right|$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Force from right hand side liquid on left hand side liquid.\n(i) Due to surface tension force $=2 R T$ (towards right)\n(ii) Due to liquid pressure force\n$$\n\\begin{aligned}\n& =\\int_{x=0}^{x=h}\\left(p_0+\\rho g h\\right)(2 R \\cdot x) d x \\\\\n& =\\left(2 p_0 R h+R \\rho g h^2\\right) \\text { (towards left) }\n\\end{aligned}\n$$\n$\\therefore$ Net force is $\\left|2 p_0 R h+R \\rho g h^2-2 R T\\right|$ Correct option is (b)."
+  }
+}

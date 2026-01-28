@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65cf9",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-25T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (25 Apr Online)",
+      "title": "JEE Main 2013 (25 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "Let $S=\\left\\{\\left(\\begin{array}{ll}a_{11} & a_{12} \\\\ a_{21} & a_{22}\\end{array}\\right): a_{i j} \\in\\{0,1,2\\}, a_{11}=a_{22}\\right\\}$\nThen the number of non-singular matrices in the set $S$ is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "QxC2Q",
+      "text": "\n27\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "SADaa",
+      "text": "\n24\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "00KN2",
+      "text": "\n10\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "YJmpF",
+      "text": "\n20",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "The matrices in the form\n$$\n\\left[\\begin{array}{ll}\na_{11} & a_{12} \\\\\na_{21} & a_{22}\n\\end{array}\\right], a_{i j} \\in\\{0,1,2\\}, a_{11}=a_{12} \\text { are }\n$$\n$$\n\\left[\\begin{array}{cc}\n0 & 0 / 1 / 2 \\\\\n0 / 1 / 2 & 0\n\\end{array}\\right],\\left[\\begin{array}{cc}\n1 & 0 / 1 / 2 \\\\\n0 / 1 / 2 & 1\n\\end{array}\\right],\\left[\\begin{array}{cc}\n2 & 0 / 1 / 2 \\\\\n0 / 1 / 2 & 2\n\\end{array}\\right]\n$$\nAt any place, $0 / 1 / 2$ means 0,1 or 2 will be the element at that place.\n\nHence there are total $27=3 \\times 3+3 \\times 3+3 \\times 3$ ) matrices of the above form. Out of which the matrices which are singular are\n$$\n\\left[\\begin{array}{cc}\n0 & 0 / 1 / 2 \\\\\n0 & 0\n\\end{array}\\right],\\left[\\begin{array}{cc}\n0 & 0 \\\\\n1 / 2 & 0\n\\end{array}\\right],\\left[\\begin{array}{ll}\n1 & 1 \\\\\n1 & 1\n\\end{array}\\right],\\left[\\begin{array}{ll}\n2 & 2 \\\\\n2 & 2\n\\end{array}\\right]\n$$\nHence there are total $7(=3+2+1+1)$ singular matrices.\n\nTherefore number of all non-singular matrices in the given form $=27-7=20$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-25T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (25 Apr Online)",
+    "title": "JEE Main 2013 (25 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

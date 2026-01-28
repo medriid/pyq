@@ -1,0 +1,24 @@
+{
+  "index": 28,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "There are 4 men and 5 women in Group A, and 5 men and 4 women in Group B. If 4 persons are selected from each group, then the number of ways of selecting 4 men and 4 women is _____"
+  },
+  "options": [],
+  "correct_answer": "5626",
+  "solution": {
+    "text": "$\\begin{array}{|l|l|l|}\n\\hline {\\begin{array}{c} \n\\text{From} \\\\\n\\text{Group A}\n\\end{array}} & {\\begin{array}{c} \n\\text{From} \\\\\n\\text{Group B}\n\\end{array}} & \\text{Ways of selection} \\\\\n\\hline 4 \\mathrm{M} & 4 \\mathrm{~W} & { }^4 \\mathrm{C}_4{ }^4 \\mathrm{C}_4=1 \\\\\n\\hline 3 \\mathrm{M} 1 \\mathrm{~W} & 1 \\mathrm{M} 3 \\mathrm{~W} & { }^4 \\mathrm{C}_3{ }^5 \\mathrm{C}_1{ }^5 \\mathrm{C}_1{ }^4 \\mathrm{C}_3=400 \\\\\n\\hline 2 \\mathrm{M} 2 \\mathrm{~W} & 2 \\mathrm{M} 2 \\mathrm{~W} & { }^4 \\mathrm{C}_2{ }^5 \\mathrm{C}_2{ }^5 \\mathrm{C}_2{ }^4 \\mathrm{C}_2=3600 \\\\\n\\hline 1 \\mathrm{M} 3 \\mathrm{~W} & 3 \\mathrm{M} 1 \\mathrm{~W} & { }^4 \\mathrm{C}_1{ }^5 \\mathrm{C}_3{ }^5 \\mathrm{C}_3{ }^4 \\mathrm{C}_1=1600 \\\\\n\\hline 4 \\mathrm{~W} & 4 \\mathrm{M} & { }^5 \\mathrm{C}_4{ }^5 \\mathrm{C}_4=25 \\\\\n\\hline \\text{ Total } & \\text{5626} \\\\\n\\hline\n\\end{array}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 22,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "General solution of $y \\frac{d y}{d x}+b y^{2}=a \\cos x$ $0 \\leq x    < 1$ is (Here, $c$ is an arbitrary constant)"
+  },
+  "options": [
+    {
+      "text": "$y^{2}=2 a(2 b \\sin x+\\cos x)+c e^{-2 b x}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(4 b^{2}+1\\right) y^{2}=2 a(\\sin x+2 b \\cos x)+c e^{-2 b x}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\left(4 b^{2}+1\\right) y^{2}=2 a(\\sin x+2 b \\cos x)+c e^{2 b x}$",
+      "is_correct": false
+    },
+    {
+      "text": "$y^{2}=2 a(2 b \\sin x+\\cos x)+c e^{-2 b x}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given. $y \\frac{d y}{d x}+b y^{2}=a \\cos x, 0    < x < 1$\r\n$y^{2}=z$\r\n$2 y \\frac{d y}{d x}=\\frac{d z}{d x}$\r\n$\\Rightarrow \\quad y \\frac{d y}{d x}=\\frac{1}{2} \\frac{d z}{d x}$\r\n$\\frac{1}{2} \\frac{d z}{d x}+b y^{2}=a \\cos x$\r\n$\\frac{d z}{d x}+2 b y^{2}=2 a \\cos x$\r\nNow, $I F=e^{2 b \\int d x}=e^{2 b x}$\r\n$\\therefore \\quad z \\cdot e^{2 b x}=\\int 2 a \\cos x \\cdot e^{2 b x} d x$\r\n$\\Rightarrow \\quad y^{2} e^{2 b x}=\\frac{2 a}{4 b^{2}+1}(\\sin x+2 b \\cos x) e^{2 b x}+C$\r\n$\\Rightarrow\\left(4 b^{2}+1\\right) y^{2}=2 a(\\sin x+2 b \\cos x)+C e^{-2 b x}$"
+  }
+}

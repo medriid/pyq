@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e1a",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d8",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (11 Apr Online)",
+      "title": "JEE Main 2014 (11 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "A set $\\mathrm{S}$ contains 7 elements. A non-empty subset $A$ of $S$ and an element $x$ of $S$ are chosen at random. Then the probability that $\\mathrm{x} \\in \\mathrm{A}$ is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "OK4Fm",
+      "text": "\n$\\frac{1}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "zrP1y",
+      "text": "\n$\\frac{64}{127}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "BINWm",
+      "text": "\n$\\frac{63}{128}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "I6oZV",
+      "text": "\n$\\frac{31}{128}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $\\mathrm{S}=\\left\\{x_1, x_2, x_3, x_4, x_5, x_6, x_7\\right\\}$\nLet the chosen element be $\\mathrm{x}_{\\mathrm{i}}$.\nTotal number of subsets of $\\mathrm{S}=2^7=128$\nNo. of non-empty subsets of S $=128-1$ $=127$\nWe need to find number of those subsets that contains $x_i$.\n\\begin{array}{|l|l|l|l|l|l|l|}\n\\hline 2 & 2 & 2 & 2 & 1 & 2 & 2 \\\\\n\\hline\n\\end{array}\n$x_1 x_2$-—- $x_i=-x_7$\nFor those subsets containing $x_i$, each element has 2 choices.\ni.e., (included or not included) in subset, However as the subset must contain $x_i$, $x_i$ has only one choice. (included one)\nSo, total no. of subsets containing $x_i=2 \\times 2 \\times 2 \\times 2 \\times 1 \\times 2 \\times 2=64$\nRequired prob\n$$\n=\\frac{\\text { No. of subsets containing } x_i}{\\text { Total no. of non-empty subsets }}\n$$\n\n$$\n=\\frac{64}{127}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d8",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (11 Apr Online)",
+    "title": "JEE Main 2014 (11 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

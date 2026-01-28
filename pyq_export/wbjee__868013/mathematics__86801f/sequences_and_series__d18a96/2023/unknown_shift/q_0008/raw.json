@@ -1,0 +1,63 @@
+{
+  "_id": "64a81495e0ff5a5425a85d03",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad6",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2023-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023",
+      "title": "WBJEE 2023"
+    }
+  ],
+  "question": {
+    "text": "If the \\(n\\) terms \\(a_1, a_2, \\ldots \\ldots \\ldots . ., a_n\\) are in A.P. with increment \\(r\\), then the difference between the mean of their squares & the square of their mean is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Ermmi",
+      "text": "(A) \\(\\frac{r^2\\left\\{(n-1)^2-1\\right\\}}{12}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "11MhM",
+      "text": "(B) \\(\\frac{r^2}{12}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "h5ZpH",
+      "text": "(C) \\(\\frac{r^2\\left(n^2-1\\right)}{12}\\)",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "ycaUp",
+      "text": "(D) \\(\\frac{\\mathrm{n}^2-1}{12}\\)",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint: \\(\\frac{a_1^2+a_2^2+\\ldots+a_n^2}{n}-\\left(\\frac{a_1+a_2+\\ldots+a_n}{n}\\right)^2\\)\n\\(=\\frac{a_1^2+\\left(a_1+r\\right)^2+\\ldots+\\left\\{a_1+(n-1) r\\right\\}^2}{n}-\\left(\\frac{n a_1+r \\cdot \\frac{n(n-1)}{2}}{n}\\right)^2\\)\n\\(\\begin{aligned}\n& =\\frac{n a_1^2+r^2 \\cdot \\frac{(n-1) \\cdot n(2 n-1)}{6}+a_1 r(n-1) \\cdot n}{n}-a_1^2-a_1 r(n-1)-\\frac{r^2(n-1)^2}{4} \\\\\n& =a_1^{2}+r^2 \\frac{(n-1)(2 n-1)}{6}+a_1 r(n-1)-a_1^2-a_1 r(n-1)-\\frac{r^2(n-1)^2}{4}\n\\end{aligned}\\)\n\\(\\begin{aligned} & =\\frac{r^2(n-1)}{2}\\left(\\frac{2 n-1}{3}-\\frac{n-1}{2}\\right) \\\\ & =\\frac{r^2(n-1)}{2} \\cdot\\left(\\frac{4 n-2-3 n+3}{6}\\right) \\\\ & =\\frac{r^2(n-1)(n+1)}{12} \\\\ & =\\frac{r^2\\left(n^2-1\\right)}{12}\\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad6",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2023-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023",
+    "title": "WBJEE 2023"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

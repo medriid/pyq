@@ -1,0 +1,45 @@
+{
+  "index": 14,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2019 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255d3df243724d460a9b",
+    "chapter_name": "Application of Derivatives",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let <math><mi>f</mi><mo>:</mo><mi>R</mi><mo>&#8594;</mo><mi>R</mi></math> be given by <math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo><mfenced separators=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mfenced separators=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>2</mn></mrow></mfenced><mfenced separators=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>5</mn></mrow></mfenced><mo>.</mo></math> Define <math><mi>F</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo><mrow><munderover><mo stretchy=\"false\">&#8747;</mo><mrow><mn>0</mn></mrow><mrow><mi>x</mi></mrow></munderover><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>t</mi></mrow></mfenced><mi>d</mi><mi>t</mi><mo>,</mo><mi>&#160;</mi><mi>x</mi><mo>&#62;</mo><mn>0</mn><mo>.</mo></mrow></mrow></math> Then which of the following options is/are correct?"
+  },
+  "options": [
+    {
+      "text": "<math><mi>F</mi></math> has a local minimum at <math><mi>x</mi><mo>=</mo><mn>1</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mi>F</mi></math> has a local maximum at <math><mi>x</mi><mo>=</mo><mn>2</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mi>F</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>≠</mo><mn>0</mn></math> for all <math><mi>x</mi><mo>∈</mo><mfenced separators=\"|\"><mrow><mn>0</mn><mo>,</mo><mi> </mi><mn>5</mn></mrow></mfenced></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mi>F</mi></math> has two local maxima and one local minimum in <math><mfenced separators=\"|\"><mrow><mn>0</mn><mo>,</mo><mi> </mi><mi>∞</mi></mrow></mfenced></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "B",
+    "C"
+  ],
+  "solution": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><munderover><mo>∫</mo><mn>0</mn><mi>x</mi></munderover><mi>f</mi><mfenced separators=\"|\"><mi>t</mi></mfenced><mo>.</mo><mi>d</mi><mi>t</mi></math><br/><math><msup><mrow><mi>F</mi></mrow><mrow><mi>'</mi></mrow></msup><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo><mfenced separators=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mfenced separators=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>2</mn></mrow></mfenced><mfenced separators=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>5</mn></mrow></mfenced></math><br/><img src=\"assets\\st0014_6e62133e8fc7.png\"/><br/><math><mo>⇒</mo><mi>F</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math> has maxima at <math><mi>x</mi><mo>=</mo><mn>2</mn></math><br/>and minima at <math><mi>x</mi><mo>=</mo><mn>1</mn></math> and <math><mi>x</mi><mo>=</mo><mn>5</mn></math><br/>now <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mfenced separators=\"|\"><mn>2</mn></mfenced><mo>=</mo><munderover><mo>∫</mo><mn>0</mn><mn>2</mn></munderover><mfenced separators=\"|\"><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>17</mn><mi>x</mi><mo>-</mo><mn>10</mn></mrow></mfenced><mo>.</mo><mi>d</mi><mi>x</mi></math><br/><math><mo>=</mo><msubsup><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mfrac><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>4</mn></mrow></msup></mrow><mrow><mn>4</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>8</mn><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow><mrow><mn>3</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>17</mn><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>2</mn></mrow></mfrac><mo>-</mo><mn>10</mn><mi>x</mi></mrow></mfenced></mrow><mrow><mn>0</mn></mrow><mrow><mn>2</mn></mrow></msubsup></math><br/><math><mi>F</mi><mfenced separators=\"|\"><mrow><mn>2</mn></mrow></mfenced><mo>=</mo><mfrac><mrow><mo>-</mo><mn>10</mn></mrow><mrow><mn>3</mn></mrow></mfrac></math> which is a maxima in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>∈</mo><mfenced separators=\"|\"><mrow><mn>0</mn><mo>,</mo><mi> </mi><mn>5</mn></mrow></mfenced></math><br/><math><mi>F</mi><mfenced separators=\"|\"><mrow><mn>0</mn></mrow></mfenced><mo>=</mo><mn>0</mn></math><br/><img src=\"assets\\st0014_49d6676f5ee5.png\"/><br/>Hence <math><mi>F</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo><</mo><mn>0</mn><mo>∀</mo><mi>x</mi><mo>∈</mo><mfenced separators=\"|\"><mrow><mn>0</mn><mo>,</mo><mi> </mi><mn>5</mn></mrow></mfenced></math>"
+  }
+}

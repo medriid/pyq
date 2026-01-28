@@ -1,0 +1,43 @@
+{
+  "index": 148,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 1 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2018",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $S$ be the set of all real values of $k$ for which the system of linear equations\n$$\n\\begin{aligned}\n&x+y+z=2 \\\\\n&2 x+y-z=3 \\\\\n&3 x+2 y+k z=4\n\\end{aligned}\n$$\nhas a unique solution. Then $S$ is"
+  },
+  "options": [
+    {
+      "text": "\nan empty set\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nequal to $\\mathrm{R}-\\{0\\}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nequal to $\\{0\\}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nequal to $\\mathrm{R}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "The system of linear equations is:\n$$\n\\begin{aligned}\n&x+y+z=2 \\\\\n&2 x+y-z=3 \\\\\n&3 x+2 y+k z=4\n\\end{aligned}\n$$\nAs, system has unique solution.\n$$\n\\begin{aligned}\n&\\text { So, }\\left|\\begin{array}{ccc}\n1 & 1 & 1 \\\\\n2 & 1 & -1 \\\\\n3 & 2 & k\n\\end{array}\\right| \\neq 0 \\\\\n&\\Rightarrow k+2-(2 k+3)+1 \\neq 0 \\\\\n&\\Rightarrow k \\neq 0\n\\end{aligned}\n$$\nHence, $k \\in R-\\{0\\} \\equiv S$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 147,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2010",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023bb7fac1bbfb6fab777",
+    "chapter_name": "Work Power Energy",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The potential energy function for the force between two atoms in a diatomic molecule is approximately given by $U(x)=\\frac{a}{x^{12}}-\\frac{b}{x^6}$, where a and $b$ are constants and $x$ is the distance between the atoms. If the dissociation energy of the molecule is $D=\\left[U(x=\\infty)-U_{\\text {at equilbrium }}\\right], D$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{b^2}{2 a}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{b^2}{12 a}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{b^2}{4 a}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{b^2}{6 a}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& U(x)=\\frac{a}{x^{12}}-\\frac{b}{x^6} \\\\\n& U(x=\\infty)=0\n\\end{aligned}\n$$\nas, $\\quad \\mathrm{F}=-\\frac{\\mathrm{dU}}{\\mathrm{dx}}=-\\left[\\frac{12 \\mathrm{a}}{\\mathrm{x}^{13}}+\\frac{6 \\mathrm{~b}}{\\mathrm{x}^7}\\right]$ at equilibrium, $\\quad F=0$\n$\\begin{array}{ll}\\therefore & x^6=\\frac{2 a}{b} \\\\ \\therefore & U_{\\text {at equiltrium }}=\\frac{a}{\\left(\\frac{2 a}{b}\\right)^2}-\\frac{b}{\\left(\\frac{2 a}{b}\\right)}=\\frac{-b^2}{4 a} \\\\ \\therefore & D=\\left[U(x=\\infty)-U_{\\text {at equilibium }}\\right]=\\frac{b^2}{4 a}\\end{array}$"
+  }
+}

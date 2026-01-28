@@ -1,0 +1,43 @@
+{
+  "index": 225,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2008",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The solution of the differential equation $\\frac{d y}{d x}=\\frac{x+y}{x}$ satisfying the condition $y(1)=1$ is"
+  },
+  "options": [
+    {
+      "text": "\n$y=\\ln x+x$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$y=x \\ln x+x^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$y=x e^{(x-1)}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$y=x \\ln x+x$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\ny=v x\n$$\n\n$$\n\\begin{aligned}\n& \\frac{d y}{d x}=v+x \\frac{d v}{d x} \\\\\n& v+x \\frac{d v}{d x}=1+v \\\\\n& \\Rightarrow d v=\\frac{d x}{x} \\\\\n& \\therefore v=\\log x+c \\\\\n& \\Rightarrow \\frac{y}{x}=\\log x+c\n\\end{aligned}\n$$\nSince, $y(1)=1$, we have\n$$\ny=x \\log x+x\n$$"
+  }
+}

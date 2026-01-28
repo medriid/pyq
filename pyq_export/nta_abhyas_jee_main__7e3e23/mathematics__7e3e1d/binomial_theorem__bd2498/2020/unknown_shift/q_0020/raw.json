@@ -1,0 +1,61 @@
+{
+  "_id": "6151e863c7f6f95c62de2125",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "87",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "In the binomial expansion of <math><msup><mrow><mfenced separators=\"|\"><mrow><mroot><mrow><mfrac><mrow><mi>a</mi></mrow><mrow><mi>b</mi></mrow></mfrac></mrow><mrow><mn>3</mn></mrow></mroot><mo>+</mo><mroot><mrow><mfrac><mrow><mi>b</mi></mrow><mrow><msqrt><mi>a</mi></msqrt></mrow></mfrac></mrow><mrow><mn>3</mn></mrow></mroot></mrow></mfenced></mrow><mrow><mn>21</mn></mrow></msup><mo>,</mo></math> the term containing same powers of <math><mi>a</mi></math> and <math><mi>b</mi></math> is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "ZrjXB",
+      "text": "<math><msup><mrow><mn>11</mn></mrow><mrow><mi mathvariant=\"normal\">t</mi><mi mathvariant=\"normal\">h</mi></mrow></msup></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "fC9AX",
+      "text": "<math><msup><mrow><mn>13</mn></mrow><mrow><mi mathvariant=\"normal\">t</mi><mi mathvariant=\"normal\">h</mi></mrow></msup></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "sxULk",
+      "text": "<math><msup><mrow><mn>12</mn></mrow><mrow><mi mathvariant=\"normal\">t</mi><mi mathvariant=\"normal\">h</mi></mrow></msup></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "a6Czg",
+      "text": "<math><msup><mrow><mn>6</mn></mrow><mrow><mi mathvariant=\"normal\">t</mi><mi mathvariant=\"normal\">h</mi></mrow></msup></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p><math><msub><mrow><mi>t</mi></mrow><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msub><mrow><mmultiscripts><mrow><mi>C</mi></mrow><mprescripts></mprescripts><mrow><mi></mi></mrow><mrow><mn>21</mn></mrow></mmultiscripts></mrow><mrow><mi>r</mi></mrow></msub><msup><mrow><mfenced separators=\"|\"><mrow><mfrac><mrow><mi>a</mi></mrow><mrow><mi>b</mi></mrow></mfrac></mrow></mfenced></mrow><mrow><mfrac><mrow><mn>21</mn><mo>-</mo><mi>r</mi></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></msup><mfrac><mrow><msup><mrow><mi>b</mi></mrow><mrow><mfrac><mrow><mi>r</mi></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></msup></mrow><mrow><msup><mrow><mi>a</mi></mrow><mrow><mfrac><mrow><mi>r</mi></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></msup></mrow></mfrac></math><br /><math><mo>=</mo><msub><mrow><mmultiscripts><mrow><mi>C</mi></mrow><mprescripts></mprescripts><mrow><mi></mi></mrow><mrow><mn>21</mn></mrow></mmultiscripts></mrow><mrow><mi>r</mi></mrow></msub><mi></mi><msup><mrow><mi>a</mi></mrow><mrow><mfrac><mrow><mn>21</mn><mo>-</mo><mi>r</mi></mrow><mrow><mn>3</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mi>r</mi></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></msup><mi></mi><msup><mrow><mi>b</mi></mrow><mrow><mfrac><mrow><mi>r</mi></mrow><mrow><mn>3</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>21</mn><mo>-</mo><mi>r</mi></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></msup></math></p><p>Since, power of <math><mi>a</mi></math> and <math><mi>b</mi></math> are the same<br /><math><mo>&#8658;</mo><mfrac><mrow><mn>21</mn><mo>-</mo><mi>r</mi></mrow><mrow><mn>3</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mi>r</mi></mrow><mrow><mn>6</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>r</mi></mrow><mrow><mn>3</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>21</mn><mo>-</mo><mi>r</mi></mrow><mrow><mn>3</mn></mrow></mfrac></math><br /><math><mo>&#8658;</mo><mfrac><mrow><mn>2</mn><mfenced separators=\"|\"><mrow><mn>21</mn><mo>-</mo><mi>r</mi></mrow></mfenced></mrow><mrow><mn>3</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>r</mi></mrow><mrow><mn>3</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mi>r</mi></mrow><mrow><mn>6</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>r</mi></mrow><mrow><mn>2</mn></mrow></mfrac></math><br /><math><mn>84</mn><mo>-</mo><mn>4</mn><mi>r</mi><mo>=</mo><mn>3</mn><mi>r</mi><mo>&#8658;</mo><mn>7</mn><mi>r</mi><mo>=</mo><mn>84</mn><mo>&#8658;</mo><mi>r</mi><mo>=</mo><mn>12</mn></math><br />Hence, the&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>13</mn><mrow><mi mathvariant=\"normal\">t</mi><mi mathvariant=\"normal\">h</mi></mrow></msup></math> term contains the same powers of <math><mi>a</mi></math> and <math><mi>b</mi></math> .</p>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

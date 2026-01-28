@@ -1,0 +1,43 @@
+{
+  "index": 32,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2008 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252823fcecb062bf7291",
+    "chapter_name": "Complex Number",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A particle $P$ starts from the point $z_0=1+2 i$, where $i=\\sqrt{-1}$. It moves first horizontally away from origin by 5 units and then vertically away from origin by 3 units to reach a point $z_1$. From $z_1$ the particle moves $\\sqrt{2}$ units in the direction of the vector $\\hat{\\mathbf{i}}+\\hat{\\mathbf{j}}$ and then it moves through an angle $\\frac{\\pi}{2}$ in anti-clockwise direction on a circle with centre at origin, to reach a point $z_2$. The point $z_2$ is given by"
+  },
+  "options": [
+    {
+      "text": "\n$6+7 i$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-7+6 i$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$7+6 i$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-6+7 i$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0032_ec4b66be12d1.png\"><br>\n$$\nz_2^{\\prime}=\\left(6+\\sqrt{2} \\times \\cos 45^{\\circ}, 5+\\sqrt{2} \\sin 45^{\\circ}\\right)=(7,6)=7+6 i\n$$\nBy rotation about $(0,0)$,\n$$\n\\begin{aligned}\n& \\frac{z_2}{z_2^{\\prime}}=e^{i \\frac{\\pi}{2}} \\\\\n& \\Rightarrow \\quad z_2=z_2^{\\prime}\\left(e^{i \\frac{\\pi}{2}}\\right) \\\\\n& \\Rightarrow \\quad z_2=(7+6 i)\\left(\\cos \\frac{\\pi}{-}+i \\sin \\frac{\\pi}{-}\\right)=(7+6 i)(i)=-6+7 i\n\\end{aligned}\n$$"
+  }
+}

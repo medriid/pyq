@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2016 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "61602413891e062ffcfbf8b8",
+    "chapter_name": "Current Electricity",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "An infinite line charge of uniform electric charge density <math><mi>&#955;</mi></math> lies along the axis of an electrically conducting infinite cylindrical shell of radius R. At time t = 0, the space inside the cylinder is filled with a material of permittivity <math><mi>&#949;</mi></math> and electrical conductivity <math><mi>&#963;</mi></math> . The electrical conduction in the material follows Ohm&#39;s law.<br />Which one of the following graphs best describes the subsequent variation of the magnitude of current density j(t) at any point in the material?"
+  },
+  "options": [
+    {
+      "text": "<img src=\"assets\\ot1_0008_564056ef8fc4.jpg\"/>",
+      "is_correct": true
+    },
+    {
+      "text": "<img src=\"assets\\ot2_0008_3591c21c616f.jpg\"/>",
+      "is_correct": false
+    },
+    {
+      "text": "<img src=\"assets\\ot3_0008_6b78448ab429.jpg\"/>",
+      "is_correct": false
+    },
+    {
+      "text": "<img src=\"assets\\ot4_0008_b6141154389a.jpg\"/>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "This is the problem of RC circuit where the product RC is a constant.<br />So, due to leakage current, charge and current density will exponentially decay and will infinite time. So correct answer is A<br />For any small element<br />Resistance R = <math><mfrac><mrow><mi>d</mi><mi>r</mi></mrow><mrow><mi>&sigma;</mi><mfenced separators=\"|\"><mrow><mn>2</mn><mi>&pi;</mi><mi>r</mi><mi mathvariant=\"script\">l</mi></mrow></mfenced><mi>&nbsp;</mi></mrow></mfrac></math><br />Capacitance C <math><mo>=</mo><mfrac><mrow><mi>ϵ</mi><mi>&nbsp;</mi><mn>2</mn><mi>&pi;</mi><mi>r</mi><mi mathvariant=\"script\">l</mi></mrow><mrow><mi>d</mi><mi>r</mi></mrow></mfrac></math><br />Product <math><mi>R</mi><mo>&times;</mo><mi>C</mi><mo>=</mo><mfrac><mrow><mi>ϵ</mi></mrow><mrow><mi>&sigma;</mi></mrow></mfrac><mo>=</mo></math> constant<br /><math><mi>q</mi><mo>=</mo><msub><mrow><mi>q</mi></mrow><mrow><mn>0</mn></mrow></msub><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfenced separators=\"|\"><mrow><mfrac><mrow><mi>t</mi><mi>&sigma;</mi></mrow><mrow><mi>ϵ</mi></mrow></mfrac></mrow></mfenced></mrow></msup></math><br /><math><mi>I</mi><mo>=</mo><mfrac><mrow><mi>d</mi><mi>q</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mrow><mi>q</mi></mrow><mrow><mn>0</mn></mrow></msub><mi>&sigma;</mi></mrow><mrow><mi>ϵ</mi></mrow></mfrac><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfenced separators=\"|\"><mrow><mfrac><mrow><mi>t</mi><mi>&sigma;</mi></mrow><mrow><mi>ϵ</mi></mrow></mfrac></mrow></mfenced></mrow></msup></math><br />Current density <math><mo>=</mo><mfrac><mrow><mi>I</mi></mrow><mrow><mi>A</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mrow><mi>q</mi></mrow><mrow><mn>0</mn></mrow></msub><mfrac><mrow><mi>&sigma;</mi></mrow><mrow><mi>ϵ</mi></mrow></mfrac><mi>&nbsp;</mi><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfrac><mrow><mi>t</mi><mi>&sigma;</mi></mrow><mrow><mi>ϵ</mi></mrow></mfrac></mrow></msup></mrow><mrow><mn>2</mn><mi>&pi;</mi><mi>r</mi><mi mathvariant=\"script\">l</mi></mrow></mfrac></math><br /><math><mi>j</mi><mi>&nbsp;</mi><mi>&infin;</mi><mi>&nbsp;</mi><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfrac><mrow><mi>t</mi><mi>&sigma;</mi></mrow><mrow><mi>ϵ</mi></mrow></mfrac></mrow></msup></math>"
+  }
+}

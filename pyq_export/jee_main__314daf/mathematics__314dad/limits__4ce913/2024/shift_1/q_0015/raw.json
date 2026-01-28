@@ -1,0 +1,58 @@
+{
+  "_id": "66446758970e6e9ab542d274",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda70",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-09T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (09 Apr Shift 1)",
+      "title": "JEE Main 2024 (09 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\lim _{n \\rightarrow \\infty}\\left(\\frac{n}{\\sqrt{n^4+1}}-\\frac{2 n}{\\left(n^2+1\\right) \\sqrt{n^4+1}}+\\frac{n}{\\sqrt{n^4+16}}-\\frac{8 n}{\\left(n^2+4\\right) \\sqrt{n^4+16}}\\right.$ $\\left.+\\ldots+\\frac{n}{\\sqrt{n^4+n^4}}-\\frac{2 n \\cdot n^2}{\\left(n^2+n^2\\right) \\sqrt{n^4+n^4}}\\right)$ be $\\frac{\\pi}{k}$, using only the principal values of the inverse trigonometric functions. Then $\\mathrm{k}^2$ is equal to ________",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "32",
+  "solution": {
+    "text": "$\\begin{aligned} & \\sum_{\\mathrm{r}=1}^{\\infty} \\frac{\\mathrm{n}}{\\sqrt{\\mathrm{n}^4+\\mathrm{r}^4}}-\\frac{2 \\mathrm{nr}^2}{\\left(\\mathrm{n}^2+\\mathrm{r}^2\\right) \\sqrt{\\mathrm{n}^4+\\mathrm{r}^4}} \\\\ & \\sum_{\\mathrm{r}=1}^{\\infty} \\frac{\\frac{1}{\\mathrm{n}}}{\\sqrt{1+\\left(\\frac{\\mathrm{r}}{\\mathrm{n}}\\right)^4}}-\\frac{2\\left(\\frac{1}{\\mathrm{n}}\\right)\\left(\\frac{\\mathrm{r}}{\\mathrm{n}}\\right)^2}{\\left(1+\\left(\\frac{\\mathrm{r}}{\\mathrm{n}}\\right)^2\\right) \\sqrt{1+\\left(\\frac{\\mathrm{r}}{\\mathrm{n}}\\right)^4}} \\\\ & \\Rightarrow \\int_0^1 \\frac{\\mathrm{dx}}{\\sqrt{1+\\mathrm{x}^4}}-\\frac{2 \\mathrm{x}^2 \\mathrm{dx}}{\\left(1+\\mathrm{x}^2\\right) \\sqrt{1+\\mathrm{x}^4}} \\\\ & \\Rightarrow \\int_0^1 \\frac{1-\\mathrm{x}^2}{\\left(1+\\mathrm{x}^2\\right) \\sqrt{1+\\mathrm{x}^4}} d x \\\\ & \\Rightarrow \\int_0^1 \\frac{\\frac{1}{\\mathrm{x}^2}-1}{\\left(\\mathrm{x}+\\frac{1}{\\mathrm{x}}\\right) \\sqrt{\\mathrm{x}^2+\\frac{1}{\\mathrm{x}^2}}} \\mathrm{dx}\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow-\\int_0^1 \\frac{1-\\frac{1}{x^2}}{\\left(x+\\frac{1}{x}\\right) \\sqrt{\\left(x+\\frac{1}{x}\\right)^2-2}} d x \\\\ & x+\\frac{1}{x}=t \\Rightarrow 1-\\frac{1}{x^2} d x=d t\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow-\\int_{\\infty}^2 \\frac{\\mathrm{dt}}{\\mathrm{t} \\sqrt{\\mathrm{t}^2-2}} \\\\ & \\Rightarrow-\\int_{\\infty}^2 \\frac{\\mathrm{tdt}}{\\mathrm{t}^2 \\sqrt{\\mathrm{t}^2-2}} \\\\ & \\text { take } \\mathrm{t}^2-2=\\alpha^2 \\\\ & \\mathrm{tdt}=\\alpha \\mathrm{d} \\alpha \\\\ & \\Rightarrow-\\int_{\\infty}^{\\sqrt{2}} \\frac{\\alpha \\mathrm{d} \\alpha}{\\left(\\alpha^2+2\\right) \\alpha} \\\\ & \\Rightarrow-\\int_{\\infty}^{\\sqrt{2}} \\frac{\\mathrm{d} \\alpha}{\\alpha^2+2}\\end{aligned}$\n$\\begin{aligned}\n& \\left.\\Rightarrow \\frac{-1}{\\sqrt{2}} \\tan ^{-1} \\frac{\\alpha}{\\sqrt{2}}\\right]_{\\infty}^{\\sqrt{2}} \\\\\n& \\Rightarrow \\frac{-1}{\\sqrt{2}}\\left\\{\\tan ^{-1} 1\\right\\}+\\frac{1}{\\sqrt{2}} \\tan ^{-1} \\infty \\\\\n& \\Rightarrow \\frac{1}{\\sqrt{2}}\\left\\{\\frac{\\pi}{2}-\\frac{\\pi}{4}\\right\\} \\\\\n& \\Rightarrow \\frac{\\pi}{4 \\sqrt{2}}=\\frac{\\pi}{\\mathrm{K}}\n\\end{aligned}$<br />So $\\mathrm{K}=4 \\sqrt{2}$\n$\\mathrm{K}^2=32$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "883b40cd92d649479f35279f4f10684d",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/O6u0vmCTkpPfK.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/O6u0vmCTkpPfK.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda70",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-09T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (09 Apr Shift 1)",
+    "title": "JEE Main 2024 (09 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

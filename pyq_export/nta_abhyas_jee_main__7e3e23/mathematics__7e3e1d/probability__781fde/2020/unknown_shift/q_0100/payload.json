@@ -1,0 +1,43 @@
+{
+  "index": 100,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025730c74a9f2e6781fde",
+    "chapter_name": "Probability",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<p>Fifteen coupons are numbered <math><mn>1, 2, 3</mn><mo>,</mo><mo>…</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>15</mn></math> respectively. Seven coupons are selected at random one at a time with replacement. The probability, that the largest number appearing on selected coupons is at most <math><mn>9</mn></math>, is</p>\r"
+  },
+  "options": [
+    {
+      "text": "<math><mrow>  <msup>        <mrow>          <mfenced open=\"(\" close=\")\" separators=\",\">            <mrow>              <mfrac>                <mrow>                  <mn>1</mn>                </mrow>                <mrow>                  <mn>1</mn>                  <mn>5</mn>                </mrow>              </mfrac>            </mrow>          </mfenced>        </mrow>        <mn>7</mn>  </msup></mrow></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow> <msup> <mrow> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mn>3</mn> </mrow> <mrow> <mn>5</mn> </mrow> </mfrac> </mrow> </mfenced> </mrow> <mn>7</mn> </msup> </mrow> </math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math> <mrow> <msup> <mrow> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mn>8</mn> </mrow> <mrow> <mn>1</mn> <mn>5</mn> </mrow> </mfrac> </mrow> </mfenced> </mrow> <mn>7</mn> </msup> </mrow> </math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow> <msup> <mrow> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mn>2</mn> </mrow> <mrow> <mn>5</mn> </mrow> </mfrac> </mrow> </mfenced> </mrow> <mn>7</mn> </msup> </mrow> </math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Total coupons&nbsp;<math><mo>=</mo><mn>15</mn></math><br /><br /><math> <mrow> <mn>1</mn> <mo>≤</mo> </mrow> </math>&nbsp;selected coupon number <math> <mrow> <mo>≤</mo> <mn>9</mn> </mrow> </math><br /><br />i.e., <math><mn>1, 2</mn><mo>,</mo><mn>3, 4</mn><mo>,</mo><mn>5, 6</mn><mo>,</mo><mn>7, 8</mn><mo>,</mo><mn>9</mn></math><br /><br /><math> <mrow> <mo>∴</mo> </mrow> </math>&nbsp;Probability of one selected coupon to have number <math> <mrow> <mo>≤</mo><mn>9</mn></mrow> </math> <math> <mrow> <mo>=</mo> <mfrac> <mrow> <mn>9</mn> </mrow> <mrow> <mn>1</mn> <mn>5</mn> </mrow> </mfrac> <mo>=</mo> <mfrac> <mrow> <mn>3</mn> </mrow> <mrow> <mn>5</mn> </mrow> </mfrac> </mrow> </math><br /><br />Hence, the required probability<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<math> <mrow> <mo>=</mo> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mn>3</mn> </mrow> <mrow> <mn>5</mn> </mrow> </mfrac> </mrow> </mfenced> <mo>×</mo> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mn>3</mn> </mrow> <mrow> <mn>5</mn> </mrow> </mfrac> </mrow> </mfenced> <mo>×</mo> <mtext>....</mtext> <mn>7</mn> <mtext>&nbsp;times</mtext> <mo>=</mo> <msup> <mrow> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mn>3</mn> </mrow> <mrow> <mn>5</mn> </mrow> </mfrac> </mrow> </mfenced> </mrow> <mn>7</mn> </msup> </mrow> </math> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Using multiplicative principle for independent events)"
+  }
+}

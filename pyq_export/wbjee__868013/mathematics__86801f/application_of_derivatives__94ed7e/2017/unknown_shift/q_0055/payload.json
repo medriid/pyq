@@ -1,0 +1,43 @@
+{
+  "index": 55,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The chord of the curve $y=x^{2}+2 a x+b$ joining the points where $x=\\alpha$ and $x=\\beta,$ is parallel to the tangent to the curve at abscissa $x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{a+b}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2 a+b}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2 \\alpha+\\beta}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\alpha+\\beta}{2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given curve,\r\nAt $y=x^{2}+2 a x+b$\r\n$x=a$\r\n$y=\\alpha^{2}+2 a \\alpha+b$\r\nand at $x=\\beta$\r\n$y=\\beta^{2}+2 a \\beta+b$\r\n$\\therefore$ Slope of line joining $\\left(\\alpha, \\alpha^{2}+2 a \\alpha+b\\right)$ and\r\n$\\left(\\beta, \\beta^{2}+2 a \\beta+b\\right)$ is\r\n$=\\frac{\\left(\\alpha^{2}+2 a \\alpha+b\\right)-\\left(\\beta^{2}+2 a \\beta+b\\right)}{\\alpha-\\beta}$\r\n$=\\frac{\\alpha^{2}+2 a \\alpha+b-\\beta^{2}-2 a \\beta-b}{\\alpha-\\beta}$\r\n$=\\frac{\\left(\\alpha^{2}-\\beta^{2}\\right)+2 a(\\alpha-\\beta)}{\\alpha-\\beta}$\r\n$\\frac{=(\\alpha-\\beta)(\\alpha+\\beta)+2 a(\\alpha-\\beta)}{\\alpha-\\beta}$\r\n$=\\alpha+\\beta+2 a$\r\nSlope of given curve $=\\frac{d y}{d x}$ $=2 x+2 a$\r\nNow, according to question, tangent is parallel to the chord. Therefore,\r\n$$\r\n\\begin{array}{r}\r\n2 x+2 a=\\alpha+\\beta+2 a \\\\\r\n\\Rightarrow \\quad 2 x=\\alpha+\\beta \\Rightarrow x=\\frac{\\alpha+\\beta}{2}\r\n\\end{array}\r\n$$"
+  }
+}

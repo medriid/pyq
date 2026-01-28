@@ -1,0 +1,43 @@
+{
+  "index": 34,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "There are two coins, one unbiased with probaility $\\frac{1}{2}$ or getting heads and the other one is biased with probability $\\frac{3}{4}$ of getting heads. A coin is selected at random and tossed. It shows heads up. Then, the probability that the unbiased coin wa selected is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{2}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{3}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2}{5}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $E \\rightarrow$ Event of head showing up\r\n$E_{1} \\rightarrow$ Event of biased coin chosen\r\n$E_{2} \\rightarrow$ Event of unbiased coin chosen Now, $P\\left(E_{2}\\right)=\\frac{1}{2}$ and $P\\left(E_{1}\\right)=\\frac{1}{2}$\r\nAlso, $P\\left(\\frac{E}{E_{2}}\\right)=\\frac{1}{2}$ and $P\\left(\\frac{E}{E_{1}}\\right)=\\frac{3}{4}$\r\n(by conditional probability) By Baye's theorem\r\n$$\r\n\\begin{aligned}\r\nP\\left(\\frac{E_{2}}{E}\\right)=& \\frac{P\\left(E_{2}\\right) \\cdot P\\left(\\frac{E}{E_{2}}\\right)}{P\\left(E_{2}\\right) \\cdot P\\left(\\frac{E}{E_{2}}\\right)+P\\left(E_{1}\\right) \\cdot P\\left(\\frac{E}{E_{1}}\\right)} \\\\\r\n&=\\frac{\\frac{1}{2} \\times \\frac{1}{2}}{\\frac{1}{2} \\times \\frac{1}{2}+\\frac{1}{2} \\times \\frac{3}{4}}=\\frac{2}{5}\r\n\\end{aligned}\r\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 55,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2008 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255d3df243724d460a9b",
+    "chapter_name": "Application of Derivatives",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let the function $g:(-\\infty, \\infty) \\rightarrow\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ be given by $g(u)=2 \\tan ^{-1}\\left(e^u\\right)-\\frac{\\pi}{2}$. Then, $g$ is"
+  },
+  "options": [
+    {
+      "text": "\neven and is strictly increasing in $(0, \\infty)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nodd and is strictly decreasing in $(-\\infty, \\infty)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nodd and is strictly increasing in $(-\\infty, \\infty)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nNeither even nor odd, but is strictly increasing in $(-\\infty, \\infty)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\therefore \\quad g(u)=2 \\tan ^{-1}\\left(e^u\\right)-\\frac{\\pi}{2}$\nfor $\\quad u \\in(-\\infty, \\infty)$\nand\n$$\n\\begin{aligned}\ng(-u) & =2 \\tan ^{-1}\\left(e^{-u}\\right)-\\frac{\\pi}{2} \\\\\n& =2\\left(\\cot ^{-1}\\left(e^u\\right)\\right)-\\frac{\\pi}{2} \\\\\n& =2\\left(\\frac{\\pi}{2}-\\tan ^{-1}\\left(e^u\\right)\\right)-\\frac{\\pi}{2} \\\\\n& =\\frac{\\pi}{2}-2 \\tan ^{-1}\\left(e^u\\right)=-g(u)\n\\end{aligned}\n$$\n$\\therefore \\quad g(-u)=-g(u)$\n$\\Rightarrow g(u)$ is an odd function."
+  }
+}

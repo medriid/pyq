@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The least value of n for which the number of integral terms in the Binomial expansion of \\((\\sqrt[3]{7}+\\sqrt[12]{11})^{\\mathrm{n}}\\) is 183, is :"
+  },
+  "options": [
+    {
+      "text": "2184",
+      "is_correct": true
+    },
+    {
+      "text": "2196",
+      "is_correct": false
+    },
+    {
+      "text": "2148",
+      "is_correct": false
+    },
+    {
+      "text": "2172",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\text { General term }={ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{r}}\\left\\{7^{1 / 3}\\right\\}^{\\mathrm{n}-\\mathrm{r}}\\left(11^{1 / 12}\\right)^{\\mathrm{r}} \\\\\n& ={ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{r}}\\{7\\}^{\\frac{\\mathrm{n}-\\mathrm{r}}{3}}(11)^{\\mathrm{r} / 12}\n\\end{aligned}$\n\nFor integral terms, r must be multiple of 12\n$\\therefore \\mathrm{r}=12 \\mathrm{k}, \\mathrm{k} \\in \\mathrm{~W}$\n\nTotal values of $r=183$\nHence $\\max r=12(182)$\n$=2184$\n\nMin value of $n=2184$"
+  }
+}

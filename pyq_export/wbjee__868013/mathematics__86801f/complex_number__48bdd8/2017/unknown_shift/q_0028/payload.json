@@ -1,0 +1,43 @@
+{
+  "index": 28,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc9a79d891b2548bdd8",
+    "chapter_name": "Complex Number",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $z=x+i y,$ where $x$ and $y$ are real. The points $(x, y)$ in the $X-Y$ plane for which $\\frac{z+i}{z-i}$\r\nis purely imaginary, lie on"
+  },
+  "options": [
+    {
+      "text": "a straight line",
+      "is_correct": false
+    },
+    {
+      "text": "an ellipse",
+      "is_correct": false
+    },
+    {
+      "text": "a hyperbola",
+      "is_correct": false
+    },
+    {
+      "text": "a circle",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\frac{z+i}{z-i}=\\frac{(x+j)+i}{(x+i y)-i}$\r\n$=\\frac{x+(1+y) i}{x+(y-1) i}$\r\n$=\\frac{x+(y+1) i}{x+(y-1) i} \\times \\frac{x-(y-1) i}{x-(y-1) i}$\r\n$=\\frac{x^{2}-x(y-1) i+x(y+1) i-(y+1)(y-1) i^{2}}{x^{2}-(y-1)^{2} i^{2}}$\r\n$=\\frac{x^{2}+i[-x y+x+x y+x]+\\left(y^{2}-1\\right)}{x^{2}+(y-1)^{2}}$\r\n$=\\frac{x^{2}+y^{2}-1}{x^{2}+(y-1)^{2}}+\\frac{2 x}{x^{2}+(y-1)^{2}} i$\r\nNow, $\\frac{z+i}{z-i}$ is purely imaginary.\r\n$\\therefore$\r\n$\\operatorname{Re}\\left(\\frac{z+i}{z-i}\\right)=0$\r\n$\\begin{array}{lr}\\Rightarrow & \\frac{x^{2}+y^{2}-1}{x^{2}+(y-1)^{2}}=0 \\\\ \\Rightarrow & x^{2}+y^{2}=1\\end{array}$\r\n$\\therefore(x, y)$ lies on a circle."
+  }
+}

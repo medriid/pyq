@@ -1,0 +1,24 @@
+{
+  "index": 0,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2025 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252aaac414b50bcf64af",
+    "chapter_name": "Permutation Combination",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $S$ be the set of all seven-digit numbers that can be formed using the digits 0,1 and 2 . For example, 2210222 is in $S$, but 0210222 is NOT in $S$.\nThen the number of elements $x$ in $S$ such that at least one the digits 0 and 1 appears exactly twice in $x$, is equal to ______."
+  },
+  "options": [],
+  "correct_answer": "762",
+  "solution": {
+    "text": "Let $\\mathrm{A} \\rightarrow$ \" 0 \" appear exactly twice.\nand $\\mathrm{B} \\rightarrow \" 1 \"$ appear exactly twice.\n$\\therefore \\mathrm{A} \\cap \\mathrm{B} \\rightarrow$ \" 0 \" and \" 1 \" both appears exactly twice.\n$\\mathrm{n}(\\mathrm{A})=-\\underbrace{-------}$\n$={ }_{\\text {placing zero }}^6 \\mathrm{C}_2(1)(2)^5=\\frac{6 \\times 5}{2} \\times 2^5=480$ for $\\mathrm{n}(\\mathrm{B})$\nC-I : $1$ at first place\n$\\underline{1}\\underbrace{-------}$\n$\\text { Number of ways }=\\underset{\\text { placing } 1}{} \\mathrm{}^6{C}_1(1)(2)^5=192$\nC-II : 2 at first place\n$\\underline{2}\\underbrace{-------}$\nNumber of ways $=\\underset{\\text { placing } 1}{{ }^6 \\mathrm{C}_2(1)(2)^4}=\\frac{6 \\times 5}{2} \\times 2^4=240$\n$n(B)=240+192$\nfor $\\mathrm{n}(\\mathrm{A} \\cap \\mathrm{B})$\n$\\underline{}\\underbrace{-------}$\nfor $\\mathrm{n}(\\mathrm{A} \\cap \\mathrm{B})=\\underset{\\text { placing zero }}{{ }^6 \\mathrm{C}_2(1)} \\times \\underset{\\text { placing } 1}{{ }^5 \\mathrm{C}_2(1)} \\times \\underset{\\text { 2at rest places } 1}{(1)} =\\frac{6 \\times 5}{2} \\times \\frac{5 \\times 4}{2}=150$\n$\\begin{aligned} & \\therefore \\mathrm{n}(\\mathrm{A} \\cup \\mathrm{B})=\\mathrm{n}(\\mathrm{A})+\\mathrm{n}(\\mathrm{B})-\\mathrm{n}(\\mathrm{A} \\cap \\mathrm{B}) \\\\ & =480+(192+240)-150 \\\\ & =762\\end{aligned}$"
+  }
+}

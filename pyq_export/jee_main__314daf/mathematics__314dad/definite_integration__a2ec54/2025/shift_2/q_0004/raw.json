@@ -1,0 +1,83 @@
+{
+  "_id": "68542c797c09d044e4c1a22b",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2fe9d87935e0d809786",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-03T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (3 Apr Shift 2)",
+      "title": "JEE Main 2025 (3 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "The integral $\\int_0^\\pi \\frac{8 x d x}{4 \\cos ^2 x+\\sin ^2 x}$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "4F6Ww",
+      "text": "$2 \\pi^2$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "t5U5V",
+      "text": "$4 \\pi^2$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "eIS0w",
+      "text": "$\\pi^2$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "KU1M1",
+      "text": "$\\frac{3 \\pi^2}{2}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}<br/>& I=\\int_0^\\pi \\frac{8 x d x}{4 \\cos ^2 x+\\sin ^2 x} \\\\\n& I=\\int_0^\\pi \\frac{8(\\pi-x) d x}{4 \\cos ^2 x+\\sin ^2 x}<br/>\\end{aligned}$<br/>$2 \\mathrm{I}=8 \\pi \\int_0^\\pi \\frac{d x}{4 \\cos ^2 x+\\sin ^2 x}$<br/>$2 \\mathrm{I}=8 \\pi \\times 2 \\int_0^{\\pi / 2} \\frac{\\sec ^2 x}{4+\\tan ^2 \\mathrm{x}} \\mathrm{dx}$<br/>$\\begin{aligned}<br/>& \\mathrm{I}=8 \\pi \\int_0^{\\infty} \\frac{\\mathrm{dt}}{4+\\mathrm{t}^2}=8 \\pi \\times \\frac{1}{2}\\left(\\tan ^{-1} \\frac{\\mathrm{t}}{2}\\right]_0^{\\infty} \\\\\n& =4 \\pi \\times \\frac{\\pi}{2}=2 \\pi^2<br/>\\end{aligned}$<br/>option (1)",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "d52cba1190bb4d39916c11a84704248a",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/2wgUMBSjSksMf.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/2wgUMBSjSksMf.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2fe9d87935e0d809786",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-03T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (3 Apr Shift 2)",
+    "title": "JEE Main 2025 (3 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

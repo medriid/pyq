@@ -1,0 +1,44 @@
+{
+  "index": 11,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d10462f802c3ef913dd",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f$ and $g$ be differentiable on the interval $I$ and let $a, b \\in I, a    < b$. Then,"
+  },
+  "options": [
+    {
+      "text": "If $f(a)=0=f(b)$, the equation $f^{\\prime}(x)+f(x) g^{\\prime}(x)=0$ is solvable in $(a, b)$",
+      "is_correct": true
+    },
+    {
+      "text": "If $f(a)=0=f(b)$, the equation $f^{\\prime}(x)+f(x) g^{\\prime}(x)=0$ may not be solvable in $(a, b)$",
+      "is_correct": false
+    },
+    {
+      "text": "If $g(a)=0=g(b)$, the equation $g^{\\prime}(x)+k g(x)=0$ is solvable in $(a, b), k \\in \\mathbb{R}$",
+      "is_correct": true
+    },
+    {
+      "text": "If $g(a)=0=g(b)$, the equation $g^{\\prime}(x)+k g(x)=0$ may not be solvable in $(a, b), k \\in \\mathbb{R}$.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "C"
+  ],
+  "solution": {
+    "text": "From option (a)\r\nWe have,\r\n$f(a)=f(b)=0$\r\n$\\Rightarrow f^{\\prime}(a) \\cdot f^{\\prime}(b)    < 0$\r\nAgain, let $h(x)=f^{\\prime}(x)+f(x) g^{\\prime}(x)$\r\n$\\Rightarrow h(a)=f^{\\prime}(a)+fg^{\\prime}(a)=f^{\\prime}(a)$\r\nand $h(b)=f^{\\prime}(b)+f(b) g^{\\prime}(b)=f^{\\prime}(b)$\r\n$\\therefore \\quad h(a) \\cdot h(b)=f^{\\prime}(a) \\cdot f^{\\prime}(b) < 0$\r\n$\\therefore h(x)=0$ has root between $(a, b)$\r\nFrom option (c) \r\nWe have, $g(a)=g(b)=0$\r\n$\\Rightarrow \\quad g^{\\prime}(a)\\cdot g^{\\prime}(b) < 0$\r\nAgain, let $m(x)=g^{\\prime}(x)+k g(x)$\r\n$\\Rightarrow m(a)=g^{\\prime}(a)+k g(a)=g^{\\prime}(a)$\r\n$\\Rightarrow \\quad m(b)=g^{\\prime}(b)+k g(b)=g^{\\prime}(b)$\r\n$\\therefore \\quad m(a) \\cdot m(b)=g^{\\prime}\\cdot g^{\\prime}(b) < 0$\r\n$\\therefore \\quad m(x)=0$ has root between $(a, b)$ So, option (a) and (c) are correct."
+  }
+}

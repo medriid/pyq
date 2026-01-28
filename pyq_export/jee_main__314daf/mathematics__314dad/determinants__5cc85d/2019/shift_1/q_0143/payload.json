@@ -1,0 +1,43 @@
+{
+  "index": 143,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (09 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The system of linear equations<br /><math><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>2</mn></math><br /><math><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mi>y</mi><mo>+</mo><mn>2</mn><mi>z</mi><mo>=</mo><mn>5</mn></math><br /><math><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mi>y</mi><mo>+</mo><mfenced separators=\"|\"><mrow><msup><mrow><mi>a</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>-</mo><mn>1</mn></mrow></mfenced><mi>z</mi><mo>=</mo><mi>a</mi><mo>+</mo><mn>1</mn></math>"
+  },
+  "options": [
+    {
+      "text": "is inconsistent when  <math><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mi>a</mi></mrow></mfenced><mo>=</mo><msqrt><mn>3</mn></msqrt></math>",
+      "is_correct": true
+    },
+    {
+      "text": "has a unique solution for  <math><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mi>a</mi></mrow></mfenced><mo>=</mo><msqrt><mn>3</mn></msqrt></math>",
+      "is_correct": false
+    },
+    {
+      "text": "has infinitely many solutions for  <math><mi>a</mi><mo>=</mo><mn>4</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "is inconsistent when  <math><mi>a</mi><mo>=</mo><mn>4</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Here,  <math><mi>D</mi><mo>=</mo><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>2</mn></mtd><mtd><mn>3</mn></mtd><mtd><mn>2</mn></mtd></mtr><mtr><mtd><mn>2</mn></mtd><mtd><mn>3</mn></mtd><mtd><msup><mrow><mi>a</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>-</mo><mn>1</mn></mtd></mtr></mtable></mrow></mfenced></math> <br/><br/>         <math><mo>=</mo><msup><mrow><mi>a</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>-</mo><mn>3</mn></math> <br/><br/>        Hence at  <math><mo>|</mo><mi>a</mi><mo>|</mo><mo>=</mo><msqrt><mn>3</mn></msqrt></math> ,  <math><mi>D</mi><mo>=</mo><mn>0</mn></math> . So system don't have unique solution.<br/><br/>        At  <math><mi>a</mi><mo>=</mo><mn>4</mn></math> ,  <math><mi>D</mi><mo>≠</mo><mn>0</mn></math> , So, system has unique solution. Hence not inconsistent.<br/><br/>        At  <math><mo>|</mo><mi>a</mi><mo>|</mo><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>,</mo><mi>D</mi><mo>=</mo><mn>0</mn></math>  and  <math><msup><mrow><mn>2</mn></mrow><mrow><mi>n</mi><mi>d</mi></mrow></msup></math>  &  <math><msup><mrow><mn>3</mn></mrow><mrow><mi>r</mi><mi>d</mi></mrow></msup></math>  equation are parallel. Hence no solution are possible.<br/><br/>        Hence, system is inconsistent for  <math><mo>|</mo><mi>a</mi><mo>|</mo><mo>=</mo><msqrt><mn>3</mn></msqrt></math>"
+  }
+}

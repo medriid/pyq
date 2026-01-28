@@ -1,0 +1,63 @@
+{
+  "_id": "64a813ece0ff5a5425a856c7",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec2",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2013-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013",
+      "title": "WBJEE 2013"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "The value of the infinite series $\\frac{1^{2}+2^{2}}{3 !}$ $+\\frac{1^{2}+2^{2}+3^{2}}{4 !}+\\frac{1^{2}+2^{2}+3^{2}+4^{2}}{5 !}+\\ldots$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "9XFo8",
+      "text": "$e$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "d6a2y",
+      "text": "$5 e$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Vn5Pw",
+      "text": "$\\frac{5 e}{6}-\\frac{1}{2}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "pp8OQ",
+      "text": "$\\frac{5 e}{6}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given infinite series is $\\frac{1^{2}+2^{2}}{3 !}+\\frac{1^{2}+2^{2}+3^{2}}{4 !}$\r\n$\\begin{aligned} \\frac{1^{2}+2^{2}}{3 !} &+\\frac{1^{2}+2^{2}+3^{2}}{4 !} \\\\ &+\\frac{1^{2}+2^{2}+3^{2}+4^{2}}{5 !}+\\ldots \\end{aligned}$\r\nnth term, $t_{n}=\\frac{1^{2}+2^{2}+3^{2}+4^{2}+\\ldots+(r+1)^{2}}{(r+2) !}$\r\nNow, $S_{n}=\\Sigma t_{n}=\\sum_{r=1}^{n} \\frac{1^{2}+2^{2}+3^{2}+\\ldots+(r+1)^{2}}{(r+2) !}$\r\n$=\\sum_{r=1}^{n} \\frac{(r+1)(r+2)(2 n+3)}{6(r+2) !}$\r\n$\\left[\\because \\Sigma n^{2}=\\frac{n(n+1)(2 n+1)}{6}\\right]$\r\n$=\\sum_{r=1}^{n} \\frac{(2 r+3)}{6 \\cdot r !}=\\frac{1}{6} \\sum_{r=1}^{n}\\left\\{\\frac{2}{(r-1) !}+\\frac{3}{r !}\\right\\}$\r\n$=\\frac{1}{6}\\left\\{\\left(\\frac{2}{1}+\\frac{3}{1 !}\\right)+\\left(\\frac{2}{1 !}+\\frac{3}{2 !}\\right)+\\left(\\frac{2}{2 !}+\\frac{3}{3 !}\\right)+\\ldots\\right\\}$\r\n$=\\frac{1}{6}\\left\\{\\left(\\frac{2}{1 !}+\\frac{2}{1 !}+\\frac{2}{2 !}+\\ldots\\right)+\\left(\\frac{3}{1 !}+\\frac{3}{2 !}+\\frac{3}{3 !}+\\ldots\\right)\\right\\}$\r\n$=\\frac{1}{6}\\left\\{2\\left(1+\\frac{1}{1 !}+\\frac{1}{2 !}+\\ldots\\right)+3\\left(\\frac{1}{1 !}+\\frac{1}{2 !}+\\ldots\\right)\\right\\}$\r\n$=\\frac{1}{6}\\{2 e+3(e-1)\\}$\r\n$=\\frac{1}{6}\\{2 e+3 e-3\\}$\r\n$=\\frac{1}{6}(5 e-3)=\\frac{5 e}{6}-\\frac{1}{2}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec2",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2013-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013",
+    "title": "WBJEE 2013"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

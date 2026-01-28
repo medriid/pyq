@@ -1,0 +1,24 @@
+{
+  "index": 20,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602527bd39a958e960a359",
+    "chapter_name": "Complex Number",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The sum of the square of the modulus of the elements in the set $\\{z=\\mathrm{a}+\\mathrm{ib}: \\mathrm{a}, \\mathrm{b} \\in \\mathbf{Z}, z \\in \\mathbf{C},|z-1| \\leq 1,|z-5| \\leq|z-5 \\mathrm{i}|\\}$ is ________"
+  },
+  "options": [],
+  "correct_answer": "9",
+  "solution": {
+    "text": "$\\begin{aligned} & |\\mathrm{z}-1| \\leq 1 \\\\ & \\Rightarrow|(\\mathrm{x}-1)+\\mathrm{iy}| \\leq 1 \\mid \\\\ & \\Rightarrow \\sqrt{(\\mathrm{x}-1)^2+\\mathrm{y}^2} \\leq 1 \\\\ & \\Rightarrow(\\mathrm{x}-1)^2+\\mathrm{y}^2 \\leq 1 \\ldots(1)\\end{aligned}$\n$\\begin{aligned} & \\text { Also }|z-5| \\leq|z-5 i| \\\\ & (x-5)^2+y^2 \\leq x^2+(y-5)^2 \\\\ & -10 x \\leq-10 y \\\\ & \\Rightarrow x \\geq y.....(2)\\end{aligned}$\n$\\begin{aligned} & \\text { Solving (1) and (2) } \\\\ & \\begin{array}{l}\\Rightarrow(\\mathrm{x}-1)^2+\\mathrm{x}^2=1 \\\\ \\Rightarrow 2 \\mathrm{x}^2-2 \\mathrm{x}=0 \\\\ \\Rightarrow \\mathrm{x}(\\mathrm{x}-1)=0 \\\\ \\Rightarrow \\mathrm{x}=0 \\text { or } \\mathrm{x}=1 \\\\ \\quad \\mathrm{y}=0 \\text { or } \\mathrm{y}=1\\end{array}\\end{aligned}$\n<img src=\"assets\\st0020_fcf2ec1eff6a.png\"><br />Given $\\mathrm{x}, \\mathrm{y} \\in \\mathrm{I}$\nPoints $(0,0),(1,0),(2,0),(1,1),(1,-1)$ to find\n$\\begin{aligned}\n& \\left|z_1\\right|^2+\\left|z_2\\right|^2+\\left|z_3\\right|^2+\\left|z_4\\right|^2+\\left|z_5\\right|^2 \\\\\n& =0+1+4+1+1+1+1=9\n\\end{aligned}$"
+  }
+}

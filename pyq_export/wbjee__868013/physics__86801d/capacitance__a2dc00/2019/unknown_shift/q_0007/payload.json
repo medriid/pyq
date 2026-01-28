@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c89e2db387e83a2dc00",
+    "chapter_name": "Capacitance",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Five identical capacitors, of capacitance $20 \\mu \\mathrm{F}$ each, are connected to a battery of $150 \\mathrm{V}$, in a combination as shown in the diagram. What is the total amount of charge stored?  <img src=\"assets\\qt0007_587e6476bb0c.png\">"
+  },
+  "options": [
+    {
+      "text": "$15 \\times 10^{-3} \\mathrm{C}$",
+      "is_correct": false
+    },
+    {
+      "text": "$12 \\times 10^{-3} \\mathrm{C}$",
+      "is_correct": false
+    },
+    {
+      "text": "$10 \\times 10^{-3} \\mathrm{C}$",
+      "is_correct": false
+    },
+    {
+      "text": "$3 \\times 10^{-3} \\mathrm{C}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "The given circuit shows a balanced Wheatstone bridge. Now, the circuit becomes\r\n<img src=\"assets\\st0007_a70898f264c8.png\">\r\nIn the branch $A B,$ both capacitor are arranged in the series combination. Hence, its cquivalent capacitance is given by\r\n$$\r\n\\begin{array}{l}\r\n\\frac{1}{C_{A B}}=\\frac{1}{20}+\\frac{1}{20}=\\frac{2}{20}=\\frac{1}{10} \\\\\r\nC_{A B}=10 \\mu \\mathrm{F}\r\n\\end{array}\r\n$$\r\nSimilarly, in branch $\\mathrm{CD}$,\r\n$$\r\nC_{C D}=10 \\mu \\mathrm{F}\r\n$$\r\nNow, $C_{A B}$ and $C_{C D}$ are connected in parallel combination. Hence, the equivalent capacitance of the circuit,\r\n$$\r\nC_{\\mathrm{eq}}=10+10=20 \\mu \\mathrm{F}\r\n$$\r\nWe know that, charge $Q=C_{\\mathrm{eq}} V$\r\n$$\r\nQ=20 \\times 10^{-6} \\times 150 \\mathrm{V}\r\n$$\r\nAmount of charge stored $Q=3 \\times 10^{-3} C$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\mathrm{I}$ is the greatest of $I_1=\\int_0^1 e^{-x} \\cos ^2 x d x, I_2=\\int_0^1 e^{-x^2} \\cos ^2 x d x, I_3=\\int_0^1 e^{-x^2} d x, I_4=\\int_0^1 e^{-x^2 / 2} d x$, then"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{I}=\\mathrm{I}_1$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{I}=\\mathrm{I}_2$",
+      "is_correct": false
+    },
+    {
+      "text": "$I=I_3$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{I}=\\mathrm{I}_4$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\mathrm{e}^{-\\mathrm{x}} \\cdot \\cos ^2 \\mathrm{x}  < \\mathrm{e}^{-\\mathrm{x}^2} \\cos ^2 \\mathrm{x} < \\mathrm{e}^{-\\mathrm{x}^2} < \\mathrm{e}^{-\\frac{\\mathrm{x}^2}{2}}$ for $0 < \\mathrm{x} < 1$\n$\\therefore$ By domination Law, $\\mathrm{I}_4$ is maximum\n$\\therefore \\mathrm{I}=\\mathrm{I}_4$"
+  }
+}

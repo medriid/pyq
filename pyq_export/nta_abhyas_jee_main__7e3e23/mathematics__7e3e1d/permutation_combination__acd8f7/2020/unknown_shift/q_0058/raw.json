@@ -1,0 +1,36 @@
+{
+  "_id": "6151e86367afea31af605815",
+  "type": "numerical",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "101",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "If the total number of ways of selecting two numbers from the set <math><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mn>1</mn><mo>,</mo><mi></mi><mn>2</mn><mo>,</mo><mi></mi><mn>3</mn><mo>,</mo><mi></mi><mo>…</mo><mo>…</mo><mo>…</mo><mo>.</mo><mo>.</mo><mo>,</mo><mi></mi><mn>89</mn><mo>,</mo><mi></mi><mn>90</mn></mrow></mfenced></math> such that their sum is divisible by <math><mn>3</mn></math> is <math><mi>k</mi></math>, then <math><mfrac><mrow><mi>k</mi></mrow><mrow><mn>500</mn></mrow></mfrac></math> is",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "2.67",
+  "solution": {
+    "text": "<p>Divide the numbers in <math><mn>3</mn></math> sets of the form <math><mn>3</mn><mi>k</mi><mo>,</mo><mi></mi><mn>3</mn><mi>k</mi><mo>+</mo><mn>1</mn></math> and <math><mn>3</mn><mi>k</mi><mo>+</mo><mn>2</mn></math><br /><math><msub><mrow><mi>S</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>=</mo><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mn>1</mn><mo>,</mo><mi></mi><mn>4</mn><mo>,</mo><mi></mi><mn>7</mn><mo>,</mo><mo>&#8230;</mo><mo>&#8230;</mo><mo>,</mo><mn>88</mn></mrow></mfenced></math><br /><math><msub><mrow><mi>S</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>=</mo><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mn>2</mn><mo>,</mo><mi></mi><mn>5</mn><mo>,</mo><mi></mi><mn>8</mn><mo>,</mo><mo>&#8230;</mo><mo>&#8230;</mo><mo>.</mo><mo>,</mo><mi></mi><mn>89</mn></mrow></mfenced></math><br /><math><msub><mrow><mi>S</mi></mrow><mrow><mn>3</mn></mrow></msub><mo>=</mo><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mn>3,6</mn><mo>,</mo><mi></mi><mn>9</mn><mo>,</mo><mi></mi><mo>&#8230;</mo><mo>&#8230;</mo><mo>,</mo><mi></mi><mn>90</mn></mrow></mfenced></math><br />For the sum of two numbers to be divisible by three, either we will choose the two numbers from <math><msub><mrow><mi>S</mi></mrow><mrow><mn>3</mn></mrow></msub></math> or one number from <math><msub><mrow><mi>S</mi></mrow><mrow><mn>1</mn></mrow></msub></math> and one from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub></math></p><p>i.e.&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mfenced separators=\"|\"><mrow><mmultiscripts><mi>C</mi><mn>1</mn><none/><mprescripts/><mrow/><mn>30</mn></mmultiscripts><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none/><mprescripts/><mrow/><mn>30</mn></mmultiscripts></mrow></mfenced><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><mrow/><mn>30</mn></mmultiscripts><mo>=</mo><mn>30</mn><mo>&#215;</mo><mn>30</mn><mo>+</mo><mfrac><mrow><mn>30</mn><mo>&#215;</mo><mn>29</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>1335</mn></math></p><p>Hence,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1335</mn><mn>500</mn></mfrac><mo>=</mo><mn>2</mn><mo>.</mo><mn>67</mn></math></p>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2006",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254c69a6d9e75b0bb565",
+    "chapter_name": "Properties of Triangles",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Match the following.\n<img src=\"assets\\qt0021_5b84dcb95039.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\n(i) (a), (ii) (b), (iii) (c)\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n(i) (b), (ii) (a), (iii) (c)\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n(i) (a), (ii) (c), (iii) (b)\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n(i) (b), (ii) (c), (iii) (a)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\text { (i) } \\sum_{i=1}^{\\infty} \\tan ^{-1}\\left(\\frac{1}{2 i^2}\\right)=t \\Rightarrow \\sum_{i=1}^{\\infty} \\tan ^{-1}\\left(\\frac{2}{4 i^2-1+1}\\right) \\\\\n& \\Rightarrow \\sum_{i=1}^{\\infty} \\tan ^{-1}\\left\\{\\frac{(2 i+1)-(2 i-1)}{1+(2 i-1)(2 i+1)}\\right\\} \\\\\n& \\Rightarrow\\left(\\tan ^{-1} 3-\\tan ^{-1} 1\\right)+\\left(\\tan ^{-1} 5-\\tan ^{-1} 3\\right)+\\ldots+\\left\\{\\tan ^{-1}(2 n+1)-\\tan ^{-1}(2 n-1)\\right\\} \\\\\n& \\therefore \\quad \\quad t=\\lim _{n \\rightarrow \\infty}\\left(\\tan ^{-1}(2 n+1)-\\tan ^{-1} 1\\right)=\\lim _{n \\rightarrow \\infty} \\tan ^{-1}\\left(\\frac{2 n}{1+2 n+1}\\right)=\\frac{\\pi}{4} \\\\\n& \\therefore \\quad \\tan t=1 .\n\\end{aligned}\n$$\n(ii) We have, $\\cos \\theta_1=\\frac{1-\\tan ^2 \\frac{\\theta_1}{2}}{1+\\tan ^2 \\frac{\\theta_2}{2}}=\\frac{a}{b+c}$\n$$\n\\Rightarrow \\quad \\tan ^2 \\frac{\\theta}{2}=\\frac{b+c-a}{b+c+a}\n$$\nAlso, $\\quad \\cos \\theta_3=\\frac{1-\\tan ^2 \\frac{\\theta_3}{2}}{1+\\tan ^2 \\frac{\\theta_3}{2}}=\\frac{c}{a+b}$\n$$\n\\Rightarrow \\quad \\tan ^2 \\frac{\\theta_3}{2}=\\frac{a+b-c}{a+b+c}\n$$\n$\\Rightarrow \\tan ^2 \\frac{\\theta_1}{2}+\\tan ^2 \\frac{\\theta_3}{2}=\\frac{2 b}{a+b+c}=\\frac{2 b}{3 b}=\\frac{2}{3}, \\quad$ [as, $a, b, c$ are in AP $\\Rightarrow 2 b=a+c$ ]\n(iii) Line through $(0,1,0)$ and perpendicular to plane $x+2 y+2 z=0$ is given by $\\frac{x-0}{1}=\\frac{y-1}{2}=\\frac{z-0}{2}=r$\n$\\therefore P(r, 2 r+1,2 r)$ be the foot of perpendicular on the straight line, then\n$$\n\\begin{array}{ll} \n& r \\cdot 1+(2 r+1) \\cdot 2+(2 r) \\cdot 2=0 \\\\\n\\Rightarrow \\quad r= & \\quad r\\left(-\\frac{2}{9}, \\frac{5}{9},-\\frac{4}{9}\\right) \\\\\n\\therefore & \\quad P(r) \\\\\n\\therefore & \\text { Required perpendicular distance }=\\sqrt{\\frac{4+25+16}{81}}=\\frac{\\sqrt{5}}{3} \\text { unit. }\n\\end{array}\n$$"
+  }
+}

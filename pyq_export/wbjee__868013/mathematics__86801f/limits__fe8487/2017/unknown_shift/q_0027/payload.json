@@ -1,0 +1,43 @@
+{
+  "index": 27,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $f^{\\prime \\prime}(0)=k, k \\neq 0,$ then the value of $\\lim _{x \\rightarrow 0} \\frac{2 f(x)-3 f(2 x)+f(4 x)}{x^{2}}$ is"
+  },
+  "options": [
+    {
+      "text": "$k$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 k$",
+      "is_correct": false
+    },
+    {
+      "text": "$3 k$",
+      "is_correct": true
+    },
+    {
+      "text": "$4 k$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow 0} \\frac{2 f(x)-3 f(2 x)+f(4 x)}{x^{2}}$\r\n$=\\lim _{x \\rightarrow 0} \\frac{2 f^{\\prime}(x)-3 f^{\\prime}(2 x) \\cdot 2+f^{\\prime}(4 x) \\cdot 4}{2 x}$\r\n$=\\lim _{x \\rightarrow 0} \\frac{f^{\\prime}(x)-3 f^{\\prime}(2 x)+2 f^{\\prime}(4 x)}{x}$\r\n$=\\lim _{x \\rightarrow 0} \\frac{f^{\\prime \\prime}(x)-3 f''{(2 x)} \\cdot 2+2 f^{\\prime \\prime}(4 x) \\cdot 4}{1}$\r\n$=\\lim _{x \\rightarrow 0} f^{\\prime \\prime}(x)-6 f''{(2 x)}+8 f''(4 x)$\r\n$=f^{\\prime \\prime}(0)-6 f^{\\prime \\prime}(0)+8 f''{(0)}$\r\n$=k-6 k+8 k$\r\n$=3 k$"
+  }
+}

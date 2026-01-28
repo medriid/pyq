@@ -1,0 +1,43 @@
+{
+  "index": 47,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057750283de43c87e3e1b",
+    "subject_name": "Physics",
+    "chapter_id": "616024533e1f8c8ff662c11a",
+    "chapter_name": "Nuclear Physics",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A radionuclide with half-life <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1620</mn><mo>&nbsp;</mo><mi mathvariant=\"normal\">s</mi></math> is produced in a reactor at a constant rate of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1000</mn></math> nuclei per second. During each decay energy, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mo>&nbsp;</mo><mi>MeV</mi></math> is released. If the production of radionuclides started at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">t</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>0</mn></math>, then the rate of release of energy at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>&nbsp;</mo><mo>=</mo><mo>&nbsp;</mo><mn>3240</mn><mo>&nbsp;</mo><mi mathvariant=\"normal\">s</mi></math>&nbsp;is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>.</mo><mn>5</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>5</mn></msup><mo>&#xA0;</mo><mi>MeV</mi><mo>&#xA0;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>.</mo><mn>5</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>2</mn></msup><mo>&#xA0;</mo><mi>MeV</mi><mo>&#xA0;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>5</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>2</mn></msup><mo>&#xA0;</mo><mi>MeV</mi><mo>&#xA0;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>.</mo><mn>5</mn><mo>&#xD7;</mo><msup><mn>10</mn><mn>5</mn></msup><mo>&#xA0;</mo><mi>MeV</mi><mo>&#xA0;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let N be the number of nuclei at time t, then net rate of increase of nuclei at instant t is,z<br /><br />&nbsp;&nbsp;<math> <mrow> <mfrac> <mrow> <mi></mi><mi></mi><mi>d</mi><mo>⁡</mo> <mi></mi><mi></mi><mi>N</mi><mo>⁡</mo> </mrow> <mrow> <mi></mi><mi></mi><mi>d</mi><mo>⁡</mo> <mi>t</mi> </mrow> </mfrac> <mo>=</mo> <mi>α</mi> <mo>-</mo> <mi>λ</mi> <mi></mi><mi></mi><mi>N</mi><mo>⁡</mo> </mrow> </math>&nbsp;&nbsp;&nbsp;&nbsp;(where α = rate of production of nuclei)<br /><br />∴&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<math> <mrow> <msubsup> <mo>∫</mo> <mn>0</mn> <mrow> <mi></mi><mi></mi><mi>N</mi><mo>⁡</mo> </mrow> </msubsup> <mfrac> <mrow> <mi></mi><mi></mi><mi>d</mi><mo>⁡</mo> <mi></mi><mi></mi><mi>N</mi><mo>⁡</mo> </mrow> <mrow> <mi>α</mi> <mo>-</mo> <mi>λ</mi> <mi></mi><mi></mi><mi>N</mi><mo>⁡</mo> </mrow> </mfrac> <mo>=</mo> <msubsup> <mo>∫</mo> <mn>0</mn> <mi>t</mi> </msubsup> <mi></mi><mi></mi><mi>d</mi><mo>⁡</mo> <mi>t</mi> </mrow> </math><br /><br />∴&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<math> <mrow> <mi></mi><mi></mi><mi>N</mi><mo>⁡</mo> <mo>=</mo> <mfrac> <mrow> <mi>α</mi> </mrow> <mrow> <mi>λ</mi> </mrow> </mfrac> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mn>1</mn> <mo>-</mo> <msup> <mrow> <mi></mi><mi></mi><mi>e</mi><mo>⁡</mo> </mrow> <mrow> <mo>-</mo> <mi>λ</mi> <mi>t</mi> </mrow> </msup> </mrow> </mfenced> </mrow> </math>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...(i)<br /><br />Rate of decay at this instant&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R = λN = α ( 1 – e<sup>– λt</sup>)<br /><br />Hence, rate of release of energy at this time = R (energy released in each decay)<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<math> <mrow> <mo>=</mo> <mi>α</mi> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mn>1</mn> <mo>-</mo> <msup> <mrow> <mi></mi><mi></mi><mi>e</mi><mo>⁡</mo> </mrow> <mrow> <mo>-</mo> <mi>λ</mi> <mi>t</mi> </mrow> </msup> </mrow> </mfenced> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mn>2</mn> <mn>0</mn> <mn>0</mn> </mrow> </mfenced> <mspace width=\"0.5em\"></mspace> <mtext>MeV</mtext> <mo>/</mo> <mtext>s</mtext> </mrow> </math><br /><br />Substituting the values, we have<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<math> <mrow> <mtext>rate of release of energy</mtext> <mo>=</mo> <mn>1</mn> <mn>0</mn> <mn>0</mn> <mn>0</mn> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mn>1</mn> <mo>-</mo> <msup> <mrow> <mi></mi><mi>e</mi><mo>⁡</mo> </mrow> <mrow> <mo>-</mo> <mfrac> <mrow> <mn>0</mn> <mtext>.</mtext> <mn>6</mn> <mn>9</mn> <mn>3</mn> </mrow> <mrow> <mn>1</mn> <mn>6</mn> <mn>2</mn> <mn>0</mn> </mrow> </mfrac> <mo>×</mo> <mn>3</mn> <mn>2</mn> <mn>4</mn> <mn>0</mn> </mrow> </msup> </mrow> </mfenced> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mn>2</mn> <mn>0</mn> <mn>0</mn> </mrow> </mfenced> </mrow> </math><br /><br />= 1.5 × 10<sup>5</sup> MeV/s"
+  }
+}

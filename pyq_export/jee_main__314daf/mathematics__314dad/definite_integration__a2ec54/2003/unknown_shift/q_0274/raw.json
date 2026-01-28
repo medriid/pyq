@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a61417cc3fb48d6552b",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c3",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2003-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2003",
+      "title": "JEE Main 2003"
+    }
+  ],
+  "question": {
+    "text": "The value of the integral $I=\\int_0^1 x(1-x)^n d x$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "AVolt",
+      "text": "\n$\\frac{1}{n+1}+\\frac{1}{n+2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "IBCDM",
+      "text": "\n$\\frac{1}{n+1}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "qiTpQ",
+      "text": "\n$\\frac{1}{n+2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7ybJV",
+      "text": "\n$\\frac{1}{n+1}-\\frac{1}{n+2}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$I=\\int_0^1 x(1-x)^n d x$\n$-I=\\int_0^1-x(1-x)^n d x=\\int_0^1(1-x-1)(1-x)^n d x$\n$=\\int_0^1(1-x)^{n+1} d x-\\int_0^1(1-x)^n d x$\n$=\\left[\\frac{(1-x)^{n+2}}{-(n+2)}\\right]_0^1-\\left[\\frac{(1-x)^{n+1}}{-(n+1)}\\right]_0^1=\\frac{1}{n+2}-\\frac{1}{n+1}$\n$I=\\frac{1}{n+1}-\\frac{1}{n+2}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c3",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2003-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2003",
+    "title": "JEE Main 2003"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

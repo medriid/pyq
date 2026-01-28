@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c72a8a20f01b7fbd427",
+    "chapter_name": "Units and Dimensions",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Which of the following quantity has the dimension of length?\n(h is Planck's constant, m is the mass of electron and c is the velocity of light)"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\mathrm{hc}}{\\mathrm{m}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\mathrm{h}}{\\mathrm{mc}^2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\mathrm{h}^2}{\\mathrm{mc}^2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\mathrm{h}}{\\mathrm{mc}}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\text { Hint : }[\\mathrm{h}]=\\left[\\mathrm{ML}^2 \\mathrm{~T}^{-1}\\right] \\\\\n& {[\\mathrm{c}]=\\left[\\mathrm{LT}^{-1}\\right]} \\\\\n& {[\\mathrm{m}]=\\left[\\mathrm{M}^1 \\mathrm{~L}^0 \\mathrm{~T}^0\\right]} \\\\\n& \\text { Dimension of length } \\\\\n& {[\\mathrm{L}]=\\mathrm{h}^{\\mathrm{x}} \\mathrm{c}^{\\mathrm{y}} \\mathrm{m}^z} \\\\\n& {\\left[\\mathrm{~L}^1\\right]=\\left[\\mathrm{ML}^2 \\mathrm{~T}^{-1}\\right]^{\\mathrm{x}}\\left[\\mathrm{LT}^{-1}\\right]^{\\mathrm{y}}\\left[\\mathrm{M}^1 \\mathrm{~L}^0 \\mathrm{~T}^0\\right]^{\\mathrm{z}}}\n\\end{aligned}\n$$\nDimensional analysis on mass\n$$\n0=x+z \\Rightarrow x=-z \\Rightarrow z=-1\n$$\n\nDimensional analysis on length\n$$\n1=2 x+y \\Rightarrow 2 x-x=1 \\Rightarrow x=1\n$$\n\nDimensional analysis on time\n$$\n0=-x-y \\Rightarrow-x=+y \\Rightarrow y=-1\n$$\n\nTherefore final formula is $\\frac{h}{\\mathrm{mc}}$"
+  }
+}

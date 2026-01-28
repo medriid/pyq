@@ -1,0 +1,43 @@
+{
+  "index": 89,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2019 (10 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254533dd7c0008b65699",
+    "chapter_name": "Mathematical Reasoning",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The negation of the Boolean expression <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>~</mo><mi>s</mi><mo>&#8744;</mo><mfenced><mrow><mo>~</mo><mi>r</mi><mo>&#8743;</mo><mi>s</mi></mrow></mfenced></math> is equivalent to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>&#8743;</mo><mi>r</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>&#8744;</mo><mi>r</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>~</mo><mi>s</mi><mo>&#8743;</mo><mo>~</mo><mi>r</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p>Negation of given statement is</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>~</mo><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mo>~</mo><mi>s</mi><mo>&#8744;</mo><mfenced separators=\"|\"><mrow><mo>~</mo><mi>r</mi><mo>&#8743;</mo><mi>s</mi></mrow></mfenced></mrow></mfenced></math></p><p>Using De Morgan&#39;s law <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>~</mo><mfenced separators=\"|\"><mrow><mi>A</mi><mo>&#8744;</mo><mi>B</mi></mrow></mfenced><mo>=</mo><mo>~</mo><mi>A</mi><mo>&#8743;</mo><mo>~</mo><mi>B</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>~</mo><mfenced separators=\"|\"><mrow><mo>~</mo><mi>s</mi></mrow></mfenced><mo>&#8743;</mo><mo>~</mo><mfenced separators=\"|\"><mrow><mo>~</mo><mi>&#160;</mi><mi>r</mi><mi>&#160;</mi><mo>&#8743;</mo><mi>s</mi></mrow></mfenced></math></p><p>Using double negation law <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>~</mo><mfenced separators=\"|\"><mrow><mo>~</mo><mi>A</mi></mrow></mfenced><mo>=</mo><mi>A</mi></math>,&nbsp;and De Morgan&#39;s law</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>s</mi><mo>&#8743;</mo><mfenced><mrow><mo>~</mo><mfenced><mrow><mo>~</mo><mi>r</mi></mrow></mfenced><mo>&#8744;</mo><mo>~</mo><mi>s</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>s</mi><mo>&#8743;</mo><mfenced separators=\"|\"><mrow><mi>r</mi><mo>&#8744;</mo><mo>~</mo><mi>s</mi></mrow></mfenced><mi>&#160;</mi></math></p><p>Using distributive law&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>&#8743;</mo><mfenced separators=\"|\"><mrow><mi>B</mi><mo>&#8744;</mo><mi>C</mi></mrow></mfenced><mo>=</mo><mfenced separators=\"|\"><mrow><mi>A</mi><mo>&#8743;</mo><mi>B</mi></mrow></mfenced><mo>&#8744;</mo><mfenced><mrow><mi>A</mi><mo>&#8743;</mo><mi>C</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced separators=\"|\"><mrow><mi>s</mi><mo>&#8743;</mo><mi>r</mi></mrow></mfenced><mo>&#8744;</mo><mfenced separators=\"|\"><mrow><mi>s</mi><mo>&#8743;</mo><mo>~</mo><mi>s</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced separators=\"|\"><mrow><mi>s</mi><mo>&#8743;</mo><mi>r</mi></mrow></mfenced><mo>&#8744;</mo><mi>F</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>s</mi><mo>&#8743;</mo><mi>r</mi><mo>.</mo></math></p>"
+  }
+}

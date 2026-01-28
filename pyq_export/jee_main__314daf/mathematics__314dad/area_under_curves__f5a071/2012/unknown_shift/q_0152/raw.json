@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65a37",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7ce",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2012-05-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (12 May Online)",
+      "title": "JEE Main 2012 (12 May Online)"
+    }
+  ],
+  "question": {
+    "text": "The area enclosed by the curves $y=x^2, y=x^3$, $x=0$ and $x=p$, where $p>1$, is $1 / 6$. The $\\mathrm{p}$ equals",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "S0uZ1",
+      "text": "\n$8 / 3$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7Av1a",
+      "text": "\n$16 / 3$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "zfaJA",
+      "text": "\n2\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "adu4y",
+      "text": "\n$4 / 3$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given curves are $y=x^2$ and $y=x^3$ Also, $x=0$ and $x=p, p>1$ Now, intersecting point is $(1,1)$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/NOjMfJD_aJMO6h0oDJSKErm6eGAjZUmGp__TJw6EFWM.original.fullsize.png\"><br>\nRequired Area\n$$\n\\begin{aligned}\n& =\\int_0^1\\left(x^2-x^3 d x+\\int_1^p x^3\\right)-x^2 d x \\\\\n& \\frac{1}{6}=\\frac{x^3}{3}-\\left.\\frac{x^4}{4}\\right|_0 ^1+\\frac{x^4}{4}-\\left.\\frac{x^3}{3}\\right|_1 ^p \\\\\n& \\Rightarrow \\frac{1}{6}=\\left(\\frac{1}{3}-\\frac{1}{4}\\right)+\\left(\\frac{p^4}{4}-\\frac{p^3}{3}-\\frac{1}{4}+\\frac{1}{3}\\right) \\\\\n& \\Rightarrow \\frac{1}{6}-\\frac{1}{3}+\\frac{1}{4}+\\frac{1}{4}-\\frac{1}{3}=\\frac{3 p^4-4 p^3}{12} \\\\\n& \\left.\\Rightarrow \\frac{p^3(3 p-4}{12}\\right)=0 \\Rightarrow p^3(3 p-4)=0 \\\\\n& \\Rightarrow p=0 \\text { or } \\frac{4}{3} \\\\\n& \\text { Since, it is given that } p>1 \\\\\n& \\therefore p \\text { can not be zero. } \\\\\n& \\text { Hence, } p=\\frac{4}{3}\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7ce",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2012-05-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (12 May Online)",
+    "title": "JEE Main 2012 (12 May Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

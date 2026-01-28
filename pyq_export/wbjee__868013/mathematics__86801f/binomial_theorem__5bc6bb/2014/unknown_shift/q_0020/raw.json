@@ -1,0 +1,63 @@
+{
+  "_id": "64a813fee0ff5a5425a85770",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Let $S=\\frac{2}{1}{ }^{n} C_{0}+\\frac{2^{2}}{2}{ }^{n} C_{1}+\\frac{2^{3}}{3}{ }^{n} C_{2}$ $+\\ldots+\\frac{2^{n+1}}{n+1}{ }^{n} C_{n} .$ Then, $S$ equals",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "S6QLZ",
+      "text": "$\\frac{2^{n+1}-1}{n+1}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "xHrDz",
+      "text": "$\\frac{3^{n+1}-1}{n+1}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "QLnTX",
+      "text": "$\\frac{3^{n}-1}{n}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "RcDtf",
+      "text": "$\\frac{2^{n}-1}{n}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We know that $(1+x)^{n}={ }^{n} C_{0}+x{ }^{-} C_{1}+x^{2}{ }^{n} C_{2}+\\ldots+x^{n}{ }^{n} C_{n}$\r\nOn integrating both sides from 0 to 2 , we get\r\n$\\left[\\frac{(1+x)^{n+1}}{n+1}\\right]_{0}^{2}$\r\n$=\\left[x^{n} C_{0}+\\frac{x^{2}}{2}^{n} C_{1}+\\frac{x^{3}}{3}^{n} C_{2}+\\ldots+\\frac{x^{n+1}}{n+1}^{n} C_{n}\\right]_{0}^{2}$\r\n$\\Rightarrow \\frac{(3)^{n+1}}{n+1}-\\frac{1}{n+1}=2{ }^{n} C_{0}+\\frac{2^{2}}{2}{ }^{n} C_{1}+\\frac{2^{3}}{3}{ }^{n} C_{2}$\r\n$\\quad+\\ldots+\\frac{2^{n+1}}{n+1}{ }^{n} C_{n}-0$\r\n$\\Rightarrow \\frac{2}{1}{ }^{n} C_{0}+\\frac{2^{2}}{2}{ }^{n} C_{1}+\\frac{2^{3}}{3}{ }^{n} C_{2}+\\ldots+\\frac{2^{n+1}}{n+1}{ }^{n} C_{n}$\r\n$\\quad=\\frac{3^{n+1}-1}{n+1}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

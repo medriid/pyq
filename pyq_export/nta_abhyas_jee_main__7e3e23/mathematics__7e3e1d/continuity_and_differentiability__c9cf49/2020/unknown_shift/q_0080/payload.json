@@ -1,0 +1,43 @@
+{
+  "index": 80,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602558b700fbea58c9cf49",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\" separators=\"|\"><mrow><mtable><mtr><mtd><mfrac><mrow><msup><mi>e</mi><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mn>2</mn><mi>x</mi></mrow></mfenced><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>-</mo><mn>1</mn></mrow><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mn>2</mn><mi>x</mi></mrow></mfenced><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mtd><mtd><mo>:</mo><mi>x</mi><mo>≠</mo><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mo>:</mo><mi>x</mi><mo>=</mo><mn>0</mn></mtd></mtr></mtable><mo>,</mo></mrow></mfenced></math> then (where,&nbsp;<math><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mo>.</mo></mrow></mfenced></math> represents the greatest integer function)"
+  },
+  "options": [
+    {
+      "text": "<math><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>x</mi><mo>→</mo><msup><mrow><mn>0</mn></mrow><mrow><mo>+</mo></mrow></msup></mrow></munder></mrow><mo>⁡</mo><mrow><mrow><mrow><mi mathvariant=\"normal\"></mi></mrow><mo>⁡</mo><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow></mrow><mo>=</mo><mn>1</mn></mrow></mrow></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>x</mi><mo>→</mo><msup><mrow><mn>0</mn></mrow><mrow><mo>-</mo></mrow></msup></mrow></munder></mrow><mo>⁡</mo><mrow><mrow><mrow><mi mathvariant=\"normal\"></mi></mrow><mo>⁡</mo><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow></mrow><mo>=</mo><mi>e</mi><mo>-</mo><mn>1</mn></mrow></mrow></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math> is continuous at <math><mi>x</mi><mo>=</mo><mn>0</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math> is discontinuous at <math><mi>x</mi><mo>=</mo><mn>0</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<math><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>x</mi><mo>→</mo><msup><mrow><mn>0</mn></mrow><mrow><mo>+</mo></mrow></msup></mrow></munder></mrow><mo>⁡</mo><mrow><mrow><mrow><mi mathvariant=\"normal\"></mi><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow><mo>⁡</mo><mrow><mo>=</mo><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>h</mi><mo>→</mo><msup><mrow><mn>0</mn></mrow><mrow><mo>+</mo></mrow></msup></mrow></munder></mrow><mo>⁡</mo><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mn>0</mn><mo>+</mo><mi>h</mi></mrow></mfenced></mrow></mrow></mrow></mrow></mrow></mrow></math><br /><math><mo>=</mo><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>h</mi><mo>→</mo><msup><mrow><mn>0</mn></mrow><mrow><mo>+</mo></mrow></msup></mrow></munder></mrow><mo>⁡</mo><mrow><mfrac><mrow><msup><mrow><mi>e</mi></mrow><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mn>2</mn><mi>h</mi></mrow></mfenced><mo>+</mo><mn>2</mn><mi>h</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>-</mo><mn>1</mn></mrow><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mn>2</mn><mi>h</mi></mrow></mfenced><mo>+</mo><mn>2</mn><mi>h</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></mrow></math><br /><math><mo>=</mo><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>h</mi><mo>→</mo><msup><mrow><mn>0</mn></mrow><mrow><mo>+</mo></mrow></msup></mrow></munder></mrow><mo>⁡</mo><mrow><mfrac><mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn><mi>h</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>-</mo><mn>1</mn></mrow><mrow><mn>2</mn><mi>h</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mi>e</mi><mo>-</mo><mn>1</mn></mrow></mrow></math><br />And,&nbsp;<math><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>x</mi><mo>→</mo><msup><mrow><mn>0</mn></mrow><mrow><mo>-</mo></mrow></msup></mrow></munder></mrow><mo>⁡</mo><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow></mrow><mo>=</mo><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>h</mi><mo>→</mo><msup><mrow><mn>0</mn></mrow><mrow><mo>+</mo></mrow></msup></mrow></munder></mrow><mo>⁡</mo><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mn>0</mn><mo>-</mo><mi>h</mi></mrow></mfenced></mrow></mrow></math><br /><math><mo>=</mo><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>h</mi><mo>→</mo><msup><mrow><mn>0</mn></mrow><mrow><mo>+</mo></mrow></msup></mrow></munder></mrow><mo>⁡</mo><mrow><mfrac><mrow><msup><mrow><mi>e</mi></mrow><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mo>-</mo><mn>2</mn><mi>h</mi></mrow></mfenced><mo>-</mo><mn>2</mn><mi>h</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>-</mo><mn>1</mn></mrow><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mo>-</mo><mn>2</mn><mi>h</mi></mrow></mfenced><mo>-</mo><mn>2</mn><mi>h</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></mrow></math><br /><math><mo>=</mo><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>h</mi><mo>→</mo><msup><mrow><mn>0</mn></mrow><mrow><mo>+</mo></mrow></msup></mrow></munder></mrow><mo>⁡</mo><mrow><mfrac><mrow><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mn>2</mn><mi>h</mi></mrow></msup><mo>-</mo><mn>1</mn></mrow><mrow><mfenced separators=\"|\"><mrow><mo>-</mo><mn>2</mn><mi>h</mi></mrow></mfenced></mrow></mfrac></mrow></mrow><mo>=</mo><mn>1</mn></math><br />Since, <math><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>x</mi><mo>→</mo><msup><mrow><mn>0</mn></mrow><mrow><mo>+</mo></mrow></msup></mrow></munder></mrow><mo>⁡</mo><mrow><mrow><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow><mo>⁡</mo><mrow><mo>≠</mo><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>x</mi><mo>→</mo><msup><mrow><mn>0</mn></mrow><mrow><mo>-</mo></mrow></msup></mrow></munder></mrow><mo>⁡</mo><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow></mrow></mrow></mrow></mrow></mrow><mo>,</mo></math> therefore, <math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math> is not continuous at <math><mi>x</mi><mo>=</mo><mn>0</mn></math>"
+  }
+}

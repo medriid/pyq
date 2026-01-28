@@ -1,0 +1,43 @@
+{
+  "index": 43,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=x^{4}-4 x^{3}+4 x^{2}+c, c \\in R .$ Then,"
+  },
+  "options": [
+    {
+      "text": "$f(x)$ has infinitely many zeros in (1,2) for all $c$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x)$ has exactly one zero in (1,2) if $-1    < c < 0$",
+      "is_correct": true
+    },
+    {
+      "text": "$f(x)$ has double zeros in (1,2) if $-1    < c < 0$",
+      "is_correct": false
+    },
+    {
+      "text": "whatever be the value of $c, f(x)$ has no zero in (1,2)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given,\r\n$$\r\n\\begin{array}{ll}\r\nf(x) & =x^{4}-4 x^{3}+4 x^{2}+c \\\\\r\nf(1) & =1+c \\\\\r\n\\text { and } \\quad f(2) & =2^{4}-4(2)^{3}+4(2)^{2}+c\r\n\\end{array}\r\n$$\r\n$$\r\n\\begin{array}{l}\r\n\\begin{aligned}\r\n=& 16-32+16+c \\\\\r\n&=c\r\n\\end{aligned} \\\\\r\n\\text { Now, } f(1) \\cdot f(2)=c(1+c) \\\\\r\n\\text { Let } f(1) \\cdot f(2)    < 0 \\\\\r\n\\Rightarrow \\quad c(1+c) < 0 \\Rightarrow c \\in(-1,0)\r\n\\end{array}\r\n$$\r\nFor $c \\in(-1,0), f(x)$ has exactly one zero is (1,2)"
+  }
+}

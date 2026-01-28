@@ -1,0 +1,83 @@
+{
+  "_id": "66965dd2d603121f43a3f86e",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "66965789b31faf98fda8fef9",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Paper 1)",
+      "title": "JEE Advanced 2024 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g: \\mathbb{R} \\rightarrow \\mathbb{R}$ be functions defined by\n$f(x)=\\left\\{\\begin{array}{ll}x|x| \\sin \\left(\\frac{1}{x}\\right), & x \\neq 0, \\\\ 0, & x=0,\\end{array} \\quad\\right.$ and $g(x)= \\begin{cases}1-2 x, & 0 \\leq x \\leq \\frac{1}{2} \\\\ 0, & \\text { otherwise }\\end{cases}$\nLet $a, b, c, d \\in \\mathbb{R}$. Define the function $h: \\mathbb{R} \\rightarrow \\mathbb{R}$ by\n$h(x)=a f(x)+b\\left(g(x)+g\\left(\\frac{1}{2}-x\\right)\\right)+c(x-g(x))+d g(x), x \\in \\mathbb{R}$\nMatch each entry in List-I to the correct entry in List-II.\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/nrkrO606_pYoz9NDZdy0NvwQoPvGnP3KN4DANL3H2vg.original.fullsize.png\"/>\nThe correct option is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "KP8C2",
+      "text": "$(\\mathrm{P}) \\rightarrow(4) \\quad(\\mathrm{Q}) \\rightarrow(3) \\quad(\\mathrm{R}) \\rightarrow(1) \\quad(\\mathrm{S}) \\rightarrow(2)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "tfAZN",
+      "text": "$(\\mathrm{P}) \\rightarrow(5) \\quad(\\mathrm{Q}) \\rightarrow(2) \\quad(\\mathrm{R}) \\rightarrow(4) \\quad(\\mathrm{S}) \\rightarrow(3)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "MX7gW",
+      "text": "$(\\mathrm{P}) \\rightarrow(5) \\quad(\\mathrm{Q}) \\rightarrow(3) \\quad(\\mathrm{R}) \\rightarrow(2) \\quad(\\mathrm{S}) \\rightarrow(4)$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "V4mvm",
+      "text": "$(\\mathrm{P}) \\rightarrow(4) \\quad(\\mathrm{Q}) \\rightarrow(2) \\quad(\\mathrm{R}) \\rightarrow(1) \\quad(\\mathrm{S}) \\rightarrow(3)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$f(x)=\\left\\{\\begin{array}{ccc}x|x| \\sin \\frac{1}{x} & ; & x \\neq 0 \\\\ 0 & ; & x=0\\end{array} \\quad g(x)=\\left\\{\\begin{array}{ccc}1-2 x & ; & 0 \\leq x \\leq \\frac{1}{2} \\\\ 0 & ; & \\text { otherwise }\\end{array}\\right.\\right.$\n$g\\left(\\frac{1}{2}-x\\right)=\\left\\{\\begin{array}{ccc}2 x & ; & 0 \\leq \\frac{1}{2}-x \\leq \\frac{1}{2} \\\\ 0 & ; & \\text { otherwise }\\end{array}=\\left\\{\\begin{array}{ccc}2 x & ; & 0 \\leq x \\leq \\frac{1}{2} \\\\ 0 & ; & \\text { otherwise }\\end{array}\\right\\}\\right.$\n$g(x)+g\\left(\\frac{1}{2}-x\\right)=\\left\\{\\begin{array}{lll}1 & ; & 0 \\leq x \\leq \\frac{1}{2} \\\\ 0 & ; & \\text { otherwise }\\end{array}\\right\\}$\n(P)\nNow $\\mathrm{a}=0, \\mathrm{~b}=1, \\mathrm{c}=0, \\mathrm{~d}=0$\n$\\because \\mathrm{h}(\\mathrm{x})=\\mathrm{g}(\\mathrm{x})+\\mathrm{g}\\left(\\frac{1}{2}-\\mathrm{x}\\right)=\\left\\{\\begin{array}{lll}1 & ; & 0 \\leq \\mathrm{x} \\leq \\frac{1}{2} \\\\ 0 & ; & \\text { otherwise }\\end{array}\\right.$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/FU6ErKJcw1b6Ugc_uZHdOCy-0-4eCSNlNENZ6ZlOVA0.original.fullsize.png\">\nHence Range of $\\mathrm{h}(\\mathrm{x})$ is $\\{0,1\\}$\n(Q)\n$\\begin{aligned} & \\mathrm{a}=1, \\mathrm{~b}=0, \\mathrm{c}=0, \\mathrm{~d}=0 \\\\ & \\mathrm{~h}(\\mathrm{x})=\\mathrm{f}(\\mathrm{x})=\\left\\{\\begin{array}{cll}\\mathrm{x}|\\mathrm{x}| \\sin \\frac{1}{x} & ; & x \\neq 0 \\\\ 0 & ; & x=0\\end{array}\\right. \\\\ & \\text { RHD }=\\lim _{x \\rightarrow 0} \\frac{x^2 \\sin \\frac{1}{x}-0}{x}=0 \\\\ & \\text { LHD }=\\lim _{x \\rightarrow 0} \\frac{-x^2 \\sin \\frac{1}{x}-0}{x}=0\\end{aligned}$\nHence $\\mathrm{h}(\\mathrm{x})$ is differentiable on $\\mathrm{R}$\n(R)\n$\\begin{aligned} & \\mathrm{a}=0, \\mathrm{~b}=0, \\mathrm{c}=1, \\mathrm{~d}=0 \\\\ & h(x)=x-g(x)=\\left\\{\\begin{array}{ccc}3 \\mathrm{x}-1 & ; & 0 \\leq x \\leq \\frac{1}{2} \\\\ 0 & ; & \\text { otherwise }\\end{array}\\right.\\end{aligned}$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/QgpDEfXIpt5R3dnZQTjioqVT4T3ntKxfyEsxy0Wkopg.original.fullsize.png\"><br>$\\therefore \\mathrm{h}(\\mathrm{x})$ is ONTO\n(S)\n$\\begin{aligned} & \\mathrm{a}=0, \\mathrm{~b}=0, \\mathrm{c}=0, \\mathrm{~d}=1 \\\\ & \\mathrm{~h}(\\mathrm{x})=\\mathrm{g}(\\mathrm{x})=\\left\\{\\begin{array}{ccl}1-2 \\mathrm{x} & ; & 0 \\leq \\mathrm{x} \\leq \\frac{1}{2} \\\\ 0 & ; & \\text { otherwise }\\end{array}\\right.\\end{aligned}$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/DMQd_tpu8Cx0ZbSA5HdTO_YFmXkclNMDfXBlZ6bGPbI.original.fullsize.png\">\nRange of $h(x)$ is $[0,1]$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "837746907a874bd0a6a18a1c1f3ef907",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/qPihcV5YHYhar.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/qPihcV5YHYhar.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "66965789b31faf98fda8fef9",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Paper 1)",
+    "title": "JEE Advanced 2024 (Paper 1)"
+  },
+  "evalStatus": "incorrect",
+  "lastPracticed": "2024-08-12T00:59:52.454Z"
+}

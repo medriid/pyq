@@ -1,0 +1,63 @@
+{
+  "_id": "64a81401e0ff5a5425a85791",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $\\alpha, \\beta$ denote the cube roots of unity other than 1 and $\\alpha \\neq \\beta .$ Let $S=\\sum_{n=0}^{\\infty}(-1)^{n}\\left(\\frac{\\alpha}{\\beta}\\right)^{n} .$ Then the value of $S$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "btYJI",
+      "text": "either $-2 \\omega$ or $-2 \\omega^{2}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "UB7x3",
+      "text": "either $-2 \\omega$ or $2 \\omega^{2}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "CGNPW",
+      "text": "either $2 \\omega$ or $-2 \\omega^{2}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "uH76X",
+      "text": "either $2 \\omega$ or $2 \\omega^{2}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Case I Let $\\alpha=\\omega$ and $\\beta=\\omega^{2}$\r\n$S=\\sum_{n=0}^{302}(-1)^{n}\\left(\\frac{\\omega}{\\omega^{2}}\\right)^{n}$\r\n$=\\sum_{n=0}^{302}(-1)^{n}\\left(\\omega^{2}\\right)^{n}$\r\n$=1-\\omega^{2}+\\omega^{4}-\\omega^{6}+\\omega^{8}-\\omega^{10}+\\omega^{12}$\r\n$\\quad+\\ldots+\\omega^{600}-\\omega^{602}+\\omega^{604}$\r\n$=1-\\omega^{2}+\\omega-1+\\omega^{2}-\\omega+1+\\ldots$\r\n$=0+\\ldots+1-\\omega^{2}+\\omega$\r\n$=-\\omega^{2}-\\omega^{2}=-2 \\omega^{2} \\quad\\left[\\because 1+\\omega+\\omega^{2}=0\\right]$\r\nCase II Let $\\alpha=\\omega^{2}$ and $\\beta=\\omega$\r\n$\\therefore S=\\sum_{n=0}^{\\infty_{2}}(-1)^{n}\\left(\\frac{\\omega^{2}}{\\omega}\\right)^{n}$\r\n$=\\sum_{n=0}^{302}(-1)^{n}\\left(\\frac{\\omega^{4}}{\\omega^{3}}\\right)^{n}$\r\n$=\\sum_{n=0}^{302}(-1)^{n}(\\omega)$\r\n$=1-\\omega+\\omega^{2}-\\omega^{3}+\\omega^{4}-\\omega^{5}+\\omega^{6}-\\ldots$\r\n$+\\omega^{300}-\\omega^{301}+\\omega^{302}$\r\n$=1-\\omega+\\omega^{2}-1+\\omega-\\omega^{2}+1$\r\n$=0+\\ldots+1+\\omega^{2}-\\omega$\r\n$=-\\omega-\\omega=-2 \\omega$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

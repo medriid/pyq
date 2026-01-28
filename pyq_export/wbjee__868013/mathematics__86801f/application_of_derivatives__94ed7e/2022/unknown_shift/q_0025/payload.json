@@ -1,0 +1,43 @@
+{
+  "index": 25,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f:[a, b] \\rightarrow \\mathbb{R}$ be continuous in $[a, b]$, differentiable in $(a, b)$ and $f(a)=0=f(b)$. Then"
+  },
+  "options": [
+    {
+      "text": "there exists at least one point $c \\in(a, b)$ for which $f^{\\prime}(c)=f(c)$",
+      "is_correct": true
+    },
+    {
+      "text": "$f^{\\prime}(x)=f(x)$ does not hold at any point of $(a, b)$",
+      "is_correct": false
+    },
+    {
+      "text": "at every point of $(a, b), f^{\\prime}(x)>f(x)$",
+      "is_correct": false
+    },
+    {
+      "text": "at every point of $(a, b), f^{\\prime}(x) < f(x)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$:$ Let $g(x)=e^{-x} f(x)$\n$$\n\\mathrm{g}(\\mathrm{a})=\\mathrm{g}(\\mathrm{b})=0\n$$\nBy Rolle's theorem, for atleast one $c \\in(a, b)$ where $\\mathrm{g}^{\\prime}(\\mathrm{c})=0$\nor $e^{-c} f^{\\prime}(c)-f(c) e^{-c}=0$\nor $e^{-c}\\left(f^{\\prime}(c)-f(c)\\right)=0$\nor $f^{\\prime}(c)=f(c) \\quad$ for atleast one $c \\in(a, b)$"
+  }
+}

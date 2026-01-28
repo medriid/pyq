@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2010",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of the integral $\\int \\frac{d x}{\\left(e^x+e^{-x}\\right)^2}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{2}\\left(\\mathrm{e}^{2 \\mathrm{x}}+1\\right)+\\mathrm{C}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}\\left(e^{-2 x}+1\\right)+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{1}{2}\\left(e^{2 x}+1\\right)^{-1}+C$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{4}\\left(e^{2 x}-1\\right)+C$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hints: $\\int \\frac{e^{2 x} d x}{\\left(e^{2 x}+1\\right)^2} \\quad e^x=t ; e^x d x=d t$\n$$\n=\\frac{1}{2} \\int \\frac{2 \\mathrm{tdt}}{\\left(\\mathrm{t}^2+1\\right)^2}=\\frac{1}{2}\\left\\{-\\frac{1}{\\left(t^2+1\\right)}\\right\\}+c=-\\frac{1}{2\\left(\\mathrm{e}^{2 x}+1\\right)}+c\n$$"
+  }
+}

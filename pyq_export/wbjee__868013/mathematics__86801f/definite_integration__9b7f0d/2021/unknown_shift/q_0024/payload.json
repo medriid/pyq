@@ -1,0 +1,43 @@
+{
+  "index": 24,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathrm{I}=\\int_{\\pi / 4}^{\\pi / 3} \\frac{\\sin \\mathrm{x}}{\\mathrm{x}} \\mathrm{dx}$. Then"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\sqrt{3}}{8} \\leq \\mathrm{I} \\leq \\frac{\\sqrt{2}}{6}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\sqrt{3}}{2 \\pi} \\leq \\mathrm{I} \\leq \\frac{2 \\sqrt{3}}{\\pi}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\sqrt{3}}{9} \\leq \\mathrm{I} \\leq \\frac{\\sqrt{2}}{16}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\pi \\leq \\mathrm{I} \\leq \\frac{4 \\pi}{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$f(x)=\\frac{\\sin x}{x}$ (decreasing function)\r\n$\\Rightarrow f\\left(\\frac{\\pi}{3}\\right)     < f(x) < f\\left(\\frac{\\pi}{4}\\right)$\r\n$\\Rightarrow \\frac{\\sqrt{3}}{2} \\times \\frac{3}{\\pi} \\int_{\\pi / 4}^{\\pi / 3} d x < I < \\frac{1}{\\sqrt{2}} \\times \\frac{4}{\\pi} \\times \\int_{\\pi / 4}^{\\pi / 3} d x$\r\n$\\Rightarrow \\frac{\\sqrt{3}}{8} < I < \\frac{\\sqrt{2}}{6}$"
+  }
+}

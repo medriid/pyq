@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d00146ed0ebdd74e3ce",
+    "chapter_name": "Sets and Relations",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $R$ be a relation defined on the set $Z$ of all integers and $x R y,$ when $x+2 y$ is divisible by 3 , then"
+  },
+  "options": [
+    {
+      "text": "$R$ is not transitive",
+      "is_correct": false
+    },
+    {
+      "text": "$A$ is symmetric only",
+      "is_correct": false
+    },
+    {
+      "text": "$R$ is an equivalence relation",
+      "is_correct": true
+    },
+    {
+      "text": "$A$ is not an equivalence relation",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Reflexivity For reflexive $(x, x) \\in R .$<br />$x+2 x=3 x$<br />which is divisible by 3.<br />$\\Rightarrow$ xRx $\\in R$ Hence, xRy is reflexive.<br />Symmetric Let $x+2 y=3 \\lambda$<br />$\\Rightarrow \\quad x=3 \\lambda-2 y$<br />$\\begin{aligned}<br />\\text {Now, } & \\begin{aligned}<br />y+2 x &=y+2(3 \\lambda-2 y) \\\\<br />&=y+6 \\lambda-4 y \\\\<br />&=6 \\lambda-3 y<br />\\end{aligned}<br />\\end{aligned}$<br />$\\Rightarrow \\quad y+2 x=3(2 \\lambda-y)$<br />which is divisible by 3.<br />$\\therefore$ $(x, y) \\in R \\Rightarrow(y, x) \\in R$<br />Hence, xRy is symmetric.<br />$\\begin{array}{ll}\\text {Transifive } & x+2 y=3 \\lambda \\\\ \\text { and } & y+2 z=3 \\mu\\end{array}$<br />$x+3 y+2 z=3 x+3 \\mu$<br />$\\Rightarrow \\quad x+2 z=3(\\lambda+\\mu-y)$<br />which is divisible by $3 .$<br />$\\because (x, y) \\in$ R and $(y, z) \\in R$<br />$\\Rightarrow \\quad(x, z) \\in R$<br />Hence, xRy is transitive<br />$\\because$ R is reflexive, symmetric and transitive.<br />$\\therefore$ R is an equivalence relation."
+  }
+}

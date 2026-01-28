@@ -1,0 +1,43 @@
+{
+  "index": 291,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (26 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the sum of the series $1^2+2 \\cdot 2^2+3^2+2 \\cdot 4^2+5^2+$ ... $2.6^2+\\ldots$ upto $\\mathrm{n}$ terms, when $\\mathrm{n}$ is even, is $\\frac{n(n+1)^2}{2}$, then the sum of the series, when $\\mathrm{n}$ is odd, is"
+  },
+  "options": [
+    {
+      "text": "\n$n^2(n+1)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{n^2(n-1)}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{n^2(n+1)}{2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$n^2(n-1)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "If $n$ is odd, the required sum is\n$$\n\\begin{aligned}\n& 1^2+2.2^2+3^2+2.4^2+\\ldots . .+2(n-1)^2+n^2 \\\\\n& =\\frac{(n-1)(n-1+1)^2}{2}+n^2 \\quad(\\because n-1 \\text { is even }) \\\\\n& =\\left(\\frac{n-1}{2}+1\\right) n^2=\\frac{n^2(\\mathrm{n}+1)}{2}\n\\end{aligned}\n$$"
+  }
+}

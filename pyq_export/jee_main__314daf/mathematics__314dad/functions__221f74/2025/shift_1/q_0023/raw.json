@@ -1,0 +1,83 @@
+{
+  "_id": "67a2ee96c8b73881fdaea130",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d9760a",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-23T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (23 Jan Shift 1)",
+      "title": "JEE Main 2025 (23 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $f(x)=\\log _{\\mathrm{e}} x$ and $g(x)=\\frac{x^4-2 x^3+3 x^2-2 x+2}{2 x^2-2 x+1}$. Then the domain of $f \\circ g$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "gvyeA",
+      "text": "$[0, \\infty)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "HAnJy",
+      "text": "$[1, \\infty)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "srpCg",
+      "text": "$(0, \\infty)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "8pebX",
+      "text": "$\\mathbb{R}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$f(g(x))=\\ln \\left(\\frac{x^4-2 x^3+3 x^2-2 x+2}{2 x^2-2 x+1}\\right)$\n\nSince $2 x^2-2 x+1>0 \\quad \\forall x \\in \\mathbb{R} \\because(-2)^2-4(2) < 0$\nConsider\n$\\begin{aligned}\n& x^4-2 x^3+3 x^2-2 x+2 \\\\\n& =\\left(x^4-2 x^3+x^2\\right)+\\left(x^2-2 x+1\\right)+\\left(1+x^2\\right) \\\\\n& =x^2(x-1)^2+(x-1)^2+\\left(x^2+1\\right)>0 \\forall x \\in \\mathbb{R} \\\\\n& \\Rightarrow g(x)>0 \\forall x \\in \\mathbb{R} \\\\\n& \\Rightarrow \\ln f((x)), f(x)>0 \\forall x \\in \\mathbb{R} \\\\\n& \\Rightarrow x \\in \\mathbb{R} \\text { is domain }\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "5a8b4ec030db410a87dee754bcfadf82",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/UtdZw5H3hvHMC.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/UtdZw5H3hvHMC.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d9760a",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-23T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (23 Jan Shift 1)",
+    "title": "JEE Main 2025 (23 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

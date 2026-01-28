@@ -1,0 +1,63 @@
+{
+  "_id": "64a81452e0ff5a5425a85a8c",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7e",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2019-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019",
+      "title": "WBJEE 2019"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "General solution of $(x+y)^{2} \\frac{d y}{d x}=a^{2}, a \\neq 0$ is $(C$ is an arbitrary constant)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "oExqY",
+      "text": "$\\frac{x}{a}=\\tan \\frac{y}{a}+C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "pm1Mf",
+      "text": "$\\tan x y=C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "n4T2s",
+      "text": "$\\tan (x+y)=C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "8cAWS",
+      "text": "$\\tan \\frac{y+C}{a}=\\frac{x+y}{a}$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$(x+y)^{2} \\frac{d y}{d x}=a^{2}, a \\neq 0$\r\nLet $x+y=t$ \r\n$1+\\frac{d y}{d x}=\\frac{d t}{d x}$\r\n$\\Rightarrow \\quad \\frac{d y}{d x}=\\frac{d t}{d x}-1$\r\nTherefore, $t^{2}\\left(\\frac{d t}{d x}-1\\right)=a^{2}$\r\n$\\Rightarrow \\quad t^{2} \\frac{d t}{d x}-t^{2}=a^{2}$\r\n$\\Rightarrow \\quad t^{2} \\frac{d t}{d x}=a^{2}+t^{2}$\r\n$\\Rightarrow \\quad \\frac{t^{2}}{a^{2}+t^{2}} d t=d x$ [variable separation $]$\r\n$\\Rightarrow \\quad \\int \\frac{t^{2}}{\\left(t^{2}+a^{2}\\right)} d t=\\int d x$\r\n[integration]\r\n$\\Rightarrow \\quad \\int \\frac{t^{2}+a^{2}-a^{2}}{\\left(t^{2}+a^{2}\\right)} d t=x+C'$\r\n[doing $a^{2}$ adding and subtracting] $\\Rightarrow \\quad \\int\\left(1-\\frac{a^{2}}{t^{2}+a^{2}}\\right) d t=x+C'$\r\n$\\Rightarrow \\quad \\int d t-\\int \\frac{a^{2}}{t^{2}+a^{2}} d t=x+C'$\r\n$\\Rightarrow \\quad t-a^{2} \\int \\frac{d t}{t^{2}+a^{2}}=x+C^{\\prime}$\r\n$\\Rightarrow t-a^{2}\\left[\\frac{1}{a} \\tan ^{-1}\\left(\\frac{t}{a}\\right)\\right]=x+C'$\r\n$\\Rightarrow \\quad(x+y)-a \\tan ^{-1}\\left(\\frac{x+y}{a}\\right)$\r\n$=x+C'$ [on putting the value of t] $\\Rightarrow \\quad \\frac{y-C^{\\prime}}{a}=\\tan ^{-1}\\left(\\frac{x+y}{a}\\right)$\r\n$\\Rightarrow \\quad \\frac{x+y}{a}=\\tan \\left(\\frac{y-C^{\\prime}}{a}\\right)$\r\n$\\Rightarrow \\frac{x+y}{a}=\\tan \\left(\\frac{y+c}{a}\\right)$\r\n[where, $C=-C^{\\prime}$ is an arbitrary constant $]$ $\\Rightarrow \\quad \\tan \\left(\\frac{y+C}{a}\\right)=\\frac{x+y}{a}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7e",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2019-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019",
+    "title": "WBJEE 2019"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c746f9d7c1ee88dadf2",
+    "chapter_name": "Motion In Two Dimensions",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A cricket ball thrown across a field is at heights $h_{1}$ and $h_{2}$ from the point of projection at times $t_{1}$ and $t_{2}$ respectively after the throw. The ball is caught by a fielder at the same height as that of projection. The time of flight of the ball in this journey is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{h_{1} t_{2}^{2}-h_{2} t_{1}^{2}}{h_{1} t_{2}-h_{2} t_{1}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{h_{1} t_{1}^{2}+h_{2} t_{2}^{2}}{h_{2} t_{1}+h_{1} t_{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{h_{1} t_{2}^{2}+h_{2} t_{1}^{2}}{h_{1} t_{2}+h_{2} t_{1}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{h t_{1}^{2}-h t_{2}^{2}}{h_{1}-h_{2} t_{2}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "For vertically moment (for $\\left.h_{1}\\right)$\r\nor\r\n$\\begin{array}{l}\r\nh_{1}=u \\sin \\theta t_{1}-\\frac{1}{2} g t_{1}^{2} \\\\\r\nt_{1}=\\frac{h_{1}+\\frac{1}{2} g t_{1}^{2}}{u \\sin \\theta}\r\n\\end{array}$\r\n$h_{2}=u \\sin \\theta t_{2}-\\frac{1}{2} g t_{2}^{2}$\r\nor $t_{2}=\\frac{h_{2}+\\frac{1}{2} g t_{2}^{2}}{u \\sin \\theta}$\r\nDivide Eq. (i) by Eq. (ia)\r\n$\\begin{array}{l}\r\n\\frac{t_{1}}{t_{2}}=\\frac{h_{1}+\\frac{1}{2} g t_{1}^{2} / u \\sin \\theta}{h_{2}+\\frac{1}{2} g t_{2}^{2} / u \\sin \\theta} \\\\\r\n\\Rightarrow h_{1} t_{2}-h_{2} t_{1}=\\frac{g}{2}\\left(t_{1} t_{2}^{2}-t_{1}^{2} t_{2}\\right)\r\n\\end{array}$\r\nThe time of flight of the ball $T=\\frac{2 u \\sin \\theta}{g}=\\frac{2}{g}(u \\sin \\theta) \\quad$ \r\n$=\\frac{2}{g}\\left[\\frac{h_{1}+\\frac{1}{2} g t_{1}^{2}}{t_{1}}\\right]=\\frac{2}{t_{1}}\\left[\\frac{h_{1}}{g}+\\frac{t_{1}^{2}}{2}\\right]$\r\n$=\\frac{h_{1}}{t_{1}} \\times \\frac{2}{g}+t_{1}=\\frac{h_{1}}{t_{1}} \\times\\left(\\frac{t_{1} t_{2}^{2}-t_{1}^{2} t_{2}}{h_{1} t_{2}-h_{2} t_{1}}\\right)+t_{1}$\r\n$=\\frac{h_{1} t_{1} t_{2}^{2}-h_{1} t_{1}^{2} t_{2}+h_{1} t_{1}^{2} t_{2}-h_{2} t_{1}^{3}}{t_{1}\\left(h_{1} t_{2}-h_{2} t_{1}\\right)}$\r\n$=\\left(\\frac{h_{1} t_{2}^{2}-h_{2} t_{1}^{2}}{h_{1} t_{2}-h_{2} t_{1}}\\right)$"
+  }
+}

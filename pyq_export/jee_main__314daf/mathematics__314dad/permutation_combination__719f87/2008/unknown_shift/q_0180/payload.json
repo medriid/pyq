@@ -1,0 +1,43 @@
+{
+  "index": 180,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2008",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "How many different words can be formed by jumbling the letters in the word MISSISSIPPI in which no two $\\mathrm{S}$ are adjacent?"
+  },
+  "options": [
+    {
+      "text": "\n$8 \\cdot{ }^6 \\mathrm{C}_4 \\cdot{ }^7 \\mathrm{C}_4$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$6.8 \\cdot{ }^7 \\mathrm{C}_4$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$6 \\cdot 7 \\cdot{ }^8 \\mathrm{C}_4$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$7 \\cdot{ }^6 \\mathrm{C}_4 \\cdot{ }^8 \\mathrm{C}_4$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Other than $\\mathrm{S}$, seven letters $\\mathrm{M}, \\mathrm{I}, \\mathrm{I}, \\mathrm{I}, \\mathrm{P}, \\mathrm{P}, \\mathrm{I}$ can be arranged in $\\frac{7 !}{2 ! 4 !}=7.5 .3$.\nNow four $\\mathrm{S}$ can be placed in 8 spaces in ${ }^8 \\mathrm{C}_4$ ways.\nDesired number of ways $=7.5 \\cdot 3 \\cdot{ }^8 \\mathrm{C}_4=7 \\cdot{ }^6 \\mathrm{C}_4 \\cdot{ }^8 \\mathrm{C}_4$"
+  }
+}

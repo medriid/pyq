@@ -1,0 +1,43 @@
+{
+  "index": 33,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025440e7c3448e29b524b",
+    "chapter_name": "Limits",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of <math><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder></mrow><mo>⁡</mo><mrow><mfrac><mrow><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mn>6</mn><mi>x</mi></mrow></mfenced></mrow><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></msup><mo>-</mo><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mn>4</mn><mi>x</mi></mrow></mfenced></mrow><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></msup></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></mrow></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><mn>1</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>2</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mo>-</mo><mn>1</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mo>-</mo><mn>2</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Using binomial expansion, the given limit becomes<br /><math> <mrow> <munder> <mrow> <mi>lim</mi></mrow> <mrow> <mi>x</mi><mo>→</mo><mn>0</mn></mrow> </munder> <mfrac> <mrow> <mfenced> <mrow> <mn>1</mn><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mfrac> <mrow> <mfrac> <mn>1</mn> <mn>3</mn> </mfrac> <mfenced> <mrow> <mfrac> <mn>1</mn> <mn>3</mn> </mfrac> <mo>−</mo><mn>1</mn></mrow> </mfenced></mrow> <mrow> <mn>2</mn><mo>!</mo></mrow> </mfrac> <mo>⋅</mo><mn>36</mn><msup> <mi>x</mi> <mn>2</mn> </msup> <mo>+</mo><mo>…</mo></mrow> </mfenced><mo>−</mo><mfenced> <mrow> <mn>1</mn><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mfrac> <mrow> <mfrac> <mn>1</mn> <mn>2</mn> </mfrac> <mfenced> <mrow> <mfrac> <mn>1</mn> <mn>2</mn> </mfrac> <mo>−</mo><mn>1</mn></mrow> </mfenced></mrow> <mrow> <mn>2</mn><mo>!</mo></mrow> </mfrac> <mo>⋅</mo><mn>16</mn><msup> <mi>x</mi> <mn>2</mn> </msup> <mo>+</mo><mo>…</mo></mrow> </mfenced></mrow> <mrow> <msup> <mi>x</mi> <mn>2</mn> </msup> </mrow> </mfrac> </mrow> </math><br /><math><mo>=</mo><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder></mrow><mo>⁡</mo><mrow><mfrac><mrow><mfenced separators=\"|\"><mrow><mn>2</mn><mo>-</mo><mn>4</mn></mrow></mfenced><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mo>…</mo></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></mrow><mo>=</mo><mo>-</mo><mn>2</mn></math>"
+  }
+}

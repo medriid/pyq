@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2011 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252431ea3cbf3c3b426e",
+    "chapter_name": "Basic of Mathematics",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\left(x_0, y_0\\right)$ be the solution of the following equations $(2 x)^{\\log 2}=(3 y)^{\\log 3}$, $3^{\\log x}=2^{\\log y}$, then $x_0$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{6}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n6",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Taking log on both sides,\n$$\n\\log 2 \\cdot \\log (2 x)=\\log 3(\\log 3 y)\n$$\n\n\n$$\n\\begin{array}{ll}\n\\Rightarrow & \\log 2\\{\\log 2+\\log x\\} \\\\\n& =\\log 3\\{\\log 3+\\log y\\} \\\\\n\\text { and } & \\log x \\cdot \\log 3=\\log y \\log 2 \\\\\n& \\log y=\\frac{\\log x \\cdot \\log 3}{\\log 2}\n\\end{array}\n$$\nFrom Eqs. (i) and (ii), we get\n$$\n\\begin{aligned}\n& \\log 2\\{\\log 2+\\log x\\} \\\\\n&=\\log 3 \\cdot\\left\\{\\log 3+\\frac{\\log x \\cdot \\log 3}{\\log 2}\\right\\} \\\\\n& \\Rightarrow \\quad(\\log 2)^2+\\log 2 \\cdot \\log x \\\\\n&=(\\log 3)^2+\\frac{(\\log 3)^2}{(\\log 2)} \\cdot \\log x \\\\\n& \\Rightarrow \\quad \\log x\\left\\{\\frac{(\\log 3)^2}{\\log 2}-\\log 2\\right\\} \\\\\n&=(\\log 2)^2-(\\log 3)^2\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad \\log x=-\\log 2=\\log 2^{-1} \\\\\n& \\therefore \\quad x=\\frac{1}{2}\n\\end{aligned}\n$$"
+  }
+}

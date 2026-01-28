@@ -1,0 +1,83 @@
+{
+  "_id": "685102bd6bba689a3eb09c72",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "684c67d769037fad219cb0c1",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2025-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (Paper 1)",
+      "title": "JEE Advanced 2025 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Consider the matrix, $P=\\left(\\begin{array}{lll}2 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 3\\end{array}\\right)$\nLet the transpose of a matrix $X$ be denoted by $\\mathrm{X}^T$. Then the number of $3 \\times 3$ invertible matrices Q with integer entries, such that $Q^{-1}=Q^T$ and $P Q=Q P$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "y80CW",
+      "text": "32",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "W8E2d",
+      "text": "8",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "UfzWc",
+      "text": "16",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "RhWZ3",
+      "text": "24",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\mathrm{PQ}=\\mathrm{QP} \\Rightarrow\\left[\\begin{array}{ccc}\n2 \\mathrm{a}_1 & 2 \\mathrm{~b}_1 & 2 \\mathrm{c}_1 \\\\\n2 \\mathrm{a}_2 & 2 \\mathrm{~b}_2 & 2 \\mathrm{c}_2 \\\\\n3 \\mathrm{a}_3 & 3 \\mathrm{~b}_3 & 3 \\mathrm{c}_3\n\\end{array}\\right]=\\left[\\begin{array}{ccc}\n2 \\mathrm{a}_1 & 2 \\mathrm{~b}_1 & 3 \\mathrm{c}_1 \\\\\n2 \\mathrm{a}_2 & 2 \\mathrm{~b}_2 & 3 \\mathrm{c}_2 \\\\\n2 \\mathrm{a}_3 & 2 \\mathrm{~b}_3 & 3 \\mathrm{c}_3\n\\end{array}\\right] \\\\\n& \\mathrm{c}_1=0, \\mathrm{c}_2=0, \\mathrm{a}_3=0, \\mathrm{~b}_3=0 \\\\\n& \\mathrm{Q}=\\left[\\begin{array}{ccc}\n\\mathrm{a}_1 & \\mathrm{~b}_1 & 0 \\\\\n\\mathrm{a}_2 & \\mathrm{~b}_2 & 0 \\\\\n0 & 0 & \\mathrm{c}_3\n\\end{array}\\right] \\\\\n& \\mathrm{a}_1 \\mathrm{a}_2+\\mathrm{b}_1 \\mathrm{~b}_2=0 \\\\\n& \\mathrm{a}_1^2+\\mathrm{b}_1^2=1, \\mathrm{a}_2^2+\\mathrm{b}_2^2=1, \\mathrm{c}_3^2=1\n\\end{aligned}\\)\n\\(\\begin{array}{lllll}\na_1 & b_1 & a_2 & b_2 & c_3 \\\\\n1 & 0 & 0 & 1,-1 & +1,-1 \\\\\n-1 & 0 & 0 & 1,-1 & 1,-1 \\\\\n0 & 1 & 1,-1 & 0 & 1,-1 \\\\\n0 & -1 & 1,-1 & 0 & 1,-1\n\\end{array}\\)\nTotal 16 matrices",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "52b0f85f70c6424d88965005cb464414",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/ufoC7qd8fKGW3.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/ufoC7qd8fKGW3.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "684c67d769037fad219cb0c1",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2025-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (Paper 1)",
+    "title": "JEE Advanced 2025 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

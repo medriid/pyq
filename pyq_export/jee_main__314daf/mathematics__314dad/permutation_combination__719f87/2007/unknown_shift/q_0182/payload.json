@@ -1,0 +1,43 @@
+{
+  "index": 182,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2007",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The set $S=\\{1,2,3, \\ldots, 12)$ is to be partitioned into three sets $A, B, C$ of equal size. Thus, $A \\cup B \\cup C=S, A \\cap B=B \\cap C=A \\cap C=\\phi$. The number of ways to partition $S$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{12 !}{3 !(4 !)^3}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{12 !}{3 !(3 !)^4}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{12 !}{(4 !)^3}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{12 !}{(3 !)^4}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Number of ways is ${ }^{12} \\mathrm{C}_4 \\times{ }^8 \\mathrm{C}_4 \\times{ }^4 \\mathrm{C}_4$\n$=\\frac{12 !}{(4 !)^3}$."
+  }
+}

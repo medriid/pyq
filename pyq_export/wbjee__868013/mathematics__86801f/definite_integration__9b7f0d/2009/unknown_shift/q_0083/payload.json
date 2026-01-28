@@ -1,0 +1,43 @@
+{
+  "index": 83,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2009",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\int_{-1}^4 f(x) d x=4$ and $\\int_2^4\\{3-f(x)\\} d x=7$ then the value of $\\int_{-1}^2 \\mathrm{f}(\\mathrm{x}) \\mathrm{dx}$"
+  },
+  "options": [
+    {
+      "text": "-2",
+      "is_correct": false
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    },
+    {
+      "text": "5",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Hints : $\\int_{-1}^4 f(x) d x=4$\n$$\n\\begin{aligned}\n& 3(4-2)-\\int_2^4 f(x) d x=7 \\\\\n& \\int_2^4 f(x) d x=-1 \\\\\n& \\int_{-1}^2 f(x) d x=\\int_{-1}^4 f(x) d x+\\int_4^2 f(x) d x=4-\\int_2^4 f(x) d x=4-(-1)=5\n\\end{aligned}\n$$"
+  }
+}

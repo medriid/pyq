@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cee2d473b92265e6f52",
+    "chapter_name": "Hyperbola",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $P$ be the foot of the perpendicular from focus $S$ of hyperbola $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ on the line $b x-a y=0$ and let $C$ be the centre of the hyperbola. Then, the area of the rectangle whose sides are equal to that of $S P$ and $C P$ is"
+  },
+  "options": [
+    {
+      "text": "$2 a b$",
+      "is_correct": false
+    },
+    {
+      "text": "$a b$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\left(a^{2}+b^{2}\\right)}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{a}{b}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given, equation of hyperbola is $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$\r\n<img src=\"assets\\st0019_f57f71896224.png\">\r\n\r\nFrom figure, \r\n$\\begin{aligned} S P &=\\mid \\frac{a b e}{\\sqrt{b^{2}+a^{2}}} \\\\ &=\\left|\\frac{a b e}{a e}\\right|=b \\end{aligned}$\r\nand $C S=a e$ \r\nAgain, $\\Delta S P C$ is right angled triangle at $P$.\r\n$$\r\n\\begin{aligned}\r\n\\therefore \\quad C P &=\\sqrt{C S^{2}-S P^{2}} \\\\\r\n&=\\sqrt{a^{2} e^{2}-b^{2}} \\\\\r\n&=\\sqrt{a^{2}\\left(1+\\frac{b^{2}}{a^{2}}\\right)-b^{2}} \\\\\r\n&=\\sqrt{a^{2}+b^{2}-b^{2}}=a\r\n\\end{aligned}\r\n$$\r\n$\\therefore$ Area of rectangle $=C P \\times S P$ $=a b$"
+  }
+}

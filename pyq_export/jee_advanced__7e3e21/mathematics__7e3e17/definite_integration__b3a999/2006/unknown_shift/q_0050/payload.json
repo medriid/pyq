@@ -1,0 +1,43 @@
+{
+  "index": 50,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2006",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602563f6918f74a3b3a999",
+    "chapter_name": "Definite Integration",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nRead the following passage and answer the questions.\nFor every function $f(x)$ which is twice differentiable, these will be good approximation of $\\int_a^b f(x) d x \\cong\\left(\\frac{b-a}{2}\\right)\\{f(a)+f(b)\\}$. Now, if we take $c=\\frac{a+b}{2}$, then using above again, we get $\\int_a^b f(x) d x=\\int_a^c f(x) d x+\\int_c^b f(x) d x \\cong \\frac{b-a}{4}\\{f(a)+f(b)+2 f(c)\\}$ and so on.\nWe get approximation for value of $\\int_a^b f(x) d x$.<strong>Question:</strong>\nGood approximation of $\\int_0^{\\pi / 2} \\sin x d x$, is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{\\pi}{4}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\pi}{4}(\\sqrt{2}+1)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\pi}{8}(\\sqrt{2}+1)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{\\pi}{8}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\int_0^{\\pi / 2} \\sin x d x=\\frac{\\frac{\\pi}{2}-0}{4}\\left(\\sin 0+\\sin \\left(\\frac{\\pi}{2}\\right)+2 \\sin \\left(\\frac{0+\\frac{\\pi}{2}}{2}\\right)\\right)=\\frac{\\pi}{8}(1+\\sqrt{2})$."
+  }
+}

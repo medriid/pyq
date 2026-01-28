@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c979a2e428e78d7d01d",
+    "chapter_name": "Nuclear Physics",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of atoms of a radioactive substance of half-life $T$ is $N_{0}$ at $t=0 .$ The time necessary to decay from $N_{0} / 2$ atoms to $N_{0} / 10$ atoms will be"
+  },
+  "options": [
+    {
+      "text": "$\\frac{5}{2} T$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\operatorname{tlog} 5$",
+      "is_correct": false
+    },
+    {
+      "text": "$T \\log \\left[\\frac{5}{2}\\right]$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{T}{2} \\log 5$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have, $\\frac{N(t)}{N_{0}}=e^{-\\lambda t}$ or $N(t)=N_{0} e^{-\\lambda t}$\r\n$\\therefore$ For the given condition. $\\frac{N_{0}}{2}=N_{0} e^{-\\lambda t_{1}}$ and $\\frac{N_{0}}{10}=N_{0} e^{-\\lambda t_{2}}$\r\n$\\Rightarrow \\quad \\frac{1}{2}=e^{-\\lambda t_{1}}$ and $\\frac{1}{10}=e^{-\\lambda t_{2}}$\r\nor $\\quad e^{\\lambda t_{1}}=2$ and $e^{\\lambda t_{2}}=10$\r\nTaking log on both sides, $\\lambda t_{1}=\\log 2 \\Rightarrow t_{1}=\\frac{\\log 2}{\\lambda}$\r\nor $\\quad t_{1}=\\frac{\\log 2 \\times \\mathrm{T}}{\\log 2}$\r\nand $\\quad \\lambda t_{2}=\\log 10$\r\n$\\Rightarrow \\quad t_{2}=\\frac{\\log 10}{\\lambda}$\r\nof $\\quad t_{2}=\\frac{\\log 10 \\times \\mathrm{T}}{\\log 2}$\r\n$\\therefore \\quad\\left(t_{2}-t_{1}\\right)=T\\left[\\frac{\\log 10}{\\log 2}-1\\right]=T\\left[\\frac{\\log 10-\\log 2}{\\log 2}\\right]$\r\n$=T\\left[\\frac{\\log 5}{\\log 2}\\right]$\r\n$\\Rightarrow\\left(t_{2}-t_{1}\\right)=T \\left[\\frac{\\log 5}{\\log 2}\\right]$"
+  }
+}

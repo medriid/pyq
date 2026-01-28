@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a67417cc3fb48d6678d",
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7ec",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2019-01-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019 (11 Jan Shift 1)",
+      "title": "JEE Main 2019 (11 Jan Shift 1)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The value of the integral $\\int_{-2}^{2} \\frac{\\sin ^{2} x}{\\left[\\frac{x}{\\pi}\\right]+\\frac{1}{2}} d x$\r\n\r\n(where $[x]$ denotes the greatest integer less than or equal to x) is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "OZHuZ",
+      "text": "0",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "9Jtjt",
+      "text": "$\\sin 4$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "uyo06",
+      "text": "4",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "EgiBB",
+      "text": "$4-\\sin 4$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $f(x)=\\frac{\\sin ^{2} x}{\\left[\\frac{x}{\\pi}\\right]+\\frac{1}{2}}$.\r\n\r\n$\\begin{array}{l}\r\n\r\n\\text { So, } f(-x)=\\frac{\\sin ^{2}(-x)}{\\left[\\frac{-x}{\\pi}\\right]+\\frac{1}{2}} \\quad \\because[-x]=-1-[x] \\\\\r\n\r\n\\Rightarrow f(-x)=\\frac{\\sin ^{2} x}{-1-\\left[\\frac{x}{\\pi}\\right]+\\frac{1}{2}}=\\frac{\\sin ^{2} x}{-\\frac{1}{2}-\\left[\\frac{x}{\\pi}\\right]}=-f(x)\r\n\r\n\\end{array}$\r\n\r\n$\\Rightarrow f(x)$ is odd function\r\n\r\nHence, $\\int_{-2}^{2} f(x) d x=0$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7ec",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2019-01-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019 (11 Jan Shift 1)",
+    "title": "JEE Main 2019 (11 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

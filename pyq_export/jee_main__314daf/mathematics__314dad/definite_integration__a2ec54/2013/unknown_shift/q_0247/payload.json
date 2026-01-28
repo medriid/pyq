@@ -1,0 +1,43 @@
+{
+  "index": 247,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2013 (22 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The integral $\\int_{7 \\pi / 4}^{7 \\pi / 3} \\sqrt{\\tan ^2 x} d x$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "\n$\\log 2 \\sqrt{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\log 2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2 \\log 2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\log \\sqrt{2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $\\mathrm{I}=\\int_{7 \\pi / 4}^{7 \\pi / 3} \\sqrt{\\tan ^2 x} d x$\n$$\n=\\int_{7 \\pi / 4}^{7 \\pi / 3} \\tan x d x=-\\left.\\log \\cos x\\right|_{7 \\pi / 4} ^{7 \\pi / 3}\n$$\n$=-\\left[\\log \\cos \\frac{7 \\pi}{3}-\\log \\cos \\frac{7 \\pi}{4}\\right]$\n$=\\log \\cos \\frac{7 \\pi}{4}-\\log \\cos \\frac{7 \\pi}{3}$\n$=\\log \\left[\\frac{\\cos \\frac{7 \\pi}{4}}{\\cos \\frac{7 \\pi}{3}}\\right]=\\log \\left[\\frac{\\cos \\left(2 \\pi-\\frac{\\pi}{4}\\right)}{\\cos \\left(2 \\pi+\\frac{\\pi}{3}\\right)}\\right]$\n$=\\log \\left(\\frac{\\cos \\frac{\\pi}{4}}{\\cos \\frac{\\pi}{3}}\\right)=\\log \\left(\\frac{\\frac{1}{\\sqrt{2}}}{\\frac{1}{2}}\\right)$\n$=\\log \\left(\\frac{2}{\\sqrt{2}}\\right)=\\log \\sqrt{2}$."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "620ab6e6e295619734807a5b",
+    "chapter_name": "Mathematical Induction",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $a, b, c$ and $d$ be any four real numbers. Then. $a^{n}+b^{n}=c^{n}+d^{n}$ holds for any natural number $n$. if"
+  },
+  "options": [
+    {
+      "text": "$a+b=c+d$",
+      "is_correct": false
+    },
+    {
+      "text": "$a-b=c-d$",
+      "is_correct": false
+    },
+    {
+      "text": "$a+b=c+d \\cdot d^{2}+b^{2}=c^{2}+d^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$a-b=c-d \\cdot d^{2}-b^{2}=c^{2}-d^{2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "From option (d), we have <br />$\\begin{aligned}<br />a-b &=c-d \\\\<br />a^{2}-b^{2} &=c^{2}-d^{2}<br />\\end{aligned}$<br />Consider, $a^{2}-b^{2}=c^{2}-d^{2}$<br />$\\Rightarrow(a+b)(a-b)=(c-d)(c+d)$<br />$\\Rightarrow \\quad a+b=c+d$<br />On adding Eqs we get<br />$2 a=2 c \\Rightarrow a=c$<br />$\\Rightarrow \\quad b=d$<br />Thus, $a^{n}+b^{n}=c^{n}+d^{n}$ for all $n \\in N$"
+  }
+}

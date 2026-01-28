@@ -1,0 +1,24 @@
+{
+  "index": 7,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253ddc06c73016cea379",
+    "chapter_name": "Parabola",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $y^2=12 x$ be the parabola and $S$ be its focus. Let PQ be a focal chord of the parabola such that $(\\mathrm{SP})(\\mathrm{SQ})=\\frac{147}{4}$. Let C be the circle described taking PQ as a diameter. If the equation of a circle $C$ is $64 x^2+64 y^2-\\alpha x-64 \\sqrt{3} y=\\beta$, then $\\beta-\\alpha$ is equal to ________."
+  },
+  "options": [],
+  "correct_answer": "1328",
+  "solution": {
+    "text": "$\\mathrm{y}^2=12 \\mathrm{x} \\quad \\mathrm{a}=3 \\quad \\mathrm{SP} \\times \\mathrm{SQ}=\\frac{147}{4}$\n\nLet $\\mathrm{P}\\left(3 \\mathrm{t}^2, 6 \\mathrm{t}\\right)$ and $\\mathrm{t}_1 \\mathrm{t}_2=-1$\n(ends of focal chord)\nSo, $Q\\left(\\frac{3}{t^2}, \\frac{-6}{t}\\right)$\n$\\begin{aligned}\n& \\mathrm{S}(3,0) \\\\\n& \\mathrm{SP} \\times \\mathrm{SQ}=\\mathrm{PM}_1 \\times \\mathrm{QM}_2\n\\end{aligned}$\n(dist. from directrix)\n$\\begin{aligned}\n& =\\left(3+3 \\mathrm{t}^2\\right)\\left(3+\\frac{3}{\\mathrm{t}^2}\\right)=\\frac{147}{4} \\\\\n& \\Rightarrow \\frac{\\left(1+\\mathrm{t}^2\\right)^2}{\\mathrm{t}^2}=\\frac{49}{12} \\\\\n& \\mathrm{t}^2=\\frac{3}{4}, \\frac{4}{3} \\\\\n& \\mathrm{t}= \\pm \\frac{\\sqrt{3}}{2}, \\pm \\frac{2}{\\sqrt{3}}\n\\end{aligned}$\nconsidering $\\mathrm{t}=\\frac{-\\sqrt{3}}{2}$\n$\\mathrm{P}\\left(\\frac{9}{4},-3 \\sqrt{3}\\right) \\text { and } \\mathrm{Q}(4,4 \\sqrt{3})$\n\nHence, diametric circle:\n$\\begin{aligned}\n& (x-4)\\left(x-\\frac{9}{4}\\right)+(y+3 \\sqrt{3})(y-4 \\sqrt{3})=0 \\\\\n& \\Rightarrow x^2+y^2-\\frac{25}{4} x-\\sqrt{3} y-27=0 \\\\\n& \\Rightarrow \\alpha=400, \\beta=1728 \\\\\n& \\beta-\\alpha=1328\n\\end{aligned}$"
+  }
+}

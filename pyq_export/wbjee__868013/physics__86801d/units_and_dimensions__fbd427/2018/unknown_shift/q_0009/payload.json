@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c72a8a20f01b7fbd427",
+    "chapter_name": "Units and Dimensions",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A spherical liquid drop is placed on a horizontal plane. A small disturbance causes the volume of the drop to oscillate. The time period of oscillation ( $T$ ) of the liquid drop depends on radius $(n$ of the drop, density $(\\rho)$ and surface tension (5) of the liquid. Which among the following will be a possible expression for $T$ (where, $k$ is a dimensionless constant)?"
+  },
+  "options": [
+    {
+      "text": "$k \\sqrt{\\frac{\\rho r}{S}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$k \\sqrt{\\frac{\\rho^{2} r}{S}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$k \\sqrt{\\frac{\\rho r^{3}}{S}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$k \\sqrt{\\frac{\\rho r^{3}}{s^{2}}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "According to the question. time period. $T \\alpha r^{a} p^{b} s^{c}$\r\n$r=k r^{a} p^{b} s^{c}$\r\nThus, putting dimension, we get\r\nEquating the dimensions of both sides, we get\r\n$[T]=[\\mathrm{L}]^{a}\\left[\\mathrm{ML}^{-3}]^ \\mathrm{b}\\left[\\mathrm{MT}^{-2} ]^c\\right.\\right.$\r\n$[T]=[M]^{b+c} \\cdot[L]^{2a-3b} [T]^{-2c}$\r\n$b+c=0, a-3 b=0$\r\nand $-2 x=$\r\n$\\begin{array}{l}\r\nc=-\\frac{1}{2} \\\\\r\nb=\\frac{1}{2} \\\\\r\na=3 b=\\frac{3}{2}\r\n\\end{array}$\r\nPutting these value of $a, b$ and $c$ into Eq. (i), we get\r\n$T=k \\cdot r^{\\frac{3}{2}} p^{\\frac{1}{2}} \\cdot s^{-\\frac{1}{2}}$\r\n$=k \\sqrt{\\frac{\\rho}{s} r^{3}}$"
+  }
+}

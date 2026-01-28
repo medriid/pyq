@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602565bccda81624f5a071",
+    "chapter_name": "Area Under Curves",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The area of the region $\\{(x, y):|x-y| \\leq y \\leq 4 \\sqrt{x}\\}$ is"
+  },
+  "options": [
+    {
+      "text": "$512$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1024}{3}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{512}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2048}{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0004_2b5ea93f5719.png\"/><br/>$\\begin{aligned} & |x-y| \\leq y \\leq 4 \\sqrt{x} \\\\ & \\text { Now } y=|x-y| \\\\ & y^2=(x-y)^2 \\\\ & \\Rightarrow y=\\frac{x}{2} \\text { and } x=0\\end{aligned}$<br/>$\\begin{aligned} & \\text { Now area }=\\int_0^{64}\\left(4 \\sqrt{\\mathrm{x}}-\\frac{\\mathrm{x}}{2}\\right) \\mathrm{dx} \\\\ & =\\left[\\frac{4 \\mathrm{x}^{3 / 2}}{3 / 2}-\\frac{\\mathrm{x}^2}{4}\\right]_0^{64}=\\frac{8}{3} \\cdot 8^3-\\frac{64^2}{4}=64^2\\left(\\frac{1}{12}\\right) \\\\ & =\\frac{1024}{3}\\end{aligned}$"
+  }
+}

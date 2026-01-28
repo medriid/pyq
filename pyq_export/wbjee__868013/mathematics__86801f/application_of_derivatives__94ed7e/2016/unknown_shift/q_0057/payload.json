@@ -1,0 +1,43 @@
+{
+  "index": 57,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Time period $T$ of a simple pendulum of length $l$ is given by $T=2 \\pi \\sqrt{\\frac{l}{g}}$. If the length is increased by $2 \\%$, then an approximate change in the time period is"
+  },
+  "options": [
+    {
+      "text": "$2 \\%$",
+      "is_correct": false
+    },
+    {
+      "text": "$1 \\%$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{2} \\%$",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given, $T=2 \\pi \\sqrt{\\frac{1}{g}}$\r\nOn differentiating w.r.t. $l,$ we get\r\n$\\begin{aligned} \\frac{d T}{d l} &=\\frac{2 \\pi}{\\sqrt{g}} \\cdot \\frac{1}{2 \\sqrt{I}} \\\\ \\Delta T &=\\frac{d T}{d l} \\Delta l=\\frac{\\pi}{\\sqrt{g} l} \\cdot\\left(\\frac{2 I}{100}\\right) \\\\ &=2 \\pi \\sqrt{\\frac{1}{g}} \\cdot \\frac{1}{100}=\\frac{T}{100} \\\\ \\frac{\\Delta T}{T} &=\\frac{1}{100}=1 \\% \\end{aligned}$\r\nHence, approximate change in the time period is $1 \\%$."
+  }
+}

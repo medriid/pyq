@@ -1,0 +1,63 @@
+{
+  "_id": "64a8149ae0ff5a5425a85d30",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad6",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2023-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023",
+      "title": "WBJEE 2023"
+    }
+  ],
+  "question": {
+    "text": "Let \\(f\\) be a non-negative function defined on \\(\\left[0, \\frac{\\pi}{2}\\right]\\). If \\(\\int_0^x\\left(f^{\\prime}(t)-\\sin 2 t\\right) d t=\\int_x^0 f(t) \\tan t d t, f(0)=1\\), then \\(\\int_0^{\\frac{\\pi}{2}} f(x) d x\\) is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Jx21M",
+      "text": "3",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "pS6c3",
+      "text": "\\(3-\\frac{\\pi}{2}\\)",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "SN49d",
+      "text": "\\(3+\\frac{\\pi}{2}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "JU2wk",
+      "text": "\\(\\frac{\\pi}{2}\\)",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\(\\begin{aligned}\n\\text {Hint } & f^{\\prime}(x)-\\sin 2 x=-f(x) \\tan x \\\\\n& \\Rightarrow f^{\\prime}(x)+\\tan x f(x)=\\sin 2 x \\\\\n& \\Rightarrow \\frac{d f(x)}{d x}+\\tan x . f(x)=\\sin 2 x\n\\end{aligned}\\)\n\\(\\text { If }=e^{f \\tan x d x}=e^{\\ln |\\sec x|}=|\\sec x|=\\sec x \\quad \\text { As, } x \\in\\left[0, \\frac{\\pi}{2}\\right]\\)\nSolution is,\n\\(\\begin{aligned}\n& f(x) \\times \\sec x=\\int \\sin 2 x \\sec x d x=\\int 2 \\sin x \\cos x \\sec x d x=2 \\int \\sin x d x \\\\\n& f(x) \\sec x=-2 \\cos x+C \\\\\n& \\text { Put } x=0 ; f(0)=1 \\\\\n& f(0) \\sec 0=-2 \\cos 0+c \\\\\n& \\Rightarrow 1=-2+C \\quad \\therefore C=3\n\\end{aligned}\\)\n\\(\\therefore\\) Required solution is;\n\\(\\begin{aligned}\n& f(x) \\sec x=-2 \\cos x+3 \\\\\n& f(x)=-2 \\cos ^2 x+3 \\cos x\n\\end{aligned}\\)\n\\(\\begin{aligned}\n& =-2\\left(\\frac{1+\\cos 2 x}{2}\\right)+3 \\cos x=-1-\\cos 2 x+3 \\cos x \\\\\n& f(x)=-1-\\cos 2 x+3 \\cos x\n\\end{aligned}\\)\nNow \\(\\int_0^{\\frac{\\pi}{2}} f(x) d x\\)\n\\(\\int_0^{\\frac{\\pi}{2}}(-1-\\cos 2 x+3 \\cos x) d x=\\left[-x-\\frac{\\sin 2 x}{2}+3 \\sin x\\right]_0 ^{-\\frac{\\pi}{2}}=\\left(-\\frac{\\pi}{2}+3\\right)-0=3-\\frac{\\pi}{2}\\)\n\\(\\left[-x-\\frac{\\sin 2 x}{2}+\\left.3 \\sin x\\right|_0 ^{\\frac{\\pi}{2}}\\right.\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad6",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2023-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023",
+    "title": "WBJEE 2023"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

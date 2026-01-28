@@ -1,0 +1,63 @@
+{
+  "_id": "64a813d7e0ff5a5425a85600",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012",
+      "title": "WBJEE 2012"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "The maximum value of $|x|$, when the complex number $z$ satisfies the condition $\\left|z+\\frac{2}{z}\\right|=2$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "nrIO4",
+      "text": "$\\sqrt{3}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "16O3L",
+      "text": "$\\sqrt{3}+\\sqrt{2}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "8HvJs",
+      "text": "$\\sqrt{3}+1$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "xgqlj",
+      "text": "$\\sqrt{3}-1$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have the identity,\r\n$$\r\n\\begin{aligned}|z|=\\left|z+\\frac{2}{z}-\\frac{2}{z}\\right| \\leq\\left|z+\\frac{2}{z}\\right|+\\left|\\frac{2}{z}\\right| \\\\ \\Rightarrow \\quad|z| \\leq 2+\\frac{2}{|z|} \\end{aligned}\r\n$$\r\n$\\Rightarrow \\quad|z|^{2} \\leq 2|z|+2$\r\n$\\Rightarrow \\quad|z|^{2}-2|z|+1 \\leq 3$\r\n\\begin{array}{ll}\r\n\\Rightarrow & (|z|-1)^{2} \\leq 3 \\\\\r\n\\Rightarrow & -\\sqrt{3} \\leq|z|-1 \\leq \\sqrt{3} \\\\\r\n\\hline\r\n\\end{array}\r\n$\\Rightarrow \\quad-\\sqrt{3}+1 \\leq|z| \\leq \\sqrt{3}+1$\r\nHence, the maximum value $=\\sqrt{3}+1$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012",
+    "title": "WBJEE 2012"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

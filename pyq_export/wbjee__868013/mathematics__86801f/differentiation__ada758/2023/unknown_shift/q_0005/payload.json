@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The function \\(y=e^{k x}\\) satisfies \\(\\left(\\frac{d^2 y}{d x^2}+\\frac{d y}{d x}\\right)\\left(\\frac{d y}{d x}-y\\right)=y \\frac{d y}{d x}\\). It is valid for"
+  },
+  "options": [
+    {
+      "text": "exactly one value of \\(k\\)",
+      "is_correct": false
+    },
+    {
+      "text": "two distinct values of \\(k\\)",
+      "is_correct": false
+    },
+    {
+      "text": "three distinct values of \\(k\\)",
+      "is_correct": true
+    },
+    {
+      "text": "infinitely many values of \\(k\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hint : \\(y=e^{k x}\\)\n\\(\\Rightarrow \\frac{d y}{d x}=k e^{k x}=k y \\Rightarrow \\frac{d^2 y}{d x^2}=k^2 e^{k x}=k^2 y\\)\nNow LHS\n\\(=\\left(\\frac{d^2 y}{d x^2}+\\frac{d y}{d x}\\right)\\left(\\frac{d y}{d x}-y\\right)=\\left(k^2 y+k y\\right)(k y-y)=k(k+1)(k-1) y^2=k\\left(k^2-1\\right) y^2\\)\nNow RHS \\(y \\frac{d y}{d x}=k y^2, A / q~ k\\left(k^2-1\\right) y^2=k y^2 \\Rightarrow k\\left[k^2-2\\right]=0 \\Rightarrow k=0, k= \\pm \\sqrt{2}\\)"
+  }
+}

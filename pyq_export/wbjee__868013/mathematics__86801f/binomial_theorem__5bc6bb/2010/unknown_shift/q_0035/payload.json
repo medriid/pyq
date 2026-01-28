@@ -1,0 +1,43 @@
+{
+  "index": 35,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2010",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd8ccf6aa19875bc6bb",
+    "chapter_name": "Binomial Theorem",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\left(2^{3 \\mathrm{n}}-1\\right)$ will be divisible by $(\\forall \\mathrm{n} \\in \\mathrm{N})$"
+  },
+  "options": [
+    {
+      "text": "25",
+      "is_correct": false
+    },
+    {
+      "text": "8",
+      "is_correct": false
+    },
+    {
+      "text": "7",
+      "is_correct": true
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\text { Hints: } 2^{3 \\mathrm{n}}=(8)^{\\mathrm{n}}=(1+7)^{\\mathrm{n}}=={ }^{\\mathrm{n}} \\mathrm{C}_0+{ }^{\\mathrm{n}} \\mathrm{C}_1 7+{ }^{\\mathrm{n}} \\mathrm{C}_2 7^2+\\ldots \\ldots .+{ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{n}} 7^{\\mathrm{n}} \\\\\n& \\Rightarrow 2^{3 \\mathrm{n}}-1=7\\left[{ }^{\\mathrm{n}} \\mathrm{C}_1+{ }^{\\mathrm{n}} \\mathrm{C}_2 7+\\ldots \\ldots \\ldots \\ldots+{ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{n}} 7^{\\mathrm{n}-1}\\right] \\\\\n& \\therefore \\text { divisible by } 7\n\\end{aligned}\n$$"
+  }
+}

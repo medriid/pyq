@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023c2c988039d0c2af460",
+    "chapter_name": "Center of Mass Momentum and Collision",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The center of mass of a thin rectangular plate (fig - x ) with sides of length $a$ and $b$, whose mass per unit area $(\\sigma)$ varies as $\\sigma=\\frac{\\sigma_0 x}{a b}$ (where $\\sigma_0$ is a constant), would be $\\qquad$\n<img src=\"assets\\qt0006_79d23daf1579.png\"/><br/>"
+  },
+  "options": [
+    {
+      "text": "$\\left(\\frac{2}{3} a, \\frac{\\mathrm{~b}}{2}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\left(\\frac{a}{2}, \\frac{\\mathrm{~b}}{2}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\frac{1}{3} a, \\frac{\\mathrm{~b}}{2}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\frac{2}{3} a, \\frac{2}{3} b\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & d m=\\sigma d A \\\\ & \\begin{aligned} d & =\\sigma(d x)(d y)=\\frac{\\sigma_0 x}{a b}(d x)(d y) \\\\ x_{c o m} & =\\frac{\\int x d m}{\\int d m}=\\frac{\\int x \\frac{\\left(\\sigma_0 x\\right)}{a b}(d x)(d y)}{\\int_0 \\frac{\\sigma_0}{a b}(d x)(d y)} \\\\ & =\\frac{\\int_0^a x^2 d x \\int_0^b d y}{\\int_0^b x d x \\int_0^b d y}=\\frac{2 a}{3} \\\\ y_{c o m} & =\\frac{\\int y d m}{\\int d m}=\\frac{\\int y\\left(\\frac{\\sigma_0 x}{a b}\\right)(d x)(d y)}{\\int \\frac{\\sigma_0 x}{a b}(d x)(d y)}\\end{aligned}\\end{aligned}$\n$=\\frac{\\int_0^a x d x \\int_0^b y d y}{\\int_0^a x d x \\int_0^b d y}=\\frac{b}{2}$\ni.e., $\\vec{r}_{\\mathrm{com}} \\equiv\\left(\\frac{2 a}{3}, \\frac{b}{2}\\right)$"
+  }
+}

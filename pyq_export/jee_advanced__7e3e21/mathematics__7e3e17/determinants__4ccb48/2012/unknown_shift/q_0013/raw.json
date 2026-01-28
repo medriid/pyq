@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a1cf23ac7d519f9b16f",
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c4a",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (Paper 1)",
+      "title": "JEE Advanced 2012 (Paper 1)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $P=\\left[a_{i j}\\right]$ be a $3 \\times 3$ matrix and let $Q=\\left[b_{i j}\\right]$, where $b_{i j}=2^{i+j} a_{i j}$ for $1 \\leq i, j \\leq 3$. If the determinant of $P$ is 2 , then the determinant of the matrix $Q$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "68zc1",
+      "text": "$2^{10}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "auT5w",
+      "text": "$2^{11}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "8mOHQ",
+      "text": "$2^{12}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "4WreL",
+      "text": "$2^{13}$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$|Q|=\\left|\\begin{array}{lll}2^{2} a_{11} & 2^{3} a_{12} & 2^{4} a_{13} \\\\ 2^{3} a_{21} & 2^{4} a_{22} & 2^{5} a_{23} \\\\ 2^{4} a_{31} & 2^{5} a_{32} & 2^{6} a_{33}\\end{array}\\right|$\r\n\r\n$=2^{2} \\cdot 2^{3} \\cdot 2^{4}\\left|\\begin{array}{ccc}a_{11} & a_{12} & a_{13} \\\\ 2 a_{21} & 2 a_{22} & 2 a_{23} \\\\ 2^{2} a_{31} & 2^{2} a_{32} & 2^{2} a_{33}\\end{array}\\right|$\r\n\r\n$=2^{9} \\cdot 2 \\cdot 2^{2}\\left|\\begin{array}{lll}a_{11} & a_{12} & a_{13} \\\\ a_{21} & a_{22} & a_{23} \\\\ a_{31} & a_{32} & a_{33}\\end{array}\\right|$\r\n\r\n$=2^{12} \\times|P|=2^{12} \\times 2=2^{13}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c4a",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (Paper 1)",
+    "title": "JEE Advanced 2012 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

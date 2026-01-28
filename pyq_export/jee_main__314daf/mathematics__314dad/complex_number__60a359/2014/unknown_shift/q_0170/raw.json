@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e5c",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d9",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (12 Apr Online)",
+      "title": "JEE Main 2014 (12 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "Let $z \\neq-i$ be any complex number such that $\\frac{\\mathrm{z}-\\mathrm{i}}{\\mathrm{z}+\\mathrm{i}}$ is a purely imaginary number.\nThen $\\mathrm{z}+\\frac{1}{\\mathrm{z}}$ is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "HSRUJ",
+      "text": "\n0\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "RKh2r",
+      "text": "\nany non-zero real number other than 1 .\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ppdko",
+      "text": "\nany non-zero real number.\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "pPMlg",
+      "text": "\na purely imaginary number.",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $z=x+i y$\n$\\frac{z-i}{z+i}$ is purely imaginary means its real part is zero.\n$$\n\\begin{aligned}\n&\\frac{x+i y-i}{x+i y+i}=\\frac{x+i(y-1)}{x+i(y+1)} \\times \\frac{x-i(y+1)}{x-i(y+1)} \\\\\n&=\\frac{x^2-2 i x(y+1)+x i(y-1)+y^2-1}{x^2+(y+1)^2} \\\\\n&=\\frac{x^2+y^2-1}{x^2+(y+1)^2}-\\frac{2 x i}{x^2+(y+1)^2}\n\\end{aligned}\n$$\nfor pure imaginary, we have\n$$\n\\begin{aligned}\n& \\frac{x^2+y^2-1}{x^2+(y+1)^2}=0 \\\\\n\\Rightarrow & x^2+y^2=1 \\\\\n\\Rightarrow &(x+i y)(x-i y)=1 \\\\\n\\Rightarrow & x+i y=\\frac{1}{x-i y}=z\n\\end{aligned}\n$$\nand $\\frac{1}{z}=x-i y$\n$$\nz+\\frac{1}{z}=(x+i y)+(x-i y)=2 x\n$$\n$\\left(z+\\frac{1}{z}\\right)$ is any non-zero real number",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d9",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (12 Apr Online)",
+    "title": "JEE Main 2014 (12 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf52d19b538432554df",
+    "chapter_name": "Statistics",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Mean of $n$ observations $x_{1}, x_{2}, \\ldots, x_{n}$ is $\\bar{x}$. If an observation $x_{q}$, is replaced by $x_{q}^{\\prime}$ then the new mean is"
+  },
+  "options": [
+    {
+      "text": "$\\bar{x}-x_{q}+x_{q}^{\\prime}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{(n-1) \\bar{x}+x_{q}^{\\prime}}{n}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{(n-1) \\bar{x}-x_{q}^{\\prime}}{n}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{n x-x_{q}+x_{q}^{\\prime}}{n}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "We have,\r\n$$\r\n\\bar{x}=\\frac{x_{1}+x_{2}+\\ldots+x_{q}+\\ldots+x_{2}}{n}\r\n$$\r\n$\\Rightarrow \\quad \\Sigma x=n \\bar{x}$\r\nIf $x_{q}$, is replaced by $x_{q}^{\\prime}$, then new total will be $\\Sigma x'=\\Sigma x-x_{4}-x_{4}^{\\prime}$\r\nNew mean will be\r\n$$\r\n\\begin{array}{l}\r\n\\bar{x}^{\\prime}=\\frac{\\Sigma x^{\\prime}}{n} \\\\\r\n\\bar{x}^{\\prime}=\\frac{\\sum x-x_{q}+x_{i}^{\\prime}}{n} \\\\\r\n\\bar{x}^{\\prime}=\\frac{n \\bar{x}-x_{q}+x_{i}^{\\prime}}{n}\r\n\\end{array}\r\n$$"
+  }
+}

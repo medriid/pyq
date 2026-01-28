@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2025",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc594defad39e8768ec",
+    "chapter_name": "Quadratic Equation",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $a, b, c$ are in A.P. and if the equations $(b-c) x^2+(c-a) x+(a-b)=0$ and $2(c+a) x^2+(b+c) x=0$ have a common root, then"
+  },
+  "options": [
+    {
+      "text": "$a^2, b^2, c^2$ are in A.P.",
+      "is_correct": false
+    },
+    {
+      "text": "$a^2, c^2, b^2$ are in A.P.",
+      "is_correct": true
+    },
+    {
+      "text": "$c^2, a^2, b^2$ are in A.P.",
+      "is_correct": false
+    },
+    {
+      "text": "$a^2, b^2, c^2$ are in G.P.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given:\r\n- \\(a, b, c\\) are in A.P. \\(\\Rightarrow b=\\frac{a+c}{2}\\)\r\n- Two quadratic equations have a common root:\r\n\\(\\begin{array}{l}\r\n(b-c) x^2+(c-a) x+(a-b)=0 ... (1) \\\\\r\n2(c+a) x^2+(b+c) x=0 ... (2) \r\n\\end{array}\\)\r\nStep-by-step approach:\r\nLet the common root be \\(\\alpha\\). Then it satisfies both:\r\nFrom (2):\r\n\\(2(c+a) \\alpha^2+(b+c) \\alpha=0 \\Rightarrow \\alpha(2(c+a) \\alpha+b+c)=0\\)\r\nSo either \\(\\alpha=0\\) or \\(2(c+a) \\alpha+b+c=0\\)\r\nCheck both cases:\r\nCase 1: \\(\\alpha=0\\)\r\nPut in (1):\r\n\\((b-c)(0)^2+(c-a)(0)+(a-b)=a-b \\neq 0(\\text { since } a \\neq b) \\Rightarrow \\text { Not a root }\\)\r\nCase 2:\r\n\\(2(c+a) \\alpha+b+c=0 \\Rightarrow \\alpha=\\frac{-(b+c)}{2(c+a)}\\)\r\nSubstitute into equation (1), solve, and simplify using \\(b=\\frac{a+c}{2}\\)\r\nEventually, this leads to:\r\n\\(a^2+c^2=2 b^2 \\Rightarrow a^2, c^2, b^2 \\text { are in A.P. }\\)"
+  }
+}

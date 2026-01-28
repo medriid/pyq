@@ -1,0 +1,63 @@
+{
+  "_id": "64a813e9e0ff5a5425a856ad",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec2",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2013-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013",
+      "title": "WBJEE 2013"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "If $f(x)=\\left\\{\\begin{array}{ll}x^{3}-3 x+2, & x     < 2 \\\\ x^{3}-6 x^{2}+9 x+2, & x \\geq 2\\end{array}\\right.$ then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "rK7bp",
+      "text": "$\\lim _{x \\rightarrow 2} f(x)$ does not exist",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Qtd8F",
+      "text": "$f$ is not continuous at $x=2$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "cYlaE",
+      "text": "$f$ is continuous but not differentiable at $x=2$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "05w73",
+      "text": "$t$ is continuous and differentiable at $x=2$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given. $f(x)=\\left\\{\\begin{aligned} x^{3}-3 x+2, & x     < 2 \\\\ x^{3}-6 x^{2}+9 x+2, & x \\geq 2 \\end{aligned}\\right.$\r\nLHL\r\n$$\r\n\\begin{array}{l}\r\n=f(2-0)=\\lim _{h \\rightarrow 0}(2-h)^{3}-3(2-h)+2 \\\\\r\n=(2)^{3}-6+2=8-6+2=4 \\\\\r\n\\begin{aligned}\r\nLH L=f(2+0) &=\\lim _{h \\rightarrow 0}(2+h)^{3}-6(2+h)^{2} \\\\\r\n&=(2)^{3}-6(2)^{2}+9(2)+2 \\\\\r\n&=8-24+18+2=4\r\n\\end{aligned}\r\n\\end{array}\r\n$$\r\n$\\because \\mathrm{LHL}=\\mathrm{RHL}$\r\n$\\therefore \\lim _{x \\rightarrow 2} f(x)$ exist\r\nand $\\begin{aligned} f(2)=(2)^{3} &-6(2)^{2}+9(2)+2 \\\\ &=8-24+18+2=4 \\end{aligned}$\r\n$\\therefore \\quad \\mathrm{LHL}=\\mathrm{RHL}=f(2)$\r\nSo, $f(x)$ is continuous at $x=2$\r\nNow, $\\quad f^{\\prime}(x)=\\left\\{\\begin{array}{cc}3 x^{2}-3, & x < 2 \\\\ 3 x^{2}-12 x+9, & x \\geq 2\\end{array}\\right.$\r\n$\\begin{array}{ll}\\therefore \\quad & L f^{\\prime}(2)=3(2)^{2}-3=12-3=9 \\\\ \\text { and } \\quad & R f^{\\prime}(2)=3(2)^{2}-12(2)+9 \\\\ & =12-24+9=-3\\end{array}$\r\n$\\because \\quad L f^{\\prime}(2) \\neq R f^{\\prime}(2)$\r\n$\\therefore f(x)$ is not differentiable at $x=2$\r\nHence. $f$ is continuous but not differentiable at $x=2$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec2",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2013-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013",
+    "title": "WBJEE 2013"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

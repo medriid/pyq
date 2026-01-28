@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1f21590031c653b169",
+    "chapter_name": "Area Under Curves",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area of the region lying above $X$ -axis, and included between the circle $x^{2}+y^{2}=2 a x$ and the parabola $y^{2}=a x, a>0$ is"
+  },
+  "options": [
+    {
+      "text": "$8 \\pi a^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$a^{2}\\left(\\frac{\\pi}{4}-\\frac{2}{3}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{16 \\pi a^{2}}{9}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\pi\\left(\\frac{27}{8}+3 a^{2}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given, equation of circle $x^{2}+y^{2}=2 a x$\r\n$\\Rightarrow$\r\n$(x-a)^{2}+y^{2}=a^{2}$\r\nand equation of parabola is $y^{2}=a x, a>0$\r\nIntersection points of circle and parabola\r\n$\\begin{array}{lr}\\Rightarrow & x^{2}+a x=2 a x \\\\ \\Rightarrow & x^{2}=a x\\end{array}$\r\n$\\Rightarrow \\quad x^{2}-a x=0$\r\n$\\Rightarrow \\quad x(x-a)=0$\r\n$\\Rightarrow \\quad x=0, a$\r\nIntersecting points are $(0,0)$ and $(a, a)$\r\n$\\therefore$ Required area $=\\frac{\\pi a^{2}}{4}-\\int_{0}^{a} \\sqrt{a x} d x$\r\n$=\\frac{\\pi a^{2}}{4}-\\sqrt{a}\\left(\\frac{x^{3 / 2}}{3 / 2}\\right)_{0}^{a}$\r\n$=\\frac{\\pi a^{2}}{4}-\\frac{2 a^{2}}{3}=a^{2}\\left(\\frac{\\pi}{4}-\\frac{2}{3}\\right)$\r\n<img src=\"assets\\st0008_e3917ef48ae6.png\">"
+  }
+}

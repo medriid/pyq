@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255a501b352fc65c18d3",
+    "chapter_name": "Differentiation",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Suppose for a differentiable function $h, h(0)=0, h(1)=1$ and $h^{\\prime}(0)=h^{\\prime}(1)=2$. If $\\mathrm{g}(x)=h\\left(\\mathrm{e}^x\\right) \\mathrm{e}^{h(x)}$, then $g^{\\prime}(0)$ is equal to:"
+  },
+  "options": [
+    {
+      "text": "5",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": true
+    },
+    {
+      "text": "8",
+      "is_correct": false
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & g(x)=h\\left(e^x\\right) \\cdot e^{h(x)} \\\\ & g^{\\prime}(x)=h\\left(e^x\\right) \\cdot e^{h(x)} \\cdot h^{\\prime}(x)+e^{h(x)} h^{\\prime}\\left(e^x\\right) \\cdot e^x \\\\ & g^{\\prime}(0)=h(1) e^{h(0)} h^{\\prime}(0)+e^{h(0)} h^{\\prime}(1) \\\\ & =2+2=4\\end{aligned}$"
+  }
+}

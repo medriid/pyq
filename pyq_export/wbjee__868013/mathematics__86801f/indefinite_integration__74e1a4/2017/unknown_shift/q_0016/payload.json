@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int \\cos (\\log x) d x=F(x)+C,$ where $C$ is an arbitrary constant. Here, $F(x)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$x[\\cos (\\log x)+\\sin (\\log x)]$",
+      "is_correct": false
+    },
+    {
+      "text": "$x[\\cos (\\log x)-\\sin (\\log x)]$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{x}{2}[\\cos (\\log x)+\\sin (\\log x)]$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{x}{2}[\\cos (\\log x)-\\sin (\\log x)]$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $I=\\int \\cos (\\log x) d x$\r\nPut $\\log x=t$\r\n$\\Rightarrow \\quad x=e^{t}$\r\n$\\begin{aligned} \\therefore \\quad d x &=e^{t} d t \\\\ \\therefore \\quad I &=\\int e^{t} \\cos t d t \\\\ &=\\frac{e^{t}}{1^{2}+1^{2}}[\\cos t+\\sin t]+C \\end{aligned}$\r\n$\\left[\\because \\int e^{a x} \\cos b x d x=\\frac{e^{a x}}{a^{2}+b^{2}}[a \\cos b x+b \\sin b x]+c\\right]$\r\n$\\Rightarrow \\quad I=\\frac{e^{t}}{2}[\\cos t+\\sin t]+C$\r\n$\\quad \\quad=\\frac{x}{2}[\\cos (\\log x)+\\sin (\\log x]+C$\r\n$\\therefore f(x)=\\frac{x}{2}[\\cos (\\log x)+\\sin (\\log x)]$"
+  }
+}

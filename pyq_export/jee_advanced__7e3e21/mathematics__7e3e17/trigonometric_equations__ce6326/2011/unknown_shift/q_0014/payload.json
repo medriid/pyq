@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2011 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025356e2374b8d4ce6326",
+    "chapter_name": "Trigonometric Equations",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=x^2$ and $g(x)=\\sin x$ for all $x \\in R$. Then, the set of all $x$ satisfying $($ fogogof $)(x)=(\\operatorname{gogof})(x)$, where $(f \\circ g)(x)=f(g(x))$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\pm \\sqrt{n \\pi}, n \\in\\{0,1,2, \\ldots\\}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\pm \\sqrt{n \\pi}, n \\in\\{1,2, \\ldots\\}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{\\pi}{2}+2 n \\pi, n \\in\\{\\ldots,-2,-1,0,1,2, \\ldots\\}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2 n \\pi, n \\in\\{\\ldots,-2,-1,0,1,2, \\ldots\\}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$f(x)=x^2, g(x)=\\sin x$\n$(g \\circ f)(x)=\\sin x^2$\ngo(gof) $(x)=\\sin \\left(\\sin x^2\\right)$\n$(f \\circ g \\circ g \\circ f)(x)=\\left(\\sin \\left(\\sin x^2\\right)\\right)^2$\nAgain, $(g \\circ f)(x)=\\sin x^2$\n(gogof) $(x)=\\sin \\left(\\sin x^2\\right)$\nGiven, $($ fogogof $)(x)=($ gogof $)(x)$\n$\\Rightarrow \\quad\\left(\\sin \\left(\\sin x^2\\right)\\right)^2=\\sin \\left(\\sin x^2\\right)$\n$\\Rightarrow \\sin \\left(\\sin x^2\\right)\\left\\{\\sin \\left(\\sin x^2\\right)-1\\right\\}=0$\n$\\Rightarrow \\sin \\left(\\sin x^2\\right)=0$ or $\\sin \\left(\\sin x^2\\right)=1$\n$\\Rightarrow \\sin x^2=0$ or $\\sin x^2=\\frac{\\pi}{2}$\n$\\therefore \\quad x^2=n \\pi$\n(i.e. not possible as $-1 \\leq \\sin \\theta \\leq 1$ )"
+  }
+}

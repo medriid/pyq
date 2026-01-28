@@ -1,0 +1,43 @@
+{
+  "index": 22,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ccd1d619927718b113a",
+    "chapter_name": "Permutation Combination",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of selection of $n$ objects from $2 n$ objects of which $n$ are identical and the rest are different, is"
+  },
+  "options": [
+    {
+      "text": "$2^{n}$",
+      "is_correct": true
+    },
+    {
+      "text": "$2^{n-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^{n}-1$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^{n-1}+1$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Number of ways of selection of $n$ objects from $2 n$ objects, where as $n$ objects are identical in out of $2 n$ objects. $n$ identical and no different object $=1$ ways\r\n$$\r\n={ }^{n} C_{0}\r\n$$\r\n$n-1$ identical and 1 different object $=1 \\times{ }^{n} C_{1}$\r\n$n-2$ identical and 2 different object $=1 \\times{ }^{n} C_{2}$\r\n0 identical and $n$ different objects $=1 \\times{ }^{n} C_{n}$\r\n$$\r\n={ }^{n} C_{0}+{ }^{n} C_{1}+{ }^{n} C_{2}+\\ldots \\ldots+{ }^{n} C_{n}=2^{n}\r\n$$"
+  }
+}

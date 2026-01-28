@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let the matrix $A=\\left[\\begin{array}{lll}1 & 0 & 0 \\\\ 1 & 0 & 1 \\\\ 0 & 1 & 0\\end{array}\\right]$ satisfy $A^n=A^{n-2}+A^2-I$ for $\\mathrm{n} \\geq 3$. Then the sum of all the elements of $\\mathrm{A}^{50}$ is :-"
+  },
+  "options": [
+    {
+      "text": "$53$",
+      "is_correct": true
+    },
+    {
+      "text": "$52$",
+      "is_correct": false
+    },
+    {
+      "text": "$39$",
+      "is_correct": false
+    },
+    {
+      "text": "$44$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{A}^{50}=\\mathrm{A}^{48}+\\mathrm{A}^2-\\mathrm{I} \\\\ & =\\mathrm{A}^{46}+2\\left(\\mathrm{~A}^2-\\mathrm{I}\\right) \\\\ & =\\mathrm{A}^{44}+3\\left(\\mathrm{~A}^2-\\mathrm{I}\\right) \\\\ & =\\mathrm{A}^2+24\\left(\\mathrm{~A}^2-\\mathrm{I}\\right) \\\\ & =25 \\mathrm{~A}^2-24 \\mathrm{I}\\end{aligned}$<br/>$\\begin{aligned}<br/>& =25\\left[\\begin{array}{lll}<br/>1 & 0 & 0 \\\\\n1 & 1 & 0 \\\\\n1 & 0 & 1<br/>\\end{array}\\right]-24\\left[\\begin{array}{lll}<br/>1 & 0 & 0 \\\\\n0 & 1 & 0 \\\\\n0 & 0 & 1<br/>\\end{array}\\right] \\\\\n& =\\left[\\begin{array}{ccc}<br/>1 & 0 & 0 \\\\\n25 & 1 & 0 \\\\\n25 & 0 & 1<br/>\\end{array}\\right]<br/>\\end{aligned}$<br/>Sum $=53$<br/>option (1)"
+  }
+}

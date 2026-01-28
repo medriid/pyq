@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2020",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A rifleman is firing at a distant target and has only $10 \\%$ chance of hitting it. The least number of rounds he must fire to have more than $50 \\%$ chance of hitting it at least once, is"
+  },
+  "options": [
+    {
+      "text": "5",
+      "is_correct": false
+    },
+    {
+      "text": "7",
+      "is_correct": true
+    },
+    {
+      "text": "9",
+      "is_correct": false
+    },
+    {
+      "text": "11",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Hint: \r\n$\\mathrm{P}$ (hitting a target) $=\\frac{1}{10}$\r\n$\\therefore \\mathrm{P}($ not hitting a target $)=\\frac{9}{10}$\r\n$\\therefore$ Let number of trials $=n$\r\nSo, $\\mathrm{P}($ hitting at least once $)=1-\\mathrm{P}$ (missing all) $=1-\\left(\\frac{9}{10}\\right)^{n} \\geq \\frac{1}{2}$\r\n$\\Rightarrow(0.9)^{n} \\leq 0.5$\r\n$(0.9)^{6}=0.531441,(0.9)^{7}=0.4782969 \\Rightarrow \\mathrm{n}=7$"
+  }
+}

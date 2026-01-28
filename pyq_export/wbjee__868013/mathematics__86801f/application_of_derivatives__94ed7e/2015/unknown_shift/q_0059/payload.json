@@ -1,0 +1,43 @@
+{
+  "index": 59,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $y=e^{x^{2}}$ and $y=e^{x^{2}} \\sin x$ be two given curves. Then, angle between the tangents to the curves at any point of their intersection"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": true
+    },
+    {
+      "text": "$\\pi$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{4}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "For intersecting points, $e^{x^{2}}=e^{x^{2}} \\sin x$ $\\Rightarrow \\quad e^{x^{2}}(\\sin x-1)=0$\r\n$\\Rightarrow \\quad e^{x^{2}}=0 \\quad$ or $\\sin x=1$\r\nBut $\\quad e^{x^{2}} \\neq 0 \\Rightarrow \\sin x=1$\r\n$\\Rightarrow$\r\n$$\r\nx=\\frac{\\pi}{2}\r\n$$\r\nNow.\r\n$$\r\ny=e^{x^{2}}\r\n$$\r\n$\\therefore \\quad \\frac{d y}{d x}=e^{x^{2}} \\cdot 2 x=2 x e^{x^{2}}$\r\nAlso, $y=e^{x^{2}} \\sin x$\r\n$\\frac{d y}{d x}=e^{x^{2}} \\cdot 2 x \\sin x+e^{x^{2}} \\cos x=2 x e^{x^{2}}$\r\n$[\\because \\sin x=1, \\cos x=0]$\r\nSince, both the curves has equal slope. Hence, angle between the tangents at intersecting point is $0 .$"
+  }
+}

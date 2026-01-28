@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd8ccf6aa19875bc6bb",
+    "chapter_name": "Binomial Theorem",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\left(1+x+x^{2}\\right)^{9}=a_{0}+a_{1} x+a_{2} x^{2}$\r\n$+\\ldots+a_{18} x^{18} \\cdot$ Then"
+  },
+  "options": [
+    {
+      "text": "$a_{0}+a_{2}+\\ldots+a_{18}=a_{1}+a_{3}+\\ldots+a_{17}$",
+      "is_correct": false
+    },
+    {
+      "text": "$a_{0}+a_{2}+\\ldots+a_{18}$ is even",
+      "is_correct": true
+    },
+    {
+      "text": "$a_{0}+a_{2}+\\ldots+a_{18}$ is divisible by 9",
+      "is_correct": false
+    },
+    {
+      "text": "$a_{0}+a_{2}+\\ldots+a_{18}$ is divisible by 3 but not by 9",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\left(1+x+x^{2}\\right)^{9}=a_{0}+a_{1} x+a_{2} x^{2}+ \\dots+a_{18}x^{18}$\r\n$$\r\nPut $x=-1,$ we get\r\n$$\r\n\\begin{array}{l}\r\n(1-1+1)^{9}=a_{0}-a_{1}+a_{2}+\\ldots+a_{18} \\\\\r\n\\Rightarrow 1=a_{0}-a_{1}+a_{2}+\\ldots+a_{18}\r\n\\end{array}\r\n$$\r\nPut $x=1,$ we get\r\n$$\r\n(1+1+1)^{9}=a_{0}+a_{1}+a_{2}+\\ldots+a_{14}\r\n$$\r\n$\\Rightarrow 3^{9}=a_{0}+a_{1}+a_{2}+\\ldots+a_{18}$\r\nOn adding Eqs. (i) and (ii), we get\r\n$$\r\n\\begin{array}{c}\r\n3^{9}+1=2\\left(a_{0}+a_{2}+\\ldots+a_{10}\\right) \\\\\r\na_{0}+a_{2}+a_{4}+\\ldots+a_{18}=\\frac{3^{0}+1}{2} \\\\\r\n=\\frac{19683+1}{2} \\\\\r\n=\\frac{19684}{2}\r\n\\end{array}\r\n$$\r\n$=9842$ which is even number."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64a81441e0ff5a5425a859f1",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7d",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2018-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018",
+      "title": "WBJEE 2018"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "If $M=\\int_{0}^{n / 2} \\frac{\\cos x}{x+2} d x, N=\\int_{0}^{\\frac{\\pi}{4}} \\frac{\\sin x \\cos x}{(x+1)^{2}} d x,$ then\r\nthe value of $M-N$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "GXccX",
+      "text": "$\\pi$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Ef9j6",
+      "text": "$\\frac{\\pi}{4}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "IPLxv",
+      "text": "$\\frac{2}{\\pi-4}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Iuhde",
+      "text": "$\\frac{2}{\\pi+4}$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $M=\\int_{0}^{\\frac{\\pi}{2}} \\frac{\\cos x}{(x+2)} d x$\r\n$\\begin{aligned} \\text { and } \\quad N &=\\int_{0}^{\\frac{\\pi}{4}}  \\frac{\\sin x \\cos x}{(x+1)^{2}} d x \\\\ &=\\int_{0}^{\\pi / 4} \\frac{1}{2} \\cdot \\frac{\\sin 2 x}{(x+1)^{2}} d x \\end{aligned}$\r\nPut $2 x=t \\Rightarrow d x=\\frac{a}{2}$\r\n$\\begin{aligned} \\therefore \\quad N &=\\int_{0}^{\\frac{\\pi}{2}}  \\frac{\\sin t}{4(t / 2+1)^{2}} d t \\\\ &=\\int_{0}^{\\frac{\\pi}{2}} \\frac{\\sin t}{(t+2)^{2}} d t \\end{aligned}$\r\n$\\therefore M-N=\\int_{0}^{\\frac{\\pi}{2}}(\\cos x) \\cdot \\frac{1}{(x+2)} d x$\r\n$-\\int_{0}^{\\frac{\\pi}{2}} \\frac{\\sin x}{(x+2)^{2}} d x$\r\n$=\\left(\\frac{\\sin x}{x+2}\\right)_{0}^{\\pi 2}-\\int_{0}^{\\pi 2}-\\frac{\\sin x}{(x+2)^{2}} d x$\r\n$-\\frac{\\sin \\pi / 2}{\\pi / 2+2}=\\frac{1}{\\frac{\\pi+4}{2}}=\\frac{2}{\\pi+4}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7d",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2018-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018",
+    "title": "WBJEE 2018"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

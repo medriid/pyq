@@ -1,0 +1,63 @@
+{
+  "_id": "64a81451e0ff5a5425a85a8b",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7e",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2019-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019",
+      "title": "WBJEE 2019"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The general solution of the differential equation $\\left(1+e^{\\frac{x}{y}}\\right) d x+\\left(1-\\frac{x}{y}\\right) e^{x / y} d y=0$ is$(C$ is an arbitrary constant $)$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "wP8U2",
+      "text": "$x-y e^{\\frac{x}{y}}=C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "9SnA6",
+      "text": "$y-x e^{\\frac{x}{y}}=C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "SGWAf",
+      "text": "$x+y e^{\\frac{x}{y}}=C$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "AOpn7",
+      "text": "$y+x e^{\\frac{x}{y}}=C$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\left(1+e^{\\frac{x}{y}}\\right) d x+\\left(1-\\frac{x}{y}\\right) e^{x / y} d y=0$\r\n$\\Rightarrow \\quad\\left(1+e^{x / y}\\right) d x=-e^{x / y}\\left(1-\\frac{x}{y}\\right) d y$\r\n$\\Rightarrow \\quad \\frac{d x}{d y}=\\frac{-e^{x / y}(1-x / y)}{\\left(1+e^{x / y}\\right)}$ ...(i)\r\nThis is homogeneous differential equation.\r\nSo, put $\\quad x=v y$\r\n$\\frac{d x}{d y}=v+y \\frac{d v}{d y}$ ....(ii)\r\nTherefore, $v+y \\frac{d v}{d y}=\\frac{-e^{v} (1-v)}{1+e^{v}}$\r\n[from Eqs.(i) and (ii)]\r\n$\\Rightarrow \\quad y \\frac{d v}{d y}=\\frac{-e^{v}+ve^{v}}{1+e^{v}}-v$\r\n$=\\frac{-e^{v}+ve^{v}-v\\left(1+e^{v}\\right)}{1+e^{v}}$\r\n$=-e^{v}+v e^{v}-v-v e^{v}$\r\n$\\Rightarrow \\quad y \\frac{d v}{d y}=\\frac{-\\left(e^{v}+v\\right)}{1+e^{v}}$\r\n$\\Rightarrow \\quad \\frac{1+e^{v}}{v+e^{r}} d v=-\\frac{d y}{y} \\quad$ [variable separation $]$\r\n$\\Rightarrow \\quad \\int \\frac{1+e^{v}}{v+e^{v}} d v=-\\int \\frac{d y}{y} \\quad$ [by integration $] \\ldots$ (iii)\r\nLet $\\left.v+e^{v}=t \\Rightarrow (1+e^{v}\\right) d v=d t$\r\n$\\int \\frac{1+e^{v}}{v+e^{v}} d v=\\int \\frac{d t}{t}=\\log t=\\log \\left(v+e^{v}\\right)$ ...(iv)\r\n$\\Rightarrow \\log \\left(v+e^{v}\\right)=-\\log y+\\log C$\r\n[from Eqs. (iii) and (iv)] $\\Rightarrow \\log \\left(v+e^{v}\\right)+\\log y=\\log C$\r\n$\\Rightarrow \\quad y\\left(v+e^{v}\\right)=C$\r\n$y\\left(\\frac{x}{y}+e^{x / y}\\right)=C$\r\n$y\\left(\\frac{x+ye^{x / y}}{y}\\right)=C$\r\n$\\Rightarrow \\quad x+y e^{x / y}=C$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7e",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2019-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019",
+    "title": "WBJEE 2019"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

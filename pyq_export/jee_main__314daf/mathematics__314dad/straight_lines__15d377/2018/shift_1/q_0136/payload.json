@@ -1,0 +1,43 @@
+{
+  "index": 136,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 1 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602537eaf75bf5a215d377",
+    "chapter_name": "Straight Lines",
+    "year": "2018",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "In a triangle $A B C$, coordianates of $A$ are $(1,2)$ and the equations of the medians through $B$ and $C$ are $x+y=5$ and $x=4$ respectively. Then area of $\\triangle A B C$ (in sq. units) is"
+  },
+  "options": [
+    {
+      "text": "\n5\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n9\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n12\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n4",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Median through $C$ is $x=4$\nSo the $x$ coordianate of $C$ is 4 . let $C \\equiv(4, y)$, then the midpoint of $A(1,2)$ and $C(4, y)$ is $D$ which lies on the median through $B$.\n<img src=\"assets\\st0136_e9262046cd82.png\"><br>\n$$\n\\therefore \\quad D \\equiv\\left(\\frac{1+4}{2}, \\frac{2+y}{2}\\right)\n$$\nNow $\\frac{1+4+2+y}{2}=5 \\Rightarrow y=3$.\nSo, $C \\equiv(4,3)$.\nThe centroid of the triangle is the intersection of the mesians. Here the medians $x=4$ and $x+4$ and $x+y=5$ intersect at $G(4,1)$.\nThe area of triangle $\\triangle A B C=3 \\times \\triangle A G C$\n$$\n=3 \\times \\frac{1}{2}[1(1-3)+4(3-2)+4(2-1)]=9 .\n$$"
+  }
+}

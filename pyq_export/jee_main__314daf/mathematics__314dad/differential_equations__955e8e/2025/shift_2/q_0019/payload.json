@@ -1,0 +1,24 @@
+{
+  "index": 19,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $y=f(x)$ be the solution of the differential equation $\\frac{\\mathrm{d} y}{\\mathrm{~d} x}+\\frac{x y}{x^2-1}=\\frac{x^6+4 x}{\\sqrt{1-x^2}},-1 \\lt x \\lt 1$ such that $f(0)=0$. If $6 \\int_{-1 / 2}^{1 / 2} f(x) \\mathrm{d} x=2 \\pi-\\alpha$ then $\\alpha^2$ is equal to _______ ."
+  },
+  "options": [],
+  "correct_answer": "27",
+  "solution": {
+    "text": "I.F. $\\mathrm{e}^{-\\frac{1}{2} \\int \\frac{2 \\mathrm{x}}{1-\\mathrm{x}^2} \\mathrm{dx}}=\\mathrm{e}^{-\\frac{1}{2} \\ln \\left(1-\\mathrm{x}^2\\right)}=\\sqrt{1-\\mathrm{x}^2}$\n\n$y \\times \\sqrt{1-x^2}=\\int\\left(x^6+4 x\\right) d x=\\frac{x^7}{7}+2 x^2+c$\n\nGiven $y(0)=0 \\Rightarrow c=0$\n$y=\\frac{\\frac{x^7}{7}+2 x^2}{\\sqrt{1-x^2}}$\n\nNow, $6 \\int_{-\\frac{1}{2}}^{\\frac{1}{2}} \\frac{\\frac{x^7}{7}+2 \\mathrm{x}^2}{\\sqrt{1-\\mathrm{x}^2}} \\mathrm{dx}=6 \\int_{-\\frac{1}{2}}^{\\frac{1}{2}} \\frac{2 \\mathrm{x}^2}{\\sqrt{1-\\mathrm{x}^2}} \\mathrm{dx}$\n$\\begin{aligned} & =24 \\int_0^{\\frac{1}{2}} \\frac{x^2}{\\sqrt{1-x^2}} d x \\\\ & \\text { Put } x=\\sin \\theta \\\\ & d x=\\cos \\theta d \\theta \\\\ & =24 \\int_0^{\\frac{\\pi}{6}} \\frac{\\sin ^2 \\theta}{\\cos \\theta} \\cos \\theta d \\theta \\\\ & =24 \\int_0^{\\frac{\\pi}{6}}\\left(\\frac{1-\\cos 2 \\theta}{2}\\right) d \\theta=12\\left[\\theta-\\frac{\\sin 2 \\theta}{2}\\right]_0^{\\frac{\\pi}{6}} \\\\ & =12\\left(\\frac{\\pi}{6}-\\frac{\\sqrt{3}}{4}\\right) \\\\ & =2 \\pi-3 \\sqrt{3} \\\\ & \\alpha^2=(3 \\sqrt{3})^2=27\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 64,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $F(x)=\\int_{0}^{x} \\frac{\\cos t}{\\left(1+t^{2}\\right)} d t, 0 \\leq x \\leq 2 \\pi .$ Then"
+  },
+  "options": [
+    {
+      "text": "$F$ is increasing in $\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$ and decreasing in $\\left(0, \\frac{\\pi}{2}\\right)$ and $\\left(\\frac{3 \\pi}{2}, 2 \\pi\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$F$ is increasing in $(0, \\pi)$ and decreasing in $(\\pi, 2 \\pi)$",
+      "is_correct": false
+    },
+    {
+      "text": "$F$ is increasing $(\\pi, 2 \\pi)$ and decreasing in $(0, \\pi)$",
+      "is_correct": false
+    },
+    {
+      "text": "$F$ is increasing in $\\left(0, \\frac{\\pi}{2}\\right)$ and $\\left(\\frac{3 \\pi}{2}, 2 \\pi\\right)$ and decreasing in $\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given function is\r\n$$\r\nF(x)=\\int_{0}^{x} \\frac{\\cos t}{\\left(1+t^{2}\\right)} d t, 0 \\leq x \\leq 2 \\pi\r\n$$\r\nOn differentiation w.r.t. $x$. (apply Leibnitz rule) $F(x)=\\frac{\\cos x}{1+x^{2}} \\times 1=\\frac{\\cos x}{1+x^{2}},$ where $\\left(1+x^{2}\\right)>0$\r\nHere, $\\cos x>0 \\Rightarrow x \\in\\left(0, \\frac{\\pi}{2}\\right) \\cup\\left(\\frac{3 \\pi}{2}, 2 \\pi\\right)$\r\nand $\\cos x     < 0 \\Rightarrow x \\in\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$\r\nSo, $F$ is increasing in $\\left(0, \\frac{\\pi}{2}\\right)$ and $\\left(\\frac{3 \\pi}{2}, 2 \\pi\\right)$ and decreasing in $\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$"
+  }
+}

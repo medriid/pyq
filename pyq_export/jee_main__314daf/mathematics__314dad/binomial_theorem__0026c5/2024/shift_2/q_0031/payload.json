@@ -1,0 +1,43 @@
+{
+  "index": 31,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If the coefficients of $x^4, x^5$ and $x^6$ in the expansion of $(1+x)^n$ are in the arithmetic progression, then the maximum value of $n$ is:"
+  },
+  "options": [
+    {
+      "text": "7",
+      "is_correct": false
+    },
+    {
+      "text": "21",
+      "is_correct": false
+    },
+    {
+      "text": "28",
+      "is_correct": false
+    },
+    {
+      "text": "14",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\text { Coeff. of } x^4={ }^n C_4 \\\\ & \\text { Coeff. of } x^5={ }^n C_5 \\\\ & \\text { Coeff. of } x^6={ }^n C_6 \\\\ & { }^n C_4,{ }^n C_5,{ }^n C_6 \\ldots . A P \\\\ & 2 C_5={ }^n C_4+{ }^n C_6 \\\\ & 2=\\frac{{ }^n C_4}{{ }^n C_5}+\\frac{{ }^n C_6}{{ }^n C_5} \\quad\\left\\{\\frac{{ }^n C_r}{{ }^n C_r}=\\frac{n-r+1}{r}\\right\\} \\\\ & 2=\\frac{5}{n-4}+\\frac{n-5}{6} \\\\ & 12(n-4)=30+n^2-9 n+20 \\\\ & n^2-21 n+98=0 \\\\ & (n-14)(n-7)=0 \\\\ & n_{\\max }=14 \\quad n_{\\min }=7\\end{aligned}$"
+  }
+}

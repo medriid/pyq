@@ -1,0 +1,43 @@
+{
+  "index": 30,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2006",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602544a0c712fd38fee5c4",
+    "chapter_name": "Limits",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For $x>0, \\lim _{x \\rightarrow 0}\\left((\\sin x)^{1 / x}+\\left(\\frac{1}{x}\\right)^{\\sin x}\\right)$ is"
+  },
+  "options": [
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Here, $\\lim _{x \\rightarrow 0}(\\sin x)^{1 / x}+\\lim _{x \\rightarrow 0}\\left(\\frac{1}{x}\\right)^{\\sin x} \\Rightarrow 0+\\lim _{x \\rightarrow 0} e^{\\log \\left(\\frac{1}{x}\\right)^{\\sin x}} \\quad\\left\\{\\begin{array}{l}\\lim _{x \\rightarrow 0}(\\sin x)^{1 / x} \\rightarrow 0 \\\\ \\text { as, (decimal) })^x \\rightarrow 0\\end{array}\\right\\}$ $\\Rightarrow \\quad e^{\\lim _{x \\rightarrow 0} \\frac{\\log (1 / x)}{\\operatorname{cosec} x}}$\nOn applying L Hospital's Rule, we get\n$$\n\\Rightarrow \\quad e^{\\lim _{x \\rightarrow 0} \\frac{x\\left(-\\frac{1}{x^2}\\right)}{-\\operatorname{cosec} x \\cot x}}=e^{\\lim _{x \\rightarrow 0} \\frac{\\sin x}{x} \\tan x}=e^0=1\n$$"
+  }
+}

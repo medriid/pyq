@@ -1,0 +1,43 @@
+{
+  "index": 24,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If 5 distinct balls are placed at random into 5 cells, then the probability that exactly one cell remains empty, is"
+  },
+  "options": [
+    {
+      "text": "$48 / 125$",
+      "is_correct": true
+    },
+    {
+      "text": "$12 / 125$",
+      "is_correct": false
+    },
+    {
+      "text": "$8 / 125$",
+      "is_correct": false
+    },
+    {
+      "text": "$1 / 125$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Clearly. 5 distinct balls can be placed into 5 olls in $5^{5}$ ways. Now, the number of ways of selecting one cell ${ }^{5} C_{1}$\r\nLet the selected cell be empty, Now, we are left with 5 balls and 4 cells. Now, number of ways of placing 5 distinct balls into 4 cells such that each cell have atleast one $=4^{5}-{ }^{4} C_{1}(4-1)^{5}+{ }^{4} C_{2}(4-2)^{5}-{ }^{4} C_{3}(4-3)^{6}$\r\n$=1024-4 \\times 3^{5}+6 \\times 2^{5}-4$\r\n$=1024-972+192-4=1216-976$\r\n$=240$\r\nThus, the number of ways of placing 5 distinct balls such that exactly one cell remains empty $={ }^{5} C_{1} \\times 240$\r\n$\\therefore$ Required probability $=\\frac{{ }^{5} C_{1} \\times 240}{5^{5}}=\\frac{240}{625}=\\frac{48}{125}$"
+  }
+}

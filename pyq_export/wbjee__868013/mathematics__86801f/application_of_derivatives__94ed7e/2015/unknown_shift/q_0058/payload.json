@@ -1,0 +1,44 @@
+{
+  "index": 58,
+  "type": "multipleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f$ be any continuously differentiable function on $[a, b]$ and twice differentiable on $(a, b)$ such that $f(a)=f^{\\prime}(a)=0$ and $f(b)=0$ Then."
+  },
+  "options": [
+    {
+      "text": "$f^{\\prime \\prime}(a)=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$f^{\\prime}(x)=0$ for some $x \\in(a, b)$",
+      "is_correct": true
+    },
+    {
+      "text": "$f^{\\prime \\prime}(x) \\neq 0$ for some $x \\in(a, b)$",
+      "is_correct": true
+    },
+    {
+      "text": "$f^{\\prime \\prime \\prime}(x)=0$ for some $x \\in(a, b)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "C"
+  ],
+  "solution": {
+    "text": "We have, $f$ is continuous and differentiably function on $[a, b]$ Also, $f(a)=f(b)=0$\r\nBy Rolle's theorem, there exists $c \\in(a, b)$ such the $f^{\\prime}(c)=0$\r\nThus, there exists $x \\in(a, b)$ such that $f^{\\prime}(x)=0$ Let at $x=c \\in(a, b), f^{\\prime}(c)=0$\r\nNow, $f$ is continuously differentiable on $|a, b|$ $\\Rightarrow \\quad f^{\\prime}$ is continuous on $\\left.\\mid a, b\\right]$ Also, $f$ is twice differentiable on $(a, b)$ $\\therefore f^{\\prime}$ is differentiable on $(a, b)$\r\nand $f^{\\prime}(a)=0=f^{\\prime}(c)$\r\nBy Rolle's theorem, there exists $k \\in(a, c)$ such that. $f^{\\prime \\prime}(k)=0$\r\nThus, there exists $x \\in(a, c)$ such that $f^{\\prime \\prime}(x)=0$ So, there exists $x \\in(a, b)$ such that $f^{\\prime \\prime}(x)=0$ Let us consider, $f(x)=(x-a)^{2}(x-b)$\r\nwhere $f(a)=f(b)=f^{\\prime}(a)=0$ but\r\n$f^{\\prime \\prime}(a) \\neq 0$ and $f^{m}(x) \\neq 0$ for any $x \\in(a, b)$"
+  }
+}

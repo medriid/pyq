@@ -1,0 +1,43 @@
+{
+  "index": 31,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2013 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025732b001edb3fa9de60",
+    "chapter_name": "Probability",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong> Paragraph: </strong>\r\n\r\nA box $B_{1}$ contains $1$ white ball, $3$ red balls and $2$ black balls. Another box $B_{2}$ contains $2$ white balls, $3$ red balls and $4$ black balls. A third box $B_{3}$ contains $3$ white balls, $4$ red balls and $5$ black balls.\r\n\r\n<br> <strong> Question: </strong>\r\n\r\nIf $2$ balls are drawn (without replacement) from a randomly selected box and one of the balls is white and the other ball is red, the probability that these $2$ balls are drawn from box $B_{2}$ is"
+  },
+  "options": [
+    {
+      "text": "<math> <mrow> <mfrac> <mrow> <mn>1</mn> <mn>1</mn> <mn>6</mn> </mrow> <mrow> <mn>1</mn> <mn>8</mn> <mn>1</mn> </mrow> </mfrac> </mrow> </math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow> <mfrac> <mrow> <mn>1</mn> <mn>2</mn> <mn>6</mn> </mrow> <mrow> <mn>1</mn> <mn>8</mn> <mn>1</mn> </mrow> </mfrac> </mrow> </math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow> <mfrac> <mrow> <mn>6</mn> <mn>5</mn> </mrow> <mrow> <mn>1</mn> <mn>8</mn> <mn>1</mn> </mrow> </mfrac> </mrow> </math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow> <mfrac> <mrow> <mn>5</mn> <mn>5</mn> </mrow> <mrow> <mn>1</mn> <mn>8</mn> <mn>1</mn> </mrow> </mfrac> </mrow> </math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi><mo>&#160;</mo><mo>:</mo></math>&nbsp;one ball is white and other is red<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">E</mi><mn>1</mn></msub><mo>&#160;</mo><mo>:</mo></math> both balls are from box <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">B</mi><mn>1</mn></msub></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">E</mi><mn>2</mn></msub><mo>&#160;</mo><mo>:</mo></math> both ball are from box <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">B</mi><mn>2</mn></msub></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">E</mi><mn>3</mn></msub><mo>&#160;</mo><mo>:</mo></math> both ball are from box <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">B</mi><mn>3</mn></msub></math><br />Hence,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>P</mtext><mfenced><mtext>required</mtext></mfenced><mo>=</mo><mtext>P</mtext><mfenced><mfrac><msub><mtext>E</mtext><mn>2</mn></msub><mtext>A</mtext></mfrac></mfenced></math><br /><math> <mrow> <mo>=</mo> <mfrac> <mrow> <mtext>P</mtext> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mtext>A</mtext> </mrow> <mrow> <msub> <mtext>E</mtext> <mn>2</mn> </msub> </mrow> </mfrac> </mrow> </mfenced> <mo>&#183;</mo> <mtext>P</mtext> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <msub> <mtext>E</mtext> <mn>2</mn> </msub> </mrow> </mfenced> </mrow> <mrow> <mtext>P</mtext> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mtext>A</mtext> </mrow> <mrow> <msub> <mtext>E</mtext> <mn>1</mn> </msub> </mrow> </mfrac> </mrow> </mfenced> <mo>&#183;</mo> <mtext>P</mtext> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <msub> <mtext>E</mtext> <mn>1</mn> </msub> </mrow> </mfenced> <mo>+</mo> <mtext>P</mtext> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mtext>A</mtext> </mrow> <mrow> <msub> <mtext>E</mtext> <mn>2</mn> </msub> </mrow> </mfrac> </mrow> </mfenced> <mo>&#183;</mo> <mtext>P</mtext> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <msub> <mtext>E</mtext> <mn>2</mn> </msub> </mrow> </mfenced> <mo>+</mo> <mtext>P</mtext> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mtext>A</mtext> </mrow> <mrow> <msub> <mtext>E</mtext> <mn>3</mn> </msub> </mrow> </mfrac> </mrow> </mfenced> <mo>&#183;</mo> <mtext>P</mtext> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <msub> <mtext>E</mtext> <mn>3</mn> </msub> </mrow> </mfenced> </mrow> </mfrac> </mrow> </math><br /><math> <mrow> <mo>=</mo> <mfrac> <mrow> <mfrac> <mrow> <msup> <mspace></mspace> <mn>2</mn> </msup> <msub> <mtext>C</mtext> <mn>1</mn> </msub> <mo>&#215;</mo> <msup> <mspace></mspace> <mn>3</mn> </msup> <msub> <mtext>C</mtext> <mn>1</mn> </msub> </mrow> <mrow> <msup> <mspace></mspace> <mn>9</mn> </msup> <msub> <mtext>C</mtext> <mn>2</mn> </msub> </mrow> </mfrac> <mo>&#215;</mo> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mn>3</mn> </mrow> </mfrac> </mrow> <mrow> <mfrac> <mrow> <msup> <mspace></mspace> <mn>1</mn> </msup> <msub> <mtext>C</mtext> <mn>1</mn> </msub> <mo>&#215;</mo> <msup> <mspace></mspace> <mn>3</mn> </msup> <msub> <mtext>C</mtext> <mn>1</mn> </msub> </mrow> <mrow> <msup> <mspace></mspace> <mn>6</mn> </msup> <msub> <mtext>C</mtext> <mn>2</mn> </msub> </mrow> </mfrac> <mo>&#215;</mo> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mn>3</mn> </mrow> </mfrac> <mo>+</mo> <mfrac> <mrow> <msup> <mspace></mspace> <mn>2</mn> </msup> <msub> <mtext>C</mtext> <mn>1</mn> </msub> <mo>&#215;</mo> <msup> <mspace></mspace> <mn>3</mn> </msup> <msub> <mtext>C</mtext> <mn>1</mn> </msub> </mrow> <mrow> <msup> <mspace></mspace> <mn>9</mn> </msup> <msub> <mtext>C</mtext> <mn>2</mn> </msub> </mrow> </mfrac> <mo>&#215;</mo> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mn>3</mn> </mrow> </mfrac> <mo>+</mo> <mfrac> <mrow> <msup> <mspace></mspace> <mn>3</mn> </msup> <msub> <mtext>C</mtext> <mn>1</mn> </msub> <mo>&#215;</mo> <msup> <mspace></mspace> <mn>4</mn> </msup> <msub> <mtext>C</mtext> <mn>1</mn> </msub> </mrow> <mrow> <msup> <mspace></mspace> <mrow> <mn>1</mn> <mn>2</mn> </mrow> </msup> <msub> <mtext>C</mtext> <mn>2</mn> </msub> </mrow> </mfrac> <mo>&#215;</mo> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mn>3</mn> </mrow> </mfrac> </mrow> </mfrac> </mrow> </math><br /><math> <mrow> <mo>=</mo> <mfrac> <mrow> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mn>6</mn> </mrow> </mfrac> </mrow> <mrow> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mn>5</mn> </mrow> </mfrac> <mo>+</mo> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mn>6</mn> </mrow> </mfrac> <mo>+</mo> <mfrac> <mrow> <mn>2</mn> </mrow> <mrow> <mn>1</mn> <mn>1</mn> </mrow> </mfrac> </mrow> </mfrac> </mrow> </math><br /><math> <mrow> <mo>=</mo> <mfrac> <mrow> <mn>5</mn> <mn>5</mn> </mrow> <mrow> <mn>1</mn> <mn>8</mn> <mn>1</mn> </mrow> </mfrac> </mrow> </math>"
+  }
+}

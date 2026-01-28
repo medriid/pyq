@@ -1,0 +1,43 @@
+{
+  "index": 104,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255203495ecd9ed50cd3",
+    "chapter_name": "Determinants",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let <math><mn>2</mn><mi>x</mi><mo>+</mo><mi>a</mi><mi>y</mi><mo>+</mo><mn>6</mn><mi>z</mi><mo>=</mo><mn>8</mn></math>, <math><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>+</mo><mi>b</mi><mi>z</mi><mo>=</mo><mn>5</mn></math> and <math><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>3</mn><mi>z</mi><mo>=</mo><mn>4</mn></math> be three equations. If these <math><mn>3</mn></math> equations are consistent, then"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>3</mn><mo>,</mo><mo>&#160;</mo><mi>a</mi><mo>&#8800;</mo><mn>2</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn><mo>,</mo><mo>&nbsp;</mo><mi>b</mi><mo>≠</mo><mn>3</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&#8800;</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mi>b</mi><mo>&#8800;</mo><mn>3</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&#8800;</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mi>b</mi><mo>=</mo><mn>4</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "From Cramer’s rule,&nbsp;<br />for consistent system&nbsp;<math><mo>△</mo><mo>=</mo><msub><mrow><mo>△</mo></mrow><mrow><mn>1</mn></mrow></msub><mo>=</mo><msub><mrow><mo>△</mo></mrow><mrow><mn>2</mn></mrow></msub><mo>=</mo><msub><mrow><mo>△</mo></mrow><mrow><mn>3</mn></mrow></msub><mo>=</mo><mn>0</mn></math><br /><math> <mrow> <mo>△</mo><mo>=</mo><mfenced close=\"|\" open=\"|\"> <mrow> <mtable equalcolumns=\"true\" equalrows=\"true\"> <mtr> <mtd> <mn>2</mn> </mtd> <mtd> <mi>a</mi> </mtd> <mtd> <mn>6</mn> </mtd> </mtr> <mtr> <mtd> <mn>1</mn> </mtd> <mtd> <mn>2</mn> </mtd> <mtd> <mi>b</mi> </mtd> </mtr> <mtr> <mtd> <mn>1</mn> </mtd> <mtd> <mn>1</mn> </mtd> <mtd> <mn>3</mn> </mtd> </mtr> </mtable></mrow> </mfenced><mo>=</mo><mn>2</mn><mfenced> <mrow> <mn>6</mn><mo>−</mo><mi>b</mi></mrow> </mfenced><mo>−</mo><mi>a</mi><mfenced> <mrow> <mn>3</mn><mo>−</mo><mi>b</mi></mrow> </mfenced><mo>+</mo><mn>6</mn><mfenced> <mrow> <mn>1</mn><mo>−</mo><mn>2</mn></mrow> </mfenced></mrow> </math><br /><math><mo>=</mo><mn>12</mn><mo>-</mo><mn>2</mn><mi>b</mi><mo>-</mo><mn>3</mn><mi>a</mi><mo>+</mo><mi>a</mi><mi>b</mi><mo>-</mo><mn>6</mn></math><br /><math><mo>=</mo><mn>6</mn><mo>-</mo><mn>2</mn><mi>b</mi><mo>-</mo><mn>3</mn><mi>a</mi><mo>+</mo><mi>a</mi><mi>b</mi></math><br /><math><mo>=</mo><mfenced separators=\"|\"><mrow><mi>a</mi><mo>-</mo><mn>2</mn></mrow></mfenced><mfenced separators=\"|\"><mrow><mi>b</mi><mo>-</mo><mn>3</mn></mrow></mfenced></math><br /><math><msub><mrow><mo>△</mo></mrow><mrow><mn>1</mn></mrow></msub><mo>=</mo><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mtable><mtr><mtd><mn>8</mn></mtd><mtd><mi>a</mi></mtd><mtd><mn>6</mn></mtd></mtr><mtr><mtd><mn>5</mn></mtd><mtd><mn>2</mn></mtd><mtd><mi>b</mi></mtd></mtr><mtr><mtd><mn>4</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>3</mn></mtd></mtr></mtable></mrow></mfenced><mo>=</mo><mn>8</mn><mfenced separators=\"|\"><mrow><mn>6</mn><mo>-</mo><mi>b</mi></mrow></mfenced><mo>-</mo><mi>a</mi><mfenced separators=\"|\"><mrow><mn>15</mn><mo>-</mo><mn>4</mn><mi>b</mi></mrow></mfenced><mo>+</mo><mn>6</mn><mfenced separators=\"|\"><mrow><mn>5</mn><mo>-</mo><mn>8</mn></mrow></mfenced></math><br /><math><mo>=</mo><mn>48</mn><mo>-</mo><mn>8</mn><mi>b</mi><mo>-</mo><mn>15</mn><mi>a</mi><mo>+</mo><mn>4</mn><mi>a</mi><mi>b</mi><mo>-</mo><mn>18</mn></math><br /><math><mo>=</mo><mn>30</mn><mo>-</mo><mn>15</mn><mi>a</mi><mo>-</mo><mn>8</mn><mi>b</mi><mo>+</mo><mn>4</mn><mi>a</mi><mi>b</mi></math><br /><math><mo>=</mo><mo>(</mo><mn>4</mn><mi>b</mi><mo>-</mo><mn>15</mn><mo>)</mo><mo>(</mo><mi>a</mi><mo>-</mo><mn>2</mn><mo>)</mo></math><br /><math><msub><mrow><mo>△</mo></mrow><mrow><mn>2</mn></mrow></msub><mo>=</mo><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mtable><mtr><mtd><mn>2</mn></mtd><mtd><mn>8</mn></mtd><mtd><mn>6</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>5</mn></mtd><mtd><mi>b</mi></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>4</mn></mtd><mtd><mn>3</mn></mtd></mtr></mtable></mrow></mfenced><mo>=</mo><mn>2</mn><mfenced separators=\"|\"><mrow><mn>15</mn><mo>-</mo><mn>4</mn><mi>b</mi></mrow></mfenced><mo>-</mo><mn>8</mn><mfenced separators=\"|\"><mrow><mn>3</mn><mo>-</mo><mi>b</mi></mrow></mfenced><mo>+</mo><mn>6</mn><mfenced separators=\"|\"><mrow><mn>4</mn><mo>-</mo><mn>5</mn></mrow></mfenced></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>30</mn><mo>-</mo><mn>8</mn><mi>b</mi><mo>-</mo><mn>24</mn><mo>+</mo><mn>8</mn><mi>b</mi><mo>-</mo><mn>6</mn><mo>=</mo><mn>0</mn></math><br /><math><msub><mrow><mo>△</mo></mrow><mrow><mn>3</mn></mrow></msub><mo>=</mo><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mtable><mtr><mtd><mn>2</mn></mtd><mtd><mi>a</mi></mtd><mtd><mn>8</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>5</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>4</mn></mtd></mtr></mtable></mrow></mfenced><mo>=</mo><mn>2</mn><mfenced separators=\"|\"><mrow><mn>8</mn><mo>-</mo><mn>5</mn></mrow></mfenced><mo>-</mo><mi>a</mi><mfenced separators=\"|\"><mrow><mn>4</mn><mo>-</mo><mn>5</mn></mrow></mfenced><mo>+</mo><mn>8</mn><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mn>2</mn></mrow></mfenced><mo>=</mo><mi>a</mi><mo>-</mo><mn>2</mn></math><br />For consistent system&nbsp;<math><mi>a</mi><mo>=</mo><mn>2</mn></math>"
+  }
+}

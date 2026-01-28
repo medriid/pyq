@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "\\(f(x)\\) is a differentiable function and given \\(f^{\\prime}(2)=6\\) and \\(f^{\\prime}(1)=4\\), then \\(L=\\lim _{h \\rightarrow 0} \\frac{f\\left(2+2 h+h^2\\right)-f(2)}{f\\left(1+h-h^2\\right)-f(1)}\\)"
+  },
+  "options": [
+    {
+      "text": "does not exist",
+      "is_correct": false
+    },
+    {
+      "text": "equal to -3",
+      "is_correct": false
+    },
+    {
+      "text": "equal to 3",
+      "is_correct": true
+    },
+    {
+      "text": "equal to \\(3 / 2\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hint: \\(\\operatorname{It}_{h \\rightarrow 0} \\frac{f\\left(2+2 h+h^2\\right)-f(2)}{f\\left(1+h-h^2\\right)-f(1)} \\quad[\\div(\\) form \\()]\\)\nby L. Hospital rule.\n\\(\\begin{aligned}\n\\operatorname{It}_{h \\rightarrow 0} \\frac{f^{\\prime}\\left(2+2 h+h^2\\right)(2 h+2)}{f^{\\prime}\\left(1+h-h^2\\right)(1-2 h)} & =\\frac{f^{\\prime}(2)}{f^{\\prime}(1)} \\times\\left(\\frac{2}{1}\\right) \\\\\n& =\\frac{6}{4} \\times 2=3\n\\end{aligned}\\)"
+  }
+}

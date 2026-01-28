@@ -1,0 +1,43 @@
+{
+  "index": 134,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2008",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254533dd7c0008b65699",
+    "chapter_name": "Mathematical Reasoning",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $p$ be the statement \" $x$ is an irrational number\", $q$ be the statement \" $y$ is a transcendental number\", and $r$ be the statement \" $\\mathrm{x}$ is a rational number iff $\\mathrm{y}$ is a transcendental number\".\nStatement $-1$ : $r$ is equivalent to either $q$ or $p$\nStatement $-2: r$ is equivalent to $\\sim(p \\leftrightarrow \\sim q)$."
+  },
+  "options": [
+    {
+      "text": "\nStatement $-1$ is false, Statement $-2$ is true\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $-1$ is true, Statement $-2$ is true, Statement $-2$ is a correct explanation for Statement $-1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $-1$ is true, Statement $-2$ is true; Statement $-2$ is not a correct explanation for Statement $-1$.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $-1$ is true, Statement $-2$ is false.",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given statement $r=\\sim p \\leftrightarrow q$\nStatement $-1: r_1=(p \\wedge \\sim q) \\vee(\\sim p \\wedge q)$\nStatement $-2: r_2=\\sim(p \\leftrightarrow \\sim q)=(p \\wedge q) \\vee(\\sim q \\wedge \\sim p)$\nFrom the truth table of $r, r_1$ and $r_2$, $r=r_1$.\nHence Statement $-1$ is true and Statement $-2$ is false."
+  }
+}

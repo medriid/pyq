@@ -1,0 +1,24 @@
+{
+  "index": 1,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $m$ and $n$ be the number of points at which the function $f(\\mathrm{x})=\\max \\left\\{\\mathrm{x}, \\mathrm{x}^3, \\mathrm{x}^5, \\ldots ., \\mathrm{x}^{21}\\right\\}, \\mathrm{x} \\in \\mathbb{R}$, is not differentiable and not continuous, respectively. Then $\\mathrm{m}+\\mathrm{n}$ is equal to ________ ."
+  },
+  "options": [],
+  "correct_answer": "3",
+  "solution": {
+    "text": "$f(x)=\\left\\{\\begin{array}{cc}<br/>x, & x \\lt -1 \\\\\nx^{21}, & -1 \\leq x \\lt 0 \\\\\nx, & 0 \\leq x \\lt 1 \\\\\nx^{21}, & x \\geq 1<br/>\\end{array}\\right.$<br/>$f(x)$ is continuous everywhere.<br/>$\\begin{aligned}<br/>& \\therefore \\mathrm{n}=0 \\\\\n& \\mathrm{f}^{\\prime}(\\mathrm{x})=\\left\\{\\begin{array}{cc}<br/>1, & \\mathrm{x} \\lt -1 \\\\\n21 \\mathrm{x}^{20}, & -1 \\leq \\mathrm{x} \\lt 0 \\\\\n1, & 0 \\lt \\mathrm{x} \\lt 1 \\\\\n21 \\mathrm{x}^{20}, & \\mathrm{x} \\geq 1<br/>\\end{array}\\right.<br/>\\end{aligned}$<br/>$\\therefore \\mathrm{f}(\\mathrm{x})$ is non-differentiable at $\\mathrm{x}=-1,0,1$<br/>$\\begin{aligned}<br/>& \\therefore \\mathrm{m}=3 \\\\\n& \\mathrm{~m}+\\mathrm{n}=3<br/>\\end{aligned}$"
+  }
+}

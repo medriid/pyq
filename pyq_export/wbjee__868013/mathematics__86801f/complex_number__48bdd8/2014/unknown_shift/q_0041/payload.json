@@ -1,0 +1,43 @@
+{
+  "index": 41,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc9a79d891b2548bdd8",
+    "chapter_name": "Complex Number",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $|z|^{2}+|z-3|^{2}+|z-i|^{2}$ is minimum when $z$ equals"
+  },
+  "options": [
+    {
+      "text": "$2-\\frac{2}{3} i$",
+      "is_correct": false
+    },
+    {
+      "text": "$45+3 i$",
+      "is_correct": false
+    },
+    {
+      "text": "$1+\\frac{i}{3}$",
+      "is_correct": true
+    },
+    {
+      "text": "$1-\\frac{i}{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $z=x+i y$\r\n$\\therefore|z|^{2}+|z-3|^{2}+|z-i|^{2}$\r\n$$\r\n\\begin{aligned}\r\n=|x+i y|^{2}+\\mid &\\mid x-3)+\\left.i y\\right|^{2} \\\\\r\n&+|x+i(y-1)|^{2}\r\n\\end{aligned}\r\n$$\r\n$=x^{2}+y^{2}+(x-3)^{2}+y^{2}+x^{2}+(y-1)^{2}$\r\n$=x^{2}+y^{2}+x^{2}-6 x+9+y^{2}+x^{2}+y^{2}$\r\n$=3 x^{2}+3 y^{2}-6 x-2 y+10$\r\n$=3\\left(x^{2}-2 x+1\\right)+3\\left(y^{2}-\\frac{2}{3} y+\\frac{1}{9}\\right)$\r\n$\\quad=3(x-1)^{2}+3\\left(y-\\frac{1}{3}\\right)^{2}+\\frac{20}{3}$\r\nIt is minimum, when $x-1=0$ and $y-\\frac{1}{3}=0$\r\n$\\therefore \\quad x=1 \\quad$ and $\\quad y=\\frac{1}{3}$\r\n$\\therefore \\quad z=1+\\frac{1}{3} i$"
+  }
+}

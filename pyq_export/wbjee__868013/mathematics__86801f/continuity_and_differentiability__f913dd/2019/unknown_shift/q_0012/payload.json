@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d10462f802c3ef913dd",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f:[1,3] \\rightarrow R$ be a continuous function that is differentiable in (1,3) an $f^{\\prime}(x)=|f(x)|^{2}+4$ for all $x \\in(1,3).$ Then,"
+  },
+  "options": [
+    {
+      "text": "$f(3)-f(1)=5$ is true",
+      "is_correct": false
+    },
+    {
+      "text": "$f(3)-f(1)=5$ is false",
+      "is_correct": true
+    },
+    {
+      "text": "$f(3)-f(1)=7$ is true",
+      "is_correct": false
+    },
+    {
+      "text": "$f(3)-f(1)    < 0$ only at one point of (1,3)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given that $f:[1,3] \\rightarrow R$ be a continuous and differentiable in (1,3) \r\nand $f^{\\prime}(x)=|f(x)|^{2}+4$\r\nBy applying $L M V T,$ there exist at least one point $c \\in(1,3)$ such that\r\n$$\r\n\\begin{array}{c}\r\n\\frac{f(3)-f(1)}{3-1}=f^{\\prime}(c)\\left[\\because f^{\\prime}(c)=\\frac{f(b)-f(a)}{b-a}\\right] \\\\\r\n\\Rightarrow \\quad \\frac{f(3)-f(1)}{2}=f^{\\prime}(c) \\\\\r\n\\Rightarrow \\quad \\frac{f(3)-f(1)}{2}=\\left[f|c|^{2}+4\\right] \\\\\r\n\\Rightarrow f^{\\prime}(c)=|f(c)|^{2}+4 \\\\\r\n\\Rightarrow \\quad f(3)-f(1)=2 \\cdot|f(c)|^{2}+8\r\n\\end{array}\r\n$$\r\n$\\Rightarrow \\quad f(3)-f(1) \\geq 8$"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64b169f9f23ac7d519f9b02b",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c45",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2009-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009 (Paper 2)",
+      "title": "JEE Advanced 2009 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "For $0 < \\theta < \\frac{\\pi}{2}$, the solution(s) of $\\sum_{m=1}^6 \\operatorname{cosec}\\left[\\theta+\\frac{(m-1) \\pi}{4}\\right]$ $\\operatorname{cosec}\\left(\\theta+\\frac{m \\pi}{4}\\right)=4 \\sqrt{2}$ is/are",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "MgLO9",
+      "text": "\n$\\frac{\\pi}{4}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "OQxFw",
+      "text": "\n$\\frac{\\pi}{6}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "CsUsm",
+      "text": "\n$\\frac{\\pi}{12}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "uNrzx",
+      "text": "\n$\\frac{5 \\pi}{12}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "For $0 < \\theta < \\frac{\\pi}{2}$,\n$$\n\\begin{array}{r}\n\\sum_{m=1}^6 \\operatorname{cosec}\\left[\\theta+\\frac{(m-1) \\pi}{4}\\right] \\operatorname{cosec}\\left(\\theta+\\frac{m \\pi}{4}\\right) \\\\\n=4 \\sqrt{2} \\\\\n\\Rightarrow \\sum_{m=1}^6 \\frac{\\sin \\left[\\theta+\\frac{m \\pi}{4}-\\left(\\theta+\\frac{(m-1) \\pi}{4}\\right)\\right]}{\\sin \\frac{\\pi}{4}\\left\\{\\sin \\left(\\theta+\\frac{(m-1) \\pi}{4}\\right) \\sin \\left(\\theta+\\frac{m \\pi}{4}\\right)\\right\\}} \\\\\n=4 \\sqrt{2}\n\\end{array}\n$$\n\n$$\n\\begin{array}{r}\n\\Rightarrow \\sum_{m=1}^6 \\frac{\\cot \\left(\\theta+\\frac{(m-1) \\pi}{4}\\right)-\\cot \\left(\\theta+\\frac{m \\pi}{4}\\right)}{1 / 2} \\\\\n=4 \\sqrt{2}\n\\end{array}\n$$\n\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad \\sum_{m=1}^6\\left[\\cot \\left(\\theta+\\frac{(m-1) \\pi}{4}\\right)\\right. \\\\\n& \\left.-\\cot \\left(\\theta+\\frac{m \\pi}{4}\\right)\\right]=4 \\\\\n& \\Rightarrow \\cot (\\theta)-\\cot \\left(\\theta+\\frac{\\pi}{4}\\right)+\\cot \\left(\\theta+\\frac{\\pi}{4}\\right) \\\\\n& -\\cot \\left(\\theta+\\frac{2 \\pi}{4}\\right)+\\ldots+\\cot \\left(\\theta+\\frac{5 \\pi}{4}\\right) \\\\\n& -\\cot \\left(\\theta+\\frac{6 \\pi}{4}\\right)=4 \\\\\n& \\Rightarrow \\quad \\cot \\theta-\\cot \\left(\\frac{3 \\pi}{2}+\\theta\\right)=4 \\\\\n& \\Rightarrow \\quad \\cot \\theta+\\tan \\theta=4 \\\\\n& \\Rightarrow \\quad \\tan ^2 \\theta-4 \\tan \\theta+1=0 \\\\\n& \\Rightarrow \\quad(\\tan \\theta-2)^2-3=0 \\\\\n& \\Rightarrow(\\tan \\theta-2+\\sqrt{3})(\\tan \\theta-2-\\sqrt{3})=0 \\\\\n& \\Rightarrow \\quad \\tan \\theta=2-\\sqrt{3} \\text { or } \\\\\n& \\tan \\theta=2+\\sqrt{3} \\\\\n& \\Rightarrow \\theta=\\frac{\\pi}{12} ; \\theta=\\frac{5 \\pi}{12} \\Rightarrow \\theta \\in\\left(0, \\frac{\\pi}{2}\\right) \\\\\n&\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c45",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2009-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009 (Paper 2)",
+    "title": "JEE Advanced 2009 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

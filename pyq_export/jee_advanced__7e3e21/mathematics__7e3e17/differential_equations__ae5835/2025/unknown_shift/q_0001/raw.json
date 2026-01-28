@@ -1,0 +1,58 @@
+{
+  "_id": "685102be6bba689a3eb09c7b",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "684c67d769037fad219cb0c1",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2025-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (Paper 1)",
+      "title": "JEE Advanced 2025 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "For all $x>0$, let $y_1(x), y_2(x)$, and $y_3(x)$ be the functions satisfying\n$\\begin{aligned} & \\frac{d y_1}{d x}-(\\sin x)^2 y_1=0, y_1(1)=5 \\\\ & \\frac{d y_2}{d x}-(\\cos x)^2 y_2=0, y_2(1)=\\frac{1}{3} \\\\ & \\frac{d y_3}{d x}-\\left(\\frac{2-x^3}{x^3}\\right) y_3=0, y_3(1)=\\frac{3}{5 e}\\end{aligned}$\nrespectively. Then $\\lim _{x \\rightarrow 0^{+}} \\frac{y_1(x) y_2(x) y_3(x)+2 x}{e^{3 x} \\sin x}$ is equal to _____",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "2",
+  "solution": {
+    "text": "$\\begin{aligned} & \\frac{d y_1}{y_1}+\\frac{d y_2}{y_2}+\\frac{d y_3}{y_3}=\\left(\\sin ^2 x+\\cos ^2 x+\\frac{2-x^3}{x^3}\\right) d x \\\\ & \\ln \\left(y_1 y_2 y_3\\right)=\\frac{-1}{x^2}+C \\\\ & \\ln \\left(y_1(x) y_2(x) y_3(x)\\right)=\\frac{-1}{x^2}+C \\\\ & \\ln \\left(5 \\cdot \\frac{1}{3} \\cdot \\frac{3}{5 e}\\right)=\\frac{-1}{x^2}+C \\\\ & \\therefore C=0\\end{aligned}$\n$\\begin{aligned} & y_1(x) y_2(x) y_3(x)=e^{\\frac{-1}{x^2}} \\\\ & \\lim _{x \\rightarrow 0} \\frac{e^{\\frac{-1}{x^2}}+2 x}{e^{3 x} \\sin x} \\\\ & \\lim _{x \\rightarrow 0} \\frac{1}{e^{3 x+\\frac{1}{x^2}} \\sin x}+\\lim _{x \\rightarrow 0} \\frac{2 x}{e^{3 x} \\sin x}\\end{aligned}$\n$\\lim _{x \\rightarrow 0} \\frac{1}{e^{3 x} \\cdot \\frac{\\sin x}{x} \\cdot \\frac{e^{\\frac{1}{x^2}}}{\\frac{1}{x}}}+2$\n$=0+2 \\quad\\left\\{\\lim _{\\mathrm{y} \\rightarrow \\infty} \\frac{\\mathrm{e}^{\\mathrm{y}^2}}{\\mathrm{y}}=\\frac{\\mathrm{e}^{\\mathrm{y}^2} \\cdot 2 \\mathrm{y}}{1}=\\infty\\right\\}$\n$=2$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "fb53eb71721a49fdb5267de9660a4998",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/D4b8JqN6mhypV.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/D4b8JqN6mhypV.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "684c67d769037fad219cb0c1",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2025-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (Paper 1)",
+    "title": "JEE Advanced 2025 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

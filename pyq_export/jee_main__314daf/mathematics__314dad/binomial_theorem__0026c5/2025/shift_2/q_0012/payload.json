@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The remainder, when $7^{103}$ is divided by 23 , is equal to :"
+  },
+  "options": [
+    {
+      "text": "6",
+      "is_correct": false
+    },
+    {
+      "text": "17",
+      "is_correct": false
+    },
+    {
+      "text": "9",
+      "is_correct": false
+    },
+    {
+      "text": "14",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& 7^{103}=7\\left(7^{102}\\right)=7(343)^{34}=7(345-2)^{34} \\\\\n& 7^{103}=23 \\mathrm{~K}_1+7.2^{34}\n\\end{aligned}$\n\nNow $7.2^{34}=7.2^2 \\cdot 2^{32}$\n$\\begin{aligned}\n& =28 \\cdot(256)^4 \\\\\n& =28(253+3)^4 \\\\\n& \\therefore 28 \\times 81 \\Rightarrow(23+5)(69+12) \\\\\n& 23 \\mathrm{~K}_2+60 \\\\\n& \\therefore \\text { Remainder }=14\n\\end{aligned}$"
+  }
+}

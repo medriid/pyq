@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2009 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602551450953a91a4ccb48",
+    "chapter_name": "Determinants",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nLet $A$ be the set of all $3 \\times 3$ symmetric matrices all of whose entries are either 0 or 1 . Five of these entries are 1 and four of them are 0 .<strong>Question:</strong>\nThe number of matrices $A$ in $A$ for which the system of linear equations $A\\left[\\begin{array}{l}x \\\\ y \\\\ z\\end{array}\\right]=\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 0\\end{array}\\right]$ is is inconsistent, is"
+  },
+  "options": [
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nmore than 2\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n2\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given, $A\\left[\\begin{array}{l}x \\\\ y \\\\ z\\end{array}\\right]=\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 0\\end{array}\\right]$\nCase I $\\left[\\begin{array}{lll}1 & a & b \\\\ a & 1 & c \\\\ b & c & 1\\end{array}\\right]\\left[\\begin{array}{l}x \\\\ y \\\\ z\\end{array}\\right]=\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 0\\end{array}\\right]$\n$a, b, c$ are selected from $1,0,0$.\n$\\Rightarrow x+a y+b z=1 \\Rightarrow a x+y+c z=0$ $b x+c y+z=0$\n(i) If $a=1, b=c=0$, then $x+y=1$ Inconsistent system of equation $x+y=0$\n(ii) If $a=0=c, b=1$, then $x+z=1$, $y=0$\nInconsistent system of equation\n$$\nx+z=0\n$$\n(iii) If $c=1, a=b=0$, then $x=1, z=0$, $y=0$\nCase II\n(i) $\\left[\\begin{array}{lll}1 & a & b \\\\ a & 0 & c \\\\ b & c & 0\\end{array}\\right]\\left[\\begin{array}{l}x \\\\ y \\\\ z\\end{array}\\right]=\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 0\\end{array}\\right]$\n$a, b, c$ are selected from $1,1,0$.\n$$\n\\begin{aligned}\n\\Rightarrow x+a y+b z & =1 \\Rightarrow a x+c z=0 \\\\\nb x+c y & =0\n\\end{aligned}\n$$\nClearly, in all three cases, solutions are possible, so system is consistent.\n$$\n\\begin{gathered}\n\\text { (ii) }\\left[\\begin{array}{lll}\n0 & a & b \\\\\na & 1 & c \\\\\nb & c & 0\n\\end{array}\\right]\\left[\\begin{array}{l}\nx \\\\\ny \\\\\nz\n\\end{array}\\right]=\\left[\\begin{array}{l}\n1 \\\\\n0 \\\\\n0\n\\end{array}\\right] \\\\\n\\Rightarrow a y+b z=1 \\Rightarrow a x+y+c z=0 \\\\\nb x+c y=0\n\\end{gathered}\n$$\nClearly, $b=0, a=c=1$ gives\n$$\ny=1 ; x+y+z=0\n$$\nInconsistent system $y=0$\nMore than 2 matrices are possible.\nHence, option (b) is correct."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a61417cc3fb48d65518",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c3",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2003-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2003",
+      "title": "JEE Main 2003"
+    }
+  ],
+  "question": {
+    "text": "If $\\mathrm{f}(\\mathrm{a}+\\mathrm{b}-\\mathrm{x})=\\mathrm{f}(\\mathrm{x})$ then $\\int_a^b \\mathrm{xf}(\\mathrm{x}) \\mathrm{dx}$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "rAGbi",
+      "text": "\n$\\frac{a+b}{2} \\int_a^b f(a+b-x) d x$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "c08mv",
+      "text": "\n$\\frac{a+b}{2} \\int_a^b f(b-x) d x$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "iri8T",
+      "text": "\n$\\frac{a+b}{2} \\int_a^b f(x) d x$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "38BfJ",
+      "text": "\n$\\frac{b-a}{2} \\int_a^b f(x) d x$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$I=\\int_a^b x f(x) d x=\\int_a^b(a+b-x) f(a+b-x) d x$\n$=(a+b) \\int_a^b f(a+b-x) d x-\\int_a^b x f(a+b-x) d x$\n$=(a+b) \\int_a^b f(a+b-x) d x-\\int_a^b x f(x) d x$\n$2 I=(a+b) \\int_a^b f(x) d x$\n$I=\\frac{(a+b)}{2} \\int_a^b f(x) d x ; I=\\frac{(a+b)}{2} \\int_a^b f(a+b-x) d x$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c3",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2003-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2003",
+    "title": "JEE Main 2003"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

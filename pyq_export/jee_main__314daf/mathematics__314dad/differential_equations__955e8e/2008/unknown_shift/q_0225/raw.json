@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d65866",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c8",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2008-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008",
+      "title": "JEE Main 2008"
+    }
+  ],
+  "question": {
+    "text": "The solution of the differential equation $\\frac{d y}{d x}=\\frac{x+y}{x}$ satisfying the condition $y(1)=1$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "8cYd4",
+      "text": "\n$y=\\ln x+x$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "09fU5",
+      "text": "\n$y=x \\ln x+x^2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "jJRfu",
+      "text": "\n$y=x e^{(x-1)}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "EsH0N",
+      "text": "\n$y=x \\ln x+x$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\ny=v x\n$$\n\n$$\n\\begin{aligned}\n& \\frac{d y}{d x}=v+x \\frac{d v}{d x} \\\\\n& v+x \\frac{d v}{d x}=1+v \\\\\n& \\Rightarrow d v=\\frac{d x}{x} \\\\\n& \\therefore v=\\log x+c \\\\\n& \\Rightarrow \\frac{y}{x}=\\log x+c\n\\end{aligned}\n$$\nSince, $y(1)=1$, we have\n$$\ny=x \\log x+x\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c8",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2008-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008",
+    "title": "JEE Main 2008"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

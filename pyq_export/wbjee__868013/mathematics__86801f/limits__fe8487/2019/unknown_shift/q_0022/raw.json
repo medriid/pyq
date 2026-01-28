@@ -1,0 +1,63 @@
+{
+  "_id": "64a81451e0ff5a5425a85a83",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7e",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2019-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019",
+      "title": "WBJEE 2019"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "$\\lim _{x \\rightarrow 0^{+}}\\left(x^{n} \\ln x\\right), n>0$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "IPGJo",
+      "text": "does not exist",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "VWqw6",
+      "text": "exists and is zero",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "3ajkM",
+      "text": "exists and is 1",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "gvIPT",
+      "text": "exists and is $e^{-1}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have,\r\n$\\lim _{x \\rightarrow 0^{+}} x^{n} \\ln x$\r\n$=\\lim _{x \\rightarrow 0^{+}} \\frac{\\ln x}{x^{-n}}$\r\n$=\\lim _{x \\rightarrow 0^{+}} \\frac{x}{-n x^{-n-1}} \\quad$ [using L'Hospital's rule $]$\r\n$=\\lim _{x \\rightarrow 0^{+}} \\frac{-1}{n x^{-n}}=0 \\quad\\left[\\because \\frac{1}{x-n}=0,\\right.$ when $\\left.x=0\\right]$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7e",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2019-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019",
+    "title": "WBJEE 2019"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

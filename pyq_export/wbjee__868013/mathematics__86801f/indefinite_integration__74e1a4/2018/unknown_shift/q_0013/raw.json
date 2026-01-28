@@ -1,0 +1,63 @@
+{
+  "_id": "64a81441e0ff5a5425a859f0",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7d",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2018-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018",
+      "title": "WBJEE 2018"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "If $\\int f(x) \\sin x \\cos x d x=\\frac{1}{2\\left(b^{2}-a^{2}\\right)} \\log f(x)+c$\r\nwhere $c$ is the constant of integration, then $f(x)$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "SjJ6J",
+      "text": "$\\frac{2}{\\left(b^{2}-a^{2}\\right) \\sin 2 x}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "E9eju",
+      "text": "$\\frac{2}{a b \\sin 2 x}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "TxTUY",
+      "text": "$\\frac{2}{\\left(b^{2}-a^{2}\\right) \\cos 2 x}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "8efe3",
+      "text": "$\\frac{2}{a b \\cos 2 x}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have. $\\int f(x) \\sin x \\cos x d x=\\frac{1}{2 b^{2}-a^{2}} \\log (f(x))+c$\r\n$\\Rightarrow f(x) \\sin x \\cos x=\\frac{1}{\\left.2 b^{2}-a^{2}\\right)} \\cdot \\frac{1}{f(x)} \\cdot f'(x)$\r\n$\\Rightarrow \\quad f(x) \\sin 2 x=\\frac{1}{b^{2}-a^{2}} \\cdot \\frac{f'(x)}{f(x)}$\r\n$\\Rightarrow \\quad \\sin 2 x=\\frac{1}{b^{2}-a^{2}} \\frac{f(x)}{(f(x))^{2}}$\r\n$\\Rightarrow \\quad \\int \\sin 2 x d x=\\frac{1}{b^{2}-a^{2}} \\int \\frac{f(x)}{(f(x))^{2}} d x$\r\n$\\Rightarrow \\quad \\frac{-\\cos 2 x}{2}=\\frac{1}{b^{2}-a^{2}} \\cdot\\left(\\frac{-1}{f(x)}\\right)$\r\n$\\Rightarrow \\quad \\quad \\frac{\\cos 2 x\\left(b^{2}-a^{2}\\right)}{2}=\\frac{1}{f(x)}$\r\n$\\Rightarrow \\quad f(x)=\\frac{2}{\\left(b^{2}-a^{2}\\right) \\cos 2 x}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7d",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2018-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018",
+    "title": "WBJEE 2018"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

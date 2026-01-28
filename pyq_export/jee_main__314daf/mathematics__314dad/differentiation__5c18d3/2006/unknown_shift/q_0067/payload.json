@@ -1,0 +1,43 @@
+{
+  "index": 67,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2006",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255a501b352fc65c18d3",
+    "chapter_name": "Differentiation",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $x^m \\cdot y^n=(x+y)^{m+n}$, then $\\frac{d y}{d x}$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{y}{x}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{x+y}{x y}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nxy\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{x}{y}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$x^m \\cdot y^n=(x+y)^{m+n} \\Rightarrow m \\ln x+n \\ln y=(m+n) \\ln (x+y)$\n$\\therefore \\frac{m}{x}+\\frac{n}{y} \\frac{d y}{d x}=\\frac{m+n}{x+y}\\left(1+\\frac{d y}{d x}\\right) \\Rightarrow\\left(\\frac{m}{x}-\\frac{m+n}{x+y}\\right)=\\left(\\frac{m+n}{x+y}-\\frac{n}{y}\\right) \\frac{d y}{d x}$\n$\\quad \\frac{m y-n x}{x(x+y)}=\\left(\\frac{m y-n x}{y(x+y)}\\right) \\frac{d y}{d x} \\Rightarrow \\frac{d y}{d x}=\\frac{y}{x}$"
+  }
+}

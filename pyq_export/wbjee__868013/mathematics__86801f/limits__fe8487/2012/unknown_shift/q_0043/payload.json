@@ -1,0 +1,43 @@
+{
+  "index": 43,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\lim _{x \\rightarrow 0} \\frac{\\pi^{x}-1}{\\sqrt{1+x}-1}$"
+  },
+  "options": [
+    {
+      "text": "does not exist",
+      "is_correct": false
+    },
+    {
+      "text": "equals $\\log _{e}\\left(\\pi^{2}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "equals 1",
+      "is_correct": false
+    },
+    {
+      "text": "lies between 10 and 11",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow 0} \\frac{\\pi^{x}-1}{\\sqrt{1+x}-1}$\r\n$\\frac{0}{0}$ form\r\n$=\\lim _{x \\rightarrow 0} \\frac{\\pi^{x} \\log _{e} \\pi}{\\frac{1}{2 \\sqrt{1+x}}}$\r\n$=\\lim _{x \\rightarrow 0} 2 \\sqrt{1+x}\\left(\\pi^{x} \\log _{e} \\pi\\right)$\r\n$=2 \\sqrt{1}\\left(\\pi^{0} \\log _{e} \\pi\\right)=2 \\log _{e} \\pi=\\log _{e} \\pi^{2}$"
+  }
+}

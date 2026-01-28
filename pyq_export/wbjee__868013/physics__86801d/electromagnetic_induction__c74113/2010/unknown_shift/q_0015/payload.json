@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2010",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c8f2c567a99ecc74113",
+    "chapter_name": "Electromagnetic Induction",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The current through a coil of self inductance $\\mathrm{L}=2 m \\mathrm{H}$ is given by $\\mathrm{I}=t^2 e^{-t}$ at time $t$. How long it will take to make the e $\\mathrm{m} . f$ zero?"
+  },
+  "options": [
+    {
+      "text": "$1 \\mathrm{~s}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 \\mathrm{~s}$",
+      "is_correct": true
+    },
+    {
+      "text": "$3 \\mathrm{~s}$",
+      "is_correct": false
+    },
+    {
+      "text": "$4 \\mathrm{~s}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Hints: $\\mathrm{I}=t^2 e^{-t}$\n$$\n\\begin{aligned}\n& \\frac{d \\mathrm{I}}{d t}=2 t e^{-t}-e^{-t} t^2=e^{-t} t(2-t) \\\\\n& e=-\\mathrm{L} \\frac{d \\mathrm{I}}{d t} \\\\\n& \\Rightarrow \\frac{d \\mathrm{I}}{d t}=0 \\Rightarrow e^{-t} t(2-t)=0 \\\\\n& t=2 \\mathrm{sec}\n\\end{aligned}\n$$"
+  }
+}

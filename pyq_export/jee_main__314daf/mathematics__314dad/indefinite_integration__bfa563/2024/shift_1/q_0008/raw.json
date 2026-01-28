@@ -1,0 +1,63 @@
+{
+  "_id": "66446757970e6e9ab542d26b",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda70",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-09T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (09 Apr Shift 1)",
+      "title": "JEE Main 2024 (09 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\int \\frac{2-\\tan x}{3+\\tan x} \\mathrm{~d} x=\\frac{1}{2}\\left(\\alpha x+\\log _{\\mathrm{e}}|\\beta \\sin x+\\gamma \\cos x|\\right)+C$, where $C$ is the constant of integration. Then $\\alpha+\\frac{\\gamma}{\\beta}$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "vQ0dR",
+      "text": "7",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "8yLFU",
+      "text": "4",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "Z532F",
+      "text": "1",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "vydLx",
+      "text": "3",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\int \\frac{2-\\tan x}{3+\\tan x} d x=\\int \\frac{2 \\cos x-\\sin x}{3 \\cos x+\\sin x} d x \\\\ & 2 \\cos x-\\sin x=A(3 \\cos x+\\sin x)+B(\\cos x-3 \\sin x) \\\\ & 3 A+B=2 \\\\ & A-3 B=-1\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow A=\\frac{1}{2}, B=\\frac{1}{2} \\\\ & \\therefore \\int \\frac{2 \\cos x-\\sin x}{3 \\cos x+\\sin x} d x \\\\ & =\\frac{x}{2}+\\frac{1}{2} \\ln |3 \\cos x+\\sin x|+C \\\\ & =\\frac{1}{2}(x+\\ln |3 \\cos x+\\sin x|)+C \\\\ & =\\frac{1}{2}(\\alpha x+\\ln |\\beta \\sin x+\\gamma \\cos x|)+C \\\\ & \\alpha=1, \\beta=1, \\gamma=3 \\\\ & \\therefore \\alpha+\\frac{\\gamma}{\\beta}=1+\\frac{3}{1}=4\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda70",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-09T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (09 Apr Shift 1)",
+    "title": "JEE Main 2024 (09 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

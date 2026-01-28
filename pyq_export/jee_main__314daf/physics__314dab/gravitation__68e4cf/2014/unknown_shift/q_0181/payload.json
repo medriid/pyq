@@ -1,0 +1,43 @@
+{
+  "index": 181,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023cfe4a89d96c568e4cf",
+    "chapter_name": "Gravitation",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<img src=\"assets\\qt0181_b22e72d3be2f.png\"><br>\nTwo hypothetical planets of masses $\\mathrm{m}_1$ and $\\mathrm{m}_2$ are at rest when they are infinite distance apart. Because of the gravitational force they move towards each other along the line joining their centres. What is their speed when their separation is ' $d$ '?\n(Speed of $\\mathrm{m}_1$ is $\\mathrm{v}_1$ and that of $\\mathrm{m}_2$ is $\\mathrm{v}_2$ )"
+  },
+  "options": [
+    {
+      "text": "\n$$\n\\text { } v_1=v_2\n$$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$$\n\\begin{aligned}\n&\\mathrm{v}_1=\\mathrm{m}_2 \\sqrt{\\left.\\frac{2 \\mathrm{G}}{\\mathrm{d}\\left(\\mathrm{m}_1+\\mathrm{m}_2\\right.}\\right)} \\\\\n&\\mathrm{v}_2=\\mathrm{m}_1 \\sqrt{\\left.\\frac{2 \\mathrm{G}}{\\mathrm{d}\\left(\\mathrm{m}_1+\\mathrm{m}_2\\right.}\\right)}\n\\end{aligned}\n$$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$$\n\\begin{aligned}\n&\\mathrm{v}_1=\\mathrm{m}_1 \\sqrt{\\left.\\frac{2 \\mathrm{G}}{\\mathrm{d}\\left(\\mathrm{m}_1+\\mathrm{m}_2\\right.}\\right)} \\\\\n&\\mathrm{v}_2=\\mathrm{m}_2 \\sqrt{\\left.\\frac{2 \\mathrm{G}}{\\mathrm{d}\\left(\\mathrm{m}_1+\\mathrm{m}_2\\right.}\\right)}\n\\end{aligned}\n$$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$$\n\\begin{aligned}\n&\\mathrm{v}_1=\\mathrm{m}_2 \\sqrt{\\frac{2 \\mathrm{G}}{\\mathrm{m}_1}} \\\\\n&\\mathrm{v}_2=\\mathrm{m}_2 \\sqrt{\\frac{2 \\mathrm{G}}{\\mathrm{m}_2}}\n\\end{aligned}\n$$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "We choose reference point, infinity, where total energy of the system is zero.\nSo, initial energy of the system $=0$\nFinal energy\n$$\n=\\frac{1}{2} \\mathrm{~m}_1 \\mathrm{v}_1^2+\\frac{1}{2} \\mathrm{~m}_2 \\mathrm{v}_2^2-\\frac{\\mathrm{Gm}_1 \\mathrm{~m}_2}{\\mathrm{~d}}\n$$\nFrom conservation of energy, Initial energy $=$ Final energy\n$$\n\\therefore 0=\\frac{1}{2} \\mathrm{~m}_1 \\mathrm{v}_1{ }^2+\\frac{1}{2} \\mathrm{~m}_2 \\mathrm{v}_2{ }^2-\\frac{\\mathrm{Gm}_1 \\mathrm{~m}_2}{\\mathrm{~d}}\n$$\nor $\\frac{1}{2} \\mathrm{~m}_1 \\mathrm{v}_1^2+\\frac{1}{2} \\mathrm{~m}_1 \\mathrm{v}_2^2=\\frac{\\mathrm{Gm}_1 \\mathrm{~m}_2}{\\mathrm{~d}} \\ldots(1)$\nBy conservation of linear momentum\n$$\n\\mathrm{m}_1 \\mathrm{v}_1+\\mathrm{m}_2 \\mathrm{v}_2=0\n$$\nor $\\frac{\\mathrm{v}_1}{\\mathrm{v}_2}=-\\frac{\\mathrm{m}_2}{\\mathrm{~m}_1} \\Rightarrow \\mathrm{v}_2=-\\frac{\\mathrm{m}_1}{\\mathrm{~m}_2} \\mathrm{v}_1$\nPutting value of $\\mathrm{v}_2$ in equation (1), we get\n$$\n\\mathrm{m}_1 \\mathrm{v}_1^2+\\mathrm{m}_2\\left(-\\frac{\\mathrm{m}_1 \\mathrm{v}_1}{\\mathrm{~m}_2}\\right)^2=\\frac{2 \\mathrm{Gm}_1 \\mathrm{~m}_2}{\\mathrm{~d}}\n$$\n\n$$\n\\begin{aligned}\n&\\frac{m_1 m_2 v_1^2+m_1^2 v_1^2}{m_2}=\\frac{2 \\mathrm{Gm}_1 m_2}{\\mathrm{~d}} \\\\\n&\\mathrm{v}_1=\\sqrt{\\frac{2 \\mathrm{Gm}_2^2}{\\mathrm{~d}\\left(\\mathrm{~m}_1+\\mathrm{m}_2\\right)}}=\\mathrm{m}_2 \\sqrt{\\frac{2 \\mathrm{G}}{\\mathrm{d}\\left(\\mathrm{m}_1+\\mathrm{m}_2\\right)}} \\\\\n&\\text { Similarly } \\mathrm{v}_2=-\\mathrm{m}_1 \\sqrt{\\frac{2 \\mathrm{G}}{\\mathrm{d}\\left(\\mathrm{m}_1+\\mathrm{m}_2\\right)}}\n\\end{aligned}\n$$"
+  }
+}

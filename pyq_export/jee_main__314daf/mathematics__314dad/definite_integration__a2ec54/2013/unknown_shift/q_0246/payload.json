@@ -1,0 +1,43 @@
+{
+  "index": 246,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2013 (23 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $\\int_{-\\pi / 2}^{\\pi / 2} \\frac{\\sin ^2 x}{1+2^x} d x$ is :"
+  },
+  "options": [
+    {
+      "text": "\n$\\pi$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\pi}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$4 \\pi$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\pi}{4}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\mathrm{I}=\\int_{\\pi / 2}^{\\pi / 2} \\frac{\\sin ^2 x}{1+2^x} d x$\n$$\n\\Rightarrow \\mathrm{I}=\\int_{-\\pi / 2}^{\\pi / 2} \\frac{\\sin ^2 x}{1+2^{-x}} d x \\text {, by replacing } x \\text { by }\n$$\n\n$$\n\\begin{aligned}\n& \\left(\\frac{\\pi}{2}-\\frac{\\pi}{2}-x\\right) \\\\\n\\Rightarrow \\quad \\mathrm{I} & =\\int_{-\\pi / 2}^{\\pi / 2} \\frac{2^x \\cdot \\sin ^2 x}{1+2^x} d x\n\\end{aligned}\n$$\nAdding equations (i) and (ii), we get\n$$\n\\begin{array}{rl}\n2 & I=\\int_{-\\pi / 2}^{\\pi / 2} \\sin ^2 x d x=\\frac{1}{2} \\int_{-\\pi / 2}^{\\pi / 2}(1-\\cos 2 x) d x \\\\\n\\Rightarrow \\quad \\mathrm{I} & =\\frac{1}{4}\\left[x+\\frac{\\sin 2 x}{2}\\right]_{-\\pi / 2}^{\\pi / 2} \\\\\n& =\\frac{1}{4}\\left[\\left(\\frac{\\pi}{2}+\\frac{\\sin \\pi}{2}\\right)-\\left(-\\frac{\\pi}{2}+\\frac{\\sin (-\\pi)}{2}\\right)\\right] \\\\\n\\Rightarrow \\quad \\mathrm{I} & =\\frac{1}{4}\\left[\\frac{\\pi}{2}+\\frac{\\pi}{2}\\right]=\\frac{\\pi}{4}\n\\end{array}\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2007 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025609b22fd9ad3a1613b",
+    "chapter_name": "Indefinite Integration",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=\\frac{x}{\\left(1+x^n\\right)^{1 / n}}$ for $n \\geq 2$ and $g(x)=\\underbrace{(f \\circ f o \\ldots o f)}_{f \\text { occurs } n \\text { times }}(x)$. Then, $\\int x^{n-2} g(x) d x$ equals"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{n(n-1)}\\left(1+n x^n\\right)^{1-\\frac{1}{n}}+k$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{1}{n-1}\\left(1+n x^n\\right)^{1-\\frac{1}{n}}+k$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{n(n+1)}\\left(1+n x^n\\right)^{1+\\frac{1}{n}}+k$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{n+1}\\left(1+n x^n\\right)^{1+\\frac{1}{n}}+k$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Here, $\\begin{array}{rlrl} & \\text { and } & f f(x) & =\\frac{f(x)}{\\left[1+f(x)^n\\right]^{1 / n}}=\\frac{x}{\\left(1+2 x^n\\right)^{1 / n}} \\\\ & \\therefore \\quad f f f(x) & =\\frac{x}{\\left(1+3 x^n\\right)^{1 / n}} \\\\ & \\text { Let } & g(x) & =\\underbrace{(f \\circ f o \\ldots o f)}_{n \\text { times }}(x)=\\frac{x}{\\left(1+n x^n\\right)^{1 / n}} \\\\ I & =\\int x^{n-2} g(x) d x=\\int \\frac{x^{n-1} d x}{\\left(1+n x^n\\right)^{1 / n}} \\\\ & & =\\frac{1}{n^2} \\int \\frac{n^2 x^{n-1} d x}{\\left(1+n x^n\\right)^{1 / n}}=\\frac{1}{n^2} \\int \\frac{\\frac{d}{d x}\\left(1+n x^n\\right)}{\\left(1+n x^n\\right)^{1 / n}} d x\\end{array}$\n$\\therefore \\quad I=\\frac{1}{n(n-1)}\\left(1+n x^n\\right)^{1-\\frac{1}{n}}+k$."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The sum of the coefficient of $x^{2 / 3}$ and $x^{-2 / 5}$ in the binomial expansion of $\\left(x^{2 / 3}+\\frac{1}{2} x^{-2 / 5}\\right)^9$ is"
+  },
+  "options": [
+    {
+      "text": "$21 / 4$",
+      "is_correct": true
+    },
+    {
+      "text": "$63 / 16$",
+      "is_correct": false
+    },
+    {
+      "text": "$19 / 4$",
+      "is_correct": false
+    },
+    {
+      "text": "$69 / 16$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{T}_{\\mathrm{r}+1}={ }^9 \\mathrm{C}_{\\mathrm{r}}\\left(\\mathrm{x}^{2 / 3}\\right)^{9-\\mathrm{r}}\\left(\\frac{\\mathrm{x}^{-2 / 5}}{2}\\right)^{\\mathrm{r}} \\\\ & ={ }^9 \\mathrm{C}_{\\mathrm{r}}\\left(\\frac{1}{2}\\right)^{\\mathrm{r}}(\\mathrm{r})^{\\left(6 \\frac{2 \\mathrm{r}}{3} \\frac{2 \\mathrm{r}}{5}\\right)}\\end{aligned}$<br />for coefficient of $x^{2 / 3}$, put $6-\\frac{2 r}{3}-\\frac{2 r}{5}=\\frac{2}{3}$\n$\\Rightarrow \\mathrm{r}=5$\n$\\therefore$ Coefficient of $\\mathrm{x}^{2 / 3}$ is $={ }^9 \\mathrm{C}_5\\left(\\frac{1}{5}\\right)^5$\nFor coefficient of $x^{-2 / 5}$, put $6-\\frac{2 r}{3}-\\frac{2 r}{5}=-\\frac{2}{5}$\n$\\Rightarrow \\mathrm{r}=6$\nCoefficient of $\\mathrm{x}^{-2 / 5}$ is ${ }^9 \\mathrm{C}_6\\left(\\frac{1}{2}\\right)^6$\n$\\text {Sum }={ }^9 \\mathrm{C}_5\\left(\\frac{1}{2}\\right)^5+{ }^9 \\mathrm{C}_6\\left(\\frac{1}{2}\\right)^6=\\frac{21}{4}$"
+  }
+}

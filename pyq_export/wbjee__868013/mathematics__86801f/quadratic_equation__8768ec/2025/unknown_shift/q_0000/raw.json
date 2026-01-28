@@ -1,0 +1,63 @@
+{
+  "_id": "684b1a8260ec9a39241c174a",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "684aefde3491d570217a3e10",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2025-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025",
+      "title": "WBJEE 2025"
+    }
+  ],
+  "question": {
+    "text": "If $a, b, c$ are in A.P. and if the equations $(b-c) x^2+(c-a) x+(a-b)=0$ and $2(c+a) x^2+(b+c) x=0$ have a common root, then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "zr2cZ",
+      "text": "$a^2, b^2, c^2$ are in A.P.",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "oDVI0",
+      "text": "$a^2, c^2, b^2$ are in A.P.",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "5IUCD",
+      "text": "$c^2, a^2, b^2$ are in A.P.",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "uo8nV",
+      "text": "$a^2, b^2, c^2$ are in G.P.",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given:\r\n- \\(a, b, c\\) are in A.P. \\(\\Rightarrow b=\\frac{a+c}{2}\\)\r\n- Two quadratic equations have a common root:\r\n\\(\\begin{array}{l}\r\n(b-c) x^2+(c-a) x+(a-b)=0 ... (1) \\\\\r\n2(c+a) x^2+(b+c) x=0 ... (2) \r\n\\end{array}\\)\r\nStep-by-step approach:\r\nLet the common root be \\(\\alpha\\). Then it satisfies both:\r\nFrom (2):\r\n\\(2(c+a) \\alpha^2+(b+c) \\alpha=0 \\Rightarrow \\alpha(2(c+a) \\alpha+b+c)=0\\)\r\nSo either \\(\\alpha=0\\) or \\(2(c+a) \\alpha+b+c=0\\)\r\nCheck both cases:\r\nCase 1: \\(\\alpha=0\\)\r\nPut in (1):\r\n\\((b-c)(0)^2+(c-a)(0)+(a-b)=a-b \\neq 0(\\text { since } a \\neq b) \\Rightarrow \\text { Not a root }\\)\r\nCase 2:\r\n\\(2(c+a) \\alpha+b+c=0 \\Rightarrow \\alpha=\\frac{-(b+c)}{2(c+a)}\\)\r\nSubstitute into equation (1), solve, and simplify using \\(b=\\frac{a+c}{2}\\)\r\nEventually, this leads to:\r\n\\(a^2+c^2=2 b^2 \\Rightarrow a^2, c^2, b^2 \\text { are in A.P. }\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "684aefde3491d570217a3e10",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2025-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025",
+    "title": "WBJEE 2025"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64a81494e0ff5a5425a85cf8",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad6",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2023-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023",
+      "title": "WBJEE 2023"
+    }
+  ],
+  "question": {
+    "text": "If \\(I_n=\\int_0^{\\frac{\\pi}{2}} \\cos ^n x \\cos n x d x\\), then \\(I_1, I_2, I_3 \\ldots\\) are in",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "TSB7S",
+      "text": "A.P.",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "rdMuQ",
+      "text": "G.P.",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "ZvzwM",
+      "text": "H.P",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "IYL1X",
+      "text": "no such relation",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint : \\(I_n=\\int_0^{\\pi / 2} \\cos ^n x \\cdot \\cos n x d x\\)\n\\(I_1=\\int_0^{\\pi / 2} \\cos x \\cdot \\cos x d x=\\int_0^{\\pi / 2}\\left(\\frac{1+\\cos 2 x}{2}\\right) d x=\\frac{\\pi}{4}\\)\n\\(I_2=\\int_0^{\\pi / 2} \\cos ^2 x \\cdot \\cos 2 x d x=\\int_0^{\\pi / 2}-\\sin ^2 x \\cdot \\cos 2 x d x\\)\n\\(2 I_2=\\int_0^{\\pi / 2} \\cos ^2 2 x=\\int_0^{\\pi / 2} \\frac{1+\\cos 4 x}{2} d x=\\frac{\\pi}{4}\\)\n\\(\\therefore \\mathrm{I}_2=\\frac{\\pi}{8}\\)\n\\(I_3=\\int_0^{\\pi / 2} \\cos ^3 x \\cdot \\cos 3 x d x=\\int_0^{\\pi / 2}\\left(\\frac{3 \\cos x+\\cos 3 x}{4}\\right) \\cos 3 x d x\\)\n\\(\\begin{aligned}\n& =\\frac{3}{4} \\int_0^{\\pi / 2} \\cos x \\cdot \\cos 3 x d x+\\frac{1}{4} \\int_0^{\\pi / 2} \\cos ^2 3 x d x \\\\\n& =\\frac{3}{8} \\int_0^{\\pi / 2}(\\cos 2 x+\\cos 4 x) d x+\\frac{1}{4} \\int_0^{\\pi / 2} \\frac{1+\\cos 6 x}{2} d x \\\\\n& =\\frac{\\pi}{16}\n\\end{aligned}\\)\n\\(\\therefore \\mathrm{I}_1, \\mathrm{I}_2, \\mathrm{I}_3\\) are in G.P.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad6",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2023-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023",
+    "title": "WBJEE 2023"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64a81494e0ff5a5425a85cfb",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad6",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2023-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023",
+      "title": "WBJEE 2023"
+    }
+  ],
+  "question": {
+    "text": "Given \\(\\frac{d^2 y}{d x^2}+\\cot x \\frac{d y}{d x}+4 y \\operatorname{cosec}^2 x=0\\). Changing the independent variable \\(x\\) to \\(z\\) by the substitution \\(z=\\log \\tan \\frac{x}{2}\\), the equation is changed to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "zo9J4",
+      "text": "\\(\\frac{d^2 y}{d z^2}+\\frac{3}{y}=0\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "dIJFq",
+      "text": "\\(2 \\frac{d^2 y}{d z^2}+e^y=0\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "MusPg",
+      "text": "\\(\\frac{d^2 y}{d z^2}-4 y=0\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "sgN70",
+      "text": "\\(\\frac{d^2 y}{d z^2}+4 y=0\\)",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint : \\(\\frac{d z}{d x}=\\frac{\\frac{1}{2} \\sec ^2(x / 2)}{\\tan (x / 2)}=\\frac{1}{\\sin x}=\\operatorname{cosec} x\\)\n\\(\\begin{aligned}\n& \\frac{d y}{d x}=\\frac{d y}{d z} \\cdot \\frac{d z}{d x}=\\operatorname{cosec} x \\frac{d y}{d z}, \\frac{d^2 y}{d x^2}=\\frac{d}{d x}\\left(\\frac{d y}{d x}\\right)=\\frac{d}{d z}\\left(\\frac{d y}{d x}\\right)\\left(\\frac{d z}{d x}\\right) \\\\\n& =\\frac{d}{d z}\\left(\\operatorname{cosec} \\cdot \\frac{d y}{d z}\\right) \\operatorname{cosec} x \\\\\n& =\\left(\\operatorname{cosec} x \\frac{d^2 y}{d x^2}-\\operatorname{cosec} x \\cdot \\cot x \\frac{d x}{d z} \\frac{d y}{d z}\\right) \\operatorname{cosec} x=\\operatorname{cosec}^2 x \\frac{d^2 y}{d z^2}-\\operatorname{cosec} x \\cdot \\cot x \\frac{d y}{d z}\n\\end{aligned}\\)\n\\(\\begin{aligned} & \\therefore \\frac{d^2 y}{d x^2}+\\cot x \\frac{d y}{d x}+4 y \\operatorname{cosec}{ }^2 x=0 \\Rightarrow \\operatorname{cosec}^2 x \\frac{d^2 y}{d x^2}-\\operatorname{cosec} x \\cdot \\cot x \\frac{d y}{d z}+\\cot x \\cdot \\operatorname{cosec} x \\cdot \\frac{d y}{d z}+4 \\operatorname{cosec}^2 x=0 \\\\ & \\Rightarrow \\frac{d^2 y}{d z^2}+4 y=0\\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad6",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2023-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023",
+    "title": "WBJEE 2023"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

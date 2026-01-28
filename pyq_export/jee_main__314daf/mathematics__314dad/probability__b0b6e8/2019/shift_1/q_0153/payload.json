@@ -1,0 +1,43 @@
+{
+  "index": 153,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2019 (12 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let a random variable <math><mi>X</mi></math> has a binomial distribution with mean <math><mn>8</mn></math> and variance 4. If <math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>≤</mo><mn>2</mn></mrow></mfenced><mo>=</mo><mfrac><mrow><mi>k</mi></mrow><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>16</mn></mrow></msup></mrow></mfrac><mo>,</mo></math> then the value of&nbsp;<math><mi>k</mi></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><mn>121</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>1</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>17</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>137</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> be the number of times the experiment is done,&nbsp;<math><mi>p</mi></math> is the probability of the success and&nbsp;<math><mi>q</mi></math> is the probability of the failure.</p><p><math><mo>&#8756;</mo></math> <math><mi>n</mi><mi>p</mi><mo>=</mo><mn>8</mn></math> (mean), <math><mi>n</mi><mi>p</mi><mi>q</mi><mo>=</mo><mn>4</mn></math> (variance)</p><p><math><mo>&#8658;</mo><mi>q</mi><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>&#8658;</mo><mi>p</mi><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math></p><p><math><mo>&#8658;</mo><mi>n</mi><mo>=</mo><mn>16</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>&#8804;</mo><mn>2</mn></mrow></mfenced><mo>=</mo><mi>p</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>=</mo><mn>0</mn></mrow></mfenced><mo>+</mo><mi>p</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>=</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mi>p</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>=</mo><mn>2</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>&#8804;</mo><mn>2</mn></mrow></mfenced><msup><mo>=</mo><mn>16</mn></msup><msub><mi>C</mi><mn>0</mn></msub><msup><mi>p</mi><mn>0</mn></msup><msup><mi>q</mi><mn>16</mn></msup><msup><mo>+</mo><mn>16</mn></msup><msub><mi>C</mi><mn>1</mn></msub><msup><mi>p</mi><mn>1</mn></msup><msup><mi>q</mi><mn>15</mn></msup><msup><mo>+</mo><mn>16</mn></msup><msub><mi>C</mi><mn>2</mn></msub><msup><mi>p</mi><mn>2</mn></msup><msup><mi>q</mi><mn>14</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>&#8804;</mo><mn>2</mn></mrow></mfenced><mo>=</mo><msup><mfenced separators=\"|\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mn>16</mn></msup><mo>+</mo><mn>16</mn><msup><mfenced separators=\"|\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mn>16</mn></msup><mo>+</mo><mn>120</mn><mo>&#215;</mo><msup><mfenced separators=\"|\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mn>16</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>&#8804;</mo><mn>2</mn></mrow></mfenced><mo>=</mo><msup><mfenced separators=\"|\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mn>16</mn></msup><mfenced separators=\"|\"><mn>137</mn></mfenced><mo>=</mo><mfrac><mn>137</mn><msup><mn>2</mn><mn>16</mn></msup></mfrac><mo>=</mo><mfrac><mi>k</mi><msup><mn>2</mn><mn>16</mn></msup></mfrac></math></p><p><math><mo>&#8756;</mo><mtext>&#8201;</mtext><mi>k</mi><mo>=</mo><mn>137</mn></math></p>"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 256,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2011",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $\\int_0^1 \\frac{8 \\log (1+x)}{1+x^2} d x$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{\\pi}{8} \\log 2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\pi}{2} \\log 2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\log 2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\pi \\log 2$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\mathrm{I}=8 \\int_0^1 \\frac{\\log (1+\\mathrm{x})}{1+\\mathrm{x}^2} \\mathrm{dx}$\n$=8 \\int_0^{\\frac{\\pi}{4}} \\frac{\\log (1+\\tan \\theta)}{1+\\tan ^2 \\theta} \\sec ^2 \\theta d \\theta(\\operatorname{let} x=\\tan \\theta)$\n$=8 \\int_0^{\\frac{\\pi}{4}} \\log \\left(1+\\tan \\left(\\frac{\\pi}{4}-\\theta\\right)\\right) d \\theta=8 \\int_0^{\\frac{\\pi}{4}} \\log \\left(1+\\frac{1-\\tan \\theta}{1+\\tan \\theta}\\right) d \\theta=8 \\int_0^{\\frac{\\pi}{4}} \\log 2 d \\theta-8 \\int_0^{\\frac{\\pi}{4}} \\log (1+\\tan \\theta) d \\theta$\n$=8 \\log 2 \\frac{\\pi}{4}-I$\n$2 \\mathrm{I}=2 \\pi \\log 2$\n$\\mathrm{I}=\\pi \\log 2$"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "66446712970e6e9ab542cff0",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda69",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-04T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (04 Apr Shift 2)",
+      "title": "JEE Main 2024 (04 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Given that the inverse trigonometric function assumes principal values only. Let $x$, $y$ be any two real numbers in $[-1,1]$ such that $\\cos ^{-1} x-\\sin ^{-1} y=\\alpha, \\frac{-\\pi}{2} \\leq \\alpha \\leq \\pi$.<br />Then, the minimum value of $x^2+y^2+2 x y \\sin \\alpha$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "feO0e",
+      "text": "0",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "TKlEu",
+      "text": "-1",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ha1Vw",
+      "text": "$\\frac{1}{2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "3LRch",
+      "text": "$-\\frac{1}{2}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\cos ^{-1} x-\\left(\\frac{\\pi}{2}-\\cos ^{-1} y\\right)=\\alpha \\\\\n& \\cos ^{-1} x+\\cos ^{-1} y=\\frac{\\pi}{2}+\\alpha \\\\\n& \\alpha \\in\\left[-\\frac{\\pi}{2}, \\pi\\right], \\frac{\\pi}{2}+\\alpha \\in\\left[0, \\frac{3 \\pi}{2}\\right] \\\\\n& \\cos ^{-1}\\left(x y-\\sqrt{1-x^2} \\sqrt{1-y^2}\\right)=\\frac{\\pi}{2}+\\alpha \\\\\n& x y-\\sqrt{1-x^2} \\sqrt{1-y^2}=-\\sin \\alpha \\\\\n& (x y+\\sin \\alpha)=\\left(1-x^2\\right)\\left(1-y^2\\right) \\\\\n& x^2 y^2+2 x y \\sin a+\\sin ^2 a=1-x^2-y^2+x^2 y^2 \\\\\n& x^2+y^2+2 x y \\sin \\alpha=1-\\sin ^2 \\alpha \\\\\n& x^2+y^2+2 x y \\sin \\alpha=\\cos ^2 \\alpha\n\\end{aligned}$<br />Min. value of $\\cos ^2 \\alpha=0$\nAt $\\alpha=\\frac{\\pi}{2}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "855026cd8f104bfab1927afecae45859",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/g2M9cjk4cUlpn.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/g2M9cjk4cUlpn.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda69",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-04T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (04 Apr Shift 2)",
+    "title": "JEE Main 2024 (04 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

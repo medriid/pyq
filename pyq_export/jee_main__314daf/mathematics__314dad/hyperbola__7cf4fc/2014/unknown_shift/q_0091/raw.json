@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e16",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d8",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (11 Apr Online)",
+      "title": "JEE Main 2014 (11 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\mathrm{P}(3 \\sec \\theta, 2 \\tan \\theta)$ and $\\mathrm{Q}(3 \\sec \\phi, 2 \\tan \\phi)$ where $\\theta+\\phi=\\frac{\\pi}{2}$, be two distinct points on the hyperbola $\\frac{x^2}{9}-\\frac{y^2}{4}=1$. Then the ordinate of the point of intersection of the normals at $\\mathrm{P}$ and $\\mathrm{Q}$ is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Enjy6",
+      "text": "\n$\\frac{11}{3}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "03XpI",
+      "text": "\n$-\\frac{11}{3}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "yQxnd",
+      "text": "\n$\\frac{13}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "gT6WP",
+      "text": "\n$-\\frac{13}{2}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let the coordinate at point of intersection of normals at $\\mathrm{P}$ and $\\mathrm{Q}$ be $(h, k)$ Since, equation of normals to the hyperbola $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$ At point $\\left(x_1, y_1\\right)$ is $\\frac{a^2 x}{x_1}+\\frac{b^2 y}{y_1}=a^2+b^2$ therefore equation of normal to the hyperbola $\\frac{x^2}{3_1^2}-\\frac{y^2}{2^2}=1$ at point $P(3 \\sec \\theta, 2 \\tan \\theta)$ is\n\n\n$$\n\\begin{aligned}\n&\\frac{3^2 x}{3 \\sec \\theta}+\\frac{2^2 y}{2 \\tan \\theta}=3^2+2^2 \\\\\n&\\Rightarrow 3 x \\cos \\theta+2 y \\cot \\theta=3^2+2^2\n\\end{aligned}\n$$\nSimilarly, Equation of normal to the hyperbola $\\frac{x^2}{3^2}-\\frac{y^2}{2^2}$ at point Q $(3 \\sec \\phi, 2 \\tan \\phi)$ is\n$$\n\\begin{aligned}\n&\\frac{3^2 x}{3 \\sec \\phi}+\\frac{2^2 y}{2 \\tan \\phi}=3^2+2^2 \\\\\n&\\Rightarrow 3 x \\cos \\phi+2 y \\cot \\phi=3^2+2^2\n\\end{aligned}\n$$\nGiven $\\theta+\\phi=\\frac{\\pi}{2} \\Rightarrow \\phi=\\frac{\\pi}{2}-\\theta$ and these passes through $(h, k)$\n$\\therefore$ From eq. (2)\n$$\n\\begin{aligned}\n&3 x \\cos \\left(\\frac{\\pi}{2}-\\theta\\right)+2 y \\cot \\left(\\frac{\\pi}{2}-\\theta\\right)=3^2+2^2 \\\\\n&\\Rightarrow 3 h \\sin \\theta+2 k \\tan \\theta=3^2+2^2\n\\end{aligned}\n$$\nand $3 h \\cos \\theta+2 k \\cot \\theta=3^2+2^2$\nComparing equation (3) \\& (4), we get\n$3 h \\cos \\theta+2 k \\cot \\theta=3 h \\sin \\theta+2 k \\tan \\theta$\n$3 h \\cos \\theta-3 h \\sin \\theta=2 k \\tan \\theta-2 k \\cot \\theta$\n$3 h(\\cos \\theta-\\sin \\theta)=2 k(\\tan \\theta-\\cot \\theta)$\n$3 h(\\cos \\theta-\\sin \\theta)$\n$=2 k \\frac{(\\sin \\theta-\\cos \\theta)(\\sin \\theta+\\cos \\theta)}{\\sin \\theta \\cos \\theta}$\nor, $3 \\mathrm{~h}=\\frac{-2 k(\\sin \\theta+\\cos \\theta)}{\\sin \\theta \\cos \\theta}$\nNow, putting the value of equation (5) in eq. (3)\n$$\n\\begin{aligned}\n&\\frac{-2 k(\\sin \\theta+\\cos \\theta) \\sin \\theta}{\\sin \\theta \\cos \\theta}+2 k \\tan \\theta=3^2+2^2 \\\\\n&\\Rightarrow 2 k \\tan \\theta-2 k+2 k \\tan \\theta=13 \\\\\n&-2 k=13 \\Rightarrow k=\\frac{-13}{2}\n\\end{aligned}\n$$\nHence, ordinate of point of intersection\nof normals at $P$ and $Q$ is $\\frac{-13}{2}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d8",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (11 Apr Online)",
+    "title": "JEE Main 2014 (11 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 225,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (07 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023c852e150b8704113a9",
+    "chapter_name": "Rotational Motion",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A circular hole of diameter $\\mathrm{R}$ is cut from a disc of mass $M$ and radius $R$; the circumference of the cut passes through the centre of the disc. The moment of inertia of the remaining portion of the disc about an axis perpendicular to the disc and passing through its centre is"
+  },
+  "options": [
+    {
+      "text": "\n$\\left(\\frac{15}{32}\\right) M R^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left(\\frac{1}{8}\\right) M R^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left(\\frac{3}{8}\\right) M R^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left(\\frac{13}{32}\\right) M R^2$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "M.I. of complete disc about its centre $O$.\n$$\nI_{\\mathrm{Total}}=\\frac{1}{2} M R^2\n$$\n\n<img src=\"assets\\st0225_e4342f44d5dc.png\"><br>\n\n\nMass of circular hole (removed)\n$$\n=\\frac{M}{4} \\quad\\left(\\text { As } M=\\pi R^2 t \\therefore M \\propto R^2\\right)\n$$\nM.I. of removed hole about its own axis\n$$\n=\\frac{1}{2}\\left(\\frac{M}{4}\\right)\\left(\\frac{R}{2}\\right)^2=\\frac{1}{32} M R^2\n$$\nM.I. of removed hole about $O^{\\prime}$\n$$\n\\begin{aligned}\nI_{\\text {removed hole }} & =I_{\\mathrm{cm}}+m x^2 \\\\\n& =\\frac{M R^2}{32}+\\frac{M}{4}\\left(\\frac{R}{2}\\right)^2 \\\\\n& =\\frac{M R^2}{32}+\\frac{M R^2}{16}=\\frac{3 M R^2}{32}\n\\end{aligned}\n$$\nM.I. of complete disc can also be written as\n$I_{\\text {Total }}=I_{\\text {removed hole }}+I_{\\text {remaining disc }}$\n$I_{\\text {Total }}=\\frac{3 M R^2}{32}+I_{\\text {remaining disc }}$\nFrom eq. (i) and (ii),\n$$\n\\begin{aligned}\n& \\frac{1}{2} M R^2=\\frac{3 M R^2}{32}+I_{\\text {remaining disc }} \\\\\n& \\Rightarrow I_{\\text {remaining disc }} \\\\\n& \\quad=\\frac{M R^2}{2}-\\frac{3 M R^2}{32}=\\left(\\frac{13}{32}\\right) M R^2\n\\end{aligned}\n$$"
+  }
+}

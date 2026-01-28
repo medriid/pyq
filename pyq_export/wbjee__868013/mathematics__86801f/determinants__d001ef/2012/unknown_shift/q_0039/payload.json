@@ -1,0 +1,43 @@
+{
+  "index": 39,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0a7e939ac068d001ef",
+    "chapter_name": "Determinants",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $P, Q$ and $R$ are angles of $\\Delta P Q R$, then the value of $\\left|\\begin{array}{ccc}-1 & \\cos R & \\cos Q \\\\ \\cos R & -1 & \\cos P \\\\ \\cos Q & \\cos P & -1\\end{array}\\right|$ is equal to"
+  },
+  "options": [
+    {
+      "text": "-1",
+      "is_correct": false
+    },
+    {
+      "text": "0",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\r\n\\begin{aligned}\r\n&\\text { Multiplying } C_{1} \\text { by } p \\text { and then doing }\\\\\r\n&\\begin{aligned}\r\nC_{1} & \\rightarrow C_{1}+q C_{2}+r C_{3} \\text { , we get } \\\\\r\n\\Delta &=\\frac{1}{p}\\left[\\begin{array}{ccc}\r\n-p & \\cos R & \\cos Q \\\\\r\np \\cos R & -1 & \\cos P \\\\\r\np \\cos Q & \\cos P & -1\r\n\\end{array} \\mid\\right.\\\\\r\n&=\\frac{1}{p}\\left|\\begin{array}{ccc}\r\n-p+q \\cos R+r \\cos Q & \\cos R & \\cos Q \\\\\r\np \\cos R-q+r \\cos P & -1 & \\cos P \\\\\r\np \\cos Q+q \\cos P-r & \\cos P & -1\r\n\\end{array}\\right| \\\\\r\n=\\frac{1}{p}\\left|\\begin{array}{ccc}\r\n0 & \\cos R & \\cos Q \\\\\r\n0 & -1 & \\cos P \\\\\r\n0 & \\cos P & -1\r\n\\end{array}\\right|=0\r\n\\end{aligned}\r\n\\end{aligned}\r\n$$\r\nUsing the prejection formula $p=q \\cos R+r \\cos Q$"
+  }
+}

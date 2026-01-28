@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0f42b7a9706676933c",
+    "chapter_name": "Functions",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$F(x)=\\cos x-1+\\frac{x^2}{2!}, x \\in \\mathbb{R}$. Then $f(x)$ is"
+  },
+  "options": [
+    {
+      "text": "decreasing function",
+      "is_correct": false
+    },
+    {
+      "text": "increasing function",
+      "is_correct": false
+    },
+    {
+      "text": "neither increasing nor decreasing",
+      "is_correct": true
+    },
+    {
+      "text": "constant $\\forall x\\gt0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hint : $f(x)=\\cos x-1+\\frac{x^2}{2!}, x \\in R \\Rightarrow f^{\\prime}(x)=-\\sin x-0+\\frac{2 x}{2!}=x-\\sin x$\n<img src=\"assets\\st0007_80e6ba15b9e2.png\"/>\n$\\begin{array}{lll}\nf^{\\prime}(x)\\gt0 & \\forall x\\gt0 & \\because x\\gt\\sin x \\\\\nf^{\\prime}(x) \\lt 0 & \\forall x \\lt 0 & \\because x \\lt \\sin x\n\\end{array}$\n$\\therefore \\quad f(x)$ is neither increasing nor decreasing ."
+  }
+}

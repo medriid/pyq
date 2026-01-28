@@ -1,0 +1,43 @@
+{
+  "index": 47,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int_{0}^{100} e^{x-[x]} d x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{e^{100}-1}{100}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{e^{100}-1}{e-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$100(e-1)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{e-1}{100}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $I=\\int_{0}^{100} e^{x-[x]} d x$\r\n$=100 \\int_{0}^{1} e^{x-[x]} d x$\r\n$[\\because x-[x]$ is a periodic function of period 1 and $\\int_{0}^{mT} f(x) d x=m \\int_{0}^{T} f(x) d x,$ where $T$ is period of $f(x)]$ $=100 \\int_{0}^{1} e^{x} d x[\\because x-[x]=x$ for $0    < x < 1]$\r\n$=100\\left[e^{x}\\right]_{0}^{1}$\r\n$=100\\left[e^{1}-e^{0}\\right]$\r\n$=100(e-1)$"
+  }
+}

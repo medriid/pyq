@@ -1,0 +1,83 @@
+{
+  "_id": "64b16a93f23ac7d519f9b5af",
+  "previousYearPapers": [
+    {
+      "_id": "619f94437e944e1fdc2859b5",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2021-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021 (Paper 2)",
+      "title": "JEE Advanced 2021 (Paper 2)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "<strong> Paragraph: </strong>\r\n\r\nLet $\\psi_{1}:[0, \\infty) \\rightarrow \\mathbb{R}, \\psi_{2}:[0, \\infty) \\rightarrow \\mathbb{R}, f:[0, \\infty) \\rightarrow \\mathbb{R}$ and $g:[0, \\infty) \\rightarrow \\mathbb{R}$ be functions such that $f(0)=g(0)=0$,\r\n\r\n$\\psi_{1}(x)=e^{-x}+x, \\quad x \\geq 0$,\r\n\r\n$\\psi_{2}(x)=x^{2}-2 x-2 e^{-x}+2, \\quad x \\geq 0$,\r\n\r\n$f(x)=\\int_{-x}^{x}\\left(|t|-t^{2}\\right) e^{-t^{2}} d t, \\quad x>0$\r\n\r\nand $g(x)=\\int_{0}^{x^{2}} \\sqrt{t} e^{-t} d t, \\quad x>0$\r\n\r\n<br> <strong> Question: </strong>\r\n\r\nWhich of the following statements is TRUE ?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "OlLt3",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><msqrt><mi>ln</mi><mn>3</mn></msqrt></mfenced><mo>+</mo><mi>g</mi><mfenced><msqrt><mi>ln</mi><mn>3</mn></msqrt></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "MqYPX",
+      "text": "For every&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&#62;</mo><mn>1</mn></math>, there exists an&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi><mo>&#8712;</mo><mfenced><mrow><mn>1</mn><mo>,</mo><mi>x</mi></mrow></mfenced></math>&nbsp;such that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#968;</mi><mn>1</mn></msub><mfenced><mi>x</mi></mfenced><mo>=</mo><mn>1</mn><mo>+</mo><mi>&#945;</mi><mi>x</mi></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "MCorL",
+      "text": "For every&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&#62;</mo><mn>0</mn></math>, there exists a&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#946;</mi><mo>&#8712;</mo><mfenced><mrow><mn>0</mn><mo>,</mo><mi>x</mi></mrow></mfenced></math>&nbsp;such that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#968;</mi><mn>2</mn></msub><mfenced><mi>x</mi></mfenced><mo>=</mo><mn>2</mn><mi>x</mi><mfenced><mrow><msub><mi>&#968;</mi><mn>1</mn></msub><mfenced><mi>&#946;</mi></mfenced><mo>-</mo><mn>1</mn></mrow></mfenced></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "GoYk6",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math>&nbsp;is an increasing function on the interval&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"[\" close=\"]\"><mrow><mn>0</mn><mo>,</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></mfenced></math>",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>(A) Given</p><p>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mn>2</mn><msubsup><mo>&#8747;</mo><mn>0</mn><mi>x</mi></msubsup><mfenced><mrow><mi>t</mi><mo>-</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfenced><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></msup><mi>d</mi><mi>t</mi><mo>;</mo><mi>x</mi><mo>&#62;</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><msup><mi>x</mi><mn>2</mn></msup></msubsup><msqrt><mi>t</mi></msqrt><msup><mi mathvariant=\"normal\">e</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>d</mi><mi>t</mi><mo>;</mo><mi>x</mi><mo>&#62;</mo><mn>0</mn></math><br />put <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><msup><mi>u</mi><mn>2</mn></msup></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mi>g</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mn>2</mn><msubsup><mo>&#8747;</mo><mn>0</mn><mi>x</mi></msubsup><msup><mi>u</mi><mn>2</mn></msup><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>u</mi><mn>2</mn></msup></mrow></msup><mi>d</mi><mi>u</mi><mo>=</mo><mn>2</mn><msubsup><mo>&#8747;</mo><mn>0</mn><mi>x</mi></msubsup><msup><mi>t</mi><mn>2</mn></msup><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></msup><mi>d</mi><mi>t</mi></math></p><p>now, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>+</mo><mi>g</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mi>x</mi></msubsup><mn>2</mn><mi>t</mi><msup><mi mathvariant=\"normal\">e</mi><mrow><mo>-</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></msup><mi>d</mi><mi>t</mi><mo>=</mo><mn>1</mn><mo>-</mo><msup><mi mathvariant=\"normal\">e</mi><mrow><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>f</mi><mo>(</mo><msqrt><mi>ln</mi><mn>3</mn></msqrt><mo>)</mo><mo>+</mo><mi mathvariant=\"normal\">g</mi><mo>(</mo><msqrt><mi>ln</mi><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>ln</mi><mn>3</mn></mrow></msup><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></math></p><p>(B) for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi><mo>&#8712;</mo><mo>(</mo><mn>1</mn><mo>,</mo><mi>x</mi><mo>)</mo><mo>,</mo></math>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#968;</mi><mn>1</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>+</mo><mi>&#945;</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup><mo>+</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>-</mo><mi>&#945;</mi><mi>x</mi><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfenced><mrow><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup><mo>-</mo><mn>1</mn></mrow></mfenced><mo>=</mo><mi>x</mi><mo>(</mo><mi>&#945;</mi><mo>-</mo><mn>1</mn><mo>)</mo></math><br />Which is not possible because LHS <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#60;</mo><mn>0</mn></math> &amp; RHS <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#62;</mo><mn>0</mn></math></p><p>(C)&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#968;</mi><mn>2</mn></msub><mfenced><mi>x</mi></mfenced><mo>=</mo><mn>2</mn><mi>x</mi><mfenced><mrow><msub><mi>&#968;</mi><mn>1</mn></msub><mfenced><mi>&#946;</mi></mfenced><mo>-</mo><mn>1</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><msup><mi>&#968;</mi><mo>'</mo></msup><mn>2</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><msub><mi>&#968;</mi><mn>1</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>-</mo><mn>2</mn></math></p><p>from LMVT, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msub><mi>&#968;</mi><mn>2</mn></msub><mo>(</mo><mi mathvariant=\"normal\">x</mi><mo>)</mo><mo>-</mo><msub><mi>&#968;</mi><mn>2</mn></msub><mo>(</mo><mn>0</mn><mo>)</mo></mrow><mrow><mi mathvariant=\"normal\">x</mi><mo>-</mo><mn>0</mn></mrow></mfrac><mo>=</mo><msubsup><mi>&#968;</mi><mn>2</mn><mo>'</mo></msubsup><mfenced><mi>&#946;</mi></mfenced></math> for atleast one <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#946;</mi><mo>&#8712;</mo><mo>(</mo><mn>0</mn><mo>,</mo><mi>x</mi><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>&#968;</mi><mn>2</mn></msub><mo>(</mo><mi mathvariant=\"normal\">x</mi><mo>)</mo><mo>=</mo><mn>2</mn><mi mathvariant=\"normal\">x</mi><mfenced><mrow><msub><mi>&#968;</mi><mn>1</mn></msub><mo>(</mo><mi>&#946;</mi><mo>)</mo><mo>-</mo><mn>1</mn></mrow></mfenced></math></p><p>(D) Given</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><msubsup><mo>&#8747;</mo><mrow><mo>-</mo><mi>x</mi></mrow><mi>x</mi></msubsup><mfenced><mrow><mfenced close=\"|\" open=\"|\"><mi>t</mi></mfenced><mo>-</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfenced><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></msup><mi>d</mi><mi>t</mi><mo>,</mo><mo>&#160;&#160;</mo><mi>x</mi><mo>&#62;</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>&#39;</mo></msup><mfenced><mi>x</mi></mfenced><mo>=</mo><mn>2</mn><mfenced><mrow><mi>x</mi><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>&#39;</mo></msup><mfenced><mi>x</mi></mfenced><mo>=</mo><mn>2</mn><mi>x</mi><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>&#39;</mo></msup><mfenced><mi>x</mi></mfenced><mo>&#8805;</mo><mn>0</mn><mo>&#160;</mo><mtext>for</mtext><mo>&#160;</mo><mi>x</mi><mo>&#8712;</mo><mfenced close=\"]\" open=\"[\"><mrow><mn>0</mn><mo>,</mo><mn>1</mn></mrow></mfenced></math>&nbsp;So, increasing in this interval.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#160;</mo><mtext>and</mtext><mo>&#160;</mo><msup><mi>f</mi><mo>&#39;</mo></msup><mfenced><mi>x</mi></mfenced><mo>&#8804;</mo><mn>0</mn><mo>&#160;</mo><mtext>for</mtext><mo>&#160;</mo><mi>x</mi><mo>&#8712;</mo><mo>[</mo><mn>1</mn><mo>,</mo><mo>&#8734;</mo><mo>)</mo></math>&nbsp;So, decreasing in this interval.</p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "9646813e74f94d0d9b4c2136f23352b3",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/IcuHpmjGc9joz.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/IcuHpmjGc9joz.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619f94437e944e1fdc2859b5",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2021-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021 (Paper 2)",
+    "title": "JEE Advanced 2021 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

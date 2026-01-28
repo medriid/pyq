@@ -1,0 +1,43 @@
+{
+  "index": 27,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The integrating factor of the differential equation $\\frac{d y}{d x}+\\left(3 x^{2} \\tan ^{-1} y -x^{3}\\right)\\left(1+y^{2}\\right)=0$ is"
+  },
+  "options": [
+    {
+      "text": "$e^{x^{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^{x^{3}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$e^{3 x^{2}} \\quad$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^{3 x^{3}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given, $\\frac{d y}{d x}=-\\left(3 x^{2} \\tan ^{-1} y-x^{3}\\right)\\left(1+y^{2}\\right)$\r\n$\\Rightarrow \\quad \\frac{d y}{d x}=x^{3}\\left(1+y^{2}\\right)-3 x^{2}\\left(\\tan ^{-1} y\\right)\\left(1+y^{2}\\right)$\r\n$\\Rightarrow \\frac{1}{\\left(1+y^{2}\\right)} \\cdot \\frac{d y}{d x}=x^{3}-3 x^{2} \\tan ^{-1} y$\r\n$\\Rightarrow \\frac{1}{1+y^{2}} \\cdot \\frac{d y}{d x}+3 x^{2} \\tan ^{-1} y=x^{3}$\r\nPut $\\tan ^{-1} y=t \\Rightarrow \\frac{1}{1+y^{2}} \\cdot \\frac{d y}{d x}=\\frac{d t}{d x}$\r\n$\\therefore \\quad \\frac{d t}{d x}+3 t x^{2}=x^{3}$\r\nwhich is linear differential equation in $t$.\r\nNow.\r\n$\\mathrm{I} \\quad \\mathrm{F}=e^{\\int 3 \\mathrm{x}^{2} d x}=e^{x^{3}}$"
+  }
+}

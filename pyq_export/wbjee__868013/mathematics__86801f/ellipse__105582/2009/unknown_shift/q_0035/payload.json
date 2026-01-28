@@ -1,0 +1,43 @@
+{
+  "index": 35,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2009",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ce93095e9d0d7105582",
+    "chapter_name": "Ellipse",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The line $\\mathrm{y}=2 \\mathrm{t}^2$ intersects the ellipse $\\frac{x^2}{9}+\\frac{y^2}{4}=1$ in real points if"
+  },
+  "options": [
+    {
+      "text": "$|t| \\leq 1$",
+      "is_correct": true
+    },
+    {
+      "text": "$|t| < 1$",
+      "is_correct": false
+    },
+    {
+      "text": "$|t|>1$",
+      "is_correct": false
+    },
+    {
+      "text": "$|t| \\geq 1$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\text { Hints: } \\frac{x^2}{9}+\\frac{y^2}{4}=1 ; \\mathrm{y}=2 \\mathrm{t}^2 \\\\\n& \\frac{x^2}{9}+\\frac{4 t^4}{4}=1 \\Rightarrow \\frac{x^2}{9}+t^4=1 \\Rightarrow x^2=9\\left(1-t^4\\right) \\\\\n& x^2 \\geq 0 \\Rightarrow 9\\left(1-t^4\\right) \\geq 0 \\Rightarrow t^4-1 \\leq 0 \\\\\n& \\Rightarrow\\left(t^2-1\\right)\\left(t^2+1\\right) \\leq 0 \\\\\n& \\Rightarrow t^2-1 \\leq 0 \\quad\\left(\\because t^2+1>0\\right) \\\\\n& \\Rightarrow|t| \\leq 1\n\\end{aligned}\n$$"
+  }
+}

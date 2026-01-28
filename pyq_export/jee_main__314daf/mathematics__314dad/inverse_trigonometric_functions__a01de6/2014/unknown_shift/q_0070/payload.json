@@ -1,0 +1,43 @@
+{
+  "index": 70,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025537539c1075ba01de6",
+    "chapter_name": "Inverse Trigonometric Functions",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Statement I: The equation $\\left(\\sin ^{-1} \\mathrm{x}\\right)^3+$ $\\left(\\cos ^{-1} \\mathrm{x}\\right)^3-\\mathrm{a} \\pi^3=0$ has a solution for all $\\mathrm{a} \\geq \\frac{1}{32}$.\nStatement II: For any $\\mathrm{x} \\in \\mathrm{R}$,\n$\\sin ^{-1} x+\\cos ^{-1} x=\\frac{\\pi}{2}$ and $0 \\leq\\left(\\sin ^{-1} x-\\frac{\\pi}{4}\\right)^2 \\leq \\frac{9 \\pi^2}{16}$"
+  },
+  "options": [
+    {
+      "text": "\nBoth statements I and II are true.\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nBoth statements I and II are false.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $\\mathrm{I}$ is true and statement $\\mathrm{II}$ is false.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $\\mathrm{I}$ is false and statement II is true.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n&\\sin ^{-1} x \\in\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] \\\\\n&\\Rightarrow-\\frac{3 \\pi}{4} \\leq\\left(\\sin ^{-1} x-\\frac{\\pi}{4}\\right) \\leq \\frac{\\pi}{4} \\\\\n&0 \\leq\\left(\\sin ^{-1} x-\\frac{\\pi}{4}\\right)^2 \\leq \\frac{9}{16} \\pi^2\n\\end{aligned}\n$$\nStatement II is true\n$$\n\\begin{aligned}\n&\\left(\\sin ^{-1} x\\right)^3+\\left(\\cos ^{-1} x\\right)^3=a \\pi^3 \\\\\n\\Rightarrow &\\left(\\sin ^{-1} x+\\cos ^{-1} x\\right)\\left[\\left(\\sin ^{-1} x+\\cos ^{-1} x\\right)^2-\\right.\\\\\n&\\left.3 \\sin ^{-1} x \\cos ^{-1} x\\right]=a \\pi^3 \\\\\n\\Rightarrow & \\frac{\\pi^2}{4}-3 \\sin ^{-1} x \\cos ^{-1} x=2 a \\pi^2 \\\\\n\\Rightarrow & \\sin ^{-1} x\\left(\\frac{\\pi}{2}-\\sin ^{-1} x\\right)=\\frac{\\pi^2}{12}(1-8 a) \\\\\n\\Rightarrow &\\left(\\sin ^{-1} x-\\frac{\\pi}{4}\\right)^2=\\frac{\\pi^2}{12}(8 a-1)+\\frac{\\pi^2}{16} \\\\\n\\Rightarrow &\\left(\\sin ^{-1} x-\\frac{\\pi}{4}\\right)^2=\\frac{\\pi^2}{48}(32 a-1)\n\\end{aligned}\n$$\nPutting this value in equation (1)\n$$\n0 \\leq \\frac{\\pi^2}{48}(32 a-1) \\leq \\frac{9}{16} \\pi^2\n$$\n\n$$\n\\begin{aligned}\n&\\Rightarrow 0 \\leq 32 a-1 \\leq 27 \\\\\n&\\frac{1}{32} \\leq a \\leq \\frac{7}{8}\n\\end{aligned}\n$$\nStatement-I is also true."
+  }
+}

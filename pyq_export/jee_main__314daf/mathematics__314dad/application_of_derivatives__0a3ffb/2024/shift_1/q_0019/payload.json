@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "For the function $f(x)=(\\cos x)-x+1, x \\in \\mathbb{R}$, between the following two statements\n(S1) $f(x)=0$ for only one value of $x$ in $[0, \\pi]$.\n(S2) $f(x)$ is decreasing in $\\left[0, \\frac{\\pi}{2}\\right]$ and increasing in $\\left[\\frac{\\pi}{2}, \\pi\\right]$."
+  },
+  "options": [
+    {
+      "text": "Both (S1) and (S2) are correct.",
+      "is_correct": false
+    },
+    {
+      "text": "Both (S1) and (S2) are incorrect.",
+      "is_correct": false
+    },
+    {
+      "text": "Only (S2) is correct.",
+      "is_correct": false
+    },
+    {
+      "text": "Only (S1) is correct.",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & f^{\\prime}(x)=\\cos x-x+1 \\\\ & f^{\\prime}(x)=-\\sin x-1\\end{aligned}$\n$\\mathrm{f}$ is decreasing $\\forall \\mathrm{x} \\in \\mathrm{R}$\n$\\begin{aligned} & \\mathrm{f}(\\mathrm{x})=0 \\\\ & \\mathrm{f}(0)=2, \\mathrm{f}(\\pi)=-\\pi\\end{aligned}$\n$\\mathrm{f}$ is strictly decreasing in $[0, \\pi]$ and $\\mathrm{f}(0) . \\mathrm{f}(\\pi) < 0$\n$\\Rightarrow$ only one solution of $\\mathrm{f}(\\mathrm{x})=0$\n$\\mathrm{S} 1$ is correct and $\\mathrm{S} 2$ is incorrect."
+  }
+}

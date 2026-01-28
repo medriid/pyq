@@ -1,0 +1,63 @@
+{
+  "_id": "64a81434e0ff5a5425a85974",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7c",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2017-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2017",
+      "title": "WBJEE 2017"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The value of $\\lim _{n \\rightarrow\\infty}\\left[\\frac{n}{n^{2}+1^{2}}+\\frac{n}{n^{2}+2^{2}}+\\ldots+\\frac{1}{2 n}\\right]$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "PtKYf",
+      "text": "$\\frac{n \\pi}{4}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "ko3LU",
+      "text": "$\\frac{\\pi}{4}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "UOErM",
+      "text": "$\\frac{\\pi}{4 n}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "KFlnT",
+      "text": "$\\frac{\\pi}{2 n}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\lim _{n \\rightarrow-}\\left[\\frac{n}{n^{2}+1^{2}}+\\frac{n}{n^{2}+2^{2}}+\\ldots+\\frac{1}{2 n}\\right]$\r\n$=\\lim _{n \\rightarrow-}\\left[\\frac{n}{n^{2}+1^{2}}+\\frac{n}{n^{2}+2^{2}}+\\ldots+\\frac{n}{n^{2}+n^{2}}\\right]$\r\n$=\\lim _{n \\rightarrow-} \\sum_{r=1}^{-\\infty} \\frac{n}{n^{2}+r^{2}}$\r\n$=\\lim _{n \\rightarrow-\\infty} \\frac{1}{n} \\sum_{r=1}^{-\\infty} \\frac{1}{1+\\left(\\frac{r}{n}\\right)^{2}}$\r\n$\\quad=\\int_{0}^{1} \\frac{1}{1+x^{2}} d x$\r\n$\\quad=\\left[\\tan ^{-1} x\\right]_{0}^{1}$\r\n$\\quad=\\tan ^{-1} 1-\\tan ^{-1} 0$\r\n$\\quad=\\frac{\\pi}{4}-0=\\frac{\\pi}{4}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7c",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2017-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2017",
+    "title": "WBJEE 2017"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

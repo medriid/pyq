@@ -1,0 +1,43 @@
+{
+  "index": 96,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int\\left\\{\\frac{(\\log x-1)}{\\left(1+(\\log x)^2\\right.}\\right\\}^2 d x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{\\log x}{(\\log x)^2+1}+C$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{x}{x^2+1}+C$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{x e^x}{1+x^2}+C$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{x}{(\\log x)^2+1}+C$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\int \\frac{(\\log x-1)^2}{\\left(1+(\\log x)^2\\right)^2} d x \\\\\n& =\\int\\left[\\frac{1}{\\left(1+(\\log x)^2\\right)}-\\frac{2 \\log x}{\\left(1+(\\log x)^2\\right)^2}\\right] d x \\\\\n& =\\int\\left[\\frac{e^t}{1+t^2}-\\frac{2 t e^t}{\\left(1+t^2\\right)^2}\\right] d t \\text { put } \\log x=t \\Rightarrow d x=e^t d t \\\\\n& \\int e^t\\left[\\frac{1}{1+t^2}-\\frac{2 t}{\\left(1+t^2\\right)^2}\\right] d t \\\\\n& =\\frac{e^t}{1+t^2}+c=\\frac{x}{1+(\\log x)^2}+c\n\\end{aligned}\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ccd1d619927718b113a",
+    "chapter_name": "Permutation Combination",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "There are 7 greeting cards, each of a different colour and 7 envelopes of same 7 colours as that of the cards. The number of ways in which the cards can be put in envelopes, so that exactly 4 of the cards go into envelopes of respective colour is,"
+  },
+  "options": [
+    {
+      "text": "${ }^{7} C_{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^{7} C_{3}$",
+      "is_correct": true
+    },
+    {
+      "text": "$3!^{4} C_{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$3!^{7} C_{3}^{4} C_{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Required number of ways\r\n$$\r\n\\begin{array}{l}\r\n={ }^{7} C_{4} \\times D(3) \\\\\r\n={ }^{7} C_{3} \\times\\left[3 \\cdot\\left(1-\\frac{1}{1 !}+\\frac{1}{2 !}-\\frac{1}{3 !}\\right)\\right] \\\\\r\n{\\left[\\because{ }^{n} C_{r}={ }^{n} C_{n-r, a n d}\\right.} \\\\\r\n\\left.D(n)=n\\left[1-\\frac{1}{1 !}+\\frac{1}{2 !}-\\frac{1}{3 !}+\\ldots\\right]\\right] \\\\\r\n={ }^{7} C_{3} \\times 2=2\\left({ }^{7} C_{3}\\right)\r\n\\end{array}\r\n$$"
+  }
+}

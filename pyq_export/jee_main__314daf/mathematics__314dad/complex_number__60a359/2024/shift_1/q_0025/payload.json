@@ -1,0 +1,43 @@
+{
+  "index": 25,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (05 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602527bd39a958e960a359",
+    "chapter_name": "Complex Number",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Consider the following two statements :\nStatement I : For any two non-zero complex numbers $z_1, z_2$,\n$\\left(\\left|z_1\\right|+\\left|z_2\\right|\\right)\\left|\\frac{z_1}{\\left|z_1\\right|}+\\frac{z_2}{\\left|z_2\\right|}\\right| \\leq 2\\left(\\left|z_1\\right|+\\left|z_2\\right|\\right) \\text {, and }$<br />Statement II : If $x, y, z$ are three distinct complex numbers and $\\mathrm{a}, \\mathrm{b}, \\mathrm{c}$ are three positive real numbers such that $\\frac{\\mathrm{a}}{|y-z|}=\\frac{\\mathrm{b}}{|z-x|}=\\frac{\\mathrm{c}}{|x-y|}$, then\n$\\frac{\\mathrm{a}^2}{y-z}+\\frac{\\mathrm{b}^2}{z-x}+\\frac{\\mathrm{c}^2}{x-y}=1 .$<br />Between the above two statements,"
+  },
+  "options": [
+    {
+      "text": "Statement I is correct but Statement II is incorrect.",
+      "is_correct": true
+    },
+    {
+      "text": "both Statement I and Statement II are correct.",
+      "is_correct": false
+    },
+    {
+      "text": "both Statement I and Statement II are incorrect.",
+      "is_correct": false
+    },
+    {
+      "text": "Statement I is incorrect but Statement II is correct.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Statement I :\n$\\left(\\left|z_1\\right|+\\left|z_2\\right|\\right)\\left|\\frac{z_1}{\\left|z_1\\right|}+\\frac{z_2}{\\left|z_2\\right|}\\right|$<br />Since $\\left|\\frac{z_1}{\\left|z_1\\right|}+\\frac{z_2}{\\left|z_2\\right|}\\right| \\leq\\left|\\frac{z_1}{\\left|z_1\\right|}\\right|+\\left|\\frac{z_2}{\\left|z_2\\right|}\\right|$\n$\\begin{aligned}\n& \\left|\\frac{z_1}{\\left|z_1\\right|}+\\frac{z_2}{\\left|z_2\\right|}\\right| \\leq \\frac{\\left|z_1\\right|}{\\left|z_1\\right|}+\\frac{\\left|z_2\\right|}{\\left|z_2\\right|} \\\\\n& \\left|\\frac{z_1}{\\left|z_1\\right|}+\\frac{z_2}{\\left|z_2\\right|}\\right| \\leq 2\n\\end{aligned}$\n$\\left(\\left|z_1\\right|+\\left|z_2\\right|\\right)\\left(\\left|\\frac{z_1}{\\left|z_1\\right|}+\\frac{z_2}{\\left|z_2\\right|}\\right|\\right) \\leq 2\\left(\\left|z_1\\right|+\\left|z_2\\right|\\right)$\n$\\therefore$ statement $\\mathrm{I}$ is correct\nFor Statement II :\n$\\begin{aligned}\n& \\frac{a}{|y-z|}=\\frac{b}{|z-x|}=\\frac{c}{|x-y|} \\\\\n& \\frac{a^2}{|y-z|^2}=\\frac{b^2}{|z-x|^2}=\\frac{c^2}{|x-y|^2}=\\lambda \\\\\n& a^2=\\lambda\\left(|y-z|^2\\right)=\\lambda(y-z)(\\bar{y}-\\bar{z}) \\\\\n& b^2=\\lambda(z-x)(\\bar{z}-\\bar{x}) \\text { and } c^2=\\lambda(x-y)(\\bar{x}-\\bar{y}) \\\\\n& \\frac{a^2}{y-z}+\\frac{b^2}{z-x}+\\frac{c^2}{x-y}=\\lambda(\\bar{y}-\\bar{z}+\\bar{z}-\\bar{x}+\\bar{x}-\\bar{y})=0\n\\end{aligned}$\nStatement II is false"
+  }
+}

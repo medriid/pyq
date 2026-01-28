@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602555685234356f221f74",
+    "chapter_name": "Functions",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $f, \\mathrm{~g}:(1, \\infty) \\rightarrow \\mathbb{R}$ be defined as $f(\\mathrm{x})=\\frac{2 x+3}{5 x+2}$ and $g(x)=\\frac{2-3 x}{1-x}$. If the range of the function $f \\circ g:[2,4] \\rightarrow \\mathbb{R}$ is $[\\alpha, \\beta]$, then $\\frac{1}{\\beta-\\alpha}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "68",
+      "is_correct": false
+    },
+    {
+      "text": "29",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "56",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}<br/>& \\operatorname{fog}(x)=f(g(x)) \\\\\n& =f\\left(\\frac{2-3 x}{1-x}\\right)=\\frac{2\\left(\\frac{2-3 x}{1-x}\\right)+3}{5\\left(\\frac{2-3 x}{1-x}\\right)+2} \\\\\n& =\\frac{4-6 x+3-3 x}{10-15 x+2-2 x}=\\left(\\frac{7-9 x}{12-17 x}\\right) \\\\\n& \\therefore\\left[\\begin{array}{c}<br/>12-7 x \\neq 0 \\\\\nx \\neq \\frac{12}{17}<br/>\\end{array}\\right. \\\\\n& {\\left[\\begin{array}{l}<br/>\\operatorname{fog}(2)=\\frac{7-9(2)}{12-17(2)}=\\frac{-11}{-22}=\\frac{1}{2} \\\\\n\\operatorname{fog}(4)=\\frac{7-9(4)}{12-17(4)}=\\frac{-29}{-56}=\\frac{29}{56}<br/>\\end{array}\\right.} \\\\\n& \\text { Range of fog : }[\\alpha, \\beta]=\\left[\\frac{1}{2}, \\frac{29}{56}\\right] \\\\\n& \\therefore(\\beta-\\alpha)=\\frac{29}{56}-\\frac{1}{2}=\\frac{29-28}{56}=\\frac{1}{56} \\\\\n& \\frac{1}{(\\beta-\\alpha)}=56<br/>\\end{aligned}$"
+  }
+}

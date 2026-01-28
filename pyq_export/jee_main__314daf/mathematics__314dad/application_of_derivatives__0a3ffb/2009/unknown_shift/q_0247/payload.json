@@ -1,0 +1,43 @@
+{
+  "index": 247,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2009",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Given $P(x)=x^4+a x^3+b x^2+c x+d$ such that $x=0$ is the only real root of $P^{\\prime}(x)=0$. If $P(-1) < P(1)$, then in the interval $[-1,1]$"
+  },
+  "options": [
+    {
+      "text": "\n$P(-1)$ is the minimum and $P(1)$ is the maximum of $P$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$P(-1)$ is not minimum but $P(1)$ is the maximum of $P$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$P(-1)$ is the minimum and $P(1)$ is not the maximum of $P$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nneither $P(-1)$ is the minimum nor $P(1)$ is the maximum of $P$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& P(x)=x^4+a x^3+b x^2+c x+d \\\\\n& P^{\\prime}(x)=4 x^3+3 a x^2+2 b x+c \\\\\n& \\because x=0 \\text { is a solution for } P^{\\prime}(x)=0, \\Rightarrow c=0 \\\\\n& \\therefore P(x)=x^4+a x^3+b x^2+d\n\\end{aligned}\n$$\nAlso, we have $P(-1) < P(1)$\n$$\n\\Rightarrow 1-a+b+d < 1+a+b+d \\Rightarrow a>0\n$$\n$\\because P^{\\prime}(x)=0$, only when $x=0$ and $P(x)$ is differentiable in $(-1,1)$, we should have the maximum and minimum at the points $x=-1,0$ and 1 only\nAlso, we have $P(-1) < P(1)$\n$\\therefore$ Max. of $P(x)=\\operatorname{Max} .\\{P(0), P(1)\\}$ \\& Min. of $P(x)=\\operatorname{Min} .\\{P(-1), P(0)\\}$\nIn the interval $[0,1]$,\n$$\nP^{\\prime}(x)=4 x^3+3 a x^2+2 b x=x\\left(4 x^2+3 a x+2 b\\right)\n$$\n$\\because P^{\\prime}(x)$ has only one root $x=0,4 x^2+3 a x+2 b=0$ has no real roots.\n$$\n\\begin{aligned}\n& \\therefore(3 a)^2-32 b < 0 \\Rightarrow \\frac{3 a^2}{32} < b \\\\\n& \\therefore b>0\n\\end{aligned}\n$$\nThus, we have $a>0$ and $b>0$\n$$\n\\therefore \\mathrm{P}^{\\prime}(\\mathrm{x})=4 \\mathrm{x}^3+3 a \\mathrm{x}^2+2 \\mathrm{bx}>0, \\forall \\mathrm{x} \\in(0,1)\n$$\nHence $P(x)$ is increasing in $[0,1]$\n$\\therefore$ Max. of $P(x)=P(1)$\nSimilarly, $P(x)$ is decreasing in $[-1,0]$\nTherefore Min. $P(x)$ does not occur at $x=-1$"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64b169edf23ac7d519f9afbb",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c43",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2008-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008 (Paper 2)",
+      "title": "JEE Advanced 2008 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nConsider the function $f:(-\\infty, \\infty) \\rightarrow(-\\infty, \\infty)$ defined by $f(x)=\\frac{x^2-a x+1}{x^2+a x+1} ; 0 < a < 2$<strong>Question:</strong>\nWhich of the following is true?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "lqEUK",
+      "text": "\n$f(x)$ is decreasing on $(-1,1)$ and has a local minimum at $x=1$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "KJwXM",
+      "text": "\n$f(x)$ is increasing on $(-1,1)$ and has a local maximum at $x=1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ziCMF",
+      "text": "\n$f(x)$ is increasing on $(-1,1)$ but has neither a local maximum nor a local minimum at $x=1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Z1ynK",
+      "text": "\n$f(x)$ is decreasing on $(-1,1)$ but has neither a local maximum nor a local minimum at $x=1$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "When $x \\in(-1,1)$\n$$\nx^2 < 1 \\Rightarrow x^2-1 < 0\n$$\n$\\therefore \\quad f^{\\prime}(x) < 0 \\Rightarrow f(x)$ is decreasing.\nAlso, at $x=1, f^{\\prime \\prime}(1)=\\frac{4 a}{(a+2)^2>0}$\n$[\\because 0 < a < 2]$\n$\\therefore f(x)$ has a local minimum at $x=1$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c43",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2008-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008 (Paper 2)",
+    "title": "JEE Advanced 2008 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

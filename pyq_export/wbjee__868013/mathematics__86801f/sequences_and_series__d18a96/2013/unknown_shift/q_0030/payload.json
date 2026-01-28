@@ -1,0 +1,43 @@
+{
+  "index": 30,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd27e4f983047d18a96",
+    "chapter_name": "Sequences and Series",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of the infinite series $\\frac{1^{2}+2^{2}}{3 !}$ $+\\frac{1^{2}+2^{2}+3^{2}}{4 !}+\\frac{1^{2}+2^{2}+3^{2}+4^{2}}{5 !}+\\ldots$"
+  },
+  "options": [
+    {
+      "text": "$e$",
+      "is_correct": false
+    },
+    {
+      "text": "$5 e$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{5 e}{6}-\\frac{1}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{5 e}{6}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given infinite series is $\\frac{1^{2}+2^{2}}{3 !}+\\frac{1^{2}+2^{2}+3^{2}}{4 !}$\r\n$\\begin{aligned} \\frac{1^{2}+2^{2}}{3 !} &+\\frac{1^{2}+2^{2}+3^{2}}{4 !} \\\\ &+\\frac{1^{2}+2^{2}+3^{2}+4^{2}}{5 !}+\\ldots \\end{aligned}$\r\nnth term, $t_{n}=\\frac{1^{2}+2^{2}+3^{2}+4^{2}+\\ldots+(r+1)^{2}}{(r+2) !}$\r\nNow, $S_{n}=\\Sigma t_{n}=\\sum_{r=1}^{n} \\frac{1^{2}+2^{2}+3^{2}+\\ldots+(r+1)^{2}}{(r+2) !}$\r\n$=\\sum_{r=1}^{n} \\frac{(r+1)(r+2)(2 n+3)}{6(r+2) !}$\r\n$\\left[\\because \\Sigma n^{2}=\\frac{n(n+1)(2 n+1)}{6}\\right]$\r\n$=\\sum_{r=1}^{n} \\frac{(2 r+3)}{6 \\cdot r !}=\\frac{1}{6} \\sum_{r=1}^{n}\\left\\{\\frac{2}{(r-1) !}+\\frac{3}{r !}\\right\\}$\r\n$=\\frac{1}{6}\\left\\{\\left(\\frac{2}{1}+\\frac{3}{1 !}\\right)+\\left(\\frac{2}{1 !}+\\frac{3}{2 !}\\right)+\\left(\\frac{2}{2 !}+\\frac{3}{3 !}\\right)+\\ldots\\right\\}$\r\n$=\\frac{1}{6}\\left\\{\\left(\\frac{2}{1 !}+\\frac{2}{1 !}+\\frac{2}{2 !}+\\ldots\\right)+\\left(\\frac{3}{1 !}+\\frac{3}{2 !}+\\frac{3}{3 !}+\\ldots\\right)\\right\\}$\r\n$=\\frac{1}{6}\\left\\{2\\left(1+\\frac{1}{1 !}+\\frac{1}{2 !}+\\ldots\\right)+3\\left(\\frac{1}{1 !}+\\frac{1}{2 !}+\\ldots\\right)\\right\\}$\r\n$=\\frac{1}{6}\\{2 e+3(e-1)\\}$\r\n$=\\frac{1}{6}\\{2 e+3 e-3\\}$\r\n$=\\frac{1}{6}(5 e-3)=\\frac{5 e}{6}-\\frac{1}{2}$"
+  }
+}

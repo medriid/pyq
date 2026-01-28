@@ -1,0 +1,24 @@
+{
+  "index": 2,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2024 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "6160244116d221a133c08775",
+    "chapter_name": "Wave Optics",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In a Young's double slit experiment, each of the two slits A and B, as shown in the figure, are oscillating about their fixed center and with a mean separation of $0.8 \\mathrm{~mm}$. The distance between the slits at time $t$ is given by $d=(0.8+0.04 \\sin \\omega t) \\mathrm{mm}$, where $\\omega=0.08 \\mathrm{rad} \\mathrm{s}^{-1}$. The distance of the screen from the slits is $1 \\mathrm{~m}$ and the wavelength of the light used to illuminate the slits is $6000 Ã…$. The interference pattern on the screen changes with time, while the central bright fringe (zeroth fringe) remains fixed at point $O$.\n<img src=\"assets\\qt0002_f964f5af3b19.png\">\nThe maximum speed in $\\mu \\mathrm{m} / \\mathrm{s}$ at which the $8^{\\text {th }}$ bright fringe will move is ________ ."
+  },
+  "options": [],
+  "correct_answer": 24,
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\mathrm{y}=\\mathrm{n} \\cdot \\frac{\\lambda \\mathrm{D}}{\\mathrm{d}} \\\\\n& \\mathrm{v}=\\frac{\\mathrm{dy}}{\\mathrm{dt}}=-\\mathrm{n} \\cdot \\frac{\\lambda \\cdot \\mathrm{d}}{\\mathrm{d}^2} \\cdot \\frac{d(d)}{d t} \\\\\n& d=0.8+0.04 \\sin \\omega t \\\\\n& \\frac{d(d)}{d t}=0.04 \\omega \\cos \\omega t\n\\end{aligned}$\n$\\text { for } \\mathrm{v} \\rightarrow \\max \\Rightarrow \\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}} \\rightarrow \\max \\text {. }$\nFor $\\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}} \\rightarrow \\max$.\n$\\begin{aligned}\n& \\cos \\omega \\mathrm{t}=1 \\Rightarrow \\sin \\omega \\mathrm{t}=0 \\\\\n& \\Rightarrow\\left(\\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}}\\right)_{\\max }=0.04 \\\\\n& \\Rightarrow \\mathrm{d}=0.8 \\mathrm{~mm} \\\\\n& \\mathrm{v}_{\\max }=\\frac{8 \\times 6000 \\times 10^{-10} \\times 1 \\times 0.04 \\times 0.08}{0.8 \\times 0.8 \\times 10^{-6} \\times 10^{-3}}=24 \\mu \\mathrm{m} / \\mathrm{s} .\n\\end{aligned}$\n(range is from 23.5 to 24.5)"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "67a2ee95c8b73881fdaea12b",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d9760a",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-23T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (23 Jan Shift 1)",
+      "title": "JEE Main 2025 (23 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let a curve $y=f(x)$ pass through the points $(0,5)$ and $\\left(\\log _e 2, k\\right)$. If the curve satisfies the differential equation $2(3+y) e^{2 x} d x-\\left(7+e^{2 x}\\right) d y=0$, then $k$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "bfRv5",
+      "text": "$4$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "XCwbn",
+      "text": "$32$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "PBtuu",
+      "text": "$8$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "p177e",
+      "text": "$16$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\frac{d y}{d x}=\\frac{2(3+y) \\cdot e^{2 x}}{7+e^{2 x}} \\\\ & \\frac{d y}{d x}-\\frac{2 y e^{2 x}}{7+e^{2 x}}=\\frac{6 \\cdot e^{2 x}}{7+e^{2 x}} \\\\ & \\text { I.F. }=e^{-\\int \\frac{2 e^{2 x}}{7+e^{2 x}} d x} \\\\ & \\Rightarrow e^{-\\ln \\left(7+e^{2 x}\\right)} \\\\ & =\\frac{1}{7+e^{2 x}} \\\\ & y \\cdot \\frac{1}{7+e^{2 x}}=\\int \\frac{6 e^{2 x}}{\\left(7+e^{2 x}\\right)^2} d x \\\\ & \\frac{y}{7+e^{2 x}}=\\frac{-3}{7+e^{2 x}+C} \\\\ & \\therefore y(0)=5 \\\\ & \\Rightarrow \\frac{5}{8}=\\frac{-3}{8}+C \\\\ & \\Rightarrow C=1 \\\\ & \\therefore y=-3+7+e^{2 x} \\\\ & y=e^{2 x}+4 \\\\ & \\therefore k=8\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "8c4b3a9cac45475a96b409bc22b951a1",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/hwjRaIeX496aH.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/hwjRaIeX496aH.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d9760a",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-23T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (23 Jan Shift 1)",
+    "title": "JEE Main 2025 (23 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

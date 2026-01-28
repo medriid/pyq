@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d00146ed0ebdd74e3ce",
+    "chapter_name": "Sets and Relations",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "On the set $R$ of real numbers we define $x P y$ if and only if $x y \\geq 0$. Then, the relation $P$ is"
+  },
+  "options": [
+    {
+      "text": "reflexive but not symmetric",
+      "is_correct": false
+    },
+    {
+      "text": "symmetric but not reflexive",
+      "is_correct": false
+    },
+    {
+      "text": "transitive but not reflexive",
+      "is_correct": false
+    },
+    {
+      "text": "reflexive and symmetric but not transitive",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "For every real number $x, x^{2} \\geq 0$\r\n$\\therefore$ $(x, x) \\in P$\r\nHence, $P$ is reflexive.\r\nNow let $(x,y) \\in P \\\\\r\n\\Rightarrow xy \\geq 0 \\\\\r\n\\Rightarrow yx \\geq 0$\r\n$(y, x) \\in P$\r\nHence, $P$ is symmetric. \r\nAgain (-1,0)$\\in P$ and (0,2)$\\in P$\r\nBut (-1,2)$\\notin P$\r\n$as(-1)(2)=-2    < 0$\r\nPis not transitive."
+  }
+}

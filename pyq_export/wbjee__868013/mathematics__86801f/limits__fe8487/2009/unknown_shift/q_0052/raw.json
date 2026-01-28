@@ -1,0 +1,63 @@
+{
+  "_id": "64a813a9e0ff5a5425a8544b",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009",
+      "title": "WBJEE 2009"
+    }
+  ],
+  "question": {
+    "text": "The value of $\\lim _{n \\rightarrow \\infty}\\left[\\frac{n}{n^2+1^2}+\\frac{n}{n^2+2^2}+\\ldots \\ldots . . \\frac{n}{n^2+n^2}\\right]$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "hWcgO",
+      "text": "$\\frac{\\pi}{4}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "7sKz3",
+      "text": "$\\log 2$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "OsPII",
+      "text": "zero",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "pkjtZ",
+      "text": "1",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\text { Hints : } \\lim _{n \\rightarrow \\infty}\\left[\\frac{n}{n^2+1^2}+\\frac{n}{n^2+2^2}+\\ldots+\\frac{n}{n^2+n^2}\\right]\n$$\n\n$$\n=\\lim _{n \\rightarrow \\infty} \\sum_{r=1}^n \\frac{n}{n^2+r^2}=\\lim _{n \\rightarrow \\infty} \\frac{1}{n} \\sum_{r=1}^n \\frac{1}{1+\\left(\\frac{r}{n}\\right)^2}=\\int_0^1 \\frac{d x}{1+x^2}=\\left[\\tan ^{-1} x\\right]_0^1=\\frac{\\pi}{4}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009",
+    "title": "WBJEE 2009"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

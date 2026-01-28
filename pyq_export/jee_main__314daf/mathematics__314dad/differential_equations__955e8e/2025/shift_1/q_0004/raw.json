@@ -1,0 +1,83 @@
+{
+  "_id": "68542c7c7c09d044e4c1a23c",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2fe9d87935e0d809787",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-04T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (4 Apr Shift 1)",
+      "title": "JEE Main 2025 (4 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $f:[0, \\infty) \\rightarrow \\mathbb{R}$ be differentiable function such that $f(\\mathrm{x})=1-2 \\mathrm{x}+\\int_0^x e^{x-t} f(t) \\mathrm{dt}$ for all $\\mathrm{x} \\in[0, \\infty)$.<br/>Then the area of the region bounded by $\\mathrm{y}=f(\\mathrm{x})$ and the coordinate axes is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "FOGI1",
+      "text": "$\\sqrt{5}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ZIopU",
+      "text": "$\\frac{1}{2}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "7IsGT",
+      "text": "$\\sqrt{2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "x4HBq",
+      "text": "2",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & y=1-2 x+e^x \\int_0^x e^{-t} f(t) d t \\\\ & \\frac{d y}{d x}=-2+e^{-x} \\cdot e^x f(x)+e^x \\int_0^x e^{-t} f(t) d t \\\\ & \\frac{d y}{d x}=-2+y+y+2 x-1 \\\\ & \\frac{d y}{d x}-2 y=(2 x-3) \\\\ & y e^{-2 x}=\\int(2 x-3) d x \\cdot e^{-2 x} \\\\ & y e^{-2 x}=\\frac{-(2 x-3)}{2} e^{-2 x}+\\int e^{-2 x} d x \\\\ & y e^{-2 x}=\\frac{-(2 x-3)}{2} e^{-2 x}-\\frac{1}{2} e^{-2 x}+c \\\\ & f(0)=1 \\Rightarrow c=1-\\frac{3}{2}+\\frac{1}{2}=0\\end{aligned}$<br/>$\\begin{aligned} & y=-\\frac{(2 x-3)}{2}-\\frac{1}{2} \\\\ & y=-x+1 \\\\ & x+y=1 \\\\ & \\text { area }=\\frac{1}{2}(1)(1)=\\frac{1}{2}\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "26c46367f0cd4da7bd824baea9466d11",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/Q3HUSQ6RTbZVj.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/Q3HUSQ6RTbZVj.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2fe9d87935e0d809787",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-04T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (4 Apr Shift 1)",
+    "title": "JEE Main 2025 (4 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

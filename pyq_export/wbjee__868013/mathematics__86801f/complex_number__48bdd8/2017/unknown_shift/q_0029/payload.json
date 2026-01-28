@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc9a79d891b2548bdd8",
+    "chapter_name": "Complex Number",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The expression $\\frac{(1+i)^{n}}{(1-i)^{n-2}}$ equals"
+  },
+  "options": [
+    {
+      "text": "$-i^{n+1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$i^{n+1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-2 i^{n+1}$",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$(\\mathrm{c}) \\frac{(1+i)^{n}}{(1-i)^{n-2}}=\\frac{(1+i)^{n}}{(1-i)^{n}(1-i)^{-2}}$\r\n$$\r\n\\begin{aligned}\r\n&=\\left(\\frac{1+i}{1-i}\\right)^{n}(1-i)^{2} \\\\\r\n=&\\left(\\frac{1+i}{1-i} \\times \\frac{1+i}{1+i}\\right)^{n}\\left(1+i^{2}-2 i\\right) \\\\\r\n=&\\left(\\frac{1+2 i+i^{2}}{1-i^{2}}\\right)^{n}\\left(1+i^{2}-2 i\\right) \\\\\r\n=&\\left(\\frac{1+2 i-1}{1-(-1)}\\right)^{n}(1-1-2 i) \\\\\r\n=&\\left(\\frac{2 i}{2}\\right)^{n}(-2 i) \\\\\r\n=& i^{n}(-2 i)=-2^{n+1}\r\n\\end{aligned}\r\n$$"
+  }
+}

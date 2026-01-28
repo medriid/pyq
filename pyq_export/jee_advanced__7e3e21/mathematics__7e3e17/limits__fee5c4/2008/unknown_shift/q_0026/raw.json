@@ -1,0 +1,63 @@
+{
+  "_id": "64b169e4f23ac7d519f9af6e",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c42",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2008-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008 (Paper 1)",
+      "title": "JEE Advanced 2008 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $g(x)=\\frac{(x-1)^n}{\\log \\cos ^m(x-1)} ; 0 < x < 2, m$ and $n$ are integers, $m \\neq 0, n>0$ and let $p$ be the left hand derivative of $|x-1|$ at $x=1$. If $\\lim _{x \\rightarrow 1^{+}} g(x)=p$, then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "9XcKN",
+      "text": "\n$n=1, m=1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "XumZb",
+      "text": "\n$n=1, m=-1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ZrhMo",
+      "text": "\n$n=2, m=2$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "ERJt1",
+      "text": "\n$n>2, m=n$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $g(x)=\\frac{(x-1)^n}{\\log \\cos ^m(x-1)} ; 0 < x < 2, m \\neq 0, n$ are integers and $|x-1|=\\left\\{\\begin{array}{l}x-1 ; x \\geq 1 \\\\ 1-x ; x < 1\\end{array}\\right.$\nThe left hand derivative of $|x-1|$ at $x=1$ is $p=-1$.\nAlso,\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad \\lim _{h \\rightarrow 0} \\frac{(1+h-1)^n}{\\log \\cos ^m(1+h-1)}=-1 \\Rightarrow \\lim _{h \\rightarrow 0} \\frac{h^n}{\\log \\cos ^m h}=-1 \\\\\n& \\Rightarrow \\quad \\lim _{h \\rightarrow 0} \\frac{h^n}{m \\log \\cos h}=-1\n\\end{aligned}\n$$\n[Using L' Hospital rule]\n$$\n\\begin{array}{ll}\n\\Rightarrow & \\quad \\lim _{h \\rightarrow 0} \\frac{n \\cdot h^{n-1}}{m \\frac{1}{\\cos h}(-\\sin h)}=-1 \\\\\n\\Rightarrow \\quad & \\quad \\lim _{h \\rightarrow 0}\\left(-\\frac{n}{m}\\right) \\cdot \\frac{h^{n-2}}{\\left(\\frac{\\tan h}{h}\\right)}=-1 \\\\\n\\Rightarrow \\quad & \\quad\\left(\\frac{n}{m}\\right) \\lim _{h \\rightarrow 0} \\frac{h^{n-2}}{\\left(\\frac{\\tan h}{h}\\right)}=1 \\\\\n\\Rightarrow & n=2 \\text { and } \\frac{n}{m}=1 \\\\\n\\therefore & \\quad m=n=2\n\\end{array}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c42",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2008-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008 (Paper 1)",
+    "title": "JEE Advanced 2008 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

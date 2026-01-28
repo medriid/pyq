@@ -1,0 +1,43 @@
+{
+  "index": 33,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The integrating factor of the differential equation $\\left(1+x^{2}\\right) \\frac{d y}{d x}+y=e^{\\tan ^{-1} x}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\tan ^{-1} x$",
+      "is_correct": false
+    },
+    {
+      "text": "$1+x^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^{\\tan -1 x}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\log \\left(1+x^{2}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given equation is\r\n$$\r\n\\left(1+x^{2}\\right) \\frac{d y}{d x}+y=e^{\\tan ^{-1} x}\r\n$$\r\nor it can be rewritten as\r\n$$\r\n\\frac{d y}{d x}+\\frac{1}{\\left(1+x^{2}\\right)} y=\\frac{e^{\\tan ^{-1} x}}{1+x^{2}}\r\n$$\r\nIt is a linear differential equation of the form of\r\n$$\r\n\\frac{d y}{d x}+P y=Q\r\n$$\r\nwhere, $P=\\frac{1}{1+x^{2}}$ and $Q=\\frac{e^{\\tan ^{-1} x}}{1+x^{2}}$\r\n$$\r\n=e^{\\int \\frac{1}{1+x^{2}} d x}=e^{\\tan ^{-1} x}\r\n$$"
+  }
+}

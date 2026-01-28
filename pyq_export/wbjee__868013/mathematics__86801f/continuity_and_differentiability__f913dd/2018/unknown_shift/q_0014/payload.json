@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d10462f802c3ef913dd",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f:[a, b] \\rightarrow R$ be such that $f$ is differentiable in $(a, b)$ is continuous at $x=a$ and $x=b$ and moreover $f(a)=0=f(b)$. Then"
+  },
+  "options": [
+    {
+      "text": "there exists at least one point $c$ in $(a,b)$ such that $f^{\\prime}=f$",
+      "is_correct": true
+    },
+    {
+      "text": "$f^{\\prime}(x)=f(x)$ does not hold at any point in $(a, b)$",
+      "is_correct": false
+    },
+    {
+      "text": "at every point of $(a, b) f^{\\prime}(x)>f(x)$",
+      "is_correct": false
+    },
+    {
+      "text": "at every point of $(a, b), f^{\\prime}(x)    < f(x)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $g(x)=e^{-x} f(x)$\r\nsuch that $g(a)=0, g(b)=0$\r\nand $g(x)$ is continuous and differentiable.\r\nThen, for atleast one value of $c \\in(a, b)$ such that $g(c)=0$\r\nNow, $g(x)=e^{-x} f^{\\prime}(x)+\\left(-e^{-x}\\right) f(x)$\r\n$\\Rightarrow \\quad g(c)=e^{-c} f^{\\prime}(c)+\\left(-e^{-\\ell}\\right) f(c)=0$\r\n$\\Rightarrow e^{-c} f^{\\prime}(c)=e^{-c} f(c) \\Rightarrow f^{\\prime}(c)=f(c)$"
+  }
+}

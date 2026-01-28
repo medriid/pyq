@@ -1,0 +1,63 @@
+{
+  "_id": "66446744970e6e9ab542d1bc",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda6e",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-08T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (08 Apr Shift 1)",
+      "title": "JEE Main 2024 (08 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "The value of $k \\in \\mathrm{N}$ for which the integral $I_n=\\int_0^1\\left(1-x^k\\right)^n d x, n \\in \\mathbb{N}$, satisfies $147 I_{20}=148 I_{21}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "FusFa",
+      "text": "14",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "R3JJt",
+      "text": "8",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "R2Qvw",
+      "text": "10",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "mF0Ys",
+      "text": "7",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & I_n=\\int_0^1\\left(1-x^k\\right)^n \\cdot 1 d x \\\\ & I_n=\\left(1-x^k\\right)^n \\cdot x-n k \\int_0^1\\left(1-x^k\\right)^{n-1} \\cdot x^{k-1} \\cdot d x \\\\ & I_n=n k \\int_0^1\\left[\\left(1-x^k\\right)^n-\\left(1-x^k\\right)^{n-1}\\right] d x \\\\ & I_n=n k I_n-n k I_n \\\\ & \\frac{I_n}{I_{n-1}}=\\frac{n k}{n k+1} \\\\ & \\frac{I_{21}}{I_{20}}=\\frac{21 k}{1+21 k} \\\\ & =\\frac{147}{148} \\Rightarrow k=7\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda6e",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-08T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (08 Apr Shift 1)",
+    "title": "JEE Main 2024 (08 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

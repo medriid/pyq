@@ -1,0 +1,44 @@
+{
+  "index": 0,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2025 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602556cd23bba7eaa346dc",
+    "chapter_name": "Functions",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathbb{N}$ denote the set of all natural numbers, and $\\mathbb{Z}$ denote the set of all integers. Consider the functions $f: \\mathbb{N} \\rightarrow \\mathbb{Z}$ and $g: \\mathbb{Z} \\rightarrow \\mathbb{N}$ defined by\n$f(n)= \\begin{cases}(n+1) / 2 & \\text { if } n \\text { is odd } \\\\ (4-n) / 2 & \\text { if } n \\text { is even }\\end{cases}$ And\n$g(n)=\\left\\{\\begin{array}{cc}3+2 n & \\text { if } n \\geq 0 \\\\ -2 n & \\text { if } n <0\\end{array}\\right.$\nDefine $(g \\circ f)(n)=g(f(n))$ for all $n \\in \\mathbb{N}$, and $(f \\circ g)(n)=f(g(n))$ for all $n \\in \\mathbb{Z}$.\nThen which of the following statements is (are) TRUE?"
+  },
+  "options": [
+    {
+      "text": "$g \\circ f$ is NOT one-one and $g \\circ f$ is NOT onto",
+      "is_correct": true
+    },
+    {
+      "text": "$f \\circ \\mathrm{~g}$ is NOT one-one but $f \\circ g$ is onto",
+      "is_correct": false
+    },
+    {
+      "text": "$g$ is one-one and $g$ is onto",
+      "is_correct": false
+    },
+    {
+      "text": "$f$ is NOT one-one but $f$ is onto",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& f(n)= \\begin{cases}(n+1) / 2 & \\text { if } n \\text { is odd } \\\\\n(4-n) / 2 & \\text { if } n \\text { is even }\\end{cases} \\\\\n& f(n)=\\{(1,1),(2,1),(3,2),(4,0),(5,3),(6,-1), \\ldots\\}\n\\end{aligned}$\n$\\therefore \\mathrm{f}(\\mathrm{n})$ is many one and onto function\n$\\begin{aligned}\n& \\mathrm{g}(\\mathrm{n})=\\left\\{\\begin{array}{cc}\n3+2 \\mathrm{n} & \\text { if } \\mathrm{n} \\geq 0 \\\\\n-2 \\mathrm{n} & \\text { if } \\mathrm{n} <0\n\\end{array}\\right. \\\\\n& \\mathrm{g}(\\mathrm{n})=\\{(-3,6),(-2,4),(-1,2),(0,3),(1,5),(2,7),(3,9),(4,15), \\ldots\\}\n\\end{aligned}$\n$\\therefore \\mathrm{g}(\\mathrm{n})$ is one-one and into function\n$\\mathrm{f}(\\mathrm{~g}(\\mathrm{n}))=2+\\mathrm{n}, \\mathrm{n} \\in \\mathrm{~N}$\nfog is one-one and into\n$g(f(n))= \\begin{cases}4+n & \\text { if } n \\text { is odd natural number } \\\\ 7-n & \\text { if } n=2,4 \\\\ n-4 & \\text { if } n \\text { is even natural number and } n \\geq 6\\end{cases}$\n$g(f(2))=g(f(1))=5$\n$\\therefore$ gof is many one and into"
+  }
+}

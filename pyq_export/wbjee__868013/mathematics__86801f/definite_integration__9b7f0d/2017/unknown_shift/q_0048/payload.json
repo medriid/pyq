@@ -1,0 +1,43 @@
+{
+  "index": 48,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of the integral $\\int_{0}^{1} e^{x^{2}} d x$"
+  },
+  "options": [
+    {
+      "text": "is less than 1",
+      "is_correct": false
+    },
+    {
+      "text": "is greater than 1",
+      "is_correct": false
+    },
+    {
+      "text": "is less than or equal to 1",
+      "is_correct": false
+    },
+    {
+      "text": "lies in the closed interval $[1, e]$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "We know that, $0 \\leq x \\leq 1$ $\\Rightarrow \\quad x^{2} \\leq 1$\r\n$\\begin{array}{ll}\\Rightarrow & e^{x^{2}} \\leq e \\\\ \\Rightarrow & \\int_{0}^{1} e^{x^{2}} d x \\leq \\int_{0}^{1} e d x \\\\ \\Rightarrow & \\int_{0}^{1} e^{x^{2}} d x \\leq e \\\\ \\therefore \\quad \\int_{0}^{-} e^{x^{2}} \\in[1, e]\\end{array}$"
+  }
+}

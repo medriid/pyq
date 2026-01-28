@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602527bd39a958e960a359",
+    "chapter_name": "Complex Number",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Among the statements<br/>(S1) : The set $\\left\\{\\mathrm{z} \\in \\mathbb{C}-\\{-\\mathrm{i}\\}:|\\mathrm{z}|=1\\right.$ and $\\frac{\\mathrm{z}-\\mathrm{i}}{\\mathrm{z}+\\mathrm{i}}$ is purely real} contains exactly two elements, and (S2) : The set $\\left\\{\\mathrm{z} \\in \\mathbb{C}-\\{-1\\}:|\\mathrm{z}|=1\\right.$ and $\\frac{\\mathrm{z}-1}{\\mathrm{z}+1}$ is purely imaginary contains infinitely many elements."
+  },
+  "options": [
+    {
+      "text": "both are incorrect",
+      "is_correct": false
+    },
+    {
+      "text": "only (S1) is correct",
+      "is_correct": false
+    },
+    {
+      "text": "only (S2) is correct",
+      "is_correct": true
+    },
+    {
+      "text": "both are correct",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{S}_1:|\\mathrm{z}|=1, \\frac{\\mathrm{z}-\\mathrm{i}}{\\mathrm{z}+\\mathrm{i}}=\\frac{\\overline{\\mathrm{z}}+\\mathrm{i}}{\\overline{\\mathrm{z}}-\\mathrm{i}} \\\\ & \\Rightarrow(\\mathrm{z}-\\mathrm{i})(\\overline{\\mathrm{z}}-\\mathrm{i})=(\\mathrm{z}+\\mathrm{i})(\\overline{\\mathrm{z}}+\\mathrm{i}) \\\\ & |\\mathrm{z}|^2-\\mathrm{i}(\\mathrm{z}+\\overline{\\mathrm{z}})-1=|\\mathrm{z}|^2+\\mathrm{i}(\\mathrm{z}+\\overline{\\mathrm{z}})-1 \\\\ & \\mathrm{i}(\\mathrm{z}+\\overline{\\mathrm{z}})=0 \\\\ & \\mathrm{z}+\\overline{\\mathrm{z}}=2 \\cos \\theta=0 \\Rightarrow \\cos \\theta=0 \\\\ & \\mathrm{z}=0+0 \\mathrm{i},|\\mathrm{z}| \\neq 1 \\\\ & \\mathrm{~S}_1: \\frac{\\mathrm{z}-1}{\\mathrm{z}+1}+\\frac{\\overline{\\mathrm{z}}-1}{\\overline{\\mathrm{z}}+1}=0 \\\\ & (\\mathrm{z}-1)(\\overline{\\mathrm{z}}+1)+(\\mathrm{z}+1)(\\overline{\\mathrm{z}}-1)=0 \\\\ & \\Rightarrow|\\mathrm{z}|^2+(\\mathrm{z}-\\overline{\\mathrm{z}})-1+|\\mathrm{z}|^2+(\\mathrm{z}-\\overline{\\mathrm{z}})-1=0 \\\\ & |\\mathrm{z}|^2=1\\end{aligned}$"
+  }
+}

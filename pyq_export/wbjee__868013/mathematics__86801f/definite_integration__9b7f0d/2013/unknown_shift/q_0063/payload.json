@@ -1,0 +1,43 @@
+{
+  "index": 63,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of integral $\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{3}}\\frac{(sinx-xcosx)}{x(x+sinx)}dx$ is"
+  },
+  "options": [
+    {
+      "text": "$\\log _{e}\\left\\{\\frac{2(\\pi+3)}{(2 \\pi+3 \\sqrt{3})}\\right\\}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\log _{e}\\left\\{\\frac{\\pi+3}{2(2 \\pi+3 \\sqrt{3})}\\right\\}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log _{e}\\left\\{\\frac{2 \\pi+3 \\sqrt{3}}{2(\\pi+3)}\\right\\}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log _{e}\\left\\{\\frac{2(2 \\pi+3 \\sqrt{3})}{\\pi+3}\\right\\}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $l=\\int_{\\pi / 6}^{\\pi / 3} \\frac{(\\sin x-x \\cos x)}{x(x+\\sin x)} d x$\r\n$\\Rightarrow \\quad I=\\int_{\\pi / 6}^{\\pi / 3} \\frac{(x+\\sin x)-x(1+\\cos x)}{x(x+\\sin x)} d x$\r\n$\\Rightarrow \\quad I=\\int_{\\pi / 6}^{\\pi / 3}\\left(\\frac{1}{x}-\\frac{1+\\cos x}{x+\\sin x}\\right) d x$\r\n$\\Rightarrow \\quad 1=[\\log \\times]_{\\pi / 6}^{\\pi / 3}-\\int_{\\pi / 6}^{\\pi / 3} \\frac{1+\\cos x}{x+\\sin x} \\cdot d x$\r\n$\\left\\{\\begin{array}{l}\\text { put } t=x+\\sin x \\\\ \\text { ot }=(1+\\cos x) d x\\end{array}\\right.$ in lind term\r\n$\\Rightarrow \\quad I=\\left(\\log \\frac{\\pi}{3}-\\log \\frac{\\pi}{6}\\right)-\\int\\left(\\frac{\\pi}{3}+\\frac{\\sqrt{3}}{2}\\right) \\frac{d t}{t}$\r\n$\\Rightarrow \\quad I=\\log 2-\\left[\\log t \\mid\\left(\\frac{\\pi}{3}+\\frac{\\sqrt{3}}{2}\\right)\\right.$\r\n$\\Rightarrow \\quad 1=\\log 2-\\left[\\log \\left(\\frac{\\pi}{3}+\\frac{\\sqrt{3}}{2}\\right)-\\log \\left(\\frac{\\pi}{6}+\\frac{1}{2}\\right)\\right]$\r\n$\\Rightarrow \\quad I=\\log 2-\\log \\left(\\frac{2 \\pi+3 \\sqrt{3}}{\\pi+3}\\right)$\r\n$\\left(\\because \\log m-\\log n=\\log \\frac{m}{n}\\right)$\r\n$I=\\log \\left(\\frac{2(\\pi+3)}{2 \\pi+3 \\sqrt{3}}\\right)$\r\n$=\\log \\left(\\frac{2 \\pi+6}{2 \\pi+3 \\sqrt{3}}\\right)$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 26,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $y=e^{-x} \\cos 2 x$, then which of the following differential equation is satisfied?"
+  },
+  "options": [
+    {
+      "text": "$\\frac{d^{2} y}{d x^{2}}+2 \\frac{d y}{d x}+5 y=0$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{d^{2} y}{d x^{2}}+5 \\frac{d y}{d x}+2 y=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{d^{2} y}{d x^{2}}-5 \\frac{d y}{d x}-2 y=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\sigma^{2} y}{d x^{2}}+2 \\frac{d y}{d x}-5 y=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given, $y=e^{-x} \\cos 2 x$\r\n$\\therefore \\quad \\frac{d y}{d x}=e^{-x}(-\\sin 2 x) 2+\\cos 2 x \\cdot e^{-x}(-1)$\r\n$\\Rightarrow \\quad \\frac{d y}{d x}=-2 \\sin 2 x \\cdot e^{-x}-y$\r\n$\\Rightarrow \\quad \\frac{d y}{d x}+y=-2 \\sin 2 x \\cdot e^{-x}$\r\n$\\Rightarrow \\frac{d^{2} y}{d x^{2}}+\\frac{d y}{d x}=-2\\left[\\sin 2 x \\cdot e^{-x}(-1)\\right. \\left.e^{-x} 2 \\cos 2 x\\right]$\r\n$=2 \\sin 2 x \\cdot e^{-x}-4 y \\quad$ |from Eq. $\\left.(0)\\right]$\r\n$\\Rightarrow \\frac{d^{2} y}{d x^{2}}+\\frac{d y}{d x}=-\\frac{d y}{d x}-y-4 y$\r\n$\\Rightarrow \\quad \\frac{d^{2} y}{d x^{2}}+2 \\frac{d y}{d x}+5 y=0$"
+  }
+}

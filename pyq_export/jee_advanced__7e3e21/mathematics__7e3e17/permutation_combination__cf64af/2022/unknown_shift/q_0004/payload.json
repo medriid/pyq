@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2022 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252aaac414b50bcf64af",
+    "chapter_name": "Permutation Combination",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>&nbsp;boxes, where each box contains <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> red balls and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> blue balls. Assume that all <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math> balls are distinct. In how many different ways can <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math> balls be chosen from these <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> boxes so that from each box at least one red ball and one blue ball are chosen?"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21816</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>85536</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12096</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>156816</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<blockquote><p>Let the four boxes be Box-1, Box-2, Box-3 and Box-4. Each of the box has&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>&nbsp;red balls and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>&nbsp;blue balls.</p><p><img src=\"assets\\st0004_228b5befb9d8.png\" style=\"width: 475px; height: 200px;\" /></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math>&nbsp;balls can be chosen in:</p><p>Case I - When exactly one box gives four balls</p><p>Case II - When exactly two boxes gives three balls</p><p>Required number of ways<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo></math>&nbsp;Number of ways in Case I&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>+</mo></math> Number of ways in Case II.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts><mfenced close=\"]\" open=\"[\"><mrow><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts></mrow></mfenced><msup><mfenced><mrow><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts></mrow></mfenced><mn>3</mn></msup><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts><msup><mfenced close=\"]\" open=\"[\"><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts></mrow></mfenced><mn>2</mn></msup><msup><mfenced close=\"]\" open=\"[\"><mrow><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts></mrow></mfenced><mn>2</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mfenced><mn>5</mn></mfenced><msup><mfenced><mn>6</mn></mfenced><mn>3</mn></msup><mo>+</mo><mn>6</mn><msup><mfenced><mrow><mn>3</mn><mo>&#215;</mo><mn>2</mn><mo>+</mo><mn>3</mn></mrow></mfenced><mn>2</mn></msup><msup><mfenced><mn>6</mn></mfenced><mn>2</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4320</mn><mo>+</mo><mn>17496</mn><mo>=</mo><mn>21816</mn></math></p></blockquote>"
+  }
+}

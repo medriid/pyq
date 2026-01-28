@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a24f23ac7d519f9b1b5",
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c4b",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2012-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (Paper 2)",
+      "title": "JEE Advanced 2012 (Paper 2)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Let $f(x)=(1-x)^{2} \\sin ^{2} x+x^{2}$ for all $x \\in I R$ and let $g(x)=\\int_{1}^{x}\\left(\\frac{2(t-1)}{t+1}-\\ln t\\right) f(t) d t$ for all $x \\in(1, \\infty)$.\r\n\r\n<strong> Question:</strong> Which of the following is true?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "BZbOE",
+      "text": "$g$ is increasing on $(1, \\infty)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "2CSSX",
+      "text": "$g$ is decreasing on $(1, \\infty)$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "V1kVn",
+      "text": "$g$ is increasing on $(1,2)$ and decreasing on $(2, \\infty)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "zxrfq",
+      "text": "$g$ is decreasing on $(1,2)$ and increasing on $(2, \\infty)$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$g(x)=\\int_{1}^{x}\\left(\\frac{2(t-1)}{t+1}-\\ln t\\right) f(t) d t$, $\\therefore \\quad g^{\\prime}(x)=\\left[\\frac{2(x-1)}{x+1}-\\ln x\\right] f(x)$\r\n\r\nHere $f(x)>0, \\forall x \\in(1, \\infty)$\r\n\r\nLet $h(x)=\\frac{2(x-1)}{x+1}-\\ln x$\r\n\r\n$\\therefore \\quad h^{\\prime}(x)=\\frac{4}{(x+1)^{2}}-\\frac{1}{x}=\\frac{-(x-1)^{2}}{(x+1)^{2} x} < 0, x \\in(1, \\infty)$\r\n\r\n$\\Rightarrow h(x)$ is decreasing function.\r\n\r\nHence, for $x>1, h(x) < h(1) \\Rightarrow h(x) < 0 \\forall x>1$\r\n\r\n$\\Rightarrow g^{\\prime}(x) < 0 \\forall x \\in(1, \\infty)$\r\n\r\nTherefore, $g(x)$ is decreasing on $(1, \\infty)$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c4b",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2012-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (Paper 2)",
+    "title": "JEE Advanced 2012 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,44 @@
+{
+  "index": 20,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2008 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602538583ba4ad9c2b8d66",
+    "chapter_name": "Straight Lines",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A straight line through the vertex $P$ of a $\\triangle P Q R$ intersects the side $Q R$ at the point $S$ and the circumcircle of the $\\triangle P Q R$ at the point $T$. If $S$ is not the centre of the circumcircle, then"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{P S}+\\frac{1}{S T} < \\frac{2}{\\sqrt{Q S \\cdot S R}}$",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{P S}+\\frac{1}{S T}>\\frac{2}{\\sqrt{Q S \\cdot S R}}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{1}{P S}+\\frac{1}{S T} < \\frac{4}{Q R}$",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{P S}+\\frac{1}{S T}>\\frac{4}{Q R}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "D"
+  ],
+  "solution": {
+    "text": "Let a straight line through the vertex $P$ of a given $\\triangle P Q R$ intersects the side $Q R$ at the point $S$ and the circumcircle of $\\triangle P Q R$ at the point $T$.\nPoints $P, Q, R, T$ are concyclic, hence\n$$\n\\begin{array}{rlrl}\nP S \\cdot S T & =Q S \\cdot S R & & \\\\\n\\Rightarrow \\quad P_1 & \\geq 2 \\sqrt{P S \\cdot S T} & \\\\\n& \\text { Now, } \\frac{P S+S T}{2} & \\geq \\sqrt{P S \\cdot S T} & {[\\because \\mathrm{AM} \\geq \\mathrm{GM}]}\n\\end{array}\n$$\n<img src=\"assets\\st0020_dabcc85ce76f.png\"><br>\nand $\\quad \\frac{1}{P S}+\\frac{1}{S T} \\geq \\frac{2}{\\sqrt{P S \\cdot S T}}=\\frac{2}{\\sqrt{Q S \\cdot S R}}$\nAlso, $\\quad \\frac{S Q+Q R}{2} \\geq \\sqrt{S Q \\cdot S R}$\n$\\Rightarrow \\quad \\frac{Q R}{2} \\geq \\sqrt{S Q \\cdot S R}$\n\n$$\n\\begin{array}{ll}\n\\Rightarrow & \\frac{1}{\\sqrt{S Q \\cdot S R}} \\geq \\frac{2}{Q R} \\Rightarrow \\frac{2}{\\sqrt{S Q \\cdot S R}} \\geq \\frac{4}{Q R} \\\\\n\\text { Hence, } & \\frac{1}{P S}+\\frac{1}{S T} \\geq \\frac{2}{\\sqrt{Q S \\cdot S R}} \\geq \\frac{4}{Q R} .\n\\end{array}\n$$"
+  }
+}

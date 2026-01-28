@@ -1,0 +1,43 @@
+{
+  "index": 54,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025663b8251277a1f0b02",
+    "chapter_name": "Area Under Curves",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area (in sq. units) bounded by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfenced open=\"{\" close=\"\" separators=\"|\"><mtable columnalign=\"left\"><mtr><mtd><msup><mi>e</mi><mi>x</mi></msup></mtd><mtd><mo>:</mo></mtd><mtd><mi>x</mi><mo>&#8805;</mo><mn>0</mn></mtd></mtr><mtr><mtd><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></mtd><mtd><mo>:</mo></mtd><mtd><mi>x</mi><mo>&#8804;</mo><mn>0</mn></mtd></mtr></mtable></mfenced></math> with the <math><mi>x</mi></math>-axis from <math><mi>x</mi><mo>=</mo><mo>-</mo><mn>1</mn></math> to <math><mi>x</mi><mo>=</mo><mn>1</mn></math> is"
+  },
+  "options": [
+    {
+      "text": "<math><mi>e</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>2</mn><mi>e</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>2</mn><mi>e</mi><mo>-</mo><mn>2</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mn>2</mn><mi>e</mi><mo>+</mo><mn>2</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0054_9f042332946f.png\" style=\"width: 248px; height: 150px;\" /><br /><br />Required area <math><mo>=</mo><mrow><munderover><mo stretchy=\"false\">&#8747;</mo><mrow><mo>-</mo><mn>1</mn></mrow><mrow><mn>0</mn></mrow></munderover><mrow><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi><mo>+</mo></mrow></mrow><mrow><munderover><mo stretchy=\"false\">&#8747;</mo><mrow><mn>0</mn></mrow><mrow><mn>1</mn></mrow></munderover><mrow><msup><mrow><mi>e</mi></mrow><mrow><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></mrow></mrow></math><br /><br /><math><mo>=</mo><msubsup><mrow><mfenced separators=\"|\"><mrow><mo>-</mo><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mi>x</mi></mrow></msup></mrow></mfenced></mrow><mrow><mo>-</mo><mn>1</mn></mrow><mrow><mn>0</mn></mrow></msubsup><mo>+</mo><msubsup><mrow><mfenced separators=\"|\"><mrow><msup><mrow><mi>e</mi></mrow><mrow><mi>x</mi></mrow></msup></mrow></mfenced></mrow><mrow><mn>0</mn></mrow><mrow><mn>1</mn></mrow></msubsup></math><br /><br /><math><mo>=</mo><mfenced separators=\"|\"><mrow><mo>-</mo><mn>1</mn><mo>+</mo><mi>e</mi></mrow></mfenced><mo>+</mo><mfenced separators=\"|\"><mrow><mi>e</mi><mo>-</mo><mn>1</mn></mrow></mfenced></math><br /><br /><math><mo>=</mo><mn>2</mn><mi>e</mi><mo>-</mo><mn>2</mn></math>&nbsp;sq. units"
+  }
+}

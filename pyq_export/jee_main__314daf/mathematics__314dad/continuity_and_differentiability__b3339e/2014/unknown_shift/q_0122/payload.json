@@ -1,0 +1,43 @@
+{
+  "index": 122,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathrm{f}, \\mathrm{g}: \\mathrm{R} \\rightarrow \\mathrm{R}$ be two functions defined by $f(x)= \\begin{cases}x \\sin \\left(\\frac{1}{x}\\right) & , x \\neq 0 \\\\ 0, & , x=0\\end{cases}$ and $g(x)=x f(x)$\nStatement I: $f$ is a continuous function at $\\mathrm{x}=0$.\nStatement II: $g$ is a differentiable function at $x=0$."
+  },
+  "options": [
+    {
+      "text": "\nBoth statement I and II are false.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nBoth statement I and II are true.\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nStatement $\\mathrm{I}$ is true, statement $\\mathrm{II}$ is false.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $\\mathrm{I}$ is false, statement $\\mathrm{II}$ is true.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n&f(x)= \\begin{cases}x \\sin \\left(\\frac{1}{x}\\right), & x \\neq 0 \\\\\n0, & x=0\\end{cases} \\\\\n&\\text { and } g(x)=x f(x) \\\\\n&\\text { For } f(x) \\\\\n&\\mathrm{LHL}=\\lim _{h \\rightarrow 0^{-}}\\left\\{-h \\sin \\left(-\\frac{1}{h}\\right)\\right\\}\n\\end{aligned}\n$$\n$=0 \\times$ a finite quantity between $-1$ and 1\n$$\n=0\n$$\n$$\n\\mathrm{RHL}=\\lim _{h \\rightarrow 0^{+}} h \\sin \\frac{1}{h}=0\n$$\nAlso, $f(0)=0$\nThus $\\mathrm{LHL}=\\mathrm{RHL}=f(0)$\n$\\therefore f(x)$ is continuous at $x=0$\n$$\ng(x)= \\begin{cases}x^2 \\sin \\frac{1}{x}, & x \\neq 0 \\\\ 0, & x=0\\end{cases}\n$$\nFor $g(x)$\n\n$$\n\\mathrm{LHL}=\\lim _{h \\rightarrow 0^{-}}\\left\\{-h^2 \\sin \\left(\\frac{1}{h}\\right)\\right\\}\n$$\n$=0^2 \\times$ a finite quantity between $-1$ and $1=0$\n$$\n\\text { RHL }=\\lim _{h \\rightarrow 0^{+}} h^2 \\sin \\left(\\frac{1}{h}\\right)=0\n$$\nAlso $g(0)=0$\n$\\therefore g(x)$ is continuous at $x=0$"
+  }
+}

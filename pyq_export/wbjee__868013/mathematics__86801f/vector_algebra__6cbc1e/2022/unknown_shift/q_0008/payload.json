@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d260a16eb84ab6cbc1e",
+    "chapter_name": "Vector Algebra",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\vec{\\alpha}$ is a unit vector, $\\vec{\\beta}=\\hat{\\mathrm{i}}+\\hat{\\mathrm{j}}-\\hat{\\mathrm{k}}, \\vec{\\gamma}=\\hat{\\mathrm{i}}+\\hat{\\mathrm{k}}$, then the maximum value of $[\\vec{\\alpha} \\vec{\\beta} \\vec{\\gamma}]$ is"
+  },
+  "options": [
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{6}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$[\\vec{\\alpha} \\vec{\\beta} \\vec{\\gamma}]=\\vec{\\alpha} \\cdot(\\vec{\\beta} \\times \\vec{\\gamma})=\\vec{\\alpha} \\cdot\\left|\\begin{array}{ccc}\\hat{i} & \\hat{j} & k \\\\ 1 & 1 & -1 \\\\ 1 & 0 & 1\\end{array}\\right|$\n$=\\vec{\\alpha} \\cdot(\\hat{i}+2 \\hat{j}-\\hat{k})$ is maximum $\\Rightarrow$ angle between $\\vec{\\alpha} \\& \\hat{i}+2 \\hat{j}-\\hat{k}$ will be 0\n$\\therefore[\\vec{\\alpha} \\vec{\\beta} \\vec{\\gamma}]=|\\vec{\\alpha}||\\hat{i}+2 \\hat{j}-\\hat{k}|=\\sqrt{6}$"
+  }
+}

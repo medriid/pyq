@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $x=x(y)$ be the solution of the differential equation $y=\\left(x-y \\frac{\\mathrm{~d} x}{\\mathrm{~d} y}\\right) \\sin \\left(\\frac{x}{y}\\right), y\\gt0$ and $x(1)=\\frac{\\pi}{2}$. Then $\\cos (x(2))$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$1-2\\left(\\log _e 2\\right)^2$",
+      "is_correct": false
+    },
+    {
+      "text": "$1-2\\left(\\log _{\\mathrm{e}} 2\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$2\\left(\\log _e 2\\right)-1$",
+      "is_correct": false
+    },
+    {
+      "text": "$2\\left(\\log _e 2\\right)^2-1$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & y d y=(x d y-y d x) \\sin \\left(\\frac{x}{y}\\right) \\\\ & \\frac{d y}{y}=\\left(\\frac{x d y-y d x}{y^2}\\right) \\sin \\left(\\frac{x}{y}\\right) \\\\ & \\frac{d y}{y}=\\sin \\left(\\frac{x}{y}\\right) d\\left(-\\frac{x}{y}\\right) \\\\ & \\rightarrow \\ell n y=\\cos \\frac{x}{y}+C\\end{aligned}$\n$\\begin{aligned} & x(1)=\\frac{\\pi}{2} \\Rightarrow 0=\\cos \\frac{\\pi}{2}+C \\Rightarrow C=0 \\\\ & \\text { lny }=\\cos \\frac{x}{y} \\\\ & \\text { but } y=2 \\Rightarrow \\cos \\frac{x}{2}=\\ell n 2 \\\\ & \\cos x=2 \\cos ^2 \\frac{x}{2}-1 \\\\ & =2(\\ln 2)^2-1\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2010 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "616023d1aaba018d1712f011",
+    "chapter_name": "Gravitation",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A thin uniform annular disc (see figure) of mass $M$ has outer radius $4 R$ and inner radius $3 R$. The work required to take a unit mass from point $P$ on its axis to infinity is\n<img src=\"assets\\qt0017_7340a81e736b.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{2 G M}{7 R}(4 \\sqrt{2}-5)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$-\\frac{2 G M}{7 R}(4 \\sqrt{2}-5)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{G M}{4 R}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{2 G M}{5 R}(\\sqrt{2}-1)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\text { } \\begin{aligned}\nW=\\Delta U & =U_f-U_i=U_{\\infty}-U_p \\\\\n& =-U_P \\\\\n& =-m V_P \\\\\n& =-V_P \\quad(\\text { as } m=1)\n\\end{aligned}\n$$\nPotential at point $P$ will be obtained by integration as given below\n<img src=\"assets\\st0017_3a65e4f4c552.png\"><br>\n\nLet $d M$ be the mass of small ring as shown\n$$\n\\begin{aligned}\nd M & =\\frac{M}{\\pi(4 R)^2-\\pi(3 R)^2}(2 \\pi r) d r \\\\\n& =\\frac{2 M r d r}{7 R^2} \\\\\nd V_P & =-\\frac{G \\cdot d M}{\\sqrt{16 R^2+r^2}} \\\\\n& =-\\frac{2 G M}{7 R^2} \\int_{3 R}^{4 R} \\frac{r}{\\sqrt{16 R^2+r^2}} \\cdot d r \\\\\n& =-\\frac{2 G M}{7 R}(4 \\sqrt{2}-5) \\\\\n\\therefore \\quad W & =+\\frac{2 G M}{7 R}(4 \\sqrt{2}-5)\n\\end{aligned}\n$$\n$\\therefore$ correct option is (a)."
+  }
+}

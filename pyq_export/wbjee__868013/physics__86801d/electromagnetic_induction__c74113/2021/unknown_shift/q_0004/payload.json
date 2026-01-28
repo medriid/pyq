@@ -1,0 +1,44 @@
+{
+  "index": 4,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c8f2c567a99ecc74113",
+    "chapter_name": "Electromagnetic Induction",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<img src=\"assets\\qt0004_6041a3456d12.png\"><br>\r\nA small bar magnet of dipole moment $M$ is moving with speed $v$ along $x$ direction towards a small closed circular conducting loop of radius ' $a$ ' with its centre $O$ at $x=0$ (see figure). Assume $x>>a$ and the coil has a resistance $R$. Then which of the following statemenmt(s) is/are true?"
+  },
+  "options": [
+    {
+      "text": "Magnetic field at the centre $\\mathrm{O}$ of the circular coil due to the bar magnet is $\\frac{\\mathrm{M}}{\\mathrm{x}^{3}}$",
+      "is_correct": false
+    },
+    {
+      "text": "Induced EMF is proportional to $\\frac{1}{x^{4}}$",
+      "is_correct": true
+    },
+    {
+      "text": "The magnetic moment $\\mu$ due to induced current in the coil is proportional to $\\mathrm{a}^{4}$",
+      "is_correct": true
+    },
+    {
+      "text": "The heat produced is proportional to $\\frac{1}{x^{6}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0004_9d8628394045.png\"><br>\r\nMagnetic field at an axial point is $2\\left(\\frac{\\mu_{0}}{4 \\pi}\\right) \\frac{M}{x^{3}}$\r\n$$\r\n\\phi=2\\left(\\frac{\\mu_{0}}{4 \\pi}\\right) \\frac{M}{x^{3}} \\cdot \\pi a^{2}\r\n$$\r\n$\\mathrm{EMF}=\\frac{-\\mathrm{d} \\phi}{\\mathrm{dt}}=-2\\left(\\frac{\\mu_{0}}{4 \\pi}\\right) \\mathrm{M} \\pi \\mathrm{a}^{2}\\left(\\frac{-3}{\\mathrm{x}^{4}}\\right) \\frac{\\mathrm{dx}}{\\mathrm{dt}}=6\\left(\\frac{\\mu_{0}}{4 \\pi}\\right) \\frac{\\mathrm{M} \\pi \\mathrm{a}^{2}}{\\mathrm{x}^{4}} \\mathrm{~V} \\quad \\mathrm{EMF} \\propto \\frac{1}{\\mathrm{x}^{4}}$\r\nCurrent in coil $=\\frac{E M F}{R} \\quad i=6\\left(\\frac{\\mu_{0}}{4 \\pi}\\right) \\frac{M \\pi a^{2}}{x^{4}} \\frac{V}{R}$\r\nMagnetic moment $\\mu=\\mathrm{i} \\pi \\mathrm{a}^{2}, \\mu \\propto \\mathrm{a}^{4}$\r\nRate at which heat is produced $=\\mathrm{i}^{2} \\mathrm{R} . \\propto \\frac{1}{\\mathrm{x}^{8}}$"
+  }
+}

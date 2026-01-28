@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c989d521687020e0bf6",
+    "chapter_name": "Semiconductors",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Each of the two inputs $A$ and $B$ can assume values either 0 or 1. Then which of the following will be equal to $\\bar{A} \\cdot \\bar{B} ?$"
+  },
+  "options": [
+    {
+      "text": "$A+B$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{}{A+B}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{}{A \\cdot B}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\bar{A}+\\bar{B}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "By using the de-Morgan's law\r\n$$\r\n\\overline{A+B}=\\overline{A \\cdot B}\r\n$$\r\nHence, option (b) is the correct."
+  }
+}

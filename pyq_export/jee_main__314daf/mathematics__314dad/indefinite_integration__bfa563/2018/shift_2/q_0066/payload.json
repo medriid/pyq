@@ -1,0 +1,43 @@
+{
+  "index": 66,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "$$\n\\int \\frac{2 x+5}{\\sqrt{7-6 x-x^2}} d x=A \\sqrt{7-6 x-x^2}+B \\sin ^{-1}\\left(\\frac{x+3}{4}\\right)+C\n$$\n(where $C$ is a constant of integration), then the ordered pair $(A, B)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$(-2,-1)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$(2,-1)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(-2,1)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(2,1)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\because 7-6 x-x^2=16-(x+3)^2$\nand $\\frac{d}{d x}\\left(7-6 x-x^2\\right)=-2 x-6$\nSo, $\\int \\frac{2 x+5}{\\sqrt{7-6 x-x^2}} d x=\\int \\frac{2 x+6}{\\sqrt{7-6 x-x^2}} d x$\n$$\n-\\int \\frac{1}{\\sqrt{16-(x+3)^2}} d x\n$$\n\n$$\n=-2 \\sqrt{7-6 x-x^2}-\\sin ^{-1}\\left(\\frac{x+3}{4}\\right)+C\n$$\nTherefore, $A=-2, \\& B=-1$."
+  }
+}

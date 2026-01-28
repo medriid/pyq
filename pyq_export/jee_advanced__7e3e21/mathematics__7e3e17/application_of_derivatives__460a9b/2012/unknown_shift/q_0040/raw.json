@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a25f23ac7d519f9b1bd",
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c4b",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2012-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (Paper 2)",
+      "title": "JEE Advanced 2012 (Paper 2)"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 3,
+  "question": {
+    "text": "If $f(x)=\\int_{0}^{x} e^{t^{2}}(t-2)(t-3) d t$ for all $x \\in(0, \\infty)$, then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "OsvEv",
+      "text": "$f$ has a local maximum at $x=2$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "boluX",
+      "text": "$f$ is decreasing on $(2,3)$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "toVe1",
+      "text": "there exists some $c \\in(0, \\infty)$, such that $f^{\\prime \\prime}(c)=0$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "JZAog",
+      "text": "$f$ has a local minimum at $x=3$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$f(x)=\\int_{0}^{x} e^{t^{2}}(t-2)(t-3) d t$\r\n\r\n$\\Rightarrow f^{\\prime}(x)=e^{x^{2}} \\cdot(x-2)(x-3)$\r\n\r\nPut $f^{\\prime}(x)=0 \\Rightarrow x=2,3$\r\n\r\n$f^{\\prime \\prime}(x)=e^{x^{2}} \\cdot 2 x\\left(x^{2}-5 x+6\\right)+e^{x^{2}}(2 x-5)$\r\n\r\n$f^{\\prime \\prime}(2)=-$ ve and $f^{\\prime \\prime}(3)=+$ ve\r\n\r\n$\\therefore \\quad x=2$ is a point of local maxima.\r\n\r\nand $x=3$ is a point of local minima.\r\n\r\nAlso for $x \\in(2,3), f^{\\prime}(x) < 0$\r\n\r\n$\\Rightarrow \\quad f$ is decreasing on $(2,3)$.\r\n\r\nAlso we observe $f^{\\prime \\prime}(0) < 0$ and $f^{\\prime \\prime}(1)>0$\r\n\r\n$\\therefore \\quad$ There exists some $C \\in(0,1)$ such that $f^{\\prime \\prime}(C)=0$\r\n\r\nHence all the options are correct.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c4b",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2012-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (Paper 2)",
+    "title": "JEE Advanced 2012 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

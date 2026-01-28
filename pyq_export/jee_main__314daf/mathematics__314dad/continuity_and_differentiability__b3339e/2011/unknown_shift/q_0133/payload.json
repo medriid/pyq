@@ -1,0 +1,43 @@
+{
+  "index": 133,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2011",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $p$ and $q$ for which the function $f(x)=\\left\\{\\begin{array}{cl}\\frac{\\sin (p+1) x+\\sin x}{x} & x < 0 \\\\ q & , x=0 \\\\ \\frac{\\sqrt{x+x^2}-\\sqrt{x}}{x^{3 / 2}} & , x>0\\end{array}\\right.$ is continuous for all $\\mathrm{x}$ in $\\mathrm{R}$, is"
+  },
+  "options": [
+    {
+      "text": "\n$p=\\frac{5}{2}, q=\\frac{1}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$p=-\\frac{3}{2}, q=\\frac{1}{2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$p=\\frac{1}{2}, q=\\frac{3}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$p=\\frac{1}{2}, q=-\\frac{3}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow 0} \\frac{\\sin (p+1)+\\sin x}{x}=q=\\lim _{x \\rightarrow 0} \\frac{\\sqrt{x+x^2}-\\sqrt{x}}{x^{3 / 2}}$\n$\\lim _{x \\rightarrow 0}(p+1) \\cos (p+1) x+\\cos x=q=\\frac{1}{2}$\n$\\Rightarrow p+1+1=\\frac{1}{2} \\Rightarrow p=-\\frac{3}{2} ; q=\\frac{1}{2}$"
+  }
+}

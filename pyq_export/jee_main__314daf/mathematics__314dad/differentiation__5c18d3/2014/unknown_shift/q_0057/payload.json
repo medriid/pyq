@@ -1,0 +1,43 @@
+{
+  "index": 57,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255a501b352fc65c18d3",
+    "chapter_name": "Differentiation",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f$ and $g$ be two differentiable functions on $R$ such that $f^{\\prime}(x)>0$ and $g^{\\prime}(x) < 0$ for all $x \\in R$. Then for all $\\mathrm{x}$ :"
+  },
+  "options": [
+    {
+      "text": "\n$f(g(x))>f(g(x-1))$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$f(g(x))>f(g(x+1))$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$g(f(x))>g(f(x-1))$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$g(f(x)) < g(f(x+1))$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Since $f^{\\prime}(x)>0$ and $g^{\\prime}(x) < 0$, therefore $f(x)$ is increasing function and $g(x)$ is decreasing function.\n$\\Rightarrow f(x+1)>f(x)$ and $g(x+1) < g(x)$\n$\\Rightarrow g[f(x+1)] < g[f(x)]$ and $f[g(x+$\n1) $] < f[g(x)]$\nHence option (b) is correct."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2025",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f94a5a526011886801e",
+    "subject_name": "Chemistry",
+    "chapter_id": "61964c9ee500d73826f0f3b9",
+    "chapter_name": "Chemical Equilibrium",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider the following gas phase dissociation, $\\mathrm{PCl}_5(\\mathrm{~g}) \\rightleftharpoons \\mathrm{PCl}_3(\\mathrm{~g})+\\mathrm{Cl}_2(\\mathrm{~g})$ with equilibrium constant $\\mathrm{K}_{\\mathrm{p}}$ at a particular temperature and at pressure $P$. The degree of dissociation $(\\alpha)$ for $\\mathrm{PCl}_5(\\mathrm{~g})$ is"
+  },
+  "options": [
+    {
+      "text": "$\\alpha=\\left(\\frac{K_P}{K_P+P}\\right)^{1 / 3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\alpha=\\left(\\frac{\\mathrm{K}_{\\mathrm{P}}}{\\mathrm{K}_{\\mathrm{P}}+\\mathrm{P}}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\alpha=\\left(\\frac{\\mathrm{K}_{\\mathrm{P}}}{\\mathrm{K}_{\\mathrm{P}}+\\mathrm{P}}\\right)^{1 / 2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\alpha=\\left(\\frac{\\mathrm{K}_{\\mathrm{P}}}{\\mathrm{K}_{\\mathrm{P}}+\\mathrm{P}}\\right)^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{array}{lccc} & \\mathrm{PCl}_5(\\mathrm{g}) &\\rightleftharpoons & \\mathrm{PCl}_3(\\mathrm{g}) & + & \\mathrm{Cl}_2(\\mathrm{g}) \\\\\n\\text{initially} & 1 & & 0 & & 0 \\\\\n\\text{moles taken} & & & \\\\\n\\begin{array}{l} \\text{moles of equilibrium} \\end{array} & 1-\\alpha & & \\alpha & & \\alpha \\\\\n& & &\\end{array}$\n$\\begin{array}{ll}\\mathrm{K}_{\\mathrm{P}}=\\frac{\\mathrm{P}_{\\mathrm{PC}_3} \\cdot \\mathrm{P}_{\\mathrm{Cl}_2}}{\\mathrm{P}_{\\mathrm{PCl}_5}} & \\because \\mathrm{P}=\\mathrm{X}_{\\mathrm{gas}} \\cdot \\mathrm{P}_{\\mathrm{T}} \\\\\n\\mathrm{K}_{\\mathrm{P}}=\\frac{\\left(\\frac{\\alpha}{1+\\alpha} \\cdot \\mathrm{P}\\right)^2}{\\left(\\frac{1-\\alpha}{1+\\alpha} \\cdot \\mathrm{P}\\right)} & \\mathrm{X}_{\\mathrm{PC}_3}=\\mathrm{X}_{\\mathrm{Cl}_2}=\\frac{\\alpha}{1+\\alpha} \\\\\n\\mathrm{K}_{\\mathrm{P}}=\\frac{\\alpha^2 \\mathrm{P}}{1-\\alpha^2} & \\mathrm{X}_{\\mathrm{PC}_5}=\\frac{1-\\alpha}{1+\\alpha} \\\\\n\\alpha=\\left(\\frac{\\mathrm{K}_{\\mathrm{P}}}{\\mathrm{K}_{\\mathrm{P}}+\\mathrm{P}}\\right)^{1 / 2} & \\end{array}$"
+  }
+}

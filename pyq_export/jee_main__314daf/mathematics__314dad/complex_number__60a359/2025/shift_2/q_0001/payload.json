@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602527bd39a958e960a359",
+    "chapter_name": "Complex Number",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If the locus of $z \\in \\mathrm{C}$, such that<br/>$\\operatorname{Re}\\left(\\frac{z-1}{2 z+\\mathrm{i}}\\right)+\\operatorname{Re}\\left(\\frac{\\bar{z}-1}{2 \\bar{z}-\\mathrm{i}}\\right)=2$<br/>is a circle of radius $r$ and center $(a, b)$ then $\\frac{15 a b}{r^2}$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "24",
+      "is_correct": false
+    },
+    {
+      "text": "12",
+      "is_correct": false
+    },
+    {
+      "text": "18",
+      "is_correct": true
+    },
+    {
+      "text": "16",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}<br/>& \\operatorname{Re}\\left(\\frac{z-1}{2 z+i}\\right)+\\operatorname{Re}\\left(\\frac{\\bar{z}-1}{2 \\bar{z}-i}\\right)=2 \\\\\n& \\text { Here, } \\frac{z-1}{2 z+i}=\\left(\\frac{\\overline{\\bar{z}-1}}{2 \\bar{z}-i}\\right)=2 \\\\\n& =\\operatorname{Re}\\left(\\frac{z-1}{2 z+i}\\right)+\\operatorname{Re}\\left(\\frac{\\mathrm{z}-1}{2 z+i}\\right)=2 \\\\\n& =2 \\operatorname{Re}\\left(\\frac{z-1}{2 z+1}\\right)=2 \\Rightarrow \\operatorname{Re}\\left(\\frac{z-1}{2 z+i}\\right)=1<br/>\\end{aligned}$<br/>Let $z=x+i y$<br/>$\\begin{aligned}<br/>& \\operatorname{Re}\\left(\\frac{(x-1)+i y}{2 x+i(2 y+1)}\\right)=1 \\Rightarrow \\operatorname{Re}\\left[\\frac{((x-1)+i y)(2 x-i(y+1)}{(2 x+i(2 y+1)(2 x-i(2 y+1))}\\right]=1 \\\\\n& \\Rightarrow \\frac{2 x(x-1)+y(2 y+1)}{4 x^2+(2 y+1)^2}=1 \\\\\n& \\Rightarrow 2 x^2-2 x+2 y^2+y=4 x^2+4 y^2+1+4 y \\\\\n& \\Rightarrow 2 x^2+2 y^2+3 y+2 x+1=0 \\\\\n& \\Rightarrow x^2+y^2+x+\\frac{3}{2} y+\\frac{1}{2}=0 \\\\\n& \\text { centre }=\\left(\\frac{-1}{2}, \\frac{-3}{4}\\right), r=\\sqrt{\\frac{1}{4}+\\frac{9}{16}-\\frac{1}{2}}=\\frac{\\sqrt{5}}{4} \\\\\n& a=\\frac{-1}{2}, b=\\frac{-3}{4}, r^2=\\frac{5}{16} \\\\\n& 15 \\frac{a b}{r^2}=15 \\times\\left(\\frac{-1}{2}\\right) \\times\\left(\\frac{-3}{4}\\right) \\times \\frac{16}{5}=18<br/>\\end{aligned}$"
+  }
+}

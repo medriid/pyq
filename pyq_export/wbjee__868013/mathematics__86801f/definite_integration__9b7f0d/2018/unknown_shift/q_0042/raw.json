@@ -1,0 +1,63 @@
+{
+  "_id": "64a81441e0ff5a5425a859f2",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7d",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2018-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018",
+      "title": "WBJEE 2018"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The value of the integral $I=\\int_{1 / 2014}^{2014} \\frac{\\tan ^{-1} x}{x} d x$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "1hBoX",
+      "text": "$\\frac{\\pi}{4} \\log 2014$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "sb61Q",
+      "text": "$\\frac{\\pi}{2} \\log 2014$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "naSyp",
+      "text": "$\\pi \\log 2014$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Bj3ED",
+      "text": "$\\frac{1}{2} \\log 2014$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have,\r\n$$\r\nI=\\int_{1 / 2014}^{2014} \\frac{\\tan ^{-1} x}{x} d x\r\n$$\r\nLet\r\n$$\r\nx=\\frac{1}{t}\r\n$$\r\n$\\Rightarrow$\r\n$$\r\nd x=\\frac{-1}{t^{2}} d t\r\n$$\r\nNow,\r\n$$\r\n\\begin{aligned}\r\nI &=\\int_{2014}^{1 / 2014} \\frac{\\tan ^{-1}(1 / 7)}{1 / t}\\left(\\frac{-1}{t^{2}} d t\\right) \\\\\r\n&=\\int_{1 / 2014}^{2014} \\frac{\\cot ^{-1} t}{t} d t \\\\\r\n&=\\int_{1 / 2014}^{2014} \\frac{\\cot ^{-1} x}{x} d x\r\n\\end{aligned}\r\n$$\r\nOn adding Eqs. (i) and (ii), we get\r\n$$\r\n\\begin{aligned}\r\n2 I &=\\int_{1 / 2014}^{2014} \\frac{\\pi / 2}{x} d x=\\frac{\\pi}{2}(\\log x)_{1 / 2014}^{2014} \\\\\r\n&=\\frac{\\pi}{2}(\\log 2014-\\log 1 / 2014)\r\n\\end{aligned}\r\n$$\r\n$\\Rightarrow$\r\n$$\r\n\\begin{aligned}\r\nI &=\\frac{\\pi}{4}\\left(\\log 2014-\\log \\frac{1}{2014}\\right) \\\\\r\n&=\\frac{\\pi}{4}(\\log 2014+\\log 2014) \\\\\r\n&=\\frac{\\pi}{4}(2 \\log 2014)=\\frac{\\pi}{2} \\log 2014\r\n\\end{aligned}\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7d",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2018-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018",
+    "title": "WBJEE 2018"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 32,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (05 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The value of $\\int_{-\\pi}^\\pi \\frac{2 y(1+\\sin y)}{1+\\cos ^2 y} d y$ is :"
+  },
+  "options": [
+    {
+      "text": "$2 \\pi^2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi^2}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\pi^2$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\int_{-\\pi}^\\pi \\frac{2 y(1+\\sin y)}{1+\\cos ^2 y} d y$\n\\(=\\underset{\\text{(Odd)}}{\\int_{-\\pi}^\\pi \\frac{2 y}{1+\\cos ^2 y} d y}+\\underset{\\text{(Even)}}{\\int_{-\\pi}^\\pi \\frac{2 y \\sin y}{1+\\cos ^2 y} d y}\\)<br />$=0+2.2 \\int_0^\\pi y\\left(\\frac{\\sin y}{1+\\cos ^2 y}\\right) d y$\n$\\begin{aligned} & I=4 \\int_0^\\pi \\frac{y \\sin y}{1+\\cos ^2 y} d y \\\\ & I=4 \\int_0^\\pi \\frac{(\\pi-y) \\sin y}{1+\\cos ^2 y} d y \\\\ & 2 I=4 \\int_0^\\pi \\frac{\\pi \\sin y}{1+\\cos ^2 y} d y \\\\ & I=2 \\pi \\int_0^\\pi \\frac{\\sin y}{1+\\cos ^2 y} d y \\\\ & =2 \\pi\\left(-\\tan ^{-1}(\\cos y)\\right)_0^\\pi \\\\ & =-2 \\pi\\left[\\left(-\\frac{\\pi}{4}\\right)-\\left(\\frac{\\pi}{4}\\right)\\right] \\\\ & =-2 \\pi\\left[-\\frac{2 \\pi}{4}\\right]=\\pi^2\\end{aligned}$"
+  }
+}

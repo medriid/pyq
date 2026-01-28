@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a1df23ac7d519f9b17b",
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c4a",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (Paper 1)",
+      "title": "JEE Advanced 2012 (Paper 1)"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 3,
+  "question": {
+    "text": "A ship is fitted with three engines $E_{1}, E_{2}$ and $E_{3}$. The engines function independently of each other with respective probabilities $\\frac{1}{2}, \\frac{1}{4}$ and $\\frac{1}{4}$. For the ship to be operational at least two of its engines must function. Let $X$ denote the event that the ship is operational and let $X_{1}, X_{2}$ and $X_{3}$ denote respectively the events that the engines $E_{1}, E_{2}$ and $E_{3}$ are functioning. Which of the following is(are) true?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Onfp6",
+      "text": "$P\\left[X_{1}^{c} \\mid X\\right]=\\frac{3}{16}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Nlbzy",
+      "text": "$P$ [Exactly two engines of the ship are functioning $[X]=\\frac{7}{8}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "AKvSq",
+      "text": "$P\\left[X \\mid X_{2}\\right]=\\frac{5}{16}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "U5qj8",
+      "text": "$P\\left[X \\mid X_{1}\\right]=\\frac{7}{16}$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given that $P\\left(X_{1}\\right)=\\frac{1}{2}, \\mathrm{P}\\left(X_{2}\\right)=\\frac{1}{4}, \\mathrm{P}\\left(X_{3}\\right)=\\frac{1}{4}$ $P(X)=P$ (at least 2 engines are functioning)\r\n\r\n$\\begin{aligned}=P\\left(X_{1} \\cap X_{2}\\right.&\\left.\\cap X_{3}^{C}\\right)+P\\left(X_{1} \\cap X_{2}^{C} \\cap X_{3}\\right) \\\\ &+P\\left(X_{1}^{C} \\cap X_{2} \\cap X_{3}\\right)+P\\left(X_{1} \\cap X_{2} \\cap X_{3}\\right) \\end{aligned}$\r\n\r\n$=\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{3}{4}+\\frac{1}{2} \\times \\frac{3}{4} \\times \\frac{1}{4}+\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{4}+\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{4}=\\frac{1}{4}$\r\n\r\n(a) $P\\left(X_{1}^{C} / X\\right)=\\frac{P\\left(X_{1}^{C} \\cap X\\right)}{P(X)}=\\frac{P\\left(X_{1}^{C} \\cap X_{2} \\cap X_{3}\\right)}{P(X)}$\r\n\r\n$=\\frac{\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{4}}{\\frac{1}{4}}=\\frac{1}{8}$\r\n\r\n$\\therefore$ (a) is not true.\r\n\r\n(b) $P$ [Exactly two engines are functioning $/ X]$\r\n\r\n$=\\frac{P[(\\text { Exactly two engines are functioning }) \\cap X]}{P(X)}$\r\n\r\n$=\\frac{P\\left(X_{1}^{C} \\cap X_{2} \\cap X_{3}\\right)+P\\left(X_{1} \\cap X_{2}^{C} \\cap X_{3}\\right)+P\\left(X_{1} \\cap X_{2} \\cap X_{3}^{C}\\right)}{P(X)}$\r\n\r\n$=\\frac{\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{4}+\\frac{1}{2} \\times \\frac{3}{4} \\times \\frac{1}{4}+\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{3}{4}}{\\frac{1}{4}}=\\frac{7}{8}$\r\n\r\n$\\therefore$ (b) is true.\r\n\r\n(c) $P\\left(X / X_{2}\\right)=\\frac{P\\left(X \\cap X_{2}\\right)}{P\\left(X_{2}\\right)}$\r\n\r\n$=\\frac{P\\left(X_{1} \\cap X_{2} \\cap X_{3}\\right)+P\\left(X_{1}^{C} \\cap X_{2} \\cap X_{3}\\right)+P\\left(X_{1} \\cap X_{2} \\cap X_{3}^{C}\\right)}{P\\left(X_{2}\\right)}$\r\n\r\n$=\\frac{\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{4}+\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{4}+\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{3}{4}}{\\frac{1}{4}}=\\frac{5}{8}$\r\n\r\n$\\therefore$ (c) is not true.\r\n\r\n(d) $P\\left(X / X_{1}\\right)=\\frac{P\\left(X \\cap X_{1}\\right)}{P\\left(X_{1}\\right)}$\r\n\r\n$=\\frac{P\\left(X_{1} \\cap X_{2} \\cap X_{3}\\right)+P\\left(X_{1} \\cap X_{2}^{C} \\cap X_{3}\\right)+P\\left(X_{1} \\cap X_{2} \\cap X_{3}^{C}\\right)}{P\\left(X_{1}\\right)}$\r\n\r\n$=\\frac{\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{4}+\\frac{1}{2} \\times \\frac{3}{4} \\times \\frac{1}{4}+\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{3}{4}}{\\frac{1}{2}}=\\frac{7}{16}$\r\n\r\n$\\therefore$ (d) is true.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c4a",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (Paper 1)",
+    "title": "JEE Advanced 2012 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

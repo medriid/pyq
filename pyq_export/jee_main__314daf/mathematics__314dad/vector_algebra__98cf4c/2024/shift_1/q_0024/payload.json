@@ -1,0 +1,43 @@
+{
+  "index": 24,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let three vectors $\\overrightarrow{\\mathrm{a}}=\\alpha \\hat{i}+4 \\hat{j}+2 \\hat{k}, \\overrightarrow{\\mathrm{b}}=5 \\hat{i}+3 \\hat{j}+4 \\hat{k}, \\overrightarrow{\\mathrm{c}}=x \\hat{i}+y \\hat{j}+z \\hat{k}$ form a triangle such that $\\vec{c}=\\vec{a}-\\vec{b}$ and the area of the triangle is $5 \\sqrt{6}$. If $\\alpha$ is a positive real number, then $|\\vec{c}|^2$ is equal to:"
+  },
+  "options": [
+    {
+      "text": "16",
+      "is_correct": false
+    },
+    {
+      "text": "14",
+      "is_correct": true
+    },
+    {
+      "text": "12",
+      "is_correct": false
+    },
+    {
+      "text": "10",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\overrightarrow{\\mathrm{c}}=\\overrightarrow{\\mathrm{a}}-\\overrightarrow{\\mathrm{b}} \\\\ & \\Rightarrow(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})=(\\alpha-5,1,-2) \\\\ & \\Rightarrow \\mathrm{x}=\\alpha-5, \\mathrm{y}=1, \\mathrm{z}=-2.....(1)\\end{aligned}$\n<img src=\"assets\\st0024_23c239717de6.png\"><br />Area of $\\Delta=5 \\sqrt{6}$ (given)\n$\\begin{aligned} & \\frac{1}{2}|\\overrightarrow{\\mathrm{a}} \\times \\overrightarrow{\\mathrm{c}}|=5 \\sqrt{6} \\\\ & \\left\\|\\begin{array}{ccc}\\hat{\\mathrm{i}} & \\hat{\\mathrm{j}} & \\hat{\\mathrm{k}} \\\\ \\alpha & 4 & 2 \\\\ \\mathrm{x} & 1 & -2\\end{array}\\right\\|=10 \\sqrt{6}\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow|-10 \\hat{\\mathrm{i}}-\\hat{\\mathrm{j}}(-2 \\alpha-2 \\mathrm{x})+\\hat{\\mathrm{k}}(\\alpha-4 \\mathrm{x})|=10 \\sqrt{6} \\\\ & \\Rightarrow(2 \\alpha+2 \\alpha-10)^2+(\\alpha-4 \\alpha+20)^2=500 \\\\ & \\Rightarrow(4 \\alpha-10)^2+(20-3 \\alpha)^2=500 \\\\ & \\Rightarrow 25 \\alpha^2-80 \\alpha-120 \\alpha=0 \\\\ & \\Rightarrow \\alpha(25 \\alpha-200)=0 \\\\ & \\Rightarrow \\alpha=8 \\text { (given } \\alpha \\text { is +ve number) } \\\\ & \\Rightarrow \\mathrm{x}=\\alpha-5=3 \\\\ & |\\overrightarrow{\\mathrm{c}}|^2=\\mathrm{x}^2+\\mathrm{y}^2+\\mathrm{z}^2 \\\\ & =9+1+4 \\\\ & =14\\end{aligned}$"
+  }
+}

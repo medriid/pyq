@@ -1,0 +1,63 @@
+{
+  "_id": "64b169e5f23ac7d519f9af73",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c42",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2008-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008 (Paper 1)",
+      "title": "JEE Advanced 2008 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $f(x)$ be a non-constant twice differentiable function defined on $(-\\infty, \\infty)$, such that $f(x)=f(1-x)$ and $f^{\\prime}\\left(\\frac{1}{4}\\right)=0$. Then,",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "xIn8A",
+      "text": "\n$f^{\\prime}(x)$ vanishes atleast twice on $[0,1]$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "VnxgM",
+      "text": "\n$f^{\\prime}\\left(\\frac{1}{2}\\right)=0$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "eA3fH",
+      "text": "\n$\\int_{\\frac{1}{2}}^{\\frac{1}{2}} f\\left(x+\\frac{1}{2}\\right) \\sin x d x=0$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "qC8GJ",
+      "text": "\n$\\int_0^{\\frac{1}{2}} f(t) e^{\\sin \\pi t} d t=\\int_{\\frac{1}{2}}^1 f(1-t) e^{\\sin \\pi t} d t$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given that, $f(x)=f(1-x)$\nOn differentiating w.r.t. $x$, we get\n$$\nf^{\\prime}(x)=-f^{\\prime}(1-x)\n$$\nLet us put $\\quad x=\\frac{1}{2}$\n$$\n\\Rightarrow \\quad 2 f^{\\prime}\\left(\\frac{1}{2}\\right)=0 \\Rightarrow f^{\\prime}\\left(\\frac{1}{2}\\right)=0\n$$\nSince, $f^{\\prime}\\left(\\frac{1}{2}\\right)=0$ and $f^{\\prime}\\left(\\frac{1}{4}\\right)=0$\n$\\Rightarrow f^{\\prime \\prime}(x)=0$ at two points in $[0,1]$.\nNow, $\\int_{-1 / 2}^{1 / 2} f\\left(x+\\frac{1}{2}\\right) \\sin x d x=0$\nAs, $f\\left(x+\\frac{1}{2}\\right) \\sin x$ is an odd function which is clear from the following explanation.\nLet $g(x)=f\\left(x+\\frac{1}{2}\\right) \\sin x$,\n$$\ng(-x)=f\\left(\\frac{1}{2}-x\\right) \\sin (-x)=-\\sin x f\\left(1-\\left(\\frac{1}{2}-x\\right)\\right)=-\\sin x f\\left(\\frac{1}{2}+x\\right)=-g(x)\n$$\nMoreover, $\\int_{1 / 2}^1 f(1-t) e^{\\sin (\\pi t)} d t=\\int_0^{1 / 2} f(u) \\cdot e^{\\sin \\pi u} d u$ where, $1-t=u$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c42",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2008-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008 (Paper 1)",
+    "title": "JEE Advanced 2008 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

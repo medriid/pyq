@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2008 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025668251a1afed1b2257",
+    "chapter_name": "Area Under Curves",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area of the region between the curves $y=\\sqrt{\\frac{1+\\sin x}{\\cos x}}$ and $y=\\sqrt{\\frac{1-\\sin x}{\\cos x}}$ bounded by the lines $x=0$ and $x=\\frac{\\pi}{4}$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\int_0^{\\sqrt{2}-1} \\frac{t}{\\left(1+t^2\\right) \\sqrt{1-t^2}} d t$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\int_0^{\\sqrt{2}-1} \\frac{4 t}{\\left(1+t^2\\right) \\sqrt{1-t^2}} d t$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\int_0^{\\sqrt{2}+1} \\frac{4 t}{\\left(1+t^2\\right) \\sqrt{1-t^2}} d t$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\int_0^{\\sqrt{2}+1} \\frac{t}{\\left(1+t^2\\right) \\sqrt{1-t^2}} d t$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\text { Required area }=\\int_0^{\\pi / 4}\\left(\\sqrt{\\frac{1+\\sin x}{\\cos x}}-\\sqrt{\\frac{1-\\sin x}{\\cos x}}\\right) d x \\quad\\left[\\because \\frac{1+\\sin x}{\\cos x}>\\frac{1-\\sin x}{\\cos x}>0\\right] \\\\\n& \\left.=\\int_0^{\\pi / 4} \\sqrt{\\frac{1+\\frac{2 \\tan \\frac{x}{2}}{1+\\tan ^2 \\frac{x}{2}}}{\\frac{1-\\tan ^2 \\frac{x}{2}}{1+\\tan ^2 \\frac{x}{2}}}} \\sqrt{\\frac{1-\\frac{2 \\tan \\frac{x}{2}}{1+\\tan ^2 \\frac{x}{2}}}{\\frac{1-\\tan ^2 \\frac{x}{2}}{1+\\tan ^2 \\frac{x}{2}}}}\\right) d x \\\\\n& \\left.=\\int_0^{\\pi / 4} \\sqrt{\\frac{1+\\tan \\frac{x}{2}}{1-\\tan \\frac{x}{2}}}-\\sqrt{\\frac{1-\\tan \\frac{x}{2}}{1+\\tan \\frac{x}{2}}}\\right) d x \\\\\n&\n\\end{aligned}\n$$\n\n$$\n=\\int_0^{\\pi / 4} \\frac{1+\\tan \\frac{x}{2}-1+\\tan \\frac{x}{2}}{\\sqrt{1-\\tan ^2 \\frac{x}{2}}} d x=\\int_0^{\\pi / 4} \\frac{2 \\tan \\frac{x}{2}}{\\sqrt{1-\\tan ^2 \\frac{x}{2}}} d x\n$$\nPut $\\tan \\frac{x}{2}=t$\n$$\n\\begin{aligned}\n\\Rightarrow \\quad \\frac{1}{2} \\sec ^2 \\frac{x}{2} d x & =d t \\\\\n\\therefore \\text { Required area } & =\\int_0^{\\tan \\frac{\\pi}{8}} \\frac{4 t d t}{\\left(1+t^2\\right) \\sqrt{1-t^2}} \\\\\n& =\\int_0^{\\sqrt{2}-1} \\frac{4 t}{\\left(1+t^2\\right) \\sqrt{1-t^2}} d t \\quad\\left[\\text { astan } \\frac{\\pi}{8}=\\sqrt{2}-1\\right]\n\\end{aligned}\n$$"
+  }
+}

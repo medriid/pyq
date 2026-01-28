@@ -1,0 +1,43 @@
+{
+  "index": 38,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025320696c5af2bbd2498",
+    "chapter_name": "Binomial Theorem",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In the expansion of <math><msup><mrow><mfenced separators=\"|\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfenced></mrow><mrow><mi>n</mi></mrow></msup><mo>,</mo></math> first three terms are <math><mn>243</mn><mo>,</mo><mi></mi><mn>810</mn></math> and <math><mn>1080</mn></math> respectively, then the fourth term of the expansion is <math><mfenced separators=\"|\"><mrow><mi>n</mi><mo>∈</mo><mi>N</mi></mrow></mfenced></math>"
+  },
+  "options": [
+    {
+      "text": "<math><mn>32</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>720</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mn>510</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>420</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub><mo>=</mo><msup><mi>a</mi><mi>n</mi></msup><mo>,</mo><msub><mi>T</mi><mn>2</mn></msub><mo>=</mo><mi>n</mi><msup><mi>a</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><mi>b</mi><mo>,</mo></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub><mo>=</mo><mfrac><mrow><mi>n</mi><mfenced separators=\"|\"><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mn>2</mn></mfrac><msup><mi>a</mi><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></msup><mo>&#8901;</mo><msup><mi>b</mi><mn>2</mn></msup></math><br />Now, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msubsup><mi>T</mi><mn>2</mn><mn>2</mn></msubsup><mrow><msub><mi>T</mi><mn>1</mn></msub><msub><mi>T</mi><mn>3</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mi>n</mi></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>810</mn><mo>&#215;</mo><mn>810</mn></mrow><mrow><mn>243</mn><mo>&#215;</mo><mn>1080</mn></mrow></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>n</mi><mo>=</mo><mn>5</mn></math><br />So, <math><mi>a</mi><mo>=</mo><mn>3</mn></math> and <math><mi>b</mi><mo>=</mo><mn>2</mn></math>,</p><p>Hence,&nbsp;<math><msub><mrow><mi>T</mi></mrow><mrow><mn>4</mn></mrow></msub><mo>=</mo><msub><mrow><mmultiscripts><mrow><mi>C</mi></mrow><mprescripts></mprescripts><mrow><mi></mi></mrow><mrow><mn>5</mn></mrow></mmultiscripts></mrow><mrow><mn>3</mn></mrow></msub><mo>&#8901;</mo><msup><mrow><mn>3</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>&#8901;</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>3</mn></mrow></msup><mo>=</mo><mn>720</mn></math></p>"
+  }
+}

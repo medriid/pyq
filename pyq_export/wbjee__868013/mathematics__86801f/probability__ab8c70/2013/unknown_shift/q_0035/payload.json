@@ -1,0 +1,43 @@
+{
+  "index": 35,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Cards are drawn one-by-one without replacement from a well shuffled pack of 52 cards. Then, the probability that a face card (jack, queen or king) will appear for the first time on the third turn is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{300}{2197}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{36}{85}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{12}{85}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{4}{51}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Ist turn Total number of face card $=12$\r\nTotal number of elements in sample space, $n(s)=52$\r\n$\\therefore P_{1}$ (no face card in first turn) $=\\frac{52-12}{52}=\\frac{40}{52}$\r\nIInd turn $P_{2}$ (no face card in second turn)\r\n$$\r\n=\\frac{(52-13)}{(52-1)}=\\frac{39}{51}\r\n$$\r\nIIIrd turn $P_{3}$ (face card in third turn)\r\n$$\r\n=\\frac{(52-40)}{(51-1)}=\\frac{12}{50}\r\n$$\r\n$\\therefore$ Required $P$ (face card on third turn)\r\n$$\r\n\\begin{array}{l}\r\n=P_{1} \\times P_{2} \\times P_{3} \\\\\r\n=\\frac{40}{52} \\times \\frac{39}{51} \\times \\frac{12}{50}=\\frac{12}{85}\r\n\\end{array}\r\n$$"
+  }
+}

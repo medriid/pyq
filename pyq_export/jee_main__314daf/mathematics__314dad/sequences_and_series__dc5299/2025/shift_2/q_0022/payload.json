@@ -1,0 +1,43 @@
+{
+  "index": 22,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $7=5+\\frac{1}{7}(5+\\alpha)+\\frac{1}{7^2}(5+2 \\alpha)+\\frac{1}{7^3}(5+3 \\alpha)+\\ldots \\infty$, then the value of $\\alpha$ is :"
+  },
+  "options": [
+    {
+      "text": "$\\frac{6}{7}$",
+      "is_correct": false
+    },
+    {
+      "text": "6",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{7}$",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$S=a+(a+d) r+(a+2 d) r^2+\\ldots$\nThen $S=\\frac{a}{1-r}+\\frac{d r}{(1-r)^2},|r| < 1$\nSince, $r=\\frac{1}{7}$ and $a=5, d=\\alpha$\n$\\begin{aligned}\n& 7=\\frac{5}{1-\\frac{1}{7}}+\\frac{\\alpha \\cdot \\frac{1}{7}}{\\left(1-\\frac{1}{7}\\right)^2} \\\\\n& \\Rightarrow \\alpha=6\n\\end{aligned}$"
+  }
+}

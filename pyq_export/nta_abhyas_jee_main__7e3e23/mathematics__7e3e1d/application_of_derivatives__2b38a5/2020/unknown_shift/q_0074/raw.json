@@ -1,0 +1,61 @@
+{
+  "_id": "6151e86352eff6536acb87bd",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "15",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "<p>On which of the following intervals is the function <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>100</mn></msup><mo>+</mo><mi>sin</mi><mo>&nbsp;</mo><mi>x</mi><mo>-</mo><mn>1</mn></math> decreasing?</p>\r",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "4V0W4",
+      "text": "<math> <mrow>  <mfenced>   <mrow>    <mn>0</mn><mo>,</mo><mfrac>     <mi>&#x03C0;</mi>     <mn>2</mn>    </mfrac>    </mrow>  </mfenced></mrow></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "idSau",
+      "text": "<math> <mrow>  <mfenced>   <mrow>    <mn>0</mn><mo>,</mo><mn>1</mn></mrow>  </mfenced></mrow></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "wVmhV",
+      "text": "<math> <mrow>  <mfenced>   <mrow>    <mfrac>     <mi>&#x03C0;</mi>     <mn>2</mn>    </mfrac>    <mo>,</mo><mi>&#x03C0;</mi></mrow>  </mfenced></mrow></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "MNQxv",
+      "text": "None of these",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<math> <mrow> <mi>f</mi><mfenced> <mi>x</mi> </mfenced><mo>=</mo><msup> <mi>x</mi> <mrow> <mn>100</mn></mrow> </msup> <mo>+</mo><mi>sin</mi><mi>x</mi><mo>−</mo><mn>1</mn></mrow> </math><br /><br /><math> <mo>⇒</mo><msup> <mi>f</mi> <mo>′</mo> </msup> <mfenced> <mi>x</mi> </mfenced><mo>=</mo><mn>100</mn><msup> <mi>x</mi> <mrow> <mn>99</mn></mrow> </msup> <mo>+</mo><mi>cos</mi><mi>x</mi> </math><br /><br />If <math> <mrow> <mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mfrac> <mi>π</mi> <mn>2</mn> </mfrac> <mo>,</mo></mrow> </math> then <math> <mrow> <msup> <mi>f</mi> <mo>′</mo> </msup> <mfenced> <mi>x</mi> </mfenced><mo>&gt;</mo><mn>0</mn><mo>,</mo></mrow> </math> , therefore <math> <mrow> <mi>f</mi><mfenced> <mi>x</mi> </mfenced></mrow> </math> is increasing on <math> <mrow> <mfenced> <mrow> <mn>0</mn><mo>,</mo><mfrac> <mi>π</mi> <mn>2</mn> </mfrac> </mrow> </mfenced><mo>.</mo></mrow> </math><br /><br />If <math> <mrow> <mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn><mo>,</mo></mrow> </math> then<br /><br /><math> <mn>100</mn><msup> <mi>x</mi> <mrow> <mn>99</mn></mrow> </msup> <mo>&gt;</mo><mn>0</mn> </math> and <math> <mi>cos</mi><mi>x</mi><mo>&gt;</mo><mn>0</mn> </math> [<math> <mo>∵</mo><mi>x</mi> </math> lies between <math> <mn>0</mn> </math> and <math> <mn>1</mn> </math> ]<br /><br /><math> <mo>⇒</mo><msup> <mi>f</mi> <mo>′</mo> </msup> <mfenced> <mi>x</mi> </mfenced><mo>=</mo><mn>100</mn><msup> <mi>x</mi> <mrow> <mn>99</mn></mrow> </msup> <mo>+</mo><mi>cos</mi><mi>x</mi><mo>&gt;</mo><mn>0</mn> </math><br /><br /><math> <mo>⇒</mo><mi>f</mi><mfenced> <mi>x</mi> </mfenced> </math> is increasing on <math> <mfenced> <mrow> <mn>0</mn><mo>,</mo><mn>1</mn></mrow> </mfenced><mo>.</mo> </math><br /><br />If <math> <mrow> <mfrac> <mi>π</mi> <mn>2</mn> </mfrac> <mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mi>π</mi><mo>,</mo></mrow> </math> then<br /><br /><math> <mrow> <mn>100</mn><msup> <mi>x</mi> <mrow> <mn>99</mn></mrow> </msup> <mo>&gt;</mo><mn>100</mn><mtext> </mtext><mfenced close=\"]\" open=\"[\"> <mrow> <mo>∵</mo><mi>x</mi><mo>&gt;</mo><mn>1</mn><mo>⇒</mo><msup> <mi>x</mi> <mrow> <mn>99</mn></mrow> </msup> <mo>&gt;</mo><mn>1</mn></mrow> </mfenced></mrow> </math><br /><br /><math> <mrow>  <mo>&#x21D2;</mo><mn>100</mn><msup>   <mi>x</mi>   <mrow>    <mn>99</mn></mrow>  </msup>  <mo>+</mo><mi>cos</mi><mi>x</mi><mo>&#x003E;</mo><mn>0</mn><mtext>&#x2009;</mtext><mfenced close=\"]\" open=\"[\">   <mrow>    <mo>&#x2235;</mo><mi>cos</mi><mi>x</mi><mo>&#x2265;</mo><mo>&#x2212;</mo><mn>1</mn><mo>&#x21D2;</mo><mn>100</mn><msup>     <mi>x</mi>     <mrow>      <mn>99</mn></mrow>    </msup>    <mo>+</mo><mi>cos</mi><mi>x</mi><mo>&#x003E;</mo><mn>99</mn></mrow>  </mfenced></mrow></math><br /><br /><math> <mrow> <mo>⇒</mo><msup> <mi>f</mi> <mo>′</mo> </msup> <mfenced> <mi>x</mi> </mfenced><mo>&gt;</mo><mn>0</mn><mo>⇒</mo><mi>f</mi><mfenced> <mi>x</mi> </mfenced></mrow> </math> is increasing in <math> <mrow> <mfenced> <mrow> <mfrac> <mi>π</mi> <mn>2</mn> </mfrac> <mo>,</mo><mi>π</mi></mrow> </mfenced><mo>.</mo></mrow> </math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

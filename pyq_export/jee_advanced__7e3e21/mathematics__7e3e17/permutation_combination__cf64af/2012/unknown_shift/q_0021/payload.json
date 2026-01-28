@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2012 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252aaac414b50bcf64af",
+    "chapter_name": "Permutation Combination",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $a_{n}$ denote the number of all $n$-digit positive integers formed by the digits 0,1 or both such that no consecutive digits in them are 0 . Let $b_{n}=$ the number of such $n$-digit integers ending with digit 1 and $c_{n}=$ the number of such $n$-digit integers ending with digit 0 .\r\n\r\n<strong> Question:</strong> The value of $b_{6}$ is"
+  },
+  "options": [
+    {
+      "text": "7",
+      "is_correct": false
+    },
+    {
+      "text": "8",
+      "is_correct": true
+    },
+    {
+      "text": "9",
+      "is_correct": false
+    },
+    {
+      "text": "11",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\because a_{n}=$ number of all $n$ digit +ve integers formed by the digits 0,1 or both such that no consecutive digits in them are 0 .\r\n\r\nand $b_{n}=$ number of such $n$ digit integers ending with 1 $c_{n}=$ number of such $n$ digit integers ending with 0\r\n\r\nClearly, $a_{n}=b_{n}+c_{n}\\left(\\because a_{n}\\right.$ can end with 0 or 1)\r\n\r\nAlso $b_{n}=a_{n-1}$ and $c_{n}=a_{n-2}[\\because$ if last digit is 0 , second last has to be 1]\r\n\r\n$\\therefore$ We get $a_{n}=a_{n-1}+a_{n-2}, n \\geq 3$\r\n\r\nAlso $a_{1}=1, a_{2}=2$,\r\n\r\nNow by this recurring formula, we get\r\n\r\n$\\begin{aligned} a_{3} &=a_{2}+a_{1}=3 \\\\ a_{4} &=a_{3}+a_{2}=3+2=5 \\\\ a_{5} &=a_{4}+a_{3}=5+3=8 \\\\ \\text { Also } b_{6} &=a_{5}=8 \\end{aligned}$"
+  }
+}

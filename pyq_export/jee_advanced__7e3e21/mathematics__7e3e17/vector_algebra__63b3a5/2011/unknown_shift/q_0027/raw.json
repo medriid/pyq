@@ -1,0 +1,38 @@
+{
+  "_id": "64b16a17f23ac7d519f9b13f",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c49",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2011-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011 (Paper 2)",
+      "title": "JEE Advanced 2011 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\mathbf{a}=-\\hat{\\mathbf{i}}-\\hat{\\mathbf{k}}, \\mathbf{b}=-\\hat{\\mathbf{i}}+\\hat{\\mathbf{j}}$ and $\\mathbf{c}=\\hat{\\mathbf{i}}+2 \\hat{\\mathbf{j}}+3 \\hat{\\mathbf{k}}$ be three given vectors. If $\\mathbf{r}$ is a vector such that $\\mathbf{r} \\times \\mathbf{b}=\\mathbf{c} \\times \\mathbf{b}$ and $\\mathbf{r} \\cdot \\mathbf{a}=0$, then the value of $\\mathbf{r} \\cdot \\mathbf{b}$ is",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "9",
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\mathbf{r} \\times \\mathbf{b}=\\mathbf{c} \\times \\mathbf{b} \\\\\n& \\Rightarrow \\quad(\\mathbf{r}-\\mathbf{c}) \\times \\mathbf{b}=0 \\Rightarrow \\mathbf{r}-\\mathbf{c}+\\lambda \\mathbf{b} \\\\\n& \\text { or } \\quad \\mathbf{r}=\\mathbf{c}+\\lambda \\mathbf{b} \\\\\n&\n\\end{aligned}\n$$\nGiven, $\\mathbf{r} \\cdot \\mathbf{a}=0$, taking dot product with a for Eq. (i).\nNow, $\\mathbf{r} \\cdot \\mathbf{a}=\\mathbf{a} \\cdot \\mathbf{c}+\\lambda \\mathbf{a} \\cdot \\mathbf{b}$\n$\\therefore \\quad \\lambda=\\frac{-\\vec{a} \\cdot \\vec{c}}{\\vec{a} \\cdot \\vec{b}} \\quad[\\because \\vec{r} \\cdot \\vec{a}=0] \\ldots$ (i)\nFrom Eqs. (i) and (ii), we get\n$$\n\\mathbf{r}=\\mathbf{c}-\\frac{\\mathbf{a} \\cdot \\mathbf{c}}{\\mathbf{a} \\cdot \\mathbf{b}} \\mathbf{b}\n$$\nTaking dot with $\\mathbf{b}$, we get\n$$\n\\mathbf{r} \\cdot \\mathbf{b}=\\mathbf{c} \\cdot \\mathbf{b}-\\frac{\\mathbf{a} \\cdot \\mathbf{c}}{\\mathbf{a} \\cdot \\mathbf{b}}(\\mathbf{b} \\cdot \\mathbf{b})\n$$\n\nwhere, $\\left[\\begin{array}{l}\\mathbf{a}=-\\hat{\\mathbf{i}}-\\hat{\\mathbf{k}} \\\\ \\mathbf{b}=-\\hat{\\mathbf{i}}+\\hat{\\mathbf{j}} \\\\ \\mathbf{c}=\\hat{\\mathbf{i}}+2 \\hat{\\mathbf{j}}+3 \\hat{\\mathbf{k}}\\end{array}\\right]$\n$$\n=(-1+2)-\\frac{(-1-3)}{(1)}(1+1)=1+8=9\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c49",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2011-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011 (Paper 2)",
+    "title": "JEE Advanced 2011 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

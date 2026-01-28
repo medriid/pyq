@@ -1,0 +1,43 @@
+{
+  "index": 294,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (12 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The sum of the series\n$$\n\\frac{1}{1+\\sqrt{2}}+\\frac{1}{\\sqrt{2}+\\sqrt{3}}+\\frac{1}{\\sqrt{3}+\\sqrt{4}}+\\ldots\n$$\nupto 15 terms is"
+  },
+  "options": [
+    {
+      "text": "\n1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n2\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n3\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n4",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given series is\n$$\n\\begin{aligned}\n& \\frac{1}{1+\\sqrt{2}}+\\frac{1}{\\sqrt{2}+\\sqrt{3}}+\\frac{1}{\\sqrt{3}+\\sqrt{4}}+\\ldots . . \\\\\n& n^{\\text {th }} \\text { term }=\\frac{1}{\\sqrt{n}+\\sqrt{n+1}} \\\\\n& \\therefore 15^{\\text {th }} \\text { term }=\\frac{1}{\\sqrt{15}+\\sqrt{16}}\n\\end{aligned}\n$$\nThus, given series upto 15 terms is\n$$\n\\frac{1}{1+\\sqrt{2}}+\\frac{1}{\\sqrt{2}+\\sqrt{3}}+\\frac{1}{\\sqrt{3}+\\sqrt{4}}+\\ldots \\ldots+\\frac{1}{\\sqrt{15}+\\sqrt{16}}\n$$\nThis can be re-written as\n$$\n\\frac{1-\\sqrt{2}}{-1}+\\frac{\\sqrt{2}-\\sqrt{3}}{-1}+\\frac{\\sqrt{3}-\\sqrt{4}}{-1}+\\ldots \\ldots+\\frac{\\sqrt{15}-\\sqrt{16}}{-1}\n$$\n(By rationalization)\n$$\n\\begin{gathered}\n=-1+\\sqrt{2}-\\sqrt{2}+\\sqrt{3}-\\sqrt{3}+\\sqrt{4}+\\ldots . .-\\sqrt{14}+\\sqrt{15} \\\\\n-\\sqrt{15}+\\sqrt{16} \\\\\n=-1+\\sqrt{16}=-1+4=3\n\\end{gathered}\n$$\nHence, the required sum $=3$"
+  }
+}

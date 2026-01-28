@@ -1,0 +1,24 @@
+{
+  "index": 2,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2024 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602563f6918f74a3b3a999",
+    "chapter_name": "Definite Integration",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Paragraph: Let \\(f:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow[0,1]\\) be the function defined by \\(f(x)=\\sin ^2 x\\) and let \\(g:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow[0, \\infty)\\) be the function defined by \\(g(x)=\\sqrt{\\frac{\\pi x}{2}-x^2}\\).\nQuestion: The value of $2 \\int_0^{\\frac{\\pi}{2}} f(x) g(x) d x-\\int_0^{\\frac{\\pi}{2}} g(x) d x$ is"
+  },
+  "options": [],
+  "correct_answer": 0,
+  "solution": {
+    "text": "$I=2 \\int_0^{\\frac{\\pi}{2}} \\underbrace{\\sin ^2 x \\cdot \\sqrt{\\frac{\\pi x}{2}-x^2}}_{I_1}-\\int_0^{\\frac{\\pi}{2}} g(x) d x$\nLet $I_1=\\int_0^{\\frac{\\pi}{2}} \\sin ^2 x \\sqrt{\\left(\\frac{\\pi}{4}\\right)^2-\\left(x-\\frac{\\pi}{4}\\right)^2}$\n(making perfect square)\napply kings\n$I_1=\\int_0^{\\frac{\\pi}{2}} \\cos ^2 x \\sqrt{\\left(\\frac{\\pi}{4}\\right)^2-\\left(\\frac{\\pi}{2}-x\\right)^2}$\nadd both\n$2 I_1=\\int_0^{\\frac{\\pi}{2}} \\sqrt{\\left(\\frac{\\pi}{4}\\right)^2-\\left(x-\\frac{\\pi}{4}\\right)^2}$\ni.e. $2 I_1=\\int_0^{\\frac{\\pi}{2}} g(x)$\nNow $I=2 I_1-\\int_0^{\\frac{\\pi}{2}} g(x)=0$"
+  }
+}

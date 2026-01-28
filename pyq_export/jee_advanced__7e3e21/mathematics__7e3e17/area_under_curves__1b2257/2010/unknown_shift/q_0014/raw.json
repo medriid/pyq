@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a09f23ac7d519f9b0be",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c47",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2010-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010 (Paper 2)",
+      "title": "JEE Advanced 2010 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nConsider the polynomial $f(x)=1+2 x+3 x^2+4 x^3$. Let $s$ be the sum of all distinct real roots of $f(x)$ and let $t=|s|$.<strong>Question:</strong>\nThe area bounded by the curve $y=f(x)$ and the lines $x=0, y=0$ and $x=t$, lies in the interval",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "5PBh5",
+      "text": "\n$\\left(\\frac{3}{4}, 3\\right)$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "ijsxb",
+      "text": "\n$\\left(\\frac{21}{64}, \\frac{11}{16}\\right)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "wx6Pr",
+      "text": "\n$(9,10)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "GAGyJ",
+      "text": "\n$\\left(0, \\frac{21}{64}\\right)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\int_0^{1 / 2} f(x) d x < \\int_0^t f(x) d x < \\int_0^{3 / 4} f(x) d x$ Now, $\\int f(x) d x$<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/Y1rOmN-ABGVZnGrMYQXtd39YRuXI_W0Y9AEChDFAJoQ.original.fullsize.png\"><br>\n\n$$\n\\begin{gathered}\n=\\int\\left(1+2 x+3 x^2+4 x^3\\right) d x \\\\\n=x+x^2+x^3+x^4 \\\\\n\\Rightarrow \\quad \\int_0^{1 / 2} f(x) d x=\\frac{15}{16}>\\frac{3}{4} \\\\\n\\int_0^{3 / 4} f(x) d x=\\frac{530}{256} < 3\n\\end{gathered}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c47",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2010-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010 (Paper 2)",
+    "title": "JEE Advanced 2010 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

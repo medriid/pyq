@@ -1,0 +1,63 @@
+{
+  "_id": "6644674d970e6e9ab542d212",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda6f",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-08T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (08 Apr Shift 2)",
+      "title": "JEE Main 2024 (08 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\int_\\alpha^{\\log _e 4} \\frac{\\mathrm{d} x}{\\sqrt{\\mathrm{e}^x-1}}=\\frac{\\pi}{6}$. Then $\\mathrm{e}^\\alpha$ and $\\mathrm{e}^{-\\alpha}$ are the roots of the equation :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "IRRiB",
+      "text": "$x^2+2 x-8=0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "MGF4p",
+      "text": "$x^2-2 x-8=0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "UGseB",
+      "text": "$2 x^2-5 x+2=0$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "5sUYu",
+      "text": "$2 x^2-5 x-2=0$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\int_\\alpha^{\\log 4} \\frac{\\mathrm{dx}}{\\sqrt{\\mathrm{e}^{\\mathrm{x}}-1}}=\\frac{\\pi}{6} \\\\ & \\text { Let } \\mathrm{e}^{\\mathrm{x}}-1=\\mathrm{t}^2 \\\\ & \\mathrm{e}^{\\mathrm{x}} \\mathrm{dx}=2 \\mathrm{t} \\mathrm{dt} \\\\ & =\\int \\frac{2 \\mathrm{dt}}{\\mathrm{t}^2+1} \\\\ & =2 \\tan ^{-1} \\mathrm{t} \\\\ & =\\left.2 \\tan ^{-1}\\left(\\sqrt{\\mathrm{e}^{\\mathrm{x}}-1}\\right)\\right|_\\alpha ^{\\log _{\\mathrm{e}}^4} \\\\ & =2\\left[\\tan ^{-1} \\sqrt{3}-\\tan ^{-1} \\sqrt{\\mathrm{e}^\\alpha-1}\\right]=\\frac{\\pi}{6} \\\\ & =\\frac{\\pi}{3}-\\tan ^{-1} \\sqrt{\\mathrm{e}^\\alpha-1}=\\frac{\\pi}{12} \\\\ & \\Rightarrow \\tan ^{-1} \\sqrt{\\mathrm{e}^\\alpha-1}=\\frac{\\pi}{4} \\\\ & \\mathrm{e}^\\alpha=2 \\quad \\mathrm{e}^{-\\alpha}=\\frac{1}{2} \\\\ & \\mathrm{x}^2-\\left(2+\\frac{1}{2}\\right) \\mathrm{x}+1=0 \\\\ & 2 \\mathrm{x}^2-5 \\mathrm{x}+2=0\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda6f",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-08T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (08 Apr Shift 2)",
+    "title": "JEE Main 2024 (08 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a0af23ac7d519f9b0cd",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c48",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2011-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011 (Paper 1)",
+      "title": "JEE Advanced 2011 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "A composite block is made of slabs $A, B, C, D$ and $E$ of different thermal conductivities (given in terms of a constant, $K$ ) and sizes (given in terms of length, $L$ ) as shown in the figure. All slabs are of same width. Heat $Q$ flows only from left to right through the blocks. Then, in steady state\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/E0zfPXPVD6anEcAXH-PQnBX7KAEIvnco_WbswydRJsM.original.fullsize.png\"><br>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "snHds",
+      "text": "\nheat flow through $A$ and $E$ slabs are same\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "GjJpx",
+      "text": "\nheat flow through slab $E$ is maximum\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "j3n1O",
+      "text": "\ntemperature difference across slab $E$ is smallest\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "mP4Wx",
+      "text": "\nheat flow through $C=$ heat flow through $B$ + heat flow through $D$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Thermal resistance\n$$\n\\begin{aligned}\n& R=\\frac{l}{K A} \\\\\n& \\therefore \\quad R_A=\\frac{L}{(2 K)(4 L w)}=\\frac{1}{8 K w} \\\\\n& \\text { (Here, } w=\\text { width) } \\\\\n& R_B=\\frac{4 L}{3 K(L w)}=\\frac{4}{3 K w} \\\\\n& R_C=\\frac{4 L}{(4 K)(2 L w)}=\\frac{1}{2 K w} \\\\\n& R_D=\\frac{4 L}{(5 K)(L w)}=\\frac{4}{5 K w} \\\\\n& R_E=\\frac{L}{(6 K)(L w)}=\\frac{1}{6 K w} \\\\\n& R_A: R_B: R_C: R_D: R_E \\\\\n&=15: 160: 60: 96: 12\n\\end{aligned}\n$$\nSo, let us write, $R_A=15 R, R_B=160 R$ etc and draw a simple electrical circuit as shown in figure.\n\n\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/AGHLRh_Fhiti6oMHUfQ1FIukEOkNLjb8FmuxSaIUu0A.original.fullsize.png\"><br>\n\n\n$H=$ Heat current $=$ Rate of heat flow.\n$$\nH_A=H_E=H\n$$\n[let]\n$\\therefore$ Option (a) is correct.\nIn parallel, current distributes in inverse ratio of resistance.\n$$\n\\begin{aligned}\n& \\therefore H_B: H_C: H_D=\\frac{1}{R_B}: \\frac{1}{R_C}: \\frac{1}{R_D} \\\\\n& =\\frac{1}{160}: \\frac{1}{60}: \\frac{1}{96} \\\\\n& =9: 24: 15 \\\\\n& \\therefore \\quad H_B=\\left(\\frac{9}{9+24+15}\\right) H=\\frac{3}{16} H \\\\\n& H_C=\\left(\\frac{24}{9+24+15}\\right) H=\\frac{1}{2} H \\\\\n& \\text { and } \\quad H_D=\\left(\\frac{15}{9+24+15}\\right) H=\\frac{5}{16} H \\\\\n&\n\\end{aligned}\n$$\n\n$$\nH_C=H_B+H_D\n$$\n$\\therefore$ Option (d) is correct.\nTemperature difference (let us call it $T$ )\n$=($ Heat current $) \\times($ Thermal resistance $)$\n$T_A=H_A R_A=(H)(15 R)=15 \\mathrm{HR}$\n$T_B=H_B R_B=\\left(\\frac{3}{16} H\\right)(160 R)=30 H R$\n$T_C=H_C R_C=\\left(\\frac{1}{2} H\\right)(60 R)=30 H R$\n$T_D=H_D R_D=\\left(\\frac{5}{16} H\\right)(96 R)=30 H R$\n$T_E=H_E R_E=(H)(12 R)=12 \\mathrm{HR}$\nHere, $T_E$ is minimum. Therefore, option\n(c) is also correct.\n$\\therefore$ Correct options are (a), (c) and (d).\nAnalysis of Question\n(i) From calculation point of view, question is difficult otherwise question is simple.\n(ii) In heat transfer, questions are mainly asked from conduction and radiation topic.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c48",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2011-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011 (Paper 1)",
+    "title": "JEE Advanced 2011 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

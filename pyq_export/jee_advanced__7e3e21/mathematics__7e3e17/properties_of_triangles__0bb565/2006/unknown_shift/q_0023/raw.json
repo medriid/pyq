@@ -1,0 +1,63 @@
+{
+  "_id": "64b169ccf23ac7d519f9ae94",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1e77301f65c2f92c3f",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2006-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2006",
+      "title": "JEE Advanced 2006"
+    }
+  ],
+  "question": {
+    "text": "If $a, b$ and $c$ are the sides of a $\\triangle A B C$ such that $x^2-2(a+b+c) x+3 \\lambda(a b+b c+c a)=0$ has real roots, then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "I3UMc",
+      "text": "\n$\\lambda < \\frac{4}{3}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "M7HUW",
+      "text": "\n$\\lambda>\\frac{5}{3}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "GDZEr",
+      "text": "\n$\\lambda \\in\\left(\\frac{4}{3}, \\frac{5}{3}\\right)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "kX86A",
+      "text": "\n$\\lambda \\in\\left(\\frac{1}{3}, \\frac{5}{3}\\right)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Since, roots are real, $D \\geq 0$\n$$\n\\begin{array}{ll}\n\\Rightarrow & 4(a+b+c)^2-12 \\lambda(a b+b c+c a) \\geq 0 \\\\\n\\Rightarrow & (a+b+c)^2 \\geq 3 \\lambda(a b+b c+c a) \\\\\n\\Rightarrow & a^2+b^2+c^2 \\geq(a b+b c+c a)(3 \\lambda-2) \\\\\n\\Rightarrow & 3 \\lambda-2 \\leq \\frac{a^2+b^2+c^2}{a b+b c+c a} \\\\\n\\text { where, } a^2+b^2 \\geq 2 a b, b^2+c^2 \\geq 2 b c \\text { and } c^2+a^2 \\geq 2 c a \\\\\n\\Rightarrow & a^2+b^2+c^2 \\geq(a b+b c+c a) \\\\\n\\therefore & \\frac{a^2+b^2+c^2}{a b+b c+c a} \\geq 1\n\\end{array}\n$$\nAlso, $\\quad \\cos A=\\frac{b^2+c^2-a^2}{2 b c} < 1$\n$$\n\\Rightarrow \\quad b^2+c^2-a^2 < 2 b c\n$$\nSimilarly, $c^2+a^2-b^2 < 2 c a$ and $a^2+b^2-c^2 < 2 a b$\n$$\n\\Rightarrow a^2+b^2+c^2 < 2(a b+b c+c a) \\text { or } \\frac{a^2+b^2+c^2}{a b+b c+c a} < 2\n$$\nFrom Eqs. (i), (ii) and (iii)\n$$\n\\begin{array}{lrl}\n\\therefore & 3 \\lambda-2 & < 2 \\\\\n\\Rightarrow & \\lambda < \\frac{4}{3}\n\\end{array}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1e77301f65c2f92c3f",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2006-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2006",
+    "title": "JEE Advanced 2006"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 24,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2010 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602544a0c712fd38fee5c4",
+    "chapter_name": "Limits",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $\\lim _{x \\rightarrow 0} \\frac{1}{x^3} \\int_0^x \\frac{t \\log (1+t)}{t^4+4} d t$ is"
+  },
+  "options": [
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{12}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{1}{24}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{64}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow 0} \\frac{1}{x^3} \\int_0^{x t} \\frac{\\log (1+t)}{4+t^4} d t$\nUsing L' Hospital's rule,\n$$\n\\begin{aligned}\n& =\\lim _{x \\rightarrow 0} \\frac{\\frac{x \\log (1+x)}{4+x^4}}{3 x^2} \\\\\n= & \\lim _{x \\rightarrow 0} \\frac{\\log (1+x)}{3 x} \\cdot \\frac{1}{4+x^4} \\\\\n= & \\frac{1}{3} \\cdot \\frac{1}{4}=\\frac{1}{12}\\left[\\text { using, } \\lim _{x \\rightarrow 0} \\frac{\\log (1+x)}{x}=1\\right]\n\\end{aligned}\n$$"
+  }
+}

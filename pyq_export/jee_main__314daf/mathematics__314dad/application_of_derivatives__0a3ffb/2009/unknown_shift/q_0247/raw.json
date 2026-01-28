@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d658d2",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c9",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009",
+      "title": "JEE Main 2009"
+    }
+  ],
+  "question": {
+    "text": "Given $P(x)=x^4+a x^3+b x^2+c x+d$ such that $x=0$ is the only real root of $P^{\\prime}(x)=0$. If $P(-1) < P(1)$, then in the interval $[-1,1]$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "TKQWm",
+      "text": "\n$P(-1)$ is the minimum and $P(1)$ is the maximum of $P$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ypVZi",
+      "text": "\n$P(-1)$ is not minimum but $P(1)$ is the maximum of $P$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "rkK5I",
+      "text": "\n$P(-1)$ is the minimum and $P(1)$ is not the maximum of $P$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "NUBai",
+      "text": "\nneither $P(-1)$ is the minimum nor $P(1)$ is the maximum of $P$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& P(x)=x^4+a x^3+b x^2+c x+d \\\\\n& P^{\\prime}(x)=4 x^3+3 a x^2+2 b x+c \\\\\n& \\because x=0 \\text { is a solution for } P^{\\prime}(x)=0, \\Rightarrow c=0 \\\\\n& \\therefore P(x)=x^4+a x^3+b x^2+d\n\\end{aligned}\n$$\nAlso, we have $P(-1) < P(1)$\n$$\n\\Rightarrow 1-a+b+d < 1+a+b+d \\Rightarrow a>0\n$$\n$\\because P^{\\prime}(x)=0$, only when $x=0$ and $P(x)$ is differentiable in $(-1,1)$, we should have the maximum and minimum at the points $x=-1,0$ and 1 only\nAlso, we have $P(-1) < P(1)$\n$\\therefore$ Max. of $P(x)=\\operatorname{Max} .\\{P(0), P(1)\\}$ \\& Min. of $P(x)=\\operatorname{Min} .\\{P(-1), P(0)\\}$\nIn the interval $[0,1]$,\n$$\nP^{\\prime}(x)=4 x^3+3 a x^2+2 b x=x\\left(4 x^2+3 a x+2 b\\right)\n$$\n$\\because P^{\\prime}(x)$ has only one root $x=0,4 x^2+3 a x+2 b=0$ has no real roots.\n$$\n\\begin{aligned}\n& \\therefore(3 a)^2-32 b < 0 \\Rightarrow \\frac{3 a^2}{32} < b \\\\\n& \\therefore b>0\n\\end{aligned}\n$$\nThus, we have $a>0$ and $b>0$\n$$\n\\therefore \\mathrm{P}^{\\prime}(\\mathrm{x})=4 \\mathrm{x}^3+3 a \\mathrm{x}^2+2 \\mathrm{bx}>0, \\forall \\mathrm{x} \\in(0,1)\n$$\nHence $P(x)$ is increasing in $[0,1]$\n$\\therefore$ Max. of $P(x)=P(1)$\nSimilarly, $P(x)$ is decreasing in $[-1,0]$\nTherefore Min. $P(x)$ does not occur at $x=-1$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c9",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009",
+    "title": "JEE Main 2009"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

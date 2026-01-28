@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d00146ed0ebdd74e3ce",
+    "chapter_name": "Sets and Relations",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "On $R$, the relation $\\rho$ be defined by 'xpy holds if and only if $x-y$ is zero or irrational'. Then,"
+  },
+  "options": [
+    {
+      "text": "$\\rho$ is reflexive and transitive but not symmetric",
+      "is_correct": false
+    },
+    {
+      "text": "$\\rho$ is reflexive and symmetric but not transitive",
+      "is_correct": true
+    },
+    {
+      "text": "$\\rho$ is symmetric and transitive but not reflexive",
+      "is_correct": false
+    },
+    {
+      "text": "$\\rho$ is equivalence relation",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "We have, $x p y \\Rightarrow x-y$ is zero or irrational. Now, $x-x=0$\r\n$\\Rightarrow(x, x) \\in \\rho$\r\n$\\therefore \\rho$ is reflexive. \r\nAgain, if $x-y$ is either zero or irrational, then $y-x$ will also be either zero or inational.\r\n$(x, y) \\in \\rho$\r\n$\\Leftrightarrow \\quad(y, x) \\in \\rho$\r\n$\\therefore \\rho$ is symmetric. \r\nAgain, $(2, \\sqrt{3}) \\in \\rho$ and $(\\sqrt{3}, 4) \\in \\rho$\r\n$But (2,4) \\notin \\rho$\r\n$\\therefore p$ is not transitive."
+  }
+}

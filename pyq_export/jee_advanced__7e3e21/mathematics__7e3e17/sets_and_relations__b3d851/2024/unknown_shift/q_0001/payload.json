@@ -1,0 +1,24 @@
+{
+  "index": 1,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2024 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "632c86c3bbb2801e57b3d851",
+    "chapter_name": "Sets and Relations",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the value of $n(Y)+n(Z)$ is $k^2$, then $|k|$ is\nLet \\(S=\\{1,2,3,4,5,6\\}\\) and \\(X\\) be the set of all relations \\(R\\) from \\(S\\) to \\(S\\) that satisfy both the following properties:\r\ni. \\(R\\) has exactly 6 elements.\r\nii. For each \\((a, b) \\in R\\), we have \\(|a-b| \\geq 2\\).\r\nLet \\(Y=\\{R \\in X\\) : The range of \\(R\\) has exactly one element \\(\\}\\) and \\(Z=\\{R \\in X: R\\) is a function from \\(S\\) to \\(S\\}\\).\r\nLet \\(n(A)\\) denote the number of elements in a set \\(A\\)."
+  },
+  "options": [],
+  "correct_answer": 36,
+  "solution": {
+    "text": "given $|a-b| \\geq 2$ so if\n<img src=\"assets\\st0001_6b13a9ad5f33.png\">\ni.e. Total elements in $\\mathrm{X}$ is ${ }^{20} \\mathrm{C}_6$\nNow for $\\mathrm{n}(\\mathrm{Y})$,\nrange of $\\mathrm{R}$ has exactly one element i.e. second elements must be constant in $\\mathrm{R}$ and since $\\mathrm{R}$ must have 6 element so it is not possible to satisfy both condition so $\\mathrm{n}(\\mathrm{Y})=0$.\n$\\begin{aligned} & \\text { for } \\quad n(z) \\\\ & 1 \\rightarrow 3,4,5,6 \\\\ & 2 \\rightarrow 4,5,6 \\\\ & 3 \\rightarrow 1,5,6 \\\\ & 4 \\rightarrow 1,2,6 \\\\ & 5 \\rightarrow 1,2,3 \\\\ & 6 \\rightarrow 1,2,3,4 \\\\ & \\end{aligned}$\nno. of relation that are function will be $\\quad={ }^4 \\mathrm{C}_1 \\times{ }^3 \\mathrm{C}_1 \\times{ }^3 \\mathrm{C}_1 \\times{ }^3 \\mathrm{C}_1 \\times{ }^3 \\mathrm{C}_1 \\times{ }^4 \\mathrm{C}_1$\n$\\begin{aligned} & =(4 \\times 3 \\times 3)^2=k^2 \\\\ & \\text { i.e. } \\mathrm{k}=36\\end{aligned}$"
+  }
+}

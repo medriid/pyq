@@ -1,0 +1,63 @@
+{
+  "_id": "64a81402e0ff5a5425a85799",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 1,
+  "question": {
+    "text": "For two events $A$ and $B,$ let $P(A)=0.7$ and $P(B)=0.6 .$ The necessarily false statement(s) is/are",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "KAMkz",
+      "text": "$P(A \\cap B)=0.35$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "KXvmP",
+      "text": "$P(A \\cap B)=0.45$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "dcs5J",
+      "text": "$P(A \\cap B)=0.65$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "pvLsS",
+      "text": "$P(A \\cap B)=0.28$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $P(A)=0.7$ and $P(B)=0.6$\r\nWe know that\r\n$$\r\nP(A \\cap B) \\leq P(B)\r\n$$\r\n$\\therefore \\quad P(A \\cap B) \\leq 0.6$\r\nFrom Booley's inequality $P\\left(\\bigcap_{i=1}^{n} A_{i}\\right) \\geq \\sum_{i=1}^{n} P\\left(A_{i}\\right)-(n-1)$\r\n$\\therefore \\quad P(A \\cap B) \\geq[(P(A)+P(B)-(2-1)]$\r\n$\\Rightarrow \\quad P(A \\cap B) \\geq[0.7+0.6-1]$\r\n$\\Rightarrow \\quad P(A \\cap B) \\geq 0.3$\r\nFrom Eqs.\r\n(i) and (ii), we get\r\n$$\r\n0.3 \\leq P( A \\cap B) \\leq 0.6\r\n$$\r\nHence, options (c) and are (d) always incorrect",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

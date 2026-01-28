@@ -1,0 +1,63 @@
+{
+  "_id": "64a81496e0ff5a5425a85d0b",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad6",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2023-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023",
+      "title": "WBJEE 2023"
+    }
+  ],
+  "question": {
+    "text": "Let \\(A\\) and \\(B\\) are orthogonal matrices and \\(\\operatorname{det} A+\\operatorname{det} B=0\\). Then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "O4NDX",
+      "text": "\\(A+B\\) is singular",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "S6hXc",
+      "text": "\\(A+B\\) is non-singular",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "hfJrw",
+      "text": "\\(A+B\\) is orthogonal",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "EE0Hc",
+      "text": "\\(A+B\\) is skew symmetric",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint: \\(A A^{\\top}=I\\) and \\(B B^{\\top}=I\\)\n\\(\\Rightarrow \\operatorname{det}\\left(A A^{\\top}\\right)=1\\) and \\(\\operatorname{det}\\left(B B^{\\top}\\right)=1\\)\n\\(\\operatorname{det}(A)=-\\operatorname{det}(B)\\) (Given) \\( \\Rightarrow(\\operatorname{det}(A))^2=1 \\Rightarrow(\\operatorname{det}(B))^2=1\\)\n\\(\\therefore \\operatorname{det}(A+B)=\\operatorname{det}\\left(A\\left(B^{\\top}+A^{\\top}\\right) B\\right)\\)\n\\(=-\\operatorname{det}\\left(B^{\\top}+A^{\\top}\\right) \\quad[\\because(\\operatorname{det}(A))(\\operatorname{det}(B))=-1]\\) as \\(\\operatorname{det}(A)=-\\operatorname{det}(B)\\)\n\\(=-\\operatorname{det}(B+A)^{\\top}\\)\n\\(=-\\operatorname{det}(A+B)^{\\top}\\)\n\\(=-\\operatorname{det}(A+B)\\)\n\\(\\Rightarrow 2 \\operatorname{det}(A+B)=0\\)\n\\(\\Rightarrow \\operatorname{det}(A+B)=0\\)\n\\(\\therefore(A+B)\\) is singular",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad6",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2023-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023",
+    "title": "WBJEE 2023"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

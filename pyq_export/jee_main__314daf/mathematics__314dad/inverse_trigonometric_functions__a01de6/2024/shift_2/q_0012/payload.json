@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025537539c1075ba01de6",
+    "chapter_name": "Inverse Trigonometric Functions",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Given that the inverse trigonometric function assumes principal values only. Let $x$, $y$ be any two real numbers in $[-1,1]$ such that $\\cos ^{-1} x-\\sin ^{-1} y=\\alpha, \\frac{-\\pi}{2} \\leq \\alpha \\leq \\pi$.<br />Then, the minimum value of $x^2+y^2+2 x y \\sin \\alpha$ is"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": true
+    },
+    {
+      "text": "-1",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{1}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\cos ^{-1} x-\\left(\\frac{\\pi}{2}-\\cos ^{-1} y\\right)=\\alpha \\\\\n& \\cos ^{-1} x+\\cos ^{-1} y=\\frac{\\pi}{2}+\\alpha \\\\\n& \\alpha \\in\\left[-\\frac{\\pi}{2}, \\pi\\right], \\frac{\\pi}{2}+\\alpha \\in\\left[0, \\frac{3 \\pi}{2}\\right] \\\\\n& \\cos ^{-1}\\left(x y-\\sqrt{1-x^2} \\sqrt{1-y^2}\\right)=\\frac{\\pi}{2}+\\alpha \\\\\n& x y-\\sqrt{1-x^2} \\sqrt{1-y^2}=-\\sin \\alpha \\\\\n& (x y+\\sin \\alpha)=\\left(1-x^2\\right)\\left(1-y^2\\right) \\\\\n& x^2 y^2+2 x y \\sin a+\\sin ^2 a=1-x^2-y^2+x^2 y^2 \\\\\n& x^2+y^2+2 x y \\sin \\alpha=1-\\sin ^2 \\alpha \\\\\n& x^2+y^2+2 x y \\sin \\alpha=\\cos ^2 \\alpha\n\\end{aligned}$<br />Min. value of $\\cos ^2 \\alpha=0$\nAt $\\alpha=\\frac{\\pi}{2}$"
+  }
+}

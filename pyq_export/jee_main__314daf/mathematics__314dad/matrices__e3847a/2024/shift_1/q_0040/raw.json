@@ -1,0 +1,63 @@
+{
+  "_id": "6682bd4aba0e94a3c4025bb5",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "question": {
+    "text": "Consider the matrix <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mi>cos</mi><mi>x</mi></mtd><mtd><mo>-</mo><mi>sin</mi><mi>x</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mi>sin</mi><mi>x</mi></mtd><mtd><mi>cos</mi><mi>x</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced></math>. Given below are two statements :<br/>Statement I:<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mo>-</mo><mi>x</mi><mo>)</mo></math> is the inverse of the matrix <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math>.<br/>Statement II: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo><mi>f</mi><mo>(</mo><mi>y</mi><mo>)</mo><mo>=</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo></math>.<br/>In the light of the above statements, choose the correct answer from the options given below",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "3Lynq",
+      "text": "Statement I is false but Statement II is true",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7u0lI",
+      "text": "Both Statement I and Statement II are false",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "tdwHM",
+      "text": "Statement I is true but Statement II is false",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "UELQP",
+      "text": "Both Statement I and Statement II are true",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>Given: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mi>cos</mi><mi>x</mi></mtd><mtd><mo>-</mo><mi>sin</mi><mi>x</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mi>sin</mi><mi>x</mi></mtd><mtd><mi>cos</mi><mi>x</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mrow><mo>-</mo><mi>x</mi></mrow></mfenced><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mi>cos</mi><mi>x</mi></mtd><mtd><mi>sin</mi><mi>x</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mo>-</mo><mi>sin</mi><mi>x</mi></mtd><mtd><mi>cos</mi><mi>x</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>×</mo><mi>f</mi><mfenced><mrow><mo>-</mo><mi>x</mi></mrow></mfenced><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mi>cos</mi><mi>x</mi></mtd><mtd><mo>-</mo><mi>sin</mi><mi>x</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mi>sin</mi><mi>x</mi></mtd><mtd><mi>cos</mi><mi>x</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mi>cos</mi><mi>x</mi></mtd><mtd><mi>sin</mi><mi>x</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mo>-</mo><mi>sin</mi><mi>x</mi></mtd><mtd><mi>cos</mi><mi>x</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>×</mo><mi>f</mi><mfenced><mrow><mo>-</mo><mi>x</mi></mrow></mfenced><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>×</mo><mi>f</mi><mfenced><mrow><mo>-</mo><mi>x</mi></mrow></mfenced><mo>=</mo><mi>I</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mrow><mo>-</mo><mi>x</mi></mrow></mfenced><mo>=</mo><msup><mi>f</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mi>x</mi></mfenced></math></p><p>Hence statement-I is correct</p><p>Now, checking statement II</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mi>y</mi></mfenced><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mi>cos</mi><mi>y</mi></mtd><mtd><mo>-</mo><mi>sin</mi><mi>y</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mi>sin</mi><mi>y</mi></mtd><mtd><mi>cos</mi><mi>y</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mi>f</mi><mfenced><mi>y</mi></mfenced><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mi>cos</mi><mi>x</mi></mtd><mtd><mo>-</mo><mi>sin</mi><mi>x</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mi>sin</mi><mi>x</mi></mtd><mtd><mi>cos</mi><mi>x</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mi>cos</mi><mi>y</mi></mtd><mtd><mo>-</mo><mi>sin</mi><mi>y</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mi>sin</mi><mi>y</mi></mtd><mtd><mi>cos</mi><mi>y</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mi>f</mi><mfenced><mi>y</mi></mfenced><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mi>cos</mi><mi>x</mi><mi>cos</mi><mi>y</mi><mo>-</mo><mi>sin</mi><mi>x</mi><mi>sin</mi><mi>y</mi></mtd><mtd><mo>-</mo><mi>cos</mi><mi>x</mi><mi>sin</mi><mi>y</mi><mo>-</mo><mi>sin</mi><mi>x</mi><mi>cos</mi><mi>y</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mi>sin</mi><mi>x</mi><mi>cos</mi><mi>y</mi><mo>+</mo><mi>cos</mi><mi>x</mi><mi>sin</mi><mi>y</mi></mtd><mtd><mo>-</mo><mi>sin</mi><mi>x</mi><mi>sin</mi><mi>y</mi><mo>+</mo><mi>cos</mi><mi>x</mi><mi>cos</mi><mi>y</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mi>f</mi><mfenced><mi>y</mi></mfenced><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mi>cos</mi><mo>(</mo><mi mathvariant=\"normal\">x</mi><mo>+</mo><mi mathvariant=\"normal\">y</mi><mo>)</mo></mtd><mtd><mo>-</mo><mi>sin</mi><mo>(</mo><mi mathvariant=\"normal\">x</mi><mo>+</mo><mi mathvariant=\"normal\">y</mi><mo>)</mo></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mi>sin</mi><mo>(</mo><mi mathvariant=\"normal\">x</mi><mo>+</mo><mi mathvariant=\"normal\">y</mi><mo>)</mo></mtd><mtd><mi>cos</mi><mo>(</mo><mi mathvariant=\"normal\">x</mi><mo>+</mo><mi mathvariant=\"normal\">y</mi><mo>)</mo></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>·</mo><mi>f</mi><mo>(</mo><mi>y</mi><mo>)</mo><mo>=</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo></math></p><p>Hence statement-II is also correct.</p>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYearPapers": [
+    {
+      "_id": "65c4c0c01d30997d3436bafe",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-01-27T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (27 Jan Shift 1)",
+      "title": "JEE Main 2024 (27 Jan Shift 1)"
+    }
+  ],
+  "previousYear": {
+    "_id": "65c4c0c01d30997d3436bafe",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-01-27T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (27 Jan Shift 1)",
+    "title": "JEE Main 2024 (27 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

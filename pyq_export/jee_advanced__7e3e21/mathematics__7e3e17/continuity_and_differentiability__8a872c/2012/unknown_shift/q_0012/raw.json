@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a1df23ac7d519f9b174",
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c4a",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (Paper 1)",
+      "title": "JEE Advanced 2012 (Paper 1)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $\\int(x)=\\left\\{\\begin{array}{r}x^{2}\\left|\\cos \\frac{\\pi}{x}\\right|, \\quad x \\neq 0 \\\\ 0, \\quad x=0\\end{array}, x \\in R\\right.$ then $\\int$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "N5Xjs",
+      "text": "differentiable both at $x=0$ and at $x=2$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "WAILP",
+      "text": "differentiable at $x=0$ but not differentiable at $x=2$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "3bRvT",
+      "text": "not differentiable at $x=0$ but differentiable at $x=2$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "DOHjT",
+      "text": "differentiable neither at $x=0$ nor at $x=2$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$f^{\\prime}\\left(0^{+}\\right)=\\lim _{h \\rightarrow 0} \\frac{f(0+h)-f(0)}{h}$\r\n\r\n$\\begin{aligned}\r\n\r\n=\\lim _{h \\rightarrow 0} \\frac{h^{2}\\left|\\cos \\frac{\\pi}{h}\\right|}{h} &=\\lim _{h \\rightarrow 0} h\\left|\\cos \\frac{\\pi}{h}\\right| \\\\\r\n\r\n&=0 \\times \\text { some finite value }=0\r\n\r\n\\end{aligned}$\r\n\r\n$\\begin{array}{c}\r\n\r\n=0 \\times \\text { some finite value }=0 \\\\\r\n\r\n\\text { and } f^{\\prime}\\left(0^{-}\\right)=\\lim _{h \\rightarrow 0} \\frac{f(0-h)-f(0)}{-h}=\\lim _{h \\rightarrow 0} \\frac{h^{2}\\left|\\cos \\frac{\\pi}{-h}\\right|}{-h} \\\\\r\n\r\n=\\lim _{h \\rightarrow 0}-h\\left|\\cos \\frac{\\pi}{h}\\right|=0 \\times \\text { some finite value }=0\r\n\r\n\\end{array}$\r\n\r\n$\\begin{array}{l}\r\n\r\n\\because f^{\\prime}\\left(0^{+}\\right)=f^{\\prime}\\left(0^{-}\\right) \\therefore f \\text { is differentiable at } x=0 \\\\\r\n\r\n\\text { Now } f^{\\prime}\\left(2^{+}\\right)=\\lim _{h \\rightarrow 0} \\frac{f(2+h)-f(2)}{h} \\\\\r\n\r\n\\quad=\\lim _{h \\rightarrow 0} \\frac{(2+h)^{2}\\left|\\cos \\frac{\\pi}{2+h}\\right|-4\\left|\\cos \\frac{\\pi}{2}\\right|}{h}\r\n\r\n\\end{array}$\r\n\r\n$=\\lim _{h \\rightarrow 0} \\frac{(2+h)^{2}\\left(\\cos \\frac{\\pi}{2+h}\\right)}{h}$\r\n\r\n$=\\lim _{h \\rightarrow 0} \\frac{(2+h)^{2}}{h} \\sin \\left(\\frac{\\pi}{2}-\\frac{\\pi}{2+h}\\right)$\r\n\r\n$=\\lim _{h \\rightarrow 0} \\frac{(2+h)^{2}}{h} \\sin \\left(\\frac{\\pi h}{2(2+h)}\\right)$\r\n\r\n$=\\lim _{h \\rightarrow 0} \\frac{(2+h)^{2}}{h} \\times \\frac{\\sin \\left(\\frac{\\pi h}{2(2+h)}\\right)}{\\left(\\frac{\\pi h}{2(2+h)}\\right)} \\times \\frac{\\pi h}{2(2+h)}=\\pi$\r\n\r\nand $f^{\\prime}\\left(2^{-}\\right)=\\lim _{h \\rightarrow 0} \\frac{f(2-h)-f(2)}{-h}$\r\n\r\n$=\\lim _{h \\rightarrow 0} \\frac{(2-h)^{2}\\left|\\cos \\left(\\frac{\\pi}{2-h}\\right)\\right|-0}{-h}$\r\n\r\n$=\\lim _{h \\rightarrow 0} \\frac{-(2-h)^{2} \\cos \\left(\\frac{\\pi}{2-h}\\right)}{-h}$\r\n\r\n$=\\lim _{h \\rightarrow 0} \\frac{(2-h)^{2} \\sin \\left(\\frac{\\pi}{2}-\\frac{\\pi}{2-h}\\right)}{h}$\r\n\r\n$=\\lim _{h \\rightarrow 0} \\frac{(2-h)^{2}}{h} \\times \\frac{\\sin \\left(\\frac{-\\pi h}{2(2-h)}\\right)}{\\left(\\frac{-\\pi h}{2(2-h)}\\right)} \\times\\left(\\frac{-\\pi h}{2(2-h)}\\right)=-\\pi$\r\n\r\n$\\because f^{\\prime}\\left(2^{+}\\right) \\neq f^{\\prime}\\left(2^{-}\\right), \\therefore f$ is not differentiable at $x=2 .$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c4a",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (Paper 1)",
+    "title": "JEE Advanced 2012 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

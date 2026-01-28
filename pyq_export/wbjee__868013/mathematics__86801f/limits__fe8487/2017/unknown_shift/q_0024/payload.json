@@ -1,0 +1,43 @@
+{
+  "index": 24,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let for all $x>0, f(x)=\\lim _{n \\rightarrow \\infty} n\\left(x^{1 / n}-1\\right),$ then"
+  },
+  "options": [
+    {
+      "text": "$f(x)+f\\left(\\frac{1}{x}\\right)=1$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x y)=f(x)+f(y)$",
+      "is_correct": true
+    },
+    {
+      "text": "$f(x y)=x f(y)+y f(x)$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x y)=x f(x)+y f(y)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "We have, $f(x)=\\lim _{n \\rightarrow \\infty} n\\left(x^{1 / n}-1\\right)$\r\n$=\\lim _{n \\rightarrow \\infty} \\frac{x^{1 / n}-1}{1 / n}$\r\nLet $\\quad \\frac{1}{n}=y$\r\n$\\begin{aligned} \\therefore \\quad f(x)=& \\lim _{y \\rightarrow 0} \\frac{x^{y}-1}{y} \\\\ &=\\log x \\end{aligned}$\r\n$\\therefore \\quad f(x y)=\\log (x, y)$\r\n$=\\log x+\\log y$\r\n$=f(x)+f(y)$"
+  }
+}

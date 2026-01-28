@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c806d628b5819d90b84",
+    "chapter_name": "Mechanical Properties of Fluids",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<img src=\"assets\\qt0005_f9c28e8ae934.png\"><br>\nAs shown in the figure, a pump is designed as horizontal cylinder with a piston having area A and an outlet orifice having an area ' \\(a\\) '. The piston moves with a constant velocity under the action of force \\(F\\). If the density of the liquid is \\(\\rho\\), then the speed of the liquid emerging from the orifice is, (assume \\(A >  > a\\) )"
+  },
+  "options": [
+    {
+      "text": "\\(\\sqrt{\\frac{F}{\\rho A}}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{a}{A} \\sqrt{\\frac{F}{\\rho A}}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\sqrt{\\frac{2 F}{\\rho A}}\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(\\frac{A}{a} \\sqrt{\\frac{2 F}{\\rho A}}\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hint: by principle of continuity\n\\(\\mathrm{AV}=\\mathrm{av}\\)\nby Bernoulis principle\n\\(\\begin{aligned} & P+\\frac{1}{2} \\rho V^2=P_0+\\frac{1}{2} \\rho v^2 \\\\ & {\\left[\\frac{F}{A}+P_0\\right]+\\frac{1}{2} \\rho V^2=P_0+\\frac{1}{2} \\rho v^2} \\\\ & \\frac{F}{A}+\\frac{1}{2} \\rho\\left[\\frac{a v}{A}\\right]^2=\\frac{1}{2} \\rho v^2 \\\\ & \\frac{F}{A}=\\frac{1}{2} \\rho v^2\\left[1-\\frac{a^2}{A^2}\\right]\\end{aligned}\\)\n\\(\\begin{aligned} & v=\\sqrt{\\frac{2 F}{\\rho A\\left[1-\\frac{a^2}{A^2}\\right]}} \\\\ & a^2 \\ll A^2 \\\\ & v=\\sqrt{\\frac{2 F}{\\rho A}}\\end{aligned}\\)"
+  }
+}

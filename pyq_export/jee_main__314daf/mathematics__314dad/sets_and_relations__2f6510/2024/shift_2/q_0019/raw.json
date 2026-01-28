@@ -1,0 +1,63 @@
+{
+  "_id": "6644674e970e6e9ab542d217",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda6f",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-08T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (08 Apr Shift 2)",
+      "title": "JEE Main 2024 (08 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $A=\\{2,3,6,8,9,11\\}$ and $B=\\{1,4,5,10,15\\}$. Let $R$ be a relation on $A \\times B$ defined by $(a, b) R(c, d)$ if and only if $3 a d-7 b c$ is an even integer. Then the relation $R$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "BACE5",
+      "text": "an equivalence relation.",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "zxbUz",
+      "text": "reflexive and symmetric but not transitive.",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "TJKBW",
+      "text": "transitive but not symmetric.",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "PFSc4",
+      "text": "reflexive but not symmetric.",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{array}{lc}\\mathrm{A}=\\{2,3,6,8,9,11\\} & (\\mathrm{a}, \\mathrm{b}) \\mathrm{R}(\\mathrm{c}, \\mathrm{d}) \\\\ \\mathrm{B}=\\{1,4,5,10,15\\} & 3 \\mathrm{ad}-7 \\mathrm{bc}\\end{array}$\nReflexive : $(\\mathrm{a}, \\mathrm{b}) \\mathrm{R}(\\mathrm{a}, \\mathrm{b})$\n$\\Rightarrow 3 \\mathrm{ab}-7 \\mathrm{ba}=-4 \\mathrm{ab}$ always even so it is reflexive.\nSymmetric : If $3 \\mathrm{ad}-7 \\mathrm{bc}=$ Even\nCase-I : odd odd\nCase-II : even even\n(c, d) $\\mathrm{R}(\\mathrm{a}, \\mathrm{b}) \\Rightarrow 3 \\mathrm{bc}-3 \\mathrm{ab}$\nCase-I : odd odd\nCase-II : even even\nso symmetric relation\nTransitive :\nSet $(3,4) R(6,4)$ Satisfy relation\nSet $(6,4) R(3,1)$ Satisfy relation\nbut $(3,4) \\mathrm{R}(3,1)$ does not satisfy relation so not transitive.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda6f",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-08T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (08 Apr Shift 2)",
+    "title": "JEE Main 2024 (08 Apr Shift 2)"
+  },
+  "evalStatus": "incorrect",
+  "lastPracticed": "2025-03-01T11:35:33.602Z"
+}

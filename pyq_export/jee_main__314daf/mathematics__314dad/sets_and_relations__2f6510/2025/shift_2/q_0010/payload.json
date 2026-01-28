@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254da66d43264e2f6510",
+    "chapter_name": "Sets and Relations",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $\\mathrm{A}=\\left\\{x \\in(0, \\pi)-\\left\\{\\frac{\\pi}{2}\\right\\}: \\log _{(2 / \\pi)}|\\sin x|+\\log _{(2 / \\pi)}|\\cos x|=2\\right\\}$ and $\\mathrm{B}=\\{x \\geqslant 0: \\sqrt{x}(\\sqrt{x}-4)-3|\\sqrt{x}-2|+6=0\\}$. Then $\\mathrm{n}(\\mathrm{A} \\cup \\mathrm{B})$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "4",
+      "is_correct": false
+    },
+    {
+      "text": "8",
+      "is_correct": true
+    },
+    {
+      "text": "6",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{A}: \\log _{2 \\pi}|\\sin \\mathrm{x}|+\\log _{2 \\pi}|\\cos \\mathrm{x}|=2 \\\\ & \\Rightarrow \\log _{2 \\pi}(|\\sin \\mathrm{x} \\cdot \\cos \\mathrm{x}|)=2 \\\\ & \\Rightarrow|\\sin 2 \\mathrm{x}|=\\frac{8}{\\pi^2}\\end{aligned}$\n<img src=\"assets\\st0010_d60cfba8dcf4.png\"><br>\n\n\n\nNumber of solution 4\n$\\text { B : let } \\sqrt{\\mathrm{x}}=\\mathrm{t} < 2$\n\nThen $\\sqrt{x}(\\sqrt{x}-4)+3(\\sqrt{x}-2)+6=0$\n$\\begin{aligned}\n& \\Rightarrow \\mathrm{t}^2-4 \\mathrm{t}+3 \\mathrm{t}-6+6=0 \\\\\n& \\Rightarrow \\mathrm{t}^2-\\mathrm{t}=0, \\mathrm{t}=0, \\mathrm{t}=1 \\\\\n& \\mathrm{x}=0, \\mathrm{x}=1\n\\end{aligned}$\nagain let $\\sqrt{\\mathrm{x}}=\\mathrm{t}>2$\nthen $\\mathrm{t}^2-4 \\mathrm{t}-3 \\mathrm{t}+6+6=0$\n$\\begin{aligned}\n& \\Rightarrow \\mathrm{t}^2-7 \\mathrm{t}+12=0 \\\\\n& \\Rightarrow \\mathrm{t}=3,4 \\\\\n& \\mathrm{x}=9,16\n\\end{aligned}$\n\nTotal number of solutions\n$\\mathrm{n}(\\mathrm{~A} \\cup \\mathrm{~B})=4+4=8$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2024 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "6160240548aa12a5f67c1a13",
+    "chapter_name": "Electrostatics",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Two beads, each with charge $q$ and mass $m$, are on a horizontal, frictionless, non-conducting, circular hoop of radius $R$. One of the beads is glued to the hoop at some point, while the other one performs small oscillations about its equilibrium position along the hoop. The square of the angular frequency of the small oscillations is given by\n[ $\\varepsilon_0$ is the permittivity of free space.]"
+  },
+  "options": [
+    {
+      "text": "$q^2 /\\left(4 \\pi \\varepsilon_0 R^3 m\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$q^2 /\\left(32 \\pi \\varepsilon_0 R^3 m\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$q^2 /\\left(8 \\pi \\varepsilon_0 R^3 m\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$q^2 /\\left(16 \\pi \\varepsilon_0 R^3 m\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0007_962e19a458bd.png\">\nRestoring force $=\\mathrm{qE} \\sin \\left(\\frac{\\theta}{2}\\right)$\n$\\begin{aligned} & \\therefore \\tau=\\mathrm{qE} \\sin \\left(\\frac{\\theta}{2}\\right) \\mathrm{R}=\\mathrm{I} \\alpha \\\\ & \\mathrm{E}=\\frac{\\mathrm{Kq}}{\\left(2 \\mathrm{R} \\cos \\frac{\\theta}{2}\\right)^2}=\\frac{1}{4 \\pi \\varepsilon_0} \\frac{\\mathrm{q}}{4 \\mathrm{R}^2 \\cos ^2\\left(\\frac{\\theta}{2}\\right)} \\\\ & \\therefore \\frac{1}{4 \\pi \\epsilon_0} \\frac{\\mathrm{qR}}{4 \\mathrm{R}^2 \\cos ^2\\left(\\frac{\\theta}{2}\\right)} \\sin \\left(\\frac{\\theta}{2}\\right) \\mathrm{q}=\\mathrm{mR}^2 \\alpha\\end{aligned}$\nFor $\\theta$ very small,\n$\\begin{aligned} & \\frac{-\\mathrm{q}^2}{32 \\pi \\varepsilon_0 \\mathrm{R}^3 \\mathrm{~m}} \\theta=\\alpha \\\\ & \\therefore \\omega^2=\\frac{\\mathrm{q}^2}{32 \\pi \\varepsilon_0 \\mathrm{mR}^3}\\end{aligned}$\nHence option (2)"
+  }
+}

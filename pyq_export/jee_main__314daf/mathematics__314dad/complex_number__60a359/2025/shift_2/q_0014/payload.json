@@ -1,0 +1,24 @@
+{
+  "index": 14,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602527bd39a958e960a359",
+    "chapter_name": "Complex Number",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $\\alpha, \\beta$ be the roots of the equation $x^2-a x-b=0$ with $\\operatorname{Im}(\\alpha) \\lt \\operatorname{Im}(\\beta)$. Let $P_n=\\alpha^n-\\beta^n$. If $\\mathrm{P}_3=-5 \\sqrt{7} i, \\mathrm{P}_4=-3 \\sqrt{7} i, \\mathrm{P}_5=11 \\sqrt{7} i$ and $\\mathrm{P}_6=45 \\sqrt{7} i$, then $\\left|\\alpha^4+\\beta^4\\right|$ is equal to $\\qquad$ ."
+  },
+  "options": [],
+  "correct_answer": "31",
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\alpha+\\beta=\\mathrm{a} \\quad \\alpha \\beta=-\\mathrm{b} \\\\\n& \\mathrm{P}_6=\\mathrm{aP}_5+\\mathrm{bP}_4 \\\\\n& 45 \\sqrt{7} \\mathrm{i}=\\mathrm{a} \\times 11 \\sqrt{7} \\mathrm{i}+\\mathrm{b}(-3 \\sqrt{7}) \\mathrm{i} \\\\\n& 45=11 \\mathrm{a}-3 \\mathrm{~b}\n\\end{aligned}$\nand\n$\\begin{aligned}\n& P_5=\\mathrm{aP}_4+b P_3 \\\\\n& 11 \\sqrt{7} \\mathrm{i}=\\mathrm{a}(-3 \\sqrt{7} \\mathrm{i})+\\mathrm{b}(-5 \\sqrt{7} \\mathrm{i}) \\\\\n& 11=-3 \\mathrm{a}-5 \\mathrm{~b} \\\\\n& \\mathrm{a}=3, \\mathrm{~b}=-4 \\\\\n& \\left|\\alpha^4+\\beta^4\\right|=\\sqrt{\\left(\\alpha^4-\\beta^4\\right)^2+4 \\alpha^4 \\beta^4} \\\\\n& =\\sqrt{-63+4.4^4} \\\\\n& =\\sqrt{-63+1024}=\\sqrt{961}=31\n\\end{aligned}$"
+  }
+}

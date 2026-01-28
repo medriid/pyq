@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd27e4f983047d18a96",
+    "chapter_name": "Sequences and Series",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider a quadratic equation \\(a x^2+2 b x+c=0\\) where \\(a, b, c\\) are positive real numbers. If the equation has no real root, then which of the following is true?"
+  },
+  "options": [
+    {
+      "text": "a, b, c cannot be in A.P. or H.P. but can be in G.P.",
+      "is_correct": false
+    },
+    {
+      "text": "a, b, c cannot be in G.P. or H.P. but can be in A.P.",
+      "is_correct": false
+    },
+    {
+      "text": "\\(a, b, c\\) cannot be in A.P. or G.P. but can be in H.P.",
+      "is_correct": true
+    },
+    {
+      "text": "a, b, c cannot be in A.P., G.P. or H.P.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hint : For no real root\n\\(\\begin{aligned}\n& (2 b)^2-4 a c  < 0 \\\\\n& b^2 < a c \\\\\n& b < \\sqrt{a c} \\because a, b, c > 0\n\\end{aligned}\\)\nIf in \\(A P\\), then \\(a+c=2 b\\)\ni.e., \\(\\mathrm{x}=-1\\) a solution\n\\(\\begin{aligned}\n& \\therefore a, b, c \\text { not in AP } \\\\\n& \\because b^2 < a c\n\\end{aligned}\\)\n\\(\\therefore a, b, c\\) not in GP\nFor HP \\(\\quad b=\\frac{2 a c}{a+c}=\\frac{2 \\sqrt{a c}}{\\sqrt{\\frac{a}{c}}+\\sqrt{\\frac{c}{a}}}\\)\n\\(\\sqrt{\\frac{a}{c}}+\\sqrt{\\frac{c}{a}} \\geq 2\\)\n\\(\\therefore \\frac{2 \\sqrt{a c}}{\\sqrt{\\frac{a}{c}}+\\sqrt{\\frac{c}{a}}} \\leq 2 \\therefore a, b, c\\) in HP is possible"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eeccc8b73881fdaea2f8",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d97610",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-29T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (29 Jan Shift 1)",
+      "title": "JEE Main 2025 (29 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "The least value of n for which the number of integral terms in the Binomial expansion of \\((\\sqrt[3]{7}+\\sqrt[12]{11})^{\\mathrm{n}}\\) is 183, is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "7MTBr",
+      "text": "2184",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "PVn9S",
+      "text": "2196",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "QyJdD",
+      "text": "2148",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "JXfrl",
+      "text": "2172",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\text { General term }={ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{r}}\\left\\{7^{1 / 3}\\right\\}^{\\mathrm{n}-\\mathrm{r}}\\left(11^{1 / 12}\\right)^{\\mathrm{r}} \\\\\n& ={ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{r}}\\{7\\}^{\\frac{\\mathrm{n}-\\mathrm{r}}{3}}(11)^{\\mathrm{r} / 12}\n\\end{aligned}$\n\nFor integral terms, r must be multiple of 12\n$\\therefore \\mathrm{r}=12 \\mathrm{k}, \\mathrm{k} \\in \\mathrm{~W}$\n\nTotal values of $r=183$\nHence $\\max r=12(182)$\n$=2184$\n\nMin value of $n=2184$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "808f2dac7de4406a8810eb173781526b",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/TzQSReA6OKtdk.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/TzQSReA6OKtdk.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d97610",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-29T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (29 Jan Shift 1)",
+    "title": "JEE Main 2025 (29 Jan Shift 1)"
+  },
+  "evalStatus": "correct",
+  "lastPracticed": "2025-02-09T04:52:12.540Z"
+}

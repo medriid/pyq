@@ -1,0 +1,63 @@
+{
+  "_id": "64a813ffe0ff5a5425a8577b",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Let $S$ denote the sum of the infinite series $1+\\frac{8}{2 !}+\\frac{21}{3 !}+\\frac{40}{4 !}+\\frac{65}{5 !}+\\ldots .$ Then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "rnrwW",
+      "text": "$S    < 8$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "8RPXo",
+      "text": "$S>12$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Ebzfp",
+      "text": "$8    < S < 12$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "cbZCA",
+      "text": "$S=8$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $S=1+\\frac{8}{2 !}+\\frac{21}{3 !}+\\frac{40}{4 !}+\\frac{65}{5 !}+\\ldots$\r\nAgain, let $S_{1}=1+8+21+40+65+\\ldots+T_{n}$\r\nand $\\quad S_{1}=+1+8+21+40+\\ldots+T_{n}$\r\n$$\r\n\\begin{aligned} 0=1+7+13+19+25+\\ldots-T_{n} \\\\ T_{n} &=1+7+13+19+25+\\ldots+n \\text { terms } \\\\ &=\\frac{n}{2}[2(1)+(n-1) 6] \\\\ &=n[1+3(n-1)]=n(3 n-2) \\end{aligned}\r\n$$\r\n$S=\\sum \\frac{3 n-2}{(n-1) !}$\r\n$=\\sum \\frac{3 n-3+1}{(n-1) !}$\r\n$=\\sum \\frac{3}{(n-2) !}+\\sum \\frac{1}{(n-1) !}$\r\n$\\quad=3 e+e \\quad\\left[\\because e=1+\\frac{1}{1 !}+\\frac{1}{2 !}+\\ldots\\right]$\r\n$=4 e$\r\nWe know $\\quad 2    < e < 3$\r\n$\\therefore \\quad 8 < 4 e < 12$\r\n$\\Rightarrow \\quad 8 < S < 12$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

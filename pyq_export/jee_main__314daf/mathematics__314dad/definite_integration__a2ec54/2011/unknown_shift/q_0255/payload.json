@@ -1,0 +1,43 @@
+{
+  "index": 255,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2011",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For $x \\in\\left(0, \\frac{5 \\pi}{2}\\right)$, define $f(x)=\\int_0^x \\sqrt{t} \\sin t d t$. Then $f$ has"
+  },
+  "options": [
+    {
+      "text": "\nlocal minimum at $\\pi$ and $2 \\pi$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nlocal minimum at $\\pi$ and local maximum at $2 \\pi$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nlocal maximum at $\\pi$ and local minimum at $2 \\pi$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nlocal maximum at $\\pi$ and $2 \\pi$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$f^{\\prime}(x)=\\sqrt{x} \\sin x$\nGiven $x \\in\\left(0, \\frac{5 \\pi}{2}\\right)$\n$f^{\\prime}(x)$ changes sign from +ve to -ve at $\\pi$\n$f^{\\prime}(x)$ changes sign from -ve to +ve at $2 \\pi$\n$f$ has local max at $\\pi$, local min at $2 \\pi$"
+  }
+}

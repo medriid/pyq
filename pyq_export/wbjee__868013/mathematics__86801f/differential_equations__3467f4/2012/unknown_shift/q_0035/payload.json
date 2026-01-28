@@ -1,0 +1,43 @@
+{
+  "index": 35,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $y$ be the solution of the differential equation\r\n$x \\frac{d y}{d x}=\\frac{y^{2}}{1-y \\log x}$ satisfying $y(1)=1 .$ Then, $y$\r\nsatisfies"
+  },
+  "options": [
+    {
+      "text": "$y=x^{y-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$y=x^{y}$",
+      "is_correct": true
+    },
+    {
+      "text": "$y=x^{y+1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$y=x^{y+2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $y=x^{y} \\Rightarrow \\log y=y \\log x$\r\nDifferentiating both sides w.r.t. $x$, we get $\\frac{1}{y} \\frac{d y}{d x}=y \\times \\frac{1}{x}+\\log x \\frac{d y}{d x}$\r\n$\\Rightarrow \\quad \\frac{1}{y} \\frac{d y}{d x}-\\log x \\frac{d y}{d x}=\\frac{y}{x}$\r\n$\\Rightarrow \\quad \\frac{d y}{d x}\\left(\\frac{1}{y}-\\log x\\right)=\\frac{y}{x}$\r\n$\\Rightarrow \\quad \\frac{d y}{d x}\\left(\\frac{1-y \\log x}{y}\\right)=\\frac{y}{x}$\r\n$\\Rightarrow \\quad \\frac{x d y}{d x}=\\frac{y^{2}}{(1-y \\log x)}$"
+  }
+}

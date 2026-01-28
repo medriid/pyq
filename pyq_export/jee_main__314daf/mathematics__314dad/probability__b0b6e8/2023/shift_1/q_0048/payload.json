@@ -1,0 +1,43 @@
+{
+  "index": 48,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2023 (13 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2023",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "<p>A coin is biased so that the head is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> times as likely to occur as tail. This coin is tossed until a head or three tails occur. If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>&nbsp;denotes the number of tosses of the coin, then the mean of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>&nbsp;is</p>"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>38</mn><mn>16</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>15</mn><mn>16</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>21</mn><mn>16</mn></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>81</mn><mn>64</mn></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<blockquote><p>It is given that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>(</mo><mi>H</mi><mo>)</mo><mo>=</mo><mn>3</mn><mi>P</mi><mo>(</mo><mi>T</mi><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mi>P</mi><mo>(</mo><mi>H</mi><mo>)</mo><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>,</mo><mi>P</mi><mo>(</mo><mi>T</mi><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math></p><p>Since coin is tossed till either&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mi>H</mi></math>&nbsp;or <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>T</mi></math>&nbsp;occurs. So, process will end in the maximum of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>&nbsp;throws.</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\t<tbody>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi><mi>i</mi></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math></td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mi>X</mi><mi>i</mi></mrow></mfenced></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>&#183;</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>&#215;</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></math></td>\t\t</tr>\t</tbody></table><p>Now we know that,</p><p>Mean is given by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msub><mi>X</mi><mi>i</mi></msub><mi>P</mi><mfenced><msub><mi>X</mi><mi>i</mi></msub></mfenced></math>&nbsp;</p><p>Mean<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>&#215;</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>+</mo><mn>2</mn><mo>&#215;</mo><mfrac><mn>3</mn><mn>16</mn></mfrac><mo>+</mo><mn>3</mn><mo>&#215;</mo><mfrac><mn>1</mn><mn>16</mn></mfrac></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>21</mn><mn>16</mn></mfrac></math></p><p>Hence, this is the correct option.</p></blockquote>"
+  }
+}

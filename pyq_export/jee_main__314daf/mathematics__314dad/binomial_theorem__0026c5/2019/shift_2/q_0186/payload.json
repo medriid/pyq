@@ -1,0 +1,43 @@
+{
+  "index": 186,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (09 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If some three consecutive coefficients in the binomial expansion of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mi>n</mi></msup></math> in powers of <math><mi>x</mi></math> are in the ratio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>:</mo><mn>15</mn><mo>:</mo><mn>70</mn><mo>,</mo></math> then the average of these three coefficients is:"
+  },
+  "options": [
+    {
+      "text": "<math><mn>227</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>964</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>625</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>232</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>From the given condition</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>&#160;</mi><mi>n</mi></msup><msub><mi>C</mi><mi>r</mi></msub><msup><mo>:</mo><mi>n</mi></msup><msub><mi>C</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub><msup><mo>:</mo><mi>n</mi></msup><msub><mi>C</mi><mrow><mi>r</mi><mo>+</mo><mn>2</mn></mrow></msub><mo>=</mo><mn>2</mn><mo>:</mo><mn>15</mn><mo>:</mo><mn>70</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mrow><msup><mi>&#160;</mi><mi>n</mi></msup><msub><mi>C</mi><mi>r</mi></msub></mrow><mrow><msup><mi>&#160;</mi><mi>n</mi></msup><msub><mi>C</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>15</mn></mfrac></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>&#160;</mi><mi>n</mi></msup><msub><mi>C</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub></mrow><mrow><msup><mi>&#160;</mi><mi>n</mi></msup><msub><mi>C</mi><mrow><mi>r</mi><mo>+</mo><mn>2</mn></mrow></msub></mrow></mfrac><mo>=</mo><mfrac><mn>15</mn><mn>70</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mrow><mi>&#160;</mi><mstyle displaystyle=\"true\"><mfenced><mfrac><mrow><mi>n</mi><mo>!</mo></mrow><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mi>r</mi></mrow></mfenced><mo>!</mo><mo>&#183;</mo><mi>r</mi><mo>!</mo></mrow></mfrac></mfenced></mstyle></mrow><mfenced><mstyle displaystyle=\"true\"><mfrac><mrow><mi>n</mi><mo>!</mo></mrow><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>!</mo><mo>&#183;</mo><mfenced><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>!</mo></mrow></mfrac></mstyle></mfenced></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>15</mn></mfrac></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>&#160;</mi><mstyle displaystyle=\"true\"><mfenced><mfrac><mrow><mi>n</mi><mo>!</mo></mrow><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>!</mo><mo>&#183;</mo><mfenced><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>!</mo></mrow></mfrac></mfenced></mstyle></mrow><mfenced><mstyle displaystyle=\"true\"><mfrac><mrow><mi>n</mi><mo>!</mo></mrow><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mi>r</mi><mo>-</mo><mn>2</mn></mrow></mfenced><mo>!</mo><mo>&#183;</mo><mfenced><mrow><mi>r</mi><mo>+</mo><mn>2</mn></mrow></mfenced><mo>!</mo></mrow></mfrac></mstyle></mfenced></mfrac><mo>=</mo><mfrac><mn>15</mn><mn>70</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>!</mo><mo>&#183;</mo><mfenced><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>!</mo></mrow><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mi>r</mi></mrow></mfenced><mo>!</mo><mo>&#183;</mo><mi>r</mi><mo>!</mo></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>15</mn></mfrac></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mi>r</mi><mo>-</mo><mn>2</mn></mrow></mfenced><mo>!</mo><mo>&#183;</mo><mfenced><mrow><mi>r</mi><mo>+</mo><mn>2</mn></mrow></mfenced><mo>!</mo></mrow><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>!</mo><mo>&#183;</mo><mfenced><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>!</mo></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>14</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>!</mo><mo>&#183;</mo><mfenced><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>&#183;</mo><mi>r</mi><mo>!</mo></mrow><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mi>r</mi></mrow></mfenced><mo>&#183;</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>!</mo><mo>&#183;</mo><mi>r</mi><mo>!</mo></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>15</mn></mfrac></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mi>r</mi><mo>-</mo><mn>2</mn></mrow></mfenced><mo>!</mo><mo>&#183;</mo><mfenced><mrow><mi>r</mi><mo>+</mo><mn>2</mn></mrow></mfenced><mo>&#183;</mo><mfenced><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>!</mo></mrow><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>&#183;</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mi>r</mi><mo>-</mo><mn>2</mn></mrow></mfenced><mo>!</mo><mo>&#183;</mo><mfenced><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>!</mo></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>14</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mrow><mi>&#160;</mi><mstyle displaystyle=\"true\"><mi>r</mi><mo>+</mo><mn>1</mn></mstyle></mrow><mrow><mi>n</mi><mo>-</mo><mi>r</mi></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>15</mn></mfrac></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>&#160;</mi><mstyle displaystyle=\"true\"><mi>r</mi><mo>+</mo><mn>2</mn></mstyle></mrow><mrow><mi>n</mi><mo>-</mo><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>14</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#160;</mi><mn>17</mn><mi>r</mi><mo>=</mo><mn>2</mn><mi>n</mi><mo>-</mo><mn>15</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mi>r</mi><mo>=</mo><mn>3</mn><mi>n</mi><mo>-</mo><mn>31</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>3</mn><mi>n</mi><mo>-</mo><mn>31</mn><mo>=</mo><mn>2</mn><mi>n</mi><mo>-</mo><mn>15</mn><mo>,</mo><mo>&#160;</mo><mo>&#8658;</mo><mi>n</mi><mo>=</mo><mn>16</mn></math> and <math><mi>r</mi><mo>=</mo><mn>1</mn></math></p><p>Hence, average <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><msup><mi>&#160;</mi><mi>n</mi></msup><msub><mi>C</mi><mi>r</mi></msub><msup><mo>+</mo><mi>n</mi></msup><msub><mi>C</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub><msup><mo>+</mo><mi>n</mi></msup><msub><mi>C</mi><mrow><mi>r</mi><mo>+</mo><mn>2</mn></mrow></msub></mrow><mn>3</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><msup><mi>&#160;</mi><mn>16</mn></msup><msub><mi>C</mi><mn>1</mn></msub><msup><mo>+</mo><mn>16</mn></msup><msub><mi>C</mi><mn>2</mn></msub><msup><mo>+</mo><mn>16</mn></msup><msub><mi>C</mi><mn>3</mn></msub></mrow><mn>3</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>232</mn><mo>.</mo></math></p>"
+  }
+}

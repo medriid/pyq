@@ -1,0 +1,43 @@
+{
+  "index": 41,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2011",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The solution of \\(\\frac{d y}{d x}=\\frac{y}{x}+\\tan \\frac{y}{x}\\) is"
+  },
+  "options": [
+    {
+      "text": "\\(x=c \\sin (y / x)\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(x=c \\sin (x y)\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(y=c \\sin (y / x)\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(x y=c \\sin (x / y)\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Hints: \\(\\frac{d y}{d x}=\\frac{y}{x}+\\tan \\frac{y}{x}\\)\n\\(\\begin{aligned}\n& \\text { Put } \\frac{y}{x}=\\theta, y=\\theta x \\\\\n& \\frac{d y}{d x}=\\theta+\\frac{x d \\theta}{d x} \\\\\n& \\theta+x \\cdot \\frac{d \\theta}{d x}=\\theta+\\tan \\theta, \\frac{d \\theta}{\\tan \\theta}=\\frac{d y}{x}\n\\end{aligned}\\)\n\\(\\begin{aligned}\n& \\int \\cot \\theta d \\theta=\\int \\frac{d x}{x} \\\\\n& \\log \\sin \\theta=\\log x+\\log c \\\\\n& \\sin \\theta=x . c ., \\sin \\frac{y}{x}=x . c \\\\\n& x=c \\cdot \\sin \\frac{y}{x}\n\\end{aligned}\\)"
+  }
+}

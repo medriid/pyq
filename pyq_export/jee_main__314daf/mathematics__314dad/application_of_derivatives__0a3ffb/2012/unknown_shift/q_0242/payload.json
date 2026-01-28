@@ -1,0 +1,43 @@
+{
+  "index": 242,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (Offline)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A spherical balloon is filled with $4500 ~\\pi$ cubic meters of helium gas. If a leak in the balloon causes the gas to escape at the rate of $72 ~\\pi$ cubic meters per minute, then the rate (in meters per minute) at which the radius of the balloon decreases $49$ minutes after the leakage began is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{9}{7}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{7}{9}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{2}{9}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{9}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$v=\\frac{4}{3} \\pi r^2$\nAfter $49$ minutes volume $=4500 \\pi-49(72 \\pi)=972 \\pi$\n$\\frac{4}{3} \\pi r^3=972 \\pi \\quad \\Rightarrow r^3=729 \\quad \\Rightarrow r=9$\n$v=\\frac{4}{3} \\pi r^3$\n$\\frac{d v}{d t}=\\frac{4}{3} \\pi 3 r^2 \\frac{d r}{d t}$\n$72 \\pi=4 \\pi r^2 \\frac{d r}{d t}$\n$\\frac{\\mathrm{dr}}{\\mathrm{dt}}=\\frac{72}{4 \\cdot 9 \\cdot 9}=\\frac{2}{9}$"
+  }
+}

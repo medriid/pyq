@@ -1,0 +1,63 @@
+{
+  "_id": "64a81436e0ff5a5425a85985",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7c",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2017-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2017",
+      "title": "WBJEE 2017"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "Let for all $x>0, f(x)=\\lim _{n \\rightarrow \\infty} n\\left(x^{1 / n}-1\\right),$ then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "XPHk7",
+      "text": "$f(x)+f\\left(\\frac{1}{x}\\right)=1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Kdl54",
+      "text": "$f(x y)=f(x)+f(y)$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "X3odT",
+      "text": "$f(x y)=x f(y)+y f(x)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "NjAO1",
+      "text": "$f(x y)=x f(x)+y f(y)$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have, $f(x)=\\lim _{n \\rightarrow \\infty} n\\left(x^{1 / n}-1\\right)$\r\n$=\\lim _{n \\rightarrow \\infty} \\frac{x^{1 / n}-1}{1 / n}$\r\nLet $\\quad \\frac{1}{n}=y$\r\n$\\begin{aligned} \\therefore \\quad f(x)=& \\lim _{y \\rightarrow 0} \\frac{x^{y}-1}{y} \\\\ &=\\log x \\end{aligned}$\r\n$\\therefore \\quad f(x y)=\\log (x, y)$\r\n$=\\log x+\\log y$\r\n$=f(x)+f(y)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7c",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2017-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2017",
+    "title": "WBJEE 2017"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

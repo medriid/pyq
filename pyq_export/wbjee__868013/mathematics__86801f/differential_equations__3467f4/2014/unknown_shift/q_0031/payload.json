@@ -1,0 +1,43 @@
+{
+  "index": 31,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The solution of the differential equation $y \\frac{d y}{d x}=x\\left[\\frac{y^{2}}{x^{2}}+\\frac{\\phi\\left(\\frac{y^{2}}{x^{2}}\\right)}{\\phi^{\\prime}\\left(\\frac{y^{2}}{x^{2}}\\right)}\\right]$ is (where, $c$ is a constant)"
+  },
+  "options": [
+    {
+      "text": "$\\phi\\left(\\frac{y^{2}}{x^{2}}\\right)=c x$",
+      "is_correct": false
+    },
+    {
+      "text": "$x \\phi\\left(\\frac{y^{2}}{x^{2}}\\right)=c$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\phi\\left(\\frac{y^{2}}{x^{2}}\\right)=c x^{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$x^{2} \\phi\\left(\\frac{y^{2}}{x^{2}}\\right)=c$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given differential equation can be rewritten as\r\n$$\r\n\\frac{d y}{d x}=\\frac{y}{x}+\\frac{x \\phi\\left(\\frac{y^{2}}{x^{2}}\\right)}{y \\phi^{\\prime}\\left(\\frac{y^{2}}{x^{2}}\\right)}\r\n$$\r\nPut $y=v x \\Rightarrow \\frac{d y}{d x}=v+x \\frac{d v}{d x}$\r\n$\\therefore$ Given equation becomes.\r\n$$\r\nv+x \\frac{d v}{d x}=\\frac{v x}{x}+\\frac{x \\phi\\left(\\frac{v^{2} x^{2}}{x^{2}}\\right)}{v x \\phi^{\\prime}\\left(\\frac{v^{2} x^{2}}{x^{2}}\\right)}\r\n$$\r\n$\\Rightarrow \\quad x \\frac{d v}{d x}=\\frac{\\phi\\left(v^{2}\\right)}{v \\phi^{\\prime}\\left(v^{2}\\right)}$\r\n$\\Rightarrow \\quad \\frac{v \\psi^{\\prime}\\left(v^{2}\\right)}{\\phi\\left(v^{2}\\right)} d v=\\frac{d x}{x}$\r\nOn integrating both sides, we get\r\n$$\r\n\\frac{1}{2} \\log \\phi\\left(v^{2}\\right)=\\log x+\\log c_{1}\r\n$$\r\n$\\Rightarrow \\quad \\log \\phi\\left(v^{2}\\right)=2 \\log x c_{1}$\r\n$\\Rightarrow \\quad \\phi\\left(v^{2}\\right)=\\left(x c_{1}\\right)^{2} \\Rightarrow \\phi\\left(\\frac{y^{2}}{x^{2}}\\right)=x^{2} c_{1}^{2}$\r\n$\\Rightarrow \\quad \\phi\\left(\\frac{y^{2}}{x^{2}}\\right)=x^{2} c \\quad$ (put $\\left.c_{1}^{2}=c\\right]$"
+  }
+}

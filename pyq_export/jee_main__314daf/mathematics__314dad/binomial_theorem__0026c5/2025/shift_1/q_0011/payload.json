@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The term independent of $x$ in the expansion of $\\left(\\frac{(x+1)}{\\left(x^{2 / 3}+1-x^{1 / 3}\\right)}-\\frac{(x+1)}{\\left(x-x^{1 / 2}\\right)}\\right)^{10}, x\\gt1$ is:"
+  },
+  "options": [
+    {
+      "text": "$210$",
+      "is_correct": true
+    },
+    {
+      "text": "$150$",
+      "is_correct": false
+    },
+    {
+      "text": "$240$",
+      "is_correct": false
+    },
+    {
+      "text": "$120$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\left(\\frac{(x+1)}{\\left(x^{\\frac{2}{3}}+1-x^{\\frac{1}{3}}\\right)}-\\frac{(x-1)}{\\left(x-x^{\\frac{1}{2}}\\right)}\\right)^{10} \\\\ & =\\left(\\left(x^{\\frac{1}{3}}+1\\right)-\\left(\\frac{\\sqrt{x}+1}{\\sqrt{x}}\\right)\\right)^{10} \\\\ & =\\left(x^{\\frac{1}{3}}-\\frac{1}{\\sqrt{x}}\\right)^{10} \\\\ & T_{r+1}={ }^{10} C_r(x)^{\\frac{10-r}{3}}(-1)^r(x)^{-\\frac{r}{2}} \\\\ & \\frac{10-r}{3}-\\frac{r}{2}=0 \\\\ & (20-2 r)-3 r=0 \\\\ & r^{10}=4 \\\\ & \\Rightarrow{ }^{10} C_4(-1)^4=210\\end{aligned}$"
+  }
+}

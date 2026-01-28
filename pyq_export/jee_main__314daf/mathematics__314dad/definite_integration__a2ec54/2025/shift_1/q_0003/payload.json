@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The value of $\\int_{-1}^1 \\frac{(1+\\sqrt{|x|-x}) e^x+(\\sqrt{|x|-x}) e^{-x}}{e^x+e^{-x}} d x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$3-\\frac{2 \\sqrt{2}}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2+\\frac{2 \\sqrt{2}}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$1-\\frac{2 \\sqrt{2}}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$1+\\frac{2 \\sqrt{2}}{3}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{I}=\\int_{-1}^1 \\frac{(1+\\sqrt{|-\\mathrm{x}|-(-\\mathrm{x})}) \\mathrm{e}^{-\\mathrm{x}}+(\\sqrt{|-\\mathrm{x}|-(-\\mathrm{x})}) \\mathrm{e}^{-(-\\mathrm{x})}}{\\mathrm{e}^{-\\mathrm{x}}+\\mathrm{e}^{-(-\\mathrm{x})}} \\mathrm{dx} \\\\ & \\Rightarrow \\mathrm{I}=\\int_{-1}^1 \\frac{(1+\\sqrt{|\\mathrm{x}|+\\mathrm{x}}) \\mathrm{e}^{-\\mathrm{x}}+(\\sqrt{|\\mathrm{x}|+\\mathrm{x}}) \\mathrm{e}^{\\mathrm{x}}}{\\mathrm{e}^{\\mathrm{x}}+\\mathrm{e}^{\\mathrm{x}}} \\mathrm{dx} \\\\ & \\Rightarrow 2 \\mathrm{I}=\\int_{-1}^1 \\frac{(1+\\sqrt{|\\mathrm{x}|+\\mathrm{x}}+\\sqrt{|\\mathrm{x}|-\\mathrm{x}})\\left(\\mathrm{e}^{\\mathrm{x}}+\\mathrm{e}^{-\\mathrm{x}}\\right)}{\\left(\\mathrm{e}^{\\mathrm{x}}+\\mathrm{e}^{-\\mathrm{x}}\\right)} \\mathrm{dx} \\\\ & \\Rightarrow 2 \\mathrm{I}=\\int_{-1}^1(1+\\sqrt{|\\mathrm{x}|+\\mathrm{x}}+\\sqrt{|\\mathrm{x}|-\\mathrm{x}}) \\mathrm{dx} \\\\ & \\Rightarrow 2 \\mathrm{I}=2 \\int_0^1(1+\\sqrt{|\\mathrm{x}|+\\mathrm{x}}+\\sqrt{|\\mathrm{x}|-\\mathrm{x}}) \\mathrm{dx} \\\\ & \\Rightarrow 2 \\mathrm{I}=2 \\int_0^1(1+\\sqrt{2 \\mathrm{x}}+\\sqrt{0}) \\mathrm{dx} \\\\ & \\Rightarrow \\mathrm{I}=\\int_0^1(1+\\sqrt{2 \\mathrm{x}}) \\mathrm{dx}=\\left[\\mathrm{x}+\\frac{2 \\sqrt{2}}{3} \\mathrm{x}^{3 / 2}\\right]_0^1 \\\\ & \\Rightarrow \\mathrm{I}=\\frac{2 \\sqrt{2}}{3}+1\\end{aligned}$"
+  }
+}

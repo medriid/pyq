@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c806d628b5819d90b84",
+    "chapter_name": "Mechanical Properties of Fluids",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "To determine the composition of a bimetallic alloy, a sample is first weighed in air and then in water. These weights are found to be $w_{1}$ and $w_{2}$ respectively. If the densities of the two constituents metals are $\\rho_{1}$ and $\\rho_{2}$ respectively. then the weight of the first metal in the sample is (where $\\rho_{w}$ is the density of water)"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\rho_{1}}{\\rho_{w}\\left(\\rho_{2}-\\rho_{1}\\right)}\\left[w_{1}\\left(\\rho_{2}-\\rho_{w}\\right)-w_{2} \\rho_{2}\\right]$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\rho_{1}}{\\rho_{w}\\left(\\rho_{2}+\\rho_{1}\\right)}\\left[w_{1}\\left(\\rho_{2}-\\rho_{w}\\right)+w_{2} \\rho_{2}\\right]$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\rho_{1}}{\\rho_{w}\\left(\\rho_{2}-\\rho_{1}\\right)}\\left[w_{1}\\left(\\rho_{2}+\\rho_{w}\\right)-w_{2} \\rho_{1}\\right]$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\rho_{1}}{\\rho_{w}\\left(\\rho_{2}-\\rho_{1}\\right)}\\left[w_{1}\\left(\\rho_{1}-\\rho_{w}\\right)-w_{z} \\rho_{1}\\right]$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "By Archimedes' Principle\r\n$$\r\nF=v \\rho_{w} g \\Rightarrow\\left(w_{1}-w_{2}\\right) g=v \\rho_{w} g\r\n$$\r\nLet, the total volume be $v$ and first metal weight be $x$\r\n$$\r\n\\begin{array}{l}\r\nw_{1}-w_{2}=\\left(v_{1}+v_{2}\\right) \\rho_{w} \\\\\r\nw_{1}-w_{2}=v_{1} \\rho_{w}+v_{2} g_{w} \\\\\r\nw_{1}-w_{2}=\\left(\\frac{x}{\\rho_{1}} \\rho_{w}+\\frac{w_{1}-x}{\\rho_{2}} \\rho_{w}\\right)\r\nw_{1}-w_{2}=\\frac{x \\rho_{\\mathcal{P}} \\rho_{w}+\\left(w_{1}-x\\right) \\rho_{w} \\rho_{1}}{\\rho_{\\jmath} \\rho_{2}}\r\n\\end{array} \\quad\\left(\\because v=\\frac{m}{\\rho}\\right)\r\n$$\r\n$$\r\n\\begin{aligned} w_{1} \\rho_{1} \\rho_{2}-w_{2} \\rho_{1} \\rho_{2} &=x \\rho_{2} \\rho_{w}+w_{1} \\rho_{w} \\rho_{1}-x \\rho_{w} \\rho_{1} \\\\ x\\left(\\rho_{2}-\\rho_{1}\\right) \\rho_{w} &=\\rho_{1}\\left[w_{1}\\left(\\rho_{2}-\\rho_{w}\\right)-w_{2} \\rho_{2}\\right] \\end{aligned}\\\\\r\nx=\\frac{\\rho_{1}}{\\rho_{w}\\left(\\rho_{2}-\\rho_{1}\\right)}\\left[w_{1}\\left(\\rho_{2}-\\rho_{w}\\right)-w_{z} \\rho_{2}\\right]\r\n$$"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64b169cdf23ac7d519f9ae98",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1e77301f65c2f92c3f",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2006-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2006",
+      "title": "JEE Advanced 2006"
+    }
+  ],
+  "question": {
+    "text": "For $x>0, \\lim _{x \\rightarrow 0}\\left((\\sin x)^{1 / x}+\\left(\\frac{1}{x}\\right)^{\\sin x}\\right)$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "q4kvt",
+      "text": "\n0\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "e57ek",
+      "text": "\n$-1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "MRvF9",
+      "text": "\n1\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "X1Kfj",
+      "text": "\n2",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Here, $\\lim _{x \\rightarrow 0}(\\sin x)^{1 / x}+\\lim _{x \\rightarrow 0}\\left(\\frac{1}{x}\\right)^{\\sin x} \\Rightarrow 0+\\lim _{x \\rightarrow 0} e^{\\log \\left(\\frac{1}{x}\\right)^{\\sin x}} \\quad\\left\\{\\begin{array}{l}\\lim _{x \\rightarrow 0}(\\sin x)^{1 / x} \\rightarrow 0 \\\\ \\text { as, (decimal) })^x \\rightarrow 0\\end{array}\\right\\}$ $\\Rightarrow \\quad e^{\\lim _{x \\rightarrow 0} \\frac{\\log (1 / x)}{\\operatorname{cosec} x}}$\nOn applying L Hospital's Rule, we get\n$$\n\\Rightarrow \\quad e^{\\lim _{x \\rightarrow 0} \\frac{x\\left(-\\frac{1}{x^2}\\right)}{-\\operatorname{cosec} x \\cot x}}=e^{\\lim _{x \\rightarrow 0} \\frac{\\sin x}{x} \\tan x}=e^0=1\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1e77301f65c2f92c3f",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2006-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2006",
+    "title": "JEE Advanced 2006"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

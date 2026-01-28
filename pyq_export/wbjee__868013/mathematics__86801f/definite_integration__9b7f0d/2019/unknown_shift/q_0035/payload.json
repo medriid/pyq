@@ -1,0 +1,43 @@
+{
+  "index": 35,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of the integral $\\int_{-1}^{1}\\left\\{\\frac{x^{2015}}{e^{\\mid x \\mid}\\left(x^{2}+\\cos x\\right)}+\\frac{1}{e^{\\mid{x} \\mid}}\\right\\} d x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "$1-e^{-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 e^{-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2\\left(1-e^{-1}\\right)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $I=\\int_{-1}^{1}\\left\\{\\frac{x^{2015}}{\\left(e^{\\mid x\\mid} \\left(x^{2}+\\cos x\\right)\\right.}+\\frac{1}{e^{|x|}}\\right\\} d x$\r\n$\\begin{aligned}=\\int_{-1}^{1} \\frac{x^{2015}}{e^{|x|}\\left(x^{2}+\\cos x\\right)} & d x+\\int_{-1}^{1} \\frac{1}{e^{|x|}} d x \\\\ \\text { Let } f(x)=\\frac{x^{2015}}{e^{|x|}\\left(x^{2}+\\cos x\\right)} \\text { and } g(x)=\\frac{1}{e^{|x|}} \\\\ \\text { Again, } f(-x)=\\frac{(-x)^{2015}}{e^{|-x|}\\left((-x)^{2}+\\cos (-x)\\right)} \\\\ &=\\frac{-x^{2015}}{e^{|x|}\\left(x^{2}+\\cos x\\right)}=-f(x) \\\\ \\text { and } \\quad g(-x)=\\frac{1}{e^{|-x|}}=\\frac{1}{e^{|x|}}=g(x) \\end{aligned}$\r\n$\\because f(x)$ is odd function and $g(x)$ is even function $\\int_{-1}^{1} f(x) d x=0$ and $\\int_{-1}^{1} g(x) d x=2 \\int_{0}^{1} g(x) d x$\r\n$\\begin{aligned} I &=2 \\int_{0}^{1} \\frac{1}{e^{\\mid  x \\mid}} d x \\\\ &=2 \\int_{0}^{1} \\frac{1}{e^{x}} d x=2 \\int_{0}^{1} e^{-x} d x \\\\ &=-2\\left[e^{-x}\\right]_{0}^{1} \\\\ &=-2\\left[e^{-1}-e^{0}\\right] \\\\ &=-2\\left(e^{-1}-1\\right) \\\\ &=2\\left(1-e^{-1}\\right) \\end{aligned}$"
+  }
+}

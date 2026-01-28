@@ -1,0 +1,43 @@
+{
+  "index": 41,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2012 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255d3df243724d460a9b",
+    "chapter_name": "Application of Derivatives",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=(1-x)^{2} \\sin ^{2} x+x^{2}$ for all $x \\in I R$ and let $g(x)=\\int_{1}^{x}\\left(\\frac{2(t-1)}{t+1}-\\ln t\\right) f(t) d t$ for all $x \\in(1, \\infty)$.\r\n\r\n<strong> Question:</strong> Which of the following is true?"
+  },
+  "options": [
+    {
+      "text": "$g$ is increasing on $(1, \\infty)$",
+      "is_correct": false
+    },
+    {
+      "text": "$g$ is decreasing on $(1, \\infty)$",
+      "is_correct": true
+    },
+    {
+      "text": "$g$ is increasing on $(1,2)$ and decreasing on $(2, \\infty)$",
+      "is_correct": false
+    },
+    {
+      "text": "$g$ is decreasing on $(1,2)$ and increasing on $(2, \\infty)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$g(x)=\\int_{1}^{x}\\left(\\frac{2(t-1)}{t+1}-\\ln t\\right) f(t) d t$, $\\therefore \\quad g^{\\prime}(x)=\\left[\\frac{2(x-1)}{x+1}-\\ln x\\right] f(x)$\r\n\r\nHere $f(x)>0, \\forall x \\in(1, \\infty)$\r\n\r\nLet $h(x)=\\frac{2(x-1)}{x+1}-\\ln x$\r\n\r\n$\\therefore \\quad h^{\\prime}(x)=\\frac{4}{(x+1)^{2}}-\\frac{1}{x}=\\frac{-(x-1)^{2}}{(x+1)^{2} x} < 0, x \\in(1, \\infty)$\r\n\r\n$\\Rightarrow h(x)$ is decreasing function.\r\n\r\nHence, for $x>1, h(x) < h(1) \\Rightarrow h(x) < 0 \\forall x>1$\r\n\r\n$\\Rightarrow g^{\\prime}(x) < 0 \\forall x \\in(1, \\infty)$\r\n\r\nTherefore, $g(x)$ is decreasing on $(1, \\infty)$."
+  }
+}

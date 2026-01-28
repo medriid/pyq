@@ -1,0 +1,24 @@
+{
+  "index": 23,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2006",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "6160244db8c481525a1215ef",
+    "chapter_name": "Atomic Physics",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the wavelength of the $n^{\\text {th }}$ line of Lyman series is equal to the de-Broglie wavelength of electron in initial orbit of a hydrogen like element $(Z=11)$. Find the value of $n$."
+  },
+  "options": [],
+  "correct_answer": "24",
+  "solution": {
+    "text": "$n^{\\text {th }}$ line of Lyman series means transition from $(n+1)$ th state to first state.\n$$\n\\begin{aligned}\n& \\frac{1}{\\lambda}=R Z^2\\left[1-\\frac{1}{(n+1)^2}\\right] \\\\\n& \\text { de-Broglie wavelength, } \\quad \\lambda=\\frac{h}{m v}=\\frac{h r}{m v r}=\\frac{(2 \\pi)(h r)}{(n+1) h}=\\frac{2 \\pi r}{(n+1)} \\\\\n& \\frac{1}{\\lambda}=\\frac{(n+1)}{2 \\pi r} \\\\\n&\n\\end{aligned}\n$$\nor\nEquating (i) and (ii), we get\n$$\n\\left(\\frac{n+1}{2 \\pi r}\\right)=R Z^2\\left[\\frac{n(n+2)}{(n+1)^2}\\right]\n$$\nNow, as\n$$\n\\begin{aligned}\n& r \\propto \\frac{n^2}{Z} \\\\\n& r=\\frac{(n+1)^2}{11} r_0\n\\end{aligned}\n$$\n$$\n\\therefore \\quad r=\\frac{(n+1)^2}{11} r_0\n$$\nSubstituting in equations (iii), we get\n$$\n\\frac{11}{2 \\pi r_0}=\\frac{R(11)^2(n)(n+2)}{(n+1)}\n$$\nor\n$$\n(n+1)=\\left(1.09 \\times 10^7\\right)(11)(2 \\pi) \\times\\left(0.529 \\times 10^{-10}\\right)\\left(n^2+2 n\\right)\n$$\nSolving this equation we get, $n=24$"
+  }
+}

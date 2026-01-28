@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0788c63c34f9ca1226",
+    "chapter_name": "Matrices",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $Q=\\left(\\begin{array}{cc}\\cos \\frac{\\pi}{4} & -\\sin \\frac{\\pi}{4} \\\\ \\sin \\frac{\\pi}{4} & \\cos \\frac{\\pi}{4}\\end{array}\\right)$ and$x=\\left(\\begin{array}{c}\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}}\\end{array}\\right)$ then $Q^{3} x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\left(\\begin{array}{l}0 \\\\ 1\\end{array}\\right) \\quad$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\begin{array}{c}-\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}}\\end{array}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\begin{array}{c}-1 \\\\ 0\\end{array}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\left(\\begin{array}{c}-\\frac{1}{\\sqrt{2}} \\\\ -\\frac{1}{\\sqrt{2}}\\end{array}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given,\r\n$Q=\\left[\\begin{array}{cc}\\cos \\frac{\\pi}{4} & -\\sin \\frac{\\pi}{4} \\\\ \\sin \\frac{\\pi}{4} & \\cos \\frac{\\pi}{4}\\end{array}\\right]$ and $x=\\left[\\begin{array}{c}\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}}\\end{array}\\right]$\r\n$\\begin{aligned} \\text { Let } Q(\\theta) &=\\left[\\begin{array}{cc}\\cos \\theta & -\\sin \\theta \\\\ \\sin \\theta & \\cos \\theta\\end{array}\\right] \\\\ Q^{3}(\\theta) &=Q(3 \\theta) \\end{aligned}$\r\n$\\therefore Q^{3}\\left(\\frac{\\pi}{4}\\right)=\\left[\\begin{array}{ll}\\cos \\frac{3 \\pi}{4} & -\\sin \\frac{3 \\pi}{4} \\\\ \\sin \\frac{3 \\pi}{4} & \\cos \\frac{3 \\pi}{4}\\end{array}\\right]=\\left[\\begin{array}{cc}-1 / \\sqrt{2} & -1 / \\sqrt{2} \\\\ 1 / \\sqrt{2} & -1 / \\sqrt{2}\\end{array}\\right]$\r\nNow, $Q^{3}\\left(\\frac{\\pi}{4}\\right) x=\\left[\\begin{array}{cc}\\frac{-1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}}\\end{array}\\right]\\left[\\begin{array}{c}\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}}\\end{array}\\right]=\\left[\\begin{array}{c}-\\frac{1}{2}-\\frac{1}{2} \\\\ \\frac{1}{2}-\\frac{1}{2}\\end{array}\\right]$\r\n$\\therefore \\quad Q^{3}\\left(\\frac{\\pi}{4}\\right) x=\\left[\\begin{array}{c}-1 \\\\ 0\\end{array}\\right]$"
+  }
+}

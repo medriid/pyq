@@ -1,0 +1,24 @@
+{
+  "index": 28,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602555685234356f221f74",
+    "chapter_name": "Functions",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If a function $f$ satisfies $f(\\mathrm{~m}+\\mathrm{n})=f(\\mathrm{~m})+f(\\mathrm{n})$ for all $\\mathrm{m}, \\mathrm{n} \\in \\mathbf{N}$ and $f(1)=1$, then the largest natural number $\\lambda$ such that $\\sum_{k=1}^{2022} f(\\lambda+k) \\leq(2022)^2$ is equal to _________"
+  },
+  "options": [],
+  "correct_answer": "1010",
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\mathrm{f}(\\mathrm{m}+\\mathrm{n})=\\mathrm{f}(\\mathrm{m})+\\mathrm{f}(\\mathrm{n}) \\\\\n& \\Rightarrow \\mathrm{f}(\\mathrm{x})=\\mathrm{kx} \\\\\n& \\Rightarrow \\mathrm{f}(1)=1 \\\\\n& \\Rightarrow \\mathrm{k}=1 \\\\\n& \\mathrm{f}(\\mathrm{x})=\\mathrm{x}\n\\end{aligned}$<br />Now\n$\\sum_{\\mathrm{k}=1}^{2022} \\mathrm{f}(\\lambda+\\mathrm{k}) \\leq(2022)^2$\n$\\begin{aligned} & \\Rightarrow \\sum_{\\mathrm{k}=1}^{2022}(\\lambda+\\mathrm{k}) \\leq(2022)^2 \\\\ & \\Rightarrow 2022 \\lambda+\\frac{2022 \\times 2023}{2} \\leq(2022)^2\\end{aligned}$\n$\\begin{aligned}\n& \\Rightarrow \\lambda \\leq 2022-\\frac{2023}{2} \\\\\n& \\Rightarrow \\lambda \\leq 1010.5\n\\end{aligned}$\n$\\therefore$ largest natural no. $\\lambda$ is 1010 ."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 149,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (25 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602525fb63982f7225f1d8",
+    "chapter_name": "Quadratic Equation",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $p$ and $q$ are non-zero real numbers and $\\alpha^3+\\beta^3=-p, \\alpha \\beta=q$, then a quadratic equation whose roots are $\\frac{\\alpha^2}{\\beta}, \\frac{\\beta^2}{\\alpha}$ is :"
+  },
+  "options": [
+    {
+      "text": "\n$p x^2-q x+p^2=0$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$q x^2+p x+q^2=0$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$p x^2+q x+p^2=0$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$q x^2-p x+q^2=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given $\\alpha^3+\\beta^3=-p$ and $\\alpha \\beta=q$\nLet $\\frac{\\alpha^2}{\\beta}$ and $\\frac{\\beta^2}{\\alpha}$ be the root of required quadratic equation.\nSo, $\\frac{\\alpha^2}{\\beta}+\\frac{\\beta^2}{\\alpha}=\\frac{\\alpha^3+\\beta^3}{\\alpha \\beta}=\\frac{-p}{q}$\nand $\\frac{\\alpha^2}{\\beta} \\times \\frac{\\beta^2}{\\alpha}=\\alpha \\beta=q$\nHence, required quadratic equation is\n$$\n\\begin{aligned}\n&x^2-\\left(\\frac{-p}{q}\\right) x+q=0 \\\\\n&\\Rightarrow x^2+\\frac{p}{q} x+q=0 \\Rightarrow q x^2+p x+q^2=0\n\\end{aligned}\n$$"
+  }
+}

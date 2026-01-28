@@ -1,0 +1,43 @@
+{
+  "index": 193,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2006",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $A=\\left(\\begin{array}{ll}1 & 2 \\\\ 3 & 4\\end{array}\\right)$ and $B=\\left(\\begin{array}{ll}a & 0 \\\\ 0 & b\\end{array}\\right), a, b \\in N$. Then"
+  },
+  "options": [
+    {
+      "text": "\nthere cannot exist any B such that AB = BA\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nthere exist more than one but finite number of B’s such that AB = BA\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nthere exists exactly one B such that AB = BA\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nthere exist infinitely many B’s such that AB = BA",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$A=\\left[\\begin{array}{ll}1 & 2 \\\\ 3 & 4\\end{array}\\right] \\quad B=\\left[\\begin{array}{ll}a & 0 \\\\ 0 & b\\end{array}\\right]$\n$A B=\\left[\\begin{array}{ll}a & 2 b \\\\ 3 a & 4 b\\end{array}\\right]$\n$B A=\\left[\\begin{array}{ll}a & 0 \\\\ 0 & b\\end{array}\\right]\\left[\\begin{array}{ll}1 & 2 \\\\ 3 & 4\\end{array}\\right]=\\left[\\begin{array}{cc}a & 2 a \\\\ 3 b & 4 b\\end{array}\\right]$\n$A B=B A$ only when $a=b$"
+  }
+}

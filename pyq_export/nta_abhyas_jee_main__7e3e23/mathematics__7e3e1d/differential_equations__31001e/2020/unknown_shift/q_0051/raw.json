@@ -1,0 +1,61 @@
+{
+  "_id": "6151e863990809f3f14b213a",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "92",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "The equation of the curve satisfying the differential equation&nbsp;<math><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mi>d</mi><mi>y</mi><mo>=</mo><mfenced separators=\"|\"><mrow><mn>2</mn><mo>-</mo><mi>y</mi></mrow></mfenced><mi>d</mi><mi>x</mi></math> and passing through <math><mi>P</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>,</mo><mi mathvariant=\"normal\"></mi><mn>4</mn></mrow></mfenced></math> is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "8BycL",
+      "text": "<math><mi>y</mi><mo>=</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>3</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "u6jX5",
+      "text": "<math><mi>y</mi><mo>=</mo><mn>2</mn><mo>+</mo><mn>2</mn><msup><mrow><mi>e</mi></mrow><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac><mo>-</mo><mn>1</mn></mrow></msup></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "YWUYr",
+      "text": "<math><mi>y</mi><mo>=</mo><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>⁡</mo><mrow><mfenced separators=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced></mrow></mrow><mo>+</mo><mn>4</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "RDmTB",
+      "text": "<math><mi>y</mi><mo>=</mo><mn>2</mn><msup><mrow><mi>e</mi></mrow><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>+</mo><mn>2</mn></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>The given equation is <math><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>-</mo><mi>y</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math><br /><math><mo>&#8658;</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>y</mi><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>2</mn></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math><br />Integrating factor&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi>e</mi><mrow><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac></mrow></msup><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></msup></math><br /><math><mo>&#8756;</mo></math> the solution is <math><mfenced separators=\"|\"><mrow><mi>y</mi></mrow></mfenced><mfenced separators=\"|\"><mrow><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow></msup></mrow></mfenced><mo>=</mo><mrow><mo stretchy=\"false\">&#8747;</mo><mrow><mfrac><mrow><mn>2</mn></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></mrow><mfenced separators=\"|\"><mrow><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow></msup></mrow></mfenced><mi>d</mi><mi>x</mi></math><br />Let <math><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac><mo>=</mo><mi>t</mi></math><br /><math><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac><mo>=</mo><mi>d</mi><mi>t</mi></math><br />i.e. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>&#8901;</mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></msup><mo>=</mo><mn>2</mn><mo>&#8747;</mo><msup><mi>e</mi><mi>t</mi></msup><mi>d</mi><mi>t</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>y</mi><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></msup><mo>=</mo><mn>2</mn><msup><mi>e</mi><mi>t</mi></msup><mo>+</mo><mi>c</mi><mspace linebreak=\"newline\"/><mo>&#8658;</mo><mi>y</mi><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></msup><mo>=</mo><mn>2</mn><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></msup><mo>+</mo><mi>c</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>y</mi><mo>=</mo><mn>2</mn><mo>+</mo><mi>c</mi><mo>&#8901;</mo><msup><mi>e</mi><mfrac><mn>1</mn><mi>x</mi></mfrac></msup></math><br />Since, the curve is passing through&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>,</mo><mn>4</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mn>2</mn><mi>e</mi></mfrac><mo>=</mo><mi>c</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>y</mi><mo>=</mo><mn>2</mn><mo>+</mo><mfrac><mn>2</mn><mi>e</mi></mfrac><mo>&#8901;</mo><msup><mi>e</mi><mfrac><mn>1</mn><mi>x</mi></mfrac></msup></math></p><p>&nbsp;</p>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

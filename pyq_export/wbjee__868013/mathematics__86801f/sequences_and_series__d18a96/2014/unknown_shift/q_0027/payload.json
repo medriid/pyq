@@ -1,0 +1,43 @@
+{
+  "index": 27,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd27e4f983047d18a96",
+    "chapter_name": "Sequences and Series",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The minimum value of $2^{\\sin x}+2^{\\cos x}$ is"
+  },
+  "options": [
+    {
+      "text": "$2^{1-1 / \\sqrt{2}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$2^{1+1 / \\sqrt{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^{\\sqrt{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "We know that\r\n$\\mathrm{AM} \\geq \\mathrm{GM}$\r\n$\\therefore \\quad \\frac{2^{\\sin x}+2^{\\cos x}}{2} \\geq \\sqrt{2^{\\sin x} 2^{\\cos x}}$\r\n$\\Rightarrow 2^{\\sin x}+2^{\\cos x} \\geq 2 \\sqrt{2^{\\sin x+\\cos x}}$\r\n$\\Rightarrow 2^{\\sin x}+2^{\\cos x} \\geq 2 \\times 2^{\\frac{\\sin x+\\cos x}{2}}$\r\n$\\Rightarrow 2^{\\sin x}+2^{\\cos x} \\geq 2^{1+\\frac{\\sin x+\\cos x}{2}}$\r\nBut $\\sin x+\\cos x=\\sqrt{2} \\sin \\left(x+\\frac{\\pi}{4}\\right) \\geq-\\sqrt{2}$\r\n$\\therefore \\quad 2^{\\sin x}+2^{\\cos x} \\geq 2^{1-\\frac{\\sqrt{2}}{2}}$\r\n$\\Rightarrow 2^{\\sin x}+2^{\\cos x} \\geq 2^{1-\\frac{1}{\\sqrt{2}}}, \\forall x \\in R$\r\nHence, minimum value is $2^{1-\\frac{1}{\\sqrt{2}}}$."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 32,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d00146ed0ebdd74e3ce",
+    "chapter_name": "Sets and Relations",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In the set of all $3 \\times 3$ real matrices a relation is defined as follows. A matrix $A$ is related to a matrix $B,$ if and only if there is a non-singular $3 \\times 3$ matrix $P,$ such that $B=P^{-1} A P .$ This relation is"
+  },
+  "options": [
+    {
+      "text": "reflexive, symmetric but not transitive",
+      "is_correct": false
+    },
+    {
+      "text": "reflexive, transitive but not symmetric",
+      "is_correct": false
+    },
+    {
+      "text": "symmetric, transitive but not reflexive",
+      "is_correct": false
+    },
+    {
+      "text": "an equivalence relation",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let the relation defined as $R=\\left\\{(A, B) \\mid B=P^{-1} A P\\right\\}$\r\nFor reflexive, $A=I^{-1} A l$\r\n$\\Rightarrow (A, A) \\in R$\r\n$\\Rightarrow R$ is reflexive\r\nFor symmetric $\\operatorname{Let}(A B) \\in R$\r\n$\\because$\r\n$B=P^{-1} A P$\r\n$\\Rightarrow P B=A P \\Rightarrow P B P^{-1}=A$\r\n$\\Rightarrow$\r\n$A=\\left(P^{-1}\\right)^{-1} B\\left(P^{-1}\\right)$\r\n$\\Rightarrow (B, A) \\in R \\Rightarrow R$ is symmetric.\r\nFor transitive\r\nLet $(A, B) \\in R,(B, C) \\in R$\r\n$\\because A=P^{-1} B P$ and $B=Q^{-} C Q$\r\n$\\Rightarrow A=P^{-} Q^{-1} C Q P=(Q P)^{-1} C(Q P)$\r\n$\\Rightarrow (A, C) \\in R$\r\n$\\Rightarrow R$ is transitive. since, $A$ is reflexive, symmetric and transitive. So, $R$ is an equivalence relation."
+  }
+}

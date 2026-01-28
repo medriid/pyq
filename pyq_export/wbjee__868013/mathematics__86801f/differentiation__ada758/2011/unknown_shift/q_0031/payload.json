@@ -1,0 +1,43 @@
+{
+  "index": 31,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2011",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If \\(y=\\tan ^{-1} \\frac{\\sqrt{1+x^2}-1}{x}\\), then \\(y^{\\prime}(1)=\\)"
+  },
+  "options": [
+    {
+      "text": "\\(1 / 4\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(1 / 2\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(-1 / 4\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(-1 / 2\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Hints: \\(y=\\tan ^{-1}\\left(\\frac{\\sqrt{1+x^2}-1}{x}\\right) \\quad\\) Put \\(x=\\tan \\theta\\)\n\\(\\begin{aligned} & =\\tan ^{-1}\\left(\\frac{\\sec \\theta-1}{\\tan \\theta}\\right)=\\tan ^{-1}\\left(\\frac{1-\\cos \\theta}{\\sin \\theta}\\right) \\\\ & =\\tan ^{-1}\\left(\\frac{2 \\sin ^2 \\frac{\\theta}{2}}{2 \\sin \\frac{\\theta}{2} \\cos \\frac{\\theta}{2}}\\right)=\\tan ^{-1} \\tan \\frac{\\theta}{2} \\\\ & =\\frac{\\theta}{2}=\\frac{1}{2} \\cdot \\tan ^{-1} x, y^{\\prime}=\\frac{1}{2\\left(1+x^2\\right)} \\\\ & y^{\\prime}(1)=\\frac{1}{2.2}=\\frac{1}{4}\\end{aligned}\\)"
+  }
+}

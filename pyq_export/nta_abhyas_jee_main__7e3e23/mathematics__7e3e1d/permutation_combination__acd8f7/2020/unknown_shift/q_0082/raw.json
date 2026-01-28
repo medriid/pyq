@@ -1,0 +1,61 @@
+{
+  "_id": "6151e86328ecbf209e931066",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "77",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "The number of ways of arranging <math><mn>18</mn></math> boys such that <math><mn>3</mn></math> particular boys are always separate is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "aTrjy",
+      "text": "<math><mn>18</mn><mo>!</mo><mo>-</mo><mn>16</mn><mo>!</mo><mn>3</mn><mo>!</mo></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "uWXDR",
+      "text": "<math><mn>16</mn><mo>!</mo><mi mathvariant=\"normal\"></mi><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">P</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>17</mn></mrow></mmultiscripts></mrow><mrow><mn>3</mn></mrow></msub></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "tmNDf",
+      "text": "<math><mn>15</mn><mo>!</mo><mi mathvariant=\"normal\"></mi><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">P</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>16</mn></mrow></mmultiscripts></mrow><mrow><mn>3</mn></mrow></msub></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "dRIFL",
+      "text": "<math><mn>17</mn><mo>!</mo><mi mathvariant=\"normal\"></mi><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">P</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>17</mn></mrow></mmultiscripts></mrow><mrow><mn>3</mn></mrow></msub></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "First arrange&nbsp;<math><mn>15</mn></math> boys in <math><mn>15</mn><mo>!</mo></math>&nbsp;ways.<br /><math><mn>16</mn></math> gaps will be created.&nbsp;<br />Select any <math><mn>3</mn></math> gaps out of <math><mn>16</mn></math> gaps in <math><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">C</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>16</mn></mrow></mmultiscripts></mrow><mrow><mn>3</mn></mrow></msub></math> ways.<br />Arrange <math><mn>3</mn><mi mathvariant=\"normal\"></mi></math> boys to be separated in these selected <math><mn>3</mn></math> gaps in <math><mn>3</mn><mo>!</mo></math> ways.<br />Number of ways <math><mo>=</mo><mn>15</mn><mo>!</mo><mo>×</mo><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">C</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>16</mn></mrow></mmultiscripts></mrow><mrow><mn>3</mn></mrow></msub><mo>×</mo><mn>3</mn><mo>!</mo></math><br /><math><mo>=</mo><mn>15</mn><mo>!</mo><mo>×</mo><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">P</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>16</mn></mrow></mmultiscripts></mrow><mrow><mn>3</mn></mrow></msub></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

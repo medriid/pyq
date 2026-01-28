@@ -1,0 +1,63 @@
+{
+  "_id": "67729bee546ddd78415aaf1b",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67729a70099eafe69352f9c1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024",
+      "title": "WBJEE 2024"
+    }
+  ],
+  "question": {
+    "text": "If $f(x)=\\frac{e^x}{1+e^x}, l_1=\\int_{f(-a)}^{f(a)} x g(x(1-x)) d x$ and $l_2=\\int_{f(-a)}^{f(a)} g(x(1-x)) d x$, then the value of $\\frac{l_2}{l_1}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "jTwdF",
+      "text": "-1",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Ntqub",
+      "text": "-3",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "B39ID",
+      "text": "2",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "5Tk05",
+      "text": "1",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint: $f(a)+f(-a)=\\frac{e^a}{1+e^a}+\\frac{e^{-a}}{1+e^{-a}}=1$\nLet $f(-a)=t \\therefore f(a)=1-t$\nNow, $\\mathrm{l}_1=\\int_{\\mathrm{t}}^{1-\\mathrm{t}} \\mathrm{xg}\\left(\\mathrm{x}(1-\\mathrm{x}) \\mathrm{dx}=\\int_{\\mathrm{t}}^{1-\\mathrm{t}}(1-\\mathrm{x}) \\mathrm{g}((1-\\mathrm{x})(1-(1-\\mathrm{x})) \\mathrm{dx}\\right.$\n$\\begin{aligned} & =\\int_t^{1-t}(1-x) g(x(1-x)) d x \\\\ & \\therefore 2 l_1=\\int_t^{1-t} g(x(1-x)) d x=I_2 \\Rightarrow \\frac{\\mathrm{I}_2}{I_1}=2\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67729a70099eafe69352f9c1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024",
+    "title": "WBJEE 2024"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

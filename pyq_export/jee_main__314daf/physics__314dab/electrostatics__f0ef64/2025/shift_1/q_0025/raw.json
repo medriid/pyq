@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eebbc8b73881fdaea26b",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d9760e",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-28T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (28 Jan Shift 1)",
+      "title": "JEE Main 2025 (28 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Three infinitely long wires with linear charge density $\\lambda$ are placed along the $x-a x i s, y$-axis and $z-$ axis respectively. Which of the following denotes an equipotential surface?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "LI3P3",
+      "text": "$x y z=$ constant",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "2KGDY",
+      "text": "$x y+y z+z x=$ constant",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "WQTkl",
+      "text": "$\\left(x^2+y^2\\right)\\left(y^2+z^2\\right)\\left(z^2+x^2\\right)=$ constant",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "fs4bA",
+      "text": "$(x+y)(y+z)(z+x)=$ constant",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Potential due to an infinite wire is $V=2 k \\lambda \\ln r$, where $r$ is the distance from the wire.\n\nTaking the point in space $P(x, y, z)$\nDistance from wire along $x$-axis is $r_x=\\sqrt{y^2+z^2}$\nDistance from wire along $y$-axis is $r_y=\\sqrt{x^2+z^2}$\nDistance from wire along $z$-axis is $r_z=\\sqrt{x^2+y^2}$\n$\\Rightarrow$ Potential at $P$ due to wire along $x$-axis is\n$V_x=2 k \\lambda \\ln r_x$\n\nPotential at $P$ due to wire along $y$-axis is\n$V_y=2 k \\lambda \\ln r_y$\n\nPotential at $P$ due to wire along $z$-axis is\n$V_z=2 k \\lambda \\ln r_z$\n$\\Rightarrow$ Not potential at $P=V=V_x+V_y+V_z$\nor $\\quad V=2 k \\lambda \\ln r_x+2 k \\lambda \\ln r_y+2 k \\lambda \\ln r_z$\ni.e. $V=2 k \\lambda \\ln \\left(r_x r_y r_z\\right)$\nor\n$\\begin{aligned}\n& V=2 k \\lambda \\ln \\left(\\sqrt{y^2+z^2} \\sqrt{z^2+x^2} \\sqrt{x^2+y^2}\\right) \\\\\n& =k \\lambda \\ln \\left(y^2+z^2\\right)\\left(z^2+x^2\\right)\\left(x^2+y^2\\right)\n\\end{aligned}$\n$\\Rightarrow$ For equipotential surface\n$\\left(x^2+y^2\\right)\\left(y^2+z^2\\right)\\left(z^2+x^2\\right)=\\text { constant }$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "33b5a7520e1e4cd490e00fe83f452c78",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/v2ABQOtNCt9iu.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/v2ABQOtNCt9iu.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d9760e",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-28T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (28 Jan Shift 1)",
+    "title": "JEE Main 2025 (28 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

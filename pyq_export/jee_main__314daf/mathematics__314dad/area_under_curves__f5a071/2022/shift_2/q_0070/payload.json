@@ -1,0 +1,43 @@
+{
+  "index": 70,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2022 (28 Jul Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602565bccda81624f5a071",
+    "chapter_name": "Area Under Curves",
+    "year": "2022",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The area enclosed by the curves <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msub><mi>log</mi><mi>e</mi></msub><mfenced><mrow><mi>x</mi><mo>+</mo><msup><mi>e</mi><mn>2</mn></msup></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mi>x</mi><mo>=</mo><msub><mi>log</mi><mi>e</mi></msub><mfenced><mfrac><mn>2</mn><mi>y</mi></mfrac></mfenced></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></math>, above the line <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>1</mn></math>&nbsp;is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mi>e</mi><mo>-</mo><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mi>e</mi><mo>-</mo><msub><mi>log</mi><mi mathvariant=\"normal\">e</mi></msub><mn>2</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi><mo>-</mo><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><msub><mi>log</mi><mi mathvariant=\"normal\">e</mi></msub><mn>2</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<blockquote><p>The area enclosed by the curves <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msub><mi>log</mi><mi>e</mi></msub><mfenced><mrow><mi>x</mi><mo>+</mo><msup><mi>e</mi><mn>2</mn></msup></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mi>x</mi><mo>=</mo><msub><mi>log</mi><mi>e</mi></msub><mfenced><mfrac><mn>2</mn><mi>y</mi></mfrac></mfenced></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></math>, above the line <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>1</mn></math>&nbsp;is</p><p>Now plotting the diagram of given functions we get,</p><p><img src=\"assets\\st0070_945c6badea25.png\" style=\"width: 400px; height: 300px;\" /></p><p>According to JEE Mains,&nbsp;we have to calculate the required region&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>2</mn></msub></math>&nbsp;which is shaded in crossed lines and comes out to be</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>2</mn></msub><mo>=</mo><msubsup><mo>&#8747;</mo><mn>1</mn><mn>2</mn></msubsup><mfenced><mrow><mi>ln</mi><mfrac><mn>2</mn><mi>y</mi></mfrac><mo>-</mo><msup><mi>e</mi><mi>y</mi></msup><mo>+</mo><msup><mi>e</mi><mn>2</mn></msup></mrow></mfenced><mi>d</mi><mi>y</mi><mo>=</mo><mn>1</mn><mo>+</mo><mi>e</mi><mo>-</mo><mi>ln</mi><mn>2</mn></math></p><p>But according to the question&nbsp;the required region&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub></math>&nbsp;comes out to be shaded in parallel lines, which can be obtained as</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mrow><mi>ln</mi><mn>2</mn></mrow></msubsup><mfenced><mrow><mi>ln</mi><mfenced><mrow><mi>x</mi><mo>+</mo><msup><mi>e</mi><mn>2</mn></msup></mrow></mfenced><mo>-</mo><mn>2</mn><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><menclose notation=\"right\"><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mfenced><mrow><mi>x</mi><mo>+</mo><msup><mi>e</mi><mn>2</mn></msup></mrow></mfenced><mi>ln</mi><mfenced><mrow><mi>x</mi><mo>+</mo><msup><mi>e</mi><mn>2</mn></msup></mrow></mfenced><mo>-</mo><mi>x</mi><mo>+</mo><mn>2</mn><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></mrow></mfenced></menclose><mn>0</mn><mrow><mtext>ln</mtext><mn>2</mn></mrow></msubsup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced><mrow><mi>ln</mi><mn>2</mn><mo>+</mo><msup><mi>e</mi><mn>2</mn></msup></mrow></mfenced><mi>ln</mi><mfenced><mrow><mi>ln</mi><mn>2</mn><mo>+</mo><msup><mi>e</mi><mn>2</mn></msup></mrow></mfenced><mo>-</mo><mi>ln</mi><mn>2</mn><mo>+</mo><mn>1</mn><mo>-</mo><mn>2</mn><msup><mi>e</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced><mrow><mi>ln</mi><mn>2</mn><mo>+</mo><msup><mi>e</mi><mn>2</mn></msup></mrow></mfenced><mi>ln</mi><mfenced><mrow><mi>ln</mi><mn>2</mn><mo>+</mo><msup><mi>e</mi><mn>2</mn></msup></mrow></mfenced><mo>-</mo><mi>ln</mi><mn>2</mn><mo>-</mo><mn>2</mn><msup><mi>e</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn></math></p><p>Not given in any option.</p></blockquote>"
+  }
+}

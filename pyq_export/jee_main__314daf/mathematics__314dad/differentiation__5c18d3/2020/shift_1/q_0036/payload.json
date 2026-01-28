@@ -1,0 +1,43 @@
+{
+  "index": 36,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2020 (09 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255a501b352fc65c18d3",
+    "chapter_name": "Differentiation",
+    "year": "2020",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let <math><mi>f</mi></math> be any function continuous on <math><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi>a</mi><mo>,</mo><mi></mi><mi>b</mi></mrow></mfenced></math> and twice differentiable on <math><mfenced separators=\"|\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow></mfenced></math> . If all <math><mi>x</mi><mo>&#8712;</mo><mfenced separators=\"|\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow></mfenced><mo>,</mo><msup><mrow><mi>f</mi></mrow><mrow><mi>&#39;</mi></mrow></msup><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>&#62;</mo><mn>0</mn></math> and <math><msup><mrow><mi>f</mi></mrow><mrow><mi>&#39;</mi><mi>&#39;</mi></mrow></msup><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>&#60;</mo><mn>0</mn><mi></mi></math> , then for any <math><mi>c</mi><mo>&#8712;</mo><mfenced separators=\"|\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow></mfenced><mo>,</mo><mfrac><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>c</mi></mrow></mfenced><mo>-</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>a</mi></mrow></mfenced></mrow><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>b</mi></mrow></mfenced><mo>-</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>c</mi></mrow></mfenced></mrow></mfrac></math>"
+  },
+  "options": [
+    {
+      "text": "<math><mfrac><mrow><mi>b</mi><mo>+</mo><mi>a</mi></mrow><mrow><mi>b</mi><mo>-</mo><mi>a</mi></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>1</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mi>b</mi><mo>-</mo><mi>c</mi></mrow><mrow><mi>c</mi><mo>-</mo><mi>a</mi></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mi>c</mi><mo>-</mo><mi>a</mi></mrow><mrow><mi>b</mi><mo>-</mo><mi>c</mi></mrow></mfrac></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>Let&rsquo;s use LMVT for <math><mi>x</mi><mi></mi><mo>&#8712;</mo><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi>a</mi><mo>,</mo><mi></mi><mi>c</mi></mrow></mfenced></math></p><p><math><mfrac><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>c</mi></mrow></mfenced><mo>-</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo></mrow><mrow><mi>c</mi><mo>-</mo><mi>a</mi></mrow></mfrac><mo>=</mo><msup><mrow><mi>f</mi></mrow><mrow><mi>&#39;</mi></mrow></msup><mfenced separators=\"|\"><mrow><mi>&#945;</mi></mrow></mfenced><mo>,</mo><mi></mi><mi>&#945;</mi><mo>&#8712;</mo><mfenced separators=\"|\"><mrow><mi>a</mi><mi></mi><mo>,</mo><mi>c</mi></mrow></mfenced></math></p><p>Also use LMVT for <math><mi>x</mi><mi></mi><mo>&#8712;</mo><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi>c</mi><mi></mi><mo>,</mo><mi></mi><mi>b</mi></mrow></mfenced></math></p><p><math><mfrac><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>b</mi></mrow></mfenced><mo>-</mo><mi>f</mi><mo>(</mo><mi>c</mi><mo>)</mo></mrow><mrow><mi>b</mi><mo>-</mo><mi>c</mi></mrow></mfrac><mo>=</mo><msup><mrow><mi>f</mi></mrow><mrow><mi>&#39;</mi></mrow></msup><mfenced separators=\"|\"><mrow><mi>&#946;</mi></mrow></mfenced><mo>,</mo><mi></mi><mi>&#946;</mi><mo>&#8712;</mo><mfenced separators=\"|\"><mrow><mi>c</mi><mi></mi><mo>,</mo><mi></mi><mi>b</mi></mrow></mfenced></math></p><p><math><mo>&#8757;</mo><mi></mi><mi></mi><msup><mrow><mi>f</mi></mrow><mrow><mi>&#39;</mi><mi>&#39;</mi></mrow></msup><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>&#60;</mo><mn>0</mn><mi></mi><mo>&#8658;</mo><msup><mrow><mi>f</mi></mrow><mrow><mi>&#39;</mi></mrow></msup><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math> is decreasing</p><p><math><msup><mrow><mi>f</mi></mrow><mrow><mi>&#39;</mi></mrow></msup><mfenced separators=\"|\"><mrow><mi>&#945;</mi></mrow></mfenced><mo>&#62;</mo><msup><mrow><mi>f</mi></mrow><mrow><mi>&#39;</mi></mrow></msup><mfenced separators=\"|\"><mrow><mi>&#946;</mi></mrow></mfenced></math></p><p><math><mfrac><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>c</mi></mrow></mfenced><mo>-</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo></mrow><mrow><mi>c</mi><mo>-</mo><mi>a</mi></mrow></mfrac><mo>&#62;</mo><mfrac><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>b</mi></mrow></mfenced><mo>-</mo><mi>f</mi><mo>(</mo><mi>c</mi><mo>)</mo></mrow><mrow><mi>b</mi><mo>-</mo><mi>c</mi></mrow></mfrac></math></p><p><math><mfrac><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>c</mi></mrow></mfenced><mo>-</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo></mrow><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>b</mi></mrow></mfenced><mo>-</mo><mi>f</mi><mo>(</mo><mi>c</mi><mo>)</mo></mrow></mfrac><mo>&#62;</mo><mfrac><mrow><mi>c</mi><mo>-</mo><mi>a</mi></mrow><mrow><mi>b</mi><mo>-</mo><mi>c</mi></mrow></mfrac><mi></mi></math> ( <math><mo>&#8757;</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math> is increasing)</p>"
+  }
+}

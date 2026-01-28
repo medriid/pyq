@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65cf3",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-25T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (25 Apr Online)",
+      "title": "JEE Main 2013 (25 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "Given a sequence of 4 numbers, first three of which are in G.P. and the last three are in A.P. with common difference six. If first and last terms of this sequence are equal, then the last term is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Lmcn6",
+      "text": "\n16\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "DVlcg",
+      "text": "\n 8\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "tBdR3",
+      "text": "\n 4\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "9G87d",
+      "text": "\n2",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $a, b, c, d$ be four numbers of the sequence.\nNow, according to the question $b^2=a c$ and $c-b=6$ and $a-c=6$\nAlso, given $a=d$\n$$\n\\begin{aligned}\n\\therefore b^2=a c \\Rightarrow b^2=a\\left[\\frac{a+b}{2}\\right] \\\\\n(\\because 2 c=a+b)\n\\end{aligned}\n$$\n$\\Rightarrow a^2-2 b^2+a b=0$\nNow, $c-b=6$ and $a-c=6$,\ngives $a-b=12$\n$\\Rightarrow b=a-12$\n$\\therefore a^2-2 b^2+a b=0$\n$\\Rightarrow a^2-2(a-12)^2+a(a-12)=0$\n$\\Rightarrow a^2-2 a^2-288+48 a+a^2-12 a=0$\n$\\Rightarrow 36 a=288 \\Rightarrow a=8$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-25T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (25 Apr Online)",
+    "title": "JEE Main 2013 (25 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

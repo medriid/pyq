@@ -1,0 +1,58 @@
+{
+  "_id": "685102c26bba689a3eb09cad",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "684c67d769037fad219cb0c2",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2025-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (Paper 2)",
+      "title": "JEE Advanced 2025 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\alpha=\\frac{1}{\\sin 60^{\\circ} \\sin 61^{\\circ}}+\\frac{1}{\\sin 62^{\\circ} \\sin 63^{\\circ}}+\\ldots+\\frac{1}{\\sin 118^{\\circ} \\sin 119^{\\circ}}$\nThen the value of $\\left(\\frac{\\operatorname{cosec} 1^{\\circ}}{\\alpha}\\right)^2$ is __________",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "3",
+  "solution": {
+    "text": "$\\begin{aligned} & \\alpha=\\sum_{\\mathrm{r}-30}^{59} \\frac{1}{\\sin (2 \\mathrm{r})^{\\circ} \\sin (2 \\mathrm{r}+1)^{\\circ}} \\\\ & \\frac{\\alpha}{\\operatorname{cosec} 1^{\\circ}}=\\sum_{\\mathrm{r}-30}^{59} \\frac{\\sin 1^{\\circ}}{\\sin (2 \\mathrm{r})^{\\circ} \\sin (2 \\mathrm{r}+1)^{\\circ}} \\\\ & =\\sum_{\\mathrm{r}-30}^{59}\\left(\\cot (2 \\mathrm{r})^{\\circ}-\\cot (2 \\mathrm{r}+1)^{\\circ}\\right) \\\\ & =\\cot 60^{\\circ}-\\cot 61^{\\circ} \\\\ & \\quad+\\cot 62^{\\circ}-\\cot 63^{\\circ} \\\\ & \\quad \\vdots \\\\ & +\\cot \\left(118^{\\circ}\\right)-\\cot \\left(119^{\\circ}\\right) \\\\ & \\frac{\\alpha}{\\operatorname{cosec} 1^{\\circ}}=\\cot 60^{\\circ}=\\frac{1}{\\sqrt{3}} \\\\ & \\left(\\frac{\\operatorname{cosec} 1^{\\circ}}{\\alpha}\\right)^2=3\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "a3d4a6e5653f4ce4afdda4d819c16c55",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/LJnvc31yyZkKt.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/LJnvc31yyZkKt.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "684c67d769037fad219cb0c2",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2025-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (Paper 2)",
+    "title": "JEE Advanced 2025 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

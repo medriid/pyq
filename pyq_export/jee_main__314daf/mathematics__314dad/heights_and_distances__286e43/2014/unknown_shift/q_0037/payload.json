@@ -1,0 +1,43 @@
+{
+  "index": 37,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2014 (11 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602549ed02a1448e286e43",
+    "chapter_name": "Heights and Distances",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Two ships A and B are sailing straight away from a fixed point $\\mathrm{O}$ along routes such that $\\angle \\mathrm{AOB}$ is always $120^{\\circ}$. At a certain instance, $\\mathrm{OA}=8 \\mathrm{~km}, \\mathrm{OB}=6 \\mathrm{~km}$ and the ship $\\mathrm{A}$ is sailing at the rate of $20 \\mathrm{~km} / \\mathrm{hr}$ while the ship B sailing at the rate of $30 \\mathrm{~km} / \\mathrm{hr}$. Then the distance between $\\mathrm{A}$ and $\\mathrm{B}$ is changing at the rate (in $\\mathrm{km} / \\mathrm{hr}$ ):"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{260}{\\sqrt{37}}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{260}{37}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{80}{\\sqrt{37}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{80}{37}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0037_75d3839bd8cf.png\"><br>\nLet $\\mathrm{OA}=x \\mathrm{~km}, \\mathrm{OB}=y \\mathrm{~km}, \\mathrm{AB}=\\mathrm{R}$ $(\\mathrm{AB})^2=(\\mathrm{OA})^2+(\\mathrm{OB})^2-2(\\mathrm{OA})(\\mathrm{OB}) \\cos$ $120^{\\circ}$\n$$\n\\mathrm{R}^2=x^2+y^2-2 x y\\left(-\\frac{1}{2}\\right)=x^2+y^2+x y\n$$\n$\\mathrm{R}$ at $x=6 \\mathrm{~km}$, and $y=8 \\mathrm{~km}$\n$$\n\\mathrm{R}=\\sqrt{6^2+8^2+6 \\times 8}=2 \\sqrt{37}\n$$\nDifferentiating equation (1) with respect to $t$\n$$\n\\begin{gathered}\n2 R \\frac{d R}{d t}=2 \\frac{d x}{d t}+2 y \\frac{d y}{d t}+\\left(x \\frac{d y}{d t}+y \\frac{d x}{d t}\\right) \\\\\n=\\frac{1}{2 R}[2 \\times 8 \\times 20+2 \\times 6 \\times 30+(8 \\times 30+6 \\times 20)] \\\\\n\\frac{d R}{d t}=\\frac{1}{2 \\times 2 \\sqrt{37}}[1040]=\\frac{260}{\\sqrt{37}}\n\\end{gathered}\n$$"
+  }
+}

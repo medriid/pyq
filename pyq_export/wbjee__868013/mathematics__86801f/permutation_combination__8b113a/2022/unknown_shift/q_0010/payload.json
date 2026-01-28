@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ccd1d619927718b113a",
+    "chapter_name": "Permutation Combination",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A is a set containing n elements. $P$ and $Q$ are two subsets of $A$. Then the number of ways of choosing $P$ and $Q$ so that $P \\cap Q=\\varphi$ is"
+  },
+  "options": [
+    {
+      "text": "$2^{2 n \\space 2 n} C_n$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^n$",
+      "is_correct": false
+    },
+    {
+      "text": "$3^n-1$",
+      "is_correct": false
+    },
+    {
+      "text": "3^n",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\sum_{r=0}^n{ }^n C_r \\cdot 2^{n-r}=(2+1)^n=3^n$ (Assuming $P$ contains r elements then $Q$ can be formed with $n-r$ elements in $2^{n-r}$ ways)"
+  }
+}

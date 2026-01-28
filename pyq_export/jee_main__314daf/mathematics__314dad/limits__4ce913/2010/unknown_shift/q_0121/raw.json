@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d6592b",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7ca",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010",
+      "title": "JEE Main 2010"
+    }
+  ],
+  "question": {
+    "text": "Let $f: R \\rightarrow R$ be a positive increasing function with $\\lim _{x \\rightarrow \\infty} \\frac{f(3 x)}{f(x)}=1$. Then $\\lim _{x \\rightarrow \\infty} \\frac{f(2 x)}{f(x)}=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "dV0Gp",
+      "text": "\n$\\frac{2}{3}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "cdxxY",
+      "text": "\n$\\frac{3}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "DgmVT",
+      "text": "\n3\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "lFbNy",
+      "text": "\n1",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$f(x)$ is a positive increasing function\n$$\n\\begin{aligned}\n& \\Rightarrow 0 < f(x) < f(2 x) < f(3 x) \\\\\n& \\Rightarrow 0 < 1 < \\frac{f(2 x)}{f(x)} < \\frac{f(3 x)}{f(x)} \\\\\n& \\Rightarrow \\lim _{x \\rightarrow \\infty} 1 \\leq \\lim _{x \\rightarrow \\infty} \\frac{f(2 x)}{f(x)} \\leq \\lim _{x \\rightarrow \\infty} \\frac{f(3 x)}{f(x)}\n\\end{aligned}\n$$\nBy sandwich theorem.\n$$\n\\Rightarrow \\lim _{x \\rightarrow \\infty} \\frac{f(2 x)}{f(x)}=1\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7ca",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010",
+    "title": "JEE Main 2010"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

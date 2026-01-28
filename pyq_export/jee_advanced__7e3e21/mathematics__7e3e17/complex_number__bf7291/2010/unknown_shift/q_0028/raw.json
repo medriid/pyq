@@ -1,0 +1,38 @@
+{
+  "_id": "64b16a02f23ac7d519f9b082",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c46",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010 (Paper 1)",
+      "title": "JEE Advanced 2010 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\omega$ be the complex number $\\cos \\frac{2 \\pi}{3}+i \\sin \\frac{2 \\pi}{3}$. Then the number of distinct complex number $z$ satisfying $\\left|\\begin{array}{ccc}z+1 & \\omega & \\omega^2 \\\\ \\omega & z+\\omega^2 & 1 \\\\ \\omega^2 & 1 & z+\\omega\\end{array}\\right|=0$ is equal to",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "1",
+  "solution": {
+    "text": "Let $A=\\left[\\begin{array}{ccc}1 & \\omega & \\omega^2 \\\\ \\omega & \\omega^2 & 1 \\\\ \\omega^2 & 1 & \\omega\\end{array}\\right]$\nNow, $\\quad A^2=\\left[\\begin{array}{lll}0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 0\\end{array}\\right]$\nand $\\operatorname{Tr}(A)=0,|A|=0$\n$\\therefore \\quad A^3=0$\n\n$\\Rightarrow\\left|\\begin{array}{ccc}z+1 & \\omega & \\omega^2 \\\\ \\omega & z+\\omega^2 & 1 \\\\ \\omega^2 & 1 & z+\\omega\\end{array}\\right|=|A+z I|=0$\n$\\Rightarrow \\quad z^3=0$\n$\\Rightarrow z=0$, the number of $z$ satisfying the given equation is 1 .",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c46",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010 (Paper 1)",
+    "title": "JEE Advanced 2010 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

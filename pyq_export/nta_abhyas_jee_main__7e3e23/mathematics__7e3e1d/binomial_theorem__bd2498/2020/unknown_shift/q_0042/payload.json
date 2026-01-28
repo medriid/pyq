@@ -1,0 +1,43 @@
+{
+  "index": 42,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025320696c5af2bbd2498",
+    "chapter_name": "Binomial Theorem",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of <math><mrow><munderover><mo stretchy=\"false\">∑</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mrow><mn>7</mn></mrow></munderover><mrow><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>7</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi></mrow></msub></mrow><mrow><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mi>r</mi><mo>+</mo><mn>2</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub></mrow></mfrac></mrow></mrow></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><mn>128</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>251</mn></mrow><mrow><mn>18</mn></mrow></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>128</mn></mrow><mrow><mn>3</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>11</mn></mrow><mrow><mn>7</mn></mrow></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<math><mrow><munderover><mo stretchy=\"false\">∑</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mrow><mn>7</mn></mrow></munderover><mrow><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>7</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi></mrow></msub></mrow><mrow><mfrac><mrow><mfenced separators=\"|\"><mrow><mi>r</mi><mo>+</mo><mn>2</mn></mrow></mfenced><mfenced separators=\"|\"><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow><mrow><menclose notation=\"left bottom\"><mn>2</mn></menclose></mrow></mfrac></mrow></mfrac></mrow></mrow></math>  <br/><math><mo>=</mo><menclose notation=\"left bottom\"><mn>2</mn></menclose><mi mathvariant=\"normal\"></mi><mrow><munderover><mo stretchy=\"false\">∑</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mrow><mn>7</mn></mrow></munderover><mrow><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>7</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi></mrow></msub></mrow><mrow><mfenced separators=\"|\"><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mfenced separators=\"|\"><mrow><mi>r</mi><mo>+</mo><mn>2</mn></mrow></mfenced></mrow></mfrac></mrow></mrow></math>  <br/><math><mo>=</mo><menclose notation=\"left bottom\"><mn>2</mn></menclose><mi mathvariant=\"normal\"></mi><mrow><munderover><mo stretchy=\"false\">∑</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mrow><mn>7</mn></mrow></munderover><mrow><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>9</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi></mrow></msub></mrow><mrow><mn>8</mn><mo>×</mo><mn>9</mn></mrow></mfrac></mrow></mrow></math>  <br/><math><mo>=</mo><mfrac><mrow><menclose notation=\"left bottom\"><mn>2</mn></menclose></mrow><mrow><mn>8</mn><mo>×</mo><mn>9</mn></mrow></mfrac><mfenced separators=\"|\"><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>9</mn></mrow></msup><mo>-</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>9</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>0</mn></mrow></msub><mo>-</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>9</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mfenced></math>  <br/><math><mo>=</mo><mfrac><mrow><mn>512</mn><mo>-</mo><mn>1</mn><mo>-</mo><mn>9</mn></mrow><mrow><mn>36</mn></mrow></mfrac></math>  <br/><math><mo>=</mo><mfrac><mrow><mn>502</mn></mrow><mrow><mn>36</mn></mrow></mfrac></math>  <br/><math><mo>=</mo><mfrac><mrow><mn>251</mn></mrow><mrow><mn>18</mn></mrow></mfrac></math>"
+  }
+}

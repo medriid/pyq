@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602565bccda81624f5a071",
+    "chapter_name": "Area Under Curves",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The area of the region, inside the circle $(x-2 \\sqrt{3})^2+y^2=12$ and outside the parabola $y^2=2 \\sqrt{3} x$ is :"
+  },
+  "options": [
+    {
+      "text": "$3 \\pi+8$",
+      "is_correct": false
+    },
+    {
+      "text": "$6 \\pi-16$",
+      "is_correct": true
+    },
+    {
+      "text": "$3 \\pi-8$",
+      "is_correct": false
+    },
+    {
+      "text": "$6 \\pi-8$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0017_bfe29d97274d.png\"><br>\n$\\begin{aligned} & \\text { Required area }=2 \\int_0^{2 \\sqrt{3}}\\left(\\sqrt{4 \\sqrt{3} x-x^2}-\\sqrt{2 \\sqrt{3} x}\\right) d x \\\\ & =2 \\int_0^{2 \\sqrt{3}}\\left(\\sqrt{12-(x-2 \\sqrt{3})^2}-\\sqrt{2 \\sqrt{3} x}\\right) d x \\\\ & =2\\left[\\frac{x-2 \\sqrt{3}}{2} \\sqrt{12-(x-2 \\sqrt{3})^2}+\\frac{12}{2} \\sin ^{-1}\\left(\\frac{x-2 \\sqrt{3}}{2 \\sqrt{3}}\\right)\\right. \\\\ & \\left.-\\frac{\\sqrt{2 \\sqrt{3}} x^{\\frac{3}{2}}}{\\frac{3}{2}}\\right]_0^{2 \\sqrt{3}} \\\\ & =2\\{3 \\pi-8\\} \\\\ & =6 \\pi-16 \\text { sq. units. }\\end{aligned}$"
+  }
+}

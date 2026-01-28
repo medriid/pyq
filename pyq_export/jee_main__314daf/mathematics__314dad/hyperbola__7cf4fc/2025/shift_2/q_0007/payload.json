@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602541dde7f7e33e7cf4fc",
+    "chapter_name": "Hyperbola",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $A$ and $B$ are the points of intersection of the circle $x^2+y^2-8 x=0$ and the hyperbola $\\frac{x^2}{9}-\\frac{y^2}{4}=1$ and a point P moves on the line $2 x-3 y+4=0$, then the centroid of $\\triangle \\mathrm{PAB}$ lies on the line :"
+  },
+  "options": [
+    {
+      "text": "$x+9 y=36$",
+      "is_correct": false
+    },
+    {
+      "text": "$4 x-9 y=12$",
+      "is_correct": false
+    },
+    {
+      "text": "$6 x-9 y=20$",
+      "is_correct": true
+    },
+    {
+      "text": "$9 x-9 y=32$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "C: $x^2+y^2-8 x=0$ $\\mathrm{H}: \\frac{x^2}{9}-\\frac{y^2}{4}=1$\nBy solving $\\frac{x^2}{9}-\\left(\\frac{8 x-x^2}{4}\\right)=1$\n$\\begin{aligned}\n& 4 x^2-72 x+9 x^2=36 \\\\\n& \\Rightarrow 13 x^2-72 x-36=0 \\\\\n& \\Rightarrow 13 x^2-78 x+6 x-36=0 \\\\\n& \\Rightarrow 13 x(x-6)+6(x-6)=0 \\\\\n& \\Rightarrow x=6 \\text { or }-\\frac{13}{6} \\times \\text { neglected } \\\\\n& \\Rightarrow y^2=8(6)-(6)^2 \\\\\n& \\Rightarrow y= \\pm \\sqrt{12}\n\\end{aligned}$\nSo, points $A$ and $B$ are $(6, \\sqrt{12}),(6,-\\sqrt{12})$\n$P\\left(h, \\frac{2 h+4}{3}\\right)$\nCentroid of $\\triangle P A B$ is $\\left(\\frac{12+h}{3}, \\frac{2 h+4}{9}\\right)$\nBy options this centroid lies on the live $6 x-9 y=20$"
+  }
+}

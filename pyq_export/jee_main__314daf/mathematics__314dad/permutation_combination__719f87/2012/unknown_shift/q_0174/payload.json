@@ -1,0 +1,43 @@
+{
+  "index": 174,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (07 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the number of 5-element subsets of the set $A=\\left\\{a_1, a_2, \\ldots, a_{20}\\right\\}$ of 20 distinct elements is $k$ times the number of 5-element subsets containing $a_4$, then $k$ is"
+  },
+  "options": [
+    {
+      "text": "\n5\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{20}{7}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n4\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{10}{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Set $A=\\left\\{a_1, a_2, \\ldots . ., a_{20}\\right\\}$ has 20 distinct elements.\nWe have to select 5-element subset.\n$\\therefore$ Number of 5-element subsets $={ }^{20} \\mathrm{C}_5$\nAccording to question\n$$\n\\begin{aligned}\n& { }^{20} \\mathrm{C}_5=\\left({ }^{19} \\mathrm{C}_4 \\cdot k\\right. \\\\\n& \\Rightarrow \\frac{20 !}{5 ! 15 !}=k \\cdot\\left(\\frac{19 !}{4 ! 15 !}\\right) \\\\\n& \\Rightarrow \\quad \\frac{20}{5}=k \\Rightarrow k=4\n\\end{aligned}\n$$"
+  }
+}

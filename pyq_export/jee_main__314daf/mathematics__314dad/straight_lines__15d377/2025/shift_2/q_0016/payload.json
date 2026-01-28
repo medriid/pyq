@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602537eaf75bf5a215d377",
+    "chapter_name": "Straight Lines",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "A rod of length eight units moves such that its ends $A$ and $B$ always lie on the lines $x-y+2=0$ and $y+2=0$, respectively. If the locus of the point $P$, that divides the rod $A B$ internally in the ratio $2: 1$ is $9\\left(x^2+\\alpha y^2+\\beta x y+\\gamma x+28 y\\right)-76=0$, then $\\alpha-\\beta-\\gamma$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "22",
+      "is_correct": false
+    },
+    {
+      "text": "21",
+      "is_correct": false
+    },
+    {
+      "text": "23",
+      "is_correct": true
+    },
+    {
+      "text": "24",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & A B=8 \\\\ & A B^2=64\\end{aligned}$\n<img src=\"assets\\st0016_c12a4059a358.png\"><br>\n$\\Rightarrow(a-b)^2+(b+4)^2=64$ ...(1)\nNow $P$ divides $A B$ in the ratio $2: 1$ internally\n$\\Rightarrow h=\\frac{2 a+b}{3}$ and $k=\\frac{-4+b+2}{3}$\n$\\Rightarrow 2 a+b=3 h$ $\\ldots$ (2) $k=\\frac{b-2}{3}$\nFrom equation (2) and (3) $\\quad \\Rightarrow b=3 \\mathrm{k}+2$\n$\\begin{aligned}\n& \\Rightarrow \\quad 2 a=3 h-3 k-2 \\\\\n& \\Rightarrow \\quad a=\\frac{3 h-3 k-2}{2}\n\\end{aligned}$\nNow by putting value of $a$ and $b$ in equation\n$\\begin{aligned}\n& \\Rightarrow\\left(\\frac{3 h-3 k-2}{2}-(3 k+2)\\right)^2+(3 k+2+4)^2=64 \\\\\n& \\Rightarrow\\left(\\frac{3 h-3 k-2-6 k-4}{2}\\right)^2+(3 k+6)^2=64 \\\\\n& \\Rightarrow(3 h-9 k-6)^2+4(3 k+6)^2=4 \\times 64 \\\\\n& \\Rightarrow 9(h-3 k-2)^2+36(k+2)^2=256 \\\\\n& \\Rightarrow 9\\left(h^2+9 k^2+4-6 h k-4 h+12 k\\right) \\\\\n& \\quad+36\\left(k^2+4+4 k\\right)=256 \\\\\n& \\Rightarrow 9\\left(h^2+13 k^2+20-6 h k-4 h+28 k\\right)=256\n\\end{aligned}$\nReplacing $h$ by $x$ and $k$ by $y$\n$\\begin{aligned}\n& \\Rightarrow 9\\left(x^2+13 y^2-6 x y-4 x+28 y\\right)+180-256=0 \\\\\n& \\Rightarrow 9\\left(x^2+13 y^2-6 x y-4 x+28 y\\right)-76=0\n\\end{aligned}$\nBy comparing $\\alpha=13, \\beta=-6, \\gamma=-4$\n$\\alpha-\\beta-\\gamma=13+6+4=23$"
+  }
+}

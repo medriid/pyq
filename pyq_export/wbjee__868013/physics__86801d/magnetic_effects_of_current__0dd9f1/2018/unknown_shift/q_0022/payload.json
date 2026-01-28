@@ -1,0 +1,43 @@
+{
+  "index": 22,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c8e8811f774a40dd9f1",
+    "chapter_name": "Magnetic Effects of Current",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A circular loop of radius $r$ of conducting wire connected with a voltage source of zero internal resistance produces a magnetic field\r\n$B$ at its centre. If instead, a circular loep of radius $2 r,$ made of same material, having the same cross-section is connected to the same voltage source, what will be the magnetic ficld at its centre?"
+  },
+  "options": [
+    {
+      "text": "$\\frac{B}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{B}{4}$",
+      "is_correct": true
+    },
+    {
+      "text": "$2B$",
+      "is_correct": false
+    },
+    {
+      "text": "$B$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0022_0168d4d8764d.png\">\r\n\r\n$$\r\nB=\\frac{\\mu_{0}}{2} \\cdot \\frac{I}{r}\r\n$$\r\n$\\because$\r\n$$\r\nI_{1}=\\frac{V}{R_{1}}\r\n$$\r\nCase (I) $l_{1}=2 \\pi r$ (length of the loop).\r\n$$\r\nR_{1}=\\rho \\frac{l_{1}}{A} \\text { and } B_{1}=\\frac{\\mu_{0}}{2} \\cdot \\frac{I_{1}}{r}\r\n$$\r\nCase (II) $I_{2}=2 \\pi \\cdot 2 r=2 l_{1}$\r\n$$\r\n\\begin{array}{l}\r\nR_{2}=\\rho \\cdot \\frac{l_{2}}{A}=\\rho \\cdot \\frac{2 l_{1}}{A}=2 R_{1} \\\\\r\nI_{2}=\\frac{V}{R_{2}}=\\frac{V}{2 R_{1}}=\\frac{I_{1}}{2} \\\\\r\nB_{2}=\\frac{\\mu_{0}}{2} \\cdot \\frac{I_{2}}{2 r}=\\frac{\\mu_{0}}{2} \\cdot \\frac{I_{1}}{2 \\cdot 2 r}\r\n\\end{array}\r\n$$\r\nFrom Eqs. (i) and (ii),\r\n$$\r\n\\frac{B_{2}}{B_{1}}=\\frac{\\frac{\\mu_{0}}{2} \\cdot \\frac{I_{1}}{2 \\cdot 2 r}}{\\frac{\\mu_{0}}{2} \\cdot \\frac{I_{1}}{r}}=\\frac{1}{4}\r\n$$\r\nMagnetic field $B_{2}=\\frac{B_{1}}{4}$"
+  }
+}

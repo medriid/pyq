@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2007 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602540e6d04db2c46b469d",
+    "chapter_name": "Ellipse",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A hyperbola, having the transverse axis of length $2 \\sin \\theta$, is confocal with the ellipse $3 x^2+4 y^2=12$. Then, its equation is"
+  },
+  "options": [
+    {
+      "text": "\n$x^2 \\operatorname{cosec}^2 \\theta-y^2 \\sec ^2 \\theta=1$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$x^2 \\sec ^2 \\theta-y^2 \\operatorname{cosec}^2 \\theta=1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x^2 \\sin ^2 \\theta-y^2 \\cos ^2 \\theta=1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x^2 \\cos ^2 \\theta-y^2 \\sin ^2 \\theta=1$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "The given ellipse is\n$$\n\\begin{aligned}\n& \\frac{x^2}{4}+\\frac{y^2}{3}=1 \\Rightarrow \\alpha=2, \\beta=\\sqrt{3} \\\\\n& \\therefore \\quad 3=4\\left(1-e^2\\right) \\Rightarrow e=\\frac{1}{2} \\\\\n&\n\\end{aligned}\n$$\n$$\n\\therefore \\quad a e=1\n$$\nHence the eccentricity $e_1$, of the hyperbola is given by\n$$\n\\begin{array}{rlrl} \n& & 1 & =e_1 \\sin \\theta \\\\\n\\Rightarrow & & e_1 & =\\operatorname{cosec} \\theta \\\\\n\\Rightarrow & b^2 & =\\sin ^2 \\theta\\left(\\operatorname{cosec}^2 \\theta-1\\right)=\\cos ^2 \\theta\n\\end{array}\n$$\nHence, the hyperbola is\n$$\n\\frac{x^2}{\\sin ^2 \\theta}-\\frac{y^2}{\\cos ^2 \\theta}=1 \\text { or } x^2 \\operatorname{cosec}^2 \\theta-y^2 \\sec ^2 \\theta=1\n$$"
+  }
+}

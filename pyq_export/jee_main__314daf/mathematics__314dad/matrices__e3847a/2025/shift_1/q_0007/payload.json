@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $A$ be a matrix of order $3 \\times 3$ and $|A|=5$. If $|2 \\operatorname{adj}(3 \\mathrm{~A} \\operatorname{adj}(2 \\mathrm{~A}))|=2^\\alpha \\cdot 3^\\beta \\cdot 5^\\gamma \\alpha, \\beta, \\gamma \\in \\mathrm{N}$ then $\\alpha+\\beta+\\gamma$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$25$",
+      "is_correct": false
+    },
+    {
+      "text": "$26$",
+      "is_correct": false
+    },
+    {
+      "text": "$27$",
+      "is_correct": true
+    },
+    {
+      "text": "$28$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & |2 \\operatorname{adj}(3 \\mathrm{~A} \\operatorname{adj}(2 \\mathrm{~A}))| \\\\ & 2^3 \\cdot|3 \\mathrm{~A} \\operatorname{adj}(2 \\mathrm{~A})|^2 \\\\ & 2^3 \\cdot\\left(3^3\\right)^2 \\cdot|\\mathrm{~A}|^2 \\cdot|\\operatorname{adj}(2 \\mathrm{~A})|^2 \\\\ & 2^3 \\cdot 3^6 \\cdot|\\mathrm{~A}|^2 \\cdot\\left(|2 \\mathrm{~A}|^2\\right)^2 \\\\ & 2^3 \\cdot 3^6 \\cdot|\\mathrm{~A}|^2\\left[\\left(2^3\\right)^2 \\cdot|\\mathrm{~A}|^2\\right]^2 \\\\ & 2^3 \\cdot 3^6 \\cdot|\\mathrm{~A}|^2 \\cdot 2^{12} \\cdot|\\mathrm{~A}|^4 \\\\ & 2^{15} \\cdot 3^6 \\cdot|\\mathrm{~A}|^6 \\\\ & 2^{15} \\cdot 3^6 \\cdot 5^6=2^\\alpha \\cdot 3^\\beta \\cdot 5^\\gamma \\\\ & \\alpha=15, \\quad \\beta=6, \\quad \\gamma=6 \\\\ & \\alpha+\\beta+\\gamma=27\\end{aligned}$"
+  }
+}

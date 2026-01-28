@@ -1,0 +1,43 @@
+{
+  "index": 36,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2014 (11 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602549ed02a1448e286e43",
+    "chapter_name": "Heights and Distances",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The angle of elevation of the top of a vertical tower from a point $\\mathrm{P}$ on the horizontal ground was observed to be $\\alpha$. After moving a distance 2 metres from $\\mathrm{P}$ towards the foot of the tower, the angle of elevation changes to $\\beta$. Then the height (in metres) of the tower is:"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{2 \\sin \\alpha \\sin \\beta}{\\sin (\\beta-\\alpha)}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{\\sin \\alpha \\sin \\beta}{\\cos (\\beta-\\alpha)}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{2 \\sin (\\beta-\\alpha)}{\\sin \\alpha \\sin \\beta}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\cos (\\beta-\\alpha)}{\\sin \\alpha \\sin \\beta}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\text { Let } \\mathrm{AB} \\text { be the tower of height ' } \\mathrm{h} \\text { '. }\n$$\n<img src=\"assets\\st0036_adf445b87666.png\"><br>\nGiven : In $\\triangle \\mathrm{ABP}$\n$\\tan \\alpha=\\frac{\\mathrm{AB}}{\\mathrm{PB}}$\nor $\\frac{\\sin \\alpha}{\\cos \\alpha}=\\frac{h}{x+2}$\n$\\Rightarrow(x+2) \\sin \\alpha=\\mathrm{h} \\cos \\alpha$\n$\\Rightarrow h=\\frac{x \\sin \\alpha+2 \\sin \\alpha}{\\cos \\alpha}$\nNow, In $\\Delta \\mathrm{ABC}, \\tan \\beta=\\frac{\\mathrm{AB}}{\\mathrm{BC}}$\n$$\n\\Rightarrow \\frac{\\sin \\beta}{\\cos \\beta}=\\frac{h}{x} \\Rightarrow x=\\frac{h \\cos \\beta}{\\sin \\beta}\n$$\nPutting the value of $x$ in eq. (2) to eq. (1), we get\n$$\n\\begin{aligned}\n&h=\\frac{\\frac{h \\cos \\beta \\sin \\alpha}{\\sin \\beta}+\\frac{2 \\sin \\alpha}{1}}{\\cos \\alpha} \\\\\n&\\Rightarrow h=\\frac{h \\cos \\beta \\cdot \\sin \\alpha+2 \\sin \\alpha \\sin \\beta}{\\sin \\beta \\cdot \\cos \\alpha} \\\\\n&\n\\end{aligned}\n$$\n$\\Rightarrow h(\\sin \\beta \\cdot \\cos \\alpha-\\cos \\beta \\cdot \\sin \\alpha)=2 \\sin \\alpha \\cdot \\sin \\beta$\n$\\Rightarrow h[\\sin (\\beta-\\alpha)]=2 \\sin \\alpha \\cdot \\sin \\beta$\n$\\Rightarrow h=\\frac{2 \\sin \\alpha \\cdot \\sin \\beta}{\\sin (\\beta-\\alpha)}$"
+  }
+}

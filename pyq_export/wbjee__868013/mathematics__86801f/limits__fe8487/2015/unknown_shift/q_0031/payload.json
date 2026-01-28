@@ -1,0 +1,43 @@
+{
+  "index": 31,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $x_{n}=\\left(1-\\frac{1}{3}\\right)^{2}\\left(1-\\frac{1}{6}\\right)^{2}\\left(1-\\frac{1}{10}\\right)^{2} \\ldots$ $\\left(1-\\frac{1}{\\frac{n(n+1)}{2}}\\right)^{2}, n \\geq 2$ Then, the value of $\\lim _{n \\rightarrow \\infty} x_{n}$ is"
+  },
+  "options": [
+    {
+      "text": "$1 / 3$",
+      "is_correct": false
+    },
+    {
+      "text": "$1 / 9$",
+      "is_correct": true
+    },
+    {
+      "text": "$1 / 81$",
+      "is_correct": false
+    },
+    {
+      "text": "0",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "We have, $x_{n}=\\left[\\left(1-\\frac{1}{3}\\right)\\left(1-\\frac{1}{6}\\right)\\right.$ $$\r\n\\left.\\left(1-\\frac{1}{10}\\right) \\ldots\\left(1-\\frac{2}{n(n+1)}\\right)\\right]^{2}\r\n$$\r\n$\\begin{aligned} \\Rightarrow x_{n} &=\\left[\\prod_{n=2}^{n}\\left(\\frac{n^{2}+n-2}{n(n+1)}\\right)\\right]^{2} \\\\ &=\\left[\\prod_{n=2}^{n}\\left(\\frac{(n+2)(n-1)}{n(n+1)}\\right)\\right]^{2} \\\\ &=\\left[\\prod_{n=2}^{n}\\left(\\frac{n+2}{n+1}\\right) \\cdot \\prod_{n=2}^{n}\\left(\\frac{n-1}{n}\\right)\\right]^{2} \\\\ \\Rightarrow &\\left[\\prod_{n=2}^{n}\\left(\\frac{n+2}{n+1}\\right)\\right]^{2}\\left[\\prod_{n=2}^{n}\\left(\\frac{n-1}{n}\\right)\\right]^{2} \\\\ \\Rightarrow \\quad x_{n}=&\\left(\\frac{4}{3} \\cdot \\frac{5}{4} \\cdot \\frac{6}{5} \\ldots \\frac{n+2}{n+1}\\right)^{2}\\left(\\frac{1}{2} \\cdot \\frac{2}{3} \\cdot \\frac{3}{4} \\ldots \\frac{n-1}{n}\\right)^{2} \\\\ \\Rightarrow \\quad & x_{n}=\\left(\\frac{n+2}{3}\\right)^{2}\\left(\\frac{1}{n}\\right)^{2} \\Rightarrow x_{n}=\\frac{1}{9}\\left(\\frac{n+2}{n}\\right)^{2} \\\\=& \\quad \\lim _{n \\rightarrow \\infty} x_{n}=\\frac{1}{9}(1+0)^{2}=\\frac{1}{9} \\end{aligned}$"
+  }
+}

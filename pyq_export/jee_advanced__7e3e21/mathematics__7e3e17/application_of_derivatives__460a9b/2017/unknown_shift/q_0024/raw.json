@@ -1,0 +1,83 @@
+{
+  "_id": "64b16a5cf23ac7d519f9b3ba",
+  "previousYearPapers": [
+    {
+      "_id": "615d92eede3d91842a5cf82a",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2017-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2017 (Paper 1)",
+      "title": "JEE Advanced 2017 (Paper 1)"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>:</mo><mi mathvariant=\"normal\">R</mi><mo>&#8594;</mo><mfenced separators=\"|\"><mrow><mn>0</mn><mo>,</mo><mn>1</mn></mrow></mfenced></math>&nbsp;, be a continuous function then, which of the following function(s), has(have) the values zero at some point in the interval, (0,1)?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Zdhk4",
+      "text": "<math><mi>x</mi><mo>-</mo><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>0</mn></mrow><mrow><mfrac><mrow><mi>π</mi></mrow><mrow><mn>2</mn></mrow></mfrac><mo>-</mo><mi>x</mi></mrow></munderover><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>t</mi></mrow></mfenced></mrow></mrow><mrow><mrow><mi mathvariant=\"normal\">cos</mi></mrow><mo>⁡</mo><mrow><mi>t</mi></mrow></mrow><mi>d</mi><mi>t</mi></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "j9Jr7",
+      "text": "<math><msup><mrow><mi>x</mi></mrow><mrow><mn>9</mn></mrow></msup><mo>-</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "gYM5F",
+      "text": "<math><msup><mrow><mi>e</mi></mrow><mrow><mi>x</mi></mrow></msup><mo>-</mo><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>0</mn></mrow><mrow><mi>x</mi></mrow></munderover><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>t</mi></mrow></mfenced></mrow></mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>⁡</mo><mrow><mi>t</mi></mrow></mrow><mi>d</mi><mi>t</mi></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "AHvBC",
+      "text": "<math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>+</mo><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>0</mn></mrow><mrow><mfrac><mrow><mi>π</mi></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></munderover><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>t</mi></mrow></mfenced></mrow></mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>⁡</mo><mrow><mi>t</mi></mrow></mrow><mi>d</mi><mi>t</mi></math>",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>For option (i),</p><p>Let&nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mi>x</mi><mo>-</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mrow><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>2</mn></mfrac><mo>-</mo><mi>x</mi></mrow></msubsup><mi>f</mi><mfenced separators=\"|\"><mi>t</mi></mfenced><mo>&#183;</mo><mi>cos</mi><mi>t</mi><mi>&#160;</mi><mi>d</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>M</mi><mfenced separators=\"|\"><mn>0</mn></mfenced><mo>=</mo><mn>0</mn><mo>-</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>2</mn></mfrac></msubsup><mi>f</mi><mfenced separators=\"|\"><mi>t</mi></mfenced><mo>.</mo><mi>cos</mi><mi>t</mi><mi>&#160;</mi><mi>d</mi><mi>t</mi><mo>&#60;</mo><mn>0</mn></math></p><p>Also,&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mfenced separators=\"|\"><mn>1</mn></mfenced><mo>=</mo><mn>1</mn><mo>-</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mrow><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>2</mn></mfrac><mo>-</mo><mn>1</mn></mrow></msubsup><mi>f</mi><mfenced separators=\"|\"><mi>t</mi></mfenced><mo>.</mo><mi>cost&#160;</mi><mi>d</mi><mi>t</mi><mo>&#62;</mo><mn>0</mn></math></p><p><math><mo>&#8658;</mo><mi>&#160;</mi><mi>&#160;</mi><mi>&#160;</mi><mi>M</mi><mfenced separators=\"|\"><mrow><mn>0</mn></mrow></mfenced><mo>.</mo><mi>&#160;</mi><mi>M</mi><mfenced separators=\"|\"><mrow><mn>1</mn></mrow></mfenced><mo>&#60;</mo><mn>0</mn></math> &nbsp; &nbsp; (so <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mo>(</mo><mi>x</mi><mo>)</mo></math> can be zero)</p><p>For option (ii),</p><p>Let,&nbsp;&nbsp; <math><mi>k</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>9</mn></mrow></msup><mo>-</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math></p><p>Now,&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mfenced separators=\"|\"><mn>0</mn></mfenced><mo>=</mo><mo>-</mo><mi>f</mi><mfenced separators=\"|\"><mn>0</mn></mfenced><mo>&#60;</mo><mn>0</mn></math>, as&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#160;</mi><mi>f</mi><mo>&#8712;</mo><mfenced separators=\"|\"><mrow><mn>0</mn><mo>,</mo><mi>&#160;</mi><mn>1</mn></mrow></mfenced></math></p><p>Also,&nbsp;&nbsp;<math><mi>k</mi><mfenced separators=\"|\"><mrow><mn>1</mn></mrow></mfenced><mo>=</mo><mn>1</mn><mo>-</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mn>1</mn></mrow></mfenced><mo>&#62;</mo><mn>0</mn><mi>&#160;</mi><mi>&#160;</mi><mi>&#160;</mi><mfenced separators=\"|\"><mrow><mi>A</mi><mi>s</mi><mi>&#160;</mi><mi>f</mi><mo>&#8712;</mo><mfenced separators=\"|\"><mrow><mn>0,1</mn></mrow></mfenced></mrow></mfenced></math></p><p><math><mo>&#8658;&#160;</mo><mi>&#160;</mi><mi>&#160;</mi><mi>&#160;</mi><mi>&#160;</mi><mi>k</mi><mfenced separators=\"|\"><mrow><mn>0</mn></mrow></mfenced><mo>.</mo><mi>&#160;</mi><mi>k</mi><mfenced separators=\"|\"><mrow><mn>1</mn></mrow></mfenced><mo>&#60;</mo><mn>0</mn></math> &nbsp; &nbsp; (so <math> <mrow> <mi>k</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo> </mrow> </math> can be zero)</p><p>For option (iii),</p><p>Let&nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mi>x</mi></msubsup><mi>f</mi><mfenced separators=\"|\"><mi>t</mi></mfenced><mi>si</mi><mi mathvariant=\"normal\">n</mi><mi>t</mi><mi>d</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mi>&#160;</mi><mi>g</mi><mo>&#39;</mo><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><mfenced separators=\"|\"><mrow><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>&#183;</mo><mi>sin</mi><mi>x</mi></mrow></mfenced><mo>&#62;</mo><mn>0</mn><mo>&#160;</mo><mo>&#8704;</mo><mo>&#160;</mo><mi>x</mi><mo>&#8712;</mo><mfenced separators=\"|\"><mrow><mn>0</mn><mo>,</mo><mi>&#160;</mi><mn>1</mn></mrow></mfenced></math> &nbsp; &nbsp;(as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#183;</mo><mtext>sin&#160;x</mtext></math>&nbsp;, is less than 1)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>g</mi><mfenced separators=\"|\"><mi>x</mi></mfenced></math> is strictly increasing function.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#160;</mi><mi>g</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>&#62;</mo><mn>1</mn><mi>&#160;</mi><mo>&#8704;</mo><mi>x</mi><mo>&#8712;</mo><mfenced separators=\"|\"><mrow><mn>0</mn><mo>,</mo><mi>&#160;</mi><mn>1</mn></mrow></mfenced></math></p><p>Also,&nbsp; <math><mi>g</mi><mfenced separators=\"|\"><mrow><mn>0</mn></mrow></mfenced><mo>=</mo><mn>1</mn></math>, (so <math> <mrow> <mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo> </mrow> </math> is, never zero)</p><p>For option (iv),</p><p>Let, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>+</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>2</mn></mfrac></msubsup><mi>f</mi><mfenced separators=\"|\"><mi>t</mi></mfenced><mo>.</mo><mi>sin</mi><mi>t</mi><mi>&#160;</mi><mi>d</mi><mi>t</mi></math></p><p><math><mo>&#8658;</mo><mi>&#160;</mi><mi>&#160;</mi><mi>&#160;</mi><mi>T</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>&#62;</mo><mn>0</mn><mi>&#160;</mi><mo>&#8704;</mo><mi>x</mi><mo>&#8712;</mo><mfenced separators=\"|\"><mrow><mn>0</mn><mo>,</mo><mi>&#160;</mi><mn>1</mn></mrow></mfenced><mi>&#160;</mi><mi>&#160;</mi><mi>&#160;</mi><mfenced separators=\"|\"><mrow><mi>A</mi><mi>s</mi><mi>&#160;</mi><mi>f</mi><mo>&#8712;</mo><mfenced separators=\"|\"><mrow><mn>0</mn><mo>,</mo><mi>&#160;</mi><mn>1</mn></mrow></mfenced></mrow></mfenced></math> &nbsp; &nbsp; (so <math> <mrow> <mi>T</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo> </mrow> </math> can not be zero)</p><p>&nbsp;</p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "c0b7264aede44c988935e918a36f2dcf",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/2HCs7WBA7wued.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/2HCs7WBA7wued.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eede3d91842a5cf82a",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2017-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2017 (Paper 1)",
+    "title": "JEE Advanced 2017 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

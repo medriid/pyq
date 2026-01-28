@@ -1,0 +1,43 @@
+{
+  "index": 61,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2009",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0f42b7a9706676933c",
+    "chapter_name": "Functions",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The domain of definition of the function $f(x)=\\sqrt{1+\\log _{\\mathrm{e}}(1-x)}$ is"
+  },
+  "options": [
+    {
+      "text": "$-\\infty < x \\leq 0$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\infty < x \\leq \\frac{e-1}{e}$",
+      "is_correct": true
+    },
+    {
+      "text": "$-\\infty < x \\leq 1$",
+      "is_correct": false
+    },
+    {
+      "text": "$x \\geq 1-e$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Hints : $1-x>0 \\Rightarrow X < 1$\n$$\n\\begin{aligned}\n& 1+\\log _e(1-x) \\geq 0 \\\\\n& \\log _e(1-x) \\geq-1 \\Rightarrow 1-x \\geq e^{-1} \\\\\n& x \\leq 1-\\frac{1}{e} \\\\\n& x \\leq \\frac{e-1}{e}\n\\end{aligned}\n$$"
+  }
+}

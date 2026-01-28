@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0a7e939ac068d001ef",
+    "chapter_name": "Determinants",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let \\(A\\) and \\(B\\) are orthogonal matrices and \\(\\operatorname{det} A+\\operatorname{det} B=0\\). Then"
+  },
+  "options": [
+    {
+      "text": "\\(A+B\\) is singular",
+      "is_correct": true
+    },
+    {
+      "text": "\\(A+B\\) is non-singular",
+      "is_correct": false
+    },
+    {
+      "text": "\\(A+B\\) is orthogonal",
+      "is_correct": false
+    },
+    {
+      "text": "\\(A+B\\) is skew symmetric",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Hint: \\(A A^{\\top}=I\\) and \\(B B^{\\top}=I\\)\n\\(\\Rightarrow \\operatorname{det}\\left(A A^{\\top}\\right)=1\\) and \\(\\operatorname{det}\\left(B B^{\\top}\\right)=1\\)\n\\(\\operatorname{det}(A)=-\\operatorname{det}(B)\\) (Given) \\( \\Rightarrow(\\operatorname{det}(A))^2=1 \\Rightarrow(\\operatorname{det}(B))^2=1\\)\n\\(\\therefore \\operatorname{det}(A+B)=\\operatorname{det}\\left(A\\left(B^{\\top}+A^{\\top}\\right) B\\right)\\)\n\\(=-\\operatorname{det}\\left(B^{\\top}+A^{\\top}\\right) \\quad[\\because(\\operatorname{det}(A))(\\operatorname{det}(B))=-1]\\) as \\(\\operatorname{det}(A)=-\\operatorname{det}(B)\\)\n\\(=-\\operatorname{det}(B+A)^{\\top}\\)\n\\(=-\\operatorname{det}(A+B)^{\\top}\\)\n\\(=-\\operatorname{det}(A+B)\\)\n\\(\\Rightarrow 2 \\operatorname{det}(A+B)=0\\)\n\\(\\Rightarrow \\operatorname{det}(A+B)=0\\)\n\\(\\therefore(A+B)\\) is singular"
+  }
+}

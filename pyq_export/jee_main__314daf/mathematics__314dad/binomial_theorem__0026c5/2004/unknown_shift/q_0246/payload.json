@@ -1,0 +1,43 @@
+{
+  "index": 246,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2004",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2004",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The coefficient of $x^n$ in expansion of $(1+x)(1-x)^n$ is"
+  },
+  "options": [
+    {
+      "text": "\n$(n-1)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(-1)^n(1-n)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$(-1)^{n-1}(n-1)^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(-1)^{n-1} n$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Coefficient of $x^n$ in $(1+x)(1-x)^n=(1+x)\\left({ }^n C_0-{ }^n C_1 x+\\ldots \\ldots .+(-1)^{n-1}{ }^n C_{n-1} x^{n-1}+(-1)^n\\right.$\n$\\left.{ }^n C_n x^n\\right)$\n$=(-1)^n{ }^n C_n+(-1)^{n-1}{ }^n C_{n-1}=(-1)^n(1-n)$"
+  }
+}

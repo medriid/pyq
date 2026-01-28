@@ -1,0 +1,83 @@
+{
+  "_id": "648b5a68417cc3fb48d66b13",
+  "previousYearPapers": [
+    {
+      "_id": "615d92ecde3d91842a5cf803",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2020-09-04T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2020 (04 Sep Shift 2)",
+      "title": "JEE Main 2020 (04 Sep Shift 2)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "In a game two players <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> take turns in throwing a pair of fair dice starting with player <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> and total of scores on the two dice, in each throw is noted. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> wins the game if he throws a total of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> before <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> throws a total of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> wins the game if he throws a total of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math> before <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> throws a total of six. The game stops as soon as either of the players wins. The probability of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> winning the game is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "FMTh5",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>31</mn></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "1m3qn",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>31</mn><mn>61</mn></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "6QzFP",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "gqao3",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>30</mn><mn>61</mn></mfrac></math>",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>Sum <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>&#8594;</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>3</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>)</mo></math><br />Sum <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>&#8594;</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>6</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>6</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>2</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>3</mn><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>(</mo><mi>A</mi><mo>&#160;</mo><mtext>wins</mtext><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>+</mo><mi>P</mi><mo>(</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>)</mo><mo>&#183;</mo><mi>P</mi><mo>(</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>)</mo><mo>&#183;</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>+</mo><mi>P</mi><mo>(</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>)</mo><mi>P</mi><mo>(</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>)</mo><mo>&#183;</mo><mi>P</mi><mo>(</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>)</mo><mo>&#183;</mo><mi>P</mi><mo>(</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>)</mo><mo>&#183;</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>+</mo><mo>&#8230;</mo><mo>&#8230;</mo></math></p><p>We see that this is an infinite G.P. with common ratio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>(</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>)</mo><mo>&#215;</mo><mi>P</mi><mo>(</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>)</mo></math></p><p>Thus, probability that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi></math> wins <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi mathvariant=\"normal\">A</mi><mo>)</mo></mrow><mrow><mn>1</mn><mo>-</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mover><mi mathvariant=\"normal\">A</mi><mo>&#175;</mo></mover><mo>)</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mover><mi mathvariant=\"normal\">B</mi><mo>&#175;</mo></mover><mo>)</mo></mrow></mfrac></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mfrac><mn>5</mn><mn>36</mn></mfrac><mrow><mn>1</mn><mo>-</mo><mfrac><mn>31</mn><mn>36</mn></mfrac><mo>&#183;</mo><mfrac><mn>30</mn><mn>36</mn></mfrac></mrow></mfrac><mo>=</mo><mfrac><mn>30</mn><mn>61</mn></mfrac></math></p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "35d31539a3b24ee0af3a6d3febc9efcd",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/Wpvpym73IMpO5.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/Wpvpym73IMpO5.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ecde3d91842a5cf803",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2020-09-04T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2020 (04 Sep Shift 2)",
+    "title": "JEE Main 2020 (04 Sep Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

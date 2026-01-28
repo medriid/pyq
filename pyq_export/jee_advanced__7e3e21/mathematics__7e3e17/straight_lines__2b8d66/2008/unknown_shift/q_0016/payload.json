@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2008 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602538583ba4ad9c2b8d66",
+    "chapter_name": "Straight Lines",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider $L_1: 2 x+3 y+p-3=0 ; L_2: 2 x+3 y+p+3=0$ where $p$ is a real number and $C: x^2+y^2+6 x-10 y+30=0$.\nStatement 1 If line $L_1$ is a chord of circle $C$, then line $L_2$ is not always a diameter of circle $C$.\nStatement 2 If line $L_1$ is a diameter of circle $C$, then line $L_2$ is not a chord of circle $C$."
+  },
+  "options": [
+    {
+      "text": "\nStatement 1 is true, Statement 2 is true, Statement 2 is a correct explanation for Statement 1.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement 1 is true, Statement 2 is true, Statement 2 is not a correct explanation for Statement 1.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement 1 is true, Statement 2 is false.\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nStatement 1 is false, Statement 2 is true",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Equation of circle $C$ is\n$$\n\\begin{aligned}\n(x+3)^2+(y-5)^2 & =9+25-30=4 \\\\\n\\Rightarrow \\quad \\quad(x+3)^2+(y-5)^2 & =2^2 \\\\\n\\text { Centre } & =(3,-5)\n\\end{aligned}\n$$\n\nIf $L_1$ is diameter, then $2(3)+3(-5)+p-3=0 \\Rightarrow p=12$\n$\\therefore \\quad L_1$ is $2 x+3 y+9=0$\nand\n$L_2$ is $2 x+3 y+15=0$\nDistance of centre of circle from $L_2=\\left|\\frac{2(3)+3(-5)+15}{\\sqrt{2^2+3^2}}\\right|=\\frac{6}{\\sqrt{13}} < 2 \\quad$ [radius of circle]\n$\\therefore L_2$ is a chord of circle $C$.\nStatement 2 is false."
+  }
+}

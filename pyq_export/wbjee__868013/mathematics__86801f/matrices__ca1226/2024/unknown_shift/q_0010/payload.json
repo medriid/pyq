@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0788c63c34f9ca1226",
+    "chapter_name": "Matrices",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $A=\\left(\\begin{array}{cc}\\cos \\theta & -\\sin \\theta \\\\ \\sin \\theta & \\cos \\theta\\end{array}\\right)$ and $\\theta=\\frac{2 \\pi}{7}$, then $A^{100}=A \\times A \\times \\ldots .(100$ times $)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\left(\\begin{array}{cc}\\cos 2 \\theta & -\\sin 2 \\theta \\\\ \\sin 2 \\theta & \\cos 2 \\theta\\end{array}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\left(\\begin{array}{cc}\\cos \\theta & -\\sin \\theta \\\\ \\sin \\theta & \\cos \\theta\\end{array}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\begin{array}{ll}1 & 0 \\\\ 0 & 1\\end{array}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\begin{array}{cc}0 & -1 \\\\ 1 & 0\\end{array}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Hint : $\\because A^{100}=\\left[\\begin{array}{cc}\\cos 100 \\theta & -\\cos 100 \\theta \\\\ \\sin 100 \\theta & \\cos 100 \\theta\\end{array}\\right]$\nAs $\\theta=\\frac{2 \\pi}{7}$\n$A^{100}=\\left[\\begin{array}{cc}\n\\cos \\frac{200 \\pi}{7} & -\\sin \\frac{200 \\pi}{7} \\\\\n\\sin \\frac{200 \\pi}{7} & \\cos \\frac{200 \\pi}{7}\n\\end{array}\\right]=A^2$"
+  }
+}

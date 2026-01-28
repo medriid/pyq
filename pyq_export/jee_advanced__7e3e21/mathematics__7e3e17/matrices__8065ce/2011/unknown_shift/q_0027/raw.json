@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a10f23ac7d519f9b102",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c48",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2011-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011 (Paper 1)",
+      "title": "JEE Advanced 2011 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nLet $a$, b and $c$ be three real numbers satisfying $\\left[\\begin{array}{lll}a & b & c\\end{array}\\right]\\left[\\begin{array}{lll}1 & 9 & 7 \\\\ 8 & 2 & 7 \\\\ 7 & 3 & 7\\end{array}\\right]=\\left[\\begin{array}{lll}0 & 0 & 0\\end{array}\\right]$<strong>Question:</strong>\nLet $b=6$, with $a$ and $c$ satisfying Eq. (E). If $\\alpha$ and $\\beta$ are the roots of the quadratic equation $a x^2+b x+c=0$, then $\\sum_{n=0}^{\\infty}\\left(\\frac{1}{\\alpha}+\\frac{1}{\\beta}\\right)^n$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "6LVEW",
+      "text": "\n6\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "w7F0H",
+      "text": "\n7\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "BoCsC",
+      "text": "\n$\\frac{6}{7}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ZXRk8",
+      "text": "\n$\\infty$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\text { Given, }[a b c]_{1 \\times 3}\\left[\\begin{array}{lll}\n1 & 9 & 7 \\\\\n8 & 2 & 7 \\\\\n7 & 3 & 7\n\\end{array}\\right]_{3 \\times 3}=\\left[\\begin{array}{lll}\n0 & 0 & 0\n\\end{array}\\right] \\\\\n& \\Rightarrow \\quad\\left[\\begin{array}{c}\na+8 b+7 c \\\\\n9 a+2 b+3 c \\\\\n7 a+7 b+7 c\n\\end{array}\\right]=\\left[\\begin{array}{l}\n0 \\\\\n0 \\\\\n0\n\\end{array}\\right] \\\\\n& \\Rightarrow \\quad a+8 b+7 c=0 \\\\\n& \\Rightarrow 9 a+2 b+3 c=0 \\\\\n& \\Rightarrow \\quad a+b+c=0 \\\\\n&\n\\end{aligned}\n$$\nOn multiplying Eq. (iii) by 2 , then subtract from Eq. (ii), we get\n$$\n7 a+c=0\n$$\nAgain multiplying Eq. (iii) by 3 , then subtract from Eq. (ii), we get\n$$\n\\begin{array}{ll} \n& 6 a-b=0 \\\\\n\\therefore \\quad & b=6 a \\text { and } c=-7 a\n\\end{array}\n$$\nIf $b=6, a=1$ and $c=-7$\n$$\n\\begin{array}{ll}\n\\therefore & a x^2+b x+c=0 \\\\\n\\Rightarrow & x^2+6 x-7=0 \\\\\n\\Rightarrow & (x+7)(x-1)=0 \\\\\n\\therefore & x=1,-7 \\\\\n\\Rightarrow & \\quad \\sum_{n=0}^{\\infty}\\left(\\frac{1}{1}-\\frac{1}{7}\\right)^n \\Rightarrow \\sum_{n=0}^{\\infty}\\left(\\frac{6}{7}\\right)^n \\\\\n\\Rightarrow & 1+\\frac{6}{7}+\\left(\\frac{6}{7}\\right)^n+\\ldots \\infty \\\\\n& =\\frac{1}{1-\\frac{6}{7}}=\\frac{1}{1 / 7}=7\n\\end{array}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c48",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2011-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011 (Paper 1)",
+    "title": "JEE Advanced 2011 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

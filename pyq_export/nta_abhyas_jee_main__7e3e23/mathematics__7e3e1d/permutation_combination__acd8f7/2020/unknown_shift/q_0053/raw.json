@@ -1,0 +1,61 @@
+{
+  "_id": "6151e86370e79708f40149c7",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "33",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "The number of eight-digit integers, with the sum of digits equal to <math><mn>12</mn></math> and formed by using the digits <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mo>&nbsp;</mo><mn>2</mn></math> and <math><mn>3</mn></math> only are",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Py9Zh",
+      "text": "<math><mn>255</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "FdYtf",
+      "text": "<math><mn>277</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "fyI5U",
+      "text": "<math><mn>288</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "NhimN",
+      "text": "<math><mn>266</mn></math>",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "The desired number is the coefficient of <math><msup><mrow><mi>x</mi></mrow><mrow><mn>12</mn></mrow></msup></math> in <math><msup><mrow><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfenced></mrow><mrow><mn>8</mn></mrow></msup></math><br />= coefficient of <math><msup><mrow><mi>x</mi></mrow><mrow><mn>12</mn></mrow></msup></math> in <math><msup><mrow><mi>x</mi></mrow><mrow><mn>8</mn></mrow></msup><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>x</mi><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfenced></mrow><mrow><mn>8</mn></mrow></msup></math><br />= coefficient of <math><msup><mrow><mi>x</mi></mrow><mrow><mn>4</mn></mrow></msup></math> in <math><msup><mrow><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfrac></mrow></mfenced></mrow><mrow><mn>8</mn></mrow></msup></math><br />= coefficient of <math><msup><mrow><mi>x</mi></mrow><mrow><mn>4</mn></mrow></msup></math> in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>3</mn></msup></mrow></mfenced><mn>8</mn></msup><msup><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mrow><mo>-</mo><mn>8</mn></mrow></msup></math><br />= coefficient of <math><msup><mrow><mi>x</mi></mrow><mrow><mn>4</mn></mrow></msup></math> in <math><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mn>8</mn><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo></mrow></mfenced><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced></mrow><mrow><mo>-</mo><mn>8</mn></mrow></msup></math><br />= coefficient of <math><msup><mrow><mi>x</mi></mrow><mrow><mn>4</mn></mrow></msup></math> in <math><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced></mrow><mrow><mo>-</mo><mn>8</mn></mrow></msup><mo>-</mo><mn>8</mn><mo>&#215;</mo></math> coefficient of <math><mi>x</mi></math> in <math><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced></mrow><mrow><mo>-</mo><mn>8</mn></mrow></msup></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mo>=</mo><mrow><mn>4</mn><mo>+</mo><mn>8</mn><mo>-</mo><mn>1</mn></mrow></msup><msub><mi>C</mi><mrow><mn>8</mn><mo>-</mo><mn>1</mn></mrow></msub><mo>-</mo><mn>8</mn><msup><mo>&#215;</mo><mrow><mn>1</mn><mo>+</mo><mn>8</mn><mo>-</mo><mn>1</mn></mrow></msup><msub><mi>C</mi><mrow><mn>8</mn><mo>-</mo><mn>1</mn></mrow></msub></math><br /><math><mo>=</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>11</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>7</mn></mrow></msub><mo>-</mo><mn>8</mn><mo>&#215;</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>8</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>7</mn></mrow></msub><mo>=</mo><mfrac><mrow><mn>11</mn><mo>&#215;</mo><mn>10</mn><mo>&#215;</mo><menclose notation=\"updiagonalstrike\"><mn>9</mn></menclose><mn>3</mn><mo>&#215;</mo><menclose notation=\"updiagonalstrike\"><mn>8</mn></menclose></mrow><mrow><menclose notation=\"updiagonalstrike\"><mn>4</mn></menclose><mo>&#215;</mo><menclose notation=\"updiagonalstrike\"><mn>3</mn></menclose><mo>&#215;</mo><menclose notation=\"updiagonalstrike\"><mn>2</mn></menclose></mrow></mfrac><mo>-</mo><mn>8</mn><mo>&#215;</mo><mn>8</mn></math><br /><math><mo>=</mo><mn>330</mn><mo>-</mo><mn>64</mn><mo>=</mo><mn>26</mn><mn>6</mn></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

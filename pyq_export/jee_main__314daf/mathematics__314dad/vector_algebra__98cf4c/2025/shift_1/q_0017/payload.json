@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $\\vec{a}=\\hat{i}+2 \\hat{j}+3 \\hat{k}, \\vec{b}=3 \\hat{i}+\\hat{j}-\\hat{k}$ and $\\vec{c}$ be three vectors such that $\\vec{c}$ is coplanar with $\\vec{a}$ and $\\vec{b}$. If the vector $\\vec{C}$ is perpendicular to $\\vec{b}$ and $\\vec{a} \\cdot \\vec{c}=5$, then $|\\vec{c}|$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\sqrt{\\frac{11}{6}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{3 \\sqrt{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$16$",
+      "is_correct": false
+    },
+    {
+      "text": "$18$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\overrightarrow{\\mathrm{c}}=\\lambda(\\overrightarrow{\\mathrm{b}} \\times(\\overrightarrow{\\mathrm{a}} \\times \\overrightarrow{\\mathrm{b}})) \\\\ & =\\lambda((\\overrightarrow{\\mathrm{b}} \\cdot \\overrightarrow{\\mathrm{b}}) \\overrightarrow{\\mathrm{a}}-(\\overrightarrow{\\mathrm{a}} \\cdot \\overrightarrow{\\mathrm{b}}) \\overrightarrow{\\mathrm{b}}) \\\\ & =\\lambda(11 \\overrightarrow{\\mathrm{a}}-2 \\overrightarrow{\\mathrm{~b}})=\\lambda(11 \\mathrm{i}+22 \\mathrm{j}+33 \\mathrm{k}-6 \\mathrm{i}-2 \\mathrm{j}+2 \\mathrm{k}) \\\\ & =\\lambda(5 \\mathrm{i}+20 \\mathrm{j}+35 \\mathrm{k}) \\\\ & =5 \\lambda(5 \\mathrm{i}+4 \\mathrm{j}+7 \\mathrm{k}) \\\\ & =\\text { Given } \\overrightarrow{\\mathrm{c}} \\cdot \\overrightarrow{\\mathrm{a}}=5 \\\\ & =5 \\lambda(1+8+21)=5 \\quad=\\lambda=\\frac{1}{30} \\\\ & \\Rightarrow \\overrightarrow{\\mathrm{c}}=\\frac{1}{6}(\\mathrm{i}+4 \\mathrm{j}+7 \\mathrm{k}) \\\\ & \\overrightarrow{\\mathrm{c}}=\\frac{\\sqrt{1+16+49}}{6}=\\sqrt{\\frac{11}{6}}\\end{aligned}$"
+  }
+}

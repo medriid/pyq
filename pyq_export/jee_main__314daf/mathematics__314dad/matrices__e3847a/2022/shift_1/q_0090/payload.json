@@ -1,0 +1,43 @@
+{
+  "index": 90,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2022 (29 Jun Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2022",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The probability that a randomly chosen <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>&#215;</mo><mn>2</mn></math>&nbsp;matrix with all the entries from the set of first&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math> primes, is singular, is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>133</mn><msup><mn>10</mn><mn>4</mn></msup></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>19</mn><msup><mn>10</mn><mn>3</mn></msup></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>18</mn><msup><mn>10</mn><mn>3</mn></msup></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>271</mn><msup><mn>10</mn><mn>4</mn></msup></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $\\mathrm{A}=\\left[\\begin{array}{ll}\\mathrm{a} & \\mathrm{b} \\\\ \\mathrm{c} & \\mathrm{d}\\end{array}\\right]$ where $\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{d}$ are prime.<br>Total number of matrices A formed $=10^4$<br>Let $\\mathrm{S}$ be a matrix from set of matrices $\\mathrm{A}$ such that $\\mathrm{S}$ is singular.<br>For singular matrix $|\\mathrm{S}|=\\mathrm{ad}-\\mathrm{bc}=0 \\Rightarrow \\mathrm{ad}=\\mathrm{bc}$<br>Number of singular matrices $=$ All entries are same $+$ only two prime number are used in matrix<br>then number of matrices with two prime numbers $=(10 \\times 9) \\times 2 !=180$<br>then number of matrices with one prime number $=10 \\times 1=10$<br>So required probability $=\\frac{10 \\times 9 \\times 2 !+10}{10^4}=\\frac{19}{1000}=0.019$"
+  }
+}

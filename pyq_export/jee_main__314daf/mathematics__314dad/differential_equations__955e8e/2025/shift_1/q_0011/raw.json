@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eeccc8b73881fdaea2f9",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d97610",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-29T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (29 Jan Shift 1)",
+      "title": "JEE Main 2025 (29 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let \\(y=y(x)\\) be the solution of the differential equation \\(\\cos x\\left(\\log _{\\mathrm{e}}(\\cos x)\\right)^2 \\mathrm{dy}+\\left(\\sin x-3 y \\sin x \\log _{\\mathrm{e}}(\\cos x)\\right) \\mathrm{d} x=0, x \\in\\left(0, \\frac{\\pi}{2}\\right)\\). If \\(y\\left(\\frac{\\pi}{4}\\right)=\\frac{-1}{\\log _{\\mathrm{e}} 2}\\), then \\(y\\left(\\frac{\\pi}{6}\\right)\\) is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "XDXyI",
+      "text": "\\(\\frac{1}{\\log _e(3)-\\log _e(4)}\\)",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "RucTn",
+      "text": "\\(\\frac{2}{\\log _e(3)-\\log _e(4)}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "bUyBv",
+      "text": "\\(\\frac{1}{\\log _e(4)-\\log _e(3)}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "zpsxG",
+      "text": "\\(-\\frac{1}{\\log _e(4)}\\)",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\frac{d y}{d x}-\\frac{3 \\sin x}{\\cos x \\ln \\cos x} y=-\\frac{\\sin x}{\\cos x(\\ln \\cos x)^2} \\\\ & \\text { I.F. }=e^{-\\int \\frac{3 \\tan x}{\\ln \\cos x} d x} \\\\ & \\text { Let } \\ln \\cos x=t \\\\ & -\\tan x d x=d t \\\\ & e^{3 \\int^{\\frac{d t}{t}}}=e^{3 \\ln t}=t^3=(\\ln \\cos x)^3 \\\\ & \\therefore \\quad \\text { Solution will be } \\\\ & \\quad y(\\ln \\cos x)^3=-\\int(\\tan x)(\\ln \\cos x) d x \\\\ & y(\\ln \\cos x)^3=\\frac{(\\ln \\cos x)^2}{2}+c \\\\ & \\because \\quad y\\left(\\frac{\\pi}{4}\\right)=-\\frac{1}{\\ln 2} \\\\ & \\Rightarrow \\quad c=0 \\\\ & \\therefore \\quad y=\\frac{1}{2(\\ln \\cos x)} \\\\ & y\\left(\\frac{\\pi}{6}\\right)=\\frac{1}{2} \\times \\frac{1}{\\ln \\left(\\cos \\frac{\\pi}{6}\\right)} \\\\ & =\\frac{1}{2}\\left[\\frac{1}{\\ln \\left(\\frac{\\sqrt{3}}{2}\\right)}\\right] \\\\ & =\\frac{1}{2} \\times \\frac{1}{\\ln \\sqrt{3}-\\ln 2} \\\\ & =\\frac{1}{\\ln 3-\\ln 4}\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "28e2c381786b4454a0e9bdf286ac4701",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/BwpwSc5D9o2G8.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/BwpwSc5D9o2G8.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d97610",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-29T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (29 Jan Shift 1)",
+    "title": "JEE Main 2025 (29 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

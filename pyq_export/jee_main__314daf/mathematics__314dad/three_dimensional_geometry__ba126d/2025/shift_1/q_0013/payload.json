@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256d4f8c6827c3ba126d",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let a line passing through the point $(4,1,0)$ intersect the line $L_1 ; \\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}$ at the point $\\mathrm{A} \\quad(\\alpha, \\beta, \\gamma)$ and the line $L_2: x-6=y=-z+4$ at the point $B(a, b, c)$.<br/>Then $\\left|\\begin{array}{lll}1 & 0 & 1 \\\\ \\alpha & \\beta & \\gamma \\\\ \\mathrm{a} & \\mathrm{b} & \\mathrm{c}\\end{array}\\right|$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$8$",
+      "is_correct": true
+    },
+    {
+      "text": "$16$",
+      "is_correct": false
+    },
+    {
+      "text": "$12$",
+      "is_correct": false
+    },
+    {
+      "text": "$6$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0013_c2265a51a315.png\"/><br/>$\\begin{aligned} & L_1=\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}=p \\\\ & L_2=\\frac{x-6}{1}=\\frac{y}{1}=\\frac{z-4}{-1}=q \\\\ & A(2 p+1,3 p+2,4 p+3) \\\\ & B(q+6, q, 4-q) \\\\ & \\text { D.R. of } P A=2 p-3,3 P+1,4 p+3 \\\\ & \\text { D.R. of } P B=q+2, q-1,4-q \\\\ & \\frac{2 p-3}{q+2}=\\frac{3 p+1}{q-1}=\\frac{4 p+3}{4-q}\\end{aligned}$<br/>$\\begin{aligned}<br/>& 2 p q-2 p-3 q+3=3 p q+6 p+q+2 \\\\\n& \\mathrm{pq}+\\mathrm{rp}+4 \\mathrm{q}-1=0 \\\\\n& 12 p-3 p q+4-q=4 p q+3 q-4 p-3 \\\\\n& 7 p q-16 p+4 q-7=0 \\\\\n& 8 p-2 p q-12+3 q=4 p q+8 p+3 q+6 \\\\\n& 6 \\mathrm{pq}=-18 \\quad \\therefore \\mathrm{pq}=-3 \\\\\n& 8 p+4 q=4 \\quad \\Rightarrow 2 p+q=1 \\\\\n& -21-16 p+4 q-7 \\quad \\Rightarrow 4 p-q=-7 \\\\\n& 16 \\mathrm{p}-4 \\mathrm{q}=-28 \\quad \\therefore \\mathrm{p}=-1, \\mathrm{q}=3 \\\\\n& \\mathrm{~A}(-1,-1,-1) \\quad \\mathrm{B}(9,3,1)<br/>\\end{aligned}$<br/>$\\left|\\begin{array}{ccc}1 & 0 & 1 \\\\ -1 & -1 & -1 \\\\ 9 & 3 & 1\\end{array}\\right|=\\left|\\begin{array}{ccc}0 & -1 & 0 \\\\ -1 & -1 & -1 \\\\ 9 & 3 & 1\\end{array}\\right|=1(-1+9)=8$"
+  }
+}

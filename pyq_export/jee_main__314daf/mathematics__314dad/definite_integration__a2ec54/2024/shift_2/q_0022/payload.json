@@ -1,0 +1,43 @@
+{
+  "index": 22,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The value of the integral $\\int_{-1}^2 \\log _e\\left(x+\\sqrt{x^2+1}\\right) d x$ is"
+  },
+  "options": [
+    {
+      "text": "$\\sqrt{5}-\\sqrt{2}+\\log _e\\left(\\frac{7+4 \\sqrt{5}}{1+\\sqrt{2}}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{5}-\\sqrt{2}+\\log _e\\left(\\frac{9+4 \\sqrt{5}}{1+\\sqrt{2}}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{2}-\\sqrt{5}+\\log _e\\left(\\frac{7+4 \\sqrt{5}}{1+\\sqrt{2}}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{2}-\\sqrt{5}+\\log _e\\left(\\frac{9+4 \\sqrt{5}}{1+\\sqrt{2}}\\right)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & I=\\int_{-1}^2 \\log _e\\left(x+\\sqrt{x^2+1}\\right) d x \\\\ & =x \\log _e\\left(x+\\sqrt{x^2+1}\\right)-\\int_{-1}^2\\left(\\frac{1+\\frac{x}{\\sqrt{x^2+1}}}{x+\\sqrt{x^2+1}}\\right) d x \\\\ & =x \\log _e\\left(x+\\sqrt{x^2+1}\\right)-\\int_{-1}^2 \\frac{x}{\\sqrt{x^2+1}} d x\\end{aligned}$\n$\\begin{aligned} & =x \\log _e\\left(x+\\sqrt{x^2+1}\\right)-\\left.\\sqrt{x^2+1}\\right|_{-1} ^2 \\\\ & =\\left(2 \\log _e(2+\\sqrt{5})-\\sqrt{5}\\right) \\\\ & -\\left(-\\log _e(-1+\\sqrt{2})-\\sqrt{2}\\right) \\\\ & =\\log _e(2+\\sqrt{5})^2-\\sqrt{5}+\\log _e(\\sqrt{2}-1)+\\sqrt{2} \\\\ & =\\log _e(2+\\sqrt{5})^2-\\sqrt{5}+\\log _e(\\sqrt{2}-1)+\\sqrt{2}\\end{aligned}$\n$\\begin{aligned} & =\\sqrt{2}-\\sqrt{5}+\\log _e\\left(\\frac{(2+\\sqrt{5})^2}{\\sqrt{2+1}}\\right) \\\\ & =\\sqrt{2}-\\sqrt{5}+\\log _e\\left(\\frac{9+4 \\sqrt{5}}{\\sqrt{2+1}}\\right)\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 28,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2022 (26 Jun Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2022",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8747;</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><msqrt><mfrac><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfrac></msqrt><mi>d</mi><mi>x</mi><mo>=</mo><mi>g</mi><mfenced><mi>x</mi></mfenced><mo>+</mo><mi>c</mi><mo>,</mo><mi>g</mi><mfenced><mn>1</mn></mfenced><mo>=</mo><mn>0</mn></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced></math>&nbsp;is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mi>e</mi></msub><mfenced><mfrac><mrow><msqrt><mn>3</mn></msqrt><mo>-</mo><mn>1</mn></mrow><mrow><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn></mrow></mfrac></mfenced><mo>+</mo><mfrac><mi>&#960;</mi><mn>3</mn></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mi mathvariant=\"normal\">e</mi></msub><mfenced><mfrac><mrow><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn></mrow><mrow><msqrt><mn>3</mn></msqrt><mo>-</mo><mn>1</mn></mrow></mfrac></mfenced><mo>+</mo><mfrac><mi>&#960;</mi><mn>3</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mi mathvariant=\"normal\">e</mi></msub><mfenced><mfrac><mrow><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn></mrow><mrow><msqrt><mn>3</mn></msqrt><mo>-</mo><mn>1</mn></mrow></mfrac></mfenced><mo>-</mo><mfrac><mi>&#960;</mi><mn>3</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><msub><mi>log</mi><mi>e</mi></msub><mfenced><mfrac><mrow><msqrt><mn>3</mn></msqrt><mo>-</mo><mn>1</mn></mrow><mrow><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn></mrow></mfrac></mfenced><mo>-</mo><mfrac><mi>&#960;</mi><mn>6</mn></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8747;</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><msqrt><mfrac><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfrac></msqrt><mi>d</mi><mi>x</mi><mo>=</mo><mi>g</mi><mfenced><mi>x</mi></mfenced><mo>+</mo><mi>c</mi></math></p><p>Put <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>cos</mi><mn>2</mn><mi>&#952;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mi>x</mi><mo>=</mo><mo>-</mo><mn>2</mn><mi>sin</mi><mn>2</mn><mi>&#952;</mi><mo>&#183;</mo><mi>d</mi><mi>&#952;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&#8747;</mo><mfrac><mn>1</mn><mrow><mi>cos</mi><mn>2</mn><mi>&#952;</mi></mrow></mfrac><mi>tan</mi><mi>&#952;</mi><mfenced><mrow><mo>-</mo><mn>4</mn><mi>sin</mi><mi>&#952;</mi><mo>&#183;</mo><mi>cos</mi><mi>&#952;</mi></mrow></mfenced><mi>d</mi><mi>&#952;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&#8747;</mo><mfrac><mn>1</mn><mrow><mi>cos</mi><mn>2</mn><mi>&#952;</mi></mrow></mfrac><mfenced><mrow><mo>-</mo><mn>4</mn><msup><mi>sin</mi><mn>2</mn></msup><mi>&#952;</mi></mrow></mfenced><mi>d</mi><mi>&#952;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><mn>2</mn><mo>&#8747;</mo><mfrac><mrow><mn>1</mn><mo>-</mo><mi>cos</mi><mn>2</mn><mi>&#952;</mi></mrow><mrow><mi>cos</mi><mn>2</mn><mi>&#952;</mi></mrow></mfrac><mi>d</mi><mi>&#952;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><mfrac><mn>2</mn><mn>2</mn></mfrac><mi>ln</mi><mfenced close=\"|\" open=\"|\"><mrow><mi>sec</mi><mn>2</mn><mi>&#952;</mi><mo>-</mo><mi>tan</mi><mn>2</mn><mi>&#952;</mi></mrow></mfenced><mo>+</mo><mn>2</mn><mi>&#952;</mi><mo>+</mo><mi mathvariant=\"normal\">c</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>ln</mi><mfenced close=\"|\" open=\"|\"><mrow><mi>sec</mi><mn>2</mn><mi>&#952;</mi><mo>-</mo><mi>tan</mi><mn>2</mn><mi>&#952;</mi></mrow></mfenced><mo>+</mo><mn>2</mn><mi>&#952;</mi><mo>+</mo><mi>c</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>ln</mi><mfenced close=\"|\" open=\"|\"><mfrac><mrow><mn>1</mn><mo>-</mo><mi>sin</mi><mn>2</mn><mi>&#952;</mi></mrow><mrow><mi>cos</mi><mn>2</mn><mi>&#952;</mi></mrow></mfrac></mfenced><mo>+</mo><msup><mi>cos</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi><mo>+</mo><mi>c</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><munder><mrow><mo>=</mo><mi>ln</mi><mfenced close=\"|\" open=\"|\"><mfrac><mrow><mn>1</mn><mo>&#8722;</mo><msqrt><mn>1</mn><mo>&#8722;</mo><msup><mi>x</mi><mn>2</mn></msup></msqrt></mrow><mi>x</mi></mfrac></mfenced><mo>+</mo><msup><mi>cos</mi><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup><mi>x</mi><mo>+</mo><mi>c</mi></mrow><mo>&#9183;</mo></munder><mrow><mi>g</mi><mfenced><mi>x</mi></mfenced></mrow></munder></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>g</mi><mfenced><mn>1</mn></mfenced><mo>=</mo><mn>0</mn><mo>&#8658;</mo><mi>c</mi><mo>=</mo><mn>0</mn></math></p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mi>ln</mi><mfenced close=\"|\" open=\"|\"><mfrac><mrow><mn>1</mn><mo>-</mo><msqrt><mn>1</mn><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></msqrt></mrow><mi>x</mi></mfrac></mfenced><mo>+</mo><msup><mi>cos</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mo>=</mo><mi>ln</mi><mfenced close=\"|\" open=\"|\"><mrow><mn>2</mn><mo>-</mo><msqrt><mn>3</mn></msqrt></mrow></mfenced><mo>+</mo><mfrac><mi>&#960;</mi><mn>3</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mo>=</mo><mi>ln</mi><mfenced close=\"|\" open=\"|\"><mfrac><mrow><msqrt><mn>3</mn></msqrt><mo>-</mo><mn>1</mn></mrow><mrow><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn></mrow></mfrac></mfenced><mo>+</mo><mfrac><mi>&#960;</mi><mn>3</mn></mfrac></math></p>"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2021 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252d532b5c23dd8d7e92",
+    "chapter_name": "Sequences and Series",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong> Paragraph: </strong>\r\n\r\nLet $M=\\left\\{(x, y) \\in \\mathbb{R} \\times \\mathbb{R}: x^{2}+y^{2} \\leq r^{2}\\right\\}$,\r\n\r\nwhere $r>0 .$ Consider the geometric progression $a_{n}=\\frac{1}{2^{n-1}}, n=1,2,3, \\ldots .$ Let $S_{0}=0$ and, for $n \\geq 1$, let $S_{n}$ denote the sum of the first $n$ terms of this progression. For $n \\geq 1$, let $C_{n}$ denote the circle with center $\\left(S_{n-1}, 0\\right)$ and radius $a_{n}$, and $D_{n}$ denote the circle with center $\\left(S_{n-1}, S_{n-1}\\right)$ and radius $a_{n}$.\r\n\r\n<br> <strong> Question: </strong>\r\n\r\nConsider $M$ with $r=\\frac{1025}{513}$. Let $k$ be the number of all those circles $C_{n}$ that are inside $M$. Let $l$ be the maximum possible number of circles among these $k$ circles such that no two circles intersect. Then"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>+</mo><mn>2</mn><mi>l</mi><mo>=</mo><mn>22</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>k</mi><mo>+</mo><mi>l</mi><mo>=</mo><mn>26</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>k</mi><mo>+</mo><mn>3</mn><mi>l</mi><mo>=</mo><mn>34</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi><mo>+</mo><mn>2</mn><mi>l</mi><mo>=</mo><mn>40</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><msup><mn>2</mn><mn>2</mn></msup></mfrac><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mfrac><mn>1</mn><msup><mn>2</mn><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2</mn><mfenced><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><msup><mn>2</mn><mi>n</mi></msup></mfrac></mrow></mfenced><mo>=</mo><mn>2</mn><mo>-</mo><mfrac><mn>1</mn><msup><mn>2</mn><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mfrac></math></p><p>Centre of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mi>n</mi></msub></math> is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>2</mn><mo>-</mo><mfrac><mn>1</mn><msup><mn>2</mn><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></msup></mfrac><mo>,</mo><mn>0</mn></mrow></mfenced></math></p><p>and radius of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mi>n</mi></msub></math> is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><msup><mn>2</mn><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mfrac></math></p><p>when <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mn>1025</mn><mrow><mo>&#160;</mo><mn>513</mn></mrow></mfrac><mo>&#60;</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mi>n</mi></msub></math> will lie inside&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math></p><p>when <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>-</mo><mfrac><mn>1</mn><msup><mn>2</mn><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></msup></mfrac><mo>+</mo><mfrac><mn>1</mn><msup><mn>2</mn><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mfrac><mo>&#60;</mo><mfrac><mn>1025</mn><mrow><mo>&#160;</mo><mn>513</mn></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>1</mn><mo>-</mo><msup><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mi>n</mi></msup><mo>&#60;</mo><mfrac><mn>1025</mn><mn>1026</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mn>2</mn><mi>n</mi></msup><mo>&#60;</mo><mn>1026</mn><mo>&#8658;</mo><mi>n</mi><mo>&#8804;</mo><mn>10</mn></math></p><p>Hence number of circles</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>k</mi><mo>=</mo><mn>10</mn></math></p><p>Also <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#8467;</mi><mo>=</mo><mn>5</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi><mo>+</mo><mn>2</mn><mi>&#8467;</mi><mo>=</mo><mn>30</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>40</mn></math></p>"
+  }
+}

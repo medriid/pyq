@@ -1,0 +1,63 @@
+{
+  "_id": "64a813ece0ff5a5425a856cc",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec2",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2013-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013",
+      "title": "WBJEE 2013"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "If $F(x)=\\int_{0}^{x} \\frac{\\cos t}{\\left(1+t^{2}\\right)} d t, 0 \\leq x \\leq 2 \\pi .$ Then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "SQSLI",
+      "text": "$F$ is increasing in $\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$ and decreasing in $\\left(0, \\frac{\\pi}{2}\\right)$ and $\\left(\\frac{3 \\pi}{2}, 2 \\pi\\right)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "mgqtO",
+      "text": "$F$ is increasing in $(0, \\pi)$ and decreasing in $(\\pi, 2 \\pi)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "dNqwH",
+      "text": "$F$ is increasing $(\\pi, 2 \\pi)$ and decreasing in $(0, \\pi)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "xaZ2m",
+      "text": "$F$ is increasing in $\\left(0, \\frac{\\pi}{2}\\right)$ and $\\left(\\frac{3 \\pi}{2}, 2 \\pi\\right)$ and decreasing in $\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given function is\r\n$$\r\nF(x)=\\int_{0}^{x} \\frac{\\cos t}{\\left(1+t^{2}\\right)} d t, 0 \\leq x \\leq 2 \\pi\r\n$$\r\nOn differentiation w.r.t. $x$. (apply Leibnitz rule) $F(x)=\\frac{\\cos x}{1+x^{2}} \\times 1=\\frac{\\cos x}{1+x^{2}},$ where $\\left(1+x^{2}\\right)>0$\r\nHere, $\\cos x>0 \\Rightarrow x \\in\\left(0, \\frac{\\pi}{2}\\right) \\cup\\left(\\frac{3 \\pi}{2}, 2 \\pi\\right)$\r\nand $\\cos x     < 0 \\Rightarrow x \\in\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$\r\nSo, $F$ is increasing in $\\left(0, \\frac{\\pi}{2}\\right)$ and $\\left(\\frac{3 \\pi}{2}, 2 \\pi\\right)$ and decreasing in $\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec2",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2013-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013",
+    "title": "WBJEE 2013"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

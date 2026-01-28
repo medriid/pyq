@@ -1,0 +1,45 @@
+{
+  "index": 3,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2024 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "616023feeffb5137d3beb962",
+    "chapter_name": "Waves and Sound",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Two uniform strings of mass per unit length $\\mu$ and $4 \\mu$, and length $L$ and $2 L$, respectively, are joined at point $\\mathrm{O}$, and tied at two fixed ends $\\mathrm{P}$ and $\\mathrm{Q}$, as shown in the figure. The strings are under a uniform tension $T$. If we define the frequency $v_0=\\frac{1}{2 L} \\sqrt{\\frac{T}{\\mu}}$, which of the following statement(s) is(are) correct?\n<img src=\"assets\\qt0003_88d97efbf12f.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "With a node at $\\mathrm{O}$, the minimum frequency of vibration of the composite string is $v_0$.",
+      "is_correct": true
+    },
+    {
+      "text": "With an antinode at $\\mathrm{O}$, the minimum frequency of vibration of the composite string is $2 v_0$.",
+      "is_correct": false
+    },
+    {
+      "text": "When the composite string vibrates at the minimum frequency with a node at $\\mathrm{O}$, it has 6 nodes, including the end nodes.",
+      "is_correct": true
+    },
+    {
+      "text": "No vibrational mode with an antinode at $\\mathrm{O}$ is possible for the composite string.",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "C",
+    "D"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0003_b2b284cb8fa2.png\">\n$\\mathrm{C}_1=\\sqrt{\\frac{\\mathrm{T}}{\\mu}}, \\mathrm{C}_2=\\sqrt{\\frac{\\mathrm{T}}{4 \\mu}}=\\frac{\\mathrm{C}_1}{2}$\n$\\underline{\\text { For node at } \\mathrm{O} \\text { : }}$\n$\\mathrm{L}=\\frac{\\mathrm{n} \\lambda_1}{2}, 2 \\mathrm{~L}=\\frac{\\mathrm{m} \\lambda_2}{2}$ ( $\\mathrm{n}, \\mathrm{m}$ are integers)\n$\\begin{aligned} & \\lambda_1=\\frac{2 \\mathrm{~L}}{\\mathrm{n}}, \\lambda_2=\\frac{4 \\mathrm{~L}}{\\mathrm{~m}} \\\\ & \\frac{\\mathrm{C}_1}{\\lambda_1}=\\frac{\\mathrm{C}_2}{\\lambda_2} \\\\ & \\Rightarrow \\frac{\\mathrm{C}_1}{\\frac{2 \\mathrm{~L}}{n}}=\\frac{\\frac{\\mathrm{C}_1}{2}}{\\frac{4 \\mathrm{~L}}{m}} \\\\ & \\Rightarrow 4 \\mathrm{n}=\\mathrm{m}\\end{aligned}$\nFor minimum frequency, $\\mathrm{n}=1, \\mathrm{~m}=4$\n$\\therefore v_{\\min }=\\frac{\\mathrm{C}_1 \\times 1}{2 \\mathrm{~L}}=\\frac{1}{2 \\mathrm{~L}} \\sqrt{\\frac{\\mathrm{T}}{\\mu}}=v_0$\nThe string will look like<img src=\"assets\\st0003_58211197b1db.png\">\nTotal no. of nodes $=6$ including the end nodes $\\underline{\\text { For antinode at } \\mathrm{O} \\text { : }}$\n$\\begin{aligned} & \\mathrm{L}=(2 \\mathrm{n}+1) \\frac{\\lambda_1}{4} ; 2 \\mathrm{~L}=(2 \\mathrm{n}+1) \\frac{\\lambda_2}{4} \\quad \\text { (n, m are integers) } \\\\ & \\lambda_1=\\frac{4 \\mathrm{~L}}{(2 \\mathrm{n}+1)} ; \\lambda_2=\\frac{8 \\mathrm{~L}}{(2 \\mathrm{~m}+1)} \\\\ & \\frac{\\mathrm{C}_1}{\\lambda_1}=\\frac{\\mathrm{C}_2}{\\lambda_2} \\\\ & \\frac{\\mathrm{C}_1}{\\mathrm{C}_2}=\\frac{\\lambda_1}{\\lambda_2} \\\\ & 2=\\frac{\\frac{4 \\mathrm{~L}}{(2 \\mathrm{n}+1)}}{\\frac{8 \\mathrm{~L}}{(2 \\mathrm{~m}+1)}} \\\\ & 4=\\frac{(2 \\mathrm{~m}+1)}{(2 \\mathrm{n}+1)} \\Rightarrow \\text { even }=\\frac{\\text { odd }}{\\text { odd }} \\Rightarrow \\text { This node is not possible }\\end{aligned}$"
+  }
+}

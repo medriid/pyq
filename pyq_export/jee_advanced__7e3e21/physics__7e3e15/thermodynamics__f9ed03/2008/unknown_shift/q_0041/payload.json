@@ -1,0 +1,43 @@
+{
+  "index": 41,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2008 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "616023ea4f7ea417fff9ed03",
+    "chapter_name": "Thermodynamics",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "An ideal gas is expanding such that $p T^2=$ constant. The coefficient of volume expansion of the gas is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{T}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{2}{T}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{3}{T}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{4}{T}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$p T^2=$ constant\n$\\begin{array}{ll}\\therefore \\quad & \\left(\\frac{n R T}{V}\\right) T^2=\\text { constant } \\\\ \\text { or } \\quad T^3 V^{-1}=\\text { constant }\\end{array}$\nDifferentiating the equation, we get\n$$\n\\frac{3 T^2}{V} \\cdot d T-\\frac{T^3}{V^2} \\cdot d V=0\n$$\nor\n$$\n3 \\cdot d T=\\frac{T}{V} \\cdot d V\n$$\nFrom the equation, $d V=V \\gamma \\cdot d T$\n$\\gamma$ = coefficient of volume expansion of gas $=\\frac{d V}{V \\cdot d T}$\nFrom Eq. (i) $\\gamma=\\frac{d V}{V \\cdot d T}=\\frac{3}{T}$\n$\\therefore$ correct answer is (c)."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 225,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2002",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2002",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$A$ and $B$ are events such that $P(A \\cup B)=3 / 4, P(A \\cap B)=1 / 4, P(\\bar{A})=2 / 3$ then $P(\\bar{A} \\cap B)$ is"
+  },
+  "options": [
+    {
+      "text": "\n5/12\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n3/8\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n5/8\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1/4",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$P(A \\cup B)=P(A)+P(B)-P(A \\cap B) \\Rightarrow \\frac{3}{4}=1-P(\\bar{A})+P(B)-\\frac{1}{4}$\n$\\Rightarrow 1=1-\\frac{2}{3}+P(B) \\Rightarrow P(B)=\\frac{2}{3} ; \\quad$ Now, $P(\\bar{A} \\cap B)=P(B)-P(A \\cap B)=\\frac{2}{3}-\\frac{1}{4}=\\frac{5}{12}$"
+  }
+}

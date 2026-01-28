@@ -1,0 +1,63 @@
+{
+  "_id": "64b169f3f23ac7d519f9aff8",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c44",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009 (Paper 1)",
+      "title": "JEE Advanced 2009 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nLet $A$ be the set of all $3 \\times 3$ symmetric matrices all of whose entries are either 0 or 1 . Five of these entries are 1 and four of them are 0 .<strong>Question:</strong>\nThe number of matrices $A$ in $A$ for which the system of linear equations $A\\left[\\begin{array}{l}x \\\\ y \\\\ z\\end{array}\\right]=\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 0\\end{array}\\right]$ has a unique solution, is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "1vgx1",
+      "text": "\nless than 4\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "GSIPy",
+      "text": "\natleast 4 but less than 7\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "Z9R29",
+      "text": "\natleast 7 but less than 10\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "eZczX",
+      "text": "\nat least 10",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $A\\left[\\begin{array}{l}x \\\\ y \\\\ z\\end{array}\\right]=\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 0\\end{array}\\right]$\nFor unique solution, $\\operatorname{det}(A) \\neq 0$\n$$\n\\begin{gathered}\n\\text { Case I } \\operatorname{det}(A)=\\left|\\begin{array}{lll}\n1 & a & b \\\\\na & 1 & c \\\\\nb & c & 1\n\\end{array}\\right| \\\\\n=1-a^2-b^2-c^2+2 a b c \\neq 0\n\\end{gathered}\n$$\nHere $a, b, c$ is selected from $1,0,0$. (No case is possible)\nCase II\n(i) $\\operatorname{det}(A)=\\left|\\begin{array}{lll}1 & a & b \\\\ a & 0 & c \\\\ b & c & 0\\end{array}\\right|=2 a b c-c^2 \\neq 0$\nHere $a, b, c$ are selected from $1,1,0$. (2 cases are possible)\n(ii) $\\operatorname{det}(A)=\\left|\\begin{array}{lll}0 & a & b \\\\ a & 1 & c \\\\ b & c & 0\\end{array}\\right|=2 a b c-b^2 \\neq 0$\nHere $a, b, c$ are selected from $1,1,0$. (2 cases are possible)\n(iii) $\\operatorname{det}(A)=\\left|\\begin{array}{lll}0 & a & b \\\\ a & 0 & c \\\\ b & c & 1\\end{array}\\right|=2 a b c-a^2 \\neq 0$\nHere $a, b, c$ are selected from $1,1,0$. (2 cases are possible)\nHence, there are exactly 6 matrices for unique solution. Hence, option (b) is correct.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c44",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009 (Paper 1)",
+    "title": "JEE Advanced 2009 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

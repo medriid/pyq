@@ -1,0 +1,43 @@
+{
+  "index": 62,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $R$ be the set of all real numbers and\t$f:[-1,1] \\rightarrow R$ be defined $f(x)=\\left\\{\\begin{array}{ll}x \\sin \\frac{1}{x}, & x \\neq 0 \\text { . Then } \\\\ 0, & x=0\\end{array}\\right.$"
+  },
+  "options": [
+    {
+      "text": "$f$ satisfies the conditions of Rolle's theorem on [-1,1]",
+      "is_correct": false
+    },
+    {
+      "text": "$f$ satisfies the conditions of Lagrange's mean value theorem on [-1,1]",
+      "is_correct": false
+    },
+    {
+      "text": "$f$ satisfies the conditions of Rolle's theorem on [0,1]",
+      "is_correct": false
+    },
+    {
+      "text": "$f$ satisfies the conditions of Lagrange's mean value theorem on [0,1]",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given, $\\quad f(x)=\\left\\{\\begin{array}{cl}x \\sin \\frac{1}{x}, & x \\neq 0 \\\\ 0, & x=0\\end{array}\\right.$\r\nContinuity at $x=0$. $\\mathrm{LHL}=\\lim _{x \\rightarrow 0^{-}} x \\sin \\frac{1}{x}=0$\r\n$\\mathrm{RHL}=\\lim _{x \\rightarrow 0^{*}} x \\sin \\frac{1}{x}=0$\r\nand\r\n$\\mathrm{LHL}=\\mathrm{RHL}=f(0)$\r\nHence, $f(x)$ is continuous for all values of $x$. Differentiability at $x=0$\r\n$$\r\n\\begin{aligned}\r\n\\mathrm{LHD} &=\\lim _{h \\rightarrow 0} \\frac{f(h)-f(0)}{h}=\\lim _{h \\rightarrow 0} \\frac{h \\sin \\frac{1}{h}}{h} \\\\\r\n&=-\\lim _{h \\rightarrow 0} \\sin \\frac{1}{h} \\\\\r\n&=-\\sin \\left(\\frac{1}{0}\\right)=\\text { some definite value }\r\n\\end{aligned}\r\n$$\r\nThus, $f(x)$ is not differentiable at $x=0 .$ Now, $f(0)=0$ and $f(1)=1 \\sin 1$\r\n$\\therefore f(0) \\neq f(1)$. Rolle's theorem is not satisfy.\r\nNow.\r\n$$\r\n\\begin{aligned}\r\nf^{\\prime}(c) &=\\frac{f(1)-f(0)}{b-0} \\\\\r\n&=\\frac{1 \\sin (1)-0}{1-0}=\\sin 1=\\sin 1\r\n\\end{aligned}\r\n$$\r\nwhich lies between 0 to 1 .\r\nHence, there exist a real number $c \\in(0,1)$ Hence, \r\nLagrange's mean value theorem is satisfy on $(0,1)$."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 43,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2009 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602563f6918f74a3b3a999",
+    "chapter_name": "Definite Integration",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$$\n\\text { Match the statements/expressions in Column I with the open intervals in Column II. }\n$$\n<img src=\"assets\\qt0043_9c67b5a8693b.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\n(A) p,q,t, (B) q,t, (C) r,s, (D) p,s\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n(A) p,q,s, (B) p,t, (C) p,q,r,t, (D) s\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n(A) p,q,s, (B) q,t, (C) r,s,t, (D) p,s\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n(A) p,q,t, (B) p,t, (C) p,q,r,t, (D) s",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "(a) Given, $(x-3)^2 \\cdot y^{\\prime}+y=0$\n$$\n\\begin{array}{rlrl}\n\\Rightarrow & \\frac{d y}{d x} & =-\\frac{y}{(x-3)^2} \\\\\n\\Rightarrow & & \\int \\frac{d y}{y} & =-\\int \\frac{d x}{(x-3)^3} \\\\\n\\Rightarrow & & \\ln y & =\\frac{1}{(x-3)}+\\ln C \\\\\n\\Rightarrow & & y & =C e^{\\frac{1}{x-3}}, C \\neq 0\n\\end{array}\n$$\n$\\therefore$ Domain of $y$ is $x \\in R-\\{3\\}$\nAliter Given differential equation is homogeneous linear differential equation and has $x=3$ as a singular point, hence $x=3$ cannot be in domain of solution.\n(b) Let $I=\\int_1^5(x-1)(x-2)(x-3)(x-4)$ $(x-5) d x$\nLet $x-3=t \\Rightarrow d x=d t$\n$\\therefore I=\\int_{-2}^2(t+2)(t+1) t(t-1)(t-2) d t$\n$\\because$ Integrand is an odd function.\n$\\therefore \\quad I=0$\nAliter Let\n$I=\\int_1^5(x-1)(x-2)(x-3)(x-4)$\n$(x-5) d x$\nUsing, $\\int_a^b f(x) d x=\\int_a^b f(a+b-x) d x$ $I=\\int_1^5(5-x)(4-x)(3-x)(2-x)$ $(1-x) d x$\nOn adding Eqs. (i) and (ii) we get 2I $=0 \\Rightarrow I=0$\n(c) Let $f(x)=\\cos ^2 x+\\sin x$\n$\\Rightarrow f^{\\prime}(x)=-2 \\cos x \\sin x+\\cos x$ $=\\cos x(1-2 \\sin x)=0$ (say)\nSign scheme for first derivative\n<img src=\"assets\\st0043_b788d8ec1ee2.png\"><br>\nPoints of local maxima are $\\frac{\\pi}{6}, \\frac{5 \\pi}{6}$.\nAliter $y=\\cos ^2 x+\\sin x$\n$$\n\\Rightarrow \\quad y=\\frac{5}{4}-\\left(\\sin x-\\frac{1}{2}\\right)^2\n$$\nFor $y$ to be maximum,\n$$\n\\begin{aligned}\n& \\left(\\sin x-\\frac{1}{2}\\right)^2=0 \\Rightarrow \\sin x=\\frac{1}{2} \\\\\n\\Rightarrow \\quad & x=n \\pi+(-1)^n \\frac{\\pi}{6}, n \\in I\n\\end{aligned}\n$$\n(d) Let $y=\\tan ^{-1}(\\sin x+\\cos x)$\n$$\n\\Rightarrow \\quad \\frac{d y}{d x}=\\frac{\\cos x-\\sin x}{1+(\\sin x+\\cos x)^2}\n$$<img src=\"assets\\st0043_f10452395956.png\"><br>\nClearly, by graph, $\\cos x>\\sin x$ is true for option(s)."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 244,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (06 Apr)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The integral&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8747;</mo><mn>0</mn><mi>&#960;</mi></munderover><msqrt><mn>1</mn><mo>+</mo><mn>4&#160;</mn><msup><mtext>sin</mtext><mn>2</mn></msup><mfrac><mo mathvariant=\"italic\">x</mo><mn>2</mn></mfrac><mo>-</mo><mn>4&#160;</mn><mtext>sin</mtext><mfrac><mi>x</mi><mn>2</mn></mfrac></msqrt><mi>d</mi><mi>x</mi></math> equals&nbsp;"
+  },
+  "options": [
+    {
+      "text": "<math> <mrow> <mn>4</mn> <msqrt> <mn>3</mn> </msqrt> <mo>-</mo> <mn>4</mn> </mrow> </math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow> <mn>4</mn> <msqrt> <mn>3</mn> </msqrt> <mo>-</mo> <mn>4</mn> <mo>-</mo> <mfrac> <mrow> <mi>&pi;</mi> </mrow> <mrow> <mn>3</mn> </mrow> </mfrac> </mrow> </math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math> <mrow> <mi>&pi;</mi> <mo>-</mo> <mn>4</mn> </mrow> </math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow> <mfrac> <mrow> <mn>2</mn> <mi>&pi;</mi> </mrow> <mrow> <mn>3</mn> </mrow> </mfrac> <mo>-</mo> <mn>4</mn> <mo>-</mo> <mn>4</mn> <msqrt> <mn>3</mn> </msqrt> </mrow> </math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8747;</mo><mn>0</mn><mi>&#960;</mi></munderover><msqrt><mn>1</mn><mo>+</mo><mn>4&#160;</mn><msup><mtext>sin</mtext><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>-</mo><mn>4&#160;</mn><mtext>sin</mtext><mfrac><mi>x</mi><mn>2</mn></mfrac></msqrt><mi>d</mi><mi>x</mi></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munderover><mo>&#8747;</mo><mn>0</mn><mi>&#960;</mi></munderover><msqrt><msup><mfenced><mrow><mn>2&#160;</mn><mtext>sin</mtext><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>-</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup></msqrt><mi>d</mi><mi>x</mi></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munderover><mo>&#8747;</mo><mn>0</mn><mi>&#960;</mi></munderover><mfenced close=\"|\" open=\"|\"><mrow><mn>2&#160;</mn><mtext>sin</mtext><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>-</mo><mn>1</mn></mrow></mfenced><mi>d</mi><mi>x</mi></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2</mn><munderover><mo>&#8747;</mo><mn>0</mn><mi>&#960;</mi></munderover><mfenced close=\"|\" open=\"|\"><mrow><mtext>sin</mtext><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced><mi>d</mi><mi>x</mi></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2&#160;</mn><mfenced close=\"]\" open=\"[\"><mrow><munderover><mo>&#8747;</mo><mn>0</mn><mrow><mi>&#960;</mi><mo>/</mo><mn>3</mn></mrow></munderover><mfenced close=\"|\" open=\"|\"><mrow><mtext>sin</mtext><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced><mi>d</mi><mi>x</mi><mo>+</mo><munderover><mo>&#8747;</mo><mrow><mi>&#960;</mi><mo>/</mo><mn>3</mn></mrow><mi>&#960;</mi></munderover><mfenced close=\"|\" open=\"|\"><mrow><mtext>sin</mtext><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced><mi>d</mi><mi>x</mi></mrow></mfenced></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2&#160;</mn><mfenced close=\"]\" open=\"[\"><mrow><munderover><mo>&#8747;</mo><mn>0</mn><mrow><mi>&#960;</mi><mo>/</mo><mn>3</mn></mrow></munderover><mo>-</mo><mfenced><mrow><mtext>sin</mtext><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced><mi>d</mi><mi>x</mi><mo>+</mo><munderover><mo>&#8747;</mo><mrow><mi>&#960;</mi><mo>/</mo><mn>3</mn></mrow><mi>&#960;</mi></munderover><mfenced><mrow><mtext>sin</mtext><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced><mi>d</mi><mi>x</mi></mrow></mfenced></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2&#160;</mn><mfenced close=\"]\" open=\"[\"><mrow><msubsup><mfenced close=\"]\" open=\"[\"><mrow><mn>2</mn><mtext>cos</mtext><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mfrac><mi>x</mi><mn>2</mn></mfrac></mrow></mfenced><mn>0</mn><mrow><mi>&#960;</mi><mo>/</mo><mn>3</mn></mrow></msubsup><mo>+</mo><msubsup><mfenced close=\"]\" open=\"[\"><mrow><mo>-</mo><mn>2</mn><mtext>cos</mtext><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>-</mo><mfrac><mi>x</mi><mn>2</mn></mfrac></mrow></mfenced><mrow><mi>&#960;</mi><mo>/</mo><mn>3</mn></mrow><mi>&#960;</mi></msubsup></mrow></mfenced></math><br /><br /><math> <mrow> <mo>=</mo> <mn>2&#160;</mn> <mfenced close=\"]\" open=\"[\" separators=\",\"> <mrow> <mfenced close=\"]\" open=\"[\" separators=\",\"> <mrow> <mn>2</mn> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <msqrt> <mn>3</mn> </msqrt> </mrow> <mrow> <mn>2</mn> </mrow> </mfrac> </mrow> </mfenced> <mo>+</mo> <mfrac> <mrow> <mi>&#960;</mi> </mrow> <mrow> <mn>6</mn> </mrow> </mfrac> <mo>-</mo> <mn>2</mn> </mrow> </mfenced> <mo>+</mo> <mfenced close=\"]\" open=\"[\" separators=\",\"> <mrow> <mo>-</mo> <mfrac> <mrow> <mi>&#960;</mi> </mrow> <mrow> <mn>2</mn> </mrow> </mfrac> <mo>+</mo> <mn>2</mn> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <msqrt> <mn>3</mn> </msqrt> </mrow> <mrow> <mn>2</mn> </mrow> </mfrac> </mrow> </mfenced> <mo>+</mo> <mfrac> <mrow> <mi>&#960;</mi> </mrow> <mrow> <mn>6</mn> </mrow> </mfrac> </mrow> </mfenced> </mrow> </mfenced> </mrow> </math><br /><br /><math> <mrow> <mo>=</mo> <mn>2&#160;</mn> <mfenced close=\"]\" open=\"[\" separators=\",\"> <mrow> <msqrt> <mn>3</mn> </msqrt> <mo>+</mo> <mfrac> <mrow> <mi>&#960;</mi> </mrow> <mrow> <mn>6</mn> </mrow> </mfrac> <mo>-</mo> <mn>2</mn> <mo>-</mo> <mfrac> <mrow> <mi>&#960;</mi> </mrow> <mrow> <mn>2</mn> </mrow> </mfrac> <mo>+</mo> <msqrt> <mn>3</mn> </msqrt> <mo>+</mo> <mfrac> <mrow> <mi>&#960;</mi> </mrow> <mrow> <mn>6</mn> </mrow> </mfrac> </mrow> </mfenced> </mrow> </math><br /><br /><math> <mrow> <mo>=</mo> <mn>2&#160;</mn> <mfenced close=\"]\" open=\"[\" separators=\",\"> <mrow> <mn>2</mn> <msqrt> <mn>3</mn> </msqrt> <mo>-</mo> <mfrac> <mrow> <mi>&#960;</mi> </mrow> <mrow> <mn>6</mn> </mrow> </mfrac> <mo>-</mo> <mn>2</mn> </mrow> </mfenced> </mrow> </math><br /><br /><math> <mrow> <mo>=</mo> <mn>4</mn> <msqrt> <mn>3</mn> </msqrt> <mo>-</mo> <mfrac> <mrow> <mi>&#960;</mi> </mrow> <mrow> <mn>3</mn> </mrow> </mfrac> <mo>-</mo> <mn>4</mn> </mrow> </math>.<br /><br /><img src=\"assets\\st0244_ab75217b7d7d.png\" style=\"width: 340px; height: 124px;\" /><br /><br /><img src=\"assets\\st0244_8776b847aefd.png\" style=\"width: 340px; height: 127px;\" /></p>"
+  }
+}

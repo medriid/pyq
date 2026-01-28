@@ -1,0 +1,43 @@
+{
+  "index": 36,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0a7e939ac068d001ef",
+    "chapter_name": "Determinants",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of determinant $\\left|\\begin{array}{ccc}1+a^{2}-b^{2} & 2 a b & -2 b \\\\ 2 a b & 1-a^{2}+b^{2} & 2 a \\\\ 2 b & -2 a & 1-a^{2}-b^{2}\\end{array}\\right|$ is"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(1+a^{2}+b^{2}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(1+a^{2}+b^{2}\\right)^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(1+a^{2}+b^{2}\\right)^{3}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let\r\n$\\Delta=\\left|\\begin{array}{ccc}1+a^{2}-b^{2} & 2 a b & -2 b \\\\ 2 a b & 1-a^{2}+b^{2} & 2 a \\\\ 2 b & -2 a & 1-a^{2}-b^{2}\\end{array}\\right|$\r\nApply $\\mathrm{C}_{\\mathrm{1}} \\rightarrow \\mathrm{C}_{1}-\\mathrm{bC}_{3}$ and $\\mathrm{C}_{2} \\rightarrow \\mathrm{aC}_{3}+\\mathrm{C}_{2}$\r\n$=\\left|\\begin{array}{ccc}1+a^{2}-b^{2}+2 b^{2} & 2 a b-2 a b & -2 b \\\\ 2 a b-2 a b & 1-a^{2}+b^{2}+2 a^{2} & 2 a \\\\ 2 b-b+a^{2} b+b^{3} & -2 a+a-a^{3}-a b^{2} & 1-a^{2}-b^{2}\\end{array}\\right|$\r\n$=\\left|\\begin{array}{ccc}\\left(1+a^{2}+b^{2}\\right) & 0 & -2 b \\\\ 0 & \\left(1+a^{2}+b^{2}\\right) & 2 a \\\\ b\\left(1+a^{2}+b^{2}\\right) & -a\\left(1+a^{2}+b^{2}\\right) & \\left(1-a^{2}-b^{2}\\right)\\end{array}\\right|$\r\n$=\\left(1+a^{2}+b^{2}\\right)^{2}\\left|\\begin{array}{ccc}1 & 0 & -2 b \\\\ 0 & 1 & 2 a \\\\ b & -a & \\left(1-a^{2}-b^{2}\\right)\\end{array}\\right|$\r\n$=\\left(1+a^{2}+b^{2}\\right)^{2}\\left\\{\\left(1-a^{2}-b^{2}+2 a^{2}\\right)+2 b^{2}\\right\\}$\r\n$=\\left(1+a^{2}+b^{2}\\right)^{2}\\left(1+a^{2}+b^{2}\\right)=\\left(1+a^{2}+b^{2}\\right)^{3}$"
+  }
+}

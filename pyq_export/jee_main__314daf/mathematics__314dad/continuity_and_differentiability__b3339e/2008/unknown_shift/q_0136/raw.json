@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d65871",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c8",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2008-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008",
+      "title": "JEE Main 2008"
+    }
+  ],
+  "question": {
+    "text": "Let $f(x)=\\left\\{\\begin{array}{ll}(x-1) \\sin \\left(\\frac{1}{x-1}\\right), & \\text { if } x \\neq 1 \\\\ 0, & \\text { if } x=1\\end{array}\\right.$. Then which one of the following is true?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "BaJJv",
+      "text": "\n$f$ is neither differentiable at $x=0$ nor at $x=1$ \n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "4o7vV",
+      "text": "\n$f$ is differentiable at $x=0$ and at $x=1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Ym6Bu",
+      "text": "\n$\\mathrm{f}$ is differentiable at $\\mathrm{x}=0$ but not at $\\mathrm{x}=1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "gwUcH",
+      "text": "\n$\\mathrm{f}$ is differentiable at $\\mathrm{x}=1$ but not at $\\mathrm{x}=0$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\nf^{\\prime}(1)=\\lim _{h \\rightarrow 0} \\frac{f(1+h)-f(1)}{h}\n$$\n\n$$\n\\begin{aligned}\n& \\Rightarrow f^{\\prime}(1)=\\lim _{h \\rightarrow 0} \\frac{(1+h-1) \\sin \\left(\\frac{1}{1+h-1}\\right)-0}{h}=\\lim _{h \\rightarrow 0} \\frac{h}{h} \\sin \\left(\\frac{1}{h}\\right) \\\\\n& \\Rightarrow f^{\\prime}(1)=\\lim _{h \\rightarrow 0} \\sin \\left(\\frac{1}{h}\\right)\n\\end{aligned}\n$$\n$\\therefore \\mathrm{f}$ is not differentiable at $x=1$.\nSimilarly, $f^{\\prime}(0)=\\lim _{h \\rightarrow 0} \\frac{f(h)-f(0)}{h}$ $\\Rightarrow f^{\\prime}(0)=\\lim _{h \\rightarrow 0} \\frac{(h-1) \\sin \\left(\\frac{1}{h-1}\\right)-\\sin (1)}{h}$\n$\\Rightarrow \\mathrm{f}$ is also not differentiable at $\\mathrm{x}=0$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c8",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2008-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008",
+    "title": "JEE Main 2008"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

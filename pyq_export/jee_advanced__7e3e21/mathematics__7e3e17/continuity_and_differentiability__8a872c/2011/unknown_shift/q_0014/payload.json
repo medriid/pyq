@@ -1,0 +1,44 @@
+{
+  "index": 14,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2011 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602558b3ddd6290d8a872c",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f: R \\rightarrow R$ be a function such that $f(x+y)=f(x)+f(y), \\forall x, y \\in R$. If $f(x)$ is differentiable at $x=0$, then"
+  },
+  "options": [
+    {
+      "text": "\n$f(x)$ is differentiable only in a finite interval containing zero\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$f(x)$ is continuous, $\\forall x \\in R$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$f^{\\prime}(x)$ is constant, $\\forall x \\in R$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$f(x)$ is differentiable except at finitely many points",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "C"
+  ],
+  "solution": {
+    "text": "$f(x+y)=f(x)+f(y)$, as $f(x)$ is differentiable at $x=0$.\n$$\n\\begin{aligned}\n\\Rightarrow & f^{\\prime}(0)=k \\\\\n\\text { Now, } f^{\\prime}(x) & =\\lim _{h \\rightarrow 0} \\frac{f(x+h)-f(x)}{h} \\\\\n& =\\lim _{h \\rightarrow 0} \\frac{f(x)+f(h)-f(x)}{h} \\\\\n& =\\lim _{h \\rightarrow 0} \\frac{f(h)}{h} \\quad\\left[\\frac{0}{0} \\text { from }\\right]\n\\end{aligned}\n$$\nGiven, $f(x+y)=f(x)+f(y), \\forall x, y$\n$$\n\\begin{aligned}\n& \\therefore & f(0) & =f(0)+f(0), \\\\\n& \\text { when } & x & =y=0 \\Rightarrow f(0)=0\n\\end{aligned}\n$$\nUsing L'Hospital's rule,\n$$\n\\lim _{h \\rightarrow 0} \\frac{f^{\\prime}(h)}{1}=f^{\\prime}(0)=k\n$$\n$\\Rightarrow f^{\\prime}(x)=k$, on integrating both sides, $f(x)=k x+C$, as $f(0)=0 \\Rightarrow C=0$\nSo, $f(x)=k x$\n$\\therefore f(x)$ is continuous for all $x \\in R$ and $f^{\\prime}(x)=k$, i.e. constant for all $x \\in R$.\nHence, both (b) and (c) are correct.\nSolutions (Q. Nos. 12-13)\n$$\n\\left.\\left(\\begin{array}{l}\n3 \\mathrm{~W} \\\\\n2 \\mathrm{R}\n\\end{array}\\right)(\\underbrace{1 \\mathrm{~W}}_{u_1})\\right\\} \\text { Initial }\n$$\nHead appears.\n$\\left(\\begin{array}{l}2 \\mathrm{~W} \\\\ 2 \\mathrm{R}\\end{array}\\right) \\underset{u_1}{\\mathrm{wW}}(\\underbrace{2 \\mathrm{~W}}_{u_2})$\nor $\\left.\\left(\\begin{array}{l}3 \\mathrm{~W} \\\\ 1 \\mathrm{R}\\end{array}\\right) \\underset{u_1}{\\stackrel{1 \\mathrm{R}}{u_1}}\\left(\\begin{array}{c}1 \\mathrm{~W} \\\\ 1 \\mathrm{R}\\end{array}\\right)\\right)_{u_2}^{u_2}$\n<img src=\"assets\\st0014_2101731f6b72.png\"><br>"
+  }
+}

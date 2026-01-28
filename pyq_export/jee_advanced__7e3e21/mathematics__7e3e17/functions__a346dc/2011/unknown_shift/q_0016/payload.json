@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2011 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602556cd23bba7eaa346dc",
+    "chapter_name": "Functions",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f:(0,1) \\rightarrow R$ be defined by $f(x)=\\frac{b-x}{1-b x}$, where $b$ is a constant such that $0 < b < 1$. Then,"
+  },
+  "options": [
+    {
+      "text": "\n$f$ if not invertible on $(0,1)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$f \\neq f^{-1}$ on $(0,1)$ and $f^{\\prime}(b)=\\frac{1}{f^{\\prime}(0)}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$f=f^{-1}$ on $(0,1)$ and $f^{\\prime}(b)=\\frac{1}{f^{\\prime}(0)}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$f^{-1}$ is differentiable on $(0,1)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Here, $f(x)=\\frac{b-x}{1-b x}$ where, $0 < b < 1,0 < x < 1$ For function to be invertible it should be one-one onto.\n$\\therefore$ Check range :\nLet $\\quad f(x)=y \\Rightarrow y=\\frac{b-x}{1-b x}$\n$$\n\\begin{aligned}\n& \\Rightarrow y-b x y=b-x \\Rightarrow x(1-b y)=b-y \\\\\n& \\Rightarrow \\quad x=\\frac{b-y}{1-b y}\n\\end{aligned}\n$$\n\nwhere, $0 < x < 1$\n$$\n\\begin{gathered}\n\\therefore \\quad 0 < \\frac{b-y}{1-b y} < 1 \\\\\n\\frac{b-y}{1-b y}>0 \\text { and } \\frac{b-y}{1-b y} < 1 \\\\\n\\quad+\\quad-\\quad+ \\\\\n\\Rightarrow \\quad b \\\\\ny < b \\text { or } y>\\frac{1}{b} \\\\\n\\frac{(b-1)(y+1)}{1-b y} < -1 < y < \\frac{1}{b}\n\\end{gathered}\n$$\nFrom Eqs. (i) and (ii), we get $y \\in\\left(-1, \\frac{1}{b}\\right) \\subset$ Codomain\nThus, $f(x)$ is not invertible."
+  }
+}

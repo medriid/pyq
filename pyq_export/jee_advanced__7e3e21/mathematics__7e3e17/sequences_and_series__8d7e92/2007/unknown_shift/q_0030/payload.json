@@ -1,0 +1,43 @@
+{
+  "index": 30,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2007 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252d532b5c23dd8d7e92",
+    "chapter_name": "Sequences and Series",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nLet $V_r$ denotes the sum of the first $r$ terms of an arithmetic progression $(A P)$ whose first term is $r$ and the common difference is $(2 r-1)$. Let $T_r=V_{r+1}-V_r-2$ and $Q_r=T_{r+1}-T_r$ for $r=1,2, \\ldots$<strong>Question:</strong>\nThe sum $V_1+V_2+\\ldots+V_n$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{12} n(n+1)\\left(3 n^2-n+1\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{12} n(n+1)\\left(3 n^2+n+2\\right)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{1}{2} n\\left(2 n^2-n+1\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{3}\\left(2 n^3-2 n+3\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& V_r=\\frac{r}{2}[2 r+(r-1)(2 r-1)]=\\frac{1}{2}\\left(2 r^3-r^2+r\\right) \\\\\n& \\therefore \\quad \\Sigma V_r=\\frac{1}{2}\\left[2 \\Sigma r^3-\\Sigma r^2+\\Sigma r\\right] \\\\\n& =\\frac{1}{2}\\left[2\\left(\\frac{n(n+1)}{2}\\right)^2-\\frac{n(n+1)(2 n+1)}{6}+\\frac{n(n+1)}{2}\\right] \\\\\n& =\\frac{1}{12} n(n+1)\\left(3 n^2+n+2\\right) \\text {. } \\\\\n&\n\\end{aligned}\n$$"
+  }
+}

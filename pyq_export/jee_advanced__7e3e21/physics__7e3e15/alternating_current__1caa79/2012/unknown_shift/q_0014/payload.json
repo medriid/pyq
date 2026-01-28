@@ -1,0 +1,44 @@
+{
+  "index": 14,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2012 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "6160242fab7a61dc9f1caa79",
+    "chapter_name": "Alternating Current",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In the given circuit, the $\\mathrm{AC}$ source has $\\omega=100 \\mathrm{rad} / \\mathrm{s}$. Considering the inductor and capacitor to be ideal, the correct choice(s) is (are)\r\n\r\n<img src=\"assets\\qt0014_43df69cf0b02.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "The current through the circuit, $I$ is $0.3 \\mathrm{~A}$.",
+      "is_correct": true
+    },
+    {
+      "text": "The current through the circuit, $I$ is $0.3 \\sqrt{2} A$",
+      "is_correct": false
+    },
+    {
+      "text": "The voltage across $100 \\Omega$ resistor $=10 \\sqrt{2} \\mathrm{~V}$",
+      "is_correct": true
+    },
+    {
+      "text": "The voltage across $50 \\Omega$ resistor $=10 \\mathrm{~V}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "C"
+  ],
+  "solution": {
+    "text": "Impedance across $A B, R C$ part of the circuit\r\n\r\n$\\begin{aligned} \\mathrm{Z}_{1}=& \\sqrt{X_{c}^{2}+R_{1}^{2}}=\\sqrt{\\left(\\frac{1}{\\omega C}\\right)^{2}+R_{1}^{2}} \\\\=& \\sqrt{(100)^{2}+(100)^{2}}=100 \\sqrt{2} \\end{aligned}$\r\n\r\n$\\therefore \\quad I_{1}=\\frac{V}{Z_{1}}=\\frac{20}{100 \\sqrt{2}}$\r\n\r\n$\\quad\\left[\\right.$ leads emf by $\\left.\\phi_{1}\\right]$\r\n\r\nwhere $\\cos \\phi_{1}=\\frac{R}{Z_{1}}=\\frac{100}{100 \\sqrt{2}}=\\frac{1}{\\sqrt{2}} \\Rightarrow \\theta=45^{\\circ}$\r\n\r\n<img src=\"assets\\st0014_11737e8ee272.png\"><br>\r\n\r\nImpedance across $C D, L R$ part of the circuit.\r\n\r\n$\\mathrm{Z}_{2}=\\sqrt{X_{L}^{2}+R_{2}^{2}}=\\sqrt{(\\omega L)^{2}+R_{2}^{2}}$\r\n\r\n$=\\sqrt{(0.5 \\times 100)^{2}+(50)^{2}}=50 \\sqrt{2} \\Omega$\r\n\r\n$\\therefore \\quad I_{2}=\\frac{V}{Z_{2}}=\\frac{20}{50 \\sqrt{2}}$<img src=\"assets\\st0014_def9897362ee.png\"><br>\r\n\r\nwhere $\\cos \\phi_{2}=\\frac{R}{Z_{2}}=\\frac{50}{50 \\sqrt{2}}=\\frac{1}{\\sqrt{2}} \\Rightarrow \\phi_{2}=45^{\\circ}$ $\\therefore \\quad$ Current $I$ from the circuit\r\n\r\n$I=\\frac{20}{100 \\sqrt{2}}+\\frac{20}{50 \\sqrt{2}}=\\mathrm{I}_{1}+\\mathrm{I}_{2} \\simeq 0.3 \\mathrm{~A}$"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "index": 13,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let the set of all positive values of $\\lambda$, for which the point of local minimum of the function $\\left(1+x\\left(\\lambda^2-x^2\\right)\\right)$ satisfies $\\frac{x^2+x+2}{x^2+5 x+6} < 0$, be $(\\alpha, \\beta)$. Then $\\alpha^2+\\beta^2$ is equal to _________"
+  },
+  "options": [],
+  "correct_answer": "39",
+  "solution": {
+    "text": "$\\begin{aligned} & \\frac{x^2+x+2}{x^2+5 x+6} < 0 \\\\ & \\Rightarrow \\frac{1}{(x+2)(x+3)} < 0\\end{aligned}$<img src=\"assets\\st0013_5694b30b36a0.png\"><br />$\\begin{aligned}\n& x \\in(-3,-2) \\ldots \\ldots \\ldots . .(1) \\\\\n& f(x)=1+x\\left(\\lambda^2-x^2\\right)\n\\end{aligned}$<br />Finding local minima\n$f^{\\prime}(x)=\\left(\\lambda^2-x^2\\right)+(-2 x) \\cdot x$\nPut $\\mathrm{f}^{\\prime}(\\mathrm{x})=0$\n$\\begin{aligned}\n& \\Rightarrow \\lambda^2=3 x^2 \\\\\n& \\Rightarrow x= \\pm \\frac{\\lambda}{\\sqrt{3}}\n\\end{aligned}$\n<img src=\"assets\\st0013_8d596887692f.png\">\nWe want local min\n$\\Rightarrow \\mathrm{x}=\\frac{-\\lambda}{\\sqrt{3}}$\nfrom (1)\n$x \\in(-3,-2)$\n$\\begin{aligned} & -3 < \\frac{-\\lambda}{\\sqrt{3}} < -2 \\\\ & 3 \\sqrt{3}>\\lambda>2 \\sqrt{3} \\\\ & \\alpha=2 \\sqrt{3}, \\beta=3 \\sqrt{3} \\\\ & \\alpha^2+\\beta^2=12+27=39\\end{aligned}$"
+  }
+}

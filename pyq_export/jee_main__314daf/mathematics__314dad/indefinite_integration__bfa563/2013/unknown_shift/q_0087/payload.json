@@ -1,0 +1,43 @@
+{
+  "index": 87,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (09 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\int \\frac{d x}{x+x^7}=p(x)$ then, $\\int \\frac{x^6}{x+x^7} d x$ is equal to:"
+  },
+  "options": [
+    {
+      "text": "\n$\\ln |x|-p(x)+c$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\ln |x|+p(x)+c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x-p(x)+c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x+p(x)+c$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\int \\frac{x^6}{x+x^7} d x=\\int \\frac{x^6}{x\\left(1+x^6\\right)} d x$\n$=\\int \\frac{\\left(1+x^6\\right)-1}{x\\left(1+x^6\\right)} d x$\n$=\\int \\frac{1}{x} d x-\\int \\frac{1}{x+x^7} d x$\n$=\\ln |x|-p(x)+c$"
+  }
+}

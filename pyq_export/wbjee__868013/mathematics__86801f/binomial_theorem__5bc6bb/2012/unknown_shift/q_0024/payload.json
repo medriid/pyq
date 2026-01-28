@@ -1,0 +1,43 @@
+{
+  "index": 24,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd8ccf6aa19875bc6bb",
+    "chapter_name": "Binomial Theorem",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The coefficient of $x^{10}$ in the expansion of $1+(1+x)+\\dots+(1+x)^{20}$"
+  },
+  "options": [
+    {
+      "text": "${ }^{19} C_{9}$",
+      "is_correct": false
+    },
+    {
+      "text": "${ }^{20} C_{10}$",
+      "is_correct": false
+    },
+    {
+      "text": "${ }^{21} C_{11}$",
+      "is_correct": true
+    },
+    {
+      "text": "${ }^{22} C_{12}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "The given series is in GP. Hence, its sum $S=\\frac{1\\left\\{(1+x)^{20+1}-1\\right\\}}{(1+x)-1}=\\frac{(1+x)^{21}-1}{x}$\r\nTherefore, the required coefficient of $x^{10}$ in\r\nthe expansion of $(1+x)^{21}-1$\r\n$=$ Coefficient of $x^{11}$ in the expansion of\r\n$$\r\n={ }^{21} C_{11}\r\n$$"
+  }
+}

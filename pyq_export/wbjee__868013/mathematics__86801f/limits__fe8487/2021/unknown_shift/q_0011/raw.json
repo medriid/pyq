@@ -1,0 +1,63 @@
+{
+  "_id": "64a81474e0ff5a5425a85bd0",
+  "previousYearPapers": [
+    {
+      "_id": "61a1eb3cb860a4fc00943685",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2021-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021",
+      "title": "WBJEE 2021"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "Let $S_{n}=\\cot ^{-1} 2+\\cot ^{-1} 8+\\cot ^{-1} 18+\\cot ^{-1} 32+\\ldots \\ldots .$ to $n^{\\text {th }}$ term. Then $\\lim _{n \\rightarrow \\infty} S_{n}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "H0SI4",
+      "text": "$\\frac{\\pi}{3}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "vHcdZ",
+      "text": "$\\frac{\\pi}{4}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "9ydl8",
+      "text": "$\\frac{\\pi}{6}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "1TVfw",
+      "text": "$\\frac{\\pi}{8}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & t_{n}=\\cot ^{-1} 2 n^{2} \\\\=& \\tan ^{-1} \\frac{1}{2 n^{2}}=\\tan ^{-1} \\frac{(2 n+1)-(2 n-1)}{1+(2 n+1)(2 n-1)} \\\\=& \\tan ^{-1}(2 n+1)-\\tan ^{-1}(2 n-1) \\\\ \\therefore & S_{n}=\\tan ^{-1}(2 n+1)-\\tan ^{-1} 1 \\\\ \\therefore & \\operatorname{Lim}_{n \\rightarrow \\infty} S_{n}=\\pi / 2-\\pi / 4=\\pi / 4 \\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a1eb3cb860a4fc00943685",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2021-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021",
+    "title": "WBJEE 2021"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

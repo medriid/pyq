@@ -1,0 +1,63 @@
+{
+  "_id": "64a813e6e0ff5a5425a85692",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec2",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2013-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013",
+      "title": "WBJEE 2013"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "If $p=\\left(\\begin{array}{cc}\\cos \\frac{\\pi}{4} & -\\sin \\frac{\\pi}{4} \\\\ \\sin \\frac{\\pi}{4} & \\cos \\frac{\\pi}{4}\\end{array}\\right)$ and $X=\\left(\\begin{array}{c}\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}}\\end{array}\\right)$. Then,\r\n$P^{3} X$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "OJfOo",
+      "text": "$\\left(\\begin{array}{l}0 \\\\ 1\\end{array}\\right)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "eqcdO",
+      "text": "$\\left(\\begin{array}{c}-\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}}\\end{array}\\right)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "R4k22",
+      "text": "$\\left(\\begin{array}{r}-1 \\\\ 0\\end{array}\\right)$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "12Xzz",
+      "text": "$\\left(\\begin{array}{c}-\\frac{1}{\\sqrt{2}} \\\\ -\\frac{1}{\\sqrt{2}}\\end{array}\\right)$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $P=\\left(\\begin{array}{cc}\\cos \\frac{\\pi}{4} & -\\sin \\frac{\\pi}{4} \\\\ \\sin \\frac{\\pi}{4} & \\cos \\frac{\\pi}{4}\\end{array}\\right)=\\left(\\begin{array}{cc}\\frac{1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{2}}\\end{array}\\right)$\r\n$\\Rightarrow \\quad P=\\frac{1}{\\sqrt{2}}\\left(\\begin{array}{cc}1 & -1 \\\\ 1 & 1\\end{array}\\right)$\r\n$\\begin{aligned} \\text { Now, } P^{2} &=P \\cdot P=\\frac{1}{2}\\left(\\begin{array}{cc}1 & -1 \\\\ 1 & 1\\end{array}\\right)\\left(\\begin{array}{cc}1 & -1 \\\\ 1 & 1\\end{array}\\right) \\\\ &=\\frac{1}{2}\\left(\\begin{array}{cc}1-1 & -1 & -1 \\\\ 1+1 & -1+1\\end{array}\\right) \\\\ &=\\frac{1}{2}\\left(\\begin{array}{cc}0 & -2 \\\\ 2 & 0\\end{array}\\right)=\\left(\\begin{array}{cc}0 & -1 \\\\ 1 & 0\\end{array}\\right) \\end{aligned}$\r\n$\\begin{aligned} P^{3} &=P \\cdot P^{2}=\\frac{1}{\\sqrt{2}}\\left(\\begin{array}{cc}1 & -1 \\\\ 1 & 1\\end{array}\\right) \\cdot\\left(\\begin{array}{cc}0 & -1 \\\\ 1 & 0\\end{array}\\right) \\\\ &=\\frac{1}{\\sqrt{2}}\\left(\\begin{array}{cc}0-1 & -1-0 \\\\ 0+1 & -1+0\\end{array}\\right) \\\\ &=\\frac{1}{\\sqrt{2}}\\left(\\begin{array}{cc}-1 & -1 \\\\ 1 & -1\\end{array}\\right) \\end{aligned}$\r\nAlso, given $X=\\left(\\begin{array}{c}1 / \\sqrt{2} \\\\ \\frac{1}{\\sqrt{2}}\\end{array}\\right)=\\frac{1}{\\sqrt{2}}\\left(\\begin{array}{l}1 \\\\ 1\\end{array}\\right)$\r\n$\\begin{aligned} P^{3} X &=\\frac{1}{\\sqrt{2}}\\left(\\begin{array}{cc}-1 & -1 \\\\ 1 & -1\\end{array}\\right) \\cdot \\frac{1}{\\sqrt{2}}\\left(\\begin{array}{l}1 \\\\ 1\\end{array}\\right) \\\\ &=\\frac{1}{2}\\left(\\begin{array}{c}-1-1 \\\\ 1-1\\end{array}\\right)=\\frac{1}{2}\\left(\\begin{array}{c}-2 \\\\ 0\\end{array}\\right)=\\left(\\begin{array}{c}-1 \\\\ 0\\end{array}\\right) \\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec2",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2013-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013",
+    "title": "WBJEE 2013"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

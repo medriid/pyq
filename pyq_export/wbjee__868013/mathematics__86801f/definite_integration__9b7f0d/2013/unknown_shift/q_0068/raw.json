@@ -1,0 +1,63 @@
+{
+  "_id": "64a813e6e0ff5a5425a85695",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec2",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2013-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013",
+      "title": "WBJEE 2013"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "The value of the integral $\\int_{-1}^{1}\\left\\{\\frac{x^{2013}}{e^{|x|}\\left(x^{2}+\\cos x\\right)}+\\frac{1}{e^{|x|}}\\right\\} d x$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "eBxpd",
+      "text": "0",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Mh7cj",
+      "text": "$1-e^{-1}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "D9ICz",
+      "text": "$2 e^{-1}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "EZnpc",
+      "text": "$2\\left(1-e^{-1}\\right)$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $\\quad I=\\int_{-1}^{1}\\left\\{\\frac{x^{2013}}{e^{\\mid x\\left|(x^{2}+\\cos x\\right)}}+\\frac{1}{e^{|x|}}\\right\\} d x$\r\n$\\Rightarrow \\quad I=\\int_{-1}^{1} \\frac{x^{2013}}{e^{|x|+\\left(x^{2}+\\cos x\\right)}} d x+\\int_{-1}^{1} \\frac{1}{e^{|x|}} d x$\r\nHere, $\\frac{x^{2013}}{e^{|x|}\\left(x^{2}+\\cos x\\right)}$ is an odd function\r\nand $\\frac{1}{e^{\\mid x|}}$ is an even function. $\\left\\{\\because \\int_{-a}^{a} f(x) d x=\\left\\{\\begin{array}{cc}2 \\int_{0}^{9}(x) d x ; & f(x) \\text { is even } \\\\ 0, & f(x) \\text { is odd }\\end{array}\\right\\}\\right.$\r\n$\\left.\\therefore \\quad 1=0+2 \\int_{0}^{1} e^{-x} d x=-2 (e^{-x})\\right\\}_{0}^{1}=-2\\left(e^{-1}\\right)$\r\n$=2\\left(1-e^{-1}\\right)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec2",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2013-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013",
+    "title": "WBJEE 2013"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64b169e5f23ac7d519f9af74",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c42",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2008-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008 (Paper 1)",
+      "title": "JEE Advanced 2008 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $f$ and $g$ be real valued functions defined on interval $(-1,1)$ such that $g^{\\prime \\prime}(x)$ is continuous, $g(0) \\neq 0, g^{\\prime}(0)=0, g^{\\prime \\prime}(0) \\neq 0$ and $f(x)=g(x) \\sin x$.\nStatement $1 \\lim _{x \\rightarrow 0}[g(x) \\cos x-g(0) \\operatorname{cosec} x]=f^{\\prime \\prime}(0)$.\nStatement $2 f^{\\prime}(0)=g(0)$.",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "irnYJ",
+      "text": "\nStatement 1 is true, Statement 2 is true, Statement 2 is a correct explanation for Statement 1.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "kNnuk",
+      "text": "\nStatement 1 is true, Statement 2 is true, Statement 2 is not a correct explanation for Statement 1.\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "aqInn",
+      "text": "\nStatement 1 is true, Statement 2 is false.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "jgvE7",
+      "text": "\nStatement 1 is false, Statement 2 is true",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have,\n$$\n\\begin{aligned}\n& \\lim _{x \\rightarrow 0} \\frac{g(x) \\cos x-g(0)}{\\sin x} \\\\\n& =\\lim _{x \\rightarrow 0} \\frac{g^{\\prime}(x) \\cos x-g(x) \\sin x}{\\cos x}=0\n\\end{aligned}\n$$\nSince, $f(x)=g(x) \\sin x$\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad f^{\\prime}(x)=g^{\\prime}(x) \\sin x+g(x) \\cos x \\\\\n& \\Rightarrow \\quad f^{\\prime \\prime}(x)=g^{\\prime \\prime}(x) \\sin x+2 g^{\\prime}(x) \\cos x-g(x) \\sin x \\\\\n& \\Rightarrow \\quad f^{\\prime \\prime}(0)=0\n\\end{aligned}\n$$\nThus, $\\lim _{x \\rightarrow 0}[g(x) \\cos x-g(0) \\operatorname{cosec} x]=0=f^{\\prime \\prime}(0)$\n$\\Rightarrow$ Statement 1 is true.\nStatement 2. $f^{\\prime}(x)=g^{\\prime}(x) \\sin x+g(x) \\cos x$\n$$\n\\Rightarrow \\quad f^{\\prime}(0)=g(0)\n$$\nStatement 2 is not a correct explanation of Statement 1.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c42",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2008-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008 (Paper 1)",
+    "title": "JEE Advanced 2008 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

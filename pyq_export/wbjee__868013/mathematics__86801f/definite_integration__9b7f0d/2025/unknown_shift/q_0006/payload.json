@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2025",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of the integral $\\int_0^{\\pi / 2} \\log \\left(\\frac{4+3 \\sin x}{4+3 \\cos x}\\right) d x$ is"
+  },
+  "options": [
+    {
+      "text": "$2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{3}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "0",
+      "is_correct": true
+    },
+    {
+      "text": "$-2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$I=\\int_0^{\\pi / 2} \\log \\left(\\frac{4+3 \\sin x}{4+3 \\cos x}\\right) d x$\n\nApplying King's property\n$I=\\int_0^{\\pi / 2} \\log \\left(\\frac{4+3 \\cos x}{4+3 \\sin x}\\right) d x$\n$\\begin{aligned} & 2 I=\\int_0^{\\pi / 2} \\log \\left(\\left(\\frac{4+3 \\sin x}{4+3 \\cos x}\\right)\\left(\\frac{4+3 \\cos x}{4+3 \\sin x}\\right)\\right) d x=0 \\\\ & I=0\\end{aligned}$"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64b169edf23ac7d519f9afba",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c43",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2008-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008 (Paper 2)",
+      "title": "JEE Advanced 2008 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nConsider the function $f:(-\\infty, \\infty) \\rightarrow(-\\infty, \\infty)$ defined by $f(x)=\\frac{x^2-a x+1}{x^2+a x+1} ; 0 < a < 2$<strong>Question:</strong>\nWhich of the following is true ?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "g5LKe",
+      "text": "\n$(2+a)^2 f^{\\prime \\prime}(1)+(2-a)^2 f^{\\prime \\prime}(-1)=0$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "uiRkz",
+      "text": "\n$(2-a)^2 f^{\\prime \\prime}(1)-(2+a)^2 f^{\\prime \\prime}(-1)=0$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "RYt2J",
+      "text": "\n$f^{\\prime}(1) f^{\\prime}(-1)=(2-a)^2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Rgdb9",
+      "text": "\n$f^{\\prime}(1) f^{\\prime}(-1)=-(2+a)^2$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\because f(x)= & \\frac{\\left(x^2+a x+1\\right)-2 a x}{x^2+a x+1}=1-\\frac{2 a x}{x^2+a x+1} \\\\\n\\therefore \\quad f^{\\prime}(x) & =-\\left[\\frac{\\left(x^2+a x+1\\right) \\cdot 2 a-2 a x(2 x+a)}{\\left(x^2+a x+1\\right)^2}\\right] \\\\\n& =-\\left[\\frac{-2 a x^2+2 a}{\\left(x^2+a x+1\\right)^2}\\right]=2 a\\left[\\frac{\\left(x^2-1\\right)}{\\left(x^2+a x+1\\right)^2}\\right]\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& \\text { and } \\begin{aligned}\nf^{\\prime \\prime}(x) & =2 a\\left[\\frac{\\left(x^2+a x+1\\right)^2(2 x)-2\\left(x^2-1\\right)\\left(x^2+a x+1\\right)(2 x+a)}{\\left(x^2+a x+1\\right)^4}\\right] \\\\\n& =2 a\\left[\\frac{2 x\\left(x^2+a x+1\\right)-2\\left(x^2-1\\right)(2 x+a)}{\\left(x^2+a x+1\\right)^3}\\right]\n\\end{aligned} \\\\\n& \\text { Now, } f^{\\prime \\prime}(1)=\\frac{4 a(a+2)}{(a+2)^3}=\\frac{4 a}{(a+2)^2}\n\\end{aligned}\n$$\nand $f(-1)=\\frac{4 a(a-2)}{(2-a)^3}=-\\frac{4 a}{(a-2)^2}$\n$$\n\\therefore(2+a)^2 f^{\\prime \\prime}(1)+(2-a)^2 f^{\\prime \\prime}(-1)=4 a-4 a=0\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c43",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2008-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008 (Paper 2)",
+    "title": "JEE Advanced 2008 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

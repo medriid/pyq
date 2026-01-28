@@ -1,0 +1,24 @@
+{
+  "index": 24,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $\\mathrm{a}, \\mathrm{b}$ and $\\mathrm{c}$ denote the outcome of three independent rolls of a fair tetrahedral die, whose four faces are marked $1,2,3,4$. If the probability that $a x^2+b x+c=0$ has all real roots is $\\frac{m}{n}$, $\\operatorname{gcd}(\\mathrm{m}, \\mathrm{n})=1$, then $\\mathrm{m}+\\mathrm{n}$ is equal to ________"
+  },
+  "options": [],
+  "correct_answer": "19",
+  "solution": {
+    "text": "$\\mathrm{a}, \\mathrm{b}, \\mathrm{c} \\in\\{1,2,3,4\\}$\n<img src=\"assets\\st0024_899f5b3414c4.png\"><br />Tetrahedral dice\n$a x^2+b x+c=0$\nhas all real roots\n$\\begin{aligned}\n& \\Rightarrow \\mathrm{D} \\geq 0 \\\\\n& \\Rightarrow \\mathrm{b}^2-4 \\mathrm{ac} \\geq 0\n\\end{aligned}$<br />Let $b=1 \\Rightarrow 1-4 a c \\geq 0$ (Not feasible)\n$\\begin{aligned} & b=2 \\Rightarrow 4-4 a c \\geq 0 \\\\ & 1 \\geq a c \\Rightarrow a=1, c=1, \\\\ & b=3 \\Rightarrow 9-4 a c \\geq 0 \\\\ & \\frac{9}{4} \\geq a c \\\\ & \\Rightarrow a=1, c=1 \\\\ & \\Rightarrow a=1, c=2 \\\\ & \\Rightarrow a=2, c=1 \\\\ & b=4 \\Rightarrow 16-4 a c \\geq 0 \\\\ & 4 \\geq a c\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow a=1, c=1 \\\\ & \\Rightarrow a=1, c=2 \\quad \\Rightarrow a=2, c=1 \\\\ & \\Rightarrow a=1, c=3 \\quad \\Rightarrow a=3, c=1 \\\\ & \\Rightarrow a=1, c=4 \\quad \\Rightarrow a=4, c=1 \\\\ & \\Rightarrow a=2, c=2 \\\\ & \\text { Probability }=\\frac{12}{(4)(4)(4)}=\\frac{3}{16}=\\frac{m}{m} \\\\ & m+n=19\\end{aligned}$"
+  }
+}

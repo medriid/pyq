@@ -1,0 +1,63 @@
+{
+  "_id": "64b169cdf23ac7d519f9ae9d",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1e77301f65c2f92c3f",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2006-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2006",
+      "title": "JEE Advanced 2006"
+    }
+  ],
+  "question": {
+    "text": "If $f(x)$ is cubic polynomial which has local maximum at $x=-1$. If $f(2)=18, f(1)=-1$ and $f^{\\prime}(x)$ has local minimum at $x=0$, then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "hoxqe",
+      "text": "\nthe distance between $(-1,2)$ and $(a, f(a))$ where $x=a$ is the point of local minima is $2 \\sqrt{5}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "aX7P7",
+      "text": "\n$f(x)$ is increasing for $x \\in[1,2 \\sqrt{5}]$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "ipZ0q",
+      "text": "\n$f(x)$ has local minima at $x=1$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "TeLh2",
+      "text": "\nthe value of $f(0)=5$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Since $f(x)$ has local maxima at $x=-1$ and $f^{\\prime}(x)$ has local minima at $x=0$.\n$$\n\\begin{aligned}\nf \\wedge(x) & =\\lambda x \\\\\nf^{\\prime}(x) & =\\lambda \\frac{x^2}{2}+c \\\\\n\\frac{\\lambda}{2}+c & =0 \\Rightarrow \\lambda=-2 c\n\\end{aligned}\n$$\n$$\n\\left[f^{\\prime}(-1)=0\\right]\n$$\nAgain, On integrating both sides, we get\n$$\n\\begin{aligned}\n& f(x)=\\lambda \\frac{x^3}{6}+c x+d \\\\\n& f(2)=\\lambda\\left(\\frac{8}{6}\\right)+2 c+d=18 \\\\\n& f(1)=\\frac{\\lambda}{6}+c+d=-1\n\\end{aligned}\n$$\nand\n$\\therefore$ Using Eqs. (i), (ii) and (iii), we get\n$$\n\\begin{aligned}\nf(x) & =\\frac{1}{4}\\left(19 x^3-57 x+34\\right) \\\\\n\\therefore \\quad f^{\\prime}(x) & =\\frac{1}{4}\\left(57 x^2-57\\right) \\\\\n& =\\frac{57}{4}(x-1)(x+1), \\text { using number line rule }\n\\end{aligned}\n$$\n$\\therefore f(x)$ is increasing for $[1,2 \\sqrt{5}]$ and $f(x)$ is increasing for $[1,2 \\sqrt{5}]$ and $f(x)$ has local maximum at $x=-1$ and $f(x)$ has local minimum at $C x=1$.\nAlso,\n$$\nf(0)=\\frac{34}{4} \\text {. }\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1e77301f65c2f92c3f",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2006-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2006",
+    "title": "JEE Advanced 2006"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

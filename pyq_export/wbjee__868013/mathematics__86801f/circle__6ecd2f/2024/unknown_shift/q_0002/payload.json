@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ce4cf0970c75b6ecd2f",
+    "chapter_name": "Circle",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If two circles which pass through the points (0, a) and (0, - a) and touch the line y = mx + c, cut orthogonally then"
+  },
+  "options": [
+    {
+      "text": "$c^2=a^2\\left(1+m^2\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$c^2=a^2\\left(2+m^2\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$c^2=a^2\\left(1+2 m^2\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 c^2=a^2\\left(1+m^2\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let the equation of the circles be\n\\(x^2+y^2+2 g x+2 f y+d=0 \\quad \\ldots(1)\\)\nSince, these circles pass through \\((0, a)\\) and \\((0,-a)\\) then\n\\(a^2+2 f a+d=0 \\quad \\ldots(2)\\)and \\(a^2-2 f a+d=0 \\quad \\ldots(3)\\)\nSolving (2) and (3), we get\n\\(\\mathrm{f}=0 \\text { and } \\mathrm{d}=-\\mathrm{a}^2 \\text {. }\\)\nSubstituting these values of \\(f\\) and \\(d\\) in (1), we obtain\n\\(x^2+y^2+2 g x-a^2=0 \\quad \\ldots(4)\\)\nNow, \\(\\mathrm{y}=\\mathrm{mx}+\\mathrm{c}\\) touch this circle.\nTherefore, perpendicular distance from the centre = radius\n\\(\\Rightarrow \\frac{|-m g-0+c|}{\\sqrt{1+m^2}}=\\sqrt{\\left(g^2+a^2\\right)}\\)\nSquaring both the sides\n\\(\\begin{aligned}\n& \\Rightarrow(c-m g)^2=\\left(1+m^2\\right)\\left(g^2+a^2\\right) \\\\\n& \\Rightarrow g^2+2 m c g+a^2\\left(1+m^2\\right)-c^2=0\n\\end{aligned}\\)\nLet \\(\\mathrm{g}_1, \\mathrm{~g}_2\\) are the roots of this equation\n\\(g_1 g_2=a^2\\left(1+m^2\\right)-c^2 \\quad \\ldots(5)\\)\nNow, the equation of the two circles represented by (4) are\n\\(x^2+y^2+2 g_1 x-a^2=0 \\text { and } x^2+y^2+2 g_2 x-a^2=0\\)\nThese two circles will cut orthogonal, if\n\\(\\begin{aligned}\n& 2 g_1 g_2+0=-a^2-a^2 \\\\\n& \\Rightarrow g_1 g_2=-a^2 \\quad \\ldots(6)\n\\end{aligned}\\)\nFrom (5) and (6),\n\\(\\begin{aligned}\n& -a^2=a^2\\left(1+m^2\\right)-c^2 \\\\\n& \\Rightarrow c^2=a^2\\left(2+m^2\\right)\n\\end{aligned}\\)"
+  }
+}

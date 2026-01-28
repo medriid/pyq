@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Solution of $(x+y)^{2} \\frac{d y}{d x}=a^{2}$ ('a' being a constant) is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{(x+y)}{a}=\\tan \\frac{y+C}{a}, C$ is an arbitrary constant",
+      "is_correct": true
+    },
+    {
+      "text": "$x y=a \\tan C x, C$ is an arbitrary constant",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{x}{a}=\\tan \\frac{y}{C}, C$ is an arbitrary constant",
+      "is_correct": false
+    },
+    {
+      "text": "$x y=\\tan (x+C), C$ is an arbitrary constant",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "We have, $(x+y)^{2} \\frac{d y}{d x}=a^{2}$\r\nLet $x+y=v$\r\n$\\therefore$\r\n$1+\\frac{d y}{d x}=\\frac{d v}{d x}$\r\n$\\frac{d y}{d x}=\\frac{d y}{d x}-1$\r\n$v^{2}\\left(\\frac{d v}{d x}-1\\right)=a^{2}$\r\n$\\Rightarrow$\r\n$v^{2} \\frac{d v}{d x}=v^{2}+a^{2}$\r\n$\\quad \\frac{d v}{d x}=\\frac{v^{2}+a^{2}}{v^{2}}$\r\n$\\Rightarrow \\quad \\frac{v^{2}}{v^{2}+d^{2}} d v=d x$\r\nOn integrating both sides, we get $\\int \\frac{v^{2}}{v^{2}+a^{2}} d v=\\int d x$\r\n$\\int\\left(1-\\frac{a^{2}}{v^{2}+a^{2}}\\right) \\mathrm{d} v=x+C^{\\prime}$\r\n$\\Rightarrow \\quad v-\\frac{a^{2}}{a} \\tan ^{-1} \\frac{v}{a}=x+C^{\\prime}$\r\n$\\Rightarrow \\quad x+y-a \\tan ^{-1} \\frac{x+y}{a}=x+C^{\\prime}$\r\n$\\Rightarrow \\quad y=a \\tan ^{-1} \\frac{x+y}{a}+C^{\\prime}$\r\n$=\\frac{y-C^{\\prime}}{a}=\\tan ^{-1} \\frac{x+y}{a}$\r\n$\\Rightarrow \\quad\\left(\\frac{x+y}{a}\\right)=\\tan \\left(\\frac{y+C}{a}\\right)$\r\nwhere $-C^{\\prime}=C$."
+  }
+}

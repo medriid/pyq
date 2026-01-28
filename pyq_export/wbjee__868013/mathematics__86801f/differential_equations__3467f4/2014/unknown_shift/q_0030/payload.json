@@ -1,0 +1,43 @@
+{
+  "index": 30,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The curve $y=(\\cos x+y)^{1 / 2}$ satisfies the differential equation"
+  },
+  "options": [
+    {
+      "text": "$(2 y-1) \\frac{d^{2} y}{d x^{2}}+2\\left(\\frac{d y}{d x}\\right)^{2}+\\cos x=0$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{d^{2} y}{d x^{2}}-2 y\\left(\\frac{d y}{d x}\\right)^{2}+\\cos x=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$(2 y-1) \\frac{d^{2} y}{d x^{2}}-2\\left(\\frac{d y}{d x}\\right)^{2}+\\cos x=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$(2 y-1) \\frac{d^{2} y}{d x^{2}}-\\left(\\frac{d y}{d x}\\right)^{2}+\\cos x=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given curve is\r\n$$\r\ny=(\\cos x+y)^{1 / 2}\r\n$$\r\nOn differentiating both sides w.r.t. $x,$ we get\r\n$$\r\n\\begin{aligned}\r\n\\frac{d y}{d x} &=\\frac{1}{2(\\cos x+y)^{1 / 2}} \\times\\left(-\\sin x+\\frac{d y}{d x}\\right) \\\\\r\n&=\\frac{\\left(-\\sin x+\\frac{d y}{d x}\\right)}{2 y} \\\\\r\n\\Rightarrow \\quad & 2 y \\frac{d y}{d x}=-\\sin x+\\frac{d y}{d x} \\\\\r\n\\Rightarrow \\quad(2 y-1) \\frac{d y}{d x} &=-\\sin x\r\n\\end{aligned}\r\n$$\r\nAgain, differentiating both sides w.r.t. $x$, we get\r\n$$\r\n\\begin{array}{r}\r\n(2 y-1) \\frac{d^{2} y}{d x^{2}}+\\frac{d y}{d x}\\left(2 \\frac{d y}{d x}\\right)=-\\cos x \\\\\r\n\\Rightarrow \\quad(2 y-1) \\frac{d^{2} y}{d x^{2}}+\\frac{d y}{d x}\\left(2 \\frac{d y}{d x}\\right)+\\cos x=0\r\n\\end{array}\r\n$$"
+  }
+}

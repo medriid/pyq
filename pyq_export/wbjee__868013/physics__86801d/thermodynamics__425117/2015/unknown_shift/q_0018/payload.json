@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c82a7939c5791425117",
+    "chapter_name": "Thermodynamics",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The pressure $p$, volume $V$ and temperature $T$ for a certain gas are related by $p=\\frac{A T-B T^{2}}{V}$ where $A$ and $B$ are constants. The work done by the gas when the temperature changes from $T_{1}$ to $T_{2}$ while the pressure remains constant, is given by"
+  },
+  "options": [
+    {
+      "text": "$A\\left(T_{2}-T_{1}\\right)+B\\left(T_{2}^{2}-T_{1}^{2}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{A\\left(T_{2}-T_{1}\\right)}{V_{2}-V_{1}}-\\frac{B\\left(T_{2}^{2}-T_{1}^{2}\\right)}{V_{2}-V_{1}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$ A\\left(\\tau_{2}-T_{1}\\right)-\\frac{B}{2}\\left(T_{2}^{2}-T_{1}^{2}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{A\\left(T_{2}-T_{1}^{2}\\right)}{V_{2}-V_{1}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given $P=\\frac{A T-B T^{2}}{V}$\r\n$\\begin{array}{lc}\\Rightarrow & P V=A T-B T^{2} \\\\ \\Rightarrow & P \\Delta V=A \\Delta T-B T \\Delta T\\end{array}$\r\nOn integrating, we get Work $=\\int P d V=A \\int_{T_{1}}^{T_{2}} d T-B \\int_{T_{1}}^{T_{2}} T d T$\r\n$=A\\left(T_{2}-T_{1}\\right)-\\frac{B}{2}\\left[\\left(T_{2}\\right)^{2}-\\left(T_{1}\\right)^{2}\\right]$"
+  }
+}

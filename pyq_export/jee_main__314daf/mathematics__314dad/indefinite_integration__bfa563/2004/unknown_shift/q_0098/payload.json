@@ -1,0 +1,43 @@
+{
+  "index": 98,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2004",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2004",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\int \\frac{\\sin x}{\\sin (x-\\alpha)} d x=A x+B \\log \\sin (x-\\alpha)+C$, then value of $(A, B)$ is"
+  },
+  "options": [
+    {
+      "text": "\n$(\\sin \\alpha, \\cos \\alpha)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(\\cos \\alpha, \\sin \\alpha)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$(-\\sin \\alpha, \\cos \\alpha)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(-\\cos \\alpha, \\sin \\alpha)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Put $x-\\alpha=t$\n$\\Rightarrow \\int \\frac{\\sin (\\alpha+t)}{\\sin t} d t=\\sin \\alpha \\int \\cot t d t+\\cos \\alpha \\int d t$\n$=\\cos \\alpha(x-\\alpha)+\\sin \\alpha \\ln |\\sin t|+c$\n$A=\\cos \\alpha, B=\\sin \\alpha$"
+  }
+}

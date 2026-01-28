@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $\\int \\mathrm{e}^x\\left(\\frac{x \\sin ^{-1} x}{\\sqrt{1-x^2}}+\\frac{\\sin ^{-1} x}{\\left(1-x^2\\right)^{3 / 2}}+\\frac{x}{1-x^2}\\right) \\mathrm{d} x=\\mathrm{g}(x)+\\mathrm{C}$, where C is the constant of integration, then $g\\left(\\frac{1}{2}\\right)$ equals :"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\pi}{4} \\sqrt{\\frac{e}{3}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{6} \\sqrt{\\frac{e}{3}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\pi}{4} \\sqrt{\\frac{e}{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{6} \\sqrt{\\frac{e}{2}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\frac{d}{d x}\\left(\\frac{x \\cdot \\sin ^{-1} x}{\\sqrt{1-x^2}}\\right)-\\sin ^{-1} x \\cdot\\left(\\frac{1 \\cdot \\sqrt{1-x^2}+\\frac{x \\cdot 2 x}{2 \\sqrt{1-x^2}}}{1-x^2}\\right) \\\\\n& =\\frac{x}{\\sqrt{1-x^2}} \\cdot \\frac{1}{\\sqrt{1-x^2}} \\\\\n& =\\frac{\\sin ^{-1} x}{\\left(1-x^2\\right)^{3 / 2}}+\\frac{x}{1-x^2}\n\\end{aligned}$\n$\\begin{aligned}\n& \\text { Hence, } I=\\int e^x\\left(f(x)+f^{\\prime}(x)\\right) d x \\\\\n& =e^x \\cdot f(x)+C \\\\\n& I=e^x \\cdot \\frac{x \\cdot \\sin ^{-1} x}{\\sqrt{1-x^2}}+C=g(x)+C \\\\\n& \\Rightarrow g(x)=\\frac{x e^x \\sin ^{-1} x}{\\sqrt{1-x^2}} \\text { and } g(1 / 2)=\\frac{\\pi}{6} \\sqrt{\\frac{e}{3}}\n\\end{aligned}$"
+  }
+}

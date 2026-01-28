@@ -1,0 +1,43 @@
+{
+  "index": 234,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2002",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2002",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$f(x)$ and $g(x)$ are two differentiable functions on $[0,2]$ such that $f^{\\prime \\prime}(x)-g^{\\prime \\prime}(x)=0$ \n$f^{\\prime}(1)=2 g^{\\prime}(1)=4 f(2)=3 g(2)=9$ then $f(x)-g(x)$ at $x=3 / 2$ is"
+  },
+  "options": [
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n2\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n10\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n5",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\because f^{\\prime \\prime}(x)-g^{\\prime \\prime}(x)=0$\nIntegrating, $f^{\\prime}(x)-g^{\\prime}(x)=c \\Rightarrow f^{\\prime}(1)-g^{\\prime}(1)=c \\Rightarrow 4-2=c \\Rightarrow c=2$\n$\\therefore f^{\\prime}(x)-g^{\\prime}(x)=2 ;$ Integrating, $f(x)-g(x)=2 x+c_1$\n$\\Rightarrow f(2)-g(2)=4+c_1 \\Rightarrow 9-3=4+c_1 \\Rightarrow c_1=2 \\quad \\therefore f(x)-g(x)=2 x+2$\nAt $x=3 / 2, f(x)-g(x)=3+2=5$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2023 (13 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254533dd7c0008b65699",
+    "chapter_name": "Mathematical Reasoning",
+    "year": "2023",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The statement <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>p</mi><mo>&#8743;</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>)</mo><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mo>(</mo><mo>~</mo><mi>p</mi><mo>)</mo><mo>&#160;</mo><mo>&#8743;</mo><mo>&#160;</mo><mi>q</mi><mo>)</mo><mo>&#160;</mo><mo>&#8744;</mo><mo>(</mo><mo>(</mo><mo>~</mo><mi>p</mi><mo>)</mo><mo>&#160;</mo><mo>&#8743;</mo><mo>&#160;</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>)</mo><mo>)</mo></math> is equivalent to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>_</mi><mi>_</mi><mi>_</mi><mi>_</mi><mi>_</mi></math>"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mo>~</mo><mi>p</mi></mrow></mfenced><mo>&#8744;</mo><mi>q</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mo>~</mo><mi>p</mi></mrow></mfenced><mo>&#8744;</mo><mfenced><mrow><mo>~</mo><mi>q</mi></mrow></mfenced></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>&#8744;</mo><mfenced><mrow><mo>~</mo><mi>q</mi></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>&#8744;</mo><mi>q</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<blockquote><p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>p</mi><mo>&#8743;</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>)</mo><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mo>(</mo><mo>~</mo><mi>p</mi><mo>)</mo><mo>&#160;</mo><mo>&#8743;</mo><mo>&#160;</mo><mi>q</mi><mo>)</mo><mo>&#160;</mo><mo>&#8744;</mo><mo>(</mo><mo>(</mo><mo>~</mo><mi>p</mi><mo>)</mo><mo>&#160;</mo><mo>&#8743;</mo><mo>&#160;</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>)</mo><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mo>(</mo><mo>~</mo><mi>p</mi><mo>)</mo><mo>&#160;</mo><mo>&#8743;</mo><mo>&#160;</mo><mi>q</mi><mo>)</mo><mo>&#160;</mo><mo>&#8744;</mo><mo>(</mo><mo>(</mo><mo>~</mo><mi>p</mi><mo>)</mo><mo>&#160;</mo><mo>&#8743;</mo><mo>&#160;</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>)</mo><mo>)</mo><mo>&#8744;</mo><mo>(</mo><mi>p</mi><mo>&#8743;</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>)</mo><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced><mrow><mo>~</mo><mi>p</mi><mo>&#8743;</mo><mfenced><mrow><mi>q</mi><mo>&#8744;</mo><mo>~</mo><mi>q</mi></mrow></mfenced></mrow></mfenced><mo>&#8744;</mo><mfenced><mrow><mi>p</mi><mo>&#8743;</mo><mo>~</mo><mi>q</mi></mrow></mfenced></math></p><p>We know that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>~</mo><mi>A</mi><mo>&#8744;</mo><mi>A</mi><mo>=</mo><mi>T</mi></math>, where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math>&nbsp;is tautology,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced><mrow><mo>~</mo><mi>p</mi><mo>&#8743;</mo><mi>T</mi></mrow></mfenced><mo>&#8744;</mo><mfenced><mrow><mi>p</mi><mo>&#8743;</mo><mo>~</mo><mi>q</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>~</mo><mi>p</mi><mo>&#8744;</mo><mfenced><mrow><mi>p</mi><mo>&#8743;</mo><mo>~</mo><mi>q</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced><mrow><mo>~</mo><mi>p</mi><mo>&#8744;</mo><mi>p</mi></mrow></mfenced><mo>&#8743;</mo><mfenced><mrow><mo>~</mo><mi>p</mi><mo>&#8744;</mo><mo>~</mo><mi>q</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>T</mi><mo>&#8743;</mo><mfenced><mrow><mo>~</mo><mi>p</mi><mo>&#8744;</mo><mo>~</mo><mi>q</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>~</mo><mi>p</mi><mo>&#8744;</mo><mo>~</mo><mi>q</mi></math></p></blockquote>"
+  }
+}

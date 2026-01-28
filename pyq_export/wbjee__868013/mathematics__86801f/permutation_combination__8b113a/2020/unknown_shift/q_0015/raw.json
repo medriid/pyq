@@ -1,0 +1,63 @@
+{
+  "_id": "64a81469e0ff5a5425a85b62",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7f",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2020-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2020",
+      "title": "WBJEE 2020"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 3,
+  "question": {
+    "text": "In a certain test, there are n questions. In this test $2^{n-i}$ students gave wrong answers to at least i questions, where i $=1,2, \\ldots \\ldots \\mathrm{n}$. If the total number of wrong answers given is 2047 , then $\\mathrm{n}$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "TvvZZ",
+      "text": "10",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "hc0o8",
+      "text": "11",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "rvUxp",
+      "text": "12",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "nvHA7",
+      "text": "13",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint: \r\nTotal students was gave wrong answer to exactly i - questions $=2^{n-i}-2^{n-(i+1)}$\r\nTotal wrong answer given \\(\\sum_{i=0}^{n-1} i \\times \\left(2^{n-i}-2^{n-(i+1)}\\right)+n \\times 1\\)\r\n$\\Rightarrow 2^{n-1}+\\ldots \\ldots 1=2047$\r\n$\\Rightarrow 2^{n}=2048$\r\n$\\Rightarrow \\mathrm{n}=11$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7f",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2020-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2020",
+    "title": "WBJEE 2020"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

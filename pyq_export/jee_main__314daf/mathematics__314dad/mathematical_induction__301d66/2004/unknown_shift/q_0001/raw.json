@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a61417cc3fb48d655e7",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c4",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2004-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2004",
+      "title": "JEE Main 2004"
+    }
+  ],
+  "question": {
+    "text": "Let $S(K)=1+3+5+\\ldots+(2 K-1)=3+K^2$. Then which of the following is true?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "5ZsIo",
+      "text": "\n$S(1)$ is correct\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "FtUTD",
+      "text": "\nPrinciple of mathematical induction can be used to prove the formula\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Kz4Ov",
+      "text": "\n$S(K) \\neq S(K+1)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ufbFo",
+      "text": "\n$\\mathrm{S}(\\mathrm{K}) \\Rightarrow \\mathrm{S}(\\mathrm{K}+1)$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& S(k)=1+3+5+\\ldots \\ldots . .+(2 k-1)=3+k^2 \\\\\n& S(k+1)=1+3+5+\\ldots \\ldots \\ldots+(2 k-1)+(2 k+1) \\\\\n& =\\left(3+k^2\\right)+2 k+1=k^2+2 k+4\\left[\\text { from } S(k)=3+k^2\\right] \\\\\n& =3+\\left(k^2+2 k+1\\right)=3+(k+1)^2=S(k+1)\n\\end{aligned}\n$$\nAlthough $S(k)$ in itself is not true but it considered true will always imply towards $S(k+1)$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c4",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2004-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2004",
+    "title": "JEE Main 2004"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

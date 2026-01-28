@@ -1,0 +1,63 @@
+{
+  "_id": "64a813dbe0ff5a5425a85626",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012",
+      "title": "WBJEE 2012"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "The value of $\\lim _{n \\rightarrow \\infty} \\frac{(n !)^{n}}{\\frac{1}{n}}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "p9OOY",
+      "text": "1",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "twobx",
+      "text": "$\\frac{1}{e^{2}}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "XdFrL",
+      "text": "$\\frac{1}{2 e} \\quad$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "LIM3o",
+      "text": "$\\frac{1}{e}$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow \\infty} \\frac{(n !)^{1 / n}}{n}=\\lim _{n \\rightarrow-}\\left(\\frac{n !}{n^{n}}\\right)^{1 / n}$\r\nWe have, $\\frac{n !}{n^{n}}=\\frac{1 \\cdot 2 \\cdot 3}{n \\cdot n \\cdot n} \\frac{n}{n}$\r\n$\\therefore \\quad\\left\\{\\frac{n !}{n^{n}}\\right\\}^{1 / n}=\\left\\{\\frac{1}{n} \\cdot \\frac{2}{n} \\cdot \\frac{3}{n} \\cdots \\frac{r}{n} \\cdots \\frac{n}{n}\\right\\}^{1 / n}$\r\n$\\Rightarrow \\lim _{n \\rightarrow \\infty}\\left\\{\\frac{n !}{n^{n}}\\right\\}^{1 / n}=\\lim _{n \\rightarrow \\infty}\\left\\{\\frac{1}{n} \\cdot \\frac{2}{n} \\cdot \\frac{3}{n} \\cdots \\frac{r}{n} \\cdots \\frac{n}{n}\\right\\}^{1 / n}$\r\nLet $\\quad A=\\lim _{n \\rightarrow \\infty}\\left\\{\\frac{n !}{n^{n}}\\right\\}^{1 / n}$\r\nThen, $A=\\lim _{n \\rightarrow-}\\left\\{\\frac{1}{n} \\cdot \\frac{2}{n} \\cdot \\frac{3}{n} \\cdots \\frac{r}{n} \\cdots \\frac{n}{n}\\right\\}^{1 / n}$\r\n$\\begin{aligned} \\Rightarrow \\quad \\log A &=\\lim _{n \\rightarrow \\infty} \\frac{1}{n} \\Sigma \\log \\left(\\frac{r}{n}\\right)=\\int_{0}^{1} \\log x d x \\\\ &=\\left[x \\log x-\\int \\frac{1}{x} \\cdot x d x\\right]_{0}^{1} \\end{aligned}$\r\nIntegrating by parts $=[x \\log x-x]_{0}^{1}=-1$\r\n$\\Rightarrow \\quad A=e^{-1}=\\frac{1}{e}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012",
+    "title": "WBJEE 2012"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

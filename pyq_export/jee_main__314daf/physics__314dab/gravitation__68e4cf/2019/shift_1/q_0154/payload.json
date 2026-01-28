@@ -1,0 +1,43 @@
+{
+  "index": 154,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2019 (12 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023cfe4a89d96c568e4cf",
+    "chapter_name": "Gravitation",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "A straight rod of length <math><mi>L</mi></math> extends from <math><mi>x</mi><mo>=</mo><mi>a</mi></math> to <math><mi>x</mi><mo>=</mo><mi>L</mi><mo>+</mo><mi>a</mi><mo>.</mo></math> The gravitational force it exerts on a point mass &#39;<em>m</em>&#39;&nbsp;at <math><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo></math> if the mass per unit length of the rod is <math><mi>A</mi><mo>+</mo><mi>B</mi><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>,</mo></math> is given by:"
+  },
+  "options": [
+    {
+      "text": "<math><mi>G</mi><mi>m</mi><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi>A</mi><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>a</mi><mo>+</mo><mi>L</mi></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>a</mi></mrow></mfrac></mrow></mfenced><mo>+</mo><mi>B</mi><mi>L</mi></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>G</mi><mi>m</mi><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi>A</mi><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>a</mi><mo>+</mo><mi>L</mi></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>a</mi></mrow></mfrac></mrow></mfenced><mo>-</mo><mi>B</mi><mi>L</mi></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>G</mi><mi>m</mi><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi>A</mi><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>a</mi></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>a</mi><mo>+</mo><mi>L</mi></mrow></mfrac></mrow></mfenced><mo>-</mo><mi>B</mi><mi>L</mi></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>G</mi><mi>m</mi><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi>A</mi><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>a</mi></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>a</mi><mo>+</mo><mi>L</mi></mrow></mfrac></mrow></mfenced><mo>+</mo><mi>B</mi><mi>L</mi></mrow></mfenced></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0154_b9dae1cdef21.png\" /><br /><br /><math><mi>F</mi><mo>=</mo><mrow><munderover><mo stretchy=\"true\">∫</mo><mrow><mi>a</mi></mrow><mrow><mi>a</mi><mo>+</mo><mn>L</mn></mrow></munderover><mrow><mfrac><mrow><mi>G</mi><mi>m</mi><mtext> </mtext><mi>d</mi><mi>M</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></mrow><mo>=</mo><mi>Gm</mi><mrow><munderover><mo stretchy=\"true\">∫</mo><mrow><mi>a</mi></mrow><mrow><mi>a</mi><mo>+</mo><mn>L​</mn></mrow></munderover><mrow><mfrac><mrow><mo>(</mo><mi>A</mi><mo>+</mo><mi>B</mi><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>)</mo><mi>d</mi><mi>x</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></mrow></math><br /><br /><math><mo>=</mo><mi>G</mi><mi>m</mi><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mrow><munderover><mo stretchy=\"true\">∫</mo><mrow><mi>a</mi></mrow><mrow><mi>a</mi><mo>+</mo><mn>L</mn></mrow></munderover><mrow><mfrac><mrow><mi>A</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac><mi>d</mi><mi>x</mi><mo>+</mo><mrow><munderover><mo stretchy=\"true\">∫</mo><mrow><mi>a</mi></mrow><mrow><mi>a</mi><mo>+</mo><mn>L</mn></mrow></munderover><mrow><mi>B</mi><mtext>  </mtext><mi>d</mi><mi>x</mi></mrow></mrow></mrow></mrow></mrow></mfenced></math><br /><br /><math><mo>=</mo><mi>G</mi><mi>m</mi><mo>[</mo><mi>A</mi><msubsup><mrow><mo>[</mo><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac><mo>]</mo></mrow><mrow><mi>a</mi></mrow><mrow><mi>a</mi><mo>+</mo><mn>L</mn></mrow></msubsup><mo>+</mo><mi>B</mi><mi>L</mi><mo>]</mo></math><br /><br /><math><mo>=</mo><mi>G</mi><mi>m</mi><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi>A</mi><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>a</mi></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>a</mi><mo>+</mo><mi>L</mi></mrow></mfrac></mrow></mfenced><mo>+</mo><mi>B</mi><mi>L</mi></mrow></mfenced></math>"
+  }
+}

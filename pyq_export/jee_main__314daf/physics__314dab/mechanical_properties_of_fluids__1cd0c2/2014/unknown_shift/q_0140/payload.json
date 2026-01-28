@@ -1,0 +1,43 @@
+{
+  "index": 140,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023db0dd81950d11cd0c2",
+    "chapter_name": "Mechanical Properties of Fluids",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A cylindrical vessel of cross-section A contains water to a height $\\mathrm{h}$. There is a hole in the bottom of radius ' $a$ '. The time in which it will be emptied is:"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{2 \\mathrm{~A}}{\\pi \\mathrm{a}^2} \\sqrt{\\frac{\\mathrm{h}}{\\mathrm{g}}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\sqrt{2} \\mathrm{~A}}{\\pi \\mathrm{a}^2} \\sqrt{\\frac{\\mathrm{h}}{\\mathrm{g}}}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{2 \\sqrt{2} \\mathrm{~A}}{\\pi \\mathrm{a}^2} \\sqrt{\\frac{\\mathrm{h}}{\\mathrm{g}}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\mathrm{A}}{\\sqrt{2} \\pi \\mathrm{a}^2} \\sqrt{\\frac{\\mathrm{h}}{\\mathrm{g}}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\text { Let the rate of falling water level be }-\\frac{d h}{d t}\n$$\n<img src=\"assets\\st0140_c8be349696fb.png\"><br>\nInitially at $t=0 ; h=h$\n$$\nt=t ; h=0\n$$\nThen, $A\\left(-\\frac{d h}{d t}\\right)=\\pi a^2 \\cdot v$\n$$\nd t=-\\frac{A}{\\pi a^2 \\sqrt{2 g h}} d h\n$$\n$[\\because$ velocity of efflux of liquid $v=\\sqrt{2 g h}]$ Integrating both sides\n$$\n\\int_0^t d t=-\\frac{A}{\\sqrt{2 g} \\pi a^2} \\int_h^0 h^{-1 / 2} d h\n$$\n$$\n[t]_0^t=-\\frac{A}{\\sqrt{2 g} \\pi a^2} \\cdot\\left[\\frac{h^{1 / 2}}{1 / 2}\\right]_h^0\n$$\n\n$$\nt=\\frac{\\sqrt{2} A}{\\pi a^2} \\sqrt{\\frac{h}{g}}\n$$"
+  }
+}

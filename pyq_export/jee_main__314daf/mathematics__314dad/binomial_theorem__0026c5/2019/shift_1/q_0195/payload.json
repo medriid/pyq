@@ -1,0 +1,43 @@
+{
+  "index": 195,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The value of $r$ for which\r\n\r\n$$\r\n\r\n{ }^{20} C_{r}{ }^{20} C_{0}+{ }^{20} C_{r-1}{ }^{20} C_{1}+{ }^{20} C_{r-2}{ }^{20} C_{2}+\\ldots+{ }^{20} C_{0}{ }^{20} C_{r}\r\n\r\n$$ is maximum, is:"
+  },
+  "options": [
+    {
+      "text": "15",
+      "is_correct": false
+    },
+    {
+      "text": "20",
+      "is_correct": true
+    },
+    {
+      "text": "11",
+      "is_correct": false
+    },
+    {
+      "text": "10",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Consider the expression ${ }^{20} C_{r}{ }^{20} C_{0}+{ }^{20} C_{r-1}{ }^{20} C_{1}$ $+{ }^{20} C_{r-2}{ }^{20} C_{2}+\\ldots+{ }^{20} C_{0} \\cdot{ }^{20} C_{r}$\r\n\r\n\r\n\r\nFor maximum value of above expression $r$ should be equal to 20 .\r\n\r\nas\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n{ }^{20} C_{20} \\cdot{ }^{20} C_{0}+{ }^{20} C_{19} \\cdot{ }^{20} C_{1}+\\ldots+{ }^{20} C_{20} \\cdot{ }^{20} C_{0} \\\\\r\n\r\n=\\left({ }^{20} C_{0}\\right)^{2}+\\left({ }^{20} C_{1}\\right)^{2}+\\cdots+\\left({ }^{20} C_{20}\\right)^{2}={ }^{40} C_{20}\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nWhich is the maximum value of the expression, So, $r=20$."
+  }
+}

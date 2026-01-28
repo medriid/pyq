@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2025",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $E$ and $F$ are two independent events with $P(E)=0.3$ and $P(E \\cup F)=0.5$, then $P(E / F)-P(F / E)$ equals"
+  },
+  "options": [
+    {
+      "text": "$\\frac{2}{7}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{3}{35}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{70}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{7}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\text {  } P(E \\cup F)=P(E)+P(F)-P(E \\cap F) \\\\\n& \\Rightarrow 0.5=0.3+P(F)-P(E) \\cdot P(F) \\\\\n& \\Rightarrow 0.2=P(F)-0.3 P(F) \\\\\n& \\Rightarrow P(F)=\\frac{2}{7}\n\\end{aligned}$\n\nSo, $P(E / F)-P(F / E)=P(E)-P(F)=\\frac{3}{10}-\\frac{2}{7}=\\frac{21-20}{70}=\\frac{1}{70}$"
+  }
+}

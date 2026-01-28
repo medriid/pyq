@@ -1,0 +1,43 @@
+{
+  "index": 47,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc9a79d891b2548bdd8",
+    "chapter_name": "Complex Number",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\frac{z-1}{z+1}$ is purely imaginary, then"
+  },
+  "options": [
+    {
+      "text": "$|z|=\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$|z|=1$",
+      "is_correct": true
+    },
+    {
+      "text": "$|z|=2$",
+      "is_correct": false
+    },
+    {
+      "text": "$|z|=3$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $\\omega=\\frac{z-1}{z+1}$\r\nThen, using componendo and dividendo, we get\r\n$$\r\n\\begin{array}{l}\r\n\\quad z=\\frac{1+\\omega}{1-\\omega} \\\\\r\n\\Rightarrow \\quad|z|=\\left|\\frac{\\omega+1}{\\omega-1}\\right| \\\\\r\n\\Rightarrow \\quad|z|=1 \\\\\r\n\\Rightarrow \\quad|\\omega+1|=|\\omega-1|\r\n\\end{array}\r\n$$\r\nLet $6=u+i v$\r\nThen, $|\\omega+1|=|u+i v+1|$\r\n$$\r\n=|(u+1)+i v|=\\sqrt{(u+1)^{2}+v^{2}}\r\n$$\r\nand $|\\omega-1|=\\sqrt{(t u-1)^{2}+v^{2}}$\r\n$\\therefore$ From Eq. (i)\r\n$$\r\n\\begin{array}{rlr} \r\n& \\sqrt{(u+1)^{2}+v^{2}}=\\sqrt{(u-1)^{2}+v^{2}} \\\\\r\n\\Rightarrow & (u+1)^{2}+v^{2} & =(v-1)^{2}+v^{2} \\\\\r\n\\Rightarrow & u=0\r\n\\end{array}\r\n$$\r\n$\\therefore \\omega=\\frac{z-1}{z+1}$ is a pure imaginary number."
+  }
+}

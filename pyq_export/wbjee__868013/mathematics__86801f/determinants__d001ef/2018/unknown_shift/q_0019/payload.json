@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0a7e939ac068d001ef",
+    "chapter_name": "Determinants",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the polynomial $f(x)=\\left|\\begin{array}{ccc}(1+x)^{a} & (2+x)^{b} & 1 \\\\ 1 & (1+x)^{a} & (2+x)^{b} \\\\ (2+x)^{b} & 1 & (1+x)^{a}\\end{array}\\right|,$ then the\r\nconstant term of $f(x)$ is $[a$ and $b$ are positive integers $]$"
+  },
+  "options": [
+    {
+      "text": "$2-3 \\cdot 2^{b}+2^{3 b}$",
+      "is_correct": true
+    },
+    {
+      "text": "$2+3 \\cdot 2^{b}+2^{3 b}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2+3 \\cdot 2^{b}-2^{3 b}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2-3 \\cdot 2^{b}-2^{3 b}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given, $f(x)=\\left|\\begin{array}{ccc}(1+x)^{a} & (2+x)^{b} & 1 \\\\ 1 & (1+x)^{4} & (2+x)^{b} \\\\ (2+x)^{b} & 1 & (1+x)^{a}\\end{array}\\right|$\r\nFor constant term put $x=0$ $f(0)=\\left|\\begin{array}{ccc}1 & 2^{b} & 1 \\\\ 1 & 1 & 2 \\\\ 2^{b} & 1 & 1\\end{array}\\right|$\r\n$=1\\left(1-2^{b}\\right)-2^{b}\\left(1-2^{2 b}\\right)+1\\left(1-2^{b}\\right)$\r\n$=1-2^{b}-2^{b}+2^{3 b}+1-2^{b}$\r\n$=2-3 \\cdot 2^{b}+2^{3 b}$"
+  }
+}

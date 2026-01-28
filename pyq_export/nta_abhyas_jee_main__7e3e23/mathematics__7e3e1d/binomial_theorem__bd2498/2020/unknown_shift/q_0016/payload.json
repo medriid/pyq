@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025320696c5af2bbd2498",
+    "chapter_name": "Binomial Theorem",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If <math><msub><mrow><mi>C</mi></mrow><mrow><mn>0</mn></mrow></msub><mo>,</mo><mi>&#160;</mi><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>,</mo><mi>&#160;</mi><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>,</mo><mi>&#160;</mi><mo>&#8230;</mo><mo>&#8230;</mo><msub><mrow><mi>C</mi></mrow><mrow><mi>n</mi></mrow></msub></math> denotes the binomial coefficients in the expansion of <math><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow><mrow><mi>n</mi></mrow></msup></math>, then the value of<br />\r<br />\r<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>0</mn></msub><mi mathvariant=\"normal\">+</mi><mfrac><msub><mi>C</mi><mn>1</mn></msub><mn>2</mn></mfrac><mo>+</mo><mfrac><msub><mi>C</mi><mn>2</mn></msub><mn>3</mn></mfrac><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><mfrac><msub><mi>C</mi><mi>n</mi></msub><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math>&nbsp;is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><mfrac><mrow><msup><mrow><mn>2</mn></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>-</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mfrac><mrow><msup><mrow><mn>2</mn></mrow><mrow><mi>n</mi></mrow></msup><mo>-</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><msup><mrow><mn>2</mn></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>-</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><msup><mrow><mn>2</mn></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>-</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "We know that ,<br/><br/><math><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced></mrow><mrow><mi>n</mi></mrow></msup><mo>=</mo><msub><mrow><mi>C</mi></mrow><mrow><mn>0</mn></mrow></msub><mo>+</mo><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><mi>x</mi><mo>+</mo><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mo>…</mo><mo>+</mo><msub><mrow><mi>C</mi></mrow><mrow><mi>n</mi></mrow></msub><msup><mrow><mi>x</mi></mrow><mrow><mi>n</mi></mrow></msup></math><br/><br/>On integrating both sides, from 0 to 1, we get<br/><br/><math><msubsup><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mfrac><mrow><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></mfenced></mrow><mrow><mn>0</mn></mrow><mrow><mn>1</mn></mrow></msubsup><mo>=</mo><msubsup><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><msup><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>0</mn></mrow></msub><mi>x</mi><mo>+</mo><mfrac><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>2</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow><mrow><mn>3</mn></mrow></mfrac><mo>+</mo><mo>…</mo><mo>+</mo><mfrac><mrow><msub><mrow><mi>C</mi></mrow><mrow><mi>n</mi></mrow></msub><msup><mrow><mi>x</mi></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow><mrow><mi> </mi></mrow></msup></mrow></mfenced></mrow><mrow><mn>0</mn></mrow><mrow><mn>1</mn></mrow></msubsup></math><br/><br/><math><mo>⟹</mo><mfrac><mrow><msup><mrow><mn>2</mn></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>-</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><msub><mrow><mi>C</mi></mrow><mrow><mn>0</mn></mrow></msub><mo>+</mo><mfrac><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow><mrow><mn>2</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub></mrow><mrow><mn>3</mn></mrow></mfrac><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><mfrac><mrow><msub><mrow><mi>C</mi></mrow><mrow><mi>n</mi></mrow></msub></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math>"
+  }
+}

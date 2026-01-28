@@ -1,0 +1,43 @@
+{
+  "index": 40,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2010 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602563f6918f74a3b3a999",
+    "chapter_name": "Definite Integration",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value(s) of $\\int_0^1 \\frac{x^4(1-x)^4}{1+x^2} d x$ is (are)"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{22}{7}-\\pi$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{2}{105}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{71}{15}-\\frac{3 \\pi}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $I=\\int_0^1 \\frac{x^4(1-x)^4}{1+x^2} d x$\n$$\n\\begin{aligned}\n& =\\int_0^1 \\frac{\\left(x^4-1\\right)(1-x)^4+(1-x)^4}{\\left(1+x^2\\right)} d x \\\\\n& =\\int_0^1\\left(x^2-1\\right)(1-x)^4 d x \\\\\n& +\\int_0^1 \\frac{\\left(1+x^2-2 x\\right)^2}{\\left(1+x^2\\right)} d x \\\\\n& =\\int_0^1\\left\\{\\left(x^2-1\\right)(1-x)^4+\\left(1+x^2\\right)-4 x\\right. \\\\\n& \\left.+\\frac{4 x^2}{\\left(1+x^2\\right)}\\right\\} d x \\\\\n& =\\int_0^1\\left(\\left(x^2-1\\right)(1-x)^4+\\left(1+x^2\\right)-4 x\\right. \\\\\n& \\left.+4-\\frac{4}{1-x^2}\\right) d x \\\\\n& =\\int_0^1\\left(x^6-4 x^5+5 x^4-4 x^2\\right. \\\\\n& \\left.+4-\\frac{4}{1+x^2}\\right) d x \\\\\n& =\\left[\\frac{x^7}{7}-\\frac{4 x^6}{6}+\\frac{5 x^5}{5}\\right. \\\\\n&\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& \\left.\\quad-\\frac{4 x^3}{3}+4 x-4 \\tan ^{-1} x\\right]_0^1 \\\\\n= & \\frac{1}{7}-\\frac{4}{6}+\\frac{5}{5}-\\frac{4}{3}+4-4\\left(\\frac{\\pi}{4}-0\\right) \\\\\n= & \\frac{22}{7}-\\pi\n\\end{aligned}\n$$"
+  }
+}

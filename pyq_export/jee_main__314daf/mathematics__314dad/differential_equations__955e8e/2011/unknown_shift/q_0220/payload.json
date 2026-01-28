@@ -1,0 +1,43 @@
+{
+  "index": 220,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2011",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let I be the purchase value of an equipment and $\\mathrm{V}(\\mathrm{t})$ be the value after it has been used for t years. The value $\\mathrm{V}(\\mathrm{t})$ depreciates at a rate given by differential equation $\\frac{\\mathrm{dV}(\\mathrm{t})}{\\mathrm{dt}}=-\\mathrm{k}(\\mathrm{T}-\\mathrm{t})$, where $\\mathrm{k}>0$ is a constant and $\\mathrm{T}$ is the total life in years of the equipment. Then the scrap value $\\mathrm{V}(\\mathrm{T})$ of the equipment is"
+  },
+  "options": [
+    {
+      "text": "\n$\\mathrm{I}-\\frac{\\mathrm{kT}}{2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$1-\\frac{k(T-t)^2}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$e^{-k T}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{T}^2-\\frac{1}{\\mathrm{k}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\frac{d V}{d t}=-k(T-t) \\Rightarrow d V=-k(T-t) d t\n$$\nIntegrate\n$$\nV=\\frac{-k(T-t)^2}{(-2)}+c \\Rightarrow V=\\frac{k(T-t)^2}{2}+c\n$$\nat $\\mathrm{t}=\\mathrm{0} \\Rightarrow \\mathrm{V}=\\mathrm{I}$\n$$\n\\mathrm{I}=\\frac{\\mathrm{kT}}{2}+\\mathrm{c} \\Rightarrow \\mathrm{c}=\\mathrm{I}-\\frac{\\mathrm{kT} \\mathrm{T}^2}{2} \\Rightarrow \\mathrm{c}=\\mathrm{V}(\\mathrm{T})=\\mathrm{I}-\\frac{\\mathrm{kT} \\mathrm{T}^2}{2}\n$$"
+  }
+}

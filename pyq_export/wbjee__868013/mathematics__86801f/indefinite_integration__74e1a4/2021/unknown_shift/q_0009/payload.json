@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\int \\frac{\\sin 2 x}{(a+b \\cos x)^{2}} d x=\\alpha\\left[\\log _{e}|a+b \\cos x|+\\frac{a}{a+b \\cos x}\\right]+c$, then $\\alpha=$"
+  },
+  "options": [
+    {
+      "text": "$\\frac{2}{\\mathrm{~b}^{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2}{a^{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{2}{b^{2}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$-\\frac{2}{\\mathrm{a}^{2}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\int \\frac{\\sin 2 x}{(a+b \\cos x)^{2}} d x$\r\nPut $a+b \\cos x=t$\r\n$-b \\sin x d x=d t$\r\n$=\\int \\frac{2 \\sin x \\cos x}{t^{2}} \\cdot \\frac{d t}{-b \\sin x}=\\int \\frac{-2}{b} \\cdot\\left(\\frac{t-a}{b}\\right) \\cdot \\frac{1}{t^{2}} d t=\\frac{-2}{b^{2}} \\int\\left(\\frac{1}{t}-\\frac{a}{t^{2}}\\right) d t \\quad \\therefore \\alpha=\\frac{-2}{b^{2}}$\r\n$=-\\frac{2}{b^{2}}\\left[\\ln |t|+\\frac{a}{t}\\right]+c$\r\n$=\\frac{-2}{b^{2}}\\left[\\ln |a+b \\cos x|+\\frac{a}{a+b \\cos x}\\right]+c$"
+  }
+}

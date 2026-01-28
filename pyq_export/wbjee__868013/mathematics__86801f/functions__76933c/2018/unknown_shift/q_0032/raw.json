@@ -1,0 +1,63 @@
+{
+  "_id": "64a81448e0ff5a5425a85a32",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7d",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2018-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018",
+      "title": "WBJEE 2018"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Consider the function $y=\\log _{a}\\left(x+\\sqrt{\\left.x^{2}+1\\right)}\\right.$ $a>0, a \\neq 1 .$ The inverse of the function",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "TOMnv",
+      "text": "does not exist",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "7lXsy",
+      "text": "is $x=\\log _{1 / a}\\left(y+\\sqrt{y^{2}+1}\\right)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "DQkk8",
+      "text": "is $x=\\sinh (y$ loga)",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "Ez3FS",
+      "text": "is $x=\\cosh \\left(-y \\log \\frac{1}{a}\\right)$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $y=\\log _{a}\\left(x+\\sqrt{x^{2}+1}\\right), a>0, a \\neq 1$\r\n$\\Rightarrow \\quad a^{y}=\\left(x+\\sqrt{x^{2}+1}\\right)$\r\n$\\Rightarrow \\begin{aligned} a^{-y} &=\\frac{1}{x+\\sqrt{x^{2}+1}} \\\\ &=\\sqrt{x^{2}+1}-x \\end{aligned}$\r\n$\\Rightarrow \\quad a^{y}-a^{-y}=2 x \\Rightarrow x=\\frac{a^{y}-a^{-y}}{2}$\r\n$\\Rightarrow \\quad f^{-1}(y)=\\frac{e^{y \\log a}-e^{-y \\log a}}{2}$\r\n$\\Rightarrow f^{-1}(y)=\\sinh (y \\log a)$$\\quad\\left(\\because \\frac{e^{x}-e^{-x}}{2}=\\sinh (x)\\right)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7d",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2018-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018",
+    "title": "WBJEE 2018"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

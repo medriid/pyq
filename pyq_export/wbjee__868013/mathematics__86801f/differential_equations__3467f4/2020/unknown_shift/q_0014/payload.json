@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2020",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $x \\sin \\left(\\frac{y}{x}\\right) d y=\\left[y \\sin \\left(\\frac{y}{x}\\right)-x\\right] d x, x>0$ and $y(1)=\\frac{\\pi}{2}$ then the value of $\\cos \\left(\\frac{y}{x}\\right)$ is"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log x$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{e}$",
+      "is_correct": false
+    },
+    {
+      "text": "0",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Hint: \r\n$\\operatorname{sinv}\\left(v+x \\cdot \\frac{d v}{d x}\\right)=v \\sin v-1$\r\n$\\Rightarrow \\mathrm{x} \\sin \\mathrm{v} \\cdot \\frac{\\mathrm{dv}}{\\mathrm{dx}}=-1$\r\n$\\Rightarrow \\int \\sin v \\mathrm{~d} v=-\\int \\frac{\\mathrm{dx}}{\\mathrm{x}}$\r\n$\\Rightarrow-\\cos v=-\\log x+\\mathrm{c}$\r\nat $x=1 ; \\mathrm{y}=\\frac{\\pi}{2} ; \\mathrm{c}=0$\r\n$\\cos \\left(\\frac{\\mathrm{y}}{\\mathrm{x}}\\right)=\\log \\mathrm{x}$"
+  }
+}

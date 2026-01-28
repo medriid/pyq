@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a0af23ac7d519f9b0c8",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c48",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2011-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011 (Paper 1)",
+      "title": "JEE Advanced 2011 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "$5.6 \\mathrm{~L}$ of helium gas at STP is adiabatically compressed to $0.7 \\mathrm{~L}$. Taking the initial temperature to be $T_1$, the work done in the process is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "uHLPU",
+      "text": "\n$\\frac{9}{8} R T_1$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "L2Wp5",
+      "text": "\n$\\frac{3}{2} R T_1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "fOhld",
+      "text": "\n$\\frac{15}{8} R T_1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "VRlRF",
+      "text": "\n$\\frac{9}{2} R T_1$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "At STP, 22.4 L of any gas is 1 mole.\n$$\n\\therefore \\quad 5.6 \\mathrm{~L}=\\frac{5.6}{22.4}=\\frac{1}{4} \\text { moles }=n\n$$\n\nIn adiabatic process,\n$$\n\\begin{array}{rlrl} \n& T V^{\\gamma-1} & =\\text { constant } \\\\\n& \\therefore & T_2 V_2^{\\gamma-1} & =T_1 V_1^{\\gamma-1} \\\\\n& \\text { or } & T_2 & =T_1\\left(\\frac{V_1}{V_2}\\right)^{\\gamma-1}\n\\end{array}\n$$\n\n$$\n\\begin{aligned}\n& \\gamma=\\frac{C_p}{C_V}=\\frac{5}{3} \\text { for monoatomic He gas. } \\\\\n& \\therefore \\quad T_2=T_1\\left(\\frac{5.6}{0.7}\\right)^{\\frac{5}{3}-1}=4 T_1 \\\\\n& \\because \\text { Further in adiabatic process, } \\\\\n& Q=0 \\\\\n& \\therefore \\quad W+\\Delta U=0 \\\\\n& \\text { or } \\quad W=-\\Delta U \\\\\n& =-n C_V \\Delta T \\\\\n& =-n\\left(\\frac{R}{\\gamma-1}\\right)\\left(T_2-T_1\\right) \\\\\n& =-\\frac{1}{4}\\left(\\frac{R}{\\frac{5}{3}-1}\\right)\\left(4 T_1-T_1\\right) \\\\\n& =-\\frac{9}{8} R T_1 \\\\\n&\n\\end{aligned}\n$$\n\n$\\therefore$ Correct option is (a).\nAnalysis of Question\n(i) From calculation point of view question is moderately tough.\n(ii) Volume of gas is decreasing. Therefore, work done by the gas should be negative.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c48",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2011-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011 (Paper 1)",
+    "title": "JEE Advanced 2011 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

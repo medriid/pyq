@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\int \\frac{\\log _e\\left(x+\\sqrt{\\left.1+x^2\\right)}\\right.}{\\sqrt{1+x^2}} d x=f(g(x))+c$ then"
+  },
+  "options": [
+    {
+      "text": "$f(x)=\\frac{x^2}{2}, g(x)=\\log _e\\left(x+\\sqrt{1+x^2}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$f(x)=\\log _e\\left(x+\\sqrt{1+x^2}\\right), g(x)=\\frac{x^2}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x)=x^2, g(x)=\\log _e\\left(x+\\sqrt{1+x^2}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x)=\\log _e\\left(x-\\sqrt{1+x^2}\\right), g(x)=x^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Hint $:$ Let $\\log \\left(x+\\sqrt{1+x^2}\\right)=t \\Rightarrow \\frac{\\frac{\\sqrt{1+x^2}+x}{\\sqrt{1+x^2}} d x=d t}{x+\\sqrt{1+x^2}}$\n$\\begin{aligned}\n& \\Rightarrow \\frac{d x}{\\sqrt{1+\\mathrm{x}^2}}=\\mathrm{dt} \\quad \\therefore \\mathrm{I}=\\int \\frac{\\log \\left(\\mathrm{x}+\\sqrt{1+\\mathrm{x}^2}\\right.}{\\sqrt{1+\\mathrm{x}^2}} \\mathrm{dx}=\\int \\mathrm{t} \\cdot \\mathrm{dt} \\\\\n& \\mathrm{I}=\\frac{\\mathrm{t}^2}{2}+\\mathrm{c}=\\frac{\\left[\\log \\left(\\mathrm{x}+\\sqrt{\\mathrm{x}^2+1}\\right]^2\\right.}{2}+\\mathrm{c} \\\\\n& \\therefore \\mathrm{f}(\\mathrm{x})=\\frac{\\mathrm{x}^2}{2}, \\mathrm{~g}(\\mathrm{x})=\\log _{\\mathrm{e}}\\left(\\mathrm{x}+\\sqrt{1+\\mathrm{x}^2}\\right)\n\\end{aligned}$"
+  }
+}

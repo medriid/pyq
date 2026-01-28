@@ -1,0 +1,43 @@
+{
+  "index": 54,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2023 (08 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2023",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The number of ways, in which&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;girls and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>&nbsp;boys can be seated at a round&nbsp;&nbsp;table so that no two girls sit together is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>720</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>126</mn><mo>(</mo><mn>5</mn><mo>!</mo><msup><mo>)</mo><mn>2</mn></msup></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><msup><mfenced><mn>360</mn></mfenced><mn>2</mn></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><msup><mfenced><mn>720</mn></mfenced><mn>2</mn></msup></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<blockquote><p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>&nbsp;boys and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;girls are to be seated around a circular such that no two girls to be seated together,</p><p>Now we know that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>&nbsp;objects can be arranged in a circle in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>!</mo></math>&nbsp;ways.</p><p>Let us first arrange&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>&nbsp;boys in circular arrangement in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>7</mn><mo>-</mo><mn>1</mn></mrow></mfenced><mo>!</mo></math>&nbsp;ways.</p><p>Now there will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>&nbsp;gaps.</p><p>So let us select any&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;gaps out of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>&nbsp;gaps and arrange&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;girls in the chosen gaps. This can be done in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>5</mn><none></none><mprescripts></mprescripts><none></none><mn>7</mn></mmultiscripts><mo>&#215;</mo><mn>5</mn><mo>!</mo></math>&nbsp;ways.</p><p>Hence, required arrangements are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>!</mo><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>5</mn><none></none><mprescripts></mprescripts><none></none><mn>7</mn></mmultiscripts><mo>&#215;</mo><mn>5</mn><mo>!</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>6</mn><mo>&#215;</mo><mn>5</mn><mo>!</mo><mo>&#215;</mo><mfrac><mrow><mn>7</mn><mo>&#215;</mo><mn>6</mn></mrow><mn>2</mn></mfrac><mo>&#215;</mo><mn>5</mn><mo>!</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>126</mn><msup><mfenced><mrow><mn>5</mn><mo>!</mo></mrow></mfenced><mn>2</mn></msup></math>.</p><p>Therefore, required arrangements are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>126</mn><msup><mfenced><mrow><mn>5</mn><mo>!</mo></mrow></mfenced><mn>2</mn></msup></math></p></blockquote>"
+  }
+}

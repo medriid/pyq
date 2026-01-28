@@ -1,0 +1,63 @@
+{
+  "_id": "64a81421e0ff5a5425a858c4",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7b",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2016-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2016",
+      "title": "WBJEE 2016"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "$1+{ }^{n} C_{1} \\cos \\theta+{ }^{n} C_{2} \\cos 2 \\theta+\\ldots+{ }^{n} C_{n} \\cos n \\theta$ equals",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "0BdqF",
+      "text": "$\\left(2 \\cos \\frac{\\theta}{2}\\right)^{n} \\cos \\frac{n \\theta}{2}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "0efm9",
+      "text": "$2 \\cos ^{2} \\frac{n \\theta}{2}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "hL6rO",
+      "text": "$2 \\cos ^{2 n} \\frac{\\theta}{2}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "uGpYU",
+      "text": "$\\left(2 \\cos ^{2} \\frac{\\theta}{2}\\right)^{n}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $1+{ }^{n} C_{1} \\cos \\theta+{ }^{n} C_{2} \\cos 2 \\theta+\\ldots+{ }^{n} C_{n} \\cos n \\theta$\r\nWhich is real part of complex number. $\\left({ }^{n} C_{0}+{ }^{n} C_{1} e^{i\\theta}+\\ldots\\right)$\r\nie. $\\operatorname{Re}\\left({ }^{n} \\mathrm{C}_{0}+{ }^{n} \\mathrm{C}_{1} e^{i\\theta}+\\ldots\\right)$\r\n$=\\operatorname{Re}\\left(1+e^{\\theta i}\\right)^{n}=\\operatorname{Ro}(1+\\cos \\theta+i \\sin \\theta)^{n}$\r\n$=$ Re $\\left(2 \\cos ^{2} n \\frac{\\theta}{2}+i 2 \\sin \\frac{\\theta}{2} \\cdot \\cos \\frac{\\theta}{2}\\right)$\r\n$\\left[\\begin{array}{c}\\because 1+\\cos \\theta=2 \\cos ^{2} \\frac{\\theta}{2} \\text { and } \\\\ \\sin \\theta=2 \\sin \\frac{\\theta}{2} \\cdot \\cos \\frac{\\theta}{2}\\end{array}\\right]$\r\n$=\\left(2 \\cos \\frac{\\theta}{2}\\right)^{n} \\operatorname{Re}\\left(\\cos \\frac{\\theta}{2}+i \\sin \\frac{\\theta}{2}\\right)^{n}$\r\n$=\\left(2 \\cos \\frac{\\theta}{2}\\right)^{n} \\operatorname{Re}\\left(\\cos \\frac{n \\theta}{2}+i \\sin \\frac{\\theta}{2}\\right)$\r\n[by De moivre's theorem] \r\n$=\\left(2 \\cos \\frac{\\theta}{2}\\right)^{n} \\cdot \\cos \\frac{n \\theta}{2}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7b",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2016-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2016",
+    "title": "WBJEE 2016"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

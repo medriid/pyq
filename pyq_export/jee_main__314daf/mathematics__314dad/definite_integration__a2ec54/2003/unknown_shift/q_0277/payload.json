@@ -1,0 +1,43 @@
+{
+  "index": 277,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2003",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2003",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\mathrm{f}(\\mathrm{y})=\\mathrm{e}^{\\mathrm{y}}, \\mathrm{g}(\\mathrm{y})=\\mathrm{y} ; \\mathrm{y}>0$ and $F(t)=\\int_0^{\\mathrm{t}} \\mathrm{f}(\\mathrm{t}-\\mathrm{y}) \\mathrm{g}(\\mathrm{y})$, then"
+  },
+  "options": [
+    {
+      "text": "\n$\\mathrm{F}(\\mathrm{t})=\\mathrm{te}^{-t}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{F}(\\mathrm{t})=1-\\mathrm{te}^{-t}(1+\\mathrm{t})$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{F}(\\mathrm{t})=\\mathrm{e}^{\\mathrm{t}}-(1+\\mathrm{t})$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\mathrm{F}(\\mathrm{t})=\\mathrm{te}^{\\mathrm{t}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$F(t)=\\int_0^t f(t-y) g(y) d y$\n$=\\int_0^t e^{t-y} y d y=e^t \\int_0^t e^{-y} y d y$\n$=e^t\\left[-y e^{-y}-e^{-y}\\right]_0^t=-e^t\\left[y e^{-y}+e^{-y}\\right]_0^t$\n$=-e^t\\left[t e^{-t}+e^{-t}-0-1\\right]=e^t\\left[\\frac{t+1-e^t}{e^t}\\right]=e^t-(1+t)$"
+  }
+}

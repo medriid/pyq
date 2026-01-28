@@ -1,0 +1,63 @@
+{
+  "_id": "64a81486e0ff5a5425a85c78",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "63120b11f89b13efdfdcda63",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2022-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022",
+      "title": "WBJEE 2022"
+    }
+  ],
+  "question": {
+    "text": "A is a set containing n elements. $P$ and $Q$ are two subsets of $A$. Then the number of ways of choosing $P$ and $Q$ so that $P \\cap Q=\\varphi$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Xmufw",
+      "text": "$2^{2 n \\space 2 n} C_n$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "qWZ4w",
+      "text": "$2^n$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "qw8x9",
+      "text": "$3^n-1$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "3ISK1",
+      "text": "3^n",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\sum_{r=0}^n{ }^n C_r \\cdot 2^{n-r}=(2+1)^n=3^n$ (Assuming $P$ contains r elements then $Q$ can be formed with $n-r$ elements in $2^{n-r}$ ways)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "63120b11f89b13efdfdcda63",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2022-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022",
+    "title": "WBJEE 2022"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

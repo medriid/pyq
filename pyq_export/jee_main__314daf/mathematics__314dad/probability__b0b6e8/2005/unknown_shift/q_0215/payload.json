@@ -1,0 +1,43 @@
+{
+  "index": 215,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $A$ and $B$ be two events such that $P(\\overline{A \\cup B})=\\frac{1}{6}, P(A \\cap B)=\\frac{1}{4}$ and $P(\\bar{A})=\\frac{1}{4}$, where $\\bar{A}$ stands for complement of event $A$. Then events $A$ and $B$ are"
+  },
+  "options": [
+    {
+      "text": "\nequally likely and mutually exclusive\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nequally likely but not independent\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nindependent but not equally likely\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nmutually exclusive and independent",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& P(\\overline{A \\cup B})=\\frac{1}{6}, P(A \\cap B)=\\frac{1}{4} \\text { and } P(\\bar{A})=\\frac{1}{4} \\\\\n& \\Rightarrow P(A \\cup B)=5 / 6 P(A)=3 / 4 \\\\\n& \\text { Also } P(A \\cup B)=P(A)+P(B)-P(A \\cap B) \\\\\n& \\Rightarrow P(B)=5 / 6-3 / 4+1 / 4=1 / 3 \\\\\n& P(A) P(B)=3 / 4-1 / 3=1 / 4=P(A \\cap B)\n\\end{aligned}\n$$\nHence $A$ and $B$ are independent but not equally likely."
+  }
+}

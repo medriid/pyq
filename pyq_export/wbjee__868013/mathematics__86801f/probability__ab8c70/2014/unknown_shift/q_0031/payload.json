@@ -1,0 +1,43 @@
+{
+  "index": 31,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A fair six-faced die is rolled 12 times. The probability that each face turns up twice is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{12 !}{6 ! 6 ! 6^{12}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2^{12}}{2^{6} 6^{12}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{12 !}{2^{6} 6^{12}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{12 !}{6^{2} 6^{12}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Required probability\r\n$$\r\n\\begin{aligned}={ }^{12} C_{2} \\times{ }^{10} C_{2} \\times{ }^{8} C_{2} \\times{ }^{6} C_{2} \\times{ }^{4} C_{2} \\times{ }^{2} C_{2} \\times\\left(\\frac{1}{6}\\right)^{12} \\\\=\\frac{12 !}{10 ! \\times 2 !} \\times \\frac{10 !}{8 ! \\times 2 !} \\times \\frac{8 !}{6 ! \\times 2 !} \\times \\frac{6 !}{4 ! \\times 2 !} \\\\ \\times \\frac{4 !}{2 ! \\times 2 !} \\times \\frac{2 !}{2 ! \\times 1 !} \\times\\left(\\frac{1}{6}\\right)^{12} \\end{aligned}\r\n$$\r\n$=\\frac{12 !}{2^{6} \\times 6^{12}}$"
+  }
+}

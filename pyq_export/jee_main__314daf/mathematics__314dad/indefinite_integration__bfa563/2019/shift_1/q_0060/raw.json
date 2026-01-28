@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a67417cc3fb48d6678c",
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7ec",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2019-01-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019 (11 Jan Shift 1)",
+      "title": "JEE Main 2019 (11 Jan Shift 1)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "If $\\int \\frac{\\sqrt{1-x^{2}}}{x^{4}} d x=A(\\mathrm{x})\\left(\\sqrt{1-x^{2}}\\right)^{m}+C,$ for a suitable chosen integer $\\mathrm{m}$ and a function $\\mathrm{A}(\\mathrm{x})$, where $\\mathrm{C}$ is a constant of integration, then $(\\mathrm{A}(\\mathrm{x}))^{\\mathrm{m}}$ equals :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Z9mlh",
+      "text": "$\\frac{-1}{27 x^{9}}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "wUePP",
+      "text": "$\\frac{-1}{3 x^{3}}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "dFjYO",
+      "text": "$\\frac{1}{27 x^{6}}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "YRSKl",
+      "text": "$\\frac{1}{9 x^{4}}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$A(x)\\left(\\sqrt{1-x^{2}}\\right)^{m}+C=\\int \\frac{\\sqrt{1-x^{2}}}{x^{4}} d x$\r\n\r\n$=\\int \\frac{\\sqrt{\\frac{1}{x^{2}}-1}}{x^{3}} d x$\r\n\r\nLet $\\frac{1}{x^{2}}-1=u^{2}$\r\n\r\n$\\Rightarrow-\\frac{2}{x^{3}}=\\frac{2 u d u}{d x}$\r\n\r\n$\\frac{d x}{x^{3}}=-u d u$\r\n\r\n$A(x)\\left(\\sqrt{1-x^{2}}\\right)^{m}+C=\\int\\left(-u^{2}\\right) d u=-\\frac{u^{3}}{3}+C$\r\n\r\n$\\begin{array}{l}\r\n\r\n=-\\frac{1}{3}\\left(\\frac{1}{x^{2}}-1\\right)^{\\frac{3}{2}}+C \\\\\r\n\r\n=-\\frac{1}{3} \\cdot \\frac{1}{x^{3}} \\cdot\\left(1-x^{2}\\right)^{\\frac{3}{2}}+C \\\\\r\n\r\n=\\frac{-1}{3 x^{3}}\\left(\\sqrt{1-x^{2}}\\right)^{3}+C\r\n\r\n\\end{array}$\r\n\r\nCompare both sides,\r\n\r\n$\\begin{array}{l}\r\n\r\n\\Rightarrow A(x)=-\\frac{1}{3 x^{3}} \\text { and } m=3 \\\\\r\n\r\n\\Rightarrow(A(x))^{3}=\\frac{-1}{27 x^{9}}\r\n\r\n\\end{array}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7ec",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2019-01-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019 (11 Jan Shift 1)",
+    "title": "JEE Main 2019 (11 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

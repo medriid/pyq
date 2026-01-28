@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2012 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025609b22fd9ad3a1613b",
+    "chapter_name": "Indefinite Integration",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The integral $\\int \\frac{\\sec ^{2} x}{(\\sec x+\\tan x)^{\\frac{9}{2}}} d x$ equals (for some arbitrary constant $\\mathrm{K}$ )"
+  },
+  "options": [
+    {
+      "text": "$-\\frac{1}{(\\sec x+\\tan x)^{\\frac{11}{2}}}\\left\\{\\frac{1}{11}-\\frac{1}{7}(\\sec x+\\tan x)^{2}\\right\\}+K$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{(\\sec x+\\tan x)^{\\frac{11}{2}}}\\left\\{\\frac{1}{11}-\\frac{1}{7}(\\sec x+\\tan x)^{2}\\right\\}+K$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{1}{(\\sec x+\\tan x)^{\\frac{11}{2}}}\\left\\{\\frac{1}{11}+\\frac{1}{7}(\\sec x+\\tan x)^{2}\\right\\}+K$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{(\\sec x+\\tan x)^{\\frac{11}{2}}}\\left\\{\\frac{1}{11}+\\frac{1}{7}(\\sec x+\\tan x)^{2}\\right\\}+K$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{array}{l}\r\n\r\nI=\\int \\frac{\\sec ^{2} x}{(\\sec x+\\tan x)^{9 / 2}} d x \\\\\r\n\r\n\\text { Let } \\sec x+\\tan x=t \\Rightarrow \\sec x-\\tan x=\\frac{1}{t} \\\\\r\n\r\n\\Rightarrow \\sec x=\\frac{1}{2}\\left(t+\\frac{1}{t}\\right) \\text { and } \\sec x(\\sec x+\\tan x) d x=d t \\\\\r\n\r\n\\Rightarrow \\sec x d x=\\frac{d t}{t} \\\\\r\n\r\n\\therefore \\quad I=\\frac{1}{2} \\int \\frac{\\left(t+\\frac{1}{t}\\right) d t}{t^{9 / 2} \\cdot t}=\\frac{1}{2} \\int\\left(t^{-9 / 2}+t^{-13 / 2}\\right) d t \\\\\r\n\r\n=\\frac{-1}{7} t^{-7 / 2}-\\frac{1}{11} t^{-1 / 2}+K \\\\\r\n\r\n=-\\frac{1}{7 t^{7 / 2}}-\\frac{1}{11 t^{11 / 2}}+K=-\\frac{1}{t^{11 / 2}}\\left(\\frac{1}{11}+\\frac{t^{2}}{7}\\right)+K \\\\\r\n\r\n=\\frac{-1}{(\\sec x+\\tan x)^{11 / 2}}\\left\\{\\frac{1}{11}+\\frac{1}{7}(\\sec x+\\tan x)^{2}\\right\\}+K\r\n\r\n\\end{array}$"
+  }
+}

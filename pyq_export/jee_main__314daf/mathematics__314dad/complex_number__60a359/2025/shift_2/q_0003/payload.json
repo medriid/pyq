@@ -1,0 +1,24 @@
+{
+  "index": 3,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602527bd39a958e960a359",
+    "chapter_name": "Complex Number",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $\\alpha$ is a root of the equation $x^2+x+1=0$ and $\\sum_{\\mathrm{k}=1}^{\\mathrm{n}}\\left(\\alpha^{\\mathrm{k}}+\\frac{1}{\\alpha^{\\mathrm{k}}}\\right)^2=20$, then n is equal to"
+  },
+  "options": [],
+  "correct_answer": "11",
+  "solution": {
+    "text": "$\\begin{aligned} & \\alpha=\\omega \\\\ & \\therefore\\left(\\omega^k+\\frac{1}{\\omega^k}\\right)^2=\\omega^{2 k}+\\frac{1}{\\omega^{2 k}}+2 \\\\ & =\\omega^{2 k}+\\omega^k+2 \\quad \\because \\omega^{3 k}=1\\end{aligned}$<br/>$\\begin{aligned}<br/>& \\therefore \\sum_{\\mathrm{k}=1}^{\\mathrm{n}}\\left(\\omega^{2 \\mathrm{k}}+\\omega^{\\mathrm{k}}+2\\right)=20 \\\\\n& \\Rightarrow\\left(\\omega^2+\\omega^4+\\omega^6+\\ldots+\\omega^{2 \\mathrm{n}}\\right)+\\left(\\omega+\\omega^2+\\omega^3+\\ldots+\\right. \\\\\n& \\left.\\omega^{\\mathrm{n}}\\right)+2 \\mathrm{n}=20<br/>\\end{aligned}$<br/>Now if $n=3 m, \\quad m \\in I$<br/>Then $0+0+2 \\mathrm{n}=20 \\Rightarrow \\mathrm{n}=10$ (not satisfy)<br/>if $n=3 m+1$, then<br/>$\\begin{aligned}<br/>& \\omega^2+\\omega+2 \\mathrm{n}=20 \\\\\n& -1+2 \\mathrm{n}=20 \\Rightarrow \\mathrm{n}=\\frac{21}{2}(\\text { not possible })<br/>\\end{aligned}$<br/>if $n=3 m+2$,<br/>$\\begin{aligned}<br/>& \\left(\\omega^8+\\omega^{10}\\right)+\\left(\\omega^4+\\omega^5\\right)+2 \\mathrm{n}=20 \\\\\n& \\Rightarrow\\left(\\omega^2+\\omega\\right)+\\left(\\omega+\\omega^2\\right)+2 \\mathrm{n}=20 \\\\\n& 2 \\mathrm{n}=22 \\\\\n& \\mathrm{n}=11 \\text { satisfy } \\mathrm{n}=3 \\mathrm{~m}+2 \\\\\n& \\therefore \\mathrm{n}=11<br/>\\end{aligned}$"
+  }
+}

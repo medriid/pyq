@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e0e",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d8",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (11 Apr Online)",
+      "title": "JEE Main 2014 (11 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "The volume of the largest possible right circular cylinder that can be inscribed in a sphere of radius $=\\sqrt{3}$ is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "uQHEC",
+      "text": "\n$\\frac{4}{3} \\sqrt{3} \\pi$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "1PcFR",
+      "text": "\n$\\frac{8}{3} \\sqrt{3} \\pi$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "rQf8m",
+      "text": "\n$4 \\pi$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "mjOgT",
+      "text": "\n$2 \\pi$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, radius of sphere $=\\sqrt{3}$\nNow, In $\\triangle \\mathrm{OAB}$, by Pythagoras theorem\n$$\n(\\mathrm{OA})^2=(\\mathrm{OB})^2+(\\mathrm{AB})^2\n$$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/5TH_ynCe3KrvxokFBBMBVXAj0eh7mUKQOSSiwcGHjPI.original.fullsize.png\"><br>\n$$\n\\begin{aligned}\n&(\\sqrt{3})^2=\\left(\\frac{h}{2}\\right)^2+r^2 \\\\\n&3=\\frac{h^2}{4}+r^2 \\Rightarrow r^2=3-\\frac{h^2}{4}\n\\end{aligned}\n$$\nNow, volume of cylinder $=\\pi r^2 h$\n$$\n\\begin{aligned}\n&V=\\pi\\left(3-\\frac{h^2}{4}\\right) h \\\\\n&V=3 \\pi h-\\frac{\\pi h^3}{4}\n\\end{aligned}\n$$\nNow, for largest possible right circular cylinder the volume must be maximum\n$\\therefore$ For maximum volume, $\\frac{d V}{d h}=0$ Now, Differentiating eq. (2) w.r.t. $h$ $V^1=\\frac{d V}{d h}=3 \\pi-\\frac{3}{4} \\pi h^2$\nor $3 \\pi-\\frac{3}{4} \\pi h^2=0 \\Rightarrow 3 \\pi=\\frac{3}{4} \\pi h^2$ $\\Rightarrow h^2=4 \\Rightarrow h=2$\nNow, volume $(V)$ of the cylinder\n$$\n=\\pi\\left(3-\\frac{h^2}{4}\\right) h=\\pi(6-2)=4 \\pi\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d8",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (11 Apr Online)",
+    "title": "JEE Main 2014 (11 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 134,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $A$ and $B$ be two invertible matrices of order $3 \\times 3$. If $\\operatorname{det}\\left(\\mathrm{ABA}^{\\mathrm{T}}\\right)=8$ and det $\\left(\\mathrm{AB}^{-1}\\right)=8$, then det $\\left(\\mathrm{BA}^{-1} \\mathrm{~B}^{\\mathrm{T}}\\right)$ is\r\n\r\nequal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{16}$",
+      "is_correct": true
+    },
+    {
+      "text": "16",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $|A|=a,|B|=b$\r\n\r\n$\\left.\\Rightarrow \\quad \\mid A^{\\eta}\\right\\rceil=a\\left|A^{-1}\\right|=\\frac{1}{a},\\left|B^{\\eta}\\right|=b,\\left|B^{-1}\\right|=\\frac{1}{b}$\r\n\r\n$\\because \\quad A B A^{\\eta}=8 \\Rightarrow|A||B| \\mid A^{\\eta}-8 \\ldots(1)$\r\n\r\n$\\Rightarrow \\quad a \\cdot b \\cdot a=8 \\Rightarrow a^{2} b=8$\r\n\r\n$\\because \\quad A B^{-1}|=8 \\Rightarrow H|\\left|B^{-1}\\right|=8 \\Rightarrow a, \\frac{1}{b}=8$\r\n\r\nFrom (1) \\& (2)\r\n\r\n$a=4, b=\\frac{1}{2}$\r\n\r\nThen, $\\left|B A^{-1} B^{\\eta}\\right|=|B|\\left|A^{-1}\\right|\\left|B^{\\eta}\\right|=b \\cdot \\frac{1}{a} \\cdot b=\\frac{b^{2}}{a}=\\frac{1}{16}$"
+  }
+}

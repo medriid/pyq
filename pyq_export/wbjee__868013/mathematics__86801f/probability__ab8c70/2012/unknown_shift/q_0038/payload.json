@@ -1,0 +1,43 @@
+{
+  "index": 38,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Two coins are available, one fair and the other two-headed. Choose a coin and toss it once; assume that the unbiased coin is chosen with probability $\\frac{3}{4}$, Given that the outcome is head, the probability that the two-headed coin was chosen, is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{3}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2}{5}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2}{7}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $F$ denotes fair coin $T$ denotes two headed $H$ denotes head occurs\r\n$$\r\n\\begin{array}{lc}\r\n\\therefore \\quad P(F)=\\frac{3}{4}, P(T)=1-\\frac{3}{4}=\\frac{1}{4} \\\\\r\n\\therefore \\quad P\\left(\\frac{T}{H}\\right)=\\frac{P\\left(\\frac{H}{T}\\right) \\cdot P(T)}{P\\left(\\frac{H}{T}\\right) \\cdot P(T)+P\\left(\\frac{H}{F}\\right) \\cdot P(F)}\r\n\\end{array}\r\n$$\r\nBy Baye's theorem\r\n$$\r\n=\\frac{1 \\cdot \\frac{1}{4}}{1 \\cdot \\frac{1}{4}+\\frac{1}{2} \\cdot \\frac{3}{4}}=\\frac{2}{5}\r\n$$"
+  }
+}

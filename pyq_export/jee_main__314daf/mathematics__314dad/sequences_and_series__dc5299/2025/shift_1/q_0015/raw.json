@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eecbc8b73881fdaea2f7",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d97610",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-29T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (29 Jan Shift 1)",
+      "title": "JEE Main 2025 (29 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "The value of \\(\\lim _{n \\rightarrow \\infty}\\left(\\sum_{k=1}^n \\frac{k^3+6 k^2+11 k+5}{(k+3)!}\\right)\\) is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "CSoDs",
+      "text": "\\(4 / 3\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "d25ZF",
+      "text": "2",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "symJg",
+      "text": "\\(7 / 3\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "w4Y56",
+      "text": "\\(5 / 3\\)",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\lim _{n \\rightarrow \\infty} \\sum_{k=1}^n \\frac{k^3+6 k^2+11 k+5}{(k+3)!} \\\\ & =\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^n \\frac{k^3+6 k^2+11 k+6-1}{(k+3)!} \\\\ & =\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^n \\frac{(k+1)(k+2)(k+3)-1}{(k+3)!} \\\\ & =\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^n \\frac{(k+1)(k+2)(k+3)}{(k+3)!}-\\frac{1}{(k+3)!} \\\\ & =\\lim _{k=1} \\sum_{k=1}^n\\left(\\frac{1}{k!}-\\frac{1}{(k+3)!}\\right)\\end{aligned}$\n\n\n$\\begin{aligned} & =\\lim _{k=1}\\left(\\frac{1}{1!}+\\frac{1}{2!}+\\frac{1}{3!}+\\frac{1}{4!} \\ldots+\\frac{1}{n!}-\\frac{1}{4!}-\\frac{1}{5!}-\\frac{1}{6!} \\ldots .-\\frac{1}{(n+3)!}\\right) \\\\ & \\quad=\\frac{1}{1}+\\frac{1}{2}+\\frac{1}{6}=\\frac{10}{6}=\\frac{5}{3}\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "25de02f204d64107a75fe81c9c1a181d",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/8AxpwcmoanGGx.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/8AxpwcmoanGGx.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d97610",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-29T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (29 Jan Shift 1)",
+    "title": "JEE Main 2025 (29 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

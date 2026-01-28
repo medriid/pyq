@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cdb6782a065e80b03d2",
+    "chapter_name": "Trigonometric Ratios & Identities",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(\\theta)=\\left(1+\\sin ^{2} \\theta\\right)\\left(2-\\sin ^{2} \\theta\\right) .$ Then, for all\r\nvalues of $\\theta$"
+  },
+  "options": [
+    {
+      "text": "$f(\\theta)>\\frac{9}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(\\theta)     < 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(\\theta)>\\frac{11}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 \\leq f(\\theta) \\leq \\frac{9}{4}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given\r\n$$\r\n\\begin{aligned}\r\nf(\\theta)=\\left(1+\\sin ^{2} \\theta\\right)\\left(2-\\sin ^{2} \\theta\\right) \\\\\r\n&=2+2 \\sin ^{2} \\theta-\\sin ^{2} \\theta-\\sin ^{4} \\theta \\\\\r\n&=-\\sin ^{4} \\theta+\\sin ^{2} \\theta+2 \\\\\r\n&=-\\left(\\sin ^{4} \\theta-\\sin ^{2} \\theta-2\\right) \\\\\r\n&=-\\left\\{\\sin ^{4} \\theta-\\sin ^{2} \\theta+\\frac{1}{4}-\\frac{9}{4}\\right\\} \\\\\r\n&=+\\frac{9}{4}-\\left(\\sin ^{2} \\theta-\\frac{1}{2}\\right)^{2} \\\\\r\n\\because \\quad-1 \\leq \\sin \\theta \\leq 1 \\Rightarrow 0 \\leq \\sin ^{2} \\theta \\leq 1\\\\\r\n\\Rightarrow & 0 \\geq-\\left(\\sin ^{2} \\theta-\\frac{1}{2}\\right)^{2} \\geq-\\frac{1}{4} \\\\\r\n\\Rightarrow \\quad \\quad-\\frac{1}{2} \\leq \\sin ^{2} \\theta-\\frac{1}{2} \\leq \\frac{1}{2}\\\\\r\n\\Rightarrow \\quad 0 \\leq\\left(\\sin ^{2} \\theta-\\frac{1}{2}\\right)^{2} \\leq \\frac{1}{4}\r\n\\Rightarrow & \\frac{9}{4} \\geq \\frac{9}{4}-\\left(\\sin ^{2} \\theta-\\frac{1}{2}\\right)^{2} \\geq \\frac{9}{4}-\\frac{1}{4} \\\\\r\n\\Rightarrow \\quad 2 \\leq f(\\theta) \\leq \\frac{9}{4} & \\quad[\\text { from Eq. }(0)]\r\n\\end{aligned}\r\n$$"
+  }
+}

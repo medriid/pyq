@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc594defad39e8768ec",
+    "chapter_name": "Quadratic Equation",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\alpha, \\beta$ be the roots of the equation $x^{2}-6 x-2=0$ with $\\alpha>\\beta$. If $a_{n}=\\alpha^{n}-\\beta^{n}$ for $n \\geq 1$, then the value of $\\frac{a_{10}-2 a_{8}}{2 a_{9}}$ is"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "3",
+      "is_correct": true
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$x^{2}-6 x-2=0$\r\n$x^{n}-6 x^{n-1}-2 x^{n-2}=0$\r\n$\\Rightarrow x^{n}-2 x^{n-2}=6 x^{n-1}$\r\nfor $n=10$\r\n$x^{10}-2 x^{8}=6 x^{9}$\r\n$\\alpha^{10}-2 \\alpha^{8}=6 \\alpha^{9}$\r\n$\\beta^{10}-2 \\beta^{8}=6 \\beta^{9}$\r\n$\\left(\\alpha^{10}-\\beta^{10}\\right)-2\\left(\\alpha^{8}-\\beta^{8}\\right)=6\\left(\\alpha^{9}-\\beta^{9}\\right)$\r\n$\\Rightarrow a_{10}-2 a_{8}=6 a_{9}$\r\n$\\Rightarrow \\frac{a_{10}-2 a_{8}}{2 a_{9}}=3$"
+  }
+}

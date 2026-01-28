@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2012 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602556cd23bba7eaa346dc",
+    "chapter_name": "Functions",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=(1-x)^{2} \\sin ^{2} x+x^{2}$ for all $x \\in I R$ and let $g(x)=\\int_{1}^{x}\\left(\\frac{2(t-1)}{t+1}-\\ln t\\right) f(t) d t$ for all $x \\in(1, \\infty)$.\r\n\r\n<strong> Question:</strong> Consider the statements:\r\n\r\n$P$ : There exists some $x \\in \\mathrm{R}$ such that $f(x)+2 x$\r\n\r\n$=2\\left(1+x^{2}\\right)$\r\n\r\n$Q$ : There exists some $x \\in \\mathrm{R}$ such that $2 f(x)+1$ $=2 x(1+x)$\r\n\r\nThen"
+  },
+  "options": [
+    {
+      "text": "both $P$ and $Q$ are true",
+      "is_correct": false
+    },
+    {
+      "text": "$P$ is true and $Q$ is false",
+      "is_correct": false
+    },
+    {
+      "text": "$P$ is false and $Q$ is true",
+      "is_correct": true
+    },
+    {
+      "text": "both $P$ and $Q$ are false",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "For the statement $P, f(x)+2 x=2\\left(1+x^{2}\\right)$\r\n\r\n$\\Rightarrow(1-x)^{2} \\sin ^{2} x+x^{2}+2 x=2\\left(1+x^{2}\\right)$\r\n\r\n$\\Rightarrow(1-x)^{2} \\sin ^{2} x=x^{2}-2 x+1+1$\r\n\r\n$\\Rightarrow(1-x)^{2} \\sin ^{2} x=(1-x)^{2}+1$\r\n\r\n$\\Rightarrow(1-x)^{2} \\cos ^{2} x=-1$, which is not possible for any real value of $x$.\r\n\r\nHence $P$ is not true.\r\n\r\nLet $H(x)=2 f(x)+1-2 x(1+x)$\r\n\r\n$H(0)=2 f(0)+1-0=1$\r\n\r\nand $H(1)=2 f(1)+1-4=-3$\r\n\r\nHence, $H(x)$ has a solution in $(0,1)$\r\n\r\nTherefore, $Q$ is true."
+  }
+}

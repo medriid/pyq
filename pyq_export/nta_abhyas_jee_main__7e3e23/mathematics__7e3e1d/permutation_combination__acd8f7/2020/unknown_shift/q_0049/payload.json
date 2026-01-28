@@ -1,0 +1,43 @@
+{
+  "index": 49,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252bf7c1fee30bacd8f7",
+    "chapter_name": "Permutation Combination",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "All possible numbers are formed using the digits <math><mn>1</mn><mo>,</mo><mi>&nbsp;</mi><mn>1</mn><mo>,</mo><mi>&nbsp;</mi><mn>2</mn><mo>,</mo><mi>&nbsp;</mi><mn>2</mn><mo>,</mo><mi>&nbsp;</mi><mn>2</mn><mo>,</mo><mi>&nbsp;</mi><mn>2</mn><mo>,</mo><mi>&nbsp;</mi><mn>3</mn><mo>,</mo><mi>&nbsp;</mi><mn>4</mn><mo>,</mo><mi>&nbsp;</mi><mn>4</mn><mi>&nbsp;</mi></math> taken all at a time. The number of such numbers in which the odd digits occupy even places is"
+  },
+  "options": [
+    {
+      "text": "<math><mn>175</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>162</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>180</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mn>160</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0049_1c0a528fbe8f.png\" /><br />Odd digits: <math><mn>1</mn><mo>,</mo><mi>&#160;</mi><mn>1</mn><mo>,</mo><mi>&#160;</mi><mn>3</mn></math><br />Even digits: <math><mn>2</mn><mo>,</mo><mi>&#160;</mi><mn>2</mn><mo>,</mo><mi>&#160;</mi><mn>2</mn><mo>,</mo><mi>&#160;</mi><mn>2</mn><mo>,</mo><mi>&#160;</mi><mn>4</mn><mo>,</mo><mi>&#160;</mi><mn>4</mn></math><br />The number of ways of placing odd digits at even position <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&#160;</mo><mmultiscripts><mi>C</mi><mn>3</mn><none/><mprescripts/><none/><mn>4</mn></mmultiscripts><mo>&#215;</mo><mfrac><mrow><mn>3</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>4</mn><mo>&#215;</mo><mn>3</mn><mo>=</mo><mn>12</mn></math><br />The number of ways of placing even digits <math><mo>=</mo><mfrac><mrow><mn>6</mn><mo>!</mo></mrow><mrow><mn>4</mn><mo>!</mo><mi>&#160;</mi><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>15</mn><mi>&#160;</mi></math><br /><math><mo>&#8756;</mo></math> Total number of ways <math><mo>=</mo><mn>12</mn><mo>&#215;</mo><mn>15</mn><mo>=</mo><mn>180</mn></math>"
+  }
+}

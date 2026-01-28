@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602555685234356f221f74",
+    "chapter_name": "Functions",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "$\\text { The function } f:(-\\infty, \\infty) \\rightarrow(-\\infty, 1) \\text {, defined by } f(x)=\\frac{2^x-2^{-x}}{2^x+2^{-x}} \\text { is : }$"
+  },
+  "options": [
+    {
+      "text": "$\\text { Neither one-one nor onto }$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\text { Onto but not one-one }$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\text { Both one-one and onto }$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\text { One-one but not onto }$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\mathrm{f}(\\mathrm{x})=\\frac{2^{2 \\mathrm{x}}-1}{2^{2 \\mathrm{x}}+1} \\\\\n& =1-\\frac{2}{2^{2 \\mathrm{x}}+1} \\\\\n& \\mathrm{f}^{\\prime}(\\mathrm{x})=\\frac{2}{\\left(2^{2 \\mathrm{x}}+1\\right)^2} \\cdot 2.2^{2 \\mathrm{x}} \\cdot \\ln 2 \\text { i.e always }+\\mathrm{ve}\n\\end{aligned}$\nso $f(x)$ is $\\uparrow$ function\n$\\begin{aligned}\n& \\therefore \\mathrm{f}(-\\infty)=-1 \\\\\n& \\mathrm{f}(\\infty)=1 \\\\\n& \\therefore \\mathrm{f}(\\mathrm{x}) \\in(-1,1) \\neq \\text { co-domain }\n\\end{aligned}$\nso function is one-one but not onto"
+  }
+}

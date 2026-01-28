@@ -1,0 +1,63 @@
+{
+  "_id": "64a813e9e0ff5a5425a856af",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec2",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2013-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013",
+      "title": "WBJEE 2013"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "The limit of $\\sum_{n=1}^{1000}(-1)^{n} x^{n}$ as $x \\rightarrow \\infty$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "nD612",
+      "text": "does not exist",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "UA54n",
+      "text": "exists and equals to 0",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "eH9NW",
+      "text": "exists and approaches to $+\\infty$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "i64AB",
+      "text": "exists and approaches $-\\infty$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow-} \\sum_{n=1}^{1000}(-1)^{n} x^{n}$\r\n$=\\lim _{x \\rightarrow-}\\left\\{-x+x^{2}-x^{3}+x^{4}+\\ldots+x^{1000}\\right\\}$\r\n$=\\lim _{x \\rightarrow \\infty}(-x) \\cdot\\left\\{\\frac{(-x)^{1000}-1}{(-x-1)}\\right\\}=\\lim _{x \\rightarrow-\\infty} \\frac{x^{1001}-x}{x+1}$\r\n$=\\lim _{x \\rightarrow-} \\frac{x^{1000}-1}{1+\\left(\\frac{1}{x}\\right)}=+\\infty$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec2",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2013-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013",
+    "title": "WBJEE 2013"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

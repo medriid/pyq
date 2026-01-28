@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2012 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602544a0c712fd38fee5c4",
+    "chapter_name": "Limits",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\alpha(a)$ and $\\beta(a)$ be the roots of the equation $(\\sqrt[3]{1+a}-1) x^{2}+(\\sqrt{1+a}-1) x+(\\sqrt[6]{1+a}-1)=0$ where $a$ $>-1$. Then $\\lim _{a \\rightarrow 0^{+}} \\alpha(a)$ and $\\lim _{x \\rightarrow 0^{+}} \\beta(a)$ are"
+  },
+  "options": [
+    {
+      "text": "$-\\frac{5}{2}$ and 1",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{1}{2}$ and $-1$",
+      "is_correct": true
+    },
+    {
+      "text": "$-\\frac{7}{2}$ and 2",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{9}{2}$ and 3",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$(\\sqrt[3]{1+a}-1) x^{2}+(\\sqrt{1+a}-1) x+(\\sqrt[6]{1+a}-1)=0$\r\n\r\nLet $a+1=y$, then equation reduces to $\\left(y^{1 / 3}-1\\right) x^{2}+\\left(y^{1 / 2}-1\\right) x+\\left(y^{1 / 6}-1\\right)=0$\r\n\r\nOn dividing both sides by $y-1$, we get $\\left(\\frac{y^{1 / 3}-1}{y-1}\\right) x^{2}+\\left(\\frac{y^{1 / 2}-1}{y-1}\\right) x+\\left(\\frac{y^{1 / 6}-1}{y-1}\\right)=0$\r\n\r\nOn taking limit as $y \\rightarrow 1$ i.e. $a \\rightarrow 0$ on both sides, we get $\\frac{1}{3} x^{2}+\\frac{1}{2} x+\\frac{1}{6}=0 \\Rightarrow 2 x^{2}+3 x+1=0$\r\n\r\n$\\Rightarrow x=-1,-\\frac{1}{2}$ (roots of the equation)\r\n\r\n$\\therefore \\quad \\lim _{a \\rightarrow 0^{+}} \\alpha(a)=-1, \\lim _{a \\rightarrow 0^{+}} \\beta(a)=-\\frac{1}{2}$"
+  }
+}

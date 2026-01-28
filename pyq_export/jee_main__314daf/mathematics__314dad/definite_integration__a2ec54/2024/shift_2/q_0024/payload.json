@@ -1,0 +1,43 @@
+{
+  "index": 24,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $\\int_\\alpha^{\\log _e 4} \\frac{\\mathrm{d} x}{\\sqrt{\\mathrm{e}^x-1}}=\\frac{\\pi}{6}$. Then $\\mathrm{e}^\\alpha$ and $\\mathrm{e}^{-\\alpha}$ are the roots of the equation :"
+  },
+  "options": [
+    {
+      "text": "$x^2+2 x-8=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$x^2-2 x-8=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 x^2-5 x+2=0$",
+      "is_correct": true
+    },
+    {
+      "text": "$2 x^2-5 x-2=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\int_\\alpha^{\\log 4} \\frac{\\mathrm{dx}}{\\sqrt{\\mathrm{e}^{\\mathrm{x}}-1}}=\\frac{\\pi}{6} \\\\ & \\text { Let } \\mathrm{e}^{\\mathrm{x}}-1=\\mathrm{t}^2 \\\\ & \\mathrm{e}^{\\mathrm{x}} \\mathrm{dx}=2 \\mathrm{t} \\mathrm{dt} \\\\ & =\\int \\frac{2 \\mathrm{dt}}{\\mathrm{t}^2+1} \\\\ & =2 \\tan ^{-1} \\mathrm{t} \\\\ & =\\left.2 \\tan ^{-1}\\left(\\sqrt{\\mathrm{e}^{\\mathrm{x}}-1}\\right)\\right|_\\alpha ^{\\log _{\\mathrm{e}}^4} \\\\ & =2\\left[\\tan ^{-1} \\sqrt{3}-\\tan ^{-1} \\sqrt{\\mathrm{e}^\\alpha-1}\\right]=\\frac{\\pi}{6} \\\\ & =\\frac{\\pi}{3}-\\tan ^{-1} \\sqrt{\\mathrm{e}^\\alpha-1}=\\frac{\\pi}{12} \\\\ & \\Rightarrow \\tan ^{-1} \\sqrt{\\mathrm{e}^\\alpha-1}=\\frac{\\pi}{4} \\\\ & \\mathrm{e}^\\alpha=2 \\quad \\mathrm{e}^{-\\alpha}=\\frac{1}{2} \\\\ & \\mathrm{x}^2-\\left(2+\\frac{1}{2}\\right) \\mathrm{x}+1=0 \\\\ & 2 \\mathrm{x}^2-5 \\mathrm{x}+2=0\\end{aligned}$"
+  }
+}

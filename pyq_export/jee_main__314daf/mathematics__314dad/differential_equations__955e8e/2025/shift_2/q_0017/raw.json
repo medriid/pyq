@@ -1,0 +1,83 @@
+{
+  "_id": "67a2ee9fc8b73881fdaea17c",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d9760b",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-23T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (23 Jan Shift 2)",
+      "title": "JEE Main 2025 (23 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $x=x(y)$ be the solution of the differential equation $y=\\left(x-y \\frac{\\mathrm{~d} x}{\\mathrm{~d} y}\\right) \\sin \\left(\\frac{x}{y}\\right), y\\gt0$ and $x(1)=\\frac{\\pi}{2}$. Then $\\cos (x(2))$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "5HUaP",
+      "text": "$1-2\\left(\\log _e 2\\right)^2$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "sA8ff",
+      "text": "$1-2\\left(\\log _{\\mathrm{e}} 2\\right)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "P3ANZ",
+      "text": "$2\\left(\\log _e 2\\right)-1$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ct1ON",
+      "text": "$2\\left(\\log _e 2\\right)^2-1$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & y d y=(x d y-y d x) \\sin \\left(\\frac{x}{y}\\right) \\\\ & \\frac{d y}{y}=\\left(\\frac{x d y-y d x}{y^2}\\right) \\sin \\left(\\frac{x}{y}\\right) \\\\ & \\frac{d y}{y}=\\sin \\left(\\frac{x}{y}\\right) d\\left(-\\frac{x}{y}\\right) \\\\ & \\rightarrow \\ell n y=\\cos \\frac{x}{y}+C\\end{aligned}$\n$\\begin{aligned} & x(1)=\\frac{\\pi}{2} \\Rightarrow 0=\\cos \\frac{\\pi}{2}+C \\Rightarrow C=0 \\\\ & \\text { lny }=\\cos \\frac{x}{y} \\\\ & \\text { but } y=2 \\Rightarrow \\cos \\frac{x}{2}=\\ell n 2 \\\\ & \\cos x=2 \\cos ^2 \\frac{x}{2}-1 \\\\ & =2(\\ln 2)^2-1\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "cd86e06636f4434281f14f15950aac85",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/YmXjRzzF6ZhH9.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/YmXjRzzF6ZhH9.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d9760b",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-23T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (23 Jan Shift 2)",
+    "title": "JEE Main 2025 (23 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

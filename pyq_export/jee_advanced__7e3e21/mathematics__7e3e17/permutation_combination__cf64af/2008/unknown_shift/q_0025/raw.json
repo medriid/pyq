@@ -1,0 +1,63 @@
+{
+  "_id": "64b169edf23ac7d519f9afc2",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c43",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2008-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008 (Paper 2)",
+      "title": "JEE Advanced 2008 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Consider all possible permutations of the letters of the word ENDEANOEL. Match the Statements/Expressions in Column I with the Statements/Expressions in Column II.\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/1Oj7xgNtMlSTH_bJ2EXv-IV_L6I5OltoIjA2nwL0Yr0.original.fullsize.png\"><br>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "SKFtn",
+      "text": "\n(A) r, (B) q, (C) s, (D) p\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "vnmX6",
+      "text": "\n(A) p, (B) s, (C) q, (D) q\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "8yplH",
+      "text": "\n(A) p, (B) r, (C) s, (D) q\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "8sKyC",
+      "text": "\n(A) r, (B) s, (C) r, (D) p",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "(A) If ENDEA is fixed word, then assume this as a single letter.\nTotal number of letters $=5$ and total number of arrangements $=5$ ! .\n(B) If $E$ is at first and last places, then total number of permutations\n$$\n\\frac{7 !}{2 !}=21 \\times 5 !\n$$\n(C) If $\\mathrm{D}, \\mathrm{L}, \\mathrm{N}$ are not in last five positions\n$$\n\\leftarrow \\mathrm{D}, \\mathrm{L}, \\mathrm{N}, \\mathrm{N} \\rightarrow \\leftarrow \\text { E, E, E, A, O } \\rightarrow\n$$\nTotal number of permutations $=\\frac{4 !}{2 !} \\times \\frac{5 !}{3 !}=2 \\times 5$ ! .\n(D) Total number of odd positions $=5$\nPermutations of AEEEO are $\\frac{5 !}{3 !}$\nTotal number of even positions $=4$\nNumber of permutations of $\\mathrm{N}, \\mathrm{N}, \\mathrm{D}, \\mathrm{L}=\\frac{4 !}{2 !}$\nHence, total number of permutations $=\\frac{5 !}{3 !} \\times \\frac{4 !}{2 !}=2 \\times 5 !$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c43",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2008-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008 (Paper 2)",
+    "title": "JEE Advanced 2008 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

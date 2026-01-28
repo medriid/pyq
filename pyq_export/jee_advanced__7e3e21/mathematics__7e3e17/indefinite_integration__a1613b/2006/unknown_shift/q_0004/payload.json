@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2006",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025609b22fd9ad3a1613b",
+    "chapter_name": "Indefinite Integration",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $\\int \\frac{\\left(x^2-1\\right) d x}{x^3 \\sqrt{2 x^4-2 x^2+1}}$ is"
+  },
+  "options": [
+    {
+      "text": "\n$2 \\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}+C$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2 \\sqrt{2+\\frac{2}{x^2}+\\frac{1}{x^4}}+C$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{2} \\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}+C$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nNone of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $\\quad I=\\int \\frac{\\left(x^2-1\\right) d x}{x^3 \\sqrt{2 x^4-2 x^2+1}}$,\nOn dividing numerater and denominator by $x^5$, we get\n$$\n=\\int \\frac{\\left(\\frac{1}{x^3}-\\frac{1}{x^5}\\right) d x}{\\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}}\n$$\nput $2-\\frac{2}{x^2}+\\frac{1}{x^4}=t \\Rightarrow\\left(\\frac{4}{x^3}-\\frac{4}{x^5}\\right) d x=d t$\n$$\n\\therefore \\quad I=\\frac{1}{4} \\int \\frac{d t}{\\sqrt{t}}=\\frac{1}{4} \\cdot \\frac{t^{1 / 2}}{1 / 2}=\\frac{1}{2} \\sqrt{t}+c=\\frac{1}{2} \\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}+C\n$$"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "index": 26,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $[t]$ denote the largest integer less than or equal to $t$. If $\\int_0^3\\left(\\left[x^2\\right]+\\left[\\frac{x^2}{2}\\right]\\right) \\mathrm{d} x=\\mathrm{a}+\\mathrm{b} \\sqrt{2}-\\sqrt{3}-\\sqrt{5}+\\mathrm{c} \\sqrt{6}-\\sqrt{7}$, where $\\mathrm{a}, \\mathrm{b}, \\mathrm{c} \\in \\mathbf{Z}$, then $\\mathrm{a}+\\mathrm{b}+\\mathrm{c}$ is equal to_______"
+  },
+  "options": [],
+  "correct_answer": "23",
+  "solution": {
+    "text": "$\\begin{aligned} & \\int_0^3\\left[x^2\\right] d x+\\int_0^3\\left[\\frac{x^2}{2}\\right] d x \\\\ & =\\int_0^1 0 d x+\\int_1^{12} 1 d x+\\int_{\\sqrt{2}}^{\\sqrt{3}} 2 d x\\end{aligned}$\n$\\begin{aligned} & +\\int_{\\sqrt{3}}^2 3 \\mathrm{dx}+\\int_2^{\\sqrt{5}} 4 \\mathrm{dx}+\\int_{\\sqrt{5}}^{\\sqrt{6}} 5 \\mathrm{dx} \\\\ & +\\int_{\\sqrt{6}}^{\\sqrt{7}} 6 \\mathrm{dx}+\\int_{\\sqrt{7}}^{\\sqrt{8}} 7 \\mathrm{dx}+\\int_{\\sqrt{8}}^3 8 \\mathrm{dx} \\\\ & +\\int_0^{\\sqrt{2}} 0 \\mathrm{dx}+\\int_{\\sqrt{2}}^2 1 \\mathrm{dx} \\\\ & +\\int_2^{\\sqrt{6}} 2 \\mathrm{dx}+\\int_{\\sqrt{6}}^{\\sqrt{8}} 3 \\mathrm{dx}+\\int_{\\sqrt{8}}^3 4 \\mathrm{dx}=31-6 \\sqrt{2}-\\sqrt{3}-\\sqrt{5} \\\\ & -2 \\sqrt{6}-\\sqrt{7} \\\\ & \\mathrm{a}=31 \\quad \\mathrm{~b}=-6 \\quad \\mathrm{c}=-2 \\\\ & \\mathrm{a}+\\mathrm{b}+\\mathrm{c}=31-6-2=23\\end{aligned}$"
+  }
+}

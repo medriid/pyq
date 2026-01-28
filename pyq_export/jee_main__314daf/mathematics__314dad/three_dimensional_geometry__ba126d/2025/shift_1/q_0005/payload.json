@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256d4f8c6827c3ba126d",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If the shortest distance between the lines $\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}$ and $\\frac{x}{1}=\\frac{y}{\\alpha}=\\frac{z-5}{1}$ is $\\frac{5}{\\sqrt{6}}$, then the sum of all possible values of $\\alpha$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{3}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{3}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "-3",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0005_899db149b618.png\"/><br/>$\\begin{aligned} & L_1: \\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4} \\\\ & L_1: \\frac{x}{1}=\\frac{y}{\\alpha}=\\frac{z-5}{1} \\\\ & \\vec{x}=\\left|\\begin{array}{ccc}\\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 3 & 4 \\\\ 1 & \\alpha & 1\\end{array}\\right|=\\hat{\\mathrm{i}}(3-4 \\alpha)-\\hat{\\mathrm{j}}(-2)+\\hat{\\mathrm{k}}(2 \\alpha-3) \\\\ & \\text { S.D. }=\\left|\\frac{\\overrightarrow{\\mathrm{BA}} \\cdot \\overrightarrow{\\mathrm{n}}}{|\\overrightarrow{\\mathrm{n}}|}\\right|=\\left|\\frac{(\\hat{\\mathrm{i}}+2 \\hat{\\mathrm{j}}-2 \\hat{\\mathrm{k}}) \\cdot \\vec{n}}{|\\overrightarrow{\\mathrm{n}}|}\\right| \\\\ & \\Rightarrow 6(13-8 \\alpha)^2=25\\left((4 \\alpha-3)^2+(2 \\alpha-3)^2+16\\right) \\\\ & 6\\left(64 a^2-280 \\alpha+169\\right)=25\\left(20 \\alpha^2-36 \\alpha+34\\right) \\\\ & \\Rightarrow 116 \\alpha^2+348 \\alpha-164=0 \\\\ & \\alpha_1+\\alpha_2=\\frac{-348}{116}=-3\\end{aligned}$"
+  }
+}

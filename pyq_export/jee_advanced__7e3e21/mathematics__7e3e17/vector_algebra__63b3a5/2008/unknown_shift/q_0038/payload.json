@@ -1,0 +1,43 @@
+{
+  "index": 38,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2008 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256c7b3a9c1d0763b3a5",
+    "chapter_name": "Vector Algebra",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The edges of a parallelopiped are of unit length and are parallel to non-coplanar unit vectors $\\hat{\\mathbf{a}}, \\hat{\\mathbf{b}}, \\hat{\\mathbf{c}}$ such that $\\hat{\\mathbf{a}} \\cdot \\hat{\\mathbf{b}}=\\hat{\\mathbf{b}} \\cdot \\hat{\\mathbf{c}}=\\hat{\\mathbf{c}} \\cdot \\hat{\\mathbf{a}}=\\frac{1}{2}$. Then, the volume of the parallelopiped is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{\\sqrt{2}} \\mathrm{cu}$ units\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{1}{2 \\sqrt{2}}$ cu units\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\sqrt{3}}{2}$ cu units\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{\\sqrt{3}} \\mathrm{cu}$ units",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "The volume of the parallelopiped with coterminus edges as $\\hat{\\mathbf{a}}, \\hat{\\mathbf{b}}, \\hat{\\mathbf{c}}$ is given by $[\\hat{\\mathbf{a}} \\hat{\\mathbf{b}} \\hat{\\mathbf{c}}]=\\hat{\\mathbf{a}} \\cdot(\\hat{\\mathbf{b}} \\times \\hat{\\mathbf{c}})$\n<img src=\"assets\\st0038_d44208cfdd47.png\"><br>\n$$\n\\begin{aligned}\n& \\text { Now, }[\\hat{\\mathbf{a}} \\hat{\\mathbf{b}} \\hat{\\mathbf{c}}]^2=\\left|\\begin{array}{ccc}\n\\hat{\\mathbf{a}} \\cdot \\hat{\\mathbf{a}} & \\hat{\\mathbf{a}} \\cdot \\hat{\\mathbf{b}} & \\hat{\\mathbf{a}} \\cdot \\hat{\\mathbf{c}} \\\\\n\\hat{\\mathbf{b}} \\cdot \\hat{\\mathbf{a}} & \\hat{\\mathbf{b}} \\cdot \\hat{\\mathbf{b}} & \\hat{\\mathbf{b}} \\cdot \\hat{\\mathbf{c}} \\\\\n\\hat{\\mathbf{c}} \\cdot \\hat{\\mathbf{a}} & \\hat{\\mathbf{c}} \\cdot \\hat{\\mathbf{b}} & \\hat{\\mathbf{c}} \\cdot \\hat{\\mathbf{c}}\n\\end{array}\\right|=\\left|\\begin{array}{ccc}\n1 & 1 / 2 & 1 / 2 \\\\\n1 / 2 & 1 & 1 / 2 \\\\\n1 / 2 & 1 / 2 & 1\n\\end{array}\\right|=\\frac{1}{2} \\\\\n& \\Rightarrow \\quad[\\hat{\\mathbf{a}} \\hat{\\mathbf{b}} \\hat{\\mathbf{c}}]^2=\\frac{1}{2} \\\\\n&\n\\end{aligned}\n$$\nThus, the required volume of the parallelopiped $=\\frac{1}{\\sqrt{2}} \\mathrm{cu}$ units"
+  }
+}

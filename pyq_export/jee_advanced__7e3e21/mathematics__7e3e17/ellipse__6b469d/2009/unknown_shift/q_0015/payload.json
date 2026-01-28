@@ -1,0 +1,44 @@
+{
+  "index": 15,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2009 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602540e6d04db2c46b469d",
+    "chapter_name": "Ellipse",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "An ellipse intersects the hyperbola $2 x^2-2 y^2=1$ orthogonally. The eccentricity of the ellipse is reciprocal to that of the hyperbola. If the axes of the ellipse are along the coordinate axes, then"
+  },
+  "options": [
+    {
+      "text": "\nequation of ellipse is $x^2+2 y^2=2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nthe foci of ellipse are $(\\pm 1,0)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nequation of ellipse is $x^2+2 y^2=4$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nthe foci of ellipse are $(\\pm \\sqrt{2}, 0)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "B"
+  ],
+  "solution": {
+    "text": "Given, $2 x^2-2 y^2=1$\n$$\n\\Rightarrow \\quad \\frac{x^2}{\\left(\\frac{1}{2}\\right)}-\\frac{y^2}{\\left(\\frac{1}{2}\\right)}=1\n$$\nEccentricity of hyperbola $=\\sqrt{2}$\nSo, eccentricity of ellipse $=1 / \\sqrt{2}$\nLet equation of ellipse be\n$$\n\\begin{aligned}\n& \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b) \\Rightarrow \\frac{1}{\\sqrt{2}}=\\sqrt{1-\\frac{b^2}{a^2}} \\\\\n& \\Rightarrow \\quad \\frac{b^2}{a^2}=\\frac{1}{2} \\Rightarrow a^2=2 b^2 \\\\\n& \\therefore \\quad x^2+2 y^2=2 b^2 \\\\\n&\n\\end{aligned}\n$$\nLet ellipse and hyperbola intersect at\n$$\nA\\left(\\frac{1}{\\sqrt{2}} \\sec \\theta, \\frac{1}{\\sqrt{2}} \\tan \\theta\\right)\n$$\nOn differentiating Eq. (i),\n$$\n4 x-4 y \\frac{d y}{d x}=0 \\Rightarrow \\frac{d y}{d x}=\\frac{x}{y}\n$$\n\n$$\n\\therefore \\quad\\left(\\frac{d y}{d x}\\right)_{\\text {at } A}=\\frac{\\sec \\theta}{\\tan \\theta}=\\operatorname{cosec} \\theta\n$$\nOn differentiating Eq. (ii),\n$$\n2 x+4 y \\frac{d y}{d x}=0\n$$\n\n$$\n\\therefore \\quad\\left(\\frac{d y}{d x}\\right)_{\\text {at } A}=-\\frac{x}{2 y}=-\\frac{1}{2} \\operatorname{cosec} \\theta\n$$\nSince, ellipse and hyperbola are orthogonal.\n$$\n\\begin{aligned}\n& \\therefore \\quad-\\frac{1}{2} \\operatorname{cosec}^2 \\theta=-1 \\\\\n& \\Rightarrow \\quad \\operatorname{cosec}^2 \\theta=2 \\Rightarrow \\theta=\\pm \\frac{\\pi}{4} \\\\\n& \\therefore A\\left(1, \\frac{1}{\\sqrt{2}}\\right) \\text { or }\\left(1,-\\frac{1}{\\sqrt{2}}\\right)\n\\end{aligned}\n$$\nFrom Eq. (i), $1+2\\left(\\frac{1}{\\sqrt{2}}\\right)^2=2 b^2$ $\\Rightarrow \\quad b^2=1$\nEquation of ellipse is $x^2+2 y^2=2$\nCoordinate of foci $(\\pm a e, 0)$\n$$\n=\\left(\\pm \\sqrt{2} \\cdot \\frac{1}{\\sqrt{2}}, 0\\right)=(\\pm 1,0)\n$$\nHence, options (a) and (b) are correct. If major axis is along $Y$-axis, then\n\n$$\n\\begin{aligned}\n& \\frac{1}{\\sqrt{2}}=\\sqrt{1-\\frac{a^2}{b^2}} \\Rightarrow b^2=2 a^2 \\\\\n& \\therefore 2 x^2+y^2=2 a^2 \\Rightarrow y^{\\prime}=-\\frac{2 x}{y} \\\\\n& \\Rightarrow \\quad y^{\\prime}\\left(\\frac{1}{\\sqrt{2}} \\sec \\theta \\frac{1}{\\sqrt{2}} \\tan \\theta\\right)=\\frac{-2}{\\sin \\theta} \\\\\n&\n\\end{aligned}\n$$\nAs ellipse and hyperbola are orthogonal.\n$$\n\\begin{array}{ll}\n\\therefore & -\\frac{2}{\\sin \\theta} \\cdot \\operatorname{cosec} \\theta=-1 \\\\\n\\Rightarrow & \\operatorname{cosec}^2 \\theta=1 \\Rightarrow \\theta=\\pm \\frac{\\pi}{4} \\\\\n\\therefore & 2 x^2+y^2=2 a^2 \\Rightarrow 2+\\frac{1}{2}=2 a^2 \\\\\n\\Rightarrow & a^2=\\frac{5}{4} \\Rightarrow 2 x^2+y^2=\\frac{5}{2}\n\\end{array}\n$$\nCorresponding foci are $(0, \\pm 1)$."
+  }
+}

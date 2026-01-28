@@ -1,0 +1,44 @@
+{
+  "index": 46,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2008 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602563f6918f74a3b3a999",
+    "chapter_name": "Definite Integration",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $S_n=\\sum_{k=0}^n \\frac{n}{n^2+k n+k^2}$ and $T_n=\\sum_{k=0}^{n-1} \\frac{n}{n^2+k n+k^2}$, for $n=1,2,3, \\ldots$, then"
+  },
+  "options": [
+    {
+      "text": "\n$S_n < \\frac{\\pi}{3 \\sqrt{3}}$",
+      "is_correct": true
+    },
+    {
+      "text": "\n$S_n>\\frac{\\pi}{3 \\sqrt{3}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$T_n < \\frac{\\pi}{3 \\sqrt{3}}$",
+      "is_correct": false
+    },
+    {
+      "text": "\n$T_n>\\frac{\\pi}{3 \\sqrt{3}}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "D"
+  ],
+  "solution": {
+    "text": "Given,\n$$\n\\begin{aligned}\nS_n & =\\sum_{k=0}^n \\frac{n}{n^2+k n+k^2} \\\\\n& =\\sum_{k=0}^n \\frac{1}{n} \\cdot\\left(\\frac{1}{1+\\frac{k}{n}+\\frac{k^2}{n^2}}\\right) < \\lim _{n \\rightarrow \\infty} \\sum_{k=0}^n \\frac{1}{n}\\left(\\frac{1}{1+\\frac{k}{n}+\\left(\\frac{k}{n}\\right)^2}\\right) \\\\\n& =\\int_0^1 \\frac{1}{1+x+x^2} d x=\\left[\\frac{2}{\\sqrt{3}} \\tan ^{-1}\\left(\\frac{2}{\\sqrt{3}}\\left(x+\\frac{1}{2}\\right)\\right)\\right]_0^1 \\\\\n& =\\frac{2}{\\sqrt{3}} \\cdot\\left(\\frac{\\pi}{3}-\\frac{\\pi}{6}\\right)=\\frac{\\pi}{3 \\sqrt{3}}\n\\end{aligned}\n$$\ni.e., $\\quad S_n < \\frac{\\pi}{3 \\sqrt{3}}$\nSimilarly, $T_n>\\frac{\\pi}{3 \\sqrt{3}}$."
+  }
+}

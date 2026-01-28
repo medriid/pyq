@@ -1,0 +1,38 @@
+{
+  "_id": "64b16a11f23ac7d519f9b107",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c48",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2011-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011 (Paper 1)",
+      "title": "JEE Advanced 2011 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $f(\\theta)=\\sin \\left[\\tan ^{-1}\\left(\\frac{\\sin \\theta}{\\sqrt{\\cos 2 \\theta}}\\right)\\right]$, where $-\\frac{\\pi}{4} < \\theta < \\frac{\\pi}{4}$. Then, the value of $\\frac{d}{d(\\tan \\theta)}(f(\\theta))$ is",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "1",
+  "solution": {
+    "text": "$f(\\theta)=\\sin \\left(\\tan ^{-1} \\frac{\\sin \\theta}{\\sqrt{\\cos 2 \\theta}}\\right),-\\frac{\\pi}{4} < \\theta < \\frac{\\pi}{4}$\nLet $\\tan ^{-1} \\frac{\\sin \\theta}{\\sqrt{\\cos 2 \\theta}}=\\phi$\n$$\n\\Rightarrow \\quad \\tan \\phi=\\frac{\\sin \\theta}{\\sqrt{\\cos 2 \\theta}}\n$$<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/bbRBtOL8gHVb5FgMH9HblcPKawLYnY879QtTMljq-9M.original.fullsize.png\"><br>\n$$\n\\begin{aligned}\n\\therefore \\quad \\sin \\phi & =\\frac{\\sin \\theta}{\\sqrt{\\sin ^2 \\theta+\\cos 2 \\theta}} \\\\\n& =\\frac{\\sin \\theta}{\\sqrt{1-\\sin ^2 \\theta}}=\\frac{\\sin \\theta}{\\cos \\theta}=\\tan \\theta\n\\end{aligned}\n$$\n\n$$\n\\begin{array}{ll}\n\\therefore & f(\\theta)=\\sin \\phi=\\tan \\theta \\\\\n\\Rightarrow & \\frac{d f(\\theta)}{d(\\tan \\theta)}=1\n\\end{array}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c48",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2011-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011 (Paper 1)",
+    "title": "JEE Advanced 2011 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

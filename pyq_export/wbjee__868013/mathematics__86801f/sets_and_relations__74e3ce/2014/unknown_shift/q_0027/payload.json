@@ -1,0 +1,43 @@
+{
+  "index": 27,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d00146ed0ebdd74e3ce",
+    "chapter_name": "Sets and Relations",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For any two real numbers $\\theta$ and $\\phi$ we define $\\theta$. R $\\phi$ if and only if $\\sec ^{2} \\theta-\\tan ^{2} \\phi=1$. The relation $R$ is"
+  },
+  "options": [
+    {
+      "text": "reflexive but not transitive",
+      "is_correct": false
+    },
+    {
+      "text": "symmetric but not reflexive",
+      "is_correct": false
+    },
+    {
+      "text": "both reflexive and symmetric but not transitive",
+      "is_correct": false
+    },
+    {
+      "text": "an equivalence relation",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given relation is defined as $\\theta R \\phi$ such that $\\sec ^{2} \\theta-\\tan ^{2} \\phi=1$<br />For Reflexive<br />When $\\theta R \\theta$<br />$\\sec ^{2} \\theta-\\tan ^{2} \\theta=1$<br />$\\Rightarrow 1=1,$ which is true.<br />Thus, it is reflexive.<br />For Symmetric When $\\theta R \\phi$<br />$\\begin{array}{l}<br />\\sec ^{2} \\theta-\\tan ^{2} \\phi=1 \\\\<br />\\Rightarrow\\left(1+\\tan ^{2} \\theta\\right)-\\left(\\sec ^{2} \\phi-1\\right)=1 \\\\<br />\\Rightarrow 2+\\tan ^{2} \\theta-\\sec ^{2} \\phi=1 \\\\<br />\\Rightarrow \\sec ^{2} \\phi-\\tan ^{2} \\theta=1<br />\\end{array}$<br />$\\Rightarrow \\phi F \\theta$<br />Thus, it is symmetric.<br />For Transitive<br />When $\\theta R \\phi$ and $\\phi$ Fiy, then<br />$\\sec ^{2} \\theta-\\tan ^{2} \\phi=1$<br />and $\\sec ^{2} \\phi-\\tan ^{2} \\psi=1$<br />Now, $\\theta$ R $\\psi$<br />Then. $\\sec ^{2} \\theta-\\tan ^{2} \\psi=1$<br />$\\Rightarrow \\sec ^{2} \\theta-\\tan ^{2} \\psi+1=1+1$<br />$\\Rightarrow \\sec ^{2} \\theta-\\tan ^{2} \\psi+\\sec ^{2} \\phi-\\tan ^{2} \\phi=1+1$<br />$\\Rightarrow \\theta R \\phi$ and $\\phi R \\psi$<br />Thus, it is transitive. Hence, it is an equivalence relation."
+  }
+}

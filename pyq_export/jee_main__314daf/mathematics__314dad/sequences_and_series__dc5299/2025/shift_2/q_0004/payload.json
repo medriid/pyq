@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If the sum of the first 20 terms of the series<br/>$\\frac{4.1}{4+3.1^2+1^4}+\\frac{4.2}{4+3.2^2+2^4}+\\frac{4.3}{4+3.3^2+3^4}+\\frac{4.4}{4+3.4^2+4^4}+\\ldots$<br/>is $\\frac{m}{n}$, where $m$ and $n$ are coprime, then $m+n$ is equal to :-"
+  },
+  "options": [
+    {
+      "text": "$423$",
+      "is_correct": false
+    },
+    {
+      "text": "$420$",
+      "is_correct": false
+    },
+    {
+      "text": "$421$",
+      "is_correct": true
+    },
+    {
+      "text": "$422$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\sum_{\\mathrm{r}=1}^{20} \\frac{4 \\mathrm{r}}{4+3 \\mathrm{r}^2+\\mathrm{r}^4} \\\\ & \\sum_{\\mathrm{r}=1}^{20} \\frac{4 \\mathrm{r}}{\\left(\\mathrm{r}^2+\\mathrm{r}+2\\right)\\left(\\mathrm{r}^2-\\mathrm{r}+2\\right)} \\\\ & 2 \\sum_{\\mathrm{r}=1}^{20}\\left(\\frac{1}{\\mathrm{r}^2-\\mathrm{r}+2}-\\frac{1}{\\mathrm{r}^2+\\mathrm{r}+2}\\right) \\\\ & 2\\left(\\frac{1}{2}-\\frac{1}{4}\\right) \\\\ & \\frac{1}{4}-\\frac{1}{8} \\\\ & \\frac{1}{8}-\\frac{1}{14} \\\\ & \\left(\\frac{1}{382}-\\frac{1}{422}\\right) \\\\ & =2\\left(\\frac{1}{2}-\\frac{1}{422}\\right) \\\\ & =\\frac{420}{422} \\\\ & =\\frac{210}{211} \\\\ & \\text { option }(3)\\end{aligned}$"
+  }
+}

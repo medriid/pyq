@@ -1,0 +1,43 @@
+{
+  "index": 115,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2008",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023c2c988039d0c2af460",
+    "chapter_name": "Center of Mass Momentum and Collision",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A thin rod of length ' $L$ ' is lying along the $x$-axis with its ends at $x=0$ and $x=L$. Its linear density (mass/length) varies with $x$ ask $\\left(\\frac{x}{L}\\right)^n$, where $n$ can be zero or any positive number. If the position $x_{\\mathrm{CM}}$ of the centre of mass of the rod is plotted against ' $n$ ', which of the following graphs best approximates the dependence of $x_{\\mathrm{CM}}$ on $n$ ?"
+  },
+  "options": [
+    {
+      "text": "\n<img src=\"assets\\ot1_0115_4697cddddf8e.png\"><br>",
+      "is_correct": true
+    },
+    {
+      "text": "\n<img src=\"assets\\ot2_0115_c6773a9d2795.png\"><br>",
+      "is_correct": false
+    },
+    {
+      "text": "\n<img src=\"assets\\ot3_0115_4a67a451b690.png\"><br>",
+      "is_correct": false
+    },
+    {
+      "text": "\n<img src=\"assets\\ot4_0115_f057854818e1.png\"><br>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& x_{c m}=\\frac{\\int d m x}{\\int d m}=\\frac{\\int \\lambda d x \\cdot x}{\\int d m}=\\frac{\\int k\\left(\\frac{x}{L}\\right)^n \\cdot x d x}{\\int k\\left(\\frac{x}{L}\\right)^n d x}=\\left[\\frac{\\frac{k x^{n+2}}{(n+2) L^n}}{\\frac{k x^{n+1}}{(n+1) L^n}}\\right]_0^L=\\left[\\frac{x(n+1)}{n+2}\\right]_0^L \\\\\n& x_{c m}=\\frac{L}{2}, \\frac{2 L}{3}, \\frac{3 L}{4}, \\frac{4 L}{5}, \\frac{5 L}{6}, \\ldots\n\\end{aligned}\n$$"
+  }
+}

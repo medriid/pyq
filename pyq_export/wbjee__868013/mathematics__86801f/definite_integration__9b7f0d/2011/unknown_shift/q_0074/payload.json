@@ -1,0 +1,43 @@
+{
+  "index": 74,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2011",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of \\(\\int_0^\\pi \\sin ^{50} x \\cos ^{49} x d x\\) is"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": true
+    },
+    {
+      "text": "\\(\\pi / 4\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\pi / 2\\)",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Hints: \\(I=\\int_0^\\pi \\sin ^{50} x \\cdot \\cos ^{49} x d x \\int_0^4 f(x)=\\int_0^4 f(a-x)\\)\n\\(\\begin{aligned}\n& I=\\int_0^\\pi \\sin ^{50} x\\left(-\\cos ^{49}(x)\\right)=-\\int_0^\\pi \\sin ^{50} x \\cdot \\cos ^{49} x \\\\\n& =I=-I \\\\\n& I=0\n\\end{aligned}\\)"
+  }
+}

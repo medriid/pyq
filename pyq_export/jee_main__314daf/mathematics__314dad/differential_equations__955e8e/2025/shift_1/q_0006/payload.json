@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $g$ be a differentiable function such that $\\int_0^x g(t) d t=x-\\int_0^x \\operatorname{tg}(t) d t, x \\geq 0$ and let $y=y(x)$ satisfy the differential equation $\\frac{d y}{d x}-y \\tan x=$ $2(x+1) \\sec x g(x), x \\in\\left[0, \\frac{\\pi}{2}\\right)$. If $y(0)=0$, then $y\\left(\\frac{\\pi}{3}\\right)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{2 \\pi}{3 \\sqrt{3}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{4 \\pi}{3}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{2 \\pi}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{4 \\pi}{3 \\sqrt{3}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Diff. w.r.t. x<br/>$\\begin{aligned}<br/>& g(x)=1-x g(x) \\\\\n& g(x)=\\frac{1}{1+x} \\\\\n& \\text { so } \\frac{d y}{d x}-y \\tan x=2 \\sec x \\\\\n& I F=e^{-\\int \\tan d x}=e^{\\log \\cos x}=\\cos x<br/>\\end{aligned}$<br/>solution of D.E.<br/>$\\begin{aligned}<br/>& y \\cos x=\\int 2 d x+c \\\\\n& y \\cos x=2 x+c \\\\\n& y(0)=0<br/>\\end{aligned}$<br/>$\\mathrm{c}=0$<br/>$\\begin{aligned} & y=\\frac{2 x}{\\cos x} \\\\ & y=2 x \\sec x \\\\ & y\\left(\\frac{\\pi}{3}\\right)=2 \\cdot \\frac{\\pi}{3} \\cdot 2=\\frac{4 \\pi}{3}\\end{aligned}$"
+  }
+}

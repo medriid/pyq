@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602525fb63982f7225f1d8",
+    "chapter_name": "Quadratic Equation",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $\\alpha, \\beta$ be the distinct roots of the equation $x^2-\\left(t^2-5 t+6\\right) x+1=0, t \\in \\mathbb{R}$ and $a_n=\\alpha^n+\\beta^n$. Then the minimum value of $\\frac{a_{2023}+a_{2025}}{a_{2024}}$ is"
+  },
+  "options": [
+    {
+      "text": "$-1 / 4$",
+      "is_correct": false
+    },
+    {
+      "text": "$-1 / 4$",
+      "is_correct": true
+    },
+    {
+      "text": "$-1 / 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$1 / 4$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "by newton's theorem\n$\\begin{aligned}\n& \\mathrm{a}_{\\mathrm{n}+2}-\\left(\\mathrm{t}^2-5 \\mathrm{t}+6\\right) \\mathrm{a}_{\\mathrm{n}+1}+\\mathrm{a}_{\\mathrm{n}}=0 \\\\\n& \\therefore \\mathrm{a}_{2025}+\\mathrm{a}_{2023}=\\left(\\mathrm{t}^2-5 \\mathrm{t}+6\\right) \\mathrm{a}_{2024} \\\\\n& \\therefore \\frac{\\mathrm{a}_{2025}+\\mathrm{a}_{2023}}{\\mathrm{a}_{2024}}=\\mathrm{t}^2-5 \\mathrm{t}+6 \\\\\n& \\because \\mathrm{t}^2-5 \\mathrm{t}+6=\\left(\\mathrm{t}-\\frac{5}{2}\\right)^2-\\frac{1}{4} \\\\\n& \\therefore \\text { minimum value }=-\\frac{1}{4}\n\\end{aligned}$"
+  }
+}

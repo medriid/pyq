@@ -1,0 +1,61 @@
+{
+  "_id": "6151e863a83d94203b6c7697",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "94",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "There are fifty persons among whom <math><mn>2</mn></math> are brothers. The number of ways they can be arranged in a circle, if there is exactly one person between the two brothers, is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "0FoWC",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>&#215;</mo><mn>48</mn><mo>!</mo></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "DAGym",
+      "text": "<math><mn>12</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "9GkbV",
+      "text": "<math><mn>360</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "8ePEB",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>&#215;</mo><mn>8</mn><mo>!</mo></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Consider three persons as one unit. This unit and remaining <math><mn>47</mn></math> persons (total <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn></math>)&nbsp;can be arranged in a circle in <math><mn>47</mn><mo>!</mo><mi>&#160;</mi></math>&nbsp;ways.<br /><br />In this unit, the two brothers can be interchanged in <math><mn>2</mn></math> ways.<br /><br />The person between the two brothers can be any of the remaining <math><mn>48</mn></math> persons who can be selected in <math> <mrow> <mmultiscripts> <mi>C</mi> <mprescripts></mprescripts> <mo>&#160;</mo> <mrow> <mn>48</mn></mrow> </mmultiscripts> <msub> <mrow></mrow> <mn>1</mn> </msub> </mrow> </math> ways.<br /><br />Hence, the required number of ways <math> <mrow> <mo>=</mo><mmultiscripts> <mi>C</mi> <mprescripts></mprescripts> <mo>&#160;</mo> <mrow> <mn>48</mn></mrow> </mmultiscripts> <msub> <mrow></mrow> <mn>1</mn> </msub> <mo>&#215;</mo><mn>47</mn><mo>!</mo><mo>&#215;</mo><mn>2</mn><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>48</mn><mo>!</mo></mrow> </math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

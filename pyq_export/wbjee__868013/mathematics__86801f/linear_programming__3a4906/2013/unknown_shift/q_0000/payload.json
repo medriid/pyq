@@ -1,0 +1,44 @@
+{
+  "index": 0,
+  "type": "multipleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "620ab6fdd51c8b0b433a4906",
+    "chapter_name": "Linear Programming",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider the system of equations\r\n\\(\\begin{array}{cc}\r\nx+y+z & =0 \\\\\r\n\\alpha x+\\beta y+\\gamma z & =0 \\\\\r\n\\alpha^{2} x+\\beta^{2} y+\\gamma^{2} z & =0\r\n\\end{array}\\)\r\nThen the system of equations has"
+  },
+  "options": [
+    {
+      "text": "a unique solution for all values of $\\alpha, \\beta$ and $\\gamma$.",
+      "is_correct": false
+    },
+    {
+      "text": "infinite number of solutions, if any two of $\\alpha, \\bar{\\beta},$ yare equal.",
+      "is_correct": true
+    },
+    {
+      "text": "a unique solution, if $\\alpha, \\beta$ and $\\gamma$ are distinct.",
+      "is_correct": true
+    },
+    {
+      "text": "more than one, but finite number of solutions depending on values of $\\alpha, \\beta$ and $\\gamma$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "C"
+  ],
+  "solution": {
+    "text": "Given system of equations is $x+y+z=0$<br />$\\begin{array}{l}<br />\\alpha x+\\beta y+\\gamma z=0 \\\\<br />\\alpha^{2} x+\\beta^{2} y+\\gamma^{2} z=0<br />\\end{array}$<br />The coefficient matrix, $A=\\left[\\begin{array}{ccc}1 & 1 & 1 \\\\ \\alpha & \\beta & \\gamma \\\\ \\alpha^{2} & \\beta^{2} & \\gamma^{2}\\end{array}\\right]$<br />Now, $|A|=\\left|\\begin{array}{ccc}1 & 1 & 1 \\\\ \\alpha & \\beta & \\gamma \\\\ \\alpha^{2} & \\beta^{2} & \\gamma^{2}\\end{array}\\right|=(\\alpha-\\beta)(\\beta-\\gamma)(\\gamma-\\alpha)$<br />(i) The system of equations has a unique solution, if $\\alpha, \\beta$ and $\\gamma$ are distinct<br />i.e. $|A| \\neq 0$<br />(ii) The system of equations has infinite number of solutions, if any two of $\\alpha, \\beta$ and $\\gamma$ ar equal.<br />i.e. $|A|=0$"
+  }
+}

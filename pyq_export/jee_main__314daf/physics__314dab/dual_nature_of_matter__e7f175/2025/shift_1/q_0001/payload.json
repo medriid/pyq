@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602445597a455b27e7f175",
+    "chapter_name": "Dual Nature of Matter",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "A small mirror of mass $m$ is suspended by a massless thread of length $l$. Then the small angle through which the thread will be deflected when a short pulse of laser of energy $E$ falls normal on the mirror ( $\\mathrm{c}=$ speed of light in vacuum and $\\mathrm{g}=$ acceleration due to gravity)"
+  },
+  "options": [
+    {
+      "text": "$\\theta=\\frac{3 \\mathrm{E}}{4 \\mathrm{mc} \\sqrt{\\mathrm{g} l}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\theta=\\frac{\\mathrm{E}}{\\mathrm{mc} \\sqrt{\\mathrm{g} l}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\theta=\\frac{\\mathrm{E}}{2 \\mathrm{mc} \\sqrt{\\mathrm{gl}}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\theta=\\frac{2 \\mathrm{E}}{\\mathrm{mc} \\sqrt{\\mathrm{g} l}}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0001_02a2a251c43e.png\"/><br/>Force due to beam assuming complete reflection $\\mathrm{F}=\\frac{2 \\mathrm{P}}{\\mathrm{C}}=\\frac{2}{\\mathrm{C}} \\frac{\\mathrm{dE}}{\\mathrm{dt}} ; \\mathrm{P}$ is power<br/>So change in momentum of mirror.<br/>$\\mathrm{m}(\\mathrm{~V}-0)=\\int \\mathrm{Fdt}=\\frac{2}{\\mathrm{C}} \\int \\mathrm{dE}=\\frac{2 \\mathrm{E}}{\\mathrm{C}}$<br/>Now using work energy theorem ...(1)<img src=\"assets\\st0001_8d563e5185e4.png\"/><br/>$\\begin{aligned}<br/>& \\mathrm{W}_{\\mathrm{g}}=\\Delta \\mathrm{k} \\\\\n& -\\mathrm{mg} \\ell(1-\\cos \\theta)=0-\\frac{1}{2} \\mathrm{mv}^2 \\\\\n& \\mathrm{~g} \\ell\\left(2 \\sin ^2 \\frac{\\theta}{2}\\right)=\\frac{\\mathrm{v}^2}{2}<br/>\\end{aligned}$<br/>as $\\theta$ is small<br/>$\\begin{aligned} & \\mathrm{g} \\ell 2\\left(\\frac{\\theta}{2}\\right)^2=\\frac{1}{2} \\frac{4 \\mathrm{E}^2}{\\mathrm{~m}^2 \\mathrm{c}^2} \\\\ & \\mathrm{~g} \\ell \\theta^2=\\frac{4 \\mathrm{E}^2}{\\mathrm{~m}^2 \\mathrm{c}^2} \\\\ & \\theta=\\frac{2 \\mathrm{E}}{\\mathrm{mc} \\sqrt{\\mathrm{g} \\ell}}\\end{aligned}$"
+  }
+}

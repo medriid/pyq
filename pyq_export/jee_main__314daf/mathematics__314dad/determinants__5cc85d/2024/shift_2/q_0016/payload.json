@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $\\alpha \\neq \\mathrm{a}, \\beta \\neq \\mathrm{b}, \\gamma \\neq \\mathrm{c}$ and $\\left|\\begin{array}{lll}\\alpha & \\mathrm{b} & \\mathrm{c} \\\\ \\mathrm{a} & \\beta & \\mathrm{c} \\\\ \\mathrm{a} & \\mathrm{b} & \\gamma\\end{array}\\right|=0$, then $\\frac{\\mathrm{a}}{\\alpha-\\mathrm{a}}+\\frac{\\mathrm{b}}{\\beta-\\mathrm{b}}+\\frac{\\gamma}{\\gamma-\\mathrm{c}}$ is equal to:"
+  },
+  "options": [
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "0",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{R}_1 \\rightarrow \\mathrm{R}_1-\\mathrm{R}_2, \\mathrm{R}_2 \\rightarrow \\mathrm{R}_2-\\mathrm{R}_3 \\\\ & \\left|\\begin{array}{ccc}\\alpha-\\mathrm{a} & \\mathrm{b}-\\beta & 0 \\\\ 0 & \\beta-\\mathrm{b} & \\mathrm{c}-\\gamma \\\\ \\mathrm{a} & \\mathrm{b} & \\gamma\\end{array}\\right|=0 \\\\ & (\\alpha-\\mathrm{a})(\\gamma(\\beta-\\mathrm{b})-\\mathrm{b}(\\mathrm{c}-\\gamma))-(\\mathrm{b}-\\beta)(-\\mathrm{a}(\\mathrm{c}-\\gamma))=0 \\\\ & \\gamma(\\alpha-\\mathrm{a})(\\beta-\\mathrm{b})-\\mathrm{b}(\\alpha-\\mathrm{a})(\\mathrm{c}-\\gamma)+\\mathrm{a}(\\mathrm{b}-\\beta)(\\mathrm{c}-\\gamma) \\\\ & \\frac{\\gamma}{\\gamma-\\mathrm{c}}+\\frac{\\mathrm{b}}{\\beta-\\mathrm{b}}+\\frac{\\mathrm{a}}{\\alpha-\\mathrm{a}}=0\\end{aligned}$"
+  }
+}

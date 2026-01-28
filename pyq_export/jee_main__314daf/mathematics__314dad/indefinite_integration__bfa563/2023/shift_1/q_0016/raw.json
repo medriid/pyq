@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a71417cc3fb48d6869e",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "648b5a3a0d9d0b909f7b6494",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2023-04-13T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (13 Apr Shift 1)",
+      "title": "JEE Main 2023 (13 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mo>&#8747;</mo><mn>0</mn><mo>&#8734;</mo></msubsup><mfrac><mn>6</mn><mrow><msup><mi>e</mi><mrow><mn>3</mn><mi>x</mi></mrow></msup><mo>+</mo><mn>6</mn><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><mo>+</mo><mn>11</mn><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>6</mn></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo></math>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "I2Rzz",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mi>e</mi></msub><mfenced><mfrac><mn>32</mn><mn>27</mn></mfrac></mfenced></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "Ec08q",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mi>e</mi></msub><mfenced><mfrac><mn>512</mn><mn>81</mn></mfrac></mfenced></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "T8XsG",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mi>e</mi></msub><mfenced><mfrac><mn>256</mn><mn>81</mn></mfrac></mfenced></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "8Effg",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mi>e</mi></msub><mfenced><mfrac><mn>302</mn><mn>27</mn></mfrac></mfenced></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<blockquote><p>Let</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mo>&#8734;</mo></msubsup><mfenced><mfrac><mn>6</mn><mrow><msup><mi>e</mi><mrow><mn>3</mn><mi>x</mi></mrow></msup><mo>+</mo><mn>6</mn><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><mo>+</mo><mn>11</mn><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>6</mn></mrow></mfrac></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mo>&#8734;</mo></msubsup><mfrac><mn>6</mn><mrow><mfenced><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn></mrow></mfenced><mfenced><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>2</mn></mrow></mfenced><mfenced><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>3</mn></mrow></mfenced></mrow></mfrac><mi>d</mi><mi>x</mi></math></p><p>Using partial fraction, we can write</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><mn>6</mn><msubsup><mo>&#8747;</mo><mn>0</mn><mo>&#8734;</mo></msubsup><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mn>1</mn><mrow><mn>2</mn><mfenced><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>2</mn></mrow></mfenced></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mfenced><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>3</mn></mrow></mfenced></mrow></mfrac></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><mn>6</mn><msubsup><mo>&#8747;</mo><mn>0</mn><mo>&#8734;</mo></msubsup><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mn>1</mn><mrow><mn>2</mn><mfenced><mrow><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mrow><mn>1</mn><mo>+</mo><mn>2</mn><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></mrow></mfenced></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mfenced><mrow><mn>1</mn><mo>+</mo><mn>3</mn><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></mrow></mfenced></mrow></mfrac></mrow></mfenced><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><mn>6</mn><msubsup><mfenced close=\"]\" open=\"[\"><mrow><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>log</mi><mi>e</mi></msub><mfenced><mrow><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup><mo>+</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>log</mi><mi>e</mi></msub><mfenced><mrow><mn>2</mn><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup><mo>+</mo><mn>1</mn></mrow></mfenced><mo>-</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><msub><mi>log</mi><mi>e</mi></msub><mfenced><mrow><mn>3</mn><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfenced><mn>0</mn><mo>&#8734;</mo></msubsup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><mn>6</mn><mfenced close=\"]\" open=\"[\"><mrow><mn>0</mn><mo>-</mo><mfenced close=\"}\" open=\"{\"><mrow><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>log</mi><mi>e</mi></msub><mn>3</mn><mo>-</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><msub><mi>log</mi><mi>e</mi></msub><mn>4</mn></mrow></mfenced></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><mn>3</mn><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn><mo>-</mo><mn>3</mn><msub><mi>log</mi><mi>e</mi></msub><mn>3</mn><mo>+</mo><msub><mi>log</mi><mi>e</mi></msub><mn>4</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><mn>5</mn><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn><mo>-</mo><mn>3</mn><msub><mi>log</mi><mi>e</mi></msub><mn>3</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><msub><mi>log</mi><mi>e</mi></msub><mfenced><mfrac><mn>32</mn><mn>27</mn></mfrac></mfenced></math></p></blockquote>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "648b5a3a0d9d0b909f7b6494",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2023-04-13T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (13 Apr Shift 1)",
+    "title": "JEE Main 2023 (13 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

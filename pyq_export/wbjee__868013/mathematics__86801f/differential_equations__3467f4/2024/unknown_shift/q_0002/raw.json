@@ -1,0 +1,63 @@
+{
+  "_id": "67729bef546ddd78415aaf20",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67729a70099eafe69352f9c1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024",
+      "title": "WBJEE 2024"
+    }
+  ],
+  "question": {
+    "text": "Let $f$ be a differential function with $\\lim _{x \\rightarrow \\infty} f(x)=0$. If $y^{\\prime}+y f^{\\prime}(x)-f(x) f^{\\prime}(x)=0, \\lim _{x \\rightarrow \\infty} y(x)=0$ then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "5FKwx",
+      "text": "$y+1=e^{f(x)}+f(x)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "wKN1v",
+      "text": "$y+1=e^{-f(x)}+f(x)$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "8zTWu",
+      "text": "$y+2=e^{-f(x)}+f(x)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "sB36M",
+      "text": "$y-1=e^{-f(x)}+f(x)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\frac{d y}{d x}+y f^{\\prime}(x)=f(x) f^{\\prime}(x) \\\\\n& \\text {I.F }=e^{\\int f^{\\prime}(x) d x}=e^{f(x)} \\\\\n& \\text {y. } e^{f(x)}=\\int e^{f(x)} f(x) f^{\\prime}(x) d x\n\\end{aligned}\\)\n\\(\\begin{aligned}\n& \\text {Let } f(x)=t \\Rightarrow f^{\\prime}(x) d x=d t \\\\\n& \\Rightarrow y e^{f(x)}=\\int e^t t d t \\\\\n& \\Rightarrow y e^{f(x)}=e^t(t-1)+c \\\\\n& \\Rightarrow y e^{f(x)}=e^{f(x)}(f(x)-1)+c\n\\end{aligned}\\)\nGiven, \\(\\lim _{x \\rightarrow \\infty} f(x)=0, \\lim _{x \\rightarrow \\infty} y(x)=0\\)\n\\(\\begin{aligned}\n& \\Rightarrow 0 . e^0=e^0(0-1)+c \\Rightarrow c=1 \\\\\n& \\therefore y e^{f(x)}=e^{f(x)}(f(x)-1)+1 \\\\\n& \\Rightarrow y=f(x)-1+e^{-f(x)} \\\\\n& \\Rightarrow y+1=f(x)+e^{-f(x)}\n\\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67729a70099eafe69352f9c1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024",
+    "title": "WBJEE 2024"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

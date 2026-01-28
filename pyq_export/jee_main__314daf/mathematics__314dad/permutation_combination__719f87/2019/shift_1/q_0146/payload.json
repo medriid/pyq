@@ -1,0 +1,43 @@
+{
+  "index": 146,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2019 (09 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Consider a class of <math><mn>5</mn></math> girls and <math><mn>7</mn></math> boys. The number of different teams consisting of <math><mn>2</mn></math> girls and <math><mn>3</mn></math> boys that can be formed from this class, if there are two specific boys <math><mi>A</mi></math> and <math><mi>B</mi><mo>,</mo></math> who refuse to be the members of the same team, is:"
+  },
+  "options": [
+    {
+      "text": "<math><mn>300</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mn>200</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>500</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>350</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<math><mfenced close=\"}\" open=\"\" separators=\"|\"><mrow><mtable><mtr><mtd><mrow><maligngroup/><mn>7</mn><mi>B</mi></mrow></mtd></mtr><mtr><mtd><mrow><maligngroup/><mn>5</mn><mi>G</mi></mrow></mtd></mtr></mtable></mrow></mfenced><mo>→</mo><mfenced separators=\"|\"><mrow><mtable><mtr><mtd><mrow><maligngroup/><mn>3</mn><mi>B</mi></mrow></mtd></mtr><mtr><mtd><mrow><maligngroup/><mn>2</mn><mi>G</mi></mrow></mtd></mtr></mtable></mrow></mfenced></math> <br/><br/>        Total number of ways of forming a team of  <math><mn>3</mn></math>  boys and  <math><mn>2</mn></math>  girls  <math><mo>=</mo><msup><mrow><mtext> </mtext></mrow><mrow><mn>7</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>3</mn></mrow></msub><mo>×</mo><msup><mrow><mtext> </mtext></mrow><mrow><mn>5</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>=</mo><mfrac><mrow><mn>7.6</mn><mo>.</mo><mn>5</mn></mrow><mrow><mn>1.2</mn><mo>.</mo><mn>3</mn></mrow></mfrac><mo>×</mo><mfrac><mrow><mn>5.4</mn></mrow><mrow><mn>1.2</mn></mrow></mfrac><mo>=</mo><mn>350</mn></math> <br/><br/>        Total number of ways of forming a team if two specific boys  <math><msub><mrow><mi>B</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>,</mo><msub><mrow><mi>B</mi></mrow><mrow><mn>2</mn></mrow></msub></math>  always join the team<br/><br/>         <math><mo>=</mo><msup><mrow><mtext> </mtext></mrow><mrow><mn>5</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>×</mo><msup><mrow><mtext> </mtext></mrow><mrow><mn>5</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>=</mo><mn>50</mn></math> <br/><br/>        So, the total number of ways of forming a team so that two specific boys never come together<br/><br/>         <math><mo>=</mo><mn>350</mn><mo>-</mo><mn>50</mn><mo>=</mo><mn>300</mn></math>"
+  }
+}

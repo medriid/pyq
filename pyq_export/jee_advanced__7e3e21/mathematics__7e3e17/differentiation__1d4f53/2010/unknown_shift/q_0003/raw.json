@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a08f23ac7d519f9b0b3",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c47",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2010-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010 (Paper 2)",
+      "title": "JEE Advanced 2010 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $f$ be a real-valued function defined on the interval $(-1,1)$ such that $e^{-x} f(x)=2+\\int_0^x \\sqrt{t^4+1} d t, \\quad$ for all $x \\in(-1,1)$ and let $f^{-1}$ be the inverse function of $f$. Then $\\left(f^{-1}\\right)^{\\prime}(2)$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "IhVZp",
+      "text": "\n1\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "JUP1i",
+      "text": "\n$\\frac{1}{3}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "UMayH",
+      "text": "\n$\\frac{1}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "9CRgw",
+      "text": "\n$\\frac{1}{e}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have, $e^{-x} f(x)=2+\\int_0^x \\sqrt{t^4+1} d t x \\in(-1,1)$\nOn differentiating w.r.t. $x$, we get\n$$\n\\begin{array}{ll} \n& e^{-x}\\left(f^{\\prime}(x)-f(x)\\right)=\\sqrt{x^4+1} \\\\\n\\Rightarrow \\quad & f^{\\prime}(x)=f(x)+\\sqrt{x^4+1} e^x \\\\\n\\because & f^{-1} \\text { is the inverse of } f \\\\\n\\therefore & f^{-1}(f(x))=x \\\\\n\\Rightarrow & f^{-1^{\\prime}}(f(x)) f^{\\prime}(x)=1 \\\\\n\\Rightarrow & f^{-1^{\\prime}}(f(x))=\\frac{1}{f^{\\prime}(x)} \\\\\n\\Rightarrow \\quad & f^{-1^{\\prime}}(f(x))=\\frac{1}{f(x)+\\sqrt{x^4+1} e^x} \\\\\n\\text { At } \\quad & x=0, f(x)=2 \\\\\n& f^{-1^{\\prime}}(2)=\\frac{1}{2+1}=\\frac{1}{3}\n\\end{array}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c47",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2010-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010 (Paper 2)",
+    "title": "JEE Advanced 2010 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

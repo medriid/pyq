@@ -1,0 +1,63 @@
+{
+  "_id": "64b169f2f23ac7d519f9afee",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c44",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009 (Paper 1)",
+      "title": "JEE Advanced 2009 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $f$ be a non-negative function defined on the interval $[0,1]$. If $\\int_0^x \\sqrt{1-\\left\\{f^{\\prime}(t)\\right\\}^2} d t=\\int_0^x f(t) d t, \\quad 0 \\leq x \\leq 1$\n$$\n\\text { and } f(0)=0 \\text {, then }\n$$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "J67GZ",
+      "text": "\n$f\\left(\\frac{1}{2}\\right) < \\frac{1}{2}$ and $f\\left(\\frac{1}{3}\\right)>\\frac{1}{3}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "I4Muk",
+      "text": "\n$f\\left(\\frac{1}{2}\\right)>\\frac{1}{2}$ and $f\\left(\\frac{1}{3}\\right)>\\frac{1}{3}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "KFKve",
+      "text": "\n$f\\left(\\frac{1}{2}\\right) < \\frac{1}{2}$ and $f\\left(\\frac{1}{3}\\right) < \\frac{1}{3}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "10ULz",
+      "text": "\n$f\\left(\\frac{1}{2}\\right)>\\frac{1}{2}$ and $f\\left(\\frac{1}{3}\\right) < \\frac{1}{3}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given $\\int_0^x \\sqrt{1-\\left(f^{\\prime}(t)\\right)^2} d t=\\int_0^x f(t) d t$,\n$$\n0 \\leq x \\leq 1\n$$\nApplying Leibnitz theorem, we get\n$$\n\\begin{array}{rlrl} \n& & \\sqrt{1-\\left(f^{\\prime}(x)\\right)^2} & =f(x) \\\\\n\\Rightarrow & & 1-\\left(f^{\\prime}(x)\\right)^2 & =f^2(x) \\\\\n\\Rightarrow & & \\left(f^{\\prime}(x)\\right)^2 & =1-f^2(x) \\\\\n\\Rightarrow & & f^{\\prime}(x) & =\\pm \\sqrt{1-f^2(x)} \\\\\n\\Rightarrow & & \\quad \\frac{d y}{d x} & =\\pm \\sqrt{1-y^2} \\\\\n& \\text { where } y=f(x) \\Rightarrow & \\frac{d y}{\\sqrt{1-y^2}}=\\pm d x\n\\end{array}\n$$\nOn integrating both sides, we get\n$$\n\\begin{aligned}\n& \\sin ^{-1}(y)=\\pm x+C \\\\\n& \\because \\quad f(0)=0 \\Rightarrow C=0 \\Rightarrow y=\\pm \\sin x \\\\\n& y=\\sin x=f(x) \\text { given } f(x) \\geq 0 \\text { for } \\\\\n& x \\in[0,1]\n\\end{aligned}\n$$\nIt is known that $\\sin x < x, \\forall x \\in R^{+}$\n$\\therefore \\quad \\sin \\left(\\frac{1}{2}\\right) < \\frac{1}{2} \\Rightarrow f\\left(\\frac{1}{2}\\right) < \\frac{1}{2}$\nand $\\sin \\left(\\frac{1}{3}\\right) < \\frac{1}{3} \\Rightarrow f\\left(\\frac{1}{3}\\right) < \\frac{1}{3}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c44",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009 (Paper 1)",
+    "title": "JEE Advanced 2009 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a61417cc3fb48d6551f",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c3",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2003-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2003",
+      "title": "JEE Main 2003"
+    }
+  ],
+  "question": {
+    "text": "Let $f(x)$ be a function satisfying $f^{\\prime}(x)=f(x)$ with $f(0)=1$ and $g(x)$ be a function that satisfies $f(x)+g(x)=x^2$. Then the value of the integral $\\int_0^1 f(x) g(x) d x$, is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "TUbZY",
+      "text": "\n$\\mathrm{e}+\\frac{\\mathrm{e}^2}{2}+\\frac{5}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "KQpEw",
+      "text": "\n$\\mathrm{e}-\\frac{\\mathrm{e}^2}{2}-\\frac{5}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "zfxOM",
+      "text": "\n$\\mathrm{e}+\\frac{\\mathrm{e}^2}{2}-\\frac{3}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7z4wH",
+      "text": "\n$\\mathrm{e}-\\frac{\\mathrm{e}^2}{2}-\\frac{3}{2}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $f(x)=e^x$\n$\\therefore \\int_0^1 f(x) g(x) d x=\\int_0^1 e^x\\left(x^2-e^x\\right) d x$\n$=\\int_0^1 x^2 e^x d x-\\int_0^1 e^{2 x} d x$\n$=\\left[\\mathrm{x}^2 \\mathrm{e}^{\\mathrm{x}}\\right]_0^1-2\\left[\\mathrm{xe}^{\\mathrm{x}}-\\mathrm{e}^{\\mathrm{x}}\\right]_0^1-\\frac{1}{2}\\left[\\mathrm{e}^{2 \\mathrm{x}}\\right]$\n$=\\mathrm{e}-\\left[\\frac{\\mathrm{e}^2}{2}-\\frac{1}{2}\\right]-2[\\mathrm{e}-\\mathrm{e}+1]=\\mathrm{e}-\\frac{\\mathrm{e}^2}{2}-\\frac{3}{2}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c3",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2003-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2003",
+    "title": "JEE Main 2003"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

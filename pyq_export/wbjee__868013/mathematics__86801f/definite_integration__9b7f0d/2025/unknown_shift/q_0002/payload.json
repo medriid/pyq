@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2025",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=\\max \\{x+|x|, x-[x]\\}$, where $[x]$ stands for the greatest integer not greater than $x$. Then $\\int_{-3}^3 f(x) d x$ has the value"
+  },
+  "options": [
+    {
+      "text": "$\\frac{51}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{21}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$1$",
+      "is_correct": false
+    },
+    {
+      "text": "$0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & f(x)=\\max \\cdot\\{x+|x|, x-[x]\\}=\\max \\{x+|x|,\\{x\\}\\} \\\\ & \\int_{-3}^3 f(x) d x \\\\ & =\\int_{-3}^0\\{x\\} d x+\\int_0^3 2 x d x \\\\ & =\\frac{3}{2}+9=\\frac{21}{2}\\end{aligned}$"
+  }
+}

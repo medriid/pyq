@@ -1,0 +1,63 @@
+{
+  "_id": "67729bef546ddd78415aaf1f",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67729a70099eafe69352f9c1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024",
+      "title": "WBJEE 2024"
+    }
+  ],
+  "question": {
+    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/wbjee/r84gY2CJ58m_a1lho46nlm_H7cfOS9pAeJwATht_rIk.original.fullsize.png\"/><br/>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "zRddp",
+      "text": "$\\pi$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "eYnqo",
+      "text": "1",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "LIqH5",
+      "text": "0",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "hkKQU",
+      "text": "$\\frac{3 \\pi}{2}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& I=\\int_0^\\pi e^{\\cos ^2 x} \\cos ^3(2 n+1) x d x, n \\in Z \\ldots(1) \\\\\n& =\\int_0^\\pi e^{\\cos ^2(\\pi-x)} \\cos ^3[(2 n+1)(\\pi-x)] d x\n\\end{aligned}\\)\nUsing \\(\\int_0^a f(x) d x=\\int_0^a f(a-x) d x\\)\n\\(\\begin{aligned}\n& \\therefore I=\\int_0^\\pi e^{\\cos ^2 x} \\cos ^3[(2 n+1) \\pi-(2 n+1) x] d x \\\\\n& I=\\int_0^\\pi-e^{\\cos ^2 x} \\cos ^3(2 n+1) x d x \\ldots \\text { (2) }\n\\end{aligned}\\)\nAdding (1) and (2) we get\n\\(21=0 \\Rightarrow 1=0\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67729a70099eafe69352f9c1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024",
+    "title": "WBJEE 2024"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 69,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025320696c5af2bbd2498",
+    "chapter_name": "Binomial Theorem",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of integral terms in the expansion of <math><msup><mrow><mfenced separators=\"|\"><mrow><msup><mrow><mn>5</mn></mrow><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></msup><mo>+</mo><msup><mrow><mn>7</mn></mrow><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>9</mn></mrow></mfrac></mrow></msup></mrow></mfenced></mrow><mrow><mn>1824</mn></mrow></msup></math>&nbsp;is"
+  },
+  "options": [
+    {
+      "text": "<math><mn>84</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>96</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>91</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>102</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<math><msub><mrow><mi>T</mi></mrow><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>1824</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi></mrow></msub><msup><mrow><mfenced separators=\"|\"><mrow><msup><mrow><mn>5</mn></mrow><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></msup></mrow></mfenced></mrow><mrow><mn>1824</mn><mo>-</mo><mi>r</mi></mrow></msup><msup><mrow><mfenced separators=\"|\"><mrow><msup><mrow><mn>7</mn></mrow><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>9</mn></mrow></mfrac></mrow></msup></mrow></mfenced></mrow><mrow><mi>r</mi></mrow></msup></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mo>=</mo><mn>1824</mn></msup><msub><mi>C</mi><mi>r</mi></msub><mfenced><msup><mn>5</mn><mfrac><mrow><mn>1824</mn><mo>-</mo><mi>r</mi></mrow><mn>6</mn></mfrac></msup></mfenced><mfenced><msup><mn>7</mn><mfrac><mi>r</mi><mn>9</mn></mfrac></msup></mfenced></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mo>=</mo><mn>1824</mn></msup><msub><mi>C</mi><mi>r</mi></msub><mfenced><msup><mn>5</mn><mrow><mn>304</mn><mo>-</mo><mfrac><mi>r</mi><mn>6</mn></mfrac></mrow></msup></mfenced><mfenced><msup><mn>7</mn><mfrac><mi>r</mi><mn>9</mn></mfrac></msup></mfenced></math><br />Both <math><mfrac><mrow><mi>r</mi></mrow><mrow><mn>6</mn></mrow></mfrac></math> and <math><mfrac><mrow><mi>r</mi></mrow><mrow><mn>9</mn></mrow></mfrac></math> are integers, if <math><mi>r</mi></math> is a multiple of <math><mn>18</mn></math><br /><math><mo>&#8658;</mo><mi>r</mi><mo>=</mo><mn>0,18,36</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>181</mn><mn>8</mn></math><br />Let, the number of terms be <math><mi>n</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>1818</mn><mo>=</mo><mn>0</mn><mo>+</mo><mfenced separators=\"|\"><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mn>18</mn><mo>&#8658;</mo><mi>n</mi><mo>=</mo><mn>102</mn><mo>.</mo></math>"
+  }
+}

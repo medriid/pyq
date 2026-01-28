@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a71417cc3fb48d68634",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "648b5a3a0d9d0b909f7b6496",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2023-04-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (12 Apr Shift 1)",
+      "title": "JEE Main 2023 (12 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "<p>Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mo>&#160;</mo><mi>b</mi><mo>,</mo><mo>&#160;</mo><mi>c</mi></math> be three distinct real numbers, none equal to one. If the vectors&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mover><mi>i</mi><mo>^</mo></mover><mo>+</mo><mover><mi>j</mi><mo>^</mo></mover><mo>+</mo><mover><mi>k</mi><mo>^</mo></mover><mo>,</mo><mo>&#160;</mo><mover><mi>i</mi><mo>^</mo></mover><mo>+</mo><mi>b</mi><mover><mi>j</mi><mo>^</mo></mover><mo>+</mo><mover><mi>k</mi><mo>^</mo></mover></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover><mi>i</mi><mo>^</mo></mover><mo>+</mo><mover><mi>j</mi><mo>^</mo></mover><mo>+</mo><mi>c</mi><mover><mi>k</mi><mo>^</mo></mover></math>&nbsp;are coplanar, then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mn>1</mn><mo>-</mo><mi>a</mi></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>-</mo><mi>b</mi></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>-</mo><mi>c</mi></mrow></mfrac></math>&nbsp;is equal to</p>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "TYFZg",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "bAByH",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>1</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "F0VgE",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "lKmma",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>Given that the vectors are coplanar.</p><p>That means the determinant is equal to zero.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfenced close=\"|\" open=\"|\"><mtable><mtr><mtd><mi>a</mi></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mi>b</mi></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mi>c</mi></mtd></mtr></mtable></mfenced><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>R</mi><mn>1</mn></msub><mo>&#8594;</mo><msub><mi>R</mi><mn>1</mn></msub><mo>&#8211;</mo><msub><mi>R</mi><mn>2</mn></msub></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>2</mn></msub><mo>&#8594;</mo><msub><mi>R</mi><mn>2</mn></msub><mo>&#8211;</mo><msub><mi>R</mi><mn>3</mn></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfenced close=\"|\" open=\"|\"><mtable><mtr><mtd><mi>a</mi><mo>-</mo><mn>1</mn></mtd><mtd><mn>1</mn><mo>-</mo><mi>b</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mi>b</mi><mo>-</mo><mn>1</mn></mtd><mtd><mn>1</mn><mo>-</mo><mi>c</mi></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mi>c</mi></mtd></mtr></mtable></mfenced><mo>=</mo><mn>0</mn></math></p><p>Expand the determinant along&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>1</mn></msub></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>(</mo><mi>a</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>&#160;</mo><mo>[</mo><mi>c</mi><mo>(</mo><mi>b</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>-</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>c</mi><mo>)</mo><mo>]</mo><mo>+</mo><mn>1</mn><mo>[</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>b</mi><mo>)</mo><mo>&#160;</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>c</mi><mo>)</mo><mo>]</mo><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>c</mi><mo>(</mo><mi>a</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>&#160;</mo><mo>(</mo><mi>b</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>-</mo><mo>(</mo><mi>a</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>&#160;</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>c</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>b</mi><mo>)</mo><mo>&#160;</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>c</mi><mo>)</mo><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>c</mi><mo>(</mo><mn>1</mn><mo>-</mo><mi>a</mi><mo>)</mo><mo>&#160;</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>b</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>a</mi><mo>)</mo><mo>&#160;</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>c</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>b</mi><mo>)</mo><mo>&#160;</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>c</mi><mo>)</mo><mo>+</mo><mfenced><mrow><mn>1</mn><mo>-</mo><mi>a</mi></mrow></mfenced><mfenced><mrow><mn>1</mn><mo>-</mo><mi>b</mi></mrow></mfenced><mfenced><mrow><mn>1</mn><mo>-</mo><mi>c</mi></mrow></mfenced><mo>=</mo><mfenced><mrow><mn>1</mn><mo>-</mo><mi>a</mi></mrow></mfenced><mfenced><mrow><mn>1</mn><mo>-</mo><mi>b</mi></mrow></mfenced><mfenced><mrow><mn>1</mn><mo>-</mo><mi>c</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>a</mi><mo>)</mo><mo>&#160;</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>b</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>a</mi><mo>)</mo><mo>&#160;</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>c</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>b</mi><mo>)</mo><mo>&#160;</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>c</mi><mo>)</mo><mo>=</mo><mfenced><mrow><mn>1</mn><mo>-</mo><mi>a</mi></mrow></mfenced><mfenced><mrow><mn>1</mn><mo>-</mo><mi>b</mi></mrow></mfenced><mfenced><mrow><mn>1</mn><mo>-</mo><mi>c</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>-</mo><mi>a</mi></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>-</mo><mi>b</mi></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>-</mo><mi>c</mi></mrow></mfrac><mo>=</mo><mn>1</mn></math></p><p>Hence this is the required option.</p>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "648b5a3a0d9d0b909f7b6496",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2023-04-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (12 Apr Shift 1)",
+    "title": "JEE Main 2023 (12 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

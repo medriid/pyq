@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a65417cc3fb48d662a2",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7e5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2018-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018 (15 Apr Shift 1 Online)",
+      "title": "JEE Main 2018 (15 Apr Shift 1 Online)"
+    }
+  ],
+  "question": {
+    "text": "The value of the integral\n$$\n\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\sin ^4 x\\left(1+\\log \\left(\\frac{2+\\sin x}{2-\\sin x}\\right)\\right) d x \\text { is }\n$$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "SLw9G",
+      "text": "\n$\\frac{3}{16} \\pi$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "mNikC",
+      "text": "\n 0\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "YjsLf",
+      "text": "\n$\\frac{3}{8} \\pi$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "gqo76",
+      "text": "\n$\\frac{3}{4}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let\n$$\n\\begin{aligned}\nI &=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\sin ^4 x\\left(1+\\log \\left(\\frac{2+\\sin x}{2-\\sin x}\\right)\\right) d x \\ldots .(1) \\\\\n\\Rightarrow I &\\left.=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\sin ^4(-x)\\right)\\left(1+\\log \\left(\\frac{2+\\sin (-x)}{2-\\sin (-x)}\\right)\\right) \\cdot d x \\\\\n&=\\left[\\because \\int_a^b f(x) . d x=\\int_a^b f(a+b-x) \\cdot d x\\right]\n\\end{aligned}\n$$\n$$\n\\begin{aligned}\n&=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\left(\\sin ^4 x\\right)\\left(1+\\log \\left(\\frac{2-\\sin x}{2+\\sin x}\\right)\\right) \\cdot d x \\\\\n&=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\sin ^4 x\\left(1-\\log \\left(\\frac{2+\\sin x}{2-\\sin x}\\right)\\right) \\cdot d x \\ldots .(2)\n\\end{aligned}\n$$\nAfter adding equation (1) and (2) we get,\n$$\n\\begin{aligned}\n&2 I=2 \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\sin ^4 x \\cdot d x \\\\\n&2 I=4 \\int_0^{\\frac{\\pi}{2}} \\sin ^4 x \\cdot d x \\\\\n&I=2 \\int_0^{\\frac{\\pi}{2}} \\sin ^4 x \\cdot d x=\\frac{\\frac{3}{2} \\times \\frac{1}{2} \\times \\pi}{2 \\times 2}=\\frac{3 \\pi}{8} \\\\\n&{[\\text { By Gamma function] }}\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7e5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2018-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018 (15 Apr Shift 1 Online)",
+    "title": "JEE Main 2018 (15 Apr Shift 1 Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

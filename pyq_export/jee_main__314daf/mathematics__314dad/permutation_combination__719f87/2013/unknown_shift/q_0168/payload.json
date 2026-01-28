@@ -1,0 +1,43 @@
+{
+  "index": 168,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (25 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "5 - digit numbers are to be formed using $2,3,5,7$, 9 without repeating the digits. If $p$ be the number of such numbers that exceed 20000 and $q$ be the number of those that lie between 30000 and 90000 , then $p: q$ is:"
+  },
+  "options": [
+    {
+      "text": "\n$6: 5$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$3: 2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$4: 3$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$5: 3$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\mathrm{p}: \\begin{array}{llllll}0 & 0 & 0 & 0 & 0 & \\text { place } \\\\ 5 & 4 & 3 & 2 & 1 & \\text { ways }\\end{array}$\nTotal no, of ways $=5 !=120$\nSince all numbers are $>20,000$\n$\\therefore$ all numbers $2,3,5,7,9$ can come at first place.\n$\\mathrm{q}: \\begin{array}{llllll}0 & 0 & 0 & 0 & 0 & \\text { place } \\\\ 3 & 4 & 3 & 2 & 1 & \\text { ways }\\end{array}$\nTotal no. of ways $=3 \\times 4 !=72$\n( $\\because 2$ and 9 can not be put at first place)\nSo, $p: q=120: 72=5: 3$"
+  }
+}

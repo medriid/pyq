@@ -1,0 +1,63 @@
+{
+  "_id": "64b169c7f23ac7d519f9ae61",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1e77301f65c2f92c3f",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2006-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2006",
+      "title": "JEE Advanced 2006"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nThe capacitor of capacitance $C$ can be charged (with the help of a resistance $R$ ) by a voltage source $V$, by closing switch $S_1$ while keeping switch $S_2$ open. The capacitor can be connected in series with an inductor $L$ by closing switch $S_2$ and opening $S_1$.<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/0Y1I8mvhYVnowTpUifCLeg2xPE10yRn1Ap7tEzxaL24.original.fullsize.png\"><br><strong>Question:</strong>\nInitially, the capacitor was uncharged. Now, switch $S_1$ is closed and $S_2$ is kept open. If time constant of this circuit is $\\tau$, then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "uElhI",
+      "text": "\nafter time interval $\\tau$, charge on the capacitor is $C V / 2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "aW1D7",
+      "text": "\nafter time interval $2 \\tau$, charge on the capacitor is $C V /\\left(1-e^{-2}\\right)$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "hLxvI",
+      "text": "\nthe work done by the voltage source will be half on the heat dissipated when the capacitor is fully charged\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "K0vXA",
+      "text": "\nafter time interval $2 \\tau$, charge on the capacitor is $C V\\left(1-e^{-1}\\right)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Charge on capacitor at time $t$ is $q=q_0\\left(1-e^{-t / \\tau}\\right)$\n$\\begin{array}{ll}\\text { Here, } & q_0=C V \\text { and } t=2 \\tau \\\\ \\therefore & q=C V\\left(1-e^{-2 \\tau / \\tau}\\right)=C V\\left(1-e^{-2}\\right)\\end{array}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1e77301f65c2f92c3f",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2006-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2006",
+    "title": "JEE Advanced 2006"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

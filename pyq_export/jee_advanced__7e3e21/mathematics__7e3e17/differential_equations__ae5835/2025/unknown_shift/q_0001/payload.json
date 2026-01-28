@@ -1,0 +1,24 @@
+{
+  "index": 1,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2025 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602569f6f39ee3d4ae5835",
+    "chapter_name": "Differential Equations",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For all $x>0$, let $y_1(x), y_2(x)$, and $y_3(x)$ be the functions satisfying\n$\\begin{aligned} & \\frac{d y_1}{d x}-(\\sin x)^2 y_1=0, y_1(1)=5 \\\\ & \\frac{d y_2}{d x}-(\\cos x)^2 y_2=0, y_2(1)=\\frac{1}{3} \\\\ & \\frac{d y_3}{d x}-\\left(\\frac{2-x^3}{x^3}\\right) y_3=0, y_3(1)=\\frac{3}{5 e}\\end{aligned}$\nrespectively. Then $\\lim _{x \\rightarrow 0^{+}} \\frac{y_1(x) y_2(x) y_3(x)+2 x}{e^{3 x} \\sin x}$ is equal to _____"
+  },
+  "options": [],
+  "correct_answer": "2",
+  "solution": {
+    "text": "$\\begin{aligned} & \\frac{d y_1}{y_1}+\\frac{d y_2}{y_2}+\\frac{d y_3}{y_3}=\\left(\\sin ^2 x+\\cos ^2 x+\\frac{2-x^3}{x^3}\\right) d x \\\\ & \\ln \\left(y_1 y_2 y_3\\right)=\\frac{-1}{x^2}+C \\\\ & \\ln \\left(y_1(x) y_2(x) y_3(x)\\right)=\\frac{-1}{x^2}+C \\\\ & \\ln \\left(5 \\cdot \\frac{1}{3} \\cdot \\frac{3}{5 e}\\right)=\\frac{-1}{x^2}+C \\\\ & \\therefore C=0\\end{aligned}$\n$\\begin{aligned} & y_1(x) y_2(x) y_3(x)=e^{\\frac{-1}{x^2}} \\\\ & \\lim _{x \\rightarrow 0} \\frac{e^{\\frac{-1}{x^2}}+2 x}{e^{3 x} \\sin x} \\\\ & \\lim _{x \\rightarrow 0} \\frac{1}{e^{3 x+\\frac{1}{x^2}} \\sin x}+\\lim _{x \\rightarrow 0} \\frac{2 x}{e^{3 x} \\sin x}\\end{aligned}$\n$\\lim _{x \\rightarrow 0} \\frac{1}{e^{3 x} \\cdot \\frac{\\sin x}{x} \\cdot \\frac{e^{\\frac{1}{x^2}}}{\\frac{1}{x}}}+2$\n$=0+2 \\quad\\left\\{\\lim _{\\mathrm{y} \\rightarrow \\infty} \\frac{\\mathrm{e}^{\\mathrm{y}^2}}{\\mathrm{y}}=\\frac{\\mathrm{e}^{\\mathrm{y}^2} \\cdot 2 \\mathrm{y}}{1}=\\infty\\right\\}$\n$=2$"
+  }
+}

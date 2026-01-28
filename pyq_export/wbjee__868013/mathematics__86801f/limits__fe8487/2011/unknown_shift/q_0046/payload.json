@@ -1,0 +1,43 @@
+{
+  "index": 46,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2011",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of\n\\(\\lim _{n \\rightarrow \\infty} \\sum_{r=1}^n \\frac{r^3}{r^4+n^4} \\text { is }\\)"
+  },
+  "options": [
+    {
+      "text": "\\(\\frac{1}{2} \\log _{\\mathrm{e}}(1 / 2)\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{1}{4} \\log _e(1 / 2)\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{1}{4} \\log _{\\mathrm{e}} 2\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(\\frac{1}{2} \\log _{\\mathrm{e}} 2\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hints: \\(\\operatorname{Lt}_{n \\rightarrow \\infty} \\cdot \\sum \\frac{n^3\\left(\\frac{r}{n}\\right)^3}{n^4\\left[\\left(\\frac{r}{n}\\right)^4+1\\right]}\\)\n\\(\\begin{aligned}\n& =\\frac{1}{4} \\cdot \\int_0^1 \\frac{x^3}{1+x^4} d x=\\frac{1}{4}\\left[\\log \\left(1+x^4\\right)\\right]_0^1 \\\\\n& =\\frac{1}{4}(\\log 2-\\log 1)=\\frac{1}{4} \\log 2\n\\end{aligned}\\)"
+  }
+}

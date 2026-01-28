@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (19 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254b6c200152465d55e0",
+    "chapter_name": "Properties of Triangles",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If three distinct points $A, B, C$ are given in the 2dimensional coordinate plane such that the ratio of the distance of each one of them from the point $(1,0)$ to the distance from $(-1,0)$ is equal to $\\frac{1}{2}$, then the circumcentre of the triangle $A B C$ is at the point"
+  },
+  "options": [
+    {
+      "text": "\n$\\left(\\frac{5}{3}, 0\\right)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$(0,0)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left(\\frac{1}{3}, 0\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(3,0)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $P(1,0)$ and $Q(-1,0), A(x, y)$\n$$\n\\begin{aligned}\n& \\text { Given: } \\frac{A P}{A Q}=\\frac{B P}{B Q}=\\frac{C P}{C Q}=\\frac{1}{2} \\\\\n& \\Rightarrow 2 A P=A Q \\\\\n& \\Rightarrow 4(A P)^2=A Q^2\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& \\Rightarrow 4\\left[(x-1)^2+y^2\\right]=(x+1)^2+y^2 \\\\\n& \\Rightarrow 4\\left(x^2+1-2 x\\right)+4 y^2=x^2+1+2 x+y^2 \\\\\n& \\Rightarrow 3 x^2+3 y^2-8 x-2 x+4-1=0 \\\\\n& \\Rightarrow 3 x^2+3 y^2-10 x+3=0 \\\\\n& \\Rightarrow x^2+y^2-\\frac{10}{3} x+1=0\n\\end{aligned}\n$$\n$\\therefore$ A lies on the circle given by (1). As $B$ and $C$ also follow the same condition.\n$\\therefore \\quad$ Centre of circumcircle of $\\triangle A B C=$ centre of circle given by (1)\n$$\n=\\left(\\frac{5}{3}, 0\\right) \\text {. }\n$$"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "685102be6bba689a3eb09c7e",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "684c67d769037fad219cb0c1",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2025-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (Paper 1)",
+      "title": "JEE Advanced 2025 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\vec{w}=\\hat{i}+\\hat{j}-2 \\hat{k}$, and $\\overrightarrow{\\mathrm{u}}$ and $\\overrightarrow{\\mathrm{v}}$ be two vectors such that $\\vec{u} \\times \\vec{v}=\\vec{w}$ and $\\vec{v} \\times \\vec{w}=\\vec{u}$. Let $\\alpha, \\beta, \\gamma$ and $t$ be real numbers such that $\\vec{u}=\\alpha \\hat{i}+\\beta \\hat{j}+\\gamma \\hat{k},-t \\alpha+\\beta+\\gamma=0, \\alpha-t \\beta+\\gamma=0$, and $\\alpha+\\beta-t \\gamma=0$.\nMatch each entry in List-I to the correct entry in List-II and choose the correct option.\n <table> <thead> <tr> <th> </th> <th>LIST - I </th> <th> </th> <th>LIST - II </th> </tr> </thead> <tbody> <tr> <td>(P) </td> <td>$|\\vec{v}|^2$ is equal to </td> <td>(1) </td> <td>0 </td> </tr> <tr> <td>(Q) </td> <td>If $\\alpha=\\sqrt{3}$,then $\\gamma^2$ is equal to </td> <td>(2) </td> <td>1 </td> </tr> <tr> <td>(R) </td> <td>If $\\alpha=\\sqrt{3}$,then $(\\beta+\\gamma)^2$ is equal to </td> <td>(3) </td> <td>2 </td> </tr> <tr> <td>(S) </td> <td>If $\\alpha=\\sqrt{2}$,then $t+3$ is equal to </td> <td>(4) </td> <td>3 </td> </tr> <tr> <td> </td> <td> </td> <td>(5) </td> <td>5 </td> </tr> </tbody> </table>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "rAOv9",
+      "text": "$(\\mathrm{P}) \\rightarrow(2),(\\mathrm{Q}) \\rightarrow(1),(\\mathrm{R}) \\rightarrow(4),(\\mathrm{S}) \\rightarrow(5)$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "CnzzD",
+      "text": "$(\\mathrm{P}) \\rightarrow(2),(\\mathrm{Q}) \\rightarrow(4),(\\mathrm{R}) \\rightarrow(3),(\\mathrm{S}) \\rightarrow(5)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "4ufOO",
+      "text": "$(\\mathrm{P}) \\rightarrow(2),(\\mathrm{Q}) \\rightarrow(1),(\\mathrm{R}) \\rightarrow(4),(\\mathrm{S}) \\rightarrow(3)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "bkcCE",
+      "text": "$(\\mathrm{P}) \\rightarrow(5),(\\mathrm{Q}) \\rightarrow(4),(\\mathrm{R}) \\rightarrow(1),(\\mathrm{S}) \\rightarrow(3)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{array}{lll}\\vec{u} \\times \\vec{v}=\\vec{w} & \\vec{u} \\perp \\vec{v} & \\vec{u} \\perp \\vec{w} \\\\ \\vec{v} \\times \\vec{w}=\\vec{u} & \\vec{v} \\perp \\vec{w} & \\end{array}$\n$\\begin{aligned} & \\overrightarrow{\\mathrm{w}}=\\hat{\\mathrm{i}}+\\hat{\\mathrm{j}}-2 \\hat{\\mathrm{k}} \\\\ & \\overrightarrow{\\mathrm{u}}=\\alpha \\hat{\\mathrm{i}}+\\beta \\hat{\\mathrm{j}}+\\gamma \\hat{\\mathrm{k}}\\end{aligned} \\quad\\left|\\begin{array}{ccc}-\\mathrm{t} & 1 & 1 \\\\ 1 & -\\mathrm{t} & 1 \\\\ 1 & 1 & -\\mathrm{t}\\end{array}\\right|=0$\n$\\begin{array}{ll}\\vec{u} . \\vec{w}=0=\\alpha+\\beta-2 \\gamma & t=-1 \\text { or } 2 \\\\ (\\vec{v} . \\vec{w}) \\times \\vec{v}=\\vec{u} \\times \\vec{v} & t=-1 \\\\ \\vec{w}|\\vec{v}|^2-0=\\vec{w} & \\alpha+\\beta+\\gamma=0 \\\\ |\\vec{v}|=1(P) & t=2 \\\\ & \\alpha=\\beta=\\gamma\\end{array}$\n$\\begin{aligned} & \\text { Also, } \\vec{u} \\times \\vec{v}=\\vec{w} \\\\ & |\\vec{u}||\\vec{v}|=|\\vec{w}| \\\\ & \\Rightarrow|\\vec{u}|=|\\vec{w}|=\\sqrt{6}\\end{aligned}$\nCase-1:\n$\\begin{aligned}\n& \\mathrm{t}=2 \\\\\n& \\alpha=\\beta=\\gamma \\\\\n& \\alpha^2+\\beta^2+\\gamma^2=6 \\\\\n& \\alpha=\\sqrt{2},-\\sqrt{2} \\\\\n& \\text { (S) } \\mathrm{t}+3=5\n\\end{aligned}$\nCase-2:\n$\\begin{aligned}\n& \\mathrm{t}=-1 \\\\\n& \\alpha+\\beta+\\gamma=0 \\\\\n& \\alpha+\\beta-2 \\gamma=0 \\\\\n& \\gamma=0, \\alpha=-\\beta \\\\\n& (\\mathrm{Q}) \\alpha=\\sqrt{3}, \\gamma^2=0, \\beta=-\\sqrt{3} \\\\\n& (\\mathrm{R}) \\alpha=\\sqrt{3}(\\gamma+\\beta)^2=\\beta^2=3 \\\\\n& (\\mathrm{P}) \\rightarrow(2),(\\mathrm{Q}) \\rightarrow(1),(\\mathrm{R}) \\rightarrow(4),(\\mathrm{S}) \\rightarrow(5)\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "c8ea4f11f657404db685b89efd45b0f2",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/bWTnE4ANUGFF2.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/bWTnE4ANUGFF2.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "684c67d769037fad219cb0c1",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2025-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (Paper 1)",
+    "title": "JEE Advanced 2025 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

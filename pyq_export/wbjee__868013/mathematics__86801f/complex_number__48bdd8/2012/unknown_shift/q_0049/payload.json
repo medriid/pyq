@@ -1,0 +1,43 @@
+{
+  "index": 49,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc9a79d891b2548bdd8",
+    "chapter_name": "Complex Number",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The maximum value of $|x|$, when the complex number $z$ satisfies the condition $\\left|z+\\frac{2}{z}\\right|=2$ is"
+  },
+  "options": [
+    {
+      "text": "$\\sqrt{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{3}+\\sqrt{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{3}+1$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\sqrt{3}-1$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have the identity,\r\n$$\r\n\\begin{aligned}|z|=\\left|z+\\frac{2}{z}-\\frac{2}{z}\\right| \\leq\\left|z+\\frac{2}{z}\\right|+\\left|\\frac{2}{z}\\right| \\\\ \\Rightarrow \\quad|z| \\leq 2+\\frac{2}{|z|} \\end{aligned}\r\n$$\r\n$\\Rightarrow \\quad|z|^{2} \\leq 2|z|+2$\r\n$\\Rightarrow \\quad|z|^{2}-2|z|+1 \\leq 3$\r\n\\begin{array}{ll}\r\n\\Rightarrow & (|z|-1)^{2} \\leq 3 \\\\\r\n\\Rightarrow & -\\sqrt{3} \\leq|z|-1 \\leq \\sqrt{3} \\\\\r\n\\hline\r\n\\end{array}\r\n$\\Rightarrow \\quad-\\sqrt{3}+1 \\leq|z| \\leq \\sqrt{3}+1$\r\nHence, the maximum value $=\\sqrt{3}+1$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)>0$ for all $x$ and $f^{\\prime}(x)$ exists for all $x$. If $f$ is the inverse function of $h$ and $h^{\\prime}(x)=\\frac{1}{1+\\log x} \\cdot$ Then, $f^{\\prime}(x)$ will be"
+  },
+  "options": [
+    {
+      "text": "$1+\\log (f(x))$",
+      "is_correct": true
+    },
+    {
+      "text": "$1+f(x)$",
+      "is_correct": false
+    },
+    {
+      "text": "$1-\\log (f(x))$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log f(x)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given,\r\n$$\r\nh\\{f(x)\\}=x\r\n$$\r\ndifferentiating w.r.t. $x$, we get\r\n$$\r\n\\begin{array}{r}\r\nh^{\\prime}\\{f(x)\\}, f^{\\prime}(x)=1 \\\\\r\nf^{\\prime}(x)=\\frac{1}{h^{\\prime}\\{f(x)\\}}\r\n\\end{array}\r\n$$\r\n$\\begin{aligned} \\Rightarrow \\quad f^{\\prime}(x)=\\frac{1}{\\frac{1}{1+\\log \\{f(x)\\}}} & \\\\ \\Rightarrow \\quad\\left[\\because h^{\\prime}(x)=\\frac{1}{1+\\log x}\\right] \\\\ \\Rightarrow & f^{\\prime}(x)=1+\\log (f(x)) \\end{aligned}$"
+  }
+}

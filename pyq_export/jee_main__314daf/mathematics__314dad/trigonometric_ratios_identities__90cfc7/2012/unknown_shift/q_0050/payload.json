@@ -1,0 +1,43 @@
+{
+  "index": 50,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2012 (19 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253321995c266090cfc7",
+    "chapter_name": "Trigonometric Ratios & Identities",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Suppose $\\theta$ and $\\phi(\\neq 0)$ are such that $\\sec (\\theta+\\phi)$, sec $\\theta$ and $\\sec (\\theta-\\phi)$ are in A.P. If $\\cos \\theta=k \\cos \\left(\\frac{\\phi}{2}\\right)$ for some $k$, then $k$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$\\pm \\sqrt{2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\pm 1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\pm \\frac{1}{\\sqrt{2}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\pm 2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Since, $\\sec (\\theta-\\phi), \\sec \\theta$ and $\\sec (\\theta+\\phi)$ are in A.P.,\n$$\n\\begin{aligned}\n& \\therefore 2 \\sec \\theta=\\sec (\\theta-\\phi)+\\sec (\\theta+\\phi) \\\\\n& \\Rightarrow \\frac{2}{\\cos \\theta}=\\frac{\\cos (\\theta+\\phi)+\\cos (\\theta-\\phi)}{\\cos (\\theta-\\phi) \\cos (\\theta+\\phi)}\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& \\Rightarrow 2\\left(\\cos ^2 \\theta-\\sin ^2 \\phi\\right)=\\cos \\theta[2 \\cos \\theta \\cos \\phi \\\\\n& \\Rightarrow \\cos ^2 \\theta(1-\\cos \\phi)=\\sin ^2 \\phi=1-\\cos ^2 \\phi \\\\\n& \\Rightarrow \\quad \\cos ^2 \\theta=1+\\cos \\phi=2 \\cos ^2 \\frac{\\phi}{2} \\\\\n& \\therefore \\quad \\cos \\theta=\\pm \\sqrt{2} \\cos \\frac{\\phi}{2} \\\\\n& \\text { But given } \\cos \\theta=\\mathrm{k} \\cos \\frac{\\phi}{2} \\\\\n& \\therefore \\quad \\mathrm{k}=\\pm \\sqrt{2}\n\\end{aligned}\n$$"
+  }
+}

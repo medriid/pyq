@@ -1,0 +1,63 @@
+{
+  "_id": "6682bd5fba0e94a3c4025c3d",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "question": {
+    "text": "A bag contains <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> balls, whose colours are either white or black. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> balls are drawn at random without replacement and it was found that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> balls are white and other <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> balls are black. The probability that the bag contains equal number of white and black balls is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "PyhU4",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "KAtmv",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>7</mn></mfrac></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "ITdWZ",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>7</mn></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "3GfsJ",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>Total Possible cases of balls in the bag could be:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>2</mn><mi>W</mi><mo>,</mo><mn>6</mn><mi>B</mi></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>3</mn><mi>W</mi><mo>,</mo><mn>5</mn><mi>B</mi></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>4</mn><mi>W</mi><mo>,</mo><mn>4</mn><mi>B</mi></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>5</mn><mi>W</mi><mo>,</mo><mn>3</mn><mi>B</mi></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>6</mn><mi>W</mi><mo>,</mo><mn>2</mn><mi>B</mi></mrow></mfenced></math></p><p>The favourable case is to choose <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>W</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>B</mi></math> from the bag having <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>4</mn><mi>W</mi><mo>,</mo><mn>4</mn><mi>B</mi></mrow></mfenced></math></p><p>So, the required probability is given by</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mi>E</mi></mfenced><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mfrac><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts><mo>×</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts></mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts></mfrac></mstyle><mrow><mstyle displaystyle=\"true\"><mfrac><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts><mo>×</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts></mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts></mfrac></mstyle><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mo>×</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>5</mn></mmultiscripts></mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts></mfrac></mstyle><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts><mo>×</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts></mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts></mfrac></mstyle><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>5</mn></mmultiscripts><mo>×</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts></mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts></mfrac></mstyle><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><mo>×</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts></mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts></mfrac></mstyle></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>P</mi><mfenced><mi>E</mi></mfenced><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mn>6</mn><mo>×</mo><mn>6</mn></mstyle><mstyle displaystyle=\"true\"><mn>15</mn><mo>+</mo><mn>3</mn><mo>×</mo><mn>10</mn><mo>+</mo><mn>36</mn><mo>+</mo><mn>30</mn><mo>+</mo><mn>15</mn></mstyle></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>P</mi><mfenced><mi>E</mi></mfenced><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mn>36</mn></mstyle><mstyle displaystyle=\"true\"><mn>126</mn></mstyle></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>P</mi><mfenced><mi>E</mi></mfenced><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mn>2</mn></mstyle><mstyle displaystyle=\"true\"><mn>7</mn></mstyle></mfrac></math></p>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYearPapers": [
+    {
+      "_id": "65c4c0c11d30997d3436bb06",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-02-01T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (01 Feb Shift 1)",
+      "title": "JEE Main 2024 (01 Feb Shift 1)"
+    }
+  ],
+  "previousYear": {
+    "_id": "65c4c0c11d30997d3436bb06",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-02-01T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (01 Feb Shift 1)",
+    "title": "JEE Main 2024 (01 Feb Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

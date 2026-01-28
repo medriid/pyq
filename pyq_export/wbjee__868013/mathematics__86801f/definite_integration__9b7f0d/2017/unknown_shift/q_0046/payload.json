@@ -1,0 +1,43 @@
+{
+  "index": 46,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $f(x)=\\int_{-1}^{x}|t|$ dt, then for any $x \\geq 0, f(x)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{2}\\left(1-x^{2}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$1-x^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}\\left(1+x^{2}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$1+x^{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have, \r\n$\\begin{aligned} f(x) &=\\int_{-1}^{x} t\\left|d t=\\int_{-1}^{0}\\right| t\\left|d t+\\int_{0}^{x}\\right| t \\mid d t \\\\ &=-\\int_{-1}^{0} t d t+\\int_{0}^{x} t d t \\\\ &=\\left[-\\frac{t^{2}}{2}\\right]_{-1}^{0}+\\left[\\frac{t^{2}}{2}\\right]_{0}^{x} \\\\ &=-\\frac{1}{2}\\left(0^{2}-(-1)^{2}\\right)+\\frac{1}{2}\\left(x^{2}-0^{2}\\right) \\\\ &=-\\frac{1}{2}(-1)+\\frac{1}{2}\\left(x^{2}\\right)=\\frac{1}{2}\\left(1+x^{2}\\right) \\end{aligned}$"
+  }
+}

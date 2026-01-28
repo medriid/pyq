@@ -1,0 +1,43 @@
+{
+  "index": 179,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2014 (11 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602555685234356f221f74",
+    "chapter_name": "Functions",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathrm{f}$ be an odd function defined on the set of real numbers such that for $\\mathrm{x} \\geq 0$, $f(x)=3 \\sin x+4 \\cos x$.\nThen $\\mathrm{f}(\\mathrm{x})$ at $\\mathrm{x}=-\\frac{11 \\pi}{6}$ is equal to:"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{3}{2}+2 \\sqrt{3}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-\\frac{3}{2}+2 \\sqrt{3}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{3}{2}-2 \\sqrt{3}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$-\\frac{3}{2}-2 \\sqrt{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given $\\mathrm{f}$ be an odd function $f(x)=3 \\sin x+4 \\cos x$\nNow,\n$$\n\\begin{array}{r}\nf\\left(\\frac{-11 \\pi}{6}\\right)=3 \\sin \\left(\\frac{-11 \\pi}{6}\\right)+4 \\cos \\left(\\frac{-11 \\pi}{6}\\right) \\\\\nf\\left(\\frac{-11 \\pi}{6}\\right)=3 \\sin \\left(-2 \\pi+\\frac{\\pi}{6}\\right)+4 \\cos \\left(-2 \\pi+\\frac{\\pi}{6}\\right) \\\\\nf\\left(\\frac{-11 \\pi}{6}\\right)=3 \\sin \\left\\{-\\left(2 \\pi-\\frac{\\pi}{6}\\right)\\right\\}+4 \\cos \\left\\{-\\left(2 \\pi-\\frac{\\pi}{6}\\right)\\right\\} \\\\\n\\left\\{\\text { For odd functions } \\begin{array}{l}\n\\sin (-\\theta)=-\\sin \\theta \\\\\n\\text { and } \\cos (-\\theta)=-\\cos \\theta\n\\end{array}\\right\\}\n\\end{array}\n$$\n\n$$\n\\begin{aligned}\n\\therefore f\\left(\\frac{-11 \\pi}{6}\\right)=-3 \\sin \\left(2 \\pi-\\frac{\\pi}{6}\\right)-4 \\cos \\left(2 \\pi-\\frac{\\pi}{6}\\right) \\\\\n\\Rightarrow f\\left(\\frac{-11 \\pi}{6}\\right) &=+3 \\sin \\left(\\frac{\\pi}{6}\\right)-4 \\cos \\frac{\\pi}{6} \\\\\n\\Rightarrow f\\left(\\frac{-11 \\pi}{6}\\right) &=3 \\times \\frac{1}{2}-4 \\times \\frac{\\sqrt{3}}{2} \\\\\n\\text { or } f\\left(\\frac{-11 \\pi}{6}\\right) &=\\frac{3}{2}-2 \\sqrt{3}\n\\end{aligned}\n$$"
+  }
+}

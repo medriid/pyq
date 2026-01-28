@@ -1,0 +1,61 @@
+{
+  "_id": "6151e8632979e5ccc7d6d709",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "65",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "If <math><mi mathvariant=\"normal\">A</mi></math> is a symmetric and <math><mi mathvariant=\"normal\">B</mi></math> is a skew symmetric matrix, then which of the following is correct?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "082hk",
+      "text": "<math><mi mathvariant=\"normal\">A</mi><mi mathvariant=\"normal\"></mi><mi mathvariant=\"normal\">B</mi><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></math> is a symmetric matrix",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "lvnb7",
+      "text": "<math><mi mathvariant=\"normal\">A</mi><msup><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>+</mo><mi mathvariant=\"normal\">B</mi><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></math> is a symmetric matrix",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "qyeYf",
+      "text": "<math><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mo>+</mo><mi mathvariant=\"normal\">B</mi></mrow></mfenced><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mo>-</mo><mi mathvariant=\"normal\">B</mi></mrow></mfenced></math> is a skew symmetric matrix",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "GeSR8",
+      "text": "<math><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mo>+</mo><mi mathvariant=\"normal\">I</mi></mrow></mfenced><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">B</mi><mo>-</mo><mi mathvariant=\"normal\">I</mi></mrow></mfenced></math> is a skew symmetric matrix",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<math><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>=</mo><mi mathvariant=\"normal\">A</mi><mo>,</mo><mi mathvariant=\"normal\"></mi><msup><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>=</mo><mo>-</mo><mi mathvariant=\"normal\">B</mi></math><br /><math><msup><mrow><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mi mathvariant=\"normal\">B</mi><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></mrow></mfenced></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>=</mo><msup><mrow><mfenced separators=\"|\"><mrow><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></mrow></mfenced></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><msup><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>=</mo><mo>-</mo><mi mathvariant=\"normal\">A</mi><mi mathvariant=\"normal\">B</mi><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></math> (Skew symmetric)<br /><math><msup><mrow><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><msup><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>+</mo><mi mathvariant=\"normal\">B</mi><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></mrow></mfenced></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>=</mo><msup><mrow><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><msup><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></mrow></mfenced></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>+</mo><msup><mrow><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">B</mi><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></mrow></mfenced></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></math><br /><math><mo>=</mo><mi mathvariant=\"normal\">B</mi><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>+</mo><mi mathvariant=\"normal\">A</mi><msup><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></math><br /><math><mo>=</mo><mi mathvariant=\"normal\">B</mi><mi mathvariant=\"normal\">A</mi><mo>-</mo><mi mathvariant=\"normal\">A</mi><mi mathvariant=\"normal\">B</mi><mo>=</mo><mi mathvariant=\"normal\">B</mi><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>+</mo><mi mathvariant=\"normal\">A</mi><msup><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></math> (Symmetric)<br /><math><msup><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mo>+</mo><mi mathvariant=\"normal\">B</mi></mrow></mfenced><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mo>-</mo><mi mathvariant=\"normal\">B</mi></mrow></mfenced></mrow></mfenced></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>=</mo><msup><mrow><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mo>-</mo><mi mathvariant=\"normal\">B</mi></mrow></mfenced></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><msup><mrow><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mo>+</mo><mi mathvariant=\"normal\">B</mi></mrow></mfenced></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></math><br /><math><mo>=</mo><mfenced separators=\"|\"><mrow><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>-</mo><msup><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></mrow></mfenced><mfenced separators=\"|\"><mrow><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></mrow></mfenced><mo>=</mo><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mo>+</mo><mi mathvariant=\"normal\">B</mi></mrow></mfenced><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mo>-</mo><mi mathvariant=\"normal\">B</mi></mrow></mfenced></math> (Symmetric)<br /><math><msup><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mo>+</mo><mi mathvariant=\"normal\">I</mi></mrow></mfenced><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">B</mi><mo>-</mo><mi mathvariant=\"normal\">I</mi></mrow></mfenced></mrow></mfenced></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>=</mo><msup><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi mathvariant=\"normal\">B</mi><mo>-</mo><mi mathvariant=\"normal\">I</mi></mrow></mfenced></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><msup><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mo>+</mo><mi mathvariant=\"normal\">I</mi></mrow></mfenced></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></math><br /><math><mo>=</mo><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><msup><mrow><mi mathvariant=\"normal\">B</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>-</mo><msup><mrow><mi mathvariant=\"normal\">I</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></mrow></mfenced><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">I</mi></mrow><mrow><mi mathvariant=\"normal\">T</mi></mrow></msup></mrow></mfenced></math><br /><math><mo>=</mo><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mo>-</mo><mi mathvariant=\"normal\">B</mi><mo>-</mo><mi mathvariant=\"normal\">I</mi></mrow></mfenced><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mo>+</mo><mi mathvariant=\"normal\">I</mi></mrow></mfenced></math> (neither symmetric nor skew symmetric)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

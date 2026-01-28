@@ -1,0 +1,61 @@
+{
+  "_id": "6151e86339f71705f69201e2",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "78",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "A committee consisting of atleast three members is to be formed from a group of <math><mn>6</mn></math> boys and <math><mn>6</mn></math> girls such that it always has a boy and a girl. The number of ways to form such a committee is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "xOkSV",
+      "text": "<math><msup><mrow><mn>2</mn></mrow><mrow><mn>12</mn></mrow></msup><mo>-</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>7</mn></mrow></msup><mo>-</mo><mn>13</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "eGTqH",
+      "text": "<math><msup><mrow><mn>2</mn></mrow><mrow><mn>11</mn></mrow></msup><mo>-</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>6</mn></mrow></msup><mo>-</mo><mn>13</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ayjNG",
+      "text": "<math><msup><mrow><mn>2</mn></mrow><mrow><mn>11</mn></mrow></msup><mo>-</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>7</mn></mrow></msup><mo>-</mo><mn>35</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "xNYAn",
+      "text": "<math><msup><mrow><mn>2</mn></mrow><mrow><mn>12</mn></mrow></msup><mo>-</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>7</mn></mrow></msup><mo>-</mo><mn>35</mn></math>",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>Groups having less than three members <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mo>=</mo><mn>12</mn></msup><msub><mi>C</mi><mn>0</mn></msub><msup><mo>+</mo><mn>12</mn></msup><msub><mi>C</mi><mn>1</mn></msub><msup><mo>+</mo><mn>12</mn></msup><msub><mi>C</mi><mn>2</mn></msub></math></p><p>Groups having only boys <math><mo>=</mo></math> groups having only girls <math><mo>=</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>6</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>3</mn></mrow></msub><mo>+</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>6</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>4</mn></mrow></msub><mo>+</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>6</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>5</mn></mrow></msub><mo>+</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>6</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>6</mn></mrow></msub></math><br />Total number of groups <math><mo>=</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>12</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>0</mn></mrow></msub><mo>+</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>12</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>+</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>12</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>+</mo><mo>&#8230;</mo><mo>+</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>12</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>10</mn></mrow></msub><mo>+</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>12</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>11</mn></mrow></msub><mo>+</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>12</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>12</mn></mrow></msub><mo>=</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>12</mn></mrow></msup></math><br />Hence, required number of groups <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>2</mn><mn>12</mn></msup><mo>&#8722;</mo><mfenced><mrow><mmultiscripts><mi>C</mi><mn>0</mn><none/><mprescripts/><none/><mn>12</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none/><mprescripts/><none/><mn>12</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mn>12</mn></mmultiscripts></mrow></mfenced><mo>&#8722;</mo><mn>2</mn><mfenced><mrow><msup><mrow/><mn>6</mn></msup><msub><mi>C</mi><mn>3</mn></msub><msup><mo>+</mo><mn>6</mn></msup><msub><mi>C</mi><mn>4</mn></msub><msup><mo>+</mo><mn>6</mn></msup><msub><mi>C</mi><mn>5</mn></msub><msup><mo>+</mo><mn>6</mn></msup><msub><mi>C</mi><mn>6</mn></msub></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>2</mn><mn>12</mn></msup><mo>&#8722;</mo><mfenced><mrow><msup><mrow/><mn>12</mn></msup><msub><mi>C</mi><mn>0</mn></msub><msup><mo>+</mo><mn>12</mn></msup><msub><mi>C</mi><mn>1</mn></msub><msup><mo>+</mo><mn>12</mn></msup><msub><mi>C</mi><mn>2</mn></msub><msup><mo>+</mo><mn>6</mn></msup><msub><mi>C</mi><mn>3</mn></msub></mrow></mfenced></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8722;</mo><mfenced><mrow><msup><mrow/><mn>6</mn></msup><msub><mi>C</mi><mn>3</mn></msub><msup><mo>+</mo><mn>6</mn></msup><msub><mi>C</mi><mn>4</mn></msub><msup><mo>+</mo><mn>6</mn></msup><msub><mi>C</mi><mn>2</mn></msub><msup><mo>+</mo><mn>6</mn></msup><msub><mi>C</mi><mn>5</mn></msub><msup><mo>+</mo><mn>6</mn></msup><msub><mi>C</mi><mn>1</mn></msub><msup><mo>+</mo><mn>6</mn></msup><msub><mi>C</mi><mn>6</mn></msub><msup><mo>+</mo><mn>6</mn></msup><msub><mi>C</mi><mn>0</mn></msub></mrow></mfenced></math><br /><math><mo>=</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>12</mn></mrow></msup><mo>-</mo><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>66</mn><mo>+</mo><mn>20</mn></mrow></mfenced><mo>-</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>6</mn></mrow></msup><mo>=</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>12</mn></mrow></msup><mo>-</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>7</mn></mrow></msup><mo>-</mo><mn>35</mn></math></p>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

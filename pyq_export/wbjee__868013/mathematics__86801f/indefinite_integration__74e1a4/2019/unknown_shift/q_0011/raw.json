@@ -1,0 +1,63 @@
+{
+  "_id": "64a81451e0ff5a5425a85a85",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7e",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2019-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019",
+      "title": "WBJEE 2019"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "$y=\\int \\cos \\left\\{2 \\tan ^{-1} \\sqrt{\\frac{1-x}{1+x}}\\right\\} d x$ is an equation of a family of",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "JWK18",
+      "text": "straight lines",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Cl7Wc",
+      "text": "circles",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "wlC3b",
+      "text": "ellipses",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "KOms8",
+      "text": "parabolas",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $I=\\int \\cos \\left(2 \\tan ^{-1} \\sqrt{\\frac{1-x}{1+x}}\\right\\} d x$\r\nPut $x=\\cos 2 \\theta \\Rightarrow d x=-2 \\sin 2 \\theta d \\theta$\r\n$\\begin{aligned} \\therefore I &=\\int \\cos \\left(2 \\tan ^{-1} \\sqrt{\\frac{1-\\cos 2 \\theta}{1+\\cos 2 \\theta}}\\right\\}(-2 \\sin 2 \\theta) d \\theta \\\\ &=-2 \\int \\cos \\left\\{2 \\tan ^{-1} \\sqrt{\\frac{2 \\sin ^{2} \\theta}{2 \\cos ^{2} \\theta}}\\right\\} \\sin 2 \\theta d \\theta \\\\ &=-2 \\int \\cos \\left(2 \\tan ^{-1}(\\tan \\theta) \\sin 2 \\theta d \\theta\\right.\\\\ &=-2 \\int \\cos 2 \\theta \\sin 2 \\theta d \\theta \\\\ &=\\int \\cos 2 \\theta d(\\cos 2 \\theta) \\\\ &=\\frac{\\cos ^{2} 2 \\theta}{2}+C \\\\ &=\\frac{x^{2}}{2}+C \\end{aligned}$\r\nWhich is an equation of parabola.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7e",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2019-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019",
+    "title": "WBJEE 2019"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

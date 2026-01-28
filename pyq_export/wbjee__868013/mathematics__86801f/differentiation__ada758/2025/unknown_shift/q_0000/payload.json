@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2025",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If ' $f$ ' is the inverse function of ' $g$ ' and $g^{\\prime}(x)=\\frac{1}{1+x^n}$, then the value of $f^{\\prime}(x)$ is"
+  },
+  "options": [
+    {
+      "text": "$1+\\{f(x)\\}^n$",
+      "is_correct": true
+    },
+    {
+      "text": "$1-\\{f(x)\\}^n$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\{1+f(x)\\}^n$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\{f(x)\\}^n$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & g^{-1}(x)=f(x) \\\\ & g^{\\prime}(x)=\\frac{1}{1+x^n} \\quad \\Rightarrow g^{\\prime}\\left(g^{-1}(x)\\right)=\\frac{1}{1+\\left(g^{-1}(x)\\right)^n}=\\frac{1}{1+(f(x))^n} \\\\ & g\\left(g^{-1}(x)\\right)=x \\\\ & g^{\\prime}\\left(g^{-1}(x) \\cdot\\left(g^{-1}(x)\\right)^{\\prime}=1\\right. \\\\ & \\left(g^{-1}(x)\\right)^{\\prime}=\\frac{1}{g^{\\prime}\\left(g^{-1}(x)\\right)}=1+(f(x))^n\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 163,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $$\n\\begin{aligned}\n&\\left.\\mid \\begin{array}{ccc}\na^2 & b^2 & c^2 \\\\\n(a+\\lambda)^2 & (b+\\lambda)^2 & \\left(c+\\lambda^2\\right) \\\\\n(a-\\lambda)^2 & \\left(b-\\lambda^2\\right) & \\left(-\\lambda^2\\right.\n\\end{array}\\right) \\\\\n&=k \\lambda\\left|\\begin{array}{ccc}\na^2 & b^2 & c^2 \\\\\na & b & c \\\\\n1 & 1 & 1\n\\end{array}\\right|, \\lambda \\neq 0\n\\end{aligned}\n$$\nthen $\\mathrm{k}$ is equal to:"
+  },
+  "options": [
+    {
+      "text": "\n$4 \\lambda \\mathrm{abc}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-4 \\lambda \\mathrm{abc}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$4 \\lambda^2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$-4 \\lambda^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $\\Delta=\\left|\\begin{array}{ccc}a^2 & b^2 & c^2 \\\\ (a+\\lambda)^2 & (b+\\lambda)^2 & (c+\\lambda)^2 \\\\ (a-\\lambda)^2 & (b-\\lambda)^2 & (c-\\lambda)^2\\end{array}\\right|$\n$$\n\\begin{aligned}\n&\\text { Apply } \\mathrm{R}_2 \\rightarrow \\mathrm{R}_2-\\mathrm{R}_3 \\\\\n&\\Delta=\\left|\\begin{array}{ccc}\na^2 & b^2 & c^2 \\\\\n(a+\\lambda)^2-(a-\\lambda)^2 & (b+\\lambda)^2-(b-\\lambda)^2 & (c+\\lambda)^2-(c-\\lambda)^2 \\\\\n(a-\\lambda)^2 & (b-\\lambda)^2 & (c-\\lambda)^2\n\\end{array}\\right| \\\\\n&=\\left|\\begin{array}{ccc}\na^2 & b^2 & c^2 \\\\\n4 a \\lambda & 4 b \\lambda & 4 c \\lambda \\\\\n(a-\\lambda)^2 & (b-\\lambda)^2 & (c-\\lambda)^2\n\\end{array}\\right| \\\\\n&\\left(\\because(x+y)^2-(x-y)^2=4 x y\\right) \\\\\n&\n\\end{aligned}\n$$\nTaking out 4 common from $\\mathrm{R}_2$\n$=4\\left|\\begin{array}{ccc}a^2 & b^2 & c^2 \\\\ a \\lambda & b \\lambda & c \\lambda \\\\ a^2+\\lambda^2-2 a \\lambda & b^2+\\lambda^2-2 b \\lambda & c^2+\\lambda^2-2 c \\lambda\\end{array}\\right|$\n\n\n$$\n\\begin{aligned}\n&\\text { Apply } \\mathrm{R}_3 \\rightarrow\\left[\\mathrm{R}_3-\\left(\\mathrm{R}_1-2 \\mathrm{R}_2\\right)\\right] \\\\\n&=4\\left|\\begin{array}{lll}\na^2 & b^2 & c^2 \\\\\na \\lambda & b \\lambda & c \\lambda \\\\\n\\lambda^2 & \\lambda^2 & \\lambda^2\n\\end{array}\\right|\n\\end{aligned}\n$$\nTaking out $\\lambda$ common from $\\mathrm{R}_2$ and $\\lambda^2$ from $\\mathrm{R}_3$.\n$$\n=4 \\lambda\\left(\\lambda^2\\right)\\left|\\begin{array}{ccc}\na^2 & b^2 & c^2 \\\\\na & b & c \\\\\n1 & 1 & 1\n\\end{array}\\right|\n$$\n$$\n\\begin{aligned}\n&=k \\lambda\\left|\\begin{array}{ccc}\na^2 & b^2 & c^2 \\\\\na & b & c \\\\\n1 & 1 & 1\n\\end{array}\\right| \\\\\n&\\Rightarrow k=4 \\lambda^2\n\\end{aligned}\n$$"
+  }
+}

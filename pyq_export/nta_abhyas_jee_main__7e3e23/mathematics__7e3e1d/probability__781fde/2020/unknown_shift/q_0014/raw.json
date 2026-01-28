@@ -1,0 +1,61 @@
+{
+  "_id": "6151e863dcf09c094678a1bd",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "99",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "If <math><mn>4</mn></math> letter words are formed using letters of the word ‘MORADABAD’, then the probability that D comes exactly once in the&nbsp;<math><mn>4</mn></math> letter word is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "cQqt7",
+      "text": "<math><mfrac><mrow><mn>146</mn></mrow><mrow><mn>313</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "v4r4g",
+      "text": "<math><mfrac><mrow><mn>213</mn></mrow><mrow><mn>313</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Y9qwW",
+      "text": "<math><mfrac><mrow><mn>167</mn></mrow><mrow><mn>313</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "8GTD4",
+      "text": "<math><mfrac><mrow><mn>520</mn></mrow><mrow><mn>621</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Total cases&nbsp;<math><mo>=</mo><mn>4</mn></math> letter word is formed by using either <math><mn>3</mn></math> identical letter and <math><mn>1</mn></math>&nbsp;distinct letter or <math><mn>2</mn></math> alike of one kind and <math><mn>2</mn></math> alike of <math><msup><mrow><mn>2</mn></mrow><mrow><mi mathvariant=\"normal\">n</mi><mi mathvariant=\"normal\">d</mi></mrow></msup></math> kind or <math><mn>2</mn></math> alike, <math><mn>2</mn></math> distinct or <math><mn>4</mn></math> distinct<br />Number of ways for&nbsp;<math><mn>3</mn></math> alike and <math><mn>1</mn></math> distinct <math><mo>=</mo><msub><mrow><mmultiscripts><mrow><mi>C</mi></mrow><mprescripts></mprescripts><mrow><mi></mi></mrow><mrow><mn>1</mn></mrow></mmultiscripts></mrow><mrow><mn>1</mn></mrow></msub><mo>&#215;</mo><msub><mrow><mmultiscripts><mrow><mi>C</mi></mrow><mprescripts></mprescripts><mrow><mi></mi></mrow><mrow><mn>5</mn></mrow></mmultiscripts></mrow><mrow><mn>1</mn></mrow></msub><mo>&#215;</mo><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>20</mn></math><br />Number of ways for&nbsp;<math><mn>2</mn></math> alike and <math><mn>2</mn></math> alike <math><mo>=</mo><msub><mrow><mmultiscripts><mrow><mi>C</mi></mrow><mprescripts></mprescripts><mrow><mi></mi></mrow><mrow><mn>2</mn></mrow></mmultiscripts></mrow><mrow><mn>2</mn></mrow></msub><mo>&#215;</mo><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo><mi></mi><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>6</mn></math><br />Number of ways for&nbsp;<math><mn>2</mn></math> alike and <math><mn>2</mn></math> distinct <math><mo>=</mo><msub><mrow><mmultiscripts><mrow><mi>C</mi></mrow><mprescripts></mprescripts><mrow><mi></mi></mrow><mrow><mn>2</mn></mrow></mmultiscripts></mrow><mrow><mn>1</mn></mrow></msub><mo>&#215;</mo><msub><mrow><mmultiscripts><mrow><mi>C</mi></mrow><mprescripts></mprescripts><mrow><mi></mi></mrow><mrow><mn>5</mn></mrow></mmultiscripts></mrow><mrow><mn>2</mn></mrow></msub><mo>&#215;</mo><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>240</mn></math><br />Number of ways for&nbsp;<math><mn>4</mn></math> distinct <math><mo>=</mo><msub><mrow><mmultiscripts><mrow><mi>C</mi></mrow><mprescripts></mprescripts><mrow><mi></mi></mrow><mrow><mn>6</mn></mrow></mmultiscripts></mrow><mrow><mn>4</mn></mrow></msub><mo>&#215;</mo><mn>4</mn><mo>!</mo><mo>=</mo><mn>360</mn></math><br />The total number of ways <math><mo>=</mo><mn>20</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>240</mn><mo>+</mo><mn>360</mn><mo>=</mo><mn>626</mn></math><br />For favorable cases, the following possibilities are there (one D&nbsp;is always included)<br />Number of ways for&nbsp;<math><mn>3</mn></math> alike <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>1</mn><none/><mprescripts/><mrow/><mn>1</mn></mmultiscripts><mo>&#215;</mo><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>4</mn></math><br />Number of ways for&nbsp;<math><mn>2</mn></math> alike <math><mo>+</mo><mn>1</mn></math> distinct <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>1</mn><none/><mprescripts/><mrow/><mn>1</mn></mmultiscripts><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none/><mprescripts/><mrow/><mn>4</mn></mmultiscripts><mo>&#215;</mo><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>48</mn></math><br />Number of ways for&nbsp;<math><mn>3</mn></math> distinct <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>3</mn><none/><mprescripts/><mrow/><mn>5</mn></mmultiscripts><mo>&#215;</mo><mn>4</mn><mo>!</mo><mo>=</mo><mn>240</mn></math><br />The total number of ways for favorable cases <math><mo>=</mo><mn>240</mn><mo>+</mo><mn>48</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>292</mn></math><br />Hence, the required probability <math><mo>=</mo><mfrac><mrow><mn>292</mn></mrow><mrow><mn>626</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>146</mn></mrow><mrow><mn>313</mn></mrow></mfrac></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

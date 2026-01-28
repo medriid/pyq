@@ -1,0 +1,43 @@
+{
+  "index": 42,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025440e7c3448e29b524b",
+    "chapter_name": "Limits",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of <math><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>→</mo><mi mathvariant=\"normal\">∞</mi></mrow></munder><mfrac><mrow><msup><mrow><mfenced separators=\"|\"><mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi></mrow><mo>⁡</mo><mrow><mi>x</mi></mrow></mrow></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>2</mn><mo>+</mo><mn>3</mn><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>2</mn></mrow><mrow><mn>3</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>1</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>0</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "By L-hospital rule,<br />&nbsp;<math><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>→</mo><mi mathvariant=\"normal\">∞</mi></mrow></munder><mfrac><mrow><mn>2</mn><mfenced separators=\"|\"><mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi></mrow><mo>⁡</mo><mrow><mi>x</mi></mrow></mrow></mrow></mfenced><mo>.</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow><mrow><mn>6</mn><mi>x</mi></mrow></mfrac></math><br /><math><mo>⇒</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>→</mo><mi mathvariant=\"normal\">∞</mi></mrow></munder><mfrac><mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi></mrow><mo>⁡</mo><mrow><mi>x</mi></mrow></mrow></mrow><mrow><mn>3</mn><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math><br />Again by L-hospital rule,<br />&nbsp;<math><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>→</mo><mi mathvariant=\"normal\">∞</mi></mrow></munder><mfrac><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow><mrow><mn>6</mn><mi>x</mi></mrow></mfrac><mo>⇒</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>→</mo><mi mathvariant=\"normal\">∞</mi></mrow></munder><mfrac><mrow><mn>1</mn></mrow><mrow><mn>6</mn><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac><mo>=</mo><mn>0</mn></math>"
+  }
+}

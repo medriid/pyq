@@ -1,0 +1,43 @@
+{
+  "index": 51,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2006",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025732b001edb3fa9de60",
+    "chapter_name": "Probability",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nThere are $n$ urns each containing $(n+1)$ balls such that the ith urn contains $i$ white balls and $(n+1-i)$ red balls. Let $u_i$ be the event of selecting ith urn, $i=1,2,3, \\ldots, n$ and $W$ denotes the event of getting a white balls.<strong>Question:</strong>\nIf $n$ is even and $E$ denotes the event of choosing even numbered urn $\\left(P\\left(u_i\\right)=\\frac{1}{n}\\right)$, then the value of $P(W / E)$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{n+2}{2 n+1}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{n+2}{2(n+1)}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{n}{n+1}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{n+1}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$P(W / E)=\\frac{2+4+6+\\ldots}{\\frac{n(n+1)}{2}}=\\frac{n+2}{2(n+1)}$"
+  }
+}

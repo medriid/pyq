@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a65417cc3fb48d6613e",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "648b5a3a0d9d0b909f7b6489",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2017-04-02T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2017 (02 Apr)",
+      "title": "JEE Main 2017 (02 Apr)"
+    }
+  ],
+  "question": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mfrac><mi>&#960;</mi><mn>2</mn></mfrac></mrow></munder><mfrac><mrow><mi>cot</mi><mi>x</mi><mo>-</mo><mi>cos</mi><mi>x</mi></mrow><msup><mfenced separators=\"|\"><mrow><mi>&#960;</mi><mo>-</mo><mn>2</mn><mi>x</mi></mrow></mfenced><mn>3</mn></msup></mfrac></math> equals",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Szxjb",
+      "text": "<math><mfrac><mrow><mn>1</mn></mrow><mrow><mn>24</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "lEDD6",
+      "text": "<math><mfrac><mrow><mn>1</mn></mrow><mrow><mn>16</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "h2JHb",
+      "text": "<math><mfrac><mrow><mn>1</mn></mrow><mrow><mn>8</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "xDFz9",
+      "text": "<math><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>Put, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mi>&#960;</mi><mn>2</mn></mfrac><mo>-</mo><mi>h</mi></math> in the given limit, we get<br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfenced close=\"]\" open=\"[\"><mfrac><mrow><mi>cot</mi><mfenced separators=\"|\"><mrow><mfrac><mi>&#960;</mi><mn>2</mn></mfrac><mo>-</mo><mi>h</mi></mrow></mfenced><mo>-</mo><mi>cos</mi><mfenced separators=\"|\"><mrow><mfrac><mi>&#960;</mi><mn>2</mn></mfrac><mo>-</mo><mi>h</mi></mrow></mfenced></mrow><msup><mfenced separators=\"|\"><mrow><mi>&#960;</mi><mo>-</mo><mn>2</mn><mo>&#215;</mo><mfenced separators=\"|\"><mrow><mfrac><mi>&#960;</mi><mn>2</mn></mfrac><mo>-</mo><mi>h</mi></mrow></mfenced></mrow></mfenced><mn>3</mn></msup></mfrac></mfenced></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>tan</mi><mi>h</mi><mo>-</mo><mi>sin</mi><mi>h</mi></mrow><msup><mfenced separators=\"|\"><mrow><mi>&#960;</mi><mo>-</mo><mn>2</mn><mo>&#215;</mo><mfrac><mi>&#960;</mi><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mi>h</mi></mrow></mfenced><mn>3</mn></msup></mfrac></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfenced open=\"[\" close=\"]\"><mfrac><mrow><mi>tan</mi><mi>h</mi><mo>-</mo><mi>sin</mi><mi>h</mi></mrow><mrow><mn>8</mn><msup><mi>h</mi><mn>3</mn></msup></mrow></mfrac></mfenced></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&#160;</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>&#160;</mi><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>sin</mi><mi>h</mi></mrow><mi>h</mi></mfrac><mfenced open=\"[\" close=\"]\" separators=\"|\"><mfrac><mrow><mi>sec</mi><mi>h</mi><mo>-</mo><mn>1</mn></mrow><msup><mi>h</mi><mn>2</mn></msup></mfrac></mfenced></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>&#160;</mi><mfenced close=\"]\" open=\"[\"><mrow><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfenced><mfrac><mrow><mi>sin</mi><mi>h</mi></mrow><mi>h</mi></mfrac></mfenced></mrow></mfenced><mfenced close=\"]\" open=\"[\"><mrow><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfenced><mfrac><mrow><mn>1</mn><mo>-</mo><mi>cos</mi><mi>h</mi></mrow><mrow><mfenced><mrow><mi>cos</mi><mi>h</mi></mrow></mfenced><mi>&#160;</mi><msup><mi>h</mi><mn>2</mn></msup></mrow></mfrac></mfenced></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>&#160;</mi><mo>&#215;</mo><mn>1</mn><mo>&#215;</mo><mfenced close=\"]\" open=\"[\"><mrow><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfenced><mfrac><mrow><mn>1</mn><mo>-</mo><mi>cos</mi><mi>h</mi></mrow><mrow><mfenced><mrow><mi>cos</mi><mi>h</mi></mrow></mfenced><mi>&#160;</mi><msup><mi>h</mi><mn>2</mn></msup></mrow></mfrac></mfenced></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>&#160;</mi><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfenced close=\"]\" open=\"[\" separators=\"|\"><mfrac><mrow><mn>2</mn><msup><mi>sin</mi><mn>2</mn></msup><mfenced><mstyle displaystyle=\"true\"><mfrac><mi>h</mi><mn>2</mn></mfrac></mstyle></mfenced></mrow><mrow><mfenced><mrow><mi>cos</mi><mi>h</mi></mrow></mfenced><mi>&#160;</mi><msup><mi>h</mi><mn>2</mn></msup></mrow></mfrac></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>&#160;</mi><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfenced open=\"[\" close=\"]\"><mfrac><mrow><mn>2</mn><msup><mi>sin</mi><mn>2</mn></msup><mfenced separators=\"|\"><mfrac><mi>h</mi><mn>2</mn></mfrac></mfenced></mrow><mrow><mfenced separators=\"|\"><mfrac><msup><mi>h</mi><mn>2</mn></msup><mn>4</mn></mfrac></mfenced><mo>&#215;</mo><mn>4</mn><mo>&#215;</mo><mi>cos</mi><mi>h</mi></mrow></mfrac></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>16</mn></mfrac></math>.</p>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "648b5a3a0d9d0b909f7b6489",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2017-04-02T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2017 (02 Apr)",
+    "title": "JEE Main 2017 (02 Apr)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

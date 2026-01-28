@@ -1,0 +1,63 @@
+{
+  "_id": "64a813d6e0ff5a5425a855f9",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012",
+      "title": "WBJEE 2012"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "The integrating factor of the differential equation $3 x \\log _{e} x \\frac{d y}{d x}+y=2 \\log _{e} x$ is given by",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "6KpuR",
+      "text": "$\\left(\\log _{e} x\\right)^{3}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "qe8Hp",
+      "text": "$\\log _{e}\\left(\\log _{e} x\\right)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "nlSNf",
+      "text": "$\\log _{e} x$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "r56fN",
+      "text": "$\\left(\\log _{e} x\\right)^{1 / 3}$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $3 x \\log _{e} x \\frac{d y}{d x}+y=2 \\log _{e} x$\r\nDividing both sides by $3 x \\log _{e} x,$ we get $\\frac{d y}{d x}+\\frac{1}{3 x \\log _{e} x} y=\\frac{2 \\log _{e} x}{3 x \\log _{e} x}$\r\n$\\Rightarrow \\frac{d y}{d x}+\\frac{1}{3 x \\log _{e} x} y=\\frac{2}{3 x}$\r\nwhich is linear form $\\frac{d y}{d x}+P y=Q,$ where $P$ and $Q$ are function of $x$ and the integrating factor is given by the following formula $e^{\\int P d x}$.\r\n$\\therefore$\r\n$\\mathrm{IF}=e^{\\int \\frac{1}{3 x \\log _{t} x}} d x$\r\n$\\begin{aligned} \\text { Put } \\log _{e} x &=t \\Rightarrow \\frac{1}{x} d x=d t \\\\ &=e^{1 / 3} \\int \\frac{d t}{t}=e^{1 / 3} \\log t \\\\ &=e^{\\log 1^{1 / 3}}=t^{1 / 3}=\\left(\\log _{e} x\\right)^{-1 / 3} \\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012",
+    "title": "WBJEE 2012"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

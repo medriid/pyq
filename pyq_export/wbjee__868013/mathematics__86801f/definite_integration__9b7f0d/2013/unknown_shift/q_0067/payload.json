@@ -1,0 +1,43 @@
+{
+  "index": 67,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $I=\\int_{0}^{\\frac{\\pi}{4}}\\left(\\tan ^{n+1} x\\right) d x$\r\n$+\\frac{1}{2} \\int_{0}^{\\frac{\\pi}{2}} \\tan ^{n+1}\\left(\\frac{x}{2}\\right) d x$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{n}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{n+2}{2 n+1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2 n-1}{n}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2 n-3}{3 n-2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": ".Given. $I=\\int_{0}^{\\pi / 4}\\left(\\tan ^{n+1} x\\right) d x+\\frac{1}{2} \\int_{0}^{\\pi / 2} \\tan ^{n-1}\\left(\\frac{x}{2}\\right) d x$\r\nIn second integral, putt $=\\frac{x}{2} \\Rightarrow d x=2 d t$\r\n$\\Rightarrow \\quad$ Also, when $x=0$ then $t=0$\r\nWhen $x=\\pi / 2,$ then $t=\\pi / 4$\r\nThen, $\\begin{aligned} I &=\\int_{0}^{\\pi / 4}\\left(\\tan ^{n+1} x\\right) d x+\\int_{0}^{\\pi / 4} \\tan ^{n-1} t d t \\\\ & I=\\int_{0}^{\\pi / 4} \\tan ^{n+1} x \\cdot d x+\\int_{0}^{\\pi / 4} \\tan ^{n-1} x d x \\\\ & \\quad\\left\\{\\because \\int_{a}^{b} f(x) d x=\\int_{a}^{b} f(y) d y\\right\\} \\end{aligned}$\r\n$\\Rightarrow \\quad I=\\int_{0}^{\\pi / 4}\\left(\\tan ^{n+1} x+\\tan ^{n-1} x\\right) d x$\r\n$\\Rightarrow \\quad I=\\int_{0}^{\\pi / 4} \\tan ^{n-1} x \\cdot\\left(\\tan ^{2} x+1\\right) d x$\r\n$\\Rightarrow \\quad I=\\int_{0}^{\\pi / 4} \\tan ^{n-1} x\\left(\\sec ^{2} x\\right) d x$\r\nPut $\\quad t=\\tan x$\r\n$\\Rightarrow \\quad d t=\\sec ^{2} x d x$\r\nAlso, when $x=0,$ then $t=0$\r\nwhen $x=\\pi / 4,$ then $t=1$ $I=\\int_{0}^{1} t^{n-1} d t=\\left[\\frac{t^{n}}{n}\\right]_{0}^{1}=\\frac{1}{n}$"
+  }
+}

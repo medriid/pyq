@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2025 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254f7a96128fc38065ce",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider the matrix, $P=\\left(\\begin{array}{lll}2 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 3\\end{array}\\right)$\nLet the transpose of a matrix $X$ be denoted by $\\mathrm{X}^T$. Then the number of $3 \\times 3$ invertible matrices Q with integer entries, such that $Q^{-1}=Q^T$ and $P Q=Q P$ is"
+  },
+  "options": [
+    {
+      "text": "32",
+      "is_correct": false
+    },
+    {
+      "text": "8",
+      "is_correct": false
+    },
+    {
+      "text": "16",
+      "is_correct": true
+    },
+    {
+      "text": "24",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\mathrm{PQ}=\\mathrm{QP} \\Rightarrow\\left[\\begin{array}{ccc}\n2 \\mathrm{a}_1 & 2 \\mathrm{~b}_1 & 2 \\mathrm{c}_1 \\\\\n2 \\mathrm{a}_2 & 2 \\mathrm{~b}_2 & 2 \\mathrm{c}_2 \\\\\n3 \\mathrm{a}_3 & 3 \\mathrm{~b}_3 & 3 \\mathrm{c}_3\n\\end{array}\\right]=\\left[\\begin{array}{ccc}\n2 \\mathrm{a}_1 & 2 \\mathrm{~b}_1 & 3 \\mathrm{c}_1 \\\\\n2 \\mathrm{a}_2 & 2 \\mathrm{~b}_2 & 3 \\mathrm{c}_2 \\\\\n2 \\mathrm{a}_3 & 2 \\mathrm{~b}_3 & 3 \\mathrm{c}_3\n\\end{array}\\right] \\\\\n& \\mathrm{c}_1=0, \\mathrm{c}_2=0, \\mathrm{a}_3=0, \\mathrm{~b}_3=0 \\\\\n& \\mathrm{Q}=\\left[\\begin{array}{ccc}\n\\mathrm{a}_1 & \\mathrm{~b}_1 & 0 \\\\\n\\mathrm{a}_2 & \\mathrm{~b}_2 & 0 \\\\\n0 & 0 & \\mathrm{c}_3\n\\end{array}\\right] \\\\\n& \\mathrm{a}_1 \\mathrm{a}_2+\\mathrm{b}_1 \\mathrm{~b}_2=0 \\\\\n& \\mathrm{a}_1^2+\\mathrm{b}_1^2=1, \\mathrm{a}_2^2+\\mathrm{b}_2^2=1, \\mathrm{c}_3^2=1\n\\end{aligned}\\)\n\\(\\begin{array}{lllll}\na_1 & b_1 & a_2 & b_2 & c_3 \\\\\n1 & 0 & 0 & 1,-1 & +1,-1 \\\\\n-1 & 0 & 0 & 1,-1 & 1,-1 \\\\\n0 & 1 & 1,-1 & 0 & 1,-1 \\\\\n0 & -1 & 1,-1 & 0 & 1,-1\n\\end{array}\\)\nTotal 16 matrices"
+  }
+}

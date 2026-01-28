@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Four persons $A, B, C$ and $D$ throw an unbiased die, turn by turn in succession till one gets an even number and win the game. What is the probability that A wins the game if A begins ?"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{7}{15}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{8}{15}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\mathrm{P}($ even $)=\\frac{1}{2}, \\mathrm{P}($ odd $)=\\frac{1}{2}$\r\n$\\mathrm{P}($ A wins $)=\\frac{1}{2}+\\left(\\frac{1}{2}\\right)^{4} \\times \\frac{1}{2}+\\left(\\frac{1}{2}\\right)^{8} \\times \\frac{1}{2}+\\left(\\frac{1}{2}\\right)^{12} \\times \\frac{1}{2}+\\ldots \\ldots \\ldots \\ldots \\ldots \\ldots \\infty$\r\n$=\\frac{\\frac{1}{2}}{1-\\left(\\frac{1}{2}\\right)^{4}}=\\frac{1}{2} \\times \\frac{16}{15}=\\frac{8}{15}$"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "index": 50,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2009 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255d3df243724d460a9b",
+    "chapter_name": "Application of Derivatives",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $p(x)$ be a polynomial of degree 4 having extremum at $x=1,2$ and $\\lim _{x \\rightarrow 0}\\left[1+\\frac{p(x)}{x^2}\\right]=2$. Then, the value of $p(2)$ is"
+  },
+  "options": [],
+  "correct_answer": "0",
+  "solution": {
+    "text": "Let $p(x)=a x^4+b x^3+c x^2+d x+e$\n$$\n\\Rightarrow \\quad p^{\\prime}(x)=4 a x^3+3 b x^2+2 c x+d\n$$\n$$\n\\therefore \\quad p^{\\prime}(1)=4 a+3 b+2 c+d=0\n$$\nand $p^{\\prime}(2)=32 a+12 b+4 c+d=0$\nSince, $\\lim _{x \\rightarrow 0}\\left(1+\\frac{p(x)}{x^2}\\right)=2 \\quad$ [given]\n$$\n\\lim _{x \\rightarrow 0} \\frac{a x^4+b x^3+(c+1) x^2+d x+e}{x^2}=2\n$$\n\n$$\n\\begin{array}{rlrl}\n\\Rightarrow & & x+1=2, d & =0, e=0 \\\\\n\\Rightarrow & c & =1\n\\end{array}\n$$\nFrom Eqs. (i) and (ii)\n$$\n\\begin{array}{rlrl} \n& & 4 a+3 b=-2 & \\text { and } 32 a+12 b=-4 \\\\\n\\Rightarrow & & a=\\frac{1}{4} \\text { and } b=-1 \\\\\n\\therefore & & p(x)=\\frac{x^4}{4}-x^3+x^2 \\\\\n\\Rightarrow & & p(2)=\\frac{16}{4}-8+4\n\\end{array}\n$$"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "66446744970e6e9ab542d1bd",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda6e",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-08T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (08 Apr Shift 1)",
+      "title": "JEE Main 2024 (08 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $f(x)$ be a positive function such that the area bounded by $y=f(x), y=0$ from $x=0$ to $x=a>0$ is $e^{-a}+4 a^2+a-1$. Then the differential equation, whose general solution is $y=c_1 f(x)+c_2$, where $c_1$ and $c_2$ are arbitrary constants, is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "EKJjf",
+      "text": "$\\left(8 e^x-1\\right) \\frac{d^2 y}{d x^2}+\\frac{d y}{d x}=0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "hfmF8",
+      "text": "$\\left(8 e^x-1\\right) \\frac{d^2 y}{d x^2}-\\frac{d y}{d x}=0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "URujB",
+      "text": "$\\left(8 e^x+1\\right) \\frac{d^2 y}{d x^2}-\\frac{d y}{d x}=0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "r6H8A",
+      "text": "$\\left(8 e^x+1\\right) \\frac{d^2 y}{d x^2}+\\frac{d y}{d x}=0$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\int_0^a f(x) d x=e^{-a}+4 a^2+a-1 \\\\ & f(a)=-e^{-a}+8 a+1 \\\\ & f(x)=-e^{-x}+8 x+1\\end{aligned}$\nNow $y=C_1 \\mathrm{f}(\\mathrm{x})+\\mathrm{C}_2$\n$\\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\mathrm{C}_1 \\mathrm{f}^{\\prime}(\\mathrm{x})=\\mathrm{C}_1\\left(\\mathrm{e}^{-\\mathrm{x}}+8\\right)$   ...(1)\n$\\frac{d^2 y}{d x^2}=-C_1 e^{-x} \\Rightarrow-e^x \\frac{d^2 y}{d x^2}$\nPut in equation (1)\n$\\begin{aligned} & \\frac{d y}{d x}=-e^x \\frac{d^2 y}{d x^2}\\left(e^{-x}+8\\right) \\\\ & \\left(8 e^x+1\\right) \\frac{d^2 y}{d x^2}+\\frac{d y}{d x}=0\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "0d03054d945d404098f408a34f7412e0",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/q8SLaXGNfB0KP.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/q8SLaXGNfB0KP.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda6e",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-08T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (08 Apr Shift 1)",
+    "title": "JEE Main 2024 (08 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 61,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (31 Aug Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2021",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>sin</mi><mn>2</mn></msup><mfenced><mrow><mi>&#960;</mi><msup><mi>cos</mi><mn>4</mn></msup><mi>x</mi></mrow></mfenced></mrow><msup><mi>x</mi><mn>4</mn></msup></mfrac></math> is equal to :"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mi>&#960;</mi><mn>2</mn></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>&#960;</mi><mn>2</mn></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msup><mi>&#960;</mi><mn>2</mn></msup></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>&#960;</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>Given that</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>sin</mi><mn>2</mn></msup><mfenced><mrow><mi>&#960;</mi><msup><mfenced><mrow><mn>1</mn><mo>-</mo><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi></mrow></mfenced><mn>2</mn></msup></mrow></mfenced></mrow><msup><mi>x</mi><mn>4</mn></msup></mfrac></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>sin</mi><mn>2</mn></msup><mfenced><mrow><mi>&#960;</mi><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>sin</mi><mn>4</mn></msup><mi>x</mi><mo>-</mo><mn>2</mn><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi></mrow></mfenced></mrow></mfenced></mrow><msup><mi>x</mi><mn>4</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>sin</mi><mn>2</mn></msup><mfenced><mrow><mi>&#960;</mi><mo>-</mo><mi>&#960;</mi><mfenced><mrow><mn>2</mn><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi><mo>-</mo><msup><mi>sin</mi><mn>4</mn></msup><mi>x</mi></mrow></mfenced></mrow></mfenced></mrow><msup><mi>x</mi><mn>4</mn></msup></mfrac></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>sin</mi><mn>2</mn></msup><mfenced><mrow><mi>&#960;</mi><mfenced><mrow><mn>2</mn><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi><mo>-</mo><msup><mi>sin</mi><mn>4</mn></msup><mi>x</mi></mrow></mfenced></mrow></mfenced></mrow><msup><mi>x</mi><mn>4</mn></msup></mfrac></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><msup><mfenced><mfrac><mrow><mi>sin</mi><mfenced open=\"[\" close=\"]\"><mrow><mi>&#960;</mi><mfenced><mrow><mn>2</mn><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi><mo>-</mo><msup><mi>sin</mi><mn>4</mn></msup><mi>x</mi></mrow></mfenced></mrow></mfenced></mrow><mrow><mi>&#960;</mi><mfenced><mrow><mn>2</mn><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi><mo>-</mo><msup><mi>sin</mi><mn>4</mn></msup><mi>x</mi></mrow></mfenced></mrow></mfrac></mfenced><mn>2</mn></msup><mo>&#183;</mo><mfrac><mrow><msup><mi>&#960;</mi><mn>2</mn></msup><msup><mfenced><mrow><mn>2</mn><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi><mo>-</mo><msup><mi>sin</mi><mn>4</mn></msup><mi>x</mi></mrow></mfenced><mn>2</mn></msup></mrow><msup><mi>x</mi><mn>4</mn></msup></mfrac></math><br />When&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&#160;</mo><mo>&#8594;</mo><mo>&#160;</mo><mn>0</mn><mo>&#160;</mo><mo>&#8658;</mo><mn>2</mn><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><msup><mi>sin</mi><mn>4</mn></msup><mi>x</mi><mo>&#160;</mo><mo>&#8594;</mo><mo>&#160;</mo><mn>0</mn><mo>&#160;</mo></math></p><p>Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><msup><mi>sin</mi><mn>4</mn></msup><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>k</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><msup><mfenced open=\"[\" close=\"]\"><mfrac><mrow><mi>sin</mi><mi>&#960;</mi><mi>k</mi><mo>&#160;</mo></mrow><mrow><mi>&#960;</mi><mi>k</mi></mrow></mfrac></mfenced><mn>2</mn></msup><mo>.</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>&#960;</mi><mn>2</mn></msup><mo>.</mo><mo>&#160;</mo><msup><mi>sin</mi><mn>4</mn></msup><mi>x</mi><mo>&#160;</mo><msup><mfenced><mrow><mn>2</mn><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi></mrow></mfenced><mn>2</mn></msup></mrow><msup><mi>x</mi><mn>4</mn></msup></mfrac></math></p><p>We know that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>sin</mi><mi>k</mi><mi>x</mi></mrow><mi>x</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>k</mi><mo>.</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><msup><mi>&#960;</mi><mn>2</mn></msup><msup><mi>&#960;</mi><mn>2</mn></msup></mfrac><mo>.</mo><msup><mi>&#960;</mi><mn>2</mn></msup><mo>.</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><msup><mfenced open=\"[\" close=\"]\"><mfrac><mrow><mi>sin</mi><mi>x</mi><mo>&#160;</mo></mrow><mi>x</mi></mfrac></mfenced><mn>4</mn></msup><mo>.</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><msup><mfenced><mrow><mn>2</mn><mo>-</mo><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi></mrow></mfenced><mn>2</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi>&#960;</mi><mn>2</mn></msup><mo>&#160;</mo><mo>.</mo><mo>&#160;</mo><mn>1</mn><mo>&#160;</mo><mo>.</mo><mo>&#160;</mo><msup><mfenced><mn>2</mn></mfenced><mn>2</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><msup><mi>&#960;</mi><mn>2</mn></msup><mo>.</mo></math></p>"
+  }
+}

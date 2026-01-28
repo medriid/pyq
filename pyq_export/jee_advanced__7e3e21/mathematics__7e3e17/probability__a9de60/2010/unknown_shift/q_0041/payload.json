@@ -1,0 +1,43 @@
+{
+  "index": 41,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2010 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025732b001edb3fa9de60",
+    "chapter_name": "Probability",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A signal which can be green or red with probability $\\frac{4}{5}$ and $\\frac{1}{5}$ respectively, is received by station $A$ and then transmitted to station B. The probability of each station receiving the signal correctly is $\\frac{3}{4}$. If the signal received at station $B$ is green, then the probability that the original signal green is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{3}{5}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{6}{7}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{20}{23}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{9}{20}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "From the tree-diagram it follows that\n<img src=\"assets\\st0041_0e02eb4918f0.png\"><br>\n$$\n\\begin{gathered}\nP\\left(B_G \\mid G\\right)=\\frac{10}{16}=\\frac{5}{8} \\\\\n\\therefore \\quad P\\left(B_G \\cap G\\right)=\\frac{5}{8} \\times \\frac{4}{5}=\\frac{1}{2} \\\\\nP\\left(G \\mid B_G\\right)=\\frac{\\frac{1}{2}}{P\\left(B_G\\right)}=\\frac{1}{2} \\times \\frac{80}{46}=\\frac{20}{23}\n\\end{gathered}\n$$"
+  }
+}

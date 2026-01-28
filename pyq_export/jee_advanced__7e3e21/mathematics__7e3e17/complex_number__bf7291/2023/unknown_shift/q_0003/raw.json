@@ -1,0 +1,58 @@
+{
+  "_id": "64b16aabf23ac7d519f9b681",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64b1672d25f94b8a85b91cda",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2023-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Paper 2)",
+      "title": "JEE Advanced 2023 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub><mo>,</mo><msub><mi>A</mi><mn>2</mn></msub><mo>,</mo><msub><mi>A</mi><mn>3</mn></msub><mo>,</mo><mo>&#8230;</mo><mo>,</mo><msub><mi>A</mi><mn>8</mn></msub></math>&nbsp;be the vertices of a regular octagon that lie on a circle of radius <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>. Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> be a point on the circle and let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><msub><mi>A</mi><mi>i</mi></msub></math> denote the distance between the points <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mi>i</mi></msub></math> for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>i</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mo>&#8230;</mo><mo>,</mo><mn>8</mn></math>. If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> varies over the circle, then the maximum value of the product <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><msub><mi>A</mi><mn>1</mn></msub><mo>&#183;</mo><mi>P</mi><msub><mi>A</mi><mn>2</mn></msub><mo>&#8230;</mo><mo>&#183;</mo><mi>P</mi><msub><mi>A</mi><mn>8</mn></msub></math>, is",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "512",
+  "solution": {
+    "text": "<blockquote><p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub><mo>,</mo><msub><mi>A</mi><mn>2</mn></msub><mo>,</mo><msub><mi>A</mi><mn>3</mn></msub><mo>,</mo><mo>&#8230;</mo><mo>,</mo><msub><mi>A</mi><mn>8</mn></msub></math>&nbsp;vertices of a regular octagon lying on a circle of radius <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>.</p><p>Now using the concept of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mrow><mi>t</mi><mi>h</mi></mrow></msup></math>&nbsp;root of unity,</p><p>Let any point&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>&nbsp;be,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>)</mo><mo>(</mo><mn>1</mn><msup><mo>)</mo><mrow><mn>1</mn><mo>/</mo><mn>8</mn></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo stretchy=\"false\">&#8658;</mo><msup><mi>Z</mi><mn>8</mn></msup><mo>=</mo><msup><mn>2</mn><mn>8</mn></msup><mo>&#215;</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo stretchy=\"false\">&#8658;</mo><msup><mi>Z</mi><mn>8</mn></msup><mo>&#8722;</mo><msup><mn>2</mn><mn>8</mn></msup><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo stretchy=\"false\">&#8658;</mo><mi>Z</mi><mo>=</mo><mn>2</mn><mo>,</mo><mn>2</mn><mi>&#945;</mi><mo>,</mo><mn>2</mn><msup><mi>&#945;</mi><mn>2</mn></msup><mo>,</mo><mn>2</mn><msup><mi>&#945;</mi><mn>3</mn></msup><mo>,</mo><mo>&#8230;</mo><mo>,</mo><mn>2</mn><msup><mi>&#945;</mi><mn>7</mn></msup><mo>;</mo><mfenced close=\"}\" open=\"{\"><mrow><mtext>here&#160;</mtext><mi>&#945;</mi><mo>=</mo><msup><mi>e</mi><mrow><mi>i</mi><mfrac><mrow><mn>2</mn><mi>&#960;</mi></mrow><mn>8</mn></mfrac></mrow></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo stretchy=\"false\">&#8658;</mo><msup><mi>Z</mi><mn>8</mn></msup><mo>&#8722;</mo><msup><mn>2</mn><mn>8</mn></msup><mo>=</mo><mo>(</mo><mi>Z</mi><mo>&#8722;</mo><mn>2</mn><mo>)</mo><mo>(</mo><mi>Z</mi><mo>&#8722;</mo><mn>2</mn><mi>&#945;</mi><mo>)</mo><mfenced separators=\"|\"><mrow><mi>Z</mi><mo>&#8722;</mo><mn>2</mn><msup><mi>&#945;</mi><mn>2</mn></msup></mrow></mfenced><mfenced separators=\"|\"><mrow><mi>Z</mi><mo>&#8722;</mo><mn>2</mn><msup><mi>&#945;</mi><mn>3</mn></msup></mrow></mfenced><mo>&#8230;</mo><mfenced separators=\"|\"><mrow><mi>Z</mi><mo>&#8722;</mo><mn>2</mn><msup><mi>&#945;</mi><mn>7</mn></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo stretchy=\"false\">&#8658;</mo><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><msup><mi>Z</mi><mn>8</mn></msup><mo>&#8722;</mo><msup><mn>2</mn><mn>8</mn></msup></mrow></mfenced><mo>=</mo><mo>|</mo><mi>Z</mi><mo>&#8722;</mo><mn>2</mn><mo>|</mo><mo>|</mo><mi>Z</mi><mo>&#8722;</mo><mn>2</mn><mi>&#945;</mi><mo>|</mo><mo>&#8230;</mo><mo>.</mo><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mi>Z</mi><mo>&#8722;</mo><mn>2</mn><msup><mi>&#945;</mi><mn>7</mn></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>&#160;But&#160;</mtext><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><msup><mi>Z</mi><mn>8</mn></msup><mo>+</mo><mfenced separators=\"|\"><mrow><mo>&#8722;</mo><msup><mn>2</mn><mn>8</mn></msup></mrow></mfenced></mrow></mfenced><mo>&#8804;</mo><mo>|</mo><mi>Z</mi><msup><mo>|</mo><mn>8</mn></msup><mo>+</mo><msup><mn>2</mn><mn>8</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnalign=\"right left right left right left right left right left right left\" columnspacing=\"0em 2em 0em 2em 0em 2em 0em 2em 0em 2em 0em\" rowspacing=\"3pt\"><mtr><mtd><mrow><mo stretchy=\"false\">&#8658;</mo><mo>|</mo><mi>Z</mi><mo>&#8722;</mo><mn>2</mn><mo>|</mo><mo>|</mo><mi>Z</mi><mo>&#8722;</mo><mn>2</mn><mi>&#945;</mi><mo>|</mo><mo>&#8230;</mo><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mi>Z</mi><mo>&#8722;</mo><mn>2</mn><msup><mi>&#945;</mi><mn>7</mn></msup></mrow></mfenced></mrow><mrow><mo>&#8804;</mo><mo>|</mo><mi>Z</mi><msup><mo>|</mo><mn>8</mn></msup><mo>+</mo><msup><mn>2</mn><mn>8</mn></msup></mrow></mtd></mtr><mtr><mtd><mo>&#8804;</mo><msup><mn>2</mn><mn>8</mn></msup><mo>+</mo><msup><mn>2</mn><mn>8</mn></msup><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo></mtd></mtr><mtr><mtd><mo>&#8804;</mo><msup><mn>2</mn><mn>9</mn></msup><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo></mtd></mtr></mtable></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo stretchy=\"false\">&#8658;</mo><mi>Max</mi><mo>&#8289;</mo><mfenced separators=\"|\"><mrow><mi>P</mi><msub><mi>A</mi><mn>1</mn></msub><mo>&#8901;</mo><mi>P</mi><msub><mi>A</mi><mn>2</mn></msub><mo>&#8230;</mo><mo>.</mo><mi>P</mi><msub><mi>A</mi><mn>8</mn></msub></mrow></mfenced><mo>=</mo><msup><mn>2</mn><mn>9</mn></msup><mo>=</mo><mn>512</mn></math></p></blockquote>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "ad131ff5460a48609b05cb22d3b42bef",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/ilt4YQY68L2cy.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/ilt4YQY68L2cy.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64b1672d25f94b8a85b91cda",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2023-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Paper 2)",
+    "title": "JEE Advanced 2023 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

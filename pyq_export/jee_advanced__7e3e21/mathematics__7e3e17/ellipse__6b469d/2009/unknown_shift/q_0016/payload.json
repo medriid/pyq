@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2009 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602540e6d04db2c46b469d",
+    "chapter_name": "Ellipse",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The normal at a point $P$ on the ellipse $x^2+4 y^2=16$ meets the $x$-axis at $Q$. If $M$ is the mid-point of the line segment $P Q$, then the locus of $M$ intersects the latusrectum of the given ellipse at the points"
+  },
+  "options": [
+    {
+      "text": "\n$\\left(\\pm \\frac{3 \\sqrt{5}}{2}, \\pm \\frac{2}{7}\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left(\\pm \\frac{3 \\sqrt{5}}{2}, \\pm \\frac{\\sqrt{19}}{4}\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left(\\pm 2 \\sqrt{3}, \\pm \\frac{1}{7}\\right)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\left(\\pm 2 \\sqrt{3}, \\pm \\frac{4 \\sqrt{3}}{7}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given, $\\quad \\frac{x^2}{16}+\\frac{y^2}{4}=1$\nHere, $\\quad a=4, b=2$\nEquation of normal is\n$$\n\\begin{aligned}\n& 4 x \\sec \\theta-2 y \\operatorname{cosec} \\theta=12 \\\\\n& M\\left(\\frac{7 \\cos \\theta}{2}, \\sin \\theta\\right)=(h, k) \\text { (say) } \\\\\n& \\therefore \\quad h=\\frac{7 \\cos \\theta}{2} \\Rightarrow \\cos \\theta=\\frac{2 h}{7} \\\\\n& {\\left[\\because \\cos ^2 \\theta+\\sin ^2 \\theta=1\\right]} \\\\\n&\n\\end{aligned}\n$$\nHence, locus is $\\frac{4 x^2}{49}+y^2=1$\n<img src=\"assets\\st0016_21fdfc390d7e.png\"><br>\nFor given ellipse, $e^2=1-\\frac{4}{16}=\\frac{3}{4}$\n$$\n\\begin{array}{rc}\n\\therefore \\quad e=\\frac{\\sqrt{3}}{2} \\\\\n\\therefore \\quad x=\\pm 4 \\times \\frac{\\sqrt{3}}{2}=\\pm 2 \\sqrt{3} \\\\\n& {[\\because x=\\pm a e] \\ldots \\text { (ii) }}\n\\end{array}\n$$\nOn solving Eqs. (i) and (ii), we get\n$$\n\\begin{aligned}\n& \\frac{4}{49} \\times 12+y^2=1 \\Rightarrow y^2=1-\\frac{48}{49}=\\frac{1}{49} \\\\\n& \\Rightarrow \\quad y=\\pm \\frac{1}{7}\n\\end{aligned}\n$$\n$\\therefore$ Required points $\\left(\\pm 2 \\sqrt{3}, \\pm \\frac{1}{7}\\right)$."
+  }
+}

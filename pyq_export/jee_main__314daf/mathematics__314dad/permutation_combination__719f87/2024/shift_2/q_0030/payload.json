@@ -1,0 +1,24 @@
+{
+  "index": 30,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (01 Feb Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "<p>The lines <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mn>1</mn></msub><mo>,</mo><msub><mi>L</mi><mn>2</mn></msub><mo>,</mo><mo>.</mo><mo>..</mo><mo>,</mo><msub><mi>L</mi><mn>20</mn></msub></math> are distinct. For <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>.</mo><mo>..</mo><mo>,</mo><mn>10</mn></math> all the lines <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mrow><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub></math> are parallel to each other and all the lines <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mrow><mn>2</mn><mi>n</mi></mrow></msub></math> pass through a given point <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>. The maximum number of points of intersection of pairs of lines from the set <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>,</mo><msub><mi>L</mi><mn>2</mn></msub><mo>,</mo><mo>.</mo><mo>..</mo><mo>,</mo><msub><mi>L</mi><mn>20</mn></msub></mrow></mfenced></math> is equal to:</p>"
+  },
+  "options": [],
+  "correct_answer": "101",
+  "solution": {
+    "text": "<p>Given:</p><p>Out of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math> numbered lines, even numbered lines are concurrent, odd number lines are parallel.</p><p>So, the maximum number of intersection points will be given by,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi><mo>=</mo><mfenced><mrow><mn>1</mn><mo>→</mo><mtext>point of intersection when both lines are even</mtext></mrow></mfenced><mo>+</mo><mfenced><mrow><mn>0</mn><mo>→</mo><mtext>point of intersection when both lines are parallel</mtext></mrow></mfenced><mo>+</mo><mfenced><mrow><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>10</mn></mmultiscripts><mo>×</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>10</mn></mmultiscripts><mo>→</mo><mtext>point of intersection when </mtext><mn>1</mn><mtext> odd and </mtext><mn>1</mn><mtext> even line meets</mtext></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>+</mo><mn>100</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mn>101</mn></math></p>"
+  }
+}

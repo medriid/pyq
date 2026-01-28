@@ -1,0 +1,63 @@
+{
+  "_id": "64a813a3e0ff5a5425a85411",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009",
+      "title": "WBJEE 2009"
+    }
+  ],
+  "question": {
+    "text": "If $f(x)=f(a-x)$ then $\\int_0^a x f(x) d x$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "ktm2I",
+      "text": "$\\int_0^a f(x) d x$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "AGubc",
+      "text": "$\\frac{a^2}{2} \\int_0^{\\mathrm{a}} \\mathrm{f}(\\mathrm{x}) \\mathrm{dx}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "tcHaD",
+      "text": "$\\frac{a}{2} \\int_0^a f(x) d x$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "y1UkG",
+      "text": "$-\\frac{a}{2} \\int_0^{\\mathrm{a}} f(x) d x$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hints : $f(x)=f(a-x), I=\\int_0^a x f(x) d x=\\int_0^a(a-x) f(a-x) d x$\n$$\n\\begin{aligned}\n& =\\int_0^a(a-x) f(x) d x=a \\int_0^a f(x) d x-I \\\\\n& \\therefore 2 I=a \\int_0^a f(x) d x \\Rightarrow I=\\frac{a}{2} \\int_0^a f(x) d x\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009",
+    "title": "WBJEE 2009"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

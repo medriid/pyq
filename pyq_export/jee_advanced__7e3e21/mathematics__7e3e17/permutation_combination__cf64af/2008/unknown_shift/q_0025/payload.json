@@ -1,0 +1,43 @@
+{
+  "index": 25,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2008 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252aaac414b50bcf64af",
+    "chapter_name": "Permutation Combination",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider all possible permutations of the letters of the word ENDEANOEL. Match the Statements/Expressions in Column I with the Statements/Expressions in Column II.\n<img src=\"assets\\qt0025_f735cfe7986a.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\n(A) r, (B) q, (C) s, (D) p\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n(A) p, (B) s, (C) q, (D) q\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n(A) p, (B) r, (C) s, (D) q\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n(A) r, (B) s, (C) r, (D) p",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "(A) If ENDEA is fixed word, then assume this as a single letter.\nTotal number of letters $=5$ and total number of arrangements $=5$ ! .\n(B) If $E$ is at first and last places, then total number of permutations\n$$\n\\frac{7 !}{2 !}=21 \\times 5 !\n$$\n(C) If $\\mathrm{D}, \\mathrm{L}, \\mathrm{N}$ are not in last five positions\n$$\n\\leftarrow \\mathrm{D}, \\mathrm{L}, \\mathrm{N}, \\mathrm{N} \\rightarrow \\leftarrow \\text { E, E, E, A, O } \\rightarrow\n$$\nTotal number of permutations $=\\frac{4 !}{2 !} \\times \\frac{5 !}{3 !}=2 \\times 5$ ! .\n(D) Total number of odd positions $=5$\nPermutations of AEEEO are $\\frac{5 !}{3 !}$\nTotal number of even positions $=4$\nNumber of permutations of $\\mathrm{N}, \\mathrm{N}, \\mathrm{D}, \\mathrm{L}=\\frac{4 !}{2 !}$\nHence, total number of permutations $=\\frac{5 !}{3 !} \\times \\frac{4 !}{2 !}=2 \\times 5 !$."
+  }
+}

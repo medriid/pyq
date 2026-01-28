@@ -1,0 +1,43 @@
+{
+  "index": 209,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2014 (11 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the general solution of the differential equation $y^{\\prime}=\\frac{y}{x}+\\Phi\\left(\\frac{x}{y}\\right)$, for some function $\\Phi$, is given by $y \\ln |c x|=x$, where $\\mathrm{c}$ is an arbitrary constant, then $\\Phi(2)$ is equal to:"
+  },
+  "options": [
+    {
+      "text": "\n4\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{4}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-4$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-\\frac{1}{4}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given $\\frac{d y}{d x}=\\frac{y}{x}+\\phi\\left(\\frac{y}{x}\\right)$\nLet $\\left(\\frac{y}{x}\\right)=v$ so that $y=x v$ or $\\frac{d y}{d x}=x \\frac{d v}{d x}+v$\nfrom (1) \\& (2), $x \\frac{d v}{d x}+v=v+\\phi\\left(\\frac{1}{v}\\right)$ or, $\\frac{d v}{\\phi\\left(\\frac{1}{v}\\right)}=\\frac{d x}{x}$\nIntegrating both sides, we get $\\int \\frac{d x}{x}=\\int \\frac{d v}{\\phi\\left(\\frac{1}{v}\\right)} \\Rightarrow \\ln x+c=\\int \\frac{d v}{\\phi\\left(\\frac{1}{v}\\right)}$\n(where $\\mathrm{c}$ being constant of integration)\nBut, given $\\mathrm{y}=\\frac{x}{\\ln |c x|}$ is the general solution\nso that $\\frac{x}{y}=\\frac{1}{v}=\\ln |c x|=\\int \\frac{d v}{\\phi\\left(\\frac{1}{v}\\right)}$\nDifferentiating w.r.t $v$ both sides, we get $\\phi\\left(\\frac{1}{v}\\right)=\\frac{-1}{v^2} \\Rightarrow \\phi\\left(\\frac{x}{y}\\right)=-\\frac{y^2}{x^2}$\nwhen $\\frac{x}{y}=2$ i.e. $\\phi(2)$\n$$\n=-\\left(\\frac{y}{x}\\right)^2=-\\left(\\frac{1}{2}\\right)^2=\\left(\\frac{-1}{4}\\right)\n$$"
+  }
+}

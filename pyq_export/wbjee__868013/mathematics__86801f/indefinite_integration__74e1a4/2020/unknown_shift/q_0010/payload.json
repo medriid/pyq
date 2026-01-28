@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2020",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int \\frac{\\mathrm{f}(\\mathrm{x}) \\varphi^{\\prime}(\\mathrm{x})+\\varphi(\\mathrm{x}) \\mathrm{f}^{\\prime}(\\mathrm{x})}{(\\mathrm{f}(\\mathrm{x}) \\varphi(\\mathrm{x})+1) \\sqrt{\\mathrm{f}(\\mathrm{x}) \\varphi(\\mathrm{x})-1}} \\mathrm{dx}=$"
+  },
+  "options": [
+    {
+      "text": "$\\sin ^{-1} \\sqrt{\\frac{\\mathrm{f}(\\mathrm{x})}{\\varphi(\\mathrm{x})}}+\\mathrm{c}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\cos ^{-1} \\sqrt{(f(x))^{2}-(\\varphi(x))^{2}}+c$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{2} \\tan ^{-1} \\sqrt{\\frac{f(x) \\varphi(x)-1}{2}}+c$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\sqrt{2} \\tan ^{-1} \\sqrt{\\frac{f(x) \\varphi(x)+1}{2}}+c$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hint:\r\nLet $f(x) \\phi(x)=t$\r\n$\\int \\frac{d t}{(t+1) \\sqrt{t-1}}$\r\nLet $t-1=p^{2}, d t=2 p d p$\r\n$\\Rightarrow \\int \\frac{2 d p}{p^{2}+2}=\\sqrt{2} \\tan ^{-1}\\left|\\sqrt{\\frac{f(x) \\phi(x)-1}{2}}\\right|+c$"
+  }
+}

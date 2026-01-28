@@ -1,0 +1,24 @@
+{
+  "index": 52,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2022 (28 Jun Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025479bcff3fc153d948d",
+    "chapter_name": "Statistics",
+    "year": "2022",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Suppose a class has&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math> students. The average marks of these students in the mathematics examination is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>62</mn></math>, and their variance is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math>. A student fails in the examination if he/she gets less than&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn></math> marks, then in worst case, the number of students can fail is"
+  },
+  "options": [],
+  "correct_answer": "0",
+  "solution": {
+    "text": "<p>Applying the formula of variance we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>=</mo><mfrac><mrow><msubsup><mo>&#8721;</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mn>7</mn></msubsup><msup><mfenced close=\"|\" open=\"|\"><mrow><msub><mi>x</mi><mi>i</mi></msub><mo>-</mo><mn>62</mn></mrow></mfenced><mn>2</mn></msup></mrow><mn>7</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mfenced close=\"|\" open=\"|\"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>-</mo><mn>62</mn></mrow></mfenced><mn>2</mn></msup><mo>+</mo><msup><mfenced close=\"|\" open=\"|\"><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>-</mo><mn>62</mn></mrow></mfenced><mn>2</mn></msup><mo>+</mo><mo>&#8230;</mo><mo>.</mo><mo>+</mo><msup><mfenced close=\"|\" open=\"|\"><mrow><msub><mi>x</mi><mn>7</mn></msub><mo>-</mo><mn>62</mn></mrow></mfenced><mn>2</mn></msup><mo>=</mo><mn>140</mn></math></p><p>If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mn>49</mn></math>&nbsp;(taking the least possibility)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced close=\"|\" open=\"|\"><mrow><mn>49</mn><mo>-</mo><mn>62</mn></mrow></mfenced><mn>2</mn></msup><mo>=</mo><mn>169</mn></math></p><p>then,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced open=\"|\" close=\"|\"><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>-</mo><mn>62</mn></mrow></mfenced><mn>2</mn></msup><mo>+</mo><mo>&#8230;</mo><mo>.</mo><mo>+</mo><msup><mfenced open=\"|\" close=\"|\"><mrow><msub><mi>x</mi><mn>7</mn></msub><mo>-</mo><mn>62</mn></mrow></mfenced><mn>2</mn></msup><mo>=</mo><mn>140</mn><mo>-</mo><mn>169</mn><mo>=</mo><mo>-</mo><mn>29</mn></math>&nbsp;Negative Number which is not possible, therefore, no student can fail.</p>"
+  }
+}

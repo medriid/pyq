@@ -1,0 +1,63 @@
+{
+  "_id": "64a813dae0ff5a5425a8561f",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012",
+      "title": "WBJEE 2012"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "The system of linear equations $\\lambda x+y+z=3$\r\n$x-y-2 z=6$\r\n$-x+y+z=\\mu$ has",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "bGiKz",
+      "text": "infinite number of solutions for $\\lambda \\neq-1$ and all $\\mu$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "OioT7",
+      "text": "infinite number of solutions for $\\lambda=-1$ and $\\mu=3$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "ktUjh",
+      "text": "no solution for $\\lambda, x-1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "FOMo4",
+      "text": "unique solution for $\\lambda=-1$ and $\\mu=3$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Augmented matrix [A:B] = $\\left[\\begin{array}{rrrr}1 & -1 & -2 & 6 \\\\ -1 & 1 & 1 & \\mu \\\\ \\lambda & 1 & 1 & 3\\end{array}\\right]$\r\n$\\sim\\left[\\begin{array}{cccc}1 & -1 & -2 & 6 \\\\ 0 & 0 & -1 & \\mu+6 \\\\ \\lambda+1 & 0 & -1 & 9\\end{array}\\right]$\r\nApplying\r\n$$\r\n-\\left[\\begin{array}{cccc}1 & -1 & -2 & R_{2}+R_{1}, R_{3} \\rightarrow R_{3}+R_{1} \\\\ 0 & 0 & -1 & \\mu+6 \\\\ \\lambda+1 & 0 & 0 & 3-\\mu\\end{array}\\right]\r\n$$\r\nInfinite number of solutions for $\\lambda=-1$ and $\\mu=3$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012",
+    "title": "WBJEE 2012"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

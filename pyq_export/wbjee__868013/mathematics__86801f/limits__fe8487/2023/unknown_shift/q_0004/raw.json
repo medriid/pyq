@@ -1,0 +1,63 @@
+{
+  "_id": "64a81493e0ff5a5425a85cf2",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad6",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2023-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023",
+      "title": "WBJEE 2023"
+    }
+  ],
+  "question": {
+    "text": "\\(f(x)\\) is a differentiable function and given \\(f^{\\prime}(2)=6\\) and \\(f^{\\prime}(1)=4\\), then \\(L=\\lim _{h \\rightarrow 0} \\frac{f\\left(2+2 h+h^2\\right)-f(2)}{f\\left(1+h-h^2\\right)-f(1)}\\)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "HebM2",
+      "text": "does not exist",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "NZ4td",
+      "text": "equal to -3",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "3cIhw",
+      "text": "equal to 3",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "W0VSv",
+      "text": "equal to \\(3 / 2\\)",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint: \\(\\operatorname{It}_{h \\rightarrow 0} \\frac{f\\left(2+2 h+h^2\\right)-f(2)}{f\\left(1+h-h^2\\right)-f(1)} \\quad[\\div(\\) form \\()]\\)\nby L. Hospital rule.\n\\(\\begin{aligned}\n\\operatorname{It}_{h \\rightarrow 0} \\frac{f^{\\prime}\\left(2+2 h+h^2\\right)(2 h+2)}{f^{\\prime}\\left(1+h-h^2\\right)(1-2 h)} & =\\frac{f^{\\prime}(2)}{f^{\\prime}(1)} \\times\\left(\\frac{2}{1}\\right) \\\\\n& =\\frac{6}{4} \\times 2=3\n\\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad6",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2023-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023",
+    "title": "WBJEE 2023"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

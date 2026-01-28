@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a67417cc3fb48d66735",
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7eb",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2019-01-10T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019 (10 Jan Shift 2)",
+      "title": "JEE Main 2019 (10 Jan Shift 2)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math> be a differentiable function such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>'</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mn>7</mn><mo>-</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mfrac><mrow><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced></mrow><mi>x</mi></mfrac><mo>,</mo><mi>&#160;</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>&#62;</mo><mn>0</mn></mrow></mfenced></math> and <math><mi>f</mi><mfenced separators=\"|\"><mrow><mn>1</mn></mrow></mfenced><mo>&#8800;</mo><mn>4</mn><mo>.</mo></math> Then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mo>&#8289;</mo><mi>x</mi><mi>&#160;</mi><mi>f</mi><mfenced separators=\"|\"><mfrac><mn>1</mn><mi>x</mi></mfrac></mfenced></math>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Y5MYg",
+      "text": "does not exist.",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "dqa21",
+      "text": "exists and equals <math><mn>4</mn></math>.",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "1tDVa",
+      "text": "exists and equals <math><mfrac><mrow><mn>4</mn></mrow><mrow><mn>7</mn></mrow></mfrac></math>.",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "6NVdi",
+      "text": "exists and equals <math><mn>0</mn></math>.",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have,&nbsp;<math><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>3</mn><mi>y</mi></mrow><mrow><mn>4</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mn>7</mn></math> <math><mo>(</mo></math> where <math><mi>y</mi><mo>=</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo></math><br /><br />This is a linear differential equation.<br /><br />Integrating factor,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>.</mo><mi>F</mi><mo>.</mo><mo>&#160;</mo></math><math><mo>=</mo><msup><mrow><mi>e</mi></mrow><mrow><mo>&#8747;</mo><mfrac><mrow><mn>3</mn><mtext>&#8201;</mtext><mi>d</mi><mi>x</mi></mrow><mrow><mn>4</mn><mi>x</mi></mrow></mfrac></mrow></msup><mo>=</mo><msup><mrow><mi>e</mi></mrow><mrow><mfrac><mrow><mn>3</mn></mrow><mrow><mn>4</mn></mrow></mfrac><mi>l</mi><mi>n</mi><mi>x</mi></mrow></msup><mo>=</mo><msup><mrow><mi>x</mi></mrow><mrow><mfrac><mrow><mn>3</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></msup></math><br /><br />So, integrating the given differential equation using <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>.</mo><mi>F</mi><mo>.</mo></math>&nbsp;<br /><br /><math><mo>&#8658;</mo><mi>y</mi><mo>.</mo><msup><mrow><mi>x</mi></mrow><mrow><mfrac><mrow><mn>3</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></msup><mo>=</mo><mo>&#8747;</mo><mn>7</mn><mo>.</mo><msup><mrow><mi>x</mi></mrow><mrow><mfrac><mrow><mn>3</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></msup><mi>d</mi><mi>x</mi></math><br /><br /><math><mo>&#8658;</mo><mi>y</mi><mo>.</mo><msup><mrow><mi>x</mi></mrow><mrow><mfrac><mrow><mn>3</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></msup><mo>=</mo><mn>7</mn><mo>.</mo><mfrac><mrow><mn>4</mn><msup><mrow><mi>x</mi></mrow><mrow><mfrac><mrow><mn>7</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></msup></mrow><mrow><mn>7</mn></mrow></mfrac><mo>+</mo><mi>C</mi></math><br /><br /><math><mo>&#8658;</mo><mi>y</mi><mfenced separators=\"|\"><mrow><msup><mrow><mi>x</mi></mrow><mrow><mfrac><mrow><mn>3</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></msup></mrow></mfenced><mo>=</mo><mn>4</mn><msup><mrow><mi>x</mi></mrow><mrow><mfrac><mrow><mn>7</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></msup><mo>+</mo><mi>C</mi></math><br /><br /><math><mo>&#8658;</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>4</mn><mi>x</mi><mo>+</mo><mi>C</mi><msup><mrow><mi>x</mi></mrow><mrow><mfrac><mrow><mo>-</mo><mn>3</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></msup></math><br /><br /><math><mo>&#8658;</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><msup><mrow><mn>0</mn></mrow><mrow><mo>+</mo></mrow></msup></mrow></munder><mi>x</mi><mi>f</mi><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow></mfenced><mo>&#8658;</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><msup><mrow><mn>0</mn></mrow><mrow><mo>+</mo></mrow></msup></mrow></munder><mi>x</mi><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>4</mn></mrow><mrow><mi>x</mi></mrow></mfrac><mo>+</mo><mi>C</mi><msup><mrow><mi>x</mi></mrow><mrow><mfrac><mrow><mn>3</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></msup></mrow></mfenced><mo>=</mo><mn>4</mn></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7eb",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2019-01-10T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019 (10 Jan Shift 2)",
+    "title": "JEE Main 2019 (10 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

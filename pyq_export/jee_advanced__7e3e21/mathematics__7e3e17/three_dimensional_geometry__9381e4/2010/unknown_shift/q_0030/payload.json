@@ -1,0 +1,43 @@
+{
+  "index": 30,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2010 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256fa38382a3a99381e4",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Equation of the plane containing the straight line $\\frac{x}{2}=\\frac{y}{3}=\\frac{z}{4}$ and perpendicular to the plane containing the straight lines $\\frac{x}{3}=\\frac{y}{4}=\\frac{z}{2}$ and $\\frac{x}{4}=\\frac{y}{2}=\\frac{z}{3}$ is"
+  },
+  "options": [
+    {
+      "text": "\n$x+2 y-2 z=0$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$3 x+2 y-2 z=0$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x-2 y+z=0$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$5 x+2 y-4 z=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "The DR's of normal to the plane containing $\\frac{x}{3}=\\frac{y}{4}=\\frac{z}{2}$ and $\\frac{x}{4}=\\frac{y}{2}=\\frac{z}{3}$. $\\Rightarrow \\quad \\overrightarrow{\\mathbf{n}}_1=\\left|\\begin{array}{ccc}\\hat{\\mathbf{i}} & \\hat{\\mathbf{j}} & \\hat{\\mathbf{k}} \\\\ 3 & 4 & 2 \\\\ 4 & 2 & 3\\end{array}\\right|=(8 \\hat{\\mathbf{i}}-\\hat{\\mathbf{j}}-10 \\hat{\\mathbf{k}})$\nAlso, equation of plane containing $\\frac{x}{2}=\\frac{y}{3}=\\frac{z}{4}$ and DR's of normal to be $\\overrightarrow{\\mathbf{n}}_2=a \\hat{\\mathbf{i}}+b \\hat{\\mathbf{j}}+c \\hat{\\mathbf{k}}$\n<img src=\"assets\\st0030_ff2f3dfa03c6.png\"><br>\n\n$$\n\\begin{array}{ll}\n\\Rightarrow & a x+b y+c z=0 \\\\\n\\text { where, } \\overrightarrow{\\mathbf{n}}_1 \\cdot \\overrightarrow{\\mathbf{n}}_2=0 \\\\\n\\Rightarrow & 8 a-b-10 c=0 \\\\\n\\text { and } & \\overrightarrow{\\mathbf{n}}_2 \\perp(2 \\hat{\\mathbf{i}}+3 \\hat{\\mathbf{j}}+4 \\hat{\\mathbf{k}}) \\\\\n\\Rightarrow & 2 a+3 b+4 c=0\n\\end{array}\n$$\nFrom Eqs. (ii) and (iii), we get\n$$\n\\begin{aligned}\n& \\frac{a}{-1 \\quad-10}=\\frac{b}{8}=\\frac{c}{-1} \\\\\n\\Rightarrow \\quad \\frac{a}{-4+30} & =\\frac{b}{-20-32}=\\frac{c}{24+2} \\\\\n\\Rightarrow \\quad \\quad \\quad \\frac{a}{26} & =\\frac{b}{-52}=\\frac{c}{26} \\\\\n\\Rightarrow \\quad \\quad \\quad \\quad \\frac{a}{1} & =\\frac{b}{-2}=\\frac{c}{1}\n\\end{aligned}\n$$\nFrom Eqs. (i) and (iv), required equation of plane, is $x-2 y+z=0$."
+  }
+}

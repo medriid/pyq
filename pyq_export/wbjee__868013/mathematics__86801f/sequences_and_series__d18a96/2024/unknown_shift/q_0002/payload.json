@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd27e4f983047d18a96",
+    "chapter_name": "Sequences and Series",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Given an A.P. and a G.P. with positive terms, with the first and second terms of the progressions being equal. If $a_n$ and $b_n$ be the $n^{\\text {th }}$ term of A.P. and G.P. respectively then"
+  },
+  "options": [
+    {
+      "text": "$a_n \\gt b_n$ for all $n \\gt 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$a_n \\lt b_n$ for all $n \\gt 2$",
+      "is_correct": true
+    },
+    {
+      "text": "$a_n=b_n$ for some $n \\gt 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$a_n=b_n$ for some odd $n$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\text { Hint: } a_1, a_2, a_3, \\ldots \\ldots, a_n \\rightarrow \\text { AP } \\\\ & a_1, a_2, b_3, \\ldots \\ldots, b_n \\rightarrow G P \\\\ & a_n=a_1+(n-1)\\left(a_2-a_1\\right) \\\\ & b_n=a_1\\left(\\frac{a_2}{a_1}\\right)^{n-1}=a_2^{n-1} \\cdot a_1^{1-n+1}=a_2^{n-1} \\cdot a_1^{2-n} \\\\ & \\text { for } n=3, a_3=a_1+2\\left(a_2-a_1\\right) \\Rightarrow a_3=2 a_2-a_1 \\\\ & b_3=a_2^2 \\cdot a_1^{-1}=\\frac{a_2^2}{a_1} \\\\ & a_3-b_3=2 a_2-a_1-\\frac{a_2^2}{a_1}=\\frac{2 a_2 a_1-a_1^2-a_2^2}{a_1}=\\frac{2 a_1 a_2-\\left(a_1^2+a_2^2\\right)}{a_1} \\lt 0 \\quad\\left[\\because a_1^2+a_2^2 \\gt 2 a_1 a_2\\right] \\\\ & \\therefore a_3 \\lt b_3 \\therefore a_n \\lt b_n \\text { for all } n \\gt 2\\end{aligned}$"
+  }
+}

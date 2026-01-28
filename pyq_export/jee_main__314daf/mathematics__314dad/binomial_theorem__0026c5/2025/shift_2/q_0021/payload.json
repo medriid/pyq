@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $\\alpha, \\beta, \\gamma$ and $\\delta$ be the coefficients of $x^7, x^5, x^3$ and $x$ respectively in the expansion of $\\left(x+\\sqrt{x^3-1}\\right)^5+\\left(x-\\sqrt{x^3-1}\\right)^5, x\\gt1$. If u and v satisfy the equations\n$\\begin{aligned}\n& \\alpha u+\\beta v=18 \\\\\n& \\gamma u+\\delta v=20\n\\end{aligned}$\nthen $u+v$ equals :"
+  },
+  "options": [
+    {
+      "text": "5",
+      "is_correct": true
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    },
+    {
+      "text": "8",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\left(x+\\sqrt{x^3-1}\\right)^5+\\left(x-\\sqrt{x^3-1}\\right)^5 \\\\\n& -\\left[{ }^5 C_0 x^5+{ }^5 C_1 x^4\\left(\\sqrt{x^3-1}\\right)+\\ldots \\ldots+{ }^5 C_5\\left(\\sqrt{x^3-1}\\right)^5\\right]+ \\\\\n& {\\left[{ }^5 C_0 x^5-{ }^5 C_1 x^4\\left(\\sqrt{x^3-1}\\right)+\\ldots \\ldots .+{ }^{-5} C_5\\left(\\sqrt{x^3-1}\\right)^5\\right]} \\\\\n& =2\\left[x^5+{ }^5 C_2 x^3\\left(x^3-1\\right)+{ }^5 C_4\\left(x^3-1\\right)^2\\right] \\\\\n& =10 x^7+20 x^6+2 x^5-20 x^4-20 x^3+10 x\n\\end{aligned}$\n\nNow\n$\\alpha=10, \\beta=2, \\gamma=-20, \\delta=10$\n\nAlso,\n$\\begin{aligned}\n& \\left.\\begin{array}{c}\n10 u+2 v=18 \\\\\n-20 u+10 v=20\n\\end{array}\\right\\} u=1, v=4 \\\\\n& u+v=5\n\\end{aligned}$"
+  }
+}

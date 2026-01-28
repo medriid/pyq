@@ -1,0 +1,43 @@
+{
+  "index": 24,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2012 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254f7a96128fc38065ce",
+    "chapter_name": "Matrices",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $P$ is a $3 \\times 3$ matrix such that $P^{T}=2 P+I$, where $P^{T}$ is the transpose of $P$ and $I$ is the $3 \\times 3$ identity matrix, then there exists a column matrix $\\quad X=\\left[\\begin{array}{l}x \\\\ y \\\\ z\\end{array}\\right] \\neq\\left[\\begin{array}{l}0 \\\\ 0 \\\\ 0\\end{array}\\right]$ such that"
+  },
+  "options": [
+    {
+      "text": "$P X=\\left[\\begin{array}{l}0 \\\\ 0 \\\\ 0\\end{array}\\right]$",
+      "is_correct": false
+    },
+    {
+      "text": "$P X=X$",
+      "is_correct": false
+    },
+    {
+      "text": "$P X=2 X$",
+      "is_correct": false
+    },
+    {
+      "text": "$P X=-X$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$P^{T}=2 P+I$\r\n\r\n$\\begin{array}{l}\r\n\r\n\\Rightarrow P=2 P^{T}+I \\Rightarrow P=2(2 P+I)+I \\\\\r\n\r\n\\Rightarrow P=4 P+3 I \\Rightarrow P+I=0 \\\\\r\n\r\n\\Rightarrow P X+X=0 \\Rightarrow P X=-X\r\n\r\n\\end{array}$"
+  }
+}

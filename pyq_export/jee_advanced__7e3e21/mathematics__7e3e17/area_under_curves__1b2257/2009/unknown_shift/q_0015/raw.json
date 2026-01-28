@@ -1,0 +1,63 @@
+{
+  "_id": "64b169f3f23ac7d519f9aff4",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c44",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009 (Paper 1)",
+      "title": "JEE Advanced 2009 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Area of the region bounded by the curve $y=e^x$ and lines $x=0$ and $y=e$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "PQwtk",
+      "text": "\n$e-1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "bv7M2",
+      "text": "\n$\\int_1^e \\ln (e+1-y) d y$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "yk3Pp",
+      "text": "\n$e-\\int_0^1 e^x d x$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "2u4yQ",
+      "text": "\n$\\int_1^e \\ln y d y$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Shaded area $=e-\\left(\\int_0^1 e^x d x\\right)=1$\nAlso, $\\quad \\int_1^e \\ln (e+1-y) d y$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/oZ4wxm1sBB6e6-hxsJA-BK35ZdmsmKWhMSod8yCCHEg.original.fullsize.png\"><br>\n$$\n\\begin{aligned}\n& =\\int_e^q \\ln t(-d t) \\\\\n& \\text { [put } e+1-y=t \\Rightarrow-d y=d t \\text { ] } \\\\\n& =\\int_1^e \\ln t d t=\\int_1^e \\ln y d y=1\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c44",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009 (Paper 1)",
+    "title": "JEE Advanced 2009 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

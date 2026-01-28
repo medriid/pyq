@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d65977",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7cb",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2011-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011",
+      "title": "JEE Main 2011"
+    }
+  ],
+  "question": {
+    "text": "The value of $\\int_0^1 \\frac{8 \\log (1+x)}{1+x^2} d x$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "9MNVH",
+      "text": "\n$\\frac{\\pi}{8} \\log 2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "C639w",
+      "text": "\n$\\frac{\\pi}{2} \\log 2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "sIgRw",
+      "text": "\n$\\log 2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "YyDP7",
+      "text": "\n$\\pi \\log 2$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\mathrm{I}=8 \\int_0^1 \\frac{\\log (1+\\mathrm{x})}{1+\\mathrm{x}^2} \\mathrm{dx}$\n$=8 \\int_0^{\\frac{\\pi}{4}} \\frac{\\log (1+\\tan \\theta)}{1+\\tan ^2 \\theta} \\sec ^2 \\theta d \\theta(\\operatorname{let} x=\\tan \\theta)$\n$=8 \\int_0^{\\frac{\\pi}{4}} \\log \\left(1+\\tan \\left(\\frac{\\pi}{4}-\\theta\\right)\\right) d \\theta=8 \\int_0^{\\frac{\\pi}{4}} \\log \\left(1+\\frac{1-\\tan \\theta}{1+\\tan \\theta}\\right) d \\theta=8 \\int_0^{\\frac{\\pi}{4}} \\log 2 d \\theta-8 \\int_0^{\\frac{\\pi}{4}} \\log (1+\\tan \\theta) d \\theta$\n$=8 \\log 2 \\frac{\\pi}{4}-I$\n$2 \\mathrm{I}=2 \\pi \\log 2$\n$\\mathrm{I}=\\pi \\log 2$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7cb",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2011-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011",
+    "title": "JEE Main 2011"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

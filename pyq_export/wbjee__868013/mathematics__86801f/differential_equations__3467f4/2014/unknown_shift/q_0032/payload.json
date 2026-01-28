@@ -1,0 +1,43 @@
+{
+  "index": 32,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\sqrt{y}=\\cos ^{-1} x$, then it satisfies the differential equation $\\left(1-x^{2}\\right) \\frac{d^{2} y}{d x^{2}}-x \\frac{d y}{d x}=c,$ where $c$ is equal to"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given, $\\sqrt{y}=\\cos ^{-1} x \\Rightarrow y=\\left(\\cos ^{-1} x\\right)^{2}$\r\nOn differentiating both sides w.r.t. $x$, we get\r\n$$\r\n\\frac{d y}{d x}=2\\left(\\cos ^{-1} x\\right) \\times \\frac{-1}{\\sqrt{1-x^{2}}}\r\n$$\r\nAgain, differentiating both sides w.r.t. $x$, we get\r\n$\\frac{d^{2} y}{d x^{2}}=-2\\left[\\begin{array}{c}\\sqrt{1-x^{2}} \\times \\frac{-1}{\\sqrt{1-x^{2}}} \\\\ -\\cos ^{-1} x \\times\\left(\\frac{1}{2}\\right) \\frac{(-2 x)}{\\left(1-x^{2}\\right)^{1 / 2}} \\\\ \\hline\\left(\\sqrt{1-x^{2}}\\right)^{2}\\end{array} \\right ].$\r\n$=-2\\left[\\frac{-1+\\frac{x \\cos ^{-1} x}{\\left(1-x^{2}\\right)^{1 / 2}}}{\\left(1-x^{2}\\right)}\\right]$\r\n$\\frac{d^{2} y}{d x^{2}}=\\left[\\frac{2-\\frac{2 x \\cos ^{-1} x}{\\left(1-x^{2}\\right)^{1 / 2}}}{\\left(1-x^{2}\\right)}\\right]$\r\n$\\Rightarrow \\quad\\left(1-x^{2}\\right) \\frac{d^{2} y}{d x^{2}}=2+x \\frac{d y}{d x}$\r\n$\\Rightarrow \\quad\\left(1-x^{2}\\right) \\frac{d^{2} y}{d x^{2}}-x \\frac{d y}{d x}=2$\r\nBut, it is given\r\n$\\left(1-x^{2}\\right) \\frac{d^{2} y}{d x^{2}}-x \\frac{d y}{d x}=c$\r\n$\\therefore c=2$"
+  }
+}

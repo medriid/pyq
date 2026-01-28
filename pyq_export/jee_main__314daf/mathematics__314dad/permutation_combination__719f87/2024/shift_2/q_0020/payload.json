@@ -1,0 +1,24 @@
+{
+  "index": 20,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The number of integers, between 100 and 1000 having the sum of their digits equals to 14 , is _________"
+  },
+  "options": [],
+  "correct_answer": "70",
+  "solution": {
+    "text": "$\\mathrm{N}=\\mathrm{ab} \\mathrm{c}$ (i)\n$\\begin{aligned}\n& \\text { All distinct digits } \\\\\n& \\mathrm{a}+\\mathrm{b}+\\mathrm{c}=14 \\\\\n& \\mathrm{a} \\geq 1 \\\\\n& \\mathrm{~b}, \\mathrm{c} \\in\\{0 \\text { to } 9\\}\n\\end{aligned}$\n$\\begin{array}{lll} \nby hit \\& trial : & 8 cases \\\\\n(6,5,3) & (8,6,0) & (9,4,1) \\\\\n(7,6,1) & (8,5,1) & (9,3,2) \\\\\n(7,5,2) & (8,4,2) & \\\\\n(7,4,3) & (9,5,0) &\n\\end{array}$\n(ii) 2 same, 1 diff $\\quad a=b$;c\n$2 \\mathrm{a}+\\mathrm{c}=14$\nby values :\n$\\begin{aligned}\n& \\left.\\begin{array}{l}\n(3,8) \\\\\n(4,6) \\\\\n(5,4) \\\\\n(6,2) \\\\\n(7,0)\n\\end{array}\\right\\} \\frac{3 !}{2 !} \\times 5-1 \\\\\n& =14 \\text { cases }\n\\end{aligned}$\n(iii) all same :\n$\\begin{aligned}\n& \\begin{array}{l}\n3 a=14 \\\\\na=\\frac{14}{3} \\times \\text { rejected } \\\\\n0 \\text { cases }\n\\end{array}\n\\end{aligned}$\nHence, Total cases:\n$\\begin{aligned}\n& 8 \\times 3 !+2 \\times(4)+14 \\\\\n& =48+22 \\\\\n& =70\n\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If the system of equation<br/>$\\begin{aligned}<br/>& 2 x+\\lambda y+3 z=5 \\\\\n& 3 x+2 y-z=7 \\\\\n& 4 x+5 y+\\mu z=9<br/>\\end{aligned}$<br/>has infinitely many solutions, then $\\left(\\lambda^2+\\mu^2\\right)$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$22$",
+      "is_correct": false
+    },
+    {
+      "text": "$18$",
+      "is_correct": false
+    },
+    {
+      "text": "$26$",
+      "is_correct": true
+    },
+    {
+      "text": "$30$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\Delta=0 \\Rightarrow\\left|\\begin{array}{ccc}2 & \\lambda & 3 \\\\ 3 & 2 & -1 \\\\ 4 & 5 & \\mu\\end{array}\\right|=0$<br/>$\\Rightarrow 2(2 \\mu+5)+\\lambda(-4-3 \\mu)+3(7)=0$<br/>$\\Rightarrow 4 \\mu-3 \\lambda \\mu-4 \\lambda+31=0$   ...(1)<br/>$\\begin{aligned}<br/>& \\Delta_3=0 \\Rightarrow\\left|\\begin{array}{lll}<br/>2 & \\lambda & 5 \\\\\n3 & 2 & 7 \\\\\n4 & 5 & 9<br/>\\end{array}\\right|=0 \\\\\n& \\Rightarrow 2(-17)+\\lambda(1)+5(7)=0 \\\\\n& \\Rightarrow \\lambda=-1<br/>\\end{aligned}$<br/>from equation (1)<br/>$4 \\mu+3 \\mu+4+31=0 \\Rightarrow \\mu=-5$<br/>$\\therefore \\lambda^2+\\mu^2=26$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=3 x^{10}-7\r\nx^{8}+5 x^{6}-21 x^{3}+3 x^{2}-7$\r\nThen $\\lim _{h \\rightarrow 0} \\frac{f(1-h)-f(1)}{h^{3}+3 h}$"
+  },
+  "options": [
+    {
+      "text": "does not exist",
+      "is_correct": false
+    },
+    {
+      "text": "is $\\frac{50}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "is $\\frac{53}{3}$",
+      "is_correct": true
+    },
+    {
+      "text": "is $\\frac{22}{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have, $f(x)=3 x^{10}-7 x^{8}+5 x^{6}-21 x^{3}+3 x^{2}-7$\r\n$\\therefore \\quad f(1-h)=3(1-h)^{10}-7(1-h)^{8}$\r\n$+5(1-h)^{6}-21\\left(1-h^{3}+3(1-h)^{2}-7\\right.$\r\n$=3\\left(1-10 h+45 h^{2}-120 h^{3}+\\ldots \\ldots+h^{10}\\right)$\r\n$-7\\left(1-8 h+28 h^{2}-56 h^{3}+\\ldots . .+h^{8}\\right)$\r\n$+5\\left(1-6 h+15 h^{2}-20 h^{3}+\\ldots . .+h^{6}\\right)$\r\n$-21\\left(1-3 h+3 h^{2}-h^{3}\\right)$\r\n$+3\\left(1-2 h+h^{2}\\right)-7$\r\n$\\Rightarrow f(1-h)=-24+53 h+h^{2}(-46)+h^{3}(-47)+\\ldots$\r\nand $\\quad f(1)=-24$\r\n$\\therefore \\quad \\lim _{h \\rightarrow 0} \\frac{f(1-h)-f(1)}{h^{3}+3 h}$\r\n$=\\lim _{h \\rightarrow 0} \\frac{-24+53 h+h^{2}(-46)+h^{3}(-47)+\\ldots-(-24)}{h\\left(h^{2}+3\\right)}$\r\n$=\\lim _{h \\rightarrow 0} \\frac{53 h+h^{2}(-46)+h^{3}(-47)+\\ldots}{h\\left(h^{2}+3\\right)}$\r\n$=\\lim _{h \\rightarrow 0} \\frac{53+h(-46)+h^{2}(-47)+\\ldots}{h^{2}+3}=\\frac{53}{3}$"
+  }
+}

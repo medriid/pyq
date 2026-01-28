@@ -1,0 +1,38 @@
+{
+  "_id": "66446727970e6e9ab542d0b0",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6b",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-05T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (05 Apr Shift 2)",
+      "title": "JEE Main 2024 (05 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $y=y(x)$ be the solution of the differential equation\n$\\frac{\\mathrm{d} y}{\\mathrm{~d} x}+\\frac{2 x}{\\left(1+x^2\\right)^2} y=x \\mathrm{e}^{\\frac{1}{\\left(1+x^2\\right)}} ; y(0)=0 .$<br />Then the area enclosed by the curve $f(x)=y(x) \\mathrm{e}^{-\\frac{1}{\\left(1+x^2\\right)}}$ and the line $y-x=4$ is__________",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "18",
+  "solution": {
+    "text": "$\\begin{aligned} & I F=e^{\\int \\frac{2 x}{\\left(1+x^2\\right)^2} d x}=e^{\\frac{-1}{1+x^2}} \\\\ & y \\cdot e^{\\frac{-1}{1+x^2}}=\\int x \\cdot e^{\\frac{1}{1+x^2}} \\cdot e^{\\frac{-1}{1+x^2} d x} \\\\ & y \\cdot e^{\\frac{-1}{1+x^2}}=\\frac{x^2}{2}+c \\\\ & (0,0) \\Rightarrow C=0 \\\\ & y(x)=\\frac{x^2}{2} e^{\\frac{1}{1+x^2}} \\\\ & f(x)=\\frac{x^2}{2}\\end{aligned}$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/TCQQkoBtJmbqKsrrVBHqnnMXLYJnuZgXOleXKg1W230.original.fullsize.png\"><br />$A=\\int_{-2}^4(x+4)-\\frac{x^2}{2} d x=18$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda6b",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-05T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (05 Apr Shift 2)",
+    "title": "JEE Main 2024 (05 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

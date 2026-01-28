@@ -1,0 +1,43 @@
+{
+  "index": 182,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The system of equations\n$$\n\\begin{aligned}\n& \\alpha x+y+z=\\alpha-1 \\\\\n& x+\\alpha y+z=\\alpha-1 \\\\\n& x+y+\\alpha z=\\alpha-1\n\\end{aligned}\n$$\nhas no solution, if $\\alpha$ is"
+  },
+  "options": [
+    {
+      "text": "\n$-2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\neither $-2$ or 1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nnot -2\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\alpha x+y+z=\\alpha-1 \\\\\n& x+\\alpha y+z=\\alpha-1 \\\\\n& x+y+z \\alpha=\\alpha-1 \\\\\n& \\Delta=\\left|\\begin{array}{ccc}\n\\alpha & 1 & 1 \\\\\n1 & \\alpha & 1 \\\\\n1 & 1 & \\alpha\n\\end{array}\\right| \\\\\n& =\\alpha\\left(\\alpha^2-1\\right)-1(\\alpha-1)+1(1-\\alpha) \\\\\n& =\\alpha(\\alpha-1)(\\alpha+1)-1(\\alpha-1)-1(\\alpha-1) \\\\\n& \\Rightarrow(\\alpha-1)\\left[\\alpha^2+\\alpha-1-1\\right]=0 \\\\\n& \\Rightarrow(\\alpha-1)\\left[\\alpha^2+\\alpha-2\\right]=0 \\\\\n& {\\left[\\alpha^2+2 \\alpha-\\alpha-2\\right]=0} \\\\\n& (\\alpha-1)[\\alpha(\\alpha+2)-1(\\alpha+2)]=0 \\\\\n& (\\alpha-1)=0, \\alpha+2=0 \\Rightarrow \\alpha=-2,1 ; \\text { but } \\alpha \\neq 1\n\\end{aligned}\n$$"
+  }
+}

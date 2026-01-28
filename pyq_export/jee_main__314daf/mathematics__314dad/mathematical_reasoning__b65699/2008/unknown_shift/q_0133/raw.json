@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d65875",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c8",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2008-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008",
+      "title": "JEE Main 2008"
+    }
+  ],
+  "question": {
+    "text": "The statement $p \\rightarrow(q \\rightarrow p)$ is equivalent to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "5lhug",
+      "text": "\n$p \\rightarrow(p \\rightarrow q)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "V3pSb",
+      "text": "\n$p \\rightarrow(p \\vee q)$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "dHoLr",
+      "text": "\n$p \\rightarrow(p \\wedge q)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "pS9e7",
+      "text": "\n$p \\rightarrow(p \\leftrightarrow q)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& p \\rightarrow(q \\rightarrow p)=\\sim p \\vee(q \\rightarrow p) \\\\\n& =\\sim p \\vee(\\sim q \\vee p) \\quad \\text { since } p \\vee \\sim p \\text { is always true } \\\\\n& =\\sim p \\vee p \\vee q=p \\rightarrow(p \\vee q) .\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c8",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2008-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008",
+    "title": "JEE Main 2008"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,24 @@
+{
+  "index": 72,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025504cf9be5ae1d05d10",
+    "chapter_name": "Matrices",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If <math><msub><mrow><mi>A</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>,</mo><mi></mi><msub><mrow><mi>A</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>,</mo><mi></mi><msub><mrow><mi>A</mi></mrow><mrow><mn>3</mn></mrow></msub><mo>…</mo><mo>…</mo><mo>.</mo><msub><mrow><mi>A</mi></mrow><mrow><mn>20</mn></mrow></msub></math> are <math><mn>20</mn></math> skew-symmetric matrices of same order and <math><mi>B</mi><mo>=</mo><mrow><msubsup><mo stretchy=\"false\">∑</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mrow><mn>20</mn></mrow></msubsup><mrow><mn>2</mn><mi>r</mi></mrow></mrow><msup><mrow><mfenced separators=\"|\"><mrow><msub><mrow><mi>A</mi></mrow><mrow><mi>r</mi></mrow></msub></mrow></mfenced></mrow><mrow><mfenced separators=\"|\"><mrow><mn>2</mn><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></msup></math>, then the sum of the principal diagonal elements of matrix&nbsp;<math><mi>B</mi></math> is equal to"
+  },
+  "options": [],
+  "correct_answer": "0",
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mi>A</mi><mn>1</mn><mi>T</mi></msubsup><mo>=</mo><mo>-</mo><msub><mi>A</mi><mn>1</mn></msub><mo>,</mo><mo>&#160;</mo><msubsup><mi>A</mi><mn>2</mn><mi>T</mi></msubsup><mo>=</mo><mo>-</mo><msub><mi>A</mi><mn>2</mn></msub><mo>,</mo><mo>&#160;</mo><mo>&#8230;</mo><mo>.</mo><mo>.</mo><mo>,</mo><mo>&#160;</mo><msubsup><mi>A</mi><mn>20</mn><mi>T</mi></msubsup><mo>=</mo><mo>-</mo><msub><mi>A</mi><mn>20</mn></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mn>20</mn></munderover><mn>2</mn><mi>r</mi><msup><mfenced separators=\"|\"><msub><mi>A</mi><mi>r</mi></msub></mfenced><mrow><mn>2</mn><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msup></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>B</mi><mi>T</mi></msup><mo>=</mo><msup><mfenced separators=\"|\"><mrow><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mn>20</mn></munderover><mn>2</mn><mi>r</mi><msup><mfenced separators=\"|\"><msub><mi>A</mi><mi>r</mi></msub></mfenced><mrow><mn>2</mn><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msup></mrow></mfenced><mi>T</mi></msup><mspace linebreak=\"newline\"/><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mn>20</mn></munderover><mn>2</mn><mi>r</mi><msup><mfenced separators=\"|\"><msubsup><mi>A</mi><mi>r</mi><mi>T</mi></msubsup></mfenced><mrow><mn>2</mn><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msup></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mn>20</mn></munderover><mn>2</mn><mi>r</mi><msup><mfenced separators=\"|\"><mrow><mo>-</mo><msub><mi>A</mi><mi>r</mi></msub></mrow></mfenced><mrow><mn>2</mn><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msup><mspace linebreak=\"newline\"/><mo>=</mo><mo>-</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mn>20</mn></munderover><mn>2</mn><mi>r</mi><msup><mfenced separators=\"|\"><msub><mi>A</mi><mi>r</mi></msub></mfenced><mrow><mn>2</mn><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><mi>B</mi></math><br /><math><mo>&#8658;</mo><mi>B</mi></math> is skew-symmetric</p><p>Hence, the sum of principal diagonal elements&nbsp;of <math><mi>B</mi><mo>=</mo><mn>0</mn></math></p>"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2011 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "616023a33a2c0cd9077c077e",
+    "chapter_name": "Units and Dimensions",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nA dense collection of equal number of electrons and positive ions is called neutral plasma. Certain solids containing fixed positive ions surrounded by free electrons can be treated as neutral plasma. Let $N$ be the number density of free electrons, each of mass $m$. When the electrons are subjected to an electric field, they are displaced relatively away from the heavy positive ions.If the electric field becomes zero, the electrons being to oscillate about the positive ions with a natural angular frequency $\\omega_p$, which is called the plasma frequency. To sustain the oscillations, a time varying electric field needs to be applied that has an angular frequency $\\omega$, where a part of the energy is absorbed and a part of it is reflected. As $\\omega$ approaches $\\omega_p$, all the free electrons are set to resonance together and all the energy is reflected. This is the explanation of high reflectivity of metals.<strong>Question:</strong>\nTaking the electronic charge as $e$ and the permittivity as $\\varepsilon_0$, use dimensional analysis to determine the correct expression for $\\omega_p$."
+  },
+  "options": [
+    {
+      "text": "\n$\\sqrt{\\frac{N e}{m \\varepsilon_0}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\sqrt{\\frac{m \\varepsilon_0}{N e}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\sqrt{\\frac{N e^2}{m \\varepsilon_0}}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\sqrt{\\frac{m \\varepsilon_0}{N e^2}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$N=$ Number of electrons per unit volume\n$$\n\\begin{aligned}\n\\therefore \\quad[N] & =\\left[\\mathrm{L}^{-3}\\right],[e]=[q] \\\\\n& =[I t]=[\\mathrm{AT}] \\\\\n{\\left[\\varepsilon_0\\right] } & =\\left[\\mathrm{M}^{-1} \\mathrm{~L}^{-3} \\mathrm{~T}^4 \\mathrm{~A}^2\\right]\n\\end{aligned}\n$$\nSubstituting the dimensions, we can see that,\n$$\n\\left.\\sqrt{\\frac{N e^2}{m \\varepsilon_0}}\\right]=\\left[\\mathrm{T}^{-1}\\right]\n$$\nAngular frequency has also the dimension $\\left[\\mathrm{T}^{-1}\\right]$.\n$\\therefore$ Correct option is (c).\nAnalysis of Question\n(i) From calculation point of view, question is moderately difficult. Otherwise it is simple.\n(ii) Students may commit a mistake in the dimensions of $N$. It is not dimensionless."
+  }
+}

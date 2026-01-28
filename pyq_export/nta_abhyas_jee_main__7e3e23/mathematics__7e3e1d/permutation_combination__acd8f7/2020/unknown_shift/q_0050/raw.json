@@ -1,0 +1,61 @@
+{
+  "_id": "6151e86377725ea2dbb5c8e7",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "65",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "There are <math><mn>7</mn></math> distinguishable rings. The number of possible five-rings arrangements on the four fingers (except the thumb) of one hand (the order of the rings on each finger is to be counted and it is not required that each finger has a ring) is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "PAOS6",
+      "text": "<math><mn>214110</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "A8w5O",
+      "text": "<math><mn>211410</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "oTmvg",
+      "text": "<math><mn>124110</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "F1Mwt",
+      "text": "<math><mn>141120</mn></math>",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "There are <math><msub><mrow><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>7</mn></mrow></msup><mi mathvariant=\"normal\">C</mi></mrow><mrow><mn>5</mn></mrow></msub></math> ways of selecting the rings to be worn.<br />If <math><mi mathvariant=\"normal\">a</mi><mo>,</mo><mi mathvariant=\"normal\"></mi><mi mathvariant=\"normal\">b</mi><mo>,</mo><mi mathvariant=\"normal\"></mi><mi mathvariant=\"normal\">c</mi><mo>,</mo><mi mathvariant=\"normal\"></mi><mi mathvariant=\"normal\">d</mi></math> are the number of the rings on the fingers, we need to find the non-negative integers such that <math><mi mathvariant=\"normal\">a</mi><mo>+</mo><mi mathvariant=\"normal\">b</mi><mo>+</mo><mi mathvariant=\"normal\">c</mi><mo>+</mo><mi mathvariant=\"normal\">d</mi><mo>=</mo><mn>5</mn><mo>.</mo></math>&nbsp;<br />The numbers of such quadruples is <math><msub><mrow><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>5</mn><mo>+</mo><mn>4</mn><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"normal\">C</mi></mrow><mrow><mn>4</mn><mo>-</mo><mn>1</mn></mrow></msub><msup><mrow><mo>=</mo></mrow><mrow><mn>8</mn></mrow></msup><mi mathvariant=\"normal\">C</mi><msub><mrow></mrow><mrow><mn>3</mn></mrow></msub></math>.<br />For each set of <math><mn>5</mn></math> rings, there are <math><mn>5</mn><mo>!</mo></math> arrangements.<br />So, the total number of required arrangements is <math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>7</mn></mrow></msup><msub><mrow><mi mathvariant=\"normal\">C</mi></mrow><mrow><mn>5</mn></mrow></msub><mo>×</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>8</mn></mrow></msup><msub><mrow><mi mathvariant=\"normal\">C</mi></mrow><mrow><mn>3</mn></mrow></msub><mo>×</mo><mn>5</mn><mo>!</mo><mo>=</mo><mn>141120</mn></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

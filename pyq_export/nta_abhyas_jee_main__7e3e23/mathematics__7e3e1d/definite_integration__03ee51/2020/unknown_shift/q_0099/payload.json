@@ -1,0 +1,43 @@
+{
+  "index": 99,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256482b554b07303ee51",
+    "chapter_name": "Definite Integration",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of the integral <math> <mrow> <mstyle> <mrow><munderover> <mo>∫</mo> <mrow> <mo>−</mo><mi>a</mi> </mrow> <mi>a</mi> </munderover> <mrow> <mfrac> <mrow> <msup> <mi>e</mi> <mi>x</mi> </msup> </mrow> <mrow> <mn>1</mn><mo>+</mo><msup> <mi>e</mi> <mi>x</mi> </msup> </mrow> </mfrac> <mi>d</mi><mi>x</mi></mrow></mrow></mstyle></mrow></math> is"
+  },
+  "options": [
+    {
+      "text": "<math><msup><mrow><msup><mrow><mi>e</mi></mrow><mrow><mi>a</mi></mrow></msup></mrow><mrow><mn>2</mn></mrow></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>a</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><msup><mrow><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mi>a</mi></mrow></msup></mrow><mrow><mn>2</mn></mrow></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mi>a</mi></mrow><mrow><mn>2</mn></mrow></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<math> <mrow> <munderover> <mstyle><mo>∫</mo></mstyle> <mrow> <mo>−</mo><mi>a</mi></mrow> <mi>a</mi> </munderover> <mfrac> <mrow> <msup> <mi>e</mi> <mi>x</mi> </msup> </mrow> <mrow> <mn>1</mn><mo>+</mo><msup> <mi>e</mi> <mi>x</mi> </msup> </mrow> </mfrac> <mi>d</mi><mi>x</mi><mtext>​</mtext><mtext> </mtext><mo>=</mo><mtext> </mtext><munderover> <mstyle><mo>∫</mo></mstyle> <mn>0</mn> <mi>a</mi> </munderover> <mfenced> <mrow> <mfrac> <mrow> <msup> <mi>e</mi> <mi>x</mi> </msup> </mrow> <mrow> <mn>1</mn><mo>+</mo><msup> <mi>e</mi> <mi>x</mi> </msup> </mrow> </mfrac> <mo>+</mo><mfrac> <mrow> <msup> <mi>e</mi> <mrow> <mo>−</mo><mi>x</mi></mrow> </msup> </mrow> <mrow> <mn>1</mn><mo>+</mo><msup> <mi>e</mi> <mrow> <mo>−</mo><mi>x</mi></mrow> </msup> </mrow> </mfrac> </mrow> </mfenced><mi>d</mi><mi>x</mi></mrow> </math> <math> <mrow> <mfenced> <mrow> <mo>∵</mo><munderover> <mstyle><mo>∫</mo></mstyle> <mrow> <mo>−</mo><mi>a</mi></mrow> <mi>a</mi> </munderover> <mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mtext> </mtext><mi>d</mi><mi>x</mi><mo>=</mo><mtext> </mtext><munderover> <mstyle><mo>∫</mo></mstyle> <mn>0</mn> <mi>a</mi> </munderover> <mfenced> <mrow> <mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mtext> </mtext><mo>+</mo><mtext> </mtext><mi>f</mi><mo stretchy=\"false\">(</mo><mo>−</mo><mi>x</mi><mo stretchy=\"false\">)</mo></mrow> </mfenced><mtext> </mtext><mi>d</mi><mi>x</mi></mrow> </mfenced></mrow> </math><br /><br /><math> <mrow> <mo>=</mo><mtext> </mtext><munderover> <mstyle><mo>∫</mo></mstyle> <mn>0</mn> <mi>a</mi> </munderover> <mfenced> <mrow> <mfrac> <mrow> <msup> <mi>e</mi> <mi>x</mi> </msup> </mrow> <mrow> <mn>1</mn><mo>+</mo><msup> <mi>e</mi> <mi>x</mi> </msup> </mrow> </mfrac> <mo>+</mo><mfrac> <mn>1</mn> <mrow> <mn>1</mn><mo>+</mo><msup> <mi>e</mi> <mi>x</mi> </msup> </mrow> </mfrac> </mrow> </mfenced><mtext> </mtext><mi>d</mi><mi>x</mi></mrow> </math><br /><br /><math> <mrow> <mo>=</mo><mtext> </mtext><munderover> <mstyle><mo>∫</mo></mstyle> <mn>0</mn> <mi>a</mi> </munderover> <mi>d</mi><mi>x</mi><mo>=</mo><mi>a</mi></mrow> </math>"
+  }
+}

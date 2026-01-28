@@ -1,0 +1,61 @@
+{
+  "_id": "6151e86302ace513cab0ae1a",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "91",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "Let <math><msub><mrow><mi>a</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>=</mo><mn>16</mn><mo>,</mo><mi></mi><mn>4</mn><mo>,</mo><mi></mi><mn>1</mn><mo>,</mo><mi></mi><mo>…</mo><mo>…</mo></math> be a geometric sequence. The value of <math><mrow><munderover><mo stretchy=\"true\">∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>∞</mi></mrow></munderover><mrow><mroot><mrow><msub><mrow><mi>P</mi></mrow><mrow><mi>n</mi></mrow></msub></mrow><mrow><mi>n</mi></mrow></mroot></mrow></mrow><mo>,</mo></math> where <math><msub><mrow><mi>P</mi></mrow><mrow><mi>n</mi></mrow></msub></math> is the product of the first <math><mi>n</mi></math> terms, is equal to.",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "xL7uG",
+      "text": "<math><mn>8</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "HaxmB",
+      "text": "<math><mn>16</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "S74kE",
+      "text": "<math><mn>32</mn></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "27njN",
+      "text": "<math><mn>64</mn></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "For the G.P. <math><mi>a</mi><mo>,</mo><mi></mi><mi>a</mi><mi>r</mi><mo>,</mo><mi></mi><mi>a</mi><msup><mrow><mi>r</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>,</mo><mo>…</mo><mo>…</mo><mo>…</mo></math><br /><math><msub><mrow><mi>P</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>=</mo><mi>a</mi><mfenced separators=\"|\"><mrow><mi>a</mi><mi>r</mi></mrow></mfenced><mfenced separators=\"|\"><mrow><mi>a</mi><msup><mrow><mi>r</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfenced><mo>…</mo><mo>.</mo><mo>.</mo><mfenced separators=\"|\"><mrow><mi>a</mi><msup><mrow><mi>r</mi></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow></mfenced></math><br /><math><mo>=</mo><msup><mrow><mi>a</mi></mrow><mrow><mi>n</mi></mrow></msup><msup><mrow><mi>r</mi></mrow><mrow><mfrac><mrow><mi>n</mi><mfenced separators=\"|\"><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></msup></math><br /><math><mo>⇒</mo><mroot><mrow><msub><mrow><mi>P</mi></mrow><mrow><mi>n</mi></mrow></msub></mrow><mrow><mi>n</mi></mrow></mroot><mo>=</mo><mi>a</mi><msup><mrow><mi>r</mi></mrow><mrow><mfenced separators=\"|\"><mrow><mfrac><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mfenced></mrow></msup></math><br /><math><mo>⇒</mo><mrow><munderover><mo stretchy=\"true\">∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>∞</mi></mrow></munderover><mrow><mroot><mrow><msub><mrow><mi>P</mi></mrow><mrow><mi>n</mi></mrow></msub></mrow><mrow><mi>n</mi></mrow></mroot></mrow></mrow><mo>=</mo><mi>a</mi><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mn>1</mn><mo>+</mo><msqrt><mi>r</mi></msqrt><mo>+</mo><mi>r</mi><mo>+</mo><mi>r</mi><msqrt><mi>r</mi></msqrt><mo>+</mo><mo>.</mo><mo>…</mo><mo>…</mo></mrow></mfenced></math><br /><math><mo>=</mo><mfrac><mrow><mi>a</mi></mrow><mrow><mn>1</mn><mo>-</mo><msqrt><mi>r</mi></msqrt></mrow></mfrac></math><br />Given, <math><mi>a</mi><mo>=</mo><mn>16</mn></math> and <math><mi>r</mi><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></math><br /><math><mo>=</mo><mfrac><mrow><mn>16</mn></mrow><mrow><mn>1</mn><mo>-</mo><msqrt><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></msqrt></mrow></mfrac><mo>=</mo><mn>32</mn></math><br />",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2020",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ccd1d619927718b113a",
+    "chapter_name": "Permutation Combination",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In a certain test, there are n questions. In this test $2^{n-i}$ students gave wrong answers to at least i questions, where i $=1,2, \\ldots \\ldots \\mathrm{n}$. If the total number of wrong answers given is 2047 , then $\\mathrm{n}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "10",
+      "is_correct": false
+    },
+    {
+      "text": "11",
+      "is_correct": true
+    },
+    {
+      "text": "12",
+      "is_correct": false
+    },
+    {
+      "text": "13",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Hint: \r\nTotal students was gave wrong answer to exactly i - questions $=2^{n-i}-2^{n-(i+1)}$\r\nTotal wrong answer given \\(\\sum_{i=0}^{n-1} i \\times \\left(2^{n-i}-2^{n-(i+1)}\\right)+n \\times 1\\)\r\n$\\Rightarrow 2^{n-1}+\\ldots \\ldots 1=2047$\r\n$\\Rightarrow 2^{n}=2048$\r\n$\\Rightarrow \\mathrm{n}=11$"
+  }
+}

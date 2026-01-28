@@ -1,0 +1,43 @@
+{
+  "index": 38,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256482b554b07303ee51",
+    "chapter_name": "Definite Integration",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">Ι</mi><mo>=</mo><munderover><mo>∫</mo><mn>0</mn><mrow><mn>24</mn><mi>π</mi></mrow></munderover><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mi>sin</mi><mo>⁡</mo><mi>x</mi></mrow></mfenced><mi>d</mi><mi>x</mi></math>, then the value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi mathvariant=\"normal\">I</mi></math>&nbsp;is equal to (where,&nbsp;<math><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mo>.</mo></mrow></mfenced></math> denotes the fractional part function)"
+  },
+  "options": [
+    {
+      "text": "<math><mn>10</mn><mi>π</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>24</mn><mi>π</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mn>12</mn><mi>π</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>4</mn><mi>π</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Applying&nbsp;<math><mfenced separators=\"|\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>-</mo><mi>x</mi></mrow></mfenced></math> property,<br /><math><mi mathvariant=\"normal\">Ι</mi><mo>=</mo><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>0</mn></mrow><mrow><mn>24</mn><mi>π</mi></mrow></munderover><mrow><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi><mfenced separators=\"|\"><mrow><mn>24</mn><mi>π</mi><mo>-</mo><mi>x</mi></mrow></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi></mrow></mrow></math><br /><math><mo>=</mo><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>0</mn></mrow><mrow><mn>24</mn><mi>π</mi></mrow></munderover><mrow><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mo>-</mo><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>⁡</mo><mrow><mi>x</mi></mrow></mrow></mrow></mfenced><mi>d</mi><mi>x</mi></mrow></mrow></math><br />Adding the two integrals, we get,&nbsp;<br /><math><mn>2</mn><mi mathvariant=\"normal\">Ι</mi><mo>=</mo><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mn>0</mn></mrow><mrow><mn>24</mn><mi>π</mi></mrow></munderover><mrow><mfenced separators=\"|\"><mrow><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>⁡</mo><mrow><mi>x</mi></mrow></mrow></mrow></mfenced><mo>+</mo><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mo>-</mo><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>⁡</mo><mrow><mi>x</mi></mrow></mrow></mrow></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi></mrow></mrow></math><br />Now,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\" separators=\"|\"><mi>α</mi></mfenced><mo>+</mo><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mo>-</mo><mi>α</mi></mrow></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\" separators=\"|\"><mtable columnalign=\"left\"><mtr><mtd><mn>0</mn><mo>;</mo></mtd><mtd><mi>α</mi><mo>∈</mo><mi mathvariant=\"normal\">Ι</mi></mtd></mtr><mtr><mtd><mn>1</mn><mo>;</mo></mtd><mtd><mi>α</mi><mo>∉</mo><mi mathvariant=\"normal\">Ι</mi></mtd></mtr></mtable></mfenced></math><br />As,&nbsp;<math><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>⁡</mo><mrow><mi>x</mi></mrow></mrow></math> takes integral values only at discrete points,<br />Hence,<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi mathvariant=\"normal\">Ι</mi><mo>=</mo><munderover><mrow><mo>∫</mo><mn>1</mn></mrow><mn>0</mn><mrow><mn>24</mn><mi>π</mi></mrow></munderover><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mfenced close=\"]\" open=\"[\" separators=\"|\"><mi>x</mi></mfenced><mn>0</mn><mrow><mn>24</mn><mi>π</mi></mrow></msubsup><mo>=</mo><mn>24</mn><mi>π</mi><mo>-</mo><mn>0</mn></math><br /><math><mo>=</mo><mn>24</mn><mi>π</mi></math>"
+  }
+}

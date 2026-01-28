@@ -1,0 +1,61 @@
+{
+  "_id": "6151e8635bc5796feba86093",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "55",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "If <math><mi>n</mi><mo>&#62;</mo><mn>2</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi><mo>,</mo><mi>&#946;</mi><mo>,</mo><mi>&#947;</mi><mo>&#8712;</mo><mi>R</mi></math>, then the value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mi>&#945;</mi><msub><mi>C</mi><mn>0</mn></msub><mo>-</mo><mfenced separators=\"|\"><mrow><mi>&#945;</mi><mo>+</mo><mi>&#946;</mi></mrow></mfenced><msub><mi>C</mi><mn>1</mn></msub></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>+</mo><mfenced separators=\"|\"><mrow><mi>&#945;</mi><mo>+</mo><mn>2</mn><mi>&#946;</mi><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup><mi>&#947;</mi></mrow></mfenced><msub><mi>C</mi><mn>2</mn></msub></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfenced separators=\"|\"><mrow><mi>&#945;</mi><mo>+</mo><mn>3</mn><mi>&#946;</mi><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mi>&#947;</mi></mrow></mfenced><msub><mi>C</mi><mn>3</mn></msub><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo></math> upto <math><mfenced separators=\"|\"><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></math> terms is equal to<br />\r(where,&nbsp;<math><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi></mrow></msub></math> denotes <math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi></mrow></msub></math>)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "cOLhX",
+      "text": "<math><mn>0</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "f10BC",
+      "text": "<math><msup><mrow><mn>2</mn></mrow><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></msup><mi>γ</mi></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "YftVp",
+      "text": "<math><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mn>2</mn></mrow><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></msup><mi>γ</mi></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "qJzVU",
+      "text": "<math><mi>n</mi><mi>γ</mi></math>",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mi>&#945;</mi><mfenced separators=\"|\"><mrow><msub><mi>C</mi><mn>0</mn></msub><mo>-</mo><msub><mi>C</mi><mn>1</mn></msub><mo>+</mo><msub><mi>C</mi><mn>2</mn></msub><mo>-</mo><msub><mi>C</mi><mn>3</mn></msub><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo></mrow></mfenced><mo>+</mo><mi>&#946;</mi><mfenced separators=\"|\"><mrow><mo>-</mo><msub><mi>C</mi><mn>1</mn></msub><mo>+</mo><mn>2</mn><msub><mi>C</mi><mn>2</mn></msub><mo>-</mo><mn>3</mn><msub><mi>C</mi><mn>3</mn></msub><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo></mrow></mfenced></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>+</mo><mi>&#947;</mi><mfenced separators=\"|\"><mrow><msup><mn>2</mn><mn>2</mn></msup><msub><mi>C</mi><mn>2</mn></msub><mo>-</mo><msup><mn>3</mn><mn>2</mn></msup><msub><mi>C</mi><mn>3</mn></msub><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo></mrow></mfenced></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>&#945;</mi><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi>n</mi></munderover><msup><mfenced separators=\"|\"><mrow><mo>-</mo><mn>1</mn></mrow></mfenced><mi>k</mi></msup><mfenced><msub><mi>C</mi><mi>k</mi></msub></mfenced><mo>+</mo><mi>&#946;</mi><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><mfenced separators=\"|\"><mrow><mo>-</mo><mn>1</mn></mrow></mfenced><mi>k</mi></msup><mfenced><mrow><mi>k</mi><msub><mi>C</mi><mi>k</mi></msub></mrow></mfenced><mo>+</mo><mi>&#947;</mi><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>2</mn></mrow><mi>n</mi></munderover><msup><mfenced separators=\"|\"><mrow><mo>-</mo><mn>1</mn></mrow></mfenced><mi>k</mi></msup><mfenced separators=\"|\"><mrow><msup><mi>k</mi><mn>2</mn></msup><msub><mi>C</mi><mi>k</mi></msub></mrow></mfenced></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>But</mi><mo>,</mo><mo>&#160;</mo><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi>n</mi></munderover><msup><mfenced separators=\"|\"><mrow><mo>-</mo><mn>1</mn></mrow></mfenced><mi>k</mi></msup><msub><mi>C</mi><mi>k</mi></msub><mo>=</mo><mn>0</mn></math>,<br /><math><msub><mrow><mfenced close=\"|\" open=\"\" separators=\"|\"><mrow><mrow><munderover><mo stretchy=\"false\">&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></munderover><mrow><msup><mrow><mfenced separators=\"|\"><mrow><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mrow><mi>k</mi></mrow></msup><mi>k</mi><msub><mrow><mi>C</mi></mrow><mrow><mi>k</mi></mrow></msub><mo>=</mo><mfrac><mrow><mi>d</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced></mrow><mrow><mi>n</mi></mrow></msup></mrow></mrow></mrow></mfenced></mrow><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></msub><mo>=</mo><mn>0</mn></math><br />and <math><mrow><munderover><mo stretchy=\"false\">&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>2</mn></mrow><mrow><mi>n</mi></mrow></munderover><mrow><msup><mrow><mfenced separators=\"|\"><mrow><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mrow><mi>k</mi></mrow></msup><msup><mrow><mi>k</mi></mrow><mrow><mn>2</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>k</mi></mrow></msub></mrow></mrow><mo>=</mo><mrow><munderover><mo stretchy=\"false\">&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>2</mn></mrow><mrow><mi>n</mi></mrow></munderover><mrow><msup><mrow><mfenced separators=\"|\"><mrow><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mrow><mi>k</mi></mrow></msup><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mi>k</mi><mfenced separators=\"|\"><mrow><mi>k</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mi>k</mi></mrow></mfenced><msub><mrow><mi>C</mi></mrow><mrow><mi>k</mi></mrow></msub></mrow></mrow></math><br /><math><mo>=</mo><mrow><munderover><mo stretchy=\"false\">&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>2</mn></mrow><mrow><mi>n</mi></mrow></munderover><mrow><msup><mrow><mfenced separators=\"|\"><mrow><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mrow><mi>k</mi></mrow></msup><mi>k</mi><mfenced separators=\"|\"><mrow><mi>k</mi><mo>-</mo><mn>1</mn></mrow></mfenced><msub><mrow><mi>C</mi></mrow><mrow><mi>k</mi></mrow></msub><mo>+</mo></mrow></mrow><mrow><munderover><mo stretchy=\"false\">&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></munderover><mrow><msup><mrow><mfenced separators=\"|\"><mrow><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mrow><mi>k</mi></mrow></msup><mi>k</mi><msub><mrow><mi>C</mi></mrow><mrow><mi>k</mi></mrow></msub><mo>+</mo><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mrow></math><br /><math><mo>=</mo><mn>0</mn><mo>+</mo><mn>0</mn><mo>+</mo><mi>n</mi><mo>=</mo><mi>n</mi></math><br /><math><mo>&#8658;</mo><mi>S</mi><mo>=</mo><mi>&#945;</mi><mfenced separators=\"|\"><mrow><mn>0</mn></mrow></mfenced><mo>+</mo><mi>&#946;</mi><mfenced separators=\"|\"><mrow><mn>0</mn></mrow></mfenced><mo>+</mo><mi>&#947;</mi><mfenced separators=\"|\"><mrow><mi>n</mi></mrow></mfenced><mo>=</mo><mi>n</mi><mi>&#947;</mi></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0a7e939ac068d001ef",
+    "chapter_name": "Determinants",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=\\left|\\begin{array}{ccc}\\cos x & x & 1 \\\\ 2 \\sin x & x^3 & 2 x \\\\ \\tan x & x & 1\\end{array}\\right|$, then $\\lim _{x \\rightarrow 0} \\frac{f(x)}{x^2}=$"
+  },
+  "options": [
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "-2",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "-1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Hint :\n$\\begin{aligned}\n& f(x)=\\left(x^3-2 x^2\\right) \\cos x+\\tan x\\left(2 x^2-x^3\\right) \\\\\n& \\begin{aligned}\n\\lim _{x \\rightarrow 0} \\frac{f(x)}{x^2} & =\\lim _{x \\rightarrow 0}(x-2) \\cos x+\\tan x(2-x) \\\\\n& =-2\n\\end{aligned}\n\\end{aligned}$"
+  }
+}

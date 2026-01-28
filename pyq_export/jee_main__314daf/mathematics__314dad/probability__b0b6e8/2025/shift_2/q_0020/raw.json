@@ -1,0 +1,63 @@
+{
+  "_id": "67a2ee8dc8b73881fdaea0df",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d97609",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-22T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (22 Jan Shift 2)",
+      "title": "JEE Main 2025 (22 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If $A$ and $B$ are two events such that $P(A \\cap B)=0.1$, and $P(A \\mid B)$ and $P(B \\mid A)$ are the roots of the equation $12 x^2-7 x+1=0$, then the value of $\\frac{\\mathrm{P}(\\overline{\\mathrm{A}} \\cup \\overline{\\mathrm{B}})}{\\mathrm{P}(\\overline{\\mathrm{A}} \\cap \\overline{\\mathrm{B}})}$ is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "WTYya",
+      "text": "$\\frac{4}{3}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "OZKh4",
+      "text": "$\\frac{7}{4}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "L9qCN",
+      "text": "$\\frac{5}{3}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "XmlRr",
+      "text": "$\\frac{9}{4}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$P(A \\cap B)=0.1, P(A \\mid B)$ and $P(B \\mid A)$ are the roots of the equation $12 x^2-7 x+1=0$\n$\\begin{aligned}\n& \\Rightarrow \\quad P(A \\mid B) P(B \\mid A)=\\frac{1}{12} \\\\\n& \\Rightarrow \\quad \\frac{P(A \\cap B)}{P(B)} \\times \\frac{P(A \\cap B)}{P(A)}=\\frac{1}{12} \\\\\n& \\Rightarrow \\quad P(A) P(B)=12(0.1)^2 \\\\\n& =0.12\n\\end{aligned}$\n\nAlso, $P(A \\mid B)+P(B \\mid A)=\\frac{7}{12}$\n$\\begin{aligned}\n\\Rightarrow & P(A \\cap B)\\left(\\frac{1}{P(B)}+\\frac{1}{P(A)}\\right)=\\frac{7}{12} \\\\\n\\Rightarrow & P(A)+P(B)=\\frac{7}{12} \\times \\frac{0.12}{0.1} \\\\\n\\Rightarrow & P(A)+P(B)=0.7 \\\\\n& \\frac{P(\\bar{A} \\cup \\bar{B})}{P(\\bar{A} \\cap \\bar{B})}=\\frac{P(\\overline{A \\cap B})}{P(\\overline{A U B})} \\\\\n& =\\frac{1-P(A \\cap B)}{1-P(A \\cup B)} \\\\\n& =\\frac{1-0.1}{1-(0.7-0.1)}=\\frac{0.9}{0.4}=\\frac{9}{4}\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d97609",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-22T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (22 Jan Shift 2)",
+    "title": "JEE Main 2025 (22 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

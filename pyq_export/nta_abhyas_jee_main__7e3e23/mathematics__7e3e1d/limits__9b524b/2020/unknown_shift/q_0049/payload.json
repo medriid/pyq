@@ -1,0 +1,24 @@
+{
+  "index": 49,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025440e7c3448e29b524b",
+    "chapter_name": "Limits",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><msup><mn>1</mn><mo>+</mo></msup></mrow></munder><mfrac><mrow><msubsup><mo>&#8747;</mo><mn>1</mn><mi>x</mi></msubsup><mfenced open=\"|\" close=\"|\" separators=\"|\"><mrow><mi>t</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mi>dt</mi></mrow><mrow><mi>sin</mi><mo>&#8289;</mo><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo></mrow></mrow></mfrac></math> is equal to"
+  },
+  "options": [],
+  "correct_answer": "0",
+  "solution": {
+    "text": "Given:<math> <mrow>  <munder>   <mrow>    <mi>lim</mi></mrow>   <mrow>    <mi>x</mi><mo>&#x2192;</mo><msup>     <mn>1</mn>     <mo>+</mo>    </msup>    </mrow>  </munder>  <mfrac>   <mrow>    <mstyle displaystyle='true'>     <mrow>      <msubsup>       <mo>&#x222B;</mo>       <mn>1</mn>       <mi>x</mi>      </msubsup>      <mrow>       <mo stretchy='false'>(</mo><mi>t</mi><mo>&#x2212;</mo><mn>1</mn><mo stretchy='false'>)</mo></mrow>     </mrow>         </mstyle><mi>d</mi><mi>t</mi></mrow>   <mrow>    <mi>sin</mi><mo stretchy='false'>(</mo><mi>x</mi><mo>&#x2212;</mo><mn>1</mn><mo stretchy='false'>)</mo></mrow>  </mfrac>  </mrow></math><br><br>Using L’Hospital’s rule and leibuitzrule,<br><br><math> <mi>l</mi><mo>=</mo><munder>  <mrow>   <mi>lim</mi></mrow>  <mrow>   <mi>x</mi><mo>&#x2192;</mo><msup>    <mn>1</mn>    <mo>+</mo>   </msup>   </mrow> </munder> <mfrac>  <mrow>   <mfrac>    <mi>d</mi>    <mrow>     <mi>d</mi><mi>x</mi></mrow>   </mfrac>   <mfenced>    <mrow>     <mstyle displaystyle='true'>      <mrow>       <msubsup>        <mo>&#x222B;</mo>        <mn>1</mn>        <mi>x</mi>       </msubsup>       <mrow>        <mo stretchy='false'>(</mo><mi>t</mi><mo>&#x2212;</mo><mn>1</mn><mo stretchy='false'>)</mo></mrow>      </mrow>           </mstyle><mi>d</mi><mi>t</mi></mrow>   </mfenced></mrow>  <mrow>   <mfrac>    <mi>d</mi>    <mrow>     <mi>d</mi><mi>x</mi></mrow>   </mfrac>   <mfenced>    <mrow>     <mi>sin</mi><mfenced>      <mrow>       <mi>x</mi><mo>&#x2212;</mo><mn>1</mn></mrow>     </mfenced></mrow>   </mfenced></mrow> </mfrac> </math><br><br><math> <munder>  <mrow>   <mi>lim</mi></mrow>  <mrow>   <mi>x</mi><mo>&#x2192;</mo><msup>    <mn>1</mn>    <mo>+</mo>   </msup>   </mrow> </munder> <mfrac>  <mrow>   <mfenced>    <mrow>     <mi>x</mi><mo>&#x2212;</mo><mn>1</mn></mrow>   </mfenced></mrow>  <mrow>   <mi>cos</mi><mfenced>    <mrow>     <mi>x</mi><mo>&#x2212;</mo><mn>1</mn></mrow>   </mfenced></mrow> </mfrac> <mo>=</mo><mfrac>  <mn>0</mn>  <mn>1</mn> </mfrac> <mo>=</mo><mn>0</mn></math>"
+  }
+}

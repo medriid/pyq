@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65a25",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7ce",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2012-05-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (12 May Online)",
+      "title": "JEE Main 2012 (12 May Online)"
+    }
+  ],
+  "question": {
+    "text": "Let $A$ and $B$ be real matrices of the form $\\left[\\begin{array}{ll}\\alpha & 0 \\\\ 0 & \\beta\\end{array}\\right]$ and $\\left[\\begin{array}{ll}0 & \\gamma \\\\ \\delta & 0\\end{array}\\right]$, respectively.\nStatement 1: $A B-B A$ is always an invertible matrix.\nStatement $2: A B-B A$ is never an identity matrix.",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Huruf",
+      "text": "\nStatement 1 is true, Statement 2 is false.\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "p1XQ9",
+      "text": "\nStatement 1 is false, Statement 2 is true.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "8RxVQ",
+      "text": "\nStatement 1 is true, Statement 2 is true; Statement 2 is a correct explanation of Statement 1 .\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "HEXk5",
+      "text": "\nStatement 1 is true, Statement 2 is true, Statement 2 is not a correct explanation of Statement 1.",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $A$ and $B$ be real matrices such that $A=\\left[\\begin{array}{ll}\\alpha & 0 \\\\ 0 & \\beta\\end{array}\\right]$ and $B=\\left[\\begin{array}{ll}0 & \\gamma \\\\ \\delta & 0\\end{array}\\right]$ Now, $A B=\\left[\\begin{array}{cc}0 & \\alpha \\gamma \\\\ \\beta \\delta & 0\\end{array}\\right]$ and $B A=\\left[\\begin{array}{cc}0 & \\gamma \\beta \\\\ \\delta \\alpha & 0\\end{array}\\right]$ Statement-1:\n$$\n\\begin{aligned}\n& \\left.A B-B A=\\left[\\begin{array}{cc}\n0 & \\gamma(\\alpha-\\beta \\\\\n\\delta(\\beta-\\alpha) & 0\n\\end{array}\\right]\\right) \\\\\n& |A B-B A|=\\left(\\alpha-\\beta^2\\right\\rangle \\delta \\neq 0\n\\end{aligned}\n$$\n$\\therefore A B-B A$ is always an invertible matrix. Hence, statement $-1$ is true. But $A B-B A$ can be identity matrix if $\\gamma=-\\delta$ or $\\delta=-\\gamma$ So, statement $-2$ is false.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7ce",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2012-05-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (12 May Online)",
+    "title": "JEE Main 2012 (12 May Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

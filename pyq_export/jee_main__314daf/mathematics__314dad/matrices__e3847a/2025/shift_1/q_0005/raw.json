@@ -1,0 +1,58 @@
+{
+  "_id": "68542c867c09d044e4c1a26f",
+  "type": "numerical",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2fe9d87935e0d809787",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-04T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (4 Apr Shift 1)",
+      "title": "JEE Main 2025 (4 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $A=\\left[\\begin{array}{ccc}\\cos \\theta & 0 & -\\sin \\theta \\\\ 0 & 1 & 0 \\\\ \\sin \\theta & 0 & \\cos \\theta\\end{array}\\right]$. If for some $\\theta \\in(0, \\pi)$, $A^2=A^T$, then the sum of the diagonal elements of the matrix $(\\mathrm{A}+\\mathrm{I})^3+(\\mathrm{A}-\\mathrm{I})^3-6 \\mathrm{~A}$ is equal to _____ .",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "6",
+  "solution": {
+    "text": "$\\because \\mathrm{A}$ is orthogonal matrix<br/>$\\begin{aligned}<br/>& \\therefore A^T=A^{-1} \\\\\n& \\Rightarrow A^2=A^{-1} \\left(\\because \\mathrm{A}^2=\\mathrm{A}^{\\mathrm{T}}\\right) \\\\\n& \\Rightarrow A^3=I \\\\\n& \\text { let } B=(A+I)^3+(A-I)^3-6 A \\\\\n& =2\\left(A^3+3 A\\right)-6 A \\\\\n& =2 A^3 \\\\\n& B=2 I=\\left[\\begin{array}{lll}<br/>2 & 0 & 0 \\\\\n0 & 2 & 0 \\\\\n0 & 0 & 2<br/>\\end{array}\\right]<br/>\\end{aligned}$<br/>Now sum of diagonal elements $=2+2+2=6$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "044fd4d6018b4b16ab9b19c2b9bfe900",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/sgVOUDvRJw7Ft.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/sgVOUDvRJw7Ft.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2fe9d87935e0d809787",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-04T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (4 Apr Shift 1)",
+    "title": "JEE Main 2025 (4 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

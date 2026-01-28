@@ -1,0 +1,43 @@
+{
+  "index": 42,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $\\lim _{n \\rightarrow \\infty} \\frac{(n !)^{n}}{\\frac{1}{n}}$ is"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{e^{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2 e} \\quad$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{e}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow \\infty} \\frac{(n !)^{1 / n}}{n}=\\lim _{n \\rightarrow-}\\left(\\frac{n !}{n^{n}}\\right)^{1 / n}$\r\nWe have, $\\frac{n !}{n^{n}}=\\frac{1 \\cdot 2 \\cdot 3}{n \\cdot n \\cdot n} \\frac{n}{n}$\r\n$\\therefore \\quad\\left\\{\\frac{n !}{n^{n}}\\right\\}^{1 / n}=\\left\\{\\frac{1}{n} \\cdot \\frac{2}{n} \\cdot \\frac{3}{n} \\cdots \\frac{r}{n} \\cdots \\frac{n}{n}\\right\\}^{1 / n}$\r\n$\\Rightarrow \\lim _{n \\rightarrow \\infty}\\left\\{\\frac{n !}{n^{n}}\\right\\}^{1 / n}=\\lim _{n \\rightarrow \\infty}\\left\\{\\frac{1}{n} \\cdot \\frac{2}{n} \\cdot \\frac{3}{n} \\cdots \\frac{r}{n} \\cdots \\frac{n}{n}\\right\\}^{1 / n}$\r\nLet $\\quad A=\\lim _{n \\rightarrow \\infty}\\left\\{\\frac{n !}{n^{n}}\\right\\}^{1 / n}$\r\nThen, $A=\\lim _{n \\rightarrow-}\\left\\{\\frac{1}{n} \\cdot \\frac{2}{n} \\cdot \\frac{3}{n} \\cdots \\frac{r}{n} \\cdots \\frac{n}{n}\\right\\}^{1 / n}$\r\n$\\begin{aligned} \\Rightarrow \\quad \\log A &=\\lim _{n \\rightarrow \\infty} \\frac{1}{n} \\Sigma \\log \\left(\\frac{r}{n}\\right)=\\int_{0}^{1} \\log x d x \\\\ &=\\left[x \\log x-\\int \\frac{1}{x} \\cdot x d x\\right]_{0}^{1} \\end{aligned}$\r\nIntegrating by parts $=[x \\log x-x]_{0}^{1}=-1$\r\n$\\Rightarrow \\quad A=e^{-1}=\\frac{1}{e}$"
+  }
+}

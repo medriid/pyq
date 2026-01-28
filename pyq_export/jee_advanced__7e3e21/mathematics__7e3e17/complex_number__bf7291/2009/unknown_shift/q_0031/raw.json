@@ -1,0 +1,63 @@
+{
+  "_id": "64b169f2f23ac7d519f9afeb",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c44",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009 (Paper 1)",
+      "title": "JEE Advanced 2009 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $z=\\cos \\theta+i \\sin \\theta$. Then, the value of $\\sum_{m=1}^{15} \\operatorname{Im}\\left(z^{2 m-1}\\right)$ at $\\theta=2^{\\circ}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "bi4vF",
+      "text": "\n$\\frac{1}{\\sin 2^{\\circ}}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "3GM4F",
+      "text": "\n$\\frac{1}{3 \\sin 2^{\\circ}}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "6lekl",
+      "text": "\n$\\frac{1}{2 \\sin 2^{\\circ}}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "kdLwy",
+      "text": "\n$\\frac{1}{4 \\sin 2^{\\circ}}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given that $z=\\cos \\theta+i \\sin \\theta=e^{i \\theta}$\n$$\n\\begin{aligned}\n\\therefore \\sum_{m=1}^{15} \\operatorname{Im}\\left(z^{2 m-1}\\right) & =\\sum_{m=1}^{15} \\operatorname{Im}\\left(e^{i \\theta}\\right)^{2 m-1}=\\sum_{m=1}^{15} \\operatorname{Im} e^{i(2 m-1) \\theta} \\\\\n& =\\sin \\theta+\\sin 3 \\theta+\\sin 5 \\theta+\\ldots+\\sin 29 \\theta \\\\\n& =\\frac{\\sin \\left(\\frac{\\theta+29 \\theta}{2}\\right) \\sin \\left(\\frac{15 \\times 2 \\theta}{2}\\right)}{\\sin \\left(\\frac{2 \\theta}{2}\\right)}=\\frac{\\sin (15 \\theta) \\sin (15 \\theta)}{\\sin \\theta}=\\frac{1}{4 \\sin 2^{\\circ}}\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c44",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009 (Paper 1)",
+    "title": "JEE Advanced 2009 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

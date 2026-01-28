@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2002",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252f1acb354d26301d66",
+    "chapter_name": "Mathematical Induction",
+    "year": "2002",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $a_n=\\sqrt{7+\\sqrt{7+\\sqrt{7+\\ldots .}}}$ having $\\mathrm{n}$ radical signs then by methods of mathematical induciton which is true"
+  },
+  "options": [
+    {
+      "text": "\n$a_n>7 \\forall n \\geq 1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{a}_{\\mathrm{n}}>7 \\forall \\mathrm{n} \\geq 1$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$a_n < 4 \\forall n \\geq 1$",
+      "is_correct": false
+    },
+    {
+      "text": "\n$a_n < 3 \\forall \\mathrm{n} \\geq 1$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\mathrm{a}_1=\\sqrt{7} < 7$. Leta $_{\\mathrm{m}} < 7$. Then $\\mathrm{a}_{\\mathrm{m}}+1=\\sqrt{7+\\mathrm{a}_{\\mathrm{m}}} \\Rightarrow \\mathrm{a}_{\\mathrm{m}+1}^2=7+\\mathrm{a}_{\\mathrm{m}} < 7+7 < 14$\n$\\Rightarrow \\mathrm{a}_{\\mathrm{m}+1} < \\sqrt{14} < 7 ;$ So $\\mathrm{a}_{\\mathrm{n}} < 7 \\forall \\mathrm{n} \\therefore \\mathrm{a}_{\\mathrm{n}}>3$"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "index": 26,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The greatest and least values of $f(x)=\\tan ^{-1} x-\\frac{1}{2} \\ln x$ on $\\left[\\frac{1}{\\sqrt{3}}, \\sqrt{3}\\right]$ are"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{f}_{\\min }=\\sqrt{3}-1$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{f}_{\\max }=\\pi / 6+\\frac{1}{4} \\ell \\mathrm{n} 3$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{f}_{\\min }=\\pi / 3-\\frac{1}{4} \\ell \\mathrm{n} 3$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{f}_{\\max }=\\pi / 12+\\ell \\mathrm{n} 5$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "C"
+  ],
+  "solution": {
+    "text": "$f(x)=\\tan ^{-1} x-1 / 2 \\ln x, x \\in[1 / \\sqrt{3}, \\sqrt{3}]$\r\n$f^{\\prime}(x)=\\frac{1}{1+x^{2}}-\\frac{1}{2 x}=\\frac{2 x-\\left(1+x^{2}\\right)}{2 x\\left(1+x^{2}\\right)}=\\frac{-(x-1)^{2}}{2 x\\left(1+x^{2}\\right)}$\r\nwhen $x>0, f^{\\prime}(x)     < 0$\r\n$f(x)$ is decreasing function.\r\n$\\begin{array}{l}\r\nf_{\\min }=f(\\sqrt{3})=\\tan ^{-1}(\\sqrt{3})-1 / 2 \\ln (\\sqrt{3})=\\pi / 3-\\frac{1}{4} \\ln 3 \\\\\r\nf_{\\max }=f(1 / \\sqrt{3})=\\pi / 6+1 / 4 \\ln 3\r\n\\end{array}$"
+  }
+}

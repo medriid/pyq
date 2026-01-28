@@ -1,0 +1,63 @@
+{
+  "_id": "64a81458e0ff5a5425a85ac4",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7e",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2019-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019",
+      "title": "WBJEE 2019"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $I_{n}=\\int_{0}^{1} x^{n} \\tan ^{-1} x d x .$ If $a_{n} I_{n+2}+b_{n} I_{n}=c_{n}$ for all $n \\geq 1,$ then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "l9zsA",
+      "text": "$a_{1}, a_{2}, a_{3}$ are in GP",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "eGQ8O",
+      "text": "$b_{1}, b_{2}, b_{3}$ are in AP",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "xYQNX",
+      "text": "$c_{1}, c_{2}, c_{3}$ are in HP",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "jRBES",
+      "text": "$a_{1}, a_{2}, a_{3}$ are in $A P$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have,\r\n$I_{n}=\\int_{0}^{1} x^{n} \\tan ^{-1} x d x$\r\n$=\\left[\\tan ^{-1} x \\cdot \\frac{x^{n+1}}{n+1}\\right]_{0}^{1}-\\int_{0}^{1} \\frac{x^{n+1}}{n+1} \\cdot \\frac{1}{1+x^{2}} d x$\r\n$=\\frac{\\pi}{4(n+1)}-\\frac{1}{n+1} \\int_{0}^{1} \\frac{x^{2} \\cdot x^{n-1}}{1+x^{2}} d x$\r\n$=\\frac{\\pi}{4(n+1)}-\\frac{1}{n+1} \\int_{0}^{1} \\frac{\\left(1+x^{2}\\right) x^{n-1}-x^{n-1}}{1+x^{2}} d x$\r\n$=\\frac{\\pi}{4(n+1)}-\\frac{1}{n+1} \\int_{0}^{1} x^{n-1} d x+\\frac{1}{n+1} \\int_{0}^{1} \\frac{x^{n-1}}{1+x^{2}} d x$\r\n$=\\frac{\\pi}{4(n+1)}-\\frac{1}{n+1}\\left[\\frac{x^{n}}{n}\\right]_{0}^{1}+\\frac{1}{n+1}$\r\n$\\left[x^{n-1} \\cdot \\tan ^{-1} x\\right]_{0}^{1}-\\int_{0}^{1} \\tan ^{-1} x \\cdot(n-1) x^{n-2} d x$\r\n$\\begin{aligned}=\\frac{\\pi}{4(n+1)}-\\frac{1}{n(n+1)}+\\frac{\\pi}{4(n+1)}-\\frac{n-1}{n+1} & \\int_{0}^{1} x^{n-2} \\tan ^{-1} x d x \\end{aligned}$\r\n$\\Rightarrow \\quad I_{n}=\\frac{\\pi}{2(n+1)}-\\frac{1}{n(n+1)}-\\frac{n-1}{n+2} I_{n-2}$\r\n$\\Rightarrow \\quad I_{n}+\\frac{n-1}{n+2} I_{n-2}=\\frac{\\pi}{2(n+1)}-\\frac{1}{n(n+1)}$\r\nPut $n=n+2,$ we get $I_{n+2}+\\frac{n+1}{n+3} I_{n}=\\frac{\\pi}{2(n+3)}-\\frac{1}{(n+2)(n+3)}$\r\n$\\Rightarrow(n+3) I_{n+2}+(n+1) I_{n}=\\frac{\\pi}{2}-\\frac{1}{n+2}$\r\n$\\therefore a_{n}=n+3, b_{n}=n+1, c_{n}=\\frac{\\pi}{2}-\\frac{1}{n+2}$\r\n$\\therefore a_{n}$ and $b_{n}$ are in $\\mathrm{AP}$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7e",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2019-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019",
+    "title": "WBJEE 2019"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

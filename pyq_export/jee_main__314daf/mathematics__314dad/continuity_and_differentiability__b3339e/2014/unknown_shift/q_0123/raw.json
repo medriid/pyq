@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e0b",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d8",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (11 Apr Online)",
+      "title": "JEE Main 2014 (11 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "Let $f(x)=x|x|, g(x)=\\sin x$ and $h(x)=(g \\circ f)(x)$. Then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "DuOkP",
+      "text": "\n$\\mathrm{h}(\\mathrm{x})$ is not differentiable at $\\mathrm{x}=0$.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Rv3z9",
+      "text": "\n$\\mathrm{h}(\\mathrm{x})$ is differentiable at $\\mathrm{x}=0$, but $\\mathrm{h}^{\\prime}(\\mathrm{x})$ is not continuous at $x=0$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "UU6so",
+      "text": "\n$\\mathrm{h}^{\\prime}(\\mathrm{x})$ is continuous at $\\mathrm{x}=0$ but it is not differentiable at $x=0$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "YsWKW",
+      "text": "\n$\\mathrm{h}^{\\prime}(\\mathrm{x})$ is differentiable at $\\mathrm{x}=0$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $f(x)=x|x|=x|x|, g(x)=\\sin x$ and $h(x)=g o f(x)=g[f(x)]$\n$$\n\\begin{aligned}\n&\\therefore h(x)= \\begin{cases}\\sin x^2, & x \\geq 0 \\\\\n-\\sin x^2, & x < 0\\end{cases} \\\\\n&\\text { Now, } h^{\\prime}(x)=\\left\\{\\begin{array}{cc}\n2 x \\cos x^2, & x \\geq 0 \\\\\n-2 x \\cos x^2, & x < 0\n\\end{array}\\right.\n\\end{aligned}\n$$\nSince, L.H.L and R.H.L at $x=0$ of $h^{\\prime}(x)$ is equal to 0 therefore $h^{\\prime}(x)$ is continuous at $x=0$\nNow, suppose $h^{\\prime}(x)$ is differentiable\n$$\n\\begin{aligned}\n&\\therefore h^{\\prime \\prime}(x) \\\\\n&= \\begin{cases}2\\left(\\cos x^2+2 x^2\\left(-\\sin x^2\\right),\\right. & x \\geq 0 \\\\\n2\\left(-\\cos x^2+2 x^2 \\sin x^2\\right), & x < 0\\end{cases}\n\\end{aligned}\n$$\nSince, L.H.L and R.H.L at $x=0$ of $h^{\\prime \\prime}(x)$ are different therefore $h^{\\prime \\prime}(x)$ is not continuous.\n$\\Rightarrow h^{\\prime \\prime}(x)$ is not differentiable\n$\\Rightarrow$ our assumption is wrong\nHence $h^{\\prime}(x)$ is not differentiable at $x=0$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d8",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (11 Apr Online)",
+    "title": "JEE Main 2014 (11 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

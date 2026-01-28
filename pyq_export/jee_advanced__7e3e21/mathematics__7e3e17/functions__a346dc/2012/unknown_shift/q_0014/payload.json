@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2012 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602556cd23bba7eaa346dc",
+    "chapter_name": "Functions",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The function $f:[0,3] \\rightarrow[1,29]$, defined by $f(x)=2 x^{3}-15 x^{2}+36 x+1$, is"
+  },
+  "options": [
+    {
+      "text": "one-one and onto",
+      "is_correct": false
+    },
+    {
+      "text": "onto but not one-one",
+      "is_correct": true
+    },
+    {
+      "text": "one-one but not onto",
+      "is_correct": false
+    },
+    {
+      "text": "neither one-one nor onto",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given : $f(x)=2 x^{3}-15 x^{2}+36 x+1$\r\n\r\n$\\Rightarrow f^{\\prime}(x)=6 x^{2}-30 x+36$\r\n\r\n$=6\\left(x^{2}-5 x+6\\right)=6(x-2)(x-3)$\r\n\r\n$\\because f^{\\prime}(x)>0 \\forall x \\in[0,2)$ and $f^{\\prime}(x) < 0 \\forall x \\in(2,3)$\r\n\r\n$\\therefore f(x)$ is increasing on $[0,2)$ and decreasing\r\n\r\non $(2,3)$\r\n\r\n$\\therefore \\quad f(x)$ is many one on $[0,3]$\r\n\r\nAlso $f(0)=1, f(2)=29, f(3)=28$\r\n\r\n$\\therefore \\quad$ Absolute min $=1$ and Absolute max $=29$\r\n\r\n$\\therefore \\quad$ Range of $f=[1,29]=$ codomain\r\n\r\nHence $f$ is onto."
+  }
+}

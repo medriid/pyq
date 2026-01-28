@@ -1,0 +1,45 @@
+{
+  "index": 13,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c89e2db387e83a2dc00",
+    "chapter_name": "Capacitance",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Half of the space between the plates of a parallel-plate capacitor is filled with a dielectric material of dielectric constant $K$. The remaining half contains air as shown in the figure. The capacitor is now given a charge $Q$. Then"
+  },
+  "options": [
+    {
+      "text": "electric field in the dielectric-filled region is higher than that in the air-filled region",
+      "is_correct": false
+    },
+    {
+      "text": "on the two halves of the bottom plate the charge densities are unequal",
+      "is_correct": true
+    },
+    {
+      "text": "charge on the half of the top plate above the air-filled part is $\\frac{Q}{K+1}$",
+      "is_correct": true
+    },
+    {
+      "text": "capacitance of the capacitor shown above is $(1+K) \\frac{C_{0}}{2},$ where $C_{0}$ is the capacitance of the same capacitor with the dielectric removed.",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "C",
+    "D"
+  ],
+  "solution": {
+    "text": "We know that\r\n$$\r\nC_{1}=\\frac{K \\varepsilon_{0} A}{2 d}, C_{2}=\\frac{\\varepsilon_{0} A}{2 d}\r\n$$\r\n$$\r\n\\begin{array}{ll}\r\n\\text { and } & C_{e q}=\\frac{\\varepsilon \\cdot A}{2 d}(K+1) \\\\\r\nC_{e q} & =\\frac{C_{0}}{2}(K+1) \\\\\r\n& \\frac{Q_{1}}{Q_{2}}=\\frac{C_{1}}{C_{2}}=\\frac{K}{1} \\\\\r\n\\Rightarrow & \\frac{\\sigma_{1}}{\\sigma_{2}}=\\frac{K}{1}\r\n\\end{array}\r\n$$\r\n$$\r\nQ_{1}=\\frac{K Q}{K+1} \\quad \\text { and } \\quad Q_{2}=\\frac{Q}{K+1}\r\n$$\r\nSo, $\\quad E=\\frac{\\sigma}{\\varepsilon_{0} K} \\Rightarrow \\frac{E_{1}}{E_{2}}=\\frac{\\sigma_{1}}{\\sigma_{2}} \\times \\frac{K_{1}}{1}$\r\n$$\r\n\\begin{array}{l}\r\n=\\frac{Q_{1}}{Q_{2}} \\times \\frac{K_{2}}{K_{1}}=\\frac{K}{1} \\times \\frac{1}{K} \\\\\r\n=1: 1\r\n\\end{array}\r\n$$\r\nSo, (b), (c) and (d) are correct options."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a16f23ac7d519f9b135",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c49",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2011-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011 (Paper 2)",
+      "title": "JEE Advanced 2011 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $f:[-1,2] \\rightarrow[0, \\infty)$ be a continuous function such that $f(x)=f(1-x)$ for all $x \\in[-1,2]$. Let $R_1=\\int_{-1}^2 x f(x) d x$ and $R_2$ be the area of the region bounded by $y=f(x), x=-1, x=2$ and the $X$-axis. Then,",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "DIkg2",
+      "text": "\n$R_1=2 R_2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "3jYLd",
+      "text": "\n$R_1=3 R_2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "zeA0A",
+      "text": "\n$2 R_1=R_2$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "9ZKgw",
+      "text": "\n$3 R_1=R_2$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Here, $R_1=\\int_{-1}^2 x f(x) d x$\nUsing, $\\quad \\int_a^b f(x) d x=\\int_a^b f(a+b-x) d x$\n$$\n\\begin{aligned}\n& R_1=\\int_{-1}^2(1-x) f(1-x) d x, \\\\\n\\therefore \\quad & \\left.R_1=\\int_{-1}^2(1-x) f(x) d x \\quad \\ldots(1-x)\\right]\n\\end{aligned}\n$$\nGiven, $R_2$ is area bounded by\n$$\n\\begin{aligned}\n& f(x), x-1 \\text { and } x=2 \\\\\n\\therefore & R_2=\\int_{-1}^2 f(x) d x\n\\end{aligned}\n$$\nAdding Eqs. (i) and (ii), we get\n$$\n2 R_1=\\int_{-1}^2 f(x) d x\n$$\n\n$\\therefore$ From Eqs. (iii) and (iv), we get\n$$\n2 R_1=R_2\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c49",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2011-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011 (Paper 2)",
+    "title": "JEE Advanced 2011 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

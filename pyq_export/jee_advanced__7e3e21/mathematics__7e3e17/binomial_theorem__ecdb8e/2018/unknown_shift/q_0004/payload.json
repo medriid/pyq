@@ -1,0 +1,24 @@
+{
+  "index": 4,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2018 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602532f7669a7344ecdb8e",
+    "chapter_name": "Binomial Theorem",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let <math><mi>X</mi><mo>=</mo><msup><mrow><mfenced separators=\"|\"><mrow><msup><mrow></mrow><mrow><mn>10</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>2</mn><msup><mrow><mfenced separators=\"|\"><mrow><msup><mrow></mrow><mrow><mn>10</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>3</mn><msup><mrow><mfenced separators=\"|\"><mrow><msup><mrow></mrow><mrow><mn>10</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>3</mn></mrow></msub></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mn>10</mn><msup><mrow><mfenced separators=\"|\"><mrow><msup><mrow></mrow><mrow><mn>10</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>10</mn></mrow></msub></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup></math> , where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow></mrow><mn>10</mn></msup><msub><mi>C</mi><mi>r</mi></msub><mo>,</mo><mi>&#160;</mi><mi>r</mi><mo>&#8712;</mo><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mn>1,2</mn><mo>,</mo><mo>&#8230;</mo><mo>.</mo><mo>,</mo><mn>10</mn></mrow></mfenced></math>&nbsp;denote binomial coefficients. Then, the value of <math><mfrac><mrow><mn>1</mn></mrow><mrow><mn>1430</mn></mrow></mfrac><mi>X</mi></math> is ______ ."
+  },
+  "options": [],
+  "correct_answer": "646",
+  "solution": {
+    "text": "<math><mi>X</mi><mo>=</mo><mrow><munderover><mo stretchy=\"false\">∑</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>n</mi></mrow></munderover><mrow><mi>r</mi><mo>.</mo></mrow></mrow><msup><mrow><mfenced separators=\"|\"><mrow><msup><mrow/><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi></mrow></msub></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup><mo>;</mo><mi>n</mi><mo>=</mo><mn>10</mn></math>  <br > <math><mi>X</mi><mo>=</mo><mi>n</mi><mo>.</mo><mrow><munderover><mo stretchy=\"false\">∑</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>n</mi></mrow></munderover><mrow><msup><mrow/><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi></mrow></msub></mrow></mrow><mo>.</mo><mi> </mi><mi> </mi><msup><mrow/><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow></msub></math>  <br > <math><mi>X</mi><mo>=</mo><mi>n</mi><mo>.</mo><mrow><munderover><mo stretchy=\"false\">∑</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></munderover><mrow><msup><mrow/><mrow><mi>n</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>n</mi><mo>-</mo><mi>r</mi></mrow></msub></mrow></mrow><mo>.</mo><mi> </mi><mi> </mi><msup><mrow/><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow></msub></math>  <br >  <math><mi>X</mi><mo>=</mo><mi>n</mi><mo>.</mo><mi> </mi><msup><mrow/><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub><mo>;</mo><mi>n</mi><mo>=</mo><mn>10</mn></math> <br > <math><mi>X</mi><mo>=</mo><mn>10</mn><mo>.</mo><mi> </mi><msup><mrow/><mrow><mn>19</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>9</mn></mrow></msub></math>  <br > <math><mfrac><mrow><mi>X</mi></mrow><mrow><mn>1430</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>143</mn></mrow></mfrac><mo>.</mo><msup><mrow/><mrow><mn>19</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>9</mn></mrow></msub></math>  <br > <math><mo>=</mo><mn>646</mn></math>"
+  }
+}

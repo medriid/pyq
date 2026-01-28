@@ -1,0 +1,43 @@
+{
+  "index": 38,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The limit of $\\sum_{n=1}^{1000}(-1)^{n} x^{n}$ as $x \\rightarrow \\infty$"
+  },
+  "options": [
+    {
+      "text": "does not exist",
+      "is_correct": false
+    },
+    {
+      "text": "exists and equals to 0",
+      "is_correct": false
+    },
+    {
+      "text": "exists and approaches to $+\\infty$",
+      "is_correct": true
+    },
+    {
+      "text": "exists and approaches $-\\infty$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow-} \\sum_{n=1}^{1000}(-1)^{n} x^{n}$\r\n$=\\lim _{x \\rightarrow-}\\left\\{-x+x^{2}-x^{3}+x^{4}+\\ldots+x^{1000}\\right\\}$\r\n$=\\lim _{x \\rightarrow \\infty}(-x) \\cdot\\left\\{\\frac{(-x)^{1000}-1}{(-x-1)}\\right\\}=\\lim _{x \\rightarrow-\\infty} \\frac{x^{1001}-x}{x+1}$\r\n$=\\lim _{x \\rightarrow-} \\frac{x^{1000}-1}{1+\\left(\\frac{1}{x}\\right)}=+\\infty$"
+  }
+}

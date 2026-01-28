@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If $\\quad y(x)=\\left|\\begin{array}{ccc}\\sin x & \\cos x & \\sin x+\\cos x+1 \\\\ 27 & 28 & 27 \\\\ 1 & 1 & 1\\end{array}\\right|, x \\in \\mathbb{R}$, then $\\frac{d^2 y}{d x^2}+y$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$-1$",
+      "is_correct": true
+    },
+    {
+      "text": "$28$",
+      "is_correct": false
+    },
+    {
+      "text": "$27$",
+      "is_correct": false
+    },
+    {
+      "text": "$1$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & C_3 \\rightarrow C_3-C_1 \\\\ & y(x)=\\left|\\begin{array}{ccc}\\sin x & \\cos x & 1+\\cos x \\\\ 27 & 28 & 0 \\\\ 1 & 1 & 0\\end{array}\\right| \\\\ & y(x)=-(1+\\cos x) \\\\ & \\frac{d y}{d x}=\\sin x \\\\ & \\frac{d^2 y}{d x^2}=\\cos x \\\\ & \\frac{d^2 y}{d x^2}+y=-1\\end{aligned}$"
+  }
+}

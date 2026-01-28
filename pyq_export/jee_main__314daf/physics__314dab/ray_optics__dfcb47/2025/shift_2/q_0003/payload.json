@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602437a04b762ba7dfcb47",
+    "chapter_name": "Ray Optics",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "A transparent block A having refractive index $\\mu=1.25$ is surrounded by another medium of refractive index $\\mu=1.0$ as shown in figure. A light ray is incident on the flat face of the block with incident angle $\\theta$ as shown in figure. What is the maximum value of $\\theta$ for which light suffers total internal reflection at the top surface of the block?<br/><img src=\"assets\\qt0003_e8c53f69d2b6.png\"/>"
+  },
+  "options": [
+    {
+      "text": "$\\tan ^{-1}(4 / 3)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\tan ^{-1}(3 / 4)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sin ^{-1}(3 / 4)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\cos ^{-1}(3 / 4)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0003_5a20ee49bc6a.png\"/><br/>$\\begin{aligned} & \\mathrm{r}+\\theta_{\\mathrm{C}}=90^{\\circ} \\\\ & \\mu_1 \\sin \\theta=\\mu_2 \\sin \\mathrm{r} \\\\ & \\sin \\theta=\\frac{\\mu_2}{\\mu_1} \\sin \\left(90-\\theta_{\\mathrm{C}}\\right) \\\\ & \\sin \\theta=\\frac{\\mu_2}{\\mu_1} \\cos \\theta_{\\mathrm{C}} \\\\ & \\sin \\theta_{\\mathrm{C}}=\\frac{\\mu_1}{\\mu_2}\\end{aligned}$<br/>$\\begin{aligned} & \\sin \\theta=\\frac{\\mu_2}{\\mu_1} \\sqrt{1-\\frac{\\mu_1^2}{\\mu_2^2}} \\\\ & \\sin \\theta=\\sqrt{\\frac{\\mu_2^2-\\mu_1^2}{\\mu_1^2}}=\\sqrt{\\frac{\\frac{25}{16}-1}{1}} \\\\ & \\sin \\theta=\\frac{3}{4} \\\\ & \\theta=\\sin ^{-1}\\left(\\frac{3}{4}\\right)\\end{aligned}$"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "67729bf3546ddd78415aaf38",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67729a70099eafe69352f9c1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024",
+      "title": "WBJEE 2024"
+    }
+  ],
+  "question": {
+    "text": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function defined by $f(x)=\\frac{e^{|x|}-e^{-x}}{e^x+e^{-x}}$, then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "HDAgk",
+      "text": "f is both one-one and onto",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "JHr7v",
+      "text": "f is one-one but not onto",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "3N6IP",
+      "text": "f is onto but not one-one",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "9Oeei",
+      "text": "f is neither one-one nor onto",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint: $f: \\mathbb{R} \\rightarrow \\mathbb{R}, f(x)=\\frac{e^{|x|}-e^{-x}}{e^x+e^{-x}}$\nCase I: If $x \\geq 0$\n$f(x)=\\frac{e^x-e^{-x}}{e^x+e^{-x}}=1-\\frac{2 e^{-x}}{e^x+e^{-x}}=1-\\frac{2}{e^{2 x}+1}\\gt-1$\nCase II: $x \\lt 0$\n$f(x)=\\frac{e^{-x}-e^{-x}}{e^x+e^{-x}}=0$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67729a70099eafe69352f9c1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024",
+    "title": "WBJEE 2024"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64b169d6f23ac7d519f9aeee",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1e77301f65c2f92c40",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2007-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2007 (Paper 1)",
+      "title": "JEE Advanced 2007 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $F(x)$ be an indefinite integral of $\\sin ^2 x$.\nStatement I The function $F(x)$ satisfies $F(x+\\pi)=F(x)$ for all real $x$.\nStatement II $\\sin ^2(x+\\pi)=\\sin ^2 x$ for all real $x$.",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "0vah1",
+      "text": "\nStatement I is true, Statement II is true; Statement II is a correct explanation for Statement I\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "nsjSY",
+      "text": "\nStatement I is true, Statement II is true; Statement II is not a correct explanation for Statement I.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "5A8sI",
+      "text": "\nStatement I is true, Statement II is false\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "kbskE",
+      "text": "\nStatement I is false, Statement II is true",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& F(x)=\\int \\sin ^2 x d x=\\int \\frac{1-\\cos 2 x}{2} d x \\\\\n& \\Rightarrow F(x)=\\frac{1}{4}(2 x-\\sin 2 x)+c\n\\end{aligned}\n$$\nSince, $F(x+\\pi) \\neq F(x)$.\nHence, Statement I is false.\nBut Statement II is true as $\\sin ^2 x$ is periodic with period $\\pi$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1e77301f65c2f92c40",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2007-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2007 (Paper 1)",
+    "title": "JEE Advanced 2007 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

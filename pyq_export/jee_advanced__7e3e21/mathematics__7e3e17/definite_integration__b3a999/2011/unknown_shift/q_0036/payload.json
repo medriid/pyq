@@ -1,0 +1,43 @@
+{
+  "index": 36,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2011 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602563f6918f74a3b3a999",
+    "chapter_name": "Definite Integration",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f:[-1,2] \\rightarrow[0, \\infty)$ be a continuous function such that $f(x)=f(1-x)$ for all $x \\in[-1,2]$. Let $R_1=\\int_{-1}^2 x f(x) d x$ and $R_2$ be the area of the region bounded by $y=f(x), x=-1, x=2$ and the $X$-axis. Then,"
+  },
+  "options": [
+    {
+      "text": "\n$R_1=2 R_2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$R_1=3 R_2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2 R_1=R_2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$3 R_1=R_2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Here, $R_1=\\int_{-1}^2 x f(x) d x$\nUsing, $\\quad \\int_a^b f(x) d x=\\int_a^b f(a+b-x) d x$\n$$\n\\begin{aligned}\n& R_1=\\int_{-1}^2(1-x) f(1-x) d x, \\\\\n\\therefore \\quad & \\left.R_1=\\int_{-1}^2(1-x) f(x) d x \\quad \\ldots(1-x)\\right]\n\\end{aligned}\n$$\nGiven, $R_2$ is area bounded by\n$$\n\\begin{aligned}\n& f(x), x-1 \\text { and } x=2 \\\\\n\\therefore & R_2=\\int_{-1}^2 f(x) d x\n\\end{aligned}\n$$\nAdding Eqs. (i) and (ii), we get\n$$\n2 R_1=\\int_{-1}^2 f(x) d x\n$$\n\n$\\therefore$ From Eqs. (iii) and (iv), we get\n$$\n2 R_1=R_2\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2023 (29 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254533dd7c0008b65699",
+    "chapter_name": "Mathematical Reasoning",
+    "year": "2023",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>,</mo><mi>q</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> are three propositions, then which of the following combination of truth values of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>,</mo><mo>&#160;</mo><mi>q</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">r</mi></math> makes the logical expression <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mo>(</mo><mi>p</mi><mo>&#8744;</mo><mi>q</mi><mo>)</mo><mo>&#8743;</mo><mo>(</mo><mo>(</mo><mo>~</mo><mi>p</mi><mo>)</mo><mo>&#8744;</mo><mi>r</mi><mo>)</mo><mo>}</mo><mo>&#8594;</mo><mo>(</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>)</mo><mo>&#8744;</mo><mi>r</mi><mo>)</mo></math> false&nbsp;?"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mi mathvariant=\"normal\">T</mi><mo>,</mo><mi>q</mi><mo>=</mo><mi mathvariant=\"normal\">F</mi><mo>,</mo><mi>r</mi><mo>=</mo><mi mathvariant=\"normal\">T</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mi mathvariant=\"normal\">T</mi><mo>,</mo><mi>q</mi><mo>=</mo><mi mathvariant=\"normal\">T</mi><mo>,</mo><mi>r</mi><mo>=</mo><mi mathvariant=\"normal\">F</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mi mathvariant=\"normal\">F</mi><mo>,</mo><mi>q</mi><mo>=</mo><mi mathvariant=\"normal\">T</mi><mo>,</mo><mi>r</mi><mo>=</mo><mi mathvariant=\"normal\">F</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mi mathvariant=\"normal\">T</mi><mo>,</mo><mi>q</mi><mo>=</mo><mi mathvariant=\"normal\">F</mi><mo>,</mo><mi>r</mi><mo>=</mo><mi mathvariant=\"normal\">F</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>Given,&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mo>(</mo><mi>p</mi><mo>&#8744;</mo><mi>q</mi><mo>)</mo><mo>&#8743;</mo><mo>(</mo><mo>(</mo><mo>~</mo><mi>p</mi><mo>)</mo><mo>&#8744;</mo><mi>r</mi><mo>)</mo><mo>}</mo><mo>&#8594;</mo><mo>(</mo><mo>(</mo><mo>~</mo><mi>q</mi><mo>)</mo><mo>&#8744;</mo><mi>r</mi><mo>)</mo></math></p><p>Now solving the above expression using truth table from given options we get,</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\t<tbody>\t\t<tr>\t\t\t<td>&nbsp;</td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>p</mi><mo>&#8744;</mo><mi>q</mi></mrow></mfenced></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mo>~</mo><mi>p</mi><mo>&#8744;</mo><mi>r</mi></mrow></mfenced></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>&#8801;</mo><mfenced><mrow><mi>p</mi><mo>&#8744;</mo><mi>q</mi></mrow></mfenced><mo>&#8743;</mo><mfenced><mrow><mo>~</mo><mi>p</mi><mo>&#8744;</mo><mi>r</mi></mrow></mfenced></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>&#8801;</mo><mo>~</mo><mi>q</mi><mo>&#8744;</mo><mi>r</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>&#8594;</mo><mi>B</mi></math></td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>A</mi></mfenced></math></td>\t\t\t<td>T</td>\t\t\t<td>F</td>\t\t\t<td>T</td>\t\t\t<td style=\"text-align: center;\">T</td>\t\t\t<td style=\"text-align: center;\">T</td>\t\t\t<td style=\"text-align: center;\">T</td>\t\t\t<td style=\"text-align: center;\">T</td>\t\t\t<td style=\"text-align: center;\">T</td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>B</mi></mfenced></math></td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>F</td>\t\t\t<td style=\"text-align: center;\">T</td>\t\t\t<td style=\"text-align: center;\">F</td>\t\t\t<td style=\"text-align: center;\">F</td>\t\t\t<td style=\"text-align: center;\">F</td>\t\t\t<td style=\"text-align: center;\">T</td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>C</mi></mfenced></math></td>\t\t\t<td>F</td>\t\t\t<td>T</td>\t\t\t<td>F</td>\t\t\t<td style=\"text-align: center;\">T</td>\t\t\t<td style=\"text-align: center;\">T</td>\t\t\t<td style=\"text-align: center;\">T</td>\t\t\t<td style=\"text-align: center;\">F</td>\t\t\t<td style=\"text-align: center;\">F</td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>D</mi></mfenced></math></td>\t\t\t<td>T</td>\t\t\t<td>F</td>\t\t\t<td>F</td>\t\t\t<td style=\"text-align: center;\">T</td>\t\t\t<td style=\"text-align: center;\">F</td>\t\t\t<td style=\"text-align: center;\">F</td>\t\t\t<td style=\"text-align: center;\">T</td>\t\t\t<td style=\"text-align: center;\">T</td>\t\t</tr>\t</tbody></table><p>So, only Option&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>&nbsp;&nbsp;will be false.</p>"
+  }
+}

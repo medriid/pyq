@@ -1,0 +1,43 @@
+{
+  "index": 170,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602527bd39a958e960a359",
+    "chapter_name": "Complex Number",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $z \\neq-i$ be any complex number such that $\\frac{\\mathrm{z}-\\mathrm{i}}{\\mathrm{z}+\\mathrm{i}}$ is a purely imaginary number.\nThen $\\mathrm{z}+\\frac{1}{\\mathrm{z}}$ is:"
+  },
+  "options": [
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nany non-zero real number other than 1 .\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nany non-zero real number.\n",
+      "is_correct": true
+    },
+    {
+      "text": "\na purely imaginary number.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $z=x+i y$\n$\\frac{z-i}{z+i}$ is purely imaginary means its real part is zero.\n$$\n\\begin{aligned}\n&\\frac{x+i y-i}{x+i y+i}=\\frac{x+i(y-1)}{x+i(y+1)} \\times \\frac{x-i(y+1)}{x-i(y+1)} \\\\\n&=\\frac{x^2-2 i x(y+1)+x i(y-1)+y^2-1}{x^2+(y+1)^2} \\\\\n&=\\frac{x^2+y^2-1}{x^2+(y+1)^2}-\\frac{2 x i}{x^2+(y+1)^2}\n\\end{aligned}\n$$\nfor pure imaginary, we have\n$$\n\\begin{aligned}\n& \\frac{x^2+y^2-1}{x^2+(y+1)^2}=0 \\\\\n\\Rightarrow & x^2+y^2=1 \\\\\n\\Rightarrow &(x+i y)(x-i y)=1 \\\\\n\\Rightarrow & x+i y=\\frac{1}{x-i y}=z\n\\end{aligned}\n$$\nand $\\frac{1}{z}=x-i y$\n$$\nz+\\frac{1}{z}=(x+i y)+(x-i y)=2 x\n$$\n$\\left(z+\\frac{1}{z}\\right)$ is any non-zero real number"
+  }
+}

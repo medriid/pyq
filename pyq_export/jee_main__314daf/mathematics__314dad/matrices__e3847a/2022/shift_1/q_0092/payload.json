@@ -1,0 +1,43 @@
+{
+  "index": 92,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2022 (28 Jun Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2022",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> be a matrix of order <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>&#215;</mo><mn>3</mn></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>det</mi><mfenced><mi>A</mi></mfenced><mo>=</mo><mn>2</mn></math>. Then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>det</mi><mfenced close=\"\"><mrow><mo>det</mo><mo>(</mo><mi>A</mi><mo>)</mo><mo>adj</mo><mfenced><mrow><mn>5</mn><mo>adj</mo><mfenced><msup><mi>A</mi><mn>3</mn></msup></mfenced></mrow></mfenced></mrow></mfenced></math>&nbsp;is equal to _____."
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>256</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1024</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>512</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>256</mn><mo>&#215;</mo><msup><mn>10</mn><mn>11</mn></msup></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "\\(|(\\operatorname{det}(\\mathrm{A})) \\operatorname{adj}(5 \\operatorname{adj}(\\mathrm{A}))|\\)\n\\(=\\left|2 \\operatorname{adj}\\left(5 \\operatorname{adj}\\left(\\mathrm{A}^3\\right)\\right)\\right|\\)\n\\(=2^3 \\mid \\operatorname{adj}\\left(5 \\operatorname{adj}\\left(\\mathrm{A}^3\\right) \\|\\right.\\)\n\\(=2^3 \\cdot\\left|5 \\operatorname{adj}\\left(\\mathrm{A}^3\\right)\\right|^2\\)\n\\(=2^3\\left(5^3 \\cdot\\left|\\operatorname{adj}\\left(\\mathrm{A}^3\\right)\\right|\\right)^2\\)\n\\(=2^3 \\cdot 5^6 \\cdot\\left|\\operatorname{adj} \\mathrm{A}^3\\right|^2\\)\n\\(=2^3 \\cdot 5^6\\left(\\left(|\\mathrm{~A}|^3\\right)^2\\right)^2\\)\n\\(=2^3 \\cdot 5^6 \\cdot 2^{12}=2^{15} \\times 5^6\\)\n\\(=2^9 \\times 10^6\\)\n\\(=512 \\times 10^6\\)"
+  }
+}

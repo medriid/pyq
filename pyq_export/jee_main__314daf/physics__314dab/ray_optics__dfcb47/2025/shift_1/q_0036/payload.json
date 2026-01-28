@@ -1,0 +1,43 @@
+{
+  "index": 36,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (23 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602437a04b762ba7dfcb47",
+    "chapter_name": "Ray Optics",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Given a thin convex lens (refractive index $\\mu_2$ ), kept in a liquid (refractive index $\\mu_1, \\mu_1 \\lt \\mu_2$ ) having radii of curvatures $\\left|R_1\\right|$ and $\\left|R_2\\right|$. Its second surface is silver polished. Where should an object be placed on the optic axis so that a real and inverted image is formed at the same place?"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\mu_1\\left|\\mathrm{R}_1\\right| \\cdot\\left|\\mathrm{R}_2\\right|}{\\mu_2\\left(\\left|\\mathrm{R}_1\\right|+\\left|\\mathrm{R}_2\\right|\\right)-\\mu_1\\left|\\mathrm{R}_2\\right|}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\mu_1\\left|\\mathrm{R}_1\\right| \\cdot\\left|\\mathrm{R}_2\\right|}{\\mu_2\\left(\\left|\\mathrm{R}_1\\right|+\\left|\\mathrm{R}_2\\right|\\right)-\\mu_1\\left|\\mathrm{R}_1\\right|}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\left(\\mu_2+\\mu_1\\right)\\left|\\mathrm{R}_1\\right|}{\\left(\\mu_2-\\mu_1\\right)}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\mu_1\\left|\\mathrm{R}_1\\right| \\cdot\\left|\\mathrm{R}_2\\right|}{\\mu_2\\left(2\\left|\\mathrm{R}_1\\right|+\\left|\\mathrm{R}_2\\right|\\right)-\\mu_1 \\sqrt{\\left|\\mathrm{R}_1\\right| \\cdot\\left|\\mathrm{R}_2\\right|}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0036_9c07675b2e37.png\"><br>\n\n\n\n$\\begin{aligned} & \\frac{1}{\\mathrm{f}_{\\mathrm{eq}}}=\\frac{2}{\\mathrm{f}_{\\mathrm{L}}}-\\frac{1}{\\mathrm{f}_{\\mathrm{m}}} \\\\ & \\mathrm{f}_{\\mathrm{m}}=-\\frac{\\left|\\mathrm{R}_2\\right|}{2} \\\\ & \\frac{1}{\\mathrm{f}_{\\mathrm{L}}}=\\left(\\frac{\\mu_2}{\\mu_1}-1\\right)\\left(\\frac{1}{\\mathrm{R}_1}+\\frac{1}{\\mathrm{R}_2}\\right)\\end{aligned}$\n\n\n$\\begin{aligned}\n& \\frac{1}{\\mathrm{f}_{\\mathrm{eq}}}=2\\left(\\frac{\\mu_2-\\mu_1}{\\mu_1}\\right)\\left(\\frac{\\mathrm{R}_1+\\mathrm{R}_2}{\\mathrm{R}_1 \\mathrm{R}_2}\\right)+\\frac{2}{\\mathrm{R}_2} \\\\\n& =\\frac{2}{\\mathrm{R}_2}\\left[\\frac{\\left(\\mu_2-\\mu_1\\right)\\left(\\mathrm{R}_1+\\mathrm{R}_2\\right)+\\mu_1 \\mathrm{R}_1}{\\mu_1 \\mathrm{R}_1}\\right] \\\\\n& =\\frac{2}{\\mathrm{R}_2}\\left[\\frac{\\mu_2 \\mathrm{R}_1+\\mu_2 \\mathrm{R}_2-\\mu_1 \\mathrm{R}_1-\\mu_1 \\mathrm{R}_2+\\mu_1 \\mathrm{R}_1}{\\mu_1 \\mathrm{R}_1}\\right] \\\\\n& \\frac{1}{\\mathrm{f}_{\\mathrm{eq}}}=\\frac{2\\left[\\mu_2 \\mathrm{R}_1+\\mu_2 \\mathrm{R}_2-\\mu_1 \\mathrm{R}_2\\right]}{\\mu_1 \\mathrm{R}_1 \\mathrm{R}_2}\n\\end{aligned}$\n\nFor same size of image\n$\\begin{aligned}\n& \\mathrm{u}=2 \\mathrm{f} \\\\\n& \\mathrm{u}=\\frac{\\mu_1 \\mathrm{R}_1 \\mathrm{R}_2}{\\mu_2 \\mathrm{R}_1+\\mu_2 \\mathrm{R}_2-\\mu_1 \\mathrm{R}_2}\n\\end{aligned}$"
+  }
+}

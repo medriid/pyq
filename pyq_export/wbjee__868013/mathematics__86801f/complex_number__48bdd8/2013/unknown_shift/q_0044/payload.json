@@ -1,0 +1,43 @@
+{
+  "index": 44,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc9a79d891b2548bdd8",
+    "chapter_name": "Complex Number",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\alpha$ and $\\beta$ are roots of $x^{2}-x+1=0,$ then the value of $\\alpha^{2013}+\\beta^{2013}$ is"
+  },
+  "options": [
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "-2",
+      "is_correct": true
+    },
+    {
+      "text": "-1",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given equation is $x^{2}-x+1=0$\r\n$$\r\n\\begin{aligned}\r\nx &=\\frac{1 \\pm \\sqrt{1-4}}{2} \\quad\\left(\\because x=\\frac{b \\pm \\sqrt{b^{2}-4 a c}}{2 a}\\right) \\\\\r\n&=\\frac{1 \\pm i \\sqrt{3}}{2}=\\frac{1+i \\sqrt{3}}{2}, \\frac{1-i \\sqrt{3}}{2} \\\\\r\n\\Rightarrow-x &=\\frac{-1+i \\sqrt{3}}{2}, \\frac{-1-i \\sqrt{3}}{2} \\\\\r\n\\Rightarrow+x &=\\omega,-\\omega^{2}\r\n\\end{aligned}\r\n$$\r\nSince, $(\\alpha, \\beta)$ are the roots of given equation. Then, $\\alpha=-\\omega$ and $\\beta=-\\omega^{2}$\r\n$$\r\n\\begin{aligned}\r\n\\therefore \\alpha^{2013}+\\beta^{2013} &=-(\\omega)^{2013}+\\left(-\\omega^{2}\\right)^{2013} \\\\\r\n&=-\\omega^{2013}-\\omega^{4026} \\\\\r\n&=-\\left(\\omega^{3}\\right)^{671}-\\left(\\omega^{3}\\right)^{1342} \\\\\r\n&=-(1)^{671}-(1)^{1342} \\\\\r\n&=-1-1=-2\r\n\\end{aligned}\r\n$$"
+  }
+}

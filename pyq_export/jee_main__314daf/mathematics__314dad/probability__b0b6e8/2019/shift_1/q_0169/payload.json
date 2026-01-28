@@ -1,0 +1,43 @@
+{
+  "index": 169,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2019 (09 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Two cards are drawn successively with replacement from a well-shuffled deck of <math><mn>52</mn></math> cards. Let <math><mi>X</mi></math> denote the random variable of number of aces obtained in the two drawn cards. Then <math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>=</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>X</mi><mo>=</mo><mn>2</mn></mrow></mfenced></math> equals:"
+  },
+  "options": [
+    {
+      "text": "<math><mfrac><mrow><mn>24</mn></mrow><mrow><mn>169</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>52</mn></mrow><mrow><mn>169</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>49</mn></mrow><mrow><mn>169</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>25</mn></mrow><mrow><mn>169</mn></mrow></mfrac></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Using the concept of complementary events,<br /><br /><math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></mfenced><mo>=</mo><mn>1</mn><mo>-</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></mfenced></math><br /><br /><math><mo>=</mo><mn>1</mn><mo>-</mo><mfrac><mrow><mn>48</mn></mrow><mrow><mn>52</mn></mrow></mfrac><mo>&#215;</mo><mfrac><mrow><mn>48</mn></mrow><mrow><mn>52</mn></mrow></mfrac></math><br /><br /><math><mo>=</mo><mn>1</mn><mo>-</mo><mfrac><mrow><mn>144</mn></mrow><mrow><mn>169</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>25</mn></mrow><mrow><mn>169</mn></mrow></mfrac></math>"
+  }
+}

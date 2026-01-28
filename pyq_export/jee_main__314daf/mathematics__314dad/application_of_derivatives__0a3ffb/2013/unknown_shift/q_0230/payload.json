@@ -1,0 +1,43 @@
+{
+  "index": 230,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (22 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The maximum area of a right angled triangle with hypotenuse $h$ is :"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{h^2}{2 \\sqrt{2}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{h^2}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{h^2}{\\sqrt{2}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{h^2}{4}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let base $=b$\n<img src=\"assets\\st0230_e12bcd6ce71a.png\"><br>\nAltitude (or perpendicular) $=\\sqrt{h^2-b^2}$ Area, $\\mathrm{A}=\\frac{1}{2} \\times$ base $\\times$ altitude $=\\frac{1}{2} \\times b \\times \\sqrt{h^2-b^2}$ $\\Rightarrow \\frac{d \\mathrm{~A}}{d b}=\\frac{1}{2}\\left[\\sqrt{h^2-b^2}+b \\cdot \\frac{-2 b}{2 \\sqrt{h^2-b^2}}\\right]$ $=\\frac{1}{2}\\left[\\frac{h^2-2 b^2}{\\sqrt{h^2-b^2}}\\right]$\nPut $\\frac{d \\mathrm{~A}}{d b}=0, \\Rightarrow b=\\frac{h}{\\sqrt{2}}$\nMaximumarea $=\\frac{1}{2} \\times \\frac{h}{\\sqrt{2}} \\times \\sqrt{h^2-\\frac{h^2}{2}}=\\frac{h^2}{4}$"
+  }
+}

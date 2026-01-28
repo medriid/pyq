@@ -1,0 +1,61 @@
+{
+  "_id": "6151e86318b7867159bb0800",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "20",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "Number of words that can be formed with the letters of the word <math><mi>A</mi><mi>L</mi><mi>G</mi><mi>E</mi><mi>B</mi><mi>R</mi><mi>A</mi></math> so that all the vowels are separated (or no two vowels come together) is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "MVXG8",
+      "text": "<math><mn>720</mn></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "WF8dq",
+      "text": "<math><mn>2160</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "FG0m0",
+      "text": "<math><mn>1440</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "dQA2e",
+      "text": "<math><mn>1200</mn></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Vowels are <math><mi>A</mi><mo>,</mo><mi></mi><mi>E</mi><mo>,</mo><mi></mi><mi>A</mi></math>  <br/>Consonants are <math><mi>L</mi><mo>,</mo><mi>G</mi><mo>,</mo><mi>B</mi><mo>,</mo><mi>R</mi></math>  <br/><math><mi>X</mi><mi></mi><mi>L</mi><mi></mi><mi>X</mi><mi></mi><mi>G</mi><mi></mi><mi>X</mi><mi></mi><mi>B</mi><mi></mi><mi>X</mi><mi></mi><mi>R</mi><mi></mi><mi>X</mi></math>  <br/>Since there is no restriction on consonants, we must place them first and they can be arranged in <math><mn>4</mn><mo>!</mo><mo>=</mo><mn>24</mn></math> days. <br/>Now to arrange vowels so that no two of them are together we have <math><mn>5</mn></math> places <math><mfenced separators=\"|\"><mrow><mi>X</mi></mrow></mfenced><mo>.</mo></math> Out of these <math><mn>5</mn></math> places, <math><mn>3</mn></math> can be selected in <math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>5</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>3</mn></mrow></msub></math> ways and then one arrangement can be made in <math><mfrac><mrow><mn>3</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac></math> ways. <br/>Thus, required ways <math><mo>=</mo><mn>4</mn><mo>!</mo><mo>×</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>5</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>3</mn></mrow></msub><mo>×</mo><mfrac><mrow><mn>3</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>720</mn></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

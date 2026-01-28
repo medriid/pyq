@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a65417cc3fb48d66302",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7e6",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2018-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018 (15 Apr Shift 2 Online)",
+      "title": "JEE Main 2018 (15 Apr Shift 2 Online)"
+    }
+  ],
+  "question": {
+    "text": "Suppose $A$ is any $3 \\times 3$ non-singular matrix and $(A-3 I)(A-5 I)=O$, where $I=I_3$ and $O=O_3$. If $\\alpha A+$ $\\beta A^{-1}=4 I$, then $\\alpha+\\beta$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "QfIY8",
+      "text": "\n8\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "6gqGh",
+      "text": "\n12\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ZWQvY",
+      "text": "\n13\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7Jmm2",
+      "text": "\n7",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have\n$$\n\\begin{aligned}\n&(A-3 I)(A-5 I)=O \\\\\n&\\Rightarrow A^2-8 A+15 I=O\n\\end{aligned}\n$$\nMultiplying both sides by $A^{-1}$, we get;\n$$\n\\begin{aligned}\nA^{-1} A \\cdot A-8 A^{-1} A+15 A^{-1} I=A^{-1} O \\\\\n\\Rightarrow & A-8 I+15 A^{-1}=O \\\\\n& A+15 A^{-1}=8 I \\\\\n& \\frac{A}{2}+\\frac{15 A^{-1}}{2}=4 I \\\\\n\\therefore & \\alpha+\\beta=\\frac{1}{2}+\\frac{15}{2}=\\frac{16}{2}=8\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7e6",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2018-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018 (15 Apr Shift 2 Online)",
+    "title": "JEE Main 2018 (15 Apr Shift 2 Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

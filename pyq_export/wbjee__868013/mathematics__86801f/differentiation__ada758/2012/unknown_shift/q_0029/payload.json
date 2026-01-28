@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For $-\\frac{\\pi}{2}     < x < \\frac{3 \\pi}{2}, \\quad$ the $\\quad$ value $\\quad$ of $\\frac{d}{d x}\\left\\{\\tan ^{-1} \\frac{\\cos x}{1+\\sin x}\\right\\}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{1}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\sin x}{(1+\\sin x)^{2}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\frac{d}{d x}\\left\\{\\tan ^{-1} \\frac{\\cos x}{1+\\sin x}\\right\\}$\r\n$=\\frac{1}{1+\\left(\\frac{\\cos x}{1+\\sin x}\\right)^{2}} \\frac{d}{d x} \\frac{\\cos x}{1+\\sin x}$\r\n$=\\frac{(1+\\sin x)^{2}}{1+\\sin ^{2} x+2 \\sin x+\\cos ^{2} x}$\r\n$=\\frac{(1+\\sin x)(-\\sin x)-\\cos (\\cos x)}{(1+\\sin x)^{2}}$\r\n$=\\frac{1}{2+2 \\sin x} \\times\\left[-\\left(\\sin x+\\sin ^{2} x+\\cos ^{2} x\\right)\\right]$\r\n$=\\frac{1}{2(1+\\sin x)} \\times-(1+\\sin x)=-\\frac{1}{2}$"
+  }
+}

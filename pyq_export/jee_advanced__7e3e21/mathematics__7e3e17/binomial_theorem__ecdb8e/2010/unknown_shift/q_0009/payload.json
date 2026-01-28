@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2010 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602532f7669a7344ecdb8e",
+    "chapter_name": "Binomial Theorem",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For $r=0,1, \\ldots, 10$, let $A_r, B_r$ and $C_r$ denote, respectively, the coefficient of $x^r$ in the expansions of $(1+x)^{10}$, $(1+x)^{20}$ and $(1+x)^{30}$. Then $\\sum_{r=1}^{10} A_r\\left(B_{10} B_r-C_{10} A_r\\right)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$B_{10}-C_{10}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$A_{10}\\left(B_{10}^2-C_{10} A_{10}\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$C_{10}-B_{10}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$A_r=$ Coefficient of $x^r$ in\n$$\n\\begin{aligned}\n& (1+x)^{10}={ }^{10} C_r \\\\\n& B_r=\\text { Coefficient of } x^r \\text { in } \\\\\n& (1+x)^{20}={ }^{20} C_r \\\\\n& C_r=\\text { Coefficient of } x^r \\text { in } \\\\\n& (1+x))^{30}={ }^{30} C_r \\\\\n& \\therefore \\sum_{r=1}^{10} A_r\\left(B_{10} B_r-C_{10} A_r\\right) \\\\\n& =\\sum_{r=1}^{10} A_r B_{10} B_r-\\sum_{r=1}^{10} A_r C_{10} A_r \\\\\n& =\\sum_{r=1}^{10}{ }^{10} C_r{ }^{20} C_{10}{ }^{20} C_r \\\\\n& -\\sum_{r=1}^{10}{ }^{10} C_r{ }^{30} C_{10}{ }^{10} C_r \\\\\n& =\\sum_{r=1}^{10}{ }^{10} C_{10-r}{ }^{20} C_{10}{ }^{20} C_r \\\\\n& -\\sum_{r=1}^{10}{ }^{10} C_{10-r}{ }^{30} C_{10}{ }^{10} C_r \\\\\n&\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& ={ }^{20} C_{10} \\sum_{r=1}^{10}{ }^{10} C_{10-r} \\cdot{ }^{20} C_r \\\\\n& \\quad-{ }^{30} C_{10} \\sum_{r=1}^{10}{ }^{10} C_{10-r}{ }^{10} C_r \\\\\n& ={ }^{20} C_{10}\\left({ }^{30} C_{10}-1\\right)-{ }^{30} C_{10}\\left({ }^{20} C_{10}-1\\right) \\\\\n& ={ }^{30} C_{10}-{ }^{20} C_{10}=C_{10}-B_{10}\n\\end{aligned}\n$$"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "index": 0,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2025 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025343ec20093a5ec6a17",
+    "chapter_name": "Trigonometric Ratios & Identities",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\alpha=\\frac{1}{\\sin 60^{\\circ} \\sin 61^{\\circ}}+\\frac{1}{\\sin 62^{\\circ} \\sin 63^{\\circ}}+\\ldots+\\frac{1}{\\sin 118^{\\circ} \\sin 119^{\\circ}}$\nThen the value of $\\left(\\frac{\\operatorname{cosec} 1^{\\circ}}{\\alpha}\\right)^2$ is __________"
+  },
+  "options": [],
+  "correct_answer": "3",
+  "solution": {
+    "text": "$\\begin{aligned} & \\alpha=\\sum_{\\mathrm{r}-30}^{59} \\frac{1}{\\sin (2 \\mathrm{r})^{\\circ} \\sin (2 \\mathrm{r}+1)^{\\circ}} \\\\ & \\frac{\\alpha}{\\operatorname{cosec} 1^{\\circ}}=\\sum_{\\mathrm{r}-30}^{59} \\frac{\\sin 1^{\\circ}}{\\sin (2 \\mathrm{r})^{\\circ} \\sin (2 \\mathrm{r}+1)^{\\circ}} \\\\ & =\\sum_{\\mathrm{r}-30}^{59}\\left(\\cot (2 \\mathrm{r})^{\\circ}-\\cot (2 \\mathrm{r}+1)^{\\circ}\\right) \\\\ & =\\cot 60^{\\circ}-\\cot 61^{\\circ} \\\\ & \\quad+\\cot 62^{\\circ}-\\cot 63^{\\circ} \\\\ & \\quad \\vdots \\\\ & +\\cot \\left(118^{\\circ}\\right)-\\cot \\left(119^{\\circ}\\right) \\\\ & \\frac{\\alpha}{\\operatorname{cosec} 1^{\\circ}}=\\cot 60^{\\circ}=\\frac{1}{\\sqrt{3}} \\\\ & \\left(\\frac{\\operatorname{cosec} 1^{\\circ}}{\\alpha}\\right)^2=3\\end{aligned}$"
+  }
+}

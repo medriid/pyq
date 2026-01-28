@@ -1,0 +1,58 @@
+{
+  "_id": "64b16a69f23ac7d519f9b42c",
+  "previousYearPapers": [
+    {
+      "_id": "615d92eede3d91842a5cf82c",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2018-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018 (Paper 1)",
+      "title": "JEE Advanced 2018 (Paper 1)"
+    }
+  ],
+  "type": "numerical",
+  "level": 2,
+  "question": {
+    "text": "For each positive integer <math><mi>n</mi></math>, let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>y</mi><mi>n</mi></msub><mo>=</mo><msup><mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>(</mo><mrow><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mrow><mo>(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>...</mn><mrow><mo>(</mo><mi>n</mi><mo>+</mo><mi>n</mi><mo>)</mo></mrow><mo>)</mo></mrow><mfrac><mn>1</mn><mi>n</mi></mfrac></msup></math>.&nbsp;If <math><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>n</mi><mo>&#8594;</mo><mi>&#8734;</mi></mrow></munder></mrow><mo>&#8289;</mo><mrow><msub><mrow><mi>y</mi></mrow><mrow><mi>n</mi></mrow></msub></mrow></mrow><mo>=</mo><mi>L</mi><mo>,</mo></math> then the value of <math><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi>L</mi></mrow></mfenced></math>&nbsp;(where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"[\"><mi>x</mi></mfenced></math>&nbsp;is the&nbsp;greatest integer less than or equal to&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>) is ____",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "1",
+  "solution": {
+    "text": "<math><msub><mrow><mi>y</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>=</mo><msup><mrow><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></mfenced><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></mfenced><mo>&#8230;</mo><mo>.</mo><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><mi>n</mi></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></mfenced></mrow></mfenced></mrow><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></msup></math><br /><math><msub><mrow><mi>y</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>=</mo><mrow><munderover><mo stretchy=\"false\">&#8719;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></munderover><mrow><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><mi>r</mi></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></mfenced></mrow><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></msup></mrow></mrow></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ln</mi><mfenced><msub><mi>y</mi><mi>n</mi></msub></mfenced><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mi>ln</mi><mo>&#8289;</mo><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mfrac><mi>r</mi><mi>n</mi></mfrac></mrow></mfenced></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#160;</mi><mi>&#160;</mi><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mi>&#8734;</mi></mrow></munder><mo>&#8289;</mo><mi>ln</mi><mo>&#8289;</mo><mo>(</mo><msub><mi>y</mi><mi>n</mi></msub><mo>)</mo><mo>=</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mi>&#8734;</mi></mrow></munder><mo>&#8289;</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mfrac><mn>1</mn><mi>n</mi></mfrac><mi>ln</mi><mo>&#8289;</mo><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mfrac><mi>r</mi><mi>n</mi></mfrac></mrow></mfenced></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#160;</mi><mi>ln</mi><mfenced><mi>L</mi></mfenced><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><mi>ln</mi><mo>&#8289;</mo><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced><mi>d</mi><mi>x</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#160;</mi><mi>ln</mi><mfenced><mi>L</mi></mfenced><mo>=</mo><mi>ln</mi><mfenced><mfrac><mn>4</mn><mi>e</mi></mfrac></mfenced></math><br /><math><mo>&#8658;</mo><mi>&#160;</mi><mi>&#160;</mi><mi>L</mi><mo>=</mo><mfrac><mrow><mn>4</mn></mrow><mrow><mi>e</mi></mrow></mfrac></math><br /><math><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi>L</mi></mrow></mfenced><mo>=</mo><mn>1</mn></math>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "2eb1bf17dca241ed908269a25670728d",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/r7ycq25nCEqHC.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/r7ycq25nCEqHC.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eede3d91842a5cf82c",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2018-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018 (Paper 1)",
+    "title": "JEE Advanced 2018 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "6151e863741124c01b64860d",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "28",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "Two distinct numbers are chosen from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,</mn><mo>&#160;</mo><mn>3</mn><mo>,</mo><mo>&#160;</mo><mo>&#160;</mo><mn>5,</mn><mo>&#160;</mo><mo>7</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mn>151,</mn><mo>&#160;</mo><mn>153,</mn><mo>&#160;</mo><mn>155</mn></math> and multiplied. The probability that the product is a multiple of <math><mn>5</mn></math> is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "LF1Fb",
+      "text": "<math><mfrac><mrow><mn>1020</mn></mrow><mrow><mn>3003</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "gxBKz",
+      "text": "<math><mfrac><mrow><mn>1112</mn></mrow><mrow><mn>3003</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "y93wm",
+      "text": "<math><mfrac><mrow><mn>1011</mn></mrow><mrow><mn>3003</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "sPw7O",
+      "text": "<math><mfrac><mrow><mn>1122</mn></mrow><mrow><mn>3003</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given numbers <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,</mn><mo>&#160;</mo><mn>3</mn><mo>,</mo><mo>&#160;</mo><mn>5</mn><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mo>&#160;</mo><mn>153,</mn><mo>&#160;</mo><mn>155</mn></math><br /><math><msub><mrow><mi>T</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>=</mo><mi>a</mi><mo>+</mo><mfenced separators=\"|\"><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mi>d</mi><mo>&#8658;</mo><mn>155</mn><mo>=</mo><mn>1</mn><mo>+</mo><mfenced separators=\"|\"><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mn>2</mn><mo>&#8658;</mo><mi>n</mi><mo>=</mo><mn>7</mn><mn>8</mn></math><br />Total number of ways <math><mo>=</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>78</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>=</mo><mn>3003</mn></math><br />The numbers which are multiple of <math><mn>5</mn></math> are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,</mn><mo>&#160;</mo><mn>15,</mn><mo>&#160;</mo><mn>25</mn><mo>,</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mo>&#160;</mo><mn>155</mn></math><br /><math><mn>155</mn><mo>=</mo><mn>5</mn><mo>+</mo><mfenced separators=\"|\"><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mn>10</mn><mo>&#8658;</mo><mi>n</mi><mo>=</mo><mn>1</mn><mn>6</mn></math><br />The number of ways in which product is a multiple of <math><mn>5</mn><mo>=</mo></math> (Both two numbers from <math><mn>5,15,25</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>155</mn></math> ) or (one number from <math><mn>5,15,25</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>145</mn></math> and one number from the remaining numbers).<br /><math><mo>=</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>16</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>+</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>16</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>&#215;</mo><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>78</mn><mo>-</mo><mn>16</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub></math><br /><math><mo>=</mo><mi mathvariant=\"normal\"></mi><mfrac><mrow><mn>8</mn><menclose notation=\"updiagonalstrike\"><mn>16</mn></menclose><mo>&#215;</mo><mn>15</mn></mrow><mrow><menclose notation=\"updiagonalstrike\"><mn>2</mn></menclose></mrow></mfrac><mo>+</mo><mn>16</mn><mo>&#215;</mo><mn>6</mn><mn>2</mn></math><br /><math><mo>=</mo><mn>120</mn><mo>+</mo><mn>992</mn><mo>=</mo><mn>111</mn><mn>2</mn></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

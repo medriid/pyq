@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c989d521687020e0bf6",
+    "chapter_name": "Semiconductors",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<img src=\"assets\\qt0005_bcf44bffd089.png\"><br>\nConsider the logic circuit with inputs A, B, C and output \\(Y\\). How many combinations of \\(A, B\\) and \\(C\\) gives the output \\(Y=0\\) ?"
+  },
+  "options": [
+    {
+      "text": "8",
+      "is_correct": false
+    },
+    {
+      "text": "5",
+      "is_correct": false
+    },
+    {
+      "text": "7",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hint : <img src=\"assets\\st0005_ac150e753696.png\"><br>\n\\(\\begin{aligned}\n& \\overline{(A+\\overline{B})+\\overline{C}}=\\overline{A+\\overline{B}} \\cdot C=(\\overline{A} \\cdot B \\cdot C) \\\\\n& \\therefore y=1 \\\\\n& \\text { if } A=0, B=1, C=1\n\\end{aligned}\\)\nFor rest of all cases \\(Y=O\\)\nTotal cases \\(=8\\)\n\\(\\therefore\\) Ans \\((8-1)=7\\)"
+  }
+}

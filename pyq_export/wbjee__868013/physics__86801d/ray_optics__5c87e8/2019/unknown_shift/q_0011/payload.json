@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c922db938c3ec5c87e8",
+    "chapter_name": "Ray Optics",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A point object is placed on the axis of a thin convex lens of focal length $0.05 \\mathrm{m}$ at a distance of $0.2 \\mathrm{m}$ from the lens and its image is formed on the axis. If the object is now made to oscillate along the axis with a small amplitude of $A \\mathrm{cm},$ then what is the amplitude of oscillation of the image? $\\left[\\right.$ you may assume, $\\frac{1}{1+x} \\approx 1-x,$ where $\\left.x< < 1\\right]$"
+  },
+  "options": [
+    {
+      "text": "$\\frac{4 A}{9} \\times 10^{-2} m$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{5 A}{9} \\times 10^{-2} m$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{A}{3} \\times 10^{-2} m$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{A}{9} \\times 10^{-2} \\mathrm{m}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "According to the question, we can draw the following diagram\r\n<img src=\"assets\\st0011_745523001ad4.png\">\r\nGiven, $u=-0.2 \\mathrm{m}$ and $f=0.05 \\mathrm{m}$\r\nAs we know that,\r\n$$\r\n\\begin{array}{l}\r\n\\frac{1}{f}=\\frac{1}{v}-\\frac{1}{u} \\\\\r\n\\frac{1}{v}=\\frac{1}{f}+\\frac{1}{u} \\\\\r\n\\frac{1}{v}=\\frac{1}{0.05}-\\frac{1}{0.2} \\\\\r\n\\frac{1}{v}=\\frac{100}{5}-\\frac{10}{2} \\\\\r\n\\frac{1}{v}=20-5 \\Rightarrow v=\\frac{1}{15} \\mathrm{m}\r\n\\end{array}\r\n$$\r\nNow, differentiating eq. (i), we get\r\n$$\r\n\\begin{array}{l}\r\n-\\frac{d v}{v^{2}}=-\\frac{d u}{u^{2}} \\quad \\therefore \\quad d v=d u \\frac{v^{2}}{u^{2}} \\\\\r\nA_{\\max }=A \\times\\left(\\frac{1}{15}\\right)^{2} \\times\\left(\\frac{1}{(-0.2)}\\right)^{2} \\\\\r\nA_{\\max }=A \\times \\frac{1}{225} \\times 25 \\\\\r\nA_{\\max }=\\frac{A}{9}\r\n\\end{array}\r\n$$\r\nHere $A$ is in $\\mathrm{cm} .$\r\nHence, $A_{\\max }=\\frac{A}{9} \\times 10^{-2} \\mathrm{m}$"
+  }
+}

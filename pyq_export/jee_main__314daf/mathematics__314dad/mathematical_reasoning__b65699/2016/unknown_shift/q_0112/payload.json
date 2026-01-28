@@ -1,0 +1,43 @@
+{
+  "index": 112,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2016 (03 Apr)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254533dd7c0008b65699",
+    "chapter_name": "Mathematical Reasoning",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The Boolean Expression <math><mfenced separators=\"|\"><mrow><mi>p</mi><mo>&#8743;</mo><mo>&#8764;</mo><mi>q</mi></mrow></mfenced><mi>&#160;</mi><mo>&#8744;</mo><mi>q</mi><mo>&#8744;</mo><mfenced separators=\"|\"><mrow><mo>&#8764;</mo><mi>p</mi><mo>&#8743;</mo><mi>q</mi></mrow></mfenced></math> is equivalent to"
+  },
+  "options": [
+    {
+      "text": "<math><mi>p</mi><mi>&nbsp;</mi><mo>∨</mo><mi>q</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mi>p</mi><mi> </mi><mo>∨</mo><mo>∼</mo><mi>q</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mo>∼</mo><mi>p</mi><mo>∧</mo><mi>q</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>p</mi><mo>∧</mo><mi>q</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<math><mfenced separators=\"|\"><mrow><mi>p</mi><mi>&nbsp;</mi><mo>∧</mo><mi>&nbsp;</mi><mo>∼</mo><mi>q</mi></mrow></mfenced><mi>&nbsp;</mi><mo>∨</mo><mi>q</mi><mo>∨</mo><mfenced separators=\"|\"><mrow><mo>∼</mo><mi>p</mi><mo>∧</mo><mi>q</mi></mrow></mfenced></math><br /><br />Set equivalent&nbsp;<br /><br /><math><mo>=</mo><mfenced separators=\"|\"><mrow><mi>A</mi><mi>&nbsp;</mi><mo>∩</mo><mover accent=\"true\"><mrow><mi>B</mi></mrow><mo>-</mo></mover></mrow></mfenced><mi>&nbsp;</mi><mo>∪</mo><mfenced separators=\"|\"><mrow><mover accent=\"true\"><mrow><mi>A</mi></mrow><mo>-</mo></mover><mi>&nbsp;</mi><mo>∩</mo><mi>B</mi></mrow></mfenced><mi>&nbsp;</mi><mo>∪</mo><mi>B</mi></math><br /><br /><math><mo>=</mo><mo>(</mo><mfenced separators=\"|\"><mrow><mi>A</mi><mi>&nbsp;</mi><mo>∪</mo><mi>B</mi></mrow></mfenced><mo>-</mo><mfenced separators=\"|\"><mrow><mi>A</mi><mo>∩</mo><mi>B)</mi></mrow></mfenced><mo>∪</mo><mi>B</mi></math><br /><br /><math><mo>=</mo><mi>A</mi><mi>&nbsp;</mi><mo>∪</mo><mi>B</mi></math><br /><br />Hence answer is&nbsp;<math><mi>p</mi><mi>&nbsp;</mi><mo>∨</mo><mi>q</mi></math> ."
+  }
+}

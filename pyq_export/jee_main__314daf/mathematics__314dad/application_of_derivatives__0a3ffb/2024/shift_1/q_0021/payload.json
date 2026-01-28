@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The interval in which the function $f(x)=x^x, x>0$, is strictly increasing is"
+  },
+  "options": [
+    {
+      "text": "$\\left(0, \\frac{1}{e}\\right]$",
+      "is_correct": false
+    },
+    {
+      "text": "$(0, \\infty)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left.\\left[\\frac{1}{e}, \\infty\\right)\\right]_V$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\left[\\frac{1}{e^2}, 1\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\mathrm{f}(\\mathrm{x})=\\mathrm{x}^{\\mathrm{x}} ; \\mathrm{x}>0 \\\\\n& \\ell \\operatorname{nn}=\\mathrm{x} \\ell \\mathrm{n} \\mathrm{x} \\\\\n& \\frac{1}{\\mathrm{y}} \\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\frac{\\mathrm{x}}{\\mathrm{x}}+\\ln \\mathrm{n} \\\\\n& \\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\mathrm{x}^{\\mathrm{x}}(1+\\ell \\mathrm{n} x)\n\\end{aligned}$\nfor strictly increasing\n$\\begin{aligned}\n& \\frac{d y}{d x} \\geq 0 \\Rightarrow x^x(1+\\ell n x) \\geq 0 \\\\\n& \\Rightarrow \\ell n x \\geq-1\n\\end{aligned}$\n$\\begin{aligned} & x \\geq e^{-1} \\\\ & x \\geq \\frac{1}{e} \\\\ & x \\in\\left[\\frac{1}{e}, \\infty\\right)\\end{aligned}$"
+  }
+}

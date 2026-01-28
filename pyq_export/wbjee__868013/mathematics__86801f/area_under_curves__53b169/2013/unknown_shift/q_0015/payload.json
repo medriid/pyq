@@ -1,0 +1,44 @@
+{
+  "index": 15,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1f21590031c653b169",
+    "chapter_name": "Area Under Curves",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area of the region enclosed between parabola $y^{2}=x$ and the line $y=m x$ is $\\frac{1}{48}$\r\nThen, the value of $m$ is"
+  },
+  "options": [
+    {
+      "text": "-2",
+      "is_correct": true
+    },
+    {
+      "text": "-1",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "D"
+  ],
+  "solution": {
+    "text": "Equation of parabola is $y^{2}=x$ and line $y=m x$\r\nFor intersection point of both curves put $x=y^{2}$,\r\nwe get\r\n$$\r\ny=m y^{2} \\Rightarrow y(m y-1)=0\r\n$$\r\n$\\Rightarrow \\quad y=0$ or $y=\\frac{1}{m}$\r\nThen, $\\quad x=0$ or $x=\\frac{1}{m^{2}}$\r\n$\\therefore$ Intersection points are (0,0) and $P\\left(\\frac{1}{m^{2}}, \\frac{1}{m}\\right)$\r\n<img src=\"assets\\st0015_df3e72a67818.png\">\r\n\r\n$\\therefore$ Required area $=\\int_{0}^{1 / m}\\left(\\frac{y}{m}-y^{2}\\right)|d y=|\\left[\\frac{y^{2}}{2 m}-\\frac{y^{3}}{3}\\right]_{0}^{1 / m} \\mid$\r\n$=\\left|\\frac{1}{2 m^{3}}-\\frac{1}{3 m^{3}}\\right|=\\left|\\frac{1}{6 m^{3}}\\right|=\\frac{1}{48}$\r\n$\\Rightarrow \\quad \\frac{1}{6 m^{3}}=\\pm \\frac{1}{48} \\Rightarrow m^{3}=\\pm 8$\r\n(given)\r\nNow, if $m^{3}=8$\r\n$\\Rightarrow \\quad m^{3}=(2)^{3} \\Rightarrow m=2$\r\nIf $\\quad m^{3}=-8$\r\n$\\Rightarrow \\quad m^{3}=(-2)^{3} \\Rightarrow m=-2$"
+  }
+}

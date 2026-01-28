@@ -1,0 +1,63 @@
+{
+  "_id": "6682bd51ba0e94a3c4025be2",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "question": {
+    "text": "The value of the integral <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>4</mn></mfrac></munderover><mfrac><mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>sin</mi><mn>4</mn></msup><mfenced><mrow><mn>2</mn><mi>x</mi></mrow></mfenced><mo>+</mo><msup><mi>cos</mi><mn>4</mn></msup><mfenced><mrow><mn>2</mn><mi>x</mi></mrow></mfenced></mrow></mfrac></math> equals:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "n2t4D",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>2</mn></msqrt><msup><mi>π</mi><mn>2</mn></msup></mrow><mn>8</mn></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "4YgHz",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>2</mn></msqrt><msup><mi>π</mi><mn>2</mn></msup></mrow><mn>16</mn></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "10ovW",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>2</mn></msqrt><msup><mi>π</mi><mn>2</mn></msup></mrow><mn>32</mn></mfrac></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "HtmiH",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>2</mn></msqrt><msup><mi>π</mi><mn>2</mn></msup></mrow><mn>64</mn></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>Let, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mrow><mi>I</mi><mo>=</mo><mo>∫</mo></mrow><mn>0</mn><mfrac><mi>π</mi><mn>4</mn></mfrac></munderover><mfrac><mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>sin</mi><mn>4</mn></msup><mfenced><mrow><mn>2</mn><mi>x</mi></mrow></mfenced><mo>+</mo><msup><mi>cos</mi><mn>4</mn></msup><mfenced><mrow><mn>2</mn><mi>x</mi></mrow></mfenced></mrow></mfrac></math></p><p>Let, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mi>t</mi></math> then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>d</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><munderover><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></munderover><mfrac><mrow><mi>t</mi><mi>d</mi><mi>t</mi></mrow><mrow><msup><mi>sin</mi><mn>4</mn></msup><mi>t</mi><mo>+</mo><msup><mi>cos</mi><mn>4</mn></msup><mi>t</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><munderover><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></munderover><mfrac><mrow><mfenced><mrow><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>−</mo><mi>t</mi></mrow></mfenced><mi>d</mi><mi>t</mi></mrow><mrow><msup><mi>sin</mi><mn>4</mn></msup><mfenced><mrow><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>−</mo><mi>t</mi></mrow></mfenced><mo>+</mo><msup><mi>cos</mi><mn>4</mn></msup><mfenced><mrow><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>−</mo><mi>t</mi></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><munderover><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></munderover><mfrac><mrow><mfrac><mi>π</mi><mn>2</mn></mfrac><mi>d</mi><mi>t</mi></mrow><mrow><msup><mi>sin</mi><mn>4</mn></msup><mi>t</mi><mo>+</mo><msup><mi>cos</mi><mn>4</mn></msup><mi>t</mi></mrow></mfrac><mo>−</mo><mi>I</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>2</mn><mi>I</mi><mo>=</mo><mfrac><mi>π</mi><mn>8</mn></mfrac><munderover><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></munderover><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><msup><mi>sin</mi><mn>4</mn></msup><mi>t</mi><mo>+</mo><msup><mi>cos</mi><mn>4</mn></msup><mi>t</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>2</mn><mi>I</mi><mo>=</mo><mfrac><mi>π</mi><mn>8</mn></mfrac><munderover><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></munderover><mfrac><mrow><msup><mi>sec</mi><mn>4</mn></msup><mi>t</mi><mi>d</mi><mi>t</mi></mrow><mrow><msup><mi>tan</mi><mn>4</mn></msup><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math></p><p>Let, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>tan</mi><mi>t</mi><mo>=</mo><mi>y</mi></math> then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>sec</mi><mn>2</mn></msup><mi>t</mi><mi>d</mi><mi>t</mi><mo>=</mo><mi>d</mi><mi>y</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>2</mn><mi>I</mi><mo>=</mo><mfrac><mi>π</mi><mn>8</mn></mfrac><munderover><mo>∫</mo><mn>0</mn><mi>∞</mi></munderover><mfrac><mrow><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></mfenced><mi>d</mi><mi>y</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>y</mi><mn>4</mn></msup></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><mfrac><mi>π</mi><mn>16</mn></mfrac><munderover><mo>∫</mo><mn>0</mn><mi>∞</mi></munderover><mfrac><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><msup><mi>y</mi><mn>2</mn></msup></mfrac></mrow><mrow><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi>y</mi><mn>2</mn></msup></mfrac></mrow></mfrac><mi>d</mi><mi>y</mi></math></p><p>Putting, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>−</mo><mfrac><mn>1</mn><mi>y</mi></mfrac><mo>=</mo><mi>p</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><mfrac><mi>π</mi><mn>16</mn></mfrac><munderover><mo>∫</mo><mrow><mo>−</mo><mi>∞</mi></mrow><mi>∞</mi></munderover><mfrac><mrow><mi>d</mi><mi>p</mi></mrow><mrow><msup><mi>p</mi><mn>2</mn></msup><mo>+</mo><msup><mfenced><msqrt><mn>2</mn></msqrt></mfenced><mn>2</mn></msup></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><mfrac><mi>π</mi><mrow><mn>16</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac><msubsup><mfenced close=\"]\" open=\"[\"><mrow><msup><mi>tan</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfenced><mfrac><mi>p</mi><msqrt><mn>2</mn></msqrt></mfrac></mfenced></mrow></mfenced><mrow><mo>−</mo><mi>∞</mi></mrow><mi>∞</mi></msubsup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><mfrac><msup><mi>π</mi><mn>2</mn></msup><mrow><mn>16</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><mfrac><mrow><msqrt><mn>2</mn></msqrt><msup><mi>π</mi><mn>2</mn></msup></mrow><mn>32</mn></mfrac></math></p>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYearPapers": [
+    {
+      "_id": "65c4c0c11d30997d3436bb06",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-02-01T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (01 Feb Shift 1)",
+      "title": "JEE Main 2024 (01 Feb Shift 1)"
+    }
+  ],
+  "previousYear": {
+    "_id": "65c4c0c11d30997d3436bb06",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-02-01T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (01 Feb Shift 1)",
+    "title": "JEE Main 2024 (01 Feb Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

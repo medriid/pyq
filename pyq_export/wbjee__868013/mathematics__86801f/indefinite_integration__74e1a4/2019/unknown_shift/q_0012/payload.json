@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\int \\cos x \\log \\left(\\tan \\frac{x}{2}\\right) d x$$=\\sin x \\log \\left(\\tan \\frac{x}{2}\\right)+f(x),$ then $f(x)$ is equal to (assuming $c$ is a arbitrary real constant)"
+  },
+  "options": [
+    {
+      "text": "$c$",
+      "is_correct": false
+    },
+    {
+      "text": "$c-x$",
+      "is_correct": true
+    },
+    {
+      "text": "$c+x$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 x+c$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $I=\\int \\cos x \\log \\left(\\tan \\frac{x}{2}\\right)$\r\n$=\\log \\left(\\tan \\frac{x}{2}\\right) \\cdot \\sin x-\\int \\sin x \\cdot \\frac{1}{\\tan \\frac{x}{2}} \\cdot \\sec ^{2} \\frac{x}{2} \\cdot \\frac{1}{2} d x$\r\n$=\\sin x \\log \\left(\\tan \\frac{x}{2}\\right)-\\int \\sin x \\frac{1}{2 \\sin \\frac{x}{2} \\cos \\frac{x}{2}} d x$\r\n$=\\sin x \\cdot \\log \\left(\\tan \\frac{x}{2}\\right)-\\int \\frac{\\sin x}{\\sin x} d x$\r\n$=\\sin x \\cdot \\log \\left(\\tan \\frac{x}{2}\\right)-\\int 1 d x$\r\n$=\\sin x \\log \\left(\\tan \\frac{x}{2}\\right)-x+c$\r\n$\\therefore f(x)=c-x$"
+  }
+}

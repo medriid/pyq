@@ -1,0 +1,43 @@
+{
+  "index": 71,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of the integral $\\int_{0}^{\\pi / 4} \\frac{\\sin x+\\cos x}{3+\\sin 2 x} d x$\r\nis equal to"
+  },
+  "options": [
+    {
+      "text": "$\\log _{e} 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log _{e} 3$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{4} \\log _{e} 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{4} \\log _{e} 3$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $I=\\int_{0}^{\\pi / 4} \\frac{\\sin x+\\cos x}{3+\\sin 2 x} d x$\r\n$=\\int_{0}^{\\pi / 4} \\frac{\\sin x+\\cos x}{3+2 \\sin x \\cos x} d x$\r\n$=\\int_{0}^{\\pi / 4}-\\frac{\\sin x+\\cos x}{(\\sin x-\\cos x)^{2}-4} d x$\r\nPut $\\sin x-\\cos x=t$\r\n$\\Rightarrow \\quad(\\cos x+\\sin x) d x=d t$\r\nwhen $x=0 \\Rightarrow t=-1$\r\nand $x=\\frac{\\pi}{4} \\Rightarrow t=0$\r\n$\\therefore$ Eq. (i) becomes, $I=-\\int_{-1}^{0} \\frac{d t}{t^{2}-4}=-\\left.\\frac{1}{4}\\left[\\log \\mid \\frac{t-2}{t+2}\\right]\\right|_{-1} ^{0}$\r\n$=-\\frac{1}{4}(\\log 1-\\log 3)$\r\n$=-\\frac{1}{4}(0-\\log 3)=\\frac{1}{4} \\log 3$"
+  }
+}

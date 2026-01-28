@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd27e4f983047d18a96",
+    "chapter_name": "Sequences and Series",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In a GP series consisting of positive terms, each term is equal to the sum of next two terms. Then, the common ratio of this GP series is"
+  },
+  "options": [
+    {
+      "text": "$\\sqrt{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\sqrt{5}-1}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\sqrt{5}}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\sqrt{5}+1}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $a_{n}$ be the general term of a GP whose first term is $a$ and common ratio is $r$. Now according to the question,\r\n$$\r\n\\begin{aligned}\r\na_{n} &=a_{n+1}+a_{n+2} \\\\\r\na r^{n-1} &=a r^{n}+a r^{n+1}\r\n\\end{aligned}\r\n$$\r\n$\\Rightarrow \\quad r^{n-1}=r^{n}+r^{n+1}$\r\n$\\Rightarrow \\quad 1=\\frac{r^{n}}{r^{n-1}}+\\frac{r^{n+1}}{r^{n-1}}$\r\n$\\Rightarrow \\quad 1=r+r^{2}$\r\n$\\Rightarrow r^{2}+r-1=0$\r\n$\\Rightarrow \\begin{aligned}r=& \\frac{-1 \\pm \\sqrt{(1)^{2}-4(1)(-1)}}{2(1)} \\\\ &=\\frac{-1 \\pm \\sqrt{1+4}}{2}=\\frac{-1 \\pm \\sqrt{5}}{2} \\end{aligned}$\r\nsince, GP consists only positive terms\r\n$\\therefore$\r\n$r=\\frac{\\sqrt{5}-1}{2}$"
+  }
+}

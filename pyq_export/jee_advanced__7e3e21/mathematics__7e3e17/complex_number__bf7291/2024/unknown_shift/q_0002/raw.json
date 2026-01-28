@@ -1,0 +1,83 @@
+{
+  "_id": "66965dcbd603121f43a3dda5",
+  "type": "multipleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "66965789b31faf98fda8fef9",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Paper 1)",
+      "title": "JEE Advanced 2024 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $S=\\{a+b \\sqrt{2}: a, b \\in \\mathbb{Z}\\}, T_1=\\left\\{(-1+\\sqrt{2})^n: n \\in \\mathbb{N}\\right\\}$, and $T_2=\\left\\{(1+\\sqrt{2})^n: n \\in \\mathbb{N}\\right\\}$. Then which of the following statements is (are) TRUE?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "5g2mu",
+      "text": "$\\mathbb{Z} \\cup T_1 \\cup T_2 \\subset S$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "iFHiJ",
+      "text": "$T_1 \\cap\\left(0, \\frac{1}{2024}\\right)=\\phi$, where $\\phi$ denotes the empty set.",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "v4K9i",
+      "text": "$T_2 \\cap(2024, \\infty) \\neq \\phi$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "CSTZf",
+      "text": "For any given $a, b \\in \\mathbb{Z}, \\cos (\\pi(a+b \\sqrt{2}))+i \\sin (\\pi(a+b \\sqrt{2})) \\in \\mathbb{Z}$ if and only if $b=0$, where $i=\\sqrt{-1}$.",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "(1)\r\n$\\begin{aligned}& (-1+\\sqrt{2})^{\\mathrm{n}}=\\mathrm{m}+\\sqrt{2} \\mathrm{n}, \\mathrm{m}, \\text{ where, } \\mathrm{n} \\in \\mathbb{Z} \\\\ & (1+\\sqrt{2})^{\\mathrm{n}}=\\mathrm{m}_1+\\sqrt{2} \\mathrm{n}_1, \\text{ where, } \\mathrm{~m}_1, \\mathrm{n}_1 \\in \\mathbb{Z} \\\\& \\Rightarrow \\mathbb{Z} \\cup \\mathrm{T}_1 \\cup \\mathrm{T}_2 \\subseteq \\mathrm{S}\\end{aligned}$\r\nbut $b \\sqrt{2} \\in S$ for negative $b \\in \\mathbb{Z}$.\r\nSo $\\mathbb{Z} \\cup \\mathrm{T}_1 \\cup \\mathrm{T}_2 \\subset \\mathrm{S}$\r\n(2)\r\n$\\begin{aligned} & (\\sqrt{2}-1)^{\\mathrm{n}}=\\frac{1}{(\\sqrt{2}+1)^{\\mathrm{n}}} < \\frac{1}{2024} \\\\ & \\Rightarrow 2024 < (\\sqrt{2}+1)^{\\mathrm{n}}, \\text{ where, } \\exists \\mathrm{n} \\in \\mathbb{N} \\\\ & \\Rightarrow \\mathrm{T}_1 \\cap\\left(0, \\frac{1}{2024}\\right) \\neq \\phi\\end{aligned}$\r\n(3)\r\n$\\begin{aligned} & (1+\\sqrt{2})^{\\mathrm{n}}>2024, \\text{ where, } \\exists \\mathrm{n} \\in \\mathbb{N} \\\\ & \\Rightarrow \\mathrm{T}_2 \\cap(2024, \\infty) \\neq \\phi\\end{aligned}$\r\n(4)\r\n$\\sin (\\pi(a+b \\sqrt{2})=0) \\Rightarrow b=0, \\text{ where, } a \\in \\mathbb{Z}$\r\n$\\Rightarrow$ Options (1), (3), (4) are Correct.",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "7eb93f9719c34d34a6b643e904ffae19",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/2Pm7l90ZlgIZN.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/2Pm7l90ZlgIZN.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "66965789b31faf98fda8fef9",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Paper 1)",
+    "title": "JEE Advanced 2024 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

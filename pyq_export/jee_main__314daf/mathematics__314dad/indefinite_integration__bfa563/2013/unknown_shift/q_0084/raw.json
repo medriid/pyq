@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65cfd",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-25T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (25 Apr Online)",
+      "title": "JEE Main 2013 (25 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "If the integral\n$$\n\\int \\frac{\\cos 8 x+1}{\\cot 2 x-\\tan 2 x} d x=A \\cos 8 x+k\n$$\nwhere $k$ is an arbitrary constant, then $\\mathrm{A}$ is equal to:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "KOP7S",
+      "text": "\n$-\\frac{1}{16}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "YVE7K",
+      "text": "\n $\\frac{1}{16}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "PhoXm",
+      "text": "\n$\\frac{1}{8}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "MuIZk",
+      "text": "\n$-\\frac{1}{8}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $\\mathrm{I}=\\int \\frac{\\cos 8 x+1}{\\cot 2 x-\\tan 2 x} d x$\nNow, $\\mathrm{D}^r=\\cot 2 x-\\tan 2 x=\\frac{\\cos 2 x}{\\sin 2 x}-\\frac{\\sin 2 x}{\\cos 2 x}$\n$$\n=\\frac{\\cos ^2 2 x-\\sin ^2 2 x}{\\sin 2 x \\cos 2 x}=\\frac{2 \\cos 4 x}{\\sin 4 x}\n$$\n$\\begin{aligned} \\therefore \\mathrm{I} &=\\int \\frac{2 \\cos ^2 4 x}{\\frac{2 \\cos 4 x}{\\sin 4 x}} d x=\\int \\frac{2 \\cos ^2 4 x \\cdot \\sin 4 x}{2 \\cos 4 x} d x \\\\ &=\\frac{1}{2} \\int \\sin 8 x d x=-\\frac{1}{2} \\frac{\\cos 8 x}{8}+k \\\\ &=-\\frac{1}{16} \\cdot \\cos 8 x+k \\\\ & \\text { Now },-\\frac{1}{16} \\cdot \\cos 8 x+k=\\mathrm{A} \\cos 8 x+k \\\\ & \\Rightarrow \\mathrm{A}=-\\frac{1}{16} \\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-25T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (25 Apr Online)",
+    "title": "JEE Main 2013 (25 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

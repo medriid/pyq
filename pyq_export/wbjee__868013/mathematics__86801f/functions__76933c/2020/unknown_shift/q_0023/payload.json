@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2020",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0f42b7a9706676933c",
+    "chapter_name": "Functions",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathrm{f}(\\mathrm{x})=\\sqrt{\\mathrm{x}^{2}-3 \\mathrm{x}+2}$ and $\\mathrm{g}(\\mathrm{x})=\\sqrt{\\mathrm{x}}$ be two given functions. If $\\mathrm{S}$ be the domain of $\\mathrm{f} \\circ \\mathrm{g}$ and $\\mathrm{T}$ be the domain of $\\mathrm{g}$ of then"
+  },
+  "options": [
+    {
+      "text": "$S=T$",
+      "is_correct": false
+    },
+    {
+      "text": "$S \\cap T=\\phi$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{S} \\cap \\mathrm{T}$ is a singleton",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{S} \\cap \\mathrm{T}$ is an interval",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Hint: \r\n$f(x)=\\sqrt{(x-1)(x-2)}, g(x)=\\sqrt{x}$\r\n$f(g(x))=\\sqrt{(\\sqrt{x}-1)(\\sqrt{x}-2)}$\r\n$S=\\{x: x \\in[0,1] \\cup[4, \\infty)\\}$\r\n$g(f(x))=\\sqrt{\\sqrt{(x-1)(x-2)}}$\r\n$T=\\{x: x \\in(-\\infty, 1] \\cup[2, \\infty)\\}$"
+  }
+}

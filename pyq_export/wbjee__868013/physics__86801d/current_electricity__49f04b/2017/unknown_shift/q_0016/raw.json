@@ -1,0 +1,63 @@
+{
+  "_id": "64a81439e0ff5a5425a859a7",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7c",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2017-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2017",
+      "title": "WBJEE 2017"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Consider the circuit shown in the figure.\r\nThe value of the resistance $X$ for which the thermal power generated in it is independent of small variation of its resistance is\r\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/wbjee/2017_phy_q16.png\">",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "LkwPc",
+      "text": "$X=R$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Gi2eM",
+      "text": "$X=\\frac{R}{3}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "xFSJp",
+      "text": "$X=\\frac{R}{2}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "oywBj",
+      "text": "$X=2 R$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/wbjee/2017_phy_a16.png\">\r\n\r\nFor above circuit\r\n$$\r\n\\begin{array}{l}\r\n\\frac{1}{R^{\\prime}}=\\frac{1}{R}+\\frac{1}{X}=\\frac{R+X}{R X} \\\\\r\nR^{\\prime}=\\frac{R X}{R+X}\r\n\\end{array}\r\n$$\r\nThe current in the circuit $i=\\frac{E}{R+R^{\\prime}}=\\frac{E}{\\left(R+\\frac{R X}{R+X}\\right)}$\r\n$V_{k=}=\\frac{E \\cdot \\frac{R X}{R+X}}{\\left(R+\\frac{R X}{R+X}\\right)}=\\frac{E X}{R+2 X}$\r\nPower dissipated in the circuit\r\n$\\begin{aligned} P_{x} &=\\frac{V_{B X}^{2}}{X}=\\frac{E^{2} \\cdot X^{2}}{X(R+2 X)^{2}} \\\\ &=\\frac{E^{2} X}{(R+2 X)^{2}} \\\\ \\frac{d P_{X}}{d X} &=E^{2} \\frac{(R-2 X)}{(R+2 X)^{3}} \\\\ d P_{X} &=\\frac{E^{2}(R-2 X)}{(R+2 X)^{3}} \\cdot d X \\end{aligned}$\r\n$\\left(d P_{x}\\right)$ will be zero for all $(d X)$ if $X=\\frac{R}{2} \\quad\\left[d P_{x}=\\frac{E^{2}\\left(R-2 \\times \\frac{R}{2}\\right)}{\\left(R+2 \\times \\frac{R}{2}\\right)^{3}}\\right]$\r\n$$\r\n=0",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7c",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2017-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2017",
+    "title": "WBJEE 2017"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

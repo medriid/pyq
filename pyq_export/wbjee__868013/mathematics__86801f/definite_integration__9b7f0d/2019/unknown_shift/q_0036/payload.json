@@ -1,0 +1,43 @@
+{
+  "index": 36,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\int 2^{2^{x}} \\cdot 2^{x} d x=A \\cdot 2^{2^{x}}+C,$ then $A$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{\\log 2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$(\\log 2)^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{(\\log 2)^{2}}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\r\n\\begin{aligned}\r\n&\\text { (d) Let } I=\\int 2^{2^{x}} \\cdot 2^{x} d x\\\\\r\n&\\begin{array}{l}\r\n\\text { Put } \\quad t=2^{x} \\\\\r\n\\Rightarrow \\quad d t=2^{x} \\log 2 d x \\\\\r\n\\therefore \\quad I=\\int \\frac{2^{t}}{\\log 2} d t \\\\\r\n=\\frac{2^{t}}{(\\log 2)^{2}}+C=\\frac{2^{2^{x}}}{(\\log 2)^{2}}+C \\\\\r\n\\therefore \\quad A=\\frac{1}{(\\log 2)^{2}}\r\n\\end{array}\r\n\\end{aligned}\r\n$$"
+  }
+}

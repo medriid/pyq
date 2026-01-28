@@ -1,0 +1,43 @@
+{
+  "index": 25,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602402632932165bf0ef64",
+    "chapter_name": "Electrostatics",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Three infinitely long wires with linear charge density $\\lambda$ are placed along the $x-a x i s, y$-axis and $z-$ axis respectively. Which of the following denotes an equipotential surface?"
+  },
+  "options": [
+    {
+      "text": "$x y z=$ constant",
+      "is_correct": false
+    },
+    {
+      "text": "$x y+y z+z x=$ constant",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(x^2+y^2\\right)\\left(y^2+z^2\\right)\\left(z^2+x^2\\right)=$ constant",
+      "is_correct": true
+    },
+    {
+      "text": "$(x+y)(y+z)(z+x)=$ constant",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Potential due to an infinite wire is $V=2 k \\lambda \\ln r$, where $r$ is the distance from the wire.\n\nTaking the point in space $P(x, y, z)$\nDistance from wire along $x$-axis is $r_x=\\sqrt{y^2+z^2}$\nDistance from wire along $y$-axis is $r_y=\\sqrt{x^2+z^2}$\nDistance from wire along $z$-axis is $r_z=\\sqrt{x^2+y^2}$\n$\\Rightarrow$ Potential at $P$ due to wire along $x$-axis is\n$V_x=2 k \\lambda \\ln r_x$\n\nPotential at $P$ due to wire along $y$-axis is\n$V_y=2 k \\lambda \\ln r_y$\n\nPotential at $P$ due to wire along $z$-axis is\n$V_z=2 k \\lambda \\ln r_z$\n$\\Rightarrow$ Not potential at $P=V=V_x+V_y+V_z$\nor $\\quad V=2 k \\lambda \\ln r_x+2 k \\lambda \\ln r_y+2 k \\lambda \\ln r_z$\ni.e. $V=2 k \\lambda \\ln \\left(r_x r_y r_z\\right)$\nor\n$\\begin{aligned}\n& V=2 k \\lambda \\ln \\left(\\sqrt{y^2+z^2} \\sqrt{z^2+x^2} \\sqrt{x^2+y^2}\\right) \\\\\n& =k \\lambda \\ln \\left(y^2+z^2\\right)\\left(z^2+x^2\\right)\\left(x^2+y^2\\right)\n\\end{aligned}$\n$\\Rightarrow$ For equipotential surface\n$\\left(x^2+y^2\\right)\\left(y^2+z^2\\right)\\left(z^2+x^2\\right)=\\text { constant }$"
+  }
+}

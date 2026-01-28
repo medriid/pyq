@@ -1,0 +1,43 @@
+{
+  "index": 24,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602555685234356f221f74",
+    "chapter_name": "Functions",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $\\mathrm{A}=\\{1,2,3,4\\}$ and $\\mathrm{B}=\\{1,4,9,16\\}$. Then the number of many-one functions $f: \\mathrm{A} \\rightarrow \\mathrm{B}$ such that $1 \\in f(\\mathrm{~A})$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "151",
+      "is_correct": true
+    },
+    {
+      "text": "139",
+      "is_correct": false
+    },
+    {
+      "text": "163",
+      "is_correct": false
+    },
+    {
+      "text": "127",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& A=\\{1,2,3,4\\} \\\\\n& B=\\{1,4,9,16\\}\n\\end{aligned}$\n\nTotal number of functions $=4^4$\nTotal number of one-one functions $=4!$\nTotal number of many one functions $=4^4-4!=232$\nTotal number of many-one functions in which $1 \\notin f(A)=3 \\times 3 \\times 3 \\times 3=81$\n$\\therefore$ Total number of many one functions $1 \\notin f(A)$\n$\\begin{aligned}\n& =232-81 \\\\\n& =151\n\\end{aligned}$"
+  }
+}

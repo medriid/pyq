@@ -1,0 +1,43 @@
+{
+  "index": 32,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ccd1d619927718b113a",
+    "chapter_name": "Permutation Combination",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Out of 7 consonants and 4 vowels, the number of words (not necessarily meaningful) that can be made, each consisting of 3 consonants and 2 vowels, is"
+  },
+  "options": [
+    {
+      "text": "24800",
+      "is_correct": false
+    },
+    {
+      "text": "25100",
+      "is_correct": false
+    },
+    {
+      "text": "25200",
+      "is_correct": true
+    },
+    {
+      "text": "25400",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "3 consonants can be selected from 7 consonante\r\n$$\r\n={ }^{7} C_{3} \\text { ways }\r\n$$\r\n2 vowels can be selected from 4 vowels\r\n$$\r\n={ }^{4} C_{2} \\text { ways }\r\n$$\r\n$\\therefore$ Required number of words\r\n$$\r\n={ }^{7} C_{3} \\times{ }^{4} C_{2} \\times 5 !\r\n$$\r\n[selected 5 letters can be arrange in $51,$ so got, a different words]\r\n$$\r\n=35 \\times 6 \\times 120=25200\r\n$$"
+  }
+}

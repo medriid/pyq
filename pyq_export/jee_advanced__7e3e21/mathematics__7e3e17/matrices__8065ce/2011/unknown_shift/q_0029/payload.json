@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2011 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254f7a96128fc38065ce",
+    "chapter_name": "Matrices",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $M$ and $N$ be two $3 \\times 3$ non-singular skew-symmetric matrices such that $M N=N M$. If $P^T$ denotes the transpose of $P$, then $M^2 N^2\\left(M^T N\\right)^{-1}\\left(M N^{-1}\\right)^T$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$M^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-N^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-M^2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$M N$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given, $M^T=-M, N^T=-N$\nand $\\quad M N=N M$\n$$\n\\begin{aligned}\n\\therefore & M^2 N^2\\left(M^T N\\right)^{-1}\\left(M N^{-1}\\right)^T \\\\\n& =M^2 N^2 N^{-1}\\left(M^T\\right)^{-1}\\left(N^{-1}\\right)^T \\cdot M^T \\\\\n& =M^2 N\\left(N N^{-1}\\right)(-M)^{-1}\\left(N^T\\right)^{-1}(-M) \\\\\n& =M^2 N\\left(-M^{-1}\\right)(-N)^{-1}(-M) \\\\\n& =-M^2 N M^{-1} N^{-1} M \\\\\n& =-M \\cdot(M N) M^{-1} N^{-1} M \\\\\n& =-M(N M) M^{-1} N^{-1} M \\\\\n& =-M N\\left(N M^{-1}\\right) N^{-1} M \\\\\n& =-M\\left(N N^{-1}\\right) M=-M^2\n\\end{aligned}\n$$\nNote Here, non-singular word should not be used, since there is no non-singular $3 \\times 3$ skew-symmetric matrix."
+  }
+}

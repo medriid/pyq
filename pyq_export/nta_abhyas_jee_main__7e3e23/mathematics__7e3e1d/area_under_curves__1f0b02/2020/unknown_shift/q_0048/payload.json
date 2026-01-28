@@ -1,0 +1,24 @@
+{
+  "index": 48,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025663b8251277a1f0b02",
+    "chapter_name": "Area Under Curves",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area bounded by the curves&nbsp; <math> <mrow> <mi>y</mi> <mo>=</mo> <mtext>ln</mtext> <mi>x</mi> <mtext>,&#160;</mtext> <mi>y</mi> <mo>=</mo> <mtext>ln</mtext> <mfenced close=\"|\" open=\"|\" separators=\",\"> <mrow> <mi>x</mi> </mrow> </mfenced> <mtext>,&#160;</mtext> <mi>y</mi> <mo>=</mo> <mfenced close=\"|\" open=\"|\" separators=\",\"> <mrow> <mtext>ln</mtext> <mi>&#160;x</mi> </mrow> </mfenced> </mrow> </math>&nbsp;and <math> <mrow> <mi>y</mi> <mo>=</mo> <mfenced close=\"|\" open=\"|\" separators=\",\"> <mrow> <mtext>ln</mtext> <mfenced close=\"|\" open=\"|\" separators=\",\"> <mrow> <mi>x</mi> </mrow> </mfenced> </mrow> </mfenced> </mrow> </math>,&nbsp;for <math> <mrow> <mi>x</mi><mo>&#8712;</mo><mrow><mo>(</mo> <mrow> <mo>&#8722;</mo><mn>1</mn><mo>,</mo><mtext>&#8201;</mtext><mn>1</mn></mrow> <mo>)</mo></mrow></mrow> </math> is"
+  },
+  "options": [],
+  "correct_answer": "4",
+  "solution": {
+    "text": "The required shaded region is as shown in figure<br /><br /><img alt=\"\" src=\"assets\\st0048_cafba874aa32.png\" style=\"width: 283px; height: 255px;\" /><br /><br />As the graph is symmetric in all quadrants, we calculate area in one&nbsp;quadrant&nbsp;and multiply by 4.<br /><br />Hence, required area <math> <mrow> <mo>=</mo><mn>4</mn><mrow><mo>|</mo> <mrow> <mstyle displaystyle=\"true\"> <mrow><munderover> <mo>∫</mo> <mn>0</mn> <mn>1</mn> </munderover> <mrow> <mrow><mo>(</mo> <mrow> <mi>l</mi><mi>n</mi><mtext> </mtext><mi>x</mi></mrow> <mo>)</mo></mrow><mo>.</mo><mi>d</mi><mi>x</mi></mrow> </mrow> </mstyle></mrow> <mo>|</mo></mrow></mrow> </math><br /><br /><math> <mrow> <mi>A</mi><mo>=</mo><mn>4</mn><mrow><mo>|</mo> <mrow> <msubsup> <mrow> <mrow><mo>[</mo> <mrow> <mi>x</mi><mtext> </mtext><mi>l</mi><mi>n</mi><mtext> </mtext><mi>x</mi><mo>−</mo><mi>x</mi></mrow> <mo>]</mo></mrow></mrow> <mn>0</mn> <mn>1</mn> </msubsup> </mrow> <mo>|</mo></mrow></mrow> </math><br /><br /><math> <mrow> <mi>A</mi><mo>=</mo><mn>4</mn><mrow><mo>|</mo> <mrow> <mrow><mo>[</mo> <mrow> <mrow><mo>(</mo> <mrow> <mn>1</mn><mtext> </mtext><mi>l</mi><mi>n</mi><mtext> </mtext><mn>1</mn><mo>−</mo><mn>1</mn></mrow> <mo>)</mo></mrow><mo>−</mo><munder> <mrow> <mi>lim</mi></mrow> <mrow> <mi>x</mi><mo>→</mo><msup> <mn>0</mn> <mo>+</mo> </msup> </mrow> </munder> <mrow><mo>(</mo> <mrow> <mi>x</mi><mtext> </mtext><mi>l</mi><mi>n</mi><mtext> </mtext><mi>x</mi><mo>−</mo><mi>x</mi></mrow> <mo>)</mo></mrow></mrow> <mo>]</mo></mrow></mrow> <mo>|</mo></mrow></mrow> </math><br /><br /><math> <mrow> <mi>A</mi><mo>=</mo><mn>4</mn><mrow><mo>|</mo> <mrow> <mrow><mo>[</mo> <mrow> <mrow><mo>(</mo> <mrow> <mn>0</mn><mo>−</mo><mn>1</mn></mrow> <mo>)</mo></mrow><mo>−</mo><munder> <mrow> <mi>lim</mi></mrow> <mrow> <mi>x</mi><mo>→</mo><msup> <mn>0</mn> <mo>+</mo> </msup> </mrow> </munder> <mfrac> <mrow> <mi>l</mi><mi>n</mi><mtext> </mtext><mi>x</mi></mrow> <mrow> <mfrac> <mn>1</mn> <mi>x</mi> </mfrac> </mrow> </mfrac> <mo>−</mo><mn>0</mn></mrow> <mo>]</mo></mrow></mrow> <mo>|</mo></mrow><mo>=</mo><mn>4</mn><mrow><mo>|</mo> <mrow> <mrow><mo>[</mo> <mrow> <mo>−</mo><mn>1</mn><mo>−</mo><munder> <mrow> <mi>lim</mi></mrow> <mrow> <mi>x</mi><mo>→</mo><msup> <mn>0</mn> <mo>+</mo> </msup> </mrow> </munder> <mfrac> <mrow> <mfrac> <mn>1</mn> <mi>x</mi> </mfrac> </mrow> <mrow> <mo>−</mo><mfrac> <mn>1</mn> <mrow> <msup> <mi>x</mi> <mn>2</mn> </msup> </mrow> </mfrac> </mrow> </mfrac> </mrow> <mo>]</mo></mrow></mrow> <mo>|</mo></mrow></mrow> </math><br /><br /><math> <mrow> <mi>A</mi><mo>=</mo><mn>4</mn><mrow><mo>|</mo> <mrow> <mrow><mo>[</mo> <mrow> <mo>−</mo><mn>1</mn><mo>+</mo><munder> <mrow> <mi>lim</mi></mrow> <mrow> <mi>x</mi><mo>→</mo><msup> <mn>0</mn> <mo>+</mo> </msup> </mrow> </munder> <mi>x</mi></mrow> <mo>]</mo></mrow></mrow> <mo>|</mo></mrow></mrow> </math><br /><br /><math> <mrow> <mi>A</mi><mo>=</mo><mo>+</mo><mn>4</mn><mrow><mo>|</mo> <mrow> <mo>−</mo><mn>1</mn></mrow> <mo>|</mo></mrow></mrow> </math><br /><br /><math> <mrow> <mi>A</mi><mo>=</mo><mn>4</mn></mrow> </math>"
+  }
+}

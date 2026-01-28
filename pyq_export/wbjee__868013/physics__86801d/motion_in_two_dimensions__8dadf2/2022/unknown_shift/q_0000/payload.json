@@ -1,0 +1,44 @@
+{
+  "index": 0,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c746f9d7c1ee88dadf2",
+    "chapter_name": "Motion In Two Dimensions",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A particle is moving in $x-y$ plane according to $\\vec{r}=b \\cos \\omega t \\hat{i}+b \\sin \\omega t \\hat{j}$. Where $\\omega$ is constant. Which of the following statement(s) is / are true?"
+  },
+  "options": [
+    {
+      "text": "$\\frac{E}{\\omega}$ is a constant where $E$ is the total energy of the particle",
+      "is_correct": true
+    },
+    {
+      "text": "The trajectory of the particle in $x-y$ plane is a circle",
+      "is_correct": true
+    },
+    {
+      "text": "In $a_x-a_y$ plane, trajectory of the particle is an ellipse $\\left(a_x, a_y\\right.$ denotes the components of acceleration)",
+      "is_correct": false
+    },
+    {
+      "text": "$\\vec{a}=\\omega^2 \\vec{v}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "B"
+  ],
+  "solution": {
+    "text": "$\\vec{r}=b \\cos \\omega t i+b \\sin \\omega t j$\n$\\vec{v}=\\frac{d \\vec{r}}{d t}=-b \\omega \\sin \\omega t+b \\omega \\cos \\omega t j$\n$(\\vec{v})=\\sqrt{b^2 \\omega^2 \\sin ^2 \\omega t+b^2 \\omega^2 \\cos ^2 \\omega t}$\n$(\\vec{v})=b \\omega \\rightarrow$ constant $\\quad \\therefore E=\\frac{1}{2} m v^2=$ constant\n$E=\\frac{1}{2} m\\left[b^2 \\omega^2\\right] \\quad \\Rightarrow \\frac{E}{\\omega}=\\frac{1}{2} m b^2 \\cdot \\omega=$ constant\n$x=b \\cos \\omega t$\n$y=b \\sin \\omega t$\n$x^2+y^2=b^2 \\rightarrow$ equation of circle\n$\\therefore \\vec{a} \\perp \\vec{v} \\quad$ So $\\vec{a} \\neq \\omega^2 \\vec{v}$"
+  }
+}

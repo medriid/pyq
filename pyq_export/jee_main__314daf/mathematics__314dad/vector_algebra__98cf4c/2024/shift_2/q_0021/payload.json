@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $\\vec{a}=2 \\hat{i}+\\alpha \\hat{j}+\\hat{k}, \\vec{b}=-\\hat{i}+\\hat{k}, \\vec{c}=\\beta \\hat{j}-\\hat{k}$, where $\\alpha$ and $\\beta$ are integers and $\\alpha \\beta=-6$. Let the values of the ordered pair $(\\alpha, \\beta)$, for which the area of the parallelogram of diagonals $\\vec{a}+\\vec{b}$ and $\\vec{b}+\\vec{c}$ is $\\frac{\\sqrt{21}}{2}$, be $\\left(\\alpha_1, \\beta_1\\right)$ and $\\left(\\alpha_2, \\beta_2\\right)$. Then $\\alpha_1^2+\\beta_1^2-\\alpha_2 \\beta_2$ is equal to"
+  },
+  "options": [
+    {
+      "text": "19",
+      "is_correct": true
+    },
+    {
+      "text": "17",
+      "is_correct": false
+    },
+    {
+      "text": "24",
+      "is_correct": false
+    },
+    {
+      "text": "21",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\text { Area of parallelogram } \\left.=\\frac{1}{2} \\right\\rvert\\, \\overrightarrow{\\mathrm{d}}_1 \\times \\overrightarrow{\\mathrm{d}}_2 \\\\ & \\mathrm{~A}=\\frac{1}{2}|(\\overrightarrow{\\mathrm{a}}+\\overrightarrow{\\mathrm{b}}) \\times(\\overrightarrow{\\mathrm{b}}+\\overrightarrow{\\mathrm{c}})|=\\frac{\\sqrt{21}}{2} \\\\ & \\text { so, } \\overrightarrow{\\mathrm{a}}+\\overrightarrow{\\mathrm{b}}=\\hat{\\mathrm{i}}+\\alpha \\hat{\\mathrm{j}}+2 \\hat{\\mathrm{k}} \\\\ & \\overrightarrow{\\mathrm{b}}+\\overrightarrow{\\mathrm{c}}=-\\hat{\\mathrm{i}}+\\beta \\hat{\\mathrm{j}} \\\\ & (\\overrightarrow{\\mathrm{a}}+\\overrightarrow{\\mathrm{b}}) \\times(\\overrightarrow{\\mathrm{b}}+\\overrightarrow{\\mathrm{c}})=\\left|\\begin{array}{ccc}\\hat{\\mathrm{i}} & \\hat{\\mathrm{j}} & \\hat{\\mathrm{k}} \\\\ 1 & \\alpha & 2 \\\\ -1 & \\beta & 0\\end{array}\\right|\\end{aligned}$\n$\\begin{aligned}\n& =\\hat{\\mathrm{i}}(-2 \\beta)-\\hat{\\mathrm{j}}(2)+\\hat{\\mathrm{k}}(\\beta+\\alpha) \\\\\n& |(\\overrightarrow{\\mathrm{a}}+\\overrightarrow{\\mathrm{b}}) \\times(\\overrightarrow{\\mathrm{b}}+\\overrightarrow{\\mathrm{c}})|=\\sqrt{4 \\beta^2+4+(\\alpha+\\beta)^2}=\\sqrt{21} \\\\\n& 4 \\beta^2+4+\\alpha^2+\\beta^2+2 \\alpha \\beta=21 \\\\\n& \\alpha^2+5 \\beta^2-12=17 \\\\\n& \\alpha^2+5 \\beta^2=29\n\\end{aligned}$\nand $\\alpha \\beta=-6$\nand given $\\alpha_{\\mathrm{i}} \\beta$ are integers\nso, $\\alpha=-3, \\beta=2$\nor\n$\\begin{aligned}\n& \\alpha=3, \\beta=-2 \\\\\n& \\left(\\alpha_1, \\beta_1\\right)=(-3,2) \\\\\n& \\left(\\alpha_2, \\beta_2\\right)=(3,-2) \\\\\n& \\alpha_1^2+\\beta_1^2-\\alpha_2 \\beta_2=9+4+6=19\n\\end{aligned}$"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "67a2ee8ec8b73881fdaea0ea",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d97609",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-22T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (22 Jan Shift 2)",
+      "title": "JEE Main 2025 (22 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If $x=f(y)$ is the solution of the differential equation\n$\\left(1+y^2\\right)+\\left(x-2 \\mathrm{e}^{\\tan ^{-1} y}\\right) \\frac{\\mathrm{d} y}{\\mathrm{~d} x}=0, y \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$\nwith $f(0)=1$, then $f\\left(\\frac{1}{\\sqrt{3}}\\right)$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "14e12",
+      "text": "$e^{\\pi / 12}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "mcBbx",
+      "text": "$e^{\\pi / 4}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "vOw8X",
+      "text": "$e^{\\pi / 3}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Yjnhx",
+      "text": "$e^{\\pi / 6}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\frac{\\mathrm{dx}}{\\mathrm{dy}}+\\frac{\\mathrm{x}}{1+\\mathrm{y}^2}=\\frac{2 \\mathrm{e}^{\\tan ^{-1} \\mathrm{y}}}{1+\\mathrm{y}^2} \\\\ & \\text { I.F. }=\\mathrm{e}^{\\tan ^{-1} \\mathrm{y}} \\\\ & \\mathrm{xe}^{\\tan ^{-1} \\mathrm{y}}=\\int \\frac{2\\left(\\mathrm{e}^{\\tan ^{-1} \\mathrm{y}}\\right)^2 \\mathrm{dy}}{1+\\mathrm{y}^2} \\\\ & \\text { Put } \\tan ^{-1} \\mathrm{y}=\\mathrm{t}, \\frac{\\mathrm{dy}}{1+\\mathrm{y}^2}=\\mathrm{dt} \\\\ & \\mathrm{xe}^{\\tan ^{-1} \\mathrm{y}}=\\int 2 \\mathrm{e}^{2 \\mathrm{t}} \\mathrm{dt} \\\\ & \\mathrm{xe}^{\\tan ^{-1} \\mathrm{y}}=\\mathrm{e}^{2 \\tan ^{-1} \\mathrm{y}}+\\mathrm{c} \\\\ & \\mathrm{x}=\\mathrm{e}^{\\tan ^{-1} \\mathrm{y}}+\\mathrm{ce}^{-\\tan ^{-1} \\mathrm{y}} \\\\ & \\because \\mathrm{y}=0, \\mathrm{x}=1 \\\\ & 1=1+\\mathrm{c} \\Rightarrow \\mathrm{c}=0 \\\\ & \\mathrm{y}=\\frac{1}{\\sqrt{3}}, \\mathrm{x}=\\mathrm{e}^{\\pi / 6}\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "8e5db43c8dea485bb2d554aa07d20566",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/xefghV5SaDLsS.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/xefghV5SaDLsS.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d97609",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-22T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (22 Jan Shift 2)",
+    "title": "JEE Main 2025 (22 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

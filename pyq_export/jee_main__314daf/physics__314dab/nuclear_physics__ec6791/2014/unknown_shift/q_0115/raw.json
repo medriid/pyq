@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65ddf",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d8",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (11 Apr Online)",
+      "title": "JEE Main 2014 (11 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "A radioactive nuclei with decay constant $0.5 / \\mathrm{s}$ is being produced at a constant rate of 100 nuclei/s. If at $t=0$ there were no nuclei, the time when there are 50 nuclei is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "oSZkF",
+      "text": "\n$1 \\mathrm{~s}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "oGipC",
+      "text": "\n$2 \\ln \\left(\\frac{4}{3}\\right) \\mathrm{s}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "XFc2J",
+      "text": "\n$\\ln 2 \\mathrm{~s}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "olnxd",
+      "text": "\n$\\ln \\left(\\frac{4}{3}\\right) \\mathrm{s}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $N$ be the number of nuclei at any time $t$ then,\n$$\n\\begin{aligned}\n&\\frac{d N}{d t}=100-\\lambda N \\\\\n&\\text { or } \\int_0^N \\frac{d N}{(100-\\lambda N)}=\\int_0^t d t \\\\\n&-\\frac{1}{\\lambda}[\\log (100-\\lambda N)]_0^N=t \\\\\n&\\log (100-\\lambda N)-\\log 100=-\\lambda t \\\\\n&\\log \\frac{100-\\lambda N}{100}=-\\lambda t \\\\\n&\\frac{100-\\lambda N}{100}=e^{-\\lambda t} \\\\\n&1-\\frac{\\lambda N}{100}=e^{-\\lambda t}\n\\end{aligned}\n$$\n$$\n\\begin{aligned}\n&N=\\frac{100}{\\lambda}\\left(1-e^{-\\lambda} t\\right) \\\\\n&\\text { As, } N=50 \\text { and } \\lambda=0.5 / \\mathrm{sec} \\\\\n&\\therefore 50=\\frac{100}{0.5}\\left(1-e^{-0.5 t}\\right)\n\\end{aligned}\n$$\nSolving we get,\n$$\nt=2 \\ln \\left(\\frac{4}{3}\\right) \\mathrm{sec}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d8",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (11 Apr Online)",
+    "title": "JEE Main 2014 (11 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

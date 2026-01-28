@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2025",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0788c63c34f9ca1226",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\operatorname{adj} \\mathrm{B}=\\mathrm{A},|\\mathrm{P}|=|\\mathrm{Q}|=1$, then $\\operatorname{adj}\\left(\\mathrm{Q}^{-1} \\mathrm{BP}^{-1}\\right)=$"
+  },
+  "options": [
+    {
+      "text": "PQ",
+      "is_correct": false
+    },
+    {
+      "text": "QAP",
+      "is_correct": false
+    },
+    {
+      "text": "PAQ",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{PA}^{-1} \\mathrm{Q}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\left.\\text { adj( } Q^{-1} B P^{-1}\\right) \\\\ & =\\left|Q^{-1} B P^{-1}\\right|\\left(Q^{-1} B P^{-1}\\right)^{-1} \\\\ & =\\left|Q^{-1}\\right||B|\\left|P^{-1}\\right| PB^{-1} Q \\\\ & =|B| P \\frac{(\\operatorname{adj} \\mathrm{~B})}{|B|} Q \\\\ & =\\text { PAQ }\\end{aligned}$"
+  }
+}

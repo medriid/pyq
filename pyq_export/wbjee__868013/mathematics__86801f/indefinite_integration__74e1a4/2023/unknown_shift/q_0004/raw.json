@@ -1,0 +1,63 @@
+{
+  "_id": "64a81493e0ff5a5425a85cf7",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad6",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2023-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023",
+      "title": "WBJEE 2023"
+    }
+  ],
+  "question": {
+    "text": "The value of \\(\\int_0^{1 / 2} \\frac{d x}{\\sqrt{1-x^{2 n}}}\\) is \\((n \\in \\mathbb{N})\\)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "8L4M8",
+      "text": "less than or equal to \\(\\frac{\\pi}{6}\\)",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "DNAzC",
+      "text": "greater than or equal to 1",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "i2HNK",
+      "text": "less than \\(\\frac{1}{2}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "oMaU7",
+      "text": "greater than \\(\\frac{\\pi}{6}\\)",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint : For 0 to \\(\\frac{1}{2}\\)\n\\(\\begin{aligned} & x^2 \\geq x^{2 n} \\\\ & \\Rightarrow-x^2 \\leq-x^{2 n} \\\\ & \\Rightarrow 1-x^2 \\leq 1-x^{2 n} \\\\ & \\Rightarrow \\frac{1}{\\sqrt{1-x^2}} \\geq \\frac{1}{\\sqrt{1-x^{2 n}}} \\\\ & \\Rightarrow \\int_0^{1 / 2} \\frac{1}{\\sqrt{1-x^2}} d x \\geq \\int_0^{1 / 2} \\frac{1}{\\sqrt{1-x^{2 n}}} d x \\\\ & \\Rightarrow\\left[\\sin ^{-1} x\\right]_0^{1 / 2} \\geq \\mathrm{I} \\\\ & \\Rightarrow \\frac{\\pi}{6} \\geq I \\\\ & \\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad6",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2023-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023",
+    "title": "WBJEE 2023"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

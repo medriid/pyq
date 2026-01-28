@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023b36f5a53c6a5d4ce42",
+    "chapter_name": "Laws of Motion",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "A given object takes $\\mathrm{n}$ times the time to slide down $45^{\\circ}$ rough inclined plane as it takes the time to slide down an identical perfectly smooth $45^{\\circ}$ inclined plane. The coefficient of kinetic friction between the object and the surface of inclined plane is :"
+  },
+  "options": [
+    {
+      "text": "$\\sqrt{1-\\frac{1}{n^2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$1-n^2$",
+      "is_correct": false
+    },
+    {
+      "text": "$1-\\frac{1}{n^2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\sqrt{1-n^2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0010_f84432b41a77.png\"><br />Case-1 : No friction\n$\\begin{aligned}\n& \\mathrm{a}=\\mathrm{g} \\sin \\theta \\\\\n& \\ell=\\frac{1}{2}(\\mathrm{~g} \\sin \\theta) \\mathrm{t}_1^2 \\\\\n& \\mathrm{t}_1=\\sqrt{\\frac{2 \\ell}{\\mathrm{g} \\sin \\theta}}\n\\end{aligned}$\nCase-2 : With friction\n$\\begin{aligned}\n& \\mathrm{a}=\\mathrm{g} \\sin \\theta-\\mu \\mathrm{g} \\cos \\theta \\\\\n& \\ell=\\frac{1}{2}(\\mathrm{~g} \\sin \\theta-\\mu \\mathrm{g} \\cos \\theta) \\mathrm{t}_2^2 \\\\\n& \\sqrt{\\frac{2 \\ell}{\\mathrm{g} \\sin \\theta-\\mu g \\cos \\theta}}=\\mathrm{n} \\sqrt{\\frac{2 \\ell}{\\mathrm{g} \\sin \\theta}} \\\\\n& \\mu=1-\\frac{1}{\\mathrm{n}^2}\n\\end{aligned}$"
+  }
+}

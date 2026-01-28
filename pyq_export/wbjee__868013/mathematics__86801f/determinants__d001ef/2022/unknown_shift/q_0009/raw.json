@@ -1,0 +1,63 @@
+{
+  "_id": "64a8148ae0ff5a5425a85c9a",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "63120b11f89b13efdfdcda63",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2022-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022",
+      "title": "WBJEE 2022"
+    }
+  ],
+  "question": {
+    "text": "Let $\\Delta=\\left|\\begin{array}{ccc}\\sin \\theta \\cos \\phi & \\sin \\theta \\sin \\phi & \\cos \\theta \\\\ \\cos \\theta \\cos \\phi & \\cos \\theta \\sin \\phi & -\\sin \\theta \\\\ -\\sin \\theta \\sin \\phi & \\sin \\theta \\cos \\phi & 0\\end{array}\\right|$. Then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "3lAZS",
+      "text": "$\\Delta$ is independent of $\\theta$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "F7PrL",
+      "text": "$\\Delta$ is independent of $\\varphi$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "T68pP",
+      "text": "$\\Delta$ is a constant",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "IVe01",
+      "text": "$\\left(\\frac{d \\Delta}{d \\theta}\\right)_{\\theta-\\frac{\\pi}{2}}=0$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\Delta=\\left|\\begin{array}{ccc}\\sin \\theta \\cos \\phi & \\sin \\theta \\sin \\phi & \\cos \\theta \\\\ \\cos \\theta \\cos \\phi & \\cos \\theta \\sin \\phi & -\\sin \\theta \\\\ -\\sin \\theta \\sin \\phi & \\sin \\theta \\cos \\phi & 0\\end{array}\\right|$\n$\\begin{aligned}\n\\mathrm{C}_1 \\longrightarrow \\mathrm{C}_1-\\left(\\frac{\\cos \\phi}{\\sin \\phi}\\right) \\mathrm{C}_2 \\Rightarrow \\Delta=\\left|\\begin{array}{ccc}\n0 & \\sin \\theta \\sin \\phi & \\cos \\theta \\\\\n0 & \\cos \\theta \\sin \\phi & -\\sin \\theta \\\\\n-\\frac{\\sin \\theta}{\\sin \\phi} & \\sin \\theta \\cos \\phi & \\theta\n\\end{array}\\right| \\\\\n&=\\frac{\\sin \\theta}{\\sin \\phi} \\cdot \\sin \\phi\\left(\\cos ^2 \\theta+\\sin ^2 \\theta\\right)= \\sin \\theta \\rightarrow \\text { Independent of } \\phi \\\\\n\\frac{\\mathrm{d} \\Delta}{\\mathrm{d} \\theta}=\\left.\\cos \\theta \\Rightarrow \\frac{\\mathrm{d} \\Delta}{\\mathrm{d} \\theta}\\right|_{\\theta-\\frac{\\pi}{2}}=0\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "63120b11f89b13efdfdcda63",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2022-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022",
+    "title": "WBJEE 2022"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

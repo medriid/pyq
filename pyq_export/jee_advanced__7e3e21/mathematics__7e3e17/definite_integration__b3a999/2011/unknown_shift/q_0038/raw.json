@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a0ff23ac7d519f9b0f6",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c48",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2011-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011 (Paper 1)",
+      "title": "JEE Advanced 2011 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "The value of $\\int_{\\sqrt{\\log 2}}^{\\sqrt{\\log 3}} \\frac{x \\sin x^2}{\\sin x^2+\\sin \\left(\\log 6-x^2\\right)} d x$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "MU6Re",
+      "text": "\n$\\frac{1}{4} \\log \\frac{3}{2}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "gQBqQ",
+      "text": "\n$\\frac{1}{2} \\log \\frac{3}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "nsu1e",
+      "text": "\n$\\log \\frac{3}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "RimT2",
+      "text": "\n$\\frac{1}{6} \\log \\frac{3}{2}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Put $x^2=t \\Rightarrow x d x=\\frac{d t}{2}$ $\\therefore \\quad I=\\int_{\\log 2}^{\\log 3} \\frac{\\sin t \\cdot \\frac{d t}{2}}{\\sin t+\\sin (\\log 6-t)}$\nUsing, $\\quad \\int_a^b f(x) d x=\\int_a^b f(a+b-x) d x$\n$$\n\\begin{aligned}\n& I=\\frac{1}{2} \\int_{\\log 2}^{\\log 3} \\frac{\\sin (\\log 2+\\log 3-t)}{\\sin (\\log 2+\\log 3-t)+\\sin } d t \\\\\n& I=\\frac{1}{2} \\int_{\\log 2}^{\\log 3} \\frac{\\sin (\\log 6-t)}{\\sin (\\log 6-t)+\\sin (t)} d t \\\\\n& \\therefore I=\\int_{\\log 2}^{\\log 3} \\frac{\\sin (\\log 6-t)}{\\sin (\\log 6-t)+\\sin t} d t \\quad \\ldots(\\mathrm{li})\n\\end{aligned}\n$$\nOn adding Eqs. (i) and (ii), we get\n$$\n2 I=\\frac{1}{2} \\int_{\\log 2}^{\\log 3} \\frac{\\sin t+\\sin (\\log 6-t)}{\\sin (\\log 6-t)+\\sin t} d t\n$$\n$$\n\\begin{gathered}\n\\therefore \\quad 2 I=\\frac{1}{2}(t)_{\\log 2}^{\\log 3}=\\frac{1}{2}(\\log 3-\\log 2) \\\\\n\\Rightarrow I=\\frac{1}{4} \\log \\left(\\frac{3}{2}\\right)\n\\end{gathered}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c48",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2011-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011 (Paper 1)",
+    "title": "JEE Advanced 2011 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

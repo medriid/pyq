@@ -1,0 +1,43 @@
+{
+  "index": 30,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c88aedbe61edbf4a8ad",
+    "chapter_name": "Electrostatics",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A point charge $-q$ is carried from a point $A$ to another point $B$ on the axis of a charged ring of radius $r$ carrying a charge $+q$. If the point $A$ is at a distance $\\frac{4}{3} r$ from the centre of the\r\nring and the point $B$ is $\\frac{3}{4} r$ from the centre but\r\non the opposite side, what is the net work that need to be done for this?"
+  },
+  "options": [
+    {
+      "text": "$-\\frac{7}{5} \\cdot \\frac{q^{2}}{4 \\pi \\varepsilon_{0} r}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{1}{5} \\cdot \\frac{q^{2}}{4 \\pi \\varepsilon_{0} I}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{7}{5} \\cdot \\frac{q^{2}}{4 \\pi \\varepsilon_{0} r}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{5} \\cdot \\frac{q^{2}}{4 \\pi \\varepsilon_{0} r}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "A charged circular ring of radius $R$ is shown in figure.\r\n<img src=\"assets\\st0030_76d31fda7b2e.png\">\r\nFrom the figure, $d=\\sqrt{x^{2}+r^{2}}$\r\n$\\therefore$ Potential due to a uniform ring of positive charge $q$ at point $P$\r\n$$\r\n\\begin{aligned}\r\nV &=\\frac{1}{4 \\pi \\varepsilon_{0}} \\cdot \\frac{q}{d} \\\\\r\n&=\\frac{1}{4 \\pi \\varepsilon_{0}} \\cdot \\frac{q}{\\sqrt{x^{2}+r^{2}}} \\quad[\\text { from Eq. }\r\n\\end{aligned}\r\n$$\r\nNow,<img src=\"assets\\st0030_bfc2545e0c6c.png\">\r\n$\\therefore C B=\\sqrt{O C^{2}+O B^{2}}=\\sqrt{r^{2}+\\left(\\frac{3}{4}\\right)^{2} r^{2}}=\\frac{5}{4} r$\r\nSimilarly, $A C=\\frac{5}{3} r$\r\n$\\therefore$ Work done in bringing a point charge $-q$ from $A$\r\nto $B$,\r\n$\\begin{aligned} W &=-q\\left(V_{B}-V_{A}\\right) \\\\ &=-q\\left[\\frac{1}{4 \\pi \\varepsilon_{0}} \\cdot \\frac{q}{C B}-\\frac{1}{4 \\pi \\varepsilon_{0}} \\cdot \\frac{q}{C A}\\right] \\\\=& \\frac{-1}{4 \\pi \\varepsilon_{0}} \\cdot q^{2}\\left[\\frac{1}{\\frac{5}{4} r}-\\frac{1}{5}\\right] \\\\=& \\frac{-1}{4 \\pi \\varepsilon_{0}} \\cdot \\frac{q^{2}}{5 r}[4-3]=-\\frac{1}{5} \\cdot \\frac{1}{4 \\pi \\varepsilon_{0}} \\cdot \\frac{q^{2}}{r} \\end{aligned}$"
+  }
+}

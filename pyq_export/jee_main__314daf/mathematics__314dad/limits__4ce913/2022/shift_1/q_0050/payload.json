@@ -1,0 +1,43 @@
+{
+  "index": 50,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2022 (25 Jul Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2022",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfenced><mrow><msqrt><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mi>n</mi><mo>-</mo><mn>1</mn></msqrt><mo>+</mo><mi>n</mi><mi>&#945;</mi><mo>+</mo><mi>&#946;</mi></mrow></mfenced><mo>=</mo><mn>0</mn></math> then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mfenced><mrow><mi>&#945;</mi><mo>+</mo><mi>&#946;</mi></mrow></mfenced></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>8</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>4</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<blockquote><p>Given,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><msqrt><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mi>n</mi><mo>-</mo><mn>1</mn></msqrt><mo>+</mo><mi>&#945;</mi><mi>n</mi><mo>+</mo><mi>&#946;</mi><mo>=</mo><mn>0</mn></math></p><p>Now rewriting the expression we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><msup><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>+</mo><mi>&#945;</mi><mi>n</mi><mo>=</mo><mo>-</mo><mi>&#946;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mo>&#160;</mo><mi>n</mi><msup><mfenced><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>-</mo><mfrac><mn>1</mn><msup><mi>n</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>+</mo><mi>&#945;</mi><mi>n</mi><mo>=</mo><mo>-</mo><mi>&#946;</mi></math></p><p>Now on using binomial approximation&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced><mi>n</mi></msup><mo>=</mo><mn>1</mn><mo>+</mo><mi>n</mi><mi>x</mi></math>&nbsp;we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mo>&#160;</mo><mi>n</mi><mfenced><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>n</mi></mrow></mfrac><mo>-</mo><mfrac><mn>1</mn><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow></mfrac></mrow></mfenced><mo>+</mo><mi>&#945;</mi><mi>n</mi><mo>=</mo><mo>-</mo><mi>&#946;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mo>&#160;</mo><mi>n</mi><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>n</mi></mrow></mfrac><mo>+</mo><mi>&#945;</mi><mi>n</mi><mo>=</mo><mo>-</mo><mi>&#946;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mo>&#160;</mo><mi>n</mi><mfenced><mrow><mn>1</mn><mo>+</mo><mi>&#945;</mi></mrow></mfenced><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>n</mi></mrow></mfrac><mo>=</mo><mo>-</mo><mi>&#946;</mi></math></p><p>Now for limit to exist&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>1</mn><mo>+</mo><mi>&#945;</mi></mrow></mfenced><mo>=</mo><mn>0</mn><mo>&#8658;</mo><mi>&#945;</mi><mo>=</mo><mo>-</mo><mn>1</mn></math></p><p>Now on putting the value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi></math>&nbsp;we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mo>&#160;</mo><mi>n</mi><mfenced><mrow><mn>1</mn><mo>+</mo><mi>&#945;</mi></mrow></mfenced><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>n</mi></mrow></mfrac><mo>=</mo><mo>-</mo><mi>&#946;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mo>&#160;</mo><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>n</mi></mrow></mfrac><mo>=</mo><mo>-</mo><mi>&#946;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>-</mo><mn>0</mn><mo>=</mo><mo>-</mo><mi>&#946;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#946;</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math></p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mfenced><mrow><mi>&#945;</mi><mo>+</mo><mi>&#946;</mi></mrow></mfenced><mo>=</mo><mn>8</mn><mfenced><mrow><mo>-</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced><mo>=</mo><mn>8</mn><mo>&#215;</mo><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mo>-</mo><mn>4</mn></math></p></blockquote>"
+  }
+}

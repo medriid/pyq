@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let \\(f\\) be a non-negative function defined on \\(\\left[0, \\frac{\\pi}{2}\\right]\\). If \\(\\int_0^x\\left(f^{\\prime}(t)-\\sin 2 t\\right) d t=\\int_x^0 f(t) \\tan t d t, f(0)=1\\), then \\(\\int_0^{\\frac{\\pi}{2}} f(x) d x\\) is"
+  },
+  "options": [
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "\\(3-\\frac{\\pi}{2}\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(3+\\frac{\\pi}{2}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{\\pi}{2}\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n\\text {Hint } & f^{\\prime}(x)-\\sin 2 x=-f(x) \\tan x \\\\\n& \\Rightarrow f^{\\prime}(x)+\\tan x f(x)=\\sin 2 x \\\\\n& \\Rightarrow \\frac{d f(x)}{d x}+\\tan x . f(x)=\\sin 2 x\n\\end{aligned}\\)\n\\(\\text { If }=e^{f \\tan x d x}=e^{\\ln |\\sec x|}=|\\sec x|=\\sec x \\quad \\text { As, } x \\in\\left[0, \\frac{\\pi}{2}\\right]\\)\nSolution is,\n\\(\\begin{aligned}\n& f(x) \\times \\sec x=\\int \\sin 2 x \\sec x d x=\\int 2 \\sin x \\cos x \\sec x d x=2 \\int \\sin x d x \\\\\n& f(x) \\sec x=-2 \\cos x+C \\\\\n& \\text { Put } x=0 ; f(0)=1 \\\\\n& f(0) \\sec 0=-2 \\cos 0+c \\\\\n& \\Rightarrow 1=-2+C \\quad \\therefore C=3\n\\end{aligned}\\)\n\\(\\therefore\\) Required solution is;\n\\(\\begin{aligned}\n& f(x) \\sec x=-2 \\cos x+3 \\\\\n& f(x)=-2 \\cos ^2 x+3 \\cos x\n\\end{aligned}\\)\n\\(\\begin{aligned}\n& =-2\\left(\\frac{1+\\cos 2 x}{2}\\right)+3 \\cos x=-1-\\cos 2 x+3 \\cos x \\\\\n& f(x)=-1-\\cos 2 x+3 \\cos x\n\\end{aligned}\\)\nNow \\(\\int_0^{\\frac{\\pi}{2}} f(x) d x\\)\n\\(\\int_0^{\\frac{\\pi}{2}}(-1-\\cos 2 x+3 \\cos x) d x=\\left[-x-\\frac{\\sin 2 x}{2}+3 \\sin x\\right]_0 ^{-\\frac{\\pi}{2}}=\\left(-\\frac{\\pi}{2}+3\\right)-0=3-\\frac{\\pi}{2}\\)\n\\(\\left[-x-\\frac{\\sin 2 x}{2}+\\left.3 \\sin x\\right|_0 ^{\\frac{\\pi}{2}}\\right.\\)"
+  }
+}

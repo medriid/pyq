@@ -1,0 +1,63 @@
+{
+  "_id": "64a813e5e0ff5a5425a85684",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec2",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2013-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013",
+      "title": "WBJEE 2013"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "There are two coins, one unbiased with probaility $\\frac{1}{2}$ or getting heads and the other one is biased with probability $\\frac{3}{4}$ of getting heads. A coin is selected at random and tossed. It shows heads up. Then, the probability that the unbiased coin wa selected is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "iFKPa",
+      "text": "$\\frac{2}{3}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "eUozc",
+      "text": "$\\frac{3}{5}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "bsnGX",
+      "text": "$\\frac{1}{2}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "w256D",
+      "text": "$\\frac{2}{5}$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $E \\rightarrow$ Event of head showing up\r\n$E_{1} \\rightarrow$ Event of biased coin chosen\r\n$E_{2} \\rightarrow$ Event of unbiased coin chosen Now, $P\\left(E_{2}\\right)=\\frac{1}{2}$ and $P\\left(E_{1}\\right)=\\frac{1}{2}$\r\nAlso, $P\\left(\\frac{E}{E_{2}}\\right)=\\frac{1}{2}$ and $P\\left(\\frac{E}{E_{1}}\\right)=\\frac{3}{4}$\r\n(by conditional probability) By Baye's theorem\r\n$$\r\n\\begin{aligned}\r\nP\\left(\\frac{E_{2}}{E}\\right)=& \\frac{P\\left(E_{2}\\right) \\cdot P\\left(\\frac{E}{E_{2}}\\right)}{P\\left(E_{2}\\right) \\cdot P\\left(\\frac{E}{E_{2}}\\right)+P\\left(E_{1}\\right) \\cdot P\\left(\\frac{E}{E_{1}}\\right)} \\\\\r\n&=\\frac{\\frac{1}{2} \\times \\frac{1}{2}}{\\frac{1}{2} \\times \\frac{1}{2}+\\frac{1}{2} \\times \\frac{3}{4}}=\\frac{2}{5}\r\n\\end{aligned}\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec2",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2013-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013",
+    "title": "WBJEE 2013"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 232,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (12 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\vec{u}=\\hat{j}+4 \\hat{k}, \\vec{v}=\\hat{i}+3 \\hat{k}$ and $\\vec{w}=\\cos \\theta \\hat{i}+\\sin \\theta \\hat{j}$ are vectors in 3-dimensional space, then the maximum possible value of $|\\vec{u} \\times \\vec{v} \\cdot \\vec{w}|$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\sqrt{3}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n5\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\sqrt{14}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n7",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $\\vec{u}=\\hat{j}+4 \\hat{k}, \\vec{v}=\\hat{i}-3 \\hat{k}$ and\n$$\n\\vec{w}=\\cos \\theta \\hat{i}+\\sin \\theta \\hat{j}\n$$\nNow, $\\vec{u} \\times \\vec{v}=\\left|\\begin{array}{ccc}\\hat{i} & \\hat{j} & \\hat{k} \\\\ 0 & 1 & 4 \\\\ 1 & 0 & -3\\end{array}\\right|$\n$$\n=\\hat{i}(-3+\\hat{j}-4(+\\hat{k})-1 \\quad(\\quad)\n$$\n$$\n=-3 \\hat{i}+4 \\hat{j}-\\hat{k}\n$$\nNow,\n$$\n\\begin{aligned}\n& (\\vec{u} \\times \\vec{v}) \\cdot \\vec{w}=(-3 \\hat{i}+4 \\hat{j}-\\hat{k}) \\cdot(\\cos \\theta \\hat{i}+\\sin \\theta \\hat{j}) \\\\\n& =-3 \\cos \\theta+4 \\sin \\theta\n\\end{aligned}\n$$\nNow, maximum possible value of\n$$\n|-3 \\cos \\theta+4 \\sin \\theta|=\\sqrt{(-3)^2+(4)^2}=\\sqrt{25}=5\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2025",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0788c63c34f9ca1226",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Suppose, $\\alpha, \\beta, \\gamma$ are the roots of the equation $\\mathrm{x}^3+\\mathrm{qx}+\\mathrm{r}=0($ with $\\mathrm{r} \\neq 0)$ and they are in A.P. Then the rank of the matrix $\\left(\\begin{array}{lll}\\alpha & \\beta & \\gamma \\\\ \\beta & \\gamma & \\alpha \\\\ \\gamma & \\alpha & \\beta\\end{array}\\right)$ is"
+  },
+  "options": [
+    {
+      "text": "$3$",
+      "is_correct": false
+    },
+    {
+      "text": "$2$",
+      "is_correct": false
+    },
+    {
+      "text": "$0$",
+      "is_correct": false
+    },
+    {
+      "text": "None of the above",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Here, $\\alpha+\\beta+\\gamma=0$\n$\\left|\\begin{array}{lll}\n\\alpha & \\beta & \\gamma \\\\\n\\beta & \\gamma & \\alpha \\\\\n\\gamma & \\alpha & \\beta\n\\end{array}\\right|=-\\left(\\alpha^3+\\beta^3+\\gamma^3-3 \\alpha \\beta \\gamma\\right)=0(\\because \\alpha+\\beta+\\gamma=0)$\n\nGiven, $2 \\beta=\\alpha+\\gamma \\Rightarrow 3 \\beta=\\alpha+\\beta+\\gamma \\Rightarrow \\beta=0 \\Rightarrow r=0$ (But given $r \\neq 0$ )"
+  }
+}

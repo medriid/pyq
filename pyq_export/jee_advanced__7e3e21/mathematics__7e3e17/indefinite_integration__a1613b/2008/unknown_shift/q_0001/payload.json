@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2008 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025609b22fd9ad3a1613b",
+    "chapter_name": "Indefinite Integration",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $I=\\int \\frac{e^x}{e^{4 x}+e^{2 x}+1} d x, J=\\int \\frac{e^{-x}}{e^{-4 x}+e^{-2 x}+1} d x$.\nThen, for an arbitrary constant $C$, the value of $J-I$ equals"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{2} \\log \\left|\\frac{e^{4 x}-e^{2 x}+1}{e^{4 x}+e^{2 x}+1}\\right|+C$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{2} \\log \\left|\\frac{e^{2 x}+e^x+1}{e^{2 x}-e^x+1}\\right|+C$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{2} \\log \\left|\\frac{e^{2 x}-e^x+1}{e^{2 x}+e^x+1}\\right|+C$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{1}{2} \\log \\left|\\frac{e^{4 x}+e^{2 x}+1}{e^{4 x}-e^{2 x}+1}\\right|+C$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Since, $J=\\int \\frac{e^{3 x}}{1+e^{2 x}+e^{4 x}} d x$\n$$\n\\begin{aligned}\n\\therefore J-I & =\\int \\frac{\\left(e^{3 x}-e^x\\right)}{1+e^{2 x}+e^{4 x}} d x=\\int \\frac{\\left(u^2-1\\right)}{1+u^2+u^4} d u \\\\\n& =\\int \\frac{\\left(1-\\frac{1}{u^2}\\right)}{1+\\frac{1}{u^2}+u^2} d u=\\int \\frac{\\left(1-\\frac{1}{u^2}\\right)}{\\left(u+\\frac{1}{u}\\right)^2-1} d u \\\\\n& =\\int \\frac{d t}{t^2-1} \\\\\n& =\\frac{1}{2} \\log \\left|\\frac{t-1}{t+1}\\right|+C \\\\\n& =\\frac{1}{2} \\log \\left|\\frac{u^2-u+1}{u^2+u+1}\\right|+C=\\frac{1}{2} \\log \\left|\\frac{e^{2 x}-e^x+1}{e^{2 x}+e^x+1}\\right|+C\n\\end{aligned}\n$$"
+  }
+}

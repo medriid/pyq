@@ -1,0 +1,43 @@
+{
+  "index": 26,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A fair coin is tossed at a fixed number of times. If the probability of getting exactly 3 heads equals the probability of getting exactly 5 heads, then the probability of getting exactly one head is"
+  },
+  "options": [
+    {
+      "text": "$1 / 64$",
+      "is_correct": false
+    },
+    {
+      "text": "$1 / 32$",
+      "is_correct": true
+    },
+    {
+      "text": "$1 / 16$",
+      "is_correct": false
+    },
+    {
+      "text": "$1 / 8$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let the coin be tossed $n$ times \r\nLet getting head is consider to be success $\\therefore \\quad p=\\frac{1}{2}, q=1-p=1-\\frac{1}{2}=\\frac{1}{2}$\r\nIt is given that,\r\n$P(X=3)=P(X=5)$\r\n$\\Rightarrow \\quad{ }^{n} C_{3}\\left(\\frac{1}{2}\\right)^{3}\\left(\\frac{1}{2}\\right)^{n-3}={ }^{n} C_{5}\\left(\\frac{1}{2}\\right)^{5}\\left(\\frac{1}{2}\\right)^{n-5}$\r\n$\\Rightarrow \\quad{ }^{n} C_{3}={ }^{n} C_{5}$\r\n$\\Rightarrow \\quad n=3+5 \\quad\\left[\\because^{n} C_{x}={ }^{n} C_{y} \\Rightarrow x+y=n \\mid\\right.$\r\n$\\Rightarrow \\quad n=8$\r\nNow, $P(X=1)={ }^{8} C_{1}\\left(\\frac{1}{2}\\right)^{1}\\left(\\frac{1}{2}\\right)^{8-1}$\r\n$={ }^{8} C_{1} \\times\\left(\\frac{1}{2}\\right)^{8}=\\frac{1}{32}$"
+  }
+}

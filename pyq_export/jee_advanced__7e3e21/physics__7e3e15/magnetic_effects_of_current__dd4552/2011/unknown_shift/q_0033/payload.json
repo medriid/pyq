@@ -1,0 +1,24 @@
+{
+  "index": 33,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2011 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "616024227e2ba4496fdd4552",
+    "chapter_name": "Magnetic Effects of Current",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A long circular tube of length $10 \\mathrm{~m}$ and radius $0.3 \\mathrm{~m}$ carries a current I along its curved surface as shown. A wire loop of resistance $0.005 \\Omega$ and of radius $0.1 \\mathrm{~m}$ is placed inside the tube with its axis coinciding with the axis of the tube. The current varies as $I=I_0 \\cos 300 t$, where $I_0$ is constant. If the magnetic moment of the loop is $N \\mu_0 I_0 \\sin 300 t$, then $N$ is\n<img src=\"assets\\qt0033_c3068e5d9793.png\"><br>"
+  },
+  "options": [],
+  "correct_answer": "6",
+  "solution": {
+    "text": "Take the circular tube as a long solenoid. The wires are closely wound. Magnetic field inside the solenoid is\n$$\nB=\\mu_0 n i\n$$\nHere, $n=$ number of turns per unit length\n$\\therefore n i=$ current per unit length\nIn the given problem,\n\n$$\n\\begin{aligned}\n& n i=\\frac{I}{L} \\\\\n\\therefore \\quad B & =\\frac{\\mu_0 I}{L}\n\\end{aligned}\n$$\nFlux passing through the circular coil is\n$$\n\\phi=B S=\\left(\\frac{\\mu_0 I}{L}\\right)\\left(\\pi r^2\\right)\n$$\nInduced emf, $e=-\\frac{d \\phi}{d t}=-\\left(\\frac{\\mu_0 \\pi r^2}{L R}\\right) \\cdot \\frac{d I}{d t}$\nInduced current,\n$$\ni=\\frac{e}{R}=-\\left(\\frac{\\mu_0 \\pi r^2}{L R}\\right) \\frac{d I}{d t}\n$$\nMagnetic moment $i A=i \\pi r^2$\nor $\\quad M=-\\left(\\frac{\\mu_0 \\pi^2 r^4}{L R}\\right) \\cdot \\frac{d I}{d t}$\nGiven, $\\quad I=I_0 \\cos 300 t$\n$$\n\\therefore \\quad \\frac{d I}{d t}=-300 I_0 \\sin (300 t)\n$$\n\nSubstituting in Eq. (i), we get\n$$\n\\begin{aligned}\nM & =\\left(\\frac{300 \\pi^2 r^4}{L R}\\right) \\mu_0 I_0 \\sin 300 t \\\\\n\\therefore \\quad N & =\\frac{300 \\pi^2 r^4}{L R}\n\\end{aligned}\n$$\nSubstituting the values, we get\n$$\n\\begin{aligned}\nN & =\\frac{300(22 / 7)^2(0.1)^4}{(10)(0.005)} \\\\\n& =5.926\n\\end{aligned}\n$$\nor $\\quad N \\simeq 6$\nAnalysis of Question\nQuestion is difficult to understand inside the examination hall. But 5 to $10 \\%$ question in IIT JEE are always difficult. Students should not panic. Because topper of IIT JEE scores approximately $80-90 \\%$."
+  }
+}

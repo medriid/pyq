@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255664248d3dbfc7e6c7",
+    "chapter_name": "Functions",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If <math><mi>P</mi><mo>=</mo><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mn>1,2</mn><mo>,</mo><mn>3,4</mn><mo>,</mo><mn>5</mn></mrow></mfenced><mi mathvariant=\"normal\"></mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi><mo>=</mo><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi></mrow></mfenced></math>, then the number of onto functions from <math><mi>P</mi></math> to <math><mi>Q</mi></math> is"
+  },
+  "options": [
+    {
+      "text": "<math><mn>150</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mn>144</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>147</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>154</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Total number of functions&nbsp;<math><mo>=</mo><msup><mrow><mn>3</mn></mrow><mrow><mn>5</mn></mrow></msup></math><br />(since each of <math><mn>1,2</mn><mo>,</mo><mn>3,4</mn></math> or <math><mn>5</mn></math> can correspond to any of <math><mi>a</mi><mo>,</mo><mi></mi><mi>b</mi></math> or <math><mi>c</mi></math>)<br />The number of functions that corresponds to only one element of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> is <math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>3</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>×</mo><msup><mrow><mn>1</mn></mrow><mrow><mn>5</mn></mrow></msup></math> and the number of functions that correspond to atmost two elements of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> is <math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>3</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>×</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>5</mn></mrow></msup><mo>.</mo></math><br />Total number of onto functions&nbsp;<math><mo>=</mo><msup><mrow><mn>3</mn></mrow><mrow><mn>5</mn></mrow></msup><msup><mrow><mo>-</mo></mrow><mrow><mn>3</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>×</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>5</mn></mrow></msup><mo>+</mo><mi mathvariant=\"normal\"></mi><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>3</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>×</mo><msup><mrow><mn>1</mn></mrow><mrow><mn>5</mn></mrow></msup><mo>=</mo><mn>243</mn><mo>-</mo><mn>96</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>150</mn></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced separators=\"|\"><mrow><msup><mrow></mrow><mn>3</mn></msup><msub><mi>C</mi><mn>1</mn></msub><mo>×</mo><msup><mn>1</mn><mn>5</mn></msup><mo>&nbsp;</mo><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">s</mi><mo>&nbsp;</mo><mi mathvariant=\"normal\">r</mi><mi mathvariant=\"normal\">e</mi><mi mathvariant=\"normal\">p</mi><mi mathvariant=\"normal\">e</mi><mi mathvariant=\"normal\">a</mi><mi mathvariant=\"normal\">t</mi><mi mathvariant=\"normal\">e</mi><mi mathvariant=\"normal\">d</mi><mo>&nbsp;</mo><mi mathvariant=\"normal\">t</mi><mi mathvariant=\"normal\">w</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">e</mi><mo>&nbsp;</mo><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi><msup><mo>&nbsp;</mo><mn>3</mn></msup><msub><mi>C</mi><mn>2</mn></msub><mo>×</mo><msup><mn>2</mn><mn>5</mn></msup></mrow></mfenced></math>"
+  }
+}

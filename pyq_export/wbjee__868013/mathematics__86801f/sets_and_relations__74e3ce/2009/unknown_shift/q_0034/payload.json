@@ -1,0 +1,43 @@
+{
+  "index": 34,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2009",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d00146ed0ebdd74e3ce",
+    "chapter_name": "Sets and Relations",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For any two sets $\\mathrm{A}$ and $\\mathrm{B}, \\mathrm{A}-(\\mathrm{A}-\\mathrm{B})$ equals"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{B}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{A}-\\mathrm{B}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{A} \\cap \\mathrm{B}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{A}^{\\mathrm{C}} \\cap \\mathrm{B}^{\\mathrm{C}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hints: $A-(A-B)=A-\\left(A \\cap B^c\\right)=A \\cap\\left(A \\cap B^c\\right)^c=A \\cap\\left(A^c \\cup B\\right)=\\left(A \\cap A^c\\right) \\cup(A \\cap B)=A \\cap B$"
+  }
+}

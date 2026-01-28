@@ -1,0 +1,24 @@
+{
+  "index": 25,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2006",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "616023e361589c931bc035b7",
+    "chapter_name": "Thermal Properties of Matter",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In an insulated vessel, $0.05 \\mathrm{~kg}$ steam at $373 \\mathrm{~K}$ and $0.45 \\mathrm{~kg}$ of ice at $253 \\mathrm{~K}$ are mixed. Find the final temperature of the mixture (in kelvin).\n$$\n\\text { Given, } \\begin{aligned}\nL_{\\text {fusion }} & =80 \\mathrm{cal} / \\mathrm{g}=336 \\mathrm{~J} / \\mathrm{g}, L_{\\text {vaporization }}=540 \\mathrm{cal} / \\mathrm{g}=2268 \\mathrm{~J} / \\mathrm{g}, \\\\\nS_{\\text {ice }} & =2100 \\mathrm{~J} / \\mathrm{kg}, K=0.5 \\mathrm{cal} / \\mathrm{gK} \\text { and } S_{\\text {water }}=4200 \\mathrm{~J} / \\mathrm{kg}, K=1 \\mathrm{cal} / \\mathrm{gK} .\n\\end{aligned}\n$$"
+  },
+  "options": [],
+  "correct_answer": "273",
+  "solution": {
+    "text": "$0.05 \\mathrm{~kg}$ steam at $373 \\mathrm{~K} \\stackrel{Q_1}{\\longrightarrow} 0.05 \\mathrm{~kg}$ water at $373 \\mathrm{~K}$\n$0.05 \\mathrm{~kg}$ water at $373 \\mathrm{~K} \\stackrel{Q_2}{\\longrightarrow} 0.05$ kg water at $273 \\mathrm{~K}$\n$0.45 \\mathrm{~kg}$ ice at $253 \\mathrm{~K} \\stackrel{Q_3}{\\longrightarrow} 0.45 \\mathrm{~kg}$ ice at $273 \\mathrm{~K}$\n$0.45 \\mathrm{~kg}$ ice at $273 \\mathrm{~K} \\stackrel{Q_4}{\\longrightarrow} 0.45 \\mathrm{~kg}$ water at $273 \\mathrm{~K}$\n$$\n\\begin{aligned}\n& Q_1=(50)(540)=27,000 \\mathrm{cal}=27 \\mathrm{kcal} \\\\\n& Q_2=(50)(1)(100)=5000 \\mathrm{cal}=5 \\mathrm{kcal} \\\\\n& Q_3=(450)(0.5)(20)=4500 \\mathrm{cal}=4.5 \\mathrm{kcal} \\\\\n& Q_4=(450)(80)=36000 \\mathrm{cal}=36 \\mathrm{kcal}\n\\end{aligned}\n$$\nNow since $Q_1+Q_2>Q_3$ but $Q_1+Q_2 < Q_3+Q_4$ ice will come to $273 \\mathrm{~K}$ from $253 \\mathrm{~K}$, but whole ice will not melt. Therefore temperature of the mixture is $273 \\mathrm{~K}$."
+  }
+}

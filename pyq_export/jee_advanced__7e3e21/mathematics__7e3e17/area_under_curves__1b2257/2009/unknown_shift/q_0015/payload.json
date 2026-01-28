@@ -1,0 +1,45 @@
+{
+  "index": 15,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2009 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025668251a1afed1b2257",
+    "chapter_name": "Area Under Curves",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Area of the region bounded by the curve $y=e^x$ and lines $x=0$ and $y=e$ is"
+  },
+  "options": [
+    {
+      "text": "\n$e-1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\int_1^e \\ln (e+1-y) d y$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$e-\\int_0^1 e^x d x$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\int_1^e \\ln y d y$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "C",
+    "D"
+  ],
+  "solution": {
+    "text": "Shaded area $=e-\\left(\\int_0^1 e^x d x\\right)=1$\nAlso, $\\quad \\int_1^e \\ln (e+1-y) d y$\n<img src=\"assets\\st0015_73e0e8417ed9.png\"><br>\n$$\n\\begin{aligned}\n& =\\int_e^q \\ln t(-d t) \\\\\n& \\text { [put } e+1-y=t \\Rightarrow-d y=d t \\text { ] } \\\\\n& =\\int_1^e \\ln t d t=\\int_1^e \\ln y d y=1\n\\end{aligned}\n$$"
+  }
+}

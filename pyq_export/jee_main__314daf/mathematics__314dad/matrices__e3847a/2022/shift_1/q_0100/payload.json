@@ -1,0 +1,43 @@
+{
+  "index": 100,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2022 (25 Jun Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2022",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mfenced open=\"[\" close=\"]\"><mtable columnalign=\"right\"><mtr><mtd><mn>0</mn></mtd><mtd><mo>-</mo><mn>2</mn></mtd></mtr><mtr><mtd><mn>2</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></mfenced></math>. If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math> are two matrices given by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><msup><mrow><mo>&#160;</mo><mi>A</mi></mrow><mrow><mn>2</mn><mi>k</mi></mrow></msup></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><msup><mrow><mo>&#160;</mo><mi>A</mi></mrow><mrow><mn>2</mn><mi>k</mi><mo>-</mo><mn>1</mn></mrow></msup></math>&nbsp;then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><msup><mi>N</mi><mn>2</mn></msup></math>&nbsp;is"
+  },
+  "options": [
+    {
+      "text": "a non-identity symmetric matrix",
+      "is_correct": true
+    },
+    {
+      "text": "a skew-symmetric matrix",
+      "is_correct": false
+    },
+    {
+      "text": "neither symmetric nor skew-symmetric matrix",
+      "is_correct": false
+    },
+    {
+      "text": "an identity matrix",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p>Since&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mn>0</mn></mtd><mtd><mo>-</mo><mn>2</mn></mtd></mtr><mtr><mtd><mn>2</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></mfenced></math></p><p>So&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>A</mi><mn>2</mn></msup><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mn>0</mn></mtd><mtd><mo>-</mo><mn>2</mn></mtd></mtr><mtr><mtd><mn>2</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></mfenced><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mn>0</mn></mtd><mtd><mo>-</mo><mn>2</mn></mtd></mtr><mtr><mtd><mn>2</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></mfenced><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mo>-</mo><mn>4</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mo>-</mo><mn>4</mn></mtd></mtr></mtable></mfenced><mo>=</mo><mo>-</mo><mn>4</mn><mi>I</mi></math></p><p>and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>A</mi><mn>3</mn></msup><mo>=</mo><mo>-</mo><mn>4</mn><mi>A</mi></math></p><p>Similarly&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>A</mi><mn>4</mn></msup><mo>=</mo><mfenced><mrow><mo>-</mo><mn>4</mn><mi>I</mi></mrow></mfenced><mfenced><mrow><mo>-</mo><mn>4</mn><mi>I</mi></mrow></mfenced><mo>=</mo><msup><mfenced><mrow><mo>-</mo><mn>4</mn></mrow></mfenced><mn>2</mn></msup><mi>I</mi></math>,&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>A</mi><mn>5</mn></msup><mo>=</mo><msup><mfenced><mrow><mo>-</mo><mn>4</mn></mrow></mfenced><mn>2</mn></msup><mi>A</mi><mo>,</mo><mo>&#160;&#160;</mo><msup><mrow><mo>&#160;</mo><mi>A</mi></mrow><mn>6</mn></msup><mo>=</mo><msup><mfenced><mrow><mo>-</mo><mn>4</mn></mrow></mfenced><mn>3</mn></msup><mi>I</mi></math></p><p>Now&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><msup><mi>A</mi><mrow><mn>2</mn><mi>k</mi></mrow></msup><mo>=</mo><msup><mi>A</mi><mn>2</mn></msup><mo>+</mo><msup><mi>A</mi><mn>4</mn></msup><mo>+</mo><mo>&#8230;</mo><mo>.</mo><mo>+</mo><msup><mi>A</mi><mn>20</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced close=\"]\" open=\"[\"><mrow><mo>-</mo><mn>4</mn><mo>+</mo><msup><mfenced><mrow><mo>-</mo><mn>4</mn></mrow></mfenced><mn>2</mn></msup><mo>+</mo><msup><mfenced><mrow><mo>-</mo><mn>4</mn></mrow></mfenced><mn>3</mn></msup><mo>+</mo><mo>&#8230;</mo><mo>.</mo><mo>+</mo><msup><mfenced><mrow><mo>-</mo><mn>4</mn></mrow></mfenced><mn>20</mn></msup></mrow></mfenced><mi>I</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><msub><mi>k</mi><mn>1</mn></msub><mi>I</mi></math></p><p>So&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> is symmetric matrix</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><msup><mrow><mo>&#160;</mo><mi>A</mi></mrow><mrow><mn>2</mn><mi>k</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mi>A</mi><mo>+</mo><msup><mi>A</mi><mn>3</mn></msup><mo>+</mo><mo>&#8230;</mo><mo>&#8230;</mo><mo>+</mo><msup><mi>A</mi><mn>19</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>A</mi><mfenced close=\"]\" open=\"[\"><mrow><mn>1</mn><mo>+</mo><mfenced><mrow><mo>-</mo><mn>4</mn></mrow></mfenced><mo>+</mo><msup><mfenced><mrow><mo>-</mo><mn>4</mn></mrow></mfenced><mn>2</mn></msup><mo>+</mo><mo>&#8230;</mo><mo>&#8230;</mo><mo>+</mo><msup><mfenced><mrow><mo>-</mo><mn>4</mn></mrow></mfenced><mn>9</mn></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msub><mi>k</mi><mn>2</mn></msub><mi>A</mi></math></p><p>So <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math>&nbsp;is skew symmetric</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>N</mi><mn>2</mn></msup></math> is symmetric matrix</p><p>Hence,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><msup><mi>N</mi><mn>2</mn></msup></math> is non-identity symmetric matrix</p>"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "6151e8635bfb429d080901b5",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "79",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "Sum of the series <math><mi>P</mi><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn><msqrt><mn>1</mn></msqrt><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>4</mn></msqrt></mrow></mfrac><mo>+</mo><mo>…</mo><mo>+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>100</mn><msqrt><mn>99</mn></msqrt><mo>+</mo><mn>99</mn><msqrt><mn>100</mn></msqrt></mrow></mfrac></math> is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "dc4W3",
+      "text": "<math><mfrac><mrow><mn>1</mn></mrow><mrow><mn>10</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "4QJF1",
+      "text": "<math><mfrac><mrow><mn>3</mn></mrow><mrow><mn>10</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "igzfU",
+      "text": "<math><mfrac><mrow><mn>9</mn></mrow><mrow><mn>10</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "3rp2c",
+      "text": "<math><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<math><msub><mrow><mi>t</mi></mrow><mrow><mi>r</mi></mrow></msub><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mfenced separators=\"|\"><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced><msqrt><mi>r</mi></msqrt><mo>+</mo><mi>r</mi><msqrt><mi>r</mi><mo>+</mo><mn>1</mn></msqrt></mrow></mfrac></math><br /><math><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><msqrt><mi>r</mi><mfenced separators=\"|\"><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced></msqrt><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><msqrt><mi>r</mi><mo>+</mo><mn>1</mn></msqrt><mo>+</mo><msqrt><mi>r</mi></msqrt></mrow></mfenced></mrow></mfrac><mo>×</mo><mfrac><mrow><mfenced separators=\"|\"><mrow><msqrt><mi>r</mi><mo>+</mo><mn>1</mn></msqrt><mo>-</mo><msqrt><mi>r</mi></msqrt></mrow></mfenced></mrow><mrow><mfenced separators=\"|\"><mrow><msqrt><mi>r</mi><mo>+</mo><mn>1</mn></msqrt><mo>-</mo><msqrt><mi>r</mi></msqrt></mrow></mfenced></mrow></mfrac></math><br /><math><mo>=</mo><mfrac><mrow><msqrt><mi>r</mi><mo>+</mo><mn>1</mn></msqrt><mo>-</mo><msqrt><mi>r</mi></msqrt></mrow><mrow><msqrt><mi>r</mi><mfenced separators=\"|\"><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfenced></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><msqrt><mi>r</mi></msqrt></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><msqrt><mi>r</mi><mo>+</mo><mn>1</mn></msqrt></mrow></mfrac></math><br /><math><mi>P</mi><mo>=</mo><mrow><munderover><mo stretchy=\"false\">∑</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mrow><mn>99</mn></mrow></munderover><mrow><msub><mrow><mi>t</mi></mrow><mrow><mi>r</mi></mrow></msub></mrow></mrow><mo>=</mo><mn>1</mn><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><msqrt><mn>100</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>9</mn></mrow><mrow><mn>10</mn></mrow></mfrac></math><br />",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "66965df0d603121f43a46526",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "66965789b31faf98fda8fefa",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2024-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Paper 2)",
+      "title": "JEE Advanced 2024 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let the function $f:[1, \\infty) \\rightarrow \\mathbb{R}$ be defined by\n$f(t)=\\left\\{\\begin{array}{cc}(-1)^{n+1} 2, & \\text { if } t=2 n-1, n \\in \\mathbb{N}, \\\\ \\frac{(2 n+1-t)}{2} f(2 n-1)+\\frac{(t-(2 n-1))}{2} f(2 n+1), & \\text { if } 2 n-1 < t < 2 n+1, n \\in \\mathbb{N} .\\end{array}\\right.$\nDefine $g(x)=\\int_1^x f(t) d t, x \\in(1, \\infty)$. Let $\\alpha$ denote the number of solutions of the equation $g(x)=0$ in the interval $(1,8]$ and $\\beta=\\lim _{x \\rightarrow 1^+} \\frac{g(x)}{x-1}$. Then the value of $\\alpha+\\beta$ is equal to ________.",
+    "image": null
+  },
+  "options": [],
+  "correctValue": 5,
+  "solution": {
+    "text": "$\\mathrm{f}(\\mathrm{t})=\\left\\{\\begin{array}{ccc}2 & ; & \\mathrm{t}=1 \\\\ 4-2 \\mathrm{t} & ; & 1 < \\mathrm{t} < 3 \\\\ -2 & ; & \\mathrm{t}=3 \\\\ -8-2 \\mathrm{t} & ; & 3 < \\mathrm{t} < 5 \\\\ 2 & ; & \\mathrm{t}=5 \\\\ 12-2 \\mathrm{t} & ; & 5 < \\mathrm{t} < 7 \\\\ -2 & ; & \\mathrm{t}=7 \\\\ -16+2 \\mathrm{t} & ; & 7 < \\mathrm{t} < 9\\end{array}\\right.$\n$g(x)=\\int_1^x f(t) d t \\Rightarrow g^{\\prime}(x)=f(x)$\nfor $x \\in(1,8]$\n$g(x)=0 \\Rightarrow x=3,5,7 \\therefore \\alpha=3$\n$\\beta=\\lim _{x \\rightarrow 1^{+}} \\frac{g(x)}{x-1}$\nApply L'Hospital's\n$\\begin{aligned} & =\\frac{g^{\\prime}\\left(1^{+}\\right)}{1}=f\\left(1^{+}\\right) \\\\ & \\beta=2 \\\\ & \\therefore \\alpha+\\beta=5\\end{aligned}$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/I0sWyNMHg9B3JNA01Y5dAGJ51buGeJ1hbCxfMeea924.original.fullsize.png\"><br>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "8c4816480d6b4f468486284a66a88993",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/UvvnKInSHjUqF.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/UvvnKInSHjUqF.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "66965789b31faf98fda8fefa",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2024-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Paper 2)",
+    "title": "JEE Advanced 2024 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

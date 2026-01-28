@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc3bb4fafbb887306ea",
+    "chapter_name": "Basic of Mathematics",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $a, b$ and $c$ are positive numbers in a GP, then the roots of the quadratic equation $\\left(\\log _{e} a\\right) x^{2}-\\left(2 \\log _{e} b\\right) x+\\left(\\log _{e} c\\right)=0$ are"
+  },
+  "options": [
+    {
+      "text": "-1 and $\\frac{\\log _{e} c}{\\log _{e} a}$",
+      "is_correct": false
+    },
+    {
+      "text": "1 and $-\\frac{\\log _{e} c}{\\log _{e} a}$",
+      "is_correct": false
+    },
+    {
+      "text": "1 and $\\log _{a} c$",
+      "is_correct": true
+    },
+    {
+      "text": "-1 and $\\log _{c} a$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Since, $a, b$ and $c$ are in $\\mathrm{GP}$.\n$\\therefore b^{2}=a c$\nGiven equation is\n$(\\log _{e} \\text { a) } x^{2}-\\left(2 \\log _{e} \\text { b) } x+\\log _{e} c\\right)=0$\nPut $x=1,$ we get\n$\\begin{aligned}\n& \\log _{e} a-2 \\log _{e} b+\\log _{e} c=0 \\\\\n\\Rightarrow & 2 \\log _{e} b=\\log _{e} a+\\log _{0} c \\\\\n\\Rightarrow \\quad & \\log _{e} b^{2}=\\log _{e} a c\n\\end{aligned}$\n$\\Rightarrow \\quad b^{2}=a c,$ which is true.\nHence, one of the root of given equation is $1 .$\nLet another root be $\\alpha$.\n$\\therefore$ Sum of roots, $1+\\alpha=\\frac{2 \\log _{e} b}{\\log _{e} a}=\\frac{\\log _{e} b^{2}}{\\log _{e} a}$\n$\\begin{aligned}\n\\Rightarrow \\quad a &=\\frac{\\log _{e} a c}{\\log _{e} a}-1 \\\\\n&=\\frac{\\left(\\log _{e} a+\\log _{e} c\\right)}{\\log _{e} a}-1 \\\\\n&=\\frac{\\log _{e} c}{\\log _{c} a}=\\log _{a} c\n\\end{aligned}$\nHence, roots are 1 and $\\log _{a} c .$"
+  }
+}

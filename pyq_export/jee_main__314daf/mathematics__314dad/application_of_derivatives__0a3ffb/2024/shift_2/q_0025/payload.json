@@ -1,0 +1,24 @@
+{
+  "index": 25,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a thrice differentiable function such that $f(0)=0, f(1)=1, f(2)=-1, f(3)=2$ and $f(4)=-2$. Then, the minimum number of zeros of $\\left(3 f^{\\prime} f^{\\prime \\prime}+f f^{\\prime \\prime \\prime}\\right)(x)$ is _______"
+  },
+  "options": [],
+  "correct_answer": "5",
+  "solution": {
+    "text": "$\\begin{aligned} & \\left(3 f^{\\prime} f^{\\prime \\prime}+f f^{\\prime \\prime \\prime}\\right)(x)=\\left(\\left(f f^{\\prime \\prime}+\\left(f^{\\prime}\\right)^2\\right)(x)\\right)^{\\prime} \\\\ & \\left(f f f^{\\prime \\prime}+\\left(f^{\\prime}\\right)^2\\right)(x)=\\left(\\left(f f^{\\prime}\\right)(x)\\right)^{\\prime} \\\\ & \\therefore\\left(3 f^{\\prime} f^{\\prime \\prime}+f^{\\prime \\prime \\prime}\\right)(x)=\\left(f(x) \\cdot f^{\\prime}(x)\\right)^{\\prime \\prime}\\end{aligned}$\n<img src=\"assets\\st0025_3cd07261f443.png\"><br />$\\begin{aligned} & \\min \\text { roots of } \\mathrm{f}(\\mathrm{x}) \\rightarrow 4 \\\\ & \\therefore \\min \\text {. roots of } \\mathrm{f}^{\\prime}(\\mathrm{x}) \\rightarrow 3 \\\\ & \\therefore \\min \\text { roots of }\\left(\\mathrm{f}(\\mathrm{x}) \\cdot \\mathrm{f}^{\\prime}(\\mathrm{x})\\right) \\rightarrow 7 \\\\ & \\therefore \\min \\text { roots of }\\left(\\mathrm{f}(\\mathrm{x}) \\cdot \\mathrm{f}^{\\prime}(\\mathrm{x})\\right)^{\\prime \\prime} \\rightarrow 5\\end{aligned}$"
+  }
+}

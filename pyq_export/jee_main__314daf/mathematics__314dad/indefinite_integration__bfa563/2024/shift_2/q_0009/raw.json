@@ -1,0 +1,38 @@
+{
+  "_id": "6644674e970e6e9ab542d21b",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda6f",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-08T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (08 Apr Shift 2)",
+      "title": "JEE Main 2024 (08 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If $\\int \\frac{1}{\\sqrt[5]{(x-1)^4(x+3)^6}} \\mathrm{~d} x=\\mathrm{A}\\left(\\frac{\\alpha x-1}{\\beta x+3}\\right)^B+\\mathrm{C}$, where $\\mathrm{C}$ is the constant of integration, then the value of $\\alpha+\\beta+20 \\mathrm{AB}$ is__________",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "7",
+  "solution": {
+    "text": "$\\begin{aligned} & \\int \\frac{1}{\\sqrt[5]{(x-1)^4(x+3)^6}} d x=A\\left(\\frac{\\alpha x-1}{\\beta x+3}\\right)^B+C \\\\ & I=\\int \\frac{1}{(x-1)^{4 / 5}(x+3)^{6 / 5}} d x \\\\ & I=\\int \\frac{1}{\\left(\\frac{x-1}{x+3}\\right)^{4 / 5}(x+3)^2} d x \\\\ & \\left(\\frac{x-1}{x+3}\\right)=t \\Rightarrow \\frac{4}{(x+3)^2} d x=d t \\quad t^{-4 / 5+1} \\\\ & I=\\frac{1}{4} \\int \\frac{1}{t^{4 / 5}} d t=\\frac{1}{4} \\frac{t^{1 / 5}}{1 / 5}+c \\\\ & I=\\frac{5}{4}\\left(\\frac{x-1}{x+3}\\right)^{1 / 5}+C \\\\ & A=\\frac{5}{4} \\quad \\alpha=\\beta=1 \\quad B=\\frac{1}{5} \\\\ & \\alpha+\\beta+20 A B=2+20 \\times \\frac{5}{4} \\times \\frac{1}{5}=7\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda6f",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-08T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (08 Apr Shift 2)",
+    "title": "JEE Main 2024 (08 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

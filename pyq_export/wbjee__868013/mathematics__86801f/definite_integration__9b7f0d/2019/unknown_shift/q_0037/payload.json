@@ -1,0 +1,43 @@
+{
+  "index": 37,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of the integration $\\int_{-\\pi / 4}^{\\pi / 4}\\left(\\lambda|\\sin x|+\\frac{\\mu \\sin x}{1+\\cos x}+\\gamma\\right) d x$"
+  },
+  "options": [
+    {
+      "text": "is independent of $\\lambda$ only",
+      "is_correct": false
+    },
+    {
+      "text": "is independent of $\\mu$ only",
+      "is_correct": true
+    },
+    {
+      "text": "is independent of $\\gamma$ only",
+      "is_correct": false
+    },
+    {
+      "text": "depends on $\\lambda, \\mu$ and $\\gamma$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $I=\\int_{-\\frac{\\pi}{4}}^{\\pi / 4}\\left(\\lambda|\\sin x|+\\frac{\\mu \\sin x}{1+\\cos x}+\\gamma\\right)$\r\n$\\begin{aligned} &=\\int_{-\\pi / 4}^{\\pi / 4}(\\lambda|\\sin x|+\\gamma) d x+\\mu \\int_{-\\frac{\\pi}{4}}^{\\pi / 4} \\frac{\\sin x}{1+\\cos x} d x \\\\ \\text { Let } f(x)=\\frac{\\sin x}{1+\\cos x} & \\\\ \\Rightarrow f(-x)=\\frac{\\sin (-x)}{1+\\cos (-x)} &=\\frac{-\\sin x}{1+\\cos x}=-f(x) \\end{aligned}$\r\n$f(x)$ is an odd function.\r\n$\\int_{-\\pi}^{\\pi / 4}\\left(\\frac{\\sin x}{1+\\cos x}\\right) d x=0$\r\n$\\left.I=\\int_{-\\frac{\\pi}{6}}^{\\pi / 4} \\lambda|\\sin x|+\\gamma\\right) d x$\r\n$\\therefore I$ is independent of $\\mu$"
+  }
+}

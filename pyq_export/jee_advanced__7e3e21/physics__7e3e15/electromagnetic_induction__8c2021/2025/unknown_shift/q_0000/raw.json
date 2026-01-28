@@ -1,0 +1,83 @@
+{
+  "_id": "685102be6bba689a3eb09c83",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "684c67d769037fad219cb0c1",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2025-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (Paper 1)",
+      "title": "JEE Advanced 2025 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "A conducting square loop of side $L$, mass $M$ and resistance $R$ is moving in the $X Y$ plane with its edges parallel to the $X$ and $Y$ axes. The region $y \\geq 0$ has a uniform magnetic field, $\\vec{B}=B_0 k$. The magnetic field is zero everywhere else. At time $t=0$, the loop starts to enter the magnetic field with an initial velocity $v_0 \\hat{\\jmath} \\mathrm{~m} / \\mathrm{s}$, as shown in the figure. Considering the quantity $K=\\frac{B_0^2 L^2}{R M}$ in appropriate units, ignoring self-inductance of the loop and gravity, which of the following statements is/are correct:\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/4QW8W90xWctqhEjhbmd90siQYrCnxRfLDltVwkbuqI4.original.fullsize.png\"><br>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Tsy5y",
+      "text": "If $v_0=1.5 K L$, the loop will stop before it enters completely inside the region of magnetic field.",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "NJCnA",
+      "text": "When the complete loop is inside the region of magnetic field, the net force acting on the loop is zero.",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "7C45p",
+      "text": "If $v_0=\\frac{K L}{10}$, the loop comes to rest at $t=\\left(\\frac{1}{K}\\right) \\ln \\left(\\frac{5}{2}\\right)$.",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "vQqZT",
+      "text": "If $v_0=3 K L$, the complete loop enters inside the region of magnetic field at time $t=\\left(\\frac{1}{K}\\right) \\ln \\left(\\frac{3}{2}\\right)$.",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/56kqwRfAyMWAbxmWC_yJXRuyr4Tys1yPGhTPG9gl7rc.original.fullsize.png\"><br>$\\Rightarrow \\frac{-\\mathrm{d} \\phi}{\\mathrm{dt}}=\\frac{\\mathrm{d}}{\\mathrm{dt}}\\left(\\mathrm{B}_0 \\times \\ell \\times \\mathrm{y}\\right)=\\mathrm{BV} \\ell$<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/PdruxWz4Sf3IP7lHrhcLGBplNoajOXjBOU96ZnKO4yE.original.fullsize.png\"><br>$\\begin{aligned} & \\overrightarrow{\\mathrm{F}}=\\mathrm{B}(\\hat{\\mathrm{i}})(\\ell)(-\\hat{\\mathrm{j}}) \\\\ & \\mathrm{ma}=-\\mathrm{B}_0\\left[\\frac{\\mathrm{~B}_0 \\mathrm{~V} \\ell}{\\mathrm{R}}\\right](\\ell) \\\\ & \\mathrm{a}=-\\frac{\\mathrm{B}_0^2 \\ell^2 \\mathrm{~V}}{\\mathrm{mR}}\\end{aligned}$\n$\\begin{aligned} & \\text { Also } K=\\frac{B_0^2 \\ell^2 V}{R M} \\\\ & \\text { So }[a=-k v] \\\\ & \\frac{d v}{d t}=-k v \\\\ & \\int_{v_0}^v \\frac{d v}{d t}=\\int_0^t-k d t \\\\ & \\ell n \\frac{v}{v_0}=-k t\\end{aligned}$\n$\\left[\\mathrm{v}=\\mathrm{v}_0 \\mathrm{e}^{-\\mathrm{kt}}\\right]$ $\\left[\\mathrm{v}=\\mathrm{v}_0 \\mathrm{e}^{-\\mathrm{kt}}\\right]$ $\\ldots .(\\mathrm{i})$\n$\\frac{\\mathrm{dx}}{\\mathrm{dt}}=\\mathrm{v}_0 \\mathrm{e}^{-\\mathrm{kt}} \\quad(\\mathrm{x} \\leq \\ell)$\n$\\begin{aligned} & \\int_0^{\\mathrm{x}} \\mathrm{dx}=\\int_0^{\\mathrm{t}} \\mathrm{v}_0 \\mathrm{e}^{-\\mathrm{kt}} \\mathrm{dt} \\\\ & =\\frac{\\mathrm{v}_0}{\\mathrm{k}}\\left(1-\\mathrm{e}^{-\\mathrm{kt}}\\right)\\end{aligned}$\nWhen $x=\\ell$\n$\\ell=\\frac{\\mathrm{V}_0}{\\mathrm{k}}\\left(1-\\mathrm{e}^{-\\mathrm{kt}}\\right)$\nOption (D) $\\left(\\mathrm{v}_0=3 \\mathrm{k} \\ell\\right)$\n$\\begin{aligned} & \\ell=\\frac{3 \\mathrm{k} \\ell}{\\mathrm{k}}\\left(1-\\mathrm{e}^{-\\mathrm{kt}}\\right) \\\\ & \\frac{1}{3}=1-\\mathrm{e}^{-\\mathrm{kt}} \\\\ & \\mathrm{f} \\frac{2}{3}=2 \\mathrm{e}^{-\\mathrm{kt}} \\\\ & -\\mathrm{kt}=8 \\mathrm{n}\\left(\\frac{2}{3}\\right) \\\\ & \\mathrm{t}=\\frac{1}{\\mathrm{k}} \\ell \\mathrm{n}\\left(\\frac{2}{3}\\right)\\end{aligned}$\nComplete loop will enter at $\\mathrm{t}=\\frac{1}{\\mathrm{k}} \\ln \\left(\\frac{2}{3}\\right)$\nOption (B)\n$\\frac{\\mathrm{d} \\phi}{\\mathrm{dt}}=0, \\underline{\\underline{\\mathrm{e}}}=0, \\mathrm{i}=0, \\mathrm{~F}=0$\nAns. B,D)",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "2f17517773e149c19966407835d5be42",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/P58eALuRcWWZL.240.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/P58eALuRcWWZL.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "684c67d769037fad219cb0c1",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2025-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (Paper 1)",
+    "title": "JEE Advanced 2025 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

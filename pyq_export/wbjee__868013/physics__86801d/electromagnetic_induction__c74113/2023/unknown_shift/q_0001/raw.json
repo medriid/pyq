@@ -1,0 +1,63 @@
+{
+  "_id": "64a8149ee0ff5a5425a85d5d",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad6",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2023-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023",
+      "title": "WBJEE 2023"
+    }
+  ],
+  "question": {
+    "text": "An amount of charge Q passes through a coil of resistance R. If the current in the coil decreases to zero at a uniform rate during time \\(T\\), then the amount of heat generated in the coil will be,",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "JYog1",
+      "text": "\\(\\frac{4 Q^2 R}{3 T}\\)",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "SpNzd",
+      "text": "\\(\\frac{2 Q^2 R}{3 T}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "1xpOb",
+      "text": "\\(\\frac{Q^2 R}{4 R}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "CQshT",
+      "text": "\\(Q^2 R T\\)",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint : <img src=\"https://cdn-question-pool.getmarks.app/pyq/wbjee/JeNm1jOnFhnbuqgn_HiCd9J-uKOMt6TEQer7Pab2Nxw.original.fullsize.png\"><br>\nGiven, \\(\\frac{1}{2} \\mathrm{I}_0 T=Q \\Rightarrow \\mathrm{I}_0=\\frac{2 \\mathrm{Q}}{\\mathrm{T}}\\)\nEquation of \\(\\mathrm{I}(\\mathrm{t}) \\Rightarrow \\frac{\\mathrm{I}}{\\mathrm{I}_0}+\\frac{\\mathrm{t}}{\\mathrm{T}}=1\\)\n\\(\\begin{aligned}\n& I=I_0\\left(1-\\frac{t}{T}\\right)=\\frac{2 Q}{T}\\left(1-\\frac{t}{T}\\right) \\\\\n& \\text { Heat }=\\int_0^T I^2 R d f \\\\\n& =R \\int_0^T \\frac{4 Q^2}{T^2}\\left(1-\\frac{t}{T}\\right)^2 \\\\\n& =\\frac{4 Q^2 R}{T^2}\\left[\\int_0^T d t+\\frac{1}{T^2} \\int_0^T t^2 d t-\\frac{2}{T} \\int_0^T t d t\\right]=\\frac{4 Q^2 R}{T^2}\\left[\\not T+\\frac{T}{3}-\\not T\\right]=\\frac{4 Q^2 R}{3 T}\n\\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad6",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2023-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023",
+    "title": "WBJEE 2023"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

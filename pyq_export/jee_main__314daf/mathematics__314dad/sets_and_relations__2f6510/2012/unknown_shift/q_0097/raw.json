@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65a3c",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7ce",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2012-05-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (12 May Online)",
+      "title": "JEE Main 2012 (12 May Online)"
+    }
+  ],
+  "question": {
+    "text": "If $A=\\left\\{x \\in z^{+}: x < 10\\right.$ and $x$ is a multiple of 3 or $4\\}$, where $z^{+}$is the set of positive integers, then the total number of symmetric relations on $A$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "8eIoG",
+      "text": "\n$2^5$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Zk6mG",
+      "text": "\n$2^{15}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "qkhab",
+      "text": "\n$2^{10}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "MnvUn",
+      "text": "\n$2^{20}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "A relation on a set A is said to be symmetric iff $(a, b) \\in A \\Rightarrow(b, a) \\in A, \\forall a, b \\in A$\nHere $A=\\{3,4,6,8,9\\}$\nNumber of order pairs of $A \\times A=5 \\times 5=25$\nDivide 25 order pairs of $A \\times A$ in 3 parts as follows :\n$$\n\\begin{aligned}\n& \\text { Part }-A:(3,3),(4,4),(6,6),(8,8),(9,9) \\\\\n& \\text { Part }-B:(3,4),(3,6),(3,8),(3,9),(4,6), \\\\\n& (4,8),(4,9),(6,8),(6,9),(8,9) \\\\\n& \\text { Part-C:(4,3),(6,3),(8,3),(9,3),(6,4),(8,4), } \\\\\n& (9,4),(8,6),(9,6),(9,8)\n\\end{aligned}\n$$\nIn part $-A$, both components of each order pair are same.\nIn part $-B$, both components are different but not two such order pairs are present in which first component of one order pair is the second component of another order pair and vice-versa.\nIn part $-C$, only reverse of the order pairs of part $-B$ are present i.e., if $(a, b)$ is present in part $-B$, then (b, a) will be present in part $-C$ For example $(3,4)$ is present in part $-B$ and $(4,3)$ present in part $-C$.\nNumber of order pair in $A, B$ and $C$ are 5, 10 and 10 respectively.\nIn any symmetric relation on set $A$, if any order pair of part $-B$ is present then its reverse order pair of part $-C$ will must be also present.\nHence number of symmetric relation on set $A$ is equal to the number of all relations on a set $D$, which contains all the order pairs of part $-A$ and part $-B$.\nNow $n(D)=n(A)+n(B)=5+10=15$\nHence number of all relations on set $D=(2)^{15}$\n$\\Rightarrow$ Number of symmetric relations on set $D=(2)^{15}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7ce",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2012-05-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (12 May Online)",
+    "title": "JEE Main 2012 (12 May Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

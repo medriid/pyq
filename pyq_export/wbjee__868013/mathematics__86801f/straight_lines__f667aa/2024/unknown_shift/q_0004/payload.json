@@ -1,0 +1,44 @@
+{
+  "index": 4,
+  "type": "multipleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ce028e7fffd0df667aa",
+    "chapter_name": "Straight Lines",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\Gamma$ be the curve $y=b e^{-x / a} \\& L$ be the straight line $\\frac{x}{a}+\\frac{y}{b}=1$ where $a, b \\in \\mathbb{R}$"
+  },
+  "options": [
+    {
+      "text": "L touches the curve $\\Gamma$ at the point where the curve crosses the axis of $y$.",
+      "is_correct": true
+    },
+    {
+      "text": "L does not touch the curve at the point where the curve crosses the axis of y .",
+      "is_correct": false
+    },
+    {
+      "text": "$\\Gamma$ touches the axis of $x$ at the point.",
+      "is_correct": false
+    },
+    {
+      "text": "$\\Gamma$ never touches the axis of $x$.",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "D"
+  ],
+  "solution": {
+    "text": "Hint : $\\Gamma \\equiv y=b e^{-x / a} \\xrightarrow[\\text { w.r.t } x]{\\text { on differtiating }} \\frac{d y}{d x}=\\frac{-b}{a} e^{-x / a}$ at $x=0, y=b, \\frac{d y}{d x}=\\frac{-b}{a}$\nso, equation of tengent at $(0, b)$ is $y-b=-\\frac{b}{a}(x-0) \\Rightarrow \\frac{\\frac{x}{a}+\\frac{y}{b}=1}{L}$\nso, $L$ touches the given curve at $(0, b)$\n$\\because \\frac{\\mathrm{dy}}{\\mathrm{dx}}$ can be never be 0 , so, the given curve never touches the $\\mathrm{x}-$ axis."
+  }
+}

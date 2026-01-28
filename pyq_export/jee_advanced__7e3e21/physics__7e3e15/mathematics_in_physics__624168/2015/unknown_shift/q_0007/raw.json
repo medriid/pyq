@@ -1,0 +1,58 @@
+{
+  "_id": "64b16a46f23ac7d519f9b2ed",
+  "previousYearPapers": [
+    {
+      "_id": "615d92eede3d91842a5cf827",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2015-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015 (Paper 2)",
+      "title": "JEE Advanced 2015 (Paper 2)"
+    }
+  ],
+  "type": "numerical",
+  "level": 1,
+  "question": {
+    "text": "The energy of a system as a function of time <math><mi mathvariant=\"normal\">t</mi></math> is given as <math><mi mathvariant=\"normal\">E</mi><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">t</mi></mrow></mfenced><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mn>2</mn></mrow></msup><mfenced separators=\"|\"><mrow><mo>-</mo><mi mathvariant=\"normal\">&#945;</mi><mi mathvariant=\"normal\">t</mi></mrow></mfenced></math> , where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi><mo>=</mo><mn>0.2</mn><mi mathvariant=\"normal\">&#160;</mi><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math> . The measurement of <math><mi mathvariant=\"normal\">A</mi></math> has an error of 1.25%. If the error in the measurement of time is 1.50%, the percentage error in the value of <math><mi mathvariant=\"normal\">E</mi><mo>(</mo><mi mathvariant=\"normal\">t</mi><mo>)</mo></math> at <math><mi mathvariant=\"normal\">t</mi><mo>=</mo><mn>5</mn></math> s is",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "4",
+  "solution": {
+    "text": "Energy <math><mi mathvariant=\"normal\">E</mi><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi mathvariant=\"normal\">e</mi></mrow><mrow><mo>-</mo><mi mathvariant=\"normal\">α</mi><mi mathvariant=\"normal\">t</mi></mrow></msup></math> <br >For small % errors, we can, do differentiation <br > <math><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">E</mi><mo>=</mo><mn>2</mn><mi mathvariant=\"normal\">A</mi><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">A</mi></mrow></mfenced><msup><mrow><mi mathvariant=\"normal\">e</mi></mrow><mrow><mo>-</mo><mi mathvariant=\"normal\">α</mi><mi mathvariant=\"normal\">t</mi></mrow></msup><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mn>2</mn></mrow></msup><mfenced separators=\"|\"><mrow><mo>-</mo><mi mathvariant=\"normal\">α</mi><msup><mrow><mi mathvariant=\"normal\">e</mi></mrow><mrow><mo>-</mo><mi mathvariant=\"normal\">α</mi><mi mathvariant=\"normal\">t</mi></mrow></msup><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">t</mi></mrow></mfenced></math> <br >Fractional error  <math><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">E</mi></mrow><mrow><mi mathvariant=\"normal\">E</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">A</mi><msup><mrow><mi mathvariant=\"normal\">e</mi></mrow><mrow><mo>-</mo><mi mathvariant=\"normal\">α</mi><mi mathvariant=\"normal\">t</mi></mrow></msup><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">A</mi></mrow></mfenced><mo>+</mo><mfenced separators=\"|\"><mrow><mo>-</mo><mi mathvariant=\"normal\">α</mi><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi mathvariant=\"normal\">e</mi></mrow><mrow><mo>-</mo><mi mathvariant=\"normal\">α</mi><mi mathvariant=\"normal\">t</mi></mrow></msup></mrow></mfenced><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">t</mi></mrow><mrow><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi mathvariant=\"normal\">e</mi></mrow><mrow><mo>-</mo><mi mathvariant=\"normal\">α</mi><mi mathvariant=\"normal\">t</mi></mrow></msup></mrow></mfrac><mo>=</mo><mn>2</mn><mfenced separators=\"|\"><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">A</mi></mrow></mfrac></mrow></mfenced><mo>+</mo><mfenced separators=\"|\"><mrow><mo>-</mo><mi mathvariant=\"normal\">α</mi><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">t</mi></mrow><mrow><mi mathvariant=\"normal\">t</mi></mrow></mfrac></mrow></mfenced><mi mathvariant=\"normal\">t</mi><mi mathvariant=\"normal\"> </mi></math> <br >% error  <math><mo>=</mo><mn>2</mn><mfenced separators=\"|\"><mrow><mn>1.25</mn><mi mathvariant=\"normal\">%</mi></mrow></mfenced><mo>+</mo><mfenced separators=\"|\"><mrow><mn>0.2</mn><mo>×</mo><mn>1.5</mn><mi mathvariant=\"normal\">%</mi></mrow></mfenced><mo>×</mo><mn>5</mn></math> <br > <math><mo>=</mo><mn>4</mn><mi mathvariant=\"normal\">%</mi></math>  (errors always add up)<br >Alternate solution:<br > <math><mi mathvariant=\"normal\">E</mi><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi mathvariant=\"normal\">e</mi></mrow><mrow><mo>-</mo><mi mathvariant=\"normal\">α</mi><mi mathvariant=\"normal\">t</mi></mrow></msup></math> <br >Taking natural logarithm on both sides,<br > <math><mi mathvariant=\"script\">l</mi><mi mathvariant=\"normal\">n</mi><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">E</mi></mrow></mfenced><mo>=</mo><mi mathvariant=\"script\">l</mi><mi mathvariant=\"normal\">n</mi><mfenced separators=\"|\"><mrow><msup><mrow><mi mathvariant=\"normal\">A</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfenced><mo>+</mo><mfenced separators=\"|\"><mrow><mo>-</mo><mi mathvariant=\"normal\">α</mi><mi mathvariant=\"normal\">t</mi></mrow></mfenced></math> <br >Differentiating<br > <math><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">E</mi></mrow><mrow><mi mathvariant=\"normal\">E</mi></mrow></mfrac><mo>=</mo><mn>2</mn><mfenced separators=\"|\"><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">A</mi></mrow></mfrac></mrow></mfenced><mo>+</mo><mfenced separators=\"|\"><mrow><mo>-</mo><mi mathvariant=\"normal\">α</mi><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">t</mi></mrow></mfenced></math> <br >For small fractional erros, errors always add up<br > <math><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">E</mi></mrow><mrow><mi mathvariant=\"normal\">E</mi></mrow></mfrac></mrow></mfenced><mo>=</mo><mn>2</mn><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">A</mi></mrow><mrow><mi mathvariant=\"normal\">A</mi></mrow></mfrac></mrow></mfenced><mo>+</mo><mi mathvariant=\"normal\">α</mi><mfenced separators=\"|\"><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">t</mi></mrow><mrow><mi mathvariant=\"normal\">t</mi></mrow></mfrac></mrow></mfenced><mo>×</mo><mi mathvariant=\"normal\">t</mi></math> <br > <math><mo>=</mo><mn>2</mn><mfenced separators=\"|\"><mrow><mn>1.25</mn><mi mathvariant=\"normal\">%</mi></mrow></mfenced><mo>+</mo><mfenced separators=\"|\"><mrow><mn>0.2</mn></mrow></mfenced><mfenced separators=\"|\"><mrow><mn>1.5</mn><mi mathvariant=\"normal\">%</mi></mrow></mfenced><mn>5</mn><mi mathvariant=\"normal\"> </mi></math> <br > <math><mo>=</mo><mn>4</mn><mi mathvariant=\"normal\">%</mi></math>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "c33822c8322e4220881f45796d9a6fff",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/DlljdLid57780.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/DlljdLid57780.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eede3d91842a5cf827",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2015-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015 (Paper 2)",
+    "title": "JEE Advanced 2015 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

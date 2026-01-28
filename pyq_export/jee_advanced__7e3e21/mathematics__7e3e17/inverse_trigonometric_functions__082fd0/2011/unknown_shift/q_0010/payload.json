@@ -1,0 +1,24 @@
+{
+  "index": 10,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2011 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255376e9154085082fd0",
+    "chapter_name": "Inverse Trigonometric Functions",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(\\theta)=\\sin \\left[\\tan ^{-1}\\left(\\frac{\\sin \\theta}{\\sqrt{\\cos 2 \\theta}}\\right)\\right]$, where $-\\frac{\\pi}{4} < \\theta < \\frac{\\pi}{4}$. Then, the value of $\\frac{d}{d(\\tan \\theta)}(f(\\theta))$ is"
+  },
+  "options": [],
+  "correct_answer": "1",
+  "solution": {
+    "text": "$f(\\theta)=\\sin \\left(\\tan ^{-1} \\frac{\\sin \\theta}{\\sqrt{\\cos 2 \\theta}}\\right),-\\frac{\\pi}{4} < \\theta < \\frac{\\pi}{4}$\nLet $\\tan ^{-1} \\frac{\\sin \\theta}{\\sqrt{\\cos 2 \\theta}}=\\phi$\n$$\n\\Rightarrow \\quad \\tan \\phi=\\frac{\\sin \\theta}{\\sqrt{\\cos 2 \\theta}}\n$$<img src=\"assets\\st0010_6a5cc6601cc6.png\"><br>\n$$\n\\begin{aligned}\n\\therefore \\quad \\sin \\phi & =\\frac{\\sin \\theta}{\\sqrt{\\sin ^2 \\theta+\\cos 2 \\theta}} \\\\\n& =\\frac{\\sin \\theta}{\\sqrt{1-\\sin ^2 \\theta}}=\\frac{\\sin \\theta}{\\cos \\theta}=\\tan \\theta\n\\end{aligned}\n$$\n\n$$\n\\begin{array}{ll}\n\\therefore & f(\\theta)=\\sin \\phi=\\tan \\theta \\\\\n\\Rightarrow & \\frac{d f(\\theta)}{d(\\tan \\theta)}=1\n\\end{array}\n$$"
+  }
+}

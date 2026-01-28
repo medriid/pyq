@@ -1,0 +1,83 @@
+{
+  "_id": "64b16a8cf23ac7d519f9b56a",
+  "previousYearPapers": [
+    {
+      "_id": "619f94337e944e1fdc2859b4",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2021-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021 (Paper 1)",
+      "title": "JEE Advanced 2021 (Paper 1)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "<p>Consider three sets <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>}</mo><mo>,</mo><msub><mi>F</mi><mn>1</mn></msub><mo>=</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>}</mo></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>1</mn></msub><mo>=</mo><mo>{</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>}</mo></math>. Two elements are chosen at random, without replacement, from the set <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>E</mi><mn>1</mn></msub></math>, and let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub></math> denote the set of these chosen elements. Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><msub><mi>E</mi><mn>1</mn></msub><mo>-</mo><msub><mi>S</mi><mn>1</mn></msub></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>F</mi><mn>2</mn></msub><mo>=</mo><msub><mi>F</mi><mn>1</mn></msub><mo>&#8746;</mo><msub><mi>S</mi><mn>1</mn></msub></math>. Now two elements are chosen at random, without replacement, from the set <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>F</mi><mn>2</mn></msub></math> and let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub></math> denote the set of these chosen elements.</p><p>Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub><mo>=</mo><msub><mi>G</mi><mn>1</mn></msub><mo>&#8746;</mo><msub><mi>S</mi><mn>2</mn></msub></math>. Finally, two elements are chosen at random, without replacement, from the set <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub></math> and let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>3</mn></msub></math> denote the set of these chosen elements.<br />Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>E</mi><mn>3</mn></msub><mo>=</mo><msub><mi>E</mi><mn>2</mn></msub><mo>&#8746;</mo><msub><mi>S</mi><mn>3</mn></msub></math>. Given that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><msub><mi>E</mi><mn>3</mn></msub></math>, let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> be the conditional probability of the event <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub><mo>=</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>}</mo></math>. Then the value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> is</p>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "yn3NH",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "jYGg8",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "FE8IY",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "uGIPO",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>We need to find <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>, the conditional probability of the event <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub><mo>=</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>}</mo></math>, given&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><msub><mi>E</mi><mn>3</mn></msub></math>.</p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mfrac><mrow><mi>P</mi><mfenced><mrow><msub><mi>S</mi><mn>1</mn></msub><mo>&#8745;</mo><mfenced><mrow><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><msub><mi>E</mi><mn>3</mn></msub></mrow></mfenced></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced><mrow><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><msub><mi>E</mi><mn>3</mn></msub></mrow></mfenced></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>P</mi><mfenced><msub><mi>B</mi><mrow><mn>1</mn><mo>,</mo><mn>2</mn></mrow></msub></mfenced></mrow><mrow><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mfenced><msub><mi>B</mi><mrow><mn>1</mn><mo>,</mo><mn>2</mn></mrow></msub></mfenced><mo>+</mo><mi>P</mi><mfenced><msub><mi>B</mi><mrow><mn>1</mn><mo>,</mo><mn>3</mn></mrow></msub></mfenced><mo>+</mo><mi>P</mi><mfenced><msub><mi>B</mi><mrow><mn>2</mn><mo>,</mo><mn>3</mn></mrow></msub></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><msub><mi>B</mi><mrow><mn>1</mn><mo>,</mo><mn>2</mn></mrow></msub></mfenced><mo>&#8594;</mo></math>&nbsp;If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>}</mo></math>&nbsp;chosen in the beginning&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><msub><mi>B</mi><mrow><mn>1</mn><mo>,</mo><mn>3</mn></mrow></msub></mfenced><mo>&#8594;</mo></math>If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>}</mo></math>&nbsp;chosen in the beginning</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><msub><mi>B</mi><mrow><mn>2</mn><mo>,</mo><mn>3</mn></mrow></msub></mfenced><mo>&#8594;</mo></math>If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>}</mo></math>&nbsp;chosen in the beginning</p><p><strong>(i)</strong> If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>}</mo></math>&nbsp;is chosen in the begining, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>F</mi><mn>2</mn></msub><mo>=</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>}</mo></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub></math> must contain <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mn>1</mn></mfenced></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>3</mn></msub><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mn>1</mn><mo>,</mo><mn>2</mn></mrow></mfenced></math> from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub><mo>=</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>}</mo></math></p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><msub><mi>B</mi><mrow><mn>1</mn><mo>,</mo><mn>2</mn></mrow></msub></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&#215;</mo><mfrac><mrow><mn>1</mn><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts></mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>5</mn></mmultiscripts></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mn>10</mn></mfrac></math></p><p><strong>(ii)</strong> If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>}</mo></math>&nbsp;is chosen in the begining,&nbsp;then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>F</mi><mn>2</mn></msub><mo>=</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>}</mo></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub></math> must contain <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mn>1</mn></mfenced></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>3</mn></msub><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mn>1</mn><mo>,</mo><mn>3</mn></mrow></mfenced></math> from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub><mo>=</mo></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>}</mo></math></p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><msub><mi>B</mi><mrow><mn>1</mn><mo>,</mo><mn>3</mn></mrow></msub></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&#215;</mo><mfrac><mrow><mn>1</mn><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts></mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>5</mn></mmultiscripts></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&#215;</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mn>10</mn></mfrac></math></p><p><strong>(iii)</strong> If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>}</mo></math>&nbsp;is chosen in the begining, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>F</mi><mn>2</mn></msub><mo>=</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>}</mo></math>, then two cases are possible</p><p>1.&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub></math> may contain <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mn>1</mn></mfenced></math> and getting <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>3</mn></msub><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></math> from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub><mo>=</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>)</mo></math></p><p>2.&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub></math>&nbsp;does&nbsp;not contain <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mn>1</mn></mfenced></math> and getting <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></math> from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub><mo>=</mo><mo>{</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>]</mo></math></p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><msub><mi>B</mi><mrow><mn>2</mn><mo>,</mo><mn>3</mn></mrow></msub></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&#215;</mo><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mrow><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mo>&#215;</mo><mn>1</mn></mrow><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts></mfrac><mo>+</mo><mfrac><mrow><mn>1</mn><mo>&#215;</mo><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts></mrow><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>5</mn></mmultiscripts></mfrac></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&#215;</mo><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mn>10</mn></mfrac></mrow></mfenced></math></p><p>Now,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mfrac><mrow><mi>P</mi><mfenced><msub><mi>B</mi><mrow><mn>1</mn><mo>,</mo><mn>2</mn></mrow></msub></mfenced></mrow><mrow><mi>P</mi><mfenced><msub><mi>B</mi><mrow><mn>1</mn><mo>,</mo><mn>2</mn></mrow></msub></mfenced><mo>+</mo><mi>P</mi><mfenced><msub><mi>B</mi><mrow><mn>1</mn><mo>,</mo><mn>3</mn></mrow></msub></mfenced><mo>+</mo><mi>P</mi><mfenced><msub><mi>B</mi><mrow><mn>2</mn><mo>,</mo><mn>3</mn></mrow></msub></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mn>10</mn></mfrac></mrow><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&#215;</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&#215;</mo><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#215;</mo><mfrac><mn>1</mn><mn>10</mn></mfrac></mrow></mfenced></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math></p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "a1167c7e9382419989c44c59975cc34d",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/a29t9qcUpTbhZ.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/a29t9qcUpTbhZ.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619f94337e944e1fdc2859b4",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2021-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021 (Paper 1)",
+    "title": "JEE Advanced 2021 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

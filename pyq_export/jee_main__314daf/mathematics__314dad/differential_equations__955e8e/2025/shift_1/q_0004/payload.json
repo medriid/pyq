@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $f:[0, \\infty) \\rightarrow \\mathbb{R}$ be differentiable function such that $f(\\mathrm{x})=1-2 \\mathrm{x}+\\int_0^x e^{x-t} f(t) \\mathrm{dt}$ for all $\\mathrm{x} \\in[0, \\infty)$.<br/>Then the area of the region bounded by $\\mathrm{y}=f(\\mathrm{x})$ and the coordinate axes is"
+  },
+  "options": [
+    {
+      "text": "$\\sqrt{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\sqrt{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & y=1-2 x+e^x \\int_0^x e^{-t} f(t) d t \\\\ & \\frac{d y}{d x}=-2+e^{-x} \\cdot e^x f(x)+e^x \\int_0^x e^{-t} f(t) d t \\\\ & \\frac{d y}{d x}=-2+y+y+2 x-1 \\\\ & \\frac{d y}{d x}-2 y=(2 x-3) \\\\ & y e^{-2 x}=\\int(2 x-3) d x \\cdot e^{-2 x} \\\\ & y e^{-2 x}=\\frac{-(2 x-3)}{2} e^{-2 x}+\\int e^{-2 x} d x \\\\ & y e^{-2 x}=\\frac{-(2 x-3)}{2} e^{-2 x}-\\frac{1}{2} e^{-2 x}+c \\\\ & f(0)=1 \\Rightarrow c=1-\\frac{3}{2}+\\frac{1}{2}=0\\end{aligned}$<br/>$\\begin{aligned} & y=-\\frac{(2 x-3)}{2}-\\frac{1}{2} \\\\ & y=-x+1 \\\\ & x+y=1 \\\\ & \\text { area }=\\frac{1}{2}(1)(1)=\\frac{1}{2}\\end{aligned}$"
+  }
+}

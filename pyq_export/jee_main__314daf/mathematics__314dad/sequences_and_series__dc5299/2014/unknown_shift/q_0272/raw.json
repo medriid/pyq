@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e67",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d9",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (12 Apr Online)",
+      "title": "JEE Main 2014 (12 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "If $1+x^4+x^5=\\sum_{i=0}^5 a_i\\left(1+x^i\\right)$, for all $x$ in $R$, then $a_2$ is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "exali",
+      "text": "\n$-4$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "NPD5O",
+      "text": "\n6\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "HO2f3",
+      "text": "\n$-8$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "p7ZmF",
+      "text": "\n10",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n&1+x^4+x^5=\\sum_{i=0}^5 a_i(1+x)^i \\\\\n&=a_0+a_1(1+x)^1+a_2(1+x)^2+a_3(1+x)^3 \\\\\n&\\quad+a_4(1+x)^4+a_5(1+x)^5 \\\\\n&\\Rightarrow 1+x^4+x^5\n\\end{aligned}\n$$\n$$\n\\begin{aligned}\n=a_0+a_1(1+x) &+a_2\\left(1+2 x+x^2\\right)+a_3\\left(1+3 x+3 x^2+x^3\\right) \\\\\n&+a_4\\left(1+4 x+6 x^2+4 x^3+x^4\\right) \\\\\n&+a_5\\left(1+5 x+10 x^2+10 x^3+5 x^4+x^5\\right) \\\\\n\\Rightarrow & 1+x^4+x^5 \\\\\n=a_0+a_1+a_1 x+a_2+2 a_2 x+a_2 x^2+a_3+3 a_3 x \\\\\n+3 a_3 x^2+a_3 x^3+a_4+4 a_4 x+6 a_4 x^2+4 a_4 x^3+a_4 x^4+a_5 \\\\\n&+5 a_5 x+10 a_5 x^2+10 a_5 x^3+5 a_5 x^4+a_5 x^5\n\\end{aligned}\n$$\n$$\n\\begin{aligned}\n\\Rightarrow & 1+x^4+x^5 \\\\\n=&\\left(a_0+a_1+a_2+a_3+a_4+a_5\\right) \\\\\n&+x\\left(a_1+2 a_2+3 a_3+4 a_4+5 a_5\\right) \\\\\n+x^2\\left(a_2+\\right.&\\left.3 a_3+6 a_4+10 a_5\\right)+x^3\\left(a_3+4 a_4+10 a_5\\right) \\\\\n&+x^4\\left(a_4+5 a_5\\right)+x^5\\left(a_5\\right)\n\\end{aligned}\n$$\nOn comparing the like coefficients, we get\n$$\n\\begin{aligned}\n&a_5=1 \\\\\n&a_4+5 a_5=1 \\\\\n&a_3+4 a_4+10 a_5=0\n\\end{aligned}\n$$\nand $a_2+3 a_3+6 a_4+10 a_5=0$\nfrom (1) \\& (2), we get $a_4=-4 \\ldots(5)$\nFrom (1), (3) \\& (5), we get $a_3=+6$...(6)\nNow, from $(1),(5)$ and $(6)$, we get\n$a_2=-4$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d9",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (12 Apr Online)",
+    "title": "JEE Main 2014 (12 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

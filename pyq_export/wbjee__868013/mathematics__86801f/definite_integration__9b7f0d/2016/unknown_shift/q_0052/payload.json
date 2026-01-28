@@ -1,0 +1,44 @@
+{
+  "index": 52,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\phi(t)=\\left\\{\\begin{array}{l}1, \\text { for } 0 \\leq t    < 1 \\\\ 0, \\text { otherwise }\\end{array},\\right.$ then $\\int_{-3000}^{3000}\\left(\\sum_{r^{\\prime}=2014}^{2016} \\phi(t-r') \\phi(t-2016)\\right) d t$ is"
+  },
+  "options": [
+    {
+      "text": "a real number",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": true
+    },
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "does not exist",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "B"
+  ],
+  "solution": {
+    "text": "$\\int_{-3000}^{3000}\\left(\\sum_{r'=2014}^{2016} \\phi\\left(t-r^{\\prime}\\right) \\phi(t-2016)\\right) d t$\r\n$=\\int_{-3000}^{3000}[\\phi(t-2014) \\phi(t-2016)+\\phi(t-2015) \\phi(t-2016) +\\phi(t-2016) \\phi(t-2016)] \\mathrm{dt}$\r\n$=\\int_{-3000}^{3000} \\phi(t-2016)[\\phi(t-2014)+\\phi(t-2015)$ $+\\phi(t-2016)] d t$\r\n$=\\int_{-3000}^{2016} 0 d t+\\int_{2016}^{2017} 1 \\cdot(0+0+1) dt+\\int_{2017}^{3000} 0 d t$\r\n$=0+1+0=1$ which is a real number."
+  }
+}

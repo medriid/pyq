@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2010 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253bf0243a4e96672ba5",
+    "chapter_name": "Circle",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nThe circle $x^2+y^2-8 x=0$ and hyperbola $\\frac{x^2}{9}-\\frac{y^2}{4}=1$ intersect at the points $A$ and $B$.<strong>Question:</strong>\nEquation of the circle with $A B$ as its diameter is"
+  },
+  "options": [
+    {
+      "text": "\n$x^2+y^2-12 x+24=0$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$x^2+y^2+12 x+24=0$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x^2+y^2+24 x-12=0$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x^2+y^2-24 x-12=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "The equation of the hyperbola is $\\frac{x^2}{9}-\\frac{y^2}{4}=1$ and that of circle is\n$$\nx^2+y^2-8 x=0\n$$\nFor their points of intersection\n$$\n\\frac{x^2}{9}+\\frac{x^2-8 x}{4}=1\n$$\n\n$$\n\\begin{array}{ll}\n\\Rightarrow & 4 x^2+9 x^2-72 x=36 \\\\\n\\Rightarrow & 13 x^2-72 x-36=0\n\\end{array}\n$$\n\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad 13 x^2-78 x+6 x-36=0 \\\\\n& \\Rightarrow \\quad 13 x(x-6)+6(x-6)=0 \\\\\n& \\Rightarrow \\quad x=6, x=-\\frac{13}{6} \\\\\n& x=-\\frac{13}{6} \\text { not acceptable } \\\\\n&\n\\end{aligned}\n$$\nNow, for $x=6, y=\\pm 2 \\sqrt{3}$\nRequired equation is\n$$\n\\begin{aligned}\n& (x-6)^2+(y+2 \\sqrt{3})(y-2 \\sqrt{3})=0 \\\\\n& \\Rightarrow \\quad x^2-12 x+y^2+24=0 \\\\\n& \\Rightarrow \\quad x^2+y^2-12 x+24=0\n\\end{aligned}\n$$"
+  }
+}

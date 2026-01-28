@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a67417cc3fb48d667ec",
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7ed",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2019-01-11T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019 (11 Jan Shift 2)",
+      "title": "JEE Main 2019 (11 Jan Shift 2)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "The solution of the differential equation, $\\frac{\\mathrm{d} y}{\\mathrm{~d} x}=(x-y)^{2}$, when $y(1)=1,$ is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "fCtlZ",
+      "text": "$\\quad \\log _{e}\\left|\\frac{2-x}{2-y}\\right|=x-y$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "YdvmI",
+      "text": "$-\\log _{e}\\left|\\frac{1-x+y}{1+x-y}\\right|=2(x-1)$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "sTIiQ",
+      "text": "$-\\log _{e}\\left|\\frac{1+x-y}{1-x+y}\\right|=x+y-2$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "JoJK2",
+      "text": "$\\log _{\\mathrm{e}}\\left|\\frac{2-y}{2-x}\\right|=2(y-1)$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "The given differential equation\r\n\r\n$\\frac{d y}{d x}=(x-y)^{2}$\r\n\r\nLet $x-y=t \\Rightarrow 1-\\frac{d y}{d x}=\\frac{d t}{d x}$\r\n\r\n$\\Rightarrow \\frac{d y}{d x}=1-\\frac{d t}{d x}$\r\n\r\nNow, from equation (1)\r\n\r\n$\\left(1-\\frac{d t}{d x}\\right)=(t)^{2}$\r\n\r\n$\\Rightarrow \\quad 1-t^{2}=\\frac{d t}{d x} \\Rightarrow \\int d x=\\int \\frac{d t}{1-t^{2}}$\r\n\r\n$\\Rightarrow-x=\\frac{1}{2 \\times 1} \\ln \\left|\\frac{t-1}{t+1}\\right|+c$\r\n\r\n$\\Rightarrow-x=\\frac{1}{2} \\ln \\left|\\frac{x-y-1}{x-y+1}\\right|+c$\r\n\r\n$\\because$ The given condition $y(1)=1$\r\n\r\n$-1=\\frac{1}{2} \\ln \\left|\\frac{1-1-1}{1-1+1}\\right|+c \\Rightarrow c=-1$\r\n\r\nHence, $2(x-1)=-\\ln \\left|\\frac{1-x+y}{1-y+x}\\right|$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7ed",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2019-01-11T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019 (11 Jan Shift 2)",
+    "title": "JEE Main 2019 (11 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

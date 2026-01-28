@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2013 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025668251a1afed1b2257",
+    "chapter_name": "Area Under Curves",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<p>The area enclosed by the curves&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></math> and&nbsp;<math> <mrow> <mtext>y</mtext> <mo>=</mo> <mfenced close=\"|\" open=\"|\" separators=\",\"> <mrow> <mtext>cos x</mtext> <mo>-</mo> <mtext>sin x</mtext> </mrow> </mfenced> </mrow> </math>&nbsp;over the interval&nbsp;<math> <mrow> <mfenced close=\"]\" open=\"[\" separators=\",\"> <mrow> <mn>0</mn> <mtext>,</mtext> <mfrac> <mrow> <mi>&#960;</mi> </mrow> <mrow> <mn>2</mn> </mrow> </mfrac> </mrow> </mfenced> </mrow> </math>&nbsp;is</p>"
+  },
+  "options": [
+    {
+      "text": "<math><mrow>  <mn>4</mn>  <mfenced open=\"(\" close=\")\" separators=\",\">    <mrow>      <msqrt>        <mn>2</mn>      </msqrt>      <mo>-</mo>      <mn>1</mn>    </mrow>  </mfenced></mrow></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow> <mn>2</mn> <msqrt> <mn>2</mn> </msqrt> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <msqrt> <mn>2</mn> </msqrt> <mo>-</mo> <mn>1</mn> </mrow> </mfenced> </mrow> </math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mrow>  <mn>2</mn>  <mfenced open=\"(\" close=\")\" separators=\",\">    <mrow>      <msqrt>        <mn>2</mn>      </msqrt>      <mo>+</mo>      <mn>1</mn>    </mrow>  </mfenced></mrow></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mrow>  <mn>2</mn>  <msqrt>    <mn>2</mn>  </msqrt>  <mfenced open=\"(\" close=\")\" separators=\",\">    <mrow>      <msqrt>        <mn>2</mn>      </msqrt>      <mo>+</mo>      <mn>1</mn>    </mrow>  </mfenced></mrow></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p>The given curves are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mi>y</mi><mo>=</mo><mfenced close=\"|\" open=\"|\"><mrow><mi>cos</mi><mi>x</mi><mo>-</mo><mi>sin</mi><mi>x</mi></mrow></mfenced></math></p><p><math> <mrow> <msub> <mtext>y</mtext> <mn>1</mn> </msub> <mo>=</mo> <mtext>sin x</mtext> <mo>+</mo> <mtext>cos x</mtext> <mo>=</mo> <msqrt> <mn>2</mn> </msqrt> <mtext>&#160;sin</mtext> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mtext>x</mtext> <mo>+</mo> <mfrac> <mrow> <mi>&#960;</mi> </mrow> <mrow> <mn>4</mn> </mrow> </mfrac> </mrow> </mfenced> </mrow> </math><br /><math> <mrow> <msub> <mtext>y</mtext> <mn>2</mn> </msub> <mo>=</mo> <msqrt> <mn>2</mn> </msqrt> <mo>|</mo> <mtext>sin</mtext> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mi>&#960;</mi> </mrow> <mrow> <mn>4</mn> </mrow> </mfrac> <mo>-</mo> <mtext>x</mtext> </mrow> </mfenced> <mo>|</mo> </mrow> </math><br />So, Required Area<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munderover><mo>&#8747;</mo><mn>0</mn><mfrac><mi>&#960;</mi><mn>4</mn></mfrac></munderover><mfenced><mrow><mfenced><mrow><mtext>sin x</mtext><mo>+</mo><mtext>cos x</mtext></mrow></mfenced><mo>-</mo><mfenced><mrow><mtext>cos x</mtext><mo>-</mo><mtext>sin x</mtext></mrow></mfenced></mrow></mfenced><mtext>dx</mtext><mo>+</mo><munderover><mo>&#8747;</mo><mfrac><mi>&#960;</mi><mn>4</mn></mfrac><mfrac><mi>&#960;</mi><mn>2</mn></mfrac></munderover><mfenced><mrow><mfenced><mrow><mtext>sin x</mtext><mo>+</mo><mtext>cos x</mtext></mrow></mfenced><mo>-</mo><mfenced><mrow><mtext>sin x</mtext><mo>-</mo><mtext>cos x</mtext></mrow></mfenced></mrow></mfenced><mtext>dx</mtext></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msubsup><mo>&#8747;</mo><mn>0</mn><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>4</mn></mfrac></msubsup><mi>sin</mi><mi>x</mi><mi>d</mi><mi>x</mi><mo>+</mo><mn>2</mn><msubsup><mo>&#8747;</mo><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>4</mn></mfrac><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>2</mn></mfrac></msubsup><mi>cos</mi><mi>x</mi><mi>d</mi><mi>x</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mo>-</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mfenced><mrow><msqrt><mn>2</mn></msqrt><mo>-</mo><mn>1</mn></mrow></mfenced></math>.</p>"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025479bcff3fc153d948d",
+    "chapter_name": "Statistics",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let \\(x_1, x_2, \\ldots, x_{10}\\) be ten observations such that \\(\\sum_{i=1}^{10}\\left(x_i-2\\right)=30, \\sum_{i=1}^{10}\\left(x_i-\\beta\\right)^2=98, \\beta\\gt2\\), and their variance is \\(\\frac{4}{5}\\). If \\(\\mu\\) and \\(\\sigma^2\\) are respectively the mean and the variance of \\(2\\left(x_1-1\\right)+4 \\beta\\), \\(2\\left(x_2-1\\right)+4 \\beta, \\ldots ., 2\\left(x_{10}-1\\right)+4 \\beta\\), then \\(\\frac{\\beta \\mu}{\\sigma^2}\\) is equal to :"
+  },
+  "options": [
+    {
+      "text": "100",
+      "is_correct": true
+    },
+    {
+      "text": "120",
+      "is_correct": false
+    },
+    {
+      "text": "110",
+      "is_correct": false
+    },
+    {
+      "text": "90",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\sum_{l=1}^{10}\\left(x_l-2\\right)=30 \\\\\n& \\sum_{i=1}^{10} x_l=50 \\\\\n& \\Rightarrow \\text { Mean }=5 \\\\\n& \\text { Variance }=\\frac{4}{5}=\\frac{\\sum x_l^2}{10}-(\\bar{x})^2 \\\\\n& \\frac{4}{5}=\\frac{\\sum x_l^2}{10}-25 \\\\\n& \\Rightarrow \\sum x_l^2=258\n\\end{aligned}$\nNow, $\\sum_{l=1}^{10}\\left(x_l-\\beta\\right)^2=98$\n$\\begin{aligned}\n& \\sum_{l=1}^{10} x_l^2-2 \\beta \\sum_{l=1}^{10} x_l+10 \\beta^2=98 \\\\\n& \\Rightarrow 258-2 \\beta(50)+10 \\beta^2=98 \\\\\n& \\Rightarrow 10 \\beta^2-100 \\beta+160=0 \\\\\n& \\Rightarrow \\beta^2-10 \\beta+16=0 \\\\\n& \\Rightarrow \\beta=8 \\text { as } \\beta>2\n\\end{aligned}$\nNow, as per the question\n$2\\left(x_1-1\\right)+4 \\beta, 2\\left(x_2-1\\right)+4 \\beta, \\ldots 2\\left(x_{10}-1\\right)+4 \\beta$\nCan be simplified as\n$2 x_1+30,2 x_2+30, \\ldots, 2 x_{10}+30$\n$\\begin{aligned} & \\mu=2(5)+30=40 \\\\ & \\sigma^2=2^2\\left(\\frac{4}{5}\\right)=\\frac{16}{5} \\\\ & \\frac{\\beta \\mu}{\\sigma^2}=\\frac{8 \\times 40}{\\frac{16}{5}}=100\\end{aligned}$"
+  }
+}

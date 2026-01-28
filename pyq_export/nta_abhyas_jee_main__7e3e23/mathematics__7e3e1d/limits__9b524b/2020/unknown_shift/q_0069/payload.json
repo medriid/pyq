@@ -1,0 +1,43 @@
+{
+  "index": 69,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025440e7c3448e29b524b",
+    "chapter_name": "Limits",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of <math><mrow><mrow><munder><mrow><mi mathvariant=\"normal\">lim</mi></mrow><mrow><mi>x</mi><mo>→</mo><mi>π</mi></mrow></munder></mrow><mo>⁡</mo><mrow><mfrac><mrow><mrow><mrow><mi mathvariant=\"normal\">tan</mi></mrow><mo>⁡</mo><mrow><mfenced separators=\"|\"><mrow><mi>π</mi><mrow><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mo>⁡</mo><mrow><mi>x</mi></mrow></mrow></mrow></mfenced></mrow></mrow></mrow><mrow><mrow><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mo>⁡</mo><mrow><mfenced separators=\"|\"><mrow><mn>2</mn><mi>x</mi></mrow></mfenced></mrow></mrow></mrow></mfrac></mrow></mrow></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><mn>1</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>π</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mo>-</mo><mfrac><mrow><mi>π</mi></mrow><mrow><mn>4</mn></mrow></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mfrac><mrow><mi>π</mi></mrow><mrow><mn>2</mn></mrow></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let,&nbsp;<math><mi>x</mi><mo>=</mo><mi>&#960;</mi><mo>+</mo><mi>t</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>t</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mo>&#8289;</mo><mfrac><mrow><mi>tan</mi><mo>&#8289;</mo><mfenced separators=\"|\"><mrow><mi>&#960;</mi><msup><mi>cos</mi><mn>2</mn></msup><mo>&#8289;</mo><mfenced separators=\"|\"><mrow><mi>&#960;</mi><mo>+</mo><mi>t</mi></mrow></mfenced></mrow></mfenced></mrow><mrow><msup><mi>sin</mi><mn>2</mn></msup><mo>&#8289;</mo><mfenced separators=\"|\"><mrow><mn>2</mn><mi>&#960;</mi><mo>+</mo><mn>2</mn><mi>t</mi></mrow></mfenced></mrow></mfrac><mo>=</mo><munder><mi>lim</mi><mrow><mi>t</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mo>&#8289;</mo><mfrac><mrow><mi>tan</mi><mo>&#8289;</mo><mfenced separators=\"|\"><mrow><mi>&#960;</mi><msup><mi>cos</mi><mn>2</mn></msup><mo>&#8289;</mo><mi>t</mi></mrow></mfenced></mrow><mrow><msup><mi>sin</mi><mn>2</mn></msup><mo>&#8289;</mo><mfenced separators=\"|\"><mrow><mn>2</mn><mi>t</mi></mrow></mfenced></mrow></mfrac></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>t</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mo>&#8289;</mo><mfrac><mrow><mi>tan</mi><mo>&#8289;</mo><mfenced separators=\"|\"><mrow><mi>&#960;</mi><mo>-</mo><mi>&#960;</mi><msup><mi>sin</mi><mn>2</mn></msup><mo>&#8289;</mo><mi>t</mi></mrow></mfenced></mrow><mrow><msup><mi>sin</mi><mn>2</mn></msup><mo>&#8289;</mo><mfenced separators=\"|\"><mrow><mn>2</mn><mi>t</mi></mrow></mfenced></mrow></mfrac><mspace linebreak=\"newline\"/><mo>=</mo><munder><mi>lim</mi><mrow><mi>t</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mo>&#8289;</mo><mfrac><mrow><mo>-</mo><mi>tan</mi><mo>&#8289;</mo><mfenced separators=\"|\"><mrow><mi>&#960;</mi><msup><mi>sin</mi><mn>2</mn></msup><mo>&#8289;</mo><mi>t</mi></mrow></mfenced></mrow><mrow><mn>4</mn><mi>&#960;</mi><msup><mi>sin</mi><mn>2</mn></msup><mo>&#8289;</mo><mi>t</mi><msup><mi>cos</mi><mn>2</mn></msup><mo>&#8289;</mo><mi>t</mi></mrow></mfrac><mo>&#183;</mo><mi>&#960;</mi><mo>=</mo><mo>-</mo><mfrac><mi>&#960;</mi><mn>4</mn></mfrac></math>"
+  }
+}

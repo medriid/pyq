@@ -1,0 +1,43 @@
+{
+  "index": 184,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (10 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The smallest natural number <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> , such that the coefficient of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> in the expansion of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced separators=\"|\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>3</mn></msup></mfrac></mrow></mfenced><mi>n</mi></msup></math> is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>23</mn><none/><mprescripts/><mi>&#160;</mi><mi>n</mi></mmultiscripts></math> , is"
+  },
+  "options": [
+    {
+      "text": "<math><mn>58</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>38</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mn>35</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>23</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p>In the expansion of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced separators=\"|\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>3</mn></msup></mfrac></mrow></mfenced><mi>n</mi></msup></math>&nbsp;the general term is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mmultiscripts><msub><mi>C</mi><mi>r</mi></msub><mprescripts></mprescripts><mi>&#160;</mi><mi>n</mi></mmultiscripts><msup><mfenced separators=\"|\"><msup><mi>x</mi><mn>2</mn></msup></mfenced><mrow><mi>n</mi><mo>-</mo><mi>r</mi></mrow></msup><msup><mfenced separators=\"|\"><mfrac><mn>1</mn><msup><mi>x</mi><mn>3</mn></msup></mfrac></mfenced><mi>r</mi></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><msub><mi>C</mi><mi>r</mi></msub><mprescripts/><mi>&#160;</mi><mi>n</mi></mmultiscripts><msup><mi>x</mi><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>2</mn><mi>r</mi><mo>-</mo><mn>3</mn><mi>r</mi></mrow></msup><mo>=</mo><mmultiscripts><msub><mi>C</mi><mi>r</mi></msub><mprescripts/><mi>&#160;</mi><mi>n</mi></mmultiscripts><msup><mi>x</mi><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>5</mn><mi>r</mi></mrow></msup></math></p><p>For coefficient of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>-</mo><mn>5</mn><mi>r</mi><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>r</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow><mn>5</mn></mfrac></math></p><p>So, we have the coefficient as&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><msub><mi>C</mi><mfrac><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow><mn>5</mn></mfrac></msub><mprescripts/><mi>&#160;</mi><mi>n</mi></mmultiscripts></math></p><p>Using, the given value and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mi>r</mi><none/><mprescripts/><none/><mi>n</mi></mmultiscripts><mo>=</mo><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>-</mo><mi>r</mi></mrow><none/><mprescripts/><none/><mi>n</mi></mmultiscripts></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mmultiscripts><msub><mi>C</mi><mfrac><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow><mn>5</mn></mfrac></msub><mprescripts/><mi>&#160;</mi><mi>n</mi></mmultiscripts><mo>=</mo><mmultiscripts><mrow><msub><mi>C</mi><mn>23</mn></msub><mo>=</mo><mmultiscripts><msub><mi>C</mi><mrow><mi>n</mi><mo>-</mo><mn>23</mn></mrow></msub><mprescripts/><mi>&#160;</mi><mi>n</mi></mmultiscripts></mrow><mprescripts/><mi>&#160;</mi><mi>n</mi></mmultiscripts></math></p><p>If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow><mn>5</mn></mfrac><mo>=</mo><mn>23</mn><mo>&#8658;</mo><mi>n</mi><mo>=</mo><mn>58</mn></math>&nbsp;and if&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow><mn>5</mn></mfrac><mo>=</mo><mi>n</mi><mo>-</mo><mn>23</mn><mo>&#8658;</mo><mi>n</mi><mo>=</mo><mn>38</mn></math></p><p>Thus, the minimum value of <math><mi>&#39;</mi><mi>n</mi><mi>&#39;</mi></math>&nbsp;is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>38</mn><mo>.</mo></math></p>"
+  }
+}

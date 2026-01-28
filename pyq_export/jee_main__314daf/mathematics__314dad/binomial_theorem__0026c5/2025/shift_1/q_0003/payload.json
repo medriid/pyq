@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The remainder when $\\left((64)^{(64)}\\right)^{(64)}$ is divided by 7 is equal to"
+  },
+  "options": [
+    {
+      "text": "4",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": true
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "6",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $\\mathrm{N}=\\left((64)^{64}\\right)^{64}$\n$\\mathbf{N}=(64)^{64^2}$\n$\\mathbf{N}=(1+63)^{64^2}, \\text { let } 64^2=\\mathrm{n}$\n\nExpanding by binomial\n$\\begin{aligned}\n& \\mathrm{N}=(1+63)^{\\mathrm{n}}=1+{ }^{\\mathrm{n}} \\mathrm{C}_1 63+{ }^{\\mathrm{n}} \\mathrm{C}_2(63)^2+\\ldots . \\\\\n& =1+63 \\lambda=1+7(9 \\lambda)\n\\end{aligned}$\n\nRemainder when divided by 7 is 1"
+  }
+}

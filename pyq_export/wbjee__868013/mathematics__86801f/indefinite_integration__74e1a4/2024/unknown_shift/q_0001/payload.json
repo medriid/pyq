@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<img src=\"assets\\qt0001_c1ae1950d338.png\"/><br/>"
+  },
+  "options": [
+    {
+      "text": "$\\pi$",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "0",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{3 \\pi}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& I=\\int_0^\\pi e^{\\cos ^2 x} \\cos ^3(2 n+1) x d x, n \\in Z \\ldots(1) \\\\\n& =\\int_0^\\pi e^{\\cos ^2(\\pi-x)} \\cos ^3[(2 n+1)(\\pi-x)] d x\n\\end{aligned}\\)\nUsing \\(\\int_0^a f(x) d x=\\int_0^a f(a-x) d x\\)\n\\(\\begin{aligned}\n& \\therefore I=\\int_0^\\pi e^{\\cos ^2 x} \\cos ^3[(2 n+1) \\pi-(2 n+1) x] d x \\\\\n& I=\\int_0^\\pi-e^{\\cos ^2 x} \\cos ^3(2 n+1) x d x \\ldots \\text { (2) }\n\\end{aligned}\\)\nAdding (1) and (2) we get\n\\(21=0 \\Rightarrow 1=0\\)"
+  }
+}

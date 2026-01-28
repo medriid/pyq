@@ -1,0 +1,63 @@
+{
+  "_id": "64a813fee0ff5a5425a85775",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "The value of $\\lim _{x \\rightarrow 0} \\frac{\\int_{0}^{x^{2}} \\cos \\left(t^{2}\\right) d t}{x \\sin x}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "AiI4E",
+      "text": "1",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "9TXcU",
+      "text": "-1",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "GgQ2S",
+      "text": "2",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "co9tR",
+      "text": "$\\log _{e} 2$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow 0} \\frac{\\int_{0}^{x^{2}} \\cos \\left(t^{2}\\right) d t}{x \\sin x} \\quad\\left[\\frac{0}{0}\\text{ form}\\right]$\r\n$=\\lim _{x \\rightarrow 0} \\frac{\\cos \\left(x^{4}\\right) \\times 2 x}{\\sin x+x \\cos x} \\quad$ [L' Hospital's rule]\r\n$=\\lim _{x \\rightarrow 0} \\frac{2\\left[\\cos x^{4}-x \\sin \\left(x^{4}\\right) \\times 4 x^{3}\\right]}{\\cos x+\\cos x-x \\sin x}$\r\n[L' Hospital's rule]\r\n$=\\frac{2[\\cos 0-0]}{\\cos 0+\\cos 0-0}=\\frac{2}{1+1}=1$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64b169f9f23ac7d519f9b02a",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c45",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2009-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009 (Paper 2)",
+      "title": "JEE Advanced 2009 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "For the function $f(x)=x \\cos \\frac{1}{x}, x \\geq 1$,",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "RwpuK",
+      "text": "\nfor atleast one $x$ in the interval $[1, \\infty)$, $f(x+2)-f(x) < 2$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "lzlqb",
+      "text": "\n$\\lim _{x \\rightarrow \\infty} f^{\\prime}(x)=1$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "0iO2T",
+      "text": "\nfor all $x$ in the interval $[1, \\infty)$, $f(x+2)-f(x)>2$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "OwoZi",
+      "text": "\n$f^{\\prime}(x)$ is strictly decreasing in the interval $[1, \\infty)$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $f(x)=x \\cos \\frac{1}{x}, x \\geq 1$\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad f^{\\prime}(x)=\\frac{1}{x} \\sin \\frac{1}{x}+\\cos \\frac{1}{x} \\\\\n& \\Rightarrow \\quad f^{\\prime \\prime}(x)=-\\frac{1}{x^3} \\cos \\left(\\frac{1}{x}\\right)\n\\end{aligned}\n$$\nNow, $\\lim _{x \\rightarrow \\infty} f^{\\prime}(x)=0+1=1$\n$\\Rightarrow$ Option (b) is correct.\nNow, $\\quad x \\in[1, \\infty) \\Rightarrow \\frac{1}{x} \\in(0,1]$\n$\\Rightarrow f^{\\prime \\prime}(x) < 0 \\Rightarrow$ Option (d) is correct.\nAs $f^{\\prime}(1)=\\sin 1+\\cos 1>1$\n$f^{\\prime}(x)$ is strictly decreasing and $\\lim _{x \\rightarrow \\infty} f^{\\prime}(x)=1$\nSo, graph of $f^{\\prime}(x)$ is shown as below.<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/hS4edZSTwmV2Y_WsflnxEkx7RVsGq8BZPllC_0llCFk.original.fullsize.png\"><br>\nNow, in $[x, x+2], x \\in[1, \\infty), f(x)$ is continuous and differentiable so by LMVT,\n$$\nf^{\\prime}(x)=\\frac{f(x+2)-f(x)}{2}\n$$\nAs $f^{\\prime}(x)>1$ for all $x \\in[1, \\infty)$\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad \\frac{f(x+2)-f(x)}{2}>1 \\\\\n& \\Rightarrow f(x+2)-f(x)>2 \\quad \\text { for all } x \\in[1, \\infty)\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c45",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2009-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009 (Paper 2)",
+    "title": "JEE Advanced 2009 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

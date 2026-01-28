@@ -1,0 +1,43 @@
+{
+  "index": 174,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 1 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2018",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "A box ' $A$ ' contanis 2 white, 3 red and 2 black balls. Another box ' $B^{\\prime}$ contains 4 white, 2 red and 3 black balls. If two balls are drawn at random, without replacement, from a randomly selected box and one ball turns out to be white while the other ball turns out to be red, then the probability that both balls are drawn from box ' $B^{\\prime}$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{7}{16}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{9}{32}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{7}{8}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n $\\frac{9}{16}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Probability of drawing a white ball and then a red ball from bag $B$ is given by\n$$\n\\frac{{ }^4 C_1 \\times{ }^2 C_1}{{ }^9 C_2}=\\frac{2}{9}\n$$\nProbability of drawing a white ball and then a red ball from bag $A$ is given by\n$$\n\\frac{{ }^2 C_1 \\times{ }^3 C_1}{{ }^7 C_2}=\\frac{2}{7}\n$$\nHence, the probability of drawing a white ball and then a red ball from bag $B$\n$$\n=\\frac{\\frac{2}{9}}{\\frac{2}{7}+\\frac{2}{9}}=\\frac{2 \\times 7}{18+14}=\\frac{7}{16}\n$$"
+  }
+}

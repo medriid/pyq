@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For $y=\\sin ^{-1}\\left\\{\\frac{5 x+12 \\sqrt{1-x^{2}}}{13}\\right\\} ;|x| \\leq 1$, if $a\\left(1-x^{2}\\right) y_{2}+b x y_{1}=0$ then $(a, b)=$"
+  },
+  "options": [
+    {
+      "text": "$(2,1)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(1,-1)$",
+      "is_correct": true
+    },
+    {
+      "text": "$(-1,1)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(1,2)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$y=\\sin ^{-1}\\left(\\frac{5 x+12 \\sqrt{1-x^{2}}}{13}\\right)$\r\nLet $\\sin \\theta_{1}=\\frac{5}{13}$ and $\\cos \\theta_{2}=x$\r\n$\\begin{array}{l}\r\ny=\\sin ^{-1}\\left(\\sin \\theta_{1} \\cdot \\cos \\theta_{2}+\\cos \\theta_{1} \\cdot \\sin \\theta_{2}\\right. \\\\\r\ny=\\theta_{1}+\\theta_{2}=\\sin ^{-1} \\frac{5}{13}+\\cos ^{-1} x\r\n\\end{array}$\r\n$y_{1}=-\\frac{1}{\\sqrt{1-x^{2}}}$\r\n$y_{2}=\\frac{-x}{\\left(1-x^{2}\\right) \\sqrt{1-x^{2}}}$\r\n$\\Rightarrow \\mathrm{y}_{2}\\left(1-\\mathrm{x}^{2}\\right)=\\mathrm{x} \\cdot \\mathrm{y}_{1}$\r\n$\\Rightarrow \\mathrm{y}_{2}\\left(1-\\mathrm{x}^{2}\\right)-\\mathrm{xy}_{1}=0$\r\n$\\therefore \\mathrm{a}=1, \\mathrm{~b}=-1$\r\n$(\\mathrm{a}, \\mathrm{b})=(1,-1)$"
+  }
+}

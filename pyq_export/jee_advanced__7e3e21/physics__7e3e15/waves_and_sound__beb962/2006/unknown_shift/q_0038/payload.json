@@ -1,0 +1,43 @@
+{
+  "index": 38,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2006",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "616023feeffb5137d3beb962",
+    "chapter_name": "Waves and Sound",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nTwo plane harmonic sound waves are expressed by the equations.\n$$\n\\begin{aligned}\n& y_1(x, t)=A \\cos (0.5 \\pi x-100 \\pi t) \\\\\n& y_2(x, t)=A \\cos (0.46 \\pi x-92 \\pi t)\n\\end{aligned}\n$$\n(All parameters are in MKS)<strong>Question:</strong>\nAt $x=0$ how many times the amplitude of $y_1+y_2$ is zero in one second at $x=0$ ?"
+  },
+  "options": [
+    {
+      "text": "\n192\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n48\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n100\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n96",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "At $x=0, y=y_1+y_2=2 A \\cos 96 \\pi t \\cos 4 \\pi t$\nFrequency of $\\cos (96 \\pi t)$ function is $48 \\mathrm{~Hz}$ and that of $\\cos (4 \\pi t)$ function is $2 \\mathrm{~Hz}$. In one second cos function becomes zero at $2 f$ times, where $f$ is the frequency. Therefore, first function will become zero at 96 times and the second at 4 times. But second overlaps with first. Hence, net $y$ will become zero 96 times in 1 second."
+  }
+}

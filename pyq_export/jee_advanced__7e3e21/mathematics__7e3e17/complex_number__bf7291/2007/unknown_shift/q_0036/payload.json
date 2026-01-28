@@ -1,0 +1,43 @@
+{
+  "index": 36,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2007 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252823fcecb062bf7291",
+    "chapter_name": "Complex Number",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $|z|=1$ and $z \\neq \\pm 1$, then all the values of $\\frac{z}{1-z^2}$ lie on"
+  },
+  "options": [
+    {
+      "text": "\na line not passing through the origin\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$|z|=\\sqrt{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nthe X-axis\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nthe Y-axis",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $z=\\cos \\theta+i \\sin \\theta$\n$$\n\\begin{aligned}\n\\frac{z}{1-z^2} & =\\frac{\\cos \\theta+i \\sin \\theta}{1-(\\cos 2 \\theta+i \\sin 2 \\theta)} \\\\\n& =\\frac{\\cos \\theta+i \\sin \\theta}{2 \\sin ^2 \\theta-2 i \\sin \\theta \\cos \\theta} \\\\\n& =\\frac{\\cos \\theta+i \\sin \\theta}{-2 i \\sin \\theta(\\cos \\theta+i \\sin \\theta)} \\\\\n& =\\frac{i}{2 \\sin \\theta}\n\\end{aligned}\n$$\nHence, $\\frac{z}{1-z^2}$ lies on the imaginary axis, i.e. $x=0$.\nALITER\nLet\n$E=\\frac{z}{1-z^2}=\\frac{z}{z \\bar{z}-z^2}=\\frac{1}{\\bar{z}-z}$ which is imaginary."
+  }
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PYQ Export Viewer</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">PYQ Export Viewer</div>
+    <div class="sub">Static browser for your exported GetMarks dataset (GitHub Pages compatible)</div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="panel">
+        <div class="panel-title">Browse</div>
+
+        <label class="label">Exam</label>
+        <select id="examSelect"></select>
+
+        <label class="label">Subject</label>
+        <select id="subjectSelect"></select>
+
+        <label class="label">Chapter</label>
+        <select id="chapterSelect"></select>
+
+        <div class="row">
+          <label class="label grow">Year</label>
+          <label class="label grow">Shift</label>
+        </div>
+        <div class="row">
+          <select id="yearSelect" class="grow"></select>
+          <select id="shiftSelect" class="grow"></select>
+        </div>
+
+        <div class="row gap">
+          <input id="qSearch" class="grow" type="search" placeholder="Search in current chapter (client-side)..." />
+          <button id="clearSearch" class="btn">Clear</button>
+        </div>
+
+        <div class="meta" id="chapterMeta"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">Questions</div>
+        <div id="qList" class="q-list"></div>
+      </div>
+    </aside>
+
+    <section class="content">
+      <div class="panel">
+        <div class="panel-title">Question Viewer</div>
+        <div id="viewer" class="viewer">
+          <div class="hint">
+            Select an exam → subject → chapter, then pick a question.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Tip: put these files beside your export root and generate <code>catalog.json</code> using <code>make_catalog.py</code>.</span>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

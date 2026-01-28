@@ -1,0 +1,43 @@
+{
+  "index": 35,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (18 Mar Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2021",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The integral&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8747;</mo><mfrac><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo><mi>cos</mi><msqrt><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn><msup><mo>)</mo><mn>2</mn></msup><mo>+</mo><mn>5</mn></msqrt></mrow><msqrt><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>6</mn></msqrt></mfrac><mi>d</mi><mi>x</mi></math>&nbsp;is equal to&nbsp;(where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> is a constant of integration)"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>sin</mi><msqrt><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn><msup><mo>)</mo><mn>2</mn></msup><mo>+</mo><mn>5</mn></msqrt><mo>+</mo><mi>c</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>cos</mi><msqrt><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo>)</mo><mn>2</mn></msup><mo>+</mo><mn>5</mn></msqrt><mo>+</mo><mi>c</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>cos</mi><msqrt><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn><msup><mo>)</mo><mn>2</mn></msup><mo>+</mo><mn>5</mn></msqrt><mo>+</mo><mi>c</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>sin</mi><msqrt><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo>)</mo><mn>2</mn></msup><mo>+</mo><mn>5</mn></msqrt><mo>+</mo><mi>c</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8747;</mo><mfrac><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo><mi>cos</mi><msqrt><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn><msup><mo>)</mo><mn>2</mn></msup><mo>+</mo><mn>5</mn></msqrt></mrow><msqrt><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn><msup><mo>)</mo><mn>2</mn></msup><mo>+</mo><mn>5</mn></msqrt></mfrac><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn><msup><mo>)</mo><mn>2</mn></msup><mo>+</mo><mn>5</mn><mo>=</mo><msup><mi>t</mi><mn>2</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfenced><mrow><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>&#160;</mo><mn>2</mn><mi>d</mi><mi>x</mi><mo>=</mo><mn>2</mn><mo>&#160;</mo><mi>t</mi><mi>d</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>5</mn></msqrt><mi>d</mi><mi>x</mi><mo>=</mo><mi>t</mi><mi>d</mi><mi>t</mi></math></p><p>So&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8747;</mo><mfrac><mrow><msqrt><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>5</mn></msqrt><mi>cos</mi><mi>t</mi></mrow><mrow><mn>2</mn><msqrt><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>5</mn></msqrt></mrow></mfrac><mi>d</mi><mi>t</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>sin</mi><mi>t</mi><mo>+</mo><mi>c</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>sin</mi><msqrt><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn><msup><mo>)</mo><mn>2</mn></msup><mo>+</mo><mn>5</mn></msqrt><mo>+</mo><mi>c</mi></math></p>"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "66446731970e6e9ab542d110",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6c",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-06T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (06 Apr Shift 1)",
+      "title": "JEE Main 2024 (06 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let the first term of a series be $T_1=6$ and its $r^{\\text {th }}$ term $T_r=3 T_{r-1}+6^r, r=2,3$,\n$\\qquad$ $n$. If the sum of the first $n$ terms of this series is $\\frac{1}{5}\\left(n^2-12 n+39\\right)\\left(4 \\cdot 6^n-5 \\cdot 3^n+1\\right)$, then $n$ is equal to______",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "6",
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{T}_{\\mathrm{r}}=3 \\mathrm{~T}_{\\mathrm{r}-1}+6^{\\mathrm{r}}, \\mathrm{r}=2,3,4, \\ldots \\mathrm{n} \\\\ & \\mathrm{T}_2=3 . \\mathrm{T}_1+6^2 \\\\ & \\mathrm{~T}_2=3.6+6^2...(1)\\end{aligned}$\n$\\begin{aligned} & \\mathrm{T}_3=3 \\mathrm{~T}_2+6^3 \\\\ & \\mathrm{~T}_3=3 \\mathrm{~T}_2+6^3 \\\\ & \\mathrm{~T}_3=3\\left(3.6+6^2\\right)+6^3 \\\\ & \\mathrm{~T}_3=3^2 .6+3.6^2+6^3...(2)\\end{aligned}$\n$\\begin{aligned} & \\mathrm{T}_{\\mathrm{r}}=3^{\\mathrm{r}-1} \\cdot 6\\left[1+\\frac{6}{3}+\\left(\\frac{6}{3}\\right)^2+\\ldots+\\left(\\frac{6}{3}\\right)^{\\mathrm{r}-1}\\right] \\\\ & \\mathrm{T}_{\\mathrm{r}}=3^{\\mathrm{r}-1} \\cdot 6\\left(1+2+2^2+\\ldots+2^{\\mathrm{r}-1}\\right) \\\\ & \\mathrm{T}_{\\mathrm{r}}=6 \\cdot 3^{\\mathrm{r}-1} 1 \\cdot \\frac{\\left(1-2^{\\mathrm{r}}\\right)}{(-1)} \\\\ & \\mathrm{T}_{\\mathrm{r}}=6 \\cdot 3^{\\mathrm{r}-1} \\cdot\\left(2^{\\mathrm{r}}-1\\right) \\\\ & \\mathrm{T}_{\\mathrm{r}}=\\frac{6 \\cdot 3^{\\mathrm{r}}}{3} \\cdot\\left(2^{\\mathrm{r}}-1\\right)\\end{aligned}$\n$\\begin{aligned} & \\mathrm{T}_{\\mathrm{r}}=2 \\cdot\\left(6^{\\mathrm{r}}-3^{\\mathrm{r}}\\right) \\\\ & \\mathrm{S}_{\\mathrm{n}}=2 \\Sigma\\left(6^{\\mathrm{r}}-3^{\\mathrm{r}}\\right) \\\\ & \\mathrm{S}_{\\mathrm{n}}=2 \\cdot\\left[\\frac{6 .\\left(6^{\\mathrm{n}}-1\\right)}{5}-\\frac{3 .\\left(3^{\\mathrm{n}}-1\\right)}{2}\\right] \\\\ & \\mathrm{S}_{\\mathrm{n}}=2\\left[\\frac{12\\left(6^{\\mathrm{n}}-1\\right)-15\\left(3^{\\mathrm{n}}-1\\right)}{10}\\right] \\\\ & \\mathrm{S}_{\\mathrm{n}}=\\frac{3}{5}\\left[4 \\cdot 6^4-5 \\cdot 3^{\\mathrm{n}}+1\\right] \\\\ & \\therefore \\mathrm{n}^2-12 \\mathrm{n}+39=3 \\\\ & \\mathrm{n}^2-12 \\mathrm{n}+36=0 \\\\ & \\mathrm{n}=6\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "fc73df49d8e94a99a2f13d40a554294b",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/aZvRcWCN5zAmB.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/aZvRcWCN5zAmB.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "outOfSyllabusButGoodToSolve",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda6c",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-06T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (06 Apr Shift 1)",
+    "title": "JEE Main 2024 (06 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

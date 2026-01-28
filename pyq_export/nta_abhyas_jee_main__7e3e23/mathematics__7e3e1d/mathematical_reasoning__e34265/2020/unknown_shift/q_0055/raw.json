@@ -1,0 +1,61 @@
+{
+  "_id": "6151e863289bd42ed55d7290",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "24",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "If <math><mi>p</mi></math>&nbsp;and&nbsp;<math><mi>q</mi></math> are two statements, then which of the following statements is not equivalent to <math><mi>p</mi><mo>⇔</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>⇒</mo><mi>q</mi></mrow></mfenced></math>?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "72ZM7",
+      "text": "<math><mi>p</mi><mo>∧</mo><mi>q</mi></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "VKInO",
+      "text": "<math><mfenced separators=\"|\"><mrow><mi>p</mi><mo>⇔</mo><mi>q</mi></mrow></mfenced><mo>∧</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>∨</mo><mi>q</mi></mrow></mfenced></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "K6hYq",
+      "text": "<math><mfenced separators=\"|\"><mrow><mi>q</mi><mo>&#8658;</mo><mi>p</mi></mrow></mfenced><mo>⇔</mo><mi>q</mi></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "rA8NG",
+      "text": "<math><mfenced separators=\"|\"><mrow><mo>~</mo><mi>q</mi><mo>⇒</mo><mi>p</mi></mrow></mfenced><mo>∧</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>⇒</mo><mi mathvariant=\"normal\"></mi><mo>~</mo><mi>q</mi></mrow></mfenced></math>",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<table border=\"1px solid\">\t<thead>\t\t<tr>\t\t\t<th><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math></th>\t\t\t<th><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi></math></th>\t\t\t<th><math><mi>p</mi><mo>⇒</mo><mi>q</mi></math></th>\t\t\t<th><math><mi>p</mi><mo>⇔</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>⇒</mo><mi>q</mi></mrow></mfenced></math></th>\t\t</tr>\t</thead>\t<tbody>\t\t<tr>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t</tr>\t\t<tr>\t\t\t<td>T</td>\t\t\t<td>F</td>\t\t\t<td>F</td>\t\t\t<td>F</td>\t\t</tr>\t\t<tr>\t\t\t<td>F</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>F</td>\t\t</tr>\t\t<tr>\t\t\t<td>F</td>\t\t\t<td>F</td>\t\t\t<td>T</td>\t\t\t<td>F</td>\t\t</tr>\t</tbody></table><br /><math><mo>⇒</mo><mi>p</mi><mo>⇔</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>⇒</mo><mi>q</mi></mrow></mfenced><mo>≡</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>∧</mo><mi>q</mi></mrow></mfenced><mo>⇒</mo><mfenced separators=\"|\"><mrow><mi>A</mi></mrow></mfenced></math> is true<br />Now,&nbsp;<math><mi>q</mi><mo>⇔</mo><mfenced separators=\"|\"><mrow><mi>q</mi><mo>⇒</mo><mi>p</mi></mrow></mfenced><mo>≡</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>∧</mo><mi>q</mi></mrow></mfenced><mo>≡</mo><mi>p</mi><mo>∧</mo><mi>q</mi></math><br /><math><mo>⇒</mo><mfenced separators=\"|\"><mrow><mi>q</mi><mo>⇒</mo><mi>p</mi></mrow></mfenced><mo>⇒</mo><mi>q</mi><mo>≡</mo><mi>p</mi><mo>∧</mo><mi>q</mi><mo>⇒</mo><mfenced separators=\"|\"><mrow><mi>C</mi></mrow></mfenced></math> is true<br />Now, common between<br /><math><mfenced separators=\"|\"><mrow><mi>p</mi><mo>⇔</mo><mi>q</mi></mrow></mfenced></math> &amp; <math><mfenced separators=\"|\"><mrow><mi>p</mi><mo>∨</mo><mi>q</mi></mrow></mfenced></math> is<br /><math><mi>p</mi><mo>∧</mo><mi>q</mi><mo>⇒</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>⇔</mo><mi>q</mi></mrow></mfenced><mo>∧</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>∨</mo><mi>q</mi></mrow></mfenced><mo>≡</mo><mi>p</mi><mo>∧</mo><mi>q</mi></math><br /><math><mo>⇒</mo><mfenced separators=\"|\"><mrow><mi>B</mi></mrow></mfenced></math> is correct<br />Now,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced separators=\"|\"><mrow><mo>~</mo><mi>q</mi><mo>⇒</mo><mi>p</mi></mrow></mfenced><mo>∧</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>⇒</mo><mo>~</mo><mi>q</mi></mrow></mfenced><mo>≡</mo><mfenced separators=\"|\"><mrow><mi>q</mi><mo>∨</mo><mi>p</mi></mrow></mfenced><mo>∧</mo><mfenced separators=\"|\"><mrow><mo>~</mo><mi>p</mi><mo>∨</mo><mo>~</mo><mi>q</mi></mrow></mfenced></math><br /><math><mo>=</mo></math> Only <math><mi mathvariant=\"normal\"></mi><mi>p</mi></math> or only <math><mi>q</mi><mo>≡</mo><mo>~</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>⇔</mo><mi>q</mi></mrow></mfenced></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64a81420e0ff5a5425a858ba",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7b",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2016-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2016",
+      "title": "WBJEE 2016"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "If $a, x$ are real numbers and $|a|    < 1,|x| < 1$ then $1 (1+a) x+\\left(1+a+a^{2}\\right) x^{2}+\\ldots \\infty \\quad$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "a3wVa",
+      "text": "$\\frac{1}{(1-a)(1-a x)}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "aP4Es",
+      "text": "$\\frac{1}{(1-a)(1-x)}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "03S95",
+      "text": "$\\frac{1}{(1-x)(1-a x)}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "pE32O",
+      "text": "$\\frac{1}{(1+a x)(1-a)}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have. $1+(1+a) x+\\left(1+a+a^{2}\\right) x^{2}+\\ldots \\infty$\r\n$=\\sum_{n=1}^{\\infty}\\left(1+a+a^{2}+\\ldots+a^{n-1}\\right) x^{n-1}$\r\n$=\\sum_{n=1}^{\\infty}\\left(\\frac{1-a^{n}}{1-a}\\right) x^{n-1}$\r\n$=\\sum_{n=1}^{\\infty} \\frac{x^{n-1}}{1-a}-\\sum_{n=1}^{\\infty} \\frac{a^{n} x^{n-1}}{1-a}$\r\n$=\\frac{1}{1-a} \\sum_{n=1}^{\\infty} x^{n-1}-\\frac{a}{1-a} \\sum_{n=1}^{\\infty}(a x)^{n-1}$\r\n$=\\frac{1}{1-a}\\left[\\left(1+x+x^{2}+\\ldots \\infty\\right)\\right]$ $-\\frac{a}{1-a}\\left[\\left\\{1+a x+(a x)^{2}+\\ldots \\infty\\right\\}\\right]$\r\n$=\\frac{1}{(1-a)} \\cdot \\frac{1}{(1-x)}-\\frac{a}{(1-a)(1-a x)}$\r\n$=\\frac{1}{(1-a x)(1-x)}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7b",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2016-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2016",
+    "title": "WBJEE 2016"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

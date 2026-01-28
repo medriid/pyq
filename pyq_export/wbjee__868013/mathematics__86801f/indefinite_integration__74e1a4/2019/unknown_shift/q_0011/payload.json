@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$y=\\int \\cos \\left\\{2 \\tan ^{-1} \\sqrt{\\frac{1-x}{1+x}}\\right\\} d x$ is an equation of a family of"
+  },
+  "options": [
+    {
+      "text": "straight lines",
+      "is_correct": false
+    },
+    {
+      "text": "circles",
+      "is_correct": false
+    },
+    {
+      "text": "ellipses",
+      "is_correct": false
+    },
+    {
+      "text": "parabolas",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $I=\\int \\cos \\left(2 \\tan ^{-1} \\sqrt{\\frac{1-x}{1+x}}\\right\\} d x$\r\nPut $x=\\cos 2 \\theta \\Rightarrow d x=-2 \\sin 2 \\theta d \\theta$\r\n$\\begin{aligned} \\therefore I &=\\int \\cos \\left(2 \\tan ^{-1} \\sqrt{\\frac{1-\\cos 2 \\theta}{1+\\cos 2 \\theta}}\\right\\}(-2 \\sin 2 \\theta) d \\theta \\\\ &=-2 \\int \\cos \\left\\{2 \\tan ^{-1} \\sqrt{\\frac{2 \\sin ^{2} \\theta}{2 \\cos ^{2} \\theta}}\\right\\} \\sin 2 \\theta d \\theta \\\\ &=-2 \\int \\cos \\left(2 \\tan ^{-1}(\\tan \\theta) \\sin 2 \\theta d \\theta\\right.\\\\ &=-2 \\int \\cos 2 \\theta \\sin 2 \\theta d \\theta \\\\ &=\\int \\cos 2 \\theta d(\\cos 2 \\theta) \\\\ &=\\frac{\\cos ^{2} 2 \\theta}{2}+C \\\\ &=\\frac{x^{2}}{2}+C \\end{aligned}$\r\nWhich is an equation of parabola."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "66965dccd603121f43a3e317",
+  "type": "multipleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "66965789b31faf98fda8fef9",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Paper 1)",
+      "title": "JEE Advanced 2024 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\mathbb{R}^3$ denote the three-dimensional space. Take two points $P=(1,2,3)$ and $Q=(4,2,7)$. Let $\\operatorname{dist}(X, Y)$ denote the distance between two points $X$ and $Y$ in $\\mathbb{R}^3$. Let\n$\\begin{gathered}S=\\left\\{X \\in \\mathbb{R}^3:(\\operatorname{dist}(X, P))^2-(\\operatorname{dist}(X, Q))^2=50\\right\\} \\text { and } \\\\T=\\left\\{Y \\in \\mathbb{R}^3:(\\operatorname{dist}(Y, Q))^2-(\\operatorname{dist}(Y, P))^2=50\\right\\} .\\end{gathered}$\nThen which of the following statements is (are) TRUE?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "JrLeL",
+      "text": "There is a triangle whose area is 1 and all of whose vertices are from $S$.",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "xoawN",
+      "text": "There are two distinct points $L$ and $M$ in $T$ such that each point on the line segment $L M$ is also in $T$.",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "zyOtB",
+      "text": "There are infinitely many rectangles of perimeter 48 , two of whose vertices are from $S$ and the other two vertices are from $T$.",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "buCM9",
+      "text": "There is a square of perimeter 48 , two of whose vertices are from $S$ and the other two vertices are from $T$.",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}& \\mathrm{S}=\\left\\{\\mathrm{X}:(\\mathrm{XP})^2-(\\mathrm{XQ})^2=50\\right\\} \\\\& \\mathrm{T}=\\left\\{\\mathrm{Y}:(\\mathrm{YQ})^2-(\\mathrm{YP})^2=50\\right\\}\\end{aligned}$\nfor finding $S \\equiv X(x, y, z)$ and for $T \\equiv Y(x, y, z)$\n$\\begin{aligned}&\\left((x-1)^2+(y-1)^2+(\\mathrm{z}-1)^2\\right)-\\left((\\mathrm{x}-4)^2+(\\mathrm{y}-2)^2+(\\mathrm{z}-7)^2\\right)=50 \\\\& \\Rightarrow \\quad \\mathrm{S}=\\{(\\mathrm{x}, \\mathrm{y}, \\mathrm{z}): 6 \\mathrm{x}+8 \\mathrm{z}=105\\} \\\\& \\mathrm{T}=\\{(\\mathrm{x}, \\mathrm{y}, \\mathrm{z}): 6 \\mathrm{x}+8 \\mathrm{z}=5\\}\\end{aligned}$\nSince $\\mathrm{S}$ and $\\mathrm{T}$ both are plane ;\n(1) There exist a triangle in plane $\\mathrm{S}$ whose area $=1$ (always)\n(2) $\\mathrm{L} ~\\&~ \\mathrm{M}$ lies on plane $\\mathrm{T}$, hence line segment joining $\\mathrm{L} \\& \\mathrm{M}$ will lie on plane $\\mathrm{T}$.\n(3) Distance between $\\mathrm{S} \\& \\mathrm{~T}$\n$\\mathrm{d}=\\left|\\frac{105-5}{10}\\right|=10$\nHence for rectangle of perimeter 48 can exist.\n(4) For Square\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/a9XIVkLb-k7s1awyKNeNOdYpCd5nYsKKTANatSFZxkY.original.fullsize.png\">\nThere will be infinite such rectangle possible.\nHence Answers 1,2,3,4 are correct.",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "ce09b8c15e974158aa469bb54bcc7a6b",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/ONbIhNGXBpKOr.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/ONbIhNGXBpKOr.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "66965789b31faf98fda8fef9",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Paper 1)",
+    "title": "JEE Advanced 2024 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

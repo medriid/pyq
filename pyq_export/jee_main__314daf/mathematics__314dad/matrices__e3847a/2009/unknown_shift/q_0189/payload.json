@@ -1,0 +1,43 @@
+{
+  "index": 189,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2009",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let A be a $2 \\times 2$ matrix\nStatement-1 $: \\operatorname{adj}(\\operatorname{adj} A)=A$\nStatement-2 : $|\\operatorname{adj} \\mathrm{A}|=|\\mathrm{A}|$"
+  },
+  "options": [
+    {
+      "text": "\nStatement-1 is true, Statement-2 is true; Statement-2 is a correct explanation for Statement-1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement-1 is true, Statement-2 is true; Statement-2 is not a correct explanation for Statement-1\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nStatement-1 is true, Statement-2 is false\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement-1 is false, Statement-2 is true",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& |\\operatorname{adj} A|=|A|^{n-1}=|A|^{2-1}=|A| \\\\\n& \\operatorname{adj}(\\operatorname{adj} A)=|A|^{n-2} A=|A|^0 A=A\n\\end{aligned}\n$$"
+  }
+}

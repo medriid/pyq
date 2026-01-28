@@ -1,0 +1,63 @@
+{
+  "_id": "64a813e8e0ff5a5425a856a3",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec2",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2013-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013",
+      "title": "WBJEE 2013"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The value of determinant $\\left|\\begin{array}{ccc}1+a^{2}-b^{2} & 2 a b & -2 b \\\\ 2 a b & 1-a^{2}+b^{2} & 2 a \\\\ 2 b & -2 a & 1-a^{2}-b^{2}\\end{array}\\right|$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "z8N7h",
+      "text": "0",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "G5NNa",
+      "text": "$\\left(1+a^{2}+b^{2}\\right)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "kvllF",
+      "text": "$\\left(1+a^{2}+b^{2}\\right)^{2}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "ZrzhV",
+      "text": "$\\left(1+a^{2}+b^{2}\\right)^{3}$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let\r\n$\\Delta=\\left|\\begin{array}{ccc}1+a^{2}-b^{2} & 2 a b & -2 b \\\\ 2 a b & 1-a^{2}+b^{2} & 2 a \\\\ 2 b & -2 a & 1-a^{2}-b^{2}\\end{array}\\right|$\r\nApply $\\mathrm{C}_{\\mathrm{1}} \\rightarrow \\mathrm{C}_{1}-\\mathrm{bC}_{3}$ and $\\mathrm{C}_{2} \\rightarrow \\mathrm{aC}_{3}+\\mathrm{C}_{2}$\r\n$=\\left|\\begin{array}{ccc}1+a^{2}-b^{2}+2 b^{2} & 2 a b-2 a b & -2 b \\\\ 2 a b-2 a b & 1-a^{2}+b^{2}+2 a^{2} & 2 a \\\\ 2 b-b+a^{2} b+b^{3} & -2 a+a-a^{3}-a b^{2} & 1-a^{2}-b^{2}\\end{array}\\right|$\r\n$=\\left|\\begin{array}{ccc}\\left(1+a^{2}+b^{2}\\right) & 0 & -2 b \\\\ 0 & \\left(1+a^{2}+b^{2}\\right) & 2 a \\\\ b\\left(1+a^{2}+b^{2}\\right) & -a\\left(1+a^{2}+b^{2}\\right) & \\left(1-a^{2}-b^{2}\\right)\\end{array}\\right|$\r\n$=\\left(1+a^{2}+b^{2}\\right)^{2}\\left|\\begin{array}{ccc}1 & 0 & -2 b \\\\ 0 & 1 & 2 a \\\\ b & -a & \\left(1-a^{2}-b^{2}\\right)\\end{array}\\right|$\r\n$=\\left(1+a^{2}+b^{2}\\right)^{2}\\left\\{\\left(1-a^{2}-b^{2}+2 a^{2}\\right)+2 b^{2}\\right\\}$\r\n$=\\left(1+a^{2}+b^{2}\\right)^{2}\\left(1+a^{2}+b^{2}\\right)=\\left(1+a^{2}+b^{2}\\right)^{3}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec2",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2013-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013",
+    "title": "WBJEE 2013"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

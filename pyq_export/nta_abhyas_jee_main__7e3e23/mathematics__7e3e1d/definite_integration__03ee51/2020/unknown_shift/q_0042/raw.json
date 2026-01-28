@@ -1,0 +1,61 @@
+{
+  "_id": "6151e863a26b564ba278e1ee",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "11",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "The value of <math> <mrow> <munder> <mtext>lim</mtext> <mrow> <mtext>n</mtext> <mo>→</mo> <mo>∞</mo> </mrow> </munder> <munderover> <mi>Σ</mi> <mrow> <mtext>r</mtext> <mo>=</mo> <mn>1</mn> </mrow> <mrow> <mtext>r</mtext> <mo>=</mo> <mn>4</mn> <mtext>n</mtext> </mrow> </munderover> <mfrac> <mrow> <msqrt> <mtext>n</mtext> </msqrt> </mrow> <mrow> <msqrt> <mtext>r</mtext> </msqrt> <msup> <mrow> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mn>3</mn> <msqrt> <mtext>r</mtext> </msqrt> <mo>+</mo> <mn>4</mn> <msqrt> <mtext>n</mtext> </msqrt> </mrow> </mfenced> </mrow> <mn>2</mn> </msup> </mrow> </mfrac> </mrow> </math> is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "JQg3T",
+      "text": "<math> <mrow> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mtext>8</mtext> </mrow> </mfrac> </mrow> </math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "HJ9vI",
+      "text": "<math> <mrow> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mtext>10</mtext> </mrow> </mfrac> </mrow> </math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "dvwY9",
+      "text": "<math> <mrow> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mtext>6</mtext> </mrow> </mfrac> </mrow> </math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "FRVd8",
+      "text": "<math> <mrow> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mtext>9</mtext> </mrow> </mfrac> </mrow> </math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<math> <mrow> <munder> <mtext>lim</mtext> <mrow> <mtext>n</mtext> <mo>→</mo> <mo>∞</mo> </mrow> </munder> <munderover> <mi>Σ</mi> <mrow> <mtext>r</mtext> <mo>=</mo> <mn>1</mn> </mrow> <mrow> <mtext>r</mtext> <mo>=</mo> <mn>4</mn> <mtext>n</mtext> </mrow> </munderover> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <msqrt> <mtext>r</mtext> <mo>/</mo> <mtext>n</mtext> </msqrt> <msup> <mrow> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mn>3</mn> <msqrt> <mfrac> <mrow> <mtext>r</mtext> </mrow> <mrow> <mtext>n</mtext> </mrow> </mfrac> <mo>+</mo> <mn>4</mn> </msqrt> </mrow> </mfenced> </mrow> <mn>2</mn> </msup> </mrow> </mfrac> </mrow> </mfenced> <mo>·</mo> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mtext>n</mtext> </mrow> </mfrac> </mrow> </math><br /><br /><math> <mrow> <mo>=</mo> <msubsup> <mo>∫</mo> <mn>0</mn> <mn>4</mn> </msubsup> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <msqrt> <mtext>x</mtext> </msqrt> <msup> <mrow> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mn>3</mn> <msqrt> <mtext>x</mtext> </msqrt> <mo>+</mo> <mn>4</mn> </mrow> </mfenced> </mrow> <mn>2</mn> </msup> </mrow> </mfrac> <mtext>dx</mtext> </mrow> </math><br /><br />Put,&nbsp;<math> <mrow> <mn>3</mn> <msqrt> <mtext>x</mtext> </msqrt> <mo>+</mo> <mn>4</mn> <mo>=</mo> <mtext>t</mtext> </mrow> </math><br /><br /><math> <mrow> <mfrac> <mrow> <mn>3</mn> </mrow> <mrow> <mn>2</mn> <msqrt> <mtext>x</mtext> </msqrt> </mrow> </mfrac> <mtext>dx</mtext><mo>=</mo> <mtext>dt</mtext> <mo>⇒</mo> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <msqrt> <mtext>x</mtext> </msqrt> </mrow> </mfrac> <mtext>dx</mtext> <mo>=</mo> <mfrac> <mrow> <mn>2</mn> </mrow> <mrow> <mn>3</mn> </mrow> </mfrac> <mtext>dt</mtext> </mrow> </math><br /><br />when <math> <mrow> <mtext>x</mtext> <mo>&nbsp;=&nbsp;</mo> <mn>0</mn> </mrow> </math> then <math> <mrow> <mtext>t</mtext> <mo>&nbsp;= 4</mo></mrow></math><br /><br />when <math> <mrow> <mtext>x</mtext> <mo>&nbsp;=&nbsp;</mo> <mn>4</mn> </mrow> </math> then <math> <mrow> <mtext>t</mtext> <mo>&nbsp;=&nbsp;</mo> <mn>10</mn> </mrow> </math><br /><br /><math> <mrow> <mo>=</mo> <mfrac> <mrow> <mn>2</mn> </mrow> <mrow> <mn>3</mn> </mrow> </mfrac> <msubsup> <mo>∫</mo> <mn>4</mn> <mrow> <mn>1</mn> <mn>0</mn> </mrow> </msubsup> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <msup> <mtext>t</mtext> <mn>2</mn> </msup> </mrow> </mfrac> <mtext>dt</mtext> <mo>=</mo> <mfrac> <mrow> <mn>2</mn> </mrow> <mrow> <mn>3</mn> </mrow> </mfrac> <msubsup> <mrow> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mo>-</mo> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mtext>t</mtext> </mrow> </mfrac> </mrow> </mfenced> </mrow> <mn>4</mn> <mrow> <mn>1</mn> <mn>0</mn> </mrow> </msubsup> </mrow> </math>&nbsp;&nbsp;&nbsp;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <math> <mrow> <mo>=</mo> <mo>-</mo> <mfrac> <mrow> <mn>2</mn> </mrow> <mrow> <mn>3</mn> </mrow> </mfrac> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mn>1</mn> <mn>0</mn> </mrow> </mfrac> <mo>-</mo> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mn>4</mn> </mrow> </mfrac> </mrow> </mfenced> </mrow> </math>&nbsp;&nbsp;&nbsp;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <math> <mrow> <mo>=</mo> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mn>1</mn> <mn>0</mn> </mrow> </mfrac> </mrow> </math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

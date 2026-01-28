@@ -1,0 +1,43 @@
+{
+  "index": 257,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2010",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $p(x)$ be a function defined on $R$ such that $p^{\\prime}(x)=p^{\\prime}(1-x)$, for all $x \\in[0,1], p(0)=1$ and $p(1)=41$. Then $\\int_0^1 p(x) d x$ equals"
+  },
+  "options": [
+    {
+      "text": "\n21\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n41\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n42\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\sqrt{41}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\mathrm{p}^{\\prime}(\\mathrm{x})=\\mathrm{p}^{\\prime}(1-\\mathrm{x})$\n$\\Rightarrow \\mathrm{p}(\\mathrm{x})=-\\mathrm{p}(1-\\mathrm{x})+\\mathrm{c}$\nat $x=0$\n$\\mathrm{p}(0)=-\\mathrm{p}(1)+\\mathrm{c} \\quad \\Rightarrow 42=\\mathrm{c}$\nnow $\\mathrm{p}(\\mathrm{x})=-\\mathrm{p}(1-\\mathrm{x})+42$\n$\\Rightarrow \\mathrm{p}(\\mathrm{x})+\\mathrm{p}(1-\\mathrm{x})=42$\n$\\mathrm{I}=\\int_0^1 \\mathrm{p}(\\mathrm{x}) \\mathrm{dx}=\\int_0^1 \\mathrm{p}(1-\\mathrm{x}) \\mathrm{dx}$\n$2 \\mathrm{I}=\\int_0^1(42) \\mathrm{dx} \\quad \\Rightarrow \\mathrm{I}=21$"
+  }
+}

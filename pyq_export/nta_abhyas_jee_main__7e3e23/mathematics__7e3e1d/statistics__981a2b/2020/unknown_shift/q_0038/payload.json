@@ -1,0 +1,24 @@
+{
+  "index": 38,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025485f79cb605c981a2b",
+    "chapter_name": "Statistics",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the variance of the first <math><mn>50</mn></math> odd natural numbers is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">V</mi><mn>1</mn></msub></math>&nbsp;and the variance&nbsp;of next <math><mn>50</mn></math> odd natural numbers is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">V</mi><mn>2</mn></msub></math>,&nbsp;then <math><msub><mrow><mi mathvariant=\"normal\">V</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>+</mo><msub><mrow><mi mathvariant=\"normal\">V</mi></mrow><mrow><mn>2</mn></mrow></msub></math> is equal to"
+  },
+  "options": [],
+  "correct_answer": "1666",
+  "solution": {
+    "text": "Note that <math><msub><mrow><mi mathvariant=\"normal\">V</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>=</mo><msub><mrow><mi mathvariant=\"normal\">V</mi></mrow><mrow><mn>2</mn></mrow></msub></math> (Variance is independent of shifting of orgin)<br />Now <math><msub><mrow><mi>V</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>=</mo><mfenced separators=\"|\"><mrow><mfrac><mrow><msup><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><msup><mrow><mn>3</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mo>&#8230;</mo><mo>+</mo><msup><mrow><mn>99</mn></mrow><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>50</mn></mrow></mfrac></mrow></mfenced><mo>-</mo><msup><mrow><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mo>.</mo><mo>.</mo><mo>+</mo><mn>99</mn></mrow><mrow><mn>50</mn></mrow></mfrac></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>50</mn></mfrac><mfenced close=\"}\" open=\"{\" separators=\"|\"><mfrac><mrow><mn>50</mn><mo>&#215;</mo><mn>101</mn><mo>&#215;</mo><mn>99</mn></mrow><mn>3</mn></mfrac></mfenced><mo>-</mo><mn>2500</mn></math><br /><math><mo>=</mo><mn>3333</mn><mo>-</mo><mn>2500</mn><mo>=</mo><mn>833</mn></math><br />Hence,&nbsp;<math><msub><mrow><mi>V</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>+</mo><msub><mrow><mi>V</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>=</mo><mn>1666</mn></math>"
+  }
+}

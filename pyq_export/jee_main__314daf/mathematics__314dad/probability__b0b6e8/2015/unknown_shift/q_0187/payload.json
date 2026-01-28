@@ -1,0 +1,43 @@
+{
+  "index": 187,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2015 (10 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">X</mi></math> be a set containing&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math>&nbsp;elements and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">P</mi><mfenced><mi mathvariant=\"normal\">X</mi></mfenced></math> be its power set. If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">B</mi></math>&nbsp;are picked up at random from&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">P</mi><mfenced><mi mathvariant=\"normal\">X</mi></mfenced></math>, with replacement, then the probability that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">B</mi></math> have equal number of elements is:"
+  },
+  "options": [
+    {
+      "text": "<math><mfrac><mrow><mfenced separators=\"|\"><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>10</mn></mrow></msup><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>20</mn></mrow></msup></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><msup><mrow></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>10</mn></mrow></msub></mrow><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>20</mn></mrow></msup></mrow></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mfrac><mrow><msup><mrow/><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>10</mn></mrow></msub></mrow><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>10</mn></mrow></msup></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mfenced separators=\"|\"><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>10</mn></mrow></msup><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>10</mn></mrow></msup></mrow></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p>The power set of X will contain <math><msup><mrow><mn>2</mn></mrow><mrow><mn>10</mn></mrow></msup></math>&nbsp;elements where each element is subset of A in which&nbsp;<br /><math><msup><mrow></mrow><mrow><mn>10</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>0</mn></mrow></msub></math>&nbsp;will contain&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math> &nbsp;element.<br /><math><msup><mrow></mrow><mrow><mn>10</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub></math>&nbsp;will contain <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>&nbsp;element.<br /><math><msup><mrow></mrow><mrow><mn>10</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub></math>&nbsp;will contain <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>&nbsp;elements.<br /><math><mo>&#8942;</mo></math><br /><br /><math><mo>&#8942;</mo></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow></mrow><mn>10</mn></msup><msub><mi>C</mi><mn>10</mn></msub></math>&nbsp; &nbsp;&nbsp; will contain <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math>&nbsp;elements.<br />So total numbers of ways in which we can select two sets with replacement is&nbsp;<br />And favorable cases would be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow/><mn>10</mn></msup><msub><mi>C</mi><mn>0</mn></msub><msup><mo>&#8901;</mo><mn>10</mn></msup><msub><mi>C</mi><mn>0</mn></msub><msup><mo>+</mo><mn>10</mn></msup><msub><mi>C</mi><mn>1</mn></msub><msup><mo>.</mo><mn>10</mn></msup><msub><mi>C</mi><mn>1</mn></msub><mo>+</mo><mi>&#160;</mi><mo>&#8230;</mo><mo>&#8230;</mo><msup><mo>+</mo><mn>10</mn></msup><msub><mi>C</mi><mn>10</mn></msub><msup><mo>.</mo><mn>10</mn></msup><msub><mi>C</mi><mn>10</mn></msub><msup><mo>=</mo><mn>20</mn></msup><msub><mi>C</mi><mn>10</mn></msub></math><br />Hence, Probability would be&nbsp;&nbsp;<math><mo>=</mo><mi>&#160;</mi><mfrac><mrow><msup><mrow></mrow><mrow><mn>20</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>10</mn></mrow></msub></mrow><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>20</mn></mrow></msup></mrow></mfrac></math><br />&nbsp;</p>"
+  }
+}

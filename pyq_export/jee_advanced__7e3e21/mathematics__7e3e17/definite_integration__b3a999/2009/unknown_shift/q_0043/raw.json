@@ -1,0 +1,63 @@
+{
+  "_id": "64b169f4f23ac7d519f9affd",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c44",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009 (Paper 1)",
+      "title": "JEE Advanced 2009 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "$$\n\\text { Match the statements/expressions in Column I with the open intervals in Column II. }\n$$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/YSS353722UU7V-kPU9gVFl_hn_aTbFqHT6L7rH7xHFg.original.fullsize.png\"><br>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "taoat",
+      "text": "\n(A) p,q,t, (B) q,t, (C) r,s, (D) p,s\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "IGFWe",
+      "text": "\n(A) p,q,s, (B) p,t, (C) p,q,r,t, (D) s\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "Ulu42",
+      "text": "\n(A) p,q,s, (B) q,t, (C) r,s,t, (D) p,s\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "gWXj8",
+      "text": "\n(A) p,q,t, (B) p,t, (C) p,q,r,t, (D) s",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "(a) Given, $(x-3)^2 \\cdot y^{\\prime}+y=0$\n$$\n\\begin{array}{rlrl}\n\\Rightarrow & \\frac{d y}{d x} & =-\\frac{y}{(x-3)^2} \\\\\n\\Rightarrow & & \\int \\frac{d y}{y} & =-\\int \\frac{d x}{(x-3)^3} \\\\\n\\Rightarrow & & \\ln y & =\\frac{1}{(x-3)}+\\ln C \\\\\n\\Rightarrow & & y & =C e^{\\frac{1}{x-3}}, C \\neq 0\n\\end{array}\n$$\n$\\therefore$ Domain of $y$ is $x \\in R-\\{3\\}$\nAliter Given differential equation is homogeneous linear differential equation and has $x=3$ as a singular point, hence $x=3$ cannot be in domain of solution.\n(b) Let $I=\\int_1^5(x-1)(x-2)(x-3)(x-4)$ $(x-5) d x$\nLet $x-3=t \\Rightarrow d x=d t$\n$\\therefore I=\\int_{-2}^2(t+2)(t+1) t(t-1)(t-2) d t$\n$\\because$ Integrand is an odd function.\n$\\therefore \\quad I=0$\nAliter Let\n$I=\\int_1^5(x-1)(x-2)(x-3)(x-4)$\n$(x-5) d x$\nUsing, $\\int_a^b f(x) d x=\\int_a^b f(a+b-x) d x$ $I=\\int_1^5(5-x)(4-x)(3-x)(2-x)$ $(1-x) d x$\nOn adding Eqs. (i) and (ii) we get 2I $=0 \\Rightarrow I=0$\n(c) Let $f(x)=\\cos ^2 x+\\sin x$\n$\\Rightarrow f^{\\prime}(x)=-2 \\cos x \\sin x+\\cos x$ $=\\cos x(1-2 \\sin x)=0$ (say)\nSign scheme for first derivative\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/TLmS4uc2BFsrzGpUJe2DJ2LMHFf6yxl77ASJG4WjUWY.original.fullsize.png\"><br>\nPoints of local maxima are $\\frac{\\pi}{6}, \\frac{5 \\pi}{6}$.\nAliter $y=\\cos ^2 x+\\sin x$\n$$\n\\Rightarrow \\quad y=\\frac{5}{4}-\\left(\\sin x-\\frac{1}{2}\\right)^2\n$$\nFor $y$ to be maximum,\n$$\n\\begin{aligned}\n& \\left(\\sin x-\\frac{1}{2}\\right)^2=0 \\Rightarrow \\sin x=\\frac{1}{2} \\\\\n\\Rightarrow \\quad & x=n \\pi+(-1)^n \\frac{\\pi}{6}, n \\in I\n\\end{aligned}\n$$\n(d) Let $y=\\tan ^{-1}(\\sin x+\\cos x)$\n$$\n\\Rightarrow \\quad \\frac{d y}{d x}=\\frac{\\cos x-\\sin x}{1+(\\sin x+\\cos x)^2}\n$$<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/QXVtSrn6Dj_MC10OOrVKBH-PujNlc9ggm4Rte2x4G1M.original.fullsize.png\"><br>\nClearly, by graph, $\\cos x>\\sin x$ is true for option(s).",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c44",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009 (Paper 1)",
+    "title": "JEE Advanced 2009 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

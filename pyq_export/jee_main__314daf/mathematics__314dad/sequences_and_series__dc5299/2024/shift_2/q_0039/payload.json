@@ -1,0 +1,43 @@
+{
+  "index": 39,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $A B C$ be an equilateral triangle. A new triangle is formed by joining the middle points of all sides of the triangle $A B C$ and the same process is repeated infinitely many times. If $\\mathrm{P}$ is the sum of perimeters and $Q$ is be the sum of areas of all the triangles formed in this process, then :"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{P}^2=6 \\sqrt{3} \\mathrm{Q}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{P}^2=36 \\sqrt{3} \\mathrm{Q}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{P}=36 \\sqrt{3} \\mathrm{Q}^2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{P}^2=72 \\sqrt{3} \\mathrm{Q}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0039_41c3383053b5.png\"><br />Area of first $\\Delta=\\frac{\\sqrt{3} \\mathrm{a}^2}{4}$\nArea of second $\\Delta=\\frac{\\sqrt{3} \\mathrm{a}^2}{4} \\frac{\\mathrm{a}^2}{4}=\\frac{\\sqrt{3} \\mathrm{a}^2}{16}$\nArea of third $\\Delta=\\frac{\\sqrt{3} \\mathrm{a}^2}{64}$\nsum of area $=\\frac{\\sqrt{3} \\mathrm{a}^2}{4}\\left(1+\\frac{1}{4}+\\frac{1}{16} \\ldots\\right)$\n$\\begin{aligned} & \\mathrm{Q}=\\frac{\\sqrt{3} \\mathrm{a}^2}{4} \\frac{1}{\\frac{3}{4}}=\\frac{\\mathrm{a}^2}{\\sqrt{3}} \\\\ & \\text { perimeter of } 1^{\\text {st }} \\Delta=3 \\mathrm{a} \\\\ & \\text { perimeter of } 2^{\\text {nd }} \\Delta=\\frac{3 \\mathrm{a}}{2} \\\\ & \\text { perimeter of } 3^{\\text {rd }} \\Delta=\\frac{3 \\mathrm{a}}{4} \\\\ & \\mathrm{P}=3 \\mathrm{a}\\left(1+\\frac{1}{2}+\\frac{1}{4}+\\ldots\\right) \\\\ & \\mathrm{P}=3 \\mathrm{a} \\cdot 2=6 \\mathrm{a} \\\\ & \\mathrm{a}=\\frac{\\mathrm{P}}{6} \\\\ & \\mathrm{Q}=\\frac{1}{\\sqrt{3}} \\cdot \\frac{\\mathrm{P}^2}{36} \\\\ & \\mathrm{P}^2=36 \\sqrt{3} \\mathrm{Q}\\end{aligned}$"
+  }
+}

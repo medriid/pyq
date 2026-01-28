@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a0ff23ac7d519f9b0f7",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c48",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2011-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011 (Paper 1)",
+      "title": "JEE Advanced 2011 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\left(x_0, y_0\\right)$ be the solution of the following equations $(2 x)^{\\log 2}=(3 y)^{\\log 3}$, $3^{\\log x}=2^{\\log y}$, then $x_0$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "rIweA",
+      "text": "\n$\\frac{1}{6}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Lwepk",
+      "text": "\n$\\frac{1}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "QcTOM",
+      "text": "\n$\\frac{1}{2}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "cDfc0",
+      "text": "\n6",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Taking log on both sides,\n$$\n\\log 2 \\cdot \\log (2 x)=\\log 3(\\log 3 y)\n$$\n\n\n$$\n\\begin{array}{ll}\n\\Rightarrow & \\log 2\\{\\log 2+\\log x\\} \\\\\n& =\\log 3\\{\\log 3+\\log y\\} \\\\\n\\text { and } & \\log x \\cdot \\log 3=\\log y \\log 2 \\\\\n& \\log y=\\frac{\\log x \\cdot \\log 3}{\\log 2}\n\\end{array}\n$$\nFrom Eqs. (i) and (ii), we get\n$$\n\\begin{aligned}\n& \\log 2\\{\\log 2+\\log x\\} \\\\\n&=\\log 3 \\cdot\\left\\{\\log 3+\\frac{\\log x \\cdot \\log 3}{\\log 2}\\right\\} \\\\\n& \\Rightarrow \\quad(\\log 2)^2+\\log 2 \\cdot \\log x \\\\\n&=(\\log 3)^2+\\frac{(\\log 3)^2}{(\\log 2)} \\cdot \\log x \\\\\n& \\Rightarrow \\quad \\log x\\left\\{\\frac{(\\log 3)^2}{\\log 2}-\\log 2\\right\\} \\\\\n&=(\\log 2)^2-(\\log 3)^2\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad \\log x=-\\log 2=\\log 2^{-1} \\\\\n& \\therefore \\quad x=\\frac{1}{2}\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c48",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2011-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011 (Paper 1)",
+    "title": "JEE Advanced 2011 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

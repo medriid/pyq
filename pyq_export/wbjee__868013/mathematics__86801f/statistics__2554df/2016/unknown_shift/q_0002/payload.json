@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf52d19b538432554df",
+    "chapter_name": "Statistics",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Standard deviation of $n$ observations $a_{1}, a_{2}, a_{3}, \\ldots, a_{n}$ is ${\\sigma} .$ Then, the standard deviation of the observations $\\lambda a_{1}, \\lambda a_{2}, \\ldots, \\lambda a_{n}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\lambda {\\sigma}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\lambda \\sigma$",
+      "is_correct": false
+    },
+    {
+      "text": "$|\\lambda| \\sigma$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\lambda^{n} \\boldsymbol{\\sigma}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $x_{i}=a_{1}, a_{2}, a_{3}, \\ldots, a_{n}$\r\nand $y_{i}=\\lambda a_{1}, \\lambda a_{2}, \\lambda a_{3}, \\ldots, \\lambda a_{n-}$\r\n$$\r\ny_{i}=\\lambda x_{i}\r\n$$\r\n$\\because$\r\n$\\begin{aligned} \\bar{y} &=\\frac{\\Sigma y_{i}}{N} \\\\ &=\\frac{\\Sigma \\lambda x_{i}}{n} \\end{aligned}$\r\n$$\r\n\\begin{aligned}\r\n&=\\lambda \\frac{\\Sigma x_{i}}{n} \\\\\r\n&=\\lambda \\bar{x} \\\\\r\n\\sigma_{y} &=\\sqrt{\\frac{\\Sigma\\left(y_{i}-\\bar{y}\\right)^{2}}{N}} \\\\\r\n&=\\sqrt{\\frac{\\Sigma(\\lambda x_{i}-\\lambda \\bar{x})^{2}}{n}} \\\\\r\n&=\\sqrt{\\frac{\\lambda^{2} \\Sigma\\left(x_{i}-\\bar{x}\\right)^{2}}{n}} \\\\\r\n&=\\sqrt{\\lambda^{2} \\sigma_{x}^{2}}=|\\lambda| \\sigma_{x}=|\\lambda| \\sigma\r\n\\end{aligned}\r\n$$"
+  }
+}

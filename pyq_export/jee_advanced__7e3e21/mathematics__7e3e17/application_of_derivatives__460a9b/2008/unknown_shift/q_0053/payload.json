@@ -1,0 +1,43 @@
+{
+  "index": 53,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2008 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255d3df243724d460a9b",
+    "chapter_name": "Application of Derivatives",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nConsider the function $f:(-\\infty, \\infty) \\rightarrow(-\\infty, \\infty)$ defined by $f(x)=\\frac{x^2-a x+1}{x^2+a x+1} ; 0 < a < 2$<strong>Question:</strong>\nLet $g(x)=\\int_0^{e^x} \\frac{f^{\\prime}(t)}{1+t^2} d t$. Which of the following is true ?"
+  },
+  "options": [
+    {
+      "text": "\n$g^{\\prime}(x)$ is positive on $(-\\infty, 0)$ and negative on $(0, \\infty)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$g^{\\prime}(x)$ is negative on $(-\\infty, 0)$ and positive on $(0, \\infty)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$g^{\\prime}(x)$ changes sign on both $(-\\infty, 0)$ and $(0, \\infty)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$g^{\\prime}(x)$ does not change sign on $(-\\infty, \\infty)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\because g^{\\prime}(x)=\\frac{f^{\\prime}\\left(e^x\\right)}{1+\\left(e^x\\right)^2} \\cdot e^x=2 a\\left[\\frac{e^{2 x}-1}{\\left(e^{2 x}+a e^x+1\\right)^2}\\right]\\left(\\frac{e^x}{1+e^{2 x}}\\right)$ $\\begin{aligned} & g^{\\prime}(x)=0 \\text {, if } e^{2 x}-1 & =0, \\\\ \\text { i.e., } & & x=0 \\\\ \\text { If } & & x < 0, e^{2 x} < 1 \\Rightarrow g^{\\prime}(x) < 0 .\\end{aligned}$"
+  }
+}

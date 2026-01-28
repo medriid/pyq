@@ -1,0 +1,43 @@
+{
+  "index": 22,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd27e4f983047d18a96",
+    "chapter_name": "Sequences and Series",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\omega$ is an imaginary cube root of unity, then the value of $(2-\\omega)\\left(2-\\omega^{2}\\right)+2(3-\\omega)\\left(3-\\omega^{2}\\right)$ $+\\ldots+(n-1)(n-\\omega)\\left(n-\\omega^{2}\\right)$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{n^{2}}{4}(n+1)^{2}-n$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{n^{2}}{4}(n+1)^{2}+n$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{n^{2}}{4}(n+1)^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{n^{2}}{4}(n+1)-n$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given,\r\n$(2-\\omega)\\left(2-\\omega^{2}\\right)+2(3-\\omega)\\left(3 \\omega^{2}\\right)+\\ldots+$ $\\quad(n-1)(n-\\omega)\\left(n \\omega^{2}\\right)$\r\nNow, $\\begin{aligned} T_{n} &=(n-1)(n-\\omega)\\left(n-\\omega^{2}\\right) \\\\ &=(n-1)\\left(n^{2}-n \\omega-n \\omega^{2}+\\omega^{3}\\right) \\\\ &=(n-1)\\left(n^{2}+n+1\\right)=n^{3}-1 \\\\ \\therefore \\quad S_{n} &=\\Sigma T_{n} \\\\ &=\\Sigma n^{3}-\\Sigma 1=\\frac{n^{2}(n+1)^{2}}{4}-n \\end{aligned}$"
+  }
+}

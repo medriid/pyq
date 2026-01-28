@@ -1,0 +1,63 @@
+{
+  "_id": "64a81415e0ff5a5425a8584d",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec4",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "WBJEE 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "If $y=e^{-x} \\cos 2 x$, then which of the following differential equation is satisfied?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "YEeSx",
+      "text": "$\\frac{d^{2} y}{d x^{2}}+2 \\frac{d y}{d x}+5 y=0$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "tqmXt",
+      "text": "$\\frac{d^{2} y}{d x^{2}}+5 \\frac{d y}{d x}+2 y=0$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "9K1TA",
+      "text": "$\\frac{d^{2} y}{d x^{2}}-5 \\frac{d y}{d x}-2 y=0$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "pOvrU",
+      "text": "$\\frac{\\sigma^{2} y}{d x^{2}}+2 \\frac{d y}{d x}-5 y=0$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $y=e^{-x} \\cos 2 x$\r\n$\\therefore \\quad \\frac{d y}{d x}=e^{-x}(-\\sin 2 x) 2+\\cos 2 x \\cdot e^{-x}(-1)$\r\n$\\Rightarrow \\quad \\frac{d y}{d x}=-2 \\sin 2 x \\cdot e^{-x}-y$\r\n$\\Rightarrow \\quad \\frac{d y}{d x}+y=-2 \\sin 2 x \\cdot e^{-x}$\r\n$\\Rightarrow \\frac{d^{2} y}{d x^{2}}+\\frac{d y}{d x}=-2\\left[\\sin 2 x \\cdot e^{-x}(-1)\\right. \\left.e^{-x} 2 \\cos 2 x\\right]$\r\n$=2 \\sin 2 x \\cdot e^{-x}-4 y \\quad$ |from Eq. $\\left.(0)\\right]$\r\n$\\Rightarrow \\frac{d^{2} y}{d x^{2}}+\\frac{d y}{d x}=-\\frac{d y}{d x}-y-4 y$\r\n$\\Rightarrow \\quad \\frac{d^{2} y}{d x^{2}}+2 \\frac{d y}{d x}+5 y=0$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec4",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "WBJEE 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

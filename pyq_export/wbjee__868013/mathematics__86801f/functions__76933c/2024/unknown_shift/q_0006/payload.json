@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0f42b7a9706676933c",
+    "chapter_name": "Functions",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function defined by $f(x)=\\frac{e^{|x|}-e^{-x}}{e^x+e^{-x}}$, then"
+  },
+  "options": [
+    {
+      "text": "f is both one-one and onto",
+      "is_correct": false
+    },
+    {
+      "text": "f is one-one but not onto",
+      "is_correct": false
+    },
+    {
+      "text": "f is onto but not one-one",
+      "is_correct": false
+    },
+    {
+      "text": "f is neither one-one nor onto",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Hint: $f: \\mathbb{R} \\rightarrow \\mathbb{R}, f(x)=\\frac{e^{|x|}-e^{-x}}{e^x+e^{-x}}$\nCase I: If $x \\geq 0$\n$f(x)=\\frac{e^x-e^{-x}}{e^x+e^{-x}}=1-\\frac{2 e^{-x}}{e^x+e^{-x}}=1-\\frac{2}{e^{2 x}+1}\\gt-1$\nCase II: $x \\lt 0$\n$f(x)=\\frac{e^{-x}-e^{-x}}{e^x+e^{-x}}=0$"
+  }
+}

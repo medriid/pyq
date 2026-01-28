@@ -1,0 +1,83 @@
+{
+  "_id": "648b5a6e417cc3fb48d67d6b",
+  "previousYearPapers": [
+    {
+      "_id": "62c481f101514d218a7934da",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2022-06-28T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022 (28 Jun Shift 2)",
+      "title": "JEE Main 2022 (28 Jun Shift 2)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The number of ways to distribute&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math> identical candies among four children <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>1</mn></msub><mo>,</mo><msub><mi>C</mi><mn>2</mn></msub><mo>,</mo><msub><mi>C</mi><mn>3</mn></msub></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>4</mn></msub></math>&nbsp;so that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>2</mn></msub></math>&nbsp;receives atleast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>&nbsp;and atmost&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math> candies, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>3</mn></msub></math>&nbsp;receives atleast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>&nbsp;and atmost <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math>&nbsp;candies, is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "O5f4J",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>205</mn></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "wa5Wr",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>615</mn></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "2acIn",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>510</mn></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "99rRD",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>430</mn></math>",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>Given,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>1</mn></msub><mo>+</mo><msub><mi>C</mi><mn>2</mn></msub><mo>+</mo><msub><mi>C</mi><mn>3</mn></msub><mo>+</mo><msub><mi>C</mi><mn>4</mn></msub><mo>=</mo><mn>30</mn></math></p><p>Now it has given that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>&#8804;</mo><msub><mi>C</mi><mn>2</mn></msub><mo>&#8804;</mo><mn>7</mn><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mn>2</mn><mo>&#8804;</mo><msub><mi>C</mi><mn>3</mn></msub><mo>&#8804;</mo><mn>6</mn></math></p><p>and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>1</mn></msub><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><msub><mi>C</mi><mn>4</mn></msub></math>&nbsp;can take any value.</p><p>Finding coefficient of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>30</mn></msup></math> in</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><msup><mi>x</mi><mn>0</mn></msup><mo>+</mo><msup><mi>x</mi><mn>1</mn></msup><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><msup><mi>x</mi><mn>30</mn></msup></mrow></mfenced><mfenced><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><msup><mi>x</mi><mn>7</mn></msup></mrow></mfenced><mfenced><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><msup><mi>x</mi><mn>6</mn></msup></mrow></mfenced><mfenced><mrow><msup><mi>x</mi><mn>0</mn></msup><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><msup><mi>x</mi><mn>30</mn></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mfenced><mfrac><mrow><mn>1</mn><mo>-</mo><msup><mi>x</mi><mn>31</mn></msup></mrow><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfrac></mfenced><mn>2</mn></msup><msup><mi>x</mi><mn>4</mn></msup><mfenced><mfrac><mrow><mn>1</mn><mo>-</mo><msup><mi>x</mi><mn>4</mn></msup></mrow><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfrac></mfenced><msup><mi>x</mi><mn>2</mn></msup><mfenced><mfrac><mrow><mn>1</mn><mo>-</mo><msup><mi>x</mi><mn>5</mn></msup></mrow><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfrac></mfenced></math></p><p>{Ignoring higher power more than <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math>}</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mfenced><mfrac><mn>1</mn><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfrac></mfenced><mn>2</mn></msup><msup><mi>x</mi><mn>4</mn></msup><mfenced><mfrac><mrow><mn>1</mn><mo>-</mo><msup><mi>x</mi><mn>4</mn></msup></mrow><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfrac></mfenced><msup><mi>x</mi><mn>2</mn></msup><mfenced><mfrac><mrow><mn>1</mn><mo>-</mo><msup><mi>x</mi><mn>5</mn></msup></mrow><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfrac></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi>x</mi><mn>6</mn></msup><mfenced><mrow><mn>1</mn><mo>-</mo><msup><mi>x</mi><mn>4</mn></msup></mrow></mfenced><mfenced><mrow><mn>1</mn><mo>-</mo><msup><mi>x</mi><mn>5</mn></msup></mrow></mfenced><msup><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mrow><mo>-</mo><mn>4</mn></mrow></msup></math>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi>x</mi><mn>6</mn></msup><mfenced><mrow><mn>1</mn><mo>-</mo><msup><mi>x</mi><mn>5</mn></msup><mo>-</mo><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><msup><mi>x</mi><mn>9</mn></msup></mrow></mfenced><msup><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mrow><mo>-</mo><mn>4</mn></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced><mrow><msup><mi>x</mi><mn>6</mn></msup><mo>-</mo><msup><mi>x</mi><mn>11</mn></msup><mo>-</mo><msup><mi>x</mi><mn>10</mn></msup><mo>+</mo><msup><mi>x</mi><mn>15</mn></msup></mrow></mfenced><msup><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mrow><mo>-</mo><mn>4</mn></mrow></msup></math></p><p>Required coefficient <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>24</mn><none></none><mprescripts></mprescripts><none></none><mrow><mn>4</mn><mo>+</mo><mn>24</mn><mo>-</mo><mn>1</mn></mrow></mmultiscripts><mo>-</mo><mmultiscripts><mi>C</mi><mn>19</mn><none></none><mprescripts></mprescripts><none></none><mrow><mn>4</mn><mo>+</mo><mn>19</mn><mo>-</mo><mn>1</mn></mrow></mmultiscripts></math>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mo>&#160;</mo><mmultiscripts><mi>C</mi><mn>20</mn><none></none><mprescripts></mprescripts><none></none><mrow><mn>20</mn><mo>+</mo><mn>4</mn><mo>-</mo><mn>1</mn></mrow></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>15</mn><none></none><mprescripts></mprescripts><none></none><mrow><mn>15</mn><mo>+</mo><mn>4</mn><mo>-</mo><mn>1</mn></mrow></mmultiscripts></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>24</mn><none></none><mprescripts></mprescripts><none></none><mn>27</mn></mmultiscripts><mo>-</mo><mmultiscripts><mi>C</mi><mn>19</mn><none></none><mprescripts></mprescripts><none></none><mn>22</mn></mmultiscripts><mo>-</mo><mmultiscripts><mi>C</mi><mn>20</mn><none></none><mprescripts></mprescripts><none></none><mn>23</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>15</mn><none></none><mprescripts></mprescripts><none></none><mn>18</mn></mmultiscripts></math>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>430</mn></math></p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "564c464c6d8f4f7882171ce8b540c45a",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/NB1Cz9wJQTnsZ.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/NB1Cz9wJQTnsZ.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "62c481f101514d218a7934da",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2022-06-28T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022 (28 Jun Shift 2)",
+    "title": "JEE Main 2022 (28 Jun Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Two number $\\mathrm{k}_1$ and $\\mathrm{k}_2$ are randomly chosen from the set of natural numbers. Then, the probability that the value of $\\mathrm{i}^{\\mathrm{k}_1}+\\mathrm{i}^{\\mathrm{k}_2},(\\mathrm{i}=\\sqrt{-1})$ is non-zero, equals"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{3}{4}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2}{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $k_1=4 \\lambda_1+r_1, r_1 \\in\\{0,1,2,3\\}$\n$k_2=4 \\lambda_2+r_2$\n$\\begin{aligned}\n& (i)^{k_1}+(i)^{k_2}=(i)^{r_1}+(i)^{r_2} \\\\\n& (i)^{r_1} \\in\\{1, i,-1,-i\\}\n\\end{aligned}$\n$\\text { Zero } \\Rightarrow 1,(-1) \\text { pair } \\quad \\Rightarrow\\left\\{\\begin{array}{cc}\n1, & -1 \\\\\ni, & -i \\\\\n-i,+i \\\\\n-1, & 1\n\\end{array}\\right\\}$\n$i,(-i)$ pair\n$\\begin{aligned} & \\text { Zero probability }=\\frac{4}{{ }^4 C_1 \\cdot{ }^4 C_1}=\\frac{1}{4} \\\\ & \\text { Probability (non-zero) }=1-\\frac{1}{4}=\\frac{3}{4}\\end{aligned}$"
+  }
+}

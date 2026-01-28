@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "6160241f1a832a8dea12fbf0",
+    "chapter_name": "Magnetic Effects of Current",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Consider a long thin conducting wire carrying a uniform current I. A particle having mass \" M \" and charge \" $q$ \" is released at a distance \" $a$ \" from the wire with a speed $v_0$ along the direction of current in the wire. The particle gets attracted to the wire due to magnetic force. The particle turns round when it is at distance $x$ from the wire. The value of $x$ is [ $\\mu_0$ is vacuum permeability]"
+  },
+  "options": [
+    {
+      "text": "$a e^{-\\frac{4 \\pi \\mathrm{mv}_{\\mathrm{o}}}{\\mathrm{q} \\mu_{\\mathrm{o}} \\mathrm{I}}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$a\\left[1-\\frac{\\mathrm{mv}_{\\mathrm{o}}}{2 q \\mu_{\\mathrm{o}} \\mathrm{I}}\\right]$",
+      "is_correct": false
+    },
+    {
+      "text": "$a\\left[1-\\frac{\\mathrm{mv}}{\\mathrm{q} \\mu_{\\mathrm{o}} \\mathrm{I}}\\right]$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{a}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0013_f0fc9cc7eb4b.png\"><br>\n\n\n\n$\\begin{aligned} & A \\rightarrow B \\\\ & \\vec{V}=-v_x \\hat{i}+v_y \\hat{j} \\\\ & \\vec{B}=\\frac{\\mu_0 I}{2 \\pi r}(-\\hat{k}) \\\\ & \\overrightarrow{\\mathrm{F}}=\\mathrm{q}(\\overrightarrow{\\mathrm{v}} \\times \\overrightarrow{\\mathrm{B}})=\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi r}\\left[-\\mathrm{v}_{\\mathrm{x}} \\hat{\\mathrm{j}}-\\mathrm{v}_{\\mathrm{y}} \\hat{\\mathrm{i}}\\right] \\\\ & \\mathrm{a}_{\\mathrm{x}}=-\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\cdot \\frac{v_y}{\\mathrm{r}} \\\\ & \\mathrm{a}_{\\mathrm{y}}=-\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi m} \\cdot \\frac{v_x}{\\mathrm{r}}\\end{aligned}$\n\n\n$\\begin{aligned} & \\frac{\\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_{\\mathrm{x}}}{\\mathrm{dr}}=-\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\frac{\\mathrm{v}_{\\mathrm{y}}}{\\mathrm{r}} \\\\ & \\frac{\\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_{\\mathrm{x}}}{\\mathrm{v}_{\\mathrm{y}}}=-\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\frac{\\mathrm{dr}}{\\mathrm{r}} \\\\ & \\int_0^{\\mathrm{v}_0} \\frac{\\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_{\\mathrm{x}}}{\\sqrt{\\mathrm{v}_0^2-\\mathrm{v}_{\\mathrm{x}}^2}}=-\\frac{\\mu_0 \\mathrm{Iq}^{\\mathrm{x}_1}}{2 \\pi \\mathrm{~m}} \\int_{\\mathrm{a}}^{\\mathrm{dr}} \\frac{\\mathrm{r}}{2} \\\\ & \\text { Let, } \\mathrm{z}^2=\\mathrm{v}_0^2-\\mathrm{v}_{\\mathrm{x}}^2 \\\\ & 2 \\mathrm{zdz}=-2 \\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_{\\mathrm{x}}\\end{aligned}$\n\n\n$\\begin{aligned}\n& \\mathrm{zdz}=-\\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_{\\mathrm{x}} \\\\\n& \\frac{\\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_x}{\\sqrt{\\mathrm{v}_0^2-\\mathrm{v}_{\\mathrm{x}}^2}}=\\frac{-\\mathrm{zdz}}{\\mathrm{z}}=-\\mathrm{dz}\n\\end{aligned}$\nthen integral becomes\n$\\begin{aligned}\n& -\\int_{\\mathrm{v}_0}^0 \\mathrm{dz}=-\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\ln \\frac{\\mathrm{x}_1}{\\mathrm{a}} \\\\\n& \\mathrm{v}_0=-\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\ln \\frac{\\mathrm{x}_1}{\\mathrm{a}}\n\\end{aligned}$\n$\\left.\\mathrm{x}_1=\\mathrm{a} \\mathrm{e}^{-\\frac{2 \\pi \\mathrm{mv}}{\\mu_0}} \\mathrm{H}_0 \\mathrm{q} \\right\\rvert\\, \\ldots \\ldots$\n\nFor B $\\rightarrow$ C\n$\\begin{aligned}\n& \\overrightarrow{\\mathrm{v}}=-v_x \\hat{\\mathrm{i}}-v_y \\hat{\\mathrm{j}} \\\\\n& \\overrightarrow{\\mathrm{~B}}=\\frac{\\mu_0 \\mathrm{I}}{2 \\pi \\mathrm{r}}(-\\hat{\\mathrm{k}}) \\\\\n& \\overrightarrow{\\mathrm{F}}=\\mathrm{q}(\\overrightarrow{\\mathrm{v}} \\times \\overrightarrow{\\mathrm{B}})=\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi r}\\left(-v_x \\hat{j}+v_y \\hat{\\mathrm{i}}\\right)\n\\end{aligned}$\n$\\begin{aligned}\n& \\mathrm{a}_{\\mathrm{x}}=+\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\frac{\\mathrm{v}_{\\mathrm{y}}}{\\mathrm{r}} \\quad \\mathrm{a}_{\\mathrm{y}}=-\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\cdot \\frac{\\mathrm{v}_{\\mathrm{x}}}{\\mathrm{r}} \\\\\n& \\frac{\\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_{\\mathrm{x}}}{\\mathrm{dr}}=\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\frac{\\mathrm{v}_{\\mathrm{y}}}{\\mathrm{r}} \\\\\n& \\int_{v_0}^0 \\frac{\\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_{\\mathrm{x}}}{\\sqrt{\\mathrm{v}_0^2-\\mathrm{v}_{\\mathrm{x}}^2}}=\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\int_{\\mathrm{x_1}}^{\\mathrm{x}}\\frac{dr}{r}\n\\end{aligned}$\n$\\begin{aligned}\n& \\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\ln \\frac{\\mathrm{x}}{\\mathrm{x}_1}=-\\int_0^{\\mathrm{v}_0} \\mathrm{~d} \\mathrm{z}=-\\mathrm{v}_0 \\\\\n& \\mathrm{x}=\\mathrm{x}_1 \\mathrm{e}^{-\\frac{2 \\pi \\mathrm{~m}_0}{\\mu_0 \\mathrm{Iq}}} \\ldots \\ldots \\text { (2) }\n\\end{aligned}$\n\nFrom equation 1 and 2\n$X=a e^{-\\frac{4 \\pi \\mathrm{mv}_0}{\\mu_0 \\mathrm{Iq}}}$"
+  }
+}

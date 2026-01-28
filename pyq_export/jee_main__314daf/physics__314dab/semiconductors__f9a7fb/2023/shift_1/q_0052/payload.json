@@ -1,0 +1,43 @@
+{
+  "index": 52,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2023 (06 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602457307cfc9adff9a7fb",
+    "chapter_name": "Semiconductors",
+    "year": "2023",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "<p>Name the logic gate equivalent to the diagram attached</p><p><img src=\"assets\\qt0052_d1524efcbef2.png\" style=\"width: 300px; height: 249px;\" /></p>"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NAND</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AND</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NOR</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OR</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<blockquote><p>Let&#39;s assume that when the path is short, the state is called state <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>&nbsp;and when it is open, the state is called state <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>.</p><p style=\"text-align: justify;\"><img src=\"assets\\st0052_8b430eda481f.png\" style=\"width: 300px; height: 251px;\" /></p><p>Depending up on whether the path is short or not&nbsp;in the circuit, the following table can be obtained:</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\t<tbody>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">B</mi></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Out</mi></math></td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t</tr>\t</tbody></table><p>The above table is similar to the truth table corresponding to&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NOR</mi></math>&nbsp;gate. Hence, the circuit indicates a&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NOR</mi></math>&nbsp;logic gate.</p></blockquote>"
+  }
+}

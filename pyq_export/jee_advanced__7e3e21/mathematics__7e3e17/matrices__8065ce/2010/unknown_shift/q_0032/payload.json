@@ -1,0 +1,43 @@
+{
+  "index": 32,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2010 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254f7a96128fc38065ce",
+    "chapter_name": "Matrices",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nLet $p$ be an odd prime number and $T_p$ be the following set of $2 \\times 2$ matrices\n$$\nT_p=\\left\\{A=\\left[\\begin{array}{ll}\na & b \\\\\nc & a\n\\end{array}\\right] ; a, b, c \\in\\{0,1,2, \\ldots, p-1\\}\\right\\}\n$$<strong>Question:</strong>\nThe number of $A$ in $T_p$ such that $A$ is either symmetric or skew-symmetric or both, and det $(A)$ is divisible by $p$ is"
+  },
+  "options": [
+    {
+      "text": "\n$(p-1)^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2(p-1)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(p-1)^2+1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2 p-1$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given, $A=\\left[\\begin{array}{ll}a & b \\\\ c & a\\end{array}\\right]$,\n$a, b, c \\in\\{0,1,2, \\ldots, p-1\\}$\nIf $A$ is skew-symmetric matrix, then $a=0, b=-c$\n$\\therefore \\quad|A|=-b^2$.\nThus, $P$ divides $|A|$ only when $b=0$...(i)\nAgain, if $A$ is symmetric matrix, then $b=c$ and $|A|=a^2-b^2$.\nThus, $p$ divides $|A|$ if either $p$ divides $(a-b)$ or $p$ divides $(a+b)$. $p$ divides $(a-b)$, only when $a=b$ ie, $a=b \\in\\{0,1,2, \\ldots,(p-1)\\}$\nie, pchoices\n$p$ divides $(a+b)$.\n$\\Rightarrow p$ choices, including $a=b=0$ included in (i)\n$\\therefore$ Total number of choices are $(p+p-1)=2 p-1$.\nHence, (c) is the correct option."
+  }
+}

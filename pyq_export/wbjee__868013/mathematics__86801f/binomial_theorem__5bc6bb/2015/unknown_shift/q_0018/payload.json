@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd8ccf6aa19875bc6bb",
+    "chapter_name": "Binomial Theorem",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of irrational terms in the binomial expansion of $\\left(3^{1 / 5}+7^{1 / 3}\\right)^{100}$ is"
+  },
+  "options": [
+    {
+      "text": "90",
+      "is_correct": false
+    },
+    {
+      "text": "88",
+      "is_correct": false
+    },
+    {
+      "text": "93",
+      "is_correct": false
+    },
+    {
+      "text": "94",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "General term of $\\left(3^{1 / 5}+7^{1 / 3}\\right)^{100}$ is given by $T_{\\gamma+1}={ }^{100} C_{r}\\left(3^{1 / 5}\\right)^{100-r}\\left(7^{1 / 3}\\right)^{r}$\r\n$={ }^{100} C_{1} \\cdot 3^{\\frac{100-r}{5}} \\cdot 7^{\\frac{r}{3}}$\r\nFor a rational term. $\\frac{100-r}{5}$ and $\\frac{r}{3}$ must be integer.\r\nHence, $r=0,15,30,45,60,75,90$\r\n$\\therefore$ There are seven rational terms. Hence, number of irrational terms\r\n$$\r\n=101-7=94\r\n$$"
+  }
+}

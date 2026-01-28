@@ -1,0 +1,24 @@
+{
+  "index": 1,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2024 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "64b16aa5f23ac7d519f9b652",
+    "chapter_name": "Statistics",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $X$ be a random variable, and let $P(X=x)$ denote the probability that $X$ takes the value $x$. Suppose that the points $(x, P(X=x)), x=0,1,2,3,4$, lie on a fixed straight line in the $x y$-plane, and $P(X=x)=0$ for all $x \\in \\mathbb{R}-\\{0,1,2,3,4\\}$. If the mean of $X$ is $\\frac{5}{2}$, and the variance of $X$ is $\\alpha$, then the value of $24 \\alpha$ is ___"
+  },
+  "options": [],
+  "correct_answer": 42,
+  "solution": {
+    "text": "Let equation of line is y = mx + c\n$\\begin{array}{|c|c|c|c|c|c|c|}\r\n\\hline \\mathrm{x} & 0 & \\mathrm{l} & 2 & 3 & 4 & \\mathrm{R}-\\{0,1,2,3,4\\} \\\\\r\n\\hline \\mathrm{P}(\\mathrm{x}) & \\mathrm{c} & \\mathrm{m}+\\mathrm{c} & 2 \\mathrm{~m}+\\mathrm{c} & 3 \\mathrm{~m}+\\mathrm{c} & 4 \\mathrm{~m}+\\mathrm{c} & 0 \\\\\r\n\\hline\r\n\\end{array}$\n$\\sum_{x=0}^4(m x+c)=1 \\Rightarrow 10 m+5 c=1 \\Rightarrow 2 m+c=\\frac{1}{5}...(1)$\n$\\begin{aligned} & \\text { mean }=\\sum x_i P_i=\\sum_{\\mathrm{i}=0}^4\\left(\\mathrm{mx}_{\\mathrm{i}}+\\mathrm{c}\\right) \\cdot \\mathrm{x}_{\\mathrm{i}}=30 \\mathrm{~m}+10 \\mathrm{c}=\\frac{5}{2} \\\\ & \\therefore 3 \\mathrm{~m}+\\mathrm{c}=\\frac{1}{4} \\ldots(2)\\end{aligned}$\n$\\begin{aligned} & \\Sigma \\mathrm{P}_{\\mathrm{i}} \\mathrm{x}_{\\mathrm{i}}^2=\\sum_{\\mathrm{i}=0}^4\\left(\\mathrm{mx}_{\\mathrm{i}}+\\mathrm{c}\\right) \\mathrm{x}_1^2 \\\\ & =\\sum_{\\mathrm{i}=0}^4\\left(\\mathrm{mx}_{\\mathrm{i}}^3+\\mathrm{cx}_{\\mathrm{i}}^2\\right) \\Rightarrow 100 \\mathrm{~m}+30 \\mathrm{c} \\text { (Now putting } \\mathrm{m} \\text { and } \\mathrm{c} \\text { ) } \\\\ & \\Rightarrow \\Sigma \\mathrm{P}_{\\mathrm{i}} \\mathrm{x}_{\\mathrm{i}}^2=5+3=8 \\\\ & \\text { Variance }=\\Sigma \\mathrm{P}_{\\mathrm{i}} \\mathrm{x}_{\\mathrm{i}}^2-\\left(\\Sigma \\mathrm{P}_{\\mathrm{i}} \\mathrm{x}_{\\mathrm{i}}\\right)^2=8-\\left(\\frac{5}{2}\\right)^2=\\frac{7}{4} \\\\ & \\therefore 24 \\alpha=42\\end{aligned}$"
+  }
+}

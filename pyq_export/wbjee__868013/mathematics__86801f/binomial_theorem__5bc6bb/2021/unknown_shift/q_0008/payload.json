@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd8ccf6aa19875bc6bb",
+    "chapter_name": "Binomial Theorem",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For $x \\in R, x \\neq-1$, if $(1+x)^{2016}+x(1+x)^{2015}+x^{2}(1+x)^{2014}+\\ldots \\ldots .+x^{2016}=\\sum_{i=0}^{2016} a_{i} \\cdot x^{i}$, then $a_{17}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{2016 !}{17 ! 1999 !}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2016 !}{16 !}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2017 !}{2000 !}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2017 !}{17 ! 2000 !}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} \\mathrm{a}_{17} &=\\text { coeffn of } \\mathrm{x}^{17} \\\\ &={ }^{2016} \\mathrm{C}_{17}+{ }^{2015} \\mathrm{C}_{16}+{ }^{2014} \\mathrm{C}_{15}+\\cdots++{ }^{1999} \\mathrm{C}_{0} \\\\ &={ }^{2016} \\mathrm{C}_{1999}+{ }^{2015} \\mathrm{C}_{1999}+{ }^{2014} \\mathrm{C}_{1999}+\\cdots+{ }^{1999} \\mathrm{C}_{1999} \\end{aligned}$\r\n<img src=\"assets\\st0008_b7d207a1899b.png\">"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eeb1c8b73881fdaea210",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d9760d",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-24T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (24 Jan Shift 2)",
+      "title": "JEE Main 2025 (24 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $A=\\left[a_{i j}\\right]$ be a square matrix of order 2 with entries either 0 or 1 . Let $E$ be the event that $A$ is an invertible matrix. Then the probability $\\mathrm{P}(\\mathrm{E})$ is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "RIrdC",
+      "text": "$\\frac{3}{16}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "FwPd9",
+      "text": "$\\frac{5}{8}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "hjhOY",
+      "text": "$\\frac{3}{8}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "HooGE",
+      "text": "$\\frac{1}{8}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$A=\\left[a_y\\right]_{2 \\times 2}$ and entries are 0 or 1.\n$\\begin{aligned}\n& \\therefore\\left|\\begin{array}{ll}\na & b \\\\\nc & d\n\\end{array}\\right|=0 \\\\\n& \\Rightarrow a d-b c=0\n\\end{aligned}$\nCase I: $a d=b c=1$\n$\\therefore \\quad a=b=c=d=1$\nCase II: $a d=b c=0$\n$\\begin{array}{ll}\na=0, d=0 & b=0, c=0 \\\\\na=0, d=1 & b=0, c=1 \\\\\na=1, d=0 & b=1, c=0\n\\end{array}$\n$\\therefore$ Total 10 cases when matrix is non invertible Total possible matrix $=2^4=16$\nRequired probability of invertible\n$=\\frac{16-10}{16}=\\frac{6}{16}=\\frac{3}{8}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "e252015fbeca42beb7691b68ba9804b2",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/tv32nWQukCBiT.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/tv32nWQukCBiT.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d9760d",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-24T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (24 Jan Shift 2)",
+    "title": "JEE Main 2025 (24 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

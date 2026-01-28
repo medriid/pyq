@@ -1,0 +1,63 @@
+{
+  "_id": "67729bf0546ddd78415aaf28",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67729a70099eafe69352f9c1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024",
+      "title": "WBJEE 2024"
+    }
+  ],
+  "question": {
+    "text": "Given an A.P. and a G.P. with positive terms, with the first and second terms of the progressions being equal. If $a_n$ and $b_n$ be the $n^{\\text {th }}$ term of A.P. and G.P. respectively then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "EJ0wM",
+      "text": "$a_n \\gt b_n$ for all $n \\gt 2$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "pPPV8",
+      "text": "$a_n \\lt b_n$ for all $n \\gt 2$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "fXDze",
+      "text": "$a_n=b_n$ for some $n \\gt 2$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "P9qR7",
+      "text": "$a_n=b_n$ for some odd $n$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\text { Hint: } a_1, a_2, a_3, \\ldots \\ldots, a_n \\rightarrow \\text { AP } \\\\ & a_1, a_2, b_3, \\ldots \\ldots, b_n \\rightarrow G P \\\\ & a_n=a_1+(n-1)\\left(a_2-a_1\\right) \\\\ & b_n=a_1\\left(\\frac{a_2}{a_1}\\right)^{n-1}=a_2^{n-1} \\cdot a_1^{1-n+1}=a_2^{n-1} \\cdot a_1^{2-n} \\\\ & \\text { for } n=3, a_3=a_1+2\\left(a_2-a_1\\right) \\Rightarrow a_3=2 a_2-a_1 \\\\ & b_3=a_2^2 \\cdot a_1^{-1}=\\frac{a_2^2}{a_1} \\\\ & a_3-b_3=2 a_2-a_1-\\frac{a_2^2}{a_1}=\\frac{2 a_2 a_1-a_1^2-a_2^2}{a_1}=\\frac{2 a_1 a_2-\\left(a_1^2+a_2^2\\right)}{a_1} \\lt 0 \\quad\\left[\\because a_1^2+a_2^2 \\gt 2 a_1 a_2\\right] \\\\ & \\therefore a_3 \\lt b_3 \\therefore a_n \\lt b_n \\text { for all } n \\gt 2\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67729a70099eafe69352f9c1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024",
+    "title": "WBJEE 2024"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

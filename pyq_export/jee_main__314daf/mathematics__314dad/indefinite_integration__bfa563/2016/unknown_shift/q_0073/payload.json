@@ -1,0 +1,43 @@
+{
+  "index": 73,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2016 (10 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The integral <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&int;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><msqrt><mi>x</mi></msqrt></mrow></mfenced><msqrt><mi>x</mi><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></msqrt></mrow></mfrac></math>&nbsp;is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn><msqrt><mfrac><mrow><mn>1</mn><mo>+</mo><msqrt><mi>x</mi></msqrt></mrow><mrow><mn>1</mn><mo>-</mo><msqrt><mi>x</mi></msqrt></mrow></mfrac></msqrt><mo>+</mo><mi>c</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><msqrt><mfrac><mrow><mn>1</mn><mo>-</mo><msqrt><mi>x</mi></msqrt></mrow><mrow><mn>1</mn><mo>+</mo><msqrt><mi>x</mi></msqrt></mrow></mfrac></msqrt><mo>+</mo><mi>c</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn><mi>&#160;</mi><msqrt><mfrac><mrow><mn>1</mn><mo>-</mo><msqrt><mi>x</mi></msqrt></mrow><mrow><mn>1</mn><mo>+</mo><msqrt><mi>x</mi></msqrt></mrow></mfrac></msqrt><mo>+</mo><mi>c</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mfrac><mrow><mn>1</mn><mo>+</mo><msqrt><mi>x</mi></msqrt></mrow><mrow><mn>1</mn><mo>-</mo><msqrt><mi>x</mi></msqrt></mrow></mfrac></msqrt><mo>+</mo><mi>c</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><msqrt><mi>x</mi></msqrt></mrow></mfenced><msqrt><mi>x</mi></msqrt><msqrt><mn>1</mn><mo>-</mo><mi>x</mi></msqrt></mrow></mfrac></math><p>Put,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><msqrt><mi>x</mi></msqrt><mo>=</mo><mi>t</mi><mi>&#160;</mi><mo>&#8658;</mo><mfrac><mn>1</mn><mrow><mn>2</mn><msqrt><mi>x</mi></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>t</mi></math></p><p>And, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mi>x</mi><mo>=</mo><mn>1</mn><mo>-</mo><msup><mfenced><mrow><mi>t</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup><mo>=</mo><mn>2</mn><mi>t</mi><mo>-</mo><msup><mi>t</mi><mn>2</mn></msup></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>I</mi><mo>=</mo><mi>&#160;</mi><mo>&#8747;</mo><mfrac><mrow><mn>2</mn><mi>d</mi><mi>t</mi></mrow><mrow><mi>t</mi><msqrt><mn>2</mn><mi>t</mi><mo>-</mo><msup><mi>t</mi><mn>2</mn></msup></msqrt></mrow></mfrac></math><br /><br />Again put,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mn>1</mn><mi>z</mi></mfrac><mo>&#8658;</mo><mi>d</mi><mi>t</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><msup><mi>z</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>z</mi></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><mn>2</mn><mo>&#8747;</mo><mfrac><mrow><mo>-</mo><mfrac><mn>1</mn><msup><mi>z</mi><mn>2</mn></msup></mfrac><mi>&#160;</mi><mi>d</mi><mi>z</mi></mrow><mrow><mfrac><mn>1</mn><mi>z</mi></mfrac><mi>&#160;</mi><msqrt><mfrac><mn>2</mn><mi>z</mi></mfrac><mo>-</mo><mfrac><mn>1</mn><msup><mi>z</mi><mn>2</mn></msup></mfrac></msqrt></mrow></mfrac><mo>=</mo><mn>2</mn><mo>&#8747;</mo><mfrac><mrow><mo>-</mo><mi>d</mi><mi>z</mi></mrow><msqrt><mn>2</mn><mi>z</mi><mo>-</mo><mn>1</mn></msqrt></mfrac><mo>=</mo><mo>-</mo><mn>2</mn><msqrt><mn>2</mn><mi>z</mi><mo>-</mo><mn>1</mn></msqrt><mo>+</mo><mi>c</mi></math></p><p>Where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>&nbsp;is arbitrary constant.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><mn>2</mn><msqrt><mfrac><mn>2</mn><mi>t</mi></mfrac><mo>-</mo><mn>1</mn><mi>&#160;</mi></msqrt><mo>+</mo><mi>c</mi></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><mn>2</mn><msqrt><mfrac><mrow><mn>2</mn><mo>-</mo><mi>t</mi></mrow><mi>t</mi></mfrac></msqrt><mo>+</mo><mi>c</mi></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><mn>2</mn><mi>&#160;</mi><msqrt><mfrac><mrow><mn>1</mn><mo>-</mo><msqrt><mi>x</mi></msqrt></mrow><mrow><mn>1</mn><mo>+</mo><msqrt><mi>x</mi></msqrt></mrow></mfrac></msqrt><mo>+</mo><mi>c</mi></math></p>"
+  }
+}

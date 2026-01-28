@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd8ccf6aa19875bc6bb",
+    "chapter_name": "Binomial Theorem",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $n$ is even posirive integer, then the condition that the greatest term in the expansion of $(a+x)^{n}$ may also have the greatest coefficient, is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{n}{n+2}    < x < \\frac{n+2}{n}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{n}{n+1}    < x < \\frac{n+1}{n}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{n+1}{n+2}    < x < \\frac{n+2}{n+1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{n+2}{n+3}    < x < \\frac{n+3}{n+2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "For greatest term of $(1+x)^{n},$ we have\r\n$\\quad \\frac{n}{2}    < \\frac{n+1}{1+x} < \\frac{n}{2}+1$\r\n$\\Rightarrow \\quad \\frac{n}{2} < \\frac{n+1}{1+x}$ and $\\frac{n+1}{1+x} < \\frac{n}{2}+1$\r\n$\\Rightarrow \\quad 1+x < \\frac{n+1}{n / 2}$ and $\\frac{n+1}{\\frac{n}{2}+1} < 1+x$\r\n$\\Rightarrow \\quad x < \\frac{n+1-n / 2}{n / 2}$\r\nand $\\quad \\frac{n+1-(n / 2-1)}{\\frac{n+2}{2}} < x$\r\n$\\Rightarrow \\quad x < \\frac{n+2}{n}$ and $\\frac{n}{n+2} < x$\r\n$\\Rightarrow \\quad \\frac{n}{n+2} < x < \\frac{n+2}{n}$"
+  }
+}

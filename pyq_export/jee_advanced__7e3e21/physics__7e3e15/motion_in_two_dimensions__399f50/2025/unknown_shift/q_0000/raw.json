@@ -1,0 +1,58 @@
+{
+  "_id": "685102c46bba689a3eb09cbd",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "684c67d769037fad219cb0c2",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2025-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (Paper 2)",
+      "title": "JEE Advanced 2025 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "A projectile of mass 200 g is launched in a viscous medium at an angle $60^{\\circ}$ with the horizontal, with an initial velocity of $270 \\mathrm{~m} / \\mathrm{s}$. It experiences a viscous drag force $\\vec{F}=-c \\vec{v}$ where the drag coefficient $c=0.1 \\mathrm{~kg} / \\mathrm{s}$ and $\\vec{v}$ is the instantaneous velocity of the projectile. The projectile hits a vertical wall after 2 s . Taking $e=2.7$, the horizontal distance of the wall from the point of projection (in m ) is",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "170",
+  "solution": {
+    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/mT-03WjplujBtna1y1Inz8Vxz_uLYLRMxIFjEMUE278.original.fullsize.png\"><br>$\\overrightarrow{\\mathrm{F}}_{\\mathrm{net}}=\\mathrm{m} \\frac{\\mathrm{~d} \\overrightarrow{\\mathrm{v}}}{\\mathrm{dt}}$\n$\\mathrm{mg}+\\overrightarrow{\\mathrm{F}}=\\frac{\\mathrm{md} \\overrightarrow{\\mathrm{v}}}{\\mathrm{dt}}$\n$\\mathrm{mg}-\\mathrm{C} \\overrightarrow{\\mathrm{v}}=\\frac{\\mathrm{md} \\overrightarrow{\\mathrm{v}}}{\\mathrm{dt}}$\nHorizontal direction\n$-\\mathrm{Cv}_{\\mathrm{x}}=\\frac{\\mathrm{mdv}_{\\mathrm{x}}}{\\mathrm{dt}}$\n$\\begin{aligned} & -\\frac{C}{m} \\int_0^t d t=\\int_{v_{0 x}}^{v_x} \\frac{d v_x}{v_x} \\\\ & -\\frac{t}{2}=\\ell n \\frac{v_x}{v_{0 x}} \\\\ & \\frac{d x}{d t}=v_x=v_{0 x} e^{-t / 2} \\\\ & \\int_0^{S_x} d x=v_{0 x} \\int_0^t e^{-t / 2} d t \\\\ & S_x=2 v_{0 x}\\left(1-e^{-t / 2}\\right) \\\\ & \\text { at } t=2 \\sec \\end{aligned}$\n$\\begin{aligned} & \\mathrm{S}_{\\mathrm{x}}=2 \\times 270 \\times \\cos 60^{\\circ}\\left[1-\\frac{1}{\\mathrm{e}}\\right] \\\\ & \\mathrm{S}_{\\mathrm{x}}=270\\left(1-\\frac{1}{2.7}\\right) \\\\ & =\\frac{270}{2.7} \\times(1.7) \\\\ & =170 \\mathrm{~m} \\\\ & \\mathrm{~S}_{\\mathrm{x}}=170 \\mathrm{~m}\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "a3bc5034f26242e68a1a7346005e5b2c",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/1lDzFKs0Ia50i.240.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/1lDzFKs0Ia50i.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "684c67d769037fad219cb0c2",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2025-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (Paper 2)",
+    "title": "JEE Advanced 2025 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

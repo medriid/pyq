@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\mathrm{I}=\\int \\cos (\\ln \\mathrm{x}) \\mathrm{dx}$. Then $\\mathrm{I}=$"
+  },
+  "options": [
+    {
+      "text": "$\\frac{x}{2}\\{\\cos (\\ln x)+\\sin (\\ln x)\\}+c$",
+      "is_correct": true
+    },
+    {
+      "text": "$x^2\\{\\cos (\\ln x)-\\sin (\\ln x)\\}+c$",
+      "is_correct": false
+    },
+    {
+      "text": "$x^2 \\sin (\\ln x)+c$",
+      "is_correct": false
+    },
+    {
+      "text": "$x \\cos (\\ln x)+c$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\int \\cos (\\ln (x)) d x=x \\cdot \\cos (\\ln x)-\\int(-\\sin (\\ln x)) \\times 1 / x(x) d x$\n$=x \\cos (\\ln x)+\\int \\sin (\\ln x) d x$\n$=x \\cos (\\ln x)+x \\sin (\\ln x)-\\int \\cos (\\ln x) d x$"
+  }
+}

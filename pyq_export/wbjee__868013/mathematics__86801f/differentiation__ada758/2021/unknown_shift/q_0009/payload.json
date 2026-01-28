@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2021",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The differential of $f(x)=\\log _{e}\\left(1+e^{10 x}\\right)-\\tan ^{-1}\\left(e^{5 x}\\right)$ at $x=0$ and for $d x=0.2$ is"
+  },
+  "options": [
+    {
+      "text": "$0.5$",
+      "is_correct": true
+    },
+    {
+      "text": "$0.3$",
+      "is_correct": false
+    },
+    {
+      "text": "$-0.2$",
+      "is_correct": false
+    },
+    {
+      "text": "$-0.5$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{array}{l}\r\n\\frac{f(x+d x)-f(x)}{d x}=f^{\\prime}(x) \\\\\r\nf(x+d x)-f(x)=f^{\\prime}(x) d x\r\n\\end{array}$\r\nNow,\r\n$\\begin{array}{l}\r\nf^{\\prime}(x)=\\frac{10 e^{10 x}}{1+e^{10 x}}-\\frac{5 \\cdot e^{5 x}}{1+e^{10 x}}=\\frac{10 e^{10 x}-5 e^{5 x}}{1+e^{10 x}} \\\\\r\n\\left(f^{\\prime}(x)\\right)_{x-0}=\\frac{5}{2} \\\\\r\n\\Delta f(x)=0.2 \\times \\frac{5}{2}=0.5\r\n\\end{array}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 192,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602555685234356f221f74",
+    "chapter_name": "Functions",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A real valued function $f(x)$ satisfies the functional equation $f(x-y)=f(x) f(y)-f(a-x)$ $f(a+y)$ where $a$ is a given constant and $f(0)=1, f(2 a-x)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$-f(x)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$f(x)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$f(a)+f(a-x)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$f(-x)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$f(a-(x-a))=f(a) f(x-a)-f(0) f(x)$\n$=-f(x)\\left[\\because x=0, y=0, f(0)=f^2(0)-f^2(a) \\Rightarrow f^2(a)=0 \\Rightarrow f(a)=0\\right]$."
+  }
+}

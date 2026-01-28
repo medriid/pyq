@@ -1,0 +1,43 @@
+{
+  "index": 61,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2023 (13 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2023",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "<p>Among</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>1</mn></mrow></mfenced><mo>:</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mn>1</mn><msup><mi>n</mi><mn>2</mn></msup></mfrac><mo>(</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>6</mn><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mn>2</mn><mi>n</mi><mo>)</mo><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>2</mn></mrow></mfenced><mo>:</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mn>1</mn><msup><mi>n</mi><mn>16</mn></msup></mfrac><mfenced><mrow><msup><mn>1</mn><mn>15</mn></msup><mo>+</mo><msup><mn>2</mn><mn>15</mn></msup><mo>+</mo><msup><mn>3</mn><mn>15</mn></msup><mo>+</mo><mo>&#8230;</mo><mo>+</mo><msup><mi>n</mi><mn>15</mn></msup></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>16</mn></mfrac></math></p>"
+  },
+  "options": [
+    {
+      "text": "Both&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>1</mn></mrow></mfenced></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>2</mn></mrow></mfenced></math>&nbsp;are true",
+      "is_correct": true
+    },
+    {
+      "text": "Only&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>1</mn></mrow></mfenced></math>&nbsp;is true",
+      "is_correct": false
+    },
+    {
+      "text": "Both&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>1</mn></mrow></mfenced></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>2</mn></mrow></mfenced></math>&nbsp;are false",
+      "is_correct": false
+    },
+    {
+      "text": "Only&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>S</mi><mn>2</mn></mrow></mfenced></math>&nbsp;is true",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<blockquote><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub><mo>:</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mn>1</mn><msup><mi>n</mi><mn>2</mn></msup></mfrac><mo>[</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>6</mn><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mn>2</mn><mi>n</mi><mo>]</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mn>2</mn><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub><mo>:</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mn>1</mn><msup><mi>n</mi><mn>16</mn></msup></mfrac><mfenced><mrow><msup><mn>1</mn><mn>15</mn></msup><mo>+</mo><msup><mn>2</mn><mn>15</mn></msup><mo>+</mo><msup><mn>3</mn><mn>15</mn></msup><mo>+</mo><mo>&#8230;</mo><mo>+</mo><msup><mi>n</mi><mn>15</mn></msup></mrow></mfenced></math></p><p>This is limit of sum.</p><p>We know that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mi>f</mi><mfenced><mfrac><mi>r</mi><mi>n</mi></mfrac></mfenced><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>d</mo><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8757;</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mrow><msubsup><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msup><mi>r</mi><mi>k</mi></msup></mrow><msup><mi>n</mi><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></msup></mfrac><mo>=</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mrow><msubsup><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msup><mfenced><mstyle displaystyle=\"true\"><mfrac><mi>r</mi><mi>n</mi></mfrac></mstyle></mfenced><mi>k</mi></msup></mrow><mi>n</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><msup><mi>x</mi><mi>k</mi></msup><mo>d</mo><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math></p><p>Here&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>15</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mrow><msubsup><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msup><mi>r</mi><mn>15</mn></msup></mrow><msup><mi>n</mi><mn>16</mn></msup></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>16</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo></math>&nbsp;Both&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mn>1</mn></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mn>2</mn></math>&nbsp;are correct</p><p>Hence this is the required option.</p></blockquote>"
+  }
+}

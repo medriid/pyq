@@ -1,0 +1,43 @@
+{
+  "index": 24,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd27e4f983047d18a96",
+    "chapter_name": "Sequences and Series",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $a, x$ are real numbers and $|a|    < 1,|x| < 1$ then $1 (1+a) x+\\left(1+a+a^{2}\\right) x^{2}+\\ldots \\infty \\quad$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{(1-a)(1-a x)}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{(1-a)(1-x)}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{(1-x)(1-a x)}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{(1+a x)(1-a)}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have. $1+(1+a) x+\\left(1+a+a^{2}\\right) x^{2}+\\ldots \\infty$\r\n$=\\sum_{n=1}^{\\infty}\\left(1+a+a^{2}+\\ldots+a^{n-1}\\right) x^{n-1}$\r\n$=\\sum_{n=1}^{\\infty}\\left(\\frac{1-a^{n}}{1-a}\\right) x^{n-1}$\r\n$=\\sum_{n=1}^{\\infty} \\frac{x^{n-1}}{1-a}-\\sum_{n=1}^{\\infty} \\frac{a^{n} x^{n-1}}{1-a}$\r\n$=\\frac{1}{1-a} \\sum_{n=1}^{\\infty} x^{n-1}-\\frac{a}{1-a} \\sum_{n=1}^{\\infty}(a x)^{n-1}$\r\n$=\\frac{1}{1-a}\\left[\\left(1+x+x^{2}+\\ldots \\infty\\right)\\right]$ $-\\frac{a}{1-a}\\left[\\left\\{1+a x+(a x)^{2}+\\ldots \\infty\\right\\}\\right]$\r\n$=\\frac{1}{(1-a)} \\cdot \\frac{1}{(1-x)}-\\frac{a}{(1-a)(1-a x)}$\r\n$=\\frac{1}{(1-a x)(1-x)}$"
+  }
+}

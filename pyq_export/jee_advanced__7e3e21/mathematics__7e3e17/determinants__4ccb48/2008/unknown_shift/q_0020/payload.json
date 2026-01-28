@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2008 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602551450953a91a4ccb48",
+    "chapter_name": "Determinants",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider three planes\n$$\nP_1: x-y+z=1, P_2: x+y-z=-1\n$$\nand $P_3: x-3 y+3 z=2$\nLet $L_1, L_2$ and $L_3$ be the lines of intersection of the planes $P_2$ and $P_3, P_3$ and $P_1, P_1$ and $P_2$, respectively.\nStatement 1 Atleast two of the lines $L_1, L_2$ and $L_3$ are non-parallel.\nStatement 2 The three planes do not have a common point."
+  },
+  "options": [
+    {
+      "text": "\nStatement 1 is true, Statement 2 is true, Statement 2 is a correct explanation for Statement 1.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement 1 is true, Statement 2 is true, Statement 2 is not a correct explanation for Statement 1.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement 1 is true, Statement 2 is false.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement 1 is false, Statement 2 is true",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "The given equations are\n$$\n\\begin{aligned}\n& x-y+z=1, \\\\\n& x+y-z=-1 \\text { and } x-3 y+3 z=2\n\\end{aligned}\n$$\nThe system of equations can be put in matrix form as $A X=B$\n<img src=\"assets\\st0020_9de104b62ca9.png\"><br>\nwhich is inconsistent as $\\rho(A: B) \\neq \\rho(A)$.\n$\\Rightarrow$ The three planes do not have a common point.\n$\\Rightarrow$ Statement 2 is true.\nSince, planes $P_1, P_2$ and $P_3$ are pairwise intersection, their lines of intersection are parallel.\nStatement 1 is false."
+  }
+}

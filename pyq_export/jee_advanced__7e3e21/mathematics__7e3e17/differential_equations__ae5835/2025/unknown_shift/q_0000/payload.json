@@ -1,0 +1,24 @@
+{
+  "index": 0,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2025 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602569f6f39ee3d4ae5835",
+    "chapter_name": "Differential Equations",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $y(x)$ be the solution of the differential equation\n$x^2 \\frac{d y}{d x}+x y=x^2+y^2, x>\\frac{1}{e}$\nsatisfying $y(1)=0$. Then the value of $2 \\frac{(y(e))^2}{y\\left(e^2\\right)}$ is _____ ."
+  },
+  "options": [],
+  "correct_answer": "0.75",
+  "solution": {
+    "text": "Put $\\mathrm{y}=\\mathrm{vx} \\Rightarrow \\frac{d y}{d x}=v+x \\frac{d v}{d x}$\nD.E.\n$\\begin{aligned}\n& \\mathrm{x}^2\\left(v+\\mathrm{x} \\frac{\\mathrm{~d} v}{\\mathrm{dx}}\\right)+\\mathrm{x}^2 v=\\mathrm{x}^2\\left(1+v^2\\right) \\\\\n& \\Rightarrow v+x \\frac{d v}{d x}+v=1+v^2 \\\\\n& \\Rightarrow x \\frac{d v}{d x}=1+v^2-2 v \\\\\n& \\Rightarrow \\int \\frac{d v}{(v-1)^2}=\\int \\frac{d x}{x} \\\\\n& \\Rightarrow-\\frac{1}{v-1}=\\ln |x|+\\mathrm{C}\n\\end{aligned}$\n$\\Rightarrow \\frac{\\mathrm{x}}{\\mathrm{x}-\\mathrm{y}}=\\ln |x|+\\mathrm{C}=\\ln \\mathrm{x}+\\mathrm{C} \\quad\\left(\\right.$ Since $\\left.\\mathrm{x}>\\frac{1}{\\mathrm{e}}\\right)$\nGiven $y(1)=0$\n$\\Rightarrow C=1$\nSo $\\frac{x}{x-y}=\\ln (e x)$\nNow $y(e)=\\frac{e}{2}$ and $y\\left(e^2\\right)=\\frac{2 e^2}{3}$\n$\\therefore \\frac{2(y(e))^2}{y\\left(e^2\\right)}=\\frac{2 \\cdot \\frac{e^2}{4}}{\\frac{2 e^2}{3}}=\\frac{3}{4}=0.75$"
+  }
+}

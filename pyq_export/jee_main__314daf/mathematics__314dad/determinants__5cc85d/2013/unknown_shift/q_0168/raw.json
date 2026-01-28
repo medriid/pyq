@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65bea",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7d2",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-09T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (09 Apr Online)",
+      "title": "JEE Main 2013 (09 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "If $a, b, c$ are sides of a scalene triangle, then the value of $\\left|\\begin{array}{lll}a & b & c \\\\ b & c & a \\\\ c & a & b\\end{array}\\right|$ is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "NNDVC",
+      "text": "\nnon - negative\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "jNmg3",
+      "text": "\nnegative\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "Akjyb",
+      "text": "\npositive\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "dHu37",
+      "text": "\nnon-positive",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n&\\left|\\begin{array}{lll}\na & b & c \\\\\nb & c & a \\\\\nc & a & b\n\\end{array}\\right|=\\left|\\begin{array}{ccc}\na+b+c & a+b+c & a+b+c \\\\\nb & c & a \\\\\nc & a & b\n\\end{array}\\right| \\\\\n&=(a+b+c)\\left|\\begin{array}{lll}\n1 & 1 & 1 \\\\\nb & c & a \\\\\nc & a & b\n\\end{array}\\right| \\\\\n&=(a+b+c)\\left|\\begin{array}{ccc}\n0 & 0 & 1 \\\\\nb-c & c-a & a \\\\\nc-a & a-b & b\n\\end{array}\\right| \\\\\n&=(a+b+c)\\left[a b+b c+c a-a^2-b^2-c^2\\right] \\\\\n&=-(a+b+c)\\left[(a-b)^2+(b-c)^2+(c-a)^2\\right]\n\\end{aligned}\n$$\nSince $a, b, c$ are sides of $a$ scalene triangle, therefore at least two of the $a, b, c$ will be unequal.\n$\\begin{array}{ll}\\therefore \\quad & (a-b)^2+(b-c)^2+(c-a)^2>0 \\\\ & \\text { Also } a+b+c>0 \\\\ \\therefore \\quad & -(a+b+c)\\left[(a-b)^2+\\right. \\\\ & \\left.(b-c)^2+(c-a)^2\\right] < 0\\end{array}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7d2",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-09T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (09 Apr Online)",
+    "title": "JEE Main 2013 (09 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

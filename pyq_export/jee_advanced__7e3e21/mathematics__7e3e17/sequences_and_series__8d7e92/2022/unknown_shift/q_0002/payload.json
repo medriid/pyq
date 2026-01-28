@@ -1,0 +1,44 @@
+{
+  "index": 2,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2022 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252d532b5c23dd8d7e92",
+    "chapter_name": "Sequences and Series",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>,</mo><msub><mi>a</mi><mn>2</mn></msub><mo>,</mo><msub><mi>a</mi><mn>3</mn></msub><mo>,</mo><mo>&#8230;</mo></math>&nbsp;be an arithmetic progression with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>7</mn></math>&nbsp;and common difference <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math>. Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub><mo>,</mo><msub><mi>T</mi><mn>2</mn></msub><mo>,</mo><msub><mi>T</mi><mn>3</mn></msub><mo>,</mo><mo>&#8230;</mo></math>&nbsp;be such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub><mo>=</mo><mn>3</mn></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>-</mo><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mi>n</mi></msub></math>&nbsp;fo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&#8805;</mo><mn>1</mn></math>. Then, which of the following is/are TRUE?"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>20</mn></msub><mo>=</mo><mn>1604</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>20</mn></munderover><msub><mi>T</mi><mi>k</mi></msub><mo>=</mo><mn>10510</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>30</mn></msub><mo>=</mo><mn>3454</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>30</mn></munderover><msub><mi>T</mi><mi>k</mi></msub><mo>=</mo><mn>35610</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "C"
+  ],
+  "solution": {
+    "text": "<p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mn>7</mn><mo>+</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mn>8</mn></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub><mo>=</mo><mn>3</mn></math></p><p>Also&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msub><mi>T</mi><mi>n</mi></msub><mo>+</mo><msub><mi>a</mi><mi>n</mi></msub></math></p><p>Now&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><msub><mi>T</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>a</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub></math></p><p>Putting&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>1</mn></math>&nbsp;we get,&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub><mo>=</mo><msub><mi>T</mi><mn>1</mn></msub><mo>+</mo><msub><mi>a</mi><mn>1</mn></msub></math></p><p>Now putting&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>2</mn></math>&nbsp;we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub><mo>=</mo><msub><mi>T</mi><mn>2</mn></msub><mo>+</mo><msub><mi>a</mi><mn>2</mn></msub><mo>&#8658;</mo><msub><mi>T</mi><mn>3</mn></msub><mo>=</mo><msub><mi>T</mi><mn>1</mn></msub><mo>+</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><msub><mi>a</mi><mn>2</mn></msub></math></p><p>And so on we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><msub><mi>T</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msub><mi>T</mi><mn>1</mn></msub><mo>+</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><msub><mi>a</mi><mn>2</mn></msub><mo>+</mo><mo>&#8230;</mo><mo>+</mo><msub><mi>a</mi><mi>n</mi></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><msub><mi>T</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msub><mi>T</mi><mn>1</mn></msub><mo>+</mo><mfrac><mi>n</mi><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><mn>2</mn><mfenced><mn>7</mn></mfenced><mo>+</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mn>8</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><msub><mi>T</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msub><mi>T</mi><mn>1</mn></msub><mo>+</mo><mi>n</mi><mfenced><mrow><mn>4</mn><mi>n</mi><mo>+</mo><mn>3</mn></mrow></mfenced><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8943;</mo><mfenced><mn>1</mn></mfenced></math></p><p>Now for&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>19</mn></math>&nbsp;we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>20</mn></msub><mo>=</mo><mn>3</mn><mo>+</mo><mfenced><mn>19</mn></mfenced><mfenced><mn>79</mn></mfenced><mo>=</mo><mn>1504</mn></math></p><p>And for&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>29</mn></math>&nbsp;we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>30</mn></msub><mo>=</mo><mn>3</mn><mo>+</mo><mfenced><mn>29</mn></mfenced><mfenced><mn>119</mn></mfenced><mo>=</mo><mn>3454</mn></math>&nbsp;{option C is correct}</p><p>Now finding sum&nbsp; we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>20</mn></munderover><msub><mi>T</mi><mi>k</mi></msub><mo>=</mo><mn>3</mn><mo>+</mo><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>2</mn></mrow><mn>20</mn></munderover><msub><mi>T</mi><mi>k</mi></msub><mo>=</mo><mn>3</mn><mo>+</mo><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>19</mn></munderover><mfenced><mrow><mn>3</mn><mo>+</mo><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>n</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>3</mn><mo>+</mo><mn>3</mn><mfenced><mn>19</mn></mfenced><mo>+</mo><mfrac><mrow><mn>3</mn><mfenced><mn>19</mn></mfenced><mfenced><mn>20</mn></mfenced></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mn>4</mn><mfenced><mn>19</mn></mfenced><mfenced><mn>20</mn></mfenced><mfenced><mn>39</mn></mfenced></mrow><mn>6</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>3</mn><mo>+</mo><mn>10507</mn><mo>=</mo><mn>10510</mn></math>&nbsp;{option B is correct}</p><p>And Similarly&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>30</mn></munderover><msub><mi>T</mi><mi>k</mi></msub><mo>=</mo><mn>3</mn><mo>+</mo><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>29</mn></munderover><mfenced><mrow><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>n</mi><mo>+</mo><mn>3</mn></mrow></mfenced><mo>=</mo><mn>35615</mn></math></p>"
+  }
+}

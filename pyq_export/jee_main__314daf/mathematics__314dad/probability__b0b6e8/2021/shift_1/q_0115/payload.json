@@ -1,0 +1,43 @@
+{
+  "index": 115,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (25 Jul Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2021",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn></math> distinct balls be distributed among <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> boxes,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mn>1</mn></msub><mo>,</mo><msub><mrow><mo>&#160;</mo><mi>B</mi></mrow><mn>2</mn></msub><mo>,</mo><msub><mrow><mo>&#160;</mo><mi>B</mi></mrow><mn>3</mn></msub></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mn>4</mn></msub></math>. If the probability that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mn>3</mn></msub></math>&nbsp;contains exactly <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> balls is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><msup><mfenced><mfrac><mn>3</mn><mn>4</mn></mfrac></mfenced><mn>9</mn></msup></math> then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> lies in the set :"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mi>x</mi><mo>&#8712;</mo><mi>R</mi><mo>:</mo><mo>|</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>|</mo><mo>&#60;</mo><mn>1</mn><mo>}</mo></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mi>x</mi><mo>&#8712;</mo><mi>R</mi><mo>:</mo><mo>|</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>|</mo><mo>&#8804;</mo><mn>1</mn><mo>}</mo></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mi>x</mi><mo>&#8712;</mo><mi>R</mi><mo>:</mo><mo>|</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>|</mo><mo>&#60;</mo><mn>1</mn><mo>}</mo></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mi>x</mi><mo>&#8712;</mo><mi>R</mi><mo>:</mo><mo>|</mo><mi>x</mi><mo>-</mo><mn>5</mn><mo>|</mo><mo>&#8804;</mo><mn>1</mn><mo>}</mo></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p>The number of ways in which&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn></math>&nbsp;distinct balls can be distributed among&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>&nbsp;boxes is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>9</mn></msup></math></p><p>The number of ways in which&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mn>3</mn></msub></math>&nbsp;contains&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>&nbsp;balls is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>3</mn><none></none><mprescripts></mprescripts><none></none><mn>9</mn></mmultiscripts><mo>&#183;</mo><msup><mn>3</mn><mn>6</mn></msup></math></p><p>Using the classical definition of probability we can say the required probability <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>3</mn><none></none><mprescripts></mprescripts><none></none><mn>9</mn></mmultiscripts><mo>&#183;</mo><msup><mn>3</mn><mn>6</mn></msup></mrow><msup><mn>4</mn><mn>9</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>3</mn><none></none><mprescripts></mprescripts><none></none><mn>9</mn></mmultiscripts><mn>27</mn></mfrac><mo>&#183;</mo><msup><mfenced><mfrac><mn>3</mn><mn>4</mn></mfrac></mfenced><mn>9</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>28</mn><mn>9</mn></mfrac><mo>&#183;</mo><msup><mfenced><mfrac><mn>3</mn><mn>4</mn></mfrac></mfenced><mn>9</mn></msup><mo>&#8658;</mo><mi>k</mi><mo>=</mo><mfrac><mn>28</mn><mn>9</mn></mfrac><mo>&#8776;</mo><mn>3</mn><mo>.</mo><mn>11</mn></math></p><p>Now, consider&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>|</mo><mo>&#60;</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>-</mo><mn>1</mn><mo>&#60;</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>&#60;</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>-</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>&#60;</mo><mi>x</mi><mo>&#60;</mo><mn>1</mn><mo>+</mo><mn>3</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>2</mn><mo>&#60;</mo><mi>x</mi><mo>&#60;</mo><mn>4</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mi>k</mi></math>&nbsp;satisfies&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>|</mo><mo>&#60;</mo><mn>1</mn></math></p>"
+  }
+}

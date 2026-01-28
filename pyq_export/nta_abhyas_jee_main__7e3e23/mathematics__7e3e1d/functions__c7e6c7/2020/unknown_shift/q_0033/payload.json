@@ -1,0 +1,43 @@
+{
+  "index": 33,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255664248d3dbfc7e6c7",
+    "chapter_name": "Functions",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If <math><mi>f</mi><mo>:</mo><mi>R</mi><mo>→</mo><mi>R</mi></math> be defined as&nbsp;<math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn><mi>x</mi></mrow></msup><mo>-</mo><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mn>2</mn><mi>x</mi></mrow></msup></mrow><mrow><mn>2</mn></mrow></mfrac><mo>,</mo></math> then"
+  },
+  "options": [
+    {
+      "text": "<math><mi>f</mi></math> is many-one",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>f</mi></math> is into",
+      "is_correct": false
+    },
+    {
+      "text": "<math><msup><mrow><mi>f</mi></mrow><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">g</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>-</mo><msqrt><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>1</mn></msqrt></mrow></mfenced></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><msup><mrow><mi>f</mi></mrow><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">g</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><msqrt><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>1</mn></msqrt></mrow></mfenced></mrow></mfenced></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let us check for invertibility of <math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math><br /><math><mfenced separators=\"|\"><mrow><mi>A</mi></mrow></mfenced></math> one-one: we have, <math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn><mi>x</mi></mrow></msup><mo>-</mo><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mn>2</mn><mi>x</mi></mrow></msup></mrow><mrow><mn>2</mn></mrow></mfrac></math><br /><math> <mrow> <mo>&#8658;</mo><msup> <mi>f</mi> <mo>&#8242;</mo> </msup> <mfenced> <mi>x</mi> </mfenced><mo>=</mo><mfrac> <mrow> <msup> <mi>e</mi> <mrow> <mn>4</mn><mi>x</mi></mrow> </msup> <mo>+</mo><mn>1</mn></mrow> <mrow> <msup> <mi>e</mi> <mrow> <mn>2</mn><mi>x</mi></mrow> </msup> </mrow> </mfrac> <mo>,</mo></mrow> </math> which is strictly increasing as <math><msup><mrow><mi>e</mi></mrow><mrow><mn>4</mn><mi>x</mi></mrow></msup><mo>&#62;</mo><mn>0</mn></math> for all <math><mi>x</mi><mo>.</mo></math><br />Thus, <math><mi>f</mi></math> is one-one<br /><math><mfenced separators=\"|\"><mrow><mi>B</mi></mrow></mfenced></math> Onto: Let <math><mi>y</mi><mo>=</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math><br /><math><mo>&#8658;</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn><mi>x</mi></mrow></msup><mo>+</mo><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo><mn>2</mn><mi>x</mi></mrow></msup><mo>,</mo></math> where y is strictly monotonic<br />Hence, the range of <math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo><mfenced separators=\"|\"><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mo>-</mo><mi mathvariant=\"normal\">&#8734;</mi></mrow></mfenced><mo>,</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi mathvariant=\"normal\">&#8734;</mi></mrow></mfenced></mrow></mfenced></math><br /><math><mo>&#8658;</mo></math> range of <math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo><mfenced separators=\"|\"><mrow><mo>-</mo><mi mathvariant=\"normal\">&#8734;</mi><mo>,</mo><mi mathvariant=\"normal\">&#8734;</mi></mrow></mfenced></math><br />So, the range of <math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo></math> co-domain<br />Hence, <math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math> is one-one and onto<br /><math><mfenced separators=\"|\"><mrow><mi>C</mi></mrow></mfenced></math> To find <math><msup><mrow><mi>f</mi></mrow><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>:</mo><mi>y</mi><mo>=</mo><mfrac><mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>4</mn><mi>x</mi></mrow></msup><mo>-</mo><mn>1</mn></mrow><mrow><mn>2</mn><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn><mi>x</mi></mrow></msup></mrow></mfrac></math><br /><math><mo>&#8658;</mo><msup><mrow><mi>e</mi></mrow><mrow><mn>4</mn><mi>x</mi></mrow></msup><mo>-</mo><mn>2</mn><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn><mi>x</mi></mrow></msup><mi>y</mi><mo>-</mo><mn>1</mn><mo>=</mo><mn>0</mn></math><br /><math><mo>&#8658;</mo><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn><mi>x</mi></mrow></msup><mo>=</mo><mfrac><mrow><mn>2</mn><mi>y</mi><mo>&#177;</mo><msqrt><mn>4</mn><msup><mrow><mi>y</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>4</mn></msqrt></mrow><mrow><mn>2</mn></mrow></mfrac></math><br /><math><mo>&#8658;</mo><mn>2</mn><mi>x</mi><mo>=</mo><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">g</mi><mfenced separators=\"|\"><mrow><mi>y</mi><mo>&#177;</mo><msqrt><msup><mrow><mi>y</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>1</mn></msqrt></mrow></mfenced></math><br /><math><mo>&#8658;</mo><msup><mrow><mi>f</mi></mrow><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced separators=\"|\"><mrow><mi>y</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">g</mi><mfenced separators=\"|\"><mrow><mi>y</mi><mo>&#177;</mo><msqrt><msup><mrow><mi>y</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>1</mn></msqrt></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></mfrac></math><br />Since, <math><msup><mrow><mi>e</mi></mrow><mrow><msup><mrow><mi>f</mi></mrow><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow></msup></math> is always positive, so neglecting negative sign.<br />Hence, <math><msup><mrow><mi>f</mi></mrow><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">g</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><msqrt><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>1</mn></msqrt></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></mfrac></math>"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 47,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025730c74a9f2e6781fde",
+    "chapter_name": "Probability",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In a workshop, there are five machines and the probability of any one of them to be out of service on a day is <math><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></math> . If the probability that at most two machines will be out of service on the same day is <math><msup><mrow><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>3</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mfenced></mrow><mrow><mn>3</mn></mrow></msup><mi>k</mi><mo>,</mo></math> then <math><mi>k</mi></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><mfrac><mrow><mn>17</mn></mrow><mrow><mn>8</mn></mrow></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>17</mn></mrow><mrow><mn>4</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>17</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>4</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Required probability <math><mo>=</mo></math> when no machine has fault <math><mo>+</mo></math> when one machine has fault <math><mo>+</mo></math> when two machines have fault.<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>0</mn><none/><mprescripts/><mrow/><mn>5</mn></mmultiscripts><msup><mfenced separators=\"|\"><mfrac><mn>3</mn><mn>4</mn></mfrac></mfenced><mn>5</mn></msup><mo>+</mo><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>1</mn><none/><mprescripts/><mrow/><mn>5</mn></mmultiscripts><mfenced separators=\"|\"><mfrac><mn>1</mn><mn>4</mn></mfrac></mfenced><msup><mfenced separators=\"|\"><mfrac><mn>3</mn><mn>4</mn></mfrac></mfenced><mn>4</mn></msup><mo>+</mo><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>2</mn><none/><mprescripts/><mrow/><mn>5</mn></mmultiscripts><msup><mfenced separators=\"|\"><mfrac><mn>1</mn><mn>4</mn></mfrac></mfenced><mn>2</mn></msup><msup><mfenced separators=\"|\"><mfrac><mn>3</mn><mn>4</mn></mfrac></mfenced><mn>3</mn></msup></math><br /><math><mo>=</mo><mfrac><mrow><mn>243</mn></mrow><mrow><mn>1024</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>405</mn></mrow><mrow><mn>1024</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>270</mn></mrow><mrow><mn>1024</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>918</mn></mrow><mrow><mn>1024</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>459</mn></mrow><mrow><mn>512</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>27</mn><mo>&#215;</mo><mn>17</mn></mrow><mrow><mn>64</mn><mo>&#215;</mo><mn>8</mn></mrow></mfrac></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mfenced separators=\"|\"><mfrac><mn>3</mn><mn>4</mn></mfrac></mfenced><mn>3</mn></msup><mo>&#215;</mo><mi>k</mi><mo>=</mo><msup><mfenced separators=\"|\"><mfrac><mn>3</mn><mn>4</mn></mfrac></mfenced><mn>3</mn></msup><mo>&#215;</mo><mfrac><mn>17</mn><mn>8</mn></mfrac></math><br /><math><mo>&#8756;</mo><mi>k</mi><mo>=</mo><mfrac><mrow><mn>17</mn></mrow><mrow><mn>8</mn></mrow></mfrac></math>"
+  }
+}

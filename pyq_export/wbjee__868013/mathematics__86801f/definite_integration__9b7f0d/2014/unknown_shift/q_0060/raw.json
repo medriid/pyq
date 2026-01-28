@@ -1,0 +1,63 @@
+{
+  "_id": "64a81400e0ff5a5425a85787",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "Let $f(x)=\\max \\{x+|x|, x-[x]\\}, \\quad$ where $\\quad \\mid x]$ denotes the greateat integer $\\leq x$. Then, the value of $\\int_{-3}^{3} f(x) d x$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "iWY09",
+      "text": "0",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "b7v3S",
+      "text": "$51 / 2$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "iOkda",
+      "text": "$21 / 2$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "A1lTF",
+      "text": "1",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $f(x)=\\max \\{x+|x|, x-[x]\\}$\r\n$$\r\n\\begin{aligned}\r\n=\\left\\{\\begin{array}{ll}\r\n2 x, & x \\geq 0 \\\\\r\nx-[x], & x \\leq 0\r\n\\end{array}\\right.\\\\\r\n\\begin{aligned}\r\n\\int_{-3}^{3} f(x) d x &=\\int_{-3}^{0} x-[x] d x+\\int_{0}^{3} 2 x d x \\\\\r\n&=3 \\int_{-1}^{0}(1+x) d x+2 \\int_{0}^{3} x d x\r\n\\end{aligned}\r\n\\end{aligned}\r\n$$\r\n[$\\because$ $x-[x]$ is a periodic function at $x=1]$\r\n$$\r\n\\begin{array}{l}\r\n=3\\left[x+\\frac{x^{2}}{2}\\right]_{-1}^{0}+2\\left[\\frac{x^{2}}{2}\\right]_{0}^{3} \\\\\r\n=3\\left[0-0-\\left(-1+\\frac{1}{2}\\right)\\right]+3^{2}-0 \\\\\r\n=3\\left[\\frac{1}{2}\\right]+9=\\frac{3}{2}+9 \\\\\r\n=\\frac{21}{2}\r\n\\end{array}\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

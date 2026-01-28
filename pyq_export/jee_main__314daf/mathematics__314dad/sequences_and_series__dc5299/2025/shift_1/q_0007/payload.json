@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "$1+3+5^2+7+9^2+\\ldots$ upto 40 terms is equal to"
+  },
+  "options": [
+    {
+      "text": "43890",
+      "is_correct": false
+    },
+    {
+      "text": "41880",
+      "is_correct": true
+    },
+    {
+      "text": "33980",
+      "is_correct": false
+    },
+    {
+      "text": "40870",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\left(1^2+5^2+9^2+\\ldots \\ldots \\text { upto } 20 \\text { terms }\\right)+(3+7+11+$...upto 20 terms)<br/>$\\begin{aligned}<br/>& =\\sum_{\\mathrm{r}=1}^{20}(4 \\mathrm{r}-3)^2+\\sum_{\\mathrm{r}=1}^{20}(4 \\mathrm{r}-1) \\\\\n& =\\sum_{\\mathrm{r}=1}^{20}(4 \\mathrm{r}-3)^2+(4 \\mathrm{r}-1) \\\\\n& =4 \\sum_{\\mathrm{r}=1}^{20}\\left(4 \\mathrm{r}^2-5 \\mathrm{r}+2\\right) \\\\\n& =16 \\sum_{\\mathrm{r}=1}^{20} \\mathrm{r}^2-20 \\sum_{\\mathrm{r}=1}^{20} \\mathrm{r}+8 \\sum_{\\mathrm{r}=1}^{20} 1=41880<br/>\\end{aligned}$"
+  }
+}

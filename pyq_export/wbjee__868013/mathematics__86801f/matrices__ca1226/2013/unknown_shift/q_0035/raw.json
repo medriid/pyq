@@ -1,0 +1,63 @@
+{
+  "_id": "64a813e8e0ff5a5425a856a2",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec2",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2013-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013",
+      "title": "WBJEE 2013"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "If $I=\\left(\\begin{array}{ccc}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right)$ and $P=\\left(\\begin{array}{ccc}1 & 0 & 0 \\\\ 0 & -1 & 0 \\\\ 0 & 0 & -2\\end{array}\\right)$ Then, the matrix $P^{3}+2 P^{2}$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "AT0wi",
+      "text": "P",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "jWsQx",
+      "text": "I-P",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Z0XdA",
+      "text": "$2I+P$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "6473S",
+      "text": "$2I-P$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $I=\\left(\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right)$\r\nand $P=\\left(\\begin{array}{ccc}1 & 0 & 0 \\\\ 0 & -1 & 0 \\\\ 0 & 0 & -2\\end{array}\\right)$\r\nThe characteristic equation of $P$ is\r\n$$\r\n|P-\\lambda|=0\r\n$$\r\n$\\Rightarrow\\left|\\begin{array}{ccc}1-\\lambda & 0 & 0 \\\\ 0 & -1-\\lambda & 0 \\\\ 0 & 0 & -2-\\lambda\\end{array}\\right|=0$\r\n$\\Rightarrow \\quad(1-\\lambda)\\{(1+\\lambda)(2+\\lambda)\\}=0$\r\n$\\Rightarrow \\quad\\left(1-\\lambda^{2}\\right)(2+\\lambda)=0$\r\n$\\Rightarrow \\quad 2-2 \\lambda^{2}+\\lambda-\\lambda^{3}=0$\r\n$\\Rightarrow \\quad \\lambda^{3}+2 \\lambda^{2}-\\lambda-2=0$\r\nWe know that, Caylay Hamilton theorem states that Every square matrix satisfy its characteristic equation'.\r\n$\\therefore$\r\n$$\r\nP^{3}+2 P^{2}-P-2 I=0\r\n$$\r\n$\\Rightarrow$\\(p^{3}+2 p^{2}=2 I+p\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec2",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2013-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013",
+    "title": "WBJEE 2013"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

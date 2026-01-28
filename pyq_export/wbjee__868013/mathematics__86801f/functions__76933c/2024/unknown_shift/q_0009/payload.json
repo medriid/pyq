@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0f42b7a9706676933c",
+    "chapter_name": "Functions",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For every real number $x \\neq-1$, let $f(x)=\\frac{x}{x+1}$. Write $f_1(x)=f(x)$ \\& for $n \\geq 2, f_n(x)=f\\left(f_{n-1}(x)\\right)$. Then $f_1(-2) . f_2(-2)$ $\\qquad$ must be"
+  },
+  "options": [
+    {
+      "text": "$\\frac{2^n}{1.3 .5 \\ldots \\ldots .(2 n-1)}$",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}\\binom{2 n}{n}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\binom{2 n}{n}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\text { Hint: } f(x)=\\frac{x}{x+1}, \\quad f_2(x)=\\frac{x}{\\frac{x+1}{\\frac{x}{x+1}+1}}=\\frac{x}{2 x+1} \\\\ & f_3(x)=\\frac{x}{3 x+1}, \\Rightarrow f_1(-2) \\cdot f_2(-2) \\ldots \\ldots \\ldots . f_n(-2) \\\\ & =\\frac{-2}{-1} \\times \\frac{-2}{-3} \\times \\frac{-2}{-5} \\times \\ldots \\ldots \\ldots \\ldots \\times \\frac{-2}{(2 n-1)}=\\frac{2^n}{1.3 .5 \\ldots .(2 n-1)}\\end{aligned}$"
+  }
+}

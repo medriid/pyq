@@ -1,0 +1,43 @@
+{
+  "index": 109,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2016 (03 Apr)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mi>&#8734;</mi></mrow></munder><msup><mfenced separators=\"|\"><mfrac><mrow><mfenced separators=\"|\"><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mi>&#160;</mi><mfenced separators=\"|\"><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfenced><mo>&#8230;</mo><mo>.</mo><mn>3</mn><mi>n</mi></mrow><msup><mi>n</mi><mrow><mn>2</mn><mi>n</mi></mrow></msup></mfrac></mfenced><mfrac><mn>1</mn><mi>n</mi></mfrac></msup></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><mfrac><mrow><mn>9</mn></mrow><mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>log</mi><mn>3</mn><mo>-</mo><mn>2</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>18</mn></mrow><mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>4</mn></mrow></msup></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><mn>27</mn></mrow><mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mi>&#8734;</mi></mrow></munder><msup><mfenced separators=\"|\"><mfrac><mrow><mfenced><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mfenced><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfenced><mo>&#8230;</mo><mo>.</mo><mn>3</mn><mi>n</mi></mrow><msup><mi>n</mi><mrow><mn>2</mn><mi>n</mi></mrow></msup></mfrac></mfenced><mfrac><mn>1</mn><mi>n</mi></mfrac></msup></math><br /><br />Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mfenced separators=\"|\"><mfrac><mrow><mfenced separators=\"|\"><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mfenced separators=\"|\"><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfenced><mo>&#8230;</mo><mo>.</mo><mi>&#160;</mi><mi>&#160;</mi><mfenced separators=\"|\"><mrow><mi>n</mi><mo>+</mo><mn>2</mn><mi>n</mi></mrow></mfenced></mrow><msup><mi>n</mi><mrow><mn>2</mn><mi>n</mi></mrow></msup></mfrac></mfenced><mfrac><mn>1</mn><mi>n</mi></mfrac></msup></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mfenced separators=\"|\"><mrow><mfrac><mfenced separators=\"|\"><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mi>n</mi></mfrac><mo>&#183;</mo><mfrac><mfenced separators=\"|\"><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfenced><mi>n</mi></mfrac><mo>&#8230;</mo><mo>&#8230;</mo><mfrac><mfenced separators=\"|\"><mrow><mi>n</mi><mo>+</mo><mn>2</mn><mi>n</mi></mrow></mfenced><mi>n</mi></mfrac></mrow></mfenced><mfrac><mn>1</mn><mi>n</mi></mfrac></msup></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><mi>y</mi><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mfenced open=\"[\" close=\"]\" separators=\"|\"><mrow><mi>log</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mi>n</mi></mfrac></mrow></mfenced><mo>+</mo><mi>log</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mi>n</mi></mfrac></mrow></mfenced><mo>+</mo><mo>&#8230;</mo><mo>.</mo><mo>.</mo><mi>log</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><mn>2</mn><mi>n</mi></mrow><mi>n</mi></mfrac></mrow></mfenced></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mrow><mn>2</mn><mi>n</mi></mrow></munderover><mrow><mi>ln</mi><mfenced><mrow><mn>1</mn><mo>+</mo><mi>r</mi><mo>/</mo><mi>n</mi></mrow></mfenced></mrow></math><br /><br />Replace&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8721;</mo><mo>&#8594;</mo><mo>&#8747;</mo></math>&nbsp;&amp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>r</mi><mi>n</mi></mfrac><mo>&#8594;</mo><mi>x</mi></math>&nbsp;&amp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>&#8594;</mo><mi>d</mi><mi>x</mi></math></p><p>As <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><mi>y</mi><mo>=</mo><mi>&#160;</mi><munderover><mo>&#8747;</mo><mn>0</mn><mn>2</mn></munderover><mi>log</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p>Integrating by parts, we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><mi>y</mi><mo>=</mo><munderover><mo>&#8747;</mo><mn>0</mn><mn>2</mn></munderover><mn>1</mn><mo>&#183;</mo><mi>log</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mfenced separators=\"|\"><mrow><mi>x</mi><mo>&#183;</mo><mi>log</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced></mrow></mfenced><mn>0</mn><mn>2</mn></msubsup><mo>-</mo><munderover><mo>&#8747;</mo><mn>0</mn><mn>2</mn></munderover><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mi>&#160;</mi><mi>x</mi><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mfenced separators=\"|\"><mrow><mi>x</mi><mi>log</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced></mrow></mfenced><mn>0</mn><mn>2</mn></msubsup><mo>-</mo><mi>&#160;</mi><munderover><mo>&#8747;</mo><mn>0</mn><mn>2</mn></munderover><mfenced separators=\"|\"><mfrac><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfrac></mfenced><mi>d</mi><mi>x</mi><mo>+</mo><mi>&#160;</mi><munderover><mo>&#8747;</mo><mn>0</mn><mn>2</mn></munderover><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mfenced separators=\"|\"><mrow><mi>x</mi><mi>log</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced></mrow></mfenced><mn>0</mn><mn>2</mn></msubsup><mo>-</mo><msubsup><mfenced separators=\"|\"><mi>x</mi></mfenced><mn>0</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mfenced separators=\"|\"><mrow><mi>log</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced></mrow></mfenced><mn>0</mn><mn>2</mn></msubsup></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced separators=\"|\"><mrow><mn>2</mn><mi>log</mi><mn>3</mn><mo>-</mo><mn>0</mn></mrow></mfenced><mo>-</mo><mfenced separators=\"|\"><mrow><mn>2</mn><mo>-</mo><mn>0</mn></mrow></mfenced><mo>+</mo><mfenced separators=\"|\"><mrow><mi>log</mi><mn>3</mn><mo>-</mo><mi>log</mi><mn>1</mn></mrow></mfenced></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>3</mn><mi>log</mi><mn>3</mn><mo>-</mo><mn>2</mn></math><br /><br />Since <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><mi>y</mi><mi>&#160;</mi><mo>=</mo><mn>3</mn><mi>log</mi><mn>3</mn><mo>-</mo><mn>2</mn><mo>=</mo><mi>log</mi><mn>27</mn><mo>-</mo><mi>log</mi><mo>&#160;</mo><msup><mi>e</mi><mn>2</mn></msup></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>y</mi><mo>=</mo><mfrac><msup><mi>e</mi><mrow><mi>log</mi><mn>27</mn></mrow></msup><msup><mi>e</mi><mn>2</mn></msup></mfrac><mo>=</mo><mfrac><mn>27</mn><msup><mi>e</mi><mn>2</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>27</mn><msup><mi>e</mi><mn>2</mn></msup></mfrac></math>.</p>"
+  }
+}

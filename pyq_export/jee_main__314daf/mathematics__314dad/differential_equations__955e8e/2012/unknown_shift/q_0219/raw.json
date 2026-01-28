@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65b3f",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7cc",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (Offline)",
+      "title": "JEE Main 2012 (Offline)"
+    }
+  ],
+  "question": {
+    "text": "The population $\\mathrm{p}(\\mathrm{t})$ at time $t$ of a certain mouse species satisfies the differential equation $\\frac{\\mathrm{dp}(\\mathrm{t})}{\\mathrm{dt}}=0.5 \\mathrm{~p}(\\mathrm{t})$ $-450$. If $p(0)=850$, then the time at which the population becomes zero is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "65xMJ",
+      "text": "\n$2 \\ln 18$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "oiq9G",
+      "text": "\n$\\ln 9$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "dQLPg",
+      "text": "\n$\\frac{1}{2} \\ln 18$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "MJgDR",
+      "text": "\n$\\ln 18$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\frac{d(p(t))}{d t}=\\frac{1}{2} p(t)-450$\n$\\frac{d(p(t))}{d t}=\\frac{p(t)-900}{2}$\n$2 \\int \\frac{d(p(t))}{p(t)-900}=\\int d t$\n$2 \\ln |p(t)-900|=t+c$ \n$t=0 \\quad \\Rightarrow 2 \\ln 50=0+c \\quad \\Rightarrow c=2 \\ln 50$\n$\\therefore 2 \\ln |\\mathrm{p}(\\mathrm{t})-900|=\\mathrm{t}+2 \\ln 50$\n$P(\\mathrm{t})=0 \\quad \\Rightarrow 2 \\ln 900=\\mathrm{t}+2 \\ln 50$\n$t=2(\\ln 900-\\ln 50)=2 \\ln \\left(\\frac{900}{50}\\right)=2 \\ln 18$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7cc",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (Offline)",
+    "title": "JEE Main 2012 (Offline)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

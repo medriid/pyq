@@ -1,0 +1,43 @@
+{
+  "index": 47,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256102340ce2f44de068",
+    "chapter_name": "Indefinite Integration",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The integral <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><mo>&#8747;</mo><mfenced separators=\"|\"><msup><mi>e</mi><mfenced separators=\"|\"><mrow><msup><mi>e</mi><mrow><mi>sin</mi><mo>&#8289;</mo><mi>x</mi></mrow></msup><mo>+</mo><mi>sin</mi><mo>&#8289;</mo><mi>x</mi></mrow></mfenced></msup></mfenced><mi>cos</mi><mo>&#8289;</mo><mi>x</mi><mi>d</mi><mi>x</mi></math> simplifies to (where,&nbsp;<math><mi>c</mi></math> is the constant of integration)"
+  },
+  "options": [
+    {
+      "text": "<math><msup><mrow><mi>e</mi></mrow><mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>⁡</mo><mrow><mi>x</mi></mrow></mrow></mrow></msup><mo>+</mo><mi>c</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><msup><mrow><mi>e</mi></mrow><mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>⁡</mo><mrow><mi>x</mi></mrow></mrow><mo>+</mo><mrow><mrow><mi mathvariant=\"normal\">cos</mi></mrow><mo>⁡</mo><mrow><mi>x</mi></mrow></mrow></mrow></msup><mo>+</mo><mi>c</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><msup><mrow><mi>e</mi></mrow><mrow><msup><mrow><mi>e</mi></mrow><mrow><mrow><mrow><mi mathvariant=\"normal\">cos</mi></mrow><mo>⁡</mo><mrow><mi>x</mi></mrow></mrow></mrow></msup></mrow></msup><mo>+</mo><mi>c</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><msup><mrow><mi>e</mi></mrow><mrow><msup><mrow><mi>e</mi></mrow><mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>⁡</mo><mrow><mi>x</mi></mrow></mrow></mrow></msup></mrow></msup><mo>+</mo><mi>c</mi></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "The given integral is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><mo>&#8747;</mo><msup><mi>e</mi><msup><mi>e</mi><mrow><mi>sin</mi><mo>&#8289;</mo><mi>x</mi></mrow></msup></msup><msup><mi>e</mi><mrow><mi>sin</mi><mo>&#8289;</mo><mi>x</mi></mrow></msup><mi>cos</mi><mo>&#8289;</mo><mi>x</mi><mi>d</mi><mi>x</mi></math><br />Let <math><msup><mrow><mi>e</mi></mrow><mrow><msup><mrow><mi>e</mi></mrow><mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>&#8289;</mo><mrow><mi>x</mi></mrow></mrow></mrow></msup></mrow></msup><mo>=</mo><mi>t</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfenced separators=\"|\"><mrow><msup><mi>e</mi><msup><mi>e</mi><mrow><mi>sin</mi><mo>&#8289;</mo><mi>x</mi></mrow></msup></msup><msup><mi>e</mi><mrow><mi>sin</mi><mo>&#8289;</mo><mi>x</mi></mrow></msup><mi>cos</mi><mo>&#8289;</mo><mi>x</mi></mrow></mfenced><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>t</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mi>I</mi><mo>=</mo><mo>&#8747;</mo><mn>1</mn><mi>d</mi><mi>t</mi><mo>=</mo><mi>t</mi><mo>+</mo><mi>c</mi></math><br /><math><mo>&#8658;</mo><mi>I</mi><mo>=</mo><msup><mrow><mi>e</mi></mrow><mrow><msup><mrow><mi>e</mi></mrow><mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>&#8289;</mo><mrow><mi>x</mi></mrow></mrow></mrow></msup></mrow></msup><mo>+</mo><mi>c</mi></math>"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a65417cc3fb48d662ae",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7e5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2018-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018 (15 Apr Shift 1 Online)",
+      "title": "JEE Main 2018 (15 Apr Shift 1 Online)"
+    }
+  ],
+  "question": {
+    "text": "Let $S=\\left\\{(\\lambda, \\mu) \\in R \\times R: f(t)=\\left(|\\lambda| e^t-\\mu\\right) \\cdot \\sin (2|t|)\\right.$, $t \\in R$, is a differentiable function $\\}$. Then $S$ is a subest of?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "2G7uL",
+      "text": "\n$R \\times[0, \\infty)$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "Z433S",
+      "text": "\n$(-\\infty, 0) \\times R$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "KKECq",
+      "text": "\n$[0, \\infty) \\times R$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "EsaoO",
+      "text": "\n$R \\times(-\\infty, 0)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n&\\quad S=\\left\\{(\\lambda, \\mu) \\in \\mathrm{R} \\times \\mathrm{R}: \\mathrm{f}(\\mathrm{t})=\\left(|\\lambda| \\mathrm{e}^{\\mid t}-\\mu\\right) \\sin (2 \\mathrm{t} \\mid),\\right. \\\\\n&t \\in R \\\\\n&f(t)=\\left(|\\lambda| \\mathrm{e}^{|t|}-\\mu\\right) \\sin (2|t|) \\\\\n&\\left\\{\\begin{array}{l}\n\\left(|\\lambda| e^t-\\mu\\right) \\sin 2 t \\quad t>0 \\\\\n\\left(|\\lambda| e^{-t}-\\mu\\right)(-\\sin 2 t) t < 0\n\\end{array}\\right. \\\\\n&f^{\\prime}(t) \\\\\n&\\left\\{\\begin{array}{l}\n\\left(|\\lambda| \\mathrm{e}^t\\right) \\sin 2 t+\\left(|\\lambda| \\mathrm{e}^t-\\mu\\right)(2 \\cos 2 t) t>0 \\\\\n|\\lambda| \\mathrm{e}^{-t} \\sin 2 t+\\left(|\\lambda| e^{-t}-\\mu\\right)(-2 \\cos 2 t) < t < 0\n\\end{array}\\right. \\\\\n&\\text { As, } f(t) \\text { is differentiable } \\\\\n&\\therefore \\text { LHD }=\\mathrm{RHD} \\text { at } t=0 \\\\\n&|\\lambda| \\cdot \\sin 2(0)+\\left(|\\lambda| \\mathrm{e}^0-\\mu\\right) 2 \\cos (0) \\\\\n&=|\\lambda| \\mathrm{e}^{-0} \\cdot \\sin 2(0)-2 \\cos (0)\\left(|\\lambda| \\mathrm{e}^{-0}-\\mu\\right) \\\\\n&\\Rightarrow 0+(|\\lambda|-\\mu) 2=0-2(|\\lambda|-\\mu) \\\\\n&\\quad 4(|\\lambda|-\\mu)=0 \\\\\n&\\quad|\\lambda|=\\mu\n\\end{aligned}\n$$\nSo, $S \\equiv(\\lambda, \\mu)=\\{\\lambda \\in R \\& \\mu \\in[0, \\infty)\\}$\nTherefore set $\\mathrm{S}$ is subset of $R \\times[0, \\infty)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7e5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2018-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018 (15 Apr Shift 1 Online)",
+    "title": "JEE Main 2018 (15 Apr Shift 1 Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

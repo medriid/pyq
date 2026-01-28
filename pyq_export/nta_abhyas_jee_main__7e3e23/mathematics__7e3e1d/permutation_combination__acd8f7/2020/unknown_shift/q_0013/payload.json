@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252bf7c1fee30bacd8f7",
+    "chapter_name": "Permutation Combination",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of all possible three digit even numbers which can be formed with the condition that if <math><mn>5</mn></math> is one of the digits, then <math><mn>7</mn></math> is the next digit is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><mn>5</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>325</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>345</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>365</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "If <math><mn>5</mn></math> is at hundreds place, <math><mn>7</mn></math> will be at tens place and ones place will have <math><mn>0,2</mn><mo>,</mo><mn>4,6</mn></math> or <math><mn>8</mn></math>. So, <math><mn>5</mn></math> numbers are possible.<br />If <math><mn>5</mn></math> is at tens place then, <math><mn>7</mn></math> will be at ones place but it won’t be an even number.<br />If <math><mn>5</mn></math> is at ones place, then it won’t be an even number. So, <math><mn>5</mn></math> can only be at hundreds place<br /><math><munder underaccent=\"false\"><mrow><mn>5</mn></mrow><mo>_</mo></munder><mi></mi><munder underaccent=\"false\"><mrow><mn>7</mn></mrow><mo>_</mo></munder><mi></mi><munder underaccent=\"false\"><mrow><mi>x</mi></mrow><mo>_</mo></munder><mo>→</mo><mi>x</mi><mo>=</mo><mn>0,2</mn><mo>,</mo><mn>4,6</mn><mo>,</mo><mn>8</mn><mo>→</mo><mn>5</mn></math> numbers<br /><math><munder underaccent=\"false\"><mrow><mn>8</mn></mrow><mo>_</mo></munder><mo>×</mo><munder underaccent=\"false\"><mrow><mn>9</mn></mrow><mo>_</mo></munder><mo>×</mo><munder underaccent=\"false\"><mrow><mn>5</mn></mrow><mo>_</mo></munder><mo>=</mo><mn>360</mn></math> numbers<br />(any number except <math><mn>0,5</mn></math> at hundreds place, any number except <math><mn>5</mn></math> at tens place and <math><mn>0,2</mn><mo>,</mo><mn>4,6</mn><mo>,</mo><mn>8</mn></math> at ones place)<br />Total numbers possible <math><mo>=</mo><mn>5</mn><mo>+</mo><mn>360</mn><mo>=</mo><mn>365</mn></math>"
+  }
+}

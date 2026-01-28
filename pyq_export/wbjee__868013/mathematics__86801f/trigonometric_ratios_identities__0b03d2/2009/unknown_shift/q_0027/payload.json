@@ -1,0 +1,43 @@
+{
+  "index": 27,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2009",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cdb6782a065e80b03d2",
+    "chapter_name": "Trigonometric Ratios & Identities",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\tan \\left[\\frac{\\pi}{4}+\\frac{1}{2} \\cos ^{-1}\\left(\\frac{a}{b}\\right)\\right]+\\tan \\left[\\frac{\\pi}{4}-\\frac{1}{2} \\cos ^{-1}\\left(\\frac{a}{b}\\right)\\right]$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{2 a}{b}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2 b}{a}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{a}{b}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{b}{a}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Hints : Let $\\frac{1}{2} \\cos ^{-1}\\left(\\frac{a}{b}\\right)=\\theta$, then $\\cos 2 \\theta=\\frac{a}{b}$\n\n$$\n\\begin{aligned}\n& \\tan \\left[\\frac{\\pi}{4}+\\frac{1}{2} \\cos ^{-1}\\left(\\frac{a}{b}\\right)\\right]+\\tan \\left[\\frac{\\pi}{4}-\\frac{1}{2} \\cos ^{-1}\\left(\\frac{a}{b}\\right)\\right] \\\\\n& =\\tan \\left(\\frac{\\pi}{4}+\\theta\\right)+\\tan \\left(\\frac{\\pi}{4}-\\theta\\right)=2\\left(\\frac{1+\\tan ^2 \\theta}{1-\\tan ^2 \\theta}\\right)=\\frac{2}{\\cos 2 \\theta}=\\frac{2}{a / b}=\\frac{2 b}{a}\n\\end{aligned}\n$$"
+  }
+}

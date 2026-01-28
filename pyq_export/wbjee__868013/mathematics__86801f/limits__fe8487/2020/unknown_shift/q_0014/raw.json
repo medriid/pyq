@@ -1,0 +1,63 @@
+{
+  "_id": "64a81468e0ff5a5425a85b5b",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7f",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2020-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2020",
+      "title": "WBJEE 2020"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Let $0    < \\alpha < \\beta < 1$. Then $\\lim {n \\rightarrow \\infty} \\sum_{k=1}^{n} \\int_{1/k+\\beta}^{1 /(k+a)} \\frac{d x}{1+x}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "lCms4",
+      "text": "$\\log _{e} \\frac{\\beta}{\\alpha}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "gOQOr",
+      "text": "$\\log _{e} \\frac{1+\\beta}{1+\\alpha}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "Osm4a",
+      "text": "$\\log _{e} \\frac{1+\\alpha}{1+\\beta}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "4Wxvb",
+      "text": "$\\infty$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint:\r\n$\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n}[\\log |1+x|]_{\\frac{1}{k+\\beta}} \\frac{1}{k+a}$\r\n$=\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n}\\left(\\log \\left(1+\\frac{1}{k+\\alpha}\\right)-\\log \\left(1+\\frac{1}{k+\\beta}\\right)\\right)$\r\n$=\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n}\\left(\\log \\left(\\frac{k+\\alpha+1}{k+\\alpha}\\right)-\\log \\left(\\frac{k+\\beta+1}{k+\\beta}\\right)\\right)$\r\n$=\\log \\left(\\frac{\\beta+1}{\\alpha+1}\\right)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7f",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2020-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2020",
+    "title": "WBJEE 2020"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

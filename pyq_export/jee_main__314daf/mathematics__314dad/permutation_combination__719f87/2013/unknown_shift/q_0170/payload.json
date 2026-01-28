@@ -1,0 +1,43 @@
+{
+  "index": 170,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (09 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A committee of 4 persons is to be formed from 2 ladies, 2 old men and 4 young men such that it includes at least 1 lady, at least 1 old man and at most 2 young men. Then the total number of ways in which this committee can be formed is :"
+  },
+  "options": [
+    {
+      "text": "\n40\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n41\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n16\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n32",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0170_7278c7e1f417.png\"><br>\nRequired number of ways\n$$\n\\begin{aligned}\n& ={ }^2 \\mathrm{C}_1 \\times{ }^2 \\mathrm{C}_1 \\times{ }^2 \\mathrm{C}_2+{ }^2 \\mathrm{C}_1 \\times{ }^2 \\mathrm{C}_2 \\times{ }^4 \\mathrm{C}_1+{ }^2 \\mathrm{C}_2 \\times \\\\\n& { }^2 \\mathrm{C}_1 \\times{ }^4 \\mathrm{C}_1+{ }^2 \\mathrm{C}_2 \\times{ }^2 \\mathrm{C}_2 \\times{ }^4 \\mathrm{C}_0 \\\\\n& =2 \\times 2 \\times \\frac{4 \\times 3}{2} \\\\\n& \\quad \\quad \\quad 2 \\times 1 \\times 4+1 \\times 2 \\times 4+1 \\times 1 \\times 1\n\\end{aligned}\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 123,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2020 (06 Sep Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2020",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Two families with three members each and one family with four members are to be seated in a row. In how many ways can they be seated so that the same family members are not separated ?"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>!</mo><mo>&#160;</mo><mn>3</mn><mo>!</mo><mo>&#160;</mo><mn>4</mn><mo>!</mo></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3</mn><mo>!</mo><msup><mo>)</mo><mn>3</mn></msup><mo>&#183;</mo><mo>(</mo><mn>4</mn><mo>!</mo><mo>)</mo></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#160;</mo><mo>(</mo><mn>3</mn><mo>!</mo><mo>)</mo><mn>2</mn><mo>.</mo><mfenced><mrow><mn>4</mn><mo>!</mo></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>&#160;3!&#160;</mtext><msup><mfenced><mrow><mn>4</mn><mo>!</mo></mrow></mfenced><mn>3</mn></msup></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p>We will use the concept &#39;objects are together&#39;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><munder><mrow><mo>&#160;</mo><mn>3</mn><mo>!&#160;</mo></mrow><mo>&#9183;</mo></munder><mtext>Total&#160;3&#160;families</mtext></munder><mo>&#215;</mo><munder><munder><msup><mfenced><mrow><mn>3</mn><mo>!</mo></mrow></mfenced><mn>2</mn></msup><mo>&#9183;</mo></munder><mtext>families&#160;with&#160;all&#160;3&#160;members&#160;together</mtext></munder><mo>&#215;</mo><munder><munder><mrow><mo>&#160;</mo><mn>4</mn><mo>!&#160;</mo></mrow><mo>&#9183;</mo></munder><mtext>family&#160;with&#160;all&#160;4&#160;together</mtext></munder></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mn>3</mn><mo>!</mo><msup><mo>)</mo><mn>3</mn></msup><mo>&#215;</mo><mn>4</mn><mo>!</mo></math></p>"
+  }
+}

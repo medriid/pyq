@@ -1,0 +1,63 @@
+{
+  "_id": "64b169ccf23ac7d519f9ae92",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1e77301f65c2f92c3f",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2006-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2006",
+      "title": "JEE Advanced 2006"
+    }
+  ],
+  "question": {
+    "text": "The value of $\\int \\frac{\\left(x^2-1\\right) d x}{x^3 \\sqrt{2 x^4-2 x^2+1}}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "wkVbh",
+      "text": "\n$2 \\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}+C$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "6m9Td",
+      "text": "\n$2 \\sqrt{2+\\frac{2}{x^2}+\\frac{1}{x^4}}+C$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "XfZsb",
+      "text": "\n$\\frac{1}{2} \\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}+C$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "puGLC",
+      "text": "\nNone of these",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $\\quad I=\\int \\frac{\\left(x^2-1\\right) d x}{x^3 \\sqrt{2 x^4-2 x^2+1}}$,\nOn dividing numerater and denominator by $x^5$, we get\n$$\n=\\int \\frac{\\left(\\frac{1}{x^3}-\\frac{1}{x^5}\\right) d x}{\\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}}\n$$\nput $2-\\frac{2}{x^2}+\\frac{1}{x^4}=t \\Rightarrow\\left(\\frac{4}{x^3}-\\frac{4}{x^5}\\right) d x=d t$\n$$\n\\therefore \\quad I=\\frac{1}{4} \\int \\frac{d t}{\\sqrt{t}}=\\frac{1}{4} \\cdot \\frac{t^{1 / 2}}{1 / 2}=\\frac{1}{2} \\sqrt{t}+c=\\frac{1}{2} \\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}+C\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1e77301f65c2f92c3f",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2006-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2006",
+    "title": "JEE Advanced 2006"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

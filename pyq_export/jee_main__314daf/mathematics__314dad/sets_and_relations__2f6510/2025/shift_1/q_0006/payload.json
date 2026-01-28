@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254da66d43264e2f6510",
+    "chapter_name": "Sets and Relations",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let A be the set of all functions $f: \\mathbf{Z} \\rightarrow \\mathbf{Z}$ and R be a relation on A such that $\\mathrm{R}=\\{(\\mathrm{f}, \\mathrm{g}): f(0)=\\mathrm{g}(1)$ and $f(1)=\\mathrm{g}(0)\\}$. Then R is:"
+  },
+  "options": [
+    {
+      "text": "Symmetric and transitive but not reflective",
+      "is_correct": false
+    },
+    {
+      "text": "Symmetric but neither reflective nor transitive",
+      "is_correct": true
+    },
+    {
+      "text": "Reflexive but neither symmetric nor transitive",
+      "is_correct": false
+    },
+    {
+      "text": "Transitive but neither reflexive nor symmetric",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{R}=\\{(\\mathrm{f}, \\mathrm{g}): \\mathrm{f}(0)=\\mathrm{g}(1) \\text { and } \\mathrm{f}(1)=\\mathrm{g}(0)\\} \\\\ & \\text { Reflexive: }(\\mathrm{f}, \\mathrm{f}) \\in \\mathrm{R} \\\\ & =\\mathrm{f}(0)=\\mathrm{f}(1) \\text { and } \\mathrm{f}(1)=\\mathrm{f}(0) \\rightarrow \\text { must hold } \\\\ & \\Rightarrow \\text { but this is not true for all function }\\end{aligned}$<br/>so not reflexive<br/>Symmetric: If $(\\mathrm{f}, \\mathrm{g}) \\in \\mathrm{R} \\Rightarrow(\\mathrm{g}, \\mathrm{f}) \\in \\mathrm{R}$<br/>Now, $g(0)=f(1)$ and $g(1)=f(0) \\rightarrow$ true<br/>$\\therefore$ symmetric<br/>Transitive : $\\operatorname{If}(\\mathrm{f}, \\mathrm{g}) \\in \\mathrm{R}$ and $(\\mathrm{g}, \\mathrm{h}) \\in \\mathrm{R}$<br/>$\\Rightarrow(\\mathrm{f}, \\mathrm{h}) \\in \\mathrm{R}$<br/>Now $(f, g) \\in R \\Rightarrow f(0)=g(1)$ and $f(1)=g(0)$<br/>$(\\mathrm{g}, \\mathrm{h}) \\in \\mathrm{R} \\Rightarrow \\mathrm{g}(0)=\\mathrm{h}(1)$ and $\\mathrm{g}(1)=\\mathrm{h}(0)$<br/>For $(f, h) \\in R$ we need $f(0)=h(1)$ and $f(1)=h(0)$<br/>Now $f(0)=g(1)=h(0)$ and $f(1)=g(0)=h(1)$<br/>Hence not transitive"
+  }
+}

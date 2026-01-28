@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0788c63c34f9ca1226",
+    "chapter_name": "Matrices",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $A=\\left(\\begin{array}{ccc}5 & 5 x & x \\\\ 0 & x & 5 x \\\\ 0 & 0 & 5\\end{array}\\right)$ and $\\left|A^{2}\\right|=25,$ then $|x|$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{5}$",
+      "is_correct": true
+    },
+    {
+      "text": "5",
+      "is_correct": false
+    },
+    {
+      "text": "$5^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given\r\n$$\r\n\\begin{aligned}\r\nA &=\\left[\\begin{array}{ccc}\r\n5 & 5 x & x \\\\\r\n0 & x & 5 x \\\\\r\n0 & 0 & 5\r\n\\end{array}\\right] \\\\\r\n\\therefore \\quad A^{2}=A \\cdot A\r\n&=\\left[\\begin{array}{ccc}\r\n5 & 5 x & x \\\\\r\n0 & x & 5 x \\\\\r\n0 & 0 & 5\r\n\\end{array}\\right]\\left[\\begin{array}{ccc}\r\n5 & 5 x & x \\\\\r\n0 & x & 5 x \\\\\r\n0 & 0 & 5\r\n\\end{array}\\right] \\\\\r\n&\\left[\\begin{array}{ccc}\r\n25 & 25 x+5 x^{2} & 5 x+25 x^{2}+5 x \\\\\r\n0 & x^{2} & 5 x^{2}+25 \\\\\r\n0 & 0 & 25\r\n\\end{array}\\right] \\\\\r\n&=25\\left(25 x^{2}-0\\right) \\\\\r\n&=25\\left(25 x^{2}\\right)\r\n\\end{aligned}\r\n$$\r\nsince, given that $|A|^{2}=25$\r\nNow, $25\\left(25 x^{2}\\right)=25$\r\n$\\begin{array}{lr}\\Rightarrow & 25 x^{2}=1 \\\\ \\Rightarrow & x^{2}=\\frac{1}{25} \\\\ \\Rightarrow & x=\\pm \\frac{1}{5}\\end{array}$\r\n$\\Rightarrow \\quad |x|=\\frac{1}{5}$"
+  }
+}

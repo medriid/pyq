@@ -1,0 +1,43 @@
+{
+  "index": 34,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (27 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254da66d43264e2f6510",
+    "chapter_name": "Sets and Relations",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>…</mo><mo>,</mo><mn>10</mn><mo>}</mo></math>. Suppose <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> is the set of all the subsets of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>, then the relation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mo>{</mo><mo>(</mo><mi>A</mi><mo>,</mo><mi>B</mi><mo>)</mo><mo>:</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>≠</mo><mi>ϕ</mi><mo>;</mo><mi>A</mi><mo>,</mo><mi>B</mi><mo>∈</mo><mi>M</mi><mo>}</mo></math> is :"
+  },
+  "options": [
+    {
+      "text": "symmetric and reflexive only",
+      "is_correct": false
+    },
+    {
+      "text": "reflexive only",
+      "is_correct": false
+    },
+    {
+      "text": "symmetric and transitive only",
+      "is_correct": false
+    },
+    {
+      "text": "symmetric only",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>Given: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>…</mo><mo>,</mo><mn>10</mn><mo>}</mo></math> and  </p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mo>{</mo><mo>(</mo><mi>A</mi><mo>,</mo><mi>B</mi><mo>)</mo><mo>:</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>≠</mo><mi>ϕ</mi><mo>;</mo><mi>A</mi><mo>,</mo><mi>B</mi><mo>∈</mo><mi>M</mi><mo>}</mo></math></p><p>For Reflexive, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> is subset of '<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>'</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>ϕ</mi><mo>∈</mo><mi mathvariant=\"normal\">M</mi></math> for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ϕ</mi><mo>∩</mo><mi>ϕ</mi><mo>=</mo><mi>ϕ</mi></math></p><p>But it is given that relation is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi><mo>∩</mo><mi mathvariant=\"normal\">B</mi><mo>≠</mo><mi>ϕ</mi></math>.</p><p>So, it is not reflexive.</p><p>For symmetric,</p><p>If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>R</mi><mi>B</mi><none></none><mprescripts></mprescripts><mi>A</mi><none></none></mmultiscripts><mo>⇒</mo><mi mathvariant=\"normal\">A</mi><mo>∩</mo><mi mathvariant=\"normal\">B</mi><mo>≠</mo><mi>ϕ</mi></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>R</mi><mi>A</mi><none></none><mprescripts></mprescripts><mi>B</mi><none></none></mmultiscripts><mo>⇒</mo><mi mathvariant=\"normal\">B</mi><mo>∩</mo><mi mathvariant=\"normal\">A</mi><mo>≠</mo><mi mathvariant=\"normal\">ϕ</mi></math>,</p><p>So, it is symmetric.</p><p>For transitive,</p><p>If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>{</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo><mo>}</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>{</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>)</mo><mo>}</mo></math> then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>{</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo>)</mo><mo>}</mo></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mmultiscripts><mi>R</mi><mi>B</mi><none></none><mprescripts></mprescripts><mi>A</mi><none></none></mmultiscripts><mo>,</mo><mo> </mo><mmultiscripts><mi>R</mi><mi>C</mi><none></none><mprescripts></mprescripts><mi>B</mi><none></none></mmultiscripts></math> is applicable but <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>R</mi><mi>C</mi><none></none><mprescripts></mprescripts><mi>A</mi><none></none></mmultiscripts></math> is not followed.</p><p>So, it not transitive</p><p>Hence, the given relation is symmetric only.</p>"
+  }
+}

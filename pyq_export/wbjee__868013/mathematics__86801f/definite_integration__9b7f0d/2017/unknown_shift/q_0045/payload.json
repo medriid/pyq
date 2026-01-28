@@ -1,0 +1,43 @@
+{
+  "index": 45,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $I=\\int_{0}^{{100 \\pi }} \\sqrt{(1-\\cos 2 x)} d x$, then"
+  },
+  "options": [
+    {
+      "text": "$I=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$I=200 \\sqrt{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$I=\\pi \\sqrt{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$I=100$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$I=\\int_{0}^{1004} \\sqrt{1-\\cos 2 x} d x$\r\n$=\\int_{0}^{100 \\pi} \\sqrt{2 \\sin ^{2} x} d x$\r\n$=\\sqrt{2} \\int_{0}^{100 \\pi} \\sin x \\mid d x$\r\n$=\\sqrt{2} \\times 100 \\int_{0}^{n} \\sin x|d x|$\r\n$[\\sin x \\mid$ has period of $\\pi]$\r\n$=100 \\sqrt{2} \\int_{0}^{\\pi} sin x d x$\r\n$=100 \\sqrt{2}[-\\cos x]_{0}^{\\pi}$\r\n$=100 \\sqrt{2}\\{(-\\cos \\pi)-(-\\cos 0)]$\r\n$=100 \\sqrt{2}[-(-1)-(-1)]$\r\n$=100 \\sqrt{2} \\times 2$\r\n$=200 \\sqrt{2}$"
+  }
+}

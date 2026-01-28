@@ -1,0 +1,43 @@
+{
+  "index": 38,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2012",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ccd1d619927718b113a",
+    "chapter_name": "Permutation Combination",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A vehicle registration number consists of 2 letters of English alphabet followed by 4 digits, where the first digit is not zero. Then, the total number of vehicles with distinct registration numbers is"
+  },
+  "options": [
+    {
+      "text": "$26^{2} \\times 10^{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "${ }^{26} \\mathrm{P}_{2} \\times{ }^{10} \\mathrm{P}_{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "${ }^{26} \\mathrm{P}_{2} \\times 9 \\times{ }^{10} \\mathrm{P}_{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$26^{2} \\times 9 \\times 10^{3}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "The total number of arrangements of 2 letters of English alphabet\r\n$$\r\n=26 \\times 26\r\n$$\r\nThe total number of arrangements of 4 digits number in which first digit is not zero\r\n$$\r\n=9 \\times 10 \\times 10 \\times 10\r\n$$\r\n$\\therefore$ The total number of vehicles with distinct registration number\r\n$$\r\n\\begin{array}{l}\r\n=26 \\times 26 \\times 9 \\times 10 \\times 10 \\times 10 \\\\\r\n=26^{2} \\times 9 \\times 10^{3}\r\n\\end{array}\r\n$$"
+  }
+}

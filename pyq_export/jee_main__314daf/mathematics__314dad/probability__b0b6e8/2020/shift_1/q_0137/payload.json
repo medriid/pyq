@@ -1,0 +1,24 @@
+{
+  "index": 137,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2020 (05 Sep Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2020",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Four fair dice are thrown independently 27 times. Then the expected number of times, at least two dice show up a three or a five, is"
+  },
+  "options": [],
+  "correct_answer": "11",
+  "solution": {
+    "text": "<p>There are only two outcomes, success which stands for getting either 3 or 5, and failure, stands for getting any other outcome.</p><p>Probability for success<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>p</mi><mo>=</mo><mfrac><mn>2</mn><mn>6</mn></mfrac></math></p><p>Probability for failure<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>q</mi><mo>=</mo><mfrac><mn>4</mn><mn>6</mn></mfrac></math></p><p>Number of trials<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>n</mi><mo>=</mo><mn>27</mn></math></p><p>Number of dice<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn></math></p><p>Using Binomial Probability,</p><p>P(at least 2 shows 3 or 5)&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts><mo>&#183;</mo><msup><mfenced><mfrac><mn>2</mn><mn>6</mn></mfrac></mfenced><mn>2</mn></msup><msup><mfenced><mfrac><mn>4</mn><mn>6</mn></mfrac></mfenced><mn>2</mn></msup><mo>+</mo><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>3</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts><msup><mfenced><mfrac><mn>2</mn><mn>6</mn></mfrac></mfenced><mn>3</mn></msup><mfenced><mfrac><mn>4</mn><mn>6</mn></mfrac></mfenced><mo>+</mo><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>4</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts><msup><mfenced><mfrac><mn>2</mn><mn>6</mn></mfrac></mfenced><mn>4</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>384</mn><mo>+</mo><mn>128</mn><mo>+</mo><mn>16</mn></mrow><msup><mn>6</mn><mn>4</mn></msup></mfrac><mo>=</mo><mfrac><mn>11</mn><mn>27</mn></mfrac></math></p><p>Expectation is numerically same as mean.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo></math> expectation<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>n</mi><mi>p</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>27</mn><mo>&#183;</mo><mfrac><mn>11</mn><mn>27</mn></mfrac><mo>=</mo><mn>11</mn></math></p>"
+  }
+}

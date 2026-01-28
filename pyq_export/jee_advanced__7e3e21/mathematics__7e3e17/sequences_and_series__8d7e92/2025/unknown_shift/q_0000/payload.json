@@ -1,0 +1,24 @@
+{
+  "index": 0,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2025 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252d532b5c23dd8d7e92",
+    "chapter_name": "Sequences and Series",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathbb{R}$ denote the set of all real numbers. Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function such that $f(x)>0$ for all $x \\in \\mathbb{R}$, and $f(x+y)=f(x) f(y)$ for all $x, y \\in \\mathbb{R}$.\nLet the real numbers $\\mathrm{a}_1, \\mathrm{a}_2 \\ldots, \\mathrm{a}_{50}$ be in an arithmetic progression. If $f\\left(\\mathrm{a}_{31}\\right)=64 f\\left(\\mathrm{a}_{25}\\right)$, and $\\sum_{i=1}^{50} f\\left(a_i\\right)=3\\left(2^{25}+1\\right)$ then the value of $\\sum_{i=6}^{30} f\\left(a_i\\right)$ is ________"
+  },
+  "options": [],
+  "correct_answer": "96",
+  "solution": {
+    "text": "$\\begin{aligned} & \\because f(x+y)=f(x) \\cdot f(y) \\\\ & \\Rightarrow f(x)=k^x \\quad(f(x)>0 \\forall x \\in R) \\\\ & \\because f\\left(a_{31}\\right)=64 f\\left(a_{25}\\right)\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow \\mathrm{k}^{(\\mathrm{a}+30 \\mathrm{~d})}=64 \\cdot \\mathrm{k}^{(\\mathrm{a}+24 \\mathrm{~d})} \\\\ & \\Rightarrow \\mathrm{k}^{6 \\mathrm{~d}}=64 \\\\ & \\Rightarrow \\mathrm{k}^{\\mathrm{d}}=2\\end{aligned}$\n$\\sum_{\\mathrm{i}=1}^{50} \\mathrm{f}\\left(\\mathrm{a}_{\\mathrm{i}}\\right)=\\mathrm{f}\\left(\\mathrm{a}_1\\right)+\\mathrm{f}\\left(\\mathrm{a}_2\\right)+\\ldots \\ldots+\\mathrm{f}\\left(\\mathrm{a}_{50}\\right)$\n$\\begin{aligned} & =\\mathrm{k}^{\\mathrm{a}}+\\mathrm{k}^{\\mathrm{a}+\\mathrm{d}}+\\ldots+\\mathrm{k}^{\\mathrm{a}+49 \\mathrm{~d}}=\\frac{\\mathrm{k}^{\\mathrm{a}}\\left(\\mathrm{k}^{50 \\mathrm{~d}}-1\\right)}{\\mathrm{k}^{\\mathrm{d}}-1} \\\\ & =\\mathrm{k}^{\\mathrm{a}}\\left(2^{50}-1\\right)=3\\left(2^{25}+1\\right)(\\text { Given }) \\\\ & \\Rightarrow \\mathrm{k}^{\\mathrm{a}}=\\frac{3}{2^{25}-1}\\end{aligned}$\n$\\begin{aligned} & \\therefore \\sum_{\\mathrm{i}=6}^{30} \\mathrm{f}\\left(\\mathrm{a}_{\\mathrm{i}}\\right)=\\mathrm{k}^{\\mathrm{a}+5 \\mathrm{~d}}+\\mathrm{k}^{\\mathrm{a}+6 \\mathrm{~d}}+\\ldots+\\mathrm{k}^{\\mathrm{a}+29 \\mathrm{~d}} \\\\ & \\quad=\\mathrm{k}^{\\mathrm{a}+5 \\mathrm{~d}} \\frac{\\left(\\mathrm{k}^{25 \\mathrm{~d}}-1\\right)}{\\mathrm{k}^{\\mathrm{d}}-1}=\\mathrm{k}^{\\mathrm{a}} \\cdot\\left(\\mathrm{k}^{\\mathrm{d}}\\right)^5\\left(2^{25}-1\\right) \\\\ & \\quad=\\frac{3}{2^{25}-1} \\cdot 2^5\\left(2^{25}-1\\right)=96\\end{aligned}$"
+  }
+}

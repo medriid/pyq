@@ -1,0 +1,63 @@
+{
+  "_id": "66446760970e6e9ab542d2c2",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda71",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-09T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (09 Apr Shift 2)",
+      "title": "JEE Main 2024 (09 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "The value of the integral $\\int_{-1}^2 \\log _e\\left(x+\\sqrt{x^2+1}\\right) d x$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "24Xjw",
+      "text": "$\\sqrt{5}-\\sqrt{2}+\\log _e\\left(\\frac{7+4 \\sqrt{5}}{1+\\sqrt{2}}\\right)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Owbmv",
+      "text": "$\\sqrt{5}-\\sqrt{2}+\\log _e\\left(\\frac{9+4 \\sqrt{5}}{1+\\sqrt{2}}\\right)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "aTacl",
+      "text": "$\\sqrt{2}-\\sqrt{5}+\\log _e\\left(\\frac{7+4 \\sqrt{5}}{1+\\sqrt{2}}\\right)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "QELKO",
+      "text": "$\\sqrt{2}-\\sqrt{5}+\\log _e\\left(\\frac{9+4 \\sqrt{5}}{1+\\sqrt{2}}\\right)$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & I=\\int_{-1}^2 \\log _e\\left(x+\\sqrt{x^2+1}\\right) d x \\\\ & =x \\log _e\\left(x+\\sqrt{x^2+1}\\right)-\\int_{-1}^2\\left(\\frac{1+\\frac{x}{\\sqrt{x^2+1}}}{x+\\sqrt{x^2+1}}\\right) d x \\\\ & =x \\log _e\\left(x+\\sqrt{x^2+1}\\right)-\\int_{-1}^2 \\frac{x}{\\sqrt{x^2+1}} d x\\end{aligned}$\n$\\begin{aligned} & =x \\log _e\\left(x+\\sqrt{x^2+1}\\right)-\\left.\\sqrt{x^2+1}\\right|_{-1} ^2 \\\\ & =\\left(2 \\log _e(2+\\sqrt{5})-\\sqrt{5}\\right) \\\\ & -\\left(-\\log _e(-1+\\sqrt{2})-\\sqrt{2}\\right) \\\\ & =\\log _e(2+\\sqrt{5})^2-\\sqrt{5}+\\log _e(\\sqrt{2}-1)+\\sqrt{2} \\\\ & =\\log _e(2+\\sqrt{5})^2-\\sqrt{5}+\\log _e(\\sqrt{2}-1)+\\sqrt{2}\\end{aligned}$\n$\\begin{aligned} & =\\sqrt{2}-\\sqrt{5}+\\log _e\\left(\\frac{(2+\\sqrt{5})^2}{\\sqrt{2+1}}\\right) \\\\ & =\\sqrt{2}-\\sqrt{5}+\\log _e\\left(\\frac{9+4 \\sqrt{5}}{\\sqrt{2+1}}\\right)\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda71",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-09T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (09 Apr Shift 2)",
+    "title": "JEE Main 2024 (09 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

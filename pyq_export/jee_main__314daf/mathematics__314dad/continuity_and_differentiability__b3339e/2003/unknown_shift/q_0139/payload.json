@@ -1,0 +1,43 @@
+{
+  "index": 139,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2003",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2003",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $f(x)= \\begin{cases}x e^{-\\left(\\frac{1}{|x|}+\\frac{1}{x}\\right)}, & x \\neq 0 \\text { then } f(x) \\text { is } \\\\ 0 & , x=0\\end{cases}$"
+  },
+  "options": [
+    {
+      "text": "\ndiscontinuous every where\n",
+      "is_correct": false
+    },
+    {
+      "text": "\ncontinuous as well as differentiable for all $x$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\ncontinuous for all $x$ but not differentiable at $x=0$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nneither differentiable nor continuous at $x=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$f(0)=0 ; f(x)=x e^{-\\left(\\frac{1}{|x|}+\\frac{1}{x}\\right)}$\nR.H.L. $\\lim _{h \\rightarrow 0}(0+h) \\mathrm{e}^{-2 / h}=\\lim _{h \\rightarrow 0} \\frac{h}{\\mathrm{e}^{2 / h}}=0$\nL.H.L $\\operatorname{Lim}_{h \\rightarrow 0}(0-h) e^{-\\left(\\frac{1}{h}-\\frac{1}{h}\\right)}=0$\nTherefore, $f(x)$ is continuous\nR.H.D. $\\lim _{h \\rightarrow 0} \\frac{(0+h) e^{-\\left(\\frac{1}{h}+\\frac{1}{h}\\right)}-h e^{-\\left(\\frac{1}{h}+\\frac{1}{h}\\right)}}{h}=0$\nL.H.D. $\\operatorname{Lim}_{h \\rightarrow 0} \\frac{(0-h) \\mathrm{e}^{-\\left(\\frac{1}{h}-\\frac{1}{h}\\right)}-h e^{-\\left(\\frac{1}{h}+\\frac{1}{h}\\right)}}{-h}=1$\nTherefore, L.H.D. $\\neq$ R.H.D.\n$\\mathrm{f}(\\mathrm{x})$ is not differentiable at $\\mathrm{x}=0$."
+  }
+}

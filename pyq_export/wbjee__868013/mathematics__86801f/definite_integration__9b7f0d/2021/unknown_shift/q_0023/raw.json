@@ -1,0 +1,63 @@
+{
+  "_id": "64a81479e0ff5a5425a85bf7",
+  "previousYearPapers": [
+    {
+      "_id": "61a1eb3cb860a4fc00943685",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2021-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021",
+      "title": "WBJEE 2021"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "If $\\mathrm{b}=\\int_{0}^{1} \\frac{\\mathrm{e}^{t}}{\\mathrm{t}+1} d t$, then $\\int_{\\mathrm{a}-1}^{\\mathrm{a}} \\frac{\\mathrm{e}^{-1}}{\\mathrm{t}-\\mathrm{a}-1}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "sEzzg",
+      "text": "be $^{a}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "ptrbQ",
+      "text": "be $^{-a}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "ve5l9",
+      "text": "$-\\mathrm{be}^{-\\mathrm{a}}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "3gHYm",
+      "text": "$-\\mathrm{be}^{\\mathrm{a}}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\int_{a-1}^{a} \\frac{e^{-t}}{t-a-1} d t$\r\n$=\\int_{\\mathrm{a}-1}^{\\mathrm{a}} \\frac{\\mathrm{e}^{-(2 \\mathrm{a}-1-\\mathrm{t})}}{2 \\mathrm{a}-1-\\mathrm{t}-\\mathrm{a}-1} \\mathrm{dt}$\r\n$=\\int_{\\mathrm{a}-1}^{\\mathrm{a}} \\frac{\\mathrm{e}^{\\mathrm{t}-2 \\mathrm{a}+1}}{\\mathrm{a}-2-\\mathrm{t}} \\mathrm{dt}$\r\n$t-(a-1)=x \\quad \\Rightarrow d t=d x$\r\n$=\\int_{0}^{1} \\frac{e^{x} \\cdot e^{-a}}{-x-1} d x$\r\n$=-e^{-a} \\int_{0}^{1} \\frac{e^{x}}{x+1} d x=-b e^{-a}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a1eb3cb860a4fc00943685",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2021-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021",
+    "title": "WBJEE 2021"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

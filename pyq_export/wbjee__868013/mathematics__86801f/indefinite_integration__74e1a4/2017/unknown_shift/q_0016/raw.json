@@ -1,0 +1,63 @@
+{
+  "_id": "64a81433e0ff5a5425a85970",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7c",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2017-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2017",
+      "title": "WBJEE 2017"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "$\\int \\cos (\\log x) d x=F(x)+C,$ where $C$ is an arbitrary constant. Here, $F(x)$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "nWrvm",
+      "text": "$x[\\cos (\\log x)+\\sin (\\log x)]$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "oUuIX",
+      "text": "$x[\\cos (\\log x)-\\sin (\\log x)]$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "1uEKq",
+      "text": "$\\frac{x}{2}[\\cos (\\log x)+\\sin (\\log x)]$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "o7xKS",
+      "text": "$\\frac{x}{2}[\\cos (\\log x)-\\sin (\\log x)]$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $I=\\int \\cos (\\log x) d x$\r\nPut $\\log x=t$\r\n$\\Rightarrow \\quad x=e^{t}$\r\n$\\begin{aligned} \\therefore \\quad d x &=e^{t} d t \\\\ \\therefore \\quad I &=\\int e^{t} \\cos t d t \\\\ &=\\frac{e^{t}}{1^{2}+1^{2}}[\\cos t+\\sin t]+C \\end{aligned}$\r\n$\\left[\\because \\int e^{a x} \\cos b x d x=\\frac{e^{a x}}{a^{2}+b^{2}}[a \\cos b x+b \\sin b x]+c\\right]$\r\n$\\Rightarrow \\quad I=\\frac{e^{t}}{2}[\\cos t+\\sin t]+C$\r\n$\\quad \\quad=\\frac{x}{2}[\\cos (\\log x)+\\sin (\\log x]+C$\r\n$\\therefore f(x)=\\frac{x}{2}[\\cos (\\log x)+\\sin (\\log x)]$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7c",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2017-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2017",
+    "title": "WBJEE 2017"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

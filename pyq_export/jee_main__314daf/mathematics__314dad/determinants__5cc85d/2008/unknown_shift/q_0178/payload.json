@@ -1,0 +1,43 @@
+{
+  "index": 178,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2008",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $a, b, c$ be any real numbers. Suppose that there are real numbers $x, y, z$ not all zero such that $x=$ $c y+b z, y=a z+c x$ and $z=b x+a y$. Then $a^2+b^2+c^2+2 a b c$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n2\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "The system of equations $x-c y-b z=0, c x-y+a z=0$ and $b x+a y-z=0$ have non-trivial solution if $\\left|\\begin{array}{ccc}1 & -c & -b \\\\ c & -1 & a \\\\ b & a & -1\\end{array}\\right|=0 \\Rightarrow 1\\left(1-a^2\\right)+c(-c-a b)-b(c a+b)=0$ $\\Rightarrow a^2+b^2+c^2+2 a b c=1$."
+  }
+}

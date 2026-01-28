@@ -1,0 +1,43 @@
+{
+  "index": 172,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "A player $X$ has a biased coin whose probability of showing heads is $p$ and a player $Y$ has a fair coin. They start playing a game with their own coins and play alternately. The player who throws a head first is a winner. If $X$ starts the game, and the probability of winning the game by both the players is equal, then the value of ' $p$ ' is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{3}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{1}{5}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{4}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{2}{5}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "If the outcome is one of the following: $H, T T H, T T T T H, \\ldots$, then $X$ wins As subsequent tosses are independent, so the probability that $X$ wins is\n$$\np+\\frac{p}{4}+\\frac{p}{16}+\\ldots=\\frac{4 p}{3} .\n$$\nSimilarly $Y$ wins if the outcome is one of the following: $T H, T T T H, T T T T T H, \\ldots$\nTherefore, the probability that $Y$ wins is\n$$\n\\frac{1-p}{2}+\\frac{1-p}{8}+\\frac{1-p}{32}=\\frac{2(1-p)}{3}\n$$\nSince, the probability of winning the game by both the players is equal then, we have\n$$\n\\frac{4 p}{3}=\\frac{2(1-p)}{3} \\Rightarrow p=\\frac{1}{3}\n$$"
+  }
+}

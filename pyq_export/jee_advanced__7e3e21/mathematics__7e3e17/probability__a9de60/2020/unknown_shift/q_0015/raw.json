@@ -1,0 +1,58 @@
+{
+  "_id": "64b16a86f23ac7d519f9b531",
+  "previousYearPapers": [
+    {
+      "_id": "615d92eede3d91842a5cf831",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2020-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2020 (Paper 2)",
+      "title": "JEE Advanced 2020 (Paper 2)"
+    }
+  ],
+  "type": "numerical",
+  "level": 3,
+  "question": {
+    "text": "The probability that a missile hits a target successfully is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>75</mn><mo>.</mo></math> In order to destroy the target completely, at least three successful hits are required. Then the minimum number of missiles that have to be fired so that the probability of completely destroying the target is not&nbsp;less than <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>95</mn><mo>,</mo></math> is ___________",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "6",
+  "solution": {
+    "text": "<p>Let the number of missiles be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">P</mi></math> (of destroying the target) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8805;</mo><mn>0</mn><mo>.</mo><mn>95</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>3</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>&#183;</mo><msup><mfenced><mfrac><mn>3</mn><mn>4</mn></mfrac></mfenced><mn>3</mn></msup><mo>&#183;</mo><msup><mfenced><mfrac><mn>1</mn><mn>4</mn></mfrac></mfenced><mrow><mi>n</mi><mo>-</mo><mn>3</mn></mrow></msup><mo>+</mo><mmultiscripts><mi>C</mi><mn>4</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><msup><mfenced><mfrac><mn>3</mn><mn>4</mn></mfrac></mfenced><mn>4</mn></msup><msup><mfenced><mfrac><mn>1</mn><mn>4</mn></mfrac></mfenced><mrow><mi>n</mi><mo>-</mo><mn>4</mn></mrow></msup><mo>+</mo><mo>&#8230;</mo><mo>.</mo><mo>.</mo><mo>+</mo><mmultiscripts><mi>C</mi><mi>n</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><msup><mfenced><mfrac><mn>3</mn><mn>4</mn></mfrac></mfenced><mi>n</mi></msup><mo>&#8805;</mo><mn>0</mn><mo>.</mo><mn>95</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mfenced close=\"}\" open=\"{\"><mrow><mmultiscripts><mi>C</mi><mn>0</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><msup><mfenced><mfrac><mn>3</mn><mn>4</mn></mfrac></mfenced><mn>0</mn></msup><mo>&#183;</mo><msup><mfenced><mfrac><mn>1</mn><mn>4</mn></mfrac></mfenced><mi>n</mi></msup><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><msup><mfenced><mfrac><mn>3</mn><mn>4</mn></mfrac></mfenced><mn>1</mn></msup><mo>&#183;</mo><msup><mfenced><mfrac><mn>1</mn><mn>4</mn></mfrac></mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><msup><mfenced><mfrac><mn>3</mn><mn>4</mn></mfrac></mfenced><mn>2</mn></msup><msup><mfenced><mfrac><mn>1</mn><mn>4</mn></mfrac></mfenced><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></msup></mrow></mfenced><mo>&#8805;</mo><mn>0</mn><mo>.</mo><mn>95</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mfrac><mn>95</mn><mn>100</mn></mfrac><mo>&#8805;</mo><mfrac><mn>1</mn><msup><mn>4</mn><mi>n</mi></msup></mfrac><mo>+</mo><mfrac><mrow><mn>3</mn><mi>n</mi></mrow><msup><mn>4</mn><mi>n</mi></msup></mfrac><mo>+</mo><mfrac><mrow><mi>n</mi><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mn>2</mn></mfrac><mo>&#183;</mo><mfrac><mn>9</mn><msup><mn>4</mn><mi>n</mi></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>4</mn><mi>n</mi></msup><mn>20</mn></mfrac><mo>&#8805;</mo><mfrac><mrow><mn>2</mn><mo>+</mo><mn>6</mn><mi>n</mi><mo>+</mo><mn>9</mn><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>9</mn><mi>n</mi></mrow><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>2</mn><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><mn>5</mn></mfrac><mo>&#8805;</mo><mn>9</mn><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mi>n</mi><mo>+</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>&#8805;</mo><mn>5</mn><mfenced><mrow><mn>9</mn><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>3</mn><mo>&#8658;</mo><mn>32</mn><mo>&#8805;</mo><mn>5</mn><mo>&#215;</mo><mn>74</mn></math>&nbsp; &nbsp;(not true)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>4</mn><mo>&#8658;</mo><mn>128</mn><mo>&#8805;</mo><mn>5</mn><mo>&#215;</mo><mn>134</mn></math>&nbsp; &nbsp;(not true)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>5</mn><mo>&#8658;</mo><mn>512</mn><mo>&#8805;</mo><mn>5</mn><mo>&#215;</mo><mn>212</mn></math>&nbsp; &nbsp;&nbsp;(not true)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>6</mn><mo>&#8658;</mo><mn>2048</mn><mo>&#8805;</mo><mn>5</mn><mo>&#215;</mo><mn>308</mn></math>&nbsp; &nbsp;&nbsp;(true)</p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>6</mn></math>.</p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "608d93448ee74b1cb2d157906b216791",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/mKzY3EIBPjhWP.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/mKzY3EIBPjhWP.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eede3d91842a5cf831",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2020-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2020 (Paper 2)",
+    "title": "JEE Advanced 2020 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

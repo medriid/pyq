@@ -1,0 +1,43 @@
+{
+  "index": 68,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (Offline)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253547998417ac642afb",
+    "chapter_name": "Trigonometric Equations",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The equation $e^{\\sin x}-e^{-\\sin x}-4=0$ has"
+  },
+  "options": [
+    {
+      "text": "\ninfinite number of real roots\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nno real roots\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nexactly one real root\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nexactly four real roots",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$e^{\\sin x}-e^{-\\sin x}=4 \\quad \\Rightarrow e^{\\sin x}=t$\n$t-\\frac{1}{t}=4$\n$\\begin{array}{ll}t^2-4 t-1=0 & \\Rightarrow t=\\frac{4 \\pm \\sqrt{16+4}}{2} \\\\ \\Rightarrow t=\\frac{4 \\pm 2 \\sqrt{5}}{2} & \\Rightarrow t=2 \\pm \\sqrt{5}\\end{array}$\n$e^{\\sin x}=2 \\pm \\sqrt{5} \\quad \\quad-1 \\leq \\sin x \\leq 1 \\quad \\quad \\frac{1}{e} \\leq e^{\\sin x} \\leq e$\n$e^{\\sin x}=2+\\sqrt{5}$ not possible \n$e^{\\sin x}=2-\\sqrt{5}$ not possible\n$\\therefore$ hence no solution"
+  }
+}

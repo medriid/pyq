@@ -1,0 +1,43 @@
+{
+  "index": 187,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If $y(x)$ is the solution of the differential equation $\\frac{d y}{d x}+\\left(\\frac{2 x+1}{x}\\right) y=e^{-2 x}, x>0,$ where $y(1)=\\frac{1}{2} e^{-2},$ then:"
+  },
+  "options": [
+    {
+      "text": "$y\\left(\\log _{e} 2\\right)=\\log _{e} 4$",
+      "is_correct": false
+    },
+    {
+      "text": "$y\\left(\\log _{e} 2\\right)=\\frac{\\log _{e} 2}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$y(x)$ is decreasing in $\\left(\\frac{1}{2}, 1\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$y(x)$ is decreasing in (0,1)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given differential equation is,\r\n\r\n$\\frac{d y}{d x}+\\left(2+\\frac{1}{x}\\right) y=e^{-2 x}, x>0$\r\n\r\n$\\mathrm{IF}=e^{\\int\\left(2+\\frac{1}{x}\\right) d x}=e^{2 x+\\ln x}=x e^{2 x}$\r\n\r\nComplete solution is given by\r\n\r\n$y(x) \\cdot x e^{2 x}=\\int x e^{2 x} \\cdot e^{-2 x} d x+c$\r\n\r\n$=\\int x d x+c$\r\n\r\n$y(x) \\cdot e^{2 x} \\cdot x=\\frac{x^{2}}{2}+c$\r\n\r\nGiven, $y(1)=\\frac{1}{2} e^{-2}$\r\n\r\n$\\therefore \\quad \\frac{1}{2} e^{-2} \\cdot e^{2} \\cdot 1=\\frac{1}{2}+c \\Rightarrow c=0$\r\n\r\n$\\therefore \\quad y(x)=\\frac{x^{2}}{2} \\cdot \\frac{e^{-2 x}}{x}$\r\n\r\n$y(x)=\\frac{x}{2} \\cdot e^{-2 x}$\r\n\r\nDifferentiate both sides with respect to $x$\r\n\r\n$y^{\\prime}(x)=\\frac{e^{-2 x}}{2}(1-2 x)  < 0 \\forall x \\in\\left(\\frac{1}{2}, 1\\right)$\r\n\r\nHence, $y(x)$ is decreasing in $\\left(\\frac{1}{2}, 1\\right)$"
+  }
+}

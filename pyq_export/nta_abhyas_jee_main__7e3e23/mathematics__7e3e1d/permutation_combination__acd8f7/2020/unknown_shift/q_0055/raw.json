@@ -1,0 +1,61 @@
+{
+  "_id": "6151e8636ecfbdca48b3938d",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "95",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "Five boys and four girls sit in a straight line. The number of ways in which they can be seated if two girls are together and the other two are also together but separated from the first two is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "aZBf1",
+      "text": "<math><mn>5400</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "6QC4s",
+      "text": "<math><mn>10800</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "uOCKP",
+      "text": "<math><mn>21600</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "C4Qxz",
+      "text": "<math><mn>43200</mn></math>",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Four girls can be grouped as <math><mn>2</mn><mo>,</mo><mi></mi><mn>2</mn></math> in <math><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><msup><mrow><mfenced separators=\"|\"><mrow><mn>2</mn><mo>!</mo></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup><mn>2</mn><mo>!</mo></mrow></mfrac></math> ways.<br />Five boys can be arranged in <math><mn>5</mn><mo>!</mo></math> ways, six gaps will be generated because of these boys. Two groups of the girls can be placed at any of these <math><mn>6</mn></math> places in <math><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">P</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>6</mn></mrow></mmultiscripts></mrow><mrow><mn>2</mn></mrow></msub></math> ways.<br />The girls in each group can be arranged in <math><mn>2</mn><mo>!</mo></math> ways.<br />Required ways <math><mo>=</mo><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><msup><mrow><mfenced separators=\"|\"><mrow><mn>2</mn><mo>!</mo></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup><mn>2</mn><mo>!</mo></mrow></mfrac><mo>×</mo><mn>5</mn><mo>!</mo><mo>×</mo><msub><mrow><mmultiscripts><mrow><mi mathvariant=\"normal\">P</mi></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>6</mn></mrow></mmultiscripts></mrow><mrow><mn>2</mn></mrow></msub><mo>×</mo><mn>2</mn><mo>!</mo><mo>×</mo><mn>2</mn><mo>!</mo></math><br /><math><mo>=</mo><mfrac><mrow><mn>4</mn><mo>×</mo><mn>3</mn></mrow><mrow><mn>2</mn><mo>×</mo><mn>2</mn></mrow></mfrac><mo>×</mo><mn>120</mn><mo>×</mo><mn>6</mn><mo>×</mo><mn>5</mn><mo>×</mo><mn>2</mn><mo>×</mo><mn>2</mn></math><br /><math><mo>=</mo><mn>360</mn><mo>×</mo><mn>120</mn><mo>=</mo><mn>43200</mn></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

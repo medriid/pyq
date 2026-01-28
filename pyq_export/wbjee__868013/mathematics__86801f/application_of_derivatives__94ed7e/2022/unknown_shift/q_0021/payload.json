@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The maximum value of $f(x)=e^{\\sin x}+e^{\\cos x} ; x \\in R$ is"
+  },
+  "options": [
+    {
+      "text": "$2 \\mathrm{e}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 \\sqrt{\\mathrm{e}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 \\mathrm{e}^{1 / \\sqrt{2}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$2 e^{-1 / \\sqrt{2}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$f(x)=e^{\\sin x}+e^{\\cos x}$\n$\\begin{aligned}\n&f^{\\prime}(x)=e^{\\sin x} \\cdot \\cos x-e^{\\cos x} \\cdot \\sin x \\\\\n&\\begin{aligned}\nf^{\\prime \\prime}(x) &=e^{\\sin x} \\cos ^2 x+e^{\\cos x} \\cdot \\sin ^2 x-\\sin x \\cdot e^{\\sin x}-\\cos x \\cdot e^{\\cos x} \\\\\n&=e^{\\sin x}\\left(1-\\sin x-\\sin ^2 x\\right)+e^{\\cos x}\\left(1-\\cos ^2 x-\\cos x\\right) \\\\\nf^{\\prime}(\\pi / 4) &=0 \\text { and } f^{\\prime \\prime}(\\pi / 4)  < 0 \\\\\nf^{\\prime}(x) &=0 \\text { at } x=\\pi / 4+2 n \\pi \\text { or } 5 \\pi / 4+2 n \\pi(n \\in z)\n\\end{aligned}\n\\end{aligned}$\n$f^{\\prime}(\\pi / 4+2 n \\pi)=0$ and $f^{\\prime \\prime}(\\pi / 4+2 n \\pi) < 0$\n$\\therefore f_{\\max }=f(\\pi / 4+2 n \\pi), n \\in Z=2 e^{1 / \\sqrt{2}}$"
+  }
+}

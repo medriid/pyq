@@ -1,0 +1,44 @@
+{
+  "index": 46,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=\\cos \\left(\\frac{\\pi}{x}\\right), x \\neq 0,$ then assuming $k$ as an integer,"
+  },
+  "options": [
+    {
+      "text": "$f(x)$ increases in the interval $\\left(\\frac{1}{2 k+1}, \\frac{1}{2 k}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$f(x)$ decreases in the interval $\\left(\\frac{1}{2 k+1}, \\frac{1}{2 k}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x)$ decreases in the interval $\\left(\\frac{1}{2 k+2}, \\frac{1}{2 k+1}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$f(x)$ increases in the interval $\\left(\\frac{1}{2 k+2}, \\frac{1}{2 k+1}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "C"
+  ],
+  "solution": {
+    "text": "$f(x)=\\cos \\left(\\frac{\\pi}{x}\\right)$\r\n$\\Rightarrow \\quad f'(x)=-\\sin \\left(\\frac{\\pi}{x}\\right)\\left(\\frac{-\\pi}{x^{2}}\\right)=\\frac{\\pi}{x^{2}} \\sin \\frac{\\pi}{x}$\r\nFor increasing function, $f'(x)>0$ $\\Rightarrow \\sin \\left(\\frac{\\pi}{x}\\right)>0 \\Rightarrow 2 k \\pi    < \\frac{\\pi}{x} < (2 k+1) \\pi$\r\n$\\Rightarrow \\quad \\frac{1}{2 k}>x>\\frac{1}{2 k+1}$\r\nFor decreasing function, $f(x) < 0$ $\\Rightarrow \\quad \\sin \\left(\\frac{\\pi}{x}\\right) < 0$\r\n$\\Rightarrow \\frac{\\pi}{x} \\in[(2 k+1) \\pi,(2 k+2) \\pi] \\Rightarrow x \\in\\left(\\frac{1}{2 k+2}, \\frac{1}{2 k+1}\\right)$"
+  }
+}

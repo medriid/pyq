@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $f(x)=\\log _{5} \\log _{3} x,$ then $f^{\\prime}(e)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$e \\log _{e} 5$",
+      "is_correct": false
+    },
+    {
+      "text": "$e \\log _{4} 3$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{e \\log _{e} 5}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{e \\log _{e} 3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have,\r\n$\\therefore$\r\n$\\begin{aligned} f(x) &=\\log _{5} \\log _{3} x \\\\ &=\\frac{\\log \\log _{3} x}{\\log 5} \\\\ &=\\frac{\\log \\left(\\frac{\\log x}{\\log 3}\\right)}{\\log 5} \\\\ &=\\frac{\\log \\log x-\\log \\log 3}{\\log 5} \\\\ f^{\\prime}(x)=\\frac{1}{\\log 5} \\cdot \\frac{1}{\\log x} \\cdot \\frac{1}{x} \\end{aligned}$\r\n$\\begin{aligned} f^{\\prime}(e) &=\\frac{1}{e \\log 5 \\cdot \\log e} \\\\ &=\\frac{1}{e \\log 5} \\quad[\\because \\log e=1] \\\\ &=\\frac{1}{e \\log _{n} 5} \\end{aligned}$"
+  }
+}

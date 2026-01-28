@@ -1,0 +1,38 @@
+{
+  "_id": "64b169cff23ac7d519f9aeb0",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1e77301f65c2f92c3f",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2006-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2006",
+      "title": "JEE Advanced 2006"
+    }
+  ],
+  "question": {
+    "text": "The value of $\\frac{(5050) \\int_0^1\\left(1-x^{50}\\right)^{100} d x}{\\int_0^1\\left(1-x^{50}\\right)^{101} d x}$",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "5051",
+  "solution": {
+    "text": "Let $I_2=\\int_0^1\\left(1-x^{50}\\right)^{101} d x$, using integration by parts\n$$\n\\begin{aligned}\n& \\left.=\\left[(1-x)^{50}\\right)^{101} \\cdot x\\right]_0^1+\\int_0^1\\left(1-x^{50}\\right)^{100} 50 \\cdot x^{49} \\cdot x d x \\\\\n& =0-\\int_0^1(50)(101)\\left(1-x^{50}\\right)^{100}(-x)^{50} d x \\\\\n& =-(50)(101) \\int_0^1\\left(1-x^{50}\\right)^{101} d x+(50)(101) \\int_0^1\\left(1-x^{50}\\right)^{100} d x \\\\\n& =5050 I_2+5050 I_1\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n\\therefore & I_2+5050 I_2 & =5050 I_1 \\\\\n\\therefore & \\frac{(5050) I_1}{I_2} & =5051\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1e77301f65c2f92c3f",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2006-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2006",
+    "title": "JEE Advanced 2006"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

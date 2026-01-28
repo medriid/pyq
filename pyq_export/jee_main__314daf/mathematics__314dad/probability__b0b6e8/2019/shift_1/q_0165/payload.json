@@ -1,0 +1,43 @@
+{
+  "index": 165,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Two integers are selected at random from the set $\\{1,2, \\ldots, 11\\}$. Given that the sum of selected numbers is even, the conditional probability that both the numbers are even is :"
+  },
+  "options": [
+    {
+      "text": "$\\frac{7}{10}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2}{5}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{3}{5}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Probability of getting sum of selected two numbers is even\r\n\r\n$=P\\left(E_{1}\\right)=\\frac{{ }^{5} C_{2}+{ }^{5} C_{2}}{{ }^{11} C_{2}}$\r\n\r\nProbability of getting sum is even and selected numbers are also even $P\\left(E_{2}\\right)=\\frac{{ }^{5} C_{2}}{{ }^{11} C_{2}}$\r\n\r\nHence, $P\\left(\\frac{E_{2}}{E_{1}}\\right)=\\frac{{ }^{5} C_{2}}{{ }^{6} C_{2}+{ }^{5} C_{2}}=\\frac{10}{15+10}=\\frac{2}{5}$."
+  }
+}

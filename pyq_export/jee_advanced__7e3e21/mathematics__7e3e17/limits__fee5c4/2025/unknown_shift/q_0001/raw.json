@@ -1,0 +1,58 @@
+{
+  "_id": "685102bd6bba689a3eb09c79",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "684c67d769037fad219cb0c1",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2025-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (Paper 1)",
+      "title": "JEE Advanced 2025 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\alpha$ and $\\beta$ be the real numbers such that $\\lim _{x \\rightarrow 0} \\frac{1}{x^3}\\left(\\frac{\\alpha}{2} \\int_0^x \\frac{1}{1-t^2} d t+\\beta x \\cos x\\right)=2$. Then the value of $\\alpha+\\beta$ is _______",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "2.4",
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow 0} \\frac{\\frac{\\alpha}{2} \\int_0^x \\frac{1}{1-t^2} d t+\\beta x \\cos x}{x^3}$\n$\\begin{aligned} & =\\lim _{x \\rightarrow 0} \\frac{\\frac{\\alpha}{2}\\left(\\frac{1}{1-x^2}\\right)+\\beta \\cos x-\\beta x \\sin x}{3 x^2} \\\\ & =\\frac{\\frac{\\alpha}{2}\\left(1-x^2\\right)^{-1}+\\beta\\left(1-\\frac{x^2}{2!}+\\frac{x^4}{4!} \\ldots\\right)-\\beta x\\left(x-\\frac{x^3}{3!}+\\frac{x^5}{5!} \\ldots\\right)}{3 x^2} \\\\ & =\\frac{\\frac{\\alpha}{2}\\left(1+x^2+x^4 \\ldots\\right)+\\beta\\left(1-\\frac{x^2}{2!}+\\frac{x^4}{4!} \\ldots\\right)-\\beta\\left(x^2-\\frac{x^4}{3!} \\ldots\\right)}{3 x^2}\\end{aligned}$\n$\\begin{aligned} & =\\frac{\\left(\\frac{\\alpha}{2}+\\beta\\right)+\\mathrm{x}^2\\left(\\frac{\\alpha}{2}-\\frac{\\beta}{2}-\\beta\\right)+\\mathrm{x}^4() \\ldots}{3 \\mathrm{x}^2}=2(\\text { Given }) \\\\ & \\therefore \\frac{\\alpha}{2}+\\beta=0 \\text { and } \\frac{\\alpha-3 \\beta}{6}=2 \\\\ & \\Rightarrow \\alpha=-2 \\beta \\text { and } \\alpha=12+3 \\beta \\\\ & \\Rightarrow \\beta=-\\frac{12}{5} \\text { and } \\alpha=\\frac{24}{5}\\end{aligned}$\n$\\therefore \\alpha+\\beta=\\frac{12}{5}=2.40$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "35e910deddea4482b3e49639e9a60f93",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/6i3g4bf87b39D.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/6i3g4bf87b39D.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "684c67d769037fad219cb0c1",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2025-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (Paper 1)",
+    "title": "JEE Advanced 2025 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

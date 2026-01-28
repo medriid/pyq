@@ -1,0 +1,24 @@
+{
+  "index": 9,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2019 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252aaac414b50bcf64af",
+    "chapter_name": "Permutation Combination",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Five persons <math><mi mathvariant=\"normal\">A</mi><mo>,</mo><mi mathvariant=\"normal\">&#160;</mi><mi mathvariant=\"normal\">B</mi><mo>,</mo><mi mathvariant=\"normal\">&#160;</mi><mi mathvariant=\"normal\">C</mi><mo>,</mo><mi mathvariant=\"normal\">&#160;</mi><mi mathvariant=\"normal\">D</mi></math> and <math><mi mathvariant=\"normal\">E</mi></math> are seated in a circular arrangement. If each of them is given a hat of one of the three colours red, blue and green, then the number of ways of distributing the hats such that the persons seated in adjacent seats get different coloured hats is"
+  },
+  "options": [],
+  "correct_answer": "30",
+  "solution": {
+    "text": "<p>Given that no two persons sitting adjacent, have the hat of same colour, so hats of all colour must be used, also <math><mn>3</mn></math> hats of same colour cannot be used as at least two hats of same colour will become consecutive, so the only combination will be <math><mn>2</mn><mo>,</mo><mi> </mi><mn>2</mn><mo>,</mo><mi> </mi><mn>1</mn><mo>.</mo></math><br/>Three cases are possible<br/><math> <mrow> <mfenced close=\"}\" open=\"\"> <mrow> <mtable equalcolumns=\"true\" equalrows=\"true\"> <mtr> <mtd> <mrow> <mi>a</mi><mo stretchy=\"false\">)</mo><mo> </mo><mn>2</mn><mi>R</mi><mo>,</mo><mo> </mo><mn>2</mn><mi>B</mi><mo>,</mo><mo> </mo><mn>1</mn><mi>G</mi></mrow> </mtd> </mtr> <mtr> <mtd> <mrow> <mi>b</mi><mo stretchy=\"false\">)</mo><mo> </mo><mn>2</mn><mi>B</mi><mo>,</mo><mo> </mo><mn>2</mn><mi>G</mi><mo>,</mo><mo> </mo><mn>1</mn><mi>R</mi></mrow> </mtd> </mtr> <mtr> <mtd> <mrow> <mi>c</mi><mo stretchy=\"false\">)</mo><mo> </mo><mn>2</mn><mi>R</mi><mo>,</mo><mo> </mo><mn>2</mn><mi>G</mi><mo>,</mo><mo> </mo><mn>1</mn><mi>B</mi></mrow> </mtd> </mtr> </mtable></mrow> </mfenced><mo>−</mo><mn>3</mn></mrow> </math> way<br/>Select are person for single colour hat <math><mo>=</mo><mmultiscripts><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow><mprescripts></mprescripts><mrow><mi> </mi></mrow><mrow><mn>5</mn></mrow></mmultiscripts></math> (let say green)<br/><img src=\"assets\\st0009_1272569c76c2.png\"/><br/>Now remaining <math><mn>4</mn></math> hats can be distributed alternatively in two ways <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>B</mi><mi>R</mi><mi>B</mi><mi>R</mi><mo> </mo><mi>or</mi><mo> </mo><mi>R</mi><mi>B</mi><mi>R</mi><mi>B</mi></mrow></mfenced></math><br/>Total number of ways <math><mo>=</mo><mn>3</mn><mo>×</mo><mmultiscripts><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow><mprescripts></mprescripts><mrow><mi> </mi></mrow><mrow><mn>5</mn></mrow></mmultiscripts><mo>×</mo><mn>2</mn></math><br/><math><mo>=</mo><mn>30</mn></math></p>"
+  }
+}

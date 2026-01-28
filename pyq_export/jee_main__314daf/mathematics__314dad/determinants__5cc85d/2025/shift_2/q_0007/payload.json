@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "For some $\\mathrm{a}, \\mathrm{b}$, let $f(x)=\\left|\\begin{array}{ccc}\\mathrm{a}+\\frac{\\sin x}{x} & 1 & \\mathrm{~b} \\\\ \\mathrm{a} & 1+\\frac{\\sin x}{x} & \\mathrm{~b} \\\\ \\mathrm{a} & 1 & \\mathrm{~b}+\\frac{\\sin x}{x}\\end{array}\\right|, x \\neq 0, \\lim _{x \\rightarrow 0} f(x)=\\lambda+\\mu \\mathrm{a}+\\nu \\mathrm{b}$. Then $(\\lambda+\\mu+\\nu)^2$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "16",
+      "is_correct": true
+    },
+    {
+      "text": "25",
+      "is_correct": false
+    },
+    {
+      "text": "9",
+      "is_correct": false
+    },
+    {
+      "text": "36",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow 0}\\left|\\begin{array}{ccc}\na+\\frac{\\sin x}{x} & 1 & b \\\\\na & 1+\\frac{\\sin x}{x} & b \\\\\na & 1 & b+\\frac{\\sin x}{x}\n\\end{array}\\right|=\\lambda+\\mu a+v b$\nAt $\\lim x \\rightarrow 0$,\n$\\begin{aligned}\n& f(x)=\\left|\\begin{array}{ccc}\na+1 & 1 & b \\\\\na & 1+1 & b \\\\\na & 1 & b+1\n\\end{array}\\right|=\\lambda+\\mu a+v b \\\\\n& R_1 \\rightarrow R_1-R_2 \\\\\n& R_2 \\rightarrow R_2-R_3 \\\\\n& \\left|\\begin{array}{ccc}\n1 & -1 & 0 \\\\\n0 & 1 & -1 \\\\\na & 1 & b+1\n\\end{array}\\right|=\\lambda+\\mu a+v b \\\\\n& \\mathrm{C}_2 \\rightarrow \\mathrm{C}_1-\\mathrm{C}_2 \\\\\n& \\left|\\begin{array}{ccc}\n1 & 0 & 0 \\\\\n0 & 1 & -1 \\\\\na & a+1 & b+1\n\\end{array}\\right|=\\lambda+\\mu a+v b \\\\\n& a+b+2=\\lambda+\\mu a+v b \\\\\n& \\lambda=2, \\mu=1, \\quad v=1 \\\\\n& (\\lambda+\\mu+v)=(2+1+1)^2=16\n\\end{aligned}$"
+  }
+}

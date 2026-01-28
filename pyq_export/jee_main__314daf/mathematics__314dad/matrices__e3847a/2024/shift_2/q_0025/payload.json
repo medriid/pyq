@@ -1,0 +1,43 @@
+{
+  "index": 25,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $A$ is a square matrix of order 3 such that $\\operatorname{det}(A)=3$ and $\\operatorname{det}\\left(\\operatorname{adj}\\left(-4 \\operatorname{adj}\\left(-3 \\operatorname{adj}\\left(3 \\operatorname{adj}\\left((2 \\mathrm{~A})^{-1}\\right)\\right)\\right)\\right)\\right)=2^{\\mathrm{m}} 3^{\\mathrm{n}}$, then $\\mathrm{m}+2 \\mathrm{n}$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "6",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & |\\mathrm{A}|=3 \\\\ & \\mid \\operatorname{adj}\\left(-4 \\operatorname{adj}\\left(-3 \\operatorname{adj}\\left(3 \\operatorname{adj}\\left((2 \\mathrm{~A})^{-1}\\right)\\right)\\right) \\mid\\right. \\\\ & \\mid-4 \\operatorname{adj}\\left(-\\left.3 \\operatorname{adj}\\left(3 \\operatorname{adj}(2 \\mathrm{~A})^{-1}\\right)\\right|^2\\right. \\\\ & 4^6\\left|\\operatorname{adj}\\left(-3 \\operatorname{adj}\\left(3 \\operatorname{adj}(2 \\mathrm{~A})^{-1}\\right)\\right)\\right|^2 \\\\ & 2^{12} \\cdot 3^{12}\\left|3 \\operatorname{adj}(2 \\mathrm{~A})^{-1}\\right|^8 \\\\ & 2^{12} \\cdot 3^{12} \\cdot 3^{24}\\left|\\operatorname{adj}(2 \\mathrm{~A})^{-1}\\right|^8\\end{aligned}$\n$\\begin{aligned} & 2^{12} \\cdot 3^{36}\\left|(2 \\mathrm{~A})^{-1}\\right|^{16} \\\\ & 2^{12} \\cdot 3^{36} \\frac{1}{|2 \\mathrm{~A}|^{16}} \\\\ & 2^{12} \\cdot 3^{36} \\frac{1}{2^{48}|\\mathrm{~A}|^{16}} \\\\ & 2^{12} \\cdot 3^{36} \\frac{1}{2^{48} \\cdot 3^{16}} \\\\ & \\frac{3^{20}}{2^{36}}=2^{-36} \\cdot 3^{20} \\\\ & \\mathrm{~m}=-36 \\quad \\mathrm{n}=20 \\\\ & \\mathrm{~m}+2 \\mathrm{n}=4\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 96,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253f32f74d11258840f1",
+    "chapter_name": "Ellipse",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The minimum area of a triangle formed by any tangent to the ellipse $\\frac{x^2}{16}+\\frac{y^2}{81}=1$ and the co-ordinate axes is:"
+  },
+  "options": [
+    {
+      "text": "\n12\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n18\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n26\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n36",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0096_61a940f99169.png\"><br>\n\n\nLet $(h, k)$ be the point on ellipse through which tangent is passing. Equation of tangent at\n$$\n(h, k)=\\frac{x h}{16}+\\frac{y k}{81}=1\n$$\nat $y=0, x=\\frac{16}{h}$\nat $x=0, y=\\frac{81}{k}$\nArea of $\\mathrm{AOB}=\\frac{1}{2} \\times\\left(\\frac{16}{h}\\right) \\times\\left(\\frac{81}{k}\\right)=\\frac{648}{h k}$\n$$\n\\mathrm{A}^2=\\frac{(648)^2}{h^2 k^2}\n$$\n$(h, k)$ must satisfy equation of ellipse\n$$\n\\begin{aligned}\n&\\frac{h^2}{16}+\\frac{k^2}{81}=1 \\\\\n&h^2=\\frac{16}{81}\\left(81-k^2\\right)\n\\end{aligned}\n$$\n\n\nPutting value of $h^2$ in equation (1)\n$$\n\\mathrm{A}^2=\\frac{81(648)^2}{16 \\times k^2\\left(81-k^2\\right)}=\\frac{\\alpha}{81 k^2-k^4}\n$$\ndifferentiating w.r. to $k$\n\n$$\n\\begin{aligned}\n&2 \\mathrm{AA}^{\\prime}=\\alpha\\left(\\frac{-1}{81 k^2-k^4}\\right)\\left(162 k-4 k^3\\right) \\\\\n&2 \\mathrm{AA}^{\\prime}=-2 \\mathrm{~A}\\left(81 k-4 k^3\\right) \\\\\n&\\Rightarrow \\mathrm{A}^{\\prime}=-81 k-4 k^3 \\\\\n&\\text { Put } \\mathrm{A}^{\\prime}=0 \\\\\n&\\Rightarrow 162 k-4 k^3=0, k\\left(162-4 k^2\\right)=0 \\\\\n&\\Rightarrow k=0, k=\\pm \\frac{9}{\\sqrt{2}} \\\\\n&\\mathrm{~A}^{\\prime \\prime}=-\\left(81-12 k^2\\right)\n\\end{aligned}\n$$\nFor both value of k, A\" $=405>0$\nArea will be minimum for $k=\\pm \\frac{9}{\\sqrt{2}}$\n$$\n\\begin{aligned}\n&h^2=\\frac{16}{81}\\left(81-k^2\\right)=8 \\\\\n&h=\\pm 2 \\sqrt{2}\n\\end{aligned}\n$$\nArea of triangle $\\mathrm{AOB}=\\frac{648 \\times \\sqrt{2}}{2 \\sqrt{2} \\times 9}=36$\nsq unit"
+  }
+}

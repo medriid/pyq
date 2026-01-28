@@ -1,0 +1,63 @@
+{
+  "_id": "67729bee546ddd78415aaf1d",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67729a70099eafe69352f9c1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024",
+      "title": "WBJEE 2024"
+    }
+  ],
+  "question": {
+    "text": "If $x y^{\\prime}+y-e^x=0, y(a)=b$, then $\\lim _{x \\rightarrow 1} y(x)$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "q17pV",
+      "text": "$e+2 a b-e^a$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "P0bpQ",
+      "text": "$e^2+a b-e^{-a}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "dnWWa",
+      "text": "$e-a b+e^a$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "lqqz7",
+      "text": "$e+a b-e^a,\\left(y^{\\prime}=\\frac{d y}{d x}\\right)$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\text {Hint : } \\quad xy^{\\prime}+y-e^x=0 \\\\ & \\Rightarrow \\quad x \\frac{d y}{d x}+y=e^x \\\\ & \\Rightarrow \\quad x d y+y d x=e^x d x \\\\ & \\Rightarrow \\quad \\int d(x y)=\\int e^x d x \\\\ & \\Rightarrow \\quad x y=e^x+c \\\\ & \\quad y(a)=b \\Rightarrow c=a b-e^a \\\\ & \\therefore \\quad y(x)=\\frac{e^x+a b-e^a}{x} \\\\ & \\therefore \\quad \\lim _{x \\rightarrow 1} y(x)=e+a b-e^a\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67729a70099eafe69352f9c1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024",
+    "title": "WBJEE 2024"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

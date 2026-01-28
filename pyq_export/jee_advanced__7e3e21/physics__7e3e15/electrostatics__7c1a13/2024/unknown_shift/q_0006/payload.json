@@ -1,0 +1,44 @@
+{
+  "index": 6,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2024 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "6160240548aa12a5f67c1a13",
+    "chapter_name": "Electrostatics",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A small electric dipole $\\vec{p}_0$, having a moment of inertia $I$ about its center, is kept at a distance $r$ from the center of a spherical shell of radius $R$. The surface charge density $\\sigma$ is uniformly distributed on the spherical shell. The dipole is initially oriented at a small angle $\\theta$ as shown in the figure. While staying at a distance $r$, the dipole is free to rotate about its center.\n<img src=\"assets\\qt0006_eef258598ecc.png\">\nIf released from rest, then which of the following statement(s) is(are) correct?\n[ $\\varepsilon_0$ is the permittivity of free space.]"
+  },
+  "options": [
+    {
+      "text": "The dipole will undergo small oscillations at any finite value of $r$.",
+      "is_correct": false
+    },
+    {
+      "text": "The dipole will undergo small oscillations at any finite value of $r>R$.",
+      "is_correct": true
+    },
+    {
+      "text": "The dipole will undergo small oscillations with an angular frequency of $\\sqrt{\\frac{2 \\sigma p_0}{\\epsilon_0 I}}$ at $r=2 R$.",
+      "is_correct": false
+    },
+    {
+      "text": "The dipole will undergo small oscillations with an angular frequency of $\\sqrt{\\frac{\\sigma p_0}{100 \\epsilon_0 I}}$ at $r=10 R$.",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "D"
+  ],
+  "solution": {
+    "text": "<img src=\"images/dfe7ry346r3rsjhd_34dc.png\">\r\n\\(\\begin{aligned}\r\n& \\tau=|\\vec{p} \\times \\vec{E}| \\\\\r\n& I \\alpha=p_0 E \\sin \\theta \\\\\r\n& \\alpha=\\frac{p \\cdot \\theta}{I}\\left(\\frac{1}{4 \\pi \\varepsilon_0} \\frac{\\sigma 4 \\pi R^2}{r^2}\\right) \\\\\r\n& \\alpha=\\left(\\frac{p 0 \\sigma R^2}{I \\varepsilon_0 r^2}\\right) \\cdot \\theta \\\\\r\n& \\therefore \\omega=\\sqrt{\\frac{p 0 \\sigma R^2}{I \\varepsilon_0 r^2}}\r\n\\end{aligned}\\)\r\nFor \\(r=2 R\\)\r\n\\(\\omega=\\sqrt{\\frac{p_0 \\sigma}{4 / \\varepsilon_0}} \\quad(\\mathrm{C}\\) is incorrect \\()\\)\r\nAlso, for \\(r=10 R\\)\r\n\\(\\omega=\\sqrt{\\frac{p_0 \\sigma}{4 l(100)}}\\) (D is correct)\r\nIt will oscillate for any finite value of \\(r>R\\). (B is correct)"
+  }
+}

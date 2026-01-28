@@ -1,0 +1,43 @@
+{
+  "index": 42,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2009",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ccd1d619927718b113a",
+    "chapter_name": "Permutation Combination",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The sum of the infinite series $1+\\frac{1}{2 !}+\\frac{1.3}{4 !}+\\frac{1.3 .5}{6 !}+\\ldots \\ldots$. is"
+  },
+  "options": [
+    {
+      "text": "$e$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{e}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{e}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hints : $\\mathrm{T}_{\\mathrm{n}}=\\frac{1.3 .5 \\ldots(2 n-1)}{\\mid 2 n}$\n\n\n\n\n$$\n\\begin{aligned}\n& =\\frac{\\mid 2 n}{\\lfloor 2 n(2.4 \\ldots 2 n)} \\\\\n& =\\frac{\\lfloor 2 n}{2^{\\mathrm{n}}\\lfloor n \\mid 2 n} \\\\\n& =\\frac{x^{\\mathrm{n}}}{\\lfloor n} \\\\\n& \\therefore \\frac{x}{\\lfloor 1}+\\frac{x^2}{\\lfloor 2}+\\ldots=e^x-1 \\quad \\frac{1}{2}=x \\\\\n& \\exp =1+e^x-1=e^x=e^{1 / 2}\n\\end{aligned}\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd8ccf6aa19875bc6bb",
+    "chapter_name": "Binomial Theorem",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$$\r\n\\text { If }(2 \\leq r \\leq n), \\text { then }{ }^{n} C_{r}+2 \\cdot{ }^{n} C_{r+1}+{ }^{n} C_{r+2} \\text { is }\r\n$$\r\nequal to"
+  },
+  "options": [
+    {
+      "text": "$2 \\cdot{ }^{n} C_{r+7}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\"^{-1} C_{r+1}$",
+      "is_correct": false
+    },
+    {
+      "text": "${ }^{n+2} C_{r+2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$^{n+1} C_{r}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "${ }^{n} C_{r}+2 \\cdot{ }^{n} C_{r+1}+{ }^{n} C_{r+2}$\r\n$={ }^{n} C_{r}+{ }^{n} C_{r+1}+{ }^{n} C_{r+1}+{ }^{n} C_{r+2}$\r\n$={ }^{n+1} C_{r+1}+{ }^{n+1} C_{r+2}$\r\n$\\quad\\left(\\because{ }^{n} C_{r}+{ }^{n} C_{r+1}={ }^{n+1} C_{r+1}\\right)$\r\n$={ }^{n+2} C_{r+2}$"
+  }
+}

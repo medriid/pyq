@@ -1,0 +1,63 @@
+{
+  "_id": "64b169e6f23ac7d519f9af7d",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c42",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2008-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008 (Paper 1)",
+      "title": "JEE Advanced 2008 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nConsider the functions defined implicitly by the equation $y^3-3 y+x=0$ on various intervals in the real line. If $x \\in(-\\infty,-2) \\cup(2, \\infty)$, the equation implicitly defines a unique real valued differentiable function $y=f(x)$. If $x \\in(-2,2)$, the equation implicitly defines a unique real valued differentiable function $y=g(x)$, satisfying $g(0)=0$.<strong>Question:</strong>\n$\\int_{-1}^1 g^{\\prime}(x) d x$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "49tLc",
+      "text": "\n$2 g(-1)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "61SLY",
+      "text": "\n0\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "EFbiz",
+      "text": "\n$-2 g(1)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "V7AbW",
+      "text": "\n$2 g(1)$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $I=\\int_{-1}^1 g^{\\prime}(x) d x=[g(x)]_{-1}^1=g(1)-g(-1)$\nSince, $\\quad y^3-3 y+x=0$ and $\\quad y=g(x)$\n$$\n\\therefore(g(x))^3-3 g(x)+x=0\n$$\n[by Eq. (i)]\nAt $\\quad x=1$,\n$$\n\\begin{aligned}\n(g(1))^3-3 g(1)+1 & =0 \\\\\n\\text { At } \\quad x & =-1, \\\\\n(g(-1))^3-3 g(-1)-1 & =0\n\\end{aligned}\n$$\nOn adding Eqs. (i) and (ii), we get\n$$\n\\begin{array}{rlrl} \n& & (g(1))^3+(g(-1))^3-3(g(1)+g(-1))=0 \\\\\n\\Rightarrow & & {[g(1)+g(-1)]\\left[(g(1))^2+(g(-1))^2-g(1) g(-1)-3\\right]=0} \\\\\n\\Rightarrow & g(1)+g(-1)=0 \\\\\n\\Rightarrow & g(1) & =-g(-1) \\\\\n& \\therefore & I & =g(1)-g(-1)=g(1)-(-g(1))=2 g(1)\n\\end{array}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c42",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2008-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008 (Paper 1)",
+    "title": "JEE Advanced 2008 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

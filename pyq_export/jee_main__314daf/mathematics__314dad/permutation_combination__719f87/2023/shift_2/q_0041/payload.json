@@ -1,0 +1,43 @@
+{
+  "index": 41,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2023 (13 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2023",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "All words, with or without meaning, are made using all the letters of the word <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mi>O</mi><mi>N</mi><mi>D</mi><mi>A</mi><mi>Y</mi></math>. These words are written as in a dictionary with serial numbers. The serial number of the word <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mi>O</mi><mi>N</mi><mi>D</mi><mi>A</mi><mi>Y</mi></math> is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>327</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>328</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>324</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>326</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<blockquote><p>The given word is MONDAY</p><p>Arranging the letters alphabetically, we get</p><p>ADMNOY</p><p>When the word starts with any of the letters A/D, the number of possibilities<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>5</mn><mo>!</mo><mo>&#215;</mo><mn>2</mn><mo>=</mo><mn>240</mn></math></p><p>Now when the word starts with MA, then the number of possibilities<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mo>!</mo><mo>=</mo><mn>24</mn></math></p><p>Now when the word starts with MD, then the number of possibilities&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mo>!</mo><mo>=</mo><mn>24</mn></math></p><p>Now when the word starts with MN, then the number of possibilities&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mo>!</mo><mo>=</mo><mn>24</mn></math></p><p>Now when the word starts with&nbsp;MOA, then the number of possibilities<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>3</mn><mo>!</mo><mo>=</mo><mn>6</mn></math></p><p>Now when the word starts with MOD, then the number of possibilities&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>3</mn><mo>!</mo><mo>=</mo><mn>6</mn></math></p><p>Now when the word starts with MONA, then the number of possibilities&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2</mn><mo>!</mo><mo>=</mo><mn>2</mn></math></p><p>Now when the word starts with MONDAY, then the number of possibilities<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn></math></p><p>Rank&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>240</mn><mo>+</mo><mn>24</mn><mo>&#215;</mo><mn>3</mn><mo>+</mo><mn>6</mn><mo>&#215;</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>327</mn></math></p><p>Hence, rank of the word&nbsp;MONDAY is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>327</mn></math>.</p><p><strong>SHORTCUT METHOD</strong></p><p>Another method is a shortcut, first number the alphabet and then check how many number are there on right hand side less that number and then start number in factorial in decreasing order and then multiply and add them and in last add one to find rank,&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable><mtr><mtd><mn>3</mn></mtd><mtd><mn>5</mn></mtd><mtd><mn>4</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>6</mn></mtd></mtr><mtr><mtd><mi>M</mi></mtd><mtd><mi>O</mi></mtd><mtd><mi>N</mi></mtd><mtd><mi>D</mi></mtd><mtd><mi>A</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>2</mn></mtd><mtd><mn>3</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>5</mn><mo>!</mo></mtd><mtd><mn>4</mn><mo>!</mo></mtd><mtd><mn>3</mn><mo>!</mo></mtd><mtd><mn>2</mn><mo>!</mo></mtd><mtd><mn>1</mn><mo>!</mo></mtd><mtd><mn>0</mn><mo>!</mo></mtd></mtr></mtable></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo></math>&nbsp;Rank&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mn>2</mn><mo>&#215;</mo><mn>5</mn><mo>!</mo><mo>+</mo><mn>3</mn><mo>&#215;</mo><mn>4</mn><mo>!</mo><mo>+</mo><mn>2</mn><mo>&#215;</mo><mn>3</mn><mo>!</mo><mo>+</mo><mn>1</mn><mo>&#215;</mo><mn>2</mn><mo>!</mo><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>240</mn><mo>+</mo><mn>72</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>327</mn></math></p></blockquote>"
+  }
+}

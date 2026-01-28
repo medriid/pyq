@@ -1,0 +1,61 @@
+{
+  "_id": "6151e8630079fd4c6d6cdd01",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "42",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "The value of the integral&nbsp;<math><mrow><mo stretchy=\"false\">&#8747;</mo><mrow><msup><mrow><mi>e</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow></msup><mfenced separators=\"|\"><mrow><mn>2</mn><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac><mo>+</mo><mn>1</mn></mrow></mfenced><mi>d</mi><mi>x</mi></mrow></mrow></math>&nbsp;is equal to (where&nbsp;<math><mi>C</mi></math> is the constant of integration)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "euBGy",
+      "text": "<math><msup><mrow><mi>e</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow></msup><mo>+</mo><mi>C</mi></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ndyYw",
+      "text": "<math><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow></msup><mo>+</mo><mi>C</mi></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "KkV8N",
+      "text": "<math><mi>x</mi><mi mathvariant=\"normal\"></mi><msup><mrow><mi>e</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow></msup><mo>+</mo><mi>C</mi></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "N2kse",
+      "text": "<math><mi>x</mi><mo>⋅</mo><mi mathvariant=\"normal\"></mi><msup><mrow><mi>e</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></msup><mo>+</mo><mi>C</mi></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">&#921;</mi><mo>=</mo><mo>&#8747;</mo><munder><munder><msup><mi>e</mi><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></msup><mo>&#9183;</mo></munder><mi mathvariant=\"normal\">&#921;</mi></munder><mo>&#8901;</mo><munder><munder><mn>1</mn><mo>&#9183;</mo></munder><mrow><mi mathvariant=\"normal\">&#921;</mi><mi mathvariant=\"normal\">&#921;</mi></mrow></munder><mi>d</mi><mi>x</mi><mo>+</mo><mo>&#8747;</mo><msup><mi>e</mi><mfenced separators=\"|\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></mfenced></msup><mfenced separators=\"|\"><mrow><mn>2</mn><mi>x</mi><mo>-</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mo>&#8901;</mo><mi>x</mi><mi>d</mi><mi>x</mi></math><br />Using integration by parts, we get,&nbsp;<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">&#921;</mi><mo>=</mo><msup><mi>e</mi><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></msup><mo>&#183;</mo><mi>x</mi><mo>-</mo><menclose notation=\"updiagonalstrike\"><mo>&#8747;</mo><msup><mi>e</mi><mfenced separators=\"|\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></mfenced></msup><mfenced separators=\"|\"><mrow><mn>2</mn><mi>x</mi><mo>-</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mo>&#8901;</mo><mi>x</mi><mi>d</mi><mi>x</mi></menclose><mo>+</mo><menclose notation=\"updiagonalstrike\"><mo>&#8747;</mo><msup><mi>e</mi><mfenced separators=\"|\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></mfenced></msup><mfenced separators=\"|\"><mrow><mn>2</mn><mi>x</mi><mo>-</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mo>&#8901;</mo><mi>x</mi><mi>d</mi><mi>x</mi></menclose></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>x</mi><msup><mi>e</mi><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></msup><mo>+</mo><mi>C</mi></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

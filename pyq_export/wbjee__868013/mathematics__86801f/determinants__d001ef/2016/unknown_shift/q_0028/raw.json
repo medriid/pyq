@@ -1,0 +1,63 @@
+{
+  "_id": "64a81421e0ff5a5425a858c5",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7b",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2016-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2016",
+      "title": "WBJEE 2016"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "If $x, y$ and $z$ are greater than 1 , then the value of $\\left|\\begin{array}{ccc}1 & \\log _{x} y & \\log _{x} z \\\\ \\log _{y} x & 1 & \\log _{y} z \\\\ \\log _{z} x & \\log _{z} y & 1\\end{array}\\right|$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "lsPAH",
+      "text": "$\\log x \\cdot \\log y \\cdot \\log z$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "FPuOg",
+      "text": "$\\log x+\\log y+\\log z$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "9GuFD",
+      "text": "0",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "mr5Qr",
+      "text": "$1-\\{(\\log x) \\cdot(\\log y) \\cdot(\\log z)\\}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $\\Delta=\\left|\\begin{array}{ccc}1 & \\log _{x}y & \\log _{x} z \\\\ \\log _{y} x & 1 & \\log _{y} z \\\\ \\log _{z} x & \\log _{z} y & 1\\end{array}\\right|$\r\n$=\\left|\\begin{array}{lll}\\frac{\\log x}{\\log x} & \\frac{\\log y}{\\log x} & \\frac{\\log z}{\\log x} \\\\ \\frac{\\log x}{\\log y} & \\frac{\\log y}{\\log y} & \\frac{\\log z}{\\log y} \\\\ \\frac{\\log x}{\\log z} & \\frac{\\log y}{\\log z} & \\frac{\\log 2}{\\log z}\\end{array}\\right|$\r\nOn taking $\\frac{1}{\\log x} \\frac{1}{\\log y} \\frac{1}{\\log z}$ common from $R_{1}, R_{2}$ and $R_{3}$\r\nwe got\r\n$$\r\n=\\frac{1}{\\log x \\cdot \\log y \\cdot \\log z}\\left|\\begin{array}{lll}\r\n\\log x & \\log y & \\log z \\\\\r\n\\log x & \\log y & \\log z \\\\\r\n\\log x & \\log y & \\log z\r\n\\end{array}\\right|\r\n$$\r\n$\\therefore \\Delta=0$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7b",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2016-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2016",
+    "title": "WBJEE 2016"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

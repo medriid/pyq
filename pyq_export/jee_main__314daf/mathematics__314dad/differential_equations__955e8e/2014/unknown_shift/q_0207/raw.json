@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e6b",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d9",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (12 Apr Online)",
+      "title": "JEE Main 2014 (12 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "The general solution of the differential equation, $\\sin 2 x\\left(\\frac{d y}{d x}-\\sqrt{\\tan x}\\right)-y=0$, is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "QfqvU",
+      "text": "\n$y \\sqrt{\\tan x}=x+c$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "xlHsH",
+      "text": "\n$y \\sqrt{\\cot x}=\\tan x+c$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "dBuO6",
+      "text": "\n$y \\sqrt{\\tan x}=\\cot x+c$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "eV8OB",
+      "text": "\n$y \\sqrt{\\cot x}=x+c$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $\\sin 2 x\\left(\\frac{d y}{d x}-\\sqrt{\\tan x}\\right)-y=0$ or, $\\frac{d y}{d x}=\\frac{y}{\\sin 2 x}+\\sqrt{\\tan x}$ or, $\\frac{d y}{d x}-y \\operatorname{cosec} 2 x=\\sqrt{\\tan x}$\nNow, integrating factor (I.F) $=e^{\\int-\\operatorname{cosec} 2 x}$ or, I.F $=e^{-\\frac{1}{2} \\log |\\tan x|}=e^{\\log (\\sqrt{\\tan x})^{-1}}$ $=\\frac{1}{\\sqrt{\\tan x}}=\\sqrt{\\cot x}$\nNow, general solution of eq. (1) is written as\n$$\n\\begin{aligned}\n&\\text { y (I. F.) }=\\int \\mathrm{Q}(\\text { I.F.) } d x+c \\\\\n&\\therefore y \\sqrt{\\cot x}=\\int \\sqrt{\\tan x} \\cdot \\sqrt{\\cot x} d x+c \\\\\n&\\therefore y \\sqrt{\\cot x}=\\int 1 . d x+c\n\\end{aligned}\n$$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/dXdl7fCMq5T1A8wnNuKIHujN-I3iGV7MzmHzzcN4FY8.original.fullsize.png\"><br>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d9",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (12 Apr Online)",
+    "title": "JEE Main 2014 (12 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

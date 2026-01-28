@@ -1,0 +1,58 @@
+{
+  "_id": "648b5a70417cc3fb48d6859c",
+  "type": "numerical",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "648b5a3a0d9d0b909f7b6492",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2023-04-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (11 Apr Shift 1)",
+      "title": "JEE Main 2023 (11 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "The number of ordered triplets of the truth values of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>,</mo><mi>q</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> such that the truth value of the statement <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>p</mi><mo>&#8744;</mo><mi>q</mi></mrow></mfenced><mo>&#8743;</mo><mfenced><mrow><mi>p</mi><mo>&#8744;</mo><mi>r</mi></mrow></mfenced><mo>&#8658;</mo><mfenced><mrow><mi>q</mi><mo>&#8744;</mo><mi>r</mi></mrow></mfenced></math> is True, is equal to",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "7",
+  "solution": {
+    "text": "<p>Given,</p><p>Expression&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>p</mi><mo>&#8744;</mo><mi>q</mi></mrow></mfenced><mo>&#8743;</mo><mfenced><mrow><mi>p</mi><mo>&#8744;</mo><mi>r</mi></mrow></mfenced><mo>&#8658;</mo><mfenced><mrow><mi>q</mi><mo>&#8744;</mo><mi>r</mi></mrow></mfenced></math></p><p>Now by truth table we get,</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\t<tbody>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>&#8744;</mo><mi>q</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>&#8744;</mo><mi>r</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>p</mi><mo>&#8744;</mo><mi>q</mi></mrow></mfenced><mo>&#8743;</mo><mfenced><mrow><mi>p</mi><mo>&#8744;</mo><mi>r</mi></mrow></mfenced></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>&#8744;</mo><mi>r</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>p</mi><mo>&#8744;</mo><mi>q</mi></mrow></mfenced><mo>&#8743;</mo><mfenced><mrow><mi>q</mi><mo>&#8744;</mo><mi>r</mi></mrow></mfenced><mo>&#8658;</mo><mfenced><mrow><mi>q</mi><mo>&#8744;</mo><mi>r</mi></mrow></mfenced></math></td>\t\t</tr>\t\t<tr>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t</tr>\t\t<tr>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>F</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t</tr>\t\t<tr>\t\t\t<td>T</td>\t\t\t<td>F</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t</tr>\t\t<tr>\t\t\t<td>T</td>\t\t\t<td>F</td>\t\t\t<td>F</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>F</td>\t\t\t<td>F</td>\t\t</tr>\t\t<tr>\t\t\t<td>F</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t</tr>\t\t<tr>\t\t\t<td>F</td>\t\t\t<td>T</td>\t\t\t<td>F</td>\t\t\t<td>T</td>\t\t\t<td>F</td>\t\t\t<td>F</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t</tr>\t\t<tr>\t\t\t<td>F</td>\t\t\t<td>F</td>\t\t\t<td>T</td>\t\t\t<td>F</td>\t\t\t<td>T</td>\t\t\t<td>F</td>\t\t\t<td>T</td>\t\t\t<td>T</td>\t\t</tr>\t\t<tr>\t\t\t<td>F</td>\t\t\t<td>F</td>\t\t\t<td>F</td>\t\t\t<td>F</td>\t\t\t<td>F</td>\t\t\t<td>F</td>\t\t\t<td>F</td>\t\t\t<td>T</td>\t\t</tr>\t</tbody></table><p>Now from above truth table we can say that there are total&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>&nbsp;triplet are possible.</p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "75baf8c51f774f068f82eee9fd32ad19",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/ur3ZzhaSP4Wcx.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/ur3ZzhaSP4Wcx.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main"
+  },
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "648b5a3a0d9d0b909f7b6492",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2023-04-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (11 Apr Shift 1)",
+    "title": "JEE Main 2023 (11 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

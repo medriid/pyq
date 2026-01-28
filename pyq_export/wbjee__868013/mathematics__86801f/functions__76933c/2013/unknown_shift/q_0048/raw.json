@@ -1,0 +1,63 @@
+{
+  "_id": "64a813ede0ff5a5425a856d1",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec2",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2013-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013",
+      "title": "WBJEE 2013"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Which of the following real valued functions is/are not even functions?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "dOILv",
+      "text": "$f(x)=x^{3} \\sin x$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "7D8sg",
+      "text": "$f(x)=x^{2} \\cos x$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "GOcSM",
+      "text": "$f(x)=e^{x} x^{3} \\sin x$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "fS1qk",
+      "text": "$f(x)=x-[x]$, where $[x]$ denotes the greatest integer less than or equal to $x$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We know that, if $f(-x)=f(x)$, then function is even and $f(-x)=-f(x)$, then function is odd.\r\n(a) $f(x)=x^{3} \\sin x$\r\n$$\r\n\\begin{aligned}\r\nf(-x) &=(-x)^{3} \\sin (-x) \\\\\r\n&=-x^{3}(-\\sin x) \\\\\r\n&=x^{3} \\sin x=f(x)\r\n\\end{aligned}\r\n$$\r\nSo, $f(x)$ is even.\r\n(b) $f(x)=x^{2} \\cos x$\r\n$$\r\nf(-x)=(-x)^{2} \\cos (-x)=x^{2} \\cos x=f(x)\r\n$$\r\nSo, $f(x)$ is even.\r\n(c) $f(x)=e^{x} x^{3} \\sin x$\r\n$$\r\n\\begin{array}{r}\r\nf(-x)=e^{-x}(-x)^{3} \\sin (-x) \\\\\r\n=e^{-x} x^{3} \\sin x \\neq f(x)\r\n\\end{array}\r\n$$\r\n$\\therefore \\quad f(x)$ is not even.\r\n(d) $f(x)=x-[x]$ $f(-x)=(-x)-[-x] \\neq f(x)$\r\n$\\therefore f(x)$ is not even.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec2",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2013-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013",
+    "title": "WBJEE 2013"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

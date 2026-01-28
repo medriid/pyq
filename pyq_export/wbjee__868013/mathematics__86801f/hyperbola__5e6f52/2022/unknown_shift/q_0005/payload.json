@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cee2d473b92265e6f52",
+    "chapter_name": "Hyperbola",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathrm{P}(3 \\sec \\theta, 2 \\tan \\theta) \\mathrm{Q}(3 \\sec \\phi, 2 \\tan \\phi)$ be two points on $\\frac{\\mathrm{x}^2}{9}-\\frac{\\mathrm{y}^2}{4}=1$ such that $\\theta+\\phi=\\frac{\\pi}{2} .0 < \\theta, \\phi < \\frac{\\pi}{2}$. Then the ordinate of the point of intersection of the normals at $P$ and $Q$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{13}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{13}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{5}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{5}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\frac{a^2 x}{x_1}+\\frac{b^2 y}{y_1}=a^2+b^2, P(3 \\sec \\theta, 2 \\tan \\theta) \\\\ \\therefore & \\frac{9 x}{3 \\sec \\theta}+\\frac{4 y}{2 \\tan \\theta}=9+4=13 \\\\ \\Rightarrow & 3 x \\cos \\theta+2 y \\cot \\theta=13 \\end{aligned}$\nSimilarly, $3 x \\cos \\phi+2 y \\cot \\phi=13$\n$3 x \\cos \\left(\\frac{\\pi}{2}-\\theta\\right)+2 y \\cot \\left(\\frac{\\pi}{2}-\\theta\\right)=13$\n$\\Rightarrow 3 x \\sin \\theta+2 y \\tan \\theta=13 \\ldots \\ldots(2)$\n$\\therefore \\frac{13-2 \\mathrm{y} \\cot \\theta}{3 \\cos \\theta}=\\frac{13-2 \\mathrm{y} \\tan \\theta}{3 \\sin \\theta}$\n$\\Rightarrow 13 \\sin \\theta-2 y \\cos \\theta=13 \\cos \\theta-2 y \\sin \\theta$\n$\\Rightarrow 13 \\tan \\theta-2 y=13-2 y \\tan \\theta$\n$\\Rightarrow 13(\\tan \\theta-1)=-2 y(\\tan \\theta-1)$\n$\\therefore \\mathrm{y}=-\\frac{13}{2}$\n$\\therefore$ Ordinate $=-\\frac{13}{2}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc9a79d891b2548bdd8",
+    "chapter_name": "Complex Number",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\cos \\theta+i \\sin \\theta, \\theta \\in \\mathbb{R}$, is the root of the equation\n$a_0 x^n+a_1 \\cdot x^{n-1}+\\ldots .+a_{n-1} x+a_n=0, a_0, a_1, \\ldots \\ldots . a_n \\in \\mathbb{R}, a_0 \\neq 0$\nthen the value of $a_1 \\sin \\theta+a_2 \\sin 2 \\theta+\\ldots .+a_n \\sin n \\theta$ is"
+  },
+  "options": [
+    {
+      "text": "2n",
+      "is_correct": false
+    },
+    {
+      "text": "n",
+      "is_correct": false
+    },
+    {
+      "text": "0",
+      "is_correct": true
+    },
+    {
+      "text": "n+1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hint: $a_0 x^n+a_1 \\cdot x^{n-1}+\\ldots .+a_{n-1} x+a_n=0$\ndivided by $x^n$\n$a_0+a_1 \\frac{1}{x}+\\ldots \\ldots+a_{n-1} \\frac{1}{x^{n-1}}+a_n \\frac{1}{x^n}=0$\nput $x=\\cos \\theta+i \\sin \\theta$ and equating imaginary part\n$a_1 \\sin \\theta+a_2 \\sin 2 \\theta+\\ldots .+a_n \\sin 2 \\theta=0$"
+  }
+}

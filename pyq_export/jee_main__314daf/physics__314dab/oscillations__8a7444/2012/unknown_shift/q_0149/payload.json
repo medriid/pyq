@@ -1,0 +1,43 @@
+{
+  "index": 149,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (Offline)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023f36324da677f8a7444",
+    "chapter_name": "Oscillations",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If a simple pendulum has significant amplitude (up to a factor of $1 / e$ of original) only in the period between $t=0s$ to $t=\\tau s$, then $\\tau$ may be called the average life of the pendulum. When the spherical bob of the pendulum suffers a retardation (due to viscous drag) proportional to its velocity, with '$b$' as the constant of proportionality, the average life time of the pendulum is (assuming damping is small) in seconds:"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{0.693}{b}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$b$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{b}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{2}{b}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0149_a012e7dd5496.png\"><br>\nAs retardation $=\\mathrm{bv}$\n$\\therefore$ retarding force $=\\mathrm{mbv}$\n$\\therefore$ net restoring torque when angular displacement is $\\theta$ is given by $=-\\operatorname{mg} \\ell \\sin \\theta+\\operatorname{mbv} \\ell$\n$\\therefore \\quad \\mathrm{I} \\alpha=-m g \\ell \\sin \\theta+\\operatorname{mbv} \\ell$\nwhere, $\\mathrm{I}=\\mathrm{m} \\ell^2$\n$\\therefore \\quad \\frac{\\mathrm{d}^2 \\theta}{\\mathrm{dt}^2}=\\alpha=-\\frac{\\mathrm{g}}{\\ell} \\sin \\theta+\\frac{\\mathrm{bv}}{\\ell}$\nfor small damping, the solution of the above differential equation will be\n$\\therefore \\quad \\theta=\\theta_0 \\mathrm{e}^{-\\frac{\\mathrm{bt}}{2}} \\sin (w t+\\phi)$\n$\\therefore \\quad$ angular amplitude will be $=\\theta . e^{\\frac{-b t}{2}}$\nAccording to question, in $\\tau$ time (average life-time),\nangular amplitude drops to $\\frac{1}{e}$ value of its original value\n$(\\theta)$\n$\\therefore \\quad \\frac{\\theta_0}{\\mathrm{e}}=\\theta_0 \\mathrm{e}^{-\\frac{6 \\tau}{2}}$\n$\\frac{6 \\tau}{2}=1$\n$\\therefore \\quad \\tau=\\frac{2}{b}$"
+  }
+}

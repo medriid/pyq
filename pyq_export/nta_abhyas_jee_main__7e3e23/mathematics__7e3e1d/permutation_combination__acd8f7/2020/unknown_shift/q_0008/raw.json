@@ -1,0 +1,36 @@
+{
+  "_id": "6151e863e6ac709dd844d199",
+  "type": "numerical",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "54",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "A straight is a five card hand containing consecutive values. If <math><mi>m</mi></math> is equal to the number of ways in which all the five cards, in a straight, are not from the same suit, then the value of&nbsp;<math><mfrac><mrow><mi>m</mi></mrow><mrow><mn>1500</mn></mrow></mfrac></math> is equal to (Consider the value of&nbsp;<math><mi>J</mi></math>&nbsp;as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mo>,</mo><mo>&nbsp;</mo><mi>Q</mi></math>&nbsp;as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>,</mo><mo>&nbsp;</mo><mi>K</mi></math>&nbsp;as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn></math>&nbsp;and&nbsp;Ace as <math><mn>14</mn></math>)",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "6.12",
+  "solution": {
+    "text": "Five consecutive cards can be chosen out of <math><mn>13</mn></math>&nbsp;cards in <math><mn>9</mn></math> ways. <math><mfenced separators=\"|\"><mrow><mn>2,3</mn><mo>,</mo><mn>4,5</mn><mo>,</mo><mn>6</mn></mrow></mfenced><mo>,</mo><mfenced separators=\"|\"><mrow><mn>3,4</mn><mo>,</mo><mn>5,6</mn><mo>,</mo><mn>7</mn></mrow></mfenced><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced separators=\"|\"><mrow><mn>10</mn><mo>,</mo><mi>J</mi><mo>,</mo><mi>Q</mi><mo>,</mo><mi>K</mi><mo>,</mo><mi>A</mi></mrow></mfenced><mo>.</mo></math> The first card can be chosen in <math><mn>4</mn></math> ways (spades, hearts, diamonds and clubs). The second and the subsequent cards, too, can be chosen in <math><mn>4</mn></math> ways.<br />Thus, there are <math><msup><mrow><mn>4</mn></mrow><mrow><mn>5</mn></mrow></msup></math> ways to choose the five cards.<br />The number of ways in which all the five cards are not from the same suit is <math><msup><mrow><mn>4</mn></mrow><mrow><mn>5</mn></mrow></msup><mo>-</mo><mn>4</mn><mo>=</mo><mn>1020</mn><mo>.</mo></math><br />So, the number of straights in this case is <math><mi>m</mi><mo>=</mo><mn>9</mn><mo>×</mo><mn>1020</mn><mo>⇒</mo><mfrac><mrow><mi>m</mi></mrow><mrow><mn>1500</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>9</mn><mo>×</mo><mn>102</mn><menclose notation=\"updiagonalstrike\"><mn>0</mn></menclose></mrow><mrow><mn>150</mn><menclose notation=\"updiagonalstrike\"><mn>0</mn></menclose></mrow></mfrac><mo>=</mo><mn>6.12</mn></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

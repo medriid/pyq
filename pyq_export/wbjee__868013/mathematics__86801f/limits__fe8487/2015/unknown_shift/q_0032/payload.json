@@ -1,0 +1,43 @@
+{
+  "index": 32,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $\\lim _{x \\rightarrow 2} \\int_{2}^{x} \\frac{3 t^{2}}{(x-2)} d t$ is"
+  },
+  "options": [
+    {
+      "text": "10",
+      "is_correct": false
+    },
+    {
+      "text": "12",
+      "is_correct": true
+    },
+    {
+      "text": "8",
+      "is_correct": false
+    },
+    {
+      "text": "16",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow 2} \\int_{2}^{x} \\frac{3 t^{2}}{(x-2)}$ dt $=\\frac{\\lim _{x \\rightarrow 2} \\int_{2}^{x} 3 t^{2} d t}{\\lim _{x \\rightarrow 2}(x-2)}$\r\n$=\\frac{\\lim _{x \\rightarrow 2} 3 x^{2}}{1} \\quad$ [using L' Hospital's nule]\r\n$=3 \\times(2)^{2}=12$"
+  }
+}

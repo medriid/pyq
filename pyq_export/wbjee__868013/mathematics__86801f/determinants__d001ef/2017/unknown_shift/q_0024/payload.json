@@ -1,0 +1,43 @@
+{
+  "index": 24,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0a7e939ac068d001ef",
+    "chapter_name": "Determinants",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $a, b, c$ be such that $b(a+c) \\times 0$\r\nIf $\\left|\\begin{array}{ccc}a & a+1 & a-1 \\\\ -b & b+1 & b-1 \\\\ c & c-1 & c+1\\end{array}\\right|$\r\n$+\\left|\\begin{array}{ccc}a+1 & b+1 & c-1 \\\\ a-1 & b-1 & c+1 \\\\ (-1)^{n+2} a & (-1)^{n+1} b & (-1)^{n} c\\end{array}\\right|=0$\r\nthen the value of $n$ is"
+  },
+  "options": [
+    {
+      "text": "any integer",
+      "is_correct": false
+    },
+    {
+      "text": "zero",
+      "is_correct": false
+    },
+    {
+      "text": "any even integer",
+      "is_correct": false
+    },
+    {
+      "text": "any odd integer",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "We have,\r\n$\\left|\\begin{array}{ccc}a & a+1 & a-1 \\\\ -b & b+1 & b-1 \\\\ c & c-1 & c+1\\end{array}\\right|$ + $\\left|\\begin{array}{ccc}a+1 & b+1 & c-1 \\\\ a-1 & b-1 & c+1 \\\\ (-1)^{n+2} a & (-1)^{n+1} b & (-1)^{n} c\\end{array}\\right|=0$\r\n$\\Rightarrow\\left|\\begin{array}{ccc}a & a+1 & a-1 \\\\ -b & b+1 & b-1 \\\\ c & c-1 & c+1\\end{array}\\right|$ $+\\left|\\begin{array}{ccc}a+1 & a-1 & (-1)^{n+2} a \\\\ b+1 & b-1 & (-1)^{n+1} b \\\\ c-1 & c+1 & (-1)^{n} c\\end{array}\\right|=0$\r\n$\\Rightarrow\\left|\\begin{array}{ccc}a & a+1 & a-1 \\\\ -b & b+1 & b-1 \\\\ c & c-1 & c+1\\end{array}\\right|$$+\\left|\\begin{array}{ccc}(-1)^{n+2} a & a+1 & a-1 \\\\ (-1)^{n+1} b & b+1 & b-1 \\\\ (-1)^{n} c & c-1 & c+1\\end{array}\\right|=0$\r\n$\\Rightarrow\\left|\\begin{array}{ccc}a\\left(1+(-1)^{n+2}\\right) & a+1 & a-1 \\\\ b\\left(-1+(-1)^{n+1}\\right) & b+1 & b-1 \\\\ c\\left(1+(-1)^{n}\\right) & c-1 & c+1\\end{array}\\right|=0$\r\n$\\therefore n$ is any odd integer."
+  }
+}

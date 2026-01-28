@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc9a79d891b2548bdd8",
+    "chapter_name": "Complex Number",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $z_1$ and $z_2$ be two roots of the equation $z^2+a z+b=0, a^2 \\lt 4 b$, then the origin, $z_1$ and $z_2$ form an equilateral triangle if"
+  },
+  "options": [
+    {
+      "text": "$a^2=3 b^2$",
+      "is_correct": false
+    },
+    {
+      "text": "$a^2=3 b$",
+      "is_correct": true
+    },
+    {
+      "text": "$b^2=3 a$",
+      "is_correct": false
+    },
+    {
+      "text": "$b^2=3 a^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Hint: Here, $z_1+z_2=-a$ and $z_1 z_2=b$\n<img src=\"assets\\st0004_aecb2866e045.png\"/>\n$z_2=z_1 e^{i \\pi / 3}=z_1\\left(\\cos \\frac{\\pi}{3}+i \\sin \\frac{\\pi}{3}\\right)=z_1\\left(\\frac{1}{2}+i \\cdot \\frac{\\sqrt{3}}{2}\\right)$\n$\\begin{aligned} & \\Rightarrow 2 z_2-z_1=\\sqrt{3} \\cdot i z_1 \\Rightarrow\\left(2 z_2-z_1\\right)^2=-3 z_1^2 \\Rightarrow 4 z_2^2+4 z_1^2=4 z_1 z_2 \\Rightarrow z_1^2+z_2^2=z_1 z_2 \\\\ & \\Rightarrow\\left(z_1+z_2\\right)^2-2 z_1 z_2=z_1 z_2 \\Rightarrow a^2-2 b=b \\Rightarrow a^2=3 b\\end{aligned}$"
+  }
+}

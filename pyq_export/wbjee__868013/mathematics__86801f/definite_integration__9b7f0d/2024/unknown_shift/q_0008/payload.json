@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "All values of a for which the inequality $\\frac{1}{\\sqrt{a}} \\int_1^a\\left(\\frac{3}{2} \\sqrt{x}+1-\\frac{1}{\\sqrt{x}}\\right) \\mathrm{dx} \\lt 4$ is satisfied, lie in the interval"
+  },
+  "options": [
+    {
+      "text": "(1, 2)",
+      "is_correct": false
+    },
+    {
+      "text": "(0, 3)",
+      "is_correct": false
+    },
+    {
+      "text": "(0, 4)",
+      "is_correct": true
+    },
+    {
+      "text": "(1, 4)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hint : $\\frac{1}{\\sqrt{a}} \\int_1^a\\left(\\frac{3}{2} \\sqrt{x}+1-\\frac{1}{\\sqrt{x}}\\right) \\mathrm{dx} \\lt 4$\n$\\begin{array}{ll}\n\\Rightarrow \\quad \\frac{1}{\\sqrt{a}} \\cdot\\left[\\frac{3}{2} \\cdot \\frac{x^{3 / 2}}{\\frac{3}{2}}+x-\\frac{x^{1 / 2}}{1 / 2}\\right]_1^a \\lt 4 & \\Rightarrow \\frac{1}{\\sqrt{a}}\\left(a^{3 / 2}+a-2 a^{1 / 2}-1-1+2\\right)\\gt4 \\\\\n\\Rightarrow \\quad \\frac{1}{a^{1 / 2}} \\cdot\\left(a^{3 / 2}+a-2 a^{1 / 2}\\right) \\lt 4 & \\Rightarrow a+a^{1 / 2}-2 \\lt 4 \\\\\n\\Rightarrow \\quad\\left(a^{1 / 2}\\right)^2+a^{1 / 2}-6 \\lt 0 & \\Rightarrow\\left(a^{1 / 2}+3\\right)\\left(a^{1 / 2}-2\\right) \\lt 0 \\\\\n\\text { but, } a^{1 / 2}+3 \\nless 0 \\quad \\therefore a^{1 / 2}-2 \\lt 0 \\quad \\Rightarrow a \\lt 4 \\text { and } a\\gt0 \\quad \\therefore a \\in(0,4)\n\\end{array}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 41,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2020",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\phi(x)=f(x)+f(1-x)$ and $f^{\\prime \\prime}(x)    < 0$ in $[0,1]$, then"
+  },
+  "options": [
+    {
+      "text": "$\\phi$ is monotonic increasing in $\\left[0, \\frac{1}{2}\\right]$ and monotonic decrasing in $\\left[\\frac{1}{2}, 1\\right]$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\phi$ is monotonic increasing in $\\left[\\frac{1}{2}, 1\\right]$ and monotonic decrasing in $\\left[0, \\frac{1}{2}\\right]$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\phi$ is neither increasing nor decreasing in any sub interval of $[0,1]$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\phi$ is increasing $[0,1]$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Hint:\r\n$\\phi^{\\prime}(x)=f^{\\prime}(x)-f^{\\prime}(1-x)$\r\n$f^{\\prime}(x)-f^{\\prime}(1-x) \\geq 0$ (for monotonic increasing)\r\n$f^{\\prime}(x) \\geq f^{\\prime}(1-x), x \\leq 1-x\\left(\\because f^{\\prime}(x)\\right.$ is decreasing)\r\n$\\mathrm{x} \\leq \\frac{1}{2} \\Rightarrow \\phi(\\mathrm{x})$ is monotonic increasing in $\\left[0, \\frac{1}{2}\\right]$ and monotonic decreasing in $\\left[\\frac{1}{2}, 1\\right]$"
+  }
+}

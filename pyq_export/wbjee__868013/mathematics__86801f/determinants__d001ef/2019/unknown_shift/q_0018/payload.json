@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0a7e939ac068d001ef",
+    "chapter_name": "Determinants",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The system of equations $$ \\begin{array}{l} \\lambda x+y+3 z=0 \\\\ 2 x+\\mu y-z=0 \\\\ 5 x+7 y+z=0 \\end{array} $$ has infinitely many solutions in $R$. Then,"
+  },
+  "options": [
+    {
+      "text": "$\\lambda=2, \\mu=3$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\lambda=1, \\mu=2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\lambda=1, \\mu=3$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\lambda=3, \\mu=1$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given, system of equations\r\n$$\r\n\\begin{array}{l}\r\n\\lambda x+y+3 z=0 \\\\\r\n2 x+\\mu y-z=0 \\\\\r\n5 x+7 y+z=0\r\n\\end{array}\r\n$$\r\nSystem has infinitely many solutions in $R$, if\r\n$$\r\n\\left|\\begin{array}{ccc}\r\n\\lambda & 1 & 3 \\\\\r\n2 & \\mu & -1 \\\\\r\n5 & 7 & 1\r\n\\end{array}\\right|=0\r\n$$\r\n$\\Rightarrow \\quad \\lambda(\\mu+7)-1(2+5)+3(14-5 \\mu)=0$\r\n$\\Rightarrow \\quad \\lambda(\\mu+7)-7+3(14-5 \\mu)=0$\r\n$\\Rightarrow \\quad \\lambda \\mu+7 \\lambda-7+42-15 \\mu=0$\r\n$\\Rightarrow \\quad \\lambda \\mu+7 \\lambda-15 \\mu+35=0$\r\nBy checking the options, we get option (c) $(\\lambda=1, \\mu=3)$ satisfies the given equation."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64a813d6e0ff5a5425a855fb",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012",
+      "title": "WBJEE 2012"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The value of the integral $\\int_{0}^{\\pi / 4} \\frac{\\sin x+\\cos x}{3+\\sin 2 x} d x$\r\nis equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Xt7GZ",
+      "text": "$\\log _{e} 2$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "IF04Y",
+      "text": "$\\log _{e} 3$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "xkbl5",
+      "text": "$\\frac{1}{4} \\log _{e} 2$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "9Hgl6",
+      "text": "$\\frac{1}{4} \\log _{e} 3$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $I=\\int_{0}^{\\pi / 4} \\frac{\\sin x+\\cos x}{3+\\sin 2 x} d x$\r\n$=\\int_{0}^{\\pi / 4} \\frac{\\sin x+\\cos x}{3+2 \\sin x \\cos x} d x$\r\n$=\\int_{0}^{\\pi / 4}-\\frac{\\sin x+\\cos x}{(\\sin x-\\cos x)^{2}-4} d x$\r\nPut $\\sin x-\\cos x=t$\r\n$\\Rightarrow \\quad(\\cos x+\\sin x) d x=d t$\r\nwhen $x=0 \\Rightarrow t=-1$\r\nand $x=\\frac{\\pi}{4} \\Rightarrow t=0$\r\n$\\therefore$ Eq. (i) becomes, $I=-\\int_{-1}^{0} \\frac{d t}{t^{2}-4}=-\\left.\\frac{1}{4}\\left[\\log \\mid \\frac{t-2}{t+2}\\right]\\right|_{-1} ^{0}$\r\n$=-\\frac{1}{4}(\\log 1-\\log 3)$\r\n$=-\\frac{1}{4}(0-\\log 3)=\\frac{1}{4} \\log 3$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012",
+    "title": "WBJEE 2012"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

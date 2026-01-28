@@ -1,0 +1,63 @@
+{
+  "_id": "64a81414e0ff5a5425a85845",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec4",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "WBJEE 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $f(x)$ denotes the fractional part of a real number $x$. Then, the value of $\\int_{0}^{\\sqrt{3}} f\\left(x^{2}\\right) d x$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "s3ZCi",
+      "text": "$2 \\sqrt{3}-\\sqrt{2}-1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "cSQHC",
+      "text": "0",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "5psqh",
+      "text": "$\\sqrt{2}-\\sqrt{3}+1$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "FUFRE",
+      "text": "$\\sqrt{3}-\\sqrt{2}+1$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $I=\\int_{0}^{\\sqrt{3}} f\\left(x^{2}\\right) d x=\\int_{0}^{\\sqrt{3}}\\left\\{x^{2}\\right\\} d x$\r\n$\\left.=\\int_{0}^{\\sqrt{3}}\\left(x^{2}-\\mid x^{2}\\right)\\right) d x$\r\n$=\\int_{0}^{\\sqrt{3}} x^{2} d x-\\int_{0}^{\\sqrt{3}}\\left|x^{2}\\right| d x$\r\n$=\\left[\\frac{x^{3}}{3}\\right]_{0}^{\\sqrt{3}}-1 \\int_{0}^{1}\\left|x^{2}\\right| d x+\\int_{1}^{\\sqrt{2}}\\left|x^{2}\\right| d x+\\int_{\\sqrt{2}}\\left|x^{2}\\right| d x \\mid$\r\n$=\\sqrt{3}-\\left[\\int_{0}^{1} 0 d x+\\int_{1}^{\\sqrt{2}} 1 d x+\\int_{\\sqrt{2}}^{\\sqrt{3}} 2 d x\\right]$\r\n$=\\sqrt{3}-\\left\\{0+|x|_{i}^{\\sqrt{2}}+|2 x| \\sqrt{2}\\right\\}$\r\n$=\\sqrt{3}-\\sqrt{2}+1-2 \\sqrt{3}+2 \\sqrt{2}$\r\n$=\\sqrt{2}-\\sqrt{3}+1$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec4",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "WBJEE 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

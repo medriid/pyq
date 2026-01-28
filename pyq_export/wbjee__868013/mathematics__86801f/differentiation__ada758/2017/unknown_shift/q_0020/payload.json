@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $F(x)=e^{x}, G(x)=e^{-x}$ and $H(x)=G(F(x)),$ where $x$ is a real variable. Then, $\\frac{d H}{d x}$ at $x=0$ is"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "-1",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{1}{e}$",
+      "is_correct": true
+    },
+    {
+      "text": "$-e$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have, $F(x)=e^{x}, G(x)=e^{-x}$ $\\therefore \\quad\r\nH(x)=G(F(x))$ $\\begin{aligned} &=G\\left(e^{x}\\right) \\\\ &=e^{-e^{x}} \\\\ \\frac{d H}{d x} &=e^{-e^{x}} \\cdot\\left(-e^{x}\\right) \\\\ &=-e^{x} e^{-e^{x}} \\end{aligned}$\r\n$\\left.\\therefore \\quad \\frac{d H}{d x}\\right|_{x=0}=-e^{0} \\cdot e^{-e^{0}}$\r\n$=-1 . e^{-1}$\r\n$=-e^{-1}$\r\n$=\\frac{-1}{e}$"
+  }
+}

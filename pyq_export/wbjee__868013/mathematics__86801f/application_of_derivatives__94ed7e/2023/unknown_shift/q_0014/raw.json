@@ -1,0 +1,63 @@
+{
+  "_id": "64a81499e0ff5a5425a85d27",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad6",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2023-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023",
+      "title": "WBJEE 2023"
+    }
+  ],
+  "question": {
+    "text": "Given \\(f(x)=e^{\\sin x}+e^{\\cos x}\\). The global maximum value of \\(f(x)\\)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Tzycq",
+      "text": "does not exist",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "c8tOn",
+      "text": "exists at a point in \\(\\left(0, \\frac{\\pi}{2}\\right)\\) and its value is \\(2 e^{\\frac{1}{\\sqrt{2}}}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "L42Ct",
+      "text": "exists at infinitely many points",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "1jxbr",
+      "text": "exists at \\(x=0\\) only",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint : \\(f(x)=e^{\\sin x}+e^{\\cos x}\\)\n\\(f^{\\prime}(x)=0\\)\n\\(\\begin{aligned}\n& \\Rightarrow e^{\\sin x} \\cdot \\cos x+e^{\\cos x}(-\\sin x)=0 \\\\\n& \\Rightarrow e^{\\sin x-\\cos x}=\\tan x\n\\end{aligned}\\)\n\\(\\mathrm{x}=\\pi / 4\\) or in general \\(\\mathrm{x}=\\mathrm{n} \\pi+\\frac{\\pi}{4}\\)\nNow, \\(f^{\\prime \\prime}(x)  < 0\\) at \\(x=\\pi / 4\\) or \\(x=n \\pi+\\pi / 4\\)\nSo, Global maximum exists at infinitely many points",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad6",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2023-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023",
+    "title": "WBJEE 2023"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c82a7939c5791425117",
+    "chapter_name": "Thermodynamics",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$A$ heating element of resistance $r$ is fitted inside an adiabatic cylinder which carries a frictionless piston of mass $m$ and cross section A as shown in diagram. The cylinder contains one mole diatomic current the element temperatures time $t$ as (a and $\\beta$ are constants), while pressure remains constant. The atmospheric pressure above the piston is $P_{0}$. Then"
+  },
+  "options": [
+    {
+      "text": "the rate of increase in internal energy is $\\frac{5}{2} R(\\alpha+\\beta t)$",
+      "is_correct": true
+    },
+    {
+      "text": "the current flowing in the element is $\\sqrt{\\frac{5}{2 r} R(\\alpha+\\beta t)}$",
+      "is_correct": false
+    },
+    {
+      "text": "the piston moves upwards with constant acceleration",
+      "is_correct": false
+    },
+    {
+      "text": "the piston moves upwards with constant speed",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "We know that Internal energy, $U=\\frac{n f R T}{2}=\\frac{5 R}{2}\\left(\\alpha t+\\frac{1}{2} \\beta t^{2}\\right)$\r\nDifferentiate with respect to $t$\r\n$$\r\n\\frac{d U}{d t}=\\frac{5 R}{2}[\\alpha+\\beta t]\r\n$$\r\nBut, $d Q=n C_{p} d T$\r\n$$\r\n\\begin{array}{l}\r\n\\therefore \\quad \\frac{d Q}{d t}=n C_{p} \\times \\frac{d T}{d t} \\Rightarrow i^{2} r=\\frac{7}{2} R \\times[\\alpha+\\beta t] \\\\\r\n\\quad i=\\sqrt{\\frac{7 R}{2 r}(\\alpha+\\beta t)} \\\\\r\np V=n R T\r\n\\end{array}\r\n$$\r\nor $\\quad V=\\frac{n R T}{p}=\\frac{n R}{p}\\left(\\alpha t+\\frac{1}{2} \\beta t^{2}\\right)$\r\n$X=\\frac{n R}{p A}\\left(\\alpha t+\\frac{1}{2} \\beta t^{2}\\right)$\r\n$$\r\nv=\\frac{n R}{p A}(\\alpha+\\beta t)\r\n$$\r\nand acceleration $=\\frac{n R}{p A} \\times \\beta$\r\nSo, the rate of increase in internal energy is $\\frac{5}{2} R(\\alpha+\\beta t)$ and the piston moves upwards with constant acceleration."
+  }
+}

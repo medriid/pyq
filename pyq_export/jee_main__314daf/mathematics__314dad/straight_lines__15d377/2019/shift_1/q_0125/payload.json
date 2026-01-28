@@ -1,0 +1,43 @@
+{
+  "index": 125,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602537eaf75bf5a215d377",
+    "chapter_name": "Straight Lines",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "In a triangle, the sum of lengths of two sides is $\\mathrm{x}$ and the product of the lengths of the same two sides is $y$. if $x^{2}-c^{2}=y,$ where $c$ is the length of the third side of the triangle, then the circumradius of the triangle is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{3}{2} y$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{c}{\\sqrt{3}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{c}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{y}{\\sqrt{3}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let two sides of triangle are $a$ and $b$.\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n& a+b=x \\\\\r\n\r\n& a b=y \\\\\r\n\r\n& x^{2}-c^{2}=y \\Rightarrow(a+b)^{2}-c^{2}=a b \\\\\r\n\r\n\\Rightarrow &(a+b-c)(a+b+c)=a b \\\\\r\n\r\n\\Rightarrow & 2(s-c)(2 s)=a b \\\\\r\n\r\n\\Rightarrow & 4 s(s-c)=a b \\\\\r\n\r\n\\Rightarrow & \\frac{s(s-c)}{a b}=\\frac{1}{4} \\\\\r\n\r\n\\Rightarrow & \\cos ^{2} \\frac{c}{2}=\\frac{1}{4} \\\\\r\n\r\n\\Rightarrow & \\cos c=-\\frac{1}{2} \\Rightarrow c=120^{\\circ}\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\n$\\therefore$ Area of triangle is,\r\n\r\n$\\Delta=\\frac{1}{2} a b\\left(\\sin 120^{\\circ}\\right)=\\frac{\\sqrt{3}}{4} a b$\r\n\r\n$\\because \\quad R=\\frac{a b c}{4 \\Delta}$\r\n\r\n$\\because \\quad \\mathrm{R}=\\frac{a b c}{\\sqrt{3} a b}=\\frac{c}{\\sqrt{3}}$"
+  }
+}

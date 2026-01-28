@@ -1,0 +1,24 @@
+{
+  "index": 40,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602555685234356f221f74",
+    "chapter_name": "Functions",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Consider the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined by $f(x)=\\frac{2 x}{\\sqrt{1+9 x^2}}$. If the composition of $f, \\underbrace{(f \\circ f \\circ f \\circ \\cdots \\circ f)}_{10 \\text { times }}(x)=\\frac{2^{10} x}{\\sqrt{1+9 \\alpha x^2}}$, then the value of $\\sqrt{3 \\alpha+1}$ is equal to ______"
+  },
+  "options": [],
+  "correct_answer": "1024",
+  "solution": {
+    "text": "$\\begin{aligned}\n& f(f(x))=\\frac{2 f(x)}{\\sqrt{1+9 f^2(x)}}=\\frac{4 x}{\\sqrt{1+9 x^2+9.2^2 x^2}} \\\\\n& f(f(f(x)))=\\frac{2^3 x / \\sqrt{1+9 x^2}}{\\sqrt{1+9\\left(1+2^2\\right) \\frac{2^2 x^2}{1+9 x^2}}}=\\frac{2^3 x}{\\sqrt{1+9 x^2\\left(1+2^2+2^4\\right)}}\n\\end{aligned}$\n$\\therefore$ By observation\n$\\begin{aligned}\n& \\alpha=1+2^2+2^4+\\ldots .+2^{18}=1\\left(\\frac{\\left(2^2\\right)^{10}-1}{2^2-1}\\right)=\\frac{2^{20}-1}{3} \\\\\n& 3 \\alpha+1=2^{20} \\rightarrow \\sqrt{3 \\alpha+1}=2^{10}=1024\n\\end{aligned}$"
+  }
+}

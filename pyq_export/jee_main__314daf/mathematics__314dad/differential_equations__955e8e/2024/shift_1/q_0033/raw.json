@@ -1,0 +1,63 @@
+{
+  "_id": "6644671c970e6e9ab542d04b",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6a",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-05T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (05 Apr Shift 1)",
+      "title": "JEE Main 2024 (05 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "If $y=y(x)$ is the solution of the differential equation $\\frac{\\mathrm{d} y}{\\mathrm{~d} x}+2 y=\\sin (2 x), y(0)=\\frac{3}{4}$, then $y\\left(\\frac{\\pi}{8}\\right)$ is equal to:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "3HLpz",
+      "text": "$\\mathrm{e}^{\\pi / 8}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "c9dfM",
+      "text": "$\\mathrm{e}^{\\pi / 4}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "6jVSS",
+      "text": "$\\mathrm{e}^{-\\pi / 4}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "xsBTw",
+      "text": "$\\mathrm{e}^{-\\pi / 8}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\frac{d y}{d x}+2 y=\\sin 2 x, y(0)=\\frac{3}{4} \\\\ & \\text { I.F }=e^{\\int 2 d x}=e^{2 x} \\\\ & y \\cdot e^{2 x}=\\int e^{2 x} \\sin 2 x d x \\\\ & y \\cdot e^{2 x}=\\frac{e^{2 x}(2 \\sin 2 x-2 \\cos 2 x)}{4+4}+C \\\\ & x=0, y=\\frac{3}{4} \\Rightarrow \\frac{3}{4} \\cdot 1=\\frac{1(0-2)}{8}+C \\\\ & \\frac{3}{4}=-\\frac{1}{4}+C \\\\ & 1=C \\\\ & y=\\frac{2 \\sin 2 x-2 \\cos 2 x}{8}+1 \\cdot e^{-2 x} \\\\ & x=\\frac{\\pi}{8}, y=\\frac{1}{8}\\left(2 \\sin \\frac{\\pi}{4}-2 \\cos \\frac{\\pi}{4}\\right)+e^{-2\\left(\\frac{\\pi}{8}\\right)} \\\\ & y=0+e^{-\\frac{\\pi}{4}}\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda6a",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-05T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (05 Apr Shift 1)",
+    "title": "JEE Main 2024 (05 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

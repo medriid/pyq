@@ -1,0 +1,43 @@
+{
+  "index": 68,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of the integral $\\int_{-1}^{1}\\left\\{\\frac{x^{2013}}{e^{|x|}\\left(x^{2}+\\cos x\\right)}+\\frac{1}{e^{|x|}}\\right\\} d x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "$1-e^{-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 e^{-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2\\left(1-e^{-1}\\right)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $\\quad I=\\int_{-1}^{1}\\left\\{\\frac{x^{2013}}{e^{\\mid x\\left|(x^{2}+\\cos x\\right)}}+\\frac{1}{e^{|x|}}\\right\\} d x$\r\n$\\Rightarrow \\quad I=\\int_{-1}^{1} \\frac{x^{2013}}{e^{|x|+\\left(x^{2}+\\cos x\\right)}} d x+\\int_{-1}^{1} \\frac{1}{e^{|x|}} d x$\r\nHere, $\\frac{x^{2013}}{e^{|x|}\\left(x^{2}+\\cos x\\right)}$ is an odd function\r\nand $\\frac{1}{e^{\\mid x|}}$ is an even function. $\\left\\{\\because \\int_{-a}^{a} f(x) d x=\\left\\{\\begin{array}{cc}2 \\int_{0}^{9}(x) d x ; & f(x) \\text { is even } \\\\ 0, & f(x) \\text { is odd }\\end{array}\\right\\}\\right.$\r\n$\\left.\\therefore \\quad 1=0+2 \\int_{0}^{1} e^{-x} d x=-2 (e^{-x})\\right\\}_{0}^{1}=-2\\left(e^{-1}\\right)$\r\n$=2\\left(1-e^{-1}\\right)$"
+  }
+}

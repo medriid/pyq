@@ -1,0 +1,83 @@
+{
+  "_id": "64b16a92f23ac7d519f9b5a4",
+  "previousYearPapers": [
+    {
+      "_id": "619f94437e944e1fdc2859b5",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2021-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021 (Paper 2)",
+      "title": "JEE Advanced 2021 (Paper 2)"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 3,
+  "question": {
+    "text": "<p>For any real numbers&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#946;</mi></math>, let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>y</mi><mrow><mi>&#945;</mi><mo>,</mo><mi>&#946;</mi></mrow></msub><mfenced><mi>x</mi></mfenced><mo>,</mo><mi>x</mi><mo>&#8712;</mo><mi>R</mi></math>, be the solution of the differential equation</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>&#945;</mi><mi>y</mi><mo>=</mo><mi>x</mi><msup><mi>e</mi><mrow><mi>&#946;</mi><mi>x</mi></mrow></msup><mo>,</mo><mi>y</mi><mfenced><mn>1</mn></mfenced><mo>=</mo><mn>1</mn></math></p><p>Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfenced open=\"{\" close=\"}\"><mrow><msub><mi>y</mi><mrow><mi>&#945;</mi><mo>,</mo><mi>&#946;</mi></mrow></msub><mfenced><mi>x</mi></mfenced><mo>&#160;</mo><mo>:</mo><mi>&#945;</mi><mo>,</mo><mi>&#946;</mi><mo>&#8712;</mo><mi>R</mi></mrow></mfenced></math>. Then which of the following functions belong(s) to the set&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>?</p>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "9zOOE",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup><mo>+</mo><mfenced><mrow><mi>e</mi><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "EZr5K",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mo>-</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup><mo>+</mo><mfenced><mrow><mi>e</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "bePW3",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfrac><msup><mi>e</mi><mi>x</mi></msup><mn>2</mn></mfrac><mfenced><mrow><mi>x</mi><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced><mo>+</mo><mfenced><mrow><mi>e</mi><mo>-</mo><mfrac><msup><mi>e</mi><mn>2</mn></msup><mn>4</mn></mfrac></mrow></mfenced><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "gTGtL",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfrac><msup><mi>e</mi><mi>x</mi></msup><mn>2</mn></mfrac><mfenced><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>-</mo><mi>x</mi></mrow></mfenced><mo>+</mo><mfenced><mrow><mi>e</mi><mo>+</mo><mfrac><msup><mi>e</mi><mn>2</mn></msup><mn>4</mn></mfrac></mrow></mfenced><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></math>",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\(\\frac{d y}{d x}+a y=x e^{\\beta x}\\)\r\nIntegrating factor (I.F.) \\(=\\mathrm{e}^{\\mathrm{adx}}=\\mathrm{e}^{\\mathrm{ax}}\\)\r\nSo, the solution is \\(y \\cdot e^{a x}=\\int x e^{\\beta x} \\cdot e^{a x} d x\\)\r\n\\(\\Rightarrow y e^{a x}=\\int x e^{(\\alpha+\\beta) x} d x\\)\r\nIf \\(\\alpha+\\beta \\neq 0\\)\r\n\\(\\Rightarrow y e^{a x}=x \\frac{e^{(\\alpha+\\beta) x}}{(\\alpha+\\beta)}-\\frac{e^{(\\alpha+\\beta) x}}{(\\alpha+\\beta)^2}+C\\)\r\n\\(\\Rightarrow y=\\frac{x e^{\\beta x}}{(\\alpha+\\beta)}-\\frac{e^{\\beta x}}{(\\alpha+\\beta)^2}+C e^{-a x}\\)\r\n\\(\\Rightarrow y=\\frac{e^{\\beta x}}{(\\alpha+\\beta)}\\left(x-\\frac{1}{a+\\beta}\\right)+C e^{-\\alpha x}\\)\r\nPut \\(\\alpha=\\beta=1\\) in (1)\r\n\\(y=\\frac{e^x}{2}\\left(x-\\frac{1}{2}\\right)+C e^{-x}\\)\r\n\\(y(1)=1\\)\r\n\\(1=\\frac{e}{2} \\times \\frac{1}{2}+\\frac{C}{e} \\Rightarrow c=e-\\frac{e^2}{4}\\)\r\nSo, \\(y=\\frac{e^x}{2}\\left(x-\\frac{1}{2}\\right)+\\left(e-\\frac{e^2}{4}\\right) e^{-x}\\)\r\nIf \\(\\alpha+\\beta=0 \\& \\alpha=1\\)\r\n\\(\\begin{aligned}\r\n&\\frac{d y}{d x}+y=x e^{-x} \\\\\r\n&\\text { I.F. }=e^x\r\n\\end{aligned}\\)\r\nSolution is \\(y e^x=\\int x d x\\)\r\n\\(\\Rightarrow y e^x=\\frac{x^2}{2}+C\\)\r\n\\(y=\\frac{x^2}{2} e^{-x}+C e^{-x}\\)\r\n\\(y(1)=1\\)\r\n\\(1=\\frac{1}{2 e}+\\frac{C}{e} \\Rightarrow C=e-\\frac{1}{2}\\)\r\n\\(y=\\frac{x^2}{2} e^{-x}+\\left(e-\\frac{1}{2}\\right) e^{-x}\\)",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "22f616fa4fc0405a8b968a198feca33b",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/jNqeZG7vyyYzw.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/jNqeZG7vyyYzw.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619f94437e944e1fdc2859b5",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2021-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021 (Paper 2)",
+    "title": "JEE Advanced 2021 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

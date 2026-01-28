@@ -1,0 +1,24 @@
+{
+  "index": 2,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2024 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602556cd23bba7eaa346dc",
+    "chapter_name": "Functions",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function such that $f(x+y)=f(x)+f(y)$ for all $x, y \\in \\mathbb{R}$, and $g: \\mathbb{R} \\rightarrow(0, \\infty)$ be a function such that $g(x+y)=g(x) g(y)$ for all $x, y \\in \\mathbb{R}$. If $f\\left(\\frac{-3}{5}\\right)=12$ and $g\\left(\\frac{-1}{3}\\right)=2$, then the value of $\\left(f\\left(\\frac{1}{4}\\right)+g(-2)-8\\right) g(0)$ is . ________."
+  },
+  "options": [],
+  "correct_answer": 51,
+  "solution": {
+    "text": "$f(x+y)=f(x)+f(y)$  ...(1)\n$\\Rightarrow \\quad \\mathrm{f}(\\mathrm{nx})=\\operatorname{nf}(\\mathrm{x}) \\forall \\mathrm{n} \\in \\mathrm{N}$  ...(2)\nNow put $y=-x$ in eq.(1)\n$\\begin{aligned} & \\mathrm{f}(\\mathrm{x})+\\mathrm{f}(-\\mathrm{x})=\\mathrm{f}(0) \\quad\\{\\mathrm{f}(0)=0\\} \\\\ \\Rightarrow \\quad & \\mathrm{f}(-\\mathrm{x})=-\\mathrm{f}(\\mathrm{x})\\end{aligned}$\n$\\Rightarrow \\quad \\mathrm{f}$ is odd function from eq. (2)\nfrom eq. (2)\n$\\begin{aligned} & f(-n x)=\\operatorname{nf}(-x) \\\\ & \\Rightarrow \\quad \\mathrm{f}(-\\mathrm{nx})=-n f(\\mathrm{x}) \\\\ & \\end{aligned}$\n$\\Rightarrow \\quad \\mathrm{f}(\\mathrm{mx})=\\operatorname{mf}(\\mathrm{x}) \\forall \\mathrm{m} \\in \\mathrm{Z}$   ...(3)\nfrom eq. (2) and eq. (3)\n$\\mathrm{f}(\\mathrm{nx})=\\mathrm{nf}(\\mathrm{x}) \\forall \\mathrm{n} \\in \\mathrm{Z}$   ...(4)\nNow put $x=\\frac{p}{q}$ where $\\mathrm{p}, \\mathrm{q} \\in \\mathrm{Z}, \\mathrm{q} \\neq 0$\n$\\mathrm{f}\\left(\\frac{\\mathrm{np}}{\\mathrm{q}}\\right)=\\operatorname{nf}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right) \\forall \\mathrm{n} \\in \\mathrm{Z}$\nput $\\mathrm{n}=\\mathrm{q}$\n$f(p)=q f\\left(\\frac{p}{q}\\right)$\n$\\Rightarrow \\quad \\mathrm{pf}(1)=\\mathrm{qf}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right) \\quad$ {from eq.(4)}\nLet $\\mathrm{f}(1)=\\mathrm{a}$\nthen $\\quad \\mathrm{pa}=\\mathrm{qf}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right)$\n$\\mathrm{f}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right)=\\frac{\\mathrm{ap}}{q}$\n$\\Rightarrow \\quad \\mathrm{f}(\\mathrm{x})=\\mathrm{ax} \\forall \\mathrm{x} \\in \\mathbb{Q}$\nNow, $\\mathrm{f}\\left(\\frac{-3}{5}\\right)=\\mathrm{a}\\left(\\frac{-3}{5}\\right)=12 \\Rightarrow \\mathrm{a}=-20$\n$\\Rightarrow \\quad \\mathrm{f}(\\mathrm{x})=-20 \\mathrm{x} \\forall \\mathrm{x} \\in \\mathbb{Q}$   ...(5)\nFrom the given functional equation it is not possible to find a unique function for irrational values of ' $x$ ', there are infinitely many such functions satisfying given functional equation for irrational values of $x$, but in this problem we finally need the function at rational values of ' $x$ ' only. So, for rational values of $x$ we are getting a unique function mentioned in (5).\nNow, $g(x+y)=g(x) \\cdot g(y)$\n$\\Rightarrow \\quad \\ell \\mathrm{n}(\\mathrm{g}(\\mathrm{x}+\\mathrm{y})=\\ell \\mathrm{n}(\\mathrm{g}(\\mathrm{x}))+\\ell \\ln (\\mathrm{g}(\\mathrm{y}))$\nLet $\\quad \\ln (\\mathrm{g}(\\mathrm{x}))=\\mathrm{h}(\\mathrm{x})$\n$\\begin{array}{ll}\\Rightarrow & \\mathrm{h}(\\mathrm{x}+\\mathrm{y})=\\mathrm{h}(\\mathrm{x})+\\mathrm{h}(\\mathrm{y}) \\\\ \\Rightarrow & \\mathrm{h}(\\mathrm{x})=\\mathrm{kx} \\forall \\mathrm{x} \\in \\mathbb{Q}\\end{array}$\n$\\Rightarrow \\quad \\mathrm{g}(\\mathrm{x})=\\mathrm{e}^{\\mathrm{kx}} \\forall \\mathrm{x} \\in \\mathbb{Q}$   ...(6)\nand $\\mathrm{g}\\left(\\frac{-1}{3}\\right)=\\mathrm{e}^{-\\frac{\\mathrm{K}}{3}}=2 \\quad \\Rightarrow \\quad \\mathrm{K}=-3 \\ell \\ln 2$\n$\\Rightarrow \\quad \\mathrm{K}=\\ln \\left(\\frac{1}{8}\\right)$\n$\\Rightarrow \\quad \\mathrm{g}(\\mathrm{x})=\\mathrm{e}^{\\ln \\left(\\frac{1}{8}\\right) \\cdot \\mathrm{x}}=\\left(\\frac{1}{8}\\right)^{\\mathrm{x}}=2^{-3 \\mathrm{x}} \\forall \\mathrm{x} \\in \\mathbb{Q}$\n$\\begin{aligned} & \\text { Now, } f\\left(\\frac{1}{4}\\right)=-5, g(-2)=2^6=64 \\\\ & g(0)=1\\end{aligned}$\n$\\begin{aligned} & \\text { So } \\quad\\left(\\mathrm{f}\\left(\\frac{1}{4}\\right)+\\mathrm{g}(-2)-(8) \\cdot g(0)\\right) \\\\ & =(-5+64-8)(1)=51 \\\\ & \\end{aligned}$"
+  }
+}

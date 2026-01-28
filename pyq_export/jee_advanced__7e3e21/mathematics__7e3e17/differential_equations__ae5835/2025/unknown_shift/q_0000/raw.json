@@ -1,0 +1,58 @@
+{
+  "_id": "685102c26bba689a3eb09ca7",
+  "type": "numerical",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "684c67d769037fad219cb0c2",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2025-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (Paper 2)",
+      "title": "JEE Advanced 2025 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $y(x)$ be the solution of the differential equation\n$x^2 \\frac{d y}{d x}+x y=x^2+y^2, x>\\frac{1}{e}$\nsatisfying $y(1)=0$. Then the value of $2 \\frac{(y(e))^2}{y\\left(e^2\\right)}$ is _____ .",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "0.75",
+  "solution": {
+    "text": "Put $\\mathrm{y}=\\mathrm{vx} \\Rightarrow \\frac{d y}{d x}=v+x \\frac{d v}{d x}$\nD.E.\n$\\begin{aligned}\n& \\mathrm{x}^2\\left(v+\\mathrm{x} \\frac{\\mathrm{~d} v}{\\mathrm{dx}}\\right)+\\mathrm{x}^2 v=\\mathrm{x}^2\\left(1+v^2\\right) \\\\\n& \\Rightarrow v+x \\frac{d v}{d x}+v=1+v^2 \\\\\n& \\Rightarrow x \\frac{d v}{d x}=1+v^2-2 v \\\\\n& \\Rightarrow \\int \\frac{d v}{(v-1)^2}=\\int \\frac{d x}{x} \\\\\n& \\Rightarrow-\\frac{1}{v-1}=\\ln |x|+\\mathrm{C}\n\\end{aligned}$\n$\\Rightarrow \\frac{\\mathrm{x}}{\\mathrm{x}-\\mathrm{y}}=\\ln |x|+\\mathrm{C}=\\ln \\mathrm{x}+\\mathrm{C} \\quad\\left(\\right.$ Since $\\left.\\mathrm{x}>\\frac{1}{\\mathrm{e}}\\right)$\nGiven $y(1)=0$\n$\\Rightarrow C=1$\nSo $\\frac{x}{x-y}=\\ln (e x)$\nNow $y(e)=\\frac{e}{2}$ and $y\\left(e^2\\right)=\\frac{2 e^2}{3}$\n$\\therefore \\frac{2(y(e))^2}{y\\left(e^2\\right)}=\\frac{2 \\cdot \\frac{e^2}{4}}{\\frac{2 e^2}{3}}=\\frac{3}{4}=0.75$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "c72db430dbe64a61af24fd50c32ab666",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/Uawl4UZvBKSpc.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/Uawl4UZvBKSpc.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "684c67d769037fad219cb0c2",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2025-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (Paper 2)",
+    "title": "JEE Advanced 2025 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

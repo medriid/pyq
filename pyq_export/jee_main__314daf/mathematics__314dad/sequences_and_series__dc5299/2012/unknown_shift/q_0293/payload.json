@@ -1,0 +1,43 @@
+{
+  "index": 293,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (19 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The sum of the series $1+\\frac{4}{3}+\\frac{10}{9}+\\frac{28}{27}+\\ldots$ upto $n$ terms is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{7}{6} n+\\frac{1}{6}-\\frac{2}{3.2^{n-1}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{5}{3} n-\\frac{7}{6}+\\frac{1}{2.3^{n-1}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$n+\\frac{1}{2}-\\frac{1}{2.3^n}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$n-\\frac{1}{3}-\\frac{1}{3.2^{n-1}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given series is\n$1+\\frac{4}{3}+\\frac{10}{9}+\\frac{28}{27}+\\ldots . n$ terms\n$=1+\\left(1+\\frac{1}{3}\\right)+\\left(1+\\frac{1}{9}\\right)+\\left(1+\\frac{1}{27}\\right)+\\ldots . n$ terms $=(1+1+1+\\ldots+n$ terms $)$ $+\\left(\\frac{1}{3}+\\frac{1}{9}+\\frac{1}{27}+\\ldots n\\right.$ terms $)$ $=n+\\frac{\\frac{1}{3}\\left(1-\\frac{1}{3^n}\\right)}{1-\\frac{1}{3}}=n+\\frac{1}{3} \\times \\frac{3}{2}\\left[1-3^{-n}\\right]$ $=n+\\frac{1}{2}\\left[1-3^{-n}\\right]=n+\\frac{1}{2}-\\frac{1}{2.3^n}$"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "index": 27,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (05 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The number of ways of getting a sum 16 on throwing a dice four times is______"
+  },
+  "options": [],
+  "correct_answer": "125",
+  "solution": {
+    "text": "$\\begin{aligned} & \\left(x^1+x^2 \\ldots+x^6\\right)^4 \\\\ & x^4 \\cdot\\left(\\frac{1-x^6}{1-x}\\right)^4 \\\\ & x^4 \\cdot\\left(1-x^6\\right)^4 \\cdot(1-x)^{-4} \\\\ & x^4\\left[1-4 x^6+6 x^{12} \\ldots .\\right]\\left[(1-x)^{-4}\\right] \\\\ & \\left(x^4-4 x^{10}+6 x^{16} \\ldots\\right)(1-x)^{-4} \\\\ & \\left(x^4-4 x^{10}+6 x^{16}\\right)\\left(1+{ }^{15} C_{12} x^{12}+{ }^9 C_6 x^6 \\ldots .\\right) \\\\ & \\left({ }^{15} C_{12}-4 \\cdot{ }^9 C_6+6\\right) x^{16} \\\\ & \\left({ }^{15} C_3-4 \\cdot{ }^9 C_6+6\\right) \\\\ & =35 \\times 13-6 \\times 8 \\times 7+6 \\\\ & =455-336+6 \\\\ & =125\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 64,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2009",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0f42b7a9706676933c",
+    "chapter_name": "Functions",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A Mapping from IN to IN is defined as follows :\n$$\n\\begin{aligned}\n& \\mathrm{f}: \\mathrm{IN} \\rightarrow \\mathrm{IN} \\\\\n& \\mathrm{f}(\\mathrm{n})=(\\mathrm{n}+5)^2, \\mathrm{n} \\in \\mathrm{IN}\n\\end{aligned}\n$$\n(IN is the set of natural numbers). Then"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{f}$ is not one-to-one",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{f}$ is onto",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{f}$ is both one-to-one and onto",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{f}$ is one-to-one but not onto",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\text { Hints: } \\mathrm{f}: \\mathrm{IN} \\rightarrow \\mathrm{IN} ; \\mathrm{f}(\\mathrm{n})=(\\mathrm{n}+5)^2 \\\\\n& \\left(\\mathrm{n}_1+5\\right)^2=\\left(\\mathrm{n}_2+5\\right)^2 \\\\\n& \\Rightarrow\\left(\\mathrm{n}_1-\\mathrm{n}_2\\right)\\left(\\mathrm{n}_1+\\mathrm{n}_2+10\\right)=0 \\\\\n& \\Rightarrow \\mathrm{n}_1=\\mathrm{n}_2 \\rightarrow \\text { one-to-one }\n\\end{aligned}\n$$\nThere does not exist $n \\in$ IN such that $(n+5)^2=1$\nHence $\\mathrm{f}$ is not onto"
+  }
+}

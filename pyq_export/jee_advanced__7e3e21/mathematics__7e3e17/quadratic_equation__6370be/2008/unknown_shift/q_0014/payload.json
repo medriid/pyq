@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2008 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602526509c05a62a6370be",
+    "chapter_name": "Quadratic Equation",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $a, b, c, p, q$ be real numbers.\nSuppose, $\\alpha, \\beta$ are the roots of the equation $x^2+2 p x+q=0$ and $\\alpha, \\frac{1}{\\beta}$ are the roots of the equation $a x^2+2 b x+c=0$, where $\\beta^2 \\notin\\{-1,0,1\\}$.\nStatement $1\\left(p^2-q\\right)\\left(b^2-a c\\right) \\geq 0$.\nStatement $2 b \\neq p a$ or $c \\neq q a$."
+  },
+  "options": [
+    {
+      "text": "\nStatement 1 is true, Statement 2 is true, Statement 2 is a correct explanation for Statement 1.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement 1 is true, Statement 2 is true, Statement 2 is not a correct explanation for Statement 1.\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nStatement 1 is true, Statement 2 is false.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement 1 is false, Statement 2 is true",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given, $\\alpha$ and $\\beta$ are the roots of $x^2+2 p x+q=0$.\n$$\n\\begin{array}{rlrl} \n& \\therefore & \\alpha+\\beta & =-2 p \\\\\n\\text { and } & \\alpha \\beta & =q\n\\end{array}\n$$\n$\\alpha$ and $\\frac{1}{\\beta}$ are the roots of $a x^2+2 b x+c=0$\nand\n$$\n\\alpha+\\frac{1}{\\beta}=\\frac{-2 b}{a}\n$$\n\nand\n$$\n\\frac{\\alpha}{\\beta}=\\frac{c}{a}\n$$\n$$\n\\text { Now, } \\begin{aligned}\n\\left(p^2-q\\right)\\left(b^2-a c\\right) & =\\left[\\left(\\frac{\\alpha+\\beta}{-2}\\right)^2-\\alpha \\beta\\right]\\left[\\left(\\frac{\\alpha+\\frac{1}{\\beta}}{2}\\right)^2-\\frac{\\alpha}{\\beta}\\right] a^2 \\\\\n& =\\frac{(\\alpha-\\beta)^2}{16}\\left(\\alpha-\\frac{1}{\\beta}\\right)^2 \\cdot a^2 \\geq 0\n\\end{aligned}\n$$\nStatement 1 is true.\n$$\n\\begin{array}{ll}\n\\text { Again now, } & p a=-\\left(\\frac{\\alpha+\\beta}{2}\\right) a=-\\frac{a}{2}(\\alpha+\\beta) \\\\\n\\text { and } & b=-\\frac{a}{2}\\left(\\alpha+\\frac{1}{\\beta}\\right) \\\\\n& p a \\neq b \\Rightarrow \\alpha+\\frac{1}{\\beta} \\neq \\alpha+\\beta \\\\\n\\Rightarrow & \\beta \\neq 1 \\\\\n\\because & \\beta^2 \\neq\\{-1,0,1\\}, \\text { correct. } \\\\\n\\text { Similarly, if } & c \\neq q x \\\\\n\\Rightarrow & a \\frac{\\alpha}{\\beta} \\neq a \\alpha \\beta \\Rightarrow \\alpha\\left(\\beta-\\frac{1}{\\beta}\\right) \\neq 0\n\\end{array}\n$$\n\n$$\n\\begin{array}{ll}\n\\Rightarrow & \\alpha \\neq 0 \\text { and } \\beta-\\frac{1}{\\beta} \\neq 0 \\\\\n\\Rightarrow & \\beta \\neq\\{-1,0,1\\}\n\\end{array}\n$$\nStatement 2 is true.\nBoth Statement 1 and Statement 2 are true. But Statement 2 does not explain Statement 1."
+  }
+}

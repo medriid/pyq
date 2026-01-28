@@ -1,0 +1,61 @@
+{
+  "_id": "6151e8638a3bc09fe3997ea5",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "10",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "<p>A box contains tickets numbered <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">N</mi></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">n</mi></math> tickets are drawn from the box with replacement. The probability that the largest number on the tickets is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">k</mi></math>, is</p>\r",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "ytWsr",
+      "text": "<math> <mrow> <msup> <mrow> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mtext>k</mtext> </mrow> <mrow> <mtext>N</mtext> </mrow> </mfrac> </mrow> </mfenced> </mrow> <mtext>n</mtext> </msup> </mrow> </math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "RdH9w",
+      "text": "<math> <mrow> <msup> <mrow> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mtext>k</mtext> <mo>-</mo> <mn>1</mn> </mrow> <mrow> <mtext>N</mtext> </mrow> </mfrac> </mrow> </mfenced> </mrow> <mtext>n</mtext> </msup> </mrow> </math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Mgs2M",
+      "text": "<math> <mrow> <mn>0</mn> </mrow> </math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "AN0Vf",
+      "text": "<math> <mrow> <mtext>None of these</mtext> </mrow> </math>",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Number of ways of selecting <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">n</mi></math> tickets from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">N</mi></math> tickets numbered from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">N</mi></math> with replacement <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi mathvariant=\"normal\">N</mi><mi mathvariant=\"normal\">n</mi></msup></math><br /><br />Now, the largest number on selected tickets must be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">k</mi></math>. Hence, favorable cases <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi mathvariant=\"normal\">k</mi><mi mathvariant=\"normal\">n</mi></msup><mo>−</mo><msup><mrow><mo>(</mo><mi mathvariant=\"normal\">k</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mi mathvariant=\"normal\">n</mi></msup></math><br /><br />Therefore, required probability <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><msup><mi mathvariant=\"normal\">k</mi><mi mathvariant=\"normal\">n</mi></msup><mo>−</mo><msup><mrow><mo>(</mo><mi mathvariant=\"normal\">k</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mi mathvariant=\"normal\">n</mi></msup></mrow><msup><mi mathvariant=\"normal\">N</mi><mi mathvariant=\"normal\">n</mi></msup></mfrac></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "correct",
+  "lastPracticed": "2025-02-09T13:10:49.399Z"
+}

@@ -1,0 +1,43 @@
+{
+  "index": 97,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602427cba2fa9ed9e72f82",
+    "chapter_name": "Electromagnetic Induction",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "A copper rod of mass $\\mathrm{m}$ slides under gravity on two smooth parallel rails, with separation $l$ and set at an angle of $\\theta$ with the horizontal. At the bottom, rails are joined by a resistance R. There is a uniform magnetic field $\\mathrm{B}$ normal to the plane of the rails, as shown in the figure. The terminal speed of the copper rod is:\n<img src=\"assets\\qt0097_4a01535c691e.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{\\mathrm{mgR} \\cos \\theta}{\\mathrm{B}^2 l^2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\mathrm{mgR} \\sin \\theta}{\\mathrm{B}^2 l^2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{\\mathrm{mgR} \\tan \\theta}{\\mathrm{B}^2 l^2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\mathrm{mgR} \\cot \\theta}{\\mathrm{B}^2 l^2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "From Faraday's law of electomagnetic induction,\n$$\n\\begin{aligned}\ne &=\\frac{d \\phi}{d t}=\\frac{d(B A)}{l t}=\\frac{d(B l l)}{d t} \\\\\n&=\\frac{B d l \\times l}{d t}=B V l\n\\end{aligned}\n$$\nAlso, $F=i l B=\\left(\\frac{B V}{R}\\right)\\left(l^2 B\\right)=\\frac{B^2 l^2 V}{R}$\nAt equilibrium\n<img src=\"assets\\st0097_9e4ffafa5153.png\"><br>\n$$\nm g \\sin \\theta=\\frac{B^2 l V}{R} \\Rightarrow V=\\frac{m g R \\sin \\theta}{B^2 l^2}\n$$"
+  }
+}

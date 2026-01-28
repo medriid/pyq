@@ -1,0 +1,63 @@
+{
+  "_id": "64a81498e0ff5a5425a85d21",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad6",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2023-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023",
+      "title": "WBJEE 2023"
+    }
+  ],
+  "question": {
+    "text": "\\(\\int_0^{2 \\pi} \\theta \\sin ^6 \\theta \\cos \\theta d \\theta\\) is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "OhFb5",
+      "text": "\\(\\frac{\\pi}{16}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "aJsWc",
+      "text": "\\(\\frac{3 \\pi}{16}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ribuR",
+      "text": "\\(\\frac{16 \\pi}{3}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "oPlaB",
+      "text": "0",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint : Let \\(I=\\int_0^{2 \\pi} \\theta \\sin ^6 \\theta \\cos \\theta d \\theta \\ldots \\ldots .(I)\\)\napplying King's Property,\n\\(\\int_0^{2 \\pi}(2 \\pi-\\theta) \\sin ^6 \\theta \\cdot \\cos \\theta d \\theta \\ldots \\ldots .(II)\\)\nadding (I) and (II), \\(2 \\mathrm{I}=2 \\pi \\int_0^{2 \\pi} \\sin ^6 \\theta \\cos \\theta d \\theta\\)\n\\(\\Rightarrow I=\\pi \\int_0^{2 \\pi} \\sin ^6 \\theta \\cos \\theta \\ldots \\ldots .(III)\\)\nUsing Queen's Property, \\(\\int_0^{2 a} f(x) d x=2 \\int_0^a f(x) d x\\), when \\(f(2 a-x)=f(x)\\)\napplying Queen's Property on (III), I \\(=2 \\pi \\int_0^\\pi \\sin ^6 \\theta \\cos \\theta d \\theta\\)\nagain, using Queen's Property, \\(\\int_0^{2 a} f(x) d x=0\\), when, \\(f(2 a-x)=-f(x)\\)\n\\(I=0\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad6",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2023-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023",
+    "title": "WBJEE 2023"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

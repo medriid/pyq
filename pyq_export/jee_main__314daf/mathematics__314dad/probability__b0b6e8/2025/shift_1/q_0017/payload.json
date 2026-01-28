@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "$A$ and $B$ alternately throw a pair of dice. $A$ wins if he throws a sum of 5 before $B$ throws a sum of 8 , and $B$ wins if he throws a sum of 8 before $A$ throws a sum of 5 . The probability, that $A$ wins if A makes the first throw, is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{8}{17}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{9}{19}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{9}{17}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{8}{19}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "For sum ' 5 ' $\\rightarrow(1,4),(2,3),(3,2)$\n$(4,1) \\Rightarrow P(A)=\\frac{4}{36}$\nFor sum ' 8 ' $\\rightarrow(2,6),(3,5),(4,4)$\nFor sum ' 5 ' $\\rightarrow(1,4),(2,3),(3,2)$\n$(4,1) \\Rightarrow P(A)=\\frac{4}{36}$\nFor sum ' 8 ' $\\rightarrow(2,6),(3,5),(4,4)$\n$\\begin{aligned} & (5,3),(6,2) \\Rightarrow P(B)=\\frac{5}{36} \\\\ & \\begin{aligned} P(\\bar{A})=\\frac{32}{36} & , P(\\bar{B})=\\frac{31}{36}\\end{aligned} \\\\ & \\begin{aligned} P(A \\text { wins })= & P(A)+P(\\bar{A}) P(\\bar{B}) P(A)+ \\\\ & +P(\\bar{A}) P(\\bar{B}) P(\\bar{A}) P(\\bar{B}) P(A)+\\ldots \\\\ = & \\frac{P(A)}{1-P(\\bar{A}) P(\\bar{B})}=\\frac{9}{19}\\end{aligned}\\end{aligned}$"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64a81436e0ff5a5425a85984",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7c",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2017-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2017",
+      "title": "WBJEE 2017"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "If $f(x)=\\int_{-1}^{x}|t|$ dt, then for any $x \\geq 0, f(x)$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "6FeFP",
+      "text": "$\\frac{1}{2}\\left(1-x^{2}\\right)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "3knbO",
+      "text": "$1-x^{2}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "GcvMk",
+      "text": "$\\frac{1}{2}\\left(1+x^{2}\\right)$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "HMrm6",
+      "text": "$1+x^{2}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have, \r\n$\\begin{aligned} f(x) &=\\int_{-1}^{x} t\\left|d t=\\int_{-1}^{0}\\right| t\\left|d t+\\int_{0}^{x}\\right| t \\mid d t \\\\ &=-\\int_{-1}^{0} t d t+\\int_{0}^{x} t d t \\\\ &=\\left[-\\frac{t^{2}}{2}\\right]_{-1}^{0}+\\left[\\frac{t^{2}}{2}\\right]_{0}^{x} \\\\ &=-\\frac{1}{2}\\left(0^{2}-(-1)^{2}\\right)+\\frac{1}{2}\\left(x^{2}-0^{2}\\right) \\\\ &=-\\frac{1}{2}(-1)+\\frac{1}{2}\\left(x^{2}\\right)=\\frac{1}{2}\\left(1+x^{2}\\right) \\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7c",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2017-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2017",
+    "title": "WBJEE 2017"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

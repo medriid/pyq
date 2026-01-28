@@ -1,0 +1,43 @@
+{
+  "index": 179,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2007",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $D=\\left|\\begin{array}{ccc}1 & 1 & 1 \\\\ 1 & 1+x & 1 \\\\ 1 & 1 & 1+y\\end{array}\\right|$ for $x \\neq 0, y \\neq 0$ then $D$ is"
+  },
+  "options": [
+    {
+      "text": "\ndivisible by neither $x$ nor $y$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\ndivisible by both $x$ and $y$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\ndivisible by $x$ but not $y$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\ndivisible by $y$ but not $x$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$D=\\left|\\begin{array}{ccc}1 & 1 & 1 \\\\ 1 & 1+x & 1 \\\\ 1 & 1 & 1+y\\end{array}\\right|$\n$\\mathrm{C}_2 \\rightarrow \\mathrm{C}_2-\\mathrm{C}_1$ \\& $\\mathrm{C}_3 \\rightarrow \\mathrm{C}_3-\\mathrm{C}_1$\n$\\left|\\begin{array}{lll}\n1 & 0 & 0 \\\\\n1 & x & 0 \\\\\n1 & 0 & y\n\\end{array}\\right|=x y$.\nHence $D$ is divisible by both $x$ and $y$."
+  }
+}

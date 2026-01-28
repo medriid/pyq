@@ -1,0 +1,63 @@
+{
+  "_id": "64a81426e0ff5a5425a858ef",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7b",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2016-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2016",
+      "title": "WBJEE 2016"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "General solution of $y \\frac{d y}{d x}+b y^{2}=a \\cos x$ $0 \\leq x    < 1$ is (Here, $c$ is an arbitrary constant)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "gEhKf",
+      "text": "$y^{2}=2 a(2 b \\sin x+\\cos x)+c e^{-2 b x}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "EyVZf",
+      "text": "$\\left(4 b^{2}+1\\right) y^{2}=2 a(\\sin x+2 b \\cos x)+c e^{-2 b x}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "JviAL",
+      "text": "$\\left(4 b^{2}+1\\right) y^{2}=2 a(\\sin x+2 b \\cos x)+c e^{2 b x}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Ou8xv",
+      "text": "$y^{2}=2 a(2 b \\sin x+\\cos x)+c e^{-2 b x}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given. $y \\frac{d y}{d x}+b y^{2}=a \\cos x, 0    < x < 1$\r\n$y^{2}=z$\r\n$2 y \\frac{d y}{d x}=\\frac{d z}{d x}$\r\n$\\Rightarrow \\quad y \\frac{d y}{d x}=\\frac{1}{2} \\frac{d z}{d x}$\r\n$\\frac{1}{2} \\frac{d z}{d x}+b y^{2}=a \\cos x$\r\n$\\frac{d z}{d x}+2 b y^{2}=2 a \\cos x$\r\nNow, $I F=e^{2 b \\int d x}=e^{2 b x}$\r\n$\\therefore \\quad z \\cdot e^{2 b x}=\\int 2 a \\cos x \\cdot e^{2 b x} d x$\r\n$\\Rightarrow \\quad y^{2} e^{2 b x}=\\frac{2 a}{4 b^{2}+1}(\\sin x+2 b \\cos x) e^{2 b x}+C$\r\n$\\Rightarrow\\left(4 b^{2}+1\\right) y^{2}=2 a(\\sin x+2 b \\cos x)+C e^{-2 b x}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7b",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2016-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2016",
+    "title": "WBJEE 2016"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

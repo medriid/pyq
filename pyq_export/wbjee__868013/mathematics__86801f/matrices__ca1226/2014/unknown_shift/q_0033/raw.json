@@ -1,0 +1,63 @@
+{
+  "_id": "64a813fde0ff5a5425a8576b",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Let $n \\geq 2$ be an integer. $A=\\left[\\begin{array}{ccc}\\cos (2 \\pi / n) & \\sin (2 \\pi / n) & 0 \\\\ -\\sin (2 \\pi / n) & \\cos (2 \\pi / n) & 0 \\\\ 0 & 0 & 1\\end{array}\\right]$ and $I$ is the identity matrix of order 3 . Then,",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "aZgJP",
+      "text": "$A^{n}=I$ and $A^{n-1} \\neq I$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "vhR9P",
+      "text": "$A^{m} \\neq I$ for any positive integer $m$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Rr0LZ",
+      "text": "$A$ is not invertible",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "rNKw9",
+      "text": "$A^{m}=O$ for a positive integer $m$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given,\r\n$A=\\left[\\begin{array}{ccc}\\cos \\left(\\frac{2 \\pi}{n}\\right) & \\sin \\left(\\frac{2 \\pi}{n}\\right) & 0 \\\\ -\\sin \\left(\\frac{2 \\pi}{n}\\right) & \\cos \\left(\\frac{2 \\pi}{n}\\right) & 0 \\\\ 0 & 0 & 1\\end{array}\\right]$\r\nNow, $A \\times A=\\left[\\begin{array}{ccc}\\cos \\left(\\frac{2 \\pi}{n}\\right) & \\sin \\left(\\frac{2 \\pi}{n}\\right) & 0 \\\\ -\\sin \\left(\\frac{2 \\pi}{n}\\right) & \\cos \\left(\\frac{2 \\pi}{n}\\right) & 0 \\\\ 0 & 0 & 1\\end{array}\\right] \\times$$\\left[\\begin{array}{ccc}\\cos \\left(\\frac{2 \\pi}{n}\\right) & \\sin \\left(\\frac{2 \\pi}{n}\\right) & 0 \\\\ -\\sin \\left(\\frac{2 \\pi}{n}\\right) & \\cos \\left(\\frac{2 \\pi}{n}\\right) & 0 \\\\ 0 & 0 & 1\\end{array}\\right]$\r\n$\\left[\\begin{array}{ccc}\\cos ^{2}\\left(\\frac{2 \\pi}{n}\\right)-\\sin ^{2}\\left(\\frac{2 \\pi}{n}\\right) & \\cos \\left(\\frac{2 \\pi}{n}\\right) \\sin \\left(\\frac{2 \\pi}{n}\\right)+\\sin \\left(\\frac{2 \\pi}{n}\\right) \\cos \\left(\\frac{2 \\pi}{n}\\right) & 0\\\\ -\\sin \\left(\\frac{2 \\pi}{n}\\right) \\cos \\left(\\frac{2 \\pi}{n}\\right)-\\sin \\left(\\frac{2 \\pi}{n}\\right) \\cos \\left(\\frac{2 \\pi}{n}\\right) & -\\sin ^{2}\\left(\\frac{2 \\pi}{n}\\right)+\\cos ^{2}\\left(\\frac{2 \\pi}{n}\\right) & 0\\\\ 0 & 0 & 1\\end{array}\\right]$\r\n$=\\left[\\begin{array}{cccc}\\cos \\left(2 \\times \\frac{2 \\pi}{n}\\right) & 2 \\sin \\left(\\frac{2 \\pi}{n}\\right) \\cos \\left(\\frac{2 \\pi}{n}\\right) & 0 \\\\ -2 \\sin \\left(\\frac{2 \\pi}{n}\\right) \\cos \\left(\\frac{2 \\pi}{n}\\right) & \\cos \\left(2 \\times \\frac{2 \\pi}{n}\\right) & 0 \\\\ 0 & 0 & 1\\end{array}\\right]$\r\n$=\\left[\\begin{array}{ccc}\r\n\\cos \\left(2 \\times \\frac{2 \\pi}{n}\\right) & \\sin \\left(2 \\times \\frac{2 \\pi}{n}\\right) & 0 \\\\\r\n-\\sin \\left(2 \\times \\frac{2 \\pi}{n}\\right) & \\cos \\left(2 \\times \\frac{2 \\pi}{n}\\right) & 0 \\\\\r\n0 & 0 & 1\r\n\\end{array}\\right]$\r\nSimilarly,\r\n$A^{n}=\\left[\\begin{array}{cccc}\\cos \\left(2^{n-1} \\times \\frac{2 \\pi}{n}\\right) & \\sin \\left(2^{n-1} \\times \\frac{2 \\pi}{n}\\right) & 0 \\\\ -\\sin \\left(2^{n-1} \\times \\frac{2 \\pi}{n}\\right) & \\cos \\left(2^{n-1} \\times \\frac{2 \\pi}{n}\\right) & 0 \\\\ 0 & 0 & 1\\end{array}\\right]$\r\n$=\\left[\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right]=I$\r\nand\r\n$\\begin{aligned}\r\nA^{n-1}=&\\left[\\begin{array}{cccc}\r\n\\cos \\left(2^{n-2} \\times \\frac{2 \\pi}{n}\\right) & \\sin \\left(2^{n-2} \\times \\frac{2 \\pi}{n}\\right) & 0 \\\\\r\n-\\sin \\left(2^{n-2} \\times \\frac{2 \\pi}{n}\\right) & \\cos \\left(2^{n-2} \\times \\frac{2 \\pi}{n}\\right) & 0 \\\\\r\n0 & 0 & 1\r\n\\end{array}\\right] \\\\\r\n\\neq I\r\n\\end{aligned}$\r\n$\\therefore A^{n-1} \\neq I$ for any positive integer $m$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 43,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252bf7c1fee30bacd8f7",
+    "chapter_name": "Permutation Combination",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The total number of ways in which <math> <mrow> <mn>5</mn></mrow> </math> balls of different colours can be distributed among <math> <mrow> <mn>3</mn></mrow> </math> persons such that each person gets at least one ball is"
+  },
+  "options": [
+    {
+      "text": "<math> <mrow> <mn>75</mn></mrow> </math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow> <mn>150</mn></mrow> </math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math> <mrow> <mn>210</mn></mrow> </math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow> <mn>243</mn></mrow> </math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "We know that total number of ways of distributing <math><mrow><mi>n</mi></mrow>&nbsp;&nbsp;</math>&nbsp;distinct things among <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> persons such that each person gets at least one thing<br /><br /><math> <mrow> <mo>=</mo><msup> <mi>m</mi> <mi>n</mi> </msup> <mo>−</mo><mmultiscripts> <mi>C</mi> <mprescripts></mprescripts> <mrow></mrow> <mi>m</mi> </mmultiscripts> <msub> <mrow></mrow> <mn>1</mn> </msub> <mo>.</mo><msup> <mrow> <mrow><mo>(</mo> <mrow> <mi>m</mi><mo>−</mo><mn>1</mn></mrow> <mo>)</mo></mrow></mrow> <mi>n</mi> </msup> <mo>+</mo><mmultiscripts> <mi>C</mi> <mprescripts></mprescripts> <mrow></mrow> <mi>m</mi> </mmultiscripts> <msub> <mrow></mrow> <mn>2</mn> </msub> <msup> <mrow> <mrow><mo>(</mo> <mrow> <mi>m</mi><mo>−</mo><mn>2</mn></mrow> <mo>)</mo></mrow></mrow> <mi>n</mi> </msup> <mo>−</mo><mmultiscripts> <mi>C</mi> <mprescripts></mprescripts> <mrow></mrow> <mi>m</mi> </mmultiscripts> <msub> <mrow></mrow> <mn>3</mn> </msub> <msup> <mrow> <mrow><mo>(</mo> <mrow> <mi>m</mi><mo>−</mo><mn>3</mn></mrow> <mo>)</mo></mrow></mrow> <mi>n</mi> </msup> <mo>+</mo><mn>.....</mn></mrow> </math><br /><br />So the required total number of ways<br /><br /><math> <mrow> <mo>=</mo><msup> <mn>3</mn> <mn>5</mn> </msup> <mo>−</mo><mmultiscripts> <mi>C</mi> <mprescripts></mprescripts> <mrow></mrow> <mn>3</mn> </mmultiscripts> <msub> <mrow></mrow> <mn>1</mn> </msub> <msup> <mrow> <mn>.2</mn></mrow> <mn>5</mn> </msup> <mo>+</mo><mmultiscripts> <mi>C</mi> <mprescripts></mprescripts> <mrow></mrow> <mn>3</mn> </mmultiscripts> <msub> <mrow></mrow> <mn>2</mn> </msub> <msup> <mrow> <mn>.1</mn></mrow> <mn>5</mn> </msup> </mrow> </math> .<br /><br /><math> <mrow> <mo>=</mo><mn>243</mn><mo>−</mo><mn>96</mn><mo>+</mo><mn>3</mn></mrow> </math><br /><br /><math> <mrow> <mo>=</mo><mn>150</mn></mrow> </math>"
+  }
+}

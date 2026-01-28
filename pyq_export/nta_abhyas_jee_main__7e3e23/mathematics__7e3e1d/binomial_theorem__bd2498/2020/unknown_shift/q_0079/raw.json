@@ -1,0 +1,61 @@
+{
+  "_id": "6151e8633df3e3ef70c47b23",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "49",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>0</mn></msub><mo>,</mo><mo>&#160;</mo><msub><mi>C</mi><mn>1</mn></msub><mo>,</mo><mo>&#160;</mo><msub><mi>C</mi><mn>2</mn></msub><mo>,</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mo>&#160;</mo><msub><mi>C</mi><mn>20</mn></msub></math> are the binomial coefficients in the expansion of <math><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced></mrow><mrow><mn>20</mn></mrow></msup><mo>,</mo></math> then the value of&nbsp;<math><mfrac><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>0</mn></mrow></msub></mrow></mfrac><mo>+</mo><mn>2</mn><mfrac><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub></mrow><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msub></mrow></mfrac><mo>+</mo><mn>3</mn><mfrac><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>3</mn></mrow></msub></mrow><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub></mrow></mfrac><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><mn>19</mn><mfrac><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>19</mn></mrow></msub></mrow><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>18</mn></mrow></msub></mrow></mfrac><mo>+</mo><mn>20</mn><mfrac><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>20</mn></mrow></msub></mrow><mrow><msub><mrow><mi>C</mi></mrow><mrow><mn>19</mn></mrow></msub></mrow></mfrac></math>&nbsp;is equal to (where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mi>r</mi></msub></math>&nbsp;represents <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mi>r</mi><none/><mprescripts/><none/><mi>n</mi></mmultiscripts></math>)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "SzClp",
+      "text": "<math><mn>120</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "BcTBl",
+      "text": "<math><mn>210</mn></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "QrdQj",
+      "text": "<math><mn>180</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "5cUOp",
+      "text": "<math><mn>240</mn></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<math><mfrac><mrow><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi></mrow></msub></mrow><mrow><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>n</mi><mo>-</mo><mi>r</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>r</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>20</mn><mo>-</mo><mi>r</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>r</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>21</mn><mo>-</mo><mi>r</mi></mrow><mrow><mi>r</mi></mrow></mfrac></math> <br/><br/> <math><mo>⇒</mo><mi>r</mi><mo>⋅</mo><mfrac><mrow><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi></mrow></msub></mrow><mrow><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow></msub></mrow></mfrac><mo>=</mo><mfenced separators=\"|\"><mrow><mn>21</mn><mo>-</mo><mi>r</mi></mrow></mfenced></math> <br/><br/> <math><mo>⇒</mo><mrow><munderover><mo stretchy=\"false\">∑</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mrow><mn>20</mn></mrow></munderover><mrow><mi>r</mi><mo>⋅</mo></mrow></mrow><mfrac><mrow><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi></mrow></msub></mrow><mrow><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow></msub></mrow></mfrac><mo>=</mo><mrow><munderover><mo stretchy=\"false\">∑</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mrow><mn>20</mn></mrow></munderover><mrow><mfenced separators=\"|\"><mrow><mn>21</mn><mo>-</mo><mi>r</mi></mrow></mfenced></mrow></mrow></math> <br/><br/> <math><mo>=</mo><mn>21</mn><mrow><munderover><mo stretchy=\"false\">∑</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mrow><mn>20</mn></mrow></munderover><mrow><mn>1</mn></mrow></mrow><mo>-</mo><mrow><munderover><mo stretchy=\"false\">∑</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mrow><mn>20</mn></mrow></munderover><mrow><mi>r</mi></mrow></mrow></math> <br/><br/> <math><mo>=</mo><mn>21</mn><mo>×</mo><mn>20</mn><mo>-</mo><mfrac><mrow><mn>20</mn><mo>×</mo><mn>21</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math> <br/><br/> <math><mo>=</mo><mn>210</mn></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

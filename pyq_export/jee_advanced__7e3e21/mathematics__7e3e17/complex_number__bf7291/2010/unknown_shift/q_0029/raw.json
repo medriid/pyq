@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a01f23ac7d519f9b079",
+  "type": "multipleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c46",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010 (Paper 1)",
+      "title": "JEE Advanced 2010 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $z_1$ and $z_2$ be two distinct complex numbers and let $z=(1-t) z_1+t z_2$ for some real number $t$ with $0 < t < 1$. If $\\arg (w)$ denotes the principal argument of a non-zero complex number $w$, then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "6PNlC",
+      "text": "\n$\\left|z-z_1\\right|+\\left|z-z_2\\right|=\\left|z_1-z_2\\right|$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "txCOV",
+      "text": "\n$\\arg \\left(z-z_1\\right)=\\arg \\left(z-z_2\\right)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "AQASf",
+      "text": "\n$\\left|\\begin{array}{cc}z-z_1 & \\bar{z}-\\bar{z}_1 \\\\ z_2-z_1 & \\bar{z}_2-\\bar{z}_1\\end{array}\\right|=0$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "pClPS",
+      "text": "\n$\\arg \\left(z-z_1\\right)=\\arg \\left(z_2-z_1\\right)$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $z=\\frac{(1-t) z_1+t z_2}{(1-t)+t}$\nClearly, $z$ divides $z_1$ and $z_2$ in the ratio of $t:(1-t), 0 < t < 1$\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad A P+B P=A B \\\\\n& \\text { ie, }\\left|z-z_1\\right|+\\left|z-z_2\\right|=\\left|z_1-z_2\\right| \\\\\n& \\Rightarrow \\text { Option (a) is true. } \\\\\n& \\text { and } \\begin{aligned}\n\\arg \\left(z-z_1\\right) & =\\arg \\left(z_2-z\\right) \\\\\n& =\\arg \\left(z_2-z_1\\right)\n\\end{aligned}\n\\end{aligned}\n$$\n$\\Rightarrow$ (b) is false and (d) is true.\nAlso, $\\arg \\left(z-z_1\\right)=\\arg \\left(z_2-z_1\\right)$\n\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad \\arg \\left(\\frac{z-z_1}{z_2-z_1}\\right)=0 \\\\\n& \\therefore \\frac{z-z_1}{z_2-z_1} \\text { is purely real. } \\\\\n& \\Rightarrow \\quad \\frac{z-z_1}{z_2-z_1}=\\frac{\\bar{z}-\\bar{z}_1}{\\bar{z}_2-\\bar{z}_1} \\\\\n& \\text { or }\\left|\\begin{array}{cc}\nz-z_1 & \\bar{z}-\\bar{z}_1 \\\\\nz_2-z_1 & \\bar{z}_2-\\bar{z}_1\n\\end{array}\\right|=0 \\\\\n&\n\\end{aligned}\n$$\n$\\therefore$ Option (c) is correct.\nHence, (a, c, d) is the correct option.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c46",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010 (Paper 1)",
+    "title": "JEE Advanced 2010 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

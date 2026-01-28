@@ -1,0 +1,24 @@
+{
+  "index": 20,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $\\sum_{r=1}^{30} \\frac{r^2\\left({ }^{30} C_r\\right)^2}{{ }^{30} C_{r-1}}=\\alpha \\times 2^{29}$, then $\\alpha$ is equal to ______"
+  },
+  "options": [],
+  "correct_answer": "465",
+  "solution": {
+    "text": "$\\begin{aligned} & \\sum_{\\mathrm{r}=1}^{30} \\frac{\\mathrm{r}^2\\left({ }^{30} \\mathrm{C}_{\\mathrm{r}}\\right)^2}{{ }^{30} \\mathrm{C}_{\\mathrm{r}-1}} \\\\ & =\\sum_{\\mathrm{r}=1}^{30} \\mathrm{r}^2\\left(\\frac{31-\\mathrm{r}}{\\mathrm{r}}\\right) \\cdot \\frac{30!}{\\mathrm{r}!(30-\\mathrm{r})!} \\\\ & \\left(\\because \\frac{{ }^{30} \\mathrm{C}_{\\mathrm{r}}}{{ }^{30} \\mathrm{C}_{\\mathrm{r}-1}}=\\frac{30-\\mathrm{r}+1}{\\mathrm{r}}=\\frac{31-\\mathrm{r}}{\\mathrm{r}}\\right)\\end{aligned}$\n\n\n$\\begin{aligned} & =\\sum_{\\mathrm{r}=1}^{30} \\frac{(31-\\mathrm{r}) 30!}{(\\mathrm{r}-1)!(30-\\mathrm{r})!} \\\\ & =30 \\sum_{\\mathrm{r}=1}^{30} \\frac{(31-\\mathrm{r}) 29!}{(\\mathrm{r}-1)!(30-\\mathrm{r})!} \\\\ & =30 \\sum_{\\mathrm{r}=1}^{30}(30-\\mathrm{r}+1)^{29} \\mathrm{C}_{30-\\mathrm{r}} \\\\ & =30\\left(\\sum_{\\mathrm{r}=1}^{30}(31-\\mathrm{r})^{29} \\mathrm{C}_{30-\\mathrm{r}}+\\sum_{\\mathrm{r}=1}^{30}{ }^{29} \\mathrm{C}_{30-\\mathrm{r}}\\right) \\\\ & =30\\left(29 \\times 2^{28}+2^{29}\\right)=30(29+2) 2^{28} \\\\ & =15 \\times 31 \\times 2^{29} \\\\ & =465\\left(2^{29}\\right) \\\\ & \\alpha=465\\end{aligned}$"
+  }
+}

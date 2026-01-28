@@ -1,0 +1,43 @@
+{
+  "index": 56,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 1 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253547998417ac642afb",
+    "chapter_name": "Trigonometric Equations",
+    "year": "2018",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If $\\tan A$ and $\\tan B$ are the roots of the quadratic equation, $3 x^2-10 x-25=0$ then the value of $3 \\sin ^2(A+B)-10 \\sin (A+B) \\cdot \\cos (A+B)-25 \\cos ^2$ $(A+B)$ is"
+  },
+  "options": [
+    {
+      "text": "\n25\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-25$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$-10$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n10",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "As $\\tan A$ and $\\tan B$ are the roots of $3 x^2-10 x-25=0$\nSo, $\\tan (A+B)=\\frac{\\tan A+\\tan B}{1-\\tan A \\tan B}=\\frac{\\frac{10}{3}}{1+\\frac{25}{3}}$ $=\\frac{10 / 3}{28 / 3}=\\frac{5}{14}$\nNow, $\\cos ^2(A+B)=-1+2 \\cos ^2(A+B)$\n$=\\frac{1-\\tan ^2(A+B)}{1+\\tan ^2(A+B)} \\Rightarrow \\cos ^2(A+B)=\\frac{196}{221}$\n$\\therefore 3 \\sin ^2(A+B)-10 \\sin (A+B)$\n$=\\cos ^2(A+B)\\left[3 \\tan ^2(A+B)-10 \\tan (A+B)-25\\right]$\n$=\\frac{75-700-4900}{196} \\times \\frac{196}{221}=-\\frac{5525}{196} \\times \\frac{196}{221}=-25$"
+  }
+}

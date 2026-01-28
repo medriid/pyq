@@ -1,0 +1,43 @@
+{
+  "index": 156,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "6160242d490647b9be3b3bc6",
+    "chapter_name": "Alternating Current",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A sinusoidal voltage $\\mathrm{V}(\\mathrm{t})=100 \\sin (500 \\mathrm{t})$ is applied across a pure inductance of $L=0.02 \\mathrm{H}$. The current through the coil is:"
+  },
+  "options": [
+    {
+      "text": "\n$10 \\cos (500 \\mathrm{t})$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-10 \\cos (500 \\mathrm{t})$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$10 \\sin (500 t)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-10 \\sin (500 t)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "In a pure inductive circuit current always lags behind the emf by $\\frac{\\pi}{2}$.\nIf $\\mathrm{v}(\\mathrm{t})=\\mathrm{v}_0 \\sin \\omega \\mathrm{t}$ then $I=I_0 \\sin \\left(\\omega t-\\frac{\\pi}{2}\\right)$ Now, given $v(t)=100 \\sin (500 t)$ and $\\mathrm{I}_0=\\frac{\\mathrm{E}_0}{\\omega \\mathrm{L}}=\\frac{100}{500 \\times 0.02}[\\because \\mathrm{L}=0.02 \\mathrm{H}]$ $\\mathrm{I}_0=10 \\sin \\left(500 \\mathrm{t}-\\frac{\\pi}{2}\\right)$ $\\mathrm{I}_0=-10 \\cos (500 \\mathrm{t})$"
+  }
+}

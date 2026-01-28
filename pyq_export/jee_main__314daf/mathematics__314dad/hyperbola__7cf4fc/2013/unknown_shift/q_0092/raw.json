@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65cf7",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-25T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (25 Apr Online)",
+      "title": "JEE Main 2013 (25 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "Consider the system of equations :\n$x+a y=0, y+a z=0$ and $z+a x=0$. Then the set of all real values of ' $a$ ' for which the system has a unique solution is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "5qJBZ",
+      "text": "\n$\\mathrm{R}-\\{1\\}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Vdbmm",
+      "text": "\n$\\mathrm{R}-\\{-1\\}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "ZnRkZ",
+      "text": "\n$\\{1,-1\\}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "eyhKA",
+      "text": "\n $\\{1,0,-1\\}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given system of equations is homogeneous which is\n$$\n\\begin{aligned}\n&x+a y=0 \\\\\n&y+a z=0 \\\\\n&z+a x=0\n\\end{aligned}\n$$\nIt can be written in matrix form as\n$$\n\\mathrm{A}=\\left(\\begin{array}{lll}\n1 & a & 0 \\\\\n0 & 1 & a \\\\\na & 0 & 1\n\\end{array}\\right)\n$$\nNow, $|\\mathrm{A}|=\\left[1-a\\left(-a^2\\right)\\right]=1+a^3 \\neq 0$\nSo, system has only trivial solution.\nNow, $|\\mathrm{A}|=0$ only when $a=-1$\nSo, system of equations has infinitely many solutions which is not possible because it is given that system has a unique solution.\nHence set of all real values of ' $a$ ' is\n$$\n\\mathrm{R}-\\{-1\\}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-25T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (25 Apr Online)",
+    "title": "JEE Main 2013 (25 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

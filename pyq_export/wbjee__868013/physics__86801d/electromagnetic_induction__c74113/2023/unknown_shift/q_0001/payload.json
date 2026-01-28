@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c8f2c567a99ecc74113",
+    "chapter_name": "Electromagnetic Induction",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "An amount of charge Q passes through a coil of resistance R. If the current in the coil decreases to zero at a uniform rate during time \\(T\\), then the amount of heat generated in the coil will be,"
+  },
+  "options": [
+    {
+      "text": "\\(\\frac{4 Q^2 R}{3 T}\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(\\frac{2 Q^2 R}{3 T}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{Q^2 R}{4 R}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(Q^2 R T\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Hint : <img src=\"assets\\st0001_2930d1408873.png\"><br>\nGiven, \\(\\frac{1}{2} \\mathrm{I}_0 T=Q \\Rightarrow \\mathrm{I}_0=\\frac{2 \\mathrm{Q}}{\\mathrm{T}}\\)\nEquation of \\(\\mathrm{I}(\\mathrm{t}) \\Rightarrow \\frac{\\mathrm{I}}{\\mathrm{I}_0}+\\frac{\\mathrm{t}}{\\mathrm{T}}=1\\)\n\\(\\begin{aligned}\n& I=I_0\\left(1-\\frac{t}{T}\\right)=\\frac{2 Q}{T}\\left(1-\\frac{t}{T}\\right) \\\\\n& \\text { Heat }=\\int_0^T I^2 R d f \\\\\n& =R \\int_0^T \\frac{4 Q^2}{T^2}\\left(1-\\frac{t}{T}\\right)^2 \\\\\n& =\\frac{4 Q^2 R}{T^2}\\left[\\int_0^T d t+\\frac{1}{T^2} \\int_0^T t^2 d t-\\frac{2}{T} \\int_0^T t d t\\right]=\\frac{4 Q^2 R}{T^2}\\left[\\not T+\\frac{T}{3}-\\not T\\right]=\\frac{4 Q^2 R}{3 T}\n\\end{aligned}\\)"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 64,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602558b700fbea58c9cf49",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mrow><mtable columnalign=\"left\" columnspacing=\"1.4ex\"><mtr><mtd><mfrac><mrow><msup><mi>e</mi><mfrac><mn>2</mn><mi>x</mi></mfrac></msup><mo>-</mo><mn>1</mn></mrow><mrow><msup><mi>e</mi><mfrac><mn>2</mn><mi>x</mi></mfrac></msup><mo>+</mo><mn>1</mn></mrow></mfrac></mtd><mtd><mo>:</mo><mi>x</mi><mo>≠</mo><mn>0</mn></mtd></mtr><mtr><mtd><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><mn>0</mn></mtd><mtd><mo>:</mo><mi>x</mi><mo>=</mo><mn>0</mn></mtd></mtr></mtable><mo>,</mo></mrow></mfenced></math> then <math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math> is"
+  },
+  "options": [
+    {
+      "text": "Continuous as well as differentiable at <math><mi>x</mi><mo>=</mo><mn>0</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "Continuous but not differentiable at <math><mi>x</mi><mo>=</mo><mn>0</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "Differentiable but not continuous at <math><mi>x</mi><mo>=</mo><mn>0</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mo>⁡</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mn>0</mn><mo>-</mo><mi>h</mi></mrow></mfenced><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mo>⁡</mo><mfrac><mrow><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>2</mn><mi>h</mi></mfrac></mrow></msup><mo>-</mo><mn>1</mn></mrow><mrow><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>2</mn><mi>h</mi></mfrac></mrow></msup><mo>+</mo><mn>1</mn></mrow></mfrac></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>0</mn><mo>-</mo><mn>1</mn></mrow><mrow><mn>0</mn><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo>-</mo><mn>1</mn></math><br />and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mo>⁡</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mn>0</mn><mo>+</mo><mi>h</mi></mrow></mfenced><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mo>⁡</mo><mfrac><mrow><msup><mi>e</mi><mfrac><mn>2</mn><mi>h</mi></mfrac></msup><mo>-</mo><mn>1</mn></mrow><mrow><msup><mi>e</mi><mfrac><mn>2</mn><mi>h</mi></mfrac></msup><mo>+</mo><mn>1</mn></mrow></mfrac></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mo>⁡</mo><mfrac><mrow><mn>1</mn><mo>-</mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>2</mn><mi>h</mi></mfrac></mrow></msup></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>2</mn><mi>h</mi></mfrac></mrow></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mo>-</mo><mn>0</mn></mrow><mrow><mn>1</mn><mo>+</mo><mn>0</mn></mrow></mfrac><mo>=</mo><mn>1</mn></math><br />Since,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mo>⁡</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mn>0</mn><mo>-</mo><mi>h</mi></mrow></mfenced><mo>≠</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mo>⁡</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mn>0</mn><mo>+</mo><mi>h</mi></mrow></mfenced><mo>,</mo></math> therefore,&nbsp;<math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math> is not continuous and not differentiable at <math><mi>x</mi><mo>=</mo><mn>0</mn><mo>.</mo></math>"
+  }
+}

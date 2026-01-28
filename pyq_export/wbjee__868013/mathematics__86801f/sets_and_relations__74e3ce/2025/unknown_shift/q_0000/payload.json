@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2025",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d00146ed0ebdd74e3ce",
+    "chapter_name": "Sets and Relations",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of reflexive relations on a set $A$ of $n$ elements is equal to"
+  },
+  "options": [
+    {
+      "text": "$2^{n^2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{n}^2$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^{n(n-1)}$",
+      "is_correct": true
+    },
+    {
+      "text": "$n^2-n$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Total number of ordered pair $=\\mathrm{n}^2$\nNumber of pair that can be included or excluded $=n^2-n$\nEach of the remaining $\\mathrm{n}^2-\\mathrm{n}$ pairs we have two choices\nInclude it in the relation or not include it\nSo total no. of reflexive relation is $2^{n(n-1)}$"
+  }
+}

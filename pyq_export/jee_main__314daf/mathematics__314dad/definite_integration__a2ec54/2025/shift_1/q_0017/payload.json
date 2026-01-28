@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "$\\operatorname{IfI}(m, n)=\\int_0^1 x^{m-1}(1-x)^{n-1} d x, m, n\\gt0$, then $I(9,14)+I(10,13)$ is"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{I}(19,27)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{I}(9,1)$",
+      "is_correct": false
+    },
+    {
+      "text": "$I(1,13)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{I}(9,13)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{I}(\\mathrm{m}, \\mathrm{m})=\\int_0^1 \\mathrm{x}^{\\mathrm{m}-1}(1-\\mathrm{x})^{\\mathrm{n}-1} d \\mathrm{x} \\\\ & \\text { Let } \\mathrm{x}=\\sin ^2 \\theta \\quad \\mathrm{dx}=2 \\sin \\theta \\cos \\theta \\mathrm{~d} \\theta \\\\ & \\mathrm{I}(\\mathrm{m}, \\mathrm{n})=2 \\int_0^{\\pi / 2}(\\sin \\theta)^{2 \\mathrm{~m}-1}(\\cos \\theta)^{2 \\mathrm{n}-1} d \\theta \\\\ & \\mathrm{I}(9,14)+\\mathrm{I}(10,13)=2 \\int_0^{\\pi / 2}(\\sin \\theta)^{17}(\\cos \\theta)^{27} d \\theta \\\\ & +2 \\int_0^{\\pi / 2}(\\sin \\theta)^{19}(\\cos \\theta)^{25} d \\theta \\\\ & =2 \\int_0^{\\pi / 2}(\\sin \\theta)^{17}(\\cos \\theta)^{25} d \\theta \\\\ & =\\mathrm{I}(9,13)\\end{aligned}$"
+  }
+}

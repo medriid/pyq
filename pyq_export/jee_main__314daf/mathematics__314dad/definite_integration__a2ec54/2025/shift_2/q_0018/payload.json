@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $\\mathrm{I}=\\int_0^{\\frac{\\pi}{2}} \\frac{\\sin ^{\\frac{3}{2}} x}{\\sin ^{\\frac{3}{2}} x+\\cos ^{\\frac{3}{2}} x} \\mathrm{~d} x$, then $\\int_0^{21} \\frac{x \\sin x \\cos x}{\\sin ^4 x+\\cos ^4 x} \\mathrm{~d} x$ equals :"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\pi^2}{12}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi^2}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi^2}{16}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\pi^2}{8}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& I=\\int_0^{\\frac{\\pi}{2}} \\frac{(\\sin x)^{\\frac{3}{2}} d x}{(\\sin x)^{\\frac{3}{2}} x+(\\cos x)^{\\frac{3}{2}}}=\\int_0^{\\frac{\\pi}{2}} \\frac{\\sin ^{\\frac{3}{2}}\\left(\\frac{\\pi}{2}-x\\right) d x}{\\sin ^{\\frac{3}{2}}\\left(\\frac{\\pi}{2}-x\\right)+\\cos ^{\\frac{3}{2}}\\left(\\frac{\\pi}{2}-x\\right)} \\\\\n& \\Rightarrow \\text { Adding } 2 l=\\int_0^{\\frac{\\pi}{2}} \\frac{(\\sin x)^{\\frac{3}{2}}+(\\cos x)^{\\frac{3}{2}}}{(\\sin x)^{\\frac{3}{2}}+(\\cos x)^{\\frac{3}{2}}} d x=\\frac{\\pi}{2} \\\\\n& I_0=\\int_0^{\\frac{\\pi}{2}} \\frac{x \\sin x \\cos x}{\\sin ^4 x+\\cos ^4 x} d x=\\int_0^{\\frac{\\pi}{2}} \\frac{\\left(\\frac{\\pi}{2}-x\\right) \\sin x \\cos x}{(\\sin x)^4+(\\cos x)^4} d x\n\\end{aligned}$\nAdding, $2 I_0=\\int_0^{\\frac{\\pi}{2}} \\frac{\\frac{\\pi}{2}(\\sin x) \\cos x}{\\left(\\sin ^4 x+\\cos ^4 x\\right)} d x$\n$\\Rightarrow I_0=\\frac{\\pi}{4} \\int_0^{\\frac{\\pi}{2}} \\frac{\\tan x\\left(\\sec ^2 x\\right) d x}{1+\\tan ^4 x}$\nput $\\tan ^2 x=t \\Rightarrow 2 \\tan x \\sec ^2 x d x=d t$\n$\\begin{aligned}\n& \\Rightarrow I_0=\\frac{\\pi}{4} \\int_0^{\\infty} \\frac{\\frac{d t}{2}}{\\left(1+t^2\\right)}=\\left.\\frac{\\pi}{8}\\left(\\tan ^{-1} t\\right)\\right|_0 ^{\\infty}=\\frac{\\pi}{8}\\left(\\frac{\\pi}{2}-0\\right) \\\\\n& \\Rightarrow I_0=\\frac{\\pi^2}{16}\n\\end{aligned}$"
+  }
+}

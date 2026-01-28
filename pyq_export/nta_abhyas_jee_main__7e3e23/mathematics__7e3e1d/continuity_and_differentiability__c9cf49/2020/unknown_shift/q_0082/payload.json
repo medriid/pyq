@@ -1,0 +1,24 @@
+{
+  "index": 82,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602558b700fbea58c9cf49",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<p>If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\" separators=\"|\"><mtable columnalign=\"left\"><mtr><mtd><mfrac><mrow><msup><mi>e</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></mfenced></msup><mo>-</mo><mi>a</mi></mrow><mrow><msup><mi>e</mi><mfrac><mn>1</mn><mi>x</mi></mfrac></msup><mo>+</mo><mn>1</mn></mrow></mfrac></mtd><mtd><mo>:</mo></mtd><mtd><mi>x</mi><mo>≠</mo><mn>0</mn></mtd></mtr><mtr><mtd><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><mo>&nbsp;</mo><mi>b</mi></mtd><mtd><mo>:</mo></mtd><mtd><mi>x</mi><mo>=</mo><mn>0</mn></mtd></mtr></mtable></mfenced></math> (where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> are arbitrary constants) is continuous at <math><mi>x</mi><mo>=</mo><mn>0</mn></math>, then the value of&nbsp;<math><msup><mrow><mi>a</mi></mrow><mrow><mn>2</mn></mrow></msup></math> is equal to</p>\r\r<p>(use&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi><mo>=</mo><mn>2</mn><mo>.7</mo></math>)</p>\r"
+  },
+  "options": [],
+  "correct_answer": "7.29",
+  "solution": {
+    "text": "At <math><mi>x</mi><mo>=</mo><mn>0</mn></math>,<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>LHL</mi><mo>=</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>h</mi><mo>&#8594;</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mi>f</mi><mfenced separators=\"|\"><mrow><mn>0</mn><mo>-</mo><mi>h</mi></mrow></mfenced><mo>=</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>h</mi><mo>&#8594;</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mfrac><mrow><msup><mi>e</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mi>h</mi></mfrac></mrow></mfenced></msup><mo>-</mo><mi>a</mi></mrow><mrow><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>1</mn><mi>h</mi></mfrac></mrow></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>0</mn><mo>-</mo><mi>a</mi></mrow><mrow><mn>0</mn><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mo>-</mo><mi>a</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>RHL</mi><mo>=</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>h</mi><mo>&#8594;</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mi>f</mi><mfenced separators=\"|\"><mrow><mn>0</mn><mo>+</mo><mi>h</mi></mrow></mfenced><mo>=</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>h</mi><mo>&#8594;</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mfrac><mrow><msup><mi>e</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mi>h</mi></mfrac></mrow></mfenced></msup><mo>-</mo><mi>a</mi></mrow><mrow><msup><mi>e</mi><mfrac><mn>1</mn><mi>h</mi></mfrac></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>e</mi><mo>-</mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>1</mn><mi>h</mi></mfrac></mrow></msup><mo>&#215;</mo><mi>a</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>1</mn><mi>h</mi></mfrac></mrow></msup></mrow></mfrac><mo>=</mo><mi>e</mi></math><br />and <math><mi>f</mi><mfenced separators=\"|\"><mrow><mn>0</mn></mrow></mfenced><mo>=</mo><mi>b</mi></math><br /><math><mo>&#8757;</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math> is continuous at <math><mi>x</mi><mo>=</mo><mn>0</mn></math><br /><math><mo>&#8756;</mo><mo>-</mo><mi>a</mi><mo>=</mo><mi>e</mi><mo>=</mo><mi>b</mi><mo>&#8658;</mo><mi>a</mi><mo>=</mo><mo>-</mo><mi>e</mi></math><br /><math><msup><mrow><mi>a</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>=</mo><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn></mrow></msup></math>"
+  }
+}

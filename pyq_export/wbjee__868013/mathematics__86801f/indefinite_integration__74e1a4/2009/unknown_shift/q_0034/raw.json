@@ -1,0 +1,63 @@
+{
+  "_id": "64a813a2e0ff5a5425a8540d",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009",
+      "title": "WBJEE 2009"
+    }
+  ],
+  "question": {
+    "text": "$\\int \\frac{\\mathrm{dx}}{\\sin x+\\sqrt{3} \\cos x}$ equals\n\nwhere $\\mathrm{c}$ is an arbitrary constant",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "enCXX",
+      "text": "$\\frac{1}{2} \\ln \\left|\\tan \\left(\\frac{x}{2}-\\frac{\\pi}{6}\\right)\\right|+c$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "3w4Vp",
+      "text": "$\\frac{1}{2} \\ln \\left|\\tan \\left(\\frac{\\mathrm{x}}{4}-\\frac{\\pi}{6}\\right)\\right|+c$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Ujngu",
+      "text": "$\\frac{1}{2} \\ln \\left|\\tan \\left(\\frac{x}{2}+\\frac{\\pi}{6}\\right)\\right|+c$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "4Kl6w",
+      "text": "$\\frac{1}{2} \\ln \\left|\\tan \\left(\\frac{\\mathrm{x}}{4}+\\frac{\\pi}{3}\\right)\\right|+\\mathrm{c}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hints : $\\int \\frac{d x}{\\sin x+\\sqrt{3} \\cos x}=\\int \\frac{d x}{2\\left(\\frac{1}{2} \\sin x+\\frac{\\sqrt{3}}{2} \\cos x\\right)}=\\frac{1}{2} \\int \\frac{d x}{\\sin \\left(x+\\frac{\\pi}{3}\\right)}$\n$$\n\\begin{aligned}\n& =\\frac{1}{2} \\int \\operatorname{cosec}\\left(\\mathrm{x}+\\frac{\\pi}{3}\\right) \\mathrm{dx}=\\frac{1}{2} \\log \\left|\\tan \\left(\\frac{\\mathrm{x}}{2}+\\frac{\\pi}{6}\\right)\\right|+\\mathrm{c} \\\\\n& =\\frac{1}{2} \\ln \\left|\\tan \\left(\\frac{\\mathrm{x}}{2}+\\frac{\\pi}{6}\\right)\\right|+\\mathrm{c}\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009",
+    "title": "WBJEE 2009"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

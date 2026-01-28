@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a6f417cc3fb48d6825e",
+  "previousYearPapers": [
+    {
+      "_id": "63f499871d196b49d9cd6b10",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2023-01-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (30 Jan Shift 2)",
+      "title": "JEE Main 2023 (30 Jan Shift 2)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> is a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>&#215;</mo><mn>3</mn></math>&nbsp;real matrix such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>P</mi><mi>T</mi></msup><mo>=</mo><mi>a</mi><mi>P</mi><mo>+</mo><mo>(</mo><mi>a</mi><mo>-</mo><mn>1</mn><mo>)</mo><mi mathvariant=\"normal\">I</mi></math>, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&#62;</mo><mn>1</mn></math>, then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "gjzuW",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> is a singular matrix",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "67J8t",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>Adj</mo><mi>P</mi><mo>|</mo><mo>&#62;</mo><mn>1</mn></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "J5AFY",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>Adj</mo><mi>P</mi><mo>|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "8lOAn",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>Adj</mo><mi>P</mi><mo>|</mo><mo>=</mo><mn>1</mn></math>",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>P</mi><mi>T</mi></msup><mo>=</mo><mi>a</mi><mi>P</mi><mo>+</mo><mo>(</mo><mi>a</mi><mo>-</mo><mn>1</mn><mo>)</mo><mi mathvariant=\"normal\">I</mi><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>(</mo><mn>1</mn><mo>)</mo></math></p><p>Taking transpose on both sides we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><msup><mi>P</mi><mi>T</mi></msup></mfenced><mi>T</mi></msup><mo>=</mo><msup><mfenced><mrow><mi>aP</mi><mo>+</mo><mo>(</mo><mi mathvariant=\"normal\">a</mi><mo>-</mo><mn>1</mn><mo>)</mo><mi mathvariant=\"normal\">I</mi></mrow></mfenced><mi>T</mi></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mo>=</mo><mi>a</mi><msup><mi>P</mi><mi mathvariant=\"normal\">T</mi></msup><mo>+</mo><mo>(</mo><mi>a</mi><mo>-</mo><mn>1</mn><mo>)</mo><mi mathvariant=\"normal\">I</mi><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>(</mo><mn>2</mn><mo>)</mo></math></p><p>Subtract equation (1) and (2),</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>P</mi><mi>T</mi></msup><mo>-</mo><mi>P</mi><mo>=</mo><mi>a</mi><mfenced><mrow><mi>P</mi><mo>-</mo><msup><mi>P</mi><mi>T</mi></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mo>=</mo><msup><mi>P</mi><mi mathvariant=\"italic\">T</mi></msup></math>&nbsp;as&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&#8800;</mo><mo>-</mo><mn>1</mn></math></p><p>From equation (1),</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mi>a</mi><mi>P</mi><mo>+</mo><mo>(</mo><mi>a</mi><mo>-</mo><mn>1</mn><mo>)</mo><mi>I</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mo>=</mo><mo>-</mo><mi>I</mi></math></p><p>Taking adjoint on both sides,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>Adj</mi><mo>&#160;</mo><mi>P</mi><mo>=</mo><mi>Adj</mi><mo>(</mo><mo>-</mo><mi>I</mi><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfenced open=\"|\" close=\"|\"><mrow><mi>Adj</mi><mo>&#160;</mo><mi>P</mi></mrow></mfenced><mo>=</mo><mfenced open=\"|\" close=\"|\"><mrow><mi>Adj</mi><mo>&#160;</mo><mo>(</mo><mo>-</mo><mi>I</mi><mo>)</mo></mrow></mfenced><mo>=</mo><msup><mfenced open=\"|\" close=\"|\"><mrow><mo>-</mo><mi>I</mi></mrow></mfenced><mn>2</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>|</mo><mo>Adj</mo><mi>P</mi><mo>|</mo><mo>=</mo><mn>1</mn></math></p>",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "63f499871d196b49d9cd6b10",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2023-01-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (30 Jan Shift 2)",
+    "title": "JEE Main 2023 (30 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

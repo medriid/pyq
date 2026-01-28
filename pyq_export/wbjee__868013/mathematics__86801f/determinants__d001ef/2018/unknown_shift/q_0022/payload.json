@@ -1,0 +1,43 @@
+{
+  "index": 22,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0a7e939ac068d001ef",
+    "chapter_name": "Determinants",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $a_{r}=(\\cos 2 r \\pi+i \\sin 2 r \\pi)^{1 / 9}$, then the value of\r\n$\\left|\\begin{array}{lll}a_{1} & a_{2} & a_{3} \\\\ a_{4} & a_{5} & a_{6} \\\\ a_{7} & a_{8} & a_{9}\\end{array}\\right|$ is equal to"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "-1",
+      "is_correct": false
+    },
+    {
+      "text": "0",
+      "is_correct": true
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have,\r\n$a_{r}=(\\cos 2 r \\pi+i \\sin 2 r \\pi)^{1 / 9}=e^{\\frac{2 r \\pi i}{9}}$\r\nNow, $\\left|\\begin{array}{lll}a_{1} & a_{2} & a_{3} \\\\ a_{4} & a_{5} & a_{6} \\\\ a_{7} & a_{8} & a_{9}\\end{array}\\right|=\\left|\\begin{array}{ccc}\\ e^{\\frac{2 \\pi i}{9}} & e^{\\frac{4 \\pi i}{9}} & e^{\\frac{6 \\pi i}{9}} \\\\ e^{\\frac{8 \\pi i}{9}} & e^{\\frac{10 \\pi i}{9}} & e^{\\frac{12 \\pi i}{9}} \\\\ e^{\\frac{14 \\pi i}{9}} & e^{\\frac{16 \\pi i}{9}} & e^{\\frac{18 \\pi i}{9}}\\end{array}\\right|$\r\n$=e^{\\frac{2 \\pi i}{9}} \\times e^{\\frac{8 \\pi i}{9}}\\left|\\begin{array}{ccc}1 & e^{\\frac{2 \\pi i}{9}} & e^{\\frac{4 \\pi i}{9}} \\\\ 1 & e^{\\frac{2 \\pi i}{9}} & e^{\\frac{4 \\pi i}{9}} \\\\ e^{\\frac{14 \\pi i}{9}} & e^{\\frac{16 \\pi i}{9}} & e^{\\frac{18 \\pi i}{9}}\\end{array}\\right|$\r\n$=e^{\\frac{2 \\pi i}{9}} \\times e^{\\frac{8 \\pi}{9}} \\times 0 \\quad\\left(\\because R_{1}\\right.$ and $R_{2}$ are identical $)$\r\n$=0$"
+  }
+}

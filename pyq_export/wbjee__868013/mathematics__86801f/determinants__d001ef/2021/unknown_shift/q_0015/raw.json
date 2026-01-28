@@ -1,0 +1,63 @@
+{
+  "_id": "64a81474e0ff5a5425a85bc9",
+  "previousYearPapers": [
+    {
+      "_id": "61a1eb3cb860a4fc00943685",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2021-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021",
+      "title": "WBJEE 2021"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Let $A=\\left(\\begin{array}{ccc}1 & 0 & 0 \\\\ 0 & \\text { cost } & \\text { sint } \\\\ 0 & -\\sin t & \\cos t\\end{array}\\right)$\r\nLet $\\lambda_{1}, \\lambda_{2}, \\lambda_{3}$ be the roots of $\\operatorname{det}\\left(A-\\lambda I_{3}\\right)=0$, where $I_{3}$ denotes the identity matrix. If $\\lambda_{1}+\\lambda_{2}+\\lambda_{3}=\\sqrt{2}+1$, then the set of possible values of $t,-\\pi \\leq t     < \\pi$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "TjyUw",
+      "text": "a void set",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "6Jtxt",
+      "text": "$\\left\\{\\frac{\\pi}{4}\\right\\}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "XY9Ma",
+      "text": "$\\left\\{-\\frac{\\pi}{4}, \\frac{\\pi}{4}\\right\\}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "PITTp",
+      "text": "$\\left\\{-\\frac{\\pi}{3}, \\frac{\\pi}{3}\\right\\}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\left|\\begin{array}{ccc}1-\\lambda & 0 & 0 \\\\ 0 & \\cos t-\\lambda & \\sin t \\\\ 0 & -\\sin t & \\cos t-\\lambda\\end{array}\\right|=0$\r\n$\\Rightarrow(1-\\lambda)(\\cos t-\\lambda)^{2}+\\sin ^{2} t=0$\r\n$\\Rightarrow(1-\\lambda)\\left(\\lambda^{2}-2 \\lambda \\cos t+\\cos ^{2} t\\right)+\\sin ^{2} t=0$\r\n$\\Rightarrow \\lambda^{2}-2 x \\cos t+\\cos ^{2} t-\\lambda^{3}+2 \\lambda^{2} \\cos t+\\lambda \\cos ^{2} t+\\sin ^{2} t=0$\r\n$\\Rightarrow-\\lambda^{3}+\\lambda^{2}(1+2 \\cos t)+\\lambda\\left(\\cos ^{2} t-2 \\cos t\\right)+1=0$\r\n$\\lambda_{1}+\\lambda_{2}+\\lambda_{3}=1+2 \\operatorname{cost}=1+\\sqrt{2}$\r\n$\\therefore$ cost $=\\frac{1}{\\sqrt{2}} \\Rightarrow \\mathrm{t}=\\frac{\\pi}{4},-\\frac{\\pi}{4}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a1eb3cb860a4fc00943685",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2021-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021",
+    "title": "WBJEE 2021"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

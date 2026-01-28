@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ccd1d619927718b113a",
+    "chapter_name": "Permutation Combination",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let \\(A\\) be a set containing \\(n\\) elements. \\(A\\) subset \\(P\\) of \\(A\\) is chosen, and the set \\(A\\) is reconstructed by replacing the elements of \\(P\\). A subset \\(Q\\) of \\(A\\) is chosen again. The number of ways of choosing \\(P\\) and \\(Q\\) such the \\(Q\\) contains just one element more than \\(P\\) is"
+  },
+  "options": [
+    {
+      "text": "\\({ }^{2 n} C_{n-1}\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\({ }^{2 n} C_n\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\({ }^{2 n} C_{n+2}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(2^{2 n+1}\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Hint : Required number of ways\n\\(\\begin{aligned}\n& ={ }^{\\mathrm{n}} \\mathrm{C}_0 \\cdot{ }^{\\mathrm{n}} \\mathrm{C}_1+{ }^{\\mathrm{n}} \\mathrm{C}_1 \\cdot{ }^{\\mathrm{n}} \\mathrm{C}_2+\\ldots+{ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{n}-1} \\cdot{ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{n}} \\\\\n& ={ }^{2 \\mathrm{n}} \\mathrm{C}_{\\mathrm{n}-1}\n\\end{aligned}\\)"
+  }
+}

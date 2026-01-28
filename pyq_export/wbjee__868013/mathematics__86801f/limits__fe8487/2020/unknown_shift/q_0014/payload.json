@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2020",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $0    < \\alpha < \\beta < 1$. Then $\\lim {n \\rightarrow \\infty} \\sum_{k=1}^{n} \\int_{1/k+\\beta}^{1 /(k+a)} \\frac{d x}{1+x}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\log _{e} \\frac{\\beta}{\\alpha}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log _{e} \\frac{1+\\beta}{1+\\alpha}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\log _{e} \\frac{1+\\alpha}{1+\\beta}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\infty$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Hint:\r\n$\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n}[\\log |1+x|]_{\\frac{1}{k+\\beta}} \\frac{1}{k+a}$\r\n$=\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n}\\left(\\log \\left(1+\\frac{1}{k+\\alpha}\\right)-\\log \\left(1+\\frac{1}{k+\\beta}\\right)\\right)$\r\n$=\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n}\\left(\\log \\left(\\frac{k+\\alpha+1}{k+\\alpha}\\right)-\\log \\left(\\frac{k+\\beta+1}{k+\\beta}\\right)\\right)$\r\n$=\\log \\left(\\frac{\\beta+1}{\\alpha+1}\\right)$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c9339605acb15874e6f",
+    "chapter_name": "Dual Nature of Matter",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "When light of frequency $v_{1}$ is incident on a metal with work function $W$ (where $h v_{1}>w$ ), then photocurrent falls to zero at a stopping potential of $V_{1}$. If the frequency of light is increased to $v_{2},$ the stopping potential changes to $V_{2}$. Therefore, the charge of an electron is given by"
+  },
+  "options": [
+    {
+      "text": "$\\frac{W\\left(v_{2}+v_{1}\\right)}{v_{1} V_{2}+v_{2} V_{1}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{W\\left(v_{2}+v_{1}\\right)}{v_{1} V_{1}+v_{2} V_{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{W\\left(v_{2}-v_{1}\\right)}{v_{1} V_{2}-v_{2} V_{1}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{W\\left(v_{2}-v_{1}\\right)}{v_{2} V_{2}-v_{1} V_{1}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "From Einstein's photoelectric equation,\r\n$$\r\n\\begin{array}{l}\r\nh v=W+e V \\\\\r\nW=\\text { Work function }\r\n\\end{array}\r\n$$\r\n$v=$ Frequency of incident photon \r\n$V=$ Stopping potential \r\nFor a photon of frequency $v_{1},$\r\n$$\r\nh v_{1}=W+e V_{1}\r\n$$\r\nFor photon of frequency $v_{2}$\r\n$$\r\nh v_{2}=W+e V_{2}\r\n$$\r\nDivided Eq. (i) by Eq. (ii),\r\n$$\r\n\\begin{aligned}\r\n\\frac{h v_{1}}{h v_{2}} &=\\frac{W+e V_{1}}{W+e V_{2}} \\\\\r\n\\frac{v_{1}}{v_{2}} &=\\frac{W+e V_{1}}{W+e V_{2}}\r\n\\end{aligned}\r\n$$\r\n$\\Rightarrow W v_{1}+e V_{2} v_{1}=W v_{2}+e V_{1} v_{2}$\r\nSolving above equation, $\\Rightarrow \\quad e=\\frac{W\\left(v_{2}-v_{1}\\right)}{V_{2} v_{1}-V_{1} v_{2}}$"
+  }
+}

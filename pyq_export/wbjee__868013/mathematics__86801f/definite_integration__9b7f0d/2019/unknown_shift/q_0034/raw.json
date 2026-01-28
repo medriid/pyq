@@ -1,0 +1,63 @@
+{
+  "_id": "64a81451e0ff5a5425a85a8a",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7e",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2019-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019",
+      "title": "WBJEE 2019"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "$\\lim _{n \\rightarrow \\infty} \\frac{3}{n}\\left\\{1+\\sqrt{\\frac{n}{n+3}}+\\sqrt{\\frac{n}{n+6}}+\\sqrt{\\frac{n}{n+9}}\\right.$$+\\ldots+\\sqrt{\\frac{1}{n+3}(n-1)}$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Th3wI",
+      "text": "does not exist",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "sDu2v",
+      "text": "is 1",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "49ScZ",
+      "text": "is 2",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "iQis8",
+      "text": "is 3",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\lim _{n \\rightarrow \\infty} \\frac{3}{n}\\left[1+\\sqrt{\\frac{n}{n+3}}+\\sqrt{\\frac{n}{n+6}}+\\sqrt{\\frac{n}{n+9}}+\\ldots\\right.+\\sqrt{\\frac{n}{n+3(n-1)}}$\r\n$=\\lim _{n \\rightarrow \\infty} \\frac{3}{n}\\left[\\sqrt{\\frac{n}{n+3 \\times 0}}+\\sqrt{\\frac{n}{n+3 \\times 1}}+\\sqrt{\\frac{n}{n+3 \\times 2}}\\right.$\r\n$+\\sqrt{\\frac{n}{n+3 \\times 3}}+\\ldots+\\sqrt{\\frac{n}{n+3(n-1)}}$\r\n$=\\lim _{n \\rightarrow \\infty} \\frac{3}{n}\\left[\\sum_{r=0}^{n-1} \\sqrt{\\frac{n}{n+3 r}}\\right]$\r\n$=\\lim _{n \\rightarrow \\infty} \\frac{3}{n}\\left[\\sum_{r=0}^{n-1}\\left[\\frac{1}{1+3\\left(\\frac{r}{n}\\right)}\\right]\\right.$\r\n$=3 \\lim _{n \\rightarrow \\infty} \\frac{1}{n} \\sum_{r=0}^{n-1} \\left(\\sqrt{1+3\\left(\\frac{r}{n}\\right)}\\right)^{-\\frac{1}{2}}$\r\n$=3 \\int_{0}^{1} \\sqrt{\\frac{1}{1+3 x}} d x$\r\n$=3 \\int_{0}^{1}(1+3 x)^{-1 / 2} d x$\r\n$=3\\left[\\frac{2 \\sqrt{1+3 x}}{3}\\right]_{0}^{1}$\r\n$=[4-2]$\r\n$=2$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7e",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2019-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019",
+    "title": "WBJEE 2019"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

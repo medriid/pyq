@@ -1,0 +1,24 @@
+{
+  "index": 35,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let the positive integers be written in the form :\n<img src=\"assets\\qt0035_dee391d394d8.png\"><br />If the $k^{\\text {th }}$ row contains exactly $k$ numbers for every natural number $k$, then the row in which the number 5310 will be, is _______"
+  },
+  "options": [],
+  "correct_answer": "103",
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{S}=1+2+4+7+\\ldots \\ldots+\\mathrm{T}_{\\mathrm{n}} \\\\ & \\mathrm{S}=1+2+4+\\ldots \\ldots \\\\ & \\mathrm{Tn}=1+1+2+3+\\ldots \\ldots+\\left(\\mathrm{T}_{\\mathrm{n}}-\\mathrm{T}_{\\mathrm{n}-1}\\right) \\\\ & \\mathrm{T}_{\\mathrm{n}}=1+\\left(\\frac{\\mathrm{n}-1}{2}\\right)[2+(\\mathrm{n}-2) \\times 1] \\\\ & \\mathrm{T}_{\\mathrm{n}}=1+1+\\frac{\\mathrm{n}(\\mathrm{n}-1)}{2} \\\\ & \\mathrm{n}=100 \\quad \\mathrm{~T}_{\\mathrm{n}}=1+\\frac{100 \\times 99}{2}=4950+1 \\\\ & \\mathrm{n}=101 \\quad \\mathrm{~T}_{\\mathrm{n}}=1+\\frac{101 \\times 100}{2}=5050+1=5051 \\\\ & \\mathrm{n}=102 \\quad \\mathrm{~T}_{\\mathrm{n}}=1+\\frac{102 \\times 101}{2}=5151+1=5152 \\\\ & \\mathrm{n}=103 \\quad \\mathrm{~T}_{\\mathrm{n}}=1+\\frac{103 \\times 102}{2}=5254 \\\\ & \\mathrm{n}=104 \\quad \\mathrm{~T}_{\\mathrm{n}}=1+\\frac{104 \\times 103}{2}=5357\\end{aligned}$"
+  }
+}

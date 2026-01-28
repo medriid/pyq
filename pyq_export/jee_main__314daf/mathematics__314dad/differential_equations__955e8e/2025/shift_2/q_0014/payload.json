@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $f:(0, \\infty) \\rightarrow \\mathbf{R}$ be a function which is differentiable at all points of its domain and satisfies the condition $x^2 f^{\\prime}(x)=2 x f(x)+3$, with $f(1)=4$. Then $2 f(2)$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "39",
+      "is_correct": true
+    },
+    {
+      "text": "19",
+      "is_correct": false
+    },
+    {
+      "text": "29",
+      "is_correct": false
+    },
+    {
+      "text": "23",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & x^2 f^{\\prime}(x)-2 x f(x)=3 \\\\ & \\left(\\frac{x^2 f^{\\prime}(x)-2 x f(x)}{\\left(x^2\\right)^2}\\right)=\\frac{3}{\\left(x^2\\right)^2} \\\\ & \\Rightarrow \\frac{d}{d x}\\left(\\frac{f(x)}{x^2}\\right)=\\frac{3}{x^4}\\end{aligned}$\n\n\nIntegrating both sides\n$\\begin{aligned}\n& \\frac{f(x)}{x^2}=-\\frac{1}{x^3}+C \\\\\n& f(x)=-\\frac{1}{x}+C x^2 \\\\\n& \\text { put } x=1 \\\\\n& 4=-1+C \\Rightarrow C=5 \\\\\n& f(x)=-\\frac{1}{x}+5 x^2 \\\\\n& \\text { Now } 2 \\times f(2)=2 \\times\\left[-\\frac{1}{2}+5 \\times 2^2\\right] \\\\\n& =39\n\\end{aligned}$"
+  }
+}

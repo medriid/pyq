@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Bag $B_1$ contains 6 white and 4 blue balls, Bag $B_2$ contains 4 white and 6 blue balls, and Bag $B_3$ contains 5 white and 5 blue balls. One of the bags is selected at random and a ball is drawn from it. If the ball is white, then the probability, that the ball is drawn from Bag $B_2$, is :"
+  },
+  "options": [
+    {
+      "text": "$\\frac{4}{15}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2}{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$E_1: B a g B_1$ is selected\n$\\begin{array}{lll}\nB_1 & B_2 & B_3 \\\\\n\\text { 6W4B } & 4 \\mathrm{~W} 6 \\mathrm{~B} & 5 \\mathrm{~W} 5 \\mathrm{~B}\n\\end{array}$\n\n\n$\\mathrm{E}_2:$ bag $\\mathrm{B}_2$ is selected\n$E_3: B a g B_3$ is selected\nA : Drawn ball is white\nWe have to find $\\mathrm{P}\\left(\\frac{\\mathrm{E}_2}{\\mathrm{~A}}\\right)$\n\n\n$P\\left(\\frac{E_2}{A}\\right)=\\frac{P\\left(E_2\\right) P\\left(\\frac{A}{E_2}\\right)}{P\\left(E_1\\right) P\\left(\\frac{A}{E_1}\\right)+P\\left(E_2\\right) P\\left(\\frac{A}{E_2}\\right)+P\\left(E_3\\right) P\\left(\\frac{A}{E_3}\\right)}$\n\n\n$\\begin{aligned} & =\\frac{\\frac{1}{3} \\times \\frac{4}{10}}{\\frac{1}{3} \\times \\frac{6}{10}+\\frac{1}{3} \\times \\frac{4}{10}+\\frac{1}{3} \\times \\frac{5}{10}} \\\\ & =\\frac{4}{15}\\end{aligned}$"
+  }
+}

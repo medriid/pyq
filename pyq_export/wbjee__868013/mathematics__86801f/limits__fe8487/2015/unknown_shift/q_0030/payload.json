@@ -1,0 +1,43 @@
+{
+  "index": 30,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\lim _{x \\rightarrow 0} \\frac{a x e^{x}-b \\log (1+x)}{x^{2}}=3$ then the values of $a$ and $b$ are, respectively"
+  },
+  "options": [
+    {
+      "text": "2,2",
+      "is_correct": true
+    },
+    {
+      "text": "1,2",
+      "is_correct": false
+    },
+    {
+      "text": "2,1",
+      "is_correct": false
+    },
+    {
+      "text": "2,0",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "We have. $\\lim _{x \\rightarrow 0} \\frac{\\operatorname{ax} e^{x}-b \\log (1+x)}{x^{2}}=3\\left[\\frac{0}{0}\\right.$ form $]$\r\nUsing L' Hospital's rule, we get $\\lim _{x \\rightarrow 0} \\frac{a e^{x}+a x e^{x}-\\frac{b}{1+x}}{2 x}=3 \\quad\\left[\\frac{0}{0}\\right.$ form $]$\r\n$\\Rightarrow a-b=0 \\Rightarrow a=b$\r\nUsing L' Hospital's rule, we get\r\n$$\r\n\\lim _{x \\rightarrow 0} \\frac{a e^{x}+a e^{x}+a x e^{x}+\\frac{b}{(1+x)^{2}}}{2}=3\r\n$$\r\n$\\Rightarrow \\quad \\lim _{x \\rightarrow 0} 2 a e^{x}+a x e^{x}+\\frac{b}{(1+x)^{2}}=6$\r\n$\\Rightarrow$\r\n$2 a+b=6$\r\n$\\Rightarrow \\quad 3 a=6 \\Rightarrow a=2$\r\nOn putting the value of $a$ we get $b=2$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 69,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2023 (24 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2023",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The number of square matrices of order&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math> with entries from the set <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>}</mo></math>, such that the sum of all the elements in each row is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math> and the sum of all the elements in each column is also&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>,&nbsp;is&nbsp;"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>225</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>125</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p>Given,</p><p>A&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>&#215;</mo><mn>5</mn></math>&nbsp;matrix whose each entry is either&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>&nbsp;or&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>, is such that sum of entries of each column as well as each row is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>,</p><p>Taking a possible case we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p>Now arranging the above case we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced><mfenced close=\"}\" open=\"\"><mtable><mtr><mtd><mo>&#8594;</mo><mn>5</mn><mo>&#160;</mo><mtext>ways</mtext></mtd></mtr><mtr><mtd><mo>&#8594;</mo><mn>4</mn><mo>&#160;</mo><mtext>ways</mtext></mtd></mtr><mtr><mtd><mo>&#8594;</mo><mn>3</mn><mo>&#160;</mo><mtext>ways</mtext></mtd></mtr><mtr><mtd><mo>&#8594;</mo><mn>2</mn><mo>&#160;</mo><mtext>ways</mtext></mtd></mtr><mtr><mtd><mo>&#8594;</mo><mn>1</mn><mo>&#160;</mo><mtext>way</mtext></mtd></mtr></mtable></mfenced></math>&nbsp;because if we fix&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>&nbsp;at first row and first column then in second row first column&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>&nbsp;cannot come and vice-versa.</p><p>So total&nbsp;number of such matrices will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>&#215;</mo><mn>4</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>1</mn><mo>=</mo><mn>120</mn></math></p>"
+  }
+}

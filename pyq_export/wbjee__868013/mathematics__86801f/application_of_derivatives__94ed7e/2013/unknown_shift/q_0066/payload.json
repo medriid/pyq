@@ -1,0 +1,43 @@
+{
+  "index": 66,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The minimum value of the function $f(x)=2|x-1|+|x-2|$ is"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": true
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given,\r\n$$\r\n\\begin{array}{l}\r\n\\quad f(x)=2|x-1|+|x-2| \\\\\r\n\\Rightarrow \\quad f(x)=\\left\\{\\begin{array}{c}\r\n-2(x-1)-(x-2), x     < 1 \\\\\r\n2(x-1)-(x-2), 1 \\leq x < 2 \\\\\r\n2(x-1)+(x-2), x \\geq 2 \\\\\r\n-3 x+4, \\quad x < 1 \\\\\r\nx_{1} \\\\\r\n3 x-4, \\quad 1 \\leq x < 2 \\\\\r\nx \\geq 2\r\n\\end{array}\\right.\r\n\\end{array}\r\n$$\r\n$f^{\\prime}(x)=\\left\\{\\begin{array}{cc}-3 & x < 1 \\\\ 1 & 1 \\leq x < 2 \\\\ 3 & x \\geq 2\\end{array}\\right.$\r\nSo, $f(x)$ will be minimum at $x=1$ and the minimum value is 1 ."
+  }
+}

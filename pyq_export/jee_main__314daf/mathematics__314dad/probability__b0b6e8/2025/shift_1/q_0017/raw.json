@@ -1,0 +1,63 @@
+{
+  "_id": "67a2eea8c8b73881fdaea1ca",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d9760c",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-24T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (24 Jan Shift 1)",
+      "title": "JEE Main 2025 (24 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "$A$ and $B$ alternately throw a pair of dice. $A$ wins if he throws a sum of 5 before $B$ throws a sum of 8 , and $B$ wins if he throws a sum of 8 before $A$ throws a sum of 5 . The probability, that $A$ wins if A makes the first throw, is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "ga5Iq",
+      "text": "$\\frac{8}{17}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "eRyLD",
+      "text": "$\\frac{9}{19}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "pPYG4",
+      "text": "$\\frac{9}{17}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "pRzVu",
+      "text": "$\\frac{8}{19}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "For sum ' 5 ' $\\rightarrow(1,4),(2,3),(3,2)$\n$(4,1) \\Rightarrow P(A)=\\frac{4}{36}$\nFor sum ' 8 ' $\\rightarrow(2,6),(3,5),(4,4)$\nFor sum ' 5 ' $\\rightarrow(1,4),(2,3),(3,2)$\n$(4,1) \\Rightarrow P(A)=\\frac{4}{36}$\nFor sum ' 8 ' $\\rightarrow(2,6),(3,5),(4,4)$\n$\\begin{aligned} & (5,3),(6,2) \\Rightarrow P(B)=\\frac{5}{36} \\\\ & \\begin{aligned} P(\\bar{A})=\\frac{32}{36} & , P(\\bar{B})=\\frac{31}{36}\\end{aligned} \\\\ & \\begin{aligned} P(A \\text { wins })= & P(A)+P(\\bar{A}) P(\\bar{B}) P(A)+ \\\\ & +P(\\bar{A}) P(\\bar{B}) P(\\bar{A}) P(\\bar{B}) P(A)+\\ldots \\\\ = & \\frac{P(A)}{1-P(\\bar{A}) P(\\bar{B})}=\\frac{9}{19}\\end{aligned}\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d9760c",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-24T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (24 Jan Shift 1)",
+    "title": "JEE Main 2025 (24 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

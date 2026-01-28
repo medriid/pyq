@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2010 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254c69a6d9e75b0bb565",
+    "chapter_name": "Properties of Triangles",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $A B C$ be a triangle such that $\\angle A C B=\\frac{\\pi}{6}$ and let $a, b$ and $c$ denote the lengths of the sides opposite to $A, B$ and $C$ respectively. The value(s) of $x$ for which $a=x^2+x+1, b=x^2-1$ and $c=2 x+1$ is (are)"
+  },
+  "options": [
+    {
+      "text": "\n$-(2+\\sqrt{3})$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$1+\\sqrt{3}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$2+\\sqrt{3}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$4 \\sqrt{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Using, $\\cos C=\\frac{a^2+b^2-c^2}{2 a b}$\n<img src=\"assets\\st0015_510672d784d3.png\"><br>\n$$\n\\begin{gathered}\n\\Rightarrow \\frac{\\sqrt{3}}{2}=\\frac{\\left(x^2+x+1\\right)^2+\\left(x^2-1\\right)^2-(2 x+1)^2}{2\\left(x^2+x+1\\right)\\left(x^2-1\\right)} \\\\\n\\Rightarrow(x+2)(x+1)(x-1) x+\\left(x^2-1\\right)^2 \\\\\n=\\sqrt{3}\\left(x^2+x+1\\right)\\left(x^2-1\\right) \\\\\n\\Rightarrow x^2+2 x+\\left(x^2-1\\right)=\\sqrt{3}\\left(x^2+x+1\\right) \\\\\n\\Rightarrow(2-\\sqrt{3}) x^2+(2-\\sqrt{3}) x-(\\sqrt{3}+1)=0\n\\end{gathered}\n$$\n\n$\\Rightarrow x=-(2+\\sqrt{3})$ and $x=1+\\sqrt{3}$\nBut, $x=-(2+\\sqrt{3}) \\Rightarrow c$ is negative. $\\therefore \\quad x=1+\\sqrt{3}$ is the only solution.\nHence, (b) is the correct option."
+  }
+}

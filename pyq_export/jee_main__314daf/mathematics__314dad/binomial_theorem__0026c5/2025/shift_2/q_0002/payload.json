@@ -1,0 +1,24 @@
+{
+  "index": 2,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The sum of the series\n$2 \\times 1 \\times{ }^{20} \\mathrm{C}_4-3 \\times 2 \\times{ }^{20} \\mathrm{C}_5+4 \\times 3 \\times{ }^{20} \\mathrm{C}_6-5 \\times 4$ $\\times { }^{20} \\mathrm{C}_7+\\ldots+18 \\times 17 \\times{ }^{20} \\mathrm{C}_{20}$, is equal to"
+  },
+  "options": [],
+  "correct_answer": "34",
+  "solution": {
+    "text": "$\\begin{aligned}\n& (1-\\mathrm{x})^{20}={ }^{20} \\mathrm{C}_0-{ }^{20} \\mathrm{C}_1 \\mathrm{x}+{ }^{20} \\mathrm{C}_2 \\mathrm{x}^2 \\ldots . .+{ }^{20} \\mathrm{C}_{20} \\mathrm{x}^{20} \\\\\n& \\frac{(1-\\mathrm{x})^{20}}{\\mathrm{x}^2}=\\frac{{ }^{20} \\mathrm{C}_0}{\\mathrm{x}^2}-\\frac{{ }^{20} \\mathrm{C}_1}{\\mathrm{x}}+{ }^{20} \\mathrm{C}_2-{ }^{20} \\mathrm{C}_3 \\mathrm{x}+{ }^{20} \\mathrm{C}_4 \\mathrm{x}^2 \\ldots\n\\end{aligned}$\n\nDiff twice and put $\\mathrm{x}=1$\n$\\begin{aligned}\n& =6-{ }^{20} \\mathrm{C}_1(2)+\\mathrm{A} \\\\\n& \\mathrm{~A}=40-6=34\n\\end{aligned}$"
+  }
+}

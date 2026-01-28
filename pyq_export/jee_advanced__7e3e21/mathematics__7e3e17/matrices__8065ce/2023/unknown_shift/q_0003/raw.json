@@ -1,0 +1,58 @@
+{
+  "_id": "64b16aabf23ac7d519f9b682",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64b1672d25f94b8a85b91cda",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2023-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Paper 2)",
+      "title": "JEE Advanced 2023 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mfenced open=\"{\" close=\"}\"><mrow><mfenced><mtable columnalign=\"left\"><mtr><mtd><mi>a</mi></mtd><mtd><mn>3</mn></mtd><mtd><mi>b</mi></mtd></mtr><mtr><mtd><mi>c</mi></mtd><mtd><mn>2</mn></mtd><mtd><mi>d</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>5</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></mfenced><mo>:</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo>&#8712;</mo><mfenced open=\"{\" close=\"}\"><mrow><mn>0</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>7</mn><mo>,</mo><mn>11</mn><mo>,</mo><mn>13</mn><mo>,</mo><mn>17</mn><mo>,</mo><mn>19</mn></mrow></mfenced></mrow></mfenced></math>. Then the number of invertible matrices in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math>&nbsp;is",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "3780",
+  "solution": {
+    "text": "<blockquote><p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable columnalign=\"left\"><mtr><mtd><mi>a</mi></mtd><mtd><mn>3</mn></mtd><mtd><mi>b</mi></mtd></mtr><mtr><mtd><mi>c</mi></mtd><mtd><mn>2</mn></mtd><mtd><mi>d</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>5</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>|</mo><mi>R</mi><mo>|</mo><mo>=</mo><mo>-</mo><mn>5</mn><mfenced close=\"|\" open=\"|\"><mtable columnalign=\"left center\"><mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd></mtr><mtr><mtd><mi>c</mi></mtd><mtd><mi>d</mi></mtd></mtr></mtable></mfenced></math></p><p>We know that, for invertible matrices&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"|\" open=\"|\"><mi>R</mi></mfenced><mo>&#8800;</mo><mn>0</mn></math></p><p>Now&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>R</mi><mo>|</mo></math> can be zero in following cases:</p><p>(i) Two of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mo>&#160;</mo><mi>b</mi><mo>,</mo><mo>&#160;</mo><mi>c</mi><mo>,</mo><mo>&#160;</mo><mi>d</mi></math>&nbsp;are zeroes which can be (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>),(<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>),(<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>)&nbsp;or (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8594;</mo><mn>4</mn><mo>&#215;</mo><msup><mn>7</mn><mn>2</mn></msup><mtext>&#160;ways&#160;</mtext><mo>=</mo><mn>196</mn></math></p><p>(ii) Any three of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mo>&#160;</mo><mi>b</mi><mo>,</mo><mo>&#160;</mo><mi>c</mi><mo>,</mo><mo>&#160;</mo><mi>d</mi></math>&nbsp;are zeroes</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8594;</mo><mmultiscripts><mi>C</mi><mn>3</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts><mo>&#215;</mo><mn>7</mn><mo>=</mo><mn>28</mn></math></p><p>(iii) All four of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mo>&#160;</mo><mi>b</mi><mo>,</mo><mo>&#160;</mo><mi>c</mi><mo>,</mo><mo>&#160;</mo><mi>d</mi></math>&nbsp;are zeroes</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8594;</mo><mn>1</mn></math></p><p>(iv) All four of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mo>&#160;</mo><mi>b</mi><mo>,</mo><mo>&#160;</mo><mi>c</mi><mo>,</mo><mo>&#160;</mo><mi>d</mi></math>&nbsp;are non-zero but same number</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8594;</mo><mn>7</mn></math></p><p>(v) When two are alike and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> other are alike (non-zero)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8594;</mo><mn>7</mn><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn><mo>=</mo><mn>84</mn></math></p><p>Number of invertible matrices</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>8</mn><mn>4</mn></msup><mo>-</mo><mn>196</mn><mo>-</mo><mn>28</mn><mo>-</mo><mn>1</mn><mo>-</mo><mn>7</mn><mo>-</mo><mn>84</mn><mo>=</mo><mn>3780</mn></math></p></blockquote>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "311e88b155ae4180b00783082ac315c6",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/zym6Fl9krM9MF.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/zym6Fl9krM9MF.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64b1672d25f94b8a85b91cda",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2023-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Paper 2)",
+    "title": "JEE Advanced 2023 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

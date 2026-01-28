@@ -1,0 +1,44 @@
+{
+  "index": 0,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2025 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253e7fd30f43d2c9544a",
+    "chapter_name": "Parabola",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $S$ denote the locus of the mid-points of those chords of the parabola $y^2=x$, such that the area of the region enclosed between the parabola and the chord is $\\frac{4}{3}$. Let $R$ denote the region lying in the first quadrant, enclosed by the parabola $y^2=x$, the curve $S$, and the lines $x=1$ and $x=4$.<br>Then which of the following statements is (are) TRUE?"
+  },
+  "options": [
+    {
+      "text": "$(4, \\sqrt{3}) \\in S$",
+      "is_correct": true
+    },
+    {
+      "text": "$(5, \\sqrt{2}) \\in S$",
+      "is_correct": false
+    },
+    {
+      "text": "Area of $R$ is $\\frac{14}{3}-2 \\sqrt{3}$",
+      "is_correct": true
+    },
+    {
+      "text": "Area of $R$ is $\\frac{14}{3}-\\sqrt{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0000_edd0b68981a6.png\"><br>$\\begin{aligned} & T=S_1 \\\\ & k y-\\left(\\frac{x+h}{2}\\right)=k^2-h \\\\ & x-2 k y+2 k^2-h=0 \\\\ & k^2-h <0 \\quad \\Rightarrow h-k^2>0 \\\\ & \\text { For Area : interchange } x \\& y \\\\ & y-2 k x+2 k^2-h=0 \\& y=x^2 \\\\ & x^2-2 k x+\\left(2 k^2-h\\right)=0 <_\\beta^\\alpha \\\\ & |\\alpha-\\beta|=\\sqrt{4 k^2-4\\left(2 k^2-h\\right)}=\\sqrt{4 h-4 k^2} \\\\ & A=\\int_\\alpha^\\beta\\left(\\left(2 k x+h-2 k^2\\right)-x^2\\right) d x \\\\ & A=\\frac{\\left(4 h-4 k^2\\right)^{3 / 2}}{6}=\\frac{4}{3} \\\\ & \\left(4 h-4 k^2\\right)^{3 / 2}=8 \\quad \\Rightarrow\\left(4 h-4 k^2\\right)=4\\end{aligned}$<br>$\\mathrm{h}-\\mathrm{k}^2=1$\n$(4, \\sqrt{3}) \\in \\mathrm{S}$<img src=\"assets\\st0000_6efc2ef9a32a.png\"><br>$\\begin{aligned} & \\mathrm{A}=\\int_1^4(\\sqrt{\\mathrm{x}}-\\sqrt{\\mathrm{x}-1}) \\mathrm{dx}=\\frac{2}{3}\\left(\\mathrm{x}^{3 / 2}-(\\mathrm{x}-1)^{3 / 2}\\right)_1^4 \\\\ & \\mathrm{~A}=\\frac{2}{3}(8-3 \\sqrt{3}-1)=\\frac{2}{3}(7-3 \\sqrt{3})=\\frac{14}{3}-2 \\sqrt{3}\\end{aligned}$"
+  }
+}

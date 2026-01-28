@@ -1,0 +1,58 @@
+{
+  "_id": "64b16a93f23ac7d519f9b5a9",
+  "previousYearPapers": [
+    {
+      "_id": "619f94437e944e1fdc2859b5",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2021-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021 (Paper 2)",
+      "title": "JEE Advanced 2021 (Paper 2)"
+    }
+  ],
+  "type": "numerical",
+  "level": 2,
+  "question": {
+    "text": "Let $f_{1}:(0, \\infty) \\rightarrow \\mathbb{R}$ and $f_{2}:(0, \\infty) \\rightarrow \\mathbb{R}$ be defined by\r\n\r\n$$\r\n\r\nf_{1}(x)=\\int_{0}^{x} \\prod_{j=1}^{21}(t-j)^{j} d t, \\quad x>0\r\n\r\n$$\r\n\r\nand\r\n\r\n$\r\n\r\nf_{2}(x)=98(x-1)^{50}-600(x-1)^{49}+2450, \\quad x>0\r\n\r\n$\r\n\r\nwhere, for any positive integer $n$ and real numbers $a_{1}, a_{2}, \\ldots, a_{n}, \\prod_{i=1}^{n} a_{i}$ denotes the product of $a_{1}, a_{2}, \\ldots, a_{n} .$ Let $m_{i}$ and $n_{i}$, respectively, denote the number of points of local minima and the number of points of local maxima of function $f_{i}, i=1,2$, in the interval $(0, \\infty)$.\r\n\r\nThe value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><mn>3</mn><msub><mi>n</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>1</mn></msub><msub><mi>n</mi><mn>1</mn></msub></math>&nbsp;is _____.",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "57",
+  "solution": {
+    "text": "<p>Given</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>f</mi><mn>1</mn></msub><mfenced><mi>x</mi></mfenced><mo>=</mo><munderover><mo>&#8747;</mo><mn>0</mn><mi>x</mi></munderover><mfenced><mrow><mi>t</mi><mo>&#8722;</mo><mn>1</mn></mrow></mfenced><msup><mfenced><mrow><mi>t</mi><mo>&#8722;</mo><mn>2</mn></mrow></mfenced><mn>2</mn></msup><mn>......</mn><msup><mfenced><mrow><mi>t</mi><mo>&#8722;</mo><mn>2</mn><mi>t</mi></mrow></mfenced><mn>21</mn></msup><mi>d</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><msub><msup><mi>f</mi><mo>&#39;</mo></msup><mn>1</mn></msub><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced><mrow><mi>x</mi><mo>&#8722;</mo><mn>1</mn></mrow></mfenced><msup><mfenced><mrow><mi>x</mi><mo>&#8722;</mo><mn>2</mn></mrow></mfenced><mn>2</mn></msup><mn>.....</mn><msup><mfenced><mrow><mi>x</mi><mo>&#8722;</mo><mn>21</mn></mrow></mfenced><mn>21</mn></msup></math></p><p>Checking critical points</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/96d8ba46-cf0d-4b82-ad3b-c1cd70463a9a-image.png\" style=\"width: 400px; height: 81px;\" /></p><p>At all odd integers from&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>&nbsp;to&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn></math>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math>&nbsp;will have an extrema with&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>9</mn><mo>,</mo><mn>13</mn><mo>,</mo><mn>17</mn><mo>,</mo><mn>21</mn></math>&nbsp;being points of minima &amp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>,</mo><mn>7</mn><mo>,</mo><mn>11</mn><mo>,</mo><mn>15</mn><mo>,</mo><mn>19</mn></math>&nbsp;being points of maxima.</p><p>So&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>m</mi><mn>1</mn></msub><mo>=</mo><mn>6</mn></math>&nbsp;&amp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>n</mi><mn>1</mn></msub><mo>=</mo><mn>5</mn></math></p><p>Hence&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><mn>3</mn><msub><mi>n</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>1</mn></msub><msub><mi>n</mi><mn>1</mn></msub><mo>=</mo><mn>57</mn></math></p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "1cd79fd0d972409d9100887d91d17248",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/tIp1KMzETdBCD.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/tIp1KMzETdBCD.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619f94437e944e1fdc2859b5",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2021-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021 (Paper 2)",
+    "title": "JEE Advanced 2021 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

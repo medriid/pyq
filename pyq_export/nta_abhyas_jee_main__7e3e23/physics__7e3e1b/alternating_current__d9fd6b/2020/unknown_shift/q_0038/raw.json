@@ -1,0 +1,61 @@
+{
+  "_id": "6151e8631da23fe5050d1d26",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "108",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "An inductor of inductance <math> <mrow> <mn>2.0</mn><mtext> </mtext><mtext> </mtext><mtext>mH</mtext></mrow> </math> is connected across a charged capacitor of capacitance <math> <mrow> <mn>5.0</mn><mtext> </mtext><mtext> </mtext><mi>μ</mi><mtext>F</mtext></mrow> </math> and the resulting L-C circuit is set oscillating at its natural frequency. Let <math> <mtext>Q</mtext> </math> denote the instantaneous charge on the capacitor and <math> <mtext>I</mtext> </math> the current in the circuit. It is found that the maximum value of <math> <mtext>Q</mtext> </math> is <math> <mrow> <mtext>200</mtext><mtext> </mtext><mtext> </mtext><mi>μ</mi><mtext>C</mtext><mtext>.</mtext></mrow> </math> When <math> <mrow> <mtext>Q</mtext><mo>=</mo><mtext>100</mtext><mtext> </mtext><mtext> </mtext><mi>μ</mi><mtext>C,</mtext></mrow> </math> what is the value of <math> <mrow> <mfenced close=\"|\" open=\"|\" separators=\",\"> <mrow> <mtext>dI</mtext> <mo>/</mo> <mtext>dt</mtext></mrow></mfenced></mrow></math>?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "SKoiH",
+      "text": "<math> <mrow> <mn>10000</mn></mrow> </math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "hUy2N",
+      "text": "<math> <mrow> <mn>1000</mn></mrow> </math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "UjBNR",
+      "text": "<math> <mrow> <mn>100000</mn></mrow> </math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "mKH4R",
+      "text": "<math> <mrow> <mn>100</mn></mrow> </math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "This is a problem of L - C oscillations.<br />Charge stored in the capacitor oscillates simple harmonically as<br /><br /><math> <mrow> <mtext>Q</mtext><mo>=</mo><msub> <mtext>Q</mtext> <mn>0</mn> </msub> <mi>sin</mi><mrow><mo>(</mo> <mrow> <mi>ω</mi><mtext>t</mtext><mo>±</mo><mi>ϕ</mi></mrow> <mo>)</mo></mrow></mrow> </math><br />&nbsp;<br />Here, <math> <mrow> <msub> <mtext>Q</mtext> <mn>0</mn> </msub> <mo>=</mo></mrow> </math> maximum value of <math> <mrow> <mtext>Q</mtext><mo>=</mo><mn>200</mn><mtext> </mtext><mtext> </mtext><mi>μ</mi><mtext>C</mtext><mo>=</mo><mn>2</mn><mo>×</mo><msup> <mrow> <mn>10</mn></mrow> <mrow> <mo>−</mo><mn>4</mn></mrow> </msup> <mtext> </mtext><mtext> </mtext><mtext>C</mtext></mrow> </math><br />&nbsp;<br /><math> <mrow> <mi>ω</mi> <mo>=</mo> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <msqrt> <mtext>LC</mtext> </msqrt> </mrow> </mfrac> <mo>=</mo> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <msqrt> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mn>2</mn> <mo>×</mo> <msup> <mtext>10</mtext> <mrow> <mo>-</mo> <mn>3</mn> </mrow> </msup> </mrow> </mfenced> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mtext>5.0</mtext> <mo>×</mo> <mn>1</mn> <msup> <mn>0</mn> <mrow> <mo>-</mo> <mn>6</mn> </mrow> </msup> </mrow> </mfenced> </msqrt> </mrow> </mfrac> <mo>=</mo> <msup> <mtext>10</mtext> <mn>4</mn>&nbsp;</msup><msup><mtext>&nbsp;s</mtext> <mn>-1</mn> </msup> </mrow> </math><br />&nbsp;<br />At&nbsp;&nbsp; <math> <mrow> <mtext>t</mtext><mo>=</mo><mn>0</mn><mo>,</mo><mtext> </mtext><mtext> </mtext><mtext>Q</mtext><mo>=</mo><msub> <mtext>Q</mtext> <mn>0</mn> </msub> </mrow> </math> then<br />&nbsp;<br /><math> <mrow> <mtext>Q</mtext><mrow><mo>(</mo> <mtext>t</mtext> <mo>)</mo></mrow><mo>=</mo><msub> <mtext>Q</mtext> <mn>0</mn> </msub> <mi>cos</mi><mi>ω</mi><mtext>t</mtext></mrow> </math> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... (i)<br />&nbsp;<br /><math> <mrow> <mtext>I</mtext> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mtext>t</mtext> </mrow> </mfenced> <mo>=</mo> <mfrac> <mrow> <mtext>dQ</mtext> </mrow> <mrow> <mtext>dt</mtext> </mrow> </mfrac> <mo>=</mo> <mo>-</mo> <msub> <mtext>Q</mtext> <mn>0</mn> </msub> <mi>ω</mi> <mtext>sin</mtext> <mi>ω</mi> <mtext>t</mtext>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</mrow></math>&nbsp;&nbsp;and&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... (ii)<br />&nbsp;<br /><math> <mrow> <mfrac> <mrow> <mtext>dI</mtext> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mtext>t</mtext> </mrow> </mfenced> </mrow> <mrow> <mtext>dt</mtext> </mrow> </mfrac> <mo>=</mo> <mo>-</mo> <msub> <mtext>Q</mtext> <mn>0</mn> </msub> <msup> <mi>ω</mi> <mn>2</mn> </msup> <mtext>cos</mtext> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mi>ω</mi> <mtext>t</mtext> </mrow> </mfenced> </mrow> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</math> ... (iii)<br />&nbsp;<br /><math> <mrow> <mtext>Q</mtext><mo>=</mo><mn>100</mn><mtext> </mtext><mtext> </mtext><mi>μ</mi><mtext>C</mtext></mrow> </math> or <math> <mrow> <mfrac> <mrow> <msub> <mtext>Q</mtext> <mn>0</mn> </msub> </mrow> <mrow> <mn>2</mn> </mrow> </mfrac> </mrow> </math><br /><br /><math><mrow><mtext>cos</mtext> <mi>ω</mi> <mtext>t</mtext> <mo>=</mo> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mn>2</mn> </mrow> </mfrac> </mrow> </math>&nbsp;&nbsp; or &nbsp;<math> <mrow> <mi>ω</mi> <mtext>t</mtext> <mo>=</mo> <mfrac> <mrow> <mi>π</mi> </mrow> <mrow> <mn>3</mn> </mrow> </mfrac> </mrow> </math><br /><br /><math> <mrow> <mfenced close=\"|\" open=\"|\" separators=\",\"> <mrow> <mfrac> <mrow> <mtext>dI</mtext> </mrow> <mrow> <mtext>dt</mtext> </mrow> </mfrac> </mrow> </mfenced> <mo>=</mo> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mtext>2.0</mtext> <mo>×</mo> <mn>1</mn> <msup> <mn>0</mn> <mrow> <mo>-</mo> <mn>4</mn> </mrow> </msup> <mtext>C</mtext> </mrow> </mfenced> <msup> <mrow> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mn>1</mn> <msup> <mn>0</mn> <mn>4</mn> </msup> <msup> <mtext>s</mtext> <mn>-1</mn> </msup> </mrow> </mfenced> </mrow> <mn>2</mn> </msup> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mn>2</mn> </mrow> </mfrac> </mrow> </mfenced> </mrow> </math><br />&nbsp;<br /><math> <mrow> <mfenced close=\"|\" open=\"|\" separators=\",\"> <mrow> <mfrac> <mrow> <mtext>dI</mtext> </mrow> <mrow> <mtext>dt</mtext> </mrow> </mfrac> </mrow> </mfenced> <mo>=</mo> <mn>1</mn> <mn>0000&nbsp;</mn> <mtext>A</mtext> <mo>/</mo> <mtext>s</mtext> </mrow> </math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

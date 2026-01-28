@@ -1,0 +1,43 @@
+{
+  "index": 261,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2007",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $F(x)=f(x)+f\\left(\\frac{1}{x}\\right)$, where $f(x)=\\int_1^x \\frac{\\log t}{1+t} d t$. Then $F(e)$ equals"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$0$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$f(x)=\\int_1^x \\frac{\\log t}{1+t} d t$\n$F(e)=f(e)+f\\left(\\frac{1}{e}\\right)$\n$F(e)=\\int_1^e \\frac{\\log t}{1+t} d t+\\int_1^{1 / e} \\frac{\\log t}{1+t} d t$\n$=\\int_1^e \\frac{\\log t}{1+t}+\\int_1^e \\frac{\\log t}{t(1+t)} d t$\n$=\\int_1^e \\frac{\\log t}{t} d t=\\frac{1}{2}$."
+  }
+}

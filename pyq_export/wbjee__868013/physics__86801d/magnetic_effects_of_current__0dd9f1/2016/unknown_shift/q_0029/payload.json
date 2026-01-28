@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c8e8811f774a40dd9f1",
+    "chapter_name": "Magnetic Effects of Current",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A charged particle of mass $m_{1}$ and charge $q_{1}$ is revolving in a circle of radius $r .$ Another charged particle of charge $q_{2}$ and mass $m_{2}$ is situated at the centre of the circle. If the velocity and time period of the revolving particle be $v$ and $T$ respectively, then"
+  },
+  "options": [
+    {
+      "text": "$v=\\sqrt{\\frac{q \\cdot q_{2} r}{4 \\pi \\varepsilon_{0} m_{1}}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$v=\\frac{1}{m_{1}} \\sqrt{\\frac{q_{1} q_{2}}{4 \\pi \\varepsilon_{0} r}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$T=\\sqrt{\\frac{16 \\pi^{3} \\varepsilon_{0} m_{1}^{2} r^{3}}{q_{1} q_{2}}}$",
+      "is_correct": false
+    },
+    {
+      "text": "None of the above",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0029_4c2ec76a9fb7.png\">\r\n\r\nThe necessary centripetal force, to move in a circular path is provided by the Coulomb's force.\r\n$$\r\n\\begin{array}{r}\r\n\\frac{m_{1} v^{2}}{\\gamma}=\\frac{1}{4 \\pi \\epsilon_{0}} \\cdot \\frac{q_{1} q_{2}}{r^{2}} \\\\\r\nv=\\sqrt{\\frac{1}{4 \\pi \\epsilon_{0}} \\cdot \\frac{q_{1} q_{2}}{r m_{1}}}\r\n\\end{array}\r\n$$\r\nWe know, $v=r\\omega$\r\n$$\r\n\\omega=\\frac{2 \\pi}{T}\r\n$$\r\n$$\r\n\\begin{array}{l}\r\nT=\\frac{2 \\pi}{\\omega} \\\\\r\n=\\frac{2 \\pi \\cdot r}{v}\r\n\\end{array}\r\n$$\r\nSubstitution the value of $v$ \r\n$T=\\frac{2 \\pi r}{\\sqrt{\\frac{q_{1} \\cdot q_{2}}{4 \\pi \\varepsilon_{0} R \\cdot m_{1}}}}$\r\n$T=\\sqrt{\\frac{4 \\pi^{2} r^{2} \\times 4 \\pi \\varepsilon_{0} \\cdot r \\cdot m_{1}}{q q_{2}}}$\r\n$T=\\sqrt{\\frac{16 \\pi^{3} \\varepsilon_{0} r^{3} \\cdot m_{1}}{q_{1} \\cdot q_{2}}}$\r\nNone of the given options is correct.\r\nBoth the charges are positive or both negative. (Sino answers have the product $q A_{2}$ inside square loy Therefore, circular motion is not possible. The statement of question is wrong. Either $q_{1}$ or should be negative."
+  }
+}

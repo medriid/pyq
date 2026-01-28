@@ -1,0 +1,44 @@
+{
+  "index": 15,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2010 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602558b3ddd6290d8a872c",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f$ be a real-valued function defined on the interval $(0, \\infty)$, by $f(x)=\\ln x+\\int_0^x \\sqrt{1+\\sin t} d t$. Then which of the following statement(s) is (are) true ?"
+  },
+  "options": [
+    {
+      "text": "\n$f^{\\prime \\prime}(x)$ exists for all $x \\in(0, \\infty)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$f^{\\prime}(x)$ exists for all $x \\in(0, \\infty)$ and $f^{\\prime}$ is continuous on $(0, \\infty)$, but not differentiable on $(0, \\infty)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nthere exists $\\alpha>1$ such that $\\left|f^{\\prime}(x)\\right| < |f(x)|$ for all $x \\in(\\alpha, \\infty)$",
+      "is_correct": true
+    },
+    {
+      "text": "\nthere exists $\\beta>0$ such that $|f(x)|+\\left|f^{\\prime}(x)\\right| \\leq \\beta \\quad$ from all $x \\in(0, \\infty)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "C"
+  ],
+  "solution": {
+    "text": "Here, $f^{\\prime}(x)=\\frac{1}{x}+\\sqrt{1+\\sin x}, x>0$ but $f(x)$ is not differentiable in $(0, \\infty)$ as $\\sin x$ may be $-1$ and then $f^{\\prime \\prime}(x)=-\\frac{1}{x^2}+\\frac{\\cos x}{2 \\sqrt{1+\\sin x}}$ will not exists.\n$\\Rightarrow f^{\\prime}(x)$ is continuous for all $x \\in(0, \\infty)$ but $f^{\\prime}(x)$ is not differentiable on $(0, \\infty)$.\n$\\therefore$ Option (b) is true.\nAlso, $\\quad f^{\\prime}(x) \\leq 3$, if $x>1$ and $\\quad f(x)>3$, if $x>e^3$\n$\\therefore$ Let $\\alpha=e^3$\n$\\Rightarrow$ Option (c) is true.\n(d) is not possible as $f(x) \\rightarrow \\infty$ when $x \\rightarrow \\infty$.\nHence, (b, c) is the correct option."
+  }
+}

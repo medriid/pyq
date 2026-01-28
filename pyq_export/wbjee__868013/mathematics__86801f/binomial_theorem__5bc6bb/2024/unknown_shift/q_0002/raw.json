@@ -1,0 +1,63 @@
+{
+  "_id": "67729bf7546ddd78415aaf58",
+  "type": "multipleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67729a70099eafe69352f9c1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024",
+      "title": "WBJEE 2024"
+    }
+  ],
+  "question": {
+    "text": "If n is a positive integer, the value of $(2 n+1)^n C_0+(2 n-1)^n C_1+(2 n-3)^n C_2+\\ldots .+1 \\cdot{ }^n C_n$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "s6uHB",
+      "text": "$(n+1) 2^n$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "9OllL",
+      "text": "$3^{\\text {n }}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "zKf5i",
+      "text": "$f^{\\prime}(2)$ where $f(x)=x^{n+1}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "fickz",
+      "text": "$(n+1) 2^{n+1}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\text { Hint: } \\sum_{r=0}^n(2 n+1-2 r)^n C_r \\\\ & =(2 n+1) \\sum_{r=0}^n{ }^n C_r-2 \\sum_{r=0}^n r \\cdot{ }^n C_r \\\\ & =(2 n+1) \\cdot 2^n-2 \\cdot n \\cdot 2^{n-1}=(n+1) \\cdot 2^n \\\\ & \\text { If } f(x)=x^{n+1} \\Rightarrow f^{\\prime}(2)=(n+1) \\cdot 2^n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67729a70099eafe69352f9c1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024",
+    "title": "WBJEE 2024"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\mathrm{A}$ student appears for tests 1 , 11 and $\\mathrm{III}$. The student is successful if he passes in tests I,II or I, III. The probabilities of the student passing in tests I. II and III are respectively,\r\np,q and $1 / 2 .$ If the probability of the student to be successful is $1 / 2 .$ Then"
+  },
+  "options": [
+    {
+      "text": "$p(1+q)=1$",
+      "is_correct": true
+    },
+    {
+      "text": "$q(1+p)=1$",
+      "is_correct": false
+    },
+    {
+      "text": "$p q=1$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{p}+\\frac{1}{q}=1$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $X$ be the event that student will be successful. $X_{1}$ be the event that student will be pass in test-I. $X_{2}$ be the event that student will be pass in test-II. $X_{3}$ be the event that student will be pass in test-III. $\\therefore P(X)=P\\left(X_{1} \\cap X_{2} \\cap X_{3}^{\\prime}\\right)+P\\left(X_{1} \\cap X_{2}^{\\prime} \\cap X_{3}\\right)$\r\n$P\\left(X_{1}^{1} \\cap X_{2} \\cap X_{3}\\right).$\r\n$\\Rightarrow P(X)=P\\left(X_{1}\\right) \\cdot P\\left(X_{2}\\right) \\cdot P\\left(X_{3}^{1}\\right)+P\\left(X_{1}\\right) \\cdot P\\left(X_{2}^{\\prime}\\right) \\cdot P\\left(X_{3}\\right)$\r\n$+P\\left(X_{1}^{1}\\right) \\cdot P\\left(X_{2}\\right) \\cdot P\\left(X_{3}\\right)$\r\n$\\Rightarrow \\quad \\frac{1}{2}=p \\cdot q \\cdot \\frac{1}{2}+p(1-q) \\frac{1}{2}+p q \\frac{1}{2}$\r\n$\\Rightarrow \\quad \\frac{1}{2}=p \\cdot q \\cdot \\frac{1}{2}+p \\cdot \\frac{1}{2}-p \\cdot q \\cdot \\frac{1}{2}+p \\cdot q \\cdot \\frac{1}{2}$\r\n$\\Rightarrow \\quad \\frac{1}{2}=p \\cdot \\frac{1}{2}+p \\cdot q \\cdot \\frac{1}{2}$\r\n$\\Rightarrow \\quad(p+p q)=1$\r\n$\\Rightarrow \\quad p(1+q)=1$"
+  }
+}

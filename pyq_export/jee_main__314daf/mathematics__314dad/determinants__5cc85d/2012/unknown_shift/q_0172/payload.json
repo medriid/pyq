@@ -1,0 +1,43 @@
+{
+  "index": 172,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (12 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\left|\\begin{array}{ccc}-2 a & a+b & a+c \\\\ b+a & -2 b & b+c \\\\ c+a & b+c & -2 c\\end{array}\\right|$\n$$\n=\\alpha(a+b() b+c() c+a) \\neq 0\n$$\nthen $\\alpha$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$a+b+c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$a b c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n4\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $\\Delta=\\left|\\begin{array}{ccc}-2 a & a+b & a+c \\\\ b+a & -2 b & b+c \\\\ c+a & b+c & -2 c\\end{array}\\right|$\n\n\nApplying $C_1+C_3$ and $C_2+C_3$\n$$\n\\Delta=\\left|\\begin{array}{ccc}\n-a+c & 2 a+b+c & a+c \\\\\n2 b+a+c & -b+c & b+c \\\\\na-c & b-c & -2 c\n\\end{array}\\right|\n$$\nNow, applying $R_1+R_3$ and $R_2+R_3$\n$$\n\\Delta=\\left|\\begin{array}{ccc}\n0 & 2(a+b & ) a-c \\\\\n2(a+b & 0 & b-c \\\\\na-c & b-c & -2 c\n\\end{array}\\right|\n$$\nOn expanding, we get\n$$\n\\begin{aligned}\n\\Delta= & -2(a+b)\\{-2 c[2(a+b)] \\\\\n& -(a-c)(b-c)\\} \\\\\n& +(a-c)[2(a+b)(b-c)] \\\\\n\\Delta= & 8 \\mathrm{c}(a+b)(a+b) \\\\\n& +4(a+b)(a-c)(b-c)\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& =4(a+b)\\left[2 a c+2 b c+a b-b c-a c+c^2\\right] \\\\\n& =4(a+b)\\left[a c+b c+a b+c^2\\right] \\\\\n& =4(a+b)[c(a+c)+b(a+c)] \\\\\n& =4(a+b)(b+c)(c+a) \\\\\n& =\\alpha(a+b)(b+c)(c+a)\n\\end{aligned}\n$$\nHence, $\\alpha=4$"
+  }
+}

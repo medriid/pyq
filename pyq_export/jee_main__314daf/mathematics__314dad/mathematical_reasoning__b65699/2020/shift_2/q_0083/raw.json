@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a69417cc3fb48d66d68",
+  "previousYearPapers": [
+    {
+      "_id": "615d92ecde3d91842a5cf7fb",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2020-01-08T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2020 (08 Jan Shift 2)",
+      "title": "JEE Main 2020 (08 Jan Shift 2)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "Which of the following statement is a tautology?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Phyqu",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>&#8744;</mo><mfenced separators=\"|\"><mrow><mo>~</mo><mi>q</mi></mrow></mfenced><mo>&#8594;</mo><mi>p</mi><mo>&#8743;</mo><mi>q</mi></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "c1Kdi",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>~</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>&#8743;</mo><mo>~</mo><mi>q</mi></mrow></mfenced><mo>&#8594;</mo><mi>p</mi><mo>&#8744;</mo><mi>q</mi></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "WmVcl",
+      "text": "<math><mo>~</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>∨</mo><mo>~</mo><mi>q</mi></mrow></mfenced><mo>→</mo><mi>p</mi><mo>∧</mo><mi>q</mi></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Fzxep",
+      "text": "<math><mo>~</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>∨</mo><mo>~</mo><mi>q</mi></mrow></mfenced><mo>→</mo><mi>p</mi><mo>∨</mo><mi>q</mi></math>",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>From De Morgan&#39;s Law,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>~</mo><mfenced><mrow><mi>p</mi><mo>&#8744;</mo><mi>q</mi></mrow></mfenced><mo>=</mo><mo>~</mo><mi>p</mi><mo>&#8743;</mo><mo>~</mo><mi>q</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>&#8594;</mo><mi>q</mi><mo>=</mo><mo>~</mo><mfenced><mrow><mi>p</mi><mo>&#8743;</mo><mo>~</mo><mi>q</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced separators=\"|\"><mrow><mo>~</mo><mi>p</mi><mo>&#8743;</mo><mi>q</mi></mrow></mfenced><mo>&#8594;</mo><mfenced separators=\"|\"><mrow><mi>p</mi><mo>&#8744;</mo><mi>q</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>~</mo><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mfenced separators=\"|\"><mrow><mo>~</mo><mi>p</mi><mo>&#8743;</mo><mi>q</mi></mrow></mfenced><mo>&#8743;</mo><mfenced separators=\"|\"><mrow><mo>~</mo><mi>p</mi><mo>&#8743;</mo><mo>~</mo><mi>q</mi></mrow></mfenced></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>~</mo><mfenced close=\"}\" open=\"{\" separators=\"|\"><mrow><mo>~</mo><mi>p</mi><mo>&#8743;</mo><mi>f</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>~</mo><mfenced close=\"}\" open=\"{\" separators=\"|\"><mi>f</mi></mfenced><mo>=</mo><mi>t</mi></math>, where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math>&nbsp;is contradiction and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>&nbsp;is tautology.</p>",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "615d92ecde3d91842a5cf7fb",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2020-01-08T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2020 (08 Jan Shift 2)",
+    "title": "JEE Main 2020 (08 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d00146ed0ebdd74e3ce",
+    "chapter_name": "Sets and Relations",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\rho$ be a relation defined on $N$, the set of natural numbers, as $\\rho=\\{(x, y) \\in N \\times N: 2 x+y=41\\} .$ Then"
+  },
+  "options": [
+    {
+      "text": "$\\rho$ is an equivalence relation",
+      "is_correct": false
+    },
+    {
+      "text": "$\\rho$ is only reflexive relation",
+      "is_correct": false
+    },
+    {
+      "text": "$\\rho$ is only symmetric relation",
+      "is_correct": false
+    },
+    {
+      "text": "$\\rho$ is not transitive",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "We have, $\\rho=\\{(x, y) \\in N \\times N: 2 x+y=41\\}$<br />For reflexive,<br />$\\begin{array}{l}<br />x p x \\Rightarrow 2 x+x=41 \\\\<br />\\Rightarrow 3 x=41<br />\\end{array}$<br />$\\Rightarrow x=\\frac{41}{3} \\notin N$<br />So, $\\rho$ is not reflexive. <br />For symmetric,<br />$x \\rho y \\Rightarrow 2 x+y=41$<br />and $y \\rho x \\Rightarrow 2 y+x=41$<br />$\\Rightarrow x p y \\neq y \\rho x$<br />So, $\\rho$ is not symmetric.<br />For transitive,<br />$x p y \\Rightarrow 2 x+y=41$<br />and $y \\rho z \\Rightarrow 2 y+z=41$<br />$\\Rightarrow x p z$<br />$\\Rightarrow \\rho$ is not transitive."
+  }
+}

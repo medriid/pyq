@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cde479537dcd98db360",
+    "chapter_name": "Trigonometric Equations",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\alpha$ and $\\beta$ be iwo distinct roots of $a \\cos \\theta+b \\sin \\theta=c,$ where $a, b, c$ are three\r\nreal constants and $0 \\in|0,2 \\pi|$. Then, $\\alpha+\\beta$ is also a root of the same equation, if"
+  },
+  "options": [
+    {
+      "text": "$a+b=c$",
+      "is_correct": false
+    },
+    {
+      "text": "$b+c=a$",
+      "is_correct": false
+    },
+    {
+      "text": "$c+a=b$",
+      "is_correct": false
+    },
+    {
+      "text": "$c=a$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given equation is $a \\cos \\theta+b \\sin \\theta=c$\r\n$\\Rightarrow a\\left(\\frac{1-\\tan ^{2} \\frac{\\theta}{2}}{1+\\tan ^{2} \\frac{\\theta}{2}}\\right)+\\frac{2 b \\tan \\frac{\\theta}{2}}{1+\\tan ^{2} \\frac{\\theta}{2}}=c$\r\n$\\left[\\because \\cos \\theta=\\frac{1-\\tan ^{2} \\frac{\\theta}{2}}{1+\\tan ^{2} \\frac{\\theta}{2}}\\right.$ and $\\left.\\sin \\theta=\\frac{2 \\tan \\frac{\\theta}{2}}{1+\\tan ^{2} \\frac{\\theta}{2}}\\right]$\r\n$\\Rightarrow a\\left(1-\\tan ^{2} \\frac{\\theta}{2}\\right)+2 b \\tan \\frac{\\theta}{2}=c\\left(1+\\tan ^{2} \\frac{\\theta}{2}\\right)$\r\n$\\Rightarrow a-\\operatorname{atan}^{2} \\frac{\\theta}{2}+2 b \\tan \\frac{\\theta}{2}-c-c \\tan ^{2} \\frac{\\theta}{2}=0$\r\n$\\Rightarrow(c+a) \\tan ^{2} \\frac{\\theta}{2}-2 b \\tan \\frac{\\theta}{2}+(c-a)=0$\r\nLet $\\alpha$ and $\\beta$ be the roots of the equation $\\therefore \\alpha+\\beta=\\frac{2 b}{c+a}$ and $\\alpha \\beta=\\frac{c-a}{c+a}$\r\nNow, $\\tan \\frac{\\alpha+\\beta}{2}=\\frac{\\frac{2 b}{c+a}}{1-\\frac{c-a}{c+a}}$\r\n$=\\frac{\\frac{c+a}{c+a-c+a}}{c+a}=\\frac{b}{a}$\r\nsince, $\\frac{b}{c}$ is a root of the equation. $\\therefore \\quad(c+a) \\frac{b^{2}}{a^{2}}-2 b\\left(\\frac{b}{a}\\right)+c-a=0$\r\n$\\Rightarrow b^{2} c+b^{2} a-2 b^{2} a+c a^{2}-a^{3}=0$\r\n$\\Rightarrow-b^{2} a+b^{2} c+c a^{2}-a^{3}=0$\r\n$\\Rightarrow \\quad b^{2} c-b^{2} a+c a^{2}-a^{3}=0$\r\n$\\Rightarrow \\quad b^{2}(c-a)+a^{2}(c-a)=0$\r\n$\\Rightarrow \\quad(c-a)\\left(b^{2}+a^{2}\\right)=0$\r\n$\\Rightarrow c-a=0 \\quad$ or $\\quad b^{2}+a^{2}=0$\r\n$\\Rightarrow \\quad c=a$ or $b^{2}+a^{2}=0$"
+  }
+}

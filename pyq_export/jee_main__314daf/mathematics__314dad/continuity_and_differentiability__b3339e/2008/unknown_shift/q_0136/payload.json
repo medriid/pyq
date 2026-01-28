@@ -1,0 +1,43 @@
+{
+  "index": 136,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2008",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=\\left\\{\\begin{array}{ll}(x-1) \\sin \\left(\\frac{1}{x-1}\\right), & \\text { if } x \\neq 1 \\\\ 0, & \\text { if } x=1\\end{array}\\right.$. Then which one of the following is true?"
+  },
+  "options": [
+    {
+      "text": "\n$f$ is neither differentiable at $x=0$ nor at $x=1$ \n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$f$ is differentiable at $x=0$ and at $x=1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{f}$ is differentiable at $\\mathrm{x}=0$ but not at $\\mathrm{x}=1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{f}$ is differentiable at $\\mathrm{x}=1$ but not at $\\mathrm{x}=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\nf^{\\prime}(1)=\\lim _{h \\rightarrow 0} \\frac{f(1+h)-f(1)}{h}\n$$\n\n$$\n\\begin{aligned}\n& \\Rightarrow f^{\\prime}(1)=\\lim _{h \\rightarrow 0} \\frac{(1+h-1) \\sin \\left(\\frac{1}{1+h-1}\\right)-0}{h}=\\lim _{h \\rightarrow 0} \\frac{h}{h} \\sin \\left(\\frac{1}{h}\\right) \\\\\n& \\Rightarrow f^{\\prime}(1)=\\lim _{h \\rightarrow 0} \\sin \\left(\\frac{1}{h}\\right)\n\\end{aligned}\n$$\n$\\therefore \\mathrm{f}$ is not differentiable at $x=1$.\nSimilarly, $f^{\\prime}(0)=\\lim _{h \\rightarrow 0} \\frac{f(h)-f(0)}{h}$ $\\Rightarrow f^{\\prime}(0)=\\lim _{h \\rightarrow 0} \\frac{(h-1) \\sin \\left(\\frac{1}{h-1}\\right)-\\sin (1)}{h}$\n$\\Rightarrow \\mathrm{f}$ is also not differentiable at $\\mathrm{x}=0$."
+  }
+}

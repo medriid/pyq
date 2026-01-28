@@ -1,0 +1,63 @@
+{
+  "_id": "64a81401e0ff5a5425a85792",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Let $t_{n}$ denotes the nth term of the infinite series $\\frac{1}{1 !}+\\frac{10}{2 !}+\\frac{21}{3 !}+\\frac{34}{4 !}+\\frac{49}{5 !}+\\ldots .$ Then $\\lim _{n \\rightarrow \\infty} t_{n}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "8m34h",
+      "text": "$e$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "cLfo8",
+      "text": "$0$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "3sLhl",
+      "text": "$e^{2}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Vsrk4",
+      "text": "1",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $\\quad S=1+10+21+34+49+\\ldots+t_{n}^{\\prime}$\r\nand $S=1+10+21+34+\\ldots+t_{n}^{\\prime}$\r\n$0=1+9+11+13+15+\\ldots-t_{n}^{\\prime}$\r\n$$\r\n\\begin{aligned}\r\n\\Rightarrow t_{n}^{\\prime} &=1+[9+11+13+15+\\ldots(n-1) \\text { term }] \\\\\r\n&=1+\\left[\\frac{n-1}{2}\\{2 \\times 9+(n-2) 2\\}\\right] \\\\\r\n&=1+(n-1)[9+n-2] \\\\\r\n&=1+(n-1)(n+7) \\\\\r\n\\therefore \\quad t_{n} &=\\frac{t^{\\prime}}{n !}=\\frac{1+(n-1)(n+7)}{n !} \\\\\r\n&=\\frac{1+(n-1)(n+7)}{n !} \\\\\r\n&=\\frac{1+n^{2}+6 n-7}{n !} \\\\\r\n&=\\frac{n}{(n-1) !}+\\frac{6}{(n-1) !}-\\frac{n^{2}+6 n-6}{n !} \\\\\r\n&=\\frac{n-1+1}{(n-1) !}+\\frac{6}{(n-1) !}-\\frac{1}{n !} \\\\\r\n&=\\frac{1}{(n-2) !}+\\frac{7}{(n-1) !}-\\frac{1}{n !} \\\\\r\n&=\\frac{1}{n \\rightarrow \\infty} t_{n}=\\lim _{n \\rightarrow \\infty}\\left[\\frac{1}{(n-2) !}+\\frac{7}{(n-1) !}-\\frac{1}{n !}\\right]=0\r\n\\end{aligned}\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

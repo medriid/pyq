@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254da66d43264e2f6510",
+    "chapter_name": "Sets and Relations",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $A=\\{2,3,6,8,9,11\\}$ and $B=\\{1,4,5,10,15\\}$. Let $R$ be a relation on $A \\times B$ defined by $(a, b) R(c, d)$ if and only if $3 a d-7 b c$ is an even integer. Then the relation $R$ is"
+  },
+  "options": [
+    {
+      "text": "an equivalence relation.",
+      "is_correct": false
+    },
+    {
+      "text": "reflexive and symmetric but not transitive.",
+      "is_correct": true
+    },
+    {
+      "text": "transitive but not symmetric.",
+      "is_correct": false
+    },
+    {
+      "text": "reflexive but not symmetric.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{array}{lc}\\mathrm{A}=\\{2,3,6,8,9,11\\} & (\\mathrm{a}, \\mathrm{b}) \\mathrm{R}(\\mathrm{c}, \\mathrm{d}) \\\\ \\mathrm{B}=\\{1,4,5,10,15\\} & 3 \\mathrm{ad}-7 \\mathrm{bc}\\end{array}$\nReflexive : $(\\mathrm{a}, \\mathrm{b}) \\mathrm{R}(\\mathrm{a}, \\mathrm{b})$\n$\\Rightarrow 3 \\mathrm{ab}-7 \\mathrm{ba}=-4 \\mathrm{ab}$ always even so it is reflexive.\nSymmetric : If $3 \\mathrm{ad}-7 \\mathrm{bc}=$ Even\nCase-I : odd odd\nCase-II : even even\n(c, d) $\\mathrm{R}(\\mathrm{a}, \\mathrm{b}) \\Rightarrow 3 \\mathrm{bc}-3 \\mathrm{ab}$\nCase-I : odd odd\nCase-II : even even\nso symmetric relation\nTransitive :\nSet $(3,4) R(6,4)$ Satisfy relation\nSet $(6,4) R(3,1)$ Satisfy relation\nbut $(3,4) \\mathrm{R}(3,1)$ does not satisfy relation so not transitive."
+  }
+}

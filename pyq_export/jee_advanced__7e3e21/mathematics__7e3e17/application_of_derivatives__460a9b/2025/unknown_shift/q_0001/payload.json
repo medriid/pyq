@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2025 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255d3df243724d460a9b",
+    "chapter_name": "Application of Derivatives",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathbb{R}$ denote the set of all real numbers. For a real number $x$, let $[x]$ denote the greatest integer less than or equal to $x$. Let $n$ denote a natural number.\nMatch each entry in List-I to the correct entry in List-II and choose the correct option.\n <table> <thead> <tr> <th> </th> <th>LIST - I </th> <th> </th> <th>LIST - II </th> </tr> </thead> <tbody> <tr> <td>(P) </td> <td>The minimum value of $n$ for which the function $f(x)=\\left[\\frac{10 x^3-45 x^2+60 x+35}{n}\\right]$ is continuous on the interval $[1,2]$,is </td> <td>(1) </td> <td>8 </td> </tr> <tr> <td>(Q) </td> <td>The minimum value of $n$ for which $g(x)=\\left(2 n^2-13 n-15\\right)\\left(x^3+3 x\\right),x \\in \\mathbb{R}$,is an increasing function on $\\mathbb{R}$,is </td> <td>(2) </td> <td>9 </td> </tr> <tr> <td>(R) </td> <td>The smallest natural number $n$ which is greater than 5,such that $x=3$ is a point of local minima of $h(x)=\\left(x^2-9\\right)^{\\mathrm{n}}\\left(x^2+2 x+3\\right)$,is </td> <td>(3) </td> <td>5 </td> </tr> <tr> <td>(S) </td> <td>Number of $x_0 \\in \\mathbb{R}$ such that $l(x)=\\sum_{k=0}^4\\left(\\sin |x-k|+\\cos \\left|x-k+\\frac{1}{2}\\right|\\right),x \\in \\mathbb{R}$,is NOT differentiable at $x_0$,is </td> <td>(4) </td> <td>6 </td> </tr> <tr> <td> </td> <td> </td> <td>(5) </td> <td>10 </td> </tr> </tbody> </table>"
+  },
+  "options": [
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(1),(\\mathrm{Q}) \\rightarrow(3),(\\mathrm{R}) \\rightarrow(2),(\\mathrm{S}) \\rightarrow(5)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(2),(\\mathrm{Q}) \\rightarrow(1),(\\mathrm{R}) \\rightarrow(4),(\\mathrm{S}) \\rightarrow(3)$",
+      "is_correct": true
+    },
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(5),(\\mathrm{Q}) \\rightarrow(1),(\\mathrm{R}) \\rightarrow(4),(\\mathrm{S}) \\rightarrow(3)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(2),(\\mathrm{Q}) \\rightarrow(3),(\\mathrm{R}) \\rightarrow(1),(\\mathrm{S}) \\rightarrow(5)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& P(x)=10 x^3-45 x^2+60 x+35 \\\\\n& P^{\\prime}(x)=30(x-1)(x-2)\n\\end{aligned}$\n$\\mathrm{P}(\\mathrm{x})$ decreases in $[1,2]$\n$\\Rightarrow$ Range of $\\mathrm{P}(\\mathrm{x})=[55,60]$\n$f(\\mathrm{x})=\\left[\\frac{\\mathrm{P}(\\mathrm{x})}{\\mathrm{n}}\\right] \\min$ value of $\\mathrm{n}=9$\n(Q) For $g(x)$ to be increasing\n$2 n^2-13 n-15 \\geq 0$<br><img src=\"assets\\st0001_ec04597be9d4.png\"><br>(R) $\\begin{aligned} & h(x)=\\left(x^2-9\\right)^n\\left(x^2+2 x+3\\right) \\\\ & h^{\\prime}(x)=\\left(x^2-9\\right)^n(2 x+2)+\\left(x^2+2 x+3\\right) n\\left(x^2-9\\right)^{n-1} \\cdot 2 x \\\\ & =\\left(x^2-9\\right)^{n-1}\\left[2\\left(x^2-9\\right)(x+1)+2 n x\\left(x^2+2 x+3\\right)\\right] \\\\ & =(x+3)^{n-1}(x-3)^{n-1} \\cdot q(x)\\end{aligned}$\nDerivative must change sign at $x=3$\n$\\begin{aligned}\n& \\because \\mathrm{n}-1=\\text { odd } \\\\\n& \\mathrm{n}=\\text { even } \\\\\n& \\mathrm{n}=6\n\\end{aligned}$\n(S) $\\cos \\left|\\mathrm{x}-\\mathrm{k}+\\frac{1}{2}\\right|$ is differentiable everywhere \n$\\Rightarrow \\sin |\\mathrm{x}-\\mathrm{k}|$ is NOT diff. at $\\mathrm{k}=0,1,2,3,4$"
+  }
+}

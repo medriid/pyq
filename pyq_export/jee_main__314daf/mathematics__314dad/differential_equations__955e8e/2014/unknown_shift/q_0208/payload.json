@@ -1,0 +1,43 @@
+{
+  "index": 208,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If for a continuous function $\\mathrm{f}(\\mathrm{x})$, $\\int_{-\\pi}^t(f(x)+x d x)=\\pi^2-t^2$, for all $t \\geq-\\pi$, then $\\mathrm{f}\\left(-\\frac{\\pi}{3}\\right)$ is equal to:"
+  },
+  "options": [
+    {
+      "text": "\n$\\pi$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{\\pi}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\pi}{3}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\pi}{6}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $\\int_{-\\pi}^t(f(x)+x) d x=\\pi^2-t^2$\n$$\n\\begin{aligned}\n&\\Rightarrow \\int_{-\\pi}^t f(x) d x+\\int_{-\\pi}^t x d x=\\pi^2-t^2 \\\\\n&\\Rightarrow \\int_{-\\pi}^t f(x) d x+\\left(\\frac{t^2}{2}-\\frac{\\pi^2}{2}\\right)=\\pi^2-t^2 \\\\\n&\\Rightarrow \\int_{-\\pi}^t f(x) d x=\\frac{3}{2}\\left(\\pi^2-t^2\\right)\n\\end{aligned}\n$$\ndifferentiating with respect to $t$\n$\\frac{d}{d t}\\left[\\int_{-\\pi}^t f(x) d x\\right]=\\frac{3}{2} \\frac{d}{d t}\\left(\\pi^2-t^2\\right)$\n$f(t) \\cdot \\frac{d t}{d t}-f(-\\pi) \\frac{d}{d t}(-\\pi)=-3 t$\n$f(t)=-3 t$\n$f\\left(-\\frac{\\pi}{3}\\right)=-3\\left(-\\frac{\\pi}{3}\\right)=\\pi$"
+  }
+}

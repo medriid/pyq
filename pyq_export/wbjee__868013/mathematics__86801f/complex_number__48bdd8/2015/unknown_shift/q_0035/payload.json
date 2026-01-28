@@ -1,0 +1,43 @@
+{
+  "index": 35,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc9a79d891b2548bdd8",
+    "chapter_name": "Complex Number",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $\\left(\\frac{1+\\sqrt{3} i}{1-\\sqrt{3 i}}\\right)^{64}+\\left(\\frac{1-\\sqrt{3} i}{1+\\sqrt{3} i}\\right)^{64}$ is"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "-1",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "$i$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "We know that, $\\omega=\\frac{-1+\\sqrt{3} i}{2} 1-\\sqrt{3} i=-2 \\omega$\r\nand $\\omega^{2}=\\frac{-1-\\sqrt{3} i}{2} 1+\\sqrt{3} i=-2 \\omega^{2}$\r\nNow, $\\begin{aligned}\\left(\\frac{1+\\sqrt{3} i}{1-\\sqrt{3 i}}\\right)^{64}+\\left(\\frac{1-\\sqrt{3} i}{1+\\sqrt{3} i}\\right)^{64} \\\\ &=\\left(\\frac{-2 \\omega^{2}}{-2 \\omega}\\right)^{64}+\\left(\\frac{-2 \\omega}{-2 \\omega^{2}}\\right)^{64} \\end{aligned}$\r\n$=\\omega^{64}+\\frac{1}{\\omega^{64}}=\\omega+\\omega^{2}$\r\n$$\r\n\\left[\\because \\cdot \\omega^{3}=1\\right]\r\n$$\r\n$$\r\n\\left.=-1 \\quad \\mid \\because 1+\\omega+\\omega^{2}=0\\right]\r\n$$"
+  }
+}

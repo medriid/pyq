@@ -1,0 +1,44 @@
+{
+  "index": 2,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2024 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253e7fd30f43d2c9544a",
+    "chapter_name": "Parabola",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $A_1, B_1, C_1$ be three points in the $x y$-plane. Suppose that the lines $A_1 C_1$ and $B_1 C_1$ are tangents to the curve $y^2=8 x$ at $A_1$ and $B_1$, respectively. If $O=(0,0)$ and $C_1=(-4,0)$, then which of the following statements is (are) TRUE?"
+  },
+  "options": [
+    {
+      "text": "The length of the line segment $O A_1$ is $4 \\sqrt{3}$",
+      "is_correct": true
+    },
+    {
+      "text": "The length of the line segment $A_1 B_1$ is 16",
+      "is_correct": false
+    },
+    {
+      "text": "The orthocenter of the triangle $A_1 B_1 C_1$ is $(0,0)$",
+      "is_correct": true
+    },
+    {
+      "text": "The orthocenter of the triangle $A_1 B_1 C_1$ is $(1,0)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0002_d033d6e99586.png\">\nEquation of tangent at $\\left(2 t^2, 4 t\\right)$ is\n$\\mathrm{ty}=\\mathrm{x}+2 \\mathrm{t}^2$\n$\\because$ It is passing through $(-4,0)$\n$\\therefore 0=-4+2 \\mathrm{t}^2 \\Rightarrow \\mathrm{t}= \\pm \\sqrt{2}$\n$\\left.\\begin{array}{rl}\\therefore \\mathrm{A}_1=(4,4 \\sqrt{2}) \\\\ \\mathrm{B}_1=(4,-4 \\sqrt{2})\\end{array}\\right\\} \\begin{aligned} & \\mathrm{OA}_1=\\sqrt{48}=4 \\sqrt{3} \\\\ & \\mathrm{~A}_1 \\mathrm{~B}_1=8 \\sqrt{2}\\end{aligned}$\nEquation of altitude of $\\Delta A_1 B_1 C_1$ drawn from $A_1$ is\n$y-4 \\sqrt{2}=\\sqrt{2}(x-4)$\n$\\Rightarrow \\sqrt{2} x-y=0$  ...(1)\nEquation of altitude of $\\Delta A_1 B_1 C_1$ drawn from $C_1$ is\n$\\mathrm{x}=0$ ...(2)\nSolving (1) and (2) $\\Rightarrow$ orthocentre is $(0,0)$\n$\\therefore$ correct options are (1), (3)"
+  }
+}

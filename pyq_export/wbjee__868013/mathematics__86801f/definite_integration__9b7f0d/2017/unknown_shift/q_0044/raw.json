@@ -1,0 +1,63 @@
+{
+  "_id": "64a81437e0ff5a5425a85993",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7c",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2017-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2017",
+      "title": "WBJEE 2017"
+    }
+  ],
+  "type": "multipleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $f$ be a non-constant continuous function for all $x \\geq 0$. Let $f$ satisfy the relation $f(x) f(a-x)=1$ for some $a \\in R^{+}$. Then, $I=\\int_{0}^{a} \\frac{d x}{1+f(x)}$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "vjfOv",
+      "text": "$a$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "FPiXJ",
+      "text": "$\\frac{a}{4}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "bsGwa",
+      "text": "$\\frac{a}{2}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "NnNxD",
+      "text": "$f(a)$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$I=\\int_{0}^{a} \\frac{d x}{1+f(x)}$\r\n$=\\int_{0}^{a} \\frac{1}{1+f(a-x)} d x$\r\n$\\quad\\left[\\because \\int_{a}^{b} f(x) d x=\\int_{a}^{b} f(a+b-x) d x\\right]$\r\n$=\\int_{0}^{a} \\frac{d x}{1+\\frac{1}{f(x)}} \\quad[\\because f(x) f(a-x)=1]$\r\n$I=\\int_{0}^{a} \\frac{f(x)}{f(x)+1} d x$\r\nOn adding Eqs. (i) and (ii), we get $2 I=\\int_{0}^{a} \\frac{f(x)+1}{f(x)+1} d x$\r\n$\\Rightarrow \\quad 2 I=\\int_{0}^{a} 1 d x$\r\n$\\begin{array}{ll}\\Rightarrow & 2 t=[x]_{0}^{a} \\\\ \\Rightarrow & 2 I=a \\\\ \\Rightarrow & I=\\frac{a}{2}\\end{array}$\r\n72. $(b,$ d) We have, $x=1-2 x$\r\n$\\Rightarrow y=\\frac{1-2 x}{x}$\r\n$\\Rightarrow \\frac{d y}{d x}=\\frac{-2 x-(1-2 x) \\cdot 1}{x^{2}}$\r\n$\\quad=\\frac{-2 x-1+2 x}{x^{2}}=\\frac{-1}{x^{2}}    < 0$\r\nsince, $a x+b y+c=0$ is tangent to the curve $x=1-2 x$\r\n$\\therefore \\quad \\frac{-a}{b} < 0 \\Rightarrow \\frac{a}{b}>0$\r\n$\\Rightarrow$ Either $a>a b>0$ or $a < 0, b < 0$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7c",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2017-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2017",
+    "title": "WBJEE 2017"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

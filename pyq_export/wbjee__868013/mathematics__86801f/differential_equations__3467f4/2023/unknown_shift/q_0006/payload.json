@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If \\(x=\\sin \\theta\\) and \\(y=\\sin k \\theta\\), then \\(\\left(1-x^2\\right) y_2-x y_1-\\alpha y=0\\), for \\(\\alpha=\\)"
+  },
+  "options": [
+    {
+      "text": "\\(\\mathrm{k}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(-\\mathrm{k}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(-\\mathrm{k}^2\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(\\mathrm{k}^2\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hint : \\(x=\\sin \\theta\\)\n\\(y=\\sin k \\theta\\)\n\\(\\frac{d y}{d x}=\\frac{d y / d \\theta}{d x / d \\theta}=\\frac{k \\cos k \\theta}{\\cos \\theta}=y_1 \\ldots\\ldots (I)\\)\n\\(\\begin{aligned}\n& y_2=\\frac{d^2 y}{d x^2}=\\frac{d}{d \\theta}\\left(\\frac{d y}{d x}\\right) \\times \\frac{d \\theta}{d x}=\\left[\\frac{-k^2 \\sin (k \\theta) \\cdot \\cos \\theta+k \\cos (k \\theta) \\sin \\theta}{\\cos ^2 \\theta}\\right] \\times \\frac{1}{\\cos \\theta} \\\\\n& y_2=\\frac{k \\cos (k \\theta) \\sin \\theta-k^2 \\sin (k \\theta) \\cos \\theta}{\\cos ^3 \\theta} \\ldots \\ldots \\text { (II) }\n\\end{aligned}\\)\nalso, \\(1-x^2=1-\\sin ^2 \\theta=\\cos ^2 \\theta \\ldots \\ldots \\text { (III) }\\)\nSo, putting the values of \\(1-x^2, y_1\\) and \\(y_2\\) from (I), (II), (III) we get\n\\(\\begin{aligned}\n& \\left(1-x^2\\right) y_2-x y_1=\\alpha y \\\\\n& \\Rightarrow\\left(\\cos ^2 \\theta\\right)\\left[\\frac{k \\cos (k \\theta) \\sin \\theta-k^2 \\sin (k \\theta) \\cdot \\cos \\theta}{\\cos ^3 \\theta}\\right]-\\frac{k \\sin \\theta \\cos (k \\theta)}{\\cos \\theta}=\\alpha(\\sin k \\theta) \\\\\n& \\Rightarrow \\frac{k \\cos (k \\theta) \\sin \\theta-k^2 \\sin (k \\theta) \\cos \\theta-k \\sin \\theta \\cos (k \\theta)}{\\cos \\theta}=\\alpha \\sin (k \\theta) \\\\\n& \\Rightarrow-k^2 \\sin (k \\theta)=\\alpha \\sin (k \\theta)\n\\end{aligned}\\)\nSo, \\(\\alpha=-k^2\\)"
+  }
+}

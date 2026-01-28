@@ -1,0 +1,43 @@
+{
+  "index": 159,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2021 (24 Feb Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2021",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&#10878;</mo><mn>2</mn></math>&nbsp;is a positive integer, then the sum of the series&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts><mo>+</mo><mn>2</mn><mfenced><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mn>2</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mn>3</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mn>4</mn></mmultiscripts><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mi>n</mi></mmultiscripts></mrow></mfenced></math>&nbsp;is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow><mn>6</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mfenced><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow><mn>6</mn></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><msup><mfenced><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup><mfenced><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfenced></mrow><mn>12</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mfenced><mrow><mn>3</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow><mn>6</mn></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts><mo>+</mo><mn>2</mn><mfenced><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mn>2</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mn>3</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mn>4</mn></mmultiscripts><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mi>n</mi></mmultiscripts></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts><mo>+</mo><mn>2</mn><mfenced><mrow><mmultiscripts><mi>C</mi><mn>3</mn><none/><mprescripts/><none/><mn>3</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mn>3</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mn>4</mn></mmultiscripts><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mi>n</mi></mmultiscripts></mrow></mfenced></math></p><p>{use <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>=</mo><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts></math>}</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts><mo>+</mo><mn>2</mn><mfenced><mrow><mmultiscripts><mi>C</mi><mn>3</mn><none/><mprescripts/><none/><mn>4</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mn>4</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>3</mn><none/><mprescripts/><none/><mn>5</mn></mmultiscripts><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mi>n</mi></mmultiscripts></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts><mo>+</mo><mn>2</mn><mfenced><mrow><mmultiscripts><mi>C</mi><mn>3</mn><none/><mprescripts/><none/><mn>5</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mn>5</mn></mmultiscripts><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mi>n</mi></mmultiscripts></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts><mo>+</mo><mn>2</mn><mfenced><mrow><mmultiscripts><mi>C</mi><mn>3</mn><none/><mprescripts/><none/><mi>n</mi></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mi>n</mi></mmultiscripts></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts><mo>+</mo><mn>2</mn><mo>&#183;</mo><mmultiscripts><mi>C</mi><mn>3</mn><none/><mprescripts/><none/><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mfenced><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mi>n</mi></mrow><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mo>&#183;</mo><mfrac><mrow><mfenced><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mfenced><mi>n</mi></mfenced><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mrow><mn>2</mn><mo>.</mo><mn>3</mn></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mi>n</mi><mfenced><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow><mn>6</mn></mfrac></math></p>"
+  }
+}

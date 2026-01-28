@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (05 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253547998417ac642afb",
+    "chapter_name": "Trigonometric Equations",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Suppose $\\theta \\epsilon\\left[0, \\frac{\\pi}{4}\\right]$ is a solution of $4 \\cos \\theta-3 \\sin \\theta=1$. Then $\\cos \\theta$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$\\frac{4}{(3 \\sqrt{6}+2)}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{6+\\sqrt{6}}{(3 \\sqrt{6}+2)}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{4}{(3 \\sqrt{6}-2)}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{6-\\sqrt{6}}{(3 \\sqrt{6}-2)}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$4\\left(\\frac{1-\\tan ^2 \\theta / 2}{1+\\tan ^2 \\theta / 2}\\right)-3\\left(\\frac{2 \\tan \\frac{\\theta}{2}}{1+\\tan ^2 \\frac{\\theta}{2}}\\right)=1$\nlet $\\tan \\frac{\\theta}{2}=\\mathrm{t}$\n$\\begin{aligned}\n& \\frac{4-4 t^2-6 t}{1+t^2}=1 \\\\\n& 4-4 t^2-6 t=1+t^2\n\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow 5 t^2+6 t-3=0 \\\\ & \\Rightarrow t=\\frac{-6 \\pm \\sqrt{36-4(5)(-3)}}{2(5)} \\\\ & =\\frac{-6 \\pm \\sqrt{96}}{10} \\\\ & =\\frac{-6 \\pm 4 \\sqrt{6}}{10} \\\\ & t=\\frac{-3+2 \\sqrt{6}}{5} \\\\ & \\cos \\theta=\\frac{1-t^2}{1+t^2}=\\frac{1-\\left(\\frac{2 \\sqrt{6}-3}{5}\\right)^2}{1+\\left(\\frac{2 \\sqrt{6}-3}{5}\\right)^2}=\\frac{1-\\left(\\frac{24+9-12 \\sqrt{6}}{25}\\right)}{1+\\left(\\frac{24+9-12 \\sqrt{6}}{25}\\right)} \\\\ & =\\frac{25-33+12 \\sqrt{6}}{25+33-12 \\sqrt{6}}=\\frac{12 \\sqrt{6}-8}{58-12 \\sqrt{6}}=\\frac{6 \\sqrt{6}-4}{29-6 \\sqrt{6}} \\times \\frac{29+6 \\sqrt{6}}{29+6 \\sqrt{6}} \\\\ & =\\frac{100+150 \\sqrt{6}}{625}=\\frac{4+6 \\sqrt{6}}{25} \\times \\frac{4-6 \\sqrt{6}}{4-6 \\sqrt{6}} \\\\ & =\\frac{-200}{25(4-6 \\sqrt{6})}=\\frac{-8}{4-6 \\sqrt{6}}=\\frac{4}{3 \\sqrt{6}-2}\\end{aligned}$"
+  }
+}

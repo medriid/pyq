@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cf297e807aabffe8487",
+    "chapter_name": "Limits",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\lim _{x \\rightarrow \\infty} \\frac{1}{n^{k+1}}\\left[2^k+4^k+6^k+\\ldots .+(2 n)^k\\right]=$"
+  },
+  "options": [
+    {
+      "text": "$\\frac{2^k}{k}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2^{\\mathrm{k}+1}}{\\mathrm{k}+1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2^k}{\\mathrm{k}+1}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{2^{\\mathrm{k}}}{\\mathrm{k}-1}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hint: $\\lim _{\\mathrm{x} \\rightarrow \\infty} \\frac{1}{\\mathrm{n}} \\sum_{\\mathrm{r}=1}^{\\mathrm{n}}\\left(\\frac{2 \\mathrm{r}}{\\mathrm{n}}\\right)^{\\mathrm{k}}=\\int_0^1(2 \\mathrm{x})^{\\mathrm{k}} \\mathrm{dx}=\\frac{2^{\\mathrm{k}}}{\\mathrm{k}+1}$"
+  }
+}

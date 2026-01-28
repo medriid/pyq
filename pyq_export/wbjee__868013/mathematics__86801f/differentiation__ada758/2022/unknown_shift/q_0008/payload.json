@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $y=e^{\\tan ^{-1} x}$ then"
+  },
+  "options": [
+    {
+      "text": "$\\left(1+x^2\\right) y_2+(2 x-1) y_1=0$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\left(1+x^2\\right) y_2+2 x y=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(1+x^2\\right) y_2-y_1=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(1+x^2\\right) y_2+3 x y_1+4 y=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\frac{d y}{d x}=e^{\\tan ^{-1} x} \\times \\frac{1}{1+x^2}$\n$\\Rightarrow\\left(1+x^2\\right) y^{\\prime}=y$\nor $2 x y^{\\prime}+\\left(1+x^2\\right) y^{\\prime \\prime}=y^{\\prime}$\nor $\\left(1+x^2\\right) y^{\\prime \\prime}+y^{\\prime}(2 x-1)=0$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2024 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602556cd23bba7eaa346dc",
+    "chapter_name": "Functions",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g: \\mathbb{R} \\rightarrow \\mathbb{R}$ be functions defined by\n$f(x)=\\left\\{\\begin{array}{ll}x|x| \\sin \\left(\\frac{1}{x}\\right), & x \\neq 0, \\\\ 0, & x=0,\\end{array} \\quad\\right.$ and $g(x)= \\begin{cases}1-2 x, & 0 \\leq x \\leq \\frac{1}{2} \\\\ 0, & \\text { otherwise }\\end{cases}$\nLet $a, b, c, d \\in \\mathbb{R}$. Define the function $h: \\mathbb{R} \\rightarrow \\mathbb{R}$ by\n$h(x)=a f(x)+b\\left(g(x)+g\\left(\\frac{1}{2}-x\\right)\\right)+c(x-g(x))+d g(x), x \\in \\mathbb{R}$\nMatch each entry in List-I to the correct entry in List-II.\n<img src=\"assets\\qt0003_775cadcf761c.png\"/>\nThe correct option is :"
+  },
+  "options": [
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(4) \\quad(\\mathrm{Q}) \\rightarrow(3) \\quad(\\mathrm{R}) \\rightarrow(1) \\quad(\\mathrm{S}) \\rightarrow(2)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(5) \\quad(\\mathrm{Q}) \\rightarrow(2) \\quad(\\mathrm{R}) \\rightarrow(4) \\quad(\\mathrm{S}) \\rightarrow(3)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(5) \\quad(\\mathrm{Q}) \\rightarrow(3) \\quad(\\mathrm{R}) \\rightarrow(2) \\quad(\\mathrm{S}) \\rightarrow(4)$",
+      "is_correct": true
+    },
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(4) \\quad(\\mathrm{Q}) \\rightarrow(2) \\quad(\\mathrm{R}) \\rightarrow(1) \\quad(\\mathrm{S}) \\rightarrow(3)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$f(x)=\\left\\{\\begin{array}{ccc}x|x| \\sin \\frac{1}{x} & ; & x \\neq 0 \\\\ 0 & ; & x=0\\end{array} \\quad g(x)=\\left\\{\\begin{array}{ccc}1-2 x & ; & 0 \\leq x \\leq \\frac{1}{2} \\\\ 0 & ; & \\text { otherwise }\\end{array}\\right.\\right.$\n$g\\left(\\frac{1}{2}-x\\right)=\\left\\{\\begin{array}{ccc}2 x & ; & 0 \\leq \\frac{1}{2}-x \\leq \\frac{1}{2} \\\\ 0 & ; & \\text { otherwise }\\end{array}=\\left\\{\\begin{array}{ccc}2 x & ; & 0 \\leq x \\leq \\frac{1}{2} \\\\ 0 & ; & \\text { otherwise }\\end{array}\\right\\}\\right.$\n$g(x)+g\\left(\\frac{1}{2}-x\\right)=\\left\\{\\begin{array}{lll}1 & ; & 0 \\leq x \\leq \\frac{1}{2} \\\\ 0 & ; & \\text { otherwise }\\end{array}\\right\\}$\n(P)\nNow $\\mathrm{a}=0, \\mathrm{~b}=1, \\mathrm{c}=0, \\mathrm{~d}=0$\n$\\because \\mathrm{h}(\\mathrm{x})=\\mathrm{g}(\\mathrm{x})+\\mathrm{g}\\left(\\frac{1}{2}-\\mathrm{x}\\right)=\\left\\{\\begin{array}{lll}1 & ; & 0 \\leq \\mathrm{x} \\leq \\frac{1}{2} \\\\ 0 & ; & \\text { otherwise }\\end{array}\\right.$\n<img src=\"assets\\st0003_7a24499a3af3.png\">\nHence Range of $\\mathrm{h}(\\mathrm{x})$ is $\\{0,1\\}$\n(Q)\n$\\begin{aligned} & \\mathrm{a}=1, \\mathrm{~b}=0, \\mathrm{c}=0, \\mathrm{~d}=0 \\\\ & \\mathrm{~h}(\\mathrm{x})=\\mathrm{f}(\\mathrm{x})=\\left\\{\\begin{array}{cll}\\mathrm{x}|\\mathrm{x}| \\sin \\frac{1}{x} & ; & x \\neq 0 \\\\ 0 & ; & x=0\\end{array}\\right. \\\\ & \\text { RHD }=\\lim _{x \\rightarrow 0} \\frac{x^2 \\sin \\frac{1}{x}-0}{x}=0 \\\\ & \\text { LHD }=\\lim _{x \\rightarrow 0} \\frac{-x^2 \\sin \\frac{1}{x}-0}{x}=0\\end{aligned}$\nHence $\\mathrm{h}(\\mathrm{x})$ is differentiable on $\\mathrm{R}$\n(R)\n$\\begin{aligned} & \\mathrm{a}=0, \\mathrm{~b}=0, \\mathrm{c}=1, \\mathrm{~d}=0 \\\\ & h(x)=x-g(x)=\\left\\{\\begin{array}{ccc}3 \\mathrm{x}-1 & ; & 0 \\leq x \\leq \\frac{1}{2} \\\\ 0 & ; & \\text { otherwise }\\end{array}\\right.\\end{aligned}$\n<img src=\"assets\\st0003_7910edc20065.png\"><br>$\\therefore \\mathrm{h}(\\mathrm{x})$ is ONTO\n(S)\n$\\begin{aligned} & \\mathrm{a}=0, \\mathrm{~b}=0, \\mathrm{c}=0, \\mathrm{~d}=1 \\\\ & \\mathrm{~h}(\\mathrm{x})=\\mathrm{g}(\\mathrm{x})=\\left\\{\\begin{array}{ccl}1-2 \\mathrm{x} & ; & 0 \\leq \\mathrm{x} \\leq \\frac{1}{2} \\\\ 0 & ; & \\text { otherwise }\\end{array}\\right.\\end{aligned}$\n<img src=\"assets\\st0003_20df5924f859.png\">\nRange of $h(x)$ is $[0,1]$"
+  }
+}

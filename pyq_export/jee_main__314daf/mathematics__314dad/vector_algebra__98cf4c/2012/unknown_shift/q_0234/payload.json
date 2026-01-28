@@ -1,0 +1,43 @@
+{
+  "index": 234,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (07 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$A B C D$ is parallelogram. The position vectors of $A$ and $C$ are respectively, $3 \\hat{i}+3 \\hat{j}+5 \\hat{k}$ and $\\hat{i}-5 \\hat{j}-5 \\hat{k}$. If $M$ is the midpoint of the diagonal $D B$, then the magnitude of the projection of $\\overrightarrow{O M}$ on $\\overrightarrow{O C}$, where $O$ is the origin, is"
+  },
+  "options": [
+    {
+      "text": "\n$7 \\sqrt{51}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{7}{\\sqrt{50}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$7 \\sqrt{50}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{7}{\\sqrt{51}}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0234_2693b0f3ad29.png\"><br>\nIn a parallelogram, diagonals bisect each other. So, mid point of $D B$ is also the midpoint of $A C$.\nMid-point of $M=2 \\hat{i}-\\hat{j}$\nDirection ratio of $O C=(1,-5,-5)$\nDirection ratio of $O M=(2,-1,0)$\nAngle $\\theta$ between $O M$ and $O C$ is given by\n$$\n\\left.\\cos \\theta=\\frac{(1 \\times 2+)-5(-1)(+-5) 0(}{\\sqrt{2^2+(-1)^2} \\sqrt{()^2+(-5)^2+(-5)^2}}\\right)()\n$$\n\n$$\n=\\frac{2+5}{\\sqrt{5} \\sqrt{51}}=\\frac{7}{\\sqrt{5} \\sqrt{51}}\n$$\nProjection of $\\overrightarrow{O M}$ on $\\overrightarrow{O C}$ is given by\n$$\n|O M| \\cdot \\cos \\theta=\\sqrt{5} \\times \\frac{7}{\\sqrt{5} \\times \\sqrt{51}}=\\frac{7}{\\sqrt{51}}\n$$"
+  }
+}

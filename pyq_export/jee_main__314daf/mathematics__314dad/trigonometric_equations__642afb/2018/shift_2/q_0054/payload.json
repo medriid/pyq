@@ -1,0 +1,43 @@
+{
+  "index": 54,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253547998417ac642afb",
+    "chapter_name": "Trigonometric Equations",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Consider the following two statements.\nStatement $\\boldsymbol{p}$ :\nThe value of $\\sin 120^{\\circ}$ can be divided by taking $\\theta=240^{\\circ}$ in the equation\n$$\n2 \\sin \\frac{\\theta}{2}=\\sqrt{1+\\sin \\theta}-\\sqrt{1-\\sin \\theta} .\n$$\nStatement $\\boldsymbol{q}$ :\nThe angles $A, B, C$ and $D$ of any quadrilateral $A B C D$ satisfy the equation\n$$\n\\cos \\left(\\frac{1}{2}(A+C)\\right)+\\cos \\left(\\frac{1}{2}(B+D)\\right)=0\n$$\nThen the truth values of $p$ and $q$ are respectively."
+  },
+  "options": [
+    {
+      "text": "\n$\\mathrm{F}, \\mathrm{T}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\mathrm{T}, \\mathrm{T}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nF, F\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nT, F",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Statement $p$ :\n$$\n\\sin 120^{\\circ}=\\cos 30^{\\circ}=\\frac{\\sqrt{3}}{2} \\Rightarrow 2 \\sin 120^{\\circ}=\\sqrt{3}\n$$\nSo, $\\sqrt{1+\\sin 240^{\\circ}}-\\sqrt{1-\\sin 240^{\\circ}}=$\n$$\n\\sqrt{\\frac{1-\\sqrt{3}}{2}}-\\sqrt{\\frac{1+\\sqrt{3}}{2}} \\neq \\sqrt{3}\n$$\nStatement $\\mathbf{q}$ :\nSo, $A+B+C+D=2 \\pi$\n$$\n\\begin{aligned}\n&\\Rightarrow \\frac{A+C}{2}+\\frac{B+D}{2}=\\pi \\\\\n&\\Rightarrow \\cos \\left(\\frac{A+C}{2}\\right)+\\cos \\left(\\frac{B+D}{2}\\right) \\\\\n&=\\cos \\left(\\frac{A+C}{2}\\right)-\\cos \\left(\\frac{A+C}{2}\\right)=0\n\\end{aligned}\n$$\nTherefore, statement $p$ is false and statement $q$ is true."
+  }
+}

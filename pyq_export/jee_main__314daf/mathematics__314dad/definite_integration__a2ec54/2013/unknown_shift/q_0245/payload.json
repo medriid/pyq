@@ -1,0 +1,43 @@
+{
+  "index": 245,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2013 (25 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For $0 \\leq x \\leq \\frac{\\pi}{2}$, the value of\n$$\n\\int_0^{\\sin ^2 x} \\sin ^{-1}(\\sqrt{t}) d t+\\int_0^{\\cos ^2 x} \\cos ^{-1}(\\sqrt{t}) d t \\text { equals : }\n$$"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{\\pi}{4}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-\\frac{\\pi}{4}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Consider\n$$\n\\int_0^{\\sin ^2 x} \\sin ^{-1}(\\sqrt{t}) d t+\\int_0^{\\cos ^2 x} \\cos ^{-1}(\\sqrt{t}) d t\n$$\nLet $\\mathrm{I}=f(x)$ after integrating and putting the limits.\n$$\n\\begin{aligned}\n&f^{\\prime}(x)=\\sin ^{-1} \\sqrt{\\sin ^2 x}(2 \\sin x \\cos x)-0 \\\\\n&\\quad+\\cos ^{-1} \\sqrt{\\cos ^2 x}(-2 \\cos x \\sin x)-0 \\\\\n&\\therefore f^{\\prime}(x)=0 \\Rightarrow f(x)=\\mathrm{C} \\quad \\text { (constant) }\n\\end{aligned}\n$$\nNow, we find $f(x)$ at $x=\\frac{\\pi}{4}$\n$$\n\\begin{aligned}\n\\therefore \\mathrm{I} &=\\int_0^{1 / 2} \\sin ^{-1} \\sqrt{t} d t+\\int_0^{1 / 2} \\cos ^{-1} \\sqrt{t} d t \\\\\n&=\\int_0^{1 / 2}\\left(\\sin ^{-1} \\sqrt{t}+\\cos ^{-1} \\sqrt{t}\\right) d t \\\\\n&=\\int_0^{1 / 2} \\frac{\\pi}{2} d t=\\frac{\\pi}{4}=\\mathrm{C} \\\\\n\\therefore \\quad f(x)=\\frac{\\pi}{4} \\\\\n\\therefore \\text { Required integration }=\\frac{\\pi}{4}\n\\end{aligned}\n$$"
+  }
+}

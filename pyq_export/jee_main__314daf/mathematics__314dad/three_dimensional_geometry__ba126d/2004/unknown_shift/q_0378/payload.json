@@ -1,0 +1,43 @@
+{
+  "index": 378,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2004",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256d4f8c6827c3ba126d",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2004",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A line with direction cosines proportional to $2,1,2$ meets each of the lines $x=y+a=z$ and $x+a=2 y=2 z$. The co-ordinates of each of the point of intersection are given by"
+  },
+  "options": [
+    {
+      "text": "\n$(3 a, 3 a, 3 a),(a, a, a)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(3 a, 2 a, 3 a),(a, a, a)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$(3 a, 2 a, 3 a),(a, a, 2 a)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(2 a, 3 a, 3 a),(2 a, a, a)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Any point on the line $\\frac{x}{1}=\\frac{y+a}{1}=\\frac{z}{1}=t_1 \\quad$ (say) is $\\left(t_1, t_1-a, t_1\\right)$ and any point on the line $\\frac{x+a}{2}=\\frac{y}{1}=\\frac{z}{1}=t_2 \\quad($ say $)$ is $\\left(2 t_2-a, t_2, t_2\\right)$.\nNow direction cosine of the lines intersecting the above lines is proportional to $\\left(2 t_2-a-t_1, t_2-t_1+a, t_2-t_1\\right)$.\nHence $2 \\mathrm{t}_2-\\mathrm{a}-\\mathrm{t}_1=2 \\mathrm{k}, \\mathrm{t}_2-\\mathrm{t}_1+\\mathrm{a}=\\mathrm{k}$ and $\\mathrm{t}_2-\\mathrm{t}_1=2 \\mathrm{k}$\nOn solving these, we get $t_1=3 a, t_2=a$.\nHence points are $(3 a, 2 a, 3 a)$ and $(a, a, a)$"
+  }
+}

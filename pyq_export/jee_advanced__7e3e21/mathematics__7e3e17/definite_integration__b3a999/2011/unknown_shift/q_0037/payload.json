@@ -1,0 +1,24 @@
+{
+  "index": 37,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Advanced 2011 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602563f6918f74a3b3a999",
+    "chapter_name": "Definite Integration",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f:[1, \\infty) \\rightarrow[2, \\infty)$ be a differentiable function such that $f(1)=2$. If $6 \\int_1^x f(t) d t=3 x f(x)-x^3$ for all $x \\geq 1$, then the value of $f(2)$ is"
+  },
+  "options": [],
+  "correct_answer": "2.667",
+  "solution": {
+    "text": "Given, $f(1)=\\frac{1}{3}$ and $6 \\int_1^x f(t) d t$ $=3 x f(x)-x^3$, for all $x \\geq 1$\nUsing (Newton-Leibnitz formula),\nOn Differentiating both sides,\n$$\n\\begin{aligned}\n& 6 f(x) \\cdot 1-0-3 f(x)+3 x f^{\\prime}(x)-3 x^2 \\\\\n\\Rightarrow & 3 x f^{\\prime}(x)-3 f(x)=3 x^2 \\\\\n\\Rightarrow & f^{\\prime}(x)-\\frac{1}{x} f(x)=x\n\\end{aligned}\n$$\n\n$$\n\\Rightarrow \\frac{x f^{\\prime}(x)-f(x)}{x^2}=1 \\Rightarrow \\frac{d}{d x}\\left\\{\\frac{f(x)}{x}\\right\\}=1\n$$\nOn integrating both sides,\n$$\n\\begin{array}{ll} \n& \\frac{f(x)}{x}=x+C \\quad\\left[\\because f(1)=\\frac{1}{3}\\right] \\\\\n\\Rightarrow \\quad & \\frac{1}{3}=1+C \\Rightarrow \\quad C=-\\frac{2}{3} \\\\\n& \\text { Now, } \\quad f(x)=x^2-\\frac{2}{3} x \\\\\n\\Rightarrow \\quad & f(2)=4-\\frac{4}{3}=\\frac{8}{3}\n\\end{array}\n$$\nNote Here, $f(1)=2$ does not satisfy given function.\n$$\n\\therefore \\quad f(1)=\\frac{1}{3}\n$$\nFor that, $f(x)=x^2-\\frac{2}{3} x$ and $\\quad f(2)=4-\\frac{4}{3}=\\frac{8}{3}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 49,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2022 (28 Jun Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2022",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>:</mo><mi mathvariant=\"normal\">&#8477;</mi><mo>&#8594;</mo><mi mathvariant=\"normal\">&#8477;</mi></math>&nbsp;be defined as&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced open=\"[\" close=\"\"><mtable columnalign=\"left\"><mtr><mtd><mfenced open=\"[\" close=\"]\"><msup><mi>e</mi><mi>x</mi></msup></mfenced><mo>,</mo></mtd><mtd><mi>x</mi><mo>&#60;</mo><mn>0</mn></mtd></mtr><mtr><mtd><mi>a</mi><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mfenced open=\"[\" close=\"]\"><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>,</mo></mtd><mtd><mn>0</mn><mo>&#8804;</mo><mi>x</mi><mo>&#60;</mo><mn>1</mn></mtd></mtr><mtr><mtd><mi>b</mi><mo>+</mo><mfenced open=\"[\" close=\"]\"><mrow><mi>sin</mi><mfenced><mrow><mi>&#960;</mi><mi>x</mi></mrow></mfenced></mrow></mfenced><mo>,</mo></mtd><mtd><mn>1</mn><mo>&#8804;</mo><mi>x</mi><mo>&#60;</mo><mn>2</mn></mtd></mtr><mtr><mtd><mfenced open=\"[\" close=\"]\"><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></mfenced><mo>-</mo><mi>c</mi><mo>,</mo></mtd><mtd><mi>x</mi><mo>&#8805;</mo><mn>2</mn></mtd></mtr></mtable></mfenced></math><br />where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>&#8712;</mo><mi>&#8477;</mi></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"[\"><mi>t</mi></mfenced></math>&nbsp;denotes greatest integer less than or equal to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>. Then, which of the following statements is true?"
+  },
+  "options": [
+    {
+      "text": "There exists <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>&#8712;</mo><mi mathvariant=\"normal\">&#8477;</mi></math>&nbsp;such that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> is continuous of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">&#8477;</mi></math>.",
+      "is_correct": false
+    },
+    {
+      "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math>&nbsp;is discontinuous at exactly one point, then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>1</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math>&nbsp;is discontinuous at exactly one point, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>&#8800;</mo><mn>1</mn></math>.",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math>&nbsp;is discontinuous at atleast two points, for any values of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>b</mi></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>Given&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"[\"><mtable columnalign=\"left\"><mtr><mtd><mfenced close=\"]\" open=\"[\"><msup><mi>e</mi><mi>x</mi></msup></mfenced><mo>,</mo></mtd><mtd><mi>x</mi><mo>&#60;</mo><mn>0</mn></mtd></mtr><mtr><mtd><mi>a</mi><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mfenced close=\"]\" open=\"[\"><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>,</mo></mtd><mtd><mn>0</mn><mo>&#8804;</mo><mi>x</mi><mo>&#60;</mo><mn>1</mn></mtd></mtr><mtr><mtd><mi>b</mi><mo>+</mo><mfenced close=\"]\" open=\"[\"><mrow><mi>sin</mi><mfenced><mrow><mi>&#960;</mi><mi>x</mi></mrow></mfenced></mrow></mfenced><mo>,</mo></mtd><mtd><mn>1</mn><mo>&#8804;</mo><mi>x</mi><mo>&#60;</mo><mn>2</mn></mtd></mtr><mtr><mtd><mfenced close=\"]\" open=\"[\"><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></mfenced><mo>-</mo><mi>c</mi><mo>,</mo></mtd><mtd><mi>x</mi><mo>&#8805;</mo><mn>2</mn></mtd></mtr></mtable></mfenced></math></p><p>i.e.&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable><mtr><mtd><mn>0</mn><mo>,</mo></mtd><mtd><mi>x</mi><mo>&#60;</mo><mn>0</mn></mtd></mtr><mtr><mtd><mi>a</mi><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><mn>1</mn><mo>,</mo></mtd><mtd><mn>0</mn><mo>&#8804;</mo><mi>x</mi><mo>&#60;</mo><mn>1</mn></mtd></mtr><mtr><mtd><mi>b</mi><mo>,</mo></mtd><mtd><mi>x</mi><mo>=</mo><mn>1</mn></mtd></mtr><mtr><mtd><mi>b</mi><mo>-</mo><mn>1</mn><mo>,</mo></mtd><mtd><mn>1</mn><mo>&#60;</mo><mi>x</mi><mo>&#60;</mo><mn>2</mn></mtd></mtr><mtr><mtd><mo>-</mo><mi>c</mi><mo>,</mo></mtd><mtd><mi>x</mi><mo>&#8805;</mo><mn>2</mn></mtd></mtr></mtable></mfenced></math></p><p>Here, we know&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math>&nbsp;is discontinuous at&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>&nbsp;as&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>&#8800;</mo><mi>b</mi><mo>-</mo><mn>1</mn></math></p><p>For <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math>&nbsp;to be continuous at&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn><mo>;</mo><mo>&#160;</mo><mi>a</mi><mo>=</mo><mn>1</mn></math></p><p>For&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math>&nbsp;to be continuous at&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn><mo>;</mo><mo>&#160;</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>1</mn></math></p><p>Hence,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>2</mn></math></p>"
+  }
+}

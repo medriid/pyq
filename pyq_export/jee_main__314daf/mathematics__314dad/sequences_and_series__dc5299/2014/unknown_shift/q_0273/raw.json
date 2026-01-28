@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e63",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d9",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (12 Apr Online)",
+      "title": "JEE Main 2014 (12 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "The least positive integer $\\mathrm{n}$ such that $1-\\frac{2}{3}-\\frac{2}{3^2}-\\ldots .-\\frac{2}{3^{n-1}} < \\frac{1}{100}$, is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "daq8w",
+      "text": "\n4\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "srlES",
+      "text": "\n5\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "LMz0X",
+      "text": "\n6\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "0MzmN",
+      "text": "\n7",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n&1-\\frac{2}{3}-\\frac{2}{3^2} \\ldots \\cdot \\frac{2}{3^{n-1}} < \\frac{1}{100} \\\\\n&\\Rightarrow 1-\\frac{2}{3}\\left[\\frac{1}{3}+\\frac{1}{3^2}+\\frac{1}{3^3}+\\ldots \\frac{1}{3^{n-1}}\\right] < \\frac{1}{100} \\\\\n&\\Rightarrow \\frac{1-2\\left[\\frac{1}{3}\\left(\\frac{1}{3^n}-1\\right)\\right]}{\\frac{1}{3}-1} < \\frac{1}{100} \\\\\n&\\Rightarrow 1-2\\left[\\frac{3^n-1}{2.3^n}\\right] < \\frac{1}{100} \\\\\n&\\Rightarrow 1-\\left[\\frac{3^n-1}{3^n}\\right] < \\frac{1}{100} \\\\\n&\\Rightarrow 1-1+\\frac{1}{3^n} < \\frac{1}{100}\n\\end{aligned}\n$$\n\n$$\n\\Rightarrow 100 < 3^n\n$$\nThus, least value of $n$ is 5",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d9",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (12 Apr Online)",
+    "title": "JEE Main 2014 (12 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

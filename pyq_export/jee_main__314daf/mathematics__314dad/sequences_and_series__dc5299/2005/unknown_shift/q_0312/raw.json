@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d656de",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2005-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2005",
+      "title": "JEE Main 2005"
+    }
+  ],
+  "question": {
+    "text": "If $x=\\sum_{n=0}^{\\infty} a^n, y=\\sum_{n=0}^{\\infty} b^n, z=\\sum_{n=0}^{\\infty} c^n$ where $a, b, c$ are in A.P. and $|a| < 1,|b| < 1,|c| < 1$, then $x, y, z$ are in",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "a0skr",
+      "text": "\nG.P.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "l9NN9",
+      "text": "\nA.P.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "5hl0v",
+      "text": "\nArithmetic - Geometric Progression\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Uazo3",
+      "text": "\nH.P.",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{array}{ll}\nx=\\sum_{n=0}^{\\infty} a^n=\\frac{1}{1-a} & \\Rightarrow a=1-\\frac{1}{x} \\\\\ny=\\sum_{n=0}^{\\infty} b^n=\\frac{1}{1-b} & \\Rightarrow b=1-\\frac{1}{y}\n\\end{array}\n$$\n$$\n\\begin{aligned}\n& z=\\sum_{n=0}^{\\infty} c^n=\\frac{1}{1-c} \\quad \\Rightarrow c=1-\\frac{1}{z} \\\\\n& a, b, c \\text { are in A.P. } \\\\\n& 2 b=a+c \\\\\n& 2\\left(1-\\frac{1}{y}\\right)=1-\\frac{1}{x}+1-\\frac{1}{y} \\\\\n& \\frac{2}{y}=\\frac{1}{x}+\\frac{1}{z} \\\\\n& \\Rightarrow x, y, z \\text { are in H.P. }\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2005-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2005",
+    "title": "JEE Main 2005"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "68542c837c09d044e4c1a261",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2ff9d87935e0d80978a",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-04T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (4 Apr Shift 2)",
+      "title": "JEE Main 2025 (4 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If $\\int \\frac{\\left(\\sqrt{1+x^2}+x\\right)^{10}}{\\left(\\sqrt{1+x^2}-x\\right)^9} d x=$<br/>$\\frac{1}{m}\\left(\\left(\\sqrt{1+x^2}+x\\right)^n\\left(n \\sqrt{1+x^2}-x\\right)\\right)+C \\text { where } C$<br/>is the constant of integration and $m, n \\in N$, then $\\mathrm{m}+\\mathrm{n}$ is equal to",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "379",
+  "solution": {
+    "text": "rationalise<br/>$\\begin{aligned}<br/>& \\Rightarrow \\int \\frac{\\left(\\sqrt{1+x^2}+x\\right)^{10}}{\\left(\\sqrt{1+x^2}-x\\right)^9} \\times \\frac{\\left(\\sqrt{1+x^2}+x\\right)^9}{\\left(\\sqrt{1+x^2}+x\\right)^9} d x \\\\\n& \\Rightarrow \\int \\frac{\\left(\\sqrt{1+x^2}+x\\right)^{19}}{1} d x<br/>\\end{aligned}$<br/>Put $\\sqrt{1+\\mathrm{x}^2}+\\mathrm{x}=\\mathrm{t}$<br/>$\\left(\\frac{\\mathrm{x}}{\\sqrt{1+\\mathrm{x}^2}}+1\\right) \\mathrm{dx}=\\mathrm{dt}$<br/>$\\mathrm{dx}=\\frac{\\mathrm{dt}}{\\mathrm{t}} \\sqrt{1+\\mathrm{x}^2}$<br/>Now as $\\sqrt{1+\\mathrm{x}^2}+\\mathrm{x}=\\mathrm{t}$<br/>$\\begin{aligned}<br/>& \\text { so } \\sqrt{1+\\mathrm{x}^2}-\\mathrm{x}=\\frac{1}{\\mathrm{t}} \\\\\n& \\therefore \\sqrt{1+\\mathrm{x}^2}=\\frac{1}{2}\\left(\\mathrm{t}+\\frac{1}{\\mathrm{t}}\\right)<br/>\\end{aligned}$<br/>Thus $I=\\int \\mathrm{t}^{19} \\cdot \\frac{\\mathrm{dt}}{\\mathrm{t}} \\cdot \\frac{1}{2}\\left(\\mathrm{t}+\\frac{1}{\\mathrm{t}}\\right)$<br/>$\\begin{aligned}<br/>& \\Rightarrow \\frac{1}{2} \\int\\left(\\mathrm{t}^{19}+\\mathrm{t}^{17}\\right) \\mathrm{dt} \\\\\n& =\\frac{1}{2}\\left(\\frac{\\mathrm{t}^{20}}{20}+\\frac{\\mathrm{t}^{18}}{18}\\right)+\\mathrm{C} \\\\\n& =\\frac{\\mathrm{t}^{19}}{360}\\left[9 \\mathrm{t}+\\frac{10}{\\mathrm{t}}\\right]+\\mathrm{C} \\\\\n& =\\frac{\\mathrm{t}^{19}}{360}\\left[9\\left(\\mathrm{t}+\\frac{1}{\\mathrm{t}}\\right)+\\frac{1}{\\mathrm{t}}\\right]+\\mathrm{C} \\\\\n& \\Rightarrow \\frac{\\left(\\sqrt{1+\\mathrm{x}^2}+\\mathrm{x}\\right)^{19}}{360}\\left[9\\left(2 \\sqrt{1+\\mathrm{x}^2}\\right)+\\left(\\sqrt{1+\\mathrm{x}^2}-\\mathrm{x}\\right)\\right]+\\mathrm{C} \\\\\n& \\Rightarrow \\frac{\\left(\\sqrt{1+\\mathrm{x}^2}+\\mathrm{x}\\right)^{19}}{360}\\left[19 \\sqrt{1+\\mathrm{x}^2}-\\mathrm{x}\\right]+\\mathrm{C} \\\\\n& \\therefore \\mathrm{~m}=360, \\mathrm{n}=19 \\\\\n& \\therefore \\mathrm{~m}+\\mathrm{n}=379<br/>\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "472b5ad0d6dc4b78bc3fd09906f12c3a",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/2KNu6Sgcyj4Mx.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/2KNu6Sgcyj4Mx.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2ff9d87935e0d80978a",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-04T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (4 Apr Shift 2)",
+    "title": "JEE Main 2025 (4 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

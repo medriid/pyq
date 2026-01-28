@@ -1,0 +1,63 @@
+{
+  "_id": "64b169edf23ac7d519f9afbc",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c43",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2008-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008 (Paper 2)",
+      "title": "JEE Advanced 2008 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nConsider the function $f:(-\\infty, \\infty) \\rightarrow(-\\infty, \\infty)$ defined by $f(x)=\\frac{x^2-a x+1}{x^2+a x+1} ; 0 < a < 2$<strong>Question:</strong>\nLet $g(x)=\\int_0^{e^x} \\frac{f^{\\prime}(t)}{1+t^2} d t$. Which of the following is true ?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Df0WM",
+      "text": "\n$g^{\\prime}(x)$ is positive on $(-\\infty, 0)$ and negative on $(0, \\infty)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "LJyqW",
+      "text": "\n$g^{\\prime}(x)$ is negative on $(-\\infty, 0)$ and positive on $(0, \\infty)$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "HqPJ4",
+      "text": "\n$g^{\\prime}(x)$ changes sign on both $(-\\infty, 0)$ and $(0, \\infty)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "J4SfK",
+      "text": "\n$g^{\\prime}(x)$ does not change sign on $(-\\infty, \\infty)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\because g^{\\prime}(x)=\\frac{f^{\\prime}\\left(e^x\\right)}{1+\\left(e^x\\right)^2} \\cdot e^x=2 a\\left[\\frac{e^{2 x}-1}{\\left(e^{2 x}+a e^x+1\\right)^2}\\right]\\left(\\frac{e^x}{1+e^{2 x}}\\right)$ $\\begin{aligned} & g^{\\prime}(x)=0 \\text {, if } e^{2 x}-1 & =0, \\\\ \\text { i.e., } & & x=0 \\\\ \\text { If } & & x < 0, e^{2 x} < 1 \\Rightarrow g^{\\prime}(x) < 0 .\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c43",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2008-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008 (Paper 2)",
+    "title": "JEE Advanced 2008 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

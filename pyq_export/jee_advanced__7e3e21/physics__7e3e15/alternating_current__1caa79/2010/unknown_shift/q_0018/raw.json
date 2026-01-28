@@ -1,0 +1,38 @@
+{
+  "_id": "64b16a04f23ac7d519f9b094",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c47",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2010-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010 (Paper 2)",
+      "title": "JEE Advanced 2010 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "At time $t=0$, a battery of $10 \\mathrm{~V}$ is connected across points $A$ and $B$ in the given circuit. If the capacitors have no charge initially, at what time (in second) does the voltage across them become $4 \\mathrm{~V}$ ?\n[Take $: \\ln 5=1.6, \\ln 3=1.1]$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/rfEriRiK0xFSvAhxaL1qn9GOEaZY3xS3ePfpc2E2LMM.original.fullsize.png\"><br>",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "2",
+  "solution": {
+    "text": "Voltage across the capacitors will increase from 0 to $10 \\mathrm{~V}$ exponentially. The voltage at time $t$ will be given by\n$$\n\\begin{aligned}\n& V=10\\left(1-e^{-t / \\tau} \\mathrm{C}\\right) \\\\\n& \\text { Here } \\tau_c=C_{\\text {net }} R_{\\text {net }} \\\\\n& =\\left(1 \\times 10^6\\right)\\left(4 \\times 10^{-6}\\right)=4 \\mathrm{~s} \\\\\n& \\therefore \\quad V=10\\left(1-e^{-t / 4}\\right) \\\\\n&\n\\end{aligned}\n$$\nSubstituting $V=4$ volt we have,\n$$\n4=10\\left(1-e^{-t / 4}\\right)\n$$\nSubstituting $V=4$ volt we have,\n$$\n4=10\\left(1-e^{-t / 4}\\right)\n$$\nor $e^{-t / 4}=0.6=\\frac{3}{5}$\nTaking $\\log$ both sides we have,\n$$\n-\\frac{t}{4}=\\ln 3-\\ln 5\n$$\nor $\\quad t=4(\\ln 5-\\ln 3)=2 \\mathrm{~s}$.\nHence, the answer is 2 .",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c47",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2010-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010 (Paper 2)",
+    "title": "JEE Advanced 2010 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

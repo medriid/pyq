@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The solution of the differential equation $y \\sin \\left(\\frac{x}{y}\\right) d x=\\left\\{x \\sin \\left(\\frac{x}{y}\\right)-y\\right\\} d y \\quad$ satisfying $y\\left(\\frac{\\pi}{4}\\right)=1 \\mathrm{is}$"
+  },
+  "options": [
+    {
+      "text": "$\\cos \\frac{x}{y}=-\\log _{e} y+\\frac{1}{\\sqrt{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sin \\frac{x}{y}=\\log _{e} y+\\frac{1}{\\sqrt{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sin \\frac{x}{y}=\\log _{e} x-\\frac{1}{\\sqrt{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "None of the above",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given differential equation is\r\n$$\r\n\\begin{array}{l}\r\ny \\sin \\left(\\frac{x}{y}\\right) d x=\\left\\{x \\sin \\left(\\frac{x}{y}\\right)-y\\right\\} d y \\\\\r\n\\Rightarrow \\quad \\frac{d x}{d y}=\\frac{x \\sin \\left(\\frac{x}{y}\\right)-y}{y \\sin \\left(\\frac{x}{y}\\right)}=\\frac{x}{y}-\\frac{1}{\\sin \\left(\\frac{x}{y}\\right)}\r\n\\end{array}\r\n$$\r\nOn putting $v=\\frac{x}{y} \\Rightarrow x=y$\r\n$\\Rightarrow \\quad \\frac{d x}{d y}=v \\cdot 1+y \\frac{d v}{d y}$ in Eq. $0 .$ we get\r\n$v+y \\frac{d v}{d y}=v-\\frac{1}{\\sin v}$\r\n$\\Rightarrow \\quad y \\frac{d v}{d y}=-\\frac{1}{\\sin v}$\r\n$\\Rightarrow \\quad-\\int \\sin v d v=\\int \\frac{d y}{y}$\r\n(on integrating)\r\n$\\Rightarrow \\quad \\cos v=\\log y+C$\r\n$\\Rightarrow \\quad \\cos \\left(\\frac{x}{y}\\right)=\\log y+C$\r\nGiven at $x=\\frac{\\pi}{4}, y=1$ then from $\\mathrm{Eq}$. (i) $\\Rightarrow \\quad \\cos \\left(\\frac{\\pi}{4}\\right)=\\log (1)+C$\r\n$\\Rightarrow \\quad\\left(C=\\frac{1}{\\sqrt{2}}\\right)$\r\nOn putting the value of $C$ in Eq. (0), we get $\\cos \\left(\\frac{x}{y}\\right)=\\log _{e} y+\\frac{1}{\\sqrt{2}}$\r\nWhich is the required solution. So option D is correct."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 40,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2011",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Integrating Factor (I.F.) of the defferential equation\n\\(\\frac{d y}{d x}-\\frac{3 x^2 y}{1+x^3}=\\frac{\\sin ^2(x)}{1+x} \\text { is }\\)"
+  },
+  "options": [
+    {
+      "text": "\\(\\mathrm{e}^{1+\\mathrm{x}^3}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\log \\left(1+x^3\\right)\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(1+x^3\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{1}{1+x^3}\\)",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\text {Hints: If } e^{\\int p d x}=e^{-\\int \\frac{3 x^2 d x}{1+x^3}}=e^{-\\log \\left(1+x^3\\right)}=e^{\\log \\left(1+x^3\\right)^{-1}} \\\\\n& =\\left(1+x^3\\right)^{-1}=\\frac{1}{1+x^3}\n\\end{aligned}\\)"
+  }
+}

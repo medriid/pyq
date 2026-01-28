@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2025 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "616023f51f5c75c27ba35382",
+    "chapter_name": "Oscillations",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The center of a disk of radius $r$ and mass $m$ is attached to a spring of spring constant $k$, inside a ring of radius $R>r$ as shown in the figure. The other end of the spring is attached on the periphery of the ring. Both the ring and the disk are in the same vertical plane. The disk can only roll along the inside periphery of the ring, without slipping. The spring can only be stretched or compressed along the periphery of the ring, following the Hooke's law. In equilibrium, the disk is at the bottom of the ring. Assuming small displacement of the disc, the time period of oscillation of center of mass of the disk is written as $T=\\frac{2 \\pi}{\\omega}$. The correct expression for $\\omega$ is ( $g$ is the acceleration due to gravity):\n<img src=\"assets\\qt0001_8b6311ab3aaf.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "$\\sqrt{\\frac{2}{3}\\left(\\frac{g}{R-r}+\\frac{k}{m}\\right)}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\sqrt{\\frac{2 g}{3(R-r)}+\\frac{k}{m}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{\\frac{1}{6}\\left(\\frac{g}{R-r}+\\frac{k}{m}\\right)}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{\\frac{1}{4}\\left(\\frac{g}{R-r}+\\frac{k}{m}\\right)}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0001_f31c43997479.png\"><br>$E=\\frac{1}{2} k(R-r)^2 \\theta^2+m g(R-r)(1-\\cos \\theta)+\\frac{1}{2} m v^2+\\frac{1}{2} \\frac{m r^2}{2} \\omega^2$\nDifferentiating wrt t ,\n$\\begin{aligned} 0 & =\\frac{1}{2} \\mathrm{k}(\\mathrm{R}-\\mathrm{r})^2 \\cdot 2 \\theta \\frac{\\mathrm{~d} \\theta}{\\mathrm{dt}}+\\mathrm{mg}(\\mathrm{R}-\\mathrm{r}) \\cdot \\frac{\\mathrm{d}}{\\mathrm{dt}}\\left(2 \\frac{\\theta^2}{4}\\right)+\\frac{1}{2} \\mathrm{~m} \\cdot 2 \\mathrm{v} \\frac{\\mathrm{dv}}{\\mathrm{dt}}+\\frac{\\mathrm{mr}^2}{4} \\cdot 2 \\omega \\frac{\\mathrm{~d} \\omega}{\\mathrm{dt}} \\\\ \\Rightarrow & 0=\\mathrm{k}(\\mathrm{R}-\\mathrm{r})^2 \\theta \\frac{\\mathrm{~d} \\theta}{\\mathrm{dt}}+\\mathrm{mg}(\\mathrm{R}-\\mathrm{r}) \\theta \\frac{\\mathrm{d} \\theta}{\\mathrm{dt}}+\\mathrm{mv} \\frac{\\mathrm{dv}}{\\mathrm{dt}}+\\frac{\\mathrm{mr}^2}{2} \\omega \\frac{\\mathrm{~d} \\omega}{\\mathrm{dt}}\\end{aligned}$\nAlso, $\\frac{d \\theta}{d t}=\\frac{V}{(R-r)} \\Rightarrow \\frac{d^2 \\theta}{d t^2}=\\frac{1}{(R-r)} \\frac{d v}{d t}=\\frac{1}{R-r} a$\n$\\begin{aligned} & \\therefore \\mathrm{k}(\\mathrm{R}-\\mathrm{r})^2 \\cdot \\theta \\frac{\\mathrm{~V}}{\\mathrm{R}-\\mathrm{r}}+\\mathrm{mg}(\\mathrm{R}-\\mathrm{r}) \\theta \\frac{\\mathrm{V}}{\\mathrm{R}-\\mathrm{r}}=-\\mathrm{mv} \\alpha \\mathrm{r}-\\frac{\\mathrm{mr}^2}{2} \\frac{\\mathrm{~V}}{\\mathrm{r}} \\alpha \\\\ & \\Rightarrow \\mathrm{k}(\\mathrm{R}-\\mathrm{r})+\\mathrm{mg} \\theta=-\\frac{3}{2} \\mathrm{mr} \\alpha \\\\ & \\Rightarrow-[\\mathrm{k}(\\mathrm{R}-\\mathrm{r})+\\mathrm{mg}] \\theta=\\frac{3}{2} \\mathrm{~m}(\\mathrm{R}-\\mathrm{r}) \\frac{\\mathrm{d}^2 \\theta}{\\mathrm{dt}^2} \\\\ & \\Rightarrow-\\frac{2}{3}\\left[\\frac{\\mathrm{k}}{\\mathrm{m}}+\\frac{\\mathrm{g}}{\\mathrm{R}-\\mathrm{r}}\\right]=\\frac{\\mathrm{d}^2 \\theta}{\\mathrm{dt}^2}\\end{aligned}$\nCompering with standard equation of SHM\n$\\omega=\\sqrt{\\frac{2}{3}\\left[\\frac{\\mathrm{k}}{\\mathrm{m}}+\\frac{\\mathrm{g}}{\\mathrm{R}-\\mathrm{r}}\\right]}$\nHence answer is option(A)\n$\\mathrm{OR}$<img src=\"assets\\st0001_4c83c65e890f.png\"><br>$\\mathrm{kx}+\\mathrm{mg} \\sin \\theta-\\mathrm{f}=\\mathrm{ma}$\n$\\begin{aligned} & \\Rightarrow \\mathrm{kx}+\\mathrm{mg} \\frac{\\mathrm{x}}{(\\mathrm{R}-\\mathrm{r})}-\\mathrm{f}=\\mathrm{ma} \\\\ & \\mathrm{fr}=\\frac{\\mathrm{mr}^2}{2} \\cdot \\alpha \\Rightarrow \\mathrm{f}=\\frac{\\mathrm{ma}}{2} \\\\ & \\therefore\\left(\\alpha+\\frac{\\mathrm{mg}}{\\mathrm{R}-\\mathrm{r}}\\right) \\mathrm{x}=\\frac{3 \\mathrm{ma}}{2} \\\\ & \\therefore \\omega=\\sqrt{\\frac{2}{3}\\left[\\frac{\\mathrm{k}}{\\mathrm{m}}+\\frac{\\mathrm{g}}{\\mathrm{R}-\\mathrm{r}}\\right]}\\end{aligned}$"
+  }
+}

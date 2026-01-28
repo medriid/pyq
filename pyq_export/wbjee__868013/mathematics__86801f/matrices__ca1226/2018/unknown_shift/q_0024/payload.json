@@ -1,0 +1,44 @@
+{
+  "index": 24,
+  "type": "multipleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0788c63c34f9ca1226",
+    "chapter_name": "Matrices",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In a third order matrix $A$, $a_{0}$ denotes the element in the ith row and $j$ th column. If $a_{i j}=0$ for $i=j,1$ for $i>j,-1$ for $i    < j$ Then the matrix is"
+  },
+  "options": [
+    {
+      "text": "skew symmetric",
+      "is_correct": true
+    },
+    {
+      "text": "symmatric",
+      "is_correct": false
+    },
+    {
+      "text": "not invertible",
+      "is_correct": true
+    },
+    {
+      "text": "non-singular",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "C"
+  ],
+  "solution": {
+    "text": "$$\r\nA=\\left[\\begin{array}{ccc}\r\n0 & -1 & -1 \\\\\r\n1 & 0 & -1 \\\\\r\n1 & 1 & 0\r\n\\end{array}\\right]\r\n$$\r\n$\\Rightarrow$\r\n$A^{\\prime}=\\left[\\begin{array}{ccc}0 & 1 & 1 \\\\ -1 & 0 & 1 \\\\ -1 & -1 & 0\\end{array}\\right]=-A$\r\n$\\Rightarrow A$ is a skew-symmetric matrix. $\\begin{aligned}|A| &=0+1(0+1)-1(-0) \\\\ &=0+1-1=0=\\text { singular } \\end{aligned}$\r\n$\\Rightarrow A$ is not invertible."
+  }
+}

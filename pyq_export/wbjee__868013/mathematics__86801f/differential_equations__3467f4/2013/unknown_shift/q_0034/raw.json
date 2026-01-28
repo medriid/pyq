@@ -1,0 +1,63 @@
+{
+  "_id": "64a813ebe0ff5a5425a856bf",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec2",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2013-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013",
+      "title": "WBJEE 2013"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The solution of the differential equation $\\left(y^{2}+2 x\\right) \\frac{d y}{d x}=y$ satisfies $x=1, y=1$. Then the solution is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "6sbnb",
+      "text": "$x=y^{2}\\left(1+\\log _{e} y\\right)$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "FLswG",
+      "text": "$y=x^{2}\\left(1+\\log _{e} x\\right)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "6XmpR",
+      "text": "$x=y^{2}\\left(1-\\log _{e} y\\right)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "kl1Mi",
+      "text": "$y=x^{2}\\left(1-\\log _{e} x\\right)$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given differential equation is \r\n$\\left(y^{2}+2 x\\right) \\frac{d y}{d x}=y \\Rightarrow \\frac{d x}{d y}=\\left(\\frac{y^{2}+2 x}{y}\\right)$\r\n$\\Rightarrow \\quad \\frac{d x}{d y}=y+\\frac{2 x}{y}$\r\n$\\Rightarrow \\quad \\frac{d x}{d y}-\\frac{2}{y} \\cdot x=y$\r\n$\\mathrm{IF}=e^{\\int \\frac{2}{y} d y}=e^{-2 \\mathrm{bg} \\gamma}=\\mathrm{y}^{-2}=\\frac{1}{\\mathrm{y}^{2}}$\r\n$\\therefore$ Complete solution is $x \\cdot \\frac{1}{y^{2}}=\\int y \\cdot \\frac{1}{y^{2}} d y+C$\r\n$\\Rightarrow \\quad \\frac{x}{y^{2}}=\\int \\frac{d y}{y}+C=\\log _{e} y+c$\r\n$\\Rightarrow \\quad x=y^{2} \\log _{e} y+C y^{2}$\r\n$A t+x=1 y=1$ then from Eq $(i),$ we get\r\n$$\r\n1=0+C \\Rightarrow C=1\r\n$$\r\n$\\therefore$ From Eq. (i), we get\r\n$$\r\nx=y^{2}\\left(\\log _{e} y+1\\right)\r\n$$\r\nWhich is the required solution.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec2",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2013-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013",
+    "title": "WBJEE 2013"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

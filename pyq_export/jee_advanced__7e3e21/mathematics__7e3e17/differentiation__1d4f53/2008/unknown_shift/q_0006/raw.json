@@ -1,0 +1,63 @@
+{
+  "_id": "64b169e6f23ac7d519f9af7b",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c42",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2008-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008 (Paper 1)",
+      "title": "JEE Advanced 2008 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nConsider the functions defined implicitly by the equation $y^3-3 y+x=0$ on various intervals in the real line. If $x \\in(-\\infty,-2) \\cup(2, \\infty)$, the equation implicitly defines a unique real valued differentiable function $y=f(x)$. If $x \\in(-2,2)$, the equation implicitly defines a unique real valued differentiable function $y=g(x)$, satisfying $g(0)=0$.<strong>Question:</strong>\nIf $f(-10 \\sqrt{2})=2 \\sqrt{2}$, then $f^{\\prime \\prime}(-10 \\sqrt{2})$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Dih3p",
+      "text": "\n$\\frac{4 \\sqrt{2}}{7^3 \\cdot 3^2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "PxnAt",
+      "text": "\n$-\\frac{4 \\sqrt{2}}{7^3 \\cdot 3^2}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "3nO97",
+      "text": "\n$\\frac{4 \\sqrt{2}}{7^3 \\cdot 3}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Kq3g8",
+      "text": "\n$-\\frac{4 \\sqrt{2}}{7^3 \\cdot 3}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $y^3-3 y+x=0 \\Rightarrow 3 y^2 \\frac{d y}{d x}-3 \\frac{d y}{d x}+1=0$\n$$\n\\Rightarrow \\quad 3 y^2\\left(\\frac{d^2 y}{d x^2}\\right)+6 y\\left(\\frac{d y}{d x}\\right)^2-3 \\frac{d^2 y}{d x^2}=0\n$$\nOn substituting $x=-10 \\sqrt{2}, y=2 \\sqrt{2}$ in Eq. (i), we get\n$$\n3(2 \\sqrt{2})^2 \\cdot \\frac{d y}{d x}-3 \\cdot \\frac{d y}{d x}+1=0 \\Rightarrow \\frac{d y}{d x}=\\frac{-1}{21}\n$$\nAgain on substituting $x=-10 \\sqrt{2}, y=2 \\sqrt{2}$ in Eq. (ii), we get\n$$\n\\begin{aligned}\n& 3(2 \\sqrt{2})^2 \\frac{d^2 y}{d x^2}+6(2 \\sqrt{2}) \\cdot\\left(\\frac{-1}{21}\\right)^2-3 \\cdot \\frac{d^2 y}{d x^2}=0 \\\\\n& \\Rightarrow \\quad 21 \\cdot \\frac{d^2 y}{d x^2}=-\\frac{12 \\sqrt{2}}{(21)^2} \\Rightarrow \\frac{d^2 y}{d x^2}=-\\frac{12 \\sqrt{2}}{(21)^3}=-\\frac{4 \\sqrt{2}}{7^3 \\cdot 3^2}\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c42",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2008-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008 (Paper 1)",
+    "title": "JEE Advanced 2008 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

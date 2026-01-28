@@ -1,0 +1,63 @@
+{
+  "_id": "67729bf9546ddd78415aaf60",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67729a70099eafe69352f9c1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024",
+      "title": "WBJEE 2024"
+    }
+  ],
+  "question": {
+    "text": "Which of the following quantity has the dimension of length?\n(h is Planck's constant, m is the mass of electron and c is the velocity of light)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "eAEWo",
+      "text": "$\\frac{\\mathrm{hc}}{\\mathrm{m}}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7S0UM",
+      "text": "$\\frac{\\mathrm{h}}{\\mathrm{mc}^2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ktV6Q",
+      "text": "$\\frac{\\mathrm{h}^2}{\\mathrm{mc}^2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "pJBRB",
+      "text": "$\\frac{\\mathrm{h}}{\\mathrm{mc}}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\text { Hint : }[\\mathrm{h}]=\\left[\\mathrm{ML}^2 \\mathrm{~T}^{-1}\\right] \\\\\n& {[\\mathrm{c}]=\\left[\\mathrm{LT}^{-1}\\right]} \\\\\n& {[\\mathrm{m}]=\\left[\\mathrm{M}^1 \\mathrm{~L}^0 \\mathrm{~T}^0\\right]} \\\\\n& \\text { Dimension of length } \\\\\n& {[\\mathrm{L}]=\\mathrm{h}^{\\mathrm{x}} \\mathrm{c}^{\\mathrm{y}} \\mathrm{m}^z} \\\\\n& {\\left[\\mathrm{~L}^1\\right]=\\left[\\mathrm{ML}^2 \\mathrm{~T}^{-1}\\right]^{\\mathrm{x}}\\left[\\mathrm{LT}^{-1}\\right]^{\\mathrm{y}}\\left[\\mathrm{M}^1 \\mathrm{~L}^0 \\mathrm{~T}^0\\right]^{\\mathrm{z}}}\n\\end{aligned}\n$$\nDimensional analysis on mass\n$$\n0=x+z \\Rightarrow x=-z \\Rightarrow z=-1\n$$\n\nDimensional analysis on length\n$$\n1=2 x+y \\Rightarrow 2 x-x=1 \\Rightarrow x=1\n$$\n\nDimensional analysis on time\n$$\n0=-x-y \\Rightarrow-x=+y \\Rightarrow y=-1\n$$\n\nTherefore final formula is $\\frac{h}{\\mathrm{mc}}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67729a70099eafe69352f9c1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024",
+    "title": "WBJEE 2024"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64a81493e0ff5a5425a85cef",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad6",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2023-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023",
+      "title": "WBJEE 2023"
+    }
+  ],
+  "question": {
+    "text": "\\(\\lim _{x \\rightarrow \\infty}\\left\\{x-\\sqrt[n]{\\left(x-a_1\\right)\\left(x-a_2\\right) \\ldots\\left(x-a_n\\right)}\\right\\}\\) where \\(a_1, a_2, \\ldots, a_n\\) are positive rational numbers. The limit",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "5vJpI",
+      "text": "does not exist",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "V6UcM",
+      "text": "is \\(\\frac{a_1+a_2+\\ldots a_n}{n}\\)",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "LIMhX",
+      "text": "is \\(\\sqrt[n]{a_1 a_2 \\ldots a_n}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "4o2rj",
+      "text": "is \\(\\frac{n}{a_1+a_2+\\ldots+a_n}\\)",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint: \\(\\operatorname{lt}_{x \\rightarrow \\infty}\\left\\{x-\\sqrt[x]{\\left(x-a_1\\right)\\left(x-a_2\\right) \\ldots\\left(x-a_n\\right)}\\right\\}\\)\n\\(\\begin{aligned} & \\operatorname{lt}_{x \\rightarrow \\infty}\\left\\{x-x^n \\sqrt{\\left(1-\\frac{a_1}{x}\\right)\\left(1-\\frac{a_2}{x}\\right) \\ldots\\left(1-\\frac{a_n}{x}\\right)}\\right\\} \\\\ & \\Rightarrow \\operatorname{lt}_{x \\rightarrow \\infty} x\\left\\{1-\\left(1-\\frac{a_1}{x}\\right)^{1 / n}\\left(1-\\frac{a_2}{x}\\right)^{1 / n} \\ldots\\left(1-\\frac{a_n}{x}\\right)^{1 / n}\\right\\} \\\\ & \\Rightarrow \\operatorname{It}_{x \\rightarrow \\infty} x\\left[1-\\left(1-\\frac{a_1}{n x}\\right)\\left(1-\\frac{a_2}{n x}\\right) \\ldots\\left(1-\\frac{a_n}{x n}\\right)\\right] \\\\ & \\Rightarrow \\operatorname{lt}_{x \\rightarrow \\infty} x\\left[\\frac{a_1+a_2+\\ldots+a_n}{n x}\\right]=\\frac{a_1+a_2+\\ldots+a_n}{n} \\\\ & \\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad6",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2023-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023",
+    "title": "WBJEE 2023"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

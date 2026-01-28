@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2022",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cd27e4f983047d18a96",
+    "chapter_name": "Sequences and Series",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\left(\\cot \\alpha_1\\right)\\left(\\cot \\alpha_2\\right) \\ldots \\ldots .\\left(\\cot \\alpha_n\\right)=1,0  < \\alpha_1, \\alpha_2, \\ldots . . \\alpha_n < \\pi / 2$, then the maximum value of $\\left(\\cos a_1\\right)\\left(\\cos \\alpha_2\\right) \\ldots \\ldots$ $\\left(\\cos \\alpha_n\\right)$ is given by"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{2^{n / 2}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{2^n}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2 n}$",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\frac{1}{\\left(\\cos \\alpha_1 \\cos \\alpha_2 \\ldots . \\cos \\alpha_n\\right)^2}$\n$\\begin{aligned}\n&=\\left(1+\\tan ^2 \\alpha_1\\right)\\left(1+\\tan ^2 \\alpha_2\\right) \\ldots \\ldots\\left(1+\\tan ^2 \\alpha_n\\right) \\\\\n&\\geq\\left(2 \\tan \\alpha_1\\right)\\left(2 \\tan \\alpha_2\\right) \\ldots \\ldots .\\left(2 \\tan \\alpha_n\\right)[\\text { AM }-\\text { GM inequality } \\\\\n&=2^n \\times \\frac{1}{\\cot \\alpha_1 \\cot \\alpha_2 \\ldots . . \\cot \\alpha_n}=2^n \\\\\n&\\therefore \\cos \\alpha_1 \\cos \\alpha_2 \\ldots . . \\cos \\alpha_n \\leq \\frac{1}{2^{n / 2}}\n\\end{aligned}$"
+  }
+}

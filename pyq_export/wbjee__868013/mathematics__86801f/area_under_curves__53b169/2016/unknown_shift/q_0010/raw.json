@@ -1,0 +1,63 @@
+{
+  "_id": "64a81420e0ff5a5425a858b5",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7b",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2016-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2016",
+      "title": "WBJEE 2016"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "The area enclosed by $y=\\sqrt{5-x^{2}}$ and\r\n$y=|x-1|$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "BQdjk",
+      "text": "$\\left(\\frac{5 \\pi}{4}-2\\right)$ sq units",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "IFpwH",
+      "text": "$\\left(\\frac{5 \\pi-2}{2}\\right)$ sq units",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "gBGRG",
+      "text": "$\\left(\\frac{5 \\pi}{4}-\\frac{1}{2}\\right)$ sq units",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "LHspI",
+      "text": "$\\left(\\frac{\\pi}{2}-5\\right)$ sq units",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "The graphs of $y=|x-1|$ and $y=\\sqrt{5-x^{2}}$ are shown in the figure and the shaded region is the required region bounded by the two curves.\r\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/wbjee/2016_mat_a4.png\">\r\n\r\nLet $A$ be the area bounded by the given curves. Then\r\n$$\r\n\\begin{aligned}\r\nA &=\\int_{-1}^{1}\\left(\\sqrt{5-x^{2}}+x-1\\right) d x+\\int_{1}^{2}\\left(\\sqrt{5-x^{2}}-x+1\\right) d x \\\\\r\n&=\\int_{-1}^{1} \\sqrt{5-x^{2}} d x+\\int_{1}^{2} \\sqrt{5-x^{2}} d x +\\int_{-1}^{1}(x-1) d x+\\int_{1}^{2}(-x+1) d x \\\\\r\n&=\\int_{-1}^{2} \\sqrt{5-x^{2}} d x+\\left[\\frac{x^{2}}{2}-x\\right]^{1}_{-1}+\\left[-\\frac{x^{2}}{2}+x\\right]_{1}^{2} \\\\\r\n&=\\left[\\frac{1}{2} x \\sqrt{5-x^{2}}+\\frac{5}{2} \\sin ^{-1} \\frac{x}{\\sqrt{5}}\\right]_{-1}^{2}-\\frac{5}{2} \\\\\r\n&=1+\\frac{5}{2} \\sin ^{-1} \\frac{2}{\\sqrt{5}}+1+\\frac{5}{2} \\sin ^{-1} \\frac{1}{\\sqrt{5}}-\\frac{5}{2} \\\\\r\n&=-\\frac{1}{2}+\\frac{5}{2} \\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}} \\times \\sqrt{1-\\frac{1}{5}}+\\frac{1}{\\sqrt{5}} \\sqrt{1-\\frac{4}{5}}\\right) \\\\\r\n&=-\\frac{1}{2}+\\frac{5}{2} \\sin ^{-1}(1)=\\frac{5 \\pi}{4}-\\frac{1}{2} \\mathrm{squnits}\r\n\\end{aligned}\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7b",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2016-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2016",
+    "title": "WBJEE 2016"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 27,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2015",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In a certain town, $60 \\%$ of the families own a car, $30 \\%$ own a house and $20 \\%$ own both car and house. If a family is randomly chosen. then what is the probability that this family owns a car or a house but not both?"
+  },
+  "options": [
+    {
+      "text": "0.5",
+      "is_correct": true
+    },
+    {
+      "text": "0.7",
+      "is_correct": false
+    },
+    {
+      "text": "0.1",
+      "is_correct": false
+    },
+    {
+      "text": "0.9",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $A$ be the set of families who own a car and $B$ be the set of families who own a house.\r\nThen, $\\quad P(A)=60 \\%, P(B)=30 \\%$\r\nand $P(A \\cap B)=20 \\%$\r\nNow, $P(A \\cup B)=P(A)+P(B)-P(A \\cap B)$\r\n$=60+30-20=70 \\%$\r\nNow, families who owns a car or a house but not both $=A \\Delta B$\r\n$$\r\n\\begin{aligned}\r\n\\Rightarrow \\quad P(A \\Delta B) &=P(A \\cup B)-P(A \\cap B) \\\\\r\n&=70-20=50 \\%=0.5\r\n\\end{aligned}\r\n$$"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "index": 18,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2010 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "6160242fab7a61dc9f1caa79",
+    "chapter_name": "Alternating Current",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "At time $t=0$, a battery of $10 \\mathrm{~V}$ is connected across points $A$ and $B$ in the given circuit. If the capacitors have no charge initially, at what time (in second) does the voltage across them become $4 \\mathrm{~V}$ ?\n[Take $: \\ln 5=1.6, \\ln 3=1.1]$\n<img src=\"assets\\qt0018_36923ee6beae.png\"><br>"
+  },
+  "options": [],
+  "correct_answer": "2",
+  "solution": {
+    "text": "Voltage across the capacitors will increase from 0 to $10 \\mathrm{~V}$ exponentially. The voltage at time $t$ will be given by\n$$\n\\begin{aligned}\n& V=10\\left(1-e^{-t / \\tau} \\mathrm{C}\\right) \\\\\n& \\text { Here } \\tau_c=C_{\\text {net }} R_{\\text {net }} \\\\\n& =\\left(1 \\times 10^6\\right)\\left(4 \\times 10^{-6}\\right)=4 \\mathrm{~s} \\\\\n& \\therefore \\quad V=10\\left(1-e^{-t / 4}\\right) \\\\\n&\n\\end{aligned}\n$$\nSubstituting $V=4$ volt we have,\n$$\n4=10\\left(1-e^{-t / 4}\\right)\n$$\nSubstituting $V=4$ volt we have,\n$$\n4=10\\left(1-e^{-t / 4}\\right)\n$$\nor $e^{-t / 4}=0.6=\\frac{3}{5}$\nTaking $\\log$ both sides we have,\n$$\n-\\frac{t}{4}=\\ln 3-\\ln 5\n$$\nor $\\quad t=4(\\ln 5-\\ln 3)=2 \\mathrm{~s}$.\nHence, the answer is 2 ."
+  }
+}

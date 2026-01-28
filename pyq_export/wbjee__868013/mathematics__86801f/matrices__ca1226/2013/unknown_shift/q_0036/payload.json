@@ -1,0 +1,43 @@
+{
+  "index": 36,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0788c63c34f9ca1226",
+    "chapter_name": "Matrices",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $p=\\left(\\begin{array}{cc}\\cos \\frac{\\pi}{4} & -\\sin \\frac{\\pi}{4} \\\\ \\sin \\frac{\\pi}{4} & \\cos \\frac{\\pi}{4}\\end{array}\\right)$ and $X=\\left(\\begin{array}{c}\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}}\\end{array}\\right)$. Then,\r\n$P^{3} X$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\left(\\begin{array}{l}0 \\\\ 1\\end{array}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\begin{array}{c}-\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}}\\end{array}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\begin{array}{r}-1 \\\\ 0\\end{array}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\left(\\begin{array}{c}-\\frac{1}{\\sqrt{2}} \\\\ -\\frac{1}{\\sqrt{2}}\\end{array}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given, $P=\\left(\\begin{array}{cc}\\cos \\frac{\\pi}{4} & -\\sin \\frac{\\pi}{4} \\\\ \\sin \\frac{\\pi}{4} & \\cos \\frac{\\pi}{4}\\end{array}\\right)=\\left(\\begin{array}{cc}\\frac{1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{2}}\\end{array}\\right)$\r\n$\\Rightarrow \\quad P=\\frac{1}{\\sqrt{2}}\\left(\\begin{array}{cc}1 & -1 \\\\ 1 & 1\\end{array}\\right)$\r\n$\\begin{aligned} \\text { Now, } P^{2} &=P \\cdot P=\\frac{1}{2}\\left(\\begin{array}{cc}1 & -1 \\\\ 1 & 1\\end{array}\\right)\\left(\\begin{array}{cc}1 & -1 \\\\ 1 & 1\\end{array}\\right) \\\\ &=\\frac{1}{2}\\left(\\begin{array}{cc}1-1 & -1 & -1 \\\\ 1+1 & -1+1\\end{array}\\right) \\\\ &=\\frac{1}{2}\\left(\\begin{array}{cc}0 & -2 \\\\ 2 & 0\\end{array}\\right)=\\left(\\begin{array}{cc}0 & -1 \\\\ 1 & 0\\end{array}\\right) \\end{aligned}$\r\n$\\begin{aligned} P^{3} &=P \\cdot P^{2}=\\frac{1}{\\sqrt{2}}\\left(\\begin{array}{cc}1 & -1 \\\\ 1 & 1\\end{array}\\right) \\cdot\\left(\\begin{array}{cc}0 & -1 \\\\ 1 & 0\\end{array}\\right) \\\\ &=\\frac{1}{\\sqrt{2}}\\left(\\begin{array}{cc}0-1 & -1-0 \\\\ 0+1 & -1+0\\end{array}\\right) \\\\ &=\\frac{1}{\\sqrt{2}}\\left(\\begin{array}{cc}-1 & -1 \\\\ 1 & -1\\end{array}\\right) \\end{aligned}$\r\nAlso, given $X=\\left(\\begin{array}{c}1 / \\sqrt{2} \\\\ \\frac{1}{\\sqrt{2}}\\end{array}\\right)=\\frac{1}{\\sqrt{2}}\\left(\\begin{array}{l}1 \\\\ 1\\end{array}\\right)$\r\n$\\begin{aligned} P^{3} X &=\\frac{1}{\\sqrt{2}}\\left(\\begin{array}{cc}-1 & -1 \\\\ 1 & -1\\end{array}\\right) \\cdot \\frac{1}{\\sqrt{2}}\\left(\\begin{array}{l}1 \\\\ 1\\end{array}\\right) \\\\ &=\\frac{1}{2}\\left(\\begin{array}{c}-1-1 \\\\ 1-1\\end{array}\\right)=\\frac{1}{2}\\left(\\begin{array}{c}-2 \\\\ 0\\end{array}\\right)=\\left(\\begin{array}{c}-1 \\\\ 0\\end{array}\\right) \\end{aligned}$"
+  }
+}

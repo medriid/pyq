@@ -1,0 +1,43 @@
+{
+  "index": 79,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "6160245eecbc2a19170998fb",
+    "chapter_name": "Communication System",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "An amplitude modulated signal is given by $\\mathrm{V}(\\mathrm{t})=10[1+0.3$ $\\left.\\cos \\left(2.2 \\times 10^{4} \\mathrm{t}\\right)\\right] \\sin \\left(5.5 \\times 10^{5} \\mathrm{t}\\right) .$ Here $\\mathrm{t}$ is in seconds. The sideband frequencies (in $\\mathrm{kHz}$ ) are, [Given $\\pi=22 / 7$ ]"
+  },
+  "options": [
+    {
+      "text": "1785 and 1715",
+      "is_correct": false
+    },
+    {
+      "text": "$178.5$ and $171.5$",
+      "is_correct": false
+    },
+    {
+      "text": "$89.25$ and $85.75$",
+      "is_correct": true
+    },
+    {
+      "text": "$892.5$ and $857.5$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Equation given<br>$$<br>\\begin{array}{l}<br>\\mathrm{V}(\\mathrm{t})=10\\left[1+0.3 \\cos \\left(2.2 \\times 10^{4}\\right)\\right] \\\\<br>\\sin \\left(5.5 \\times 10^{5} \\mathrm{t}\\right) \\\\<br>=10+1.5\\left[\\sin \\left(57.2 \\times 10^{4} \\mathrm{t}\\right)+\\sin \\left(52.8 \\times 10^{4} \\mathrm{t}\\right)\\right] \\\\<br>\\omega_{\\mathrm{c}}+\\omega_{\\mathrm{w}}=57.2 \\times 10^{4}=2 \\pi \\mathrm{f}_{1}<br>\\end{array}<br>$$<br>$$<br>\\mathrm{f}_{1}=\\frac{57.2 \\times 10^{4}}{2 \\times\\left(\\frac{22}{7}\\right)}=9.1 \\times 10^{4} \\simeq 91 \\mathrm{KHz}<br>$$<br>$$<br>\\omega_{\\mathrm{c}}-\\omega_{\\mathrm{w}}=52.8 \\times 10^{4}<br>$$<br>$$<br>\\mathrm{f}_{2}=\\frac{52.8 \\times 10^{4}}{2 \\times\\left(\\frac{22}{7}\\right)} \\simeq 84 \\mathrm{KHz}<br>$$<br><img src=\"assets\\st0079_fbf82fa843fd.png\"><br>Upper side band frequency $\\left(f_{1}\\right)$ is <br>$$<br>\\mathrm{f}_{1}=\\mathrm{f}_{\\mathrm{c}}-\\mathrm{f}_{\\mathrm{w}}=\\frac{52.8 \\times 10^{4}}{2 \\pi} \\approx 85.00 \\mathrm{kHz}<br>$$<br>Lower side band frequency $\\left(\\mathrm{f}_{2}\\right)$ is<br>$$<br>\\mathrm{f}_{2}=\\mathrm{f}_{\\mathrm{c}}+\\mathrm{f}_{\\mathrm{w}}=\\frac{57.2 \\times 10^{4}}{2 \\pi} \\approx 90.00 \\mathrm{kHz}<br>$$"
+  }
+}

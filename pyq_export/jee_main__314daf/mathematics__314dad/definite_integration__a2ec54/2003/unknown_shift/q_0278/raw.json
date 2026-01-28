@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a61417cc3fb48d654fe",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c3",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2003-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2003",
+      "title": "JEE Main 2003"
+    }
+  ],
+  "question": {
+    "text": "Let $\\frac{d}{d x} F(x)=\\left(\\frac{e^{\\text {sinx }}}{x}\\right) x>0$. If $\\int_1^4 \\frac{3}{x} e^{\\text {sin }^3} d x=F(k)-F(1)$ then one of the possible values of $k$, is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "vZCuX",
+      "text": "\n64\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "iHHPt",
+      "text": "\n15\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "S0kQ4",
+      "text": "\n16\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "G0WlR",
+      "text": "\n63",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\frac{d}{d x} F(x)=\\frac{e^{\\sin x}}{x} \\text { or } \\int_1^4 \\frac{3}{x} e^{\\sin x^3} d x=\\int_1^4 \\frac{3 x^2}{x^3} e^{\\sin x^3} d x\n$$\nLet $\\mathrm{x}^3=\\mathrm{t}, 3 \\mathrm{x}^2 \\mathrm{dx}=\\mathrm{dt}$\nwhen $x=1, t=1 \\& x-4, t=64$\n$$\n\\begin{aligned}\n& \\mathrm{F}(\\mathrm{t})=\\int_1^{64} \\frac{\\mathrm{e}^{\\sin t}}{\\mathrm{t}} \\mathrm{dt}=\\int_1^{64} \\mathrm{~F}(\\mathrm{t}) \\mathrm{dt}=\\mathrm{F}(64)-\\mathrm{F}(1) \\\\\n& \\mathrm{K}=64\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c3",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2003-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2003",
+    "title": "JEE Main 2003"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

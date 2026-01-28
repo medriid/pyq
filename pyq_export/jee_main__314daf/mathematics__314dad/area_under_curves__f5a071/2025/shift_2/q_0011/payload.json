@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602565bccda81624f5a071",
+    "chapter_name": "Area Under Curves",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The area of the region enclosed by the curves $y=\\mathrm{e}^x, y=\\left|\\mathrm{e}^x-1\\right|$ and $y$-axis is:"
+  },
+  "options": [
+    {
+      "text": "$1-\\log _{\\mathrm{e}} 2$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\log _{\\mathrm{e}} 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$1+\\log _e 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 \\log _e 2-1$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0011_96162ee742c2.png\"><br>\n$\\begin{aligned} & e^x=1-e^x \\Rightarrow 2 e^x=1 \\\\ & \\Rightarrow e^x=\\frac{1}{2} \\\\ & \\Rightarrow x=\\ln \\frac{1}{2} \\\\ & \\int_{\\ln (1 / 2)}^0\\left[e^x-\\left(1-e^x\\right)\\right] d x \\\\ & =\\int_{\\ln 2}^0\\left(2 e^x-1\\right) d x=2 e^x-\\left.x\\right|_{-\\ln 2} ^0 \\\\ & =2-(1+\\ln 2) \\\\ & =1-\\log _e 2\\end{aligned}$"
+  }
+}

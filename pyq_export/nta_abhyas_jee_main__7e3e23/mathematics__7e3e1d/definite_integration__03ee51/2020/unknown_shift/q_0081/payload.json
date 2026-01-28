@@ -1,0 +1,43 @@
+{
+  "index": 81,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256482b554b07303ee51",
+    "chapter_name": "Definite Integration",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The integral <math><mi>I</mi><mo>=</mo><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mi>e</mi></mrow><mrow><mi>e</mi><mo>+</mo><mn>1</mn></mrow></munderover><mrow><mfrac><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></mrow></math> satisfies"
+  },
+  "options": [
+    {
+      "text": "<math><mi>I</mi><mo>&gt;</mo><mn>2</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>I</mi><mo>&gt;</mo><mi>e</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>I</mi><mo>&lt;</mo><mn>0</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>I</mi><mo>&lt;</mo><mn>1</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>∈</mo><mfenced separators=\"|\"><mrow><mi>e</mi><mo>,</mo><mi>e</mi><mo>+</mo><mn>1</mn></mrow></mfenced></math><br /><math><mo>⇒</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>&lt;</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></math><br /><math><mo>⇒</mo><mfrac><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfrac><mo>&lt;</mo><mn>1</mn></math><br /><math><mo>⇒</mo><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mi>e</mi></mrow><mrow><mi>e</mi><mo>+</mo><mn>1</mn></mrow></munderover><mrow><mfrac><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfrac></mrow></mrow><mi>d</mi><mi>x</mi><mo>&lt;</mo><mrow><munderover><mo stretchy=\"false\">∫</mo><mrow><mi>e</mi></mrow><mrow><mi>e</mi><mo>+</mo><mn>1</mn></mrow></munderover><mrow><mn>1</mn><mi>d</mi><mi>x</mi></mrow></mrow></math><br /><math><mo>⇒</mo><mi>I</mi><mo>&lt;</mo><msubsup><mrow><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></mrow><mrow><mi>e</mi></mrow><mrow><mi>e</mi><mo>+</mo><mn>1</mn></mrow></msubsup></math><br /><math><mo>⇒</mo><mi>I</mi><mo>&lt;</mo><mn>1</mn></math>"
+  }
+}

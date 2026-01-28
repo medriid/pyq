@@ -1,0 +1,43 @@
+{
+  "index": 222,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2010",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Solution of the differential equation $\\cos x d y=y(\\sin x-y) d x, 0 < x < \\frac{\\pi}{2}$ is"
+  },
+  "options": [
+    {
+      "text": "\n$y \\sec x=\\tan x+c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$y \\tan x=\\sec x+c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\tan x=(\\sec x+c) y$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n $\\sec x=(\\tan x+c) y$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\cos x d y=y(\\sin x-y) d x \\\\\n& \\frac{d y}{d x}=y \\tan x-y^2 \\sec x \\\\\n& \\frac{1}{y^2} \\frac{d y}{d x}-\\frac{1}{y} \\tan x=-\\sec x \\\\\n& \\text { Let } \\frac{1}{y}=t \\\\\n& -\\frac{1}{y^2} \\frac{d y}{d x}=\\frac{d t}{d x} \\\\\n& -\\frac{d y}{d x}-t \\tan x=-\\sec x \\Rightarrow \\frac{d t}{d x}+(\\tan x) t=\\sec x . \\\\\n& \\text { I.F. }=e^{f \\tan x d x}=\\sec x\n\\end{aligned}\n$$\nSolution is $t\\left(\\right.$ I.F) $=\\int$ (I.F) $\\sec x d x$\n$\\frac{1}{y} \\sec x=\\tan x+c$"
+  }
+}

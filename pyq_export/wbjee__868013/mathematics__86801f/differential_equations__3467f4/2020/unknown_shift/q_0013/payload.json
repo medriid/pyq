@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2020",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d236263135e923467f4",
+    "chapter_name": "Differential Equations",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The differential equation of the family of curves $y=e^{x}(A \\cos x+B \\sin x)$ where $A, B$ are arbitrary constants is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{d^{2} y}{d x^{2}}-9 x=13$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{d^{2} y}{d x^{2}}-2 \\frac{d y}{d x}+2 y=0$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{d^{2} y}{d x^{2}}+3 y=4$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\frac{d y}{d x}\\right)^{2}+\\frac{d y}{d x}-x y=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Hint: \r\n$y=e^{x}(A \\cos x+B \\sin x)$\r\nDifferentiating w.r.t. x:-\r\n$y^{\\prime}=y+e^{x}(-A \\sin x+B \\cos x)$\r\nDifferentiating w.r.t. $x$ once again:-\r\n$\\begin{array}{c}\r\ny^{\\prime \\prime}=y^{\\prime}+\\left(y^{\\prime}-y\\right)+e^{x}(-A \\cos x-B \\sin x) \\\\\r\n=2 y^{\\prime}-y-y \\quad \\Rightarrow y^{\\prime \\prime}-2 y^{\\prime}+2 y=0\r\n\\end{array}$"
+  }
+}

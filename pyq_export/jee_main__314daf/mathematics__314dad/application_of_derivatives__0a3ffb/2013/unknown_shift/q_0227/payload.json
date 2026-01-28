@@ -1,0 +1,43 @@
+{
+  "index": 227,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2013 (23 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If a curve passes through the point $\\left(2, \\frac{7}{2}\\right)$ and has slope $\\left(1-\\frac{1}{x^2}\\right)$ at any point $(x, y)$ on it, then the ordinate of the point on the curve whose abscissa is $-2$ is :"
+  },
+  "options": [
+    {
+      "text": "\n$-\\frac{3}{2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{3}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{5}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-\\frac{5}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\text { Slope }=\\frac{d y}{d x}=1-\\frac{1}{x^2} \\\\\n& \\Rightarrow \\int d y=\\int\\left(1-\\frac{1}{x^2}\\right) d x \\\\\n& \\Rightarrow y=x+\\frac{1}{x}+\\mathrm{C}, \\text { which is the equation of }\n\\end{aligned}\n$$\nthe curve\nsince curve passes through the point\n$$\n\\begin{aligned}\n& \\left(2, \\frac{7}{2}\\right) \\\\\n\\therefore \\quad & \\frac{7}{2}=2+\\frac{1}{2}+C \\Rightarrow C=1 \\\\\n\\therefore \\quad & y=x+\\frac{1}{x}+1\n\\end{aligned}\n$$\nwhen $x=-2$, then $y=-2+\\frac{1}{-2}+1=\\frac{-3}{2}$"
+  }
+}

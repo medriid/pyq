@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2024 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254f7a96128fc38065ce",
+    "chapter_name": "Matrices",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\alpha$ and $\\beta$ be the distinct roots of the equation $x^2+x-1=0$. Consider the set $T=\\{1, \\alpha, \\beta\\}$. For a $3 \\times 3$ matrix $M=\\left(a_{i j}\\right)_{3 \\times 3}$, define $R_i=a_{i 1}+a_{i 2}+a_{i 3}$ and $C_j=a_{1 j}+a_{2 j}+a_{3 j}$ for $i=1,2,3$ and $j=1,2,3$.\r\nMatch each entry in List-I to the correct entry in List-II.\r\n<img src=\"assets\\qt0002_5230151c0c4b.png\"/>\r\nThe correct option is"
+  },
+  "options": [
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(4) \\quad(\\mathrm{Q}) \\rightarrow(2) \\quad(\\mathrm{R}) \\rightarrow(5) \\quad(\\mathrm{S}) \\rightarrow(1)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(2) \\quad(\\mathrm{Q}) \\rightarrow(4) \\quad(\\mathrm{R}) \\rightarrow(1) \\quad(\\mathrm{S}) \\rightarrow(5)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(2) \\quad(\\mathrm{Q}) \\rightarrow(4) \\quad(\\mathrm{R}) \\rightarrow(3) \\quad(\\mathrm{S}) \\rightarrow(5)$",
+      "is_correct": true
+    },
+    {
+      "text": "$(\\mathrm{P}) \\rightarrow(1) \\quad(\\mathrm{Q}) \\rightarrow(5) \\quad(\\mathrm{R}) \\rightarrow(3) \\quad(\\mathrm{S}) \\rightarrow(4)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\alpha, \\beta \\text { are roots of } \\mathrm{x}^2+\\mathrm{x}-1=0 \\\\ & \\therefore \\alpha+\\beta=-1 \\Rightarrow 1+\\alpha+\\beta=0 \\\\ & M=\\left[\\begin{array}{lll}\\mathrm{a}_{11} & \\mathrm{a}_{12} & \\mathrm{a}_{13} \\\\ \\mathrm{a}_{21} & \\mathrm{a}_{22} & \\mathrm{a}_{23} \\\\ \\mathrm{a}_{31} & \\mathrm{a}_{32} & \\mathrm{a}_{33}\\end{array}\\right]\\end{aligned}$\n(P)\n$M=\\left[\\begin{array}{lll}1 & \\alpha & \\beta \\\\\\alpha & \\beta & 1 \\\\\\beta & 1 & \\alpha\\end{array}\\right] \\Rightarrow 3!\\times 2=12$\nFor one arrangement of row 1 we can arrange other two rows exactly in two ways and row 1 can be arranged in 3 ! ways\n$\\therefore 3!\\times 2=12 \\text { ways }$\n(Q)\n$M=\\left[\\begin{array}{lll}x & a & b \\\\ a & y & c \\\\ b & c & z\\end{array}\\right] \\Rightarrow$ Consider one such arrangement with $a=\\alpha, b=\\beta, c=1$\n$M=\\left[\\begin{array}{lll}1 & \\alpha & \\beta \\\\ \\alpha & \\beta & 1 \\\\ \\beta & 1 & \\alpha\\end{array}\\right]$\na, b, c can be arranged in $3 !$ ways and corresponding entries can be arranged in 1 way.\n(R)\n$\\left[\\begin{array}{ccc}0 & a & b \\\\ -a & 0 & c \\\\ -b & -c & 0\\end{array}\\right]\\left[\\begin{array}{l}x \\\\ y \\\\ z\\end{array}\\right]=\\left[\\begin{array}{c}a \\\\ 0 \\\\ -c\\end{array}\\right]$\n$\\begin{aligned}& a y+b z=a \\\\& -a x+c z=0 \\\\& -b x-c y=-c\\end{aligned}$\nIt is observed that $\\mathrm{D}=\\mathrm{D}_{\\mathrm{x}}=\\mathrm{D}_{\\mathrm{y}}=\\mathrm{D}_{\\mathrm{z}}=0$\n$\\therefore$ infinite solution\n(S)\n$\\left[\\begin{array}{lll}1 & \\alpha & \\beta \\\\ \\beta & \\alpha & 1 \\\\ \\alpha & 1 & \\beta\\end{array}\\right]$\n$\\Rightarrow \\alpha \\beta-1-\\alpha \\beta^2+\\alpha^2+\\beta^2-\\alpha^2 \\beta=0 \\quad($ since $\\alpha \\beta=\\alpha+\\beta=-1$ )"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "6151e86398a99898261f4b89",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [
+    {
+      "title": "NTA Abhyas Paper",
+      "value": "89",
+      "isVisible": true
+    }
+  ],
+  "previousYearPapers": [
+    {
+      "_id": "6904b6feef55966cf1d71f2a",
+      "title": "NTA Abhyas (JEE Main) 2020",
+      "shortName": "2020",
+      "isVisible": true,
+      "heldOn": "2020-05-25T09:00:00.000Z"
+    }
+  ],
+  "question": {
+    "text": "If <math><msub><mrow><mi>I</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>=</mo><mrow><mo stretchy=\"false\">&#8747;</mo><mrow><msup><mrow><mi>x</mi></mrow><mrow><mi>n</mi></mrow></msup></mrow></mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>6</mn><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></math>, then the expression <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msub><mi>I</mi><mn>10</mn></msub><mo>+</mo><mn>10</mn><msub><mi>I</mi><mn>9</mn></msub></math> simplifies to (where,&nbsp;<math><mi>c</mi></math> is the constant of integration)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "2iqIy",
+      "text": "<math><msup><mrow><mi>x</mi></mrow><mrow><mn>10</mn></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mn>5</mn><mi>x</mi></mrow></msup><mo>+</mo><mi>c</mi></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "GSgGN",
+      "text": "<math><msup><mrow><mi>x</mi></mrow><mrow><mn>10</mn></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mn>6</mn><mi>x</mi></mrow></msup><mo>+</mo><mi>c</mi></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "9BXQg",
+      "text": "<math><msup><mrow><mi>x</mi></mrow><mrow><mn>9</mn></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mn>5</mn><mi>x</mi></mrow></msup><mo>+</mo><mi>c</mi></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "wqxOc",
+      "text": "<math><msup><mrow><mi>x</mi></mrow><mrow><mn>10</mn></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mn>10</mn><mi>x</mi></mrow></msup><mo>+</mo><mi>c</mi></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Using integration by parts in <math><msub><mrow><mi>I</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>,</mo></math> we get,<br /><math><msub><mrow><mi>I</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>=</mo><mrow><mo stretchy=\"false\">&#8747;</mo><mrow><munder><mrow><munder accentunder=\"false\"><mrow><msup><mrow><mi>x</mi></mrow><mrow><mi>n</mi></mrow></msup></mrow><mo>&#9183;</mo></munder></mrow><mrow><mi mathvariant=\"normal\">I</mi></mrow></munder></mrow></mrow><munder><mrow><munder accentunder=\"false\"><mrow><msup><mrow><mi>e</mi></mrow><mrow><mn>6</mn><mi>x</mi></mrow></msup></mrow><mo>&#9183;</mo></munder></mrow><mrow><mi mathvariant=\"normal\">I</mi><mi mathvariant=\"normal\">I</mi></mrow></munder><mi>d</mi><mi>x</mi></math><br /><math><mo>=</mo><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><mfrac><mrow><msup><mrow><mi>x</mi></mrow><mrow><mi>n</mi></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mn>6</mn><mi>x</mi></mrow></msup></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mfenced><mo>-</mo><mrow><mo stretchy=\"false\">&#8747;</mo><mrow><mfrac><mrow><mi>n</mi><msup><mrow><mi>x</mi></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mn>6</mn><mi>x</mi></mrow></msup></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mrow><mi>d</mi><mi>x</mi></math><br /><math><mo>&#8658;</mo><mn>6</mn><msub><mrow><mi>I</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>=</mo><msup><mrow><mi>x</mi></mrow><mrow><mi>n</mi></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mn>6</mn><mi>x</mi></mrow></msup><mo>-</mo><mi>n</mi><mi></mi><msub><mrow><mi>I</mi></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub><mo>+</mo><mi>c</mi></math><br /><math><mo>&#8658;</mo><mn>6</mn><msub><mrow><mi>I</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>+</mo><mi>n</mi><msub><mrow><mi>I</mi></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub><mo>=</mo><msup><mrow><mi>x</mi></mrow><mrow><mi>n</mi></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mn>6</mn><mi>x</mi></mrow></msup><mo>+</mo><mi>c</mi></math><br />Put <math><mi>n</mi><mo>=</mo><mn>10</mn></math>,<br /><math><mn>6</mn><msub><mrow><mi>I</mi></mrow><mrow><mn>10</mn></mrow></msub><mo>+</mo><mn>10</mn><msub><mrow><mi>I</mi></mrow><mrow><mn>9</mn></mrow></msub><mo>=</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>10</mn></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mn>6</mn><mi>x</mi></mrow></msup><mo>+</mo><mi>c</mi></math>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": null,
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

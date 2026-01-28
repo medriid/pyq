@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2013 (23 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254b6c200152465d55e0",
+    "chapter_name": "Properties of Triangles",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the extremities of the base of an isosceles triangle are the points $(2 a, 0)$ and $(0, a)$ and the equation of one of the sides is $x=2 a$, then the area of the triangle, in square units, is :"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{5}{4} a^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{5}{2} a^2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{25 a^2}{4}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$5 a^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\text { Let } y \\text {-coordinate of } \\mathrm{C}=b\n$$\n\n\n<img src=\"assets\\st0015_e80173dbf672.png\"><br>\n\n\n$$\n\\begin{aligned}\n& \\mathrm{AB}=\\sqrt{4 a^2+a^2}=\\sqrt{5} a \\\\\n& \\text { Now, } \\mathrm{AC}=\\mathrm{BC} \\Rightarrow b=\\sqrt{4 a^2+(b-a)^2} \\\\\n& \\Rightarrow b^2=4 a^2+b^2+a^2-2 a b \\\\\n& \\Rightarrow 2 a b=5 a^2 \\Rightarrow b=\\frac{5 a}{2} \\\\\n& \\therefore \\mathrm{C}=\\left(2 a, \\frac{5 a}{2}\\right)\n\\end{aligned}\n$$\nHence area of the triangle\n$$\n\\begin{aligned}\n& =\\frac{1}{2}\\left|\\begin{array}{ccc}\n2 a & 0 & 1 \\\\\n0 & a & 1 \\\\\n2 a & \\frac{5 a}{2} & 1\n\\end{array}\\right|=\\frac{1}{2}\\left|\\begin{array}{ccc}\n2 a & 0 & 1 \\\\\n0 & a & 1 \\\\\n0 & \\frac{5 a}{2} & 0\n\\end{array}\\right| \\\\\n& =\\frac{1}{2} \\times 2 a\\left(-\\frac{5 a}{2}\\right)=-\\frac{5 a^2}{2}\n\\end{aligned}\n$$\nSince area is always $+\\mathrm{ve}$, hence area\n$$\n=\\frac{5 a^2}{2} \\text { sq. unit }\n$$"
+  }
+}

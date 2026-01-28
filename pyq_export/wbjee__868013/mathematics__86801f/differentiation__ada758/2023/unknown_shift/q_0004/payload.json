@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Given \\(\\frac{d^2 y}{d x^2}+\\cot x \\frac{d y}{d x}+4 y \\operatorname{cosec}^2 x=0\\). Changing the independent variable \\(x\\) to \\(z\\) by the substitution \\(z=\\log \\tan \\frac{x}{2}\\), the equation is changed to"
+  },
+  "options": [
+    {
+      "text": "\\(\\frac{d^2 y}{d z^2}+\\frac{3}{y}=0\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(2 \\frac{d^2 y}{d z^2}+e^y=0\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{d^2 y}{d z^2}-4 y=0\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{d^2 y}{d z^2}+4 y=0\\)",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Hint : \\(\\frac{d z}{d x}=\\frac{\\frac{1}{2} \\sec ^2(x / 2)}{\\tan (x / 2)}=\\frac{1}{\\sin x}=\\operatorname{cosec} x\\)\n\\(\\begin{aligned}\n& \\frac{d y}{d x}=\\frac{d y}{d z} \\cdot \\frac{d z}{d x}=\\operatorname{cosec} x \\frac{d y}{d z}, \\frac{d^2 y}{d x^2}=\\frac{d}{d x}\\left(\\frac{d y}{d x}\\right)=\\frac{d}{d z}\\left(\\frac{d y}{d x}\\right)\\left(\\frac{d z}{d x}\\right) \\\\\n& =\\frac{d}{d z}\\left(\\operatorname{cosec} \\cdot \\frac{d y}{d z}\\right) \\operatorname{cosec} x \\\\\n& =\\left(\\operatorname{cosec} x \\frac{d^2 y}{d x^2}-\\operatorname{cosec} x \\cdot \\cot x \\frac{d x}{d z} \\frac{d y}{d z}\\right) \\operatorname{cosec} x=\\operatorname{cosec}^2 x \\frac{d^2 y}{d z^2}-\\operatorname{cosec} x \\cdot \\cot x \\frac{d y}{d z}\n\\end{aligned}\\)\n\\(\\begin{aligned} & \\therefore \\frac{d^2 y}{d x^2}+\\cot x \\frac{d y}{d x}+4 y \\operatorname{cosec}{ }^2 x=0 \\Rightarrow \\operatorname{cosec}^2 x \\frac{d^2 y}{d x^2}-\\operatorname{cosec} x \\cdot \\cot x \\frac{d y}{d z}+\\cot x \\cdot \\operatorname{cosec} x \\cdot \\frac{d y}{d z}+4 \\operatorname{cosec}^2 x=0 \\\\ & \\Rightarrow \\frac{d^2 y}{d z^2}+4 y=0\\end{aligned}\\)"
+  }
+}

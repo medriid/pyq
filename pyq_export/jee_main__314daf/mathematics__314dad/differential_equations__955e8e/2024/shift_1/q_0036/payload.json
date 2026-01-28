@@ -1,0 +1,24 @@
+{
+  "index": 36,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let the solution $y=y(x)$ of the differential equation $\\frac{\\mathrm{d} y}{\\mathrm{~d} x}-y=1+4 \\sin x$ satisfy $y(\\pi)=1$. Then $y\\left(\\frac{\\pi}{2}\\right)+10$ is equal to ______"
+  },
+  "options": [],
+  "correct_answer": "7",
+  "solution": {
+    "text": "$\\begin{aligned} & y e^{-x}=\\int\\left(e^{-x}+4 e^{-x} \\sin x\\right) d x \\\\ & y e^{-x}=-e^{-x}-2\\left(e^{-x} \\sin x e^{-x} \\cos x\\right)+C \\\\ & y=-1-2(\\sin x+\\cos x)+c e^x \\\\ & \\because y(\\pi)=1 \\Rightarrow c=0 \\\\ & y(\\pi / 2)=-1-2=-3 \\\\ & \\text { Ans }=10-3=7\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 68,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 1 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2018",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If $f\\left(\\frac{x-4}{x+2}\\right)=2 x+1,(x \\in R=\\{1,-2\\})$, then $\\int f$ ( $x$ ) $d x$ is equal to (where $C$ is a constant of integration)"
+  },
+  "options": [
+    {
+      "text": "\n$12 \\log _e|1-x|-3 x+c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-12 \\log _e|1-x|-3 x+c$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$-12 \\log _e|1-x|+3 x+c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n $12 \\log _e|1-x|+3 x+c$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Suppose, $\\frac{x-4}{x+2}=y \\Rightarrow x-4=y(x+2)$\n$$\n\\Rightarrow x(1-y)=2 y+4 \\Rightarrow x=\\frac{2 y+4}{1-y}\n$$\nSo, $f(y)=2\\left(\\frac{2 y+4}{1-y}\\right)+1$\nNow, $f(x)=2\\left(\\frac{2 x+4}{1-x}\\right)+1=\\frac{3 x+9}{1-x}$\n$$\n\\begin{aligned}\n&=\\frac{3(x+3)}{1-x}=\\frac{3(x-1+4)}{1-x}=-3+\\frac{12}{1-x} \\\\\n&\\therefore \\int f(x) d x=-12 \\log _e|1-x|-3 x+c\n\\end{aligned}\n$$"
+  }
+}

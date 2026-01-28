@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $f:[1, \\infty) \\rightarrow[2, \\infty)$ be a differentiable function, If $10 \\int_1^{\\mathrm{x}} f(\\mathrm{t}) \\mathrm{dt}=5 \\mathrm{x} f(\\mathrm{x})-\\mathrm{x}^5-9$ for all $\\mathrm{x} \\geq 1$, then the value of $f(3)$ is :"
+  },
+  "options": [
+    {
+      "text": "$18$",
+      "is_correct": false
+    },
+    {
+      "text": "$32$",
+      "is_correct": true
+    },
+    {
+      "text": "$22$",
+      "is_correct": false
+    },
+    {
+      "text": "$26$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}<br/>& 10 \\frac{\\mathrm{~d}}{\\mathrm{dx}} \\int_1^{\\mathrm{x}} \\mathrm{f}(\\mathrm{t}) \\mathrm{dt}=\\frac{\\mathrm{d}}{\\mathrm{dx}}\\left(5 \\mathrm{xf}(\\mathrm{x})-\\mathrm{x}^5-9\\right) \\\\\n& \\Rightarrow 10 f(x)=5 f(x)+5 \\mathrm{xf}^{\\prime}(\\mathrm{x})-5 \\mathrm{x}^4 \\\\\n& \\Rightarrow \\mathrm{f}(\\mathrm{x})+\\mathrm{x}^4=\\mathrm{xf}^{\\prime}(\\mathrm{x}) \\\\\n& \\Rightarrow \\mathrm{y}+\\mathrm{x}^4=\\mathrm{x} \\frac{\\mathrm{dy}}{\\mathrm{dx}} \\\\\n& \\Rightarrow \\frac{d y}{d x}+y\\left(-\\frac{1}{x}\\right)=x^3 \\\\\n& \\Rightarrow y e^{\\int-\\frac{1}{x} d x}=\\int x^3 e^{\\int-\\frac{1}{x} d x}+c \\\\\n& \\Rightarrow \\mathrm{ye}^{-\\operatorname{tn}|x|}=\\int \\mathrm{x}^3 \\mathrm{e}^{-\\operatorname{tr}|x|}+\\mathrm{c} \\\\\n& \\Rightarrow \\frac{\\mathrm{y}}{|\\mathrm{x}|}=\\int \\frac{\\mathrm{x}^3}{|\\mathrm{x}|}+\\mathrm{c} \\\\\n& \\Rightarrow \\frac{\\mathrm{y}}{\\mathrm{x}}=\\int \\mathrm{x}^2+\\mathrm{c} \\\\\n& \\Rightarrow \\frac{\\mathrm{y}}{\\mathrm{x}}=\\frac{\\mathrm{x}^3}{3}+\\mathrm{c}<br/>\\end{aligned}$<br/>Put $x=1$ in given equation<br/>$\\begin{aligned}<br/>& \\Rightarrow 0=5 \\mathrm{f}(1)-1-9 \\Rightarrow \\mathrm{f}(1)=2 \\\\\n& \\Rightarrow \\frac{2}{1}=\\frac{1}{3}+\\mathrm{c} \\Rightarrow \\mathrm{c}=\\frac{5}{3} \\\\\n& \\Rightarrow \\frac{\\mathrm{f}(3)}{3}=\\frac{27}{3}+\\frac{5}{3} \\\\\n& \\Rightarrow \\mathrm{f}(3)=32<br/>\\end{aligned}$"
+  }
+}

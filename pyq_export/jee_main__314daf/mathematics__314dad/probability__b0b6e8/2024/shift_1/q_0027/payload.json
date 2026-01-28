@@ -1,0 +1,43 @@
+{
+  "index": 27,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let the sum of two positive integers be 24 . If the probability, that their product is not less than $\\frac{3}{4}$ times their greatest possible product, is $\\frac{m}{n}$, where $\\operatorname{gcd}(m, n)=1$, then $n-m$ equals"
+  },
+  "options": [
+    {
+      "text": "10",
+      "is_correct": true
+    },
+    {
+      "text": "9",
+      "is_correct": false
+    },
+    {
+      "text": "11",
+      "is_correct": false
+    },
+    {
+      "text": "8",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & x+y=24, x, y \\in N \\\\ & A M>G M \\Rightarrow x y \\leq 144 \\\\ & x y \\geq 108\\end{aligned}$\nFavorable pairs of $(x, y)$ are\n$\\begin{aligned} & (13,11),(12,12),(14,10),(15,9),(16,8), \\\\ & (17,7),(18,6),(6,18),(7,17),(8,16),(9,15), \\\\ & (10,14),(11,13)\\end{aligned}$\ni.e. 13 cases<br />Total choices for $\\mathrm{x}+\\mathrm{y}=24$ is 23\n$\\begin{aligned} & \\text { Probability }=\\frac{13}{23}=\\frac{m}{n} \\\\ & n-m=10\\end{aligned}$"
+  }
+}

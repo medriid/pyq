@@ -1,0 +1,43 @@
+{
+  "index": 53,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 1 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255a501b352fc65c18d3",
+    "chapter_name": "Differentiation",
+    "year": "2018",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If $x^2+y^2+\\sin y=4$, then the value of $\\frac{d^2 y}{d x^2}$ at the point $(-2,0)$ is"
+  },
+  "options": [
+    {
+      "text": "\n$-34$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n $-32$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n4",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given, $x^2+y^2+\\sin y=4$\nAfter differentiating the above equation $w$.\nr. t. $x$ we get\n$$\n\\begin{aligned}\n&2 x+2 y \\frac{d y}{d x}+\\cos y \\frac{d y}{d x}=0 \\ldots(1) \\\\\n&\\Rightarrow 2 x+(2 y+\\cos y) \\frac{d y}{d x}=0 \\\\\n&\\Rightarrow \\frac{d y}{d x}=\\frac{-2 x}{2 y+\\cos y} \\\\\n&\\text { At }(-2,0),\\left(\\frac{d y}{d x}\\right)_{(-2,0)}=\\frac{-2 \\times-2}{2 \\times 0+\\cos 0} \\\\\n&\\Rightarrow\\left(\\frac{d y}{d x}\\right)_{(-2,0)}=\\frac{4}{0+1} \\\\\n&\\Rightarrow\\left(\\frac{d y}{d x}\\right)_{(2,0)}=4 \\ldots(2)\n\\end{aligned}\n$$\nAgain differentiating equation (1) w. r. t to $x$, we get\n$2+2\\left(\\frac{d y}{d x}\\right)^2+2 y \\frac{d^2 y}{d x^2}-\\sin y\\left(\\frac{d y}{d x}\\right)^2+\\cos \\mathrm{y} \\frac{d^2 y}{d x^2}=0$\n$\\Rightarrow 2+(-2 \\sin y)\\left(\\frac{d y}{d x}\\right)^2+(2 y+\\cos \\mathrm{y}) \\frac{d^2 y}{d x^2}=0$\n$\\Rightarrow(2 y+\\cos \\mathrm{y}) \\frac{d^2 y}{d x^2}=-2-(2-\\sin y)\\left(\\frac{d y}{d x}\\right)^2$\n$\\Rightarrow \\frac{d^2 y}{d x^2}=\\frac{-2-(2-\\sin y)\\left(\\frac{d y}{d x}\\right)^2}{2 y+\\cos \\mathrm{y}}$\nSo, at $(-2,0)$\n$\\frac{d^2 y}{d x^2}=\\frac{-2-(2-0) \\times 4^2}{2 \\times 0+1}$\n$\\Rightarrow \\frac{d^2 y}{d x^2}=\\frac{-2-2 \\times 16}{1}$\n$\\Rightarrow \\frac{d^2 y}{d x^2}=-34$"
+  }
+}

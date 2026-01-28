@@ -1,0 +1,43 @@
+{
+  "index": 32,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (23 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602402632932165bf0ef64",
+    "chapter_name": "Electrostatics",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "A point particle of charge $Q$ is located at $P$ along the axis of an electric dipole 1 at a distance $r$ as shown in the figure. The point P is also on the equatorial plane of a second electric dipole 2 at a distance r . The dipoles are made of opposite charge q separated by a distance $2 a$. For the charge particle at P not to experience any net force, which of the following correctly describes the situation?\n<img src=\"assets\\qt0032_088f5540bfbb.png\"/><br/>"
+  },
+  "options": [
+    {
+      "text": "$\\frac{a}{r} \\sim 10$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{a}{r} \\sim 20$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{a}{r} \\sim 0.5$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{a}{r} \\sim 3$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0032_e100ef50c870.png\"><br>\r\n$\\begin{aligned}\r\n& \\Rightarrow \\frac{1}{(r-a)^2}-\\frac{1}{(r+a)^2}=\\frac{2 a}{\\left(a^2+r^2\\right)^{3 / 2}} \\\\\r\n& \\frac{4 a r}{\\left(r^2-a^2\\right)^2}=\\frac{2 a}{\\left(a^2+r^2\\right)^{3 / 2}} \\\\\r\n& \\left(r^2-a^2\\right)^2=2 r\\left(a^2+r^2\\right)^{3 / 2} \\\\\r\n& \\left(1-\\frac{a^2}{r^2}\\right)^2=2\\left(1+\\frac{a^2}{r^2}\\right)^{3 / 2} \\\\\r\n& \\left(1-x^2\\right)^2=2\\left(1+x^2\\right)^{3 / 2}\\left(x=\\frac{a}{r}\\right) \\\\\r\n& \\frac{\\left(1-x^2\\right)^2}{\\left(1+x^2\\right)^{3 / 2}}=2\r\n\\end{aligned}$\r\n\r\nNow for $\\mathrm{X}=3$\r\nWe get $\\frac{64}{10 \\sqrt{10}} \\approx 2 \\Rightarrow \\frac{a}{r} \\approx 3$\r\n[But for $a > r$ point charge will between the dipole where $\\vec{E} \\neq 0$]"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 101,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "$\\lim _{x \\rightarrow 0} \\frac{x \\tan 2 x-2 x \\tan x}{(1-\\cos 2 x)^2}$ equals."
+  },
+  "options": [
+    {
+      "text": "\n1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-\\frac{1}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{4}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let,\n$$\n\\begin{aligned}\n&L=\\lim _{x \\rightarrow 0} \\frac{(x \\tan 2 x-2 x \\tan x)}{(1-\\cos 2 x)^2}=\\lim _{x \\rightarrow 0} K \\text { (say) } \\\\\n&\\Rightarrow K=\\frac{x\\left[\\frac{2 \\tan x}{1-(\\tan x)^2}\\right]-2 x \\tan x}{\\left(1-\\left(1-2 \\sin ^2 x\\right)\\right)^2} \\\\\n&=\\frac{2 x \\tan x-\\left[2 x \\tan x-2 x \\tan ^3 x\\right]}{4 \\sin ^4 x \\times\\left(1-\\tan ^2 x\\right)} \\\\\n&=\\frac{2 x \\tan ^3 x}{4 \\sin ^4 x \\times\\left(1-\\tan ^2 x\\right)} \\\\\n&=\\frac{2 x \\tan ^3 x}{4 \\sin ^4 x \\times\\left(\\frac{\\cos ^2 x-\\sin ^2 x}{\\cos ^2 x}\\right)}\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n&=\\frac{2 x \\frac{\\sin ^3 x}{\\cos ^3 x}}{4 \\sin ^4 x \\times\\left(\\frac{\\cos ^2 x-\\sin ^2 x}{\\cos ^2 x}\\right)} \\\\\n& \\Rightarrow K=\\frac{x}{2 \\sin x \\times\\left(\\cos ^2 x-\\sin ^2 x\\right) \\cos x} \\\\\n\\therefore L &=\\lim _{x \\rightarrow 0} \\frac{x}{2 \\sin x} \\times \\lim _{x \\rightarrow 0} \\frac{1}{\\cos x\\left(\\cos ^2 x-\\sin ^2 x\\right)} \\\\\n&=\\lim _{x \\rightarrow 0} \\frac{x}{2 \\sin x} \\times \\lim _{x \\rightarrow 0} \\frac{1}{\\cos 0\\left(\\cos ^2 0-\\sin ^2 0\\right)} \\\\\n&=\\frac{1}{2}\n\\end{aligned}\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1f21590031c653b169",
+    "chapter_name": "Area Under Curves",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area of the region bounded by the curves $y=x^{2}$ and $x=y^{2}$ is"
+  },
+  "options": [
+    {
+      "text": "$1 / 3$",
+      "is_correct": true
+    },
+    {
+      "text": "$1 / 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$1 / 4$",
+      "is_correct": false
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given curves are $y=x^{2}$ and $x=y^{2}$, which is the form of parabola.\r\n<img src=\"assets\\st0014_ada28695651e.png\">\r\nThe point of intersection, $x=\\left(x^{2}\\right)^{2}$$\r\n\\begin{array}{l}\r\n\\Rightarrow \\quad x=x^{4} \\Rightarrow x\\left(1-x^{3}\\right)=0 \\\\\r\n\\Rightarrow \\quad x=0 \\text { and } 1=x^{3} \\\\\r\n\\Rightarrow \\quad x=0 \\text { and } x=1 \\\\\r\n\\text { When } x=0, \\text { then } y=0 \\\\\r\n\\text { When } x=1, \\text { then } y=1^{2}=1\r\n\\end{array}\r\n$\r\n$\\therefore$ The point of intersection is (0,0) and (1,1)\r\n$\\therefore$ Area of shaded region\r\n$$\r\n\\begin{array}{l}\r\n=\\int_{0}^{1}\\left(y_{2}-y_{1}\\right) d x \\\\\r\n=\\int_{0}^{1}\\left[\\sqrt{x}-x^{2}\\right] d x=\\left[\\frac{x^{3 / 2}}{3 / 2}-\\frac{x^{3}}{3}\\right]_{0}^{1} \\\\\r\n=\\frac{2}{3}(1)^{3 / 2}-\\frac{(1)^{3}}{3}-0-0 \\\\\r\n=\\frac{2}{3}-\\frac{1}{3}=\\frac{1}{3} \\mathrm{sq} \\text { units }\r\n\\end{array}\r\n$$"
+  }
+}

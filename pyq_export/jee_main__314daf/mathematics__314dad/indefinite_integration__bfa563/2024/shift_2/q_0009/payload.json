@@ -1,0 +1,24 @@
+{
+  "index": 9,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $\\int \\frac{1}{\\sqrt[5]{(x-1)^4(x+3)^6}} \\mathrm{~d} x=\\mathrm{A}\\left(\\frac{\\alpha x-1}{\\beta x+3}\\right)^B+\\mathrm{C}$, where $\\mathrm{C}$ is the constant of integration, then the value of $\\alpha+\\beta+20 \\mathrm{AB}$ is__________"
+  },
+  "options": [],
+  "correct_answer": "7",
+  "solution": {
+    "text": "$\\begin{aligned} & \\int \\frac{1}{\\sqrt[5]{(x-1)^4(x+3)^6}} d x=A\\left(\\frac{\\alpha x-1}{\\beta x+3}\\right)^B+C \\\\ & I=\\int \\frac{1}{(x-1)^{4 / 5}(x+3)^{6 / 5}} d x \\\\ & I=\\int \\frac{1}{\\left(\\frac{x-1}{x+3}\\right)^{4 / 5}(x+3)^2} d x \\\\ & \\left(\\frac{x-1}{x+3}\\right)=t \\Rightarrow \\frac{4}{(x+3)^2} d x=d t \\quad t^{-4 / 5+1} \\\\ & I=\\frac{1}{4} \\int \\frac{1}{t^{4 / 5}} d t=\\frac{1}{4} \\frac{t^{1 / 5}}{1 / 5}+c \\\\ & I=\\frac{5}{4}\\left(\\frac{x-1}{x+3}\\right)^{1 / 5}+C \\\\ & A=\\frac{5}{4} \\quad \\alpha=\\beta=1 \\quad B=\\frac{1}{5} \\\\ & \\alpha+\\beta+20 A B=2+20 \\times \\frac{5}{4} \\times \\frac{1}{5}=7\\end{aligned}$"
+  }
+}

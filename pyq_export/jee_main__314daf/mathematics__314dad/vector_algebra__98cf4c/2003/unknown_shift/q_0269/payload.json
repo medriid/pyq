@@ -1,0 +1,43 @@
+{
+  "index": 269,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2003",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2003",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The lines $\\frac{\\mathrm{x}-2}{1}=\\frac{\\mathrm{y}-3}{1}=\\frac{\\mathrm{z}-4}{-\\mathrm{k}}$ and $\\frac{\\mathrm{x}-1}{\\mathrm{k}}=\\frac{\\mathrm{y}-4}{1}=\\frac{\\mathrm{z}-5}{1}$ are coplanar if"
+  },
+  "options": [
+    {
+      "text": "\n$\\mathrm{k}=3$ or $-2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{k}=0$ or $-1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{k}=1$ or $-1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{k}=0$ or $-3$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\left|\\begin{array}{ccc}\\mathrm{x}_2-\\mathrm{x}_1 & \\mathrm{y}_2-\\mathrm{y}_1 & \\mathrm{z}_2-\\mathrm{z}_1 \\\\ \\mathrm{l}_1 & \\mathrm{~m}_1 & \\mathrm{n}_1 \\\\ \\mathrm{l}_2 & \\mathrm{~m}_2 & \\mathrm{n}_2\\end{array}\\right|=0$\n$\\left|\\begin{array}{ccc}1 & -1 & -1 \\\\ 1 & 1 & -\\mathrm{k} \\\\ \\mathrm{k} & 2 & 1\\end{array}\\right|=0 \\Rightarrow\\left|\\begin{array}{ccc}0 & 0 & -1 \\\\ 2 & 1+\\mathrm{k} & -\\mathrm{k} \\\\ \\mathrm{k}+2 & 1 & 1\\end{array}\\right|=0$\n$\\mathrm{k}^2+3 \\mathrm{k}^2=0 \\Rightarrow \\mathrm{k}(\\mathrm{k}+3)=0$ or $\\mathrm{k}=0$ or $-3$"
+  }
+}

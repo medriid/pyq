@@ -1,0 +1,58 @@
+{
+  "_id": "66446714970e6e9ab542cffe",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda69",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-04T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (04 Apr Shift 2)",
+      "title": "JEE Main 2024 (04 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If $\\int \\operatorname{cosec}^5 x d x=\\alpha \\cot x \\operatorname{cosec} x\\left(\\operatorname{cossc}^2 x+\\frac{3}{2}\\right)+\\beta \\log _\\epsilon\\left|\\tan \\frac{x}{2}\\right|+C$\nwhere $\\alpha, \\beta \\in \\mathbb{R}$ and $\\mathrm{C}$ is the constant of integration, then the value of $8(\\alpha+\\beta)$ equals _______",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "1",
+  "solution": {
+    "text": "$\\int \\operatorname{cosec}^3 x \\cdot \\operatorname{cosec}^2 x d x=I$<br />By applying integration by parts\n$\\begin{aligned}\n& I=-\\cot x \\operatorname{cosec}^3 x+\\int \\cot x\\left(-3 \\operatorname{cosec}^2 x \\cot x \\operatorname{cosec} x\\right) d x \\\\\n& I=-\\cot x \\operatorname{cosec}^3 x-3 \\int \\operatorname{cosec}^3 x\\left(\\operatorname{cosec}^2 x-1\\right) d x \\\\\n& I=-\\cot x \\operatorname{cosec}^3 x-3 I+3 \\int \\operatorname{cosec}^3 x d x\n\\end{aligned}$\nlet\n$\\begin{aligned}\n& I_1=\\int \\operatorname{cosec}^3 x d x=-\\operatorname{cosec} x \\cot x-\\int \\cot ^2 x \\operatorname{cosec} x d x \\\\\n& I_1=-\\operatorname{cosec} x \\cot x-\\int\\left(\\operatorname{cosec}^2 x-1\\right) \\operatorname{cosec} x d x\n\\end{aligned}$\n$\\begin{aligned} & 2 I_1=-\\operatorname{cosec} x \\cot x+\\ln \\left|\\tan \\frac{x}{2}\\right| \\\\ & I_1=-\\frac{1}{2} \\operatorname{cosec} x \\cot x+\\frac{1}{2} \\ln \\left|\\tan \\frac{x}{2}\\right| \\\\ & 4 I=-\\cot x \\operatorname{cosec}^3 x-\\frac{3}{2} \\operatorname{cosec} x \\cot x+\\frac{3}{2} \\ln \\left|\\tan \\frac{x}{2}\\right|+4 c \\\\ & I=-\\frac{1}{4} \\operatorname{cosec} x \\cot x\\left(\\operatorname{cosec}^2 x+\\frac{3}{2}\\right)+\\frac{3}{8} \\ln \\left|\\tan \\frac{x}{2}\\right|+c \\\\ & \\therefore \\alpha=\\frac{-1}{4}, \\beta=\\frac{3}{8} \\rightarrow 8(\\alpha+\\beta)=1\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "909c8235dbbb4e1e9358b9da0cc135d6",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/Im3hBNVRFWOPA.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/Im3hBNVRFWOPA.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda69",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-04T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (04 Apr Shift 2)",
+    "title": "JEE Main 2024 (04 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

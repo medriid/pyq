@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256d4f8c6827c3ba126d",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Line $L_1$ passes through the point $(1,2,3)$ and is parallel to Z -axis. Line $\\mathrm{L}_2$ passes through the point $(\\lambda, 5,6)$ and is parallel to $y$-axis. Let for $\\lambda=\\lambda_1, \\lambda_2, \\lambda_2 \\lt \\lambda_1$, the shortest distance between the two lines be 3 . Then the square of the distance of the point $\\left(\\lambda_1, \\lambda_2, 7\\right)$ from the line $\\mathrm{L}_1$ is"
+  },
+  "options": [
+    {
+      "text": "$40$",
+      "is_correct": false
+    },
+    {
+      "text": "$32$",
+      "is_correct": false
+    },
+    {
+      "text": "$25$",
+      "is_correct": true
+    },
+    {
+      "text": "$37$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & L_1 \\equiv \\frac{x-1}{0}=\\frac{y-2}{0}=\\frac{z-3}{1} \\\\ & L_2 \\equiv \\frac{x-\\lambda}{0}=\\frac{y-5}{1}=\\frac{z-6}{0}\\end{aligned}$<br/>$\\mathrm{SD}=\\frac{\\left|\\begin{array}{ccc}\\lambda-1 & 3 & 3 \\\\ 0 & 0 & 1 \\\\ 0 & 1 & 0\\end{array}\\right|}{\\left|\\begin{array}{ccc}\\hat{\\mathrm{i}} & \\hat{\\mathrm{j}} & \\hat{\\mathrm{k}} \\\\ 0 & 0 & 1 \\\\ 0 & 1 & 0\\end{array}\\right|}$<br/>$=|\\lambda-1|=3$<br/>$\\begin{aligned}<br/>& \\lambda=4,-2 \\\\\n& \\lambda_1=4 \\\\\n& \\lambda_2=-2<br/>\\end{aligned}$<br/>Let foot of perpendicular from<br/>$\\begin{aligned}<br/>& \\mathrm{P}(4,-2,7) \\text { is } \\mathrm{Q}(1,2, \\mathrm{t}+3) \\\\\n& \\mathrm{So}(3,-4,4-\\mathrm{t}) \\cdot(0,0,1)=0 \\\\\n& \\mathrm{t}=4<br/>\\end{aligned}$<br/>$\\begin{aligned}<br/>& \\mathrm{So} \\mathrm{Q}(1,2,7) \\\\\n& \\mathrm{PQ}^2=9+16 \\\\\n& \\mathrm{PQ}^2=25<br/>\\end{aligned}$"
+  }
+}

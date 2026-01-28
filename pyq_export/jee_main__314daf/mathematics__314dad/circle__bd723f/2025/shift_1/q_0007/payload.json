@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (23 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253a3c04dac842bd723f",
+    "chapter_name": "Circle",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let the arc $A C$ of a circle subtend a right angle at the centre $O$. If the point $B$ on the arc $A C$, divides the arc $A C$ such that $\\frac{\\text { length of } \\operatorname{arc} A B}{\\text { length of } \\operatorname{arc} B C}=\\frac{1}{5}$, and $\\overrightarrow{O C}=\\alpha \\overrightarrow{O A}+\\beta \\overrightarrow{O B}$, then $\\alpha+\\sqrt{2}(\\sqrt{3}-1) \\beta$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$2 \\sqrt{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2-\\sqrt{3}$",
+      "is_correct": true
+    },
+    {
+      "text": "$5 \\sqrt{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2+\\sqrt{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0007_e4eaf56b09c9.png\"><br>\n\n\n\n$\\begin{aligned} & \\overrightarrow{\\mathrm{c}}=\\alpha \\overrightarrow{\\mathrm{a}}+\\beta \\overrightarrow{\\mathrm{b}} \\ldots . .(1) \\\\ & \\overrightarrow{\\mathrm{a}} \\cdot \\overrightarrow{\\mathrm{c}}=\\alpha \\overrightarrow{\\mathrm{a}} \\cdot \\overrightarrow{\\mathrm{a}}+\\beta \\overrightarrow{\\mathrm{b}} \\cdot \\overrightarrow{\\mathrm{a}} \\\\ & 0=\\alpha+\\beta \\cos 15^{\\circ} \\ldots .(2) \\\\ & (1) \\Rightarrow \\overrightarrow{\\mathrm{b}} \\cdot \\overrightarrow{\\mathrm{c}}=\\alpha \\overrightarrow{\\mathrm{a}} \\cdot \\overrightarrow{\\mathrm{b}}+\\beta \\overrightarrow{\\mathrm{b}} \\cdot \\overrightarrow{\\mathrm{b}} \\\\ & \\Rightarrow \\cos 75^{\\circ}=\\alpha \\cos 15^{\\circ}+\\beta \\ldots .(3) \\\\ & (2) \\&(3) \\Rightarrow \\cos 75^{\\circ}=-\\beta \\cos ^2 15^{\\circ}+\\beta\\end{aligned}$\n\n$\\beta=\\frac{\\cos 75^{\\circ}}{\\sin ^2 15^{\\circ}}=\\frac{1}{\\sin 15^{\\circ}}=\\frac{2 \\sqrt{2}}{\\sqrt{3}-1}$\n(2) $\\Rightarrow \\alpha=\\frac{-\\cos 15^{\\circ}}{\\sin 15^{\\circ}}=\\frac{-(\\sqrt{3}+1)}{(\\sqrt{3}-1)}$\n$\\therefore \\overrightarrow{\\mathrm{c}}=\\frac{-(\\sqrt{3}+1)}{(\\sqrt{3}-1)} \\overrightarrow{\\mathrm{a}}+\\left(\\frac{2 \\sqrt{2}}{\\sqrt{3}-1}\\right) \\overrightarrow{\\mathrm{b}}$\n\nNow\n$\\begin{aligned}\n& \\alpha+\\sqrt{2}(\\sqrt{3}-1) \\beta=\\frac{-(\\sqrt{3}+1)}{(\\sqrt{3}-1)}+\\frac{\\sqrt{2}(\\sqrt{3}-1) \\cdot 2 \\sqrt{2}}{\\sqrt{3}-1} \\\\\n& =\\frac{-(\\sqrt{3}+1)^2}{2}+4 \\\\\n& =\\frac{-3-1-2 \\sqrt{3}+8}{2} \\\\\n& =2-\\sqrt{3}\n\\end{aligned}$"
+  }
+}

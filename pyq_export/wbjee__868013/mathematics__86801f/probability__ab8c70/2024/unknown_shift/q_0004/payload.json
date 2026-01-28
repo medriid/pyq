@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2024",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d2c72af60e1ebab8c70",
+    "chapter_name": "Probability",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Two integers $r$ and $s$ are drawn one at a time without replacement from the set $\\{1,2, \\ldots ., n\\}$. Then $P(r \\leq k / s \\leq k)=$"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\mathrm{k}}{\\mathrm{n}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\mathrm{k}}{\\mathrm{n}-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\mathrm{k}-1}{\\mathrm{n}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\mathrm{k}-1}{\\mathrm{n}-1}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Hint:\n$\\mathrm{p}(\\mathrm{r} \\leq \\mathrm{k} / \\mathrm{s} \\leq \\mathrm{k})=\\frac{\\mathrm{p}(\\mathrm{r} \\leq \\mathrm{k} \\cap \\mathrm{s} \\leq \\mathrm{k})}{\\mathrm{p}(\\mathrm{s} \\leq \\mathrm{k})}$\nNow, $\\mathrm{p}(\\mathrm{s} \\leq \\mathrm{k})=\\frac{\\mathrm{k}}{\\mathrm{n}}$\n$\\begin{aligned}\n& \\mathrm{p}(\\mathrm{r} \\leq \\mathrm{k} \\cap \\mathrm{s} \\leq \\mathrm{k})=\\frac{{ }^{\\mathrm{k}} C_2}{{ }^{\\mathrm{n}} C_2}=\\frac{\\mathrm{k}(\\mathrm{k}-1)}{\\mathrm{n}(\\mathrm{n}-1)} \\\\\n& \\therefore \\mathrm{p}(\\mathrm{r} \\leq \\mathrm{k} / \\mathrm{s} \\leq \\mathrm{k})=\\frac{\\frac{\\mathrm{k}(\\mathrm{k}-1)}{\\mathrm{n}(\\mathrm{n}-1)}}{\\frac{k}{n}}=\\frac{k-1}{n-1}\n\\end{aligned}$"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64a81412e0ff5a5425a85833",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec4",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "WBJEE 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The number of distinct real roots of $\\left|\\begin{array}{lll}\\sin x & \\cos x & \\cos x \\\\ \\cos x & \\sin x & \\cos x \\\\ \\cos x & \\cos x & \\sin x\\end{array}\\right|=0$ in the interval $-\\frac{\\pi}{4} \\leq x \\leq \\frac{\\pi}{4}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "33609",
+      "text": "0",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "yINDB",
+      "text": "2",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "CMr3F",
+      "text": "1",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "Wn4ZI",
+      "text": ">2",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $\\left|\\begin{array}{ccc}\\sin x & \\cos x & \\cos x \\\\ \\cos x & \\sin x & \\cos x \\\\ \\cos x & \\cos x & \\sin x\\end{array}\\right|=0$\r\n$\\sin x\\left(\\sin ^{2} x-\\cos ^{2} x\\right)-\\cos x\\left(\\sin x \\cos x-\\cos ^{2} x \\right ) + \\cos x \\left(\\cos ^{2} x-\\sin x \\cos x\\right)=0$\r\n$\\Rightarrow \\sin x(\\sin x-\\cos x)(\\sin x+\\cos x)$ $-\\cos ^{2} x(\\sin x-\\cos x)-\\cos ^{2} x$ $(\\sin x-\\cos x)=0$\r\n$\\Rightarrow(\\sin x-\\cos x)\\left(\\sin ^{2} x+\\sin x \\cos x-2 \\cos ^{2} x\\right)=0$\r\n$\\Rightarrow(\\sin x-\\cos x)\\left(\\sin ^{2} x+2 \\sin x\\right.\\left.\\cos x-\\sin x \\cos x-2 \\cos ^{2} x\\right)=0$\r\n$\\Rightarrow(\\sin x-\\cos x)^{2}(\\sin x+2 \\cos x)=0$\r\n$\\Rightarrow \\sin x-\\cos x=0$ or $\\sin x+2 \\cos x=0$\r\n$\\Rightarrow \\quad \\tan x=1$ or $\\tan x=-2$\r\nBut $\\quad x \\in\\left[-\\frac{\\pi}{4}, \\frac{\\pi}{4}\\right]$\r\n$\\Rightarrow$ Only one solution i.e. $x=\\frac{\\pi}{4}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec4",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "WBJEE 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

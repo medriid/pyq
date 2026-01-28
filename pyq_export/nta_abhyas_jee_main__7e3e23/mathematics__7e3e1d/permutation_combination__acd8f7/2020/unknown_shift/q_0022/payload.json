@@ -1,0 +1,43 @@
+{
+  "index": 22,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252bf7c1fee30bacd8f7",
+    "chapter_name": "Permutation Combination",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A man wants to distribute <math><mn>101</mn></math> coins of a rupee each, among his <math><mn>3</mn></math> sons with the condition that no one receives more money than the combined total of the other two. The number of ways of doing this is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow></mrow><mn>103</mn></msup><msub><mi>C</mi><mn>2</mn></msub><mo>-</mo><msup><mn>3</mn><mn>52</mn></msup><msub><mi>C</mi><mn>2</mn></msub></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>103</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub></mrow><mrow><mn>3</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>103</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub></mrow><mrow><mn>6</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>103</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>-</mo><mn>3</mn><msup><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>50</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>3</mn></mrow></msub></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p>Let, the amount received by the sons&nbsp;be Rs. <math><mi>x</mi><mo>,</mo></math> Rs. <math><mi>y</mi><mo>,</mo></math> and Rs <math><mi>z</mi></math> respectively,&nbsp;then</p><p><math><mi>x</mi><mo>≤</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>101</mn><mo>-</mo><mi>x</mi><mo>⇒</mo><mn>2</mn><mi>x</mi><mo>≤</mo><mn>101</mn></math> .<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>x</mi><mo>≤</mo><mn>50</mn><mo>,</mo><mo>&nbsp;</mo><mi>y</mi><mo>≤</mo><mn>50</mn><mo>,</mo><mo>&nbsp;</mo><mi>z</mi><mo>≤</mo><mn>50</mn><mo>.</mo></math><br /><math><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>10</mn><mn>1</mn></math><br />So, the required number of ways is the coefficient of&nbsp;<math><msup><mrow><mi>x</mi></mrow><mrow><mn>101</mn></mrow></msup></math> in <math><msup><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>x</mi><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>51</mn></mrow></msup></mrow></mfenced></mrow><mrow><mn>3</mn></mrow></msup></math><br />or&nbsp;coefficient of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>101</mn></msup></math>&nbsp;in the expansion of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced separators=\"|\"><mfrac><mrow><mn>1</mn><mo>-</mo><msup><mi>x</mi><mn>50</mn></msup></mrow><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfrac></mfenced><mn>3</mn></msup></math></p><p>or coefficient of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>101</mn></msup></math> in the expansion of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><msup><mi>x</mi><mn>51</mn></msup></mrow></mfenced><mn>3</mn></msup><msup><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mrow><mo>-</mo><mn>3</mn></mrow></msup></math><br />or coefficient of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>101</mn></msup></math> in the expansion of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced separators=\"|\"><mrow><mn>1</mn><msup><mo>-</mo><mn>3</mn></msup><msub><mi>C</mi><mn>1</mn></msub><msup><mi>x</mi><mn>51</mn></msup><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo></mrow></mfenced><msup><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mrow><mo>-</mo><mn>3</mn></mrow></msup></math><br />or coefficient of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>101</mn></msup></math> in the expansion of<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mrow><mo>-</mo><mn>3</mn></mrow></msup><msup><mo>-</mo><mn>3</mn></msup><msub><mi>C</mi><mn>1</mn></msub><msup><mi>x</mi><mn>51</mn></msup><msup><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mrow><mo>-</mo><mn>3</mn></mrow></msup></math>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><msup><mo>×</mo><mn>103</mn></msup><msub><mi>C</mi><mn>101</mn></msub><mo>-</mo><msup><mn>3</mn><mn>52</mn></msup><msub><mi>C</mi><mn>50</mn></msub><msup><mo>=</mo><mn>103</mn></msup><msub><mi>C</mi><mn>2</mn></msub><mo>-</mo><msup><mn>3</mn><mn>52</mn></msup><msub><mi>C</mi><mn>2</mn></msub></math></p>"
+  }
+}

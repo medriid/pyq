@@ -1,0 +1,43 @@
+{
+  "index": 112,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2022 (25 Jul Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2022",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mn>1</mn><msup><mn>2</mn><mi>n</mi></msup></mfrac><mfenced><mrow><mfrac><mn>1</mn><msqrt><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><msup><mn>2</mn><mi>n</mi></msup></mfrac></msqrt></mfrac><mo>+</mo><mfrac><mn>1</mn><msqrt><mn>1</mn><mo>-</mo><mfrac><mn>2</mn><msup><mn>2</mn><mi>n</mi></msup></mfrac></msqrt></mfrac><mo>+</mo><mfrac><mn>1</mn><msqrt><mn>1</mn><mo>-</mo><mfrac><mn>3</mn><msup><mn>2</mn><mi>n</mi></msup></mfrac></msqrt></mfrac><mo>+</mo><mo>&#8230;</mo><mo>.</mo><mo>+</mo><mfrac><mn>1</mn><msqrt><mn>1</mn><mo>-</mo><mfrac><mrow><msup><mn>2</mn><mi>n</mi></msup><mo>-</mo><mn>1</mn></mrow><msup><mn>2</mn><mi>n</mi></msup></mfrac></msqrt></mfrac></mrow></mfenced></math>&nbsp;is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<blockquote><p>Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mn>1</mn><msup><mn>2</mn><mi>n</mi></msup></mfrac><mfenced><mrow><mfrac><mn>1</mn><msqrt><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><msup><mn>2</mn><mi>n</mi></msup></mfrac></msqrt></mfrac><mo>+</mo><mfrac><mn>1</mn><msqrt><mn>1</mn><mo>-</mo><mfrac><mn>2</mn><msup><mn>2</mn><mi>n</mi></msup></mfrac></msqrt></mfrac><mo>+</mo><mfrac><mn>1</mn><msqrt><mn>1</mn><mo>-</mo><mfrac><mn>3</mn><msup><mn>2</mn><mi>n</mi></msup></mfrac></msqrt></mfrac><mo>+</mo><mo>&#8230;</mo><mo>.</mo><mo>+</mo><mfrac><mn>1</mn><msqrt><mn>1</mn><mo>-</mo><mfrac><mrow><msup><mn>2</mn><mi>n</mi></msup><mo>-</mo><mn>1</mn></mrow><msup><mn>2</mn><mi>n</mi></msup></mfrac></msqrt></mfrac></mrow></mfenced></math></p><p>Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi>n</mi></msup><mo>=</mo><mi>t</mi></math>&nbsp;and if&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></math>&nbsp;then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>&#8594;</mo><mo>&#8734;</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mn>1</mn><mi>t</mi></mfrac><mfenced><mrow><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>t</mi><mo>-</mo><mn>1</mn></mrow></munderover><mfrac><mn>1</mn><msqrt><mn>1</mn><mo>-</mo><mfrac><mi>r</mi><mi>t</mi></mfrac></msqrt></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msqrt><mn>1</mn><mo>-</mo><mi>x</mi></msqrt></mfrac></math>&nbsp;(Using definite integral as limit of sum)</p><p>Applying&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mo>&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mi>f</mi><mfenced><mi>x</mi></mfenced><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mi>f</mi><mfenced><mrow><mi>a</mi><mo>-</mo><mi>x</mi></mrow></mfenced><mi>d</mi><mi>x</mi></math>, we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msqrt><mi>x</mi></msqrt></mfrac><mo>&#160;</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mfenced close=\"]\" open=\"[\"><mrow><mn>2</mn><msqrt><mi>x</mi></msqrt></mrow></mfenced><mn>0</mn><mn>1</mn></msubsup><mo>=</mo><mn>2</mn></math></p></blockquote>"
+  }
+}

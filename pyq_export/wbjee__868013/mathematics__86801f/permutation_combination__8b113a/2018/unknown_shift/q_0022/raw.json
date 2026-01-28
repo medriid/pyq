@@ -1,0 +1,63 @@
+{
+  "_id": "64a81443e0ff5a5425a859ff",
+  "previousYearPapers": [
+    {
+      "_id": "619637ea2ac21c3533088c7d",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2018-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018",
+      "title": "WBJEE 2018"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The number of selection of $n$ objects from $2 n$ objects of which $n$ are identical and the rest are different, is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "19fx0",
+      "text": "$2^{n}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "NIH4e",
+      "text": "$2^{n-1}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "UsKuo",
+      "text": "$2^{n}-1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "2znwL",
+      "text": "$2^{n-1}+1$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Number of ways of selection of $n$ objects from $2 n$ objects, where as $n$ objects are identical in out of $2 n$ objects. $n$ identical and no different object $=1$ ways\r\n$$\r\n={ }^{n} C_{0}\r\n$$\r\n$n-1$ identical and 1 different object $=1 \\times{ }^{n} C_{1}$\r\n$n-2$ identical and 2 different object $=1 \\times{ }^{n} C_{2}$\r\n0 identical and $n$ different objects $=1 \\times{ }^{n} C_{n}$\r\n$$\r\n={ }^{n} C_{0}+{ }^{n} C_{1}+{ }^{n} C_{2}+\\ldots \\ldots+{ }^{n} C_{n}=2^{n}\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "619637ea2ac21c3533088c7d",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2018-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018",
+    "title": "WBJEE 2018"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

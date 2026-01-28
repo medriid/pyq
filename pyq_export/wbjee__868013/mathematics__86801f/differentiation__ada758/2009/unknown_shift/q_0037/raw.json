@@ -1,0 +1,63 @@
+{
+  "_id": "64a813a3e0ff5a5425a85414",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "64a8129d8a179a0542880ad3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009",
+      "title": "WBJEE 2009"
+    }
+  ],
+  "question": {
+    "text": "The second order derivative of a $\\sin ^3 t$ with respect to a $\\cos ^3 t$ at $t=\\frac{\\pi}{4}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "33mta",
+      "text": "2",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "eHxJf",
+      "text": "$\\frac{1}{12 a}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "PJFwS",
+      "text": "$\\frac{4 \\sqrt{2}}{3 a}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "7VWNI",
+      "text": "$\\frac{3 a}{4 \\sqrt{2}}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hints : $y=a \\sin ^3 \\mathrm{t} ; \\mathrm{x}=\\mathrm{a} \\cos ^3 \\mathrm{t}$\n$$\n\\begin{aligned}\n& \\frac{\\mathrm{dy}}{\\mathrm{dt}}=3 \\sin ^2 \\mathrm{t} \\cos \\mathrm{t} ; \\frac{\\mathrm{dx}}{\\mathrm{dt}}=-3 \\mathrm{a} \\cos ^2 \\mathrm{t} \\sin \\mathrm{t} \\\\\n& \\frac{d y}{d x}=\\frac{\\frac{d y}{d t}}{\\frac{d x}{d t}}=\\frac{3 a \\sin ^2 t \\cos t}{-3 a \\cos ^2 t \\operatorname{sint}}=-\\frac{\\operatorname{sint}}{\\cos t}=-\\operatorname{tant} \\\\\n&\n\\end{aligned}\n$$\n\n\n$$\n\\begin{aligned}\n& \\frac{\\mathrm{d}^2 \\mathrm{y}}{\\mathrm{dx} \\mathrm{x}^2}=\\frac{\\mathrm{d}}{\\mathrm{dx}}\\left(\\frac{\\mathrm{dy}}{\\mathrm{dx}}\\right)=\\frac{\\mathrm{d}}{\\mathrm{dx}}(-\\tan t)=\\frac{\\mathrm{d}}{\\mathrm{dt}}(-\\operatorname{tant}) \\cdot \\frac{\\mathrm{dt}}{\\mathrm{dx}} \\\\\n& =\\left(-\\sec ^2 \\mathrm{t}\\right) \\frac{1}{-3 \\cos ^2 \\mathrm{t} \\sin t}=\\frac{1}{+3 \\cos ^4 \\mathrm{t} \\sin t} \\\\\n& \\left.\\frac{d^2 y}{d x^2}\\right|_{t=\\pi / 4}=\\frac{1}{3 a\\left(\\frac{1}{\\sqrt{2}}\\right)^4 \\cdot\\left(\\frac{1}{\\sqrt{2}}\\right)}=\\frac{(\\sqrt{2})^5}{3 a}=\\frac{4 \\sqrt{2}}{3 a}\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64a8129d8a179a0542880ad3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009",
+    "title": "WBJEE 2009"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

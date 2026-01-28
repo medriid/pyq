@@ -1,0 +1,43 @@
+{
+  "index": 109,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2009",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253f32f74d11258840f1",
+    "chapter_name": "Ellipse",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The ellipse $x^2+4 y^2=4$ is inscribed in a rectangle aligned with the coordinate axes, which in turn in inscribed in another ellipse that passes through the point $(4,0)$. Then the equation of the ellipse is"
+  },
+  "options": [
+    {
+      "text": "\n$x^2+16 y^2=16$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x^2+12 y^2=16$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$4 x^2+48 y^2=48$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$4 \\mathrm{x}^2+64 \\mathrm{y}^2=48$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\nx^2+4 y^2=4 \\Rightarrow \\frac{x^2}{4}+\\frac{y^2}{1}=1 \\Rightarrow a=2, b=1 \\Rightarrow P=(2,1)\n$$\nRequired Ellipse is $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1 \\Rightarrow \\frac{x^2}{4^2}+\\frac{y^2}{b^2}=1$\n$(2,1)$ lies on it\n$$\n\\begin{aligned}\n& \\Rightarrow \\frac{4}{16}+\\frac{1}{b^2}=1 \\Rightarrow \\frac{1}{b^2}=1-\\frac{1}{4}=\\frac{3}{4} \\Rightarrow b^2=\\frac{4}{3} \\\\\n& \\therefore \\frac{x^2}{16}+\\frac{y^2}{\\left(\\frac{4}{3}\\right)}=1 \\Rightarrow \\frac{x^2}{16}+\\frac{3 y^2}{4}=1 \\Rightarrow x^2+12 y^2=16\n\\end{aligned}\n$$\n<img src=\"assets\\st0109_85cea698b025.png\"><br>"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "index": 11,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2012 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602558b3ddd6290d8a872c",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For every integer $n$, let $a_{n}$ and $b_{n}$ be real numbers. Let function $f: I R \\rightarrow I R$ be given by\r\n\r\n$f(x)=\\left\\{\\begin{array}{lll}\r\n\r\na_{n}+\\sin \\pi x, & \\text { for } & x \\in[2 n, 2 n+1] \\\\\r\n\r\nb_{n}+\\cos \\pi x, & \\text { for } & x \\in(2 n-1,2 n)\r\n\r\n\\end{array}\\right.$\r\n\r\nfor all integers $n$. If $f$ is continuous, then which of the following hold $(s)$ for all $n$ ?"
+  },
+  "options": [
+    {
+      "text": "$a_{n-1}-b_{n-1}=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$a_{n}-b_{n}=1$",
+      "is_correct": true
+    },
+    {
+      "text": "$a_{n}-b_{n+1}=1$",
+      "is_correct": false
+    },
+    {
+      "text": "$a_{n-1}-b_{n}=-1$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "D"
+  ],
+  "solution": {
+    "text": "Given : $f(x)=\\left\\{\\begin{array}{ll}a_{n}+\\sin \\pi x, & x \\in[2 n, 2 n+1] \\\\ b_{n}+\\cos \\pi x, & x \\in(2 n-1,2 n)\\end{array}\\right.$\r\n\r\n$\\because f$ is continuous for all $n$\r\n\r\n$\\therefore$ At $x=2 n, \\mathrm{LHL}=\\mathrm{RHL}=f(2 n)$\r\n\r\n$\\Rightarrow b_{n}+\\cos 2 \\pi n=a_{n}+\\sin 2 \\pi n=a_{n}+\\sin 2 \\pi n$\r\n\r\n$\\Rightarrow b_{n}+1=a_{n} \\Rightarrow a_{n}-b_{n}=1, \\therefore$ option (b) is correct.\r\n\r\nAlso at $x=2 n+1, \\mathrm{LHL}=\\mathrm{RHL}=f(2 n+1)$\r\n\r\n$\\Rightarrow \\lim _{h \\rightarrow 0} a_{n}+\\sin \\pi(2 n+1-h)$\r\n\r\n$=\\lim _{h \\rightarrow 0} b_{n+1}+\\cos \\pi(2 n+1-h)=a_{n}+\\sin (2 n+1) \\pi$\r\n\r\n$\\Rightarrow a_{n}=b_{n+1}-1=a_{n} \\Rightarrow a_{n}-b_{n+1}=-1$\r\n\r\n$\\therefore$ option (c) is incorrect.\r\n\r\n$\\Rightarrow a_{n-1}-b_{n}=-1, \\therefore$ option (d) is correct."
+  }
+}

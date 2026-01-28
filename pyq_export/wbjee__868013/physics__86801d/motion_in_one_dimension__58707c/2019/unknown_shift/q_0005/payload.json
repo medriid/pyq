@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c73ccbc531bd958707c",
+    "chapter_name": "Motion In One Dimension",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Two particles are simultaneously projected in the horizontal direction from a point $P$ at a certain height. The initial velocities of the particles are oppositely directed to each other and have magnitude $v$ each. The separation between the particles at a time when their position vectors (drawn from the point $P$ ) are mutually perpendicular, is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{v^{2}}{2 g}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{v^{2}}{g}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{4 v^{2}}{g}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{2 v^{2}}{g}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "According to the question,\r\nRepresentation of position vectors of two particles (drawn from the point $P$ \r\n<img src=\"assets\\st0005_77d219ed5b47.png\">\r\nIn two dimension, the position vectors $\\mathbf{r}_{1}$ and $\\mathbf{r}_{2}$ represented as\r\n$$\r\n\\begin{array}{l}\r\n\\mathbf{r}_{1}=v t \\hat{\\mathbf{i}}-\\frac{1}{2} g t^{2} \\mathbf{j} ...(i) \\\\\r\n\\mathbf{r}_{2}=v t(-\\hat{\\mathbf{i}})-\\frac{1}{2} g t^{2}(\\mathbf{j})...(ii)\r\n\\end{array}\r\n$$\r\n$\\because$ We know that, when the two vectors are mutually perpendicular, i.e.\r\n$$\r\n\\theta=90^{\\circ}\r\n$$\r\nSo,\r\n$$\r\n\\begin{array}{l}\r\n\\mathbf{r}_{1} \\cdot \\mathbf{r}_{2}=r_{1} r_{2} \\cos 90^{\\circ} \\\\\r\n\\mathbf{r}_{1} \\cdot \\mathbf{r}_{2}=0\r\n\\end{array}\r\n$$\r\nSubstituting the values $\\mathbf{r}_{1}$ and $\\mathbf{r}_{2}$ in the above relation, we get\r\n$$\r\n\\left((v t) \\hat{\\mathbf{i}}-\\frac{1}{2} g t^{2} \\mathbf{j}\\right) \\cdot\\left(v t(-\\hat{\\mathbf{i}})-\\frac{1}{2} g t^{2}(\\mathbf{j})\\right)=0\r\n$$\r\n$-v^{2} t^{2}+\\frac{1}{4} 4 g^{2} t^{4}=0($ where, $\\hat{\\mathbf{i}} \\cdot \\hat{\\mathbf{i}}=\\hat{\\mathbf{j}} \\cdot \\hat{\\mathbf{j}}=\\mathbf{k} \\cdot \\mathbf{k}=1)$\r\n$$\r\n\\begin{aligned}\r\nv^{2} t^{2} &=\\frac{1}{4} g^{2} t^{4} \\\\\r\n\\Rightarrow \\quad v^{2} &=\\frac{1}{4} g^{2} t^{2}\r\n\\end{aligned}\r\n$$\r\n$\\therefore$ Magnitude of velocity of the particles, $v=\\frac{1}{2} g t$\r\nWe know that, separation distance between particles at a time $t$\r\n$$\r\n\\begin{array}{c}\r\n\\Delta x=2 v t \\\\\r\n\\Delta x=2 \\times v \\times \\frac{2 v}{g} \\Rightarrow \\dot{\\Delta} x=\\frac{4 v^{2}}{g}\r\n\\end{array}\r\n$$"
+  }
+}

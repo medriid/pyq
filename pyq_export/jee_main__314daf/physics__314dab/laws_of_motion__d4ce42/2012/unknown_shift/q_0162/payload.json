@@ -1,0 +1,43 @@
+{
+  "index": 162,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (Offline)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023b36f5a53c6a5d4ce42",
+    "chapter_name": "Laws of Motion",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A particle of mass $\\mathrm{m}$ is at rest at the origin at time $\\mathrm{t}=0$. It is subjected to a force $\\mathrm{F}(\\mathrm{t})=\\mathrm{F}_0 \\mathrm{e}^{-\\mathrm{bt}}$ in the $x$ direction. Its speed $v(t)$ is depicted by which of the following curves?"
+  },
+  "options": [
+    {
+      "text": "\n<img src=\"assets\\ot1_0162_1ed056092211.png\"><br>",
+      "is_correct": false
+    },
+    {
+      "text": "\n<img src=\"assets\\ot2_0162_3d1b07514ed1.png\"><br>",
+      "is_correct": false
+    },
+    {
+      "text": "\n<img src=\"assets\\ot3_0162_d63014562ad6.png\"><br>",
+      "is_correct": true
+    },
+    {
+      "text": "\n<img src=\"assets\\ot4_0162_1fb72c34924a.png\"><br>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\mathrm{F}=\\mathrm{F}_0 \\mathrm{e}^{-\\mathrm{bt}}$\n$\\Rightarrow \\quad \\mathrm{a}=\\frac{\\mathrm{F}}{\\mathrm{m}}=\\frac{\\mathrm{F}_0}{\\mathrm{~m}} \\mathrm{e}^{-\\mathrm{bt}}$ \n$\\Rightarrow \\quad \\frac{\\mathrm{dv}}{\\mathrm{dt}}=\\frac{\\mathrm{F}_0}{\\mathrm{~m}} \\mathrm{e}^{-\\mathrm{bt}}$ \n$\\quad\\int \\mathrm{dv}=\\int_0^{\\mathrm{t}} \\frac{\\mathrm{F}}{\\mathrm{m}} \\mathrm{e}^{-\\mathrm{bt}} \\mathrm{dt}$\n$\\Rightarrow v=\\frac{F}{m}\\left[\\frac{-1}{b}\\right]\\left[e^{-b t}\\right]_0^t$\n$\\Rightarrow \\quad v=\\frac{F}{m b}\\left[e^{-b t}\\right]$\n$v=0 \\text { at } t=0$\nand $\\quad v \\rightarrow \\frac{F}{m b}$ as $t \\rightarrow \\infty$\nSo, velocity increases continuously and attains a maximum value of $v=\\frac{F}{m b}$ as $t \\rightarrow \\infty$."
+  }
+}

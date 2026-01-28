@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a10f23ac7d519f9b101",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c48",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2011-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011 (Paper 1)",
+      "title": "JEE Advanced 2011 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nLet $a$, b and $c$ be three real numbers satisfying $\\left[\\begin{array}{lll}a & b & c\\end{array}\\right]\\left[\\begin{array}{lll}1 & 9 & 7 \\\\ 8 & 2 & 7 \\\\ 7 & 3 & 7\\end{array}\\right]=\\left[\\begin{array}{lll}0 & 0 & 0\\end{array}\\right]$<strong>Question:</strong>\nLet $\\omega$ be a solution of $x^3-1=0$ with $\\operatorname{Im}(\\omega)>0$. If $a=2$, with $b$ and $c$ satisfying Eq. (E), then the value of $\\frac{3}{\\omega^a}+\\frac{1}{\\omega^b}+\\frac{3}{\\omega^c}$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "7aGp2",
+      "text": "\n$-2$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "jSDb2",
+      "text": "\n2\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "QWYaj",
+      "text": "\n3\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Ehq6w",
+      "text": "\n$-3$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\text { Given, }[a b c]_{1 \\times 3}\\left[\\begin{array}{lll}\n1 & 9 & 7 \\\\\n8 & 2 & 7 \\\\\n7 & 3 & 7\n\\end{array}\\right]_{3 \\times 3}=\\left[\\begin{array}{lll}\n0 & 0 & 0\n\\end{array}\\right] \\\\\n& \\Rightarrow \\quad\\left[\\begin{array}{c}\na+8 b+7 c \\\\\n9 a+2 b+3 c \\\\\n7 a+7 b+7 c\n\\end{array}\\right]=\\left[\\begin{array}{l}\n0 \\\\\n0 \\\\\n0\n\\end{array}\\right] \\\\\n& \\Rightarrow \\quad a+8 b+7 c=0 \\\\\n& \\Rightarrow 9 a+2 b+3 c=0 \\\\\n& \\Rightarrow \\quad a+b+c=0 \\\\\n&\n\\end{aligned}\n$$\nOn multiplying Eq. (iii) by 2 , then subtract from Eq. (ii), we get\n$$\n7 a+c=0\n$$\nAgain multiplying Eq. (iii) by 3 , then subtract from Eq. (ii), we get\n$$\n\\begin{array}{ll} \n& 6 a-b=0 \\\\\n\\therefore \\quad & b=6 a \\text { and } c=-7 a\n\\end{array}\n$$\nIf $a=2, b=12$ and $c=-14$\n$$\n\\begin{aligned}\n\\therefore & \\frac{3}{\\omega^a}+\\frac{1}{\\omega^b}+\\frac{3}{\\omega^c} \\\\\n\\Rightarrow & \\frac{3}{\\omega^2}+\\frac{1}{\\omega^{12}}+\\frac{3}{\\omega^{-14}}=\\frac{3}{\\omega^2}+1+3 \\omega^2 \\\\\n& =3 \\omega+1+3 \\omega^2 \\\\\n& =1+3\\left(\\omega+\\omega^2\\right) \\\\\n& =1-3=-2\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c48",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2011-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011 (Paper 1)",
+    "title": "JEE Advanced 2011 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

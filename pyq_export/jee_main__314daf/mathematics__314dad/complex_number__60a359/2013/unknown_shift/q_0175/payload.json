@@ -1,0 +1,43 @@
+{
+  "index": 175,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2013 (23 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602527bd39a958e960a359",
+    "chapter_name": "Complex Number",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $a=\\operatorname{Im}\\left(\\frac{1+z^2}{2 i z}\\right)$, where $z$ is any non-zero complex number. The set $\\mathrm{A}=\\{a:|z|=1$ and $z \\neq \\pm 1\\}$ is equal to:"
+  },
+  "options": [
+    {
+      "text": "\n$(-1,1)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$[-1,1]$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$[0,1)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(-1,0]$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $z=x+i y \\Rightarrow z^2=x^2-y^2+2 i x y$ Now,\n$$\n\\begin{aligned}\n& \\frac{1+z^2}{2 i z}=\\frac{1+x^2-y^2+2 i x y}{2 i(x+i y)}=\\frac{\\left(x^2-y^2+1\\right)+2 i x y}{2 i x-2 y} \\\\\n& =\\frac{\\left(x^2-y^2+1\\right)+2 i x y}{-2 y+2 i x} \\times \\frac{-2 y-2 i x}{-2 y-2 i x} \\\\\n& =\\frac{y\\left(x^2+y^2-1\\right)+x\\left(x^2+y^2+1\\right) i}{2\\left(x^2+y^2\\right)} \\\\\n&\n\\end{aligned}\n$$\n\n$$\na=\\frac{x\\left(x^2+y^2+1\\right)}{2\\left(x^2+y^2\\right)}\n$$\nSince, $|z|=1 \\Rightarrow \\sqrt{x^2+y^2}=1$\n$$\n\\begin{aligned}\n& \\Rightarrow x^2+y^2=1 \\\\\n& \\therefore a=\\frac{x(1+1)}{2 \\times 1}=x \\\\\n& \\text { Also } z \\neq 1 \\Rightarrow x+i y \\neq 1 \\\\\n& \\therefore \\mathrm{A}=(-1,1)\n\\end{aligned}\n$$"
+  }
+}

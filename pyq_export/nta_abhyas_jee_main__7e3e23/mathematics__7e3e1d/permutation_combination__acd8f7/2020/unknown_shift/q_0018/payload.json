@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252bf7c1fee30bacd8f7",
+    "chapter_name": "Permutation Combination",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of ways in which letters of the word ‘ARRANGE’ can be arranged, such that no two R’s are together, is"
+  },
+  "options": [
+    {
+      "text": "<math><mn>160</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>200</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>360</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>900</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "AANGE can be arranged in <math><mfrac><mrow><mn>5</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>60</mn></math> ways<br />Six gaps will be created, two can be selected in <math><mmultiscripts><mrow><msub><mrow><mi mathvariant=\"normal\">C</mi></mrow><mrow><mn>2</mn></mrow></msub></mrow><mprescripts></mprescripts><mrow><mi mathvariant=\"normal\"></mi></mrow><mrow><mn>6</mn></mrow></mmultiscripts></math> ways where two R’s can be arranged in one way<br />So, required number of ways<br /><math><mo>=</mo><mfrac><mrow><mn>6</mn><mo>×</mo><mn>5</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>×</mo><mn>60</mn><mo>=</mo><mn>15</mn><mo>×</mo><mn>60</mn><mo>=</mo><mn>900</mn></math>"
+  }
+}

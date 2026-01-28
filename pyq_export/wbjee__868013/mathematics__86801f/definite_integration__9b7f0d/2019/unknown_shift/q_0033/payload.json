@@ -1,0 +1,44 @@
+{
+  "index": 33,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $I_{n}=\\int_{0}^{1} x^{n} \\tan ^{-1} x d x .$ If $a_{n} I_{n+2}+b_{n} I_{n}=c_{n}$ for all $n \\geq 1,$ then"
+  },
+  "options": [
+    {
+      "text": "$a_{1}, a_{2}, a_{3}$ are in GP",
+      "is_correct": false
+    },
+    {
+      "text": "$b_{1}, b_{2}, b_{3}$ are in AP",
+      "is_correct": true
+    },
+    {
+      "text": "$c_{1}, c_{2}, c_{3}$ are in HP",
+      "is_correct": false
+    },
+    {
+      "text": "$a_{1}, a_{2}, a_{3}$ are in $A P$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "D"
+  ],
+  "solution": {
+    "text": "We have,\r\n$I_{n}=\\int_{0}^{1} x^{n} \\tan ^{-1} x d x$\r\n$=\\left[\\tan ^{-1} x \\cdot \\frac{x^{n+1}}{n+1}\\right]_{0}^{1}-\\int_{0}^{1} \\frac{x^{n+1}}{n+1} \\cdot \\frac{1}{1+x^{2}} d x$\r\n$=\\frac{\\pi}{4(n+1)}-\\frac{1}{n+1} \\int_{0}^{1} \\frac{x^{2} \\cdot x^{n-1}}{1+x^{2}} d x$\r\n$=\\frac{\\pi}{4(n+1)}-\\frac{1}{n+1} \\int_{0}^{1} \\frac{\\left(1+x^{2}\\right) x^{n-1}-x^{n-1}}{1+x^{2}} d x$\r\n$=\\frac{\\pi}{4(n+1)}-\\frac{1}{n+1} \\int_{0}^{1} x^{n-1} d x+\\frac{1}{n+1} \\int_{0}^{1} \\frac{x^{n-1}}{1+x^{2}} d x$\r\n$=\\frac{\\pi}{4(n+1)}-\\frac{1}{n+1}\\left[\\frac{x^{n}}{n}\\right]_{0}^{1}+\\frac{1}{n+1}$\r\n$\\left[x^{n-1} \\cdot \\tan ^{-1} x\\right]_{0}^{1}-\\int_{0}^{1} \\tan ^{-1} x \\cdot(n-1) x^{n-2} d x$\r\n$\\begin{aligned}=\\frac{\\pi}{4(n+1)}-\\frac{1}{n(n+1)}+\\frac{\\pi}{4(n+1)}-\\frac{n-1}{n+1} & \\int_{0}^{1} x^{n-2} \\tan ^{-1} x d x \\end{aligned}$\r\n$\\Rightarrow \\quad I_{n}=\\frac{\\pi}{2(n+1)}-\\frac{1}{n(n+1)}-\\frac{n-1}{n+2} I_{n-2}$\r\n$\\Rightarrow \\quad I_{n}+\\frac{n-1}{n+2} I_{n-2}=\\frac{\\pi}{2(n+1)}-\\frac{1}{n(n+1)}$\r\nPut $n=n+2,$ we get $I_{n+2}+\\frac{n+1}{n+3} I_{n}=\\frac{\\pi}{2(n+3)}-\\frac{1}{(n+2)(n+3)}$\r\n$\\Rightarrow(n+3) I_{n+2}+(n+1) I_{n}=\\frac{\\pi}{2}-\\frac{1}{n+2}$\r\n$\\therefore a_{n}=n+3, b_{n}=n+1, c_{n}=\\frac{\\pi}{2}-\\frac{1}{n+2}$\r\n$\\therefore a_{n}$ and $b_{n}$ are in $\\mathrm{AP}$."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 110,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255203495ecd9ed50cd3",
+    "chapter_name": "Determinants",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider three square matrices <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>,</mo><mo>&#160;</mo><mi>B</mi></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> of order <math><mn>3</mn></math> such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>A</mi><mi>T</mi></msup><mo>=</mo><mi>A</mi><mo>-</mo><mn>2</mn><mi>B</mi></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>B</mi><mi>T</mi></msup><mo>=</mo><mi>B</mi><mo>-</mo><mn>4</mn><mi>C</mi></math>, then the incorrect option is"
+  },
+  "options": [
+    {
+      "text": "<math><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mi>A</mi></mrow></mfenced><mo>=</mo><mn>0</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mi>B</mi></mrow></mfenced><mo>=</mo><mn>0</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mi>C</mi></mrow></mfenced><mo>=</mo><mn>0</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>B</mi><mo>=</mo><mn>2</mn><mi>C</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>A</mi><mi>T</mi></msup><mo>=</mo><mi>A</mi><mo>-</mo><mn>2</mn><mi>B</mi><mo>&#8658;</mo><mn>2</mn><mi>B</mi><mo>=</mo><mi>A</mi><mo>-</mo><msup><mi>A</mi><mi>T</mi></msup></math>&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>B</mi></math> is a skew symmetric matrix of order <math><mn>3</mn><mo>&#8658;</mo><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mi>B</mi></mrow></mfenced><mo>=</mo><mn>0</mn></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>B</mi><mi>T</mi></msup><mo>=</mo><mi>B</mi><mo>-</mo><mn>4</mn><mi>C</mi><mo>&#8658;</mo><mn>4</mn><mi>C</mi><mo>=</mo><mi>B</mi><mo>-</mo><msup><mi>B</mi><mi>T</mi></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>C</mi></math> is a skew symmetric matrix of order <math><mn>3</mn><mi></mi><mo>&#8658;</mo><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mi>C</mi></mrow></mfenced><mo>=</mo><mn>0</mn></math><br />Taking transpose of first equation<br /><math><msup><mrow><mfenced separators=\"|\"><mrow><msup><mrow><mi>A</mi></mrow><mrow><mi>T</mi></mrow></msup></mrow></mfenced></mrow><mrow><mi>T</mi></mrow></msup><mo>=</mo><msup><mrow><mfenced separators=\"|\"><mrow><mi>A</mi><mo>-</mo><mn>2</mn><mi>B</mi></mrow></mfenced></mrow><mrow><mi>T</mi></mrow></msup><mo>&#8658;</mo><mi>A</mi><mo>=</mo><msup><mrow><mi>A</mi></mrow><mrow><mi>T</mi></mrow></msup><mo>-</mo><mn>2</mn><msup><mrow><mi>B</mi></mrow><mrow><mi>T</mi></mrow></msup></math><br /><math><mo>&#8658;</mo><mi>A</mi><mo>=</mo><mi>A</mi><mo>-</mo><mn>2</mn><mi>B</mi><mo>-</mo><mn>2</mn><mi>B</mi><mo>+</mo><mn>8</mn><mi>C</mi></math><br /><math><mo>&#8658;</mo><mi>B</mi><mo>=</mo><mn>2</mn><mi>C</mi></math></p>"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 35,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2009 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256c7b3a9c1d0763b3a5",
+    "chapter_name": "Vector Algebra",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ and $\\mathbf{d}$ are the unit vectors such that $(\\mathbf{a} \\times \\mathbf{b}) \\cdot(\\mathbf{c} \\times \\mathbf{d})=1$ and $\\mathbf{a} \\cdot \\mathbf{c}=\\frac{1}{2}$, then"
+  },
+  "options": [
+    {
+      "text": "\n$\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ are non-coplanar\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathbf{b}, \\mathbf{d}$ are non-parallel\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathbf{a}, \\mathbf{b}, \\mathbf{d}$ are non-coplanar\n",
+      "is_correct": true
+    },
+    {
+      "text": "\na, d are parallel and $\\mathbf{b}, \\mathbf{c}$ are parallel",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let angle between $\\mathbf{a}$ and $\\mathbf{b}$ be $\\theta_1, \\mathbf{c}$ and $\\mathbf{d}$ be $\\theta_2$ and $\\mathbf{a} \\times \\mathbf{b}$ and $\\mathbf{c} \\times \\mathbf{d}$ be $\\theta$.\nSince, $(\\mathbf{a} \\times \\mathbf{b}) \\cdot(\\mathbf{c} \\times \\mathbf{d})=1$\n$\\Rightarrow \\quad \\sin \\theta_1 \\cdot \\sin \\theta_2 \\cdot \\cos \\theta=1$\n$\\Rightarrow \\theta_1=90^{\\circ}, \\theta_2=90^{\\circ}, \\theta=0^{\\circ}$\n$\\Rightarrow \\mathbf{a} \\perp \\mathbf{b}, \\mathbf{c} \\perp \\mathbf{d},(\\mathbf{a} \\times \\mathbf{b}) \\|(\\mathbf{c} \\times \\mathbf{d})$\nSo, $\\mathbf{a} \\times \\mathbf{b}=k(\\mathbf{c} \\times \\mathbf{d})$\nand $\\mathbf{a} \\times \\mathbf{b}=k(\\mathbf{c} \\times \\mathbf{d})$\n$\\Rightarrow \\quad(\\mathbf{a} \\times \\mathbf{b}) \\cdot \\mathbf{c}=k(\\mathbf{c} \\times \\mathbf{d}) \\cdot \\mathbf{c}$\nand $(\\mathbf{a} \\times \\mathbf{b}) \\cdot \\mathbf{d}=k(\\mathbf{c} \\times \\mathbf{d}) \\cdot \\mathbf{d}$\n$\\Rightarrow\\left[\\begin{array}{lll}\\mathbf{a} & \\mathbf{b} & \\mathbf{c}\\end{array}\\right]=0$ and $\\left[\\begin{array}{lll}\\mathbf{a} & \\mathbf{b} & \\mathbf{d}\\end{array}\\right]=0$\n\n$\\Rightarrow \\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ and $\\mathbf{a}, \\mathbf{b}, \\mathbf{d}$ are coplanar vectors, so options (a) and (b) are incorrect.\nLet $\\quad \\mathbf{b} \\| \\mathbf{d} \\Rightarrow \\mathbf{b}=\\pm \\mathbf{d}$\nAs $\\quad(\\mathbf{a} \\times \\mathbf{b}) \\cdot(\\mathbf{c} \\times \\mathbf{d})=1$\n$(\\mathbf{a} \\times \\mathbf{b}) \\cdot(\\mathbf{c} \\times \\mathbf{b})=\\pm 1$\n$\\Rightarrow \\quad[\\mathbf{a} \\times \\mathbf{b} \\mathbf{c} \\mathbf{b}]=\\pm 1$\n$\\Rightarrow \\quad[\\mathbf{c} \\mathbf{b} \\mathbf{a} \\times \\mathbf{b}]=\\pm 1$\n$\\Rightarrow \\quad \\mathbf{c} \\cdot[\\mathbf{b} \\times(\\mathbf{a} \\times \\mathbf{b})]=\\pm 1$\n$\\Rightarrow \\quad \\mathbf{c} \\cdot[\\mathbf{a}-(\\mathbf{b} \\cdot \\mathbf{a}) \\mathbf{b}]=\\pm 1$\n$\\Rightarrow \\quad \\mathbf{c} \\cdot \\mathbf{a}=\\pm 1 \\quad[\\because \\mathbf{a} \\cdot \\mathbf{b}=0]$\nwhich is a contradiction, so option (c) is correct.\n<img src=\"assets\\st0035_f907236efe78.png\"><br>\nLet option (d) be correct.\n$$\n\\begin{array}{ll}\n\\Rightarrow & \\mathbf{d}=\\pm \\mathbf{a} \\text { and } \\mathbf{c}=\\pm \\mathbf{b} \\\\\n\\text { As } & (\\mathbf{a} \\times \\mathbf{b}) \\cdot(\\mathbf{c} \\times \\mathbf{d})=1 \\\\\n\\Rightarrow & (\\mathbf{a} \\times \\mathbf{b}) \\cdot(\\mathbf{b} \\times \\mathbf{a})=\\pm 1\n\\end{array}\n$$\nwhich is a contradiction, so option (d) is incorrect.\nAlternatively option (c) and (d) may be observed from the given figure."
+  }
+}

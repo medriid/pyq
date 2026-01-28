@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2025 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "6160242fab7a61dc9f1caa79",
+    "chapter_name": "Alternating Current",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A circuit with an electrical load having impedance $Z$ is connected with an AC source as shown in the diagram. The source voltage varies in time as $V(t)=300 \\sin (400 t) \\mathrm{V}$, where $t$ is time in s. List-I shows various options for the load. The possible currents $i(t)$ in the circuit as a function of time are given in List-II.<br><img src=\"assets\\qt0000_4e3b825dd2bf.png\"><br>Choose the option that describes the correct match between the entries in List-I to those in List-II. <table> <thead> <tr> <th> </th> <th>List-I </th> <th> </th> <th>List-II </th> </tr> </thead> <tbody> <tr> <td>$(P)$ </td> <td><img src=\"assets\\qt0000_ac158bd6bc31.png\"><br> </td> <td>$(1)$ </td> <td><img src=\"assets\\qt0000_7b8031859384.png\"><br> </td> </tr> <tr> <td>$(Q)$ </td> <td><img src=\"assets\\qt0000_3d91414c8e3c.png\"><br> </td> <td>$(2)$ </td> <td><img src=\"assets\\qt0000_78084087c98f.png\"><br> </td> </tr> <tr> <td>$(R)$ </td> <td><img src=\"assets\\qt0000_cb97f3323b81.png\"><br> </td> <td>$(3)$ </td> <td><img src=\"assets\\qt0000_f46c5caef254.png\"><br> </td> </tr> <tr> <td>$(S)$ </td> <td><img src=\"assets\\qt0000_17487bcece28.png\"><br> </td> <td>$(4)$ </td> <td><img src=\"assets\\qt0000_503ef8a7ebc1.png\"><br> </td> </tr> <tr> <td> </td> <td> </td> <td>$(5)$ </td> <td><img src=\"assets\\qt0000_b01a7a4d86e2.png\"><br> </td> </tr> </tbody> </table>"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{P} \\rightarrow 3, \\mathrm{Q} \\rightarrow 5, \\mathrm{R} \\rightarrow 2, \\mathrm{~S} \\rightarrow 1$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{P} \\rightarrow 1, \\mathrm{Q} \\rightarrow 5, \\mathrm{R} \\rightarrow 2, \\mathrm{~S} \\rightarrow 3$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{P} \\rightarrow 3, \\mathrm{Q} \\rightarrow 4, \\mathrm{R} \\rightarrow 2, \\mathrm{~S} \\rightarrow 1$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{P} \\rightarrow 1, \\mathrm{Q} \\rightarrow 4, \\mathrm{R} \\rightarrow 2, \\mathrm{~S} \\rightarrow 5$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "For P\n$i=\\frac{V}{R}=10 \\sin 400 t \\Rightarrow(3)$\nFor Q\n$\\begin{aligned} & X_L=\\omega L=400 \\times 100 \\times 10^{-3}=40 \\Omega \\\\ & \\therefore Z=50 \\Omega \\\\ & \\left.\\therefore i=\\frac{300}{50} \\sin \\left(400 t-53^{\\circ}\\right) \\text { [current will lag by } \\tan ^{-1} \\frac{X_L}{R}\\right] \\Rightarrow(5)\\end{aligned}$\nFor R\n$\\begin{aligned} & \\mathrm{X}_{\\mathrm{C}}=\\frac{10^6}{400 \\times 50} \\Omega=50 \\Omega \\text { and } \\mathrm{X}_{\\mathrm{L}}=400 \\times 25 \\times 10^{-3}=10 \\Omega \\\\ & \\therefore \\mathrm{Z}=50 \\Omega \\\\ & \\therefore \\mathrm{i}=\\frac{300}{50} \\sin \\left(400 \\mathrm{t}+53^{\\circ}\\right) \\quad\\left[\\text { Current will lead by } \\tan ^{-1} \\frac{\\mathrm{X}_{\\mathrm{C}}-\\mathrm{X}_{\\mathrm{L}}}{\\mathrm{R}}\\right] \\Rightarrow(2)\\end{aligned}$\nFor $S$\n$\\therefore \\mathrm{i}=\\frac{300}{60} \\sin (400 \\mathrm{t}) \\quad \\mathrm{X}_{\\mathrm{L}}=\\mathrm{X}_{\\mathrm{C}} \\Rightarrow$ Resonance $\\Rightarrow(1)$"
+  }
+}

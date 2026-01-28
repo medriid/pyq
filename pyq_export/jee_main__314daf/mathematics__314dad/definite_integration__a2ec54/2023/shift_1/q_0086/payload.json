@@ -1,0 +1,43 @@
+{
+  "index": 86,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2023 (29 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2023",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let [x]&nbsp;denote the greatest integer <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8804;</mo><mi mathvariant=\"normal\">x</mi></math>. Consider the function <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi mathvariant=\"normal\">x</mi><mo>)</mo><mo>=</mo><mi>max</mi><mfenced open=\"{\" close=\"}\"><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>,</mo><mn>1</mn><mo>+</mo><mo>[</mo><mi>x</mi><mo>]</mo></mrow></mfenced></math>. Then the value of the integral <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mo>&#8747;</mo><mn>0</mn><mn>2</mn></msubsup><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi></math> is :"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>+</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow><mn>3</mn></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>+</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow><mn>3</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>+</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow><mn>3</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>+</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow><mn>3</mn></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p>Plotting the diagram of the given function&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi mathvariant=\"normal\">x</mi><mo>)</mo><mo>=</mo><mi>max</mi><mfenced close=\"}\" open=\"{\"><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>,</mo><mn>1</mn><mo>+</mo><mo>[</mo><mi>x</mi><mo>]</mo></mrow></mfenced></math>&nbsp;we get,</p><p><img alt=\"\" src=\"assets\\st0086_cecfc801baee.png\" style=\"width: 400px; height: 277px;\" /></p><p>Now when&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&#8712;</mo><mo>[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>&#8658;</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mn>1</mn></math></p><p>When&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&#8712;</mo><mo>[</mo><mn>1</mn><mo>,</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>&#8658;</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mn>2</mn></math></p><p>And when&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&#8712;</mo><mfenced close=\"]\" open=\"[\"><mrow><msqrt><mn>2</mn></msqrt><mo>,</mo><mn>2</mn></mrow></mfenced><mo>&#8658;</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></math></p><p>So, from above diagram area can be calculated as,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><mn>1</mn><mo>.</mo><mi>d</mi><mi>x</mi><mo>+</mo><msubsup><mo>&#8747;</mo><mn>1</mn><msqrt><mn>2</mn></msqrt></msubsup><mn>2</mn><mi>d</mi><mi>x</mi><mo>+</mo><msubsup><mo>&#8747;</mo><msqrt><mn>2</mn></msqrt><mn>2</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>A</mi><mo>=</mo><mn>1</mn><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>-</mo><mn>2</mn><mo>+</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>-</mo><mfrac><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow><mn>3</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>A</mi><mo>=</mo><mfrac><mn>5</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mrow><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow><mn>3</mn></mfrac></math></p>"
+  }
+}

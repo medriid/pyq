@@ -1,0 +1,44 @@
+{
+  "index": 19,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964cc594defad39e8768ec",
+    "chapter_name": "Quadratic Equation",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the equation $x^{2}-ca+d=0$ has roots equal to the fourth powers of the roots of $x^{2}+a x+b=0,$ where $a^{2}>4 b,$ then the roots of $x^{2}-4 b x+2 b^{2}-c=0$ will be"
+  },
+  "options": [
+    {
+      "text": "both real",
+      "is_correct": true
+    },
+    {
+      "text": "both negative",
+      "is_correct": false
+    },
+    {
+      "text": "both positive",
+      "is_correct": false
+    },
+    {
+      "text": "one positive and one negative",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "D"
+  ],
+  "solution": {
+    "text": "Let $\\alpha$ and $\\beta$ are the roots of $x^{2}+a x+b=0$ and the roots of $x^{2}-cx+d=0$ are $\\alpha^{4}$ and $\\beta^{4}$\r\nNow, $\\alpha+\\beta=-a, \\alpha \\beta=b$ ...(i)\r\nand $\\alpha^{4}+\\beta^{4}-c, \\alpha^{4} \\beta^{4}=d$ ...(ii)\r\nFrom Eqs. (i) and (ii),\r\n$b^{4}=d$ and $\\alpha^{4}+\\beta^{4}=c$\r\n$\\left(\\alpha^{2}+\\beta^{2}\\right)^{2}-2(\\alpha \\beta)^{2}=c$\r\n$\\left.\\Rightarrow \\quad\\left[(\\alpha+\\beta)^{2}-2 \\alpha \\beta\\right]^{2}-2 (\\alpha\\beta\\right)^{2}=c$\r\n$\\Rightarrow \\quad\\left(a^{2}-2 b\\right)^{2}-2 b^{2}=c$\r\n$\\Rightarrow \\quad 2 b^{2}+c=\\left(a^{2}-2 b\\right)^{2}$\r\n$\\Rightarrow \\quad 2 b^{2}+c=a^{4}+4 b^{2}-4 a^{2} b$\r\n$\\Rightarrow \\quad 2 b^{2}-c=4 a^{2} b-a^{4}$\r\n$\\Rightarrow \\quad 2 b^{2}-c=a^{2}\\left(4 b-a^{2}\\right)$\r\nand for equation $x^{2}-4 b x+2 b^{2}-c=0$\r\n$$\r\nD=(4 b)^{2}-4(1)\\left(2 b^{2}-c\\right)\r\n$$\r\n$=16 b^{2}-8 b^{2}+4 c=8 b^{2}+4 c$\r\n$=4\\left(2 b^{2}+c\\right)=4\\left(a^{2}-2 b\\right)^{2}>0=$ real root\r\nNow, $f(0)=2 b^{2}-c=a^{2}\\left(4 b-a^{2}\\right)    < 0 \\quad\\left(\\because a^{2}>4 b\\right)$\r\n= roots are opposite in sign"
+  }
+}

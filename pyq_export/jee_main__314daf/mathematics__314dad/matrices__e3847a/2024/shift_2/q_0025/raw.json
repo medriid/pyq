@@ -1,0 +1,83 @@
+{
+  "_id": "66446739970e6e9ab542d15c",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda6d",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-06T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (06 Apr Shift 2)",
+      "title": "JEE Main 2024 (06 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If $A$ is a square matrix of order 3 such that $\\operatorname{det}(A)=3$ and $\\operatorname{det}\\left(\\operatorname{adj}\\left(-4 \\operatorname{adj}\\left(-3 \\operatorname{adj}\\left(3 \\operatorname{adj}\\left((2 \\mathrm{~A})^{-1}\\right)\\right)\\right)\\right)\\right)=2^{\\mathrm{m}} 3^{\\mathrm{n}}$, then $\\mathrm{m}+2 \\mathrm{n}$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Mv3zr",
+      "text": "2",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "LTsyP",
+      "text": "3",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "KAJkG",
+      "text": "6",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "P7auZ",
+      "text": "4",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & |\\mathrm{A}|=3 \\\\ & \\mid \\operatorname{adj}\\left(-4 \\operatorname{adj}\\left(-3 \\operatorname{adj}\\left(3 \\operatorname{adj}\\left((2 \\mathrm{~A})^{-1}\\right)\\right)\\right) \\mid\\right. \\\\ & \\mid-4 \\operatorname{adj}\\left(-\\left.3 \\operatorname{adj}\\left(3 \\operatorname{adj}(2 \\mathrm{~A})^{-1}\\right)\\right|^2\\right. \\\\ & 4^6\\left|\\operatorname{adj}\\left(-3 \\operatorname{adj}\\left(3 \\operatorname{adj}(2 \\mathrm{~A})^{-1}\\right)\\right)\\right|^2 \\\\ & 2^{12} \\cdot 3^{12}\\left|3 \\operatorname{adj}(2 \\mathrm{~A})^{-1}\\right|^8 \\\\ & 2^{12} \\cdot 3^{12} \\cdot 3^{24}\\left|\\operatorname{adj}(2 \\mathrm{~A})^{-1}\\right|^8\\end{aligned}$\n$\\begin{aligned} & 2^{12} \\cdot 3^{36}\\left|(2 \\mathrm{~A})^{-1}\\right|^{16} \\\\ & 2^{12} \\cdot 3^{36} \\frac{1}{|2 \\mathrm{~A}|^{16}} \\\\ & 2^{12} \\cdot 3^{36} \\frac{1}{2^{48}|\\mathrm{~A}|^{16}} \\\\ & 2^{12} \\cdot 3^{36} \\frac{1}{2^{48} \\cdot 3^{16}} \\\\ & \\frac{3^{20}}{2^{36}}=2^{-36} \\cdot 3^{20} \\\\ & \\mathrm{~m}=-36 \\quad \\mathrm{n}=20 \\\\ & \\mathrm{~m}+2 \\mathrm{n}=4\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "a0121d8d8d3d4fab84a2efdd48f107bd",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/xTV8H8HUvO83x.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/xTV8H8HUvO83x.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda6d",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-06T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (06 Apr Shift 2)",
+    "title": "JEE Main 2024 (06 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 36,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2009",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $y=\\tan ^{-1} \\sqrt{\\frac{1-\\sin x}{1+\\sin x}}$, then the value of $\\frac{d y}{d x}$ at $x=\\frac{\\pi}{6}$ is"
+  },
+  "options": [
+    {
+      "text": "$-\\frac{1}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "-1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\text { Hints : } \\begin{aligned}\n& y=\\tan ^{-1} \\sqrt{\\frac{1-\\cos \\left(\\frac{\\pi}{2}-x\\right)}{1+\\cos \\left(\\frac{\\pi}{2}-x\\right)}} \\\\\n& =\\tan ^{-1} \\sqrt{\\frac{2 \\sin ^2\\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)}{2 \\cos ^2\\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)}}=\\tan ^{-1}\\left|\\tan \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)\\right|=\\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right) \\\\\n& \\frac{d y}{d x}=-\\frac{1}{2}\n\\end{aligned}\n$$"
+  }
+}

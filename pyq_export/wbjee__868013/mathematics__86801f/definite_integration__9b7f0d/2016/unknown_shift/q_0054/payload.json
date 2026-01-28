@@ -1,0 +1,43 @@
+{
+  "index": 54,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2016",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d1ab049a016169b7f0d",
+    "chapter_name": "Definite Integration",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $\\lim _{n \\rightarrow \\infty}\\left\\{\\frac{\\sqrt{n+1}+\\sqrt{n+2}+\\ldots+\\sqrt{2 n-1}}{n^{3 / 2}}\\right\\}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{2}{3}(2 \\sqrt{2}-1)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{2}{3}(\\sqrt{2}-1)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2}{3}(\\sqrt{2}+1)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2}{3}(2 \\sqrt{2}+1)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\because \\lim _{n \\rightarrow \\infty \\left[\\frac{\\sqrt{n+1}+\\sqrt{n+2}+\\ldots+\\sqrt{2 n-1}}{n^{\\frac{3}{2}}}\\right]}$\r\n$=\\lim _{n \\rightarrow \\infty 1}\\left[\\sqrt{1+\\frac{1}{n}}+\\sqrt{1+\\frac{2}{n}}+\\ldots+\\sqrt{1+\\frac{n-1}{n}}\\right] \\frac{1}{n}$\r\n$=\\lim _{n \\rightarrow \\infty 1} \\sum_{r=1}^{n-1} \\frac{1}{n} \\sqrt{1+\\frac{r}{n}}$\r\n$=\\int_{0}^{1} \\sqrt{1+x} d x=\\left[\\frac{2}{3}(1+x)^{3 / 2}\\right]_{0}^{1}=\\frac{2}{3}(2 \\sqrt{2}-1)$"
+  }
+}

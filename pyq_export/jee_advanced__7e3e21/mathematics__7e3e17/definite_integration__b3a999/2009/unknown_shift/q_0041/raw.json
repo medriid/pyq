@@ -1,0 +1,38 @@
+{
+  "_id": "64b169f9f23ac7d519f9b030",
+  "type": "numerical",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c45",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2009-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009 (Paper 2)",
+      "title": "JEE Advanced 2009 (Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $f: R \\rightarrow R$ be a continuous function, which satisfies $f(x)=\\int_0^x f(t) d t$. Then, the value of $f(\\ln 5)$ is",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "0",
+  "solution": {
+    "text": "From given integral equation, $f(0)=0$. Also, differentiating the given integral equation w.r.t. $x$, we get\n$$\n\\begin{gathered}\nf^{\\prime}(x)=f(x) \\\\\n\\text { If } \\quad f(x) \\neq 0 \\Rightarrow \\frac{f^{\\prime}(x)}{f(x)}=1 \\\\\n\\Rightarrow \\quad \\log f(x)=x+C \\Rightarrow f(x)=e^C e^x \\\\\n\\because f(0)=0 \\Rightarrow e^C=0, \\text { a contradiction } \\\\\n\\therefore f(x)=0, \\forall x \\in R \\Rightarrow f(\\ln 5)=0\n\\end{gathered}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c45",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2009-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009 (Paper 2)",
+    "title": "JEE Advanced 2009 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

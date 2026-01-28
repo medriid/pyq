@@ -1,0 +1,58 @@
+{
+  "_id": "67a2eed5c8b73881fdaea34b",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d97611",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-29T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (29 Jan Shift 2)",
+      "title": "JEE Main 2025 (29 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let integers $\\mathrm{a}, \\mathrm{b} \\in[-3,3]$ be such that $\\mathrm{a}+\\mathrm{b} \\neq 0$. Then the number of all possible ordered pairs\n(a, b), for which $\\left|\\frac{z-\\mathrm{a}}{z+\\mathrm{b}}\\right|=1$ and $\\left|\\begin{array}{ccc}z+1 & \\omega & \\omega^2 \\\\ \\omega & z+\\omega^2 & 1 \\\\ \\omega^2 & 1 & z+\\omega\\end{array}\\right|=1, z \\in \\mathrm{C}$, where $\\omega$ and $\\omega^2$ are the roots of $x^2+x+1=0$, is equal to ________.",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "10",
+  "solution": {
+    "text": "$\\begin{aligned} & a, b \\in I,-3 \\leq a, b \\leq 3, a+b \\neq 0 \\\\ & |z-a|=|z+b| \\\\ & \\left|\\begin{array}{ccc}z+1 & \\omega & \\omega^2 \\\\ \\omega & z+\\omega^2 & 1 \\\\ \\omega^2 & 1 & z+\\omega\\end{array}\\right|=1 \\\\ & \\Rightarrow\\left|\\begin{array}{ccc}z & z & z \\\\ \\omega & z+\\omega^2 & 1 \\\\ \\omega^2 & 1 & z+\\omega\\end{array}\\right|=1\\end{aligned}$\n\n\n$\\begin{aligned} & \\Rightarrow z\\left|\\begin{array}{ccc}1 & 1 & 1 \\\\ \\omega & z+\\omega^2 & 1 \\\\ \\omega^2 & 1 & z+\\omega\\end{array}\\right|=1 \\\\ & \\Rightarrow z\\left|\\begin{array}{ccc}1 & 0 & 0 \\\\ \\omega & z+\\omega^2-\\omega & 1-\\omega \\\\ \\omega^2 & 1-\\omega^2 & z+\\omega-\\omega^2\\end{array}\\right|=1 \\\\ & \\Rightarrow z^3=1 \\\\ & \\Rightarrow z=\\omega, \\omega^2, 1\\end{aligned}$\n\n\nNow\n$\\begin{aligned}\n& |1-\\mathrm{a}|=|1+\\mathrm{b}| \\\\\n& \\Rightarrow 10 \\text { pairs }\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "276b6a2c6cd044b1837706ea2ded5dc9",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/IJK9RIWzMcNQu.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/IJK9RIWzMcNQu.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d97611",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-29T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (29 Jan Shift 2)",
+    "title": "JEE Main 2025 (29 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

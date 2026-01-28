@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2013 (22 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254b6c200152465d55e0",
+    "chapter_name": "Properties of Triangles",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If two vertices of an equilateral triangle are $\\mathrm{A}(-a, 0)$ and $B(a, 0), a>0$, and the third vertex C lies above $x$-axis then the equation of the circumcircle of $\\triangle \\mathrm{ABC}$ is :"
+  },
+  "options": [
+    {
+      "text": "\n$3 x^2+3 y^2-2 \\sqrt{3} a y=3 a^2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$3 x^2+3 y^2-2 a y=3 a^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x^2+y^2-2 a y=a^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x^2+y^2-\\sqrt{3} a y=a^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $\\mathrm{C}=(x, y)$\nNow, $\\mathrm{CA}^2=\\mathrm{CB}^2=\\mathrm{AB}^2$\n$$\n\\begin{aligned}\n& \\Rightarrow(x+a)^2+y^2=(x-a)^2+y^2=(2 a)^2 \\\\\n& \\Rightarrow x^2+2 a x+a^2+y^2=4 a^2 \\\\\n& \\text { and } x^2-2 a x+a^2+y^2=4 a^2\n\\end{aligned}\n$$\nFrom (i) and (ii), $x=0$ and $y=\\pm \\sqrt{3} a$\nSince point $\\mathrm{C}(x, y)$ lies above the $x$-axis and $a>0$, hence $y=\\sqrt{3} a$\n$$\n\\therefore \\quad \\mathrm{C}=(0, \\sqrt{3} a)\n$$\nLet the equation of circumcircle be\n$$\nx^2+y^2+2 g x+2 f y+\\mathrm{C}=0\n$$\nSince points A( $-a, 0), \\mathrm{B}(a, 0)$ and $\\mathrm{C}(0, \\sqrt{3} a)$ lie on the circle, therefore\n$$\n\\begin{aligned}\n& a^2-2 g a+\\mathrm{C}=0 \\\\\n& a^2+2 g a+\\mathrm{C}=0\n\\end{aligned}\n$$\nand $3 a^2+2 \\sqrt{3} a f+\\mathrm{C}=0$\nFrom (iii), (iv), and (v)\n$$\ng=0, c=-a^2, f=-\\frac{a}{\\sqrt{3}}\n$$\nHence equation of the circumcircle is\n$$\n\\begin{aligned}\n& x^2+y^2-\\frac{2 a}{\\sqrt{3}} y-a^2=0 \\\\\n& \\Rightarrow x^2+y^2-\\frac{2 \\sqrt{3} a y}{3}-a^2=0 \\\\\n& \\Rightarrow 3 x^2+3 y^2-2 \\sqrt{3} a y=3 a^2\n\\end{aligned}\n$$"
+  }
+}

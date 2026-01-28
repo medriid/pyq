@@ -1,0 +1,43 @@
+{
+  "index": 31,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0f42b7a9706676933c",
+    "chapter_name": "Functions",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f: R \\rightarrow R$ be defined by $f(x)=x^{2}-\\frac{x^{2}}{1+x^{2}}$ for all $x \\in R$. Then,"
+  },
+  "options": [
+    {
+      "text": "$f$ is one-one but not onto mapping",
+      "is_correct": false
+    },
+    {
+      "text": "$f$ is onto but not one-one mapping",
+      "is_correct": false
+    },
+    {
+      "text": "$f$ is both one-one and onto",
+      "is_correct": false
+    },
+    {
+      "text": "$f$ is neither one-one nor onto",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "We have,\r\n$$\r\n\\begin{aligned}\r\nf(x) &=x^{2}-\\frac{x^{2}}{1+x^{2}} \\\\\r\nf(-x) &=(-x)^{2}-\\frac{(-x)^{2}}{1+(-x)^{2}} \\\\\r\n&=x^{2}-\\frac{x^{2}}{1+x^{2}}=f(x) \\\\\r\n\\therefore f(-x)=f(x) &\r\n\\end{aligned}\r\n$$\r\nSo, $f(x)$ is many one Again, $f(x)=x^{2}-\\frac{x^{2}}{1+x^{2}}$\r\n$$\r\n=\\frac{x^{2}+x^{4}-x^{2}}{1+x^{2}}=\\frac{x^{4}}{1+x^{2}}\r\n$$\r\n$\\therefore$ Range of $f(x)$ will be $[0, \\infty)$ But, co-domain of $f(x)=R$\r\n$\\therefore$ Range $\\neq$ co-domain. So, $f(x)$ is onto."
+  }
+}

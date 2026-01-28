@@ -1,0 +1,63 @@
+{
+  "_id": "64a813fce0ff5a5425a85766",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "If the coefficient of $x^{8}$ in $\\left(a x^{2}+\\frac{1}{b x}\\right)^{13}$ is equal to the coefficient of $x^{-8}$ in $\\left(a x-\\frac{1}{b x^{2}}\\right)^{13},$ then $a$ and $b$ will satisfy the relation",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "tKfq8",
+      "text": "$a b+1=0$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "fenmK",
+      "text": "$a b=1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "9aGo6",
+      "text": "$a=1-b$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "LzSmf",
+      "text": "$a+b=-1$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "The general term in $\\left(a x^{2}+\\frac{1}{b x}\\right)^{13}$ is\r\n$T_{r+1}={ }^{13} C_{r}\\left(a x^{2}\\right)^{13-r}\\left(\\frac{1}{b x}\\right)^{r}$\r\n$$\r\n={ }^{13} C_{r} a^{13-r} \\times b^{-r}(x)^{26-3 r}\r\n$$\r\nFor coefficient of $x^{8}$. put $26-3 r=8$\r\n$\\Rightarrow \\quad 3 r=18 \\Rightarrow r=6$\r\n$\\therefore$\r\n$T_{7}={ }^{13} C_{6} a^{13-6} b^{-6} x^{8}$\r\n$={ }^{13} C_{6} a^{7} b^{-6} x^{8}$\r\nNow, the general term in $\\left(a x-\\frac{1}{b x^{2}}\\right)^{13}$ is\r\n$$\r\n\\begin{aligned}\r\nT_{r+1}^{'} &={ }^{13} C_{r}(a x)^{13-r}\\left(-\\frac{1}{b x^{2}}\\right)^{r} \\\\\r\n&={ }^{13} C_{r}^{*} a^{13-r} \\times b^{-r} \\times(x)^{13-3 r}(-1)^{\\prime}\r\n\\end{aligned}\r\n$$\r\nFor coefficient of $x^{-8}$, put $13-3 r=-8$\r\nAccording to the given condition, Coefficient of $x^{8}$ in $\\left(a x^{2}+\\frac{1}{b x}\\right)^{13}$\r\n$$\r\n\\begin{array}{l}\r\n=\\text { Coefficient of } x^{-8} \\text {in }\\left(a x-\\frac{1}{b x^{2}}\\right)^{13} \\\\\r\n\\therefore{ }^{13} C_{6} a^{7} b^{-6}=-{ }^{13} C_{7} a^{5} b^{-7} \\\\\r\n\\Rightarrow{ }^{13} C_{7} \\frac{a^{7}}{b^{6}}=-{ }^{13} C_{7} \\frac{a^{6}}{b^{7}} \\\\\r\n\\Rightarrow \\quad \\frac{a^{7}}{a^{6}}=-\\frac{b^{6}}{b^{7}} \\Rightarrow \\quad a=-\\frac{1}{b} \\Rightarrow a b+1=0\r\n\\end{array}\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

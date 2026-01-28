@@ -1,0 +1,58 @@
+{
+  "_id": "66446745970e6e9ab542d1c4",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda6e",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-08T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (08 Apr Shift 1)",
+      "title": "JEE Main 2024 (08 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "The value of $\\lim _{x \\rightarrow 0} 2\\left(\\frac{1-\\cos x \\sqrt{\\cos 2 x} \\sqrt[3]{\\cos 3 x} \\ldots \\ldots \\sqrt[10]{\\cos 10 x}}{x^2}\\right)$ is",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "55",
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow 0} 2\\left(\\frac{1-\\left(1-\\frac{x^2}{2 !}\\right)\\left(1-\\frac{4 x^2}{2 !}\\right)\\left(1-\\frac{9 x^2}{2 !}\\right) \\ldots .\\left(1-\\frac{100 x^2}{2 !}\\right)}{x^2}\\right)$<br />By expansion\n$\\begin{gathered}\n\\left.\\lim _{x \\rightarrow 0} \\frac{2\\left(1-\\left(1-\\frac{x^2}{2}\\right)\\right)\\left(1-\\frac{1}{2} \\cdot \\frac{4 x^2}{2}\\right)\\left(1-\\frac{1}{3} \\cdot \\frac{9 x^2}{2}\\right) \\ldots . .\\left(1-\\frac{1}{10} \\cdot \\frac{100 x^2}{2}\\right)}{x^2}\\right) \\\\\n\\lim _{x \\rightarrow 0} 2\\left(\\frac{\\left.1-\\left(1-\\frac{x^2}{2}\\right)\\left(1-\\frac{2 x^2}{2}\\right)\\left(1-\\frac{3 x^2}{2}\\right) \\ldots . .\\left(1-\\frac{10 x^2}{2}\\right)\\right)}{x^2}\\right) \\\\\n\\lim _{x \\rightarrow 0} \\frac{2\\left(1-1+x^2\\left(\\frac{1}{2}+\\frac{2}{2}+\\frac{3}{2}+\\ldots .+\\frac{10}{2}\\right)\\right)}{x^2} \\\\\n2\\left(\\frac{1}{2}+\\frac{2}{2}+\\frac{3}{2}+\\ldots .+\\frac{10}{2}\\right) \\\\\n1+2+\\ldots \\ldots+10=\\frac{10 \\times 11}{2}=55\n\\end{gathered}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "e70e06c7d9394806be6b8feed9bdf6c7",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/YD4KbwT8UbQ0Z.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/YD4KbwT8UbQ0Z.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda6e",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-08T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (08 Apr Shift 1)",
+    "title": "JEE Main 2024 (08 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

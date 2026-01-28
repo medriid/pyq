@@ -1,0 +1,43 @@
+{
+  "index": 119,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (07 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\lim _{x \\rightarrow 0}\\left(\\frac{x-\\sin x}{x}\\right) \\sin \\left(\\frac{1}{x}\\right)$"
+  },
+  "options": [
+    {
+      "text": "\nequals 1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nequals 0\n",
+      "is_correct": true
+    },
+    {
+      "text": "\ndoes not exist\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nequals $-1$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Consider $\\lim _{x \\rightarrow 0}\\left(\\frac{x-\\sin x}{x}\\right) \\sin \\left(\\frac{1}{x}\\right)$\n$=\\lim _{x \\rightarrow 0}\\left[\\frac{x\\left(1-\\frac{\\sin x}{x}\\right)}{x}\\right] \\times \\lim _{x \\rightarrow 0} \\sin \\left(\\frac{1}{x}\\right)$\n$=\\lim _{x \\rightarrow 0}\\left[1-\\frac{\\sin x}{x}\\right] \\times \\lim _{x \\rightarrow 0} \\sin \\left(\\frac{1}{x}\\right)$\n$=\\left[1-\\lim _{x \\rightarrow 0} \\frac{\\sin x}{x}\\right] \\times \\lim _{x \\rightarrow 0} \\sin \\left(\\frac{1}{x}\\right)$\n$=0 \\times \\lim _{x \\rightarrow 0} \\sin \\left(\\frac{1}{x}\\right)=0$"
+  }
+}

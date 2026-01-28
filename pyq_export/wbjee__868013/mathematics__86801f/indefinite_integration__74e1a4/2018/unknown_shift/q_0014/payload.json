@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2018",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d15ea838f9fa274e1a4",
+    "chapter_name": "Indefinite Integration",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\int e^{\\sin x} \\cdot\\left[\\frac{x \\cos ^{3} x-\\sin x}{\\cos ^{2} x}\\right] d x=e^{\\sin x} f(x)+c$\r\nwhere c is constant of integration, then $f(x)$ is\r\nequal to"
+  },
+  "options": [
+    {
+      "text": "$\\sec x-x$",
+      "is_correct": false
+    },
+    {
+      "text": "$x-\\sec x$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\tan x-x$",
+      "is_correct": false
+    },
+    {
+      "text": "$x-\\tan x$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "We have. $\\int e^{\\operatorname{cin} x}\\left(\\frac{x \\cos ^{3} x-\\sin x}{\\cos ^{2} x}\\right) d x=e^{\\sin x} f(x)+c$\r\n$\\int e^{\\operatorname{sin} x}(x \\cos x-\\sec x \\tan x) d x=e^{\\sin x} f(x)+c$\r\n$\\int e^{\\operatorname{sin} x}(x \\cos x-1+1-\\sec x \\tan x) d x$\r\n$=e^{\\sin x} f(x)+c$\r\n$\\left.\\int[ e^{\\sin x} \\cos x(x-\\sec x)+e^{\\sin x}(1-\\sec x \\tan x)\\right] d x$\r\n$=e^{\\sin x} f(x)+c$\r\n$\\int \\frac{d}{d x}\\left\\{e^{\\sin x}(x-\\sec x)\\right\\} d x=e^{\\sin x} f(x)+c$\r\n$e^{\\operatorname{cin} x}(x-\\sec x)=e^{\\sin x} f(x)+c$\r\n$f(x)=x-\\sec x$"
+  }
+}

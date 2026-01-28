@@ -1,0 +1,43 @@
+{
+  "index": 31,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ed5b656291fa36f2b",
+    "chapter_name": "Sets and Relations",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The set <math> <mrow> <mfenced> <mrow> <mi>A</mi><mo>∪</mo><mi>B</mi><mo>∪</mo><mi>C</mi></mrow> </mfenced><mo>∩</mo><msup> <mrow> <mfenced> <mrow> <mi>A</mi><mo>∩</mo><msup> <mi>B</mi> <mo>′</mo> </msup> <mo>∩</mo><msup> <mi>C</mi> <mo>′</mo> </msup> </mrow> </mfenced></mrow> <mo>′</mo> </msup> <mo>∩</mo><mi>C</mi></mrow> </math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><mi>A</mi><mo>∩</mo><mi>B</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>A</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow>  <mi>B</mi><mo>&#x2229;</mo><msup>   <mi>C</mi>   <mo>&#x2032;</mo>  </msup>  </mrow></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>C</mi></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<math> <mrow> <mfenced> <mrow> <mi>A</mi><mo>∪</mo><mi>B</mi><mo>∪</mo><mi>C</mi></mrow> </mfenced><mo>∩</mo><msup> <mrow> <mfenced> <mrow> <mi>A</mi><mo>∩</mo><msup> <mi>B</mi> <mo>′</mo> </msup> <mo>∩</mo><msup> <mi>C</mi> <mo>′</mo> </msup> </mrow> </mfenced></mrow> <mo>′</mo> </msup> <mo>∩</mo><mi>C</mi></mrow> </math><br /><math> <mrow> <mo>=</mo><mfenced> <mrow> <mi>A</mi><mo>∪</mo><mi>B</mi><mo>∪</mo><mi>C</mi></mrow> </mfenced><mo>∩</mo><mfenced> <mrow> <msup> <mi>A</mi> <mo>′</mo> </msup> <mo>∪</mo><mi>B</mi><mo>∪</mo><mi>C</mi></mrow> </mfenced><mo>∩</mo><mi>C</mi></mrow> </math><br /><math> <mrow> <mo>=</mo><mfenced close=\"]\" open=\"[\"> <mrow> <mfenced> <mrow> <mi>A</mi><mo>∩</mo><msup> <mi>A</mi> <mo>′</mo> </msup> </mrow> </mfenced><mo>∪</mo><mfenced> <mrow> <mi>B</mi><mo>∪</mo><mi>C</mi></mrow> </mfenced></mrow> </mfenced><mo>∩</mo><mi>C</mi></mrow> </math><br /><math><mo>=</mo><mfenced separators=\"|\"><mrow><mi>ϕ</mi><mo>∪</mo><mi>B</mi><mo>∪</mo><mi>C</mi></mrow></mfenced><mo>∩</mo><mi>C</mi><mo>=</mo><mfenced separators=\"|\"><mrow><mi>B</mi><mo>∪</mo><mi>C</mi></mrow></mfenced><mo>∩</mo><mi>C</mi><mo>=</mo><mi>C</mi></math>"
+  }
+}

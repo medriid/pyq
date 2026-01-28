@@ -1,0 +1,24 @@
+{
+  "index": 31,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $\\vec{a}=2 \\hat{i}-3 \\hat{j}+4 \\hat{k}, \\vec{b}=3 \\hat{i}+4 \\hat{j}-5 \\hat{k}$ and a vector $\\vec{c}$ be such that $\\vec{a} \\times(\\vec{b}+\\vec{c})+\\vec{b} \\times \\vec{c}=\\hat{i}+8 \\hat{j}+13 \\hat{k}$. If $\\vec{a} \\cdot \\vec{c}=13$, then $(24-\\vec{b} \\cdot \\vec{c})$ is equal to_______"
+  },
+  "options": [],
+  "correct_answer": "46",
+  "solution": {
+    "text": "$\\begin{aligned} & \\vec{a} \\times \\vec{b}+\\vec{a} \\times \\vec{c}+\\vec{b} \\times \\vec{c}=(1,8,13) \\\\ & \\vec{a} \\times(\\vec{a} \\times \\vec{b})+\\vec{a} \\times(\\vec{a} \\times \\vec{c})+\\vec{a} \\times(\\vec{b} \\times \\vec{c}) \\\\ & =\\vec{a} \\times(\\hat{i}+8 \\hat{j}+13 \\hat{k})\\end{aligned}$<br />$\\begin{aligned} & (\\vec{a} \\cdot \\vec{b}) \\vec{a}-a^2 \\vec{b}+(\\vec{a} \\cdot \\vec{c}) \\vec{a}-a^2 \\vec{c}+(\\vec{a} \\cdot \\vec{c}) \\vec{b}-(\\vec{a} \\cdot \\vec{b}) \\vec{c}=\\vec{a} \\times(\\hat{i}+8 \\hat{j}+13 \\hat{k}) \\\\ & \\Rightarrow-26 \\vec{a}-29 \\vec{b}+13 \\vec{a}-29 \\vec{c}+13 \\vec{b}+26 \\vec{c}=\\vec{a} \\times(\\hat{i}+8 \\hat{j}+13 \\hat{k})\\end{aligned}$\n$\\begin{aligned}\n& \\Rightarrow \\quad-13 \\overrightarrow{\\mathrm{a}}-16 \\overrightarrow{\\mathrm{b}}-3 \\overrightarrow{\\mathrm{c}}=\\overrightarrow{\\mathrm{a}} \\times(\\hat{\\mathrm{i}}+8 \\hat{\\mathrm{j}}+13 \\hat{\\mathrm{k}}) \\\\\n& \\Rightarrow \\quad-13 \\overrightarrow{\\mathrm{a}} \\cdot \\overrightarrow{\\mathrm{b}}-16 \\mathrm{~b}^2-3 \\overrightarrow{\\mathrm{b}} \\cdot \\overrightarrow{\\mathrm{c}}=\\{\\overrightarrow{\\mathrm{a}} \\times(\\hat{\\mathrm{i}}+8 \\hat{\\mathrm{j}}+13 \\hat{\\mathrm{k}})\\} \\cdot \\overrightarrow{\\mathrm{b}} \\\\\n& \\Rightarrow \\quad(-13)(-26)-16(50)-3 \\overrightarrow{\\mathrm{b}} \\cdot \\overrightarrow{\\mathrm{c}}=\\left|\\begin{array}{ccc}\n2 & -3 & 4 \\\\\n1 & 8 & 13 \\\\\n3 & 4 & -5\n\\end{array}\\right| \\\\\n& \\Rightarrow \\quad-462-3 \\overrightarrow{\\mathrm{b}} \\cdot \\overrightarrow{\\mathrm{c}}=-396 \\\\\n& \\Rightarrow \\quad \\overrightarrow{\\mathrm{b}} \\cdot \\overrightarrow{\\mathrm{c}}=-22\n\\end{aligned}$<br />Hence $24-\\vec{b} \\cdot \\vec{c}=46$"
+  }
+}

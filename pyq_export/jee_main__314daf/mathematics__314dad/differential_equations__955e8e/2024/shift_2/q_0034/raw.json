@@ -1,0 +1,58 @@
+{
+  "_id": "66446714970e6e9ab542d005",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda69",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-04T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (04 Apr Shift 2)",
+      "title": "JEE Main 2024 (04 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $y=y(x)$ be the solution of the differential equation $(x+y+2)^2 d x=d y, y(0)=-2$. Let the maximum and minimum values of the function $y=y(x)$ in $\\left[0, \\frac{\\pi}{3}\\right]$ be $\\alpha$ and $\\beta$, respectively. If $(3 \\alpha+\\pi)^2+\\beta^2=\\gamma+\\delta \\sqrt{3}, \\gamma, \\delta \\in \\mathbb{Z}$, then $\\gamma+\\delta$ equals ______",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "31",
+  "solution": {
+    "text": "$\\frac{d y}{d x}=(x+y+2)^2$ ...(1)\n$y(0)=-2$<br />Let $\\mathrm{x}+\\mathrm{y}+2=\\mathrm{v}$\n$1+\\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\frac{\\mathrm{dv}}{\\mathrm{dx}}$\nfrom (1) $\\frac{d v}{d x}=1+v^2$\n$\\begin{aligned}\n& \\int \\frac{d v}{1+v^2}=\\int d x \\\\\n& \\tan ^{-1}(v)=x+C \\\\\n& \\tan ^{-1}(x+y+2)=x+C \\\\\n& \\text { at } x=0 y=-2 \\Rightarrow C=0\n\\end{aligned}$\n$\\begin{aligned}\n& \\Rightarrow \\tan ^{-1}(\\mathrm{x}+\\mathrm{y}+2)=\\mathrm{x} \\\\\n& \\mathrm{y}=\\tan \\mathrm{x}-\\mathrm{x}-2 \\\\\n& \\mathrm{f}(\\mathrm{x})=\\tan \\mathrm{x}-\\mathrm{x}-2, \\mathrm{x} \\in\\left[0, \\frac{\\pi}{3}\\right]\n\\end{aligned}$\n$\\begin{aligned}\n& f^{\\prime}(x)=\\sec ^2 x-1>0 \\Rightarrow f(x) \\uparrow \\\\\n& f_{\\min }=f(0)=-2=\\beta \\\\\n& f_{\\max }=f\\left(\\frac{\\pi}{3}\\right)=\\sqrt{3}-\\frac{\\pi}{3}-2=\\alpha\n\\end{aligned}$\nnow $(3 \\alpha+\\pi)^2+\\beta^2=\\gamma+\\delta \\sqrt{3}$\n$\\begin{aligned}\n& \\Rightarrow(3 \\alpha+\\pi)^2+\\beta^2=(3 \\sqrt{3}-6)^2+4 \\\\\n& \\gamma+\\delta \\sqrt{3}=67-36 \\sqrt{3} \\\\\n& \\Rightarrow \\gamma=67 \\text { and } \\delta=-36 \\Rightarrow \\gamma+\\delta=31\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "83f64f1edc994da3996d45c7cd0fdda2",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/mYR8dobKrTiYt.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/mYR8dobKrTiYt.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda69",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-04T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (04 Apr Shift 2)",
+    "title": "JEE Main 2024 (04 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "64b16a9ff23ac7d519f9b61c",
+  "previousYearPapers": [
+    {
+      "_id": "632c83583e3fd59bda92e46d",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2022-04-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022 (Paper 2)",
+      "title": "JEE Advanced 2022 (Paper 2)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Consider <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>&nbsp;boxes, where each box contains <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> red balls and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> blue balls. Assume that all <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math> balls are distinct. In how many different ways can <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math> balls be chosen from these <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> boxes so that from each box at least one red ball and one blue ball are chosen?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "0f4TK",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21816</mn></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "USpLa",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>85536</mn></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "cSOtM",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12096</mn></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "yu2wR",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>156816</mn></math>",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<blockquote><p>Let the four boxes be Box-1, Box-2, Box-3 and Box-4. Each of the box has&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>&nbsp;red balls and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>&nbsp;blue balls.</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/cd4298df-b141-419b-9626-33ce4672e39a-image.png\" style=\"width: 475px; height: 200px;\" /></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math>&nbsp;balls can be chosen in:</p><p>Case I - When exactly one box gives four balls</p><p>Case II - When exactly two boxes gives three balls</p><p>Required number of ways<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo></math>&nbsp;Number of ways in Case I&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>+</mo></math> Number of ways in Case II.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts><mfenced close=\"]\" open=\"[\"><mrow><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts></mrow></mfenced><msup><mfenced><mrow><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts></mrow></mfenced><mn>3</mn></msup><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts><msup><mfenced close=\"]\" open=\"[\"><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts></mrow></mfenced><mn>2</mn></msup><msup><mfenced close=\"]\" open=\"[\"><mrow><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts></mrow></mfenced><mn>2</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mfenced><mn>5</mn></mfenced><msup><mfenced><mn>6</mn></mfenced><mn>3</mn></msup><mo>+</mo><mn>6</mn><msup><mfenced><mrow><mn>3</mn><mo>&#215;</mo><mn>2</mn><mo>+</mo><mn>3</mn></mrow></mfenced><mn>2</mn></msup><msup><mfenced><mn>6</mn></mfenced><mn>2</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4320</mn><mo>+</mo><mn>17496</mn><mo>=</mo><mn>21816</mn></math></p></blockquote>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "ecefb75ecda44c1ca341233836fc73fd",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/8voIrrETqzk1B.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/8voIrrETqzk1B.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Advanced (All PYQs from 2023 - 2013)"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "632c83583e3fd59bda92e46d",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2022-04-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022 (Paper 2)",
+    "title": "JEE Advanced 2022 (Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

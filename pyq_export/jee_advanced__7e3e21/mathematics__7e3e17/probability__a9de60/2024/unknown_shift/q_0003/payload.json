@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2024 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025732b001edb3fa9de60",
+    "chapter_name": "Probability",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A student appears for a quiz consisting of only true-false type questions and answers all the questions. The student knows the answers of some questions and guesses the answers for the remaining questions. Whenever the student knows the answer of a question, he gives the correct answer. Assume that the probability of the student giving the correct answer for a question, given that he has guessed it, is $\\frac{1}{2}$. Also assume that the probability of the answer for a question being guessed, given that the student's answer is correct, is $\\frac{1}{6}$. Then the probability that the student knows the answer of a randomly chosen question is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{12}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{7}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{5}{7}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{5}{12}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\mathrm{C} \\rightarrow$ Correct\n$\\mathrm{G} \\rightarrow$ Guess\n$\\mathrm{K} \\rightarrow$ Knows\n$\\begin{array}{ll}\\mathrm{P}\\left(\\frac{\\mathrm{C}}{\\mathrm{G}}\\right)=\\frac{1}{2} \\quad, \\quad \\mathrm{P}\\left(\\frac{\\mathrm{C}}{\\mathrm{K}}\\right)=1 \\\\\\mathrm{P}\\left(\\frac{\\mathrm{G}}{\\mathrm{C}}\\right)=\\frac{1}{6}\\end{array}$\n$\\begin{aligned} & \\text { Let required probability }=\\mathrm{x} \\\\ & \\therefore \\mathrm{P}\\left(\\frac{\\mathrm{G}}{\\mathrm{C}}\\right)=\\frac{(1-\\mathrm{x}) \\mathrm{P}\\left(\\frac{\\mathrm{C}}{\\mathrm{G}}\\right)}{(1-\\mathrm{x}) \\mathrm{P}\\left(\\frac{\\mathrm{C}}{\\mathrm{G}}\\right)+\\mathrm{x} \\cdot \\mathrm{P}\\left(\\frac{\\mathrm{C}}{\\mathrm{K}}\\right)} \\\\ & \\frac{1}{6}=\\frac{(1-\\mathrm{x})\\left(\\frac{1}{2}\\right)}{(1-\\mathrm{x})\\left(\\frac{1}{2}\\right)+(\\mathrm{x})(1)} \\\\ & \\Rightarrow \\mathrm{x}=\\frac{5}{7} \\Rightarrow \\text { Option (3) is correct. }\\end{aligned}$"
+  }
+}

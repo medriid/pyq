@@ -1,0 +1,38 @@
+{
+  "_id": "64b16a03f23ac7d519f9b08b",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c46",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010 (Paper 1)",
+      "title": "JEE Advanced 2010 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "For any real number $x$, let $[x]$ denotes the largest integer less than or equal to $x$. Let $f$ be a real valued function defined on the interval $[-10,10]$ by $f(x)=\\left\\{\\begin{array}{cc}x-[x] & \\text { if }[x] \\text { is odd } \\\\ 1+[x]-x & \\text { if }[x] \\text { is even }\\end{array}\\right.$.\nThen the value of $\\frac{\\pi^2}{10} \\int_{-10}^{10} f(x) \\cos \\pi x d x$ is",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "4",
+  "solution": {
+    "text": "Given, $f(x)=\\left\\{\\begin{array}{cc}x-[x] & \\text { if }[x] \\text { is odd } \\\\ 1+[x]-x & \\text { if }[x] \\text { is even }\\end{array}\\right.$ $f(x)$ and $\\cos \\pi x$ both are periodic with period 2 and both are even.\n$$\n\\begin{aligned}\n\\therefore \\quad & \\int_{-10}^{10} f(x) \\cos \\pi x d x \\\\\n& =2 \\int_0^{10} f(x) \\cos \\pi x d x\n\\end{aligned}\n$$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/38fJZUbYKcCJA8fbhzEPVjPMjiAKOXHpLlVA3ITpe2w.original.fullsize.png\"><br>\n$$\n\\begin{aligned}\n& =10 \\int_0^2 f(x) \\cos \\pi x d x \\\\\n& \\text { Now, } \\quad \\int_0^1 f(x) \\cos \\pi x d x \\\\\n& =\\int_0^1(1-x) \\cos \\pi x d x=-\\int_0^1 u \\cos \\pi u d u \\\\\n& \\text { and } \\int_1^2 f(x) \\cos \\pi x d x \\\\\n& =\\int_1^2(x-1) \\cos \\pi x d x=-\\int_0^1 u \\cos \\pi u d u \\\\\n& \\therefore \\quad \\int_{-10}^{10} f(x) \\cos \\pi x d x \\\\\n& =-20 \\int_0^1 u \\cos \\pi u d u=\\frac{40}{\\pi^2} \\\\\n& \\Rightarrow \\quad \\frac{\\pi^2}{10} \\int_{-10}^{10} f(x) \\cos \\pi x d x=4\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c46",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010 (Paper 1)",
+    "title": "JEE Advanced 2010 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

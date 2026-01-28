@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d13a2f905c68494ed7e",
+    "chapter_name": "Application of Derivatives",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Given \\(f(x)=e^{\\sin x}+e^{\\cos x}\\). The global maximum value of \\(f(x)\\)"
+  },
+  "options": [
+    {
+      "text": "does not exist",
+      "is_correct": false
+    },
+    {
+      "text": "exists at a point in \\(\\left(0, \\frac{\\pi}{2}\\right)\\) and its value is \\(2 e^{\\frac{1}{\\sqrt{2}}}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "exists at infinitely many points",
+      "is_correct": true
+    },
+    {
+      "text": "exists at \\(x=0\\) only",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hint : \\(f(x)=e^{\\sin x}+e^{\\cos x}\\)\n\\(f^{\\prime}(x)=0\\)\n\\(\\begin{aligned}\n& \\Rightarrow e^{\\sin x} \\cdot \\cos x+e^{\\cos x}(-\\sin x)=0 \\\\\n& \\Rightarrow e^{\\sin x-\\cos x}=\\tan x\n\\end{aligned}\\)\n\\(\\mathrm{x}=\\pi / 4\\) or in general \\(\\mathrm{x}=\\mathrm{n} \\pi+\\frac{\\pi}{4}\\)\nNow, \\(f^{\\prime \\prime}(x)  < 0\\) at \\(x=\\pi / 4\\) or \\(x=n \\pi+\\pi / 4\\)\nSo, Global maximum exists at infinitely many points"
+  }
+}

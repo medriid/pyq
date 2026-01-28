@@ -1,0 +1,43 @@
+{
+  "index": 217,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The value of the integral $\\int_{-2}^{2} \\frac{\\sin ^{2} x}{\\left[\\frac{x}{\\pi}\\right]+\\frac{1}{2}} d x$\r\n\r\n(where $[x]$ denotes the greatest integer less than or equal to x) is"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": true
+    },
+    {
+      "text": "$\\sin 4$",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    },
+    {
+      "text": "$4-\\sin 4$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $f(x)=\\frac{\\sin ^{2} x}{\\left[\\frac{x}{\\pi}\\right]+\\frac{1}{2}}$.\r\n\r\n$\\begin{array}{l}\r\n\r\n\\text { So, } f(-x)=\\frac{\\sin ^{2}(-x)}{\\left[\\frac{-x}{\\pi}\\right]+\\frac{1}{2}} \\quad \\because[-x]=-1-[x] \\\\\r\n\r\n\\Rightarrow f(-x)=\\frac{\\sin ^{2} x}{-1-\\left[\\frac{x}{\\pi}\\right]+\\frac{1}{2}}=\\frac{\\sin ^{2} x}{-\\frac{1}{2}-\\left[\\frac{x}{\\pi}\\right]}=-f(x)\r\n\r\n\\end{array}$\r\n\r\n$\\Rightarrow f(x)$ is odd function\r\n\r\nHence, $\\int_{-2}^{2} f(x) d x=0$"
+  }
+}

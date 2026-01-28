@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c86b98428bab9bd89d6",
+    "chapter_name": "Oscillations",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The displacement of a particle in a periodic motion is given by $y=4 \\cos ^{2}\\left(\\frac{t}{2}\\right) \\sin (1000 t)$. This displacement may be considered as the result of superposition of $n$ independent harmonic oscillations. Here $n$ is"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "3",
+      "is_correct": true
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given, $Y=4 \\cos ^{2}\\left(\\frac{t}{2}\\right) \\cdot \\sin (1000 t)$\r\n$=2 \\times 2 \\cos ^{2}\\left(\\frac{t}{2}\\right) \\cdot \\sin (1000 t)$\r\n$\\quad\\left[\\because 2 \\cos ^{2} \\frac{t}{2}=(1+\\cos t)\\right]$\r\n$=2(1+\\cos t) \\sin (1000 t)$\r\n$=2 \\sin (1000 t)+2 \\cos t \\cdot \\sin (1000 t)$\r\n$=2 \\sin (1000 t)+2 \\sin (1000 t) \\cdot \\cos t$\r\n$=2 \\sin (1000 t)+\\sin (1000 t+t)$\r\n$$\r\n\\begin{aligned}[\\because-2 \\sin A \\cdot \\cos B=\\sin (A+B)+\\sin (A-B)] \\\\=2 \\sin (1000 t)+\\sin (1001 t)+\\sin (999 t) \\end{aligned}\r\n$$\r\nSo, $n=3$"
+  }
+}

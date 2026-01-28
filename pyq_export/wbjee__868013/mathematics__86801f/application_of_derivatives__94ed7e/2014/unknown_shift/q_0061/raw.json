@@ -1,0 +1,63 @@
+{
+  "_id": "64a81400e0ff5a5425a85789",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec3",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "WBJEE 2014"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Applying Lagrange's Mean Value Theorem for a suitable function $f(x)$ in $[0, h],$ we have $f(h)=f(0)+h f^{\\prime}(\\theta h), \\quad 0    < \\theta < 1 . \\quad$ Then, for $f(x)=\\cos x,$ the value of $\\lim _{h \\rightarrow 0^{*}} \\theta$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "qKSJJ",
+      "text": "1",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "xlgOe",
+      "text": "0",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "XFTPD",
+      "text": "$1 / 2$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "jDk1S",
+      "text": "$1 / 3$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We know that in a Lagrange mean value theorem there exist $c \\in(a, b)$ such that\r\n$$\r\nf^{\\prime}(c)=\\frac{f(b)-f(a)}{b-a}\r\n$$\r\n$\\therefore \\quad f^{\\prime}(\\theta h)=\\frac{f(h)-\\cos 0}{h-0}$\r\n$$\r\n\\begin{aligned}\r\n\\Rightarrow \\quad-\\sin (\\theta h)=& \\frac{\\cos h-\\cos 0}{h-0} \\\\\r\n&[\\because f(x)=\\cos x] \\\\\r\n=& \\frac{\\cos h-1}{h}\r\n\\end{aligned}\r\n$$\r\n$=\\frac{\\left(1-\\frac{h^{2}}{2 !}\\right)-1}{h}$\r\n[neglecting higher power of $\\Rightarrow \\quad-\\sin (\\theta h)=\\frac{-\\frac{h^{2}}{2}}{h}$\r\n$\\Rightarrow \\quad \\sin (\\theta h)=\\frac{\\frac{h}{2}}{1}$\r\n$\\Rightarrow \\quad \\theta h=\\sin ^{-1}\\left(\\frac{h}{2}\\right)$\r\n$\\Rightarrow \\quad \\theta=\\frac{\\sin ^{-1} \\frac{h}{2} \\times \\frac{1}{2}}{h \\times \\frac{1}{2}}$\r\n$\\therefore \\quad \\lim _{h \\rightarrow \\theta^{+}} \\theta=\\frac{1}{2} \\lim _{h \\rightarrow 0^{+}} \\frac{\\sin ^{-1} \\frac{h}{2}}{\\frac{h}{2}}$\r\n$=\\frac{1}{2} \\times 1=\\frac{1}{2}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec3",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "WBJEE 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

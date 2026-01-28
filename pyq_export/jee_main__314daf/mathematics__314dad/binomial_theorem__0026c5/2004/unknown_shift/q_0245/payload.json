@@ -1,0 +1,43 @@
+{
+  "index": 245,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2004",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2004",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $S_n=\\sum_{r=0}^n \\frac{1}{{ }^n C_r}$ and $t_n=\\sum_{r=0}^n \\frac{r}{{ }^n C_r}$, then $\\frac{t_n}{S_n}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{2} \\mathrm{n}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{1}{2} n-1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$n-1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{2 n-1}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$t=\\sum_{r=0}^n \\frac{r}{{ }^n C_r}=\\sum_{r=0}^n \\frac{n-r}{{ }^n C_{n-r}}=\\sum_{r=0}^n \\frac{n-r}{{ }^n C_r}\\left(\\because{ }^n C_r={ }^n C_{n-r}\\right)$\n$2 t_n=\\sum_{r=0}^n \\frac{r+n-r}{{ }^n C_r}=\\sum_{r=0}^n \\frac{n}{{ }^n C_r} \\Rightarrow t_n=\\frac{n}{2} \\sum_{r=0}^n \\frac{1}{{ }^n C_r}=\\frac{n}{2} S_n \\Rightarrow \\frac{t_n}{S_n}=\\frac{n}{2}$"
+  }
+}

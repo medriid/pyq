@@ -1,0 +1,43 @@
+{
+  "index": 234,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2011",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The coefficient of $x^7$ in the expansion of $\\left(1-x-x^2+x^3\\right)^6$ is"
+  },
+  "options": [
+    {
+      "text": "\n$-132$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-144$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$132$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$144$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& {\\left[1-\\mathrm{x}-\\mathrm{x}^2(1-\\mathrm{x})\\right]^6=(1-\\mathrm{x})^6\\left(1-\\mathrm{x}^2\\right)^6} \\\\\n& =\\left[{ }^6 \\mathrm{C}_0-{ }^6 \\mathrm{C}_1 \\mathrm{x}+{ }^6 \\mathrm{C}_2 \\mathrm{x}^2-{ }^6 \\mathrm{C}_3 \\mathrm{x}^3+{ }^6 \\mathrm{C}_4 \\mathrm{x}^4-{ }^6 \\mathrm{C}_5 \\mathrm{x}^5+{ }^6 \\mathrm{C}_6 \\mathrm{x}^6\\right] \\times\\left[{ }^6 \\mathrm{C}_0-{ }^6 \\mathrm{C}_1 \\mathrm{x}^2+{ }^6 \\mathrm{C}_2 \\mathrm{x}^4-{ }^6 \\mathrm{C}_3 \\mathrm{x}^6+\\ldots .\\right]\n\\end{aligned}\n$$\nCoefficient of $\\mathrm{x}^7={ }^6 \\mathrm{C}_1{ }^6 \\mathrm{C}_3-{ }^6 \\mathrm{C}_3{ }^6 \\mathrm{C}_2+{ }^6 \\mathrm{C}_5{ }^6 \\mathrm{C}_1=120-300+36=-144$"
+  }
+}

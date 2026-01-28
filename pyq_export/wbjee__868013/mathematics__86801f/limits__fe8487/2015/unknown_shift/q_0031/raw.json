@@ -1,0 +1,63 @@
+{
+  "_id": "64a81411e0ff5a5425a85826",
+  "previousYearPapers": [
+    {
+      "_id": "620ab45eb6f6595b8a4ceec4",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "WBJEE 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Let $x_{n}=\\left(1-\\frac{1}{3}\\right)^{2}\\left(1-\\frac{1}{6}\\right)^{2}\\left(1-\\frac{1}{10}\\right)^{2} \\ldots$ $\\left(1-\\frac{1}{\\frac{n(n+1)}{2}}\\right)^{2}, n \\geq 2$ Then, the value of $\\lim _{n \\rightarrow \\infty} x_{n}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "4EOxi",
+      "text": "$1 / 3$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "uihcS",
+      "text": "$1 / 9$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "l2c4h",
+      "text": "$1 / 81$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "xvc7H",
+      "text": "0",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have, $x_{n}=\\left[\\left(1-\\frac{1}{3}\\right)\\left(1-\\frac{1}{6}\\right)\\right.$ $$\r\n\\left.\\left(1-\\frac{1}{10}\\right) \\ldots\\left(1-\\frac{2}{n(n+1)}\\right)\\right]^{2}\r\n$$\r\n$\\begin{aligned} \\Rightarrow x_{n} &=\\left[\\prod_{n=2}^{n}\\left(\\frac{n^{2}+n-2}{n(n+1)}\\right)\\right]^{2} \\\\ &=\\left[\\prod_{n=2}^{n}\\left(\\frac{(n+2)(n-1)}{n(n+1)}\\right)\\right]^{2} \\\\ &=\\left[\\prod_{n=2}^{n}\\left(\\frac{n+2}{n+1}\\right) \\cdot \\prod_{n=2}^{n}\\left(\\frac{n-1}{n}\\right)\\right]^{2} \\\\ \\Rightarrow &\\left[\\prod_{n=2}^{n}\\left(\\frac{n+2}{n+1}\\right)\\right]^{2}\\left[\\prod_{n=2}^{n}\\left(\\frac{n-1}{n}\\right)\\right]^{2} \\\\ \\Rightarrow \\quad x_{n}=&\\left(\\frac{4}{3} \\cdot \\frac{5}{4} \\cdot \\frac{6}{5} \\ldots \\frac{n+2}{n+1}\\right)^{2}\\left(\\frac{1}{2} \\cdot \\frac{2}{3} \\cdot \\frac{3}{4} \\ldots \\frac{n-1}{n}\\right)^{2} \\\\ \\Rightarrow \\quad & x_{n}=\\left(\\frac{n+2}{3}\\right)^{2}\\left(\\frac{1}{n}\\right)^{2} \\Rightarrow x_{n}=\\frac{1}{9}\\left(\\frac{n+2}{n}\\right)^{2} \\\\=& \\quad \\lim _{n \\rightarrow \\infty} x_{n}=\\frac{1}{9}(1+0)^{2}=\\frac{1}{9} \\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620ab45eb6f6595b8a4ceec4",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "WBJEE 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

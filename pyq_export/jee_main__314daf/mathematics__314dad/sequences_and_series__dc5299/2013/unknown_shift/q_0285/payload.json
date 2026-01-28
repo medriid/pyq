@@ -1,0 +1,43 @@
+{
+  "index": 285,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2013 (22 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The sum $\\frac{3}{1^2}+\\frac{5}{1^2+2^2}+\\frac{7}{1^2+2^2+3^2}+\\ldots$. upto 11-terms is:"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{7}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{11}{4}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{11}{2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{60}{11}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given sum is\n$$\n\\begin{aligned}\n& \\frac{3}{12}+\\frac{5}{1^2+2^2}+\\frac{7}{1^2+2^2+3^2}+\\ldots . . \\\\\n& n \\text {th term }=\\mathrm{T}_n \\\\\n& =\\frac{2 n+1}{\\frac{n(n+1)(2 n+1)}{6}}=\\frac{6}{n(n+1)} \\\\\n& \\text { or } \\mathrm{T}_n=6\\left[\\frac{1}{n}-\\frac{1}{n+1}\\right] \\\\\n& \\therefore \\quad \\mathrm{S}_n= \\\\\n& \\sum \\mathrm{T}_n=6 \\sum \\frac{1}{n}-6 \\sum \\frac{1}{n+1}=\\frac{6 n}{n}-\\frac{6}{n+1} \\\\\n& =6-\\frac{6}{n+1}=\\frac{6 n}{n+1} \\\\\n& S_{11}=\\frac{6 \\times 11}{11+1}=\\frac{66}{12}=\\frac{33}{6}=\\frac{11}{2} \\\\\n&\n\\end{aligned}\n$$"
+  }
+}

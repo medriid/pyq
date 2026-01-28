@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2014",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d00146ed0ebdd74e3ce",
+    "chapter_name": "Sets and Relations",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "There is a group of 265 persons who like either singing or dancing or painting. In this group 200 like singing, 110 like dancing and 55 like painting. If 60 persons like both singing and dancing, 30 like both singing and painting and 10 hike all three activities, then the number of persons who like only dancing and painting is"
+  },
+  "options": [
+    {
+      "text": "10",
+      "is_correct": true
+    },
+    {
+      "text": "20",
+      "is_correct": false
+    },
+    {
+      "text": "30",
+      "is_correct": false
+    },
+    {
+      "text": "40",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $D$ denotes dancing. $P$ denotes painting and $S$ denotes singing.\r\n$\\begin{array}{l}\r\n\\therefore \\quad n(D \\cup P \\cup S)=265 \\\\\r\nn(S)=200, n(D)=110, n(P)=55 \\\\\r\nn(S \\cap D)=60, n(S \\cap P)=30 \\\\\r\n\\text { and } n(D \\cap P \\cap S)=10 \\\\\r\n\\because n(D \\cup P \\cup S)=n(D)+n(P)+n(S)-n(D \\cap P) \\\\\r\n-n(P \\cap S)-n(S \\cap D)+n(D \\cap P \\cap S) \\\\\r\n\\therefore \\quad 265=110+55+200-n(D \\cap P) \\\\\r\n\\Rightarrow \\quad 265=285-n(D \\cap P) \\\\\r\n\\Rightarrow \\quad n(D \\cap P)=20\r\n\\end{array}$\r\n$\\therefore$ Only person who like dancing and painting\r\n$\\begin{array}{l}\r\n=n(D \\cap P)-n(D \\cap P \\cap S) \\\\\r\n=20-10=10\r\n\\end{array}$"
+  }
+}

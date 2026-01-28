@@ -1,0 +1,63 @@
+{
+  "_id": "67729bef546ddd78415aaf1e",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67729a70099eafe69352f9c1",
+      "examId": "615d7762c52ffa3c944600e7",
+      "heldOn": "2024-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024",
+      "title": "WBJEE 2024"
+    }
+  ],
+  "question": {
+    "text": "All values of a for which the inequality $\\frac{1}{\\sqrt{a}} \\int_1^a\\left(\\frac{3}{2} \\sqrt{x}+1-\\frac{1}{\\sqrt{x}}\\right) \\mathrm{dx} \\lt 4$ is satisfied, lie in the interval",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "0V5Lt",
+      "text": "(1, 2)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "MVSZV",
+      "text": "(0, 3)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "PU4Bg",
+      "text": "(0, 4)",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "8LyIr",
+      "text": "(1, 4)",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Hint : $\\frac{1}{\\sqrt{a}} \\int_1^a\\left(\\frac{3}{2} \\sqrt{x}+1-\\frac{1}{\\sqrt{x}}\\right) \\mathrm{dx} \\lt 4$\n$\\begin{array}{ll}\n\\Rightarrow \\quad \\frac{1}{\\sqrt{a}} \\cdot\\left[\\frac{3}{2} \\cdot \\frac{x^{3 / 2}}{\\frac{3}{2}}+x-\\frac{x^{1 / 2}}{1 / 2}\\right]_1^a \\lt 4 & \\Rightarrow \\frac{1}{\\sqrt{a}}\\left(a^{3 / 2}+a-2 a^{1 / 2}-1-1+2\\right)\\gt4 \\\\\n\\Rightarrow \\quad \\frac{1}{a^{1 / 2}} \\cdot\\left(a^{3 / 2}+a-2 a^{1 / 2}\\right) \\lt 4 & \\Rightarrow a+a^{1 / 2}-2 \\lt 4 \\\\\n\\Rightarrow \\quad\\left(a^{1 / 2}\\right)^2+a^{1 / 2}-6 \\lt 0 & \\Rightarrow\\left(a^{1 / 2}+3\\right)\\left(a^{1 / 2}-2\\right) \\lt 0 \\\\\n\\text { but, } a^{1 / 2}+3 \\nless 0 \\quad \\therefore a^{1 / 2}-2 \\lt 0 \\quad \\Rightarrow a \\lt 4 \\text { and } a\\gt0 \\quad \\therefore a \\in(0,4)\n\\end{array}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67729a70099eafe69352f9c1",
+    "examId": "615d7762c52ffa3c944600e7",
+    "heldOn": "2024-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024",
+    "title": "WBJEE 2024"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 250,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (26 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $[x]$ is the greatest integer $\\leq x$, then the value of the integral $\\int_{-0.9}^{0.9}\\left(\\left[x^2\\right]+\\log \\left(\\frac{2-x}{2+x}\\right)\\right) d x$ is"
+  },
+  "options": [
+    {
+      "text": "\n$0.486$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$0.243$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$1.8$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n0",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\n\\text { } \\begin{aligned}\n& \\int_{-0.9}^{0.9}\\left\\{\\left[x^2\\right]+\\log \\left(\\frac{2-x}{2+x}\\right)\\right\\} d x \\\\\n= & \\int_{-0.9}^{0.9}\\left[x^2\\right] d x+\\int_{-0.9}^{0.9} \\log \\left(\\frac{2-x}{2+x}\\right) d x\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& =0+\\int_{-0.9}^{0.9} \\log \\left(\\frac{2-x}{2+x}\\right) d x \\\\\n& \\text { Put } x=-x \\Rightarrow f(x)=\\log \\frac{2-x}{2+x} \\\\\n& \\text { and } f(-x)=\\log \\frac{2+x}{2-x} \\\\\n& =-\\log \\frac{(2-x)}{2+x}=-f(x)\n\\end{aligned}\n$$\nSo, it is an odd function, hence Required integral $=0$."
+  }
+}

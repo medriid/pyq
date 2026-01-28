@@ -1,0 +1,43 @@
+{
+  "index": 66,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2006",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "6160243a86b518ff2afd9379",
+    "chapter_name": "Ray Optics",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The graph between object distance $u$ and image distance $v$ for a lens is given below. The focal length of the lens is\n<img src=\"assets\\qt0066_2fdaf7bd21ca.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\n$5 \\pm 0.1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$5 \\pm 0.05$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$0.5 \\pm 0.1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$0.5 \\pm 0.05$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "From the lens formula:\n$\\frac{1}{f}=\\frac{1}{v}-\\frac{1}{u}$ we have, $\\frac{1}{f}=\\frac{1}{10}-\\frac{1}{-10}$ or $f=+5$\nFurther, $\\Delta u=0.1$ and $\\Delta v=0.1$\n(from the graph)\nNow, differentiating the lens formula we have,\n$$\n\\frac{\\Delta f}{f^2}=\\frac{\\Delta v}{v^2}+\\frac{\\Delta u}{u^2} \\text { or } \\Delta f=\\left(\\frac{\\Delta v}{v^2}+\\frac{\\Delta u}{u^2}\\right) f^2\n$$\nSubstituting the values we have,\n$$\n\\Delta f=\\left(\\frac{0.1}{10^2}+\\frac{0.1}{10^2}\\right)(5)^2 \\Rightarrow f \\pm \\Delta f=5 \\pm 0.05\n$$"
+  }
+}

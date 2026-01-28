@@ -1,0 +1,58 @@
+{
+  "_id": "66446728970e6e9ab542d0b6",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6b",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-05T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (05 Apr Shift 2)",
+      "title": "JEE Main 2024 (05 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If $1+\\frac{\\sqrt{3}-\\sqrt{2}}{2 \\sqrt{3}}+\\frac{5-2 \\sqrt{6}}{18}+\\frac{9 \\sqrt{3}-11 \\sqrt{2}}{36 \\sqrt{3}}+\\frac{49-20 \\sqrt{6}}{180}+\\ldots$ upto $\\infty=2+\\left(\\sqrt{\\frac{b}{a}}+1\\right) \\log _e\\left(\\frac{a}{b}\\right)$, where $\\mathrm{a}$ and $\\mathrm{b}$ are integers with $\\operatorname{gcd}(\\mathrm{a}, \\mathrm{b})=1$, then $11 \\mathrm{a}+18 \\mathrm{~b}$ is equal to ______",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "76",
+  "solution": {
+    "text": "$\\begin{aligned} & S=1+\\frac{x}{2 \\sqrt{3}}+\\frac{x^2}{18}+\\frac{x^3}{36 \\sqrt{3}}+\\frac{x^4}{180}+\\ldots \\infty \\\\ & \\text { Put } \\frac{x}{\\sqrt{3}}=t, \\text { where } x=\\sqrt{3}-\\sqrt{2} \\\\ & S=1+\\frac{t}{2}+\\frac{t^2}{6}+\\frac{t^3}{12}+\\frac{t^4}{20}+\\ldots \\\\ & S=1+t\\left(1-\\frac{1}{2}\\right)+t^2\\left(\\frac{1}{2}-\\frac{1}{3}\\right)+t^3\\left(\\frac{1}{3}-\\frac{1}{4}\\right)+t^4\\left(\\frac{1}{4}-\\frac{1}{5}\\right) \\\\ & S=\\left(1+t+\\frac{t^2}{2}+\\frac{t^3}{3}+\\frac{t^3}{4}+\\ldots\\right)-\\left(\\frac{t}{2}+\\frac{t^2}{3}+\\frac{t^3}{4}+\\frac{t^4}{5}+\\ldots\\right) \\\\ & S=\\left(t+\\frac{t^2}{2}+\\ldots\\right)-\\frac{1}{t}\\left(t+\\frac{t^2}{2}+\\frac{t^3}{3}+\\ldots\\right)+2 \\\\ & S=2+\\left(1-\\frac{1}{t}\\right)(-\\log (1-t))=\\left(\\frac{1}{t}-1\\right) \\log (1-t)+2 \\\\ & S=2+\\left(\\frac{\\sqrt{3}}{\\sqrt{3}-\\sqrt{2}}-1\\right) \\log \\left(1-\\frac{\\sqrt{3}-\\sqrt{2}}{\\sqrt{3}}\\right) \\\\ & S=2+\\left(\\frac{\\sqrt{2}}{\\sqrt{3}-\\sqrt{2}}\\right) \\log e \\frac{\\sqrt{2}}{\\sqrt{3}} \\\\ & S=2+\\frac{(\\sqrt{6}+2)}{2} \\log e \\frac{2}{3}=2+\\left(\\sqrt{\\frac{3}{2}}+1\\right) \\log e \\frac{2}{3} \\\\ & a=2, b=3 \\\\ & 11 a+18 b=11 \\times 2+18 \\times 3=76\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "d12f896ff018463b961ace09060efc0a",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/M3a9a0KfAW5Xi.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/M3a9a0KfAW5Xi.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "outOfSyllabusButGoodToSolve",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda6b",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-05T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (05 Apr Shift 2)",
+    "title": "JEE Main 2024 (05 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

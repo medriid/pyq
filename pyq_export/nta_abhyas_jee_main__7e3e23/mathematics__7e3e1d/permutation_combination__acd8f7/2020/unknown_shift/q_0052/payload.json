@@ -1,0 +1,43 @@
+{
+  "index": 52,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "NTA Abhyas (JEE Main) 2020",
+  "tags": {
+    "exam_id": "616059af0283de43c87e3e23",
+    "exam_name": "NTA Abhyas (JEE Main)",
+    "subject_id": "616057860283de43c87e3e1d",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252bf7c1fee30bacd8f7",
+    "chapter_name": "Permutation Combination",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "There are six periods in each working day of a school. The number of ways in which <math><mn>5</mn></math> subjects can be arranged such that each subject is allotted at least one period and no period remains vacant is"
+  },
+  "options": [
+    {
+      "text": "<math><mn>210</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>1800</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mn>360</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>120</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Select one subject which is to be repeated in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>1</mn><none/><mprescripts/><mrow/><mn>5</mn></mmultiscripts></math>&nbsp;ways<br />Select two periods in which the selected subject will be taught in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><mrow/><mn>6</mn></mmultiscripts></math>&nbsp;ways<br />Remaining <math><mn>4</mn></math> subjects will be taught in <math><mn>4</mn></math> periods in <math><mn>4</mn><mo>!</mo></math> ways.<br /><math><mo>&#8658;</mo></math> Required number of ways <math><mo>=</mo><msub><mrow><mmultiscripts><mrow><mi>C</mi></mrow><mprescripts></mprescripts><mrow><mi></mi></mrow><mrow><mn>5</mn></mrow></mmultiscripts></mrow><mrow><mn>1</mn></mrow></msub><mo>&#215;</mo><msub><mrow><mmultiscripts><mrow><mi>C</mi></mrow><mprescripts></mprescripts><mrow><mi></mi></mrow><mrow><mn>6</mn></mrow></mmultiscripts></mrow><mrow><mn>2</mn></mrow></msub><mo>&#215;</mo><mn>4</mn><mo>!</mo><mo>=</mo><mn>5</mn><mo>&#215;</mo><mn>15</mn><mo>&#215;</mo><mn>24</mn><mo>=</mo><mn>1800</mn></math>"
+  }
+}

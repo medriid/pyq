@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a67417cc3fb48d66784",
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7ec",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2019-01-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019 (11 Jan Shift 1)",
+      "title": "JEE Main 2019 (11 Jan Shift 1)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $[\\mathrm{x}]$ denote the greatest integer less than or equal to $\\mathrm{X}$. Then :\r\n\r\n$\\lim _{x \\rightarrow 0} \\frac{\\tan \\left(\\pi \\sin ^{2} x\\right)+(|\\mathrm{x}|-\\sin (x[x]))^{2}}{x^{2}}$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "a0pvK",
+      "text": "does not exist",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "j6czU",
+      "text": "equals $\\pi$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "IHLWW",
+      "text": "equals $\\pi+1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "5R4im",
+      "text": "equals 0",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "RHL is, $\\lim _{x \\rightarrow 0^{+}} \\frac{\\tan \\left(\\pi \\sin ^{2} x\\right)+(x-0)^{2}}{x^{2}}$\r\n\r\n$=\\lim _{x \\rightarrow 0^{+}}\\left(\\frac{\\tan \\left(\\pi \\sin ^{2} x\\right.}{x^{2}}+1\\right)=1+\\pi$\r\n\r\nAnd LHL is, $\\lim _{x \\rightarrow 0^{-}} \\frac{\\tan \\left(\\pi \\sin ^{2} x\\right)+(-x+\\sin x)^{2}}{x^{2}}$\r\n\r\n$=\\lim _{x \\rightarrow 0^{-}} \\frac{\\tan \\left(\\pi \\sin ^{2} x\\right)+x^{2}+\\sin ^{2} x-2 x \\sin x}{x^{2}}$\r\n\r\n$=\\pi+1+1-2=\\pi$\r\n\r\nSince, LHL $\\neq$ RHL Hence, limit does not exist.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7ec",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2019-01-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019 (11 Jan Shift 1)",
+    "title": "JEE Main 2019 (11 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

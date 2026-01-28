@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "WBJEE 2023",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d114f773a4e33ada758",
+    "chapter_name": "Differentiation",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let \\(\\cos ^{-1}\\left(\\frac{y}{b}\\right)=\\log _e\\left(\\frac{x}{n}\\right)^n\\), then \\(A y_2+B y_1+C y=0\\) is possible for"
+  },
+  "options": [
+    {
+      "text": "\\(\\mathrm{A}=2, \\mathrm{~B}=\\mathrm{x}^2, \\mathrm{C}=\\mathrm{n}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(A=x^2, B=x, C=n^2\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(A=x, B=2 x, C=3 n+1\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(A=x^2, B=3 x, C=2 n\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\text { Hint: } \\frac{-1}{\\sqrt{1-\\frac{y^2}{b^2}}} \\times \\frac{1}{b} y_1=\\left(\\frac{n}{n \\times \\frac{x}{n}}\\right) \\\\\n& \\Rightarrow \\frac{-1 y_1}{\\sqrt{b^2-y^2}}=\\frac{n}{x} \\\\\n& \\Rightarrow y_1 x+n \\sqrt{b^2-y^2}=0 \\\\\n& \\Rightarrow y_1+x y_2+\\frac{n}{2 \\sqrt{b^2-y^2}} \\cdot(-2 y) y_1=0\n\\end{aligned}\\)\n\\(\\begin{aligned} & \\Rightarrow y_1+x y_2+\\frac{n^2}{x} y=0 \\\\ & \\Rightarrow y_1 x+x^2 y_2+n^2 y=0 \\\\ & \\Rightarrow x^2 y_2+x y_1+n^2 y=0 \\\\ & A=x^2, B=x, C=n^2\\end{aligned}\\)"
+  }
+}

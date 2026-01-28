@@ -1,0 +1,63 @@
+{
+  "_id": "64b169d7f23ac7d519f9aef7",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1e77301f65c2f92c40",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2007-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2007 (Paper 1)",
+      "title": "JEE Advanced 2007 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Consider the following linear equations\n$$\na x+b y+c z=0, b x+c y+a z=0, c x+a y+b z=0\n$$\nMatch the conditions/expressions in Column I with statements in Column II.\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_advanced/67lHKgpE4NWG3yldUeb517taVAiUb-ATGMv_QnXaoBo.original.fullsize.png\"><br>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "1FKJQ",
+      "text": "\nA-p; B-p, s; C-p; D-q\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "50nYn",
+      "text": "\nA-r, q; B-r, s; C-r, s; D-r, s\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "APuQl",
+      "text": "\nA-s; B-p; C-q; D-s\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "aWtri",
+      "text": "\nA-r; B-q; C-p; D-s",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $\\Delta=\\left|\\begin{array}{lll}a & b & c \\\\ b & c & a \\\\ c & a & b\\end{array}\\right|=-\\frac{1}{2}(a+b+c)\\left[(a-b)^2+(b-c)^2+(c-a)^2\\right]$\n(A) If $a+b+c \\neq 0$ and $a^2+b^2+c^2=a b+b c+c a$\n$$\n\\Rightarrow \\quad \\Delta=0 \\text { and } a=b=c \\neq 0\n$$\nThe equations represents identical planes.\n(B) $a+b+c=0$ and $a^2+b^2+c^2 \\neq a b+b c+c a$\n$$\n\\Rightarrow \\quad \\Delta=0\n$$\nThe equations have infinitely many solutions.\n$$\n\\begin{array}{rlrl} \n& & a x+b y & =(a+b) z \\\\\n\\Rightarrow & b x+c y & =(b+c) z \\\\\n\\Rightarrow & & \\left(b^2-a c\\right) y & =\\left(b^2-a c\\right) z \\Rightarrow y=z \\\\\n\\Rightarrow & a x+b y+c y & =0 \\\\\n& a x & =a y \\Rightarrow x=y=z\n\\end{array}\n$$\n(C) $a+b+c \\neq 0$ and $a^2+b^2+c^2 \\neq a b+b c+c a$\n$$\n\\Rightarrow \\quad \\Delta \\neq 0\n$$\nThe equation represent planes meeting at only one point.\n(D) $a+b+c=0$ and $a^2+b^2+c^2=a b+b c+c a$\n$$\n\\Rightarrow \\quad a=b=c=0\n$$\nThe equations represent whole of the three dimensional space.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1e77301f65c2f92c40",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2007-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2007 (Paper 1)",
+    "title": "JEE Advanced 2007 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

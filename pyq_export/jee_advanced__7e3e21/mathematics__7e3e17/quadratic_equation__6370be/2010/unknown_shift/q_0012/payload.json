@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Advanced 2010 (Paper 1)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602526509c05a62a6370be",
+    "chapter_name": "Quadratic Equation",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $p$ and $q$ be real numbers such that $p \\neq 0, p^3 \\neq q$ and $p^3 \\neq-q$. If $\\alpha$ and $\\beta$ are non-zero complex numbers satisfying $\\alpha+\\beta=-p$ and $\\alpha^3+\\beta^3=q$, then $a$ quadratic equation having $\\frac{\\alpha}{\\beta}$ and $\\frac{\\beta}{\\alpha}$ as its roots is"
+  },
+  "options": [
+    {
+      "text": "\n$\\left(p^3+q\\right) x^2-\\left(p^3+2 q\\right) x$\n$$\n+\\left(p^3+q\\right)=0\n$$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left(p^3+q\\right) x^2-\\left(p^3-2 q\\right) x$\n$$\n+\\left(p^3+q\\right)=0\n$$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\left(p^3-q\\right) x^2-\\left(5 p^3-2 q\\right) x$\n$$\n+\\left(p^3-q\\right)=0\n$$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left(p^3-q\\right) x^2-\\left(5 p^3+2 q\\right) x$\n$$\n+\\left(p^3-q\\right)=0\n$$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Sum of roots $=\\frac{\\alpha^2+\\beta^2}{\\alpha \\beta}$ and product $=1$\nGiven, $\\alpha+\\beta=-p$ and $\\alpha^3+\\beta^3=q$\n$$\n\\begin{aligned}\n& \\Rightarrow(\\alpha+\\beta)\\left(\\alpha^2-\\alpha \\beta+\\beta^2\\right)=q \\\\\n& \\therefore \\quad \\alpha^2+\\beta^2-\\alpha \\beta=\\frac{-q}{p}\n\\end{aligned}\n$$\nand $\\quad(\\alpha+\\beta)^2=p^2$\n$$\n\\Rightarrow \\quad \\alpha^2+\\beta^2+2 \\alpha \\beta=p^2\n$$\nFrom Eqs. (i) and (ii), we get\n$$\n\\alpha^2+\\beta^2=\\frac{p^3-2 q}{3 p}\n$$\nand $\\alpha \\beta=\\frac{p^3+q}{3 p}$\n$\\therefore$ Required equation is\n$$\n\\begin{gathered}\nx^2-\\frac{\\left(p^3-2 q\\right) x}{\\left(p^3+q\\right)}+1=0 \\\\\n\\Rightarrow\\left(p^3+q\\right) x^2-\\left(p^3-2 q\\right) x+\\left(p^3+q\\right)=0\n\\end{gathered}\n$$"
+  }
+}

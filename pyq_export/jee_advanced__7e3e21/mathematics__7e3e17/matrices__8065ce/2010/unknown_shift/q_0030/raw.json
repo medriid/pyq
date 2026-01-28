@@ -1,0 +1,63 @@
+{
+  "_id": "64b16a02f23ac7d519f9b07f",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "620a8a1f77301f65c2f92c46",
+      "examId": "615d76cfc52ffa3c944600e0",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010 (Paper 1)",
+      "title": "JEE Advanced 2010 (Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nLet $p$ be an odd prime number and $T_p$ be the following set of $2 \\times 2$ matrices\n$$\nT_p=\\left\\{A=\\left[\\begin{array}{ll}\na & b \\\\\nc & a\n\\end{array}\\right] ; a, b, c \\in\\{0,1,2, \\ldots, p-1\\}\\right\\}\n$$<strong>Question:</strong>\nThe number of $A$ in $T_p$ such that $\\operatorname{det}(A)$ is not divisible by $p$, is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "9cwn1",
+      "text": "\n$2 p^2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "YSpNi",
+      "text": "\n$p^3-5 p$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "pESNN",
+      "text": "\n$p^3-3 p$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "89zi6",
+      "text": "\n$p^3-p^2$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "The number of matrices for which $p$ does not divide $\\operatorname{Tr}(A)=(p-1) p^2$ of these $(p-1)^2$ are such that $p$ divides $|A|$. The number of matrices for which $p$ divides $\\operatorname{Tr}(A)$ and $p$ does not divides $|A|$ are $(p-1)^2$\n$$\n\\begin{aligned}\n& \\therefore \\text { Required number } \\\\\n& =(p-1) p^2-(p-1)^2+(p-1)^2 \\\\\n& =p^3-p^2\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "620a8a1f77301f65c2f92c46",
+    "examId": "615d76cfc52ffa3c944600e0",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010 (Paper 1)",
+    "title": "JEE Advanced 2010 (Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2017",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964ccd1d619927718b113a",
+    "chapter_name": "Permutation Combination",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Out of 7 consonants and 4 vowels, words are formed each having 3 consonants and 2 vowels. The number of such words that can be formed is"
+  },
+  "options": [
+    {
+      "text": "210",
+      "is_correct": false
+    },
+    {
+      "text": "25200",
+      "is_correct": true
+    },
+    {
+      "text": "2520",
+      "is_correct": false
+    },
+    {
+      "text": "302400",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Out of 7 consonants, the number of ways of selecting 3 consonants $={ }^{7} C_{3}$ \r\nSimilarly, number of ways of selecting\r\n2 vowels out of 4 vowels $={ }^{4} C_{2}$\r\n$\\therefore$ Total number of words formed\r\n$$\r\n\\begin{array}{l}\r\n={ }^{7} C_{3} \\times{ }^{4} C_{2} \\times{ }^{5} P_{5} \\\\\r\n=\\frac{7 \\times 6 \\times 5}{3 \\times 2 \\times 1} \\times \\frac{4 \\times 3}{2 \\times 1} \\times 51 \\\\\r\n=7 \\times 5 \\times 2 \\times 3 \\times 120=25200\r\n\\end{array}\r\n$$"
+  }
+}

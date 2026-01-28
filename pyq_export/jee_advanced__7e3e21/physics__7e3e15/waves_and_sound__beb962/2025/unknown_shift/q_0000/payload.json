@@ -1,0 +1,24 @@
+{
+  "index": 0,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2025 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "616056cd0283de43c87e3e15",
+    "subject_name": "Physics",
+    "chapter_id": "616023feeffb5137d3beb962",
+    "chapter_name": "Waves and Sound",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "An audio transmitter $(T)$ and a receiver $(R)$ are hung vertically from two identical massless strings of length 8 m with their pivots well separated along the $X$ axis. They are pulled from the equilibrium position in opposite directions along the $X$ axis by a small angular amplitude $\\theta_0=\\cos ^{-1}(0.9)$ and released simultaneously. If the natural frequency of the transmitter is 660 Hz and the speed of sound in air is $330 \\mathrm{~m} / \\mathrm{s}$, the maximum variation in the frequency (in Hz ) as measured by the receiver (Take the acceleration due to gravity $g=10 \\mathrm{~m} / \\mathrm{s}^2$ ) is $\\qquad$\n<img src=\"assets\\qt0000_5a15f976f3cc.png\"><br>"
+  },
+  "options": [],
+  "correct_answer": "31.19",
+  "solution": {
+    "text": "$\\begin{aligned} & \\cos \\theta_0=1-\\frac{\\theta_0^2}{2}=0.9 \\\\ & \\frac{\\theta_0^2}{2}=0.1 \\Rightarrow \\theta_0=10.2=\\frac{1}{\\sqrt{5}}\\end{aligned}$\n<img src=\"assets\\st0000_093824e553e9.png\"><br>$\\begin{aligned} & f_{\\max }=\\frac{v+v^{\\prime}}{v-v^{\\prime}} f \\\\ & f_{\\min }=\\frac{v-v^{\\prime}}{v+v^{\\prime}} f \\\\ & \\Delta f_{\\max }=f_{\\max }-f_{\\min }=\\frac{v+v^{\\prime}}{v-v^{\\prime}} f-\\frac{v-v^{\\prime}}{v+v^{\\prime}} f \\\\ & =\\frac{\\left(v+v^{\\prime}\\right)^2-\\left(v-v^{\\prime}\\right)^2}{v^2-v^{\\prime 2}} f\\end{aligned}$\n$\\Delta f_{\\max }=\\frac{4 v v^{\\prime}}{v^2-v^{\\prime 2}} f \\qquad ....(i)$\nHere, $\\mathrm{v}^{\\prime}=\\ell \\Omega_{\\max }$\n$=\\ell \\cdot \\theta_0 \\cdot \\omega \\quad(\\omega=\\text { angular frequency })$\n$\\begin{aligned} & =\\ell \\theta_0 \\sqrt{\\frac{\\mathrm{~g}}{\\ell}} \\\\ & \\mathrm{v}^{\\prime}=\\theta_0 \\sqrt{\\mathrm{~g} \\ell} \\\\ & \\mathrm{v}^{\\prime}=\\frac{1}{\\sqrt{5}} \\sqrt{10 \\times 8} \\\\ & \\mathrm{v}^{\\prime}=4\\end{aligned}$\nPut in equation (i)\n$\\begin{aligned} & \\Delta \\mathrm{f}_{\\max }=\\frac{4 \\times 330 \\times 4 \\times 660}{330^2-4^2} \\\\ & \\approx \\frac{16 \\times 330 \\times 660}{330} \\approx 32\\end{aligned}$"
+  }
+}

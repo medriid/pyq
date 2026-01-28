@@ -1,0 +1,43 @@
+{
+  "index": 55,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "WBJEE 2011",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0f42b7a9706676933c",
+    "chapter_name": "Functions",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The even function of the following is"
+  },
+  "options": [
+    {
+      "text": "\\(f(x)=\\frac{a^x+a^{-x}}{a^x-a^{-x}}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(f(x)=\\frac{a^x+1}{a^x-1}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(f(x)=x \\cdot \\frac{a^x-1}{a^x+1}\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(\\mathrm{f}(\\mathrm{x})=\\log _2\\left(\\mathrm{x}+\\sqrt{\\mathrm{x}^2+1}\\right)\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Hints: \\(f(-x)=(-x) \\frac{a^{-x}-1}{a^{-x}+1}\\)\n\\(\\begin{aligned}\n& =(-n) \\frac{1-a^x}{1+a^x} \\\\\n& =n \\frac{\\left(a^x-1\\right)}{\\left(a^x+1\\right)}=f(x)\n\\end{aligned}\\)"
+  }
+}

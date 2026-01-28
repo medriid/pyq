@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602555685234356f221f74",
+    "chapter_name": "Functions",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If the domain of the function<br/>$f(x)=\\log _e\\left(\\frac{2 x-3}{5+4 x}\\right)+\\sin ^{-1}\\left(\\frac{4+3 x}{2-x}\\right) \\quad \\text { is } \\quad[\\alpha, \\beta)$<br/>then $\\alpha^2+4 \\beta$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$5$",
+      "is_correct": false
+    },
+    {
+      "text": "$4$",
+      "is_correct": true
+    },
+    {
+      "text": "$3$",
+      "is_correct": false
+    },
+    {
+      "text": "$7$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given function is<br/>$f(x)=\\log _e\\left(\\frac{2 x-3}{5+4 x}\\right)+\\sin ^{-1}\\left(\\frac{4+3 x}{2-x}\\right)$<br/>For domain, the conditions are<br/>$\\frac{2 x-3}{5+4 x} \\gt 0 \\text { and }\\left|\\frac{4+3 x}{2-x}\\right| \\leq 1$<br/>Now, $\\frac{2 \\mathrm{x}-3}{5+4 \\mathrm{x}} \\gt 0 \\Rightarrow \\mathrm{x} \\in\\left(-\\infty,-\\frac{5}{4}\\right) \\cup\\left[\\frac{3}{2}, \\infty\\right)$<br/>and $\\quad-1 \\leq \\frac{4+3 x}{2-x} \\leq 1$<br/>$\\Rightarrow\\left(-1 \\leq \\frac{4+3 x}{2-x}\\right) \\cap\\left(\\frac{4+3 x}{2-x} \\leq 1\\right)$<br/>$\\Rightarrow\\left(\\frac{6+2 \\mathrm{x}}{2-\\mathrm{x}} \\geq 0\\right) \\cap\\left(\\frac{2+4 \\mathrm{x}}{2-\\mathrm{x}} \\leq 0\\right)$<br/>$\\begin{aligned} & \\Rightarrow \\frac{6+2 x}{2-x} \\cdot \\frac{2+4 x}{2-x} \\leq 0 \\\\ & \\Rightarrow x \\in\\left[-3,-\\frac{1}{2}\\right]\\end{aligned}$<br/>Hence, we get the domain of f as $\\mathrm{x} \\in\\left[-3,-\\frac{5}{4}\\right)$ This means that $\\alpha=-3, \\beta=-\\frac{5}{4}$ Thus, $\\alpha^2+4 \\beta=9-5=4$"
+  }
+}

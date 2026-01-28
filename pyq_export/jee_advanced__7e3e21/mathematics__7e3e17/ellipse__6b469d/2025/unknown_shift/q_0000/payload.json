@@ -1,0 +1,44 @@
+{
+  "index": 0,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2025 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602540e6d04db2c46b469d",
+    "chapter_name": "Ellipse",
+    "year": "2025",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $P\\left(x_1, y_1\\right)$ and $Q\\left(x_2, y_2\\right)$ be two distinct points on the ellipse\n$\\frac{x^2}{9}+\\frac{y^2}{4}=1$\nsuch that $y_1>0$, and $y_2>0$. Let C denote the circle $x^2+y^2=9$, and $M$ be the point $(3,0)$.\nSuppose the line $x=x_1$ intersects $C$ at $R$, and the line $x=x_2$ intersects $C$ at $S$, such that the $y$-coordinates of $R$ and $S$ are positive. Let $\\angle R O M=\\frac{\\pi}{6}$ and $\\angle S O M=\\frac{\\pi}{3}$, where $O$ denotes the origin $(0,0)$. Let $|X Y|$ denote the length of the line segment $X Y$.<br>Then which of the following statements is (are) TRUE?"
+  },
+  "options": [
+    {
+      "text": "The equation of the line joining $P$ and $Q$ is $2 x+3 y=3(1+\\sqrt{3})$",
+      "is_correct": true
+    },
+    {
+      "text": "The equation of the line joining $P$ and $Q$ is $2 x+y=3(1+\\sqrt{3})$",
+      "is_correct": false
+    },
+    {
+      "text": "If $N_2=\\left(x_2, 0\\right)$, then $3\\left|N_2 Q\\right|=2\\left|N_2 S\\right|$",
+      "is_correct": true
+    },
+    {
+      "text": "If $N_1=\\left(x_1, 0\\right)$, then $9\\left|N_1 P\\right|=4\\left|N_1 R\\right|$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A",
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0000_08112cb0b913.png\"><br>$\\begin{aligned} & \\mathrm{P} \\equiv\\left(3 \\cos 30^{\\circ}, 2 \\sin 30^{\\circ}\\right) \\equiv\\left(\\frac{3 \\sqrt{3}}{2}, 1\\right) \\\\ & \\mathrm{Q} \\equiv\\left(3 \\cos 60^{\\circ}, 2 \\sin 60^{\\circ}\\right) \\equiv\\left(\\frac{3}{2}, \\sqrt{3}\\right) \\\\ & \\mathrm{R}\\left(\\frac{3 \\sqrt{3}}{2}, \\frac{3}{2}\\right), \\mathrm{S}\\left(\\frac{3}{2}, \\frac{3 \\sqrt{3}}{2}\\right)\\end{aligned}$\nSlope of $\\mathrm{PQ}=\\mathrm{m}_{\\mathrm{PQ}}=\\frac{\\sqrt{3}-1}{\\frac{3}{2}-\\frac{3 \\sqrt{3}}{2}}=-\\frac{2}{3}$\nEquation of line PQ\n$\\mathrm{y}-\\sqrt{3}=-\\frac{2}{3}\\left(\\mathrm{x}-\\frac{3}{2}\\right)$\n$\\Rightarrow 2 x+3 y=3(\\sqrt{3}+1) \\quad$ option (A) is correct\nNow\n$\\begin{aligned} & \\text { if } \\mathrm{N}_2=\\left(\\mathrm{x}_2, 0\\right)=\\left(\\frac{3}{2}, 0\\right) \\\\ & \\left|\\mathrm{N}_2 \\mathrm{Q}\\right|=\\sqrt{3} \\text { and }\\left|\\mathrm{N}_2 \\mathrm{~S}\\right|=\\frac{3 \\sqrt{3}}{2}\\end{aligned}$\n$\\Rightarrow 3\\left|\\mathrm{~N}_2 \\mathrm{Q}\\right|=2\\left|\\mathrm{~N}_2 \\mathrm{~S}\\right| \\quad$ option (C) is correct\nNow, if $\\mathrm{N}_1=\\left(\\mathrm{x}_1, 0\\right) \\Rightarrow \\mathrm{N}_1=\\left(\\frac{3 \\sqrt{3}}{2}, 0\\right)$\n$\\Rightarrow\\left|\\mathrm{N}_1 \\mathrm{P}\\right|=1,\\left|\\mathrm{~N}_1 \\mathrm{R}\\right|=\\frac{3}{2} \\quad$ option (D) is incorrect"
+  }
+}

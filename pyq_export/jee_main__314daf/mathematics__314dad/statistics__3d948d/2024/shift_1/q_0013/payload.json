@@ -1,0 +1,24 @@
+{
+  "index": 13,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (05 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025479bcff3fc153d948d",
+    "chapter_name": "Statistics",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "From a lot of 10 items, which include 3 defective items, a sample of 5 items is drawn at random. Let the random variable $\\mathrm{X}$ denote the number of defective items in the sample. If the variance of $\\mathrm{X}$ is $\\sigma^2$, then $96 \\sigma^2$ is equal to ______"
+  },
+  "options": [],
+  "correct_answer": "56",
+  "solution": {
+    "text": "$X=$ denotes number of defective\n$\\begin{array}{|c|c|c|c|c|}\n\\hline \\mathrm{x} & 0 & 1 & 2 & 3 \\\\\n\\hline \\mathrm{P}(\\mathrm{x}) & \\frac{7}{15} & \\frac{5}{12} & \\frac{5}{12} & \\frac{1}{12} \\\\\n\\hline \\mathrm{x}_1{ }^2 & 0 & 1 & 4 & 9 \\\\\n\\hline \\mathrm{P}_{\\mathrm{i}} \\mathrm{x}_1{ }^2 & 0 & \\frac{5}{12} & \\frac{20}{12} & \\frac{9}{12} \\\\\n\\hline \\mathrm{p}_{\\mathrm{i}} \\mathrm{x}_{\\mathrm{i}} & 0 & \\frac{5}{12} & \\frac{10}{12} & \\frac{3}{12} \\\\\n\\hline\n\\end{array}$\n$\\mu=\\Sigma \\mathrm{p}_{\\mathrm{i}} \\mathrm{x}_{\\mathrm{i}}=\\frac{18}{12}$\n$\\begin{aligned}\n& \\Sigma \\mathrm{p}_{\\mathrm{i}} \\mathrm{x}_1^2=\\frac{34}{12} \\\\\n& \\sigma^2=\\Sigma \\mathrm{p}_{\\mathrm{i}} \\mathrm{x}_1^2-(\\mu)^2\n\\end{aligned}$\n$\\begin{aligned} & =\\frac{34}{12}-\\left(\\frac{18}{12}\\right)^2=\\frac{17}{6}-\\frac{9}{4} \\\\ & \\frac{34-27}{12}=\\frac{7}{12} \\\\ & 96 \\sigma^2=96 \\times \\frac{7}{12}=56\\end{aligned}$"
+  }
+}

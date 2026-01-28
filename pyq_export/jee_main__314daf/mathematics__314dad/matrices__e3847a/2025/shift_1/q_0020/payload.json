@@ -1,0 +1,24 @@
+{
+  "index": 20,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $A$ be a square matrix of order 3 such that $\\operatorname{det}(A)=-2$ and $\\operatorname{det}(3 \\operatorname{adj}(-6 \\operatorname{adj}(3 A)))=2^{\\mathrm{m}+\\mathrm{n}} \\cdot 3^{\\mathrm{mn}}, \\mathrm{m}\\gt\\mathrm{n}$. Then $4 \\mathrm{~m}+2 \\mathrm{n}$ is equal to _______"
+  },
+  "options": [],
+  "correct_answer": "34",
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\text { As } A \\operatorname{adj} A=|A| l, \\operatorname{det}(\\lambda A)=\\lambda^n \\operatorname{det} A \\\\\n& \\operatorname{det}(3 \\operatorname{adj}(-6 \\operatorname{adj}(3 A)))=3^3 \\operatorname{det}(\\operatorname{adj}(-6 \\operatorname{adj}(3 A))) \\\\\n& =3^3(-6 \\operatorname{adj}(3 A))^2 \\\\\n& =3^3(-6)^6|3 A|^4 \\\\\n& =3^9 2^6 \\cdot 3^{12} \\cdot(-2)^4 \\\\\n& =3^{21} \\cdot 2^{10}\n\\end{aligned}$\n\nNow comparing with given condition\n$\\begin{aligned}\n& 2^{m+n} 3^{m n}=2^{10} \\cdot 3^{21} \\\\\n& m+n=10, m n=21 \\\\\n& \\Rightarrow \\quad m=7, n=3(m>n) \\\\\n& \\therefore \\quad 4 m+2 n=28+6=34\n\\end{aligned}$"
+  }
+}

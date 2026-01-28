@@ -1,0 +1,45 @@
+{
+  "index": 52,
+  "type": "multipleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2009 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255d3df243724d460a9b",
+    "chapter_name": "Application of Derivatives",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For the function $f(x)=x \\cos \\frac{1}{x}, x \\geq 1$,"
+  },
+  "options": [
+    {
+      "text": "\nfor atleast one $x$ in the interval $[1, \\infty)$, $f(x+2)-f(x) < 2$",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\lim _{x \\rightarrow \\infty} f^{\\prime}(x)=1$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nfor all $x$ in the interval $[1, \\infty)$, $f(x+2)-f(x)>2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$f^{\\prime}(x)$ is strictly decreasing in the interval $[1, \\infty)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "B",
+    "C",
+    "D"
+  ],
+  "solution": {
+    "text": "Given, $f(x)=x \\cos \\frac{1}{x}, x \\geq 1$\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad f^{\\prime}(x)=\\frac{1}{x} \\sin \\frac{1}{x}+\\cos \\frac{1}{x} \\\\\n& \\Rightarrow \\quad f^{\\prime \\prime}(x)=-\\frac{1}{x^3} \\cos \\left(\\frac{1}{x}\\right)\n\\end{aligned}\n$$\nNow, $\\lim _{x \\rightarrow \\infty} f^{\\prime}(x)=0+1=1$\n$\\Rightarrow$ Option (b) is correct.\nNow, $\\quad x \\in[1, \\infty) \\Rightarrow \\frac{1}{x} \\in(0,1]$\n$\\Rightarrow f^{\\prime \\prime}(x) < 0 \\Rightarrow$ Option (d) is correct.\nAs $f^{\\prime}(1)=\\sin 1+\\cos 1>1$\n$f^{\\prime}(x)$ is strictly decreasing and $\\lim _{x \\rightarrow \\infty} f^{\\prime}(x)=1$\nSo, graph of $f^{\\prime}(x)$ is shown as below.<img src=\"assets\\st0052_cf3182d209d6.png\"><br>\nNow, in $[x, x+2], x \\in[1, \\infty), f(x)$ is continuous and differentiable so by LMVT,\n$$\nf^{\\prime}(x)=\\frac{f(x+2)-f(x)}{2}\n$$\nAs $f^{\\prime}(x)>1$ for all $x \\in[1, \\infty)$\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad \\frac{f(x+2)-f(x)}{2}>1 \\\\\n& \\Rightarrow f(x+2)-f(x)>2 \\quad \\text { for all } x \\in[1, \\infty)\n\\end{aligned}\n$$"
+  }
+}

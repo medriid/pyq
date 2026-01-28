@@ -1,0 +1,43 @@
+{
+  "index": 42,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256d4f8c6827c3ba126d",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $P(x, y, z)$ be a point in the first octant, whose projection in the $x y$-plane is the point $Q$. Let $O P=\\gamma$; the angle between $O Q$ and the positive $x$-axis be $\\theta$; and the angle between $O P$ and the positive $z$-axis be $\\phi$, where $O$ is the origin. Then the distance of $P$ from the $x$-axis is"
+  },
+  "options": [
+    {
+      "text": "$\\gamma \\sqrt{1-\\sin ^2 \\phi \\cos ^2 \\theta}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\gamma \\sqrt{1-\\sin ^2 \\theta \\cos ^2 \\phi}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\gamma \\sqrt{1+\\cos ^2 \\phi \\sin ^2 \\theta}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\gamma \\sqrt{1+\\cos ^2 \\theta \\sin ^2 \\phi}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{P}(\\mathrm{x}, \\mathrm{y}, \\mathrm{z}), \\mathrm{Q}(\\mathrm{x}, \\mathrm{y}, \\mathrm{O}) ; \\mathrm{x}^2+\\mathrm{y}^2+\\mathrm{z}^2=\\gamma^2 \\\\ & \\overline{\\mathrm{OQ}}=\\mathrm{x} \\hat{\\mathrm{i}}+\\mathrm{y} \\hat{\\mathrm{j}} \\\\ & \\cos \\theta=\\frac{\\mathrm{x}}{\\sqrt{\\mathrm{x}^2+\\mathrm{y}^2}} \\\\ & \\cos \\phi=\\frac{\\mathrm{z}}{\\sqrt{\\mathrm{x}^2+\\mathrm{y}^2+\\mathrm{z}^2}} \\\\ & \\Rightarrow \\sin ^2 \\phi=\\frac{\\mathrm{x}^2+\\mathrm{y}^2}{\\mathrm{x}^2+\\mathrm{y}^2+\\mathrm{z}^2}\\end{aligned}$\ndistance of $\\mathrm{P}$ from $\\mathrm{x}$-axis $\\sqrt{\\mathrm{y}^2+\\mathrm{z}^2}$\n$\\begin{aligned} & \\Rightarrow \\sqrt{\\gamma^2-x^2} \\Rightarrow \\gamma \\sqrt{1-\\frac{x^2}{\\gamma^2}} \\\\ & =\\gamma \\sqrt{1-\\cos ^2 \\theta \\sin ^2 \\phi}\\end{aligned}$"
+  }
+}

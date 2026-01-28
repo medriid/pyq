@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2019",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964f81a5a526011886801d",
+    "subject_name": "Physics",
+    "chapter_id": "61964c90c6a1615f7dc9e5c1",
+    "chapter_name": "Alternating Current",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "When a $60 \\mathrm{mH}$ inductor and a resistor are connected in series with an AC voltage source, the voltage leads the current by $60^{\\circ}$. If the inductor is replaced by a $0.5 \\mu \\mathrm{F}$ capacitor, the voltage lags behind the current by $30^{\\circ} .$ What is the frequency of the AC supply?"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{2 \\pi} \\times 10^{4} \\mathrm{Hz}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{\\pi} \\times 10^{4} \\mathrm{Hz}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{3}{2 \\pi} \\times 10^{4} \\mathrm{Hz}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2 \\pi} \\times 10^{8} \\mathrm{Hz}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given, inductance of inductor, $L=60 \\mathrm{mH}$\r\n$$\r\n=60 \\times 10^{-3} \\mathrm{H}\r\n$$\r\nPhase difference between voltage and current in $L-R$ circuit, $\\theta_{1}=60^{\\circ}$\r\nCapacitance of capacitor, $C=0.5 \\mu \\mathrm{F}=0.5 \\times 10^{-6} \\mathrm{F}$ Phase difference between voltage and current in $\\vec{R}-C$ circuit, $\\theta_{2}=30^{\\circ}$\r\nFor $L-R$ circuit.\r\n$$\r\n\\begin{array}{l}\r\n\\tan \\theta_{1}=\\frac{X_{L}}{R} \\\\\r\n\\tan \\theta_{1}=\\frac{\\omega L}{R} \\quad \\ldots(\\mathrm{i})\\left[\\because X_{L}=\\omega L\\right]\r\n\\end{array}\r\n$$\r\nSimilarly, for $R$ - $C$ circuit,\r\n$$\r\n\\tan \\theta_{2}=\\frac{X_{C}}{R}\r\n$$\r\n$$\r\n\\tan \\theta_{2}=\\frac{\\frac{1}{{\\omega C}}}{R} \\quad \\ldots(\\mathrm{ii})\\left[\\because X_{C}=\\frac{1}{\\omega C}\\right]\r\n$$\r\nFrom Eqs. (i) and (ii), we get\r\n$$\r\n\\begin{array}{l}\r\n\\frac{\\tan \\theta_{1}}{\\tan \\theta_{2}}=\\frac{\\omega L}{R \\times \\frac{1}{\\omega C R}}=\\omega^{2} L C \\\\\r\n\\frac{\\tan 60^{\\circ}}{\\tan 30^{\\circ}}=\\omega^{2} L C \\\\\r\n\\frac{\\sqrt{3}}{1 / \\sqrt{3}}=\\omega^{2} L C \\\\\r\n\\omega^{2} L C=3 \\\\\r\n\\omega^{2}=\\frac{3}{L C} \\\\\r\n\\omega^{2}=\\frac{3}{60 \\times 10^{-3} \\times 0.5 \\times 10^{-6}} \\\\\r\n\\omega^{2}=\\frac{3}{30 \\times 10^{-9}} \\\\\r\n\\omega=\\sqrt{10^{8}} \\\\\r\n\\omega=10^{4}\r\n\\end{array}\r\n$$\r\nAs we know that,\r\n$$\r\n\\omega=2 \\pi f\r\n$$\r\n$$\r\nf=\\frac{\\omega}{2 \\pi}=\\frac{10^{4}}{2 \\pi} \\mathrm{Hz}=\\frac{1}{2 \\pi} \\times 10^{4} \\mathrm{Hz}\r\n$$"
+  }
+}

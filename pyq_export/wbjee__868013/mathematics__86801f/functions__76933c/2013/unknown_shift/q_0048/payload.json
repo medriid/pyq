@@ -1,0 +1,44 @@
+{
+  "index": 48,
+  "type": "multipleCorrect",
+  "difficulty": 2,
+  "pyq_info": "WBJEE 2013",
+  "tags": {
+    "exam_id": "61961adca5a5260118868013",
+    "exam_name": "WBJEE",
+    "subject_id": "61964fa4a5a526011886801f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61964d0f42b7a9706676933c",
+    "chapter_name": "Functions",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Which of the following real valued functions is/are not even functions?"
+  },
+  "options": [
+    {
+      "text": "$f(x)=x^{3} \\sin x$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x)=x^{2} \\cos x$",
+      "is_correct": false
+    },
+    {
+      "text": "$f(x)=e^{x} x^{3} \\sin x$",
+      "is_correct": true
+    },
+    {
+      "text": "$f(x)=x-[x]$, where $[x]$ denotes the greatest integer less than or equal to $x$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "C",
+    "D"
+  ],
+  "solution": {
+    "text": "We know that, if $f(-x)=f(x)$, then function is even and $f(-x)=-f(x)$, then function is odd.\r\n(a) $f(x)=x^{3} \\sin x$\r\n$$\r\n\\begin{aligned}\r\nf(-x) &=(-x)^{3} \\sin (-x) \\\\\r\n&=-x^{3}(-\\sin x) \\\\\r\n&=x^{3} \\sin x=f(x)\r\n\\end{aligned}\r\n$$\r\nSo, $f(x)$ is even.\r\n(b) $f(x)=x^{2} \\cos x$\r\n$$\r\nf(-x)=(-x)^{2} \\cos (-x)=x^{2} \\cos x=f(x)\r\n$$\r\nSo, $f(x)$ is even.\r\n(c) $f(x)=e^{x} x^{3} \\sin x$\r\n$$\r\n\\begin{array}{r}\r\nf(-x)=e^{-x}(-x)^{3} \\sin (-x) \\\\\r\n=e^{-x} x^{3} \\sin x \\neq f(x)\r\n\\end{array}\r\n$$\r\n$\\therefore \\quad f(x)$ is not even.\r\n(d) $f(x)=x-[x]$ $f(-x)=(-x)-[-x] \\neq f(x)$\r\n$\\therefore f(x)$ is not even."
+  }
+}

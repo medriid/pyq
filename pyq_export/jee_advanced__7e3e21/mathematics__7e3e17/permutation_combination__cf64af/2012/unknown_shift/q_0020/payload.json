@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Advanced 2012 (Paper 2)",
+  "tags": {
+    "exam_id": "616059150283de43c87e3e21",
+    "exam_name": "JEE Advanced",
+    "subject_id": "6160570c0283de43c87e3e17",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252aaac414b50bcf64af",
+    "chapter_name": "Permutation Combination",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $a_{n}$ denote the number of all $n$-digit positive integers formed by the digits 0,1 or both such that no consecutive digits in them are 0 . Let $b_{n}=$ the number of such $n$-digit integers ending with digit 1 and $c_{n}=$ the number of such $n$-digit integers ending with digit 0 .\r\n\r\n<strong> Question:</strong> Which of the following is correct?"
+  },
+  "options": [
+    {
+      "text": "$a_{17}=a_{16}+a_{15}$",
+      "is_correct": true
+    },
+    {
+      "text": "$c_{17} \\neq c_{16}+c_{15}$",
+      "is_correct": false
+    },
+    {
+      "text": "$b_{17} \\neq b_{16}+c_{16}$",
+      "is_correct": false
+    },
+    {
+      "text": "$a_{17}=c_{17}+b_{16}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "By recurring formula, $a_{17}=a_{16}+a_{15}$ is correct\r\n\r\nAlso $c_{17} \\neq c_{16}+c_{15}$\r\n\r\n$\\Rightarrow a_{15} \\neq a_{14}+a_{13}\\left(\\because c_{n}=a_{n-2}\\right)$\r\n\r\n$\\therefore$ Incorrect\r\n\r\nSimilarly, other parts are also incorrect."
+  }
+}
