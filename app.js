@@ -57,6 +57,45 @@ async function fetchJson(path){
   return await res.json();
 }
 
+function looksLikeHtml(text){
+  return /<\/?[a-z][\s\S]*>/i.test(text);
+}
+
+function normalizeAssetPath(pathOrUrl, base){
+  if(!pathOrUrl) return "";
+  const clean = pathOrUrl.replaceAll("\\","/");
+  if(clean.startsWith("assets/")) return `${base}/${clean}`;
+  return clean;
+}
+
+function normalizeHtmlContent(raw, base){
+  if(!raw) return "";
+  if(!looksLikeHtml(raw)){
+    return escapeHtml(raw).replace(/\n/g, "<br />");
+  }
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(raw, "text/html");
+  doc.querySelectorAll("img[src]").forEach((img) => {
+    const src = img.getAttribute("src");
+    const next = normalizeAssetPath(src, base);
+    if(next) img.setAttribute("src", next);
+  });
+  doc.querySelectorAll("a[href]").forEach((link) => {
+    const href = link.getAttribute("href");
+    const next = normalizeAssetPath(href, base);
+    if(next) link.setAttribute("href", next);
+  });
+  return doc.body.innerHTML;
+}
+
+function typesetMath(){
+  if(!window.MathJax || !window.MathJax.typesetPromise) return;
+  const el = $("viewer");
+  if(!el) return;
+  if(window.MathJax.typesetClear) window.MathJax.typesetClear([el]);
+  window.MathJax.typesetPromise([el]).catch(() => {});
+}
+
 function withCatalogRoot(relPath){
   const root = state.catalog?.root;
   if(!root || root === ".") return relPath;
@@ -193,6 +232,7 @@ function renderQuestionList(isSearchResult=false){
 
 function setViewerHtml(html){
   $("viewer").innerHTML = html;
+  requestAnimationFrame(typesetMath);
 }
 
 function htmlBlock(title, inner){
@@ -202,7 +242,7 @@ function htmlBlock(title, inner){
 function renderImageMaybe(pathOrUrl){
   if(!pathOrUrl) return "";
   // payload uses "assets/..." relative to question folder
-  return `<div style="margin-top:8px"><img src="${pathOrUrl}" alt="" /></div>`;
+  return `<div style="margin-top:8px"><img loading="lazy" decoding="async" src="${pathOrUrl}" alt="" /></div>`;
 }
 
 async function openQuestion(rel){
@@ -219,12 +259,10 @@ async function openQuestion(rel){
 
     // Fix asset-relative image paths: "assets/x.png" => "<base>/assets/x.png"
     const fixAsset = (p) => {
-      if(!p) return "";
-      if(p.startsWith("assets/")) return `${base}/${p}`;
-      return p;
+      return normalizeAssetPath(p, base);
     };
 
-    const qText = data.question?.text ? data.question.text : "";
+    const qText = normalizeHtmlContent(data.question?.text || "", base);
     const qImg = fixAsset(data.question?.image);
 
     let qHtml = "";
@@ -238,7 +276,7 @@ async function openQuestion(rel){
       const o = options[i] || {};
       const badge = o.is_correct ? `<span class="badge good">correct</span>` : `<span class="badge">option</span>`;
       const label = letters[i] || String(i+1);
-      const oText = o.text ? o.text : "";
+      const oText = normalizeHtmlContent(o.text || "", base);
       const oImg = fixAsset(o.image);
       optHtml += `
         <div class="opt">
@@ -252,7 +290,7 @@ async function openQuestion(rel){
       `;
     }
 
-    const solText = data.solution?.text ? data.solution.text : "";
+    const solText = normalizeHtmlContent(data.solution?.text || "", base);
     const solImg = fixAsset(data.solution?.image);
     let solHtml = "";
     if(solText) solHtml += `<div class="qhtml">${solText}</div>`;
@@ -349,6 +387,23 @@ async function boot(){
     setViewerHtml(`<div class="hint">catalog.json has no exams.</div>`);
     return;
   }
+
+  const catalogUrl = new URL("catalog.json", window.location.href).toString();
+  const rootPath = state.catalog.root && state.catalog.root !== "." ? state.catalog.root : "/";
+  const rootUrl = new URL(rootPath.replace(/\/+$/,"") + "/", window.location.href).toString();
+  const dataCatalogEl = $("dataCatalogUrl");
+  const dataRootEl = $("dataRootUrl");
+  if(dataCatalogEl){
+    dataCatalogEl.textContent = catalogUrl;
+    dataCatalogEl.href = catalogUrl;
+  }
+  if(dataRootEl){
+    dataRootEl.textContent = rootUrl;
+  }
+  window.PYQ_EXPORT = {
+    catalog: catalogUrl,
+    root: rootUrl
+  };
 
   // Wire selects
   const examSel = $("examSelect");

@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>PYQ Export Viewer</title>
   <link rel="stylesheet" href="./styles.css" />
+  <link rel="alternate" type="application/json" title="PYQ Catalog" href="./catalog.json" />
+  <link rel="preload" as="fetch" href="./catalog.json" crossorigin="anonymous" />
+  <meta name="pyq-catalog" content="./catalog.json" />
+  <meta name="color-scheme" content="dark" />
 </head>
 <body>
   <header class="topbar">
@@ -47,6 +51,21 @@
         <div class="panel-title">Questions</div>
         <div id="qList" class="q-list"></div>
       </div>
+
+      <div class="panel">
+        <div class="panel-title">Data access</div>
+        <div class="meta">
+          <div class="data-row">
+            <span>Catalog</span>
+            <a id="dataCatalogUrl" class="data-link" href="./catalog.json" target="_blank" rel="noreferrer">catalog.json</a>
+          </div>
+          <div class="data-row">
+            <span>Root</span>
+            <span id="dataRootUrl" class="data-link">/</span>
+          </div>
+          <div class="hint small">These URLs are stable for external fetchers.</div>
+        </div>
+      </div>
     </aside>
 
     <section class="content">
@@ -65,6 +84,17 @@
     <span>Tip: put these files beside your export root and generate <code>catalog.json</code> using <code>make_catalog.py</code>.</span>
   </footer>
 
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [["\\(","\\)"], ["$","$"]]
+      },
+      options: {
+        skipHtmlTags: ["script","noscript","style","textarea","pre","code"]
+      }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>
