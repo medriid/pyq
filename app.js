@@ -57,6 +57,19 @@ async function fetchJson(path){
   return await res.json();
 }
 
+function withCatalogRoot(relPath){
+  const root = state.catalog?.root;
+  if(!root || root === ".") return relPath;
+  const cleanRoot = root.replace(/\/+$/,"");
+  const cleanRel = relPath.replace(/^\/+/,"");
+  if(cleanRel === cleanRoot || cleanRel.startsWith(`${cleanRoot}/`)) return cleanRel;
+  return `${cleanRoot}/${cleanRel}`;
+}
+
+function getChapterBasePath(){
+  return state.chapter ? withCatalogRoot(state.chapter.path) : "";
+}
+
 function setOptions(selectEl, items, getValue, getLabel){
   selectEl.innerHTML = "";
   for(const it of items){
@@ -112,7 +125,7 @@ async function bestEffortSearchFilter(q){
   for(let i=0;i<paths.length;i++){
     const rel = paths[i];
     try{
-      const payloadPath = `${state.chapter.path}/${rel}/payload.json`;
+      const payloadPath = `${getChapterBasePath()}/${rel}/payload.json`;
       const data = await fetchJson(payloadPath);
       const text = JSON.stringify({
         q: data.question?.text || "",
@@ -198,7 +211,7 @@ async function openQuestion(rel){
 
   setViewerHtml(`<div class="hint">Loading ${escapeHtml(rel)}...</div>`);
 
-  const base = `${state.chapter.path}/${rel}`;
+  const base = `${getChapterBasePath()}/${rel}`;
   const payloadPath = `${base}/payload.json`;
 
   try{
@@ -282,7 +295,7 @@ async function loadChapterIndex(){
   $("qList").innerHTML = "";
   setViewerHtml(`<div class="hint">Loading chapter index...</div>`);
 
-  const ciPath = state.chapter.chapter_index;
+  const ciPath = withCatalogRoot(state.chapter.chapter_index);
   try{
     const ci = await fetchJson(ciPath);
     state.chapterIndex = ci;
