@@ -64,7 +64,29 @@ def _detect_mask_fast(img_array: np.ndarray) -> np.ndarray:
     # Exclude dark pixels
     mask = mask & (brightness >= 180)
 
+    # Pick up faint bluish remnants of the watermark logo
+    blue_bias = (b - r >= 6) & (b - g >= 4)
+    light_blue = blue_bias & (brightness >= 200) & (brightness <= 245) & (color_variance <= 35)
+    mask = mask | light_blue
+
+    # Expand the mask slightly to remove edge outlines
+    mask = _dilate_mask(mask, radius=1)
+
     return mask
+
+
+def _dilate_mask(mask: np.ndarray, radius: int = 1) -> np.ndarray:
+    if radius <= 0:
+        return mask
+    padded = np.pad(mask, radius, mode='constant', constant_values=False)
+    out = np.zeros_like(mask, dtype=bool)
+    for dy in range(-radius, radius + 1):
+        for dx in range(-radius, radius + 1):
+            out |= padded[
+                radius + dy:radius + dy + mask.shape[0],
+                radius + dx:radius + dx + mask.shape[1]
+            ]
+    return out
 
 
 def _process_image(image_path: str) -> bool:
@@ -119,13 +141,19 @@ class WatermarkRemover:
         self.backup = backup
         self.output_suffix = output_suffix
     
-    def find_all_images(self, root_dir: str, years: tuple = (2024, 2025, 2026)) -> List[str]:
+    def find_all_images(
+        self,
+        root_dir: str,
+        years: tuple | None = None,
+        exam_filter: str | None = None,
+    ) -> List[str]:
         """
-        Find all image files in the directory tree for specific years.
+        Find all image files in the directory tree.
         
         Args:
             root_dir: Root directory to search
-            years: Tuple of years to include (default: (2024, 2025))
+            years: Optional tuple of years to include; if None, include all years
+            exam_filter: Optional substring to match in the path (e.g., "jee_main__")
         
         Returns:
             List of image file paths
@@ -134,8 +162,11 @@ class WatermarkRemover:
         image_files = []
         
         for root, dirs, files in os.walk(root_dir):
-            # Check if year is in path
-            if not any(f"/{year}/" in root for year in years):
+            # Optionally filter by exam in path
+            if exam_filter is not None and exam_filter not in root:
+                continue
+            # Optionally filter by year in path
+            if years is not None and not any(f"/{year}/" in root for year in years):
                 continue
             
             for file in files:
@@ -150,35 +181,18 @@ class WatermarkRemover:
         
         return image_files
     
-    def process_directory(self, directory: str, 
-                         region: str = "bottom",
-                         threshold: int = 200,
-                         max_workers: int = 4,
-                         years: tuple = (2024, 2025)) -> Tuple[int, int]:
-        """
-        Process all images in a directory for specific years.
-        
-        Args:
-            directory: Directory containing images
-            region: Watermark region
-            threshold: Brightness threshold
-            max_workers: Number of parallel workers
-            years: Tuple of years to include (default: (2024, 2025))
-        
-        Returns:
-            Tuple of (successful_count, total_count)
-        """
-        print(f"Scanning for images in {directory} (years: {years})...")
-        image_files = self.find_all_images(directory, years=years)
+    def process_images(
+        self,
+        image_files: List[str],
+        threshold: int = 200,
+        max_workers: int = 4,
+    ) -> Tuple[int, int]:
         total = len(image_files)
-        
-        print(f"Found {total} images to process")
-        
         if total == 0:
             return 0, 0
-        
+
         successful = 0
-        
+
         # Define watermark colors (MARKS branding colors detected from analysis)
         watermark_colors = [
             (237, 237, 238),
@@ -214,8 +228,38 @@ class WatermarkRemover:
                     if ok:
                         successful += 1
                     pbar.update(1)
-        
+
         return successful, total
+
+    def process_directory(self, directory: str, 
+                         region: str = "bottom",
+                         threshold: int = 200,
+                         max_workers: int = 4,
+                         years: tuple | None = None,
+                         exam_filter: str | None = None) -> Tuple[int, int]:
+        """
+        Process all images in a directory.
+        
+        Args:
+            directory: Directory containing images
+            region: Watermark region
+            threshold: Brightness threshold
+            max_workers: Number of parallel workers
+            years: Optional tuple of years to include; if None, include all years
+            exam_filter: Optional substring to match in the path (e.g., "jee_main__")
+        
+        Returns:
+            Tuple of (successful_count, total_count)
+        """
+        year_label = "all" if years is None else years
+        exam_label = "all" if exam_filter is None else exam_filter
+        print(f"Scanning for images in {directory} (years: {year_label}, exam: {exam_label})...")
+        image_files = self.find_all_images(directory, years=years, exam_filter=exam_filter)
+        total = len(image_files)
+        
+        print(f"Found {total} images to process")
+
+        return self.process_images(image_files, threshold=threshold, max_workers=max_workers)
 
 
 def main():
@@ -260,15 +304,21 @@ def main():
         "-y",
         nargs="+",
         type=int,
-        default=[2024, 2025],
-        help="Years to process (default: 2024 2025)"
+        default=[2026],
+        help="Years to process (default: 2026)"
+    )
+    parser.add_argument(
+        "--exam",
+        "-e",
+        default="jee_main__",
+        help="Exam filter substring (default: jee_main__)"
     )
     parser.add_argument(
         "--workers",
         "-w",
         type=int,
-        default=os.cpu_count() or 4,
-        help="Number of parallel workers (default: CPU count)"
+        default=min(64, (os.cpu_count() or 4) * 4),
+        help="Number of parallel workers (default: 4x CPU count, capped at 64)"
     )
     
     args = parser.parse_args()
@@ -287,7 +337,8 @@ def main():
     print("Watermark Removal Tool - Color Replacement Method")
     print("="*60)
     print(f"Directory: {args.directory}")
-    print(f"Years: {args.years}")
+    print(f"Years: {'all' if args.years is None else args.years}")
+    print(f"Exam filter: {args.exam or 'all'}")
     print(f"Region: {args.region}")
     print(f"Threshold: {args.threshold}")
     print(f"Mode: {'Keep originals (_nowm suffix)' if args.keep_originals else 'OVERWRITE originals'}")
@@ -300,7 +351,8 @@ def main():
         region=args.region,
         threshold=args.threshold,
         max_workers=args.workers,
-        years=tuple(args.years)
+        years=None if args.years is None else tuple(args.years),
+        exam_filter=args.exam or None,
     )
     
     # Print summary
