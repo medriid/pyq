@@ -1,0 +1,63 @@
+{
+  "_id": "65b7b87897ae24e9e2db8ca4",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "65b7b85fb3be70ed63adbe84",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2023-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Memory Based Paper 1)",
+      "title": "BITSAT 2023 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "If $\\vec{a}=\\hat{i}+\\hat{j}+\\hat{k}, \\vec{a} \\cdot \\vec{b}=1$ and $\\vec{a} \\times \\vec{b}=\\vec{j}-\\vec{k}$, then $\\vec{b}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "0CVlf",
+      "text": "$\\hat{i}-\\hat{j}+\\hat{k}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "3IsiH",
+      "text": "$2 \\hat{j}-\\hat{k}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "miymd",
+      "text": "$2 \\hat{i}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "WLSMr",
+      "text": "$\\hat{i}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given $\\vec{a}=\\hat{i}+\\hat{j}+\\hat{k}, \\vec{a} \\cdot \\vec{b}=1$ and $\\vec{a} \\times \\vec{b}=\\vec{j}-\\vec{k}$,<br />Let $\\bar{b}=b_1 \\hat{i}+b_2 \\hat{j}+b_3 \\widehat{k}$<br />Now, $\\hat{j}-\\widehat{k}=\\bar{a} \\times \\bar{b}=\\left|\\begin{array}{ccc}\\hat{i} & \\hat{j} & \\widehat{k} \\\\ 1 & 1 & 1 \\\\ b_2 & b_2 & b_3\\end{array}\\right|$<br />$\\Rightarrow b_3-b_2=0, b_1-b_3=1, b_2-b_1=-1$<br />$\\Rightarrow b_3=b_2, b_1=b_2+1$<br />Also, $\\bar{a} \\cdot \\bar{b}=1$<br />$\\Rightarrow b_1+b_2+b_3=1$<br />$\\Rightarrow 3 b_2+1=1$<br />$\\Rightarrow b_2=0$<br />$\\Rightarrow b_1=1, b_3=0$<br />Thus, $\\bar{b}=\\hat{i}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "65b7b85fb3be70ed63adbe84",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2023-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Memory Based Paper 1)",
+    "title": "BITSAT 2023 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

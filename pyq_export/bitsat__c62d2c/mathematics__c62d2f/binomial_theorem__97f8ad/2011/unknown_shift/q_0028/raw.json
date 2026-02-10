@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7976f5bfc7ab78ae631",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d75",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2011-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011",
+      "title": "BITSAT 2011"
+    }
+  ],
+  "question": {
+    "text": "In the binomial \\(\\left(2^{1 / 3}+3^{-1 / 3}\\right)^{\\mathrm{n}}\\), if the ratio of the seventh term from the beginning of the expansion to the seventh term from its end is \\(1 / 6\\), then \\(n\\) equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "mVHdN",
+      "text": "6",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "EvJr1",
+      "text": "9",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "I1YGq",
+      "text": "12",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "8l5hG",
+      "text": "15",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\(\\mathrm{T}_{\\mathrm{r}+1}={ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{r}} a^{\\mathrm{n}-\\mathrm{r}} \\cdot \\mathrm{b}^{\\mathrm{r}}\\) where \\(\\mathrm{a}=2^{1 / 3}\\) and \\(\\mathrm{b}=3^{-1 / 3}\\)\n\\(\\mathrm{T}_7\\) from beginning \\(={ }^n \\mathrm{C}_6 a^{\\mathrm{n}-6} \\mathrm{~b}^6\\) and \\(\\mathrm{T}_7\\) from end \\(={ }^{\\mathrm{n}} \\mathrm{C}_6 \\quad \\mathrm{~b}^{\\mathrm{n}-6} \\quad \\mathrm{a}^6\\)\n\\(\\begin{aligned}\n& \\Rightarrow \\frac{\\mathrm{a}^{\\mathrm{n}-12}}{\\mathrm{~b}^{\\mathrm{n}-12}}=\\frac{1}{6} \\Rightarrow 2^{\\frac{\\mathrm{n}-12}{3}} \\cdot 3^{\\frac{\\mathrm{n}-12}{3}}=6^{-1} \\\\\n& \\Rightarrow \\mathrm{n}-12=-3 \\Rightarrow \\mathrm{n}=9\n\\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d75",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2011-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011",
+    "title": "BITSAT 2011"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

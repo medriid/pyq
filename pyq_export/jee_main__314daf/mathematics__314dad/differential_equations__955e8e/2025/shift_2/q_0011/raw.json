@@ -1,0 +1,83 @@
+{
+  "_id": "68542c7d7c09d044e4c1a23e",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2ff9d87935e0d80978e",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-08T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (8 Apr Shift 2)",
+      "title": "JEE Main 2025 (8 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $f(x)=x-1$ and $g(x)=e^x$ for $x \\in \\mathbb{R}$. If $\\frac{d y}{d x}=\\left(e^{-2 \\sqrt{x}} g(f(f(x)))-\\frac{y}{\\sqrt{x}}\\right), y(0)=0$, then $y(1)$ is :-",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "aHDDZ",
+      "text": "$\\frac{1-e^2}{e^4}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "DdNbi",
+      "text": "$\\frac{2 e-1}{e^3}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "G34Oq",
+      "text": "$\\frac{e-1}{e^4}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "UR2ri",
+      "text": "$\\frac{1-e^3}{e^4}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}<br/>& f(x)=x-1 \\\\\n& f(f(x))=f(x)-1=x-1-1=x-2 \\\\\n& g(f(f(x)))=e^{x-2} \\\\\n& \\therefore \\frac{d y}{d x}=e^{-2 \\sqrt{x}} \\times e^{x-2}-\\frac{1}{\\sqrt{x}} y \\\\\n& \\frac{d y}{d x}+\\frac{1}{\\sqrt{x}} y=e^{x-2 \\sqrt{x}-2} \\text { which is L.D.E } \\\\\n& \\text { I.F. }=e^{\\int \\frac{d y}{\\sqrt{x}}}=e^{2 \\sqrt{x}}<br/>\\end{aligned}$<br/>Its solution is<br/>$\\begin{aligned}<br/>& y \\times e^{2 \\sqrt{x}}=\\int e^{2 \\sqrt{x}} \\times e^{x-2 \\sqrt{x}-2} d x+c \\\\\n& y \\times e^{2 \\sqrt{x}}=\\int e^{x-2} d x+c \\\\\n& y \\times e^{2 \\sqrt{x}}=e^{x-2}+c<br/>\\end{aligned}$<br/>$\\text { Given } \\mathrm{x}=0, \\mathrm{y}=0 \\Rightarrow 0=\\mathrm{e}^{-2}+\\mathrm{c} \\quad ; \\mathrm{c}=-\\mathrm{e}^{-2}$<br/>$\\therefore \\mathrm{y} \\times \\mathrm{e}^{2 \\sqrt{\\mathrm{x}}}=\\mathrm{e}^{\\mathrm{x}-2}-\\mathrm{e}^{-2}$<br/>$\\text { when } \\mathrm{x}=1, \\mathrm{y} \\times \\mathrm{e}^2=\\mathrm{e}^{-1}-\\mathrm{e}^{-2}$<br/>$y=\\frac{e^{-1}-e^{-2}}{e^2}=\\frac{\\frac{1}{e}-\\frac{1}{e^2}}{e^2}=\\frac{e^2-e}{e^5}=\\frac{e-1}{e^4}$<br/>Option (1) is correct",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "404200ae2d15476bb381ffe818ffb1c8",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/Uhask66pp06qf.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/Uhask66pp06qf.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2ff9d87935e0d80978e",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-08T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (8 Apr Shift 2)",
+    "title": "JEE Main 2025 (8 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

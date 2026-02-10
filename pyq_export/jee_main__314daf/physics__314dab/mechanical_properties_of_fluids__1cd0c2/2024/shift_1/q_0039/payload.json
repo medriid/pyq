@@ -1,8 +1,8 @@
 {
   "index": 39,
-  "type": "numerical",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2024 (01 Feb Shift 1)",
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "A plane is in level flight at constant speed and each of its two wings has an area of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup><mo>.</mo></math> If the speed of the air is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo> </mo><mi>km</mi><mo> </mo><msup><mi mathvariant=\"normal\">h</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math> over the lower wing surface and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>252</mn><mo> </mo><mi>km</mi><mo> </mo><msup><mi mathvariant=\"normal\">h</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math> over the upper wing surface, the mass of the plane is ________<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>kg</mi><mo>.</mo></math> (Take air density to be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo> </mo><mi>kg</mi><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mrow><mo>–</mo><mn>3</mn></mrow></msup></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mo>=</mo><mn>10</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>–</mo><mn>2</mn></mrow></msup></math>)"
+    "text": "Correct Bernoulli's equation is (symbols have their usual meaning) :"
   },
-  "options": [],
-  "correct_answer": "9600",
+  "options": [
+    {
+      "text": "$P+m g h+\\frac{1}{2} m v^2=$ constant",
+      "is_correct": false
+    },
+    {
+      "text": "$P+\\rho g h+\\frac{1}{2} \\rho v^2=$ constant",
+      "is_correct": true
+    },
+    {
+      "text": "$P+\\rho g h+\\rho v^2=$ constant",
+      "is_correct": false
+    },
+    {
+      "text": "$P+\\frac{1}{2} \\rho g h+\\frac{1}{2} \\rho v^2=$ constant",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
   "solution": {
-    "text": "<p>Total wing span area, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mn>2</mn><mo>×</mo><mn>40</mn><mo>=</mo><mn>80</mn><mo> </mo><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup></math></p><p>Using Bernoulli's equation, we get uplift force as</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mfenced><mrow><msub><mi>P</mi><mn>2</mn></msub><mo>-</mo><msub><mi>P</mi><mn>1</mn></msub></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>ρ</mi><mfenced><mrow><msubsup><mi>V</mi><mn>1</mn><mn>2</mn></msubsup><mo>-</mo><msubsup><mi>V</mi><mn>2</mn><mn>2</mn></msubsup></mrow></mfenced><mi>A</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>m</mi><mi>g</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>×</mo><mn>1</mn><mfenced><mrow><msup><mn>70</mn><mn>2</mn></msup><mo>-</mo><msup><mn>50</mn><mn>2</mn></msup></mrow></mfenced><mo>×</mo><mn>80</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>m</mi><mi>g</mi><mo>=</mo><mn>2400</mn><mo>×</mo><mn>40</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>m</mi><mo>=</mo><mn>9600</mn><mo> </mo><mi>kg</mi></math></p>"
+    "text": "$\\mathrm{P}+\\rho \\mathrm{gh}+\\frac{1}{2} \\rho \\mathrm{V}^2=$ constant"
   }
 }

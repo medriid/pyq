@@ -1,8 +1,8 @@
 {
   "index": 38,
-  "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2024 (04 Apr Shift 1)",
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "An electron is projected with uniform velocity along the axis inside a current carrying long solenoid. Then :"
+    "text": "A circular coil having 200 turns, $2.5 \\times 10^{-4} \\mathrm{~m}^2$ area and carrying $100 \\mu \\mathrm{A}$ current is placed in a uniform magnetic field of 1T. Initially the magnetic dipole moment $(\\vec{M})$ was directed along $\\vec{B}$. Amount of work, required to rotate the coil through $90^{\\circ}$ from its initial orientation such that $\\vec{M}$ becomes perpendicular to $\\vec{B}$, is ______ $\\mu \\mathrm{J}$."
   },
-  "options": [
-    {
-      "text": "the electron will continue to move with uniform velocity along the axis of the solenoid.",
-      "is_correct": true
-    },
-    {
-      "text": "the electron will be accelerated along the axis.",
-      "is_correct": false
-    },
-    {
-      "text": "the electron path will be circular about the axis.",
-      "is_correct": false
-    },
-    {
-      "text": "the electron will experience a force at $45^{\\circ}$ to the axis and execute a helical path.",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "A"
-  ],
+  "options": [],
+  "correct_answer": "5",
   "solution": {
-    "text": "<img src=\"assets\\st0038_a1e75cd8a23f.png\"><br />Since $\\vec{v} \\| \\vec{B}$ so force on electron due to magnetic field is zero. So it will move along axis with uniform velocity."
+    "text": "<img src=\"assets\\st0038_b8eb9e67f58d.png\"><br />We know\n$\\begin{aligned}\n\\mathrm{W}_{\\text {ext }} & =\\Delta \\mathrm{U}+\\Delta \\mathrm{KE} \\quad(\\text { P.E. }=-\\overrightarrow{\\mathrm{M}} \\cdot \\overrightarrow{\\mathrm{B}}) \\\\\n& =-\\overrightarrow{\\mathrm{M}} \\cdot \\overrightarrow{\\mathrm{B}}_{\\mathrm{f}}+\\overrightarrow{\\mathrm{M}} \\cdot \\overrightarrow{\\mathrm{B}}_{\\mathrm{i}}+0 \\\\\n& =-\\mathrm{MB} \\cos 90+\\mathrm{MB} \\cos 0 \\\\\n& =\\mathrm{MB} \\\\\n& =\\mathrm{NIAB} \\\\\n& =200 \\times 100 \\times 10^{-6} \\times \\frac{5}{2} \\times 10^{-4} \\times 1=5 \\mu \\mathrm{J}\n\\end{aligned}$"
   }
 }

@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e77c6f5bfc7ab78ae542",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0cc821b6514e527d73",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009",
+      "title": "BITSAT 2009"
+    }
+  ],
+  "question": {
+    "text": "If \\(M(\\alpha)=\\left[\\begin{array}{ccc}\\cos \\alpha & -\\sin \\alpha & 0 \\\\ \\sin \\alpha & \\cos \\alpha & 0 \\\\ 0 & 0 & 1\\end{array}\\right]\\); \\(M(\\beta)=\\left[\\begin{array}{ccc}\\cos \\beta & 0 & \\sin \\beta \\\\ 0 & 1 & 0 \\\\ -\\sin \\beta & 0 & \\cos \\beta\\end{array}\\right]\\) then \\([M(\\alpha) M(\\beta)]^{-1}\\) is equal to -",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "QanXI",
+      "text": "\\(\\mathrm{M}(\\beta) \\mathrm{M}(\\alpha)\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "xWP6b",
+      "text": "\\(\\mathrm{M}(-\\alpha) \\mathrm{M}(-\\beta)\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "lQbyl",
+      "text": "\\(\\mathrm{M}(-\\beta) \\mathrm{M}(-\\alpha)\\)",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "nIXX2",
+      "text": "\\(-\\mathrm{M}(\\beta) \\mathrm{M}(\\alpha)\\)",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\left.[\\mathrm{M}(\\alpha) \\mathrm{M}(\\beta)]^{-1}=\\mathrm{M}(\\beta)^{-1} \\mathrm{M}(\\alpha)^{-1}\\right] \\\\\n& \\operatorname{Now~M(\\alpha )^{-1}}=\\left[\\begin{array}{ccc}\n\\cos \\alpha & \\sin \\alpha & 0 \\\\\n-\\sin \\alpha & \\cos \\alpha & 0 \\\\\n0 & 0 & 1\n\\end{array}\\right] \\\\\n& =\\left[\\begin{array}{ccc}\n\\cos (-\\alpha) & -\\sin (-\\alpha) & 0 \\\\\n\\sin (-\\alpha) & \\cos (-\\alpha) & 0 \\\\\n0 & 0 & 1\n\\end{array}\\right]=\\mathrm{M}(-\\alpha) \\\\\n& M(\\beta)^{-1}=\\left[\\begin{array}{ccc}\n\\cos \\beta & 0 & -\\sin \\beta \\\\\n0 & 1 & 0 \\\\\n\\sin \\beta & 0 & \\cos \\beta\n\\end{array}\\right] \\\\\n& =\\left[\\begin{array}{ccc}\n\\cos (-\\beta) & 0 & \\sin (-\\beta) \\\\\n0 & 1 & 0 \\\\\n-\\sin (-\\beta) & 0 & \\cos (-\\beta)\n\\end{array}\\right]=\\mathrm{M}(-\\beta) \\\\\n& {[\\mathrm{M}(\\alpha) \\mathrm{M}(\\beta)]^{-1}=\\mathrm{M}(-\\beta) \\mathrm{M}(-\\alpha)} \\\\\n&\n\\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0cc821b6514e527d73",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009",
+    "title": "BITSAT 2009"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

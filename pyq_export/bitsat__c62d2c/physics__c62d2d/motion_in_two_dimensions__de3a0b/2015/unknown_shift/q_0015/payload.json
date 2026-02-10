@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd6f3bf0edf6b5de3a0b",
+    "chapter_name": "Motion In Two Dimensions",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A $2 \\mathrm{~m}$ wide truck is moving with a uniform speed $v_{0}=8 \\mathrm{~m} / \\mathrm{s}$ along a straight horizontal road. $\\mathrm{A}$ pedestrain starts to cross the road with a uniform speed $v$ when the truck is 4 m away from him. The minimum value of $v$ so that he can cross the road safely is\r\n\r\n<img src=\"assets\\qt0015_93b5bafb6024.png\">"
+  },
+  "options": [
+    {
+      "text": "$2.62 \\mathrm{~m} / \\mathrm{s}$",
+      "is_correct": false
+    },
+    {
+      "text": "$4.6 \\mathrm{~m} / \\mathrm{s}$",
+      "is_correct": false
+    },
+    {
+      "text": "$3.57 \\mathrm{~m} / \\mathrm{s}$",
+      "is_correct": true
+    },
+    {
+      "text": "$1.414 \\mathrm{~m} / \\mathrm{s}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let the man starts crossing the road at an angle $\\theta$ as shown in figure. For safe crossing the condition is that the man must cross the road by the time the truck describes the distance 4 । $A C$ or 4 । $2 \\cot \\theta$. $\\therefore \\frac{4+2 \\cot \\theta}{8}=\\frac{2 / \\sin \\theta}{v}$ or $v=\\frac{8}{2 \\sin \\theta+\\cos \\theta}$\r\n\r\nFor minimum $v, \\frac{d v}{d \\theta}=0$\r\n\r\n<img src=\"assets\\st0015_78b8fb3a9fd1.png\"><br>\r\n\r\nor $\\frac{-8(2 \\cos \\theta-\\sin \\theta)}{(2 \\sin \\theta+\\cos \\theta)^{2}}=0$ or $2 \\cos \\theta-$\r\n\r\n$\\sin \\theta=0$\r\n\r\nor $\\tan \\theta=2$\r\n\r\nFrom equation (i),\r\n\r\n$$\r\n\r\nv_{\\min }=\\frac{8}{2\\left(\\frac{2}{\\sqrt{5}}\\right)+\\frac{1}{\\sqrt{5}}}=\\frac{8}{\\sqrt{5}}=3.57 \\mathrm{~m} / \\mathrm{s}\r\n\r\n$$"
+  }
+}

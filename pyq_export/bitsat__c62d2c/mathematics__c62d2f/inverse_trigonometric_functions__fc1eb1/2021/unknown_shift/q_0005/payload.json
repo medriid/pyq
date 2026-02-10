@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2021",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7d1ac70535a1fc1eb1",
+    "chapter_name": "Inverse Trigonometric Functions",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $\\cos \\left(2 \\cos ^{-1} x+\\sin ^{-1} x\\right)$ at $x=\\frac{1}{5}$ is"
+  },
+  "options": [
+    {
+      "text": "$-\\frac{2 \\sqrt{6}}{5}$",
+      "is_correct": true
+    },
+    {
+      "text": "$-2 \\sqrt{6}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{\\sqrt{6}}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\cos \\left[2 \\cos ^{-1} x+\\sin ^{-1} x\\right]$\r\n\r\n$=\\cos \\left[\\cos ^{-1} x+\\cos ^{-1} x+\\sin ^{-1} x\\right]$\r\n\r\n$=\\cos \\left[\\cos ^{-1} x+\\frac{\\pi}{2}\\right]=-\\sin \\left[\\cos ^{-1} x\\right]$\r\n\r\n$=-\\sin \\left[\\sin ^{-1} \\sqrt{1-x^{2}}\\right]=-\\sqrt{1-x^{2}}$\r\n\r\n$=-\\sqrt{1-\\left(\\frac{1}{5}\\right)^{2}}=-\\sqrt{\\frac{24}{25}}=-\\frac{2 \\sqrt{6}}{5}$"
+  }
+}

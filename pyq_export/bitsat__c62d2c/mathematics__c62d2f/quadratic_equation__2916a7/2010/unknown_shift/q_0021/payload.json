@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2010",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7794f6528d292916a7",
+    "chapter_name": "Quadratic Equation",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Which of the following functions is differentiable at \\(x=0\\) ?"
+  },
+  "options": [
+    {
+      "text": "\\(\\cos (|x|)+|x|\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\cos (|x|)-|x|\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\sin (|x|)+|x|\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\sin (|x|)-|x|\\)",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "\\(|x|\\) is non-differentiable function at\n\\(\\begin{aligned}\n& x=0 \\text { as L.H.D }=-1 \\text { and R.H. } \\mathrm{D}=1 \\\\\n& \\because|x|=\\left\\{\\begin{array}{cl}\nx, & x \\geq 0 \\\\\n-x, & x  < 0\n\\end{array}\\right.\n\\end{aligned}\\)\nBut \\(\\cos |h|\\) is differentiable\n\\(\\therefore\\) Any combination of two such functions will be non-differentiable. Hence option (a) and (b) are ruled out.\nNow, consider \\(\\sin |x|+|x|\\)\n\\(\\begin{aligned} & L^{\\prime}=\\lim _{h \\rightarrow 0} \\frac{\\sin |-h|+|-h|}{-h}=\\lim _{h \\rightarrow 0} \\frac{\\sin h}{-h}-1=-1-1 =-2 \\\\ & R^{\\prime}=\\lim _{h \\rightarrow 0} \\frac{\\sin |h|+|h|}{h}=\\lim _{h \\rightarrow 0} \\frac{\\sin h}{h}+1=1+1=2 \\\\ & \\text { Consider } \\sin |x|-|x| \\\\ & L^{\\prime}=\\lim _{h \\rightarrow 0} \\frac{\\sin |-h|-|-h|}{-h}=\\lim _{h \\rightarrow 0} \\frac{\\sin h}{-h}+1=0 \\\\ & \\end{aligned}\\)"
+  }
+}

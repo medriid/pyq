@@ -1,0 +1,43 @@
+{
+  "index": 22,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2014",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cccd6ab1da4b641d4",
+    "chapter_name": "Permutation Combination",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of all three elements subsets of the set $\\left\\{a_{1}, a_{2}, a_{3} \\ldots a_{n}\\right\\}$ which contain $a_{3}$ is"
+  },
+  "options": [
+    {
+      "text": "${ }^{\\mathrm{n}} \\mathrm{C}_{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "${ }^{\\mathrm{n}-1} \\mathrm{C}_{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "${ }^{\\mathrm{n}-1} \\mathrm{C}_{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "The number of three elements subsets containing $\\mathrm{a}_{3}$ is equal to the number of ways of selecting 2 elements out of $\\mathrm{n}-1$ elements. So, the required number of subsets is ${ }^{\\mathrm{n}-1} \\mathrm{C}_{2}$"
+  }
+}

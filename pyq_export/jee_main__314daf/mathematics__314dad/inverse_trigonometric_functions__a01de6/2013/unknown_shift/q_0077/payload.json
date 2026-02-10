@@ -1,0 +1,43 @@
+{
+  "index": 77,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2013 (25 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025537539c1075ba01de6",
+    "chapter_name": "Inverse Trigonometric Functions",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $S=\\left\\{\\left(\\begin{array}{ll}a_{11} & a_{12} \\\\ a_{21} & a_{22}\\end{array}\\right): a_{i j} \\in\\{0,1,2\\}, a_{11}=a_{22}\\right\\}$\nThen the number of non-singular matrices in the set $S$ is :"
+  },
+  "options": [
+    {
+      "text": "\n27\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n24\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n10\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n20",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "The matrices in the form\n$$\n\\left[\\begin{array}{ll}\na_{11} & a_{12} \\\\\na_{21} & a_{22}\n\\end{array}\\right], a_{i j} \\in\\{0,1,2\\}, a_{11}=a_{12} \\text { are }\n$$\n$$\n\\left[\\begin{array}{cc}\n0 & 0 / 1 / 2 \\\\\n0 / 1 / 2 & 0\n\\end{array}\\right],\\left[\\begin{array}{cc}\n1 & 0 / 1 / 2 \\\\\n0 / 1 / 2 & 1\n\\end{array}\\right],\\left[\\begin{array}{cc}\n2 & 0 / 1 / 2 \\\\\n0 / 1 / 2 & 2\n\\end{array}\\right]\n$$\nAt any place, $0 / 1 / 2$ means 0,1 or 2 will be the element at that place.\n\nHence there are total $27=3 \\times 3+3 \\times 3+3 \\times 3$ ) matrices of the above form. Out of which the matrices which are singular are\n$$\n\\left[\\begin{array}{cc}\n0 & 0 / 1 / 2 \\\\\n0 & 0\n\\end{array}\\right],\\left[\\begin{array}{cc}\n0 & 0 \\\\\n1 / 2 & 0\n\\end{array}\\right],\\left[\\begin{array}{ll}\n1 & 1 \\\\\n1 & 1\n\\end{array}\\right],\\left[\\begin{array}{ll}\n2 & 2 \\\\\n2 & 2\n\\end{array}\\right]\n$$\nHence there are total $7(=3+2+1+1)$ singular matrices.\n\nTherefore number of all non-singular matrices in the given form $=27-7=20$"
+  }
+}

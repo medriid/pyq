@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7e36f5bfc7ab78ae8b5",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d7a",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2016-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2016",
+      "title": "BITSAT 2016"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The curve $y=x e^{x}$ has minimum value equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "PJ9ik",
+      "text": "$-\\frac{1}{\\mathrm{e}}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "9Gfzt",
+      "text": "$\\frac{1}{\\mathrm{e}}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "x0KAH",
+      "text": "$-\\mathrm{e}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "9d0eR",
+      "text": "e",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $y=x e^{x}$. Differentiate both side w.r.t. 'x'.\r\n\r\n$$\r\n\r\n\\Rightarrow \\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\mathrm{e}^{\\mathrm{x}}+\\mathrm{xe}^{\\mathrm{x}}=\\mathrm{e}^{\\mathrm{x}}(1+\\mathrm{x})\r\n\r\n$$\r\n\r\nPut $\\frac{\\mathrm{dy}}{\\mathrm{dx}}=0$\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\Rightarrow \\mathrm{e}^{\\mathrm{x}}(1+\\mathrm{x})=0 \\\\\r\n\r\n\\Rightarrow \\mathrm{x}=-1\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nNow, $\\frac{\\mathrm{d}^{2} \\mathrm{y}}{\\mathrm{dx}^{2}}=\\mathrm{e}^{\\mathrm{x}}+\\mathrm{e}^{\\mathrm{x}}(1+\\mathrm{x})=\\mathrm{e}^{\\mathrm{x}}(\\mathrm{x}+2)$\r\n\r\n$$\r\n\r\n\\left(\\frac{\\mathrm{d}^{2} \\mathrm{y}}{\\mathrm{dx}^{2}}\\right)_{(\\mathrm{x}=-1)}=\\frac{1}{\\mathrm{e}}+0>0\r\n\r\n$$\r\n\r\nHence, $\\mathrm{y}=\\mathrm{xe}^{\\mathrm{x}}$ is minimum function and\r\n\r\n$$\r\n\r\n\\mathrm{y}_{\\min }=-\\frac{1}{\\mathrm{e}} \\text { . }\r\n\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d7a",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2016-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2016",
+    "title": "BITSAT 2016"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

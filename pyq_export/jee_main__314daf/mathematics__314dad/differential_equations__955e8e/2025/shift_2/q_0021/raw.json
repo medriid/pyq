@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eed3c8b73881fdaea335",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d97611",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-29T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (29 Jan Shift 2)",
+      "title": "JEE Main 2025 (29 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If for the solution curve $y=f(x)$ of the differential equation $\\frac{\\mathrm{d} y}{\\mathrm{~d} x}+(\\tan x) y=\\frac{2+\\sec x}{(1+2 \\sec x)^2}$, $x \\in\\left(\\frac{-\\pi}{2}, \\frac{\\pi}{2}\\right), f\\left(\\frac{\\pi}{3}\\right)=\\frac{\\sqrt{3}}{10}$, then $f\\left(\\frac{\\pi}{4}\\right)$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Kwxpu",
+      "text": "$\\frac{\\sqrt{3}+1}{10(4+\\sqrt{3})}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "MSNKu",
+      "text": "$\\frac{5-\\sqrt{3}}{2 \\sqrt{2}}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "QLxQN",
+      "text": "$\\frac{9 \\sqrt{3}+3}{10(4+\\sqrt{3})}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Qa93l",
+      "text": "$\\frac{4-\\sqrt{2}}{14}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\text { If } \\mathrm{e}^{\\int \\tan \\mathrm{xdx}}=\\mathrm{e}^{\\ln (\\sec \\mathrm{x})}=\\sec \\mathrm{x} \\\\ & \\therefore \\mathrm{y} \\cdot \\sec \\mathrm{x}=\\int\\left\\{\\frac{2+\\sec \\mathrm{x}}{(1+2 \\sec \\mathrm{x})^2}\\right\\} \\sec \\mathrm{xdx} \\\\ & =\\int \\frac{2 \\cos \\mathrm{x}+1}{(\\cos \\mathrm{x}+2)^2} \\mathrm{dx} \\text { Let } \\cos \\mathrm{x}=\\frac{1-\\mathrm{t}^2}{1+\\mathrm{t}^2} \\\\ & =\\int \\frac{2\\left(\\frac{1-\\mathrm{t}^2}{1+\\mathrm{t}^2}\\right)+1}{\\left(\\frac{1-\\mathrm{t}^2}{1+\\mathrm{t}^2}+2\\right)^2} 2 \\mathrm{dt}\\end{aligned}$\n\n$\\begin{aligned}\n& =\\int \\frac{2-2 t^2+1+t^2}{\\left(1-t^2+2+2 t^2\\right)^2} \\times 2 \\mathrm{dt} \\\\\n& =2 \\int \\frac{3-t^2}{\\left(t^2+3\\right)^2} \\mathrm{dt}\n\\end{aligned}$\n\nLet $\\mathrm{t}+\\frac{3}{\\mathrm{t}}=\\mathrm{u}$\n$\\begin{aligned}\n& \\left(1-\\frac{3}{\\mathrm{t}^2}\\right) \\mathrm{dt}=\\mathrm{du} \\\\\n& =-2 \\int \\frac{\\mathrm{du}}{\\mathrm{u}^2}\n\\end{aligned}$\n$\\begin{aligned}\n& y \\cdot(\\sec x)=\\frac{2}{u}+c \\\\\n& y \\cdot \\sec x=\\frac{2}{t+\\frac{3}{t}}+c...(I)\n\\end{aligned}$\n$\\text { At } \\mathrm{x}=\\frac{\\pi}{3}, \\mathrm{t}=\\tan \\frac{\\mathrm{x}}{2}=\\frac{1}{\\sqrt{3}}$\n$2 \\cdot \\frac{\\sqrt{3}}{10}=\\frac{2}{\\frac{1}{\\sqrt{3}}+3 \\sqrt{3}}+\\mathrm{c}$\n$\\begin{aligned} & \\text { 2. } \\frac{\\sqrt{3}}{10}=\\frac{2 \\sqrt{3}}{10}+\\mathrm{c} \\Rightarrow \\mathrm{C}=0 \\\\ & \\text { At } \\mathrm{x}=\\frac{\\pi}{4}, \\mathrm{t}=\\tan \\frac{\\mathrm{x}}{2}=\\sqrt{2}-1 \\\\ & \\therefore \\mathrm{y} \\cdot \\sqrt{2}=\\frac{2}{\\sqrt{2}-1+\\frac{3}{\\sqrt{2}-1}} \\\\ & \\mathrm{y} \\cdot \\sqrt{2}=\\frac{2(\\sqrt{2}-1)}{6-2 \\sqrt{2}} \\\\ & \\mathrm{y}=\\frac{\\sqrt{2}(\\sqrt{2}-1)}{2(3-\\sqrt{2})}=\\frac{1}{\\sqrt{2}} \\times \\frac{2 \\sqrt{2}-1}{7} \\\\ & =\\frac{4-\\sqrt{2}}{14}\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "7dd7fbcdaa394fd383a05a401a896f7a",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/fB09XowINBRKX.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/fB09XowINBRKX.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d97611",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-29T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (29 Jan Shift 2)",
+    "title": "JEE Main 2025 (29 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

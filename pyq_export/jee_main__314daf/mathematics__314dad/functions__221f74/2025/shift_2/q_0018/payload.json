@@ -2,7 +2,7 @@
   "index": 18,
   "type": "singleCorrect",
   "difficulty": 1,
-  "pyq_info": "JEE Main 2025 (24 Jan Shift 2)",
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "$\\text { The function } f:(-\\infty, \\infty) \\rightarrow(-\\infty, 1) \\text {, defined by } f(x)=\\frac{2^x-2^{-x}}{2^x+2^{-x}} \\text { is : }$"
+    "text": "Let $f$ be a function such that $f(x)+3 f\\left(\\frac{24}{x}\\right)$ $=4 x, x \\neq 0$. Then $f(3)+f(8)$ is equal to"
   },
   "options": [
     {
-      "text": "$\\text { Neither one-one nor onto }$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\text { Onto but not one-one }$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\text { Both one-one and onto }$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\text { One-one but not onto }$",
+      "text": "$11$",
       "is_correct": true
+    },
+    {
+      "text": "$10$",
+      "is_correct": false
+    },
+    {
+      "text": "$12$",
+      "is_correct": false
+    },
+    {
+      "text": "$13$",
+      "is_correct": false
     }
   ],
   "correct_answer": [
-    "D"
+    "A"
   ],
   "solution": {
-    "text": "$\\begin{aligned}\n& \\mathrm{f}(\\mathrm{x})=\\frac{2^{2 \\mathrm{x}}-1}{2^{2 \\mathrm{x}}+1} \\\\\n& =1-\\frac{2}{2^{2 \\mathrm{x}}+1} \\\\\n& \\mathrm{f}^{\\prime}(\\mathrm{x})=\\frac{2}{\\left(2^{2 \\mathrm{x}}+1\\right)^2} \\cdot 2.2^{2 \\mathrm{x}} \\cdot \\ln 2 \\text { i.e always }+\\mathrm{ve}\n\\end{aligned}$\nso $f(x)$ is $\\uparrow$ function\n$\\begin{aligned}\n& \\therefore \\mathrm{f}(-\\infty)=-1 \\\\\n& \\mathrm{f}(\\infty)=1 \\\\\n& \\therefore \\mathrm{f}(\\mathrm{x}) \\in(-1,1) \\neq \\text { co-domain }\n\\end{aligned}$\nso function is one-one but not onto"
+    "text": "$f(x)+3 f\\left(\\frac{24}{x}\\right)=4 x$<br/>Put $x=3 \\quad f(3)+3 f(8)=12$<br/>Put $x=8 \\quad f(8)+3 f(3)=32$<br/>Add both $\\quad 4(\\mathrm{f}(3)+\\mathrm{f}(8))=44$<br/>$f(3)+f(8)=11$"
   }
 }

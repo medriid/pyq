@@ -1,0 +1,43 @@
+{
+  "index": 218,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The general solution of the differential equation, $\\sin 2 x\\left(\\frac{d y}{d x}-\\sqrt{\\tan x}\\right)-y=0$, is :"
+  },
+  "options": [
+    {
+      "text": "\n$y \\sqrt{\\tan x}=x+c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$y \\sqrt{\\cot x}=\\tan x+c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$y \\sqrt{\\tan x}=\\cot x+c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$y \\sqrt{\\cot x}=x+c$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given, $\\sin 2 x\\left(\\frac{d y}{d x}-\\sqrt{\\tan x}\\right)-y=0$ or, $\\frac{d y}{d x}=\\frac{y}{\\sin 2 x}+\\sqrt{\\tan x}$ or, $\\frac{d y}{d x}-y \\operatorname{cosec} 2 x=\\sqrt{\\tan x}$\nNow, integrating factor (I.F) $=e^{\\int-\\operatorname{cosec} 2 x}$ or, I.F $=e^{-\\frac{1}{2} \\log |\\tan x|}=e^{\\log (\\sqrt{\\tan x})^{-1}}$ $=\\frac{1}{\\sqrt{\\tan x}}=\\sqrt{\\cot x}$\nNow, general solution of eq. (1) is written as\n$$\n\\begin{aligned}\n&\\text { y (I. F.) }=\\int \\mathrm{Q}(\\text { I.F.) } d x+c \\\\\n&\\therefore y \\sqrt{\\cot x}=\\int \\sqrt{\\tan x} \\cdot \\sqrt{\\cot x} d x+c \\\\\n&\\therefore y \\sqrt{\\cot x}=\\int 1 . d x+c\n\\end{aligned}\n$$\n<img src=\"assets\\st0218_c26b2bdea372.png\"><br>"
+  }
+}

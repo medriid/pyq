@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd6fb80a936d82a83856",
+    "chapter_name": "Rotational Motion",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Four holes of radius $5 \\mathrm{~cm}$ are cut from a thin square plate of $20 \\mathrm{~cm}$ and mass $1 \\mathrm{~kg}$. The moment of inertia of the remaining portion about $Z$-axis is\r\n<img src=\"assets\\qt0004_f447cebe6366.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\r\n$15 \\mathrm{~kg}-\\mathrm{m}^2$ \r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$0.37 \\mathrm{~kg}-\\mathrm{m}^2$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$0.0017 \\mathrm{~kg}-\\mathrm{m}^2$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n$0.08 \\mathrm{~kg}-\\mathrm{m}^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Area mass density, $\\sigma=\\frac{M}{16 R^2}$\r\n$$\r\n\\left(\\because \\text { Area }=4 R \\times 4 R=16 R^2\\right)\r\n$$\r\nMass of each hole $m_1=\\sigma \\pi R^2=\\frac{M}{16 R^2} \\pi R^2=\\frac{\\pi M}{16}$\r\nDistance between centre of plate and centre of hole\r\n$$\r\nx=\\frac{\\sqrt{(2 R)^2+(2 R)^2}}{2}=\\frac{2 \\sqrt{2} R}{2} .\r\n$$\r\n<img src=\"assets\\st0004_e18b2cc7c3a9.png\"><br>\r\nMoment of inertia of one hole at about Z-axis\r\n$$\r\nI_1=\\frac{1}{2} m_1 R^2+m_1 x^2=\\frac{5 \\pi}{32} M R^2\r\n$$\r\nMoment of inertia of whole plate about Z-axis,\r\n$$\r\nI=\\frac{M(4 R)^2}{6}=\\frac{8}{3} M R^2\r\n$$\r\nRequired moment of Inertia\r\n$$\r\nI_0=I-4 I_1,=\\left[\\frac{8}{3}-4\\left(\\frac{5 \\pi}{32}\\right)\\right] M R^2=\\left[\\frac{8}{3}-\\frac{5 \\pi}{8}\\right] M R^2\r\n$$\r\nGiven, $R=5 \\mathrm{~cm}$ and $M=1 \\mathrm{~kg}$\r\nSo, $I_0=\\left[\\frac{8}{3}-\\frac{5 \\pi}{8}\\right] 1 \\times 25 \\times 10^{-4}=0.0017 \\mathrm{~kg}-\\mathrm{m}^2$"
+  }
+}

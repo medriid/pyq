@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7de14c41a6083e62a3",
+    "chapter_name": "Sets and Relations",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A set $A$ has 3 elements and another set B has 6 elements. Then"
+  },
+  "options": [
+    {
+      "text": "$3 \\leq \\mathrm{n}(\\mathrm{A} \\cup \\mathrm{B}) \\leq 6$",
+      "is_correct": false
+    },
+    {
+      "text": "$3 \\leq \\mathrm{n}(\\mathrm{A} \\cup \\mathrm{B}) \\leq 9$",
+      "is_correct": false
+    },
+    {
+      "text": "$6 \\leq \\mathrm{n}(\\mathrm{A} \\cup \\mathrm{B}) \\leq 9$",
+      "is_correct": true
+    },
+    {
+      "text": "$0 \\leq n(A \\cup B) \\leq 9$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have<br />$\\min n(A \\cup B)=\\max \\{n(A), n(B)\\}=\\max \\{3,6\\}=6$<br />$\\operatorname{Max} n(A \\cup B)=n(A)+n(B)=9$<br />$\\therefore 6 \\leq n(A \\cup B) \\leq 9$"
+  }
+}

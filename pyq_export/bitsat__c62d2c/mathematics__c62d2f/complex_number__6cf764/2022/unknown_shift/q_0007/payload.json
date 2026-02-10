@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7787c3b967066cf764",
+    "chapter_name": "Complex Number",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The smallest positive integral value of $n$ such that \r\n$\\left[\\frac{1+\\sin \\frac{\\pi}{8}+i \\cos \\frac{\\pi}{8}}{1+\\sin \\frac{\\pi}{8}-i \\cos \\frac{\\pi}{8}}\\right]^n$ is purely imaginary, is equal to"
+  },
+  "options": [
+    {
+      "text": "\r\n$4$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n$3$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$2$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$8$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\left[\\frac{1+\\sin \\frac{\\pi}{8}+i \\cos \\frac{\\pi}{8}}{1+\\sin \\frac{\\pi}{8}-i \\cos \\frac{\\pi}{8}}\\right]^n=\\left[\\frac{1+\\cos \\alpha+i \\sin \\alpha}{1+\\cos \\alpha-i \\sin \\alpha}\\right]^n$\r\n$\\left[\\because \\alpha=\\frac{\\pi}{2}-\\frac{\\pi}{8}\\right]$\r\n$=\\left[\\frac{2 \\cos ^2 \\frac{\\alpha}{2}+2 i \\sin \\frac{\\alpha}{2} \\cos \\frac{\\alpha}{2}}{2 \\cos ^2 \\frac{\\alpha}{2}-2 i \\sin \\frac{\\alpha}{2} \\cos \\frac{\\alpha}{2}}\\right]^n$\r\n$=\\left[\\frac{\\cos \\frac{\\alpha}{2}+i \\sin \\frac{\\alpha}{2}}{\\cos \\frac{\\alpha}{2}-i \\sin \\frac{\\alpha}{2}}\\right]_{-}^n=\\left(e^{2 i \\frac{\\alpha}{2}}\\right]^n=e^{i n \\alpha}$\r\n$=e^{i n\\left(\\frac{3 \\pi}{8}\\right)}=\\cos \\frac{3 n \\pi}{8}+i \\sin \\frac{3 n \\pi}{8}$\r\nFor $n=4$ we get imaginary part."
+  }
+}

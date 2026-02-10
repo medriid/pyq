@@ -1,0 +1,43 @@
+{
+  "index": 124,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2011",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$$\n\\lim _{x \\rightarrow 2}\\left(\\frac{\\sqrt{1-\\cos \\{2(x-2)\\}}}{x-2}\\right)"
+  },
+  "options": [
+    {
+      "text": "\nequals $\\sqrt{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nequals $-\\sqrt{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nequals $\\frac{1}{\\sqrt{2}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\ndoes not exist",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\lim _{x \\rightarrow 2} \\frac{\\sqrt{2 \\sin ^2(x-2)}}{x-2} \\\\\n& \\lim _{x \\rightarrow 2} \\frac{\\sqrt{2}|\\sin (x-2)|}{x-2} \\\\\n& \\text { R.H.L. }=\\sqrt{2}, \\text { L.H.L. }=-\\sqrt{2}\n\\end{aligned}\n$$\nLimit does not exist."
+  }
+}

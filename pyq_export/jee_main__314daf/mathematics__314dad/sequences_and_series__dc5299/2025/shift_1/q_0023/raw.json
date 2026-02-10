@@ -1,33 +1,58 @@
 {
-  "_id": "67a2eeaac8b73881fdaea1d4",
-  "type": "numerical",
-  "level": 2,
+  "_id": "68542c917c09d044e4c1a2a9",
+  "type": "singleCorrect",
+  "level": 1,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "67a2eb5ca6d4514bf2d9760c",
+      "_id": "6852f2fe9d87935e0d809787",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-01-24T09:00:00.000Z",
+      "heldOn": "2025-04-04T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (24 Jan Shift 1)",
-      "title": "JEE Main 2025 (24 Jan Shift 1)"
+      "shortName": "2025 (4 Apr Shift 1)",
+      "title": "JEE Main 2025 (4 Apr Shift 1)"
     }
   ],
   "question": {
-    "text": "The number of 3 -digit numbers, that are divisible by 2 and 3 , but not divisible by 4 and 9 , is______.",
+    "text": "Let $A=\\{1,6,11,16, \\ldots\\}$ and $B=\\{9,16,23,30, \\ldots\\}$ be the sets consisting of the first 2025 terms of two arithmetic progressions. Then $n(A \\cup B)$ is",
     "image": null
   },
-  "options": [],
-  "correctValue": "125",
+  "options": [
+    {
+      "id": "poXOA",
+      "text": "3814",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "B1Ho4",
+      "text": "4027",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ezplf",
+      "text": "3761",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "gP1Yg",
+      "text": "4003",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "No, of 3 digits $=999-99=900$\nNo. of 3 digit numbers divisible by 2 & 3 i.e. by 6\n$\\frac{900}{6}=150$\n\nNo. of 3 digit numbers divisible by 4 & 9 i.e. by 36\n$\\frac{900}{36}=25$\n$\\therefore$ No of 3 digit numbers divisible by $2 ~\\&~ 3$ but not by $4 ~\\&~ 9$\n$150-25=125$",
+    "text": "$\\begin{aligned} & A=\\{1,6,11,16,21,26,31,36,41,46,51,56,61, \\\\ & 66,71,76,81,86,91, \\ldots \\ldots\\} \\\\ & B=\\{9,16,23,30,37,44,51,58,65,72,79,86, \\\\ & 93,100, \\ldots \\ldots\\} \\\\ & A \\cap B=\\{16,51,86, \\ldots \\ldots\\} \\\\ & \\text { For set 'A' } \\Rightarrow T_{2025}=1+(2025-1)(5)=10121 \\\\ & \\text { For set ' } B^{\\prime} \\Rightarrow T_{2025}=9+(2025-1)(7)=14177 \\\\ & \\text { So, for }(A \\cap B) \\Rightarrow T_n=16+(n-1)(35) \\leq 10121 \\\\ & (n-1) \\leq \\frac{10121-16}{35}=288.71 \\\\ & n \\leq 289.71 \\Rightarrow n=289 \\\\ & \\therefore n(A \\cup B)=n(A)+n(B)-n(A \\cap B) \\\\ & =2025+2025-289=3761\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "ec89b1f305a544c9bdab8a152f4374eb",
+    "videoId": "a900c6949f2f43dc8b5ae6a60d3493db",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/6KRcPkjA4B4lH.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/6KRcPkjA4B4lH.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/LsoAtuiahxmRq.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/LsoAtuiahxmRq.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
@@ -46,12 +71,12 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "67a2eb5ca6d4514bf2d9760c",
+    "_id": "6852f2fe9d87935e0d809787",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-01-24T09:00:00.000Z",
+    "heldOn": "2025-04-04T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (24 Jan Shift 1)",
-    "title": "JEE Main 2025 (24 Jan Shift 1)"
+    "shortName": "2025 (4 Apr Shift 1)",
+    "title": "JEE Main 2025 (4 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

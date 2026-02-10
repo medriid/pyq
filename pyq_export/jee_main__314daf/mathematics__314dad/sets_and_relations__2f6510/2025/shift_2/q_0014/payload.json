@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254da66d43264e2f6510",
+    "chapter_name": "Sets and Relations",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $\\mathrm{A}=\\{1,2,3, \\ldots, 10\\}$ and R be a relation on A such that $\\mathrm{R}=\\{(\\mathrm{a}, \\mathrm{b}): \\mathrm{a}=2 \\mathrm{~b}+1\\}$. Let $\\left(\\mathrm{a}_1, \\mathrm{a}_2\\right)$, $\\left(a_2, a_3\\right),\\left(a_3, a_4\\right), \\ldots .,\\left(a_k, a_{k+1}\\right)$ be a sequence of $k$ elements of R such that the second entry of an ordered pair is equal to the first entry of the next ordered pair. Then the largest integer k , for which such a sequence exists, is equal to :"
+  },
+  "options": [
+    {
+      "text": "$6$",
+      "is_correct": false
+    },
+    {
+      "text": "$7$",
+      "is_correct": false
+    },
+    {
+      "text": "$5$",
+      "is_correct": true
+    },
+    {
+      "text": "$8$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}<br/>& \\mathrm{a}=2 \\mathrm{~b}+1 \\\\\n& 2 \\mathrm{~b}=\\mathrm{a}-1 \\\\\n& \\mathrm{R}=\\{(3,1),(5,2), \\ldots,(99,49)\\}<br/>\\end{aligned}$<br/>Let $(2 m+1, m),(2 \\lambda-1, \\lambda)$ are such ordered pairs.<br/>According to the condition<br/>$\\mathrm{m}=2 \\lambda-1 \\Rightarrow \\mathrm{~m}=\\text { odd number }$<br/>$\\Rightarrow 1^{\\text {st }}$ element of ordered pair $(\\mathrm{a}, \\mathrm{b})$<br/>$a=2(2 \\lambda-1)+1=4 \\lambda-1$<br/>Hence $a \\in\\{3,7, \\ldots, 99\\}$<br/>$\\Rightarrow \\lambda \\in\\{1,2, \\ldots, 25\\}$<br/>$\\Rightarrow$ set of sequence<br/>$\\begin{aligned} & \\left\\{(4 \\lambda-1,2 \\lambda-1),(2 \\lambda-1, \\lambda-1),\\left(\\lambda-1, \\frac{\\lambda-2}{2}\\right), \\ldots \\ldots .\\right\\} \\\\ & 2^{\\text {nd }} \\text { element of each ordered pair }=\\frac{\\lambda-2^{\\mathrm{r}-2}}{2^{\\mathrm{r}-2}}\\end{aligned}$<br/>For maximum number of ordered pairs in such sequence<br/>$\\begin{aligned} & \\frac{\\lambda-2^{\\mathrm{r}-2}}{2^{\\mathrm{r}-2}}=1 \\text { or } 2 ; 1 \\leq \\lambda \\leq 25 \\\\ & \\lambda=2^{\\mathrm{r}-1} \\text { or } \\lambda=3.2^{\\mathrm{r}-2}\\end{aligned}$<br/>$\\begin{aligned} & \\text { Case-I : } \\lambda=2 \\mathrm{r}-1 \\\\ & \\lambda=2,2^2, 2^3, 2^4 \\\\ & r=2,3,4,5\\end{aligned}$<br/>Hence maximum value of $r$ is 5 when $\\lambda=16$<br/>$\\begin{aligned} & \\text { Case-II }: \\lambda=3.2^{\\mathrm{r}-2} \\\\ & \\lambda=3,6,12,24 \\\\ & \\mathrm{r}=2, \\quad 3, \\quad 4,5\\end{aligned}$<br/>Hence maximum value of $r$ is 5 when $\\lambda=24$"
+  }
+}

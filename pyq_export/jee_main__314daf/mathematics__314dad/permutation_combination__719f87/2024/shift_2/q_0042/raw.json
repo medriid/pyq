@@ -1,0 +1,58 @@
+{
+  "_id": "6682bd34ba0e94a3c4025b2d",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "question": {
+    "text": "<p>The lines <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mn>1</mn></msub><mo>,</mo><msub><mi>L</mi><mn>2</mn></msub><mo>,</mo><mo>.</mo><mo>..</mo><mo>,</mo><msub><mi>L</mi><mn>20</mn></msub></math> are distinct. For <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>.</mo><mo>..</mo><mo>,</mo><mn>10</mn></math> all the lines <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mrow><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub></math> are parallel to each other and all the lines <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mrow><mn>2</mn><mi>n</mi></mrow></msub></math> pass through a given point <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>. The maximum number of points of intersection of pairs of lines from the set <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>,</mo><msub><mi>L</mi><mn>2</mn></msub><mo>,</mo><mo>.</mo><mo>..</mo><mo>,</mo><msub><mi>L</mi><mn>20</mn></msub></mrow></mfenced></math> is equal to:</p>",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "101",
+  "solution": {
+    "text": "<p>Given:</p><p>Out of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math> numbered lines, even numbered lines are concurrent, odd number lines are parallel.</p><p>So, the maximum number of intersection points will be given by,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi><mo>=</mo><mfenced><mrow><mn>1</mn><mo>→</mo><mtext>point of intersection when both lines are even</mtext></mrow></mfenced><mo>+</mo><mfenced><mrow><mn>0</mn><mo>→</mo><mtext>point of intersection when both lines are parallel</mtext></mrow></mfenced><mo>+</mo><mfenced><mrow><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>10</mn></mmultiscripts><mo>×</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>10</mn></mmultiscripts><mo>→</mo><mtext>point of intersection when </mtext><mn>1</mn><mtext> odd and </mtext><mn>1</mn><mtext> even line meets</mtext></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>+</mo><mn>100</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mn>101</mn></math></p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "7102dc6fff4b471c87fa17cacbd73eeb",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/TWWpRFqcwTWKo.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/TWWpRFqcwTWKo.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYearPapers": [
+    {
+      "_id": "65c4c0c11d30997d3436bb07",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-02-01T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (01 Feb Shift 2)",
+      "title": "JEE Main 2024 (01 Feb Shift 2)"
+    }
+  ],
+  "previousYear": {
+    "_id": "65c4c0c11d30997d3436bb07",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-02-01T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (01 Feb Shift 2)",
+    "title": "JEE Main 2024 (01 Feb Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

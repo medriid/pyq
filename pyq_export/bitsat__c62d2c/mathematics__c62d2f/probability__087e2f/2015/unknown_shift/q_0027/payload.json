@@ -1,0 +1,43 @@
+{
+  "index": 27,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78b6e5f7d916087e2f",
+    "chapter_name": "Probability",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A bag contains 3 red and 3 white balls. Two balls are drawn one by one. The probability that they are of different colours is."
+  },
+  "options": [
+    {
+      "text": "$3 / 10$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 / 5$",
+      "is_correct": false
+    },
+    {
+      "text": "$3 / 5$",
+      "is_correct": true
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $\\mathrm{A} \\equiv$ event that drawn ball is red $\\mathrm{B} \\equiv$ event that drawn ball is white Then $\\mathrm{AB}$ and $\\mathrm{BA}$ are two disjoint cases of the given event.\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\therefore P(A B+B A)=P(A B)+P(B A) \\\\\r\n\r\n=P(A) \\quad P\\left(\\frac{B}{A}\\right)+P(B) \\quad P\\left(\\frac{A}{B}\\right)\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\n$=\\frac{3}{6} \\cdot \\frac{3}{5}+\\frac{3}{6} \\cdot \\frac{3}{5}=\\frac{3}{5}$"
+  }
+}

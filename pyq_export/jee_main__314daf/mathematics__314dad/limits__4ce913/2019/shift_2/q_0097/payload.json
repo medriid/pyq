@@ -1,0 +1,43 @@
+{
+  "index": 97,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (12 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><msup><mn>1</mn><mo>-</mo></msup></mrow></munder><mfrac><mrow><msqrt><mi>&#960;</mi></msqrt><mo>-</mo><msqrt><mn>2</mn><msup><mi>sin</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></msqrt></mrow><msqrt><mn>1</mn><mo>-</mo><mi>x</mi></msqrt></mfrac></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>&#960;</mi></msqrt></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><msqrt><mfrac><mrow><mn>2</mn></mrow><mrow><mi>&#960;</mi></mrow></mfrac></msqrt></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><msqrt><mn>2</mn><mi>&#960;</mi></msqrt></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><msqrt><mfrac><mrow><mi>&#960;</mi></mrow><mrow><mn>2</mn></mrow></mfrac></msqrt></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p>Given limit can be written as</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><msup><mn>1</mn><mo>-</mo></msup></mrow></munder><mfrac><mrow><msqrt><mi>&#960;</mi></msqrt><mo>-</mo><msqrt><mn>2</mn><msup><mi>sin</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></msqrt></mrow><msqrt><mn>1</mn><mo>-</mo><mi>x</mi></msqrt></mfrac><mo>&#215;</mo><mfrac><mrow><msqrt><mi>&#960;</mi></msqrt><mo>+</mo><msqrt><mn>2</mn><msup><mi>sin</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></msqrt></mrow><mrow><msqrt><mi>&#960;</mi></msqrt><mo>+</mo><msqrt><mn>2</mn><msup><mi>sin</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></msqrt></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>L</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><msup><mn>1</mn><mo>-</mo></msup></mrow></munder><mfrac><mrow><mi>&#960;</mi><mo>-</mo><mn>2</mn><msup><mi>sin</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></mrow><mrow><msqrt><mn>1</mn><mo>-</mo><mi>x</mi></msqrt><mi>&#160;</mi><mfenced separators=\"|\"><mrow><msqrt><mi>&#960;</mi></msqrt><mo>+</mo><msqrt><mn>2</mn><msup><mi>sin</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></msqrt></mrow></mfenced></mrow></mfrac><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><msup><mn>1</mn><mo>-</mo></msup></mrow></munder><mfrac><mrow><mn>2</mn><msup><mi>cos</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></mrow><mrow><msqrt><mn>1</mn><mo>-</mo><mi>x</mi></msqrt><mi>&#160;</mi><mfenced separators=\"|\"><mrow><msqrt><mi>&#960;</mi></msqrt><mo>+</mo><msqrt><mn>2</mn><msup><mi>sin</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></msqrt></mrow></mfenced></mrow></mfrac></math></p><p>Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><msup><mn>1</mn><mo>-</mo></msup></mrow></munder><mfrac><mrow><msup><mi>cos</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></mrow><msqrt><mn>1</mn><mo>-</mo><mi>x</mi></msqrt></mfrac></math>&nbsp;and put <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>cos</mi><mi>&#952;</mi></math>, we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>&#952;</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mfrac><mi>&#952;</mi><mn>2</mn></mfrac><mo>.</mo><mn>2</mn></mrow><mrow><msqrt><mn>2</mn></msqrt><mo>.</mo><mi>sin</mi><mfrac><mi>&#952;</mi><mn>2</mn></mfrac></mrow></mfrac><mo>=</mo><munder><mi>lim</mi><mrow><mi>&#952;</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><msqrt><mn>2</mn></msqrt><mstyle displaystyle=\"true\"><mfrac><mrow><mi>sin</mi><mfrac><mi>&#952;</mi><mn>2</mn></mfrac></mrow><mfrac><mi>&#952;</mi><mn>2</mn></mfrac></mfrac></mstyle></mfrac><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>&#160;</mo><mfenced open=\"[\" close=\"]\"><mrow><mo>&#8757;</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>sin</mi><mi>x</mi></mrow><mi>x</mi></mfrac><mo>=</mo><mn>1</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>L</mi><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow><mrow><mn>2</mn><mi>&#160;</mi><msqrt><mi>&#960;</mi></msqrt></mrow></mfrac><mo>=</mo><msqrt><mfrac><mn>2</mn><mi>&#960;</mi></mfrac></msqrt></math>.</p>"
+  }
+}

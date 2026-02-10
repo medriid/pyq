@@ -1,8 +1,8 @@
 {
   "index": 42,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2024 (04 Apr Shift 1)",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "If the domain of the function $\\sin ^{-1}\\left(\\frac{3 x-22}{2 x-19}\\right)+\\log _{\\mathrm{e}}\\left(\\frac{3 x^2-8 x+5}{x^2-3 x-10}\\right)$ is $(\\alpha, \\beta]$, then $3 \\alpha+10 \\beta$ is equal to:"
+    "text": "Let $[t]$ be the greatest integer less than or equal to $t$. Let $A$ be the set of all prime factors of 2310 and $f: A \\rightarrow \\mathbb{Z}$ be the function $f(x)=\\left[\\log _2\\left(x^2+\\left[\\frac{x^3}{5}\\right]\\right)\\right]$. The number of one-to-one functions from $A$ to the range of $f$ is"
   },
   "options": [
     {
-      "text": "100",
+      "text": "25",
       "is_correct": false
     },
     {
-      "text": "95",
+      "text": "24",
       "is_correct": false
     },
     {
-      "text": "97",
+      "text": "20",
+      "is_correct": false
+    },
+    {
+      "text": "120",
       "is_correct": true
-    },
-    {
-      "text": "98",
-      "is_correct": false
     }
   ],
   "correct_answer": [
-    "C"
+    "D"
   ],
   "solution": {
-    "text": "$\\begin{array}{ll}\n-1 \\leq \\frac{3 x-22}{2 x-19} \\leq 1 & \\frac{3 x^2-8 x+5}{x^2-3 x-10}>0 \\\\\nx \\in\\left(5, \\frac{41}{5}\\right] & \\\\\n3 \\alpha+10 \\beta=97 &\n\\end{array}$"
+    "text": "$\\mathrm{N}=2310=231 \\times 10$\n$=3 \\times 11 \\times 7 \\times 2 \\times 5$\n$A=\\{2,3,5,7,11\\}$\n$\\begin{aligned} & f(x)=\\left[\\log _2\\left(x^2+\\left[\\frac{x^3}{5}\\right]\\right)\\right] \\\\ & f(2)=\\left[\\log _2(5)\\right]=2 \\\\ & f(3)=\\left[\\log _2(14)\\right]=3 \\\\ & f(5)=\\left[\\log _2(25+25)\\right]=5 \\\\ & f(7)=\\left[\\log _2(117)\\right]=6 \\\\ & f(11)=\\left[\\log _2 387\\right]=8\\end{aligned}$\nRange of $f: B=\\{2,3,5,6,8\\}$\nNo. of one-one functions $=5 !=120$"
   }
 }

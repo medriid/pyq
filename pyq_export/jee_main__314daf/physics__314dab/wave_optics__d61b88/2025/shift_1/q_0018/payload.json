@@ -1,8 +1,8 @@
 {
   "index": 18,
-  "type": "singleCorrect",
+  "type": "numerical",
   "difficulty": 1,
-  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Given below are two statements : one is labelled as Assertion (A) and the other is labelled as Reason (R).\nAssertion-(A) : If Young's double slit experiment is performed in an optically denser medium than air, then the consecutive fringes come closer.\nReason-(R) : The speed of light reduces in an optically denser medium than air while its frequency does not change.\nIn the light of the above statements, choose the most appropriate answer from the options given below :"
+    "text": "If the measured angular separation between the second minimum to the left of the central maximum and the third minimum to the right of the central maximum is $30^{\\circ}$ in a single slit diffraction pattern recorded using 628 nm light, then the width of the slit is _______ $\\mu \\mathrm{m}$."
   },
-  "options": [
-    {
-      "text": "Both $(\\mathbf{A})$ and $(\\mathbf{R})$ are true but $(\\mathbf{R})$ is not the correct explanation of $(\\mathbf{A})$",
-      "is_correct": false
-    },
-    {
-      "text": "Both $(\\mathbf{A})$ and $(\\mathbf{R})$ are true and $(\\mathbf{R})$ is the correct explanation of $(\\mathbf{A})$",
-      "is_correct": true
-    },
-    {
-      "text": "(A) is true but (R) is false",
-      "is_correct": false
-    },
-    {
-      "text": "$(A)$ is false but (R) is true",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "B"
-  ],
+  "options": [],
+  "correct_answer": "6",
   "solution": {
-    "text": "$\\beta(\\text { fringe width })=\\frac{\\lambda D}{d}$\n\nIn denser medium, $\\lambda \\downarrow \\Rightarrow \\beta \\downarrow$ $\\Rightarrow$ fringe come closer\n\nAlso, $\\mu=\\frac{\\mathrm{c}}{\\mathrm{V}} \\Rightarrow \\mathrm{V}=\\frac{\\mathrm{c}}{\\mu}$\nFrequency remains same,\n$\\Rightarrow \\mu=\\frac{\\lambda_{\\mathrm{vac} .} \\mathrm{f}}{\\lambda_{\\mathrm{med}} \\mathrm{f}} \\Rightarrow \\lambda_{\\mathrm{med}}=\\frac{\\lambda_{\\mathrm{vac} .}}{\\mu}$"
+    "text": "<img src=\"assets\\st0018_ca9bd711e6ea.png\"/><br/>$\\begin{aligned} & \\theta_1=\\sin ^{-1}\\left(\\frac{2 \\lambda}{a}\\right) \\\\ & \\theta_2=\\sin ^{-1}\\left(\\frac{3 \\lambda}{a}\\right) \\\\ & \\because \\quad \\theta_1+\\theta_2=30^{\\circ}\\end{aligned}$<br/>$\\begin{aligned} & \\Rightarrow \\sin ^{-1}\\left(\\frac{2 \\lambda}{\\mathrm{a}}\\right)+\\sin ^{-1}\\left(\\frac{3 \\lambda}{\\mathrm{a}}\\right)=\\frac{\\pi}{6} \\\\ & \\Rightarrow \\frac{2 \\lambda}{\\mathrm{a}} \\sqrt{1-\\left(\\frac{3 \\lambda}{\\mathrm{a}}\\right)^2}+\\frac{3 \\lambda}{\\mathrm{a}} \\sqrt{1+\\left(\\frac{2 \\lambda}{\\mathrm{a}}\\right)^2}=\\sin \\frac{\\pi}{6}\\end{aligned}$<br/>Here $\\lambda=628 \\mathrm{~nm}$<br/>After solving<br/>$\\mathrm{A}=6.07 \\mu \\mathrm{~m}$<br/>Approximate Method :<br/>$\\begin{aligned} & \\theta=\\theta_1+\\theta_2 \\\\ & \\Rightarrow \\frac{\\pi}{6}=\\frac{2 \\lambda}{a}+\\frac{3 \\lambda}{a} \\\\ & \\Rightarrow \\frac{\\pi}{6}=\\frac{5}{a}(628 \\mathrm{~nm}) \\\\ & \\Rightarrow a=6 \\mu \\mathrm{~m}\\end{aligned}$"
   }
 }

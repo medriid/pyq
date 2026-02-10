@@ -1,0 +1,43 @@
+{
+  "index": 57,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2022 (26 Jun Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2022",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mi>min</mi><mfenced open=\"{\" close=\"}\"><mrow><mn>1</mn><mo>,</mo><mn>1</mn><mo>+</mo><mi>x</mi><mi>sin</mi><mi>x</mi></mrow></mfenced><mo>,</mo><mn>0</mn><mo>&#8804;</mo><mi>x</mi><mo>&#8804;</mo><mn>2</mn><mi>&#960;</mi></math>. If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> is the number of points, where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> is not differentiable and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>&nbsp;is the number of points, where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> is not continuous, then the ordered pair <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>m</mi><mo>,</mo><mi>n</mi></mrow></mfenced></math>&nbsp;is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>2</mn><mo>,</mo><mn>0</mn></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>1</mn><mo>,</mo><mn>0</mn></mrow></mfenced></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>1</mn><mo>,</mo><mn>1</mn></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>2</mn><mo>,</mo><mn>1</mn></mrow></mfenced></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mi>min</mi><mfenced close=\"}\" open=\"{\"><mrow><mn>1</mn><mo>,</mo><mn>1</mn><mo>+</mo><mi>x</mi><mi>sin</mi><mi>x</mi></mrow></mfenced><mi>x</mi><mo>&#8712;</mo><mfenced close=\"]\" open=\"[\"><mrow><mn>0</mn><mo>,</mo><mn>2</mn><mi>&#960;</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable><mtr><mtd><mn>1</mn><mo>,</mo><mo>&#160;&#160;</mo><mn>0</mn><mo>&#8804;</mo><mi>x</mi><mo>&#8804;</mo><mi>&#960;</mi></mtd></mtr><mtr><mtd><mn>1</mn><mo>+</mo><mi>x</mi><mi>sin</mi><mi>x</mi><mo>,</mo><mi>&#960;</mi><mo>&#8804;</mo><mi>x</mi><mo>&#8804;</mo><mn>2</mn><mi>&#960;</mi></mtd></mtr></mtable></mfenced></math></p><p>Now, at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>&#960;</mi><mo>,</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><msup><mi>&#960;</mi><mo>-</mo></msup></mrow></munder><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mn>1</mn><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><msup><mi>&#960;</mi><mo>+</mo></msup></mrow></munder><mi>f</mi><mfenced><mi>x</mi></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>f</mi><mfenced><mi>x</mi></mfenced></math> is continuous in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"[\"><mrow><mn>0</mn><mo>,</mo><mn>2</mn><mi>&#960;</mi></mrow></mfenced></math></p><p>So, number of points of discontinuity is zero or&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>0</mn></math></p><p>Now, at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>&#960;</mi></math></p><p>L.H.D <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>f</mi><mfenced><mrow><mi>&#960;</mi><mo>-</mo><mi>h</mi></mrow></mfenced><mo>-</mo><mi>f</mi><mfenced><mi>&#960;</mi></mfenced></mrow><mrow><mo>-</mo><mi>h</mi></mrow></mfrac><mo>=</mo><mn>0</mn></math></p><p>R.H.D <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>f</mi><mfenced><mrow><mi>&#960;</mi><mo>+</mo><mi>h</mi></mrow></mfenced><mo>-</mo><mi>f</mi><mfenced><mi>&#960;</mi></mfenced></mrow><mi>h</mi></mfrac><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mn>1</mn><mo>-</mo><mfenced><mrow><mi>&#960;</mi><mo>+</mo><mi>h</mi></mrow></mfenced><mi>sin</mi><mi>h</mi><mo>-</mo><mn>1</mn></mrow><mi>h</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><mi>&#960;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mi>f</mi><mfenced><mi>x</mi></mfenced></math> is not differentiable at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>&#960;</mi></math>&nbsp;so,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mfenced><mrow><mi>m</mi><mo>,</mo><mi>n</mi></mrow></mfenced><mo>=</mo><mfenced><mrow><mn>1</mn><mo>,</mo><mn>0</mn></mrow></mfenced></math></p>"
+  }
+}

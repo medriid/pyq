@@ -2,7 +2,7 @@
   "index": 12,
   "type": "singleCorrect",
   "difficulty": 1,
-  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Let $X=\\mathbf{R} \\times \\mathbf{R}$. Define a relation $R$ on $X$ as :\n$\\left(a_1, b_1\\right) R\\left(a_2, b_2\\right) \\Leftrightarrow b_1=b_2$\n\nStatement I : $\\quad \\mathrm{R}$ is an equivalence relation.\nStatement II : For some $(a, b) \\in X$, the set $S=\\{(x, y) \\in X:(x, y) R(a, b)\\}$ represents a line parallel to $y=x$.\nIn the light of the above statements, choose the correct answer from the options given below :"
+    "text": "Let $A=\\{-2,-1,0,1,2,3\\}$. let R be a relation on A defined by $x R y$ if and only if $y=\\max \\{x, 1\\}$. Let $l$ be the number of elements in R. Let m and n be the minimum number of elements required to be added in R to make it reflexive and symmetric relations, respectively. Then $l+\\mathrm{m}+\\mathrm{n}$ is equal to"
   },
   "options": [
     {
-      "text": "Both Statement I and Statement II are false",
-      "is_correct": false
-    },
-    {
-      "text": "Statement I is true but Statement II is false",
+      "text": "$12$",
       "is_correct": true
     },
     {
-      "text": "Both Statement I and Statement II are true",
+      "text": "$11$",
       "is_correct": false
     },
     {
-      "text": "Statement I is false but Statement II is true",
+      "text": "$13$",
+      "is_correct": false
+    },
+    {
+      "text": "$14$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "B"
+    "A"
   ],
   "solution": {
-    "text": "Reflexive : $\\left(a_1, b\\right) R\\left(a_1, b_1\\right) \\Rightarrow b_1=b_1 \\quad$ True\n\n$\\left.\\begin{array}{rl}\\text { Symmetric : } & \\left(a_1, b_1\\right) R\\left(a_2, b_2\\right) \\Rightarrow b_1=b_2 \\\\ & \\left(a_2, b_2\\right) R\\left(a_1, b_1\\right) \\Rightarrow b_2=b_1\\end{array}\\right\\}$ True\n\n$\\begin{aligned} \\text { Transitive : } & \\left(a_1, b_1\\right) R\\left(a_2, b_2\\right) \\Rightarrow b_1=b_2 \\\\ & \\&\\left(a_2, b_2\\right) R\\left(a_3, b_3\\right) b_2=b_3 \\\\ & \\Rightarrow\\left(a_1, b_1\\right) R\\left(a_3 . b_3\\right) \\Rightarrow \\text { True }\\} b_1=b_3\\end{aligned}$\n\nHence Relation $R$ is an equivence relation Statement-I is true.\nFor statement $-\\mathrm{II} \\Rightarrow \\mathrm{y}=\\mathrm{b}$ so False"
+    "text": "$\\begin{aligned} & \\mathrm{A}=\\{-2,-1,0,1,2,3\\} \\\\ & \\mathrm{R}=\\{(-2,1),(-1,1),(0,1),(1,1),(2,2),(3,3)\\} \\\\ & \\ell=6 \\\\ & \\mathrm{~m}=3 \\\\ & \\mathrm{n}=3 \\\\ & \\ell+\\mathrm{m}+\\mathrm{n}=12\\end{aligned}$"
   }
 }

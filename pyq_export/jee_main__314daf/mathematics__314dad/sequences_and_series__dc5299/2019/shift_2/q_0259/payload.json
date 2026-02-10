@@ -1,0 +1,43 @@
+{
+  "index": 259,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (09 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The sum of the following series <math><mn>1</mn><mo>+</mo><mn>6</mn><mo>+</mo><mfrac><mrow><mn>9</mn><mfenced separators=\"|\"><mrow><msup><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><msup><mrow><mn>3</mn></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfenced></mrow><mrow><mn>7</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>12</mn><mfenced separators=\"|\"><mrow><msup><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><msup><mrow><mn>3</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><msup><mrow><mn>4</mn></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfenced></mrow><mrow><mn>9</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>15</mn><mo>(</mo><msup><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mo>&#8230;</mo><mo>+</mo><msup><mrow><mn>5</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>)</mo></mrow><mrow><mn>11</mn></mrow></mfrac><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo></math> up to <math><mn>15</mn></math> terms, is:"
+  },
+  "options": [
+    {
+      "text": "<math><mn>7520</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>7510</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>7830</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>7820</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p><math><msub><mrow><mi>t</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>=</mo><mfrac><mrow><mn>3</mn><mi>n</mi><mfenced separators=\"|\"><mrow><msup><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><msup><mrow><mn>3</mn></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mo>&#8230;</mo><mo>+</mo><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfenced></mrow><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mi>n</mi><mo>&#215;</mo><mi>n</mi><mfenced separators=\"|\"><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mfenced separators=\"|\"><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow><mrow><mn>6</mn><mi>&#160;</mi><mfenced separators=\"|\"><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfrac></math><br /><br /><math><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mi>&#160;</mi><mfenced separators=\"|\"><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>+</mo><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfenced></math><br /><br /><math><mo>&#8756;</mo><msub><mrow><mi>S</mi></mrow><mrow><mn>15</mn></mrow></msub><mo>=</mo><mrow><munderover><mo stretchy=\"false\">&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mrow><mn>15</mn></mrow></munderover><mrow><msub><mrow><mi>t</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>=</mo><mrow><munderover><mo stretchy=\"false\">&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mrow><mn>15</mn></mrow></munderover><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mfenced separators=\"|\"><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>+</mo><msup><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfenced></mrow></mrow></mrow></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>15</mn></munderover><msup><mi>n</mi><mn>3</mn></msup><mo>+</mo><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>15</mn></munderover><msup><mi>n</mi><mn>2</mn></msup></mrow></mfenced></math></p><p><br /><math><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>&#215;</mo><mfenced close=\"]\" open=\"[\" separators=\"|\"><mrow><msup><mrow><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>15</mn><mo>&#215;</mo><mn>16</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mfrac><mrow><mn>15</mn><mo>&#215;</mo><mn>16</mn><mo>&#215;</mo><mn>31</mn></mrow><mrow><mn>6</mn></mrow></mfrac><mi>&#160;</mi></mrow></mfenced></math>&nbsp; &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"{\" close=\"}\"><mrow><mo>&#8721;</mo><msup><mi>n</mi><mn>3</mn></msup><mo>=</mo><msup><mfenced><mfrac><mrow><mi>n</mi><mfenced><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow><mn>2</mn></mfrac></mfenced><mn>2</mn></msup><mo>,</mo><mo>&#160;</mo><mo>&#8721;</mo><msup><mi>n</mi><mn>2</mn></msup><mo>=</mo><mfenced><mfrac><mrow><mi>n</mi><mfenced><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mfenced><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfenced></mrow><mn>6</mn></mfrac></mfenced></mrow></mfenced></math><br /><br /><math><mo>=</mo><mn>7200</mn><mo>+</mo><mn>620</mn></math><br /><br /><math><mo>=</mo><mn>7820</mn></math></p>"
+  }
+}

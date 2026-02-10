@@ -1,8 +1,8 @@
 {
   "index": 38,
-  "type": "numerical",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2022 (29 Jun Shift 1)",
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2022 (29 Jul Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "<p>As per the given figure, two plates <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> of thermal conductivity <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>K</mi></math> are joined together to form a compound plate. The thickness of plates are <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>.</mo><mn>0</mn><mo>&#160;</mo><mi>cm</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mi>cm</mi></math> respectively and the area of cross-section is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><msup><mrow><mo>&#160;</mo><mi>cm</mi></mrow><mn>2</mn></msup></math> for each plate. The equivalent thermal conductivity of the compound plate is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><mn>5</mn><mi>&#945;</mi></mfrac></mrow></mfenced><mi>K</mi></math>, then the value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi></math> will be _____ .</p><p><img src=\"assets\\qt0038_f58da96bffc4.png\" style=\"width: 300px; height: 86px;\" /></p>"
+    "text": "Two metallic wires of identical dimensions are connected is series. If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#963;</mi><mn>1</mn></msub></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#963;</mi><mn>2</mn></msub></math> are the conductivities of the these wires respectively, the effective conductivity of the combination is :"
   },
-  "options": [],
-  "correct_answer": "21",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msub><mi>&#963;</mi><mn>1</mn></msub><msub><mi>&#963;</mi><mn>2</mn></msub></mrow><mrow><msub><mi>&#963;</mi><mn>1</mn></msub><mo>+</mo><msub><mi>&#963;</mi><mn>2</mn></msub></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><msub><mi>&#963;</mi><mn>1</mn></msub><msub><mi>&#963;</mi><mn>2</mn></msub></mrow><mrow><msub><mi>&#963;</mi><mn>1</mn></msub><mo>+</mo><msub><mi>&#963;</mi><mn>2</mn></msub></mrow></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msub><mi>&#963;</mi><mn>1</mn></msub><mo>+</mo><msub><mi>&#963;</mi><mn>2</mn></msub></mrow><mrow><mn>2</mn><msub><mi>&#963;</mi><mn>1</mn></msub><msub><mi>&#963;</mi><mn>2</mn></msub></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msub><mi>&#963;</mi><mn>1</mn></msub><mo>+</mo><msub><mi>&#963;</mi><mn>2</mn></msub></mrow><mrow><msub><mi>&#963;</mi><mn>1</mn></msub><msub><mi>&#963;</mi><mn>2</mn></msub></mrow></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
   "solution": {
-    "text": "<p>The thermal resistance of rod 1 will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>1</mn></msub><mo>=</mo><mfrac><msub><mi>l</mi><mn>1</mn></msub><mrow><mi>K</mi><mi>A</mi></mrow></mfrac><mo>=</mo><mfrac><mn>4</mn><mrow><mi>K</mi><mi>A</mi></mrow></mfrac></math>&nbsp;and rod 2 will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>2</mn></msub><mo>=</mo><mfrac><msub><mi>l</mi><mn>2</mn></msub><mrow><mn>2</mn><mi>K</mi><mi>A</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>5</mn></mrow><mrow><mn>2</mn><mi>K</mi><mi>A</mi></mrow></mfrac></math>.</p><p>Since they are connected in series,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub><mo>=</mo><msub><mi>R</mi><mn>1</mn></msub><mo>+</mo><msub><mi>R</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><mn>10</mn><mo>.</mo><mn>5</mn></mrow><mrow><mn>2</mn><mi>K</mi><mi>A</mi></mrow></mfrac></math>.</p><p>If equivalent thermal conductivity is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub></math>, then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub><mo>=</mo><mfrac><mrow><msub><mi>l</mi><mn>1</mn></msub><mo>+</mo><msub><mi>l</mi><mn>2</mn></msub></mrow><mrow><msub><mi>K</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub><mi>A</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>6</mn><mo>.</mo><mn>5</mn></mrow><mrow><msub><mi>K</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub><mi>A</mi></mrow></mfrac></math>. Therefore,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>10</mn><mo>.</mo><mn>5</mn></mrow><mrow><mn>2</mn><mi>K</mi><mi>A</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>6</mn><mo>.</mo><mn>5</mn></mrow><mrow><msub><mi>K</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub><mi>A</mi></mrow></mfrac><mo>&#8658;</mo><msub><mi>K</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub><mo>=</mo><mfrac><mn>26</mn><mn>21</mn></mfrac><mi>K</mi><mo>=</mo><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><mn>5</mn><mn>21</mn></mfrac></mrow></mfenced><mi>K</mi></math></p><p>Hence,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi><mo>=</mo><mn>21</mn></math>.</p>"
+    "text": "<blockquote><p><img src=\"assets\\st0038_876a4b026257.png\" style=\"width: 400px; height: 66px;\" /></p><p>Let length of wire be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math>,<br />Area of wire as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math><br />For equivalent wire length <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2</mn><mi>l</mi></math>&nbsp;&amp; area will be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math></p><p>As the wires are connected in series combination, the thermal resistance</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub><mo>=</mo><msub><mi>R</mi><mn>1</mn></msub><mo>+</mo><msub><mi>R</mi><mn>2</mn></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mrow><mn>2</mn><mi>l</mi></mrow><mrow><msub><mi>&#963;</mi><mi>eq</mi></msub><mo>&#160;</mo><mi>A</mi></mrow></mfrac><mo>=</mo><mfrac><mi>l</mi><mrow><msub><mi>&#963;</mi><mn>1</mn></msub><mo>&#160;</mo><mi>A</mi></mrow></mfrac><mo>+</mo><mfrac><mi>l</mi><mrow><msub><mi>&#963;</mi><mn>1</mn></msub><mo>&#160;</mo><mi>A</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mn>2</mn><msub><mi>&#963;</mi><mrow><mi>eq</mi><mo>&#160;</mo></mrow></msub></mfrac><mo>=</mo><mfrac><mn>1</mn><msub><mi>&#963;</mi><mn>1</mn></msub></mfrac><mo>+</mo><mfrac><mn>1</mn><msub><mi>&#963;</mi><mn>2</mn></msub></mfrac><mspace linebreak=\"newline\"></mspace><mo>&#8658;</mo><msub><mi>&#963;</mi><mrow><mi>eq</mi><mo>&#160;</mo></mrow></msub><mo>=</mo><mfrac><mrow><mn>2</mn><msub><mi>&#963;</mi><mn>1</mn></msub><msub><mi>&#963;</mi><mn>2</mn></msub></mrow><mrow><msub><mi>&#963;</mi><mn>1</mn></msub><mo>+</mo><msub><mi>&#963;</mi><mn>2</mn></msub></mrow></mfrac></math></p></blockquote>"
   }
 }

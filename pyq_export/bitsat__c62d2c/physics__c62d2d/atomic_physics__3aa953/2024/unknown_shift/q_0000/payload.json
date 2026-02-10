@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7f77a4ea0f853aa953",
+    "chapter_name": "Atomic Physics",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Which of the following transitions of $\\mathrm{He}^{+}$ion will give rise to spectral line which has same wavelength as the spectral line in hydrogen atom?"
+  },
+  "options": [
+    {
+      "text": "$n=4$ to $n=2$",
+      "is_correct": true
+    },
+    {
+      "text": "$n=6$ to $n=5$",
+      "is_correct": false
+    },
+    {
+      "text": "$n=6$ to $n=3$",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let the transition of electron in hydrogen atom $(Z=1)$ gives wavelength $\\lambda_1$ for transition from $n_2$ to $n_1$, then\n$\\frac{1}{\\lambda}=R Z^2\\left(\\frac{1}{m^2}-\\frac{1}{n^2}\\right)$\nHere, $\\lambda=\\lambda_1, Z=1, m=n_1, n=n_2$\n$\\frac{1}{\\lambda_1}=R(1)^2\\left(\\frac{1}{n_1^2}-\\frac{1}{n_2^2}\\right)=R\\left(\\frac{1}{n_1^2}-\\frac{1}{n_2^2}\\right)$\nNow, if electron makes transition in $\\mathrm{He}^{+}$ion from $n_4$ to $n_3$ and gives wavelength $\\lambda_2$, then\n$\\begin{aligned}\n\\frac{1}{\\lambda_2} & =R(2)^2\\left(\\frac{1}{n_3^2}-\\frac{1}{n_4^4}\\right) \\\\\n& =R\\left[\\frac{1}{\\left(\\frac{n_3}{2}\\right)^2}-\\frac{1}{\\left(\\frac{n_4}{2}\\right)^2}\\right]\n\\end{aligned}$\nGiven that, $\\quad \\lambda_1=\\lambda_2$\n$\\Rightarrow R\\left(\\frac{1}{n_1^2}-\\frac{1}{n_2^2}\\right)=R\\left[\\frac{1}{\\left(\\frac{n_3}{2}\\right)^2}-\\frac{1}{\\left(\\frac{n_4}{2}\\right)^2}\\right]$\nOn comparing beth sides, we get\n$n_1=\\frac{n_3}{2} \\text { and } n_2=\\frac{n_4}{2}$\nThe value of $n_1, n_2, n_3$ and $n_4$ must be an integer, as they denote principal quantum number.\nIf $n_3=2$ and $n_4=4$, then the given condition is satisfied."
+  }
+}

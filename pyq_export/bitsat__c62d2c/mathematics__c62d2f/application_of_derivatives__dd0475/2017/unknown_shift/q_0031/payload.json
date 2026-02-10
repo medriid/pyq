@@ -1,0 +1,43 @@
+{
+  "index": 31,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2017",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83086701c4b7dd0475",
+    "chapter_name": "Application of Derivatives",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the curve <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mi>a</mi><mi>x</mi></msup></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mi>b</mi><mi>x</mi></msup></math> intersect at angle <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi></math>, then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>tan</mi><mi>&#945;</mi></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>-</mo><mi>b</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>a</mi><mi>b</mi></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>log</mi><mi>a</mi><mo>-</mo><mi>log</mi><mi>b</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>log</mi><mi>a</mi><mi>log</mi><mi>b</mi></mrow></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mrow><mn>1</mn><mo>-</mo><mi>a</mi><mi>b</mi></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>log</mi><mi>a</mi><mo>+</mo><mi>log</mi><mi>b</mi></mrow><mrow><mn>1</mn><mo>-</mo><mi>log</mi><mi>a</mi><mi>log</mi><mi>b</mi></mrow></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p>Clearly, the point of intersection of curves is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>)</mo></math>.</p><p>Now, slope of tangent of first curve</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>m</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><msup><mi>a</mi><mi>x</mi></msup><mi>log</mi><mi>a</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mfenced><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac></mfenced><mrow><mo>(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></msub><mo>=</mo><msub><mi>m</mi><mn>1</mn></msub><mo>=</mo><mi>log</mi><mi>a</mi></math></p><p>Slope of tangent of second curve,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><msup><mi>b</mi><mi>x</mi></msup><mi>log</mi><mi>b</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;&#160;</mo><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><msub><mfenced><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac></mfenced><mrow><mo>(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></msub><mo>=</mo><mi>log</mi><mi>b</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>tan</mi><mi>&#945;</mi><mo>=</mo><mfenced open=\"|\" close=\"|\"><mfrac><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>-</mo><msub><mi>m</mi><mn>2</mn></msub></mrow><mrow><mn>1</mn><mo>+</mo><msub><mi>m</mi><mn>1</mn></msub><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></mfenced><mo>=</mo><mfrac><mrow><mi>log</mi><mi>a</mi><mo>-</mo><mi>log</mi><mi>b</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>log</mi><mi>a</mi><mi>log</mi><mi>b</mi></mrow></mfrac></math></p>"
+  }
+}

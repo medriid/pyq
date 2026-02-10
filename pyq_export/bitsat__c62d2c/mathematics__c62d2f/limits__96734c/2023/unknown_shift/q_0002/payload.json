@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd789dc466ce4f96734c",
+    "chapter_name": "Limits",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $f(x)=\\left\\{\\begin{array}{l}x^2-1,0 < x < 2 \\\\ 2 x+3,2 \\leq x < 3\\end{array}\\right.$, then the quadratic equation whose roots are $\\lim _{x \\rightarrow 2^{-}} f(x)$ and $\\lim _{x \\rightarrow 2^{+}} f(x)$ is"
+  },
+  "options": [
+    {
+      "text": "$x^2-6 x+9=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$x^2-7 x+8=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$x^2-14 x+49=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$x^2-10 x+21=0$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Since, $f(x)= \\begin{cases}x^2-1, & 0 < x < 2 \\\\ 2 x+3, & 2 \\leq x < 3\\end{cases}$<br />Now, $\\lim _{x \\rightarrow 2^{-}} f(x)=\\lim _{x \\rightarrow 2^{-}}\\left(x^2-1\\right)$<br />$\\begin{aligned}<br />& =\\lim _{h \\rightarrow 0}\\left[(2-h)^2-1\\right]=\\lim _{h \\rightarrow 0}\\left[4+h^2-4 h-1\\right] \\\\<br />& =\\lim _{h \\rightarrow 0}\\left[h^2-4 h+3\\right]=0-0+3=3<br />\\end{aligned}$<br />and $\\lim _{x \\rightarrow 2^{+}} f(x)=\\lim _{x \\rightarrow 2^{+}}(2 x+3)$<br />$=\\lim _{h \\rightarrow 0}[2(2+h)+3]=\\lim _{h \\rightarrow 0}[4+2 h+3]=7$<br />Hence the quadratic equation whose roots are 3 and 7 is given by $x^2-(3+7) x+(3+7)=0 \\Rightarrow x^2$ $-10 x+21=0$"
+  }
+}

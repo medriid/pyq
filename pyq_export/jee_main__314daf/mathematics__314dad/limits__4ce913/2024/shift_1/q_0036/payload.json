@@ -1,0 +1,43 @@
+{
+  "index": 36,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (29 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>→</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></munder><mfenced><mrow><mfrac><mn>1</mn><msup><mfenced><mrow><mi>x</mi><mo>-</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></mfenced><mn>2</mn></msup></mfrac><msubsup><mo>∫</mo><msup><mi>x</mi><mn>3</mn></msup><msup><mfenced><mfrac><mi>π</mi><mn>2</mn></mfrac></mfenced><mn>3</mn></msup></msubsup><mi>cos</mi><mfenced><mfrac><mn>1</mn><msup><mi>t</mi><mn>3</mn></msup></mfrac></mfenced><mi>d</mi><mi>t</mi></mrow></mfenced></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>π</mi></mrow><mn>8</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><msup><mi>π</mi><mn>2</mn></msup></mrow><mn>4</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><msup><mi>π</mi><mn>2</mn></msup></mrow><mn>8</mn></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>π</mi></mrow><mn>4</mn></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>Let, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>→</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></munder><mfrac><mrow><msubsup><mo>∫</mo><msup><mi>x</mi><mn>3</mn></msup><mstyle displaystyle=\"true\"><msup><mfenced><mfrac><mi>π</mi><mn>2</mn></mfrac></mfenced><mn>3</mn></msup></mstyle></msubsup><mi>cos</mi><msup><mi>t</mi><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>3</mn></mfrac></mstyle></msup><mi>d</mi><mi>t</mi></mrow><msup><mfenced><mrow><mi>x</mi><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><mi>π</mi><mn>2</mn></mfrac></mstyle></mrow></mfenced><mn>2</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><msubsup><mo>∫</mo><msup><mfenced><mstyle displaystyle=\"true\"><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>-</mo><mi>h</mi></mstyle></mfenced><mn>3</mn></msup><mstyle displaystyle=\"true\"><msup><mfenced><mfrac><mi>π</mi><mn>2</mn></mfrac></mfenced><mn>3</mn></msup></mstyle></msubsup><mi>cos</mi><msup><mi>t</mi><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>3</mn></mfrac></mstyle></msup><mi>d</mi><mi>t</mi></mrow><msup><mfenced><mstyle displaystyle=\"true\"><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>-</mo><mi>h</mi><mo>-</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mstyle></mfenced><mn>2</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>→</mo><mn>0</mn></mrow></munder><mfenced><mfrac><mrow><msubsup><mo>∫</mo><msup><mfenced><mstyle displaystyle=\"true\"><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>-</mo><mi>h</mi></mstyle></mfenced><mn>3</mn></msup><mstyle displaystyle=\"true\"><msup><mfenced><mfrac><mi>π</mi><mn>2</mn></mfrac></mfenced><mn>3</mn></msup></mstyle></msubsup><mi>cos</mi><msup><mi>t</mi><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>3</mn></mfrac></mstyle></msup><mi>d</mi><mi>t</mi></mrow><msup><mi>h</mi><mn>2</mn></msup></mfrac></mfenced></math></p><p>Applying L-Hospital's rule and Newton Leibnitz Theorem we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>→</mo><mn>0</mn></mrow></munder><mfenced><mfrac><mrow><mn>0</mn><mo>+</mo><mi>cos</mi><mfenced><mstyle displaystyle=\"true\"><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>-</mo><mi>h</mi></mstyle></mfenced><mo>×</mo><mn>3</mn><mo>×</mo><msup><mfenced><mrow><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>-</mo><mi>h</mi></mrow></mfenced><mn>2</mn></msup></mrow><mrow><mn>2</mn><mi>h</mi></mrow></mfrac></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>→</mo><mn>0</mn></mrow></munder><mfenced><mfrac><mrow><mi>sin</mi><mstyle displaystyle=\"true\"><mi>h</mi></mstyle><mo>×</mo><mn>3</mn><mo>×</mo><msup><mfenced><mrow><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>-</mo><mi>h</mi></mrow></mfenced><mn>2</mn></msup></mrow><mrow><mn>2</mn><mi>h</mi></mrow></mfrac></mfenced></math></p><p>We know that, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>h</mi><mo>→</mo><mn>0</mn></mrow></munder><mfenced><mfrac><mrow><mi>sin</mi><mi>h</mi></mrow><mi>h</mi></mfrac></mfenced><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>→</mo><mn>0</mn></mrow></munder><mfenced><mfrac><mrow><mn>3</mn><mo>×</mo><msup><mfenced><mrow><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>-</mo><mi>h</mi></mrow></mfenced><mn>2</mn></msup></mrow><mn>2</mn></mfrac></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>=</mo><mfrac><mrow><mn>3</mn><msup><mi>π</mi><mn>2</mn></msup></mrow><mn>8</mn></mfrac></math></p>"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "67726d0bc49e8ef28ee2b3cc",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6415",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 2)",
+      "title": "BITSAT 2024 (Memory Based Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "If $A=1+r^a+r^{2 a}+r^{3 a}+\\ldots \\infty$\nand $\\mathrm{B}=1+\\mathrm{r}^{\\mathrm{b}}+\\mathrm{r}^{2 \\mathrm{~b}}+\\mathrm{r}^{3 \\mathrm{~b}}+\\ldots \\infty$, then $\\frac{\\mathrm{a}}{\\mathrm{b}}$ is\nequal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "ilTOE",
+      "text": "$\\log _B(A)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "asGoG",
+      "text": "$\\log _{1-B}(1-A)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "bPRc5",
+      "text": "$\\log _{\\frac{B-1}{B}}\\left(\\frac{A-1}{A}\\right)$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "tTuis",
+      "text": "None of these",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$A=\\frac{1}{1-r^a} \\Rightarrow 1-r^a=\\frac{1}{A} \\Rightarrow r^a=1-\\frac{1}{A}=\\frac{A-1}{A}$\n$B=\\frac{1}{1-r^b} \\Rightarrow 1-r^b=\\frac{1}{B} \\Rightarrow r^b=1-\\frac{1}{B}=\\frac{B-1}{B}$\n$\\therefore a \\log r=\\log \\left(\\frac{A-1}{A}\\right)$\nand $b \\log r=\\log \\left(\\frac{B-1}{B}\\right)$\n$\\therefore \\frac{\\mathrm{a}}{\\mathrm{b}}=\\frac{\\log \\left(\\frac{\\mathrm{A}-1}{\\mathrm{~A}}\\right)}{\\log \\left(\\frac{\\mathrm{B}-1}{\\mathrm{~B}}\\right)}=\\log _{\\frac{\\mathrm{B}-1}{\\mathrm{~B}}}\\left(\\frac{\\mathrm{~A}-1}{\\mathrm{~A}}\\right)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6415",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 2)",
+    "title": "BITSAT 2024 (Memory Based Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

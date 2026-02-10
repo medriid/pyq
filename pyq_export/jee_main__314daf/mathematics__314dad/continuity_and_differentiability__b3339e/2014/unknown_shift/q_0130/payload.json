@@ -1,0 +1,43 @@
+{
+  "index": 130,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2014 (11 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=x|x|, g(x)=\\sin x$ and $h(x)=(g \\circ f)(x)$. Then"
+  },
+  "options": [
+    {
+      "text": "\n$\\mathrm{h}(\\mathrm{x})$ is not differentiable at $\\mathrm{x}=0$.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{h}(\\mathrm{x})$ is differentiable at $\\mathrm{x}=0$, but $\\mathrm{h}^{\\prime}(\\mathrm{x})$ is not continuous at $x=0$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{h}^{\\prime}(\\mathrm{x})$ is continuous at $\\mathrm{x}=0$ but it is not differentiable at $x=0$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\mathrm{h}^{\\prime}(\\mathrm{x})$ is differentiable at $\\mathrm{x}=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $f(x)=x|x|=x|x|, g(x)=\\sin x$ and $h(x)=g o f(x)=g[f(x)]$\n$$\n\\begin{aligned}\n&\\therefore h(x)= \\begin{cases}\\sin x^2, & x \\geq 0 \\\\\n-\\sin x^2, & x < 0\\end{cases} \\\\\n&\\text { Now, } h^{\\prime}(x)=\\left\\{\\begin{array}{cc}\n2 x \\cos x^2, & x \\geq 0 \\\\\n-2 x \\cos x^2, & x < 0\n\\end{array}\\right.\n\\end{aligned}\n$$\nSince, L.H.L and R.H.L at $x=0$ of $h^{\\prime}(x)$ is equal to 0 therefore $h^{\\prime}(x)$ is continuous at $x=0$\nNow, suppose $h^{\\prime}(x)$ is differentiable\n$$\n\\begin{aligned}\n&\\therefore h^{\\prime \\prime}(x) \\\\\n&= \\begin{cases}2\\left(\\cos x^2+2 x^2\\left(-\\sin x^2\\right),\\right. & x \\geq 0 \\\\\n2\\left(-\\cos x^2+2 x^2 \\sin x^2\\right), & x < 0\\end{cases}\n\\end{aligned}\n$$\nSince, L.H.L and R.H.L at $x=0$ of $h^{\\prime \\prime}(x)$ are different therefore $h^{\\prime \\prime}(x)$ is not continuous.\n$\\Rightarrow h^{\\prime \\prime}(x)$ is not differentiable\n$\\Rightarrow$ our assumption is wrong\nHence $h^{\\prime}(x)$ is not differentiable at $x=0$."
+  }
+}

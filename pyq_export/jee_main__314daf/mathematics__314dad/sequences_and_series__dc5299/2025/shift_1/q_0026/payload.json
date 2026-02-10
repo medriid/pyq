@@ -2,7 +2,7 @@
   "index": 26,
   "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (23 Jan Shift 1)",
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "If the first term of an A.P. is 3 and the sum of its first four terms is equal to one-fifth of the sum of the next four terms, then the sum of the first 20 terms is equal to"
+    "text": "The sum $1+3+11+25+45+71+.$. upto 20 terms, is equal to"
   },
   "options": [
     {
-      "text": "$-1080$",
+      "text": "$7240$",
       "is_correct": true
     },
     {
-      "text": "$-1020$",
+      "text": "$7130$",
       "is_correct": false
     },
     {
-      "text": "$-1200$",
+      "text": "$6982$",
       "is_correct": false
     },
     {
-      "text": "$-120$",
+      "text": "$8124$",
       "is_correct": false
     }
   ],
@@ -38,6 +38,6 @@
     "A"
   ],
   "solution": {
-    "text": "$\\begin{aligned} & \\mathrm{a}=3 \\\\ & \\mathrm{~S}_4=\\frac{1}{5}\\left(\\mathrm{~S}_8-\\mathrm{S}_4\\right) \\\\ & \\Rightarrow 5 \\mathrm{~S}_4=\\mathrm{S}_8-\\mathrm{S}_4 \\\\ & \\Rightarrow 6 \\mathrm{~S}_4=\\mathrm{S}_8 \\\\ & \\Rightarrow 6 \\cdot \\frac{4}{2}[2 \\times 3+(4-1) \\times \\mathrm{d}] \\\\ & =\\frac{8}{2}[2 \\times 3+(8-1) \\mathrm{d}] \\\\ & \\Rightarrow 12(6+3 \\mathrm{~d})=4(6+7 \\mathrm{~d}) \\\\ & \\Rightarrow 18+9 \\mathrm{~d}=6+7 \\mathrm{~d} \\\\ & \\Rightarrow \\mathrm{~d}=-6 \\\\ & \\mathrm{~S}_{20}=\\frac{20}{2}[2 \\times 3+(20-1)(-6)] \\\\ & =10[6-114] \\\\ & =-1080\\end{aligned}$"
+    "text": "Given sum is<br/>$S_n=1+3+11+25+45+71+\\ldots+T_n$<br/>First order differences are in A.P.<br/>Thus, we can assume that<br/>$\\mathrm{T}_{\\mathrm{n}}=\\mathrm{an}^2+\\mathrm{bn}+\\mathrm{c}$<br/>Solving $\\left\\{\\begin{array}{c}T_1=1=a+b+c \\\\ T_2=3=4 a+2 b+c \\\\ T_3=11=9 a+3 b+c\\end{array}\\right\\}$,<br/>we get $\\mathrm{a}=3, \\mathrm{~b}=-7, \\mathrm{c}=5$<br/>Hence, general term of given series is<br/>$\\mathrm{T}_{\\mathrm{n}}=3 \\mathrm{n}^2-7 \\mathrm{n}+5$<br/>Hence, required sum equals<br/>$\\sum_{\\mathrm{n}=1}^{\\mathrm{n}=20}\\left(3 \\mathrm{n}^2-7 \\mathrm{n}+5\\right)=3\\left(\\frac{20 \\cdot 21 \\cdot 41}{6}\\right)-7\\left(\\frac{20 \\cdot 21}{2}\\right)+5(20)=7240$"
   }
 }

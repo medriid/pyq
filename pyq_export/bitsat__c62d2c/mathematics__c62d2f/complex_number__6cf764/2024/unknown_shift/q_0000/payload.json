@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7787c3b967066cf764",
+    "chapter_name": "Complex Number",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The modulus of the complex number $z$ such that $|z+3-i|=1$ and $\\arg (z)=\\pi$ is equal to"
+  },
+  "options": [
+    {
+      "text": "3",
+      "is_correct": true
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "9",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $z=x+i y$\nGiven, $\\quad|z+3-i|=1$\n$\\begin{aligned}\n& \\Rightarrow \\quad|(x+3)+(y-1) i|=1 \\\\\n& \\Rightarrow \\quad \\sqrt{(x+3)^2+(y-1)^2}=1 \\\\\n& \\Rightarrow \\quad(x+3)^2+(y-1)^2=1\\ldots(i)\n\\end{aligned}$\nAbove is the equation of circle with centre $\\equiv(-3,1)$ and\n$\\text { radius }=1$\nAlso, $\\arg (z)=\\pi \\Rightarrow \\tan ^{-1}\\left|\\frac{y}{x}\\right|=\\pi$\n$\\Rightarrow \\quad\\left|\\frac{y}{x}\\right|=\\tan \\pi=0 \\Rightarrow y=0$\n<img src=\"assets\\st0000_f6e0fd0b8968.png\"/>\nBy Eq. (i),\n$\\begin{aligned}\n\\Rightarrow & x & =-3 \\\\\n\\therefore & z & =-3+0 i \\\\\n\\Rightarrow & \\text { Modulus of } z & =3\n\\end{aligned}$"
+  }
+}

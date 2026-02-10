@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e8336f5bfc7ab78aeb7a",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44d",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2022-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022",
+      "title": "BITSAT 2022"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $A=\\left[\\begin{array}{ccc}1 & -1 & 1 \\\\ 2 & 1 & -3 \\\\ 1 & 1 & 1\\end{array}\\right]$ and $10 B=\\left[\\begin{array}{ccc}4 & 2 & 2 \\\\ -5 & 0 & \\alpha \\\\ 1 & -2 & 3\\end{array}\\right]$\r\nIf $B$ is the inverse of $A$, then the value of $\\alpha$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Uo1QK",
+      "text": "\r\n4\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "TOkbs",
+      "text": "\r\n3\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "efYfi",
+      "text": "\r\n$-4$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "egq9i",
+      "text": "\r\n5",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$A=\\left[\\begin{array}{ccc}1 & -1 & 1 \\\\ 2 & 1 & -3 \\\\ 1 & 1 & 1\\end{array}\\right]$\r\n$\\therefore|A|=\\left[\\begin{array}{ccc}1 & -1 & 1 \\\\ 2 & 1 & -3 \\\\ 1 & 1 & 1\\end{array}\\right]$\r\n$=1(1+3)+1(2+3)+1(2-1)=4+5+1=10$\r\n$\\Rightarrow \\operatorname{Adj} A=\\left[\\begin{array}{ccc}4 & -5 & 1 \\\\ 2 & 0 & -2 \\\\ 2 & 5 & 3\\end{array}\\right]^T=\\left[\\begin{array}{ccc}4 & 2 & 2 \\\\ -5 & 0 & 5 \\\\ 1 & -2 & 3\\end{array}\\right]$\r\n$\\Rightarrow \\quad B=A^{-1}=\\frac{1}{10}\\left[\\begin{array}{ccc}4 & 2 & 2 \\\\ -5 & 0 & 5 \\\\ 1 & -2 & 3\\end{array}\\right]\\left[\\because A^{-1}=\\frac{1}{|A|} \\operatorname{Adj} A\\right]$\r\n$\\Rightarrow 10 B=\\left[\\begin{array}{ccc}4 & 2 & 2 \\\\ -5 & 0 & 5 \\\\ 1 & -2 & 3\\end{array}\\right]$\r\nHence, $\\alpha=5$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44d",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2022-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022",
+    "title": "BITSAT 2022"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2020",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7324369ff3396e0d92",
+    "chapter_name": "Pair of Lines",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$Statement- 1$: If the general equation $x^{2}+y^{2}+2 x y+2 g x+2 f y+4=0$ represents a pair of real lines then $|\\mathrm{g}| \\geq 2$. \r\n\r\n$Statement- 2$: The equation $a x^{2}+2 h x y+b y^{2}+2 g x+2 f y+c=0$ represents pair\r\n\r\nof real lines if $a b c+2 f g h-a f^{2}-b g^{2}-c h^{2}=0$"
+  },
+  "options": [
+    {
+      "text": "Statement -1 is false, Statement- 2 is true",
+      "is_correct": false
+    },
+    {
+      "text": "Statement -1 is true, Statement- 2 is true; Statement -2 is a correct explanation for Statement-1",
+      "is_correct": false
+    },
+    {
+      "text": "Statement -1 is true, Statement- 2 is true; Statement -2 is not a correct explanation for Statement-1",
+      "is_correct": false
+    },
+    {
+      "text": "Statement -1 is true, Statement- 2 is false",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "The equation represents a pair of lines if $1 \\cdot 1 \\cdot 4+2 \\cdot \\mathrm{f} \\cdot \\mathrm{g} \\cdot 1-1 \\cdot \\mathrm{f}^{2}-1 \\cdot \\mathrm{g}^{2}-4 \\cdot 1^{2}=0$\r\n\r\n$\\Rightarrow(f-g)^{2}=0 \\Rightarrow f=g$\r\n\r\nThe equation becomes $(x+y)^{2}+2 g(x+y)+4=0$ Which represents pair of parallel lines, which are real provided $(2 \\mathrm{~g})^{2}-4 \\cdot 4 \\cdot 1 \\geq 0 \\Rightarrow|\\mathrm{g}| \\geq 2$"
+  }
+}

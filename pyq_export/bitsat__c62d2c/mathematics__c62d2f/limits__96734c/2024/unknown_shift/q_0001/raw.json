@@ -1,0 +1,63 @@
+{
+  "_id": "67726d00c49e8ef28ee2b37b",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6414",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 1)",
+      "title": "BITSAT 2024 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $f(x)=\\sin x, g(x)=\\cos x, h(x)=x^2$ then\n$\\lim _{x \\rightarrow 1} \\frac{f(g(h(x)))-f(g(h(1)))}{x-1}=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "itSMo",
+      "text": "$0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "cC88u",
+      "text": "$-2 \\sin 1 \\cos (\\cos 1)$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "A0XFi",
+      "text": "$\\infty$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "4OWCU",
+      "text": "$-2 \\sin 1 \\cos 1$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given $f(x)=\\sin x, g(x)=\\cos x, h(x)=x^2$\n$\\lim _{x \\rightarrow 1} \\frac{f(g(h(x)))-f(g(h(1)))}{x-1}$\nWhen limit it applied, it gives $\\frac{0}{0}$ form, so we apply L'Hospital rule.\n$\\Rightarrow \\lim _{x \\rightarrow 1} \\frac{\\cos \\left(\\cos x^2\\right)\\left(-\\sin x^2\\right)(2 x)-0}{1-0}$\nApply the limit,\n$\\Rightarrow-2(1) \\sin (1) \\cos (\\cos 1)$\n$=-2 \\sin (1) \\cos (\\cos 1)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6414",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 1)",
+    "title": "BITSAT 2024 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

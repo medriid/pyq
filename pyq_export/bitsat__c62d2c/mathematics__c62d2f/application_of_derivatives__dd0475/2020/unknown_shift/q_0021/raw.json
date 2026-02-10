@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e81a6f5bfc7ab78aea9d",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d7e",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2020-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2020",
+      "title": "BITSAT 2020"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Consider the function $f(x)=|x-1| /x^{2},$ then $f(x)$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "BeUkH",
+      "text": "increasing in (0,1)$\\cup(2, \\infty)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "eo2mY",
+      "text": "increasing in $(-\\infty, 0) \\cup(1,2)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "hlOuP",
+      "text": "decreasing in (0,1)$\\cup(2, \\infty)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "YxaNP",
+      "text": "decreasing in (0,1)$\\cup(2, \\infty)$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$f(x)=\\frac{|x-1|}{x^{2}}=\\left\\{\\begin{array}{l}\\frac{1-x}{x^{2}}, x<1, x \\neq 0 \\\\ \\frac{x-1}{x^{2}}, x>1\\end{array}\\right.$\r\n\r\nClearly, $f(x)$ is continuous for all $x \\in R$ except at $x=0$\r\n\r\n$f^{\\prime}(x)=\\left\\{\\begin{array}{l}\r\n\r\n\\frac{x-2}{x^{3}}, x<1, x \\pm 0 \\\\\r\n\r\n\\frac{2-x}{x^{3}}, x>1\r\n\r\n\\end{array}\\right.$\r\n\r\n$f^{\\prime}(x)>0 \\Rightarrow x<0$ or $1<x<2$\r\n\r\n$f^{\\prime}(x)<0 \\Rightarrow 0<x<1$ or $x>2$\r\n\r\nHence, $f(x)$ is increasing in $(-\\infty, 0) \\cup(1,2)$ and\r\n\r\ndecreasing in (0,1)$\\cup(2, \\infty)$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d7e",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2020-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2020",
+    "title": "BITSAT 2020"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

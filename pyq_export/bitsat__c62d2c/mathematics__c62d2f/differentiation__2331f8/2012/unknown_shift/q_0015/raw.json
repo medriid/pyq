@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7a96f5bfc7ab78ae6cd",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d76",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012",
+      "title": "BITSAT 2012"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "For the function\r\n$f(x)=\\frac{x^{100}}{100}+\\frac{x^{99}}{99}+\\ldots \\frac{x^{2}}{2}+x+1$\r\n$\\mathrm{f}^{\\prime}(1)=\\mathrm{mf}^{\\prime}(0),$ where $\\mathrm{m}$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "3k56E",
+      "text": "50",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "bX1UL",
+      "text": "0",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "4XTZn",
+      "text": "100",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "wTiAF",
+      "text": "200",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $f(x)=\\frac{x^{100}}{100}+\\frac{x^{99}}{99}+\\ldots+\\frac{x^{2}}{2}+x+1$\r\n$\\Rightarrow \\quad f^{\\prime}(x)=\\frac{100 x^{99}}{100}+\\frac{99 x^{98}}{99}+\\ldots+\\frac{2 x}{2}+1+0$\r\n$\\left[\\because \\mathrm{f}(\\mathrm{x})=\\mathrm{x}^{\\mathrm{n}} \\Rightarrow \\mathrm{f}^{\\prime}(\\mathrm{x})=\\mathrm{nx}^{\\mathrm{n}-1}\\right]$\r\n$\\Rightarrow \\mathrm{f}^{\\prime}(\\mathrm{x})=\\mathrm{x}^{99}+\\mathrm{x}^{98}+\\ldots+\\mathrm{x}+1$ ...(i)\r\nPutting $\\mathrm{x}=1$, we get $f^{\\prime}(1)=\\underbrace{(1)^{99}+1^{98}+\\ldots+1+1}_{100 \\text { times }}=\\underbrace{1+1+1 \\ldots+1+1}_{100 \\text { times }}$\r\n$\\Rightarrow \\quad \\mathrm{f}^{\\prime}(1)=100$ ...(ii)\r\nAgain, putting $\\mathrm{x}=0$, we get $\\mathrm{f}^{\\prime}(0)=0+0+\\ldots+0+1 \\quad \\Rightarrow \\mathrm{f}^{\\prime}(0)=1$ ...(iii)\r\nFrom eqs. (ii) and(iii), we get; $\\mathrm{f}^{\\prime}(1)=100 \\mathrm{f}^{\\prime}(0)$ Hence, $m=100$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d76",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012",
+    "title": "BITSAT 2012"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

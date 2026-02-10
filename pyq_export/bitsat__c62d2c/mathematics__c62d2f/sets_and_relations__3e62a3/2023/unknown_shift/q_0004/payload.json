@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7de14c41a6083e62a3",
+    "chapter_name": "Sets and Relations",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $n(\\mathrm{~A})=1000, n(\\mathrm{~B})=500$ and if $n(\\mathrm{~A} \\cap \\mathrm{B}) \\geq 1$ and $n(\\mathrm{~A} \\cup \\mathrm{B})=p$, then"
+  },
+  "options": [
+    {
+      "text": "$500 \\leq p \\leq 1000$",
+      "is_correct": false
+    },
+    {
+      "text": "$1001 \\leq p \\leq 1498$",
+      "is_correct": false
+    },
+    {
+      "text": "$1000 \\leq p \\leq 1498$",
+      "is_correct": false
+    },
+    {
+      "text": "$1000 \\leq p \\leq 1499$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\mathrm{n}(\\mathrm{A})=1000, \\mathrm{n}(\\mathrm{B})=500, \\mathrm{n}(\\mathrm{A} \\cap \\mathrm{B}) \\geq 1$, $n(A \\cup B)=p ; n(A \\cup B)=n(A)+n(B)-n(A \\cap B)$ $\\mathrm{p}=1000+500-\\mathrm{n}(\\mathrm{A} \\cap \\mathrm{B}) \\Rightarrow 1 \\leq \\mathrm{n}(\\mathrm{A} \\cap \\mathrm{B}) \\leq 500$<br />Hence $p \\leq 1499$ and $p \\geq 1000 \\Rightarrow 1000 \\leq p \\leq 1499$"
+  }
+}

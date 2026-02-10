@@ -1,0 +1,63 @@
+{
+  "_id": "67726d19c49e8ef28ee2b43c",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6416",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T19:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 3)",
+      "title": "BITSAT 2024 (Memory Based Paper 3)"
+    }
+  ],
+  "question": {
+    "text": "In a binomial distribution, the mean is 4 and variance is 3 . Then, its mode is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Fpjdu",
+      "text": "5",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "klI18",
+      "text": "6",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ArMSv",
+      "text": "4",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "13NOr",
+      "text": "None of these",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}\n\\text {  } \\text { Mean } & =n p=4 \\\\\n\\text { Variance } & =n p q=3 \\\\\n\\Rightarrow \\quad q & =\\frac{3}{4}\n\\end{aligned}$\nand \n$p=1-q=1-\\frac{3}{4}=\\frac{1}{4}$\n$\\Rightarrow \\quad n=16$\nNow, Mode of Binomial distribution is given by $(n+1) P$\nCase IIf $(n+1) P=\\operatorname{Integer}(I)$, then Mode $=\\{I, I-1\\}$\nCase II If $(n+1) P \\neq \\operatorname{Integer}(I+f)$, then Mode $=\\{I\\}$\n$\\begin{aligned}\n\\therefore(n+1) P & =(16+1) \\frac{1}{4} \\\\\n& =\\frac{17}{4}=4.25 \\\\\n& =4+0.25 \\\\\n\\Rightarrow \\text { Mode } & =4\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6416",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T19:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 3)",
+    "title": "BITSAT 2024 (Memory Based Paper 3)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

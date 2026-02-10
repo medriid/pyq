@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2016",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7581a69b0b3a599b78",
+    "chapter_name": "Electrostatics",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Two identical charged spheres suspended from a common point by two massless strings of lengths I, are initially at a distance d $(\\mathrm{d}<<1)$ apart because of their mutual repulsion. The charges begin to leak from both the spheres at a constant rate. As a result, the spheres approach each other with a velocity $v$. Then $v$ varies as a function of the distance $\\mathrm{x}$ between the spheres, as:"
+  },
+  "options": [
+    {
+      "text": "$\\quad v \\propto x^{\\frac{1}{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$v \\propto x$",
+      "is_correct": false
+    },
+    {
+      "text": "$v \\propto x^{-\\frac{1}{2}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\quad v \\propto x^{-1}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0017_c31d1cfbcd0a.png\"><br>\r\n\r\nFrom figure $\\tan \\theta=\\frac{\\mathrm{F}_{\\mathrm{e}}}{\\mathrm{mg}} \\simeq \\theta$\r\n\r\n$$\r\n\r\n\\frac{\\mathrm{kq}^{2}}{\\mathrm{x}^{2} \\mathrm{mg}}=\\frac{\\mathrm{x}}{2 \\ell}\r\n\r\n$$\r\n\r\nor $x^{3} \\propto q^{2} \\ldots$ (1)\r\n\r\nor $x^{3 / 2} \\propto q \\ldots(2)$\r\n\r\nDifferentiating eq. (1) w.r.t. time\r\n\r\n$3 \\mathrm{x}^{2} \\frac{\\mathrm{dx}}{\\mathrm{dt}} \\propto 2 \\mathrm{q} \\frac{\\mathrm{dq}}{\\mathrm{dt}}$ but $\\frac{\\mathrm{dq}}{\\mathrm{dt}}$ is constant\r\n\r\n$$\r\n\r\n\\text { so } \\mathrm{x}^{2}(\\mathrm{v}) \\propto \\mathrm{q} \\text { Replace } \\mathrm{q} \\text { from eq. }(2)\r\n\r\n$$\r\n\r\n$\\mathrm{x}^{2}(\\mathrm{v}) \\propto \\mathrm{x}^{3 / 2} \\quad$ or $\\quad \\mathrm{v} \\propto \\mathrm{x}^{-1 / 2}$"
+  }
+}

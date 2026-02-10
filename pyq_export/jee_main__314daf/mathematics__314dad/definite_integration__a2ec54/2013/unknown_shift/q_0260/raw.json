@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65cae",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7d4",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-23T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (23 Apr Online)",
+      "title": "JEE Main 2013 (23 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "The value of $\\int_{-\\pi / 2}^{\\pi / 2} \\frac{\\sin ^2 x}{1+2^x} d x$ is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "vscR1",
+      "text": "\n$\\pi$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "SGqBv",
+      "text": "\n$\\frac{\\pi}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "p4qrO",
+      "text": "\n$4 \\pi$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "gsuVw",
+      "text": "\n$\\frac{\\pi}{4}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\mathrm{I}=\\int_{\\pi / 2}^{\\pi / 2} \\frac{\\sin ^2 x}{1+2^x} d x$\n$$\n\\Rightarrow \\mathrm{I}=\\int_{-\\pi / 2}^{\\pi / 2} \\frac{\\sin ^2 x}{1+2^{-x}} d x \\text {, by replacing } x \\text { by }\n$$\n\n$$\n\\begin{aligned}\n& \\left(\\frac{\\pi}{2}-\\frac{\\pi}{2}-x\\right) \\\\\n\\Rightarrow \\quad \\mathrm{I} & =\\int_{-\\pi / 2}^{\\pi / 2} \\frac{2^x \\cdot \\sin ^2 x}{1+2^x} d x\n\\end{aligned}\n$$\nAdding equations (i) and (ii), we get\n$$\n\\begin{array}{rl}\n2 & I=\\int_{-\\pi / 2}^{\\pi / 2} \\sin ^2 x d x=\\frac{1}{2} \\int_{-\\pi / 2}^{\\pi / 2}(1-\\cos 2 x) d x \\\\\n\\Rightarrow \\quad \\mathrm{I} & =\\frac{1}{4}\\left[x+\\frac{\\sin 2 x}{2}\\right]_{-\\pi / 2}^{\\pi / 2} \\\\\n& =\\frac{1}{4}\\left[\\left(\\frac{\\pi}{2}+\\frac{\\sin \\pi}{2}\\right)-\\left(-\\frac{\\pi}{2}+\\frac{\\sin (-\\pi)}{2}\\right)\\right] \\\\\n\\Rightarrow \\quad \\mathrm{I} & =\\frac{1}{4}\\left[\\frac{\\pi}{2}+\\frac{\\pi}{2}\\right]=\\frac{\\pi}{4}\n\\end{array}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7d4",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-23T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (23 Apr Online)",
+    "title": "JEE Main 2013 (23 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

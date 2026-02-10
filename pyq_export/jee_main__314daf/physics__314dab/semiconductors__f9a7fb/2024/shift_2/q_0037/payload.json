@@ -1,0 +1,43 @@
+{
+  "index": 37,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602457307cfc9adff9a7fb",
+    "chapter_name": "Semiconductors",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Identify the logic gate given in the circuit:\n<img src=\"assets\\qt0037_f446526db968.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "NAND-gate",
+      "is_correct": false
+    },
+    {
+      "text": "AND gate",
+      "is_correct": false
+    },
+    {
+      "text": "NOR gate",
+      "is_correct": false
+    },
+    {
+      "text": "OR- gate",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\mathrm{Y}=\\overline{\\overline{\\mathrm{A}} \\cdot \\overline{\\mathrm{B}}}$<br />By De-Morgan Law\n$\\begin{aligned}\n& \\mathrm{Y}=\\overline{\\overline{\\mathrm{A}+\\mathrm{B}}} \\\\\n& \\mathrm{Y}=\\mathrm{A}+\\mathrm{B}\n\\end{aligned}$<br />Hence OR gate"
+  }
+}

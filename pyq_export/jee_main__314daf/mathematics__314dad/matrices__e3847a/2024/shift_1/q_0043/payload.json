@@ -1,0 +1,43 @@
+{
+  "index": 43,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $\\alpha \\in(0, \\infty)$ and $A=\\left[\\begin{array}{lll}1 & 2 & \\alpha \\\\ 1 & 0 & 1 \\\\ 0 & 1 & 2\\end{array}\\right]$. If $\\operatorname{det}\\left(\\operatorname{adj}\\left(2 A-A^T\\right) \\cdot \\operatorname{adj}\\left(A-2 A^T\\right)\\right)=2^8$, then $(\\operatorname{det}(A))^2$ is equal to:"
+  },
+  "options": [
+    {
+      "text": "36",
+      "is_correct": false
+    },
+    {
+      "text": "16",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "49",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\left|\\operatorname{adj}\\left(\\mathrm{A}-2 \\mathrm{~A}^{\\mathrm{T}}\\right)\\left(2 \\mathrm{~A}-\\mathrm{A}^{\\mathrm{T}}\\right)\\right|=28 \\\\ & \\left|\\left(\\mathrm{~A}-2 \\mathrm{~A}^{\\mathrm{T}}\\right)\\left(2 \\mathrm{~A}-\\mathrm{A}^{\\mathrm{T}}\\right)\\right|=24 \\\\ & \\left|\\mathrm{~A}-2 \\mathrm{~A}^{\\mathrm{T}}\\right|\\left|2 \\mathrm{~A}-\\mathrm{A}^{\\mathrm{T}}\\right|= \\pm 16 \\\\ & \\left(\\mathrm{~A}-2 \\mathrm{~A}^{\\mathrm{T}}\\right)^{\\mathrm{T}}=\\mathrm{A}^{\\mathrm{T}}-2 \\mathrm{~A} \\\\ & \\left|\\mathrm{~A}-2 \\mathrm{~A}^{\\mathrm{T}}\\right|=\\left|\\mathrm{A}^{\\mathrm{T}}-2 \\mathrm{~A}\\right| \\\\ & \\Rightarrow\\left|\\mathrm{A}-2 \\mathrm{~A}^{\\mathrm{T}}\\right|^2=16 \\\\ & \\left|\\mathrm{~A}-2 \\mathrm{~A}^{\\mathrm{T}}\\right|= \\pm 4 \\\\ & {\\left[\\begin{array}{ccc}1 & 2 & \\alpha \\\\ 1 & 0 & 1 \\\\ 0 & 1 & 2\\end{array}\\right]-\\left[\\begin{array}{ccc}2 & 2 & 0 \\\\ 4 & 0 & 2 \\\\ 2 \\alpha & 2 & 4\\end{array}\\right]} \\\\ & \\left|\\begin{array}{lll}-1 & 0 & \\alpha \\\\ -3 & 0 & -1 \\\\ -2 \\alpha & -1 & -2\\end{array}\\right| \\\\ & 1+3 \\alpha=4 \\\\ & 3 \\alpha=3 \\\\ & \\alpha=1 \\\\ & |\\mathrm{~A}|=\\left|\\begin{array}{lll}1 & 2 & 1 \\\\ 1 & 0 & 1 \\\\ 0 & 1 & 2\\end{array}\\right|=-1-3=-4 \\\\ & |\\mathrm{~A}|^2=16\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7e2daa1f081e2331f8",
+    "chapter_name": "Differentiation",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "At $x=\\frac{\\pi^2}{4}, \\frac{d}{d x}\\left(\\tan ^{-1}(\\cos \\sqrt{x})+\\sec ^{-1}\\left(e^x\\right)\\right)=$"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{\\sqrt{\\mathrm{e}^{\\frac{\\pi^2}{2}}}-1}-\\frac{1}{\\pi}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\pi}{4}+\\frac{1}{\\sqrt{\\mathrm{e}^{\\pi^2}+\\mathrm{e}^{\\pi^2 / 2}}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{\\sqrt{\\mathrm{e}^{\\pi^2}+\\mathrm{e}^{\\pi^2 / 2}}}+\\frac{2}{\\pi} \\cot \\left(\\frac{\\sqrt{\\pi}}{2}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{\\sqrt{\\mathrm{e}^\\pi}}+\\frac{1}{\\pi}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\frac{d}{d x}\\left(\\tan ^{-1}(\\cos \\sqrt{x})+\\sec ^{-1}\\left(\\mathrm{e}^x\\right)\\right)$\n$=\\frac{(-\\sin \\sqrt{x})}{1+\\cos ^2 \\sqrt{x}} \\cdot\\left(\\frac{1}{2 \\sqrt{x}}\\right)+\\frac{1}{e^x \\sqrt{e^{2 x}-1}} \\cdot e^x$\nbut when $x=\\frac{\\pi^2}{4}$\n$=-\\frac{-\\sin \\frac{\\pi}{2}}{1+\\cos ^2 \\frac{\\pi}{2}}\\left(\\frac{1}{2}\\right)\\left(\\frac{2}{\\pi}\\right)+\\frac{1}{\\sqrt{e^{\\pi^2 / 2}-1}}$\n$=-\\frac{1}{\\pi}+\\frac{1}{\\sqrt{e^{\\pi^2 / 2}-1}}$"
+  }
+}

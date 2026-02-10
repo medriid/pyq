@@ -1,0 +1,63 @@
+{
+  "_id": "67726d1ac49e8ef28ee2b447",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6416",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T19:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 3)",
+      "title": "BITSAT 2024 (Memory Based Paper 3)"
+    }
+  ],
+  "question": {
+    "text": "The solution of the differential equation $(x+1) \\frac{d y}{d x}-y=e^{3 x}(x+1)^2$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "0vy4S",
+      "text": "$y=(x+1) e^{3 x}+C$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "eNnnk",
+      "text": "$3 y=(x+1)+e^{3 x}+C$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Dbkec",
+      "text": "$\\frac{3 y}{x+1}=e^{3 x}+C$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "jVPCY",
+      "text": "$y e^{-3 x}=3(x+1)+C$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $\\frac{d y}{d x}-\\frac{y}{x+1}=e^{3 x}(x+1)$\nAbove is linear differential equation of form\n$\\begin{aligned}\n& \\frac{d y}{d x}+P x=Q \\\\\n& \\therefore \\quad \\mathrm{IF}=e^{\\int P d x}=e^{\\int-\\frac{1}{x+1} d x}=e^{-\\ln (1+x)}=\\frac{1}{1+x}\n\\end{aligned}$\n$\\Rightarrow$ Solution will be\n$\\begin{aligned}\ny \\cdot \\mathrm{IF} & =\\int Q \\cdot \\mathrm{IF} d x \\\\\ny \\cdot \\frac{1}{1+x} & =\\int e^{3 x}(x+1) \\times \\frac{1}{(1+x)} d x \\\\\n\\frac{y}{1+x} & =\\frac{e^{3 x}}{3}+C^{\\prime} \\\\\n\\frac{3 y}{1+x} & =e^{3 x}+C^{\\prime} \\quad \\quad\\left[\\because C=3 C^{\\prime}\\right]\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6416",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T19:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 3)",
+    "title": "BITSAT 2024 (Memory Based Paper 3)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

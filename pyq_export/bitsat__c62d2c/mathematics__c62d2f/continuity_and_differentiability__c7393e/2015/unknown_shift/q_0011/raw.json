@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7d16f5bfc7ab78ae820",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d79",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "BITSAT 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "If a function $f(x)$ is given by\r\n\r\n$f(x)=\\frac{x}{1+x}+\\frac{x}{(x+1)(2 x+1)}$\r\n\r\n$+\\frac{x}{(2 x+1)(3 x+1)}+\\ldots, \\infty$, then at $x=0, f(x)$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "7LyUn",
+      "text": "has no limit",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "ygzQr",
+      "text": "is not continuous",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "Jqcxl",
+      "text": "is continuous but not differentiable",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "raLhn",
+      "text": "is differentiable",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let\r\n\r\n$f(x)=\\frac{x}{1+x}+\\frac{x}{(x+1)(2 x+1)}+\\frac{x}{(2 x+1)(3 x+1)}+\\ldots \\infty$\r\n\r\n$=\\lim _{n \\rightarrow \\infty} \\sum_{r=1}^{n} \\frac{x}{[(r-1) x+1](r x+1)}$\r\n\r\n$=\\lim _{x \\rightarrow \\infty} \\sum_{\\mathrm{r}=1}^{\\mathrm{n}}\\left[\\frac{\\mathrm{x}}{[(\\mathrm{r}-1) \\mathrm{x}+1]}-\\frac{1}{\\mathrm{rx}+1}\\right]$\r\n\r\n$=\\lim _{n \\rightarrow \\infty}\\left[1-\\frac{1}{n x+1}\\right]=1$\r\n\r\nFor $x=0,$ we have $f(x)=0$\r\n\r\nThus, we have $f(x)=\\left\\{\\begin{array}{ll}1, & x \\neq 0 \\\\ 0, & x=0\\end{array}\\right.$\r\n\r\nClearly, $\\lim _{x \\rightarrow 0^{-}} \\mathrm{f}(\\mathrm{x})=\\lim _{\\mathrm{x} \\rightarrow 0^{+}} \\mathrm{f}(\\mathrm{x}) \\neq \\mathrm{f}(0)$\r\n\r\nSo, $\\mathrm{f}(\\mathrm{x})$ is not continuous at $\\mathrm{x}=0$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d79",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "BITSAT 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd788eed0f628d7030f2",
+    "chapter_name": "Indefinite Integration",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int \\sqrt{x+\\sqrt{x^2+2}} d x=$"
+  },
+  "options": [
+    {
+      "text": "$\\frac{3}{2}(x+\\sqrt{x+2})^{3 / 2}-2\\left(x+\\sqrt{x^2+2}\\right)^{1 / 4}+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{3}\\left(x+\\sqrt{x^2+2}\\right)^{3 / 2}-2\\left(x+\\sqrt{x^2+2}\\right)^{1 / 4}+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(x+\\sqrt{x^2+2}\\right)^{-3 / 2}-2\\left(x+\\sqrt{x^2+2}\\right)^{-1 / 2}+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\left(x+\\sqrt{x^2+2}\\right)^2-6}{3 \\sqrt{x+\\sqrt{x^2+2}}}+C$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\int \\sqrt{x+\\sqrt{x^2+2}} d x$\n$\\sqrt{x+\\sqrt{x^2+2}}=t \\Rightarrow x+\\sqrt{x^2+2}=t^2$\n$\\sqrt{x^2+2}=t^2-x$\n$\\Rightarrow x^2+2=t^4+x^2-2 t^2 x$\n$\\Rightarrow \\mathrm{x}=\\frac{\\mathrm{t}^4-2}{2 \\mathrm{t}^2} \\Rightarrow \\mathrm{dx}=\\frac{\\mathrm{t}^4+2}{\\mathrm{t}^3} \\mathrm{dt}$\n$\\int \\mathrm{t} \\cdot \\frac{\\mathrm{t}^4+2}{\\mathrm{t}^3} \\mathrm{dt}=\\int\\left(\\mathrm{t}^2+\\frac{2}{\\mathrm{t}^2}\\right) \\mathrm{dt}=\\frac{\\mathrm{t}^3}{3}-\\frac{2}{\\mathrm{t}}+\\mathrm{C}$\n$=\\frac{t^3}{3}-\\frac{2}{t}+C=\\frac{t^4-6}{3 t}+C$\n$=\\frac{\\left(x+\\sqrt{x^2+2}\\right)^2-6}{3 \\sqrt{x+\\sqrt{x^2+2}}}+C$"
+  }
+}

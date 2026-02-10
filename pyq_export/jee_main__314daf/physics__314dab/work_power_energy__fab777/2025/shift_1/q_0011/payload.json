@@ -1,8 +1,8 @@
 {
   "index": 11,
   "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2025 (28 Jan Shift 1)",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Given below are two statements: one is labelled as Assertion $\\mathbf{A}$ and the other is labelled as Reason $\\mathbf{R}$\nAssertion A: In a central force field, the work done is independent of the path chosen.\nReason R: Every force encountered in mechanics does not have an associated potential energy.\nIn the light of the above statements, choose the most appropriate answer from the options given below"
+    "text": "A piston of mass $M$ is hung from a massless spring whose restoring force law goes as $\\mathrm{F}=-\\mathrm{kx}^3$, where k is the spring constant of appropriate dimension. The piston separates the vertical chamber into two parts, where the bottom part is filled with ' $n$ ' moles of an ideal gas. An external work is done on the gas isothermally (at a constant temperature T) with the help of a heating filament (with negligible volume) mounted in lower part of the chamber, so that the piston goes up from a height $\\mathrm{L}_0$ to $\\mathrm{L}_1$, the total energy delivered by the filament is (Assume spring to be in its natural length before heating)<br/><img src=\"assets\\qt0011_360ce5db4787.png\"/>"
   },
   "options": [
     {
-      "text": "$\\mathbf{A}$ is false but $\\mathbf{R}$ is true",
+      "text": "$3 n R T \\ln \\left(\\frac{L_1}{L_0}\\right)+2 \\mathrm{Mg}\\left(L_1-L_0\\right)+\\frac{k}{3}\\left(L_1^3-L_0^3\\right)$",
       "is_correct": false
     },
     {
-      "text": "Both $\\mathbf{A}$ and $\\mathbf{R}$ are true but $\\mathbf{R}$ is NOT the correct explanation of $\\mathbf{A}$",
+      "text": "$n R T \\ln \\left(\\frac{L_1^2}{L_0^2}\\right)+\\frac{M g}{2}\\left(L_1-L_0\\right)+\\frac{k}{4}\\left(L_1^4-L_0^4\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$n R T \\ln \\left(\\frac{L_1}{L_0}\\right)+M g\\left(L_1-L_0\\right)+\\frac{k}{4}\\left(L_1^4-L_0^4\\right)$",
       "is_correct": true
     },
     {
-      "text": "$\\mathbf{A}$ is true but $\\mathbf{R}$ is false",
-      "is_correct": false
-    },
-    {
-      "text": "Both $\\mathbf{A}$ and $\\mathbf{R}$ are true and $\\mathbf{R}$ is the correct explanation of $\\mathbf{A}$",
+      "text": "$n R T \\ln \\left(\\frac{L_1}{L_0}\\right)+M g\\left(L_1-L_0\\right)+\\frac{3 k}{4}\\left(L_1^4-L_0^4\\right)$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "B"
+    "C"
   ],
   "solution": {
-    "text": "Assertion is correct as central forces are conservative in nature, i.e. work done is independent of path.\n\nReason is true as some forces in mechanics like, friction are non-conservative because work done depends on path and only conservative forces have an associated potential energy.\nAlso, reason does not explain assertion."
+    "text": "Using WET<br/>Total energy supplied $=$ gravitational potential energy + spring potential energy + work done by gas<br/>$\\begin{aligned}<br/>& \\operatorname{Mg} \\quad\\left(L_1-L_0\\right)+\\int_{L_0}^{L_1} k^3 d x+n R T \\ell n \\\\\n& {\\left[\\frac{L_1 \\mathrm{~A}}{\\mathrm{~L}_0 \\mathrm{~A}}\\right]+\\mathrm{W}_{\\mathrm{ext}}=0} \\\\\n& \\frac{\\mathrm{~K}}{4}\\left[\\mathrm{x}^4\\right]_{\\mathrm{L}_0}^{\\mathrm{L}_1}+\\operatorname{Mg}\\left(\\mathrm{L}_1-\\mathrm{L}_0\\right)+\\int_{\\mathrm{L}_0}^{\\mathrm{L}_1} k x^3 d x+n R T \\ell n<br/>\\end{aligned}$<br/>$\\begin{aligned} & {\\left[\\frac{L_1}{L_0}\\right]+\\mathrm{W}_{\\mathrm{ext}}=0} \\\\ & \\frac{\\mathrm{k}}{4}\\left(\\mathrm{~L}_1^4-\\mathrm{L}_0^4\\right)+\\operatorname{Mg} \\quad\\left(\\mathrm{L}_1-\\mathrm{L}_0\\right)+\\mathrm{nRT} \\ell \\mathrm{n} \\\\ & {\\left[\\frac{\\mathrm{L}_1}{\\mathrm{~L}_0}\\right]+\\mathrm{W}_{\\mathrm{ext}}=0} \\\\ & \\mathrm{~W}_{\\mathrm{ext}}=\\frac{\\mathrm{k}}{4}\\left(\\mathrm{~L}_1^4-\\mathrm{L}_0^4\\right)+\\operatorname{Mg}\\left(\\mathrm{L}_1-\\mathrm{L}_0\\right)+\\mathrm{nRT} \\ell \\mathrm{n}\\left[\\frac{\\mathrm{L}_1}{\\mathrm{~L}_0}\\right]\\end{aligned}$"
   }
 }

@@ -1,8 +1,8 @@
 {
   "index": 138,
   "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2019 (10 Jan Shift 2)",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "The number of values of <math><mi>&#952;</mi><mo>&#8712;</mo><mfenced separators=\"|\"><mrow><mn>0</mn><mo>,</mo><mi>&#160;</mi><mi>&#960;</mi></mrow></mfenced></math> for which the system of linear equations<br /><math><mi>x</mi><mo>+</mo><mn>3</mn><mi>y</mi><mo>+</mo><mn>7</mn><mi>z</mi><mo>=</mo><mn>0</mn></math><br /><math><mo>-</mo><mi>x</mi><mo>+</mo><mn>4</mn><mi>y</mi><mo>+</mo><mn>7</mn><mi>z</mi><mo>=</mo><mn>0</mn></math><br /><math><mfenced separators=\"|\"><mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>&#8289;</mo><mrow><mn>3</mn><mi>&#952;</mi></mrow></mrow></mrow></mfenced><mi>x</mi><mo>+</mo><mfenced separators=\"|\"><mrow><mrow><mrow><mi mathvariant=\"normal\">cos</mi></mrow><mo>&#8289;</mo><mrow><mn>2</mn><mi>&#952;</mi></mrow></mrow></mrow></mfenced><mi>y</mi><mo>+</mo><mn>2</mn><mi>z</mi><mo>=</mo><mn>0</mn></math><br />has a non-trivial solution, is:"
+    "text": "Let $A$ and $B$ be two invertible matrices of order $3 \\times 3$. If $\\operatorname{det}\\left(\\mathrm{ABA}^{\\mathrm{T}}\\right)=8$ and det $\\left(\\mathrm{AB}^{-1}\\right)=8$, then det $\\left(\\mathrm{BA}^{-1} \\mathrm{~B}^{\\mathrm{T}}\\right)$ is\r\n\r\nequal to"
   },
   "options": [
     {
-      "text": "Two",
+      "text": "$\\frac{1}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{16}$",
       "is_correct": true
     },
     {
-      "text": "Three",
-      "is_correct": false
-    },
-    {
-      "text": "Four",
-      "is_correct": false
-    },
-    {
-      "text": "One",
+      "text": "16",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "A"
+    "C"
   ],
   "solution": {
-    "text": "<p>For non-trivial solutions<br /><br /><math><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>3</mn></mtd><mtd><mn>7</mn></mtd></mtr><mtr><mtd><mo>-</mo><mn>1</mn></mtd><mtd><mn>4</mn></mtd><mtd><mn>7</mn></mtd></mtr><mtr><mtd><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi><mn>3</mn><mi>&#952;</mi></mtd><mtd><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">s</mi><mn>2</mn><mi>&#952;</mi></mtd><mtd><mn>2</mn></mtd></mtr></mtable></mrow></mfenced><mo>=</mo><mn>0</mn></math><br /><br /><math><mo>&#8658;</mo><mn>4</mn><msup><mrow><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi></mrow><mrow><mn>3</mn></mrow></msup><mi>&#952;</mi><mo>+</mo><mn>4</mn><msup><mrow><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi></mrow><mrow><mn>2</mn></mrow></msup><mi>&#952;</mi><mo>-</mo><mn>3</mn><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi><mi>&#952;</mi><mo>=</mo><mn>0</mn></math><br /><br /><math><mo>&#8658;</mo><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi><mi>&#952;</mi><mo>=</mo><mn>0</mn></math> or <math><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi><mi>&#952;</mi><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math> or <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi><mi>&#952;</mi><mo>=</mo><mo>-</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math><br /><br />Since <math><mi>&#952;</mi><mo>&#8712;</mo><mfenced separators=\"|\"><mrow><mn>0</mn><mo>,</mo><mtext>&#8201;</mtext><mi>&#960;</mi></mrow></mfenced></math><br /><br /><math><mo>&#8658;</mo><mi>&#952;</mi><mo>=</mo><mfrac><mrow><mi>&#960;</mi></mrow><mrow><mn>6</mn></mrow></mfrac></math> and <math><mfrac><mrow><mn>5</mn><mi>&#960;</mi></mrow><mrow><mn>6</mn></mrow></mfrac></math> will satisfy the equation</p><p>because&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>sin</mi><mi>&#952;</mi><mo>=</mo><mo>-</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math>&nbsp;is not possible as range of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>sin</mi><mi>&#952;</mi></math>&nbsp;is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"[\" close=\"]\"><mrow><mo>-</mo><mn>1</mn><mo>,</mo><mn>1</mn></mrow></mfenced></math><br /><br /><math><mo>&#8658;</mo></math> Number of <math><mi>&#952;</mi></math> &#39; <math><mi>s</mi><mo>=</mo><mn>2</mn></math></p>"
+    "text": "Let $|A|=a,|B|=b$\r\n\r\n$\\left.\\Rightarrow \\quad \\mid A^{\\eta}\\right\\rceil=a\\left|A^{-1}\\right|=\\frac{1}{a},\\left|B^{\\eta}\\right|=b,\\left|B^{-1}\\right|=\\frac{1}{b}$\r\n\r\n$\\because \\quad A B A^{\\eta}=8 \\Rightarrow|A||B| \\mid A^{\\eta}-8 \\ldots(1)$\r\n\r\n$\\Rightarrow \\quad a \\cdot b \\cdot a=8 \\Rightarrow a^{2} b=8$\r\n\r\n$\\because \\quad A B^{-1}|=8 \\Rightarrow H|\\left|B^{-1}\\right|=8 \\Rightarrow a, \\frac{1}{b}=8$\r\n\r\nFrom (1) \\& (2)\r\n\r\n$a=4, b=\\frac{1}{2}$\r\n\r\nThen, $\\left|B A^{-1} B^{\\eta}\\right|=|B|\\left|A^{-1}\\right|\\left|B^{\\eta}\\right|=b \\cdot \\frac{1}{a} \\cdot b=\\frac{b^{2}}{a}=\\frac{1}{16}$"
   }
 }

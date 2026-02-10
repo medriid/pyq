@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2020",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cb79820319dd593c4",
+    "chapter_name": "Sequences and Series",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The sum of the infinite series $\\frac{2^{2}}{2 !}+\\frac{2^{4}}{4 !}+\\frac{2^{6}}{6 !}+\\ldots$\r\n\r\nis equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\mathrm{e}^{2}+1}{2 \\mathrm{e}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\mathrm{e}^{4}+1}{2 \\mathrm{e}^{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\left(\\mathrm{e}^{2}-1\\right)^{2}}{2 \\mathrm{e}^{2}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\left(\\mathrm{e}^{2}+1\\right)^{2}}{2 \\mathrm{e}^{2}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We know that\r\n\r\n$\\frac{e^{x}+e^{-x}}{2}=1+\\frac{x^{2}}{2 !}+\\frac{x^{4}}{4 !}+\\frac{x^{6}}{6 !}+\\ldots$\r\n\r\nkeeping $\\mathrm{x}=2$, we get\r\n\r\nExpression $=\\frac{1}{2}\\left[\\frac{e^{2}+e^{-2}}{2}\\right]-1=\\frac{\\left(e^{2}-1\\right)^{2}}{2 e^{2}}$"
+  }
+}

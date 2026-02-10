@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2021",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd837f780b3c67d85974",
+    "chapter_name": "Area Under Curves",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area bounded by curves $(x-1)^{2}+y^{2}=1$ and $x^{2}+y^{2}=1$ is"
+  },
+  "options": [
+    {
+      "text": "$\\left(\\frac{2 \\pi}{3}-\\frac{\\sqrt{3}}{2}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{2 \\pi}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\sqrt{3}}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2 \\pi}{3}+\\frac{\\sqrt{3}}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given circles are $x^{2}+y^{2}=1 \\ldots$ (i) and $(x-1)^{2}+y^{2}=1 \\ldots$ (ii)\r\n\r\nCentre of (i) is $\\mathrm{O}(0,0)$ and radius $=1$\r\n\r\n<img src=\"assets\\st0009_f089245234bd.png\"><br>\r\n\r\nBoth these circle are symmetrical about $x$-axis solving (i) and (ii), we get, $-2 x+1=0$\r\n\r\n$\\Rightarrow x=\\frac{1}{2}$\r\n\r\n$\\begin{array}{l}\r\n\r\n\\text { then } y^{2}=1-\\left(\\frac{1}{2}\\right)^{2}=34 \\\\\r\n\r\n\\Rightarrow y=\\frac{\\sqrt{3}}{2}\r\n\r\n\\end{array}$\r\n\r\n$\\therefore$ The points of intersection are\r\n\r\n$\\mathrm{P}\\left(\\frac{1}{2}, \\frac{\\sqrt{3}}{2}\\right)$ and $\\mathrm{Q}\\left(\\frac{1}{2},-\\frac{\\sqrt{3}}{2}\\right)$\r\n\r\nIt is clear from the figure that the shaded portion in region whose area is required.\r\n\r\n$\\therefore$ Required area = area OQAPO\r\n\r\n$=2 \\times$ area of the region OLAP\r\n\r\n$=2 \\times($ area of the region $O L P O+$ area of $L A P L$ )\r\n\r\n$=2\\left[\\int_{0}^{\\frac{1}{2}} \\sqrt{1-(x-1)^{2}} d x+\\int_{\\frac{1}{2}}^{1} \\sqrt{1-x^{2}} \\mathrm{dx}\\right]$\r\n\r\n$=2\\left[\\frac{(x-1) \\sqrt{1-(x-1)^{2}}}{2}+\\frac{1}{2} \\sin ^{-1}(x-1)\\right]_{0}^{\\frac{1}{2}}+2\\left[\\frac{x \\sqrt{1-x^{2}}}{2}+\\frac{1}{2} \\sin ^{-1} x\\right]_{\\frac{1}{2}}^{1}$\r\n\r\n$=-\\frac{1}{2} \\cdot \\frac{\\sqrt{3}}{2}+\\sin ^{-1}\\left(\\frac{-1}{2}\\right)-\\sin ^{-1}(-1)+0+\\sin ^{-1}(1)-\\left(\\frac{1}{2} \\cdot \\frac{\\sqrt{3}}{2}+\\sin ^{-1}\\left(\\frac{1}{2}\\right)\\right)$\r\n\r\n$=\\left(\\frac{2 \\pi}{3}-\\frac{\\sqrt{3}}{2}\\right)$ sq. units."
+  }
+}

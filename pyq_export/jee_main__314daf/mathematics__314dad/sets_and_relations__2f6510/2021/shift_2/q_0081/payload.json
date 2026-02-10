@@ -1,0 +1,43 @@
+{
+  "index": 81,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (18 Mar Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254da66d43264e2f6510",
+    "chapter_name": "Sets and Relations",
+    "year": "2021",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "<p>Define a relation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> over a class of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&#215;</mo><mi>n</mi></math> real&nbsp;matrices <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> as &quot;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>R</mi><mi>B</mi></math>&nbsp;iff there exists a&nbsp;non-singular matrix <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mi>A</mi><msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mi>B</mi></math>&quot;.&nbsp;Then which of the following is true ?</p>"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> is symmetric, transitive but not reflexive",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> is reflexive, symmetric but not transitive",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> is an equivalence relation",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> is reflexive, transitive but not symmetric",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>Given&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> are matrices of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&#215;</mo><mi>n</mi></math> order and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>R</mi><mi>B</mi></math>&nbsp;iff&nbsp;there exists a non-singular matrix <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>&#160;</mo><mfenced><mrow><mo>det</mo><mfenced><mi>P</mi></mfenced><mo>&#8800;</mo><mn>0</mn></mrow></mfenced></math> such that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mi>A</mi><msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mi>B</mi></math>.</p><p>Reflexivity Check :</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>R</mi><mi>A</mi><mo>&#8658;</mo><mi>P</mi><mi>A</mi><msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mi>A</mi></math>&nbsp;which is true&nbsp;for&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mi>I</mi></math>.</p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math>&nbsp;is reflexive relation.</p><p>Symmetric&nbsp;Check :</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>R</mi><mi>B</mi><mo>&#8658;</mo><mi>P</mi><mi>A</mi><msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mi>B</mi><mo>&#8658;</mo><msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>P</mi><mi>A</mi><msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>P</mi><mo>=</mo><msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>B</mi><mi>P</mi><mo>&#8658;</mo><mi>I</mi><mi>A</mi><mi>I</mi><mo>=</mo><msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>B</mi><mi>P</mi><mo>&#8658;</mo><msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>B</mi><mi>P</mi><mo>=</mo><mi>A</mi><mo>&#8658;</mo><mi>B</mi><mi>R</mi><mi>A</mi></math>&nbsp;for matrix&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>.</p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math>&nbsp;is symmetric relation.</p><p>Transitivity Check :</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>R</mi><mi>B</mi><mo>&#8658;</mo><mi>P</mi><mi>A</mi><msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mi>B</mi></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>R</mi><mi>C</mi><mo>&#8658;</mo><mi>P</mi><mi>B</mi><msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mi>C</mi></math>.</p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mi>P</mi><mi>A</mi><msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mi>P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mi>C</mi></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>P</mi><mn>2</mn></msup><mi>A</mi><msup><mfenced><msup><mi>P</mi><mn>2</mn></msup></mfenced><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mi>C</mi><mo>&#8658;</mo><mi>A</mi><mi>R</mi><mi>C</mi></math></p><p>So, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math>&nbsp;is&nbsp;a transitive relation.</p><p>Since,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math>&nbsp;is reflexive, symmetric and transitive all.</p><p>Hence, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> is&nbsp;an equivalence relation.</p>"
+  }
+}

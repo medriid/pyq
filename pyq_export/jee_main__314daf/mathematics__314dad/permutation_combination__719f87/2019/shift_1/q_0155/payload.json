@@ -1,0 +1,43 @@
+{
+  "index": 155,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (12 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Consider three boxes, each containing <math><mn>10</mn></math> balls labelled <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mi>&#160;</mi><mn>2</mn><mo>,</mo><mi>&#160;</mi><mo>&#8230;</mo><mo>.</mo><mo>,</mo><mi>&#160;</mi><mn>10</mn></math>. Suppose one ball is randomly drawn from each of the boxes. Denote by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>n</mi><mi>i</mi></msub></math>, the label of the ball drawn from the <math><msup><mrow><mi>i</mi></mrow><mrow><mi mathvariant=\"normal\">t</mi><mi mathvariant=\"normal\">h</mi></mrow></msup></math> box, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced separators=\"|\"><mrow><mi>i</mi><mo>=</mo><mn>1</mn><mo>,</mo><mi>&#160;</mi><mn>2</mn><mo>,</mo><mi>&#160;</mi><mn>3</mn></mrow></mfenced></math>. Then, the number of ways in which the balls can be chosen such that <math><msub><mrow><mi>n</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>&#60;</mo><msub><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>&#60;</mo><msub><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></msub></math> is :"
+  },
+  "options": [
+    {
+      "text": "<math><mn>240</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>82</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>120</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mn>164</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>Each box contains <math><mn>10</mn></math> balls numbered from <math><mn>1</mn></math> to <math><mn>10</mn></math>.</p><p><math><msub><mrow><mi>n</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>,</mo><mtext>&#8201;</mtext><msub><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>,</mo><mtext>&#8201;</mtext><msub><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></msub></math> are numbers on the balls drawn from the box <math><msub><mrow><mi>B</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>,</mo><mtext>&#8201;</mtext><msub><mrow><mi>B</mi></mrow><mrow><mn>2</mn></mrow></msub></math> and <math><msub><mrow><mi>B</mi></mrow><mrow><mn>3</mn></mrow></msub></math> respectively such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>n</mi><mn>1</mn></msub><mo>&#60;</mo><msub><mi>n</mi><mn>2</mn></msub><mo>&#60;</mo><msub><mi>n</mi><mn>3</mn></msub></math>.</p><p>i.e., all <math><mn>3</mn></math> numbers <math><msub><mrow><mi>n</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>,</mo><mtext>&#8201;</mtext><msub><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>,</mo><mtext>&#8201;</mtext><msub><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></msub></math> must be different and can be arranged only in one way (increasing).</p><p>Now <math><msub><mrow><mi>n</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>,</mo><mtext>&#8201;</mtext><msub><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>,</mo><mtext>&#8201;</mtext><msub><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></msub></math> can be selected in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow/><mn>10</mn></msup><msub><mi>C</mi><mn>3</mn></msub></math> ways.</p><p>Hence, total number of ways <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mo>=</mo><mn>10</mn></msup><msub><mi>C</mi><mn>3</mn></msub><mo>.</mo><mn>1</mn><msup><mo>=</mo><mn>10</mn></msup><msub><mi>C</mi><mn>3</mn></msub><mo>=</mo><mfrac><mfenced><mrow><mn>10</mn><mo>!</mo></mrow></mfenced><mrow><mfenced><mrow><mn>3</mn><mo>!</mo></mrow></mfenced><mfenced><mrow><mn>7</mn><mo>!</mo></mrow></mfenced></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>10</mn><mo>&#215;</mo><mn>9</mn><mo>&#215;</mo><mn>8</mn></mrow><mrow><mn>3</mn><mo>&#215;</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mn>120</mn></math>.</p>"
+  }
+}

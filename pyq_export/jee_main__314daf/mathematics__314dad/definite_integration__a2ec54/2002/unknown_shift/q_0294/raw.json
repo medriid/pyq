@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a61417cc3fb48d6542f",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92e9de3d91842a5cf7c2",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2002-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2002",
+      "title": "JEE Main 2002"
+    }
+  ],
+  "question": {
+    "text": "$\\int_{-\\pi}^\\pi \\frac{2 x(1+\\sin x)}{1+\\cos ^2 x} d x$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "9VjHw",
+      "text": "\n$\\frac{\\pi^2}{4}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Zl15t",
+      "text": "\n$\\pi^2$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "G2Sh4",
+      "text": "\nzero\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "20DDv",
+      "text": "\n$\\frac{\\pi}{2}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\int_{-\\pi}^\\pi \\frac{2 x(1+\\sin x)}{1+\\cos ^2 x} d x=\\int_{-\\pi}^\\pi \\frac{2 x}{1+\\cos ^2 x}+2 \\int_{-\\pi}^\\pi \\frac{x \\sin x}{1+\\cos ^2 x} \\\\\n& =0+4 \\int_0^\\pi \\frac{x \\sin x d x}{1+\\cos ^2 x} I=4 \\int_0^\\pi \\frac{(\\pi-x) \\sin (\\pi-x)}{1+\\cos ^2(\\pi-x)} \\\\\n& I=4 \\int_0^\\pi \\frac{(\\pi-x) \\sin x}{1+\\cos ^2 x} \\Rightarrow I=4 \\pi \\int_0^\\pi \\frac{\\sin x}{1+\\cos ^2 x}-4 \\pi \\int \\frac{x \\sin x}{1+\\cos ^2 x} \\Rightarrow 2 I=4 \\pi \\int_0^\\pi \\frac{\\sin x}{1+\\cos ^2 x} d x\n\\end{aligned}\n$$\nput $\\cos x=t$ and solve it.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92e9de3d91842a5cf7c2",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2002-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2002",
+    "title": "JEE Main 2002"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

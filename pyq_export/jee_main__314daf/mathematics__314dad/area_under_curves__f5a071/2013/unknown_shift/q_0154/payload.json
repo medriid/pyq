@@ -1,0 +1,43 @@
+{
+  "index": 154,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (25 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602565bccda81624f5a071",
+    "chapter_name": "Area Under Curves",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f:[-2,3] \\rightarrow[0, \\infty)$ be a continuous function such that $f(1-x)=f(x)$ for all $x \\in[-2,3]$.\nIf $\\mathrm{R}_1$ is the numerical value of the area of the region bounded by $y=f(x), x=-2, x=3$ and the axis of $x$ and $R_2=\\int_{-2}^3 x f(x) d x$, then :"
+  },
+  "options": [
+    {
+      "text": "\n$3 R_1=2 R_2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2 \\mathrm{R}_1=3 \\mathrm{R}_2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{R}_1=\\mathrm{R}_2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{R}_1=2 \\mathrm{R}_2$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "We have\n$$\n\\begin{aligned}\n\\mathrm{R}_2 &=\\int_{-2}^3 x f(x) d x=\\int_{-2}^3(1-x) f(1-x) d x \\\\\n& {\\left[\\mathrm{U} \\operatorname{sing} \\int_a^b f(x) d x=\\int_a^b f(a+b-x) d x\\right] } \\\\\n\\Rightarrow \\mathrm{R}_2 &=\\int_{-2}^3(1-x) f(x) d x \\\\\n\\therefore \\mathrm{R}_2+\\mathrm{R}_2 &=\\int_{-2}^3 x f(x) d x+\\int_{-2}^3(1-x) f(x) d x \\\\\n\\Rightarrow 2 \\mathrm{R}_2=\\mathrm{R}_1\n\\end{aligned}\n$$"
+  }
+}

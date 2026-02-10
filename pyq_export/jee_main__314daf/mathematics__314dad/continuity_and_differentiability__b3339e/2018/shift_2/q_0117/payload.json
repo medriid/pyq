@@ -1,0 +1,43 @@
+{
+  "index": 117,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $f(x)=\\left\\{\\begin{array}{cc}(x-1)^{\\frac{1}{2-x}}, & x>1, x \\neq 2 \\\\ k, & x=2\\end{array}\\right.$\nThe value of $k$ for which $f$ is continuous at $x=2$ is"
+  },
+  "options": [
+    {
+      "text": "\n$e^{-2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$e$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$e^{-1}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Since $f(x)$ is continuous at $x=2$.\n$$\n\\begin{aligned}\n&\\therefore \\lim _{x \\rightarrow 2} f(x)=f(2) \\\\\n&\\Rightarrow \\lim _{x \\rightarrow 2}(x-1)^{\\frac{1}{2-x}}=k \\quad\\left(1^{\\infty} \\text { form }\\right) \\\\\n&\\therefore e^{l=k}\n\\end{aligned}\n$$\nwhere\n$$\n\\begin{aligned}\n&l=\\lim _{x \\rightarrow 2}(x-1-1) \\times \\frac{1}{2-x}=\\lim _{x \\rightarrow 2} \\frac{x-2}{2-x} \\\\\n&=\\lim _{x \\rightarrow 2}\\left(\\frac{x-2}{x-2}\\right) \\\\\n&\\Rightarrow k=e^{-1}\n\\end{aligned}\n$$"
+  }
+}

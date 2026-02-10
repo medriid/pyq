@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $\\alpha, \\beta(\\alpha \\neq \\beta)$ be the values of m , for which the equations $x+y+z=1 ; x+2 y+4 z=\\mathrm{m}$ and $x+4 y+10 z=m^2$ have infinitely many solutions. Then the value of $\\sum_{n=1}^{10}\\left(n^\\alpha+n^\\beta\\right)$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "3080",
+      "is_correct": false
+    },
+    {
+      "text": "560",
+      "is_correct": false
+    },
+    {
+      "text": "3410",
+      "is_correct": false
+    },
+    {
+      "text": "440",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n\\Delta & =\\left|\\begin{array}{llc}\n1 & 1 & 1 \\\\\n1 & 2 & 4 \\\\\n1 & 4 & 10\n\\end{array}\\right|=1(20-16)-1(10-4)+1(4-2) \\\\\n& =4-6+2=0\n\\end{aligned}$\n\nFor infinite solutions\n$\\begin{aligned}\n& \\Delta_x=\\Delta_y=\\Delta_z=0 \\\\\n& m^2-3 x+2=0 \\\\\n& m=1,2 \\\\\n& \\alpha=1, \\beta=2 \\\\\n& \\therefore \\sum_{n=1}^{10}\\left(n^\\alpha+n^\\beta\\right)=\\sum_{n=1}^{10} n^1+\\sum_{n=1}^{10} n^2 \\\\\n&= \\frac{10(11)}{2}+\\frac{10(11)(21)}{6} \\\\\n&= 55+385 \\\\\n&= 440\n\\end{aligned}$"
+  }
+}

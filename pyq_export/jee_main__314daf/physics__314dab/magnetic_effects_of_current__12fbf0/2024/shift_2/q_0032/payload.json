@@ -1,8 +1,8 @@
 {
   "index": 32,
-  "type": "numerical",
+  "type": "singleCorrect",
   "difficulty": 3,
-  "pyq_info": "JEE Main 2024 (05 Apr Shift 2)",
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "A solenoid of length $0.5 \\mathrm{~m}$ has a radius of $1 \\mathrm{~cm}$ and is made up of ' $\\mathrm{m}$ ' number of turns. It carries a current of $5 \\mathrm{~A}$. If the magnitude of the magnetic field inside the solenoid is $6.28 \\times 10^{-3} \\mathrm{~T}$ then the value of $m$ is _____."
+    "text": "A proton and a deutron ( $q=+\\mathrm{e}, m=2.0 \\mathrm{u})$ having same kinetic energies enter a region of uniform magnetic field $\\vec{B}$, moving perpendicular to $\\vec{B}$. The ratio of the radius $r_d$ of deutron path to the radius $r_p$ of the proton path is:"
   },
-  "options": [],
-  "correct_answer": "500",
+  "options": [
+    {
+      "text": "$\\sqrt{2}: 1$",
+      "is_correct": true
+    },
+    {
+      "text": "$1: 1$",
+      "is_correct": false
+    },
+    {
+      "text": "$1: \\sqrt{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$1: 2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
   "solution": {
-    "text": "$\\mu_0 n i=B \\quad n=$ number of turns per unit length\n$\\mu_0\\left(\\frac{\\mathrm{m}}{\\ell}\\right) \\mathrm{i}=\\mathrm{B}$\n$\\begin{aligned} & \\mathrm{m}=\\frac{B . \\ell}{\\mu_0 \\mathrm{i}}=\\frac{6.28 \\times 10^{-3} \\times 0.5}{12.56 \\times 10^{-7} \\times 5} \\\\ & \\mathrm{~m}=500\\end{aligned}$"
+    "text": "In uniform magnetic field,\n$\\mathrm{R}=\\frac{\\mathrm{m} \\nu}{\\mathrm{qB}}=\\frac{\\sqrt{2 \\mathrm{~m}(\\mathrm{~K} . \\mathrm{E})}}{\\mathrm{qB}}$\nSince same K.E\n$\\begin{aligned}& \\mathrm{R} \\propto \\frac{\\sqrt{\\mathrm{m}}}{\\mathrm{q}} \\\\& \\therefore \\frac{\\mathrm{R}_{\\text {deutron }}}{\\mathrm{R}_{\\text {proton }}}=\\sqrt{\\frac{\\mathrm{m}_{\\mathrm{d}}}{\\mathrm{m}_{\\mathrm{p}}}} \\times \\frac{\\mathrm{q}_{\\mathrm{p}}}{\\mathrm{q}_{\\mathrm{d}}} \\\\& =\\sqrt{2} \\times 1 \\\\& \\therefore \\gamma_{\\mathrm{d}}: \\gamma_{\\mathrm{p}}=\\sqrt{2}: 1\\end{aligned}$"
   }
 }

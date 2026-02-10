@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a61417cc3fb48d65505",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c3",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2003-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2003",
+      "title": "JEE Main 2003"
+    }
+  ],
+  "question": {
+    "text": "If $\\mathrm{f}(\\mathrm{y})=\\mathrm{e}^{\\mathrm{y}}, \\mathrm{g}(\\mathrm{y})=\\mathrm{y} ; \\mathrm{y}>0$ and $F(t)=\\int_0^{\\mathrm{t}} \\mathrm{f}(\\mathrm{t}-\\mathrm{y}) \\mathrm{g}(\\mathrm{y})$, then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "4Fd6S",
+      "text": "\n$\\mathrm{F}(\\mathrm{t})=\\mathrm{te}^{-t}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "I7vMl",
+      "text": "\n$\\mathrm{F}(\\mathrm{t})=1-\\mathrm{te}^{-t}(1+\\mathrm{t})$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "VT90T",
+      "text": "\n$\\mathrm{F}(\\mathrm{t})=\\mathrm{e}^{\\mathrm{t}}-(1+\\mathrm{t})$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "6EQMu",
+      "text": "\n$\\mathrm{F}(\\mathrm{t})=\\mathrm{te}^{\\mathrm{t}}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$F(t)=\\int_0^t f(t-y) g(y) d y$\n$=\\int_0^t e^{t-y} y d y=e^t \\int_0^t e^{-y} y d y$\n$=e^t\\left[-y e^{-y}-e^{-y}\\right]_0^t=-e^t\\left[y e^{-y}+e^{-y}\\right]_0^t$\n$=-e^t\\left[t e^{-t}+e^{-t}-0-1\\right]=e^t\\left[\\frac{t+1-e^t}{e^t}\\right]=e^t-(1+t)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c3",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2003-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2003",
+    "title": "JEE Main 2003"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

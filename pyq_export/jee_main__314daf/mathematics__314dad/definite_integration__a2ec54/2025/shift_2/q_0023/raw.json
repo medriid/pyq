@@ -1,0 +1,58 @@
+{
+  "_id": "67a2eed5c8b73881fdaea347",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d97611",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-29T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (29 Jan Shift 2)",
+      "title": "JEE Main 2025 (29 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If $24 \\int_0^{\\frac{\\pi}{4}}\\left(\\sin \\left|4 x-\\frac{\\pi}{12}\\right|+[2 \\sin x]\\right) \\mathrm{d} x=2 \\pi+\\alpha$, where $[\\cdot]$ denotes the greatest integer function, then $\\alpha$ is equal to _______.",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "12",
+  "solution": {
+    "text": "Let $I=24 \\int_0^{\\frac{\\pi}{2}}\\left(\\sin \\left|4 x-\\frac{\\pi}{2}\\right|+[2 \\sin x]\\right) d x$   ...(i)\nNow $\\left|4 x-\\frac{\\pi}{12}\\right|= \\begin{cases}-4 x+\\frac{\\pi}{12} & ; x < \\frac{\\pi}{48} \\\\ 4 x-\\frac{\\pi}{12} & ; \\quad x \\geq \\frac{\\pi}{48}\\end{cases}$\n$\\therefore$ from $(\\mathrm{i})$\n$\\begin{aligned} & I=24 \\int_0^{\\frac{\\pi}{48}}-\\sin \\left(4 x-\\frac{\\pi}{12}\\right) d x+\\int_{\\frac{\\pi}{48}}^{\\frac{\\pi}{4}} \\sin \\left(4 x-\\frac{\\pi}{12}\\right) \\\\ & +\\int_0^{\\frac{\\pi}{6}}[2 \\sin x] d x+\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{4}}[2 \\sin x] d x \\\\ & I=24\\left[\\frac{\\left(1-\\cos \\frac{\\pi}{12}\\right)}{4}-\\frac{\\left(-\\cos \\frac{\\pi}{12}-1\\right)}{4}\\right)+\\frac{\\pi}{4}-\\frac{\\pi}{6} \\\\ & I=24\\left(\\frac{1}{2}\\right)+\\frac{\\pi}{4}-\\frac{\\pi}{6} \\\\ & I=2 \\pi+12=2 \\pi+\\alpha \\text { (from above) } \\\\ & \\therefore \\quad \\alpha=12\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "0f638d1e84f447baaa3c742847932880",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/H9GtooYWYd3mI.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/H9GtooYWYd3mI.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d97611",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-29T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (29 Jan Shift 2)",
+    "title": "JEE Main 2025 (29 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

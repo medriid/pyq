@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd839e4041267a866788",
+    "chapter_name": "Differential Equations",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The solution of the differential equation $(x+1) \\frac{d y}{d x}-y=e^{3 x}(x+1)^2$ is"
+  },
+  "options": [
+    {
+      "text": "$y=(x+1) e^{3 x}+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$3 y=(x+1)+e^{3 x}+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{3 y}{x+1}=e^{3 x}+C$",
+      "is_correct": true
+    },
+    {
+      "text": "$y e^{-3 x}=3(x+1)+C$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given, $\\frac{d y}{d x}-\\frac{y}{x+1}=e^{3 x}(x+1)$\nAbove is linear differential equation of form\n$\\begin{aligned}\n& \\frac{d y}{d x}+P x=Q \\\\\n& \\therefore \\quad \\mathrm{IF}=e^{\\int P d x}=e^{\\int-\\frac{1}{x+1} d x}=e^{-\\ln (1+x)}=\\frac{1}{1+x}\n\\end{aligned}$\n$\\Rightarrow$ Solution will be\n$\\begin{aligned}\ny \\cdot \\mathrm{IF} & =\\int Q \\cdot \\mathrm{IF} d x \\\\\ny \\cdot \\frac{1}{1+x} & =\\int e^{3 x}(x+1) \\times \\frac{1}{(1+x)} d x \\\\\n\\frac{y}{1+x} & =\\frac{e^{3 x}}{3}+C^{\\prime} \\\\\n\\frac{3 y}{1+x} & =e^{3 x}+C^{\\prime} \\quad \\quad\\left[\\because C=3 C^{\\prime}\\right]\n\\end{aligned}$"
+  }
+}

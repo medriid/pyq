@@ -1,8 +1,8 @@
 {
   "index": 32,
-  "type": "singleCorrect",
+  "type": "numerical",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2024 (01 Feb Shift 1)",
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "The area enclosed by the curves <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>y</mi><mo>+</mo><mn>4</mn><mi>y</mi><mo>=</mo><mn>16</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>6</mn></math> is equal to:"
+    "text": "Let the area of the region enclosed by the curve $y=\\min \\{\\sin x, \\cos x\\}$ and the $x$ axis between $x=-\\pi$ to $x=\\pi$ be $A$. Then $A^2$ is equal to ___________"
   },
-  "options": [
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>−</mo><mn>30</mn><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>−</mo><mn>28</mn><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>−</mo><mn>32</mn><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></math>",
-      "is_correct": true
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>32</mn><mo>−</mo><mn>30</mn><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></math>",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "C"
-  ],
+  "options": [],
+  "correct_answer": "16",
   "solution": {
-    "text": "<p>Given: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>y</mi><mo>+</mo><mn>4</mn><mi>y</mi><mo>=</mo><mn>16</mn><mo>,</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>6</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mfenced><mrow><mi>x</mi><mo>+</mo><mn>4</mn></mrow></mfenced><mo>=</mo><mn>16</mn><mo>,</mo><mo> </mo><mo> </mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>6</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfenced><mrow><mn>6</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mfenced><mrow><mi>x</mi><mo>+</mo><mn>4</mn></mrow></mfenced><mo>=</mo><mn>16</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>24</mn><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>x</mi><mo>-</mo><mn>16</mn><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>8</mn><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>8</mn><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfenced><mrow><mi>x</mi><mo>-</mo><mn>4</mn></mrow></mfenced><mfenced><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfenced><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>x</mi><mo>=</mo><mn>4</mn><mo>,</mo><mo> </mo><mo>-</mo><mn>2</mn></math></p><p><img src=\"assets\\st0032_fba3db8aa033.png\" style=\"width: 280px; height: 186px;\"/></p><p>So, the required area is given by,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><munderover><mo>∫</mo><mrow><mo>−</mo><mn>2</mn></mrow><mn>4</mn></munderover><mfenced><mrow><mfenced><mrow><mn>6</mn><mo>−</mo><mi>x</mi></mrow></mfenced><mo>−</mo><mfenced><mfrac><mn>16</mn><mrow><mi>x</mi><mo>+</mo><mn>4</mn></mrow></mfrac></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>A</mi><mo>=</mo><msubsup><mfenced close=\"]\" open=\"[\"><mrow><mn>6</mn><mi>x</mi><mo>-</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>-</mo><mn>16</mn><mi>log</mi><mfenced close=\"|\" open=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>4</mn></mrow></mfenced></mrow></mfenced><mrow><mo>-</mo><mn>2</mn></mrow><mn>4</mn></msubsup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>A</mi><mo>=</mo><mfenced><mrow><mn>24</mn><mo>-</mo><mn>8</mn><mo>-</mo><mn>16</mn><mi>log</mi><mfenced close=\"|\" open=\"|\"><mn>8</mn></mfenced></mrow></mfenced><mo>-</mo><mfenced><mrow><mo>-</mo><mn>12</mn><mo>-</mo><mn>2</mn><mo>-</mo><mn>16</mn><mi>log</mi><mn>2</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>A</mi><mo>=</mo><mn>16</mn><mo>-</mo><mn>16</mn><mi>log</mi><mfenced close=\"|\" open=\"|\"><mn>8</mn></mfenced><mo>+</mo><mn>14</mn><mo>+</mo><mn>16</mn><mi>log</mi><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>A</mi><mo>=</mo><mn>30</mn><mo>−</mo><mn>32</mn><mi>ln</mi><mn>2</mn></math></p>"
+    "text": "$\\begin{aligned} & y=\\min \\{\\sin x, \\cos x\\} \\\\ & x-\\text { axis } \\quad x-\\pi \\quad x=\\pi\\end{aligned}$<br /><img src=\"assets\\st0032_e14fea1114c4.png\"><br />$\\begin{aligned} & \\int_0^{\\pi / 4} \\sin x=(\\cos x)_{\\pi / 4}^0=1-\\frac{1}{\\sqrt{2}} \\\\ & \\int_{-\\pi}^{-3 \\pi / 4}(\\sin x-\\cos x)=(-\\cos x-\\sin x)_{-\\pi}^{-3 \\pi / 4} \\\\ & =(\\cos x+\\sin x)_{-3 \\pi / 4}^{-\\pi} \\\\ & =(-1+0)-\\left(-\\frac{1}{\\sqrt{2}}-\\frac{1}{\\sqrt{2}}\\right) \\\\ & =-1+\\frac{1}{\\sqrt{2}}+\\frac{1}{\\sqrt{2}} \\\\ & \\int_{\\pi / 4}^{\\pi / 2} \\cos x d x=(\\sin x)_{\\pi / 4}^{\\pi / 2}=1-\\frac{1}{\\sqrt{2}} \\\\ & A=4 \\\\ & A^2=16\\end{aligned}$"
   }
 }

@@ -1,0 +1,43 @@
+{
+  "index": 136,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2004",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602427cba2fa9ed9e72f82",
+    "chapter_name": "Electromagnetic Induction",
+    "year": "2004",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In a uniform magnetic field of induction $B$ a wire in the form of semicircle of radius $r$ rotates about the diameter of the circle with angular frequency $\\omega$. The axis of rotation is perpendicular to the field. If the total resistance of the circuit is $R$ the mean power generated per period of rotation is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{B \\pi r^2 \\omega}{2 R}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\left(B \\pi r^2 \\omega\\right)^2}{2 R}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{(\\mathrm{B} \\pi \\mathrm{r} \\omega)^2}{2 \\mathrm{R}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\left(B \\pi r \\omega^2\\right)^2}{8 R}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Magnetic flux $=B A \\cos \\theta=B \\cdot \\frac{\\pi r^2}{2} \\cos \\omega t$\n$$\n\\begin{aligned}\n& \\therefore \\varepsilon_{\\text {ind }}=-\\frac{\\mathrm{d} \\phi}{\\mathrm{dt}}=\\frac{1}{2} \\mathrm{~B} \\pi \\mathrm{r}^2 \\omega \\sin \\omega \\mathrm{t} \\\\\n& \\therefore \\mathrm{P}=\\frac{\\varepsilon_{\\text {ind }}^2}{\\mathrm{R}}=\\frac{\\mathrm{B}^2 \\pi^2 \\mathrm{r}^4 \\omega^2 \\sin ^2 \\omega \\mathrm{t}}{4 \\mathrm{R}}\n\\end{aligned}\n$$\nNow, $ < \\sin ^2 \\omega t>=1 / 2$ (mean value)\n$$\n\\therefore\\langle\\mathrm{P}\\rangle=\\frac{\\left(\\mathrm{B} \\pi \\mathrm{r}^2 \\omega\\right)^2}{8 \\mathrm{R}} \\text {. }\n$$"
+  }
+}

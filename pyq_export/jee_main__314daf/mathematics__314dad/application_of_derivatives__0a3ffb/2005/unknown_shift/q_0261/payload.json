@@ -14,30 +14,30 @@
     "shift": "unknown_shift"
   },
   "question": {
-    "text": "The normal to the curve $x=a(\\cos \\theta+\\theta \\sin \\theta), y=a(\\sin \\theta-\\theta \\cos \\theta)$ at any point ' $\\theta$ ' is such that"
+    "text": "If the equation\n$a_n x^n+a_{n-1} x^{n-1}+\\ldots \\ldots+a_1 x=0, a_1 \\neq 0, n \\geq 2$, has a positive root $x=\\alpha$, then the equation $n a_n x^{n-1}+(n-1) a_{n-1} x^{n-2}+\\ldots . .+a_1=0$ has a positive root, which is"
   },
   "options": [
     {
-      "text": "\nit passes through the origin\n",
+      "text": "\ngreater than $\\alpha$\n",
       "is_correct": false
     },
     {
-      "text": "\nit makes angle $\\frac{\\pi}{2}+\\theta$ with the $x$-axis\n",
-      "is_correct": false
-    },
-    {
-      "text": "\nit passes through $\\left(\\mathrm{a} \\frac{\\pi}{2},-\\mathrm{a}\\right)$\n",
-      "is_correct": false
-    },
-    {
-      "text": "\nit is at a constant distance from the origin",
+      "text": "\nsmaller than $\\alpha$\n",
       "is_correct": true
+    },
+    {
+      "text": "\ngreater than or equal to $\\alpha$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nequal to $\\alpha$",
+      "is_correct": false
     }
   ],
   "correct_answer": [
-    "D"
+    "B"
   ],
   "solution": {
-    "text": "Clearly $\\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\tan \\theta \\Rightarrow$ slope of normal $=-\\cot \\theta$\nEquation of normal at ' $\\theta$ ' is\n$y-a(\\sin \\theta-\\theta \\cos \\theta)=-\\cot \\theta(x-a(\\cos \\theta+\\theta \\sin \\theta)$\n$\\Rightarrow y \\sin \\theta-a \\sin ^2 \\theta+a \\theta \\cos \\theta \\sin \\theta=-x \\cos \\theta+a \\cos ^2 \\theta+a \\theta \\sin \\theta \\cos \\theta$\n$\\Rightarrow x \\cos \\theta+y \\sin \\theta=a$\nClearly this is an equation of straight line which is at a constant distance 'a' from origin."
+    "text": "$f(0)=0, f(\\alpha)=0$\n$\\Rightarrow f^{\\prime}(k)=0$ for some $k \\in(0, \\alpha)$"
   }
 }

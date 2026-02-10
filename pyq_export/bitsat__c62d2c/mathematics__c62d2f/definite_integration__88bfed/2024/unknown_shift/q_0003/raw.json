@@ -1,0 +1,63 @@
+{
+  "_id": "67726d0fc49e8ef28ee2b3ec",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6415",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 2)",
+      "title": "BITSAT 2024 (Memory Based Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "$\\int_5^9 \\frac{\\log 3 x^2}{\\log 3 x^2+\\log \\left(588-84 x+3 x^2\\right)} d x$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "oJe0f",
+      "text": "$2$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "q0FK3",
+      "text": "$1$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "UnAqy",
+      "text": "$\\frac{1}{2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "oNpji",
+      "text": "$4$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let\n$I=\\int_5^9 \\frac{\\log 3 x^2 d x}{\\log 3 x^2+\\log \\left(588-84 x+3 x^2\\right)}$  ...(i)\n$\\begin{aligned} & =\\int_5^9 \\frac{\\log 3 x^2 d x}{\\log 3 x^2+\\log 3(14-x)^2} \\\\ & =\\int_5^9 \\frac{\\log 3(14-x)^2 d x}{\\log 3(14-x)^2+\\log 3(14-(14-x))^2} \\\\ & \\quad\\left[\\int_a^b f(x) d x=\\int_a^b f(a+b-x) d x\\right]\\end{aligned}$\n$I=\\int_5^9 \\frac{\\log 3(14-x)^2 d x}{\\log 3(14-x)^2+\\log 3 x^2}$  ...(ii)\nAdding Eqs. (i) and (ii), we get\n$\\begin{aligned}\n& 2 I=\\int_5^9 \\frac{\\log 3 x^2+\\log 3(14-x)^2}{\\log 3(14-x)^2+\\log 3 x^2} d x \\\\\n& 2 \\mathrm{I}=\\int_5^9 d x=9-5=4 \\Rightarrow I=2\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6415",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 2)",
+    "title": "BITSAT 2024 (Memory Based Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

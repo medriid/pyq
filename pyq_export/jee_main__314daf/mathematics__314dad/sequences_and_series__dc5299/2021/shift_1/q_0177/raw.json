@@ -1,57 +1,62 @@
 {
-  "_id": "648b5a69417cc3fb48d66eb9",
+  "_id": "648b5a6b417cc3fb48d673fd",
   "previousYearPapers": [
     {
-      "_id": "615d92edde3d91842a5cf80e",
+      "_id": "615d92edde3d91842a5cf81b",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2021-03-16T09:00:00.000Z",
+      "heldOn": "2021-08-26T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2021 (16 Mar Shift 1)",
-      "title": "JEE Main 2021 (16 Mar Shift 1)"
+      "shortName": "2021 (26 Aug Shift 1)",
+      "title": "JEE Main 2021 (26 Aug Shift 1)"
     }
   ],
-  "type": "numerical",
-  "level": 3,
+  "type": "singleCorrect",
+  "level": 1,
   "question": {
-    "text": "Consider an arithmetic series and a geometric series having four initial terms from the set&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"{\" close=\"}\"><mrow><mn>11</mn><mo>,</mo><mn>8</mn><mo>,</mo><mn>21</mn><mo>,</mo><mn>16</mn><mo>,</mo><mn>26</mn><mo>,</mo><mn>32</mn><mo>,</mo><mn>4</mn></mrow></mfenced></math>. If the last terms of these series are the maximum possible four digit numbers, then the number of common terms in these two series is equal to _______.",
+    "text": "If the sum of an infinite <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>GP</mi></math>,&nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>a</mi><mi>r</mi><mo>,</mo><mi>a</mi><msup><mi>r</mi><mn>2</mn></msup><mo>,</mo><mi>a</mi><msup><mi>r</mi><mn>3</mn></msup><mo>,</mo><mo>&#8230;</mo></math> is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math>&nbsp;and the sum of the squares of its each term is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mo>,</mo></math> then the sum of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>r</mi><mmultiscripts><mo>,</mo><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts><mi>a</mi><msup><mi>r</mi><mn>4</mn></msup><mo>,</mo><mi>a</mi><msup><mi>r</mi><mn>6</mn></msup><mo>,</mo><mo>&#8230;</mo></math> is:",
     "image": null
   },
-  "options": [],
-  "correctValue": "3",
+  "options": [
+    {
+      "id": "ko4up",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>2</mn></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "zAMOI",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>2</mn></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "byDxf",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "qSJ3R",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>2</mn></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<p>Given set<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mn>11</mn><mo>,</mo><mn>8</mn><mo>,</mo><mn>21</mn><mo>,</mo><mn>16</mn><mo>,</mo><mn>26</mn><mo>,</mo><mn>32</mn><mo>,</mo><mn>4</mn></mrow></mfenced></math></p><p>Given an arithmetic series and a geometric series having the first four terms from the given set.&nbsp;</p><p>Then,&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>Geometric&#160;series</mtext><mo>&#160;</mo><mo>:</mo><mo>&#160;</mo><mn>4</mn><mo>,</mo><mn>8</mn><mo>,</mo><mn>16</mn><mo>,</mo><mn>32</mn><mo>,</mo><mn>64</mn><mo>,</mo><mn>128</mn><mo>,</mo><mn>256</mn><mo>,</mo><mn>512</mn><mo>,</mo><mn>1024</mn><mo>,</mo><mn>2048</mn><mo>,</mo><mn>4096</mn><mo>,</mo><mn>8192</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>Arithmetic&#160;series</mtext><mo>:</mo><mo>&#160;</mo><mn>11</mn><mo>,</mo><mn>16</mn><mo>,</mo><mn>21</mn><mo>,</mo><mn>26</mn><mo>,</mo><mn>31</mn><mo>,</mo><mn>36</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>256</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mn>4096</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mi>n</mi></msub><mo>&#160;</mo><mo>(</mo><mi>G</mi><mo>.</mo><mi>P</mi><mo>.</mo><mo>)</mo><mo>=</mo><mn>4</mn><mo>&#183;</mo><msup><mn>2</mn><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mi>n</mi></msub><mo>&#160;</mo><mo>(</mo><mi>A</mi><mo>.</mo><mi>P</mi><mo>.</mo><mo>)</mo><mo>=</mo><mn>11</mn><mo>+</mo><mn>5</mn><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>=</mo><mn>5</mn><mi>n</mi><mo>+</mo><mn>6</mn></math></p><p>For common terms,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>&#183;</mo><msup><mn>2</mn><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mn>5</mn><mi>n</mi><mo>+</mo><mn>6</mn></math></p><p>So, common terms are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>,</mo><mn>256</mn><mo>,</mo><mn>4096</mn></math> only.</p>",
+    "text": "<p>Given:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>a</mi><mi>r</mi><mo>+</mo><mi>a</mi><msup><mi>r</mi><mn>2</mn></msup><mo>+</mo><mi>a</mi><msup><mi>r</mi><mn>3</mn></msup><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#8734;</mo><mo>=</mo><mn>15</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac><mo>=</mo><mn>15</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mn>1</mn></mfenced></math>&nbsp;</p><p>And,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><msup><mi>r</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><msup><mi>r</mi><mn>4</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><msup><mi>r</mi><mn>6</mn></msup><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#8734;</mo><mo>=</mo><mn>150</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mrow><mn>1</mn><mo>-</mo><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>150</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfenced><mfrac><mi>a</mi><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfrac></mfenced><mfenced><mfrac><mi>a</mi><mrow><mn>1</mn><mo>-</mo><mi>r</mi></mrow></mfrac></mfenced><mo>=</mo><mn>150</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mi>a</mi><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>r</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mn>10</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mn>2</mn></mfenced></math></p><p>Solving equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>)</mo></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>)</mo></math>, we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>&#8658;</mo><mi>a</mi><mo>=</mo><mn>12</mn></math></p><p>Now,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msup><mi>r</mi><mn>2</mn></msup><mo>+</mo><mi>a</mi><msup><mi>r</mi><mn>4</mn></msup><mo>+</mo><mi>a</mi><msup><mi>r</mi><mn>6</mn></msup><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>&#8734;</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mi>a</mi><msup><mi>r</mi><mn>2</mn></msup></mrow><mrow><mn>1</mn><mo>-</mo><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>12</mn><mo>&#215;</mo><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>25</mn></mfrac></mstyle></mrow><mrow><mn>1</mn><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>25</mn></mfrac></mstyle></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math></p>",
     "image": null
   },
-  "videoSolution": {
-    "videoId": "dcfc50e0fb704d1fb87b09d70cb3e1a3",
-    "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/n6ZGtfsMgSUWO.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/n6ZGtfsMgSUWO.480.jpeg",
-    "premiumModules": [
-      {
-        "premiumModuleId": "6628114842d540dfcb148ecb",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "64c7e8e829737784b294e469",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
-        "isFree": false
-      }
-    ],
-    "description": "JEE Main"
-  },
+  "videoSolution": null,
   "questionLabels": [],
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "615d92edde3d91842a5cf80e",
+    "_id": "615d92edde3d91842a5cf81b",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2021-03-16T09:00:00.000Z",
+    "heldOn": "2021-08-26T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2021 (16 Mar Shift 1)",
-    "title": "JEE Main 2021 (16 Mar Shift 1)"
+    "shortName": "2021 (26 Aug Shift 1)",
+    "title": "JEE Main 2021 (26 Aug Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

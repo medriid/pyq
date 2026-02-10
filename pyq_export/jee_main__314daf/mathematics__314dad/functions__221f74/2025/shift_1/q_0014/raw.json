@@ -1,0 +1,83 @@
+{
+  "_id": "68542c817c09d044e4c1a257",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2fe9d87935e0d809787",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-04T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (4 Apr Shift 1)",
+      "title": "JEE Main 2025 (4 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a continuous function satisfying $f(0)=1$ and $f(2 \\mathrm{x})-f(\\mathrm{x})=\\mathrm{x}$ for all $\\mathrm{x} \\in \\mathbb{R}$. If $\\lim _{n \\rightarrow \\infty}\\left\\{f(x)-f\\left(\\frac{x}{2^n}\\right)\\right\\}=G(x)$, then $\\sum_{r=1}^{10} G\\left(r^2\\right)$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "nVbf8",
+      "text": "540",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "yPDoe",
+      "text": "385",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "08KVw",
+      "text": "420",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "IigAw",
+      "text": "215",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}<br/>& f(2 x)-f(x)=x \\\\\n& f(x)-f\\left(\\frac{x}{2}\\right)=\\frac{x}{2} \\\\\n& \\mathrm{f}\\left(\\frac{\\mathrm{x}}{2}\\right)-\\mathrm{f}\\left(\\frac{\\mathrm{x}}{4}\\right)=\\frac{\\mathrm{x}}{4} \\\\\n& \\mathrm{f}\\left(\\frac{\\mathrm{x}}{4}\\right)-\\mathrm{f}\\left(\\frac{\\mathrm{x}}{8}\\right)=\\frac{\\mathrm{x}}{8} \\\\\n& f\\left(\\frac{x}{2^{n-1}}\\right)-f\\left(\\frac{x}{2^n}\\right)=\\frac{x}{2^n} \\\\\n& f(2 x)-f\\left(\\frac{x}{2^n}\\right)=x\\left\\{\\frac{1-\\left(\\frac{1}{2}\\right)^{n-1}}{1-\\frac{1}{2}}\\right\\} \\\\\n& f(x)-f\\left(\\frac{x}{2^n}\\right)=2 x\\left(1-\\left(\\frac{1}{2}\\right)^{n+1}\\right) \\\\\n& \\mathrm{f}(\\mathrm{x})+\\mathrm{x}-\\mathrm{f}\\left(\\frac{\\mathrm{x}}{2^{\\mathrm{n}}}\\right)=2 \\mathrm{x}\\left(1-\\left(\\frac{1}{2}\\right)^{\\mathrm{n}+1}\\right) \\\\\n& \\lim _{n \\rightarrow \\infty}\\left(f(x)-f\\left(\\frac{x}{2^n}\\right)\\right)=\\lim _{n \\rightarrow \\infty}\\left(2 x\\left(1-\\left(\\frac{1}{2}\\right)^{n+1}\\right)-x\\right) \\\\\n& G(x)=x \\\\\n& \\sum_{r=1}^{10} G\\left(r^2\\right)=\\sum_{r=1}^{10} r^2=385<br/>\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "deede0a9c384452b951f90816ba3bf3f",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/5XZ0yx5ZAyDRO.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/5XZ0yx5ZAyDRO.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2fe9d87935e0d809787",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-04T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (4 Apr Shift 1)",
+    "title": "JEE Main 2025 (4 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

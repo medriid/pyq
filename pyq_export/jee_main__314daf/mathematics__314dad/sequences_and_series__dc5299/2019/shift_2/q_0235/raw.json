@@ -1,62 +1,62 @@
 {
-  "_id": "648b5a67417cc3fb48d667f6",
+  "_id": "648b5a67417cc3fb48d6689d",
   "previousYearPapers": [
     {
-      "_id": "615d92ebde3d91842a5cf7ed",
+      "_id": "615d92ecde3d91842a5cf7f7",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2019-01-11T14:00:00.000Z",
+      "heldOn": "2019-04-12T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2019 (11 Jan Shift 2)",
-      "title": "JEE Main 2019 (11 Jan Shift 2)"
+      "shortName": "2019 (12 Apr Shift 2)",
+      "title": "JEE Main 2019 (12 Apr Shift 2)"
     }
   ],
   "type": "singleCorrect",
-  "level": 3,
+  "level": 1,
   "question": {
-    "text": "Let $S_{n}=1+q+q^{2}+\\ldots .+q^{n}$ and\r\n\r\n$\\mathrm{T}_{\\mathrm{n}}=1+\\left(\\frac{\\mathrm{q}+1}{2}\\right)+\\left(\\frac{\\mathrm{q}+1}{2}\\right)^{2}+\\ldots+\\left(\\frac{\\mathrm{q}+1}{2}\\right)^{\\mathrm{n}}$\r\n\r\nwhere $q$ is a real number and $q \\neq 1$. If ${ }^{101} \\mathrm{C}_{1}+{ }^{101} \\mathrm{C}_{2} \\cdot \\mathrm{S}_{1}+\\ldots .+{ }^{101} \\mathrm{C}_{101} \\cdot \\mathrm{S}_{100}=\\alpha \\mathrm{T}_{100},$ then $\\alpha$ is\r\n\r\nequal to :",
+    "text": "If <math><msub><mrow><mi>a</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>,</mo><msub><mrow><mi>a</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>,</mo><msub><mrow><mi>a</mi></mrow><mrow><mn>3</mn></mrow></msub><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo></math> are in A.P. such that <math><msub><mrow><mi>a</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>+</mo><msub><mrow><mi>a</mi></mrow><mrow><mn>7</mn></mrow></msub><mo>+</mo><msub><mrow><mi>a</mi></mrow><mrow><mn>16</mn></mrow></msub><mo>=</mo><mn>40</mn><mo>,</mo></math> then the sum of the first <math><mn>15</mn></math> terms of this A.P is:",
     "image": null
   },
   "options": [
     {
-      "id": "beRY5",
-      "text": "$2^{99}$",
+      "id": "UtANp",
+      "text": "<math><mn>280</mn></math>",
       "isCorrect": false,
       "image": null
     },
     {
-      "id": "9AjUC",
-      "text": "202",
+      "id": "4njch",
+      "text": "<math><mn>120</mn></math>",
       "isCorrect": false,
       "image": null
     },
     {
-      "id": "XC32m",
-      "text": "200",
+      "id": "0sLJa",
+      "text": "<math><mn>150</mn></math>",
       "isCorrect": false,
       "image": null
     },
     {
-      "id": "C5ubu",
-      "text": "$2^{100}$",
+      "id": "gxre1",
+      "text": "<math><mn>200</mn></math>",
       "isCorrect": true,
       "image": null
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "$S_{n}=\\left(\\frac{1-q^{n+1}}{1-q}\\right), T_{n}=\\frac{1-\\left(\\frac{q+1}{2}\\right)^{n+1}}{1-\\left(\\frac{q+1}{2}\\right)}$\r\n\r\n$\\Rightarrow T_{100}=\\frac{1-\\left(\\frac{q+1}{2}\\right)^{101}}{1-\\left(\\frac{q+1}{2}\\right)}$\r\n\r\n$S n=\\frac{1}{1-q}-\\frac{q^{n+1}}{1-q}, T_{100}=\\frac{2^{101}-(\\mathrm{q}+1)^{101}}{2^{100}(1-\\mathrm{q})}$\r\n\r\nNow, ${ }^{101} C_{1}+{ }^{101} C_{2} S_{1}+{ }^{101} C_{3} S_{2}+\\ldots+{ }^{101} C_{101} S_{100}$\r\n\r\n$=\\left(\\frac{1}{1-q}\\right)\\left({ }^{101} C_{2}+\\ldots+{ }^{101} C_{101}\\right)$\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n& \\quad-\\frac{1}{1-q}\\left({ }^{101} C_{2} q^{2}+{ }^{101} C_{3} q^{3}+\\ldots+{ }^{101} C_{101} q^{101}\\right)+101 \\\\\r\n\r\n=& \\frac{1}{1-q}\\left(2^{101}-1-101\\right)-\\left(\\frac{1}{1-q}\\right)\\left((1+q)^{101}-1\\right.\\\\\r\n\r\n\\left.-{ }^{101} C_{1} q\\right)+101 \\\\\r\n\r\n=& \\frac{1}{1-q}\\left[2^{101}-102-(1+q)^{101}+1+101 q\\right]+101 \\\\\r\n\r\n=& \\frac{1}{1-q}\\left[2^{101}-101+101 q-(1+q)^{101}\\right]+101 \\\\\r\n\r\n=&\\left(\\frac{1}{1-q}\\right)\\left[2^{101}-(1+q)^{101}\\right]=2^{100} T_{100}\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\nHence, by comparison $\\alpha=2^{100}$",
+    "text": "Let the 1<sup>st</sup> terms of A.P. be <math><mi mathvariant=\"normal\">&#39;</mi><mi mathvariant=\"normal\">a</mi><mi mathvariant=\"normal\">&#39;</mi></math> and common difference <math><mi mathvariant=\"normal\">&#39;</mi><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">&#39;</mi></math> .<br />Given <math><mo>&#8201;</mo><msub><mrow><mi mathvariant=\"normal\">a</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>+</mo><msub><mrow><mi mathvariant=\"normal\">a</mi></mrow><mrow><mn>7</mn></mrow></msub><mo>+</mo><msub><mrow><mi mathvariant=\"normal\">a</mi></mrow><mrow><mn>16</mn></mrow></msub><mo>=</mo><mn>40</mn></math><br /><math><mo>&#8658;</mo><mi mathvariant=\"normal\">a</mi><mo>+</mo><mi mathvariant=\"normal\">a</mi><mo>+</mo><mn>6</mn><mi mathvariant=\"normal\">d</mi><mo>+</mo><mi mathvariant=\"normal\">a</mi><mo>+</mo><mn>15</mn><mi mathvariant=\"normal\">d</mi><mo>=</mo><mn>40</mn></math><br /><math><mo>&#8658;</mo><mi mathvariant=\"normal\">a</mi><mo>+</mo><mn>7</mn><mi mathvariant=\"normal\">d</mi><mo>=</mo><mfrac><mrow><mn>40</mn></mrow><mrow><mn>3</mn></mrow></mfrac></math> &hellip;.(1)<br />Sum of first <math><mn>15</mn></math> term<br /><math><msub><mrow><mi mathvariant=\"normal\">S</mi></mrow><mrow><mn>15</mn></mrow></msub><mo>=</mo><mfrac><mrow><mn>15</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>[</mo><mn>2</mn><mi mathvariant=\"normal\">a</mi><mo>+</mo><mn>14</mn><mi mathvariant=\"normal\">d</mi><mo>]</mo></math><br /><math><mo>=</mo><mfrac><mrow><mn>15</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mfrac><mrow><mn>40</mn></mrow><mrow><mn>3</mn></mrow></mfrac><mo>=</mo><mn>200</mn></math>",
     "image": null
   },
   "videoSolution": null,
   "questionLabels": [],
-  "syllabusCategory": "outOfSyllabus",
+  "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "615d92ebde3d91842a5cf7ed",
+    "_id": "615d92ecde3d91842a5cf7f7",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2019-01-11T14:00:00.000Z",
+    "heldOn": "2019-04-12T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2019 (11 Jan Shift 2)",
-    "title": "JEE Main 2019 (11 Jan Shift 2)"
+    "shortName": "2019 (12 Apr Shift 2)",
+    "title": "JEE Main 2019 (12 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

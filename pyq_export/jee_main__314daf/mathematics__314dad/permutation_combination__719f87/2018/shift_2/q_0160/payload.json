@@ -1,0 +1,43 @@
+{
+  "index": 160,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The number of four letter words that can be formed using the letters of the word BARRACK is"
+  },
+  "options": [
+    {
+      "text": "\n144\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n120\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n264\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n270",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "If all four letters are different then the number of words ${ }^5 \\mathrm{C}_4 \\times 4 !=120$\nIf two letters are $\\mathrm{R}$ and other two different letters are chosen from $\\mathrm{B}, \\mathrm{A}, \\mathrm{C}, \\mathrm{K}$ then the number of words $={ }^4 \\mathrm{C}_2 \\times \\frac{4 !}{2 !}=72$\nIf two letters are $\\mathrm{A}$ and other two different letters are chosen from $\\mathrm{B}, \\mathrm{R}, \\mathrm{C}, \\mathrm{K}$ then the number of words $={ }^4 \\mathrm{C}_2 \\times \\frac{4 !}{2 !}=72$\nIf word is formed using two $R$ 's and two $A$ 's then the number of words $=\\frac{4 !}{2 ! 2 !}=6$\nTherefore, the number of four-letter words that can be formed $=120+72+72+6=270$"
+  }
+}

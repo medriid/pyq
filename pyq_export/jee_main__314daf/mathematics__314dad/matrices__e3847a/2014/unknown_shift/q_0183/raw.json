@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e05",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d8",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (11 Apr Online)",
+      "title": "JEE Main 2014 (11 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "Let for $\\mathrm{i}=1,2,3, \\mathrm{p}_{\\mathrm{i}}(\\mathrm{x})$ be a polynomial of degree 2 in $x, p^{\\prime}{ }_i(x)$ and $p^{\\prime \\prime}{ }_i(x)$ be the first and second order derivatives of $p_i(x)$ respectively. Let,\n$$\n\\left.\\mathrm{A}(\\mathrm{x})=\\left[\\begin{array}{lll}\n\\mathrm{p}_1(\\mathrm{x}) & \\mathrm{p}_1^{\\prime}(\\mathrm{x}) & \\mathrm{p}_1^{\\prime \\prime} \\mathrm{x}( \\\\\n\\mathrm{p}_2(\\mathrm{x}) & \\mathrm{p}_2^{\\prime}(\\mathrm{x}) & \\mathrm{p}_2^{\\prime \\prime}( \\\\\n\\mathrm{p}_3(\\mathrm{x}) & \\mathrm{p}_3^{\\prime}(\\mathrm{x}) & \\mathrm{p}_3^{\\prime \\prime}(\\mathrm{x}\n\\end{array}\\right]\\right)\n$$\nand $\\mathrm{B}(\\mathrm{x})=[\\mathrm{A}(\\mathrm{x})]^{\\mathrm{T}} \\mathrm{A}(\\mathrm{x})$. Then determinant of $\\mathrm{B}(\\mathrm{x})$ :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "4fU0M",
+      "text": "\nis a polynomial of degree 6 in $\\mathrm{x}$.\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "1tkn9",
+      "text": "\nis a polynomial of degree 3 in $\\mathrm{x}$.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "nubpd",
+      "text": "\nis a polynomial of degree 2 in $\\mathrm{x}$.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Jc5pb",
+      "text": "\ndoes not depend on $\\mathrm{x}$.",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $p_1 x=a_1 x^2+b_1 x+c_1$\n$$\np_2 x=a_2 x^2+b_2 x+c_2\n$$\nand $p_3 x=a_3 x^2+b_3 x+c_3$\nwhere $a_1, a_2, a_3, b_1, b_2, b_3, c_1, c_2, c_3$ are real numbers.\n$$\n\\begin{gathered}\n\\therefore \\mathrm{A}(x)=\\left[\\begin{array}{ccc}\na_1 x^2+b_1 x+c_1 & 2 a_1 x+b_1 & 2 a_1 \\\\\na_2 x^2+b_2 x+c_2 & 2 a_2 x+b_2 & 2 a_2 \\\\\na_3 x^2+b_3 x+c_3 & 2 a_3 x+b_3 & 2 a_3\n\\end{array}\\right] \\\\\n=\\left[\\begin{array}{llll}\na_1 x^2+b_1 x+c_1 & a_2 x^2+b_2 x+c_2 & a_3 x^2+b_3 x+c_3 \\\\\n2 a_1 x+b_1 & 2 a_2 x+b_2 & 2 a_3 x+b_2 \\\\\n2 a_1 & 2 a_2 & 2 a_3\n\\end{array}\\right] \\\\\n\\times\\left[\\begin{array}{ccc}\na_1 x^2+b_1 x+c_1 & 2 a_1 x+b_1 & 2 a_1 \\\\\na_2 x^2+b_2 x+c_2 & 2 a_2 x+b_2 & 2 a_2 \\\\\na_3 x^2+b_3 x+c_3 & 2 a_3 x+b_3 & 2 a_3\n\\end{array}\\right]\n\\end{gathered}\n$$\nIt is clear from the above multiplication, the degree of determinant of $\\mathrm{B}(x)$ can not be less than 4 .",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d8",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (11 Apr Online)",
+    "title": "JEE Main 2014 (11 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

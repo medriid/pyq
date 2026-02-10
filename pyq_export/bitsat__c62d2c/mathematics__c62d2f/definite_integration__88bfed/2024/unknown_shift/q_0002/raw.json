@@ -1,0 +1,63 @@
+{
+  "_id": "67726d0fc49e8ef28ee2b3f1",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6415",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 2)",
+      "title": "BITSAT 2024 (Memory Based Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "The integral $\\int \\frac{x^2\\left(x \\sec ^2 x+\\tan x\\right)}{(x \\tan x+1)^2} d x$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "tLQuw",
+      "text": "$-\\frac{x^2}{x \\tan x+1}+c$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "L4Izw",
+      "text": "$2 \\log _e|x \\sin x+\\cos x|+c$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "5qDgu",
+      "text": "$-\\frac{x^2}{x \\tan x+1}+2 \\log _e|x \\sin x+\\cos x|+c$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "3cmP9",
+      "text": "$\\frac{x^2}{x^2 \\tan x-1}-2 \\log _e|x \\sin x+\\cos x|+c$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "(c) We note that\n$\\frac{d}{d x}(x \\tan x+1)=x \\sec ^2 x+\\tan x$\n$\\therefore$ integrating by parts with $x^2$ as first function, we get\n$\\begin{aligned}\n& I=\\int x^2 \\frac{x \\sec ^2 x+\\tan x}{(x \\tan x+1)^2} d x \\\\\n& =x^2\\left(-\\frac{1}{x \\tan x+1}\\right)-\\int 2 x\\left(-\\frac{1}{x \\tan x+1}\\right) d x \\\\\n& =-\\frac{x^2}{x \\tan x+1}+2 \\int \\frac{x \\cos x}{x \\sin x+\\cos x} d x \\\\\n& =-\\frac{x^2}{x \\tan x+1}+2 \\log _e|x \\sin x+\\cos x|+c \\\\\n& \\quad\\left(\\because \\frac{d}{d x}(x \\sin x+\\cos x)=x \\cos x\\right)\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6415",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 2)",
+    "title": "BITSAT 2024 (Memory Based Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

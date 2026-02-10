@@ -1,8 +1,8 @@
 {
   "index": 22,
   "type": "singleCorrect",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Let the range of the function $f(x)=6+16 \\cos x \\cdot \\cos \\left(\\frac{\\pi}{3}-x\\right) \\cdot \\cos \\left(\\frac{\\pi}{3}+x\\right) \\cdot \\sin 3 x \\cdot \\cos 6 x, x \\in \\mathbf{R}$ be $[\\alpha, \\beta]$. Then the distance of the point $(\\alpha, \\beta)$ from the line $3 x+4 y+12=0$ is :"
+    "text": "Let $f: \\mathbf{R}-\\{0\\} \\rightarrow(-\\infty, 1)$ be a polynomial of degree 2, satisfying $f(x) f\\left(\\frac{1}{x}\\right)=f(x)+f\\left(\\frac{1}{x}\\right)$. If $f(K)=-2 K$, then the sum of squares of all possible values of $K$ is :"
   },
   "options": [
     {
-      "text": "11",
+      "text": "$7$",
+      "is_correct": false
+    },
+    {
+      "text": "$6$",
       "is_correct": true
     },
     {
-      "text": "8",
+      "text": "$1$",
       "is_correct": false
     },
     {
-      "text": "10",
-      "is_correct": false
-    },
-    {
-      "text": "9",
+      "text": "$9$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "A"
+    "B"
   ],
   "solution": {
-    "text": "$\\begin{aligned}\n& f(x)=6+16 \\cos x \\cdot \\cos \\left(\\frac{\\pi}{3}-x\\right) \\\\\n& \\qquad \\cos \\left(\\frac{\\pi}{3}+x\\right) \\cdot \\sin 3 x \\cdot \\cos 6 x \\\\\n& f(x)=6+4 \\cos 3 x \\cdot \\sin 3 x \\cdot \\cos 6 x \\\\\n& \\therefore \\quad f(x)=6+\\sin 12 x \\\\\n& \\therefore \\quad \\text { Range of } f(x)=[5,7] \\\\\n& \\therefore \\quad[\\alpha, \\beta]=[5,7]\n\\end{aligned}$\n$\\therefore$ Distance of point from $3 x+4 y+12=0$\n$\\begin{aligned}\n& =\\left|\\frac{3.5+4.7+12}{\\sqrt{3^2+4^2}}\\right| \\\\\n& =11 \\text { units }\n\\end{aligned}$"
+    "text": "as $f(x)$ is a polynomial of degree two let it be\n$f(x)=a x^2+b x+c \\quad(a \\neq 0)$\non satisfying given conditions we get\n$C=1 \\& a= \\pm 1$\nhence $f(x)=1 \\pm x^2$\nalso range $\\in(-\\infty, 1]$ hence\n$f(x)=1-x^2$\nnow $f(k)=-2 k$\n$1-\\mathrm{k}^2=-2 \\mathrm{k} \\rightarrow \\mathrm{k}^2-2 \\mathrm{k}-1=0$\nlet roots of this equation be $\\alpha \\& \\beta$ then $\\alpha^2+\\beta^2=(\\alpha+\\beta)^2-2 \\alpha \\beta$\n$=4-2(-1)=6$"
   }
 }

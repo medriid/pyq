@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2018",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd837f780b3c67d85974",
+    "chapter_name": "Area Under Curves",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area of the region included between the curves <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mfenced open=\"|\" close=\"|\"><mi>x</mi></mfenced></msqrt><mo>+</mo><msqrt><mfenced open=\"|\" close=\"|\"><mi>y</mi></mfenced></msqrt><mo>=</mo><msqrt><mi>a</mi></msqrt><mfenced><mrow><mi>a</mi><mo>&#62;</mo><mn>0</mn></mrow></mfenced></math> is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>&#960;</mi><mo>-</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></mfenced><msup><mi>a</mi><mn>2</mn></msup></math>&nbsp;sq units",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>-</mo><mi>&#960;</mi></mrow></mfenced><msup><mi>a</mi><mn>2</mn></msup></math>&nbsp;sq units",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>&#960;</mi><msup><mi>a</mi><mn>2</mn></msup></math>&nbsp;sq units",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>&#960;</mi><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></mfenced><msup><mi>a</mi><mn>2</mn></msup></math>&nbsp;sq units",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p>Given curves are</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mfenced close=\"|\" open=\"|\"><mi>x</mi></mfenced></msqrt><mo>+</mo><msqrt><mfenced close=\"|\" open=\"|\"><mi>y</mi></mfenced></msqrt><mo>=</mo><msqrt><mi>a</mi></msqrt><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mi mathvariant=\"normal\">i</mi></mfenced></math></p><p>and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mi>ii</mi></mfenced></math></p><p><img src=\"assets\\st0014_8f9fef80583b.png\" style=\"width: 234px; height: 270px;\" /></p><p>Now, required areas <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn></math>[shaded area in the first quadrant]</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mrow><mi>&#960;</mi><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>4</mn></mfrac><mo>-</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><msup><mfenced><mrow><msqrt><mi>a</mi></msqrt><mo>-</mo><msqrt><mi>x</mi></msqrt></mrow></mfenced><mn>2</mn></msup><mi>d</mi><mi>x</mi></mrow></mfenced></math>&nbsp;&nbsp;[from Eqs. (i) and (ii)]</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mrow><mi>&#960;</mi><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>4</mn></mfrac><mo>-</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mi>a</mi></msubsup><mfenced><mrow><mi>a</mi><mo>+</mo><mi>x</mi><mo>-</mo><mn>2</mn><msqrt><mi>a</mi></msqrt><msqrt><mi>x</mi></msqrt></mrow></mfenced><mi>d</mi><mi>x</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mfrac><mrow><mi>&#960;</mi><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>4</mn></mfrac><mo>-</mo><mn>4</mn><msubsup><mfenced close=\"]\" open=\"[\"><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><msqrt><mi>a</mi></msqrt><msup><mi>x</mi><mrow><mn>3</mn><mo>/</mo><mn>2</mn></mrow></msup></mrow></mfenced><mn>0</mn><mi>a</mi></msubsup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced><mrow><mi>&#960;</mi><mo>-</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></mfenced><msup><mi>a</mi><mn>2</mn></msup></math>&nbsp;sq units</p><p>Hence, option (a) is correct.</p>"
+  }
+}

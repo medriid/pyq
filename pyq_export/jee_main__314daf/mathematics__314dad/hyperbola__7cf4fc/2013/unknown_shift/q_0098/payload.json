@@ -1,0 +1,43 @@
+{
+  "index": 98,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (25 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602541dde7f7e33e7cf4fc",
+    "chapter_name": "Hyperbola",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider the system of equations :\n$x+a y=0, y+a z=0$ and $z+a x=0$. Then the set of all real values of ' $a$ ' for which the system has a unique solution is:"
+  },
+  "options": [
+    {
+      "text": "\n$\\mathrm{R}-\\{1\\}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{R}-\\{-1\\}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\{1,-1\\}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n $\\{1,0,-1\\}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given system of equations is homogeneous which is\n$$\n\\begin{aligned}\n&x+a y=0 \\\\\n&y+a z=0 \\\\\n&z+a x=0\n\\end{aligned}\n$$\nIt can be written in matrix form as\n$$\n\\mathrm{A}=\\left(\\begin{array}{lll}\n1 & a & 0 \\\\\n0 & 1 & a \\\\\na & 0 & 1\n\\end{array}\\right)\n$$\nNow, $|\\mathrm{A}|=\\left[1-a\\left(-a^2\\right)\\right]=1+a^3 \\neq 0$\nSo, system has only trivial solution.\nNow, $|\\mathrm{A}|=0$ only when $a=-1$\nSo, system of equations has infinitely many solutions which is not possible because it is given that system has a unique solution.\nHence set of all real values of ' $a$ ' is\n$$\n\\mathrm{R}-\\{-1\\}\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 64,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (12 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255a501b352fc65c18d3",
+    "chapter_name": "Differentiation",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $f^{\\prime}(x)=\\sin (\\log x)$ and $y=f\\left(\\frac{2 x+3}{3-2 x}\\right)$, then $\\frac{d y}{d x}$ equals"
+  },
+  "options": [
+    {
+      "text": "\n$\\sin \\left[\\log \\left(\\frac{2 x+3}{3-2 x}\\right)\\right]$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{12}{\\left(3-2 x^2\\right)}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{12}{\\left(3-2 x^2\\right)} \\sin \\left[\\log \\left(\\frac{2 x+3}{3-2 x}\\right)\\right]$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{12}{\\left(3-2 x^2\\right.} \\cos \\left[\\log \\left(\\frac{2 x+3}{3-2 x}\\right)\\right]$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $f^{\\prime}(x)=\\sin [\\log x]$ and $y=f\\left(\\frac{2 x+3}{3-2 x}\\right)$\nNow, $\\frac{d y}{d x}=f^{\\prime}\\left(\\frac{2 x+3}{3-2 x}\\right) \\cdot \\frac{d}{d x}\\left(\\frac{2 x+3}{3-2 x}\\right)$\n$$\n\\begin{aligned}\n& =\\sin \\left[\\log \\left(\\frac{2 x+3}{3-2 x}\\right)\\right] \\frac{[(6-4 x-)-4 x-6]}{\\left(3-2 x^2\\right)} \\\\\n& =\\frac{12}{\\left(3-2 x^2\\right.} \\cdot \\sin \\left[\\log \\left(\\frac{2 x+3}{3-2 x}\\right)\\right]\n\\end{aligned}\n$$"
+  }
+}

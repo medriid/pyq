@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cb79820319dd593c4",
+    "chapter_name": "Sequences and Series",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In a sequence of $21$ terms, the first $11$ terms are in $AP$ with common difference $2$ and the last $11$ terms are in $GP$ with common ratio $2$. If the middle term of $AP$ be equal to the middle term of the $GP$, then the middle term of the entire sequence is"
+  },
+  "options": [
+    {
+      "text": "\r\n$-\\frac{10}{31}$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n$\\frac{10}{31}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$\\frac{32}{31}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$-\\frac{31}{32}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Since, the first $11$ terms are in $AP$, $d=2$\r\n$\\therefore \\quad a_{11}=a+10 d=a+20$\r\nThe middle term of $AP$ is\r\n$T_6=a+5 d=a+10$\r\nFor the next $11$ terms in $GP$\r\n$r=2$\r\n$\\therefore$ The middle term of $GP$ is $b(2)^5$ where, $b$ is the first term of a $GP$ which is the last term of $AP$\r\n$b(2)^5=(a+20) 32$\r\nAccording to the given condition,\r\n$\\begin{aligned}\r\n\\Rightarrow \\quad a+10 & =(a+20) 32 \\\\\r\n\\Rightarrow \\quad 31 a & =10-640 \\\\\r\na & =-\\frac{630}{31}\r\n\\end{aligned}$\r\n$\\therefore$ Middle term of entire sequence is $11th$ term\r\n$\\begin{aligned} \\therefore \\quad T_{11} & =\\frac{-630}{31}+10 \\times d \\\\ & =\\frac{-630}{31}+10 \\times 2=\\frac{-10}{31}\\end{aligned}$"
+  }
+}

@@ -1,82 +1,62 @@
 {
-  "_id": "6682bd56ba0e94a3c4025c05",
+  "_id": "6644672f970e6e9ab542d0fa",
   "type": "singleCorrect",
-  "level": 2,
+  "level": 3,
   "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6c",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-06T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (06 Apr Shift 1)",
+      "title": "JEE Main 2024 (06 Apr Shift 1)"
+    }
+  ],
   "question": {
-    "text": "<p>Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mi>y</mi><mfenced><mi>x</mi></mfenced></math> be the solution of the differential equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><mi>x</mi><msup><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced><mn>3</mn></msup><mo>−</mo><mi>x</mi><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced><mo>−</mo><mn>1</mn><mo>,</mo><mi>y</mi><mfenced><mn>0</mn></mfenced><mo>=</mo><mn>1</mn></math>. Then, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>+</mo><mi>y</mi><mfenced><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac></mfenced></mrow></mfenced><mn>2</mn></msup></math> equals:</p>",
+    "text": "Let $y=y(x)$ be the solution of the differential equation $\\left(1+x^2\\right) \\frac{d y}{d x}+y=e^{\\tan ^{-1} x}$, $y(1)=0$. Then $y(0)$ is",
     "image": null
   },
   "options": [
     {
-      "id": "5spm5",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mrow><mn>4</mn><mo>+</mo><msqrt><mi>e</mi></msqrt></mrow></mfrac></math>",
+      "id": "wm4cD",
+      "text": "$\\frac{1}{2}\\left(e^{\\pi / 2}-1\\right)$",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "HMYJC",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mrow><mn>3</mn><mo>−</mo><msqrt><mi>e</mi></msqrt></mrow></mfrac></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "LaVeB",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mrow><mn>1</mn><mo>+</mo><msqrt><mi>e</mi></msqrt></mrow></mfrac></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "vI2xs",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mn>2</mn><mo>−</mo><msqrt><mi>e</mi></msqrt></mrow></mfrac></math>",
+      "id": "nO8AW",
+      "text": "$\\frac{1}{2}\\left(1-e^{\\pi / 2}\\right)$",
       "image": null,
       "isCorrect": true
+    },
+    {
+      "id": "BRbFr",
+      "text": "$\\frac{1}{4}\\left(1-e^{\\pi / 2}\\right)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "76HCM",
+      "text": "$\\frac{1}{4}\\left(e^{\\pi / 2}-1\\right)$",
+      "image": null,
+      "isCorrect": false
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "<p>Given: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><mi>x</mi><msup><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced><mn>3</mn></msup><mo>−</mo><mi>x</mi><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced><mo>−</mo><mn>1</mn></math></p><p>Let, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>-</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>−</mo><mn>1</mn><mo>=</mo><mn>2</mn><mi>x</mi><msup><mi>t</mi><mn>3</mn></msup><mo>−</mo><mi>x</mi><mi>t</mi><mo>−</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><mi>x</mi><msup><mi>t</mi><mn>3</mn></msup><mo>−</mo><mi>x</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>x</mi><mi>t</mi><mo>=</mo><mn>2</mn><mi>x</mi><msup><mi>t</mi><mn>3</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mn>1</mn><msup><mi>t</mi><mn>3</mn></msup></mfrac><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mfrac><mi>x</mi><msup><mi>t</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>2</mn><mi>x</mi><mo> </mo><mo> </mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mi>i</mi></mfenced></math></p><p>Putting, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><msup><mi>t</mi><mn>2</mn></msup></mfrac><mo>=</mo><mi>u</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mrow><mo>-</mo><mn>2</mn></mrow><msup><mi>t</mi><mn>3</mn></msup></mfrac><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>d</mi><mi>u</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mn>1</mn><msup><mi>t</mi><mn>3</mn></msup></mfrac><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mfrac><mrow><mi>d</mi><mi>u</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac></math></p><p>Putting this value in equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>i</mi></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mfrac><mrow><mi>d</mi><mi>u</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>x</mi><mi>u</mi><mo>=</mo><mn>2</mn><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mrow><mi>d</mi><mi>u</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>-</mo><mn>2</mn><mi>x</mi><mi>u</mi><mo>=</mo><mo>-</mo><mn>4</mn><mi>x</mi></math></p><p>Integrating factor, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mi>F</mi><mo>=</mo><msup><mi>e</mi><mrow><mo>∫</mo><mo>-</mo><mn>2</mn><mi>x</mi><mi>d</mi><mi>x</mi></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mi>F</mi><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msup></math></p><p>So, solution of the given differential equation is,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi><mo>×</mo><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msup><mo>=</mo><mo>∫</mo><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msup><mfenced><mrow><mo>-</mo><mn>4</mn><mi>x</mi></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msup><msup><mi>t</mi><mn>2</mn></msup></mfrac><mo>=</mo><mo>∫</mo><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msup><mfenced><mrow><mo>-</mo><mn>4</mn><mi>x</mi></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p>Putting, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mi>z</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mo>-</mo><mn>2</mn><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>z</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msup><msup><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced><mn>2</mn></msup></mfrac><mo>=</mo><mo>∫</mo><mn>2</mn><msup><mi>e</mi><mi>z</mi></msup><mi>d</mi><mi>z</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msup><msup><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced><mn>2</mn></msup></mfrac><mo>=</mo><mn>2</mn><msup><mi>e</mi><mi>z</mi></msup><mo>+</mo><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msup><msup><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced><mn>2</mn></msup></mfrac><mo>=</mo><mn>2</mn><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msup><mo>+</mo><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mn>1</mn><msup><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced><mn>2</mn></msup></mfrac><mo>=</mo><mn>2</mn><mo>+</mo><mi>C</mi><msup><mi>e</mi><msup><mi>x</mi><mn>2</mn></msup></msup></math></p><p>It is given that, at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>1</mn></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>1</mn><mo>=</mo><mn>2</mn><mo>+</mo><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>C</mi><mo>=</mo><mo>-</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mo>−</mo><msup><mi>e</mi><msup><mi>x</mi><mn>2</mn></msup></msup></mrow></mfrac></math></p><p>Putting, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mfenced><mrow><mi>y</mi><mo>+</mo><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac></mrow></mfenced><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mo>−</mo><msup><mi>e</mi><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></msup></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mfenced><mrow><mi>y</mi><mfenced><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac></mfenced><mo>+</mo><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac></mrow></mfenced><mn>2</mn></msup><mo>=</mo><mfenced><mfrac><mn>1</mn><mrow><mn>2</mn><mo>−</mo><msqrt><mi>e</mi></msqrt></mrow></mfrac></mfenced></math></p>",
+    "text": "$\\begin{aligned} & \\frac{d y}{d x}+\\frac{y}{1+x^2}=\\frac{e^{\\tan ^{-1} x}}{1+x^2} \\\\ & \\text { I.F. }=e^{\\int \\frac{1}{1+x^2} d x}=e^{\\tan ^{-1} x} \\\\ & y \\cdot e^{\\tan ^{-1} x}=\\int\\left(\\frac{e^{\\tan ^{-1} x}}{1+x^2}\\right) e^{\\tan ^{-1} x} \\cdot d x \\\\ & \\text { Let } \\tan ^{-1} x=z \\quad \\therefore \\frac{d x}{1+x^2}=d z \\\\ & \\therefore y \\cdot e^z=\\int e^{2 z} d z=\\frac{e^{2 z}}{2}+C \\\\ & y \\cdot e^{\\tan ^{-1} x}=\\frac{e^{2 \\tan ^{-1} x}}{2}+C \\\\ & \\Rightarrow y=\\frac{e^{\\tan ^{-1} x}}{2}+\\frac{C}{e^{\\tan ^{-1} x}}\\end{aligned}$<br />$\\begin{aligned} & \\because \\mathrm{y}(1)=0 \\Rightarrow 0=\\frac{\\mathrm{e}^{\\pi / 4}}{2}+\\frac{\\mathrm{C}}{\\mathrm{e}^{\\pi / 4}} \\Rightarrow \\mathrm{C}=\\frac{-\\mathrm{e}^{\\pi / 2}}{2} \\\\ & \\therefore \\mathrm{y}=\\frac{\\mathrm{e}^{\\tan ^{-1} \\mathrm{x}}}{2}-\\frac{\\mathrm{e}^{\\pi / 2}}{2 \\mathrm{e}^{\\tan ^{-1} \\mathrm{x}}} \\\\ & \\therefore \\mathrm{y}(0)=\\frac{1-\\mathrm{e}^{\\pi / 2}}{2}\\end{aligned}$",
     "image": null
   },
-  "videoSolution": {
-    "videoId": "594dfe85bf7a40f3aff62b1840a1c586",
-    "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/TxnA42hbjtv2v.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/TxnA42hbjtv2v.480.jpeg",
-    "premiumModules": [
-      {
-        "premiumModuleId": "6628114842d540dfcb148ecb",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "64c7e8e829737784b294e469",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
-        "isFree": false
-      }
-    ],
-    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
-  },
+  "videoSolution": null,
   "syllabusCategory": "noChange",
-  "previousYearPapers": [
-    {
-      "_id": "65c4c0c11d30997d3436bb06",
-      "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-02-01T09:00:00.000Z",
-      "isVisible": true,
-      "shortName": "2024 (01 Feb Shift 1)",
-      "title": "JEE Main 2024 (01 Feb Shift 1)"
-    }
-  ],
   "previousYear": {
-    "_id": "65c4c0c11d30997d3436bb06",
+    "_id": "664466ee278297dee60eda6c",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-02-01T09:00:00.000Z",
+    "heldOn": "2024-04-06T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (01 Feb Shift 1)",
-    "title": "JEE Main 2024 (01 Feb Shift 1)"
+    "shortName": "2024 (06 Apr Shift 1)",
+    "title": "JEE Main 2024 (06 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

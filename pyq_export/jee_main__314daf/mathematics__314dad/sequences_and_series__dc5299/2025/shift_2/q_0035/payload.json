@@ -1,0 +1,43 @@
+{
+  "index": 35,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "For positive integers $n$, if $4 a_n=\\left(n^2+5 n+6\\right)$ and $S_n=\\sum_{k=1}^n\\left(\\frac{1}{a_k}\\right)$, then the value of $507 S_{2025}$ is :"
+  },
+  "options": [
+    {
+      "text": "$540$",
+      "is_correct": false
+    },
+    {
+      "text": "$675$",
+      "is_correct": true
+    },
+    {
+      "text": "$1350$",
+      "is_correct": false
+    },
+    {
+      "text": "$135$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & S_n=\\sum_{k=1}^n \\frac{4}{K^2+5 k+6} \\\\ & =\\sum_{k=1}^n \\frac{4}{(K+2)(K+3)}=4 \\sum_{K=1}^n\\left(\\frac{1}{K+2}-\\frac{1}{K+3}\\right)\\end{aligned}$\n$\\begin{aligned} & =4\\left[\\frac{1}{3}-\\frac{1}{4}\\right] \\\\ & =4\\left[\\frac{1}{4}-\\frac{1}{5}\\right] \\\\ & =4\\left[\\frac{1}{n+2}-\\frac{1}{n+3}\\right] \\\\ & S_n=4\\left[\\frac{1}{3}-\\frac{1}{n+3}\\right]\\end{aligned}$\n$\\begin{aligned} & S_{2025}=4\\left[\\frac{1}{3}-\\frac{1}{2028}\\right] \\\\ & S_{2025}=4\\left[\\frac{675}{2028}\\right] \\\\ & 507 S_{2025}=675\\end{aligned}$"
+  }
+}

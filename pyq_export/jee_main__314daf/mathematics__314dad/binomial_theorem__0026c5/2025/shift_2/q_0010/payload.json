@@ -1,8 +1,8 @@
 {
   "index": 10,
-  "type": "singleCorrect",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2025 (2 Apr Shift 2)",
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (8 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "If $\\sum_{\\mathrm{r}=0}^{10}\\left(\\frac{10^{\\mathrm{r}+1}-1}{10^{\\mathrm{r}}}\\right) \\cdot{ }^{11} \\mathrm{C}_{\\mathrm{r}+1}=\\frac{\\alpha^{11}-11^{11}}{10^{10}}$, then $\\alpha$ is equal to :"
+    "text": "The product of the last two digits of $(1919)^{1919}$ is\n$\\qquad$"
   },
-  "options": [
-    {
-      "text": "$15$",
-      "is_correct": false
-    },
-    {
-      "text": "$11$",
-      "is_correct": false
-    },
-    {
-      "text": "$24$",
-      "is_correct": false
-    },
-    {
-      "text": "$20$",
-      "is_correct": true
-    }
-  ],
-  "correct_answer": [
-    "D"
-  ],
+  "options": [],
+  "correct_answer": "63",
   "solution": {
-    "text": "$\\begin{aligned} & \\sum_{\\mathrm{r}=0}^{10}\\left(\\frac{1 \\mathrm{r}^{\\mathrm{r}-1}-1}{10^{\\mathrm{r}}}\\right){ }^{11} \\mathrm{C}_{\\mathrm{r}+1} \\\\ & =\\sum_{\\mathrm{r}=0}^{10}\\left(10-\\frac{1}{10^{\\mathrm{r}}}\\right)^{11} \\mathrm{C}_{\\mathrm{r}+1} \\\\ & =10 \\sum_{\\mathrm{r}=0}^{10} \\mathrm{C}_{\\mathrm{r}+1}-10 \\sum\\left({ }^{11} \\mathrm{C}_{\\mathrm{r}+1}\\left(\\frac{1}{10}\\right)^{\\mathrm{r}+1}\\right) \\\\ & =10\\left[{ }^{11} \\mathrm{C}_1+{ }^{11} \\mathrm{C}_2+\\ldots . .+{ }^{11} \\mathrm{C}_{11}\\right] \\\\ & -10\\left[{ }^{11} \\mathrm{C}_1\\left(\\frac{1}{10}\\right)^1+{ }^{11} \\mathrm{C}_2\\left(\\frac{1}{10}\\right)^2+\\ldots . .+{ }^{11} \\mathrm{C}_{11}\\left(\\frac{1}{10}\\right)^{11}\\right] \\\\ & =10\\left[2^{11}-1\\right]-10\\left[\\left(1+\\frac{1}{10}\\right)^{11}-1\\right] \\\\ & =10(2)^{11}-10-\\frac{11^{11}}{10^{10}}+10 \\\\ & =\\frac{(20)^{11}-11^{11}}{10^{10}} \\\\ & \\therefore \\alpha=20\\end{aligned}$"
+    "text": "$\\begin{aligned} & (1919)^{1919}=(1920-1)^{1919} \\\\ & ={ }^{1919} \\mathrm{C}_0(1920)^{1919}-{ }^{1919} \\mathrm{C}_1(1920)^{1918}+\\ldots . \\\\ & +{ }^{1919} \\mathrm{C}_{1918}(1920)^1-{ }^{1919} \\mathrm{C}_{1919} \\\\ & =100 \\lambda+1919 \\times 1920-1 \\\\ & =100 \\lambda+3684480-1 \\\\ & =100 \\lambda+\\ldots \\ldots \\ldots . .79 \\text { (last two digit) } \\\\ & \\Rightarrow \\text { Number having last two digit } 79 \\\\ & \\therefore \\text { Product of last two digit } 63\\end{aligned}$"
   }
 }

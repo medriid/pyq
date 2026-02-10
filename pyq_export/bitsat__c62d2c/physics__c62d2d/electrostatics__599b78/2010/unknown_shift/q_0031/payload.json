@@ -1,0 +1,43 @@
+{
+  "index": 31,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2010",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7581a69b0b3a599b78",
+    "chapter_name": "Electrostatics",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In a region, the potential is represented by $\\mathrm{V}(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})=6 \\mathrm{x}-8 \\mathrm{xy}-8 \\mathrm{y}+6 \\mathrm{yz},$ where $\\mathrm{V}$ is in volts and $\\mathrm{x}, \\mathrm{y}, \\mathrm{z}$ are in metres. The electric force experienced by a charge of 2 coulomb situated at point (1,1,1) is :"
+  },
+  "options": [
+    {
+      "text": "$6 \\sqrt{5} \\mathrm{~N}$",
+      "is_correct": false
+    },
+    {
+      "text": "$30 \\mathrm{~N}$",
+      "is_correct": false
+    },
+    {
+      "text": "$24 \\mathrm{~N}$",
+      "is_correct": false
+    },
+    {
+      "text": "$4 \\sqrt{35} \\mathrm{~N}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\overrightarrow{\\mathrm{E}}=-\\frac{\\partial \\mathrm{V}}{\\partial \\mathrm{x}} \\hat{\\mathrm{i}}-\\frac{\\partial \\mathrm{V}}{\\partial \\mathrm{y}} \\hat{\\mathrm{j}}-\\frac{\\partial \\mathrm{V}}{\\partial \\mathrm{z}} \\hat{\\mathrm{k}}$\n$=-[(6-8 \\mathrm{y}) \\hat{\\mathrm{i}}+(-8 \\mathrm{x}-8+6 \\mathrm{z}) \\hat{\\mathrm{j}}+(6 \\mathrm{y}) \\hat{\\mathrm{k}}]$\n$\\mathrm{At}(1,1,1), \\overrightarrow{\\mathrm{E}}=2 \\hat{\\mathrm{i}}+10 \\hat{\\mathrm{j}}-6 \\hat{\\mathrm{k}}$\n$\\Rightarrow \\quad(\\overrightarrow{\\mathrm{E}})=\\sqrt{2^{2}+10^{2}+6^{2}}=\\sqrt{140}=2 \\sqrt{35}$\n$\\therefore \\quad \\mathrm{F}=\\mathrm{q} \\overrightarrow{\\mathrm{E}}=2 \\times 2 \\sqrt{35}=4 \\sqrt{35}$"
+  }
+}

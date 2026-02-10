@@ -1,0 +1,43 @@
+{
+  "index": 256,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (10 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The sum of all two digit positive numbers which when divided by <math><mn>7</mn></math> yield <math><mn>2</mn></math> or <math><mn>5</mn></math> as remainder is"
+  },
+  "options": [
+    {
+      "text": "<math><mn>1356</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mn>1365</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>1256</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>1465</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p>Two-digit numbers of the form <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>&#955;</mi><mo>+</mo><mn>2</mn></math> are <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>,</mo><mi>&#160;</mi><mn>23</mn><mo>,</mo><mo>&#160;</mo><mn>30</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mo>&#160;</mo><mn>93</mn></math></p><p>These number are forming an arithmetic progression with first term&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>16</mn><mo>,</mo></math>&nbsp;common difference&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>23</mn><mo>-</mo><mn>16</mn><mo>=</mo><mn>7</mn></math>&nbsp;and last term&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi><mo>=</mo><mn>93</mn></math></p><p>And, we know that the last term of an arithmetic progression is given by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi><mo>=</mo><mi>a</mi><mo>+</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mi>d</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>93</mn><mo>=</mo><mn>16</mn><mo>+</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mn>7</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>77</mn><mo>=</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mn>7</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>n</mi><mo>=</mo><mn>12</mn></math><br /><br />Two-digit numbers of the form <math><mn>7</mn><mi>&#955;</mi><mo>+</mo><mn>5</mn></math> are <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>,</mo><mi>&#160;</mi><mn>19</mn><mo>,</mo><mo>&#160;</mo><mn>26</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mo>&#160;</mo><mn>96</mn></math></p><p>Again, using the last term of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>.</mo><mi>P</mi><mo>.</mo><mo>,</mo></math>&nbsp;we get&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>96</mn><mo>=</mo><mn>12</mn><mo>+</mo><mfenced><mrow><msub><mi>n</mi><mn>1</mn></msub><mo>-</mo><mn>1</mn></mrow></mfenced><mn>7</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>84</mn><mo>=</mo><mfenced><mrow><msub><mi>n</mi><mn>1</mn></msub><mo>-</mo><mn>1</mn></mrow></mfenced><mn>7</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>n</mi><mn>1</mn></msub><mo>=</mo><mn>13</mn></math></p><p>Now, the sum of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>&nbsp;terms of&nbsp;an&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>.</mo><mi>P</mi><mo>.</mo></math>&nbsp;is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mfrac><mi>n</mi><mn>2</mn></mfrac><mfenced><mrow><mi>a</mi><mo>+</mo><mi>l</mi></mrow></mfenced><mo>,</mo></math>&nbsp;we get&nbsp;the sum of all the above numbers as</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>12</mn><mn>2</mn></mfrac><mfenced separators=\"|\"><mrow><mn>16</mn><mo>+</mo><mn>93</mn></mrow></mfenced><mo>+</mo><mfrac><mn>13</mn><mn>2</mn></mfrac><mfenced separators=\"|\"><mrow><mn>12</mn><mo>+</mo><mn>96</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>654</mn><mo>+</mo><mn>702</mn><mo>=</mo><mn>1356</mn><mo>.</mo></math></p>"
+  }
+}

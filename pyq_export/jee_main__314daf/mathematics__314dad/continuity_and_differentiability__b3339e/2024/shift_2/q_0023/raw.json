@@ -1,58 +1,63 @@
 {
-  "_id": "6682bd4eba0e94a3c4025bcd",
-  "type": "numerical",
-  "level": 3,
+  "_id": "6682bd4dba0e94a3c4025bcc",
+  "type": "singleCorrect",
+  "level": 2,
   "questionLabels": [],
   "question": {
-    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><msqrt><munder><mi>lim</mi><mrow><mi>r</mi><mo>→</mo><mi>x</mi></mrow></munder><mfenced close=\"}\" open=\"{\"><mrow><mfrac><mrow><mn>2</mn><msup><mi>r</mi><mn>2</mn></msup><mfenced close=\"]\" open=\"[\"><mrow><mo>(</mo><mi>f</mi><mo>(</mo><mi>r</mi><mo>)</mo><msup><mo>)</mo><mn>2</mn></msup><mo>-</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>f</mi><mo>(</mo><mi>r</mi><mo>)</mo></mrow></mfenced></mrow><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>-</mo><msup><mi>r</mi><mn>3</mn></msup><msup><mi>e</mi><mfrac><mrow><mi>f</mi><mo>(</mo><mi>r</mi><mo>)</mo></mrow><mi>r</mi></mfrac></msup></mrow></mfenced></msqrt></math> be differentiable in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>-</mo><mo>∞</mo><mo>,</mo><mn>0</mn><mo>)</mo><mo>∪</mo><mo>(</mo><mn>0</mn><mo>,</mo><mo>∞</mo><mo>)</mo></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>1</mn></math>. Then the value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>e</mi></math>, such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>0</mn></math>, is equal to ______.",
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"|\" open=\"|\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mfenced close=\"|\" open=\"|\"><mi>x</mi></mfenced><mo>-</mo><mn>3</mn></mrow></mfenced><mo>,</mo><mo> </mo><mi>x</mi><mo>∈</mo><mi>R</mi></math>. If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> denote the number of points where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> is not continuous and not differentiable respectively, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>+</mo><mi>n</mi></math> is equal to:",
     "image": null
   },
-  "options": [],
-  "correctValue": "2",
+  "options": [
+    {
+      "id": "wUbjO",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "DmbJL",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "3J6EB",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "kz9rT",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>1</mn><mo>,</mo><mo> </mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>0</mn></math></p><p>And <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><msqrt><munder><mi>lim</mi><mrow><mi>r</mi><mo>→</mo><mi>x</mi></mrow></munder><mfenced close=\"}\" open=\"{\"><mrow><mfrac><mrow><mn>2</mn><msup><mi>r</mi><mn>2</mn></msup><mfenced close=\"]\" open=\"[\"><mrow><mo>(</mo><mi>f</mi><mo>(</mo><mi>r</mi><mo>)</mo><msup><mo>)</mo><mn>2</mn></msup><mo>-</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>f</mi><mo>(</mo><mi>r</mi><mo>)</mo></mrow></mfenced></mrow><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>-</mo><msup><mi>r</mi><mn>3</mn></msup><msup><mi>e</mi><mfrac><mrow><mi>f</mi><mo>(</mo><mi>r</mi><mo>)</mo></mrow><mi>r</mi></mfrac></msup></mrow></mfenced></msqrt></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi>f</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><munder><mi>lim</mi><mrow><mi>r</mi><mo>→</mo><mi>x</mi></mrow></munder><mfenced><mrow><mfrac><mrow><mn>2</mn><msup><mi>r</mi><mn>2</mn></msup><mfenced><mrow><msup><mi>f</mi><mn>2</mn></msup><mo>(</mo><mi>r</mi><mo>)</mo><mo>-</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>f</mi><mo>(</mo><mi>r</mi><mo>)</mo></mrow></mfenced></mrow><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>-</mo><msup><mi>r</mi><mn>3</mn></msup><msup><mi>e</mi><mfrac><mrow><mi>f</mi><mo>(</mo><mi>r</mi><mo>)</mo></mrow><mi>r</mi></mfrac></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi>f</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><munder><mi>lim</mi><mrow><mi>r</mi><mo>→</mo><mi>x</mi></mrow></munder><mfenced><mrow><mfrac><mrow><mn>2</mn><msup><mi>r</mi><mn>2</mn></msup><mi>f</mi><mo>(</mo><mi>r</mi><mo>)</mo></mrow><mrow><mi>r</mi><mo>+</mo><mi>x</mi></mrow></mfrac><mfrac><mrow><mo>(</mo><mi>f</mi><mo>(</mo><mi>r</mi><mo>)</mo><mo>-</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo></mrow><mrow><mi>r</mi><mo>-</mo><mi>x</mi></mrow></mfrac><mo>-</mo><msup><mi>r</mi><mn>3</mn></msup><msup><mi>e</mi><mfrac><mrow><mi>f</mi><mo>(</mo><mi>r</mi><mo>)</mo></mrow><mi>r</mi></mfrac></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi>f</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mrow><mi>x</mi><mo>+</mo><mi>x</mi></mrow></mfrac><mfenced><mrow><munder><mi>lim</mi><mrow><mi>r</mi><mo>→</mo><mi>x</mi></mrow></munder><mfrac><mrow><mo>(</mo><mi>f</mi><mo>(</mo><mi>r</mi><mo>)</mo><mo>-</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo></mrow><mrow><mi>r</mi><mo>-</mo><mi>x</mi></mrow></mfrac></mrow></mfenced><mo>-</mo><msup><mi>x</mi><mn>3</mn></msup><msup><mi>e</mi><mfrac><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mi>x</mi></mfrac></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi>f</mi><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mrow><mn>2</mn><mi>x</mi></mrow></mfrac><msup><mi>f</mi><mo>'</mo></msup><mo>(</mo><mi>x</mi><mo>)</mo><mo>-</mo><msup><mi>x</mi><mn>3</mn></msup><msup><mi>e</mi><mfrac><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mi>x</mi></mfrac></msup></math></p><p>Now, taking <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mi>y</mi></math> we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mi>x</mi><mi>y</mi><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>-</mo><msup><mi>x</mi><mn>3</mn></msup><msup><mi>e</mi><mfrac><mi>y</mi><mi>x</mi></mfrac></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mi>y</mi><mi>x</mi></mfrac><mo>=</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>-</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mi>y</mi></mfrac><msup><mi>e</mi><mfrac><mi>y</mi><mi>x</mi></mfrac></msup></math></p><p>Now, let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mi>v</mi><mi>x</mi><mo>⇒</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mi>v</mi><mo>+</mo><mi>x</mi><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>v</mi><mo>=</mo><mi>v</mi><mo>+</mo><mi>x</mi><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>-</mo><mfrac><mi>x</mi><mi>v</mi></mfrac><msup><mi>e</mi><mi>v</mi></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><msup><mi>e</mi><mi>v</mi></msup><mi>v</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>v</mi></mrow></msup><mi>v</mi><mi>d</mi><mi>v</mi><mo>=</mo><mi>d</mi><mi>x</mi></math></p><p>Integrating both side</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>e</mi><mi>v</mi></msup><mo>(</mo><mi>x</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>+</mo><mn>1</mn><mo>+</mo><mi>v</mi><mo>=</mo><mn>0</mn></math></p><p>Now using <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>1</mn><mo>⇒</mo><mi>x</mi><mo>=</mo><mn>1</mn><mo>,</mo><mi>y</mi><mo>=</mo><mn>1</mn></math> we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>c</mi><mo>=</mo><mo>-</mo><mn>1</mn><mo>-</mo><mfrac><mn>2</mn><mi>e</mi></mfrac></math></p><p>Hence, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>e</mi><mi>v</mi></msup><mfenced><mrow><mo>-</mo><mn>1</mn><mo>-</mo><mfrac><mn>2</mn><mi>e</mi></mfrac><mo>+</mo><mi>x</mi></mrow></mfenced><mo>+</mo><mn>1</mn><mo>+</mo><mi>v</mi><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi>e</mi><mfrac><mi>y</mi><mi>x</mi></mfrac></msup><mfenced><mrow><mo>-</mo><mn>1</mn><mo>-</mo><mfrac><mn>2</mn><mi>e</mi></mfrac><mo>+</mo><mi>x</mi></mrow></mfenced><mo>+</mo><mn>1</mn><mo>+</mo><mfrac><mi>y</mi><mi>x</mi></mfrac><mo>=</mo><mn>0</mn></math></p><p>Now taking, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>a</mi><mo> </mo><mo>&amp;</mo><mo> </mo><mi>y</mi><mo>=</mo><mn>0</mn></math> we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>e</mi><mn>0</mn></msup><mfenced><mrow><mo>-</mo><mn>1</mn><mo>-</mo><mfrac><mn>2</mn><mi>e</mi></mfrac><mo>+</mo><mi>a</mi></mrow></mfenced><mo>+</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>a</mi><mo>=</mo><mfrac><mn>2</mn><mi>e</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>a</mi><mi>e</mi><mo>=</mo><mn>2</mn></math></p>",
+    "text": "<p>Given: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"|\" open=\"|\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mfenced close=\"|\" open=\"|\"><mi>x</mi></mfenced><mo>-</mo><mn>3</mn></mrow></mfenced></math></p><p>Now, let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfenced close=\"|\" open=\"|\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>=</mo><mfenced close=\"|\" open=\"|\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>x</mi><mo>-</mo><mi>x</mi><mo>−</mo><mn>3</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>=</mo><mfenced close=\"|\" open=\"|\"><mrow><mn>2</mn><mi>x</mi><mfenced><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfenced><mo>-</mo><mfenced><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfenced></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>=</mo><mfenced close=\"|\" open=\"|\"><mrow><mfenced><mrow><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mfenced><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfenced></mrow></mfenced></math></p><p>Graph of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>=</mo><mfenced close=\"|\" open=\"|\"><mrow><mfenced><mrow><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mfenced><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfenced></mrow></mfenced></math> is given below:</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/da42c516-3a6c-4709-a25d-3d48e1d0094a.png\" style=\"width: 280px; height: 143px;\"/></p><p>Graph of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"|\" open=\"|\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mfenced close=\"|\" open=\"|\"><mi>x</mi></mfenced><mo>-</mo><mn>3</mn></mrow></mfenced></math> is given below:</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/b79187f6-a2ae-4556-aea3-e8308d46215a.png\" style=\"width: 280px; height: 261px;\"/></p><p>So, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math> is continuous for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>∈</mo><mi>R</mi></math> and non-differentiable at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>±</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mn>0</mn></math></p><p>So, number of points of discontinuity<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>0</mn><mo>=</mo><mi>m</mi></math></p><p>Also, number of points of non-discontinuity<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>3</mn><mo>=</mo><mi>n</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>m</mi><mo>+</mo><mi>n</mi><mo>=</mo><mn>3</mn></math></p>",
     "image": null
   },
-  "videoSolution": {
-    "videoId": "f10d3875e3174e0dbc1aadce8a6f2be5",
-    "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/vJonVBtyIJFTT.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/vJonVBtyIJFTT.480.jpeg",
-    "premiumModules": [
-      {
-        "premiumModuleId": "6628114842d540dfcb148ecb",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "64c7e8e829737784b294e469",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
-        "isFree": false
-      }
-    ],
-    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
-  },
+  "videoSolution": null,
   "syllabusCategory": "noChange",
   "previousYearPapers": [
     {
-      "_id": "65c4c0c01d30997d3436bb01",
+      "_id": "65c4c0c11d30997d3436bb07",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-01-29T14:00:00.000Z",
+      "heldOn": "2024-02-01T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (29 Jan Shift 2)",
-      "title": "JEE Main 2024 (29 Jan Shift 2)"
+      "shortName": "2024 (01 Feb Shift 2)",
+      "title": "JEE Main 2024 (01 Feb Shift 2)"
     }
   ],
   "previousYear": {
-    "_id": "65c4c0c01d30997d3436bb01",
+    "_id": "65c4c0c11d30997d3436bb07",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-01-29T14:00:00.000Z",
+    "heldOn": "2024-02-01T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (29 Jan Shift 2)",
-    "title": "JEE Main 2024 (29 Jan Shift 2)"
+    "shortName": "2024 (01 Feb Shift 2)",
+    "title": "JEE Main 2024 (01 Feb Shift 2)"
   },
-  "evalStatus": "notAttempted",
-  "lastPracticed": null
+  "evalStatus": "incorrect",
+  "lastPracticed": "2025-02-26T14:25:19.414Z"
 }

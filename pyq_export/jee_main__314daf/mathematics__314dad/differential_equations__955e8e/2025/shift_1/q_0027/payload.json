@@ -1,0 +1,43 @@
+{
+  "index": 27,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $\\mathrm{y}=\\mathrm{y}(\\mathrm{x})$ be the solution of the differential equation $\\left(x y-5 x^2 \\sqrt{1+x^2}\\right) d x+\\left(1+x^2\\right) d y=0, y(0)=0$. Then $y(\\sqrt{3})$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\sqrt{\\frac{15}{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{5 \\sqrt{3}}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$2 \\sqrt{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{\\frac{14}{3}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\left(1+x^2\\right) \\frac{d y}{d x}+x y=5 x^2 \\sqrt{1+x^2} \\\\ & \\frac{d y}{d x}+\\frac{x y}{1+x^2}=\\frac{5 x^2}{\\sqrt{1+x^2}} \\\\ & \\therefore \\text { I.F. }=\\mathrm{e}^{\\int \\frac{\\mathrm{x}}{1+x^2} \\mathrm{dx}}=\\mathrm{e}^{\\frac{\\ln \\left(1+x^2\\right)}{2}}=\\sqrt{1+\\mathrm{x}^2} \\\\ & \\therefore \\mathrm{y} \\sqrt{1+\\mathrm{x}^2}=\\int \\frac{5 \\mathrm{x}^2}{\\sqrt{1+\\mathrm{x}^2}} \\cdot \\sqrt{1+\\mathrm{x}^2} \\mathrm{dx} \\\\ & \\therefore \\mathrm{y} \\sqrt{1+\\mathrm{x}^2}=\\int \\frac{5 \\mathrm{x}^2}{\\sqrt{1+\\mathrm{x}^2}} \\cdot \\sqrt{1+\\mathrm{x}^2} \\mathrm{dx} \\\\ & \\mathrm{y} \\sqrt{1+\\mathrm{x}^2}=\\frac{5 \\mathrm{x}^3}{3}+\\mathrm{C} \\\\ & \\because \\mathrm{y}(0)=0 \\Rightarrow 0=0+\\mathrm{C} \\Rightarrow \\mathrm{C}=0\\end{aligned}$\n\n\n$\\begin{aligned} & \\therefore y=\\frac{5 x^3}{3 \\sqrt{1+x^2}} \\\\ & y(\\sqrt{3})=\\frac{15 \\sqrt{3}}{32}=\\frac{5 \\sqrt{3}}{2}\\end{aligned}$"
+  }
+}

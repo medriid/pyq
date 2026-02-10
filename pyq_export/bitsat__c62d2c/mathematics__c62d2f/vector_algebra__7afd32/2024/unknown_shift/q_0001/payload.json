@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd74291eeb125c7afd32",
+    "chapter_name": "Vector Algebra",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\vec{a}=2 \\hat{i}+\\hat{j}+2 \\hat{k}$, then the value of\n$|\\hat{i} \\times(\\vec{a} \\times \\hat{i})|^2+|\\hat{j} \\times(\\vec{a} \\times \\hat{j})|^2+|\\hat{k} \\times(\\vec{a} \\times \\hat{k})|^2$\nis equal to"
+  },
+  "options": [
+    {
+      "text": "$17$",
+      "is_correct": false
+    },
+    {
+      "text": "$18$",
+      "is_correct": true
+    },
+    {
+      "text": "$19$",
+      "is_correct": false
+    },
+    {
+      "text": "$20$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\hat{i} \\times(\\bar{a} \\times \\hat{i})=(\\hat{i} \\cdot \\hat{i}) \\bar{a}-(\\hat{i} \\cdot \\bar{a}) \\hat{i}=\\hat{j}+2 \\hat{k}$\n$\\begin{aligned}\n& \\text { Similarly, } \\hat{j} \\times(\\bar{a} \\times \\hat{j})=2 \\hat{i}+2 \\hat{k} \\\\\n& \\hat{k} \\times(\\bar{a} \\times \\hat{k})=2 \\hat{i}+\\hat{j} \\\\\n& \\Rightarrow \\|\\hat{j}+2 \\hat{k}|^2+|2 \\hat{i}+2 \\hat{k}|^2+|2 \\hat{i}+\\hat{j}|^2 \\\\\n& =5+8+5=18\n\\end{aligned}$"
+  }
+}

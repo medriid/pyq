@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2021",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7e2daa1f081e2331f8",
+    "chapter_name": "Differentiation",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $x=\\frac{1-t^{2}}{1+t^{2}}$ and $y=\\frac{2 t}{1+t^{2}}$, then $\\frac{d y}{d x}$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$-\\frac{y}{x}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{y}{x}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{x}{y}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{x}{y}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $x=\\frac{1-t^{2}}{1+t^{2}}$ and $y=\\frac{2 t}{1+t^{2}}$\r\n\r\nPut $t=\\tan \\theta$, we get\r\n\r\n$x=\\frac{1-\\tan ^{2} \\theta}{1+\\tan ^{2} \\theta}$ and $y=\\frac{2 \\tan \\theta}{1+\\tan ^{2} \\theta}$\r\n\r\n$\\Rightarrow x=\\cos 2 \\theta$ and $y=\\sin 2 \\theta$\r\n\r\n$\\therefore \\frac{\\mathrm{dx}}{\\mathrm{d} \\theta}=-2 \\sin 2 \\theta$ and $\\frac{\\mathrm{dy}}{\\mathrm{d} \\theta}=2 \\cos 2 \\theta$\r\n\r\nNow, $\\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\frac{\\mathrm{dy}}{\\mathrm{d} \\theta} \\times \\frac{\\mathrm{d} \\theta}{\\mathrm{dx}}=-\\frac{\\cos 2 \\theta}{\\sin 2 \\theta}=-\\frac{x}{y}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2016",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7ddf871d2a6297f8ad",
+    "chapter_name": "Binomial Theorem",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the sum of odd numbered terms and the sum of even numbered terms in the expansion of $(x+a)^{n}$ are $A$ and $B$ respectively, then the value of $\\left(x^{2}-\\right.$ $\\left.a^{2}\\right)^{n}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{A}^{2}-\\mathrm{B}^{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{A}^{2}+\\mathrm{B}^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$4 \\mathrm{AB}$",
+      "is_correct": false
+    },
+    {
+      "text": "None",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\r\n\r\n\\begin{array}{r}\r\n\r\n(x+a)^{n}={ }^{n} C_{0} x^{n}+{ }^{n} C_{1} x^{n-1} a+{ }^{n} C_{2} x^{n-2} a^{2} \\\\\r\n\r\n+{ }^{n} C_{3} x^{n-3} a^{3}+{ }^{n} C_{4} x^{n-4} a^{4}+\\ldots . \\\\\r\n\r\n=\\left({ }^{n} C_{0} x^{n}+{ }^{n} C_{2} x^{n-2} a^{2}+{ }^{n} C_{4} x^{n-4} a^{4}+\\ldots .\\right)+ \\\\\r\n\r\n+\\left({ }^{n} C_{1} x^{n-1} a+{ }^{n} C_{3} x^{n-3} a^{3}+{ }^{n} C_{5} x^{n-5} a^{5}\\right)+\\ldots .\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\n$=A+B$ ....(i)\r\n\r\nSimilarly, $(x-a)^{n}=A-B$ ....(ii)\r\n\r\nMultiplying eqns. (1) and (2), we get\r\n\r\n$$\r\n\r\n\\left(\\mathrm{x}^{2}-\\mathrm{a}^{2}\\right)^{\\mathrm{n}}=\\mathrm{A}^{2}-\\mathrm{B}^{2}\r\n\r\n$$"
+  }
+}

@@ -1,37 +1,62 @@
 {
-  "_id": "66446718970e6e9ab542d023",
-  "type": "numerical",
-  "level": 1,
+  "_id": "6644673d970e6e9ab542d180",
+  "type": "singleCorrect",
+  "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "664466ee278297dee60eda6a",
+      "_id": "664466ef278297dee60eda6e",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-04-05T09:00:00.000Z",
+      "heldOn": "2024-04-08T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (05 Apr Shift 1)",
-      "title": "JEE Main 2024 (05 Apr Shift 1)"
+      "shortName": "2024 (08 Apr Shift 1)",
+      "title": "JEE Main 2024 (08 Apr Shift 1)"
     }
   ],
   "question": {
-    "text": "An ac source is connected in given series LCR circuit. The rms potential difference across the capacitor of $20 \\mu \\mathrm{F}$ is _____V.\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/bbweduVudv7rbrsD8vo4wuYQpqPtCuFWVEegZpOuZfg.original.fullsize.png\"><br>",
+    "text": "A LCR circuit is at resonance for a capacitor $C$, inductance $L$ and resistance $R$. Now the value of resistance is halved keeping all other parameters same. The current amplitude at resonance will be now:",
     "image": null
   },
-  "options": [],
-  "correctValue": "50",
+  "options": [
+    {
+      "id": "xArWy",
+      "text": "Zero",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ns4rO",
+      "text": "same",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ZTSFM",
+      "text": "halved",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7REf1",
+      "text": "double",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "$\\begin{aligned} & \\mathrm{X}_{\\mathrm{L}}=\\omega \\mathrm{L}=100 \\times 1=100 \\Omega \\\\ & \\mathrm{X}_{\\mathrm{C}}=\\frac{1}{\\omega \\mathrm{C}}=\\frac{1}{100 \\times 20 \\times 10^{-6}}=500 \\Omega \\\\ & \\mathrm{Z}=\\sqrt{\\left(\\mathrm{X}_{\\mathrm{L}}-\\mathrm{X}_{\\mathrm{C}}\\right)^2+\\mathrm{R}^2} \\\\ & \\sqrt{(100-500)^2+300^2} \\\\ & \\mathrm{Z}=500 \\Omega \\\\ & \\mathrm{i}_{\\text {rms }}=\\frac{\\mathrm{V}_{\\text {rms }}}{\\mathrm{Z}}=\\frac{50}{500}=0.1 \\mathrm{~A} \\\\ & \\text { rms voltage across capacitor } \\\\ & \\mathrm{V}_{\\text {rms }}=\\mathrm{X}_{\\mathrm{C}} \\mathrm{i}_{\\text {rms }} \\\\ & =500 \\times 0.1=50 \\mathrm{~V}\\end{aligned}$",
+    "text": "In resonance $Z=R$\n$\\begin{aligned} & \\mathrm{I}=\\frac{\\mathrm{V}}{\\mathrm{R}} \\\\ & \\mathrm{R} \\rightarrow \\text { halved } \\\\ & \\Rightarrow \\mathrm{I} \\rightarrow 2 \\mathrm{I}\\end{aligned}$\nI becomes doubled.",
     "image": null
   },
   "videoSolution": null,
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "664466ee278297dee60eda6a",
+    "_id": "664466ef278297dee60eda6e",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-04-05T09:00:00.000Z",
+    "heldOn": "2024-04-08T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (05 Apr Shift 1)",
-    "title": "JEE Main 2024 (05 Apr Shift 1)"
+    "shortName": "2024 (08 Apr Shift 1)",
+    "title": "JEE Main 2024 (08 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

@@ -1,0 +1,43 @@
+{
+  "index": 292,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2003",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2003",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\frac{d}{d x} F(x)=\\left(\\frac{e^{\\text {sinx }}}{x}\\right) x>0$. If $\\int_1^4 \\frac{3}{x} e^{\\text {sin }^3} d x=F(k)-F(1)$ then one of the possible values of $k$, is"
+  },
+  "options": [
+    {
+      "text": "\n64\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n15\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n16\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n63",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\frac{d}{d x} F(x)=\\frac{e^{\\sin x}}{x} \\text { or } \\int_1^4 \\frac{3}{x} e^{\\sin x^3} d x=\\int_1^4 \\frac{3 x^2}{x^3} e^{\\sin x^3} d x\n$$\nLet $\\mathrm{x}^3=\\mathrm{t}, 3 \\mathrm{x}^2 \\mathrm{dx}=\\mathrm{dt}$\nwhen $x=1, t=1 \\& x-4, t=64$\n$$\n\\begin{aligned}\n& \\mathrm{F}(\\mathrm{t})=\\int_1^{64} \\frac{\\mathrm{e}^{\\sin t}}{\\mathrm{t}} \\mathrm{dt}=\\int_1^{64} \\mathrm{~F}(\\mathrm{t}) \\mathrm{dt}=\\mathrm{F}(64)-\\mathrm{F}(1) \\\\\n& \\mathrm{K}=64\n\\end{aligned}\n$$"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "index": 27,
-  "type": "numerical",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (23 Jan Shift 1)",
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "${ }^1$ The standard enthalpy and standard entropy of decomposition of $\\mathrm{N}_2 \\mathrm{O}_4$ to $\\mathrm{NO}_2$ are $55.0 \\mathrm{~kJ} \\mathrm{~mol}^{-1}$ and $175.0 \\mathrm{~J} / \\mathrm{K} / \\mathrm{mol}$ respectively. The standard free energy change for this reaction at $25^{\\circ} \\mathrm{C}$ in J $\\mathrm{mol}^{-1}$ is ______ (Nearest integer)"
+    "text": "500 J of energy is transferred as heat to 0.5 mol of Argon gas at 298 K and 1.00 atm. The final temperature and the change in internal energy respectively are:\nGiven : \\(\\mathrm{R}=8.3 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}\\)"
   },
-  "options": [],
-  "correct_answer": "2850",
+  "options": [
+    {
+      "text": "378 K and 500 J",
+      "is_correct": false
+    },
+    {
+      "text": "368 K and 500 J",
+      "is_correct": false
+    },
+    {
+      "text": "348 K and 300 J",
+      "is_correct": true
+    },
+    {
+      "text": "378 K and 300 J",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
   "solution": {
-    "text": "$\\begin{aligned} & \\Delta \\mathrm{H}_{\\mathrm{rxn}}^{\\mathrm{o}}=55 \\mathrm{~kJ} / \\mathrm{mol}, \\quad \\mathrm{T}=298 \\mathrm{~K} \\\\ & \\Delta \\mathrm{~S}_{\\mathrm{rxn}}^{\\mathrm{o}}=175 \\mathrm{~J} / \\mathrm{mol} \\\\ & \\Delta \\mathrm{G}_{\\mathrm{rxn}}^{\\mathrm{o}}=\\Delta \\mathrm{H}_{\\mathrm{rxn}}^{\\mathrm{o}}-\\mathrm{T} \\Delta \\mathrm{S}_{\\mathrm{rxn}}^{\\circ} \\\\ & \\Rightarrow \\Delta \\mathrm{G}_{\\mathrm{rxn}}^{\\mathrm{o}}=55000 \\mathrm{~J} / \\mathrm{mol}-298 \\times 175 \\mathrm{~J} / \\mathrm{mol} \\\\ & \\Rightarrow \\Delta \\mathrm{G}_{\\mathrm{rxn}}^{\\mathrm{o}}=55000-52150 \\\\ & \\Rightarrow \\Delta \\mathrm{G}_{\\mathrm{rxn}}^{\\mathrm{o}}=2850 \\mathrm{~J} / \\mathrm{mol}\\end{aligned}$"
+    "text": "$\\begin{aligned} & \\mathrm{q}_{\\mathrm{p}}=\\mathrm{n} \\times \\mathrm{c}_{\\mathrm{p}} \\times \\Delta \\mathrm{T} \\\\ & \\Rightarrow 500=0.5 \\times \\frac{5}{2} \\times 8.3\\left(\\mathrm{~T}_{\\mathrm{f}}-298\\right) \\\\ & \\Rightarrow \\mathrm{T}_{\\mathrm{f}} \\simeq 346.2 \\mathrm{~K} \\\\ & \\frac{\\Delta \\mathrm{H}}{\\Delta \\mathrm{U}}=\\frac{\\mathrm{C}_{\\mathrm{p}}}{\\mathrm{C}_{\\mathrm{v}}}=\\left(\\frac{5}{3}\\right) \\\\ & \\Rightarrow \\Delta \\mathrm{U}=\\frac{3}{5} \\times 500=300 \\mathrm{~J}\\end{aligned}$"
   }
 }

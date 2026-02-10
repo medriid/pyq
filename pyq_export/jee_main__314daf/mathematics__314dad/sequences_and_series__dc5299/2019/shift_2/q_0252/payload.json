@@ -1,0 +1,43 @@
+{
+  "index": 252,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $S_{n}=1+q+q^{2}+\\ldots .+q^{n}$ and\r\n\r\n$\\mathrm{T}_{\\mathrm{n}}=1+\\left(\\frac{\\mathrm{q}+1}{2}\\right)+\\left(\\frac{\\mathrm{q}+1}{2}\\right)^{2}+\\ldots+\\left(\\frac{\\mathrm{q}+1}{2}\\right)^{\\mathrm{n}}$\r\n\r\nwhere $q$ is a real number and $q \\neq 1$. If ${ }^{101} \\mathrm{C}_{1}+{ }^{101} \\mathrm{C}_{2} \\cdot \\mathrm{S}_{1}+\\ldots .+{ }^{101} \\mathrm{C}_{101} \\cdot \\mathrm{S}_{100}=\\alpha \\mathrm{T}_{100},$ then $\\alpha$ is\r\n\r\nequal to :"
+  },
+  "options": [
+    {
+      "text": "$2^{99}$",
+      "is_correct": false
+    },
+    {
+      "text": "202",
+      "is_correct": false
+    },
+    {
+      "text": "200",
+      "is_correct": false
+    },
+    {
+      "text": "$2^{100}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$S_{n}=\\left(\\frac{1-q^{n+1}}{1-q}\\right), T_{n}=\\frac{1-\\left(\\frac{q+1}{2}\\right)^{n+1}}{1-\\left(\\frac{q+1}{2}\\right)}$\r\n\r\n$\\Rightarrow T_{100}=\\frac{1-\\left(\\frac{q+1}{2}\\right)^{101}}{1-\\left(\\frac{q+1}{2}\\right)}$\r\n\r\n$S n=\\frac{1}{1-q}-\\frac{q^{n+1}}{1-q}, T_{100}=\\frac{2^{101}-(\\mathrm{q}+1)^{101}}{2^{100}(1-\\mathrm{q})}$\r\n\r\nNow, ${ }^{101} C_{1}+{ }^{101} C_{2} S_{1}+{ }^{101} C_{3} S_{2}+\\ldots+{ }^{101} C_{101} S_{100}$\r\n\r\n$=\\left(\\frac{1}{1-q}\\right)\\left({ }^{101} C_{2}+\\ldots+{ }^{101} C_{101}\\right)$\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n& \\quad-\\frac{1}{1-q}\\left({ }^{101} C_{2} q^{2}+{ }^{101} C_{3} q^{3}+\\ldots+{ }^{101} C_{101} q^{101}\\right)+101 \\\\\r\n\r\n=& \\frac{1}{1-q}\\left(2^{101}-1-101\\right)-\\left(\\frac{1}{1-q}\\right)\\left((1+q)^{101}-1\\right.\\\\\r\n\r\n\\left.-{ }^{101} C_{1} q\\right)+101 \\\\\r\n\r\n=& \\frac{1}{1-q}\\left[2^{101}-102-(1+q)^{101}+1+101 q\\right]+101 \\\\\r\n\r\n=& \\frac{1}{1-q}\\left[2^{101}-101+101 q-(1+q)^{101}\\right]+101 \\\\\r\n\r\n=&\\left(\\frac{1}{1-q}\\right)\\left[2^{101}-(1+q)^{101}\\right]=2^{100} T_{100}\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\nHence, by comparison $\\alpha=2^{100}$"
+  }
+}

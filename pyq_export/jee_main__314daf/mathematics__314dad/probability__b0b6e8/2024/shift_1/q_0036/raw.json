@@ -1,62 +1,82 @@
 {
-  "_id": "6682bd5fba0e94a3c4025c3d",
+  "_id": "66446742970e6e9ab542d1ae",
   "type": "singleCorrect",
   "level": 2,
   "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda6e",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-08T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (08 Apr Shift 1)",
+      "title": "JEE Main 2024 (08 Apr Shift 1)"
+    }
+  ],
   "question": {
-    "text": "A bag contains <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> balls, whose colours are either white or black. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> balls are drawn at random without replacement and it was found that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> balls are white and other <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> balls are black. The probability that the bag contains equal number of white and black balls is:",
+    "text": "Let the sum of two positive integers be 24 . If the probability, that their product is not less than $\\frac{3}{4}$ times their greatest possible product, is $\\frac{m}{n}$, where $\\operatorname{gcd}(m, n)=1$, then $n-m$ equals",
     "image": null
   },
   "options": [
     {
-      "id": "PyhU4",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "KAtmv",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>7</mn></mfrac></math>",
+      "id": "W7zY3",
+      "text": "10",
       "image": null,
       "isCorrect": true
     },
     {
-      "id": "ITdWZ",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>7</mn></mfrac></math>",
+      "id": "DHHzW",
+      "text": "9",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "3GfsJ",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math>",
+      "id": "raKuf",
+      "text": "11",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "eDPhg",
+      "text": "8",
       "image": null,
       "isCorrect": false
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "<p>Total Possible cases of balls in the bag could be:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>2</mn><mi>W</mi><mo>,</mo><mn>6</mn><mi>B</mi></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>3</mn><mi>W</mi><mo>,</mo><mn>5</mn><mi>B</mi></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>4</mn><mi>W</mi><mo>,</mo><mn>4</mn><mi>B</mi></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>5</mn><mi>W</mi><mo>,</mo><mn>3</mn><mi>B</mi></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>6</mn><mi>W</mi><mo>,</mo><mn>2</mn><mi>B</mi></mrow></mfenced></math></p><p>The favourable case is to choose <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>W</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>B</mi></math> from the bag having <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>4</mn><mi>W</mi><mo>,</mo><mn>4</mn><mi>B</mi></mrow></mfenced></math></p><p>So, the required probability is given by</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mi>E</mi></mfenced><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mfrac><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts><mo>×</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts></mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts></mfrac></mstyle><mrow><mstyle displaystyle=\"true\"><mfrac><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts><mo>×</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts></mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts></mfrac></mstyle><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mo>×</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>5</mn></mmultiscripts></mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts></mfrac></mstyle><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts><mo>×</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts></mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts></mfrac></mstyle><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>5</mn></mmultiscripts><mo>×</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts></mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts></mfrac></mstyle><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><mo>×</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts></mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts></mfrac></mstyle></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>P</mi><mfenced><mi>E</mi></mfenced><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mn>6</mn><mo>×</mo><mn>6</mn></mstyle><mstyle displaystyle=\"true\"><mn>15</mn><mo>+</mo><mn>3</mn><mo>×</mo><mn>10</mn><mo>+</mo><mn>36</mn><mo>+</mo><mn>30</mn><mo>+</mo><mn>15</mn></mstyle></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>P</mi><mfenced><mi>E</mi></mfenced><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mn>36</mn></mstyle><mstyle displaystyle=\"true\"><mn>126</mn></mstyle></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>P</mi><mfenced><mi>E</mi></mfenced><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mn>2</mn></mstyle><mstyle displaystyle=\"true\"><mn>7</mn></mstyle></mfrac></math></p>",
+    "text": "$\\begin{aligned} & x+y=24, x, y \\in N \\\\ & A M>G M \\Rightarrow x y \\leq 144 \\\\ & x y \\geq 108\\end{aligned}$\nFavorable pairs of $(x, y)$ are\n$\\begin{aligned} & (13,11),(12,12),(14,10),(15,9),(16,8), \\\\ & (17,7),(18,6),(6,18),(7,17),(8,16),(9,15), \\\\ & (10,14),(11,13)\\end{aligned}$\ni.e. 13 cases<br />Total choices for $\\mathrm{x}+\\mathrm{y}=24$ is 23\n$\\begin{aligned} & \\text { Probability }=\\frac{13}{23}=\\frac{m}{n} \\\\ & n-m=10\\end{aligned}$",
     "image": null
   },
-  "videoSolution": null,
+  "videoSolution": {
+    "videoId": "bc1d1ad536af43a8871c007c687843b9",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/4DbuXDdiA3vno.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/4DbuXDdiA3vno.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
   "syllabusCategory": "noChange",
-  "previousYearPapers": [
-    {
-      "_id": "65c4c0c11d30997d3436bb06",
-      "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-02-01T09:00:00.000Z",
-      "isVisible": true,
-      "shortName": "2024 (01 Feb Shift 1)",
-      "title": "JEE Main 2024 (01 Feb Shift 1)"
-    }
-  ],
   "previousYear": {
-    "_id": "65c4c0c11d30997d3436bb06",
+    "_id": "664466ef278297dee60eda6e",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-02-01T09:00:00.000Z",
+    "heldOn": "2024-04-08T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (01 Feb Shift 1)",
-    "title": "JEE Main 2024 (01 Feb Shift 1)"
+    "shortName": "2024 (08 Apr Shift 1)",
+    "title": "JEE Main 2024 (08 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

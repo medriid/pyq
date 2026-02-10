@@ -1,0 +1,63 @@
+{
+  "_id": "67726d02c49e8ef28ee2b38c",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6414",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 1)",
+      "title": "BITSAT 2024 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "The population $p(t)$ at time $t$ of a certain mouse species satisfies the differential equation $\\frac{d p(t)}{d t}=0.5 \\mathrm{p}(\\mathrm{t})-450$. If $p(0)=850$, then the time at which the population becomes zero is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "bWa1b",
+      "text": "$2 \\ln 18$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "S9WlF",
+      "text": "$\\ln 9$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "hcmLp",
+      "text": "$\\frac{1}{2} \\ln 18$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "OvVoU",
+      "text": "$\\ln 18$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given differential equation is\n$\\frac{d p(t)}{d t}=0.5 p(t)-450$\n$\\Rightarrow \\frac{d p(t)}{d t}=\\frac{1}{2} p(t)-450$\n$\\Rightarrow \\quad \\frac{d p(t)}{d t}=\\frac{p(t)-900}{2}$\n$\\Rightarrow \\quad 2 \\frac{d p(t)}{d t}=-[900-p(t)]$\n$\\Rightarrow \\quad 2 \\frac{d p(t)}{900-p(t)}=-d t$\nIntegrate both the side, we get :\n$-2 \\int \\frac{d p(t)}{900-p(t)}=\\int d t$\nLet $900-p(t)=u \\Rightarrow-d p(t)=d u$\n$\\therefore \\quad$ We have; $2 \\int \\frac{d u}{u}=\\int d t \\Rightarrow 2 \\ln u=t+c$\n$\\Rightarrow \\quad 2 \\ln [900-p(t)]=t+c$ when $t=0, p(0)=850$\n$2 \\ln (50)=c \\quad \\Rightarrow 2\\left[\\ln \\left(\\frac{900-p(t)}{50}\\right)\\right]=t$\n$\\Rightarrow \\quad 900-p(t)=50 e^{\\frac{t}{2}}$\n$\\Rightarrow \\quad p(t)=900-50 e^{\\frac{t}{2}}$\nlet $p\\left(t_1\\right)=0$\n$0=900-50 e^{\\frac{t_1}{2}} \\quad \\therefore t_1=2 \\ln 18$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6414",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 1)",
+    "title": "BITSAT 2024 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

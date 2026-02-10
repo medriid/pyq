@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7d46f5bfc7ab78ae834",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d79",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "BITSAT 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The slope of the tangent to the curve $y=e^{x}$ cos $x$ is minimum at $x=\\alpha, 0 \\leq a \\leq 2 \\pi$, then the value of $\\alpha$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "qT5C7",
+      "text": "$\\underline{0}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "TyOBg",
+      "text": "$\\pi$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "YP4Z9",
+      "text": "$2 \\pi$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "ic0S8",
+      "text": "$3 \\pi 2$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $m$ be the slope of the tangent to the curve\r\n\r\n$y=e^{x} \\cos x$\r\n\r\nThen, $m=\\frac{d y}{d x}=e^{x}(\\cos x-\\sin x)$\r\n\r\nDiff. w.r.t 'x'\r\n\r\n$$\r\n\r\n\\begin{array}{r}\r\n\r\n\\Rightarrow \\frac{\\mathrm{dm}}{\\mathrm{dx}}=\\mathrm{e}^{\\mathrm{x}}(\\cos \\mathrm{x}-\\sin \\mathrm{x})+\\mathrm{e}^{\\mathrm{x}}(-\\sin \\mathrm{x}-\\cos \\mathrm{x}) \\\\\r\n\r\n=-2 \\mathrm{e}^{\\mathrm{x}} \\sin \\mathrm{x}\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nand $\\frac{\\mathrm{d}^{2} \\mathrm{~m}}{\\mathrm{dx}^{2}}=-2 \\mathrm{e}^{\\mathrm{x}}(\\sin \\mathrm{x}+\\cos \\mathrm{x})$\r\n\r\nPut $\\frac{\\mathrm{dm}}{\\mathrm{dx}}=0 \\Rightarrow \\sin \\mathrm{x}=0 \\Rightarrow \\mathrm{x}=0, \\pi, 2 \\pi$\r\n\r\nClearly, $\\frac{\\mathrm{d}^{2} \\mathrm{~m}}{\\mathrm{dx}^{2}}>0$ for $\\mathrm{x}=\\pi$\r\n\r\nThus, $y$ is minimum at $x=\\pi$.\r\n\r\nHence the value of $\\alpha=\\pi$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d79",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "BITSAT 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

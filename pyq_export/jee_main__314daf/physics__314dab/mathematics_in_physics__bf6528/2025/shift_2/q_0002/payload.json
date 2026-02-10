@@ -1,8 +1,8 @@
 {
   "index": 2,
-  "type": "numerical",
+  "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
+  "pyq_info": "JEE Main 2025 (8 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "A physical quantity $Q$ is related to four observables $a, b, c, d$ as follows :\n$\\mathrm{Q}=\\frac{\\mathrm{ab}{ }^4}{\\mathrm{~cd}}$\n\nwhere, $\\mathrm{a}=(60 \\pm 3) \\mathrm{Pa} ; \\mathrm{b}=(20 \\pm 0.1) \\mathrm{m} ; \\mathrm{c}=(40 \\pm 0.2) \\mathrm{Nsm}^{-2}$ and $\\mathrm{d}=(50 \\pm 0.1) \\mathrm{m}$, then the percentage error in Q is $\\frac{x}{1000}$, where $x=$ ________ ."
+    "text": "A quantity Q is formulated as $\\mathrm{X}^{-2} \\mathrm{Y}^{+\\frac{3}{2}} \\mathrm{Z}^{-\\frac{2}{5}} \\cdot \\mathrm{X}, \\mathrm{Y}$ and Z are independent parameters which have fractional errors of $0.1,0.2$ and 0.5 , respectively in measurement. The maximum fractional error of Q is"
   },
-  "options": [],
-  "correct_answer": "7700",
+  "options": [
+    {
+      "text": "0.1",
+      "is_correct": false
+    },
+    {
+      "text": "0.8",
+      "is_correct": false
+    },
+    {
+      "text": "0.7",
+      "is_correct": true
+    },
+    {
+      "text": "0.6",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
   "solution": {
-    "text": "$\\begin{aligned} & \\mathrm{Q}=\\frac{\\mathrm{ab}^4}{\\mathrm{~cd}} \\\\ & \\Rightarrow \\frac{\\Delta \\mathrm{Q}}{\\mathrm{Q}} \\times 100=\\left[\\frac{\\Delta \\mathrm{a}}{\\mathrm{a}}+4 \\frac{\\Delta \\mathrm{~b}}{\\mathrm{~b}}+\\frac{\\Delta \\mathrm{c}}{\\mathrm{c}}+\\frac{\\Delta \\mathrm{d}}{\\mathrm{d}}\\right] \\times 100 \\\\ & \\Rightarrow \\frac{\\mathrm{x}}{1000}=\\left[\\frac{3}{60}+4\\left(\\frac{0.1}{20}\\right)+\\left(\\frac{0.2}{40}\\right)+\\frac{0.1}{50}\\right] \\times 100 \\\\ & \\Rightarrow \\mathrm{x}=7700\\end{aligned}$"
+    "text": "$\\begin{aligned} & \\text { Fractional error }=2 \\frac{\\Delta X}{X}+\\frac{3}{2} \\frac{\\Delta Y}{Y}+\\frac{2}{5} \\frac{\\Delta Z}{Z} \\\\ & =2(0.1)+\\frac{3}{2}(0.2)+\\frac{2}{5}(0.5) \\\\ & =0.2+0.3+0.2=0.7\\end{aligned}$"
   }
 }

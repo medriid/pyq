@@ -1,0 +1,43 @@
+{
+  "index": 26,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The number of different 5 digit numbers greater than 50000 that can be formed using the digits 0 , $1,2,3,4,5,6,7$, such that the sum of their first and last digits should not be more than 8 , is"
+  },
+  "options": [
+    {
+      "text": "4608",
+      "is_correct": false
+    },
+    {
+      "text": "5720",
+      "is_correct": false
+    },
+    {
+      "text": "5719",
+      "is_correct": false
+    },
+    {
+      "text": "4607",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{array}{lll}\n\\text { Case I } & 5 \\ldots \\ldots & 0 \\\\\n\\text { Case II } & 5 \\ldots \\ldots & \\\\\n& 5 & 1 \\\\\n& 5 & 3 \\\\\n& 6 & 0 \\\\\n& 6 & 1 \\\\\n& 6 & 2 \\\\\n& 7 & 0 \\\\\n& 7 & 1\n\\end{array}$\n\n$9 \\times(8 \\times 8 \\times 8)=4608$ but 50000 is not included, so total numbers $4608-1=4607$"
+  }
+}

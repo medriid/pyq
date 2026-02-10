@@ -1,82 +1,62 @@
 {
-  "_id": "648b5a6f417cc3fb48d6814a",
+  "_id": "648b5a70417cc3fb48d68366",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "63f499841d196b49d9cd6b0d",
+      "_id": "648b5a3a0d9d0b909f7b648c",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2023-01-29T09:00:00.000Z",
+      "heldOn": "2023-04-06T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2023 (29 Jan Shift 1)",
-      "title": "JEE Main 2023 (29 Jan Shift 1)"
+      "shortName": "2023 (06 Apr Shift 1)",
+      "title": "JEE Main 2023 (06 Apr Shift 1)"
     }
   ],
-  "type": "singleCorrect",
-  "level": 2,
   "question": {
-    "text": "Fifteen football players of a club-team are given <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math> T-shirts with their names written on the backside. If the players pick up the T-shirts randomly, then the probability that at least <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> players pick the correct T-shirt is",
+    "text": "<p>A pair of dice is thrown <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math> times. For each throw, a total of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math> is considered a success. If the probability of at least&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>&nbsp;successes is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>k</mi><msup><mn>3</mn><mn>11</mn></msup></mfrac></math>, then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>&nbsp;is equal to</p>",
     "image": null
   },
   "options": [
     {
-      "id": "IuyIs",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>24</mn></mfrac></math>",
-      "isCorrect": false,
-      "image": null
+      "id": "ckvLs",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>82</mn></math>",
+      "image": null,
+      "isCorrect": false
     },
     {
-      "id": "m2akx",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>15</mn></mfrac></math>",
-      "isCorrect": false,
-      "image": null
+      "id": "x9Cp1",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>75</mn></math>",
+      "image": null,
+      "isCorrect": false
     },
     {
-      "id": "t9Ran",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>",
-      "isCorrect": true,
-      "image": null
+      "id": "Y5aKI",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>164</mn></math>",
+      "image": null,
+      "isCorrect": false
     },
     {
-      "id": "wiHLS",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>36</mn></mfrac></math>",
-      "isCorrect": false,
-      "image": null
+      "id": "igOJv",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>123</mn></math>",
+      "image": null,
+      "isCorrect": true
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "<p>Given,</p><p>Fifteen football players of a club-team are given <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math> T-shirts with their names written on the backside</p><p>So, total sample space will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>!</mo></math></p><p>Now for at least <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> players pick the correct T-shirt,&nbsp;</p><p>Required probability<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>-</mo><mfrac><mrow><msub><mi>D</mi><mfenced><mn>15</mn></mfenced></msub><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>15</mn></mmultiscripts><mo>&#183;</mo><msub><mi>D</mi><mfenced><mn>14</mn></mfenced></msub><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>15</mn></mmultiscripts><msub><mi>D</mi><mfenced><mn>13</mn></mfenced></msub></mrow><mrow><mn>15</mn><mo>!</mo></mrow></mfrac></math></p><p>Where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>D</mi><mi>n</mi></msub></math>&nbsp;is de-arrangement and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>D</mi><mi>n</mi></msub><mo>&#8776;</mo><mfrac><mrow><mi>n</mi><mo>!</mo></mrow><mi>e</mi></mfrac><mo>&#160;</mo><mfenced close=\"}\" open=\"{\"><mrow><mtext>where&#160;</mtext><mi>e</mi><mo>&#8776;</mo><mn>2</mn><mo>.</mo><mn>73</mn></mrow></mfenced></math></p><p>Taking <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">D</mi><mfenced><mn>15</mn></mfenced></msub></math> as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>15</mn><mtext>&#160;!&#160;</mtext></mrow><mi>e</mi></mfrac></math>,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">D</mi><mrow><mo>(</mo><mn>14</mn><mo>)</mo></mrow></msub></math>&nbsp;as&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>14</mn><mo>!</mo></mrow><mi>e</mi></mfrac></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">D</mi><mrow><mo>(</mo><mn>13</mn><mo>)</mo></mrow></msub></math>&nbsp;as&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>13</mn><mo>!</mo></mrow><mi>e</mi></mfrac></math></p><p>We get ,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mfenced><mfrac><mrow><mfrac><mrow><mn>15</mn><mo>!</mo></mrow><mi>e</mi></mfrac><mo>+</mo><mn>15</mn><mo>&#183;</mo><mfrac><mrow><mn>14</mn><mo>!</mo></mrow><mi>e</mi></mfrac><mo>+</mo><mfrac><mrow><mn>15</mn><mo>&#215;</mo><mn>14</mn></mrow><mn>2</mn></mfrac><mo>&#215;</mo><mfrac><mrow><mn>13</mn><mo>!</mo></mrow><mi>e</mi></mfrac></mrow><mrow><mn>15</mn><mo>!</mo></mrow></mfrac></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>-</mo><mfenced><mrow><mfrac><mn>1</mn><mi>e</mi></mfrac><mo>+</mo><mfrac><mn>1</mn><mi>e</mi></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>e</mi></mrow></mfrac></mrow></mfenced><mo>=</mo><mn>1</mn><mo>-</mo><mfrac><mn>5</mn><mrow><mn>2</mn><mi>e</mi></mrow></mfrac><mo>&#8776;</mo><mo>.</mo><mn>08</mn></math></p><p>Note- This question was bonus as NTA as calculated the answer as&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mmultiscripts><mi>C</mi><mn>3</mn><none></none><mprescripts></mprescripts><none></none><mn>15</mn></mmultiscripts><mo>&#215;</mo><mn>12</mn><mo>!</mo></mrow><mrow><mn>15</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></math>, they have not considered the repetation cases.</p>",
+    "text": "<blockquote><p>Given that,</p><p>A pair of dice is thrown&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;times.</p><p>Required Sample space is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mfenced><mrow><mn>1</mn><mo>,</mo><mn>1</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>1</mn><mo>,</mo><mn>2</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>1</mn><mo>,</mo><mn>3</mn></mrow></mfenced><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mrow><mn>6</mn><mo>,</mo><mn>6</mn></mrow></mfenced></mrow></mfenced></math></p><p>Total number of observations&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>36</mn></math></p><p>Now, a sum of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;is observed in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mfenced><mrow><mn>1</mn><mo>,</mo><mn>4</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>4</mn><mo>,</mo><mn>1</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>2</mn><mo>,</mo><mn>3</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>3</mn><mo>,</mo><mn>2</mn></mrow></mfenced></mrow></mfenced></math></p><p>No of favourable outcomes&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>(success)&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mfrac><mn>4</mn><mn>36</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>9</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>(failure)&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>=</mo><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>8</mn><mn>9</mn></mfrac></math></p><p>We know that for a binomial distribution,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mfenced><mrow><mi>n</mi><mo>,</mo><mi>p</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mi>X</mi><mo>=</mo><mi>k</mi></mrow></mfenced><mo>=</mo><mmultiscripts><mi>C</mi><mi>k</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><msup><mi>p</mi><mi>k</mi></msup><msup><mi>q</mi><mrow><mi>n</mi><mo>-</mo><mi>k</mi></mrow></msup></math>&nbsp;where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>&#8805;</mo><mn>0</mn></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>+</mo><mi>q</mi><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo></math>Required probability</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mfenced><mrow><mi>X</mi><mo>&#8805;</mo><mn>4</mn></mrow></mfenced><mo>=</mo><mi>P</mi><mfenced><mrow><mi>X</mi><mo>=</mo><mn>4</mn></mrow></mfenced><mo>+</mo><mi>P</mi><mfenced><mrow><mi>X</mi><mo>=</mo><mn>5</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>4</mn><none></none><mprescripts></mprescripts><none></none><mn>5</mn></mmultiscripts><msup><mfenced><mfrac><mn>1</mn><mn>9</mn></mfrac></mfenced><mn>4</mn></msup><mfrac><mn>8</mn><mn>9</mn></mfrac><mo>+</mo><mmultiscripts><mi>C</mi><mn>5</mn><none></none><mprescripts></mprescripts><none></none><mn>5</mn></mmultiscripts><msup><mfenced><mfrac><mn>1</mn><mn>9</mn></mfrac></mfenced><mn>5</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>5</mn><mo>&#183;</mo><mfrac><mn>8</mn><msup><mn>9</mn><mn>5</mn></msup></mfrac><mo>+</mo><mfrac><mn>1</mn><msup><mn>9</mn><mn>5</mn></msup></mfrac><mo>=</mo><mfrac><mn>41</mn><msup><mn>9</mn><mn>5</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>41</mn><mo>&#215;</mo><mn>3</mn></mrow><mrow><msup><mn>3</mn><mn>10</mn></msup><mo>&#215;</mo><mn>3</mn></mrow></mfrac><mo>=</mo><mfrac><mn>123</mn><msup><mn>3</mn><mn>11</mn></msup></mfrac></math></p><p>But given that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mi>X</mi><mo>&#8805;</mo><mn>4</mn></mrow></mfenced><mo>=</mo><mfrac><mi>k</mi><msup><mn>3</mn><mn>11</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mi>k</mi><msup><mn>3</mn><mn>11</mn></msup></mfrac><mo>=</mo><mfrac><mn>123</mn><msup><mn>3</mn><mn>11</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>k</mi><mo>=</mo><mn>123</mn></math></p><p>Hence, this is the correct option.</p></blockquote>",
     "image": null
   },
-  "videoSolution": {
-    "videoId": "0d61b680e3034250a7b00d219c58ac7b",
-    "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/n3Lr2CMqSQSzc.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/n3Lr2CMqSQSzc.480.jpeg",
-    "premiumModules": [
-      {
-        "premiumModuleId": "6628114842d540dfcb148ecb",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "64c7e8e829737784b294e469",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
-        "isFree": false
-      }
-    ],
-    "description": "JEE Main"
-  },
-  "questionLabels": [],
+  "videoSolution": null,
   "syllabusCategory": "outOfSyllabus",
   "previousYear": {
-    "_id": "63f499841d196b49d9cd6b0d",
+    "_id": "648b5a3a0d9d0b909f7b648c",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2023-01-29T09:00:00.000Z",
+    "heldOn": "2023-04-06T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2023 (29 Jan Shift 1)",
-    "title": "JEE Main 2023 (29 Jan Shift 1)"
+    "shortName": "2023 (06 Apr Shift 1)",
+    "title": "JEE Main 2023 (06 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

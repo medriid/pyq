@@ -1,0 +1,63 @@
+{
+  "_id": "67726d01c49e8ef28ee2b381",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6414",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 1)",
+      "title": "BITSAT 2024 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "If $y=\\tan ^{-1} \\frac{1}{x^2+x+1}+\\tan ^{-1} \\frac{1}{x^2+3 x+3}$\n$+\\tan ^{-1} \\frac{1}{x^2+5 x+7}+\\ldots$.to $n$ terms, then $\\frac{d y}{d x}=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "AgPIL",
+      "text": "$\\frac{1}{x^2+n^2}-\\frac{1}{x^2+1}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "xG4wH",
+      "text": "$\\frac{1}{(x+n)^2+1}-\\frac{1}{x^2+1}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "uFyes",
+      "text": "$\\frac{1}{x^2+(n+1)^2}-\\frac{1}{x^2+1}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "vfXfo",
+      "text": "None of these",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $y=\\tan ^{-1} \\frac{1}{x^2+x+1}$\n$+\\tan ^{-1} \\frac{1}{x^2+3 x+3}+\\tan ^{-1} \\frac{1}{x^2+5 x+7}+\\cdots \\cdot$\nto $n$ terms\n$=\\tan ^{-1}\\left\\{\\frac{1}{1+x(x+1)}\\right\\}+\\tan ^{-1}\\left\\{\\frac{1}{1+(x+1)(x+2)}\\right\\}$\n$+\\tan ^{-1}\\left\\{\\frac{1}{1+(x+2)(x+3)}\\right\\}$\n$+\\ldots \\ldots \\ldots+\\tan ^{-1}\\left\\{\\frac{1}{1+(x+(n-1))(x+n)}\\right\\}$\n$=\\tan ^{-1}\\left\\{\\frac{(x+1)-x}{1+(x+1) x}\\right\\}$\n$+\\tan ^{-1}\\left\\{\\frac{(x+2)-(x+1)}{1+(x+2)(x+1)}\\right\\}$\n$+\\tan ^{-1}\\left\\{\\frac{(x+3)-(x+2)}{1+(x+3)(x+2)}\\right\\}$\n$+\\ldots .+\\tan ^{-1}\\left(\\frac{(x+n)-(x+n-1)}{1+(x+n)(x+n-1)}\\right)$\n$\\therefore y=\\left\\{\\tan ^{-1}(x+1)-\\tan ^{-1}(x)\\right\\}$\n$+\\left\\{\\tan ^{-1}(x+2)-\\tan ^{-1}(x+1)\\right\\}$\n$+\\left\\{\\tan ^{-1}(x+3)-\\tan ^{-1}(x+2)\\right\\}$\n$+\\ldots \\ldots . .+\\left\\{\\tan ^{-1}(x+n)-\\tan ^{-1}[x+(n-1)]\\right\\}$\nSo, $\\quad y=\\tan ^{-1}(x+n)-\\tan ^{-1}(x)$\nOn differentiating both sides w.r.t. $x$, we get\n$\\frac{d y}{d x}=\\frac{1}{1+(x+n)^2}-\\frac{1}{1+x^2}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6414",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 1)",
+    "title": "BITSAT 2024 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

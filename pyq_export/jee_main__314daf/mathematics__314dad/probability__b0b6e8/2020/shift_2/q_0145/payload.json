@@ -1,8 +1,8 @@
 {
   "index": 145,
-  "type": "singleCorrect",
+  "type": "numerical",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2020 (09 Jan Shift 2)",
+  "pyq_info": "JEE Main 2020 (05 Sep Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "If <math><mn>10</mn></math> different balls are to be placed in <math><mn>4</mn></math> distinct boxes at random, then the probability that two of these boxes contain exactly <math><mn>2</mn></math> and <math><mn>3</mn></math> balls is:"
+    "text": "In a bombing attack, there is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>%</mo></math> chance that a bomb will hit the target. At least two independent hits are required to destroy the target completely. Then the minimum number of bombs, that must be dropped to ensure that there is at least <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>99</mn><mo>%</mo></math> chance of completely destroying the target, is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo></math>"
   },
-  "options": [
-    {
-      "text": "<math><mfrac><mrow><mn>965</mn></mrow><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>11</mn></mrow></msup></mrow></mfrac></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math><mfrac><mrow><mn>965</mn></mrow><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>10</mn></mrow></msup></mrow></mfrac></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math><mfrac><mrow><mn>945</mn></mrow><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>10</mn></mrow></msup></mrow></mfrac></math>",
-      "is_correct": true
-    },
-    {
-      "text": "<math><mfrac><mrow><mn>945</mn></mrow><mrow><msup><mrow><mn>2</mn></mrow><mrow><mn>11</mn></mrow></msup></mrow></mfrac></math>",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "C"
-  ],
+  "options": [],
+  "correct_answer": "11",
   "solution": {
-    "text": "<p>Total number of ways in which 10 balls can be placed in 4 boxes =<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>&#215;</mo><mn>4</mn><mo>&#215;</mo><mn>4</mn><mo>&#215;</mo><mn>4</mn><mo>&#215;</mo><mn>4</mn><mo>&#215;</mo><mn>4</mn><mo>&#215;</mo><mn>4</mn><mo>&#215;</mo><mn>4</mn><mo>&#215;</mo><mn>4</mn><mo>&#215;</mo><mn>4</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mn>4</mn><mn>10</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mn>2</mn><mn>20</mn></msup></math></p><p>&nbsp;Exactly two box contain <math><mn>2</mn><mo>,</mo><mi></mi><mn>3</mn></math> balls&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>10</mn></mmultiscripts><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>3</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts><mo>&#215;</mo><msup><mn>2</mn><mn>5</mn></msup></math></p><p>Probability&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>4</mn></mmultiscripts><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>10</mn></mmultiscripts><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts><mo>&#215;</mo><msup><mn>2</mn><mn>5</mn></msup></mrow><msup><mn>2</mn><mn>20</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>945</mn><msup><mn>2</mn><mn>10</mn></msup></mfrac></math></p>"
+    "text": "<p>let probability of hitting the target <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi mathvariant=\"normal\">p</mi><mo>&#8658;</mo><mi mathvariant=\"normal\">p</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math></p><p>Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> be the minimum number of bombs</p><p>According to given condition<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mfenced><mrow><mmultiscripts><mi>C</mi><mn>0</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><msup><mi>P</mi><mn>0</mn></msup><mo>(</mo><mn>1</mn><mo>-</mo><mi>P</mi><msup><mo>)</mo><mi>n</mi></msup><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><msup><mi>P</mi><mn>1</mn></msup><mo>(</mo><mn>1</mn><mo>-</mo><mi>P</mi><msup><mo>)</mo><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow></mfenced><mo>&#8805;</mo><mfrac><mn>99</mn><mn>100</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;&#160;</mo><msup><mn>2</mn><mi>n</mi></msup><mo>&#8805;</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mn>100</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnalign=\"left\"><mtr><mtd><mi>n</mi><mo>=</mo><mn>10</mn></mtd><mtd><mo>&#8658;</mo></mtd><mtd><msup><mn>2</mn><mn>10</mn></msup><mo>&#8805;</mo><mn>1100</mn><mtext>&#160;Reject&#160;</mtext></mtd></mtr><mtr><mtd><mi>n</mi><mo>=</mo><mn>11</mn></mtd><mtd><mo>&#8658;</mo></mtd><mtd><msup><mn>2</mn><mn>11</mn></msup><mo>&#8805;</mo><mn>1200</mn><mtext>&#160;Select&#160;</mtext></mtd></mtr></mtable></math></p>"
   }
 }

@@ -1,0 +1,43 @@
+{
+  "index": 172,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602555685234356f221f74",
+    "chapter_name": "Functions",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The number of functions $f$ from $\\{1,2,3, \\ldots, 20\\}$ onto $\\{1,2,3, \\ldots, 20\\}$ such that $f(k)$ is a multiple of $3,$ whenever $k$ is a multiple of 4 is:"
+  },
+  "options": [
+    {
+      "text": "$6^{5} \\times(15) !$",
+      "is_correct": false
+    },
+    {
+      "text": "$5 ! \\times 6 !$",
+      "is_correct": false
+    },
+    {
+      "text": "$(15) ! \\times 6 !$",
+      "is_correct": true
+    },
+    {
+      "text": "$5^{6} \\times 15$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Domain and codomain $=\\{1,2,3, \\ldots, 20\\}$.\r\n\r\nThere are five multiple of 4 as 4,8,12,16 and 20 .\r\n\r\nand there are 6 multiple of 3 as 3,6,9,12,15,18 .\r\n\r\nSince, when ever $k$ is multiple of 4 then $f(k)$ is multiple of 3\r\n\r\nthen total number of arrangement\r\n\r\n$={ }^{6} c_{5} \\times 5 !=6 !$\r\n\r\nRemaining 15 elements can be arranged in $15 !$ ways.\r\n\r\nSince, for every input, there is an output\r\n\r\n$\\Rightarrow$ function $f(k)$ in onto\r\n\r\n$\\therefore \\quad$ Total number of arrangement $=15 ! .6 !$"
+  }
+}

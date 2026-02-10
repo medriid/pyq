@@ -1,0 +1,43 @@
+{
+  "index": 204,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The curve satisfying the differential equation, $\\left(x^2-y^2\\right) d x+2 x y d y=0$ and passing through the point $(1,1)$ is"
+  },
+  "options": [
+    {
+      "text": "\na circle of radius two\n",
+      "is_correct": false
+    },
+    {
+      "text": "\na circle of radius one\n",
+      "is_correct": true
+    },
+    {
+      "text": "\na hyperbola\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nan ellipse",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\left(x^2-y^2\\right) d x+2 x y d y=0$\n$$\n\\Rightarrow \\frac{d y}{d x}=\\frac{y^2-x^2}{2 x y}\n$$\nLet $y=v x$\n$$\n\\begin{aligned}\n& \\frac{d y}{d x}=v+x \\frac{d v}{d x} \\\\\n\\Rightarrow & v+x \\frac{d v}{d x}=\\frac{v^2 x^2-x^2}{2 v x^2} \\\\\n\\Rightarrow & v+x \\frac{d v}{d x}=\\frac{v^2-1}{2 v} \\\\\n\\Rightarrow & x \\frac{d v}{d x}=\\frac{-v^2-1}{2 v} \\\\\n\\Rightarrow & \\frac{2 v d v}{v^2+1}=-\\frac{d x}{x}\n\\end{aligned}\n$$\nAfter integrating, we get\n$$\n\\begin{aligned}\n&\\ln \\left|v^2+1\\right|=-\\ln |x|+\\ln c \\\\\n&\\frac{y^2}{x^2}+1=\\frac{c}{x}\n\\end{aligned}\n$$\nAs curve passes through the point $(1,1)$, so $1+1=c \\Rightarrow c=2$\n$x^2+y^2-2 x=0$, which is a circle of radius one."
+  }
+}

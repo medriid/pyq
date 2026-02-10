@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7d36f5bfc7ab78ae82c",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d79",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "BITSAT 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The arithmetic mean of the data $0,1,2, \\ldots \\ldots, n$ with frequencies $1,{ }^{4} \\mathrm{C}_{1}{ }^{4} \\mathrm{C}_{2}, \\ldots . .,{ }^{\\infty} \\mathrm{C}_{\\mathrm{a}}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "V6F2d",
+      "text": "$\\mathrm{n}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "TwBOY",
+      "text": "$\\frac{2^{n}}{n}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "bLH8Y",
+      "text": "$\\mathrm{n}+1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Q8F5p",
+      "text": "$\\frac{\\mathrm{n}}{2}$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Since, Mean $=\\frac{\\sum \\mathrm{f}_{\\mathrm{i}} \\mathrm{x}_{\\mathrm{i}}}{\\sum \\mathrm{f}_{\\mathrm{i}}}$ where $\\mathrm{x}_{\\mathrm{i}}$ are\r\n\r\nobservations with frequencies $\\mathrm{f}_{\\mathrm{i}}, \\mathrm{i}=1,2,$ $\\ldots \\ldots \\ldots$\r\n\r\nThe required mean is given by\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n\\overline{\\mathrm{X}} &=\\frac{0.1+1 .{ }^{\\mathrm{n}} \\mathrm{C}_{1}+2{ }^{\\mathrm{n}} \\mathrm{C}_{2}+\\ldots \\ldots+\\mathrm{n} .{ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{n}}}{1+{ }^{\\mathrm{n}} \\mathrm{C}_{1}+{ }^{\\mathrm{n}} \\mathrm{C}_{2}+\\ldots+{ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{n}}} \\\\\r\n\r\n=& \\frac{\\sum_{\\mathrm{r}=0}^{\\mathrm{n}} \\mathrm{r}^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{r}}}{\\sum_{\\mathrm{r}=0}^{\\mathrm{n}}{ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{r}}}=\\frac{\\sum_{\\mathrm{r}=1}^{\\mathrm{n}} \\mathrm{r} \\cdot \\frac{\\mathrm{n}}{\\mathrm{r}}{ }^{\\mathrm{n}-1} \\mathrm{C}_{\\mathrm{r}-1}}{\\sum_{\\mathrm{r}=0}^{\\mathrm{n}}{ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{r}}} \\\\\r\n\r\n=& \\frac{\\mathrm{n} \\sum{\\sum}^{\\mathrm{n}-1} \\mathrm{C}_{\\mathrm{r}-1}}{\\sum_{\\mathrm{r}=0}^{\\mathrm{n}}{ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{r}}}=\\frac{\\mathrm{n} .2^{\\mathrm{n}-1}}{2^{\\mathrm{n}}}=\\frac{\\mathrm{n}}{2}\r\n\r\n\\end{aligned}\r\n\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d79",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "BITSAT 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

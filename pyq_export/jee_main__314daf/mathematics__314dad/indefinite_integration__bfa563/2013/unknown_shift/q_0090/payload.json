@@ -1,0 +1,43 @@
+{
+  "index": 90,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (23 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The integral $\\int \\frac{x d x}{2-x^2+\\sqrt{2-x^2}}$ equals :"
+  },
+  "options": [
+    {
+      "text": "\n$\\log \\left|1+\\sqrt{2+x^2}\\right|+c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-\\log \\left|1+\\sqrt{2-x^2}\\right|+c$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$-x \\log \\left|1-\\sqrt{2-x^2}\\right|+c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x \\log \\left|1-\\sqrt{2+x^2}\\right|+c$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\quad \\mathrm{I}=\\int \\frac{x d x}{2-x^2+\\sqrt{2-x^2}}$\n$$\n\\begin{aligned}\n& \\text { Put } t=\\sqrt{2-x^2}, \\frac{d t}{d x}=\\frac{1}{2 \\sqrt{2-x^2}} \\cdot(-2 x) \\\\\n& \\begin{aligned}\n& \\Rightarrow-t d t=x d x \\\\\n& \\therefore \\\\\n& \\mathrm{I}=\\int \\frac{(-t) d t}{t^2+t}=-\\int \\frac{1}{t+1} d t=-\\log |t+1| \\\\\n&=-\\log \\left|\\sqrt{2-x^2}+1\\right|+c\n\\end{aligned}\n\\end{aligned}\n$$"
+  }
+}

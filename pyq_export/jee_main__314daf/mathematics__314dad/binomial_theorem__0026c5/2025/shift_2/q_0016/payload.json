@@ -1,8 +1,8 @@
 {
   "index": 16,
-  "type": "singleCorrect",
+  "type": "numerical",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (24 Jan Shift 2)",
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Suppose A and B are the coefficients of $30^{\\text {th }}$ and $12^{\\text {th }}$ terms respectively in the binomial expansion of $(1+x)^{2 \\mathrm{n}-1}$. If $2 \\mathrm{~A}=5 \\mathrm{~B}$, then n is equal to :"
+    "text": "Let $\\left(1+x+x^2\\right)^{10}=a_0+a_1 x+a_2 x^2+\\ldots .+a_{20} x^{20}$. If $\\left(a_1+a_3+a_5+\\ldots .+a_{19}\\right)-11 \\mathrm{a}_2=121 \\mathrm{k}$, then k is equal to $\\qquad$ ."
   },
-  "options": [
-    {
-      "text": "22",
-      "is_correct": false
-    },
-    {
-      "text": "20",
-      "is_correct": false
-    },
-    {
-      "text": "21",
-      "is_correct": true
-    },
-    {
-      "text": "19",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "C"
-  ],
+  "options": [],
+  "correct_answer": "239",
   "solution": {
-    "text": "$\\begin{aligned} & \\mathrm{A}={ }^{2 \\mathrm{n}-1} \\mathrm{C}_{29} \\quad \\mathrm{~B}={ }^{2 \\mathrm{n}-1} \\mathrm{C}_{11} \\\\ & 2^{2 \\mathrm{n}-1} \\mathrm{C}_{29}=5{ }^{2 \\mathrm{n}-1} \\mathrm{C}_{11} \\\\ & 2 \\frac{(2 \\mathrm{n}-1)!}{29!(2 \\mathrm{n}-30)!}=5 \\frac{(2 \\mathrm{n}-1)!}{(2 \\mathrm{n}-12)!11!} \\\\ & \\frac{1}{29 \\ldots 12 \\cdot 5}=\\frac{1}{(2 \\mathrm{n}-12)(2 \\mathrm{n}-13) \\ldots(2 \\mathrm{n}-29) 2} \\\\ & \\frac{1}{30 \\cdot 29 \\ldots 12}=\\frac{1}{(2 \\mathrm{n}-12)(2 \\mathrm{n}-13) \\ldots(2 \\mathrm{n}-29) 12} \\\\ & 2 \\mathrm{n}-12=30 \\\\ & \\mathrm{n}=21\\end{aligned}$"
+    "text": "$\\left(1+x+x^2\\right)^{10}=a_0+a_1 x+a_2 x^2+\\ldots .+a_{20} x^{20}$\n$\\therefore 3^{10}=\\mathrm{a}_0+\\mathrm{a}_1+\\mathrm{a}_2+\\ldots .+\\mathrm{a}_{20}$   ...(i)\n$1=a_0-a_1+a_2 \\ldots . .+a_{20}$   ...(ii)\n$\\text { (i) - (ii) } \\Rightarrow a_1+a_3+\\ldots .+a_{19}=\\frac{3^{10}-1}{2}=29524$\n$\\begin{aligned}\n\\text { Also }\\{ & 1+\\mathrm{x}(1+\\mathrm{x})\\}^{10}=1 \\\\\n& +{ }^{10} \\mathrm{C}_1 \\mathrm{x}(1+\\mathrm{x})+{ }^{10} \\mathrm{C}_2 \\mathrm{x}^2(1+\\mathrm{x})^2+\\ldots .\n\\end{aligned}$\n$\\therefore \\mathrm{a}_2={ }^{10} \\mathrm{C}_1+{ }^{10} \\mathrm{C}_2=55$\n$\\therefore \\frac{\\left(\\mathrm{a}_1+\\mathrm{a}_3+\\ldots+\\mathrm{a}_{19}\\right)-11 \\mathrm{a}_2}{121}=239$"
   }
 }

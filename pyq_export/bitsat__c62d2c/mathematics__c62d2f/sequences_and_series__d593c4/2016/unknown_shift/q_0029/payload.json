@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2016",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cb79820319dd593c4",
+    "chapter_name": "Sequences and Series",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\left(x+\\frac{1}{x}\\right)^{2}+\\left(x^{2}+\\frac{1}{x^{2}}\\right)^{2}+$\r\n\r\n$\\left(x^{3}+\\frac{1}{x^{3}}\\right)^{2} \\quad \\ldots .$ upto $n$ terms is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{x^{2 n}-1}{x^{2}-1} \\times \\frac{x^{2 n+2}+1}{x^{2 n}}+2 n$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{x^{2 n}+1}{x^{2}+1} \\times \\frac{x^{2 n+2}-1}{x^{2 n}}-2 n$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{x^{2 n}-1}{x^{2}-1} \\times \\frac{x^{2 n}-1}{x^{2 n}}-2 n$",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "The series is\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\left(x^{2}+x^{4}+x^{6}+\\ldots\\right)+\\left(\\frac{1}{x^{2}}+\\frac{1}{x^{4}}+\\frac{1}{x^{6}}+\\ldots\\right) \\\\\r\n\r\n+(2+2+\\ldots . .) \\\\\r\n\r\n=\\frac{x^{2}\\left(x^{2 n}-1\\right)}{x^{2}-1}+\\frac{\\frac{1}{x^{2}}\\left(1-\\frac{1}{x^{2 n}}\\right)}{1-\\frac{1}{x^{2}}}+2 n \\\\\r\n\r\n=\\frac{x^{2}\\left(x^{2 n}-1\\right)}{x^{2}-1}+\\frac{x^{2 n}-1}{\\left(x^{2}-1\\right) x^{2 n}}+2 n \\\\\r\n\r\n=\\frac{x^{2 n}-1}{x^{2}-1} \\times \\frac{x^{2 n+2}+1}{x^{2 n}}+2 n\r\n\r\n\\end{array}\r\n\r\n$$"
+  }
+}

@@ -1,62 +1,57 @@
 {
-  "_id": "66446727970e6e9ab542d0ad",
-  "type": "singleCorrect",
-  "level": 3,
+  "_id": "66446762970e6e9ab542d2d5",
+  "type": "numerical",
+  "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "664466ee278297dee60eda6b",
+      "_id": "664466ef278297dee60eda71",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-04-05T14:00:00.000Z",
+      "heldOn": "2024-04-09T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (05 Apr Shift 2)",
-      "title": "JEE Main 2024 (05 Apr Shift 2)"
+      "shortName": "2024 (09 Apr Shift 2)",
+      "title": "JEE Main 2024 (09 Apr Shift 2)"
     }
   ],
   "question": {
-    "text": "Let $f, g: \\mathbf{R} \\rightarrow \\mathbf{R}$ be defined as :\n$f(x)=|x-1| \\text { and } g(x)= \\begin{cases}\\mathrm{e}^x, \\text { MARA } & x \\geq 0 \\\\ x+1, & x \\leq 0\\end{cases}$<br />Then the function $f(g(x))$ is",
+    "text": "For a differentiable function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$, suppose $f^{\\prime}(x)=3 f(x)+\\alpha$, where $\\alpha \\in \\mathbb{R}$, $f(0)=1$ and $\\lim _{x \\rightarrow-\\infty} f(x)=7$. Then $9 f\\left(-\\log _{\\mathrm{e}} 3\\right)$ is equal to_________",
     "image": null
   },
-  "options": [
-    {
-      "id": "FWk9b",
-      "text": "neither one-one nor onto.",
-      "image": null,
-      "isCorrect": true
-    },
-    {
-      "id": "CNPYv",
-      "text": "one-one but not onto.",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "5aiDp",
-      "text": "onto but not one-one.",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "LeIqW",
-      "text": "both one-one and onto.",
-      "image": null,
-      "isCorrect": false
-    }
-  ],
-  "correctValue": null,
+  "options": [],
+  "correctValue": "61",
   "solution": {
-    "text": "$\\begin{aligned} & f(g(x))=|g(x)-1| \\\\ & f o g\\left[\\begin{array}{cc}\\left|e^x-1\\right| & x \\geq 0 \\\\ |x+1-1| & x \\leq 0\\end{array}\\right. \\\\ & \\text { fog }\\left[\\begin{array}{cc}e^x-1 & x \\geq 0 \\\\ -x & x \\leq 0\\end{array}\\right.\\end{aligned}$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/67p2RyqwuBcCWXIdB0onTLLxuNdUcOlhh0fAx3hYHzc.original.fullsize.png\"><br>",
+    "text": "$\\begin{aligned} & \\frac{d y}{d x}-3 y=\\alpha \\\\ & \\text { If }=e^{\\int-3 d x}=e^{-3 x} \\\\ & \\therefore \\quad y-e^{-3 x}=\\int e^{-3 x} \\cdot \\alpha d x \\\\ & y e^{-3 x}=\\frac{\\alpha e^{-3 x}}{-3}+c \\\\ & \\left(* e^{3 x}\\right) \\\\ & y=\\frac{\\alpha}{-3}+C \\cdot e^{3 x}\\end{aligned}$\non substituting $\\mathrm{x}=0, \\mathrm{y}=1$\n$x \\rightarrow-\\infty, y=7$\nwe get $y=7-6 e^{3 x}$\n$9 f\\left(-\\log _e 3\\right)=61$",
     "image": null
   },
-  "videoSolution": null,
+  "videoSolution": {
+    "videoId": "3c57b44b279a4bfe9bb32074054d9529",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/x0KTL03junShs.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/x0KTL03junShs.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "664466ee278297dee60eda6b",
+    "_id": "664466ef278297dee60eda71",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-04-05T14:00:00.000Z",
+    "heldOn": "2024-04-09T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (05 Apr Shift 2)",
-    "title": "JEE Main 2024 (05 Apr Shift 2)"
+    "shortName": "2024 (09 Apr Shift 2)",
+    "title": "JEE Main 2024 (09 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

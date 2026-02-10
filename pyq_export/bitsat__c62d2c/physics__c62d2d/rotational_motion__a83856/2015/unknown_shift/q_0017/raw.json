@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7c86f5bfc7ab78ae7d9",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d79",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "BITSAT 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "A square gate of size $1 \\mathrm{~m} \\times 1 \\mathrm{~m}$ is hinged at its mid-point. A fluid of density $\\rho$ fills the space to the left of the gate. The force F required to hold the gate stationary is\r\n\r\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/bitsat/XVQ6n8l4hIPD-N4kpGu5JUES9xX1RTV_u98VibumF5s.original.fullsize.png\">",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "vly7j",
+      "text": "$\\frac{\\rho g}{3}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Hng39",
+      "text": "$\\frac{\\rho g}{2}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "q3AIq",
+      "text": "$\\frac{\\rho g}{6}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "2aNVG",
+      "text": "$\\frac{\\rho g}{8}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "The net force acting on the gate element of width dy at a depth y from the surface of the fluid, is\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n\\mathrm{dy} &=\\left(\\mathrm{p}_{0}+\\rho_{\\mathrm{g}} \\mathrm{y}-\\mathrm{p}_{0}\\right) \\times 1 \\mathrm{dy} \\\\\r\n\r\n&=\\rho \\mathrm{gydy}\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\nTorque about the hinge is\r\n\r\n$$\r\n\r\n\\mathrm{d} \\tau=\\operatorname{pgydy} \\times\\left(\\frac{1}{2}-\\mathrm{y}\\right)\r\n\r\n$$\r\n\r\nNet torque experience. by the gate is\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n\\tau_{\\text {net }} &=\\int \\mathrm{d} \\tau+\\mathrm{F} \\times \\frac{1}{2} \\\\\r\n\r\n&=\\int_{0}^{1} \\rho g \\mathrm{ydy}\\left(\\frac{1}{2}-\\mathrm{y}\\right)+\\mathrm{F} \\times \\frac{1}{2}=0 \\\\\r\n\r\n\\Rightarrow & \\mathrm{F}=\\frac{\\rho \\mathrm{g}}{6}\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\ni.e., The force $F$ required to hold the gate\r\n\r\nstationary is $\\frac{p g}{a}$\r\n\r\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/bitsat/e9c12zlBUuQI3hCrHSf5mHlJePI2pdgm1s0nk4-zrfE.original.fullsize.png\">",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d79",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "BITSAT 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

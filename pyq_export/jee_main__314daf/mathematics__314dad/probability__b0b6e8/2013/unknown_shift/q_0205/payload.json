@@ -1,0 +1,43 @@
+{
+  "index": 205,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (23 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\mathrm{A}, \\mathrm{B}, \\mathrm{C}$ try to hit a target simultaneously but independently. Their respective probabilities of hitting the targets are $\\frac{3}{4}, \\frac{1}{2}, \\frac{5}{8}$. The probability that the target is hit by A or B but not by $\\mathrm{C}$ is :"
+  },
+  "options": [
+    {
+      "text": "\n$21 / 64$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$7 / 8$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$7 / 32$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$9 / 64$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\mathrm{P}(\\mathrm{A}$ or $\\mathrm{B}$ but not by $\\mathrm{C})=\\mathrm{P}((\\mathrm{A} \\cup \\mathrm{B}) \\cap \\overline{\\mathrm{C}})$\n$$\n\\begin{aligned}\n& =\\mathrm{P}(\\mathrm{A} \\cup \\mathrm{B}) \\times \\mathrm{P}(\\overline{\\mathrm{C}}) \\\\\n& =[\\mathrm{P}(\\mathrm{A})+\\mathrm{P}(\\mathrm{B})-\\mathrm{P}(\\mathrm{A} \\cap \\mathrm{B})] \\times \\mathrm{P}(\\overline{\\mathrm{C}}) \\\\\n& = \\\\\n& {\\left[\\frac{3}{4}+\\frac{1}{2}-\\frac{3}{4} \\times \\frac{1}{2}\\right] \\times \\frac{3}{8}=\\left(\\frac{6+4-3}{8}\\right) \\times \\frac{3}{8}=\\frac{21}{64}}\n\\end{aligned}\n$$"
+  }
+}

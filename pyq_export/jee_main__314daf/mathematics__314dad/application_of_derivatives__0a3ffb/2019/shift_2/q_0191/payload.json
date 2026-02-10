@@ -1,0 +1,43 @@
+{
+  "index": 191,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $f(x)=\\frac{x}{\\sqrt{a^{2}+x^{2}}}-\\frac{d-x}{\\sqrt{b^{2}+(d-x)^{2}}}, x \\in \\mathbb{R}$ wherea, b\r\n\r\nand d are non-zero real constants. Then :"
+  },
+  "options": [
+    {
+      "text": "$f$ is an increasing function of $x$",
+      "is_correct": true
+    },
+    {
+      "text": "$f$ is a decreasing function of $x$",
+      "is_correct": false
+    },
+    {
+      "text": "$f^{\\prime}$ is not a continuous function of $x$",
+      "is_correct": false
+    },
+    {
+      "text": "$f$ is neither increasing nor decreasing function of $x$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$f(x)=\\frac{x}{\\sqrt{a^{2}+x^{2}}}-\\frac{(d-x)}{\\sqrt{b^{2}+(d-x)^{2}}}$\r\n\r\n$=\\frac{x}{\\sqrt{a^{2}+x^{2}}}+\\frac{(x-d)}{\\sqrt{b^{2}+(x-d)^{2}}}$\r\n\r\n$\\begin{array}{l}\r\n\r\nf^{\\prime}(x)=\\frac{\\sqrt{a^{2}+x^{2}}-\\frac{x(2 x)}{2 \\sqrt{a^{2}+x^{2}}}}{\\left(a^{2}+x^{2}\\right)} \\\\\r\n\r\n=\\frac{a^{2}+x^{2}-x^{2}}{\\left(a^{2}+x^{2}\\right)^{3 / 2}}+\\frac{b^{2}+(x-d)^{2}-(x-d)^{2}}{\\left(b^{2}+(x-d)^{2}\\right)^{3 / 2}} \\\\\r\n\r\n+\\frac{\\sqrt{b^{2}+(x-d)^{2}}-\\frac{(x-d) 2(x-d)}{2 \\sqrt{b^{2}+(x-d)^{2}}}}{\\left(a^{2}+(x-d)^{2}\\right)} \\\\\r\n\r\n\\Rightarrow f^{\\prime}(x)>0, \\square x \\in R\r\n\r\n\\end{array}$\r\n\r\n$\\Rightarrow f(x)$ is increasing function.\r\n\r\nHence, $f(x)$ is increasing function"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65c51",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7d3",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-22T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (22 Apr Online)",
+      "title": "JEE Main 2013 (22 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "If $\\int \\frac{x^2-x+1}{x^2+1} e^{\\cot ^{-1} x} d x=A(x) e^{\\cot ^{-1} x}+C$, then $A(x)$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "yzrSb",
+      "text": "\n$-x$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "htNBM",
+      "text": "\n$x$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "wB5J5",
+      "text": "\n$\\sqrt{1-x}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "gxfkp",
+      "text": "\n$\\sqrt{1+x}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $\\mathrm{I}=\\int \\frac{x^2-x+1}{x^2+1} \\cdot e^{\\cot ^{-1} x} d x$\nPut $x=\\cot t \\Rightarrow-\\operatorname{cosec}^2 t d t=d x$\nNow, $1+\\cot ^2 t=\\operatorname{cosec}^2 t$\n$\\therefore$\n$\\mathrm{I}=\\int \\frac{e^t\\left(\\cot ^2 t-\\cot t+1\\right)}{\\left(1+\\cot ^2 t\\right)}\\left(-\\operatorname{cosec}^2 t\\right) d t$\n\n$$\n\\begin{aligned}\n& =-\\int e^t\\left(\\operatorname{cosec}{ }^2 t-\\cot t\\right) d t \\\\\n& =\\int e^t\\left(\\cot t-\\operatorname{cosec}^2 t\\right) d t \\\\\n& =e^t \\cot t+\\mathrm{C} \\\\\n& =e^{\\cot ^{-1} x}(x)+\\mathrm{C} \\equiv \\mathrm{A}(x) \\cdot e^{\\cot ^{-1} x}+\\mathrm{C} \\\\\n\\Rightarrow \\mathrm{A}(x) & =x\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7d3",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-22T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (22 Apr Online)",
+    "title": "JEE Main 2013 (22 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

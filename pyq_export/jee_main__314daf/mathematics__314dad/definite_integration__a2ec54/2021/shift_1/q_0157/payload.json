@@ -1,0 +1,43 @@
+{
+  "index": 157,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2021 (27 Aug Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2021",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>U</mi><mi>n</mi></msub><mo>=</mo><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><msup><mi>n</mi><mn>2</mn></msup></mfrac></mrow></mfenced><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><msup><mn>2</mn><mn>2</mn></msup><msup><mi>n</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mn>2</mn></msup><mo>&#8230;</mo><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><msup><mi>n</mi><mn>2</mn></msup><msup><mi>n</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mi>n</mi></msup><mo>,</mo></math>&nbsp;then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><msup><mfenced><msub><mi>U</mi><mi>n</mi></msub></mfenced><mfrac><mrow><mo>-</mo><mn>4</mn></mrow><msup><mi>n</mi><mn>2</mn></msup></mfrac></msup></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>16</mn><msup><mi>e</mi><mn>2</mn></msup></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mi>e</mi></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><msup><mi>e</mi><mn>2</mn></msup></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>e</mi><mn>2</mn></msup><mn>16</mn></mfrac></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>U</mi><mi>n</mi></msub><mo>=</mo><munderover><mo>&#8719;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><msup><mi>r</mi><mn>2</mn></msup><msup><mi>n</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mi>r</mi></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><msup><mfenced><msub><mi>U</mi><mi>n</mi></msub></mfenced><mfrac bevelled=\"true\"><mrow><mo>-</mo><mn>4</mn></mrow><msup><mi>n</mi><mn>2</mn></msup></mfrac></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><mi>L</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mfrac><mrow><mo>-</mo><mn>4</mn></mrow><msup><mi>n</mi><mn>2</mn></msup></mfrac><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mo>&#160;</mo><mi>log</mi><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><msup><mi>r</mi><mn>2</mn></msup><msup><mi>n</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mi>r</mi></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><mo>&#160;</mo><mi>L</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><mo>&#160;</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mo>&#160;</mo><mfrac><mrow><mo>-</mo><mn>4</mn><mi>r</mi></mrow><mi>n</mi></mfrac><mo>&#183;</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>&#160;</mo><mi>log</mi><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><msup><mi>r</mi><mn>2</mn></msup><msup><mi>n</mi><mn>2</mn></msup></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><mo>&#160;</mo><mi>L</mi><mo>=</mo><mo>-</mo><mn>4</mn><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><mi>x</mi><mo>&#160;</mo><mi>log</mi><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced><mo>d</mo><mi>x</mi></math></p><p>Put&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>&#160;</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><mn>2</mn><msubsup><mo>&#8747;</mo><mn>1</mn><mn>2</mn></msubsup><mi>log</mi><mo>&#160;</mo><mfenced><mi>t</mi></mfenced><mo>d</mo><mi>t</mi><mo>=</mo><mo>-</mo><mn>2</mn><msubsup><mfenced open=\"[\" close=\"]\"><mrow><mi>t</mi><mo>&#160;</mo><mi>log</mi><mo>&#160;</mo><mi>t</mi><mo>-</mo><mi>t</mi></mrow></mfenced><mn>1</mn><mn>2</mn></msubsup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>log</mi><mo>&#160;</mo><mi>L</mi><mo>=</mo><mo>-</mo><mn>2</mn><mfenced><mrow><mn>2</mn><mi>log</mi><mo>&#160;</mo><mn>2</mn><mo>-</mo><mn>1</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>L</mi><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><mn>2</mn><mfenced><mrow><mn>2</mn><mi>log</mi><mo>&#160;</mo><mn>2</mn><mo>-</mo><mn>1</mn></mrow></mfenced></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><mn>2</mn><mfenced><mrow><mi>log</mi><mo>&#160;</mo><mfrac><mn>4</mn><mi>e</mi></mfrac></mrow></mfenced></mrow></msup><mo>=</mo><msup><mi>e</mi><mrow><mi>log</mi><msup><mfenced><mfrac><mn>4</mn><mi>e</mi></mfrac></mfenced><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mo>=</mo><mo>&#160;</mo><msup><mfenced><mfrac><mi>e</mi><mn>4</mn></mfrac></mfenced><mn>2</mn></msup><mo>=</mo><mfrac><msup><mi>e</mi><mn>2</mn></msup><mn>16</mn></mfrac></math></p>"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "index": 23,
-  "type": "numerical",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (24 Jan Shift 1)",
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "The number of 3 -digit numbers, that are divisible by 2 and 3 , but not divisible by 4 and 9 , is______."
+    "text": "Let $A=\\{1,6,11,16, \\ldots\\}$ and $B=\\{9,16,23,30, \\ldots\\}$ be the sets consisting of the first 2025 terms of two arithmetic progressions. Then $n(A \\cup B)$ is"
   },
-  "options": [],
-  "correct_answer": "125",
+  "options": [
+    {
+      "text": "3814",
+      "is_correct": false
+    },
+    {
+      "text": "4027",
+      "is_correct": false
+    },
+    {
+      "text": "3761",
+      "is_correct": true
+    },
+    {
+      "text": "4003",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
   "solution": {
-    "text": "No, of 3 digits $=999-99=900$\nNo. of 3 digit numbers divisible by 2 & 3 i.e. by 6\n$\\frac{900}{6}=150$\n\nNo. of 3 digit numbers divisible by 4 & 9 i.e. by 36\n$\\frac{900}{36}=25$\n$\\therefore$ No of 3 digit numbers divisible by $2 ~\\&~ 3$ but not by $4 ~\\&~ 9$\n$150-25=125$"
+    "text": "$\\begin{aligned} & A=\\{1,6,11,16,21,26,31,36,41,46,51,56,61, \\\\ & 66,71,76,81,86,91, \\ldots \\ldots\\} \\\\ & B=\\{9,16,23,30,37,44,51,58,65,72,79,86, \\\\ & 93,100, \\ldots \\ldots\\} \\\\ & A \\cap B=\\{16,51,86, \\ldots \\ldots\\} \\\\ & \\text { For set 'A' } \\Rightarrow T_{2025}=1+(2025-1)(5)=10121 \\\\ & \\text { For set ' } B^{\\prime} \\Rightarrow T_{2025}=9+(2025-1)(7)=14177 \\\\ & \\text { So, for }(A \\cap B) \\Rightarrow T_n=16+(n-1)(35) \\leq 10121 \\\\ & (n-1) \\leq \\frac{10121-16}{35}=288.71 \\\\ & n \\leq 289.71 \\Rightarrow n=289 \\\\ & \\therefore n(A \\cup B)=n(A)+n(B)-n(A \\cap B) \\\\ & =2025+2025-289=3761\\end{aligned}$"
   }
 }

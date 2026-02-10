@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602457307cfc9adff9a7fb",
+    "chapter_name": "Semiconductors",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Consider the following logic circuit.<br/><img src=\"assets\\qt0010_f47485512ca9.png\"/><br/>The output is $\\mathrm{Y}=0$ when :"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{A}=1$ and $\\mathrm{B}=1$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{A}=0$ and $\\mathrm{B}=1$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{A}=1$ and $\\mathrm{B}=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{A}=0$ and $\\mathrm{B}=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0010_c48afb1a7162.png\"/><br/>$\\begin{aligned}<br/>& \\mathrm{Y}_1=\\mathrm{A} \\cdot \\mathrm{~B}, \\mathrm{Y}_2=\\overline{\\mathrm{A}}+\\mathrm{B} \\\\\n& \\mathrm{Y}=\\overline{\\mathrm{Y}_1 \\cdot \\mathrm{Y}_2}=\\overline{\\mathrm{Y}}_1+\\overline{\\mathrm{Y}}_2 \\\\\n& \\mathrm{Y}=\\overline{\\mathrm{A} \\cdot \\mathrm{~B}}+\\overline{\\mathrm{A}+\\mathrm{B}} \\\\\n& \\mathrm{Y}=\\overline{\\mathrm{A}}+\\overline{\\mathrm{B}}+\\mathrm{A} \\cdot \\overline{\\mathrm{~B}}<br/>\\end{aligned}$<br/>$\\begin{array}{|c|c|c|} \\hline A & B & Y \\\\ \\hline 0 & 0 & 1 \\\\ \\hline 1 & 0 & 1 \\\\ \\hline 0 & 1 & 1 \\\\ \\hline 1 & 1 & 0 \\\\ \\hline \\end{array}$"
+  }
+}

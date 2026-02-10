@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7581a69b0b3a599b78",
+    "chapter_name": "Electrostatics",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Electric field at point $(30,30,0)$ due to a charge of $0.008 \\mu \\mathrm{C}$ placed at origin will be, (coordinates are in cm )"
+  },
+  "options": [
+    {
+      "text": "$8000 \\mathrm{NC}^{-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$4000(\\hat{\\mathbf{i}}+\\hat{\\mathbf{j}}) \\mathrm{NC}^{-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$200 \\sqrt{2}(\\hat{\\mathbf{i}}+\\hat{\\mathbf{j}}) \\mathrm{NC}^{-1}$",
+      "is_correct": true
+    },
+    {
+      "text": "$400 \\sqrt{2}(\\hat{\\mathbf{i}}+\\hat{\\mathbf{j}}) \\mathrm{NC}^{-1}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$E=\\frac{K q}{r^2} \\cdot \\hat{r}=\\frac{K q}{r^3} \\cdot r$\nHere,\n$\\begin{aligned}\nr & =\\sqrt{\\left(x_2-x_1\\right)^2+\\left(y_2-y_1\\right)^2+\\left(z_2-z_1\\right)^2} \\\\\n& =\\sqrt{(30)^2+(30)^2+0^2} \\\\\n& =30 \\sqrt{2} \\mathrm{~cm} \\\\\n& =30 \\sqrt{2} \\times 10^{-2} \\mathrm{~m}\n\\end{aligned}$\n$\\text { and } q=8 \\times 10^{-3} \\times 10^{-6} \\mathrm{C}$\nAlso, $\\quad \\mathbf{r}=(30 \\hat{\\mathbf{i}}+30 \\hat{\\mathbf{j}}) \\times 10^{-2} \\mathrm{~m}$\n$\\begin{aligned}\n\\text { So, } \\mathrm{E} & =\\frac{9 \\times 10^9 \\times 8 \\times 10^{-3} \\times 10^{-6}}{\\left(30 \\sqrt{2} \\times 10^{-2}\\right)^3} \\times(30 \\hat{\\mathbf{i}}+30 \\hat{\\mathbf{j}}) \\times 10^{-2} \\\\\n& =\\frac{9 \\times 8 \\times 10^9 \\times 10^{-11}}{27 \\times 2 \\sqrt{2} \\times 10^{-6} \\times 10^3} \\times 30(\\hat{\\mathbf{i}}+\\hat{\\mathbf{j}}) \\\\\n& =\\frac{9 \\times 8 \\times 10^2 \\times 3}{27 \\times 2 \\sqrt{2}}(\\hat{\\mathbf{i}}+\\hat{\\mathbf{j}}) \\\\\n& =200 \\sqrt{2}(\\hat{\\mathbf{i}}+\\hat{\\mathbf{j}}) \\mathrm{NC}^{-1}\n\\end{aligned}$"
+  }
+}

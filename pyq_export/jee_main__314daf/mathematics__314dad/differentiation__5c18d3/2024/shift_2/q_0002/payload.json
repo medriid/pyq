@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255a501b352fc65c18d3",
+    "chapter_name": "Differentiation",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $\\log _e y=3 \\sin ^{-1} x$, then $\\left(1-x^2\\right) y^{\\prime \\prime}-x y^{\\prime}$ at $x=\\frac{1}{2}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$3 e^{\\pi / 6}$",
+      "is_correct": false
+    },
+    {
+      "text": "$9 e^{\\pi / 2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$3 e^{\\pi / 2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$9 e^{\\pi / 6}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\ln (y)=3 \\sin ^{-1} x \\\\ & \\frac{1}{y} \\cdot y^{\\prime}=3\\left(\\frac{1}{\\sqrt{1-x^2}}\\right) \\\\ & \\Rightarrow y^{\\prime}=\\frac{3 y}{\\sqrt{1-x^2}} \\text { at } x=\\frac{1}{2} \\\\ & \\Rightarrow y^{\\prime}=\\frac{3 e^{3\\left(\\frac{\\pi}{6}\\right)}}{\\frac{\\sqrt{3}}{2}}=2 \\sqrt{3} e^{\\frac{\\pi}{2}} \\\\ & \\Rightarrow y^{\\prime \\prime}=3\\left(\\frac{\\sqrt{1-x^2} y^{\\prime}-y \\frac{1}{2 \\sqrt{1-x^2}}(-2 x)}{\\left(1-x^2\\right)}\\right)\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow\\left(1-x^2\\right) y^{\\prime \\prime}=3\\left(3 y+\\frac{x y}{\\sqrt{1-x^2}}\\right) \\\\ & \\downarrow \\text { at } x=\\frac{1}{2}, y=e^{3 \\sin ^{-1}\\left(\\frac{1}{2}\\right)}=\\mathrm{e}^{3\\left(\\frac{\\pi}{6}\\right)}=\\mathrm{e}^{\\frac{\\pi}{2}}\\end{aligned}$\n$\\begin{aligned} & \\left.\\left(1-x^2\\right) y^{\\prime \\prime}\\right|_{\\text {at } x=\\frac{1}{2}}=3\\left(3 \\mathrm{e}^{\\frac{\\pi}{2}}+\\frac{\\frac{1}{2}\\left(e^{\\frac{\\pi}{2}}\\right)}{\\frac{\\sqrt{3}}{2}}\\right) \\\\ & =3 \\mathrm{e}^{\\frac{\\pi}{2}}\\left(3+\\frac{1}{\\sqrt{3}}\\right) \\\\ & \\left(1-x^2\\right) y^{\\prime \\prime}-\\left.x y^{\\prime}\\right|_{\\text {atx } x=\\frac{1}{2}} \\\\ & =3 \\mathrm{e}^{\\frac{\\pi}{2}}\\left(3+\\frac{1}{\\sqrt{3}}\\right)-\\frac{1}{2}\\left(2 \\sqrt{3} \\mathrm{e}^{\\frac{\\pi}{2}}\\right)=9 \\mathrm{e}^{\\frac{\\pi}{2}}\\end{aligned}$"
+  }
+}

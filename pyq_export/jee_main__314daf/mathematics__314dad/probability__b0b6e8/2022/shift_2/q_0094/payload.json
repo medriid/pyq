@@ -1,8 +1,8 @@
 {
   "index": 94,
-  "type": "numerical",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2022 (26 Jun Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2022 (25 Jul Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "If the probability that a randomly chosen <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math>-digit number formed by using digits&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math> and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> only is a multiple of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn></math> is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>96</mn><mi>p</mi></math>&nbsp;is equal to _____."
+    "text": "If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>&nbsp;are two events such that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mi>A</mi></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>,</mo><mi>P</mi><mfenced><mi>B</mi></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mi>A</mi><mo>&#8746;</mo><mi>B</mi></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>, then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><menclose notation=\"right\"><mi>A</mi></menclose><msup><mi>B</mi><mo>'</mo></msup></mrow></mfenced><mo>+</mo><mi>P</mi><mfenced><mrow><menclose notation=\"right\"><mi>B</mi></menclose><msup><mi>A</mi><mo>'</mo></msup></mrow></mfenced></math>&nbsp;is equal to"
   },
-  "options": [],
-  "correct_answer": "33",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>4</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>8</mn></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
   "solution": {
-    "text": "<p>We have to choose&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math>&nbsp;digit number by using&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mn>8</mn></math>&nbsp;and it must be divisible by 21,</p><p>So, equal number of digits&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math>&nbsp;should be used&nbsp;to form a number divisible by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>. (Or all the digits are either <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>&nbsp;or&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math>)</p><p>In all cases whatever number is formed using six&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1</mn><mo>&#39;</mo></msup></math>&nbsp;or six&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mo>&#39;</mo></msup></math>s or three&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1</mn><mo>&#39;</mo></msup></math>s&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>+</mo></math>&nbsp;three&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mo>&#39;</mo></msup></math>s, that number can be splited into sum of multiples of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1001</mn><mo>,</mo><mn>1008</mn><mo>,</mo><mn>8001</mn><mo>,</mo><mn>8008</mn></math>&nbsp;(all of them are divisible by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>). So, all the numbers thus formed will be divisible by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn></math>,</p><p>Example:&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>811188</mn><mo>=</mo><mn>8001</mn><mo>&#215;</mo><msup><mn>10</mn><mn>2</mn></msup><mo>+</mo><mn>1008</mn><mo>&#215;</mo><mn>10</mn><mo>+</mo><mn>1008</mn></math></p><p>Number of such numbers&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>6</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo><mn>3</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mn>2</mn><mo>=</mo><mn>22</mn></math></p><p>Required Probability,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mfrac><mn>22</mn><msup><mn>2</mn><mn>6</mn></msup></mfrac><mo>=</mo><mfrac><mn>11</mn><mn>32</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mn>96</mn><mi>p</mi><mo>=</mo><mfrac><mn>11</mn><mn>22</mn></mfrac><mo>&#215;</mo><mn>96</mn><mo>=</mo><mn>33</mn></math></p>"
+    "text": "<blockquote><p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mi>A</mi></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>,</mo><mi>P</mi><mfenced><mi>B</mi></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mi>A</mi><mo>&#8746;</mo><mi>B</mi></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math></p><p>We know that,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mi>A</mi><mo>&#8746;</mo><mi>B</mi></mrow></mfenced><mo>=</mo><mi>P</mi><mfenced><mi>A</mi></mfenced><mo>+</mo><mi>P</mi><mfenced><mi>B</mi></mfenced><mo>-</mo><mi>P</mi><mfenced><mrow><mi>A</mi><mo>&#8745;</mo><mi>B</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mfenced><mrow><mi>A</mi><mo>&#8745;</mo><mi>B</mi></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>30</mn></mfrac></math></p><p>Now&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mi>A</mi><mo>&#8745;</mo><msup><mi>B</mi><mo>&#39;</mo></msup></mrow></mfenced><mo>=</mo><mtext>Only&#160;A</mtext><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>30</mn></mfrac><mo>=</mo><mfrac><mn>9</mn><mn>30</mn></mfrac></math></p><p>And&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mi>B</mi><mo>&#8745;</mo><msup><mi>A</mi><mo>&#39;</mo></msup></mrow></mfenced><mo>=</mo><mtext>Only&#160;B</mtext><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>30</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>30</mn></mfrac></math></p><p><img src=\"assets\\st0094_184f806bf604.png\" style=\"width: 243px; height: 169px;\" /></p><p>Now,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mi>A</mi><mo>&#8739;</mo><msup><mi>B</mi><mo>&#39;</mo></msup></mrow></mfenced><mo>+</mo><mi>P</mi><mfenced><mrow><mi>B</mi><mo>&#8739;</mo><msup><mi>A</mi><mo>&#39;</mo></msup></mrow></mfenced><mo>=</mo><mfrac><mrow><mi>P</mi><mfenced><mrow><mi>A</mi><mo>&#8745;</mo><msup><mi>B</mi><mo>&#39;</mo></msup></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced><msup><mi>B</mi><mo>&#39;</mo></msup></mfenced></mrow></mfrac><mo>+</mo><mfrac><mrow><mi>P</mi><mfenced><mrow><mi>B</mi><mo>&#8745;</mo><msup><mi>A</mi><mo>&#39;</mo></msup></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced><msup><mi>A</mi><mo>&#39;</mo></msup></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mfrac><mn>9</mn><mn>30</mn></mfrac><mfrac><mn>4</mn><mn>5</mn></mfrac></mfrac><mo>+</mo><mfrac><mfrac><mn>5</mn><mn>30</mn></mfrac><mfrac><mn>2</mn><mn>3</mn></mfrac></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>8</mn></mfrac></math></p></blockquote>"
   }
 }

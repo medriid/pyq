@@ -1,0 +1,63 @@
+{
+  "_id": "67726d01c49e8ef28ee2b380",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6414",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 1)",
+      "title": "BITSAT 2024 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "If the function $f(x)$, defined below, is continuous on the interval $[0,8]$, then\n$f(x)=\\left\\{\\begin{array}{cc}x^2+a x+b & , 0 \\leq x \\lt 2 \\\\ 3 x+2, & 2 \\leq x \\leq 4 \\\\ 2 a x+5 b, & 4 \\lt x \\leq 8\\end{array}\\right.$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "SDayV",
+      "text": "$a=3, b=-2$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "0pftf",
+      "text": "$a=-3, b=2$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "raywP",
+      "text": "$a=-3, b=-2$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Jlhau",
+      "text": "$a=3, b=2$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Here, $f(x)$ is continuous on the interval $[0,8]$.\nSo it will also be continuous on 2 and 4.\nAt $x=2$,\n$\\lim _{x \\rightarrow 2^{-}} f(x)=\\lim _{x \\rightarrow 2^{+}} f(x)$\n$\\lim _{x \\rightarrow 2^{-}}\\left(x^2+\\mathrm{ax}+\\mathrm{b}\\right)=\\lim _{x \\rightarrow 2^{+}}(3 x+2)$\n$4+2 a+b=3(2)+2$\n$\\therefore 2 a+b=4$    ...(i)\nAt $x=4$\n$\\lim _{x \\rightarrow 4^{-}} f(x)=\\lim _{x \\rightarrow 4^{+}} f(x)$\n$\\lim _{x \\rightarrow 4^{-}}(3 x+2)=\\lim _{x \\rightarrow 4^{+}} 2 a x+5 b$\n$3(4)+2=2 a(4)+5 b$\n$\\therefore 8 a+5 b=14$  .......(ii)\nOn solving Eqs. (i) and (ii), we get\n$a=3$ and $b=-2$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6414",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 1)",
+    "title": "BITSAT 2024 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

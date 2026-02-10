@@ -1,0 +1,43 @@
+{
+  "index": 88,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602541dde7f7e33e7cf4fc",
+    "chapter_name": "Hyperbola",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "A normal to the hyperbola, $4 x^2-9 y^2=36$ meets the co-ordinate axes $x$ and $y$ at $A$ and $B$, respectively. If the parallelogram $O A B P(O$ being the origin) is formed, then the locus of $P$ is"
+  },
+  "options": [
+    {
+      "text": "\n$4 x^2-9 y^2=121$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$4 x^2+9 y^2=121$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$9 x^2-4 y^2=169$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$9 x^2+4 y^2=169$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given, $4 x^2-9 y^2=36$\nAfter differentiating w.r.t. $x$, we get\n$$\n\\begin{aligned}\n&\\text { 4.2.x-9.2.y. } \\frac{d y}{d x}=0 \\\\\n&\\Rightarrow \\text { Slope of tangent }=\\frac{d y}{d x}=\\frac{4 x}{9 y}\n\\end{aligned}\n$$\nSo, slope of normal $=\\frac{-9 y}{4 x}$\nNow, equation of normal at point $\\left(x_0, y_0\\right)$ is given by\n$$\ny-y_0=\\frac{-9 y_0}{4 x_0}\\left(x-x_0\\right)\n$$\nAs normal intersects $\\mathrm{X}$ axis at $A$, Then\n$$\nA \\equiv\\left(\\frac{13 x_0}{9}, 0\\right)\n$$\nand $B \\equiv\\left(0, \\frac{13 y_0}{4}\\right)$\nAs $O A B P$ is a parallelogram\n$\\therefore$ midpoint of $O B \\equiv\\left(0, \\frac{13 y_0}{8}\\right) \\equiv$ Midpoint of $A P$\nSo, $P(x, y) \\equiv\\left(\\frac{-13 x_0}{9}, \\frac{13 y_0}{4}\\right)$\n$\\because\\left(x_0, y_0\\right)$ lies on hyperbola, therefore $4\\left(x_0\\right)^2-9\\left(y_0\\right)^2=36$\nFrom equation (i): $x_0=\\frac{-9 x}{13}$ and $y_0=\\frac{4 y}{13}$\nFrom equation (ii), we get $9 x^2-4 y^2=169$\nHence, locus of point $P$ is : $9 x^2-4 y^2=169$"
+  }
+}

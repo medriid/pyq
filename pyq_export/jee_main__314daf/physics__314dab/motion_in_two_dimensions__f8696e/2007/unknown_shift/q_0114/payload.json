@@ -1,0 +1,43 @@
+{
+  "index": 114,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2007",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023aeab028caf34f8696e",
+    "chapter_name": "Motion In Two Dimensions",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A particle just clears a wall of height $b$ at distance $a$ and strikes the ground at a distance $c$ from the point of projection. The angle of projection is"
+  },
+  "options": [
+    {
+      "text": "\n$\\tan ^{-1} \\frac{b}{a c}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$45^{\\circ}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\tan ^{-1} \\frac{b c}{a(c-a)}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\tan ^{-1} \\frac{b c}{a}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$a=(u \\cos \\alpha) t$ and $b=(u \\sin \\alpha) t-\\frac{1}{2} g t^2$\n$b=a \\tan \\alpha-\\frac{1}{2} g \\frac{a^2}{u^2 \\cos ^2 \\alpha}$\nalso, $c=\\frac{u^2 \\sin 2 \\alpha}{g}$\n$b=a \\tan \\alpha-\\frac{a^2 g}{2}\\left(\\frac{\\sin 2 \\alpha}{c g}\\right) \\sec ^2 \\alpha$\n$b=a \\tan \\alpha-\\frac{a^2}{2 c} 2 \\tan \\alpha$\n$\\Rightarrow\\left(a-\\frac{a^2}{c}\\right) \\tan \\alpha=b$\n$\\tan \\alpha=\\frac{b c}{a(c-a)}$.\n<img src=\"assets\\st0114_3b55b53f5fa3.png\"><br>"
+  }
+}

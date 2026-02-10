@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd81ce5dab43c54c1c10",
+    "chapter_name": "Basic of Mathematics",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $x$ and $y$ be two natural numbers such that $x y=12(x+y)$ and $x \\leq y$. Then the total number of pairs $(x, y)$ is"
+  },
+  "options": [
+    {
+      "text": "8",
+      "is_correct": true
+    },
+    {
+      "text": "6",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    },
+    {
+      "text": "16",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$x y-12 x-12 y=0 \\Rightarrow(x-12)(y-12)=144$\r\nNow 144 can be factorised into two factors $x$ and $y$ where $x \\leq y$ and the factors are (1,144),(2,72),(3,48),(4,36),(6,24),(8,18)\r\n(9,16),(12,12)\r\nThus there are eight solutions."
+  }
+}

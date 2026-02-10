@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a67417cc3fb48d66789",
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7ec",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2019-01-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019 (11 Jan Shift 1)",
+      "title": "JEE Main 2019 (11 Jan Shift 1)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $f(x)=\\left\\{\\begin{array}{cl}-1, & -2 \\leq x  < 0 \\\\ x^{2}-1, & 0 \\leq x \\leq 2\\end{array}\\right.$ and\r\n\r\n$g(x)=|\\eta(x)|+f(x \\mid) .$ Then, in the interval $(-2,2), g$ is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "nm1Xy",
+      "text": "differentiable at all points",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "jkexw",
+      "text": "not continuous",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "11o8v",
+      "text": "not differentiable at two points",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "tHFuN",
+      "text": "not differentiable at one point",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$f(x)=\\left\\{\\begin{array}{cc}-1, & -2 \\leq x  < 0 \\\\ x^{2}-1, & 0 \\leq x \\leq 2\\end{array}\\right.$\r\n\r\n$\\text { Then, } f(x \\mid)=\\left\\{\\begin{array}{cc}\r\n\r\n-1, & -2 \\leq|x| < 0 \\\\\r\n\r\n|x|^{2}-1, & 0 \\leq|x| \\leq 2\r\n\r\n\\end{array}\\right.$\r\n\r\n$\\Rightarrow f(|x|)=x^{2}-1,-2 \\leq x \\leq 2$\r\n\r\n$\\Rightarrow g(x)=\\left\\{\\begin{aligned} 1+x^{2}-1, &-2 \\leq x < 0 \\\\\\left(x^{2}-1\\right)+\\left|x^{2}-1\\right|, & 0 \\leq x \\leq 2 \\end{aligned}\\right.$\r\n\r\n$=\\left\\{\\begin{array}{cc}x^{2}, & -2 \\leq x < 0 \\\\ 0, & 0 \\leq x < 1 \\\\ 2\\left(x^{2}-1\\right), & 1 \\leq x \\leq 2\\end{array}\\right.$\r\n\r\n$g^{\\prime}\\left(0^{-}\\right)=0, g^{\\prime}\\left(0^{*}\\right)=0, g^{\\prime}\\left(1^{-}\\right)=0, g^{\\prime}\\left(1^{+}\\right)=4$\r\n\r\n$\\Rightarrow g(x)$ is non-differentiable at $x=1$ $\\Rightarrow g(x)$ is not differentiable at one point.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7ec",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2019-01-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019 (11 Jan Shift 1)",
+    "title": "JEE Main 2019 (11 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

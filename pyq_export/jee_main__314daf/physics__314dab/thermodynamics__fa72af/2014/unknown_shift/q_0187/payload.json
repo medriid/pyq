@@ -1,0 +1,43 @@
+{
+  "index": 187,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (09 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023e7441e5bacfafa72af",
+    "chapter_name": "Thermodynamics",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The equation of state for a gas is given by <math> <mrow> <mtext>PV</mtext> <mo>=</mo> <mtext>nRT</mtext> <mo>+</mo> <mi>&#945;</mi> <mtext>V</mtext> </mrow> </math>,&nbsp;where n is the number of moles and <math> <mrow> <mi>&#945;</mi></mrow> </math>&nbsp; is a positive constant. The initial temperature and pressure of one mole of the gas contained in a cylinder are T<sub>0</sub> and P<sub>0</sub> respectively. The work done by the gas when its temperature doubles isobarically will be :"
+  },
+  "options": [
+    {
+      "text": "<math> <mrow> <msub> <mtext>P</mtext> <mtext>0</mtext> </msub> <msub> <mo>T</mo> <mtext>0</mtext> </msub> <mi></mi><mi></mi><mi>ln</mi><mo>⁡</mo> <mo>2</mo> </mrow> </math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow> <mfrac> <mrow> <msub> <mtext>P</mtext> <mtext>0</mtext> </msub> <msub> <mo>T</mo> <mtext>0</mtext> </msub> <mo>R</mo> </mrow> <mrow> <msub> <mtext>P</mtext> <mtext>0</mtext> </msub> <mo>+</mo> <mi>&alpha;</mi> </mrow> </mfrac> </mrow> </math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math> <mrow> <mfrac> <mrow> <msub> <mtext>P</mtext> <mtext>0</mtext> </msub> <msub> <mo>T</mo> <mtext>0</mtext> </msub> <mo>R</mo> </mrow> <mrow> <msub> <mtext>P</mtext> <mtext>0</mtext> </msub> <mo>-</mo> <mi>&alpha;</mi> </mrow> </mfrac> </mrow> </math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math> <mrow> <msub> <mtext>P</mtext> <mtext>0</mtext> </msub> <msub> <mo>T</mo> <mtext>0</mtext> </msub> <mo>R</mo> </mrow> </math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<math> <mrow> <mtext>PV</mtext> <mo>=</mo> <mtext>nRT</mtext> <mo>+</mo> <mi>&alpha;</mi> <mtext>V</mtext> </mrow> </math><br /><br /><math> <mrow> <mfrac> <mrow> <msub> <mtext>P</mtext> <mn>0</mn> </msub> <mtext>dV</mtext> </mrow> <mrow> <mtext>dT</mtext> </mrow> </mfrac> <mo>=</mo> <mtext>R</mtext> <mo>+</mo> <mi>&alpha;</mi> <mfrac> <mrow> <mtext>dV</mtext> </mrow> <mrow> <mtext>dT</mtext> </mrow> </mfrac> </mrow> </math><br /><br /><math> <mrow> <mfenced close=\")\" open=\"(\" separators=\",\"> <mrow> <msub> <mtext>P</mtext> <mn>0</mn> </msub> <mo>-</mo> <mi>&alpha;</mi> </mrow> </mfenced> <mfrac> <mrow> <mtext>dV</mtext> </mrow> <mrow> <mtext>dT</mtext> </mrow> </mfrac> <mo>=</mo> <mtext>R</mtext> </mrow> </math><br /><br /><math> <mrow> <mo>&there4;&nbsp;&nbsp;&nbsp;</mo> <mtext>dV</mtext> <mo>=</mo> <mfrac> <mrow> <mtext>RdT</mtext> </mrow> <mrow> <msub> <mtext>P</mtext> <mn>0</mn> </msub> <mo>-</mo> <mi>&alpha;</mi> </mrow> </mfrac> </mrow> </math><br /><br /><math> <mrow> <mo>&there4;&nbsp;&nbsp;&nbsp;</mo> <mtext>W</mtext> <mo>=</mo> <mo>&int;</mo> <msub> <mo>P</mo> <mn>0</mn> </msub> <mtext>dV</mtext> <mo>=</mo> <munderover> <mo>&int;</mo> <msub> <mtext>T</mtext> <mn>0</mn> </msub> <mrow> <mn>2</mn> <msub> <mtext>T</mtext> <mn>0</mn> </msub> </mrow> </munderover> <mfrac> <mrow> <msub> <mtext>P</mtext> <mn>0</mn> </msub> <mtext>R</mtext> </mrow> <mrow> <msub> <mtext>P</mtext> <mn>0</mn> </msub> <mo>-</mo> <mi>&alpha;</mi> </mrow> </mfrac> <mtext>dT</mtext> </mrow> </math><br /><br /><math> <mrow> <mo>=</mo> <mfrac> <mrow> <msub> <mtext>P</mtext> <mn>0</mn> </msub> <msub> <mtext>T</mtext> <mn>0</mn> </msub> <mtext>R</mtext> </mrow> <mrow> <msub> <mtext>P</mtext> <mn>0</mn> </msub> <mo>-</mo> <mi>&alpha;</mi> </mrow> </mfrac> </mrow> </math>"
+  }
+}

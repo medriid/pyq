@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (8 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $f(x)$ be a positive function and $I_1=\\int_{-\\frac{1}{2}}^1 2 x f(2 x(1-2 x)) d x$ and $I_2=\\int_{-1}^2 f(x(1-x)) d x$. Then the value of $\\frac{I_2}{I_1}$ is equal to ________"
+  },
+  "options": [
+    {
+      "text": "9",
+      "is_correct": false
+    },
+    {
+      "text": "6",
+      "is_correct": false
+    },
+    {
+      "text": "12",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{I}_1=\\int_{-\\frac{1}{2}}^1 2 \\mathrm{xf}(2 \\mathrm{x}(1-2 \\mathrm{x})) \\mathrm{dx} \\\\ & \\Rightarrow 2 \\mathrm{x}=\\mathrm{t} \\Rightarrow 2 \\mathrm{dx}=\\mathrm{dt} \\quad \\Rightarrow \\mathrm{I}_1=\\frac{1}{2} \\int_{-1}^2 \\mathrm{tf}(\\mathrm{t}(1-\\mathrm{t})) \\mathrm{dt} \\\\ & \\Rightarrow 2 \\mathrm{I}_1=\\int_{-1}^2(1-\\mathrm{t}) \\mathrm{f}(1-\\mathrm{t})(1-(1-\\mathrm{t})) \\mathrm{dt} \\\\ & \\Rightarrow 2 \\mathrm{I}_1=\\int_{-1}^2 \\mathrm{f}\\left(\\mathrm{t}(1-\\mathrm{t}) \\mathrm{dt}-\\int_{-1}^2 \\mathrm{tf}(\\mathrm{t}(1-\\mathrm{t}) \\mathrm{dt}\\right. \\\\ & \\Rightarrow 2 \\mathrm{I}_1=\\mathrm{I}_2-2 \\mathrm{I}_1 \\\\ & \\Rightarrow 4 \\mathrm{I}_1=\\mathrm{I}_2 \\\\ & \\Rightarrow \\frac{\\mathrm{I}_2}{\\mathrm{I}_1}=4\\end{aligned}$"
+  }
+}

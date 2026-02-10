@@ -1,0 +1,63 @@
+{
+  "_id": "6644671b970e6e9ab542d044",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6a",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-05T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (05 Apr Shift 1)",
+      "title": "JEE Main 2024 (05 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "The value of $\\int_{-\\pi}^\\pi \\frac{2 y(1+\\sin y)}{1+\\cos ^2 y} d y$ is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "bb1R8",
+      "text": "$2 \\pi^2$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "1TMpJ",
+      "text": "$\\frac{\\pi^2}{2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ZEoqw",
+      "text": "$\\frac{\\pi}{2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "M8Ob4",
+      "text": "$\\pi^2$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\int_{-\\pi}^\\pi \\frac{2 y(1+\\sin y)}{1+\\cos ^2 y} d y$\n\\(=\\underset{\\text{(Odd)}}{\\int_{-\\pi}^\\pi \\frac{2 y}{1+\\cos ^2 y} d y}+\\underset{\\text{(Even)}}{\\int_{-\\pi}^\\pi \\frac{2 y \\sin y}{1+\\cos ^2 y} d y}\\)<br />$=0+2.2 \\int_0^\\pi y\\left(\\frac{\\sin y}{1+\\cos ^2 y}\\right) d y$\n$\\begin{aligned} & I=4 \\int_0^\\pi \\frac{y \\sin y}{1+\\cos ^2 y} d y \\\\ & I=4 \\int_0^\\pi \\frac{(\\pi-y) \\sin y}{1+\\cos ^2 y} d y \\\\ & 2 I=4 \\int_0^\\pi \\frac{\\pi \\sin y}{1+\\cos ^2 y} d y \\\\ & I=2 \\pi \\int_0^\\pi \\frac{\\sin y}{1+\\cos ^2 y} d y \\\\ & =2 \\pi\\left(-\\tan ^{-1}(\\cos y)\\right)_0^\\pi \\\\ & =-2 \\pi\\left[\\left(-\\frac{\\pi}{4}\\right)-\\left(\\frac{\\pi}{4}\\right)\\right] \\\\ & =-2 \\pi\\left[-\\frac{2 \\pi}{4}\\right]=\\pi^2\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda6a",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-05T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (05 Apr Shift 1)",
+    "title": "JEE Main 2024 (05 Apr Shift 1)"
+  },
+  "evalStatus": "incorrect",
+  "lastPracticed": "2024-08-01T15:11:37.919Z"
+}

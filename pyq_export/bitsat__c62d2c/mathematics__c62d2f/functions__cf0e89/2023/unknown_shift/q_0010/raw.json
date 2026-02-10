@@ -1,0 +1,63 @@
+{
+  "_id": "65b7b88097ae24e9e2db8d01",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "65b7b85fb3be70ed63adbe85",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2023-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Memory Based Paper 2)",
+      "title": "BITSAT 2023 (Memory Based Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "The domain of the function $f(x)=\\sqrt{x-\\sqrt{1-x^2}}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "gOFHW",
+      "text": "$\\left[-1,-\\frac{1}{\\sqrt{2}}\\right] \\cup\\left[\\frac{1}{\\sqrt{2}}, 1\\right]$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "oay3C",
+      "text": "$[-1,1]$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "GBFUQ",
+      "text": "$\\left(-\\infty,-\\frac{1}{2}\\right] \\cup\\left[\\frac{1}{\\sqrt{2}},+\\infty\\right)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "oGFwG",
+      "text": "$\\left[\\frac{1}{\\sqrt{2}}, 1\\right]$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "For $f(x)$ to be defined, we must have<br />$x-\\sqrt{1-x^2} \\geq 0 \\text { or } x \\geq \\sqrt{1-x^2}>0 \\text { or } x^2 \\geq 1-x^2$<br />or $x^2 \\geq \\frac{1}{2}$.<br />Now, $x^2 \\geq \\frac{1}{2} \\Rightarrow\\left(x-\\frac{1}{\\sqrt{2}}\\right)\\left(x+\\frac{1}{\\sqrt{2}}\\right) \\geq 0$<br />$\\Rightarrow x \\leq-\\frac{1}{\\sqrt{2}} \\quad \\text { or } \\quad x \\geq \\frac{1}{\\sqrt{2}}$<br />Also, $1-x^2 \\geq 0$ or $x^2 \\leq 1$.<br />Also, $x^2 \\leq 1 \\Rightarrow(x-1)(x+1) \\leq 0 \\Rightarrow-1 \\leq x \\leq 1$<br />Thus, $x>0, x^2 \\geq \\frac{1}{2}$ and $x^2 \\leq 1 \\Rightarrow x \\in\\left[\\frac{1}{\\sqrt{2}}, 1\\right]$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "65b7b85fb3be70ed63adbe85",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2023-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Memory Based Paper 2)",
+    "title": "BITSAT 2023 (Memory Based Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

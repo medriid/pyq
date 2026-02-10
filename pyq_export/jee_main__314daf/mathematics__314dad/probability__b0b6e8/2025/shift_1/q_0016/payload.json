@@ -1,0 +1,24 @@
+{
+  "index": 16,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "All five letter words are made using all the letters $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}, \\mathrm{E}$ and arranged as in an English dictionary with serial numbers. Let the word at serial number $n$ be denoted by $W_n$. Let the probability $\\mathrm{P}\\left(\\mathrm{W}_{\\mathrm{n}}\\right)$ of choosing the word $\\mathrm{W}_{\\mathrm{n}}$ satisfy $\\mathrm{P}\\left(\\mathrm{W}_{\\mathrm{n}}\\right)=2 \\mathrm{P}\\left(\\mathrm{W}_{\\mathrm{n}-1}\\right), \\mathrm{n} \\gt 1$.<br/>If $\\mathrm{P}(\\mathrm{CDBEA})=\\frac{2^\\alpha}{2^\\beta-1}, \\alpha, \\beta \\in \\mathbb{N}$, then $\\alpha+\\beta$ is equal to : _______"
+  },
+  "options": [],
+  "correct_answer": "183",
+  "solution": {
+    "text": "Let $\\mathrm{P}\\left(\\mathrm{W}_1\\right)=\\mathrm{x}$<br/>$\\begin{aligned}<br/>& \\sum_{i=1}^{120} P\\left(W_i\\right)=1 \\\\\n& x+2 x+2^2 x+2^3 x+\\ldots+2^{119} x=1 \\\\\n& \\frac{x\\left(2^{120}-1\\right)}{(2-1)}=1 \\Rightarrow x=\\frac{1}{2^{120}-1} \\qquad...(i)<br/>\\end{aligned}$<br/>Rank of CDBEA<br/><img src=\"assets\\st0016_4a26c5ae4499.png\"/><br/>$\\begin{aligned} & \\text { C D B A E }=1 \\\\ & \\text { C D B E A }=1\\end{aligned}$<img src=\"assets\\st0016_5468ecb7a6e1.png\"/><br/>$\\begin{aligned} & \\text { So, } \\mathrm{P}\\left(\\mathrm{W}_{64}\\right)=2 \\mathrm{P}\\left(\\mathrm{W}_{63}\\right)=\\ldots=2^{63} \\mathrm{P}\\left(\\mathrm{W}_1\\right) \\\\ & =\\frac{2^{63}}{2^{120}-1} \\\\ & \\alpha+\\beta=63+120=183\\end{aligned}$"
+  }
+}

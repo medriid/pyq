@@ -1,57 +1,62 @@
 {
-  "_id": "6644670a970e6e9ab542cfaa",
-  "type": "numerical",
-  "level": 3,
+  "_id": "66446757970e6e9ab542d271",
+  "type": "singleCorrect",
+  "level": 1,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "664466ee278297dee60eda68",
+      "_id": "664466ef278297dee60eda70",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-04-04T09:00:00.000Z",
+      "heldOn": "2024-04-09T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (04 Apr Shift 1)",
-      "title": "JEE Main 2024 (04 Apr Shift 1)"
+      "shortName": "2024 (09 Apr Shift 1)",
+      "title": "JEE Main 2024 (09 Apr Shift 1)"
     }
   ],
   "question": {
-    "text": "Let $\\mathrm{ABC}$ be a triangle of area $15 \\sqrt{2}$ and the vectors $\\overrightarrow{\\mathrm{AB}}=\\hat{i}+2 \\hat{j}-7 \\hat{k}, \\overrightarrow{\\mathrm{BC}}=\\mathrm{a} \\hat{i}+\\mathrm{b} \\hat{j}+\\mathrm{ck}$ and $\\overrightarrow{\\mathrm{AC}}=6 \\hat{i}+\\mathrm{d} \\hat{j}-2 \\hat{k}, \\mathrm{~d}>0$. Then the square of the length of the largest side of the triangle $\\mathrm{ABC}$ is _______",
+    "text": "Let $\\overrightarrow{O A}=2 \\vec{a}, \\overrightarrow{O B}=6 \\vec{a}+5 \\vec{b}$ and $\\overrightarrow{O C}=3 \\vec{b}$, where $O$ is the origin. If the area of the parallelogram with adjacent sides $\\overrightarrow{\\mathrm{OA}}$ and $\\overrightarrow{\\mathrm{OC}}$ is 15 sq. units, then the area (in sq. units) of the quadrilateral $\\mathrm{OABC}$ is equal to :",
     "image": null
   },
-  "options": [],
-  "correctValue": "54",
+  "options": [
+    {
+      "id": "9s4Yx",
+      "text": "32",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "1YTLD",
+      "text": "40",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Va78l",
+      "text": "38",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "lfP0o",
+      "text": "35",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/IRQjQTIz9DWv5vyzrl7Y93lqcbVskPzKnmya9hJQUmE.original.fullsize.png\"><br />$\\begin{aligned}\n& \\text { Area }=\\frac{1}{2}\\left|\\begin{array}{ccc}\n\\hat{i} & \\hat{j} & \\hat{k} \\\\\n1 & 2 & -7 \\\\\n6 & d & -2\n\\end{array}\\right|=15 \\sqrt{2} \\\\\n& (-4+7 d) \\hat{i}-\\hat{j}(-2+42)+\\hat{k}(d-12) \\\\\n& (7 d-4)^2+(40)^2+(d-12)^2=1800 \\\\\n& 50 d^2-80 d-40=0 \\\\\n& 5 d^2-8 d-4=0 \\\\\n& 5 d^2-10 d-2 d-4 \\\\\n& 5 d(d-2)+2(d-2)=0 \\\\\n& d=2 \\text { or } d=-\\frac{2}{5} \\\\\n& \\because d>0, d=2 \\\\\n& (a+1) \\hat{i}+(b+2) \\hat{j}+(c-7) \\hat{k}=6 \\hat{i}+2 \\hat{j}-2 \\hat{k} \\\\\n& a+1=6 \\& b+2=2, c-7=-2 \\\\\n& a=5 \\quad b=0 \\quad c=5 \\\\\n& |A B|=\\sqrt{1+4+49}=\\sqrt{54} \\\\\n& |B C|=\\sqrt{25+25}=\\sqrt{50} \\\\\n& |A C|=\\sqrt{86+4+4}=\\sqrt{44}\n\\end{aligned}$<br />Ans. 54",
+    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/R03ZKqUVZMUyO2sKnQw-fpTC9FnOLVQnA-nc6fvNDcI.original.fullsize.png\"><br />Area of parallelogram having sides\n$\\begin{aligned}\n& \\overrightarrow{\\mathrm{OA}} \\& \\overrightarrow{\\mathrm{OC}}=|\\overrightarrow{\\mathrm{OA}} \\times \\overrightarrow{\\mathrm{OC}}|=|2 \\overrightarrow{\\mathrm{a}} \\times 3 \\overrightarrow{\\mathrm{b}}|=15 \\\\\n& 6|\\overrightarrow{\\mathrm{a}} \\times \\overrightarrow{\\mathrm{b}}|=15 \\\\\n& \\Rightarrow|\\overrightarrow{\\mathrm{a}} \\times \\overrightarrow{\\mathrm{b}}|=\\frac{5}{2} \\ldots \\ldots . .(1)\n\\end{aligned}$<br />Area of quadrilateral\n$\\begin{aligned}\n& \\mathrm{OABC}=\\frac{1}{2}\\left|\\overrightarrow{\\mathrm{d}}_1 \\times \\overrightarrow{\\mathrm{d}}_2\\right| \\\\\n& =\\frac{1}{2}|\\overrightarrow{\\mathrm{AC}} \\times \\overrightarrow{\\mathrm{OB}}|=\\frac{1}{2}|(3 \\overrightarrow{\\mathrm{b}}-2 \\overrightarrow{\\mathrm{a}}) \\times(6 \\overrightarrow{\\mathrm{a}}+5 \\overrightarrow{\\mathrm{b}})| \\\\\n& =\\frac{1}{2}|18 \\overrightarrow{\\mathrm{b}} \\times \\overrightarrow{\\mathrm{a}}-10 \\overrightarrow{\\mathrm{a}} \\times \\overrightarrow{\\mathrm{b}}|=14|\\overrightarrow{\\mathrm{a}} \\times \\overrightarrow{\\mathrm{b}}| \\\\\n& =14 \\times \\frac{5}{2}=35\n\\end{aligned}$",
     "image": null
   },
-  "videoSolution": {
-    "videoId": "4b15804a9fc74009a0db27e242c88e88",
-    "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/Dke2FlMdiLO2f.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/Dke2FlMdiLO2f.480.jpeg",
-    "premiumModules": [
-      {
-        "premiumModuleId": "6628114842d540dfcb148ecb",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "64c7e8e829737784b294e469",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
-        "isFree": false
-      }
-    ],
-    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
-  },
+  "videoSolution": null,
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "664466ee278297dee60eda68",
+    "_id": "664466ef278297dee60eda70",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-04-04T09:00:00.000Z",
+    "heldOn": "2024-04-09T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (04 Apr Shift 1)",
-    "title": "JEE Main 2024 (04 Apr Shift 1)"
+    "shortName": "2024 (09 Apr Shift 1)",
+    "title": "JEE Main 2024 (09 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

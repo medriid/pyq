@@ -1,0 +1,58 @@
+{
+  "_id": "6682bd3aba0e94a3c4025b51",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi>n</mi></munderover><mfenced><mfrac><msup><mfenced><mmultiscripts><mi mathvariant=\"normal\">C</mi><mi>k</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts></mfenced><mn>2</mn></msup><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mfenced></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></munderover><mfenced><mfrac><mrow><mmultiscripts><mi mathvariant=\"normal\">C</mi><mi>k</mi><none></none><mprescripts></mprescripts><none></none><mi mathvariant=\"italic\">n</mi></mmultiscripts><mmultiscripts><mi mathvariant=\"normal\">C</mi><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts></mrow><mrow><mi>k</mi><mo>+</mo><mn>2</mn></mrow></mfrac></mfenced></math>. If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>α</mi><mo>=</mo><mn>6</mn><mi>β</mi></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> equals",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "10",
+  "solution": {
+    "text": "<blockquote><p>Given,<br/><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi>n</mi></munderover><mfenced><mfrac><msup><mfenced><mmultiscripts><mi mathvariant=\"normal\">C</mi><mi>k</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts></mfenced><mn>2</mn></msup><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>α</mi><mo>=</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi>n</mi></munderover><mfrac><mrow><mmultiscripts><mi>C</mi><mi>k</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>·</mo><mmultiscripts><mi>C</mi><mi>k</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts></mrow><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>·</mo><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math></p><p>Now, using <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts><mo>=</mo><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>·</mo><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts></math> we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>α</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi>n</mi></munderover><mmultiscripts><mi>C</mi><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts><mo>·</mo><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>-</mo><mi>k</mi></mrow><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts></math></p><p>Now, using <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi>n</mi></munderover><mmultiscripts><mi>C</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts><mo>·</mo><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>-</mo><mi>r</mi></mrow><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>=</mo><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts></math> we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>α</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>·</mo><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts><mo> </mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mi>i</mi></mfenced></math></p><p>Now, solving </p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></munderover><mmultiscripts><mi>C</mi><mi>k</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>·</mo><mfrac><mmultiscripts><mi>C</mi><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mrow><mi>k</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>β</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></munderover><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>-</mo><mi>k</mi></mrow><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>·</mo><mmultiscripts><mi>C</mi><mrow><mi>k</mi><mo>+</mo><mn>2</mn></mrow><none></none><mprescripts></mprescripts><none></none><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts></math></p><p>Now, using <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi>n</mi></munderover><mmultiscripts><mi>C</mi><mrow><mi>r</mi><mo>+</mo><mn>2</mn></mrow><none></none><mprescripts></mprescripts><none></none><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts><mo>·</mo><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>-</mo><mi>r</mi></mrow><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>=</mo><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow><none></none><mprescripts></mprescripts><none></none><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>β</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>·</mo><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow><none></none><mprescripts></mprescripts><none></none><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts><mo> </mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mrow><mi>i</mi><mi>i</mi></mrow></mfenced></math></p><p>Now, dividing equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>i</mi></mfenced><mo> </mo><mo>&amp;</mo><mo> </mo><mfenced><mrow><mi>i</mi><mi>i</mi></mrow></mfenced></math> and using <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mmultiscripts><mi>C</mi><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts></mfrac><mo>=</mo><mfrac><mrow><mi>n</mi><mo>-</mo><mi>r</mi><mo>+</mo><mn>1</mn></mrow><mi>r</mi></mfrac></math> we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>β</mi><mi>α</mi></mfrac><mo>=</mo><mfrac><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow><none></none><mprescripts></mprescripts><none></none><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mmultiscripts></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo>-</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mi>β</mi><mi>α</mi></mfrac><mo>=</mo><mfrac><mi>n</mi><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>n</mi><mo>=</mo><mn>10</mn></math></p></blockquote>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "2e7dbb59fa264bafa59f1f07778b7f54",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/fX19Hohr5a7Qf.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/fX19Hohr5a7Qf.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "outOfSyllabus",
+  "previousYearPapers": [
+    {
+      "_id": "65c4c0c11d30997d3436bb03",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-01-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (30 Jan Shift 2)",
+      "title": "JEE Main 2024 (30 Jan Shift 2)"
+    }
+  ],
+  "previousYear": {
+    "_id": "65c4c0c11d30997d3436bb03",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-01-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (30 Jan Shift 2)",
+    "title": "JEE Main 2024 (30 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

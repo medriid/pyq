@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7dcba928c9eda96baf",
+    "chapter_name": "Mathematical Reasoning",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Negation of the Boolean expression $\\mathrm{p} \\Leftrightarrow(\\mathrm{q} \\Rightarrow \\mathrm{p})$ is"
+  },
+  "options": [
+    {
+      "text": "$(\\sim p) \\wedge q$",
+      "is_correct": false
+    },
+    {
+      "text": "$(\\mathrm{p}) \\wedge(\\sim \\mathrm{q})$",
+      "is_correct": false
+    },
+    {
+      "text": "$(\\sim \\mathrm{p}) \\vee(\\sim \\mathrm{q})$",
+      "is_correct": false
+    },
+    {
+      "text": "$(\\sim p) \\wedge(\\sim q)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given expression is $p \\Leftrightarrow(q \\Rightarrow p)$<br />$\\sim(\\mathrm{p} \\leftrightarrow(\\mathrm{q} \\rightarrow \\mathrm{p}))$<br />$\\sim(\\mathrm{p} \\leftrightarrow \\mathrm{q})=(\\mathrm{p} \\wedge \\sim \\mathrm{q}) \\vee(\\mathrm{q} \\wedge \\sim \\mathrm{p})$<br />$\\sim(\\mathrm{p} \\leftrightarrow(\\mathrm{q} \\rightarrow \\mathrm{p}))$ $=(\\mathrm{p} \\wedge \\sim(\\mathrm{q} \\rightarrow \\mathrm{p})) \\vee((\\mathrm{q} \\rightarrow \\mathrm{p}) \\wedge \\sim \\mathrm{p})$<br />$(\\mathrm{p} \\wedge \\sim(\\mathrm{q} \\rightarrow \\mathrm{p}))=\\mathrm{p} \\wedge(\\mathrm{q} \\wedge \\sim \\mathrm{p})$ $=(p \\wedge \\sim p) \\wedge q=c$<br />$(q \\rightarrow p) \\wedge \\sim p=(\\sim q \\vee p) \\wedge \\sim p$ $=\\sim p \\wedge(\\sim q \\vee p)$<br />$=(\\sim \\mathrm{p} \\wedge \\sim \\mathrm{q}) \\vee(\\sim \\mathrm{p} \\wedge \\mathrm{p})=\\sim \\mathrm{p} \\wedge \\sim \\mathrm{q}$<br />$\\sim(p \\leftrightarrow(\\dot{q} \\rightarrow p))=c \\vee(\\sim p \\wedge \\sim q)=\\sim p \\wedge \\sim q$"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "index": 232,
   "type": "singleCorrect",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2013 (09 Apr Online)",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2013 (25 Apr Online)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "unknown_shift"
   },
   "question": {
-    "text": "If the surface area of a sphere of radius $r$ is increasing uniformly at the rate $8 \\mathrm{~cm}^2 / \\mathrm{s}$, then the rate of change of its volume is:"
+    "text": "A spherical balloon is being inflated at the rate of $35 \\mathrm{cc} / \\mathrm{min}$. The rate of increase in the surface area (in $\\mathrm{cm}^2 / \\mathrm{min}$.) of the balloon when its diameter is $14 \\mathrm{~cm}$, is :"
   },
   "options": [
     {
-      "text": "\nconstant\n",
-      "is_correct": false
-    },
-    {
-      "text": "\nproportional to $\\sqrt{r}$\n",
-      "is_correct": false
-    },
-    {
-      "text": "\nproportional to $r^2$\n",
-      "is_correct": false
-    },
-    {
-      "text": "\nproportional to $r$",
+      "text": "\n10\n",
       "is_correct": true
+    },
+    {
+      "text": "\n$\\sqrt{10}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n 100\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n $10 \\sqrt{10}$",
+      "is_correct": false
     }
   ],
   "correct_answer": [
-    "D"
+    "A"
   ],
   "solution": {
-    "text": "$$\n\\begin{aligned}\n& \\mathrm{V}=\\frac{4}{3} \\pi r^3 \\Rightarrow \\frac{d \\mathrm{~V}}{d t}=4 \\pi r^2 \\cdot \\frac{d r}{d t} \\\\\n& \\mathrm{~S}=4 \\pi r^2 \\Rightarrow \\frac{d \\mathrm{~S}}{d t}=8 \\pi r \\cdot \\frac{d r}{d t} \\\\\n& \\Rightarrow 8=8 \\pi r \\frac{d r}{d t} \\Rightarrow \\frac{d r}{d t}=\\frac{1}{\\pi r}\n\\end{aligned}\n$$\nPutting the value of $\\frac{d r}{d t}$ in (i), we get\n$$\n\\frac{d \\mathrm{~V}}{d t}=4 \\pi r^2 \\times \\frac{1}{\\pi r}=4 r\n$$\n$\\Rightarrow \\frac{d \\mathrm{~V}}{d t}$ is proportional to $r$."
+    "text": "Volume of sphere $\\mathrm{V}=\\frac{4}{3} \\pi r^3$\n$\\frac{d \\mathrm{~V}}{d t}=\\frac{4}{3} \\cdot \\pi \\cdot 3 r^2 \\cdot \\frac{d r}{d t}$\n$35=4 \\pi r^2 \\cdot \\frac{d r}{d t}$ or $\\frac{d r}{d t}=\\frac{35}{4 \\pi r^2}$\nSurface area of sphere $=\\mathrm{S}=4 \\pi r^2$\n$\\frac{d \\mathrm{~S}}{d t}=4 \\pi \\times 2 r \\times \\frac{d r}{d t}=8 \\pi r \\cdot \\frac{d r}{d t}$\n$\\frac{d \\mathrm{~S}}{d t}=\\frac{70}{r}$\nNow, diameter $=14 \\mathrm{~cm}, r=7$\n$\\therefore \\quad \\frac{d \\mathrm{~S}}{d t}=10$"
   }
 }

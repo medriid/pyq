@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cb79820319dd593c4",
+    "chapter_name": "Sequences and Series",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the sum of an infinite GP $a, a r, a r^2, a r^3, \\ldots$ is 15 and the sum of the squares of its each term is 150 , then the sum of $a r^2, a r^4, a r^6, \\ldots$ is :"
+  },
+  "options": [
+    {
+      "text": "$\\frac{5}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{25}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{9}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Sum of infinite terms of series a $+a r+a r^2+$ $=15$<br />$\\therefore \\frac{a}{1-r}=15$ ...(i)<br />Sequence formed by square of terms: $a^2, a^2 r^2, a^2 r^4, a^2 r^6 \\ldots$<br />$a^2+a^2 r^2+\\cdots=150$<br />Sum $=\\frac{a^2}{1-r^2}=150$<br />$\\Rightarrow \\frac{a}{1-r} \\cdot \\frac{a}{1+r}=15 \\Rightarrow 15 \\cdot \\frac{a}{1+r}=150$ $\\left(\\because \\frac{\\mathrm{a}}{1-\\mathrm{r}}=15\\right)$<br />$\\Rightarrow \\frac{a}{1+r}=10$ ...(ii)<br />On dividing equation (i) by (ii)<br />$\\frac{1+\\mathrm{r}}{1-\\mathrm{r}}=\\frac{15}{10}$<br />or $r=\\frac{1}{5} \\Rightarrow a=12$<br />Now series : $a r^2+a r^4+a r^6+\\ldots$<br />Sum $=\\frac{a^2}{1-r^2}=\\frac{12 \\cdot\\left(\\frac{1}{25}\\right)}{1-\\frac{1}{25}}=\\frac{1}{2}$"
+  }
+}

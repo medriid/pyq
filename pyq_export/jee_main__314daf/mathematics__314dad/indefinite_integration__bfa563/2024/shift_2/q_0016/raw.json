@@ -1,0 +1,63 @@
+{
+  "_id": "66446738970e6e9ab542d151",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda6d",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-06T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (06 Apr Shift 2)",
+      "title": "JEE Main 2024 (06 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If $\\int \\frac{1}{\\mathrm{a}^2 \\sin ^2 x+\\mathrm{b}^2 \\cos ^2 x} \\mathrm{~d} x=\\frac{1}{12} \\tan ^{-1}(3 \\tan x)+$ constant, then the maximum value of $\\mathrm{a} \\sin x+\\mathrm{b} \\cos x$, is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "mMZtK",
+      "text": "$\\sqrt{40}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "5We6h",
+      "text": "$\\sqrt{41}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "9f5yH",
+      "text": "$\\sqrt{39}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "2sVQr",
+      "text": "$\\sqrt{42}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\int \\frac{\\sec ^2 x d x}{a^2 \\tan ^2 x+b^2} \\\\\n& \\text { let } \\tan x=t \\\\\n& \\sec ^2 d x=d t \\\\\n& \\int \\frac{d t}{a^2 t^2+b^2} \\\\\n& \\frac{1}{a^2} \\int \\frac{d t}{t^2+\\left(\\frac{b}{a}\\right)^2} \\\\\n& \\frac{1}{a^2} \\frac{1}{\\frac{b}{a}} \\tan ^{-1}\\left(\\frac{t}{b} a\\right)+c \\\\\n& \\frac{1}{a b} \\tan ^{-1}\\left(\\frac{\\alpha}{b} \\tan x\\right)+c\n\\end{aligned}$\non comparing $\\frac{\\mathrm{a}}{\\mathrm{b}}=3$\n$\\begin{aligned}\n& a b=12 \\\\\n& a=6, b=2\n\\end{aligned}$\nmaximum value of\n$6 \\sin x+2 \\cos x \\text { is } \\sqrt{40}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda6d",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-06T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (06 Apr Shift 2)",
+    "title": "JEE Main 2024 (06 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

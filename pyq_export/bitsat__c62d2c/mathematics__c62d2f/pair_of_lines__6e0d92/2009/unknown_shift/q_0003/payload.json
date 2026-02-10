@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2009",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7324369ff3396e0d92",
+    "chapter_name": "Pair of Lines",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If \\(\\int_0^n[x] \\mathrm{dx}=66\\), then \\(n=\\)"
+  },
+  "options": [
+    {
+      "text": "24",
+      "is_correct": false
+    },
+    {
+      "text": "9",
+      "is_correct": false
+    },
+    {
+      "text": "12",
+      "is_correct": true
+    },
+    {
+      "text": "7",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\int_0^n[x] d x=\\int_0^1 0 d x+\\int_1^2 1 d x+\\int_2^3 2 d x+\\ldots \\ldots+ \\\\\n& \\int_{n-1}^n(n-1) d x \\\\\n& =1+2+3+\\ldots .+(n-1)=\\frac{(n-1) n}{2}=66 \\\\\n& \\Rightarrow n(n-1)=132 \\Rightarrow n=12\n\\end{aligned}\\)"
+  }
+}

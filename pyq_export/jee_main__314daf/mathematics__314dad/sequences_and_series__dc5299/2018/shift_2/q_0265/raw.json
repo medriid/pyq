@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a65417cc3fb48d662fc",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7e6",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2018-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018 (15 Apr Shift 2 Online)",
+      "title": "JEE Main 2018 (15 Apr Shift 2 Online)"
+    }
+  ],
+  "question": {
+    "text": "Let $A_n=\\left(\\frac{3}{4}\\right)-\\left(\\frac{3}{4}\\right)^2+\\left(\\frac{3}{4}\\right)^3-\\ldots+(-1)^{n-1}\\left(\\frac{3}{4}\\right)^n$ and $B_n=1-A_n$. Then, the least odd natural number $p$, so that $B_n>A_n$, for all $n \\geq p$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "rmPXQ",
+      "text": "\n5\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "RJ8po",
+      "text": "\n7\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "fgqkY",
+      "text": "\n11\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "l6iA9",
+      "text": "\n9",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\nA_n=\\left(\\frac{3}{4}\\right)-\\left(\\frac{3}{4}\\right)^2+\\left(\\frac{3}{4}\\right)^3-\\ldots+(-1)^{n-1}\\left(\\frac{3}{4}\\right)^n\n$$\nWhich is a G.P. with $a=\\frac{3}{4}, r=\\frac{-3}{4}$ and number of terms $=n$\n$$\n\\begin{aligned}\n\\therefore A_n &=\\frac{\\frac{3}{4} \\times\\left(1-\\left(\\frac{-3}{4}\\right)^n\\right)}{1-\\left(\\frac{-3}{4}\\right)}=\\frac{\\frac{3}{4} \\times\\left(1-\\left(\\frac{-3}{4}\\right)^n\\right)}{\\frac{7}{4}} \\\\\n\\Rightarrow A_n=\\frac{3}{7}\\left[1-\\left(\\frac{-3}{4}\\right)^n\\right] \\\\\n\\text { As, } B_n=1-A_n\n\\end{aligned}\n$$\nFor least odd natural number $\\mathrm{p}$, such that $B_n>A_n$\n$$\n\\Rightarrow 1-A_n>A_n \\Rightarrow 1>2 \\times A_n \\Rightarrow A_n < \\frac{1}{2}\n$$\nFrom eqn. (1), we get\n$$\n\\begin{aligned}\n&\\frac{3}{7} \\times\\left[1-\\left(\\frac{-3}{4}\\right)^n\\right] < \\frac{1}{2} \\Rightarrow 1-\\left(\\frac{-3}{4}\\right)^n < \\frac{7}{6} \\\\\n&\\Rightarrow 1-\\frac{7}{6} < \\left(\\frac{-3}{4}\\right)^n \\Rightarrow \\frac{-1}{6} < \\left(\\frac{-3}{4}\\right)^n\n\\end{aligned}\n$$\nAs $n$ is odd, then $\\left(\\frac{-3}{4}\\right)^n=-\\frac{3^n}{4}$\nSo $\\frac{-1}{6} < -\\left(\\frac{3}{4}\\right)^n \\Rightarrow \\frac{1}{6}>\\left(\\frac{3}{4}\\right)^n$\n$$\n\\log \\left(\\frac{1}{6}\\right)=n \\log \\left(\\frac{3}{4}\\right) \\Rightarrow 6.228 < n\n$$\nHence, $n$ should be 7 .",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7e6",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2018-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018 (15 Apr Shift 2 Online)",
+    "title": "JEE Main 2018 (15 Apr Shift 2 Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

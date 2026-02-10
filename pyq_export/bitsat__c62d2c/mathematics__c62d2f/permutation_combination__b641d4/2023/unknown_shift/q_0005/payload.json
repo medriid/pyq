@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cccd6ab1da4b641d4",
+    "chapter_name": "Permutation Combination",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "How many different nine digit numbers can be formed from the number 223355888 by rearranging its digits so that the odd digits occupy even positions?"
+  },
+  "options": [
+    {
+      "text": "<br />16",
+      "is_correct": false
+    },
+    {
+      "text": "<br />36",
+      "is_correct": false
+    },
+    {
+      "text": "<br />60",
+      "is_correct": true
+    },
+    {
+      "text": "<br />180",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\mathrm{X}-\\mathrm{X}-\\mathrm{X}-\\mathrm{X}-\\mathrm{X}$. The four digits 3, 3, 5,5 can be arranged at $(-)$ places in $\\frac{4 !}{2 ! 2 !}=6$ ways. The five digits $2,2,8,8,8$ can be arranged at $(X)$ places in $\\frac{5 !}{2 ! 3 !}$ ways $=10$ ways<br />Total no. of arrangements $=6 \\times 10=60$ ways"
+  }
+}

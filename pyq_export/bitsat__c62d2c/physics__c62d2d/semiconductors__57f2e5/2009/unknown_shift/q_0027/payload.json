@@ -1,0 +1,43 @@
+{
+  "index": 27,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2009",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd76457232a5c257f2e5",
+    "chapter_name": "Semiconductors",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The truth table given below correspond to the logic gate\n\\begin{tabular}{cc|c}\n$\\mathrm{A}$ & $\\mathrm{B}$ & $\\mathrm{X}$ \\\\\n\\hline 0 & 0 & 1 \\\\\n1 & 0 & 0 \\\\\n0 & 1 & 0 \\\\\n1 & 1 & 0\n\\end{tabular}"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{OR}$",
+      "is_correct": false
+    },
+    {
+      "text": "NOR",
+      "is_correct": true
+    },
+    {
+      "text": "AND",
+      "is_correct": false
+    },
+    {
+      "text": "NAND",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "The given gate is a NOR gate. The output is high, when all inputs are low.\nTruth Table:\n\\begin{tabular}{|c|c|c|}\n\\hline $\\mathbf{A}$ & $\\mathbf{B}$ & $\\mathbf{Y}$ \\\\\n\\hline 0 & 0 & 1 \\\\\n\\hline 1 & 0 & 0 \\\\\n\\hline 0 & 1 & 0 \\\\\n\\hline 1 & 1 & 0 \\\\\n\\hline \\multicolumn{2}{|c|} { Logic Symbols } \\\\\n\\hline\n\\end{tabular}\n<img src=\"assets\\st0027_3dedf65aaca9.png\"><br>\nBoolean expression: $\\overline{\\mathrm{A}+\\mathrm{B}}=\\mathrm{Y}$"
+  }
+}

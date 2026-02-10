@@ -1,0 +1,58 @@
+{
+  "_id": "67a2eeb2c8b73881fdaea21d",
+  "type": "numerical",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d9760d",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-24T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (24 Jan Shift 2)",
+      "title": "JEE Main 2025 (24 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $y=y(x)$ be the solution of the differential equation $2 \\cos x \\frac{\\mathrm{~d} y}{\\mathrm{~d} x}=\\sin 2 x-4 y \\sin x, x \\in\\left(0, \\frac{\\pi}{2}\\right)$. If $y\\left(\\frac{\\pi}{3}\\right)=0$, then $y^{\\prime}\\left(\\frac{\\pi}{4}\\right)+y\\left(\\frac{\\pi}{4}\\right)$ is equal to $\\qquad$ ________.",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "1",
+  "solution": {
+    "text": "$\\begin{aligned} & \\frac{d y}{d x}+2 y \\tan x=\\sin x \\\\ & \\text { I.F. }=e^{2 \\int \\tan x d x}=\\sec ^2 x \\\\ & y \\sec ^2 x=\\int \\frac{\\sin x}{\\cos ^2 x} d x \\\\ & =\\int \\tan x \\sec x d x \\\\ & =\\sec x+C \\\\ & C=-2\\end{aligned}$\n\n\n$\\begin{aligned} & y=\\cos x-2 \\cos ^2 x \\\\ & y\\left(\\frac{\\pi}{4}\\right)=\\frac{1}{\\sqrt{2}}-1 \\\\ & y^{\\prime}=-\\sin x+4 \\cos x \\sin x \\\\ & y^{\\prime}\\left(\\frac{\\pi}{4}\\right)=-\\frac{1}{\\sqrt{2}}+2 \\\\ & y^{\\prime}\\left(\\frac{\\pi}{4}\\right)+y\\left(\\frac{\\pi}{4}\\right)=1\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "fea5f1e47cb24f3ea1a92d56751210cf",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/m9SHKu8QNrAI8.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/m9SHKu8QNrAI8.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d9760d",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-24T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (24 Jan Shift 2)",
+    "title": "JEE Main 2025 (24 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

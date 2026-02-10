@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7e2daa1f081e2331f8",
+    "chapter_name": "Differentiation",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $g$ is the inverse of function $f$ and $f^{\\prime}(x)=\\sin x$, then $\\mathrm{g}^{\\prime}(\\mathrm{x})$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\operatorname{cosec}\\{\\mathrm{g}(\\mathrm{x})\\}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sin \\{g(x)\\}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{\\sin \\{g(x)\\}}$",
+      "is_correct": true
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Since, $g$ is the inverse of function $f$. Therefore, $\\mathrm{g}(\\mathrm{x})=\\mathrm{f}^{-1}(\\mathrm{x})$\r\n\r\n$\\Rightarrow \\mathrm{f}[\\mathrm{g}(\\mathrm{x})]=\\mathrm{x}$\r\n\r\n$\\Rightarrow$ fog $(\\mathrm{x})=\\mathrm{x},$ for all $\\mathrm{x}$\r\n\r\nDifferentiate both side,w.r.tx\r\n\r\n$\\Rightarrow \\frac{\\mathrm{d}}{\\mathrm{dx}}\\{\\operatorname{fog}(\\mathrm{x})\\}=\\frac{\\mathrm{d}}{\\mathrm{dx}}(\\mathrm{x}),$ for all $\\mathrm{x}$\r\n\r\n$\\Rightarrow \\mathrm{f}^{\\prime}[\\mathrm{g}(\\mathrm{x})] \\mathrm{g}^{\\prime}(\\mathrm{x})=1,$ for all $\\mathrm{x}$\r\n\r\n$\\Rightarrow \\sin \\{\\mathrm{g}(\\mathrm{x})\\} \\mathrm{g}^{\\prime}(\\mathrm{x})=1,$ for all $\\mathrm{x}$\r\n\r\n(By defn of $\\left.f^{\\prime}(x)\\right)$\r\n\r\n$\\Rightarrow \\mathrm{g}^{\\prime}(\\mathrm{x})=\\frac{1}{\\sin \\{\\mathrm{g}(\\mathrm{x})\\}}$"
+  }
+}

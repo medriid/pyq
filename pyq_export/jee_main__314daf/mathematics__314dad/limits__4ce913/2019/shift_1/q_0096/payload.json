@@ -1,8 +1,8 @@
 {
   "index": 96,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2019 (11 Jan Shift 1)",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2019 (08 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Let $[\\mathrm{x}]$ denote the greatest integer less than or equal to $\\mathrm{X}$. Then :\r\n\r\n$\\lim _{x \\rightarrow 0} \\frac{\\tan \\left(\\pi \\sin ^{2} x\\right)+(|\\mathrm{x}|-\\sin (x[x]))^{2}}{x^{2}}$"
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mi mathvariant=\"normal\">&#160;</mi><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi></mrow><mn>2</mn></msup><mi>x</mi></mrow><mrow><msqrt><mn>2</mn></msqrt><mo>-</mo><msqrt><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">s</mi><mi>x</mi></msqrt></mrow></mfrac></math> equals"
   },
   "options": [
     {
-      "text": "does not exist",
+      "text": "<math><mn>4</mn><msqrt><mn>2</mn></msqrt></math>",
       "is_correct": true
     },
     {
-      "text": "equals $\\pi$",
+      "text": "<math><mn>2</mn><msqrt><mn>2</mn></msqrt></math>",
       "is_correct": false
     },
     {
-      "text": "equals $\\pi+1$",
+      "text": "<math><msqrt><mn>2</mn></msqrt></math>",
       "is_correct": false
     },
     {
-      "text": "equals 0",
+      "text": "<math><mn>4</mn></math>",
       "is_correct": false
     }
   ],
@@ -38,6 +38,6 @@
     "A"
   ],
   "solution": {
-    "text": "RHL is, $\\lim _{x \\rightarrow 0^{+}} \\frac{\\tan \\left(\\pi \\sin ^{2} x\\right)+(x-0)^{2}}{x^{2}}$\r\n\r\n$=\\lim _{x \\rightarrow 0^{+}}\\left(\\frac{\\tan \\left(\\pi \\sin ^{2} x\\right.}{x^{2}}+1\\right)=1+\\pi$\r\n\r\nAnd LHL is, $\\lim _{x \\rightarrow 0^{-}} \\frac{\\tan \\left(\\pi \\sin ^{2} x\\right)+(-x+\\sin x)^{2}}{x^{2}}$\r\n\r\n$=\\lim _{x \\rightarrow 0^{-}} \\frac{\\tan \\left(\\pi \\sin ^{2} x\\right)+x^{2}+\\sin ^{2} x-2 x \\sin x}{x^{2}}$\r\n\r\n$=\\pi+1+1-2=\\pi$\r\n\r\nSince, LHL $\\neq$ RHL Hence, limit does not exist."
+    "text": "<p><math><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mi mathvariant=\"normal\">&#160;</mi><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi></mrow><mrow><mn>2</mn></mrow></msup><mi>x</mi></mrow><mrow><msqrt><mn>2</mn></msqrt><mo>-</mo><msqrt><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">s</mi><mi>x</mi></msqrt></mrow></mfrac></math></p><p>On Rationalisation, we get,</p><p>&nbsp; &nbsp; &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mi mathvariant=\"normal\">&#160;</mi><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi></mrow><mn>2</mn></msup><mi>x</mi></mrow><mrow><msqrt><mn>2</mn></msqrt><mo>-</mo><msqrt><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">s</mi><mi>x</mi></msqrt></mrow></mfrac><mo>&#215;</mo><mfrac><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi>sx</mi></msqrt></mrow><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi>sx</mi></msqrt></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mi mathvariant=\"normal\">&#160;</mi><mfrac><msup><mfenced separators=\"|\"><mrow><mn>2</mn><mi>sin</mi><mfrac><mi>x</mi><mn>2</mn></mfrac><mi>cos</mi><mfrac><mi>x</mi><mn>2</mn></mfrac></mrow></mfenced><mn>2</mn></msup><mrow><mn>1</mn><mo>-</mo><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">s</mi><mi>x</mi></mrow></mfrac><mo>&#215;</mo><mfenced separators=\"|\"><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>1</mn><mo>+</mo><mi>cos</mi><mi>x</mi></msqrt></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mi mathvariant=\"normal\">&#160;</mi><mfrac><mrow><mn>4</mn><msup><mrow><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi></mrow><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac><msup><mrow><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">s</mi></mrow><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac></mrow><mrow><mn>2</mn><msup><mrow><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi></mrow><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac></mrow></mfrac><mo>&#215;</mo><mfenced><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>1</mn><mo>+</mo><mi>cos</mi><mi>x</mi></msqrt></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mi>&#160;</mi><mn>2</mn><msup><mrow><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">s</mi></mrow><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac><mfenced separators=\"|\"><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">s</mi><mi>x</mi></msqrt></mrow></mfenced><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math></p><p><math><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math>.</p>"
   }
 }

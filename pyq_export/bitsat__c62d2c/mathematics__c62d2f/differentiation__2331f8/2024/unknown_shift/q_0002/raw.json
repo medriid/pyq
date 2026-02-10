@@ -1,0 +1,63 @@
+{
+  "_id": "67726d0ec49e8ef28ee2b3e5",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6415",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 2)",
+      "title": "BITSAT 2024 (Memory Based Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "At $x=\\frac{\\pi^2}{4}, \\frac{d}{d x}\\left(\\tan ^{-1}(\\cos \\sqrt{x})+\\sec ^{-1}\\left(e^x\\right)\\right)=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "let3c",
+      "text": "$\\frac{1}{\\sqrt{\\mathrm{e}^{\\frac{\\pi^2}{2}}}-1}-\\frac{1}{\\pi}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "9rZi5",
+      "text": "$\\frac{\\pi}{4}+\\frac{1}{\\sqrt{\\mathrm{e}^{\\pi^2}+\\mathrm{e}^{\\pi^2 / 2}}}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "6XueD",
+      "text": "$\\frac{1}{\\sqrt{\\mathrm{e}^{\\pi^2}+\\mathrm{e}^{\\pi^2 / 2}}}+\\frac{2}{\\pi} \\cot \\left(\\frac{\\sqrt{\\pi}}{2}\\right)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "13WIv",
+      "text": "$\\frac{1}{\\sqrt{\\mathrm{e}^\\pi}}+\\frac{1}{\\pi}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\frac{d}{d x}\\left(\\tan ^{-1}(\\cos \\sqrt{x})+\\sec ^{-1}\\left(\\mathrm{e}^x\\right)\\right)$\n$=\\frac{(-\\sin \\sqrt{x})}{1+\\cos ^2 \\sqrt{x}} \\cdot\\left(\\frac{1}{2 \\sqrt{x}}\\right)+\\frac{1}{e^x \\sqrt{e^{2 x}-1}} \\cdot e^x$\nbut when $x=\\frac{\\pi^2}{4}$\n$=-\\frac{-\\sin \\frac{\\pi}{2}}{1+\\cos ^2 \\frac{\\pi}{2}}\\left(\\frac{1}{2}\\right)\\left(\\frac{2}{\\pi}\\right)+\\frac{1}{\\sqrt{e^{\\pi^2 / 2}-1}}$\n$=-\\frac{1}{\\pi}+\\frac{1}{\\sqrt{e^{\\pi^2 / 2}-1}}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6415",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 2)",
+    "title": "BITSAT 2024 (Memory Based Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

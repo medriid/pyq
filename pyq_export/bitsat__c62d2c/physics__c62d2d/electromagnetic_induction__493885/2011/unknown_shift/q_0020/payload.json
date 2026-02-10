@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2011",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7f4ea4ca4e8a493885",
+    "chapter_name": "Electromagnetic Induction",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A metal rod of length $1 \\mathrm{~m}$ is rotated about one of its ends in a plane right angles to a field of inductance $2.5 \\times 10^{-3} \\mathrm{~Wb} / \\mathrm{m}^{2}$. If it makes 1800 revolutions/min. Calculate induced e.m.f. between its ends."
+  },
+  "options": [
+    {
+      "text": "$2.471 \\mathrm{~V}$",
+      "is_correct": false
+    },
+    {
+      "text": "$3.171 \\mathrm{~V}$",
+      "is_correct": false
+    },
+    {
+      "text": "$0.471 \\mathrm{~V}$",
+      "is_correct": true
+    },
+    {
+      "text": "$1.771 \\mathrm{~V}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given : $\\ell=1 \\mathrm{~m}, \\mathrm{~B}=5 \\times 10^{-3} \\mathrm{~Wb} / \\mathrm{m}^{2}$\n$$\n\\mathrm{f}=\\frac{1800}{60}=30 \\text { rotations } / \\mathrm{sec}\n$$\nIn one rotation, the moving rod of the metal traces a circle of radius $\\mathrm{r}=\\ell$\n$\\therefore$ Area swept in one rotation $=\\pi r^{2}$\n$$\n\\begin{array}{l}\n\\frac{\\mathrm{d} \\phi}{\\mathrm{dt}}=\\frac{\\mathrm{d}}{\\mathrm{dt}}(\\mathrm{BA})=\\mathrm{B} \\cdot \\frac{\\mathrm{d} \\mathrm{A}}{\\mathrm{dt}}=\\frac{\\mathrm{B} \\pi \\mathrm{r}^{2}}{\\mathrm{~T}} \\\\\n=\\mathrm{B} \\mathrm{f} \\pi \\mathrm{r}^{2}=\\left(5 \\times 10^{-3}\\right) \\times 3.14 \\times 30 \\times 1=0.471 \\mathrm{~V}\n\\end{array}\n$$"
+  }
+}

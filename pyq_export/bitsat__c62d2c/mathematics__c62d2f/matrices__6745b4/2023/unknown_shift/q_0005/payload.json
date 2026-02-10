@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd73e2ff28f7b16745b4",
+    "chapter_name": "Matrices",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$$<br />\\text { If } A=\\left[\\begin{array}{ccc}<br />0 & c & -b \\\\<br />-c & 0 & a \\\\<br />b & -a & 0<br />\\end{array}\\right] \\text { and } B=\\left[\\begin{array}{ccc}<br />a^2 & a b & a c \\\\<br />a b & b^2 & b c \\\\<br />a c & b c & c^2<br />\\end{array}\\right] \\text {, }<br />$$<br />then $A B$ is equal to"
+  },
+  "options": [
+    {
+      "text": "<br />B",
+      "is_correct": false
+    },
+    {
+      "text": "<br />A",
+      "is_correct": false
+    },
+    {
+      "text": "<br />O",
+      "is_correct": true
+    },
+    {
+      "text": "<br />I",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<br />$\\begin{aligned} &\\quad A B=\\left[\\begin{array}{ccc}0 & c & -b \\\\ -c & 0 & a \\\\ b & -a & 0\\end{array}\\right]\\left[\\begin{array}{ccc}a^2 & a b & a c \\\\ a b & b^2 & b c \\\\ a c & b c & c^2\\end{array}\\right] \\\\ & A B=\\left[\\begin{array}{ccc}a b c-a b c & b^2 c-b^2 c & b c^2-b c^2 \\\\ -a^2 c+a^2 c & -a b c+a b c & -a c+a c \\\\ a^2 b-a^2 b & a b^2-a b^2 & a b c-a b c\\end{array}\\right] \\\\ & =\\left[\\begin{array}{lll}0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 0\\end{array}\\right]=\\mathrm{O} \\\\ & \\end{aligned}$"
+  }
+}

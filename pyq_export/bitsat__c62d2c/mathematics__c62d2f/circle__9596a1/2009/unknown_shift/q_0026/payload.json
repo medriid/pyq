@@ -1,0 +1,43 @@
+{
+  "index": 26,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2009",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd732c864bbbf99596a1",
+    "chapter_name": "Circle",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If \\(|r| > \\) land \\(x=a+\\frac{a}{r}+\\frac{a}{r^2}+\\ldots\\) to \\(\\infty\\),\n\\(\\mathrm{y}=\\mathrm{b}-\\frac{\\mathrm{b}}{\\mathrm{r}}+\\frac{\\mathrm{b}}{\\mathrm{r}^2}-\\ldots . \\text { to } \\infty\\)\nand \\(z=c+\\frac{c}{r^2}+\\frac{c}{r^4}+\\ldots\\) to \\(\\infty\\), then \\(\\frac{x y}{z}=\\)"
+  },
+  "options": [
+    {
+      "text": "\\(\\frac{\\mathrm{ab}}{\\mathrm{c}}\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(\\frac{\\mathrm{ac}}{\\mathrm{b}}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{\\mathrm{bc}}{\\mathrm{a}}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Since \\(|\\mathrm{r}| > 1, \\frac{1}{|\\mathrm{r}|}  < 1\\)\n\\(\\therefore \\mathrm{x}=\\frac{\\mathrm{a}}{1-\\frac{1}{\\mathrm{r}}}=\\frac{\\mathrm{ar}}{\\mathrm{r}-1}\\)\nSimilarly, \\(y=\\frac{b}{1-\\left(-\\frac{1}{r}\\right)}=\\frac{b r}{r+1}\\) and\n\\(\\begin{gathered}\nz=\\frac{c}{1-\\frac{1}{r^2}}=\\frac{cr^2}{r^2-1} \\quad ...(1)\\\\\n\\therefore \\quad x y=\\frac{a r}{r-1} \\times \\frac{b r}{r+1}=\\frac{a b r^2}{r^2-1} \\quad ...(2)\n\\end{gathered}\\)\nDividing (2) by (1), we get\n\\(\\frac{\\mathrm{xy}}{\\mathrm{z}}=\\frac{\\mathrm{abr}^2}{\\mathrm{r}^2-1} \\times \\frac{\\mathrm{r}^2-1}{\\mathrm{cr}^2}=\\frac{\\mathrm{ab}}{\\mathrm{c}}\\)"
+  }
+}

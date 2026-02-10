@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78ba6ebf4e7c5844dc",
+    "chapter_name": "Statistics",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The variance of 20 observations is 5 . If each observation is multiplied by 2 , then the new variance of the resulting observation is"
+  },
+  "options": [
+    {
+      "text": "$2^3 \\times 5$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^2 \\times 5$",
+      "is_correct": true
+    },
+    {
+      "text": "$2 \\times 5$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^4 \\times 5$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let the observations be $x_1, x_2, \\ldots, x_{20}$ and $\\bar{x}$ be their mean. Given that, variance $=5$ and $n=$ 20. We know that,\nVariance $\\left(\\sigma^2\\right)=\\frac{1}{n} \\sum_{i=1}^{20}\\left(x_i-\\bar{x}\\right)^2$\ni.e. $5=\\frac{1}{20} \\sum_{i=1}^{20}\\left(x_i-\\bar{x}\\right)^2$\nor $\\sum_{i=1}^{20}\\left(x_i-\\bar{x}\\right)^2=100$     .....(i)\nIf each observation is multiplied by 2 and the new resulting observations are $y_i$, then\n$y_i=2 x_i$ i.e., $x_i=\\frac{1}{2} y_i$\nTherefore,\n$\\overline{\\mathrm{y}}=\\frac{1}{\\mathrm{n}} \\sum_{\\mathrm{i}=1}^{20} \\mathrm{y}_{\\mathrm{i}}=\\frac{1}{20} \\sum_{\\mathrm{i}=1}^{20} 2 \\mathrm{x}_{\\mathrm{i}}=2 \\cdot \\frac{1}{20} \\sum_{\\mathrm{i}=1}^{20} \\mathrm{x}_{\\mathrm{i}}$\ni.e., $\\bar{y}=2 \\bar{x}$ or $\\bar{x}=\\frac{1}{2} \\bar{y}$.\nOn substituting the values of $x_i$ and $\\bar{x}$ in eq. (i), we get\n$\\sum_{i=1}^{20}\\left(\\frac{1}{2} y_i-\\frac{1}{2} \\bar{y}\\right)^2=100$\ni.e., $\\sum_{i=1}^{20}\\left(y_i-\\bar{y}\\right)^2=400$\nThus, the variance of new observations\n$=\\frac{1}{20} \\times 400=20=2^2 \\times 5$."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65c40",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7d3",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-22T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (22 Apr Online)",
+      "title": "JEE Main 2013 (22 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "If the system of linear equations :\n$$\n\\begin{aligned}\n& x_1+2 x_2+3 x_3=6 \\\\\n& x_1+3 x_2+5 x_3=9 \\\\\n& 2 x_1+5 x_2+a x_3=b\n\\end{aligned}\n$$\nis consistent and has infinite number of solutions, then :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "aXaAC",
+      "text": "\n$a=8, b$ can be any real number\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "YjTeS",
+      "text": "\n$b=15, a$ can be any real number\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "0XREx",
+      "text": "\n$a \\in R-\\{8\\}$ and $b \\in R-\\{15\\}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "wOJ3X",
+      "text": "\n$a=8, b=15$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given system of equations can be written in matrix form as $\\mathrm{AX}=\\mathrm{B}$ where $\\mathrm{A}=\\left(\\begin{array}{lll}1 & 2 & 3 \\\\ 1 & 3 & 5 \\\\ 2 & 5 & a\\end{array}\\right)$ and $\\mathrm{B}=\\left(\\begin{array}{l}6 \\\\ 9 \\\\ b\\end{array}\\right)$\nSince, system is consistent and has infinitely many solutions\n$\\therefore(\\operatorname{adj} . \\mathrm{A}) \\mathrm{B}=0$\n\n$$\n\\begin{aligned}\n& \\Rightarrow\\left(\\begin{array}{ccc}\n3 a-25 & 15-2 a & 1 \\\\\n10-a & a-6 & -2 \\\\\n-1 & -1 & 1\n\\end{array}\\right)\\left(\\begin{array}{l}\n6 \\\\\n9 \\\\\nb\n\\end{array}\\right)=\\left(\\begin{array}{l}\n0 \\\\\n0 \\\\\n0\n\\end{array}\\right) \\\\\n& \\Rightarrow-6-9+b=0 \\Rightarrow b=15 \\\\\n& \\text { and } 6(10-a)+9(a-6)-2(b)=0 \\\\\n& \\Rightarrow 60-6 a+9 a-54-30=0 \\\\\n& \\Rightarrow 3 a=24 \\Rightarrow a=8\n\\end{aligned}\n$$\nHence, $a=8, b=15$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "outOfSyllabusButGoodToSolve",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7d3",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-22T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (22 Apr Online)",
+    "title": "JEE Main 2013 (22 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

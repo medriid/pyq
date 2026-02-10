@@ -1,8 +1,8 @@
 {
   "index": 63,
-  "type": "numerical",
+  "type": "singleCorrect",
   "difficulty": 1,
-  "pyq_info": "JEE Main 2022 (24 Jun Shift 1)",
+  "pyq_info": "JEE Main 2022 (27 Jun Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>056</mn><mo>&#160;</mo><mi>kg</mi></math> of Nitrogen is enclosed in a vessel at a temperature of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>127</mn><mo>&#176;</mo><mi mathvariant=\"normal\">C</mi></math>. The amount of heat required to double the speed of its molecules is_____&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>kcal</mi></math>.<br />(Take <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mn>2</mn><mo>&#160;</mo><mi>cal</mi><mo>&#160;</mo><mi>mole</mi><msup><mmultiscripts><mrow><mo>&#160;</mo><mi mathvariant=\"normal\">K</mi></mrow><mprescripts/><none/><mrow><mo>-</mo><mn>1</mn></mrow></mmultiscripts><mrow><mo>-</mo><mn>1</mn></mrow></msup></math> )"
+    "text": "<p>A mixture of hydrogen and oxygen has volume <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2000</mn><msup><mrow><mo>&#160;</mo><mi>cm</mi></mrow><mn>3</mn></msup></math>, temperature <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn><mo>&#160;</mo><mi mathvariant=\"normal\">K</mi></math>, pressure <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mi>kPa</mi></math> and mass <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>76</mn><mo>&#160;</mo><mi mathvariant=\"normal\">g</mi></math>. The ratio of number of moles of hydrogen to number of moles of oxygen in the mixture will be</p><p>[Take gas constant <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mn>8</mn><mo>.</mo><mn>3</mn><mo>&#160;</mo><mi mathvariant=\"normal\">J</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">K</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mrow><mo>&#160;</mo><mi>mol</mi></mrow><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>]</p>"
   },
-  "options": [],
-  "correct_answer": "12",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>1</mn></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>16</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>16</mn><mn>1</mn></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
   "solution": {
-    "text": "<p>The RMS speed of the molecule is given by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>v</mi><mrow><mi>R</mi><mi>M</mi><mi>S</mi></mrow></msub><mo>=</mo><msqrt><mfrac><mrow><mn>3</mn><mi>R</mi><mi>T</mi></mrow><mi>M</mi></mfrac></msqrt></math>. Therefore, to double the speed the temperature must become&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>&nbsp;times.</p><p>Therefore, the change in the temperature is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8710;</mo><mi>T</mi><mo>=</mo><mn>3</mn><msub><mi>T</mi><mn>0</mn></msub></math>.</p><p>Now the process is isochoric (enclosed vessel)&nbsp;therefore, the heat required will be,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mi>n</mi><msub><mi>C</mi><mi>v</mi></msub><mo>&#8710;</mo><mi>T</mi><mspace linebreak=\"newline\"></mspace><mo>&#8658;</mo><mi>H</mi><mo>=</mo><mfrac><mn>56</mn><mn>28</mn></mfrac><mo>&#215;</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mi>R</mi><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mfenced><mrow><mn>273</mn><mo>+</mo><mn>127</mn></mrow></mfenced><mo>=</mo><mn>12000</mn><mo>&#160;</mo><mi>cal</mi><mo>=</mo><mn>12</mn><mo>&#160;</mo><mi>kcal</mi></math></p>"
+    "text": "<p>From the ideal gas equation, total number of moles in the mixture are,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mfrac><mrow><mi>P</mi><mi>V</mi></mrow><mrow><mi>R</mi><mi>T</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>&#215;</mo><mn>100</mn><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup><mo>&#215;</mo><mn>3</mn></mrow><mrow><mn>25</mn><mo>&#215;</mo><mn>300</mn></mrow></mfrac></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>n</mi><mo>=</mo><mfrac><mn>2</mn><mn>25</mn></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>08</mn></math></p><p>If number of moles of oxygen are <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>n</mi><mn>1</mn></msub></math>&nbsp;and of&nbsp;hydrogen are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>n</mi><mn>2</mn></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>n</mi><mn>1</mn></msub><mo>+</mo><msub><mi>n</mi><mn>2</mn></msub><mo>=</mo><mi>n</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>08</mn><mo>&#8230;</mo><mfenced><mn>1</mn></mfenced></math></p><p>And total mass of the mixture</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>n</mi><mn>1</mn></msub><mfenced><mn>32</mn></mfenced><mo>+</mo><msub><mi>n</mi><mn>2</mn></msub><mfenced><mn>2</mn></mfenced><mo>=</mo><mn>0</mn><mo>.</mo><mn>76</mn><mo>&#8230;</mo><mfenced><mn>2</mn></mfenced></math></p><p>Solving the above equations,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>n</mi><mn>1</mn></msub><mo>=</mo><mn>0</mn><mo>.</mo><mn>02</mn></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>n</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn><mo>.</mo><mn>06</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>n</mi><mn>2</mn></msub><msub><mi>n</mi><mn>1</mn></msub></mfrac><mo>=</mo><mn>3</mn></math></p>"
   }
 }

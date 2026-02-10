@@ -1,8 +1,8 @@
 {
   "index": 56,
-  "type": "numerical",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2022 (29 Jun Shift 1)",
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2022 (29 Jul Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "A body is performing simple harmonic with an amplitude of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>&#160;</mo><mi>cm</mi></math>. The velocity of the body was tripled by air Jet when it is at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>&#160;</mo><mi>cm</mi></math> from its mean position. The new amplitude of vibration is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>x</mi></msqrt><mo>&#160;</mo><mi>cm</mi></math>. The value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> is _____ ."
+    "text": "The time period of oscillation of a simple pendulum of length <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math>&nbsp;suspended from the roof of a vehicle, which moves without friction down an inclined plane of inclination <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi></math>, is given by :"
   },
-  "options": [],
-  "correct_answer": "700",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>&#960;</mi><msqrt><mfrac><mi>L</mi><mfenced><mrow><mi>g</mi><mi>cos</mi><mi>&#945;</mi></mrow></mfenced></mfrac></msqrt></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>&#960;</mi><msqrt><mfrac><mi>L</mi><mfenced><mrow><mi>g</mi><mi>sin</mi><mi>&#945;</mi></mrow></mfenced></mfrac></msqrt></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>&#960;</mi><msqrt><mfrac><mi>L</mi><mi>g</mi></mfrac></msqrt></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>&#960;</mi><msqrt><mfrac><mi>L</mi><mfenced><mrow><mi>g</mi><mi>tan</mi><mi>&#945;</mi></mrow></mfenced></mfrac></msqrt></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
   "solution": {
-    "text": "<p><img src=\"assets\\st0056_0f71287db740.png\" style=\"width: 240px; height: 75px;\" /></p><p>In SHM, velocity of the particle at any displacement,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>&nbsp;is given by,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><msqrt><msup><mi>A</mi><mn>2</mn></msup><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></msqrt></math>.</p><p>Therefore,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mi>v</mi><mrow><mn>3</mn><mi>v</mi></mrow></mfrac><mo>=</mo><mfrac><mfenced><msqrt><msubsup><mi>A</mi><mn>1</mn><mn>2</mn></msubsup><mo>-</mo><mn>25</mn></msqrt></mfenced><msqrt><msubsup><mi>A</mi><mn>2</mn><mn>2</mn></msubsup><mo>-</mo><mn>25</mn></msqrt></mfrac></math>&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msqrt><msubsup><mi>A</mi><mn>2</mn><mn>2</mn></msubsup><mo>-</mo><mn>25</mn></msqrt><mo>=</mo><mn>3</mn><mo>&#215;</mo><msqrt><mn>75</mn></msqrt></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msubsup><mi>A</mi><mn>2</mn><mn>2</mn></msubsup><mo>=</mo><mn>700</mn></math>&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>A</mi><mn>2</mn></msub><mo>=</mo><msqrt><mn>700</mn></msqrt><mo>&#160;</mo><mi>cm</mi></math></p>"
+    "text": "<blockquote><p>Acceleration of vehicle down the incline will be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mi>g</mi><mi>sin</mi><mi>&#945;</mi></math><br />In the frame of the vehicle, we have to apply pseudo force. The Force diagram is shown in figure.<br />Component of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mi>g</mi></math>&nbsp;along the inclined (i.e. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mi>g</mi><mi>sin</mi><mi>&#945;</mi></math>)&nbsp;will balance the pseudo force. Therefore,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>g</mi><mrow><mi>e</mi><mi>f</mi><mi>f</mi></mrow></msub><mo>=</mo><mi>g</mi><mo>cos</mo><mi>&#945;</mi></math><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img alt=\"\" src=\"assets\\st0056_ed1d4dc256db.png\" style=\"width: 248px; height: 181px;\" /><br /><br />Hence,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mo>=</mo><mn>2</mn><mi>&#960;</mi><msqrt><mfrac><mi>L</mi><msub><mi>g</mi><mrow><mi>e</mi><mi>f</mi><mi>f</mi></mrow></msub></mfrac></msqrt><mo>=</mo><mn>2</mn><mi>&#960;</mi><msqrt><mfrac><mi>L</mi><mrow><mi>g</mi><mo>cos</mo><mi>&#945;</mi></mrow></mfrac></msqrt></math>.</p></blockquote>"
   }
 }

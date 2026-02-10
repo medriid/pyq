@@ -1,0 +1,43 @@
+{
+  "index": 36,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78b6e5f7d916087e2f",
+    "chapter_name": "Probability",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The probability of simultaneous occurrence of atleast one of two events $A$ and $B$ is $p .$ If the probability that exactly one of $A, B$ occurs is $q$ then $P\\left(A^{\\prime}\\right)+P\\left(B^{\\prime}\\right)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$2-2 p+q$",
+      "is_correct": true
+    },
+    {
+      "text": "$2+2 p-q$",
+      "is_correct": false
+    },
+    {
+      "text": "$3-3 p+q$",
+      "is_correct": false
+    },
+    {
+      "text": "$2-p+q$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Since, $P($ exactly one of $A, B$ occurs $)=q$.\r\n$\\therefore \\quad P(A \\cup B)-P(A \\cap B)=q$\r\n$\\Rightarrow \\quad p-P(A \\cap B)=q \\Rightarrow P(A \\cap B)=p-q$\r\n$\\Rightarrow \\quad 1-P\\left(A^{\\prime} \\cup B^{\\prime}\\right)=p-q \\Rightarrow P\\left(A^{\\prime} \\cup B^{\\prime}\\right)=1-p+q$\r\n$\\Rightarrow \\quad P\\left(A^{\\prime}\\right)+P\\left(B^{\\prime}\\right)-P\\left(A^{\\prime} \\cap B^{\\prime}\\right)=1-p+q$\r\n$\\Rightarrow \\quad P\\left(A^{\\prime}\\right)+P\\left(B^{\\prime}\\right)=(1-p+q)+[1-P(A \\cup B)]$\r\n$=(1-p+q)+(1-p)=2-2 p+q$"
+  }
+}

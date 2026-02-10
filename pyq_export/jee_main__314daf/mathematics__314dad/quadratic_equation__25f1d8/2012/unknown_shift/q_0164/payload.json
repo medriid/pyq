@@ -1,0 +1,43 @@
+{
+  "index": 164,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (19 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602525fb63982f7225f1d8",
+    "chapter_name": "Quadratic Equation",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider a quadratic equation $a x^2+b x+c=0$, where $2 a+3 b+6 c=0$ and let $g(x)=a \\frac{x^3}{3}+b \\frac{x^2}{2}+c x$.\nStatement 1: The quadratic equation has at least one root in the interval $(0,1)$.\nStatement 2: The Rolle's theorem is applicable to function $g(x)$ on the interval $[0,1]$."
+  },
+  "options": [
+    {
+      "text": "\nStatement 1 is false, Statement 2 is true.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement 1 is true, Statement 2 is false.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement 1 is true, Statement 2 is true, Statement 2 is not a correct explanation for Statement 1.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement 1 is true, Statement 2 is true, , Statement 2 is a correct explanation for Statement 1.",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $g(x)=\\frac{a x^3}{3}+b \\cdot \\frac{x^2}{2}+c x$\n$$\n\\mathrm{g}^{\\prime}(x)=a x^2+b x+c\n$$\nGiven: $a x^2+b x+c=0$ and $2 a+3 b+6 c=0$\nStatement-2:\n(i) $g(0)=0$ and $g(1)$\n\n$$\n\\begin{aligned}\n& =\\frac{a}{3}+\\frac{b}{2}+c=\\frac{2 a+3 b+6 c}{6} \\\\\n& =\\frac{0}{6}=0 \\\\\n& \\Rightarrow g(0)=g(1)\n\\end{aligned}\n$$\n(ii) $g$ is continuous on $[0,1]$ and differentiable on $(0,1)$\n$\\therefore$ By Rolle's theorem $\\exists k \\in(0,1)$ such that $g^{\\prime}(k)=0$\nThis holds the statement 2. Also, from statement-2, we can say $a x^2+b x+c=0$ has at least one root in $(0,1)$.\nThus statement-1 and 2 both are true and statement-2 is a correct explanation for statement-1."
+  }
+}

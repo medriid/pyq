@@ -1,0 +1,58 @@
+{
+  "_id": "67a2ee86c8b73881fdaea0a5",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d97608",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-22T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (22 Jan Shift 1)",
+      "title": "JEE Main 2025 (22 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "If $\\sum_{r=0}^5 \\frac{{ }^{11} C_{2r+1}}{2 r+2}=\\frac{\\mathrm{m}}{\\mathrm{n}}, \\operatorname{gcd}(\\mathrm{m}, \\mathrm{n})=1$, then $\\mathrm{m}-\\mathrm{n}$ is equal to _______",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "2035",
+  "solution": {
+    "text": "$\\begin{aligned}\n& (1+x)^{11}={ }^{11} C_0+{ }^{11} C_1 x+{ }^{11} C_2 x^2+\\cdots+{ }^{11} C_{11} x^{11} \\\\\n& \\int_0^1(1+x)^{11} d x=\\int_0^1\\left({ }^{11} C_0+{ }^{11} C_1 x+{ }^{11} C_2 x^2+\\cdots+{ }^{11} C_{11} x x^{11}\\right) d x \\\\\n& \\left.\\left.\\frac{(1-x)^{12}}{12}\\right|_0 ^1={ }^{11} C_{0 x}+\\frac{{ }^{11} C_1 x^2}{2}+\\frac{{ }^{11} C_2 x}{3}+\\cdots+\\frac{{ }^{11} C_{11} x^{12}}{12}\\right]_0^1 \\\\\n& \\frac{2^{12}-1}{12}=C_0+\\frac{C_1}{2}+\\frac{C_2}{3}+\\cdots+\\frac{C_{11}}{12} \\ldots(1)\n\\end{aligned}$\nNow,\n$\\begin{aligned}\n& \\int_{-1}^0(1+x)^{11} d x=\\int_{-1}^0\\left({ }^{11} C_0+{ }^{11} C_1 x+{ }^{11} C_2 x^2+\\cdots+{ }^{11} C_{11} x^{11}\\right) d x \\\\\n& \\left.\\left.\\frac{(1+x)^{12}}{12}\\right]_{-1}^0={ }^{11} C_0 x+\\frac{{ }^{11} C_1 x^2}{2}+\\frac{{ }^{11} C_2 x^3}{3}+\\cdots+\\frac{{ }^{11} C_{11} x^{12}}{12}\\right]_{-1}^0\n\\end{aligned}$\n$\\frac{1}{12}=C_0-\\frac{C_1}{2}+\\frac{C_2}{3} \\cdots$\n$\\begin{aligned}\n& (1)-(2) \\\\\n& =\\frac{2^{12}-2}{12}=2\\left[\\frac{C_1}{2}+\\frac{C_3}{4}+\\cdots\\right] \\\\\n& \\Rightarrow \\sum_{r=0}^5 \\frac{C_{2 r+1}}{2 r+2}=\\frac{2^{11}-1}{12}=\\frac{2047}{12}=\\frac{m}{n} \\\\\n& =2047-12=2035\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "8ee07f81cddd43d8945730fb4bcb45ec",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/LYUxm5VXnw9sc.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/LYUxm5VXnw9sc.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d97608",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-22T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (22 Jan Shift 1)",
+    "title": "JEE Main 2025 (22 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

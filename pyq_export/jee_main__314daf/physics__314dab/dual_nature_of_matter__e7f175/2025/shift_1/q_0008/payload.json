@@ -1,8 +1,8 @@
 {
   "index": 8,
   "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2025 (29 Jan Shift 1)",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "If \\(\\lambda\\) and \\(K\\) are de Broglie wavelength and kinetic energy, respectively, of a particle with constant mass. The correct graphical representation for the particle will be"
+    "text": "A small mirror of mass $m$ is suspended by a massless thread of length $l$. Then the small angle through which the thread will be deflected when a short pulse of laser of energy $E$ falls normal on the mirror ( $\\mathrm{c}=$ speed of light in vacuum and $\\mathrm{g}=$ acceleration due to gravity)"
   },
   "options": [
     {
-      "text": "<img src=\"assets\\ot1_0008_b23c5d5fa150.png\"/><br/>",
+      "text": "$\\theta=\\frac{3 \\mathrm{E}}{4 \\mathrm{mc} \\sqrt{\\mathrm{g} l}}$",
       "is_correct": false
     },
     {
-      "text": "<img src=\"assets\\ot2_0008_1bf29736ecaf.png\"/><br/>",
+      "text": "$\\theta=\\frac{\\mathrm{E}}{\\mathrm{mc} \\sqrt{\\mathrm{g} l}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\theta=\\frac{\\mathrm{E}}{2 \\mathrm{mc} \\sqrt{\\mathrm{gl}}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\theta=\\frac{2 \\mathrm{E}}{\\mathrm{mc} \\sqrt{\\mathrm{g} l}}$",
       "is_correct": true
-    },
-    {
-      "text": "<img src=\"assets\\ot3_0008_8407fd78ea39.png\"/><br/>",
-      "is_correct": false
-    },
-    {
-      "text": "<img src=\"assets\\ot4_0008_9604466e68f9.png\"/><br/>",
-      "is_correct": false
     }
   ],
   "correct_answer": [
-    "B"
+    "D"
   ],
   "solution": {
-    "text": "$\\begin{aligned}\n& \\lambda=\\frac{\\mathrm{h}}{\\mathrm{mv}}=\\frac{\\mathrm{h}}{\\sqrt{2 \\mathrm{mK}}} \\\\\n& \\lambda^2=\\frac{\\mathrm{h}^2}{2 \\mathrm{~m}}\\left(\\frac{1}{\\mathrm{k}}\\right) \\\\\n& \\mathrm{Y}=\\mathrm{cx}^2\n\\end{aligned}$\n\nUpward facing parabola passing through origin."
+    "text": "<img src=\"assets\\st0008_02a2a251c43e.png\"/><br/>Force due to beam assuming complete reflection $\\mathrm{F}=\\frac{2 \\mathrm{P}}{\\mathrm{C}}=\\frac{2}{\\mathrm{C}} \\frac{\\mathrm{dE}}{\\mathrm{dt}} ; \\mathrm{P}$ is power<br/>So change in momentum of mirror.<br/>$\\mathrm{m}(\\mathrm{~V}-0)=\\int \\mathrm{Fdt}=\\frac{2}{\\mathrm{C}} \\int \\mathrm{dE}=\\frac{2 \\mathrm{E}}{\\mathrm{C}}$<br/>Now using work energy theorem ...(1)<img src=\"assets\\st0008_8d563e5185e4.png\"/><br/>$\\begin{aligned}<br/>& \\mathrm{W}_{\\mathrm{g}}=\\Delta \\mathrm{k} \\\\\n& -\\mathrm{mg} \\ell(1-\\cos \\theta)=0-\\frac{1}{2} \\mathrm{mv}^2 \\\\\n& \\mathrm{~g} \\ell\\left(2 \\sin ^2 \\frac{\\theta}{2}\\right)=\\frac{\\mathrm{v}^2}{2}<br/>\\end{aligned}$<br/>as $\\theta$ is small<br/>$\\begin{aligned} & \\mathrm{g} \\ell 2\\left(\\frac{\\theta}{2}\\right)^2=\\frac{1}{2} \\frac{4 \\mathrm{E}^2}{\\mathrm{~m}^2 \\mathrm{c}^2} \\\\ & \\mathrm{~g} \\ell \\theta^2=\\frac{4 \\mathrm{E}^2}{\\mathrm{~m}^2 \\mathrm{c}^2} \\\\ & \\theta=\\frac{2 \\mathrm{E}}{\\mathrm{mc} \\sqrt{\\mathrm{g} \\ell}}\\end{aligned}$"
   }
 }

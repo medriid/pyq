@@ -1,0 +1,43 @@
+{
+  "index": 32,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7455ca3b13e5b648ea",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Find the coordinates of the point where the line joining the points (2,-3,1) and (3,-4,-5) cuts the plane $2 x+y+z=7$"
+  },
+  "options": [
+    {
+      "text": "(1,2,-7)",
+      "is_correct": false
+    },
+    {
+      "text": "(1,-2,7)",
+      "is_correct": true
+    },
+    {
+      "text": "(-1,-2,7)",
+      "is_correct": false
+    },
+    {
+      "text": "(1,2,7)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "The direction ratios of the line are $3-2,-4-(-3),-5-1$ i.e. 1,-1,-6\r\nHence equation of the line joining the given points is $\\frac{x-2}{1}=\\frac{y+3}{-1}=\\frac{z-1}{-6}=r($ say $)$\r\nCoordinates of any point on this line are $(r+2,-r-3,-6 r+1)$\r\nIf this point lies on the given plane $2 x+y+z=7$ then $2(r+2)+(-r-3)+(-6 r+1)=7 \\Rightarrow r=-1$\r\nCoordinates of any point on this line are $(-1+2,-(-1)-3,-6(-1)+1)$ i.e. (1,-2,7)"
+  }
+}

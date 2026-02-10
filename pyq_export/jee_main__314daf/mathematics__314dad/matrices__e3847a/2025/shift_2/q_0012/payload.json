@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (8 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $A=\\left[\\begin{array}{ccc}2 & 2+p & 2+p+q \\\\ 4 & 6+2 p & 8+3 p+2 q \\\\ 6 & 12+3 p & 20+6 p+3 q\\end{array}\\right]$.<br/>If $\\operatorname{det}(\\operatorname{adj}(\\operatorname{adj}(3 \\mathrm{~A})))=2^{\\mathrm{m}} \\cdot 3^{\\mathrm{n}}, \\mathrm{m}, \\mathrm{n} \\in \\mathrm{N}$, then $\\mathrm{m}+\\mathrm{n}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "22",
+      "is_correct": false
+    },
+    {
+      "text": "24",
+      "is_correct": true
+    },
+    {
+      "text": "26",
+      "is_correct": false
+    },
+    {
+      "text": "20",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$|A|=\\left|\\begin{array}{ccc}2 & 2+p & 2+p+q \\\\ 4 & 6+2 p & 8+3 p+2 q \\\\ 6 & 12+3 p & 20+6 p+3 q\\end{array}\\right|$<br/>$\\mathrm{C}_3 \\rightarrow \\mathrm{C}_3-\\mathrm{C}_2-\\mathrm{C}_1 \\times \\frac{\\mathrm{q}}{2}$<br/>Then $\\mathrm{C}_3 \\rightarrow \\mathrm{C}_2-\\mathrm{C}_1 \\mathrm{X}\\left(1+\\frac{\\mathrm{p}}{2}\\right)$<br/>$\\begin{aligned}<br/>& \\Rightarrow|\\mathrm{A}|=\\left|\\begin{array}{ccc}<br/>2 & 0 & 0 \\\\\n4 & 2 & 2+\\mathrm{p} \\\\\n6 & 6 & 8+3 \\mathrm{p}<br/>\\end{array}\\right| \\\\\n& \\Rightarrow|\\mathrm{A}|=2(16+6 \\mathrm{p}-12-6 \\mathrm{p})=8=2^3 \\\\\n& |\\operatorname{adj}(\\operatorname{adj}(3 \\mathrm{~A}))|=|3 \\mathrm{~A}|^{(3-1)^2}=|3 \\mathrm{~A}|^4 \\\\\n& =\\left(3^3|\\mathrm{~A}|\\right)^4=\\left(3^3 \\times 2^3\\right)^4=2^{12} \\times 3^{12} \\\\\n& \\Rightarrow \\mathrm{~m}+\\mathrm{n}=24<br/>\\end{aligned}$"
+  }
+}

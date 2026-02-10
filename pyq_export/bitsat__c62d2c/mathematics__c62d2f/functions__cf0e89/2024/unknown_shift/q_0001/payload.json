@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd744fe496e9e0cf0e89",
+    "chapter_name": "Functions",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $[x]$ denote the greatest integer $\\leq x$. If $f(x)=[x]$ and $g(x)=|x|$, then the value of $f\\left(g\\left(\\frac{8}{5}\\right)\\right)-g\\left(f\\left(-\\frac{8}{5}\\right)\\right)$ is"
+  },
+  "options": [
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "-2",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "-1",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given, $f(x)=[x]$ and $g(x)=|x|$\nNow,\n$\\begin{gathered}\nf\\left(\\frac{-8}{5}\\right)=\\left[-\\frac{8}{5}\\right]=-2 \\ldots(i)\\\\\ng\\left(\\frac{8}{5}\\right)=\\left|\\frac{8}{5}\\right|=\\frac{8}{5}\\ldots(ii)\n\\end{gathered}$\nNow, $f\\left(g\\left(\\frac{8}{5}\\right)\\right)-g\\left(f\\left(-\\frac{8}{5}\\right)\\right)=f\\left(\\frac{8}{5}\\right)-g(-2)$\nBy Eqs. (i) and (ii),\n$\\begin{aligned}\n& =\\left[\\frac{8}{5}\\right]-|-2| \\\\\n& =1-2 \\\\\n& =-1\n\\end{aligned}$"
+  }
+}

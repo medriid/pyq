@@ -1,0 +1,63 @@
+{
+  "_id": "67726d1cc49e8ef28ee2b455",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6416",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T19:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 3)",
+      "title": "BITSAT 2024 (Memory Based Paper 3)"
+    }
+  ],
+  "question": {
+    "text": "How many different nine digit numbers can be formed from the number 223355888 by rearranging its digits so that the odd digits occupy even positions",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "vuium",
+      "text": "16",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ZKBAy",
+      "text": "36",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "tGVuS",
+      "text": "60",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "7b7lh",
+      "text": "100",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Here we have 4 odd digits $(3,3,5,5)$ and 5 even digits (2, 2, 8, 8, 8).\n$\\bar{O} \\bar{E} \\bar{O} \\bar{E} \\bar{O} \\bar{O} \\bar{E} \\bar{O}$\nwhere, $E \\rightarrow$ even place and $O \\rightarrow$ odd place\n$\\Rightarrow$ Number of ways odd digits will be place on even places\n$=\\frac{4!}{2!2!}$\nNumber of ways even digits will be place on odd places\n$\\begin{aligned}\n& \\quad=\\frac{5!}{2!3!} \\\\\n& \\therefore \\text { Total number of ways }=\\frac{4!}{2!2!} \\times \\frac{5!}{2!3!}=60\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6416",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T19:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 3)",
+    "title": "BITSAT 2024 (Memory Based Paper 3)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

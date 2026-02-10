@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2009",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7d211e05bce84fe206",
+    "chapter_name": "Determinants",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The digits \\(\\mathrm{A}, \\mathrm{B}\\) and \\(\\mathrm{C}\\) are such that the three digit numbers \\(A 88,6 \\mathrm{~B} 8,86 \\mathrm{C}\\) are divisible by 72 then the determinant \\(\\left|\\begin{array}{ccc}\\text { A } & 6 & 8 \\\\ 8 & B & 6 \\\\ 8 & 8 & C\\end{array}\\right|\\) is divisible by"
+  },
+  "options": [
+    {
+      "text": "72",
+      "is_correct": true
+    },
+    {
+      "text": "144",
+      "is_correct": false
+    },
+    {
+      "text": "288",
+      "is_correct": false
+    },
+    {
+      "text": "216",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "\\(R_3 \\rightarrow 100 R_1+10 R_2+R_3\\)\n\\(\\Rightarrow\\left|\\begin{array}{ccc}\nA & 6 & 8 \\\\\n8 & B & 6 \\\\\n8 & 8 & C\n\\end{array}\\right|=\\left|\\begin{array}{ccc}\nA & 6 & 8 \\\\\n8 & B & 6 \\\\\nA 88 & 6 B C & 86 C\n\\end{array}\\right|\\)\nwhich is divisible by 72."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2013",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7f80092b5aa328b5a1",
+    "chapter_name": "Thermal Properties of Matter",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the radius of a star is $R$ and it acts as a black body, what would be the temperature of the star, in which the rate of energy production is $Q$ ?"
+  },
+  "options": [
+    {
+      "text": "$Q / 4 \\pi R^{2} \\sigma$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\mathrm{Q} / 4 \\pi R^{2} \\sigma\\right)^{-1 / 2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(4 \\pi R^{2} Q / \\sigma\\right)^{1 / 4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\mathrm{Q} / 4 \\pi R^{2} \\sigma\\right)^{1 / 4}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Stefan's law for black bodyradiation $Q=\\sigma e A T^{4}$\r\n\r\n$$\r\n\r\nT=\\left[\\frac{Q}{\\sigma\\left(4 \\pi R^{2}\\right)}\\right]^{1 / 4}\r\n\r\n$$\r\n\r\nHere $e=1$\r\n\r\n$$\r\n\r\nA=4 \\pi R^{2}\r\n\r\n$$"
+  }
+}

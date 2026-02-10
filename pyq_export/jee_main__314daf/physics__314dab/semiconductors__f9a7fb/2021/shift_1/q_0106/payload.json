@@ -2,7 +2,7 @@
   "index": 106,
   "type": "singleCorrect",
   "difficulty": 1,
-  "pyq_info": "JEE Main 2021 (26 Aug Shift 1)",
+  "pyq_info": "JEE Main 2021 (31 Aug Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "<p>Identify the logic operation carried out by the given circuit:</p><p><img src=\"assets\\qt0106_7a82fb325739.png\" style=\"width: 366px; height: 129px;\" /></p>"
+    "text": "In the following logic circuit the sequence of the inputs <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>,</mo><mo>&#160;</mo><mi>B</mi></math> are <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>.</mo></math>&nbsp;The output <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> for this sequence will be :<br /><img src=\"assets\\qt0106_18f5c3952734.png\" style=\"width: 400px; height: 195px;\" />"
   },
   "options": [
     {
-      "text": "OR",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>1</mn></math>",
       "is_correct": false
     },
     {
-      "text": "AND",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn></math>",
       "is_correct": false
     },
     {
-      "text": "NAND",
-      "is_correct": false
-    },
-    {
-      "text": "NOR",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn></math>",
       "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn></math>",
+      "is_correct": false
     }
   ],
   "correct_answer": [
-    "D"
+    "C"
   ],
   "solution": {
-    "text": "<p><img src=\"assets\\st0106_a7bb04e276ba.png\" style=\"width: 325px; height: 148px;\" /></p><p>In the above circuit diagram of the gate, the result of the above combination is,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi><mo>=</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>&#183;</mo><mover><mi>B</mi><mo>&#175;</mo></mover></math>, using&nbsp;Demorgan&#39;s theorem,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi><mo>=</mo><mover><mrow><mi>A</mi><mo>+</mo><mi>B</mi></mrow><mo>&#175;</mo></mover></math>, so this circuit is equivalent&nbsp;to&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NOR</mi></math>&nbsp;gate.</p>"
+    "text": "<p>Look at the above circuit, the value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>&nbsp;can be found by the idea of AND gate,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mi>A</mi><mo>&#183;</mo><mi>B</mi></math>&nbsp;and the value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math>, can be calculated by the idea of OR gate,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi><mo>=</mo><mi>A</mi><mo>+</mo><mi>B</mi></math>. Then expression for&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>&nbsp;can be taken by the idea of NAND gate,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>Y</mi><mo>=</mo><mover><mrow><mi>P</mi><mo>&#183;</mo><mi>Q</mi></mrow><mo>&#175;</mo></mover></math>&nbsp;by the idea of Demorgan&#39;s theorem,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><mover><mi>P</mi><mo>&#175;</mo></mover><mo>+</mo><mover><mi>Q</mi><mo>&#175;</mo></mover><mo>=</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>+</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>+</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>&#183;</mo><mover><mi>B</mi><mo>&#175;</mo></mover></math><br /><img src=\"assets\\st0106_632036a19122.png\" style=\"width: 325px; height: 141px;\" /><br />&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnlines=\"none solid\" rowlines=\"solid none none none\"><mtr><mtd><mi mathvariant=\"normal\">A</mi></mtd><mtd><mi mathvariant=\"normal\">B</mi></mtd><mtd><mi mathvariant=\"normal\">Y</mi><mo>=</mo><mover><mi mathvariant=\"normal\">A</mi><mo>&#175;</mo></mover><mo>+</mo><mover><mi mathvariant=\"normal\">B</mi><mo>&#175;</mo></mover><mo>+</mo><mover><mi mathvariant=\"normal\">A</mi><mo>&#175;</mo></mover><mo>&#183;</mo><mover><mi mathvariant=\"normal\">B</mi><mo>&#175;</mo></mover></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></math></p>"
   }
 }

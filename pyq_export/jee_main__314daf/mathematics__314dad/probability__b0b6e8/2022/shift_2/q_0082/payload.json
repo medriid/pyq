@@ -1,8 +1,8 @@
 {
   "index": 82,
-  "type": "singleCorrect",
+  "type": "numerical",
   "difficulty": 1,
-  "pyq_info": "JEE Main 2022 (26 Jul Shift 2)",
+  "pyq_info": "JEE Main 2022 (29 Jul Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>&nbsp;be a binomially distributed random variable with mean&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>&nbsp;and variance&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac></math>. Then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>54</mn><mo>&#160;</mo><mi>P</mi><mfenced><mrow><mi>X</mi><mo>&#8804;</mo><mn>2</mn></mrow></mfenced></math>&nbsp;is equal to"
+    "text": "The sum and product of the mean and variance of a binomial distribution are <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>82</mn><mo>.</mo><mn>5</mn></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1350</mn></math>&nbsp;respectively. They the number of trials in the binomial distribution is"
   },
-  "options": [
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>73</mn><mn>27</mn></mfrac></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>146</mn><mn>27</mn></mfrac></math>",
-      "is_correct": true
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>146</mn><mn>81</mn></mfrac></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>126</mn><mn>81</mn></mfrac></math>",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "B"
-  ],
+  "options": [],
+  "correct_answer": "96",
   "solution": {
-    "text": "<blockquote><p>Mean&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mi>p</mi><mo>=</mo><mn>4</mn></math></p><p>Variance&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mi>p</mi><mi>q</mi><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></math></p><p>i.e.&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>6</mn><mo>,</mo><mo>&#160;</mo><mi>p</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>,</mo><mo>&#160;</mo><mi>q</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math></p><p>Now&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>54</mn><mi>P</mi><mfenced><mrow><mi>X</mi><mo>&#8804;</mo><mn>2</mn></mrow></mfenced><mo>=</mo><mn>54</mn><mfenced open=\"[\" close=\"]\"><mrow><mi>P</mi><mfenced><mrow><mi>X</mi><mo>=</mo><mn>2</mn></mrow></mfenced><mo>+</mo><mi>P</mi><mfenced><mrow><mi>X</mi><mo>=</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mi>P</mi><mfenced><mrow><mi>X</mi><mo>=</mo><mn>0</mn></mrow></mfenced></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>54</mn><mfenced><mrow><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><msup><mfenced><mfrac><mn>2</mn><mn>3</mn></mfrac></mfenced><mn>2</mn></msup><msup><mfenced><mfrac><mn>1</mn><mn>3</mn></mfrac></mfenced><mn>4</mn></msup><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><msup><mfenced><mfrac><mn>2</mn><mn>3</mn></mfrac></mfenced><mn>1</mn></msup><msup><mfenced><mfrac><mn>1</mn><mn>3</mn></mfrac></mfenced><mn>5</mn></msup><mo>+</mo><mmultiscripts><mi>C</mi><mn>0</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><msup><mfenced><mfrac><mn>2</mn><mn>3</mn></mfrac></mfenced><mn>0</mn></msup><msup><mfenced><mfrac><mn>1</mn><mn>3</mn></mfrac></mfenced><mn>6</mn></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>54</mn><mfenced><mrow><mn>15</mn><mo>&#215;</mo><mfrac><mn>4</mn><msup><mn>3</mn><mn>6</mn></msup></mfrac><mo>+</mo><mn>6</mn><mo>&#215;</mo><mfrac><mn>2</mn><msup><mn>3</mn><mn>6</mn></msup></mfrac><mo>+</mo><mfrac><mn>1</mn><msup><mn>3</mn><mn>6</mn></msup></mfrac></mrow></mfenced><mo>=</mo><mn>2</mn><mo>&#215;</mo><msup><mn>3</mn><mn>3</mn></msup><mfenced><mfrac><mn>73</mn><msup><mn>3</mn><mn>6</mn></msup></mfrac></mfenced><mo>=</mo><mfrac><mn>146</mn><mn>27</mn></mfrac></math></p></blockquote>"
+    "text": "<blockquote><p>Given, sum of mean and variance is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>82</mn><mo>.</mo><mn>5</mn></math></p><p>Product of roots is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1350</mn></math></p><p>Now, Mean and variance are the roots of&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mfenced><mtext>sum&#160;of&#160;roots</mtext></mfenced><mi>x</mi><mo>+</mo><mtext>product&#160;of&#160;roots</mtext><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>82</mn><mo>.</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>1350</mn><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>x</mi><mo>=</mo><mn>60</mn><mo>&#160;</mo><mtext>or</mtext><mo>&#160;</mo><mn>22</mn><mo>.</mo><mn>5</mn></math></p><p>So, mean <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>n</mi><mi>p</mi><mo>=</mo><mn>60</mn></math>&nbsp;and variance <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>n</mi><mi>p</mi><mi>q</mi><mo>=</mo><mn>22</mn><mo>.</mo><mn>5</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mi>q</mi><mo>=</mo><mfrac><mrow><mn>22</mn><mo>.</mo><mn>5</mn></mrow><mn>60</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac></math></p><p>So, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mfrac><mn>5</mn><mn>8</mn></mfrac></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mfrac><mn>60</mn><mfrac><mn>5</mn><mn>8</mn></mfrac></mfrac><mo>=</mo><mn>96</mn></math></p></blockquote>"
   }
 }

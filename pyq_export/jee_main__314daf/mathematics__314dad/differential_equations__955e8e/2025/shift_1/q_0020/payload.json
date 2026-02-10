@@ -1,0 +1,24 @@
+{
+  "index": 20,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $f: \\mathbf{R} \\rightarrow \\mathbf{R}$ be a thrice differentiable odd function satisfying $f^{\\prime}(\\mathrm{x}) \\geq 0, f^{\\prime}(\\mathrm{x})=f(\\mathrm{x}), f(0)=0, f^{\\prime}(0)=3$. Then $9 f\\left(\\log _{\\mathrm{c}} 3\\right)$ is equal to _______."
+  },
+  "options": [],
+  "correct_answer": "36",
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{f}^{\\prime \\prime}(\\mathrm{x})=\\mathrm{f}(\\mathrm{x}) \\\\ & \\Rightarrow \\mathrm{f}^{\\prime}(\\mathrm{x}) \\cdot \\mathrm{f}^{\\prime \\prime}(\\mathrm{x})=\\mathrm{f}^{\\prime}(\\mathrm{x}) \\cdot \\mathrm{f}(\\mathrm{x}) \\\\ & \\Rightarrow \\frac{\\left(\\mathrm{f}^{\\prime}(\\mathrm{x})\\right)^2}{2}=\\frac{(\\mathrm{f}(\\mathrm{x}))^2}{2}+\\mathrm{C} \\\\ & \\Rightarrow\\left(\\mathrm{f}^{\\prime}(\\mathrm{x})\\right)^2=(\\mathrm{f}(\\mathrm{x}))^2+\\mathrm{C}^{\\prime}\\end{aligned}$<br/>$\\mathrm{f}(0)=0, \\mathrm{f}^{\\prime}(0)=3 \\quad \\Rightarrow \\mathrm{C}^{\\prime}=9$<br/>$\\therefore\\left(\\mathrm{f}^{\\prime}(\\mathrm{x})\\right)^2=(\\mathrm{f}(\\mathrm{x}))^2+9$<br/>$\\mathrm{f}^{\\prime}(\\mathrm{x})=\\sqrt{(\\mathrm{f}(\\mathrm{x}))^2+9} \\quad \\because \\mathrm{f}^{\\prime}(\\mathrm{x}) \\geq 0$<br/>$\\int \\frac{\\mathrm{dy}}{\\sqrt{\\mathrm{y}^2+9}}=\\int \\mathrm{dx} \\Rightarrow \\ln \\left|\\mathrm{y}+\\sqrt{\\mathrm{y}^2+9}\\right|=\\mathrm{x}+\\mathrm{C}$<br/>$\\Rightarrow \\mathrm{f}(0)=0 \\Rightarrow \\mathrm{C}=\\ln 3$<br/>$\\Rightarrow \\mathrm{y}+\\sqrt{\\mathrm{y}^2+9}=3 \\mathrm{e}^{\\mathrm{x}}$<br/>at $x=\\ln 3 ; y=4$<br/>$\\therefore 9 \\mathrm{f}(\\ln 3)=36$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2021",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7ddf871d2a6297f8ad",
+    "chapter_name": "Binomial Theorem",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The coefficient of the term independent of $x$ in the expansion of $\\left(\\sqrt{\\frac{x}{3}}+\\frac{3}{2 x^{2}}\\right)^{10}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{5}{4}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{7}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{9}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "The $(r+1)$ th term in the expansion of $\\left(\\sqrt{\\frac{x}{3}}+\\frac{3}{2 x^{2}}\\right)^{10}$ is given by\r\n\r\n$\\begin{array}{l}\r\n\r\n\\mathrm{T}_{r+1}={ }^{10} \\mathrm{C}_{r}\\left(\\sqrt{\\frac{x}{3}}\\right)^{10-r}\\left(\\frac{3}{2 x^{2}}\\right)^{r} \\\\\r\n\r\n={ }^{10} \\mathrm{C}_{r} \\frac{x^{5-\\left(\\frac{r}{2}\\right)}}{3^{5-\\left(\\frac{r}{2}\\right)}} \\cdot \\frac{3^{r}}{2^{r} x^{2 r}} \\\\\r\n\r\n={ }^{10} \\mathrm{C}_{r} \\frac{3^{\\left(\\frac{3 r}{2}\\right)-5}-5-\\left(\\frac{5 r}{2}\\right)}{2^{r}} x\r\n\r\n\\end{array}$\r\n\r\n$\\mathrm{T}_{r+1}={ }^{10} \\mathrm{C}_{r}\\left(\\sqrt{\\frac{x}{3}}\\right)^{10-r}\\left(\\frac{3}{2 x^{2}}\\right)^{r}$ $={ }^{10} \\mathrm{C}_{r} \\frac{x^{5-\\left(\\frac{r}{2}\\right)}}{3} \\cdot \\frac{3^{r}}{2^{r} x^{2 r}}$ $={ }^{10} \\mathrm{C}_{r} \\frac{3^{\\left(\\frac{3 r}{2}\\right)-5}-\\left(\\frac{5}{2}\\right)-\\left(\\frac{5 r}{2}\\right)}{2^{r}} x$ For $\\mathrm{T}_{r+1}$ to be independent of $x$, we must have $5-\\left(\\frac{5 r}{2}\\right)=0$ or $r=2$.\r\n\r\nThus, the 3 rd term is independent of $x$ and is equal to ${ }^{10} \\mathrm{C}_{2} \\frac{3^{3-5}}{2^{2}}=\\frac{10 \\times 9}{2} \\times \\frac{3^{-2}}{4}=\\frac{5}{4}$"
+  }
+}

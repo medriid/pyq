@@ -2,7 +2,7 @@
   "index": 12,
   "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (28 Jan Shift 2)",
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Let $f: \\mathbf{R}-\\{0\\} \\rightarrow(-\\infty, 1)$ be a polynomial of degree 2, satisfying $f(x) f\\left(\\frac{1}{x}\\right)=f(x)+f\\left(\\frac{1}{x}\\right)$. If $f(K)=-2 K$, then the sum of squares of all possible values of $K$ is :"
+    "text": "Let the domains of the functions<br/>$\\mathrm{f}(\\mathrm{x})=\\log _4 \\log _3 \\log _7\\left(8-\\log _2\\left(\\mathrm{x}^2+4 \\mathrm{x}+5\\right)\\right)$ and $g(x)=\\sin ^{-1}\\left(\\frac{7 x+10}{x-2}\\right)$ be $(\\alpha, \\beta)$ and $[\\gamma, \\delta]$, respectively. Then $\\alpha^2+\\beta^2+\\gamma^2+\\delta^2$ is equal to :-"
   },
   "options": [
     {
-      "text": "$7$",
-      "is_correct": false
-    },
-    {
-      "text": "$6$",
+      "text": "$15$",
       "is_correct": true
     },
     {
-      "text": "$1$",
+      "text": "$13$",
       "is_correct": false
     },
     {
-      "text": "$9$",
+      "text": "$16$",
+      "is_correct": false
+    },
+    {
+      "text": "$14$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "B"
+    "A"
   ],
   "solution": {
-    "text": "as $f(x)$ is a polynomial of degree two let it be\n$f(x)=a x^2+b x+c \\quad(a \\neq 0)$\non satisfying given conditions we get\n$C=1 \\& a= \\pm 1$\nhence $f(x)=1 \\pm x^2$\nalso range $\\in(-\\infty, 1]$ hence\n$f(x)=1-x^2$\nnow $f(k)=-2 k$\n$1-\\mathrm{k}^2=-2 \\mathrm{k} \\rightarrow \\mathrm{k}^2-2 \\mathrm{k}-1=0$\nlet roots of this equation be $\\alpha \\& \\beta$ then $\\alpha^2+\\beta^2=(\\alpha+\\beta)^2-2 \\alpha \\beta$\n$=4-2(-1)=6$"
+    "text": "$\\begin{aligned} & \\log _3\\left(\\log _7\\left(8-\\log _2\\left(\\mathrm{x}^2+4 \\mathrm{x}+5\\right)\\right)\\right) \\gt 0 \\\\ & \\log _2\\left(\\mathrm{x}^2+4 \\mathrm{x}+5\\right) \\lt 1 \\\\ & \\mathrm{x}^2+4 \\mathrm{x}+3 \\lt 0 \\\\ & \\Rightarrow \\mathrm{x} \\in(-3,-1) \\\\ & -1 \\leq \\frac{7 \\mathrm{x}+10}{\\mathrm{x}-2} \\leq 1 \\\\ & \\Rightarrow \\mathrm{x} \\in[-2,-1] \\\\ & \\alpha=-3, \\beta=-1, \\gamma=-2, \\delta=-1 \\\\ & \\alpha^2+\\beta^2+\\gamma^2+\\delta^2=15 \\\\ & \\text { option }(1)\\end{aligned}$"
   }
 }

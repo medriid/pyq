@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7e2daa1f081e2331f8",
+    "chapter_name": "Differentiation",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $y=\\sqrt{\\left(\\frac{1+\\cos 2 \\theta}{1-\\cos 2 \\theta}\\right)}$, then $\\frac{d y}{d \\theta}$ at $\\theta=\\frac{3 \\pi}{4}$ is :"
+  },
+  "options": [
+    {
+      "text": "-2",
+      "is_correct": true
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "$\\pm 2$",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$y=\\sqrt{\\frac{1+\\cos 2 \\theta}{1-\\cos 2 \\theta}}$<br />$\\Rightarrow y=\\sqrt{\\frac{2 \\cos ^2 \\theta}{2 \\sin ^2 \\theta}}=\\sqrt{\\cot ^2 \\theta}$<br />$\\Rightarrow y=\\cot \\theta$<br />Differentiate w.r.t. ' $\\theta$ ', we get: $\\frac{d y}{d \\theta}=-\\operatorname{cosec}^2 \\theta$<br />Now, $\\left(\\frac{\\mathrm{dy}}{\\mathrm{d} \\theta}\\right)_{\\theta=\\frac{3 \\pi}{4}}=-\\operatorname{cosec}^2\\left(\\frac{3 \\pi}{4}\\right)$<br />$=-\\operatorname{cosec}^2\\left(\\pi-\\frac{\\pi}{4}\\right)=-\\operatorname{cosec}^2 \\frac{\\pi}{4}=-2$"
+  }
+}

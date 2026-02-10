@@ -1,8 +1,8 @@
 {
   "index": 151,
-  "type": "numerical",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2021 (25 Feb Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (27 Jul Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Two identical conducting spheres with negligible volume have <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>1</mn><mo>&#160;</mo><mi>nC</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>0</mn><mo>.</mo><mn>1</mn><mo>&#160;</mo><mi>nC</mi></math> charges, respectively. They are brought into contact and then separated by a distance of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></math>. The electrostatic force acting between the spheres is ___<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">N</mi></math>.<br />[Given : <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>&#960;</mi><msub><mi>&#949;</mi><mn>0</mn></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mn>9</mn><mo>&#215;</mo><msup><mn>10</mn><mn>9</mn></msup></mrow></mfrac></math> SI unit]"
+    "text": "<p>What will be the magnitude of the electric field at point <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> as shown in the figure? Each side of the figure is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> and perpendicular to the other?</p><p><img src=\"assets\\qt0151_337a573334dc.png\" style=\"width: 229px; height: 212px;\" /></p>"
   },
-  "options": [],
-  "correct_answer": "36",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mn>4</mn><mi>&#960;</mi><msub><mi>&#949;</mi><mn>0</mn></msub></mrow></mfrac><mfrac><mi>q</mi><msup><mi>l</mi><mn>2</mn></msup></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mn>4</mn><mi>&#960;</mi><msub><mi>&#949;</mi><mn>0</mn></msub></mrow></mfrac><mfrac><mi>q</mi><mfenced><mrow><mn>2</mn><msup><mi>l</mi><mn>2</mn></msup></mrow></mfenced></mfrac><mo>(</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>-</mo><mn>1</mn><mo>)</mo></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>q</mi><mrow><mn>4</mn><mi>&#960;</mi><msub><mi>&#949;</mi><mn>0</mn></msub><mo>(</mo><mn>2</mn><mi>l</mi><msup><mo>)</mo><mn>2</mn></msup></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mn>4</mn><mi>&#960;</mi><msub><mi>&#949;</mi><mn>0</mn></msub></mrow></mfrac><mfrac><mrow><mn>2</mn><mi>q</mi></mrow><mrow><mn>2</mn><msup><mi>l</mi><mn>2</mn></msup></mrow></mfrac><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
   "solution": {
-    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>=</mo><mfrac><mfenced><mrow><mn>2</mn><mo>.</mo><mn>1</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>1</mn></mrow></mfenced><mn>2</mn></mfrac><mo>&#160;</mo><mi>nC</mi><mo>=</mo><mn>1</mn><mo>&#160;</mo><mi>nC</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>=</mo><mfrac><mrow><mn>9</mn><mo>&#215;</mo><msup><mn>10</mn><mn>9</mn></msup><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>18</mn></mrow></msup></mrow><msup><mfenced><mrow><mn>0</mn><mo>.</mo><mn>5</mn></mrow></mfenced><mn>2</mn></msup></mfrac><mo>=</mo><mn>36</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup></math></p>"
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><mi>k</mi><mi>q</mi></mrow><msup><mi>l</mi><mn>2</mn></msup></mfrac><mo>=</mo><msub><mi>E</mi><mn>2</mn></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>E</mi><mn>3</mn></msub><mo>=</mo><mfrac><mrow><mi>k</mi><mi>q</mi></mrow><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mi>&#8467;</mi><mi>l</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>k</mi><mi>q</mi></mrow><mrow><mn>2</mn><msup><mi>l</mi><mn>2</mn></msup></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mo>=</mo><mfrac><mrow><msqrt><mn>2</mn></msqrt><mi>k</mi><mi>q</mi></mrow><msup><mi>l</mi><mn>2</mn></msup></mfrac><mo>-</mo><mfrac><mrow><mi>k</mi><mi>q</mi></mrow><mrow><mn>2</mn><msup><mi>l</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>k</mi><mi>q</mi></mrow><mrow><mn>2</mn><msup><mi>l</mi><mn>2</mn></msup></mrow></mfrac><mo>(</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>-</mo><mn>1</mn><mo>)</mo></math></p><p><img src=\"assets\\st0151_a3a8937e8069.png\" style=\"width: 231px; height: 218px;\" /></p>"
   }
 }

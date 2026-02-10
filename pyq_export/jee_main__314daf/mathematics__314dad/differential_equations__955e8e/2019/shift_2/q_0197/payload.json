@@ -1,0 +1,43 @@
+{
+  "index": 197,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The solution of the differential equation, $\\frac{\\mathrm{d} y}{\\mathrm{~d} x}=(x-y)^{2}$, when $y(1)=1,$ is:"
+  },
+  "options": [
+    {
+      "text": "$\\quad \\log _{e}\\left|\\frac{2-x}{2-y}\\right|=x-y$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\log _{e}\\left|\\frac{1-x+y}{1+x-y}\\right|=2(x-1)$",
+      "is_correct": true
+    },
+    {
+      "text": "$-\\log _{e}\\left|\\frac{1+x-y}{1-x+y}\\right|=x+y-2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log _{\\mathrm{e}}\\left|\\frac{2-y}{2-x}\\right|=2(y-1)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "The given differential equation\r\n\r\n$\\frac{d y}{d x}=(x-y)^{2}$\r\n\r\nLet $x-y=t \\Rightarrow 1-\\frac{d y}{d x}=\\frac{d t}{d x}$\r\n\r\n$\\Rightarrow \\frac{d y}{d x}=1-\\frac{d t}{d x}$\r\n\r\nNow, from equation (1)\r\n\r\n$\\left(1-\\frac{d t}{d x}\\right)=(t)^{2}$\r\n\r\n$\\Rightarrow \\quad 1-t^{2}=\\frac{d t}{d x} \\Rightarrow \\int d x=\\int \\frac{d t}{1-t^{2}}$\r\n\r\n$\\Rightarrow-x=\\frac{1}{2 \\times 1} \\ln \\left|\\frac{t-1}{t+1}\\right|+c$\r\n\r\n$\\Rightarrow-x=\\frac{1}{2} \\ln \\left|\\frac{x-y-1}{x-y+1}\\right|+c$\r\n\r\n$\\because$ The given condition $y(1)=1$\r\n\r\n$-1=\\frac{1}{2} \\ln \\left|\\frac{1-1-1}{1-1+1}\\right|+c \\Rightarrow c=-1$\r\n\r\nHence, $2(x-1)=-\\ln \\left|\\frac{1-x+y}{1-y+x}\\right|$"
+  }
+}

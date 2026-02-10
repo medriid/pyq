@@ -1,0 +1,43 @@
+{
+  "index": 61,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2023 (30 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254da66d43264e2f6510",
+    "chapter_name": "Sets and Relations",
+    "year": "2023",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "<p>The minimum number of elements that must be added to the relation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo><mo>,</mo><mo>(</mo><mi>b</mi><mo>,</mo><mi mathvariant=\"normal\">c</mi><mo>)</mo></math> on the set <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mi mathvariant=\"normal\">a</mi><mo>,</mo><mi mathvariant=\"normal\">b</mi><mo>,</mo><mi mathvariant=\"normal\">c</mi><mo>}</mo></math> so that it becomes symmetric and transitive is:</p><p>&nbsp;</p>"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p>Given:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>,</mo><mi>d</mi></mrow></mfenced></math></p><p>And,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mfenced><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow></mfenced><mo>,</mo><mfenced><mrow><mi>b</mi><mo>,</mo><mi>c</mi></mrow></mfenced></mrow></mfenced></math></p><p>For symmetric relation, we must add&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>b</mi><mo>,</mo><mi>a</mi></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mi>c</mi><mo>,</mo><mi>b</mi></mrow></mfenced></math>.</p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mfenced><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow></mfenced><mo>,</mo><mfenced><mrow><mi>b</mi><mo>,</mo><mi>a</mi></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mi>b</mi><mo>,</mo><mi>c</mi></mrow></mfenced><mo>,</mo><mfenced><mrow><mi>c</mi><mo>,</mo><mi>b</mi></mrow></mfenced></mrow></mfenced></math>.</p><p>For transitive relation, we must add</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>a</mi><mo>,</mo><mi>c</mi></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mi>b</mi><mo>,</mo><mi>b</mi></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mi>c</mi><mo>,</mo><mi>a</mi></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mi>a</mi><mo>,</mo><mi>a</mi></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mi>c</mi><mo>,</mo><mi>c</mi></mrow></mfenced></math></p><p>Hence,&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mfenced><mrow><mi>b</mi><mo>,</mo><mi>a</mi></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mi>c</mi><mo>,</mo><mi>b</mi></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mi>a</mi><mo>,</mo><mi>c</mi></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mi>b</mi><mo>,</mo><mi>b</mi></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mi>c</mi><mo>,</mo><mi>a</mi></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mi>a</mi><mo>,</mo><mi>a</mi></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mi>c</mi><mo>,</mo><mi>c</mi></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mi>b</mi><mo>,</mo><mi>c</mi></mrow></mfenced></mrow></mfenced></math></p><p>So, number of new elements added<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>7</mn></math></p>"
+  }
+}

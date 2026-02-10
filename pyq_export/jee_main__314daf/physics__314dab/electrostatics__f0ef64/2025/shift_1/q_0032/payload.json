@@ -2,7 +2,7 @@
   "index": 32,
   "type": "singleCorrect",
   "difficulty": 3,
-  "pyq_info": "JEE Main 2025 (23 Jan Shift 1)",
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "A point particle of charge $Q$ is located at $P$ along the axis of an electric dipole 1 at a distance $r$ as shown in the figure. The point P is also on the equatorial plane of a second electric dipole 2 at a distance r . The dipoles are made of opposite charge q separated by a distance $2 a$. For the charge particle at P not to experience any net force, which of the following correctly describes the situation?\n<img src=\"assets\\qt0032_088f5540bfbb.png\"/><br/>"
+    "text": "Consider two infinitely large plane parallel conducting plates as shown below. The plates are uniformly charged with a surface charge density $+\\sigma$ and $-2 \\sigma$. The force experienced by a point charge +q placed at the mid point between two plates will be :<br/><img src=\"assets\\qt0032_41e5453cec21.png\"/>"
   },
   "options": [
     {
-      "text": "$\\frac{a}{r} \\sim 10$",
+      "text": "$\\frac{\\sigma q}{4 \\epsilon_0}$",
       "is_correct": false
     },
     {
-      "text": "$\\frac{a}{r} \\sim 20$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{a}{r} \\sim 0.5$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{a}{r} \\sim 3$",
+      "text": "$\\frac{3 \\sigma q}{2 \\epsilon_0}$",
       "is_correct": true
+    },
+    {
+      "text": "$\\frac{3 \\sigma q}{4 \\in_0}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\sigma q}{2 \\epsilon_0}$",
+      "is_correct": false
     }
   ],
   "correct_answer": [
-    "D"
+    "B"
   ],
   "solution": {
-    "text": "<img src=\"assets\\st0032_e100ef50c870.png\"><br>\r\n$\\begin{aligned}\r\n& \\Rightarrow \\frac{1}{(r-a)^2}-\\frac{1}{(r+a)^2}=\\frac{2 a}{\\left(a^2+r^2\\right)^{3 / 2}} \\\\\r\n& \\frac{4 a r}{\\left(r^2-a^2\\right)^2}=\\frac{2 a}{\\left(a^2+r^2\\right)^{3 / 2}} \\\\\r\n& \\left(r^2-a^2\\right)^2=2 r\\left(a^2+r^2\\right)^{3 / 2} \\\\\r\n& \\left(1-\\frac{a^2}{r^2}\\right)^2=2\\left(1+\\frac{a^2}{r^2}\\right)^{3 / 2} \\\\\r\n& \\left(1-x^2\\right)^2=2\\left(1+x^2\\right)^{3 / 2}\\left(x=\\frac{a}{r}\\right) \\\\\r\n& \\frac{\\left(1-x^2\\right)^2}{\\left(1+x^2\\right)^{3 / 2}}=2\r\n\\end{aligned}$\r\n\r\nNow for $\\mathrm{X}=3$\r\nWe get $\\frac{64}{10 \\sqrt{10}} \\approx 2 \\Rightarrow \\frac{a}{r} \\approx 3$\r\n[But for $a > r$ point charge will between the dipole where $\\vec{E} \\neq 0$]"
+    "text": "<img src=\"assets\\st0032_de36e480c4ae.png\"/><br/>Final charge distribution will be<img src=\"assets\\st0032_b36ad1b9745d.png\"/><br/>$\\therefore \\mathrm{F}_{\\mathrm{net}}=\\frac{3 \\sigma}{2 \\epsilon_0} \\mathrm{q}$"
   }
 }

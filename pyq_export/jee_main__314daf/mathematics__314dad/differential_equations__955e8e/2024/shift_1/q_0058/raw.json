@@ -1,0 +1,83 @@
+{
+  "_id": "6682bd55ba0e94a3c4025bff",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mi>y</mi><mo>(</mo><mi>x</mi><mo>)</mo></math> be the solution of the differential equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>sec</mi><mi>x</mi><mi>d</mi><mi>y</mi><mo>+</mo><mfenced close=\"}\" open=\"{\"><mrow><mn>2</mn><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mi>tan</mi><mi>x</mi><mo>+</mo><mi>x</mi><mfenced><mrow><mn>2</mn><mo>-</mo><mi>x</mi></mrow></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi><mo>=</mo><mn>0</mn></math> such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mfenced><mn>0</mn></mfenced><mo>=</mo><mn>2</mn></math>. Then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mfenced><mn>2</mn></mfenced></math> is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "AiPEg",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "2vVaX",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>{</mo><mn>1</mn><mo>-</mo><mi>sin</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>}</mo></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Ruzxo",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>{</mo><mi>sin</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>1</mn><mo>}</mo></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "iDOXt",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>Given: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>sec</mi><mi>x</mi><mi>d</mi><mi>y</mi><mo>+</mo><mfenced close=\"}\" open=\"{\"><mrow><mn>2</mn><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mi>tan</mi><mi>x</mi><mo>+</mo><mi>x</mi><mfenced><mrow><mn>2</mn><mo>-</mo><mi>x</mi></mrow></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>sec</mi><mi>x</mi><mi>d</mi><mi>y</mi><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mn>2</mn><mfenced><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mi>tan</mi><mi>x</mi><mo>+</mo><mfenced><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi></mrow></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>cos</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mn>2</mn><mfenced><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mfrac><mrow><mi>sin</mi><mi>x</mi></mrow><mrow><mi>cos</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mfenced><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi></mrow></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>d</mi><mi>y</mi><mo>=</mo><mfenced close=\"]\" open=\"[\"><mrow><mn>2</mn><mfenced><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mi>sin</mi><mi>x</mi><mo>+</mo><mfenced><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi></mrow></mfenced><mi>cos</mi><mi>x</mi></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mo>∫</mo><mi>d</mi><mi>y</mi><mo>=</mo><mo>∫</mo><mfenced close=\"]\" open=\"[\"><mrow><mn>2</mn><mfenced><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mi>sin</mi><mi>x</mi><mo>+</mo><mfenced><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi></mrow></mfenced><mi>cos</mi><mi>x</mi></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mo>∫</mo><mi>d</mi><mi>y</mi><mo>=</mo><mo>∫</mo><mn>2</mn><mfenced><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mi>sin</mi><mi>x</mi><mo>+</mo><mo>∫</mo><mfenced><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi></mrow></mfenced><mi>cos</mi><mi>x</mi><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>∫</mo><mn>2</mn><mo>(</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo><mi>sin</mi><mi>x</mi><mi>d</mi><mi>x</mi><mo>+</mo><mfenced close=\"]\" open=\"[\"><mrow><mfenced><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi></mrow></mfenced><mo>(</mo><mi>sin</mi><mi>x</mi><mo>)</mo><mo>-</mo><mo>∫</mo><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo><mi>sin</mi><mi>x</mi><mi>d</mi><mi>x</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfenced><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi></mrow></mfenced><mi>sin</mi><mi>x</mi><mo>+</mo><mi>λ</mi></math></p><p>It is given that, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mfenced><mn>0</mn></mfenced><mo>=</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>(</mo><mn>0</mn><mo>)</mo><mo>=</mo><mfenced><mrow><mn>0</mn><mo>-</mo><mn>0</mn></mrow></mfenced><mi>sin</mi><mn>0</mn><mo>+</mo><mi>λ</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>2</mn><mo>=</mo><mn>0</mn><mo>+</mo><mi>λ</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>λ</mi><mo>=</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfenced><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi></mrow></mfenced><mi>sin</mi><mi>x</mi><mo>+</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>=</mo><mfenced><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>-</mo><mn>2</mn><mo>×</mo><mn>2</mn></mrow></mfenced><mi>sin</mi><mfenced><mn>2</mn></mfenced><mo>+</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mfenced><mn>2</mn></mfenced><mo>=</mo><mn>2</mn></math></p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "51a04ad63eb04f9287a9d000fd2b0262",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/Z1Tp9aoMUUYJf.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/Z1Tp9aoMUUYJf.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYearPapers": [
+    {
+      "_id": "65c4c0c11d30997d3436bb02",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-01-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (30 Jan Shift 1)",
+      "title": "JEE Main 2024 (30 Jan Shift 1)"
+    }
+  ],
+  "previousYear": {
+    "_id": "65c4c0c11d30997d3436bb02",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-01-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (30 Jan Shift 1)",
+    "title": "JEE Main 2024 (30 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

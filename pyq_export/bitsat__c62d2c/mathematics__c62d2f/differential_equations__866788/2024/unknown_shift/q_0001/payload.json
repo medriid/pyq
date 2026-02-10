@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd839e4041267a866788",
+    "chapter_name": "Differential Equations",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\frac{d y}{d x}-y \\log _e 2=2^{\\sin x}(\\cos x-1) \\log _e 2$, then $y$"
+  },
+  "options": [
+    {
+      "text": "$2^{\\sin x}+c 2^x$",
+      "is_correct": true
+    },
+    {
+      "text": "$2^{\\cos x}+c 2^x$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^{\\sin x}+c 2^{-x}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^{\\cos x}+c 2^{-x}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\frac{d y}{d x}-y \\log _e 2=2^{\\sin x}(\\cos x-1) \\log _e 2$\nThis is linear differential equation\n$\\text { I.F. }=e^{-\\log _e 2 \\int d x}=e^{-x \\log _e 2}=2^{-x}$\nthen general Solution is\n$y 2^{-x}=\\int 2^{-x} 2^{\\sin x}(\\cos x-1) \\log _e 2 d x+c$\nNow let $\\sin x-x=t \\Rightarrow(\\cos x-1) d x=d t$\n$\\begin{aligned}\n& \\therefore y 2^{-x}=\\log _e 2 \\int 2^t d t+c \\\\\n& \\therefore y 2^{-x}=2^t+c \\\\\n& \\therefore y=2^{x+t}+c 2^x \\\\\n& \\therefore y=2^{\\sin x}+c 2^x\n\\end{aligned}$"
+  }
+}

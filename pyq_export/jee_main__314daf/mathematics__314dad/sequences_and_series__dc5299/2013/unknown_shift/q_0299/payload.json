@@ -1,0 +1,43 @@
+{
+  "index": 299,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2013 (25 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Given a sequence of 4 numbers, first three of which are in G.P. and the last three are in A.P. with common difference six. If first and last terms of this sequence are equal, then the last term is :"
+  },
+  "options": [
+    {
+      "text": "\n16\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n 8\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n 4\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $a, b, c, d$ be four numbers of the sequence.\nNow, according to the question $b^2=a c$ and $c-b=6$ and $a-c=6$\nAlso, given $a=d$\n$$\n\\begin{aligned}\n\\therefore b^2=a c \\Rightarrow b^2=a\\left[\\frac{a+b}{2}\\right] \\\\\n(\\because 2 c=a+b)\n\\end{aligned}\n$$\n$\\Rightarrow a^2-2 b^2+a b=0$\nNow, $c-b=6$ and $a-c=6$,\ngives $a-b=12$\n$\\Rightarrow b=a-12$\n$\\therefore a^2-2 b^2+a b=0$\n$\\Rightarrow a^2-2(a-12)^2+a(a-12)=0$\n$\\Rightarrow a^2-2 a^2-288+48 a+a^2-12 a=0$\n$\\Rightarrow 36 a=288 \\Rightarrow a=8$"
+  }
+}

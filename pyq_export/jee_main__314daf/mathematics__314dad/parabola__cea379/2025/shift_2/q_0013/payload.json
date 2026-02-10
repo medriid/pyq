@@ -2,7 +2,7 @@
   "index": 13,
   "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Let the shortest distance from $(\\mathrm{a}, 0), \\mathrm{a}\\gt0$, to the parabola $y^2=4 x$ be 4 . Then the equation of the circle passing through the point $(a, 0)$ and the focus of the parabola, and having its centre on the axis of the parabola is :"
+    "text": "Let the point $P$ of the focal chord $P Q$ of the parabola $y^2=16 x$ be $(1,-4)$. If the focus of the parabola divides the chord PQ in the ratio $\\mathrm{m}: \\mathrm{n}$, $\\operatorname{gcd}(m, n)=1$, then $m^2+n^2$ is equal to :"
   },
   "options": [
     {
-      "text": "$x^2+y^2-10 x+9=0$",
-      "is_correct": false
-    },
-    {
-      "text": "$x^2+y^2-6 x+5=0$",
+      "text": "$17$",
       "is_correct": true
     },
     {
-      "text": "$x^2+y^2-4 x+3=0$",
+      "text": "$10$",
       "is_correct": false
     },
     {
-      "text": "$x^2+y^2-8 x+7=0$",
+      "text": "$37$",
+      "is_correct": false
+    },
+    {
+      "text": "$26$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "B"
+    "A"
   ],
   "solution": {
-    "text": "<img src=\"assets\\st0013_f5e332b6466f.png\"><br>\n\n\nNormal at P\n$\\begin{aligned}\n& y+ t x=2 t+t^3 \\\\\n& \\uparrow \\\\\n&(\\mathrm{a}, 0) \\\\\n& \\mathrm{at}= 2 \\mathrm{t}+\\mathrm{t}^3 \\\\\n& \\mathrm{a}= 2+\\mathrm{t}^2 \\\\\n& \\mathbb{R}\\left(2+\\mathrm{t}^2, 0\\right)\n\\end{aligned}$\n\n$\\begin{aligned}\n& \\mathrm{PR}=4 \\Rightarrow 4+4 \\mathrm{t}^2=16 \\\\\n& 4 \\mathrm{t}^2=12 \\Rightarrow \\mathrm{t}^2=3 \\\\\n& \\mathrm{a}=5 \\mathbb{R}(5,0)\n\\end{aligned}$\n\nFocus $(1,0)$\n$(1,0) \\&(5,0)$ will be tha end pts. of diameter\n$\\Rightarrow \\mathrm{Eg}^{\\mathrm{n}}$ of circle is\n$\\begin{aligned}\n& (x-1)(x-5)+y^2=0 \\\\\n& x^2+y^2-6 x+5=0\n\\end{aligned}$"
+    "text": "$y^2=16 x ; a=4 \\quad$ focus $S \\equiv(4,0)$<br/><img src=\"assets\\st0013_1b97b0a95d67.png\"/><br/>$\\begin{aligned} & 2 \\mathrm{at}_1=-4 \\\\ & \\Rightarrow 2(4) \\mathrm{t}_1=-4 \\\\ & \\Rightarrow \\mathrm{t}_1=-\\frac{1}{2} \\\\ & \\because \\mathrm{t}_1 \\mathrm{t}_2=-1\\end{aligned}$<br/>$\\begin{aligned}<br/>& \\Rightarrow \\mathrm{t}_2=2 \\\\\n& \\therefore \\mathrm{Q}\\left(\\mathrm{at}_2^2, 2 \\mathrm{at}_2\\right)=(16,16)<br/>\\end{aligned}$<br/>Let, S divides PQ internally in $\\lambda: 1$ ratio<br/>$\\begin{aligned}<br/>& \\therefore \\frac{16 \\lambda-4}{\\lambda+1}=0 \\\\\n& \\lambda=\\frac{1}{4}=\\frac{\\mathrm{m}}{\\mathrm{n}} \\\\\n& \\therefore \\mathrm{~m}^2+\\mathrm{n}^2=1+16=17<br/>\\end{aligned}$"
   }
 }

@@ -1,48 +1,58 @@
 {
-  "_id": "6682bd35ba0e94a3c4025b33",
+  "_id": "6644673a970e6e9ab542d163",
   "type": "singleCorrect",
-  "level": 3,
+  "level": 1,
   "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda6d",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-06T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (06 Apr Shift 2)",
+      "title": "JEE Main 2024 (06 Apr Shift 2)"
+    }
+  ],
   "question": {
-    "text": "Number of ways of arranging <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> identical books into <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> identical shelves where any number of shelves may remain empty is equal to ",
+    "text": "If all the words with or without meaning made using all the letters of the word \"NAGPUR\" are arranged as in a dictionary, then the word at $315^{\\text {th }}$ position in this arrangement is :",
     "image": null
   },
   "options": [
     {
-      "id": "larep",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn></math>",
+      "id": "XVI53",
+      "text": "NRAGUP",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "QUxn3",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn></math>",
+      "id": "O2LR5",
+      "text": "NRAPUG",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "Ht6G0",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "74QLt",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math>",
+      "id": "fmoPt",
+      "text": "NRAPGU",
       "image": null,
       "isCorrect": true
+    },
+    {
+      "id": "ooy9e",
+      "text": "NRAGPU",
+      "image": null,
+      "isCorrect": false
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "<p>We have <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> identical shelves in which any number of shelves can be empty.</p><p>So, we will put <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>,</mo><mo> </mo><mn>2</mn><mo>,</mo><mo> </mo><mn>1</mn><mo>,</mo><mo> </mo><mn>0</mn></math> shelves empty one by one.</p><p>Also, the non-empty shelves won't require internal arrangement as all the shelves are identical.  </p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> Shelf empty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>8</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn></mrow></mfenced><mo>→</mo><mn>1</mn></math> way</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> shelf empty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"\"><mtable><mtr><mtd><mo>(</mo><mn>7</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd></mtr><mtr><mtd><mo>(</mo><mn>6</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd></mtr><mtr><mtd><mo>(</mo><mn>5</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd></mtr><mtr><mtd><mo>(</mo><mn>4</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd></mtr></mtable></mfenced><mo>→</mo><mn>4</mn></math> ways</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math> shelf empty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"\"><mtable columnalign=\"left\"><mtr><mtd><mo>(</mo><mn>6</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd><mtd><mo>(</mo><mn>3</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd></mtr><mtr><mtd><mo>(</mo><mn>5</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd><mtd><mo>(</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd></mtr><mtr><mtd><mo>(</mo><mn>4</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd><mtd></mtd></mtr></mtable></mfenced><mo>→</mo><mn>5</mn></math>ways</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math> shelf empty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"\"><mtable columnalign=\"left right\"><mtr><mtd><mo>(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>2</mn><mo>)</mo></mtd><mtd><mo>(</mo><mn>5</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>)</mo></mtd></mtr><mtr><mtd><mo>(</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>)</mo></mtd><mtd></mtd></mtr><mtr><mtd><mo>(</mo><mn>3</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>)</mo></mtd><mtd></mtd></mtr><mtr><mtd><mo>(</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>)</mo></mtd><mtd></mtd></mtr></mtable></mfenced><mo>→</mo><mn>5</mn></math> ways</p><p>Total <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>15</mn></math> ways</p>",
+    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/6Q7jUu9_0sKCHcr9-jG3UBzRah0n28mjps3IoA0Axc8.original.fullsize.png\"><br>",
     "image": null
   },
   "videoSolution": {
-    "videoId": "552331b535f3412697faeb17340f93ed",
+    "videoId": "a163a0a6c83443d19298273ef4a0de26",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/FzqhGrB2OpyzN.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/FzqhGrB2OpyzN.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/cETnQnatXo1CC.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/cETnQnatXo1CC.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6628114842d540dfcb148ecb",
@@ -60,24 +70,14 @@
     "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
   },
   "syllabusCategory": "noChange",
-  "previousYearPapers": [
-    {
-      "_id": "65c4c0c01d30997d3436bb01",
-      "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-01-29T14:00:00.000Z",
-      "isVisible": true,
-      "shortName": "2024 (29 Jan Shift 2)",
-      "title": "JEE Main 2024 (29 Jan Shift 2)"
-    }
-  ],
   "previousYear": {
-    "_id": "65c4c0c01d30997d3436bb01",
+    "_id": "664466ef278297dee60eda6d",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-01-29T14:00:00.000Z",
+    "heldOn": "2024-04-06T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (29 Jan Shift 2)",
-    "title": "JEE Main 2024 (29 Jan Shift 2)"
+    "shortName": "2024 (06 Apr Shift 2)",
+    "title": "JEE Main 2024 (06 Apr Shift 2)"
   },
-  "evalStatus": "incorrect",
-  "lastPracticed": "2025-02-23T11:00:22.350Z"
+  "evalStatus": "correct",
+  "lastPracticed": "2025-02-23T05:42:33.742Z"
 }

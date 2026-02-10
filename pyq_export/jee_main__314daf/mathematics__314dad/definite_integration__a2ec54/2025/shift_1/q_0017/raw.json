@@ -1,58 +1,58 @@
 {
-  "_id": "67a2eea8c8b73881fdaea1c9",
+  "_id": "68542c7b7c09d044e4c1a232",
   "type": "singleCorrect",
-  "level": 1,
+  "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "67a2eb5ca6d4514bf2d9760c",
+      "_id": "6852f2fe9d87935e0d809787",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-01-24T09:00:00.000Z",
+      "heldOn": "2025-04-04T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (24 Jan Shift 1)",
-      "title": "JEE Main 2025 (24 Jan Shift 1)"
+      "shortName": "2025 (4 Apr Shift 1)",
+      "title": "JEE Main 2025 (4 Apr Shift 1)"
     }
   ],
   "question": {
-    "text": "$\\operatorname{IfI}(m, n)=\\int_0^1 x^{m-1}(1-x)^{n-1} d x, m, n\\gt0$, then $I(9,14)+I(10,13)$ is",
+    "text": "The value of $\\int_{-1}^1 \\frac{(1+\\sqrt{|x|-x}) e^x+(\\sqrt{|x|-x}) e^{-x}}{e^x+e^{-x}} d x$ is equal to",
     "image": null
   },
   "options": [
     {
-      "id": "lAkt1",
-      "text": "$\\mathrm{I}(19,27)$",
+      "id": "Bj4hn",
+      "text": "$3-\\frac{2 \\sqrt{2}}{3}$",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "NaGRB",
-      "text": "$\\mathrm{I}(9,1)$",
+      "id": "TfAjT",
+      "text": "$2+\\frac{2 \\sqrt{2}}{3}$",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "Homa5",
-      "text": "$I(1,13)$",
+      "id": "sZ81B",
+      "text": "$1-\\frac{2 \\sqrt{2}}{3}$",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "byJc0",
-      "text": "$\\mathrm{I}(9,13)$",
+      "id": "HjsQF",
+      "text": "$1+\\frac{2 \\sqrt{2}}{3}$",
       "image": null,
       "isCorrect": true
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "$\\begin{aligned} & \\mathrm{I}(\\mathrm{m}, \\mathrm{m})=\\int_0^1 \\mathrm{x}^{\\mathrm{m}-1}(1-\\mathrm{x})^{\\mathrm{n}-1} d \\mathrm{x} \\\\ & \\text { Let } \\mathrm{x}=\\sin ^2 \\theta \\quad \\mathrm{dx}=2 \\sin \\theta \\cos \\theta \\mathrm{~d} \\theta \\\\ & \\mathrm{I}(\\mathrm{m}, \\mathrm{n})=2 \\int_0^{\\pi / 2}(\\sin \\theta)^{2 \\mathrm{~m}-1}(\\cos \\theta)^{2 \\mathrm{n}-1} d \\theta \\\\ & \\mathrm{I}(9,14)+\\mathrm{I}(10,13)=2 \\int_0^{\\pi / 2}(\\sin \\theta)^{17}(\\cos \\theta)^{27} d \\theta \\\\ & +2 \\int_0^{\\pi / 2}(\\sin \\theta)^{19}(\\cos \\theta)^{25} d \\theta \\\\ & =2 \\int_0^{\\pi / 2}(\\sin \\theta)^{17}(\\cos \\theta)^{25} d \\theta \\\\ & =\\mathrm{I}(9,13)\\end{aligned}$",
+    "text": "$\\begin{aligned} & \\mathrm{I}=\\int_{-1}^1 \\frac{(1+\\sqrt{|-\\mathrm{x}|-(-\\mathrm{x})}) \\mathrm{e}^{-\\mathrm{x}}+(\\sqrt{|-\\mathrm{x}|-(-\\mathrm{x})}) \\mathrm{e}^{-(-\\mathrm{x})}}{\\mathrm{e}^{-\\mathrm{x}}+\\mathrm{e}^{-(-\\mathrm{x})}} \\mathrm{dx} \\\\ & \\Rightarrow \\mathrm{I}=\\int_{-1}^1 \\frac{(1+\\sqrt{|\\mathrm{x}|+\\mathrm{x}}) \\mathrm{e}^{-\\mathrm{x}}+(\\sqrt{|\\mathrm{x}|+\\mathrm{x}}) \\mathrm{e}^{\\mathrm{x}}}{\\mathrm{e}^{\\mathrm{x}}+\\mathrm{e}^{\\mathrm{x}}} \\mathrm{dx} \\\\ & \\Rightarrow 2 \\mathrm{I}=\\int_{-1}^1 \\frac{(1+\\sqrt{|\\mathrm{x}|+\\mathrm{x}}+\\sqrt{|\\mathrm{x}|-\\mathrm{x}})\\left(\\mathrm{e}^{\\mathrm{x}}+\\mathrm{e}^{-\\mathrm{x}}\\right)}{\\left(\\mathrm{e}^{\\mathrm{x}}+\\mathrm{e}^{-\\mathrm{x}}\\right)} \\mathrm{dx} \\\\ & \\Rightarrow 2 \\mathrm{I}=\\int_{-1}^1(1+\\sqrt{|\\mathrm{x}|+\\mathrm{x}}+\\sqrt{|\\mathrm{x}|-\\mathrm{x}}) \\mathrm{dx} \\\\ & \\Rightarrow 2 \\mathrm{I}=2 \\int_0^1(1+\\sqrt{|\\mathrm{x}|+\\mathrm{x}}+\\sqrt{|\\mathrm{x}|-\\mathrm{x}}) \\mathrm{dx} \\\\ & \\Rightarrow 2 \\mathrm{I}=2 \\int_0^1(1+\\sqrt{2 \\mathrm{x}}+\\sqrt{0}) \\mathrm{dx} \\\\ & \\Rightarrow \\mathrm{I}=\\int_0^1(1+\\sqrt{2 \\mathrm{x}}) \\mathrm{dx}=\\left[\\mathrm{x}+\\frac{2 \\sqrt{2}}{3} \\mathrm{x}^{3 / 2}\\right]_0^1 \\\\ & \\Rightarrow \\mathrm{I}=\\frac{2 \\sqrt{2}}{3}+1\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "8d775ac6861d427cb8c0c227d75ab072",
+    "videoId": "eaccee27683d445d80d8964e42f44b50",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/5yLdRtQA96DPr.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/5yLdRtQA96DPr.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/XDHgVrUvTS5h1.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/XDHgVrUvTS5h1.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
@@ -71,12 +71,12 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "67a2eb5ca6d4514bf2d9760c",
+    "_id": "6852f2fe9d87935e0d809787",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-01-24T09:00:00.000Z",
+    "heldOn": "2025-04-04T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (24 Jan Shift 1)",
-    "title": "JEE Main 2025 (24 Jan Shift 1)"
+    "shortName": "2025 (4 Apr Shift 1)",
+    "title": "JEE Main 2025 (4 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

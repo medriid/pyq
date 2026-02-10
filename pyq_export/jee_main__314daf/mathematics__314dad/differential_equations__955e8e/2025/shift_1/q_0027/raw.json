@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eea9c8b73881fdaea1cc",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d9760c",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-24T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (24 Jan Shift 1)",
+      "title": "JEE Main 2025 (24 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\mathrm{y}=\\mathrm{y}(\\mathrm{x})$ be the solution of the differential equation $\\left(x y-5 x^2 \\sqrt{1+x^2}\\right) d x+\\left(1+x^2\\right) d y=0, y(0)=0$. Then $y(\\sqrt{3})$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "7yggh",
+      "text": "$\\sqrt{\\frac{15}{2}}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "SPfGb",
+      "text": "$\\frac{5 \\sqrt{3}}{2}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "xIMz6",
+      "text": "$2 \\sqrt{2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "WHjtN",
+      "text": "$\\sqrt{\\frac{14}{3}}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\left(1+x^2\\right) \\frac{d y}{d x}+x y=5 x^2 \\sqrt{1+x^2} \\\\ & \\frac{d y}{d x}+\\frac{x y}{1+x^2}=\\frac{5 x^2}{\\sqrt{1+x^2}} \\\\ & \\therefore \\text { I.F. }=\\mathrm{e}^{\\int \\frac{\\mathrm{x}}{1+x^2} \\mathrm{dx}}=\\mathrm{e}^{\\frac{\\ln \\left(1+x^2\\right)}{2}}=\\sqrt{1+\\mathrm{x}^2} \\\\ & \\therefore \\mathrm{y} \\sqrt{1+\\mathrm{x}^2}=\\int \\frac{5 \\mathrm{x}^2}{\\sqrt{1+\\mathrm{x}^2}} \\cdot \\sqrt{1+\\mathrm{x}^2} \\mathrm{dx} \\\\ & \\therefore \\mathrm{y} \\sqrt{1+\\mathrm{x}^2}=\\int \\frac{5 \\mathrm{x}^2}{\\sqrt{1+\\mathrm{x}^2}} \\cdot \\sqrt{1+\\mathrm{x}^2} \\mathrm{dx} \\\\ & \\mathrm{y} \\sqrt{1+\\mathrm{x}^2}=\\frac{5 \\mathrm{x}^3}{3}+\\mathrm{C} \\\\ & \\because \\mathrm{y}(0)=0 \\Rightarrow 0=0+\\mathrm{C} \\Rightarrow \\mathrm{C}=0\\end{aligned}$\n\n\n$\\begin{aligned} & \\therefore y=\\frac{5 x^3}{3 \\sqrt{1+x^2}} \\\\ & y(\\sqrt{3})=\\frac{15 \\sqrt{3}}{32}=\\frac{5 \\sqrt{3}}{2}\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "75b5b22413a248479cce4c63d2f9d45d",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/jzJre9Rrulr0j.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/jzJre9Rrulr0j.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d9760c",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-24T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (24 Jan Shift 1)",
+    "title": "JEE Main 2025 (24 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

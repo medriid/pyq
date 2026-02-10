@@ -1,8 +1,8 @@
 {
   "index": 41,
-  "type": "numerical",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2023 (06 Apr Shift 1)",
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2023 (11 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "<p>An ideal transformer with purely resistive load operates at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>&#160;</mo><mi>kV</mi></math> on the primary side. It supplies electrical energy to a number of nearby houses at&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi><mo>.</mo></math> The average rate of energy consumption in the houses served by the transformer is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>&#160;</mo><mi>kW</mi><mo>.</mo></math> The value of resistive load <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><msub><mi>R</mi><mi>s</mi></msub><mo>)</mo></math> required in the secondary circuit will be<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>_________m&#937;</mi><mo>.</mo></math></p>"
+    "text": "<p><img src=\"assets\\qt0041_a79aafff6dd1.png\" style=\"width: 350px; height: 189px;\" /></p><p>As per the given graph, choose the correct representation for curve <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> and curve <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math><br />{Where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>X</mi><mi>C</mi></msub><mo>=</mo></math> Reactance of pure capacitive circuit connected with A.C. source<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>X</mi><mi>L</mi></msub><mo>=</mo></math> Reactance of pure inductive circuit connected with A.C. source<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo></math> Impedance of pure resistive circuit connected with A.C. source<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi><mo>=</mo></math> Impedance of the <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mi>C</mi><mi>R</mi></math> series circuit }</p>"
   },
-  "options": [],
-  "correct_answer": "240",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><msub><mi>X</mi><mi>C</mi></msub><mo>,</mo><mi>B</mi><mo>=</mo><mi>R</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><msub><mi>X</mi><mi>L</mi></msub><mo>,</mo><mi>B</mi><mo>=</mo><mi>R</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><msub><mi>X</mi><mi>L</mi></msub><mo>,</mo><mi>B</mi><mo>=</mo><mi>Z</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><msub><mi>X</mi><mi>C</mi></msub><mo>,</mo><mi>B</mi><mo>=</mo><msub><mi>X</mi><mi>L</mi></msub></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
   "solution": {
-    "text": "<blockquote><p>The given data is&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>60</mn><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">W</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mi>s</mi></msub><mo>=</mo><mn>120</mn><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></math></p><p>A transformer has a primary coil and a secondary coil.</p><p>The formula for the power delivered is given by&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><msub><msup><mi>V</mi><mn>2</mn></msup><mi>s</mi></msub><msub><mi>R</mi><mi>s</mi></msub></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>60</mn><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup><mo>=</mo><mfrac><mrow><mn>120</mn><mo>&#215;</mo><mn>120</mn></mrow><msub><mi>R</mi><mi>s</mi></msub></mfrac><mspace linebreak=\"newline\"></mspace><mo>&#8658;</mo><msub><mi>R</mi><mi>s</mi></msub><mo>=</mo><mfrac><mrow><mn>120</mn><mo>&#215;</mo><mn>120</mn></mrow><mrow><mn>60</mn><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mn>240</mn><mo>&#160;</mo><mi>m&#937;</mi></math></p></blockquote>"
+    "text": "<p>The formula to calculate the inductive reactance is</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>X</mi><mi>L</mi></msub><mo>=</mo><mi>&#969;</mi><mi>L</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mn>1</mn></mfenced></math></p><p>The formula to calculate capacitive reactance is</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>X</mi><mi>C</mi></msub><mo>=</mo><mfenced><mfrac><mn>1</mn><mrow><mi>&#969;</mi><mi>C</mi></mrow></mfrac></mfenced><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mn>2</mn></mfenced></math></p><p>As can be seen from equation (1), the inductive reactance varies directly with the frequency and equation (2) indicates that capacitive reactance varies inversely with the frequency.</p><p>Hence, curve&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>&nbsp;represents the capacitive reactance and curve&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>&nbsp;represents the inductive reactance.</p>"
   }
 }

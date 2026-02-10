@@ -1,0 +1,43 @@
+{
+  "index": 65,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2011",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255a501b352fc65c18d3",
+    "chapter_name": "Differentiation",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\frac{d^2 x}{d y^2}$ equals"
+  },
+  "options": [
+    {
+      "text": "\n$-\\left(\\frac{d^2 y}{d x^2}\\right)^{-1}\\left(\\frac{d y}{d x}\\right)^{-3}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left(\\frac{d^2 y}{d x^2}\\right)\\left(\\frac{d y}{d x}\\right)^{-2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-\\left(\\frac{d^2 y}{d x^2}\\right)\\left(\\frac{d y}{d x}\\right)^{-3}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\left(\\frac{d^2 y}{d x^2}\\right)^{-1}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\frac{d}{d y}\\left(\\frac{d x}{d y}\\right)=\\frac{d}{d y}\\left(\\frac{1}{\\left(\\frac{d y}{d x}\\right)}\\right)=-\\frac{1}{\\left(\\frac{d y}{d x}\\right)^2} \\frac{d}{d y}\\left(\\frac{d y}{d x}\\right)^2$\n$=-\\left(\\frac{d y}{d x}\\right)^{-2} \\frac{1}{\\left(\\frac{d y}{d x}\\right)} \\frac{d}{d x}\\left(\\frac{d y}{d x}\\right)=-\\left(\\frac{d^2 y}{d x^2}\\right)\\left(\\frac{d y}{d x}\\right)^{-3}$"
+  }
+}

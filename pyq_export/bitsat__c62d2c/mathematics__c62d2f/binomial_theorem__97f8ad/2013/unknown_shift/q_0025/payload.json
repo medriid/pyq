@@ -1,0 +1,43 @@
+{
+  "index": 25,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2013",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7ddf871d2a6297f8ad",
+    "chapter_name": "Binomial Theorem",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\mathrm{C}_{0}, \\mathrm{C}_{1}, \\mathrm{C}_{2}, \\ldots \\ldots \\ldots \\ldots . \\mathrm{C}_{\\mathrm{n}}$ denote the binomial\r\n\r\ncoefficientsin the expansion of $(1+\\mathrm{x})^{\\mathrm{n}}$, then the value of $\\mathrm{C}_{0}+\\left(\\mathrm{C}_{0}+\\mathrm{C}_{1}\\right)+\\left(\\mathrm{C}_{0}+\\mathrm{C}_{1}+\\mathrm{C}_{2}\\right)+\\ldots$\r\n\r\n$+\\left(C_{0}+C_{1}+\\ldots . .+C_{n-1}\\right)$"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{n} \\cdot 2^{\\mathrm{n}-1}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{n} \\cdot 2^{\\mathrm{n}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$(n-1) \\cdot 2^{n-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$(n-1) \\cdot 2^{n}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{C}_{0}+\\left(\\mathrm{C}_{0}+\\mathrm{C}_{1}\\right)+\\left(\\mathrm{C}_{0}+\\mathrm{C}_{1}+\\mathrm{C}_{2}\\right)+\\ldots \\ldots \\ldots \\ldots \\ldots \\\\ &+\\left(\\mathrm{C}_{0}+\\mathrm{C}_{1}+\\ldots \\ldots \\ldots . \\mathrm{C}_{\\mathrm{n}-1}\\right) \\\\ &=\\mathrm{n} \\mathrm{C}_{0}+(\\mathrm{n}-1) \\mathrm{C}_{1}+(\\mathrm{n}-2) \\mathrm{C}_{2}+\\ldots \\ldots \\mathrm{C}_{\\mathrm{n}-1} \\\\ &=\\mathrm{C}_{1}+2 \\mathrm{C}_{2}+3 \\mathrm{C}_{3}+4 \\mathrm{C}_{4} \\ldots \\ldots \\mathrm{n} \\mathrm{C}_{\\mathrm{n}}=\\mathrm{n} .2^{\\mathrm{n}-1} \\end{aligned}$"
+  }
+}

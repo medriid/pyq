@@ -1,0 +1,24 @@
+{
+  "index": 6,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $\\int \\frac{\\left(\\sqrt{1+x^2}+x\\right)^{10}}{\\left(\\sqrt{1+x^2}-x\\right)^9} d x=$<br/>$\\frac{1}{m}\\left(\\left(\\sqrt{1+x^2}+x\\right)^n\\left(n \\sqrt{1+x^2}-x\\right)\\right)+C \\text { where } C$<br/>is the constant of integration and $m, n \\in N$, then $\\mathrm{m}+\\mathrm{n}$ is equal to"
+  },
+  "options": [],
+  "correct_answer": "379",
+  "solution": {
+    "text": "rationalise<br/>$\\begin{aligned}<br/>& \\Rightarrow \\int \\frac{\\left(\\sqrt{1+x^2}+x\\right)^{10}}{\\left(\\sqrt{1+x^2}-x\\right)^9} \\times \\frac{\\left(\\sqrt{1+x^2}+x\\right)^9}{\\left(\\sqrt{1+x^2}+x\\right)^9} d x \\\\\n& \\Rightarrow \\int \\frac{\\left(\\sqrt{1+x^2}+x\\right)^{19}}{1} d x<br/>\\end{aligned}$<br/>Put $\\sqrt{1+\\mathrm{x}^2}+\\mathrm{x}=\\mathrm{t}$<br/>$\\left(\\frac{\\mathrm{x}}{\\sqrt{1+\\mathrm{x}^2}}+1\\right) \\mathrm{dx}=\\mathrm{dt}$<br/>$\\mathrm{dx}=\\frac{\\mathrm{dt}}{\\mathrm{t}} \\sqrt{1+\\mathrm{x}^2}$<br/>Now as $\\sqrt{1+\\mathrm{x}^2}+\\mathrm{x}=\\mathrm{t}$<br/>$\\begin{aligned}<br/>& \\text { so } \\sqrt{1+\\mathrm{x}^2}-\\mathrm{x}=\\frac{1}{\\mathrm{t}} \\\\\n& \\therefore \\sqrt{1+\\mathrm{x}^2}=\\frac{1}{2}\\left(\\mathrm{t}+\\frac{1}{\\mathrm{t}}\\right)<br/>\\end{aligned}$<br/>Thus $I=\\int \\mathrm{t}^{19} \\cdot \\frac{\\mathrm{dt}}{\\mathrm{t}} \\cdot \\frac{1}{2}\\left(\\mathrm{t}+\\frac{1}{\\mathrm{t}}\\right)$<br/>$\\begin{aligned}<br/>& \\Rightarrow \\frac{1}{2} \\int\\left(\\mathrm{t}^{19}+\\mathrm{t}^{17}\\right) \\mathrm{dt} \\\\\n& =\\frac{1}{2}\\left(\\frac{\\mathrm{t}^{20}}{20}+\\frac{\\mathrm{t}^{18}}{18}\\right)+\\mathrm{C} \\\\\n& =\\frac{\\mathrm{t}^{19}}{360}\\left[9 \\mathrm{t}+\\frac{10}{\\mathrm{t}}\\right]+\\mathrm{C} \\\\\n& =\\frac{\\mathrm{t}^{19}}{360}\\left[9\\left(\\mathrm{t}+\\frac{1}{\\mathrm{t}}\\right)+\\frac{1}{\\mathrm{t}}\\right]+\\mathrm{C} \\\\\n& \\Rightarrow \\frac{\\left(\\sqrt{1+\\mathrm{x}^2}+\\mathrm{x}\\right)^{19}}{360}\\left[9\\left(2 \\sqrt{1+\\mathrm{x}^2}\\right)+\\left(\\sqrt{1+\\mathrm{x}^2}-\\mathrm{x}\\right)\\right]+\\mathrm{C} \\\\\n& \\Rightarrow \\frac{\\left(\\sqrt{1+\\mathrm{x}^2}+\\mathrm{x}\\right)^{19}}{360}\\left[19 \\sqrt{1+\\mathrm{x}^2}-\\mathrm{x}\\right]+\\mathrm{C} \\\\\n& \\therefore \\mathrm{~m}=360, \\mathrm{n}=19 \\\\\n& \\therefore \\mathrm{~m}+\\mathrm{n}=379<br/>\\end{aligned}$"
+  }
+}

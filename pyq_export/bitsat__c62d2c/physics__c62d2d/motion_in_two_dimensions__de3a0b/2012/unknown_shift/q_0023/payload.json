@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd6f3bf0edf6b5de3a0b",
+    "chapter_name": "Motion In Two Dimensions",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A projectile can have the same range $\\mathrm{R}$ for two angles of projection. If $t_{1}$ and $t_{2}$ be the times of flight in two cases, then what is the product of two times of flight?"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{t}_{1} \\mathrm{t}_{2} \\propto \\mathrm{R}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{t}_{1} \\mathrm{t}_{2} \\propto \\mathrm{R}^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{t}_{1} \\mathrm{t}_{2} \\propto \\mathrm{l} / \\mathrm{R}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{t}_{1} \\mathrm{t}_{2} \\propto 1 / \\mathrm{R}^{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\mathrm{t}_{1}=\\frac{2 \\mathrm{u} \\sin \\theta}{\\mathrm{g}}$ and\r\n$\\mathrm{t}_{2}=\\frac{2 \\mathrm{u} \\sin (90-\\theta)}{\\mathrm{g}}=\\frac{2 \\mathrm{u} \\cos \\theta}{\\mathrm{g}}$\r\n$\\begin{aligned} \\therefore \\mathrm{t}_{1} \\mathrm{t}_{2} &=\\frac{4 \\mathrm{u}^{2} \\cos \\theta \\sin \\theta}{\\mathrm{g}^{2}}=\\frac{2}{\\mathrm{~g}}\\left[\\frac{\\mathrm{u}^{2} \\sin 2 \\theta}{\\mathrm{g}}\\right] \\\\ &=\\frac{2}{\\mathrm{~g}} \\mathrm{R}, \\end{aligned}$\r\nwhere $\\mathrm{R}$ is the range. \r\nHence $t_{1} t_{2} \\propto R$"
+  }
+}

@@ -1,38 +1,63 @@
 {
-  "_id": "6682bd51ba0e94a3c4025be1",
-  "type": "numerical",
+  "_id": "6644671c970e6e9ab542d04a",
+  "type": "singleCorrect",
   "level": 2,
   "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6a",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-05T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (05 Apr Shift 1)",
+      "title": "JEE Main 2024 (05 Apr Shift 1)"
+    }
+  ],
   "question": {
-    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>:</mo><mi>ℝ</mi><mo>→</mo><mi>ℝ</mi></math> be a function defined by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfrac><msup><mn>4</mn><mi>x</mi></msup><mrow><msup><mn>4</mn><mi>x</mi></msup><mo>+</mo><mn>2</mn></mrow></mfrac></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mo>=</mo><munderover><mo>∫</mo><mrow><mi>f</mi><mfenced><mi>a</mi></mfenced></mrow><mrow><mi>f</mi><mfenced><mrow><mn>1</mn><mo>−</mo><mi>a</mi></mrow></mfenced></mrow></munderover><mi>x</mi><msup><mi>sin</mi><mn>4</mn></msup><mfenced><mrow><mi>x</mi><mfenced><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi><mo>=</mo><munderover><mo>∫</mo><mrow><mi>f</mi><mfenced><mi>a</mi></mfenced></mrow><mrow><mi>f</mi><mfenced><mrow><mn>1</mn><mo>−</mo><mi>a</mi></mrow></mfenced></mrow></munderover><msup><mi>sin</mi><mn>4</mn></msup><mfenced><mrow><mi>x</mi><mfenced><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi><mo>;</mo><mo> </mo><mi>a</mi><mo>≠</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>. If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mi>M</mi><mo>=</mo><mi>β</mi><mi>N</mi><mo>,</mo><mi>α</mi><mo>,</mo><mo> </mo><mi>β</mi><mo>∈</mo><mi>ℕ</mi></math>, then the least value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>α</mi><mn>2</mn></msup><mo>+</mo><msup><mi>β</mi><mn>2</mn></msup></math> is equal to ______",
+    "text": "The integral $\\int_0^{\\pi / 4} \\frac{136 \\sin x}{3 \\sin x+5 \\cos x} d x$ is equal to :",
     "image": null
   },
-  "options": [],
-  "correctValue": "5",
+  "options": [
+    {
+      "id": "717hB",
+      "text": "$3 \\pi-50 \\log _e 2+20 \\log _e 5$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "Tv4Md",
+      "text": "$3 \\pi-25 \\log _e 2+10 \\log _e 5$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "anEKA",
+      "text": "$3 \\pi-10 \\log _e(2 \\sqrt{2})+10 \\log _e 5$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "JYcj1",
+      "text": "$3 \\pi-30 \\log _e 2+20 \\log _e 5$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfrac><msup><mn>4</mn><mi>x</mi></msup><mrow><msup><mn>4</mn><mi>x</mi></msup><mo>+</mo><mn>2</mn></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mo>=</mo><mfrac><msup><mn>4</mn><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></msup><mrow><msup><mn>4</mn><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></msup><mo>+</mo><mn>2</mn></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mo>=</mo><mfrac><mn>4</mn><mrow><mn>4</mn><mo>+</mo><mn>2</mn><mo>·</mo><msup><mn>4</mn><mi>x</mi></msup></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mrow><mn>2</mn><mo>+</mo><msup><mn>4</mn><mi>x</mi></msup></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>+</mo><mi>f</mi><mfenced><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow></mfenced><mo>=</mo><mn>1</mn></math></p><p>Now, solving <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mo>=</mo><munderover><mo>∫</mo><mrow><mi>f</mi><mfenced><mi>a</mi></mfenced></mrow><mrow><mi>f</mi><mfenced><mrow><mn>1</mn><mo>−</mo><mi>a</mi></mrow></mfenced></mrow></munderover><mi>x</mi><mo>·</mo><msup><mi>sin</mi><mn>4</mn></msup><mfenced><mrow><mi>x</mi><mfenced><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p>Now, using the formula <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>d</mo><mi>x</mi><mo>=</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mfenced><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>-</mo><mi>x</mi></mrow></mfenced><mo>d</mo><mi>x</mi></math> we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>M</mi><mo>=</mo><munderover><mo>∫</mo><mrow><mi>f</mi><mfenced><mi>a</mi></mfenced></mrow><mrow><mi>f</mi><mfenced><mrow><mn>1</mn><mo>−</mo><mi>a</mi></mrow></mfenced></mrow></munderover><mfenced><mrow><mi>f</mi><mfenced><mi>a</mi></mfenced><mo>+</mo><mi>f</mi><mfenced><mrow><mn>1</mn><mo>-</mo><mi>a</mi></mrow></mfenced><mo>-</mo><mi>x</mi></mrow></mfenced><mo>·</mo><msup><mi>sin</mi><mn>4</mn></msup><mfenced><mrow><mi>f</mi><mfenced><mi>a</mi></mfenced><mo>+</mo><mi>f</mi><mfenced><mrow><mn>1</mn><mo>-</mo><mi>a</mi></mrow></mfenced><mo>-</mo><mi>x</mi></mrow></mfenced><mfenced><mrow><mn>1</mn><mo>−</mo><mfenced><mrow><mi>f</mi><mfenced><mi>a</mi></mfenced><mo>+</mo><mi>f</mi><mfenced><mrow><mn>1</mn><mo>-</mo><mi>a</mi></mrow></mfenced><mo>-</mo><mi>x</mi></mrow></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>M</mi><mo>=</mo><munderover><mo>∫</mo><mrow><mi>f</mi><mfenced><mi>a</mi></mfenced></mrow><mrow><mi>f</mi><mfenced><mrow><mn>1</mn><mo>−</mo><mi>a</mi></mrow></mfenced></mrow></munderover><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mo>·</mo><msup><mi>sin</mi><mn>4</mn></msup><mfenced><mrow><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mi>x</mi></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>M</mi><mo>=</mo><munderover><mo>∫</mo><mrow><mi>f</mi><mfenced><mi>a</mi></mfenced></mrow><mrow><mi>f</mi><mfenced><mrow><mn>1</mn><mo>−</mo><mi>a</mi></mrow></mfenced></mrow></munderover><msup><mi>sin</mi><mn>4</mn></msup><mfenced><mrow><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mi>x</mi></mrow></mfenced><mi>d</mi><mi>x</mi><mo>-</mo><munderover><mo>∫</mo><mrow><mi>f</mi><mfenced><mi>a</mi></mfenced></mrow><mrow><mi>f</mi><mfenced><mrow><mn>1</mn><mo>−</mo><mi>a</mi></mrow></mfenced></mrow></munderover><mi>x</mi><mo>·</mo><msup><mi>sin</mi><mn>4</mn></msup><mfenced><mrow><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mi>x</mi></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>M</mi><mo>=</mo><mi>N</mi><mo>−</mo><mi>M</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>2</mn><mi>M</mi><mo>=</mo><mi>N</mi></math></p><p>So, on comparing we get, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>2</mn><mo>,</mo><mo> </mo><mi>β</mi><mo>=</mo><mn>1</mn></math></p><p>Hence, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>α</mi><mn>2</mn></msup><mo>+</mo><msup><mi>β</mi><mn>2</mn></msup><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>1</mn><mn>2</mn></msup><mo>=</mo><mn>5</mn></math></p>",
+    "text": "$\\begin{aligned} & I=\\int_0^{\\pi / 4} \\frac{136 \\sin x}{3 \\sin x+5 \\cos x} d x \\\\ & 136 \\sin x=A(3 \\sin x+5 \\cos x)+B(3 \\cos x-5 \\sin x) \\\\ & 136=3 A-5 B...(i) \\\\ & 0=5 A+3 B...(ii)\\end{aligned}$\n$\\begin{aligned} & 3 \\mathrm{~B}=-5 \\mathrm{~A} \\Rightarrow \\mathrm{B}=-\\frac{5}{3} \\mathrm{~A} \\\\ & 136=3 \\mathrm{~A}-5\\left(-\\frac{5}{3} \\mathrm{~A}\\right) \\\\ & 136=3 \\mathrm{~A}+\\frac{25}{3} \\mathrm{~A} \\\\ & 136=\\frac{34 \\mathrm{~A}}{3} \\\\ & \\Rightarrow \\mathrm{A}=\\frac{136 \\times 3}{34}=12 \\\\ & \\mathrm{~B}=\\frac{-5}{3}(12)=-20\\end{aligned}$\n$\\begin{aligned} & I=\\int_0^{\\pi / 4} \\frac{A(3 \\sin x+5 \\cos x)}{3 \\sin x+5 \\cos x}+\\int_0^{\\pi / 4} \\frac{B(3 \\cos x-5 \\sin x)}{3 \\sin x+5 \\cos x} \\\\ & =A(x)_0^{\\pi / 4}+B[\\ln (3 \\sin x+5 \\cos x)]_0^{\\pi / 4} \\\\ & =12\\left(\\frac{\\pi}{4}\\right)-20 \\ln \\left(\\frac{3}{\\sqrt{2}}+\\frac{5}{\\sqrt{2}}\\right)-\\ln (0+5) \\\\ & =3 \\pi-20 \\ln 4 \\sqrt{2}+20 \\ln 5 \\\\ & =3 \\pi-20 \\times \\frac{5}{2} \\ln 2+20 \\ln 5 \\\\ & =3 \\pi-50 \\ln 2+20 \\ln 5\\end{aligned}$",
     "image": null
   },
   "videoSolution": null,
   "syllabusCategory": "noChange",
-  "previousYearPapers": [
-    {
-      "_id": "65c4c0c11d30997d3436bb04",
-      "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-01-31T09:00:00.000Z",
-      "isVisible": true,
-      "shortName": "2024 (31 Jan Shift 1)",
-      "title": "JEE Main 2024 (31 Jan Shift 1)"
-    }
-  ],
   "previousYear": {
-    "_id": "65c4c0c11d30997d3436bb04",
+    "_id": "664466ee278297dee60eda6a",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-01-31T09:00:00.000Z",
+    "heldOn": "2024-04-05T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (31 Jan Shift 1)",
-    "title": "JEE Main 2024 (31 Jan Shift 1)"
+    "shortName": "2024 (05 Apr Shift 1)",
+    "title": "JEE Main 2024 (05 Apr Shift 1)"
   },
-  "evalStatus": "notAttempted",
-  "lastPracticed": null
+  "evalStatus": "incorrect",
+  "lastPracticed": "2024-08-01T15:16:00.804Z"
 }

@@ -1,0 +1,83 @@
+{
+  "_id": "648b5a6f417cc3fb48d6821d",
+  "previousYearPapers": [
+    {
+      "_id": "63f499871d196b49d9cd6b10",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2023-01-30T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (30 Jan Shift 2)",
+      "title": "JEE Main 2023 (30 Jan Shift 2)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "<p>The output <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> for the inputs <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> of circuit is given by</p><p><img alt=\"\" src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/f3439b96-3177-4a22-88c5-7132400cd36e-9895411.PNG\" style=\"width: 400px; height: 134px;\" /></p><p>Truth table of the shown circuit is :</p>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "L8gyX",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"[\" close=\"]\"><mtable><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></mfenced></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "AV7tq",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"[\" close=\"]\"><mtable><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "mKcy8",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"[\" close=\"]\"><mtable><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Qebtt",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"[\" close=\"]\"><mtable><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></mfenced></math>",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p><img alt=\"\" src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/f3439b96-3177-4a22-88c5-7132400cd36e-9895411.PNG\" style=\"width: 400px; height: 134px;\" /></p><p>Output using DeMorgan&#39;s theorem can be written as,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><menclose notation=\"top\"><mfenced><mrow><menclose notation=\"top\"><mfenced><mrow><mi>A</mi><mo>&#183;</mo><menclose notation=\"top\"><mi>A</mi><mo>&#183;</mo><mi>B</mi></menclose></mrow></mfenced></menclose><mo>&#183;</mo><menclose notation=\"top\"><mfenced><mrow><menclose notation=\"top\"><mi>A</mi><mo>&#183;</mo><mi>B</mi></menclose><mo>&#183;</mo><mi>B</mi></mrow></mfenced></menclose></mrow></mfenced></menclose><mspace linebreak=\"newline\"></mspace><mo>=</mo><menclose notation=\"top\"><menclose notation=\"top\"><mfenced><mrow><mi>A</mi><mo>&#183;</mo><menclose notation=\"top\"><mi>A</mi><mo>&#183;</mo><mi>B</mi></menclose></mrow></mfenced></menclose></menclose><mo>+</mo><menclose notation=\"top\"><menclose notation=\"top\"><mfenced><mrow><menclose notation=\"top\"><mi>A</mi><mo>&#183;</mo><mi>B</mi></menclose><mo>&#183;</mo><mi>B</mi></mrow></mfenced></menclose></menclose><mspace linebreak=\"newline\"></mspace><mo>=</mo><mfenced><mrow><mi>A</mi><mo>&#183;</mo><menclose notation=\"top\"><mi>A</mi><mo>&#183;</mo><mi>B</mi></menclose></mrow></mfenced><mo>+</mo><mfenced><mrow><menclose notation=\"top\"><mi>A</mi><mo>&#183;</mo><mi>B</mi></menclose><mo>&#183;</mo><mi>B</mi></mrow></mfenced><mspace linebreak=\"newline\"></mspace><mo>=</mo><mfenced><mrow><mi>A</mi><mo>&#183;</mo><mfenced><mrow><menclose notation=\"top\"><mi>A</mi></menclose><mo>+</mo><menclose notation=\"top\"><mi>B</mi></menclose></mrow></mfenced></mrow></mfenced><mo>+</mo><mfenced><mrow><mfenced><mrow><menclose notation=\"top\"><mi>A</mi></menclose><mo>+</mo><menclose notation=\"top\"><mi>B</mi></menclose></mrow></mfenced><mo>&#183;</mo><mi>B</mi></mrow></mfenced><mspace linebreak=\"newline\"></mspace><mo>=</mo><mi>A</mi><mo>&#183;</mo><menclose notation=\"top\"><mi>A</mi></menclose><mo>+</mo><mi>A</mi><mo>&#183;</mo><menclose notation=\"top\"><mi>B</mi></menclose><mo>+</mo><menclose notation=\"top\"><mi>A</mi></menclose><mo>&#183;</mo><mi>B</mi><mo>+</mo><menclose notation=\"top\"><mi>B</mi></menclose><mo>&#183;</mo><mi>B</mi><mspace linebreak=\"newline\"></mspace><mo>=</mo><mfenced><mrow><mi>A</mi><mo>+</mo><mi>B</mi></mrow></mfenced><mo>&#183;</mo><mfenced><mrow><menclose notation=\"top\"><mi>A</mi></menclose><mo>+</mo><menclose notation=\"top\"><mi>B</mi></menclose></mrow></mfenced></math></p><p>Which represents XOR gate.</p><p>Therefore, required truth table will be</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"[\" close=\"]\"><mtable><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></mfenced></math></p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "949414bfdbe6461dbcce5f5972064a9c",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/MCwfCexaYY07a.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/MCwfCexaYY07a.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "63f499871d196b49d9cd6b10",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2023-01-30T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (30 Jan Shift 2)",
+    "title": "JEE Main 2023 (30 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

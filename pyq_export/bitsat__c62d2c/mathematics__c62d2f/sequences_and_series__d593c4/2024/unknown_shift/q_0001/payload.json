@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cb79820319dd593c4",
+    "chapter_name": "Sequences and Series",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\sum_{k=1}^n k(k+1)(k-1)=p n^4+q n^3+t n^2+s n$ where $p, q, t$ and $s$ are constants, then the value of $s$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$-\\frac{1}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{1}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{4}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n\\text { Let } S & =\\sum_{k=1}^n k(k+1)(k-1) \\\\\n& =\\sum_{k=1}^n k^3-k\n\\end{aligned}$\nWe know that\n$\\sum_{r=1}^P r=\\frac{P(P+1)}{2}$\nand\n$\\sum_{r=1}^P r^3=\\left[\\frac{P(P+1)}{2}\\right]^2$\n$\\begin{aligned}\nS & =\\left[\\frac{n(n+1)}{2}\\right]^2-\\left[\\frac{n(n+1)}{2}\\right] \\\\\n& =\\frac{n(n+1)}{2}\\left[\\frac{n(n+1)}{2}-1\\right] \\\\\n& =\\left(\\frac{n^2+n}{2}\\right)\\left[\\frac{n^2+n-2}{2}\\right] \\\\\n& =\\frac{n^4}{4}+\\frac{n^3}{2}-\\frac{n^2}{4}-\\frac{n}{2}...(i)\n\\end{aligned}$\nNow, by comparing $p n^4+q n^3+t n^2+s n$ with Eq. (i),\n$S=-\\frac{1}{2}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7ae99b266d87234830",
+    "chapter_name": "Nuclear Physics",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In an ore containing uranium, the ratio of $U^{238}$ to $\\mathrm{Pb}^{206}$ is 3. Calculate the àge of the ore, assuming that all the lead present in the ore is the final stable product of $U^{238}$. Take the half-life of $U^{238}$ to be $4.5 \\times 10^{9} \\mathrm{yr}$."
+  },
+  "options": [
+    {
+      "text": "$1.6 \\times 19^{3} \\mathrm{yr}$",
+      "is_correct": false
+    },
+    {
+      "text": "$1.5 \\times 10^{4} \\mathrm{yr}$",
+      "is_correct": false
+    },
+    {
+      "text": "$1.867 \\times 10^{9} \\mathrm{yr}$",
+      "is_correct": true
+    },
+    {
+      "text": "$2 \\times 10^{5} \\mathrm{yr}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let the initial mass of uranium be $\\mathrm{M}_{0}$ Final mass of uranium after time $\\mathrm{t}$\r\n\r\n$$\r\n\r\n\\mathrm{M}=\\frac{3}{4} \\mathrm{M}_{0}\r\n\r\n$$\r\n\r\nAccording to the law of radioactive disintegration.\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\frac{\\mathrm{M}}{\\mathrm{M}_{0}}=\\left(\\frac{1}{2}\\right)^{\\mathrm{t} / \\mathrm{T}} \\Rightarrow \\frac{\\mathrm{M}_{0}}{\\mathrm{M}}=(2)^{\\mathrm{t} / \\mathrm{T}} \\\\\r\n\r\n\\therefore \\log _{10}\\left(\\frac{\\mathrm{M}_{0}}{\\mathrm{M}}\\right)=\\frac{\\mathrm{t}}{\\mathrm{T}} \\log _{10}(2) \\\\\r\n\r\n\\mathrm{t}=\\mathrm{T} \\frac{\\log _{10}\\left(\\frac{\\mathrm{M}_{0}}{\\mathrm{M}}\\right)}{\\log _{10}(2)}=\\frac{\\mathrm{T} \\log _{10}\\left(\\frac{4}{3}\\right)}{\\log _{10}(2)} \\\\\r\n\r\n=\\frac{\\mathrm{T} \\log _{10}(1.333)}{\\log _{10}(2)}=4.5 \\times 10^{9}\\left(\\frac{0.1249}{0.3010}\\right) \\\\\r\n\r\n\\Rightarrow \\mathrm{t}=1.867 \\times 10^{9} \\mathrm{yr} .\r\n\r\n\\end{array}\r\n\r\n$$"
+  }
+}

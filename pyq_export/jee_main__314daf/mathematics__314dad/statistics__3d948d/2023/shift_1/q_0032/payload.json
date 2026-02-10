@@ -1,8 +1,8 @@
 {
   "index": 32,
-  "type": "numerical",
+  "type": "singleCorrect",
   "difficulty": 1,
-  "pyq_info": "JEE Main 2023 (10 Apr Shift 1)",
+  "pyq_info": "JEE Main 2023 (15 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "<p>If the mean of the frequency distribution</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\t<tbody>\t\t<tr>\t\t\t<td>Class :</td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>-</mo><mn>10</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>-</mo><mn>20</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>-</mo><mn>30</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>-</mo><mn>40</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>-</mo><mn>50</mn></math></td>\t\t</tr>\t\t<tr>\t\t\t<td>Frequency :</td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math></td>\t\t</tr>\t</tbody></table><p>is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn></math>, then its variance is ________ .</p>"
+    "text": "The mean and standard deviation of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math> observations are <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> respectively. Later on, it was observed that one observation was recorded as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn></math> instead of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn></math>. Then the correct variance is"
   },
-  "options": [],
-  "correct_answer": "151",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
   "solution": {
-    "text": "<blockquote><p>Given that the mean for the frequency distribution is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn></math>.</p><p>We know that Mean&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><menclose notation=\"top\"><mi>x</mi></menclose></mfenced><mo>=</mo><mfrac><mrow><mo>&#8721;</mo><msub><mi>f</mi><mi>i</mi></msub><msub><mi>x</mi><mi>i</mi></msub></mrow><mrow><mo>&#8721;</mo><msub><mi>f</mi><mi>i</mi></msub></mrow></mfrac></math></p><p>Now for the class interval&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>-</mo><mn>10</mn></math>&nbsp;we get&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><mn>0</mn><mo>+</mo><mn>10</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>5</mn></math>.&nbsp;</p><p>Similarly we can calculate&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mi>i</mi></msub></math>&nbsp;for other class intervals.</p><p>Now we know that mean&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>28</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mrow><mn>2</mn><mo>&#215;</mo><mn>5</mn><mo>+</mo><mn>3</mn><mo>&#215;</mo><mn>15</mn><mo>+</mo><mi>x</mi><mo>&#215;</mo><mn>25</mn><mo>+</mo><mn>5</mn><mo>&#215;</mo><mn>35</mn><mo>+</mo><mn>4</mn><mo>&#215;</mo><mn>45</mn></mrow><mrow><mn>14</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mo>=</mo><mn>28</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>x</mi><mo>=</mo><mn>6</mn></math></p><p>Also we know that variance&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><msup><mi>&#963;</mi><mn>2</mn></msup></mfenced><mo>=</mo><mfrac><mrow><mo>&#8721;</mo><msub><mi>f</mi><mi>i</mi></msub><msup><mfenced><mrow><mover><mi>x</mi><mo>&#175;</mo></mover><mo>-</mo><msub><mi>x</mi><mi>i</mi></msub></mrow></mfenced><mn>2</mn></msup></mrow><mrow><mo>&#8721;</mo><msub><mi>f</mi><mi>i</mi></msub></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>&#963;</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mn>2</mn><mo>&#215;</mo><msup><mfenced><mrow><mn>28</mn><mo>-</mo><mn>5</mn></mrow></mfenced><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo>&#215;</mo><msup><mfenced><mrow><mn>28</mn><mo>-</mo><mn>15</mn></mrow></mfenced><mn>2</mn></msup><mo>+</mo><mn>6</mn><mo>&#215;</mo><msup><mfenced><mrow><mn>28</mn><mo>-</mo><mn>25</mn></mrow></mfenced><mn>2</mn></msup><mo>+</mo><mn>5</mn><mo>&#215;</mo><msup><mfenced><mrow><mn>28</mn><mo>-</mo><mn>35</mn></mrow></mfenced><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>&#215;</mo><msup><mfenced><mrow><mn>28</mn><mo>-</mo><mn>45</mn></mrow></mfenced><mn>2</mn></msup></mrow><mn>20</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>&#963;</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mn>2</mn><mo>&#215;</mo><msup><mfenced><mn>23</mn></mfenced><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo>&#215;</mo><msup><mfenced><mn>13</mn></mfenced><mn>2</mn></msup><mo>+</mo><mn>6</mn><mo>&#215;</mo><msup><mfenced><mn>3</mn></mfenced><mn>2</mn></msup><mo>+</mo><mn>5</mn><mo>&#215;</mo><msup><mfenced><mn>7</mn></mfenced><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>&#215;</mo><msup><mfenced><mn>17</mn></mfenced><mn>2</mn></msup></mrow><mn>20</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>&#963;</mi><mn>2</mn></msup><mo>=</mo><mn>151</mn></math></p><p>Hence this is the required answer.</p></blockquote>"
+    "text": "<blockquote><p>Incorrect mean is</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mstyle displaystyle=\"true\"><munderover><mo>&#8721;</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><msub><mi>x</mi><mi>i</mi></msub></mstyle><mn>10</mn></mfrac><mo>=</mo><mn>20</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munderover><mo>&#8721;</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><msub><mi>x</mi><mi>i</mi></msub><mo>=</mo><mn>200</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mi mathvariant=\"normal\">i</mi></mfenced></math></p><p>So, corrected mean is</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><munderover><mo>&#8721;</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><msub><mi>x</mi><mi>i</mi></msub><mo>-</mo><mn>50</mn><mo>+</mo><mn>40</mn></mrow><mn>10</mn></mfrac><mo>=</mo><mfrac><mrow><mn>200</mn><mo>-</mo><mn>10</mn></mrow><mn>10</mn></mfrac><mo>=</mo><mn>19</mn></math></p><p>Incorrect variance is</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><munderover><mo>&#8721;</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><msubsup><mi>x</mi><mi>i</mi><mn>2</mn></msubsup></mrow><mn>10</mn></mfrac><mo>-</mo><mn>400</mn><mo>=</mo><mn>64</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munderover><mo>&#8721;</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><msubsup><mi>x</mi><mi>i</mi><mn>2</mn></msubsup><mo>=</mo><mn>4640</mn></math></p><p>Now, corrected variance is</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><munderover><mo>&#8721;</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mn>9</mn></munderover><msubsup><mi>x</mi><mi>i</mi><mn>2</mn></msubsup><mo>+</mo><msup><mn>40</mn><mn>2</mn></msup><mo>-</mo><msup><mn>50</mn><mn>2</mn></msup></mrow><mn>10</mn></mfrac><mo>-</mo><msup><mfenced><mn>19</mn></mfenced><mn>2</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>4640</mn><mo>-</mo><mn>900</mn></mrow><mn>10</mn></mfrac><mo>-</mo><msup><mfenced><mn>19</mn></mfenced><mn>2</mn></msup><mspace linebreak=\"newline\"></mspace><mo>=</mo><mn>374</mn><mo>-</mo><mn>361</mn><mspace linebreak=\"newline\"></mspace><mo>=</mo><mn>13</mn></math></p></blockquote>"
   }
 }

@@ -1,8 +1,8 @@
 {
   "index": 19,
   "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2024 (04 Apr Shift 2)",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "A cyclist starts from the point $P$ of a circular ground of radius $2 \\mathrm{~km}$ and travels along its circumference to the point $\\mathrm{S}$. The displacement of a cyclist is:\n<img src=\"assets\\qt0019_c2d4d31a8583.png\"><br>"
+    "text": "A body projected vertically upwards with a certain speed from the top of a tower reaches the ground in $t_1$. If it is projected vertically downwards from the same point with the same speed, it reaches the ground in $t_2$. Time required to reach the ground, if it is dropped from the top of the tower, is :"
   },
   "options": [
     {
-      "text": "$\\sqrt{8} \\mathrm{~km}$",
+      "text": "$\\sqrt{t_1 t_2}$",
       "is_correct": true
     },
     {
-      "text": "$8 \\mathrm{~km}$",
+      "text": "$\\sqrt{t_1+t_2}$",
       "is_correct": false
     },
     {
-      "text": "$6 \\mathrm{~km}$",
+      "text": "$\\sqrt{t_1-t_2}$",
       "is_correct": false
     },
     {
-      "text": "$4 \\mathrm{~km}$",
+      "text": "$\\sqrt{\\frac{t_1}{t_2}}$",
       "is_correct": false
     }
   ],
@@ -38,6 +38,6 @@
     "A"
   ],
   "solution": {
-    "text": "<img src=\"assets\\st0019_9947124f22db.png\"><br />$\\therefore$ Displacement $=\\mathrm{R} \\sqrt{2}=2 \\sqrt{2}=\\sqrt{8} \\mathrm{~km}$"
+    "text": "$\\begin{aligned} & \\mathrm{t}_1=\\frac{\\mathrm{u}+\\sqrt{\\mathrm{u}^2+2 \\mathrm{gh}}}{\\mathrm{g}} \\\\ & \\mathrm{t}_2=\\frac{-\\mathrm{u}+\\sqrt{\\mathrm{u}^2+2 \\mathrm{gh}}}{\\mathrm{g}} \\\\ & \\mathrm{t}=\\frac{\\sqrt{2 \\mathrm{gh}}}{\\mathrm{g}} \\\\ & \\mathrm{t}_1 \\mathrm{t}_2=\\frac{\\left(\\mathrm{u}^2+2 \\mathrm{gh}\\right)-\\mathrm{u}^2}{\\mathrm{~g}^2}=\\frac{2 \\mathrm{gh}}{\\mathrm{g}^2}=\\mathrm{t}^2 \\\\ & \\Rightarrow \\mathrm{t}=\\sqrt{\\mathrm{t}_1 \\mathrm{t}_2}\\end{aligned}$"
   }
 }

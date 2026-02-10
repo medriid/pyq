@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2020",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd742781aed2a1c7393e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathrm{f}$ be the function defined by $f(x)=\\left\\{\\begin{array}{ll}\\frac{x^{2}-1}{x^{2}-2|x-1|-1}, & x \\neq 1 \\\\ 1 / 2, & x=1\\end{array}\\right.$"
+  },
+  "options": [
+    {
+      "text": "The function is continuous for all values of x",
+      "is_correct": false
+    },
+    {
+      "text": "The function is continuous only for $x>1$",
+      "is_correct": false
+    },
+    {
+      "text": "The function is continuous at $\\mathrm{x}=1$",
+      "is_correct": false
+    },
+    {
+      "text": "The function is not continuous at $x=1$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "For $x<1, f(x)=\\frac{x^{2}-1}{x^{2}+2 x-3}=\\frac{x+1}{x+3}$\r\n\r\n$\\therefore \\lim _{x \\rightarrow 1^{-}} \\mathrm{f}(\\mathrm{x})=\\frac{1}{2}$\r\n\r\nFor $x>1, f(x)=\\frac{x^{2}-1}{x^{2}-2 x+1}=\\frac{x+1}{x-1}$\r\n\r\n$\\therefore \\lim _{x \\rightarrow 1^{+}} f(x)=\\infty$\r\n\r\n$\\therefore$ The function is not continuous at $\\mathrm{x}=1$."
+  }
+}

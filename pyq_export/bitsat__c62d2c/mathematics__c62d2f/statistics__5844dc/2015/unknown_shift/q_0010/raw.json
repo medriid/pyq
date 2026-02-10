@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7d36f5bfc7ab78ae82d",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d79",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "BITSAT 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The mean square deviation of a set of n observation $\\mathrm{x}_{1}, \\mathrm{x}_{2^{2}}, \\ldots \\mathrm{x}_{\\mathrm{n}}$ about a point $\\mathrm{c}$ is defined as $\\frac{1}{n} \\sum_{i=1}^{n}\\left(x_{i}-c\\right)^{2}$\r\n\r\nThe mean square deviations about -2 and 2 are 18 and 10 respectively, the standard deviation of this set of observations is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "sfNjj",
+      "text": "3",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "v0nos",
+      "text": "2",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "keMbk",
+      "text": "1",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "RyV8J",
+      "text": "None of these",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have $\\frac{1}{n} \\sum_{i=1}^{n}\\left(x_{i}+2\\right)^{2}=18$ and\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\frac{1}{n} \\sum_{i=1}^{n}\\left(x_{i}-2\\right)^{2}=10 \\\\\r\n\r\n\\Rightarrow \\sum_{i=1}^{n}\\left(x_{i}+2\\right)^{2}=18 n \\text { and }\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\sum_{i=1}^{n}\\left(x_{i}-2\\right)^{2}=10 n \\\\\r\n\r\n\\Rightarrow \\sum_{i=1}^{n}\\left(x_{i}+2\\right)^{2}+\\sum_{i=1}^{n}\\left(x_{i}-2\\right)^{2}=28 n\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nand $\\sum_{i=1}^{n}\\left(x_{i}+2\\right)^{2}-\\sum_{i=1}^{n}\\left(x_{i}-2\\right)^{2}=8 n$\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\Rightarrow 2 \\sum_{i=1}^{n}\\left(x_{i}+4\\right)^{2}=28 n \\text { and } 2 \\sum_{i=1}^{n} 4 x_{i}=8 n \\\\\r\n\r\n\\Rightarrow \\sum_{i=1}^{n} x_{1}^{2}+4 n=14 n \\text { and } \\sum_{i=1}^{n} x_{i}=n \\\\\r\n\r\n\\Rightarrow \\sum_{i=1}^{n} x_{i}^{2}=10 n \\text { and } \\sum_{i=1}^{n} x_{i}=n \\\\\r\n\r\n\\therefore \\sigma=\\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} x_{i}^{2}-\\left(\\frac{1}{n} \\sum_{i=1^{\\prime}}^{n} x_{i}\\right)^{2}}=\\sqrt{\\frac{10 n}{n}-\\left(\\frac{n}{n}\\right)^{2}}=3\r\n\r\n\\end{array}\r\n\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d79",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "BITSAT 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

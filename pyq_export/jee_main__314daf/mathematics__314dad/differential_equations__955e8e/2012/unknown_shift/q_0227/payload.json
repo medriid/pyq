@@ -1,0 +1,43 @@
+{
+  "index": 227,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (19 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The general solution of the differential equation $\\frac{d y}{d x}+\\frac{2}{x} y=x^2$ is"
+  },
+  "options": [
+    {
+      "text": "\n$y=c x^{-3}-\\frac{x^2}{4}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$y=c x^3-\\frac{x^2}{4}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$y=c x^2+\\frac{x^3}{5}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$y=c x^{-2}+\\frac{x^3}{5}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given differential equation is\n$$\n\\frac{d y}{d x}+\\frac{2}{x} \\cdot y=x^2\n$$\nThis is of the linear form.\n$$\n\\begin{aligned}\n& \\therefore P=\\frac{2}{x}, Q=x^2 \\\\\n& \\text { I.F }=e^{\\int \\frac{2}{x} d x}=e^{\\log x^2}=x^2\n\\end{aligned}\n$$\nSolution is\n$$\n\\begin{aligned}\n& y \\cdot x^2=\\int x^2 \\cdot x^2 d x+c=\\frac{x^5}{5}+c \\\\\n& y=\\frac{x^3}{5}+c x^{-2}\n\\end{aligned}\n$$"
+  }
+}

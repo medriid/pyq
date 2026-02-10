@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e77c6f5bfc7ab78ae53c",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0cc821b6514e527d73",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009",
+      "title": "BITSAT 2009"
+    }
+  ],
+  "question": {
+    "text": "Given below is a frequency distribution with median 46 . In this distribution, some of the frequencies are missing : Determine the missing frequencies.\n\\(\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline \\text { Marks } & 10-20 & 20-30 & 30-40 & 40-50 & 50-60 & 60-70 & 70-80 & \\text { Total } \\\\\n\\hline \\text { No. of students } & 12 & 30 & ? & 65 & ? & 25 & 18 & 229 \\\\\n\\hline\n\\end{array}\\)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "uwhCW",
+      "text": "34,45",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "5h6O9",
+      "text": "25,40",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "JGOZA",
+      "text": "12,18",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "91Asa",
+      "text": "30,35",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\(\\begin{array}{|c|c|c|}\n\\hline \\text { Marks } & \\text { No. of s tudents } & \\text { c.f. } \\\\\n\\hline 10-20 & 12 & 12 \\\\\n\\hline 20-30 & 30 & 42 \\\\\n\\hline 30-40 & ? & 42+\\mathrm{x} \\\\\n\\hline 40-50 & 65 & 107+\\mathrm{x} \\\\\n\\hline 50-60 & ? & 107+\\mathrm{x}+\\mathrm{y} \\\\\n\\hline 60-70 & 25 & 132+\\mathrm{x}+\\mathrm{y} \\\\\n\\hline 70-80 & 18 & 150+\\mathrm{x}+\\mathrm{y} \\\\\n\\hline \\text { Total } & 229 & \\\\\n\\hline\n\\end{array}\\)\n\\(\\begin{aligned}\n& \\frac{\\mathrm{n}}{2}=\\frac{229}{2}=114.5, \\text { Median }=46 \\\\\n& \\therefore \\text { Median class }=40-50 \\\\\n& \\therefore \\ell=40, \\text { c.f. }=42+\\mathrm{x}, \\mathrm{f}=65, \\mathrm{~h}=10 \\\\\n& \\text { Median }=\\ell+\\left(\\frac{\\frac{\\mathrm{n}}{2}-\\text { c.f. }}{\\mathrm{f}}\\right) \\times \\mathrm{h} \\\\\n& 46=40+\\frac{114.5-(42+\\mathrm{x})}{65} \\times 10 \\\\\n& \\text { or } \\quad 46-40=\\frac{(114.5-42-\\mathrm{x})}{13} \\times 2 \\\\\n& 6=\\frac{(72.5-\\mathrm{x})}{13} \\times 2 \\text { or } 78=145-2 \\mathrm{x} \\\\\n& 2 \\mathrm{x}=145-78=67 \\quad \\text { or } \\mathrm{x}=\\frac{67}{2}=33.5\n\\end{aligned}\\)\n\\(\\therefore \\mathrm{x}=34(\\because\\) Number of students cannot be in fraction) Now \\(\\Sigma f_i=29 \\therefore \\mathrm{x}+\\mathrm{y}+150=229\\)\n\\(x+y=229-150=79\\)   ...(i)\nPutting the value of \\(x\\) in (i), we get\n\\(34 x+y=79 \\Rightarrow y=79-34=45\\)\n\\(\\therefore \\quad \\mathrm{x}=34, \\mathrm{y}=45\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0cc821b6514e527d73",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009",
+    "title": "BITSAT 2009"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

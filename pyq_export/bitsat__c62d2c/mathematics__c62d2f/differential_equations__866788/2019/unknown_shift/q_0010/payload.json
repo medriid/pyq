@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2019",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd839e4041267a866788",
+    "chapter_name": "Differential Equations",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Solution of the equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><msup><mi>e</mi><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow></msup><mfenced><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><msup><mi>e</mi><mi>y</mi></msup></mrow></mfenced></math> is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>e</mi><mi>y</mi></msup><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><mn>1</mn><mo>+</mo><mi>c</mi><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>e</mi><mi>x</mi></msup></mrow></msup></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>e</mi><mrow><mi>y</mi><mo>-</mo><mi>x</mi></mrow></msup><mo>=</mo><mo>-</mo><mn>1</mn><mo>+</mo><mi>c</mi><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>e</mi><mi>x</mi></msup></mrow></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><msup><mi>e</mi><mi>y</mi></msup><mo>=</mo><mi>c</mi><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>e</mi><mi>x</mi></msup></mrow></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p>We have,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><msup><mi>e</mi><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow></msup><mfenced><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><msup><mi>e</mi><mi>y</mi></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><msup><mi>e</mi><mi>y</mi></msup><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><msup><mi>e</mi><mi>y</mi></msup><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup></math></p><p>Put <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>e</mi><mi>y</mi></msup><mo>=</mo><mi>v</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><msup><mi>e</mi><mi>y</mi></msup><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>v</mi><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup></math></p><p>This is linear equation&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">I</mi><mo>.</mo><mi mathvariant=\"normal\">F</mi><mo>=</mo><mo>=</mo><msup><mi>e</mi><mrow><mo>&#8747;</mo><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi></mrow></msup><mo>=</mo><msup><mi>e</mi><msup><mi>e</mi><mi>x</mi></msup></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo></math> Required solution is&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>&#183;</mo><msup><mi>e</mi><msup><mi>e</mi><mi>x</mi></msup></msup><mo>=</mo><mo>&#8747;</mo><msup><mi>e</mi><msup><mi>e</mi><mi>x</mi></msup></msup><mo>&#183;</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi><mo>+</mo><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>&#183;</mo><msup><mi>e</mi><msup><mi>e</mi><mi>x</mi></msup></msup><mo>=</mo><msup><mi>e</mi><msup><mi>e</mi><mi>x</mi></msup></msup><mfenced><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><msup><mi>e</mi><mi>y</mi></msup><mo>&#183;</mo><msup><mi>e</mi><msup><mi>e</mi><mi>x</mi></msup></msup><mo>=</mo><msup><mi>e</mi><msup><mi>e</mi><mi>x</mi></msup></msup><mfenced><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><msup><mi>e</mi><mi>y</mi></msup><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><mn>1</mn><mo>+</mo><mi>c</mi><msup><mi>e</mi><mrow><mo>-</mo><msup><mi>e</mi><mi>x</mi></msup></mrow></msup></math></p>"
+  }
+}

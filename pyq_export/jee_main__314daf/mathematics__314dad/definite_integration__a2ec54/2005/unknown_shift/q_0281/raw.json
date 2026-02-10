@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d656e9",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2005-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2005",
+      "title": "JEE Main 2005"
+    }
+  ],
+  "question": {
+    "text": "Let $f: R \\rightarrow R$ be a differentiable function having $f(2)=6, f^{\\prime}(2)=\\left(\\frac{1}{48}\\right)$. Then $\\lim _{x \\rightarrow 2} \\int_6^{f(x)} \\frac{4 t^3}{x-2} d t$ equals",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "o4oYQ",
+      "text": "\n24\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "DQK9d",
+      "text": "\n36\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "BDf1D",
+      "text": "\n12\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "0xjuZ",
+      "text": "\n18",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\lim _{x \\rightarrow 2} \\int_0^{f(x)} \\frac{4 t^3}{x-2} d t\n$$\nApplying $L$ Hospital rule\n$$\n\\begin{aligned}\n& \\lim _{x \\rightarrow 2}\\left[4 f(x)^2 f^{\\prime}(x)\\right]=4 f(2)^3 f^{\\prime}(2) \\\\\n& =4 \\times 6^3 \\times \\frac{1}{48}=18 .\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2005-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2005",
+    "title": "JEE Main 2005"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (05 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255a501b352fc65c18d3",
+    "chapter_name": "Differentiation",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $y(\\theta)=\\frac{2 \\cos \\theta+\\cos 2 \\theta}{\\cos 3 \\theta+4 \\cos 2 \\theta+5 \\cos \\theta+2}$, then at $\\theta=\\frac{\\pi}{2}, y^{\\prime \\prime}+y^{\\prime}+y$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{3}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & y=\\frac{2 \\cos \\theta+2 \\cos ^2 \\theta-1}{4 \\cos ^3 \\theta-3 \\cos \\theta+8 \\cos ^2 \\theta-4+5 \\cos \\theta+2} \\\\ & y=\\frac{\\left(2 \\cos ^2 \\theta+2 \\cos \\theta-1\\right)}{\\left(2 \\cos ^2 \\theta+2 \\cos \\theta-1\\right)(2 \\cos \\theta+2)} \\\\ & y=\\frac{1}{2}\\left(\\frac{1}{1+\\cos \\theta}\\right) \\\\ & \\Rightarrow \\theta=\\frac{\\pi}{2} \\quad y=\\frac{1}{2} \\\\ & y^{\\prime}=\\frac{1}{2}\\left(\\frac{-1}{(1+\\cos \\theta)^2} \\times(-\\sin \\theta)\\right) \\\\ & \\Rightarrow \\theta=\\frac{\\pi}{2} \\quad y=\\frac{1}{2}\\end{aligned}$\n$\\begin{aligned} y^{\\prime \\prime} & =\\frac{1}{2}\\left[\\frac{\\cos \\theta(1+\\cos \\theta)^2-\\sin \\theta(2)(1+\\cos \\theta)(-\\sin \\theta)}{(1+\\cos \\theta)^4}\\right] \\\\ & \\Rightarrow \\theta=\\frac{\\pi}{2} \\quad y=1\\end{aligned}$"
+  }
+}

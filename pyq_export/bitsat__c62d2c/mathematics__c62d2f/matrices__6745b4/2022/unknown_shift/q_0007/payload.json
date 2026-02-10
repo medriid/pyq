@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd73e2ff28f7b16745b4",
+    "chapter_name": "Matrices",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\text { If }\\left[\\begin{array}{cc}\r\n1 & -\\tan \\theta \\\\\r\n\\tan \\theta & 1\r\n\\end{array}\\right]\\left[\\begin{array}{cc}\r\n1 & \\tan \\theta \\\\\r\n-\\tan \\theta & 1\r\n\\end{array}\\right]^{-1}=\\left[\\begin{array}{cc}\r\na & -b \\\\\r\nb & a\r\n\\end{array}\\right],$ \r\nthen"
+  },
+  "options": [
+    {
+      "text": "\r\n$a=1, b=1$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$a=\\sin 2 \\theta, b=\\cos 2 \\theta$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$a=\\cos 2 \\theta, b=\\sin 2 \\theta$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\nNone of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given,\r\n$\\left[\\begin{array}{cc}1 & -\\tan \\theta \\\\ \\tan \\theta & 1\\end{array}\\right]\\left[\\begin{array}{cc}1 & \\tan \\theta \\\\ -\\tan \\theta & 1\\end{array}\\right]^{-1}=\\left[\\begin{array}{cc}a & -b \\\\ b & a\\end{array}\\right]$\r\n$\\Rightarrow\\left[\\begin{array}{cc}1 & -\\tan \\theta \\\\ \\tan \\theta & 1\\end{array}\\right] \\cdot \\frac{1}{1+\\tan ^2 \\theta}\\left[\\begin{array}{cc}1 & -\\tan \\theta \\\\ \\tan \\theta & 1\\end{array}\\right]$\r\n$=\\left[\\begin{array}{cc}a & -b \\\\ b & a\\end{array}\\right]$\r\n$\\Rightarrow \\frac{1}{1+\\tan ^2 \\theta}\\left[\\begin{array}{cc}1-\\tan ^2 \\theta & -2 \\tan \\theta \\\\ 2 \\tan \\theta & 1-\\tan ^2 \\theta\\end{array}\\right]=\\left[\\begin{array}{cc}a & -b \\\\ b & a\\end{array}\\right]$\r\n$\\Rightarrow \\quad\\left[\\begin{array}{cc}\\frac{1-\\tan ^2 \\theta}{1+\\tan ^2 \\theta} & \\frac{2 \\tan \\theta}{1+\\tan ^2 \\theta} \\\\ \\frac{2 \\tan \\theta}{1+\\tan ^2 \\theta} & \\frac{1-\\tan ^2 \\theta}{1+\\tan ^2 \\theta}\\end{array}\\right]=\\left[\\begin{array}{cc}a & -b \\\\ b & a\\end{array}\\right]$\r\n$\\Rightarrow\\left[\\begin{array}{cc}\\cos 2 \\theta & -\\sin 2 \\theta \\\\ \\sin 2 \\theta & \\cos 2 \\theta\\end{array}\\right]=\\left[\\begin{array}{cc}a & -b \\\\ b & a\\end{array}\\right]$\r\n$\\Rightarrow \\quad a=\\cos 2 \\theta, b=\\sin 2 \\theta$"
+  }
+}

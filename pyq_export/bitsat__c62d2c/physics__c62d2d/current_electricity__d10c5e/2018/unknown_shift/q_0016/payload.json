@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2018",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd79330945d4a4d10c5e",
+    "chapter_name": "Current Electricity",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<p>In the given circuit, it is observed&nbsp;that the current <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi></math> is independent of the value of resistance <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>5</mn></msub></math>. Then, the resistance value must satisfy</p><p><img src=\"assets\\qt0016_255d1171662c.png\" style=\"width: 250px; height: 181px;\" /></p>"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><msub><mi>R</mi><mn>5</mn></msub></mfrac><mo>+</mo><mfrac><mn>1</mn><msub><mi>R</mi><mn>6</mn></msub></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><msub><mi>R</mi><mn>1</mn></msub><mo>+</mo><msub><mi>R</mi><mn>2</mn></msub></mrow></mfrac><mo>&#183;</mo><mfrac><mn>1</mn><mrow><msub><mi>R</mi><mn>3</mn></msub><mo>+</mo><msub><mi>R</mi><mn>4</mn></msub></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>1</mn></msub><msub><mi>R</mi><mn>4</mn></msub><mo>=</mo><msub><mi>R</mi><mn>2</mn></msub><msub><mi>R</mi><mn>3</mn></msub></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>1</mn></msub><msub><mi>R</mi><mn>2</mn></msub><msub><mi>R</mi><mn>5</mn></msub><mo>=</mo><msub><mi>R</mi><mn>3</mn></msub><msub><mi>R</mi><mn>4</mn></msub><msub><mi>R</mi><mn>6</mn></msub></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>1</mn></msub><msub><mi>R</mi><mn>3</mn></msub><mo>=</mo><msub><mi>R</mi><mn>2</mn></msub><msub><mi>R</mi><mn>4</mn></msub><mo>=</mo><msub><mi>R</mi><mn>5</mn></msub><msub><mi>R</mi><mn>6</mn></msub></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p>From the given circuit,&nbsp;we can say that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi></math>&nbsp;is independent of resistance <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>5</mn></msub><mo>,</mo></math> so no current flows through <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>5</mn></msub><mo>.</mo></math> This required that the junction of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>1</mn></msub></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>2</mn></msub></math> is at the same potential as the junction of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>3</mn></msub></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>4</mn></msub></math> (Wheatstone&#39;s bridge balancing condition)</p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>R</mi><mn>1</mn></msub><msub><mi>R</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><msub><mi>R</mi><mn>3</mn></msub><msub><mi>R</mi><mn>4</mn></msub></mfrac></math></p><p>or&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>1</mn></msub><msub><mi>R</mi><mn>4</mn></msub><mo>=</mo><msub><mi>R</mi><mn>3</mn></msub><msub><mi>R</mi><mn>2</mn></msub></math></p>"
+  }
+}

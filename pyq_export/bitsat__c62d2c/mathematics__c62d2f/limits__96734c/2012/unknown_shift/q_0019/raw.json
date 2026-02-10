@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7a66f5bfc7ab78ae6b1",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d76",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012",
+      "title": "BITSAT 2012"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "$\\lim _{x \\rightarrow \\pi / 2} \\frac{\\left(1-\\tan \\left(\\frac{x}{2}\\right)\\right)(1-\\sin x)}{\\left(1+\\tan \\left(\\frac{x}{2}\\right)\\right)(\\pi-2 x)^{3}}=?$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "TQYFD",
+      "text": "$1 / 8$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "PnMHQ",
+      "text": "0",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "HHHjp",
+      "text": "$1 / 32$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "iiFMj",
+      "text": "$\\infty$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Put $x=\\frac{\\pi}{2}-h$ as $x \\rightarrow \\frac{\\pi}{2}, h \\rightarrow 0$\r\n$\\therefore$ Given limit\r\n$=\\lim _{h \\rightarrow 0} \\frac{1-\\tan \\left(\\frac{\\pi}{4}-\\frac{\\mathrm{h}}{2}\\right)}{1+\\tan \\left(\\frac{\\pi}{4}-\\frac{\\mathrm{h}}{2}\\right)} \\cdot \\frac{(1-\\cosh )}{(2 \\mathrm{~h})^{3}}$\r\n$=\\lim _{\\mathrm{h} \\rightarrow 0} \\tan \\frac{\\mathrm{h}}{2} \\frac{2 \\sin ^{2} \\frac{\\mathrm{h}}{2}}{8 \\mathrm{~h}^{3}}$\r\n$=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{1}{4} \\cdot \\frac{\\tan \\frac{\\mathrm{h}}{2}}{\\frac{\\mathrm{h}}{2} \\times 2}\\left(\\frac{\\sin \\frac{\\mathrm{h}}{2}}{\\frac{\\mathrm{h}}{2}}\\right)^{2} \\times \\frac{1}{4}$\r\n$=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{1}{32} \\cdot\\left(\\frac{\\tan \\frac{\\mathrm{h}}{2}}{\\frac{\\mathrm{h}}{2} \\times 2}\\right)\\left(\\frac{\\sin \\frac{\\mathrm{h}}{2}}{\\frac{\\mathrm{h}}{2}}\\right)^{2}=\\frac{1}{32}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d76",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012",
+    "title": "BITSAT 2012"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

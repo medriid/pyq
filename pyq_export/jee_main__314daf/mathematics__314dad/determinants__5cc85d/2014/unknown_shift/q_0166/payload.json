@@ -1,0 +1,43 @@
+{
+  "index": 166,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\mathrm{f}(\\theta)=\\left|\\begin{array}{ccc}1 & \\cos \\theta & 1 \\\\ -\\sin \\theta & 1 & -\\cos \\theta \\\\ -1 & \\sin \\theta & 1\\end{array}\\right|$ and\n$\\mathrm{A}$ and $\\mathrm{B}$ are respectively the maximum and the minimum values of $f(\\theta)$, then $(A, B)$ is equal to:"
+  },
+  "options": [
+    {
+      "text": "\n$(3,-1)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(4,2-\\sqrt{2})$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(2+\\sqrt{2}, 2-\\sqrt{2})$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$(2+\\sqrt{2},-1)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n&\\text { Let } f(\\theta)=\\left|\\begin{array}{ccc}\n1 & \\cos \\theta & 1 \\\\\n-\\sin \\theta & 1 & -\\cos \\theta \\\\\n-1 & \\sin \\theta & 1\n\\end{array}\\right| \\\\\n&=(1+\\sin \\theta \\cos \\theta)-\\cos \\theta(-\\sin \\theta-\\cos \\theta) \\\\\n&+1\\left(-\\sin ^2 \\theta+1\\right) \\\\\n&=1+\\sin \\theta \\cos \\theta+\\sin \\theta \\cos \\theta+ \\\\\n&=2+2 \\sin \\theta \\cos \\theta+\\cos 2 \\theta \\\\\n&=2+\\sin 2 \\theta+\\cos 2 \\theta\n\\end{aligned}\n$$\nNow, maximum value of (1)\nis $2+\\sqrt{1^2+1^2}=2+\\sqrt{2}$ and minimum value of (1) is\n$$\n2-\\sqrt{1^2+1^2}=2-\\sqrt{2} \\text {. }\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd76457232a5c257f2e5",
+    "chapter_name": "Semiconductors",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Identify the logic gate given in the circuit :\n<img src=\"assets\\qt0001_4f56602e4209.png\"/><br/>"
+  },
+  "options": [
+    {
+      "text": "NAND - gate",
+      "is_correct": false
+    },
+    {
+      "text": "OR - gate",
+      "is_correct": true
+    },
+    {
+      "text": "AND gate",
+      "is_correct": false
+    },
+    {
+      "text": "NOR gate",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Output $\\mathrm{Y}=\\overline{\\overline{\\mathrm{A}} \\cdot \\overline{\\mathrm{B}}}=\\overline{\\overline{\\mathrm{A}+\\mathrm{B}}}$ (ByDe-Morgan Law)\n$\\therefore Y=\\mathrm{A}+\\mathrm{B}$\nThis Boolean expression represents OR gate."
+  }
+}

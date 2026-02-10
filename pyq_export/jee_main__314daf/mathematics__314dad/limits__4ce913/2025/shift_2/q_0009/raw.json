@@ -1,33 +1,58 @@
 {
-  "_id": "67a2eec4c8b73881fdaea2b5",
-  "type": "numerical",
-  "level": 3,
+  "_id": "68542c857c09d044e4c1a269",
+  "type": "singleCorrect",
+  "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "67a2eb5da6d4514bf2d9760f",
+      "_id": "6852f2ff9d87935e0d80978c",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-01-28T14:00:00.000Z",
+      "heldOn": "2025-04-02T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (28 Jan Shift 2)",
-      "title": "JEE Main 2025 (28 Jan Shift 2)"
+      "shortName": "2025 (2 Apr Shift 2)",
+      "title": "JEE Main 2025 (2 Apr Shift 2)"
     }
   ],
   "question": {
-    "text": "Let $f(x)=\\lim _{\\mathrm{n} \\rightarrow \\infty} \\sum_{\\mathrm{r}=0}^{\\mathrm{n}}\\left(\\frac{\\tan \\left(x / 2^{r+1}\\right)+\\tan ^3\\left(x / 2^{r+1}\\right)}{1-\\tan ^2\\left(x / 2^{r+1}\\right)}\\right)$. Then $\\lim _{x \\rightarrow 0} \\frac{\\mathrm{e}^x-\\mathrm{e}^{f(x)}}{(x-f(x))}$ is equal to",
+    "text": "If $\\lim _{x \\rightarrow 0} \\frac{\\cos (2 x)+a \\cos (4 x)-b}{x^4}$ is finite, then $(a+b)$ is equal to :",
     "image": null
   },
-  "options": [],
-  "correctValue": "1",
+  "options": [
+    {
+      "id": "mjkos",
+      "text": "$\\frac{1}{2}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "Y0QlW",
+      "text": "$0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "OWpUh",
+      "text": "$\\frac{3}{4}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "6mxbA",
+      "text": "$-1$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "$\\begin{aligned} & f(x)=\\lim _{x \\rightarrow \\infty}\\left(\\frac{\\tan \\left(x / 2^{r+1}\\right)+\\tan ^3\\left(x / 2^{r+1}\\right)}{1-\\tan ^2\\left(x / 2^{r+1}\\right)}\\right) \\\\ & =\\lim _{x \\rightarrow \\infty} \\frac{\\tan \\left(\\frac{x}{2^{r+1}}\\right)}{\\cos \\left(\\frac{x}{2^r}\\right)} \\\\ & =\\lim _{x \\rightarrow \\infty} \\frac{\\sin \\left(x / 2^{r+1}\\right)}{\\cos \\left(\\frac{x}{2^{r+1}}\\right) \\cos \\left(\\frac{x}{2^r}\\right)} \\\\ & =\\lim _{x \\rightarrow \\infty} \\frac{\\sin \\left(\\frac{x}{2^r}-\\frac{x}{2^{r+1}}\\right)}{\\cos \\left(\\frac{x}{2^{r+1}}\\right) \\cos \\left(\\frac{x}{2^r}\\right)}\\end{aligned}$\n$=\\lim _{x \\rightarrow \\infty} \\tan \\left(\\frac{x}{2^r}\\right)-\\tan \\left(\\frac{x}{2^{r+1}}\\right)$\nFrom condition given question\n$\\begin{aligned}\n& \\therefore \\lim _{n \\rightarrow \\infty} \\sum_{r=0}^n\\left[\\tan \\left(\\frac{x}{2^r}\\right)-\\tan \\left(\\frac{x}{2^{r+1}}\\right)\\right]=\\tan x \\\\\n& \\therefore \\lim _{x \\rightarrow 0}\\left(\\frac{e^x-e^{\\tan x}}{x-\\tan x}\\right) \\\\\n& \\Rightarrow \\lim _{x \\rightarrow 0} e^{\\tan x}\\left(\\frac{e^{x-\\tan x}-1}{x-\\tan x}\\right) \\\\\n& \\Rightarrow \\lim _{x \\rightarrow 0} e^{\\tan x} \\lim _{x \\rightarrow 0}\\left(\\frac{e^{x-\\tan x}-1}{x-\\tan x}\\right) \\\\\n& \\Rightarrow 1.1\\left(\\because \\lim _{x \\rightarrow 0} \\frac{e^{x-1}}{x}=1\\right) \\\\\n& \\quad=1\n\\end{aligned}$",
+    "text": "$\\lim _{x \\rightarrow 0} \\frac{\\cos 2 x+a \\cos 4 x-b}{x^4}=$ finite<br/>$\\begin{aligned} & L=\\frac{\\left\\{1-\\frac{(2 x)^2}{\\underline{2}}+\\frac{(2 x)^4}{\\underline{4} \\cdots\\}\\}+a\\left\\{1-\\frac{(4 x)^2}{\\underline{2}}+\\frac{(4 x)^4}{\\lfloor 4} \\ldots \\cdot\\right\\}-b}\\right.}{x^4} \\\\ & L=\\frac{(1+a-b)-x^2(2+8 a)+x^4\\left(\\frac{2}{3}+\\frac{32}{3} a\\right)+x^6() \\ldots}{x^4}\\end{aligned}$<br/>$\\begin{aligned} & \\therefore 1+\\mathrm{a}-\\mathrm{b}=0 \\text { and } 2+8 \\mathrm{a}=0 \\Rightarrow \\mathrm{a}=-\\frac{1}{4} \\\\ & \\mathrm{~b}=\\mathrm{a}+1 \\\\ & =-\\frac{1}{4}+1=\\frac{3}{4} \\\\ & \\therefore \\mathrm{a}+\\mathrm{b}=-\\frac{1}{4}+\\frac{3}{4}=\\frac{1}{2}\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "953bd5ca1c3f49e1b422c4ade4e8128b",
+    "videoId": "60adb5aeccda49b7878ddc20c81d0e0b",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/Ckxpvhpl7l7ed.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/Ckxpvhpl7l7ed.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/kp056b8n6s9HD.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/kp056b8n6s9HD.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
@@ -46,12 +71,12 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "67a2eb5da6d4514bf2d9760f",
+    "_id": "6852f2ff9d87935e0d80978c",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-01-28T14:00:00.000Z",
+    "heldOn": "2025-04-02T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (28 Jan Shift 2)",
-    "title": "JEE Main 2025 (28 Jan Shift 2)"
+    "shortName": "2025 (2 Apr Shift 2)",
+    "title": "JEE Main 2025 (2 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

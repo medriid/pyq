@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd744fe496e9e0cf0e89",
+    "chapter_name": "Functions",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let the function $g:(-\\infty, \\infty) \\rightarrow\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ be given by $g(u)=2 \\tan ^{-1}\\left(e^u\\right)-\\frac{\\pi}{2}$. Then, g is"
+  },
+  "options": [
+    {
+      "text": "even and is strictly increasing in $(0, \\infty)$",
+      "is_correct": false
+    },
+    {
+      "text": "odd and is strictly decreasing in $(-\\infty, \\infty)$",
+      "is_correct": false
+    },
+    {
+      "text": "odd and is strictly increasing in $(-\\infty, \\infty)$",
+      "is_correct": true
+    },
+    {
+      "text": "neither even nor odd, but is strictly increasing in $(-\\infty, \\infty)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given that $g(u)=2 \\tan ^{-1}\\left(e^u\\right)-\\frac{\\pi}{2}$\n$\\therefore \\quad g(-u)=2 \\tan ^{-1}\\left(e^{-u}\\right)-\\frac{\\pi}{2}=$\n$2 \\tan ^{-1}\\left(\\frac{1}{e^u}\\right)-\\frac{\\pi}{2}$\n$=2 \\cot ^{-1}\\left(e^u\\right)-\\frac{\\pi}{2}=2\\left[\\frac{\\pi}{2}-\\tan ^{-1}\\left(e^u\\right)\\right]-\\frac{\\pi}{2}$\n$=\\pi-2 \\tan ^{-1}\\left(e^u\\right)-\\frac{\\pi}{2}$\n$=\\frac{\\pi}{2}-2 \\tan ^{-1}\\left(e^u\\right)=-g(u)$\n$\\therefore \\quad g$ is an odd function.\nAlso $g^{\\prime}(u)=\\frac{2 e^u}{1+e^{2 u}}\\gt0, \\forall u \\in(-\\infty, \\infty)$\n$\\therefore g$ is strictly increasing on $(-\\infty, \\infty)$."
+  }
+}

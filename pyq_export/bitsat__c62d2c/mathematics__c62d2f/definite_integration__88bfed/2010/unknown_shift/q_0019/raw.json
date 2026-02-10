@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e78b6f5bfc7ab78ae5c5",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d74",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010",
+      "title": "BITSAT 2010"
+    }
+  ],
+  "question": {
+    "text": "\\(\\int 4 \\cos \\left(x+\\frac{\\pi}{6}\\right) \\cos 2 x \\cdot \\cos \\left(\\frac{5 \\pi}{6}+x\\right) d x\\)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "N8pGi",
+      "text": "\\(-\\left(x+\\frac{\\sin 4 x}{4}+\\frac{\\sin 2 x}{2}\\right)+c\\)",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "12LGa",
+      "text": "\\(-\\left(x+\\frac{\\sin 4 x}{4}-\\frac{\\sin 2 x}{2}\\right)+c\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "e9OQB",
+      "text": "\\(-\\left(x-\\frac{\\sin 4 x}{4}+\\frac{\\sin 2 x}{2}\\right)+c\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "JsmpG",
+      "text": "\\(-\\left(x-\\frac{\\sin 4 x}{4}+\\frac{\\cos 2 x}{2}\\right)+c\\)",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\int 4 \\cos \\left(x+\\frac{\\pi}{6}\\right) \\cos 2 x \\cdot \\cos \\left(\\frac{5 \\pi}{6}+x\\right) d x \\\\\n& =2 \\int\\left(\\cos (2 x+\\pi) \\cos \\frac{2 \\pi}{3}\\right) \\cos 2 x d x \\\\\n& =2 \\int\\left(-\\cos 2 x-\\frac{1}{2}\\right) \\cos 2 x d x \\\\\n& =\\int\\left(-2 \\cos ^2 2 x-\\cos 2 x\\right) d x \\\\\n& =-\\int(1+\\cos 4 x+\\cos 2 x) d x \\\\\n& =-x-\\frac{\\sin 4 x}{x}-\\frac{\\sin 2 x}{2}+c\n\\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d74",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010",
+    "title": "BITSAT 2010"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

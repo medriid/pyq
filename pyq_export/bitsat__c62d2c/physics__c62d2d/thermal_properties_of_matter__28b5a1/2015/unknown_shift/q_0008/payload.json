@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7f80092b5aa328b5a1",
+    "chapter_name": "Thermal Properties of Matter",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "0.5 mole of an ideal gas at constant temperature $27^{\\circ} \\mathrm{C}$ kept inside a cylinder of length $L$ and crosssection area A closed by a massless piston.\r\n\r\n<img src=\"assets\\qt0008_da241a9cc7cd.png\"><br>\r\n\r\nThe cylinder is attached with a conducting rod of length $L,$ cross-section area $(1 / 9) \\mathrm{m}^{2}$ and thermal conductivity $\\mathrm{k}$, whose other end is maintained at $0^{\\circ} \\mathrm{C}$. If piston is moved such that rate of heat flow through the conducing rod is constant then velocity of piston when it is at height $L / 2$ from the bottom of cylinder is :\r\n\r\n[Neglect any kind of heat loss from system"
+  },
+  "options": [
+    {
+      "text": "$\\left(\\frac{\\mathrm{k}}{R}\\right) \\mathrm{m} / \\mathrm{sec}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\frac{\\mathrm{k}}{10 R}\\right) \\mathrm{m} / \\mathrm{sec}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\frac{\\mathrm{k}}{100 R}\\right) \\mathrm{m} / \\mathrm{sec}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\left(\\frac{\\mathrm{k}}{1000 R}\\right) \\mathrm{m} / \\mathrm{sec}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\frac{\\Delta Q}{\\Delta t}=\\frac{\\Delta W}{\\Delta t}=$ work done per unit time = $\\frac{\\mathrm{k} a \\theta}{L}$\r\n\r\n$$\r\n\r\n\\frac{d W}{d t}=P \\frac{d v}{d t}=\\mathrm{k} \\frac{a \\theta}{L}, P=\\frac{n R T}{V}\r\n\r\n$$\r\n\r\n$\\Rightarrow \\quad \\frac{0.5 R(300)}{V} A \\cdot \\frac{d \\ell}{d t}=\\frac{\\mathrm{k} a \\theta}{L}$\r\n\r\n$$\r\n\r\n\\Rightarrow \\frac{0.5 R(300)}{A \\cdot \\frac{L}{2}} A \\cdot v=\\frac{\\mathrm{k} a \\theta}{L}\r\n\r\n$$\r\n\r\n$\\Rightarrow \\quad v=\\frac{\\mathrm{k} a}{R}\\left(\\frac{27}{300}\\right)=\\frac{\\mathrm{k}}{100 R}$"
+  }
+}

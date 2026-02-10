@@ -1,0 +1,43 @@
+{
+  "index": 185,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $a^2+b^2+c^2=-2$ and $f(x)=\\left|\\begin{array}{ccc}1+a^2 x & \\left(1+b^2\\right) x & \\left(1+c^2\\right) x \\\\ \\left(1+a^2\\right) x & 1+b^2 x & \\left(1+c^2\\right) x \\\\ \\left(1+a^2\\right) x & \\left(1+b^2\\right) x & 1+c^2 x\\end{array}\\right|$ then $f(x)$ is $a$ polynomial of degree"
+  },
+  "options": [
+    {
+      "text": "\n1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n3\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n2",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& f(x)=\\left|\\begin{array}{ccc}\n1+\\left(a^2+b^2+c^2+2\\right) x & \\left(1+b^2\\right) x & \\left(1+c^2\\right) x \\\\\n1+\\left(a^2+b^2+c^2+2\\right) x & 1+b^2 x & \\left(1+c^2\\right) x \\\\\n1+\\left(a^2+b^2+c^2+2\\right) x & \\left(1+b^2\\right) x & 1+c^2 x\n\\end{array}\\right| \\text {, Applying } C_1 \\rightarrow C_1+C_2+C_3 \\\\\n& =\\left|\\begin{array}{ccc}\n1 & \\left(1+b^2\\right) x & \\left(1+c^2\\right) x \\\\\n1 & 1+b^2 x & \\left(1+c^2\\right) x \\\\\n1 & \\left(1+b^2\\right) x & 1+c^2 x\n\\end{array}\\right| \\because a^2+b^2+c^2+2=0 \\\\\n& f(x)=\\left|\\begin{array}{ccc}\n0 & x-1 & 0 \\\\\n0 & 1-x & x-1 \\\\\n1 & \\left(1+b^2\\right) x & 1+c x\n\\end{array}\\right| ; \\text { Applying } R_1 \\rightarrow R_1-R_2, R_2 \\rightarrow R_2-R_3 \\\\\n& f(x)=(x-1)^2\n\\end{aligned}\n$$\nHence degree $=2$."
+  }
+}

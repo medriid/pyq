@@ -1,8 +1,8 @@
 {
   "index": 32,
-  "type": "singleCorrect",
+  "type": "numerical",
   "difficulty": 1,
-  "pyq_info": "JEE Main 2024 (31 Jan Shift 2)",
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "<p>The number of ways in which <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn></math> identical apples can be distributed among three children such that each child gets at least <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> apples, is</p>"
+    "text": "The number of integers, between 100 and 1000 having the sum of their digits equals to 14 , is _________"
   },
-  "options": [
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>406</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>130</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>142</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>136</mn></math>",
-      "is_correct": true
-    }
-  ],
-  "correct_answer": [
-    "D"
-  ],
+  "options": [],
+  "correct_answer": "70",
   "solution": {
-    "text": "<p>Let us initially distribute <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> apples to each children.</p><p>So, the remaining <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math> apples are to be distributed such that each children can get any number of apples.</p><p>So, the required number of ways will be given by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi><mo>=</mo><mmultiscripts><mi>C</mi><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mrow><mi>n</mi><mo>+</mo><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mmultiscripts></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mrow><mn>15</mn><mo>+</mo><mn>3</mn><mo>-</mo><mn>1</mn></mrow></mmultiscripts></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>17</mn></mmultiscripts></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mfrac><mrow><mn>17</mn><mo>×</mo><mn>16</mn></mrow><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mn>136</mn></math></p>"
+    "text": "$\\mathrm{N}=\\mathrm{ab} \\mathrm{c}$ (i)\n$\\begin{aligned}\n& \\text { All distinct digits } \\\\\n& \\mathrm{a}+\\mathrm{b}+\\mathrm{c}=14 \\\\\n& \\mathrm{a} \\geq 1 \\\\\n& \\mathrm{~b}, \\mathrm{c} \\in\\{0 \\text { to } 9\\}\n\\end{aligned}$\n$\\begin{array}{lll} \nby hit \\& trial : & 8 cases \\\\\n(6,5,3) & (8,6,0) & (9,4,1) \\\\\n(7,6,1) & (8,5,1) & (9,3,2) \\\\\n(7,5,2) & (8,4,2) & \\\\\n(7,4,3) & (9,5,0) &\n\\end{array}$\n(ii) 2 same, 1 diff $\\quad a=b$;c\n$2 \\mathrm{a}+\\mathrm{c}=14$\nby values :\n$\\begin{aligned}\n& \\left.\\begin{array}{l}\n(3,8) \\\\\n(4,6) \\\\\n(5,4) \\\\\n(6,2) \\\\\n(7,0)\n\\end{array}\\right\\} \\frac{3 !}{2 !} \\times 5-1 \\\\\n& =14 \\text { cases }\n\\end{aligned}$\n(iii) all same :\n$\\begin{aligned}\n& \\begin{array}{l}\n3 a=14 \\\\\na=\\frac{14}{3} \\times \\text { rejected } \\\\\n0 \\text { cases }\n\\end{array}\n\\end{aligned}$\nHence, Total cases:\n$\\begin{aligned}\n& 8 \\times 3 !+2 \\times(4)+14 \\\\\n& =48+22 \\\\\n& =70\n\\end{aligned}$"
   }
 }

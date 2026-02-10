@@ -1,0 +1,43 @@
+{
+  "index": 101,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2019 (10 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "For each <math><mi>t</mi><mo>&#8712;</mo><mi>R</mi><mo>,</mo></math> let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"[\" close=\"]\"><mi>t</mi></mfenced></math> be the greatest integer less than or equal to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>. Then, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><msup><mn>1</mn><mo>+</mo></msup></mrow></munder><mfrac><mrow><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mfenced open=\"|\" close=\"|\" separators=\"|\"><mi>x</mi></mfenced><mo>+</mo><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi><mfenced open=\"|\" close=\"|\" separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced></mrow></mfenced><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi><mfenced separators=\"|\"><mrow><mfenced open=\"[\" close=\"]\" separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mfrac><mi>&#960;</mi><mn>2</mn></mfrac></mrow></mfenced></mrow><mrow><mfenced open=\"|\" close=\"|\" separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mfenced open=\"[\" close=\"]\" separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced></mrow></mfrac></math>"
+  },
+  "options": [
+    {
+      "text": "equals  <math><mn>0</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "equals  <math><mo>-</mo><mn>1</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "does not exist",
+      "is_correct": false
+    },
+    {
+      "text": "equal <math><mn>1</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><msup><mn>1</mn><mo>+</mo></msup></mrow></munder><mfrac><mrow><mfenced><mrow><mn>1</mn><mo>&#8722;</mo><mfenced close=\"|\" open=\"|\"><mi>x</mi></mfenced><mo>+</mo><mi>sin</mi><mfenced close=\"|\" open=\"|\"><mrow><mn>1</mn><mo>&#8722;</mo><mi>x</mi></mrow></mfenced></mrow></mfenced><mi>sin</mi><mfenced><mrow><mfenced close=\"]\" open=\"[\"><mrow><mn>1</mn><mo>&#8722;</mo><mi>x</mi></mrow></mfenced><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>2</mn></mfrac></mrow></mfenced></mrow><mrow><mfenced close=\"|\" open=\"|\"><mrow><mn>1</mn><mo>&#8722;</mo><mi>x</mi></mrow></mfenced><mfenced close=\"]\" open=\"[\"><mrow><mn>1</mn><mo>&#8722;</mo><mi>x</mi></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mfenced><mrow><mn>1</mn><mo>&#8722;</mo><mfenced open=\"|\" close=\"|\"><mfenced><mrow><mn>1</mn><mo>+</mo><mi>h</mi></mrow></mfenced></mfenced><mo>+</mo><mi>sin</mi><mfenced open=\"|\" close=\"|\"><mrow><mn>1</mn><mo>&#8722;</mo><mfenced><mrow><mn>1</mn><mo>+</mo><mi>h</mi></mrow></mfenced></mrow></mfenced></mrow></mfenced><mi>sin</mi><mfenced><mrow><mfrac><mi>&#960;</mi><mn>2</mn></mfrac><mfenced open=\"[\" close=\"]\"><mrow><mn>1</mn><mo>&#8722;</mo><mfenced><mrow><mn>1</mn><mo>+</mo><mi>h</mi></mrow></mfenced></mrow></mfenced></mrow></mfenced></mrow><mrow><mfenced open=\"|\" close=\"|\"><mrow><mn>1</mn><mo>&#8722;</mo><mfenced><mrow><mn>1</mn><mo>+</mo><mi>h</mi></mrow></mfenced></mrow></mfenced><mfenced open=\"[\" close=\"]\"><mrow><mn>1</mn><mo>&#8722;</mo><mfenced><mrow><mn>1</mn><mo>+</mo><mi>h</mi></mrow></mfenced></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mfenced><mrow><mn>1</mn><mo>&#8722;</mo><mi>h</mi><mo>&#8722;</mo><mn>1</mn><mo>+</mo><mi>sin</mi><mfenced close=\"|\" open=\"|\"><mfenced><mrow><mn>1</mn><mo>&#8722;</mo><mi>h</mi><mo>&#8722;</mo><mn>1</mn></mrow></mfenced></mfenced></mrow></mfenced><mi>sin</mi><mfenced><mrow><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><mn>1</mn><mo>&#8722;</mo><mn>1</mn><mo>&#8722;</mo><mi>h</mi></mrow></mfenced></mrow></mfenced></mrow><mrow><mfenced close=\"|\" open=\"|\"><mfenced><mrow><mn>1</mn><mo>&#8722;</mo><mn>1</mn><mo>&#8722;</mo><mi>h</mi></mrow></mfenced></mfenced><mfenced close=\"]\" open=\"[\"><mrow><mn>1</mn><mo>&#8722;</mo><mn>1</mn><mo>&#8722;</mo><mi>h</mi></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mfenced><mrow><mo>&#8722;</mo><mi>h</mi><mo>+</mo><mi>sin</mi><mi>h</mi></mrow></mfenced><mi>sin</mi><mfenced><mrow><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><mo>&#8722;</mo><mi>h</mi></mrow></mfenced></mrow></mfenced></mrow><mrow><mfenced close=\"|\" open=\"|\"><mrow><mo>-</mo><mi>h</mi></mrow></mfenced><mfenced close=\"]\" open=\"[\"><mrow><mo>&#8722;</mo><mi>h</mi></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mfenced><mrow><mo>&#8722;</mo><mi>h</mi><mo>+</mo><mi>sin</mi><mi>h</mi></mrow></mfenced><mi>sin</mi><mfenced><mrow><mo>&#8722;</mo><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>2</mn></mfrac></mrow></mfenced></mrow><mrow><mi>h</mi><mfenced><mrow><mo>&#8722;</mo><mn>1</mn></mrow></mfenced></mrow></mfrac><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mfenced><mrow><mo>&#8722;</mo><mi>h</mi><mo>+</mo><mi>sin</mi><mi>h</mi></mrow></mfenced><mfenced><mrow><mo>&#8722;</mo><mn>1</mn></mrow></mfenced></mrow><mrow><mo>&#8722;</mo><mi>h</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>&#8722;</mo><mn>1</mn><mo>=</mo><mn>0</mn></math>.</p>"
+  }
+}

@@ -119,7 +119,7 @@ class WatermarkRemover:
         self.backup = backup
         self.output_suffix = output_suffix
     
-    def find_all_images(self, root_dir: str, years: tuple = (2024, 2025)) -> List[str]:
+    def find_all_images(self, root_dir: str, years: tuple = (2024, 2025, 2026)) -> List[str]:
         """
         Find all image files in the directory tree for specific years.
         

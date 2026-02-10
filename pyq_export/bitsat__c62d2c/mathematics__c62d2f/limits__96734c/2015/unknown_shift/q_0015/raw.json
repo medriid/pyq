@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7d06f5bfc7ab78ae81b",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d79",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "BITSAT 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "$$\\lim _{x \\rightarrow \\infty} \\frac{\\int_{0}^{2 x} x e^{x^{2}} d x}{e^{4 x^{2}}} \\text { equals }$$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "CFLaf",
+      "text": "$\\underline{0}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "jwI84",
+      "text": "$\\infty$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "QNXAJ",
+      "text": "2",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "oJFAw",
+      "text": "$\\frac{1}{2}$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Consider $\\lim _{x \\rightarrow \\infty} \\frac{\\int_{0}^{2 x} x e^{x^{2}} d x}{e^{4 x^{2}}}$\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n=\\lim _{x \\rightarrow \\infty} \\frac{2 \\int_{0}^{2 x} x e^{x^{2}} d x}{2 e^{4 x^{2}}} \\\\\r\n\r\n=\\lim _{x \\rightarrow \\infty} \\frac{2 \\int_{0}^{2 x} e^{x^{2}} d\\left(x^{2}\\right)}{2 e^{4 x^{2}}} \\\\\r\n\r\n=\\lim _{x \\rightarrow \\infty} \\frac{\\left[e^{x^{2}}\\right]_{0}^{2 x}}{e^{4 x^{2}}}=\\lim _{x \\rightarrow \\infty} \\frac{e^{4 x^{2}}-1}{2 e^{4 x^{2}}} \\\\\r\n\r\n=\\lim _{x \\rightarrow \\infty}\\left(\\frac{1}{2}-\\frac{1}{2 e^{4 x^{2}}}\\right)=\\frac{1}{2}\r\n\r\n\\end{array}\r\n\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d79",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "BITSAT 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

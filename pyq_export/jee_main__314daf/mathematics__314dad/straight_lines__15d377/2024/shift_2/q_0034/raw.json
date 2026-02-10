@@ -1,58 +1,63 @@
 {
-  "_id": "66446714970e6e9ab542d000",
-  "type": "numerical",
+  "_id": "6644673a970e6e9ab542d15f",
+  "type": "singleCorrect",
   "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "664466ee278297dee60eda69",
+      "_id": "664466ef278297dee60eda6d",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-04-04T14:00:00.000Z",
+      "heldOn": "2024-04-06T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (04 Apr Shift 2)",
-      "title": "JEE Main 2024 (04 Apr Shift 2)"
+      "shortName": "2024 (06 Apr Shift 2)",
+      "title": "JEE Main 2024 (06 Apr Shift 2)"
     }
   ],
   "question": {
-    "text": "Consider a triangle $\\mathrm{ABC}$ having the vertices $\\mathrm{A}(1,2), \\mathrm{B}(\\alpha, \\beta)$ and $\\mathrm{C}(\\gamma, \\delta)$ and angles $\\angle A B C=\\frac{\\pi}{6}$ and $\\angle B A C=\\frac{2 \\pi}{3}$. If the points $\\mathrm{B}$ and $\\mathrm{C}$ lie on the line $y=x+4$, then $\\alpha^2+\\gamma^2$ is equal to ________",
+    "text": "If the locus of the point, whose distances from the point $(2,1)$ and $(1,3)$ are in the ratio $5: 4$, is $a x^2+b y^2+c x y+d x+e y+170=0$, then the value of $a^2+2 b+3 c+4 d+e$ is equal to :",
     "image": null
   },
-  "options": [],
-  "correctValue": "14",
+  "options": [
+    {
+      "id": "ub28R",
+      "text": "37",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "0KKok",
+      "text": "437",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Y8I1s",
+      "text": "-27",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7Xcew",
+      "text": "5",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/PjPkanOvgGZUmzBxHRPy8yyTLPKenw9MFPUr0MgkF-s.original.fullsize.png\"><br />Equation of line passes through point $\\mathrm{A}(1,2)$ which makes angle $\\frac{\\pi}{6}$ from $y=x+4$ is\n$\\begin{aligned}\n& y-2=\\frac{1 \\pm \\tan \\frac{\\pi}{6}}{1 \\mp \\tan \\frac{\\pi}{6}}(x-1) \\\\\n& y-2=\\frac{\\sqrt{3} \\pm 1}{\\sqrt{3} \\mp 1}(x-1) \\\\\n& \\begin{array}{c|c}\n\\oplus & \\oplus \\\\\n\\mathrm{y}-2=(2+\\sqrt{3})(\\mathrm{x}-1) & \\mathrm{y}-2=(2-\\sqrt{3})(\\mathrm{x}-1)\n\\end{array} \\\\\n& \\text { solve with } \\mathrm{y}=\\mathrm{x}+4 \\quad \\text { solve with } \\mathrm{y}=\\mathrm{x}+4 \\\\\n& x+2=(2+\\sqrt{3}) x-2-\\sqrt{3} \\quad x+2=(2-\\sqrt{3}) x-2+\\sqrt{3} \\\\\n& x=\\frac{4+\\sqrt{3}}{1+\\sqrt{3}} \\quad x=\\frac{4-\\sqrt{3}}{1-\\sqrt{3}} \\\\\n&\n\\end{aligned}$\n$\\begin{aligned} & \\alpha^2+\\gamma^2=\\left(\\frac{4+\\sqrt{3}}{1+\\sqrt{3}}\\right)^2+\\left(\\frac{4-\\sqrt{3}}{1-\\sqrt{3}}\\right)^2 \\\\ & \\alpha^2+\\gamma^2=14\\end{aligned}$",
+    "text": "let $\\mathrm{P}(\\mathrm{x}, \\mathrm{y})$\n$\\begin{aligned}\n& \\frac{(x-2)^2+(y-1)^2}{(x-1)^2+(y-3)^2}=\\frac{25}{16} \\\\\n& 9 x^2+9 y^2+14 x-118 y+170=0 \\\\\n& a^2+2 b+3 c+4 d+e \\\\\n& =81+18+0+56-118 \\\\\n& =155-118 \\\\\n& =37\n\\end{aligned}$",
     "image": null
   },
-  "videoSolution": {
-    "videoId": "5f2529387d704cf6b9e24757e98f940a",
-    "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/e1aFgw9P5Yvil.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/e1aFgw9P5Yvil.480.jpeg",
-    "premiumModules": [
-      {
-        "premiumModuleId": "6628114842d540dfcb148ecb",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "64c7e8e829737784b294e469",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
-        "isFree": false
-      }
-    ],
-    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
-  },
+  "videoSolution": null,
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "664466ee278297dee60eda69",
+    "_id": "664466ef278297dee60eda6d",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-04-04T14:00:00.000Z",
+    "heldOn": "2024-04-06T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (04 Apr Shift 2)",
-    "title": "JEE Main 2024 (04 Apr Shift 2)"
+    "shortName": "2024 (06 Apr Shift 2)",
+    "title": "JEE Main 2024 (06 Apr Shift 2)"
   },
-  "evalStatus": "notAttempted",
-  "lastPracticed": null
+  "evalStatus": "incorrect",
+  "lastPracticed": "2024-10-08T13:53:31.773Z"
 }

@@ -1,0 +1,43 @@
+{
+  "index": 119,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2010",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023e0ffc8649daddda513",
+    "chapter_name": "Thermal Properties of Matter",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Two conductors have the same resistance at $0^{\\circ} \\mathrm{C}$ but their temperature coefficients of resistance are $\\alpha_1$ and $\\alpha_2$. The respective temperature coefficients of their series and parallel combinations are nearly"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{\\alpha_1+\\alpha_2}{2}, \\alpha_1+\\alpha_2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\alpha_1+\\alpha_2, \\frac{\\alpha_1+\\alpha_2}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\alpha_1+\\alpha_2, \\frac{\\alpha_1 \\alpha_2}{\\alpha_1+\\alpha_2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\alpha_1+\\alpha_2}{2}, \\frac{\\alpha_1+\\alpha_2}{2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $R_0$ be the initial resistance of both conductors $\\therefore \\quad$ At temperature $\\theta$ their resistance will be, $R_1=R_0\\left(1+\\alpha_1 \\theta\\right)$ and $R_2=R_0\\left(1+\\alpha_2 \\theta\\right)$\nfor, series combination, $\\mathrm{R}_{\\mathrm{s}}=\\mathrm{R}_1+\\mathrm{R}_2$ $R_{s 0}\\left(1+\\alpha_s \\theta\\right)=R_0\\left(1+\\alpha_1 \\theta\\right)+R_0\\left(1+\\alpha_2 \\theta\\right)$\nwhere $\\mathrm{R}_{\\mathrm{s} 0}=\\mathrm{R}_0+\\mathrm{R}_0=2 \\mathrm{R}_0$\n$\\therefore \\quad 2 \\mathrm{R}_0\\left(1+\\alpha_s \\theta\\right)=2 \\mathrm{R}_0+\\mathrm{R}_0 \\theta\\left(\\alpha_1+\\alpha_2\\right)$\nor $\\quad \\alpha_s=\\frac{\\alpha_1+\\alpha_2}{2}$\nfor parallel combination,\n$$\nR_p=\\frac{R_1 R_2}{R_1+R_2}\n$$\nwhere, $R_{p 0}=\\frac{R_0 R_0}{R_0+R_0}=\\frac{R_0}{2}$\n$\\therefore \\quad \\frac{\\mathrm{R}_0}{2}\\left(1+\\alpha_{\\mathrm{p}} \\theta\\right)=\\frac{\\mathrm{R}_0^2\\left(1+\\alpha_1 \\theta+\\alpha_2 \\theta+\\alpha_1 \\alpha_2 \\theta\\right)}{\\mathrm{R}_0\\left(2+\\alpha_1 \\theta+\\alpha_2 \\theta\\right)}$\nas $\\alpha_1$ and $\\alpha_2$ are small quantities\n$\\therefore \\quad \\alpha_1 \\alpha_2$ is negligible\nor $\\quad \\alpha_{\\mathrm{p}}=\\frac{\\alpha_1+\\alpha_2}{2+\\left(\\alpha_1+\\alpha_2\\right) \\theta}=\\frac{\\alpha_1+\\alpha_2}{2}\\left[1-\\left(\\alpha_1+\\alpha_2\\right) \\theta\\right]$\nas $\\left(\\alpha_1+\\alpha_2\\right)^2$ is negligible\n$\\therefore \\quad \\alpha_p=\\frac{\\alpha_1+\\alpha_2}{2}$"
+  }
+}

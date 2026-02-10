@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cccd6ab1da4b641d4",
+    "chapter_name": "Permutation Combination",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A person invites a party of 10 friends at dinner and place so that 4 are on one round table and 6 on the other round table. Total number of ways in which he can arrange the guests is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{10!}{6!}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{10!}{24}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{9!}{24}$",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Total person $=10$\nTwo groups are formed containing 4 and 6 persons.\n$\\therefore$ Total ways of formation of groups $=\\frac{10!}{4!6!}$\nNow, 4 persons can be arranged on round table\n$=(4-1)!=3!$\nand 6 persons can be arranged on round table $=(6-1)$ !\n$=5!$\n$\\therefore$ Total ways of arranging the guest\n$=\\frac{10!}{4!6!} \\times 3!\\times 5!=\\frac{10!}{24}$"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "index": 6,
   "type": "singleCorrect",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2025 (24 Jan Shift 2)",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (8 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "If $\\alpha\\gt\\beta\\gt\\gamma\\gt0$, then the expression $\\cot ^{-1}\\left\\{\\beta+\\frac{\\left(1+\\beta^2\\right)}{(\\alpha-\\beta)}\\right\\}+\\cot ^{-1}\\left\\{\\gamma+\\frac{\\left(1+\\gamma^2\\right)}{(\\beta-\\gamma)}\\right\\}+\\cot ^{-1}\\left\\{\\alpha+\\frac{\\left(1+\\alpha^2\\right)}{(\\gamma-\\alpha)}\\right\\}$ is equal to :"
+    "text": "The value of $\\cot ^{-1}\\left(\\frac{\\sqrt{1+\\tan ^2(2)}-1}{\\tan (2)}\\right)-\\cot ^{-1}$<br/>$\\left(\\frac{\\sqrt{1+\\tan ^2\\left(\\frac{1}{2}\\right)}+1}{\\tan \\left(\\frac{1}{2}\\right)}\\right) \\text { is equal to }$"
   },
   "options": [
     {
-      "text": "$\\pi$",
+      "text": "$\\pi-\\frac{5}{4}$",
       "is_correct": true
     },
     {
-      "text": "0",
+      "text": "$\\pi-\\frac{3}{2}$",
       "is_correct": false
     },
     {
-      "text": "$\\frac{\\pi}{2}-(\\alpha+\\beta+\\gamma)$",
+      "text": "$\\pi+\\frac{3}{2}$",
       "is_correct": false
     },
     {
-      "text": "$3 \\pi$",
+      "text": "$\\pi+\\frac{5}{2}$",
       "is_correct": false
     }
   ],
@@ -38,6 +38,6 @@
     "A"
   ],
   "solution": {
-    "text": "$\\begin{aligned} & \\Rightarrow \\cot ^{-1}\\left(\\frac{\\alpha \\beta+1}{\\alpha-\\beta}\\right)+\\cot ^{-1}\\left(\\frac{\\beta \\gamma+1}{\\beta-\\gamma}\\right)+\\cot ^{-1}\\left(\\frac{\\alpha \\gamma+1}{\\gamma-\\alpha}\\right) \\\\ & \\Rightarrow \\tan ^{-1}\\left(\\frac{\\alpha-\\beta}{1+\\alpha \\beta}\\right)+\\tan ^{-1}\\left(\\frac{\\beta-\\gamma}{1+\\beta \\gamma}\\right)+\\pi+\\tan ^{-1}\\left(\\frac{\\gamma-\\alpha}{1+\\gamma \\alpha}\\right) \\\\ & \\Rightarrow\\left(\\tan ^{-1} \\alpha-\\tan ^{-1} \\beta\\right)+\\left(\\tan ^{-1} \\beta-\\tan ^{-1} \\gamma\\right)+\\left(\\pi+\\tan ^{-1} \\gamma-\\tan ^{-1} \\alpha\\right) \\\\ & \\Rightarrow \\pi\\end{aligned}$"
+    "text": "$\\cot ^{-1}\\left(\\frac{|\\sec 2|-1}{\\tan 2}\\right)-\\cot ^{-1}\\left(\\frac{\\left|\\sec \\frac{1}{2}\\right|+1}{\\tan \\frac{1}{2}}\\right)$<br/>$\\begin{aligned} & =\\cot ^{-1}\\left(\\frac{-1-\\cos 2}{\\sin 2}\\right)-\\cot ^{-1}\\left(\\frac{1+\\cos \\frac{1}{2}}{\\sin \\frac{1}{2}}\\right) \\\\ & =\\pi-\\cot ^{-1}(\\cot 1)-\\cot ^{-1}\\left(\\cot \\frac{1}{4}\\right) \\\\ & =\\pi-1-\\frac{1}{4}=\\pi-\\frac{5}{4}\\end{aligned}$"
   }
 }

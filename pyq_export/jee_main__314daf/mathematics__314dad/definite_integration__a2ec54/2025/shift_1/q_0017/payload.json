@@ -1,8 +1,8 @@
 {
   "index": 17,
   "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2025 (24 Jan Shift 1)",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "$\\operatorname{IfI}(m, n)=\\int_0^1 x^{m-1}(1-x)^{n-1} d x, m, n\\gt0$, then $I(9,14)+I(10,13)$ is"
+    "text": "The value of $\\int_{-1}^1 \\frac{(1+\\sqrt{|x|-x}) e^x+(\\sqrt{|x|-x}) e^{-x}}{e^x+e^{-x}} d x$ is equal to"
   },
   "options": [
     {
-      "text": "$\\mathrm{I}(19,27)$",
+      "text": "$3-\\frac{2 \\sqrt{2}}{3}$",
       "is_correct": false
     },
     {
-      "text": "$\\mathrm{I}(9,1)$",
+      "text": "$2+\\frac{2 \\sqrt{2}}{3}$",
       "is_correct": false
     },
     {
-      "text": "$I(1,13)$",
+      "text": "$1-\\frac{2 \\sqrt{2}}{3}$",
       "is_correct": false
     },
     {
-      "text": "$\\mathrm{I}(9,13)$",
+      "text": "$1+\\frac{2 \\sqrt{2}}{3}$",
       "is_correct": true
     }
   ],
@@ -38,6 +38,6 @@
     "D"
   ],
   "solution": {
-    "text": "$\\begin{aligned} & \\mathrm{I}(\\mathrm{m}, \\mathrm{m})=\\int_0^1 \\mathrm{x}^{\\mathrm{m}-1}(1-\\mathrm{x})^{\\mathrm{n}-1} d \\mathrm{x} \\\\ & \\text { Let } \\mathrm{x}=\\sin ^2 \\theta \\quad \\mathrm{dx}=2 \\sin \\theta \\cos \\theta \\mathrm{~d} \\theta \\\\ & \\mathrm{I}(\\mathrm{m}, \\mathrm{n})=2 \\int_0^{\\pi / 2}(\\sin \\theta)^{2 \\mathrm{~m}-1}(\\cos \\theta)^{2 \\mathrm{n}-1} d \\theta \\\\ & \\mathrm{I}(9,14)+\\mathrm{I}(10,13)=2 \\int_0^{\\pi / 2}(\\sin \\theta)^{17}(\\cos \\theta)^{27} d \\theta \\\\ & +2 \\int_0^{\\pi / 2}(\\sin \\theta)^{19}(\\cos \\theta)^{25} d \\theta \\\\ & =2 \\int_0^{\\pi / 2}(\\sin \\theta)^{17}(\\cos \\theta)^{25} d \\theta \\\\ & =\\mathrm{I}(9,13)\\end{aligned}$"
+    "text": "$\\begin{aligned} & \\mathrm{I}=\\int_{-1}^1 \\frac{(1+\\sqrt{|-\\mathrm{x}|-(-\\mathrm{x})}) \\mathrm{e}^{-\\mathrm{x}}+(\\sqrt{|-\\mathrm{x}|-(-\\mathrm{x})}) \\mathrm{e}^{-(-\\mathrm{x})}}{\\mathrm{e}^{-\\mathrm{x}}+\\mathrm{e}^{-(-\\mathrm{x})}} \\mathrm{dx} \\\\ & \\Rightarrow \\mathrm{I}=\\int_{-1}^1 \\frac{(1+\\sqrt{|\\mathrm{x}|+\\mathrm{x}}) \\mathrm{e}^{-\\mathrm{x}}+(\\sqrt{|\\mathrm{x}|+\\mathrm{x}}) \\mathrm{e}^{\\mathrm{x}}}{\\mathrm{e}^{\\mathrm{x}}+\\mathrm{e}^{\\mathrm{x}}} \\mathrm{dx} \\\\ & \\Rightarrow 2 \\mathrm{I}=\\int_{-1}^1 \\frac{(1+\\sqrt{|\\mathrm{x}|+\\mathrm{x}}+\\sqrt{|\\mathrm{x}|-\\mathrm{x}})\\left(\\mathrm{e}^{\\mathrm{x}}+\\mathrm{e}^{-\\mathrm{x}}\\right)}{\\left(\\mathrm{e}^{\\mathrm{x}}+\\mathrm{e}^{-\\mathrm{x}}\\right)} \\mathrm{dx} \\\\ & \\Rightarrow 2 \\mathrm{I}=\\int_{-1}^1(1+\\sqrt{|\\mathrm{x}|+\\mathrm{x}}+\\sqrt{|\\mathrm{x}|-\\mathrm{x}}) \\mathrm{dx} \\\\ & \\Rightarrow 2 \\mathrm{I}=2 \\int_0^1(1+\\sqrt{|\\mathrm{x}|+\\mathrm{x}}+\\sqrt{|\\mathrm{x}|-\\mathrm{x}}) \\mathrm{dx} \\\\ & \\Rightarrow 2 \\mathrm{I}=2 \\int_0^1(1+\\sqrt{2 \\mathrm{x}}+\\sqrt{0}) \\mathrm{dx} \\\\ & \\Rightarrow \\mathrm{I}=\\int_0^1(1+\\sqrt{2 \\mathrm{x}}) \\mathrm{dx}=\\left[\\mathrm{x}+\\frac{2 \\sqrt{2}}{3} \\mathrm{x}^{3 / 2}\\right]_0^1 \\\\ & \\Rightarrow \\mathrm{I}=\\frac{2 \\sqrt{2}}{3}+1\\end{aligned}$"
   }
 }

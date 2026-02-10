@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2020",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7e2daa1f081e2331f8",
+    "chapter_name": "Differentiation",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $x y+y^{2}=\\tan x+y,$ then find $\\frac{d y}{d x}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\sec ^{2} x}{x+2 y}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\sec ^{2} x-y}{(x+2 y-1)}$",
+      "is_correct": true
+    },
+    {
+      "text": "$(x+2 y-1) \\sec ^{2} x$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sec ^{2} x \\cdot y$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "The given relation is $x y+y^{2}=\\tan x+y$. Differentiating both sides with respect to $x$, we get\r\n\r\n$\\frac{d}{d x}(x y)+\\frac{d}{d x}\\left(y^{2}\\right)=\\frac{d}{d x}(\\tan x)+\\frac{d y}{d x}$\r\n\r\nor $\\left[y \\cdot 1+x \\cdot \\frac{d y}{d x}\\right]+2 y \\frac{d y}{d x}=\\sec ^{2} x+\\frac{d y}{d x}$\r\n\r\nor $(x+2 y-1) \\frac{d y}{d x}=\\sec ^{2} x-y$\r\n\r\n$\\therefore \\frac{d y}{d x}=\\frac{\\sec ^{2} x-y}{(x+2 y-1)}$"
+  }
+}

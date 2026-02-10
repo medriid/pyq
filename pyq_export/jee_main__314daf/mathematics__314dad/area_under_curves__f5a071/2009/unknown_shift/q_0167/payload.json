@@ -1,0 +1,43 @@
+{
+  "index": 167,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2009",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602565bccda81624f5a071",
+    "chapter_name": "Area Under Curves",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area of the region bounded by the parabola $(y-2)^2=x-1$, the tangent to the parabola at the point $(2,3)$ and the $x$-axis is"
+  },
+  "options": [
+    {
+      "text": "\n3\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n6\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n9\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n12",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Equation of tangent at $(2,3)$ to\n$$\n\\begin{aligned}\n& (y-2)^2=x-1 \\text { is } S_1=0 \\\\\n& \\Rightarrow x-2 y+4=0\n\\end{aligned}\n$$\nRequired Area $=$ Area of $\\triangle O C B+$ Area of OAPD - Area of $\\triangle P C D$\n$$\n\\begin{aligned}\n& =\\frac{1}{2}(4 \\times 2)+\\int_0^3\\left(y^2-4 y+5\\right) d y-\\frac{1}{2}(1 \\times 2) \\\\\n& =4+\\left[\\frac{y^3}{3}-2 y^2+5 y\\right]_0^3-1=4-9-18+15-1 \\\\\n& =28-19=9 \\text { sq. units }\n\\end{aligned}\n$$\n<img src=\"assets\\st0167_5a7a15d3bcb4.png\"><br>\n$$\n\\text { (or) }\n$$\n\n$$\n\\text { Area }=\\int_0^3\\left(2 y-4-y^2+4 y-5\\right) d y=\\int_0^3\\left(-y^2+6 y-5\\right) d y=-\\int_0^3(3-y)^2 d y=\\left[\\frac{(y-3)^3}{3}\\right]_0^3=\\frac{27}{3}=9 \\text { sq.units }\n$$"
+  }
+}

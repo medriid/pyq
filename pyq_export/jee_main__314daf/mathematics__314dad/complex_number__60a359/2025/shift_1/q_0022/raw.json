@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eea7c8b73881fdaea1c4",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d9760c",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-24T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (24 Jan Shift 1)",
+      "title": "JEE Main 2025 (24 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "If $\\alpha$ and $\\beta$ are the roots of the equation $2 z^2-3 z-2 \\mathrm{i}=0$, where $\\mathrm{i}=\\sqrt{-1}$, then $16 \\cdot \\operatorname{Re}\\left(\\frac{\\alpha^{19}+\\beta^{19}+\\alpha^{11}+\\beta^{11}}{\\alpha^{15}+\\beta^{15}}\\right) \\cdot \\operatorname{lm}\\left(\\frac{\\alpha^{19}+\\beta^{19}+\\alpha^{11}+\\beta^{11}}{\\alpha^{15}+\\beta^{15}}\\right)$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "I8w5D",
+      "text": "$441$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "16s20",
+      "text": "$398$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "8Hi3c",
+      "text": "$312$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "AGzZp",
+      "text": "$409$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$2 z^2-3 z-2 i=0$ ...(i)\n$2\\left(z-\\frac{i}{z}\\right)=3$\nAs $\\alpha, \\beta$ are roots of (i)\n$\\begin{aligned}\n& \\alpha-\\frac{i}{\\alpha}=\\frac{3}{2} \\\\\n& \\Rightarrow \\alpha^2-\\frac{1}{\\alpha^2}-2 i=\\frac{9}{4} \\\\\n& \\Rightarrow \\alpha^2-\\frac{1}{\\alpha^2}=\\frac{9}{4}+2 i\n\\end{aligned}$\n\nSquaring both sides\n$\\begin{aligned}\n& \\Rightarrow \\alpha^4+\\frac{1}{\\alpha^4}-2=\\frac{81}{16}-4+9 i \\\\\n& \\Rightarrow \\alpha^4+\\frac{1}{\\alpha^4}=\\frac{49}{16}+9 i\n\\end{aligned}$\n\nSimilarly, $\\beta^4+\\frac{1}{\\beta^4}=\\frac{49}{16}+9 i$\n$\\begin{aligned}\n& \\frac{\\alpha^{19}+\\beta^{19}+\\alpha^{11}+\\beta^{11}}{\\alpha^{15}+\\beta^{15}} \\\\\n& =\\frac{\\alpha^{15}\\left(\\alpha^4+\\frac{1}{\\alpha^4}\\right)+\\beta^{15}\\left(\\beta^4+\\frac{1}{\\beta^4}\\right)}{\\alpha^{15}+\\beta^{15}} \\\\\n& =\\frac{49}{16}+9 i \\\\\n& \\operatorname{Re}\\left(\\frac{\\alpha^{19}+\\beta^{19}+\\alpha^{11}+\\beta^{11}}{\\alpha^{15}+\\beta^{15}}\\right)=\\frac{49}{16} \\\\\n& \\operatorname{Im}\\left(\\frac{\\alpha^{19}+\\beta^{19}+\\alpha^{11}+\\beta^{11}}{\\alpha^{15}+\\beta^{15}}\\right)=9 \\\\\n& \\Rightarrow 16 \\operatorname{Re}\\left(\\frac{\\alpha^{19}+\\beta^{19}+\\alpha^{11}+\\beta^{11}}{\\alpha^{15}+\\beta^{15}}\\right) \\cdot \\operatorname{lm}\\left(\\frac{\\alpha^{19}+\\beta^{19}+\\alpha^{11}+\\beta^{11}}{\\alpha^{15}+\\beta^{15}}\\right) \\\\\n& =16 \\times \\frac{49}{16} \\times 9 \\\\\n& =441\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "93f6664949a74aad8b7be7119944763f",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/79xWGxZJzxFKE.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/79xWGxZJzxFKE.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d9760c",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-24T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (24 Jan Shift 1)",
+    "title": "JEE Main 2025 (24 Jan Shift 1)"
+  },
+  "evalStatus": "correct",
+  "lastPracticed": "2025-02-18T12:23:57.508Z"
+}

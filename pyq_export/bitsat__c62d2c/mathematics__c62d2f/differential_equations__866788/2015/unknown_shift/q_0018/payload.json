@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd839e4041267a866788",
+    "chapter_name": "Differential Equations",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\phi(\\mathrm{x})$ is a differential function, then the solution of the differential equation $\\mathrm{dy}+\\left\\{\\mathrm{y} \\phi^{\\prime}(\\mathrm{x})-\\phi(\\mathrm{x})\\right.$\r\n\r\n$\\left.\\phi^{\\prime}(x)\\right\\} d x=0,$ is"
+  },
+  "options": [
+    {
+      "text": "$y=\\{\\phi(x)-1\\}+C e^{-\\phi(x)}$",
+      "is_correct": true
+    },
+    {
+      "text": "$y \\phi(x)=\\{\\phi(x)\\}^{2}+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$y e^{\\varphi(x)}=\\phi(x) e^{\\phi(x)}+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$y-\\phi(x)=\\phi(x) e^{-\\phi(x)}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given differential equation is\r\n\r\n$\\mathrm{dy}+\\left\\{y \\phi^{\\prime}(x)-\\phi(x) \\phi^{\\prime}(x)\\right\\} d x=0$\r\n\r\n$\\Rightarrow \\frac{\\mathrm{dy}}{\\mathrm{dx}}+\\phi^{\\prime}(\\mathrm{x}) \\mathrm{y}=\\phi(\\mathrm{x}) \\phi^{\\prime}(\\mathrm{x})$\r\n\r\nwhich is a linear differential equation with $\\quad P=\\phi^{\\prime}(x), Q=\\phi(x) \\cdot \\phi^{\\prime}(x)$ and\r\n\r\n$I \\cdot F=e^{\\int \\phi^{\\prime}(x) d x}=e^{\\phi(x)}$\r\n\r\n$\\therefore$ Solution is $y \\cdot e^{\\phi(x)}=\\int \\phi(x) \\cdot \\phi^{\\prime}(x) e^{\\phi(x)} d x+C$\r\n\r\n$\\Rightarrow y \\cdot e^{\\phi(x)}=\\int \\phi(x) \\cdot e^{\\phi(x)} \\phi^{\\prime}(x) d x+C$\r\n\r\n$\\Rightarrow y \\cdot e^{\\phi(x)}=\\phi(x) e^{\\phi(x)}-\\int \\phi^{\\prime}(x) e^{\\phi(x)} d x+C$\r\n\r\n$\\Rightarrow y \\cdot e^{\\phi(x)}=\\phi(x) e^{\\phi(x)}-e^{\\phi(x)}+C$\r\n\r\n$\\Rightarrow y=\\lceil\\phi(x)-1]+C e^{-\\phi(x)}$"
+  }
+}

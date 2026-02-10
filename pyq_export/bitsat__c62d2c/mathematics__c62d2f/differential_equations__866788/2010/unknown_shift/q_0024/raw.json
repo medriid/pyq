@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e78b6f5bfc7ab78ae5c8",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d74",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010",
+      "title": "BITSAT 2010"
+    }
+  ],
+  "question": {
+    "text": "What is the solution of \\(\\frac{d y}{d x}+2 y=1\\) satisfying \\(y(0)=0\\) ?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "7Os3n",
+      "text": "\\(y=\\frac{1-e^{-2 x}}{2}\\)",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "RAFXF",
+      "text": "\\(y=\\frac{1+e^{-2 x}}{2}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "w3jlq",
+      "text": "\\(y=1+e^x\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ZmsNf",
+      "text": "\\(y=\\frac{1+e^x}{2}\\)",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\frac{d y}{d x}+2 y=1 \\Rightarrow \\frac{d y}{d x}=1-2 y \\\\\n& \\int \\frac{d y}{1-2 y}=\\int d x-\\frac{1}{2} \\log |1-2 y|=x+C \\\\\n& \\text { at } x=0, y=0 ;-\\frac{1}{2} \\log 1=0+C \\Rightarrow C=0 \\\\\n& 1-2 y=e^{-2 x} \\Rightarrow y=\\frac{1-e^{-2 x}}{2}\n\\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d74",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010",
+    "title": "BITSAT 2010"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

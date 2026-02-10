@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65a43",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7cf",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2012-05-19T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (19 May Online)",
+      "title": "JEE Main 2012 (19 May Online)"
+    }
+  ],
+  "question": {
+    "text": "A block of weight $W$ rests on a horizontal floor with coefficient of static friction $\\mu$. It is desired to make the block move by applying minimum amount of force. The angle $\\theta$ from the horizontal at which the force should be applied and magnitude of the force $F$ are respectively.",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "GS8FM",
+      "text": "\n$\\theta=\\tan ^{-1}(\\mu), F=\\frac{\\mu W}{\\sqrt{1+\\mu^2}}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "hFbLA",
+      "text": "\n$\\theta=\\tan ^{-1}\\left(\\frac{1}{\\mu}\\right), F=\\frac{\\mu W}{\\sqrt{1+\\mu^2}}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ObbwG",
+      "text": "\n$\\theta=0, F=\\mu W$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Fa8sX",
+      "text": "\n$\\theta=\\tan ^{-1}\\left(\\frac{\\mu}{1+\\mu}\\right), F=\\frac{\\mu W}{1+\\mu}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let the force $F$ is applied at an angle $\\theta$ with the horizontal.\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/pK9-C8aYZ0g71NL8VJCDOmLPkfkSipV_Td2hJ-BuVAA.original.fullsize.png\"><br>\nFor horizontal equilibrium, $F \\cos \\theta=\\mu R$\nFor vertical equilibrium, $R+F \\sin \\theta=\\mathrm{mg}$ or, $R=m g-F \\sin \\theta$ Substituting this value of $R$ in eq. (i), we get\n$$\n\\begin{aligned}\n& F \\cos \\theta=\\mu(\\mathrm{mg}-F \\sin \\theta) \\\\\n& =\\mu \\mathrm{mg}-\\mu F \\sin \\theta \\\\\n& \\text { or, } F(\\cos \\theta+\\mu \\sin \\theta)=\\mu \\mathrm{mg} \\\\\n& \\text { or, } \\mathrm{F}=\\frac{\\mu \\mathrm{mg}}{\\cos \\theta+\\mu \\sin \\theta}\n\\end{aligned}\n$$\nFor $F$ to be minimum, the denominator $(\\cos \\theta+\\mu \\sin \\theta)$ should be maximum.\n$$\n\\therefore \\frac{d}{d \\theta}(\\cos \\theta+\\mu \\sin \\theta)=0\n$$\nor, $-\\sin \\theta+\\mu \\cos \\theta=0$\nor, $\\tan \\theta=\\mu$\nor, $\\theta=\\tan ^{-1}(\\mu)$\nThen, $\\sin \\theta=\\frac{\\mu}{\\sqrt{1+\\mu^2}}$ and\n$$\n\\cos \\theta=\\frac{1}{\\sqrt{1+\\mu^2}}\n$$\nHence, $F_{\\text {min }}$\n$$\n=\\frac{\\mu w}{\\frac{1}{\\sqrt{1+\\mu^2}}+\\frac{\\mu^2}{\\sqrt{1+\\mu^2}}}=\\frac{\\mu w}{\\sqrt{1+\\mu^2}}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7cf",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2012-05-19T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (19 May Online)",
+    "title": "JEE Main 2012 (19 May Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

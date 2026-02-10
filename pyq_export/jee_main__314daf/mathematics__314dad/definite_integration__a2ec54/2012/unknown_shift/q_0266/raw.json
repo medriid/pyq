@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65a3e",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7ce",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2012-05-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (12 May Online)",
+      "title": "JEE Main 2012 (12 May Online)"
+    }
+  ],
+  "question": {
+    "text": "If $\\frac{d}{d x} G(x)=\\frac{e^{\\tan x}}{x}, x \\in(0, \\pi / 2)$, then $\\int_{1 / 4}^{1 / 2} \\frac{2}{x} \\cdot e^{\\tan \\left(\\pi x^2\\right)} d x$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "dETlD",
+      "text": "\n$G(\\pi / 4)-G(\\pi / 16)$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "vgAeH",
+      "text": "\n$2[G(\\pi / 4)-G(\\pi / 16)]$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "mHBzS",
+      "text": "\n$\\pi[G(1 / 2)-G(1 / 4)]$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "AflJQ",
+      "text": "\n$G(1 / \\sqrt{2})-G(1 / 2)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $\\frac{d}{d x} G(x)=\\frac{e^{\\tan x}}{x}, x \\in\\left(0, \\frac{\\pi}{2}\\right)$\nNow,\n$$\n\\begin{aligned}\nI & =\\int_{1 / 4}^{1 / 2} \\frac{2}{x} e^{\\tan \\pi x^2} \\cdot d x \\\\\n& =\\int_{1 / 4}^{1 / 2} \\frac{2 \\pi x}{\\pi x^2} e^{\\tan \\pi x^2} \\cdot d x\n\\end{aligned}\n$$\nLet $\\pi x^2=t \\Rightarrow 2 \\pi x d x=d t$\nWhen $x=\\frac{1}{2}, t=\\frac{\\pi}{4}$ and $x=\\frac{1}{4}, t=\\frac{\\pi}{16}$\n$$\n\\begin{aligned}\n\\therefore I & =\\int_{\\pi / 16}^{\\pi / 4} \\frac{e^{\\tan t}}{t} d t=g(t) \\mid \\begin{array}{l}\n\\frac{\\pi}{4} \\\\\n\\frac{\\pi}{16}\n\\end{array} \\\\\n& =G\\left(\\frac{\\pi}{4}\\right)-G\\left(\\frac{\\pi}{16}\\right)\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7ce",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2012-05-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (12 May Online)",
+    "title": "JEE Main 2012 (12 May Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

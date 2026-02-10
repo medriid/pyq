@@ -1,0 +1,43 @@
+{
+  "index": 168,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2019 (08 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2019",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let <math><mi>A</mi></math> and <math><mi>B</mi><mi>&#160;</mi></math> be two non-null events such that <math><mi>A</mi><mo>&#8834;</mo><mi>B</mi><mo>.</mo></math> Then, which of the following statements is always correct?"
+  },
+  "options": [
+    {
+      "text": "<math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>A</mi><mo>|</mo><mi>B</mi></mrow></mfenced><mo>≥</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>A</mi><mo>|</mo><mi>B</mi></mrow></mfenced><mo>=</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>B</mi></mrow></mfenced><mo>-</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>A</mi></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>A</mi><mo>|</mo><mi>B</mi></mrow></mfenced><mo>≤</mo><mi> </mi><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>P</mi><mfenced separators=\"|\"><mrow><mi>A</mi><mo>|</mo><mi>B</mi></mrow></mfenced><mo>=</mo><mn>1</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p>Lets draw the venn diagram according to question,&nbsp;</p><p><img src=\"assets\\st0168_cd1fd4135a05.png\" /></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced separators=\"|\"><mfrac><mi>A</mi><mi>B</mi></mfrac></mfenced><mo>=</mo><mfrac><mrow><mi>P</mi><mo>(</mo><mi>A</mi><mo>&#8745;</mo><mi>B</mi><mo>)</mo></mrow><mrow><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></mrow><mrow><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo></mrow></mfrac><mo>&#8201;</mo><mo>&#8201;</mo><mo>&#8201;</mo><mo>&#8201;</mo><mo>&#8201;</mo><mo>&#8201;</mo><mo>[</mo><mi>A</mi><mo>&#8834;</mo><mi>B</mi><mo>&#8658;</mo><mi>A</mi><mo>&#8745;</mo><mi>B</mi><mo>=</mo><mi>A</mi><mo>]</mo></math></p><p>Now, since <math><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo><mo>&#8804;</mo><mn>1</mn></math></p><p><math><mo>&#8658;</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mfrac><mrow><mi>A</mi></mrow><mrow><mi>B</mi></mrow></mfrac></mrow></mfenced><mo>=</mo><mfrac><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>A</mi></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced separators=\"|\"><mrow><mi>B</mi></mrow></mfenced></mrow></mfrac><mo>&#8805;</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>A</mi></mrow></mfenced></math></p><p><math><mo>&#8658;</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>A</mi><mo>|</mo><mi>B</mi></mrow></mfenced><mo>&#8805;</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></math></p>"
+  }
+}

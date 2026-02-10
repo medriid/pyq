@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd73e2ff28f7b16745b4",
+    "chapter_name": "Matrices",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $A$ and $B$ are symmetric matrices of same order such that $A B+B A=X$ and $A B-B A=Y$, then $(X Y)^{\\mathrm{T}}=$"
+  },
+  "options": [
+    {
+      "text": "$X Y$",
+      "is_correct": false
+    },
+    {
+      "text": "$X^{\\top} Y^{\\top}$",
+      "is_correct": false
+    },
+    {
+      "text": "-YX",
+      "is_correct": true
+    },
+    {
+      "text": "$-Y^{\\top} X^{\\top}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Since $X Y=(A B+B A)(A B-B A)$\n$=(\\mathrm{AB}) \\mathrm{AB}+(\\mathrm{BA})(\\mathrm{AB})-(\\mathrm{AB})(\\mathrm{BA})-(\\mathrm{BA})(\\mathrm{BA})$\nNow $(X Y)^{\\mathrm{T}}=((\\mathrm{AB}) \\cdot(\\mathrm{AB}))^{\\mathrm{T}}+(\\mathrm{BA} \\cdot \\mathrm{AB})^{\\mathrm{T}}-$ $(\\mathrm{AB} \\cdot \\mathrm{BA})^{\\mathrm{T}}$\n$\\begin{array}{r}=(\\mathrm{AB})^{\\mathrm{T}} \\cdot(\\mathrm{AB})^{\\mathrm{T}}+(\\mathrm{AB})^{\\mathrm{T}} \\cdot(\\mathrm{BA})^{\\mathrm{T}}-(\\mathrm{BA})^{\\mathrm{T}}(\\mathrm{AB})^{\\mathrm{T}} \\\\ -(\\mathrm{BA})^{\\mathrm{T}}(\\mathrm{BA})^{\\mathrm{T}}\\end{array}$\n$=\\left(B^{\\top} \\cdot A^{\\top}\\right)\\left(B^{\\top} \\cdot A^{\\top}\\right)+\\left(B^{\\top} \\cdot A^{\\top}\\right) \\cdot\\left(A^{\\top} B^{\\top}\\right)$\n$-\\left(\\mathrm{A}^{\\top} \\mathrm{B}^{\\top}\\right)\\left(\\mathrm{B}^{\\top} \\mathrm{A}^{\\top}\\right)-\\left(\\mathrm{A}^{\\top} \\mathrm{B}^{\\top}\\right)\\left(\\mathrm{A}^{\\top} \\mathrm{B}^{\\top}\\right)$\nSince, A & B are symmetric matrix.\n$=(\\mathrm{BA})(\\mathrm{BA})+(\\mathrm{BA})(\\mathrm{AB})-(\\mathrm{AB})(\\mathrm{BA})$\n$-(\\mathrm{AB})(\\mathrm{AB})$\n$=(\\mathrm{BA}-\\mathrm{AB})(\\mathrm{BA}+\\mathrm{AB})=-\\mathrm{YX}$"
+  }
+}

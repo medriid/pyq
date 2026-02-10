@@ -1,8 +1,8 @@
 {
   "index": 32,
   "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2025 (22 Jan Shift 2)",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "The perpendicular distance, of the line $\\frac{x-1}{2}=\\frac{y+2}{-1}=\\frac{z+3}{2}$ from the point $\\mathrm{P}(2,-10,1)$, is :"
+    "text": "Let a straight line $L$ pass through the point $P(2,-1,3)$ and be perpendicular to the lines $\\frac{x-1}{2}=\\frac{y+1}{1}=\\frac{z-3}{-2}$ and $\\frac{x-3}{1}=\\frac{y-2}{3}=\\frac{z+2}{4}$. If the line $L$ intersects the $y z$-plane at the point $Q$, then the distance between the points $P$ and $Q$ is :"
   },
   "options": [
     {
-      "text": "6",
+      "text": "$\\sqrt{10}$",
       "is_correct": false
     },
     {
-      "text": "$5 \\sqrt{2}$",
+      "text": "$2 \\sqrt{3}$",
       "is_correct": false
     },
     {
-      "text": "$4 \\sqrt{3}$",
+      "text": "2",
       "is_correct": false
     },
     {
-      "text": "$3 \\sqrt{5}$",
+      "text": "3",
       "is_correct": true
     }
   ],
@@ -38,6 +38,6 @@
     "D"
   ],
   "solution": {
-    "text": "<img src=\"assets\\st0032_1613d1d8386b.png\"><br>\n\n\n\n$\\begin{aligned} & \\left.\\frac{\\mathrm{x}-1}{2}=\\frac{\\mathrm{y}+2}{-1}=\\frac{\\mathrm{z}+3}{2}=\\lambda \\text { (let }\\right) \\\\ & (2 \\lambda+1,-\\lambda-2,2 \\lambda-3) \\\\ & \\because \\overrightarrow{\\mathrm{PA}} \\cdot \\overrightarrow{\\mathrm{n}}=0 \\\\ & \\Rightarrow(2 \\lambda-1) 2+(-\\lambda+8)(-1)+(2 \\lambda-4) 2=0 \\\\ & \\Rightarrow 4 \\lambda-2+\\lambda-8+4 \\lambda-8=0 \\\\ & \\Rightarrow 9 \\lambda-18=0 \\Rightarrow \\lambda=2 \\\\ & \\therefore \\mathrm{~A}(5,-4,1) \\\\ & \\therefore \\mathrm{AP}=\\sqrt{3^2+6^2+0^2}=\\sqrt{45}=3 \\sqrt{5}\\end{aligned}$"
+    "text": "Vector parallel to $L$\n$\\begin{aligned}\n& =\\left|\\begin{array}{ccc}\n\\hat{i} & \\hat{j} & \\hat{k} \\\\\n2 & 1 & -2 \\\\\n1 & 3 & 4\n\\end{array}\\right|=10 \\hat{i}-10 \\hat{j}+5 \\hat{k} \\\\\n& =5(2 \\hat{i}-2 \\hat{j}+\\hat{k})\n\\end{aligned}$\n\nEquation of ' $L$ '\n$\\frac{x-2}{2}=\\frac{y+1}{-2}=\\frac{z-3}{1}=\\lambda(\\text { say })$\n\nLet $Q(2 \\lambda+2,-2 \\lambda-1, \\lambda+3)$\n$\\begin{aligned}\n& \\Rightarrow \\quad 2 \\lambda+2=0 \\Rightarrow \\lambda=-1 \\\\\n& \\Rightarrow Q(0,1,2) \\\\\n& d(P, Q)=3\n\\end{aligned}$"
   }
 }

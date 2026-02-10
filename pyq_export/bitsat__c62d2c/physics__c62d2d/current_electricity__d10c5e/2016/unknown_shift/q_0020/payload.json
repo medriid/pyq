@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2016",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd79330945d4a4d10c5e",
+    "chapter_name": "Current Electricity",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Two resistances at $0^{\\circ} \\mathrm{C}$ with temperature coefficient of resistance $\\alpha_{1}$ and $\\alpha_{2}$ joined in series act as a single resistance in a circuit. The temperature coefficient of their single resistance will be"
+  },
+  "options": [
+    {
+      "text": "$\\alpha_{1}+\\alpha_{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\alpha_{1} \\alpha_{2}}{\\alpha_{1}+\\alpha_{2}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\alpha_{1}-\\alpha_{2}}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\alpha_{1}+\\alpha_{2}}{2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} R_{1} &=R_{0}\\left(1+\\alpha_{1} t\\right)+R_{0}\\left(1+\\alpha_{2} t\\right) \\\\ &=2 R_{0}\\left(1+\\frac{\\alpha_{1}+\\alpha_{2}}{2} t\\right) \\end{aligned}$\r\n\r\nComparing with $R=R_{0}(1+\\alpha t)$\r\n\r\n$\\alpha=\\frac{\\alpha_{1}+\\alpha_{2}}{2}$"
+  }
+}

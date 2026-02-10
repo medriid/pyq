@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2017",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83e6f6052b2388bfed",
+    "chapter_name": "Definite Integration",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The expression <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msubsup><mo>&#8747;</mo><mn>0</mn><mi>n</mi></msubsup><mfenced open=\"[\" close=\"]\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></mrow><mrow><msubsup><mo>&#8747;</mo><mn>0</mn><mi>n</mi></msubsup><mfenced open=\"{\" close=\"}\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></mrow></mfrac></math>, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"[\"><mi>x</mi></mfenced></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mi>x</mi></mfenced></math> are integral and fractional part of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&#8712;</mo><mi>N</mi></math>, is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mi>n</mi></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>-</mo><mn>1</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>We have, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mo>&#8747;</mo><mn>0</mn><mi>n</mi></msubsup><mfenced open=\"[\" close=\"]\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><mn>0</mn><mi>d</mi><mi>x</mi><mo>+</mo><msubsup><mo>&#8747;</mo><mn>1</mn><mn>2</mn></msubsup><mn>1</mn><mi>d</mi><mi>x</mi><mo>+</mo><msubsup><mo>&#8747;</mo><mn>2</mn><mn>3</mn></msubsup><mn>2</mn><mi>d</mi><mi>x</mi><mo>+</mo><mo>&#8230;</mo><mo>+</mo><msubsup><mo>&#8747;</mo><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow><mi>n</mi></msubsup><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mfenced><mrow><mn>2</mn><mo>-</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mn>2</mn><mfenced><mrow><mn>3</mn><mo>-</mo><mn>2</mn></mrow></mfenced><mo>+</mo><mn>3</mn><mfenced><mrow><mn>4</mn><mo>-</mo><mn>3</mn></mrow></mfenced><mo>+</mo><mo>&#8230;</mo><mo>&#8230;</mo><mo>+</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mfenced open=\"{\" close=\"}\"><mrow><mi>n</mi><mo>-</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mo>&#8230;</mo><mo>.</mo><mo>+</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>=</mo><mfrac><mrow><mi>n</mi><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mn>2</mn></mfrac></math></p><p>and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mo>&#8747;</mo><mn>0</mn><mi>n</mi></msubsup><mfenced open=\"{\" close=\"}\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mi>n</mi></msubsup><mfenced><mrow><mi>x</mi><mo>-</mo><mfenced open=\"[\" close=\"]\"><mi>x</mi></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mi>n</mi><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mfrac><mrow><msubsup><mo>&#8747;</mo><mn>0</mn><mi>n</mi></msubsup><mfenced open=\"[\" close=\"]\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></mrow><mrow><msubsup><mo>&#8747;</mo><mn>0</mn><mi>n</mi></msubsup><mfenced open=\"{\" close=\"}\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mi>n</mi><mo>-</mo><mn>1</mn></math></p>"
+  }
+}

@@ -1,58 +1,33 @@
 {
-  "_id": "68542c807c09d044e4c1a251",
-  "type": "singleCorrect",
-  "level": 1,
+  "_id": "68542c817c09d044e4c1a254",
+  "type": "numerical",
+  "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "6852f2ff9d87935e0d80978c",
+      "_id": "6852f2ff9d87935e0d80978e",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-04-02T14:00:00.000Z",
+      "heldOn": "2025-04-08T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (2 Apr Shift 2)",
-      "title": "JEE Main 2025 (2 Apr Shift 2)"
+      "shortName": "2025 (8 Apr Shift 2)",
+      "title": "JEE Main 2025 (8 Apr Shift 2)"
     }
   ],
   "question": {
-    "text": "If the domain of the function<br/>$f(x)=\\frac{1}{\\sqrt{10+3 x-x^2}}+\\frac{1}{\\sqrt{x+|x|}}$ is $(a, b)$, then $(1+a)^2+b^2$ is equal to :",
+    "text": "Let the domain of the function<br/>$f(x)=\\cos ^{-1}\\left(\\frac{4 x+5}{3 x-7}\\right)$ be $[\\alpha, \\beta]$ and the domain of $\\mathrm{g}(\\mathrm{x})=\\log _2\\left(2-6 \\log _{27}(2 \\mathrm{x}+5)\\right)$ be $(\\gamma, \\delta)$.<br/>Then $|7(\\alpha+\\beta)+4(\\gamma+\\delta)|$ is equal to ________",
     "image": null
   },
-  "options": [
-    {
-      "id": "IUPZC",
-      "text": "$26$",
-      "image": null,
-      "isCorrect": true
-    },
-    {
-      "id": "dyjpw",
-      "text": "$29$",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "2Ta71",
-      "text": "$25$",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "eeBlR",
-      "text": "$30$",
-      "image": null,
-      "isCorrect": false
-    }
-  ],
-  "correctValue": null,
+  "options": [],
+  "correctValue": "96",
   "solution": {
-    "text": "$\\mathrm{x}+|\\mathrm{x}| \\gt 0 \\quad \\Rightarrow \\mathrm{x} \\in(0, \\infty)$   ...(1)<br/>$\\begin{aligned} & \\& 10+3 x-x^2 \\gt 0 \\\\ & \\Rightarrow x^2-3 x-10 \\lt 0\\end{aligned}$<br/>$\\Rightarrow x \\in(-2,5)$   ...(2)<br/>$\\begin{aligned} & \\text { from }(1) \\&(2) \\quad \\mathrm{x} \\in(0,5) \\\\ & \\therefore \\mathrm{a}=0 \\& \\mathrm{~b}=5 \\\\ & \\therefore\\left(1+\\mathrm{a}^2\\right)+\\mathrm{b}^2=1+25=26\\end{aligned}$",
+    "text": "$\\begin{aligned} & f(x)=\\cos ^{-1}\\left(\\frac{4 x+5}{3 x-7}\\right) \\\\ & \\Rightarrow-1 \\leq\\left(\\frac{4 x+5}{3 x-7}\\right) \\leq 1 \\\\ & \\left(\\frac{4 x+5}{3 x-7}\\right) \\geq-1 \\\\ & \\frac{4 x+5+3 x-7}{3 x-7} \\geq 0 \\\\ & \\Rightarrow \\frac{7 x-2}{3 x-7} \\geq 0\\end{aligned}$<br/><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/e7cmqbQ5RPiS1biaoozuX6-b0z2-k44R2eRjdXZNF8k.original.fullsize.png\"/><br/>$\\begin{aligned} & x \\in\\left(-\\infty, \\frac{2}{7}\\right] \\cup\\left(\\frac{7}{3}, \\infty\\right) \\\\ & \\& \\frac{4 x+5}{3 x-7} \\leq 1 \\Rightarrow \\frac{x+12}{3 x-7} \\leq 0\\end{aligned}$<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/6pVI74YkOIbZm_zwxuHjmrGYN0kZbNBbuQ7Q68v2FiM.original.fullsize.png\"/><br/>$\\therefore$ Domain of $f(x)$ is<br/>$\\begin{aligned}<br/>& {\\left[-12, \\frac{2}{7}\\right] \\alpha=-12, \\beta=\\frac{2}{7}} \\\\\n& \\mathrm{~g}(\\mathrm{x})=\\log _2\\left(2-6 \\log _{27}(2 \\mathrm{x}+5)\\right)<br/>\\end{aligned}$<br/>Domain<br/>$2-6 \\log _{27}(2 x+5) \\gt 0$<br/>$\\begin{array}{ll}\\Rightarrow & 6 \\log _{27}(2 \\mathrm{x}+5) \\lt 2 \\\\ \\Rightarrow & \\log _{27}(2 \\mathrm{x}+5) \\lt \\frac{1}{3} \\\\ \\Rightarrow & 2 \\mathrm{x}+5 \\lt 3 \\\\ \\Rightarrow & \\mathrm{x} \\lt -1\\end{array}$<br/>$\\& 2 x+5 \\gt 0 \\Rightarrow x \\gt -\\frac{5}{2}$<br/>Domain is $\\mathrm{x} \\in\\left(-\\frac{5}{2},-1\\right)$<br/>$\\begin{aligned}<br/>& \\gamma=-\\frac{5}{2}, \\delta=-1 \\\\\n& |7(\\alpha+\\beta)+4(\\gamma+\\delta)|=\\left\\lvert\\, 7\\left(\\left.-12+\\frac{2}{7}+4\\left(-\\frac{5}{2}-1\\right) \\right\\rvert\\,\\right.\\right. \\\\\n& |-82-14|=96<br/>\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "afad05ad6ab24b64addb32df6a9ccc83",
+    "videoId": "cc04002722f44f34aec265fdafe036a0",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/rFIOX4LYYuDk8.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/rFIOX4LYYuDk8.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/5Mhl0CXKWFhFr.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/5Mhl0CXKWFhFr.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
@@ -71,12 +46,12 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "6852f2ff9d87935e0d80978c",
+    "_id": "6852f2ff9d87935e0d80978e",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-04-02T14:00:00.000Z",
+    "heldOn": "2025-04-08T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (2 Apr Shift 2)",
-    "title": "JEE Main 2025 (2 Apr Shift 2)"
+    "shortName": "2025 (8 Apr Shift 2)",
+    "title": "JEE Main 2025 (8 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

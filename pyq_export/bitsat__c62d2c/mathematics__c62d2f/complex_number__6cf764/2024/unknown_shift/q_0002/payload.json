@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7787c3b967066cf764",
+    "chapter_name": "Complex Number",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $z_1, z_2, \\ldots . . z_n$ are complex numbers such that $\\left|z_1\\right|=\\left|z_2\\right|=\\ldots . .=\\left|z_n\\right|=1$, then $\\left|z_1+z_2+\\ldots . .+z_n\\right|$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\left|z_1 z_2 z_3 \\ldots . . z_n\\right|$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left|z_1\\right|+\\left|z_2\\right|+\\ldots . .+\\left|z_n\\right|$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left|\\frac{1}{z_1}+\\frac{1}{z_2}+\\ldots . .+\\frac{1}{z_n}\\right|$",
+      "is_correct": true
+    },
+    {
+      "text": "n",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\left|z_1\\right|=\\left|z_2\\right|=\\left|z_3\\right|=\\ldots \\ldots .=\\left|z_n\\right|=1$\n$\\Rightarrow z_1 \\bar{z}_1=z_2 \\bar{z}_2=z_3 \\bar{z}_3=\\ldots \\ldots=z_n \\bar{z}_n=1$\n$\\overline{\\mathrm{z}}_1=\\frac{1}{\\mathrm{z}}, \\overline{\\mathrm{z}}_2=\\frac{1}{\\mathrm{z}_2}, \\overline{\\mathrm{z}}_3=\\frac{1}{\\mathrm{z}_3}, \\ldots \\ldots, \\overline{\\mathrm{z}}_{\\mathrm{n}}=\\frac{1}{\\mathrm{z}_{\\mathrm{n}}}$\nNow, $\\left|z_1+z_2+z_3+\\ldots \\ldots .+z_n\\right|$\n$=\\left|\\bar{z}_1+\\bar{z}_2+\\ldots \\ldots+\\bar{z}_n\\right|$\n$\\left|\\bar{z}_1+\\bar{z}_2+\\bar{z}_3+\\ldots .+\\bar{z}_n\\right|=\\left|\\frac{1}{z_1}+\\frac{1}{z_2}+\\frac{1}{z_3}+\\ldots \\ldots+\\frac{1}{z_n}\\right|$"
+  }
+}

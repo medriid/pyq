@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e82d6f5bfc7ab78aeb44",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44d",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2022-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022",
+      "title": "BITSAT 2022"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "In the circuit shown in the figure, the $\\mathrm{AC}$ source gives a voltage $V=20 \\cos (2000 t)$ neglecting source resistance, the voltmeter and ammeter reading will be\r\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/bitsat/v5y3bhAJ29Rq6lxNBnA5ho52xioZBvUCYER9Mb7lpWI.original.fullsize.png\"><br>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "VDag4",
+      "text": "\r\n$0 \\mathrm{~V}, 0.47 \\mathrm{~A}$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "7cLo9",
+      "text": "\r\n$282 \\mathrm{~V}, 1.41 \\mathrm{~A}$\r\n",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "GTNHQ",
+      "text": "\r\n$1.41 \\mathrm{~V}, 0.47 \\mathrm{~A}$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "GEQo3",
+      "text": "\r\n$15 \\mathrm{~V}, 837 \\mathrm{~A}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $R_1=8 \\Omega$\r\n$\\begin{aligned} R_2 & =2 \\Omega \\\\ L & =5 \\mathrm{mH} \\\\ C & =50 \\mu \\mathrm{F}\\end{aligned}$\r\nand $\\quad V_0=20 \\cos (2000 t)$\r\nImpedance, $Z=\\sqrt{R^2+\\left(X_L-X_C\\right)^2}$\r\nAs, here, $X_L=\\omega L=2000 \\times 5 \\times 10^{-3}=10 \\Omega$\r\nSimilarly, $X_L=\\frac{1}{\\omega C}=\\frac{1}{2000 \\times 50 \\times 10^{-6}}=10 \\Omega$ $\\because \\quad X_L=X_C$, Hence, $i_{\\max }=\\frac{V_0}{Z}=\\frac{20}{(8+2)}=2 \\mathrm{~A}$\r\nHence, $\\quad i_{\\operatorname{rms}}=\\frac{i_{\\max }}{\\sqrt{2}}=\\frac{2}{\\sqrt{2}}=1.41 \\mathrm{~A}$ and\r\n$$\r\n\\begin{aligned}\r\nV & =R_2 i_{\\mathrm{rms}}=1.41 \\times 2 \\\\\r\n& =282 \\mathrm{~V}\r\n\\end{aligned}\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44d",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2022-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022",
+    "title": "BITSAT 2022"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

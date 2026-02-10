@@ -1,8 +1,8 @@
 {
   "index": 19,
-  "type": "singleCorrect",
+  "type": "numerical",
   "difficulty": 3,
-  "pyq_info": "JEE Main 2024 (06 Apr Shift 1)",
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Let $f:(-\\infty, \\infty)-\\{0\\} \\rightarrow \\mathbb{R}$ be a differentiable function such that $f^{\\prime}(1)=\\lim _{a \\rightarrow \\infty} a^2 f\\left(\\frac{1}{a}\\right)$. Then $\\lim _{a \\rightarrow \\infty} \\frac{a(a+1)}{2} \\tan ^{-1}\\left(\\frac{1}{a}\\right)+a^2-2 \\log _e a$ is equal to"
+    "text": "Let $\\lim _{n \\rightarrow \\infty}\\left(\\frac{n}{\\sqrt{n^4+1}}-\\frac{2 n}{\\left(n^2+1\\right) \\sqrt{n^4+1}}+\\frac{n}{\\sqrt{n^4+16}}-\\frac{8 n}{\\left(n^2+4\\right) \\sqrt{n^4+16}}\\right.$ $\\left.+\\ldots+\\frac{n}{\\sqrt{n^4+n^4}}-\\frac{2 n \\cdot n^2}{\\left(n^2+n^2\\right) \\sqrt{n^4+n^4}}\\right)$ be $\\frac{\\pi}{k}$, using only the principal values of the inverse trigonometric functions. Then $\\mathrm{k}^2$ is equal to ________"
   },
-  "options": [
-    {
-      "text": "$\\frac{3}{2}+\\frac{\\pi}{4}$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{3}{4}+\\frac{\\pi}{8}$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{3}{8}+\\frac{\\pi}{4}$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{5}{2}+\\frac{\\pi}{8}$",
-      "is_correct": true
-    }
-  ],
-  "correct_answer": [
-    "D"
-  ],
+  "options": [],
+  "correct_answer": "32",
   "solution": {
-    "text": "$\\begin{aligned} & f:(-\\infty, \\infty)-\\{0\\} \\rightarrow R \\\\ & f^{\\prime}(1)=\\lim _{a \\rightarrow \\infty} a^2 f\\left(\\frac{1}{a}\\right) \\\\ & \\lim _{a \\rightarrow \\infty} \\frac{a(a+1)}{2} \\tan ^{-1}\\left(\\frac{1}{a}\\right)+a^2-2 \\ln (a) \\\\ & \\lim _{a \\rightarrow \\infty} a^2\\left(\\frac{\\left(1+\\frac{1}{a}\\right)}{2} \\tan ^{-1}\\left(\\frac{1}{a}\\right)+1-\\frac{2}{a^2} \\ln (a)\\right) \\\\ & f(x)=\\frac{1}{2}(1+x) \\tan ^{-1}(x)+1-2 x^2 \\ln (x)\\end{aligned}$<br />$\\begin{aligned}\n& \\mathrm{f}^{\\prime}(\\mathrm{x})=\\frac{1}{2}\\left(\\frac{1+\\mathrm{x}}{1+\\mathrm{x}^2}+\\tan ^{-1}(\\mathrm{x})+4 \\mathrm{x} \\ell(\\mathrm{x})\\right)+2 \\mathrm{x} \\\\\n& \\mathrm{f}^{\\prime}(1)=\\frac{1}{2}\\left(1+\\frac{\\pi}{4}\\right)+2 \\\\\n& \\mathrm{f}^{\\prime}(1)=\\frac{5}{2}+\\frac{\\pi}{8}\n\\end{aligned}$"
+    "text": "$\\begin{aligned} & \\sum_{\\mathrm{r}=1}^{\\infty} \\frac{\\mathrm{n}}{\\sqrt{\\mathrm{n}^4+\\mathrm{r}^4}}-\\frac{2 \\mathrm{nr}^2}{\\left(\\mathrm{n}^2+\\mathrm{r}^2\\right) \\sqrt{\\mathrm{n}^4+\\mathrm{r}^4}} \\\\ & \\sum_{\\mathrm{r}=1}^{\\infty} \\frac{\\frac{1}{\\mathrm{n}}}{\\sqrt{1+\\left(\\frac{\\mathrm{r}}{\\mathrm{n}}\\right)^4}}-\\frac{2\\left(\\frac{1}{\\mathrm{n}}\\right)\\left(\\frac{\\mathrm{r}}{\\mathrm{n}}\\right)^2}{\\left(1+\\left(\\frac{\\mathrm{r}}{\\mathrm{n}}\\right)^2\\right) \\sqrt{1+\\left(\\frac{\\mathrm{r}}{\\mathrm{n}}\\right)^4}} \\\\ & \\Rightarrow \\int_0^1 \\frac{\\mathrm{dx}}{\\sqrt{1+\\mathrm{x}^4}}-\\frac{2 \\mathrm{x}^2 \\mathrm{dx}}{\\left(1+\\mathrm{x}^2\\right) \\sqrt{1+\\mathrm{x}^4}} \\\\ & \\Rightarrow \\int_0^1 \\frac{1-\\mathrm{x}^2}{\\left(1+\\mathrm{x}^2\\right) \\sqrt{1+\\mathrm{x}^4}} d x \\\\ & \\Rightarrow \\int_0^1 \\frac{\\frac{1}{\\mathrm{x}^2}-1}{\\left(\\mathrm{x}+\\frac{1}{\\mathrm{x}}\\right) \\sqrt{\\mathrm{x}^2+\\frac{1}{\\mathrm{x}^2}}} \\mathrm{dx}\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow-\\int_0^1 \\frac{1-\\frac{1}{x^2}}{\\left(x+\\frac{1}{x}\\right) \\sqrt{\\left(x+\\frac{1}{x}\\right)^2-2}} d x \\\\ & x+\\frac{1}{x}=t \\Rightarrow 1-\\frac{1}{x^2} d x=d t\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow-\\int_{\\infty}^2 \\frac{\\mathrm{dt}}{\\mathrm{t} \\sqrt{\\mathrm{t}^2-2}} \\\\ & \\Rightarrow-\\int_{\\infty}^2 \\frac{\\mathrm{tdt}}{\\mathrm{t}^2 \\sqrt{\\mathrm{t}^2-2}} \\\\ & \\text { take } \\mathrm{t}^2-2=\\alpha^2 \\\\ & \\mathrm{tdt}=\\alpha \\mathrm{d} \\alpha \\\\ & \\Rightarrow-\\int_{\\infty}^{\\sqrt{2}} \\frac{\\alpha \\mathrm{d} \\alpha}{\\left(\\alpha^2+2\\right) \\alpha} \\\\ & \\Rightarrow-\\int_{\\infty}^{\\sqrt{2}} \\frac{\\mathrm{d} \\alpha}{\\alpha^2+2}\\end{aligned}$\n$\\begin{aligned}\n& \\left.\\Rightarrow \\frac{-1}{\\sqrt{2}} \\tan ^{-1} \\frac{\\alpha}{\\sqrt{2}}\\right]_{\\infty}^{\\sqrt{2}} \\\\\n& \\Rightarrow \\frac{-1}{\\sqrt{2}}\\left\\{\\tan ^{-1} 1\\right\\}+\\frac{1}{\\sqrt{2}} \\tan ^{-1} \\infty \\\\\n& \\Rightarrow \\frac{1}{\\sqrt{2}}\\left\\{\\frac{\\pi}{2}-\\frac{\\pi}{4}\\right\\} \\\\\n& \\Rightarrow \\frac{\\pi}{4 \\sqrt{2}}=\\frac{\\pi}{\\mathrm{K}}\n\\end{aligned}$<br />So $\\mathrm{K}=4 \\sqrt{2}$\n$\\mathrm{K}^2=32$"
   }
 }

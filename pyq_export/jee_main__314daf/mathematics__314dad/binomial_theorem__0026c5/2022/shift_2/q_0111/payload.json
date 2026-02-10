@@ -1,0 +1,43 @@
+{
+  "index": 111,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2022 (26 Jul Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2022",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><munder><mrow><mi>i</mi><mo>,</mo><mi>j</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>i</mi><mo>&#8800;</mo><mi>j</mi></mrow></munder><mi>n</mi></munderover><mmultiscripts><mi>C</mi><mi>i</mi><none/><mprescripts/><none/><mi>n</mi></mmultiscripts><mmultiscripts><mi>C</mi><mi>j</mi><none/><mprescripts/><none/><mi>n</mi></mmultiscripts></math>&nbsp;is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mrow><mn>2</mn><mi>n</mi></mrow></msup><mo>-</mo><mmultiscripts><mi>C</mi><mi>n</mi><none/><mprescripts/><none/><mrow><mn>2</mn><mi>n</mi></mrow></mmultiscripts></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>&#160;</mo><mo>-</mo><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mmultiscripts></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mrow><mn>2</mn><mi>n</mi></mrow></msup><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mmultiscripts><mi>C</mi><mi>n</mi><none/><mprescripts/><none/><mrow><mn>2</mn><mi>n</mi></mrow></mmultiscripts></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><mo>+</mo><mmultiscripts><mi>C</mi><mi>n</mi><none/><mprescripts/><none/><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mmultiscripts></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<blockquote><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><munder><mrow><mi>i</mi><mo>,</mo><mi>j</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>i</mi><mo>&#8800;</mo><mi>j</mi></mrow></munder><mi>n</mi></munderover><mmultiscripts><mi>C</mi><mi>i</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mmultiscripts><mi>C</mi><mi>j</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>0</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mfenced><mrow><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mmultiscripts><mi>C</mi><mi>n</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts></mrow></mfenced><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mfenced><mrow><mmultiscripts><mi>C</mi><mn>0</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mmultiscripts><mi>C</mi><mi>n</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts></mrow></mfenced><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mmultiscripts><mi>C</mi><mi>n</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mfenced><mrow><mmultiscripts><mi>C</mi><mn>0</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2</mn><mfenced><mrow><mmultiscripts><mi>C</mi><mn>0</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mmultiscripts><mi>C</mi><mi>n</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mfenced><mrow><mmultiscripts><mi>C</mi><mn>0</mn><none/><mprescripts/><none/><mi>n</mi></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none/><mprescripts/><none/><mi>n</mi></mmultiscripts><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mmultiscripts><mi>C</mi><mi>n</mi><none/><mprescripts/><none/><mi>n</mi></mmultiscripts></mrow></mfenced><mn>2</mn></msup><mo>-</mo><mfenced open=\"[\" close=\"]\"><mrow><msup><mfenced><mmultiscripts><mi>C</mi><mn>0</mn><none/><mprescripts/><none/><mi>n</mi></mmultiscripts></mfenced><mn>2</mn></msup><mo>+</mo><msup><mfenced><mmultiscripts><mi>C</mi><mn>1</mn><none/><mprescripts/><none/><mi>n</mi></mmultiscripts></mfenced><mn>2</mn></msup><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><msup><mfenced><mmultiscripts><mi>C</mi><mi>n</mi><none/><mprescripts/><none/><mi>n</mi></mmultiscripts></mfenced><mn>2</mn></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mfenced><msup><mn>2</mn><mi>n</mi></msup></mfenced><mn>2</mn></msup><mo>-</mo><mmultiscripts><mi>C</mi><mi>n</mi><none></none><mprescripts></mprescripts><none></none><mrow><mn>2</mn><mi>n</mi></mrow></mmultiscripts><mo>=</mo><msup><mn>2</mn><mrow><mn>2</mn><mi>n</mi></mrow></msup><mo>-</mo><mmultiscripts><mi>C</mi><mi>n</mi><none></none><mprescripts></mprescripts><none></none><mrow><mn>2</mn><mi>n</mi></mrow></mmultiscripts></math></p></blockquote>"
+  }
+}

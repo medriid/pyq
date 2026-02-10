@@ -1,0 +1,63 @@
+{
+  "_id": "67726d0dc49e8ef28ee2b3dd",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6415",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 2)",
+      "title": "BITSAT 2024 (Memory Based Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "If $A$ and $B$ are symmetric matrices of same order such that $A B+B A=X$ and $A B-B A=Y$, then $(X Y)^{\\mathrm{T}}=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "JaRwb",
+      "text": "$X Y$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "B4ALV",
+      "text": "$X^{\\top} Y^{\\top}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Q3r4a",
+      "text": "-YX",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "OnMuI",
+      "text": "$-Y^{\\top} X^{\\top}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Since $X Y=(A B+B A)(A B-B A)$\n$=(\\mathrm{AB}) \\mathrm{AB}+(\\mathrm{BA})(\\mathrm{AB})-(\\mathrm{AB})(\\mathrm{BA})-(\\mathrm{BA})(\\mathrm{BA})$\nNow $(X Y)^{\\mathrm{T}}=((\\mathrm{AB}) \\cdot(\\mathrm{AB}))^{\\mathrm{T}}+(\\mathrm{BA} \\cdot \\mathrm{AB})^{\\mathrm{T}}-$ $(\\mathrm{AB} \\cdot \\mathrm{BA})^{\\mathrm{T}}$\n$\\begin{array}{r}=(\\mathrm{AB})^{\\mathrm{T}} \\cdot(\\mathrm{AB})^{\\mathrm{T}}+(\\mathrm{AB})^{\\mathrm{T}} \\cdot(\\mathrm{BA})^{\\mathrm{T}}-(\\mathrm{BA})^{\\mathrm{T}}(\\mathrm{AB})^{\\mathrm{T}} \\\\ -(\\mathrm{BA})^{\\mathrm{T}}(\\mathrm{BA})^{\\mathrm{T}}\\end{array}$\n$=\\left(B^{\\top} \\cdot A^{\\top}\\right)\\left(B^{\\top} \\cdot A^{\\top}\\right)+\\left(B^{\\top} \\cdot A^{\\top}\\right) \\cdot\\left(A^{\\top} B^{\\top}\\right)$\n$-\\left(\\mathrm{A}^{\\top} \\mathrm{B}^{\\top}\\right)\\left(\\mathrm{B}^{\\top} \\mathrm{A}^{\\top}\\right)-\\left(\\mathrm{A}^{\\top} \\mathrm{B}^{\\top}\\right)\\left(\\mathrm{A}^{\\top} \\mathrm{B}^{\\top}\\right)$\nSince, A & B are symmetric matrix.\n$=(\\mathrm{BA})(\\mathrm{BA})+(\\mathrm{BA})(\\mathrm{AB})-(\\mathrm{AB})(\\mathrm{BA})$\n$-(\\mathrm{AB})(\\mathrm{AB})$\n$=(\\mathrm{BA}-\\mathrm{AB})(\\mathrm{BA}+\\mathrm{AB})=-\\mathrm{YX}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6415",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 2)",
+    "title": "BITSAT 2024 (Memory Based Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2019",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd750f84ffa5822273d0",
+    "chapter_name": "Capacitance",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A charged capacitor of capacitance <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> is discharging through a resistor of resistance <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math>. At what time the charge on the capacitor is equal to one half&nbsp;of its initial value?"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>R</mi><mi>C</mi></mrow><mn>2</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>R</mi><mi>C</mi></mrow><mrow><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mi>C</mi><msub><mi>log</mi><mrow><mi>e</mi><mo>&#160;</mo></mrow></msub><mn>2</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mi>R</mi><mi>C</mi></mrow></mfrac><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>The charge on the capacitor at time <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> in a discharging circuit is given by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>=</mo><msub><mi>q</mi><mn>0</mn></msub><msup><mi>e</mi><mrow><mo>-</mo><mi>t</mi><mo>/</mo><mi>&#964;</mi></mrow></msup></math></p><p>where, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#964;</mi><mo>=</mo><mi>R</mi><mi>C</mi><mo>=</mo></math> time constant<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo></math>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>=</mo><msub><mi>q</mi><mn>0</mn></msub><msup><mi>e</mi><mrow><mo>-</mo><mi>t</mi><mo>/</mo><mi>R</mi><mi>C</mi></mrow></msup></math></p><p>when, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#160;&#160;</mo><mi>q</mi><mo>=</mo><mfrac><msub><mi>q</mi><mn>0</mn></msub><mn>2</mn></mfrac></math></p><p>then&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>q</mi><mn>0</mn></msub><mn>2</mn></mfrac><mo>=</mo><msub><mi>q</mi><mn>0</mn></msub><msup><mi>e</mi><mrow><mo>-</mo><mi>t</mi><mo>/</mo><mi>R</mi><mi>C</mi></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>t</mi><mo>/</mo><mi>R</mi><mi>C</mi></mrow></msup></math></p><p>Taking natural log on both side <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mi>e</mi></msub><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mo>=</mo><msub><mi>log</mi><mn>0</mn></msub><msup><mi>e</mi><mrow><mo>-</mo><mi>t</mi><mo>/</mo><mi>R</mi><mi>C</mi></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn><mo>=</mo><mo>-</mo><mfrac><mi>t</mi><mrow><mi>R</mi><mi>C</mi></mrow></mfrac><msub><mi>log</mi><mi>e</mi></msub><mi>e</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>t</mi><mo>=</mo><mi>R</mi><mi>C</mi><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></math></p>"
+  }
+}

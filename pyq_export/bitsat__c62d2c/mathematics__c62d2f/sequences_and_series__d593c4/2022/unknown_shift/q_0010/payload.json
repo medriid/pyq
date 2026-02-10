@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cb79820319dd593c4",
+    "chapter_name": "Sequences and Series",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\alpha, \\beta, \\gamma \\in[0, \\pi]$ and if $\\alpha, \\beta, \\gamma$ are in AP, then \r\n$\\frac{\\sin \\alpha-\\sin \\gamma}{\\cos \\gamma-\\cos \\alpha}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\r\n$\\sin \\beta$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$\\cos \\beta$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$\\cot \\beta$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n$2 \\cos \\beta$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\frac{\\sin \\alpha-\\sin \\gamma}{\\cos \\gamma-\\cos \\alpha}=\\frac{2 \\cos \\frac{\\alpha+\\gamma}{2} \\sin \\frac{\\alpha-\\gamma}{2}}{2 \\sin \\frac{\\alpha+\\gamma}{2} \\cdot \\sin \\frac{\\alpha-\\gamma}{2}}$\r\n$=\\cot \\frac{\\alpha+\\gamma}{2}$\r\n$\\left[\\begin{array}{l}\\because \\sin A-\\sin B=2 \\cos \\left(\\frac{A+B}{2}\\right) \\sin \\left(\\frac{A-B}{2}\\right) \\\\ \\text { and } \\cos A-\\cos B=2 \\sin \\left(\\frac{A+B}{2}\\right) \\sin \\left(\\frac{B-A}{2}\\right)\\end{array}\\right]$\r\nBut $\\alpha, \\beta, \\gamma$ are in $AP$\r\n$\\Rightarrow \\quad \\frac{\\alpha+\\gamma}{2}=\\beta$\r\nSo, required value is $\\cot \\beta$."
+  }
+}

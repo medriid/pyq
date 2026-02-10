@@ -1,8 +1,8 @@
 {
   "index": 15,
-  "type": "numerical",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2025 (24 Jan Shift 1)",
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Let $f$ be a differentiable function such that $2(x+2)^2 f(x)-3(x+2)^2=10 \\int_0^x(t+2) f(t) d t, x \\geq 0$. Then $f(2)$ is equal to ______."
+    "text": "Let $f:[0, \\infty) \\rightarrow \\mathbb{R}$ be differentiable function such that $f(\\mathrm{x})=1-2 \\mathrm{x}+\\int_0^x e^{x-t} f(t) \\mathrm{dt}$ for all $\\mathrm{x} \\in[0, \\infty)$.<br/>Then the area of the region bounded by $\\mathrm{y}=f(\\mathrm{x})$ and the coordinate axes is"
   },
-  "options": [],
-  "correct_answer": "19",
+  "options": [
+    {
+      "text": "$\\sqrt{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\sqrt{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
   "solution": {
-    "text": "$2(x+2)^2 f(x)-3(x+2)^2=10 \\int_0^x(t+2) f(t) d t$\nDifferentiating both side\n$\\begin{aligned}\n& 4(x+2) f(x)+2 f(x)(x+2)^2-6(x+2)=10(x+2) f(x) \\\\\n& =(x+2) \\frac{d y}{d x}-3 y=3 \\\\\n& \\frac{1}{3} \\int \\frac{d y}{y+1}=\\int \\frac{d x}{x+2} \\\\\n& \\ln |y+1=3 \\ln | x+2 \\mid+\\ln c \\\\\n& y+1=(x+2)^3 c \\\\\n& \\because y(0)=\\frac{3}{2} \\\\\n& \\Rightarrow \\frac{5}{16}=c \\\\\n& \\therefore \\quad y=\\frac{5}{16}(x+2)^3-1 \\\\\n& y(2)=\\frac{5}{16} \\times 64-1=19\n\\end{aligned}$"
+    "text": "$\\begin{aligned} & y=1-2 x+e^x \\int_0^x e^{-t} f(t) d t \\\\ & \\frac{d y}{d x}=-2+e^{-x} \\cdot e^x f(x)+e^x \\int_0^x e^{-t} f(t) d t \\\\ & \\frac{d y}{d x}=-2+y+y+2 x-1 \\\\ & \\frac{d y}{d x}-2 y=(2 x-3) \\\\ & y e^{-2 x}=\\int(2 x-3) d x \\cdot e^{-2 x} \\\\ & y e^{-2 x}=\\frac{-(2 x-3)}{2} e^{-2 x}+\\int e^{-2 x} d x \\\\ & y e^{-2 x}=\\frac{-(2 x-3)}{2} e^{-2 x}-\\frac{1}{2} e^{-2 x}+c \\\\ & f(0)=1 \\Rightarrow c=1-\\frac{3}{2}+\\frac{1}{2}=0\\end{aligned}$<br/>$\\begin{aligned} & y=-\\frac{(2 x-3)}{2}-\\frac{1}{2} \\\\ & y=-x+1 \\\\ & x+y=1 \\\\ & \\text { area }=\\frac{1}{2}(1)(1)=\\frac{1}{2}\\end{aligned}$"
   }
 }

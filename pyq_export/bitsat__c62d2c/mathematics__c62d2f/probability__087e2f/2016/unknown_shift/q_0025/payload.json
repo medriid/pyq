@@ -1,0 +1,43 @@
+{
+  "index": 25,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2016",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78b6e5f7d916087e2f",
+    "chapter_name": "Probability",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A man takes a step forward with probability 0.4 and backward with probability 0.6 . The probability that at the end of eleven steps he is one step away from the starting point is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{2^{5} \\cdot 3^{5}}{5^{10}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$462 \\times\\left(\\frac{6}{25}\\right)^{5}$",
+      "is_correct": true
+    },
+    {
+      "text": "$231 \\times \\frac{3^{5}}{5^{10}}$",
+      "is_correct": false
+    },
+    {
+      "text": "none of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "As $0.4+0.6=1$, the man either takes a step forward or a step backward. Let a step forward be a success and a step backward be a failure. Then, the probability of success in one step\r\n\r\n$=p=0.4=\\frac{2}{5}$\r\n\r\nThe probability of failure in one step\r\n\r\n$=\\mathrm{q}=0.6=\\frac{3}{5}$\r\n\r\nIn 11 steps he will be one step away from the starting point if the numbers of successes and failures differ by 1 . So, the number of successes $=6$\r\n\r\nThe number of failures $=5$\r\n\r\nor the number of successes $=5$, The number of failures $=6$\r\n\r\n$\\therefore$ the required probability\r\n\r\n$={ }^{11} \\mathrm{C}_{6} \\mathrm{p}^{6} \\mathrm{q}^{5}+{ }^{11} \\mathrm{C}_{5} \\mathrm{p}^{5} \\mathrm{q}^{6}$\r\n\r\n$={ }^{11} \\mathrm{C}_{6}\\left(\\frac{2}{5}\\right)^{6} \\cdot\\left(\\frac{3}{5}\\right)^{5}+{ }^{11} \\mathrm{C}_{5}\\left(\\frac{2}{5}\\right)^{5}\\left(\\frac{3}{5}\\right)^{6}$\r\n\r\n$=\\frac{11 !}{6 ! 5 !}\\left(\\frac{2}{5}\\right)^{5} \\cdot\\left(\\frac{3}{5}\\right)^{5}\\left\\{\\frac{2}{5}+\\frac{3}{5}\\right\\}$\r\n\r\n$=\\frac{11.10 .9 .8 .7}{120} \\cdot \\frac{2^{5} \\cdot 3^{5}}{5^{10}}=462 \\times\\left(\\frac{6}{25}\\right)^{5}$"
+  }
+}

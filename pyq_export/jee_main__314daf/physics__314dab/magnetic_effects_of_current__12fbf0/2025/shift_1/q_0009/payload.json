@@ -1,8 +1,8 @@
 {
   "index": 9,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (2 Apr Shift 1)",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Let $B_1$ be the magnitude of magnetic field at center of a circular coil of radius $R$ carrying current $I$. Let $B_2$ be the magnitude of magnetic field at an axial distance ' $x$ ' from the center. For $x: R=3: 4, \\frac{B_2}{B_1}$ is :"
+    "text": "Uniform magnetic fields of different strengths $\\left(B_1\\right.$ and $B_2$), both normal to the plane of the paper exist as shown in the figure. A charged particle of mass m and charge q , at the interface at an instant, moves into the region 2 with velocity $v$ and returns to the interface. It continues to move into region 1 and finally reaches the interface. What is the displacement of the particle during this movement along the interface?<br/><img src=\"assets\\qt0009_908ab6d50f92.png\"/><br/>(Consider the velocity of the particle to be normal to the magnetic field and $B_2 \\gt B_1$)"
   },
   "options": [
     {
-      "text": "$4: 5$",
+      "text": "$\\frac{\\mathrm{mv}}{\\mathrm{qB}_1}\\left(1-\\frac{\\mathrm{B}_2}{\\mathrm{~B}_1}\\right) \\times 2$",
       "is_correct": false
     },
     {
-      "text": "$16: 25$",
+      "text": "$\\frac{\\mathrm{mv}}{\\mathrm{qB}_1}\\left(1-\\frac{\\mathrm{B}_1}{\\mathrm{~B}_2}\\right)$",
       "is_correct": false
     },
     {
-      "text": "$64: 125$",
+      "text": "$\\frac{\\mathrm{mv}}{\\mathrm{qB}_1}\\left(1-\\frac{\\mathrm{B}_2}{\\mathrm{~B}_1}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\mathrm{mv}}{\\mathrm{qB}_1}\\left(1-\\frac{\\mathrm{B}_1}{\\mathrm{~B}_2}\\right) \\times 2$",
       "is_correct": true
-    },
-    {
-      "text": "$25: 16$",
-      "is_correct": false
     }
   ],
   "correct_answer": [
-    "C"
+    "D"
   ],
   "solution": {
-    "text": "<img src=\"assets\\st0009_e43deb65269a.png\"/><br/>$\\begin{aligned} & \\mathrm{B}_1=\\frac{\\mu_0 \\mathrm{i}}{2 \\mathrm{R}} \\qquad \\mathrm{B}_2=\\mathrm{B}_1 \\sin ^3 \\theta \\\\ & \\therefore \\frac{\\mathrm{~B}_2}{\\mathrm{~B}_1}=\\sin ^3 \\theta=\\left(\\frac{4}{5}\\right)^3=\\frac{64}{125}\\end{aligned}$"
+    "text": "As $\\overrightarrow{\\mathrm{v}}$ is $\\perp$ to $\\overrightarrow{\\mathrm{B}}$, so charge particle will move in circular path, whose radius is given by<br/>$\\mathrm{R}=\\frac{\\mathrm{mv}}{\\mathrm{qB}}$<br/><img src=\"assets\\st0009_08beec3e4e14.png\"/><br/>Starting point $\\rightarrow \\mathrm{A}$<br/>Ending point $\\rightarrow \\mathrm{C}$<br/>$\\therefore$ Net displacement $=\\mathrm{AC}$<br/>$\\begin{aligned} & \\mathrm{AC}=\\mathrm{CD}-\\mathrm{AD} \\\\ & \\mathrm{AC}=\\frac{2 \\mathrm{mv}}{\\mathrm{qB}_1}-\\frac{2 \\mathrm{mv}}{\\mathrm{qB}_2} \\\\ & \\mathrm{AC}=\\frac{2 \\mathrm{mv}}{\\mathrm{qB}_1}\\left[1-\\frac{\\mathrm{B}_1}{\\mathrm{~B}_2}\\right]\\end{aligned}$"
   }
 }

@@ -1,8 +1,8 @@
 {
   "index": 32,
-  "type": "singleCorrect",
+  "type": "numerical",
   "difficulty": 1,
-  "pyq_info": "JEE Main 2024 (05 Apr Shift 1)",
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "If $\\mathrm{A}(1,-1,2), \\mathrm{B}(5,7,-6), \\mathrm{C}(3,4,-10)$ and $\\mathrm{D}(-1,-4,-2)$ are the vertices of a quadrilateral $A B C D$, then its area is :"
+    "text": "If the orthocentre of the triangle formed by the lines $2 x+3 y-1=0, x+2 y-1=0$ and $a x+b y-1=0$, is the centroid of another triangle, whose circumcentre and orthocentre respectively are $(3,4)$ and $(-6,-8)$, then the value of $|a-b|$ is_______"
   },
-  "options": [
-    {
-      "text": "$48 \\sqrt{7}$",
-      "is_correct": false
-    },
-    {
-      "text": "$12 \\sqrt{29}$",
-      "is_correct": true
-    },
-    {
-      "text": "$24 \\sqrt{7}$",
-      "is_correct": false
-    },
-    {
-      "text": "$24 \\sqrt{29}$",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "B"
-  ],
+  "options": [],
+  "correct_answer": "16",
   "solution": {
-    "text": "$\\begin{aligned} & \\mathrm{A}(1,-1,2) \\\\ & \\mathrm{B}(5,7,-6) \\\\ & \\mathrm{C}(3,4,-10) \\\\ & \\mathrm{D}(-1,-4,-2) \\\\ & \\text { Area }=\\frac{1}{2}|\\overrightarrow{\\mathrm{AC}} \\times \\overrightarrow{\\mathrm{BD}}|=\\frac{1}{2}|(2 \\hat{\\mathrm{i}}+5 \\hat{\\mathrm{j}}-12 \\hat{\\mathrm{k}}) \\times(6 \\hat{\\mathrm{i}}+11 \\hat{\\mathrm{j}}-4 \\hat{\\mathrm{k}})| \\\\ & =\\frac{1}{2}|112 \\hat{\\mathrm{i}}-64 \\hat{\\mathrm{j}}-8 \\hat{\\mathrm{k}}| \\\\ & =4|14 \\hat{\\mathrm{i}}-8 \\hat{\\mathrm{j}}-\\hat{\\mathrm{k}}| \\\\ & =4 \\sqrt{196+64+1} \\\\ & =4 \\sqrt{261} \\\\ & =12 \\sqrt{29}\\end{aligned}$"
+    "text": "$\\begin{aligned} & 2 x+3 y-1=0 \\\\ & x+2 y-1=0 \\\\ & a x+b y-1=0\\end{aligned}$\n<img src=\"assets\\st0032_0d9740c4bcfe.png\"><br />$\\begin{aligned} & \\left(\\frac{6-6}{3}, \\frac{8-8}{3}\\right) \\\\ & =(0,0)\\end{aligned}$<img src=\"assets\\st0032_762fb6593ecf.png\"><br />$\\begin{aligned} & a x+b y-1=0 \\\\ & \\left(\\frac{1-0}{-1-0}\\right)\\left(\\frac{-a}{b}\\right)=-1 \\\\ & \\Rightarrow-\\mathrm{a}=\\mathrm{b} \\\\ & \\Rightarrow \\quad \\mathrm{ax}-\\mathrm{ay}-1=0 \\\\ & a x-a\\left(1-\\frac{2 x}{3}\\right)-1 \\\\ & x\\left(a+\\frac{2 a}{3}\\right)=\\frac{a}{3} \\\\ & \\mathrm{x}=\\frac{\\mathrm{a}+3}{5 \\mathrm{a}} \\\\ & 2\\left(\\frac{a+3}{5 a}\\right)+3 y-1=0 \\\\ & y=\\frac{1-\\frac{2 a+6}{5 a}}{3}=\\frac{3 a-6}{3 \\times 5 a} \\\\ & y=\\frac{a-2}{5 a} \\\\ & \\frac{\\left(\\frac{a-2}{5 a}\\right)}{\\left(\\frac{a+3}{5 a}\\right)}=2 \\Rightarrow a-2=2 a+6 \\\\ & a=-8 \\\\ & \\mathrm{~b}=8 \\\\ & -8 \\mathrm{x}+8 \\mathrm{y}-1=0 \\\\ & |a-b|=16 \\\\ & \\end{aligned}$"
   }
 }

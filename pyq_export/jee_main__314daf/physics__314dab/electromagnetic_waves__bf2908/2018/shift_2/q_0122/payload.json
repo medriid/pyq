@@ -1,0 +1,43 @@
+{
+  "index": 122,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602433079526ff68bf2908",
+    "chapter_name": "Electromagnetic Waves",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "A plane polarized monochromatic EM wave is travelling a vacuum along $z$ direction such that at $\\mathrm{t}=\\mathrm{t}_1$ it is found that the electric field is zero at a spatial point $z_1$. The next zero that occurs in its neighbourhood is at $z_2$. The frequency of the electromagnetic wave is:"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{3 \\times 10^8}{\\left|z_2-z_1\\right|}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{6 \\times 10^8}{\\left|\\mathrm{z}_2-\\mathrm{z}_1\\right|}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1.5 \\times 10^8}{\\left|\\mathrm{z}_2-\\mathrm{z}_1\\right|}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{t_1+\\frac{\\left|z_2-z_1\\right|}{3 \\times 10_8}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Using $E=E_0-e^i(k z-\\omega t)$\nGiven, at $t=t_1, z=z_1, E=0$\nthe next zero that occurs in it's neighborhood is at $z_2$, the frequency of the electromagnetic wave at $t_2$\n$$\n\\begin{aligned}\n&e^{i\\left(k z_1-\\omega t_1\\right)}=e^{i\\left(k z_2-\\omega t_2\\right)} \\\\\n&k z_1-\\omega t_1=k z_2-\\omega t_2 \\\\\n&\\left(t_2-t_1\\right) \\omega=k\\left(z-z_1\\right) \\\\\n&\\text { where } k=\\frac{2 \\pi}{\\lambda}=2 \\pi v \\\\\n&\\left(t_2-t_1\\right)=\\frac{2 \\pi}{\\lambda \\times 2 \\pi v}\\left(z_2-z_1\\right)\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n&\\quad=\\frac{1}{x \\times v}\\left(z_2-z_1\\right) \\\\\n&\\Rightarrow \\lambda \\times v=\\frac{\\left(z_2-z_1\\right)}{\\left(t_2-t_1\\right)}=C \\\\\n&\\quad\\left(t_2-t_1\\right)=\\frac{\\left(z_2-z_1\\right)}{C} \\\\\n&\\text { Frequency is } f \\propto \\frac{1}{t} \\text { then } \\frac{1}{\\left(t_2-t_1\\right)}=\\frac{C}{\\left(z_2-z_1\\right)} \\\\\n&\\therefore \\text { Frequency, } f=\\frac{3 \\times 10^8}{\\left(z_2-z_1\\right)}\n\\end{aligned}\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 195,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2021 (25 Feb Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2021",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mo>&#8747;</mo><mrow><mo>-</mo><mn>1</mn></mrow><mn>1</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mfenced close=\"]\" open=\"[\"><msup><mi>x</mi><mn>3</mn></msup></mfenced></msup><mi>d</mi><mi>x</mi><mo>,</mo></math>&nbsp;where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"[\"><mi>t</mi></mfenced></math> denotes the greatest integer <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8804;</mo><mi>t</mi><mo>,</mo></math>&nbsp;is :"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>e</mi><mo>+</mo><mn>1</mn></mrow><mn>3</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>e</mi><mo>-</mo><mn>1</mn></mrow><mrow><mn>3</mn><mi>e</mi></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mn>3</mn><mi>e</mi></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>e</mi><mo>+</mo><mn>1</mn></mrow><mrow><mn>3</mn><mi>e</mi></mrow></mfrac></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><msubsup><mo>&#8747;</mo><mrow><mo>-</mo><mn>1</mn></mrow><mn>1</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mfenced close=\"]\" open=\"[\"><msup><mi>x</mi><mn>3</mn></msup></mfenced></msup><mi>d</mi><mi>x</mi></math><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mo>&#8747;</mo><mrow><mo>-</mo><mn>1</mn></mrow><mn>0</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mfenced close=\"]\" open=\"[\"><msup><mi>x</mi><mn>3</mn></msup></mfenced></msup><mi>d</mi><mi>x</mi><mo>+</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mfenced close=\"]\" open=\"[\"><msup><mi>x</mi><mn>3</mn></msup></mfenced></msup><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mo>&#8747;</mo><mrow><mo>-</mo><mn>1</mn></mrow><mn>0</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>d</mi><mi>x</mi><mo>+</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mn>0</mn></msup><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mi>e</mi></mfrac><mo>&#215;</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><msubsup><mfenced close=\"|\" open=\"|\"><mrow><mtable><mtr><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mo>-</mo><mn>1</mn></mtd></mtr></mtable><mo>+</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac></mrow></mfenced><mn>0</mn><mn>1</mn></msubsup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mi>e</mi></mfrac><mo>&#215;</mo><mfenced><mrow><mn>0</mn><mo>-</mo><mfenced><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mn>3</mn></mfrac></mfenced></mrow></mfenced><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mrow><mn>3</mn><mi>e</mi></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mo>+</mo><mi>e</mi></mrow><mrow><mn>3</mn><mi>e</mi></mrow></mfrac></math></p>"
+  }
+}

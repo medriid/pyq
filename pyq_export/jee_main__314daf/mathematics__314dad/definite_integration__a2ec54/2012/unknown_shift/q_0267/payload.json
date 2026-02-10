@@ -1,0 +1,43 @@
+{
+  "index": 267,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2012 (07 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\int_e^x t f(t) d t=\\sin x-x \\cos x-\\frac{x^2}{2}$, for all $x \\in R-\\{0\\}$, then the value of $f\\left(\\frac{\\pi}{6}\\right)$ is"
+  },
+  "options": [
+    {
+      "text": "\n1/2\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-1 / 2$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $\\int_e^x t f(t) d t=\\sin x-x \\cos x-\\frac{x^2}{2}$\nBy using Leibnitz rule, we get\n$$\n\\begin{aligned}\n& \\frac{d}{d x}\\left[\\int_e^x t f(t) d t\\right]=\\frac{d}{d x}\\left[\\sin x-x \\cos x-\\frac{x^2}{2}\\right] \\\\\n& \\Rightarrow x f(x)-e f(e) \\cdot 0=x \\sin x-x\n\\end{aligned}\n$$\nNow, put $x=\\frac{\\pi}{6}$, we get\n$$\n\\begin{aligned}\n& \\frac{\\pi}{6} \\cdot f\\left(\\frac{\\pi}{6}\\right)=\\frac{\\pi}{6} \\cdot \\sin \\frac{\\pi}{6}-\\frac{\\pi}{6} \\\\\n& \\Rightarrow f\\left(\\frac{\\pi}{6}\\right)=\\sin \\frac{\\pi}{6}-1=\\frac{1}{2}-1=-\\frac{1}{2}\n\\end{aligned}\n$$"
+  }
+}

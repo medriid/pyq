@@ -1,8 +1,8 @@
 {
   "index": 80,
-  "type": "numerical",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2021 (25 Feb Shift 1)",
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (17 Mar Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "A small bob tied at one end of a thin string of length <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></math> is describing a vertical circle so that the maximum and minimum tension in the string is in the ratio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>:</mo><mn>1</mn></math>. The velocity of the bob at the highest position is&nbsp;______&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>. (Take <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mo>=</mo><mn>10</mn><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></math>)"
+    "text": "<p>A modern grand-prix racing car of mass <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> is travelling on a flat track in a circular arc of radius <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> with a speed <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>.</mo></math>&nbsp;If the coefficient of static friction between the tyres and the track is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#956;</mi><mi mathvariant=\"normal\">s</mi></msub><mo>,</mo></math>&nbsp;then the magnitude of negative lift <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>F</mi><mi>L</mi></msub></math> acting downwards on the car is:</p><p><img src=\"assets\\qt0080_38571c4f0b21.png\" style=\"width: 92px; height: 188px;\" /></p>"
   },
-  "options": [],
-  "correct_answer": "5",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mfenced><mrow><mfrac><msup><mi>v</mi><mn>2</mn></msup><mrow><msub><mi>&#956;</mi><mi>s</mi></msub><mi>R</mi></mrow></mfrac><mo>+</mo><mi>g</mi></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mfenced><mrow><mfrac><msup><mi>v</mi><mn>2</mn></msup><mrow><msub><mi>&#956;</mi><mi>s</mi></msub><mi>R</mi></mrow></mfrac><mo>-</mo><mi>g</mi></mrow></mfenced></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mfenced><mrow><mi>g</mi><mo>-</mo><mfrac><msup><mi>v</mi><mn>2</mn></msup><mrow><msub><mi>&#956;</mi><mi>s</mi></msub><mi>R</mi></mrow></mfrac></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mi>m</mi><mfenced><mrow><mi>g</mi><mo>+</mo><mfrac><msup><mi>v</mi><mn>2</mn></msup><mrow><msub><mi>&#956;</mi><mi>s</mi></msub><mi>R</mi></mrow></mfrac></mrow></mfenced></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
   "solution": {
-    "text": "<blockquote><p>Let the speed of bob at lowest position be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>v</mi><mn>1</mn></msub></math> and at the highest position be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>v</mi><mn>2</mn></msub></math>.</p><p>Maximum tension is at lowest position and&nbsp;minimum tension is at the&nbsp;highest position.<br />Now, using, conservation of mechanical&nbsp;energy,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msubsup><mi>v</mi><mn>1</mn><mn>2</mn></msubsup><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup><mo>+</mo><mi>m</mi><mi>g</mi><mn>2</mn><mi>l</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><msubsup><mi>v</mi><mn>1</mn><mn>2</mn></msubsup><mo>=</mo><msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup><mo>+</mo><mn>4</mn><mo>&#160;</mo><mi>g</mi><mi>l</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mn>1</mn></mfenced></math></p><p>Now,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mi>max</mi></msub><mo>-</mo><mi>m</mi><mi>g</mi><mo>=</mo><mfrac><mrow><mi>m</mi><msubsup><mi>v</mi><mn>1</mn><mn>2</mn></msubsup></mrow><mi>l</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><msub><mi>T</mi><mi>max</mi></msub><mo>=</mo><mi>m</mi><mi>g</mi><mo>+</mo><mfrac><mrow><mi>m</mi><msubsup><mi>v</mi><mn>1</mn><mn>2</mn></msubsup></mrow><mi>l</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#38;</mo><mo>&#160;&#160;</mo><msub><mi>T</mi><mi>min</mi></msub><mo>+</mo><mi>m</mi><mi>g</mi><mo>=</mo><mfrac><mrow><mi>m</mi><msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup></mrow><mi>l</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><msub><mi>T</mi><mi>min</mi></msub><mo>=</mo><mfrac><mrow><mi>m</mi><msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup></mrow><mi>l</mi></mfrac><mo>-</mo><mi>m</mi><mi>g</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>T</mi><mi>max</mi></msub><msub><mi>T</mi><mi>min</mi></msub></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>1</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><mi>g</mi><mo>+</mo><mfrac><mrow><mi>m</mi><msubsup><mi>v</mi><mn>1</mn><mn>2</mn></msubsup></mrow><mi>l</mi></mfrac></mrow><mrow><mfrac><mrow><mi>m</mi><msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup></mrow><mi>l</mi></mfrac><mo>-</mo><mi>m</mi><mi>g</mi></mrow></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>1</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mi>m</mi><mi>g</mi><mo>+</mo><mfrac><mrow><mi>m</mi><msubsup><mi>v</mi><mn>1</mn><mn>2</mn></msubsup></mrow><mi>l</mi></mfrac><mo>=</mo><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mrow><mi>m</mi><msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup></mrow><mi>l</mi></mfrac><mo>-</mo><mi>m</mi><mi>g</mi></mrow></mfenced><mn>5</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mi>m</mi><mi>g</mi><mo>+</mo><mfrac><mi>m</mi><mi>l</mi></mfrac><mfenced close=\"]\" open=\"[\"><mrow><msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup><mo>+</mo><mn>4</mn><mo>&#160;</mo><mi>g</mi><mi>l</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mn>5</mn><mi>m</mi><msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup></mrow><mi>l</mi></mfrac><mo>-</mo><mn>5</mn><mi>m</mi><mi>g</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mi>m</mi><mi>g</mi><mo>+</mo><mfrac><mrow><mi>m</mi><msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup></mrow><mi>l</mi></mfrac><mo>+</mo><mn>4</mn><mi>m</mi><mi>g</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mi>m</mi><msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup></mrow><mi>l</mi></mfrac><mo>-</mo><mn>5</mn><mi>m</mi><mi>g</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mn>10</mn><mo>&#160;</mo><mi>m</mi><mi>g</mi><mo>=</mo><mfrac><mrow><mn>4</mn><mi>m</mi><msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup></mrow><mi>l</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>v</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><mn>10</mn><mo>&#215;</mo><mn>10</mn><mo>&#215;</mo><mn>1</mn></mrow><mn>4</mn></mfrac></math></p><p>Thus, the velocity of the bob at the highest position is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>.</mo></math></p><p><img src=\"assets\\st0080_9c9de2844b47.png\" style=\"width: 166px; height: 223px;\" /></p></blockquote>"
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#956;</mi><mi>s</mi></msub><mi>N</mi><mo>=</mo><mfrac><mrow><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><mi>R</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi><mo>=</mo><mfrac><mrow><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><mrow><msub><mi>&#956;</mi><mi>s</mi></msub><mi>R</mi></mrow></mfrac><mo>=</mo><mi>m</mi><mi>g</mi><mo>+</mo><msub><mi>F</mi><mi>L</mi></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>F</mi><mi>L</mi></msub><mo>=</mo><mfrac><mrow><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><mrow><msub><mi>&#956;</mi><mi>s</mi></msub><mi>R</mi></mrow></mfrac><mo>-</mo><mi>m</mi><mi>g</mi></math></p>"
   }
 }

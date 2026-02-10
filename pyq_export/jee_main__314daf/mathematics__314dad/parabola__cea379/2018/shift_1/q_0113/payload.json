@@ -1,0 +1,43 @@
+{
+  "index": 113,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 1 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253ddc06c73016cea379",
+    "chapter_name": "Parabola",
+    "year": "2018",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Two parabolas with a common vertex and with axes along $x$-axis and $y$-axis, respectively, intersect each other in the first quadrant. if the length of the latus rectum of each parabola is 3 , then the equation of the common tangent to the two parabolas is?"
+  },
+  "options": [
+    {
+      "text": "\n$3(x+y)+4=0$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$8(2 x+y)+3=0$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$4(x+y)+3=0$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n $x+2 y+3=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "As origin is the only common point to $x-$ axis and $y$-axis, so, origin is the common vertex Let the equation of two of parabolas be $y^2=4 a x$ and $x^2=4 b y$\nNow latus rectum of both parabolas $=3$\n$$\n\\begin{aligned}\n&\\therefore 4 a=4 b=3 \\\\\n&\\Rightarrow a=b=\\frac{3}{4}\n\\end{aligned}\n$$\n$\\therefore$ Two parabolas are $y^2=3 x$ and $x^2=3 y$ Suppose $y=m x+c$ is the common tangent.\n$$\n\\begin{aligned}\n&\\therefore y^2=3 x \\Rightarrow(m x+c)^2=3 x \\\\\n&\\Rightarrow m^2 x^2+(2 m c-3) x+c^2=0\n\\end{aligned}\n$$\nAs, the tangent touches at one point only\nSo, $b^2-4 a c=0$\n$$\n\\begin{aligned}\n&\\Rightarrow(2 m c-3)^2-4 m^2 c^2=0 \\\\\n&\\Rightarrow 4 m^2 c^2+9-12 m c-4 m^2 c^2=0\n\\end{aligned}\n$$\n$$\n\\begin{aligned}\n&\\Rightarrow c=\\frac{9}{12 m}=\\frac{3}{4 m} \\\\\n&\\therefore x^2=3 y \\Rightarrow x^2=3(m x+c) \\\\\n&\\Rightarrow x^2-3 m x-3 c=0\n\\end{aligned}\n$$\nForm (i) and ( ii)\n$$\n\\begin{aligned}\n&m^2=\\frac{-4 c}{3}=\\frac{-4}{3}\\left(\\frac{3}{4 m}\\right) \\\\\n&\\Rightarrow m^3=-1 \\Rightarrow m=-1 \\Rightarrow c=\\frac{-3}{4}\n\\end{aligned}\n$$\nHence, $y=m x+c=-x-\\frac{3}{4}$\n$$\n\\Rightarrow 4(x+y)+3=0\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7455ca3b13e5b648ea",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The shortest distance between the lines $\\mathrm{x}=\\mathrm{y}+$ $2=6 z-6$ and $x+1=2 y=-12 z$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "<br />2",
+      "is_correct": true
+    },
+    {
+      "text": "<br />1",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{3}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "The lines are $\\frac{x}{6}=\\frac{y+2}{6}=\\frac{z-1}{1}$<br />and $\\frac{x+1}{12}=\\frac{y}{6}=\\frac{z}{-1}$<br />Here,<br />$\\begin{aligned}<br />& \\vec{a}_1=-2 \\hat{j}+\\hat{k}, b_1+6 \\hat{i}+6 \\hat{j}+\\hat{k}, \\vec{a}_2=-\\hat{i}, \\\\<br />& \\vec{b}_2=12 \\hat{i}+6 \\hat{j}-\\hat{k} \\\\<br />& \\vec{b}_1 \\times \\vec{b}_2=\\left|\\begin{array}{ccc}<br />\\hat{i} & \\hat{j} & k \\\\<br />6 & 6 & 1 \\\\<br />12 & 6 & -1<br />\\end{array}\\right|=-12 \\hat{i}+18 \\hat{j}-36 \\hat{k} \\\\<br />& \\text { Shortest distance }=\\frac{\\left|\\left(\\vec{a}_2-\\vec{a}_1\\right) \\cdot\\left(\\vec{b}_1-\\vec{b}_2\\right)\\right|}{\\left|\\vec{b}_1 \\times \\vec{b}_2\\right|}<br />\\end{aligned}$<br />$\\begin{aligned} & =\\frac{|(-\\hat{i}+2 \\hat{j}-\\hat{k}) \\cdot(-12 i+18 \\hat{j}-36 \\hat{k})|}{\\sqrt{(-12)^2+(18)^2+(-36)^2}} \\\\ & =\\frac{|+12+36+36|}{\\sqrt{1764}}=\\frac{84}{42}=2\\end{aligned}$"
+  }
+}

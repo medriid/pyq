@@ -14,30 +14,30 @@
     "shift": "unknown_shift"
   },
   "question": {
-    "text": "Area of the greatest rectangle that can be inscribed in the ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ is"
+    "text": "A spherical iron ball $10 \\mathrm{~cm}$ in radius is coated with a layer of ice of uniform thickness than melts at a rate of $50 \\mathrm{~cm}^3 / \\mathrm{min}$. When the thickness of ice is $5 \\mathrm{~cm}$, then the rate at which the thickness of ice decreases, is"
   },
   "options": [
     {
-      "text": "\n$2 a b$\n",
+      "text": "\n$\\frac{1}{36 \\pi} \\mathrm{cm} / \\mathrm{min}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{18 \\pi} \\mathrm{cm} / \\mathrm{min}$\n",
       "is_correct": true
     },
     {
-      "text": "\n$a b$\n",
+      "text": "\n$\\frac{1}{54 \\pi} \\mathrm{cm} / \\mathrm{min}$\n",
       "is_correct": false
     },
     {
-      "text": "\n$3a b$\n",
-      "is_correct": false
-    },
-    {
-      "text": "\n$\\frac{a}{b}$",
+      "text": "\n$\\frac{5}{6 \\pi} \\mathrm{cm} / \\min$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "A"
+    "B"
   ],
   "solution": {
-    "text": "<img src=\"assets\\st0262_43940d9285c8.png\"><br>\nArea of rectangle $A B C D=(2 a\\cos \\theta)$\n$(2 b \\sin \\theta)=2 a b \\sin 2 \\theta$\n$\\Rightarrow$ Area of greatest rectangle is equal to\n$2 a b$\nwhen $\\sin 2 \\theta=1$."
+    "text": "$$\n\\begin{aligned}\n& \\frac{d v}{d t}=50 \\\\\n& 4 \\pi r^2 \\frac{d r}{d t}=50 \\\\\n& \\Rightarrow \\frac{d r}{d t}=\\frac{50}{4 \\pi(15)^2} \\quad \\text { where } r=15 \\\\\n& =\\frac{1}{16 \\pi}\n\\end{aligned}\n$$"
   }
 }

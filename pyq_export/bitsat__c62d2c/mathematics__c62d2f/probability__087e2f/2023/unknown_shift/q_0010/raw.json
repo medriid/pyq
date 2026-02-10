@@ -1,0 +1,63 @@
+{
+  "_id": "65b7b87897ae24e9e2db8caa",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "65b7b85fb3be70ed63adbe84",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2023-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Memory Based Paper 1)",
+      "title": "BITSAT 2023 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Bag $P$ contains 6 red and 4 blue balls and bag $Q$ contains 5 red and 6 blue balls. A ball is transferred from bag $P$ to bag $Q$ and then a ball is drawn from bag $Q$. What is the probability that the ball drawn is blue?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "ijFNW",
+      "text": "$\\frac{7}{15}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Tp3I7",
+      "text": "$\\frac{8}{15}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "8WTgB",
+      "text": "$\\frac{4}{19}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "iqakS",
+      "text": "$\\frac{8}{19}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $E_1, E_2$ and $A$ be the events defined as follows:<br />$\\mathrm{E}_1=$ red ball is transferred from bag $\\mathrm{P}$ to bag $\\mathrm{Q}$<br />$\\mathrm{E}_2=$ blue ball is transferred from bag $\\mathrm{P}$ to bag $\\mathrm{Q}$<br />$\\mathrm{A}=$ the ball drawn from bag $\\mathrm{Q}$ is blue<br />As the bag $\\mathrm{P}$ contains 6 red and 4 blue balls,<br />$P\\left(E_1\\right)=\\frac{6}{10}=\\frac{3}{5} \\text { and } P\\left(E_2\\right)=\\frac{4}{10}=\\frac{2}{5}$<br />Note that $E_1$ and $E_2$ are mutually exclusive and exhaustive events.<br />When $E_1$ has occurred i.e., a red ball has already been transferred from bag $P$ to $Q$, then bag $Q$ will contain 6 red and 6 blue balls, So, $P\\left(A \\mid E_1\\right)=$$\\frac{6}{12}=\\frac{1}{2}$<br />When $E_2$ has occurred i.e., a blue ball has already been transferred from bag $P$ to $Q$, then bag $Q$ will contain 5 red and 7 blue balls, So, $P\\left(A \\mid E_2\\right)=$$\\frac{7}{12}$<br />By using law of total probability, we get<br />$P(A)=P\\left(E_1\\right) P\\left(A \\mid E_1\\right)+P\\left(E_2\\right) P\\left(A \\mid E_2\\right)$<br />$=\\frac{3}{5} \\times \\frac{1}{2}+\\frac{2}{5} \\times \\frac{7}{12}=\\frac{8}{15}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "65b7b85fb3be70ed63adbe84",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2023-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Memory Based Paper 1)",
+    "title": "BITSAT 2023 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d656d2",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2005-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2005",
+      "title": "JEE Main 2005"
+    }
+  ],
+  "question": {
+    "text": "If the coefficient of $x^7$ in $\\left[a x^2+\\left(\\frac{1}{b x}\\right)\\right]^{11}$ equals the coefficient of $x^{-7}$ in $\\left[a x^2-\\left(\\frac{1}{b x}\\right)\\right]^{11}$, then $a$ and $b$ satisfy the relation",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "sI9mU",
+      "text": "\n$a-b=1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "IWMEH",
+      "text": "\n$a+b=1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "4ZDqt",
+      "text": "\n$\\frac{a}{b}=1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "dtSj9",
+      "text": "\n$a b=1$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& T_{r+1} \\text { in the expansion }\\left[a x^2+\\frac{1}{b x}\\right]^{11}={ }^{11} C_r\\left(a x^2\\right)^{11-r}\\left(\\frac{1}{b x}\\right)^r \\\\\n& ={ }^{11} C_r(a)^{11-r}(b)^{-r}(x)^{22-2 r-r} \\\\\n& \\Rightarrow 22-3 r=7 \\Rightarrow r=5 \\\\\n& \\therefore \\text { coefficient of } x^7={ }^{11} C_5(a)^6(b)^{-5} ....(i)\n\\end{aligned}\n$$\nAgain $T_{r+1}$ in the expansion $\\left[a x-\\frac{1}{b x^2}\\right]^{11}={ }^{11} C_r(a x)^{11-r}\\left(-\\frac{1}{b x^2}\\right)^r$ $={ }^{11} \\mathrm{C}_{\\mathrm{r}} \\mathrm{a}^{11-\\mathrm{r}}(-1)^{\\mathrm{r}} \\times(\\mathrm{b})^{-\\mathrm{r}}(\\mathrm{x})^{-2 \\mathrm{r}}(\\mathrm{x})^{11-\\mathrm{r}}$\nNow $11-3 r=-7 \\Rightarrow 3 r=18 \\Rightarrow r=6$\n$$\n\\begin{aligned}\n& \\therefore \\text { coefficient of } x^{-7}={ }^{11} C_6 a^5 \\times 1 \\times(b)-6 \\\\\n& \\Rightarrow{ }^{11} C_5(a)^6(b)^{-5}={ }^{11} C_6 a^5 \\times(b)^{-6} \\\\\n& \\Rightarrow a b=1\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2005-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2005",
+    "title": "JEE Main 2005"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

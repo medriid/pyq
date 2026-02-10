@@ -1,0 +1,43 @@
+{
+  "index": 138,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (Offline)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider the function $f(x)=|x-2|+|x-5|, x \\in R$.\nStatement $1$: $f^{\\prime}(4)=0$\nStatement $2$: $f$ is continuous in $[2,5]$, differentiable in $(2,5)$ and $f(2)=f(5)$."
+  },
+  "options": [
+    {
+      "text": "\nStatement $1$ is false, statement $2$ is true\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $1$ is true, statement $2$ is true; statement $2$ is a correct explanation for statement $1$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nStatement $1$ is true, statement $2$ is true; statement $2$ is not a correct explanation for statement $1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $1$ is true, statement $2$ is false",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$f(x) =7-2 x ; x < 2$ \n$=3$ ; $\\quad2 \\leq x \\leq 5$ \n$=2 x-7 ; x>5$\n$f(x)$ is constant function in $[2,5]$\n$f$ is continuous in $[2,5]$ and differentiable in $(2,5)$ and $f(2)=f(5)$\nby Rolle's theorem $f^{\\prime}(4)=0$\n$\\therefore$ Statement $2$ and statement $1$ both are true and statement $2$ is correct explanation for statement $1$."
+  }
+}

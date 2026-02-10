@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7089278b42ebda9c0a",
+    "chapter_name": "Alternating Current",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A direct current of $5 \\mathrm{~A}$ is superposed on an alternating current $I=10 \\sin \\omega t$ flowing through the wire. The effective value of the resulting current will be"
+  },
+  "options": [
+    {
+      "text": "$(15 / 2) \\mathrm{A}$",
+      "is_correct": false
+    },
+    {
+      "text": "$5 \\sqrt{3} \\mathrm{~A}$",
+      "is_correct": true
+    },
+    {
+      "text": "$5 \\sqrt{5} \\mathrm{~A}$",
+      "is_correct": false
+    },
+    {
+      "text": "$15 \\mathrm{~A}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Total carrent, $1=(5+10 \\sin \\omega \\mathrm{t})$\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n\\Rightarrow I_{\\text {eff }} &=\\left[\\frac{\\int_{0}^{\\mathrm{T}} \\mathrm{I}^{2} \\mathrm{dt}}{\\int_{0}^{\\mathrm{T}} \\mathrm{dt}}\\right]^{1 / 2} \\\\\r\n\r\n&=\\left[\\frac{1}{\\mathrm{~T}} \\int_{0}^{\\mathrm{T}}(5+10 \\sin \\omega \\mathrm{t})^{2} \\mathrm{dt}\\right]^{1 / 2} \\\\\r\n\r\n&=\\left[\\frac{1}{\\mathrm{~T}} \\int_{0}^{\\mathrm{T}}\\left(25+100 \\sin \\omega \\mathrm{t}+100 \\sin ^{2} \\omega \\mathrm{t}\\right)\\right]^{1 / 2} \\\\\r\n\r\n\\text { But, } \\quad \\frac{1}{\\mathrm{~T}} \\int_{0}^{\\mathrm{T}} \\sin \\omega \\mathrm{t} \\mathrm{dt}=0\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\nand\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\frac{1}{\\mathrm{~T}} \\int_{0}^{\\mathrm{T}} \\sin ^{2} \\omega \\mathrm{t} \\mathrm{dt}=\\frac{1}{2} \\\\\r\n\r\n\\text { So, } \\mathrm{I}_{\\mathrm{eff}}=\\left[25+\\frac{1}{2} \\times 100\\right]^{1 / 2}=5 \\sqrt{3} \\mathrm{~A}\r\n\r\n\\end{array}\r\n\r\n$$"
+  }
+}

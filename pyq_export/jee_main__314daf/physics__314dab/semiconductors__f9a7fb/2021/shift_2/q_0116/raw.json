@@ -1,32 +1,57 @@
 {
-  "_id": "648b5a69417cc3fb48d67041",
+  "_id": "648b5a6b417cc3fb48d6762f",
   "previousYearPapers": [
     {
-      "_id": "615d92edde3d91842a5cf813",
+      "_id": "615d92edde3d91842a5cf81a",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2021-03-18T14:00:00.000Z",
+      "heldOn": "2021-07-27T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2021 (18 Mar Shift 2)",
-      "title": "JEE Main 2021 (18 Mar Shift 2)"
+      "shortName": "2021 (27 Jul Shift 2)",
+      "title": "JEE Main 2021 (27 Jul Shift 2)"
     }
   ],
-  "type": "numerical",
-  "level": 2,
+  "type": "singleCorrect",
+  "level": 1,
   "question": {
-    "text": "<p>The typical output characteristics curve for a transistor working in the common-emitter configuration is shown in the figure.</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/df693285-33b5-4dad-a48e-1b30aedcdc86-image.png\" style=\"width: 344px; height: 225px;\" /></p><p>The estimated current gain from the figure is</p>",
+    "text": "<p>Find the truth table for the function <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> represented in the following figure.</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/190e084c-51f1-4d30-868d-df24684b9f27-image.png\" style=\"width: 359px; height: 130px;\" /></p>",
     "image": null
   },
-  "options": [],
-  "correctValue": "200",
+  "options": [
+    {
+      "id": "PxTN0",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable rowlines=\"solid none none none\" columnlines=\"solid\" frame=\"solid\"><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "jaM10",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable rowlines=\"solid none none none\" columnlines=\"solid\" frame=\"solid\"><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "2dxuz",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable rowlines=\"solid none none none\" columnlines=\"solid\" frame=\"solid\"><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "QDHTH",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable rowlines=\"solid none none none\" columnlines=\"solid\" frame=\"solid\"><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></math>",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#946;</mi><mo>=</mo><mfrac><mrow><mi>&#916;</mi><msub><mi>I</mi><mi>C</mi></msub></mrow><mrow><mi>&#916;</mi><msub><mi>I</mi><mi>B</mi></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><mrow><mn>10</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup></mrow></mfrac></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#946;</mi><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#946;</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mn>2</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#946;</mi><mo>=</mo><mn>200</mn></math></p>",
+    "text": "<p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/2c3674b7-ca05-4aec-8631-7462ebbdce3d-image.png\" style=\"width: 365px; height: 147px;\" /></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><mi>A</mi><mo mathvariant=\"italic\">&#183;</mo><mi>B</mi><mo>+</mo><mover><mi>B</mi><mo>&#175;</mo></mover></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnlines=\"solid\" frame=\"solid\" rowlines=\"solid none none none\"><mtr><mtd><mo mathvariant=\"italic\">&#160;</mo><mi>A</mi><mo>&#160;</mo></mtd><mtd><mo mathvariant=\"italic\">&#160;</mo><mi>B</mi><mo>&#160;</mo></mtd><mtd><mo>&#160;</mo><mi>Y</mi><mo>&#160;</mo></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></math></p>",
     "image": null
   },
   "videoSolution": {
-    "videoId": "7ee2a89c693249758468d4696f854675",
+    "videoId": "ce5e37d967714c36990ef079dcfa0410",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/p3YeqU0xejC9u.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/p3YeqU0xejC9u.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/JYW5dmbadCxkp.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/JYW5dmbadCxkp.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6628114842d540dfcb148ecb",
@@ -44,14 +69,14 @@
     "description": "JEE Main"
   },
   "questionLabels": [],
-  "syllabusCategory": "outOfSyllabus",
+  "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "615d92edde3d91842a5cf813",
+    "_id": "615d92edde3d91842a5cf81a",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2021-03-18T14:00:00.000Z",
+    "heldOn": "2021-07-27T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2021 (18 Mar Shift 2)",
-    "title": "JEE Main 2021 (18 Mar Shift 2)"
+    "shortName": "2021 (27 Jul Shift 2)",
+    "title": "JEE Main 2021 (27 Jul Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

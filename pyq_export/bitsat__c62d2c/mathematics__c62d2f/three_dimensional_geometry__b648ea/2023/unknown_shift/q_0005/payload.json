@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7455ca3b13e5b648ea",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the straight lines $\\frac{x-1}{k}=\\frac{y-2}{2}=\\frac{z-3}{3}$ and $\\frac{x-2}{3}=\\frac{y-3}{k}=\\frac{z-1}{2}$ intersect at a point, then the integer $\\mathrm{k}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "<br />-5",
+      "is_correct": true
+    },
+    {
+      "text": "<br />5",
+      "is_correct": false
+    },
+    {
+      "text": "<br />2",
+      "is_correct": false
+    },
+    {
+      "text": "<br />-2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "When the two lines intersect then shortes distance between them is zero i.e.<br />$\\begin{aligned}<br />& \\frac{\\left(\\vec{a}_2-\\vec{a}_1\\right) \\cdot \\vec{b}_1 \\times \\vec{b}_2}{\\left|\\vec{b}_1 \\times \\vec{b}_2\\right|}=0 \\\\<br />& \\Rightarrow\\left(\\vec{a}_2-\\vec{a}_1\\right) \\cdot \\vec{b}_1 \\times \\vec{b}_2=0<br />\\end{aligned}$<br />where $\\vec{a}_1=\\hat{i}+2 \\hat{j}+3 \\hat{k}, \\vec{b}_1=k \\hat{i}+2 \\hat{j}+3 \\hat{k}$<br />$\\begin{aligned}<br />& \\vec{a}_2=2 \\hat{i}+3 \\hat{j}+\\hat{k}, \\hat{b}_2=3 \\hat{i}+k \\hat{j}+2 \\hat{k} \\\\<br />& \\Rightarrow\\left|\\begin{array}{ccc}<br />1 & 1 & -2 \\\\<br />k & 2 & 3 \\\\<br />3 & k & 2<br />\\end{array}\\right|=0 \\\\<br />& \\Rightarrow \\quad 1(4-3 k)-1(2 k-9)-2\\left(k^2-6\\right)=0 \\\\<br />& \\Rightarrow \\quad-2 k^2-5 k+25=0 \\Rightarrow k=-5 \\text { or } \\frac{5}{2}<br />\\end{aligned}$"
+  }
+}

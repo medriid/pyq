@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let the system of equations :<br/>$\\begin{aligned}<br/>& 2 x+3 y+5 z=9 \\\\\n& 7 x+3 y-2 z=8 \\\\\n& 12 x+3 y-(4+\\lambda) z=16-\\mu<br/>\\end{aligned}$<br/>have infinitely many solutions. Then the radius of the circle centred at $(\\lambda, \\mu)$ and touching the line $4 x=3 y$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{17}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{7}{5}$",
+      "is_correct": true
+    },
+    {
+      "text": "7",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{21}{5}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\left|\\begin{array}{ccc}2 & 3 & 5 \\\\ 7 & 3 & -2 \\\\ 12 & 3 & -(\\lambda+4)\\end{array}\\right|=0 \\\\ & \\Rightarrow 12(-21)-3(-39)-(\\lambda+4)(-15)=0 \\\\ & \\Rightarrow-252+117+15(1+4)=0 \\\\ & \\Rightarrow 15 \\lambda+177-252=0 \\\\ & \\Rightarrow 15 \\lambda-75=0 \\Rightarrow \\lambda=5 \\\\ & \\left|\\begin{array}{ccc}9 & 3 & 5 \\\\ 8 & 3 & -2 \\\\ 16-\\mu & 3 & -9\\end{array}\\right|=0 \\Rightarrow\\left|\\begin{array}{ccc}1 & 0 & 7 \\\\ \\mu-8 & 0 & 7 \\\\ 16-\\mu & 3 & -9\\end{array}\\right|=0 \\\\ & \\Rightarrow 7-7(\\mu-8)=0 \\Rightarrow 1-(\\mu-8)=0 \\Rightarrow \\mu=9 \\\\ & \\Rightarrow \\text { centre of circle }(5,9) \\\\ & \\text { radius }=\\text { length of } \\perp \\text { from centre }(5, \\quad 9)= \\\\ & \\left|\\frac{20-27}{5}\\right|=\\frac{7}{5}\\end{aligned}$"
+  }
+}

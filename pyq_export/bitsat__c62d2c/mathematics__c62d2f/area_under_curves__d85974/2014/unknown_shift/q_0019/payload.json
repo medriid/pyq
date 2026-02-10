@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2014",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd837f780b3c67d85974",
+    "chapter_name": "Area Under Curves",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area bounded by the $x$ -axis, the curve $y=f(x)$ and the lines $\\mathrm{x}=1, \\mathrm{x}=\\mathrm{b},$ is equal to $\\sqrt{\\mathrm{b}^{2}+1}-\\sqrt{2}$\r\n\r\nfor all $b>1,$ then $f(x)$ is"
+  },
+  "options": [
+    {
+      "text": "$\\sqrt{x-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{x+1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{x^{2}+1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{x}{\\sqrt{1+x^{2}}}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given $\\int_{1}^{\\mathrm{b}} \\mathrm{f}(\\mathrm{x}) \\mathrm{dx}=\\sqrt{\\mathrm{b}^{2}+1}-\\sqrt{2}$\r\n\r\nDifferentiate with respect to $\\mathrm{b}$\r\n\r\n$$\r\n\r\nf(b)=\\frac{b}{\\sqrt{b^{2}+1}} \\Rightarrow f(x)=\\frac{x}{\\sqrt{x^{2}+1}}\r\n\r\n$$"
+  }
+}

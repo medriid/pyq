@@ -1,0 +1,43 @@
+{
+  "index": 253,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the coefficients of $r$ th, $(r+1)$ th and $(r+2)$ th terms in the binomial expansion of $(1+$ $y)^m$ are in A.P., then $m$ and $r$ satisfy the equation"
+  },
+  "options": [
+    {
+      "text": "\n$m^2-m(4 r-1)+4 r^2-2=0$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$m^2-m(4 r+1)+4 r^2+2=0$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$m^2-m(4 r+1)+4 r^2-2=0$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$m^2-m(4 r-1)+4 r^2+2=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given ${ }^m C,{ }^m C,{ }^m C_{r+1}$ are in A.P.\n$$\n\\begin{aligned}\n& 2{ }^m C_r={ }^m C_{r-1}+{ }^m C_{r+1} \\\\\n& \\Rightarrow 2=\\frac{{ }^m C_{r-1}}{{ }^m C_r}+\\frac{{ }^m C_{r+1}}{{ }^m C_r} \\\\\n& =\\frac{r}{m-r+1}+\\frac{m-r}{r+1} \\\\\n& \\Rightarrow m^2-m(4 r+1)+4 r^2-2=0\n\\end{aligned}\n$$"
+  }
+}

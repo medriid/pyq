@@ -1,8 +1,8 @@
 {
   "index": 5,
-  "type": "numerical",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Two planets, $A$ and $B$ are orbiting a common star in circular orbits of radii $R_A$ and $R_B$, respectively, with $R_B=2 R_A$. The planet $B$ is $4 \\sqrt{2}$ times more massive than planet $A$. The ratio $\\left(\\frac{L_B}{L_A}\\right)$ of angular momentum $\\left(L_B\\right)$ of planet $B$ to that of planet $A\\left(L_A\\right)$ is closest to integer ________."
+    "text": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R).<br/>Assertion (A) : The radius vector from the Sun to a planet sweeps out equal areas in equal intervals of time and thus areal velocity of planet is constant.<br/>Reason (R) : For a central force field the angular momentum is a constant.<br/>In the light of the above statements, choose the most appropriate answer from the options given below :"
   },
-  "options": [],
-  "correct_answer": "8",
+  "options": [
+    {
+      "text": "Both $(\\mathrm{A})$ and $(\\mathrm{R})$ are correct and $(\\mathrm{R})$ is the correct explanation of $\\mathrm{( A)}$",
+      "is_correct": true
+    },
+    {
+      "text": "Both $(\\mathrm{A})$ and $(\\mathrm{R})$ are correct but $(\\mathrm{R})$ is not the correct explanation of (A)",
+      "is_correct": false
+    },
+    {
+      "text": "(A) is correct but $(\\mathrm{R})$ is not correct",
+      "is_correct": false
+    },
+    {
+      "text": "(A) is not correct but (R) is correct",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
   "solution": {
-    "text": "$\\mathrm{L}=\\mathrm{mv}_0 \\mathrm{R}=\\mathrm{m} \\sqrt{\\frac{\\mathrm{GM}}{\\mathrm{R}}} \\mathrm{R}=\\mathrm{m} \\sqrt{\\mathrm{GMR}}$\nhere M is mass of star\n$\\begin{aligned}\n& \\frac{\\mathrm{L}_{\\mathrm{B}}}{\\mathrm{~L}_{\\mathrm{A}}}=\\frac{\\mathrm{m}_{\\mathrm{B}}}{\\mathrm{~m}_{\\mathrm{A}}} \\sqrt{\\frac{\\mathrm{R}_{\\mathrm{B}}}{\\mathrm{R}_{\\mathrm{A}}}} \\\\\n& =4 \\sqrt{2} \\sqrt{\\frac{2}{1}} \\\\\n& \\frac{\\mathrm{~L}_{\\mathrm{B}}}{\\mathrm{~L}_{\\mathrm{A}}}=8\n\\end{aligned}$"
+    "text": "$\\frac{\\mathrm{dA}}{\\mathrm{dt}}=\\frac{\\mathrm{L}}{2 \\mathrm{~m}}$<br/>Due to central force torque is zero $\\&$ angular momentum is constant."
   }
 }

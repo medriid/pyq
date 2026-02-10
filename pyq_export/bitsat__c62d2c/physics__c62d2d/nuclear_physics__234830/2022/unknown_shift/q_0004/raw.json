@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e82e6f5bfc7ab78aeb4c",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44d",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2022-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022",
+      "title": "BITSAT 2022"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "In a radioactive material the activity at time $t_1$, is $A_1$ and at a later time $t_2$, it is $A_2$. If the decay constant of the material is $\\lambda$, then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Y8xBk",
+      "text": "\r\n$A_1=A_2 e^{-\\lambda\\left(t_1-t_2\\right)}$\r\n",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "sFd8y",
+      "text": "\r\n$A_1=A_2 e^{\\lambda\\left(t_1-t_2\\right)}$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "DNf3F",
+      "text": "\r\n$A_1=A_2\\left(t_2 / t_1\\right)$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "cuMFv",
+      "text": "\r\n$A_1=A_2$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "From radioactive decay law,\r\n$$\r\n-\\frac{d N}{d t} \\propto N \\text { or }-\\frac{d N}{d t}=\\lambda N\r\n$$\r\nThus,\r\n$$\r\nA=-\\frac{d N}{d t} \\text { or } A=\\lambda N\r\n$$\r\n$$\r\n\\Rightarrow \\quad A=\\lambda N_0 e^{-\\lambda t}\r\n$$\r\nWhere, $A_0=\\lambda N_0$ is the activity of the radioactive material at time, $t=0$\r\nAt time, $t_1 \\quad A_1=A_0 e^{-\\lambda t_1}$\r\nAt time, $t_2 \\quad A_2=A_0 e^{-\\lambda t_2}$\r\nOn dividing Eq. (ii) by Eq. (iii), we have\r\n$$\r\n\\begin{aligned}\r\n\\quad \\frac{A_1}{A_2} & =\\frac{e^{-\\lambda t_1}}{e^{-\\lambda t_2}}=e^{-\\lambda\\left(t_1-t_2\\right)} \\\\\r\n\\Rightarrow \\quad \\quad A_1 & =A_2 e^{-\\lambda\\left(t_1-t_2\\right)}\r\n\\end{aligned}\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44d",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2022-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022",
+    "title": "BITSAT 2022"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

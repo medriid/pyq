@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e07",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d8",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (11 Apr Online)",
+      "title": "JEE Main 2014 (11 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "The coefficient of $x^{50}$ in the binomial expansion of $(1+x)^{1000}+x(1+x)^{999}+x^2(1+x)^{998}+\\ldots$ $+x^{1000}$ is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "VeABZ",
+      "text": "\n$\\frac{(1000) !}{(50)(! 95 \\varphi !}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "6OP32",
+      "text": "\n$\\frac{(1000) !}{(49)(! 95) !}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "EPBWU",
+      "text": "\n$\\frac{(1001) !}{(51)(! 95 \\phi !}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "sipuS",
+      "text": "\n$\\frac{(1001) !}{(50)(! 95) !}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let given expansion be\n$$\n\\begin{aligned}\n&\\mathrm{S}=(1+x)^{1000}+x(1+x)^{999}+x^2 \\\\\n&(1+x)^{998}+\\ldots+\\ldots+x^{1000}\n\\end{aligned}\n$$\nPut $1+x=t$\n$$\n\\mathrm{S}=t^{1000}+x t^{999}+x^2(t)^{998}+\\ldots+x^{1000}\n$$\nThis is a G.P with common ratio $\\frac{x}{t}$\n$$\n\\begin{aligned}\n\\mathrm{S} &=\\frac{t^{1000}\\left[1-\\left(\\frac{x}{t}\\right)^{1001}\\right]}{1-\\frac{x}{t}} \\\\\n&=\\frac{(1+x)^{1000}\\left[1-\\left(\\frac{x}{1+x}\\right)^{1001}\\right]}{1-\\frac{x}{1+x}} \\\\\n=& \\frac{(1+x)^{1001}\\left[(1+x)^{1001}-x^{1001}\\right]}{(1+x)^{1001}}\n\\end{aligned}\n$$\n\n$$\n=\\left[(1+x)^{1001}-x^{1001}\\right]\n$$\nNow coeff of $x^{50}$ in above expansion is equal to coeff of $x^{50}$ in $(1+x)^{1001}$ which is ${ }^{1001} C_{50}=\\frac{(1001) !}{50 !(951) !}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d8",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (11 Apr Online)",
+    "title": "JEE Main 2014 (11 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2017",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd839e4041267a866788",
+    "chapter_name": "Differential Equations",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The solution of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mi>cos</mi><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced><mo>+</mo><mi>sin</mi><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced></math>, is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><mfenced open=\"[\" close=\"]\"><mrow><mn>1</mn><mo>+</mo><mi>tan</mi><mfenced><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac></mfenced></mrow></mfenced><mo>+</mo><mi>C</mi><mo>=</mo><mn>0</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><mfenced open=\"[\" close=\"]\"><mrow><mn>1</mn><mo>+</mo><mi>tan</mi><mfenced><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac></mfenced></mrow></mfenced><mo>=</mo><mi>x</mi><mo>+</mo><mi>C</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><mfenced open=\"[\" close=\"]\"><mrow><mn>1</mn><mo>-</mo><mi>tan</mi><mfenced><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac></mfenced></mrow></mfenced><mo>=</mo><mi>x</mi><mo>+</mo><mi>C</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "None of the above",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p>Put <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mi>v</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac></math></p><p>Therefore, the differential equation reduces to</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mfenced><mrow><mn>1</mn><mo>+</mo><mi>cos</mi><mi>v</mi></mrow></mfenced><mo>+</mo><mi>sin</mi><mi>v</mi><mo>=</mo><mn>2</mn><msup><mi>cos</mi><mn>2</mn></msup><mfrac><mi>v</mi><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mi>sin</mi><mfrac><mi>v</mi><mn>2</mn></mfrac><mi>cos</mi><mfrac><mi>v</mi><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2</mn><msup><mi>cos</mi><mn>2</mn></msup><mfrac><mi>v</mi><mn>2</mn></mfrac><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><mi>tan</mi><mi>v</mi></mrow><mn>2</mn></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mo>&#8747;</mo><mfrac><mrow><msup><mi>sec</mi><mn>2</mn></msup><mfrac><mi>V</mi><mn>2</mn></mfrac></mrow><mrow><mn>2</mn><mfenced close=\"]\" open=\"[\"><mrow><mn>1</mn><mo>+</mo><mi>tan</mi><mfenced><mfrac><mi>v</mi><mn>2</mn></mfrac></mfenced></mrow></mfenced></mrow></mfrac><mi>d</mi><mi>v</mi><mo>=</mo><mo>&#8747;</mo><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>log</mi><mfenced close=\"]\" open=\"[\"><mrow><mn>1</mn><mo>+</mo><mi>tan</mi><mfenced><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac></mfenced></mrow></mfenced><mo>=</mo><mi>x</mi><mo>+</mo><mi>C</mi></math></p>"
+  }
+}

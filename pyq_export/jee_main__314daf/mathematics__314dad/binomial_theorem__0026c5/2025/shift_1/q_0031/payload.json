@@ -1,0 +1,24 @@
+{
+  "index": 31,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If $\\sum_{r=0}^5 \\frac{{ }^{11} C_{2r+1}}{2 r+2}=\\frac{\\mathrm{m}}{\\mathrm{n}}, \\operatorname{gcd}(\\mathrm{m}, \\mathrm{n})=1$, then $\\mathrm{m}-\\mathrm{n}$ is equal to _______"
+  },
+  "options": [],
+  "correct_answer": "2035",
+  "solution": {
+    "text": "$\\begin{aligned}\n& (1+x)^{11}={ }^{11} C_0+{ }^{11} C_1 x+{ }^{11} C_2 x^2+\\cdots+{ }^{11} C_{11} x^{11} \\\\\n& \\int_0^1(1+x)^{11} d x=\\int_0^1\\left({ }^{11} C_0+{ }^{11} C_1 x+{ }^{11} C_2 x^2+\\cdots+{ }^{11} C_{11} x x^{11}\\right) d x \\\\\n& \\left.\\left.\\frac{(1-x)^{12}}{12}\\right|_0 ^1={ }^{11} C_{0 x}+\\frac{{ }^{11} C_1 x^2}{2}+\\frac{{ }^{11} C_2 x}{3}+\\cdots+\\frac{{ }^{11} C_{11} x^{12}}{12}\\right]_0^1 \\\\\n& \\frac{2^{12}-1}{12}=C_0+\\frac{C_1}{2}+\\frac{C_2}{3}+\\cdots+\\frac{C_{11}}{12} \\ldots(1)\n\\end{aligned}$\nNow,\n$\\begin{aligned}\n& \\int_{-1}^0(1+x)^{11} d x=\\int_{-1}^0\\left({ }^{11} C_0+{ }^{11} C_1 x+{ }^{11} C_2 x^2+\\cdots+{ }^{11} C_{11} x^{11}\\right) d x \\\\\n& \\left.\\left.\\frac{(1+x)^{12}}{12}\\right]_{-1}^0={ }^{11} C_0 x+\\frac{{ }^{11} C_1 x^2}{2}+\\frac{{ }^{11} C_2 x^3}{3}+\\cdots+\\frac{{ }^{11} C_{11} x^{12}}{12}\\right]_{-1}^0\n\\end{aligned}$\n$\\frac{1}{12}=C_0-\\frac{C_1}{2}+\\frac{C_2}{3} \\cdots$\n$\\begin{aligned}\n& (1)-(2) \\\\\n& =\\frac{2^{12}-2}{12}=2\\left[\\frac{C_1}{2}+\\frac{C_3}{4}+\\cdots\\right] \\\\\n& \\Rightarrow \\sum_{r=0}^5 \\frac{C_{2 r+1}}{2 r+2}=\\frac{2^{11}-1}{12}=\\frac{2047}{12}=\\frac{m}{n} \\\\\n& =2047-12=2035\n\\end{aligned}$"
+  }
+}

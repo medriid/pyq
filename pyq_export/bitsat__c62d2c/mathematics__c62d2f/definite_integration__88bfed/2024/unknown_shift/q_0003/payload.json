@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83e6f6052b2388bfed",
+    "chapter_name": "Definite Integration",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int_5^9 \\frac{\\log 3 x^2}{\\log 3 x^2+\\log \\left(588-84 x+3 x^2\\right)} d x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$2$",
+      "is_correct": true
+    },
+    {
+      "text": "$1$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$4$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let\n$I=\\int_5^9 \\frac{\\log 3 x^2 d x}{\\log 3 x^2+\\log \\left(588-84 x+3 x^2\\right)}$  ...(i)\n$\\begin{aligned} & =\\int_5^9 \\frac{\\log 3 x^2 d x}{\\log 3 x^2+\\log 3(14-x)^2} \\\\ & =\\int_5^9 \\frac{\\log 3(14-x)^2 d x}{\\log 3(14-x)^2+\\log 3(14-(14-x))^2} \\\\ & \\quad\\left[\\int_a^b f(x) d x=\\int_a^b f(a+b-x) d x\\right]\\end{aligned}$\n$I=\\int_5^9 \\frac{\\log 3(14-x)^2 d x}{\\log 3(14-x)^2+\\log 3 x^2}$  ...(ii)\nAdding Eqs. (i) and (ii), we get\n$\\begin{aligned}\n& 2 I=\\int_5^9 \\frac{\\log 3 x^2+\\log 3(14-x)^2}{\\log 3(14-x)^2+\\log 3 x^2} d x \\\\\n& 2 \\mathrm{I}=\\int_5^9 d x=9-5=4 \\Rightarrow I=2\n\\end{aligned}$"
+  }
+}

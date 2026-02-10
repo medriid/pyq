@@ -1,62 +1,62 @@
 {
-  "_id": "648b5a67417cc3fb48d667ea",
+  "_id": "648b5a67417cc3fb48d668a9",
   "previousYearPapers": [
     {
-      "_id": "615d92ebde3d91842a5cf7ed",
+      "_id": "615d92ecde3d91842a5cf7f7",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2019-01-11T14:00:00.000Z",
+      "heldOn": "2019-04-12T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2019 (11 Jan Shift 2)",
-      "title": "JEE Main 2019 (11 Jan Shift 2)"
+      "shortName": "2019 (12 Apr Shift 2)",
+      "title": "JEE Main 2019 (12 Apr Shift 2)"
     }
   ],
   "type": "singleCorrect",
   "level": 2,
   "question": {
-    "text": "The integral $\\int_{\\pi / 6}^{\\pi / 4} \\frac{\\mathrm{d} x}{\\sin 2 x\\left(\\tan ^{5} x+\\cot ^{5} x\\right)}$ equals:",
+    "text": "A value of <math><mi>&#945;</mi></math> such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo stretchy=\"true\">&#8747;</mo><mi>&#945;</mi><mrow><mi>&#945;</mi><mo>+</mo><mn>1</mn></mrow></munderover><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mi>&#945;</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mi>&#945;</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">o</mi><msub><mi mathvariant=\"normal\">g</mi><mi>e</mi></msub><mfenced separators=\"|\"><mfrac><mn>9</mn><mn>8</mn></mfrac></mfenced></math> is",
     "image": null
   },
   "options": [
     {
-      "id": "nCCq3",
-      "text": "$\\frac{1}{20} \\tan ^{-1}\\left(\\frac{1}{9 \\sqrt{3}}\\right)$",
+      "id": "fRq7g",
+      "text": "<math><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math>",
       "isCorrect": false,
       "image": null
     },
     {
-      "id": "NojF0",
-      "text": "$\\frac{1}{10}\\left(\\frac{\\pi}{4}-\\tan ^{-1}\\left(\\frac{1}{9 \\sqrt{3}}\\right)\\right)$",
+      "id": "PXw3g",
+      "text": "<math><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "XrV4w",
+      "text": "<math><mo>-</mo><mn>2</mn></math>",
       "isCorrect": true,
       "image": null
     },
     {
-      "id": "jLYEz",
-      "text": "$\\frac{\\pi}{40}$",
-      "isCorrect": false,
-      "image": null
-    },
-    {
-      "id": "E1Fsf",
-      "text": "$\\frac{1}{5}\\left(\\frac{\\pi}{4}-\\tan ^{-1}\\left(\\frac{1}{3 \\sqrt{3}}\\right)\\right)$",
+      "id": "CmEVi",
+      "text": "<math><mn>2</mn></math>",
       "isCorrect": false,
       "image": null
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "$\\mathrm{I}=\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{4}} \\frac{d x}{\\sin 2 x\\left(\\tan ^{5} x+\\cot ^{5} x\\right)}$\r\n\r\n$\\begin{array}{l}\r\n\r\n=\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{4}} \\frac{\\tan ^{5} x \\cdot \\sec ^{2} x}{2 \\frac{\\sin x}{\\cos x}\\left(\\left(\\tan ^{5} x\\right)^{2}+1\\right)} \\\\\r\n\r\n=\\frac{1}{2} \\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{4} \\tan ^{4} x \\cdot \\sec ^{2} x}{\\left(\\tan ^{5} x\\right)^{2}+1} d x\r\n\r\n\\end{array}$\r\n\r\nLet $\\tan ^{4} x=t$\r\n\r\n$5 \\tan ^{4} x \\cdot \\sec ^{2} x d x=d t$\r\n\r\nWhen $x \\rightarrow \\frac{\\pi}{4}$ then $t \\rightarrow 1$\r\n\r\nand $x \\rightarrow \\frac{\\pi}{6}$ then $t \\rightarrow\\left(\\frac{1}{\\sqrt{3}}\\right)^{5}$\r\n\r\n$\\begin{aligned}\r\n\r\n\\therefore \\quad & \\mathrm{I}=\\frac{1}{10} \\int_{\\left(\\frac{1}{\\sqrt{3}}\\right)^{5}}^{1} \\frac{d t}{t^{2}+1} \\\\\r\n\r\n&=\\frac{1}{10}\\left(\\frac{\\pi}{4}-\\tan ^{-1}\\left(\\frac{1}{9 \\sqrt{3}}\\right)\\right)\r\n\r\n\\end{aligned}$",
+    "text": "<math><mi mathvariant=\"normal\">I</mi><mo>=</mo><mrow><munderover><mo stretchy=\"true\">&#8747;</mo><mrow><mi>&#945;</mi></mrow><mrow><mi>&#945;</mi><mo>+</mo><mn>1</mn></mrow></munderover><mrow><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mi>&#945;</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mi>&#945;</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mfrac><mo>=</mo></mrow></mrow><mrow><munderover><mo stretchy=\"true\">&#8747;</mo><mrow><mi>&#945;</mi></mrow><mrow><mi>&#945;</mi><mo>+</mo><mn>1</mn></mrow></munderover><mrow><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi><mo>+</mo><mi>&#945;</mi><mi>&#160;</mi></mrow></mfrac><mo>&#8211;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi><mo>+</mo><mi>&#945;</mi><mo>+</mo><mn>1</mn><mi>&#160;</mi></mrow></mfrac></mrow></mfenced><mi>d</mi><mi>x</mi></mrow></mrow></math><br />Using partial fractions<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mfenced open=\"[\" close=\"]\" separators=\"|\"><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">n</mi><mfenced open=\"|\" close=\"|\" separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mi>&#945;</mi></mrow></mfenced><mo>-</mo><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">n</mi><mfenced open=\"|\" close=\"|\" separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mi>&#945;</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfenced><mi>&#945;</mi><mrow><mi>&#945;</mi><mo>+</mo><mn>1</mn></mrow></msubsup></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mfenced open=\"[\" close=\"]\" separators=\"|\"><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">n</mi><mfenced open=\"|\" close=\"|\" separators=\"|\"><mfrac><mrow><mi>x</mi><mo>+</mo><mi>&#945;</mi></mrow><mrow><mi>x</mi><mo>+</mo><mi>&#945;</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mfenced><mo>&#160;</mo></mrow></mfenced><mi>&#945;</mi><mrow><mi>&#945;</mi><mo>+</mo><mn>1</mn></mrow></msubsup></math><br /><math><mo>=</mo><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">n</mi><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">&#945;</mi><mo>+</mo><mn>1</mn></mrow><mrow><mn>2</mn><mi mathvariant=\"normal\">&#945;</mi><mo>+</mo><mn>2</mn></mrow></mfrac></mrow></mfenced><mo>-</mo><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">n</mi><mfenced close=\"|\" open=\"|\" separators=\"|\"><mrow><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">&#945;</mi></mrow><mrow><mn>2</mn><mi mathvariant=\"normal\">&#945;</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></mfenced></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">n</mi><mfenced open=\"|\" close=\"|\" separators=\"|\"><mfrac><msup><mfenced separators=\"|\"><mrow><mn>2</mn><mi>&#945;</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup><mrow><msup><mfenced separators=\"|\"><mrow><mn>2</mn><mi>&#945;</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup><mo>-</mo><mn>1</mn></mrow></mfrac></mfenced><mo>=</mo><mi>ln</mi><mo>&#8289;</mo><mfrac><mn>9</mn><mn>8</mn></mfrac></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>&#945;</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>9</mn></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>2</mn><mi>&#945;</mi><mo>+</mo><mn>1</mn><mo>=</mo><mo>&#177;</mo><mn>3</mn></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#945;</mi><mo>=</mo><mn>1</mn></math> or <math><mo>-</mo><mn>2</mn></math>.",
     "image": null
   },
   "videoSolution": null,
   "questionLabels": [],
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "615d92ebde3d91842a5cf7ed",
+    "_id": "615d92ecde3d91842a5cf7f7",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2019-01-11T14:00:00.000Z",
+    "heldOn": "2019-04-12T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2019 (11 Jan Shift 2)",
-    "title": "JEE Main 2019 (11 Jan Shift 2)"
+    "shortName": "2019 (12 Apr Shift 2)",
+    "title": "JEE Main 2019 (12 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

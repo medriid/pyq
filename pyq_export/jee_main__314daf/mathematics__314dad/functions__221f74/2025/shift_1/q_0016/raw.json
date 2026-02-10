@@ -1,58 +1,58 @@
 {
-  "_id": "67a2eeb8c8b73881fdaea253",
+  "_id": "68542c817c09d044e4c1a255",
   "type": "singleCorrect",
   "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "67a2eb5da6d4514bf2d9760e",
+      "_id": "6852f2fe9d87935e0d809787",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-01-28T09:00:00.000Z",
+      "heldOn": "2025-04-04T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (28 Jan Shift 1)",
-      "title": "JEE Main 2025 (28 Jan Shift 1)"
+      "shortName": "2025 (4 Apr Shift 1)",
+      "title": "JEE Main 2025 (4 Apr Shift 1)"
     }
   ],
   "question": {
-    "text": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function defined by\n$f(x)=(2+3 a) x^2+\\left(\\frac{a+2}{a-1}\\right) x+b, a \\neq 1 . \\text { If }$ \n$f(x+\\mathrm{y})=f(x)+f(\\mathrm{y})+1-\\frac{2}{7} x \\mathrm{y}$, then the value of $28 \\sum_{i=1}^5|f(i)|$ is",
+    "text": "Let $f, \\mathrm{~g}:(1, \\infty) \\rightarrow \\mathbb{R}$ be defined as $f(\\mathrm{x})=\\frac{2 x+3}{5 x+2}$ and $g(x)=\\frac{2-3 x}{1-x}$. If the range of the function $f \\circ g:[2,4] \\rightarrow \\mathbb{R}$ is $[\\alpha, \\beta]$, then $\\frac{1}{\\beta-\\alpha}$ is equal to",
     "image": null
   },
   "options": [
     {
-      "id": "hKQke",
-      "text": "545",
+      "id": "wGu7e",
+      "text": "68",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "GxmH7",
-      "text": "715",
+      "id": "iik7v",
+      "text": "29",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "oQDzA",
-      "text": "735",
+      "id": "hHgf5",
+      "text": "2",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "HJD4f",
-      "text": "675",
+      "id": "BqKxO",
+      "text": "56",
       "image": null,
       "isCorrect": true
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "$\\begin{aligned} & \\text { Put } y=0 \\\\ & f(x)=f(0)+f(x)+1-0 \\\\ & f(0)=-1 \\\\ & f(0)=0+0+b \\\\ & \\Rightarrow b=-1 \\\\ & f(-1+1)=f(-1)+f(1)+1+\\frac{2}{7} \\\\ & f(0)=f(-1)+f(1)+\\frac{9}{7}\\end{aligned}$\n$\\begin{aligned}-1=(2+3 a)+\\left(\\frac{a+2}{a-1}\\right)(-1)+b+(2+3 a) & \\\\ & +\\frac{a+2}{a-1}+b+\\frac{9}{7}\\end{aligned}$\n$\\begin{aligned} & -1=4+6 a-2+\\frac{9}{7} \\\\ & -1=2+\\frac{9}{7}+6 a \\\\ & 6 a=-1-2-\\frac{9}{7} \\\\ & a=\\frac{-5}{7} \\\\ & f(x)=\\frac{-x^2}{7}+\\frac{\\frac{9}{7}}{\\frac{-12}{7}} x-1 \\\\ & f(x)=\\frac{-x^2}{7}-\\frac{3}{4} x-1 \\\\ & \\sum_{i=1}^5 f(i)=-\\frac{1}{7}\\left(\\frac{5 \\times 6 \\times 11}{6}\\right)-\\frac{3}{4}\\left(\\frac{5 \\times 6}{2}\\right)-5 \\\\ & =\\frac{-55}{7}-\\frac{45}{4}-5 \\\\ & =\\frac{675}{28} \\\\ & \\Rightarrow 28\\left|\\sum_{i-1}^5 f(i)\\right|=675\\end{aligned}$",
+    "text": "$\\begin{aligned}<br/>& \\operatorname{fog}(x)=f(g(x)) \\\\\n& =f\\left(\\frac{2-3 x}{1-x}\\right)=\\frac{2\\left(\\frac{2-3 x}{1-x}\\right)+3}{5\\left(\\frac{2-3 x}{1-x}\\right)+2} \\\\\n& =\\frac{4-6 x+3-3 x}{10-15 x+2-2 x}=\\left(\\frac{7-9 x}{12-17 x}\\right) \\\\\n& \\therefore\\left[\\begin{array}{c}<br/>12-7 x \\neq 0 \\\\\nx \\neq \\frac{12}{17}<br/>\\end{array}\\right. \\\\\n& {\\left[\\begin{array}{l}<br/>\\operatorname{fog}(2)=\\frac{7-9(2)}{12-17(2)}=\\frac{-11}{-22}=\\frac{1}{2} \\\\\n\\operatorname{fog}(4)=\\frac{7-9(4)}{12-17(4)}=\\frac{-29}{-56}=\\frac{29}{56}<br/>\\end{array}\\right.} \\\\\n& \\text { Range of fog : }[\\alpha, \\beta]=\\left[\\frac{1}{2}, \\frac{29}{56}\\right] \\\\\n& \\therefore(\\beta-\\alpha)=\\frac{29}{56}-\\frac{1}{2}=\\frac{29-28}{56}=\\frac{1}{56} \\\\\n& \\frac{1}{(\\beta-\\alpha)}=56<br/>\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "1be3d534c3d643b18f34c671586fc816",
+    "videoId": "d12b544616f048f19a876896669171e4",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/IkDzRImKRwzFD.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/IkDzRImKRwzFD.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/xC7OwdrISWA3F.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/xC7OwdrISWA3F.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
@@ -71,12 +71,12 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "67a2eb5da6d4514bf2d9760e",
+    "_id": "6852f2fe9d87935e0d809787",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-01-28T09:00:00.000Z",
+    "heldOn": "2025-04-04T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (28 Jan Shift 1)",
-    "title": "JEE Main 2025 (28 Jan Shift 1)"
+    "shortName": "2025 (4 Apr Shift 1)",
+    "title": "JEE Main 2025 (4 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

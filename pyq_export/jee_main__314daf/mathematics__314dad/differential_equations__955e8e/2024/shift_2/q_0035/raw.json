@@ -1,82 +1,37 @@
 {
-  "_id": "66446712970e6e9ab542cfef",
-  "type": "singleCorrect",
+  "_id": "6644674e970e6e9ab542d21a",
+  "type": "numerical",
   "level": 3,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "664466ee278297dee60eda69",
+      "_id": "664466ef278297dee60eda6f",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-04-04T14:00:00.000Z",
+      "heldOn": "2024-04-08T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (04 Apr Shift 2)",
-      "title": "JEE Main 2024 (04 Apr Shift 2)"
+      "shortName": "2024 (08 Apr Shift 2)",
+      "title": "JEE Main 2024 (08 Apr Shift 2)"
     }
   ],
   "question": {
-    "text": "Let $y=y(x)$ be the solution of the differential equation $\\left(x^2+4\\right)^2 d y+\\left(2 x^3 y+8 x y-2\\right) d x=0$. If $y(0)=0$, then $y(2)$ is equal to",
+    "text": "Let $\\alpha|x|=|y| \\mathrm{e}^{x y-\\beta}, \\alpha, \\beta \\in \\mathbf{N}$ be the solution of the differential equation $x \\mathrm{~d} y-y \\mathrm{~d} x+x y(x \\mathrm{~d} y+y \\mathrm{~d} x)=0$, $y(1)=2$. Then $\\alpha+\\beta$ is equal to ________",
     "image": null
   },
-  "options": [
-    {
-      "id": "n9j4G",
-      "text": "$\\frac{\\pi}{32}$",
-      "image": null,
-      "isCorrect": true
-    },
-    {
-      "id": "ir3Nj",
-      "text": "${2}{\\pi}$",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "KZLHj",
-      "text": "$\\frac{\\pi}{8}$",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "OeHjg",
-      "text": "$\\frac{\\pi}{16}$",
-      "image": null,
-      "isCorrect": false
-    }
-  ],
-  "correctValue": null,
+  "options": [],
+  "correctValue": "4",
   "solution": {
-    "text": "$\\begin{aligned}\n& \\frac{d y}{d x}+y\\left(\\frac{2 x^3+8 x}{\\left(x^2+4\\right)^2}\\right)=\\frac{2}{\\left(x^2+4\\right)^2} \\\\\n& \\frac{d y}{d x}+y\\left(\\frac{2 x}{x^2+4}\\right)=\\frac{2}{\\left(x^2+4\\right)^2} \\\\\n& \\text { IF }=e^{\\int \\frac{2 x}{x^2+4} d x} \\\\\n& \\text { IF }=x^2+4 \\\\\n& y \\times\\left(x^2+4\\right)=\\int \\frac{2}{\\left(x^2+4\\right)^2} \\times\\left(x^2+4\\right) \\\\\n& y\\left(x^2+4\\right)=2 \\int \\frac{d x}{x^2+2^2} \\\\\n& y\\left(x^2+4\\right)=\\frac{2}{2} \\tan ^{-1}\\left(\\frac{x}{2}\\right)+c \\\\\n& 0=0+c=c=0 \\\\\n& y\\left(x^2+4\\right)=\\tan ^{-1}\\left(\\frac{x}{2}\\right) \\\\\n& y \\text { at } x=2 \\\\\n& y(4+4)=\\tan ^{-1}(1) \\\\\n& y(2)=\\frac{\\pi}{32}\n\\end{aligned}$",
+    "text": "$\\begin{aligned}\n& a|x|=|y| e^{y x-\\beta}, a, b \\in N \\\\\n& x d y-y d x+x y(x d y+y d x)=0 \\\\\n& \\frac{d y}{y}-\\frac{d x}{x}+(x d y+y d x)=0 \\\\\n& \\ell n|y|-\\ell n|x|+x y=c \\\\\n& y(1)=2 \\\\\n& \\ell n|2|-0+2=c \\\\\n& c=2+\\ell n 2 \\\\\n& \\ell n|y|-\\ell n|x|+x y=2+\\ell n 2 \\\\\n& \\ell n|x|=\\ell n\\left|\\frac{y}{2}\\right|-2+x y \\\\\n& |x|=\\left|\\frac{y}{2}\\right| e^{x y-2} \\\\\n& 2|x|=|y| e^{x y-2} \\\\\n& \\alpha=2 \\quad \\beta=2 \\quad \\alpha+\\beta=4\n\\end{aligned}$",
     "image": null
   },
-  "videoSolution": {
-    "videoId": "9dc75eed1a824137ac6be6478da561be",
-    "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/JPIC24Mwfs0Ns.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/JPIC24Mwfs0Ns.480.jpeg",
-    "premiumModules": [
-      {
-        "premiumModuleId": "6628114842d540dfcb148ecb",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "64c7e8e829737784b294e469",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
-        "isFree": false
-      }
-    ],
-    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
-  },
+  "videoSolution": null,
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "664466ee278297dee60eda69",
+    "_id": "664466ef278297dee60eda6f",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-04-04T14:00:00.000Z",
+    "heldOn": "2024-04-08T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (04 Apr Shift 2)",
-    "title": "JEE Main 2024 (04 Apr Shift 2)"
+    "shortName": "2024 (08 Apr Shift 2)",
+    "title": "JEE Main 2024 (08 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7dcba928c9eda96baf",
+    "chapter_name": "Mathematical Reasoning",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider the following two propositions:\n$\\mathrm{P}_1: \\sim(p \\rightarrow \\sim q)$\n$P_2:(p \\wedge \\sim q) \\wedge((\\sim p) \\vee q)$\nIf the proposition $p \\rightarrow((\\sim p) \\vee q)$ is evaluated as FALSE, then :"
+  },
+  "options": [
+    {
+      "text": "$P_1$ is TRUE and $P_2$ is FALSE",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{P}_1$ is FALSE and $\\mathrm{P}_2$ is TRUE",
+      "is_correct": false
+    },
+    {
+      "text": "Both $P_1$ and $P_2$ are FALSE",
+      "is_correct": true
+    },
+    {
+      "text": "Both $P_1$ and $P_2$ are TRUE",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given propositions $\\mathrm{P}_1: \\sim(\\mathrm{p} \\rightarrow \\sim \\mathrm{q})$\n$\\mathrm{P}_2:(p \\wedge \\sim q) \\wedge((\\sim p) \\vee q)$\nRequired table is shown below.\r\n\\(\\begin{array}{|l|l|l|l|l|l|l|l|l|l|l|}\r\n\\hline \\mathbf{p} & \\mathbf{q} & \\sim p & \\sim q & \\sim p \\vee q & p \\rightarrow(\\sim(p \\vee q) & p \\rightarrow \\sim q & \\sim(p \\rightarrow \\sim q) & p \\wedge \\sim q & p_2 \\\\\r\n\\hline \\text { T } & \\text { T } & \\text { F } & \\text { F } & \\text { T } & \\text { T } & \\text { F } & \\text { T } & \\text { F } & \\text { F } \\\\\r\n\\hline \\text { T } & \\text { F } & \\text { F } & \\text { T } & \\text { F } & \\text { F } & \\text { T } & \\text { F } & \\text { T } & \\text { F } \\\\\r\n\\hline \\text { F } & \\text { T } & \\text { T } & \\text { F } & \\text { T } & \\text { T } & \\text { T } & \\text { F } & \\text { F } & \\text { F } \\\\\r\n\\hline \\text { F } & \\text { F } & \\text { T } & \\text { T } & \\text { T } & \\text { T } & \\text { T } & \\text { F } & \\text { F } & \\text { F } \\\\\r\n\\hline\r\n\\end{array}\\)\r\n\\(p \\rightarrow(\\sim p \\vee q)\\) is \\(F\\) when \\(p\\) is true \\(q\\) is false From table \\(P_1 ~\\&~ P_2\\) both are false"
+  }
+}

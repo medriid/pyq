@@ -1,8 +1,8 @@
 {
   "index": 163,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2019 (11 Jan Shift 2)",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2019 (10 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "A bag contains 30 white balls and 10 red balls. 16 balls are drawn one by one randomly from the bag with replacement. If $X$ be the number of white balls drawn, then\r\n\r\n$\\left(\\frac{\\text { mean of } \\mathrm{X}}{\\text { standard deviation of } \\mathrm{X}}\\right)$ is equal to:"
+    "text": "Minimum number of times a fair coin must be tossed so that the probability of getting at least one <strong>head </strong>is more than <math><mn>99</mn><mi>%</mi><mi>&#160;</mi></math> is:"
   },
   "options": [
     {
-      "text": "4",
+      "text": "<math><mn>8</mn></math>",
       "is_correct": false
     },
     {
-      "text": "$4 \\sqrt{3}$",
+      "text": "<math><mn>6</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>5</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>7</mn></math>",
       "is_correct": true
-    },
-    {
-      "text": "$3 \\sqrt{2}$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{4 \\sqrt{3}}{3}$",
-      "is_correct": false
     }
   ],
   "correct_answer": [
-    "B"
+    "D"
   ],
   "solution": {
-    "text": "$P($ white ball $)=\\frac{30}{40}=\\frac{3}{4}, Q$ (red ball) $=\\frac{10}{40}=\\frac{1}{4}, n=16$\r\n\r\n$\\frac{\\text { Mean of } X}{\\text { standard deviation of } X}=\\frac{n P}{\\sqrt{n P Q}}=\\frac{\\sqrt{n P}}{\\sqrt{Q}}$ $=\\sqrt{\\frac{16 \\times \\frac{3}{4}}{\\frac{1}{4}}}=\\sqrt{48}=4 \\sqrt{3}$"
+    "text": "<p>Let coin is tossed <math><mi>n</mi></math> times.</p><p>The probability of getting a head in a single throw of a die is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>.</mo></math></p><p>By using binomial theorem, we know that the probability that an event&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>&nbsp;appear&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>&nbsp;times in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>&nbsp;trials is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mi>X</mi><mo>=</mo><mi>r</mi></mrow></mfenced><mo>=</mo><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><msup><mi>p</mi><mrow><mi>n</mi><mo>-</mo><mi>r</mi></mrow></msup><msup><mi>q</mi><mi>r</mi></msup><mo>,</mo><mo>&#160;</mo><mi>q</mi><mo>=</mo><mn>1</mn><mo>-</mo><mi>p</mi><mo>,</mo><mo>&#160;</mo><mi>r</mi><mo>=</mo><mn>0</mn><mo>,</mo><mo>&#160;</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mo>&#160;</mo><mi>n</mi><mo>.</mo></math></p><p>Now,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>(</mo></math>at least are head<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi>P</mi><mo>(</mo></math>no head<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>-</mo><msup><mfenced separators=\"|\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mi>n</mi></msup></math></p><p>Using, the given condition, we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><msup><mfenced separators=\"|\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mi>n</mi></msup><mo>&#8805;</mo><mn>0.99</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mfenced separators=\"|\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mi>n</mi></msup><mo>&#8804;</mo><mn>1</mn><mo>-</mo><mn>0.99</mn></math></p><p><math><mo>&#8658;</mo><msup><mrow><mfenced separators=\"|\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mfenced></mrow><mrow><mi>n</mi></mrow></msup><mo>&#8804;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>100</mn></mrow></mfrac></math></p><p>As,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>=</mo><mn>64</mn></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>7</mn></msup><mo>=</mo><mn>128</mn><mo>,</mo></math>&nbsp;hence, the minimum value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>&nbsp;is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>.</mo></math></p>"
   }
 }

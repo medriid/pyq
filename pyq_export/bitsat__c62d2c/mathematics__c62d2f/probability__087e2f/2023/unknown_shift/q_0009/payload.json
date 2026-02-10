@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78b6e5f7d916087e2f",
+    "chapter_name": "Probability",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\mathrm{P}(\\mathrm{B})=\\frac{3}{5}, \\mathrm{P}(\\mathrm{A} \\mid \\mathrm{B})=\\frac{1}{2}$ and $\\mathrm{P}(\\mathrm{A} \\cup \\mathrm{B})=\\frac{4}{5}$, then $\\mathrm{P}(\\mathrm{A} \\cup \\mathrm{B})^{\\prime}+\\mathrm{P}\\left(\\mathrm{A}^{\\prime} \\cup \\mathrm{B}\\right)=$"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{4}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$P(B)=\\frac{3}{5}, P(A \\mid B)=\\frac{1}{2}$ and $P(A \\cup B)=\\frac{4}{5}$<br />$P(A \\cap B)=P(A \\mid B) P(B)=\\frac{1}{2} \\cdot \\frac{3}{5}=\\frac{3}{10}$<br />$\\mathrm{P}(\\mathrm{A} \\cup \\mathrm{B})=\\mathrm{P}(\\mathrm{A})+\\mathrm{P}(\\mathrm{B})-\\mathrm{P}(\\mathrm{A} \\cap \\mathrm{B})$<br />$\\mathrm{P}(\\mathrm{A})=\\frac{4}{5}-\\frac{3}{10}=\\frac{1}{2} . \\quad \\mathrm{P}\\left(\\mathrm{A}^{\\prime}\\right)=1-\\mathrm{P}(\\mathrm{A})=\\frac{1}{2}$<br />We know, $\\mathrm{P}(\\mathrm{A} \\cap \\mathrm{B})+\\mathrm{P}\\left(\\mathrm{A}^{\\prime} \\cap \\mathrm{B}\\right)=\\mathrm{P}(\\mathrm{B})$<br />[as $A \\cap B$ and $A^{\\prime} \\cap B$ are mutually exclusive events]<br />$\\Rightarrow \\quad \\frac{3}{10}+\\mathrm{P}\\left(\\mathrm{A}^{\\prime} \\cap \\mathrm{B}\\right)=\\frac{3}{5}$<br />$\\Rightarrow \\mathrm{P}\\left(\\mathrm{A}^{\\prime} \\cap \\mathrm{B}\\right)=\\frac{3}{5}-\\frac{3}{10}=\\frac{3}{10}$<br />Now, $\\mathrm{P}\\left(\\mathrm{A}^{\\prime} \\cup \\mathrm{B}\\right)=\\mathrm{P}\\left(\\mathrm{A}^{\\prime}\\right)+\\mathrm{P}(\\mathrm{B})-\\mathrm{P}\\left(\\mathrm{A}^{\\prime} \\cap \\mathrm{B}\\right)$<br />$=\\frac{1}{2}+\\frac{3}{5}-\\frac{3}{10}=\\frac{5+6-3}{10}=\\frac{4}{5}$<br />$\\mathrm{P}\\left((\\mathrm{A} \\cup \\mathrm{B})^{\\prime}\\right)=1-\\mathrm{P}(\\mathrm{A} \\cup \\mathrm{B})=1-\\frac{4}{5}=\\frac{1}{5}$<br />$\\therefore \\mathrm{P}\\left((\\mathrm{A} \\cup \\mathrm{B})^{\\prime}\\right)+\\mathrm{P}\\left(\\mathrm{A}^{\\prime} \\cup \\mathrm{B}\\right)=\\frac{1}{5}+\\frac{4}{5}=1$"
+  }
+}

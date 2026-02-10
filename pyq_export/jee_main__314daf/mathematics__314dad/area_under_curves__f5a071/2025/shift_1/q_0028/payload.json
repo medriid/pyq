@@ -1,0 +1,43 @@
+{
+  "index": 28,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602565bccda81624f5a071",
+    "chapter_name": "Area Under Curves",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $f: \\mathbf{R} \\rightarrow \\mathbf{R}$ be a twice differentiable function such that $f(x+y)=f(x) f(y)$ for all $x, y \\in \\mathbf{R}$. If $f^{\\prime}(0)=4 \\mathrm{a}$ and $f$ satisfies $f^{\\prime \\prime}(x)-3 \\mathrm{a} f^{\\prime}(x)-f(x)=0$, $\\mathrm{a}\\gt0$, then the area of the region $\\mathrm{R}=\\{(x, y) \\mid 0 \\leq y \\leq f(\\mathrm{a} x), 0 \\leq x \\leq 2\\}$ is:"
+  },
+  "options": [
+    {
+      "text": "$e^2-1$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{e}^2+1$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^4+1$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^4-1$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& f(x+y)=f(x) \\cdot f(y) \\\\\n& \\Rightarrow f(x)=e^{\\lambda x} f^{\\prime}(0)=4 a \\\\\n& \\Rightarrow f^{\\prime}(x)=\\lambda e^{\\lambda x} \\Rightarrow \\lambda=4 a\n\\end{aligned}$\n\nSo, $f(x)=e^{4 x}$\n$\\begin{aligned}\n& \\mathrm{f}^{\\prime \\prime}(\\mathrm{x})-3 \\mathrm{af}{ }^{\\prime}(\\mathrm{x})-\\mathrm{f}(\\mathrm{x})=0 \\\\\n& \\Rightarrow \\lambda^2-3 \\mathrm{a} \\lambda-1=0 \\\\\n& \\Rightarrow 16 \\mathrm{a}^2-12 \\mathrm{a}^2-1=0 \\Rightarrow 4 \\mathrm{a}^2=1 \\Rightarrow \\mathrm{a}=\\frac{1}{2}\n\\end{aligned}$\n<img src=\"assets\\st0028_8e15d281a0de.png\"><br>\n\n\n\n$\\begin{aligned} & \\mathrm{F}(\\mathrm{x})=\\mathrm{e}^{2 \\mathrm{x}} \\\\ & \\text { Area }=\\int_0^2 \\mathrm{e}^{\\mathrm{x}} \\mathrm{dx}=\\mathrm{e}^2-1\\end{aligned}$"
+  }
+}

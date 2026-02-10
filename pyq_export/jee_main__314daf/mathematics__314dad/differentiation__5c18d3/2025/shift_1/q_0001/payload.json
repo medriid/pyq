@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255a501b352fc65c18d3",
+    "chapter_name": "Differentiation",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $f: \\mathbf{R} \\rightarrow \\mathbf{R}$ be a twice differentiable function such that $(\\sin x \\cos y)(f(2 x+2 y)-f(2 x-2 y))=(\\cos x$ $\\sin \\mathrm{y})(f(2 \\mathrm{x}+2 \\mathrm{y})+f(2 \\mathrm{x}-2 \\mathrm{y}))$, for all $\\mathrm{x}, \\mathrm{y} \\in \\mathbf{R}$.<br/>If $f^{\\prime}(0)=\\frac{1}{2}$, then the value of $24 f^{\\prime \\prime}\\left(\\frac{5 \\pi}{3}\\right)$ is:"
+  },
+  "options": [
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "$-3$",
+      "is_correct": true
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "$-2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & (\\sin x \\cos y)(f(2 x+2 y)-f(2 x-2 y))=(\\cos x \\sin y) \\\\ & (f(2 x+2 y)+f(2 x-2 y)) \\\\ & f(2 x+2 y)(\\sin (x-y))=f(2 x-2 y) \\sin (x+y) \\\\ & \\frac{f(2 x+2 y)}{\\sin (x+y)}=\\frac{f(2 x-2 y)}{\\sin (x-y)} \\\\ & \\text { Put } 2 x+2 y=m, 2 x-2 y=n \\\\ & \\frac{f(m)}{\\sin \\left(\\frac{m}{2}\\right)}=\\frac{f(n)}{\\sin \\left(\\frac{n}{2}\\right)}=\\mathrm{K} \\\\ & \\Rightarrow f(m)=K \\sin \\left(\\frac{m}{2}\\right) \\\\ & \\therefore f(x)=K \\sin \\left(\\frac{x}{2}\\right) \\\\ & f^{\\prime}(x)=\\frac{K}{2} \\cos \\left(\\frac{x}{2}\\right) \\\\ & P_{\\text {Put }} x=0 ; \\frac{1}{2}=\\frac{K}{2} \\Rightarrow K=1 \\\\ & f^{\\prime}(x)=\\frac{1}{2} \\cos \\frac{x}{2}\\end{aligned}$<br/>$\\begin{aligned} & f^{\\prime \\prime}(x)=-\\frac{1}{4} \\sin \\frac{x}{2} \\\\ & 4 f^{\\prime \\prime}\\left(\\frac{5 \\pi}{3}\\right)=\\left(-\\frac{1}{4} \\sin \\left(\\frac{5 \\pi}{6}\\right)\\right) 24 \\\\ & =\\frac{-24}{8}=-3\\end{aligned}$"
+  }
+}

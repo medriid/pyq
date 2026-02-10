@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cb79820319dd593c4",
+    "chapter_name": "Sequences and Series",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $a_1, a_2, a_3 \\ldots$ be a harmonic progression with $a_1=5$ and $a_{20}=25$. The least positive integer $n$ for which $a_n < 0$, is"
+  },
+  "options": [
+    {
+      "text": "\r\n22\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n23\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n24\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n25",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "It is given that $a_1, a_2, a_3 \\ldots$. are in HP. Therefore, $\\frac{1}{a_1}, \\frac{1}{a_2}, \\frac{1}{a_3}, \\ldots \\ldots .$. are in AP. Let $d$ be the common difference of the AP.\r\n$\\therefore \\quad \\frac{1}{a_n}=\\frac{1}{a_1}+(n-1) d$ and $\\frac{1}{a_{20}}=\\frac{1}{a_1}+19 d$\r\n$\\Rightarrow \\quad \\frac{1}{a_n}=\\frac{1}{5}+(n-1) d$ and $\\frac{1}{25}=\\frac{1}{5}+19 d$\r\n$\\Rightarrow \\quad \\frac{1}{a_n}=\\frac{1}{5}+(n-1) d$ and $d=\\frac{-4}{19 \\times 25}$\r\n$\\Rightarrow \\quad \\frac{1}{a_n}=\\frac{1}{5}-\\frac{4(n-1)}{19 \\times 25}$\r\n$\\Rightarrow \\quad \\frac{1}{a_n}=\\frac{95-4 n+4}{19 \\times 25}$\r\n$\\Rightarrow \\quad a_n=\\frac{99-4 n}{19 \\times 25}$\r\nNow, $a_n < 0$\r\n$\\Rightarrow \\quad \\frac{99-4 n}{19 \\times 25} < 0$\r\n$\\Rightarrow \\quad 99-4 n < 0$\r\n$\\Rightarrow \\quad 4 n>99$\r\n$\\Rightarrow \\quad n>24 \\frac{3}{4} \\Rightarrow n \\geq 25$"
+  }
+}

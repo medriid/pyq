@@ -1,23 +1,33 @@
 {
-  "_id": "6682bd38ba0e94a3c4025b48",
+  "_id": "6644670a970e6e9ab542cfa9",
   "type": "numerical",
-  "level": 1,
+  "level": 3,
   "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda68",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-04T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (04 Apr Shift 1)",
+      "title": "JEE Main 2024 (04 Apr Shift 1)"
+    }
+  ],
   "question": {
-    "text": "Number of integral terms in the expansion of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced close=\"}\" open=\"{\"><mrow><msup><mn>7</mn><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced></msup><mo>+</mo><msup><mn>11</mn><mfenced><mfrac><mn>1</mn><mn>6</mn></mfrac></mfenced></msup></mrow></mfenced><mn>824</mn></msup></math> is equal to ______.",
+    "text": "Let $a=1+\\frac{{ }^2 \\mathrm{C}_2}{3 !}+\\frac{{ }^3 \\mathrm{C}_2}{4 !}+\\frac{{ }^4 \\mathrm{C}_2}{5 !}+\\ldots$,\n$\\mathrm{b}=1+\\frac{{ }^1 \\mathrm{C}_0+{ }^1 \\mathrm{C}_1}{1 !}+\\frac{{ }^2 \\mathrm{C}_0+{ }^2 \\mathrm{C}_1+{ }^2 \\mathrm{C}_2}{2 !}+\\frac{{ }^3 \\mathrm{C}_0+{ }^3 \\mathrm{C}_1+{ }^3 \\mathrm{C}_2+{ }^3 \\mathrm{C}_3}{3 !}+\\ldots$<br />Then $\\frac{2 b}{a^2}$ is equal to",
     "image": null
   },
   "options": [],
-  "correctValue": "138",
+  "correctValue": "8",
   "solution": {
-    "text": "<p>We know that,</p><p>General term in expansion of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mo>(</mo><mn>7</mn><msup><mo>)</mo><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow></msup><mo>+</mo><mo>(</mo><mn>11</mn><msup><mo>)</mo><mrow><mn>1</mn><mo>/</mo><mn>6</mn></mrow></msup></mrow></mfenced><mn>824</mn></msup></math> is given by,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>t</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mn>824</mn></mmultiscripts><mo>·</mo><msup><mn>7</mn><mfrac><mrow><mn>824</mn><mo>-</mo><mi>r</mi></mrow><mn>2</mn></mfrac></msup><mo>·</mo><msup><mn>11</mn><mfrac><mi>r</mi><mn>6</mn></mfrac></msup></math></p><p>For integral term, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> must be multiple of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> and should be less than <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>824</mn></math></p><p>So, the series will be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>6</mn><mo>,</mo><mn>12</mn><mo>,</mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo> </mo><mn>822</mn></math></p><p>Now, finding number of terms we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>822</mn><mo>=</mo><mn>0</mn><mo>+</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mn>6</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>137</mn><mo>=</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>n</mi><mo>=</mo><mn>138</mn></math></p><p>Hence, total integral terms will be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>138</mn></math></p>",
+    "text": "$\\begin{aligned}\n& \\mathrm{f}(\\mathrm{x})=1+\\frac{(1+\\mathrm{x})}{1 !}+\\frac{(1+\\mathrm{x})^2}{2 !}+\\frac{(1+\\mathrm{x})^3}{3 !}+\\ldots . . \\\\\n& \\frac{\\mathrm{e}^{(1+\\mathrm{x})}}{1+\\mathrm{x}}=\\frac{1}{1+\\mathrm{x}}+1+\\frac{(1+\\mathrm{x})}{2 !}+\\frac{(1+\\mathrm{x})^2}{3 !}+\\frac{(1+\\mathrm{x})^2}{4 !} \\\\\n& \\text { coef } \\mathrm{x}^2 \\text { in RHS : } 1+\\frac{{ }^2 \\mathrm{C}_2}{3}+\\frac{{ }^3 \\mathrm{C}_2}{4}+\\ldots=\\mathrm{a}\n\\end{aligned}$\ncoeff. $x^2$ in L.H.S.\n$e\\left(1+x+\\frac{x^2}{2 !}\\right) \\ldots\\left(1-x+\\frac{x^2}{2 !} \\ldots \\ldots\\right)$\nis $\\mathrm{e}-\\mathrm{e}+\\frac{\\mathrm{e}}{2 !}=\\mathrm{a}$\n$\\begin{aligned}\n& \\mathrm{b}=1+\\frac{2}{1 !}+\\frac{2^2}{2 !}+\\frac{2^3}{3 !}+\\ldots \\ldots=\\mathrm{e}^2 \\\\\n& \\frac{2 \\mathrm{~b}}{\\mathrm{a}^2}=8\n\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "9422f8882c5b41ed8ba86f4a005d5819",
+    "videoId": "905bba77b80046069c930022ce3f1829",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/XqzvXo2CgMXyc.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/XqzvXo2CgMXyc.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/NwAa1Ks0kMRkK.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/NwAa1Ks0kMRkK.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6628114842d540dfcb148ecb",
@@ -34,24 +44,14 @@
     ],
     "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
   },
-  "syllabusCategory": "noChange",
-  "previousYearPapers": [
-    {
-      "_id": "65c4c0c11d30997d3436bb02",
-      "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-01-30T09:00:00.000Z",
-      "isVisible": true,
-      "shortName": "2024 (30 Jan Shift 1)",
-      "title": "JEE Main 2024 (30 Jan Shift 1)"
-    }
-  ],
+  "syllabusCategory": "outOfSyllabus",
   "previousYear": {
-    "_id": "65c4c0c11d30997d3436bb02",
+    "_id": "664466ee278297dee60eda68",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-01-30T09:00:00.000Z",
+    "heldOn": "2024-04-04T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (30 Jan Shift 1)",
-    "title": "JEE Main 2024 (30 Jan Shift 1)"
+    "shortName": "2024 (04 Apr Shift 1)",
+    "title": "JEE Main 2024 (04 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

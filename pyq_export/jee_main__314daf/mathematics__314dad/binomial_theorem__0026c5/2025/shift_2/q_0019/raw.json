@@ -1,0 +1,83 @@
+{
+  "_id": "68542c757c09d044e4c1a217",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2ff9d87935e0d80978c",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-02T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (2 Apr Shift 2)",
+      "title": "JEE Main 2025 (2 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If $\\sum_{\\mathrm{r}=0}^{10}\\left(\\frac{10^{\\mathrm{r}+1}-1}{10^{\\mathrm{r}}}\\right) \\cdot{ }^{11} \\mathrm{C}_{\\mathrm{r}+1}=\\frac{\\alpha^{11}-11^{11}}{10^{10}}$, then $\\alpha$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "XgBxw",
+      "text": "$15$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "9Nqe8",
+      "text": "$11$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "4w6Vz",
+      "text": "$24$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "a0XaR",
+      "text": "$20$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\sum_{\\mathrm{r}=0}^{10}\\left(\\frac{1 \\mathrm{r}^{\\mathrm{r}-1}-1}{10^{\\mathrm{r}}}\\right){ }^{11} \\mathrm{C}_{\\mathrm{r}+1} \\\\ & =\\sum_{\\mathrm{r}=0}^{10}\\left(10-\\frac{1}{10^{\\mathrm{r}}}\\right)^{11} \\mathrm{C}_{\\mathrm{r}+1} \\\\ & =10 \\sum_{\\mathrm{r}=0}^{10} \\mathrm{C}_{\\mathrm{r}+1}-10 \\sum\\left({ }^{11} \\mathrm{C}_{\\mathrm{r}+1}\\left(\\frac{1}{10}\\right)^{\\mathrm{r}+1}\\right) \\\\ & =10\\left[{ }^{11} \\mathrm{C}_1+{ }^{11} \\mathrm{C}_2+\\ldots . .+{ }^{11} \\mathrm{C}_{11}\\right] \\\\ & -10\\left[{ }^{11} \\mathrm{C}_1\\left(\\frac{1}{10}\\right)^1+{ }^{11} \\mathrm{C}_2\\left(\\frac{1}{10}\\right)^2+\\ldots . .+{ }^{11} \\mathrm{C}_{11}\\left(\\frac{1}{10}\\right)^{11}\\right] \\\\ & =10\\left[2^{11}-1\\right]-10\\left[\\left(1+\\frac{1}{10}\\right)^{11}-1\\right] \\\\ & =10(2)^{11}-10-\\frac{11^{11}}{10^{10}}+10 \\\\ & =\\frac{(20)^{11}-11^{11}}{10^{10}} \\\\ & \\therefore \\alpha=20\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "ea5a38bb66d248c69923ed2c3d050b84",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/fFuhChQjPzMiv.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/fFuhChQjPzMiv.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2ff9d87935e0d80978c",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-02T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (2 Apr Shift 2)",
+    "title": "JEE Main 2025 (2 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

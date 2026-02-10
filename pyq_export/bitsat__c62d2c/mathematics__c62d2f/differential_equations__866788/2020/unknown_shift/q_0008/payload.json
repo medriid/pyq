@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2020",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd839e4041267a866788",
+    "chapter_name": "Differential Equations",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The solution of the differential equation\r\n\r\n$(x+1) \\frac{d y}{d x}-y=e^{3 x}(x+1)^{2}$ is"
+  },
+  "options": [
+    {
+      "text": "$y=(x+1) e^{3 x}+c$",
+      "is_correct": false
+    },
+    {
+      "text": "$3 y=(x+1)+e^{3 x}+c$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{3 y}{x+1}=e^{3 x}+c$",
+      "is_correct": true
+    },
+    {
+      "text": "$y e^{-3 x}=3(x+1)+c$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "The given equation is $\\frac{d y}{d x}-\\frac{y}{x+1}=e^{3 x}(x+1)$\r\n\r\nI.F. $=e^{\\int-\\frac{1}{x+1} d x}=e^{-\\log (x+1)}=\\frac{1}{x+1}$\r\n\r\nThe solution is\r\n\r\n$y\\left(\\frac{1}{x+1}\\right)=\\int e^{3 x}(x+1) \\cdot \\frac{1}{x+1} d x+a$\r\n\r\n$\\Rightarrow \\frac{y}{x+1}=\\int e^{3 x} d x+a=\\frac{e^{3 x}}{3}+a$\r\n\r\n$\\Rightarrow \\frac{3 y}{x+1}=e^{3 x}+c, c=3 a$"
+  }
+}

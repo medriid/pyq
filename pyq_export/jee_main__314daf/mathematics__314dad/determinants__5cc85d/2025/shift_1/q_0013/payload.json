@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If the system of equations\n$\\begin{aligned}\n& 2 x-y+z=4 \\\\\n& 5 x+\\lambda y+3 z=12 \\\\\n& 100 x-47 y+\\mu z=212\n\\end{aligned}$\nhas infinitely many solutions, then $\\mu-2 \\lambda$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$57$",
+      "is_correct": true
+    },
+    {
+      "text": "$59$",
+      "is_correct": false
+    },
+    {
+      "text": "$55$",
+      "is_correct": false
+    },
+    {
+      "text": "$56$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & 2 x-y+z=4 \\\\ & 5 x+\\lambda y+3 z=12 \\\\ & 100 x-47 y+\\mu z=212 \\\\ & \\Delta x=\\Delta y=\\Delta z=0 \\\\ & \\Delta z=\\left|\\begin{array}{ccc}2 & -1 & 4 \\\\ 5 & \\lambda & 12 \\\\ 100 & -47 & 212\\end{array}\\right|=0 \\\\ & \\Rightarrow 2(212 \\lambda+564)+1(1060-1200) \\\\ & \\Rightarrow 424 \\lambda+1128-140-940-400 \\lambda=0 \\\\ & \\Rightarrow \\lambda=-2 \\\\ & \\quad \\Delta y=\\left|\\begin{array}{ccc}2 & -1 & 1 \\\\ 5 & -2 & 3 \\\\ 100 & -47 & \\mu\\end{array}\\right|=0 \\\\ & \\Rightarrow 2(-2 \\mu+141)+1(5 \\mu-300)+1(-235+200)=0 \\\\ & \\Rightarrow \\quad \\mu=53 \\\\ & \\mu-2 \\lambda=53-2(-2)=57\\end{aligned}$"
+  }
+}

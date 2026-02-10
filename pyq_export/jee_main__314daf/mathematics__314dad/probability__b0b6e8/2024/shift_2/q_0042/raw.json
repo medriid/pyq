@@ -1,62 +1,57 @@
 {
-  "_id": "6682bd5eba0e94a3c4025c37",
-  "type": "singleCorrect",
+  "_id": "66446713970e6e9ab542cffd",
+  "type": "numerical",
   "level": 2,
   "questionLabels": [],
-  "question": {
-    "text": "An integer is chosen at random from the integers <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo> </mo><mo>,</mo><mo> </mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mo> </mo><mn>50</mn></math>. The probability that the chosen integer is a multiple of atleast one of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>,</mo><mn>6</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math> is",
-    "image": null
-  },
-  "options": [
-    {
-      "id": "omkOv",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>25</mn></mfrac></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "bCs8V",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>21</mn><mn>50</mn></mfrac></math>",
-      "image": null,
-      "isCorrect": true
-    },
-    {
-      "id": "Py3Og",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>50</mn></mfrac></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "UOby6",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>14</mn><mn>25</mn></mfrac></math>",
-      "image": null,
-      "isCorrect": false
-    }
-  ],
-  "correctValue": null,
-  "solution": {
-    "text": "<p>Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>50</mn></mrow></mfenced></math></p><p>Now, the probability of choosing a number which is a multiple of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> will be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mn>4</mn></mfenced><mo>=</mo><mfrac><mn>12</mn><mn>50</mn></mfrac></math></p><p>Similarly, the probability of choosing a number which is a multiple of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> will be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mn>6</mn></mfenced><mo>=</mo><mfrac><mn>8</mn><mn>50</mn></mfrac></math></p><p>And the probability of choosing a number which is a multiple of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math> will be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mn>7</mn></mfenced><mo>=</mo><mfrac><mn>7</mn><mn>50</mn></mfrac></math></p><p>Also, the probability of choosing a number which is a multiple of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo> </mo><mo>&amp;</mo><mo> </mo><mn>6</mn></math> will be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mn>4</mn><mo>∩</mo><mn>6</mn></mrow></mfenced><mo>=</mo><mfrac><mn>4</mn><mn>50</mn></mfrac></math></p><p>And the probability of choosing a number which is a multiple of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo> </mo><mo>&amp;</mo><mo> </mo><mn>7</mn></math> will be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mn>6</mn><mo>∩</mo><mn>7</mn></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>50</mn></mfrac></math></p><p>And the probability of choosing a number which is a multiple of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo> </mo><mo>&amp;</mo><mo> </mo><mn>7</mn></math> will be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mn>4</mn><mo>∩</mo><mn>7</mn></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>50</mn></mfrac></math></p><p>And finally, the probability of choosing a number which is a multiple of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>,</mo><mo> </mo><mn>6</mn><mo> </mo><mo>&amp;</mo><mo> </mo><mn>7</mn></math> will be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mn>4</mn><mo>∩</mo><mn>6</mn><mo>∩</mo><mn>7</mn></mrow></mfenced><mo>=</mo><mn>0</mn></math></p><p>Hence, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mn>4</mn><mo>∪</mo><mn>6</mn><mo>∪</mo><mn>7</mn></mrow></mfenced><mo>=</mo><mfrac><mn>12</mn><mn>50</mn></mfrac><mo>+</mo><mfrac><mn>8</mn><mn>50</mn></mfrac><mo>+</mo><mfrac><mn>7</mn><mn>50</mn></mfrac><mo>-</mo><mfrac><mn>4</mn><mn>50</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>50</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>50</mn></mfrac><mo>+</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>P</mi><mfenced><mrow><mn>4</mn><mo>∪</mo><mn>6</mn><mo>∪</mo><mn>7</mn></mrow></mfenced><mo>=</mo><mfrac><mn>21</mn><mn>50</mn></mfrac></math></p>",
-    "image": null
-  },
-  "videoSolution": null,
-  "syllabusCategory": "noChange",
   "previousYearPapers": [
     {
-      "_id": "65c4c0c01d30997d3436bb01",
+      "_id": "664466ee278297dee60eda69",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-01-29T14:00:00.000Z",
+      "heldOn": "2024-04-04T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (29 Jan Shift 2)",
-      "title": "JEE Main 2024 (29 Jan Shift 2)"
+      "shortName": "2024 (04 Apr Shift 2)",
+      "title": "JEE Main 2024 (04 Apr Shift 2)"
     }
   ],
+  "question": {
+    "text": "In a tournament, a team plays 10 matches with probabilities of winning and losing each match as $\\frac{1}{3}$ and $\\frac{2}{3}$ respectively. Let $x$ be the number of matches that the team wins, and $y$ be the number of matches that team loses. If the probability $\\mathrm{P}(|x-y| \\leq$ 2) is $p$, then $3^9 p$ equals ______",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "8288",
+  "solution": {
+    "text": "$\\begin{aligned} & P(W)=\\frac{1}{3} \\quad P(L)=\\frac{2}{3} \\\\ & x=\\text { number of matches that team wins } \\\\ & y=\\text { number of matches that team loses } \\\\ & |x-y| \\leq 2 \\text { and } x+y=10 \\\\ & |x-y|=0,1,2 \\quad x, y \\in N\\end{aligned}$\nCase-I\n$\\begin{aligned}\n& -I:|x-y|=0 \\Rightarrow x=y \\\\\n& \\because x+y=10 \\Rightarrow x=5=y \\\\\n& P(|x-y|=0)={ }^{10} C_5\\left(\\frac{1}{3}\\right)^5\\left(\\frac{2}{3}\\right)^5\n\\end{aligned}$\nCase-II : $|\\mathrm{x}-\\mathrm{y}|=1 \\Rightarrow \\mathrm{x}-\\mathrm{y}= \\pm 1$\n$\\begin{array}{|c|c|}\n\\hline \\mathrm{x}=\\mathrm{y}+1 & \\mathrm{x}=\\mathrm{y}-1 \\\\\n\\hline\\because \\mathrm{x}+\\mathrm{y}=10 & \\because \\mathrm{x}+\\mathrm{y}=10 \\\\\n\\hline 2 \\mathrm{y}=9 & 2 \\mathrm{y}=11 \\\\\n\\hline \\text{Not possible} & \\text{Not possible} \\\\\n\\hline\n\\end{array}$\n$\\begin{aligned} & \\text { Case-III : }|\\mathrm{x}-\\mathrm{y}|=2 \\Rightarrow \\mathrm{x}-\\mathrm{y}= \\pm 2 \\\\ & x-y=2 \\quad \\text { OR } \\quad x-y=-2 \\\\ & \\because \\mathrm{x}+\\mathrm{y}=10 \\quad \\because \\mathrm{x}+\\mathrm{y}=10 \\\\ & x=6, y=4 \\quad x=4, y=6 \\\\ & \\mathrm{P}(|\\mathrm{x}-\\mathrm{y}|=2)={ }^{10} \\mathrm{C}_6\\left(\\frac{1}{3}\\right)^6\\left(\\frac{2}{3}\\right)^4+{ }^{10} \\mathrm{C}_4\\left(\\frac{1}{3}\\right)^4\\left(\\frac{2}{3}\\right)^6 \\\\ & \\mathrm{p}={ }^{10} \\mathrm{C}_5 \\frac{2^5}{3^{10}}+{ }^{10} \\mathrm{C}_6 \\frac{2^4}{3^{10}}+{ }^{10} \\mathrm{C}_4 \\frac{2^6}{3^{10}} \\\\ & 3^9 \\mathrm{p}=\\frac{1}{3}\\left({ }^{10} \\mathrm{C}_5 2^5+{ }^{10} \\mathrm{C}_6 2^4+{ }^{10} \\mathrm{C}_4 2^6\\right) \\\\ & =8288 \\\\ & \\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "dfa3bef91a9c477888e8fa73956a3d36",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/ODTbK81LiwIAR.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/ODTbK81LiwIAR.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "65c4c0c01d30997d3436bb01",
+    "_id": "664466ee278297dee60eda69",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-01-29T14:00:00.000Z",
+    "heldOn": "2024-04-04T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (29 Jan Shift 2)",
-    "title": "JEE Main 2024 (29 Jan Shift 2)"
+    "shortName": "2024 (04 Apr Shift 2)",
+    "title": "JEE Main 2024 (04 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

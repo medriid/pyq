@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (23 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If the system of equations\n$\\begin{aligned} & (\\lambda-1) x+(\\lambda-4) y+\\lambda z=5 \\\\ & \\lambda x+(\\lambda-1) y+(\\lambda-4) z=7 \\\\ & (\\lambda+1) x+(\\lambda+2) y-(\\lambda+2) z=9\\end{aligned}$\nhas infinitely many solutions, then $\\lambda^2+\\lambda$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$6$",
+      "is_correct": false
+    },
+    {
+      "text": "$10$",
+      "is_correct": false
+    },
+    {
+      "text": "$20$",
+      "is_correct": false
+    },
+    {
+      "text": "$12$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& (\\lambda-1) x+(\\lambda-4) y+\\lambda z=5 \\\\\n& \\lambda x+(\\lambda-1) y+(\\lambda-4) z=7 \\\\\n& (\\lambda+1) x+(\\lambda+2) y-(\\lambda+2) z=9\n\\end{aligned}$\n\nFor infinitely many solutions\n$\\begin{aligned}\n& \\mathrm{D}=\\left|\\begin{array}{ccc}\n\\lambda-1 & \\lambda-4 & \\lambda \\\\\n\\lambda & \\lambda-1 & \\lambda-4 \\\\\n\\lambda+1 & \\lambda+2 & -(\\lambda+2)\n\\end{array}\\right|=0 \\\\\n& (\\lambda-3)(2 \\lambda+1)=0 \\\\\n& \\mathrm{D}_{\\mathrm{x}}=\\left|\\begin{array}{ccc}\n5 & \\lambda-4 & \\lambda \\\\\n7 & \\lambda-1 & \\lambda-4 \\\\\n9 & \\lambda+2 & -(\\lambda+2)\n\\end{array}\\right|=0 \\\\\n& 2(3-\\lambda)(23-2 \\lambda)=0 \\\\\n& \\lambda=3 \\\\\n& \\therefore \\lambda^2+\\lambda=9+3=12\n\\end{aligned}$"
+  }
+}

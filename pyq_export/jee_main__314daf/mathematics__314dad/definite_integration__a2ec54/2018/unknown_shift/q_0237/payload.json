@@ -1,0 +1,43 @@
+{
+  "index": 237,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2018 (16 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mi>x</mi></msubsup><mi>t</mi><mfenced separators=\"|\"><mrow><mi>sin</mi><mi>x</mi><mo>-</mo><mi>sin</mi><mi>t</mi></mrow></mfenced><mi>d</mi><mi>t</mi></math>, then"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>'''</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>-</mo><msup><mi>f</mi><mo>''</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mi>cos</mi><mi>x</mi><mo>-</mo><mn>2</mn><mi>x</mi><mi>sin</mi><mi>x</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>'''</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>+</mo><msup><mi>f</mi><mo>''</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>-</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mi>cos</mi><mi>x</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>'''</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>+</mo><msup><mi>f</mi><mo>''</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mi>sin</mi><mi>x</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>'''</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>+</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mi>cos</mi><mi>x</mi><mo>-</mo><mn>2</mn><mi>x</mi><mi>sin</mi><mi>x</mi></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>Given <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mi>x</mi></msubsup><mi>t</mi><mfenced separators=\"|\"><mrow><mi>sin</mi><mi>x</mi><mo>-</mo><mi>sin</mi><mi>t</mi></mrow></mfenced><mi>d</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mi>sin</mi><mi>x</mi><msubsup><mo>&#8747;</mo><mn>0</mn><mi>x</mi></msubsup><mi>t</mi><mi>d</mi><mi>t</mi><mo>-</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mi>x</mi></msubsup><mi>t</mi><mi>sin</mi><mi>t</mi><mi>d</mi><mi>t</mi></math></p><p>On differentiating, we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mfenced separators=\"|\"><mrow><mi>sin</mi><mi>x</mi></mrow></mfenced><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi><msubsup><mo>&#8747;</mo><mn>0</mn><mi>x</mi></msubsup><mi>t</mi><mi>d</mi><mi>t</mi><mo>-</mo><mi>x</mi><mi>sin</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mi>cos</mi><mi>x</mi><msubsup><mo>&#8747;</mo><mn>0</mn><mi>x</mi></msubsup><mi>t</mi><mi>d</mi><mi>t</mi></math></p><p>Differentiating the above equation again, we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>f</mi><mo>''</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mfenced separators=\"|\"><mrow><mi>cos</mi><mi>x</mi></mrow></mfenced><mi>x</mi><mo>-</mo><mfenced separators=\"|\"><mrow><mi>sin</mi><mi>x</mi></mrow></mfenced><msubsup><mo>&#8747;</mo><mn>0</mn><mi>x</mi></msubsup><mi>t</mi><mi>d</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>f</mi><mo>'''</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mi>x</mi><mfenced separators=\"|\"><mrow><mo>-</mo><mi>sin</mi><mi>x</mi></mrow></mfenced><mo>+</mo><mi>cos</mi><mi>x</mi><mo>-</mo><mfenced separators=\"|\"><mrow><mi>sin</mi><mi>x</mi></mrow></mfenced><mi>x</mi><mo>-</mo><mfenced separators=\"|\"><mrow><mi>cos</mi><mi>x</mi></mrow></mfenced><msubsup><mo>&#8747;</mo><mn>0</mn><mi>x</mi></msubsup><mi>t</mi><mi>d</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>f</mi><mo>'''</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>+</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mi>cos</mi><mi>x</mi><mo>-</mo><mn>2</mn><mi>x</mi><mi>sin</mi><mi>x</mi></math>.</p>"
+  }
+}

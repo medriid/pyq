@@ -1,8 +1,8 @@
 {
   "index": 91,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2022 (25 Jun Shift 1)",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2022 (28 Jun Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "The photodiode is used to detect the optical signals. These diodes are preferably operated in reverse biased mode because"
+    "text": "<p>In the following circuit, the correct relation between output <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>Y</mi></mfenced></math> and inputs <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> will be</p><p><img src=\"assets\\qt0091_db26fecf170c.jpg\" style=\"width: 350px; height: 185px;\" /></p>"
   },
   "options": [
     {
-      "text": "fractional change in majority carriers produce higher forward bias current",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><mi>A</mi><mo>&#183;</mo><mi>B</mi></math>",
       "is_correct": false
     },
     {
-      "text": "fractional change in majority carriers produce higher reverse bias current",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><mi>A</mi><mo>+</mo><mi>B</mi></math>",
       "is_correct": false
     },
     {
-      "text": "fractional change in minority carriers produce higher forward bias current",
-      "is_correct": false
-    },
-    {
-      "text": "fractional change in minority carriers produce higher reverse bias current",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><menclose notation=\"top\"><mi>A</mi><mo>&#183;</mo><mi>B</mi></menclose></math>",
       "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><menclose notation=\"top\"><mi>A</mi><mo>+</mo><mi>B</mi></menclose></math>",
+      "is_correct": false
     }
   ],
   "correct_answer": [
-    "D"
+    "C"
   ],
   "solution": {
-    "text": "<p>In photo&ndash;diode, the diode is connected in reverse bias, so initially the current will be very small. If the light is incident on the diode, its photons produce more minority charge carriers, which are called photo-generated charge carriers, due to which the reverse current increases.</p><p>In reverse bias,&nbsp;the width of the depletion region is more and&nbsp;the current is already very small, So the fractional charge in the current due to the light will be large.</p>"
+    "text": "<p>When both of the inputs are given with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>+</mo><mn>10</mn><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></math>&nbsp;that is logical <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>, both of the diodes are in OFF condition and hence supply voltage will appear at the base terminal of the transistor which makes it switched ON and supply voltage gets a path to the ground through this transistors. Therefore, it represents NAND gate.</p><p>Hence,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><menclose notation=\"top\"><mi>A</mi><mo>&#183;</mo><mi>B</mi></menclose></math></p>"
   }
 }

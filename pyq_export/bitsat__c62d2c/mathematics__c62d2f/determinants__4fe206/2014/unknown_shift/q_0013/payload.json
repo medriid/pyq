@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2014",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7d211e05bce84fe206",
+    "chapter_name": "Determinants",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\left|\\begin{array}{ccc}\\mathrm{p} & \\mathrm{q}-\\mathrm{y} & \\mathrm{r}-\\mathrm{z} \\\\ \\mathrm{p}-\\mathrm{x} & \\mathrm{q} & \\mathrm{r}-\\mathrm{z} \\\\ \\mathrm{p}-\\mathrm{x} & \\mathrm{q}-\\mathrm{y} & \\mathrm{r}\\end{array}\\right|=0,$ then the value of\r\n\r\n$\\frac{p}{x}+\\frac{q}{y}+\\frac{r}{z}$ is"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": true
+    },
+    {
+      "text": "$4 \\mathrm{pqr}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\left|\\begin{array}{ccc}\\mathrm{p} & \\mathrm{q}-\\mathrm{y} & \\mathrm{r}-\\mathrm{z} \\\\ \\mathrm{p}-\\mathrm{x} & \\mathrm{q} & \\mathrm{r}-\\mathrm{z} \\\\ \\mathrm{p}-\\mathrm{x} & \\mathrm{q}-\\mathrm{y} & \\mathrm{r}\\end{array}\\right|=0$\r\n\r\nApply $\\mathrm{R}_{1} \\rightarrow \\mathrm{R}_{1}-\\mathrm{R}_{3}$ and $\\mathrm{R}_{2} \\rightarrow \\mathrm{R}_{2}-\\mathrm{R}_{3},$ we get\r\n\r\n$\\left|\\begin{array}{ccc}\\mathrm{x} & 0 & -\\mathrm{z} \\\\ 0 & \\mathrm{y} & -\\mathrm{z} \\\\ \\mathrm{p}-\\mathrm{x} & \\mathrm{q}-\\mathrm{y} & \\mathrm{r}\\end{array}\\right|=0$\r\n\r\n$\\Rightarrow \\mathrm{x}[\\mathrm{yr}+\\mathrm{z}(\\mathrm{q}-\\mathrm{y})]-\\mathrm{z}[0-\\mathrm{y}(\\mathrm{p}-\\mathrm{x})]=0$\r\n\r\n[Expansion along first row $]$\r\n\r\n$\\Rightarrow x y r+z x q+y z p=2 x y z \\Rightarrow \\frac{p}{x}+\\frac{q}{y}+\\frac{r}{z}=2$"
+  }
+}

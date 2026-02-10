@@ -1,8 +1,8 @@
 {
   "index": 241,
   "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2012 (Offline)",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (26 May Online)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "unknown_shift"
   },
   "question": {
-    "text": "Let $a, b \\in R$ be such that the function $f$ given by $f(x)=\\ln |x|+b x^2+a x, x \\neq 0$ has extreme values at $x=-1$ and $x=2$.\nStatement 1: $f$ has local maximum at $x=-1$ and at $x=2$.\nStatement 2: $\\mathrm{a}=\\frac{1}{2}$ and $\\mathrm{b}=\\frac{-1}{4}$"
+    "text": "If a metallic circular plate of radius $50 \\mathrm{~cm}$ is heated so that its radius increases at the rate of $1 \\mathrm{~mm}$ per hour, then the rate at which, the area of the plate increases (in $\\mathrm{cm}^2 /$ hour) is"
   },
   "options": [
     {
-      "text": "\nStatement $1$ is false, statement $2$ is true\n",
+      "text": "\n$5 \\pi$\n",
       "is_correct": false
     },
     {
-      "text": "\nStatement $1$ is true, statement $2$ is true; statement $2$ is a correct explanation for statement $1$\n",
+      "text": "\n$10 \\pi$\n",
       "is_correct": true
     },
     {
-      "text": "\nStatement $1$ is true, statement $2$ is true; statement $2$ is not a correct explanation for statement $1$\n",
+      "text": "\n$100 \\pi$\n",
       "is_correct": false
     },
     {
-      "text": "\nStatement $1$ is true, statement $2$ is false",
+      "text": "\n$50 \\pi$",
       "is_correct": false
     }
   ],
@@ -38,6 +38,6 @@
     "B"
   ],
   "solution": {
-    "text": "$f^{\\prime}(x)=\\frac{1}{x}+2 b x+a$\n$f$ has extremevalues and differentiable\n$\\Rightarrow f^{\\prime}(-1)=0 \\quad \\Rightarrow a-2 b=1$\n$f^{\\prime}(2)=0 \\quad \\Rightarrow a+4 b=-\\frac{1}{2} \\quad \\Rightarrow a=\\frac{1}{2}, b=-\\frac{1}{4}$\n$f^{\\prime \\prime}(-1), f^{\\prime \\prime}(2)$ are negative. $f$ has local maxima at $-1,2$"
+    "text": "Let $A=\\pi \\mathrm{r}^2$ be area of metalic circular plate of $r=50 \\mathrm{~cm}$.\nAlso, given $\\frac{d r}{d t}=1 \\mathrm{~mm}=\\frac{1}{10} \\mathrm{~cm}$\n\n$$\n\\begin{aligned}\n& \\therefore A=\\pi r^2 \\\\\n& \\Rightarrow \\frac{d A}{d t}=2 \\pi r \\frac{d r}{d t}=2 \\pi \\cdot 50 \\cdot \\frac{1}{10}=10 \\pi\n\\end{aligned}\n$$\nHence, area of plate increases in $10 \\pi \\mathrm{cm}^2 /$ hour."
   }
 }

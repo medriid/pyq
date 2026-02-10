@@ -1,0 +1,43 @@
+{
+  "index": 33,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $B=\\left[\\begin{array}{ll}1 & 3 \\\\ 1 & 5\\end{array}\\right]$ and $A$ be a $2 \\times 2$ matrix such that $A B^{-1}=A^{-1}$. If $B C B^{-1}=A$ and $C^4+\\alpha C^2+\\beta I=O$, then $2 \\beta-\\alpha$ is equal to"
+  },
+  "options": [
+    {
+      "text": "16",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "8",
+      "is_correct": false
+    },
+    {
+      "text": "10",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\mathrm{BCB}^{-1}=\\mathrm{A} \\\\\n& \\Rightarrow\\left(\\mathrm{BCB}^{-1}\\right)\\left(\\mathrm{BCB}^{-1}\\right)=\\mathrm{A} \\cdot \\mathrm{A} \\\\\n& \\Rightarrow \\mathrm{BCI} \\mathrm{CB}^{-1}=\\mathrm{A}^2 \\\\\n& \\Rightarrow \\mathrm{BC}^2 \\mathrm{~B}^{-1}=\\mathrm{A}^2 \\\\\n& \\Rightarrow \\mathrm{B}^{-1}\\left(\\mathrm{BC}^2 \\mathrm{~B}^{-1}\\right) \\mathrm{B}=\\mathrm{B}^{-1} \\text { (A.A)B }\n\\end{aligned}$<br />From equation (1)\n$\\begin{aligned}\n& \\mathrm{C}^2=\\mathrm{A}^{-1} \\cdot \\mathrm{A} \\cdot \\mathrm{B} \\\\\n& \\mathrm{C}^2=\\mathrm{B}\n\\end{aligned}$\n$\\begin{aligned}\n& \\text { Also } \\mathrm{AB}^{-1}=\\mathrm{A}^{-1} \\\\\n& \\Rightarrow \\mathrm{AB}^{-1} \\cdot \\mathrm{A}=\\mathrm{A}^{-1} \\mathrm{~A}=\\mathrm{I} \\\\\n& \\Rightarrow \\mathrm{A}^{-1}\\left(\\mathrm{AB}^{-1} \\mathrm{~A}\\right)=\\mathrm{A}^{-1} \\mathrm{I} \\\\\n& \\mathrm{B}^{-1} \\mathrm{~A}=\\mathrm{A}^{-1}\n\\end{aligned}$<br />Now characteristics equation of $\\mathrm{C}^2$ is\n$\\begin{aligned}\n& \\left|C_2-\\lambda I\\right|=0 \\\\\n& |B-\\lambda I|=0\n\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow\\left|\\begin{array}{cc}1-\\lambda & 3 \\\\ 1 & 5-\\lambda\\end{array}\\right|=0 \\\\ & \\Rightarrow(1-\\lambda)(5-1)-3=0 \\Rightarrow\\left(\\lambda^2-6 \\lambda+5\\right)-3=0 \\\\ & \\Rightarrow \\lambda^2-6 \\lambda+2=0 \\\\ & \\Rightarrow \\beta^2-6 \\mathrm{~B}+2 \\mathrm{I}=0 \\\\ & \\Rightarrow \\mathrm{C}^4-6 \\mathrm{C}^2+2 \\mathrm{I}=0 \\\\ & \\alpha=-6 \\\\ & \\beta=2 \\\\ & \\therefore 2 \\beta-\\alpha=4+6=10\\end{aligned}$"
+  }
+}

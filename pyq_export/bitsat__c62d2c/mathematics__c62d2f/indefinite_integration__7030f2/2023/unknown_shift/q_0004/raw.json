@@ -1,0 +1,63 @@
+{
+  "_id": "65b7b88097ae24e9e2db8cfe",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "65b7b85fb3be70ed63adbe85",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2023-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Memory Based Paper 2)",
+      "title": "BITSAT 2023 (Memory Based Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "$\\int \\tan ^{-1} \\sqrt{\\mathrm{x}} \\mathrm{dx}$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "JfcVP",
+      "text": "$(x+1) \\tan ^{-1} \\sqrt{x}-\\sqrt{x}+C$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "ZSZjJ",
+      "text": "$x \\tan ^{-1} \\sqrt{x}-\\sqrt{x}+C$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "RdAbe",
+      "text": "$\\sqrt{x}-x \\tan ^{-1} \\sqrt{x}+C$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "lJ7Vf",
+      "text": "$\\sqrt{x}-(x+1) \\tan ^{-1} \\sqrt{x}+C$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have, $I=\\int 1 \\cdot \\tan ^{-1} \\sqrt{\\mathrm{x}} \\mathrm{dx}$<br />Using by parts,<br />$\\begin{aligned}<br />I & =\\tan ^{-1} \\sqrt{x} \\cdot(x)-\\int \\frac{1}{1+x} \\times \\frac{1}{2 \\sqrt{x}} \\times x d x \\\\<br />& =x \\tan ^{-1} \\sqrt{x} \\cdot-\\int \\frac{x}{(1+x) 2 \\sqrt{x}} d x \\\\<br />& =x \\tan ^{-1} \\sqrt{x}-\\int\\left(\\frac{1+x}{(1+x) 2 \\sqrt{x}}-\\frac{1}{(1+x) 2 \\sqrt{x}}\\right) d x \\\\<br />& =x \\tan ^{-1} \\sqrt{x}-\\int \\frac{d x}{2 \\sqrt{x}}+\\int \\frac{d x}{2 \\sqrt{x}(1+x)} \\\\<br />& =x \\tan ^{-1} \\sqrt{x}-\\sqrt{x}+\\tan ^{-1} \\sqrt{x}+C \\\\<br />& =(x+1) \\tan ^{-1} \\sqrt{x}-\\sqrt{x}+C<br />\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "65b7b85fb3be70ed63adbe85",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2023-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Memory Based Paper 2)",
+    "title": "BITSAT 2023 (Memory Based Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

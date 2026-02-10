@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If \\(1^2 \\cdot\\left({ }^{15} C_1\\right)+2^2 \\cdot\\left({ }^{15} C_2\\right)+3^2 \\cdot\\left({ }^{15} C_3\\right)+\\ldots\\) \\(+15^2 \\cdot\\left({ }^{15} C_{15}\\right)=2^m \\cdot 3^n \\cdot 5^k\\), where \\(m, n, k \\in \\mathbf{N}\\), then \\(\\mathrm{m}+\\mathrm{n}+\\mathrm{k}\\) is equal to :"
+  },
+  "options": [
+    {
+      "text": "$19$",
+      "is_correct": true
+    },
+    {
+      "text": "$21$",
+      "is_correct": false
+    },
+    {
+      "text": "$18$",
+      "is_correct": false
+    },
+    {
+      "text": "$20$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\sum_{\\mathrm{r}=1}^{15} \\mathrm{r}^2\\left({ }^{15} \\mathrm{C}_{\\mathrm{r}}\\right) \\Rightarrow 15 \\sum_{\\mathrm{r}=1}^{15} \\mathrm{r}^{14} \\mathrm{C}_{\\mathrm{r}-1} \\\\ & 15 \\sum_{\\mathrm{r}=1}^{15}(\\mathrm{r}-1+1){ }^{14} \\mathrm{C}_{\\mathrm{r}-1} \\\\ & 15 \\cdot 14 \\sum_{\\mathrm{r}=1}^{15}{ }^{13} \\mathrm{C}_{\\mathrm{r}-2}+15 \\sum_{\\mathrm{r}=1}^{15}{ }^{14} \\mathrm{C}_{\\mathrm{r}-1} \\\\ & 15 \\cdot 14 \\cdot 2^{13}+15 \\cdot 2^{14} \\\\ & 3^1 \\cdot 2^{13}(70+10) \\\\ & 3^1 \\cdot 2^{13} \\cdot 80 \\\\ & 3^1 \\cdot 5^1 \\cdot 2^{17} \\\\ & \\mathrm{~m}=17 \\mathrm{n}=1 \\quad \\mathrm{k}=1 \\\\ & \\text { option }(1)\\end{aligned}$"
+  }
+}

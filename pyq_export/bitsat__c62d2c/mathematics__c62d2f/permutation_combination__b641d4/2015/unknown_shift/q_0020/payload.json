@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cccd6ab1da4b641d4",
+    "chapter_name": "Permutation Combination",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The total number of 4 -digit numbers in which the digits are in descending order, is"
+  },
+  "options": [
+    {
+      "text": "${ }^{n} C_{4} \\times 4 !$",
+      "is_correct": false
+    },
+    {
+      "text": "${ }^{10} \\mathrm{C}_{4}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{10 !}{4 !}$",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Total number of arrangements of 10 digits $0,1,2, \\ldots, 9$ bytaking 4 at atime $={ }^{10} \\mathrm{C}_{4} \\times 4 !$\r\n\r\nWe observe that in every arrangement of 4 selected digits there is just one arrangement in which the digits are in descending order.\r\n\r\n$\\therefore$ Required number of 4 -digit numbers.\r\n\r\n$$\r\n\r\n=\\frac{{ }^{10} \\mathrm{C}_{4} \\times 4 !}{4 !}={ }^{10} \\mathrm{C}_{4}\r\n\r\n$$"
+  }
+}

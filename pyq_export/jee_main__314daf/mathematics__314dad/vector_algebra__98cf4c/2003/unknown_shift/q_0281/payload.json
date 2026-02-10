@@ -1,0 +1,43 @@
+{
+  "index": 281,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2003",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2003",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A tetrahedron has vertices at $\\mathrm{O}(0,0,0), \\mathrm{A}(1,2,1) \\mathrm{B}(2,1,3)$ and $\\mathrm{C}(-1,1,2)$. Then the angle between the faces $\\mathrm{OAB}$ and $\\mathrm{ABC}$ will be"
+  },
+  "options": [
+    {
+      "text": "\n$90^{\\circ}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$cos ^{-1}\\left(\\frac{19}{35}\\right)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\cos ^{-1}\\left(\\frac{17}{31}\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$30^{\\circ}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Vector perpendicular to the face $\\mathrm{OAB}$\n$=\\overrightarrow{\\mathrm{OA}} \\times \\overrightarrow{\\mathrm{OB}}=\\left|\\begin{array}{ccc}\\mathrm{i} & \\mathrm{j} & \\mathrm{k} \\\\ 1 & 2 & 1 \\\\ 2 & 1 & 3\\end{array}\\right|=5 \\mathrm{i}-\\mathrm{j}-3 \\mathrm{k}$\nVector perpendicular to the face $\\mathrm{ABC}$\n$=\\overrightarrow{\\mathrm{AB}} \\times \\overrightarrow{\\mathrm{AC}}=\\left|\\begin{array}{ccc}\\mathrm{i} & \\mathrm{j} & \\mathrm{k} \\\\ 1 & -1 & 2 \\\\ -2 & -1 & 1\\end{array}\\right|=\\mathrm{i}-5 \\mathrm{j}-3 \\mathrm{k}$\nAngle between the faces $=$ Angle between their normals\n$\\cos \\theta=\\left|\\frac{5+5+9}{\\sqrt{35} \\sqrt{35}}\\right|=\\frac{19}{35}$ or $\\theta=\\cos ^{-1}\\left(\\frac{19}{35}\\right)$"
+  }
+}

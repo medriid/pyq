@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd839e4041267a866788",
+    "chapter_name": "Differential Equations",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $y=\\left(x+\\sqrt{1+x^{2}}\\right)^{n},$ then $\\left(1+x^{2}\\right) \\frac{d^{2} y}{d x^{2}}+x \\frac{d y}{d x}$ is"
+  },
+  "options": [
+    {
+      "text": "$n^{2} y$",
+      "is_correct": true
+    },
+    {
+      "text": "$-n^{2} y$",
+      "is_correct": false
+    },
+    {
+      "text": "$-y$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 x^{2} y$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$y=\\left(x+\\sqrt{1+x^{2}}\\right)^{n}$\r\n\r\n$$\r\n\r\n\\begin{array}{c}\r\n\r\n\\frac{d y}{d x}=n\\left(x+\\sqrt{1+x^{2}}\\right)^{n-1}\\left(1+\\frac{1}{2}\\left(1+x^{2}\\right)^{-1 / 2} \\cdot 2 x\\right) \\\\\r\n\r\n\\qquad \\begin{array}{c}\r\n\r\n\\frac{d y}{d x}=n\\left(x+\\sqrt{1+x^{2}}\\right)^{n-1} \\frac{\\left(\\sqrt{1+x^{2}}+x\\right)}{\\sqrt{1+x^{2}}} \\\\\r\n\r\n=\\frac{n\\left(\\sqrt{1+x^{2}}+x\\right)^{n}}{\\sqrt{1+x^{2}}}\r\n\r\n\\end{array}\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nor $\\sqrt{1+x^{2}} \\frac{d y}{d x}=n y$ or $\\sqrt{1+x^{2}} y_{1}=n y$\r\n\r\n$$\r\n\r\n\\left(y_{1}=\\frac{d y}{d x}\\right)\r\n\r\n$$\r\n\r\nSquaring, $\\left(1+x^{2}\\right) y_{1}^{2}=n^{2} y^{2}$\r\n\r\nDifferentiating,\r\n\r\n$$\r\n\r\n\\left(1+x^{2}\\right) 2 y_{1} y_{2}+y_{1}^{2} \\cdot 2 x=n^{2} \\cdot 2 y y_{1}\r\n\r\n$$\r\n\r\nor $\\left(1+x^{2}\\right) y_{2}+x y_{1}=n^{2} y$"
+  }
+}

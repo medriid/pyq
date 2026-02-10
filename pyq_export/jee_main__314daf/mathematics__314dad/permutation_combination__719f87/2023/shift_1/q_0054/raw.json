@@ -1,62 +1,57 @@
 {
-  "_id": "648b5a70417cc3fb48d6841f",
-  "type": "singleCorrect",
-  "level": 2,
+  "_id": "648b5a71417cc3fb48d686a1",
+  "type": "numerical",
+  "level": 3,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "648b5a3a0d9d0b909f7b648e",
+      "_id": "648b5a3a0d9d0b909f7b6494",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2023-04-08T09:00:00.000Z",
+      "heldOn": "2023-04-13T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2023 (08 Apr Shift 1)",
-      "title": "JEE Main 2023 (08 Apr Shift 1)"
+      "shortName": "2023 (13 Apr Shift 1)",
+      "title": "JEE Main 2023 (13 Apr Shift 1)"
     }
   ],
   "question": {
-    "text": "The number of ways, in which&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;girls and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>&nbsp;boys can be seated at a round&nbsp;&nbsp;table so that no two girls sit together is",
+    "text": "<p>The number of seven digit positive integers formed using the digits <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>&nbsp;only and sum of the digits equal to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math> is<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>_</mi><mi>_</mi><mi>_</mi><mi>_</mi><mi>_</mi><mi>_</mi><mi>_</mi><mo>.</mo></math></p>",
     "image": null
   },
-  "options": [
-    {
-      "id": "Cqmd0",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>720</mn></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "uDSaB",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>126</mn><mo>(</mo><mn>5</mn><mo>!</mo><msup><mo>)</mo><mn>2</mn></msup></math>",
-      "image": null,
-      "isCorrect": true
-    },
-    {
-      "id": "Bv5v5",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><msup><mfenced><mn>360</mn></mfenced><mn>2</mn></msup></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "5vC35",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><msup><mfenced><mn>720</mn></mfenced><mn>2</mn></msup></math>",
-      "image": null,
-      "isCorrect": false
-    }
-  ],
-  "correctValue": null,
+  "options": [],
+  "correctValue": "413",
   "solution": {
-    "text": "<blockquote><p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>&nbsp;boys and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;girls are to be seated around a circular such that no two girls to be seated together,</p><p>Now we know that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>&nbsp;objects can be arranged in a circle in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>!</mo></math>&nbsp;ways.</p><p>Let us first arrange&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>&nbsp;boys in circular arrangement in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>7</mn><mo>-</mo><mn>1</mn></mrow></mfenced><mo>!</mo></math>&nbsp;ways.</p><p>Now there will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>&nbsp;gaps.</p><p>So let us select any&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;gaps out of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>&nbsp;gaps and arrange&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;girls in the chosen gaps. This can be done in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>5</mn><none></none><mprescripts></mprescripts><none></none><mn>7</mn></mmultiscripts><mo>&#215;</mo><mn>5</mn><mo>!</mo></math>&nbsp;ways.</p><p>Hence, required arrangements are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>!</mo><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>5</mn><none></none><mprescripts></mprescripts><none></none><mn>7</mn></mmultiscripts><mo>&#215;</mo><mn>5</mn><mo>!</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>6</mn><mo>&#215;</mo><mn>5</mn><mo>!</mo><mo>&#215;</mo><mfrac><mrow><mn>7</mn><mo>&#215;</mo><mn>6</mn></mrow><mn>2</mn></mfrac><mo>&#215;</mo><mn>5</mn><mo>!</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>126</mn><msup><mfenced><mrow><mn>5</mn><mo>!</mo></mrow></mfenced><mn>2</mn></msup></math>.</p><p>Therefore, required arrangements are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>126</mn><msup><mfenced><mrow><mn>5</mn><mo>!</mo></mrow></mfenced><mn>2</mn></msup></math></p></blockquote>",
+    "text": "<blockquote><p>The given numbers are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn></math>&nbsp;and sum of digits should be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math>.</p><p>Case&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mo>&#160;</mo><menclose notation=\"bottom\"><mn>4</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>3</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose></math>&nbsp;,Here the sum of the digits is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math>.</p><p>The number of ways arranging them is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>7</mn><mo>!</mo></mrow><mrow><mn>5</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>42</mn></math>.</p><p>Case&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>:</mo><mo>&#160;</mo><menclose notation=\"bottom\"><mn>4</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>2</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>2</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose></math>.</p><p>The number of ways arranging them is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>7</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo><mn>4</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>105</mn></math></p><p>Case&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>:</mo><mo>&#160;</mo><menclose notation=\"bottom\"><mn>3</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>2</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>2</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>2</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose></math>.</p><p>The number of ways arranging them is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>7</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo><mn>3</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>140</mn></math></p><p>Case&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>:</mo><mo>&#160;</mo><menclose notation=\"bottom\"><mn>3</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>3</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>2</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose></math>.</p><p>The number of ways arranging them is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>7</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo><mn>4</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>105</mn></math></p><p>Case&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>:</mo><mo>&#160;</mo><menclose notation=\"bottom\"><mn>2</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>2</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>2</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>2</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>2</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose><mo>&#160;</mo><menclose notation=\"bottom\"><mn>1</mn></menclose></math></p><p>The number of ways arranging them is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>7</mn><mo>!</mo></mrow><mrow><mn>5</mn><mo>!</mo><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>21</mn></math></p><p>The total number of ways are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>42</mn><mo>+</mo><mn>105</mn><mo>+</mo><mn>140</mn><mo>+</mo><mn>105</mn><mo>+</mo><mn>21</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>413</mn></math></p><p>Therefore, the required answer is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>413</mn></math>.</p></blockquote>",
     "image": null
   },
-  "videoSolution": null,
+  "videoSolution": {
+    "videoId": "51b9d895708944679be4a2bb2adb1f10",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/zgfclVSt98xhK.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/zgfclVSt98xhK.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main"
+  },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "648b5a3a0d9d0b909f7b648e",
+    "_id": "648b5a3a0d9d0b909f7b6494",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2023-04-08T09:00:00.000Z",
+    "heldOn": "2023-04-13T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2023 (08 Apr Shift 1)",
-    "title": "JEE Main 2023 (08 Apr Shift 1)"
+    "shortName": "2023 (13 Apr Shift 1)",
+    "title": "JEE Main 2023 (13 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

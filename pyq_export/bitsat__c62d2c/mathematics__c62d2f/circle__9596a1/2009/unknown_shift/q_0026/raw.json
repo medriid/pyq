@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e77f6f5bfc7ab78ae557",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0cc821b6514e527d73",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009",
+      "title": "BITSAT 2009"
+    }
+  ],
+  "question": {
+    "text": "If \\(|r| > \\) land \\(x=a+\\frac{a}{r}+\\frac{a}{r^2}+\\ldots\\) to \\(\\infty\\),\n\\(\\mathrm{y}=\\mathrm{b}-\\frac{\\mathrm{b}}{\\mathrm{r}}+\\frac{\\mathrm{b}}{\\mathrm{r}^2}-\\ldots . \\text { to } \\infty\\)\nand \\(z=c+\\frac{c}{r^2}+\\frac{c}{r^4}+\\ldots\\) to \\(\\infty\\), then \\(\\frac{x y}{z}=\\)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "et8AC",
+      "text": "\\(\\frac{\\mathrm{ab}}{\\mathrm{c}}\\)",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "rvtRZ",
+      "text": "\\(\\frac{\\mathrm{ac}}{\\mathrm{b}}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Bufmy",
+      "text": "\\(\\frac{\\mathrm{bc}}{\\mathrm{a}}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "aqIXa",
+      "text": "1",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Since \\(|\\mathrm{r}| > 1, \\frac{1}{|\\mathrm{r}|}  < 1\\)\n\\(\\therefore \\mathrm{x}=\\frac{\\mathrm{a}}{1-\\frac{1}{\\mathrm{r}}}=\\frac{\\mathrm{ar}}{\\mathrm{r}-1}\\)\nSimilarly, \\(y=\\frac{b}{1-\\left(-\\frac{1}{r}\\right)}=\\frac{b r}{r+1}\\) and\n\\(\\begin{gathered}\nz=\\frac{c}{1-\\frac{1}{r^2}}=\\frac{cr^2}{r^2-1} \\quad ...(1)\\\\\n\\therefore \\quad x y=\\frac{a r}{r-1} \\times \\frac{b r}{r+1}=\\frac{a b r^2}{r^2-1} \\quad ...(2)\n\\end{gathered}\\)\nDividing (2) by (1), we get\n\\(\\frac{\\mathrm{xy}}{\\mathrm{z}}=\\frac{\\mathrm{abr}^2}{\\mathrm{r}^2-1} \\times \\frac{\\mathrm{r}^2-1}{\\mathrm{cr}^2}=\\frac{\\mathrm{ab}}{\\mathrm{c}}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0cc821b6514e527d73",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009",
+    "title": "BITSAT 2009"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

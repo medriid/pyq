@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e8276f5bfc7ab78aeb13",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44c",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2021-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021",
+      "title": "BITSAT 2021"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The value of $\\int \\cos (\\log x) \\mathrm{d} \\mathrm{x}$ is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "6A09L",
+      "text": "$\\frac{1}{2}[\\sin (\\log x)+\\cos (\\log x)]+C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "095Eh",
+      "text": "$\\frac{x}{2}[\\sin (\\log x)+\\cos (\\log x)]+C$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "F4kTd",
+      "text": "$\\frac{x}{2}[\\sin (\\log x)-\\cos (\\log x)]+C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "AHqyU",
+      "text": "$\\frac{1}{2}[\\sin (\\log x)-\\cos (\\log x)]+C$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let\r\n\r\n\\(\\mathrm{I}=\\int \\cos (\\log \\mathrm{x}) \\cdot 1 \\mathrm{~d} \\mathrm{x} \\ldots . . \\text { (i) }\\)\r\n\r\nUse integral by parts,\r\n\r\n\\(\\begin{aligned} &I=\\cos (\\log x) \\cdot x-\\int[-\\sin (\\log x)] \\cdot \\frac{1}{x} \\cdot x d x \\\\ &=x \\cdot \\cos (\\log x)+\\int \\sin (\\log x) \\cdot 1 d x \\\\ &=x \\cdot \\cos (\\log x)+\\left[\\sin (\\log x) \\cdot x-\\int \\cos (\\log x) \\cdot \\frac{1}{x} \\cdot x d x\\right]+C \\\\ &=x \\cdot(\\log x)+\\left[x \\sin (\\log x)-\\int \\cos (\\log x) d x\\right]+C \\\\ &=x\\{\\sin (\\log x)+\\cos (\\log x)\\}-I+C[f r o m \\text { Eq. (i) }] \\\\ &\\Rightarrow I=\\frac{x}{2}\\{\\sin (\\log x)+\\cos (\\log x)\\}+C \\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44c",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2021-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021",
+    "title": "BITSAT 2021"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

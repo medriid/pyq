@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd837f780b3c67d85974",
+    "chapter_name": "Area Under Curves",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area enclosed between the curve $y=\\log _e(x+e)$ and the coordinate axes is"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": true
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<br /><img src=\"assets\\st0006_11f58b3d291e.png\"><br><br />Required area $A=\\int_{1-e}^0 y d x=\\int_{1-e}^0 \\log _e(x+e) d x$<br />put $x+e=t \\Rightarrow d x=d t$ also when $x=1-e, t=$ 1 and when $x=0, t=e$<br />$\\therefore A=\\int_1^e \\log _e t d t=\\left[t \\log _e t-t\\right]_1^e$<br />$e-e-0+1=1$"
+  }
+}

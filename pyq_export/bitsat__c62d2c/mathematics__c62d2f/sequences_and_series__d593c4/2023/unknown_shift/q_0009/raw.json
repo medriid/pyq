@@ -1,0 +1,63 @@
+{
+  "_id": "65b7b87797ae24e9e2db8c9f",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "65b7b85fb3be70ed63adbe84",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2023-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Memory Based Paper 1)",
+      "title": "BITSAT 2023 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "If the sum of an infinite GP $a, a r, a r^2, a r^3, \\ldots$ is 15 and the sum of the squares of its each term is 150 , then the sum of $a r^2, a r^4, a r^6, \\ldots$ is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "tmaFM",
+      "text": "$\\frac{5}{2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "gINnb",
+      "text": "$\\frac{1}{2}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "7voIp",
+      "text": "$\\frac{25}{2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "5NINJ",
+      "text": "$\\frac{9}{2}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Sum of infinite terms of series a $+a r+a r^2+$ $=15$<br />$\\therefore \\frac{a}{1-r}=15$ ...(i)<br />Sequence formed by square of terms: $a^2, a^2 r^2, a^2 r^4, a^2 r^6 \\ldots$<br />$a^2+a^2 r^2+\\cdots=150$<br />Sum $=\\frac{a^2}{1-r^2}=150$<br />$\\Rightarrow \\frac{a}{1-r} \\cdot \\frac{a}{1+r}=15 \\Rightarrow 15 \\cdot \\frac{a}{1+r}=150$ $\\left(\\because \\frac{\\mathrm{a}}{1-\\mathrm{r}}=15\\right)$<br />$\\Rightarrow \\frac{a}{1+r}=10$ ...(ii)<br />On dividing equation (i) by (ii)<br />$\\frac{1+\\mathrm{r}}{1-\\mathrm{r}}=\\frac{15}{10}$<br />or $r=\\frac{1}{5} \\Rightarrow a=12$<br />Now series : $a r^2+a r^4+a r^6+\\ldots$<br />Sum $=\\frac{a^2}{1-r^2}=\\frac{12 \\cdot\\left(\\frac{1}{25}\\right)}{1-\\frac{1}{25}}=\\frac{1}{2}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "65b7b85fb3be70ed63adbe84",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2023-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Memory Based Paper 1)",
+    "title": "BITSAT 2023 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

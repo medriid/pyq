@@ -1,0 +1,43 @@
+{
+  "index": 200,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2014 (09 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602457307cfc9adff9a7fb",
+    "chapter_name": "Semiconductors",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<p>Identify the gate and match <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>,</mo><mi>B</mi><mo>,</mo><mi>Y</mi></math> in the bracket to check.<br /><br />&nbsp; &nbsp;&nbsp;<img src=\"assets\\qt0200_51c84a735cc7.png\" style=\"width: 307px; height: 116px;\" /></p>"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>R</mi><mo>&#160;</mo><mo>(</mo><mi>A</mi><mo>=</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mi>B</mi><mo>=</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mi>Y</mi><mo>=</mo><mn>0</mn><mo>)</mo></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi><mi>O</mi><mi>R</mi><mo>&#160;</mo><mo>(</mo><mi>A</mi><mo>=</mo><mn>0</mn><mo>,</mo><mo>&#160;</mo><mi>B</mi><mo>=</mo><mn>0</mn><mo>,</mo><mo>&#160;</mo><mi>Y</mi><mo>=</mo><mn>0</mn><mo>)</mo></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi><mi>O</mi><mi>T</mi><mo>&#160;</mo><mo>(</mo><mi>A</mi><mo>=</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mi>B</mi><mo>=</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mi>Y</mi><mo>=</mo><mn>1</mn><mo>)</mo></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>N</mi><mi>D</mi><mo>&#160;</mo><mo>(</mo><mi>A</mi><mo>=</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mi>B</mi><mo>=</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mi>Y</mi><mo>=</mo><mn>1</mn><mo>)</mo></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p><img src=\"assets\\st0200_73a9fff852ca.png\" style=\"width: 336px; height: 79px;\" /></p><p>The output of the first NAND gate</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>Y</mi><mo>&#39;</mo></msup><mo>=</mo><mover><mrow><mi>A</mi><mo>&#183;</mo><mi>B</mi></mrow><mo>&#175;</mo></mover></math></p><p>The output of the second NAND gate</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><mover><mrow><mfenced><mover><mrow><mi>A</mi><mo>&#183;</mo><mi>B</mi></mrow><mo>&#175;</mo></mover></mfenced><mo>&#183;</mo><mfenced><mover><mrow><mi>A</mi><mo>&#183;</mo><mi>B</mi></mrow><mo>&#175;</mo></mover></mfenced></mrow><mo>&#175;</mo></mover><mspace linebreak=\"newline\"></mspace><mo>&#8658;</mo><mo>&#160;</mo><mi>Y</mi><mo>=</mo><mfenced><mover><mover><mrow><mi>A</mi><mo>&#183;</mo><mi>B</mi></mrow><mo>&#175;</mo></mover><mo>&#175;</mo></mover></mfenced><mo>+</mo><mfenced><mover><mover><mrow><mi>A</mi><mo>&#183;</mo><mi>B</mi></mrow><mo>&#175;</mo></mover><mo>&#175;</mo></mover></mfenced><mspace linebreak=\"newline\"></mspace><mo>&#8658;</mo><mo>&#160;</mo><mi>Y</mi><mo>=</mo><mi>A</mi><mo>&#183;</mo><mi>B</mi></math></p><p>So, the equivalent circuit will be an AND gate.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>N</mi><mi>D</mi><mo>&#160;</mo><mo>(</mo><mi>A</mi><mo>=</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mi>B</mi><mo>=</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mi>Y</mi><mo>=</mo><mn>1</mn><mo>)</mo></math></p>"
+  }
+}

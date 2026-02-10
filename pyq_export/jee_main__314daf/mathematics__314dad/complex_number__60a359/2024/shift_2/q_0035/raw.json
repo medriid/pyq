@@ -1,23 +1,58 @@
 {
-  "_id": "6682bd33ba0e94a3c4025b25",
-  "type": "numerical",
+  "_id": "66446712970e6e9ab542cfec",
+  "type": "singleCorrect",
   "level": 2,
   "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda69",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-04T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (04 Apr Shift 2)",
+      "title": "JEE Main 2024 (04 Apr Shift 2)"
+    }
+  ],
   "question": {
-    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>,</mo><mi>β</mi></math> be the roots of the equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><msqrt><mn>6</mn></msqrt><mi>x</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>0</mn></math> such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>Im</mo><mo>(</mo><mi>α</mi><mo>)</mo><mo>&gt;</mo><mo>Im</mo><mo>(</mo><mi>β</mi><mo>)</mo></math>. Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mo> </mo><mi>b</mi></math> be integers not divisible by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo> </mo></math>and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> be a natural number such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>α</mi><mn>99</mn></msup><mi>β</mi></mfrac><mo>+</mo><msup><mi>α</mi><mn>98</mn></msup><mo>=</mo><msup><mn>3</mn><mi>n</mi></msup><mo>(</mo><mi>a</mi><mo>+</mo><mi>i</mi><mi>b</mi><mo>)</mo><mo>,</mo><mo> </mo><mi>i</mi><mo>=</mo><msqrt><mo>-</mo><mn>1</mn></msqrt></math>. Then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mi>a</mi><mo>+</mo><mi>b</mi></math> is equal to ___________.",
+    "text": "The area (in sq. units) of the region $S=\\{z \\in \\mathbb{C}:|z-1| \\leq 2 ;(z+\\bar{z})+i(z-\\bar{z}) \\leq 2, \\operatorname{Im}(z) \\geq 0\\}$ is",
     "image": null
   },
-  "options": [],
-  "correctValue": "49",
+  "options": [
+    {
+      "id": "u512b",
+      "text": "$\\frac{7 \\pi}{3}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ZH8xI",
+      "text": "$\\frac{7 \\pi}{4}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "RIjSV",
+      "text": "$\\frac{17 \\pi}{8}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Lha8Z",
+      "text": "$\\frac{3 \\pi}{2}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><msqrt><mn>6</mn></msqrt><mi>x</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>0</mn></math> has roots <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo> </mo><mo>&amp;</mo><mo> </mo><mi>β</mi></math></p><p>Now, solving <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><msqrt><mn>6</mn></msqrt><mi>x</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>0</mn></math> we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mrow><msqrt><mn>6</mn></msqrt><mo>±</mo><mi>i</mi><msqrt><mn>6</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><msqrt><mn>3</mn></msqrt><mfenced><mrow><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>±</mo><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac><mi>i</mi></mrow></mfenced></math></p><p>Now, taking <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><msqrt><mn>3</mn></msqrt><mfenced><msup><mi>e</mi><mrow><mi>i</mi><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow></msup></mfenced><mo>,</mo><mo> </mo><mi>β</mi><mo>=</mo><msqrt><mn>3</mn></msqrt><mfenced><msup><mi>e</mi><mrow><mo>-</mo><mi>i</mi><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow></msup></mfenced></math></p><p>Now, solving <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>α</mi><mn>99</mn></msup><mi>β</mi></mfrac><mo>+</mo><msup><mi>α</mi><mn>98</mn></msup><mo>=</mo><msup><mi>α</mi><mn>98</mn></msup><mfenced><mrow><mfrac><mi>α</mi><mi>β</mi></mfrac><mo>+</mo><mn>1</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><msup><mi>α</mi><mn>98</mn></msup><mo>(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo>)</mo></mrow><mi>β</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><msup><mn>3</mn><mn>49</mn></msup><msup><mfenced><msup><mi>e</mi><mrow><mi>i</mi><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow></msup></mfenced><mn>98</mn></msup><mfenced><msqrt><mn>6</mn></msqrt></mfenced></mrow><mrow><msqrt><mn>3</mn></msqrt><mfenced><msup><mi>e</mi><mrow><mo>-</mo><mi>i</mi><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow></msup></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>3</mn><mn>49</mn></msup><mfenced><msup><mi>e</mi><mrow><mi>i</mi><mn>99</mn><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow></msup></mfenced><mo>×</mo><msqrt><mn>2</mn></msqrt></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>3</mn><mn>49</mn></msup><mfenced><mrow><mi>cos</mi><mfrac><mrow><mn>99</mn><mi>π</mi></mrow><mn>4</mn></mfrac><mo>+</mo><mi>i</mi><mi>sin</mi><mfrac><mrow><mn>99</mn><mi>π</mi></mrow><mn>4</mn></mfrac></mrow></mfenced><mo>×</mo><msqrt><mn>2</mn></msqrt></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>3</mn><mn>49</mn></msup><mfenced><mrow><mi>cos</mi><mfenced><mrow><mn>25</mn><mi>π</mi><mo>-</mo><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow></mfenced><mo>+</mo><mi>i</mi><mi>sin</mi><mfenced><mrow><mn>25</mn><mi>π</mi><mo>-</mo><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow></mfenced></mrow></mfenced><mo>×</mo><msqrt><mn>2</mn></msqrt></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>3</mn><mn>49</mn></msup><mo>(</mo><mo>-</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>3</mn><mi>n</mi></msup><mo>(</mo><mi>a</mi><mo>+</mo><mi>i</mi><mi>b</mi><mo>)</mo></math></p><p>So, on comparing we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>49</mn><mo>,</mo><mo> </mo><mi>a</mi><mo>=</mo><mo>-</mo><mn>1</mn><mo>,</mo><mo> </mo><mi>b</mi><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∴</mo><mi>n</mi><mo>+</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>49</mn><mo>-</mo><mn>1</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>49</mn></math></p>",
+    "text": "Put $z=x+i y$\n$|z-1| \\leq 2 \\Rightarrow(x-1)^2+y^2 \\leq 4$ ...(i)\n$\\Rightarrow x-y \\leq 1$ ...(ii)\n$\\operatorname{Im}(\\mathrm{z}) \\geq 0 \\Rightarrow \\mathrm{y} \\geq 0$ ...(iii)\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/44NeRiJ51psaA1AJU1-WwgVrc-T_Un6nP6nbucOHcM4.original.fullsize.png\"><br />$\\begin{aligned} & \\text { Required area } \\\\ & =\\text { Area of semi-circle }- \\text { area of sector A } \\\\ & \\frac{1}{2} \\pi(2)^2-\\frac{\\pi}{2} \\\\ & =\\frac{3 \\pi}{2}\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "dcaf29361df44256bfd372bab4c4b074",
+    "videoId": "615286a9168e4e5d88490c3334454672",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/zrvBzANQX1pRh.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/zrvBzANQX1pRh.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/yTQCR274ayzWP.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/yTQCR274ayzWP.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6628114842d540dfcb148ecb",
@@ -34,25 +69,15 @@
     ],
     "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
   },
-  "syllabusCategory": "noChange",
-  "previousYearPapers": [
-    {
-      "_id": "65c4c0c01d30997d3436bb01",
-      "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-01-29T14:00:00.000Z",
-      "isVisible": true,
-      "shortName": "2024 (29 Jan Shift 2)",
-      "title": "JEE Main 2024 (29 Jan Shift 2)"
-    }
-  ],
+  "syllabusCategory": "outOfSyllabusButGoodToSolve",
   "previousYear": {
-    "_id": "65c4c0c01d30997d3436bb01",
+    "_id": "664466ee278297dee60eda69",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-01-29T14:00:00.000Z",
+    "heldOn": "2024-04-04T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (29 Jan Shift 2)",
-    "title": "JEE Main 2024 (29 Jan Shift 2)"
+    "shortName": "2024 (04 Apr Shift 2)",
+    "title": "JEE Main 2024 (04 Apr Shift 2)"
   },
-  "evalStatus": "notAttempted",
-  "lastPracticed": null
+  "evalStatus": "incorrect",
+  "lastPracticed": "2025-03-05T14:58:15.667Z"
 }

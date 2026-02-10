@@ -1,0 +1,43 @@
+{
+  "index": 44,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (31 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "<p>The number of ways in which <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn></math> identical apples can be distributed among three children such that each child gets at least <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> apples, is</p>"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>406</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>130</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>142</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>136</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>Let us initially distribute <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> apples to each children.</p><p>So, the remaining <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math> apples are to be distributed such that each children can get any number of apples.</p><p>So, the required number of ways will be given by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi><mo>=</mo><mmultiscripts><mi>C</mi><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mrow><mi>n</mi><mo>+</mo><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mmultiscripts></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mrow><mn>15</mn><mo>+</mo><mn>3</mn><mo>-</mo><mn>1</mn></mrow></mmultiscripts></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>17</mn></mmultiscripts></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mfrac><mrow><mn>17</mn><mo>×</mo><mn>16</mn></mrow><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mn>136</mn></math></p>"
+  }
+}

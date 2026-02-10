@@ -1,0 +1,43 @@
+{
+  "index": 63,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2022 (29 Jul Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "6160242d490647b9be3b3bc6",
+    "chapter_name": "Alternating Current",
+    "year": "2022",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "<p>A coil of inductance <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>&#160;</mo><mi mathvariant=\"normal\">H</mi></math> and resistance <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></math> is connected to a battery of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></math>. Determine approximately :</p><p>(a) The time elapsed before the current acquires half of its steady-state&nbsp;value<br />(b) The energy stored in the magnetic field associated with the coil at an instant <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>&#160;</mo><mi>ms</mi></math> after the circuit is switched on. (Given <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ln</mi><mn>2</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>693</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>e</mi><mfrac><mrow><mo>-</mo><mn>3</mn></mrow><mn>2</mn></mfrac></msup><mo>=</mo><mn>0</mn><mo>.</mo><mn>25</mn></math>)</p>"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>10</mn><mo>&#160;</mo><mi>ms</mi><mo>;</mo><mi>U</mi><mo>=</mo><mn>2</mn><mo>&#160;</mo><mi>mJ</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>10</mn><mo>&#160;</mo><mi>ms</mi><mo>;</mo><mi>U</mi><mo>=</mo><mn>1</mn><mo>&#160;</mo><mi>mJ</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>7</mn><mo>&#160;</mo><mi>ms</mi><mo>;</mo><mi>U</mi><mo>=</mo><mn>1</mn><mo>&#160;</mo><mi>mJ</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>7</mn><mo>&#160;</mo><mi>ms</mi><mo>;</mo><mi>U</mi><mo>=</mo><mn>2</mn><mo>&#160;</mo><mi>mJ</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<blockquote><p>Given circuit is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>-</mo><mi>L</mi></math> growth circuit</p><p><img src=\"assets\\st0063_779a93fd91c7.png\" style=\"width: 200px; height: 133px;\" /></p><p>The current is the circuit is given by,&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>i</mi><mo>=</mo><mfrac><mi>E</mi><mi>R</mi></mfrac><mfenced><mrow><mn>1</mn><mo>-</mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mi>t</mi><mi>&#964;</mi></mfrac></mrow></msup></mrow></mfenced></math></p><p>For current to be half of the peak value,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>i</mi><mo>=</mo><mfrac><mi>E</mi><mrow><mn>2</mn><mi>R</mi></mrow></mfrac><mo>=</mo><mfrac><mi>E</mi><mi>R</mi></mfrac><mfenced><mrow><mn>1</mn><mo>-</mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mi>t</mi><mi>&#964;</mi></mfrac></mrow></msup></mrow></mfenced></math></p><p>Solving <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">t</mi><mo>=</mo><mi>&#964;</mi><mi>ln</mi><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mi>L</mi><mi>R</mi></mfrac><mi>ln</mi><mn>2</mn><mo>=</mo><mfrac><mn>1</mn><mn>100</mn></mfrac><mn>0</mn><mo>.</mo><mn>693</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>00693</mn></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8771;</mo><mn>7</mn><mo>&#160;</mo><mi>ms</mi></math></p><p>At time&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>15</mn><mo>&#160;</mo><mi>ms</mi></math>,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>i</mi><mfenced><mrow><mn>15</mn><mo>&#160;</mo><mi>ms</mi></mrow></mfenced><mo>=</mo><mfrac><mi>E</mi><mi>R</mi></mfrac><mfenced><mrow><mn>1</mn><mo>-</mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>15</mn><mn>10</mn></mfrac></mrow></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>i</mi><mo>=</mo><mfrac><mn>6</mn><mn>100</mn></mfrac><mfenced><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></mfenced><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>&#215;</mo><mfrac><mn>6</mn><mn>100</mn></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>045</mn><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>U</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>L</mi><msup><mi>i</mi><mn>2</mn></msup></math></p><p>by solving we get <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>U</mi><mo>=</mo><mn>1</mn><mo>&#160;</mo><mi>mJ</mi></math>.</p></blockquote>"
+  }
+}

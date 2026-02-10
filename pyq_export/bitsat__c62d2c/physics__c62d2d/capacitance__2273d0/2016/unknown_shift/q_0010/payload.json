@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2016",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd750f84ffa5822273d0",
+    "chapter_name": "Capacitance",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A parallel plate capacitor of area ' $A$ ' plate separation ' $d$ ' is filled with two dielectrics as shown. What is the capacitance of the arrangement?\r\n\r\n<img src=\"assets\\qt0010_29836e3f50de.png\">"
+  },
+  "options": [
+    {
+      "text": "$\\frac{3 K \\varepsilon_{0} A}{4 d}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{4 K \\varepsilon_{0} A}{3 d}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{(K+1) \\varepsilon_{0} A}{2 d}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{K(K+3) \\varepsilon_{0} A}{2(K+1) d}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\r\n\r\nc_{1}=\\frac{(A / 2) \\varepsilon_{0}}{d / 2}=\\frac{A \\varepsilon_{0}}{d}, c_{2}=K \\frac{A \\varepsilon_{0}}{d}, c_{3}=K \\frac{A \\varepsilon_{0}}{2 d}\r\n\r\n$$\r\n\r\n<img src=\"assets\\st0010_7ff3a623cf46.png\"><br>\r\n\r\n$$\r\n\r\n\\therefore \\quad c_{e q .}=\\frac{c_{1} \\times c_{2}}{c_{1}+c_{2}}+c_{3}=\\frac{(3+\\mathrm{K}) \\mathrm{K} A \\varepsilon_{0}}{2 d(\\mathrm{~K}+1)}\r\n\r\n$$\r\n\r\n$\\left(\\because C_{1}\\right.$ and $C_{2}$ are in series and resultant of these two in parallel with $C_{3}$ )"
+  }
+}

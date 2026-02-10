@@ -1,0 +1,43 @@
+{
+  "index": 264,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $f$ is a real-valued differentiable function satisfying $|f(x)-f(y)| \\leq(x-y)^2, x, y \\in R$ and $f(0)=0$, then $f(1)$ equals"
+  },
+  "options": [
+    {
+      "text": "\n-1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n0\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n2\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& f^{\\prime}(x)=\\lim _{h \\rightarrow 0} \\frac{f(x+h)-f(x)}{h} \\\\\n& \\left|f^{\\prime}(x)\\right|=\\lim _{h \\rightarrow 0}\\left|\\frac{f(x+h)-f(x)}{h}\\right| \\leq \\lim _{h \\rightarrow 0}\\left|\\frac{(h)^2}{h}\\right| \\\\\n& \\Rightarrow\\left|f^{\\prime}(x)\\right| \\leq 0 \\Rightarrow f^{\\prime}(x)=0 \\quad \\Rightarrow f(x)=\\text { constant } \\\\\n& \\text { As } f(0)=0 \\Rightarrow f(1)=0 .\n\\end{aligned}\n$$"
+  }
+}

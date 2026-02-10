@@ -1,62 +1,62 @@
 {
-  "_id": "648b5a63417cc3fb48d65c50",
+  "_id": "648b5a64417cc3fb48d65d0e",
   "type": "singleCorrect",
-  "level": 2,
+  "level": 3,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "615d92eade3d91842a5cf7d3",
+      "_id": "615d92ebde3d91842a5cf7d5",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2013-04-22T09:00:00.000Z",
+      "heldOn": "2013-04-25T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2013 (22 Apr Online)",
-      "title": "JEE Main 2013 (22 Apr Online)"
+      "shortName": "2013 (25 Apr Online)",
+      "title": "JEE Main 2013 (25 Apr Online)"
     }
   ],
   "question": {
-    "text": "The maximum area of a right angled triangle with hypotenuse $h$ is :",
+    "text": "If an equation of a tangent to the curve, $y-\\cos (x+f),-1-1 \\leq x \\leq 1+\\pi$, is $x+2 y=k$ then $k$ is equal to :",
     "image": null
   },
   "options": [
     {
-      "id": "rg9Ra",
-      "text": "\n$\\frac{h^2}{2 \\sqrt{2}}$\n",
+      "id": "n0f2j",
+      "text": "\n1\n",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "JYj5O",
-      "text": "\n$\\frac{h^2}{2}$\n",
+      "id": "YTuYy",
+      "text": "\n2\n",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "4NTda",
-      "text": "\n$\\frac{h^2}{\\sqrt{2}}$\n",
+      "id": "9odMX",
+      "text": "\n$\\frac{\\pi}{4}$\n",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "JmR8F",
-      "text": "\n$\\frac{h^2}{4}$",
+      "id": "Bth2f",
+      "text": "\n$\\frac{\\pi}{2}$",
       "image": null,
       "isCorrect": true
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "Let base $=b$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/mge2TNH4GJMxZxcICG5WkqmSl_BA-XMfLFcVlcRlV4g.original.fullsize.png\"><br>\nAltitude (or perpendicular) $=\\sqrt{h^2-b^2}$ Area, $\\mathrm{A}=\\frac{1}{2} \\times$ base $\\times$ altitude $=\\frac{1}{2} \\times b \\times \\sqrt{h^2-b^2}$ $\\Rightarrow \\frac{d \\mathrm{~A}}{d b}=\\frac{1}{2}\\left[\\sqrt{h^2-b^2}+b \\cdot \\frac{-2 b}{2 \\sqrt{h^2-b^2}}\\right]$ $=\\frac{1}{2}\\left[\\frac{h^2-2 b^2}{\\sqrt{h^2-b^2}}\\right]$\nPut $\\frac{d \\mathrm{~A}}{d b}=0, \\Rightarrow b=\\frac{h}{\\sqrt{2}}$\nMaximumarea $=\\frac{1}{2} \\times \\frac{h}{\\sqrt{2}} \\times \\sqrt{h^2-\\frac{h^2}{2}}=\\frac{h^2}{4}$",
+    "text": "Let $y=\\cos (x+y)$\n$$\n\\Rightarrow \\frac{d y}{d x}=-\\sin (x+y)\\left(1+\\frac{d y}{d x}\\right)\n$$\nNow, given equation of tangent is\n$$\n\\begin{aligned}\n&x+2 y=k \\\\\n&\\Rightarrow \\text { Slope }=\\frac{-1}{2}\n\\end{aligned}\n$$\nSo, $\\frac{d y}{d x}=\\frac{-1}{2}$ put this value in (1), we get\n$$\n\\begin{aligned}\n&\\frac{-1}{2}=-\\sin (x+y)\\left(1-\\frac{1}{2}\\right) \\\\\n&\\Rightarrow \\sin (x+y)=1 \\\\\n&\\Rightarrow x+y=\\frac{\\pi}{2} \\Rightarrow y=\\frac{\\pi}{2}-x\n\\end{aligned}\n$$\nNow $\\frac{\\pi}{2}-x=\\cos (x+y)$\n$$\n\\Rightarrow x=\\frac{\\pi}{2} \\text { and } y=0\n$$\nThus $x+2 y=k \\quad \\Rightarrow \\frac{\\pi}{2}=k$",
     "image": null
   },
   "videoSolution": null,
-  "syllabusCategory": "noChange",
+  "syllabusCategory": "outOfSyllabus",
   "previousYear": {
-    "_id": "615d92eade3d91842a5cf7d3",
+    "_id": "615d92ebde3d91842a5cf7d5",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2013-04-22T09:00:00.000Z",
+    "heldOn": "2013-04-25T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2013 (22 Apr Online)",
-    "title": "JEE Main 2013 (22 Apr Online)"
+    "shortName": "2013 (25 Apr Online)",
+    "title": "JEE Main 2013 (25 Apr Online)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

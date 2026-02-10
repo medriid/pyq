@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cccd6ab1da4b641d4",
+    "chapter_name": "Permutation Combination",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of different seven-digit numbers that can be written using only the three digit 1 , 2 and 3 with the condition that the digit 2 occurs twice in each number is"
+  },
+  "options": [
+    {
+      "text": "\r\n${ }^7 C_2 2^5$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n${ }^7 p_2 2^5$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n${ }^7 C_2 5^2$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\nNone of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Other than 2, remaining five places can be filled by 1 and 3 for each place. The number of ways for five places is $2 \\times 2 \\times 2 \\times 2 \\times 2=2^5$. For 2 , selecting 2 places out of 7 is ${ }^7 C_2$. Hence, the required number of ways is ${ }^7 C_2 \\times 2^5$."
+  }
+}

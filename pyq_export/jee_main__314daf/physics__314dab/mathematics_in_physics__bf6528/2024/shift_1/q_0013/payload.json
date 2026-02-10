@@ -1,8 +1,8 @@
 {
   "index": 13,
   "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2024 (06 Apr Shift 1)",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "To find the spring constant $(k)$ of a spring experimentally, a student commits $2 \\%$ positive error in the measurement of time and $1 \\%$ negative error in measurement of mass. The percentage error in determining value of $k$ is :"
+    "text": "In an expression $a \\times 10^{\\mathrm{b}}$;"
   },
   "options": [
     {
-      "text": "$5 \\%$",
+      "text": "$b$ is order of magnitude for $a \\geq 5$",
+      "is_correct": false
+    },
+    {
+      "text": "$b$ is order of magnitude for $a \\leq 5$",
       "is_correct": true
     },
     {
-      "text": "$1 \\%$",
+      "text": "$a$ is order of magnitude for $b \\leq 5$",
       "is_correct": false
     },
     {
-      "text": "$3 \\%$",
-      "is_correct": false
-    },
-    {
-      "text": "$4 \\%$",
+      "text": "$b$ is order of magnitude for $5 < a \\leq 10$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "A"
+    "B"
   ],
   "solution": {
-    "text": "$\\begin{aligned} & \\mathrm{T}=2 \\pi \\sqrt{\\frac{\\mathrm{m}}{\\mathrm{k}}} \\\\ & \\mathrm{T}^2 \\propto \\frac{\\mathrm{m}}{\\mathrm{k}} \\\\ & \\frac{2 \\Delta \\mathrm{T}}{\\mathrm{T}} \\%=\\frac{\\Delta \\mathrm{m}}{\\mathrm{m}} \\%-\\frac{\\Delta \\mathrm{k}}{\\mathrm{k}} \\% \\\\ & \\frac{\\Delta \\mathrm{k}}{\\mathrm{k}} \\%=\\frac{\\Delta \\mathrm{m}}{\\mathrm{m}} \\%-\\frac{2 \\Delta \\mathrm{T}}{\\mathrm{T}} \\% \\\\ & \\frac{\\Delta \\mathrm{k}}{\\mathrm{k}} \\%=(-1) \\%-2(2) \\%=|-5 \\%|=5 \\%\\end{aligned}$"
+    "text": "$\\begin{aligned} & a \\times 10^b \\\\ & \\text { if } a \\leq 5 \\text { order is } b \\\\ & a>5 \\text { order is } b+1\\end{aligned}$"
   }
 }

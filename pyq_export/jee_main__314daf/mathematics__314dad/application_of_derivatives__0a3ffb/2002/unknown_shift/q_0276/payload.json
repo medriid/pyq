@@ -1,0 +1,43 @@
+{
+  "index": 276,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2002",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2002",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The maximum distance from origin of a point on the curve $x=a \\sin t-b \\sin \\left(\\frac{a t}{b}\\right)$ \n$y=a \\cos t-b \\cos \\left(\\frac{a t}{b}\\right)$, both $a, b>0$ is"
+  },
+  "options": [
+    {
+      "text": "\na - b\n",
+      "is_correct": true
+    },
+    {
+      "text": "\na + b\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\sqrt{a^2+b^2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\sqrt{a^2-b^2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Distance of origin from $(x, y)=\\sqrt{x^2+y^2}$\n$$\n=\\sqrt{a^2+b^2-2 a b \\cos \\left(t-\\frac{a t}{b}\\right)}=\\sqrt{a^2+b^2-2 a b}\\left[\\because \\max \\cdot \\cos \\left(t-\\frac{a t}{b}\\right)=1\\right]=a-b\n$$"
+  }
+}

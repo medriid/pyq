@@ -1,62 +1,57 @@
 {
-  "_id": "6644671d970e6e9ab542d051",
-  "type": "singleCorrect",
+  "_id": "66446759970e6e9ab542d27b",
+  "type": "numerical",
   "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "664466ee278297dee60eda6a",
+      "_id": "664466ef278297dee60eda70",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-04-05T09:00:00.000Z",
+      "heldOn": "2024-04-09T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (05 Apr Shift 1)",
-      "title": "JEE Main 2024 (05 Apr Shift 1)"
+      "shortName": "2024 (09 Apr Shift 1)",
+      "title": "JEE Main 2024 (09 Apr Shift 1)"
     }
   ],
   "question": {
-    "text": "Let $f(x)=x^5+2 x^3+3 x+1, x \\in \\mathbf{R}$, and $g(x)$ be a function such that $g(f(x))=x$ for all $x \\in \\mathbf{R}$. Then $\\frac{g(7)}{g^{\\prime}(7)}$ is equal to :",
+    "text": "If a function $f$ satisfies $f(\\mathrm{~m}+\\mathrm{n})=f(\\mathrm{~m})+f(\\mathrm{n})$ for all $\\mathrm{m}, \\mathrm{n} \\in \\mathbf{N}$ and $f(1)=1$, then the largest natural number $\\lambda$ such that $\\sum_{k=1}^{2022} f(\\lambda+k) \\leq(2022)^2$ is equal to _________",
     "image": null
   },
-  "options": [
-    {
-      "id": "smHCl",
-      "text": "14",
-      "image": null,
-      "isCorrect": true
-    },
-    {
-      "id": "mFOJZ",
-      "text": "42",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "Gmuyp",
-      "text": "7",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "BUyJA",
-      "text": "1",
-      "image": null,
-      "isCorrect": false
-    }
-  ],
-  "correctValue": null,
+  "options": [],
+  "correctValue": "1010",
   "solution": {
-    "text": "$\\begin{aligned} & f(x)=x^5+2 x^3+3 x+1 \\\\ & f^{\\prime}(x)=5 x^4+6 x^2+3 \\\\ & f^{\\prime}(1)=5+6+3=14 \\\\ & g(f(x))=x \\\\ & g^{\\prime}(f(x)) f^{\\prime}(x)=1 \\\\ & \\text { for } f(x)=7 \\\\ & \\Rightarrow x^5+2 x^3+3 x+1=7 \\\\ & \\Rightarrow x=1 \\\\ & g^{\\prime}(7) f^{\\prime}(1)=1 \\Rightarrow g^{\\prime}(7)=\\frac{1}{f^{\\prime}(1)}=\\frac{1}{14}\\end{aligned}$\n$\\begin{aligned} & x=1, f(x)=7 \\Rightarrow g(7)=1 \\\\ & \\frac{g(7)}{g^{\\prime}(7)}=\\frac{1}{1 / 14}=14\\end{aligned}$",
+    "text": "$\\begin{aligned}\n& \\mathrm{f}(\\mathrm{m}+\\mathrm{n})=\\mathrm{f}(\\mathrm{m})+\\mathrm{f}(\\mathrm{n}) \\\\\n& \\Rightarrow \\mathrm{f}(\\mathrm{x})=\\mathrm{kx} \\\\\n& \\Rightarrow \\mathrm{f}(1)=1 \\\\\n& \\Rightarrow \\mathrm{k}=1 \\\\\n& \\mathrm{f}(\\mathrm{x})=\\mathrm{x}\n\\end{aligned}$<br />Now\n$\\sum_{\\mathrm{k}=1}^{2022} \\mathrm{f}(\\lambda+\\mathrm{k}) \\leq(2022)^2$\n$\\begin{aligned} & \\Rightarrow \\sum_{\\mathrm{k}=1}^{2022}(\\lambda+\\mathrm{k}) \\leq(2022)^2 \\\\ & \\Rightarrow 2022 \\lambda+\\frac{2022 \\times 2023}{2} \\leq(2022)^2\\end{aligned}$\n$\\begin{aligned}\n& \\Rightarrow \\lambda \\leq 2022-\\frac{2023}{2} \\\\\n& \\Rightarrow \\lambda \\leq 1010.5\n\\end{aligned}$\n$\\therefore$ largest natural no. $\\lambda$ is 1010 .",
     "image": null
   },
-  "videoSolution": null,
+  "videoSolution": {
+    "videoId": "8431282a924544c99d68f4cfe4b13817",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/GcU7h0tjbxmLy.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/GcU7h0tjbxmLy.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "664466ee278297dee60eda6a",
+    "_id": "664466ef278297dee60eda70",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-04-05T09:00:00.000Z",
+    "heldOn": "2024-04-09T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (05 Apr Shift 1)",
-    "title": "JEE Main 2024 (05 Apr Shift 1)"
+    "shortName": "2024 (09 Apr Shift 1)",
+    "title": "JEE Main 2024 (09 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

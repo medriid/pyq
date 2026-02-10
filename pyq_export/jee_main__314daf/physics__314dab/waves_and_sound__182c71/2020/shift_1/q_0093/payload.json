@@ -1,8 +1,8 @@
 {
   "index": 93,
-  "type": "numerical",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2020 (08 Jan Shift 1)",
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2020 (05 Sep Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "A one metre long (both ends open) organ pipe is kept in a gas that has double the density of air at STP. Assuming the speed of sound in air at STP is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>/</mo><mi mathvariant=\"normal\">s</mi><mo>,</mo></math> the frequency difference between the fundamental and second harmonic of this pipe is __________ Hz."
+    "text": "Assume that the displacement (s) of air is proportional to the pressure difference <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>&#916;</mi><mi>p</mi></mrow></mfenced></math> created by a sound wave. Displacement (s) further depends on the speed of sound (v), density of air<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>&#961;</mi></mfenced></math> and the frequency (f). If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#916;</mi><mi>p</mi><mo mathvariant=\"italic\">~</mo><mn mathvariant=\"italic\">10</mn><mo mathvariant=\"italic\">&#160;</mo><mi>P</mi><mi>a</mi><mo mathvariant=\"italic\">,</mo><mi>n</mi><mo mathvariant=\"italic\">~</mo><mn mathvariant=\"italic\">300</mn><mo mathvariant=\"italic\">&#160;</mo><mi>m</mi><mo mathvariant=\"italic\">/</mo><mi>s</mi><mo mathvariant=\"italic\">,</mo><mi>p</mi><mo mathvariant=\"italic\">~</mo><mn mathvariant=\"italic\">1</mn><mo mathvariant=\"italic\">&#160;</mo><mi>k</mi><mi>g</mi><mo mathvariant=\"italic\">/</mo><msup><mi>m</mi><mn mathvariant=\"italic\">3</mn></msup></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>~</mo><mn>1000</mn><mi>H</mi><mi>z</mi></math>, then&nbsp;s &nbsp;will be of the order of (take the multiplicative constant to be 1 )"
   },
-  "options": [],
-  "correct_answer": "106",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>100</mn></mfrac><mi>mm</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>&#160;</mo><mi>mm</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac><mi>mm</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>&#160;</mo><mi>mm</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
   "solution": {
-    "text": "<blockquote><p><math><mi>V</mi><mo>=</mo><msqrt><mfrac><mrow><mi>B</mi></mrow><mrow><mi>&#961;</mi></mrow></mfrac></msqrt></math><br /><math><mfrac><mrow><msub><mrow><mi>V</mi></mrow><mrow><mi>p</mi><mi>i</mi><mi>p</mi><mi>e</mi></mrow></msub></mrow><mrow><msub><mrow><mi>V</mi></mrow><mrow><mi>a</mi><mi>i</mi><mi>r</mi></mrow></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><msqrt><mfrac><mrow><mi>B</mi></mrow><mrow><mn>2</mn><mi>&#961;</mi></mrow></mfrac></msqrt></mrow><mrow><msqrt><mfrac><mrow><mi>B</mi></mrow><mrow><mi>&#961;</mi></mrow></mfrac></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><msqrt><mn>2</mn></msqrt></mrow></mfrac></math><br /><math><msub><mrow><mi>V</mi></mrow><mrow><mi>p</mi><mi>i</mi><mi>p</mi><mi>e</mi></mrow></msub><mo>=</mo><mfrac><mrow><msub><mrow><mi>V</mi></mrow><mrow><mi>a</mi><mi>i</mi><mi>r</mi></mrow></msub></mrow><mrow><msqrt><mn>2</mn></msqrt></mrow></mfrac></math><br /><math><msub><mrow><mi>f</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>=</mo><mfrac><mrow><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><msub><mrow><mi>V</mi></mrow><mrow><mi>p</mi><mi>i</mi><mi>p</mi><mi>e</mi></mrow></msub></mrow><mrow><mn>2</mn><mi mathvariant=\"script\">l</mi></mrow></mfrac></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>f</mi><mn>1</mn></msub><mo>-</mo><msub><mi>f</mi><mn>0</mn></msub><mo>=</mo><mfrac><msub><mi>V</mi><mrow><mi>p</mi><mi>i</mi><mi>p</mi><mi>e</mi></mrow></msub><mrow><mn>2</mn><mi mathvariant=\"script\">l</mi></mrow></mfrac><mo>=</mo><mfrac><mn>300</mn><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac><mo>=</mo><mn>105.75</mn><mo>&#160;</mo><mi>H</mi><mi>z</mi><mo>&#8201;</mo><mo>&#8201;</mo><mfenced separators=\"|\"><mrow><mi>i</mi><mi>f</mi><mo>&#8201;</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>1.41</mn></mrow></mfenced></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>106.05</mn><mo>&#160;</mo><mi>H</mi><mi>z</mi><mo>&#8201;</mo><mo>&#8201;</mo><mfenced separators=\"|\"><mrow><mi>i</mi><mi>f</mi><mo>&#8201;</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>1.414</mn></mrow></mfenced></math></p></blockquote>"
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfrac><msub><mi>P</mi><mn>0</mn></msub><mrow><mi>B</mi><mi>K</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><msub><mi>P</mi><mn>0</mn></msub><mrow><mi>P</mi><msup><mi>V</mi><mn>2</mn></msup><mfrac><mi>&#969;</mi><mi>V</mi></mfrac></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><msub><mi>P</mi><mn>0</mn></msub><mrow><mi>P</mi><msub><mi>V</mi><mi>&#969;</mi></msub></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>10</mn><mrow><mn>1</mn><mo>&#215;</mo><mn>1000</mn><mo>&#215;</mo><mn>300</mn></mrow></mfrac><mi mathvariant=\"normal\">m</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8771;</mo><mfrac><mn>3</mn><mn>100</mn></mfrac><mi>mm</mi></math></p><p>&nbsp;</p>"
   }
 }

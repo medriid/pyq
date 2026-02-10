@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7089278b42ebda9c0a",
+    "chapter_name": "Alternating Current",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In the circuit shown in the figure, the $\\mathrm{AC}$ source gives a voltage $V=20 \\cos (2000 t)$ neglecting source resistance, the voltmeter and ammeter reading will be\r\n<img src=\"assets\\qt0004_1911b8ac8851.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\r\n$0 \\mathrm{~V}, 0.47 \\mathrm{~A}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$282 \\mathrm{~V}, 1.41 \\mathrm{~A}$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n$1.41 \\mathrm{~V}, 0.47 \\mathrm{~A}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$15 \\mathrm{~V}, 837 \\mathrm{~A}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given, $R_1=8 \\Omega$\r\n$\\begin{aligned} R_2 & =2 \\Omega \\\\ L & =5 \\mathrm{mH} \\\\ C & =50 \\mu \\mathrm{F}\\end{aligned}$\r\nand $\\quad V_0=20 \\cos (2000 t)$\r\nImpedance, $Z=\\sqrt{R^2+\\left(X_L-X_C\\right)^2}$\r\nAs, here, $X_L=\\omega L=2000 \\times 5 \\times 10^{-3}=10 \\Omega$\r\nSimilarly, $X_L=\\frac{1}{\\omega C}=\\frac{1}{2000 \\times 50 \\times 10^{-6}}=10 \\Omega$ $\\because \\quad X_L=X_C$, Hence, $i_{\\max }=\\frac{V_0}{Z}=\\frac{20}{(8+2)}=2 \\mathrm{~A}$\r\nHence, $\\quad i_{\\operatorname{rms}}=\\frac{i_{\\max }}{\\sqrt{2}}=\\frac{2}{\\sqrt{2}}=1.41 \\mathrm{~A}$ and\r\n$$\r\n\\begin{aligned}\r\nV & =R_2 i_{\\mathrm{rms}}=1.41 \\times 2 \\\\\r\n& =282 \\mathrm{~V}\r\n\\end{aligned}\r\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2016",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7794f6528d292916a7",
+    "chapter_name": "Quadratic Equation",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $a, b$ and $c$ are real numbers then the roots of the equation $(x-a)(x-b)+(x-b)(x-c)+(x-c)(x$$-a)=0$ are always"
+  },
+  "options": [
+    {
+      "text": "real",
+      "is_correct": true
+    },
+    {
+      "text": "imaginary",
+      "is_correct": false
+    },
+    {
+      "text": "positive",
+      "is_correct": false
+    },
+    {
+      "text": "negative",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given equation is $(x-a)(x-b)+(x-b)$ $(x-c)+(x-c)(x-a)=0$\r\n\r\n$\\Rightarrow 3 x^{2}-2(b+a+c) x+a b+b c+c a=0$\r\n\r\nNow, here $A=3, B=-2(a+b+c)$\r\n\r\n$C=a b+b c+c a$\r\n\r\n$\\therefore D=\\sqrt{B^{2}-4 A C}$\r\n\r\n$=\\sqrt{(-2(a+b+c))^{2}-4(3)(a b+b c+c a)}$\r\n\r\n$=\\sqrt{4(a+b+c)^{2}-12(a b+b c+c a)}$\r\n\r\n$=2 \\sqrt{a^{2}+b^{2}+c^{2}-a b-b c-c a}$\r\n\r\n$=2 \\sqrt{\\frac{1}{2}\\left\\{(a-b)^{2}-(b-c)^{2}+(c-a)^{2}\\right\\}} \\geq 0$"
+  }
+}

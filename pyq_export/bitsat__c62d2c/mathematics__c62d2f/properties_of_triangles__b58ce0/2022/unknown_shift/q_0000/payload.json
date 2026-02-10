@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd82ee203f86bfb58ce0",
+    "chapter_name": "Properties of Triangles",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If in a $\\triangle A B C, 2 b^2=a^2+c^2$, then $\\frac{\\sin 3B}{\\sin B}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\r\n$\\frac{c^2-a^2}{2 c a}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$\\frac{c^2-a^2}{c a}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$\\frac{\\left(c^2-a^2\\right)^2}{(c a)^2}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$\\left[\\frac{c^2-a^2}{2 c a}\\right]^2$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\frac{\\sin 3 B}{\\sin B}=\\frac{3 \\sin B-4 \\sin ^3 B}{\\sin B}$\r\n$=3-4 \\sin ^2 B$\r\n$=3-4\\left(1-\\cos ^2 B\\right)$\r\n$=-1+\\frac{4\\left(a^2+c^2-b^2\\right)^2}{4(a c)^2}$\r\n$=-1+\\frac{\\left(\\frac{a^2+c^2}{2}\\right)^2}{(a c)^2}$\r\n$=-1+\\frac{\\left(a^2+c^2\\right)^2}{4(a c)^2}$\r\n$=(\\frac{c^2-a^2}{2 a c})^2$"
+  }
+}

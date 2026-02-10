@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2014",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7de14c41a6083e62a3",
+    "chapter_name": "Sets and Relations",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The set $(A \\backslash B) \\cup(B \\backslash A)$ is equal to]"
+  },
+  "options": [
+    {
+      "text": "$[A \\backslash(A \\cap B)] \\cap[B \\backslash(A \\cap B)]$",
+      "is_correct": false
+    },
+    {
+      "text": "$(A \\cup B) \\backslash(A \\cap B)$",
+      "is_correct": true
+    },
+    {
+      "text": "$A \\backslash(A \\cap B)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\overrightarrow{A \\cap B} \\backslash A \\cup B$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given set can be written as $(A-B) \\cup(B-A)=(A \\cup B)-(A \\cap B)$\r\n\r\n(By definition of symmetric difference) Hence, $(\\mathrm{A} \\backslash \\mathrm{B}) \\cup(\\mathrm{B} \\backslash \\mathrm{A})=(\\mathrm{A} \\cup \\mathrm{B}) \\backslash(\\mathrm{A} \\cap \\mathrm{B})$"
+  }
+}

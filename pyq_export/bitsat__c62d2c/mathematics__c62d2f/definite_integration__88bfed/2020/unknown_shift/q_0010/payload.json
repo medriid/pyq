@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2020",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83e6f6052b2388bfed",
+    "chapter_name": "Definite Integration",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int_{0}^{\\infty} \\frac{\\mathrm{dx}}{\\left(\\mathrm{x}^{2}+\\mathrm{a}^{2}\\right)\\left(\\mathrm{x}^{2}+\\mathrm{b}^{2}\\right)}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\pi a b}{a+b}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{2(a+b)}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{2 a b(a+b)}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\pi(a+b)}{2 a b}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\int_{0}^{\\infty} \\frac{d x}{\\left(x^{2}+a^{2}\\right)\\left(x^{2}+b^{2}\\right)}=\\frac{1}{b^{2}-a^{2}}$\r\n\r\n$\\int_{0}^{\\infty} \\frac{\\left(x^{2}+b^{2}\\right)-\\left(x^{2}+a^{2}\\right)}{\\left(x^{2}+a^{2}\\right)\\left(x^{2}+b^{2}\\right)}$\r\n\r\n$=\\frac{1}{b^{2}-a^{2}} \\int_{0}^{\\infty}\\left[\\frac{1}{x^{2}+a^{2}}-\\frac{1}{x^{2}+b^{2}}\\right] d x$\r\n\r\n$=\\frac{1}{b^{2}-a^{2}}\\left[\\frac{1}{a} \\tan ^{-1} \\frac{x}{a}-\\frac{1}{b} \\tan ^{-1} \\frac{x}{b}\\right]_{0}^{\\infty}$\r\n\r\n$=\\frac{1}{b^{2}-a^{2}}\\left[\\frac{\\pi}{2 a}-\\frac{\\pi}{2 b}\\right]=\\frac{\\pi}{2 a b(a+b)}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 100,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2007",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int \\frac{d x}{\\cos x+\\sqrt{3} \\sin x}$ equals"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{2} \\log \\tan \\left(\\frac{x}{2}+\\frac{\\pi}{12}\\right)+c$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{1}{2} \\log \\tan \\left(\\frac{x}{2}-\\frac{\\pi}{12}\\right)+c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\log \\tan \\left(\\frac{\\mathrm{x}}{2}+\\frac{\\pi}{12}\\right)+\\mathrm{c}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\log \\tan \\left(\\frac{\\mathrm{x}}{2}-\\frac{\\pi}{12}\\right)+\\mathrm{c}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\int \\frac{d x}{\\cos x+\\sqrt{3} \\sin x}$\n$=\\frac{1}{2} \\int \\sec \\left(x-\\frac{\\pi}{3}\\right) d x$\n$=\\frac{1}{2} \\log \\tan \\left(\\frac{x}{2}-\\frac{\\pi}{6}+\\frac{\\pi}{4}\\right)+c$\n$=\\frac{1}{2} \\log \\tan \\left(\\frac{x}{2}+\\frac{\\pi}{12}\\right)+c$."
+  }
+}

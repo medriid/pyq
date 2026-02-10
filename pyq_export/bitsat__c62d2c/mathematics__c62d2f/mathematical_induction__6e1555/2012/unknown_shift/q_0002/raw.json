@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7a46f5bfc7ab78ae6a7",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d76",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012",
+      "title": "BITSAT 2012"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "Let $\\mathrm{T}(k)$ be the statement $1+3+5+\\ldots+$ $(2 k-1)=k^{2}+10$\r\nWhich of the following is correct?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "lVaLE",
+      "text": "$\\mathrm{T}(1)$ is true",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "kQj4O",
+      "text": "$\\mathrm{T}(k)$ is true $\\Rightarrow \\mathrm{T}(k+1)$ is true",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "nohjK",
+      "text": "$\\mathrm{T}(n)$ is true for all $n \\in \\mathbf{N}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "WOo3X",
+      "text": "All above are correct",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "When $\\mathrm{k}=1, \\mathrm{LHS}=1$ but $\\mathrm{RHS}=1+10=11$\r\n$\\therefore \\mathrm{T}(1)$ is not true Let $\\mathrm{T}(k)$ is true. That is\r\n$\\begin{array}{l}\r\n1+3+5+\\ldots .+(2 k-1)=k^{2}+10 \\\\\r\n\\text { Now, } 1+3+5+\\ldots . .+(2 k-1)+(2 k+1) \\\\\r\n=k^{2}+10+2 k+1=(k+1)^{2}+10\r\n\\end{array}$\r\n$\\therefore \\mathrm{T}(k+1)$ is true.\r\nThat is $\\mathrm{T}(k)$ is true $\\Rightarrow \\mathrm{T}(k+1)$ is true.\r\nBut $\\mathrm{T}(n)$ is not true for all $n \\in \\mathbf{N},$ as $\\mathrm{T}(1)$ is not true.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d76",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012",
+    "title": "BITSAT 2012"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

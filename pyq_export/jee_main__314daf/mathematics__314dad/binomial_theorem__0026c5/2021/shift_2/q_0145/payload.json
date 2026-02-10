@@ -1,8 +1,8 @@
 {
   "index": 145,
-  "type": "numerical",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2021 (18 Mar Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2021 (25 Jul Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "<p>Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts></math> denote the binomial coefficient of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mi>r</mi></msup></math> in&nbsp;the expansion of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>+</mo><mi>x</mi><msup><mo>)</mo><mi>n</mi></msup></math>. If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mn>10</mn></munderover><mfenced><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>k</mi></mrow></mfenced><mmultiscripts><mi>C</mi><mi>k</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><mo>=</mo><mi>&#945;</mi><mo>.</mo><msup><mn>3</mn><mn>10</mn></msup><mo>+</mo><mi>&#946;</mi><mo>&#183;</mo><msup><mn>2</mn><mn>10</mn></msup><mo>,</mo><mo>&#160;</mo><mi>&#945;</mi><mo>,</mo><mo>&#160;</mo><mi>&#946;</mi><mo>&#8712;</mo><mi>R</mi></math>,&nbsp;then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi><mo>+</mo><mi>&#946;</mi></math>&nbsp;is equal to ___ .</p>"
+    "text": "The sum of all those terms which are rational numbers in the expansion of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><msup><mn>2</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mo>+</mo><msup><mn>3</mn><mfrac><mn>1</mn><mn>4</mn></mfrac></msup></mrow></mfenced><mn>12</mn></msup></math>&nbsp;is:"
   },
-  "options": [],
-  "correct_answer": "19",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>89</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>35</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>43</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
   "solution": {
-    "text": "<p>Instead of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mi>k</mi><none/><mprescripts/><none/><mi>n</mi></mmultiscripts></math> it must be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mi>k</mi><none/><mprescripts/><none/><mn>10</mn></mmultiscripts></math> i.e.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mn>10</mn></munderover><mfenced><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>k</mi></mrow></mfenced><mmultiscripts><mi>C</mi><mi>k</mi><none/><mprescripts/><none/><mn>10</mn></mmultiscripts><mo>=</mo><mi>&#945;</mi><mo>&#183;</mo><msup><mn>3</mn><mn>10</mn></msup><mo>+</mo><mi>&#946;</mi><mo>&#183;</mo><msup><mn>2</mn><mn>10</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mi>H</mi><mi>S</mi><mo>=</mo><mn>4</mn><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mn>10</mn></munderover><mmultiscripts><mi>C</mi><mi>k</mi><none/><mprescripts/><none/><mn>10</mn></mmultiscripts><mo>+</mo><mn>3</mn><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mn>10</mn></munderover><mi>k</mi><mo>&#183;</mo><mfrac><mn>10</mn><mi>k</mi></mfrac><mo>&#183;</mo><mmultiscripts><mi>C</mi><mrow><mi>k</mi><mo>-</mo><mn>1</mn></mrow><none/><mprescripts/><none/><mn>9</mn></mmultiscripts></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mo>.</mo><msup><mn>2</mn><mn>10</mn></msup><mo>+</mo><mn>3</mn><mo>.</mo><mn>10</mn><mo>.</mo><msup><mn>2</mn><mn>9</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>19</mn><mo>.</mo><msup><mn>2</mn><mn>10</mn></msup><mo>=</mo><mi>&#945;</mi><mo>.</mo><msup><mn>3</mn><mn>10</mn></msup><mo>+</mo><mi>&#946;</mi><mo>.</mo><msup><mn>2</mn><mn>10</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#945;</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>&#946;</mi><mo>=</mo><mn>19</mn><mo>&#8658;</mo><mi>&#945;</mi><mo>+</mo><mi>&#946;</mi><mo>=</mo><mn>19</mn></math></p>"
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>r</mi><mi>th</mi></msup></math>&nbsp;term in the expansion of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><msup><mn>2</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mo>+</mo><msup><mn>3</mn><mfrac><mn>1</mn><mn>4</mn></mfrac></msup></mrow></mfenced><mn>12</mn></msup></math>&nbsp;is&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mn>12</mn></mmultiscripts><msup><mfenced><mn>2</mn></mfenced><mfrac><mi>r</mi><mn>3</mn></mfrac></msup><mo>&#183;</mo><msup><mfenced><mn>3</mn></mfenced><mfrac><mrow><mn>12</mn><mo>-</mo><mi>r</mi></mrow><mn>4</mn></mfrac></msup></math></p><p>Since,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub></math> will be rational number, when&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>6</mn><mo>,</mo><mn>9</mn><mo>,</mo><mn>12</mn><mo>&#160;</mo></math>and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>8</mn><mo>,</mo><mn>12</mn><mo>&#160;</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>r</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>12</mn></math>&nbsp;for rational term of the expansion</p><p>Therefore,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub><mo>+</mo><msub><mi>T</mi><mn>13</mn></msub><mo>=</mo><mn>1</mn><mo>&#215;</mo><msup><mn>3</mn><mn>3</mn></msup><mo>+</mo><mn>1</mn><mo>&#215;</mo><msup><mn>2</mn><mn>4</mn></msup><mo>&#215;</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>27</mn><mo>+</mo><mn>16</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>43</mn><mo>.</mo></math></p>"
   }
 }

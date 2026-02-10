@@ -1,0 +1,43 @@
+{
+  "index": 39,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2010",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78b6e5f7d916087e2f",
+    "chapter_name": "Probability",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If mean of a poisson distribution of a random variable \\(X\\) is 2 , then the value of \\(P(X > 1.5)\\) is"
+  },
+  "options": [
+    {
+      "text": "\\(\\frac{3}{e^2}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{3}{e}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(1-\\frac{3}{e}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(1-\\frac{3}{e^2}\\)",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Since, \\(\\mathrm{P}(\\mathrm{X}=\\mathrm{r})=\\frac{e^{-\\lambda} \\lambda^r}{r !}\\) (where \\(\\lambda=\\) mean)\n\\(\\begin{aligned}\n\\therefore \\quad & \\mathrm{P}(\\mathrm{X}=\\mathrm{r} > 1.5)=\\mathrm{P}(2)+\\mathrm{P}(3)+\\ldots \\infty \\\\\n& =1-\\mathrm{P}(\\mathrm{X}=\\mathrm{r} \\leq 1)=1-\\mathrm{P}(0)-\\mathrm{P}(1) \\\\\n& =1-\\left(e^{-2}+\\frac{e^{-2} \\times 2}{1 !}\\right)=1-\\frac{3}{e^2}\n\\end{aligned}\\)"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "index": 24,
   "type": "singleCorrect",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2025 (22 Jan Shift 2)",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Let $\\mathrm{A}=\\{1,2,3,4\\}$ and $\\mathrm{B}=\\{1,4,9,16\\}$. Then the number of many-one functions $f: \\mathrm{A} \\rightarrow \\mathrm{B}$ such that $1 \\in f(\\mathrm{~A})$ is equal to :"
+    "text": "Let $[x]$ denote the greatest integer less than or equal to $x$. Then the domain of $f(x)=\\sec ^{-1}(2[x]+1)$ is :"
   },
   "options": [
     {
-      "text": "151",
+      "text": "$(-\\infty,-1] \\cup[0, \\infty)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(-\\infty,-1] \\cup[1, \\infty)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(-\\infty, \\infty)$",
       "is_correct": true
     },
     {
-      "text": "139",
-      "is_correct": false
-    },
-    {
-      "text": "163",
-      "is_correct": false
-    },
-    {
-      "text": "127",
+      "text": "$(-\\infty, \\infty)-\\{0\\}$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "A"
+    "C"
   ],
   "solution": {
-    "text": "$\\begin{aligned}\n& A=\\{1,2,3,4\\} \\\\\n& B=\\{1,4,9,16\\}\n\\end{aligned}$\n\nTotal number of functions $=4^4$\nTotal number of one-one functions $=4!$\nTotal number of many one functions $=4^4-4!=232$\nTotal number of many-one functions in which $1 \\notin f(A)=3 \\times 3 \\times 3 \\times 3=81$\n$\\therefore$ Total number of many one functions $1 \\notin f(A)$\n$\\begin{aligned}\n& =232-81 \\\\\n& =151\n\\end{aligned}$"
+    "text": "$\\begin{array}{ll}\nf(x)=\\sec ^{-1}(2[x]+1) \\\\\n\\Rightarrow 2[x]+1 \\geq 1 & \\text { or } 2[x]+1 \\leq-1 \\\\\n\\Rightarrow 2[x] \\geq 0 & \\text { or } 2[x] \\leq-2 \\\\\n\\Rightarrow[x] \\geq 0 & \\text { or }[x] \\leq-1 \\\\\n\\Rightarrow x \\geq 0 & \\text { or } x \\leq 0\n\\end{array}$\nDomain of $f(x)$ is $(-\\infty, \\infty)$"
   }
 }

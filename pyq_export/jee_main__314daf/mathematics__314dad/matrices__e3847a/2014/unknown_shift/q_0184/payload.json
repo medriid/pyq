@@ -1,0 +1,43 @@
+{
+  "index": 184,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (11 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let A be a $3 \\times 3$ matrix such that\n$$\n\\mathrm{A}\\left[\\begin{array}{lll}\n1 & 2 & 3 \\\\\n0 & 2 & 3 \\\\\n0 & 1 & 1\n\\end{array}\\right]=\\left[\\begin{array}{lll}\n0 & 0 & 1 \\\\\n1 & 0 & 0 \\\\\n0 & 1 & 0\n\\end{array}\\right]\n$$\nThen $\\mathrm{A}^{-1}$ is:"
+  },
+  "options": [
+    {
+      "text": "\n$\\left[\\begin{array}{lll}3 & 1 & 2 \\\\ 3 & 0 & 2 \\\\ 1 & 0 & 1\\end{array}\\right]$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\left[\\begin{array}{lll}3 & 2 & 1 \\\\ 3 & 2 & 0 \\\\ 1 & 1 & 0\\end{array}\\right]$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left[\\begin{array}{lll}0 & 1 & 3 \\\\ 0 & 2 & 3 \\\\ 1 & 1 & 1\\end{array}\\right]$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left[\\begin{array}{lll}1 & 2 & 3 \\\\ 0 & 1 & 1 \\\\ 0 & 2 & 3\\end{array}\\right]$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\text { Given } A\\left[\\begin{array}{lll}\n1 & 2 & 3 \\\\\n0 & 2 & 3 \\\\\n0 & 1 & 1\n\\end{array}\\right]=\\left[\\begin{array}{lll}\n0 & 0 & 1 \\\\\n1 & 0 & 0 \\\\\n0 & 1 & 0\n\\end{array}\\right]\n$$\n\nApplying $\\mathrm{C}_1 \\leftrightarrow \\mathrm{C}_3$\n$$\n\\mathrm{A}\\left[\\begin{array}{lll}\n3 & 2 & 1 \\\\\n3 & 2 & 0 \\\\\n1 & 1 & 0\n\\end{array}\\right]=\\left[\\begin{array}{lll}\n1 & 0 & 0 \\\\\n0 & 0 & 1 \\\\\n0 & 1 & 0\n\\end{array}\\right]\n$$\nAgain Applying $\\mathrm{C}_2 \\leftrightarrow \\mathrm{C}_3$\n$$\n\\text { A }\\left[\\begin{array}{lll}\n3 & 1 & 2 \\\\\n3 & 0 & 2 \\\\\n1 & 0 & 1\n\\end{array}\\right]=\\left[\\begin{array}{lll}\n1 & 0 & 0 \\\\\n0 & 1 & 0 \\\\\n0 & 0 & 1\n\\end{array}\\right]\n$$\npre-multiplying both sides by $\\mathrm{A}^{-1}$\n$$\n\\begin{aligned}\n&\\mathrm{A}^{-1} \\mathrm{~A}\\left[\\begin{array}{lll}\n3 & 1 & 2 \\\\\n3 & 0 & 2 \\\\\n1 & 0 & 1\n\\end{array}\\right]=\\mathrm{A}^{-1}\\left[\\begin{array}{lll}\n1 & 0 & 0 \\\\\n0 & 1 & 0 \\\\\n0 & 0 & 1\n\\end{array}\\right] \\\\\n&\\mathrm{I}\\left[\\begin{array}{lll}\n3 & 1 & 2 \\\\\n3 & 0 & 2 \\\\\n1 & 0 & 1\n\\end{array}\\right]=\\mathrm{A}^{-1} \\mathrm{I}=\\mathrm{A}^{-1} \\\\\n&\\left(\\because \\mathrm{A}^{-1} \\mathrm{~A}=\\mathrm{I} \\text { and } \\mathrm{I}=\\text { Identity matrix }\\right)\n\\end{aligned}\n$$\n\n$$\n\\text { Hence, } A^{-1}=\\left[\\begin{array}{lll}\n3 & 1 & 2 \\\\\n3 & 0 & 2 \\\\\n1 & 0 & 1\n\\end{array}\\right]\n$$"
+  }
+}

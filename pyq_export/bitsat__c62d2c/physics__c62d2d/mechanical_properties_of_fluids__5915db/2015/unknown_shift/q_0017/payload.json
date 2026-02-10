@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd703e2e1b09725915db",
+    "chapter_name": "Mechanical Properties of Fluids",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Water is flowing on a horizontal fixed surface, such that its flow velocity varies with $y$ (vertical direction) as $v=k\\left(\\frac{2 y^{2}}{a^{2}}-\\frac{y^{3}}{a^{3}}\\right) .$ If coefficient of viscosity for water is $\\eta$, what will be shear stress between layers of water at $y=a$."
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\eta k}{a}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\eta}{k a}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\eta a}{k}$",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Newton's law of viscosity, $F=\\eta A \\frac{d v}{d y}$\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\text { Stress }=\\frac{F}{A}=\\eta\\left(\\frac{d v}{d y}\\right)=\\eta k\\left(\\frac{4 y}{a^{2}}-\\frac{3 y^{2}}{a^{3}}\\right) \\\\\r\n\r\n\\text { At } y=a, \\text { stress }=\\eta k\\left(\\frac{4}{a}-\\frac{3}{a}\\right)=\\frac{\\eta k}{a}\r\n\r\n\\end{array}\r\n\r\n$$"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "index": 13,
-  "type": "singleCorrect",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2025 (24 Jan Shift 1)",
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "The area of the region $\\left\\{(x, y): x^2+4 x+2 \\leq y \\leq|x+2|\\right\\}$ is equal to"
+    "text": "If the area of the region $\\{(x, y):|x-5| \\leq y \\leq 4 \\sqrt{x}\\}$ is A , then 3 A is equal to _____ ."
   },
-  "options": [
-    {
-      "text": "$7$",
-      "is_correct": false
-    },
-    {
-      "text": "$5$",
-      "is_correct": false
-    },
-    {
-      "text": "$24 / 5$",
-      "is_correct": false
-    },
-    {
-      "text": "$20 / 3$",
-      "is_correct": true
-    }
-  ],
-  "correct_answer": [
-    "D"
-  ],
+  "options": [],
+  "correct_answer": "368",
   "solution": {
-    "text": "$x^2+4 x+2 \\leq y \\leq|x+2|$\r\n<img src=\"assets\\st0013_b82bd5685cf5.png\">\r\n$\\begin{aligned} & A_1=\\int_{-4}^0\\left[2-\\left(x^2+4 x+2\\right)\\right] d x-\\frac{1}{2} \\times 4 \\times 2 \\\\ & =\\left(\\frac{-x^3}{3}-2 x^2\\right)_{-4}^0-4 \\\\ & =0-\\left(\\frac{64}{3}-32\\right)-4 \\\\ & =32-\\frac{64}{3}-4=\\frac{20}{3}\\end{aligned}$"
+    "text": "<img src=\"assets\\st0013_6bbe477962e1.png\"/><br/>$\\begin{aligned} & A=\\int_1^{25} 4 \\sqrt{x} d x-\\frac{1}{2} \\times 4 \\times 4-\\frac{1}{2} \\times 20 \\times 20 \\\\ & A=\\left[\\frac{4 x^{3 / 2}}{\\frac{3}{2}}\\right]^{25}-8-200 \\\\ & A=\\frac{8}{3}(125-1)-208 \\\\ & A=\\frac{368}{3} \\Rightarrow 3 A=368\\end{aligned}$"
   }
 }

@@ -1,8 +1,8 @@
 {
   "index": 35,
-  "type": "singleCorrect",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2024 (05 Apr Shift 2)",
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Let $f, g: \\mathbf{R} \\rightarrow \\mathbf{R}$ be defined as :\n$f(x)=|x-1| \\text { and } g(x)= \\begin{cases}\\mathrm{e}^x, \\text { MARA } & x \\geq 0 \\\\ x+1, & x \\leq 0\\end{cases}$<br />Then the function $f(g(x))$ is"
+    "text": "For a differentiable function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$, suppose $f^{\\prime}(x)=3 f(x)+\\alpha$, where $\\alpha \\in \\mathbb{R}$, $f(0)=1$ and $\\lim _{x \\rightarrow-\\infty} f(x)=7$. Then $9 f\\left(-\\log _{\\mathrm{e}} 3\\right)$ is equal to_________"
   },
-  "options": [
-    {
-      "text": "neither one-one nor onto.",
-      "is_correct": true
-    },
-    {
-      "text": "one-one but not onto.",
-      "is_correct": false
-    },
-    {
-      "text": "onto but not one-one.",
-      "is_correct": false
-    },
-    {
-      "text": "both one-one and onto.",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "A"
-  ],
+  "options": [],
+  "correct_answer": "61",
   "solution": {
-    "text": "$\\begin{aligned} & f(g(x))=|g(x)-1| \\\\ & f o g\\left[\\begin{array}{cc}\\left|e^x-1\\right| & x \\geq 0 \\\\ |x+1-1| & x \\leq 0\\end{array}\\right. \\\\ & \\text { fog }\\left[\\begin{array}{cc}e^x-1 & x \\geq 0 \\\\ -x & x \\leq 0\\end{array}\\right.\\end{aligned}$\n<img src=\"assets\\st0035_ccc6813d35a0.png\"><br>"
+    "text": "$\\begin{aligned} & \\frac{d y}{d x}-3 y=\\alpha \\\\ & \\text { If }=e^{\\int-3 d x}=e^{-3 x} \\\\ & \\therefore \\quad y-e^{-3 x}=\\int e^{-3 x} \\cdot \\alpha d x \\\\ & y e^{-3 x}=\\frac{\\alpha e^{-3 x}}{-3}+c \\\\ & \\left(* e^{3 x}\\right) \\\\ & y=\\frac{\\alpha}{-3}+C \\cdot e^{3 x}\\end{aligned}$\non substituting $\\mathrm{x}=0, \\mathrm{y}=1$\n$x \\rightarrow-\\infty, y=7$\nwe get $y=7-6 e^{3 x}$\n$9 f\\left(-\\log _e 3\\right)=61$"
   }
 }

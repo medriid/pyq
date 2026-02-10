@@ -1,8 +1,8 @@
 {
   "index": 8,
-  "type": "singleCorrect",
+  "type": "numerical",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (24 Jan Shift 1)",
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "A satellite is launched into a circular orbit of radius ' R ' around the earth. A second satellite is launched into an orbit of radius 1.03 R . The time period of revolution of the second satellite is larger than the first one approximately by"
+    "text": "Three identical spheres of mass m , are placed at the vertices of an equilateral triangle of length a. When released, they interact only through gravitational force and collide after a time $\\mathrm{T}=4$ seconds. If the sides of the triangle are increased to length 2 a and also the masses of the spheres are made 2 m , then they will collide after _____ seconds."
   },
-  "options": [
-    {
-      "text": "$9 \\%$",
-      "is_correct": false
-    },
-    {
-      "text": "$3 \\%$",
-      "is_correct": false
-    },
-    {
-      "text": "$4.5 \\%$",
-      "is_correct": true
-    },
-    {
-      "text": "$2.5 \\%$",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "C"
-  ],
+  "options": [],
+  "correct_answer": "8",
   "solution": {
-    "text": "<img src=\"assets\\st0008_890e6c405fe5.png\"><br>\n$T_1 \\propto(R)^{3 / 2}$\nand $T_2 \\propto(1.03 R)^{3 / 2}$\n$\\Rightarrow \\quad T_2=(1.03 R)^{3 / 2} \\cdot T_1 \\approx 1.045 T_1$\nSo $T_2$ will larger by $4.5 \\%$ w.r.t. $T_1$."
+    "text": "$\\begin{aligned} & \\mathrm{T} \\propto \\mathrm{m}^{\\mathrm{x}} \\mathrm{G}^{\\mathrm{y}} \\mathrm{a}^{\\mathrm{z}} \\\\ & \\mathrm{T} \\propto \\mathrm{M}^{\\mathrm{x}}\\left[\\mathrm{M}^{-1} \\mathrm{~L}^3 \\mathrm{~T}^{-2}\\right]^y[\\mathrm{~L}]^{\\mathrm{z}} \\\\ & \\mathrm{T} \\propto \\mathrm{M}^{\\mathrm{x}-\\mathrm{y}} \\mathrm{L}^{3 \\mathrm{y}+\\mathrm{z}} \\mathrm{T}^{-2 \\mathrm{y}} \\\\ & \\mathrm{x}-\\mathrm{y}=0 \\Rightarrow \\mathrm{x}=\\mathrm{y} \\\\ & -2 \\mathrm{y}=1 \\Rightarrow \\mathrm{y}=-\\frac{1}{2}, \\mathrm{x}=-\\frac{1}{2} \\\\ & \\Rightarrow 3 \\mathrm{y}+\\mathrm{z}=0 \\\\ & \\mathrm{z}=-3 \\mathrm{y}=\\frac{3}{2}\\end{aligned}$<br/>Hence<br/>$\\begin{aligned}<br/>& \\mathrm{T} \\propto \\mathrm{~m}^{-1 / 2} \\mathrm{G}^{-1 / 2} \\mathrm{a}^{3 / 2} \\\\\n& \\mathrm{~T} \\propto\\left(\\frac{\\mathrm{a}^3}{\\mathrm{~m}}\\right)^{1 / 2} \\\\\n& \\mathrm{~T}=4 \\times\\left(\\frac{2^3}{2}\\right)^{1 / 2}=8 \\mathrm{~s}<br/>\\end{aligned}$"
   }
 }

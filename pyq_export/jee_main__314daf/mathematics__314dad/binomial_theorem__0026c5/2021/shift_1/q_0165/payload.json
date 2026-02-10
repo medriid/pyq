@@ -1,0 +1,43 @@
+{
+  "index": 165,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (26 Feb Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2021",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The maximum value of the term independent of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> in the expansion of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mi>t</mi><msup><mi>x</mi><mfrac><mn>1</mn><mn>5</mn></mfrac></msup><mo>+</mo><mfrac><msup><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mfrac><mn>1</mn><mn>10</mn></mfrac></msup><mi>t</mi></mfrac></mrow></mfenced><mn>10</mn></msup></math>where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&#8712;</mo><mfenced><mrow><mn>0</mn><mo>,</mo><mn>1</mn></mrow></mfenced></math> is:"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>10</mn><mo>!</mo></mrow><mrow><msqrt><mn>3</mn></msqrt><msup><mfenced><mrow><mn>5</mn><mo>!</mo></mrow></mfenced><mn>2</mn></msup></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>10</mn><mo>!</mo></mrow><mrow><mn>3</mn><msup><mfenced><mrow><mn>5</mn><mo>!</mo></mrow></mfenced><mn>2</mn></msup></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>10</mn><mo>!</mo></mrow><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><msup><mfenced><mrow><mn>5</mn><mo>!</mo></mrow></mfenced><mn>2</mn></msup></mrow></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>10</mn><mo>!</mo></mrow><mrow><mn>3</mn><msup><mfenced><mrow><mn>5</mn><mo>!</mo></mrow></mfenced><mn>2</mn></msup></mrow></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mn>10</mn></mmultiscripts><msup><mfenced><mrow><mi>t</mi><msup><mi>x</mi><mfenced><mrow><mn>1</mn><mo>/</mo><mn>5</mn></mrow></mfenced></msup></mrow></mfenced><mrow><mn>10</mn><mo>-</mo><mi>r</mi></mrow></msup><msup><mfenced close=\"]\" open=\"[\"><mfrac><msup><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mfrac><mn>1</mn><mn>10</mn></mfrac></msup><mi>t</mi></mfrac></mfenced><mi>r</mi></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mn>10</mn></mmultiscripts><msup><mfenced><mi>t</mi></mfenced><mrow><mn>10</mn><mo>-</mo><mn>2</mn><mi>r</mi></mrow></msup><msup><mfenced><mi>x</mi></mfenced><mfrac><mfenced><mrow><mn>10</mn><mo>-</mo><mi>r</mi></mrow></mfenced><mn>5</mn></mfrac></msup><msup><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mfrac><mi>r</mi><mn>10</mn></mfrac></msup></math></p><p>For the term independent of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>,&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>10</mn><mo>-</mo><mn>2</mn><mi>r</mi><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>r</mi><mo>=</mo><mn>5</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>6</mn></msub><mo>=</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mmultiscripts><mi>C</mi><mn>5</mn><none></none><mprescripts></mprescripts><none></none><mn>10</mn></mmultiscripts><mfenced><mrow><mi>x</mi><msqrt><mn>1</mn><mo>-</mo><mi>x</mi></msqrt></mrow></mfenced><mo>;</mo></math> for maximum</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>&#39;</mo></msup><mfenced><mi>x</mi></mfenced><mo>=</mo><mn>0</mn><mo>&#8658;</mo><mi>x</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>&#38;</mo><msup><mi>f</mi><mrow><mo>&#39;</mo><mo>&#39;</mo></mrow></msup><mfenced><mfrac><mn>2</mn><mn>3</mn></mfrac></mfenced><mo>&#60;</mo><mn>0</mn></math></p><p>so <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><msub><mfenced><mi>x</mi></mfenced><mrow><mi>m</mi><mi>a</mi><mi>x</mi><mo>.</mo></mrow></msub><mo>=</mo><mmultiscripts><mi>C</mi><mn>5</mn><none></none><mprescripts></mprescripts><none></none><mn>10</mn></mmultiscripts><mfenced><mfrac><mn>2</mn><mn>3</mn></mfrac></mfenced><mo>&#183;</mo><mfrac><mn>1</mn><msqrt><mn>3</mn></msqrt></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>2</mn><mo>.</mo><mn>10</mn><mo>!</mo></mrow><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><msup><mfenced><mrow><mn>5</mn><mo>!</mo></mrow></mfenced><mn>2</mn></msup></mrow></mfrac></math></p>"
+  }
+}

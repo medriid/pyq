@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78b6e5f7d916087e2f",
+    "chapter_name": "Probability",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Given below is the distribution of a random variable $X$\n<img src=\"assets\\qt0002_c779eb366578.png\"/>\nIf $\\alpha=\\mathrm{P}(X \\lt 3)$ and $\\beta=\\mathrm{P}(X\\gt2)$, then $\\alpha: \\beta=$"
+  },
+  "options": [
+    {
+      "text": "$2: 5$",
+      "is_correct": false
+    },
+    {
+      "text": "$3: 4$",
+      "is_correct": false
+    },
+    {
+      "text": "$4: 5$",
+      "is_correct": false
+    },
+    {
+      "text": "$3: 7$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "For a distribution of random variable $x$, $\\alpha=P\\left(X^6 \\lt 3\\right)=P\\left(X^6=1\\right)+P\\left(X^6=2\\right)$\n$\\begin{aligned} & =\\lambda+2 \\lambda=3 \\lambda \\\\ & \\text { and } \\beta=P\\left(X^6 \\lt 2\\right)=P\\left(X^6=3\\right)+P\\left(X^6=4\\right) \\\\ & =3 \\lambda+4 \\lambda=3 \\lambda \\\\ & \\therefore \\quad \\alpha: \\beta=3: 7\\end{aligned}$"
+  }
+}

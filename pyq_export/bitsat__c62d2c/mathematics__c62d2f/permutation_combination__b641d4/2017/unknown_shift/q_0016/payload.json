@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2017",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cccd6ab1da4b641d4",
+    "chapter_name": "Permutation Combination",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of times the digit <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math> will be written when listing the integers from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1000</mn></math>, is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>271</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>272</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>Any number&nbsp;between&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>&nbsp;to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>999</mn></math> is of the form <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>b</mi><mi>c</mi></math> when <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>&#8804;</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>&#8804;</mo><mn>9</mn></math>. Let us first count the number in which <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math> occurs exactly once.</p><p>Since, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math> can occur at one place in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mo>&#215;</mo><mn>9</mn><mo>&#215;</mo><mn>9</mn><mo>=</mo><mn>243</mn></math> ways, next <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math> can occur in exactly two places in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mo>&#215;</mo><mn>9</mn><mo>=</mo><mn>27</mn></math>.</p><p>Lastly, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math> can occur in all three digits in only one way.</p><p>Hence, the number of times <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math> occurs</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>&#215;</mo><mn>243</mn><mo>+</mo><mn>27</mn><mo>&#215;</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>&#215;</mo><mn>3</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>243</mn><mo>+</mo><mn>54</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>300</mn></math></p>"
+  }
+}

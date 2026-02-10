@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd77794f3007be174af7",
+    "chapter_name": "Straight Lines",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The locus of the point of intersection of the lines $x=a\\left(\\frac{1-t^2}{1+t^2}\\right)$ and $y=\\frac{2 a t}{1+t^2}$ represent $(t$ being a parameter)"
+  },
+  "options": [
+    {
+      "text": "Circle",
+      "is_correct": true
+    },
+    {
+      "text": "Parabola",
+      "is_correct": false
+    },
+    {
+      "text": "Ellipse",
+      "is_correct": false
+    },
+    {
+      "text": "Hyperbola",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given $x=a\\left(\\frac{1-t^2}{1+t^2}\\right)$ and $y=\\frac{2 a t}{1+t^2}$\n$\\begin{aligned}\n& \\text { Let } \\quad t=\\tan \\theta \\\\\n& \\Rightarrow \\quad x=a\\left(\\frac{1-\\tan ^2 \\theta}{1+\\tan ^2 \\theta}\\right) \\\\\n& \\text { and } \\quad y=\\frac{2 a \\tan \\theta}{1+\\tan ^2 \\theta} \\\\\n& \\Rightarrow \\quad x=a \\cos 2 \\theta \\text { and } y=a \\sin 2 \\theta \\\\\n& \\Rightarrow \\cos 2 \\theta=\\frac{x}{a} \\text { and } \\sin 2 \\theta=\\frac{y}{a}\n\\end{aligned}$\nSquaring both sides, we get\n$\\cos ^2 2 \\theta=\\frac{x^2}{a^2}$....(i)\nand\n$\\sin ^2 2 \\theta=\\frac{y^2}{a^2}$....(ii)\nAdding Eqs. (i) and (ii), we get\n$\\begin{aligned}\n\\quad \\cos ^2 2 \\theta+\\sin ^2 2 \\theta & =\\frac{x^2}{a^2}+\\frac{y^2}{a^2} \\\\\n\\Rightarrow \\quad x^2+y^2 & =a^2\n\\end{aligned}$\n$\\therefore$ Locus is a circle having centre at origin and radius $a$."
+  }
+}

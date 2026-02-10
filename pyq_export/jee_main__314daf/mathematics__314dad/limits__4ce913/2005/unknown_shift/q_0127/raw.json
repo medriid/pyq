@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d656d9",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2005-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2005",
+      "title": "JEE Main 2005"
+    }
+  ],
+  "question": {
+    "text": "Let $\\alpha$ and $\\beta$ be the distinct roots of $a x^2+b x+c=0$, then $\\lim _{x \\rightarrow \\alpha} \\frac{1-\\cos \\left(a x^2+b x+c\\right)}{(x-\\alpha)^2}$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "n9jWH",
+      "text": "\n$\\frac{a^2}{2}(\\alpha-\\beta)^2$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "PMXGn",
+      "text": "\n0\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "L7LH9",
+      "text": "\n$-\\frac{a^2}{2}(\\alpha-\\beta)^2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7B3qx",
+      "text": "\n$\\frac{1}{2}(\\alpha-\\beta)^2$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\text { Given limit }=\\lim _{x \\rightarrow \\alpha} \\frac{1-\\cos a(x-\\alpha)(x-\\beta)}{(x-\\alpha)^2}=\\lim _{x \\rightarrow \\alpha} \\frac{2 \\sin ^2\\left(a \\frac{(x-\\alpha)(x-\\beta)}{2}\\right)}{(x-\\alpha)^2} \\\\\n& =\\lim _{x \\rightarrow \\alpha} \\frac{2}{(x-\\alpha)^2} \\times \\frac{\\sin ^2\\left(a \\frac{(x-\\alpha)(x-\\beta)}{2}\\right)}{a^2(x-\\alpha)^2(x-\\beta)^2} \\times \\frac{a^2(x-\\alpha)^2(x-\\beta)^2}{4} \\\\\n& =\\frac{a^2(\\alpha-\\beta)^2}{2} .\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2005-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2005",
+    "title": "JEE Main 2005"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eec1c8b73881fdaea2a0",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d9760f",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-28T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (28 Jan Shift 2)",
+      "title": "JEE Main 2025 (28 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let the coefficients of three consecutive terms $T_r, T_{r+1}$ and $T_{r+2}$ in the binomial expansion of $(a+b)^{12}$ be in a G.P. and let $p$ be the number of all possible values of $r$. Let $q$ be the sum of all rational terms in the binomial expansion of $(\\sqrt[4]{3}+\\sqrt[3]{4})^{12}$. Then $\\mathrm{p}+\\mathrm{q}$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "n8e4M",
+      "text": "$283$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "7gyZ8",
+      "text": "$287$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "yPuEc",
+      "text": "$295$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "EVqGC",
+      "text": "$299$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Coefficient of\r\n$\\begin{aligned}\r\n& T_r, T_{r+1}, T_{r+2} \\rightarrow G P \\\\\r\n& \\Rightarrow\\left({ }^{12} C_r\\right)^2={ }^{12} C_{r-1} \\cdot{ }^{12} C_{r+1}\r\n\\end{aligned}$\r\n$\\Rightarrow\\left({ }^{12} C_r\\right)^2={ }^{12} C_{r-1} \\cdot{ }^{12} C_{r+1}$\r\nbut no three consecutive binomial coefficient are in\r\nGP\r\n$\\Rightarrow P=0$\r\nNow for $\\left(3^{1 / 4}+4^{1 / 3}\\right)^{12}, T_{r+1}={ }^{12} C_r(4)^{K / 3}(3)^{\\frac{12-K}{4}}$\r\nfor rational terms $\\mathrm{K}=0,12$\r\nsum of rational terms\r\n$\\begin{aligned}\r\n& ={ }^{12} \\mathrm{C}_0 4^0 \\cdot 3^3+{ }^{12} \\mathrm{C}_{12} \\cdot 4^4 \\cdot 3^0 \\\\\r\n& =27+256=283=q \\\\\r\n& \\therefore p+q=283\r\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "877f3fb45a5f42efb67d8c1b70b8d827",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/jQz4wdvpoyqW2.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/jQz4wdvpoyqW2.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d9760f",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-28T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (28 Jan Shift 2)",
+    "title": "JEE Main 2025 (28 Jan Shift 2)"
+  },
+  "evalStatus": "correct",
+  "lastPracticed": "2025-02-09T09:23:46.311Z"
+}

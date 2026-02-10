@@ -1,0 +1,43 @@
+{
+  "index": 174,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2015 (04 Apr)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of points, having both co-ordinates as integers, that lie in the interior of the triangle with vertices <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>0</mn><mo>,</mo><mo>&#160;</mo><mn>0</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>0</mn><mo>,</mo><mo>&#160;</mo><mn>41</mn></mrow></mfenced></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>41</mn><mo>,</mo><mo>&#160;</mo><mn>0</mn></mrow></mfenced></math> is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>780</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>901</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>861</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>820</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p><img src=\"assets\\st0174_c9791c757552.png\" style=\"width: 258px; height: 225px;\" /><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mo>&#160;</mo><msub><mi>y</mi><mn>1</mn></msub></mrow></mfenced></math>&nbsp;lies inside the triangle <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mo>&#160;</mo><msub><mi>y</mi><mn>1</mn></msub><mo>&#8712;</mo><mi>N</mi></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>1</mn></msub><mo>&#60;</mo><mn>4</mn><mn>1</mn></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;&#160;&#160;&#160;</mo><mn>2</mn><mo>&#8804;</mo><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>1</mn></msub><mo>&#8804;</mo><mn>4</mn><mn>0</mn></math><br /><br />Number of points inside <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo></math> Number of solutions of the equation<br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>1</mn></msub><mo>=</mo><mi>n</mi></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>&#8804;</mo><mi>n</mi><mo>&#8804;</mo><mn>4</mn><mn>0</mn></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mn>1</mn></msub><mo>&#8805;</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><msub><mi>y</mi><mn>1</mn></msub><mo>&#8805;</mo><mn>1</mn></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>-</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mfenced><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>-</mo><mn>1</mn></mrow></mfenced><mo>=</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></mfenced></math><br /><br />(Number of non - negative integral solutions of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mo>.</mo><mo>....</mo><mo>+</mo><msub><mi>x</mi><mi>n</mi></msub><mo>=</mo><mi>r</mi></math> is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mspace/><mrow><mi>n</mi><mo>+</mo><mi>r</mi><mo>-</mo><mn>1</mn></mrow></msup><msub><mi>C</mi><mi>r</mi></msub></math>)<br /><br />Number of solutions <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow><none/><mprescripts/><none/><mrow><mn>2</mn><mo>+</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></mfenced><mo>-</mo><mn>1</mn></mrow></mmultiscripts></math></p><p>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mspace/><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup><msub><mi>C</mi><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></msub></math><br /><br />&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>n</mi><mo>-</mo><mn>1</mn></math><br /><br />We have&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>&#8804;</mo><mi>n</mi><mo>&#8804;</mo><mn>4</mn><mn>0</mn></math><br /><br /><math> <mrow> <mo>&#8756;</mo> </mrow> </math>&nbsp;&nbsp;Number of solutions <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><mn>39</mn></math></p><p>&nbsp;<math> <mrow> <mo>=</mo> <mfrac> <mrow> <mn>3</mn> <mn>9</mn> <mo>&#215;</mo> <mn>4</mn> <mn>0</mn> </mrow> <mrow> <mn>2</mn> </mrow> </mfrac> </mrow> </math><br /><br />&nbsp;<math> <mrow> <mo>=</mo> <mn>7</mn> <mn>8</mn> <mn>0</mn> </mrow> </math></p>"
+  }
+}

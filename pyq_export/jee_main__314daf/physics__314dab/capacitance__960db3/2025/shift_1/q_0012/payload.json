@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "6160240a212e155ed4960db3",
+    "chapter_name": "Capacitance",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "A parallel plate capacitor is filled equally (half) with two dielectrics of dielectric constant $\\varepsilon_1$ and $\\varepsilon_2$, as shown in figures. The distance between the plates is d and area of each plate is A. If capacitance in first configuration and second configuration are $C_1$ and $C_2$ respectively, then $\\frac{C_1}{C_2}$ is :<br/><img src=\"assets\\qt0012_a757eab38a93.png\"/><br/><img src=\"assets\\qt0012_6e60e7e08029.png\"/>"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\varepsilon_1 \\varepsilon_2^2}{\\left(\\varepsilon_1+\\varepsilon_2\\right)^2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{4 \\varepsilon_1 \\varepsilon_2}{\\left(\\varepsilon_1+\\varepsilon_2\\right)^2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\varepsilon_1 \\varepsilon_2}{\\varepsilon_1+\\varepsilon_2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\varepsilon_0\\left(\\varepsilon_1+\\varepsilon_2\\right)}{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0012_4577fda6e094.png\"/><br/>Area of plate is $A$. then<br/>$\\begin{aligned}<br/>& \\mathrm{C}=\\frac{\\varepsilon_2 \\varepsilon_0 \\mathrm{~A}}{\\mathrm{~d} / 2}=\\frac{2 \\varepsilon_2 \\varepsilon_0 \\mathrm{~A}}{\\mathrm{~d}} \\\\\n& \\mathrm{C}^{\\prime}=\\frac{\\varepsilon_1 \\varepsilon_0 \\mathrm{~A}}{\\mathrm{~d} / 2}=\\frac{2 \\varepsilon_1 \\varepsilon_0 \\mathrm{~A}}{\\mathrm{~d}}<br/>\\end{aligned}$<br/>Let $\\mathrm{C}_0=\\frac{\\varepsilon_0 \\mathrm{~A}}{\\mathrm{~d}}$<br/>$\\begin{aligned}<br/>& \\mathrm{C}=2 \\varepsilon_2 \\mathrm{C}_0 \\\\\n& \\mathrm{C}^{\\prime}=2 \\varepsilon_1 \\mathrm{C}_0<br/>\\end{aligned}$<br/>$\\mathrm{C} \\& \\mathrm{C}^{\\prime}$ are in series<br/>$\\mathrm{C}_1=\\frac{\\mathrm{CC}^{\\prime}}{\\mathrm{C}+\\mathrm{C}^{\\prime}}=\\frac{4 \\varepsilon_2 \\varepsilon_1 \\mathrm{C}_0^2}{2 \\mathrm{C}_0\\left(\\varepsilon_2+\\varepsilon_1\\right)}$<br/>$=\\frac{2 \\varepsilon_2 \\varepsilon_1 \\mathrm{C}_0}{\\left(\\varepsilon_2+\\varepsilon_1\\right)}$<img src=\"assets\\st0012_53d77ecd76db.png\"/><br/>Here $\\mathrm{C}=\\frac{\\varepsilon_1 \\varepsilon_0 \\mathrm{~A}}{2 \\mathrm{~d}}=\\frac{\\varepsilon_1 \\mathrm{C}_0}{2}$<br/>$\\mathrm{C}^{\\prime}=\\frac{\\varepsilon_2 \\mathrm{C}_0}{2}$<br/>$\\mathrm{C} \\& \\mathrm{C}^{\\prime}$ are inparallel<br/>$\\mathrm{C}_2=\\mathrm{C}^{\\prime}+\\mathrm{C}=\\left(\\varepsilon_1+\\varepsilon_2\\right) \\frac{\\mathrm{C}_0}{2}$<br/>Thus $\\frac{\\mathrm{C}_1}{\\mathrm{C}_2}=\\frac{2 \\varepsilon_2 \\varepsilon_1 \\mathrm{C}_0}{\\left(\\varepsilon_2+\\varepsilon_1\\right)} \\times \\frac{2}{\\left(\\varepsilon_1+\\varepsilon_2\\right) \\mathrm{C}_0}$<br/>$=\\frac{4 \\varepsilon_2 \\varepsilon_1}{\\left(\\varepsilon_2+\\varepsilon_1\\right)^2}$"
+  }
+}

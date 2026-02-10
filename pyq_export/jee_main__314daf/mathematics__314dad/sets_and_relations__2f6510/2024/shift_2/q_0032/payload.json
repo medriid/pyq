@@ -2,7 +2,7 @@
   "index": 32,
   "type": "singleCorrect",
   "difficulty": 1,
-  "pyq_info": "JEE Main 2024 (29 Jan Shift 2)",
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> is the smallest equivalence relation on the set <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>}</mo></math> such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>)</mo><mo>}</mo><mo>⊂</mo><mi>R</mi></math>, then the number of elements in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> is ______."
+    "text": "Let a relation $\\mathrm{R}$ on $\\mathrm{N} \\times N$ be defined as: $\\left(x_1, y_1\\right) \\mathrm{R}\\left(x_2, y_2\\right)$ if and only if $x_1 \\leq x_2$ or $y_1 \\leq y_2$. Consider the two statements:\n(I) $\\mathrm{R}$ is reflexive but not symmetric.\n(II) $R$ is transitive Then which one of the following is true?"
   },
   "options": [
     {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math>",
+      "text": "Both (I) and (II) are correct.",
+      "is_correct": false
+    },
+    {
+      "text": "Only (II) is correct.",
+      "is_correct": false
+    },
+    {
+      "text": "Neither (I) nor (II) is correct.",
+      "is_correct": false
+    },
+    {
+      "text": "Only (I) is correct.",
       "is_correct": true
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math>",
-      "is_correct": false
     }
   ],
   "correct_answer": [
-    "A"
+    "D"
   ],
   "solution": {
-    "text": "<p>Given: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mfenced><mrow><mn>1</mn><mo>,</mo><mn>3</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>1</mn><mo>,</mo><mn>2</mn></mrow></mfenced></mrow></mfenced></math></p><p>To make <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> as Reflexive, the required elements are <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>1</mn><mo>,</mo><mn>1</mn></mrow></mfenced><mo>,</mo><mo> </mo><mfenced><mrow><mn>2</mn><mo>,</mo><mn>2</mn></mrow></mfenced><mo>,</mo><mo> </mo><mfenced><mrow><mn>3</mn><mo>,</mo><mn>3</mn></mrow></mfenced><mo> </mo><mtext>and</mtext><mo> </mo><mfenced><mrow><mn>4</mn><mo>,</mo><mn>4</mn></mrow></mfenced></math></p><p>To make <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> as Symmetric, the required elements are <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>3</mn><mo>,</mo><mn>1</mn></mrow></mfenced><mo> </mo><mtext>and</mtext><mo> </mo><mfenced><mrow><mn>2</mn><mo>,</mo><mn>1</mn></mrow></mfenced></math></p><p>To make <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> as Transitive, the required elements are <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>3</mn><mo>,</mo><mn>2</mn></mrow></mfenced><mo> </mo><mtext>and</mtext><mo> </mo><mfenced><mrow><mn>2</mn><mo>,</mo><mn>3</mn></mrow></mfenced></math></p><p>So, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> elements are required to make <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> an equivalence relation.</p><p>Hence, the total number of elements in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math>.</p>"
+    "text": "All $\\left(\\left(\\mathrm{x}_1 \\mathrm{y}_1\\right),\\left(\\mathrm{x}_1, \\mathrm{y}_1\\right)\\right)$ are in $\\mathrm{R}$ where\n$\\mathrm{x}_1, \\mathrm{y}_1 \\in \\mathrm{N} \\therefore \\mathrm{R}$ is reflexive\n$((1,1),(2,3)) \\in \\mathrm{R} \\text { but }((2,3),(1,1)) \\notin \\mathrm{R}$\n$\\therefore \\mathrm{R}$ is not symmetric\n$((2,4),(3,3)) \\in \\mathrm{R}$ and $((3,3),(1,3)) \\in \\mathrm{R}$ but $((2,4)$,\n$(1,3)) \\notin \\mathrm{R}$\n$\\therefore \\mathrm{R}$ is not transitive"
   }
 }

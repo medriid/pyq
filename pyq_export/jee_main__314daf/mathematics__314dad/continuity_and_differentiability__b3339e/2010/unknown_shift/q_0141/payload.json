@@ -1,0 +1,43 @@
+{
+  "index": 141,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2010",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f: R \\rightarrow R$ be a continuous function defined by $f(x)=\\frac{1}{e^x+2 e^{-x}}$.\nStatement-1: $f(c)=\\frac{1}{3}$, for some $c \\in R$.\nStatement-2: $0 < f(x) \\leq \\frac{1}{2 \\sqrt{2}}$, for all $x \\in R$"
+  },
+  "options": [
+    {
+      "text": "\nStatement-1 is true, Statement-2 is true; Statement-2 is not the correct explanation for Statement-1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement-1 is true, Statement-2 is false\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement-1 is false, Statement-2 is true\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement-1 is true, Statement-2 is true; Statement-2 is the correct explanation for Statement-1",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$f(x)=\\frac{1}{e^x+2 e^{-x}}=\\frac{e^x}{e^{2 x}+2}$\n$f^{\\prime}(x)=\\frac{\\left(e^{2 x}+2\\right) e^x-2 e^{2 x} \\cdot e^x}{\\left(e^{2 x+2}\\right)^2}$\n$f^{\\prime}(x)=0 \\quad \\Rightarrow e^{2 x}+2=2 e^{2 x}$\n$\\mathrm{e}^{2 \\mathrm{x}}=2 \\quad \\Rightarrow \\mathrm{e}^{\\mathrm{x}}=\\sqrt{2}$\nmaximum $f(x)=\\frac{\\sqrt{2}}{4}=\\frac{1}{2 \\sqrt{2}}$\n$0 < f(x) \\leq \\frac{1}{2 \\sqrt{2}} \\quad \\forall x \\in R$\nSince $0 < \\frac{1}{3} < \\frac{1}{2 \\sqrt{2}} \\quad \\Rightarrow$ for some $c \\in R$\n$f(c)=\\frac{1}{3}$"
+  }
+}

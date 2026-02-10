@@ -2,7 +2,7 @@
   "index": 61,
   "type": "singleCorrect",
   "difficulty": 3,
-  "pyq_info": "JEE Main 2013 (09 Apr Online)",
+  "pyq_info": "JEE Main 2013 (22 Apr Online)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "unknown_shift"
   },
   "question": {
-    "text": "Let $f(x)=\\frac{x^2-x}{x^2+2 x} x \\neq 0,-2$. Then $\\frac{d}{d x}\\left[f^{-1}(x)\\right]$ (wherever it is defined) is equal to:"
+    "text": "For $a>0, t \\in\\left(0, \\frac{\\pi}{2}\\right)$, let $x=\\sqrt{a^{\\sin ^{-1} t}}$ and $y=\\sqrt{a^{\\cos ^{-1} t}}$, Then, $1+\\left(\\frac{d y}{d x}\\right)^2$ equals :"
   },
   "options": [
     {
-      "text": "\n$\\frac{-1}{(1-x)^2}$\n",
+      "text": "\n$\\frac{x^2}{y^2}$\n",
       "is_correct": false
     },
     {
-      "text": "\n$\\frac{3}{(1-x)^2}$\n",
+      "text": "\n$\\frac{y^2}{x^2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{x^2+y^2}{y^2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{x^2+y^2}{x^2}$",
       "is_correct": true
-    },
-    {
-      "text": "\n$\\frac{1}{(1-x)^2}$\n",
-      "is_correct": false
-    },
-    {
-      "text": "\n$\\frac{-3}{(1-x)^2}$",
-      "is_correct": false
     }
   ],
   "correct_answer": [
-    "B"
+    "D"
   ],
   "solution": {
-    "text": "Let $y=\\frac{x^2-x}{x^2+2 x}$\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad\\left(x^2+2 x\\right) y=x^2-x \\\\\n& \\Rightarrow \\quad x(x+2) y=x(x-1) \\\\\n& \\Rightarrow \\quad x[(x+2) y-(x-1)]=0 \\\\\n& \\because \\quad x \\neq 0, \\quad \\therefore \\quad(x+2) y-(x-1)=0 \\\\\n& \\Rightarrow \\quad x y+2 y-x+1=0 \\\\\n& \\Rightarrow \\quad x(y-1)=-(2 y+1) \\\\\n& \\therefore \\quad x=\\frac{2 y+1}{1-y} \\Rightarrow f^{-1}(x)=\\frac{2 x+1}{1-x} \\\\\n& \\frac{d}{d x}\\left(f^{-1}(x)\\right)=\\frac{2(1-x)-(2 x+1)(-1)}{(1-x)^2} \\\\\n& \\quad=\\frac{2-2 x+2 x+1}{(1-x)^2}=\\frac{3}{(1-x)^2}\n\\end{aligned}\n$$"
+    "text": "$$\n\\begin{aligned}\n& \\text { Let } x=\\sqrt{a^{\\sin ^{-1} t}} \\\\\n& \\Rightarrow \\quad x^2=a^{\\sin ^{-1} t} \\Rightarrow 2 \\log x=\\sin ^{-1} t \\cdot \\log a \\\\\n& \\Rightarrow \\quad \\frac{2}{x}=\\frac{\\log a}{\\sqrt{1-t^2}} \\cdot \\frac{d t}{d x} \\\\\n& \\Rightarrow \\quad \\frac{2 \\sqrt{1-t^2}}{x \\log a}=\\frac{d t}{d x}\n\\end{aligned}\n$$\nNow, let $y=\\sqrt{a^{\\cos ^{-1} t}}$\n$$\n\\begin{aligned}\n& \\Rightarrow 2 \\log y=\\cos ^{-1} t \\cdot \\log a \\\\\n& \\Rightarrow \\quad \\frac{2}{y} \\cdot \\frac{d y}{d x}=\\frac{-\\log a}{\\sqrt{1-t^2}} \\cdot \\frac{d t}{d x}\n\\end{aligned}\n$$\n$\\Rightarrow \\frac{2}{y} \\cdot \\frac{d y}{d x}=\\frac{-\\log a}{\\sqrt{1-t^2}} \\times \\frac{2 \\sqrt{1-t^2}}{x \\log a} \\quad$ (from(1)\n$$\n\\Rightarrow \\frac{d y}{d x}=-\\frac{y}{x}\n$$\nHence, $1+\\left(\\frac{d y}{d x}\\right)^2=1+\\left(\\frac{-y}{x}\\right)^2=\\frac{x^2+y^2}{x^2}$"
   }
 }

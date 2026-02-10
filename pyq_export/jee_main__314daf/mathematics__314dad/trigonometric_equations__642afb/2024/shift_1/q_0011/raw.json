@@ -1,0 +1,63 @@
+{
+  "_id": "6644671c970e6e9ab542d047",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6a",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-05T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (05 Apr Shift 1)",
+      "title": "JEE Main 2024 (05 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Suppose $\\theta \\epsilon\\left[0, \\frac{\\pi}{4}\\right]$ is a solution of $4 \\cos \\theta-3 \\sin \\theta=1$. Then $\\cos \\theta$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "1YjaY",
+      "text": "$\\frac{4}{(3 \\sqrt{6}+2)}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "c37yV",
+      "text": "$\\frac{6+\\sqrt{6}}{(3 \\sqrt{6}+2)}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "HFHGn",
+      "text": "$\\frac{4}{(3 \\sqrt{6}-2)}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "vv1fY",
+      "text": "$\\frac{6-\\sqrt{6}}{(3 \\sqrt{6}-2)}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$4\\left(\\frac{1-\\tan ^2 \\theta / 2}{1+\\tan ^2 \\theta / 2}\\right)-3\\left(\\frac{2 \\tan \\frac{\\theta}{2}}{1+\\tan ^2 \\frac{\\theta}{2}}\\right)=1$\nlet $\\tan \\frac{\\theta}{2}=\\mathrm{t}$\n$\\begin{aligned}\n& \\frac{4-4 t^2-6 t}{1+t^2}=1 \\\\\n& 4-4 t^2-6 t=1+t^2\n\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow 5 t^2+6 t-3=0 \\\\ & \\Rightarrow t=\\frac{-6 \\pm \\sqrt{36-4(5)(-3)}}{2(5)} \\\\ & =\\frac{-6 \\pm \\sqrt{96}}{10} \\\\ & =\\frac{-6 \\pm 4 \\sqrt{6}}{10} \\\\ & t=\\frac{-3+2 \\sqrt{6}}{5} \\\\ & \\cos \\theta=\\frac{1-t^2}{1+t^2}=\\frac{1-\\left(\\frac{2 \\sqrt{6}-3}{5}\\right)^2}{1+\\left(\\frac{2 \\sqrt{6}-3}{5}\\right)^2}=\\frac{1-\\left(\\frac{24+9-12 \\sqrt{6}}{25}\\right)}{1+\\left(\\frac{24+9-12 \\sqrt{6}}{25}\\right)} \\\\ & =\\frac{25-33+12 \\sqrt{6}}{25+33-12 \\sqrt{6}}=\\frac{12 \\sqrt{6}-8}{58-12 \\sqrt{6}}=\\frac{6 \\sqrt{6}-4}{29-6 \\sqrt{6}} \\times \\frac{29+6 \\sqrt{6}}{29+6 \\sqrt{6}} \\\\ & =\\frac{100+150 \\sqrt{6}}{625}=\\frac{4+6 \\sqrt{6}}{25} \\times \\frac{4-6 \\sqrt{6}}{4-6 \\sqrt{6}} \\\\ & =\\frac{-200}{25(4-6 \\sqrt{6})}=\\frac{-8}{4-6 \\sqrt{6}}=\\frac{4}{3 \\sqrt{6}-2}\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "outOfSyllabusButGoodToSolve",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda6a",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-05T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (05 Apr Shift 1)",
+    "title": "JEE Main 2024 (05 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

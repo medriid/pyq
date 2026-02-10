@@ -1,8 +1,8 @@
 {
   "index": 106,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2022 (28 Jun Shift 1)",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2022 (27 Jul Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Let a function <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>:</mo><mi mathvariant=\"normal\">&#8469;</mi><mo>&#8594;</mo><mi mathvariant=\"normal\">&#8469;</mi></math>&nbsp;be defined by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>n</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"[\"><mtable columnalign=\"left\"><mtr><mtd><mn>2</mn><mi>n</mi><mo>,</mo></mtd><mtd><mi>n</mi><mo>=</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>6</mn><mo>,</mo><mn>8</mn><mo>,</mo><mo>&#8230;</mo><mo>.</mo><mo>.</mo></mtd></mtr><mtr><mtd><mi>n</mi><mo>-</mo><mn>1</mn><mo>,</mo></mtd><mtd><mi>n</mi><mo>=</mo><mn>3</mn><mo>,</mo><mn>7</mn><mo>,</mo><mn>11</mn><mo>,</mo><mn>15</mn><mo>,</mo><mo>&#8230;</mo><mo>.</mo><mo>.</mo></mtd></mtr><mtr><mtd><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>,</mo></mtd><mtd><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>9</mn><mo>,</mo><mn>13</mn><mo>,</mo><mo>&#8230;</mo><mo>.</mo><mo>.</mo></mtd></mtr></mtable></mfenced></math><br />then, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math>&nbsp;is"
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>,</mo><mi>g</mi><mo>:</mo><mi mathvariant=\"normal\">&#8469;</mi><mo>-</mo><mfenced open=\"{\" close=\"}\"><mn>1</mn></mfenced><mo>&#8594;</mo><mi mathvariant=\"normal\">&#8469;</mi></math>&nbsp;be functions defined by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi mathvariant=\"normal\">a</mi></mfenced><mo>=</mo><mi>&#945;</mi></math>, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi></math> is the maximum of the powers of those primes <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>p</mi><mi>&#945;</mi></msup></math>&nbsp;divides <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mi>a</mi></mfenced><mo>=</mo><mi>a</mi><mo>+</mo><mn>1</mn></math>, for all <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&#8712;</mo><mi mathvariant=\"normal\">&#8469;</mi><mo>-</mo><mfenced open=\"{\" close=\"}\"><mn>1</mn></mfenced></math>. Then, the function <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>+</mo><mi>g</mi></math>&nbsp;is"
   },
   "options": [
     {
-      "text": "One-one and onto",
+      "text": "one-one but not onto",
+      "is_correct": false
+    },
+    {
+      "text": "onto but not one-one",
+      "is_correct": false
+    },
+    {
+      "text": "both one-one and onto",
+      "is_correct": false
+    },
+    {
+      "text": "neither one-one nor onto",
       "is_correct": true
-    },
-    {
-      "text": "One-one but not onto",
-      "is_correct": false
-    },
-    {
-      "text": "Onto but not one-one",
-      "is_correct": false
-    },
-    {
-      "text": "Neither one-one nor onto",
-      "is_correct": false
     }
   ],
   "correct_answer": [
-    "A"
+    "D"
   ],
   "solution": {
-    "text": "<p>For one value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> we will get only one corresponding value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>n</mi></mfenced></math>, so&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>n</mi></mfenced></math> is one-one</p><p>Now, for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>6</mn><mo>&#8943;</mo><mo>;</mo><mo>&#160;</mo><mi>f</mi><mfenced><mi>n</mi></mfenced><mo>=</mo><mn>4</mn><mo>,</mo><mn>8</mn><mo>,</mo><mn>12</mn><mo>.</mo><mo>.</mo><mo>.</mo></math></p><p>for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>3</mn><mo>,</mo><mn>7</mn><mo>,</mo><mn>11</mn><mo>&#8943;</mo><mo>;</mo><mo>&#160;</mo><mi>f</mi><mo>&#160;</mo><mfenced><mi>n</mi></mfenced><mo>=</mo><mn>2</mn><mo>,</mo><mn>6</mn><mo>,</mo><mn>10</mn><mo>.</mo><mo>.</mo><mo>.</mo></math></p><p>for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>9</mn><mo>&#8943;</mo><mo>;</mo><mo>&#160;</mo><mi>f</mi><mfenced><mi>n</mi></mfenced><mo>=</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>7</mn><mo>.</mo><mo>.</mo><mo>.</mo></math></p><p>So range of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>n</mi></mfenced></math>&nbsp;is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math></p><p>Hence&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>n</mi></mfenced></math>&nbsp;is onto</p>"
+    "text": "<blockquote><p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>,</mo><mi>g</mi><mo>:</mo><mi>N</mi><mo>-</mo><mfenced close=\"}\" open=\"{\"><mn>1</mn></mfenced><mo>&#8594;</mo><mi>N</mi></math>&nbsp;defined as</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>a</mi></mfenced><mo>=</mo><mi>&#945;</mi></math>, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi></math> is the maximum power of those primes <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>p</mi><mi>&#945;</mi></msup></math>&nbsp;divides a.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mi>a</mi></mfenced><mo>=</mo><mi>a</mi><mo>+</mo><mn>1</mn></math></p><p>Now, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mn>2</mn></mfenced><mo>=</mo><mn>1</mn><mo>,</mo><mo>&#160;&#160;</mo><mi>g</mi><mfenced><mn>2</mn></mfenced><mo>=</mo><mn>3</mn><mo>&#160;&#160;</mo><mo>&#8658;</mo><mo>&#160;&#160;</mo><mfenced><mrow><mi>f</mi><mo>+</mo><mi>g</mi></mrow></mfenced><mfenced><mn>2</mn></mfenced><mo>=</mo><mn>4</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mn>3</mn></mfenced><mo>=</mo><mn>1</mn><mo>,</mo><mo>&#160;&#160;</mo><mi>g</mi><mfenced><mn>3</mn></mfenced><mo>=</mo><mn>4</mn><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mfenced><mrow><mi>f</mi><mo>+</mo><mi>g</mi></mrow></mfenced><mfenced><mn>3</mn></mfenced><mo>=</mo><mn>5</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mn>4</mn></mfenced><mo>=</mo><mn>2</mn><mo>,</mo><mo>&#160;&#160;</mo><mi>g</mi><mfenced><mn>4</mn></mfenced><mo>=</mo><mn>5</mn><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mfenced><mrow><mi>f</mi><mo>+</mo><mi>g</mi></mrow></mfenced><mfenced><mn>4</mn></mfenced><mo>=</mo><mn>7</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mn>5</mn></mfenced><mo>=</mo><mn>1</mn><mo>,</mo><mo>&#160;&#160;</mo><mi>g</mi><mfenced><mn>5</mn></mfenced><mo>=</mo><mn>6</mn><mo>&#160;&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mfenced><mrow><mi>f</mi><mo>+</mo><mi>g</mi></mrow></mfenced><mfenced><mn>5</mn></mfenced><mo>=</mo><mn>7</mn></math></p><p>We can see&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>f</mi><mo>+</mo><mi>g</mi></mrow></mfenced><mfenced><mn>5</mn></mfenced><mo>=</mo><mfenced><mrow><mi>f</mi><mo>+</mo><mi>g</mi></mrow></mfenced><mfenced><mn>4</mn></mfenced></math>, so<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>+</mo><mi>g</mi></math> is not one-one function</p><p>Now, again we can see&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>f</mi><mi>min</mi></msub><mo>=</mo><mn>1</mn><mo>,</mo><msub><mi>g</mi><mi>min</mi></msub><mo>=</mo><mn>3</mn></math></p><p>So, there does not exist any <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&#8712;</mo><mi>N</mi><mo>-</mo><mfenced close=\"}\" open=\"{\"><mn>1</mn></mfenced></math> such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>f</mi><mo>+</mo><mi>g</mi></mrow></mfenced><mfenced><mi>x</mi></mfenced><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mi>f</mi><mo>+</mo><mi>g</mi></math> is not onto</p><p>So function is neither one-one nor onto.</p></blockquote>"
   }
 }

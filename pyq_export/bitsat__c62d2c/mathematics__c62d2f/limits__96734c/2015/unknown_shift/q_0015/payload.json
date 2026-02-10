@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd789dc466ce4f96734c",
+    "chapter_name": "Limits",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$$\\lim _{x \\rightarrow \\infty} \\frac{\\int_{0}^{2 x} x e^{x^{2}} d x}{e^{4 x^{2}}} \\text { equals }$$"
+  },
+  "options": [
+    {
+      "text": "$\\underline{0}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\infty$",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Consider $\\lim _{x \\rightarrow \\infty} \\frac{\\int_{0}^{2 x} x e^{x^{2}} d x}{e^{4 x^{2}}}$\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n=\\lim _{x \\rightarrow \\infty} \\frac{2 \\int_{0}^{2 x} x e^{x^{2}} d x}{2 e^{4 x^{2}}} \\\\\r\n\r\n=\\lim _{x \\rightarrow \\infty} \\frac{2 \\int_{0}^{2 x} e^{x^{2}} d\\left(x^{2}\\right)}{2 e^{4 x^{2}}} \\\\\r\n\r\n=\\lim _{x \\rightarrow \\infty} \\frac{\\left[e^{x^{2}}\\right]_{0}^{2 x}}{e^{4 x^{2}}}=\\lim _{x \\rightarrow \\infty} \\frac{e^{4 x^{2}}-1}{2 e^{4 x^{2}}} \\\\\r\n\r\n=\\lim _{x \\rightarrow \\infty}\\left(\\frac{1}{2}-\\frac{1}{2 e^{4 x^{2}}}\\right)=\\frac{1}{2}\r\n\r\n\\end{array}\r\n\r\n$$"
+  }
+}

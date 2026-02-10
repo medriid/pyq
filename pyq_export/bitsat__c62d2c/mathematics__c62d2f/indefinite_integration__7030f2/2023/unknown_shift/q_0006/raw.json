@@ -1,0 +1,63 @@
+{
+  "_id": "65b7b87797ae24e9e2db8ca1",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "65b7b85fb3be70ed63adbe84",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2023-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Memory Based Paper 1)",
+      "title": "BITSAT 2023 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "If $\\int \\frac{\\mathrm{e}^{\\mathrm{x}}(1+\\sin \\mathrm{x}) \\mathrm{dx}}{1+\\cos \\mathrm{x}}=\\mathrm{e}^{\\mathrm{x}} \\mathrm{f}(\\mathrm{x})+\\mathrm{C}$, then $\\mathrm{f}(\\mathrm{x})$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "KgAbd",
+      "text": "$\\sin \\frac{x}{2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "lalXq",
+      "text": "$\\cos \\frac{x}{2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "sOInl",
+      "text": "$\\tan \\frac{x}{2}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "K5AGC",
+      "text": "$\\log \\frac{x}{2}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\int e^x \\frac{(1+\\sin x)}{(1+\\cos x)} d x$<br />$=\\int e^x\\left[\\frac{1}{2} \\sec ^2 \\frac{x}{2}+\\tan \\frac{x}{2}\\right] d x$<br />$=\\frac{1}{2} \\int e^x \\sec ^2 \\frac{x}{2} d x+\\int e^x \\tan \\frac{x}{2} d x$<br />$=\\mathrm{e}^{\\mathrm{x}} \\tan \\frac{\\mathrm{x}}{2}+\\mathrm{C}$<br />But $\\mathrm{I}=\\mathrm{e}^{\\mathrm{x}} \\mathrm{f}(\\mathrm{x})+\\mathrm{C}$ (given)<br />$\\therefore \\mathrm{f}(\\mathrm{x})=\\tan \\frac{\\mathrm{x}}{2}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "65b7b85fb3be70ed63adbe84",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2023-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Memory Based Paper 1)",
+    "title": "BITSAT 2023 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

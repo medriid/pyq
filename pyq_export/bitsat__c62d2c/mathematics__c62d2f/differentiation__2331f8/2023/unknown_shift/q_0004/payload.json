@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7e2daa1f081e2331f8",
+    "chapter_name": "Differentiation",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $y^x=e^{y-x}$, then $\\frac{d y}{d x}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1+\\log y}{y \\log y}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{(1+\\log y)^2}{y \\log y}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1+\\log y}{(\\log y)^2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{(1+\\log y)^2}{\\log y}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Here, $\\mathrm{y}^{\\mathrm{x}}=\\mathrm{e}^{\\mathrm{y}-\\mathrm{x}}$<br />Taking log on both sides, we get<br />$\\begin{aligned}<br />& \\log y^x=\\log e^{y-x} \\\\<br />& \\quad\\left(\\because \\log a^b=b \\log a \\text { and } \\log e=1\\right)<br />\\end{aligned}$<br />$\\Rightarrow x \\log y=(y-x) \\log e \\Rightarrow x \\log y=y-x \\ldots(i)$<br />On differentiating w.r.t. $x$, we get<br />$\\frac{d}{d x}(x \\log y)=\\frac{d}{d x}(y-x)$<br />(using product rule)<br />$\\begin{aligned}<br />& \\Rightarrow x\\left(\\frac{1}{y}\\right) \\frac{d y}{d x}+\\log y(1)=\\frac{d y}{d x}-1 \\\\<br />& \\Rightarrow \\frac{d y}{d x}\\left(\\frac{x}{y}-1\\right)=-1-\\log y \\\\<br />& \\Rightarrow \\frac{d y}{d x}\\left[\\frac{y}{(1+\\log y) y}-1\\right]=-(1+\\log y) \\\\<br />& \\qquad \\quad\\left[\\because \\text { from eq. }(i) \\cdot x=\\frac{y}{(1+\\log y)}\\right] \\\\<br />& \\Rightarrow \\frac{d y}{d x}\\left[\\frac{1-1-\\log y}{1+\\log y}\\right]=-(1+\\log y)<br />\\end{aligned}$<br />$\\Rightarrow \\frac{d y}{d x}=-\\frac{(1+\\log y)^2}{-\\log y}$<br />$\\Rightarrow \\frac{d y}{d x}=\\frac{(1+\\log y)^2}{\\log y}$"
+  }
+}

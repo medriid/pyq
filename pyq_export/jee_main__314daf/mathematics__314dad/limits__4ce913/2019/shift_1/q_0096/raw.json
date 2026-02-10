@@ -1,62 +1,62 @@
 {
-  "_id": "648b5a67417cc3fb48d66784",
+  "_id": "648b5a66417cc3fb48d6640b",
   "previousYearPapers": [
     {
-      "_id": "615d92ebde3d91842a5cf7ec",
+      "_id": "615d92ecde3d91842a5cf7f0",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2019-01-11T09:00:00.000Z",
+      "heldOn": "2019-04-08T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2019 (11 Jan Shift 1)",
-      "title": "JEE Main 2019 (11 Jan Shift 1)"
+      "shortName": "2019 (08 Apr Shift 1)",
+      "title": "JEE Main 2019 (08 Apr Shift 1)"
     }
   ],
   "type": "singleCorrect",
-  "level": 2,
+  "level": 1,
   "question": {
-    "text": "Let $[\\mathrm{x}]$ denote the greatest integer less than or equal to $\\mathrm{X}$. Then :\r\n\r\n$\\lim _{x \\rightarrow 0} \\frac{\\tan \\left(\\pi \\sin ^{2} x\\right)+(|\\mathrm{x}|-\\sin (x[x]))^{2}}{x^{2}}$",
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mi mathvariant=\"normal\">&#160;</mi><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi></mrow><mn>2</mn></msup><mi>x</mi></mrow><mrow><msqrt><mn>2</mn></msqrt><mo>-</mo><msqrt><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">s</mi><mi>x</mi></msqrt></mrow></mfrac></math> equals",
     "image": null
   },
   "options": [
     {
-      "id": "a0pvK",
-      "text": "does not exist",
+      "id": "5fyug",
+      "text": "<math><mn>4</mn><msqrt><mn>2</mn></msqrt></math>",
       "isCorrect": true,
       "image": null
     },
     {
-      "id": "j6czU",
-      "text": "equals $\\pi$",
+      "id": "xvCqp",
+      "text": "<math><mn>2</mn><msqrt><mn>2</mn></msqrt></math>",
       "isCorrect": false,
       "image": null
     },
     {
-      "id": "IHLWW",
-      "text": "equals $\\pi+1$",
+      "id": "XzEEX",
+      "text": "<math><msqrt><mn>2</mn></msqrt></math>",
       "isCorrect": false,
       "image": null
     },
     {
-      "id": "5R4im",
-      "text": "equals 0",
+      "id": "lNUk4",
+      "text": "<math><mn>4</mn></math>",
       "isCorrect": false,
       "image": null
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "RHL is, $\\lim _{x \\rightarrow 0^{+}} \\frac{\\tan \\left(\\pi \\sin ^{2} x\\right)+(x-0)^{2}}{x^{2}}$\r\n\r\n$=\\lim _{x \\rightarrow 0^{+}}\\left(\\frac{\\tan \\left(\\pi \\sin ^{2} x\\right.}{x^{2}}+1\\right)=1+\\pi$\r\n\r\nAnd LHL is, $\\lim _{x \\rightarrow 0^{-}} \\frac{\\tan \\left(\\pi \\sin ^{2} x\\right)+(-x+\\sin x)^{2}}{x^{2}}$\r\n\r\n$=\\lim _{x \\rightarrow 0^{-}} \\frac{\\tan \\left(\\pi \\sin ^{2} x\\right)+x^{2}+\\sin ^{2} x-2 x \\sin x}{x^{2}}$\r\n\r\n$=\\pi+1+1-2=\\pi$\r\n\r\nSince, LHL $\\neq$ RHL Hence, limit does not exist.",
+    "text": "<p><math><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mi mathvariant=\"normal\">&#160;</mi><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi></mrow><mrow><mn>2</mn></mrow></msup><mi>x</mi></mrow><mrow><msqrt><mn>2</mn></msqrt><mo>-</mo><msqrt><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">s</mi><mi>x</mi></msqrt></mrow></mfrac></math></p><p>On Rationalisation, we get,</p><p>&nbsp; &nbsp; &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mi mathvariant=\"normal\">&#160;</mi><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi></mrow><mn>2</mn></msup><mi>x</mi></mrow><mrow><msqrt><mn>2</mn></msqrt><mo>-</mo><msqrt><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">s</mi><mi>x</mi></msqrt></mrow></mfrac><mo>&#215;</mo><mfrac><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi>sx</mi></msqrt></mrow><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi>sx</mi></msqrt></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mi mathvariant=\"normal\">&#160;</mi><mfrac><msup><mfenced separators=\"|\"><mrow><mn>2</mn><mi>sin</mi><mfrac><mi>x</mi><mn>2</mn></mfrac><mi>cos</mi><mfrac><mi>x</mi><mn>2</mn></mfrac></mrow></mfenced><mn>2</mn></msup><mrow><mn>1</mn><mo>-</mo><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">s</mi><mi>x</mi></mrow></mfrac><mo>&#215;</mo><mfenced separators=\"|\"><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>1</mn><mo>+</mo><mi>cos</mi><mi>x</mi></msqrt></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mi mathvariant=\"normal\">&#160;</mi><mfrac><mrow><mn>4</mn><msup><mrow><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi></mrow><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac><msup><mrow><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">s</mi></mrow><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac></mrow><mrow><mn>2</mn><msup><mrow><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">n</mi></mrow><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac></mrow></mfrac><mo>&#215;</mo><mfenced><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>1</mn><mo>+</mo><mi>cos</mi><mi>x</mi></msqrt></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mi>&#160;</mi><mn>2</mn><msup><mrow><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">s</mi></mrow><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac><mfenced separators=\"|\"><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">s</mi><mi>x</mi></msqrt></mrow></mfenced><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math></p><p><math><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math>.</p>",
     "image": null
   },
   "videoSolution": null,
   "questionLabels": [],
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "615d92ebde3d91842a5cf7ec",
+    "_id": "615d92ecde3d91842a5cf7f0",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2019-01-11T09:00:00.000Z",
+    "heldOn": "2019-04-08T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2019 (11 Jan Shift 1)",
-    "title": "JEE Main 2019 (11 Jan Shift 1)"
+    "shortName": "2019 (08 Apr Shift 1)",
+    "title": "JEE Main 2019 (08 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

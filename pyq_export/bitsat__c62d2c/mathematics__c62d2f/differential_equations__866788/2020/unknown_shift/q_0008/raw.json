@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e81a6f5bfc7ab78aea9c",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d7e",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2020-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2020",
+      "title": "BITSAT 2020"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "The solution of the differential equation\r\n\r\n$(x+1) \\frac{d y}{d x}-y=e^{3 x}(x+1)^{2}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "o491H",
+      "text": "$y=(x+1) e^{3 x}+c$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "wF9eq",
+      "text": "$3 y=(x+1)+e^{3 x}+c$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "V8ZAY",
+      "text": "$\\frac{3 y}{x+1}=e^{3 x}+c$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "o5TXK",
+      "text": "$y e^{-3 x}=3(x+1)+c$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "The given equation is $\\frac{d y}{d x}-\\frac{y}{x+1}=e^{3 x}(x+1)$\r\n\r\nI.F. $=e^{\\int-\\frac{1}{x+1} d x}=e^{-\\log (x+1)}=\\frac{1}{x+1}$\r\n\r\nThe solution is\r\n\r\n$y\\left(\\frac{1}{x+1}\\right)=\\int e^{3 x}(x+1) \\cdot \\frac{1}{x+1} d x+a$\r\n\r\n$\\Rightarrow \\frac{y}{x+1}=\\int e^{3 x} d x+a=\\frac{e^{3 x}}{3}+a$\r\n\r\n$\\Rightarrow \\frac{3 y}{x+1}=e^{3 x}+c, c=3 a$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d7e",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2020-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2020",
+    "title": "BITSAT 2020"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,8 +1,8 @@
 {
   "index": 19,
-  "type": "numerical",
+  "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (28 Jan Shift 1)",
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "In a measurement, it is asked to find modulus of elasticity per unit torque applied on the system. The measured quantity has dimension of $\\left[M^a L^b T^c\\right]$. If $b=-3$, the value of $c$ is ________"
+    "text": "Match List-I with List-II.<br/>$\\begin{array}{ll} \\text{List-I} & \\text{List-II} \\\\ \\text{(A) Coefficient of viscosity} & \\text{(I) } \\left[\\mathrm{ML}^0 \\mathrm{~T}^{-3}\\right] \\\\ \\text{(B) Intensity of wave} & \\text{(II) } \\left[\\mathrm{ML}^{-2} \\mathrm{~T}^{-2}\\right] \\\\ \\text{(C) Pressure gradient} & \\text{(III) } \\left[\\mathrm{M}^{-1} \\mathrm{LT}^2\\right] \\\\ \\text{(D) Compressibility} & \\text{(IV) } \\left[\\mathrm{ML}^{-1} \\mathrm{~T}^{-1}\\right]\\end{array}$<br/>Choose the correct answer from the options given below :"
   },
-  "options": [],
-  "correct_answer": "0",
+  "options": [
+    {
+      "text": "$(\\mathrm{A})-(\\mathrm{I}),(\\mathrm{B})-(\\mathrm{IV}),(\\mathrm{C})-(\\mathrm{III}),(\\mathrm{D})-(\\mathrm{II})$",
+      "is_correct": false
+    },
+    {
+      "text": "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)",
+      "is_correct": true
+    },
+    {
+      "text": "$(\\mathrm{A})-(\\mathrm{IV}),(\\mathrm{B})-(\\mathrm{II}),(\\mathrm{C})-(\\mathrm{I}),(\\mathrm{D})-(\\mathrm{III})$",
+      "is_correct": false
+    },
+    {
+      "text": "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
   "solution": {
-    "text": "[Modulus of elasticity] $=\\mathrm{ML}^{-1} \\mathrm{~T}^{-2}$\n[Torque] $=$ ML $^2 \\mathrm{~T}^{-2}$\n[Modulus of elasticity per unit torque]\n$=\\frac{\\mathrm{ML}^{-1} \\mathrm{~T}^{-2}}{\\mathrm{ML}^2 \\mathrm{~T}^{-2}}=\\mathrm{L}^{-3}$"
+    "text": "(A) Coefficient of viscosity<br/>$[\\eta]=\\left[\\mathrm{M}^1 \\mathrm{~L}^{-1} \\mathrm{~T}^{-1}\\right]$<br/>(B) Intensity $[\\mathrm{I}]=\\left[\\mathrm{M}^1 \\mathrm{~L}^0 \\mathrm{~T}^{-3}\\right]$<br/>(C) Pressure gradient $=\\left[\\mathrm{ML}^{-2} \\mathrm{~T}^{-2}\\right]$<br/>(D) Compressibility $[\\mathrm{K}]=\\left[\\mathrm{M}^{-1} \\mathrm{~L}^1 \\mathrm{~T}^2\\right]$"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "index": 42,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $A$ be a $3 \\times 3$ matrix of non-negative real elements such that $A\\left[\\begin{array}{l}1 \\\\ 1 \\\\ 1\\end{array}\\right]=3\\left[\\begin{array}{l}1 \\\\ 1 \\\\ 1\\end{array}\\right]$. Then the maximum value of $\\operatorname{det}(\\mathrm{A})$ is ______"
+  },
+  "options": [],
+  "correct_answer": "27",
+  "solution": {
+    "text": "$\\begin{aligned} \\text { Let } A & =\\left[\\begin{array}{lll}a_1 & a_2 & a_3 \\\\ b_1 & b_2 & b_3 \\\\ c_1 & c_2 & c_3\\end{array}\\right] \\\\ A\\left[\\begin{array}{l}1 \\\\ 1 \\\\ 1\\end{array}\\right] & =3\\left[\\begin{array}{l}1 \\\\ 1 \\\\ 1\\end{array}\\right]\\end{aligned}$\n$\\Rightarrow a_1+a_2+a_3=3$ ...(1)\n$\\Rightarrow b_1+b_2+b_3=3$ ...(2)\n$\\Rightarrow c_1+\\mathrm{ca}_2+\\mathrm{c}_3=3$ ...(3)\nNow,\n$\\begin{aligned}\n& |A|=\\left(a_1 b_2 c_3+a_2 b_3 c_1+a_3 b_1 c_2\\right) \\\\\n& -\\left(a_3 b_2 c_1+a_2 b_1 c_3+a_1 b_3 c_2\\right)\n\\end{aligned}$\n$\\therefore$ From above in formation, clearly $|\\mathrm{A}|_{\\max }=27$, when $a_1=3, b_2=3, c_3=3$"
+  }
+}

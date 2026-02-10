@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2019",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7ddf871d2a6297f8ad",
+    "chapter_name": "Binomial Theorem",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>x</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced><mn>20</mn></msup><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mn>40</mn></munderover><msub><mi>a</mi><mi>r</mi></msub><mo>&#183;</mo><msup><mi>x</mi><mi>r</mi></msup></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mn>39</mn></munderover><msup><mfenced><mrow><mo>-</mo><mn>1</mn></mrow></mfenced><mi>r</mi></msup><mo>&#183;</mo><msub><mi>a</mi><mi>r</mi></msub><mo>&#183;</mo><msub><mi>a</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub></math>&nbsp;equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>79</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>39</mn></msup><mo>&#183;</mo><mmultiscripts><mi>C</mi><mn>39</mn><none/><mprescripts/><none/><mn>78</mn></mmultiscripts></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>39</mn></msup><mo>&#183;</mo><mmultiscripts><mi>C</mi><mn>39</mn><none/><mprescripts/><none/><mn>78</mn></mmultiscripts></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>We have, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>x</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced><mn>20</mn></msup><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mn>40</mn></munderover><msub><mi>a</mi><mi>r</mi></msub><msup><mi>x</mi><mi>r</mi></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> is replaced by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></math>, we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>+</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mn>20</mn></msup><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mn>40</mn></munderover><mo>(</mo><mo>-</mo><mn>1</mn><msup><mo>)</mo><mi>r</mi></msup><msub><mi>a</mi><mi>r</mi></msub><msup><mfenced><mfrac><mn>1</mn><mi>x</mi></mfrac></mfenced><mi>r</mi></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced><mn>20</mn></msup><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mn>40</mn></munderover><mo>(</mo><mo>-</mo><mn>1</mn><msup><mo>)</mo><mi>r</mi></msup><msub><mi>a</mi><mi>r</mi></msub><msup><mi>x</mi><mrow><mn>40</mn><mo>-</mo><mi>r</mi></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mn>39</mn></munderover><msup><mfenced><mrow><mo>-</mo><mn>1</mn></mrow></mfenced><mi>r</mi></msup><msub><mi>a</mi><mi>r</mi></msub><mo>&#183;</mo><msub><mi>a</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub></math> is coefficient of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> in product of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>x</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced><mn>20</mn></msup><msup><mfenced><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>+</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mn>20</mn></msup></math></p><p>Now,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>x</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced><mn>20</mn></msup><msup><mfenced><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>+</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mn>20</mn></msup><mo>=</mo><msup><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mn>20</mn></msup></math></p><p>Here, there will be no term of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</p><p>Hence, the coefficient of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>&nbsp;will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>.</p>"
+  }
+}

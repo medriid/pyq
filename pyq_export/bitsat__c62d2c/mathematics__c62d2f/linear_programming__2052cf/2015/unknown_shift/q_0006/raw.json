@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7d46f5bfc7ab78ae830",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d79",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "BITSAT 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "Minimise $Z=\\sum_{j=1}^{n} \\sum_{i=1}^{m} c_{i j} x_{i j}$\r\n\r\nSubject to $\\sum_{i=1}^{m} x_{i j}=b_{j}, j=1,2, \\ldots, n$\r\n\r\n$\\sum_{j=1}^{n} x_{i j}=b_{j}, i=1,2, \\ldots, m$ is a $L P P$ with number of constr",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "A9vS2",
+      "text": "$m-n$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "eA4bk",
+      "text": "$m$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "ux6QN",
+      "text": "$\\mathrm{m}+\\mathrm{n}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "T20T6",
+      "text": "$\\frac{\\mathrm{m}}{\\mathrm{n}}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Constraints will be\r\n\r\n$$\r\n\r\n\\mathrm{x}_{11}+\\mathrm{x}_{21}+\\ldots .+\\mathrm{x}_{\\mathrm{ml}}=\\mathrm{b}_{1}\r\n\r\n$$\r\n\r\n$\\mathrm{x}_{12}+\\mathrm{x}_{22}+\\ldots \\ldots \\mathrm{x}_{\\mathrm{m} 2}=\\mathrm{b}_{2}$\r\n\r\n$\\mathrm{x}_{\\ln }+\\mathrm{x}_{2 \\mathrm{n}}+\\ldots .+\\mathrm{x}_{\\mathrm{mn}}=\\mathrm{b}_{\\mathrm{n}}$\r\n\r\n$\\mathrm{x}_{11}+\\mathrm{x}_{12}+\\ldots+\\mathrm{x}_{1 \\mathrm{n}}=\\mathrm{b}_{1}$\r\n\r\n$\\mathrm{x}_{21}+\\mathrm{x}_{22}+\\ldots+\\mathrm{x}_{2 \\mathrm{n}}=\\mathrm{b}_{2}$\r\n\r\n$\\mathrm{x}_{\\mathrm{ml}}+\\mathrm{x}_{\\mathrm{m} 2}+\\ldots+\\mathrm{x}_{\\mathrm{mn}}=\\mathrm{b}_{\\mathrm{n}}$\r\n\r\nSo, total number of constraints $=\\mathrm{m}+\\mathrm{n}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d79",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "BITSAT 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

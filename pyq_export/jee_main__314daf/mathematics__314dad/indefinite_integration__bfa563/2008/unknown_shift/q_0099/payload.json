@@ -1,0 +1,43 @@
+{
+  "index": 99,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2008",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $\\sqrt{2} \\int \\frac{\\sin x d x}{\\sin \\left(x-\\frac{\\pi}{4}\\right)}$ is"
+  },
+  "options": [
+    {
+      "text": "\n$x+\\log \\left|\\cos \\left(x-\\frac{\\pi}{4}\\right)\\right|+c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x-\\log \\left|\\sin \\left(x-\\frac{\\pi}{4}\\right)\\right|+c$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x+\\log \\left|\\sin \\left(x-\\frac{\\pi}{4}\\right)\\right|+c$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$x-\\log \\left|\\cos \\left(x-\\frac{\\pi}{4}\\right)\\right|+c$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\sqrt{2} \\int \\frac{\\sin x d x}{\\sin \\left(x-\\frac{\\pi}{4}\\right)}=\\sqrt{2} \\int \\frac{\\sin \\left(x-\\frac{\\pi}{4}+\\frac{\\pi}{4}\\right) d x}{\\sin \\left(x-\\frac{\\pi}{4}\\right)} \\\\\n& =\\sqrt{2} \\int\\left(\\cos \\frac{\\pi}{4}+\\cot \\left(x-\\frac{\\pi}{4}\\right) \\sin \\frac{\\pi}{4}\\right) d x \\\\\n& =\\int d x+\\int \\cot \\left(x-\\frac{\\pi}{4}\\right) d x \\\\\n& =x+\\ln \\left|\\sin \\left(x-\\frac{\\pi}{4}\\right)\\right|+c .\n\\end{aligned}\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 253,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2013 (22 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602402632932165bf0ef64",
+    "chapter_name": "Electrostatics",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Two small equal point charges of magnitude $q$ are suspended from a common point on the ceiling by insulating mass less strings of equal lengths. They come to equilibrium with each string making angle $\\theta$ from the vertical. If the mass of each charge is $m$, then the electrostatic potential at the centre of line joining them will be\n$$\n\\left(\\frac{1}{4 \\pi \\in_0}=k\\right) \\text {. }\n$$"
+  },
+  "options": [
+    {
+      "text": "\n$2 \\sqrt{k m g \\tan \\theta}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\sqrt{k m g \\tan \\theta}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$4 \\sqrt{k m g / \\tan \\theta}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$4 \\sqrt{k m g / \\tan \\theta}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0253_65483f2c565e.png\"><br>\nIn equilibrium, $\\mathrm{F}_{\\mathrm{e}}=\\mathrm{T} \\sin \\theta$\n$$\n\\begin{aligned}\n& m g=T \\cos \\theta \\\\\n& \\tan \\theta=\\frac{F_e}{m g}=\\frac{q^2}{4 \\pi \\epsilon_0 x^2 \\times m g} \\\\\n& \\therefore x=\\sqrt{\\frac{q^2}{4 \\pi \\epsilon_0 \\tan \\theta m g}}\n\\end{aligned}\n$$\nElectric potential at the centre of the line\n$$\n\\mathrm{V}=\\frac{\\mathrm{kq}}{\\mathrm{x} / 2}+\\frac{\\mathrm{kq}}{\\mathrm{x} / 2}=4 \\sqrt{\\mathrm{kmg} / \\tan \\theta}\n$$"
+  }
+}

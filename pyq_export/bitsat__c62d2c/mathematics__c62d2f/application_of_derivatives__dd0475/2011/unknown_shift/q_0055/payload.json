@@ -1,0 +1,43 @@
+{
+  "index": 55,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2011",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83086701c4b7dd0475",
+    "chapter_name": "Application of Derivatives",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The curve \\(y-e^{x y}+x=0\\) has a vertical tangent at"
+  },
+  "options": [
+    {
+      "text": "\\((1,1)\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\((0,1)\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\((1,0)\\)",
+      "is_correct": true
+    },
+    {
+      "text": "no point",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& y-e^{x y}+x=0 \\\\\n& \\therefore \\frac{d y}{d x}-e^{x y}\\left(y+x \\frac{d y}{d x}\\right)+1=0 \\\\\n& \\text {i.e., } \\frac{d y}{d x}-y(x+y)-x(x+y) \\frac{d y}{d x}+1=0 \\\\\n& \\text {i.e., }[1-x(x+y)] \\frac{d y}{d x}=y(x+y)-1\n\\end{aligned}\\)\nfor the vertical tangents\n\\(1-x(x+y)=0\\) i.e., \\(\\quad y=\\frac{1-x^2}{x}\\)\n\\(\\therefore \\mathrm{x}=1\\) and \\(\\mathrm{y}=0\\)"
+  }
+}

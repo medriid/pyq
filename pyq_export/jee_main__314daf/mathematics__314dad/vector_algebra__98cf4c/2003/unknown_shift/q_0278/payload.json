@@ -1,0 +1,43 @@
+{
+  "index": 278,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2003",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2003",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\vec{u}, \\vec{v}$ and $\\vec{w}$ are three non-coplanar vectors, then $(\\vec{u}+\\vec{v}-\\vec{w}) .(\\vec{u}-\\vec{v}) \\times(\\vec{v}-\\vec{w})$ equals"
+  },
+  "options": [
+    {
+      "text": "\n$3 \\vec{u} . \\vec{v} \\times \\vec{w}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\overrightarrow{\\mathrm{u}} \\cdot \\overrightarrow{\\mathrm{v}} \\times \\overrightarrow{\\mathrm{w}}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\overrightarrow{\\mathrm{u}} \\cdot \\overrightarrow{\\mathrm{w}} \\times \\overrightarrow{\\mathrm{v}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$(\\overrightarrow{\\mathrm{u}}+\\overrightarrow{\\mathrm{v}}-\\overrightarrow{\\mathrm{w}}) \\cdot(\\overrightarrow{\\mathrm{u}} \\times \\overrightarrow{\\mathrm{v}}-\\overrightarrow{\\mathrm{u}} \\times \\overrightarrow{\\mathrm{w}}-\\overrightarrow{\\mathrm{v}} \\times \\overrightarrow{\\mathrm{v}}+\\overrightarrow{\\mathrm{v}} \\times \\overrightarrow{\\mathrm{w}})$\n$(\\overrightarrow{\\mathrm{u}}+\\overrightarrow{\\mathrm{v}}-\\overrightarrow{\\mathrm{w}}) \\cdot(\\overrightarrow{\\mathrm{u}} \\times \\overrightarrow{\\mathrm{v}}-\\overrightarrow{\\mathrm{u}} \\times \\overrightarrow{\\mathrm{w}}+\\overrightarrow{\\mathrm{v}} \\times \\overrightarrow{\\mathrm{w}})=\\frac{\\overrightarrow{\\mathrm{u}} \\cdot(\\overrightarrow{\\mathrm{u}} \\times \\overrightarrow{\\mathrm{v}})}{0}$\n$-\\frac{\\overrightarrow{\\mathrm{u}} .(\\overrightarrow{\\mathrm{u}} \\times \\overrightarrow{\\mathrm{w}})}{0}+\\overrightarrow{\\mathrm{u}} .(\\overrightarrow{\\mathrm{v}} \\times \\overrightarrow{\\mathrm{w}})+\\frac{\\overrightarrow{\\mathrm{v}} \\cdot(\\overrightarrow{\\mathrm{u}} \\times \\overrightarrow{\\mathrm{v}})}{0}-\\overrightarrow{\\mathrm{v}} \\cdot(\\overrightarrow{\\mathrm{u}} \\times \\overrightarrow{\\mathrm{w}})$\n$+\\frac{\\overrightarrow{\\mathrm{v}} \\cdot(\\overrightarrow{\\mathrm{v}} \\times \\overrightarrow{\\mathrm{w}})}{0}-\\overrightarrow{\\mathrm{w}} \\cdot(\\overrightarrow{\\mathrm{u}} \\times \\overrightarrow{\\mathrm{v}})+\\frac{\\overrightarrow{\\mathrm{w}} \\cdot(\\overrightarrow{\\mathrm{u}} \\times \\overrightarrow{\\mathrm{w}})}{0}-\\frac{\\overrightarrow{\\mathrm{w}} \\cdot(\\overrightarrow{\\mathrm{u}} \\times \\overrightarrow{\\mathrm{w}})}{0}=\\overrightarrow{\\mathrm{u}} \\cdot(\\overrightarrow{\\mathrm{v}} \\times \\overrightarrow{\\mathrm{w}})-\\overrightarrow{\\mathrm{v}} \\cdot(\\overrightarrow{\\mathrm{u}} \\times \\overrightarrow{\\mathrm{w}})-\\overrightarrow{\\mathrm{w}} \\cdot(\\overrightarrow{\\mathrm{u}} \\times \\overrightarrow{\\mathrm{v}})$\n$=[\\overrightarrow{\\mathrm{u}} \\overrightarrow{\\mathrm{v}} \\overrightarrow{\\mathrm{w}}]+[\\overrightarrow{\\mathrm{v}} \\overrightarrow{\\mathrm{w}} \\overrightarrow{\\mathrm{u}}]-[\\overrightarrow{\\mathrm{w}} \\overrightarrow{\\mathrm{u}} \\overrightarrow{\\mathrm{v}}]=\\overrightarrow{\\mathrm{u}} .(\\overrightarrow{\\mathrm{v}} \\times \\overrightarrow{\\mathrm{w}})$"
+  }
+}

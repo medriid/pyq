@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d656d6",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2005-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2005",
+      "title": "JEE Main 2005"
+    }
+  ],
+  "question": {
+    "text": "If $a^2+b^2+c^2=-2$ and $f(x)=\\left|\\begin{array}{ccc}1+a^2 x & \\left(1+b^2\\right) x & \\left(1+c^2\\right) x \\\\ \\left(1+a^2\\right) x & 1+b^2 x & \\left(1+c^2\\right) x \\\\ \\left(1+a^2\\right) x & \\left(1+b^2\\right) x & 1+c^2 x\\end{array}\\right|$ then $f(x)$ is $a$ polynomial of degree",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "tKLE7",
+      "text": "\n1\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "xsfab",
+      "text": "\n0\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "IGuuT",
+      "text": "\n3\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ri3Sn",
+      "text": "\n2",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& f(x)=\\left|\\begin{array}{ccc}\n1+\\left(a^2+b^2+c^2+2\\right) x & \\left(1+b^2\\right) x & \\left(1+c^2\\right) x \\\\\n1+\\left(a^2+b^2+c^2+2\\right) x & 1+b^2 x & \\left(1+c^2\\right) x \\\\\n1+\\left(a^2+b^2+c^2+2\\right) x & \\left(1+b^2\\right) x & 1+c^2 x\n\\end{array}\\right| \\text {, Applying } C_1 \\rightarrow C_1+C_2+C_3 \\\\\n& =\\left|\\begin{array}{ccc}\n1 & \\left(1+b^2\\right) x & \\left(1+c^2\\right) x \\\\\n1 & 1+b^2 x & \\left(1+c^2\\right) x \\\\\n1 & \\left(1+b^2\\right) x & 1+c^2 x\n\\end{array}\\right| \\because a^2+b^2+c^2+2=0 \\\\\n& f(x)=\\left|\\begin{array}{ccc}\n0 & x-1 & 0 \\\\\n0 & 1-x & x-1 \\\\\n1 & \\left(1+b^2\\right) x & 1+c x\n\\end{array}\\right| ; \\text { Applying } R_1 \\rightarrow R_1-R_2, R_2 \\rightarrow R_2-R_3 \\\\\n& f(x)=(x-1)^2\n\\end{aligned}\n$$\nHence degree $=2$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2005-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2005",
+    "title": "JEE Main 2005"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

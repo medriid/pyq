@@ -1,0 +1,43 @@
+{
+  "index": 116,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2014 (11 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\lim _{x \\rightarrow 2} \\frac{\\tan \\left(x-2\\left\\{x^2+k+2 x-2 k\\right\\}\\right.}{x^2-4 x+4}=5$, then $\\mathrm{k}$ is equal to:"
+  },
+  "options": [
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n2\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n3",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n\\text { } & \\lim _{x \\rightarrow 2} \\frac{\\tan (x-2)\\left\\{x^2+(k-2) x-2 k\\right\\}}{x^2-4 x+4}=5 \\\\\n\\Rightarrow & \\lim _{x \\rightarrow 2} \\frac{\\tan (x-2)\\left\\{x^2+k x-2 x-2 k\\right\\}}{(x-2)^2}=5 \\\\\n\\Rightarrow & \\lim _{x \\rightarrow 2} \\frac{\\tan (x-2)\\{x(x-2)+k(x-2)\\}}{(x-2) \\times(x-2)}=5 \\\\\n\\Rightarrow \\lim _{x \\rightarrow 2}\\left(\\frac{\\tan (x-2)}{(x-2)}\\right) \\times \\lim _{x \\rightarrow 2}\\left(\\frac{(k+x)(x-2)}{(x-2)}\\right)=5 \\\\\n\\Rightarrow & 1 \\times \\lim _{x \\rightarrow 2}(k+x)=5 \\\\\n&\\left\\{\\because \\lim _{h \\rightarrow 0} \\frac{\\tan h}{h}=1\\right\\} \\\\\n& \\text { or } k+2=5 \\\\\n\\Rightarrow k=3\n\\end{aligned}\n$$"
+  }
+}

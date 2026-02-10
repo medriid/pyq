@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7d46f5bfc7ab78ae833",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d79",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "BITSAT 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Tangents are drawn from the origin to the curve $\\mathrm{y}=\\cos \\mathrm{x} .$ Their points of contact lie on",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "0YF2U",
+      "text": "$x^{2} y^{2}=y^{2}-x^{2}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "awn3w",
+      "text": "$x^{2} y^{2}=x^{2}+y^{2}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "4EFok",
+      "text": "$x^{2} y^{2}=x^{2}-y^{2}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "BhZOz",
+      "text": "None of these",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $\\left(x_{1}, y_{1}\\right)$ be one of the points of contact. Given curve is $y=\\cos x$\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\Rightarrow \\frac{\\mathrm{dy}}{\\mathrm{dx}}=-\\sin \\mathrm{x} \\\\\r\n\r\n\\left.\\Rightarrow \\frac{\\mathrm{dy}}{\\mathrm{dx}}\\right|_{\\left(\\mathrm{x}_{1}, \\mathrm{y}_{1}\\right)}=-\\sin \\mathrm{x}_{1}\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nNow the equation of the tangent at $\\left(\\mathrm{x}_{1}, \\mathrm{y}_{1}\\right)$ is\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n& y-y_{1}\\left(\\frac{d y}{d x}\\right)_{\\left(x_{1}, y_{1}\\right)}\\left(x-x_{1}\\right) \\\\\r\n\r\n\\Rightarrow & y-y_{1}=-\\sin x_{1}\\left(0-x_{1}\\right)\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\nSince, it is given that equation of tangent passes through origin.\r\n\r\n$$\r\n\r\n\\begin{array}{lr}\r\n\r\n\\therefore & 0-y_{1}=-\\sin x_{1}\\left(0-x_{1}\\right) \\\\\r\n\r\n\\Rightarrow & y_{1}=-x_{1} \\sin x_{1}\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nAlso, point $\\left(x_{1}, y_{1}\\right)$ lies on $y=\\cos x$\r\n\r\n$$\r\n\r\n\\therefore \\quad y_{1}=\\cos x_{1}\r\n\r\n$$\r\n\r\nFrom Eqs. (i), (ii), we get\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n& \\sin ^{2} x_{1}+\\cos ^{2} x_{1}=\\frac{y_{1}^{2}}{x_{1}^{2}}+y_{1}^{2}=1 \\\\\r\n\r\n\\Rightarrow & x_{1}^{2}=y_{1}^{2}+y_{1}^{2} x_{1}^{2}\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\nHence, the locus of $\\left(x_{1}, y_{1}\\right)$ is\r\n\r\n$$\r\n\r\nx^{2}=y^{2}+y^{2} x^{2} \\Rightarrow x^{2} y^{2}=x^{2}-y^{2}\r\n\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d79",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "BITSAT 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

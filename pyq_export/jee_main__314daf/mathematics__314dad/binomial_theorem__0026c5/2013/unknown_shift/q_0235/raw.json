@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65c4a",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7d3",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-22T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (22 Apr Online)",
+      "title": "JEE Main 2013 (22 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "If the 7th term in the binomial expansion of $\\left(\\frac{3}{\\sqrt[3]{84}}+\\sqrt{3} \\ln x\\right)^9, x>0$, is equal to 729 , then $x$ can be:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "1sXjD",
+      "text": "\n$e^2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "zEtXQ",
+      "text": "\n$e$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "vGvMd",
+      "text": "\n$\\frac{e}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ppanV",
+      "text": "\n$2 e$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $r+1=7 \\Rightarrow r=6$\nGiven expansion is\n$$\n\\left(\\frac{3}{\\sqrt[3]{84}}+\\sqrt{3} \\ln x\\right)^9, x>0\n$$\nWe have\n$$\n\\mathrm{T}_{r+1}={ }^n \\mathrm{C}_r(x)^{n-r} a^r \\text { for }(x+a)^n \\text {. }\n$$\n$\\therefore$ According to the question\n$$\n\\begin{aligned}\n& 729={ }^9 \\mathrm{C}_6\\left(\\frac{3}{\\sqrt[3]{84}}\\right)^3 \\cdot(\\sqrt{3} \\ln x)^6 \\\\\n& \\Rightarrow 3^6=84 \\times \\frac{3^3}{84} \\times 3^3 \\times(6 \\ln x) \\\\\n& \\Rightarrow(\\ln x)^6=1 \\Rightarrow(\\ln x)^6=(\\ln e)^6 \\\\\n& \\Rightarrow x=\\mathrm{e}\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7d3",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-22T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (22 Apr Online)",
+    "title": "JEE Main 2013 (22 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "67726d1bc49e8ef28ee2b449",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6416",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T19:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 3)",
+      "title": "BITSAT 2024 (Memory Based Paper 3)"
+    }
+  ],
+  "question": {
+    "text": "The value of definite integral $\\int_0^{\\pi / 2} \\log (\\tan x) d x$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "O4U2t",
+      "text": "0",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "a8LZE",
+      "text": "$\\frac{\\pi}{4}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "RSnRV",
+      "text": "$\\frac{\\pi}{2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7K0kB",
+      "text": "$\\pi$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $I=\\int_0^{\\frac{\\pi}{2}} \\log (\\tan x) d x$....(i)\nBy applying property,\n$\\begin{aligned}\n\\int_a^b f(x) d x & =\\int_a^b f(a+b-x) d x \\\\\nI & =\\int_0^{\\frac{\\pi}{2}} \\log \\left(\\tan \\left(\\frac{\\pi}{2}-x\\right)\\right) d x \\\\\nI & =\\int_0^{\\frac{\\pi}{2}} \\log (\\cot x) d x\\ldots(ii)\n\\end{aligned}$\nAdding Eqs. (i) and (ii),\n$\\begin{aligned}\n& 2 I=\\int_0^{\\frac{\\pi}{2}}[\\log (\\tan x)+\\log (\\cot x)] d x \\\\\n& 2 I=\\int_0^{\\frac{\\pi}{2}} \\log 1 d x=0\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6416",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T19:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 3)",
+    "title": "BITSAT 2024 (Memory Based Paper 3)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

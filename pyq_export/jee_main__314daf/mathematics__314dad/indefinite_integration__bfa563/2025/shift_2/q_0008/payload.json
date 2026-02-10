@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $f(x)=\\int \\frac{1}{x^{1 / 4}\\left(1+x^{1 / 4}\\right)} \\mathrm{d} x, f(0)=-6$, then $f(1)$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$4\\left(\\log _e 2-2\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$2-\\log _{e^2} 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log _{\\mathrm{e}} 2+2$",
+      "is_correct": false
+    },
+    {
+      "text": "$4\\left(\\log _e 2+2\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\text { Put } x^{1 / 4}=t \\Rightarrow d x=4 t^3 d t \\\\ & \\int \\frac{4 t^3 d t}{t(t+1)}=4 \\int\\left(\\frac{t^2-1}{t+1}+\\frac{1}{t+1}\\right) d t \\\\ & f(x)=4\\left[\\frac{x^{1 / 2}}{2}-x^{1 / 4}+\\ln \\left|x^{1 / 4}+1\\right|\\right]+C\\end{aligned}$\n$\\begin{aligned} & f(0)=-6 \\\\ & \\Rightarrow C=-6 \\\\ & \\Rightarrow \\quad f(1)=4\\left(\\log _e 2-2\\right)\\end{aligned}$"
+  }
+}

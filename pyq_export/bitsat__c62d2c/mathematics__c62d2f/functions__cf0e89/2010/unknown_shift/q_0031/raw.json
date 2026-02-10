@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e78a6f5bfc7ab78ae5bc",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d74",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010",
+      "title": "BITSAT 2010"
+    }
+  ],
+  "question": {
+    "text": "Let \\(E=\\{1,2,3,4\\}\\) and \\(F=\\{1,2\\}\\). Then the number of onto functions from \\(\\mathrm{E}\\) to \\(\\mathrm{F}\\) is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "vT1kH",
+      "text": "14",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "HAxgA",
+      "text": "16",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "UTROn",
+      "text": "12",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "FRIua",
+      "text": "8",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "If set \\(A\\) has \\(m\\) elements and set \\(B\\) has \\(\\mathrm{n}\\) elements then number of onto functions from \\(A\\) to \\(B\\) is\n\\(\\sum_{r=1}^n(-1)^{n-r}{ }^n C_r r^m \\text { where } 1 \\leq n \\leq m\\)\nHere \\(E=\\{1,2,3,4\\}, F=\\{1,2\\}\\)\n\\(m=4, n=2\\)\n\\(\\therefore\\) No. of onto functions from \\(\\mathrm{E}\\) to \\(\\mathrm{F}\\)\n\\(\\begin{aligned}\n& =\\sum_{r=1}^2(-1)^{2-r ~2} C_r(r)^4 \\\\\n& =(-1)^2 C_1+{ }^2 C_2(2)^4=-2+16=14\n\\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d74",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010",
+    "title": "BITSAT 2010"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,8 +1,8 @@
 {
   "index": 52,
   "type": "numerical",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2024 (01 Feb Shift 1)",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>,</mo><mo> </mo><mn>7</mn><mo>,</mo><mn>11</mn><mo>,</mo><mo> </mo><mn>15</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>403</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>,</mo><mo> </mo><mn>5</mn><mo>,</mo><mo> </mo><mn>8</mn><mo>,</mo><mo> </mo><mn>11</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>404</mn></math> be two arithmetic progressions. Then the sum, of the common terms in them, is equal to_________"
+    "text": "Let the positive integers be written in the form :\n<img src=\"assets\\qt0052_dee391d394d8.png\"><br />If the $k^{\\text {th }}$ row contains exactly $k$ numbers for every natural number $k$, then the row in which the number 5310 will be, is _______"
   },
   "options": [],
-  "correct_answer": "6699",
+  "correct_answer": "103",
   "solution": {
-    "text": "<p>Given AP are: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>,</mo><mo> </mo><mn>7</mn><mo>,</mo><mn>11</mn><mo>,</mo><mo> </mo><mn>15</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>403</mn><mo> </mo><mtext>and</mtext><mo> </mo><mn>2</mn><mo>,</mo><mo> </mo><mn>5</mn><mo>,</mo><mo> </mo><mn>8</mn><mo>,</mo><mo> </mo><mn>11</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>404</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>3</mn><mo>,</mo><mo> </mo><msub><mi>a</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mo>,</mo><mo> </mo><msub><mi>d</mi><mn>1</mn></msub><mo>=</mo><mn>4</mn><mo>,</mo><mo> </mo><msub><mi>d</mi><mn>2</mn></msub><mo>=</mo><mn>3</mn></math></p><p>So, for the common AP,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>11</mn><mo>,</mo><mo> </mo><mi>d</mi><mo>=</mo><mi>LCM</mi><mfenced><mrow><mn>3</mn><mo>,</mo><mn>4</mn></mrow></mfenced><mo>=</mo><mn>12</mn></math></p><p>Also, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>≤</mo><mn>403</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>11</mn><mo>+</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mn>12</mn><mo>≤</mo><mn>403</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mo>-</mo><mn>1</mn><mo>+</mo><mn>12</mn><mi>n</mi><mo>≤</mo><mn>403</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>n</mi><mo>≤</mo><mfrac><mn>404</mn><mn>12</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>n</mi><mo>≤</mo><mn>33</mn><mo>.</mo><mn>6</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>n</mi><mo>=</mo><mn>33</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mfrac><mn>33</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><mn>2</mn><mo>×</mo><mn>11</mn><mo>+</mo><mn>32</mn><mo>×</mo><mn>12</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mn>6699</mn></math></p>"
+    "text": "$\\begin{aligned} & \\mathrm{S}=1+2+4+7+\\ldots \\ldots+\\mathrm{T}_{\\mathrm{n}} \\\\ & \\mathrm{S}=1+2+4+\\ldots \\ldots \\\\ & \\mathrm{Tn}=1+1+2+3+\\ldots \\ldots+\\left(\\mathrm{T}_{\\mathrm{n}}-\\mathrm{T}_{\\mathrm{n}-1}\\right) \\\\ & \\mathrm{T}_{\\mathrm{n}}=1+\\left(\\frac{\\mathrm{n}-1}{2}\\right)[2+(\\mathrm{n}-2) \\times 1] \\\\ & \\mathrm{T}_{\\mathrm{n}}=1+1+\\frac{\\mathrm{n}(\\mathrm{n}-1)}{2} \\\\ & \\mathrm{n}=100 \\quad \\mathrm{~T}_{\\mathrm{n}}=1+\\frac{100 \\times 99}{2}=4950+1 \\\\ & \\mathrm{n}=101 \\quad \\mathrm{~T}_{\\mathrm{n}}=1+\\frac{101 \\times 100}{2}=5050+1=5051 \\\\ & \\mathrm{n}=102 \\quad \\mathrm{~T}_{\\mathrm{n}}=1+\\frac{102 \\times 101}{2}=5151+1=5152 \\\\ & \\mathrm{n}=103 \\quad \\mathrm{~T}_{\\mathrm{n}}=1+\\frac{103 \\times 102}{2}=5254 \\\\ & \\mathrm{n}=104 \\quad \\mathrm{~T}_{\\mathrm{n}}=1+\\frac{104 \\times 103}{2}=5357\\end{aligned}$"
   }
 }

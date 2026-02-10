@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e82a6f5bfc7ab78aeb28",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44c",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2021-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021",
+      "title": "BITSAT 2021"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "If $\\mathrm{A}+\\mathrm{B}+\\mathrm{C}=\\frac{\\pi}{2}$ then",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "CdTke",
+      "text": "$\\tan A \\tan B+\\tan B \\tan C+\\tan C \\tan A=1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "QyNgk",
+      "text": "$\\cot A+\\cot B+\\cot C=\\cot A \\cot B \\cot C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "syHXW",
+      "text": "$\\cos 2 \\mathrm{~A}+\\cos 2 \\mathrm{~B}+\\cos 2 \\mathrm{C}=1+4 \\sin \\mathrm{A} \\sin \\mathrm{B} \\sin C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "P3Q0A",
+      "text": "All three are correct",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\mathrm{B}+\\mathrm{C}=\\frac{\\pi}{2}-\\mathrm{A} \\Rightarrow \\tan (\\mathrm{B}+\\mathrm{C})=\\cot \\mathrm{A}$\r\n\r\n$\\Rightarrow \\frac{\\tan \\mathrm{B}+\\tan \\mathrm{C}}{1-\\tan \\mathrm{B} \\tan \\mathrm{C}}=\\cot \\mathrm{A}$\r\n\r\n$\\Rightarrow \\tan \\mathrm{A} \\tan \\mathrm{B}+\\tan \\mathrm{B} \\tan \\mathrm{C}+\\tan \\mathrm{C} \\tan \\mathrm{A}=1$\r\n\r\n$\\Rightarrow \\tan \\mathrm{A} \\tan \\mathrm{B} \\tan \\mathrm{C}(\\cot \\mathrm{C}+\\cot \\mathrm{A}+\\cot \\mathrm{B})=1$\r\n\r\n$\\Rightarrow \\cot \\mathrm{A}+\\cot \\mathrm{B}+\\cot \\mathrm{C}=\\cot \\mathrm{A} \\cot \\mathrm{B} \\cot \\mathrm{C}$\r\n\r\nAgain $\\cos 2 \\mathrm{~A}+\\cos 2 \\mathrm{~B}+\\cos 2 \\mathrm{C}$\r\n\r\n$=2 \\cos (\\mathrm{A}+\\mathrm{B}) \\cos (\\mathrm{A}-\\mathrm{B})+\\cos 2 \\mathrm{C}$\r\n\r\n$=2 \\cos \\left(\\frac{\\pi}{2}-C\\right) \\cos (A-B)+1-2 \\sin ^{2} C$\r\n\r\n$=2 \\sin C[\\cos (A-B)-\\sin C]+1$\r\n\r\n$=2 \\sin \\mathrm{C}\\left[\\cos (\\mathrm{A}-\\mathrm{B})-\\sin \\frac{\\pi}{2}-(\\mathrm{A}+\\mathrm{B})\\right]+1$\r\n\r\n$\\begin{array}{l}\r\n\r\n=2 \\sin C[\\cos (A-B)-\\cos (A+B)]+1 \\\\\r\n\r\n=4 \\sin A \\sin B \\sin C+1\r\n\r\n\\end{array}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44c",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2021-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021",
+    "title": "BITSAT 2021"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cccd6ab1da4b641d4",
+    "chapter_name": "Permutation Combination",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "How many different nine digit numbers can be formed from the number 223355888 by rearranging its digits so that the odd digits occupy even positions"
+  },
+  "options": [
+    {
+      "text": "16",
+      "is_correct": false
+    },
+    {
+      "text": "36",
+      "is_correct": false
+    },
+    {
+      "text": "60",
+      "is_correct": true
+    },
+    {
+      "text": "100",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Here we have 4 odd digits $(3,3,5,5)$ and 5 even digits (2, 2, 8, 8, 8).\n$\\bar{O} \\bar{E} \\bar{O} \\bar{E} \\bar{O} \\bar{O} \\bar{E} \\bar{O}$\nwhere, $E \\rightarrow$ even place and $O \\rightarrow$ odd place\n$\\Rightarrow$ Number of ways odd digits will be place on even places\n$=\\frac{4!}{2!2!}$\nNumber of ways even digits will be place on odd places\n$\\begin{aligned}\n& \\quad=\\frac{5!}{2!3!} \\\\\n& \\therefore \\text { Total number of ways }=\\frac{4!}{2!2!} \\times \\frac{5!}{2!3!}=60\n\\end{aligned}$"
+  }
+}

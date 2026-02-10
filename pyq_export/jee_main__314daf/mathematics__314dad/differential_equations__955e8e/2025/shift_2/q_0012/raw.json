@@ -1,33 +1,58 @@
 {
-  "_id": "67a2eec3c8b73881fdaea2b3",
-  "type": "numerical",
+  "_id": "68542c7e7c09d044e4c1a242",
+  "type": "singleCorrect",
   "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "67a2eb5da6d4514bf2d9760f",
+      "_id": "6852f2ff9d87935e0d809789",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-01-28T14:00:00.000Z",
+      "heldOn": "2025-04-07T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (28 Jan Shift 2)",
-      "title": "JEE Main 2025 (28 Jan Shift 2)"
+      "shortName": "2025 (7 Apr Shift 2)",
+      "title": "JEE Main 2025 (7 Apr Shift 2)"
     }
   ],
   "question": {
-    "text": "If $y=y(x)$ is the solution of the differential equation,\n$\\sqrt{4-x^2} \\frac{\\mathrm{~d} y}{\\mathrm{~d} x}=\\left(\\left(\\sin ^{-1}\\left(\\frac{x}{2}\\right)\\right)^2-y\\right) \\sin ^{-1}\\left(\\frac{x}{2}\\right),-2 \\leq x \\leq 2, y(2)=\\frac{\\pi^2-8}{4}$, then $y^2(0)$ is equal to",
+    "text": "Let $y=y(x)$ be the solution of the differential equation $\\left(x^2+1\\right) y^{\\prime}-2 x y=\\left(x^4+2 x^2+1\\right) \\cos x$, $y(0)=1$. Then $\\int_{-3}^3 y(x) d x$ is :",
     "image": null
   },
-  "options": [],
-  "correctValue": "4",
+  "options": [
+    {
+      "id": "kct3A",
+      "text": "24",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "qPzIZ",
+      "text": "36",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "1gTGU",
+      "text": "30",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "L9OJX",
+      "text": "18",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "$\\begin{aligned} & \\frac{d y}{d x}+\\frac{\\left(\\sin ^{-1} \\frac{x}{2}\\right)}{\\sqrt{4-x^2}} y=\\frac{\\left(\\sin ^{-3} \\frac{x}{2}\\right)^3}{\\sqrt{4-x^2}} \\\\ & y e^{\\frac{\\left(\\sin ^{-1} \\frac{x}{2}\\right)^2}{2}}=\\int \\frac{\\left(\\sin ^{-3} \\frac{x}{2}\\right)^3}{4-x^2} e^{\\frac{\\left(\\sin ^{-1} \\frac{x}{2}\\right)^2}{2}} d x \\\\ & y=\\left(\\sin ^{-1} \\frac{x}{2}\\right)^2-2+c \\cdot e^{\\frac{-\\left(\\sin ^{-1} \\frac{x}{2}\\right)^2}{2}} \\\\ & y(2)=\\frac{\\pi^2}{4}-2 \\Rightarrow c=0 \\\\ & y(0)=-2\\end{aligned}$",
+    "text": "$\\begin{aligned}<br/>& \\left(x^2+1\\right) \\frac{d y}{d x}-2 x y=\\left(x^4+2 x^2+1\\right) \\cos x \\\\\n& \\frac{d y}{d x}-\\left(\\frac{2 x}{x^2+1}\\right) y=\\frac{\\left(x^2+1\\right)^2 \\cos x}{\\mathrm{cx}^2+1}=\\left(\\mathrm{x}^2+1\\right) \\cos x \\\\\n& \\text { (Linear D.E) } \\\\\n& P=\\frac{-2 x}{x^2+1}, Q=\\left(x^2+1\\right) \\cos x \\\\\n& \\text { I.F }=e^{\\int P d x}=e^{\\int \\frac{-2 x}{x^2+1} d x}=\\frac{1}{x^2+1} \\\\\n& y \\cdot \\frac{1}{x^2+1}=\\int\\left(x^2+1\\right) \\cos x \\cdot \\frac{1}{x^2+1} d x \\\\\n& \\frac{y}{x^2+1}=\\sin x+c \\Rightarrow y \\cos =1 \\Rightarrow c=1 \\\\\n& y=\\left(x^2+1\\right)(\\sin x+1) \\\\\n& \\int_{-3}^3 y d x=\\int_{-3}^3\\left(x^2+1\\right)(\\sin x+1) \\\\\n& d x=\\int_{-3}^3 x^2 \\sin x+x^2 \\sin x+1 d x \\\\\n& \\Rightarrow \\int_{-3}^3 x^2 \\sin x d x+\\int_{-3}^3 x^2 d x+\\int_{-3}^3 \\sin x d x+\\int_{-3}^3 1 d x \\\\\n& =0+18+0+6=24<br/>\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "7b341a2770da41df844e15d2094f13cb",
+    "videoId": "850019390eff4c2db358b671745516f8",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/T0XVcFNCd5l3n.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/T0XVcFNCd5l3n.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/5EhVq9gR685ml.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/5EhVq9gR685ml.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
@@ -46,12 +71,12 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "67a2eb5da6d4514bf2d9760f",
+    "_id": "6852f2ff9d87935e0d809789",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-01-28T14:00:00.000Z",
+    "heldOn": "2025-04-07T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (28 Jan Shift 2)",
-    "title": "JEE Main 2025 (28 Jan Shift 2)"
+    "shortName": "2025 (7 Apr Shift 2)",
+    "title": "JEE Main 2025 (7 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

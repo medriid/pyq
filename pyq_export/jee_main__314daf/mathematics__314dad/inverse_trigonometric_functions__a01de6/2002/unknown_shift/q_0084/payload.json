@@ -1,0 +1,43 @@
+{
+  "index": 84,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2002",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025537539c1075ba01de6",
+    "chapter_name": "Inverse Trigonometric Functions",
+    "year": "2002",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\cot ^{-1}(\\sqrt{\\cos \\alpha})=\\tan ^{-1}(\\sqrt{\\cos \\alpha})=x$, then $\\sin x=$"
+  },
+  "options": [
+    {
+      "text": "\n$\\tan ^2\\left(\\frac{\\alpha}{2}\\right)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\cot ^2\\left(\\frac{\\alpha}{2}\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\tan \\alpha$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\cot \\left(\\frac{\\alpha}{2}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\cot ^{-1}(\\sqrt{\\cos \\alpha})-\\tan ^{-1}(\\sqrt{\\cos \\alpha})=x$\n$\\tan ^{-1}\\left(\\frac{1}{\\sqrt{\\cos \\alpha}}\\right)-\\tan ^{-1}(\\sqrt{\\cos \\alpha})=x \\Rightarrow \\tan ^{-1} \\frac{\\frac{1}{\\sqrt{\\cos \\alpha}}-\\sqrt{\\cos \\alpha}}{1+\\frac{1}{\\sqrt{\\cos \\alpha}} \\cdot \\sqrt{\\cos \\alpha}}=x$\n$\\Rightarrow \\tan ^{-1} \\frac{1-\\cos \\alpha}{2 \\sqrt{\\cos \\alpha}}=x \\Rightarrow \\tan x=\\frac{1-\\cos \\alpha}{2 \\sqrt{\\cos \\alpha}}$\nOR $\\cot x=\\frac{2 \\sqrt{\\cos \\alpha}}{1-\\cos \\alpha}$ or $\\operatorname{cosec} x=\\frac{1+\\cos \\alpha}{1-\\cos \\alpha}$\n$\\sin x=\\frac{1-\\cos \\alpha}{1+\\cos \\alpha}=\\frac{1-\\left(1-2 \\sin ^2 \\alpha / 2\\right)}{1+2 \\cos ^2 \\alpha / 2-1}$ or $\\sin x=\\tan ^2 \\frac{\\alpha}{2}$"
+  }
+}

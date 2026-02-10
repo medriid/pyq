@@ -1,82 +1,62 @@
 {
-  "_id": "6682bd8eba0e94a3c4025d62",
+  "_id": "6644673c970e6e9ab542d173",
   "type": "singleCorrect",
   "level": 2,
   "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda6e",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-08T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (08 Apr Shift 1)",
+      "title": "JEE Main 2024 (08 Apr Shift 1)"
+    }
+  ],
   "question": {
-    "text": "<p>In the given circuit if the power rating of Zener diode is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo> </mo><mi>mW</mi></math>, the value of series resistance <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mi>s</mi></msub></math> to regulate the input unregulated supply is:</p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/b28eaad7-4dfa-4b5a-bcc0-7bb64182811c.png\" style=\"width: 400px; height: 173px;\"/>",
+    "text": "The output $\\mathrm{Y}$ of following circuit for given inputs is :\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/KHTV-zcI1mTIEc9jyq-I0MjXCooKl0pUP1DS6uEJiT4.original.fullsize.png\"><br>",
     "image": null
   },
   "options": [
     {
-      "id": "y0W6d",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>7</mn></mfrac><mo> </mo><mi>k</mi><mi>Ω</mi></math>",
+      "id": "9dmbE",
+      "text": "$\\Lambda \\cdot B(\\Lambda+B)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "quGDa",
+      "text": "0",
       "image": null,
       "isCorrect": true
     },
     {
-      "id": "xeKGQ",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo> </mo><mi>Ω</mi></math>",
+      "id": "yjPss",
+      "text": "$\\overline{\\mathrm{A}} \\cdot \\mathrm{B}$",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "JSR7o",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo> </mo><mi>k</mi><mi>Ω</mi></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "ePyVc",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo> </mo><mi>k</mi><mi>Ω</mi></math>",
+      "id": "VxHeP",
+      "text": "$A \\cdot B$",
       "image": null,
       "isCorrect": false
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "<p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/d25c5b36-e00f-48f8-aefd-2b3d6d6e3bfc.png\" style=\"width: 350px; height: 150px;\"/></p><p>Potential drop across <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mi>s</mi></msub></math>, </p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mn>1</mn></msub><mo>=</mo><mn>8</mn><mo>-</mo><mn>5</mn><mo>=</mo><mn>3</mn><mo> </mo><mi mathvariant=\"normal\">V</mi></math></p><p>Current through the load resistor</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><mfrac><mn>5</mn><mrow><mn>1</mn><mo>×</mo><msup><mn>10</mn><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mn>5</mn><mo> </mo><mi>mA</mi></math></p><p>Maximum current through Zener diode</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>I</mi><mrow><mi>Z</mi><mo>,</mo><mo> </mo><mi>max</mi></mrow></msub><mo>=</mo><mfrac><mn>10</mn><mn>5</mn></mfrac><mo>=</mo><mn>2</mn><mo> </mo><mi>mA</mi></math></p><p>And minimum current through Zener diode</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>I</mi><mrow><mi>Z</mi><mo>,</mo><mo> </mo><mi>min</mi></mrow></msub><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∴</mo><mo> </mo><msub><mi>I</mi><mrow><mi>S</mi><mo>,</mo><mo> </mo><mi>max</mi></mrow></msub><mo>=</mo><mn>5</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>7</mn><mi>m</mi><mi>A</mi></math></p><p>And <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mrow><mi>S</mi><mo>,</mo><mo> </mo><mi>min</mi></mrow></msub><mo>=</mo><mfrac><msub><mi>V</mi><mn>1</mn></msub><msub><mi>I</mi><mrow><mi>S</mi><mo>,</mo><mo> </mo><mi>max</mi></mrow></msub></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>7</mn></mfrac><mi>k</mi><mi>Ω</mi></math></p><p>Similarly,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>I</mi><mrow><mi>S</mi><mo>,</mo><mo> </mo><mi>min</mi></mrow></msub><mo>=</mo><mn>5</mn><mo> </mo><mi>mA</mi></math></p><p>And <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mrow><mi>S</mi><mo>,</mo><mo> </mo><mi>max</mi></mrow></msub><mo>=</mo><mfrac><msub><mi>V</mi><mn>1</mn></msub><msub><mi>I</mi><mrow><mi>S</mi><mo>,</mo><mo> </mo><mi>min</mi></mrow></msub></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo> </mo><mi>k</mi><mi>Ω</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∴</mo><mo> </mo><mfrac><mn>3</mn><mn>7</mn></mfrac><mi>k</mi><mi>Ω</mi><mo>&lt;</mo><msub><mi>R</mi><mi>s</mi></msub><mo>&lt;</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mi>k</mi><mi>Ω</mi></math></p>",
+    "text": "By truth table\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/ET6SXCdB2mlRd4f42uFxEHcbm-zPD3sKhPbqXqwQa8g.original.fullsize.png\"><br>",
     "image": null
   },
-  "videoSolution": {
-    "videoId": "b6812789f81446368d1e2ddc8fb9a79c",
-    "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/XtlyJSyur3ZsE.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/XtlyJSyur3ZsE.480.jpeg",
-    "premiumModules": [
-      {
-        "premiumModuleId": "6628114842d540dfcb148ecb",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "64c7e8e829737784b294e469",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
-        "isFree": false
-      }
-    ],
-    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
-  },
+  "videoSolution": null,
   "syllabusCategory": "noChange",
-  "previousYearPapers": [
-    {
-      "_id": "65c4c0c11d30997d3436bb06",
-      "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-02-01T09:00:00.000Z",
-      "isVisible": true,
-      "shortName": "2024 (01 Feb Shift 1)",
-      "title": "JEE Main 2024 (01 Feb Shift 1)"
-    }
-  ],
   "previousYear": {
-    "_id": "65c4c0c11d30997d3436bb06",
+    "_id": "664466ef278297dee60eda6e",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-02-01T09:00:00.000Z",
+    "heldOn": "2024-04-08T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (01 Feb Shift 1)",
-    "title": "JEE Main 2024 (01 Feb Shift 1)"
+    "shortName": "2024 (08 Apr Shift 1)",
+    "title": "JEE Main 2024 (08 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

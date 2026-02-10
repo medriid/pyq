@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The number of ways, in which the letters $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}$, D, E can be placed in the 8 boxes of the figure below so that no row remains empty and at most one letter can be placed in a box, is :<br/><img src=\"assets\\qt0019_2989bfc865c2.png\"/><br/>"
+  },
+  "options": [
+    {
+      "text": "$5880$",
+      "is_correct": false
+    },
+    {
+      "text": "$960$",
+      "is_correct": false
+    },
+    {
+      "text": "$840$",
+      "is_correct": false
+    },
+    {
+      "text": "$5760$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0019_816a28c3a7ca.png\"/><br/>$\\begin{aligned} & =\\text { Total }-\\left[\\left(\\mathrm{All} \\mathrm{in}_1 \\text { and } \\mathrm{R}_3\\right)+\\left(\\text { All in } \\mathrm{R}_2 \\text { and } \\mathrm{R}_3\\right)+\\right. \\\\ & \\left.\\left(\\text { All in } \\mathrm{R}_1 \\text { and } \\mathrm{R}_2\\right)\\right] \\\\ & ={ }^8 \\mathrm{C}_5 \\cdot \\mid 5-\\left\\{\\underline{5}+\\left\\lfloor 5+{ }^6 \\mathrm{C}_5 \\cdot \\underline{5}\\right\\}\\right. \\\\ & =\\lfloor 5(56-1-1-6)=120(48) \\\\ & =5760\\end{aligned}$"
+  }
+}

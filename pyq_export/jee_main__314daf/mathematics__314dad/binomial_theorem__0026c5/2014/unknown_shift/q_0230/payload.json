@@ -1,0 +1,43 @@
+{
+  "index": 230,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2014 (11 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The coefficient of $x^{50}$ in the binomial expansion of $(1+x)^{1000}+x(1+x)^{999}+x^2(1+x)^{998}+\\ldots$ $+x^{1000}$ is:"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{(1000) !}{(50)(! 95 \\varphi !}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{(1000) !}{(49)(! 95) !}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{(1001) !}{(51)(! 95 \\phi !}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{(1001) !}{(50)(! 95) !}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let given expansion be\n$$\n\\begin{aligned}\n&\\mathrm{S}=(1+x)^{1000}+x(1+x)^{999}+x^2 \\\\\n&(1+x)^{998}+\\ldots+\\ldots+x^{1000}\n\\end{aligned}\n$$\nPut $1+x=t$\n$$\n\\mathrm{S}=t^{1000}+x t^{999}+x^2(t)^{998}+\\ldots+x^{1000}\n$$\nThis is a G.P with common ratio $\\frac{x}{t}$\n$$\n\\begin{aligned}\n\\mathrm{S} &=\\frac{t^{1000}\\left[1-\\left(\\frac{x}{t}\\right)^{1001}\\right]}{1-\\frac{x}{t}} \\\\\n&=\\frac{(1+x)^{1000}\\left[1-\\left(\\frac{x}{1+x}\\right)^{1001}\\right]}{1-\\frac{x}{1+x}} \\\\\n=& \\frac{(1+x)^{1001}\\left[(1+x)^{1001}-x^{1001}\\right]}{(1+x)^{1001}}\n\\end{aligned}\n$$\n\n$$\n=\\left[(1+x)^{1001}-x^{1001}\\right]\n$$\nNow coeff of $x^{50}$ in above expansion is equal to coeff of $x^{50}$ in $(1+x)^{1001}$ which is ${ }^{1001} C_{50}=\\frac{(1001) !}{50 !(951) !}$"
+  }
+}

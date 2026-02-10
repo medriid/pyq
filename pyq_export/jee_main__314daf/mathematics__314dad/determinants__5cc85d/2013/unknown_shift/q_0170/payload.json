@@ -1,0 +1,43 @@
+{
+  "index": 170,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (23 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Statement-1: The system of linear equations\n$$\n\\begin{aligned}\n& x+(\\sin \\alpha) y+(\\cos \\alpha) z=0 \\\\\n& x+(\\cos \\alpha) y+(\\sin \\alpha) z=0 \\\\\n& x-(\\sin \\alpha) y-(\\cos \\alpha) z=0\n\\end{aligned}\n$$\nhas a non-trivial solution for only one value of $\\alpha$\nlying in the interval $\\left(0, \\frac{\\pi}{2}\\right)$.\nStatement-2: The equation in $\\alpha$\n$$\n\\left|\\begin{array}{ccc}\n\\cos \\alpha & \\sin \\alpha & \\cos \\alpha \\\\\n\\sin \\alpha & \\cos \\alpha & \\sin \\alpha \\\\\n\\cos \\alpha & -\\sin \\alpha & -\\cos \\alpha\n\\end{array}\\right|=0\n$$\nhas only one solution lying in the interval\n$\\left(0, \\frac{\\pi}{2}\\right)$"
+  },
+  "options": [
+    {
+      "text": "\nStatement-1 is true, Statement-2 is true, Statement-2 is not correct explantion for Statement-1.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement-1 is true, Statement-2 is true, Statement-2 is a correct explantion for Statement-1.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement-1 is true, Statement- 2 is false.\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nStatememt-1 is false, Statement-2 is true.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\Rightarrow \\alpha=\\frac{64 x}{3 \\times 16 x}=\\frac{4}{3} \\\\\n& \\Delta_1=\\left|\\begin{array}{ccc}\n1 & \\sin \\alpha & \\cos \\alpha \\\\\n1 & \\cos \\alpha & \\sin \\alpha \\\\\n1 & -\\sin \\alpha & \\cos \\alpha\n\\end{array}\\right| \\\\\n& =\\left|\\begin{array}{ccc}\n0 & \\sin \\alpha-\\cos \\alpha & \\cos \\alpha-\\sin \\alpha \\\\\n0 & \\cos \\alpha+\\sin \\alpha & \\sin \\alpha-\\cos \\alpha \\\\\n1 & -\\sin \\alpha & \\cos \\alpha\n\\end{array}\\right| \\\\\n& =(\\sin \\alpha-\\cos \\alpha)^2-\\left(\\cos ^2 \\alpha-\\sin ^2 \\alpha\\right) \\\\\n& =\\sin ^2 \\alpha+\\cos ^2 \\alpha-2 \\sin \\alpha \\cdot \\cos \\alpha-\\cos ^2 \\alpha \\\\\n& =2 \\sin ^2 \\alpha-2 \\sin \\alpha \\cdot \\cos \\alpha \\\\\n& =2 \\sin ^2 \\alpha(\\sin \\alpha-\\cos \\alpha)\n\\end{aligned}\n$$\nNow, $\\sin \\alpha-\\cos \\alpha=0$ for only\n$$\n\\begin{aligned}\n\\alpha & =\\frac{\\pi}{4} \\text { in }\\left(0, \\frac{\\pi}{2}\\right) \\\\\n\\therefore \\quad \\Delta_1 & =2(\\sin \\alpha) \\times 0=0,\n\\end{aligned}\n$$\nsince value of $\\sin \\alpha$ is finite for $\\alpha \\in\\left(0, \\frac{\\pi}{2}\\right)$\nHence non-trivivial solution for only one value of $\\alpha$ in $\\left(0, \\frac{\\pi}{2}\\right)$\n$$\n\\begin{aligned}\n& \\left|\\begin{array}{ccc}\n\\cos \\alpha & \\sin \\alpha & \\cos \\alpha \\\\\n\\sin \\alpha & \\cos \\alpha & \\sin \\alpha \\\\\n\\cos \\alpha & -\\sin \\alpha & -\\cos \\alpha\n\\end{array}\\right|=0 \\\\\n& \\Rightarrow\\left|\\begin{array}{ccc}\n0 & \\sin \\alpha & \\cos \\alpha \\\\\n0 & \\cos \\alpha & \\sin \\alpha \\\\\n2 \\cos \\alpha & -\\sin \\alpha & -\\cos \\alpha\n\\end{array}\\right|=0 \\\\\n& \\Rightarrow 2 \\cos \\alpha\\left(\\sin ^2 \\alpha-\\cos ^2 \\alpha\\right)=0 \\\\\n& \\therefore \\cos \\alpha=0 \\text { or } \\sin ^2 \\alpha-\\cos ^2 \\alpha=0\n\\end{aligned}\n$$\nBut $\\cos \\alpha=0$ not possible for any value of\n$$\n\\begin{aligned}\n& \\alpha \\in\\left(0, \\frac{\\pi}{2}\\right) \\\\\n& \\therefore \\sin ^2 \\alpha-\\cos ^2 \\alpha=0 \\Rightarrow \\sin \\alpha=-\\cos \\alpha,\n\\end{aligned}\n$$\nwhich is also not possible for any value of\n$$\n\\alpha \\in\\left(0, \\frac{\\pi}{2}\\right)\n$$\nHence, there is no solution."
+  }
+}

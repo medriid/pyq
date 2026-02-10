@@ -1,8 +1,8 @@
 {
   "index": 57,
-  "type": "numerical",
+  "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2022 (25 Jun Shift 2)",
+  "pyq_info": "JEE Main 2022 (29 Jun Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "If the mean deviation about the mean of the numbers <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>&#8230;</mo><mo>&#8230;</mo><mo>,</mo><mi>n</mi></math>, where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> is odd, is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mfenced><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow><mi>n</mi></mfrac></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>&nbsp;is equal to ______."
+    "text": "The number of values of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&#8712;</mo><mi>N</mi></math> such that the variance of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>,</mo><mo>&#160;</mo><mn>7</mn><mo>,</mo><mo>&#160;</mo><mn>12</mn><mo>,</mo><mo>&#160;</mo><mi>a</mi><mo>,</mo><mo>&#160;</mo><mn>43</mn><mo>-</mo><mi>a</mi></math> is a natural number is:"
   },
-  "options": [],
-  "correct_answer": "21",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "infinite",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
   "solution": {
-    "text": "<p>We know that mean deviation about the mean of odd natural number is given by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>M.D&#160;</mtext><mfenced><menclose notation=\"top\"><mi>x</mi></menclose></mfenced><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mfenced open=\"[\" close=\"]\"><mfrac><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn></mrow><mn>4</mn></mfrac></mfenced></math></p><p>So, now&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mi>n</mi></mfrac><mfenced close=\"]\" open=\"[\"><mfrac><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn></mrow><mn>4</mn></mfrac></mfenced><mo>=</mo><mfrac><mrow><mn>5</mn><mfenced><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow><mi>n</mi></mfrac></math>&nbsp;(given)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>=</mo><mn>20</mn><mo>&#8658;</mo><mi>n</mi><mo>=</mo><mn>21</mn></math></p>"
+    "text": "<p>Calculating Mean&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>3</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>12</mn><mo>+</mo><mi>a</mi><mo>+</mo><mn>43</mn><mo>-</mo><mi>a</mi></mrow><mn>5</mn></mfrac><mo>=</mo><mn>13</mn></math></p><p>Variance&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>9</mn><mo>+</mo><mn>49</mn><mo>+</mo><mn>144</mn><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mfenced><mrow><mn>43</mn><mo>-</mo><mi>a</mi></mrow></mfenced><msup><mrow></mrow><mn>2</mn></msup></mrow><mn>5</mn></mfrac><mo>-</mo><msup><mn>13</mn><mn>2</mn></msup><mo>&#8712;</mo><mi>N</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mrow><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><mi>a</mi><mo>+</mo><mn>1</mn></mrow><mn>5</mn></mfrac><mo>=</mo><mi>n</mi></math>&nbsp;(where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&#8712;</mo><mi>N</mi></math>)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo>-</mo><mn>5</mn><mi>n</mi><mo>=</mo><mn>0</mn></math>&nbsp;must have solution as&nbsp;natural numbers</p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mn>40</mn><mi>n</mi><mo>-</mo><mn>7</mn></math>&nbsp;always has <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> at unit place for any value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>D</mi></math>&nbsp;can&#39;t be perfect square</p><p>So, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>&nbsp;can&#39;t be integer.</p>"
   }
 }

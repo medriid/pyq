@@ -1,0 +1,63 @@
+{
+  "_id": "67726d1ac49e8ef28ee2b443",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6416",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T19:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 3)",
+      "title": "BITSAT 2024 (Memory Based Paper 3)"
+    }
+  ],
+  "question": {
+    "text": "Consider the function $f(x)=\\frac{|x-1|}{x^2}$, then $f(x)$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Jwkqi",
+      "text": "increasing in $(0,1) \\cup(2, \\infty)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "tgy34",
+      "text": "increasing in $(-\\infty, 0) \\cup(0,1)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "RO6Vd",
+      "text": "decreasing in $(-\\infty, 0) \\cup(2, \\infty)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "2SUnf",
+      "text": "decreasing in $(0,1) \\cup(2, \\infty)$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $f(x)=\\left\\{\\begin{aligned} \\frac{x-1}{x^2} ; & x \\geq 1 \\\\ \\frac{-x+1}{x^2} ; & x \\lt 1\\end{aligned}\\right.$\n$\\begin{aligned}\n& f(x)= \\begin{cases}\\frac{1}{x}-\\frac{1}{x^2} ; & x \\geq 1 \\\\\n-\\frac{1}{x}+\\frac{1}{x^2} ; & x \\lt 1\\end{cases} \\\\\n& f^{\\prime}(x)= \\begin{cases}\\frac{-1}{x^2}+\\frac{2}{x^3} ; & x \\geq 1 \\\\\n\\frac{1}{x^2}-\\frac{2}{x^3} ; & x \\lt 1\\end{cases} \\\\\n& f^{\\prime}(x)= \\begin{cases}\\frac{2-x}{x^3} ; & x \\geq 1 \\\\\n\\frac{x-2}{x^3} ; & x \\lt 1\\end{cases}\n\\end{aligned}$\nBy observation, $f^{\\prime}(x)$ will be<img src=\"https://cdn-question-pool.getmarks.app/pyq/bitsat/mZpWNRtakll5g4R_qPQjO8-Xlgu9YWyJyuF1K2KsqOc.original.fullsize.png\"/>\nDecreasing in $(0,1) \\cup(2, \\infty)$\nand increasing in $(-\\infty, 0) \\cup(1,2)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6416",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T19:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 3)",
+    "title": "BITSAT 2024 (Memory Based Paper 3)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

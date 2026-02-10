@@ -1,37 +1,82 @@
 {
-  "_id": "648b5a6d417cc3fb48d67a1f",
+  "_id": "648b5a6e417cc3fb48d67e44",
   "previousYearPapers": [
     {
-      "_id": "62c481f001514d218a7934d5",
+      "_id": "62c481f101514d218a7934db",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2022-06-26T09:00:00.000Z",
+      "heldOn": "2022-06-29T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2022 (26 Jun Shift 1)",
-      "title": "JEE Main 2022 (26 Jun Shift 1)"
+      "shortName": "2022 (29 Jun Shift 1)",
+      "title": "JEE Main 2022 (29 Jun Shift 1)"
     }
   ],
-  "type": "numerical",
+  "type": "singleCorrect",
   "level": 2,
   "question": {
-    "text": "<p>A <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>110</mn><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi><mo>,</mo><mn>50</mn><mo>&#160;</mo><mi>Hz</mi><mo>,</mo><mo>&#160;</mo><mi>AC</mi></math> source is connected in the circuit (as shown in figure). The current through the resistance <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>55</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></math>, at resonance in the circuit, will be _____<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi></math>.</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/3e475d87-e3a6-4e4b-bcb9-539ed44954fe-image.png\" style=\"width: 200px; height: 171px;\" /></p>",
+    "text": "<p>For a series <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mi>C</mi><mi>R</mi></math>&nbsp;circuit, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi></math> vs <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#969;</mi></math>&nbsp;curve is shown&nbsp;</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/f01f324e-9e8b-4c63-9754-3bd1bb881fc8-image.png\" style=\"width: 210px; height: 178px;\" /></p><p>(a)&nbsp;To the left of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#969;</mi><mi>r</mi></msub></math>, the circuit is mainly capacitive.<br />(b)&nbsp;To the left of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#969;</mi><mi>r</mi></msub></math>, the circuit is mainly inductive.<br />(c)&nbsp;At&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#969;</mi><mi>r</mi></msub></math>, impedance of the circuit is equal to the resistance of the circuit.<br />(d)&nbsp;At&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#969;</mi><mi>r</mi></msub></math>, impedance of the circuit is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>.</p><p>Choose the most appropriate answer from the options given below.</p>",
     "image": null
   },
-  "options": [],
-  "correctValue": "0",
+  "options": [
+    {
+      "id": "tOdkF",
+      "text": "(a) and (d) only",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "zojNm",
+      "text": "(b) and (d) only",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "GntAN",
+      "text": "(a) and (c) only",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "XdGuI",
+      "text": "(b) and (c) only",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<p>Let current in the inductance is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>i</mi><mi>L</mi></msub></math>,&nbsp;through the capacitor is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>i</mi><mi>C</mi></msub></math>&nbsp;and through resistance is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>i</mi><mi>R</mi></msub></math>&nbsp;at any instance as shown in the figure.</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/556ecce3-c9ac-4b4c-b3f9-b01aa0fe7853-image.png\" style=\"width: 200px; height: 166px;\" /></p><p>According to the Kirchoff&#39;s junction law,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>i</mi><mi>R</mi></msub><mo>=</mo><msub><mi>i</mi><mi>L</mi></msub><mo>+</mo><msub><mi>i</mi><mi>C</mi></msub></math>.</p><p>At resonance&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>X</mi><mi>C</mi></msub><mo>=</mo><msub><mi>X</mi><mi>L</mi></msub></math>&nbsp;hence <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>i</mi><mi>L</mi></msub><mo>=</mo><msub><mi>i</mi><mi>C</mi></msub></math>. Also, current through the capacitor and inductor have phase difference of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#960;</mi><mo>&#160;</mo><mi>rad</mi></math>. Therefore, they will form destructive interference and hence the current through the resistance will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>.</p>",
+    "text": "<p>The impedance of an AC circuit is given by,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi><mo>=</mo><msqrt><msup><mi>R</mi><mn>2</mn></msup><mo>+</mo><msup><mfenced><mrow><msub><mi>X</mi><mi>C</mi></msub><mo>-</mo><msub><mi>X</mi><mi>L</mi></msub></mrow></mfenced><mn>2</mn></msup></msqrt></math>.</p><p>For current to be maximum&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi></math>&nbsp;should be minimum. The value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi></math>&nbsp;will be minimum when&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>X</mi><mi>C</mi></msub><mo>-</mo><msub><mi>X</mi><mi>L</mi></msub><mo>=</mo><mn>0</mn></math>. Therefore, the value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi><mo>=</mo><mi>R</mi></math>. Hence, statement C is correct and statement D is wrong.</p><p>To the left of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#969;</mi><mi>r</mi></msub></math>&nbsp;i.e. when&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#969;</mi><mo>&#60;</mo><msub><mi>&#969;</mi><mi>r</mi></msub></math>,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>X</mi><mi>C</mi></msub><mo>&#62;</mo><msub><mi>X</mi><mi>L</mi></msub></math>. Therefore, the circuit is mainly capacitive. Hence, statement A is correct and statement B is wrong.</p>",
     "image": null
   },
-  "videoSolution": null,
+  "videoSolution": {
+    "videoId": "4505d5f2ec00427fa6aec33ca00981b3",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/h25WUKhDQPxl8.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/h25WUKhDQPxl8.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main"
+  },
   "questionLabels": [],
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "62c481f001514d218a7934d5",
+    "_id": "62c481f101514d218a7934db",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2022-06-26T09:00:00.000Z",
+    "heldOn": "2022-06-29T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2022 (26 Jun Shift 1)",
-    "title": "JEE Main 2022 (26 Jun Shift 1)"
+    "shortName": "2022 (29 Jun Shift 1)",
+    "title": "JEE Main 2022 (29 Jun Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

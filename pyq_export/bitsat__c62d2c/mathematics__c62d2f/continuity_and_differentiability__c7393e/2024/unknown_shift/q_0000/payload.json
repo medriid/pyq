@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd742781aed2a1c7393e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f$ be the function defined by\n$f(x)=\\left\\{\\begin{array}{cc}\n\\frac{x^2-1}{x^2-2|x-1|-1}, & x \\neq 1 \\\\\n\\frac{1}{2}, & x=1\n\\end{array}\\right.$"
+  },
+  "options": [
+    {
+      "text": "The function is continuous for all values of $x$",
+      "is_correct": false
+    },
+    {
+      "text": "The function is continuous only for $x\\gt1$",
+      "is_correct": false
+    },
+    {
+      "text": "The function is continuous at $x=1$",
+      "is_correct": false
+    },
+    {
+      "text": "The function is not continuous at $x=1$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$f(x)=\\left\\{\\begin{array}{cc}\\frac{x^2-1}{x^2-2 x+1} ; & x\\gt1 \\\\ \\frac{1}{2} \\quad ; & x=1 \\\\ \\frac{x^2-1}{x^2+2 x-3} ; & x \\lt 1\\end{array}\\right.$\n$\\because \\quad x^2+3 x-x-3$\n$=x(x+3)-1(x+3)$\nLets Find\nLHL, $\\lim _{x \\rightarrow 1^{-}} \\frac{x^2-1}{x^2-2 x+1}$ and RHL, $\\lim _{x \\rightarrow 1^{+}} \\frac{x^2-1}{x^2+2 x-3}$\n$\\begin{aligned}\n& \\Rightarrow \\lim _{x \\rightarrow 1^{-}} \\frac{(x-1)(x+1)}{(x-1)^2} \\Rightarrow \\lim _{x \\rightarrow 1^{+}} \\frac{(x-1)(x+1)}{(x+3)(x-1)} \\\\\n& \\Rightarrow \\lim _{x \\rightarrow 1^{-}} \\frac{x+1}{x-1}=\\infty \\Rightarrow \\lim _{x \\rightarrow 1^{+}} \\frac{x+1}{x+3}=\\frac{2}{4}=\\frac{1}{2}\n\\end{aligned}$\n$\\therefore$ LHL $\\neq f(1) \\Rightarrow f(x)$ is not continuous at $x=1$"
+  }
+}

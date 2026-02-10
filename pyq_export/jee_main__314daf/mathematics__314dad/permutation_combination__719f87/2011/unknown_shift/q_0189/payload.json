@@ -1,0 +1,43 @@
+{
+  "index": 189,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2011",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "This question has Statement $-1$ and Statement $-2$. Of the four choices given after the statements, choose the one that best describes the two statements.\nStatement - 1 : The number of ways of distributing 10 identical balls in 4 distinct boxes such that no box is empty is ${ }^9 \\mathrm{C}_3$\nStatement-2: The number of ways of choosing any 3 places from 9 different places is ${ }^9 \\mathrm{C}_3$."
+  },
+  "options": [
+    {
+      "text": "\nStatement $-1$ is true, Statement $-2$ is true; Statement $-2$ is not a correct explanation for Statement $-1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $-1$ is true, Statement $-2$ is false.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $-1$ is false, Statement- 2 is true.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nStatement $-1$ is true, Statement $-2$ is true; Statement $-2$ is a correct explanation for Statement $-1$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\n{ }^{(n-1)} C_{(r-1)}={ }^{(10-1)} C_{(4-1)}={ }^9 C_3\n$$\nStatement 1 is correct\nStatement 2 is also correct\nFrom 9 we can select 3 in ${ }^9 \\mathrm{C}_3$ ways. It is correct explanation."
+  }
+}

@@ -1,8 +1,8 @@
 {
   "index": 12,
-  "type": "numerical",
+  "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (28 Jan Shift 2)",
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "If $y=y(x)$ is the solution of the differential equation,\n$\\sqrt{4-x^2} \\frac{\\mathrm{~d} y}{\\mathrm{~d} x}=\\left(\\left(\\sin ^{-1}\\left(\\frac{x}{2}\\right)\\right)^2-y\\right) \\sin ^{-1}\\left(\\frac{x}{2}\\right),-2 \\leq x \\leq 2, y(2)=\\frac{\\pi^2-8}{4}$, then $y^2(0)$ is equal to"
+    "text": "Let $y=y(x)$ be the solution of the differential equation $\\left(x^2+1\\right) y^{\\prime}-2 x y=\\left(x^4+2 x^2+1\\right) \\cos x$, $y(0)=1$. Then $\\int_{-3}^3 y(x) d x$ is :"
   },
-  "options": [],
-  "correct_answer": "4",
+  "options": [
+    {
+      "text": "24",
+      "is_correct": true
+    },
+    {
+      "text": "36",
+      "is_correct": false
+    },
+    {
+      "text": "30",
+      "is_correct": false
+    },
+    {
+      "text": "18",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
   "solution": {
-    "text": "$\\begin{aligned} & \\frac{d y}{d x}+\\frac{\\left(\\sin ^{-1} \\frac{x}{2}\\right)}{\\sqrt{4-x^2}} y=\\frac{\\left(\\sin ^{-3} \\frac{x}{2}\\right)^3}{\\sqrt{4-x^2}} \\\\ & y e^{\\frac{\\left(\\sin ^{-1} \\frac{x}{2}\\right)^2}{2}}=\\int \\frac{\\left(\\sin ^{-3} \\frac{x}{2}\\right)^3}{4-x^2} e^{\\frac{\\left(\\sin ^{-1} \\frac{x}{2}\\right)^2}{2}} d x \\\\ & y=\\left(\\sin ^{-1} \\frac{x}{2}\\right)^2-2+c \\cdot e^{\\frac{-\\left(\\sin ^{-1} \\frac{x}{2}\\right)^2}{2}} \\\\ & y(2)=\\frac{\\pi^2}{4}-2 \\Rightarrow c=0 \\\\ & y(0)=-2\\end{aligned}$"
+    "text": "$\\begin{aligned}<br/>& \\left(x^2+1\\right) \\frac{d y}{d x}-2 x y=\\left(x^4+2 x^2+1\\right) \\cos x \\\\\n& \\frac{d y}{d x}-\\left(\\frac{2 x}{x^2+1}\\right) y=\\frac{\\left(x^2+1\\right)^2 \\cos x}{\\mathrm{cx}^2+1}=\\left(\\mathrm{x}^2+1\\right) \\cos x \\\\\n& \\text { (Linear D.E) } \\\\\n& P=\\frac{-2 x}{x^2+1}, Q=\\left(x^2+1\\right) \\cos x \\\\\n& \\text { I.F }=e^{\\int P d x}=e^{\\int \\frac{-2 x}{x^2+1} d x}=\\frac{1}{x^2+1} \\\\\n& y \\cdot \\frac{1}{x^2+1}=\\int\\left(x^2+1\\right) \\cos x \\cdot \\frac{1}{x^2+1} d x \\\\\n& \\frac{y}{x^2+1}=\\sin x+c \\Rightarrow y \\cos =1 \\Rightarrow c=1 \\\\\n& y=\\left(x^2+1\\right)(\\sin x+1) \\\\\n& \\int_{-3}^3 y d x=\\int_{-3}^3\\left(x^2+1\\right)(\\sin x+1) \\\\\n& d x=\\int_{-3}^3 x^2 \\sin x+x^2 \\sin x+1 d x \\\\\n& \\Rightarrow \\int_{-3}^3 x^2 \\sin x d x+\\int_{-3}^3 x^2 d x+\\int_{-3}^3 \\sin x d x+\\int_{-3}^3 1 d x \\\\\n& =0+18+0+6=24<br/>\\end{aligned}$"
   }
 }

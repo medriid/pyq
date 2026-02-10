@@ -1,0 +1,43 @@
+{
+  "index": 143,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2021 (25 Jul Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2021",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The lowest integer which is greater than <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><msup><mn>10</mn><mn>100</mn></msup></mfrac></mrow></mfenced><msup><mn>10</mn><mn>100</mn></msup></msup></math> is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p>Consider&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><msup><mn>10</mn><mn>100</mn></msup></mfrac></mrow></mfenced><msup><mn>10</mn><mn>100</mn></msup></msup><mo>,</mo></math></p><p>Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>10</mn><mn>100</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mo>=</mo><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></mfenced><mi>x</mi></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mo>=</mo><mn>1</mn><mo>+</mo><mfenced><mi>x</mi></mfenced><mfenced><mfrac><mn>1</mn><mi>x</mi></mfrac></mfenced><mo>+</mo><mfrac><mrow><mfenced><mi>x</mi></mfenced><mfenced><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced></mrow><mrow><mo>&#8970;</mo><mn>2</mn></mrow></mfrac><mo>&#183;</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mrow><mfenced><mi>x</mi></mfenced><mfenced><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mfenced><mrow><mi>x</mi><mo>-</mo><mn>2</mn></mrow></mfenced></mrow><mfrac><mn>3</mn><mn>3</mn></mfrac></mfrac><mo>&#183;</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>3</mn></msup></mfrac><mo>+</mo><mo>&#8230;</mo></math></p><p>(upto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>100</mn></msup><mo>+</mo><mn>1</mn></math>&nbsp;terms)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mo>=</mo><mn>1</mn><mo>+</mo><mn>1</mn><mo>+</mo><mfenced><mrow><mfrac><mn>1</mn><mrow><mo>&#8970;</mo><mn>2</mn></mrow></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced open=\"&#8970;\" close=\"\"><mrow><mn>2</mn><mi>x</mi></mrow></mfenced></mfrac></mrow></mfenced><mo>+</mo><mfenced><mrow><mfrac><mn>1</mn><mrow><mo>&#8970;</mo><mn>3</mn></mrow></mfrac><mo>-</mo><mo>&#8230;</mo></mrow></mfenced><mo>+</mo><mo>&#8230;</mo></math>&nbsp;so on</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mo>=</mo><mn>2</mn><mo>+</mo></math>(Positive value less than&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mo>&#8970;</mo><mn>2</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mo>&#8970;</mo><mn>3</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mo>&#8970;</mo><mn>4</mn></mrow></mfrac><mo>+</mo><mo>&#8230;</mo></math> )</p><p>Also&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mo>&#8970;</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mo>&#8970;</mo><mn>2</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mo>&#8970;</mo><mn>3</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mo>&#8970;</mo><mn>4</mn></mrow></mfrac><mo>+</mo><mo>&#8230;</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mn>1</mn><mrow><mo>&#8970;</mo><mn>2</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mo>&#8970;</mo><mn>3</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mo>&#8970;</mo><mn>4</mn></mrow></mfrac><mo>+</mo><mo>&#8230;</mo><mo>=</mo><mi>e</mi><mo>-</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mo>=</mo><mn>2</mn><mo>+</mo></math>&nbsp;(Positive value less than <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi><mo>-</mo><mn>2</mn></math>)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mo>&#8712;</mo><mfenced><mrow><mn>2</mn><mo>,</mo><mn>3</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo></math> Least integer value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>.</mo></math></p>"
+  }
+}

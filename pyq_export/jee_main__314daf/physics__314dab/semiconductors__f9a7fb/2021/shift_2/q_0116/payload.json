@@ -1,8 +1,8 @@
 {
   "index": 116,
-  "type": "numerical",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2021 (18 Mar Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2021 (27 Jul Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "<p>The typical output characteristics curve for a transistor working in the common-emitter configuration is shown in the figure.</p><p><img src=\"assets\\qt0116_d8f37f04dc7b.png\" style=\"width: 344px; height: 225px;\" /></p><p>The estimated current gain from the figure is</p>"
+    "text": "<p>Find the truth table for the function <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> represented in the following figure.</p><p><img src=\"assets\\qt0116_4ce7ba57732e.png\" style=\"width: 359px; height: 130px;\" /></p>"
   },
-  "options": [],
-  "correct_answer": "200",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable rowlines=\"solid none none none\" columnlines=\"solid\" frame=\"solid\"><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable rowlines=\"solid none none none\" columnlines=\"solid\" frame=\"solid\"><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable rowlines=\"solid none none none\" columnlines=\"solid\" frame=\"solid\"><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable rowlines=\"solid none none none\" columnlines=\"solid\" frame=\"solid\"><mtr><mtd><mi>A</mi></mtd><mtd><mi>B</mi></mtd><mtd><mi>Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
   "solution": {
-    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#946;</mi><mo>=</mo><mfrac><mrow><mi>&#916;</mi><msub><mi>I</mi><mi>C</mi></msub></mrow><mrow><mi>&#916;</mi><msub><mi>I</mi><mi>B</mi></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><mrow><mn>10</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup></mrow></mfrac></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#946;</mi><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#946;</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mn>2</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#946;</mi><mo>=</mo><mn>200</mn></math></p>"
+    "text": "<p><img src=\"assets\\st0116_4bce1bdb853c.png\" style=\"width: 365px; height: 147px;\" /></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><mi>A</mi><mo mathvariant=\"italic\">&#183;</mo><mi>B</mi><mo>+</mo><mover><mi>B</mi><mo>&#175;</mo></mover></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnlines=\"solid\" frame=\"solid\" rowlines=\"solid none none none\"><mtr><mtd><mo mathvariant=\"italic\">&#160;</mo><mi>A</mi><mo>&#160;</mo></mtd><mtd><mo mathvariant=\"italic\">&#160;</mo><mi>B</mi><mo>&#160;</mo></mtd><mtd><mo>&#160;</mo><mi>Y</mi><mo>&#160;</mo></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></math></p>"
   }
 }

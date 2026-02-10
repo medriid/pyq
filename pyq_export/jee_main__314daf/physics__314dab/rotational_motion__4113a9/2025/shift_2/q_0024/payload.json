@@ -1,8 +1,8 @@
 {
   "index": 24,
-  "type": "singleCorrect",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "A circular disk of radius R meter and mass M kg is rotating around the axis perpendicular to the disk. An external torque is applied to the disk such that $\\theta(t)=5 t^2-8 t$, where $\\theta(t)$ is the angular position of the rotating disc as a function of time $t$.\nHow much power is delivered by the applied torque, when $t=2 \\mathrm{~s}$ ?"
+    "text": "A solid sphere with uniform density and radius R is rotating initially with constant angular velocity $\\left(\\omega_1\\right)$ about its diameter. After some time during the rotation its starts loosing mass at a uniform rate, with no change in its shape. The angular velocity of the sphere when its radius become $R / 2$ is $x \\omega_1$. The value of $x$ is ________"
   },
-  "options": [
-    {
-      "text": "$72 \\mathrm{MR}^2$",
-      "is_correct": false
-    },
-    {
-      "text": "$8 \\mathrm{MR}^2$",
-      "is_correct": false
-    },
-    {
-      "text": "$108 \\mathrm{MR}^2$",
-      "is_correct": false
-    },
-    {
-      "text": "$60 \\mathrm{MR}^2$",
-      "is_correct": true
-    }
-  ],
-  "correct_answer": [
-    "D"
-  ],
+  "options": [],
+  "correct_answer": "32",
   "solution": {
-    "text": "$\\begin{aligned}\n& \\theta=5 \\mathrm{t}^2-8 \\mathrm{t} \\\\\n& \\omega=\\frac{\\mathrm{d} \\theta}{\\mathrm{dt}}=10 \\mathrm{t}-8 \\\\\n& \\alpha=\\frac{\\mathrm{d} \\omega}{\\mathrm{dt}}=10 \\\\\n& \\therefore \\mathrm{p}=\\tau \\omega \\\\\n& =(\\mathrm{I} \\alpha) \\omega \\\\\n& =\\left(\\frac{\\mathrm{mR}^2}{2}\\right) \\alpha \\omega \\\\\n& =\\left(\\frac{\\mathrm{mR}^2}{2}\\right)(10)(10\n\\end{aligned}$\n\nPut $\\mathrm{t}=2$\n$\\mathrm{p}=60 \\mathrm{mR}^2$"
+    "text": "When sphere is of radius $R$, its mass is $M$, when radius is reduced to $\\frac{\\mathrm{R}}{2}$, mass will reduced to $\\frac{\\mathrm{M}}{8}$ Now by conservation of angular momentum<br/>$\\begin{aligned}<br/>& \\left(\\tau_{e x t}=0\\right) \\\\\n& L_1=L_2 \\\\\n& I_1 \\omega_1=I_2 \\omega_2 \\\\\n& \\left(\\frac{2}{5} M R^2\\right) \\omega_1=\\left(\\frac{2}{5}\\left(\\frac{\\mathrm{M}}{8}\\right)\\left(\\frac{\\mathrm{R}}{2}\\right)^2\\right) \\omega_2<br/>\\end{aligned}$<br/>$\\omega_2=32 \\omega_1$ value of x is 32<br/>Answer is 32"
   }
 }

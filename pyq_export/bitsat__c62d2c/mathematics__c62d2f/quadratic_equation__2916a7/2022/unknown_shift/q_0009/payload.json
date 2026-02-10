@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7794f6528d292916a7",
+    "chapter_name": "Quadratic Equation",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $a, b$ be the solutions of $x^2+p x+1=0$ and $c, d$ be the solution of $x^2+q x+1=0$. If $(a-c)(b-c)$ and $(a+d)(b+d)$ are the solution of $x^2+a x+\\beta=0$, then $\\beta$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\r\n$p+q$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$p-q$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$p^2+q^2$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$q^2-p^2$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Since, $a+b=-p, a b=1$ .....(i)\r\nand $c+d=-q, c d=1$\r\nNow $(a-c)(b-c)$ and $(a+d)(b+d)$ are the roots of $x^2+a x+\\beta=0$\r\n$$\r\n\\begin{aligned}\r\n& (a-c)(b-c)(a+d)(b+d)=\\beta \\\\\r\n& \\Rightarrow\\left(a b-a c-b c+c^2\\right)\\left(a b+a d+b d+d^2\\right)=\\beta \\\\\r\n& \\Rightarrow\\left\\{1-c(a+b)+c^2\\right\\}\\left\\{1+d(a+b)+d^2\\right\\}=\\beta \\\\\r\n& \\Rightarrow \\quad\\left(1+p c+c^2\\right)\\left(1-p d+d^2\\right)=\\beta \\\\\r\n& \\Rightarrow 1-p d+d^2+p c-p^2 c d+p c d^2+c^2-p c^2 d \\\\\r\n& +c^2 d^2=\\beta \\\\\r\n& \\Rightarrow 1-p d+d^2+p c-p^2+p d+c^2-p c+1=\\beta \\\\\r\n& {[\\because c d=1]} \\\\\r\n& \\Rightarrow \\quad 2+d^2+c^2-p^2=\\beta \\\\\r\n&\r\n\\end{aligned}\r\n$$\r\n$\\begin{aligned} \\Rightarrow \\quad 2 c d+c^2+d^2-p^2 & =\\beta \\\\ (c+d)^2-p^2 & =\\beta \\\\ q^2-p^2 & =\\beta \\quad[\\because(c+d)=-q]\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $A$ be a $3 \\times 3$ matrix such that<br/>$\\begin{aligned}<br/>& |\\operatorname{adj}(\\operatorname{adj}(\\operatorname{adj} \\mathrm{A}))|=81 . \\text { If } \\\\\n& \\mathrm{S}=\\left\\{\\mathrm{n} \\in \\mathbb{Z}:(|\\operatorname{adj}(\\operatorname{adj} A)|)^{\\frac{(n-1)^2}{2}}=|A|^{\\left(3 n^2-5 n-4\\right)}\\right\\}<br/>\\end{aligned}$<br/>, then $\\sum_{n \\in S}\\left|A^{\\left(n^2+n\\right)}\\right|$ is equal to"
+  },
+  "options": [
+    {
+      "text": "866",
+      "is_correct": false
+    },
+    {
+      "text": "750",
+      "is_correct": false
+    },
+    {
+      "text": "820",
+      "is_correct": false
+    },
+    {
+      "text": "732",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & |\\operatorname{adj}(\\operatorname{adj})(\\operatorname{adjA})|=81 \\\\ & \\Rightarrow|\\operatorname{adjA}|^4=81 \\\\ & \\Rightarrow|\\operatorname{adjA}|=3 \\\\ & \\Rightarrow|\\mathrm{~A}|^2=3 \\\\ & \\Rightarrow|\\mathrm{~A}|=\\sqrt{3} \\\\ & \\left(|\\mathrm{~A}|^4\\right)^{\\frac{(\\mathrm{n}-1)^2}{2}}=|\\mathrm{A}|^{\\mathrm{n}^2-5 \\mathrm{n}-4} \\\\ & \\Rightarrow 2(\\mathrm{n}-1)^2=3 \\mathrm{n}^2-5 \\mathrm{n}-4 \\\\ & \\Rightarrow 2 \\mathrm{n}^2-4 \\mathrm{n}+2=3 \\mathrm{n}^2-5 \\mathrm{n}-4 \\\\ & \\Rightarrow \\mathrm{n}^2-\\mathrm{n}-6=0 \\\\ & \\Rightarrow(\\mathrm{n}-3)(\\mathrm{n}+2)=0 \\\\ & \\Rightarrow \\mathrm{n}=3,-2 \\\\ & \\sum_{\\mathrm{n} \\in \\mathrm{s}}\\left|\\mathrm{A}^{\\mathrm{n}^2+\\mathrm{n}}\\right| \\\\ & =\\left|\\mathrm{A}^2\\right|+\\left|\\mathrm{A}^{12}\\right| \\\\ & =3+36=3+729=732\\end{aligned}$"
+  }
+}

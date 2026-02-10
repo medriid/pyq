@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2014",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd76457232a5c257f2e5",
+    "chapter_name": "Semiconductors",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For a CE transistor amplifier, the audio signal voltage across the collector resistance of $2.0 \\mathrm{k} \\Omega$ is $2.0 \\mathrm{~V}$. Suppose the current amplification factor of the transistor is 100 , What should be the value of $\\mathrm{R}_{\\mathrm{B}}$ in series with $\\mathrm{V}_{\\mathrm{BB}}$ supply of $2.0 \\mathrm{~V}$ if the dc base current has to be 10 times the signal current?"
+  },
+  "options": [
+    {
+      "text": "$14 \\mathrm{k} \\Omega$",
+      "is_correct": true
+    },
+    {
+      "text": "$18 \\mathrm{k} \\Omega$",
+      "is_correct": false
+    },
+    {
+      "text": "$10 \\mathrm{k} \\Omega$",
+      "is_correct": false
+    },
+    {
+      "text": "$5 \\mathrm{k} \\Omega$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "The output ac voltage is $2.0 \\mathrm{~V}$. So, the ac collector current $\\mathrm{i}_{\\mathrm{C}}=2.0 / 2000=1.0 \\mathrm{~mA}$.\r\n\r\nThe signal current through the base is, therefore given by $\\mathrm{i}_{\\mathrm{B}}=\\mathrm{i}_{\\mathrm{C}} / \\beta=1.0 \\mathrm{~mA} / 100=0.010 \\mathrm{~mA}$\r\n\r\nThe dc base current has to be $10 \\times 0.010$ $=0.10 \\mathrm{~mA}$\r\n\r\n$$\r\n\r\n\\mathrm{R}_{\\mathrm{B}}=\\left(\\mathrm{V}_{\\mathrm{BB}}-\\mathrm{V}_{\\mathrm{BE}}\\right) / \\mathrm{I}_{\\mathrm{B}}\r\n\r\n$$\r\n\r\nAssuming $\\mathrm{V}_{\\mathrm{BE}}=0.6 \\mathrm{~V}, \\mathrm{R}_{\\mathrm{B}}=(2.0 .0 .6) / 0.10$\r\n\r\n$=14 \\mathrm{k} \\Omega$"
+  }
+}

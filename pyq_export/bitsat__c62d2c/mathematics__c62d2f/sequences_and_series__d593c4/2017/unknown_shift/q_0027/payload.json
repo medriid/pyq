@@ -1,0 +1,43 @@
+{
+  "index": 27,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2017",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cb79820319dd593c4",
+    "chapter_name": "Sequences and Series",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>cos</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>y</mi><mo>)</mo><mo>,</mo><mi>cos</mi><mi>x</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>cos</mi><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo></math> are in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HP</mi></math>, then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>cos</mi><mi>x</mi><mi>sec</mi><mo>(</mo><mi>y</mi><mo>/</mo><mn>2</mn><mo>)</mo></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#177;</mo><msqrt><mn>2</mn></msqrt></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#177;</mo><mn>1</mn><mo>/</mo><msqrt><mn>2</mn></msqrt></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#177;</mo><mn>2</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p>Given that, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>cos</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>y</mi><mo>)</mo><mo>,</mo><mi>cos</mi><mi>x</mi><mo>,</mo><mi>cos</mi><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo></math> are in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HP</mi></math>.</p><p>Then, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>cos</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>cos</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>y</mi><mo>)</mo><mi>cos</mi><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo></mrow><mrow><mi>cos</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>y</mi><mo>)</mo><mo>+</mo><mi>cos</mi><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>cos</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mfenced><mrow><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi><mo>-</mo><msup><mi>sin</mi><mn>2</mn></msup><mi>y</mi></mrow></mfenced></mrow><mrow><mn>2</mn><mi>cos</mi><mi>x</mi><mi>cos</mi><mi>y</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi><mi>cos</mi><mi>y</mi><mo>=</mo><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi><mo>-</mo><msup><mi>sin</mi><mn>2</mn></msup><mi>y</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi><mo>(</mo><mi>cos</mi><mi>y</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>=</mo><mo>-</mo><msup><mi>sin</mi><mn>2</mn></msup><mi>y</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi><mo>(</mo><mn>1</mn><mo>-</mo><mi>cos</mi><mi>y</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><msup><mi>cos</mi><mn>2</mn></msup><mi>y</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi><mo>(</mo><mn>1</mn><mo>-</mo><mi>cos</mi><mi>y</mi><mo>)</mo><mo>=</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>cos</mi><mi>y</mi><mo>)</mo><mo>(</mo><mn>1</mn><mo>+</mo><mi>cos</mi><mi>y</mi><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>1</mn><mo>+</mo><mi>cos</mi><mi>y</mi><mo>&#8658;</mo><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>2</mn><msup><mi>cos</mi><mn>2</mn></msup><mi>y</mi><mo>/</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi><msup><mi>sec</mi><mn>2</mn></msup><mo>(</mo><mi>y</mi><mo>/</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>cos</mi><mi>x</mi><mi>sec</mi><mo>(</mo><mi>y</mi><mo>/</mo><mn>2</mn><mo>)</mo><mo>=</mo><mo>&#177;</mo><msqrt><mn>2</mn></msqrt></math></p>"
+  }
+}

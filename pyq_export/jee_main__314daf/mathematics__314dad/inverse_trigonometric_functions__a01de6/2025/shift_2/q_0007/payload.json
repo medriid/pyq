@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025537539c1075ba01de6",
+    "chapter_name": "Inverse Trigonometric Functions",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The sum of the infinite series<br/>$\\cot ^{-1}\\left(\\frac{7}{4}\\right)+\\cot ^{-1}\\left(\\frac{19}{4}\\right)+$ $\\cot ^{-1}\\left(\\frac{39}{4}\\right)+\\cot ^{-1}\\left(\\frac{67}{4}\\right)+\\ldots .$ is :-"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\pi}{2}+\\tan ^{-1}\\left(\\frac{1}{2}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{2}-\\cot ^{-1}\\left(\\frac{1}{2}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{2}+\\cot ^{-1}\\left(\\frac{1}{2}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{2}-\\tan ^{-1}\\left(\\frac{1}{2}\\right)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}<br/>& \\mathrm{T}_{\\mathrm{n}}=\\tan ^{-1}\\left(\\frac{4}{4 \\mathrm{n}^2+3}\\right) \\\\\n& \\mathrm{T}_{\\mathrm{n}}=\\tan ^{-1}\\left(\\frac{\\left(\\mathrm{n}+\\frac{1}{2}\\right)-\\left(\\mathrm{n}-\\frac{1}{2}\\right)}{1+\\left(\\mathrm{n}+\\frac{1}{2}\\right)\\left(\\mathrm{n}-\\frac{1}{2}\\right)}\\right) \\\\\n& \\mathrm{T}_{\\mathrm{n}}=\\tan ^{-1}\\left(\\mathrm{n}+\\frac{1}{2}\\right)-\\tan ^{-1}\\left(\\mathrm{n}-\\frac{1}{2}\\right) \\\\\n& \\mathrm{T}_1+\\mathrm{T}_2+\\ldots+\\mathrm{T}_{\\mathrm{n}}=\\tan ^{-1}\\left(\\mathrm{n}+\\frac{1}{2}\\right)-\\tan ^{-1}\\left(\\frac{1}{2}\\right) \\\\\n& \\mathrm{S}_{\\infty}=\\frac{\\pi}{2}-\\tan ^{-1}\\left(\\frac{1}{2}\\right)<br/>\\end{aligned}$<br/>option (4)"
+  }
+}

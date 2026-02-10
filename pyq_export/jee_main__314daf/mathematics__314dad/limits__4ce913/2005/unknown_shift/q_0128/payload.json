@@ -1,0 +1,43 @@
+{
+  "index": 128,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\lim _{n \\rightarrow \\infty}\\left[\\frac{1}{n^2} \\sec ^2 \\frac{1}{n^2}+\\frac{2}{n^2} \\sec ^2 \\frac{4}{n^2}+\\ldots .+\\frac{1}{n^2} \\sec ^2 1\\right]$ equals"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{2} \\sec 1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{2} \\operatorname{cosec} 1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\tan 1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{2} \\tan 1$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\lim _{n \\rightarrow \\infty}\\left[\\frac{1}{n^2} \\sec ^2 \\frac{1}{n^2}+\\frac{2}{n^2} \\sec ^2 \\frac{4}{n^2}+\\frac{3}{n^2} \\sec ^2 \\frac{9}{n^2}+\\ldots .+\\frac{1}{n} \\sec ^2 1\\right]$ is equal to $\\lim _{n \\rightarrow \\infty} \\frac{r}{n^2} \\sec ^2 \\frac{r^2}{n^2}=\\lim _{n \\rightarrow \\infty} \\frac{1}{n} \\cdot \\frac{r}{n} \\sec ^2 \\frac{r^2}{n^2}$\n$\\Rightarrow$ Given limit is equal to value of integral $\\int_0^1 x \\sec ^2 x^2 d x$\nor $\\frac{1}{2} \\int_0^1 2 x \\sec x^2 d x=\\frac{1}{2} \\int_0^1 \\sec ^2 t d t$\n[put $\\left.x^2=t\\right]$ $=\\frac{1}{2}(\\tan t)_0^1=\\frac{1}{2} \\tan 1$."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 102,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2004",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2004",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int \\frac{d x}{\\cos x-\\sin x}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{\\sqrt{2}} \\log \\left|\\tan \\left(\\frac{x}{2}-\\frac{\\pi}{8}\\right)\\right|+C$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{\\sqrt{2}} \\log \\left|\\cot \\left(\\frac{x}{2}\\right)\\right|+C$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{\\sqrt{2}} \\log \\left|\\tan \\left(\\frac{x}{2}-\\frac{3 \\pi}{8}\\right)\\right|+C$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{\\sqrt{2}} \\log \\left|\\tan \\left(\\frac{x}{2}+\\frac{3 \\pi}{8}\\right)\\right|+C$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\int \\frac{d x}{\\cos x-\\sin x}=\\frac{1}{\\sqrt{2}} \\int \\frac{1}{\\cos \\left(x+\\frac{\\pi}{4}\\right)} d x=\\frac{1}{\\sqrt{2}} \\int \\sec \\left(x+\\frac{\\pi}{4}\\right) d x=\\frac{1}{\\sqrt{2}} \\log \\left|\\tan \\left(\\frac{x}{2}+\\frac{3 \\pi}{8}\\right)\\right|+C$"
+  }
+}

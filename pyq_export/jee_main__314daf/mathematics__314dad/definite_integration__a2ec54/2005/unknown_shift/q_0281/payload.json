@@ -1,0 +1,43 @@
+{
+  "index": 281,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f: R \\rightarrow R$ be a differentiable function having $f(2)=6, f^{\\prime}(2)=\\left(\\frac{1}{48}\\right)$. Then $\\lim _{x \\rightarrow 2} \\int_6^{f(x)} \\frac{4 t^3}{x-2} d t$ equals"
+  },
+  "options": [
+    {
+      "text": "\n24\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n36\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n12\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n18",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\n\\lim _{x \\rightarrow 2} \\int_0^{f(x)} \\frac{4 t^3}{x-2} d t\n$$\nApplying $L$ Hospital rule\n$$\n\\begin{aligned}\n& \\lim _{x \\rightarrow 2}\\left[4 f(x)^2 f^{\\prime}(x)\\right]=4 f(2)^3 f^{\\prime}(2) \\\\\n& =4 \\times 6^3 \\times \\frac{1}{48}=18 .\n\\end{aligned}\n$$"
+  }
+}

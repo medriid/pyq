@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83086701c4b7dd0475",
+    "chapter_name": "Application of Derivatives",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A running track of $440 \\mathrm{ft}$ is to be laid out enclosing a football field, the shape of which is a rectangle with a semi-circle at each end. If the area of the rectangular portion is to be maximum, then the lengths of its side are"
+  },
+  "options": [
+    {
+      "text": "\r\n$70 \\mathrm{ft}$ and $110 \\mathrm{ft}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$80 \\mathrm{ft}$ and $120 \\mathrm{ft}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$35 \\mathrm{ft}$ and $110 \\mathrm{ft}$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n$35 \\mathrm{ft}$ and $120 \\mathrm{ft}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0013_7c75a1bff47a.png\"><br>\r\nPerimeter $=440 \\mathrm{ft}$\r\n$\\Rightarrow \\quad 2 x+\\pi r+\\pi r=440$\r\n$2 x+2 \\pi r=440$\r\n$$\r\n\\begin{aligned}\r\nA & =\\text { Area of the rectangular portion }=x 2 r \\\\\r\nA & =x \\frac{(440-2 x)}{\\pi}=\\frac{1}{\\pi}\\left(440 x-2 x^2\\right)\r\n\\end{aligned}\r\n$$\r\nLet $\\frac{d A}{d x}=\\frac{1}{\\pi}(440-4 x)=0$\r\n$$\r\n\\begin{aligned}\r\n& \\Rightarrow x=110 \\text { for which } \\frac{d^2 A}{d x^2} < 0 \\\\\r\n& \\Rightarrow A \\text { is maximum when } x=110 \\\\\r\n& \\Rightarrow 2 r=\\frac{440-2 x}{\\pi}=\\frac{440-220}{22 / 7}=70 \\\\\r\n& \\therefore \\quad r=35 \\mathrm{ft} \\text { and } x=110 \\mathrm{ft}\r\n\\end{aligned}\r\n$$"
+  }
+}

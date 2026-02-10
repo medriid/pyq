@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cb79820319dd593c4",
+    "chapter_name": "Sequences and Series",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\tan ^{-1}\\left[\\frac{1}{1+1.2}\\right]+\\tan ^{-1}\\left[\\frac{1}{1+2.3}\\right]+$ $\\ldots+\\tan ^{-1}\\left[\\frac{1}{1+n(n+1)}\\right]=\\tan ^{-1}[x]$, then $x$ is\nequal to"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{n+1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{n}{n+1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{n+2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{n}{n+2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\text { Given } \\tan ^{-1}\\left(\\frac{1}{1+1.2}\\right)+\\tan ^{-1}\\left(\\frac{1}{1+2.3}\\right)+\\ldots \\\\ & +\\tan ^{-1}\\left(\\frac{1}{1+n(n+1)}\\right)=\\tan ^{-1}(x)\\end{aligned}$\n$\\begin{aligned} \\Rightarrow \\tan ^{-1}\\left(\\frac{2-1}{1+1.2}\\right) & +\\tan ^{-1}\\left(\\frac{3-2}{1+2.3}\\right)+\\ldots \\\\ & +\\tan ^{-1}\\left(\\frac{n+1-n}{1+n(n+1)}\\right)=\\tan ^{-1}(x)\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow \\tan ^{-1}(2)-\\tan ^{-1}(1)+\\tan ^{-1}(3)-\\tan ^{-1}(2)+\\ldots \\\\ & +\\tan ^{-1}(\\mathrm{n}+1)-\\tan ^{-1}(\\mathrm{n})=\\tan ^{-1}(x)\\end{aligned}$\n$\\Rightarrow \\tan ^{-1}(\\mathrm{n}+1)-\\tan ^{-1}(1)=\\tan ^{-1}(x)$\n$\\left\\{\\because \\tan ^{-1}(A)-\\tan ^{-1}(B)=\\tan ^{-1}\\left(\\frac{A-B}{1+A \\cdot B}\\right)\\right\\}$\n$\\Rightarrow \\tan ^{-1}\\left(\\frac{n}{n+2}\\right)=\\tan ^{-1}(x) \\Rightarrow x=\\frac{n}{n+2}$"
+  }
+}

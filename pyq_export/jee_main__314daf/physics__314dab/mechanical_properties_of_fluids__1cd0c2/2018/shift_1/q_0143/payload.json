@@ -1,0 +1,43 @@
+{
+  "index": 143,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 1 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023db0dd81950d11cd0c2",
+    "chapter_name": "Mechanical Properties of Fluids",
+    "year": "2018",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "A thin uniform tube is bent into a circle of radius $r$ in the virtical plane. Equal volumes of two immiscible liquids, whose densities are $\\rho_1$ and $\\rho_2\\left(\\rho_1>\\rho_2\\right)$ fill half the circle. The angle $\\theta$ between the radius vector passing through the common interface and the vertical is"
+  },
+  "options": [
+    {
+      "text": "\n$\\theta=\\tan ^{-1}\\left[\\frac{\\pi}{2}\\left(\\frac{\\rho_1-\\rho_2}{\\rho_1+\\rho_2}\\right)\\right]$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\theta=\\tan ^{-1} \\frac{\\pi}{2}\\left(\\frac{\\rho_1+\\rho_2}{\\rho_1-\\rho_2}\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\theta=\\tan ^{-1} \\pi\\left(\\frac{\\rho_1}{\\rho_2}\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\theta=\\tan ^{-1} \\frac{\\pi}{2}\\left(\\frac{\\rho_2}{\\rho_1}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Pressure at interface A must be same from both the sides to be in equilibrium.\n<img src=\"assets\\st0143_31b58be2063b.png\"><br>\n$\\begin{aligned} \\therefore \\quad &(\\mathrm{R} \\cos \\theta+\\mathrm{R} \\sin \\theta) \\rho_2 \\mathrm{~g} \\\\ &=(\\mathrm{R} \\cos \\theta-\\mathrm{R} \\sin \\theta) \\rho_1 \\mathrm{~g} \\end{aligned}$\n$\\Rightarrow \\quad \\frac{\\rho_1}{\\rho_2}=\\frac{\\cos \\theta+\\sin \\theta}{\\cos \\theta-\\sin \\theta}=\\frac{1+\\tan \\theta}{1-\\tan \\theta}$\n$\\Rightarrow \\rho_1-\\rho_1 \\tan \\theta=\\rho_2+\\rho_2 \\tan \\theta$\n$\\Rightarrow \\quad\\left(\\rho_1+\\rho_2\\right) \\tan \\theta=\\rho_1-\\rho_2$\n$\\therefore \\quad \\theta=\\tan ^{-1}\\left(\\frac{\\rho_1-\\rho_2}{\\rho_1+\\rho_2}\\right)$, soclosest answer is (a)"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 116,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2022 (27 Jun Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2022",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If the solution curve of the differential equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mfenced><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>y</mi></mrow></mfenced><mo>-</mo><mi>x</mi></mrow></mfenced><mi>d</mi><mi>y</mi><mo>=</mo><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></mfenced><mi>d</mi><mi>x</mi></math>&nbsp;passes through the point <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>1</mn><mo>,</mo><mn>0</mn></mrow></mfenced></math> then the abscissa of the point on the curve whose ordinate is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>tan</mi><mfenced><mn>1</mn></mfenced></math>&nbsp;is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mi>e</mi></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mi>e</mi></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>e</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>y</mi><mo>-</mo><mi>x</mi></mrow></mfenced><mi>d</mi><mi>y</mi><mo>=</mo><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>y</mi></mrow></mfrac><mo>+</mo><mfenced><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></mfrac></mfenced><mi>x</mi><mo>=</mo><mfrac><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>y</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></mfrac></math></p><p>I.F.&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi>e</mi><mrow><mo>&#8747;</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>y</mi></mrow></msup><mo>=</mo><msup><mi>e</mi><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>y</mi></mrow></msup></math></p><p>General solution will be</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mfenced><msup><mi>e</mi><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>y</mi></mrow></msup></mfenced><mo>=</mo><mo>&#8747;</mo><msup><mi>e</mi><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>y</mi></mrow></msup><mo>&#215;</mo><mfrac><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>y</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>y</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>x</mi><mfenced><msup><mi>e</mi><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>y</mi></mrow></msup></mfenced><mo>=</mo><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>y</mi><mfenced><msup><mi>e</mi><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>y</mi></mrow></msup></mfenced><mo>-</mo><msup><mi>e</mi><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>y</mi></mrow></msup><mo>+</mo><mi>C</mi></math></p><p>Since the curve&nbsp;passes through <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>1</mn><mo>,</mo><mn>0</mn></mrow></mfenced></math>&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;&#160;</mo><mi>C</mi><mo>=</mo><mn>2</mn></math></p><p>So, the curve reduces to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mfenced><msup><mi>e</mi><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>y</mi></mrow></msup></mfenced><mo>=</mo><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>y</mi><mfenced><msup><mi>e</mi><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>y</mi></mrow></msup></mfenced><mo>-</mo><msup><mi>e</mi><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>y</mi></mrow></msup><mo>+</mo><mn>2</mn></math></p><p>when&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mi>tan</mi><mn>1</mn><mo>,</mo><mo>&#160;</mo><mi>x</mi><mfenced><mi>e</mi></mfenced><mo>=</mo><mn>1</mn><mfenced><mi>e</mi></mfenced><mo>-</mo><mi>e</mi><mo>+</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>x</mi><mo>=</mo><mfrac><mn>2</mn><mi>e</mi></mfrac></math></p>"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 217,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2009",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "One ticket is selected at random from 50 tickets numbered $00,01,02, \\ldots, 49$. Then the probability that the sum of the digits on the selected ticket is 8 , given that the product of these digits is zero, equals"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{14}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{1}{7}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{5}{14}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{50}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\nS=\\{00,01,02, \\ldots .49\\}\n$$\nLet $A$ be the even that sum of the digits on the selected ticket is 8 then\n$$\nA=\\{08,17,26,35,44\\}\n$$\nLet $B$ be the event that the product of the digits is zero\n$$\nB=\\{00,01,02,03, \\ldots .09,10,20,30,40\\}\n$$\n$A \\cap B=\\{8\\}$\n$$\n\\text { Required probability }=P(A / B)=\\frac{P(A \\cap B)}{P(B)}=\\frac{\\frac{1}{50}}{\\frac{14}{50}}=\\frac{1}{14}\n$$"
+  }
+}

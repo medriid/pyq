@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7e26f5bfc7ab78ae8af",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d7a",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2016-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2016",
+      "title": "BITSAT 2016"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The set of all values of a for which the function $f(x)=\\left(a^{2}-3 a+2\\right)\\left(\\cos ^{2} x / 4-\\sin ^{2} x / 4\\right)+(a-1) x+$\r\n\r\n$\\sin 1$ does not possess critical points is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "bgFeJ",
+      "text": "$[1, \\infty)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "WZoSj",
+      "text": "(0,1)$\\cup(1,4)$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "RdXGw",
+      "text": "(-2,4)",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "c6Rxu",
+      "text": "(1,3)$\\cup(3,5)$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\(f(x)=\\left(a^{2}=-3 a+2\\right)\\left(\\cos ^{2} x / 4-\\sin ^{2} x / 4\\right)+(a-1) x+\\sin 1\\)\r\n\r\n\\(\\Rightarrow \\mathrm{f}(\\mathrm{x})=(\\mathrm{a}-1)(\\mathrm{a}-2) \\cos \\mathrm{x} / 2+(\\mathrm{a}-1) \\mathrm{x}+\\sin 1\\)\r\n\r\n\\(\\Rightarrow \\mathrm{f}^{\\prime}(\\mathrm{x})=-\\frac{1}{2}(\\mathrm{a}-1)(\\mathrm{a}-2) \\sin \\frac{\\mathrm{x}}{2}+(\\mathrm{a}-1)\\)\r\n\r\n\\(\\Rightarrow \\mathrm{f}^{\\prime}(\\mathrm{x})=(\\mathrm{a}-1)\\left[1-\\frac{(\\mathrm{a}-2)}{2} \\sin \\frac{\\mathrm{x}}{2}\\right]\\)\r\n\r\nIf \\(f(x)\\) does not possess critical points, then \\(f^{\\prime}(x)\\) = 0 for any \\(x \\in R\\)\r\n\r\n\\(\\Rightarrow(a-1)\\left[1-\\frac{(a-2)}{2} \\sin \\frac{x}{2}\\right]\\) = 0 for any \\(x \\in R\\)\r\n\r\n\\(\\Rightarrow \\mathrm{a}=1\\) and \\(1-\\left(\\frac{\\mathrm{a}-2}{2}\\right) \\sin \\frac{\\mathrm{x}}{2}=0\\)\r\n\r\nmust not have any solution in \\(\\mathrm{R}\\).\r\n\r\n\\(\\Rightarrow \\mathrm{a}=1\\) and \\(\\sin \\frac{\\mathrm{x}}{2}=\\frac{2}{\\mathrm{a}-2}\\) is not solvable in \\(\\mathrm{R}\\).\r\n\r\n\\(\\Rightarrow \\mathrm{a} =  1\\) and \\(\\left|\\frac{2}{\\mathrm{a}-2}\\right|>1\\left[\\right.\\) For \\(\\mathrm{a}=2, \\mathrm{f}(\\mathrm{x})=\\mathrm{x}+\\sin 1 \\therefore \\mathrm{f}^{\\prime}(\\mathrm{x})=1\\)\r\n\r\n\\(\\Rightarrow \\mathrm{a}=1\\) and \\(0<\\mathrm{a}<4 \\Rightarrow \\mathrm{a} \\in(0,1) \\cup(1,4)\\).",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d7a",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2016-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2016",
+    "title": "BITSAT 2016"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

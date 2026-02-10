@@ -1,33 +1,33 @@
 {
-  "_id": "67a2eebbc8b73881fdaea267",
+  "_id": "68542c867c09d044e4c1a270",
   "type": "numerical",
   "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "67a2eb5da6d4514bf2d9760e",
+      "_id": "6852f2fe9d87935e0d809788",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-01-28T09:00:00.000Z",
+      "heldOn": "2025-04-07T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (28 Jan Shift 1)",
-      "title": "JEE Main 2025 (28 Jan Shift 1)"
+      "shortName": "2025 (7 Apr Shift 1)",
+      "title": "JEE Main 2025 (7 Apr Shift 1)"
     }
   ],
   "question": {
-    "text": "Let M denote the set of all real matrices of order $3 \\times 3$ and let $\\mathrm{S}=\\{-3,-2,-1,1,2\\}$. Let\n$$\n\\begin{aligned}\n& \\mathrm{S}_1=\\left\\{\\mathrm{A}=\\left[a_{\\mathrm{ij}}\\right] \\in \\mathrm{M}: \\mathrm{A}=\\mathrm{A}^{\\mathrm{T}} \\text { and } a_{\\mathrm{ij}} \\in \\mathrm{~S}, \\forall \\mathrm{i}, \\mathrm{j}\\right\\}, \\\\\n& \\mathrm{S}_2=\\left\\{\\mathrm{A}=\\left[a_{\\mathrm{ij}}\\right] \\in \\mathrm{M}: \\mathrm{A}=-\\mathrm{A}^{\\mathrm{T}} \\text { and } a_{\\mathrm{ij}} \\in \\mathrm{~S}, \\forall \\mathrm{i}, \\mathrm{j}\\right\\}, \\\\\n& \\mathrm{S}_3=\\left\\{\\mathrm{A}=\\left[a_{\\mathrm{ij}}\\right] \\in \\mathrm{M}: a_{11}+a_{22}+a_{33}=0 \\text { and } a_{\\mathrm{ij}} \\in \\mathrm{~S}, \\forall \\mathrm{i}, \\mathrm{j}\\right\\} .\n\\end{aligned}\n$$\nIf $n\\left(\\mathrm{~S}_1 \\cup_2 \\mathrm{US}_3\\right)=125 \\alpha$, then $\\alpha$ equals _______",
+    "text": "The number of singular matrices of order 2 , whose elements are from the set $\\{2,3,6,9\\}$ is",
     "image": null
   },
   "options": [],
-  "correctValue": "1613",
+  "correctValue": "36",
   "solution": {
-    "text": "$\\left[\\begin{array}{lll}\na_{11} & a_{12} & a_{13} \\\\\na_{21} & a_{22} & a_{23} \\\\\na_{31} & a_{32} & a_{33}\n\\end{array}\\right]$\n\nNo. of elements in $\\mathrm{S}_1: \\mathrm{A}=\\mathrm{A}^{\\mathrm{T}} \\Rightarrow 5^3 \\times 5^3$\nNo. of elements in $A=-A^T \\Rightarrow 0$\nsince no. zero in 5\nNo. of elements in $\\mathrm{S}_3 \\Rightarrow$\n$\\left.\\begin{array}{c}a_{11}+a_{22}+a_{33}=0 \\Rightarrow(1,2,-3) \\Rightarrow 31 \\\\ \\text { or } \\\\ (1,1,-2) \\Rightarrow 3 \\\\ \\text { or } \\\\ (-1,-1,2) \\Rightarrow 3\\end{array}\\right\\} \\Rightarrow 12 \\times 5^6$\n\n$\\begin{aligned} & \\mathrm{n}\\left(\\mathrm{S}_1 \\cap \\mathrm{~S}_3\\right)=12 \\times 5^3 \\\\ & \\mathrm{n}\\left(\\mathrm{S}_1 \\cup \\mathrm{~S}_2 \\cup \\mathrm{~S}_3\\right)=5^6(1+12)-12 \\times 5^3 \\\\ & \\quad \\Rightarrow 5^3 \\times\\left[13 \\times 5^3-12\\right]=125 \\alpha \\\\ & \\quad \\alpha=1613\\end{aligned}$",
+    "text": "$\\left|\\begin{array}{ll}<br/>\\mathrm{a} & \\mathrm{~d} \\\\\n\\mathrm{~b} & \\mathrm{c}<br/>\\end{array}\\right|=\\mathrm{ad}-\\mathrm{bc} \\Rightarrow \\mathrm{ad}=\\mathrm{bc}$<br/>Case-I Exactly 1 no. is used<br/>$\\Rightarrow \\text { All singular }={ }^4 \\mathrm{C}_1$<br/>Case-II Exactly 2 no. is used<br/>$\\Rightarrow{ }^4 \\mathrm{C}_2 \\times 2 \\times 2$<br/>Case-III Exactly 3 no. is used<br/>None will be singular<br/>Case-IV Exactly 4 No. is used<br/>ad=bc<br/>$\\begin{aligned} & \\Rightarrow 2 \\times 9=3 \\times 6 \\\\ & \\left|\\begin{array}{ll}9 & - \\\\ - & 2\\end{array}\\right| \\Rightarrow{ }^4 \\mathrm{C}_1 \\times 21\\end{aligned}$<br/>Total $=36$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "85586a0445334e0595063e88891f9512",
+    "videoId": "2884eecdf2d24bf78d7c0500cbee7cab",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/fyl4cetxb2cDP.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/fyl4cetxb2cDP.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/0jC88bs2IORl9.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/0jC88bs2IORl9.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
@@ -46,12 +46,12 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "67a2eb5da6d4514bf2d9760e",
+    "_id": "6852f2fe9d87935e0d809788",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-01-28T09:00:00.000Z",
+    "heldOn": "2025-04-07T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (28 Jan Shift 1)",
-    "title": "JEE Main 2025 (28 Jan Shift 1)"
+    "shortName": "2025 (7 Apr Shift 1)",
+    "title": "JEE Main 2025 (7 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

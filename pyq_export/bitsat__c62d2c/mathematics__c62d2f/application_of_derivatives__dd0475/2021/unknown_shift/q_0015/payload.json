@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2021",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83086701c4b7dd0475",
+    "chapter_name": "Application of Derivatives",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$f(x)=\\left(\\frac{e^{2 x}-1}{e^{2 x}+1}\\right)$ is"
+  },
+  "options": [
+    {
+      "text": "an increasing function",
+      "is_correct": true
+    },
+    {
+      "text": "a decreasing function",
+      "is_correct": false
+    },
+    {
+      "text": "an even function",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{array}{l}\r\n\r\n\\because \\mathrm{f}(x)=\\left(\\frac{e^{2 x}-1}{e^{2 x}+1}\\right) \\\\\r\n\r\n\\therefore \\mathrm{f}(-x)=\\frac{e^{-2 x}-1}{e^{-2 x}+1}=\\frac{1-e^{2 x}}{1+e^{2 x}} \\\\\r\n\r\n\\Rightarrow \\mathrm{f}(-x)=\\frac{-\\left(e^{2 x}-1\\right)}{e^{2 x}+1}=-\\mathrm{f}(x)\r\n\r\n\\end{array}$\r\n\r\n$\\therefore \\mathrm{f}(x)$ is an odd function.\r\n\r\nAgain, $\\mathrm{f}^{\\prime}(x)=\\frac{4 e^{2 x}}{\\left(1+e^{2 x}\\right)^{2}}>0, \\forall x \\in R$ $\\Rightarrow \\mathrm{f}(x)$ is an increasing function."
+  }
+}

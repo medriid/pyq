@@ -1,0 +1,43 @@
+{
+  "index": 157,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2014 (11 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253a3c04dac842bd723f",
+    "chapter_name": "Circle",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The set of all real values of $\\lambda$ for which exactly two common tangents can be drawn to the circles $x^2+y^2-4 x-4 y+6=0$ and $\\mathrm{x}^2+\\mathrm{y}^2-10 \\mathrm{x}-10 \\mathrm{y}+\\lambda=0$ is the interval:"
+  },
+  "options": [
+    {
+      "text": "\n$(12,32)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(18,42)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$(12,24)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(18,48)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "The equations of the circles are\n$$\nx^2+y^2-10 x-10 y+\\lambda=0\n$$\nand $x^2+y^2-4 x-4 y+6=0$\n$$\n\\begin{aligned}\n&C_1=\\text { centre of }(1)=(5,5) \\\\\n&\\mathrm{C}_2=\\text { centre of }(2)=(2,2) \\\\\n&d=\\text { distance between centres } \\\\\n&=\\mathrm{C}_1 \\mathrm{C}_2=\\sqrt{9+9}=\\sqrt{18} \\\\\n&r_1=\\sqrt{50-\\lambda}, r_2=\\sqrt{2} \\\\\n&\\text { For exactly two common tangents we } \\\\\n&\\text { have } \\\\\n&r_1-r_2 < C_1 C_2 < r_1+r_2 \\\\\n&\\Rightarrow \\sqrt{50-\\lambda}-\\sqrt{2} < 3 \\sqrt{2} < \\sqrt{50-\\lambda}+\\sqrt{2} \\\\\n&\\Rightarrow \\sqrt{50-\\lambda}-\\sqrt{2} < 3 \\sqrt{2} \\text { or } 3 \\sqrt{2} < \\sqrt{50-\\lambda}+\\sqrt{2} \\\\\n&\\Rightarrow \\sqrt{50-\\lambda} < 4 \\sqrt{2} \\text { or } 2 \\sqrt{2} < \\sqrt{50-\\lambda} \\\\\n&\\Rightarrow 50-\\lambda < 32 \\text { or } 8 < 50-\\lambda \\\\\n&\\Rightarrow \\lambda>18 \\text { or } \\lambda < 42 \\\\\n&\\text { Required interval is }(18,42) \\\\\n&\n\\end{aligned}\n$$"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7d56f5bfc7ab78ae839",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d79",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "BITSAT 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "If $\\lim _{x \\rightarrow} x \\sin \\left(\\frac{1}{x}\\right)=A$ and $\\lim _{x \\rightarrow 0} x \\sin \\left(\\frac{1}{x}\\right)=B$,\r\n\r\nthen which one of the following is correct?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "toIxH",
+      "text": "$A=1$ and $B=0$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "r3xWT",
+      "text": "$\\quad A=0$ and $B=1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "grL6x",
+      "text": "$A=0$ and $B=0$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "bBupw",
+      "text": "$A=1$ and $B=1$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "As given,\r\n\r\n$$\r\n\r\n\\mathrm{A}=\\lim _{\\mathrm{x} \\rightarrow \\infty} \\mathrm{x} \\sin \\left(\\frac{1}{\\mathrm{x}}\\right)=\\lim _{\\mathrm{x} \\rightarrow \\infty} \\frac{\\sin \\left(\\frac{1}{\\mathrm{x}}\\right)}{\\left(\\frac{1}{\\mathrm{x}}\\right)}\r\n\r\n$$\r\n\r\nLet $\\mathrm{t}=\\frac{1}{\\mathrm{x}}$ when $\\mathrm{x} \\rightarrow \\alpha, \\mathrm{t} \\rightarrow 0$\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n\\Rightarrow \\mathrm{A} &=\\lim _{t \\rightarrow \\infty} \\frac{\\sin \\mathrm{t}}{\\mathrm{t}}=1 \\\\\r\n\r\n&\\left[\\because \\lim _{\\mathrm{t} \\rightarrow 0} \\frac{\\sin \\mathrm{x}}{\\mathrm{x}}=1\\right]\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\nand $\\mathrm{B}=\\lim _{\\mathrm{x} \\rightarrow 0} \\mathrm{x} \\sin \\left(\\frac{1}{\\mathrm{x}}\\right)$\r\n\r\n$$\r\n\r\n\\Rightarrow \\mathrm{B}=\\lim _{\\mathrm{x} \\rightarrow 0} \\mathrm{x} \\cdot \\lim _{\\mathrm{x} \\rightarrow 0} \\sin \\left(\\frac{1}{\\mathrm{x}}\\right)\r\n\r\n$$\r\n\r\n$$\r\n\r\n\\Rightarrow \\mathrm{B}=0\r\n\r\n$$\r\n\r\n$\\therefore \\quad A=1$ and $B=0$ is correct",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d79",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "BITSAT 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

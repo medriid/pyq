@@ -1,0 +1,43 @@
+{
+  "index": 179,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2010",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider the system of linear equations:\n$$\n\\begin{aligned}\n& x_1+2 x_2+x_3=3 \\\\\n& 2 x_1+3 x_2+x_3=3 \\\\\n& 3 x_1+5 x_2+2 x_3=1\n\\end{aligned}\n$$\nThe system has"
+  },
+  "options": [
+    {
+      "text": "\nexactly 3 solutions\n",
+      "is_correct": false
+    },
+    {
+      "text": "\na unique solution\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nno solution\n",
+      "is_correct": true
+    },
+    {
+      "text": "\ninfinite number of solutions",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& D=\\left|\\begin{array}{lll}\n1 & 2 & 1 \\\\\n2 & 3 & 1 \\\\\n3 & 5 & 2\n\\end{array}\\right|=0 \\\\\n& D_1=\\left|\\begin{array}{lll}\n3 & 2 & 1 \\\\\n3 & 3 & 1 \\\\\n1 & 5 & 2\n\\end{array}\\right| \\neq 0\n\\end{aligned}\n$$\n$\\Rightarrow$ Given system, does not have any solution.\n$\\Rightarrow$ No solution."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e8276f5bfc7ab78aeb10",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44c",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2021-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021",
+      "title": "BITSAT 2021"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "How many numbers lying between 999 and 10000 can be formed with the help of the digits $0,2,3,6,7,8$, when the digits are not repeated?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "zyRRT",
+      "text": "100",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "6lGhb",
+      "text": "200",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "jpWFK",
+      "text": "300",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "v4JdW",
+      "text": "400",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "The numbers between 999 and 10000 are all 4-digit numbers. The number of 4 - digit numbers formed by digits $0,2,3,6,7,8$ is ${ }^{6} \\mathrm{P}_{4}=360$. But here those numbers are also involved which begin from 0 . So, we take those numbers as three-digit numbers.\r\n\r\nTaking initial digit 0 , the number of ways to fill remaining 3 places from five digits $2,3,6,7,8$ are ${ }^{5} \\mathrm{P}_{3}=60$\r\n\r\nSo, the required numbers $=360-60=300$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44c",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2021-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021",
+    "title": "BITSAT 2021"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

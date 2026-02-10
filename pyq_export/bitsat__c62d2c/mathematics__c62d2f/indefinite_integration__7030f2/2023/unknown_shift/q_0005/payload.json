@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd788eed0f628d7030f2",
+    "chapter_name": "Indefinite Integration",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int \\frac{x+3}{(x+4)^2} e^x d x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$e^x\\left(\\frac{1}{x+4}\\right)+C$",
+      "is_correct": true
+    },
+    {
+      "text": "$e^{-x}\\left(\\frac{1}{x+4}\\right)+C$",
+      "is_correct": false
+    },
+    {
+      "text": " $e^{-x}\\left(\\frac{1}{x-4}\\right)+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^{2 x}\\left(\\frac{1}{x-4}\\right)+C$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Suppose,<br />$I=\\int \\frac{x+3}{(x+4)^2} e^x d x=\\int \\frac{(x+4) 1}{(x+4)^2} e^x d x$<br />$=\\int \\frac{e^x}{(x+4)}-\\int \\frac{e^x}{(x+4)^2} d x$<br />$=\\int e^x\\left(\\frac{1}{(x+4)}-\\frac{1}{(x+4)^2}\\right) d x$<br />$=e^x \\frac{1}{(x+4)}+C$<br />$\\left[\\int e^x\\left\\{f(x)+f^{\\prime}(x)\\right\\} d x=e^x f(x)+C\\right]$"
+  }
+}

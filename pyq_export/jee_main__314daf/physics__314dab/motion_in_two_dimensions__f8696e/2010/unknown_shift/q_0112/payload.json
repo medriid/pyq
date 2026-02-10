@@ -1,0 +1,43 @@
+{
+  "index": 112,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2010",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023aeab028caf34f8696e",
+    "chapter_name": "Motion In Two Dimensions",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A small particle of mass $m$ is projected at an angle $\\theta$ with the $\\mathrm{x}$-axis with an initial velocity $\\mathrm{v}_0$ in the $\\mathrm{x}-\\mathrm{y}$ plane as shown in the figure. At a time $t < \\frac{v_0 \\sin \\theta}{g}$, the angular momentum of the particle is \nwhere $\\hat{\\mathrm{i}}, \\hat{\\mathrm{j}}$ and $\\hat{\\mathrm{k}}$ are unit vectors along $\\mathrm{x}, \\mathrm{y}$ and $\\mathrm{z}$-axis respectively.<img src=\"assets\\qt0112_4c7a4fb24503.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\n$-\\operatorname{mgv}_0 \\mathrm{t}^2 \\cos \\theta \\hat{\\mathrm{j}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n $\\operatorname{mgv}_0 t \\cos \\theta \\hat{\\mathrm{k}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-\\frac{1}{2} m g v_0 t^2 \\cos \\theta \\hat{k}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{1}{2} m g v_0 t^2 \\cos \\theta \\hat{i}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} \\overrightarrow{\\mathrm{L}} & =m(\\vec{r} \\times \\overrightarrow{\\mathrm{v}}) \\\\ \\overrightarrow{\\mathrm{L}} & =m\\left[\\mathrm{v}_0 \\cos \\theta t \\hat{\\mathrm{i}}+\\left(\\mathrm{v}_0 \\sin \\theta \\mathrm{t}-\\frac{1}{2} g \\mathrm{t}^2\\right) \\hat{\\mathrm{j}}\\right] \\times\\left[\\mathrm{v}_0 \\cos \\theta \\hat{\\mathrm{i}}+\\left(\\mathrm{v}_0 \\sin \\theta-g \\mathrm{~g}\\right) \\hat{\\mathrm{j}}\\right] \\\\ & =m \\mathrm{v}_0 \\cos \\theta \\mathrm{t}\\left[-\\frac{1}{2} g \\mathrm{~g}\\right] \\hat{\\mathrm{k}} \\\\ & =-\\frac{1}{2} m g \\mathrm{v}_0 \\mathrm{t}^2 \\cos \\theta \\hat{\\mathrm{k}}\\end{aligned}$"
+  }
+}

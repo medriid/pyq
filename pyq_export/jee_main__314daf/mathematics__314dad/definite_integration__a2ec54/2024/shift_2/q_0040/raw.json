@@ -1,0 +1,58 @@
+{
+  "_id": "6644673b970e6e9ab542d16a",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda6d",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-06T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (06 Apr Shift 2)",
+      "title": "JEE Main 2024 (06 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $[t]$ denote the largest integer less than or equal to $t$. If $\\int_0^3\\left(\\left[x^2\\right]+\\left[\\frac{x^2}{2}\\right]\\right) \\mathrm{d} x=\\mathrm{a}+\\mathrm{b} \\sqrt{2}-\\sqrt{3}-\\sqrt{5}+\\mathrm{c} \\sqrt{6}-\\sqrt{7}$, where $\\mathrm{a}, \\mathrm{b}, \\mathrm{c} \\in \\mathbf{Z}$, then $\\mathrm{a}+\\mathrm{b}+\\mathrm{c}$ is equal to_______",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "23",
+  "solution": {
+    "text": "$\\begin{aligned} & \\int_0^3\\left[x^2\\right] d x+\\int_0^3\\left[\\frac{x^2}{2}\\right] d x \\\\ & =\\int_0^1 0 d x+\\int_1^{12} 1 d x+\\int_{\\sqrt{2}}^{\\sqrt{3}} 2 d x\\end{aligned}$\n$\\begin{aligned} & +\\int_{\\sqrt{3}}^2 3 \\mathrm{dx}+\\int_2^{\\sqrt{5}} 4 \\mathrm{dx}+\\int_{\\sqrt{5}}^{\\sqrt{6}} 5 \\mathrm{dx} \\\\ & +\\int_{\\sqrt{6}}^{\\sqrt{7}} 6 \\mathrm{dx}+\\int_{\\sqrt{7}}^{\\sqrt{8}} 7 \\mathrm{dx}+\\int_{\\sqrt{8}}^3 8 \\mathrm{dx} \\\\ & +\\int_0^{\\sqrt{2}} 0 \\mathrm{dx}+\\int_{\\sqrt{2}}^2 1 \\mathrm{dx} \\\\ & +\\int_2^{\\sqrt{6}} 2 \\mathrm{dx}+\\int_{\\sqrt{6}}^{\\sqrt{8}} 3 \\mathrm{dx}+\\int_{\\sqrt{8}}^3 4 \\mathrm{dx}=31-6 \\sqrt{2}-\\sqrt{3}-\\sqrt{5} \\\\ & -2 \\sqrt{6}-\\sqrt{7} \\\\ & \\mathrm{a}=31 \\quad \\mathrm{~b}=-6 \\quad \\mathrm{c}=-2 \\\\ & \\mathrm{a}+\\mathrm{b}+\\mathrm{c}=31-6-2=23\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "adcf8ac158b44f53ab42c08547458019",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/6mxz4CEJazLqs.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/6mxz4CEJazLqs.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda6d",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-06T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (06 Apr Shift 2)",
+    "title": "JEE Main 2024 (06 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

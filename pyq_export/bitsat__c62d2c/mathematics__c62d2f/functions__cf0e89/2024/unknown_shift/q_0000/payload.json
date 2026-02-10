@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd744fe496e9e0cf0e89",
+    "chapter_name": "Functions",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Number of real solution of $\\sqrt{5-\\log _2|x|}$ $=3-\\log _2|x|$ is equal to"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": true
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n\\text {  } & \\text {  Let } & \\log _2|x| & =t \\ldots(i)\\\\\n& \\therefore & \\sqrt{5-t} & =3-t \\\\\n\\Rightarrow & & 5-t & =(3-t)^2 \\\\\n\\Rightarrow & & 5-t & =9+t^2-6 t\n\\end{aligned}$\n$\\begin{aligned}\n& \\Rightarrow \\quad t^2-5 t+4=0 \\\\\n& \\Rightarrow \\quad(t-4)(t-1)=0 \\\\\n& \\Rightarrow \\quad t=1 \\text { or } 4 \\text{[rejected]}\\\\\n& {[\\because \\sqrt{5-4}=3-4,1 \\neq-1]} \\\\\n& \\Rightarrow \\quad \\log _2|x|=1 \\\\\n& \\Rightarrow \\quad|x|=2 \\\\\n& \\Rightarrow \\quad x= \\pm 2\n\\end{aligned}$\n$\\therefore$ Total 2 real solutions."
+  }
+}

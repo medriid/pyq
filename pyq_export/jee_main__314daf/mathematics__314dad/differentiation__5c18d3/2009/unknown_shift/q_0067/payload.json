@@ -1,0 +1,43 @@
+{
+  "index": 67,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2009",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255a501b352fc65c18d3",
+    "chapter_name": "Differentiation",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $y$ be an implicit function of $x$ defined by $x^{2 x}-2 x^x \\cot y-1=0$. Then $y^{\\prime}(1)$ equals"
+  },
+  "options": [
+    {
+      "text": "\n$-1$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\log 2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-\\log 2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$x^{2 x}-2 x^x \\cot y-1=0$\nNow $x=1$,\n$$\n1-2 \\cot y-1=0 \\Rightarrow \\cot y=0 \\Rightarrow y=\\frac{\\pi}{2}\n$$\nNow differentiating eq. (1) w.r.t. ' $x$ '\n$$\n2 x^{2 x}(1+\\log x)-2\\left[x^x\\left(-\\operatorname{cosec}^2 y\\right) \\frac{d y}{d x}+\\cot y x^x(1+\\log x)\\right]=0\n$$\nNow at $\\left(1, \\frac{\\pi}{2}\\right)$\n$$\n\\begin{aligned}\n& 2(1+\\log 1)-2\\left(1(-1)\\left(\\frac{d y}{d x}\\right)_{\\left(1, \\frac{\\pi}{2}\\right)}+0\\right)=0 \\\\\n& \\Rightarrow 2+2\\left(\\frac{d y}{d x}\\right)_{\\left(1, \\frac{\\pi}{2}\\right)}=0 \\Rightarrow\\left(\\frac{d y}{d x}\\right)_{\\left(1, \\frac{\\pi}{2}\\right)}=-1\n\\end{aligned}\n$$"
+  }
+}

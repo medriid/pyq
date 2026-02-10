@@ -1,8 +1,8 @@
 {
   "index": 22,
-  "type": "singleCorrect",
+  "type": "numerical",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2024 (04 Apr Shift 1)",
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "If the system of equations\n$\\begin{aligned}\n& x+(\\sqrt{2} \\sin \\alpha) y+(\\sqrt{2} \\cos \\alpha) z=0 \\\\\n& x+(\\cos \\alpha) y+(\\sin \\alpha) z=0 \\\\\n& x+(\\sin \\alpha) y-(\\cos \\alpha) z=0\n\\end{aligned}$\nhas a non-trivial solution, then $\\alpha \\in\\left(0, \\frac{\\pi}{2}\\right)$ is equal to :"
+    "text": "Let $\\alpha \\beta \\gamma=45 ; \\alpha, \\beta, \\gamma \\in \\mathbb{R}$. If $x(\\alpha, 1,2)+y(1, \\beta, 2)+z(2,3, \\gamma)=(0,0,0)$ for some $x, y, z \\in \\mathbb{R}, x y z \\neq 0$, then $6 \\alpha+4 \\beta+\\gamma$ is equal to _______"
   },
-  "options": [
-    {
-      "text": "$\\frac{11 \\pi}{24}$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{5 \\pi}{24}$",
-      "is_correct": true
-    },
-    {
-      "text": "$\\frac{7 \\pi}{24}$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{3 \\pi}{4}$",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "B"
-  ],
+  "options": [],
+  "correct_answer": "55",
   "solution": {
-    "text": "$\\begin{aligned} & \\left|\\begin{array}{ccc}1 & \\sqrt{2} \\sin \\alpha & \\sqrt{2} \\cos \\alpha \\\\ 1 & \\sin \\alpha & -\\cos \\alpha \\\\ 1 & \\cos \\alpha & \\sin \\alpha\\end{array}\\right|=0 \\\\ & \\Rightarrow 1-\\sqrt{2} \\sin \\alpha(\\sin \\alpha+\\cos \\alpha)+\\sqrt{2} \\cos \\alpha(\\cos \\alpha-\\sin \\alpha)=0 \\\\ & \\Rightarrow 1+\\sqrt{2} \\cos 2 \\alpha-\\sqrt{2} \\sin 2 \\alpha=0 \\\\ & \\cos 2 \\alpha-\\sin 2 \\alpha=-\\frac{1}{\\sqrt{2}} \\\\ & \\cos \\left(2 \\alpha+\\frac{\\pi}{4}\\right)=-\\frac{1}{2} \\\\ & 2 \\alpha+\\frac{\\pi}{4}=2 \\mathrm{n} \\pi \\pm \\frac{2 \\pi}{3} \\\\ & \\alpha+\\frac{\\pi}{8}=\\mathrm{n} \\pi \\pm \\frac{\\pi}{3} \\\\ & \\mathrm{n}=0 \\\\ & \\mathrm{x}=\\frac{\\pi}{3}-\\frac{\\pi}{8}=\\frac{5 \\pi}{24}\\end{aligned}$"
+    "text": "$\\begin{aligned} & \\alpha \\beta \\gamma=45, \\alpha \\beta \\gamma \\in \\mathrm{R} \\\\ & \\mathrm{x}(\\alpha, 1,2)+\\mathrm{y}(1, \\beta, 2)+\\mathrm{z}(2,3, \\gamma)=(0,0,0) \\\\ & \\mathrm{x}, \\mathrm{y}, \\mathrm{z} \\in \\mathrm{R}, \\mathrm{xyz} \\neq 0 \\\\ & \\alpha \\mathrm{x}+\\mathrm{y}+2 \\mathrm{z}=0 \\\\ & \\mathrm{x}+\\beta \\mathrm{y}+3 \\mathrm{z}=0 \\\\ & 2 \\mathrm{x}+2 \\mathrm{y}+\\gamma \\mathrm{z}=0 \\\\ & \\mathrm{xyz} \\neq 0 \\Rightarrow \\text { non-trivial } \\\\ & \\left|\\begin{array}{lll}\\alpha & 1 & 2 \\\\ 1 & \\beta & 3 \\\\ 2 & 2 & \\gamma\\end{array}\\right|=0\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow \\alpha(\\beta \\gamma-6)-1(\\gamma-6)+2(2-2 \\beta)=0 \\\\ & \\Rightarrow \\alpha \\beta \\gamma-6 \\alpha-\\gamma+6+4-4 \\beta=0 \\\\ & \\Rightarrow 6 \\alpha+4 \\beta+\\gamma=55\\end{aligned}$"
   }
 }

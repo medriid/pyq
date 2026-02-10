@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7e46f5bfc7ab78ae8bf",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d7a",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2016-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2016",
+      "title": "BITSAT 2016"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "If $\\sum_{r=0}^{n} \\frac{r+2}{r+1}^{n} C_{r}=\\frac{2^{8}-1}{6},$ then $n=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "02ybA",
+      "text": "8",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "XG32I",
+      "text": "4",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "aNC2I",
+      "text": "6",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "H4iHH",
+      "text": "5",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\sum_{r=0}^{n} \\frac{r+2}{r+1}{ }^{n} C_{r}=\\frac{2^{8}-1}{6}$\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n& \\Rightarrow \\sum_{r=0}^{n}\\left[1+\\frac{1}{r+1}\\right]{ }^{n} C_{r}=\\frac{2^{8}-1}{6} \\\\\r\n\r\n& \\Rightarrow 2^{n}+\\sum_{r=0}^{n} \\frac{1}{n+1} \\cdot{ }^{n+1} C_{r+1}=\\frac{2^{8}-1}{6} \\\\\r\n\r\n\\Rightarrow 2^{n}+& \\frac{2^{n+1}-1}{n+1}=\\frac{2^{8}-1}{6} \\Rightarrow \\frac{2^{n}(n+3)-1}{n+1}=\\frac{2^{8}-1}{6} \\\\\r\n\r\n\\Rightarrow & \\frac{2^{n}(n+1+2)-1}{n+1}=\\frac{2^{5}(6+2)-1}{6}\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\nComparing we get $\\mathrm{n}+1=6 \\Rightarrow \\mathrm{n}=5$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d7a",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2016-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2016",
+    "title": "BITSAT 2016"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

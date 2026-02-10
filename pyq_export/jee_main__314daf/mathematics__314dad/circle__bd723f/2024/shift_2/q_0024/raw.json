@@ -1,23 +1,58 @@
 {
-  "_id": "6682bd3eba0e94a3c4025b6e",
-  "type": "numerical",
+  "_id": "66446726970e6e9ab542d0a6",
+  "type": "singleCorrect",
   "level": 2,
   "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6b",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-05T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (05 Apr Shift 2)",
+      "title": "JEE Main 2024 (05 Apr Shift 2)"
+    }
+  ],
   "question": {
-    "text": "Consider two circles <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>1</mn></msub><mo>:</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>25</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>2</mn></msub><mo>:</mo><mo>(</mo><mi>x</mi><mo>-</mo><mi>α</mi><msup><mo>)</mo><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>16</mn></math>, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>∈</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>9</mn><mo>)</mo></math>. Let the angle between the two radii (one to each circle) drawn from one of the intersection points of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">C</mi><mn>1</mn></msub></math>and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub></math> be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>sin</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mfrac><msqrt><mn>63</mn></msqrt><mn>8</mn></mfrac></mfenced></math>. If the length of common chord of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>1</mn></msub></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>2</mn></msub></math> is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, then the value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>α</mi><mi>β</mi><msup><mo>)</mo><mn>2</mn></msup></math> equals _________.",
+    "text": "Let $A B C D$ and $A E F G$ be squares of side 4 and 2 units, respectively. The point $E$ is on the line segment $\\mathrm{AB}$ and the point $\\mathrm{F}$ is on the diagonal $\\mathrm{AC}$. Then the radius $\\mathrm{r}$ of the circle passing through the point $\\mathrm{F}$ and touching the line segments $\\mathrm{BC}$ and $\\mathrm{CD}$ satisfies:",
     "image": null
   },
-  "options": [],
-  "correctValue": "1575",
+  "options": [
+    {
+      "id": "dO7TI",
+      "text": "$r=0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "4Xa7a",
+      "text": "$2 r^2-4 r+1=0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "xx23S",
+      "text": "$2 r^2-8 r+7=0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "gpUoV",
+      "text": "$r^2-8 r+8=0$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<blockquote><p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>1</mn></msub><mo>:</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>25</mn><mo>,</mo><mo> </mo><msub><mi>C</mi><mn>2</mn></msub><mo>:</mo><mo>(</mo><mi>x</mi><mo>-</mo><mi>α</mi><msup><mo>)</mo><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>16</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>&lt;</mo><mi>α</mi><mo>&lt;</mo><mn>9</mn></math></p><p>Now, plotting the diagram we get,</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/084a6e21-e887-47e2-aa80-4ea18e4ac731.png\" style=\"width: 350px; height: 240px;\"/></p><p>Also, given <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>sin</mi><mi>θ</mi><mo>=</mo><mfrac><msqrt><mn>63</mn></msqrt><mn>8</mn></mfrac></math></p><p>Now, from the above diagram, finding the area of  <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Δ</mi><mi>OAP</mi></math> we get, </p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Δ</mi><mi>OAP</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>×</mo><mi>α</mi><mfenced><mfrac><mi>β</mi><mn>2</mn></mfrac></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>×</mo><mn>5</mn><mo>×</mo><mn>4</mn><mi>sin</mi><mi>θ</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>α</mi><mi>β</mi><mo>=</mo><mn>40</mn><mo>×</mo><mfrac><msqrt><mn>63</mn></msqrt><mn>8</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>α</mi><mi>β</mi><mo>=</mo><mn>5</mn><mo>×</mo><msqrt><mn>63</mn></msqrt></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mo>(</mo><mi>α</mi><mi>β</mi><msup><mo>)</mo><mn>2</mn></msup><mo>=</mo><mn>25</mn><mo>×</mo><mn>63</mn><mo>=</mo><mn>1575</mn></math></p></blockquote>",
+    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/aAVD2KLFjsWiWqQN_eU_coBSvd_UCmxUyVpTUVz_VRg.original.fullsize.png\"><br><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/iTnYHNselGaoKVea1pRI1ZGJs-XGvoq_IwKKX2D_9FE.original.fullsize.png\"><br />$\\begin{aligned} & \\mathrm{OF}^2=\\mathrm{r}^2 \\\\ & (2-r)^2+(2-r)^2=\\mathrm{r}^2 \\\\ & \\mathrm{r}^2-8 \\mathrm{r}+8=0\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "a07c71f496344ae1baa50b3265cb0686",
+    "videoId": "a75fb139d2bc47a4af7da1c8b7d9667e",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/VD72RnCrO7qaJ.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/VD72RnCrO7qaJ.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/VTLOurbi4pInr.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/VTLOurbi4pInr.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6628114842d540dfcb148ecb",
@@ -34,25 +69,15 @@
     ],
     "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
   },
-  "syllabusCategory": "noChange",
-  "previousYearPapers": [
-    {
-      "_id": "65c4c0c11d30997d3436bb03",
-      "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-01-30T14:00:00.000Z",
-      "isVisible": true,
-      "shortName": "2024 (30 Jan Shift 2)",
-      "title": "JEE Main 2024 (30 Jan Shift 2)"
-    }
-  ],
+  "syllabusCategory": "outOfSyllabusButGoodToSolve",
   "previousYear": {
-    "_id": "65c4c0c11d30997d3436bb03",
+    "_id": "664466ee278297dee60eda6b",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-01-30T14:00:00.000Z",
+    "heldOn": "2024-04-05T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (30 Jan Shift 2)",
-    "title": "JEE Main 2024 (30 Jan Shift 2)"
+    "shortName": "2024 (05 Apr Shift 2)",
+    "title": "JEE Main 2024 (05 Apr Shift 2)"
   },
-  "evalStatus": "notAttempted",
-  "lastPracticed": null
+  "evalStatus": "incorrect",
+  "lastPracticed": "2024-10-14T14:34:51.655Z"
 }

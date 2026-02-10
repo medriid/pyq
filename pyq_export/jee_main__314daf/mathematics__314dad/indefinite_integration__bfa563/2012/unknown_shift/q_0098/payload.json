@@ -1,0 +1,43 @@
+{
+  "index": 98,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (Offline)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the integral $\\int \\frac{5 \\tan x}{\\tan x-2} d x=x+a \\ln |\\sin x-2 \\cos x|+k$, then $a$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$-1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\int \\frac{5 \\tan x}{\\tan x-2} d x=\\int \\frac{5 \\sin x}{\\sin x-2 \\cos x} d x$\n$\\Rightarrow \\int\\left[\\frac{2(\\cos x+2 \\sin x)+(\\sin x-2 \\cos x)}{\\sin x-2 \\cos x}\\right] d x$\n$=2 \\int\\left(\\frac{\\cos x+2 \\sin x}{\\sin x-2 \\cos x}\\right) d x+\\int d x+k$\n$=2 \\log |\\sin x-2 \\cos x|+x+k \\quad \\therefore a=2$"
+  }
+}

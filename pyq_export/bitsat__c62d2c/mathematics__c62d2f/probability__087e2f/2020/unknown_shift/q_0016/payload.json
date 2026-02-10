@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2020",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78b6e5f7d916087e2f",
+    "chapter_name": "Probability",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The probability that certain electronic component fails when first used is 0.10 . If it does not fail immediately, the probability that it lasts for one year is $0.99 .$ The probability that a new component will last for one year is"
+  },
+  "options": [
+    {
+      "text": "0.99",
+      "is_correct": false
+    },
+    {
+      "text": "0.871",
+      "is_correct": false
+    },
+    {
+      "text": "0.891",
+      "is_correct": true
+    },
+    {
+      "text": "0.762",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Probability that the electronic component fails when first used is $P(F)=0.10$. Therefore, $P\\left(F^{\\prime}\\right)=1-P(F)=0.90$\r\n\r\nLet $E$ be the event that a new component will last for one year.\r\n\r\n$\\text { Then, } P(E)=P(F) P\\left(\\frac{E}{F}\\right)+P\\left(F^{\\prime}\\right) P\\left(\\frac{E}{F^{\\prime}}\\right)$\r\n\r\n[total probability theorem] $=0.10 \\times 0+0.90 \\times 0.99=0.891$"
+  }
+}

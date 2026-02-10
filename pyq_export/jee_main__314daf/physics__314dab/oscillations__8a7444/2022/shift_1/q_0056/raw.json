@@ -1,38 +1,63 @@
 {
-  "_id": "648b5a6e417cc3fb48d67e52",
+  "_id": "648b5a6e417cc3fb48d67d8f",
   "previousYearPapers": [
     {
-      "_id": "62c481f101514d218a7934db",
+      "_id": "63134c746e7bc9b332483707",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2022-06-29T09:00:00.000Z",
+      "heldOn": "2022-07-29T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2022 (29 Jun Shift 1)",
-      "title": "JEE Main 2022 (29 Jun Shift 1)"
+      "shortName": "2022 (29 Jul Shift 1)",
+      "title": "JEE Main 2022 (29 Jul Shift 1)"
     }
   ],
-  "type": "numerical",
-  "level": 2,
+  "type": "singleCorrect",
+  "level": 3,
   "question": {
-    "text": "A body is performing simple harmonic with an amplitude of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>&#160;</mo><mi>cm</mi></math>. The velocity of the body was tripled by air Jet when it is at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>&#160;</mo><mi>cm</mi></math> from its mean position. The new amplitude of vibration is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>x</mi></msqrt><mo>&#160;</mo><mi>cm</mi></math>. The value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> is _____ .",
+    "text": "The time period of oscillation of a simple pendulum of length <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math>&nbsp;suspended from the roof of a vehicle, which moves without friction down an inclined plane of inclination <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi></math>, is given by :",
     "image": null
   },
-  "options": [],
-  "correctValue": "700",
+  "options": [
+    {
+      "id": "sfvHz",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>&#960;</mi><msqrt><mfrac><mi>L</mi><mfenced><mrow><mi>g</mi><mi>cos</mi><mi>&#945;</mi></mrow></mfenced></mfrac></msqrt></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "Rbapo",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>&#960;</mi><msqrt><mfrac><mi>L</mi><mfenced><mrow><mi>g</mi><mi>sin</mi><mi>&#945;</mi></mrow></mfenced></mfrac></msqrt></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "vENRz",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>&#960;</mi><msqrt><mfrac><mi>L</mi><mi>g</mi></mfrac></msqrt></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "8lG22",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>&#960;</mi><msqrt><mfrac><mi>L</mi><mfenced><mrow><mi>g</mi><mi>tan</mi><mi>&#945;</mi></mrow></mfenced></mfrac></msqrt></math>",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/872a3447-aafc-452a-bfa7-06f16ee24315-image.png\" style=\"width: 240px; height: 75px;\" /></p><p>In SHM, velocity of the particle at any displacement,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>&nbsp;is given by,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><msqrt><msup><mi>A</mi><mn>2</mn></msup><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup></msqrt></math>.</p><p>Therefore,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mi>v</mi><mrow><mn>3</mn><mi>v</mi></mrow></mfrac><mo>=</mo><mfrac><mfenced><msqrt><msubsup><mi>A</mi><mn>1</mn><mn>2</mn></msubsup><mo>-</mo><mn>25</mn></msqrt></mfenced><msqrt><msubsup><mi>A</mi><mn>2</mn><mn>2</mn></msubsup><mo>-</mo><mn>25</mn></msqrt></mfrac></math>&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msqrt><msubsup><mi>A</mi><mn>2</mn><mn>2</mn></msubsup><mo>-</mo><mn>25</mn></msqrt><mo>=</mo><mn>3</mn><mo>&#215;</mo><msqrt><mn>75</mn></msqrt></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msubsup><mi>A</mi><mn>2</mn><mn>2</mn></msubsup><mo>=</mo><mn>700</mn></math>&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>A</mi><mn>2</mn></msub><mo>=</mo><msqrt><mn>700</mn></msqrt><mo>&#160;</mo><mi>cm</mi></math></p>",
+    "text": "<blockquote><p>Acceleration of vehicle down the incline will be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mi>g</mi><mi>sin</mi><mi>&#945;</mi></math><br />In the frame of the vehicle, we have to apply pseudo force. The Force diagram is shown in figure.<br />Component of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mi>g</mi></math>&nbsp;along the inclined (i.e. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mi>g</mi><mi>sin</mi><mi>&#945;</mi></math>)&nbsp;will balance the pseudo force. Therefore,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>g</mi><mrow><mi>e</mi><mi>f</mi><mi>f</mi></mrow></msub><mo>=</mo><mi>g</mi><mo>cos</mo><mi>&#945;</mi></math><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img alt=\"\" src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/Question25.png\" style=\"width: 248px; height: 181px;\" /><br /><br />Hence,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mo>=</mo><mn>2</mn><mi>&#960;</mi><msqrt><mfrac><mi>L</mi><msub><mi>g</mi><mrow><mi>e</mi><mi>f</mi><mi>f</mi></mrow></msub></mfrac></msqrt><mo>=</mo><mn>2</mn><mi>&#960;</mi><msqrt><mfrac><mi>L</mi><mrow><mi>g</mi><mo>cos</mo><mi>&#945;</mi></mrow></mfrac></msqrt></math>.</p></blockquote>",
     "image": null
   },
   "videoSolution": null,
   "questionLabels": [],
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "62c481f101514d218a7934db",
+    "_id": "63134c746e7bc9b332483707",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2022-06-29T09:00:00.000Z",
+    "heldOn": "2022-07-29T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2022 (29 Jun Shift 1)",
-    "title": "JEE Main 2022 (29 Jun Shift 1)"
+    "shortName": "2022 (29 Jul Shift 1)",
+    "title": "JEE Main 2022 (29 Jul Shift 1)"
   },
-  "evalStatus": "incorrect",
-  "lastPracticed": "2025-03-02T07:09:53.235Z"
+  "evalStatus": "correct",
+  "lastPracticed": "2025-03-02T06:19:36.888Z"
 }

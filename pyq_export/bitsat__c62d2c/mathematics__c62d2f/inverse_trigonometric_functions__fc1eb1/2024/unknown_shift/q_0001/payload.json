@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7d1ac70535a1fc1eb1",
+    "chapter_name": "Inverse Trigonometric Functions",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\cos \\cot ^{-1}\\left(\\frac{1}{2}\\right)=\\cot \\left(\\cos ^{-1} x\\right)$, then the value of $x$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{\\sqrt{6}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{-1}{\\sqrt{12}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2}{\\sqrt{6}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{-2}{\\sqrt{6}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "We have\n$\\cos \\left(\\cot ^{-1}\\left(\\frac{1}{2}\\right)\\right)=\\cot \\left(\\cos ^{-1} x\\right)$\nLet $\\cot ^{-1}\\left(\\frac{1}{2}\\right)=\\alpha \\Rightarrow \\cot \\alpha=\\frac{1}{2} \\Rightarrow \\cos ^{-1} \\frac{1}{\\sqrt{5}}$\n$\\Rightarrow \\cos \\left(\\cos ^{-1} \\frac{1}{\\sqrt{5}}\\right)=\\cot \\left(\\cot ^{-1} \\frac{x}{\\sqrt{1-x^2}}\\right)$\n$\\Rightarrow \\frac{1}{\\sqrt{5}}=\\frac{x}{\\sqrt{1-x^2}} \\Rightarrow \\sqrt{1-x^2}=\\sqrt{5} x$\nOn squaring both sides, we get,\n$1-x^2=5 x^2 \\Rightarrow 1=6 x^2$\n$\\Rightarrow x= \\pm \\frac{1}{\\sqrt{6}}$\n$\\begin{array}{ll}& x=\\frac{1}{\\sqrt{6}} \\quad \\text { [neglecting - ve sign] }\\end{array}$"
+  }
+}

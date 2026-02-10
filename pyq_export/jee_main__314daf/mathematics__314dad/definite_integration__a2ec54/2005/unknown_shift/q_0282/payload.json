@@ -1,0 +1,43 @@
+{
+  "index": 282,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\mathrm{I}_1=\\int_0^1 2^{x^2} d x, I_2=\\int_0^1 2^{x^3} d x, I_3=\\int_1^2 2^{x^2} d x$ and $I_4=\\int_1^2 2^{x^3} d x$ then"
+  },
+  "options": [
+    {
+      "text": "\n$I_2>I_1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$I_1>I_2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$I_3=I_4$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$I_3>I_4$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& l_1=\\int_0^1 2^{x^2} d x, l_2=\\int_0^1 2^{x^3} d x, I_3=\\int_0^1 2^{x^2} d x, I_4=\\int_0^1 2^{x^3} d x \\\\\n& \\forall 0 < x < 1, x^2>x^3 \\\\\n& \\Rightarrow \\int_0^1 2^{x^2} d x>\\int_0^1 2^{x^3} d x \\\\\n& \\Rightarrow I_1>I_2 .\n\\end{aligned}\n$$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2021",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cccd6ab1da4b641d4",
+    "chapter_name": "Permutation Combination",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "How many numbers lying between 999 and 10000 can be formed with the help of the digits $0,2,3,6,7,8$, when the digits are not repeated?"
+  },
+  "options": [
+    {
+      "text": "100",
+      "is_correct": false
+    },
+    {
+      "text": "200",
+      "is_correct": false
+    },
+    {
+      "text": "300",
+      "is_correct": true
+    },
+    {
+      "text": "400",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "The numbers between 999 and 10000 are all 4-digit numbers. The number of 4 - digit numbers formed by digits $0,2,3,6,7,8$ is ${ }^{6} \\mathrm{P}_{4}=360$. But here those numbers are also involved which begin from 0 . So, we take those numbers as three-digit numbers.\r\n\r\nTaking initial digit 0 , the number of ways to fill remaining 3 places from five digits $2,3,6,7,8$ are ${ }^{5} \\mathrm{P}_{3}=60$\r\n\r\nSo, the required numbers $=360-60=300$."
+  }
+}

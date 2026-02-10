@@ -1,0 +1,43 @@
+{
+  "index": 131,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602525fb63982f7225f1d8",
+    "chapter_name": "Quadratic Equation",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $\\alpha$ and $\\beta$ be the roots of the quadratic equation $x^{2} \\sin \\theta-x(\\sin \\theta \\cos \\theta+1)+\\cos \\theta=0\\left(0  < \\theta < 45^{\\circ}\\right),$ and\r\n\r\n$\\alpha < \\beta .$ Then $\\sum_{n=0}^{\\infty}\\left(\\alpha^{n}+\\frac{(-1)^{n}}{\\beta^{n}}\\right)$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{1-\\cos \\theta}-\\frac{1}{1+\\sin \\theta}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{1+\\cos \\theta}+\\frac{1}{1-\\sin \\theta}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{1-\\cos \\theta}+\\frac{1}{1+\\sin \\theta}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{1+\\cos \\theta}-\\frac{1}{1-\\sin \\theta}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$x^{2} \\sin \\theta-x(\\sin \\theta \\cdot \\cos \\theta+1)+\\cos \\theta=0$.\r\n\r\n$x^{2} \\sin \\theta-x \\sin \\theta \\cdot \\cos \\theta-x+\\cos \\theta=0$\r\n\r\n$x \\sin \\theta(x-\\cos \\theta)-1(x-\\cos \\theta)=0$\r\n\r\n$(x-\\cos \\theta)(x \\sin \\theta-1)=0$\r\n\r\n$\\therefore x=\\cos \\theta, \\operatorname{cosec} \\theta, \\theta \\in\\left(0,45^{\\circ}\\right)$\r\n\r\n$\\therefore \\alpha=\\cos \\theta, \\beta=\\operatorname{cosec} \\theta$\r\n\r\n$\\sum_{n=0}^{\\infty} \\alpha^{n}=1+\\cos \\theta+\\cos ^{2} \\theta+\\ldots \\infty=\\frac{1}{1-\\cos \\theta}$\r\n\r\n$\\sum_{n=0}^{\\infty} \\frac{(-1)^{n}}{\\beta^{n}}=1-\\frac{1}{\\operatorname{cosec} \\theta}+\\frac{1}{\\operatorname{cosec}^{2} \\theta}-\\frac{1}{\\operatorname{cosec}^{3} \\theta}+\\ldots \\infty$\r\n\r\n$=1-\\sin \\theta+\\sin ^{2} \\theta-\\sin ^{3} \\theta+\\ldots \\infty$\r\n\r\n$=\\frac{1}{1+\\sin \\theta}$\r\n\r\n$\\therefore \\quad \\sum_{n=0}^{\\infty}\\left(\\alpha^{n}+\\frac{(-1)^{n}}{\\beta^{n}}\\right)=\\sum_{n=0}^{\\infty} \\alpha^{n}+\\sum_{n=0}^{\\infty} \\frac{(-1)^{n}}{\\beta^{n}}$\r\n\r\n$=\\frac{1}{1-\\cos \\theta}+\\frac{1}{1+\\sin \\theta} .$"
+  }
+}

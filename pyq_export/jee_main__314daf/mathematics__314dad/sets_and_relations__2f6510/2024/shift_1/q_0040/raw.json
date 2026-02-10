@@ -1,0 +1,58 @@
+{
+  "_id": "6682bd46ba0e94a3c4025b9b",
+  "type": "numerical",
+  "level": 1,
+  "questionLabels": [],
+  "question": {
+    "text": "A group of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn></math> students appeared in an examination of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> subjects - Mathematics, Physics &amp; Chemistry. It was found that all students passed in at least one of the subjects, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math> students passed in Mathematics, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn></math> students passed in Physics, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn></math> students passed in Chemistry, at most <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn></math> students passed in both Mathematics and Physics, at most <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math> students passed in both Physics and Chemistry, at most <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math> students passed in both Mathematics and Chemistry. The maximum number of students passed in all the three subjects is _____.",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "10",
+  "solution": {
+    "text": "<p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mfenced><mi>M</mi></mfenced><mo>=</mo><mn>20</mn><mo>,</mo><mo> </mo><mi>n</mi><mfenced><mi>P</mi></mfenced><mo>=</mo><mn>25</mn><mo>,</mo><mo> </mo><mi>n</mi><mfenced><mi>C</mi></mfenced><mo>=</mo><mn>16</mn><mo> </mo></math></p><p>And <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mfenced><mrow><mi>M</mi><mo>∩</mo><mi>P</mi></mrow></mfenced><mo>≤</mo><mn>11</mn><mo>,</mo><mo> </mo><mi>n</mi><mfenced><mrow><mi>M</mi><mo>∩</mo><mi>C</mi></mrow></mfenced><mo>≤</mo><mn>15</mn><mo>,</mo><mo> </mo><mi>n</mi><mfenced><mrow><mi>P</mi><mo>∩</mo><mi>C</mi></mrow></mfenced><mo>≤</mo><mn>15</mn></math></p><p>Now, plotting the diagram and taking all three subjects passed as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> we get,</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/6de45cb4-9596-4341-b449-0753a245b586.png\" style=\"width: 300px; height: 312px;\"/></p><p>Now, for maximum let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo> </mo><mo>=</mo><mn>11</mn></math>.</p><p>So, the venn diagram will be,</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/f2b2d174-6a46-49ae-9182-8e7279d373a4.png\" style=\"width: 300px; height: 303px;\"/></p><p>Now, using the given conditions we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mo>+</mo><mi>z</mi><mo>≤</mo><mn>15</mn><mo>⇒</mo><mi>z</mi><mo>≤</mo><mn>4</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mo>+</mo><mi>y</mi><mo>≤</mo><mn>15</mn><mo>⇒</mo><mi>y</mi><mo>≤</mo><mn>4</mn></math></p><p>Now finding the sum of all we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>-</mo><mi>z</mi><mo>+</mo><mn>0</mn><mo>+</mo><mn>14</mn><mo>-</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>+</mo><mn>11</mn><mo>+</mo><mi>y</mi><mo>+</mo><mn>5</mn><mo>-</mo><mi>y</mi><mo>-</mo><mi>z</mi><mo>=</mo><mn>40</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mo>-</mo><mn>1</mn></math> which is not possible hence the value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>11</mn></math> is not possible,</p><p>Now taking the maximum value as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>10</mn></math>,</p><p>We get, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mi>z</mi><mo>≤</mo><mn>15</mn><mo>⇒</mo><mi>z</mi><mo>≤</mo><mn>5</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mi>y</mi><mo>≤</mo><mn>15</mn><mo>⇒</mo><mi>y</mi><mo>≤</mo><mn>5</mn></math></p><p>Plotting the venn diagram we get,</p><p><img alt=\"\" src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/1ebec8e6-c021-458c-ac36-c7ba66c08ba5.png\" style=\"width: 300px; height: 303px;\"/></p><p>Now, finding the sum we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>-</mo><mi>z</mi><mo>+</mo><mn>0</mn><mo>+</mo><mn>15</mn><mo>-</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>+</mo><mn>10</mn><mo>+</mo><mi>y</mi><mo>+</mo><mn>6</mn><mo>-</mo><mi>y</mi><mo>-</mo><mi>z</mi><mo>=</mo><mn>40</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>1</mn></math> which is possible,</p><p>Hence, possible venn diagram will be,</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/ec2db6de-8117-44b5-aecd-04014dc56b80.png\" style=\"width: 300px; height: 303px;\"/></p><p>Hence, the maximum number of students passed in all the three subjects is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math>.</p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "cf54c9e169ff40f3b73a29341f2a659d",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/E4veMDKhCvRX1.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/E4veMDKhCvRX1.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYearPapers": [
+    {
+      "_id": "65c4c0c11d30997d3436bb02",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-01-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (30 Jan Shift 1)",
+      "title": "JEE Main 2024 (30 Jan Shift 1)"
+    }
+  ],
+  "previousYear": {
+    "_id": "65c4c0c11d30997d3436bb02",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-01-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (30 Jan Shift 1)",
+    "title": "JEE Main 2024 (30 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

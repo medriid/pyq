@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cf95e51f1c16e1555",
+    "chapter_name": "Mathematical Induction",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathrm{T}(k)$ be the statement $1+3+5+\\ldots+$ $(2 k-1)=k^{2}+10$\r\nWhich of the following is correct?"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{T}(1)$ is true",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{T}(k)$ is true $\\Rightarrow \\mathrm{T}(k+1)$ is true",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{T}(n)$ is true for all $n \\in \\mathbf{N}$",
+      "is_correct": false
+    },
+    {
+      "text": "All above are correct",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "When $\\mathrm{k}=1, \\mathrm{LHS}=1$ but $\\mathrm{RHS}=1+10=11$\r\n$\\therefore \\mathrm{T}(1)$ is not true Let $\\mathrm{T}(k)$ is true. That is\r\n$\\begin{array}{l}\r\n1+3+5+\\ldots .+(2 k-1)=k^{2}+10 \\\\\r\n\\text { Now, } 1+3+5+\\ldots . .+(2 k-1)+(2 k+1) \\\\\r\n=k^{2}+10+2 k+1=(k+1)^{2}+10\r\n\\end{array}$\r\n$\\therefore \\mathrm{T}(k+1)$ is true.\r\nThat is $\\mathrm{T}(k)$ is true $\\Rightarrow \\mathrm{T}(k+1)$ is true.\r\nBut $\\mathrm{T}(n)$ is not true for all $n \\in \\mathbf{N},$ as $\\mathrm{T}(1)$ is not true."
+  }
+}

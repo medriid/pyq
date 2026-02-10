@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2013",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83e6f6052b2388bfed",
+    "chapter_name": "Definite Integration",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Elvaluate $\\int_{0}^{\\pi / 2} \\frac{\\sin x}{1+\\cos ^{2} x} d x$"
+  },
+  "options": [
+    {
+      "text": "$\\pi / 2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\pi / 4$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\pi / 3$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\pi$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $\\mathrm{I}=\\int_{0}^{\\pi / 2} \\frac{\\sin \\mathrm{x}}{1+\\cos ^{2} \\mathrm{x}} \\mathrm{dx}$\r\n\r\nLet $\\cos \\mathrm{x}=\\mathrm{t}$ and $-\\sin \\mathrm{x} \\mathrm{d} \\mathrm{x}=\\mathrm{dt}$\r\n\r\nNow, $\\mathrm{x}=0 \\Rightarrow \\mathrm{t}=\\cos 0=1$ and\r\n\r\n$\\mathrm{x}=\\frac{\\pi}{2} \\Rightarrow \\mathrm{t}=\\cos \\frac{\\pi}{2}=0$\r\n\r\n$\\therefore \\quad \\mathrm{I}=\\int_{1}^{0} \\frac{\\sin \\mathrm{x}}{1+\\mathrm{t}^{2}}\\left(\\frac{-\\mathrm{dt}}{\\sin \\mathrm{x}}\\right)=-\\int_{1}^{0} \\frac{\\mathrm{dt}}{1+\\mathrm{t}^{2}}$\r\n\r\n$=\\left[\\tan ^{-1} \\mathrm{t}\\right]_{1}^{0}=-\\left[0-\\frac{\\pi}{4}\\right]=\\frac{\\pi}{4}$"
+  }
+}

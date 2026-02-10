@@ -1,0 +1,43 @@
+{
+  "index": 190,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2013 (09 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The matrix $A^2+4 A-5 I$, where $I$ is identity matrix and $A=\\left[\\begin{array}{cc}1 & 2 \\\\ 4 & -3\\end{array}\\right]$, equals :"
+  },
+  "options": [
+    {
+      "text": "\n$4\\left[\\begin{array}{ll}2 & 1 \\\\ 2 & 0\\end{array}\\right]$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$4\\left[\\begin{array}{cc}0 & -1 \\\\ 2 & 2\\end{array}\\right]$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$32\\left[\\begin{array}{ll}2 & 1 \\\\ 2 & 0\\end{array}\\right]$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$32\\left[\\begin{array}{ll}1 & 1 \\\\ 1 & 0\\end{array}\\right]$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{A}^2+4 \\mathrm{~A}-5 \\mathrm{I}=\\mathrm{A} \\times \\mathrm{A}+4 \\mathrm{~A}-5 \\mathrm{I} \\\\ = & {\\left[\\begin{array}{cc}1 & 2 \\\\ 4 & -3\\end{array}\\right] \\times\\left[\\begin{array}{cc}1 & 2 \\\\ 4 & -3\\end{array}\\right]+4\\left[\\begin{array}{cc}1 & 2 \\\\ 4 & -3\\end{array}\\right]-5\\left[\\begin{array}{ll}1 & 0 \\\\ 0 & 1\\end{array}\\right] } \\\\ & =\\left[\\begin{array}{cc}9 & -4 \\\\ -8 & 17\\end{array}\\right]+\\left[\\begin{array}{cc}4 & 8 \\\\ 16 & -12\\end{array}\\right]-\\left[\\begin{array}{cc}5 & 0 \\\\ 0 & 5\\end{array}\\right] \\\\ & =\\left[\\begin{array}{cc}9+4-5 & -4+8-0 \\\\ -8+16-0 & 17-12-5\\end{array}\\right]=\\left[\\begin{array}{ll}8 & 4 \\\\ 8 & 0\\end{array}\\right] \\\\ & =4\\left[\\begin{array}{ll}2 & 1 \\\\ 2 & 0\\end{array}\\right]\\end{aligned}$"
+  }
+}

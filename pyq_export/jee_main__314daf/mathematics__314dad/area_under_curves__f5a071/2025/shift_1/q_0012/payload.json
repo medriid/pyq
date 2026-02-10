@@ -1,8 +1,8 @@
 {
   "index": 12,
   "type": "singleCorrect",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2025 (24 Jan Shift 1)",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Consider the region $R=\\left\\{(x, y): x \\leq y \\leq 9-\\frac{11}{3} x^2, x \\geq 0\\right\\}$.\nThe area, of the largest rectangle of sides parallel to the coordinate axes and inscribed in R , is:"
+    "text": "If the area of the region bounded by the curves \\(y=4-\\frac{x^2}{4}\\) and \\(y=\\frac{x-4}{2}\\) is equal to \\(\\alpha\\), then \\(6 \\alpha\\) equals"
   },
   "options": [
     {
-      "text": "$\\frac{730}{119}$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{625}{111}$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{821}{123}$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{567}{121}$",
+      "text": "250",
       "is_correct": true
+    },
+    {
+      "text": "210",
+      "is_correct": false
+    },
+    {
+      "text": "240",
+      "is_correct": false
+    },
+    {
+      "text": "220",
+      "is_correct": false
     }
   ],
   "correct_answer": [
-    "D"
+    "A"
   ],
   "solution": {
-    "text": "$\\mathrm{t} .\\left(9-\\frac{11 \\mathrm{t}^2}{3}-\\mathrm{t}\\right)$\n\n<img src=\"assets\\st0012_a47c7eeee6d9.png\"><br>\n\n\n\n$\\begin{aligned} & \\mathrm{A}=9 \\mathrm{t}-\\mathrm{t}^2-\\frac{11}{3} \\mathrm{t}^3 \\\\ & \\frac{\\mathrm{dA}}{\\mathrm{dt}}=9-2 \\mathrm{t}-11 \\mathrm{t}^2 \\\\ & \\Rightarrow 11 \\mathrm{t}^2+2 \\mathrm{t}-9=0 \\\\ & 11 \\mathrm{t}^2+11 \\mathrm{t}-9 \\mathrm{t}-9=0 \\\\ & \\mathrm{t}=-1 \\& \\mathrm{t}=\\frac{9}{11}\\end{aligned}$<img src=\"assets\\st0012_bd67c3b93ffa.png\"><br>\n\n$\\begin{aligned} & \\therefore \\text { largest area }=\\frac{9}{11}\\left(9-\\frac{11}{3}, \\frac{81}{121}-\\frac{9}{11}\\right) \\\\ & =\\frac{9}{11} \\cdot \\frac{63}{11}=\\frac{567}{121}\\end{aligned}$"
+    "text": "<img src=\"assets\\st0012_6ee5b446e804.png\"/><br/>$\\begin{aligned} & \\text { Area }=\\int_{-6}^4\\left\\{\\left(4-\\frac{x^2}{4}\\right)-\\left(\\frac{x-4}{2}\\right)\\right\\} d x \\\\ & =\\int_{-6}^4\\left\\{-\\frac{x^2}{4}-\\frac{x-6}{2}\\right\\} d x \\\\ & \\alpha=-\\frac{x^3}{12}-\\frac{x^2}{4}+\\left.6 x\\right|_{-6} ^4=\\frac{125}{3} \\\\ & \\therefore 6 \\alpha=250\\end{aligned}$"
   }
 }

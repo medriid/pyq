@@ -1,0 +1,43 @@
+{
+  "index": 25,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (31 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "<p>Consider the function <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>:</mo><mfenced><mrow><mn>0</mn><mo>,</mo><mi>∞</mi></mrow></mfenced><mo>→</mo><mi>R</mi></math> defined by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><msup><mi>e</mi><mrow><mo>−</mo><mfenced close=\"|\" open=\"|\"><mrow><msub><mi>log</mi><mi>e</mi></msub><mi>x</mi></mrow></mfenced></mrow></msup></math>. If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> be respectively the number of points at which <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> is not continuous and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> is not differentiable, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>+</mo><mi>n</mi></math> is</p>"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>We know that, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"|\" open=\"|\"><mrow><mi>log</mi><mi>x</mi></mrow></mfenced></math> is continuous in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>0</mn><mo>,</mo><mo>∞</mo></mrow></mfenced></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>log</mi><mfenced close=\"|\" open=\"|\"><mi>x</mi></mfenced></mrow></msup></math> is continuous in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>0</mn><mo>,</mo><mo>∞</mo></mrow></mfenced></math></p><p>Thus, the number of points where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math> is discontinuous is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>m</mi><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable columnalign=\"left left\"><mtr><mtd><msup><mi>e</mi><mrow><mi>log</mi><mi>x</mi></mrow></msup><mo>,</mo></mtd><mtd><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn></mtd></mtr><mtr><mtd><msup><mi>e</mi><mrow><mo>-</mo><mi>log</mi><mi>x</mi></mrow></msup><mo>,</mo></mtd><mtd><mi>x</mi><mo>≥</mo><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable columnalign=\"left left\"><mtr><mtd><mi>x</mi><mo>,</mo></mtd><mtd><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn></mtd></mtr><mtr><mtd><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>,</mo></mtd><mtd><mi>x</mi><mo>≥</mo><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable columnalign=\"left left\"><mtr><mtd><mn>1</mn><mo>,</mo></mtd><mtd><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn></mtd></mtr><mtr><mtd><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>,</mo></mtd><mtd><mi>x</mi><mo>≥</mo><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced><msup><mn>1</mn><mo>-</mo></msup></mfenced><mo>=</mo><mn>1</mn><mo> </mo><mo>&amp;</mo><mo> </mo><msup><mi>f</mi><mo>'</mo></msup><mfenced><msup><mn>1</mn><mo>+</mo></msup></mfenced><mo>=</mo><mo>-</mo><mn>1</mn></math></p><p>So, the number of points where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math> is non-differentiable is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>n</mi><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>m</mi><mo>+</mo><mi>n</mi><mo>=</mo><mn>1</mn></math></p>"
+  }
+}

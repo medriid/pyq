@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2018",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd789dc466ce4f96734c",
+    "chapter_name": "Limits",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>,&nbsp;so that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac><mfenced><mrow><msup><mi>e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup><mo>-</mo><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><mi>x</mi></mrow></mfenced><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math>,&nbsp;is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>We have,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac><mfenced><mrow><msup><mi>e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup><mo>-</mo><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><mi>x</mi></mrow></mfenced><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfenced><mfrac><mrow><mi>a</mi><msup><mi>e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup><mo>-</mo><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><mn>1</mn></mrow><mrow><mn>2</mn><mi>x</mi></mrow></mfrac></mfenced><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math>&nbsp;(using <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math>&#39;Hospital rule to the left hand side)</p><p>As&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&#8594;</mo><mn>0</mn></math>, the denominator is&nbsp;zero&nbsp;and&nbsp;as the value of the limit is finite so, numerator must be zero for&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&#8594;</mo><mn>0</mn></math>.</p><p>Hence,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>-</mo><mn>1</mn><mo>-</mo><mn>1</mn><mo>=</mo><mn>0</mn><mo>&#8658;</mo><mi>a</mi><mo>=</mo><mn>2</mn></math>.</p>"
+  }
+}

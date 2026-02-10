@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $f(x)=\\int x^3 \\sqrt{3-x^2} d x$. If $5 f(\\sqrt{2})=-4$, then $f(1)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$-\\frac{2 \\sqrt{2}}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{8 \\sqrt{2}}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{4 \\sqrt{2}}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{6 \\sqrt{2}}{5}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\text { Let } 3-x^2=t^2 \\\\ & +x d x=-t d t \\\\ & f(x)=\\int\\left(3-t^2\\right) \\cdot t(-t d t)+c \\\\ & =\\int\\left(\\mathrm{t}^4-3 \\mathrm{t}^2\\right) \\mathrm{dt}+\\mathrm{c} \\\\ & =\\frac{\\mathrm{t}^5}{5}-\\mathrm{t}^3+\\mathrm{c} \\\\ & \\mathrm{f}(\\mathrm{x})=\\frac{\\left(3-\\mathrm{x}^2\\right)^{5 / 2}}{5}-\\left(3-\\mathrm{x}^2\\right)^{3 / 2}+\\mathrm{c} \\\\ & \\mathrm{f}(\\sqrt{2})=\\frac{1}{5}-1+\\mathrm{c}=-\\frac{4}{5}\\end{aligned}$<br/>$\\begin{aligned} & \\mathrm{c}=0 \\\\ & \\mathrm{f}(1)=\\frac{2^{5 / 2}}{5}-2^{3 / 2} \\\\ & =2^{1 / 2}\\left(\\frac{4}{5}-2\\right) \\\\ & \\mathrm{f}(1)-\\frac{-6 \\sqrt{2}}{5}\\end{aligned}$"
+  }
+}

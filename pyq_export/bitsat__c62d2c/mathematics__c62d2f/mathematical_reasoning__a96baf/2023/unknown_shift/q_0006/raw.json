@@ -1,0 +1,63 @@
+{
+  "_id": "65b7b87f97ae24e9e2db8cf2",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "65b7b85fb3be70ed63adbe85",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2023-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Memory Based Paper 2)",
+      "title": "BITSAT 2023 (Memory Based Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "The negation of the Boolean expression $((\\sim q)$ $\\wedge p) \\Rightarrow((\\sim p) \\vee q)$ is logically equivalent to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "p96Yz",
+      "text": "$p \\Rightarrow q$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ECx8g",
+      "text": "$q \\Rightarrow p$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "x2DsK",
+      "text": "$\\sim(p \\Rightarrow q)$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "7GsSq",
+      "text": "$\\sim(q \\Rightarrow p)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given boolen expression are<br />$\\begin{aligned}<br />& \\sim p \\vee q \\equiv p \\rightarrow q \\text { and } \\sim q \\wedge p \\equiv \\sim(p \\rightarrow q) \\\\<br />& \\text { Negation of } \\sim(p \\rightarrow q) \\rightarrow(p \\rightarrow q) \\\\<br />& \\text { is } \\sim(p \\rightarrow q) \\wedge(\\sim(p \\rightarrow q)) \\text { i.e., } \\sim(p \\rightarrow q)<br />\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "65b7b85fb3be70ed63adbe85",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2023-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Memory Based Paper 2)",
+    "title": "BITSAT 2023 (Memory Based Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

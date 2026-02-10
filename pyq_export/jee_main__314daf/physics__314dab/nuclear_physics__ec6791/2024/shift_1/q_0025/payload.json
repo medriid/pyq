@@ -1,8 +1,8 @@
 {
   "index": 25,
-  "type": "numerical",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2024 (27 Jan Shift 1)",
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "In a nuclear fission process, a high mass nuclide <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>A</mi><mo>≈</mo><mn>236</mn><mo>)</mo></math> with binding energy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>.</mo><mn>6</mn><mo> </mo><mi>MeV</mi><mo>/</mo></math>Nucleon dissociated into two middle mass nuclides <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi mathvariant=\"normal\">A</mi><mo>≈</mo><mn>118</mn><mo>)</mo></math>, having binding energy of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>.</mo><mn>6</mn><mo> </mo><mi>MeV</mi><mo>/</mo></math>Nucleon. The energy released in the process would be _______ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MeV</mi></math>."
+    "text": "Which of the following nuclear fragments corresponding to nuclear fission between neutron $\\left({ }_0^1 \\mathrm{n}\\right)$ and uranium isotope $\\left({ }_{92}^{235} \\mathrm{U}\\right)$ is correct :"
   },
-  "options": [],
-  "correct_answer": "236",
+  "options": [
+    {
+      "text": "${ }_{56}^{144} \\mathrm{Ba}+{ }_{36}^{89} \\mathrm{Kr}+4{ }_0^1 \\mathrm{n}$",
+      "is_correct": false
+    },
+    {
+      "text": "${ }_{56}^{144} \\mathrm{Ba}+{ }_{36}^{89} \\mathrm{Kr}+3{ }_0^1 \\mathrm{n}$",
+      "is_correct": true
+    },
+    {
+      "text": "${ }_{56}^{140} \\mathrm{Xe}+{ }_{38}^{94} \\mathrm{Sr}+3{ }_0^1 \\mathrm{n}$",
+      "is_correct": false
+    },
+    {
+      "text": "${ }_{51}^{153} \\mathrm{Sb}+{ }_{41}^{99} \\mathrm{Nb}+3{ }_0^1 \\mathrm{n}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
   "solution": {
-    "text": "<p>The formula to calculate the energy released in the given process can be written as</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi><mo>=</mo><mi>B</mi><msub><mi>E</mi><mtext>Product </mtext></msub><mo>-</mo><mi>B</mi><msub><mi>E</mi><mtext>Reactant </mtext></msub><mo> </mo><mo> </mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mn>1</mn></mfenced></math></p><p>From equation (1), it follows that</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnalign=\"right center left\" columnspacing=\"0px\"><mtr><mtd><mi>Q</mi></mtd><mtd><mo>=</mo></mtd><mtd><mn>2</mn><mo>(</mo><mn>118</mn><mo>)</mo><mo>(</mo><mn>8</mn><mo>.</mo><mn>6</mn><mo>)</mo><mo>-</mo><mn>236</mn><mo>(</mo><mn>7</mn><mo>.</mo><mn>6</mn><mo>)</mo><mo> </mo><mi>MeV</mi></mtd></mtr><mtr><mtd></mtd><mtd><mo>=</mo></mtd><mtd><mn>236</mn><mo> </mo><mi>MeV</mi></mtd></mtr></mtable></math></p>"
+    "text": "Balancing mass number and atomic number\n${ }_{92}^{235} \\mathrm{U}+{ }_0^1 \\mathrm{n} \\rightarrow{ }_{56}^{144} \\mathrm{Ba}+{ }_{36}^{89} \\mathrm{Kr}+3{ }_0^1 \\mathrm{n}$"
   }
 }

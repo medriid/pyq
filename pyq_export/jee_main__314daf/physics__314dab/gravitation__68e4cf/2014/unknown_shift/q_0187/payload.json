@@ -1,0 +1,43 @@
+{
+  "index": 187,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2014 (11 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023cfe4a89d96c568e4cf",
+    "chapter_name": "Gravitation",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "From a sphere of mass $M$ and radius $\\mathrm{R}$, a smaller sphere of radius $\\frac{\\mathrm{R}}{2}$ is carved out such that the cavity made in the original sphere is between its centre and the periphery (See figure). For the configuration in the figure where the distance between the centre of the original sphere and the removed sphere is 3R, the gravitational force between the two sphere is:\n<img src=\"assets\\qt0187_962f5b8db54b.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{41 \\mathrm{GM}^2}{3600 \\mathrm{R}^2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{41 \\mathrm{GM}^2}{450 \\mathrm{R}^2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{59 \\mathrm{GM}^2}{450 \\mathrm{R}^2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\mathrm{GM}^2}{225 \\mathrm{R}^2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Volume of removed sphere\n$$\nV_{\\text {remo }}=\\frac{4}{3} \\pi\\left(\\frac{R}{2}\\right)^3=\\frac{4}{3} \\pi R^3\\left(\\frac{1}{8}\\right)\n$$\nVolume of the sphere (remaining)\n$$\n\\begin{aligned}\n&V_{\\text {remain }}=\\frac{4}{3} \\pi R^3-\\frac{4}{3} \\pi R^3\\left(\\frac{1}{8}\\right) \\\\\n&=\\frac{4}{3} \\pi R^3\\left(\\frac{7}{8}\\right)\n\\end{aligned}\n$$\nTherefore mass of sphere carved and remaining sphere are at respectively $\\frac{1}{8} \\mathrm{M}$ and $\\frac{7}{8} \\mathrm{M}$\n\nTherefore, gravitational force between these two sphere,\n$$\nF=\\frac{G \\mathrm{M} m}{r^2}\n$$\n\n$$\n\\begin{aligned}\n&=\\frac{G \\frac{7 M}{8} \\times \\frac{1}{8} M}{(3 R)^2}=\\frac{7}{64 \\times 9} \\frac{G M^2}{R^2} \\\\\n&\\simeq \\frac{41}{3600} \\frac{\\mathrm{GM}^2}{\\mathrm{R}^2}\n\\end{aligned}\n$$"
+  }
+}

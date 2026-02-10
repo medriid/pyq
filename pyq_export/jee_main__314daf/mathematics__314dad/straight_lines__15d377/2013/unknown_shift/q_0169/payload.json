@@ -1,0 +1,43 @@
+{
+  "index": 169,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2013 (23 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602537eaf75bf5a215d377",
+    "chapter_name": "Straight Lines",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If two lines $L_1$ and $L_2$ in space, are defined by\n$$\n\\begin{aligned}\n& L_1=\\{x=\\sqrt{\\lambda} y+(\\sqrt{\\lambda}-1), \\\\\n& \\quad z=(\\sqrt{\\lambda}-1) y+\\sqrt{\\lambda}\\} \\text { and } \\\\\n& L_2=\\{x=\\sqrt{\\mu} y+(1-\\sqrt{\\mu}),\n\\end{aligned}\n$$\n$$\nz=(1-\\sqrt{\\mu}) y+\\sqrt{\\mu}\\}\n$$\nthen $L_1$ is perpendicular to $L_2$, for all nonnegative reals $\\lambda$ and $\\mu$, such that :"
+  },
+  "options": [
+    {
+      "text": "\n$\\sqrt{\\lambda}+\\sqrt{\\mu}=1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\lambda \\neq \\mu$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\lambda+\\mu=0$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\lambda=\\mu$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "For $\\mathrm{L}_1$,\n$$\n\\begin{aligned}\n& x=\\sqrt{\\lambda} y+(\\sqrt{\\lambda}-1) \\Rightarrow y=\\frac{x-(\\sqrt{\\lambda}-1)}{\\sqrt{\\lambda}} \\\\\n& z=(\\sqrt{\\lambda}-1) y+\\sqrt{\\lambda} \\Rightarrow y=\\frac{z-\\sqrt{\\lambda}}{\\sqrt{\\lambda}-1}\n\\end{aligned}\n$$\nFrom (i) and (ii)\n$$\n\\frac{x-(\\sqrt{\\lambda}-1)}{\\sqrt{\\lambda}}=\\frac{y-0}{1}=\\frac{z-\\sqrt{\\lambda}}{\\sqrt{\\lambda}-1}\n$$\nThe equation (A) is the equation of line $\\mathrm{L}_1$. Similarly equation of line $\\mathrm{L}_2$ is\n$$\n\\frac{x-(1-\\sqrt{\\mu})}{\\sqrt{\\mu}}=\\frac{y-0}{1}=\\frac{z-\\sqrt{\\mu}}{1-\\sqrt{\\mu}}\n$$\nSince $\\mathrm{L}_1 \\perp \\mathrm{L}_2$, therefore\n$$\n\\begin{aligned}\n& \\sqrt{\\lambda} \\sqrt{\\mu}+1 \\times 1+(\\sqrt{\\lambda}-1)(1-\\sqrt{\\mu})=0 \\\\\n& \\Rightarrow \\sqrt{\\lambda}+\\sqrt{\\mu}=0 \\Rightarrow \\sqrt{\\lambda}=-\\sqrt{\\mu} \\\\\n& \\Rightarrow \\lambda=\\mu\n\\end{aligned}\n$$"
+  }
+}

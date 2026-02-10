@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "64c0e77e6f5bfc7ab78ae554",
+    "chapter_name": "Heights and Distances",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\alpha$ be the solution of $16^{\\sin ^2 \\theta}+16^{\\cos ^2 \\theta}=10$ in $\\left(0, \\frac{\\pi}{4}\\right)$. If the shadow of a vertical pole is $\\frac{1}{\\sqrt{3}}$ of its height, then the altitude of the sun is"
+  },
+  "options": [
+    {
+      "text": "\r\n$\\alpha$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$\\frac{\\alpha}{2}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$2 \\alpha$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n$\\frac{\\alpha}{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have,\r\n$16^{\\sin ^2 \\theta}+16^{\\cos ^2 \\theta}=10$\r\n$\\Rightarrow \\quad 16^{\\sin ^2 \\theta}+16^{1-\\sin ^2 \\theta}=10$\r\n$\\Rightarrow x+\\frac{16}{x}=10$, where $x=16^{\\sin ^2 \\theta}$\r\n$\\Rightarrow \\quad x^2-10 x+16=0 \\Rightarrow x=2,8$\r\n$\\therefore \\quad 16^{\\sin ^2 \\theta}=2,8 \\Rightarrow 2^{4 \\sin ^2 \\theta}=2,2^3$\r\n$\\Rightarrow \\quad 4 \\sin ^2 \\theta=1,3 \\Rightarrow \\sin ^2 \\theta=\\frac{1}{4},\\left(\\frac{\\sqrt{3}}{2}\\right)^2$\r\n$\\Rightarrow \\quad \\sin \\theta=\\frac{1}{2}, \\frac{\\sqrt{3}}{2} \\Rightarrow \\theta=\\frac{\\pi}{6}, \\frac{\\pi}{3}$\r\n<img src=\"assets\\st0003_134ece0d4643.png\"><br>\r\nLet the altitude of the sun be $\\theta$. Then,\r\n$$\r\n\\begin{aligned}\r\n& & \\tan \\theta & =\\frac{h}{h / \\sqrt{3}} \\Rightarrow \\tan \\theta=\\sqrt{3} \\\\\r\n\\Rightarrow \\quad & & \\theta & =\\pi / 3 \\Rightarrow \\theta=2 \\alpha\r\n\\end{aligned}\r\n$$"
+  }
+}

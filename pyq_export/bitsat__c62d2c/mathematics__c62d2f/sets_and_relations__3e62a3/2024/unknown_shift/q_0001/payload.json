@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7de14c41a6083e62a3",
+    "chapter_name": "Sets and Relations",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $R$ be the relation \"is congruent to\" on the set of all triangles in a plane is"
+  },
+  "options": [
+    {
+      "text": "Reflexive only",
+      "is_correct": false
+    },
+    {
+      "text": "Symmetric only",
+      "is_correct": false
+    },
+    {
+      "text": "Symmetric and reflexive only",
+      "is_correct": false
+    },
+    {
+      "text": "Equivalence relation",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $S$ denote the set of all triangles in a plane.\nLet $R$ be the relation on $S$ defined by $\\left(\\Delta_1, \\Delta_2\\right) \\in$ $R$\n$\\Rightarrow$ triangle $\\Delta_1 \\cong \\Delta_2$ :\n(i) Let any triangle $\\Delta \\in S$, we have\n$\\Delta_1 \\cong \\Delta_2 \\Rightarrow(\\Delta, \\Delta) \\in R \\forall \\Delta \\in S \\Rightarrow R$ is reflexive on\n(ii) Let $\\Delta_1, \\Delta_2 \\in \\mathrm{~S}$, such that $\\left(\\Delta_1, \\Delta_2\\right) \\in R$, then $\\Delta_1 \\cong \\Delta_2 \\Rightarrow \\Delta_2 \\cong \\Delta_1 \\Rightarrow\\left(\\Delta_2, \\Delta_1\\right) \\in R \\Rightarrow R$ is symmÄ™tric\n(iii) Again, let $\\Delta_1, \\Delta_2, \\Delta_3 \\in \\mathrm{~S}$ such that $\\left(\\Delta_1, \\Delta_2\\right)$ $\\in R$ and\n$\\left(\\Delta_2, \\Delta_3\\right) \\in R \\therefore \\Delta_1 \\cong \\Delta_2 \\cong \\Delta_3$\n$\\therefore\\left(\\Delta_1, \\Delta_2\\right) \\in R$\n$\\Rightarrow R$ is transitive.\n$\\therefore \\mathrm{R}$ is an equivalence relation."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2010",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd837f780b3c67d85974",
+    "chapter_name": "Area Under Curves",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If \\(\\mathrm{I}_{\\mathrm{m}}=\\int_1^{\\mathrm{e}}(\\ln \\mathrm{x})^{\\mathrm{m}} \\mathrm{dx}\\), where \\(\\mathrm{m} \\in \\mathrm{N}\\), then \\(I_{10}+10 I_9\\) is equal to -"
+  },
+  "options": [
+    {
+      "text": "\\(\\mathrm{e}^{10}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{\\mathrm{e}^{10}}{10}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\mathrm{e}\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(\\mathrm{e}-1\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\mathrm{I}_{10}=\\int_1^{\\mathrm{e}} 1 \\cdot(\\ln \\mathrm{x})^{10} \\mathrm{dx}=\\left[(\\ln \\mathrm{x})^{10} \\mathrm{x}\\right]_1^{\\mathrm{e}} \\\\\n& -\\int_1^{\\mathrm{e}} 10(\\ln \\mathrm{x})^9 \\cdot \\frac{1}{\\mathrm{x}} \\cdot \\mathrm{xdx}=\\mathrm{e}-0-10 \\int_1^{\\mathrm{e}}(\\ln \\mathrm{x})^9 \\mathrm{dx} \\\\\n& =\\mathrm{e}-10 \\mathrm{I}_9+10 \\mathrm{I}_9=\\mathrm{e}\n\\end{aligned}\\)"
+  }
+}

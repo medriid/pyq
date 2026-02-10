@@ -1,0 +1,43 @@
+{
+  "index": 239,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The value of integral $\\int_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}} \\frac{x}{1+\\sin x} d x$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{\\pi}{2}(\\sqrt{2}+1)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\pi(\\sqrt{2}-1)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2 \\pi(\\sqrt{2}-1)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\pi \\sqrt{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $I=\\int_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}} \\frac{x}{1+\\sin x} d x$ also let $K=\\frac{x}{1+\\sin x}$\nMultiplying numerator and denominator by $(1-\\sin x)$, we get;\n$$\n\\begin{aligned}\nK &=\\frac{x(1-\\sin x)}{1-(\\sin x)^2}=\\frac{x(1-\\sin x)}{(\\cos x)^2} \\\\\n&=x(1-\\sin x) \\sec ^2 x \\\\\n&=x \\sec ^2 x-x \\sin x \\sec ^2 x=x \\sec ^2 x-x \\tan \\\\\nx & \\sec x\n\\end{aligned}\n$$\nNow, $I=\\int_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}} x \\sec ^2 x d x-\\int_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}} x \\sec x \\tan x d x$\n$$\n=\\left[x \\tan x-\\int \\frac{d x}{d x} \\tan x d x\\right]_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}}-\\left[x \\sec x-\\int \\frac{d x}{d x} \\sec x d x\\right]_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}}\n$$\n\n$$\n\\begin{aligned}\n&=[x \\tan x-\\ln |\\sec x|]_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}} \\\\\n&-[x \\sec x-\\ln |\\sec x+\\tan x|]_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}}+c \\\\\n&\\Rightarrow I=\\left\\{\\left[\\frac{3 \\pi}{4} \\tan \\frac{3 \\pi}{4}-\\ln \\left|\\frac{3 \\pi}{4}\\right|\\right.\\right. \\\\\n&\\left.-\\left[\\frac{3 \\pi}{4} \\sec \\frac{3 \\pi}{4}-\\ln \\left|\\sec \\frac{3 \\pi}{4}+\\tan \\frac{3 \\pi}{4}\\right|\\right]\\right\\} \\\\\n&-\\left\\{\\left[\\frac{\\pi}{4} \\tan \\frac{\\pi}{4}-\\ln \\left|\\frac{\\pi}{4}\\right|\\right.\\right. \\\\\n&\\left.-\\left[\\frac{\\pi}{4} \\sec \\frac{\\pi}{4}-\\ln \\left|\\sec \\frac{\\pi}{4}+\\tan \\frac{\\pi}{4}\\right|\\right]\\right\\} \\\\\n&=\\frac{\\pi}{2}(\\sqrt{2}+1)\n\\end{aligned}\n$$"
+  }
+}

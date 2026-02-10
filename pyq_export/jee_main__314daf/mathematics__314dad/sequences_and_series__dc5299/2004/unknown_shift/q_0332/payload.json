@@ -1,0 +1,43 @@
+{
+  "index": 332,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2004",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2004",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The sum of the first $n$ terms of the series $1^2+2 \\cdot 2^2+3^2+2 \\cdot 4^2+5^2+2 \\cdot 6^2+\\ldots$ is $\\frac{n(n+1)^2}{2}$ when $n$ is even. When $n$ is odd the sum is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{3 n(n+1)}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\mathrm{n}^2(\\mathrm{n}+1)}{2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{n(n+1)^2}{4}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left[\\frac{\\mathrm{n}(\\mathrm{n}+1)}{2}\\right]^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "If $n$ is odd then $(n-1)$ is even $\\Rightarrow$ sum of odd terms $=\\frac{(n-1) n^2}{2}+n^2=\\frac{n^2(n+1)}{2}$."
+  }
+}

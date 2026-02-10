@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e8356f5bfc7ab78aeb86",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44d",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2022-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022",
+      "title": "BITSAT 2022"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "For each parabola $y=x^2+p x+q$, meeting coordinate axes at 3-distinct points, if circles are drawn through these points, then the family of circles must pass through",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "kStDG",
+      "text": "\r\n$(1,0)$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "WVLoY",
+      "text": "\r\n$(0,1)$\r\n",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "czxNU",
+      "text": "\r\n$(1,1)$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Gz9I6",
+      "text": "\r\n$(p, q)$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Suppose the parabola $y=x^2+p x+q$ cuts $X$-axis at $A(\\alpha, 0)$ and $B(\\beta, 0)$.\r\nThen, $\\alpha, \\beta$ are roots of the equation $x^2+p x+q=0$\r\n$$\r\n\\therefore \\quad \\alpha+\\beta=-p \\text { and } \\alpha \\beta=q\r\n$$\r\nThe parabola $y=x^2+p x+q$ cuts $Y$-axis at $(0, q)$.\r\nLet the equation of the circle passing through $A, B$ and $C$ be\r\n$$\r\n\\begin{aligned}\r\n& x^2+y^2+2 g x+2 f y+c  =0 &...(i)\\\\\r\n\\therefore & \\alpha^2+2 g \\alpha+c  =0 &...(ii)\\\\\r\n& \\beta^2+2 g \\beta+c  =0 &...(iii)\\\\\r\n\\text { and } & q^2+2 f q+c  =0 &...(iv)\r\n\\end{aligned}\r\n$$\r\nSubtracting Eq. (iii) from Eq. (ii), we get\r\n$$\r\n\\begin{array}{rlrl}\r\n\\alpha+\\beta+2 g & =0 \\\\\r\n\\Rightarrow & g = p / 2\r\n\\end{array}\r\n$$\r\nAdding Eqs. (ii) and (iii), we get\r\n$$\r\n\\begin{array}{r}\r\n\\alpha^2+\\beta^2+2 g(\\alpha+\\beta)+2 c=0 \\\\\r\n(\\alpha+\\beta)^2-2 \\alpha \\beta+2 g(\\alpha+\\beta)+2 c=0 \\\\\r\np^2-2 q-p^2+2 c=0\r\n\\end{array}\r\n$$\r\n$$\r\n\\left[\\because \\alpha+\\beta=p \\text { and } g=\\frac{p}{2}\\right]\r\n$$\r\nPutting $c=q$ in Eq. (iv), we get $f=-\\left(\\frac{q+1}{2}\\right)$\r\nSubstituting the values of $g, f$ and $c$ in Eq. (i), we obtain the equation of family of circles passing through $A, B$ and $C$ as\r\n$$\r\nx^2+y^2+p x-(q+1) y+q=0\r\n$$\r\nClearly, it passes through $(0,1)$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44d",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2022-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022",
+    "title": "BITSAT 2022"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

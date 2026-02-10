@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025537539c1075ba01de6",
+    "chapter_name": "Inverse Trigonometric Functions",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $\\alpha\\gt\\beta\\gt\\gamma\\gt0$, then the expression $\\cot ^{-1}\\left\\{\\beta+\\frac{\\left(1+\\beta^2\\right)}{(\\alpha-\\beta)}\\right\\}+\\cot ^{-1}\\left\\{\\gamma+\\frac{\\left(1+\\gamma^2\\right)}{(\\beta-\\gamma)}\\right\\}+\\cot ^{-1}\\left\\{\\alpha+\\frac{\\left(1+\\alpha^2\\right)}{(\\gamma-\\alpha)}\\right\\}$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$\\pi$",
+      "is_correct": true
+    },
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{2}-(\\alpha+\\beta+\\gamma)$",
+      "is_correct": false
+    },
+    {
+      "text": "$3 \\pi$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\Rightarrow \\cot ^{-1}\\left(\\frac{\\alpha \\beta+1}{\\alpha-\\beta}\\right)+\\cot ^{-1}\\left(\\frac{\\beta \\gamma+1}{\\beta-\\gamma}\\right)+\\cot ^{-1}\\left(\\frac{\\alpha \\gamma+1}{\\gamma-\\alpha}\\right) \\\\ & \\Rightarrow \\tan ^{-1}\\left(\\frac{\\alpha-\\beta}{1+\\alpha \\beta}\\right)+\\tan ^{-1}\\left(\\frac{\\beta-\\gamma}{1+\\beta \\gamma}\\right)+\\pi+\\tan ^{-1}\\left(\\frac{\\gamma-\\alpha}{1+\\gamma \\alpha}\\right) \\\\ & \\Rightarrow\\left(\\tan ^{-1} \\alpha-\\tan ^{-1} \\beta\\right)+\\left(\\tan ^{-1} \\beta-\\tan ^{-1} \\gamma\\right)+\\left(\\pi+\\tan ^{-1} \\gamma-\\tan ^{-1} \\alpha\\right) \\\\ & \\Rightarrow \\pi\\end{aligned}$"
+  }
+}

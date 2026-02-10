@@ -1,0 +1,83 @@
+{
+  "_id": "68542c7d7c09d044e4c1a241",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2fe9d87935e0d809788",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-07T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (7 Apr Shift 1)",
+      "title": "JEE Main 2025 (7 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $y=y(x)$ be the solution curve of the differential equation<br/>$x\\left(x^2+e^x\\right) d y+\\left(e^x(x-2) y-x^3\\right) d x=0, x \\gt 0$ passing through the point $(1,0)$. Then $y(2)$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "zymCE",
+      "text": "$\\frac{4}{4-\\mathrm{e}^2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "RuH1u",
+      "text": "$\\frac{2}{2+\\mathrm{e}^2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "vjyxq",
+      "text": "$\\frac{2}{2-\\mathrm{e}^2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "WSZcs",
+      "text": "$\\frac{4}{4+\\mathrm{e}^2}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & x\\left(x^2+e^x\\right) d y+\\left(e^x(x-2) y-x^3\\right) d x=0 \\\\ & x\\left(x^2+e^x\\right) \\frac{d y}{d x}+e^x(x-2) y=x^3 \\\\ & \\frac{d y}{d x}+\\frac{e^x(x-2)}{x\\left(x^2+e^x\\right)} y=\\frac{x^2}{x^2+e^x} \\\\ & \\text { I.F. }=e^{\\int \\frac{e^x(x-2)}{x\\left(x^2+e^x\\right)} d x}=e^{\\int \\frac{e^x\\left(\\frac{1}{x^2}-\\frac{2}{x^2}\\right) d x}{\\left(1+\\frac{e^x}{x^2}\\right)} d x}\\end{aligned}$<br/>Let $1+\\frac{e^x}{x^2}=t \\Rightarrow \\frac{x^2 e^x-e^x 2 x}{x^4} d x=d t$<br/>$\\Rightarrow \\text { I.F. } \\mathrm{e}^{\\ln \\left(1+\\frac{\\mathrm{e}^2}{\\mathrm{x}^2}\\right)}=1+\\frac{\\mathrm{e}^{\\mathrm{x}}}{\\mathrm{x}^2}$<br/>Now $y\\left(1+\\frac{e^x}{x^2}\\right)=\\int \\frac{x^2}{x^2+e^x} \\cdot \\frac{x^2+e^x}{x^2} d x+C$<br/>$y\\left(1+\\frac{e^x}{x^2}\\right)=x+C$<br/>Passing through $(1,0)$<br/>$\\begin{aligned}<br/>& \\Rightarrow C=-1 \\\\\n& y=\\frac{x-1}{1+\\frac{e^x}{x^2}} \\\\\n& y(2)=\\frac{1}{1+\\frac{e^2}{4}}=\\frac{4}{4+e^2}<br/>\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "c1fc1afbed804f8497b87753a43e4f17",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/MZDaSHIfW51O6.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/MZDaSHIfW51O6.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2fe9d87935e0d809788",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-07T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (7 Apr Shift 1)",
+    "title": "JEE Main 2025 (7 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 218,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2009",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In a binomial distribution $B\\left(n, p=\\frac{1}{4}\\right)$, if the probability of at least one success is greater than or equal to $\\frac{9}{10}$, then $n$ is greater than"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{\\log _{10}{ }^4-\\log _{10}{ }^3}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{1}{\\log _{10} 4+\\log _{10} 3}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{9}{\\log _{10}{ }^4-\\log _{10} 3}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{4}{\\log _{10}{ }^4-\\log _{10} 3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n1-q^n \\geq \\frac{9}{10} \\Rightarrow\\left(\\frac{3}{4}\\right)^n \\leq \\frac{1}{10} \\Rightarrow n \\geq-\\log _{\\frac{3}{4}} 10 \\Rightarrow n \\geq \\frac{1}{\\log _{10}{ }^4-\\log _{10}{ }^3}\n$$"
+  }
+}

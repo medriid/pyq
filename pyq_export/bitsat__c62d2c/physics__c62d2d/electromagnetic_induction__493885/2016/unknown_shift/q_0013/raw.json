@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7d76f5bfc7ab78ae84c",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d7a",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2016-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2016",
+      "title": "BITSAT 2016"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "An inductor of inductance $L=400 \\mathrm{mH}$ and resistors of resistance $R_{1}=2 \\Omega$ and $R_{2}=2 \\Omega$ are connected to a battery of emf $12 \\mathrm{~V}$ as shown in the figure. The internal resistance of the battery is negligible. The switch $S$ is closed at $t=0 .$ The potential drop across $L$ as a function of time is\r\n\r\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/bitsat/7X35j8e3bYNhi279A5VMee8ezq0Qbq7rDaH9QG_3jeg.original.fullsize.png\">",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "iSFfx",
+      "text": "$\\frac{12}{t} e^{-3 t} \\mathrm{~V}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "vUU5J",
+      "text": "$6\\left(1-e^{-t / 0.2}\\right) \\mathrm{V}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "UTwPb",
+      "text": "$12 \\mathrm{e}^{-5 t} \\mathrm{~V}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "owcwj",
+      "text": "$6 \\mathrm{e}^{-5 t} \\mathrm{~V}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Growth in current in $L R_{2}$ branch when switch is closed is given by\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\ni=\\frac{E}{R_{2}}\\left[1-e^{-R_{2} t / L}\\right] \\\\\r\n\r\n\\Rightarrow \\frac{d i}{d t}=\\frac{E}{R_{2}} \\cdot \\frac{R_{2}}{L} e^{-R_{2} t / L}=\\frac{E}{L} e^{-\\frac{R_{2} t}{L}}\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nHence, potential drop across $\\mathbf{L}=\\left(\\frac{E}{L} e^{-R_{2} t / L}\\right) L=E e^{-R_{2} t / L}$\r\n\r\n$=12 e^{-\\frac{2 t}{400 \\times 10^{-3}}}=12 \\mathrm{e}^{-5 t} \\mathrm{~V}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d7a",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2016-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2016",
+    "title": "BITSAT 2016"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

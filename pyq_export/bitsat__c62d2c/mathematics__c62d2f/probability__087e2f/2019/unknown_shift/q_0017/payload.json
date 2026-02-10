@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2019",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78b6e5f7d916087e2f",
+    "chapter_name": "Probability",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Cards are drawn one by one at random from a well shuffled pack of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>52</mn></math> cards until <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> aces are obtained for the first time. The probability that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn></math> draws are required for this is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>34</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>17</mn><mn>455</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>561</mn><mn>15925</mn></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn></math> draws are required for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> aces means in the first <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn></math> draws, there is one ace and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn></math> non-ace and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>18</mn><mi>th</mi></msup></math> draw <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi>nd</mi></msup></math> ace.</p><p>Required probability <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mmultiscripts><mi>C</mi><mn>16</mn><none/><mprescripts/><none/><mn>48</mn></mmultiscripts><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none/><mprescripts/><none/><mn>4</mn></mmultiscripts></mrow><mmultiscripts><mi>C</mi><mn>17</mn><none/><mprescripts/><none/><mn>52</mn></mmultiscripts></mfrac><mo>&#215;</mo><mfrac><mn>3</mn><mn>35</mn></mfrac><mo>=</mo><mfrac><mn>561</mn><mn>15925</mn></mfrac></math></p>"
+  }
+}

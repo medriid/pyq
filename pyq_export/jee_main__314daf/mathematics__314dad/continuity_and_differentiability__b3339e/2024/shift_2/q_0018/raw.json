@@ -1,83 +1,38 @@
 {
-  "_id": "6682bd4dba0e94a3c4025bcb",
-  "type": "singleCorrect",
-  "level": 2,
+  "_id": "6644673b970e6e9ab542d16d",
+  "type": "numerical",
+  "level": 3,
   "questionLabels": [],
-  "question": {
-    "text": "<p>Consider the function <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>:</mo><mfenced><mrow><mn>0</mn><mo>,</mo><mi>∞</mi></mrow></mfenced><mo>→</mo><mi>R</mi></math> defined by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><msup><mi>e</mi><mrow><mo>−</mo><mfenced close=\"|\" open=\"|\"><mrow><msub><mi>log</mi><mi>e</mi></msub><mi>x</mi></mrow></mfenced></mrow></msup></math>. If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> be respectively the number of points at which <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> is not continuous and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> is not differentiable, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>+</mo><mi>n</mi></math> is</p>",
-    "image": null
-  },
-  "options": [
-    {
-      "id": "uWbTy",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "XMJQj",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "iJ7kD",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>",
-      "image": null,
-      "isCorrect": true
-    },
-    {
-      "id": "jbfqV",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
-      "image": null,
-      "isCorrect": false
-    }
-  ],
-  "correctValue": null,
-  "solution": {
-    "text": "<p>We know that, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"|\" open=\"|\"><mrow><mi>log</mi><mi>x</mi></mrow></mfenced></math> is continuous in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>0</mn><mo>,</mo><mo>∞</mo></mrow></mfenced></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>log</mi><mfenced close=\"|\" open=\"|\"><mi>x</mi></mfenced></mrow></msup></math> is continuous in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>0</mn><mo>,</mo><mo>∞</mo></mrow></mfenced></math></p><p>Thus, the number of points where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math> is discontinuous is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>m</mi><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable columnalign=\"left left\"><mtr><mtd><msup><mi>e</mi><mrow><mi>log</mi><mi>x</mi></mrow></msup><mo>,</mo></mtd><mtd><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn></mtd></mtr><mtr><mtd><msup><mi>e</mi><mrow><mo>-</mo><mi>log</mi><mi>x</mi></mrow></msup><mo>,</mo></mtd><mtd><mi>x</mi><mo>≥</mo><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable columnalign=\"left left\"><mtr><mtd><mi>x</mi><mo>,</mo></mtd><mtd><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn></mtd></mtr><mtr><mtd><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>,</mo></mtd><mtd><mi>x</mi><mo>≥</mo><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable columnalign=\"left left\"><mtr><mtd><mn>1</mn><mo>,</mo></mtd><mtd><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn></mtd></mtr><mtr><mtd><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>,</mo></mtd><mtd><mi>x</mi><mo>≥</mo><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced><msup><mn>1</mn><mo>-</mo></msup></mfenced><mo>=</mo><mn>1</mn><mo> </mo><mo>&amp;</mo><mo> </mo><msup><mi>f</mi><mo>'</mo></msup><mfenced><msup><mn>1</mn><mo>+</mo></msup></mfenced><mo>=</mo><mo>-</mo><mn>1</mn></math></p><p>So, the number of points where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math> is non-differentiable is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>n</mi><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>m</mi><mo>+</mo><mi>n</mi><mo>=</mo><mn>1</mn></math></p>",
-    "image": null
-  },
-  "videoSolution": {
-    "videoId": "6c864134498f4859942290cbd1c9619c",
-    "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/SypD1nHGUjt9h.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/SypD1nHGUjt9h.480.jpeg",
-    "premiumModules": [
-      {
-        "premiumModuleId": "6628114842d540dfcb148ecb",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "64c7e8e829737784b294e469",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
-        "isFree": false
-      }
-    ],
-    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
-  },
-  "syllabusCategory": "noChange",
   "previousYearPapers": [
     {
-      "_id": "65c4c0c11d30997d3436bb05",
+      "_id": "664466ef278297dee60eda6d",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-01-31T14:00:00.000Z",
+      "heldOn": "2024-04-06T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (31 Jan Shift 2)",
-      "title": "JEE Main 2024 (31 Jan Shift 2)"
+      "shortName": "2024 (06 Apr Shift 2)",
+      "title": "JEE Main 2024 (06 Apr Shift 2)"
     }
   ],
-  "previousYear": {
-    "_id": "65c4c0c11d30997d3436bb05",
-    "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-01-31T14:00:00.000Z",
-    "isVisible": true,
-    "shortName": "2024 (31 Jan Shift 2)",
-    "title": "JEE Main 2024 (31 Jan Shift 2)"
+  "question": {
+    "text": "Let $[\\mathrm{t}]$ denote the greatest integer less than or equal to $\\mathrm{t}$. Let $f:[0, \\infty) \\rightarrow \\mathbf{R}$ be a function defined by $f(x)=\\left[\\frac{x}{2}+3\\right]-[\\sqrt{x}]$. Let $S$ be the set of all points in the interval $[0,8]$ at which $f$ is not continuous. Then $\\sum_{\\mathrm{a} \\in \\mathrm{S}} \\mathrm{a}$ is equal to _______",
+    "image": null
   },
-  "evalStatus": "incorrect",
-  "lastPracticed": "2025-02-26T14:26:46.105Z"
+  "options": [],
+  "correctValue": "17",
+  "solution": {
+    "text": "$\\left[\\frac{x}{2}+3\\right]$ is discontinuous at $x=2,4,6,8$\n$\\sqrt{\\mathrm{x}}$ is discontinuous at $\\mathrm{x}=1,4$ $\\mathrm{F}(\\mathrm{x})$ is discontinuous at $\\mathrm{x}=1,2,6,8$\n$\\sum \\mathrm{a}=1+2+6+8=17$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda6d",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-06T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (06 Apr Shift 2)",
+    "title": "JEE Main 2024 (06 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
 }

@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2014",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7455ca3b13e5b648ea",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Find the angle between the line $\\frac{x+1}{2}=\\frac{y}{3}=\\frac{z-3}{6}$\r\n\r\nand the plane $10 \\mathrm{x}+2 \\mathrm{y}-11 \\mathrm{z}=3$"
+  },
+  "options": [
+    {
+      "text": "$\\sin ^{-1}\\left(\\frac{8}{21}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\sin ^{-1}\\left(\\frac{5}{21}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sin ^{-1}\\left(\\frac{7}{21}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sin ^{-1}\\left(\\frac{1}{21}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $\\theta$ be the angle between the line and the normal to the plane. Converting the given equations into vector form, we have $\\overrightarrow{\\mathrm{r}}=(-\\hat{\\mathrm{i}}+3 \\hat{\\mathrm{k}})+\\lambda(2 \\hat{\\mathrm{i}}+3 \\hat{\\mathrm{j}}+6 \\hat{\\mathrm{k}})$ and\r\n\r\n$$\r\n\r\n\\overrightarrow{\\mathrm{r}} \\cdot(10 \\hat{\\mathrm{i}}+2 \\hat{\\mathrm{j}}-11 \\hat{\\mathrm{k}})=3\r\n\r\n$$\r\n\r\nHere, $\\overrightarrow{\\mathrm{b}}=2 \\hat{\\mathrm{i}}+3 \\hat{\\mathrm{j}}+6 \\hat{\\mathrm{k}}$ and $\\overrightarrow{\\mathrm{n}}=10 \\hat{\\mathrm{i}}+2 \\hat{\\mathrm{j}}-11 \\hat{\\mathrm{k}}$\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\sin \\phi=\\left|\\frac{(2 \\hat{i}+3 \\hat{j}+6 \\hat{k}) \\cdot(10 \\hat{i}+2 \\hat{j}-11 \\hat{k})}{\\sqrt{2^{2}+3^{2}+6^{2}} \\sqrt{10^{2}+2^{2}+11^{2}}}\\right| \\\\\r\n\r\n=\\left|\\frac{-40}{7 \\times 15}\\right|=\\left|\\frac{-8}{21}\\right|=\\frac{8}{21} \\text { or } \\phi=\\sin ^{-1}\\left(\\frac{8}{21}\\right)\r\n\r\n\\end{array}\r\n\r\n$$"
+  }
+}

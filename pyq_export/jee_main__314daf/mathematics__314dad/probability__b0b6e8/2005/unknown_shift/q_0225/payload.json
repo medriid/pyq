@@ -1,0 +1,43 @@
+{
+  "index": 225,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A random variable $X$ has Poisson distribution with mean 2. Then $P(X>1.5)$ equals"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{2}{\\mathrm{e}^2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$1-\\frac{3}{\\mathrm{e}^2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{3}{\\mathrm{e}^2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& P(x=k)=e^{-\\lambda} \\frac{\\lambda^k}{k !} \\\\\n& P(x \\geq 2)=1-P(x=0)-P(x=1) \\\\\n& =1-e^{-\\lambda}-e^{-\\lambda}\\left(\\frac{\\lambda}{1 !}\\right) \\\\\n& =1-\\frac{3}{e^2} .\n\\end{aligned}\n$$"
+  }
+}

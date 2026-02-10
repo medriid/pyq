@@ -1,8 +1,8 @@
 {
   "index": 224,
-  "type": "numerical",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2021 (18 Mar Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2021 (26 Aug Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> be a plane containing the line&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow><mn>3</mn></mfrac><mo>=</mo><mfrac><mrow><mi>y</mi><mo>+</mo><mn>6</mn></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mi>z</mi><mo>+</mo><mn>5</mn></mrow><mn>2</mn></mfrac></math> and parallel to the line&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>-</mo><mn>3</mn></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mi>y</mi><mo>-</mo><mn>2</mn></mrow><mrow><mo>-</mo><mn>3</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>z</mi><mo>+</mo><mn>5</mn></mrow><mn>7</mn></mfrac></math>.&nbsp;If the point <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>,</mo><mo>-</mo><mn>1</mn><mo>,</mo><mi>&#945;</mi><mo>)</mo></math> lies&nbsp;on the plane <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>, then the value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"|\" close=\"|\"><mrow><mn>5</mn><mi>&#945;</mi></mrow></mfenced></math> is equal&nbsp;to ___ ."
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>&nbsp;be the plane passing through the point <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></math> and the line of intersection of the planes&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover><mi>r</mi><mo>&#8594;</mo></mover><mo>&#183;</mo><mo>(</mo><mover><mi>i</mi><mo>^</mo></mover><mo>+</mo><mover><mi>j</mi><mo>^</mo></mover><mo>+</mo><mn>4</mn><mover><mi>k</mi><mo>^</mo></mover><mo>)</mo><mo>=</mo><mn>16</mn><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mover accent=\"true\"><mi>r</mi><mo>&#8594;</mo></mover><mo>&#183;</mo><mo>(</mo><mo>-</mo><mover><mi>i</mi><mo>^</mo></mover><mo>+</mo><mover><mi>j</mi><mo>^</mo></mover><mo>+</mo><mover><mi>k</mi><mo>^</mo></mover><mo>)</mo><mo>=</mo><mn>6</mn></math>. Then which of the following points does NOT lie on <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>?"
   },
-  "options": [],
-  "correct_answer": "38",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>4</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn></mrow></mfenced></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>6</mn><mo>,</mo><mo>-</mo><mn>6</mn><mo>,</mo><mn>2</mn></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mo>-</mo><mn>8</mn><mo>,</mo><mn>8</mn><mo>,</mo><mn>6</mn></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>3</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>2</mn></mrow></mfenced></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
   "solution": {
-    "text": "<p>Equation of plane is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"|\" close=\"|\"><mtable><mtr><mtd><mi>x</mi><mo>-</mo><mn>1</mn></mtd><mtd><mi>y</mi><mo>+</mo><mn>6</mn></mtd><mtd><mi>z</mi><mo>+</mo><mn>5</mn></mtd></mtr><mtr><mtd><mn>3</mn></mtd><mtd><mn>4</mn></mtd><mtd><mn>2</mn></mtd></mtr><mtr><mtd><mn>4</mn></mtd><mtd><mo>-</mo><mn>3</mn></mtd><mtd><mn>7</mn></mtd></mtr></mtable></mfenced><mo>=</mo><mn>0</mn></math></p><p>Now <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>,</mo><mo>-</mo><mn>1</mn><mo>,</mo><mi>&#945;</mi><mo>)</mo></math>&nbsp; lies on it so</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"|\" close=\"|\"><mtable><mtr><mtd><mn>0</mn></mtd><mtd><mn>5</mn></mtd><mtd><mi>&#945;</mi><mo>+</mo><mn>5</mn></mtd></mtr><mtr><mtd><mn>3</mn></mtd><mtd><mn>4</mn></mtd><mtd><mn>2</mn></mtd></mtr><mtr><mtd><mn>4</mn></mtd><mtd><mo>-</mo><mn>3</mn></mtd><mtd><mn>7</mn></mtd></mtr></mtable></mfenced><mo>=</mo><mn>0</mn><mo>&#8658;</mo><mn>5</mn><mi>&#945;</mi><mo>+</mo><mn>38</mn><mo>=</mo><mn>0</mn><mo>&#8658;</mo><mfenced open=\"|\" close=\"|\"><mrow><mn>5</mn><mi>&#945;</mi></mrow></mfenced><mo>=</mo><mn>38</mn></math></p>"
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>4</mn><mi>z</mi><mo>-</mo><mn>16</mn></mrow></mfenced><mo>+</mo><mi>&#955;</mi><mfenced><mrow><mo>-</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>-</mo><mn>6</mn></mrow></mfenced><mo>=</mo><mn>0</mn></math></p><p>Passes through <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>1</mn><mo>+</mo><mi>&#955;</mi><mfenced><mrow><mo>-</mo><mn>2</mn></mrow></mfenced><mo>=</mo><mn>0</mn><mspace linebreak=\"newline\"/><mi>&#955;</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>4</mn><mi>z</mi><mo>-</mo><mn>16</mn></mrow></mfenced><mo>-</mo><mfenced><mrow><mo>-</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>-</mo><mn>6</mn></mrow></mfenced><mo>=</mo><mn>0</mn><mspace linebreak=\"newline\"/><mn>3</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>7</mn><mi>z</mi><mo>-</mo><mn>26</mn><mo>=</mo><mn>0</mn></math></p><p>Now put points given in option and then we get <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>4</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn></mrow></mfenced></math> as required answer.</p><p>&nbsp;</p>"
   }
 }

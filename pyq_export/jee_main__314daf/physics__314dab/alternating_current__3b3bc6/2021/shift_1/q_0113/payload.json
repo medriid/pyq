@@ -1,8 +1,8 @@
 {
   "index": 113,
-  "type": "numerical",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2021 (26 Feb Shift 1)",
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (17 Mar Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "In a series LCR resonant circuit, the quality factor is measured as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn></math>. If the inductance is increased by two fold and resistance is decreased by two fold, then the quality factor after this change will be _______"
+    "text": "An <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi></math> current is given by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><msub><mi>I</mi><mn>1</mn></msub><mi>s</mi><mi>i</mi><mi>n</mi><mi>&#969;</mi><mi>t</mi><mo>+</mo><msub><mi>I</mi><mn>2</mn></msub><mi>c</mi><mi>o</mi><mi>s</mi><mi>&#969;</mi><mi>t</mi><mo>.</mo></math><br />A hot wire ammeter will give a reading:"
   },
-  "options": [],
-  "correct_answer": "282.84",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mfrac><mrow><msubsup><mi>I</mi><mn>1</mn><mn>2</mn></msubsup><mo>-</mo><msubsup><mi>I</mi><mn>2</mn><mn>2</mn></msubsup></mrow><mn>2</mn></mfrac></msqrt></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mfrac><mrow><msubsup><mi>I</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>I</mi><mn>2</mn><mn>2</mn></msubsup></mrow><mn>2</mn></mfrac></msqrt></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msub><mi>I</mi><mn>1</mn></msub><mo>+</mo><msub><mi>I</mi><mn>2</mn></msub></mrow><msqrt><mn>2</mn></msqrt></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msub><mi>I</mi><mn>1</mn></msub><mo>+</mo><msub><mi>I</mi><mn>2</mn></msub></mrow><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
   "solution": {
-    "text": "<blockquote><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi><mo>=</mo><mfrac><msub><mi>X</mi><mi>L</mi></msub><mi>R</mi></mfrac><mo>=</mo><mfrac><mrow><mi>&#969;</mi><mi>L</mi></mrow><mi>R</mi></mfrac><mo>=</mo><mfrac><mn>1</mn><msqrt><mi>L</mi><mi>C</mi></msqrt></mfrac><mfrac><mi>L</mi><mi>R</mi></mfrac><mo>=</mo><mfrac><msqrt><mi>L</mi></msqrt><mrow><mi>R</mi><msqrt><mi>C</mi></msqrt></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>Q</mi><mo>&#39;</mo></msup><mo>=</mo><mfrac><msqrt><mn>2</mn><mo>&#160;</mo><mi>L</mi></msqrt><mrow><mfenced><mfrac><mi>R</mi><mn>2</mn></mfrac></mfenced><msqrt><mi>C</mi></msqrt></mrow></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mi>Q</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mfenced><mn>100</mn></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>282</mn><mo>.</mo><mn>84</mn></math></p></blockquote>"
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><msub><mi>I</mi><mn>1</mn></msub><mi>s</mi><mi>i</mi><mi>n</mi><mi>&#969;</mi><mi>t</mi><mo>+</mo><msub><mi>I</mi><mn>2</mn></msub><mi>c</mi><mi>o</mi><mi>s</mi><mi>&#969;</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><msub><mi>I</mi><mn>0</mn></msub><mo>=</mo><msqrt><msubsup><mi>I</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>I</mi><mn>2</mn><mn>2</mn></msubsup></msqrt></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><msub><mi>I</mi><mrow><mi>r</mi><mi>m</mi><mi>s</mi></mrow></msub><mo>=</mo><mfrac><msub><mi>I</mi><mn>0</mn></msub><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><msqrt><mfrac><mrow><msubsup><mi>I</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>I</mi><mn>2</mn><mn>2</mn></msubsup></mrow><mn>2</mn></mfrac></msqrt></math></p>"
   }
 }

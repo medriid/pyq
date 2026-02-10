@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65a88",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7cf",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2012-05-19T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (19 May Online)",
+      "title": "JEE Main 2012 (19 May Online)"
+    }
+  ],
+  "question": {
+    "text": "The general solution of the differential equation $\\frac{d y}{d x}+\\frac{2}{x} y=x^2$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "PdLyA",
+      "text": "\n$y=c x^{-3}-\\frac{x^2}{4}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "VoXgz",
+      "text": "\n$y=c x^3-\\frac{x^2}{4}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ufHF6",
+      "text": "\n$y=c x^2+\\frac{x^3}{5}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Q2zxd",
+      "text": "\n$y=c x^{-2}+\\frac{x^3}{5}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given differential equation is\n$$\n\\frac{d y}{d x}+\\frac{2}{x} \\cdot y=x^2\n$$\nThis is of the linear form.\n$$\n\\begin{aligned}\n& \\therefore P=\\frac{2}{x}, Q=x^2 \\\\\n& \\text { I.F }=e^{\\int \\frac{2}{x} d x}=e^{\\log x^2}=x^2\n\\end{aligned}\n$$\nSolution is\n$$\n\\begin{aligned}\n& y \\cdot x^2=\\int x^2 \\cdot x^2 d x+c=\\frac{x^5}{5}+c \\\\\n& y=\\frac{x^3}{5}+c x^{-2}\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7cf",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2012-05-19T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (19 May Online)",
+    "title": "JEE Main 2012 (19 May Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

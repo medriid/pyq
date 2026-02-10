@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83e6f6052b2388bfed",
+    "chapter_name": "Definite Integration",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int_0^{\\pi / 4} \\cos x e^{\\sin x} d x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$e+1$",
+      "is_correct": false
+    },
+    {
+      "text": "$e-1$",
+      "is_correct": true
+    },
+    {
+      "text": "$e$",
+      "is_correct": false
+    },
+    {
+      "text": "$-e$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Suppose, $I=\\int_0^{\\pi / 2} \\cos x e^{\\sin x} d x$<br />Let $\\sin x=t \\Rightarrow \\cos x d x=d t$<br />$x \\rightarrow 0 \\Rightarrow t \\rightarrow 0$<br />and $x \\rightarrow \\frac{\\pi}{2} \\Rightarrow t \\rightarrow 1$<br />So $I=\\int_0^1 e^t d t=\\left[e^t\\right]_0^1=e-1$"
+  }
+}

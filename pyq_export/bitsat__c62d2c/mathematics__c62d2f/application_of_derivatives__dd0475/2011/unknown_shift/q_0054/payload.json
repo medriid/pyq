@@ -1,0 +1,43 @@
+{
+  "index": 54,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2011",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83086701c4b7dd0475",
+    "chapter_name": "Application of Derivatives",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The function \\(\\mathrm{f}(\\mathrm{x})=2 \\mathrm{x}^3-3 \\mathrm{x}^2-12 \\mathrm{x}+4\\), has"
+  },
+  "options": [
+    {
+      "text": "two points of local maximum",
+      "is_correct": false
+    },
+    {
+      "text": "two points of local minimum",
+      "is_correct": false
+    },
+    {
+      "text": "one maxima and one minima",
+      "is_correct": true
+    },
+    {
+      "text": "nomaxima or minima",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& f(x)=2 x^3-3 x^2-12 x+4 \\\\\n& \\Rightarrow \\quad f^{\\prime}(x)=6 x^2-6 x-12=6\\left(x^2-x-2\\right) \\\\\n& =6(x-2)(x+1)\n\\end{aligned}\\)\nFor maxima and minima \\(\\mathrm{f}^{\\prime}(\\mathrm{x})=0\\)\n\\(\\therefore \\quad 6(\\mathrm{x}-2)(\\mathrm{x}+1)=0 \\Rightarrow \\mathrm{x}=2,-1\\)\nNow, \\(\\mathrm{f}^{\\prime \\prime}(\\mathrm{x})=12 \\mathrm{x}-6\\)\n\\(\\begin{aligned}\n& \\text { At } \\mathrm{x}=2 ; \\mathrm{f}^{\\prime \\prime}(\\mathrm{x})=24-6=18 > 0 \\\\\n& \\therefore \\quad \\mathrm{x}=2, \\text { local min. point } \\\\\n& \\text { At } \\mathrm{x}=-1 ; \\mathrm{f}^{\\prime \\prime}(\\mathrm{x})=12(-1)-6=-18  < 0 \\\\\n& \\therefore \\mathrm{x}=-1 \\text { local max. point }\n\\end{aligned}\\)"
+  }
+}

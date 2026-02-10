@@ -1,0 +1,24 @@
+{
+  "index": 98,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2022 (29 Jun Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2022",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "<p>Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>b</mi><mn>1</mn></msub><msub><mi>b</mi><mn>2</mn></msub><msub><mi>b</mi><mn>3</mn></msub><msub><mi>b</mi><mn>4</mn></msub></math>&nbsp;be a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>-element permutation with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>b</mi><mi>i</mi></msub><mo>&#8712;</mo></math>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>&#8230;</mo><mo>&#8230;</mo><mo>&#8230;</mo><mo>,</mo><mn>100</mn></mrow></mfenced></math>&nbsp;for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>&#8804;</mo><mi>i</mi><mo>&#8804;</mo><mn>4</mn></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>b</mi><mi>i</mi></msub><mo>&#8800;</mo><msub><mi>b</mi><mi>j</mi></msub></math>&nbsp;for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>i</mi><mo>&#8800;</mo><mi>j</mi></math>, such that either <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>b</mi><mn>1</mn></msub><mo>,</mo><msub><mrow><mo>&#160;</mo><mi>b</mi></mrow><mn>2</mn></msub><mo>,</mo><msub><mrow><mo>&#160;</mo><mi>b</mi></mrow><mn>3</mn></msub></math>&nbsp;are consecutive integers or <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>b</mi><mn>2</mn></msub><mo>,</mo><msub><mi>b</mi><mn>3</mn></msub><mo>,</mo><msub><mi>b</mi><mn>4</mn></msub></math>&nbsp;are consecutive integers.&nbsp;Then the number of such permutations <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>b</mi><mn>1</mn></msub><msub><mi>b</mi><mn>2</mn></msub><msub><mi>b</mi><mn>3</mn></msub><msub><mi>b</mi><mn>4</mn></msub></math>&nbsp;is equal to ______.</p>"
+  },
+  "options": [],
+  "correct_answer": "18915",
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>b</mi><mi>i</mi></msub><mo>&#8712;</mo><mfenced close=\"}\" open=\"{\"><mrow><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>&#8230;</mo><mo>&#8230;</mo><mo>&#8230;</mo><mn>100</mn></mrow></mfenced></math></p><p>Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo></math>&nbsp;set when&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>b</mi><mn>1</mn></msub><msub><mrow><mo>&#160;</mo><mi>b</mi></mrow><mn>2</mn></msub><msub><mrow><mo>&#160;</mo><mi>b</mi></mrow><mn>3</mn></msub></math>&nbsp;are consecutive</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mfenced><mi>A</mi></mfenced><mo>=</mo><mn>97</mn><mo>+</mo><mn>97</mn><mo>+</mo><mo>&#8230;</mo><mo>&#8230;</mo><mo>+</mo><mn>97</mn><mo>&#160;</mo><mfenced><mrow><mtext>added</mtext><mo>&#160;</mo><mn>98</mn><mo>&#160;</mo><mtext>times</mtext></mrow></mfenced><mo>=</mo><mn>97</mn><mo>&#215;</mo><mn>98</mn><mo>=</mo><mn>9506</mn></math></p><p>Similarly when&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>b</mi><mn>2</mn></msub><msub><mrow><mo>&#160;</mo><mi>b</mi></mrow><mn>3</mn></msub><msub><mrow><mo>&#160;</mo><mi>b</mi></mrow><mn>4</mn></msub></math>&nbsp;are consecutive</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mfenced><mi>B</mi></mfenced><mo>=</mo><mn>97</mn><mo>&#215;</mo><mn>98</mn><mo>=</mo><mn>9506</mn></math></p><p>Now when&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>b</mi><mn>1</mn></msub><mo>&#160;</mo><msub><mi>b</mi><mn>2</mn></msub><mo>&#160;</mo><msub><mi>b</mi><mn>3</mn></msub><mo>&#160;</mo><msub><mi>b</mi><mn>4</mn></msub></math>&nbsp;are consecutive then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mfenced><mrow><mi>A</mi><mo>&#8745;</mo><mi>B</mi></mrow></mfenced><mo>=</mo><mn>97</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mfenced><mrow><mi>A</mi><mi>U</mi><mi>B</mi></mrow></mfenced><mo>=</mo><mi>n</mi><mfenced><mi>A</mi></mfenced><mo>+</mo><mi>n</mi><mfenced><mi>B</mi></mfenced><mo>-</mo><mi>n</mi><mfenced><mrow><mi>A</mi><mo>&#8745;</mo><mi>B</mi></mrow></mfenced></math></p><p>Number of required permutation&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>9506</mn><mo>+</mo><mn>9506</mn><mo>-</mo><mn>97</mn><mo>=</mo><mn>18915</mn></math></p>"
+  }
+}

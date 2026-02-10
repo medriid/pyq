@@ -1,0 +1,58 @@
+{
+  "_id": "68542c7c7c09d044e4c1a23a",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2ff9d87935e0d80978b",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-02T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (2 Apr Shift 1)",
+      "title": "JEE Main 2025 (2 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $f: \\mathbf{R} \\rightarrow \\mathbf{R}$ be a thrice differentiable odd function satisfying $f^{\\prime}(\\mathrm{x}) \\geq 0, f^{\\prime}(\\mathrm{x})=f(\\mathrm{x}), f(0)=0, f^{\\prime}(0)=3$. Then $9 f\\left(\\log _{\\mathrm{c}} 3\\right)$ is equal to _______.",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "36",
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{f}^{\\prime \\prime}(\\mathrm{x})=\\mathrm{f}(\\mathrm{x}) \\\\ & \\Rightarrow \\mathrm{f}^{\\prime}(\\mathrm{x}) \\cdot \\mathrm{f}^{\\prime \\prime}(\\mathrm{x})=\\mathrm{f}^{\\prime}(\\mathrm{x}) \\cdot \\mathrm{f}(\\mathrm{x}) \\\\ & \\Rightarrow \\frac{\\left(\\mathrm{f}^{\\prime}(\\mathrm{x})\\right)^2}{2}=\\frac{(\\mathrm{f}(\\mathrm{x}))^2}{2}+\\mathrm{C} \\\\ & \\Rightarrow\\left(\\mathrm{f}^{\\prime}(\\mathrm{x})\\right)^2=(\\mathrm{f}(\\mathrm{x}))^2+\\mathrm{C}^{\\prime}\\end{aligned}$<br/>$\\mathrm{f}(0)=0, \\mathrm{f}^{\\prime}(0)=3 \\quad \\Rightarrow \\mathrm{C}^{\\prime}=9$<br/>$\\therefore\\left(\\mathrm{f}^{\\prime}(\\mathrm{x})\\right)^2=(\\mathrm{f}(\\mathrm{x}))^2+9$<br/>$\\mathrm{f}^{\\prime}(\\mathrm{x})=\\sqrt{(\\mathrm{f}(\\mathrm{x}))^2+9} \\quad \\because \\mathrm{f}^{\\prime}(\\mathrm{x}) \\geq 0$<br/>$\\int \\frac{\\mathrm{dy}}{\\sqrt{\\mathrm{y}^2+9}}=\\int \\mathrm{dx} \\Rightarrow \\ln \\left|\\mathrm{y}+\\sqrt{\\mathrm{y}^2+9}\\right|=\\mathrm{x}+\\mathrm{C}$<br/>$\\Rightarrow \\mathrm{f}(0)=0 \\Rightarrow \\mathrm{C}=\\ln 3$<br/>$\\Rightarrow \\mathrm{y}+\\sqrt{\\mathrm{y}^2+9}=3 \\mathrm{e}^{\\mathrm{x}}$<br/>at $x=\\ln 3 ; y=4$<br/>$\\therefore 9 \\mathrm{f}(\\ln 3)=36$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "e0c703e1a1914edf9f3e323d43ebc191",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/FSFvVRwsHLuP7.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/FSFvVRwsHLuP7.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2ff9d87935e0d80978b",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-02T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (2 Apr Shift 1)",
+    "title": "JEE Main 2025 (2 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

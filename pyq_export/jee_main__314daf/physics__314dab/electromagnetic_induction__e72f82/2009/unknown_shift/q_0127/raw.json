@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d65899",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c9",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009",
+      "title": "JEE Main 2009"
+    }
+  ],
+  "question": {
+    "text": "An inductor of inductance $\\mathrm{L}=400 \\mathrm{mH}$ and resistors of resistances $\\mathrm{R}_1$ $=2 \\Omega$ and $R_2=2 \\Omega$ are connected to a battery of emf $12 \\mathrm{~V}$ as shown in the figure. The internal resistance of the battery is negligible. The switch $S$ is closed at $t=0$. The potential drop across $L$ as a function of time is\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/HGvaYcHP18uHs6gCmkmD4AfpsTHfeNP4muUgQ-RwFvI.original.fullsize.png\"><br>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "c27N1",
+      "text": "\n$6 e^{-5 t} V$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "mEC4C",
+      "text": "\n$\\frac{12}{t} e^{-3 t} V$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "oRQZG",
+      "text": "\n$6\\left(1-e^{-t / 0.2}\\right) V$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "LaUAZ",
+      "text": "\n$12 e^{-5 t} V$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\mathrm{I}_1=\\frac{\\mathrm{F}}{\\mathrm{R}_1}=\\frac{12}{2}=6 \\mathrm{~A} \\\\\n& \\mathrm{E}=\\mathrm{L} \\frac{\\mathrm{dl_{2 }}}{\\mathrm{dt}}+\\mathrm{R}_2 \\times \\mathrm{I}_2 \\\\\n& \\mathrm{I}_2=\\mathrm{I}_0\\left(1-\\mathrm{e}^{-\\mathrm{t} / \\mathrm{t}_{\\mathrm{c}}}\\right) \\Rightarrow \\mathrm{I}_{\\mathrm{o}}=\\frac{\\mathrm{E}}{\\mathrm{R}_2}=\\frac{12}{2}=6 \\mathrm{~A} \\\\\n& \\mathrm{t}_{\\mathrm{c}}=\\frac{\\mathrm{L}}{\\mathrm{R}}=\\frac{400 \\times 10^{-3}}{2}=0.2 \\\\\n& \\mathrm{I}_2=6\\left(1-\\mathrm{e}^{-\\mathrm{t} / 0.2}\\right)\n\\end{aligned}\n$$\nPotential drop across $L=E-R_2 l_2=12-2 \\times 6\\left(1-e^{-b t}\\right)=12 e^{-5 t}$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/ZYOu7dEZgHrmJ8UwaY3fMFFCDsYoIxPFkYXeC8CigA4.original.fullsize.png\"><br>\nDirections: Question numbers 28,29 and 30 are based on the following paragraph. Two moles of helium gas are taken over the cycle $A B C D A$, as shown in the $P-T$ diagram.<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/hYJgZD1CUxcvMjKC5LEXEnhRUUQTP_zw_bTTNv7u9e4.original.fullsize.png\"><br>",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c9",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009",
+    "title": "JEE Main 2009"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

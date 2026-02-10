@@ -1,83 +1,38 @@
 {
-  "_id": "67a2eebac8b73881fdaea264",
-  "type": "singleCorrect",
-  "level": 2,
+  "_id": "68542c8a7c09d044e4c1a287",
+  "type": "numerical",
+  "level": 1,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "67a2eb5da6d4514bf2d9760e",
+      "_id": "6852f2fe9d87935e0d809788",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-01-28T09:00:00.000Z",
+      "heldOn": "2025-04-07T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (28 Jan Shift 1)",
-      "title": "JEE Main 2025 (28 Jan Shift 1)"
+      "shortName": "2025 (7 Apr Shift 1)",
+      "title": "JEE Main 2025 (7 Apr Shift 1)"
     }
   ],
   "question": {
-    "text": "The number of different 5 digit numbers greater than 50000 that can be formed using the digits 0 , $1,2,3,4,5,6,7$, such that the sum of their first and last digits should not be more than 8 , is",
+    "text": "For $\\mathrm{n} \\geq 2$, let $S_n$ denote the set of all subsets of $\\{1,2 \\ldots . . ., n\\}$ with no two consecutive numbers. For example $\\{1,3,5\\} \\in \\mathrm{S}_6$, but $\\{1,2,4\\} \\notin \\mathrm{S}_6$. Then $n\\left(\\mathrm{~S}_5\\right)$ is equal to ________",
     "image": null
   },
-  "options": [
-    {
-      "id": "HyYhc",
-      "text": "4608",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "LASrc",
-      "text": "5720",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "G7N5P",
-      "text": "5719",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "9VhZm",
-      "text": "4607",
-      "image": null,
-      "isCorrect": true
-    }
-  ],
-  "correctValue": null,
+  "options": [],
+  "correctValue": "13",
   "solution": {
-    "text": "$\\begin{array}{lll}\n\\text { Case I } & 5 \\ldots \\ldots & 0 \\\\\n\\text { Case II } & 5 \\ldots \\ldots & \\\\\n& 5 & 1 \\\\\n& 5 & 3 \\\\\n& 6 & 0 \\\\\n& 6 & 1 \\\\\n& 6 & 2 \\\\\n& 7 & 0 \\\\\n& 7 & 1\n\\end{array}$\n\n$9 \\times(8 \\times 8 \\times 8)=4608$ but 50000 is not included, so total numbers $4608-1=4607$",
+    "text": "$\\mathrm{A}=\\{1,2,3,4,5 \\ldots . . . \\mathrm{n}\\}$<br/>No. of subsets having $r$ elements such that no two are consecutive is $={ }^{n-r+1} C_r$<br/>for $\\mathrm{n}=5$, no. of ways $={ }^{6 \\cdot \\mathrm{r}} \\mathrm{C}_{\\mathrm{r}}$<br/>Subsets having no element $=1$<br/>Subsets having exactly 1 element $={ }^5 \\mathrm{C}_1=5$<br/>Subsets having exactly 2 element $={ }^4 \\mathrm{C}_2=6$<br/>Subsets having exactly 3 element $={ }^3 \\mathrm{C}_3=1$<br/>$\\Rightarrow 5+6+1+1=13$",
     "image": null
   },
-  "videoSolution": {
-    "videoId": "8ce3b78b8a2b42409fea6ed63fd74898",
-    "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/U2YJYDWxIELqO.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/U2YJYDWxIELqO.480.jpeg",
-    "premiumModules": [
-      {
-        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "6628114842d540dfcb148ecb",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "64c7e8e829737784b294e469",
-        "isFree": false
-      }
-    ],
-    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
-  },
+  "videoSolution": null,
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "67a2eb5da6d4514bf2d9760e",
+    "_id": "6852f2fe9d87935e0d809788",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-01-28T09:00:00.000Z",
+    "heldOn": "2025-04-07T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (28 Jan Shift 1)",
-    "title": "JEE Main 2025 (28 Jan Shift 1)"
+    "shortName": "2025 (7 Apr Shift 1)",
+    "title": "JEE Main 2025 (7 Apr Shift 1)"
   },
-  "evalStatus": "correct",
-  "lastPracticed": "2025-02-24T00:43:52.040Z"
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
 }

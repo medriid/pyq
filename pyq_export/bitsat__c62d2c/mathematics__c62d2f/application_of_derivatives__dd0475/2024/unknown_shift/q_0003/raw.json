@@ -1,0 +1,63 @@
+{
+  "_id": "67726d0ec49e8ef28ee2b3e6",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6415",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 2)",
+      "title": "BITSAT 2024 (Memory Based Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "The maximum volume (in cu. units) of the cylinder which can be inscribed in a sphere of radius 12 units is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "n9JC4",
+      "text": "$384 \\sqrt{3} \\pi$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "TJYRw",
+      "text": "$768 \\sqrt{3} \\pi$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "cwzJ7",
+      "text": "$\\frac{768 \\pi}{\\sqrt{3}}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "HrxKR",
+      "text": "$\\frac{1152 \\pi}{\\sqrt{3}}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$12^2=r^2+\\left(\\frac{h}{2}\\right)^2 \\Rightarrow V=\\pi r^2 h$\n$\\Rightarrow \\quad V=\\pi\\left(144-\\frac{h^2}{4}\\right) h$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/bitsat/iz6kZkvCfLIqhDLfZ-07Sf825wujqkWx95TpgxB0YRk.original.fullsize.png\"/>\n$\\Rightarrow \\quad V=144 \\pi h-\\frac{\\pi}{4} h^3 \\Rightarrow \\frac{d V}{d h}=144 \\pi-\\frac{3 \\pi}{4} h^2$\n$\\Rightarrow \\frac{d V}{d h}=0 \\Rightarrow 144 \\pi=\\frac{3 \\pi}{4} h^2$\n$\\Rightarrow \\quad h^2=48 \\times 4 \\Rightarrow h=8 \\sqrt{3}$\n$\\therefore \\quad 12^2=r^2+48 \\Rightarrow r^2=96$\nVolume $=\\pi r^2 h=\\pi \\times 96 \\times 8 \\sqrt{3}=768 \\sqrt{3} \\pi \\mathrm{~cm}^3$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6415",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 2)",
+    "title": "BITSAT 2024 (Memory Based Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

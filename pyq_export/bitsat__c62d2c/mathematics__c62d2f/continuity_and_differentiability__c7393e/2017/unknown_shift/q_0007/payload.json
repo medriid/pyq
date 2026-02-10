@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2017",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd742781aed2a1c7393e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced open=\"{\" close=\"\"><mtable columnalign=\"center left\"><mtr><mtd><msup><mi>e</mi><mi>x</mi></msup><mo>,</mo></mtd><mtd><mi>x</mi><mo>&#8804;</mo><mn>0</mn></mtd></mtr><mtr><mtd><mfenced open=\"|\" close=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mo>,</mo></mtd><mtd><mi>x</mi><mo>&#62;</mo><mn>0</mn></mtd></mtr></mtable></mfenced></math>, then"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math> is differentiable at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math> is continuous at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>1</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math> is differentiable at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "None of the above",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable><mtr><mtd><msup><mi>e</mi><mi>x</mi></msup><mo>,</mo></mtd><mtd><mi>x</mi><mo>&#8804;</mo><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn><mo>-</mo><mi>x</mi><mo>,</mo></mtd><mtd><mn>0</mn><mo>&#60;</mo><mi>x</mi><mo>&#8804;</mo><mn>1</mn></mtd></mtr><mtr><mtd><mi>x</mi><mo>-</mo><mn>1</mn><mo>,</mo></mtd><mtd><mi>x</mi><mo>&#62;</mo><mn>1</mn></mtd></mtr></mtable></mfenced></math></p><p><img src=\"assets\\st0007_da71c5273ddc.png\" style=\"width: 392px; height: 200px;\" /></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mi>H</mi><mi>D</mi><mo>:</mo><mo>&#160;</mo><msup><mi>f</mi><mo>&#39;</mo></msup><mfenced><mn>0</mn></mfenced><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>f</mi><mfenced><mrow><mn>0</mn><mo>+</mo><mi>h</mi></mrow></mfenced><mo>-</mo><mi>f</mi><mfenced><mn>0</mn></mfenced></mrow><mi>h</mi></mfrac><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mo>-</mo><mfenced close=\"]\" open=\"[\"><mfrac><mrow><mi>h</mi><mo>-</mo><mn>1</mn></mrow><mi>h</mi></mfrac></mfenced><mo>=</mo><mo>-</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mi>H</mi><mi>D</mi><mo>:</mo><mo>&#160;</mo><msup><mi>f</mi><mo>&#39;</mo></msup><mfenced><mn>0</mn></mfenced><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>f</mi><mfenced><mrow><mn>0</mn><mo>-</mo><mi>h</mi></mrow></mfenced><mo>-</mo><mi>f</mi><mfenced><mn>0</mn></mfenced></mrow><mrow><mo>-</mo><mi>h</mi></mrow></mfrac><mo>=</mo><munder><mi>lim</mi><mrow><mi>h</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>e</mi><mrow><mo>-</mo><mi>h</mi></mrow></msup><mo>-</mo><mn>1</mn></mrow><mrow><mo>-</mo><mi>h</mi></mrow></mfrac><mo>=</mo><mn>1</mn></math></p><p>So, it is not differentiable at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>.</p><p>Similarly, it is not differentiable at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math> but it is continuous at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>.</p>"
+  }
+}

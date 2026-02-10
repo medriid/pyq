@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2013",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7de14c41a6083e62a3",
+    "chapter_name": "Sets and Relations",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $R$ be the relation on the set $R$ of all real numbers, defined by $a R b$ If $|a-b| \\leq 1$. Then, $R$ is"
+  },
+  "options": [
+    {
+      "text": "reflexive and symmetric only",
+      "is_correct": true
+    },
+    {
+      "text": "reflexive and transitive only",
+      "is_correct": false
+    },
+    {
+      "text": "equivalence",
+      "is_correct": false
+    },
+    {
+      "text": "None of the above",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Since, $|a-a|=0 \\leq 1,$ so $a R a, \\forall a \\in R$ $\\therefore R$ is reflexive. Now, $a R b \\Rightarrow|a-b| \\leq 1 \\Rightarrow|b-a| \\leq 1 \\Rightarrow b R a$\r\n\r\n$\\therefore R$ is symmetric. But $R$ is not transitive as\r\n\r\n$1 R 2,2 R 3$ but $1 \\not R^{\\prime} 3$\r\n\r\n$$\r\n\r\n[\\because|1-3|=2>1]\r\n\r\n$$"
+  }
+}

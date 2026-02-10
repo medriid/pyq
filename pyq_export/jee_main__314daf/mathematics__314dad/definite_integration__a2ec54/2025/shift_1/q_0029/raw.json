@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eebac8b73881fdaea262",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d9760e",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-28T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (28 Jan Shift 1)",
+      "title": "JEE Main 2025 (28 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "If $\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{96 x^2 \\cos ^2 x}{\\left(1+e^x\\right)} \\mathrm{d} x=\\pi\\left(\\alpha \\pi^2+\\beta\\right), \\alpha, \\beta \\in \\mathbb{Z}$, then $(\\alpha+\\beta)^2$ equals",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "gW68b",
+      "text": "64",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "dbWhZ",
+      "text": "196",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "sjC0W",
+      "text": "144",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "VdZnX",
+      "text": "100",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & I=\\int_0^{\\frac{\\pi}{2}} \\frac{96 x^2 \\cos ^2 x}{1+e^x} d x \\\\ & 2 I=2 \\int_0^{\\frac{\\pi}{2}} 96 x^2 \\cos ^2 x d x \\\\ & I=96 \\int_0^{\\frac{\\pi}{2}} x^2 \\cos ^2 x d x \\\\ & =48 \\int_0^{\\frac{\\pi}{2}} x^2(1+\\cos 2 x) d x \\\\ & =2 \\pi^2+48(0-0)-48 \\int_0^{\\frac{\\pi}{2}} x \\sin 2 x d x \\\\ & =2 \\pi^2-12 \\pi+[0-0]=\\pi\\left(2 \\pi^2-12\\right) \\\\ & =\\pi\\left(\\alpha \\pi^2+\\beta\\right) \\\\ & \\Rightarrow(\\alpha+\\beta)^2=100\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "00373cfe0bdc431a82d923b70c8b6622",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/ECNy1ppFHWZ56.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/ECNy1ppFHWZ56.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d9760e",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-28T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (28 Jan Shift 1)",
+    "title": "JEE Main 2025 (28 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

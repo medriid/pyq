@@ -1,58 +1,58 @@
 {
-  "_id": "67a2ee8dc8b73881fdaea0e2",
+  "_id": "68542c7a7c09d044e4c1a22f",
   "type": "singleCorrect",
-  "level": 1,
+  "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "67a2eb5ca6d4514bf2d97609",
+      "_id": "6852f2ff9d87935e0d80978c",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-01-22T14:00:00.000Z",
+      "heldOn": "2025-04-02T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (22 Jan Shift 2)",
-      "title": "JEE Main 2025 (22 Jan Shift 2)"
+      "shortName": "2025 (2 Apr Shift 2)",
+      "title": "JEE Main 2025 (2 Apr Shift 2)"
     }
   ],
   "question": {
-    "text": "Let $f(x)=\\int_0^{x^2} \\frac{\\mathrm{t}^2-8 \\mathrm{t}+15}{\\mathrm{e}^{\\mathrm{t}}} \\mathrm{dt}, x \\in \\mathbf{R}$. Then the numbers of local maximum and local minimum points of $f$, respectively, are :",
+    "text": "$4 \\int_0^1\\left(\\frac{1}{\\sqrt{3+x^2}+\\sqrt{1+x^2}}\\right) d x-3 \\log _e(\\sqrt{3})$ is equal to :",
     "image": null
   },
   "options": [
     {
-      "id": "aoWLw",
-      "text": "2 and 3",
+      "id": "AhNHh",
+      "text": "$2+\\sqrt{2}+\\log _e(1+\\sqrt{2})$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "mRnI4",
+      "text": "$2-\\sqrt{2}-\\log _e(1+\\sqrt{2})$",
       "image": null,
       "isCorrect": true
     },
     {
-      "id": "xclj2",
-      "text": "2 and 2",
+      "id": "FXP8h",
+      "text": "$2+\\sqrt{2}-\\log _e(1+\\sqrt{2})$",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "piIgA",
-      "text": "3 and 2",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "ahLBL",
-      "text": "1 and 3",
+      "id": "XAe1q",
+      "text": "$2-\\sqrt{2}+\\log _e(1+\\sqrt{2})$",
       "image": null,
       "isCorrect": false
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "$\\begin{aligned}\n& f(x)=\\int_0^{x^2} \\frac{t^2-8 t+15}{e^t} d t, x \\in R \\\\\n& f^{\\prime}(x)=\\frac{x^4-8 x^2+15}{e^{x^2}}(2 x)=0 \\\\\n& \\Rightarrow \\quad \\frac{2 \\times\\left(x^2-5\\right)\\left(x^2-3\\right)}{e^{x^2}}=0 \\\\\n& \\Rightarrow x(x+\\sqrt{5})(x-\\sqrt{5})(x+\\sqrt{3})(x-\\sqrt{3})=0\n\\end{aligned}$\nBy using wavy curve method\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/_r1Y1-55B6kBNWX7xC6js9Ku_ZaysaTZ0BbartEfY5I.original.fullsize.png\"><br>\nNumber of local maximum $=2$\nNumber of local minimum $=3$",
+    "text": "$\\begin{aligned} & 4 \\int_0^1 \\frac{1}{\\sqrt{3+\\mathrm{x}^2}+\\sqrt{1+\\mathrm{x}^2}} \\mathrm{dx}-3 \\ln \\sqrt{3} \\\\ & =4 \\int_0^1 \\frac{\\sqrt{3+\\mathrm{x}^2}-\\sqrt{1+\\mathrm{x}^2}}{\\left(3+\\mathrm{x}^2\\right)-\\left(1-\\mathrm{x}^2\\right)} \\mathrm{dx}-\\frac{3}{2} \\ln 3 \\\\ & = \\\\ & 2\\left[\\left\\{\\frac{\\mathrm{x}}{2} \\sqrt{3+\\mathrm{x}^2}+\\frac{3}{2} \\ln \\left(\\mathrm{x}+\\sqrt{3+\\mathrm{x}^2}\\right)\\right\\}_0^1\\right. \\\\ & \\left.\\quad-\\left\\{\\frac{\\mathrm{x}}{2} \\sqrt{1+\\mathrm{x}^2}+\\frac{1}{2} \\ln \\left(\\mathrm{x}+\\sqrt{1+\\mathrm{x}^2}\\right)\\right\\}_0^1\\right]-\\frac{3}{2} \\ln 3\\end{aligned}$<br/>$\\begin{aligned}= & 2\\left[\\left\\{\\frac{1}{2} \\sqrt{4}+\\frac{3}{2} \\ln (1+\\sqrt{4})\\right\\}-\\left\\{0+\\frac{3}{2} \\ln \\sqrt{3}\\right\\}\\right. \\\\ & \\left.-\\left\\{\\frac{1}{2} \\sqrt{2}+\\frac{1}{2} \\ln (1+\\sqrt{2})\\right\\}+\\left\\{0+\\frac{1}{2}(0)\\right\\}\\right]-\\frac{3}{2} \\ln 3\\end{aligned}$<br/>$\\begin{aligned} & =2\\left[1+\\frac{3}{2} \\ln 3-\\frac{3}{4} \\ln 3-\\frac{1}{\\sqrt{2}}-\\frac{1}{2} \\ln (1+\\sqrt{2})\\right]-\\frac{3}{2} \\ln 3 \\\\ & =2+3 \\ln 3-\\frac{3}{2} \\ln 3-\\sqrt{2}-\\ln (1+\\sqrt{2})-\\frac{3}{2} \\ln 3 \\\\ & =2-\\sqrt{2}-\\ln (1+\\sqrt{2})\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "a9898939a6ad456f82a3e0e6f53a2503",
+    "videoId": "2e348a7c88554df083fc5791310d6227",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/0OPWbOH5TZzq7.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/0OPWbOH5TZzq7.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/M6jI11zdXzzUa.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/M6jI11zdXzzUa.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
@@ -71,12 +71,12 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "67a2eb5ca6d4514bf2d97609",
+    "_id": "6852f2ff9d87935e0d80978c",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-01-22T14:00:00.000Z",
+    "heldOn": "2025-04-02T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (22 Jan Shift 2)",
-    "title": "JEE Main 2025 (22 Jan Shift 2)"
+    "shortName": "2025 (2 Apr Shift 2)",
+    "title": "JEE Main 2025 (2 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

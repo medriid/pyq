@@ -1,33 +1,58 @@
 {
-  "_id": "67a2eed8c8b73881fdaea363",
-  "type": "numerical",
+  "_id": "68542c5b7c09d044e4c1a18f",
+  "type": "singleCorrect",
   "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "67a2eb5da6d4514bf2d97611",
+      "_id": "6852f2fe9d87935e0d809786",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-01-29T14:00:00.000Z",
+      "heldOn": "2025-04-03T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (29 Jan Shift 2)",
-      "title": "JEE Main 2025 (29 Jan Shift 2)"
+      "shortName": "2025 (3 Apr Shift 2)",
+      "title": "JEE Main 2025 (3 Apr Shift 2)"
     }
   ],
   "question": {
-    "text": "Two cars $P$ and $Q$ are moving on a road in the same direction. Acceleration of car $P$ increases linearly with time whereas car $Q$ moves with a constant acceleration. Both cars cross each other at time $t=0$, for the first time. The maximum possible number of crossing(s) (including the crossing at $t=0)$ is ________.",
+    "text": "A particle moves along the $x$-axis and has its displacement $x$ varying with time $t$ according to the equation $\\mathrm{x}=\\mathrm{c}_0\\left(\\mathrm{t}^2-2\\right)+\\mathrm{c}(\\mathrm{t}-2)^2$ where $c_0$ and $c$ are constants of appropriate dimensions. Then, which of the following statements is correct?",
     "image": null
   },
-  "options": [],
-  "correctValue": "3",
+  "options": [
+    {
+      "id": "KLtag",
+      "text": "the acceleration of the particle is $2 \\mathrm{c}_0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "w80vJ",
+      "text": "the acceleration of the particle is $2\\mathrm{~c}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "bCGKQ",
+      "text": "the initial velocity of the particle is $4\\mathrm{~c}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "zCI7e",
+      "text": "the acceleration of the particle is $2\\left(c+c_0\\right)$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "$\\mathrm{a}_{\\mathrm{p}}=\\mathrm{kt}, \\mathrm{k}$ is constant\n$\\mathrm{a}_{\\mathrm{Q}}=\\mathrm{a}, \\mathrm{a}$ is constant\n$\\mathrm{a}_{\\mathrm{QP}}=\\mathrm{a}_{\\mathrm{Q}}-\\mathrm{a}_{\\mathrm{p}}=\\mathrm{a}-\\mathrm{kt}$\nas initial velocities are not mentioned in question, so will have to assume two cases.\nCase-I\n$\\mathrm{u}_{\\mathrm{OP}}$ and $\\mathrm{a}_{\\mathrm{QP}}$ in same direction\n\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/YVqoMWrcdKkZWOfDuL9SRjgzO469s7gZVsL26HNEZSE.original.fullsize.png\"><br>\n\nTotal number of crossing $=2$ Case-II\n$\\mathrm{u}_{\\mathrm{QP}}$ and $\\mathrm{a}_{\\mathrm{QP}}$ in opposite direction<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/qhOC8SkrpuasljZGOfd0Kp0Rwz76-S4nM8eSmzX-5gQ.original.fullsize.png\"><br>\n\n\n\nTotal number of crossing $=3$",
+    "text": "$\\begin{aligned} & \\mathrm{v}=\\frac{\\mathrm{dx}}{\\mathrm{dt}}=2 \\mathrm{tC}_0+2 \\mathrm{C}(\\mathrm{t}-2) \\\\ & \\mathrm{a}=\\frac{\\mathrm{dv}}{\\mathrm{dt}}=2 \\mathrm{C}_0+2 \\mathrm{C}\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "9e0891d6c17e4062b088f342067494a3",
+    "videoId": "e1a82d0e351d4a2f8f7af2599e07ea39",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/QSPK4FB2C7wkT.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/QSPK4FB2C7wkT.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/9prJPiVsHbKQC.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/9prJPiVsHbKQC.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
@@ -46,12 +71,12 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "67a2eb5da6d4514bf2d97611",
+    "_id": "6852f2fe9d87935e0d809786",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-01-29T14:00:00.000Z",
+    "heldOn": "2025-04-03T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (29 Jan Shift 2)",
-    "title": "JEE Main 2025 (29 Jan Shift 2)"
+    "shortName": "2025 (3 Apr Shift 2)",
+    "title": "JEE Main 2025 (3 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

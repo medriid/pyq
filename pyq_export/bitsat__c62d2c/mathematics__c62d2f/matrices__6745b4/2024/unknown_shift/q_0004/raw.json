@@ -1,0 +1,63 @@
+{
+  "_id": "67726d00c49e8ef28ee2b379",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6414",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 1)",
+      "title": "BITSAT 2024 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "If $A=\\left[\\begin{array}{cc}1 & 0 \\\\ 0 & -1\\end{array}\\right], P=\\left[\\begin{array}{ll}1 & 1 \\\\ 0 & 1\\end{array}\\right]$ and $X=A P A^T$, then $A^T X^{50} A=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "NS6zi",
+      "text": "$\\left[\\begin{array}{ll}0 & 1 \\\\ 1 & 0\\end{array}\\right]$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Gf84Y",
+      "text": "$\\left[\\begin{array}{cc}2 & 1 \\\\ 0 & -1\\end{array}\\right]$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "NnmtO",
+      "text": "$\\left[\\begin{array}{cc}25 & 1 \\\\ 1 & -25\\end{array}\\right]$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "LamP8",
+      "text": "$\\left[\\begin{array}{cc}1 & 50 \\\\ 0 & 1\\end{array}\\right]$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Since $A A^T=I$ therefore matrix $A$ is orthogonal matrix.\nNow, $A^T X^{50} A=A^T X^{49}\\left(A P A^T\\right) A$\n$=A^T X^{49} A P\\left(A^T A\\right)=A^T X^{49} A P$\n$=A^T X^{48}\\left(A P A^T\\right) A P=A^T X^{48} A P^2 \\ldots \\ldots$.\n$=A^T A P^{50}=I P^{50}=P^{50}$\n$\\because \\quad P=\\left[\\begin{array}{ll}1 & 1 \\\\ 0 & 1\\end{array}\\right] \\Rightarrow P^2=\\left[\\begin{array}{ll}1 & 2 \\\\ 0 & 1\\end{array}\\right]$\n$\\Rightarrow P^3=\\left[\\begin{array}{ll}1 & 3 \\\\ 0 & 1\\end{array}\\right] \\ldots .$.\n$\\Rightarrow \\quad P^{50}=\\left[\\begin{array}{cc}1 & 50 \\\\ 0 & 1\\end{array}\\right]$\nSo, $A^T X^{50} A=P^{50}=\\left[\\begin{array}{cc}1 & 50 \\\\ 0 & 1\\end{array}\\right]$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6414",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 1)",
+    "title": "BITSAT 2024 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 200,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2011",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0cf69476412f48314dac",
+    "subject_name": "Chemistry",
+    "chapter_id": "616024c970aaf69ed7837139",
+    "chapter_name": "Solutions",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The degree of dissociation $(\\alpha)$ of a weak electrolyte, $A_x B_y$ is related to van't Hoff factor (i) by the expression:"
+  },
+  "options": [
+    {
+      "text": "\n$\\alpha=\\frac{i-1}{x+y+1}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\alpha=\\frac{x+y-1}{i-1}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\alpha=\\frac{x+y+1}{i-1}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\alpha=\\frac{i-1}{(x+y-1)}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& i=1-\\alpha+n \\alpha=1+\\alpha(n-1) \\\\\n& \\frac{i-1}{n-1}=\\alpha \\\\\n& A_x B_y \\rightarrow x A^{+y}+y B^{-x} \\\\\n& n=x+y\n\\end{aligned}\n$$\nSo $\\alpha=\\frac{i-1}{x+y-1}$"
+  }
+}

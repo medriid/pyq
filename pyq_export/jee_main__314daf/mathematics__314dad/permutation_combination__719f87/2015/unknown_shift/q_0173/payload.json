@@ -1,0 +1,43 @@
+{
+  "index": 173,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2015 (04 Apr)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> be two sets containing four and two elements respectively. Then the number of subsets of the set&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>&#215;</mo><mi>B</mi></math>, each having at least three elements is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>510</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>219</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>256</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>275</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p>Given&nbsp;<math><mi>n</mi><mfenced separators=\"|\"><mrow><mi>A</mi></mrow></mfenced><mo>=</mo><mn>4</mn></math></p><p><math><mi>n</mi><mfenced separators=\"|\"><mrow><mi>B</mi></mrow></mfenced><mo>=</mo><mn>2</mn></math></p><p>Number of elements in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mfenced><mrow><mi>A</mi><mi>&#160;</mi><mo>&#215;</mo><mi>&#160;</mi><mi>B</mi></mrow></mfenced><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>4</mn><mo>=</mo><mn>8</mn></math></p><p>Number of subsets<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>2</mn><mn>8</mn></msup></math></p><p>Number of subsets having less than&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>&nbsp;elements&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mo>=</mo><mn>8</mn></msup><msub><mi>C</mi><mn>0</mn></msub><mo>+</mo><msub><mmultiscripts><mi>C</mi><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts><mn>1</mn></msub><mo>+</mo><msub><mmultiscripts><mi>C</mi><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts><mn>2</mn></msub></math></p><p>Number of subsets having at least&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>&nbsp;elements<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>2</mn><mn>8</mn></msup><msup><mo>-</mo><mn>8</mn></msup><msub><mi>C</mi><mn>0</mn></msub><mo>-</mo><msub><mmultiscripts><mi>C</mi><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts><mn>1</mn></msub><mo>-</mo><msub><mmultiscripts><mi>C</mi><mprescripts></mprescripts><none></none><mn>8</mn></mmultiscripts><mn>2</mn></msub></math></p><p><math><mo>=</mo><mn>256</mn><mo>-</mo><mn>1</mn><mo>-</mo><mn>8</mn><mo>-</mo><mn>28</mn></math></p><p><math><mo>=</mo><mn>219</mn></math></p>"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "index": 7,
   "type": "singleCorrect",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2025 (28 Jan Shift 2)",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "If $A$ and $B$ are the points of intersection of the circle $x^2+y^2-8 x=0$ and the hyperbola $\\frac{x^2}{9}-\\frac{y^2}{4}=1$ and a point P moves on the line $2 x-3 y+4=0$, then the centroid of $\\triangle \\mathrm{PAB}$ lies on the line :"
+    "text": "Let $e_1$ and $e_2$ be the eccentricities of the ellipse $\\frac{\\mathrm{x}^2}{\\mathrm{~b}^2}+\\frac{\\mathrm{y}^2}{25}=1 \\quad$ and the hyperbola $\\quad \\frac{\\mathrm{x}^2}{16}-\\frac{\\mathrm{y}^2}{\\mathrm{~b}^2}=1$, respectively. If $\\mathrm{b} \\lt 5$ and $\\mathrm{e}_1 \\mathrm{e}_2=1$, then the eccentricity of the ellipse having its axes along the coordinate axes and passing through all four foci (two of the ellipse and two of the hyperbola) is :"
   },
   "options": [
     {
-      "text": "$x+9 y=36$",
+      "text": "$\\frac{4}{5}$",
       "is_correct": false
     },
     {
-      "text": "$4 x-9 y=12$",
-      "is_correct": false
-    },
-    {
-      "text": "$6 x-9 y=20$",
+      "text": "$\\frac{3}{5}$",
       "is_correct": true
     },
     {
-      "text": "$9 x-9 y=32$",
+      "text": "$\\frac{\\sqrt{7}}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\sqrt{3}}{2}$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "C"
+    "B"
   ],
   "solution": {
-    "text": "C: $x^2+y^2-8 x=0$ $\\mathrm{H}: \\frac{x^2}{9}-\\frac{y^2}{4}=1$\nBy solving $\\frac{x^2}{9}-\\left(\\frac{8 x-x^2}{4}\\right)=1$\n$\\begin{aligned}\n& 4 x^2-72 x+9 x^2=36 \\\\\n& \\Rightarrow 13 x^2-72 x-36=0 \\\\\n& \\Rightarrow 13 x^2-78 x+6 x-36=0 \\\\\n& \\Rightarrow 13 x(x-6)+6(x-6)=0 \\\\\n& \\Rightarrow x=6 \\text { or }-\\frac{13}{6} \\times \\text { neglected } \\\\\n& \\Rightarrow y^2=8(6)-(6)^2 \\\\\n& \\Rightarrow y= \\pm \\sqrt{12}\n\\end{aligned}$\nSo, points $A$ and $B$ are $(6, \\sqrt{12}),(6,-\\sqrt{12})$\n$P\\left(h, \\frac{2 h+4}{3}\\right)$\nCentroid of $\\triangle P A B$ is $\\left(\\frac{12+h}{3}, \\frac{2 h+4}{9}\\right)$\nBy options this centroid lies on the live $6 x-9 y=20$"
+    "text": "$\\begin{aligned}<br/>& \\mathrm{e}_1^2=1-\\frac{\\mathrm{b}^2}{25} \\quad \\mathrm{e}_2^2=1-\\frac{\\mathrm{b}^2}{16} \\\\\n& \\therefore \\mathrm{e}_1^2 \\mathrm{e}_2^2=1 \\\\\n& \\left(1-\\frac{\\mathrm{b}^2}{25}\\right)\\left(1+\\frac{\\mathrm{b}^2}{16}\\right)=1 \\\\\n& \\Rightarrow 2+\\frac{\\mathrm{b}^2}{16}-\\frac{\\mathrm{b}^2}{25}-\\frac{\\mathrm{b}^2}{400}=1 \\\\\n& \\Rightarrow \\frac{9 \\mathrm{~b}^2}{400}=\\frac{\\mathrm{b}^4}{400} \\\\\n& \\mathrm{~b}^2=9 \\\\\n& \\frac{\\mathrm{x}^2}{9}+\\frac{\\mathrm{y}^2}{25}=1 \\quad \\frac{\\mathrm{x}^2}{16}-\\frac{\\mathrm{y}^2}{9}=0 \\\\\n& \\mathrm{e}_1 \\sqrt{1-\\frac{9}{25}} \\\\\n& \\mathrm{e}_1=\\frac{4}{5}<br/>\\end{aligned}$<br/>Focii : - $(0, \\pm 4) \\quad( \\pm 5,0)$<br/>ellipse passing through all four foci<br/>$\\begin{aligned}<br/>& \\frac{x^2}{25}+\\frac{y^2}{16}=1 \\\\\n& e=\\sqrt{1-\\frac{16}{25}}=\\frac{3}{5}<br/>\\end{aligned}$"
   }
 }

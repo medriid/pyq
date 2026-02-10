@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd70643383b6c26bfb1d",
+    "chapter_name": "Magnetic Effects of Current",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A long straight wire along the $Z$ -axis carries a current I in the negative $Z$ -direction. The\r\n\r\nmagnetic vector field $\\vec{B}$ at a point having coordinates $(x, y)$ in the $Z=0$ plane is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\mu_{0} I(y \\hat{i}-x \\hat{j})}{2 \\pi\\left(x^{2}+y^{2}\\right)}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\mu_{0} I(x \\hat{i}+y \\hat{j})}{2 \\pi\\left(x^{2}+y^{2}\\right)}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\mu_{0} I(x \\hat{j}-y \\hat{i})}{2 \\pi\\left(x^{2}+y^{2}\\right)}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\mu_{0} I(x \\hat{i}-y \\hat{j})}{2 \\pi\\left(x^{2}+y^{2}\\right)}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "The wire carries a current $I$ in the negative $z$ -direction. We have to consider the\r\n\r\nmagnetic vector field $\\vec{B}$ at $(x, y)$ in the $z=0$ plane.\r\n\r\n<img src=\"assets\\st0023_6fb570c6dbb0.png\"><br>\r\n\r\nMagnetic field $\\vec{B}$ is perpendicular to $O P$ $\\therefore \\vec{B}=B \\sin \\theta \\hat{i}-B \\cos \\theta \\hat{j}$\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\sin \\theta=\\frac{y}{r}, \\cos \\theta=\\frac{x}{r} B=\\frac{\\mu_{0} I}{2 \\pi r} \\\\\r\n\r\n\\therefore \\quad \\vec{B}=\\frac{\\mu_{0} I}{2 \\pi r^{2}}(y \\hat{i}-x \\hat{j})\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nor $\\quad \\vec{B}=\\frac{\\mu_{0} I(y \\hat{i}-x \\hat{j})}{2 \\pi\\left(x^{2}+y^{2}\\right)}$"
+  }
+}

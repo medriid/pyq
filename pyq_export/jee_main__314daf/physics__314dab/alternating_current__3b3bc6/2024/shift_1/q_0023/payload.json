@@ -1,8 +1,8 @@
 {
   "index": 23,
-  "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2024 (01 Feb Shift 1)",
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (05 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "In series LCR circuit, the capacitance is changed from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>C</mi></math>. To keep the resonance frequency unchanged, the new inductance should be :"
+    "text": "An ac source is connected in given series LCR circuit. The rms potential difference across the capacitor of $20 \\mu \\mathrm{F}$ is _____V.\n<img src=\"assets\\qt0023_455b84eca59a.png\"><br>"
   },
-  "options": [
-    {
-      "text": "reduced by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>L</mi></math>",
-      "is_correct": false
-    },
-    {
-      "text": "increased by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>L</mi></math>",
-      "is_correct": false
-    },
-    {
-      "text": "reduced by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>L</mi></math>",
-      "is_correct": true
-    },
-    {
-      "text": "increased to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>L</mi></math>",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "C"
-  ],
+  "options": [],
+  "correct_answer": "50",
   "solution": {
-    "text": "<p>As resonance frequency remains unchanged, therefore <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ω</mi><mo>'</mo><mo>=</mo><mi>ω</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mn>1</mn><msqrt><mi>L</mi><mo>'</mo><mi>C</mi><mo>'</mo></msqrt></mfrac><mo>=</mo><mfrac><mn>1</mn><msqrt><mi>L</mi><mi>C</mi></msqrt></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mo> </mo><mi>L</mi><mo>'</mo><mi>C</mi><mo>'</mo><mo>=</mo><mi>L</mi><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>L</mi><mo>'</mo><mfenced><mrow><mn>4</mn><mi>C</mi></mrow></mfenced><mo>=</mo><mi>L</mi><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>L</mi><mo>'</mo><mo>=</mo><mfrac><mi>L</mi><mn>4</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∵</mo></math> Inductance must be decreased by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>L</mi></mrow><mn>4</mn></mfrac></math>.</p>"
+    "text": "$\\begin{aligned} & \\mathrm{X}_{\\mathrm{L}}=\\omega \\mathrm{L}=100 \\times 1=100 \\Omega \\\\ & \\mathrm{X}_{\\mathrm{C}}=\\frac{1}{\\omega \\mathrm{C}}=\\frac{1}{100 \\times 20 \\times 10^{-6}}=500 \\Omega \\\\ & \\mathrm{Z}=\\sqrt{\\left(\\mathrm{X}_{\\mathrm{L}}-\\mathrm{X}_{\\mathrm{C}}\\right)^2+\\mathrm{R}^2} \\\\ & \\sqrt{(100-500)^2+300^2} \\\\ & \\mathrm{Z}=500 \\Omega \\\\ & \\mathrm{i}_{\\text {rms }}=\\frac{\\mathrm{V}_{\\text {rms }}}{\\mathrm{Z}}=\\frac{50}{500}=0.1 \\mathrm{~A} \\\\ & \\text { rms voltage across capacitor } \\\\ & \\mathrm{V}_{\\text {rms }}=\\mathrm{X}_{\\mathrm{C}} \\mathrm{i}_{\\text {rms }} \\\\ & =500 \\times 0.1=50 \\mathrm{~V}\\end{aligned}$"
   }
 }

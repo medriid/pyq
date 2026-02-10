@@ -1,0 +1,63 @@
+{
+  "_id": "67726d11c49e8ef28ee2b3fc",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6416",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T19:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 3)",
+      "title": "BITSAT 2024 (Memory Based Paper 3)"
+    }
+  ],
+  "question": {
+    "text": "Inside a solenoid of radius 0.5 m , magnetic field is changing at a rate of $50 \\times 10^{-6} \\mathrm{~T} / \\mathrm{s}$.\nAcceleration of an electron placed at a distance of 0.3 m from axis of solenoid will be",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "dUnJ3",
+      "text": "$23 \\times 10^6 \\mathrm{~ms}^{-2}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "d5sSP",
+      "text": "$26 \\times 10^6 \\mathrm{~m} / \\mathrm{s}^2$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "TJNmi",
+      "text": "$1.3 \\times 10^9 \\mathrm{~ms}^{-2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "D7rIV",
+      "text": "$26 \\times 10^9 \\mathrm{~m} / \\mathrm{s}^2$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "The changing magnetic field induce an electric field which will accelerate the electron.\nThe acceleration of electron will be\n$a=\\frac{e E}{m} \\quad[\\because F=q E]$\nTo find electric field $E$, we will use Faraday's electromagnetic induction.\n$\\mathrm{emf}, \\varepsilon=\\frac{-d \\phi}{d t}(B \\cdot A)$\nwhere, $B$ is the magnetic field and $A$ is the area of cross-section.\n$\\varepsilon=-A \\cdot \\frac{d B}{d t}=-\\pi r^2 \\frac{d B}{d t}$\nNow, electric field, $E=-\\frac{\\mathrm{emf}}{\\text { distance }}=-\\frac{\\dot{\\varepsilon}}{d}$\n$=\\frac{\\pi r^2}{d} \\frac{d B}{d t}$\nNow, acceleration, $a=\\frac{e}{m} \\frac{\\pi r^2}{d} \\frac{d B}{d t}$\n$=\\frac{1.6 \\times 10^{-19}}{9.1 \\times 10^{-31}} \\times \\frac{22}{7}$\n$\\begin{aligned} & \\times \\frac{(0.5)^2}{(0.3)} \\times 50 \\times 10^{-6} \\\\ & =23 \\times 10^6 \\mathrm{~ms}^{-2}\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6416",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T19:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 3)",
+    "title": "BITSAT 2024 (Memory Based Paper 3)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

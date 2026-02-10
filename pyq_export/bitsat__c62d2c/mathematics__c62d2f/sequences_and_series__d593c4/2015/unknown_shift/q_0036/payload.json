@@ -1,0 +1,43 @@
+{
+  "index": 36,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cb79820319dd593c4",
+    "chapter_name": "Sequences and Series",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\omega$ is the complex cube root of unity, then the value of $\\omega+\\omega^{\\left(\\frac{1}{2}+\\frac{3}{8}+\\frac{9}{32}+\\frac{27}{128}+\\ldots\\right)}$ is"
+  },
+  "options": [
+    {
+      "text": "-1",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\mathrm{i}$",
+      "is_correct": false
+    },
+    {
+      "text": "i",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Consider $\\frac{1}{2}+\\frac{3}{8}+\\frac{9}{32}+\\frac{27}{128}+\\ldots .$\r\n\r\nWhich can be written as\r\n\r\n$$\r\n\r\n\\frac{3^{0}}{2^{1}}+\\frac{3^{1}}{2^{3}}+\\frac{3^{2}}{2^{5}}+\\frac{3^{3}}{2^{7}}+\\ldots .\r\n\r\n$$ $=\\frac{1}{2}\\left[1+\\frac{3}{2^{2}}+\\frac{3^{2}}{2^{4}}+\\frac{3^{3}}{2^{6}}+\\ldots .\\right]$\r\n\r\nSince $\\left(1+\\frac{3}{2^{2}}+\\frac{3^{2}}{2^{4}}+_{--}-\\right)$ is a G.P.\r\n\r\ntherfore by sum of infinite G.P, we have\r\n\r\n$$\r\n\r\n=\\frac{1}{2}\\left[\\frac{1}{1-\\frac{3}{2^{2}}}\\right]=\\frac{1}{2}\\left[\\frac{1}{1-\\frac{3}{4}}\\right]=2\r\n\r\n$$\r\n\r\n$\\therefore \\quad$ Given expression\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n=-1 \\\\\r\n\r\n{\\left[\\because 1+\\omega+\\omega^{2}=0\\right]}\r\n\r\n\\end{array}\r\n\r\n$$"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "index": 8,
-  "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Let $f(x)$ be a real differentiable function such that $f(0)=1$ and $f(x+y)=f(x) f^{\\prime}(y)+f^{\\prime}(x) f(y)$ for all $x, y \\in \\mathbf{R}$. Then $\\sum_{\\mathrm{n}=1}^{100} \\log _{\\mathrm{e}} f(\\mathrm{n})$ is equal to :"
+    "text": "Let $m$ and $n$ be the number of points at which the function $f(\\mathrm{x})=\\max \\left\\{\\mathrm{x}, \\mathrm{x}^3, \\mathrm{x}^5, \\ldots ., \\mathrm{x}^{21}\\right\\}, \\mathrm{x} \\in \\mathbb{R}$, is not differentiable and not continuous, respectively. Then $\\mathrm{m}+\\mathrm{n}$ is equal to ________ ."
   },
-  "options": [
-    {
-      "text": "$2525$",
-      "is_correct": true
-    },
-    {
-      "text": "$5220$",
-      "is_correct": false
-    },
-    {
-      "text": "$2384$",
-      "is_correct": false
-    },
-    {
-      "text": "$2406$",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "A"
-  ],
+  "options": [],
+  "correct_answer": "3",
   "solution": {
-    "text": "$\\because f(x+y)=f(x) \\cdot f(y)+f(x) \\cdot f(y), \\forall x, y \\in R$ ....(i)\nAnd $f(0)=1$   ....(ii)\nNow replace $x$ by zero and $y$ by zero we get\n$\\begin{aligned}\n& f(0)=f(0) f(0)+f(0) f(0) \\\\\n& 1=f(0)+f(0) \\\\\n& \\therefore \\quad f^{\\prime}(0)=\\frac{1}{2} ...(iii)\n\\end{aligned}$\nNow replace $y$ by zero in equation (i), we get\n$f(x)=\\frac{1}{2} f(x)+f^{\\prime}(x)$\nor, $\\frac{1}{2} f(x)=f^{\\prime}(x)$\nthen $\\frac{f^{\\prime}(x)}{f(x)}=\\frac{1}{2}$\nhence $\\ln |f(x)|=\\frac{x}{2}+c$\nPut $x=0$, we get $c=0$\n$\\therefore \\quad \\ln |f(x)|=\\frac{x}{2}$\nThen $\\sum_{n=1}^{100} \\ln (f(\\eta))=\\left(\\frac{1}{2}+\\frac{2}{2}+\\frac{3}{2}+\\ldots+\\frac{100}{2}\\right)$\n$=\\frac{5050}{2}=2525$"
+    "text": "$f(x)=\\left\\{\\begin{array}{cc}<br/>x, & x \\lt -1 \\\\\nx^{21}, & -1 \\leq x \\lt 0 \\\\\nx, & 0 \\leq x \\lt 1 \\\\\nx^{21}, & x \\geq 1<br/>\\end{array}\\right.$<br/>$f(x)$ is continuous everywhere.<br/>$\\begin{aligned}<br/>& \\therefore \\mathrm{n}=0 \\\\\n& \\mathrm{f}^{\\prime}(\\mathrm{x})=\\left\\{\\begin{array}{cc}<br/>1, & \\mathrm{x} \\lt -1 \\\\\n21 \\mathrm{x}^{20}, & -1 \\leq \\mathrm{x} \\lt 0 \\\\\n1, & 0 \\lt \\mathrm{x} \\lt 1 \\\\\n21 \\mathrm{x}^{20}, & \\mathrm{x} \\geq 1<br/>\\end{array}\\right.<br/>\\end{aligned}$<br/>$\\therefore \\mathrm{f}(\\mathrm{x})$ is non-differentiable at $\\mathrm{x}=-1,0,1$<br/>$\\begin{aligned}<br/>& \\therefore \\mathrm{m}=3 \\\\\n& \\mathrm{~m}+\\mathrm{n}=3<br/>\\end{aligned}$"
   }
 }

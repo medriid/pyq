@@ -1,0 +1,43 @@
+{
+  "index": 223,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2013 (25 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The equation of the curve passing through the origin and satisfying the differential equation $\\left(1+x^2\\right) \\frac{d y}{d x}+2 x y=4 x^2$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\left(1+x^2\\right) y=x^3$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$3\\left(1+x^2\\right) y=2 x^3$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left(1+x^2\\right) y=3 x^3$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$3\\left(1+x^2\\right) y=4 x^3$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given differential equation is\n$$\n\\begin{aligned}\n&\\left(1+x^2\\right) \\frac{d y}{d x}+2 x y=4 x^2 \\\\\n&\\Rightarrow \\frac{d y}{d x}+\\left(\\frac{2 x}{1+x^2}\\right) y=\\frac{4 x^2}{1+x^2}\n\\end{aligned}\n$$\nThis is linear diff. equation\n$$\n\\mathrm{I} . \\mathrm{F}=e^{\\int \\frac{2 x}{1+x^2} d x}=e^{\\log \\left(1+x^2\\right)}=1+x^2\n$$\nSolution is\n$$\n\\begin{aligned}\n&y\\left(1+x^2\\right)=\\int \\frac{4 x^2}{1+x^2} \\times 1+x^2+\\mathrm{C} \\\\\n&\\Rightarrow y\\left(1+x^2\\right)=\\frac{4 x^3}{3}+\\mathrm{C} \\\\\n&\\Rightarrow \\text { Required curve is } \\\\\n&3 y\\left(1+x^2\\right)=4 x^3(\\because \\mathrm{C}=0)\n\\end{aligned}\n$$"
+  }
+}

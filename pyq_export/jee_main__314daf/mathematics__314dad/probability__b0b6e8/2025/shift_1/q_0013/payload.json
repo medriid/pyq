@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "A box contains 10 pens of which 3 are defective. A sample of 2 pens is drawn at random and let $X$ denote the number of defective pens. Then the variance of X is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{11}{15}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{28}{75}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{2}{15}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{3}{5}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "\\begin{array}{|r|c|c|c|}\\hline x & \\mathrm{x}=0 & \\mathrm{x}=1 & \\mathrm{x}=2 \\\\\\hline \\mathrm{P}(\\mathrm{x}) & \\frac{{ }^7 \\mathrm{C}_2}{{ }^{10} \\mathrm{C}_2} & \\frac{{ }^7 \\mathrm{C}_1^3 \\mathrm{C}_1}{{ }^{10} \\mathrm{C}_2} & { }^3{ }^{10} \\mathrm{C}_2 \\\\\\hline\\end{array}<br/>$\\begin{aligned} & \\mu=\\Sigma \\mathrm{x}_{\\mathrm{i}} \\mathrm{P}\\left(\\mathrm{x}_{\\mathrm{i}}\\right)=0+\\frac{7}{15}+\\frac{2}{15}=\\frac{3}{5} \\\\ & \\text { Variance }(\\mathrm{x})=\\Sigma \\mathrm{P}_{\\mathrm{i}}\\left(\\mathrm{x}_{\\mathrm{i}}-\\mu\\right)^2=\\frac{28}{75}\\end{aligned}$"
+  }
+}

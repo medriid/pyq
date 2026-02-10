@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2016",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7f4ea4ca4e8a493885",
+    "chapter_name": "Electromagnetic Induction",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A conducting circular loop is placed in a uniform magnetic field of $0.04 \\mathrm{~T}$ with its plane perpendicular to the magnetic field. The radius of the loop starts shrinking at $2 \\mathrm{~mm} / \\mathrm{s}$. The induced emf in the loop when the radius is $2 \\mathrm{~cm}$ is"
+  },
+  "options": [
+    {
+      "text": "$4.8 \\pi \\mu \\mathrm{V}$",
+      "is_correct": false
+    },
+    {
+      "text": "$0.8 \\pi \\mu \\mathrm{V}$",
+      "is_correct": false
+    },
+    {
+      "text": "$1.6 \\pi \\mu \\mathrm{V}$",
+      "is_correct": false
+    },
+    {
+      "text": "$3.2 \\pi \\mu \\mathrm{V}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Induced emf in the loop is given by\r\n\r\n$\\mathrm{e}=-\\mathrm{B} \\cdot \\frac{\\mathrm{d} \\mathrm{A}}{\\mathrm{dt}}$ where $\\mathrm{A}$ is the area of the loop.\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\mathrm{e}=-\\mathrm{B} \\cdot \\frac{\\mathrm{d}}{\\mathrm{dt}}\\left(\\pi \\mathrm{r}^{2}\\right)=-\\mathrm{B} \\pi 2 \\mathrm{r} \\frac{\\mathrm{dr}}{\\mathrm{dt}} \\\\\r\n\r\n\\mathrm{r}=2 \\mathrm{~cm}=2 \\times 10^{-2} \\mathrm{~m} \\\\\r\n\r\n\\mathrm{dr}=2 \\mathrm{~mm}=2 \\times 10^{-3} \\mathrm{~m} \\\\\r\n\r\n\\mathrm{dt}=1 \\mathrm{~s} \\\\\r\n\r\n\\mathrm{e}=-0.04 \\times 3.14 \\times 2 \\times 2 \\times 10^{-2} \\times \\frac{2 \\times 10^{-3}}{1} \\mathrm{~V} \\\\\r\n\r\n=0.32 \\pi \\times 10^{-5} \\mathrm{~V} \\\\\r\n\r\n=3.2 \\pi \\times 10^{-6} \\mathrm{~V} \\\\\r\n\r\n=3.2 \\pi \\mu \\mathrm{V}\r\n\r\n\\end{array}\r\n\r\n$$"
+  }
+}

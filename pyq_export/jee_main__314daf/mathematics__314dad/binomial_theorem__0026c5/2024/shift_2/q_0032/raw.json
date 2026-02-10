@@ -1,0 +1,63 @@
+{
+  "_id": "6644675f970e6e9ab542d2b8",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda71",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-09T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (09 Apr Shift 2)",
+      "title": "JEE Main 2024 (09 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "The sum of the coefficient of $x^{2 / 3}$ and $x^{-2 / 5}$ in the binomial expansion of $\\left(x^{2 / 3}+\\frac{1}{2} x^{-2 / 5}\\right)^9$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "fmJ49",
+      "text": "$21 / 4$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "KOeoV",
+      "text": "$63 / 16$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "8UcJ4",
+      "text": "$19 / 4$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "THkyG",
+      "text": "$69 / 16$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{T}_{\\mathrm{r}+1}={ }^9 \\mathrm{C}_{\\mathrm{r}}\\left(\\mathrm{x}^{2 / 3}\\right)^{9-\\mathrm{r}}\\left(\\frac{\\mathrm{x}^{-2 / 5}}{2}\\right)^{\\mathrm{r}} \\\\ & ={ }^9 \\mathrm{C}_{\\mathrm{r}}\\left(\\frac{1}{2}\\right)^{\\mathrm{r}}(\\mathrm{r})^{\\left(6 \\frac{2 \\mathrm{r}}{3} \\frac{2 \\mathrm{r}}{5}\\right)}\\end{aligned}$<br />for coefficient of $x^{2 / 3}$, put $6-\\frac{2 r}{3}-\\frac{2 r}{5}=\\frac{2}{3}$\n$\\Rightarrow \\mathrm{r}=5$\n$\\therefore$ Coefficient of $\\mathrm{x}^{2 / 3}$ is $={ }^9 \\mathrm{C}_5\\left(\\frac{1}{5}\\right)^5$\nFor coefficient of $x^{-2 / 5}$, put $6-\\frac{2 r}{3}-\\frac{2 r}{5}=-\\frac{2}{5}$\n$\\Rightarrow \\mathrm{r}=6$\nCoefficient of $\\mathrm{x}^{-2 / 5}$ is ${ }^9 \\mathrm{C}_6\\left(\\frac{1}{2}\\right)^6$\n$\\text {Sum }={ }^9 \\mathrm{C}_5\\left(\\frac{1}{2}\\right)^5+{ }^9 \\mathrm{C}_6\\left(\\frac{1}{2}\\right)^6=\\frac{21}{4}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda71",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-09T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (09 Apr Shift 2)",
+    "title": "JEE Main 2024 (09 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

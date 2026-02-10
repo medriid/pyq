@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d656f9",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2005-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2005",
+      "title": "JEE Main 2005"
+    }
+  ],
+  "question": {
+    "text": "Let $\\vec{a}=\\hat{i}-\\hat{k}, \\vec{b}=x \\hat{i}+\\hat{j}+(1-x) \\hat{k}$ and $\\vec{c}=y \\hat{i}+x \\hat{j}+(1+x-y) \\hat{k}$. Then $[\\vec{a}, \\vec{b}, \\vec{c}]$ depends on",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "mAF0A",
+      "text": "\nonly $y$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "XDN1Q",
+      "text": "\nonly $\\mathrm{x}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "DvLdD",
+      "text": "\nboth $x$ and $y$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Kq3i4",
+      "text": "\nneither $x$ nor $y$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\vec{a}=\\hat{i}-\\hat{k}, \\vec{b}=x \\hat{i}+\\hat{j}+(1-x) \\hat{k}$ and $\\vec{c}=y \\hat{i}+x \\hat{j}+(1+x-y) \\hat{k}$\n$[\\vec{a} \\vec{b} \\vec{c}]=\\vec{a} \\cdot(\\vec{b} \\times \\vec{c})$\n$$\n\\begin{aligned}\n& \\vec{b} \\times \\vec{c}=\\left|\\begin{array}{ccc}\n\\hat{i} & \\hat{j} & \\hat{k} \\\\\nx & 1 & 1-x \\\\\ny & x & 1+x-y\n\\end{array}\\right|=\\hat{i}\\left(1+x-x-x^2\\right)-\\hat{j}\\left(x+x^2-x y-y+x y\\right)+\\hat{k}\\left(x^2-y\\right) \\\\\n& \\vec{a} .(\\vec{b} \\times \\vec{c})=1\n\\end{aligned}\n$$\nwhich does not depend on $\\mathrm{x}$ and $\\mathrm{y}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "outOfSyllabusButGoodToSolve",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2005-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2005",
+    "title": "JEE Main 2005"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

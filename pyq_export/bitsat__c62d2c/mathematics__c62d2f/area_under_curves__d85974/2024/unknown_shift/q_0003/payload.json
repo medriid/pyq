@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd837f780b3c67d85974",
+    "chapter_name": "Area Under Curves",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area of the region bounded by the curves $x$ $=y^2-2$ and $x=y$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{9}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$9$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{9}{2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{9}{7}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given, $x=y^2-2$ and $x=y$.\n<img src=\"assets\\st0003_34c093a68b74.png\"/>\nOn solving, $x=y^2-2$ and $x=y$, we get $(-1,-1)$ and $(2,2)$.\nArea of the shaded region,\n$\\begin{aligned}\n& A=\\int_{-1}^2 y d y-\\int_{-1}^2\\left(y^2-2\\right) d y \\\\\n& =\\left[\\frac{y^2}{2}-\\frac{y^3}{3}+2 y\\right]_{-1}^2=\\left(\\frac{4}{2}-\\frac{8}{3}+4\\right)-\\left(\\frac{1}{2}+\\frac{1}{3}-2\\right) \\\\\n& =\\frac{10}{3}+\\frac{7}{6}=\\frac{27}{6}=\\frac{9}{2} .\n\\end{aligned}$"
+  }
+}

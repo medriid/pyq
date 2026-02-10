@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65af9",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7cc",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (Offline)",
+      "title": "JEE Main 2012 (Offline)"
+    }
+  ],
+  "question": {
+    "text": "If a simple pendulum has significant amplitude (up to a factor of $1 / e$ of original) only in the period between $t=0s$ to $t=\\tau s$, then $\\tau$ may be called the average life of the pendulum. When the spherical bob of the pendulum suffers a retardation (due to viscous drag) proportional to its velocity, with '$b$' as the constant of proportionality, the average life time of the pendulum is (assuming damping is small) in seconds:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "XSl9j",
+      "text": "\n$\\frac{0.693}{b}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "6rD48",
+      "text": "\n$b$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "x3ySV",
+      "text": "\n$\\frac{1}{b}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "GBArL",
+      "text": "\n$\\frac{2}{b}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/u6onzww-6Tb1MlCgGBbGm2uVMEq2eEKi4MaR3424yvc.original.fullsize.png\"><br>\nAs retardation $=\\mathrm{bv}$\n$\\therefore$ retarding force $=\\mathrm{mbv}$\n$\\therefore$ net restoring torque when angular displacement is $\\theta$ is given by $=-\\operatorname{mg} \\ell \\sin \\theta+\\operatorname{mbv} \\ell$\n$\\therefore \\quad \\mathrm{I} \\alpha=-m g \\ell \\sin \\theta+\\operatorname{mbv} \\ell$\nwhere, $\\mathrm{I}=\\mathrm{m} \\ell^2$\n$\\therefore \\quad \\frac{\\mathrm{d}^2 \\theta}{\\mathrm{dt}^2}=\\alpha=-\\frac{\\mathrm{g}}{\\ell} \\sin \\theta+\\frac{\\mathrm{bv}}{\\ell}$\nfor small damping, the solution of the above differential equation will be\n$\\therefore \\quad \\theta=\\theta_0 \\mathrm{e}^{-\\frac{\\mathrm{bt}}{2}} \\sin (w t+\\phi)$\n$\\therefore \\quad$ angular amplitude will be $=\\theta . e^{\\frac{-b t}{2}}$\nAccording to question, in $\\tau$ time (average life-time),\nangular amplitude drops to $\\frac{1}{e}$ value of its original value\n$(\\theta)$\n$\\therefore \\quad \\frac{\\theta_0}{\\mathrm{e}}=\\theta_0 \\mathrm{e}^{-\\frac{6 \\tau}{2}}$\n$\\frac{6 \\tau}{2}=1$\n$\\therefore \\quad \\tau=\\frac{2}{b}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7cc",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (Offline)",
+    "title": "JEE Main 2012 (Offline)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

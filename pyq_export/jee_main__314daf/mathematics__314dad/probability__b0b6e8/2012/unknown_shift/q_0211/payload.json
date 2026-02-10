@@ -1,0 +1,43 @@
+{
+  "index": 211,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (12 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A number $n$ is randomly selected from the set $\\{1,2,3, \\ldots ., 1000\\}$. The probability that $\\frac{\\sum_{i=1}^n i^2}{\\sum_{i=1}^n i}$ is an integer is"
+  },
+  "options": [
+    {
+      "text": "\n$0.331$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$0.333$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$0.334$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$0.332$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\frac{\\sum_{i=1}^n i^2}{\\sum_{i=1}^n i}=\\frac{\\frac{n(n+1)(2 n+1)}{6}}{\\frac{n(n+1)}{2}}=\\frac{2 n+1}{3}$ For $n=1,2,3, \\ldots . ., 1000$ Value of $\\frac{2 n+1}{3}=\\frac{3}{3}, \\frac{5}{3}, \\frac{7}{3}, \\ldots \\ldots \\ldots, \\frac{2001}{3}$ respectively. Out of $\\frac{3}{3}, \\frac{5}{3}, \\frac{7}{3}, \\ldots \\ldots \\ldots, \\frac{2001}{3}$ only first term $\\left(\\frac{3}{3}=1\\right)$, fourth term $\\left(\\frac{9}{3}=3\\right), 667^{\\text {th }}$ term $\\left(\\frac{2001}{3}=667\\right)$ are integers.\nHence, out of 1000 values of $\\frac{2 n+1}{3}$, total number of integral values of $\\frac{2 n+1}{3}$ $=333+1=334$\n$\\therefore \\quad$ Required probability $=\\frac{334}{1000}=0.334$"
+  }
+}

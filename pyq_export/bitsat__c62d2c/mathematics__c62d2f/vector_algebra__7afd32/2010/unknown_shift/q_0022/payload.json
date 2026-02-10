@@ -1,0 +1,43 @@
+{
+  "index": 22,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2010",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd74291eeb125c7afd32",
+    "chapter_name": "Vector Algebra",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Which one of the following is the unit vector perpendicular to both \\(\\vec{a}=-\\hat{i}+\\hat{j}+\\hat{k}\\) and \\(\\overrightarrow{\\mathrm{b}}=\\hat{\\mathrm{i}}-\\hat{\\mathrm{j}}+\\hat{\\mathrm{k}}\\) ?"
+  },
+  "options": [
+    {
+      "text": "\\(\\frac{\\hat{\\mathrm{i}}+\\hat{\\mathrm{j}}}{\\sqrt{2}}\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(\\hat{\\mathrm{k}}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{\\hat{\\mathrm{j}}+\\hat{\\mathrm{k}}}{\\sqrt{2}}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{\\hat{\\mathrm{i}}-\\hat{\\mathrm{j}}}{\\sqrt{2}}\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "According to question \\(\\mathrm{a}=-\\hat{i}+\\hat{j}+\\hat{k}\\) and \\(\\mathrm{b}=\\hat{i}-\\hat{j}+\\hat{k}\\)\nThen, \\(\\mathrm{a} \\times \\mathrm{b}=\\left|\\begin{array}{lll}\\hat{i} & \\hat{j} & \\hat{k} \\\\ -1 & 1 & 1 \\\\ 1 & -1 & 1\\end{array}\\right|\\)\n\\(\\begin{gathered}\n=\\hat{i}[1+1]-\\hat{j}[-1-1]+\\hat{k}[1-1]=2(\\hat{i}+\\hat{j}) \\\\\n\\quad \\text { and }|\\mathrm{a} \\times \\mathrm{b}|=\\sqrt{4+4}=2 \\sqrt{2}\n\\end{gathered}\\)\n\\(\\therefore \\text { Required unit vector }= \\pm \\frac{2(\\hat{i}+\\hat{j})}{2 \\sqrt{2}}= \\pm \\frac{\\hat{i}+\\hat{j}}{\\sqrt{2}}\\)"
+  }
+}

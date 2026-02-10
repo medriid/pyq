@@ -1,0 +1,43 @@
+{
+  "index": 177,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "8-digit numbers are formed using the digits 1, 1, 2, $2,2,3,4,4$. The number of such numbers in which the odd digits do no occupy odd places, is:"
+  },
+  "options": [
+    {
+      "text": "\n160\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n120\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n60\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n48",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "In 8 digits numbers, 4 places are odd places.\nAlso, in the given 8 digits, there are three odd digits 1,1 and 3.\nNo. of ways three odd digits arranged at\n$$\n\\text { four even places }=\\frac{4 P_3}{2 !}=\\frac{4 !}{2 !}\n$$\nNo. of ways the remaining five digits 2 , 2, 2, 4 and 4 arranged at remaining five places $=\\frac{5 !}{3 ! 2 !}$\nHence, required number of 8 digits number $=\\frac{4 !}{2 !} \\times \\frac{5 !}{3 ! 2 !}=120$"
+  }
+}

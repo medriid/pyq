@@ -1,0 +1,63 @@
+{
+  "_id": "66446760970e6e9ab542d2be",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ef278297dee60eda71",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-09T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (09 Apr Shift 2)",
+      "title": "JEE Main 2024 (09 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If $\\log _e y=3 \\sin ^{-1} x$, then $\\left(1-x^2\\right) y^{\\prime \\prime}-x y^{\\prime}$ at $x=\\frac{1}{2}$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "w4V29",
+      "text": "$3 e^{\\pi / 6}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "t3CjZ",
+      "text": "$9 e^{\\pi / 2}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "NgtO8",
+      "text": "$3 e^{\\pi / 2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "pFqYl",
+      "text": "$9 e^{\\pi / 6}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\ln (y)=3 \\sin ^{-1} x \\\\ & \\frac{1}{y} \\cdot y^{\\prime}=3\\left(\\frac{1}{\\sqrt{1-x^2}}\\right) \\\\ & \\Rightarrow y^{\\prime}=\\frac{3 y}{\\sqrt{1-x^2}} \\text { at } x=\\frac{1}{2} \\\\ & \\Rightarrow y^{\\prime}=\\frac{3 e^{3\\left(\\frac{\\pi}{6}\\right)}}{\\frac{\\sqrt{3}}{2}}=2 \\sqrt{3} e^{\\frac{\\pi}{2}} \\\\ & \\Rightarrow y^{\\prime \\prime}=3\\left(\\frac{\\sqrt{1-x^2} y^{\\prime}-y \\frac{1}{2 \\sqrt{1-x^2}}(-2 x)}{\\left(1-x^2\\right)}\\right)\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow\\left(1-x^2\\right) y^{\\prime \\prime}=3\\left(3 y+\\frac{x y}{\\sqrt{1-x^2}}\\right) \\\\ & \\downarrow \\text { at } x=\\frac{1}{2}, y=e^{3 \\sin ^{-1}\\left(\\frac{1}{2}\\right)}=\\mathrm{e}^{3\\left(\\frac{\\pi}{6}\\right)}=\\mathrm{e}^{\\frac{\\pi}{2}}\\end{aligned}$\n$\\begin{aligned} & \\left.\\left(1-x^2\\right) y^{\\prime \\prime}\\right|_{\\text {at } x=\\frac{1}{2}}=3\\left(3 \\mathrm{e}^{\\frac{\\pi}{2}}+\\frac{\\frac{1}{2}\\left(e^{\\frac{\\pi}{2}}\\right)}{\\frac{\\sqrt{3}}{2}}\\right) \\\\ & =3 \\mathrm{e}^{\\frac{\\pi}{2}}\\left(3+\\frac{1}{\\sqrt{3}}\\right) \\\\ & \\left(1-x^2\\right) y^{\\prime \\prime}-\\left.x y^{\\prime}\\right|_{\\text {atx } x=\\frac{1}{2}} \\\\ & =3 \\mathrm{e}^{\\frac{\\pi}{2}}\\left(3+\\frac{1}{\\sqrt{3}}\\right)-\\frac{1}{2}\\left(2 \\sqrt{3} \\mathrm{e}^{\\frac{\\pi}{2}}\\right)=9 \\mathrm{e}^{\\frac{\\pi}{2}}\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ef278297dee60eda71",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-09T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (09 Apr Shift 2)",
+    "title": "JEE Main 2024 (09 Apr Shift 2)"
+  },
+  "evalStatus": "incorrect",
+  "lastPracticed": "2024-08-01T13:41:53.787Z"
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65d00",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-25T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (25 Apr Online)",
+      "title": "JEE Main 2013 (25 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "Let $f:[-2,3] \\rightarrow[0, \\infty)$ be a continuous function such that $f(1-x)=f(x)$ for all $x \\in[-2,3]$.\nIf $\\mathrm{R}_1$ is the numerical value of the area of the region bounded by $y=f(x), x=-2, x=3$ and the axis of $x$ and $R_2=\\int_{-2}^3 x f(x) d x$, then :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "6gzTD",
+      "text": "\n$3 R_1=2 R_2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "FK0AW",
+      "text": "\n$2 \\mathrm{R}_1=3 \\mathrm{R}_2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "NzhGp",
+      "text": "\n$\\mathrm{R}_1=\\mathrm{R}_2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "m5pjm",
+      "text": "\n$\\mathrm{R}_1=2 \\mathrm{R}_2$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have\n$$\n\\begin{aligned}\n\\mathrm{R}_2 &=\\int_{-2}^3 x f(x) d x=\\int_{-2}^3(1-x) f(1-x) d x \\\\\n& {\\left[\\mathrm{U} \\operatorname{sing} \\int_a^b f(x) d x=\\int_a^b f(a+b-x) d x\\right] } \\\\\n\\Rightarrow \\mathrm{R}_2 &=\\int_{-2}^3(1-x) f(x) d x \\\\\n\\therefore \\mathrm{R}_2+\\mathrm{R}_2 &=\\int_{-2}^3 x f(x) d x+\\int_{-2}^3(1-x) f(x) d x \\\\\n\\Rightarrow 2 \\mathrm{R}_2=\\mathrm{R}_1\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-25T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (25 Apr Online)",
+    "title": "JEE Main 2013 (25 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,8 +1,8 @@
 {
   "index": 18,
-  "type": "singleCorrect",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2024 (04 Apr Shift 1)",
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "A square is inscribed in the circle $x^2+y^2-10 x-6 y+30=0$. One side of this square is parallel to $y=x+3$. If $\\left(x_i, y_i\\right)$ are the vertices of the square, then $\\mathbf{\\Sigma}\\left(x_i^2+y_i^2\\right)$ is equal to:"
+    "text": "Let the centre of a circle, passing through the points $(0,0),(1,0)$ and touching the circle $x^2+y^2=9$, be $(h, k)$. Then for all possible values of the coordinates of the centre $(h, k), 4\\left(h^2+k^2\\right)$ is equal to_________"
   },
-  "options": [
-    {
-      "text": "148",
-      "is_correct": false
-    },
-    {
-      "text": "152",
-      "is_correct": true
-    },
-    {
-      "text": "160",
-      "is_correct": false
-    },
-    {
-      "text": "156",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "B"
-  ],
+  "options": [],
+  "correct_answer": "9",
   "solution": {
-    "text": "<img src=\"assets\\st0018_9327e373d58f.png\"><br />$y=x+c \\quad \\&$\n$\\begin{array}{ll}\ny=x+c \\quad \\& & x+y+d=0 \\\\\n\\left|\\frac{5-3+c}{\\sqrt{2}}\\right|=\\sqrt{2} & \\left|\\frac{8+d}{\\sqrt{2}}\\right|=\\sqrt{2} \\\\\n|c+2|=2 & 8+d= \\pm 2 \\\\\nc=0,-4 & d=-10,-6\n\\end{array}$\npts $(5,5),(3,3),(7,3),(5,1)$\n$\\begin{aligned}\n& \\sum\\left(\\mathrm{x}_{\\mathrm{i}}^2+\\mathrm{y}_1^2\\right)=25+25+9+9+49+9+25+1 \\\\\n& =152\n\\end{aligned}$"
+    "text": "<img src=\"assets\\st0018_a7cf2da89270.png\"><br />$\\begin{aligned} & (\\mathrm{x}-\\mathrm{h})^2+(\\mathrm{y}-\\mathrm{k})^2=\\mathrm{h}^2+\\mathrm{k}^2 \\\\ & \\mathrm{x}^2+\\mathrm{y}^2-2 \\mathrm{hx}-2 \\mathrm{ky}=0 \\\\ & \\because \\text { passes through }(1,0) \\\\ & \\Rightarrow 1+0-2 \\mathrm{~h}=0 \\\\ & \\Rightarrow \\mathrm{h}=1 / 2 \\\\ & \\because \\mathrm{OC}=\\frac{\\mathrm{OP}}{2} \\\\ & \\sqrt{\\left(\\frac{1}{2}\\right)^2+\\mathrm{k}^2}=\\frac{3}{2}\\end{aligned}$\n$\\begin{aligned}\n& \\frac{1}{4}+\\mathrm{k}^2=\\frac{9}{4} \\\\\n& \\mathrm{k}^2=2 \\\\\n& \\mathrm{k}= \\pm \\sqrt{2}\n\\end{aligned}$\n$\\therefore$ Possible coordinate of\n$\\begin{aligned}\n& \\mathrm{c}(\\mathrm{h}, \\mathrm{k})\\left(\\frac{1}{2}, \\sqrt{2}\\right)\\left(\\frac{1}{2},-\\sqrt{2}\\right) \\\\\n& 4\\left(\\mathrm{~h}^2+\\mathrm{k}^2\\right)=4\\left(\\frac{1}{4}+2\\right)=4\\left(\\frac{9}{4}\\right)=9\n\\end{aligned}$"
   }
 }

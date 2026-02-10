@@ -1,0 +1,43 @@
+{
+  "index": 239,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2012 (19 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $n={ }^m C_2$, then the value of ${ }^n C_2$ is given by"
+  },
+  "options": [
+    {
+      "text": "\n$3\\left({ }^{m+1} C_4\\right)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n${ }^{m-1} C_4$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n${ }^{m+1} C_4$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2\\left({ }^{m+2} C_4\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$n={ }^m \\mathrm{C}_2=\\frac{m(m-1)}{2}$\nSince $m$ and $(m-1)$ are two consecutive natural numbers, therefore their product is an even natural number. So $\\frac{m(m-1)}{2}$ is also a natural number.\nNow $\\frac{m(m-1)}{2}=\\frac{m^2-m}{2}$\n\n$$\n\\begin{aligned}\n\\therefore & \\frac{m(m-1)}{2} \\mathrm{C}_2=\\frac{\\left(\\frac{m^2-m}{2}\\right)\\left(\\frac{m^2-m}{2}-1\\right)}{2} \\\\\n& =\\frac{m(m-1)\\left(m^2-m-2\\right)}{8} \\\\\n& =\\frac{m(m-1)\\left[m^2-2 m+m-2\\right]}{8} \\\\\n& =\\frac{m(m-1)[m(m-2)+1(m-2)]}{8} \\\\\n& =\\frac{m(m-1)(m-2)(m+1)}{8}\n\\end{aligned}\n$$\n<img src=\"assets\\st0239_9d0939de039b.png\"><br>"
+  }
+}

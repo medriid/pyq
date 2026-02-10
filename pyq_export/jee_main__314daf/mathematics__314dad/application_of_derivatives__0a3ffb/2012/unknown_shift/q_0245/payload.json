@@ -1,0 +1,43 @@
+{
+  "index": 245,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (12 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider a rectangle whose length is increasing at the uniform rate of $2 \\mathrm{~m} / \\mathrm{sec}$, breadth is decreasing at the uniform rate of $3 \\mathrm{~m} / \\mathrm{sec}$ and the area is decreasing at the uniform rate of $5 \\mathrm{~m}^2 / \\mathrm{sec}$. If after some time the breadth of the rectangle is $2 \\mathrm{~m}$ then the length of the rectangle is"
+  },
+  "options": [
+    {
+      "text": "\n$2 \\mathrm{~m}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$4 \\mathrm{~m}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$1 \\mathrm{~m}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$3 \\mathrm{~m}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $A$ be the area, $b$ be the breadth and $\\ell$ be the length of the rectangle.\nGiven: $\\frac{d A}{d t}=-5, \\frac{d \\ell}{d t}=2, \\frac{d b}{d t}=-3$\nWe know, $A=\\ell \\times b$\n$$\n\\begin{aligned}\n& \\Rightarrow \\frac{d A}{d t}=\\ell \\cdot \\frac{d b}{d t}+b \\cdot \\frac{d \\ell}{d t}=-3 \\ell+2 b \\\\\n& \\Rightarrow-5=-3 \\ell+2 b .\n\\end{aligned}\n$$\nWhen $b=2$, we have\n$$\n-5=-3 \\ell+4 \\Rightarrow \\ell=\\frac{9}{3}=3 m\n$$"
+  }
+}

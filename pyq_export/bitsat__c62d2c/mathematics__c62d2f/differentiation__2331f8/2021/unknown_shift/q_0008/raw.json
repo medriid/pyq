@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e8296f5bfc7ab78aeb1f",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44c",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2021-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021",
+      "title": "BITSAT 2021"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "$\\frac{d}{d x}\\left(\\tan ^{-1} \\sqrt{\\frac{1+\\cos \\frac{x}{2}}{1-\\cos \\frac{x}{2}}}\\right)$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "nXC4W",
+      "text": "$-\\frac{1}{4}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "zJiAJ",
+      "text": "$\\frac{1}{4}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "sZ0Fr",
+      "text": "$-\\frac{1}{2}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "UN4kx",
+      "text": "$\\frac{1}{2}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have $\\frac{d}{d x}\\left(\\tan ^{-1} \\sqrt{\\frac{1+\\cos \\frac{x}{2}}{1-\\cos \\frac{x}{2}}}\\right)$\r\n\r\n$=\\frac{d}{d x}\\left[\\tan ^{-1} \\sqrt{\\frac{1+\\left(2 \\cos ^{2} \\frac{x}{4}-1\\right)}{1-\\left(1-2 \\sin ^{2} \\frac{x}{4}\\right)}}\\right]$\r\n\r\n$=\\frac{d}{d x}\\left(\\tan ^{-1} \\sqrt{\\left.\\frac{2 \\cos ^{2} \\frac{x}{4}}{2 \\sin ^{2} \\frac{x}{4}}\\right)}\\right.$\r\n\r\n$=\\frac{d}{d x}\\left(\\tan ^{-1} \\sqrt{\\cot ^{2} \\frac{x}{4}}\\right)=\\frac{d}{d x}\\left(\\tan ^{-1} \\cot \\frac{x}{4}\\right)$\r\n\r\n$=\\frac{d}{d x}\\left(\\tan ^{-1} \\tan \\left(\\frac{\\pi}{2}-\\frac{x}{4}\\right)\\right)=\\frac{d}{d x}\\left(\\frac{\\pi}{2}-\\frac{x}{4}\\right)=0-\\frac{1}{4}=-\\frac{1}{4}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44c",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2021-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021",
+    "title": "BITSAT 2021"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

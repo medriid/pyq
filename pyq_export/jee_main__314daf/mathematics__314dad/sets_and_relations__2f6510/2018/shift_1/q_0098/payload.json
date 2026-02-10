@@ -1,0 +1,43 @@
+{
+  "index": 98,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 1 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254da66d43264e2f6510",
+    "chapter_name": "Sets and Relations",
+    "year": "2018",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Consider the following two binary relations on the set $A=\\{a, b, c\\}: R_1=\\{(\\mathrm{c}, a)(b, b),(\\mathrm{a}, c),(c$, $c),(b, c),(a, a)\\}$ and $\\mathrm{R}_2=\\{(\\mathrm{a}, \\mathrm{b}),(\\mathrm{b}, \\mathrm{a}),(\\mathrm{c}, \\mathrm{c})$, (c, a), (a, a), (b, b), (a, c). Then"
+  },
+  "options": [
+    {
+      "text": "\n$R_2$ is symmetric but it is not transitive\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nBoth $R_1$ and $R_2$ are transitive\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nBoth $R_1$ and $R_2$ are not symmetric\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$R_1$ is not symmetric but it is transitive",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Both $R_1$ and $R_2$ are symmetric as For any $(x, y) \\in R_1$, we have $(y, x) \\in R_1$ and similarly for $R_2$ Now, for $R_2,(b, a) \\in R_2,(a, c) \\in R_2$ but $(b, c) \\notin R_2$. Similarly, for $R_1,(b, c) \\in R_1,(c, a) \\in R_1$ but $(b, a) \\notin R_1$.\nTherefore, neither $R_1$ nor $R_2$ is transitive."
+  }
+}

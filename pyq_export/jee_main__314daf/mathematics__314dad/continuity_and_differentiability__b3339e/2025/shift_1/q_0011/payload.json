@@ -1,0 +1,24 @@
+{
+  "index": 11,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $\\mathrm{f}(x)=\\left\\{\\begin{array}{lc}3 x, & x \\lt 0 \\\\ \\min \\{1+x+[x], x+2[x]\\}, & 0 \\leq x \\leq 2 \\\\ 5, & x\\gt2,\\end{array}\\right.$\nwhere [.] denotes greatest integer function. If $\\alpha$ and $\\beta$ are the number of points, where f is not continuous and is not differentiable, respectively, then $\\alpha+\\beta$ equals __________"
+  },
+  "options": [],
+  "correct_answer": "5",
+  "solution": {
+    "text": "$f(x)=\\left\\{\\begin{array}{ccc}3 x & ; & x < 0 \\\\ \\min \\{1+x, x\\} & ; & 0 \\leq x < 1 \\\\ \\min \\{2+x, x+2\\} & ; & 1 \\leq x < 2 \\\\ 5 & ; & x>2\\end{array}\\right.$\n\n\n$f(x)=\\left\\{\\begin{array}{ccc}3 x & ; & x < 0 \\\\ x & ; & 0 \\leq x < 1 \\\\ x+2 & ; & 1 \\leq x < 2 \\\\ 5 & ; & x>2\\end{array}\\right.$<img src=\"assets\\st0011_d52c9a099d2f.png\"><br>\n\n\n\nNot continuous at $\\mathrm{x} \\in\\{1,2\\} \\Rightarrow \\alpha=2$\nNot diff. at $x \\in\\{0,1,2\\} \\Rightarrow \\beta=3$ $\\alpha+\\beta=5$"
+  }
+}

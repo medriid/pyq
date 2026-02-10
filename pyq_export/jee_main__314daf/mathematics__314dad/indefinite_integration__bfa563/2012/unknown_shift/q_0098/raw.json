@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65b36",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7cc",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (Offline)",
+      "title": "JEE Main 2012 (Offline)"
+    }
+  ],
+  "question": {
+    "text": "If the integral $\\int \\frac{5 \\tan x}{\\tan x-2} d x=x+a \\ln |\\sin x-2 \\cos x|+k$, then $a$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "gFiN4",
+      "text": "\n$-1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "9SjzJ",
+      "text": "\n$-2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ixWFa",
+      "text": "\n$1$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "zIl2O",
+      "text": "\n$2$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\int \\frac{5 \\tan x}{\\tan x-2} d x=\\int \\frac{5 \\sin x}{\\sin x-2 \\cos x} d x$\n$\\Rightarrow \\int\\left[\\frac{2(\\cos x+2 \\sin x)+(\\sin x-2 \\cos x)}{\\sin x-2 \\cos x}\\right] d x$\n$=2 \\int\\left(\\frac{\\cos x+2 \\sin x}{\\sin x-2 \\cos x}\\right) d x+\\int d x+k$\n$=2 \\log |\\sin x-2 \\cos x|+x+k \\quad \\therefore a=2$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7cc",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (Offline)",
+    "title": "JEE Main 2012 (Offline)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

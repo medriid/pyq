@@ -1,0 +1,43 @@
+{
+  "index": 179,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2020 (03 Sep Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2020",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The value of (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mo>&#8901;</mo><mn>1</mn></msup><msub><mi>P</mi><mn>0</mn></msub><mo>&#8722;</mo><mn>3</mn><msup><mo>&#8901;</mo><mn>2</mn></msup><msub><mi>P</mi><mn>1</mn></msub><mo>+</mo><mn>4</mn><msup><mo>&#8901;</mo><mn>3</mn></msup><msub><mi>P</mi><mn>2</mn></msub><mo>&#8722;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo></math>&nbsp;up to&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>51</mn><mi>th</mi></msup></math>&nbsp;term)<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>+</mo></math>(&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>!</mo><mo>&#8722;</mo><mn>2</mn><mo>!</mo><mo>+</mo><mn>3</mn><mo>!</mo><mo>&#8722;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo></math>&nbsp;up to&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>51</mn><mi>th</mi></msup></math>&nbsp;term) is equal to&nbsp;"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mn>51</mn><mfenced><mn>51</mn></mfenced><mo>!</mo></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfenced><mn>51</mn></mfenced><mo>!</mo></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfenced><mn>52</mn></mfenced><mo>!</mo></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>&#183;</mo><mmultiscripts><mi>P</mi><mn>0</mn><none/><mprescripts/><none/><mn>1</mn></mmultiscripts><mo>=</mo><mn>2</mn><mo>&#215;</mo><mfrac><mrow><mn>1</mn><mo>!</mo></mrow><mrow><mn>1</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>2</mn><mo>!</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>&#183;</mo><mmultiscripts><mi>P</mi><mn>1</mn><none/><mprescripts/><none/><mn>2</mn></mmultiscripts><mo>=</mo><mn>3</mn><mo>&#215;</mo><mfrac><mrow><mn>2</mn><mo>!</mo></mrow><mrow><mn>1</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>3</mn><mo>!</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>&#183;</mo><mmultiscripts><mi>P</mi><mn>2</mn><none/><mprescripts/><none/><mn>3</mn></mmultiscripts><mo>=</mo><mn>4</mn><mo>&#215;</mo><mfrac><mrow><mn>3</mn><mo>!</mo></mrow><mrow><mn>1</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>4</mn><mo>!</mo></math></p><p>By this observation given question can be written as</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced><mrow><mn>2</mn><mo>!</mo><mo>-</mo><mn>3</mn><mo>!</mo><mo>+</mo><mn>4</mn><mo>!</mo><mo>-</mo><mn>5</mn><mo>!</mo><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>-</mo><mn>51</mn><mo>!</mo><mo>+</mo><mn>52</mn><mo>!</mo></mrow></mfenced><mo>+</mo><mfenced><mrow><mn>1</mn><mo>!</mo><mo>-</mo><mn>2</mn><mo>!</mo><mo>+</mo><mn>3</mn><mo>!</mo><mo>-</mo><mn>4</mn><mo>!</mo><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>-</mo><mn>50</mn><mo>!</mo><mo>+</mo><mn>51</mn><mo>!</mo></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>!</mo><mo>+</mo><mn>52</mn><mo>!</mo><mo>=</mo><mn>1</mn><mo>+</mo><mn>52</mn><mo>!</mo></math></p>"
+  }
+}

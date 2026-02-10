@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd76457232a5c257f2e5",
+    "chapter_name": "Semiconductors",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A transistor is connected in common-emitter (CE) configuration. The collector supply is $8 \\mathrm{~V}$ and the voltage drop across a resistor is $500 \\Omega$ in the collector circuit is $0.6 \\mathrm{~V}$. If the current gain factor $\\alpha$ is $0.96$, find the base current"
+  },
+  "options": [
+    {
+      "text": "\r\n$25 \\mu \\mathrm{A}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$50 \\mu \\mathrm{A}$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n$20 \\mu \\mathrm{A}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$35 \\mu \\mathrm{A}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given, $V_{C C}=8 \\mathrm{~V}$\r\nVoltage drop, $V_0=\\Delta I_C R_L=0.6 \\mathrm{~V}$\r\nLoad Resistor, $R_L=500 \\Omega$\r\nGain factor, $\\alpha=0.96$\r\n$\\because \\quad \\beta=\\frac{\\alpha}{1-\\alpha}=\\frac{0.96}{1-0.96}=24$\r\nNow, $\\quad V_0=\\Delta I_C R_L$\r\n$0.6=\\Delta I_C \\times 500$\r\n$\\Delta I_C=\\frac{0.6}{500}=1.2 \\times 10^{-3} \\mathrm{~A}$\r\nNow,\r\n$\\beta=\\frac{\\Delta I_C}{\\Delta I_B}$\r\n$\\therefore$ Base current $\\Delta I_B=\\frac{\\Delta I_C}{\\beta}=\\frac{1.2 \\times 10^{-3}}{24}=5 \\times 10^{-5}$\r\n$=50 \\times 10^{-6}$\r\n$\\Delta I_B=50 \\mu \\mathrm{A}$"
+  }
+}

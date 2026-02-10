@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e8376f5bfc7ab78aeb99",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44d",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2022-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022",
+      "title": "BITSAT 2022"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "If $\\alpha, \\beta, \\gamma \\in[0, \\pi]$ and if $\\alpha, \\beta, \\gamma$ are in AP, then \r\n$\\frac{\\sin \\alpha-\\sin \\gamma}{\\cos \\gamma-\\cos \\alpha}$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "AbtRq",
+      "text": "\r\n$\\sin \\beta$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "PXArt",
+      "text": "\r\n$\\cos \\beta$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "WOAb7",
+      "text": "\r\n$\\cot \\beta$\r\n",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "0MTfI",
+      "text": "\r\n$2 \\cos \\beta$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\frac{\\sin \\alpha-\\sin \\gamma}{\\cos \\gamma-\\cos \\alpha}=\\frac{2 \\cos \\frac{\\alpha+\\gamma}{2} \\sin \\frac{\\alpha-\\gamma}{2}}{2 \\sin \\frac{\\alpha+\\gamma}{2} \\cdot \\sin \\frac{\\alpha-\\gamma}{2}}$\r\n$=\\cot \\frac{\\alpha+\\gamma}{2}$\r\n$\\left[\\begin{array}{l}\\because \\sin A-\\sin B=2 \\cos \\left(\\frac{A+B}{2}\\right) \\sin \\left(\\frac{A-B}{2}\\right) \\\\ \\text { and } \\cos A-\\cos B=2 \\sin \\left(\\frac{A+B}{2}\\right) \\sin \\left(\\frac{B-A}{2}\\right)\\end{array}\\right]$\r\nBut $\\alpha, \\beta, \\gamma$ are in $AP$\r\n$\\Rightarrow \\quad \\frac{\\alpha+\\gamma}{2}=\\beta$\r\nSo, required value is $\\cot \\beta$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44d",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2022-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022",
+    "title": "BITSAT 2022"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

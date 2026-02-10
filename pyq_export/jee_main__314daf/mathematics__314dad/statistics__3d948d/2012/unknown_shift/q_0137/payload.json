@@ -1,0 +1,43 @@
+{
+  "index": 137,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (19 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025479bcff3fc153d948d",
+    "chapter_name": "Statistics",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The median of 100 observations grouped in classes of equal width is 25 . If the median class interval is 20-30 and the number of observations less than 20 is 45 , then the frequency of median class is"
+  },
+  "options": [
+    {
+      "text": "\n10\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n20\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n15\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n12",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Median is given as\n$$\nM=l+\\frac{\\frac{N}{2}-F}{f} \\times C\n$$\nwhere\n$l=$ lower limit of the median - class\n$f=$ frequency of the median class\n$N=$ total frequency\n$F=$ cumulative frequency of the class just before the median class\n$C=$ length of median class\nNow, given, $M=25, N=100, F=45$, $C=20-30=10, l=20$.\n$\\therefore$ By using formula, we have\n$$\n\\begin{aligned}\n& 25=20+\\frac{50-45}{f} \\times 10 \\\\\n& 25-20=\\frac{50}{f} \\Rightarrow 5=\\frac{50}{f} \\Rightarrow f=10\n\\end{aligned}\n$$"
+  }
+}

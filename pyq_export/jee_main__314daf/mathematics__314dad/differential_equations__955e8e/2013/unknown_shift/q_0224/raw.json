@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65c54",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7d3",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-22T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (22 Apr Online)",
+      "title": "JEE Main 2013 (22 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "Consider the differential equation :\n$$\n\\frac{d y}{d x}=\\frac{y^3}{2\\left(x y^2-x^2\\right)}\n$$\nStatement-1: The substitution $z=y^2$ transforms the above equation into a first order homogenous differential equation.\nStatement-2: The solution of this differential equation is $y^2 e^{-y^2} / x=C$.",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "MWaEZ",
+      "text": "\nBoth statements are false.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "yrWXV",
+      "text": "\nStatement-1 is true and statement- 2 is false.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "A7lCW",
+      "text": "\nStatement-1 is false and statement-2 is true.\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "d4LsW",
+      "text": "\nBoth statements are true.",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given differential equation is\n$$\n\\frac{d y}{d x}=\\frac{y^3}{2\\left(x y^2-x^2\\right)}\n$$\nBy substituting $z=y^2$, we get diff. eqn. as\n$$\n\\frac{d z}{d x}=\\frac{2 z^2}{2\\left(x z-x^2\\right)}=\\frac{z^2}{x z-x^2}\n$$\nNow, $\\frac{d x}{d z}=\\frac{x}{z}-\\frac{x^2}{z^2}=\\frac{x}{z}\\left[1-\\frac{x}{z}\\right] \\approx \\mathrm{F}\\left(\\frac{x}{z}\\right)$\nHence, statement-1 is true.\nNow, $y^2 e^{-y^2 / x}=\\mathrm{C}$ satisfies the given diff. equation\n$\\therefore$ It is the solution of given diff. equation. Thus, statement $-2$ is also true.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7d3",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-22T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (22 Apr Online)",
+    "title": "JEE Main 2013 (22 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

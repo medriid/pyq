@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7d211e05bce84fe206",
+    "chapter_name": "Determinants",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of the determinant \r\n$\\left|\\begin{array}{lll}265 & 240 & 219 \\\\ 240 & 225 & 198 \\\\ 219 & 198 & 181\\end{array}\\right|$ is"
+  },
+  "options": [
+    {
+      "text": "1000",
+      "is_correct": false
+    },
+    {
+      "text": "779",
+      "is_correct": false
+    },
+    {
+      "text": "679",
+      "is_correct": false
+    },
+    {
+      "text": "0",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Applying $\\mathrm{C}_{1}-\\mathrm{C}_{2}$ and $\\mathrm{C}_{2}-\\mathrm{C}_{3},$ we get\r\n$\\begin{aligned}\r\n\\text { Det. } &=\\left|\\begin{array}{ccc}\r\n25 & 21 & 219 \\\\\r\n15 & 27 & 198 \\\\\r\n21 & 17 & 181\r\n\\end{array}\\right|=\\left|\\begin{array}{ccc}\r\n4 & 21 & 9 \\\\\r\n-12 & 27 & -72 \\\\\r\n4 & 17 & 11\r\n\\end{array}\\right| \\\\\r\n=&\\left[\\begin{array}{llc}\r\n4 & 21 & 9 \\\\\r\n0 & 90 & -45 \\\\\r\n0 & -4 & 2\r\n\\end{array} \\mid\\left[\\mathrm{By} \\mathrm{R}_{2}+3 \\mathrm{R}_{1}, \\mathrm{R}_{3}-\\mathrm{R}_{1}\\right]\\right.\\\\\r\n=4(180-180)=0\r\n\\end{aligned}$"
+  }
+}

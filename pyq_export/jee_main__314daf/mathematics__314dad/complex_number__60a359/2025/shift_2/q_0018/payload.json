@@ -1,0 +1,24 @@
+{
+  "index": 18,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602527bd39a958e960a359",
+    "chapter_name": "Complex Number",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let integers $\\mathrm{a}, \\mathrm{b} \\in[-3,3]$ be such that $\\mathrm{a}+\\mathrm{b} \\neq 0$. Then the number of all possible ordered pairs\n(a, b), for which $\\left|\\frac{z-\\mathrm{a}}{z+\\mathrm{b}}\\right|=1$ and $\\left|\\begin{array}{ccc}z+1 & \\omega & \\omega^2 \\\\ \\omega & z+\\omega^2 & 1 \\\\ \\omega^2 & 1 & z+\\omega\\end{array}\\right|=1, z \\in \\mathrm{C}$, where $\\omega$ and $\\omega^2$ are the roots of $x^2+x+1=0$, is equal to ________."
+  },
+  "options": [],
+  "correct_answer": "10",
+  "solution": {
+    "text": "$\\begin{aligned} & a, b \\in I,-3 \\leq a, b \\leq 3, a+b \\neq 0 \\\\ & |z-a|=|z+b| \\\\ & \\left|\\begin{array}{ccc}z+1 & \\omega & \\omega^2 \\\\ \\omega & z+\\omega^2 & 1 \\\\ \\omega^2 & 1 & z+\\omega\\end{array}\\right|=1 \\\\ & \\Rightarrow\\left|\\begin{array}{ccc}z & z & z \\\\ \\omega & z+\\omega^2 & 1 \\\\ \\omega^2 & 1 & z+\\omega\\end{array}\\right|=1\\end{aligned}$\n\n\n$\\begin{aligned} & \\Rightarrow z\\left|\\begin{array}{ccc}1 & 1 & 1 \\\\ \\omega & z+\\omega^2 & 1 \\\\ \\omega^2 & 1 & z+\\omega\\end{array}\\right|=1 \\\\ & \\Rightarrow z\\left|\\begin{array}{ccc}1 & 0 & 0 \\\\ \\omega & z+\\omega^2-\\omega & 1-\\omega \\\\ \\omega^2 & 1-\\omega^2 & z+\\omega-\\omega^2\\end{array}\\right|=1 \\\\ & \\Rightarrow z^3=1 \\\\ & \\Rightarrow z=\\omega, \\omega^2, 1\\end{aligned}$\n\n\nNow\n$\\begin{aligned}\n& |1-\\mathrm{a}|=|1+\\mathrm{b}| \\\\\n& \\Rightarrow 10 \\text { pairs }\n\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 30,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let for some function $\\mathrm{y}=f(x), \\int_0^x t f(t) d t=x^2 f(x), x\\gt0$ and $f(2)=3$. Then $f(6)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": true
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "6",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\int_0^x t f(t) d t=x^2 f(x) \\\\ & \\Rightarrow \\quad x f(x)=2 x f(x)+x^2 f^{\\prime}(x) \\\\ & \\Rightarrow x^2 \\cdot f^{\\prime}(x)=-x f(x) \\\\ & \\Rightarrow \\quad \\frac{f^{\\prime}(x)}{f(x)}=-\\frac{1}{x} \\\\ & \\\\ & \\quad \\int \\frac{f^{\\prime}(x)}{f(x) d x}=-\\int \\frac{1}{x} d x \\\\ & \\Rightarrow \\quad \\ln f(x)=-\\ln x+C \\\\ & \\\\ & \\quad f(2)=3 \\Rightarrow \\ln 3=-\\ln 2+C \\\\ & \\quad C=\\ln 6 \\\\ & \\Rightarrow \\quad f(x)=\\frac{6}{x} \\Rightarrow f(6)=1\\end{aligned}$"
+  }
+}

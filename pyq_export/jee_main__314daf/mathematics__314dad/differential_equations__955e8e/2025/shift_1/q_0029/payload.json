@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (23 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let a curve $y=f(x)$ pass through the points $(0,5)$ and $\\left(\\log _e 2, k\\right)$. If the curve satisfies the differential equation $2(3+y) e^{2 x} d x-\\left(7+e^{2 x}\\right) d y=0$, then $k$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$4$",
+      "is_correct": false
+    },
+    {
+      "text": "$32$",
+      "is_correct": false
+    },
+    {
+      "text": "$8$",
+      "is_correct": true
+    },
+    {
+      "text": "$16$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\frac{d y}{d x}=\\frac{2(3+y) \\cdot e^{2 x}}{7+e^{2 x}} \\\\ & \\frac{d y}{d x}-\\frac{2 y e^{2 x}}{7+e^{2 x}}=\\frac{6 \\cdot e^{2 x}}{7+e^{2 x}} \\\\ & \\text { I.F. }=e^{-\\int \\frac{2 e^{2 x}}{7+e^{2 x}} d x} \\\\ & \\Rightarrow e^{-\\ln \\left(7+e^{2 x}\\right)} \\\\ & =\\frac{1}{7+e^{2 x}} \\\\ & y \\cdot \\frac{1}{7+e^{2 x}}=\\int \\frac{6 e^{2 x}}{\\left(7+e^{2 x}\\right)^2} d x \\\\ & \\frac{y}{7+e^{2 x}}=\\frac{-3}{7+e^{2 x}+C} \\\\ & \\therefore y(0)=5 \\\\ & \\Rightarrow \\frac{5}{8}=\\frac{-3}{8}+C \\\\ & \\Rightarrow C=1 \\\\ & \\therefore y=-3+7+e^{2 x} \\\\ & y=e^{2 x}+4 \\\\ & \\therefore k=8\\end{aligned}$"
+  }
+}

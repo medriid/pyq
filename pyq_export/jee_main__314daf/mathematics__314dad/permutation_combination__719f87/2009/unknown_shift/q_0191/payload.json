@@ -1,0 +1,43 @@
+{
+  "index": 191,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2009",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "From 6 different novels and 3 different dictionaries, 4 novels and 1 dictionary are to be selected and arranged in a row on the shelf so that the dictionary is always in the middle. Then the number of such arrangements is"
+  },
+  "options": [
+    {
+      "text": "\nless than 500\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nat least 500 but less than 750\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nat least 750 but less than 1000\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nat least 1000",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "4 novels can be selected from 6 novels in ${ }^6 \\mathrm{C}_4$ ways. 1 dictionary can be selected from 3 dictionaries in ${ }^3 \\mathrm{C}_1$ ways. As the dictionary selected is fixed in the middle, the remaining 4 novels can be arranged in 4 ! ways.\n$\\therefore$ The required number of ways of arrangement $={ }^6 \\mathrm{C}_4 \\times{ }^3 \\mathrm{C}_1 \\times 4 !=1080$"
+  }
+}

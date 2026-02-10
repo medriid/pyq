@@ -1,0 +1,58 @@
+{
+  "_id": "67a2eeccc8b73881fdaea2ff",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d97610",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-29T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (29 Jan Shift 1)",
+      "title": "JEE Main 2025 (29 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let \\(\\mathrm{S}=\\left\\{\\mathrm{m} \\in \\mathbf{Z}: \\mathrm{A}^{\\mathrm{m}^2}+\\mathrm{A}^{\\mathrm{m}}=3 \\mathrm{I}-\\mathrm{A}^{-6}\\right\\}\\), where \\(\\mathrm{A}=\\left[\\begin{array}{cc}2 & -1 \\\\ 1 & 0\\end{array}\\right]\\). Then \\(\\mathrm{n}(\\mathrm{S})\\) is equal to ______.",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "2",
+  "solution": {
+    "text": "$A=\\left[\\begin{array}{cc}\n2 & -1 \\\\\n1 & 0\n\\end{array}\\right]$\nNow finding characteristic equation\n$\\begin{aligned}\n& \\left|\\begin{array}{cc}\n2-\\lambda & -1 \\\\\n1 & -\\lambda\n\\end{array}\\right|=0 \\\\\n& \\Rightarrow(2-\\lambda)(-\\lambda)-(-1)(1)=-2 \\lambda+\\lambda^2+1=0 \\\\\n& \\Rightarrow \\lambda^2-2 \\lambda+1=0 \\\\\n& \\Rightarrow(\\lambda-1)^2=0 \\\\\n& \\Rightarrow \\lambda=1\n\\end{aligned}$\nSince $A$ satisfies $(A-I)^2=0$\n$\\begin{aligned}\n& \\therefore \\quad A=I+N \\text { where } \\\\\n& N=A-I \\\\\n& N=\\left[\\begin{array}{ll}\n1 & -1 \\\\\n1 & -1\n\\end{array}\\right] \\\\\n& N^2=0 \\\\\n& A^m=(I+N)^m=I+m N \\\\\n& A^m \\cdot A^m=(I+m N)(I+m N)=I+2 m N+m^2 N^2\n\\end{aligned}$\n$\\text { Since } N^2=0$\n$\\Rightarrow \\quad A^{m^2}=I+2 m N$\nNow putting in given condition\n$\\begin{aligned}\n& I+m^2 N+I+m N=3 I-A^{-6} \\\\\n& A^{-1}=\\left[\\begin{array}{cc}\n0 & 1 \\\\\n-1 & 2\n\\end{array}\\right] \\\\\n& A^{-6}=\\left(A^{-1}\\right)^6=I+(-6) N\n\\end{aligned}$\n$\\therefore \\quad$ Putting in (i)\n$\\begin{aligned}\n& \\left(m^2+m\\right) N=I-(I-6 N) \\\\\n& \\left(m^2+m\\right) N=6 N\n\\end{aligned}$\n\nSince $N \\neq 0$\n$\\begin{aligned}\n& \\Rightarrow m^2+m=6 \\\\\n& \\Rightarrow m^2+m-6=0 \\\\\n& \\Rightarrow(m-2)(m+3)=0 \\\\\n& \\Rightarrow m=2,-3\n\\end{aligned}$\n$\\therefore \\quad$ Number of elements in $S$ is 2",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "943f925c735842a99a7522a6aa4df97d",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/5g18IDkeCKTPe.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/5g18IDkeCKTPe.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d97610",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-29T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (29 Jan Shift 1)",
+    "title": "JEE Main 2025 (29 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 277,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2006",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int_{-3 \\pi / 2}^{-\\pi / 2}\\left[(x+\\pi)^3+\\cos ^2(x+3 \\pi)\\right] d x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{\\pi^4}{32}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\pi^4}{32}+\\frac{\\pi}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\pi}{2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{\\pi}{4}-1$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\nI=\\int_{-3 \\pi / 2}^{-\\pi / 2}\\left[(x+\\pi)^3+\\cos ^2(x+3 \\pi)\\right] d x\n$$\nPut $\\mathrm{x}+\\pi=\\mathrm{t}$\n$$\n\\begin{aligned}\n& I=\\int_{-\\pi / 2}^{\\pi / 2}\\left[t^3+\\cos ^2 t\\right] d t=2 \\int_0^{\\pi / 2} \\cos ^2 t d t \\\\\n& =\\int_0^{\\pi / 2}(1+\\cos 2 t) d t=\\frac{\\pi}{2}+0 .\n\\end{aligned}\n$$"
+  }
+}

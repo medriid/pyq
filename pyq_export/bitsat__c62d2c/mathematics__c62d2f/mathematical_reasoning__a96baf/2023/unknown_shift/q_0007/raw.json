@@ -1,0 +1,63 @@
+{
+  "_id": "65b7b87897ae24e9e2db8ca7",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "65b7b85fb3be70ed63adbe84",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2023-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Memory Based Paper 1)",
+      "title": "BITSAT 2023 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Negation of the Boolean expression $\\mathrm{p} \\Leftrightarrow(\\mathrm{q} \\Rightarrow \\mathrm{p})$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "afIwP",
+      "text": "$(\\sim p) \\wedge q$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "awYQv",
+      "text": "$(\\mathrm{p}) \\wedge(\\sim \\mathrm{q})$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "g0Ifl",
+      "text": "$(\\sim \\mathrm{p}) \\vee(\\sim \\mathrm{q})$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "xBWcN",
+      "text": "$(\\sim p) \\wedge(\\sim q)$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given expression is $p \\Leftrightarrow(q \\Rightarrow p)$<br />$\\sim(\\mathrm{p} \\leftrightarrow(\\mathrm{q} \\rightarrow \\mathrm{p}))$<br />$\\sim(\\mathrm{p} \\leftrightarrow \\mathrm{q})=(\\mathrm{p} \\wedge \\sim \\mathrm{q}) \\vee(\\mathrm{q} \\wedge \\sim \\mathrm{p})$<br />$\\sim(\\mathrm{p} \\leftrightarrow(\\mathrm{q} \\rightarrow \\mathrm{p}))$ $=(\\mathrm{p} \\wedge \\sim(\\mathrm{q} \\rightarrow \\mathrm{p})) \\vee((\\mathrm{q} \\rightarrow \\mathrm{p}) \\wedge \\sim \\mathrm{p})$<br />$(\\mathrm{p} \\wedge \\sim(\\mathrm{q} \\rightarrow \\mathrm{p}))=\\mathrm{p} \\wedge(\\mathrm{q} \\wedge \\sim \\mathrm{p})$ $=(p \\wedge \\sim p) \\wedge q=c$<br />$(q \\rightarrow p) \\wedge \\sim p=(\\sim q \\vee p) \\wedge \\sim p$ $=\\sim p \\wedge(\\sim q \\vee p)$<br />$=(\\sim \\mathrm{p} \\wedge \\sim \\mathrm{q}) \\vee(\\sim \\mathrm{p} \\wedge \\mathrm{p})=\\sim \\mathrm{p} \\wedge \\sim \\mathrm{q}$<br />$\\sim(p \\leftrightarrow(\\dot{q} \\rightarrow p))=c \\vee(\\sim p \\wedge \\sim q)=\\sim p \\wedge \\sim q$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "65b7b85fb3be70ed63adbe84",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2023-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Memory Based Paper 1)",
+    "title": "BITSAT 2023 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

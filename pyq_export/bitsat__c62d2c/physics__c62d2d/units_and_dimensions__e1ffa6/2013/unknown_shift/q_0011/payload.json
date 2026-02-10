@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2013",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7928205a1ccbe1ffa6",
+    "chapter_name": "Units and Dimensions",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Wave pulse can travel along a tense string like a violin spring. Aseries of experiments showed that the wave velocity $\\mathrm{V}$ of a pulse depends on the following quantities, the tension T of the string, the cross-section area A of the string and then as per unit volume $\\rho$ of the string. Obtain an expression for $V$ in terms of the $\\mathrm{T}, \\mathrm{A}$ and $\\rho$ using dimensional analysis."
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{V}=\\mathrm{k} \\sqrt{\\frac{\\mathrm{T}}{\\mathrm{A} \\rho}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{V}=\\mathrm{k} \\sqrt{\\frac{\\mathrm{T}}{\\mathrm{A}}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$V=k \\sqrt{\\frac{A \\rho}{T}}$",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $\\mathrm{V}=\\mathrm{kT}^{\\mathrm{a}} \\mathrm{A}^{\\mathrm{b}} \\rho^{\\mathrm{c}}$,\r\n\r\n$\\mathrm{k}=$ dimensional constant\r\n\r\nWriting dimension on both we side\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n\\left[\\mathrm{LT}^{-1}\\right] &=\\left[\\mathrm{MLT}^{-2}\\right]^{a}\\left[\\mathrm{~L}^{2}\\right]^{\\mathrm{b}}\\left[\\mathrm{ML}^{-3}\\right]^{\\mathrm{c}} \\\\\r\n\r\n&=\\left[\\mathrm{M}^{\\mathrm{a}+\\mathrm{c}} \\mathrm{L}^{\\mathrm{a}+2 \\mathrm{~b}-3 \\mathrm{c}} \\mathrm{T}^{-2 \\mathrm{a}}\\right]\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\nComparing power on both sides we have\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\na+c=0, a+2 b-3 c=1, \\quad-2 a=-1 \\\\\r\n\r\n\\therefore \\quad a=\\frac{1}{2}, c=-\\frac{1}{2} \\Rightarrow b=-\\frac{1}{2} \\therefore V=k \\sqrt{\\frac{T}{A \\rho}}\r\n\r\n\\end{array}\r\n\r\n$$"
+  }
+}

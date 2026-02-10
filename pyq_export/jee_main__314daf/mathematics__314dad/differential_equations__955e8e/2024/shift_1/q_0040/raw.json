@@ -1,37 +1,62 @@
 {
-  "_id": "6682bd57ba0e94a3c4025c06",
-  "type": "numerical",
-  "level": 1,
+  "_id": "66446730970e6e9ab542d108",
+  "type": "singleCorrect",
+  "level": 3,
   "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6c",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-06T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (06 Apr Shift 1)",
+      "title": "JEE Main 2024 (06 Apr Shift 1)"
+    }
+  ],
   "question": {
-    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>x</mi><mfenced><mi>t</mi></mfenced></math> is the solution of the differential equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mi>d</mi><mi>x</mi><mo>=</mo><mfenced><mrow><mn>2</mn><mi>x</mi><mo>+</mo><msup><mfenced><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>4</mn></msup></mrow></mfenced><mi>d</mi><mi>t</mi><mo>,</mo><mi>x</mi><mfenced><mn>0</mn></mfenced><mo>=</mo><mn>2</mn></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mfenced><mn>1</mn></mfenced></math> equals ________",
+    "text": "Let $y=y(x)$ be the solution of the differential equation $\\left(2 x \\log _e x\\right) \\frac{d y}{d x}+2 y=\\frac{3}{x} \\log _e x, x>0$ and $y\\left(e^{-1}\\right)=0$. Then, $y(e)$ is equal to",
     "image": null
   },
-  "options": [],
-  "correctValue": "14",
+  "options": [
+    {
+      "id": "DxpGh",
+      "text": "$-\\frac{3}{\\mathrm{e}}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "Xreyb",
+      "text": "$-\\frac{3}{2 e}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "GP1Zh",
+      "text": "$-\\frac{2}{3 e}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "rwzqJ",
+      "text": "$-\\frac{2}{\\mathrm{e}}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<p>Given: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mi>d</mi><mi>x</mi><mo>=</mo><mfenced><mrow><mn>2</mn><mi>x</mi><mo>+</mo><msup><mfenced><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>4</mn></msup></mrow></mfenced><mi>d</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><msup><mfenced><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>4</mn></msup></mrow><mfenced><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>2</mn><mi>x</mi></mrow><mfenced><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mfrac><mo>=</mo><msup><mfenced><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>3</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>IF</mi><mo>=</mo><msup><mi>e</mi><mrow><mo>∫</mo><mfrac><mrow><mo>-</mo><mn>2</mn></mrow><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>t</mi></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>IF</mi><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><mn>2</mn><mi>log</mi><mfenced close=\"|\" open=\"|\"><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>IF</mi><mo>=</mo><mfrac><mn>1</mn><msup><mfenced><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup></mfrac></math></p><p>Solution of the differential equations is given by,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>x</mi><mo>×</mo><mfrac><mn>1</mn><msup><mfenced><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup></mfrac><mo>=</mo><mo>∫</mo><mfenced><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mi>d</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mi>x</mi><msup><mfenced><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup></mfrac><mo>=</mo><mfrac><msup><mi>t</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mi>t</mi><mo>+</mo><mi>c</mi></math></p><p>It is given that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mfenced><mn>0</mn></mfenced><mo>=</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mn>2</mn><msup><mfenced><mrow><mn>0</mn><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup></mfrac><mo>=</mo><mfrac><mn>0</mn><mn>2</mn></mfrac><mo>+</mo><mn>0</mn><mo>+</mo><mi>c</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>c</mi><mo>=</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mi>x</mi><msup><mfenced><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup></mfrac><mo>=</mo><mfrac><msup><mi>t</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mi>t</mi><mo>+</mo><mn>2</mn></math></p><p>Putting <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>1</mn></math>,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mi>x</mi><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup></mfrac><mo>=</mo><mfrac><msup><mn>1</mn><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>+</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mi>x</mi><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mn>3</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>x</mi><mo>=</mo><mn>2</mn><mo>+</mo><mn>12</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>x</mi><mo>=</mo><mn>14</mn></math></p>",
+    "text": "$\\begin{aligned} & \\frac{d y}{d x}+\\frac{y}{x \\ell \\ln x}=\\frac{3}{2 x^2} \\\\ & \\therefore \\text { I.F. }=e^{\\int \\frac{1}{x \\ln x} d x}=e^{\\ln (\\ln (x))}=\\ln x \\\\ & \\therefore y \\ell \\ln x=\\int \\frac{3 \\ln x}{2 x^2} d x \\\\ & =\\frac{3 \\ln x}{2} \\int x^{-2} d x-\\int\\left(\\frac{3}{2 x} \\cdot \\int x^{-2} d x\\right) d x \\\\ & =\\frac{3 \\ln x}{2}\\left(-\\frac{1}{x}\\right)-\\int \\frac{3}{2 x}\\left(-\\frac{1}{x}\\right) d x \\\\ & \\text { y. } \\ln x=\\frac{-3 \\ell n x}{2 x}-\\frac{3}{2 x}+C\\end{aligned}$<br />$\\begin{aligned} & \\because \\mathrm{y}\\left(\\mathrm{e}^{-1}\\right)=0 \\\\ & \\therefore 0(-1)=\\frac{3 \\mathrm{e}}{2}-\\frac{3 \\mathrm{e}}{2}+\\mathrm{C} \\Rightarrow \\mathrm{C}=0 \\\\ & \\therefore \\mathrm{y}=\\frac{-3 \\ell \\mathrm{nx}}{2 \\mathrm{x}}-\\frac{3}{2 \\mathrm{x}} \\\\ & \\therefore \\mathrm{y}(\\mathrm{e})=\\frac{-3}{2 \\mathrm{e}}-\\frac{3}{2 \\mathrm{e}}=\\frac{-3}{\\mathrm{e}}\\end{aligned}$",
     "image": null
   },
   "videoSolution": null,
   "syllabusCategory": "noChange",
-  "previousYearPapers": [
-    {
-      "_id": "65c4c0c11d30997d3436bb06",
-      "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-02-01T09:00:00.000Z",
-      "isVisible": true,
-      "shortName": "2024 (01 Feb Shift 1)",
-      "title": "JEE Main 2024 (01 Feb Shift 1)"
-    }
-  ],
   "previousYear": {
-    "_id": "65c4c0c11d30997d3436bb06",
+    "_id": "664466ee278297dee60eda6c",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-02-01T09:00:00.000Z",
+    "heldOn": "2024-04-06T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (01 Feb Shift 1)",
-    "title": "JEE Main 2024 (01 Feb Shift 1)"
+    "shortName": "2024 (06 Apr Shift 1)",
+    "title": "JEE Main 2024 (06 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

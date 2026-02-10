@@ -1,48 +1,33 @@
 {
-  "_id": "6682bd34ba0e94a3c4025b2c",
-  "type": "singleCorrect",
+  "_id": "66446762970e6e9ab542d2d3",
+  "type": "numerical",
   "level": 1,
   "questionLabels": [],
-  "question": {
-    "text": "<p>The number of ways in which <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn></math> identical apples can be distributed among three children such that each child gets at least <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> apples, is</p>",
-    "image": null
-  },
-  "options": [
+  "previousYearPapers": [
     {
-      "id": "HIxJG",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>406</mn></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "tZpAl",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>130</mn></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "kpmTD",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>142</mn></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "jLrLB",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>136</mn></math>",
-      "image": null,
-      "isCorrect": true
+      "_id": "664466ef278297dee60eda71",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-09T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (09 Apr Shift 2)",
+      "title": "JEE Main 2024 (09 Apr Shift 2)"
     }
   ],
-  "correctValue": null,
+  "question": {
+    "text": "The number of integers, between 100 and 1000 having the sum of their digits equals to 14 , is _________",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "70",
   "solution": {
-    "text": "<p>Let us initially distribute <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> apples to each children.</p><p>So, the remaining <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math> apples are to be distributed such that each children can get any number of apples.</p><p>So, the required number of ways will be given by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi><mo>=</mo><mmultiscripts><mi>C</mi><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mrow><mi>n</mi><mo>+</mo><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mmultiscripts></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mrow><mn>15</mn><mo>+</mo><mn>3</mn><mo>-</mo><mn>1</mn></mrow></mmultiscripts></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>17</mn></mmultiscripts></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mfrac><mrow><mn>17</mn><mo>×</mo><mn>16</mn></mrow><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>N</mi><mo>=</mo><mn>136</mn></math></p>",
+    "text": "$\\mathrm{N}=\\mathrm{ab} \\mathrm{c}$ (i)\n$\\begin{aligned}\n& \\text { All distinct digits } \\\\\n& \\mathrm{a}+\\mathrm{b}+\\mathrm{c}=14 \\\\\n& \\mathrm{a} \\geq 1 \\\\\n& \\mathrm{~b}, \\mathrm{c} \\in\\{0 \\text { to } 9\\}\n\\end{aligned}$\n$\\begin{array}{lll} \nby hit \\& trial : & 8 cases \\\\\n(6,5,3) & (8,6,0) & (9,4,1) \\\\\n(7,6,1) & (8,5,1) & (9,3,2) \\\\\n(7,5,2) & (8,4,2) & \\\\\n(7,4,3) & (9,5,0) &\n\\end{array}$\n(ii) 2 same, 1 diff $\\quad a=b$;c\n$2 \\mathrm{a}+\\mathrm{c}=14$\nby values :\n$\\begin{aligned}\n& \\left.\\begin{array}{l}\n(3,8) \\\\\n(4,6) \\\\\n(5,4) \\\\\n(6,2) \\\\\n(7,0)\n\\end{array}\\right\\} \\frac{3 !}{2 !} \\times 5-1 \\\\\n& =14 \\text { cases }\n\\end{aligned}$\n(iii) all same :\n$\\begin{aligned}\n& \\begin{array}{l}\n3 a=14 \\\\\na=\\frac{14}{3} \\times \\text { rejected } \\\\\n0 \\text { cases }\n\\end{array}\n\\end{aligned}$\nHence, Total cases:\n$\\begin{aligned}\n& 8 \\times 3 !+2 \\times(4)+14 \\\\\n& =48+22 \\\\\n& =70\n\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "da08d65563e84e54b407cb1c72ae2c3a",
+    "videoId": "79e1427ba2184741985a3ad2c392f408",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/Vx6pe2n1GORj8.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/Vx6pe2n1GORj8.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/2ceenRMsrToRR.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/2ceenRMsrToRR.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6628114842d540dfcb148ecb",
@@ -60,24 +45,14 @@
     "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
   },
   "syllabusCategory": "noChange",
-  "previousYearPapers": [
-    {
-      "_id": "65c4c0c11d30997d3436bb05",
-      "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-01-31T14:00:00.000Z",
-      "isVisible": true,
-      "shortName": "2024 (31 Jan Shift 2)",
-      "title": "JEE Main 2024 (31 Jan Shift 2)"
-    }
-  ],
   "previousYear": {
-    "_id": "65c4c0c11d30997d3436bb05",
+    "_id": "664466ef278297dee60eda71",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-01-31T14:00:00.000Z",
+    "heldOn": "2024-04-09T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (31 Jan Shift 2)",
-    "title": "JEE Main 2024 (31 Jan Shift 2)"
+    "shortName": "2024 (09 Apr Shift 2)",
+    "title": "JEE Main 2024 (09 Apr Shift 2)"
   },
   "evalStatus": "correct",
-  "lastPracticed": "2025-02-23T10:58:44.898Z"
+  "lastPracticed": "2025-02-07T13:40:54.461Z"
 }

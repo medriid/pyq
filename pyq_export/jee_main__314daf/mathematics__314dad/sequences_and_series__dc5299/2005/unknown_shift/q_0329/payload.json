@@ -1,0 +1,43 @@
+{
+  "index": 329,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $x=\\sum_{n=0}^{\\infty} a^n, y=\\sum_{n=0}^{\\infty} b^n, z=\\sum_{n=0}^{\\infty} c^n$ where $a, b, c$ are in A.P. and $|a| < 1,|b| < 1,|c| < 1$, then $x, y, z$ are in"
+  },
+  "options": [
+    {
+      "text": "\nG.P.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nA.P.\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nArithmetic - Geometric Progression\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nH.P.",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{array}{ll}\nx=\\sum_{n=0}^{\\infty} a^n=\\frac{1}{1-a} & \\Rightarrow a=1-\\frac{1}{x} \\\\\ny=\\sum_{n=0}^{\\infty} b^n=\\frac{1}{1-b} & \\Rightarrow b=1-\\frac{1}{y}\n\\end{array}\n$$\n$$\n\\begin{aligned}\n& z=\\sum_{n=0}^{\\infty} c^n=\\frac{1}{1-c} \\quad \\Rightarrow c=1-\\frac{1}{z} \\\\\n& a, b, c \\text { are in A.P. } \\\\\n& 2 b=a+c \\\\\n& 2\\left(1-\\frac{1}{y}\\right)=1-\\frac{1}{x}+1-\\frac{1}{y} \\\\\n& \\frac{2}{y}=\\frac{1}{x}+\\frac{1}{z} \\\\\n& \\Rightarrow x, y, z \\text { are in H.P. }\n\\end{aligned}\n$$"
+  }
+}

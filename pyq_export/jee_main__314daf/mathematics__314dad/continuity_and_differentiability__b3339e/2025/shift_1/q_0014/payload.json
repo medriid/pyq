@@ -1,0 +1,24 @@
+{
+  "index": 14,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let the function,\n$f(x)= \\begin{cases}-3 a x^2-2, & x \\lt 1 \\\\ a^2+b x, & x \\geqslant 1\\end{cases}$\nbe differentiable for all $x \\in \\mathbf{R}$, where $\\mathbf{a}\\gt1, \\mathbf{b} \\in \\mathbf{R}$. If the area of the region enclosed by $y=f(x)$ and the line $y=-20$ is $\\alpha+\\beta \\sqrt{3}, \\alpha, \\beta \\in Z$, then the value of $\\alpha+\\beta$ is ________"
+  },
+  "options": [],
+  "correct_answer": "34",
+  "solution": {
+    "text": "$f(x)$ is continuous and differentiable\n$\\begin{aligned}\n& \\text { at } x=1, \\mathrm{LHL}=\\mathrm{RHL}, \\mathrm{LHD}=\\mathrm{RHD} \\\\\n& -3 a-2=a^2+b,-6 a=b \\\\\n& a=2 ; b=-12 \\\\\n& f(x)=\\left\\{\\begin{array}{cc}\n-6 x^2-2, & x < 1 \\\\\n4-12 x, & x \\geq 1\n\\end{array}\\right.\n\\end{aligned}$<img src=\"assets\\st0014_0043ec04127e.png\"><br>\n$\\begin{aligned} & \\left.\\text { Area }=\\int_{-\\sqrt{3}}^1\\left(-6 x^2-2+20\\right) d x+\\int_1^2(4-12 x+20) d x\\right] \\\\ & =16+12 \\sqrt{3}+6=22+12 \\sqrt{3} \\\\ & \\therefore \\quad \\alpha+\\beta=34\\end{aligned}$"
+  }
+}

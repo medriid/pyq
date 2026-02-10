@@ -1,0 +1,43 @@
+{
+  "index": 122,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (19 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $f(x)=3 x^{10}-7 x^8+5 x^6-21 x^3+3 x^2-7$, then $\\lim _{\\alpha \\rightarrow 0} \\frac{f(1-\\alpha)-f(1)}{\\alpha^3+3 \\alpha}$ is"
+  },
+  "options": [
+    {
+      "text": "\n$-\\frac{53}{3}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{53}{3}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$-\\frac{55}{3}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{55}{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\text { } \\begin{aligned}\n\\text { Let } f^{\\prime}(x) & =3 x^{10}-7 x^8+5 x^6-21 x^3+3 x^2-7 \\\\\nf^{\\prime}(x) & =30 x^9-56 x^7+30 x^5-63 x^2+6 x \\\\\nf^{\\prime}(1) & =30-56+30-63+6 \\\\\n& =66-63-56=-53\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& \\text { Consider } \\lim _{\\alpha \\rightarrow 0} \\frac{f(1-\\alpha)-f(1)}{\\alpha^3+3 \\alpha} \\\\\n& =\\lim _{\\alpha \\rightarrow 0} \\frac{f^{\\prime}(1-\\alpha)(-1)-0}{3 \\alpha^2+3} \\quad \\text { (By using }\n\\end{aligned}\n$$\nL'hospital rule)\n$$\n=\\frac{f^{\\prime}(1-0)(-1)}{3(0)^2+3}=\\frac{-f^{\\prime}(1)}{3}=\\frac{53}{3}\n$$"
+  }
+}

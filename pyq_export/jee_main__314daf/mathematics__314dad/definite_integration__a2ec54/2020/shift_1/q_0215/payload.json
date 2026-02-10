@@ -1,0 +1,43 @@
+{
+  "index": 215,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2020 (07 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2020",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If <math><mi>f</mi><mfenced separators=\"|\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mo>=</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>,</mo><mi></mi></math> for all <math><mi>x</mi><mo>,</mo><mi></mi></math> where <math><mi>a</mi></math> and <math><mi>b</mi></math> are fixed positive real numbers, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac><munderover><mo stretchy=\"true\">&#8747;</mo><mi>a</mi><mi>b</mi></munderover><mi>x</mi><mfenced separators=\"|\"><mrow><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>+</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo stretchy=\"true\">&#8747;</mo><mrow><mi>a</mi><mo>-</mo><mn>1</mn></mrow><mrow><mi>b</mi><mo>-</mo><mn>1</mn></mrow></munderover><mi>f</mi><mfenced><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mi>d</mi><mi>x</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo stretchy=\"true\">&#8747;</mo><mrow><mi>a</mi><mo>-</mo><mn>1</mn></mrow><mrow><mi>b</mi><mo>-</mo><mn>1</mn></mrow></munderover><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo stretchy=\"true\">&#8747;</mo><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>b</mi><mo>+</mo><mn>1</mn></mrow></munderover><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo stretchy=\"true\">&#8747;</mo><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>b</mi><mo>+</mo><mn>1</mn></mrow></munderover><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mi>d</mi><mi>x</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><mfrac><mn>1</mn><mfenced separators=\"|\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfenced></mfrac><munderover><mo stretchy=\"true\">&#8747;</mo><mi>a</mi><mi>b</mi></munderover><mi>x</mi><mfenced open=\"[\" close=\"]\" separators=\"|\"><mrow><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>+</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8230;</mo><mfenced><mn>1</mn></mfenced></math><br /><math><mi>x</mi><mo>&#8594;</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>-</mo><mi>x</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><mfrac><mn>1</mn><mfenced separators=\"|\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfenced></mfrac><munderover><mo stretchy=\"true\">&#8747;</mo><mi>a</mi><mi>b</mi></munderover><mfenced separators=\"|\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>-</mo><mi>x</mi></mrow></mfenced><mfenced open=\"[\" close=\"]\" separators=\"|\"><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>-</mo><mi>x</mi></mrow></mfenced><mo>+</mo><mfenced separators=\"|\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced></mrow></mfenced><mi>d</mi><mi>x</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><mfrac><mn>1</mn><mfenced separators=\"|\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfenced></mfrac><munderover><mo stretchy=\"true\">&#8747;</mo><mi>a</mi><mi>b</mi></munderover><mi>a</mi><mfenced separators=\"|\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>-</mo><mi>x</mi></mrow></mfenced><mfenced open=\"[\" close=\"]\" separators=\"|\"><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></mrow></mfenced><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#8230;</mo><mfenced><mn>2</mn></mfenced></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8757;</mo></math>&nbsp;Keeping&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&#8594;</mo><mi>x</mi><mo>+</mo><mn>1</mn></math>&nbsp;in given relation<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced separators=\"|\"><mn>1</mn></mfenced><mo>+</mo><mfenced separators=\"|\"><mn>2</mn></mfenced></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>I</mi><mo>=</mo><munderover><mo stretchy=\"true\">&#8747;</mo><mi>a</mi><mi>b</mi></munderover><mfenced open=\"[\" close=\"]\" separators=\"|\"><mrow><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced></mrow></mfenced><mo>d</mo><mi>x</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>I</mi><mo>=</mo><munderover><mo stretchy=\"true\">&#8747;</mo><mi>a</mi><mi>b</mi></munderover><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mi>d</mi><mi>x</mi><mo>+</mo><munderover><mo stretchy=\"true\">&#8747;</mo><mi>a</mi><mi>b</mi></munderover><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo stretchy=\"true\">&#8747;</mo><mi>a</mi><mi>b</mi></munderover><mi>f</mi><mfenced separators=\"|\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mn>1</mn><mo>-</mo><mi>x</mi></mrow></mfenced><mi>d</mi><mi>x</mi><mo>+</mo><munderover><mo stretchy=\"true\">&#8747;</mo><mi>a</mi><mi>b</mi></munderover><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>I</mi><mo>=</mo><mn>2</mn><munderover><mo stretchy=\"true\">&#8747;</mo><mi>a</mi><mi>b</mi></munderover><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><munderover><mo stretchy=\"true\">&#8747;</mo><mi>a</mi><mi>b</mi></munderover><mi>f</mi><mfenced separators=\"|\"><mi>x</mi></mfenced><mi>d</mi><mi>x</mi></math><br />Put <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>t</mi><mo>+</mo><mn>1</mn><mo>&#8658;</mo><mi>I</mi><mo>=</mo><munderover><mo stretchy=\"true\">&#8747;</mo><mrow><mi>a</mi><mo>-</mo><mn>1</mn></mrow><mrow><mi>b</mi><mo>-</mo><mn>1</mn></mrow></munderover><mi>f</mi><mfenced separators=\"|\"><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mi>d</mi><mi>t</mi><mo>=</mo><munderover><mo stretchy=\"true\">&#8747;</mo><mrow><mi>a</mi><mo>-</mo><mn>1</mn></mrow><mrow><mi>b</mi><mo>-</mo><mn>1</mn></mrow></munderover><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mi>d</mi><mi>x</mi></math>"
+  }
+}

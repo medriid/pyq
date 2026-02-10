@@ -1,0 +1,24 @@
+{
+  "index": 28,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $\\vec{a}=\\hat{\\mathrm{i}}+\\hat{\\mathrm{j}}+\\hat{\\mathrm{k}}, \\overrightarrow{\\mathrm{b}}=2 \\hat{\\mathrm{i}}+2 \\hat{\\mathrm{j}}+\\hat{\\mathrm{k}}$ and $\\overrightarrow{\\mathrm{d}}=\\vec{a} \\times \\overrightarrow{\\mathrm{b}}$. If $\\overrightarrow{\\mathrm{c}}$ is a vector such that $\\vec{a} \\cdot \\overrightarrow{\\mathrm{c}}=|\\overrightarrow{\\mathrm{c}}|$, $|\\overrightarrow{\\mathrm{c}}-2 \\vec{a}|^2=8$ and the angle between $\\overrightarrow{\\mathrm{d}}$ and $\\overrightarrow{\\mathrm{c}}$ is $\\frac{\\pi}{4}$, then $|10-3 \\overrightarrow{\\mathrm{~b}} \\cdot \\overrightarrow{\\mathrm{c}}|+|\\overrightarrow{\\mathrm{d}} \\times \\overrightarrow{\\mathrm{c}}|^2$ is equal to"
+  },
+  "options": [],
+  "correct_answer": "6",
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\vec{a}=\\hat{i}+\\hat{j}+\\hat{k} \\\\\n& \\vec{b}=2 \\hat{i}+2 \\hat{j}+\\hat{k} \\\\\n& \\vec{d}=\\vec{a} \\times \\vec{b} \\\\\n& =-\\hat{i}+\\hat{j} \\\\\n& |\\vec{c}-2 \\vec{a}|^2=8 \\\\\n& |\\vec{c}|^2+4|\\vec{a}|^2-4 \\vec{a} \\cdot \\vec{c}=8 \\\\\n& |\\vec{c}|^2+12-4|\\vec{c}|=8 \\\\\n& |\\vec{c}|^2-4|\\vec{c}|+4=0 \\\\\n& |\\vec{c}|^2=2 \\\\\n& \\vec{d}=\\vec{a} \\times \\vec{b} \\\\\n& \\vec{d} \\times \\vec{c}=(\\vec{a} \\times \\vec{b}) \\times \\vec{c} \\\\\n& \\left(|\\vec{d}| \\times|\\vec{c}| \\sin \\frac{\\pi}{4}\\right)^2=((\\vec{a} \\cdot \\vec{c}) \\vec{b}-(\\vec{b} \\cdot \\vec{c}) \\vec{a})^2 \\\\\n& 4=4|\\vec{b}|^2+(\\vec{b} \\cdot \\vec{c}) 2\\left(|\\vec{a}|^2\\right)-2(\\vec{b} \\cdot \\vec{c})(\\vec{a} \\cdot \\vec{b})\n\\end{aligned}$\nLet $\\vec{b} \\cdot \\vec{c}=x$\n$\\begin{aligned}\n& 4=36+3 x^2-20 x \\\\\n& 3 x^2-20 x+32=0 \\\\\n& x=\\frac{8}{3}, 4 \\\\\n& \\Rightarrow \\vec{b} \\cdot \\vec{c}=\\frac{8}{3}, 4 \\\\\n& \\Rightarrow \\vec{b} \\cdot \\vec{c}=\\frac{8}{3}\n\\end{aligned}$\nNow, $|10-3 \\vec{b} \\cdot \\vec{c}|+|\\vec{d} \\times \\vec{c}|^2$\n$=|10-8|+(2)^2=6$"
+  }
+}

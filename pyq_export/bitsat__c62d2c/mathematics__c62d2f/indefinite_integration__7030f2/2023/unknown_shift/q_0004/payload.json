@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd788eed0f628d7030f2",
+    "chapter_name": "Indefinite Integration",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int \\tan ^{-1} \\sqrt{\\mathrm{x}} \\mathrm{dx}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$(x+1) \\tan ^{-1} \\sqrt{x}-\\sqrt{x}+C$",
+      "is_correct": true
+    },
+    {
+      "text": "$x \\tan ^{-1} \\sqrt{x}-\\sqrt{x}+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{x}-x \\tan ^{-1} \\sqrt{x}+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{x}-(x+1) \\tan ^{-1} \\sqrt{x}+C$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "We have, $I=\\int 1 \\cdot \\tan ^{-1} \\sqrt{\\mathrm{x}} \\mathrm{dx}$<br />Using by parts,<br />$\\begin{aligned}<br />I & =\\tan ^{-1} \\sqrt{x} \\cdot(x)-\\int \\frac{1}{1+x} \\times \\frac{1}{2 \\sqrt{x}} \\times x d x \\\\<br />& =x \\tan ^{-1} \\sqrt{x} \\cdot-\\int \\frac{x}{(1+x) 2 \\sqrt{x}} d x \\\\<br />& =x \\tan ^{-1} \\sqrt{x}-\\int\\left(\\frac{1+x}{(1+x) 2 \\sqrt{x}}-\\frac{1}{(1+x) 2 \\sqrt{x}}\\right) d x \\\\<br />& =x \\tan ^{-1} \\sqrt{x}-\\int \\frac{d x}{2 \\sqrt{x}}+\\int \\frac{d x}{2 \\sqrt{x}(1+x)} \\\\<br />& =x \\tan ^{-1} \\sqrt{x}-\\sqrt{x}+\\tan ^{-1} \\sqrt{x}+C \\\\<br />& =(x+1) \\tan ^{-1} \\sqrt{x}-\\sqrt{x}+C<br />\\end{aligned}$"
+  }
+}

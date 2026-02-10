@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (8 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "The number of integral terms in the expansion of $\\left(5^{\\frac{1}{2}}+7^{\\frac{1}{8}}\\right)^{1016}$ is"
+  },
+  "options": [
+    {
+      "text": "127",
+      "is_correct": false
+    },
+    {
+      "text": "130",
+      "is_correct": false
+    },
+    {
+      "text": "129",
+      "is_correct": false
+    },
+    {
+      "text": "128",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\mathrm{T}_{\\mathrm{r}}={ }^{1016} \\mathrm{C}_{\\mathrm{r}}(5)^{\\frac{1016-\\mathrm{r}}{2}} 7^{\\frac{\\mathrm{r}}{8}} \\\\\n& \\Rightarrow \\mathrm{r}=0,8,16,24, \\ldots ., 1016 \\\\\n& 1016=0+(\\mathrm{n}-1) 8 \\\\\n& \\Rightarrow \\mathrm{n}-1=\\frac{1016}{8}=127\n\\end{aligned}$\nSo, $\\mathrm{n}=128$."
+  }
+}

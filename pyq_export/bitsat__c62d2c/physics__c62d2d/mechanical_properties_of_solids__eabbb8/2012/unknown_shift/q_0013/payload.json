@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7e21cdcfebe5eabbb8",
+    "chapter_name": "Mechanical Properties of Solids",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "One end of a long metallic wire of length $\\mathrm{L}$ tied to the ceiling. The other end is tied with a massless spring of spring constant $\\mathrm{K}$. Amass hangs freely from the free end of the spring. The area of cross section and the young's modulus of the wire are A and Y respectively. If the mass slightly pulled down and released, it will oscillate with a time period T equal to:"
+  },
+  "options": [
+    {
+      "text": "$2 \\pi \\sqrt{(\\mathrm{m} / \\mathrm{K})}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 \\pi \\sqrt{\\mathrm{m}(\\mathrm{YA}+\\mathrm{KL}) /(\\mathrm{YAK})}$",
+      "is_correct": true
+    },
+    {
+      "text": "$2 \\pi \\sqrt{(\\mathrm{m} \\mathrm{YA} / \\mathrm{KL})}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 \\pi \\sqrt{(\\mathrm{mL} / \\mathrm{YA})}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Step 1: Calculation of spring constant of wire\r\nYoung's modulus of wire, \\(\\mathrm{Y}=\\frac{\\Delta \\mathrm{F} / \\mathrm{A}}{\\Delta \\mathrm{L} / \\mathrm{L}}=\\frac{\\Delta \\mathrm{F}}{\\Delta \\mathrm{L}} \\times \\frac{\\mathrm{L}}{\\mathrm{A}}\\)\r\nDue to elasticity of the wire, it behaves as equivalent spring \\(\\left(\\mathrm{K}_{\\text {spring }}=\\mathrm{F} / \\Delta \\mathrm{x}\\right)\\).\r\nHence, Spring constant for Wire, \\(\\mathrm{K}_{\\mathrm{w}}=\\frac{\\Delta \\mathrm{F}}{\\Delta \\mathrm{L}}=\\mathrm{Y} \\frac{\\mathrm{A}}{\\mathrm{L}}\\)\r\nStep 2: Calculation of Equivalent spring constant Let a force \\(\\mathrm{F}\\) be applied to the end of the spring. The wire will extend.\r\nTotal extension \\(\\Delta \\mathrm{S}=\\mathrm{x}_{\\mathrm{wire}}+\\mathrm{x}_{\\text {spring }}=\\frac{\\mathrm{F}_{\\mathrm{w}}}{\\mathrm{K}_{\\mathrm{w}}}+\\frac{\\mathrm{F}_{\\mathrm{S}}}{\\mathrm{K}}\\)\r\nBut \\(\\mathrm{F}_{\\mathrm{S}}=\\mathrm{F}_{\\mathrm{w}} \\quad\\) (By Newton's, third Law, Both will apply equal and opposite forces at their joint A )\r\n\\(\\therefore \\Delta \\mathrm{S}=\\mathrm{F}_{\\mathrm{w}}\\left(\\frac{1}{\\mathrm{~K}_{\\mathrm{w}}}+\\frac{1}{\\mathrm{~K}}\\right)\\)\r\nSo, Equivalent spring constant \\(\\left(\\mathrm{K}_{\\text {eq }}\\right)\\) is given by:\r\n\\(\\mathrm{K}_{\\mathrm{eq}}=\\frac{\\mathrm{F}_{\\mathrm{eq}}}{\\mathrm{x}_{\\mathrm{eq}}}=\\frac{\\mathrm{F}_{\\mathrm{w}}}{\\Delta \\mathrm{S}}=\\frac{1}{\\frac{1}{\\mathrm{~K}_{\\mathrm{w}}}+\\frac{1}{\\mathrm{~K}}}\\)\r\n\\(\\mathrm{K}_{\\mathrm{eq}}=\\frac{(\\mathrm{K})\\left(\\mathrm{K}_{\\mathrm{w}}\\right)}{\\mathrm{K}_{\\mathrm{w}}+\\mathrm{K}}=\\frac{\\mathrm{KY} \\frac{\\mathrm{A}}{\\mathrm{L}}}{\\mathrm{Y} \\frac{\\mathrm{A}}{\\mathrm{L}}+\\mathrm{K}}=\\frac{\\mathrm{KYA}}{\\mathrm{YA}+\\mathrm{KL}}\\)\r\nStep 3: Calculation of Time period\r\nAngular frequency \\(\\omega\\) for spring block system is given by:\r\n\\(\\omega=\\sqrt{\\frac{\\mathrm{K}_{\\text {eq }}}{\\mathrm{m}}}=\\sqrt{\\frac{\\mathrm{KYA}}{\\mathrm{m}(\\mathrm{YA}+\\mathrm{KL})}}\\)\r\n\\(\\therefore\\) Time period, \\(\\mathrm{T}=\\frac{2 \\pi}{\\omega}=2 \\pi \\sqrt{\\frac{(\\mathrm{YA}+\\mathrm{KL}) \\mathrm{m}}{\\mathrm{KYA}}}\\)\r\nHence, Option B is correct\r\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/bitsat/hwt6276qhuuqoipq82.png\">"
+  }
+}

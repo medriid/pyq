@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e77d6f5bfc7ab78ae549",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0cc821b6514e527d73",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009",
+      "title": "BITSAT 2009"
+    }
+  ],
+  "question": {
+    "text": "Evaluate: \\(\\int x \\tan ^{-1} x d x\\)",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "XwOaE",
+      "text": "\\(\\frac{1}{2}\\left(x^2+1\\right) \\tan ^{-1} x-\\frac{1}{2} x+c\\)",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "zYnVi",
+      "text": "\\(\\frac{1}{2}\\left(x^2+1\\right) \\tan ^{-1} x+\\frac{1}{2} x+c\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ZA4Vi",
+      "text": "\\(\\frac{1}{2}\\left(\\mathrm{x}^2-1\\right) \\tan ^{-1} \\mathrm{x}-\\frac{1}{2} \\mathrm{x}+\\mathrm{c}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "0t0fI",
+      "text": "None of these",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\int x \\tan ^{-1} x d x=\\frac{x^2}{2} \\tan ^{-1} x-\\frac{1}{2} \\int \\frac{x^2}{1+x^2} d x \\\\\n& =\\frac{x^2}{2} \\tan ^{-1} x-\\frac{1}{2} \\int\\left[1-\\frac{1}{1+x^2}\\right] d x \\\\\n& =\\frac{1}{2}\\left(x^2+1\\right) \\tan ^{-1} x-\\frac{1}{2} x+c\n\\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0cc821b6514e527d73",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009",
+    "title": "BITSAT 2009"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $A=\\left[a_{i j}\\right]$ be a matrix of order $3 \\times 3$, with $a_{i j}=(\\sqrt{2})^{i+j}$. If the sum of all the elements in the third row of $A^2$ is $\\alpha+\\beta \\sqrt{2}, \\alpha, \\beta \\in \\mathbf{Z}$, then $\\alpha+\\beta$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "280",
+      "is_correct": false
+    },
+    {
+      "text": "224",
+      "is_correct": true
+    },
+    {
+      "text": "210",
+      "is_correct": false
+    },
+    {
+      "text": "168",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & A=\\left[\\begin{array}{lll}(\\sqrt{2})^2 & (\\sqrt{2})^3 & (\\sqrt{2})^4 \\\\ (\\sqrt{2})^3 & (\\sqrt{2})^4 & (\\sqrt{2})^5 \\\\ (\\sqrt{2})^4 & (\\sqrt{2})^5 & (\\sqrt{2})^6\\end{array}\\right] \\\\ & A=\\left[\\begin{array}{ccc}2 & 2 \\sqrt{2} & 4 \\\\ 2 \\sqrt{2} & 4 & 4 \\sqrt{2} \\\\ 4 & 4 \\sqrt{2} & 8\\end{array}\\right] \\\\ & A^2=2^2\\left[\\begin{array}{ccc}1 & \\sqrt{2} & 2 \\\\ \\sqrt{2} & 2 & 2 \\sqrt{2} \\\\ 2 & 2 \\sqrt{2} & 4\\end{array}\\right]\\left[\\begin{array}{ccc}1 & \\sqrt{2} & 2 \\\\ \\sqrt{2} & 2 & 2 \\sqrt{2} \\\\ 2 & 2 \\sqrt{2} & 4\\end{array}\\right]\\end{aligned}$\n\n$=4\\left[\\begin{array}{ccc}- & - & - \\\\ - & - & - \\\\ (2+4+8) & (2 \\sqrt{2}+4 \\sqrt{2}+8 \\sqrt{2}) & (4+8+16)\\end{array}\\right]$\n\n\n\n\nSum of elements of $3^{\\text {nd }}$ row $=4(14+14 \\sqrt{2}+28)$\n$\\begin{aligned}\n& =4(42+14 \\sqrt{2}) \\\\\n& =168+56 \\sqrt{2} \\\\\n& \\alpha+\\beta \\sqrt{2} \\\\\n\\therefore & \\alpha+\\beta=168+56=224\n\\end{aligned}$"
+  }
+}

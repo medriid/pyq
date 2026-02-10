@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2021",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd839e4041267a866788",
+    "chapter_name": "Differential Equations",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The general solution of the differential equation $\\left(\\tan ^{-1} y-x\\right) d y=\\left(1+y^{2}\\right) d x$ is"
+  },
+  "options": [
+    {
+      "text": "$x=\\left(\\tan ^{-1} y+1\\right)+\\mathrm{C} e^{-\\tan ^{-1} y}$",
+      "is_correct": false
+    },
+    {
+      "text": "$x=\\left(\\tan ^{-1} y-1\\right)+\\mathrm{C} e^{-\\tan ^{-1} y}$",
+      "is_correct": true
+    },
+    {
+      "text": "$x=\\left(\\tan ^{-1} x-1\\right)+\\mathrm{C} e^{-\\tan ^{-1} x}$",
+      "is_correct": false
+    },
+    {
+      "text": "$x=\\left(\\tan ^{-1} x+1\\right)+\\mathrm{Ce}^{-\\tan ^{-1} x}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "The given differential equation can be written as $\\frac{d x}{d y}+\\frac{x}{1+y^{2}}=\\frac{\\tan ^{-1} y}{1+y^{2}} \\ldots$ (i)\r\n\r\nNow, eq. (i) is a linear differential equation of the form $\\frac{d x}{d y}+\\mathrm{P}_{1} x=\\mathrm{Q}_{1}$\r\n\r\nwhere $\\mathrm{P}_{1}=\\frac{1}{1+y^{2}}$ and $\\mathrm{Q}_{1}=\\frac{\\tan ^{-1} y}{1+y^{2}}$\r\n\r\nTherefore, I.F $=e^{\\int \\frac{1}{1+y^{2}} d y}=e^{\\tan ^{-1} y}$\r\n\r\nThus, the solution of the given differential equation is given by $x e^{\\tan ^{-1} y}=\\int\\left(\\frac{\\tan ^{-1} y}{1+y^{2}}\\right) e^{\\tan ^{-1} y} \\mathrm{dy}+\\mathrm{C} \\ldots$ (ii)\r\n\r\nLet $\\mathrm{I}=\\int\\left(\\frac{\\tan ^{-1} y}{1+y^{2}}\\right) e^{\\tan ^{-1} y} \\mathrm{dy}$\r\n\r\nOn substituting $\\tan ^{-1} y=t$, so that\r\n\r\n$\\left(\\frac{1}{1+y^{2}}\\right) \\mathrm{dy}=\\mathrm{dt}$, we get\r\n\r\n$I=\\int t e^{t} d t=t e^{t}-\\int 1 \\cdot e^{t} d t=t e^{t}-e^{t}=e^{t}(t-1)$\r\n\r\nor $\\mathrm{I}=e^{\\tan ^{-1} y}\\left(\\tan ^{-1} y-1\\right)$\r\n\r\nOn substituting the value of 1 in equation (i1), we get\r\n\r\n$x \\cdot e^{\\tan ^{-1} y}=\\cdot e^{\\tan ^{-1} y}\\left(\\tan ^{-1} y-1\\right)+\\mathrm{C}$\r\n\r\nor $x=\\left(\\tan ^{-1} y-1\\right)+\\mathrm{C} e^{\\tan ^{-1} y}$\r\n\r\nwhich is the general solution of the given differntial equation."
+  }
+}

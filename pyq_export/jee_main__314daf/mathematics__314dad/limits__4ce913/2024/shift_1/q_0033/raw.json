@@ -1,0 +1,83 @@
+{
+  "_id": "6682bd43ba0e94a3c4025b88",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "question": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>e</mi><mrow><mn>2</mn><mfenced close=\"|\" open=\"|\"><mrow><mi>sin</mi><mi>x</mi></mrow></mfenced></mrow></msup><mo>-</mo><mn>2</mn><mfenced close=\"|\" open=\"|\"><mrow><mi>sin</mi><mi>x</mi></mrow></mfenced><mo>-</mo><mn>1</mn></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac></math></p>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "vZlED",
+      "text": "is equal to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>1</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "PE833",
+      "text": "does not exist",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "4msxB",
+      "text": "is equal to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "wg82b",
+      "text": "is equal to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>Given, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>e</mi><mrow><mn>2</mn><mfenced close=\"|\" open=\"|\"><mrow><mi>sin</mi><mi>x</mi></mrow></mfenced></mrow></msup><mo>-</mo><mn>2</mn><mfenced close=\"|\" open=\"|\"><mrow><mi>sin</mi><mi>x</mi></mrow></mfenced><mo>-</mo><mn>1</mn></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac></math></p><p>Now, using the expansion of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><mi>x</mi><mrow><mn>1</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>∞</mo></math> we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><mfenced close=\"|\" open=\"|\"><mrow><mn>2</mn><mi>sin</mi><mi>x</mi></mrow></mfenced><mrow><mn>1</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><msup><mfenced close=\"|\" open=\"|\"><mrow><mn>2</mn><mi>sin</mi><mi>x</mi></mrow></mfenced><mn>2</mn></msup><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>∞</mo></mrow></mfenced><mo>-</mo><mfenced close=\"|\" open=\"|\"><mrow><mn>2</mn><mi>sin</mi><mi>x</mi></mrow></mfenced><mo>-</mo><mn>1</mn></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mfrac><msup><mfenced close=\"|\" open=\"|\"><mrow><mn>2</mn><mi>sin</mi><mi>x</mi></mrow></mfenced><mn>2</mn></msup><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><msup><mfenced close=\"|\" open=\"|\"><mrow><mn>2</mn><mi>sin</mi><mi>x</mi></mrow></mfenced><mn>3</mn></msup><mrow><mn>3</mn><mo>!</mo></mrow></mfrac><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>∞</mo></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mn>2</mn><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi><mo>+</mo><mfrac><msup><mfenced close=\"|\" open=\"|\"><mrow><mn>2</mn><mi>sin</mi><mi>x</mi></mrow></mfenced><mn>3</mn></msup><mrow><mn>3</mn><mo>!</mo></mrow></mfrac><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>∞</mo></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2</mn><mo> </mo><mfenced close=\"}\" open=\"{\"><mrow><mtext>as</mtext><mo> </mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>sin</mi><mn>2</mn></msup><mi>x</mi></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>1</mn><mtext> and other terms will become zero</mtext></mrow></mfenced></math></p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "ab802cbc51ed4ccea52bc2d140b734c3",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/yyU7tqLsFxMlV.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/yyU7tqLsFxMlV.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYearPapers": [
+    {
+      "_id": "65c4c0c11d30997d3436bb04",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-01-31T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (31 Jan Shift 1)",
+      "title": "JEE Main 2024 (31 Jan Shift 1)"
+    }
+  ],
+  "previousYear": {
+    "_id": "65c4c0c11d30997d3436bb04",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-01-31T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (31 Jan Shift 1)",
+    "title": "JEE Main 2024 (31 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

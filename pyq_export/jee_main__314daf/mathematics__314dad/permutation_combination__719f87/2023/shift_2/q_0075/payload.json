@@ -1,8 +1,8 @@
 {
   "index": 75,
-  "type": "singleCorrect",
+  "type": "numerical",
   "difficulty": 1,
-  "pyq_info": "JEE Main 2023 (24 Jan Shift 2)",
+  "pyq_info": "JEE Main 2023 (30 Jan Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "The number of integers, greater than <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7000</mn></math>&nbsp;that can be formed, using the digits&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo>,</mo><mn>7</mn><mo>,</mo><mn>8</mn></math>&nbsp;without repetition is"
+    "text": "The number of seven digits odd numbers, that can be formed using all the seven digits <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mo>&#160;</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mn>3</mn><mo>,</mo><mo>&#160;</mo><mn>3</mn><mo>,</mo><mo>&#160;</mo><mn>5</mn></math> is"
   },
-  "options": [
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>168</mn></math>",
-      "is_correct": true
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>220</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn></math>",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "B"
-  ],
+  "options": [],
+  "correct_answer": "240",
   "solution": {
-    "text": "<p>Case&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>&nbsp;</p><p>forming&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>&nbsp;digit number,</p><p>When&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>&nbsp;is at&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1000</mn><mo>&#39;</mo><mtext>s</mtext></math>&nbsp;place</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>&#160;</mo><mi>_</mi><mo>&#160;</mo><mi>_</mi><mo>&#160;</mo><mi>_</mi></math>,</p><p>So total number of ways will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>2</mn><mo>=</mo><mn>24</mn></math>&nbsp;ways,</p><p>Case&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>&nbsp;</p><p>forming&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>&nbsp;digit number when&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math>&nbsp;is at&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1000</mn><mo>&#39;</mo><mtext>s</mtext></math>&nbsp;place&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>&#160;</mo><mi>_</mi><mo>&#160;</mo><mi>_</mi><mo>&#160;</mo><mi>_</mi></math>,</p><p>So total number of ways will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>2</mn><mo>=</mo><mn>24</mn></math>&nbsp;ways,</p><p>Case <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>&nbsp;</p><p>forming&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;digit number,</p><p>So total number of ways will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>!</mo><mo>=</mo><mn>120</mn></math>&nbsp;ways,</p><p>Now adding all the cases we get,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>+</mo><mn>24</mn><mo>+</mo><mn>24</mn><mo>=</mo><mn>168</mn></math>&nbsp;ways.</p>"
+    "text": "<p>To find the number of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>&nbsp;digit odd number formed by using the seven digits&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn></math></p><p>We will take following cases,</p><p>Case&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo></math>&nbsp;fixing&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>&nbsp;as unit place,</p><p>So total number of ways will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo><mn>2</mn><mo>!</mo></mrow></mfrac><mo>&#160;</mo><mfenced close=\"}\" open=\"{\"><mrow><mtext>as&#160;</mtext><mn>2</mn><mo>&#160;</mo><mtext>is&#160;repeating&#160;three&#160;times&#160;and&#160;3&#160;is&#160;repeating&#160;two&#160;times</mtext></mrow></mfenced></math></p><p>Case&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>-</mo></math>&nbsp;fixing&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>&nbsp;unit place,</p><p>So total number of ways will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo></mrow></mfrac></math></p><p>Case&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>-</mo></math>&nbsp;fixing&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;as unit place,</p><p>So total number of ways will be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo><mn>2</mn><mo>!</mo></mrow></mfrac></math></p><p>Now adding all the cases we will get, total number of ways as&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo><mn>2</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>6</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>6</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>60</mn><mo>+</mo><mn>120</mn><mo>+</mo><mn>60</mn><mo>=</mo><mn>240</mn></math></p>"
   }
 }

@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd732c864bbbf99596a1",
+    "chapter_name": "Circle",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For each parabola $y=x^2+p x+q$, meeting coordinate axes at 3-distinct points, if circles are drawn through these points, then the family of circles must pass through"
+  },
+  "options": [
+    {
+      "text": "\r\n$(1,0)$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$(0,1)$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n$(1,1)$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$(p, q)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Suppose the parabola $y=x^2+p x+q$ cuts $X$-axis at $A(\\alpha, 0)$ and $B(\\beta, 0)$.\r\nThen, $\\alpha, \\beta$ are roots of the equation $x^2+p x+q=0$\r\n$$\r\n\\therefore \\quad \\alpha+\\beta=-p \\text { and } \\alpha \\beta=q\r\n$$\r\nThe parabola $y=x^2+p x+q$ cuts $Y$-axis at $(0, q)$.\r\nLet the equation of the circle passing through $A, B$ and $C$ be\r\n$$\r\n\\begin{aligned}\r\n& x^2+y^2+2 g x+2 f y+c  =0 &...(i)\\\\\r\n\\therefore & \\alpha^2+2 g \\alpha+c  =0 &...(ii)\\\\\r\n& \\beta^2+2 g \\beta+c  =0 &...(iii)\\\\\r\n\\text { and } & q^2+2 f q+c  =0 &...(iv)\r\n\\end{aligned}\r\n$$\r\nSubtracting Eq. (iii) from Eq. (ii), we get\r\n$$\r\n\\begin{array}{rlrl}\r\n\\alpha+\\beta+2 g & =0 \\\\\r\n\\Rightarrow & g = p / 2\r\n\\end{array}\r\n$$\r\nAdding Eqs. (ii) and (iii), we get\r\n$$\r\n\\begin{array}{r}\r\n\\alpha^2+\\beta^2+2 g(\\alpha+\\beta)+2 c=0 \\\\\r\n(\\alpha+\\beta)^2-2 \\alpha \\beta+2 g(\\alpha+\\beta)+2 c=0 \\\\\r\np^2-2 q-p^2+2 c=0\r\n\\end{array}\r\n$$\r\n$$\r\n\\left[\\because \\alpha+\\beta=p \\text { and } g=\\frac{p}{2}\\right]\r\n$$\r\nPutting $c=q$ in Eq. (iv), we get $f=-\\left(\\frac{q+1}{2}\\right)$\r\nSubstituting the values of $g, f$ and $c$ in Eq. (i), we obtain the equation of family of circles passing through $A, B$ and $C$ as\r\n$$\r\nx^2+y^2+p x-(q+1) y+q=0\r\n$$\r\nClearly, it passes through $(0,1)$."
+  }
+}

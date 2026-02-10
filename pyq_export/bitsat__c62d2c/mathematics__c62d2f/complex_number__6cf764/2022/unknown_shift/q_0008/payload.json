@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7787c3b967066cf764",
+    "chapter_name": "Complex Number",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $|w|=2$, then the set of points $z=w-\\frac{1}{w}$ is contained in or equal to the set of points $z$ satisfying"
+  },
+  "options": [
+    {
+      "text": "\r\n$\\operatorname{Im}(z)=0$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$|\\operatorname{Im}(z)| \\leq 1$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$|\\operatorname{Re}(z)| \\leq 2$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$|z| \\leq 3$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "We have, $|w|=2 \\Rightarrow w=2(\\cos \\theta+i \\sin \\theta)$\r\n$\\therefore \\quad z=w-\\frac{1}{w}$\r\n$=2(\\cos \\theta+i \\sin \\theta)-\\frac{1}{2}(\\cos \\theta-i \\sin \\theta)$\r\n$\\Rightarrow \\quad z=\\frac{3}{2} \\cos \\theta+\\frac{5}{2} i \\sin \\theta$\r\n$\\Rightarrow \\quad|z|=\\sqrt{\\frac{9}{4}+\\frac{25}{4}}=\\frac{\\sqrt{17}}{2} < 3$\r\nHence, option (d) is correct."
+  }
+}

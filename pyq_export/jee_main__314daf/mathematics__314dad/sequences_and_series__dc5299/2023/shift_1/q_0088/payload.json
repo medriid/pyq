@@ -1,8 +1,8 @@
 {
   "index": 88,
-  "type": "singleCorrect",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2023 (06 Apr Shift 1)",
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2023 (13 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "<p>The sum of the first <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math> terms of the series <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>11</mn><mo>+</mo><mn>19</mn><mo>+</mo><mn>29</mn><mo>+</mo><mn>41</mn><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo></math> is</p>"
+    "text": "<p>The sum to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math>&nbsp;terms of the series <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>&#183;</mo><msup><mn>2</mn><mn>2</mn></msup><mo>-</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>&#183;</mo><msup><mn>4</mn><mn>2</mn></msup><mo>-</mo><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>&#183;</mo><msup><mn>6</mn><mn>2</mn></msup><mo>-</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo></math>&nbsp;is&nbsp;equal to<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>_</mi><mi>_</mi><mi>_</mi><mi>_</mi><mi>_</mi><mi>_</mi><mi>_</mi><mi>_</mi><mi>_</mi><mi>_</mi><mo>.</mo></math></p>"
   },
-  "options": [
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3520</mn></math>",
-      "is_correct": true
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3450</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3250</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3420</mn></math>",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "A"
-  ],
+  "options": [],
+  "correct_answer": "1310",
   "solution": {
-    "text": "<blockquote><p>Let the given series be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub></math>, then we can write as</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mn>5</mn><mo>+</mo><mn>11</mn><mo>+</mo><mn>19</mn><mo>+</mo><mn>29</mn><mo>+</mo><mn>41</mn><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><msub><mi>T</mi><mi>n</mi></msub><mspace linebreak=\"newline\"></mspace><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>5</mn><mo>+</mo><mn>11</mn><mo>+</mo><mn>19</mn><mo>+</mo><mn>29</mn><mo>+</mo><mn>41</mn><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><msub><mi>T</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>T</mi><mi>n</mi></msub></math></p><p>Subtracting above equations, we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>=</mo><mn>5</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>10</mn><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>-</mo><msub><mi>T</mi><mi>n</mi></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><mn>5</mn><mo>+</mo><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mn>2</mn></mfrac><mfenced><mrow><mn>12</mn><mo>+</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></mfenced><mn>2</mn></mrow></mfenced></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><mn>5</mn><mo>+</mo><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mfenced><mrow><mi>n</mi><mo>+</mo><mn>4</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>n</mi><mo>+</mo><mn>1</mn></math></p><p>So,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>20</mn></msub><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>20</mn></munderover><msub><mi>T</mi><mi>n</mi></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>S</mi><mn>20</mn></msub><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>20</mn></munderover><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>S</mi><mn>20</mn></msub><mo>=</mo><mfrac><mrow><mn>20</mn><mo>&#215;</mo><mn>21</mn><mo>&#215;</mo><mn>41</mn></mrow><mn>6</mn></mfrac><mo>+</mo><mfrac><mrow><mn>3</mn><mo>&#215;</mo><mn>20</mn><mo>&#215;</mo><mn>21</mn></mrow><mn>2</mn></mfrac><mo>+</mo><mn>20</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>S</mi><mn>20</mn></msub><mo>=</mo><mn>3520</mn></math></p></blockquote>"
+    "text": "<blockquote><p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>&#183;</mo><msup><mn>2</mn><mn>2</mn></msup><mo>-</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>&#183;</mo><msup><mn>4</mn><mn>2</mn></msup><mo>-</mo><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>&#183;</mo><msup><mn>6</mn><mn>2</mn></msup><mo>-</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math>&nbsp;terms,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><mfenced><mrow><mn>2</mn><mo>&#183;</mo><mo>(</mo><mn>2</mn><mi>r</mi><msup><mo>)</mo><mn>2</mn></msup><mo>-</mo><mo>(</mo><mn>2</mn><mi>r</mi><mo>+</mo><mn>1</mn><msup><mo>)</mo><mn>2</mn></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><mfenced><mrow><mn>8</mn><msup><mi>r</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><msup><mi>r</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><mfenced><mrow><mn>4</mn><msup><mi>r</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>r</mi><mo>-</mo><mn>1</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><msup><mi>r</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><mi>r</mi><mo>-</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mn>10</mn></munderover><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>4</mn><mo>&#183;</mo><mn>10</mn><mo>&#183;</mo><mn>11</mn><mo>&#183;</mo><mn>21</mn></mrow><mn>6</mn></mfrac><mo>-</mo><mn>4</mn><mfrac><mrow><mn>10</mn><mo>&#183;</mo><mn>11</mn></mrow><mn>2</mn></mfrac><mo>-</mo><mn>10</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>44</mn><mo>&#183;</mo><mn>35</mn><mo>-</mo><mn>220</mn><mo>-</mo><mn>10</mn></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1540</mn><mo>-</mo><mn>230</mn><mo>=</mo><mn>1310</mn></math></p></blockquote>"
   }
 }

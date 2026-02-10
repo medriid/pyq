@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e10",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d8",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (11 Apr Online)",
+      "title": "JEE Main 2014 (11 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "If for $\\mathrm{n} \\geq 1, \\mathrm{P}_{\\mathrm{n}}=\\int_1^{\\mathrm{e}}\\left(\\log \\mathrm{x}^{\\mathrm{n}}\\right) \\mathrm{dx}$, then $\\mathrm{P}_{10}-90 \\mathrm{P}_8$ is equal to:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "qK1JX",
+      "text": "\n$-9$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ZFj7S",
+      "text": "\n$10 \\mathrm{e}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "PyUS3",
+      "text": "\n$-9 \\mathrm{e}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "4hLWO",
+      "text": "\n10",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\mathrm{P}_{\\mathrm{n}}=\\int_1^e(\\log x)^n d x$ put $\\log x=t$ then $x=e^t$ and $d x=e^t d t$\nAlso, when $x=1$, then $t=\\log 1=0$ and when $x=e$, then $t=\\log _e e=1$\n$$\n\\begin{gathered}\n\\therefore \\mathrm{P}_{\\mathrm{n}}=\\int_0^1 t^n \\cdot e^t d t \\\\\n\\therefore \\mathrm{P}_{10}=\\int_0^1 t^{10} e^t d t \\text { and } \\mathrm{P}_8=\\int_0^1 t^8 e^t d t \\\\\n\\text { Now, } \\mathrm{P}_{10}-90 \\mathrm{P}_8=\\int_0^1 t^{10} e^t d t-90 \\int_0^1 t^8 e^t d t \\\\\n\\mathrm{P}_{10}-90 \\mathrm{P}_8 \\\\\n\\mathrm{P}_{10}-90 \\mathrm{P}_8 \\\\\n=\\left[t^{10} e^t\\right]_0^1-10 \\int_0^1 t^9 e^t d t-90 \\int_0^1 t^8 e^t d t \\\\\n\\mathrm{P}_{10}-90 \\mathrm{P}_8= \\\\\ne-10\\left[t^9 \\int_0^1 e^t d t-\\int_0^1 \\frac{d}{d t}\\left(t^9\\right) \\int e^t d t\\right]-90 \\int_0^1 t^8 e^t d t\n\\end{gathered}\n$$\n\n$$\n\\begin{gathered}\n\\mathrm{P}_{10}-90 \\mathrm{P}_8=e-10\\left[e-9 \\int_0^1 t^8 e^t d t\\right]-90 \\int_0^1 t^8 e^t d t \\\\\n\\mathrm{P}_{10}-90 \\mathrm{P}_8=e-10 e+90 \\int t^8 e^t d t-90 \\int_0^1 t^8 e^t d t \\\\\n\\therefore P_{10}-90 P_8=-9 e\n\\end{gathered}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d8",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (11 Apr Online)",
+    "title": "JEE Main 2014 (11 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

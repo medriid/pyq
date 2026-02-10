@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e8196f5bfc7ab78aea92",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d7e",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2020-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2020",
+      "title": "BITSAT 2020"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "$\\int_{0}^{\\infty} \\frac{\\mathrm{dx}}{\\left(\\mathrm{x}^{2}+\\mathrm{a}^{2}\\right)\\left(\\mathrm{x}^{2}+\\mathrm{b}^{2}\\right)}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Jsh07",
+      "text": "$\\frac{\\pi a b}{a+b}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "0hCe0",
+      "text": "$\\frac{\\pi}{2(a+b)}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "YZlie",
+      "text": "$\\frac{\\pi}{2 a b(a+b)}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "4JhZJ",
+      "text": "$\\frac{\\pi(a+b)}{2 a b}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\int_{0}^{\\infty} \\frac{d x}{\\left(x^{2}+a^{2}\\right)\\left(x^{2}+b^{2}\\right)}=\\frac{1}{b^{2}-a^{2}}$\r\n\r\n$\\int_{0}^{\\infty} \\frac{\\left(x^{2}+b^{2}\\right)-\\left(x^{2}+a^{2}\\right)}{\\left(x^{2}+a^{2}\\right)\\left(x^{2}+b^{2}\\right)}$\r\n\r\n$=\\frac{1}{b^{2}-a^{2}} \\int_{0}^{\\infty}\\left[\\frac{1}{x^{2}+a^{2}}-\\frac{1}{x^{2}+b^{2}}\\right] d x$\r\n\r\n$=\\frac{1}{b^{2}-a^{2}}\\left[\\frac{1}{a} \\tan ^{-1} \\frac{x}{a}-\\frac{1}{b} \\tan ^{-1} \\frac{x}{b}\\right]_{0}^{\\infty}$\r\n\r\n$=\\frac{1}{b^{2}-a^{2}}\\left[\\frac{\\pi}{2 a}-\\frac{\\pi}{2 b}\\right]=\\frac{\\pi}{2 a b(a+b)}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d7e",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2020-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2020",
+    "title": "BITSAT 2020"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

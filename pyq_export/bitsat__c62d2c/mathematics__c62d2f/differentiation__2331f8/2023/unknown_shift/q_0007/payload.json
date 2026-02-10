@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7e2daa1f081e2331f8",
+    "chapter_name": "Differentiation",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The derivative of $e^{x^3}$ with respect to $\\log x$ is"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{e}^{\\mathrm{x}^3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$3 \\mathrm{x}^2 2 \\mathrm{e}^{\\mathrm{x}^3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$3 \\mathrm{x}^3 \\mathrm{e}^{\\mathrm{x}^3}$",
+      "is_correct": true
+    },
+    {
+      "text": "$3 \\mathrm{x}^3 \\mathrm{e}^{\\mathrm{x}^3}+3 \\mathrm{x}^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $y=\\mathrm{e}^{\\mathrm{x}^3}, \\mathrm{z}=\\log \\mathrm{x}$<br />On differentiating w.r.t.x, we get<br />$\\frac{d y}{d x}=e^{x^3}\\left(3 x^2\\right)=3 x^2 e^{x^3} \\text { and } \\frac{d z}{d x}=\\frac{1}{x}$<br />$\\therefore \\frac{d y}{d z}=\\frac{\\frac{d y}{d x}}{\\frac{d z}{d x}}=\\frac{3 x^2 e^{x^3}}{\\left(\\frac{1}{x}\\right)}=3 x^3 e^{x^3}$"
+  }
+}

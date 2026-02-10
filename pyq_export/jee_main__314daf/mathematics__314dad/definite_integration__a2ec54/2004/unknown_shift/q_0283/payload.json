@@ -1,0 +1,43 @@
+{
+  "index": 283,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2004",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2004",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $f(x)=\\frac{e^x}{1+e^x}, l_1=\\int_{f(-a)}^{f(a)} x g\\{x(1-x)\\} d x$ and $I_2=\\int_{f(-a)}^{f(a)} g\\{x(1-x)\\} d x$ then the value of $\\frac{l_2}{l_1}$ is"
+  },
+  "options": [
+    {
+      "text": "\n2\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$-3$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$f(-a)+f(a)=1$\n$I_1=\\int_{f(-a)}^{f(a)} x g\\{x(1-x)\\} d x=\\int_{f(-a)}^{f(a)}(1-x) g\\{x(1-x)\\} d x \\quad\\left(\\because \\int_a^b f(x) d x=\\int_a^b f(a+b-x) d x\\right)$\n$2 I_1=\\int_{f(-a)}^{f(a)} g\\{x(1-x)\\} d x=I_2 \\Rightarrow I_2 / I_1=2$."
+  }
+}

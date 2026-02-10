@@ -1,8 +1,8 @@
 {
   "index": 26,
   "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2024 (04 Apr Shift 2)",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Let $f(x)=3 \\sqrt{x-2}+\\sqrt{4-x}$ be a real valued function. If $\\alpha$ and $\\beta$ are respectively the minimum and the maximum values of $f$, then $\\alpha^2+2 \\beta^2$ is equal to"
+    "text": "If the function $f(x)=\\left(\\frac{1}{x}\\right)^{2 x} ; x>0$ attains the maximum value at $x=\\frac{1}{\\mathrm{e}}$ then :"
   },
   "options": [
     {
-      "text": "42",
+      "text": "$\\mathrm{e}^\\pi < \\pi^{\\mathrm{e}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{e}^\\pi>\\pi^{\\mathrm{e}}$",
       "is_correct": true
     },
     {
-      "text": "38",
+      "text": "$(2 e)^\\pi>\\pi^{(2 e)}$",
       "is_correct": false
     },
     {
-      "text": "24",
-      "is_correct": false
-    },
-    {
-      "text": "44",
+      "text": "$\\mathrm{e}^{2 \\pi} < (2 \\pi)^{\\mathrm{e}}$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "A"
+    "B"
   ],
   "solution": {
-    "text": "$\\begin{aligned}\n& f(x)=3 \\sqrt{x-2}+\\sqrt{4-x} \\\\\n& x-2 \\geq 0 \\& 4-x \\geq 0 \\\\\n& \\therefore x \\in[2,4]\n\\end{aligned}$<br />Let $x=2 \\sin ^2 \\theta+4 \\cos ^2 \\theta$\n$\\begin{aligned}\n& \\therefore \\mathrm{f}(\\mathrm{x})=3 \\sqrt{2}|\\cos \\theta|+\\sqrt{2}|\\sin \\theta| \\\\\n& \\therefore \\sqrt{2} \\leq 3 \\sqrt{2}|\\cos \\theta|+\\sqrt{2}|\\sin \\theta| \\leq \\sqrt{9 \\times 2+2} \\\\\n& \\sqrt{2} \\leq 3 \\sqrt{2}|\\cos \\theta|+\\sqrt{2}|\\sin \\theta| \\leq \\sqrt{20} \\\\\n& \\therefore \\alpha=\\sqrt{2} \\quad \\beta=\\sqrt{20} \\\\\n& \\alpha^2+2 \\beta^2=2+40=42\n\\end{aligned}$"
+    "text": "Let $y=\\left(\\frac{1}{x}\\right)^{2 x}$\n$\\begin{aligned}\n& \\ell \\text { ny }=2 x \\ell n\\left(\\frac{1}{x}\\right) \\\\\n& \\ell \\text { ny }=-2 x \\ell \\ln x \\\\\n& \\frac{1}{y} \\frac{d y}{d x}=-2(1+\\ell n x)\n\\end{aligned}$\nfor $\\mathrm{x}>\\frac{1}{\\mathrm{e}} \\mathrm{f}^{\\mathrm{n}}$ is decreasing\n$\\text {so, } \\mathrm{e} < \\pi$\n$\\begin{aligned}\n& \\left(\\frac{1}{\\mathrm{e}}\\right)^{2 \\mathrm{e}}>\\left(\\frac{1}{\\pi}\\right)^{2 \\pi} \\\\\n& \\mathrm{e}^\\pi>\\pi^{\\mathrm{e}}\n\\end{aligned}$"
   }
 }

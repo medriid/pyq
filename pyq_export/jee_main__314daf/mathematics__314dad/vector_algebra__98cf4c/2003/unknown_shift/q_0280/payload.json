@@ -1,0 +1,43 @@
+{
+  "index": 280,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2003",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2003",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\left|\\begin{array}{lll}a & a^2 & 1+a^3 \\\\ b & b^2 & 1+b^3 \\\\ c & c^2 & 1+c^3\\end{array}\\right|=0$ and vectors $\\left(1, a, a^2\\right),\\left(a, b, b^2\\right)$ and $\\left(a, c, c^2\\right)$ are non-coplanar, then the product abc equals"
+  },
+  "options": [
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n2\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-1$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\left|\\begin{array}{lll}\\mathrm{a} & \\mathrm{a}^2 & 1+\\mathrm{a}^3 \\\\ \\mathrm{~b} & \\mathrm{~b}^2 & 1+\\mathrm{b}^3 \\\\ \\mathrm{c} & \\mathrm{c}^2 & 1+\\mathrm{c}^3\\end{array}\\right|=0 \\Rightarrow\\left|\\begin{array}{lll}\\mathrm{a} & \\mathrm{a}^2 & 1 \\\\ \\mathrm{~b} & \\mathrm{~b}^2 & 1 \\\\ \\mathrm{c} & \\mathrm{c}^2 & 1\\end{array}\\right|+\\left|\\begin{array}{ccc}\\mathrm{a} & \\mathrm{a}^2 & \\mathrm{a}^3 \\\\ \\mathrm{~b} & \\mathrm{~b}^2 & \\mathrm{~b}^3 \\\\ \\mathrm{c} & \\mathrm{c}^2 & \\mathrm{c}^3\\end{array}\\right|=0$\n$(a-b)(b-c)(c-a)+a b c(a-b)(b-c)(c-a)=0$\n$(a b c+1)[(a-b)(b-c)(c-a)]=0$\nAs $\\left|\\begin{array}{lll}1 & \\mathrm{a} & \\mathrm{a}^2 \\\\ 1 & \\mathrm{~b} & \\mathrm{~b}^2 \\\\ 1 & \\mathrm{c} & \\mathrm{c}^2\\end{array}\\right| \\neq 0$ (given condition) $\\quad \\therefore \\mathrm{abc}=-1$"
+  }
+}

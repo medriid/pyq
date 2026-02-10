@@ -1,37 +1,62 @@
 {
-  "_id": "648b5a6b417cc3fb48d6741e",
+  "_id": "648b5a69417cc3fb48d66e21",
   "previousYearPapers": [
     {
-      "_id": "615d92edde3d91842a5cf81c",
+      "_id": "615d92eede3d91842a5cf821",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2021-08-26T14:00:00.000Z",
+      "heldOn": "2021-09-01T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2021 (26 Aug Shift 2)",
-      "title": "JEE Main 2021 (26 Aug Shift 2)"
+      "shortName": "2021 (01 Sep Shift 2)",
+      "title": "JEE Main 2021 (01 Sep Shift 2)"
     }
   ],
-  "type": "numerical",
-  "level": 2,
+  "type": "singleCorrect",
+  "level": 3,
   "question": {
-    "text": "<p>For the given circuit, the power across zener diode is _____&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>mW</mi></math>.</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/7bdb8802-e4d9-4f1e-bfc1-c36a8dc98be1-image.png\" style=\"width: 400px; height: 148px;\" /></p>",
+    "text": "<p>In the given figure, each diode has a forward bias resistance of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></math> and infinite resistance in reverse bias. The current <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>I</mi><mn>1</mn></msub></math> will be :</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/dec4f262-5c6a-4db6-91b3-14f9fab8b74c-image.png\" style=\"width: 275px; height: 373px;\" /></p>",
     "image": null
   },
-  "options": [],
-  "correctValue": "120",
+  "options": [
+    {
+      "id": "5i67O",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>0</mn><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "1IHIB",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>.</mo><mn>75</mn><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "EbiAY",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>73</mn><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "dZyXy",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>35</mn><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math>",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/e8199f33-f588-4cdc-96dd-dbf4a87f3bf1-image.png\" style=\"width: 380px; height: 166px;\" /></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">i</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>14</mn><mrow><mn>1</mn><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mn>14</mn><mo>&#160;</mo><mi>mA</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">i</mi><mn>3</mn></msub><mo>=</mo><mfrac><mn>10</mn><mrow><mn>5</mn><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mn>2</mn><mo>&#160;</mo><mi>mA</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">i</mi><mn>2</mn></msub><mo>=</mo><msub><mi mathvariant=\"normal\">i</mi><mn>1</mn></msub><mo>-</mo><msub><mi mathvariant=\"normal\">i</mi><mn>3</mn></msub><mo>=</mo><mn>12</mn><mo>&#160;</mo><mi>mA</mi></math></p><p>Power consumed in zener diode</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi mathvariant=\"normal\">V</mi><mo>&#215;</mo><mi mathvariant=\"normal\">i</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>12</mn><mo>&#160;</mo><mi mathvariant=\"normal\">W</mi><mo>=</mo><mn>120</mn><mo>&#160;</mo><mi>mW</mi></math></p>",
+    "text": "<p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/c9554d63-cbdc-40f0-91b2-00e92923a8ec-image.png\" style=\"width: 274px; height: 373px;\" /></p><p>We know that in reverse bias ideal diode does not pass current it only works in forward bias so, the current in the third branch is zero, it means the net resistance of the upper two branch&nbsp;is,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><msub><mi>R</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>160</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>160</mn></mfrac><mo>&#8658;</mo><msub><mi>R</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub><mo>=</mo><mn>80</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>R</mi><msub><mo>'</mo><mrow><mi>e</mi><mi>q</mi></mrow></msub><mo>=</mo><mn>80</mn><mo>+</mo><mn>20</mn><mo>=</mo><mn>100</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>i</mi><mo>=</mo><mfrac><mn>200</mn><mn>100</mn></mfrac><mo>=</mo><mn>2</mn><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math></p>",
     "image": null
   },
   "videoSolution": null,
   "questionLabels": [],
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "615d92edde3d91842a5cf81c",
+    "_id": "615d92eede3d91842a5cf821",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2021-08-26T14:00:00.000Z",
+    "heldOn": "2021-09-01T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2021 (26 Aug Shift 2)",
-    "title": "JEE Main 2021 (26 Aug Shift 2)"
+    "shortName": "2021 (01 Sep Shift 2)",
+    "title": "JEE Main 2021 (01 Sep Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

@@ -1,8 +1,8 @@
 {
   "index": 16,
   "type": "numerical",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,11 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "The number of ways, 5 boys and 4 girls can sit in a row so that either all the boys sit together or no two boys sit together, is $\\qquad$ -"
+    "text": "Let m and $\\mathrm{n},(\\mathrm{m} \\lt \\mathrm{n})$ be two 2-digit numbers. Then the total numbers of pairs $(m, n)$, such that $\\operatorname{gcd}(m, n)=6$, is ________"
   },
   "options": [],
-  "correct_answer": "17280",
+  "correct_answer": "64",
   "solution": {
-    "text": "A : number of ways that all boys sit together $=5!\\times 5!$\nB : number of ways if no 2 boys\nsit together $=4!\\times 5$ !\n$\\mathrm{A} \\cap \\mathrm{B}=\\phi$\nRequired no. of ways $=5!\\times 5!+4!\\times 5!=17280$"
+    "text": "Let $\\mathrm{m}=6 \\mathrm{a}, \\mathrm{n}=6 \\mathrm{~b}$<br/>$\\mathrm{m} \\lt \\mathrm{n} \\Rightarrow \\mathrm{a} \\lt \\mathrm{b}$<br/>where $\\mathrm{a} \\& \\mathrm{~b}$ are co-prime numbers also since $m \\& n$ are 2 digit nos, so<br/>$10 \\leq \\mathrm{m} \\leq 99 \\& 10 \\leq \\mathrm{n} \\leq 99$<br/>i.e. $2 \\leq \\mathrm{a} \\leq 16 \\& 2 \\leq \\mathrm{b} \\leq 16$<br/>( $\\because$ a is integer)<br/>Now<br/>$2 \\leq \\mathrm{a} \\lt \\mathrm{b} \\leq 16 \\& \\quad \\mathrm{a} \\& \\mathrm{~b}$ are co-prime<br/>$\\therefore$ if<br/>$\\mathrm{a}=2, \\mathrm{~b}=3,5,7,9,11,13,15$<br/>$a=3, b=4,5,7,8,10,11,13,14,16$<br/>$a=4, b=5,7,9,11,13,15$<br/>$a=5, b=6,7,8,9,11,12,13,14,16$<br/>$\\mathrm{a}=6, \\mathrm{~b}=7,11,13$<br/>$\\mathrm{a}=7, \\mathrm{~b}=8,9,10,11,12,13,15,16$<br/>$\\mathrm{a}=8, \\mathrm{~b}=9,11,13,15$<br/>$a=9, b=10,11,13,14,16$<br/>$\\mathrm{a}=10, \\mathrm{~b}=11,13$<br/>$\\mathrm{a}=11, \\mathrm{~b}=12,13,14,15,16$<br/>$\\mathrm{a}=12, \\mathrm{~b}=13$<br/>$a=13, b=14,15,16$<br/>$\\mathrm{a}=14, \\mathrm{~b}=15$<br/>$\\mathrm{a}=15, \\mathrm{~b}=16$<br/>64 ordered pairs"
   }
 }

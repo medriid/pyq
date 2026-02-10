@@ -1,33 +1,58 @@
 {
-  "_id": "66446714970e6e9ab542d002",
-  "type": "numerical",
+  "_id": "6644674d970e6e9ab542d213",
+  "type": "singleCorrect",
   "level": 3,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "664466ee278297dee60eda69",
+      "_id": "664466ef278297dee60eda6f",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-04-04T14:00:00.000Z",
+      "heldOn": "2024-04-08T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (04 Apr Shift 2)",
-      "title": "JEE Main 2024 (04 Apr Shift 2)"
+      "shortName": "2024 (08 Apr Shift 2)",
+      "title": "JEE Main 2024 (08 Apr Shift 2)"
     }
   ],
   "question": {
-    "text": "Consider the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined by $f(x)=\\frac{2 x}{\\sqrt{1+9 x^2}}$. If the composition of $f, \\underbrace{(f \\circ f \\circ f \\circ \\cdots \\circ f)}_{10 \\text { times }}(x)=\\frac{2^{10} x}{\\sqrt{1+9 \\alpha x^2}}$, then the value of $\\sqrt{3 \\alpha+1}$ is equal to ______",
+    "text": "Let $f(x)=\\left\\{\\begin{array}{ccc}-\\mathrm{a} & \\text { if } & -\\mathrm{a} \\leq x \\leq 0 \\\\ x+\\mathrm{a} & \\text { if } & 0 < x \\leq \\mathrm{a}\\end{array}\\right.$ where $\\mathrm{a}>0$ and $\\mathrm{g}(x)=(f(x \\mid)-|f(x)|) / 2$.\nThen the function $g:[-a, a] \\rightarrow[-a, a]$ is",
     "image": null
   },
-  "options": [],
-  "correctValue": "1024",
+  "options": [
+    {
+      "id": "hhHza",
+      "text": "neither one-one nor onto.",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "9VPml",
+      "text": "onto.",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "LCKky",
+      "text": "both one-one and onto.",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "46sOX",
+      "text": "one-one.",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "$\\begin{aligned}\n& f(f(x))=\\frac{2 f(x)}{\\sqrt{1+9 f^2(x)}}=\\frac{4 x}{\\sqrt{1+9 x^2+9.2^2 x^2}} \\\\\n& f(f(f(x)))=\\frac{2^3 x / \\sqrt{1+9 x^2}}{\\sqrt{1+9\\left(1+2^2\\right) \\frac{2^2 x^2}{1+9 x^2}}}=\\frac{2^3 x}{\\sqrt{1+9 x^2\\left(1+2^2+2^4\\right)}}\n\\end{aligned}$\n$\\therefore$ By observation\n$\\begin{aligned}\n& \\alpha=1+2^2+2^4+\\ldots .+2^{18}=1\\left(\\frac{\\left(2^2\\right)^{10}-1}{2^2-1}\\right)=\\frac{2^{20}-1}{3} \\\\\n& 3 \\alpha+1=2^{20} \\rightarrow \\sqrt{3 \\alpha+1}=2^{10}=1024\n\\end{aligned}$",
+    "text": "$y=f(x)$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/w518Vp-1wvOhnmhK-44wc-GezcELscgNsUNfj1NU0t8.original.fullsize.png\"><br />$y=f|x|$<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/ZDyQUL79sZm7svDWvTumQrxAgOYRVxfSgEdHpJEYcRM.original.fullsize.png\"><br />$y=|f(x)|$<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/m-oXVi36JbqgZ3kaw4crKu4B3rz3viDY2Mptq-qD8DU.original.fullsize.png\"><br />$g(x)=\\frac{f(|x|)-|f(x)|}{2}$<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/BqtHmA1OHZJf8vQ2KHdVImbfOGvxqdUQp4d0yzqAzlw.original.fullsize.png\"><br>",
     "image": null
   },
   "videoSolution": {
-    "videoId": "fc8db85121464d10b8370e0ee39b39e8",
+    "videoId": "d22c3733cd1644279922f3a32bffdcbd",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/naLJhws95bMBi.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/naLJhws95bMBi.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/n5b8bv6SmGcHJ.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/n5b8bv6SmGcHJ.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6628114842d540dfcb148ecb",
@@ -46,12 +71,12 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "664466ee278297dee60eda69",
+    "_id": "664466ef278297dee60eda6f",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-04-04T14:00:00.000Z",
+    "heldOn": "2024-04-08T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (04 Apr Shift 2)",
-    "title": "JEE Main 2024 (04 Apr Shift 2)"
+    "shortName": "2024 (08 Apr Shift 2)",
+    "title": "JEE Main 2024 (08 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

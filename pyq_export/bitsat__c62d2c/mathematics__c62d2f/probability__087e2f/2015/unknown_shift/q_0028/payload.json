@@ -1,0 +1,43 @@
+{
+  "index": 28,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78b6e5f7d916087e2f",
+    "chapter_name": "Probability",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A bag contains $(2 n+1)$ coins. It is known that n of these coins have a head on both sides, whereas the remaining $(\\mathrm{n}+1)$ coins are fair. A coin is picked up at random from the bag and tossed. If the probability that the toss results in a head is $31 / 42,$ then $\\mathrm{n}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "10",
+      "is_correct": true
+    },
+    {
+      "text": "11",
+      "is_correct": false
+    },
+    {
+      "text": "12",
+      "is_correct": false
+    },
+    {
+      "text": "13",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Total number of coins $=2 \\mathrm{n}+1$\r\n\r\nConsider the following events:\r\n\r\n$\\mathrm{E}_{1}=$ Getting a coin having head on both\r\n\r\nsides from the bag.\r\n\r\n$\\mathrm{E}_{2}=$ Getting a fair coin from the bag\r\n\r\n$\\mathrm{A}=$ Toss results in a head\r\n\r\nGiven: $\\mathrm{P}(\\mathrm{A})=\\frac{31}{42}, \\mathrm{P}\\left(\\mathrm{E}_{1}\\right)=\\frac{\\mathrm{n}}{2 \\mathrm{n}+1}$\r\n\r\nand $\\mathrm{P}\\left(\\mathrm{E}_{2}\\right)=\\frac{\\mathrm{n}+1}{2 \\mathrm{n}+1}$\r\n\r\nThen,\r\n\r\n$\\mathrm{P}(\\mathrm{A})=\\mathrm{P}\\left(\\mathrm{E}_{1}\\right) \\mathrm{P}\\left(\\mathrm{A} / \\mathrm{E}_{1}\\right)+\\mathrm{P}\\left(\\mathrm{E}_{2}\\right) \\mathrm{P}\\left(\\mathrm{A} / \\mathrm{E}_{2}\\right)$\r\n\r\n$\\Rightarrow \\frac{31}{42}=\\frac{n}{2 n+1} \\times 1+\\frac{n+1}{2 n+1} \\times \\frac{1}{2}$\r\n\r\n$\\frac{31}{42}=\\frac{n}{2 n+1}+\\frac{n+1}{2(2 n+1)}$\r\n\r\n$\\Rightarrow \\frac{31}{42}=\\frac{3 n+1}{2(2 n+1)}$\r\n\r\n$\\Rightarrow \\frac{31}{21}=\\frac{3 n+1}{2 n+1}$\r\n\r\n$n=10$"
+  }
+}

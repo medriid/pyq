@@ -1,0 +1,43 @@
+{
+  "index": 285,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2004",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2004",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $I=\\int_0^{\\pi / 2} \\frac{(\\sin x+\\cos x)^2}{\\sqrt{1+\\sin 2 x}} d x$ is"
+  },
+  "options": [
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n2\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n3",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\int_0^{\\frac{\\pi}{2}} \\frac{(\\sin x+\\cos x)^2}{\\sqrt{(\\sin x+\\cos x)^2}} d x=\\int_0^{\\frac{\\pi}{2}}(\\sin x+\\cos x) d x=|-\\cos x+\\sin x|_0^{\\frac{\\pi}{2}}=2$"
+  }
+}

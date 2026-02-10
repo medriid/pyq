@@ -1,0 +1,43 @@
+{
+  "index": 163,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (07 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602565bccda81624f5a071",
+    "chapter_name": "Area Under Curves",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The parabola $y^2=x$ divides the circle $x^2+y^2=2$ into two parts whose areas are in the ratio"
+  },
+  "options": [
+    {
+      "text": "\n$9 \\pi+2: 3 \\pi-2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$9 \\pi-2: 3 \\pi+2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$7 \\pi-2: 2 \\pi-3$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$7 \\pi+2: 3 \\pi+2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0163_f7cf12b302a8.png\"><br>\n$$\n\\begin{aligned}\n& \\text { Area of circle }=\\pi(\\sqrt{2})^2=2 \\pi \\\\\n& \\text { Area of } O C A D O=2\\{\\text { Area of } O C A O\\} \\\\\n& \\quad=2 \\text { area of } O C B+\\text { area of } B C A\\} \\\\\n& =2 \\int_0^1 y_p d x+2 \\int_1^{\\sqrt{2}} y_c d x \\\\\n& \\text { where } y_p=\\sqrt{x} \\text { and } y_c=\\sqrt{2-x^2} \\\\\n& \\therefore \\text { Required Area } \\\\\n& =2 \\int \\frac{1}{x} d x+2 \\int_0^{\\sqrt{2}} \\sqrt{2-x^2} d x \\\\\n& =2\\left[\\frac{2}{3} \\cdot 1-0\\right]+2\\left[\\frac{x \\sqrt{2-x^2}}{2}+\\sin ^{-1} \\frac{x}{\\sqrt{2}}\\right]_1^{\\sqrt{2}}\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& =\\frac{4}{3}+2\\left\\{\\frac{\\pi}{2}-\\frac{\\pi}{4}-\\frac{1}{2}\\right\\}=\\frac{4}{3}+2\\left\\{\\frac{\\pi}{4}-\\frac{1}{2}\\right\\}=\\frac{3 \\pi+2}{6} \\\\\n& \\text { Bigger area }=2 \\pi-\\frac{3 \\pi+2}{6}=\\frac{9 \\pi-2}{6} \\\\\n& \\therefore \\text { Required Ratio }=\\frac{9 \\pi-2}{3 \\pi+2} \\text { i.e., } 9 \\pi-2: 3 \\pi+2\n\\end{aligned}\n$$"
+  }
+}

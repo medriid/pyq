@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd8200377a3e2b7dccc5",
+    "chapter_name": "Trigonometric Equations",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Number of solutions of equations $\\sin 9 \\theta=\\sin \\theta$ in the interval $[0,2 \\pi]$ is"
+  },
+  "options": [
+    {
+      "text": "16",
+      "is_correct": false
+    },
+    {
+      "text": "17",
+      "is_correct": true
+    },
+    {
+      "text": "18",
+      "is_correct": false
+    },
+    {
+      "text": "15",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\text {  Given, } \\quad \\sin 9 \\theta=\\sin \\theta \\\\\n& \\Rightarrow \\quad \\sin 9 \\theta-\\sin \\theta=0 \\\\\n& \\Rightarrow \\quad 2 \\cos \\left(\\frac{9 \\theta+\\theta}{2}\\right) \\sin \\left(\\frac{9 \\theta-\\theta}{2}\\right)=0 \\\\\n& {\\left[\\because \\sin C-\\sin D=2 \\cos \\left(\\frac{C+D}{2}\\right) \\sin \\left(\\frac{C-D}{2}\\right)\\right]} \\\\\n& \\Rightarrow \\quad 2 \\cos 5 \\theta \\sin 4 \\theta=0 \\\\\n& \\Rightarrow \\text { Either } \\cos 5 \\theta=0 \\text { or } \\sin 4 \\theta=0 \\text {, also } \\theta \\in[0,2 \\pi] \\\\\n& \\Rightarrow \\quad 5 \\theta=(2 n+1) \\frac{\\pi}{2} \\\\\n& \\text { or } \\quad 4 \\theta=n \\pi \\\\\n& \\Rightarrow \\quad \\theta=(2 n+1) \\frac{\\pi}{10} \\text { or } \\theta=\\frac{n \\pi}{4} \\\\\n& \\therefore \\quad \\theta=\\frac{\\pi}{10}, \\frac{3 \\pi}{10}, \\frac{\\pi}{2}, \\frac{7 \\pi}{10}, \\frac{9 \\pi}{10}, \\frac{11 \\pi}{10}, \\frac{13 \\pi}{10}, \\frac{3 \\pi}{2}, \\frac{17 \\pi}{10}, \\frac{19 \\pi}{10} \\\\\n& \\text { or } \\quad 0, \\frac{\\pi}{4}, \\frac{\\pi}{2}, \\frac{3 \\pi}{4}, \\pi, \\frac{5 \\pi}{4}, \\frac{3 \\pi}{2}, \\frac{7 \\pi}{4}, 2 \\pi \\\\\n& \\therefore \\text { Total number of solutions }=17 \\\\\n& \\left(\\because \\frac{\\pi}{2} \\text { and } \\frac{3 \\pi}{2} \\text { are common }\\right)\n\\end{aligned}$"
+  }
+}

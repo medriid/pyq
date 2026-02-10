@@ -1,0 +1,83 @@
+{
+  "_id": "67a2ee95c8b73881fdaea129",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d9760a",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-23T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (23 Jan Shift 1)",
+      "title": "JEE Main 2025 (23 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "If $\\mathrm{A}, \\mathrm{B}$, and $\\left(\\operatorname{adj}\\left(\\mathrm{A}^{-1}\\right)+\\operatorname{adj}\\left(\\mathrm{B}^{-1}\\right)\\right)$ are non-singular matrices of same order, then the inverse of $\\mathrm{A}\\left(\\operatorname{adj}\\left(\\mathrm{A}^{-1}\\right)+\\operatorname{adj}\\left(\\mathrm{B}^{-1}\\right)\\right)^{-1} \\mathrm{~B}$, is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "yLevd",
+      "text": "$\\mathrm{AB}^{-1}+\\mathrm{A}^{-1} \\mathrm{~B}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "tF5o3",
+      "text": "$\\operatorname{adj}\\left(\\mathrm{B}^{-1}\\right)+\\operatorname{adj}\\left(\\mathrm{A}^{-1}\\right)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "D3ug3",
+      "text": "$\\frac{A B^{-1}}{|A|}+\\frac{B A^{-1}}{|B|}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "2f9UC",
+      "text": "$\\frac{1}{|A B|}(\\operatorname{adj}(B)+\\operatorname{adj}(A))$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & {\\left[\\mathrm{A}\\left(\\operatorname{adj}\\left(\\mathrm{A}^{-1}\\right)+\\operatorname{adj}\\left(\\mathrm{B}^{-1}\\right)\\right)^{-1} \\cdot \\mathrm{~B}\\right]^{-1}} \\\\ & \\Rightarrow \\mathrm{~B}^{-1} \\cdot\\left(\\operatorname{adj}\\left(\\mathrm{~A}^{-1}\\right)+\\operatorname{adj}\\left(\\mathrm{B}^{-1}\\right)\\right) \\cdot \\mathrm{A}^{-1} \\\\ & \\Rightarrow \\mathrm{~B}^{-1} \\operatorname{adj}\\left(\\mathrm{~A}^{-1}\\right) \\mathrm{A}^{-1}+\\mathrm{B}^{-1}\\left(\\operatorname{adj}\\left(\\mathrm{~B}^{-1}\\right)\\right) \\cdot \\mathrm{A}^{-1} \\\\ & \\Rightarrow \\mathrm{~B}^{-1}\\left|\\mathrm{~A}^{-1}\\right| \\mathrm{I}+\\left|\\mathrm{B}^{-1}\\right| \\mathrm{IA}^{-1} \\\\ & \\Rightarrow \\frac{\\mathrm{~B}^{-1}}{|\\mathrm{~A}|}+\\frac{\\mathrm{A}^{-1}}{|\\mathrm{~B}|} \\\\ & \\Rightarrow \\frac{\\operatorname{adjB}}{|\\mathrm{B}||\\mathrm{A}|}+\\frac{\\operatorname{adj}}{|\\mathrm{A}||\\mathrm{B}|} \\\\ & =\\frac{1}{|\\mathrm{~A}||\\mathrm{B}|}(\\operatorname{adjB}+\\operatorname{adj} \\mathrm{A})\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "5528c882f26e48c9b7638bdaf809095e",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/TfjVlVTxBRTlX.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/TfjVlVTxBRTlX.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d9760a",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-23T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (23 Jan Shift 1)",
+    "title": "JEE Main 2025 (23 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

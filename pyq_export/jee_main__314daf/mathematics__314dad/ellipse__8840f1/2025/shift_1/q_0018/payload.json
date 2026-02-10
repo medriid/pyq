@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253f32f74d11258840f1",
+    "chapter_name": "Ellipse",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If $S$ and $S^{\\prime}$ are the foci of the ellipse $\\frac{x^2}{18}+\\frac{y^2}{9}=1$ and P be a point on the ellipse, then $\\min \\left(S P . S^{\\prime} \\mathrm{P}\\right)+$ $\\max \\left(\\mathrm{SP} . \\mathrm{S}^{\\prime} \\mathrm{P}\\right)$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$3(1+\\sqrt{2})$",
+      "is_correct": false
+    },
+    {
+      "text": "$3(6+\\sqrt{2})$",
+      "is_correct": false
+    },
+    {
+      "text": "9",
+      "is_correct": false
+    },
+    {
+      "text": "27",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0018_0685dd410898.png\"/><br/>$\\mathrm{PS}+\\mathrm{PS}^{\\prime}=2 \\times 3 \\sqrt{2}$<br/>$\\mathrm{b}^2=\\mathrm{a}^2\\left(1-\\mathrm{e}^2\\right) \\Rightarrow 9=18\\left(1-\\mathrm{e}^2\\right)$<br/>$\\Rightarrow \\mathrm{e}=\\frac{1}{\\sqrt{2}}$<br/>Directrix $\\mathrm{x}=\\frac{\\mathrm{a}}{\\mathrm{e}}=\\frac{3 \\sqrt{2}}{\\frac{1}{\\sqrt{2}}}=6$<br/>$P S \\cdot P S '=\\left|\\frac{1}{\\sqrt{2}}(3 \\sqrt{2} \\cos \\theta-6) \\frac{1}{\\sqrt{2}}(3 \\sqrt{2} \\cos \\theta+6)\\right|$<br/>$=\\frac{1}{2}\\left|18 \\cos ^2 \\theta-36\\right|$<br/>$\\left(\\mathrm{PS} \\cdot \\mathrm{PS}^{\\prime}\\right)_{\\max }=18 ;(\\mathrm{PS} \\cdot \\mathrm{PS})_{\\min }=9$<br/>sum $=27$"
+  }
+}

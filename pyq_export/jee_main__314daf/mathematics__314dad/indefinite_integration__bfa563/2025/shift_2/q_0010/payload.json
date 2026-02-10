@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $\\int x^3 \\sin x \\mathrm{~d} x=g(x)+C$, where $C$ is the constant of integration. If $8\\left(g\\left(\\frac{\\pi}{2}\\right)+g^{\\prime}\\left(\\frac{\\pi}{2}\\right)\\right)=\\alpha \\pi^3+\\beta \\pi^2+\\gamma, \\alpha, \\beta, \\gamma \\in Z$, then $\\alpha+\\beta-\\gamma$ equals :"
+  },
+  "options": [
+    {
+      "text": "48",
+      "is_correct": false
+    },
+    {
+      "text": "55",
+      "is_correct": true
+    },
+    {
+      "text": "62",
+      "is_correct": false
+    },
+    {
+      "text": "47",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\int x^3 \\sin x d x=-x^3 \\cos x+\\int 3 x^2 \\cos x d x \\\\\n& =-x^3 \\cos x+3 x^2 \\sin x-\\int 6 x \\sin x d x \\\\\n& =-x^3 \\cos x+3 x^2 \\sin x+6 x \\cos x-6 \\sin x+c\n\\end{aligned}$\n\nSo $g(x)=-x^3 \\cos x+3 x^2 \\sin x+6 x \\cos x-6 \\sin x$\n$\\begin{aligned}\n& \\mathrm{g}\\left(\\frac{\\pi}{2}\\right)=\\frac{3 \\pi^2}{4}-6 \\\\\n& \\mathrm{~g}^{\\prime}(\\mathrm{x})=-3 \\mathrm{x}^2 \\cos \\mathrm{x}+\\mathrm{x}^3 \\sin \\mathrm{x}+6 \\cos \\mathrm{x}-6 \\cos \\mathrm{x} \\\\\n& \\mathrm{~g}^{\\prime}\\left(\\frac{\\pi}{2}\\right)=\\frac{\\pi^3}{8} \\\\\n& 8\\left(\\mathrm{~g}\\left(\\frac{\\pi}{2}\\right)+\\mathrm{g}^{\\prime}\\left(\\frac{\\pi}{2}\\right)\\right)=\\pi^3+6 \\pi^2-48\n\\end{aligned}$\n\nSo $\\alpha+\\beta-\\gamma=55$"
+  }
+}

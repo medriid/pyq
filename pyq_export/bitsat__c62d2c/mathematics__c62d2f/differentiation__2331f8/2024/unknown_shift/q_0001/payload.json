@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7e2daa1f081e2331f8",
+    "chapter_name": "Differentiation",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $x \\sqrt{1+y}+y \\sqrt{1+x}=0$, then $\\frac{d y}{d x}=$"
+  },
+  "options": [
+    {
+      "text": "$\\frac{x+1}{x}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{1+x}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{-1}{(1+x)^2}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{x}{1+x}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\text {  Given, } x \\sqrt{1+y}+y \\sqrt{1+x}=0 \\\\\n& \\Rightarrow \\quad x \\sqrt{1+y}=-y \\sqrt{1+x} \\\\\n& \\Rightarrow \\quad(x \\sqrt{1+y})^2=(-y \\sqrt{1+x})^2\n\\end{aligned}$\n$\\begin{array}{lr}\n\\Rightarrow & x^2(1+y)=y^2(1+x) \\\\\n\\Rightarrow & x^2-y^2=y^2 x-x^2 y \\\\\n\\Rightarrow & (x-y)(x+y)=x y(y-x) \\\\\n\\Rightarrow & x+y=-x y \\\\\n\\Rightarrow & x+y+x y=0 \\\\\n\\Rightarrow & y=\\frac{-x}{1+x}=-1+\\frac{1}{1+x}\n\\end{array}$\nDifferentiating w.r.t, $x$\n$\\frac{d y}{d x}=-\\frac{1}{(1+x)^2}$"
+  }
+}

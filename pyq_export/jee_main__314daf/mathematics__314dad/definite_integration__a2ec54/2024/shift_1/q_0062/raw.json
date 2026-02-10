@@ -1,0 +1,83 @@
+{
+  "_id": "6682bd52ba0e94a3c4025be8",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "question": {
+    "text": "The value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>→</mo><mo>∞</mo></mrow></munder><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mfrac><msup><mi>n</mi><mn>3</mn></msup><mrow><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msup><mi>k</mi><mn>2</mn></msup></mrow></mfenced><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><msup><mi>k</mi><mn>2</mn></msup></mrow></mfenced></mrow></mfrac></math> is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "UI2KW",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>)</mo><mi>π</mi></mrow><mn>24</mn></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "iXNz1",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>13</mn><mi>π</mi></mrow><mrow><mn>8</mn><mo>(</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>)</mo></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "T5nIN",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>13</mn><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>-</mo><mn>3</mn><mo>)</mo><mi>π</mi></mrow><mn>8</mn></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "vjrjS",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>π</mi><mrow><mn>8</mn><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>)</mo></mrow></mfrac></math>",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>Given, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>→</mo><mo>∞</mo></mrow></munder><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mfrac><msup><mi>n</mi><mn>3</mn></msup><mrow><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msup><mi>k</mi><mn>2</mn></msup></mrow></mfenced><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><msup><mi>k</mi><mn>2</mn></msup></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>→</mo><mo>∞</mo></mrow></munder><mfrac><mn>1</mn><mi>n</mi></mfrac><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mfrac><mn>1</mn><mrow><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><msup><mi>k</mi><mn>2</mn></msup><msup><mi>n</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mfenced><mrow><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mfrac><msup><mi>k</mi><mn>2</mn></msup><msup><mi>n</mi><mn>2</mn></msup></mfrac></mrow></mfenced></mrow></mfrac></math></p><p>Now, using limit as a sum integral we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced><mfenced><mrow><mn>1</mn><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>3</mn><mfenced><mrow><mn>1</mn><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced></mfrac></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>1</mn><mfenced><mrow><msup><mfenced><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><msqrt><mn>3</mn></msqrt></mfrac></mstyle></mfenced><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced></mfrac></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msubsup><mfenced close=\"]\" open=\"[\"><mrow><msqrt><mn>3</mn></msqrt><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mrow><msqrt><mn>3</mn></msqrt><mi>x</mi></mrow></mfenced><mo>-</mo><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></mrow></mfenced><mn>0</mn><mn>1</mn></msubsup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><msqrt><mn>3</mn></msqrt><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><msqrt><mn>3</mn></msqrt></mfenced><mo>-</mo><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mn>1</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><msqrt><mn>3</mn></msqrt><mo>·</mo><mfrac><mi mathvariant=\"normal\">π</mi><mn>3</mn></mfrac><mo>-</mo><mfrac><mi mathvariant=\"normal\">π</mi><mn>4</mn></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mi mathvariant=\"normal\">π</mi><msqrt><mn>3</mn></msqrt></mfrac><mo>-</mo><mfrac><mi mathvariant=\"normal\">π</mi><mn>4</mn></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>13</mn><mi>π</mi></mrow><mrow><mn>8</mn><mo>·</mo><mo>(</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>)</mo></mrow></mfrac></math></p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "087a71b1e1dc42f3afd8b86961c7af79",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/AEDPB6tAuP85E.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/AEDPB6tAuP85E.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "outOfSyllabus",
+  "previousYearPapers": [
+    {
+      "_id": "65c4c0c11d30997d3436bb02",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-01-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (30 Jan Shift 1)",
+      "title": "JEE Main 2024 (30 Jan Shift 1)"
+    }
+  ],
+  "previousYear": {
+    "_id": "65c4c0c11d30997d3436bb02",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-01-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (30 Jan Shift 1)",
+    "title": "JEE Main 2024 (30 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

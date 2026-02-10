@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e8286f5bfc7ab78aeb1b",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44c",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2021-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021",
+      "title": "BITSAT 2021"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 1,
+  "question": {
+    "text": "If the radius of a sphere is measured as $9 \\mathrm{~cm}$ with an error of $0.03 \\mathrm{~cm}$, then find the approximating error in calculating its volume.",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "QIsfY",
+      "text": "$2.46 \\pi \\mathrm{cm}^{3}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "QqbJl",
+      "text": "$8.62 \\pi \\mathrm{cm}^{3}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "l0OdA",
+      "text": "$9.72 \\pi \\mathrm{cm}^{3}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "mvsO2",
+      "text": "$7.6 \\pi \\mathrm{cm}^{3}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $r$ be the radius of the sphere and $\\Delta r$ be the error in measuring the radius. Then, $r=9 \\mathrm{~cm}$ and $\\Delta r=0.03 \\mathrm{~cm}$\r\n\r\nLet $V$ be the volume of the sphere. Then,\r\n\r\n$\\begin{array}{l}\r\n\r\n\\mathrm{V}=\\frac{4}{3} \\pi r^{3} \\\\\r\n\r\n\\Rightarrow \\frac{\\mathrm{dV}}{\\mathrm{dr}}=4 \\pi r^{2} \\\\\r\n\r\n\\Rightarrow\\left(\\frac{\\mathrm{dV}}{\\mathrm{dr}}\\right)_{r=9}=4 \\pi \\times 9^{2}=324 \\pi\r\n\r\n\\end{array}$\r\n\r\nLet $\\Delta \\mathrm{V}$ be the error in $\\mathrm{V}$ due to error $\\Delta \\mathrm{r}$ in $r$.\r\n\r\nThen,\r\n\r\n$\\begin{array}{l}\r\n\r\n\\Delta \\mathrm{V}=\\frac{\\mathrm{dV}}{\\mathrm{dr}} \\Delta r \\\\\r\n\r\n\\Rightarrow \\Delta \\mathrm{V}=324 \\pi \\times 0.03=9.72 \\pi \\mathrm{cm}^{3}\r\n\r\n\\end{array}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44c",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2021-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021",
+    "title": "BITSAT 2021"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

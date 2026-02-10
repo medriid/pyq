@@ -1,8 +1,8 @@
 {
   "index": 113,
-  "type": "numerical",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2021 (25 Jul Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (31 Aug Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "A fair coin is tossed <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>-</mo></math>&nbsp;times such that the probability of getting at least one head is at least <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>9</mn><mo>.</mo></math>&nbsp;Then the minimum value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> is _______."
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>{</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mn>3</mn><mo>,</mo><mo>&#160;</mo><mn>4</mn><mo>,</mo><mo>&#160;</mo><mn>5</mn><mo>,</mo><mo>&#160;</mo><mn>6</mn><mo>}</mo><mo>.</mo></math>&nbsp;Then the probability that a randomly chosen onto function <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi></math> from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> satisfies <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mn>3</mn></mfenced><mo>=</mo><mn>2</mn><mo>&#160;</mo><mi>g</mi><mfenced><mn>1</mn></mfenced></math> is :"
   },
-  "options": [],
-  "correct_answer": "4",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>15</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>30</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
   "solution": {
-    "text": "<p>When a coin is tossed, then probability of head,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mtext>Head</mtext></mfenced><mo>=</mo><mi>P</mi><mfenced><mtext>Tail</mtext></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math></p><p>Therefore,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mi>P</mi></math>&nbsp;(All tail)<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8805;</mo><mn>0</mn><mo>.</mo><mn>9</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>1</mn><mo>-</mo><msup><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mi>n</mi></msup><mo>&#8805;</mo><mn>0</mn><mo>.</mo><mn>9</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mi>n</mi></msup><mo>&#8804;</mo><mfrac><mn>1</mn><mn>10</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>n</mi><mi>min</mi></msub><mo>=</mo><mn>4</mn><mo>.</mo></math></p>"
+    "text": "<p>Given:<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>6</mn></mrow></mfenced></math></p><p>Total number of&nbsp;onto functions from&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>&nbsp;tto&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>6</mn><mo>!</mo></math></p><p>Now, for&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mn>3</mn></mfenced><mo>=</mo><mn>2</mn><mi>g</mi><mfenced><mn>1</mn></mfenced></math>:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnlines=\"solid none\" frame=\"solid\" rowlines=\"solid solid solid none\"><mtr><mtd><mi>g</mi><mfenced><mn>3</mn></mfenced></mtd><mtd><mi>g</mi><mfenced><mn>1</mn></mfenced></mtd></mtr><mtr><mtd><mn>2</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>4</mn></mtd><mtd><mn>2</mn></mtd></mtr><mtr><mtd><mn>6</mn></mtd><mtd><mn>3</mn></mtd></mtr></mtable></math>&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mtable><mtr><mtd><mi>g</mi><mfenced><mn>3</mn></mfenced><mo>=</mo></mtd><mtd><mn>2</mn><mi>g</mi><mfenced><mn>1</mn></mfenced></mtd></mtr></mtable></math>can be defined in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>&nbsp;ways.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mn>2</mn></mfenced><mo>,</mo><mi>g</mi><mfenced><mn>4</mn></mfenced><mo>,</mo><mi>g</mi><mfenced><mn>5</mn></mfenced><mo>&#160;</mo><mtext>&#38;</mtext><mo>&#160;</mo><mi>g</mi><mfenced><mn>6</mn></mfenced></math>&nbsp;can be anything and can be defined in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>!</mo></math>&nbsp;ways.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo></math>Number of onto functions for which&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"[\"><mrow><mi>g</mi><mfenced><mn>3</mn></mfenced><mo>=</mo><mn>2</mn><mo>&#160;</mo><mi>g</mi><mfenced><mn>1</mn></mfenced></mrow></mfenced><mo>=</mo><mn>3</mn><mo>.</mo><mn>4</mn><mo>!</mo></math></p><p>Now required probability<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>4</mn><mo>!</mo></mrow><mrow><mn>6</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mo>&#215;</mo><mn>4</mn><mo>!</mo></mrow><mrow><mn>30</mn><mo>&#215;</mo><mn>4</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac></math></p>"
   }
 }

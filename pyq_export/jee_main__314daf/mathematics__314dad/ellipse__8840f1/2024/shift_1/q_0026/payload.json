@@ -1,0 +1,43 @@
+{
+  "index": 26,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253f32f74d11258840f1",
+    "chapter_name": "Ellipse",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $f(x)=x^2+9, g(x)=\\frac{x}{x-9}$ and $\\mathrm{a}=f \\circ g(10), \\mathrm{b}=g \\circ f(3)$. If $\\mathrm{e}$ and $l$ denote the eccentricity and the length of the latus rectum of the ellipse $\\frac{x^2}{a}+\\frac{y^2}{b}=1$, then $8 \\mathrm{e}^2+l^2$ is equal to."
+  },
+  "options": [
+    {
+      "text": "8",
+      "is_correct": true
+    },
+    {
+      "text": "16",
+      "is_correct": false
+    },
+    {
+      "text": "6",
+      "is_correct": false
+    },
+    {
+      "text": "12",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & f(x)=x^2+9 \\quad g(x)=\\frac{x}{x-9} \\\\ & a=f(g(10))=f\\left(\\frac{10}{10-9}\\right) \\\\ & =f(10)=109 \\\\ & b=g(f(3))=g(9+9) \\\\ & =g(18)=\\frac{18}{9}=2 \\\\ & E: \\frac{x^2}{109}+\\frac{y^2}{2}=1\\end{aligned}$\n$\\begin{aligned} & \\mathrm{e}^2=1-\\frac{2}{109}=\\frac{107}{109} \\\\ & \\ell=\\frac{2(2)}{\\sqrt{109}}=\\frac{4}{\\sqrt{109}} \\\\ & 8 \\mathrm{e}^2+\\ell^2=\\frac{8(107)}{109}+\\frac{16}{109} \\\\ & =8\\end{aligned}$"
+  }
+}

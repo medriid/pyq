@@ -1,0 +1,43 @@
+{
+  "index": 330,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2004",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2004",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $u=\\sqrt{a^2 \\cos ^2 \\theta+b^2 \\sin ^2 \\theta}+\\sqrt{a^2 \\sin ^2 \\theta+b^2 \\cos ^2 \\theta}$, then the difference between the maximum and minimum values of $u^2$ is given by"
+  },
+  "options": [
+    {
+      "text": "\n$2\\left(a^2+b^2\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2 \\sqrt{a^2+b^2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(a+b)^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(a-b)^2$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$u=\\sqrt{a^2 \\cos ^2 \\theta+b^2 \\sin ^2 \\theta}+\\sqrt{a^2 \\sin ^2 \\theta+b^2 \\cos ^2 \\theta}$\n$=\\sqrt{\\frac{a^2+b^2}{2}+\\frac{a^2-b^2}{2} \\cos 2 \\theta}+\\sqrt{\\frac{a^2+b^2}{2}+\\frac{b^2-a^2}{2} \\cos 2 \\theta}$\n$\\Rightarrow u^2=a^2+b^2+2 \\sqrt{\\left(\\frac{a^2+b^2}{2}\\right)^2-\\left(\\frac{a^2-b^2}{2}\\right)^2 \\cos ^2 2 \\theta}$\nmin value of $u^2=a^2+b^2+2 a b$\nmax value of $u^2=2\\left(a^2+b^2\\right)$\n$\\Rightarrow u_{\\max }^2-u_{\\min }^2=(a-b)^2$."
+  }
+}

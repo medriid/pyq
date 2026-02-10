@@ -1,0 +1,63 @@
+{
+  "_id": "67726d18c49e8ef28ee2b433",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6416",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T19:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 3)",
+      "title": "BITSAT 2024 (Memory Based Paper 3)"
+    }
+  ],
+  "question": {
+    "text": "If $a\\gt0, b\\gt0, c\\gt0$ and $a, b, c$ are distinct, then $(a+b)(b+c)(c+a)$ is greater than",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "HFRK9",
+      "text": "$2(a+b+c)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "kNDFc",
+      "text": "$3(a+b+c)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "jkgMI",
+      "text": "$6 a b c$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "bJGQn",
+      "text": "$8 a b c$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We know that $\\mathrm{AM} \\geq \\mathrm{GM}$...(i)\nNow, applying Eq. (i) in $a$ and $b$\n$\\Rightarrow \\quad \\frac{a+b}{2} \\geq \\sqrt{a b}$....(ii)\napplying Eq. (i) in $b$ and $c$\n$\\Rightarrow \\quad \\frac{b+c}{2} \\geq \\sqrt{b c}$....(iii)\nand applying Eq. (i) in $c$ and $a$\n$\\Rightarrow \\quad \\frac{c+a}{2} \\geq \\sqrt{c a}$....(iv)\nBy E'qs. (ii), (iii) and (iv)\n$\\begin{array}{cc}\n\\Rightarrow & \\frac{(a+b)(b+c)(c+a)}{8} \\geq a b c \\\\\n\\Rightarrow & (a+b)(b+c)(c+a) \\geq 8 a b c\n\\end{array}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6416",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T19:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 3)",
+    "title": "BITSAT 2024 (Memory Based Paper 3)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

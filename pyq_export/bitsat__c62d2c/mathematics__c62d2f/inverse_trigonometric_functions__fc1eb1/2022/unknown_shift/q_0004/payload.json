@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7d1ac70535a1fc1eb1",
+    "chapter_name": "Inverse Trigonometric Functions",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $x \\in\\left(0, \\frac{\\pi}{2}\\right)$ then the value of $\\cos ^{-1}\\left(\\frac{7}{2}(1+\\cos 2 x)+\\sqrt{\\left(\\sin ^2 x-48 \\cos ^2 x\\right) \\sin x}\\right)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$x-\\cos ^{-1}(7 \\cos x)$",
+      "is_correct": true
+    },
+    {
+      "text": "$x+\\sin ^{-1}(7 \\cos x)$",
+      "is_correct": false
+    },
+    {
+      "text": "$x+\\cos ^{-1}(6 \\cos x)$",
+      "is_correct": false
+    },
+    {
+      "text": "$x+\\cos ^{-1}(7 \\cos x)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$y=\\cos ^{-1}\\left(\\frac{7}{2}(1+\\cos 2 x)+\\sqrt{\\left(\\sin ^2 x-48 \\cos ^2 x\\right)} \\sin x\\right)$\r\n$=\\cos ^{-1}\\left((7 \\cos x)(\\cos x)+\\sqrt{1-49 \\cos ^2 x} \\sqrt{1-\\cos ^2 x}\\right)$\r\n$=\\cos ^{-1}(\\cos x)-\\cos ^{-1}(7 \\cos x) \\quad[\\because \\cos x < 7 \\cos x]$\r\n$=x-\\cos ^{-1}(7 \\cos x)$"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7a86f5bfc7ab78ae6c0",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d76",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012",
+      "title": "BITSAT 2012"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Evaluate: $\\int \\sqrt{\\frac{\\mathrm{x}}{4-\\mathrm{x}^{3}}} \\mathrm{dx}$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "if2ql",
+      "text": "$\\frac{2}{3} \\sin ^{-1}\\left(\\frac{x^{3 / 2}}{2}\\right)+c$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "FRi6Z",
+      "text": "$\\frac{2}{3} \\sin ^{-1}\\left(x^{3 / 2}\\right)+c$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "mNCPE",
+      "text": "$2 \\sin ^{-1}\\left(\\frac{x^{3 / 2}}{2}\\right)+c$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "VIjkw",
+      "text": "$\\frac{1}{3} \\sin ^{-1}\\left(\\frac{\\mathrm{x}^{3 / 2}}{2}\\right)+\\mathrm{c}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$I=\\int \\sqrt{\\frac{x}{4-x^{3}}} d x=\\int \\frac{\\sqrt{x} d x}{\\sqrt{4-x^{3}}}$\r\nHere integral of $\\sqrt{x}=\\frac{2}{3} x^{3 / 2}$ and $4-x^{3}=4-\\left(x^{3 / 2}\\right)^{2}$\r\nPut $x^{3 / 2}=t \\Rightarrow \\sqrt{x} d x=\\frac{2}{3} d t$\r\nSo $I=\\frac{2}{3} \\int \\frac{d t}{\\sqrt{4-t^{2}}}=\\frac{2}{3} \\sin ^{-1}\\left(\\frac{x^{3 / 2}}{2}\\right)+c$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d76",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012",
+    "title": "BITSAT 2012"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

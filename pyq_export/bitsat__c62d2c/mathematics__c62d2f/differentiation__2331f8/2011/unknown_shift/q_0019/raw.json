@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7996f5bfc7ab78ae644",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d75",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2011-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011",
+      "title": "BITSAT 2011"
+    }
+  ],
+  "question": {
+    "text": "If \\(y=x^{x^2}\\), then \\(\\frac{d y}{d x}\\) is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "CAFsM",
+      "text": "\\((2 \\ln x)\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "8vyC8",
+      "text": "\\((2 \\ln x+1)\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "wjz12",
+      "text": "\\((\\ln \\ln x+1) x^{x^2}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "hISP9",
+      "text": "None of these",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Consider \\(y=x^{x^2} \\Rightarrow \\ln y=x^2 \\ln x\\)\n\\(\\begin{aligned}\n& \\frac{1}{y} \\frac{d y}{d x}=2 x \\ln x+x^2 \\cdot \\frac{1}{x}=x(1+2 \\ln x) \\\\\n& \\frac{d y}{d x}=x^{x^2} \\cdot x(1+2 \\ln x)=x^{x^2+1}(1+2 \\ln x)\n\\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d75",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2011-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011",
+    "title": "BITSAT 2011"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

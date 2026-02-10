@@ -1,0 +1,43 @@
+{
+  "index": 66,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2009",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83086701c4b7dd0475",
+    "chapter_name": "Application of Derivatives",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If \\(M(\\alpha)=\\left[\\begin{array}{ccc}\\cos \\alpha & -\\sin \\alpha & 0 \\\\ \\sin \\alpha & \\cos \\alpha & 0 \\\\ 0 & 0 & 1\\end{array}\\right]\\); \\(M(\\beta)=\\left[\\begin{array}{ccc}\\cos \\beta & 0 & \\sin \\beta \\\\ 0 & 1 & 0 \\\\ -\\sin \\beta & 0 & \\cos \\beta\\end{array}\\right]\\) then \\([M(\\alpha) M(\\beta)]^{-1}\\) is equal to -"
+  },
+  "options": [
+    {
+      "text": "\\(\\mathrm{M}(\\beta) \\mathrm{M}(\\alpha)\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\mathrm{M}(-\\alpha) \\mathrm{M}(-\\beta)\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\mathrm{M}(-\\beta) \\mathrm{M}(-\\alpha)\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(-\\mathrm{M}(\\beta) \\mathrm{M}(\\alpha)\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\left.[\\mathrm{M}(\\alpha) \\mathrm{M}(\\beta)]^{-1}=\\mathrm{M}(\\beta)^{-1} \\mathrm{M}(\\alpha)^{-1}\\right] \\\\\n& \\operatorname{Now~M(\\alpha )^{-1}}=\\left[\\begin{array}{ccc}\n\\cos \\alpha & \\sin \\alpha & 0 \\\\\n-\\sin \\alpha & \\cos \\alpha & 0 \\\\\n0 & 0 & 1\n\\end{array}\\right] \\\\\n& =\\left[\\begin{array}{ccc}\n\\cos (-\\alpha) & -\\sin (-\\alpha) & 0 \\\\\n\\sin (-\\alpha) & \\cos (-\\alpha) & 0 \\\\\n0 & 0 & 1\n\\end{array}\\right]=\\mathrm{M}(-\\alpha) \\\\\n& M(\\beta)^{-1}=\\left[\\begin{array}{ccc}\n\\cos \\beta & 0 & -\\sin \\beta \\\\\n0 & 1 & 0 \\\\\n\\sin \\beta & 0 & \\cos \\beta\n\\end{array}\\right] \\\\\n& =\\left[\\begin{array}{ccc}\n\\cos (-\\beta) & 0 & \\sin (-\\beta) \\\\\n0 & 1 & 0 \\\\\n-\\sin (-\\beta) & 0 & \\cos (-\\beta)\n\\end{array}\\right]=\\mathrm{M}(-\\beta) \\\\\n& {[\\mathrm{M}(\\alpha) \\mathrm{M}(\\beta)]^{-1}=\\mathrm{M}(-\\beta) \\mathrm{M}(-\\alpha)} \\\\\n&\n\\end{aligned}\\)"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 119,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2023 (30 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2023",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><mo>-</mo><mn>2</mn></mrow><mrow><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>16</mn><mi>n</mi><mo>+</mo><mn>15</mn></mrow></mfrac></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><msub><mi>a</mi><mn>2</mn></msub><mo>+</mo><mo>&#8230;</mo><mo>.</mo><mo>+</mo><msub><mi>a</mi><mn>25</mn></msub></math> is equal to:"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>51</mn><mn>144</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>49</mn><mn>138</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>50</mn><mn>141</mn></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>52</mn><mn>147</mn></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>We have,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mo>-</mo><mfrac><mn>2</mn><mrow><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>-</mo><mn>16</mn><mi>n</mi><mo>+</mo><mn>15</mn></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mo>-</mo><mfrac><mn>2</mn><mrow><mfenced><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>5</mn></mrow></mfenced><mfenced><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>3</mn></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mfrac><mn>1</mn><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><mn>5</mn><mn>2</mn></mfrac></mstyle></mrow></mfenced><mfenced><mrow><mi>n</mi><mo>-</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></mfenced></mrow></mfrac></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mn>1</mn><mfenced><mrow><mi>n</mi><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><mn>5</mn><mn>2</mn></mfrac></mstyle></mrow></mfenced></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mrow><mi>n</mi><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><mn>3</mn><mn>2</mn></mfrac></mstyle></mrow></mfenced></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mn>1</mn><mfenced><mrow><mi>n</mi><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><mn>3</mn><mn>2</mn></mfrac></mstyle></mrow></mfenced></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mrow><mi>n</mi><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><mn>5</mn><mn>2</mn></mfrac></mstyle></mrow></mfenced></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>25</mn></munderover><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>25</mn></munderover><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mn>1</mn><mfenced><mrow><mi>n</mi><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><mn>3</mn><mn>2</mn></mfrac></mstyle></mrow></mfenced></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mrow><mi>n</mi><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><mn>5</mn><mn>2</mn></mfrac></mstyle></mrow></mfenced></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>25</mn></munderover><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><mfenced close=\"}\" open=\"{\"><mrow><mfrac><mn>1</mn><mfenced><mrow><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></mrow></mfenced></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mrow><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><mn>3</mn><mn>2</mn></mfrac></mstyle></mrow></mfenced></mfrac></mrow></mfenced><mo>+</mo><mfenced close=\"}\" open=\"{\"><mrow><mfrac><mn>1</mn><mfenced><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></mfenced></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mrow><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></mrow></mfenced></mfrac></mrow></mfenced><mo>+</mo><mfenced close=\"}\" open=\"{\"><mrow><mfrac><mn>1</mn><mfenced><mstyle displaystyle=\"true\"><mfrac><mn>3</mn><mn>2</mn></mfrac></mstyle></mfenced></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></mfenced></mfrac></mrow></mfenced><mo>+</mo><mfenced close=\"}\" open=\"{\"><mrow><mfrac><mn>1</mn><mfenced><mstyle displaystyle=\"true\"><mfrac><mn>5</mn><mn>2</mn></mfrac></mstyle></mfenced></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mstyle displaystyle=\"true\"><mfrac><mn>3</mn><mn>2</mn></mfrac></mstyle></mfenced></mfrac></mrow></mfenced><mo>+</mo><mfenced close=\"}\" open=\"{\"><mrow><mfrac><mn>1</mn><mfenced><mstyle displaystyle=\"true\"><mfrac><mn>7</mn><mn>2</mn></mfrac></mstyle></mfenced></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mstyle displaystyle=\"true\"><mfrac><mn>5</mn><mn>2</mn></mfrac></mstyle></mfenced></mfrac></mrow></mfenced><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><mfenced close=\"}\" open=\"{\"><mrow><mfrac><mn>1</mn><mfenced><mstyle displaystyle=\"true\"><mfrac><mn>45</mn><mn>2</mn></mfrac></mstyle></mfenced></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mstyle displaystyle=\"true\"><mfrac><mn>43</mn><mn>2</mn></mfrac></mstyle></mfenced></mfrac></mrow></mfenced><mo>+</mo><mfenced close=\"}\" open=\"{\"><mrow><mfrac><mn>1</mn><mfenced><mstyle displaystyle=\"true\"><mfrac><mn>47</mn><mn>2</mn></mfrac></mstyle></mfenced></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mstyle displaystyle=\"true\"><mfrac><mn>45</mn><mn>2</mn></mfrac></mstyle></mfenced></mfrac></mrow></mfenced></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>25</mn></munderover><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><mn>47</mn></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>25</mn></munderover><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mfenced><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>47</mn></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>25</mn></munderover><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mfrac><mn>50</mn><mn>141</mn></mfrac></math></p>"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd789dc466ce4f96734c",
+    "chapter_name": "Limits",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\lim _{x \\rightarrow \\pi / 2} \\frac{\\left(1-\\tan \\left(\\frac{x}{2}\\right)\\right)(1-\\sin x)}{\\left(1+\\tan \\left(\\frac{x}{2}\\right)\\right)(\\pi-2 x)^{3}}=?$"
+  },
+  "options": [
+    {
+      "text": "$1 / 8$",
+      "is_correct": false
+    },
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "$1 / 32$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\infty$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Put $x=\\frac{\\pi}{2}-h$ as $x \\rightarrow \\frac{\\pi}{2}, h \\rightarrow 0$\r\n$\\therefore$ Given limit\r\n$=\\lim _{h \\rightarrow 0} \\frac{1-\\tan \\left(\\frac{\\pi}{4}-\\frac{\\mathrm{h}}{2}\\right)}{1+\\tan \\left(\\frac{\\pi}{4}-\\frac{\\mathrm{h}}{2}\\right)} \\cdot \\frac{(1-\\cosh )}{(2 \\mathrm{~h})^{3}}$\r\n$=\\lim _{\\mathrm{h} \\rightarrow 0} \\tan \\frac{\\mathrm{h}}{2} \\frac{2 \\sin ^{2} \\frac{\\mathrm{h}}{2}}{8 \\mathrm{~h}^{3}}$\r\n$=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{1}{4} \\cdot \\frac{\\tan \\frac{\\mathrm{h}}{2}}{\\frac{\\mathrm{h}}{2} \\times 2}\\left(\\frac{\\sin \\frac{\\mathrm{h}}{2}}{\\frac{\\mathrm{h}}{2}}\\right)^{2} \\times \\frac{1}{4}$\r\n$=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{1}{32} \\cdot\\left(\\frac{\\tan \\frac{\\mathrm{h}}{2}}{\\frac{\\mathrm{h}}{2} \\times 2}\\right)\\left(\\frac{\\sin \\frac{\\mathrm{h}}{2}}{\\frac{\\mathrm{h}}{2}}\\right)^{2}=\\frac{1}{32}$"
+  }
+}

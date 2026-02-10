@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253321995c266090cfc7",
+    "chapter_name": "Trigonometric Ratios & Identities",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $\\sum_{r=1}^{13}\\left\\{\\frac{1}{\\sin \\left(\\frac{\\pi}{4}+(r-1) \\frac{\\pi}{6}\\right) \\sin \\left(\\frac{\\pi}{4}+\\frac{r \\pi}{6}\\right)}\\right\\}=a \\sqrt{3}+b, a, b \\in \\mathbf{Z}$, then $a^2+b^2$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$10$",
+      "is_correct": false
+    },
+    {
+      "text": "$4$",
+      "is_correct": false
+    },
+    {
+      "text": "$2$",
+      "is_correct": false
+    },
+    {
+      "text": "$8$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\frac{1}{\\sin \\frac{\\pi}{6}} \\sum_{r=1}^{13} \\frac{\\sin \\left[\\left(\\frac{\\pi}{4}+\\frac{r \\pi}{6}\\right)-\\left(\\frac{\\pi}{4}\\right)-(r-1) \\frac{\\pi}{6}\\right]}{\\sin \\left(\\frac{\\pi}{4}+(r-1) \\frac{\\pi}{6}\\right) \\sin \\left(\\frac{\\pi}{4}+\\frac{r \\pi}{6}\\right)}$\n\n\n$\\begin{aligned}\n& \\frac{1}{\\sin \\frac{\\pi}{6}} \\sum_{\\mathrm{r}=1}^{13}\\left(\\cot \\left(\\frac{\\pi}{4}+(\\mathrm{r}-1) \\frac{\\pi}{6}\\right)-\\cot \\left(\\frac{\\pi}{4}+\\frac{\\mathrm{r} \\pi}{6}\\right)\\right) \\\\\n& =2 \\sqrt{3}-2=\\alpha \\sqrt{3}+\\mathrm{b}\n\\end{aligned}$\n\nSo $a^2+b^2=8$"
+  }
+}

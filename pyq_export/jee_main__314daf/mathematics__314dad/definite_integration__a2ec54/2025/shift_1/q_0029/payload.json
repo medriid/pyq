@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If $\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{96 x^2 \\cos ^2 x}{\\left(1+e^x\\right)} \\mathrm{d} x=\\pi\\left(\\alpha \\pi^2+\\beta\\right), \\alpha, \\beta \\in \\mathbb{Z}$, then $(\\alpha+\\beta)^2$ equals"
+  },
+  "options": [
+    {
+      "text": "64",
+      "is_correct": false
+    },
+    {
+      "text": "196",
+      "is_correct": false
+    },
+    {
+      "text": "144",
+      "is_correct": false
+    },
+    {
+      "text": "100",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & I=\\int_0^{\\frac{\\pi}{2}} \\frac{96 x^2 \\cos ^2 x}{1+e^x} d x \\\\ & 2 I=2 \\int_0^{\\frac{\\pi}{2}} 96 x^2 \\cos ^2 x d x \\\\ & I=96 \\int_0^{\\frac{\\pi}{2}} x^2 \\cos ^2 x d x \\\\ & =48 \\int_0^{\\frac{\\pi}{2}} x^2(1+\\cos 2 x) d x \\\\ & =2 \\pi^2+48(0-0)-48 \\int_0^{\\frac{\\pi}{2}} x \\sin 2 x d x \\\\ & =2 \\pi^2-12 \\pi+[0-0]=\\pi\\left(2 \\pi^2-12\\right) \\\\ & =\\pi\\left(\\alpha \\pi^2+\\beta\\right) \\\\ & \\Rightarrow(\\alpha+\\beta)^2=100\\end{aligned}$"
+  }
+}

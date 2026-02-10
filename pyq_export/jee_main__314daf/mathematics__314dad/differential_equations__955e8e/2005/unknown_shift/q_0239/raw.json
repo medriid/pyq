@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d656e5",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2005-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2005",
+      "title": "JEE Main 2005"
+    }
+  ],
+  "question": {
+    "text": "If $x \\frac{d y}{d x}=y(\\log y-\\log x+1)$, then the solution of the equation is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "v7ziT",
+      "text": "\n$y \\log \\left(\\frac{x}{y}\\right)=c x$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "KUVRs",
+      "text": "\n$x \\log \\left(\\frac{y}{x}\\right)=c y$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "4BjBD",
+      "text": "\n$\\log \\left(\\frac{y}{x}\\right)=c x$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "BVB4W",
+      "text": "\n$\\log \\left(\\frac{x}{y}\\right)=c y$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\frac{x d y}{d x}=y(\\log y-\\log x+1) \\\\\n& \\frac{d y}{d x}=\\frac{y}{x}\\left(\\log \\left(\\frac{y}{x}\\right)+1\\right)\n\\end{aligned}\n$$\nPut $y=v x$\n$\\frac{d y}{d x}=v+\\frac{x d v}{d x}$\n$\\Rightarrow v+\\frac{x d v}{d x}=v(\\log v+1)$\n$\\frac{x d v}{d x}=v \\log v$\n$\\Rightarrow \\frac{d v}{v \\log v}=\\frac{d x}{x}$\nput $\\log v=z$\n$\\frac{1}{v} d v=d z$\n$\\Rightarrow \\frac{d z}{z}=\\frac{d x}{x}$\n$\\ln z=\\ln x+\\ln c$\n$z=c x$\n$\\log v=c x$\n$\\log \\left(\\frac{y}{x}\\right)=c x$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2005-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2005",
+    "title": "JEE Main 2005"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

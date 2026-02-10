@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7455ca3b13e5b648ea",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The lines $\\frac{x-2}{1}=\\frac{y-3}{1}=\\frac{z-4}{-k}$ and $\\frac{x-1}{k}=\\frac{y-4}{2}=\\frac{z-5}{1}$ are coplanar if"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{k}=3$ or -2",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{k}=0$ or -1",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{k}=1$ or -1",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{k}=0$ or -3",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Two planes are coplanar if<br />$\\left|\\begin{array}{ccc}x_2-x_1 & y_2-y_1 & z_2-z_1 \\\\ l_1 & m_1 & n_1 \\\\ l_2 & m_2 & n_2\\end{array}\\right|=0$<br />$\\left|\\begin{array}{ccc}1 & -1 & -1 \\\\ 1 & 1 & -k \\\\ k & 2 & 1\\end{array}\\right|=0$<br />Applying $\\mathrm{C}_2 \\rightarrow \\mathrm{C}_2+\\mathrm{C}_1, \\mathrm{C}_3 \\rightarrow \\mathrm{C}_3+\\mathrm{C}_1$<br />$\\Rightarrow\\left|\\begin{array}{ccc}1 & 0 & 0 \\\\ 1 & 2 & 1-k \\\\ k & k+2 & 1+k\\end{array}\\right|=0$<br />$\\Rightarrow \\quad 1[2+2 k-(k+2)(1-k)]=0$<br />$\\Rightarrow \\quad 2+2 k-\\left(-k^2-k+2\\right)=0$<br />$k^2+3 k=0 \\Rightarrow k(k+3)=0$"
+  }
+}

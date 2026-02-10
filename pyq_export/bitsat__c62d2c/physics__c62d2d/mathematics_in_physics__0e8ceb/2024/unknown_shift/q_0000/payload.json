@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd79c8ca5ec1f00e8ceb",
+    "chapter_name": "Mathematics in Physics",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "You measure two quantities as $A=1.0 \\mathrm{~m} \\pm 0.2 \\mathrm{~m}$, $B=2.0 \\mathrm{~m} \\pm 0.2 \\mathrm{~m}$. We should report correct value for $\\sqrt{A B}$ as"
+  },
+  "options": [
+    {
+      "text": "$1.4 \\mathrm{~m} \\pm 0.4 \\mathrm{~m}$",
+      "is_correct": false
+    },
+    {
+      "text": "$1.41 \\mathrm{~m} \\pm 0.15 \\mathrm{~m}$",
+      "is_correct": false
+    },
+    {
+      "text": "$1.4 \\mathrm{~m} \\pm 0.3 \\mathrm{~m}$",
+      "is_correct": false
+    },
+    {
+      "text": "$1.4 \\mathrm{~m} \\pm 0.2 \\mathrm{~m}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given, $A=1.0 \\mathrm{~m} \\pm 0.2 \\mathrm{~m}, B=2.0 \\mathrm{~m} \\pm 0.2 \\mathrm{~m}$\nLet $Y=\\sqrt{A B}=\\sqrt{(1.0)(20)}=1.414 \\mathrm{~m}$\nRounding off to two significant digits\n$\\begin{aligned}\nY & =1.4 \\mathrm{~m} \\\\\n\\frac{\\Delta Y}{Y} & =\\frac{1}{2}\\left[\\frac{\\Delta A}{A}+\\frac{\\Delta B}{B}\\right] \\\\\n& =\\frac{1}{2}\\left[\\frac{0.2}{1.0}+\\frac{0.2}{2.0}\\right] \\\\\n& =\\frac{0.6}{2 \\times 20} \\\\\n\\Rightarrow \\quad \\Delta Y & =\\frac{0.6 Y}{2 \\times 20}=\\frac{0.6 \\times 1.4}{2 \\times 20}=0.212\n\\end{aligned}$\nRounding off to one significant digit,\n$\\Delta Y=0.2 \\mathrm{~m}$"
+  }
+}

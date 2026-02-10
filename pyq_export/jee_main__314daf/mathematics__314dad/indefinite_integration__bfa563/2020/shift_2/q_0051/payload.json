@@ -1,0 +1,43 @@
+{
+  "index": 51,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2020 (09 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2020",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>&#952;</mi></mrow><mrow><msup><mi>cos</mi><mn>2</mn></msup><mi>&#952;</mi><mfenced separators=\"|\"><mrow><mi>tan</mi><mn>2</mn><mi>&#952;</mi><mo>+</mo><mi>sec</mi><mn>2</mn><mi>&#952;</mi></mrow></mfenced></mrow></mfrac><mo>=</mo></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#955;</mi><mi>tan</mi><mi>&#952;</mi><mo>+</mo><mn>2</mn><msub><mi>log</mi><mi>e</mi></msub><mfenced open=\"|\" close=\"|\" separators=\"|\"><mrow><mi>f</mi><mfenced separators=\"|\"><mi>&#952;</mi></mfenced></mrow></mfenced><mo>+</mo><mi>C</mi></math> where <math><mi>C</mi></math> is a constant of integration, then the ordered pair <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced separators=\"|\"><mrow><mi>&#955;</mi><mo>,</mo><mi>f</mi><mfenced separators=\"|\"><mi>&#952;</mi></mfenced></mrow></mfenced></math> is equal to:"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced separators=\"|\"><mrow><mn>1</mn><mo>,</mo><mn>1</mn><mo>-</mo><mi>tan</mi><mi>&#952;</mi></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced separators=\"|\"><mrow><mo>-</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>-</mo><mi>tan</mi><mi>&#952;</mi></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced separators=\"|\"><mrow><mo>-</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>+</mo><mi>tan</mi><mi>&#952;</mi></mrow></mfenced></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced separators=\"|\"><mrow><mn>1</mn><mo>,</mo><mn>1</mn><mo>+</mo><mi>tan</mi><mi>&#952;</mi></mrow></mfenced></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8747;</mo><mfrac><mrow><msup><mi>sec</mi><mn>2</mn></msup><mi>&#952;</mi></mrow><mrow><mfrac><mrow><mn>1</mn><mo>+</mo><msup><mi>tan</mi><mn>2</mn></msup><mi>&#952;</mi></mrow><mrow><mn>1</mn><mo>-</mo><msup><mi>tan</mi><mn>2</mn></msup><mi>&#952;</mi></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>2</mn><mi>tan</mi><mi>&#952;</mi></mrow><mrow><mn>1</mn><mo>-</mo><msup><mi>tan</mi><mn>2</mn></msup><mi>&#952;</mi></mrow></mfrac></mrow></mfrac><mi>d</mi><mi>&#952;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&#8747;</mo><mfrac><mrow><msup><mi>sec</mi><mn>2</mn></msup><mi>&#952;</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><msup><mi>tan</mi><mn>2</mn></msup><mi>&#952;</mi></mrow></mfenced></mrow><msup><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>t</mi><mi>a</mi><mi>n</mi><mi>&#952;</mi></mrow></mfenced><mn>2</mn></msup></mfrac><mi>d</mi><mi>&#952;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&#8747;</mo><mfrac><mrow><msup><mi>sec</mi><mn>2</mn></msup><mi>&#952;</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>-</mo><mi>tan</mi><mi>&#952;</mi></mrow></mfenced></mrow><mrow><mn>1</mn><mo>+</mo><mi>tan</mi><mi>&#952;</mi></mrow></mfrac><mi>d</mi><mi>&#952;</mi></math></p><p>Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>tan</mi><mi>&#952;</mi><mo>=</mo><mi>t</mi><mo>&#8658;</mo><msup><mi>sec</mi><mn>2</mn></msup><mi>&#952;</mi><mi>d</mi><mi>&#952;</mi><mo>=</mo><mi>d</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&#8747;</mo><mfenced separators=\"|\"><mfrac><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>t</mi></mrow></mfrac></mfenced><mi>d</mi><mi>t</mi><mo>=</mo><mo>&#8747;</mo><mfenced separators=\"|\"><mrow><mo>-</mo><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mrow><mn>1</mn><mo>+</mo><mi>t</mi></mrow></mfrac></mrow></mfenced><mi>d</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><mi>t</mi><mo>+</mo><mn>2</mn><mi>ln</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>t</mi></mrow></mfenced><mo>+</mo><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><mi>tan</mi><mi>&#952;</mi><mo>+</mo><mn>2</mn><mi>ln</mi><mfenced separators=\"|\"><mrow><mn>1</mn><mo>+</mo><mi>tan</mi><mi>&#952;</mi></mrow></mfenced><mo>+</mo><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#955;</mi><mo>=</mo><mo>-</mo><mn>1</mn><mo>&#160;</mo><mi mathvariant=\"normal\">a</mi><mi mathvariant=\"normal\">n</mi><mi mathvariant=\"normal\">d</mi><mo>&#160;</mo><mi>f</mi><mfenced separators=\"|\"><mi>&#952;</mi></mfenced><mo>=</mo><mn>1</mn><mo>+</mo><mi>tan</mi><mi>&#952;</mi></math></p>"
+  }
+}

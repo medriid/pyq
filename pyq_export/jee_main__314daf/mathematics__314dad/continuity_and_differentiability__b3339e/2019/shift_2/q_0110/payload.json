@@ -1,0 +1,43 @@
+{
+  "index": 110,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2019 (11 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $\\mathrm{K}$ be the set of all real values of $x$ where the function $f(x)=\\sin |x|-|x|+2(x-\\pi) \\cos |x|$ is not differentiable.\r\n\r\nThen the set $K$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$\\phi$ (an empty set)",
+      "is_correct": true
+    },
+    {
+      "text": "$(\\pi\\}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\{0\\}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\{0, \\pi\\}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$f(x)=\\sin |x|-|x|+2(x-\\pi) \\cos |x|$\r\n\r\nThere are two cases,\r\n\r\nCase $(1), x>0$\r\n\r\n$f(x)=\\sin x-x+2(x-\\pi) \\cos x$\r\n\r\n$f^{\\prime}(x)=\\cos x-1+2(1-0) \\cos x-2 \\sin (x-\\pi)$\r\n\r\n$f^{\\prime}(x)=3 \\cos x-2(x-\\pi) \\sin x-1$\r\n\r\nThen, function $f(x)$ is differentiable for all $x>0$\r\n\r\nCase $(2) x  < 0$\r\n\r\n$f(x)=-\\sin x+x+2(x-\\pi) \\cos x$\r\n\r\n$f^{\\prime}(x)=-\\cos x+1-2(x-\\pi) \\sin x+2 \\cos x$\r\n\r\n$f^{\\prime}(x)=\\cos x+1-2(x-\\pi) \\sin x$\r\n\r\nThen, function $f(x)$ is differentiable for all $x < 0$\r\n\r\nNow check for $x=0$\r\n\r\n$f^{\\prime}\\left(0^{*}\\right) \\mathrm{R} \\cdot \\mathrm{HD}=3-1=2$\r\n\r\n$f^{\\prime}(0) \\mathrm{L} . \\mathrm{H.D.}=1+1=2$\r\n\r\n$\\mathrm{L} . \\mathrm{HD}=\\mathrm{R} . \\mathrm{H.D}$\r\n\r\nThen, function $f(x)$ is differentiable for $x=0 .$ So it is\r\n\r\ndifferentiable everywhere\r\n\r\nHence, $k=\\phi$"
+  }
+}

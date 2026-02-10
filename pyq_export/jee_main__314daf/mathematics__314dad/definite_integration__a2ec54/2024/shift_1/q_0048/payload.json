@@ -1,8 +1,8 @@
 {
   "index": 48,
-  "type": "singleCorrect",
+  "type": "numerical",
   "difficulty": 3,
-  "pyq_info": "JEE Main 2024 (30 Jan Shift 1)",
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "The value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>→</mo><mo>∞</mo></mrow></munder><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mfrac><msup><mi>n</mi><mn>3</mn></msup><mrow><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msup><mi>k</mi><mn>2</mn></msup></mrow></mfenced><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><msup><mi>k</mi><mn>2</mn></msup></mrow></mfenced></mrow></mfrac></math> is :"
+    "text": "If $\\int_0^{\\frac{\\pi}{4}} \\frac{\\sin ^2 x}{1+\\sin x \\cos x} \\mathrm{~d} x=\\frac{1}{\\mathrm{a}} \\log _{\\mathrm{e}}\\left(\\frac{\\mathrm{a}}{3}\\right)+\\frac{\\pi}{\\mathrm{b} \\sqrt{3}}$, where $\\mathrm{a}, \\mathrm{b} \\in \\mathbf{N}$, then $\\mathrm{a}+\\mathrm{b}$ is equal to_________"
   },
-  "options": [
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>)</mo><mi>π</mi></mrow><mn>24</mn></mfrac></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>13</mn><mi>π</mi></mrow><mrow><mn>8</mn><mo>(</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>)</mo></mrow></mfrac></math>",
-      "is_correct": true
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>13</mn><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>-</mo><mn>3</mn><mo>)</mo><mi>π</mi></mrow><mn>8</mn></mfrac></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>π</mi><mrow><mn>8</mn><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>)</mo></mrow></mfrac></math>",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "B"
-  ],
+  "options": [],
+  "correct_answer": "8",
   "solution": {
-    "text": "<p>Given, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>n</mi><mo>→</mo><mo>∞</mo></mrow></munder><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mfrac><msup><mi>n</mi><mn>3</mn></msup><mrow><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msup><mi>k</mi><mn>2</mn></msup></mrow></mfenced><mfenced><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><msup><mi>k</mi><mn>2</mn></msup></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>→</mo><mo>∞</mo></mrow></munder><mfrac><mn>1</mn><mi>n</mi></mfrac><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mfrac><mn>1</mn><mrow><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><msup><mi>k</mi><mn>2</mn></msup><msup><mi>n</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mfenced><mrow><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mfrac><msup><mi>k</mi><mn>2</mn></msup><msup><mi>n</mi><mn>2</mn></msup></mfrac></mrow></mfenced></mrow></mfrac></math></p><p>Now, using limit as a sum integral we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced><mfenced><mrow><mn>1</mn><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>3</mn><mfenced><mrow><mn>1</mn><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced></mfrac></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>1</mn><mfenced><mrow><msup><mfenced><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><msqrt><mn>3</mn></msqrt></mfrac></mstyle></mfenced><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced></mfrac><mo>-</mo><mfrac><mn>1</mn><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced></mfrac></mrow></mfenced><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msubsup><mfenced close=\"]\" open=\"[\"><mrow><msqrt><mn>3</mn></msqrt><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mrow><msqrt><mn>3</mn></msqrt><mi>x</mi></mrow></mfenced><mo>-</mo><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></mrow></mfenced><mn>0</mn><mn>1</mn></msubsup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><msqrt><mn>3</mn></msqrt><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><msqrt><mn>3</mn></msqrt></mfenced><mo>-</mo><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mn>1</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><msqrt><mn>3</mn></msqrt><mo>·</mo><mfrac><mi mathvariant=\"normal\">π</mi><mn>3</mn></mfrac><mo>-</mo><mfrac><mi mathvariant=\"normal\">π</mi><mn>4</mn></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mi mathvariant=\"normal\">π</mi><msqrt><mn>3</mn></msqrt></mfrac><mo>-</mo><mfrac><mi mathvariant=\"normal\">π</mi><mn>4</mn></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>13</mn><mi>π</mi></mrow><mrow><mn>8</mn><mo>·</mo><mo>(</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>)</mo></mrow></mfrac></math></p>"
+    "text": "$\\begin{aligned}\n& \\int_0^{\\frac{\\pi}{2}} \\frac{\\sin ^2 x}{1+\\frac{1}{2} \\sin 2 x} d x=\\int_0^{\\frac{\\pi}{4}} \\frac{1-\\cos 2 x}{2+\\sin 2 x} d x \\\\\n& \\int \\frac{1}{2+\\sin 2 x}-\\int \\frac{\\cos 2 x}{2+\\sin 2 x}\n\\end{aligned}$\n$\\left(\\mathrm{I}_1\\right) \\quad-\\quad\\left(\\mathrm{I}_2\\right)$<br />$\\begin{aligned}\n& \\left(\\mathrm{I}_1\\right)=\\int \\frac{\\mathrm{dx}}{2+\\frac{2 \\tan \\mathrm{x}}{1+\\tan ^2 x}} \\\\\n& \\int_0^{\\frac{\\pi}{4}} \\frac{\\sec ^2 \\mathrm{xdx}}{2 \\tan ^2 \\mathrm{x}+2 \\tan x+2}\n\\end{aligned}$\n$\\begin{aligned}\n& \\tan x=t \\\\\n& \\frac{1}{2} \\int_0^1 \\frac{\\mathrm{dt}}{\\left(\\mathrm{t}+\\frac{1}{2}\\right)^2+\\frac{3}{4}}=\\frac{\\pi}{6 \\sqrt{3}} \\\\\n& \\mathrm{I}_2=\\int_0^{\\pi / 4} \\frac{\\cos 2 \\mathrm{x}}{2+\\sin 2 \\mathrm{x}} \\mathrm{dx}=\\frac{1}{2}\\left(\\ln \\frac{3}{2}\\right) \\\\\n& \\mathrm{I}_1-\\mathrm{I}_2=\\frac{1}{\\sqrt{3}} \\frac{\\pi}{6}+\\frac{1}{2} \\ln \\frac{2}{3} \\\\\n& \\Rightarrow \\mathrm{a}=2, \\mathrm{~b}=6\n\\end{aligned}$<br />Ans. 8"
   }
 }

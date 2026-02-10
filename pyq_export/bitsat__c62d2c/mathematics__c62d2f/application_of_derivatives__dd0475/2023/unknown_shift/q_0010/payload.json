@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83086701c4b7dd0475",
+    "chapter_name": "Application of Derivatives",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The curve given by $x+y=e^{x y}$ has a tangent parallel to the Y-axis at the point"
+  },
+  "options": [
+    {
+      "text": "$(0,1)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(1,0)$",
+      "is_correct": true
+    },
+    {
+      "text": "$(1,1)$",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\because x+y=e^{x y}$<br />Differentiating w.r.t. $x$, we get<br />$1+\\frac{d y}{d x}=e^{x y}\\left[y+x \\frac{d y}{d x}\\right]$<br />$\\Rightarrow \\quad \\frac{d y}{d x}\\left(1-x e^{x y}\\right)=y e^{x y}-1$<br />$\\Rightarrow \\frac{d y}{d x}=\\frac{y e^{x y}-1}{1-x e^{x y}} \\because \\frac{d y}{d x}=\\infty$,<br />as tangent is parallel to $\\mathrm{Y}$-axis<br />$\\Rightarrow 1-x e^{x y}=0$<br />$\\therefore \\mathrm{xe}^{\\mathrm{xy}}=1$<br />This holds, when $x=1$ and $y=0$"
+  }
+}

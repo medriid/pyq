@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (23 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $\\mathrm{I}(x)=\\int \\frac{d x}{(x-11)^{\\frac{11}{13}}(x+15)^{\\frac{15}{13}}}$. If $\\mathrm{I}(37)-\\mathrm{I}(24)=\\frac{1}{4}\\left(\\frac{1}{\\mathrm{~b}^{\\frac{1}{13}}}-\\frac{1}{\\mathrm{c}^{\\frac{1}{13}}}\\right), \\mathrm{b}, \\mathrm{c} \\in \\mathrm{N}$, then $3(\\mathrm{~b}+\\mathrm{c})$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$22$",
+      "is_correct": false
+    },
+    {
+      "text": "$39$",
+      "is_correct": true
+    },
+    {
+      "text": "$40$",
+      "is_correct": false
+    },
+    {
+      "text": "$26$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & I(x)=\\int \\frac{d x}{(x-11)^{\\frac{11}{13}}(x+15)^{\\frac{15}{13}}} \\\\ & \\text { Put } \\frac{x-11}{x+15}=t \\Rightarrow \\frac{26}{(x+5)^2} d x=d t \\\\ & I(x)=\\frac{1}{26} \\int \\frac{d t}{t^{1 / 13}}=\\frac{1}{26} \\cdot \\frac{t^{2 / 13}}{2 / 13}\\end{aligned}$\n\n\n$\\begin{aligned} & \\mathrm{I}(\\mathrm{x})=\\frac{1}{4}\\left(\\frac{\\mathrm{x}-11}{\\mathrm{x}+15}\\right)^{2 / 13}+\\mathrm{C} \\\\ & \\mathrm{I}(37)-\\mathrm{I}(24)=\\frac{1}{4}\\left(\\frac{26}{52}\\right)^{2 / 13}-\\frac{1}{4}\\left(\\frac{13}{39}\\right)^{2 / 13} \\\\ & =\\frac{1}{4}\\left(\\frac{1}{2^{2 / 13}}-\\frac{1}{3^{2 / 13}}\\right) \\\\ & =\\frac{1}{4}\\left(\\frac{1}{4^{1 / 13}}-\\frac{1}{9^{1 / 13}}\\right) \\\\ & \\therefore \\mathrm{b}=4, \\mathrm{c}=9 \\\\ & 3(\\mathrm{~b}+\\mathrm{c})=39\\end{aligned}$"
+  }
+}

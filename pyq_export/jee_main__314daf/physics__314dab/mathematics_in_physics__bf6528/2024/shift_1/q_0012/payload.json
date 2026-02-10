@@ -1,8 +1,8 @@
 {
   "index": 12,
-  "type": "numerical",
+  "type": "singleCorrect",
   "difficulty": 1,
-  "pyq_info": "JEE Main 2024 (06 Apr Shift 1)",
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "For three vectors $\\vec{A}=(-x \\hat{i}-6 \\hat{j}-2 \\hat{k}), \\vec{B}=(-\\hat{i}+4 \\hat{j}+3 \\hat{k})$ and $\\vec{C}=(-8 \\hat{i}-\\hat{j}+3 \\hat{k})$, if $\\vec{A} \\cdot(\\vec{B} \\times \\vec{C})=0$, then value of $x$ is _________"
+    "text": "Young's modulus is determined by the equation given by $\\mathrm{Y}=49000 \\frac{\\mathrm{m}}{\\mathrm{l}} \\frac{\\mathrm{dyn}}{\\mathrm{cm}^2}$ where $M$ is the mass and $l$ is the extension of wire used in the experiment. Now error in Young modules $(Y)$ is estimated by taking data from $M-l$ plot in graph paper. The smallest scale divisions are $5 \\mathrm{~g}$ and $0.02 \\mathrm{~cm}$ along load axis and extension axis respectively. If the value of $M$ and $l$ are $500 \\mathrm{~g}$ and $2 \\mathrm{~cm}$ respectively then percentage error of $Y$ is :"
   },
-  "options": [],
-  "correct_answer": "4",
+  "options": [
+    {
+      "text": "$0.5 \\%$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 \\%$",
+      "is_correct": true
+    },
+    {
+      "text": "$0.02 \\%$",
+      "is_correct": false
+    },
+    {
+      "text": "$0.2 \\%$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
   "solution": {
-    "text": "$\\begin{aligned} & \\vec{B} \\times \\vec{C}=\\left|\\begin{array}{ccc}\\hat{i} & \\hat{j} & \\hat{k} \\\\ -1 & 4 & 3 \\\\ -8 & -1 & 3\\end{array}\\right|=15 \\hat{i}-21 \\hat{j}+33 \\hat{k} \\\\ & \\vec{A} \\cdot(\\vec{B} \\times \\vec{C})=(-x \\hat{i}-6 \\hat{j}-2 \\hat{k}) \\cdot(15 \\hat{i}-21 \\hat{j}+33 \\hat{k}) \\\\ & 0=-15 x+126-66 \\\\ & 15 x=60 \\\\ & x=4\\end{aligned}$"
+    "text": "$\\begin{aligned} \\frac{\\Delta \\mathrm{Y}}{\\mathrm{Y}} & =\\frac{\\Delta \\mathrm{m}}{\\mathrm{m}}+\\frac{\\Delta \\ell}{\\ell} \\\\ & =\\frac{5}{500}+\\frac{0.02}{2}=0.01+0.01 \\\\ \\frac{\\Delta \\mathrm{Y}}{\\mathrm{Y}} & =0.02 \\Rightarrow \\% \\frac{\\Delta \\mathrm{Y}}{\\mathrm{Y}}=2 \\%\\end{aligned}$"
   }
 }

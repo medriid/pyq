@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2011",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2cce8ce0dc8a5c62d2e",
+    "subject_name": "Chemistry",
+    "chapter_id": "61e7bd81ea0910c9b55ac9eb",
+    "chapter_name": "Chemical Kinetics",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "During the kinetic study of the reaction, $2 \\mathrm{~A}+\\mathrm{B} \\rightarrow \\mathrm{C}+\\mathrm{D}$, following results were obtained:\r\n\r\n$$\r\n\\begin{array}{|c|c|c|c|}\r\n\\hline \\text { Run } & {[\\mathrm{A}] / \\mathrm{mol} \\mathrm{L}^{-1}} & {[\\mathrm{~B}] / \\mathrm{mol} \\mathrm{L}^{-1}} & \\begin{array}{l}\r\n\\text { Initial rate of } \\\\\r\n\\text { formation of } \\\\\r\n\\mathrm{D} / \\mathrm{mol} \\mathrm{L}^{-1} \\mathrm{~min}^{-1}\r\n\\end{array} \\\\\r\n\\hline \\text { I } & 0.1 & 0.1 & 6.0 \\times 10^{-1} \\\\\r\n\\hline \\text { II } & 0.3 & 0.2 & 7.2 \\times 10^{-1} \\\\\r\n\\hline \\text { III } & 0.3 & 0.4 & 28.8 \\times 10^{-1} \\\\\r\n\\hline \\text { IV } & 0.4 & 0.1 & 24.0 \\times 10^{-1} \\\\\r\n\\hline\r\n\\end{array}\r\n$$\r\n\r\nBased on the above data which one of the following is correct?\r\n\r\n"
+  },
+  "options": [
+    {
+      "text": "rate $=k[\\mathrm{~A}]^{2}[\\mathrm{~B}]$",
+      "is_correct": false
+    },
+    {
+      "text": "rate $=k[\\mathrm{~A}][\\mathrm{B}]$",
+      "is_correct": false
+    },
+    {
+      "text": "rate $=k[\\mathrm{~A}]^{2}[\\mathrm{~B}]^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "rate $=k[\\mathrm{~A}][\\mathrm{B}]^{2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "In case of (II) and (III) Keeping concentration of [A] constant, when the concentration of $[\\mathrm{B}]$ is doubled, the rate quadruples. Hence it is second order with respect to $\\mathrm{B}$. In case of $\\mathrm{I} \\&$ IV Keeping the concentration of [B] constant, when the concentration of $[\\mathrm{A}]$ is increased four times, rate also increases four times. Hence, the order with respect to $\\mathrm{A}$ is one. Hence Rate $=k[\\mathrm{~A}][\\mathrm{B}]^{2}$"
+  }
+}

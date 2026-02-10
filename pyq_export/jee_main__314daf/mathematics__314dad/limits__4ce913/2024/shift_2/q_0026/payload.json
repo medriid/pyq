@@ -1,8 +1,8 @@
 {
   "index": 26,
-  "type": "numerical",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2024 (31 Jan Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><mi>b</mi><msub><mi>log</mi><mi>e</mi></msub><mfenced><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced><mo>+</mo><mi>c</mi><mi>x</mi><msup><mi>e</mi><mrow><mo>−</mo><mi>x</mi></mrow></msup></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mi>sin</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>1</mn></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mfenced><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><msup><mi>c</mi><mn>2</mn></msup></mrow></mfenced></math> is equal to ______."
+    "text": "Let $f(x)=\\int_0^x\\left(t+\\sin \\left(1-e^{\\prime}\\right)\\right) d t, x \\in \\mathbb{R}$. Then, $\\lim _{x \\rightarrow 0} \\frac{f(x)}{x^3}$ is equal to"
   },
-  "options": [],
-  "correct_answer": "81",
+  "options": [
+    {
+      "text": "$-\\frac{1}{6}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{2}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{2}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{6}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
   "solution": {
-    "text": "<p>Given: </p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><mi>b</mi><msub><mi>log</mi><mi>e</mi></msub><mfenced><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced><mo>+</mo><mi>c</mi><mi>x</mi><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mi>sin</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><mi>b</mi><msub><mi>log</mi><mi>e</mi></msub><mfenced><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfenced><mo>+</mo><mi>c</mi><mi>x</mi><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>·</mo><mi>x</mi><mo>·</mo><mstyle displaystyle=\"true\"><mfrac><mrow><mi>sin</mi><mi>x</mi></mrow><mi>x</mi></mfrac></mstyle></mrow></mfrac><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mfenced><mrow><mn>1</mn><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mi>x</mi><mrow><mn>1</mn><mo>!</mo></mrow></mfrac></mstyle><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mn>2</mn><mo>!</mo></mrow></mfrac></mstyle><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo></mrow></mfenced><mo>-</mo><mi>b</mi><mfenced><mrow><mi>x</mi><mo>-</mo><mstyle displaystyle=\"true\"><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac></mstyle><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac></mstyle><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo></mrow></mfenced><mo>+</mo><mi>c</mi><mi>x</mi><mfenced><mrow><mn>1</mn><mo>-</mo><mfrac><mi>x</mi><mrow><mn>1</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo></mrow></mfenced></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>×</mo><mi>x</mi></mrow></mfrac><mo>=</mo><mn>1</mn></math></p><p>Coefficient of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mo>-</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn><mo> </mo><mo> </mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mrow><mi>i</mi><mi>i</mi><mi>i</mi></mrow></mfenced></math></p><p>Coefficient of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>a</mi><mo>+</mo><mfrac><mi>b</mi><mn>2</mn></mfrac><mo>-</mo><mi>c</mi><mo>=</mo><mn>0</mn><mo> </mo><mo> </mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mrow><mi>i</mi><mi>i</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>a</mi><mo>-</mo><mfrac><mi>c</mi><mn>2</mn></mfrac><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>a</mi><mo>=</mo><mfrac><mi>c</mi><mn>2</mn></mfrac></math></p><p>Coefficient of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>a</mi><mo>-</mo><mfrac><mi>b</mi><mn>3</mn></mfrac><mo>+</mo><mfrac><mi>c</mi><mn>2</mn></mfrac><mo>=</mo><mn>1</mn><mo> </mo><mo> </mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mrow><mi>i</mi><mi>i</mi><mi>i</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mi>c</mi><mn>2</mn></mfrac><mo>-</mo><mfrac><mi>c</mi><mn>3</mn></mfrac><mo>+</mo><mfrac><mi>c</mi><mn>2</mn></mfrac><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mrow><mn>2</mn><mi>c</mi></mrow><mn>3</mn></mfrac><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>c</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>=</mo><mi>b</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>a</mi><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>16</mn><mfenced><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><msup><mi>c</mi><mn>2</mn></msup></mrow></mfenced><mo>=</mo><mn>16</mn><mfenced><mrow><mfrac><mn>9</mn><mn>16</mn></mfrac><mo>+</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>×</mo><mn>2</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>16</mn><mfenced><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><msup><mi>c</mi><mn>2</mn></msup></mrow></mfenced><mo>=</mo><mn>81</mn></math></p>"
+    "text": "$\\lim _{x \\rightarrow 0} \\frac{f(x)}{x^3}$<br />Using L Hopital Rule.\n$\\lim _{x \\rightarrow 0} \\frac{f^{\\prime}(x)}{3 x^2}=\\lim _{x \\rightarrow 0} \\frac{x+\\sin \\left(1-e^x\\right)}{3 x^2}$ (Again L Hopital)\nUsing L.H. Rule\n$\\begin{aligned}\n& =\\lim _{x \\rightarrow 0} \\frac{-\\left[\\sin \\left(1-e^x\\right)\\left(-e^x\\right) \\cdot e^x+\\cos \\left(1-e^x\\right) \\cdot e^x\\right]}{6} \\\\\n& =-\\frac{1}{6}\n\\end{aligned}$"
   }
 }

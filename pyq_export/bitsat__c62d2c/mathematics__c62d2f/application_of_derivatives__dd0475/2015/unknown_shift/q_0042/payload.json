@@ -1,0 +1,43 @@
+{
+  "index": 42,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83086701c4b7dd0475",
+    "chapter_name": "Application of Derivatives",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The slope of the tangent to the curve $y=e^{x}$ cos $x$ is minimum at $x=\\alpha, 0 \\leq a \\leq 2 \\pi$, then the value of $\\alpha$ is"
+  },
+  "options": [
+    {
+      "text": "$\\underline{0}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\pi$",
+      "is_correct": true
+    },
+    {
+      "text": "$2 \\pi$",
+      "is_correct": false
+    },
+    {
+      "text": "$3 \\pi 2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $m$ be the slope of the tangent to the curve\r\n\r\n$y=e^{x} \\cos x$\r\n\r\nThen, $m=\\frac{d y}{d x}=e^{x}(\\cos x-\\sin x)$\r\n\r\nDiff. w.r.t 'x'\r\n\r\n$$\r\n\r\n\\begin{array}{r}\r\n\r\n\\Rightarrow \\frac{\\mathrm{dm}}{\\mathrm{dx}}=\\mathrm{e}^{\\mathrm{x}}(\\cos \\mathrm{x}-\\sin \\mathrm{x})+\\mathrm{e}^{\\mathrm{x}}(-\\sin \\mathrm{x}-\\cos \\mathrm{x}) \\\\\r\n\r\n=-2 \\mathrm{e}^{\\mathrm{x}} \\sin \\mathrm{x}\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nand $\\frac{\\mathrm{d}^{2} \\mathrm{~m}}{\\mathrm{dx}^{2}}=-2 \\mathrm{e}^{\\mathrm{x}}(\\sin \\mathrm{x}+\\cos \\mathrm{x})$\r\n\r\nPut $\\frac{\\mathrm{dm}}{\\mathrm{dx}}=0 \\Rightarrow \\sin \\mathrm{x}=0 \\Rightarrow \\mathrm{x}=0, \\pi, 2 \\pi$\r\n\r\nClearly, $\\frac{\\mathrm{d}^{2} \\mathrm{~m}}{\\mathrm{dx}^{2}}>0$ for $\\mathrm{x}=\\pi$\r\n\r\nThus, $y$ is minimum at $x=\\pi$.\r\n\r\nHence the value of $\\alpha=\\pi$"
+  }
+}

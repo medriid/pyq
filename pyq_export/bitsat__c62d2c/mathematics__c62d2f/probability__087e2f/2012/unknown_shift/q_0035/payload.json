@@ -1,0 +1,43 @@
+{
+  "index": 35,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78b6e5f7d916087e2f",
+    "chapter_name": "Probability",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A boy is throwing stones at a target. The probability of hitting the target at any trial is $\\frac{1}{2}$ The probability of hitting the target 5 th time at the 10 th throw is:"
+  },
+  "options": [
+    {
+      "text": "$\\frac{5}{2^{10}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{63}{2^{9}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{10}{2^{10}}$",
+      "is_correct": false
+    },
+    {
+      "text": "None",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "The probability of hitting the target 5 th time at the 10 th throw $=\\mathrm{P}($ the probability of hitting the target 4 times in the first 9 throws) $\\mathrm{P}($ the probability of hitting the target at the 10 th throw $)=$\r\n$\\left[{ }^{9} \\mathrm{C}_{4}\\left(\\frac{1}{2}\\right)^{4}\\left(\\frac{1}{2}\\right)^{5}\\right]\\left(\\frac{1}{2}\\right)=\\frac{9 !}{4 ! 5 !} \\times\\left(\\frac{1}{2}\\right)^{10}=\\frac{63}{2^{9}}$"
+  }
+}

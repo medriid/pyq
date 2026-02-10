@@ -1,82 +1,37 @@
 {
-  "_id": "66446712970e6e9ab542cfed",
-  "type": "singleCorrect",
+  "_id": "66446761970e6e9ab542d2d0",
+  "type": "numerical",
   "level": 3,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "664466ee278297dee60eda69",
+      "_id": "664466ef278297dee60eda71",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-04-04T14:00:00.000Z",
+      "heldOn": "2024-04-09T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (04 Apr Shift 2)",
-      "title": "JEE Main 2024 (04 Apr Shift 2)"
+      "shortName": "2024 (09 Apr Shift 2)",
+      "title": "JEE Main 2024 (09 Apr Shift 2)"
     }
   ],
   "question": {
-    "text": "The value of $\\frac{1 \\times 2^2+2 \\times 3^2+\\ldots+100 \\times(101)^2}{1^2 \\times 2+2^2 \\times 3+\\ldots .+100^2 \\times 101}$ is",
+    "text": "If $\\left(\\frac{1}{\\alpha+1}+\\frac{1}{\\alpha+2}+\\ldots \\ldots+\\frac{1}{\\alpha+1012}\\right)-\\left(\\frac{1}{2 \\cdot 1}+\\frac{1}{4 \\cdot 3}+\\frac{1}{6 \\cdot 5}+\\ldots . .+\\frac{1}{2024 \\cdot 2023}\\right)=\\frac{1}{2024}$, then $\\alpha$ is equal to________",
     "image": null
   },
-  "options": [
-    {
-      "id": "u2zPC",
-      "text": "$\\frac{32}{31}$",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "drpOm",
-      "text": "$\\frac{31}{30}$",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "MOGwN",
-      "text": "$\\frac{306}{305}$",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "TpOdc",
-      "text": "$\\frac{305}{301}$",
-      "image": null,
-      "isCorrect": true
-    }
-  ],
-  "correctValue": null,
+  "options": [],
+  "correctValue": "1011",
   "solution": {
-    "text": "$\\begin{aligned} & \\frac{1 \\times 2^2+2 \\times 3^2+\\ldots+100 \\times(101)^2}{1^2 \\times 2+2^2 \\times 3+\\ldots+100^2 \\times 101}=\\frac{\\sum_{r=1}^{100} r(r+1)^2}{\\sum_{r=1}^{100} r^2(r+1)} \\\\ & =\\frac{\\sum_{r=1}^{100}\\left(r^3+2 r^2+r\\right)}{\\sum_{r=1}^{100}\\left(r^3+r^2\\right)}=\\frac{\\left(\\frac{n(n+1)^2}{2}\\right)+\\frac{2 \\cdot n(n+1)(2 n+1)}{6}+\\frac{n(n+1)}{2}}{\\left(\\frac{n(n+1)}{2}\\right)^2+\\frac{n(n+1)(2 n+1)}{6}} \\\\ & =\\frac{\\frac{n(n+1)}{2}\\left[\\frac{n(n+1)}{2}+\\frac{2}{3} \\cdot(2 n+1)+1\\right]}{\\frac{n(n+1)}{2}\\left[\\frac{n(n+1)}{2}+\\frac{(2 n+1)}{3}\\right]} ; \\text { Put n=100 } \\\\ & =\\frac{\\frac{100(101)}{2}+\\frac{2}{3}(201)+1}{\\frac{100 \\times 101}{2}+\\frac{201}{3}}=\\frac{5185}{5117}=\\frac{305}{301} \\\\ & \\end{aligned}$",
+    "text": "$\\begin{aligned} & \\left(\\frac{1}{\\alpha+1}+\\frac{1}{\\alpha+2}+\\ldots+\\frac{1}{\\alpha+2012}\\right) \\\\ & -\\left\\{\\left(\\frac{1}{1}-\\frac{1}{2}\\right)+\\left(\\frac{1}{3}-\\frac{1}{4}\\right)+\\ldots+\\left(\\frac{1}{2023}-\\frac{1}{2024}\\right)\\right\\}=\\frac{1}{2024} \\\\ & \\Rightarrow\\left(\\frac{1}{\\alpha+1}+\\frac{1}{\\alpha+2}+\\ldots+\\frac{1}{\\alpha+2012}\\right) \\\\ & -\\left\\{\\left(\\frac{1}{1}+\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{4}\\right)+\\ldots+\\frac{1}{2023}\\right. \\\\ & \\left.-\\frac{1}{2024}-2\\left(\\frac{1}{2}+\\frac{1}{4}+\\ldots+\\frac{1}{2022}\\right)\\right\\}=\\frac{1}{2024} \\\\ & \\end{aligned}$\n$\\begin{aligned} & \\Rightarrow\\left(\\frac{1}{\\alpha+1}+\\frac{1}{\\alpha+2}+\\ldots+\\frac{1}{\\alpha+2012}\\right) \\\\ & \\quad-\\left(\\frac{1}{1}+\\frac{1}{2}+\\ldots+\\frac{1}{2023}\\right) \\\\ & \\quad+\\frac{1}{2024}+\\left(\\frac{1}{1}+\\frac{1}{2}+\\ldots+\\frac{1}{1011}\\right)=\\frac{1}{2024} \\\\ & \\Rightarrow \\frac{1}{\\alpha+1}+\\frac{1}{\\alpha+2}+\\ldots+\\frac{1}{\\alpha+2012} \\\\ & \\quad=\\frac{1}{1012}+\\frac{1}{1013}+\\ldots+\\frac{1}{2023} \\\\ & \\Rightarrow \\alpha=1011\\end{aligned}$",
     "image": null
   },
-  "videoSolution": {
-    "videoId": "f912f6947dfe4b419d9688897a64722f",
-    "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/dJ56DRzVlTcmA.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/dJ56DRzVlTcmA.480.jpeg",
-    "premiumModules": [
-      {
-        "premiumModuleId": "6628114842d540dfcb148ecb",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "64c7e8e829737784b294e469",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
-        "isFree": false
-      }
-    ],
-    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
-  },
+  "videoSolution": null,
   "syllabusCategory": "outOfSyllabusButGoodToSolve",
   "previousYear": {
-    "_id": "664466ee278297dee60eda69",
+    "_id": "664466ef278297dee60eda71",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-04-04T14:00:00.000Z",
+    "heldOn": "2024-04-09T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (04 Apr Shift 2)",
-    "title": "JEE Main 2024 (04 Apr Shift 2)"
+    "shortName": "2024 (09 Apr Shift 2)",
+    "title": "JEE Main 2024 (09 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

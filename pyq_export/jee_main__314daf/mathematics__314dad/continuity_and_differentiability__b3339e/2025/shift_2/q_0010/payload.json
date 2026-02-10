@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let the function $f(x)=\\left(x^2+1\\right)\\left|x^2-a x+2\\right|+\\cos |x|$ be not differentiable at the two points $x=\\alpha=2$ and $x=\\beta$. Then the distance of the point $(\\alpha, \\beta)$ from the line $12 x+5 y+10=0$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "5",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    },
+    {
+      "text": "3",
+      "is_correct": true
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$f(x)=\\left(x^2+1\\right)\\left|x^2-a x+2\\right|+\\cos |x|$\n\nNotice that $\\cos (-x)=\\cos x=\\cos |x|$ which means $\\cos |x|$ is differentiable\neverywhere in $x \\in R$\n$\\begin{aligned}\n& \\Rightarrow f(x) \\text { can be non differentiable where }\\left|x^2-a x+2\\right| \\\\\n& =0\n\\end{aligned}$\n$\\Rightarrow x^2-a x+2=0$<img src=\"assets\\st0010_293b35653e75.png\"><br>\n$\\Rightarrow 4-2 a+2=0 \\Rightarrow a=3$\n$\\Rightarrow \\quad\\left(x^2-3 x+2\\right)=0 \\quad \\Rightarrow \\quad x=1,2$\n$\\beta=1$\ndistance of $(\\alpha, \\beta)$ from line\n$\\begin{aligned}\n& 12 x+5 y+10=0 \\\\\n& \\Rightarrow \\frac{|2(12)+5(1)+10|}{13}=\\frac{39}{13}=3\n\\end{aligned}$"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "index": 10,
-  "type": "numerical",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2025 (2 Apr Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (8 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "The internal energy of air in $4 \\mathrm{~m} \\times 4 \\mathrm{~m} \\times 3 \\mathrm{~m}$ sized room at 1 atmospheric pressure will be _______ $\\times 10^6 \\mathrm{~J}$. (Consider air as diatomic molecule)"
+    "text": "A monoatomic gas having $\\gamma=\\frac{5}{3}$ is stored in a thermally insulated container and the gas is suddenly compressed to $\\left(\\frac{1}{8}\\right)^{\\text {th }}$ of its initial volume. The ratio of final pressure and initial pressure is: ( $\\gamma$ is the ratio of specific heats of the gas at constant pressure and at constant volume)"
   },
-  "options": [],
-  "correct_answer": "12",
+  "options": [
+    {
+      "text": "16",
+      "is_correct": false
+    },
+    {
+      "text": "40",
+      "is_correct": false
+    },
+    {
+      "text": "32",
+      "is_correct": true
+    },
+    {
+      "text": "28",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
   "solution": {
-    "text": "To find the internal energy of gas in the room.<br/>$\\begin{aligned}<br/>& \\mathrm{U}=\\mathrm{nC}_{\\mathrm{v}} \\mathrm{~T}=\\mathrm{n} \\frac{5 \\mathrm{RT}}{2} \\\\\n& =\\frac{5}{2} \\mathrm{PV}=\\frac{5}{2} \\times 10^5 \\times 48=12 \\times 10^6 \\mathrm{~J}<br/>\\end{aligned}$"
+    "text": "$\\begin{aligned} & P_i V_i^\\gamma=P_f V_f^\\gamma \\\\ & \\frac{P_f}{P_i}=\\left(\\frac{V_i}{V_f}\\right)^\\gamma=(8)^{5 / 3} \\\\ & \\frac{P_f}{P_i}=32\\end{aligned}$"
   }
 }

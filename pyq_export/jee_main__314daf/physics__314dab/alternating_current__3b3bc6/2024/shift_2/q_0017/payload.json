@@ -1,8 +1,8 @@
 {
   "index": 17,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2024 (05 Apr Shift 2)",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "A series LCR circuit is subjected to an ac signal of $200 \\mathrm{~V}, 50 \\mathrm{~Hz}$. If the voltage across the inductor $(\\mathrm{L}=10 \\mathrm{mH})$ is $31.4 \\mathrm{~V}$, then the current in this circuit is _____ ."
+    "text": "A coil of negligible resistance is connected in series with $90 \\Omega$ resistor across $120 \\mathrm{~V}, 60 \\mathrm{~Hz}$ supply. A voltmeter reads $36 \\mathrm{~V}$ across resistance. Inductance of the coil is :"
   },
   "options": [
     {
-      "text": "$68 \\mathrm{~A}$",
+      "text": "$0.286 \\mathrm{H}$",
       "is_correct": false
     },
     {
-      "text": "$63 \\mathrm{~A}$",
-      "is_correct": false
-    },
-    {
-      "text": "$10 \\mathrm{~A}$",
+      "text": "$0.76 \\mathrm{H}$",
       "is_correct": true
     },
     {
-      "text": "$10 \\mathrm{~mA}$",
+      "text": "$2.86 \\mathrm{H}$",
+      "is_correct": false
+    },
+    {
+      "text": "$0.91 \\mathrm{H}$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "C"
+    "B"
   ],
   "solution": {
-    "text": "$\\begin{aligned} & \\text { Voltage across inductor } \\mathrm{V}_{\\mathrm{L}}=\\mathrm{IX}_{\\mathrm{L}} \\\\ & 31.4=\\mathrm{I}[\\mathrm{L} \\omega] \\\\ & 31.4=\\mathrm{I}[\\mathrm{L}(2 \\pi \\mathrm{f})] \\\\ & 31.4=\\mathrm{I}\\left[10 \\times 10^{-3}(2 \\times 3.14) \\times 50\\right. \\\\ & \\Rightarrow \\mathrm{I}=10 \\mathrm{~A}\\end{aligned}$"
+    "text": "<img src=\"assets\\st0017_94813224ab7c.png\"><br />$\\begin{aligned} & 36=I_{\\mathrm{rms}} \\mathrm{R} \\\\ & 36=\\frac{120}{\\sqrt{\\mathrm{X}_{\\mathrm{L}}^2+\\mathrm{R}^2}} \\times \\mathrm{R} \\\\ & \\mathrm{R}=90 \\Omega \\Rightarrow 36=\\frac{120 \\times 90}{\\sqrt{\\mathrm{X}_{\\mathrm{L}}^2+90^2}} \\\\ & \\sqrt{\\mathrm{X}_{\\mathrm{L}}^2+90^2}=300 \\\\ & \\mathrm{X}_{\\mathrm{L}}^2=81900 \\\\ & \\mathrm{X}_{\\mathrm{L}}=286.18 \\\\ & \\omega \\mathrm{L}=286.18 \\\\ & \\mathrm{~L}=\\frac{286.18}{376.8} \\\\ & \\mathrm{~L}=0.76 \\mathrm{H}\\end{aligned}$"
   }
 }

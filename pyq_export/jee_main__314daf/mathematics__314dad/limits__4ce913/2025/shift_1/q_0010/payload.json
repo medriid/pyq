@@ -1,8 +1,8 @@
 {
   "index": 10,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (24 Jan Shift 1)",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "$\\lim _{x \\rightarrow 0} \\operatorname{cosec} x\\left(\\sqrt{2 \\cos ^2 x+3 \\cos x}-\\sqrt{\\cos ^2 x+\\sin x+4}\\right)$ is:"
+    "text": "For $\\alpha, \\beta, \\gamma, \\in \\mathbf{R}$, if $\\lim _{x \\rightarrow 0} \\frac{x^2 \\sin \\alpha x+(\\gamma-1) e^{x^2}}{\\sin 2 x-\\beta x}=3$, then $\\beta+\\gamma-\\alpha$ is equal to:"
   },
   "options": [
     {
-      "text": "$0$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{1}{\\sqrt{15}}$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{1}{2 \\sqrt{5}}$",
-      "is_correct": false
-    },
-    {
-      "text": "$-\\frac{1}{2 \\sqrt{5}}$",
+      "text": "7",
       "is_correct": true
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    },
+    {
+      "text": "6",
+      "is_correct": false
+    },
+    {
+      "text": "$-1$",
+      "is_correct": false
     }
   ],
   "correct_answer": [
-    "D"
+    "A"
   ],
   "solution": {
-    "text": "$\\begin{aligned} & \\text { } \\lim _{x \\rightarrow 0} \\operatorname{cosec}\\left(\\sqrt{2 \\cos ^2 x+3 \\cos x}-\\sqrt{\\cos ^2 x+\\sin x+4}\\right) \\\\ & \\lim _{x \\rightarrow 0} \\frac{\\cos \\operatorname{ec} x\\left(\\cos ^2 x+3 \\cos x-\\sin x-4\\right)}{\\left(\\sqrt{2 \\cos ^2 x+3 \\cos x}+\\sqrt{\\cos ^2 x+\\sin x+4}\\right)} \\\\ & \\lim _{x \\rightarrow 0} \\frac{1}{\\sin x} \\frac{\\left(\\cos ^2 x+3 \\cos x-4\\right)-\\sin x}{\\left(\\sqrt{2 \\cos ^2 x+3 \\cos x}+\\sqrt{\\cos ^2 x+\\sin x+4}\\right)} \\\\ & \\lim _{x \\rightarrow 0} \\frac{\\left(\\cos ^x+4\\right)(\\cos x-1)-\\sin x}{\\sin x\\left(\\sqrt{2 \\cos ^2 x+3 \\cos x}+\\sqrt{\\cos ^2 x+\\sin x+4}\\right)} \\\\ & \\lim _{x \\rightarrow 0} \\frac{-2 \\sin ^2 \\frac{x}{2}(\\cos x+4)-2 \\sin \\frac{x}{2} \\cos \\frac{x}{2}}{2 \\sin \\frac{x}{2} \\cos \\frac{x}{2}\\left(\\sqrt{2 \\cos ^2 x+3 \\cos x}+\\sqrt{\\cos ^2 x+\\sin x+4}\\right)} \\\\ & \\lim _{x \\rightarrow 0} \\frac{-\\left(\\sin ^x(\\cos x+4)+\\cos \\frac{x}{2}\\right)}{\\cos \\frac{x}{2}\\left(\\sqrt{2 \\cos ^2 x+3 \\cos x}+\\sqrt{\\cos ^2 x+\\sin x+4}\\right)} \\\\ & -\\frac{1}{2 \\sqrt{5}}\\end{aligned}$"
+    "text": "$\\begin{aligned} & \\lim _{x \\rightarrow 10} \\frac{x^2(\\alpha x)+(\\gamma-1)\\left(1+\\frac{x^2}{1}\\right)}{2 x-\\frac{8 x^3}{6}-\\beta x}=3 \\\\ & \\lim _{x \\rightarrow 0} \\frac{(\\gamma-1)+(\\gamma-1) x^2+\\alpha x^3}{(2-\\beta) x-\\frac{4}{3} x^3}=3 \\\\ & \\gamma-1, \\beta=2, \\frac{-3 \\alpha}{4}=+3 \\Rightarrow \\alpha=-4 \\\\ & \\beta+\\gamma-\\alpha=7\\end{aligned}$"
   }
 }

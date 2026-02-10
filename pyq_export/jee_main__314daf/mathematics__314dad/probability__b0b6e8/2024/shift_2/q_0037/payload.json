@@ -1,8 +1,8 @@
 {
   "index": 37,
-  "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2024 (31 Jan Shift 2)",
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "A coin is biased so that a head is twice as likely to occur as a tail. If the coin is tossed <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> times, then the probability of getting two tails and one head is-"
+    "text": "From a lot of 12 items containing 3 defectives, a sample of 5 items is drawn at random. Let the random variable $\\mathrm{X}$ denote the number of defective items in the sample. Let items in the sample be drawn one by one without replacement. If variance of $X$ is $\\frac{m}{n}$, where $\\operatorname{gcd}(m, n)=1$, then $n-m$ is equal to _________"
   },
-  "options": [
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>9</mn></mfrac></math>",
-      "is_correct": true
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>27</mn></mfrac></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>27</mn></mfrac></math>",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "A"
-  ],
+  "options": [],
+  "correct_answer": "71",
   "solution": {
-    "text": "<p>Given: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mi>H</mi></mfenced><mo>=</mo><mn>2</mn><mi>P</mi><mfenced><mi>T</mi></mfenced></math></p><p>We know that, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mi>H</mi></mfenced><mo>+</mo><mi>P</mi><mfenced><mi>T</mi></mfenced><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>2</mn><mi>P</mi><mfenced><mi>T</mi></mfenced><mo>+</mo><mi>P</mi><mfenced><mi>T</mi></mfenced><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>P</mi><mfenced><mi>T</mi></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo> </mo><mtext>and</mtext><mo> </mo><mi>P</mi><mfenced><mi>H</mi></mfenced><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>P</mi><mfenced><mrow><mn>2</mn><mo> </mo><mtext>tails and</mtext><mo> </mo><mn>1</mn><mo> </mo><mtext>head</mtext></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>×</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>×</mo><mfrac><mrow><mn>3</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mfenced><mtext>for arrangements</mtext></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>P</mi><mfenced><mrow><mn>2</mn><mo> </mo><mtext>tails and</mtext><mo> </mo><mn>1</mn><mo> </mo><mtext>head</mtext></mrow></mfenced><mo>=</mo><mfrac><mn>2</mn><mn>9</mn></mfrac></math></p>"
+    "text": "$\\begin{aligned}\n& \\mathrm{a}=1-\\frac{{ }^3 \\mathrm{C}_5}{{ }^{12} \\mathrm{C}_5} \\\\\n& \\mathrm{~b}=3 \\cdot \\frac{{ }^9 \\mathrm{C}_4}{{ }^{12} \\mathrm{C}_5} \\\\\n& \\mathrm{c}=3 \\cdot \\frac{{ }^9 \\mathrm{C}_3}{{ }^{12} \\mathrm{C}_5} \\\\\n& \\mathrm{~d}=1 \\cdot \\frac{{ }^9 \\mathrm{C}_2}{{ }^{12} \\mathrm{C}_5} \\\\\n& \\mathrm{u}=0 . \\mathrm{a}+1 . b+2 \\cdot c+3 \\cdot \\mathrm{d}=1.25 \\\\\n& \\sigma^2=0 . \\mathrm{a}+1 . b+4 . c+9 \\mathrm{~d}-\\mathrm{u}^2 \\\\\n& \\sigma^2=\\frac{105}{176}\n\\end{aligned}$<br />Ans. $176-105=71$"
   }
 }

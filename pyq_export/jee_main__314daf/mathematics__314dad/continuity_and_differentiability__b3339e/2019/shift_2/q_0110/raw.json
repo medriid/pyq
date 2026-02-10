@@ -1,0 +1,83 @@
+{
+  "_id": "648b5a67417cc3fb48d667e6",
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7ed",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2019-01-11T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019 (11 Jan Shift 2)",
+      "title": "JEE Main 2019 (11 Jan Shift 2)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Let $\\mathrm{K}$ be the set of all real values of $x$ where the function $f(x)=\\sin |x|-|x|+2(x-\\pi) \\cos |x|$ is not differentiable.\r\n\r\nThen the set $K$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "d9emo",
+      "text": "$\\phi$ (an empty set)",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "AyxMb",
+      "text": "$(\\pi\\}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "t40kS",
+      "text": "$\\{0\\}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "gD9OG",
+      "text": "$\\{0, \\pi\\}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$f(x)=\\sin |x|-|x|+2(x-\\pi) \\cos |x|$\r\n\r\nThere are two cases,\r\n\r\nCase $(1), x>0$\r\n\r\n$f(x)=\\sin x-x+2(x-\\pi) \\cos x$\r\n\r\n$f^{\\prime}(x)=\\cos x-1+2(1-0) \\cos x-2 \\sin (x-\\pi)$\r\n\r\n$f^{\\prime}(x)=3 \\cos x-2(x-\\pi) \\sin x-1$\r\n\r\nThen, function $f(x)$ is differentiable for all $x>0$\r\n\r\nCase $(2) x  < 0$\r\n\r\n$f(x)=-\\sin x+x+2(x-\\pi) \\cos x$\r\n\r\n$f^{\\prime}(x)=-\\cos x+1-2(x-\\pi) \\sin x+2 \\cos x$\r\n\r\n$f^{\\prime}(x)=\\cos x+1-2(x-\\pi) \\sin x$\r\n\r\nThen, function $f(x)$ is differentiable for all $x < 0$\r\n\r\nNow check for $x=0$\r\n\r\n$f^{\\prime}\\left(0^{*}\\right) \\mathrm{R} \\cdot \\mathrm{HD}=3-1=2$\r\n\r\n$f^{\\prime}(0) \\mathrm{L} . \\mathrm{H.D.}=1+1=2$\r\n\r\n$\\mathrm{L} . \\mathrm{HD}=\\mathrm{R} . \\mathrm{H.D}$\r\n\r\nThen, function $f(x)$ is differentiable for $x=0 .$ So it is\r\n\r\ndifferentiable everywhere\r\n\r\nHence, $k=\\phi$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "debdaf280bdf4cee855f289ad322c6d8",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/TBGgWLvzW4VIu.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/TBGgWLvzW4VIu.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7ed",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2019-01-11T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019 (11 Jan Shift 2)",
+    "title": "JEE Main 2019 (11 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

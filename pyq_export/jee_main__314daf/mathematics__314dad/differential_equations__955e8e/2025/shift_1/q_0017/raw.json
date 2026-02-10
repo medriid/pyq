@@ -1,0 +1,83 @@
+{
+  "_id": "68542c7c7c09d044e4c1a23b",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2ff9d87935e0d80978d",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-03T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (3 Apr Shift 1)",
+      "title": "JEE Main 2025 (3 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $g$ be a differentiable function such that $\\int_0^x g(t) d t=x-\\int_0^x \\operatorname{tg}(t) d t, x \\geq 0$ and let $y=y(x)$ satisfy the differential equation $\\frac{d y}{d x}-y \\tan x=$ $2(x+1) \\sec x g(x), x \\in\\left[0, \\frac{\\pi}{2}\\right)$. If $y(0)=0$, then $y\\left(\\frac{\\pi}{3}\\right)$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "dod76",
+      "text": "$\\frac{2 \\pi}{3 \\sqrt{3}}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "UZkGN",
+      "text": "$\\frac{4 \\pi}{3}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "yKxs4",
+      "text": "$\\frac{2 \\pi}{3}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "fMeL8",
+      "text": "$\\frac{4 \\pi}{3 \\sqrt{3}}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Diff. w.r.t. x<br/>$\\begin{aligned}<br/>& g(x)=1-x g(x) \\\\\n& g(x)=\\frac{1}{1+x} \\\\\n& \\text { so } \\frac{d y}{d x}-y \\tan x=2 \\sec x \\\\\n& I F=e^{-\\int \\tan d x}=e^{\\log \\cos x}=\\cos x<br/>\\end{aligned}$<br/>solution of D.E.<br/>$\\begin{aligned}<br/>& y \\cos x=\\int 2 d x+c \\\\\n& y \\cos x=2 x+c \\\\\n& y(0)=0<br/>\\end{aligned}$<br/>$\\mathrm{c}=0$<br/>$\\begin{aligned} & y=\\frac{2 x}{\\cos x} \\\\ & y=2 x \\sec x \\\\ & y\\left(\\frac{\\pi}{3}\\right)=2 \\cdot \\frac{\\pi}{3} \\cdot 2=\\frac{4 \\pi}{3}\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "2731cf8af8ce4f5383668d5afcd8755d",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/jbYkJGyGyfsZ8.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/jbYkJGyGyfsZ8.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2ff9d87935e0d80978d",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-03T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (3 Apr Shift 1)",
+    "title": "JEE Main 2025 (3 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

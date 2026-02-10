@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2009",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd6fad78beb2af09d046",
+    "chapter_name": "Motion In One Dimension",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A particle starts moving rectilinearly at time $\\mathrm{t}=0$ such that its velocity $\\mathrm{v}$ changes with time $\\mathrm{t}$ according to the equation $v=t^{2}-t$ where $t$ is in seconds and $v$ is in $\\mathrm{m} / \\mathrm{s}$. Find the time interval for which the particle retards."
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{2}<\\mathrm{t}<1$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{2}>t>1$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{4}<\\mathrm{t}<1$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}<t<\\frac{3}{4}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Acceleration of the particle $a=2 t-1$ The particle retards when acceleration is opposite to velocity.\n$$\n\\Rightarrow \\text { a } \\cdot v<0 \\Rightarrow(2 t-1)\\left(t^{2}-t\\right)<0 \\Rightarrow t(2 t-1)\n$$\n$(\\mathrm{t}-1)<0$\nNow t is always positive\n$$\n\\therefore(2 t-1)(t-1)<0\n$$\nor $2 \\mathrm{t}-1<0$ and $\\mathrm{t}-1>0 \\Rightarrow \\mathrm{t}<\\frac{1}{2}$ and $\\mathrm{t}>1$.\nThis is not possible or $2 \\mathrm{t}-1>0 \\& \\mathrm{t}-1<0 \\Rightarrow 1 / 2<\\mathrm{t}<1$"
+  }
+}

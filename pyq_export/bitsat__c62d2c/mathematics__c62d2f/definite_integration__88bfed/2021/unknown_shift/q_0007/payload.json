@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2021",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83e6f6052b2388bfed",
+    "chapter_name": "Definite Integration",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Evaluate: $\\int_{0}^{\\pi} \\frac{1}{5+4 \\cos x} d x$"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\pi}{3}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\pi}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{6}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "We have, $\\int_{0}^{\\pi} \\frac{1}{5+4 \\cos x} d x$\r\n\r\n$=\\int_{0}^{\\pi} \\frac{1}{5+4\\left(\\frac{1-\\tan ^{2} \\frac{x}{2}}{1+\\tan ^{2} \\frac{x}{2}}\\right)} d x$\r\n\r\n$=\\int_{0}^{\\pi} \\frac{1+\\tan ^{2} \\frac{x}{2}}{5\\left(1+\\tan ^{2} \\frac{x}{2}\\right)+4\\left(1-\\tan ^{2} \\frac{x}{2}\\right)} d x$\r\n\r\n$=\\int_{0}^{\\pi} \\frac{1+\\tan ^{2} \\frac{x}{2}}{9+\\tan ^{2} \\frac{x}{2}} \\mathrm{dx}=\\int_{0}^{\\pi} \\frac{\\sec ^{2} \\frac{x}{2}}{9+\\tan ^{2} \\frac{x}{2}} \\mathrm{dx}$\r\n\r\nLet $\\tan \\frac{x}{2}=t \\Rightarrow \\frac{1}{2} \\sec ^{2} \\frac{x}{2} d x=d t$\r\n\r\nAlso, $x=0 \\Rightarrow t=0$ and $x=\\pi \\Rightarrow t=\\infty$\r\n\r\n$\\therefore \\mathrm{I}=\\int_{0}^{\\infty} \\frac{\\mathrm{dt}}{9+t^{2}}$\r\n\r\n$\\therefore \\mathrm{I}=2 \\int_{0}^{\\infty} \\frac{\\mathrm{dt}}{9+t^{2}}$\r\n\r\n$\\therefore \\mathrm{I}=\\frac{2}{3}\\left[\\tan ^{-1} \\frac{t}{3}\\right]_{0}^{\\infty}=\\frac{2}{3}\\left[\\tan ^{-1} \\infty-\\tan ^{-1} 0\\right]$\r\n\r\n$=\\frac{2}{3}\\left(\\frac{\\pi}{2}-0\\right)=\\frac{\\pi}{3}$"
+  }
+}

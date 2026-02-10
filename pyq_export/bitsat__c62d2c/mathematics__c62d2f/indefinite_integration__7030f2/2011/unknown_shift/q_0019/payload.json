@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2011",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd788eed0f628d7030f2",
+    "chapter_name": "Indefinite Integration",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Evaluate \\(\\int \\frac{x^2}{x^2-1} d x\\)"
+  },
+  "options": [
+    {
+      "text": "\\(x-\\frac{1}{2} \\log \\left(\\frac{\\mathrm{x}-1}{\\mathrm{x}+1}\\right)+\\mathrm{c}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(x+\\frac{1}{2} \\log \\left(\\frac{x+1}{x-1}\\right)+c\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(x+\\frac{1}{2} \\log \\left(\\frac{\\mathrm{x}-1}{\\mathrm{x}+1}\\right)+\\mathrm{c}\\)",
+      "is_correct": true
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given integral \\(I=\\int\\left(1+\\frac{1}{x^2-1}\\right) d x\\)\n\\(\\begin{aligned}\n& =\\int d x+\\int \\frac{d x}{(x-1)(x+1)} \\\\\n& =x+\\frac{1}{2} \\int\\left(\\frac{1}{x-1}-\\frac{1}{x+1}\\right) d x=x+\\frac{1}{2} \\log \\left(\\frac{x-1}{x+1}\\right)+c\n\\end{aligned}\\)"
+  }
+}

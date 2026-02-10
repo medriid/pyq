@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd6fb80a936d82a83856",
+    "chapter_name": "Rotational Motion",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A square gate of size $1 \\mathrm{~m} \\times 1 \\mathrm{~m}$ is hinged at its mid-point. A fluid of density $\\rho$ fills the space to the left of the gate. The force F required to hold the gate stationary is\r\n\r\n<img src=\"assets\\qt0017_953cabab4fcc.png\">"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\rho g}{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\rho g}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\rho g}{6}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\rho g}{8}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "The net force acting on the gate element of width dy at a depth y from the surface of the fluid, is\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n\\mathrm{dy} &=\\left(\\mathrm{p}_{0}+\\rho_{\\mathrm{g}} \\mathrm{y}-\\mathrm{p}_{0}\\right) \\times 1 \\mathrm{dy} \\\\\r\n\r\n&=\\rho \\mathrm{gydy}\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\nTorque about the hinge is\r\n\r\n$$\r\n\r\n\\mathrm{d} \\tau=\\operatorname{pgydy} \\times\\left(\\frac{1}{2}-\\mathrm{y}\\right)\r\n\r\n$$\r\n\r\nNet torque experience. by the gate is\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n\\tau_{\\text {net }} &=\\int \\mathrm{d} \\tau+\\mathrm{F} \\times \\frac{1}{2} \\\\\r\n\r\n&=\\int_{0}^{1} \\rho g \\mathrm{ydy}\\left(\\frac{1}{2}-\\mathrm{y}\\right)+\\mathrm{F} \\times \\frac{1}{2}=0 \\\\\r\n\r\n\\Rightarrow & \\mathrm{F}=\\frac{\\rho \\mathrm{g}}{6}\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\ni.e., The force $F$ required to hold the gate\r\n\r\nstationary is $\\frac{p g}{a}$\r\n\r\n<img src=\"assets\\st0017_50240f590351.png\">"
+  }
+}

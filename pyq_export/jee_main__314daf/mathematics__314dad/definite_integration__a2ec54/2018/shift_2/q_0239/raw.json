@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a65417cc3fb48d66303",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7e6",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2018-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018 (15 Apr Shift 2 Online)",
+      "title": "JEE Main 2018 (15 Apr Shift 2 Online)"
+    }
+  ],
+  "question": {
+    "text": "The value of integral $\\int_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}} \\frac{x}{1+\\sin x} d x$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "WFEwI",
+      "text": "\n$\\frac{\\pi}{2}(\\sqrt{2}+1)$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "gOJzY",
+      "text": "\n$\\pi(\\sqrt{2}-1)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "1k2nz",
+      "text": "\n$2 \\pi(\\sqrt{2}-1)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Jxvz7",
+      "text": "\n$\\pi \\sqrt{2}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $I=\\int_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}} \\frac{x}{1+\\sin x} d x$ also let $K=\\frac{x}{1+\\sin x}$\nMultiplying numerator and denominator by $(1-\\sin x)$, we get;\n$$\n\\begin{aligned}\nK &=\\frac{x(1-\\sin x)}{1-(\\sin x)^2}=\\frac{x(1-\\sin x)}{(\\cos x)^2} \\\\\n&=x(1-\\sin x) \\sec ^2 x \\\\\n&=x \\sec ^2 x-x \\sin x \\sec ^2 x=x \\sec ^2 x-x \\tan \\\\\nx & \\sec x\n\\end{aligned}\n$$\nNow, $I=\\int_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}} x \\sec ^2 x d x-\\int_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}} x \\sec x \\tan x d x$\n$$\n=\\left[x \\tan x-\\int \\frac{d x}{d x} \\tan x d x\\right]_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}}-\\left[x \\sec x-\\int \\frac{d x}{d x} \\sec x d x\\right]_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}}\n$$\n\n$$\n\\begin{aligned}\n&=[x \\tan x-\\ln |\\sec x|]_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}} \\\\\n&-[x \\sec x-\\ln |\\sec x+\\tan x|]_{\\frac{\\pi}{4}}^{\\frac{3 \\pi}{4}}+c \\\\\n&\\Rightarrow I=\\left\\{\\left[\\frac{3 \\pi}{4} \\tan \\frac{3 \\pi}{4}-\\ln \\left|\\frac{3 \\pi}{4}\\right|\\right.\\right. \\\\\n&\\left.-\\left[\\frac{3 \\pi}{4} \\sec \\frac{3 \\pi}{4}-\\ln \\left|\\sec \\frac{3 \\pi}{4}+\\tan \\frac{3 \\pi}{4}\\right|\\right]\\right\\} \\\\\n&-\\left\\{\\left[\\frac{\\pi}{4} \\tan \\frac{\\pi}{4}-\\ln \\left|\\frac{\\pi}{4}\\right|\\right.\\right. \\\\\n&\\left.-\\left[\\frac{\\pi}{4} \\sec \\frac{\\pi}{4}-\\ln \\left|\\sec \\frac{\\pi}{4}+\\tan \\frac{\\pi}{4}\\right|\\right]\\right\\} \\\\\n&=\\frac{\\pi}{2}(\\sqrt{2}+1)\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7e6",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2018-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018 (15 Apr Shift 2 Online)",
+    "title": "JEE Main 2018 (15 Apr Shift 2 Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

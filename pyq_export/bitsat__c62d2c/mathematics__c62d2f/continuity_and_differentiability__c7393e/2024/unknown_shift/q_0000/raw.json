@@ -1,0 +1,63 @@
+{
+  "_id": "67726d1ac49e8ef28ee2b441",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6416",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T19:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 3)",
+      "title": "BITSAT 2024 (Memory Based Paper 3)"
+    }
+  ],
+  "question": {
+    "text": "Let $f$ be the function defined by\n$f(x)=\\left\\{\\begin{array}{cc}\n\\frac{x^2-1}{x^2-2|x-1|-1}, & x \\neq 1 \\\\\n\\frac{1}{2}, & x=1\n\\end{array}\\right.$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "hhyVP",
+      "text": "The function is continuous for all values of $x$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "NXKsO",
+      "text": "The function is continuous only for $x\\gt1$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "z12rg",
+      "text": "The function is continuous at $x=1$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7KnTd",
+      "text": "The function is not continuous at $x=1$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$f(x)=\\left\\{\\begin{array}{cc}\\frac{x^2-1}{x^2-2 x+1} ; & x\\gt1 \\\\ \\frac{1}{2} \\quad ; & x=1 \\\\ \\frac{x^2-1}{x^2+2 x-3} ; & x \\lt 1\\end{array}\\right.$\n$\\because \\quad x^2+3 x-x-3$\n$=x(x+3)-1(x+3)$\nLets Find\nLHL, $\\lim _{x \\rightarrow 1^{-}} \\frac{x^2-1}{x^2-2 x+1}$ and RHL, $\\lim _{x \\rightarrow 1^{+}} \\frac{x^2-1}{x^2+2 x-3}$\n$\\begin{aligned}\n& \\Rightarrow \\lim _{x \\rightarrow 1^{-}} \\frac{(x-1)(x+1)}{(x-1)^2} \\Rightarrow \\lim _{x \\rightarrow 1^{+}} \\frac{(x-1)(x+1)}{(x+3)(x-1)} \\\\\n& \\Rightarrow \\lim _{x \\rightarrow 1^{-}} \\frac{x+1}{x-1}=\\infty \\Rightarrow \\lim _{x \\rightarrow 1^{+}} \\frac{x+1}{x+3}=\\frac{2}{4}=\\frac{1}{2}\n\\end{aligned}$\n$\\therefore$ LHL $\\neq f(1) \\Rightarrow f(x)$ is not continuous at $x=1$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6416",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T19:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 3)",
+    "title": "BITSAT 2024 (Memory Based Paper 3)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

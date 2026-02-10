@@ -1,62 +1,62 @@
 {
-  "_id": "648b5a6b417cc3fb48d673b9",
+  "_id": "648b5a6b417cc3fb48d67685",
   "previousYearPapers": [
     {
-      "_id": "615d92edde3d91842a5cf81b",
+      "_id": "615d92edde3d91842a5cf81f",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2021-08-26T09:00:00.000Z",
+      "heldOn": "2021-08-31T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2021 (26 Aug Shift 1)",
-      "title": "JEE Main 2021 (26 Aug Shift 1)"
+      "shortName": "2021 (31 Aug Shift 1)",
+      "title": "JEE Main 2021 (31 Aug Shift 1)"
     }
   ],
   "type": "singleCorrect",
   "level": 1,
   "question": {
-    "text": "<p>Identify the logic operation carried out by the given circuit:</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/b0b3d1dc-1e5e-4261-9cf0-f8020034fd65-image.png\" style=\"width: 366px; height: 129px;\" /></p>",
+    "text": "In the following logic circuit the sequence of the inputs <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>,</mo><mo>&#160;</mo><mi>B</mi></math> are <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>.</mo></math>&nbsp;The output <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> for this sequence will be :<br /><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/1c2281f9-234b-4c86-a7fb-40d7cfd07ae8-image.png\" style=\"width: 400px; height: 195px;\" />",
     "image": null
   },
   "options": [
     {
-      "id": "Lgo2C",
-      "text": "OR",
+      "id": "vGWHE",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>1</mn></math>",
       "isCorrect": false,
       "image": null
     },
     {
-      "id": "8xRkt",
-      "text": "AND",
+      "id": "XEV9y",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn></math>",
       "isCorrect": false,
       "image": null
     },
     {
-      "id": "Bm9jj",
-      "text": "NAND",
-      "isCorrect": false,
-      "image": null
-    },
-    {
-      "id": "sVQ8O",
-      "text": "NOR",
+      "id": "dlGsR",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn></math>",
       "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "rQ6ZL",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn></math>",
+      "isCorrect": false,
       "image": null
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "<p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/849e2649-f0c0-4254-abfa-f62d6699403f-image.png\" style=\"width: 325px; height: 148px;\" /></p><p>In the above circuit diagram of the gate, the result of the above combination is,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi><mo>=</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>&#183;</mo><mover><mi>B</mi><mo>&#175;</mo></mover></math>, using&nbsp;Demorgan&#39;s theorem,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi><mo>=</mo><mover><mrow><mi>A</mi><mo>+</mo><mi>B</mi></mrow><mo>&#175;</mo></mover></math>, so this circuit is equivalent&nbsp;to&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NOR</mi></math>&nbsp;gate.</p>",
+    "text": "<p>Look at the above circuit, the value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>&nbsp;can be found by the idea of AND gate,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mi>A</mi><mo>&#183;</mo><mi>B</mi></math>&nbsp;and the value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math>, can be calculated by the idea of OR gate,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi><mo>=</mo><mi>A</mi><mo>+</mo><mi>B</mi></math>. Then expression for&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>&nbsp;can be taken by the idea of NAND gate,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>Y</mi><mo>=</mo><mover><mrow><mi>P</mi><mo>&#183;</mo><mi>Q</mi></mrow><mo>&#175;</mo></mover></math>&nbsp;by the idea of Demorgan&#39;s theorem,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><mover><mi>P</mi><mo>&#175;</mo></mover><mo>+</mo><mover><mi>Q</mi><mo>&#175;</mo></mover><mo>=</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>+</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>+</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>&#183;</mo><mover><mi>B</mi><mo>&#175;</mo></mover></math><br /><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/68f6302a-4f57-4e0f-b3aa-7cf866d613c0-image.png\" style=\"width: 325px; height: 141px;\" /><br />&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnlines=\"none solid\" rowlines=\"solid none none none\"><mtr><mtd><mi mathvariant=\"normal\">A</mi></mtd><mtd><mi mathvariant=\"normal\">B</mi></mtd><mtd><mi mathvariant=\"normal\">Y</mi><mo>=</mo><mover><mi mathvariant=\"normal\">A</mi><mo>&#175;</mo></mover><mo>+</mo><mover><mi mathvariant=\"normal\">B</mi><mo>&#175;</mo></mover><mo>+</mo><mover><mi mathvariant=\"normal\">A</mi><mo>&#175;</mo></mover><mo>&#183;</mo><mover><mi mathvariant=\"normal\">B</mi><mo>&#175;</mo></mover></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></math></p>",
     "image": null
   },
   "videoSolution": null,
   "questionLabels": [],
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "615d92edde3d91842a5cf81b",
+    "_id": "615d92edde3d91842a5cf81f",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2021-08-26T09:00:00.000Z",
+    "heldOn": "2021-08-31T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2021 (26 Aug Shift 1)",
-    "title": "JEE Main 2021 (26 Aug Shift 1)"
+    "shortName": "2021 (31 Aug Shift 1)",
+    "title": "JEE Main 2021 (31 Aug Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

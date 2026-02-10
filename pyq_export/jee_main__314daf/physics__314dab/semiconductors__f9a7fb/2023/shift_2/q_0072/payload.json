@@ -1,0 +1,43 @@
+{
+  "index": 72,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2023 (24 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602457307cfc9adff9a7fb",
+    "chapter_name": "Semiconductors",
+    "year": "2023",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "<p>The logic gate equivalent to the given circuit diagram is :</p><p><img alt=\"\" src=\"assets\\qt0072_f114e2d5e4b8.png\" style=\"width: 283px; height: 330px;\" /></p>"
+  },
+  "options": [
+    {
+      "text": "OR",
+      "is_correct": false
+    },
+    {
+      "text": "NAND",
+      "is_correct": true
+    },
+    {
+      "text": "NOR",
+      "is_correct": false
+    },
+    {
+      "text": "AND",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p><img alt=\"\" src=\"assets\\st0072_50f25c432431.png\" style=\"width: 500px; height: 641px;\" /></p><p>When both switches are open,&nbsp;the current will flow through the bulb&nbsp;and it will glow.</p><p>When switch A is closed and switch B is open, the&nbsp;current will flow through the bulb&nbsp;and it will glow.&nbsp;</p><p>When switch A is open and switch B is closed,&nbsp;the&nbsp;current will flow through bulb and it will glow.</p><p>When both the switches are closed, since the resistance of left arm of circuit is negligible,&nbsp;the current will flow through the left arm and hence the bulb will not glow.&nbsp;</p><p>The truth table is given as:</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\t<tbody>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><strong>A</strong></td>\t\t\t<td style=\"text-align: center;\"><strong>B</strong></td>\t\t\t<td style=\"text-align: center;\"><strong>Bulb</strong></td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\">0</td>\t\t\t<td style=\"text-align: center;\">0</td>\t\t\t<td style=\"text-align: center;\">1</td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\">1</td>\t\t\t<td style=\"text-align: center;\">0</td>\t\t\t<td style=\"text-align: center;\">1</td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\">0</td>\t\t\t<td style=\"text-align: center;\">1</td>\t\t\t<td style=\"text-align: center;\">1</td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\">1</td>\t\t\t<td style=\"text-align: center;\">1</td>\t\t\t<td style=\"text-align: center;\">0</td>\t\t</tr>\t</tbody></table><p>Which shows that the given circuit is a NAND gate.</p>"
+  }
+}

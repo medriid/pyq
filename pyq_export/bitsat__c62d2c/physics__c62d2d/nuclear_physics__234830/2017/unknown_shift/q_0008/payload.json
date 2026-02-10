@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2017",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7ae99b266d87234830",
+    "chapter_name": "Nuclear Physics",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The activity of a radioactive sample is measured as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>N</mi><mn>0</mn></msub></math> counts per minute at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>N</mi><mn>0</mn></msub><mi>e</mi></mfrac></math> counts per minute at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>5</mn><mo>&#160;</mo><mi>min</mi></math>. The time (in minutes) at which the activity reduces to half its value is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mi>e</mi></msub><mfrac><mn>2</mn><mn>5</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mrow><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msub><mi>log</mi><mn>10</mn></msub><mn>2</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>Fraction remains after <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> half-lives&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>N</mi><msub><mi>N</mi><mn>0</mn></msub></mfrac><mo>=</mo><msup><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mi>n</mi></msup><mo>=</mo><msup><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mfrac><mi>t</mi><mi>T</mi></mfrac></msup></math></p><p>Given, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi><mo>=</mo><mfrac><msub><mi>N</mi><mn>0</mn></msub><mi>e</mi></mfrac><mo>&#8658;</mo><mfrac><msub><mi>N</mi><mn>0</mn></msub><mrow><mi>e</mi><msub><mi>N</mi><mn>0</mn></msub></mrow></mfrac><mo>=</mo><msup><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mfrac><mn>5</mn><mi>T</mi></mfrac></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mfrac><mn>1</mn><mi>e</mi></mfrac><mo>=</mo><msup><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mfrac><mn>5</mn><mi>T</mi></mfrac></msup></math></p><p>Taking log on both sides, we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><mn>1</mn><mo>-</mo><mi>log</mi><mi>e</mi><mo>=</mo><mfrac><mn>5</mn><mi>T</mi></mfrac><mi>log</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mo>-</mo><mn>1</mn><mo>=</mo><mfrac><mn>5</mn><mi>T</mi></mfrac><mfenced><mrow><mo>-</mo><mi>log</mi><mn>2</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mi>T</mi><mo>=</mo><mn>5</mn><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></math></p><p>Now, let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> be the time after which activity reduces to half</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mo>=</mo><msup><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mrow><mi>t</mi><mo>/</mo><mn>5</mn><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><msup><mi>t</mi><mo>&#39;</mo></msup><mo>=</mo><mn>5</mn><msub><mi>log</mi><mi>e</mi></msub><mn>2</mn></math></p>"
+  }
+}

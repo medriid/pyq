@@ -1,0 +1,43 @@
+{
+  "index": 111,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2022 (29 Jul Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2022",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The integral&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mo>&#8747;</mo><mn>0</mn><mfrac><mi>&#960;</mi><mn>2</mn></mfrac></msubsup><mfrac><mn>1</mn><mrow><mn>3</mn><mo>+</mo><mn>2</mn><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></math>&nbsp;is equal to:"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mn>2</mn></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mn>2</mn></mfenced><mo>-</mo><mfrac><mi>&#960;</mi><mn>4</mn></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mn>2</mn></mfenced><mo>-</mo><mfrac><mi>&#960;</mi><mn>8</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<blockquote><p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mfrac><mi>&#960;</mi><mn>2</mn></mfrac></msubsup><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mn>3</mn><mo>+</mo><mn>2</mn><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mfrac><mi>&#960;</mi><mn>2</mn></mfrac></msubsup><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mn>3</mn><mo>+</mo><mn>2</mn><mstyle displaystyle=\"true\"><mfenced><mfrac><mrow><mn>2</mn><mi>tan</mi><mstyle displaystyle=\"true\"><mfrac><mi>x</mi><mn>2</mn></mfrac></mstyle></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>tan</mi><mn>2</mn></msup><mstyle displaystyle=\"true\"><mfrac><mi>x</mi><mn>2</mn></mfrac></mstyle></mrow></mfrac></mfenced></mstyle><mo>+</mo><mfrac><mrow><mn>1</mn><mo>-</mo><msup><mi>tan</mi><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>tan</mi><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac></mrow></mfrac></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mfrac><mi>&#960;</mi><mn>2</mn></mfrac></msubsup><mfrac><mrow><msup><mi>sec</mi><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>&#183;</mo><mi>d</mi><mi>x</mi></mrow><mrow><mn>2</mn><msup><mi>tan</mi><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mn>4</mn><mi>tan</mi><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mn>4</mn></mrow></mfrac></math></p><p>Put&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>tan</mi><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>=</mo><mi>t</mi><mo>&#160;</mo><mo>&#8658;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mtext>sec</mtext><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>t</mi></math>,&nbsp;so</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><msup><mfenced><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msubsup><menclose notation=\"right\"><mfenced><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfenced></menclose><mn>0</mn><mn>1</mn></msubsup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>I</mi><mo>=</mo><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mn>2</mn><mo>-</mo><mstyle displaystyle=\"false\"><mfrac><mi>&#960;</mi><mn>4</mn></mfrac></mstyle></math></p></blockquote>"
+  }
+}

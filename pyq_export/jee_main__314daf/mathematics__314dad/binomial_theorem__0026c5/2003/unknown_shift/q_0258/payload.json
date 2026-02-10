@@ -1,0 +1,43 @@
+{
+  "index": 258,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2003",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2003",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\mathrm{x}$ is positive, the first negative term in the expansion of $(1+x)^{27 / 5}$ is"
+  },
+  "options": [
+    {
+      "text": "\n6th term\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n7th term\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n5th term\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n8th term",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$T_{r+1}=\\frac{n(n-1)(n-2) \\ldots \\ldots \\ldots(n-r+1)}{r !}(x)^r$\nFor first negative term, $n-r+1 < 0$ or $r>\\frac{32}{5}$\n$\\therefore \\mathrm{r}=7$. Therefore, first negative term is $\\mathrm{T}_8$."
+  }
+}

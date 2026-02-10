@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd73e2ff28f7b16745b4",
+    "chapter_name": "Matrices",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let M bea $3 \\times 3 \\mathrm{n} \\times \\mathrm{n}$ -singular matrix with $\\operatorname{det}(\\mathrm{M})$ $=\\alpha$. If $\\left[\\mathrm{M}^{-1}\\right.$ adj $(\\mathrm{adj} (\\mathrm{M})]=\\mathrm{KI}$, then the value of $\\mathrm{K}$ is"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "$\\alpha$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\alpha^{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\alpha^{3}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "We know that, $M(\\operatorname{adj} M)=|M|$ I\r\n\r\nReplacing $\\mathrm{M}$ by adj $\\mathrm{M},$ we get $\\operatorname{adj} M[\\operatorname{adj}(\\operatorname{adj} M)=\\operatorname{det}(\\operatorname{adj} M) I$\r\n\r\n$=\\operatorname{det}(M) M^{-1}\\left[\\operatorname{adj}(\\operatorname{adj} M)=\\alpha^{2} 1\\right.$\r\n\r\n$$\r\n\r\n\\left[\\because \\mathrm{M}^{-1}=\\frac{1}{|\\mathrm{M}|} \\operatorname{adj}(\\mathrm{M})\\right]\r\n\r\n$$\r\n\r\n$\\Rightarrow \\alpha \\mathrm{M}^{-1}[\\operatorname{adj}(\\operatorname{adj} M)]=\\alpha^{2} \\mathrm{I}$\r\n\r\n$\\Rightarrow \\mathrm{M}^{-1}[\\mathrm{adj}(\\operatorname{adj} \\mathrm{M})]=\\alpha \\mathrm{I}$\r\n\r\nBut $M^{-1}[\\operatorname{adj}(\\operatorname{adj} M)]=K I$\r\n\r\nHence, $\\mathrm{K}=\\alpha$"
+  }
+}

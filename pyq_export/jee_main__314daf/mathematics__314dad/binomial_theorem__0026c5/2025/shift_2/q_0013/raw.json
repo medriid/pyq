@@ -1,0 +1,83 @@
+{
+  "_id": "68542c767c09d044e4c1a21a",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2ff9d87935e0d80978a",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-04T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (4 Apr Shift 2)",
+      "title": "JEE Main 2025 (4 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If \\(1^2 \\cdot\\left({ }^{15} C_1\\right)+2^2 \\cdot\\left({ }^{15} C_2\\right)+3^2 \\cdot\\left({ }^{15} C_3\\right)+\\ldots\\) \\(+15^2 \\cdot\\left({ }^{15} C_{15}\\right)=2^m \\cdot 3^n \\cdot 5^k\\), where \\(m, n, k \\in \\mathbf{N}\\), then \\(\\mathrm{m}+\\mathrm{n}+\\mathrm{k}\\) is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "oiAsu",
+      "text": "$19$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "PVOfs",
+      "text": "$21$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "CvOjX",
+      "text": "$18$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "IsCqx",
+      "text": "$20$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\sum_{\\mathrm{r}=1}^{15} \\mathrm{r}^2\\left({ }^{15} \\mathrm{C}_{\\mathrm{r}}\\right) \\Rightarrow 15 \\sum_{\\mathrm{r}=1}^{15} \\mathrm{r}^{14} \\mathrm{C}_{\\mathrm{r}-1} \\\\ & 15 \\sum_{\\mathrm{r}=1}^{15}(\\mathrm{r}-1+1){ }^{14} \\mathrm{C}_{\\mathrm{r}-1} \\\\ & 15 \\cdot 14 \\sum_{\\mathrm{r}=1}^{15}{ }^{13} \\mathrm{C}_{\\mathrm{r}-2}+15 \\sum_{\\mathrm{r}=1}^{15}{ }^{14} \\mathrm{C}_{\\mathrm{r}-1} \\\\ & 15 \\cdot 14 \\cdot 2^{13}+15 \\cdot 2^{14} \\\\ & 3^1 \\cdot 2^{13}(70+10) \\\\ & 3^1 \\cdot 2^{13} \\cdot 80 \\\\ & 3^1 \\cdot 5^1 \\cdot 2^{17} \\\\ & \\mathrm{~m}=17 \\mathrm{n}=1 \\quad \\mathrm{k}=1 \\\\ & \\text { option }(1)\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "6dfa3ea44c5746799a425a48dd9d963c",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/Fsl0MksVVwbXq.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/Fsl0MksVVwbXq.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2ff9d87935e0d80978a",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-04T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (4 Apr Shift 2)",
+    "title": "JEE Main 2025 (4 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

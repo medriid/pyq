@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d6597f",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7cb",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2011-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2011",
+      "title": "JEE Main 2011"
+    }
+  ],
+  "question": {
+    "text": "Let I be the purchase value of an equipment and $\\mathrm{V}(\\mathrm{t})$ be the value after it has been used for t years. The value $\\mathrm{V}(\\mathrm{t})$ depreciates at a rate given by differential equation $\\frac{\\mathrm{dV}(\\mathrm{t})}{\\mathrm{dt}}=-\\mathrm{k}(\\mathrm{T}-\\mathrm{t})$, where $\\mathrm{k}>0$ is a constant and $\\mathrm{T}$ is the total life in years of the equipment. Then the scrap value $\\mathrm{V}(\\mathrm{T})$ of the equipment is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "tJsQZ",
+      "text": "\n$\\mathrm{I}-\\frac{\\mathrm{kT}}{2}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "pm5cB",
+      "text": "\n$1-\\frac{k(T-t)^2}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "TtWy1",
+      "text": "\n$e^{-k T}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "w3YAX",
+      "text": "\n$\\mathrm{T}^2-\\frac{1}{\\mathrm{k}}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\frac{d V}{d t}=-k(T-t) \\Rightarrow d V=-k(T-t) d t\n$$\nIntegrate\n$$\nV=\\frac{-k(T-t)^2}{(-2)}+c \\Rightarrow V=\\frac{k(T-t)^2}{2}+c\n$$\nat $\\mathrm{t}=\\mathrm{0} \\Rightarrow \\mathrm{V}=\\mathrm{I}$\n$$\n\\mathrm{I}=\\frac{\\mathrm{kT}}{2}+\\mathrm{c} \\Rightarrow \\mathrm{c}=\\mathrm{I}-\\frac{\\mathrm{kT} \\mathrm{T}^2}{2} \\Rightarrow \\mathrm{c}=\\mathrm{V}(\\mathrm{T})=\\mathrm{I}-\\frac{\\mathrm{kT} \\mathrm{T}^2}{2}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7cb",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2011-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2011",
+    "title": "JEE Main 2011"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

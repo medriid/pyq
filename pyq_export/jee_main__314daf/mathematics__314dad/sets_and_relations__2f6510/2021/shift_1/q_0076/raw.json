@@ -1,57 +1,62 @@
 {
-  "_id": "648b5a6a417cc3fb48d671e4",
+  "_id": "648b5a6c417cc3fb48d676ce",
   "previousYearPapers": [
     {
-      "_id": "615d92edde3d91842a5cf808",
+      "_id": "615d92edde3d91842a5cf81f",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2021-02-24T09:00:00.000Z",
+      "heldOn": "2021-08-31T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2021 (24 Feb Shift 1)",
-      "title": "JEE Main 2021 (24 Feb Shift 1)"
+      "shortName": "2021 (31 Aug Shift 1)",
+      "title": "JEE Main 2021 (31 Aug Shift 1)"
     }
   ],
-  "type": "numerical",
-  "level": 3,
+  "type": "singleCorrect",
+  "level": 2,
   "question": {
-    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>{</mo><mi>n</mi><mo>&#8712;</mo><mi>N</mi><mo>:</mo><mi>n</mi></math> is a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>-</mo></math>digit number<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>}</mo></math>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mn>9</mn><mi>k</mi><mo>+</mo><mn>2</mn><mo>:</mo><mi>k</mi><mo>&#8712;</mo><mi>N</mi></mrow></mfenced></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mn>9</mn><mi>k</mi><mo>+</mo><mi>l</mi><mo>:</mo><mi>k</mi><mo>&#8712;</mo><mi>N</mi></mrow></mfenced></math> for some <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi><mfenced><mrow><mn>0</mn><mo>&#60;</mo><mi>l</mi><mo>&#60;</mo><mn>9</mn></mrow></mfenced></math>.&nbsp;If the sum of all the elements of the set <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>&#8745;</mo><mfenced><mrow><mi>B</mi><mo>&#8746;</mo><mi>C</mi></mrow></mfenced></math> is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>274</mn><mo>&#215;</mo><mn>400</mn><mo>,</mo></math>&nbsp;then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> is equal to",
+    "text": "Which of the following is not correct for relation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> on the set of real numbers?",
     "image": null
   },
-  "options": [],
-  "correctValue": "5",
+  "options": [
+    {
+      "id": "GCFma",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>&#8712;</mo><mi mathvariant=\"normal\">R</mi><mo>&#8660;</mo><mo>|</mo><mi>x</mi><mo>|</mo><mo>-</mo><mo>|</mo><mi>y</mi><mo>|</mo><mo>&#8804;</mo><mn>1</mn></math> is reflexive but not symmetric.",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "0bGCS",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>&#8712;</mo><mi mathvariant=\"normal\">R</mi><mo>&#8660;</mo><mo>|</mo><mi>x</mi><mo>-</mo><mi>y</mi><mo>|</mo><mo>&#8804;</mo><mn>1</mn></math> is reflexive and symmetric.",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "cFDwS",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>&#8712;</mo><mi mathvariant=\"normal\">R</mi><mo>&#8660;</mo><mn>0</mn><mo>&#60;</mo><mo>|</mo><mi>x</mi><mo>-</mo><mi>y</mi><mo>|</mo><mo>&#8804;</mo><mn>1</mn></math> is symmetric and transitive.",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "XQDuV",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>&#8712;</mo><mi mathvariant=\"normal\">R</mi><mo>&#8660;</mo><mn>0</mn><mo>&#60;</mo><mo>|</mo><mi>x</mi><mo>|</mo><mo>-</mo><mo>|</mo><mi>y</mi><mo>|</mo><mo>&#8804;</mo><mn>1</mn></math> is not transitive but symmetric.",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<blockquote><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> will contain three digit numbers of the form <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>k</mi><mo>+</mo><mn>2</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>k</mi><mo>+</mo><mi>l</mi></math> respectively. We need to find sum of all elements in the set <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>&#8746;</mo><mi>C</mi></math> effectively.</p><p>Now,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mfenced><mrow><mi>B</mi><mo>&#8746;</mo><mi>C</mi></mrow></mfenced><mo>=</mo><mi>S</mi><mfenced><mi>B</mi></mfenced><mo>+</mo><mi>S</mi><mfenced><mi>C</mi></mfenced><mo>-</mo><mi>S</mi><mfenced><mrow><mi>B</mi><mo>&#8745;</mo><mi>C</mi></mrow></mfenced></math>&nbsp;where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>(</mo><mi>k</mi><mo>)</mo></math> denotes sum of elements of set <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>.</mo></math></p><p>Also,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mfenced open=\"{\" close=\"}\"><mrow><mn>101</mn><mo>,</mo><mn>110</mn><mo>,</mo><mo>&#8230;</mo><mo>&#8230;</mo><mo>,</mo><mn>992</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>S</mi><mfenced><mi>B</mi></mfenced><mo>=</mo><mfrac><mn>100</mn><mn>2</mn></mfrac><mfenced><mrow><mn>101</mn><mo>+</mo><mn>992</mn></mrow></mfenced><mo>=</mo><mn>54650</mn></math></p><p><strong>Case-I:</strong> If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi><mo>=</mo><mn>2</mn></math></p><p>then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>&#8745;</mo><mi>C</mi><mo>=</mo><mi>B</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>S</mi><mfenced><mrow><mi>B</mi><mo>&#8746;</mo><mi>C</mi></mrow></mfenced><mo>=</mo><mi>S</mi><mfenced><mi>B</mi></mfenced></math></p><p>which is not possible as given sum is</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>274</mn><mo>&#215;</mo><mn>400</mn><mo>=</mo><mn>109600</mn><mo>.</mo></math></p><p>Case-II If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi><mo>&#8800;</mo><mn>2</mn></math></p><p>then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>&#8745;</mo><mi>C</mi><mo>=</mo><mi>&#981;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>S</mi><mfenced><mrow><mi>B</mi><mo>&#8746;</mo><mi>C</mi></mrow></mfenced><mo>=</mo><mi>S</mi><mfenced><mi>B</mi></mfenced><mo>+</mo><mi>S</mi><mfenced><mi>C</mi></mfenced><mo>=</mo><mn>400</mn><mo>&#215;</mo><mn>274</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mn>54650</mn><mo>+</mo><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>110</mn></munderover><mn>9</mn><mi>k</mi><mo>+</mo><mi>l</mi><mo>=</mo><mn>109600</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mn>9</mn><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>11</mn></mrow><mn>110</mn></munderover><mi>k</mi><mo>+</mo><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>11</mn></mrow><mn>110</mn></munderover><mi>l</mi><mo>=</mo><mn>54950</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mn>9</mn><mfenced><mrow><mfrac><mn>100</mn><mn>2</mn></mfrac><mfenced><mrow><mn>11</mn><mo>+</mo><mn>110</mn></mrow></mfenced></mrow></mfenced><mo>+</mo><mi>l</mi><mfenced><mn>100</mn></mfenced><mo>=</mo><mn>54950</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mn>54450</mn><mo>+</mo><mn>100</mn><mi>l</mi><mo>=</mo><mn>54950</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mi>l</mi><mo>=</mo><mn>5</mn></math></p></blockquote>",
+    "text": "<p>We know that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>,</mo><mo>&#160;</mo><mi>y</mi><mo>)</mo><mo>&#8712;</mo><mi mathvariant=\"normal\">R</mi><mo>&#160;</mo><mo>,</mo><mo>&#160;</mo><mo>(</mo><mi mathvariant=\"normal\">y</mi><mo>,</mo><mo>&#160;</mo><mi mathvariant=\"normal\">x</mi><mo>)</mo><mo>&#8712;</mo><mi mathvariant=\"normal\">R</mi><mo>&#160;</mo><mo>&#8658;</mo></math>symmetric</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>,</mo><mo>&#160;</mo><mi>y</mi><mo>)</mo><mo>&#8712;</mo><mi mathvariant=\"normal\">R</mi><mo>&#160;</mo><mo>,</mo><mo>&#160;</mo><mo>(</mo><mi mathvariant=\"normal\">y</mi><mo>,</mo><mo>&#160;</mo><mi>z</mi><mo>)</mo><mo>&#8712;</mo><mi mathvariant=\"normal\">R</mi><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mo>(</mo><mi>z</mi><mo>,</mo><mo>&#160;</mo><mi>x</mi><mo>)</mo><mo>&#8712;</mo><mi mathvariant=\"normal\">R</mi><mo>&#8658;</mo></math>transitive<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"\"><mtable columnalign=\"left\"><mtr><mtd><mn>0</mn><mo>&#60;</mo><mo>|</mo><mi>x</mi><mo>-</mo><mi>y</mi><mo>|</mo><mo>&#8804;</mo><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn><mo>&#60;</mo><mo>|</mo><mi>y</mi><mo>-</mo><mi>x</mi><mo>|</mo><mo>&#8804;</mo><mn>1</mn></mtd></mtr></mtable></mfenced></math>is symmetric</p><p>let&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>&#60;</mo><mo>|</mo><mi>x</mi><mo>-</mo><mi>y</mi><mo>|</mo><mo>&#8804;</mo><mn>1</mn></math>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;.......(1)<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>)</mo><mo>&#8712;</mo><mi mathvariant=\"normal\">R</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo><mo>&#8712;</mo><mi mathvariant=\"normal\">R</mi></math> satisfy the equation (1)<br />but <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>)</mo><mo>&#8713;</mo><mi>R</mi></math> not satisfied<br />Hence <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>&#60;</mo><mo>|</mo><mi>x</mi><mo>-</mo><mi>y</mi><mo>|</mo><mo>&#8804;</mo><mn>1</mn></math> is symmetric but not transitive relation</p>",
     "image": null
   },
-  "videoSolution": {
-    "videoId": "788aeb23b0c94945ba93deaece89c5d8",
-    "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/5FKelZl2gXSNy.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/5FKelZl2gXSNy.480.jpeg",
-    "premiumModules": [
-      {
-        "premiumModuleId": "6628114842d540dfcb148ecb",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "64c7e8e829737784b294e469",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
-        "isFree": false
-      }
-    ],
-    "description": "JEE Main"
-  },
+  "videoSolution": null,
   "questionLabels": [],
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "615d92edde3d91842a5cf808",
+    "_id": "615d92edde3d91842a5cf81f",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2021-02-24T09:00:00.000Z",
+    "heldOn": "2021-08-31T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2021 (24 Feb Shift 1)",
-    "title": "JEE Main 2021 (24 Feb Shift 1)"
+    "shortName": "2021 (31 Aug Shift 1)",
+    "title": "JEE Main 2021 (31 Aug Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

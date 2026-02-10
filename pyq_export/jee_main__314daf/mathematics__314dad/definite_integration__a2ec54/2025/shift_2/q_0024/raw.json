@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eed2c8b73881fdaea333",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d97611",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-29T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (29 Jan Shift 2)",
+      "title": "JEE Main 2025 (29 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $f(x)=\\int_0^t t\\left(t^2-9 t+20\\right) d t, 1 \\leq x \\leq 5$. If the range of $f$ is $[\\alpha, \\beta]$, then $4(\\alpha+\\beta)$ equals :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "tIedm",
+      "text": "253",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "KbjnA",
+      "text": "154",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "IBJ7N",
+      "text": "125",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "6FCyW",
+      "text": "157",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$f^{\\prime}(x)=x\\left(x^2-9 x+20\\right), x \\in(1,5)$\n$=(x-4) x(x-5)$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/01raq0kRkylldagtWMIWmN9zaggG3i7-371jlf30A_Y.original.fullsize.png\"><br>\n$\\begin{aligned} & \\Rightarrow f^{\\prime}(x)>0 \\forall x \\in(1,4) \\\\ & \\Rightarrow f^{\\prime}(x) < 0 \\forall x \\in(4,5) \\\\ & \\Rightarrow f(x) \\text { increasing in }(1,4) \\\\ & \\quad f(x) \\text { decreasing in }(4,5) \\\\ & \\Rightarrow \\text { critical points to check: }\\end{aligned}$\n$\\begin{aligned} & x=1,4,5 \\\\ & f(x)=\\int_0^x\\left(t^3-9 t^2+20 t\\right) d t \\\\ & =\\frac{t^4}{4}-3 t^3+\\left.10 t^2\\right|_0 ^x=\\frac{x^4}{4}-3 x^3+10 x^2 \\\\ & f(1)=\\frac{1}{4}-3+10=\\frac{29}{4} \\\\ & f(4)=4^3-3.4^3+10.4^2=-2.4^3+10.4^2=32 \\\\ & f(5)=\\frac{5^4}{4}-3.5^3+10.25=\\frac{5^4}{4}-125=\\frac{125}{4}\\end{aligned}$\n$\\begin{aligned} & \\text { Range } \\Rightarrow\\left[\\frac{29}{4}, 32\\right] \\Rightarrow 4(\\alpha+\\beta)=128+29 \\\\ & =157\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "8b21fe1905da42fb9ac1c851935c3e91",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/2qqjNB6Ld80jC.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/2qqjNB6Ld80jC.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d97611",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-29T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (29 Jan Shift 2)",
+    "title": "JEE Main 2025 (29 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

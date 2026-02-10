@@ -1,0 +1,43 @@
+{
+  "index": 104,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2018 (16 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mrow><mo>(</mo><mn>27</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mo>-</mo><mn>3</mn></mrow><mrow><mn>9</mn><mo>-</mo><msup><mrow><mo>(</mo><mn>27</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow><mfrac><mn>2</mn><mn>3</mn></mfrac></msup></mrow></mfrac></math> equals&nbsp;"
+  },
+  "options": [
+    {
+      "text": "<math><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>6</mn></mrow></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><mi>&#160;</mi><mfrac><mrow><mn>1</mn></mrow><mrow><mn>6</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mi>&#160;</mi><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given limit is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mfenced separators=\"|\"><mrow><mn>27</mn><mo>+</mo><mi>x</mi></mrow></mfenced><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mo>-</mo><mn>3</mn><mi>&#160;</mi></mrow><mrow><mn>9</mn><mo>-</mo><msup><mfenced separators=\"|\"><mrow><mn>27</mn><mo>+</mo><mi>x</mi></mrow></mfenced><mfrac><mn>2</mn><mn>3</mn></mfrac></msup></mrow></mfrac><mi>&#160;</mi><mi>&#160;</mi><mi>&#160;</mi><mfenced separators=\"|\"><mrow><mfrac><mn>0</mn><mn>0</mn></mfrac><mi>&#160;</mi><mi mathvariant=\"normal\">f</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">r</mi><mi mathvariant=\"normal\">m</mi></mrow></mfenced></math><br /><br />Applying L&#39;Hospital&#39;s rule,<br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn><mi>&#160;</mi></mrow></munder><mfrac><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><msup><mfenced separators=\"|\"><mrow><mn>27</mn><mo>+</mo><mi>x</mi></mrow></mfenced><mrow><mo>-</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></msup><mi>&#160;</mi></mrow><mrow><mo>-</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><msup><mfenced separators=\"|\"><mrow><mn>27</mn><mo>+</mo><mi>x</mi></mrow></mfenced><mrow><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></msup></mrow></mfrac><mo>=</mo><mfrac><msup><mfenced separators=\"|\"><mn>27</mn></mfenced><mrow><mo>-</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></msup><mrow><mo>-</mo><mn>2</mn><msup><mfenced separators=\"|\"><mn>27</mn></mfenced><mrow><mo>-</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></msup></mrow></mfrac></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mrow><mn>2</mn><msup><mfenced separators=\"|\"><mn>27</mn></mfenced><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mi>&#160;</mi></mrow></mfrac><mo>=</mo><mo>-</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></math>."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e8296f5bfc7ab78aeb21",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44c",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2021-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021",
+      "title": "BITSAT 2021"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Evaluate: $\\int_{0}^{\\pi} \\frac{1}{5+4 \\cos x} d x$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "k0gyf",
+      "text": "$\\frac{\\pi}{3}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "ofey7",
+      "text": "$\\frac{\\pi}{2}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "y12Vi",
+      "text": "$\\frac{\\pi}{4}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "g20ah",
+      "text": "$\\frac{\\pi}{6}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have, $\\int_{0}^{\\pi} \\frac{1}{5+4 \\cos x} d x$\r\n\r\n$=\\int_{0}^{\\pi} \\frac{1}{5+4\\left(\\frac{1-\\tan ^{2} \\frac{x}{2}}{1+\\tan ^{2} \\frac{x}{2}}\\right)} d x$\r\n\r\n$=\\int_{0}^{\\pi} \\frac{1+\\tan ^{2} \\frac{x}{2}}{5\\left(1+\\tan ^{2} \\frac{x}{2}\\right)+4\\left(1-\\tan ^{2} \\frac{x}{2}\\right)} d x$\r\n\r\n$=\\int_{0}^{\\pi} \\frac{1+\\tan ^{2} \\frac{x}{2}}{9+\\tan ^{2} \\frac{x}{2}} \\mathrm{dx}=\\int_{0}^{\\pi} \\frac{\\sec ^{2} \\frac{x}{2}}{9+\\tan ^{2} \\frac{x}{2}} \\mathrm{dx}$\r\n\r\nLet $\\tan \\frac{x}{2}=t \\Rightarrow \\frac{1}{2} \\sec ^{2} \\frac{x}{2} d x=d t$\r\n\r\nAlso, $x=0 \\Rightarrow t=0$ and $x=\\pi \\Rightarrow t=\\infty$\r\n\r\n$\\therefore \\mathrm{I}=\\int_{0}^{\\infty} \\frac{\\mathrm{dt}}{9+t^{2}}$\r\n\r\n$\\therefore \\mathrm{I}=2 \\int_{0}^{\\infty} \\frac{\\mathrm{dt}}{9+t^{2}}$\r\n\r\n$\\therefore \\mathrm{I}=\\frac{2}{3}\\left[\\tan ^{-1} \\frac{t}{3}\\right]_{0}^{\\infty}=\\frac{2}{3}\\left[\\tan ^{-1} \\infty-\\tan ^{-1} 0\\right]$\r\n\r\n$=\\frac{2}{3}\\left(\\frac{\\pi}{2}-0\\right)=\\frac{\\pi}{3}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44c",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2021-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021",
+    "title": "BITSAT 2021"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

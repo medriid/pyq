@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "For $\\alpha, \\beta \\in \\mathbb{R}$ and a natural number $n$, let $A_r=\\left|\\begin{array}{ccc}r & 1 & \\frac{n^2}{2}+\\alpha \\\\ 2 r & 2 & n^2-\\beta \\\\ 3 r-2 & 3 & \\frac{n(3 n-1)}{2}\\end{array}\\right|$. Then"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "$4 \\alpha+2 \\beta$",
+      "is_correct": true
+    },
+    {
+      "text": "$2 \\alpha+4 \\beta$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 n$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$A_r=\\left|\\begin{array}{ccc}r & 1 & \\frac{n^2}{2}+\\alpha \\\\ 2 r & 2 & n^2-\\beta \\\\ 3 r-2 & 3 & \\frac{n(3 n-1)}{2}\\end{array}\\right|$<br />$2 \\mathrm{~A}_{10}-\\mathrm{A}_8=\\left|\\begin{array}{ccc}20 & 1 & \\frac{\\mathrm{n}^2}{2}+\\alpha \\\\ 40 & 2 & \\mathrm{n}^2-\\beta \\\\ 56 & 3 & \\frac{\\mathrm{n}(3 \\mathrm{n}-1)}{2}\\end{array}\\right|-\\left|\\begin{array}{ccc}8 & 1 & \\frac{\\mathrm{n}^2}{2}+\\alpha \\\\ 16 & 2 & \\mathrm{n}^2-\\beta \\\\ 22 & 3 & \\frac{\\mathrm{n}(3 \\mathrm{n}-1)}{2}\\end{array}\\right|$\n$\\begin{aligned} & \\Rightarrow\\left|\\begin{array}{ccc}12 & 1 & \\frac{n^2}{2}+\\alpha \\\\ 24 & 2 & n^2-\\beta \\\\ 34 & 3 & \\frac{n(3 n-1)}{2}\\end{array}\\right| \\\\ & \\Rightarrow\\left|\\begin{array}{ccc}0 & 1 & \\frac{n^2}{2}+\\alpha \\\\ 0 & 2 & n^2-\\beta \\\\ -2 & 3 & \\frac{n(3 n-1)}{2}\\end{array}\\right| \\\\ & \\Rightarrow-2\\left(\\left(n^2-\\beta\\right)-\\left(n^2+2 \\alpha\\right)\\right) \\\\ & \\Rightarrow-2(-\\beta-2 \\alpha) \\Rightarrow 4 \\alpha+2 \\beta\\end{aligned}$"
+  }
+}

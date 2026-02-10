@@ -1,0 +1,43 @@
+{
+  "index": 235,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2008",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The differential equation of the family of circles with fixed radius 5 units and centre on the line $y=2$ is"
+  },
+  "options": [
+    {
+      "text": "\n$(x-2) y^{\\prime 2}=25-(y-2)^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(y-2) y^{\\prime 2}=25-(y-2)^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(y-2)^2 y^{\\prime 2}=25-(y-2)^2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$(x-2)^2 y^{\\prime 2}=25-(y-2)^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& (x-h)^2+(y-2)^2=25 \\\\\n& \\Rightarrow 2(x-h)+2(y-2) \\frac{d y}{d x}=0 \\\\\n& \\Rightarrow(x-h)=-(y-2) \\frac{d y}{d x}\n\\end{aligned}\n$$\nsubstituting in (1), we have\n$$\n\\begin{aligned}\n& (y-2)^2\\left(\\frac{d y}{d x}\\right)^2+(y-2)^2=25 \\\\\n& (y-2)^2 y^{\\prime 2}=25-(y-2)^2\n\\end{aligned}\n$$"
+  }
+}

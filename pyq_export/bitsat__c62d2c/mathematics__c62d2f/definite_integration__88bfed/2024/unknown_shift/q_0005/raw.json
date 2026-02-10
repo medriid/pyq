@@ -1,0 +1,63 @@
+{
+  "_id": "67726cffc49e8ef28ee2b375",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6414",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 1)",
+      "title": "BITSAT 2024 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "$\\lim _{n \\rightarrow \\infty} \\prod_{r=3}^{\\infty} \\frac{r^3-8}{r^3+8}$ equals to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "m0x1X",
+      "text": "$\\frac{2}{7}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "t7wDJ",
+      "text": "$\\frac{3}{7}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "fASKV",
+      "text": "$\\frac{4}{7}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "qIcmQ",
+      "text": "$\\frac{6}{7}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\lim _{n \\rightarrow \\infty} \\prod_{r=3}^{\\infty} \\frac{r^3-8}{r^3+8}=\\left(\\frac{3^3-8}{3^3+8}\\right)\\left(\\frac{4^3-8}{4^3+8}\\right) \\\\ & \\text {......... }\\left(\\frac{n^3-8}{n^3+8}\\right)\\end{aligned}$\n$\\begin{array}{r}=\\lim _{n \\rightarrow \\infty}\\left[\\frac{(3-2)\\left(3^2+2^2+3.2\\right)}{(3+2)\\left(3^2+2^2-3.2\\right)}\\right]\\left[\\frac{(4-2)\\left(4^2+2+4.2\\right)}{(4+2)\\left(4^2+2^2-4.2\\right)}\\right] \\\\ \\ldots \\ldots \\ldots . .\\left[\\frac{(n-2)\\left(n^2+2^n+n .2\\right)}{(n+2)\\left(n^2+2^2-n .2\\right)}\\right]\\end{array}$\n$\\begin{gathered}\\quad=\\lim _{n \\rightarrow \\infty}\\left[\\frac{(3-2)(4-2) \\ldots \\ldots \\ldots(n-2)}{(3+2)(4+2) \\ldots \\ldots \\ldots(n+2)}\\right] \\\\ {\\left[\\frac{\\left(3^2+2^2+3.2\\right)\\left(4^2+2^2+4.2\\right) \\ldots \\ldots .\\left(n^2+2^2+n .2\\right)}{\\left(3^2+2^2-3.2\\right)\\left(4^2+2^2-4.2\\right) \\ldots \\ldots . .\\left(n^2+2^2-n .2\\right)}\\right]}\\end{gathered}$\n$=\\left[\\frac{1 \\cdot 2 \\cdot 3.4 .5 .6 \\ldots \\ldots \\ldots .}{5 \\cdot 6.7 .8 \\ldots \\ldots \\ldots . .}\\right]\\left[\\frac{19 \\cdot 28 \\cdot 39.52 .63 \\ldots \\ldots \\ldots . .}{7 \\cdot 12 \\cdot 19.28 .39 .52 \\ldots \\ldots . .}\\right]$\n$=\\frac{2}{7}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6414",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 1)",
+    "title": "BITSAT 2024 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

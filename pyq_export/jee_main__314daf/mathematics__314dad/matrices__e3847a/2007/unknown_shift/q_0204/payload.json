@@ -1,0 +1,43 @@
+{
+  "index": 204,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2007",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $A=\\left[\\begin{array}{ccc}5 & 5 \\alpha & \\alpha \\\\ 0 & \\alpha & 5 \\alpha \\\\ 0 & 0 & 5\\end{array}\\right]$. If $\\left|A^2\\right|=25$, then $|\\alpha|$ equals"
+  },
+  "options": [
+    {
+      "text": "\n$5^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$1 / 5$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$5$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\mathrm{A}^2=\\left[\\begin{array}{ccc}5 & 5 \\alpha & \\alpha \\\\ 0 & \\alpha & 5 \\alpha \\\\ 0 & 0 & 5\\end{array}\\right]\\left[\\begin{array}{ccc}5 & 5 \\alpha & \\alpha \\\\ 0 & \\alpha & 5 \\alpha \\\\ 0 & 0 & 5\\end{array}\\right]$\n$\\mathrm{A}^2=\\left[\\begin{array}{ccc}25 & 25 \\alpha+5 \\alpha^2 & 5 \\alpha+25 \\alpha^2+5 \\alpha \\\\ 0 & \\alpha^2 & 5 \\alpha^2+25 \\alpha \\\\ 0 & 0 & 25\\end{array}\\right]$\n$625 \\alpha^2=25$\n$\\Rightarrow|\\alpha|=\\frac{1}{5}$."
+  }
+}

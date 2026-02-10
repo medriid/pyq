@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a65417cc3fb48d662a4",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7e5",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2018-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2018 (15 Apr Shift 1 Online)",
+      "title": "JEE Main 2018 (15 Apr Shift 1 Online)"
+    }
+  ],
+  "question": {
+    "text": "If a right circularcone having maximum volume, is inscribed in a sphere of radius $3 \\mathrm{~cm}$, then the curved surface area (in $\\mathrm{cm}^2$ ) of this cone is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "2bzI0",
+      "text": "\n$8 \\sqrt{3} \\pi$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "HaIs9",
+      "text": "\n$6 \\sqrt{2} \\pi$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "8osbr",
+      "text": "\n$6 \\sqrt{3} \\pi$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ZsEUp",
+      "text": "\n$8 \\sqrt{2} \\pi$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Sphere of radius $r=3 \\mathrm{~cm}$\nLet $b, h$ be base radius and height of cone respectively.\nSo, volume of cone $=\\frac{1}{2} \\pi b^2 h$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/lmA4uNjlVcHFVYHMGnLVxCs7EhzEbGXaxB5pKLhuRSg.original.fullsize.png\"><br>\nIn right angled $\\triangle A B C$ by Pythagoras theorem\n$$\n\\begin{aligned}\n&(h-r)^2+b^2=r^2 \\\\\n\\Rightarrow & b^2=r^2-(h-r)^2=r^2-\\left(h^2-2 h r+\\mathrm{r}^2\\right)=2 h r-h^2 \\\\\n\\therefore & \\text { Volume }(v) \\frac{1}{3} \\pi h\\left[2 h r-h^2\\right]=\\frac{1}{3}\\left[2 h r^2-h^3\\right] \\\\\n& \\frac{d v}{d h}=\\frac{1}{3}\\left[4 h r-3 h^2\\right]=0 \\Rightarrow h(4 r-3 h)=0 \\\\\n& \\frac{d^2 v}{d h^2}=\\frac{1}{3}[4 r-6 h]\n\\end{aligned}\n$$\nAt $h=\\frac{4 r}{3}, \\frac{d^2 v}{d h^2}=\\frac{1}{3}\\left[4 r-\\frac{4 r}{3} \\times 6\\right]=\\frac{1}{3}[4 r-8 r < ] 0$\n$\\Rightarrow$ maximum volume ocurs at $h$\n$$\n=\\frac{4 r}{3}=\\frac{4}{3} \\times 3=4 \\mathrm{~cm}\n$$\nAs from (1),\n$$\n(h-r)^2+b^2=r^2\n$$\n$$\n\\Rightarrow b^2=2 h r-h^2=2 \\cdot \\frac{4 r}{3} r-\\frac{16 r^2}{9}\n$$\n$$\n\\begin{aligned}\n&=\\frac{8 r^2}{3}-\\frac{16 r^2}{9} \\\\\n&=\\frac{(24-16) r^2}{9}=\\frac{8 r^2}{9} \\\\\n&\\Rightarrow b=\\frac{2 \\sqrt{2}}{3} r=2 \\sqrt{2} \\mathrm{~cm}\n\\end{aligned}\n$$\nTherefore curved surface area\n$$\n\\begin{aligned}\n&=\\pi b l=\\pi b \\sqrt{h^2+r^2} \\\\\n&=\\pi 2 \\sqrt{2} \\sqrt{4^2+8}=8 \\sqrt{3} \\pi \\mathrm{cm}^2\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7e5",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2018-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2018 (15 Apr Shift 1 Online)",
+    "title": "JEE Main 2018 (15 Apr Shift 1 Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

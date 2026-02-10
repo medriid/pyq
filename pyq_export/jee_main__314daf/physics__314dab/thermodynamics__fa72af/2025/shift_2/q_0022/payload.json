@@ -1,8 +1,8 @@
 {
   "index": 22,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Water of mass $m$ gram is slowly heated to increase the temperature from $T_1$ to $T_z$ The change in entropy of the water, given specific heat of water is $1 \\mathrm{Jkg}^{-1} \\mathrm{~K}^{-1}$, is :"
+    "text": "<img src=\"assets\\qt0022_3468a05d04de.png\"/><br/>\nA poly-atomic molecule ( $C_V=3 R, C_P=4 R$, where $R$ is gas constant) goes from phase space point $\\mathrm{A}\\left(\\mathrm{P}_{\\mathrm{A}}=10^5 \\mathrm{~Pa}, \\mathrm{~V}_{\\mathrm{A}}=4 \\times 10^{-6} \\mathrm{~m}^3\\right)$ to point $\\mathrm{B}\\left(\\mathrm{P}_{\\mathrm{B}}=5 \\times 10^4 \\mathrm{~Pa}, \\mathrm{~V}_{\\mathrm{B}}=6 \\times 10^{-6} \\mathrm{~m}^3\\right)$ to point $\\mathrm{C}\\left(\\mathrm{P}_{\\mathrm{C}}=10^4\\right.$ $\\left.\\mathrm{Pa}, \\mathrm{V}_{\\mathrm{C}}=8 \\times 10^{-6} \\mathrm{~m}^3\\right)$. A to B is an adiabatic path and $B$ to $C$ is an isothermal path.\nThe net heat absorbed per unit mole by the system is :"
   },
   "options": [
     {
-      "text": "$\\mathrm{m} \\ln \\left(\\frac{\\mathrm{T}_2}{\\mathrm{~T}_1}\\right)$",
+      "text": "$500 \\mathrm{R}(\\ln 3+\\ln 4)$",
+      "is_correct": false
+    },
+    {
+      "text": "$450 \\mathrm{R}(\\ln 4-\\ln 3)$",
       "is_correct": true
     },
     {
-      "text": "zero",
+      "text": "$500 \\mathrm{R} \\ln 2$",
       "is_correct": false
     },
     {
-      "text": "$\\mathrm{m} \\ln \\left(\\frac{\\mathrm{T}_1}{\\mathrm{~T}_2}\\right)$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\mathrm{m}\\left(\\mathrm{T}_2-\\mathrm{T}_1\\right)$",
+      "text": "$400 \\mathrm{R} \\ln 4$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "A"
+    "B"
   ],
   "solution": {
-    "text": "$\\begin{aligned} & d \\mathrm{Q}=\\mathrm{msdT} \\\\ & \\mathrm{dS}=\\frac{\\mathrm{dQ}}{\\mathrm{T}}=\\frac{\\mathrm{msdT}}{\\mathrm{T}} \\\\ & \\Delta \\mathrm{S}=\\int \\frac{\\mathrm{msdT}}{\\mathrm{T}}=\\mathrm{ms} \\ln \\frac{\\mathrm{T}_{\\mathrm{f}}}{\\mathrm{T}_{\\mathrm{i}}} \\\\ & \\Delta \\mathrm{S}=\\mathrm{m} \\ln \\frac{\\mathrm{T}_2}{\\mathrm{~T}_1}\\end{aligned}$"
+    "text": "$\\begin{aligned} & \\Delta \\mathrm{Q}_{\\mathrm{AB}}=0 \\text { adiabatic } \\\\ & \\Delta \\mathrm{Q}_{\\mathrm{BC}}=\\Delta \\mathrm{W}_{\\mathrm{BC}} \\\\ & =\\mathrm{nRT} \\ell \\mathrm{n}\\left(\\frac{\\mathrm{V}_{\\mathrm{C}}}{\\mathrm{V}_{\\mathrm{B}}}\\right)=450 \\mathrm{R} \\ell \\mathrm{n}\\left(\\frac{8 \\times 10^{-6}}{6 \\times 10^{-6}}\\right) \\\\ & =450 \\mathrm{R} \\ell \\mathrm{n}\\left(\\frac{4}{3}\\right)=450 \\mathrm{R}(\\ln 4-\\ell \\mathrm{n} 3) \\\\ & \\therefore \\Delta \\mathrm{Q}=\\Delta \\mathrm{Q}_{\\mathrm{AB}}+\\Delta \\mathrm{Q}_{\\mathrm{BC}} \\\\ & \\Delta \\mathrm{Q}=450 \\mathrm{R}(\\ell \\mathrm{n} 4-\\ell \\mathrm{n} 3)\\end{aligned}$"
   }
 }

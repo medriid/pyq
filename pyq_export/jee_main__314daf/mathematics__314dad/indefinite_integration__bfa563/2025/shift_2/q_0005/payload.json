@@ -1,8 +1,8 @@
 {
   "index": 5,
-  "type": "singleCorrect",
+  "type": "numerical",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Let $\\int x^3 \\sin x \\mathrm{~d} x=g(x)+C$, where $C$ is the constant of integration. If $8\\left(g\\left(\\frac{\\pi}{2}\\right)+g^{\\prime}\\left(\\frac{\\pi}{2}\\right)\\right)=\\alpha \\pi^3+\\beta \\pi^2+\\gamma, \\alpha, \\beta, \\gamma \\in Z$, then $\\alpha+\\beta-\\gamma$ equals :"
+    "text": "If $\\begin{aligned} \\int\\left(\\frac{1}{x}+\\frac{1}{x^3}\\right) & \\left(\\sqrt[23]{3 x^{-24}+x^{-26}}\\right) d x \\\\ & =-\\frac{\\alpha}{3(\\alpha+1)}\\left(3 x^\\beta+x^\\gamma\\right)^{\\frac{\\alpha+1}{\\alpha}}+C, x \\gt 0,\\end{aligned}$ $(\\alpha, \\beta, \\gamma \\in Z)$, where $C$ is the constant of integration, then $\\alpha+\\beta+\\gamma$ is equal to ________ ."
   },
-  "options": [
-    {
-      "text": "48",
-      "is_correct": false
-    },
-    {
-      "text": "55",
-      "is_correct": true
-    },
-    {
-      "text": "62",
-      "is_correct": false
-    },
-    {
-      "text": "47",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "B"
-  ],
+  "options": [],
+  "correct_answer": "19",
   "solution": {
-    "text": "$\\begin{aligned}\n& \\int x^3 \\sin x d x=-x^3 \\cos x+\\int 3 x^2 \\cos x d x \\\\\n& =-x^3 \\cos x+3 x^2 \\sin x-\\int 6 x \\sin x d x \\\\\n& =-x^3 \\cos x+3 x^2 \\sin x+6 x \\cos x-6 \\sin x+c\n\\end{aligned}$\n\nSo $g(x)=-x^3 \\cos x+3 x^2 \\sin x+6 x \\cos x-6 \\sin x$\n$\\begin{aligned}\n& \\mathrm{g}\\left(\\frac{\\pi}{2}\\right)=\\frac{3 \\pi^2}{4}-6 \\\\\n& \\mathrm{~g}^{\\prime}(\\mathrm{x})=-3 \\mathrm{x}^2 \\cos \\mathrm{x}+\\mathrm{x}^3 \\sin \\mathrm{x}+6 \\cos \\mathrm{x}-6 \\cos \\mathrm{x} \\\\\n& \\mathrm{~g}^{\\prime}\\left(\\frac{\\pi}{2}\\right)=\\frac{\\pi^3}{8} \\\\\n& 8\\left(\\mathrm{~g}\\left(\\frac{\\pi}{2}\\right)+\\mathrm{g}^{\\prime}\\left(\\frac{\\pi}{2}\\right)\\right)=\\pi^3+6 \\pi^2-48\n\\end{aligned}$\n\nSo $\\alpha+\\beta-\\gamma=55$"
+    "text": "$\\begin{aligned} & \\int\\left(\\frac{1}{\\mathrm{x}^2}+\\frac{1}{\\mathrm{x}^4}\\right)\\left(\\frac{3}{\\mathrm{x}}+\\frac{1}{\\mathrm{x}^3}\\right)^{\\frac{1}{23}} \\mathrm{dx} \\\\ & \\text { using } \\mathrm{t}=\\frac{3}{\\mathrm{x}}+\\frac{1}{\\mathrm{x}^3} \\Rightarrow \\mathrm{dt}=-3\\left(\\frac{1}{\\mathrm{x}^2}+\\frac{1}{\\mathrm{x}^4}\\right) \\mathrm{dx} \\\\ & \\int \\frac{\\mathrm{t}^{1 / 23} \\mathrm{dt}}{-3}=\\frac{\\mathrm{t}^{24 / 23}}{\\left(\\frac{24}{23}\\right)(-3)}+C \\\\ & \\Rightarrow \\alpha=23 \\beta=-1 \\gamma=-3 \\\\ & \\alpha+\\beta+\\gamma=19\\end{aligned}$"
   }
 }

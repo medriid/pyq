@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7e16f5bfc7ab78ae8a4",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d7a",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2016-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2016",
+      "title": "BITSAT 2016"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "$\\left(x+\\frac{1}{x}\\right)^{2}+\\left(x^{2}+\\frac{1}{x^{2}}\\right)^{2}+$\r\n\r\n$\\left(x^{3}+\\frac{1}{x^{3}}\\right)^{2} \\quad \\ldots .$ upto $n$ terms is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "yXuWd",
+      "text": "$\\frac{x^{2 n}-1}{x^{2}-1} \\times \\frac{x^{2 n+2}+1}{x^{2 n}}+2 n$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "sS49Q",
+      "text": "$\\frac{x^{2 n}+1}{x^{2}+1} \\times \\frac{x^{2 n+2}-1}{x^{2 n}}-2 n$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "iGPI4",
+      "text": "$\\frac{x^{2 n}-1}{x^{2}-1} \\times \\frac{x^{2 n}-1}{x^{2 n}}-2 n$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "BLCHA",
+      "text": "None of these",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "The series is\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\left(x^{2}+x^{4}+x^{6}+\\ldots\\right)+\\left(\\frac{1}{x^{2}}+\\frac{1}{x^{4}}+\\frac{1}{x^{6}}+\\ldots\\right) \\\\\r\n\r\n+(2+2+\\ldots . .) \\\\\r\n\r\n=\\frac{x^{2}\\left(x^{2 n}-1\\right)}{x^{2}-1}+\\frac{\\frac{1}{x^{2}}\\left(1-\\frac{1}{x^{2 n}}\\right)}{1-\\frac{1}{x^{2}}}+2 n \\\\\r\n\r\n=\\frac{x^{2}\\left(x^{2 n}-1\\right)}{x^{2}-1}+\\frac{x^{2 n}-1}{\\left(x^{2}-1\\right) x^{2 n}}+2 n \\\\\r\n\r\n=\\frac{x^{2 n}-1}{x^{2}-1} \\times \\frac{x^{2 n+2}+1}{x^{2 n}}+2 n\r\n\r\n\\end{array}\r\n\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d7a",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2016-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2016",
+    "title": "BITSAT 2016"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

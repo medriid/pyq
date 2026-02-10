@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2018",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd839e4041267a866788",
+    "chapter_name": "Differential Equations",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Solution of the differential equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mi>sin</mi><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced><mo>+</mo><mi>cos</mi><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><mfenced><mrow><mn>2</mn><mo>+</mo><mi>sec</mi><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac></mrow></mfenced><mo>=</mo><mi>x</mi><mo>+</mo><mi>C</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><mfenced><mrow><mn>1</mn><mo>+</mo><mi>tan</mi><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced></mrow></mfenced><mo>=</mo><mi>x</mi><mo>+</mo><mi>C</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><mfenced><mrow><mn>1</mn><mo>+</mo><mi>tan</mi><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac></mrow></mfenced><mo>=</mo><mi>y</mi><mo>+</mo><mi>C</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><mfenced><mrow><mn>1</mn><mo>+</mo><mi>tan</mi><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac></mrow></mfenced><mo>=</mo><mi>x</mi><mo>+</mo><mi>C</mi></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>We have,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mi>sin</mi><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced><mo>+</mo><mi>cos</mi><mfenced><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfenced></math></p><p>Put&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mi>v</mi><mo>&#8658;</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>-</mo><mn>1</mn><mo>=</mo><mi>sin</mi><mi>v</mi><mo>+</mo><mi>cos</mi><mi>v</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mi>sin</mi><mi>v</mi><mo>+</mo><mi>cos</mi><mi>v</mi><mo>+</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>sin</mi><mi>v</mi><mo>+</mo><mi>cos</mi><mi>v</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#8747;</mo><mfenced><mfrac><mn>1</mn><mrow><mi>sin</mi><mi>v</mi><mo>+</mo><mi>cos</mi><mi>v</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mfenced><mi>d</mi><mi>v</mi><mo>=</mo><mo>&#8747;</mo><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#8747;</mo><mfrac><mn>1</mn><mrow><mfenced close=\"}\" open=\"{\"><mstyle displaystyle=\"true\"><mfrac><mrow><mn>2</mn><mi>tan</mi><mfenced><mstyle displaystyle=\"true\"><mfrac><mi>v</mi><mn>2</mn></mfrac></mstyle></mfenced></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>tan</mi><mn>2</mn></msup><mfenced><mstyle displaystyle=\"true\"><mfrac><mi>v</mi><mn>2</mn></mfrac></mstyle></mfenced></mrow></mfrac></mstyle></mfenced><mo>+</mo><mfenced close=\"}\" open=\"{\"><mstyle displaystyle=\"true\"><mfrac><mrow><mn>1</mn><mo>-</mo><msup><mi>tan</mi><mn>2</mn></msup><mfenced><mstyle displaystyle=\"true\"><mfrac><mi>v</mi><mn>2</mn></mfrac></mstyle></mfenced></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>tan</mi><mn>2</mn></msup><mfenced><mstyle displaystyle=\"true\"><mfrac><mi>v</mi><mn>2</mn></mfrac></mstyle></mfenced></mrow></mfrac></mstyle></mfenced><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>v</mi><mo>=</mo><mo>&#8747;</mo><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#8747;</mo><mfenced close=\"]\" open=\"[\"><mfrac><mfenced close=\"}\" open=\"{\"><mrow><mn>1</mn><mo>+</mo><msup><mi>tan</mi><mn>2</mn></msup><mfenced><mstyle displaystyle=\"true\"><mfrac><mi>v</mi><mn>2</mn></mfrac></mstyle></mfenced></mrow></mfenced><mrow><mstyle displaystyle=\"true\"><mn>2</mn></mstyle><mstyle displaystyle=\"true\"><mi>tan</mi></mstyle><mstyle displaystyle=\"true\"><mfenced><mfrac><mstyle displaystyle=\"true\"><mi>v</mi></mstyle><mstyle displaystyle=\"true\"><mn>2</mn></mstyle></mfrac></mfenced></mstyle><mo>+</mo><mstyle displaystyle=\"true\"><mn>1</mn></mstyle><mstyle displaystyle=\"true\"><mo>-</mo></mstyle><mstyle displaystyle=\"true\"><msup><mstyle displaystyle=\"true\"><mi>tan</mi></mstyle><mn>2</mn></msup></mstyle><mstyle displaystyle=\"true\"><mfenced><mfrac><mstyle displaystyle=\"true\"><mi>v</mi></mstyle><mstyle displaystyle=\"true\"><mn>2</mn></mstyle></mfrac></mfenced></mstyle><mo>+</mo><mn>1</mn><mo>+</mo><msup><mi>tan</mi><mn>2</mn></msup><mfenced><mstyle displaystyle=\"true\"><mfrac><mi>v</mi><mn>2</mn></mfrac></mstyle></mfenced></mrow></mfrac></mfenced><mi>d</mi><mi>v</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#8747;</mo><mfenced close=\"]\" open=\"[\"><mfrac><mrow><msup><mi>sec</mi><mn>2</mn></msup><mfenced><mstyle displaystyle=\"true\"><mfrac><mi>v</mi><mn>2</mn></mfrac></mstyle></mfenced></mrow><mstyle displaystyle=\"true\"><mi>tan</mi><mfenced><mfrac><mstyle displaystyle=\"true\"><mi>v</mi></mstyle><mstyle displaystyle=\"true\"><mn>2</mn></mstyle></mfrac></mfenced><mo>+</mo><mn>1</mn></mstyle></mfrac></mfenced><mi>d</mi><mi>v</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>log</mi><mfenced><mrow><mi>tan</mi><mfenced><mfrac><mstyle displaystyle=\"true\"><mi>v</mi></mstyle><mstyle displaystyle=\"true\"><mn>2</mn></mstyle></mfrac></mfenced><mo>+</mo><mn>1</mn></mrow></mfenced><mo>=</mo><mi>x</mi><mo>+</mo><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>log</mi><mfenced><mrow><mi>tan</mi><mfenced><mfrac><mstyle displaystyle=\"true\"><mi>x</mi><mo>+</mo><mi>y</mi></mstyle><mstyle displaystyle=\"true\"><mn>2</mn></mstyle></mfrac></mfenced><mo>+</mo><mn>1</mn></mrow></mfenced><mo>=</mo><mi>x</mi><mo>+</mo><mi>C</mi></math></p>"
+  }
+}

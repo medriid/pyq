@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7b86f5bfc7ab78ae745",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d77",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2013-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013",
+      "title": "BITSAT 2013"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "The solution to the differential equation $\\frac{d y}{d x}=\\frac{y f^{\\prime}(x)-y^{2}}{f(x)}$ where $f(x)$ is a given function is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "F8pb3",
+      "text": "$f(x)=y(x+c)$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "pJfch",
+      "text": "$f(x)=c x y$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "wHaNc",
+      "text": "$f(x)=c(x+y)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Lk7ha",
+      "text": "$\\mathrm{yf}(\\mathrm{x})=\\mathrm{cx}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have $\\frac{d y}{d x}=\\frac{f^{\\prime}(x)}{f(x)} y-\\frac{y^{2}}{f(x)}$\r\n\r\n$\\Rightarrow \\frac{d y}{d x}-\\frac{f^{\\prime}(x)}{f(x)} y=-\\frac{y^{2}}{f(x)}$\r\n\r\nDivide by $y^{2}: y^{-2} \\frac{d y}{d x}-y^{-1} \\frac{f^{\\prime}(x)}{f(x)}=-\\frac{1}{f(x)}$\r\n\r\nPut $y^{-1}=z \\Rightarrow-y^{-2} \\frac{d y}{d x}=\\frac{d z}{d x}$\r\n\r\n$-\\frac{d z}{d x}-\\frac{f^{\\prime}(x)}{f(x)}(z)=-\\frac{1}{f(x)}$\r\n\r\n$\\Rightarrow \\frac{d z}{d x}+\\frac{f^{\\prime}(x)}{f(x)} z=\\frac{1}{f(x)}$\r\n\r\n$I F=e^{\\int \\frac{f^{\\prime}(x)}{f(x)} d x}=e^{\\log f(x)}=f(x)$\r\n\r\n$\\therefore$ The solution is $z(f(x))=\\int \\frac{1}{f(x)}(f(x)) d x+c$\r\n\r\n$\\Rightarrow y^{-1}(f(x))=x+c \\Rightarrow f(x)=y(x+c)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d77",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2013-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013",
+    "title": "BITSAT 2013"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

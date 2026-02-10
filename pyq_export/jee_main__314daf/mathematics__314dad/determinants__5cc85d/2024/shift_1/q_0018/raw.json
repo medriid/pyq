@@ -1,37 +1,62 @@
 {
-  "_id": "66446731970e6e9ab542d10d",
-  "type": "numerical",
-  "level": 2,
+  "_id": "66446757970e6e9ab542d270",
+  "type": "singleCorrect",
+  "level": 1,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "664466ee278297dee60eda6c",
+      "_id": "664466ef278297dee60eda70",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-04-06T09:00:00.000Z",
+      "heldOn": "2024-04-09T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (06 Apr Shift 1)",
-      "title": "JEE Main 2024 (06 Apr Shift 1)"
+      "shortName": "2024 (09 Apr Shift 1)",
+      "title": "JEE Main 2024 (09 Apr Shift 1)"
     }
   ],
   "question": {
-    "text": "Let $\\alpha \\beta \\gamma=45 ; \\alpha, \\beta, \\gamma \\in \\mathbb{R}$. If $x(\\alpha, 1,2)+y(1, \\beta, 2)+z(2,3, \\gamma)=(0,0,0)$ for some $x, y, z \\in \\mathbb{R}, x y z \\neq 0$, then $6 \\alpha+4 \\beta+\\gamma$ is equal to _______",
+    "text": "Let $\\lambda, \\mu \\in \\mathbf{R}$. If the system of equations\n$\\begin{aligned}\n& 3 x+5 y+\\lambda z=3 \\\\\n& 7 x+11 y-9 z=2 \\\\\n& 97 x+155 y-189 z=\\mu\n\\end{aligned}$\nhas infinitely many solutions, then $\\mu+2 \\lambda$ is equal to :",
     "image": null
   },
-  "options": [],
-  "correctValue": "55",
+  "options": [
+    {
+      "id": "WC2tt",
+      "text": "24",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "mVzOe",
+      "text": "25",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "7dXLA",
+      "text": "22",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "T2fZG",
+      "text": "27",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "$\\begin{aligned} & \\alpha \\beta \\gamma=45, \\alpha \\beta \\gamma \\in \\mathrm{R} \\\\ & \\mathrm{x}(\\alpha, 1,2)+\\mathrm{y}(1, \\beta, 2)+\\mathrm{z}(2,3, \\gamma)=(0,0,0) \\\\ & \\mathrm{x}, \\mathrm{y}, \\mathrm{z} \\in \\mathrm{R}, \\mathrm{xyz} \\neq 0 \\\\ & \\alpha \\mathrm{x}+\\mathrm{y}+2 \\mathrm{z}=0 \\\\ & \\mathrm{x}+\\beta \\mathrm{y}+3 \\mathrm{z}=0 \\\\ & 2 \\mathrm{x}+2 \\mathrm{y}+\\gamma \\mathrm{z}=0 \\\\ & \\mathrm{xyz} \\neq 0 \\Rightarrow \\text { non-trivial } \\\\ & \\left|\\begin{array}{lll}\\alpha & 1 & 2 \\\\ 1 & \\beta & 3 \\\\ 2 & 2 & \\gamma\\end{array}\\right|=0\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow \\alpha(\\beta \\gamma-6)-1(\\gamma-6)+2(2-2 \\beta)=0 \\\\ & \\Rightarrow \\alpha \\beta \\gamma-6 \\alpha-\\gamma+6+4-4 \\beta=0 \\\\ & \\Rightarrow 6 \\alpha+4 \\beta+\\gamma=55\\end{aligned}$",
+    "text": "$\\begin{array}{l}\n3 x+5 y+\\lambda z=3 \\\\\n7 x+11 y-9 z=2 \\\\\n97 x+155 y-189 z=\\mu \\\\\n93 x+155 y+31 \\lambda z=93 \\\\\n97 x+155 y-189 z=\\mu \\\\\n-\\quad+\\quad+\\quad- \\\\\n\\hline-4 x+(31 \\lambda+189) z=93-\\mu \\\\\n1085 x+1705 y-1395 z=310 \\\\\n1067 x+1705 y-2079 z=11 \\mu \\\\\n-\\quad+\\quad-\\quad \\\\\n\\hline 18 x+684 z=310-11 \\mu\n\\end{array}$\n$\\begin{aligned}\n& -36 x+9(31 \\lambda+189) z=9(93-\\mu) \\\\\n& 36 x+1368 z=2(310-11 \\mu) \\\\\n& (279 \\lambda+3069) z=1457-31 \\mu\n\\end{aligned}$\nfor infinite solutions -\n$\\begin{aligned}\n& \\lambda=\\frac{-3069}{279}=\\frac{-341}{31} \\\\\n& \\mu=\\frac{1457}{31}\n\\end{aligned}$\n$\\mu+2 \\lambda=\\frac{1457-682}{31}=\\frac{775}{31}=25$",
     "image": null
   },
   "videoSolution": null,
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "664466ee278297dee60eda6c",
+    "_id": "664466ef278297dee60eda70",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-04-06T09:00:00.000Z",
+    "heldOn": "2024-04-09T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (06 Apr Shift 1)",
-    "title": "JEE Main 2024 (06 Apr Shift 1)"
+    "shortName": "2024 (09 Apr Shift 1)",
+    "title": "JEE Main 2024 (09 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

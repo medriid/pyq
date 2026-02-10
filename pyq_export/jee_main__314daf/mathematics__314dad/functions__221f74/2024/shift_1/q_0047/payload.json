@@ -1,0 +1,24 @@
+{
+  "index": 47,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (05 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602555685234356f221f74",
+    "chapter_name": "Functions",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The number of distinct real roots of the equation $|x||x+2|-5|x+1|-1=0$ is_______"
+  },
+  "options": [],
+  "correct_answer": "3",
+  "solution": {
+    "text": "<img src=\"assets\\st0047_1972aeaaa31c.png\"><br />Case-1\n$\\begin{aligned}\n& x \\geq 0 \\\\\n& x^2+2 x-5 x-5-1=0 \\\\\n& x^2-3 x-6=0 \\\\\n& x=\\frac{3 \\pm \\sqrt{9+24}}{2}=\\frac{3 \\pm \\sqrt{33}}{2}\n\\end{aligned}$\nOne positive root\nCase-2\n$\\begin{aligned}\n& -1 \\leq x < 0 \\\\\n& -x^2-2 x-5 x-5-1=0 \\\\\n& x^2+7 x+6=0 \\\\\n& (x+6)(x+1)=0 \\\\\n& x=-1\n\\end{aligned}$\none root in range\nCase-3\n$\\begin{aligned}\n& -2 \\leq x < -1 \\\\\n& x^2-2 x+5 x+5-1=0 \\\\\n& x^2-3 x-4=0 \\\\\n& (x-4)(x+1)=0\n\\end{aligned}$\nNo root in range\nCase-4\n$\\begin{aligned}\n& x < -2 \\\\\n& x^2+7 x+4=0 \\\\\n& x=\\frac{-7 \\pm \\sqrt{49-16}}{2}=\\frac{7 \\pm \\sqrt{33}}{2}\n\\end{aligned}$\none root in range\nTotal number of distinct roots are 3"
+  }
+}

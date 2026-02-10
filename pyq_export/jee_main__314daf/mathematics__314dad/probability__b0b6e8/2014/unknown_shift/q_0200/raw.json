@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e1b",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d8",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (11 Apr Online)",
+      "title": "JEE Main 2014 (11 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "If $X$ has a binomial distribution, $B(n, p)$ with parameters $n$ and $p$ such that $P(X=2)=P(X=3)$, then $\\mathrm{E}(\\mathrm{X})$, the mean of variable $\\mathrm{X}$, is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Ft1dn",
+      "text": "\n$2-\\mathrm{p}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "2dqr4",
+      "text": "\n$3-p$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "dgENK",
+      "text": "\n$\\frac{\\mathrm{p}}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Mdmgg",
+      "text": "\n$\\frac{p}{3}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Since $\\mathrm{X}$ has a binomial distribution, $\\mathrm{B}(n$,\np)\n$$\n\\begin{aligned}\n&\\therefore \\mathrm{P}(X=2)={ }^n \\mathrm{C}_2(p)^2(1-p)^{n-2} \\\\\n&\\text { and } \\mathrm{P}(X=3)={ }^n \\mathrm{C}_3(p)^3(1-p)^{n-3} \\\\\n&\\text { Given } \\mathrm{P}(X=2)=\\mathrm{P}(X=3) \\\\\n&\\Rightarrow{ }^n \\mathrm{C}_2 p^2(1-p)^{n-2}={ }^n \\mathrm{C}_3(p)^3(1-p)^{n-3} \\\\\n&\\Rightarrow \\frac{n !}{2 !(n-2) !} \\cdot \\frac{p^2(1-p)^n}{(1-p)^2} \\\\\n&=\\frac{n !}{3 !(n-3) !} \\cdot \\frac{p^3(1-p)^n}{(1-p)^3}\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n&\\Rightarrow \\frac{1}{n-2}=\\frac{1}{3} \\cdot \\frac{p}{1-p} \\\\\n&\\Rightarrow 3(1-p)=p(n-2) \\\\\n&\\Rightarrow 3-3 p=n p-2 p \\\\\n&\\Rightarrow n p=3-p \\\\\n&\\Rightarrow \\mathrm{E}(X)=\\text { mean }=3-p \\\\\n&(\\because \\text { mean of } \\mathrm{B}(n, p)=n p)\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d8",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (11 Apr Online)",
+    "title": "JEE Main 2014 (11 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

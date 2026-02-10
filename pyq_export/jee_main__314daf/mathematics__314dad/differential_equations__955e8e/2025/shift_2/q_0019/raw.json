@@ -1,33 +1,58 @@
 {
-  "_id": "67a2ee8fc8b73881fdaea0f2",
-  "type": "numerical",
+  "_id": "68542c7d7c09d044e4c1a23f",
+  "type": "singleCorrect",
   "level": 3,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "67a2eb5ca6d4514bf2d97609",
+      "_id": "6852f2ff9d87935e0d80978c",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-01-22T14:00:00.000Z",
+      "heldOn": "2025-04-02T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (22 Jan Shift 2)",
-      "title": "JEE Main 2025 (22 Jan Shift 2)"
+      "shortName": "2025 (2 Apr Shift 2)",
+      "title": "JEE Main 2025 (2 Apr Shift 2)"
     }
   ],
   "question": {
-    "text": "Let $y=f(x)$ be the solution of the differential equation $\\frac{\\mathrm{d} y}{\\mathrm{~d} x}+\\frac{x y}{x^2-1}=\\frac{x^6+4 x}{\\sqrt{1-x^2}},-1 \\lt x \\lt 1$ such that $f(0)=0$. If $6 \\int_{-1 / 2}^{1 / 2} f(x) \\mathrm{d} x=2 \\pi-\\alpha$ then $\\alpha^2$ is equal to _______ .",
+    "text": "Let $f:[1, \\infty) \\rightarrow[2, \\infty)$ be a differentiable function, If $10 \\int_1^{\\mathrm{x}} f(\\mathrm{t}) \\mathrm{dt}=5 \\mathrm{x} f(\\mathrm{x})-\\mathrm{x}^5-9$ for all $\\mathrm{x} \\geq 1$, then the value of $f(3)$ is :",
     "image": null
   },
-  "options": [],
-  "correctValue": "27",
+  "options": [
+    {
+      "id": "oQyqy",
+      "text": "$18$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "DazyK",
+      "text": "$32$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "Euot7",
+      "text": "$22$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "3BIXM",
+      "text": "$26$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "I.F. $\\mathrm{e}^{-\\frac{1}{2} \\int \\frac{2 \\mathrm{x}}{1-\\mathrm{x}^2} \\mathrm{dx}}=\\mathrm{e}^{-\\frac{1}{2} \\ln \\left(1-\\mathrm{x}^2\\right)}=\\sqrt{1-\\mathrm{x}^2}$\n\n$y \\times \\sqrt{1-x^2}=\\int\\left(x^6+4 x\\right) d x=\\frac{x^7}{7}+2 x^2+c$\n\nGiven $y(0)=0 \\Rightarrow c=0$\n$y=\\frac{\\frac{x^7}{7}+2 x^2}{\\sqrt{1-x^2}}$\n\nNow, $6 \\int_{-\\frac{1}{2}}^{\\frac{1}{2}} \\frac{\\frac{x^7}{7}+2 \\mathrm{x}^2}{\\sqrt{1-\\mathrm{x}^2}} \\mathrm{dx}=6 \\int_{-\\frac{1}{2}}^{\\frac{1}{2}} \\frac{2 \\mathrm{x}^2}{\\sqrt{1-\\mathrm{x}^2}} \\mathrm{dx}$\n$\\begin{aligned} & =24 \\int_0^{\\frac{1}{2}} \\frac{x^2}{\\sqrt{1-x^2}} d x \\\\ & \\text { Put } x=\\sin \\theta \\\\ & d x=\\cos \\theta d \\theta \\\\ & =24 \\int_0^{\\frac{\\pi}{6}} \\frac{\\sin ^2 \\theta}{\\cos \\theta} \\cos \\theta d \\theta \\\\ & =24 \\int_0^{\\frac{\\pi}{6}}\\left(\\frac{1-\\cos 2 \\theta}{2}\\right) d \\theta=12\\left[\\theta-\\frac{\\sin 2 \\theta}{2}\\right]_0^{\\frac{\\pi}{6}} \\\\ & =12\\left(\\frac{\\pi}{6}-\\frac{\\sqrt{3}}{4}\\right) \\\\ & =2 \\pi-3 \\sqrt{3} \\\\ & \\alpha^2=(3 \\sqrt{3})^2=27\\end{aligned}$",
+    "text": "$\\begin{aligned}<br/>& 10 \\frac{\\mathrm{~d}}{\\mathrm{dx}} \\int_1^{\\mathrm{x}} \\mathrm{f}(\\mathrm{t}) \\mathrm{dt}=\\frac{\\mathrm{d}}{\\mathrm{dx}}\\left(5 \\mathrm{xf}(\\mathrm{x})-\\mathrm{x}^5-9\\right) \\\\\n& \\Rightarrow 10 f(x)=5 f(x)+5 \\mathrm{xf}^{\\prime}(\\mathrm{x})-5 \\mathrm{x}^4 \\\\\n& \\Rightarrow \\mathrm{f}(\\mathrm{x})+\\mathrm{x}^4=\\mathrm{xf}^{\\prime}(\\mathrm{x}) \\\\\n& \\Rightarrow \\mathrm{y}+\\mathrm{x}^4=\\mathrm{x} \\frac{\\mathrm{dy}}{\\mathrm{dx}} \\\\\n& \\Rightarrow \\frac{d y}{d x}+y\\left(-\\frac{1}{x}\\right)=x^3 \\\\\n& \\Rightarrow y e^{\\int-\\frac{1}{x} d x}=\\int x^3 e^{\\int-\\frac{1}{x} d x}+c \\\\\n& \\Rightarrow \\mathrm{ye}^{-\\operatorname{tn}|x|}=\\int \\mathrm{x}^3 \\mathrm{e}^{-\\operatorname{tr}|x|}+\\mathrm{c} \\\\\n& \\Rightarrow \\frac{\\mathrm{y}}{|\\mathrm{x}|}=\\int \\frac{\\mathrm{x}^3}{|\\mathrm{x}|}+\\mathrm{c} \\\\\n& \\Rightarrow \\frac{\\mathrm{y}}{\\mathrm{x}}=\\int \\mathrm{x}^2+\\mathrm{c} \\\\\n& \\Rightarrow \\frac{\\mathrm{y}}{\\mathrm{x}}=\\frac{\\mathrm{x}^3}{3}+\\mathrm{c}<br/>\\end{aligned}$<br/>Put $x=1$ in given equation<br/>$\\begin{aligned}<br/>& \\Rightarrow 0=5 \\mathrm{f}(1)-1-9 \\Rightarrow \\mathrm{f}(1)=2 \\\\\n& \\Rightarrow \\frac{2}{1}=\\frac{1}{3}+\\mathrm{c} \\Rightarrow \\mathrm{c}=\\frac{5}{3} \\\\\n& \\Rightarrow \\frac{\\mathrm{f}(3)}{3}=\\frac{27}{3}+\\frac{5}{3} \\\\\n& \\Rightarrow \\mathrm{f}(3)=32<br/>\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "8704ea8f28704294a293e626f8aa19d8",
+    "videoId": "69e535ef6eeb45018b3dfd7160afe374",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/DVOGOG32MGm2J.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/DVOGOG32MGm2J.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/BcIuEXRcYaurh.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/BcIuEXRcYaurh.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
@@ -46,12 +71,12 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "67a2eb5ca6d4514bf2d97609",
+    "_id": "6852f2ff9d87935e0d80978c",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-01-22T14:00:00.000Z",
+    "heldOn": "2025-04-02T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (22 Jan Shift 2)",
-    "title": "JEE Main 2025 (22 Jan Shift 2)"
+    "shortName": "2025 (2 Apr Shift 2)",
+    "title": "JEE Main 2025 (2 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

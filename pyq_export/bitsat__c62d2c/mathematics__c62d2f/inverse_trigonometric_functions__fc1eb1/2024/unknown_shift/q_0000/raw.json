@@ -1,0 +1,63 @@
+{
+  "_id": "67726d0dc49e8ef28ee2b3e3",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6415",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 2)",
+      "title": "BITSAT 2024 (Memory Based Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "If $\\cot \\left(\\cos ^{-1} x\\right)=\\sec \\left\\{\\tan ^{-1}\\left(\\frac{a}{\\sqrt{b^2-a^2}}\\right)\\right\\}$\n$b \\gt a$, then $\\mathrm{x}=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "MRPQe",
+      "text": "$\\frac{b}{\\sqrt{2 b^2-a^2}}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "73RmR",
+      "text": "$\\frac{\\sqrt{b^2-a^2}}{a b}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "w6wXH",
+      "text": "$\\frac{a}{\\sqrt{2 b^2-a^2}}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "AZ26D",
+      "text": "$\\frac{\\sqrt{b^2-a^2}}{a}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given that,\n$\\cot \\left(\\cos ^{-1} x\\right)=\\sec \\left\\{\\tan ^{-1}\\left(\\frac{a}{\\sqrt{b^2-a^2}}\\right)\\right\\}$\nSince, $\\cos ^{-1} x=\\cot ^{-1}\\left(\\frac{x}{\\sqrt{1-x^2}}\\right)$ and $\\tan ^{-1} x=\\sec ^{-1}\\left(\\sqrt{1+x^2}\\right)$\n$\\Rightarrow \\cot \\left(\\cot ^{-1} \\frac{x}{\\sqrt{1-x^2}}\\right)=$\n$\\sec \\left\\{\\sec ^{-1} \\sqrt{1+\\left(\\frac{a}{\\sqrt{b^2-a^2}}\\right)^2}\\right\\}$\n$\\Rightarrow \\frac{x}{\\sqrt{1-x^2}}=\\sqrt{\\frac{b^2-a^2+a^2}{b^2-a^2}}$\n$\\Rightarrow \\frac{x}{\\sqrt{1-x^2}}=\\frac{b}{\\sqrt{b^2-a^2}}$\nOn squaring both the sides, we get\n$\\Rightarrow \\frac{x^2}{1-x^2}=\\frac{b^2}{b^2-a^2}$\n$\\begin{aligned} \\Rightarrow & x^2 b^2-x^2 a^2=b^2-b^2 x^2 \\\\ & x^2 b^2+b^2 x^2-x^2 a^2=b^2\\end{aligned}$\n$\\Rightarrow \\quad 2 x^2 b^2-x^2 a^2=b^2 \\Rightarrow x^2\\left(2 b^2-a^2\\right)=b^2$\n$\\Rightarrow \\quad x=\\frac{b}{\\sqrt{2 b^2-a^2}}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6415",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 2)",
+    "title": "BITSAT 2024 (Memory Based Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

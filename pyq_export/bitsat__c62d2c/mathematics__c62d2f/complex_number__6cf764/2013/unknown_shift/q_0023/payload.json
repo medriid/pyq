@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2013",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7787c3b967066cf764",
+    "chapter_name": "Complex Number",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\alpha$ and $\\beta$ are the roots of $x^{2}-x+1=0,$ then the equation whose roots are $\\alpha^{100}$ and $\\beta^{100}$ are"
+  },
+  "options": [
+    {
+      "text": "$x^{2}-x+1=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$x^{2}+x-1=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$x^{2}-x-1=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$x^{2}+x+1=0$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "We have $x^{3}+1 \\equiv(x+1)\\left(x^{2}-x+1\\right)$. Therefore, $\\alpha$ and $\\beta$ are the complex cube roots of -1 so that we may take $\\alpha=-\\omega$ and $\\beta=-\\omega^{2},$ where $\\omega \\neq 1$ is a cube root of unity.\r\n\r\nThus $\\alpha^{100}=(-\\omega)^{100}=\\omega$ and\r\n\r\n$\\beta^{100}=\\left(-\\omega^{2}\\right)^{100}=\\omega^{2},$ so that the required\r\n\r\nequation is $\\mathrm{x}^{2}+\\mathrm{x}+1=0$"
+  }
+}

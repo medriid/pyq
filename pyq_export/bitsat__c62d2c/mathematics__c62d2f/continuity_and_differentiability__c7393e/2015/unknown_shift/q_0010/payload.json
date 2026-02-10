@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd742781aed2a1c7393e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f: R \\rightarrow R$ be a function such that $f(x+y)=f(x)+f(y), \\forall x, y \\in \\mathbb{R}$\r\n\r\nIf $\\mathrm{f}(\\mathrm{x})$ is differentiable at $\\mathrm{x}=0$, then which one of the following is incorrect?"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{f}(\\mathrm{x})$ is continuous, $\\forall \\mathrm{x} \\in \\mathrm{R}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{f}^{\\prime}(\\mathrm{x})$ is constant, $\\forall \\mathrm{x} \\in \\mathrm{R}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{f}(\\mathrm{x})$ is differentiable, $\\forall \\mathrm{x} \\in \\mathrm{R}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{f}(\\mathrm{x})$ is differentiable only in a finite interval containing zera.",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $f(x+y)=f(x)+f(y), \\forall x, y \\in R$\r\n\r\nPut $x=0=y$\r\n\r\n$\\Rightarrow f(0)=f(0)+f(0)$\r\n\r\n$\\Rightarrow f(0)=0$\r\n\r\nNow, $f^{\\prime}(0)=\\lim _{h \\rightarrow 0} \\frac{f(0+h)-f(0)}{h}$\r\n\r\n$f^{\\prime \\prime}(0)=\\lim _{h \\rightarrow 0} \\frac{f(h)}{h}$\r\n\r\nNow, $f(x)=\\lim _{h \\rightarrow 0} \\frac{f(x+h)-f(x)}{h}$\r\n\r\n$=\\lim _{h \\rightarrow 0} \\frac{f(x)+f(h)-f(x)}{h}$\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\Rightarrow \\mathrm{f}^{\\prime}(\\mathrm{x})=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{\\mathrm{f}(\\mathrm{h})}{\\mathrm{h}}=\\mathrm{f}^{\\prime}(0) \\\\\r\n\r\n\\Rightarrow \\mathrm{f}(\\mathrm{x})=\\mathrm{x} \\mathrm{f}(0)+\\mathrm{C}\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nBut $f(0)=0$\r\n\r\n$$\r\n\r\n\\therefore \\mathrm{C}=0\r\n\r\n$$\r\n\r\nHence, $f(x)=x f(0), \\forall x \\in R$\r\n\r\nClearly, $\\mathrm{f}(\\mathrm{x})$ is everywhere continuous and differentiable and $\\mathrm{f}^{\\prime}(\\mathrm{x})$ is constant.\r\n\r\n$\\forall \\mathrm{x} \\in \\mathrm{R}$"
+  }
+}

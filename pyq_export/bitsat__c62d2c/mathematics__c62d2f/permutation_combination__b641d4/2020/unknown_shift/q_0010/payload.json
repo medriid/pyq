@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2020",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cccd6ab1da4b641d4",
+    "chapter_name": "Permutation Combination",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A person invites a party of 10 friends at dinner and place them so that 4 are on one round table and 6 on the other round table. The number of ways in which he can arrange the guests is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{(10) !}{6 !}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{(10) !}{24}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{(9) !}{24}$",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Selection of 6 guests $=10 \\mathrm{C} 6$ \r\n\r\nPermutation of 6 on round table $=5 !$ \r\n\r\nPermutation of 4 on round table $=3 !$\r\n\r\nThen, total number of arrangements $=10 \\mathrm{C} 6.5 ! .3 !$\r\n\r\n$=\\frac{(10) !}{6 ! 4 !} \\cdot 5 ! .3 !=\\frac{(10) !}{24}$"
+  }
+}

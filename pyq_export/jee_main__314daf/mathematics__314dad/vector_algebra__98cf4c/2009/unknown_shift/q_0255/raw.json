@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d658c1",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c9",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009",
+      "title": "JEE Main 2009"
+    }
+  ],
+  "question": {
+    "text": "If $\\vec{u}, \\vec{v}, \\bar{w}$ are non-coplanar vectors and $p, q$ are real numbers, then the equality $\\left[\\begin{array}{llll}3 \\vec{u} & p \\vec{v} & p \\vec{w}\\end{array}\\right]-\\left[\\begin{array}{lll}p \\vec{v} & \\vec{w} & q \\vec{u}\\end{array}\\right]-\\left[\\begin{array}{lll}2 \\vec{w} & q \\vec{v} & q \\vec{u}\\end{array}\\right]=0$ holds for",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "SYnNy",
+      "text": "\nexactly one value of $(p, q)$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "FlEqB",
+      "text": "\nexactly two values of $(p, q)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7Jrdx",
+      "text": "\nmore than two but not all values of $(p, q)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "CQs0u",
+      "text": "\nall values of $(p, q)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\left(3 p^2-p q+2 q^2\\right)\\left[\\begin{array}{lll}\n\\vec{u} & \\vec{v} & \\bar{w}\n\\end{array}\\right]=0 \\\\\n& \\text { But }\\left[\\begin{array}{lll}\n\\vec{u} & \\vec{v} & \\bar{w}\n\\end{array}\\right] \\neq 0 \\\\\n& 3 p^2-p q+2 q^2=0 \\\\\n& 2 p^2+p^2-p q+\\left(\\frac{q}{2}\\right)^2+\\frac{7 q^2}{4}=0 \\Rightarrow 2 p^2+\\left(p-\\frac{q}{2}\\right)^2+\\frac{7}{4} q^2=0\n\\end{aligned}\n$$\n\n$$\n\\Rightarrow p=0, q=0, p=\\frac{q}{2}\n$$\nThis possible only when $p=0, q=0$ exactly one value of $(p, q)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c9",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009",
+    "title": "JEE Main 2009"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

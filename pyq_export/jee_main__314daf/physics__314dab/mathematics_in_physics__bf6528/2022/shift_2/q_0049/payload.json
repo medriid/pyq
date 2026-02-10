@@ -1,8 +1,8 @@
 {
   "index": 49,
-  "type": "numerical",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2022 (25 Jun Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2022 (27 Jun Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "For <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><msup><mi>x</mi><mn>3</mn></msup><msup><mi>y</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup></math>, where &#39;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>&#39; is a constant. If percentage error in measurement of&nbsp; &#39;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>&#39; and &#39;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>&#39; are <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>%</mo></math>and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>%</mo></math>, respectively, then the percentage error for &#39;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math>&#39; will be _____<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>%</mo></math>."
+    "text": "The distance of the Sun from earth is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><msup><mn>10</mn><mn>11</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></math> and its angular diameter is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2000</mn><mo>''</mo></math> when observed from the earth. The diameter of the Sun will be"
   },
-  "options": [],
-  "correct_answer": "18",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>45</mn><mo>&#215;</mo><msup><mn>10</mn><mn>10</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>.</mo><mn>45</mn><mo>&#215;</mo><msup><mn>10</mn><mn>10</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>.</mo><mn>45</mn><mo>&#215;</mo><msup><mn>10</mn><mn>9</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>14</mn><mo>&#215;</mo><msup><mn>10</mn><mn>9</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
   "solution": {
-    "text": "<p>Given:&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><msup><mi>x</mi><mn>3</mn></msup><msup><mi>y</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup></math></p><p>Relative error is given by&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>&#8710;</mo><mi>z</mi></mrow><mi>z</mi></mfrac><mo>=</mo><mfenced open=\"[\" close=\"]\"><mrow><mn>3</mn><mo>&#215;</mo><mfrac><mrow><mo>&#8710;</mo><mi>x</mi></mrow><mi>x</mi></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#215;</mo><mfrac><mrow><mo>&#8710;</mo><mi>y</mi></mrow><mi>y</mi></mfrac></mrow></mfenced></math></p><p>Now, maximum percentage error in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math>&nbsp;is&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>&#8710;</mo><mi>z</mi></mrow><mi>z</mi></mfrac><mo>&#215;</mo><mn>100</mn><mo>=</mo><mfenced open=\"[\" close=\"]\"><mrow><mn>3</mn><mfenced><mn>4</mn></mfenced><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced><mn>2</mn></mfenced></mrow></mfenced><mo>&#215;</mo><mn>100</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>18</mn><mo>%</mo></math>.</p>"
+    "text": "<p>Diameter of Sun is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mi>r</mi><mi>&#952;</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnspacing=\"2em\" columnalign=\"left\"><mtr><mtd><mo>=</mo><mn>1.5</mn><mo>&#215;</mo><msup><mn>10</mn><mn>11</mn></msup><mo>&#215;</mo><mo>(</mo><mn>2000</mn><mo>)</mo><mo>&#215;</mo><mfenced><mfrac><mn>1</mn><mn>3600</mn></mfrac></mfenced><mo>&#215;</mo><mfenced><mfrac><mi>&#960;</mi><mn>180</mn></mfrac></mfenced></mtd></mtr><mtr><mtd><mo>=</mo><mn>1.45</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mn>9</mn><mo>&#160;</mo></mrow></msup><mi mathvariant=\"normal\">m</mi></mtd></mtr></mtable></math></p>"
   }
 }

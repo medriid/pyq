@@ -1,0 +1,43 @@
+{
+  "index": 25,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7f9d0547b1fbfd5eb1",
+    "chapter_name": "Waves and Sound",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The transverse displacement $y(x, t)$ of a wave on a string is given by \r\n$y(x, t)=e^{-\\left(a x^{2}+b t^{2}+2 \\sqrt{a b}\\right.}$ xt $)$\r\nThis represents a"
+  },
+  "options": [
+    {
+      "text": "wave moving in $-x$ direction, speed $\\sqrt{\\frac{b}{a}}$",
+      "is_correct": true
+    },
+    {
+      "text": "standing wave of frequency $\\sqrt{b}$",
+      "is_correct": false
+    },
+    {
+      "text": "standing wave of frequency $\\frac{1}{\\sqrt{b}}$",
+      "is_correct": false
+    },
+    {
+      "text": "wave moving in $+x$ direction, speed $\\sqrt{\\frac{a}{b}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$y(x, t)=e^{-\\left(a x^{2}+b t^{2}+2 \\sqrt{a b} x t\\right)}=e^{-(\\sqrt{a x}+\\sqrt{b t})^{2}}$\r\nIt is a function of type $y=f(\\omega t+k x)$ $\\therefore y(x, t)$ represents wave travelling along $-x$ direction.\r\n$\\text { Speed of wave }=\\frac{\\omega}{k}=\\frac{\\sqrt{b}}{\\sqrt{a}}=\\sqrt{\\frac{b}{a}}$"
+  }
+}

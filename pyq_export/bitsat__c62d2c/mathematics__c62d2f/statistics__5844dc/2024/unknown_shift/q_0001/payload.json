@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78ba6ebf4e7c5844dc",
+    "chapter_name": "Statistics",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the function $f(x)$, defined below, is continuous on the interval $[0,8]$, then\n$f(x)=\\left\\{\\begin{array}{cc}x^2+a x+b & , 0 \\leq x \\lt 2 \\\\ 3 x+2, & 2 \\leq x \\leq 4 \\\\ 2 a x+5 b, & 4 \\lt x \\leq 8\\end{array}\\right.$"
+  },
+  "options": [
+    {
+      "text": "$a=3, b=-2$",
+      "is_correct": true
+    },
+    {
+      "text": "$a=-3, b=2$",
+      "is_correct": false
+    },
+    {
+      "text": "$a=-3, b=-2$",
+      "is_correct": false
+    },
+    {
+      "text": "$a=3, b=2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Here, $f(x)$ is continuous on the interval $[0,8]$.\nSo it will also be continuous on 2 and 4.\nAt $x=2$,\n$\\lim _{x \\rightarrow 2^{-}} f(x)=\\lim _{x \\rightarrow 2^{+}} f(x)$\n$\\lim _{x \\rightarrow 2^{-}}\\left(x^2+\\mathrm{ax}+\\mathrm{b}\\right)=\\lim _{x \\rightarrow 2^{+}}(3 x+2)$\n$4+2 a+b=3(2)+2$\n$\\therefore 2 a+b=4$    ...(i)\nAt $x=4$\n$\\lim _{x \\rightarrow 4^{-}} f(x)=\\lim _{x \\rightarrow 4^{+}} f(x)$\n$\\lim _{x \\rightarrow 4^{-}}(3 x+2)=\\lim _{x \\rightarrow 4^{+}} 2 a x+5 b$\n$3(4)+2=2 a(4)+5 b$\n$\\therefore 8 a+5 b=14$  .......(ii)\nOn solving Eqs. (i) and (ii), we get\n$a=3$ and $b=-2$."
+  }
+}

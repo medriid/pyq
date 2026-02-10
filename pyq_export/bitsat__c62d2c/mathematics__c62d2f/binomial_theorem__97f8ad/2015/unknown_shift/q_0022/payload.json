@@ -1,0 +1,43 @@
+{
+  "index": 22,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7ddf871d2a6297f8ad",
+    "chapter_name": "Binomial Theorem",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\frac{e^{x}+e^{5 x}}{e^{3 x}}=a_{0}+a_{1} x+a_{2} x^{2}+a_{3} x^{3}+\\ldots$ then\r\n\r\nthe value of $2 a_{1}+2^{3} a_{3}+2^{5} a_{5}+\\ldots$ is"
+  },
+  "options": [
+    {
+      "text": "$e^{2}+e^{-2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^{4}-e^{-4}$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^{t}+e^{-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "0",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $\\frac{\\mathrm{e}^{\\mathrm{x}}+\\mathrm{e}^{5 \\mathrm{x}}}{\\mathrm{e}^{3 \\mathrm{x}}}=\\mathrm{a}_{0}+\\mathrm{a}_{1} \\mathrm{x}+\\mathrm{a}_{2} \\mathrm{x}^{2}+\\mathrm{a}_{3} \\mathrm{a}^{3}+\\ldots .$\r\n\r\n$\\begin{aligned} &=\\frac{\\mathrm{e}^{\\mathrm{x}}}{\\mathrm{e}^{3 \\mathrm{x}}}+\\frac{\\mathrm{e}^{5 \\mathrm{x}}}{\\mathrm{e}^{3 \\mathrm{x}}}=\\mathrm{a}_{0}+\\mathrm{a}_{1} \\mathrm{x}+\\mathrm{a}_{2} \\mathrm{x}^{2}+\\ldots . \\\\=& \\mathrm{e}^{-2 \\mathrm{x}}+\\mathrm{e}^{2 \\mathrm{x}}=\\mathrm{a}_{0}+\\mathrm{a}_{1} \\mathrm{x}+\\mathrm{a}_{2} \\mathrm{x}^{2}+\\mathrm{a}_{3} \\mathrm{x}^{3}+\\ldots . \\end{aligned}$\r\n\r\nBy using $\\mathrm{e}^{\\mathrm{x}}=1+\\mathrm{x}+\\frac{\\mathrm{x}^{2}}{2 !}+\\frac{\\mathrm{x}^{3}}{3 !}+{ }_{--}--$ and\r\n\r\n$\\mathrm{e}^{-\\mathrm{x}}=1-\\mathrm{x}+\\frac{\\mathrm{x}^{2}}{2 !}-\\frac{\\mathrm{x}^{3}}{3 !}+---$\r\n\r\n$\\mathrm{e}^{-2 \\mathrm{x}}+\\mathrm{e}^{2 \\mathrm{x}}=2\\left[1+\\frac{(2 \\mathrm{x})^{2}}{21}+\\frac{(2 \\mathrm{x})^{4}}{41}+\\ldots .\\right]$\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n=a_{0}+a_{1} x+a_{2} x^{2}+a_{3} a^{3}+\\ldots . \\\\\r\n\r\n=a_{1}=a_{3}=a_{5}=\\ldots=0\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nHence, $2 \\mathrm{a}_{1}+2^{3} \\mathrm{a}_{3}+2^{5} \\mathrm{a}_{5}+\\ldots .=0$"
+  }
+}

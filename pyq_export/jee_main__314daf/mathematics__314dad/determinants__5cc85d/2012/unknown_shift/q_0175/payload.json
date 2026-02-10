@@ -1,0 +1,43 @@
+{
+  "index": 175,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (19 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $a, b, c$, are non zero complex numbers satisfying $a^2+b^2+c^2=0$ and\n$\\left|\\begin{array}{ccc}b^2+c^2 & a b & a c \\\\ a b & c^2+a^2 & b c \\\\ a c & b c & a^2+b^2\\end{array}\\right|=k a^2 b^2 c^2$, then $k$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n3\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n4\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $\\Delta=\\left|\\begin{array}{ccc}b^2+c^2 & a b & a c \\\\ a b & c^2+a^2 & b c \\\\ a c & b c & a^2+b^2\\end{array}\\right|$\nMultiply $C_1$ by $a, C_2$ by b and $C_3$ by $\\mathrm{c}$ and hence divide by $a b c$.\n\n$$\n=\\frac{1}{a b c}\\left|\\begin{array}{ccc}\na\\left(b^2+c^2\\right. & \\left.a b^2\\right) & a c^2 \\\\\na^2 b & b\\left(c^2+a^2\\right. & \\left.b c^2\\right) \\\\\na^2 c & b^2 c & c\\left(a^2+b^2\\right.\n\\end{array}\\right|\n$$\nTake out $a, b, c$ common from $R_1, R_2$ and $R_3$ respectively.\n$$\n\\begin{aligned}\n& \\therefore \\quad \\Delta=\\frac{a b c}{a b c}\\left|\\begin{array}{ccc}\nb^2+c^2 & b^2 & c^2 \\\\\na^2 & c^2+a^2 & c^2 \\\\\na^2 & b^2 & a^2+b^2\n\\end{array}\\right| \\\\\n& \\text { Apply } C_1 \\rightarrow C_1-C_2-C_3 \\\\\n& \\Delta=\\left|\\begin{array}{ccc}\n0 & b^2 & c^2 \\\\\n-2 c^2 & c^2+a^2 & c^2 \\\\\n-2 b^2 & b^2 & a^2+b^2\n\\end{array}\\right| \\\\\n& =-2\\left|\\begin{array}{ccc}\n0 & b^2 & c^2 \\\\\nc^2 & c^2+a^2 & c^2 \\\\\nb^2 & b^2 & a^2+b^2\n\\end{array}\\right| \\\\\n&\n\\end{aligned}\n$$\nApply $C_2-C_1$ and $C_3-C_1$\n$$\n\\begin{aligned}\n& =-2\\left|\\begin{array}{ccc}\n0 & b^2 & c^2 \\\\\nc^2 & a^2 & 0 \\\\\nb^2 & 0 & a^2\n\\end{array}\\right| \\\\\n& =-2\\left[-b^2\\left(c^2 a^2\\right)+c^2\\left(-a^2 b^2\\right)\\right] \\\\\n& =2 a^2 b^2 c^2+2 a^2 b^2 c^2=4 a^2 b^2 c^2 \\\\\n& \\text { But } \\Delta=k a^2 b^2 c^2 \\therefore k=4\n\\end{aligned}\n$$"
+  }
+}

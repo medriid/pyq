@@ -1,0 +1,63 @@
+{
+  "_id": "67726d1cc49e8ef28ee2b453",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6416",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T19:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 3)",
+      "title": "BITSAT 2024 (Memory Based Paper 3)"
+    }
+  ],
+  "question": {
+    "text": "The modulus of the complex number $z$ such that $|z+3-i|=1$ and $\\arg (z)=\\pi$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "IMb9i",
+      "text": "3",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "VDyW2",
+      "text": "2",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "T9ish",
+      "text": "9",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "R6TVu",
+      "text": "4",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $z=x+i y$\nGiven, $\\quad|z+3-i|=1$\n$\\begin{aligned}\n& \\Rightarrow \\quad|(x+3)+(y-1) i|=1 \\\\\n& \\Rightarrow \\quad \\sqrt{(x+3)^2+(y-1)^2}=1 \\\\\n& \\Rightarrow \\quad(x+3)^2+(y-1)^2=1\\ldots(i)\n\\end{aligned}$\nAbove is the equation of circle with centre $\\equiv(-3,1)$ and\n$\\text { radius }=1$\nAlso, $\\arg (z)=\\pi \\Rightarrow \\tan ^{-1}\\left|\\frac{y}{x}\\right|=\\pi$\n$\\Rightarrow \\quad\\left|\\frac{y}{x}\\right|=\\tan \\pi=0 \\Rightarrow y=0$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/bitsat/0Cx_H71UrlvsAaWxnnhhCkMW9pD0N85P8K2TMcRVynI.original.fullsize.png\"/>\nBy Eq. (i),\n$\\begin{aligned}\n\\Rightarrow & x & =-3 \\\\\n\\therefore & z & =-3+0 i \\\\\n\\Rightarrow & \\text { Modulus of } z & =3\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6416",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T19:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 3)",
+    "title": "BITSAT 2024 (Memory Based Paper 3)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

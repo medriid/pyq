@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2011",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83e6f6052b2388bfed",
+    "chapter_name": "Definite Integration",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Find the value of \\(\\int_0^{4 \\pi}|\\sin x| d x\\)"
+  },
+  "options": [
+    {
+      "text": "8",
+      "is_correct": true
+    },
+    {
+      "text": "6",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "We know that \\(|\\sin x|\\) is a periodic function of \\(\\pi\\)\n\\(\\text { Hence } \\begin{array}{r}\n\\int_0^{4 \\pi}|\\sin x| d x=4 \\int_0^\\pi|\\sin x| d x=4 \\int_0^\\pi \\sin x d x \\\\\n=4[-\\cos x]_0^\\pi=8\n\\end{array}\\)"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7ddf871d2a6297f8ad",
+    "chapter_name": "Binomial Theorem",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $x^{18}$ occurs in the rth term in the expansion of $\\left(x^4+\\frac{1}{x^3}\\right)^{15}$, then what is the value of $r$ ?"
+  },
+  "options": [
+    {
+      "text": "<br />3",
+      "is_correct": false
+    },
+    {
+      "text": "<br />5",
+      "is_correct": false
+    },
+    {
+      "text": "<br />7",
+      "is_correct": true
+    },
+    {
+      "text": "<br />9",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "In the expansion of $\\left(x^4+\\frac{1}{x^3}\\right)^{15}$, let $T_r$ is the $r^{\\text {th }}$ term<br />$\\begin{aligned}<br />T_r & ={ }^{15} C_{r-1}\\left(x^4\\right)^{15-r+1}\\left(\\frac{1}{x^3}\\right)^{r-1} \\\\<br />& ={ }^{15} C_{r-1} x^{64-4 r-3 r+3}=15_{C_{r-1}} x^{67-7 r}<br />\\end{aligned}$<br />$\\mathrm{x}^{18}$ occurs in this term<br />$\\Rightarrow 18=67-7 r \\Rightarrow 7 r=49 \\Rightarrow r=7 .$"
+  }
+}

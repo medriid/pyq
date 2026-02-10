@@ -1,0 +1,43 @@
+{
+  "index": 207,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2019 (10 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mn>25</mn></munderover><mfenced open=\"{\" close=\"}\" separators=\"|\"><mrow><mfenced><mmultiscripts><mi>C</mi><mi>r</mi><none/><mprescripts/><mi>&#160;</mi><mn>50</mn></mmultiscripts></mfenced><mfenced><mmultiscripts><mi>C</mi><mrow><mn>25</mn><mo>-</mo><mi>r</mi></mrow><none/><mprescripts/><mi>&#160;</mi><mrow><mn>50</mn><mo>-</mo><mi>r</mi></mrow></mmultiscripts></mfenced></mrow></mfenced><mo>=</mo><mi>K</mi><mfenced separators=\"|\"><mmultiscripts><mi>C</mi><mn>25</mn><none/><mprescripts/><mi>&#160;</mi><mn>50</mn></mmultiscripts></mfenced></math>, then <math><mi>K</mi></math> is equal to"
+  },
+  "options": [
+    {
+      "text": "<math><msup><mrow><mn>2</mn></mrow><mrow><mn>25</mn></mrow></msup></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math><msup><mrow><mn>2</mn></mrow><mrow><mn>25</mn></mrow></msup><mo>-</mo><mn>1</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><msup><mrow><mn>2</mn></mrow><mrow><mn>24</mn></mrow></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><msup><mrow><mfenced separators=\"|\"><mrow><mn>25</mn></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<blockquote><p>Given:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mn>25</mn></munderover><mfenced open=\"{\" close=\"}\" separators=\"|\"><mrow><mfenced><mmultiscripts><mi>C</mi><mi>r</mi><none/><mprescripts/><mi>&#160;</mi><mn>50</mn></mmultiscripts></mfenced><mfenced><mmultiscripts><mi>C</mi><mrow><mn>25</mn><mo>-</mo><mi>r</mi></mrow><none/><mprescripts/><mi>&#160;</mi><mrow><mn>50</mn><mo>-</mo><mi>r</mi></mrow></mmultiscripts></mfenced></mrow></mfenced><mo>=</mo><mi>K</mi><mfenced separators=\"|\"><mmultiscripts><mi>C</mi><mn>25</mn><none/><mprescripts/><mi>&#160;</mi><mn>50</mn></mmultiscripts></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>LHS</mi></math></p><p><math><mo>=</mo><mrow><munderover><mo stretchy=\"true\">&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mrow><mn>25</mn></mrow></munderover><mrow><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mn>50</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi></mrow></msub></mrow></mrow><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mn>50</mn><mo>-</mo><mi>r</mi></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>25</mn><mo>-</mo><mi>r</mi></mrow></msub></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munderover><mo stretchy=\"true\">&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mn>25</mn></munderover><mfenced open=\"[\" close=\"]\"><mrow><mfenced open=\"{\" close=\"}\"><mfrac><mrow><mn>50</mn><mo>!</mo></mrow><mrow><mi>r</mi><mo>!</mo><mfenced separators=\"|\"><mrow><mn>50</mn><mo>-</mo><mi>r</mi></mrow></mfenced><mo>!</mo></mrow></mfrac></mfenced><mfenced open=\"{\" close=\"}\"><mfrac><mrow><mfenced separators=\"|\"><mrow><mn>50</mn><mo>-</mo><mi>r</mi></mrow></mfenced><mo>!</mo></mrow><mrow><mfenced separators=\"|\"><mrow><mn>25</mn><mo>-</mo><mi>r</mi></mrow></mfenced><mo>!</mo><mfenced separators=\"|\"><mn>25</mn></mfenced><mo>!</mo></mrow></mfrac></mfenced></mrow></mfenced></math><br /><br /><math><mo>=</mo><mrow><munderover><mo stretchy=\"true\">&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mrow><mn>25</mn></mrow></munderover><mrow><mtext>&#8201;</mtext><mfrac><mrow><mn>50</mn><mo>!</mo><mtext>&#8201;&#8201;</mtext><mn>25</mn><mo>!</mo></mrow><mrow><mi>r</mi><mo>!</mo><mfenced separators=\"|\"><mrow><mn>25</mn><mo>-</mo><mi>r</mi></mrow></mfenced><mo>!</mo><mfenced separators=\"|\"><mrow><mn>25</mn></mrow></mfenced><mo>!</mo><mfenced separators=\"|\"><mrow><mn>25</mn></mrow></mfenced><mo>!</mo></mrow></mfrac></mrow></mrow></math><br /><br /><math><mo>=</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mn>50</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>25</mn></mrow></msub><mtext>&#8201;</mtext><mrow><munderover><mo stretchy=\"true\">&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow><mrow><mn>25</mn></mrow></munderover><mrow><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mn>25</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mi>r</mi></mrow></msub></mrow></mrow></math><br /><br /><math><mo>=</mo><msup><mrow><mtext>&#8201;</mtext></mrow><mrow><mn>50</mn></mrow></msup><msub><mrow><mi>C</mi></mrow><mrow><mn>25</mn></mrow></msub><mtext>&#8201;</mtext><mo>&#215;</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>25</mn></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>K</mi><mfenced separators=\"|\"><mmultiscripts><mi>C</mi><mn>25</mn><none/><mprescripts/><mi>&#160;</mi><mn>50</mn></mmultiscripts></mfenced></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mi>K</mi><mo>=</mo><msup><mn>2</mn><mn>25</mn></msup></math></p></blockquote>"
+  }
+}

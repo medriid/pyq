@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7991a3d691658409aa",
+    "chapter_name": "Laws of Motion",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "What will be the acceleration due to gravity at a depth $d$, where $g$ is acceleration due to gravity on the surface of earth?"
+  },
+  "options": [
+    {
+      "text": "\r\n$\\frac{g}{\\left[1+\\frac{d}{R}\\right]^2}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$g\\left[1-\\frac{2 d}{R}\\right]$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$\\frac{g}{\\left[1-\\frac{d}{R}\\right]^2}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$g\\left[1-\\frac{d}{R}\\right]$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Acceleration due to gravity at the surface of earth,\r\n$$\r\ng=\\frac{G M}{R^2}=\\frac{4}{3} \\pi \\rho G R\r\n$$\r\n$$\r\n\\left[\\because M=\\frac{4}{3} \\pi R^3 \\cdot \\rho\\right]\r\n$$\r\nWhere, $\\rho=$ density of earth.\r\nAcceleration due to gravity at depth $d$ from the surface of earth,\r\n$$\r\ng^{\\prime}=\\frac{4}{3} \\pi \\rho G(R-d)\r\n$$\r\nFrom Eqs. (i) and (ii), we get\r\n$$\r\ng^{\\prime}=g\\left[1-\\frac{d}{R}\\right]\r\n$$"
+  }
+}

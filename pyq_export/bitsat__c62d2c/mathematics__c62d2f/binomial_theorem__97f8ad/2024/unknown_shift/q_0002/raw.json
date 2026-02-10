@@ -1,0 +1,63 @@
+{
+  "_id": "67726d0cc49e8ef28ee2b3da",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6415",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 2)",
+      "title": "BITSAT 2024 (Memory Based Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "The coefficient of the highest power of $x$ in the expansion of \n$\\left(x+\\sqrt{x^2-1}\\right)^8+\\left(x-\\sqrt{x^2-1}\\right)^8$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "89dud",
+      "text": "$64$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "UzGe7",
+      "text": "$128$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "e4Prl",
+      "text": "$256$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "mGIWx",
+      "text": "$512$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Since $\\left(x+\\sqrt{x^2-1}\\right)^8+\\left(x-\\sqrt{x^2-1}\\right)^8$\n$\\begin{array}{r}=2\\left\\{{ }^8 C_0 x^8+{ }^8 C_2 x^6\\left(x^2-1\\right)+{ }^8 C_4 x^4\\left(x^2-1\\right)^2\\right. \\\\ \\left.+{ }^8 C_6 x^2\\left(x^2-1\\right)^3+{ }^8 C_8 x^0\\left(x^2-1\\right)^4\\right\\}\\end{array}$\nSo coefficient of highest power of $x$\n$=2\\left\\{{ }^8 C_0+{ }^8 C_2+{ }^8 C_4+{ }^8 C_6+{ }^8 C_8\\right\\}$\n$=(1+1)^8+(1-1)^8=2^8=256$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6415",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 2)",
+    "title": "BITSAT 2024 (Memory Based Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

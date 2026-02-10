@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd74291eeb125c7afd32",
+    "chapter_name": "Vector Algebra",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A vector perpendicular to the plane containing the vectors $\\hat{i}-2 \\hat{j}-\\hat{k}$ and $3 \\hat{i}-2 \\hat{j}-\\hat{k}$ is inclined to the vector $\\hat{i}+\\hat{j}+\\hat{k}$ at an angle"
+  },
+  "options": [
+    {
+      "text": "$\\tan ^{-1} \\sqrt{14}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\sec ^{-1} \\sqrt{14}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\tan ^{-1} \\sqrt{15}$",
+      "is_correct": false
+    },
+    {
+      "text": "<br />None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "A vector perpendicular to the plane is<br />$\\begin{aligned}<br />& (\\hat{i}-2 \\hat{j}-\\hat{k}) \\times(3 \\hat{i}-2 \\hat{j}-\\hat{k}) \\\\<br />& =\\left|\\begin{array}{ccc}<br />\\hat{i} & \\hat{j} & \\hat{k} \\\\<br />1 & -2 & -1 \\\\<br />3 & -2 & -1<br />\\end{array}\\right|=-2 \\hat{j}+4 \\hat{k} \\\\<br />& \\Rightarrow \\text { unit vector } \\hat{a}=\\frac{-2 \\hat{j}+4 \\hat{k}}{\\sqrt{4+16}}=\\frac{-2 \\hat{j}+4 \\hat{k}}{2 \\sqrt{5}}<br />\\end{aligned}$<br />Angle between the unit vector and $\\vec{r}=\\hat{i}+\\hat{j}+\\hat{k}$<br />$=\\cos ^{-1} \\frac{\\vec{r} \\cdot \\hat{a}}{|\\vec{r}| \\cdot|\\hat{a}|}=\\cos ^{-1} \\frac{1}{\\sqrt{15}}=\\tan ^{-1} \\sqrt{14}$"
+  }
+}

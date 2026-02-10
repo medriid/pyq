@@ -1,8 +1,8 @@
 {
   "index": 18,
-  "type": "numerical",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2025 (24 Jan Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Consider a complex reaction taking place in three steps with rate constants $k_1, k_2$ and $k_3$ respectively. The overall rate constant $k$ is given by the expression $k=\\sqrt{\\frac{k_1 k_3}{k_2}}$. If the activation energies of the three steps are 60,30 and $10 \\mathrm{~kJ} \\mathrm{~mol}{ }^{-1}$ respectively, then the overall energy of activation in $\\mathrm{kJ} \\mathrm{mol}^{-1}$ is $\\ldots\\ldots$ . (Nearest integer)"
+    "text": "Half life of zero order reaction $\\mathrm{A} \\rightarrow$ product is 1 hour, when initial concentration of reaction is $2.0 \\mathrm{~mol} \\mathrm{~L} \\mathrm{~L}^{-1}$. The time required to decrease concentration of A from 0.50 to $0.25 \\mathrm{~mol} \\mathrm{~L}^{-1}$ is:"
   },
-  "options": [],
-  "correct_answer": "20",
+  "options": [
+    {
+      "text": "0.5 hour",
+      "is_correct": false
+    },
+    {
+      "text": "4 hour",
+      "is_correct": false
+    },
+    {
+      "text": "15 min",
+      "is_correct": true
+    },
+    {
+      "text": "60 min",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
   "solution": {
-    "text": "$\\mathrm{k}_1, \\mathrm{k}_2$ and $\\mathrm{k}_3$ are given as rate constants of three steps of a complex reaction. Rate constant (k) of the overall reaction is given as\n$k=\\sqrt{\\frac{k_1 k_3}{k_2}}$\nActivation energies of the three steps are given as\n$\\begin{aligned}\n& \\mathrm{E}_{\\mathrm{a}_1}=60 \\mathrm{~kJ} \\mathrm{~mol}^{-1}, \\mathrm{E}_{\\mathrm{a}_2}=30 \\mathrm{~kJ} \\mathrm{~mol}^{-1}, \\\\\n& \\mathrm{E}_{\\mathrm{a}_3}=10 \\mathrm{~kJ} \\mathrm{~mol}^{-1}\n\\end{aligned}$\nFrom Arrhenius equation, we know that\n$\\mathrm{k}=\\mathrm{Ae}^{-\\mathrm{Ea} / \\mathrm{RT} T}$\nIf $E_a$ is the activation energy of the overall reaction, then\n$\\begin{aligned}\n& E_a=\\frac{1}{2}\\left[E_{a_1}+E_{a_3}-E_{a_2}\\right] \\\\\n& =\\frac{1}{2}[60+10-30]=20 \\mathrm{~kJ} \\mathrm{~mol}^{-1}\n\\end{aligned}$"
+    "text": "For zero order reaction<br />$\\begin{aligned}<br />& \\text { Half life }=\\frac{A_o}{2 k} \\\\<br>& 60 \\min =\\frac{2}{2 k} \\\\<br>& k=\\frac{1}{60} \\mathrm{M} / \\min<br />\\end{aligned}$<br />Now<br />$\\begin{aligned} & \\mathrm{A}_{\\mathrm{t}}=\\mathrm{A}_{\\mathrm{o}}-\\mathrm{kt} \\\\ & \\mathrm{t}=\\frac{\\mathrm{A}_{\\mathrm{o}}-\\mathrm{A}_{\\mathrm{t}}}{\\mathrm{k}} \\\\ & =\\frac{0.5-0.25}{1 / 60} \\\\ & 0.25 \\times 60\\end{aligned}$<br />$\\mathrm{t}=15 \\mathrm{~min}$"
   }
 }

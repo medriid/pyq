@@ -1,0 +1,43 @@
+{
+  "index": 245,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2009",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The remainder left out when $8^{2 n}-(62)^{2 n+1}$ is divided by 9 is"
+  },
+  "options": [
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n2\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n7\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n8",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& 8^{2 n}-(62)^{2 n+1}=(1+63)^n-(63-1)^{2 n+1} \\\\\n& =(1+63)^n+(1-63)^{2 n+1}=\\left(1+{ }^n c_1 63+{ }^n c_2(63)^2+\\ldots .+(63)^n\\right)+\\left(1-{ }^{(2 n+1)} c_1 63+{ }^{(2 n+1)} c_2(63)^2+\\ldots .+(-1)(63)^{(2 n+1)}\\right) \\\\\n& =2+63\\left({ }^n c_1+{ }^n c_2(63)+\\ldots .+(63)^{n-1}-{ }^{(2 n+1)} c_1+{ }^{(2 n+1)} c_2(63)+\\ldots .(63)^{(2 n)}\\right)\n\\end{aligned}\n$$\n$\\therefore$ Reminder is 2"
+  }
+}

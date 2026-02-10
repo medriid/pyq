@@ -1,0 +1,83 @@
+{
+  "_id": "68542c927c09d044e4c1a2ae",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2ff9d87935e0d80978d",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-03T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (3 Apr Shift 1)",
+      "title": "JEE Main 2025 (3 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $A=\\{-3,-2,-1,0,1,2,3$,$\\} . Let R$ be a relation on A defined by $x R y$ if and only if $0 \\leq x^2+2 y \\leq 4$.<br/>Let $l$ be the number of elements in R and $m$ be the minimum number of elements required to be added in R to make it a reflexive relation. then $l+m$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "RilPz",
+      "text": "$19$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "p27rm",
+      "text": "$20$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "XnxBz",
+      "text": "$17$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "52eID",
+      "text": "$18$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{A}=\\{-3,-2,-1,0,1,2,3\\} \\\\ & -2 \\mathrm{y} \\leq \\mathrm{x}^2 \\leq 4-2 \\mathrm{y}\\end{aligned}$<br/>$\\begin{array}{lll}y=-3 & 6 \\leq x^2 \\leq 10 & \\Rightarrow x \\in\\{-3,3\\} \\\\ y=-2 & 4 \\leq x^2 \\leq 8 & \\Rightarrow x \\in\\{-2,2\\} \\\\ y=-1 & 2 \\leq x^2 \\leq 6 & \\Rightarrow x \\in\\{-2,2\\} \\\\ y=0 & 0 \\leq x^2 \\leq 4 & \\Rightarrow x \\in\\{-2,-1,0,1,2\\} \\\\ y=1 & -2 \\leq x^2 \\leq 2 & \\Rightarrow x \\in\\{-1,0,1\\} \\\\ y=2 & -4 \\leq x^2 \\leq 0 & \\Rightarrow x \\in\\{0\\} \\\\ y=3 & -6 \\leq x^2 \\leq-2 & \\Rightarrow \\text { No } x \\text {-Exist }\\end{array}$<br/>$\\begin{aligned} & \\mathrm{R}=\\{(-3,-3)(-3,3),(-2,-2)(-2,2)(-1,-2)(-1,2) \\\\ & (0,-2)(0,-1)(0,0)(0,1)(0,2)(1,-1)(1,0)(1,1) \\\\ & (2,0)\\} \\\\ & \\therefore \\ell=15\\end{aligned}$<br/>To make it reflexive we will add<br/>$\\begin{aligned} & \\{(-1,-1),(2,2),(3,3)\\} \\quad \\therefore \\mathrm{m}=3 \\\\ & \\therefore \\ell+\\mathrm{m}=15+3=18\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "3ca9974e669c44a28f3c0a1cd4f6a334",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/IbzJAk1Hb5XBX.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/IbzJAk1Hb5XBX.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2ff9d87935e0d80978d",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-03T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (3 Apr Shift 1)",
+    "title": "JEE Main 2025 (3 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

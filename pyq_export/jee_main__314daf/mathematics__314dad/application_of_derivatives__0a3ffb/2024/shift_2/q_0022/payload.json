@@ -1,8 +1,8 @@
 {
   "index": 22,
-  "type": "numerical",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2024 (05 Apr Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Let the maximum and minimum values of $\\left(\\sqrt{8 x-x^2-12}-4\\right)^2+(x-7)^2, x \\in \\mathbf{R}$ be $\\mathrm{M}$ and $\\mathrm{m}$, respectively. Then $\\mathrm{M}^2-\\mathrm{m}^2$ is equal to _________"
+    "text": "If the function $f(x)=2 x^3-9 x^2+12 \\mathrm{a}^2 x+1, \\mathrm{a}>0$ has a local maximum at $x=\\alpha$ and a local minimum at $x=\\alpha^2$, then $\\alpha$ and $\\alpha^2$ are the roots of the equation :"
   },
-  "options": [],
-  "correct_answer": "1600",
+  "options": [
+    {
+      "text": "$x^2-6 x+8=0$",
+      "is_correct": true
+    },
+    {
+      "text": "$x^2+6 x+8=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$8 x^2+6 x-1=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$8 x^2-6 x+1=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
   "solution": {
-    "text": "$\\begin{aligned} & (x-7)^2+(y-4)^2 \\\\ & y=\\sqrt{8 x-x^2-12} \\\\ & y^2=-(x-4)^2+16-12 \\\\ & (x-4)^2+y^2=4\\end{aligned}$\n<img src=\"assets\\st0022_1ba23e02d32d.png\"><br />$\\begin{aligned} & m=9 \\\\ & M=41 \\\\ & M^2-m^2=41^2-9^2=1600\\end{aligned}$"
+    "text": "<img src=\"assets\\st0022_da295f6c3d47.png\"><br />$\\begin{aligned} & \\alpha+\\alpha^2=3 \\mathrm{a} \\& \\alpha \\times \\alpha^2=2 \\mathrm{a}^2 \\\\ & \\quad \\downarrow \\\\ & \\left(\\alpha+\\alpha^2\\right)^3=27 \\mathrm{a}^3 \\\\ & \\Rightarrow 2 \\mathrm{a}^2+4 \\mathrm{a}^4+3(3 \\mathrm{a})\\left(2 \\mathrm{a}^2\\right)=27 \\mathrm{a}^3 \\\\ & \\Rightarrow 2+4 \\mathrm{a}^2+18 \\mathrm{a}=27 \\mathrm{a} \\\\ & \\Rightarrow 4 \\mathrm{a}^2-9 \\mathrm{a}+2=0 \\\\ & \\Rightarrow 4 \\mathrm{a}^2-8 \\mathrm{a}-\\mathrm{a}+2=0 \\\\ & \\Rightarrow(4 \\mathrm{a}-1)(\\mathrm{a}-2)=0 \\Rightarrow \\mathrm{a}=2 \\\\ & \\text { so } 6 \\mathrm{x}^2-36 \\mathrm{x}+48=0\\end{aligned}$\n$\\Rightarrow x^2-6 x+8=0$  ...(1)\nIf we take $\\mathrm{a}=\\frac{1}{4}$ then $\\alpha=\\frac{1}{2}$ which is not possible"
   }
 }

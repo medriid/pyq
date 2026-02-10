@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2cce8ce0dc8a5c62d2e",
+    "subject_name": "Chemistry",
+    "chapter_id": "61e7bd7aec57f11708a509ed",
+    "chapter_name": "States of Matter",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The given graph represents the variation of compressibility factor $(Z)=\\frac{p V}{n R T}$, for three real gases $A, B$ and $C$. Identify the only incorrect statement.\r\n<img src=\"assets\\qt0002_ccee1fd9414c.png\"><br>"
+  },
+  "options": [
+    {
+      "text": "\r\nFor the gas $A, a=0$ and its dependence on $p$ is linear at all pressure.\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\nFor the gas $B, b=0$ and its dependence on $p$ is linear at all pressure.\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\nFor the gas $C$, which is typical real gas for which neither. $a$ nor $b=0$. By knowing the minima and point of the intersection, with $Z=1, a$ and $b$ can be calculated.\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\nAt high pressure the slope is positive for all real gases.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "From the graph it is clear that, the value of ' $Z$ ' decreases with increase of pressure. We can explain as follows on the basis of van der Waals' equation.\r\nAt high pressure, when ' $p$ ' is large, $V$ will be small and one cannot ignore ' $b$ ' in comparison to $V$. However, the team $a / V^2$ may be considered negligible in comparison to ' $p$ ' in van der Waals' equation.\r\n$\\left(p+\\frac{a}{V^2}\\right)(V-b)=n R T$\r\n$p(V-b)=n R T$\r\n$\\Rightarrow \\quad p V-p b=n R T$\r\nor    $\\frac{p V}{n R T}=1+\\frac{p b}{n R T}$\r\nor $Z=1+\\frac{p b}{n R T}$\r\nThus, $Z$ is greater than 1. As pressure is increased (at constant $T$ ), the factor $\\frac{p b}{n R T}$ increases. This explains why after minima in the curves, $Z$ increase continuously with pressure. Hence, the only incorrect statement is (b)."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd837f780b3c67d85974",
+    "chapter_name": "Area Under Curves",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area of the region $\\mathrm{R}=\\left\\{(x, y):|x| \\leq|y|\\right.$ and $x^{2}$ $\\left.+y^{2} \\leq 1\\right\\}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{3 \\pi}{8}$ sq units",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{5 \\pi}{8} \\mathrm{sq}$ units",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{2}$ sq units",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\pi}{8}$ sq unit",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0018_c99444b25d00.png\"><br>\r\n\r\nRequired area $=4$ (Area of the shaded region in first quadrant)\r\n\r\n$$\r\n\r\n=4 \\int_{0}^{1 \\sqrt{2}}\\left(y_{1}-y_{2}\\right) d x=4 \\int_{0}^{1 \\sqrt{2}}\\left(\\sqrt{1-x^{2}}-x\\right) d x\r\n\r\n$$\r\n\r\n$=4\\left[\\frac{x}{2} \\sqrt{1-x^{2}}+\\frac{1}{2} \\sin ^{-1} x-\\frac{x^{2}}{2}\\right]_{0}^{1 / \\sqrt{2}}$\r\n\r\n$=4\\left[\\frac{1}{2 \\sqrt{2}} \\times \\frac{1}{\\sqrt{2}}+\\frac{1}{2} \\times \\frac{\\pi}{4}-\\frac{1}{4}\\right]$\r\n\r\n$=4\\left[\\frac{1}{4}+\\frac{\\pi}{8}-\\frac{1}{4}\\right]=\\frac{4 \\pi}{8}=\\frac{\\pi}{2}$ sq units"
+  }
+}

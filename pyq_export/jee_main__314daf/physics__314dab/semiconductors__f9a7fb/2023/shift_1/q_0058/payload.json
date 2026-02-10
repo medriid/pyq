@@ -1,8 +1,8 @@
 {
   "index": 58,
   "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2023 (30 Jan Shift 1)",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2023 (08 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "<p>The output waveform of the given logical circuit for the following inputs <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> as shown below, is</p><p><img alt=\"\" src=\"assets\\qt0058_013517ccd6b7.png\" style=\"width: 257px; height: 300px;\" /></p>"
+    "text": "<p>For the logic circuit shown, the output waveform at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">Y</mi></math> is</p><p><img src=\"assets\\qt0058_944162ad7c0d.png\" style=\"width: 314px; height: 217px;\" /><img src=\"assets\\qt0058_3f24b241dd09.png\" style=\"width: 357px; height: 159px;\" /></p>"
   },
   "options": [
     {
-      "text": "<img alt=\"\" src=\"assets\\ot1_0058_35934df5012a.png\" style=\"width: 329px; height: 130px;\" />",
-      "is_correct": false
-    },
-    {
-      "text": "<img alt=\"\" src=\"assets\\ot2_0058_00bacbf5b0c1.png\" style=\"width: 320px; height: 110px;\" />",
-      "is_correct": false
-    },
-    {
-      "text": "<img alt=\"\" src=\"assets\\ot3_0058_43196f626c8b.png\" style=\"width: 292px; height: 140px;\" />",
-      "is_correct": false
-    },
-    {
-      "text": "<img alt=\"\" src=\"assets\\ot4_0058_5b86833c4f9a.png\" style=\"width: 287px; height: 130px;\" />",
+      "text": "<p><img src=\"assets\\ot1_0058_470d65d94c4a.png\" style=\"width: 250px; height: 109px;\" /></p><p>&nbsp;</p>",
       "is_correct": true
+    },
+    {
+      "text": "<p><img src=\"assets\\ot2_0058_b69669d2d6c0.png\" style=\"width: 200px; height: 108px;\" /></p><p>&nbsp;</p>",
+      "is_correct": false
+    },
+    {
+      "text": "<p><img src=\"assets\\ot3_0058_7ff5a523ed1f.png\" style=\"width: 200px; height: 94px;\" /></p><p>&nbsp;</p>",
+      "is_correct": false
+    },
+    {
+      "text": "<p><img src=\"assets\\ot4_0058_a83747b9766d.png\" style=\"width: 200px; height: 91px;\" /></p><p>&nbsp;</p>",
+      "is_correct": false
     }
   ],
   "correct_answer": [
-    "D"
+    "A"
   ],
   "solution": {
-    "text": "<p>In the given logical circuit, all logic gates are NAND gate.</p><p><img alt=\"\" src=\"assets\\st0058_9aa667da1c10.png\" style=\"width: 369px; height: 125px;\" /></p><p>Here, the inputs&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>&nbsp;are inverted using NOT gate (made using NAND gate), then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover><mi>A</mi><mo>&#175;</mo></mover></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover><mi>B</mi><mo>&#175;</mo></mover></math>&nbsp;are applied as inputs in other NAND gate.</p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><menclose notation=\"top\"><mi>A</mi><mo>.</mo><mi>A</mi></menclose></mfenced><mo>=</mo><menclose notation=\"top\"><mi>A</mi></menclose></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><menclose notation=\"top\"><mi>B</mi><mo>.</mo><mi>B</mi></menclose><mo>=</mo><menclose notation=\"top\"><mi>B</mi></menclose></math></p><p>Output at&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>&nbsp;is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><menclose notation=\"top\"><mi>A</mi></menclose><mo>.</mo><menclose notation=\"top\"><mi>B</mi></menclose></mrow></mfenced><mo>=</mo><mi>A</mi><mo>+</mo><mi>B</mi></math>.</p><p>The above boolean expression is for OR gate.</p><p>Truth table of OR gate is&nbsp;</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 300px;\">\t<tbody>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math></td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t</tr>\t</tbody></table><p>The output waveform is shown below.</p><p><img alt=\"\" src=\"assets\\ot4_0058_5b86833c4f9a.png\" style=\"width: 287px; height: 130px;\" /></p>"
+    "text": "<blockquote><p>All the gates used in the diagram represent NAND gates.</p><p>Thus, the output&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>&nbsp;can be calculated as follows</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnalign=\"right center left\" columnspacing=\"0px\"><mtr><mtd><mi>Y</mi></mtd><mtd><mo>=</mo></mtd><mtd><menclose notation=\"top\"><menclose notation=\"top\"><mi>A</mi></menclose><mo>&#183;</mo><menclose notation=\"top\"><mi>B</mi></menclose></menclose></mtd></mtr><mtr><mtd></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#160;</mo><menclose notation=\"top\"><menclose notation=\"top\"><mi>A</mi></menclose></menclose><mo>+</mo><menclose notation=\"top\"><menclose notation=\"top\"><mi>B</mi></menclose></menclose></mtd></mtr><mtr><mtd></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#160;</mo><mi>A</mi><mo>+</mo><mi>B</mi></mtd></mtr></mtable></math></p><p>The above equation suggests that the output of the given combination yields the same result as an OR gate.</p><p>The truth table can be written as follows</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\t<tbody>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><menclose notation=\"top\"><mi>A</mi></menclose></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><menclose notation=\"top\"><mi>B</mi></menclose></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><menclose notation=\"top\"><menclose notation=\"top\"><mi>A</mi></menclose><mo>&#183;</mo><menclose notation=\"top\"><mi>B</mi></menclose></menclose></math></td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t</tr>\t\t<tr>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td style=\"text-align: center;\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t</tr>\t</tbody></table><p>Hence, this is the correct output.</p></blockquote>"
   }
 }

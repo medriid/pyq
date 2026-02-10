@@ -1,0 +1,43 @@
+{
+  "index": 126,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023f36324da677f8a7444",
+    "chapter_name": "Oscillations",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Two simple harmonic motions, as shown, are at right angles. They are combined to form Lissajous figures.\n$x(t)=A \\sin (a t+\\delta)$\n$y(t)=B \\sin (b t)$\nIdentify the correct match below"
+  },
+  "options": [
+    {
+      "text": "\nParameters: $\\mathrm{A}=\\mathrm{B}, \\mathrm{a}=2 \\mathrm{~b} ; \\delta=\\frac{\\pi}{2}$; Curve: Circle\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nParameters: $\\mathrm{A}=\\mathrm{B}, \\mathrm{a}=\\mathrm{b} ; \\delta=\\frac{\\pi}{2} ;$ Curve: Line\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nParameters: $\\mathrm{A} \\neq \\mathrm{B}, \\mathrm{a}=\\mathrm{b} ; \\delta=\\frac{\\pi}{2} ;$ Curve: Ellipse\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nParameters: $\\mathrm{A} \\neq \\mathrm{B}, \\mathrm{a}=\\mathrm{b} ; \\delta=0$; Curve: Parabola",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "From the two mutually perpendicular S.H.M.'s, the general equation of Lissajous figure,\n$$\n\\frac{x^2}{A^2}+\\frac{y^2}{B^2}-\\frac{2 x y}{A B} \\cos \\delta=\\sin ^2 \\delta\n$$\n\n$$\n\\begin{aligned}\n&x=A \\sin (a t+\\delta) \\\\\n&y=B \\sin (b t+r)\n\\end{aligned}\n$$\nClearly $A \\neq B$ hence ellipse."
+  }
+}

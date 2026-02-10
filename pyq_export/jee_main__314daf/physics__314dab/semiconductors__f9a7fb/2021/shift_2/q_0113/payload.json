@@ -1,8 +1,8 @@
 {
   "index": 113,
-  "type": "numerical",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2021 (20 Jul Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (26 Aug Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "<p>For the forward biased diode characteristics shown in the figure, the dynamic resistance at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>I</mi><mi>D</mi></msub><mo>=</mo><mn>3</mn><mo>&#160;</mo><mi>mA</mi></math>&nbsp;will be ________<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">&#937;</mi><mo>.</mo></math></p><p><img src=\"assets\\qt0113_b2c761588f32.png\" style=\"width: 400px; height: 306px;\" /></p>"
+    "text": "<p>Four NOR gates are connected as shown in figure. The truth table for the given figure is :</p><p><img src=\"assets\\qt0113_8ee0e063d109.png\" style=\"width: 401px; height: 136px;\" /></p>"
   },
-  "options": [],
-  "correct_answer": "25",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable rowlines=\"solid none none none\" columnlines=\"none solid\"><mtr><mtd><mi mathvariant=\"normal\">A</mi></mtd><mtd><mi mathvariant=\"normal\">B</mi></mtd><mtd><mi mathvariant=\"normal\">Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable rowlines=\"solid none none none\" columnlines=\"none solid\"><mtr><mtd><mi mathvariant=\"normal\">A</mi></mtd><mtd><mi mathvariant=\"normal\">B</mi></mtd><mtd><mi mathvariant=\"normal\">Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable rowlines=\"solid none none none\" columnlines=\"none solid\"><mtr><mtd><mi mathvariant=\"normal\">A</mi></mtd><mtd><mi mathvariant=\"normal\">B</mi></mtd><mtd><mi mathvariant=\"normal\">Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable rowlines=\"solid none none none\" columnlines=\"none solid\"><mtr><mtd><mi mathvariant=\"normal\">A</mi></mtd><mtd><mi mathvariant=\"normal\">B</mi></mtd><mtd><mi mathvariant=\"normal\">Y</mi></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr></mtable></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
   "solution": {
-    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mi>d</mi></msub><mo>=</mo><mfrac><mrow><mi>d</mi><mi>V</mi></mrow><mrow><mi>d</mi><mi>i</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mfenced><mfrac><mrow><mi>d</mi><mi>i</mi></mrow><mrow><mi>d</mi><mi>v</mi></mrow></mfrac></mfenced></mfrac><mo>=</mo><mfrac><mn>1</mn><mfenced><mfrac><mrow><mn>5</mn><mo>-</mo><mn>1</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>75</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>65</mn></mrow></mfrac></mfenced></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>100</mn><mn>4</mn></mfrac><mo>=</mo><mn>25</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></math></p>"
+    "text": "<p><img src=\"assets\\st0113_f8abeddfe847.png\" style=\"width: 440px; height: 178px;\" /></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">y</mi><mo>=</mo><mover><mrow><mover><mrow><mo>(</mo><mi mathvariant=\"normal\">A</mi><mo>+</mo><mover><mrow><mi mathvariant=\"normal\">A</mi><mo>+</mo><mi mathvariant=\"normal\">B</mi></mrow><mo>&#175;</mo></mover><mo>)</mo></mrow><mo>&#175;</mo></mover><mo>+</mo><mover><mrow><mo>(</mo><mi mathvariant=\"normal\">B</mi><mo>+</mo><mover><mrow><mi mathvariant=\"normal\">A</mi><mo>+</mo><mi mathvariant=\"normal\">B</mi></mrow><mo>&#175;</mo></mover><mo>)</mo></mrow><mo>&#175;</mo></mover></mrow><mo>&#175;</mo></mover></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">y</mi><mo>=</mo><mo>(</mo><mi mathvariant=\"normal\">A</mi><mo>+</mo><mover><mrow><mi mathvariant=\"normal\">A</mi><mo>+</mo><mi mathvariant=\"normal\">B</mi></mrow><mo>&#175;</mo></mover><mo>)</mo><mo>&#183;</mo><mo>(</mo><mi mathvariant=\"normal\">B</mi><mo>+</mo><mover><mrow><mi mathvariant=\"normal\">A</mi><mo>+</mo><mi mathvariant=\"normal\">B</mi></mrow><mo>&#175;</mo></mover><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnlines=\"solid\" frame=\"solid\" rowlines=\"solid\"><mtr><mtd><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi><mo>&#160;</mo></mtd><mtd><mo>&#160;</mo><mi mathvariant=\"normal\">B</mi><mo>&#160;</mo></mtd><mtd><mo>&#160;</mo><mi mathvariant=\"normal\">Y</mi><mo>&#160;</mo></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr></mtable></math></p>"
   }
 }

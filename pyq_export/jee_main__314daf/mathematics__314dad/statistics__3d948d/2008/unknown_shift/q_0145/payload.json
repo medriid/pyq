@@ -1,0 +1,43 @@
+{
+  "index": 145,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2008",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025479bcff3fc153d948d",
+    "chapter_name": "Statistics",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The mean of the numbers $a, b, 8,5,10$ is 6 and the variance is $6.80$. Then which one of the following gives possible values of $a$ and $b$ ?"
+  },
+  "options": [
+    {
+      "text": "\n$a=0, b=7$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$a=5, b=2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$a=1, b=6$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$a=3, b=4$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Mean of $a, b, 8,5,10$ is 6\n$$\n\\begin{aligned}\n& \\Rightarrow \\frac{a+b+8+5+10}{5}=6 \\\\\n& \\Rightarrow a+b=7\n\\end{aligned}\n$$\nGiven that Variance is $6.8$\n$$\n\\begin{aligned}\n& \\therefore \\text { Variance }=\\frac{\\sum\\left(\\mathrm{X}_{\\mathrm{i}}-\\mathrm{A}\\right)^2}{\\mathrm{n}} \\\\\n& =\\frac{(\\mathrm{a}-6)^2+(\\mathrm{b}-6)^2+4+1+16}{5}=6.8\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& \\Rightarrow a^2+b^2=25 \\\\\n& a^2+(7-a)^2=25 \\\\\n& \\Rightarrow a^2-7 a+12=0 \\\\\n& \\therefore a=4,3 \\text { and } b=3,4\n\\end{aligned}\n$$"
+  }
+}

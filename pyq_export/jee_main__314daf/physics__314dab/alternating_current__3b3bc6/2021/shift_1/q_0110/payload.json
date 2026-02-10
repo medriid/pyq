@@ -1,8 +1,8 @@
 {
   "index": 110,
-  "type": "numerical",
+  "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2021 (16 Mar Shift 1)",
+  "pyq_info": "JEE Main 2021 (18 Mar Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "A sinusoidal voltage of peak value <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250</mn><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></math> is applied to a series <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mi>C</mi><mi>R</mi></math> circuit, in which&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mn>8</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi><mo>,</mo><mi>L</mi><mo>=</mo><mn>24</mn><mo>&#160;</mo><mi>mH</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mn>60</mn><mo>&#160;</mo><mi>&#956;</mi><mi mathvariant=\"normal\">F</mi></math>. The value of power dissipated at resonant condition is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>kW</mi></math>. The value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to the nearest integer is _______."
+    "text": "In a scries <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mi>C</mi><mi>R</mi></math> resonance circuit, if we change the resistance only, from a lower to higher value :"
   },
-  "options": [],
-  "correct_answer": "4",
+  "options": [
+    {
+      "text": "The bandwidth of resonance circuit will increase.",
+      "is_correct": true
+    },
+    {
+      "text": "The resonance frequency will increase.",
+      "is_correct": false
+    },
+    {
+      "text": "The quality factor will increase.",
+      "is_correct": false
+    },
+    {
+      "text": "The quality factor and the resonance frequency will remain constant.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
   "solution": {
-    "text": "<p>At resonance power,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><msup><mfenced><msub><mi>V</mi><mi>rms</mi></msub></mfenced><mn>2</mn></msup><mi>R</mi></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><msup><mfenced><mrow><mn>250</mn><mo>/</mo><msqrt><mn>2</mn></msqrt></mrow></mfenced><mn>2</mn></msup><mn>8</mn></mfrac><mo>=</mo><mn>3906</mn><mo>.</mo><mn>25</mn><mo>&#160;</mo><mi mathvariant=\"normal\">W</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8776;</mo><mn>4</mn><mo>&#160;</mo><mi>kW</mi></math></p>"
+    "text": "<p>The bandwidth of resonance circuit will increase.</p><p>As we know that Bandwidth&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>R</mi><mo>/</mo><mi>L</mi></math>.</p><p>Bandwidth <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8733;</mo><mi>R</mi></math>.</p><p>So, bandwidth will increase.</p>"
   }
 }

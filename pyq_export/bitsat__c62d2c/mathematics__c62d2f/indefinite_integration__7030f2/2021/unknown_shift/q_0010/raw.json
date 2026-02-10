@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e82a6f5bfc7ab78aeb27",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44c",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2021-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021",
+      "title": "BITSAT 2021"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "$\\int \\frac{e^{x}(1+x)}{\\cos ^{2}\\left(e^{x} x\\right)} \\mathrm{dx}$ equals",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "QQ2QK",
+      "text": "$-\\cot \\left(e x^{x}\\right)+\\mathrm{C}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "efSKA",
+      "text": "$\\tan \\left(x e^{x}\\right)+\\mathrm{C}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "uZviH",
+      "text": "$\\tan \\left(e^{x}\\right)+\\mathrm{C}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "oXkT4",
+      "text": "$\\cot \\left(e^{x}\\right)+\\mathrm{C}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\int \\frac{e^{x}(1+x)}{\\cos ^{2}\\left(e^{x} x\\right)} \\mathrm{dx}$\r\n\r\nLet $x e^{x}=t$\r\n\r\n$\\Rightarrow\\left(x e^{x}+e^{x}\\right)=\\frac{\\mathrm{dt}}{\\mathrm{dx}}$\r\n\r\n$\\Rightarrow d x=\\frac{\\mathrm{dt}}{e^{x}(x+1)}$\r\n\r\n$\\therefore \\int \\frac{e^{x}(1+x)}{\\cos ^{2}\\left(e^{x} x\\right)} \\mathrm{dx}=\\int \\frac{e^{x}(1+x)}{\\cos ^{2} t} \\times \\frac{d t}{e^{x}(1+x)}=\\int \\frac{1}{\\cos ^{2} t} \\mathrm{dt}=\\int \\sec ^{2} t \\mathrm{dt}=$$\\tan t+\\mathrm{C}=\\tan \\left(x e^{x}\\right)+\\mathrm{C}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44c",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2021-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021",
+    "title": "BITSAT 2021"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

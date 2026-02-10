@@ -1,0 +1,58 @@
+{
+  "_id": "648b5a6b417cc3fb48d674bb",
+  "previousYearPapers": [
+    {
+      "_id": "615d92edde3d91842a5cf80c",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2021-02-26T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021 (26 Feb Shift 1)",
+      "title": "JEE Main 2021 (26 Feb Shift 1)"
+    }
+  ],
+  "type": "numerical",
+  "level": 3,
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>,</mo><mi>n</mi><mo>&#8712;</mo><mi>N</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>gcd</mi><mfenced><mrow><mn>2</mn><mo>,</mo><mo>&#160;</mo><mi>n</mi></mrow></mfenced><mo>=</mo><mn>1</mn></math>. If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mfenced><mtable><mtr><mtd><mn>30</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd></mtr></mtable></mfenced><mo>+</mo><mn>29</mn><mfenced><mtable><mtr><mtd><mn>30</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd></mtr></mtable></mfenced><mo>+</mo><mo>&#8230;</mo><mo>.</mo><mo>.</mo><mo>+</mo><mn>2</mn><mfenced><mtable><mtr><mtd><mn>30</mn></mtd></mtr><mtr><mtd><mn>28</mn></mtd></mtr></mtable></mfenced><mo>+</mo><mn>1</mn><mfenced><mtable><mtr><mtd><mn>30</mn></mtd></mtr><mtr><mtd><mn>29</mn></mtd></mtr></mtable></mfenced><mo>=</mo><mi>n</mi><mo>.</mo><msup><mn>2</mn><mi>m</mi></msup></math>, then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mi>m</mi></math> is equal to _______. (Here <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mtable columnalign=\"left\"><mtr><mtd><mi>n</mi></mtd></mtr><mtr><mtd><mi>k</mi></mtd></mtr></mtable></mfenced><mo>=</mo><mmultiscripts><mi>C</mi><mi>k</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts></math>)",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "45",
+  "solution": {
+    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mfenced><mmultiscripts><mi>C</mi><mn>0</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mo>+</mo><mn>29</mn><mfenced><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mn>2</mn><mfenced><mmultiscripts><mi>C</mi><mn>28</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mo>+</mo><mn>1</mn><mfenced><mmultiscripts><mi>C</mi><mn>29</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced></math><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>30</mn><mfenced><mmultiscripts><mi>C</mi><mn>30</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mo>+</mo><mn>29</mn><mfenced><mmultiscripts><mi>C</mi><mn>29</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mo>+</mo><mo>&#8230;</mo><mo>&#8230;</mo><mo>+</mo><mn>2</mn><mfenced><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mo>+</mo><mn>1</mn><mfenced><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mn>30</mn></munderover><mi>r</mi><mfenced><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mn>30</mn></munderover><mi>r</mi><mfenced><mfrac><mn>30</mn><mi>r</mi></mfrac></mfenced><mfenced><mmultiscripts><mi>C</mi><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mn>29</mn></mmultiscripts></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>30</mn><munderover><mo>&#8721;</mo><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow><mn>30</mn></munderover><mmultiscripts><mi>C</mi><mrow><mi>r</mi><mo>-</mo><mn>1</mn></mrow><none></none><mprescripts></mprescripts><none></none><mn>29</mn></mmultiscripts></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>30</mn><mfenced><mrow><mmultiscripts><mi>C</mi><mn>0</mn><none></none><mprescripts></mprescripts><none></none><mn>29</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>29</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>29</mn></mmultiscripts><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mmultiscripts><mi>C</mi><mn>29</mn><none></none><mprescripts></mprescripts><none></none><mn>29</mn></mmultiscripts></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>30</mn><mfenced><msup><mn>2</mn><mn>29</mn></msup></mfenced><mo>=</mo><mn>15</mn><msup><mfenced><mn>2</mn></mfenced><mn>30</mn></msup><mo>=</mo><mi>n</mi><msup><mfenced><mn>2</mn></mfenced><mi>m</mi></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>n</mi><mo>=</mo><mn>15</mn><mo>,</mo><mi>m</mi><mo>=</mo><mn>30</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mi>m</mi><mo>=</mo><mn>45</mn></math></p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "ce0b7f1235dd4a07b2010a75cb86fea7",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/UxHUDgvV6ln2z.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/UxHUDgvV6ln2z.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "615d92edde3d91842a5cf80c",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2021-02-26T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021 (26 Feb Shift 1)",
+    "title": "JEE Main 2021 (26 Feb Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -2,7 +2,7 @@
   "index": 33,
   "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2024 (05 Apr Shift 1)",
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "If $y=y(x)$ is the solution of the differential equation $\\frac{\\mathrm{d} y}{\\mathrm{~d} x}+2 y=\\sin (2 x), y(0)=\\frac{3}{4}$, then $y\\left(\\frac{\\pi}{8}\\right)$ is equal to:"
+    "text": "The solution of the differential equation $\\left(x^2+y^2\\right) \\mathrm{d} x-5 x y \\mathrm{~d} y=0, y(1)=0$, is :"
   },
   "options": [
     {
-      "text": "$\\mathrm{e}^{\\pi / 8}$",
+      "text": "$\\left|x^2-2 y^2\\right|^6=x$",
       "is_correct": false
     },
     {
-      "text": "$\\mathrm{e}^{\\pi / 4}$",
+      "text": "$\\left|x^2-4 y^2\\right|^6=x$",
       "is_correct": false
     },
     {
-      "text": "$\\mathrm{e}^{-\\pi / 4}$",
+      "text": "$\\left|x^2-4 y^2\\right|^5=x^2$",
       "is_correct": true
     },
     {
-      "text": "$\\mathrm{e}^{-\\pi / 8}$",
+      "text": "$\\left|x^2-2 y^2\\right|^5=x^2$",
       "is_correct": false
     }
   ],
@@ -38,6 +38,6 @@
     "C"
   ],
   "solution": {
-    "text": "$\\begin{aligned} & \\frac{d y}{d x}+2 y=\\sin 2 x, y(0)=\\frac{3}{4} \\\\ & \\text { I.F }=e^{\\int 2 d x}=e^{2 x} \\\\ & y \\cdot e^{2 x}=\\int e^{2 x} \\sin 2 x d x \\\\ & y \\cdot e^{2 x}=\\frac{e^{2 x}(2 \\sin 2 x-2 \\cos 2 x)}{4+4}+C \\\\ & x=0, y=\\frac{3}{4} \\Rightarrow \\frac{3}{4} \\cdot 1=\\frac{1(0-2)}{8}+C \\\\ & \\frac{3}{4}=-\\frac{1}{4}+C \\\\ & 1=C \\\\ & y=\\frac{2 \\sin 2 x-2 \\cos 2 x}{8}+1 \\cdot e^{-2 x} \\\\ & x=\\frac{\\pi}{8}, y=\\frac{1}{8}\\left(2 \\sin \\frac{\\pi}{4}-2 \\cos \\frac{\\pi}{4}\\right)+e^{-2\\left(\\frac{\\pi}{8}\\right)} \\\\ & y=0+e^{-\\frac{\\pi}{4}}\\end{aligned}$"
+    "text": "$\\begin{aligned}\n& \\left(x^2+y^2\\right) d x=5 x y d y \\\\\n& \\Rightarrow \\frac{d y}{d x}=\\frac{x^2+y^2}{5 x y}\n\\end{aligned}$<br />Put $y=V x$\n$\\begin{aligned}\n& \\Rightarrow \\mathrm{V}+\\mathrm{x} \\frac{\\mathrm{dv}}{\\mathrm{dx}}=\\frac{1+\\mathrm{V}^2}{5 \\mathrm{~V}} \\\\\n& \\Rightarrow \\frac{\\mathrm{xdv}}{\\mathrm{dx}}=\\frac{1-4 \\mathrm{~V}^2}{5 \\mathrm{~V}} \\\\\n& \\Rightarrow \\int \\frac{\\mathrm{V}}{1-4 \\mathrm{~V}^2} \\mathrm{dV}=\\int \\frac{\\mathrm{dx}}{5 \\mathrm{x}}\n\\end{aligned}$<br />Let $1-4 \\mathrm{~V}^2=\\mathrm{t}$\n$\\Rightarrow-8 \\mathrm{~V} \\mathrm{dV}=\\mathrm{dt}$\n$\\begin{aligned} & \\Rightarrow \\int \\frac{\\mathrm{dt}}{(-8)(\\mathrm{t})}=\\int \\frac{\\mathrm{dx}}{5 \\mathrm{x}} \\\\ & \\Rightarrow \\frac{-1}{8} \\ln |\\mathrm{t}|=\\frac{1}{5} \\ln |\\mathrm{x}|+\\ln \\mathrm{C} \\\\ & \\Rightarrow-5 \\ln |\\mathrm{t}|=8 \\ln |\\mathrm{x}|+\\ln \\mathrm{K} \\\\ & \\Rightarrow \\ln \\mathrm{x}^8+\\ln \\left|\\mathrm{t}^5\\right|+\\ln \\mathrm{K}=0 \\\\ & \\Rightarrow \\mathrm{x}^8\\left|\\mathrm{t}^5\\right|=\\mathrm{C} \\\\ & \\Rightarrow \\mathrm{x}^8\\left|1-4 \\mathrm{~V}^2\\right|^5=\\mathrm{C} \\\\ & \\Rightarrow \\mathrm{x}^8\\left|\\frac{\\mathrm{x}^2-4 \\mathrm{y}^2}{\\mathrm{x}^2}\\right|^5=\\mathrm{C} \\\\ & \\Rightarrow\\left|\\mathrm{x}^2-4 \\mathrm{y}^2\\right|^5=\\mathrm{Cx} \\mathrm{x}^2 \\\\ & \\text { given } \\mathrm{y}(1)=0 \\\\ & \\Rightarrow|1|^5=\\mathrm{C} \\Rightarrow \\mathrm{C}=1 \\\\ & \\Rightarrow\\left|\\mathrm{x}^2-4 \\mathrm{y}^2\\right|^5=\\mathrm{x}^2\\end{aligned}$"
   }
 }

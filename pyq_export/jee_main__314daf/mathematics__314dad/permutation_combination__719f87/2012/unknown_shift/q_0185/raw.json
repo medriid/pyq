@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65a93",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7cf",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2012-05-19T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (19 May Online)",
+      "title": "JEE Main 2012 (19 May Online)"
+    }
+  ],
+  "question": {
+    "text": "The number of arrangements that can be formed from the letters $a, b, c, d, e, f$ taken 3 at a time without repetition and each arrangement containing at least one vowel, is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "9Cf9X",
+      "text": "\n96\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "pW340",
+      "text": "\n128\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "sCNsn",
+      "text": "\n24\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Ukez4",
+      "text": "\n72",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "There are 2 vowels and 4 consonants in the letters $a, b, c, d, e, f$.\nIf we select one vowel, then number of arrangements\n$$\n={ }^2 C_1 \\times{ }^4 C_2 \\times 3 !=2 \\times \\frac{4 \\times 3}{2} \\times 3 \\times 2=72\n$$\nIf we select two vowels, then number of arrangements\n$$\n={ }^2 C_2 \\times{ }^4 C_1 \\times 3 !=1 \\times 4 \\times 6=24\n$$\nHence, total number of arrangements\n$$\n=72+24=96\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7cf",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2012-05-19T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (19 May Online)",
+    "title": "JEE Main 2012 (19 May Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

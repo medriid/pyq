@@ -1,0 +1,43 @@
+{
+  "index": 223,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602402632932165bf0ef64",
+    "chapter_name": "Electrostatics",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "[12]\nA solid ball of radius $\\mathrm{R}$ has a charge density $\\rho$ given by $\\rho=\\rho_0\\left(1-\\frac{r}{R}\\right)$ for $0 \\leq r \\leq R$. The electric field outside the ball is:"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{\\rho_0 R^3}{\\varepsilon_0 r^2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{4 \\rho_0 R^3}{3 \\varepsilon_0 r^2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{3 \\rho_0 R^3}{4 \\varepsilon_0 r^2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\rho_0 R^3}{12 \\varepsilon_0 r^2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Charge density, $\\rho=\\rho_0\\left(1-\\frac{r}{R}\\right)$\n$$\n\\begin{aligned}\n&d q=\\rho d v \\\\\n&q_{\\text {in }}=\\int d q=\\rho d v \\\\\n&=\\rho_0\\left(1-\\frac{r}{R}\\right) 4 \\pi r^2 d r \\quad\\left(\\because d v=4 \\pi \\mathrm{r}^2 \\mathrm{dr}\\right) \\\\\n&=4 \\pi \\rho_0 \\int_0^R\\left(1-\\frac{r}{R}\\right) r^2 d r \\\\\n&=4 \\pi \\rho_0 \\int_0^R r^2 d r-\\frac{r^2}{R} d r \\\\\n&=4 \\pi \\rho_0\\left[\\left[\\frac{r^3}{3}\\right]_0^R-\\left[\\frac{r^4}{4 R}\\right]_0^R\\right] \\\\\n&=4 \\pi \\rho_0\\left[\\frac{R^3}{3}-\\frac{R^4}{4 R}\\right]\n\\end{aligned}\n$$\n$=4 \\pi \\rho_0\\left[\\frac{R^3}{3}-\\frac{R^3}{4}\\right]=4 \\pi \\rho_0\\left[\\frac{R^3}{12}\\right]$\n$q=\\frac{\\pi \\rho_0 R^3}{3}$\n\n$$\nE .4 \\pi r^2=\\left(\\frac{\\pi \\rho_0 R^3}{3 \\epsilon_0}\\right)\n$$\n$\\therefore \\quad$ Electric field outside the ball, $E=\\frac{\\rho_0 R^3}{12 \\in_0 r^2}$"
+  }
+}

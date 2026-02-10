@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2014",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd742781aed2a1c7393e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)=\\left\\{\\begin{array}{c}(x-1) \\sin \\frac{1}{x-1} \\text { if } x \\neq 1 \\\\ 0 \\quad \\text { if } x=1\\end{array}\\right.$\r\n\r\nThen which one of the following is true?"
+  },
+  "options": [
+    {
+      "text": "$f$ is differentiable at $x=0$ and $x=1$",
+      "is_correct": false
+    },
+    {
+      "text": "$f$ is differentiable at $x=0$ but not at $x=1$",
+      "is_correct": true
+    },
+    {
+      "text": "$f$ is differentiable at $x=1$ but not at $x=0$",
+      "is_correct": false
+    },
+    {
+      "text": "$f$ is neither differentiable at $x=0$ nor at $x=1$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "We have; $f(x)=\\left\\{\\begin{array}{ll}(x-1) \\sin \\left(\\frac{1}{x-1}\\right) & \\text { if } x \\neq 1 \\\\ 0 & \\text { if } x=1\\end{array}\\right.$\r\n\r\n$R f^{\\prime}(1)=\\lim _{h \\rightarrow 0} \\frac{f(1+h)-f(1)}{h}$\r\n\r\n$=\\lim _{h \\rightarrow 0} \\frac{h \\sin \\frac{1}{h}-0}{h}=\\lim _{h \\rightarrow 0} \\sin \\frac{1}{h}$\r\n\r\nwhich does not exist.\r\n\r\n$\\therefore f$ is not differentiable at $x=1$ Also $\\left.f^{\\prime}(0)=\\sin \\frac{1}{(x-1)}-\\frac{x-1}{(x-1)^{2}} \\cos \\left(\\frac{1}{x-1}\\right)\\right]_{x=0}$\r\n\r\n$=-\\sin 1+\\cos 1$\r\n\r\n$\\therefore f$ is differentiable at $x=0$"
+  }
+}

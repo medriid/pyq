@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Bag 1 contains 4 white balls and 5 black balls, and Bag 2 contains $n$ white balls and 3 black balls. One ball is drawn randomly from Bag 1 and transferred to Bag 2. A ball is then drawn randomly from Bag 2. If the probability, that the ball drawn is white, is $29 / 45$, then $n$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "6",
+      "is_correct": true
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "5",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Bag $1 \\rightarrow 4 w, 5 B$\nBag $2 \\rightarrow n w, 3 B$\n$(\\mathrm{I}) \\rightarrow$ Transferred ball is white $P(w)=\\frac{n+1}{n+4} \\cdot \\frac{4}{9}$\n(II) $\\rightarrow$ Transferred ball is black $P(w)=\\frac{5}{9} \\cdot \\frac{n}{n+4}$\n$\\begin{aligned}\n& \\frac{4 n+4}{9 n+36}+\\frac{5 n}{9 n+36}=\\frac{29}{45} \\\\\n& \\frac{9 n+4}{9 n+36}=\\frac{29}{45} \\Rightarrow n=6\n\\end{aligned}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 268,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (Offline)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $g(x)=\\int_0^x \\cos 4 t ~d t$, then $g(x+\\pi)$ equals"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{g(x)}{g(\\pi)}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$g(x)+g(\\pi)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$g(x)-g(\\pi)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nNone of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$g(x)=\\int_0^x \\cos 4 t ~d t$\n$\\Rightarrow g^{\\prime}(x)=\\cos 4 x \\quad \\Rightarrow g(x)=\\frac{\\sin 4 x}{4}+k \\quad \\Rightarrow g(x)=\\frac{\\sin 4 x}{4}[\\because g(0)=0]$\n$g(x+\\pi)=g(x)+g(\\pi)=g(x)-g(\\pi)(\\because g(\\pi)=0)$"
+  }
+}

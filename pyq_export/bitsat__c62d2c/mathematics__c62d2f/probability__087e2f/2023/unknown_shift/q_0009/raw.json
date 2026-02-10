@@ -1,0 +1,63 @@
+{
+  "_id": "65b7b87997ae24e9e2db8cb4",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "65b7b85fb3be70ed63adbe84",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2023-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Memory Based Paper 1)",
+      "title": "BITSAT 2023 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "If $\\mathrm{P}(\\mathrm{B})=\\frac{3}{5}, \\mathrm{P}(\\mathrm{A} \\mid \\mathrm{B})=\\frac{1}{2}$ and $\\mathrm{P}(\\mathrm{A} \\cup \\mathrm{B})=\\frac{4}{5}$, then $\\mathrm{P}(\\mathrm{A} \\cup \\mathrm{B})^{\\prime}+\\mathrm{P}\\left(\\mathrm{A}^{\\prime} \\cup \\mathrm{B}\\right)=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "jJjUM",
+      "text": "$\\frac{1}{5}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "8gR0w",
+      "text": "$\\frac{4}{5}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Gmxtc",
+      "text": "$\\frac{1}{2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "eqndb",
+      "text": "1",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$P(B)=\\frac{3}{5}, P(A \\mid B)=\\frac{1}{2}$ and $P(A \\cup B)=\\frac{4}{5}$<br />$P(A \\cap B)=P(A \\mid B) P(B)=\\frac{1}{2} \\cdot \\frac{3}{5}=\\frac{3}{10}$<br />$\\mathrm{P}(\\mathrm{A} \\cup \\mathrm{B})=\\mathrm{P}(\\mathrm{A})+\\mathrm{P}(\\mathrm{B})-\\mathrm{P}(\\mathrm{A} \\cap \\mathrm{B})$<br />$\\mathrm{P}(\\mathrm{A})=\\frac{4}{5}-\\frac{3}{10}=\\frac{1}{2} . \\quad \\mathrm{P}\\left(\\mathrm{A}^{\\prime}\\right)=1-\\mathrm{P}(\\mathrm{A})=\\frac{1}{2}$<br />We know, $\\mathrm{P}(\\mathrm{A} \\cap \\mathrm{B})+\\mathrm{P}\\left(\\mathrm{A}^{\\prime} \\cap \\mathrm{B}\\right)=\\mathrm{P}(\\mathrm{B})$<br />[as $A \\cap B$ and $A^{\\prime} \\cap B$ are mutually exclusive events]<br />$\\Rightarrow \\quad \\frac{3}{10}+\\mathrm{P}\\left(\\mathrm{A}^{\\prime} \\cap \\mathrm{B}\\right)=\\frac{3}{5}$<br />$\\Rightarrow \\mathrm{P}\\left(\\mathrm{A}^{\\prime} \\cap \\mathrm{B}\\right)=\\frac{3}{5}-\\frac{3}{10}=\\frac{3}{10}$<br />Now, $\\mathrm{P}\\left(\\mathrm{A}^{\\prime} \\cup \\mathrm{B}\\right)=\\mathrm{P}\\left(\\mathrm{A}^{\\prime}\\right)+\\mathrm{P}(\\mathrm{B})-\\mathrm{P}\\left(\\mathrm{A}^{\\prime} \\cap \\mathrm{B}\\right)$<br />$=\\frac{1}{2}+\\frac{3}{5}-\\frac{3}{10}=\\frac{5+6-3}{10}=\\frac{4}{5}$<br />$\\mathrm{P}\\left((\\mathrm{A} \\cup \\mathrm{B})^{\\prime}\\right)=1-\\mathrm{P}(\\mathrm{A} \\cup \\mathrm{B})=1-\\frac{4}{5}=\\frac{1}{5}$<br />$\\therefore \\mathrm{P}\\left((\\mathrm{A} \\cup \\mathrm{B})^{\\prime}\\right)+\\mathrm{P}\\left(\\mathrm{A}^{\\prime} \\cup \\mathrm{B}\\right)=\\frac{1}{5}+\\frac{4}{5}=1$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "65b7b85fb3be70ed63adbe84",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2023-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Memory Based Paper 1)",
+    "title": "BITSAT 2023 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

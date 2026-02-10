@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e8286f5bfc7ab78aeb15",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44c",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2021-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021",
+      "title": "BITSAT 2021"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "If the slope of the tangent to the curve at any point $\\mathrm{P}(x, y)$ is $\\frac{y}{x}-\\cos ^{2} \\frac{y}{x}$, then the equation of a curve passing through $\\left(1, \\frac{\\pi}{4}\\right)$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "nMX8X",
+      "text": "$\\tan \\left(\\frac{y}{x}\\right)+\\log x=1$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "vOI4U",
+      "text": "$\\tan \\left(\\frac{y}{x}\\right)+\\log y=1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "12sOJ",
+      "text": "$\\tan \\left(\\frac{x}{y}\\right)+\\log x=1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "B8Opp",
+      "text": "$\\tan \\left(\\frac{x}{y}\\right)+\\log y=1$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "According to the condition,\r\n\r\n$\\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\frac{y}{x}-\\cos ^{2} \\frac{y}{x} \\ldots \\text { (i) }$\r\n\r\nThis is a homogeneous differential equation Substituting $y=v x$, we get\r\n\r\n$\\begin{array}{l}\r\n\r\nv+x \\frac{\\mathrm{dv}}{\\mathrm{dx}}=v-\\cos ^{2} v \\\\\r\n\r\n\\Rightarrow x \\frac{\\mathrm{dv}}{\\mathrm{dx}}=-\\cos ^{2} v \\\\\r\n\r\n\\Rightarrow \\int \\sec ^{2} \\mathrm{vdv}=-\\int \\frac{\\mathrm{dx}}{\\mathrm{x}} \\\\\r\n\r\n\\Rightarrow \\tan v=-\\log x+\\mathrm{C} \\\\\r\n\r\n\\Rightarrow \\tan \\frac{y}{x}+\\log x=\\mathrm{C}\r\n\r\n\\end{array}$\r\n\r\nSubstituting $\\mathrm{x}=1, y=\\frac{\\pi}{4}$, we get $\\mathrm{C}=1$\r\n\r\nThus, we get\r\n\r\n$\\tan \\left(\\frac{y}{x}\\right)+\\log x=1$\r\n\r\nwhich is the required solution.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44c",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2021-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021",
+    "title": "BITSAT 2021"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 181,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (22 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of ways in which an examiner can assign 30 marks to 8 questions, giving not less than 2 marks to any question, is :"
+  },
+  "options": [
+    {
+      "text": "\n${ }^{30} C_7$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n${ }^{21} C_8$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n${ }^{21} C_7$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n${ }^{30} C_8$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "30 marks to be alloted to 8 questions. Each question has to be given $\\geq 2$ marks Let questions be $a, b, c, d, e, f, g, h$ and $a+b+c+d+e+f+g+h=30$\nLet $a=a_1+2$ so, $a_1 \\geq 0$ $b=a_2+2$ so, $a_2 \\geq 0, \\ldots \\ldots . a_8 \\geq 0$\nSo, $\\left.\\begin{array}{c}a_1+a_2+\\ldots \\ldots+a_8 \\\\ +2+2+\\ldots . .+2\\end{array}\\right\\}=30$ $\\Rightarrow a_1+a_2+\\ldots \\ldots+a_8=30-16=14$\nSo, this is a problem of distributing 14 articles in 8 groups.\nNumber of ways $={ }^{14+8-1} \\mathrm{C}_{8-1}={ }^{21} \\mathrm{C}_7$"
+  }
+}

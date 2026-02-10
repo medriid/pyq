@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602525fb63982f7225f1d8",
+    "chapter_name": "Quadratic Equation",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $\\alpha$ and $\\beta$ be the roots of $x^2+\\sqrt{3 x}-16=0$, and $\\gamma$ and $\\delta$ be the roots of $x^2+3 x-1=0$. If $P_n=\\alpha^n+\\beta^n$ and $Q_n=\\gamma^n+\\delta^n$, then $\\frac{\\mathrm{P}_{25}+\\sqrt{3 \\mathrm{P}_{24}}}{2 \\mathrm{P}_{23}}+\\frac{\\mathrm{Q}_{25}-\\mathrm{Q}_{23}}{\\mathrm{Q}_{24}}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$3$",
+      "is_correct": false
+    },
+    {
+      "text": "$4$",
+      "is_correct": false
+    },
+    {
+      "text": "$5$",
+      "is_correct": true
+    },
+    {
+      "text": "$7$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & x^2+\\sqrt{3} \\mathrm{x}-16=0 \\lt \\beta \\\\ & \\mathrm{P}_{\\mathrm{n}}+\\sqrt{3} \\mathrm{P}_{\\mathrm{n}-1}-16 \\mathrm{P}_{\\mathrm{n}-2}=0 \\\\ & \\mathrm{P}_{25}+\\sqrt{3} \\mathrm{P}_{24}-16 \\mathrm{P}_{23}=0 \\\\ & \\therefore \\frac{\\mathrm{P}_{25}+\\sqrt{3} \\mathrm{P}_{24}}{2 \\mathrm{P}_{23}}=8\\end{aligned}$<br/>Similarly<br/>$x^2+3 x-1=0 \\lt \\sum_\\delta^\\gamma \\quad Q_n=\\gamma^n+\\delta^n$<br/>$\\begin{aligned}<br/>& \\mathrm{Q}_{25}-\\mathrm{Q}_{23}=\\gamma^{25}+\\delta^{25}-\\gamma^{23}-\\delta^{23} \\\\\n&=\\gamma^{23}\\left(\\gamma^2-1\\right)+\\delta^{23}\\left(\\delta^2-1\\right) \\\\\n&=\\gamma^{23}(-3 \\gamma)+\\delta^{23}(-3 \\gamma) \\\\\n&=-3\\left[\\gamma^{24}+\\delta^{24}\\right] \\\\\n&=-3 \\mathrm{Q}_{24} \\\\\n& \\therefore \\frac{\\mathrm{Q}_{25}-\\mathrm{Q}_{23}}{\\mathrm{Q}_{24}}=-3<br/>\\end{aligned}$<br/>$\\frac{\\mathrm{P}_{25}+\\sqrt{3} \\mathrm{P}_{24}}{2 \\mathrm{P}_{23}}+\\frac{\\mathrm{Q}_{25}-\\mathrm{Q}_{23}}{\\mathrm{Q}_{24}}=8-3=5$"
+  }
+}

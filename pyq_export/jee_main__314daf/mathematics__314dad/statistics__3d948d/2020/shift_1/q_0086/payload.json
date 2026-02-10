@@ -1,0 +1,43 @@
+{
+  "index": 86,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2020 (06 Sep Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025479bcff3fc153d948d",
+    "chapter_name": "Statistics",
+    "year": "2020",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo largeop=\"true\">&#931;</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mfenced><mrow><msub><mi>x</mi><mi>i</mi></msub><mo>-</mo><mi>a</mi></mrow></mfenced><mo>=</mo><mi>n</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo largeop=\"true\">&#931;</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><mfenced><mrow><msub><mi>x</mi><mi>i</mi></msub><mo>-</mo><mi>a</mi></mrow></mfenced><mn>2</mn></msup><mo>=</mo><mi>n</mi><mi>a</mi><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mi>n</mi><mo>,</mo><mo>&#160;</mo><mi>a</mi><mo>&#62;</mo><mn>1</mn></mrow></mfenced></math>, then the standard deviation of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> observations&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mo>&#160;</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><mo>&#160;</mo><mo>&#8230;</mo><mo>,</mo><msub><mi>x</mi><mi>n</mi></msub></math> is<br />&nbsp;"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>-</mo><mn>1</mn></math><br />&nbsp;",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><msqrt><mo>(</mo><mi>a</mi><mo>-</mo><mn>1</mn><mo>)</mo></msqrt></math><br />&nbsp;",
+      "is_correct": false
+    },
+    {
+      "text": "&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>n</mi><mo>(</mo><mi>a</mi><mo>-</mo><mn>1</mn><mo>)</mo></msqrt></math><br />&nbsp;",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mo>(</mo><mi>a</mi><mo>-</mo><mn>1</mn><mo>)</mo></msqrt></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>SD,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#963;</mi><mo>=</mo><msqrt><mfrac><mrow><mo>&#8721;</mo><msubsup><mi>x</mi><mi>i</mi><mn>2</mn></msubsup></mrow><mi>n</mi></mfrac><mo>-</mo><msup><mfenced><mfrac><mrow><mo>&#8721;</mo><msub><mi>x</mi><mi>i</mi></msub></mrow><mi>n</mi></mfrac></mfenced><mn>2</mn></msup></msqrt></math></p><p>SD is independent of change of origin, so, for given data<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#963;</mi><mo>=</mo><msqrt><mfrac><mrow><mi>&#931;</mi><msup><mfenced><mrow><msub><mi>x</mi><mi>i</mi></msub><mo>-</mo><mi>a</mi></mrow></mfenced><mn>2</mn></msup></mrow><mi>n</mi></mfrac><mo>-</mo><msup><mfenced><mfrac><mrow><mi>&#931;</mi><mfenced><mrow><msub><mi>x</mi><mi>i</mi></msub><mo>-</mo><mi>a</mi></mrow></mfenced></mrow><mi>n</mi></mfrac></mfenced><mn>2</mn></msup></msqrt></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msqrt><mfrac><mrow><mi>n</mi><mi>a</mi></mrow><mi>n</mi></mfrac><mo>-</mo><msup><mfenced><mfrac><mi>n</mi><mi>n</mi></mfrac></mfenced><mn>2</mn></msup></msqrt><mo>=</mo><msqrt><mi>a</mi><mo>-</mo><mn>1</mn></msqrt></math></p>"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 238,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (26 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The middle term in the expansion of $\\left(1-\\frac{1}{x}\\right)^n\\left(1-x^n\\right)$ in powers of $x$ is"
+  },
+  "options": [
+    {
+      "text": "\n$-{ }^{2 n} \\mathrm{C}_{n-1}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-{ }^{2 n} \\mathrm{C}_n$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n${ }^{2 n} \\mathrm{C}_{n-1}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n${ }^{2 n} \\mathrm{C}_n$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given expansion can be re-written as\n$$\n\\left(\\frac{x-1}{x}\\right)^n \\cdot(1-x)^n=(-1)^n x^{-n}(1-x)^{2 n}\n$$\nTotal number of terms will be $2 n+1$ which is odd ( $\\because 2 n$ is always even)\n$\\therefore$ Middle term $=\\frac{2 n+1+1}{2}=(n+1)$ th\nNow, $T_{r+1}={ }^n C_r(1)^r x^{n-r}$\nSo, $\\frac{{ }^{2 n} C_n \\cdot x^{2 n-n}}{x^n \\cdot(-1)^n}={ }^{2 n} C_n \\cdot(-1)^n$\nMiddle term is an odd term. So, $n+1$ will be odd.\nSo, $n$ will be even.\n$\\therefore$ Required answer is ${ }^{2 n} \\mathrm{C}_n$."
+  }
+}

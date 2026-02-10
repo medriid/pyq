@@ -1,0 +1,43 @@
+{
+  "index": 181,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2009",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $a, b, c$ be such that $b(a+c) \\neq 0$. If $\\left|\\begin{array}{ccc}a & a+1 & a-1 \\\\ -b & b+1 & b-1 \\\\ c & c-1 & c+1\\end{array}\\right|+\\left|\\begin{array}{ccc}a+1 & b+1 & c-1 \\\\ a-1 & b-1 & c+1 \\\\ (-1)^{n+2} a & (-1)^{n+1} b & (-1)^n c\\end{array}\\right|=0$, then the value of ' $n$ ' is"
+  },
+  "options": [
+    {
+      "text": "\nzero\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nany even integer\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nany odd integer\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nany integer",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\left|\\begin{array}{ccc}\na & a+1 & a-1 \\\\\n-b & b+1 & b-1 \\\\\nc & c-1 & c+1\n\\end{array}\\right|+(-1)^n\\left|\\begin{array}{ccc}\na+1 & b+1 & c-1 \\\\\na-1 & b-1 & c+1 \\\\\na & -b & c\n\\end{array}\\right|=\\left|\\begin{array}{ccc}\na & a+1 & a-1 \\\\\n-b & b+1 & b-1 \\\\\nc & c-1 & c+1\n\\end{array}\\right|+(-1)^n\\left|\\begin{array}{cccc}\na+1 & a-1 & a \\\\\nb+1 & b-1 & -b \\\\\nc-1 & c+1 & c\n\\end{array}\\right| \\\\\n& =\\left|\\begin{array}{ccc}\na & a+1 & a-1 \\\\\n-b & b+1 & b-1 \\\\\nc & c-1 & c+1\n\\end{array}\\right|+(-1)^{n+1}\\left|\\begin{array}{ccc}\na+1 & a & a-1 \\\\\nb+1 & -b & b-1 \\\\\nc-1 & c & c+1\n\\end{array}\\right|=\\left|\\begin{array}{ccc}\na & a+1 & a-1 \\\\\n-b & b+1 & b-1 \\\\\nc & c-1 & c+1\n\\end{array}\\right|+(-1)^{n+2}\\left|\\begin{array}{ccc}\na & a+1 & a-1 \\\\\n-b & b+1 & b-1 \\\\\nc & c-1 & c+1\n\\end{array}\\right|\n\\end{aligned}\n$$\nThis is equal to zero only if $n+2$ is odd i.e. $n$ is odd integer."
+  }
+}

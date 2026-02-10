@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2014",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7581a69b0b3a599b78",
+    "chapter_name": "Electrostatics",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Two long coaxial and conducting cylinders of radius a and $\\mathrm{b}$ are separated by a material of conductivity $\\sigma$ and a constant potential difference $\\mathrm{V}$ is maintained between them, by a battery. Then the current, per unit length of the cylinder flowing from one cylinder to the other is -"
+  },
+  "options": [
+    {
+      "text": "$\\frac{4 \\pi \\sigma}{\\ln (b / a)} V$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{4 \\pi \\sigma}{(b+a)} V$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2 \\pi \\sigma}{\\ln (b / a)} V$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{2 \\pi \\sigma}{(b+a)} V$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\mathrm{V}=\\int_{\\mathrm{a}}^{\\mathrm{b}} \\mathrm{E} \\cdot \\mathrm{d} \\ell=\\frac{\\lambda}{2 \\pi \\varepsilon_{0} \\mathrm{r}} \\ln \\left(\\frac{\\mathrm{b}}{\\mathrm{a}}\\right)$\r\n\r\nNow, $I=\\sigma \\int \\vec{E} \\cdot \\overrightarrow{d A}=\\sigma \\int \\frac{\\lambda}{2 \\pi \\varepsilon_{0} r} \\cdot 2 \\pi d r=\\frac{\\sigma \\lambda}{\\varepsilon_{0}}$\r\n\r\nFrom (1)$: I=\\frac{2 \\sigma \\pi \\varepsilon_{0}}{\\varepsilon_{0} \\ln (b / a)}=\\frac{2 \\pi \\sigma}{\\ln (b / a)} v$"
+  }
+}

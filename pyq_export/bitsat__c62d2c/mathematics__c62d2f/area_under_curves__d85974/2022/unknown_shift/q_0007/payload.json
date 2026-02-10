@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd837f780b3c67d85974",
+    "chapter_name": "Area Under Curves",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area enclosed by the curves $y=\\sin x+\\cos x$ and $y=|\\cos x-\\sin x|$ over the interval $\\left[0, \\frac{\\pi}{2}\\right]$ is"
+  },
+  "options": [
+    {
+      "text": "\r\n$4(\\sqrt{2}-1)$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$2 \\sqrt{2}(\\sqrt{2}-1)$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n$2(\\sqrt{2}+1)$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$2 \\sqrt{2}(\\sqrt{2}+1)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given, $y=\\sin x+\\cos x, x \\in[0, \\pi / 2]$\r\n$\\frac{d y}{d x}=\\cos x-\\sin x$\r\n$\\begin{aligned} y & =|\\cos x-\\sin x| \\\\ & =\\left[\\begin{array}{cc}\\cos x-\\sin x & x \\in[0, \\pi / 4] \\\\ \\sin x-\\cos x & x \\in[\\pi / 4, \\pi / 2]\\end{array}\\right]\\end{aligned}$\r\n<img src=\"assets\\st0007_127cf6063a70.png\"><br>\r\n$\\therefore$ Required area\r\n$\\begin{aligned}\r\n&=\\int_0^{\\pi / 4}|(\\sin x+\\cos x)-(\\cos x-\\sin x)| d x+\\int_{\\pi / 4}^{\\pi / 2}|2 \\cos x| d x\r\n\\end{aligned}$\r\n$=\\int_0^{\\pi / 4}|2 \\sin x| d x+\\int_{\\pi / 4}^{\\pi / 2}|2 \\cos x| d x$\r\n$=2(-\\cos x)_0^{\\pi / 4}+2(\\sin x)_{\\pi / 4}^{\\pi / 2}$\r\n$=2\\left[-\\frac{1}{\\sqrt{2}}+1+1-\\frac{1}{\\sqrt{2}}\\right]$<img src=\"assets\\st0007_2591063215e9.png\"><br>\r\n$\\begin{aligned}= & 2\\left(2-\\frac{2}{\\sqrt{2}}\\right) \\\\ = & 2(2-\\sqrt{2}) \\\\ = & 4-2 \\sqrt{2} \\\\ = & 2 \\sqrt{2}(\\sqrt{2}-1)\\end{aligned}$"
+  }
+}

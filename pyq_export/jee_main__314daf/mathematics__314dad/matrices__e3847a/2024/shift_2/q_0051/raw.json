@@ -1,0 +1,58 @@
+{
+  "_id": "6682bd49ba0e94a3c4025bae",
+  "type": "numerical",
+  "level": 1,
+  "questionLabels": [],
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi></math> be a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>×</mo><mn>2</mn></math> real matrix and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">I</mi></math> be the identity matrix of order <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo></math> If the roots of the equation <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi mathvariant=\"normal\">A</mi><mo>-</mo><mi>xI</mi><mo>|</mo><mo>=</mo><mn>0</mn></math> be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>1</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>,</mo></math> then the sum of the diagonal elements of the matrix <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">A</mi><mn>2</mn></msup></math> is _____.",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "10",
+  "solution": {
+    "text": "<p>Given: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi mathvariant=\"normal\">A</mi><mo>-</mo><mi>xI</mi><mo>|</mo><mo>=</mo><mn>0</mn></math> have roots <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>1</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>.</p><p>Let, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable columnalign=\"left\"><mtr><mtd><mi mathvariant=\"normal\">a</mi></mtd><mtd><mi mathvariant=\"normal\">b</mi></mtd></mtr><mtr><mtd><mi mathvariant=\"normal\">c</mi></mtd><mtd><mi mathvariant=\"normal\">d</mi></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi mathvariant=\"normal\">A</mi><mo>-</mo><mi>xI</mi><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mi mathvariant=\"normal\">a</mi></mtd><mtd><mi mathvariant=\"normal\">b</mi></mtd></mtr><mtr><mtd><mi mathvariant=\"normal\">c</mi></mtd><mtd><mi mathvariant=\"normal\">d</mi></mtd></mtr></mtable></mfenced><mo>-</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mi mathvariant=\"normal\">x</mi></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mi mathvariant=\"normal\">x</mi></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi mathvariant=\"normal\">A</mi><mo>-</mo><mi>xI</mi><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mi mathvariant=\"normal\">a</mi><mo>-</mo><mi mathvariant=\"normal\">x</mi></mtd><mtd><mi mathvariant=\"normal\">b</mi></mtd></mtr><mtr><mtd><mi mathvariant=\"normal\">c</mi></mtd><mtd><mi mathvariant=\"normal\">d</mi><mo>-</mo><mi mathvariant=\"normal\">x</mi></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfenced close=\"|\" open=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mo>-</mo><mi>xI</mi></mrow></mfenced><mo>=</mo><mfenced><mrow><mi mathvariant=\"normal\">a</mi><mo>-</mo><mi mathvariant=\"normal\">x</mi></mrow></mfenced><mfenced><mrow><mi mathvariant=\"normal\">d</mi><mo>-</mo><mi mathvariant=\"normal\">x</mi></mrow></mfenced><mo>-</mo><mi>bc</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfenced close=\"|\" open=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mo>-</mo><mi>xI</mi></mrow></mfenced><mo>=</mo><mi>ad</mi><mo>-</mo><mi>ax</mi><mo>-</mo><mi>dx</mi><mo>+</mo><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>-</mo><mi>bc</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfenced close=\"|\" open=\"|\"><mrow><mi mathvariant=\"normal\">A</mi><mo>-</mo><mi>xI</mi></mrow></mfenced><mo>=</mo><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>-</mo><mfenced><mrow><mi mathvariant=\"normal\">a</mi><mo>+</mo><mi mathvariant=\"normal\">d</mi></mrow></mfenced><mi mathvariant=\"normal\">x</mi><mo>+</mo><mfenced><mrow><mi>ad</mi><mo>-</mo><mi>bc</mi></mrow></mfenced></math></p><p>Sum of roots, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">a</mi><mo>+</mo><mi mathvariant=\"normal\">d</mi><mo>=</mo><mn>2</mn></math></p><p>Product of roots, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ad</mi><mo>-</mo><mi>bc</mi><mo>=</mo><mo>-</mo><mn>3</mn></math></p><p>Now finding matrix <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi mathvariant=\"normal\">A</mi><mn>2</mn></msup></math>,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi mathvariant=\"normal\">A</mi><mn>2</mn></msup><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable columnalign=\"left\"><mtr><mtd><mi mathvariant=\"normal\">a</mi></mtd><mtd><mi mathvariant=\"normal\">b</mi></mtd></mtr><mtr><mtd><mi mathvariant=\"normal\">c</mi></mtd><mtd><mi mathvariant=\"normal\">d</mi></mtd></mtr></mtable></mfenced><mo>×</mo><mfenced close=\"]\" open=\"[\"><mtable columnalign=\"left\"><mtr><mtd><mi mathvariant=\"normal\">a</mi></mtd><mtd><mi mathvariant=\"normal\">b</mi></mtd></mtr><mtr><mtd><mi mathvariant=\"normal\">c</mi></mtd><mtd><mi mathvariant=\"normal\">d</mi></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi mathvariant=\"normal\">A</mi><mn>2</mn></msup><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable columnalign=\"left\"><mtr><mtd><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mo>+</mo><mi>bc</mi></mtd><mtd><mi>ab</mi><mo>+</mo><mi>bd</mi></mtd></mtr><mtr><mtd><mi>ac</mi><mo>+</mo><mi>cd</mi></mtd><mtd><mi>bc</mi><mo>+</mo><msup><mi mathvariant=\"normal\">d</mi><mn>2</mn></msup></mtd></mtr></mtable></mfenced></math></p><p>Sum of diagonal elements, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">S</mi><mo>=</mo><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mo>+</mo><mi>bc</mi><mo>+</mo><mi>bc</mi><mo>+</mo><msup><mi mathvariant=\"normal\">d</mi><mn>2</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi mathvariant=\"normal\">S</mi><mo>=</mo><msup><mi mathvariant=\"normal\">a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>bc</mi><mo>+</mo><msup><mi mathvariant=\"normal\">d</mi><mn>2</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi mathvariant=\"normal\">S</mi><mo>=</mo><mo>(</mo><mi mathvariant=\"normal\">a</mi><mo>+</mo><mi mathvariant=\"normal\">d</mi><msup><mo>)</mo><mn>2</mn></msup><mo>-</mo><mn>2</mn><mfenced><mrow><mi>ad</mi><mo>-</mo><mi>bc</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi mathvariant=\"normal\">S</mi><mo>=</mo><mo>(</mo><mn>2</mn><msup><mo>)</mo><mn>2</mn></msup><mo>-</mo><mn>2</mn><mfenced><mrow><mo>-</mo><mn>3</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi mathvariant=\"normal\">S</mi><mo>=</mo><mn>4</mn><mo>+</mo><mn>6</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi mathvariant=\"normal\">S</mi><mo>=</mo><mn>10</mn></math></p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "ea59aa00f983468cb0f1b3760bc31c65",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/OWjWlUwaDMef7.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/OWjWlUwaDMef7.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYearPapers": [
+    {
+      "_id": "65c4c0c01d30997d3436baff",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-01-27T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (27 Jan Shift 2)",
+      "title": "JEE Main 2024 (27 Jan Shift 2)"
+    }
+  ],
+  "previousYear": {
+    "_id": "65c4c0c01d30997d3436baff",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-01-27T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (27 Jan Shift 2)",
+    "title": "JEE Main 2024 (27 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

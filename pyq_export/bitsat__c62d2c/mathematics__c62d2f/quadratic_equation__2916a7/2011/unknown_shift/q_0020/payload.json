@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2011",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7794f6528d292916a7",
+    "chapter_name": "Quadratic Equation",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If \\(\\alpha, \\beta\\) are the roots of the equation \\(\\mathrm{ax}^2+\\mathrm{bx}+\\mathrm{c}=0\\), then the roots of the equation \\(\\mathrm{ax}^2+\\mathrm{bx}(\\mathrm{x}+1)+\\mathrm{c}(\\mathrm{x}+1)^2=0\\) are"
+  },
+  "options": [
+    {
+      "text": "\\(\\alpha-1, \\beta-1\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\alpha+1, \\beta+1\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{\\alpha}{\\alpha-1}, \\frac{\\beta}{\\beta-1}\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\frac{\\alpha}{1-\\alpha}, \\frac{\\beta}{1-\\beta}\\)",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "The second equation can be rewritten as\n\\(a\\left(\\frac{x}{x+1}\\right)^2+b\\left(\\frac{x}{x+1}\\right)+c=0\\)\nand hence its roots correspond to \\(\\frac{\\mathrm{x}}{\\mathrm{x}+1}=\\alpha\\) and \\(\\frac{x}{x+1}=\\beta\\).\nHence \\(x=\\frac{\\alpha}{1-\\alpha}\\) and \\(\\frac{\\beta}{1-\\beta}\\)."
+  }
+}

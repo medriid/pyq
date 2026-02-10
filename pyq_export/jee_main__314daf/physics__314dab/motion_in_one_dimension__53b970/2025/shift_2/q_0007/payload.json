@@ -1,8 +1,8 @@
 {
   "index": 7,
-  "type": "numerical",
+  "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Two cars $P$ and $Q$ are moving on a road in the same direction. Acceleration of car $P$ increases linearly with time whereas car $Q$ moves with a constant acceleration. Both cars cross each other at time $t=0$, for the first time. The maximum possible number of crossing(s) (including the crossing at $t=0)$ is ________."
+    "text": "A particle moves along the $x$-axis and has its displacement $x$ varying with time $t$ according to the equation $\\mathrm{x}=\\mathrm{c}_0\\left(\\mathrm{t}^2-2\\right)+\\mathrm{c}(\\mathrm{t}-2)^2$ where $c_0$ and $c$ are constants of appropriate dimensions. Then, which of the following statements is correct?"
   },
-  "options": [],
-  "correct_answer": "3",
+  "options": [
+    {
+      "text": "the acceleration of the particle is $2 \\mathrm{c}_0$",
+      "is_correct": false
+    },
+    {
+      "text": "the acceleration of the particle is $2\\mathrm{~c}$",
+      "is_correct": false
+    },
+    {
+      "text": "the initial velocity of the particle is $4\\mathrm{~c}$",
+      "is_correct": false
+    },
+    {
+      "text": "the acceleration of the particle is $2\\left(c+c_0\\right)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
   "solution": {
-    "text": "$\\mathrm{a}_{\\mathrm{p}}=\\mathrm{kt}, \\mathrm{k}$ is constant\n$\\mathrm{a}_{\\mathrm{Q}}=\\mathrm{a}, \\mathrm{a}$ is constant\n$\\mathrm{a}_{\\mathrm{QP}}=\\mathrm{a}_{\\mathrm{Q}}-\\mathrm{a}_{\\mathrm{p}}=\\mathrm{a}-\\mathrm{kt}$\nas initial velocities are not mentioned in question, so will have to assume two cases.\nCase-I\n$\\mathrm{u}_{\\mathrm{OP}}$ and $\\mathrm{a}_{\\mathrm{QP}}$ in same direction\n\n<img src=\"assets\\st0007_061834d36620.png\"><br>\n\nTotal number of crossing $=2$ Case-II\n$\\mathrm{u}_{\\mathrm{QP}}$ and $\\mathrm{a}_{\\mathrm{QP}}$ in opposite direction<img src=\"assets\\st0007_989fa022a6d4.png\"><br>\n\n\n\nTotal number of crossing $=3$"
+    "text": "$\\begin{aligned} & \\mathrm{v}=\\frac{\\mathrm{dx}}{\\mathrm{dt}}=2 \\mathrm{tC}_0+2 \\mathrm{C}(\\mathrm{t}-2) \\\\ & \\mathrm{a}=\\frac{\\mathrm{dv}}{\\mathrm{dt}}=2 \\mathrm{C}_0+2 \\mathrm{C}\\end{aligned}$"
   }
 }

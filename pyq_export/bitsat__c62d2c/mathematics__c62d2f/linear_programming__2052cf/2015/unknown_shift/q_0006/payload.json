@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7eb24061ba422052cf",
+    "chapter_name": "Linear Programming",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Minimise $Z=\\sum_{j=1}^{n} \\sum_{i=1}^{m} c_{i j} x_{i j}$\r\n\r\nSubject to $\\sum_{i=1}^{m} x_{i j}=b_{j}, j=1,2, \\ldots, n$\r\n\r\n$\\sum_{j=1}^{n} x_{i j}=b_{j}, i=1,2, \\ldots, m$ is a $L P P$ with number of constr"
+  },
+  "options": [
+    {
+      "text": "$m-n$",
+      "is_correct": false
+    },
+    {
+      "text": "$m$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{m}+\\mathrm{n}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\mathrm{m}}{\\mathrm{n}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Constraints will be\r\n\r\n$$\r\n\r\n\\mathrm{x}_{11}+\\mathrm{x}_{21}+\\ldots .+\\mathrm{x}_{\\mathrm{ml}}=\\mathrm{b}_{1}\r\n\r\n$$\r\n\r\n$\\mathrm{x}_{12}+\\mathrm{x}_{22}+\\ldots \\ldots \\mathrm{x}_{\\mathrm{m} 2}=\\mathrm{b}_{2}$\r\n\r\n$\\mathrm{x}_{\\ln }+\\mathrm{x}_{2 \\mathrm{n}}+\\ldots .+\\mathrm{x}_{\\mathrm{mn}}=\\mathrm{b}_{\\mathrm{n}}$\r\n\r\n$\\mathrm{x}_{11}+\\mathrm{x}_{12}+\\ldots+\\mathrm{x}_{1 \\mathrm{n}}=\\mathrm{b}_{1}$\r\n\r\n$\\mathrm{x}_{21}+\\mathrm{x}_{22}+\\ldots+\\mathrm{x}_{2 \\mathrm{n}}=\\mathrm{b}_{2}$\r\n\r\n$\\mathrm{x}_{\\mathrm{ml}}+\\mathrm{x}_{\\mathrm{m} 2}+\\ldots+\\mathrm{x}_{\\mathrm{mn}}=\\mathrm{b}_{\\mathrm{n}}$\r\n\r\nSo, total number of constraints $=\\mathrm{m}+\\mathrm{n}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7455ca3b13e5b648ea",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let the acute angle bisector of the two planes $x-2 y-2 z+1=0$ and $2 x-3 y-6 z+1=0$ be the plane $P$. Then which of the following points lies on P?"
+  },
+  "options": [
+    {
+      "text": "$\\left(3,1,-\\frac{1}{2}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(-2,0,-\\frac{1}{2}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$(0,2,-4)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(4,0,-2)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given that $P_1: x-2 y-2 z+1=0$\n$P_2: 2 x-3 y-6 z+1=0$\nEquation of plane bisectors\n$\\begin{aligned}\n& \\left|\\frac{x-2 y-2 z+1}{\\sqrt{1+4+4}}\\right|=\\left|\\frac{2 x-3 y-6 z+1}{\\sqrt{2^2+3^2+6^2}}\\right| \\\\\n& \\frac{x-2 y-2 z+1}{3}= \\pm \\frac{2 x-3 y-6 z+1}{7}\n\\end{aligned}$\nSince $\\mathrm{a}_1 \\mathrm{a}_2+\\mathrm{b}_1 \\mathrm{~b}_2+\\mathrm{c}_1 \\mathrm{c}_2=20\\gt0$\n$\\therefore$ Negative sign will be taken for acute bisector.\n$\\begin{aligned}\n& \\Rightarrow 7 x-14 y-14 z+7=-[6 x-9 y-18 z+3] \\\\\n& \\Rightarrow 13 x-23 y-32 z+10=0 \\\\\n& \\left(-2,0,-\\frac{1}{2}\\right) \\text { satisfy it }\n\\end{aligned}$"
+  }
+}

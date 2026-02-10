@@ -1,0 +1,24 @@
+{
+  "index": 41,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $r_k=\\frac{\\int_0^1\\left(1-x^7\\right)^k d x}{\\int_0^1\\left(1-x^7\\right)^{k+1} d x}, k \\in \\mathbb{N}$. Then the value of $\\sum_{k=1}^{10} \\frac{1}{7\\left(r_k-1\\right)}$ is equal to________"
+  },
+  "options": [],
+  "correct_answer": "65",
+  "solution": {
+    "text": "$\\begin{aligned} & I_K=\\int 1 \\cdot\\left(1-x^7\\right)^K d x \\\\ & I_K=\\left.\\left(1-x^7\\right)^K x\\right|_0 ^1+7 K \\int_0^1\\left(1-x^7\\right)^{K-1} x^6 \\cdot x d x \\\\ & I_K=-7 K \\int_0^1\\left(1-x^7\\right)^{K-1}\\left(\\left(1-x^7\\right)-1\\right) d x \\\\ & I_K=-7 K I_K+7 K I_{K-1} \\\\ & \\Rightarrow \\frac{I_K}{I_{K+1}}=\\frac{7 K+8}{7 K+7}\\end{aligned}$<br />$\\begin{aligned} & r_K=\\frac{7 K+8}{7 \\mathrm{~K}+7} \\\\ & \\mathrm{r}_{\\mathrm{K}}-1=\\frac{1}{7(\\mathrm{~K}+1)} \\\\ & \\Rightarrow 7\\left(\\mathrm{r}_{\\mathrm{K}}-1\\right)=\\frac{1}{\\mathrm{~K}+1} \\\\ & \\sum_{\\mathrm{K}=1}^{10}(\\mathrm{~K}+1)=11(6)-1=65\\end{aligned}$"
+  }
+}

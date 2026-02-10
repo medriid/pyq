@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e82c6f5bfc7ab78aeb3c",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44d",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2022-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022",
+      "title": "BITSAT 2022"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "A direct current of $6 \\mathrm{~A}$ is superimposed on an alternating current $I=10 \\sin \\omega t$ flowing through a wire. The effective value of the resulting current will be",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "3XBlT",
+      "text": "\r\n$5 \\sqrt{2}$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "g8GpD",
+      "text": "\r\n$5 \\sqrt{3}$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "PmfFU",
+      "text": "\r\n$9.27$\r\n",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "8gjj3",
+      "text": "\r\n$8.37$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $I=6+10 \\sin \\omega t$\r\n$$\r\n\\begin{aligned}\r\nI_{\\mathrm{eft}} & =\\left[\\frac{\\left.\\int_0^T I^2 d t\\right]^{1 / 2}}{\\int_0^T d t}=\\left[\\frac{1}{T} \\int_0^T(6+10 \\sin \\omega t)^2 d t\\right]^{1 / 2}\\right. \\\\\r\n& =\\left[\\frac{1}{T} \\int_0^T\\left(36+120 \\sin \\omega t+100 \\sin ^2 \\omega t\\right) d t\\right]^{1 / 2}\r\n\\end{aligned}\r\n$$\r\nBut as, $\\frac{1}{T} \\int_0^T \\sin \\omega t d t=0$ and $\\frac{1}{T} \\int_0^T \\sin ^2 \\omega t=\\frac{1}{2}$\r\n$$\r\n\\Rightarrow \\quad I_{\\mathrm{eff}}=\\left[36+\\frac{1}{2} \\times 100\\right]^{1 / 2}=9.27\r\n$$\r\nThus, $\\quad I_{\\text {eff }}=9.27 \\mathrm{~A}$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44d",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2022-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022",
+    "title": "BITSAT 2022"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 31,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602527bd39a958e960a359",
+    "chapter_name": "Complex Number",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $z$ be a complex number such that $|z+2|=1$ and $\\operatorname{Im}\\left(\\frac{z+1}{z+2}\\right)=\\frac{1}{5}$. Then the value of $|\\operatorname{Re}(\\overline{z+2})|$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{2 \\sqrt{6}}{5}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{24}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1+\\sqrt{6}}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\sqrt{6}}{5}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$|z+2|=1, \\operatorname{Im}\\left(\\frac{z+1}{z+2}\\right)=\\frac{1}{5}$<br />Let $z+2=\\cos \\theta+i \\sin \\theta$\n$\\begin{aligned}\n& \\frac{1}{z+2}=\\cos \\theta-i \\sin \\theta \\\\\n& \\Rightarrow \\frac{z+1}{z+2}=1-\\frac{1}{z+2}=1-(\\cos \\theta-i \\sin \\theta) \\\\\n& =(1-\\cos \\theta)+\\operatorname{isin} \\theta \\\\\n& \\operatorname{Im}\\left(\\frac{z+1}{z+2}\\right)=\\sin \\theta, \\sin \\theta=\\frac{1}{5} \\\\\n& \\cos \\theta= \\pm \\sqrt{1-\\frac{1}{25}}= \\pm \\frac{2 \\sqrt{6}}{5} \\\\\n& |\\operatorname{Re}(\\overline{z+2})|=\\frac{2 \\sqrt{6}}{5}\n\\end{aligned}$"
+  }
+}

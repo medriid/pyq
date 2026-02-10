@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7ddf871d2a6297f8ad",
+    "chapter_name": "Binomial Theorem",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The coefficient of $x^n$ in the expansion of $\\frac{e^{7 x}+e^x}{e^{3 x}}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{4^{n-1}+(-2)^n}{n!}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{4^{n-1}+2^n}{n!}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{4^n+(-2)^n}{n!}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{4^{n-1}+(-2)^{n-1}}{n!}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given, $\\frac{e^{7 x}+e^x}{e^{3 x}} \\Rightarrow e^{4 x}+e^{-2 x}$\nSeries of $e^a=1+\\frac{a}{1!}+\\frac{a^2}{2!}+\\frac{a^3}{3!} \\ldots$\n$\\begin{aligned}\n\\Rightarrow e^{4 x}+ & e^{-2 x}=\\left(1+\\frac{4 x}{1!}+\\frac{(4 x)^2}{2!}+\\frac{(4 x)^3}{3!}+\\ldots\\right) \\\\\n& +\\left(1+\\frac{(-2 x)}{1!}+\\frac{(-2 x)^2}{2!}+\\ldots \\ldots\\right)\n\\end{aligned}$\nHere, coefficient of\n$\\begin{aligned}\n& x^2 \\equiv \\frac{4^2}{2!}+\\frac{(-2)^2}{2!} \\\\\n& x^3  \\equiv \\frac{4^3}{3!}+\\frac{(-2)^3}{3!} \\\\\n& \\vdots \\\\\n& x^n=\\frac{4^n}{n!}+\\frac{(-2)^n}{n!}\n\\end{aligned}$"
+  }
+}

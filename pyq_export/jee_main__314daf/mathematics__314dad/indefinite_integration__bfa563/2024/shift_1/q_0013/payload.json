@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $\\int \\frac{2-\\tan x}{3+\\tan x} \\mathrm{~d} x=\\frac{1}{2}\\left(\\alpha x+\\log _{\\mathrm{e}}|\\beta \\sin x+\\gamma \\cos x|\\right)+C$, where $C$ is the constant of integration. Then $\\alpha+\\frac{\\gamma}{\\beta}$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "7",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\int \\frac{2-\\tan x}{3+\\tan x} d x=\\int \\frac{2 \\cos x-\\sin x}{3 \\cos x+\\sin x} d x \\\\ & 2 \\cos x-\\sin x=A(3 \\cos x+\\sin x)+B(\\cos x-3 \\sin x) \\\\ & 3 A+B=2 \\\\ & A-3 B=-1\\end{aligned}$\n$\\begin{aligned} & \\Rightarrow A=\\frac{1}{2}, B=\\frac{1}{2} \\\\ & \\therefore \\int \\frac{2 \\cos x-\\sin x}{3 \\cos x+\\sin x} d x \\\\ & =\\frac{x}{2}+\\frac{1}{2} \\ln |3 \\cos x+\\sin x|+C \\\\ & =\\frac{1}{2}(x+\\ln |3 \\cos x+\\sin x|)+C \\\\ & =\\frac{1}{2}(\\alpha x+\\ln |\\beta \\sin x+\\gamma \\cos x|)+C \\\\ & \\alpha=1, \\beta=1, \\gamma=3 \\\\ & \\therefore \\alpha+\\frac{\\gamma}{\\beta}=1+\\frac{3}{1}=4\\end{aligned}$"
+  }
+}

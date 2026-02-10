@@ -1,8 +1,8 @@
 {
   "index": 21,
   "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2024 (04 Apr Shift 1)",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "In an ac circuit, the instantaneous current is zero, when the instantaneous voltage is maximum. In this case, the source may be connected to :\nA. pure inductor.\nB. pure capacitor.\nC. pure resistor.\nD. combination of an inductor and capacitor.\nChoose the correct answer from the options given below :"
+    "text": "Given below are two statements:\nStatement I: In an LCR series circuit, current is maximum at resonance.\nStatement II: Current in a purely resistive circuit can never be less than that in a series LCR circuit when connected to same voltage source.\nIn the light of the above statements, choose the correct from the options given below:"
   },
   "options": [
     {
-      "text": "A, B and C only",
+      "text": "Statement I is false but Statement II is true",
       "is_correct": false
     },
     {
-      "text": "A and B only",
+      "text": "Statement I is true but Statement II is false",
       "is_correct": false
     },
     {
-      "text": "B, C and D only",
-      "is_correct": false
-    },
-    {
-      "text": "A, B and D only",
+      "text": "Both Statement I and Statement II are true",
       "is_correct": true
+    },
+    {
+      "text": "Both Statement I and Statement II are false",
+      "is_correct": false
     }
   ],
   "correct_answer": [
-    "D"
+    "C"
   ],
   "solution": {
-    "text": "This is possible when phase difference is $\\frac{\\pi}{2}$ between current and voltage so correct answer will be (4)"
+    "text": "Statement-I\n$I_m=\\frac{V_m}{\\sqrt{R^2+\\left(X_L-X_C\\right)^2}}$ at resonance $X_L=X_C$\nThus, $I_m=\\frac{V_m}{R}$\n$\\because$ Impendence is minimum therefore $I$ is maximum at resonance.<br />Statement-II\n$\\mathrm{I}=\\left(\\frac{\\mathrm{V}}{\\mathrm{R}}\\right)$ in purely resistive circuit."
   }
 }

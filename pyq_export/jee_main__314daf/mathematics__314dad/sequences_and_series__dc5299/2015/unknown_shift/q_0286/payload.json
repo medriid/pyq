@@ -1,0 +1,43 @@
+{
+  "index": 286,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2015 (04 Apr)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The sum of first <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn></math> terms of the series <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>1</mn><mn>3</mn></msup><mn>1</mn></mfrac><mo>+</mo><mfrac><mrow><msup><mn>1</mn><mn>3</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup></mrow><mrow><mn>1</mn><mo>+</mo><mn>3</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><msup><mn>1</mn><mn>3</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><msup><mn>3</mn><mn>3</mn></msup></mrow><mrow><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>5</mn></mrow></mfrac><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo></math>&nbsp;is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>192</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>71</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>96</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>142</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>Given,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>1</mn><mn>3</mn></msup><mn>1</mn></mfrac><mo>+</mo><mfrac><mrow><msup><mn>1</mn><mn>3</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup></mrow><mrow><mn>1</mn><mo>+</mo><mn>3</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><msup><mn>1</mn><mn>3</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><msup><mn>3</mn><mn>3</mn></msup></mrow><mrow><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>5</mn></mrow></mfrac><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><msup><mn>1</mn><mn>3</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><mo>...</mo><mo>+</mo><msup><mi>n</mi><mn>3</mn></msup></mrow><mrow><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mo>...</mo><mo>+</mo><mfenced><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mfrac><mrow><msup><mi>n</mi><mn>2</mn></msup><msup><mfenced><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup></mrow><mn>4</mn></mfrac><msup><mi>n</mi><mn>2</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><msup><mfenced><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup><mn>4</mn></mfrac></math><br /><br />Sum of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn></math> terms</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>9</mn></munderover><mfrac><msup><mfenced><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup><mn>4</mn></mfrac></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mfenced open=\"[\" close=\"]\"><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><mn>1</mn><msup><mn>0</mn><mn>2</mn></msup></mrow></mfenced></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mfenced open=\"[\" close=\"]\"><mrow><mfenced><mrow><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><mn>1</mn><msup><mn>0</mn><mn>2</mn></msup></mrow></mfenced><mo>-</mo><msup><mn>1</mn><mn>2</mn></msup></mrow></mfenced></math>&nbsp; &nbsp;</p><p><math> <mrow> <mo>=</mo> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mn>4</mn> </mrow> </mfrac> <mfenced close=\"]\" open=\"[\" separators=\",\"> <mrow> <mfrac> <mrow> <mn>1</mn> <mn>0</mn> <mo>&#183;</mo> <mn>1</mn> <mn>1</mn> <mo>&#183;</mo> <mn>2</mn> <mn>1</mn> </mrow> <mrow> <mn>6</mn> </mrow> </mfrac> <mo>-</mo> <mn>1</mn> </mrow> </mfenced> </mrow> </math>&nbsp; &nbsp; &nbsp;</p><p><math> <mrow> <mo>=</mo> <mfrac> <mrow> <mn>1</mn> </mrow> <mrow> <mn>4</mn> </mrow> </mfrac> <mfenced close=\"]\" open=\"[\" separators=\",\"> <mrow> <mn>3</mn> <mn>8</mn> <mn>4</mn> </mrow> </mfenced> <mo>=</mo> <mn>9</mn> <mn>6</mn> </mrow> </math></p>"
+  }
+}

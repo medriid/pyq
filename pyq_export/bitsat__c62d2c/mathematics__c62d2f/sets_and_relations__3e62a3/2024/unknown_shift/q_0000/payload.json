@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7de14c41a6083e62a3",
+    "chapter_name": "Sets and Relations",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In a statistical investigation of 1003 families of Calcutta, it was found that 63 families has neither a radio nor a TV, 794 families has a radio and 187 has TV. The number of families in that group having both a radio and a TV is"
+  },
+  "options": [
+    {
+      "text": "36",
+      "is_correct": false
+    },
+    {
+      "text": "41",
+      "is_correct": true
+    },
+    {
+      "text": "32",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n\\text {  Given, } n(R) & =794 \\\\\nn(T) & =187 \\\\\nn(R \\cup T)^{\\prime} & =63 \\\\\nn(\\mathrm{Total}) & =n(R \\cup T)+n(R \\cup T)^{\\prime} \\\\\n\\Rightarrow \\quad 1003 & =n(R \\cup T)+63 \\\\\n\\Rightarrow \\quad n(R \\cup T) & =940\n\\end{aligned}$\nBy set theory\n$\\begin{array}{lc}\n\\Rightarrow & n(R \\cup T)=n(R)+n(T)-n(R \\cap T) \\\\\n\\Rightarrow & 940=794+187-n(R \\cap T) \\\\\n\\Rightarrow & n(R \\cap T)=981-940=41\n\\end{array}$"
+  }
+}

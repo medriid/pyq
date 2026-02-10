@@ -1,0 +1,43 @@
+{
+  "index": 49,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2020 (04 Sep Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2020",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The integral&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8747;</mo><msup><mfenced><mfrac><mi>x</mi><mrow><mi>x</mi><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfrac></mfenced><mn>2</mn></msup><mi>d</mi><mi>x</mi></math> is equal to, (where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> is a constant of integration):"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>tan</mi><mi>x</mi><mo>-</mo><mfrac><mrow><mi>x</mi><mi>sec</mi><mi>x</mi></mrow><mrow><mi>x</mi><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>C</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>sec</mi><mi>x</mi><mo>+</mo><mfrac><mrow><mi>x</mi><mi>tan</mi><mi>x</mi></mrow><mrow><mi>x</mi><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>C</mi></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>sec</mi><mi>x</mi><mo>-</mo><mfrac><mrow><mi>x</mi><mi>tan</mi><mi>x</mi></mrow><mrow><mi>x</mi><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>C</mi></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>tan</mi><mi>x</mi><mo>+</mo><mfrac><mrow><mi>x</mi><mi>sec</mi><mi>x</mi></mrow><mrow><mi>x</mi><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>C</mi></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8747;</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mtext>&#8201;&#8201;&#8201;&#8201;</mtext><mi>d</mi><mi>x</mi></mrow><msup><mfenced><mrow><mi>x</mi><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfenced><mn>2</mn></msup></mfrac><mo>=</mo><mo>&#8747;</mo><mfrac><mi>x</mi><mrow><mi>cos</mi><mi>x</mi></mrow></mfrac><mo>&#8901;</mo><mfrac><mrow><mi>x</mi><mi>cos</mi><mi>x</mi></mrow><msup><mfenced><mrow><mi>x</mi><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfenced><mn>2</mn></msup></mfrac><mtext>&#8201;</mtext><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mi>x</mi><mrow><mi>cos</mi><mi>x</mi></mrow></mfrac><mo>&#8747;</mo><mfrac><mrow><mi>x</mi><mi>cos</mi><mi>x</mi></mrow><msup><mfenced><mrow><mi>x</mi><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfenced><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi><mo>&#8722;</mo><mo>&#8747;</mo><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mfenced><mrow><mi>x</mi><mi>sec</mi><mi>x</mi></mrow></mfenced><mo>&#8747;</mo><mfrac><mrow><mi>x</mi><mi>cos</mi><mi>x</mi></mrow><msup><mfenced><mrow><mi>x</mi><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfenced><mn>2</mn></msup></mfrac><mtext>&#8201;</mtext><mi>d</mi><mi>x</mi></mrow></mfenced><mtext>&#8201;</mtext><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mi>x</mi><mrow><mi>cos</mi><mi>x</mi></mrow></mfrac><mfenced><mrow><mo>&#8722;</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfrac></mrow></mfenced><mo>+</mo><mo>&#8747;</mo><msup><mi>sec</mi><mn>2</mn></msup><mi>x</mi><mtext>&#8201;&#8201;</mtext><mi>d</mi><mi>x</mi></math>,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>&#8757;&#8201;&#8201;&#8201;&#8201;</mtext><mo>&#8747;</mo><mfrac><mrow><mi>x</mi><mi>cos</mi><mi>x</mi></mrow><msup><mfenced><mrow><mi>x</mi><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfenced><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mo>&#8722;</mo><mn>1</mn></mrow><mrow><mi>x</mi><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mfenced><mrow><mi>x</mi><mi>sec</mi><mi>x</mi></mrow></mfenced><mo>=</mo><mi>sec</mi><mi>x</mi><mo>+</mo><mi>x</mi><mi>sec</mi><mi>x</mi><mi>tan</mi><mi>x</mi><mo>=</mo><mi>sec</mi><mi>x</mi><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><mi>x</mi><mi>sin</mi><mi>x</mi></mrow><mrow><mi>cos</mi><mi>x</mi></mrow></mfrac></mrow></mfenced><mo>=</mo><msup><mi>sec</mi><mn>2</mn></msup><mi>x</mi><mfenced><mrow><mi>x</mi><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mo>&#8722;</mo><mi>x</mi></mrow><mrow><mi>cos</mi><mi>x</mi><mfenced><mrow><mi>x</mi><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfenced></mrow></mfrac><mo>+</mo><mfrac><mrow><mi>sin</mi><mi>x</mi></mrow><mrow><mi>cos</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>tan</mi><mi>x</mi><mo>&#8722;</mo><mfrac><mrow><mi>x</mi><mi>sec</mi><mi>x</mi></mrow><mrow><mi>x</mi><mi>sin</mi><mi>x</mi><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>C</mi></math></p>"
+  }
+}

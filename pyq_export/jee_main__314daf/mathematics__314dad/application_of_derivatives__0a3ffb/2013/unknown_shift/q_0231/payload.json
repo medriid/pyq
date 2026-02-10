@@ -2,7 +2,7 @@
   "index": 231,
   "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2013 (22 Apr Online)",
+  "pyq_info": "JEE Main 2013 (25 Apr Online)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "unknown_shift"
   },
   "question": {
-    "text": "Statement-1: The function $x^2\\left(e^x+e^{-x}\\right)$ is increasing for all $x>0$.\nStatement-2: The functions $x^2 e^x$ and $x^2 e^{-x}$ are increasing for all $x>0$ and the sum of two increasing functions in any interval $(a, b)$ is an increasing function in $(a, b)$."
+    "text": "Let $f(1)=-2$ and $f^{\\prime}(x) \\geq 4.2$ for $1 \\leq x \\leq 6$. The possible value of $f(6)$ lies in the interval :"
   },
   "options": [
     {
-      "text": "\nStatement-1 is false; Statement-2 is true.\n",
+      "text": "\n$[15,19)$\n",
       "is_correct": false
     },
     {
-      "text": "\nStatement-1 is true; Statement-2 is true; Statement-2 is not a correct explanation for Statement-1.\n",
+      "text": "\n $(-\\infty, 12)$\n",
       "is_correct": false
     },
     {
-      "text": "\nStatement-1 is true; Statement-2 is false.\n",
+      "text": "\n$[12,15)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$[19, \\infty)$",
       "is_correct": true
-    },
-    {
-      "text": "\nStatement-1is true; Statement-2 is true; Statement-2 is a correct explanation for statement-1.",
-      "is_correct": false
     }
   ],
   "correct_answer": [
-    "C"
+    "D"
   ],
   "solution": {
-    "text": "Let $y=x^2 \\cdot e^{-x}$\nFor increasing function,\n$$\n\\begin{aligned}\n& \\frac{d y}{d x}>0 \\Rightarrow x\\left[(2-x) e^{-x}\\right]>0 \\\\\n& \\because x>0, \\therefore(2-x) e^{-x}>0 \\\\\n& \\Rightarrow(2-x) \\frac{1}{e^x}>0 \\\\\n& \\text { For } 0 < x < 2,(2-x) < 0 \\\\\n& \\therefore \\frac{1}{e^x} < 0, \\text { but it is not possible }\n\\end{aligned}\n$$\nHence the statement- 2 is false."
+    "text": "Given $f(1)=-2$ and $f^{\\prime}(x) \\geq 4.2$ for $1 \\leq x \\leq 6$\nConsider $f^{\\prime}(x)=\\frac{f(x+h)-f(x)}{h}$ $\\Rightarrow f(x+h)-f(x)=f^{\\prime}(x) \\cdot h \\geq(4.2) h$\nSo, $f(x+h) \\geq f(x)+(4.2) h$\nput $x=1$ and $h=5$, we get\n$f(6) \\geq f(1)+5(4.2) \\Rightarrow f(6) \\geq 19$\nHence $f(6)$ lies in $[19, \\infty)$"
   }
 }

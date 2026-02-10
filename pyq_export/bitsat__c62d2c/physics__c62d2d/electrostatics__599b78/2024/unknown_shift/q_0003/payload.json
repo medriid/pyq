@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7581a69b0b3a599b78",
+    "chapter_name": "Electrostatics",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "An oil drop of radius $1 \\mu \\mathrm{~m}$ is held stationary under a constant electric field of $3.65 \\times 10^4 \\mathrm{~N} / \\mathrm{C}$ due to some excess electrons presence on it. If the density of oil drop is $1.26 \\mathrm{~g} / \\mathrm{cm}^3$, then number of excess electrons on the oil drop approximately are\n[Take, $g=10 \\mathrm{~ms}^{-2}$ ]"
+  },
+  "options": [
+    {
+      "text": "7",
+      "is_correct": false
+    },
+    {
+      "text": "12",
+      "is_correct": false
+    },
+    {
+      "text": "9",
+      "is_correct": true
+    },
+    {
+      "text": "8",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$E=3.65 \\times 10^4 \\mathrm{~N} / \\mathrm{C}, r=1 \\mu \\mathrm{~m}=10^{-6} \\mathrm{~m}$\n$\\begin{aligned}\n\\rho_{\\text {oil }} & =1.26 \\mathrm{~g} / \\mathrm{cm}^3 \\\\\n& =1.26 \\times 10^3 \\mathrm{~kg} / \\mathrm{m}^3\n\\end{aligned}$\nSince, droplet is stationary hence weight of droplet $=$ force due to electric field\n$\\Rightarrow \\quad \\frac{4}{3} \\pi r^3 \\cdot \\rho_{\\text {oil }} \\cdot g=q E...(i)$\nIf $n$ be the number of excess electrons in the oil drop, then\n$q=n e$\nHence, from Eq. (i), $\\frac{4}{3} \\pi r^3 \\rho_{\\text {oil }} \\cdot g=n e E$\n$\\begin{aligned}\n\\Rightarrow n & =\\frac{4 \\pi r^3 \\rho_{\\text {oill }} g}{3 e E} \\\\\n& =\\frac{4 \\times 3.14 \\times\\left(10^{-6}\\right)^3 \\times 1.26 \\times 10^3 \\times 10}{3 \\times 1.6 \\times 10^{-19} \\times 3.65 \\times 10^4} \\\\\n& =9.03 \\simeq 9\n\\end{aligned}$"
+  }
+}

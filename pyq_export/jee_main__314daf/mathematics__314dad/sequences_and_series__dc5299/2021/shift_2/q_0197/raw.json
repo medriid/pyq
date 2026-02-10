@@ -1,0 +1,83 @@
+{
+  "_id": "648b5a6b417cc3fb48d674fa",
+  "previousYearPapers": [
+    {
+      "_id": "615d92edde3d91842a5cf80d",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2021-02-26T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021 (26 Feb Shift 2)",
+      "title": "JEE Main 2021 (26 Feb Shift 2)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "The sum of the series <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munderover><mo>&#8721;</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mo>&#8734;</mo></munderover><mfrac><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>n</mi><mo>+</mo><mn>10</mn></mrow><mrow><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>!</mo></mrow></mfrac></math> is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "msNu2",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>41</mn><mn>8</mn></mfrac><mi>e</mi><mo>+</mo><mfrac><mn>19</mn><mn>8</mn></mfrac><msup><mi>e</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>+</mo><mn>10</mn></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "bAtv3",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>41</mn><mn>8</mn></mfrac><mi>e</mi><mo>+</mo><mfrac><mn>19</mn><mn>8</mn></mfrac><msup><mi>e</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>-</mo><mn>10</mn></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "jWYUF",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfrac><mn>41</mn><mn>8</mn></mfrac><mi>e</mi><mo>+</mo><mfrac><mn>19</mn><mn>8</mn></mfrac><msup><mi>e</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>-</mo><mn>10</mn></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "aqHWn",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>41</mn><mn>8</mn></mfrac><mi>e</mi><mo>-</mo><mfrac><mn>19</mn><mn>8</mn></mfrac><msup><mi>e</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>-</mo><mn>10</mn></math>",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>n</mi><mo>+</mo><mn>10</mn></mrow><mrow><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>!</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>24</mn><mi>n</mi><mo>+</mo><mn>40</mn></mrow><mrow><mn>4</mn><mo>.</mo><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>!</mo></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><msup><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>n</mi><mo>+</mo><mn>39</mn></mrow><mrow><mn>4</mn><mo>.</mo><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>!</mo></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><msup><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup><mo>+</mo><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>.</mo><mn>10</mn><mo>+</mo><mn>29</mn></mrow><mrow><mn>4</mn><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>!</mo></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mfenced open=\"[\" close=\"]\"><mrow><mfrac><msup><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>2</mn></msup><mrow><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mfenced><mrow><mn>2</mn><mi>n</mi></mrow></mfenced><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mrow><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mn>10</mn></mrow><mrow><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mfenced><mrow><mn>2</mn><mi>n</mi></mrow></mfenced><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mn>29</mn><mrow><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>!</mo></mrow></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mfenced open=\"[\" close=\"]\"><mrow><mfrac><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mrow><mfenced><mrow><mn>2</mn><mi>n</mi></mrow></mfenced><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mn>10</mn><mrow><mfenced><mrow><mn>2</mn><mi>n</mi></mrow></mfenced><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mn>29</mn><mrow><mfenced><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfenced><mo>!</mo></mrow></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mfenced open=\"[\" close=\"]\"><mrow><mfrac><mn>1</mn><mrow><mfenced><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mn>11</mn><mrow><mfenced><mrow><mn>2</mn><mi>n</mi></mrow></mfenced><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mn>29</mn><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo>!</mo></mrow></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>3</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>5</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mo>&#8230;</mo><mo>=</mo><mfrac><mrow><mi>e</mi><mo>-</mo><mfrac><mn>1</mn><mi>e</mi></mfrac></mrow><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub><mo>=</mo><mn>11</mn><mfenced open=\"[\" close=\"]\"><mrow><mfrac><mn>1</mn><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>4</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>6</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mo>&#8230;</mo></mrow></mfenced><mo>=</mo><mn>11</mn><mfenced open=\"[\" close=\"]\"><mfrac><mfenced open=\"\" close=\"]\"><mrow><mi>e</mi><mo>+</mo><mfrac><mn>1</mn><mi>e</mi></mfrac><mo>-</mo><mn>2</mn></mrow></mfenced><mn>2</mn></mfrac></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>3</mn></msub><mo>=</mo><mn>29</mn><mfenced open=\"[\" close=\"]\"><mrow><mfrac><mn>1</mn><mrow><mn>3</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>5</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>7</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mo>&#8230;</mo></mrow></mfenced><mo>=</mo><mn>29</mn><mfenced open=\"[\" close=\"]\"><mfrac><mrow><mi>e</mi><mo>-</mo><mfrac><mn>1</mn><mi>e</mi></mfrac><mo>-</mo><mn>2</mn></mrow><mn>2</mn></mfrac></mfenced></math></p><p>Now, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mfenced open=\"[\" close=\"]\"><mrow><msub><mi>S</mi><mn>1</mn></msub><mo>+</mo><msub><mi>S</mi><mn>2</mn></msub><mo>+</mo><msub><mi>S</mi><mn>3</mn></msub></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mfenced open=\"[\" close=\"]\"><mrow><mfrac><mi>e</mi><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>e</mi></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>11</mn><mi>e</mi></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>11</mn><mrow><mn>2</mn><mi>e</mi></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>29</mn><mi>e</mi></mrow><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>29</mn><mrow><mn>2</mn><mi>e</mi></mrow></mfrac><mo>-</mo><mn>4</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>41</mn><mi>e</mi></mrow><mn>8</mn></mfrac><mo>-</mo><mfrac><mn>19</mn><mrow><mn>8</mn><mi>e</mi></mrow></mfrac><mo>-</mo><mn>10</mn></math></p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "d3bed47a53eb47eab9833f1e3c95dce2",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/29jS9GaurGuWz.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/29jS9GaurGuWz.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "615d92edde3d91842a5cf80d",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2021-02-26T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021 (26 Feb Shift 2)",
+    "title": "JEE Main 2021 (26 Feb Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

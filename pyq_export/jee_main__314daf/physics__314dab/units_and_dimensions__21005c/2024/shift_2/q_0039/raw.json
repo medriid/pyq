@@ -1,62 +1,62 @@
 {
-  "_id": "6682bd61ba0e94a3c4025c47",
+  "_id": "6644670b970e6e9ab542cfb2",
   "type": "singleCorrect",
-  "level": 1,
+  "level": 2,
   "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda69",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-04T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (04 Apr Shift 2)",
+      "title": "JEE Main 2024 (04 Apr Shift 2)"
+    }
+  ],
   "question": {
-    "text": "The equation of state of a real gas is given by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>P</mi><mo>+</mo><mfrac><mi>a</mi><msup><mi>V</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mo>(</mo><mi>V</mi><mo>-</mo><mi>b</mi><mo>)</mo><mo>=</mo><mi>R</mi><mi>T</mi></math>, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>,</mo><mo> </mo><mi>V</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math> are pressure, volume and temperature respectively and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> is the universal gas constant. The dimensions of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">a</mi><msup><mi mathvariant=\"normal\">b</mi><mn>2</mn></msup></mfrac></math> is similar to that of :",
+    "text": "Applying the principle of homogeneity of dimensions, determine which one is correct,\nwhere $T$ is time period, $G$ is gravitational constant, $M$ is mass, $r$ is radius of orbit.",
     "image": null
   },
   "options": [
     {
-      "id": "QJ9hR",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mi>V</mi></math>",
+      "id": "LjyS7",
+      "text": "$T^2=\\frac{4 \\pi^2 r^2}{G M}$",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "iuq2G",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>",
+      "id": "hTg5W",
+      "text": "$T^2=\\frac{4 \\pi^2 r}{G M^2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "onFjq",
+      "text": "$T^2=\\frac{4 \\pi^2 r^3}{G M}$",
       "image": null,
       "isCorrect": true
     },
     {
-      "id": "wdwfD",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mi>T</mi></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "jVBFs",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mpadded><mi>R</mi></mpadded></math>",
+      "id": "THOMz",
+      "text": "$T^2=4 \\pi^2 r^3$",
       "image": null,
       "isCorrect": false
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "<p>From the dimensional analysis, it follows that</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>[</mo><mi mathvariant=\"normal\">P</mi><mo>]</mo><mo>=</mo><mfenced close=\"]\" open=\"[\"><mfrac><mi mathvariant=\"normal\">a</mi><msup><mi mathvariant=\"normal\">V</mi><mn>2</mn></msup></mfrac></mfenced><mspace linebreak=\"newline\"></mspace><mo>⇒</mo><mo>[</mo><mi mathvariant=\"normal\">a</mi><mo>]</mo><mo>=</mo><mfenced close=\"]\" open=\"[\"><msup><mi>PV</mi><mn>2</mn></msup></mfenced><mo> </mo><mo> </mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mn>1</mn></mfenced></math></p><p>And,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>[</mo><mi mathvariant=\"normal\">V</mi><mo>]</mo><mo>=</mo><mo>[</mo><mi mathvariant=\"normal\">b</mi><mo>]</mo></math></p><p>Hence,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnalign=\"right center left\" columnspacing=\"0px\"><mtr><mtd><mfenced close=\"]\" open=\"[\"><mfrac><mi mathvariant=\"normal\">a</mi><msup><mi mathvariant=\"normal\">b</mi><mn>2</mn></msup></mfrac></mfenced></mtd><mtd><mo>=</mo></mtd><mtd><mfrac><mfenced close=\"]\" open=\"[\"><msup><mi>PV</mi><mn>2</mn></msup></mfenced><mfenced close=\"]\" open=\"[\"><msup><mi mathvariant=\"normal\">V</mi><mn>2</mn></msup></mfenced></mfrac></mtd></mtr><mtr><mtd></mtd><mtd><mo>=</mo></mtd><mtd><mrow><mo>[</mo><mi mathvariant=\"normal\">P</mi><mo>]</mo></mrow></mtd></mtr></mtable></math></p>",
+    "text": "According to principle of homogeneity dimension of LHS should be equal to dimensions of RHS so option (3) is correct.\n$\\begin{aligned}\n& \\mathrm{T}^2=\\frac{4 \\pi^2 \\mathrm{r}^3}{\\mathrm{GM}} \\\\\n& {\\left[\\mathrm{T}^2\\right]=\\frac{\\left[\\mathrm{L}^3\\right]}{\\left[\\mathrm{M}^{-1} \\mathrm{~L}^3 \\mathrm{~T}^{-2}\\right][\\mathrm{M}]}}\n\\end{aligned}$\n(Dimension of $\\mathrm{G}$ is $\\left[\\mathrm{M}^{-1} \\mathrm{~L}^3 \\mathrm{~T}^{-2}\\right]$ )\n$\\left[\\mathrm{T}^2\\right]=\\frac{\\left[\\mathrm{L}^3\\right]}{\\left[\\mathrm{L}^3 \\mathrm{~T}^{-2}\\right]}=\\left[\\mathrm{T}^2\\right]$",
     "image": null
   },
   "videoSolution": null,
   "syllabusCategory": "noChange",
-  "previousYearPapers": [
-    {
-      "_id": "65c4c0c01d30997d3436baff",
-      "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-01-27T14:00:00.000Z",
-      "isVisible": true,
-      "shortName": "2024 (27 Jan Shift 2)",
-      "title": "JEE Main 2024 (27 Jan Shift 2)"
-    }
-  ],
   "previousYear": {
-    "_id": "65c4c0c01d30997d3436baff",
+    "_id": "664466ee278297dee60eda69",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-01-27T14:00:00.000Z",
+    "heldOn": "2024-04-04T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (27 Jan Shift 2)",
-    "title": "JEE Main 2024 (27 Jan Shift 2)"
+    "shortName": "2024 (04 Apr Shift 2)",
+    "title": "JEE Main 2024 (04 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

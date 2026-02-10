@@ -1,37 +1,62 @@
 {
-  "_id": "648b5a69417cc3fb48d66ebc",
+  "_id": "648b5a69417cc3fb48d67015",
   "previousYearPapers": [
     {
-      "_id": "615d92edde3d91842a5cf80e",
+      "_id": "615d92edde3d91842a5cf812",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2021-03-16T09:00:00.000Z",
+      "heldOn": "2021-03-18T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2021 (16 Mar Shift 1)",
-      "title": "JEE Main 2021 (16 Mar Shift 1)"
+      "shortName": "2021 (18 Mar Shift 1)",
+      "title": "JEE Main 2021 (18 Mar Shift 1)"
     }
   ],
-  "type": "numerical",
-  "level": 2,
+  "type": "singleCorrect",
+  "level": 3,
   "question": {
-    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>a</mi><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><mi>b</mi><mi>cos</mi><mi>x</mi><mo>+</mo><mi>c</mi><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></mrow><mrow><mi>x</mi><mi>sin</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi></math> is equal to ________.",
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>sin</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi><mo>-</mo><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></mrow><mrow><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup></mrow></mfrac></math> is equal to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mo>,</mo></math> then the value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>6</mn><mi>L</mi><mo>+</mo><mn>1</mn><mo>)</mo></math> is",
     "image": null
   },
-  "options": [],
-  "correctValue": "4",
+  "options": [
+    {
+      "id": "KZ71w",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "ARowY",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "nKiFg",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "mfVt1",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<p>Given&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>a</mi><msup><mi>e</mi><mi>x</mi></msup><mo>-</mo><mi>b</mi><mi>cos</mi><mi>x</mi><mo>+</mo><mi>c</mi><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></mrow><mrow><mi>x</mi><mi>sin</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>a</mi><mfenced><mrow><mn>1</mn><mo>+</mo><mi>x</mi><mo>+</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>&#8230;</mo></mrow></mfenced><mo>-</mo><mi>b</mi><mfenced><mrow><mn>1</mn><mo>-</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mo>&#8230;</mo></mrow></mfenced><mo>+</mo><mi>c</mi><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi><mo>+</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mn>2</mn><mo>!</mo></mrow></mfrac></mrow></mfenced></mrow><mrow><mfenced><mfrac><mrow><mi>x</mi><mi>sin</mi><mi>x</mi></mrow><mi>x</mi></mfrac></mfenced><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>a</mi><mfenced><mrow><mn>1</mn><mo>+</mo><mi>x</mi><mo>+</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>&#8230;</mo></mrow></mfenced><mo>-</mo><mi>b</mi><mfenced><mrow><mn>1</mn><mo>-</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mo>&#8230;</mo></mrow></mfenced><mo>+</mo><mi>c</mi><mfenced><mrow><mn>1</mn><mo>-</mo><mi>x</mi><mo>+</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mn>2</mn><mo>!</mo></mrow></mfrac></mrow></mfenced></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>2</mn><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mfenced><mrow><mo>&#8757;</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>sin</mi><mi>x</mi></mrow><mi>x</mi></mfrac><mo>=</mo><mn>1</mn></mrow></mfenced></math></p><p>For the given limit to exist numerator should be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>,</mo><mo>&#160;</mo><mtext>when&#160;</mtext><mi>x</mi><mo>&#8594;</mo><mn>0</mn><mo>.</mo></math></p><p>Then,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>-</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></math>&nbsp; &nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>.</mo><mo>.</mo><mo>.</mo><mo>(</mo><mi mathvariant=\"normal\">i</mi><mo>)</mo></math></p><p>Applying L&#39;Hospital&#39;s rule, we get&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>a</mi><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><mn>2</mn><mi>x</mi></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>&#8230;</mo></mrow></mfenced><mo>-</mo><mi>b</mi><mfenced><mrow><mo>-</mo><mfrac><mrow><mn>2</mn><mi>x</mi></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mo>&#8230;</mo></mrow></mfenced><mo>+</mo><mi>c</mi><mfenced><mrow><mo>-</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mn>2</mn><mi>x</mi></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac></mrow></mfenced></mrow><mrow><mn>2</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn></math></p><p>Again, for the given limit to exist numerator should be&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>,</mo><mo>&#160;</mo><mtext>when</mtext><mo>&#160;</mo><mi>x</mi><mo>&#8594;</mo><mn>0</mn><mo>.</mo><mo>&#160;</mo></math></p><p>Then,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>-</mo><mi>c</mi><mo>=</mo><mn>0</mn><mo>&#160;</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mi>ii</mi></mfenced></math></p><p>Applying,&nbsp;L&#39;Hospital&#39;s rule, we get&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>a</mi><mfenced><mrow><mn>1</mn><mo>+</mo><mo>&#8230;</mo></mrow></mfenced><mo>-</mo><mi>b</mi><mfenced><mrow><mo>-</mo><mn>1</mn><mo>+</mo><mo>&#8230;</mo></mrow></mfenced><mo>+</mo><mi>c</mi><mfenced><mn>1</mn></mfenced></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>4</mn></math></p>",
+    "text": "<p>Given&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>sin</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi><mo>-</mo><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></mrow><mrow><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mfenced><mrow><mi>x</mi><mo>+</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mrow><mn>3</mn><mo>!</mo></mrow></mfrac><mo>&#8230;</mo></mrow></mfenced><mo>-</mo><mfenced><mrow><mi>x</mi><mo>-</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>&#8230;</mo></mrow></mfenced></mrow><mrow><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mfenced><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>3</mn><mo>!</mo></mrow></mfrac><mo>&#8230;</mo></mrow></mfenced><mo>-</mo><mfenced><mrow><mn>1</mn><mo>-</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>3</mn></mfrac><mo>&#8230;</mo></mrow></mfenced></mrow><mrow><mn>9</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></math>&nbsp;(Use L&#39;Hospital rule&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>0</mn><mn>0</mn></mfrac></math>&nbsp;form)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mfenced><mrow><mfrac><mrow><mn>6</mn><mi>x</mi></mrow><mrow><mn>3</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mo>&#8230;</mo></mrow></mfenced><mo>-</mo><mfenced><mrow><mo>-</mo><mfrac><mrow><mn>6</mn><mi>x</mi></mrow><mn>3</mn></mfrac><mo>+</mo><mo>&#8230;</mo></mrow></mfenced></mrow><mrow><mn>18</mn><mi>x</mi></mrow></mfrac></math>&nbsp; (Use L&#39;Hospital rule&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>0</mn><mn>0</mn></mfrac></math>&nbsp;form)</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><mfenced><mrow><mfrac><mn>6</mn><mrow><mn>3</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mo>&#8230;</mo></mrow></mfenced><mo>-</mo><mfenced><mrow><mo>-</mo><mfrac><mn>6</mn><mn>3</mn></mfrac><mo>+</mo><mo>&#8230;</mo></mrow></mfenced></mrow><mn>18</mn></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mo>+</mo><mn>2</mn></mrow><mn>18</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></math></p><p>Given that,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>sin</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi><mo>-</mo><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></mrow><mrow><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mi>L</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>=</mo><mi>L</mi><mo>&#8658;</mo><mn>6</mn><mi>L</mi><mo>=</mo><mn>1</mn></math></p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>L</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>2</mn></math></p>",
     "image": null
   },
   "videoSolution": null,
   "questionLabels": [],
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "615d92edde3d91842a5cf80e",
+    "_id": "615d92edde3d91842a5cf812",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2021-03-16T09:00:00.000Z",
+    "heldOn": "2021-03-18T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2021 (16 Mar Shift 1)",
-    "title": "JEE Main 2021 (16 Mar Shift 1)"
+    "shortName": "2021 (18 Mar Shift 1)",
+    "title": "JEE Main 2021 (18 Mar Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 3)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83086701c4b7dd0475",
+    "chapter_name": "Application of Derivatives",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider the function $f(x)=\\frac{|x-1|}{x^2}$, then $f(x)$ is"
+  },
+  "options": [
+    {
+      "text": "increasing in $(0,1) \\cup(2, \\infty)$",
+      "is_correct": false
+    },
+    {
+      "text": "increasing in $(-\\infty, 0) \\cup(0,1)$",
+      "is_correct": false
+    },
+    {
+      "text": "decreasing in $(-\\infty, 0) \\cup(2, \\infty)$",
+      "is_correct": false
+    },
+    {
+      "text": "decreasing in $(0,1) \\cup(2, \\infty)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given, $f(x)=\\left\\{\\begin{aligned} \\frac{x-1}{x^2} ; & x \\geq 1 \\\\ \\frac{-x+1}{x^2} ; & x \\lt 1\\end{aligned}\\right.$\n$\\begin{aligned}\n& f(x)= \\begin{cases}\\frac{1}{x}-\\frac{1}{x^2} ; & x \\geq 1 \\\\\n-\\frac{1}{x}+\\frac{1}{x^2} ; & x \\lt 1\\end{cases} \\\\\n& f^{\\prime}(x)= \\begin{cases}\\frac{-1}{x^2}+\\frac{2}{x^3} ; & x \\geq 1 \\\\\n\\frac{1}{x^2}-\\frac{2}{x^3} ; & x \\lt 1\\end{cases} \\\\\n& f^{\\prime}(x)= \\begin{cases}\\frac{2-x}{x^3} ; & x \\geq 1 \\\\\n\\frac{x-2}{x^3} ; & x \\lt 1\\end{cases}\n\\end{aligned}$\nBy observation, $f^{\\prime}(x)$ will be<img src=\"assets\\st0000_de1b24c301f9.png\"/>\nDecreasing in $(0,1) \\cup(2, \\infty)$\nand increasing in $(-\\infty, 0) \\cup(1,2)$"
+  }
+}

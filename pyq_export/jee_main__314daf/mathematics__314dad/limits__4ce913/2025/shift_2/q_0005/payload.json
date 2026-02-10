@@ -1,8 +1,8 @@
 {
   "index": 5,
-  "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (2 Apr Shift 2)",
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "If $\\lim _{x \\rightarrow 0} \\frac{\\cos (2 x)+a \\cos (4 x)-b}{x^4}$ is finite, then $(a+b)$ is equal to :"
+    "text": "If the function $f(x)=\\frac{\\tan (\\tan x)-\\sin (\\sin x)}{\\tan x-\\sin x}$ is continuous at $\\mathrm{x}=0$, then $f(0)$ is equal to ________"
   },
-  "options": [
-    {
-      "text": "$\\frac{1}{2}$",
-      "is_correct": true
-    },
-    {
-      "text": "$0$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{3}{4}$",
-      "is_correct": false
-    },
-    {
-      "text": "$-1$",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "A"
-  ],
+  "options": [],
+  "correct_answer": "2",
   "solution": {
-    "text": "$\\lim _{x \\rightarrow 0} \\frac{\\cos 2 x+a \\cos 4 x-b}{x^4}=$ finite<br/>$\\begin{aligned} & L=\\frac{\\left\\{1-\\frac{(2 x)^2}{\\underline{2}}+\\frac{(2 x)^4}{\\underline{4} \\cdots\\}\\}+a\\left\\{1-\\frac{(4 x)^2}{\\underline{2}}+\\frac{(4 x)^4}{\\lfloor 4} \\ldots \\cdot\\right\\}-b}\\right.}{x^4} \\\\ & L=\\frac{(1+a-b)-x^2(2+8 a)+x^4\\left(\\frac{2}{3}+\\frac{32}{3} a\\right)+x^6() \\ldots}{x^4}\\end{aligned}$<br/>$\\begin{aligned} & \\therefore 1+\\mathrm{a}-\\mathrm{b}=0 \\text { and } 2+8 \\mathrm{a}=0 \\Rightarrow \\mathrm{a}=-\\frac{1}{4} \\\\ & \\mathrm{~b}=\\mathrm{a}+1 \\\\ & =-\\frac{1}{4}+1=\\frac{3}{4} \\\\ & \\therefore \\mathrm{a}+\\mathrm{b}=-\\frac{1}{4}+\\frac{3}{4}=\\frac{1}{2}\\end{aligned}$"
+    "text": "$\\lim _{x \\rightarrow 0} \\frac{\\frac{\\tan (\\tan x)-\\tan x}{\\tan ^3 x} \\frac{\\tan ^3 x}{x^3}+\\frac{\\tan x-\\sin x}{x^3}+\\frac{\\sin x-\\sin (\\sin x)}{\\sin ^3 x} \\frac{\\sin ^3 x}{x^3}}{\\frac{\\tan x-\\sin x}{x^3}}$<br/>$=\\frac{\\frac{1}{3}+\\frac{1}{2}+\\frac{1}{6}}{\\frac{1}{2}}=2$"
   }
 }

@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $(a, b)$ be the point of intersection of the curve $x^2=2 y$ and the straight line $y-2 x-6=0$ in the second quadrant. Then the integral $I=\\int_a^b \\frac{9 x^2}{1+5^x} d x$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$24$",
+      "is_correct": true
+    },
+    {
+      "text": "$27$",
+      "is_correct": false
+    },
+    {
+      "text": "$18$",
+      "is_correct": false
+    },
+    {
+      "text": "$21$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & x^2=2 y \\& y=2 x+6 \\\\ & x^2=4 x+12\\end{aligned}$<br/>$\\left.x^2-4 x-12=0 \\Rightarrow \\begin{gathered}x=6 \\\\ y=18\\end{gathered} \\right\\rvert\\, \\begin{gathered}\\text { if } x=-2 \\\\ y=2\\end{gathered}$<br/>$\\therefore(6,18) \\&(-2,2)$<br/>Here $(6,18)$ Rejected because $(a, b)$ lies in $2^{\\text {nd }}$ quadrant<br/>$\\begin{aligned} & \\therefore \\mathrm{a}=-2 \\& \\mathrm{~b}=2 \\\\ & \\therefore \\mathrm{I}=\\int_{-2}^2 \\frac{9 \\mathrm{x}^2}{1+5^{\\mathrm{x}}} \\mathrm{dx}=\\int_{-2}^2 \\frac{9 \\cdot 5^{\\mathrm{x}} \\cdot \\mathrm{x}^2}{1+5^{\\mathrm{x}}} \\mathrm{dx} \\\\ & \\therefore 2 \\mathrm{I}=\\int_{-2}^2 9 \\mathrm{x}^2 \\mathrm{dx}=18 \\int_0^2 \\mathrm{x}^2 \\mathrm{dx}=18\\left(\\frac{\\mathrm{x}^3}{3}\\right)_0^2 \\\\ & 2 \\mathrm{I}=48 \\\\ & \\therefore \\mathrm{I}=24\\end{aligned}$"
+  }
+}

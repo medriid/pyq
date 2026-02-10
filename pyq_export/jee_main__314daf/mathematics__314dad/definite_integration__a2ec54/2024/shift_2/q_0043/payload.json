@@ -1,0 +1,24 @@
+{
+  "index": 43,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (05 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $f(t)=\\int_0^\\pi \\frac{2 x \\mathrm{~d} x}{1-\\cos ^2 \\mathrm{t} \\sin ^2 x}, 0 < \\mathrm{t} < \\pi$, then the value of $\\int_0^{\\frac{\\pi}{2}} \\frac{\\pi^2 \\mathrm{dt}}{f(\\mathrm{t})}$ equals_________"
+  },
+  "options": [],
+  "correct_answer": "1",
+  "solution": {
+    "text": "$f(t)=\\int_0^\\pi \\frac{2 x}{1-\\cos ^2 t \\sin ^2 x} d x$ .....(1)\n$=2 \\int_0^\\pi \\frac{(\\pi-x) d x}{1-\\cos ^2 \\sin ^2 x}$ .....(2)\n$\\begin{aligned}\n& 2 f(t)=2 \\int_0^\\pi \\frac{\\pi}{1-\\cos ^2 \\sin ^2 x} d x \\\\\n& f(t)=\\int_0^\\pi \\frac{\\pi}{1-\\cos ^2 t \\sin ^2 x} d x\n\\end{aligned}$\ndivide \\& by $\\cos ^2 \\mathrm{x}$\n$\\begin{aligned}\n& f(t)=\\pi \\int_0^\\pi \\frac{\\sec ^2 x d x}{\\sec ^2 x-\\cos ^2 t^2 x} \\\\\n& f(t)=2 \\pi \\int_0^{\\pi / 2} \\frac{\\sec ^2 x d x}{\\sec ^2 x-\\cos ^2 t^2 \\tan ^2 x} \\\\\n& \\tan x=z \\\\\n& \\sec ^2 x d x=d z \\\\\n& f(t)=2 \\pi \\int_0^{\\infty} \\frac{d z}{1+\\sin ^2 t \\cdot z^2} \\\\\n& =\\frac{\\pi^2}{\\sin t}\n\\end{aligned}$\nThen $\\int_0^{\\pi / 2} \\frac{\\pi^2}{f(t)} d t$\n$\\begin{aligned}\n& =\\int_0^{\\pi / 2} \\sin t d t \\\\\n& =1\n\\end{aligned}$"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7e26f5bfc7ab78ae8ad",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d7a",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2016-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2016",
+      "title": "BITSAT 2016"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "If $f(x)=\\left\\{\\begin{array}{cl}\\frac{x \\log \\cos x}{\\log \\left(1+x^{2}\\right)} & , x \\neq 0 \\\\ 0 & , x=0\\end{array}\\right.$ then $f(x)$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "e8CQ8",
+      "text": "continuous as well as differentiable at $\\mathrm{x}=0$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "k8WDq",
+      "text": "continuous but not differentiable at $x=0$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Us9io",
+      "text": "differentiable but not continuous at $\\mathrm{x}=0$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "wLoNu",
+      "text": "neither continuous nor differentiable at $\\mathrm{x}=0$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have,\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n\\mathrm{Lf}^{\\prime}(0) &=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{\\mathrm{f}(0-\\mathrm{h})-\\mathrm{f}(0)}{-\\mathrm{h}}=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{-\\mathrm{h} \\log \\cosh }{-\\mathrm{h} \\log \\left(1+\\mathrm{h}^{2}\\right)} \\\\\r\n\r\n=& \\lim _{\\mathrm{h} \\rightarrow 0} \\frac{\\log \\cosh }{\\log \\left(1+\\mathrm{h}^{2}\\right)}\\left(\\frac{0}{0} \\text { form }\\right)\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\n$\\begin{aligned} &=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{-\\tan \\mathrm{h}}{2 \\mathrm{~h} /\\left(1+\\mathrm{h}^{2}\\right)}=-1 / 2 \\\\ \\mathrm{Rf}^{\\prime}(0) &=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{\\mathrm{f}(0+\\mathrm{h})-\\mathrm{f}(0)}{\\mathrm{h}}=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{\\mathrm{h} \\log \\cosh }{\\mathrm{h} \\log \\left(1+\\mathrm{h}^{2}\\right)} \\\\ &=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{\\log \\cos \\mathrm{h}}{\\log \\left(1+\\mathrm{h}^{2}\\right)}\\left(\\frac{0}{0} \\text { form }\\right) \\\\ &=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{-\\tan \\mathrm{h}}{2 \\mathrm{~h} /\\left(1+\\mathrm{h}^{2}\\right)}=\\frac{-1}{2} \\end{aligned}$\r\n\r\nSince $\\mathrm{Lf}^{\\prime}(0)=\\operatorname{Rf}^{\\prime}(0),$ therefore $\\mathrm{f}(\\mathrm{x})$ is dif-\r\n\r\nferentiable at $x=0$\r\n\r\nSince differentiability $\\Rightarrow$ continuity, there-fore $\\mathrm{f}(\\mathrm{x})$ is continuous at $\\mathrm{x}=0$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d7a",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2016-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2016",
+    "title": "BITSAT 2016"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 23,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2017",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78b6e5f7d916087e2f",
+    "chapter_name": "Probability",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A coin is tossed <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math> times. Each time a man calls head. The probability that he wins the toss at least four times is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>The man has to win atleast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> times.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo></math> Required probability</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>4</mn><none/><mprescripts/><none/><mn>7</mn></mmultiscripts><msup><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mn>4</mn></msup><msup><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mn>3</mn></msup><mo>+</mo><mmultiscripts><mi>C</mi><mn>5</mn><none/><mprescripts/><none/><mn>7</mn></mmultiscripts><msup><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mn>5</mn></msup><msup><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mn>2</mn></msup><mo>+</mo><mmultiscripts><mi>C</mi><mn>6</mn><none/><mprescripts/><none/><mn>7</mn></mmultiscripts><msup><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mn>6</mn></msup><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mo>+</mo><mmultiscripts><mi>C</mi><mn>7</mn><none/><mprescripts/><none/><mn>7</mn></mmultiscripts><msup><mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></mfenced><mn>7</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced><mrow><mmultiscripts><mi>C</mi><mn>4</mn><none/><mprescripts/><none/><mn>7</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>5</mn><none/><mprescripts/><none/><mn>7</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>6</mn><none/><mprescripts/><none/><mn>7</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>7</mn><none/><mprescripts/><none/><mn>7</mn></mmultiscripts></mrow></mfenced><mo>&#215;</mo><mfrac><mn>1</mn><msup><mn>2</mn><mn>7</mn></msup></mfrac><mo>=</mo><mfrac><mn>64</mn><msup><mn>2</mn><mn>7</mn></msup></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math></p>"
+  }
+}

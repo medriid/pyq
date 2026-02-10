@@ -1,62 +1,82 @@
 {
-  "_id": "6682bd5eba0e94a3c4025c35",
+  "_id": "66446730970e6e9ab542d107",
   "type": "singleCorrect",
-  "level": 1,
+  "level": 2,
   "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6c",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-06T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (06 Apr Shift 1)",
+      "title": "JEE Main 2024 (06 Apr Shift 1)"
+    }
+  ],
   "question": {
-    "text": "Two marbles are drawn in succession from a box containing <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math> red, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math> white, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn></math> blue and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math> orange marbles, with replacement being made after each drawing. Then the probability, that first drawn marble is red and second drawn marble is white, is",
+    "text": "A company has two plants $A$ and $B$ to manufacture motorcycles. $60 \\%$ motorcycles are manufactured at plant $A$ and the remaining are manufactured at plant $B .80 \\%$ of the motorcycles manufactured at plant $A$ are rated of the standard quality, while $90 \\%$ of the motorcycles manufactured at plant $B$ are rated of the standard quality. A motorcycle picked up randomly from the total production is found to be of the standard quality. If $p$ is the probability that it was manufactured at plant $B$, then $126 p$ is",
     "image": null
   },
   "options": [
     {
-      "id": "cdEd0",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>25</mn></mfrac></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "szzQD",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>25</mn></mfrac></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "4pPnc",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "rt84e",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>75</mn></mfrac></math>",
+      "id": "YDuYG",
+      "text": "54",
       "image": null,
       "isCorrect": true
+    },
+    {
+      "id": "j30cv",
+      "text": "66",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "T7n7d",
+      "text": "64",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "RXVUN",
+      "text": "56",
+      "image": null,
+      "isCorrect": false
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "<p>Given marbles are:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>→</mo><mi>R</mi><mo>,</mo><mo> </mo><mn>30</mn><mo>→</mo><mi>W</mi><mo>,</mo><mo> </mo><mn>20</mn><mo>→</mo><mi>B</mi><mo>,</mo><mo> </mo><mn>15</mn><mo>→</mo><mi>O</mi></math></p><p>We know that, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mi>E</mi></mfenced><mo>=</mo><mfrac><mtext>Number of favourable outcomes</mtext><mtext>Total number of outcomes</mtext></mfrac></math></p><p>Also, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mi>A</mi><mo> </mo><mtext>and</mtext><mo> </mo><mi>B</mi></mrow></mfenced><mo>=</mo><mi>P</mi><mfenced><mi>A</mi></mfenced><mo>×</mo><mi>P</mi><mfenced><mi>B</mi></mfenced></math>, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo> </mo><mtext>and</mtext><mo> </mo><mi>B</mi></math> are independent events.</p><p>Probability of drawing first marble red and then white is given by,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mi>E</mi></mfenced><mo>=</mo><mfrac><mn>10</mn><mn>75</mn></mfrac><mo>×</mo><mfrac><mn>30</mn><mn>75</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>P</mi><mfenced><mi>E</mi></mfenced><mo>=</mo><mfrac><mn>4</mn><mn>75</mn></mfrac></math></p>",
+    "text": "$\\begin{array}{|l|c|c|}\n\\hline & \\text{A} & \\text{B} \\\\\n\\hline \\text{Manufactured} & 60 \\% & 40 \\% \\\\\n\\hline \\text{Standard quality} & 80 \\% & 90 \\% \\\\\n\\hline\n\\end{array}$\n$\\mathrm{P}$ (Manufactured at $\\mathrm{B} /$ found standard quality $)=$ ?\nA : Found S.Q\nB : Manufacture B\n$\\mathrm{C}$ : Manufacture A\n$\\begin{aligned}\n& P\\left(E_1\\right)=\\frac{40}{100} \\\\\n& P\\left(E_2\\right)=\\frac{60}{100} \\\\\n& P\\left(A / E_1\\right)=\\frac{90}{100} \\\\\n& P\\left(A / E_2\\right)=\\frac{80}{100} \\\\\n& \\because P\\left(E_1 / A\\right)=\\frac{P\\left(A / E_1\\right) P\\left(E_1\\right)}{P\\left(A / E_1\\right) P\\left(E_1\\right)+P\\left(A / E_2\\right) P\\left(E_2\\right)}=\\frac{3}{7} \\\\\n& \\therefore 126 P=54\n\\end{aligned}$",
     "image": null
   },
-  "videoSolution": null,
+  "videoSolution": {
+    "videoId": "5f461d57c6b342c9b0e07b3083f38fa2",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/2sgEtCtygnjCv.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/2sgEtCtygnjCv.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
   "syllabusCategory": "noChange",
-  "previousYearPapers": [
-    {
-      "_id": "65c4c0c11d30997d3436bb04",
-      "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-01-31T09:00:00.000Z",
-      "isVisible": true,
-      "shortName": "2024 (31 Jan Shift 1)",
-      "title": "JEE Main 2024 (31 Jan Shift 1)"
-    }
-  ],
   "previousYear": {
-    "_id": "65c4c0c11d30997d3436bb04",
+    "_id": "664466ee278297dee60eda6c",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-01-31T09:00:00.000Z",
+    "heldOn": "2024-04-06T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (31 Jan Shift 1)",
-    "title": "JEE Main 2024 (31 Jan Shift 1)"
+    "shortName": "2024 (06 Apr Shift 1)",
+    "title": "JEE Main 2024 (06 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

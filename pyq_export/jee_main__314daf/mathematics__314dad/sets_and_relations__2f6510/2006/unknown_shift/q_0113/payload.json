@@ -1,0 +1,43 @@
+{
+  "index": 113,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2006",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254da66d43264e2f6510",
+    "chapter_name": "Sets and Relations",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let W denote the words in the English dictionary. Define the relation R by :\n$R=\\{(x, y) \\in W \\times W \\mid$ the words $x$ and $y$ have at least one letter in common $\\}$. Then $R$ is"
+  },
+  "options": [
+    {
+      "text": "\nnot reflexive, symmetric and transitive\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nreflexive, symmetric and not transitive\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nreflexive, symmetric and transitive\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nreflexive, not symmetric and transitive",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Clearly $(\\mathrm{x}, \\mathrm{x}) \\in \\mathrm{R} \\forall \\mathrm{x} \\in \\mathrm{W}$. So, $\\mathrm{R}$ is reflexive.\nLet $(x, y) \\in R$, then $(y, x) \\in R$ as $x$ and $y$ have at least one letter in common. So, $R$ is symmetric.\nBut $R$ is not transitive for example\nLet $x=$ DELHI, $y=$ DWARKA and $z=$ PARK\nthen $(x, y) \\in R$ and $(y, z) \\in R$ but $(x, z) \\notin R$."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 222,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2019 (09 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2019",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If <math><mi>f</mi><mo>:</mo><mi>R</mi><mo>&#8594;</mo><mi>R</mi></math> is a differentiable function and <math><mi>f</mi><mfenced separators=\"|\"><mrow><mn>2</mn></mrow></mfenced><mo>=</mo><mn>6</mn><mo>,</mo></math> then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>2</mn></mrow></munder><msubsup><mo>&#8747;</mo><mn>6</mn><mrow><mi>f</mi><mfenced><mi>x</mi></mfenced></mrow></msubsup><mfrac><mrow><mn>2</mn><mi>t</mi><mi>d</mi><mi>t</mi></mrow><mfenced separators=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>2</mn></mrow></mfenced></mfrac></math> is:"
+  },
+  "options": [
+    {
+      "text": "<math><mn>0</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mi>f</mi><mi>'</mi></msup><mfenced separators=\"|\"><mn>2</mn></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>24</mn><msup><mrow><mi>f</mi></mrow><mrow><mi>'</mi></mrow></msup><mfenced separators=\"|\"><mrow><mn>2</mn></mrow></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math><mn>12</mn><msup><mrow><mi>f</mi></mrow><mrow><mi>'</mi></mrow></msup><mfenced separators=\"|\"><mrow><mn>2</mn></mrow></mfenced></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>The given limit can be written as</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>2</mn></mrow></munder><mfrac><mrow><msubsup><mo>&#8747;</mo><mn>6</mn><mrow><mi>f</mi><mfenced><mi>x</mi></mfenced></mrow></msubsup><mn>2</mn><mi>t</mi><mi>d</mi><mi>t</mi></mrow><mfenced separators=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>2</mn></mrow></mfenced></mfrac><mi>&#160;</mi><mi>&#160;</mi></math></p><p>Applying L&#39; Hospital&rsquo;s rule i.e. if&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>a</mi></mrow></munder><mfrac><mrow><mi>g</mi><mfenced><mi>x</mi></mfenced></mrow><mrow><mi>h</mi><mfenced><mi>x</mi></mfenced></mrow></mfrac></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>a</mi></mrow></munder><mi>g</mi><mfenced><mi>x</mi></mfenced><mo>&#8594;</mo><mn>0</mn><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>a</mi></mrow></munder><mi>h</mi><mfenced><mi>x</mi></mfenced><mo>&#8594;</mo><mn>0</mn><mo>,</mo></math>&nbsp;then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mi>a</mi></mrow></munder><mfrac><mrow><msup><mi>g</mi><mo>&#39;</mo></msup><mfenced><mi>x</mi></mfenced></mrow><mrow><msup><mi>h</mi><mo>&#39;</mo></msup><mfenced><mi>x</mi></mfenced></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi><mo>=</mo><munder><mrow><mi mathvariant=\"normal\">l</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">m</mi></mrow><mrow><mi>x</mi><mo>&#8594;</mo><mn>2</mn></mrow></munder><mfrac><mrow><mstyle displaystyle=\"true\"><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac></mstyle><msubsup><mo>&#8747;</mo><mn>6</mn><mrow><mi>f</mi><mfenced><mi>x</mi></mfenced></mrow></msubsup><mn>2</mn><mi>t</mi><mi>d</mi><mi>t</mi></mrow><mn>1</mn></mfrac></math></p><p>Now, applying Newton&#39;s Leibnitz rule i.e.&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><msubsup><mo>&#8747;</mo><mi>a</mi><mi>b</mi></msubsup><mi>g</mi><mfenced><mi>x</mi></mfenced><mi>d</mi><mi>x</mi><mo>=</mo><mi>g</mi><mfenced><mi>b</mi></mfenced><mo>&#183;</mo><msup><mi>b</mi><mo>'</mo></msup><mo>-</mo><mi>g</mi><mfenced><mi>a</mi></mfenced><mo>&#183;</mo><msup><mi>a</mi><mo>'</mo></msup><mo>,</mo></math>&nbsp;we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>l</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>&#8594;</mo><mn>2</mn></mrow></munder><mfenced><mrow><mn>2</mn><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>&#183;</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced><mi>x</mi></mfenced><mo>-</mo><mn>0</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>l</mi><mo>=</mo><mn>2</mn><mi>f</mi><mfenced separators=\"|\"><mn>2</mn></mfenced><mo>&#8901;</mo><msup><mi>f</mi><mi>'</mi></msup><mfenced separators=\"|\"><mn>2</mn></mfenced></math></p><p>Put the given value, to get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>l</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>6</mn><mo>&#215;</mo><msup><mi>f</mi><mi>'</mi></msup><mfenced separators=\"|\"><mn>2</mn></mfenced><mo>=</mo><mn>12</mn><msup><mi>f</mi><mi>'</mi></msup><mfenced separators=\"|\"><mn>2</mn></mfenced><mo>.</mo></math></p>"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7089278b42ebda9c0a",
+    "chapter_name": "Alternating Current",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In the circuit shown below, the ac source has voltage $V=20 \\cos (\\omega t)$ volt with $\\omega=2000 \\mathrm{rad} / \\mathrm{s}$\r\n\r\nThe amplitude of the current will be nearest to\r\n\r\n<img src=\"assets\\qt0010_61795ae588a2.png\">"
+  },
+  "options": [
+    {
+      "text": "$2 \\mathrm{~A}$",
+      "is_correct": true
+    },
+    {
+      "text": "$3.3 \\mathrm{~A}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 / \\sqrt{5} \\mathrm{~A}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{5} \\mathrm{~A}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\r\n\r\n\\begin{aligned}\r\n\r\nZ=& \\sqrt{R^{2}+\\left(\\omega L-\\frac{1}{\\omega C}\\right)^{2}} \\\\\r\n\r\n&=\\sqrt{10^{2}+\\left(2000 \\times 5 \\times 10^{3}-\\frac{1}{2000 \\times 50 \\times 10^{-6}}\\right)^{2}} \\\\\r\n\r\n=& 10 \\Omega \\\\\r\n\r\n\\quad i=\\frac{V_{0}}{Z}=\\frac{20}{10}=2 A .\r\n\r\n\\end{aligned}\r\n\r\n$$"
+  }
+}

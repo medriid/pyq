@@ -1,58 +1,58 @@
 {
-  "_id": "67a2eed4c8b73881fdaea340",
+  "_id": "68542c827c09d044e4c1a259",
   "type": "singleCorrect",
-  "level": 1,
+  "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "67a2eb5da6d4514bf2d97611",
+      "_id": "6852f2ff9d87935e0d809789",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-01-29T14:00:00.000Z",
+      "heldOn": "2025-04-07T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (29 Jan Shift 2)",
-      "title": "JEE Main 2025 (29 Jan Shift 2)"
+      "shortName": "2025 (7 Apr Shift 2)",
+      "title": "JEE Main 2025 (7 Apr Shift 2)"
     }
   ],
   "question": {
-    "text": "If the domain of the function $\\log _5\\left(18 x-x^2-77\\right)$ is $(\\alpha, \\beta)$ and the domain of the function $\\log _{(x-1)}\\left(\\frac{2 x^2+3 x-2}{x^2-3 x-4}\\right)$ is $(\\gamma, \\delta)$, then $\\alpha^2+\\beta^2+\\gamma^2$ is equal to :",
+    "text": "If the range of the function $f(x)=\\frac{5-x}{x^2-3 x+2}$, $x \\neq 1,2$, is $(-\\infty, \\alpha] \\cup[\\beta, \\infty)$, then $\\alpha^2+\\beta^2$ is equal to :",
     "image": null
   },
   "options": [
     {
-      "id": "5C2fG",
-      "text": "195",
+      "id": "j9zYD",
+      "text": "190",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "PxPC0",
-      "text": "179",
+      "id": "1Se3G",
+      "text": "192",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "QJXkM",
-      "text": "186",
+      "id": "O7MuL",
+      "text": "188",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "6dYMB",
+      "text": "194",
       "image": null,
       "isCorrect": true
-    },
-    {
-      "id": "MoEJ3",
-      "text": "174",
-      "image": null,
-      "isCorrect": false
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "$\\begin{aligned} & f_1(x)=\\log _5\\left(18 x-x^2-77\\right) \\\\ & \\therefore \\quad 18 x-x^2-77>0 \\\\ & \\quad x^2-18 x+77 < 0 \\\\ & x \\in(7,11) \\\\ & \\alpha=7, \\beta=11 \\\\ & f_2(x)=\\log _{(x-1)}\\left(\\frac{2 x^2+3 x-2}{x^2-3 x-4}\\right) \\\\ & x>1, x-1 \\neq 1, \\frac{2 x^2+3 x-2}{x^2-3 x-4}>0 \\\\ & x>1, x \\neq 2, \\frac{(2 x-1)(x+2)}{(x-4)(x+1)}>0\\end{aligned}$<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/0s8b0HsjeC8CA2qvAmp2YmYP512keberVk6VgTprOVE.original.fullsize.png\"><br>\n$\\begin{aligned}\n& \\therefore \\quad x \\in(4, \\infty) \\\\\n& \\therefore \\quad \\gamma=4 \\\\\n& \\therefore \\quad \\alpha^2+\\beta^2+\\gamma^2=49+121+16 \\\\\n& =186\n\\end{aligned}$",
+    "text": "$\\begin{aligned}<br/>& y=\\frac{5-x}{x^2-3 x+2} \\\\\n& y x^2-3 x y+2 y+x-5=0 \\\\\n& y z^2+(-3 y+1) x+(2 y-5)=0<br/>\\end{aligned}$<br/>Case I : If $y=0$ (Accepted)<br/>$\\Rightarrow x=5$<br/>Case II : If $y \\neq 0$<br/>$\\begin{aligned}<br/>& \\mathrm{D} \\geq 0 \\\\\n& (-3 y+1)^2-4(y)(2 y-5) \\geq 0 \\\\\n& 9 y^2+1-6 y-8 y^2+20 y \\geq 0 \\\\\n& \\mathrm{y}^2+14 y+1 \\geq 0 \\\\\n& (y+7)^2-48 \\geq 0 \\\\\n& |y+7| \\geq 4 \\sqrt{3} \\\\\n& \\Rightarrow y+7 \\geq 4 \\sqrt{3} \\text { or } \\mathrm{y}+7 \\leq-4 \\sqrt{3} \\\\\n& \\Rightarrow \\mathrm{y} \\geq 4 \\sqrt{3}-7 \\text { or } \\mathrm{y} \\leq-4 \\sqrt{3}-7<br/>\\end{aligned}$<br/>From Case I and Case II<br/>$\\mathrm{y} \\in(-\\infty,-4 \\sqrt{3}-7] \\cup[4 \\sqrt{3}-7, \\infty)$<br/>So $\\alpha=-4 \\sqrt{3}-7$<br/>$\\beta=4 \\sqrt{3}-7$<br/>$\\begin{aligned}<br/>\\Rightarrow a^2+b^2 & =(-4 \\sqrt{3}-7)^2+(4 \\sqrt{3}-7)^2 \\\\\n& =2(48+49) \\\\\n& =194<br/>\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "26d1712f231949cba062d8a92cc914e2",
+    "videoId": "3e4b531eaaf8437fba42e37bbd9f1d1a",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/7rzke74vE6lal.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/7rzke74vE6lal.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/axErMiseaal88.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/axErMiseaal88.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
@@ -71,12 +71,12 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "67a2eb5da6d4514bf2d97611",
+    "_id": "6852f2ff9d87935e0d809789",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-01-29T14:00:00.000Z",
+    "heldOn": "2025-04-07T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (29 Jan Shift 2)",
-    "title": "JEE Main 2025 (29 Jan Shift 2)"
+    "shortName": "2025 (7 Apr Shift 2)",
+    "title": "JEE Main 2025 (7 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

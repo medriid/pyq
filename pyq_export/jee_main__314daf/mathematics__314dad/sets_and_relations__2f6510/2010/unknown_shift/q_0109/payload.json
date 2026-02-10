@@ -1,0 +1,43 @@
+{
+  "index": 109,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2010",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254da66d43264e2f6510",
+    "chapter_name": "Sets and Relations",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Consider the following relations:\n$R=\\{(x, y) \\mid x, y$ are real numbers and $x=$ wy for some rational number w $\\}$;\n$S=\\left\\{\\left(\\frac{m}{n}, \\frac{p}{q}\\right) \\mid m, n, p\\right.$ and $q$ are integers such that $n, q \\neq 0$ and $\\left.q m=p n\\right\\}$. Then"
+  },
+  "options": [
+    {
+      "text": "\nneither $\\mathrm{R}$ nor $\\mathrm{S}$ is an equivalence relation\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$S$ is an equivalence relation but $R$ is not an equivalence relation\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$R$ and $S$ both are equivalence relations\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{R}$ is an equivalence relation but $\\mathrm{S}$ is not an equivalence relation",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "xRy need not implies $y R x$\n$\\mathrm{S}: \\frac{\\mathrm{m}}{\\mathrm{n}} \\mathrm{s} \\frac{\\mathrm{p}}{\\mathrm{q}} \\Leftrightarrow \\mathrm{qm}=\\mathrm{pn}$ $\\frac{m}{n} s \\frac{m}{n}$ reflexive\n$$\n\\begin{array}{ll}\n\\frac{m}{n} s \\frac{p}{q} & \\Rightarrow \\frac{p}{q} s \\frac{m}{n} \\text { symmetric } \\\\\n\\frac{m}{n} s \\frac{p}{q}, \\frac{p}{q} s \\frac{r}{s} & \\Rightarrow q m=p n, p s=r q \\quad \\Rightarrow m s=r n \\text { transitive. }\n\\end{array}\n$$\n$S$ is an equivalence relation."
+  }
+}

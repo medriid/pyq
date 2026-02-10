@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2016",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7d211e05bce84fe206",
+    "chapter_name": "Determinants",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\alpha_{1}, \\alpha_{2}$ and $\\beta_{1}, \\beta_{2}$ be the roots of $a x^{2}+b x+c$ $=0$ and $\\mathrm{px}^{2}+\\mathrm{qx}+\\mathrm{r}=0$ respectively. If the system of equations $\\alpha_{1} \\mathrm{y}+\\alpha_{2} \\mathrm{z}=0$ and $\\beta_{1} \\mathrm{y}+\\beta_{2} \\mathrm{z}=0$ has a non-trivial solution, then"
+  },
+  "options": [
+    {
+      "text": "$\\frac{b^{2}}{q^{2}}=\\frac{a c}{p r}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\mathrm{c}^{2}}{\\mathrm{r}^{2}}=\\frac{\\mathrm{ab}}{\\mathrm{pq}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{a^{2}}{p^{2}}=\\frac{b c}{q r}$",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Since $\\alpha_{1}, \\alpha_{2}$ and $\\beta_{1}, \\beta_{2}$ are the roots of ax $^{2}$ $+b x+c=0$ and $p x^{2}+q x+r=0$ respectively\r\n\r\ntherefore\r\n\r\n$$\r\n\r\n\\alpha_{1}+\\alpha_{2}=\\frac{-b}{a}, \\alpha_{1} \\alpha_{2}=\\frac{c}{a}\r\n\r\n$$\r\n\r\nand $\\beta_{1}+\\beta_{2}=\\frac{-q}{p}, \\beta_{1} \\beta_{2}=\\frac{r}{p}$\r\n\r\nSince the given system of equation has a non-trivial solution\r\n\r\n$$\r\n\r\n\\therefore\\left|\\begin{array}{ll}\r\n\r\n\\alpha_{1} & \\alpha_{2} \\\\\r\n\r\n\\beta_{1} & \\beta_{2}\r\n\r\n\\end{array}\\right|=0 \\text { i.e. } \\alpha_{1} \\beta_{2}-\\alpha_{2} \\beta_{1}=0\r\n\r\n$$\r\n\r\nor $\\quad \\frac{\\alpha_{1}}{\\beta_{1}}=\\frac{\\alpha_{2}}{\\beta_{2}}=\\frac{\\alpha_{1}+\\alpha_{2}}{\\beta_{1}+\\beta_{2}}=\\sqrt{\\frac{\\alpha_{1} \\alpha_{2}}{\\beta_{1} \\beta_{2}}}$\r\n\r\n$\\Rightarrow \\frac{\\mathrm{pb}}{\\mathrm{qa}}=\\sqrt{\\frac{\\mathrm{pc}}{\\mathrm{ra}}} \\Rightarrow \\frac{\\mathrm{b}^{2}}{\\mathrm{q}^{2}}=\\frac{\\mathrm{ac}}{\\mathrm{pr}}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd76457232a5c257f2e5",
+    "chapter_name": "Semiconductors",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Identify the logic operation performed by the following circuit.\n<img src=\"assets\\qt0002_6d80c53cf4e7.png\"/><br/>"
+  },
+  "options": [
+    {
+      "text": "OR",
+      "is_correct": false
+    },
+    {
+      "text": "AND",
+      "is_correct": true
+    },
+    {
+      "text": "NOT",
+      "is_correct": false
+    },
+    {
+      "text": "NAND",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0002_7d4080f2bafb.png\"/>\n$\\mathrm{Y}=\\overline{\\overline{\\mathrm{A}}+\\overline{\\mathrm{B}}}$\n$=\\overline{\\overline{\\mathrm{A}}} \\cdot \\overline{\\overline{\\mathrm{B}}}$\n$=\\mathrm{A} . \\mathrm{B}$\nSo, $\\mathrm{Y}=\\mathrm{A} \\cdot \\mathrm{B}$\nTherefore gate is AND gate."
+  }
+}

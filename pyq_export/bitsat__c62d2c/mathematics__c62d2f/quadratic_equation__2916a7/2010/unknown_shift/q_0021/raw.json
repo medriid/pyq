@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e78d6f5bfc7ab78ae5d6",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d74",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010",
+      "title": "BITSAT 2010"
+    }
+  ],
+  "question": {
+    "text": "Which of the following functions is differentiable at \\(x=0\\) ?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "ksUWB",
+      "text": "\\(\\cos (|x|)+|x|\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "4uQBH",
+      "text": "\\(\\cos (|x|)-|x|\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "GARSf",
+      "text": "\\(\\sin (|x|)+|x|\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "orDQM",
+      "text": "\\(\\sin (|x|)-|x|\\)",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\(|x|\\) is non-differentiable function at\n\\(\\begin{aligned}\n& x=0 \\text { as L.H.D }=-1 \\text { and R.H. } \\mathrm{D}=1 \\\\\n& \\because|x|=\\left\\{\\begin{array}{cl}\nx, & x \\geq 0 \\\\\n-x, & x  < 0\n\\end{array}\\right.\n\\end{aligned}\\)\nBut \\(\\cos |h|\\) is differentiable\n\\(\\therefore\\) Any combination of two such functions will be non-differentiable. Hence option (a) and (b) are ruled out.\nNow, consider \\(\\sin |x|+|x|\\)\n\\(\\begin{aligned} & L^{\\prime}=\\lim _{h \\rightarrow 0} \\frac{\\sin |-h|+|-h|}{-h}=\\lim _{h \\rightarrow 0} \\frac{\\sin h}{-h}-1=-1-1 =-2 \\\\ & R^{\\prime}=\\lim _{h \\rightarrow 0} \\frac{\\sin |h|+|h|}{h}=\\lim _{h \\rightarrow 0} \\frac{\\sin h}{h}+1=1+1=2 \\\\ & \\text { Consider } \\sin |x|-|x| \\\\ & L^{\\prime}=\\lim _{h \\rightarrow 0} \\frac{\\sin |-h|-|-h|}{-h}=\\lim _{h \\rightarrow 0} \\frac{\\sin h}{-h}+1=0 \\\\ & \\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d74",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010",
+    "title": "BITSAT 2010"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

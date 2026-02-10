@@ -1,0 +1,43 @@
+{
+  "index": 27,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $\\mathrm{f}: \\mathbf{R} \\rightarrow \\mathbf{R}$ be a twice differentiable function such that $f(2)=1$. If $\\mathrm{F}(x)=x f(x)$ for all $x \\in \\mathbf{R}$, $\\int_0^2 x \\mathrm{~F}^{\\prime}(x) \\mathrm{d} x=6$ and $\\int_0^2 x^2 \\mathrm{~F}^{\\prime \\prime}(x) \\mathrm{d} x=40$, then $\\mathrm{F}^{\\prime}(2)+\\int_0^2 \\mathrm{~F}(x) \\mathrm{d} x$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$11$",
+      "is_correct": true
+    },
+    {
+      "text": "$13$",
+      "is_correct": false
+    },
+    {
+      "text": "$15$",
+      "is_correct": false
+    },
+    {
+      "text": "$9$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\int_0^2 \\mathrm{xF}^{\\prime}(\\mathrm{x}) \\mathrm{dx}=6 \\\\\n& =\\left.\\mathrm{xF}(\\mathrm{x})\\right|_0 ^2-\\int_0^2 \\mathrm{f}(\\mathrm{x}) \\mathrm{dx}=6 \\\\\n& =2 \\mathrm{~F}(2)-\\int_0^2 \\mathrm{xF}(\\mathrm{x}) \\mathrm{dx}=6[\\therefore \\mathrm{f}(2)=2 \\mathrm{~F}(2)=2] \\\\\n& \\int_0^2 \\mathrm{xF}(\\mathrm{x}) \\mathrm{dx}=-2 ...(1)\\\\\n& \\Rightarrow \\int_0^2 \\mathrm{~F}(\\mathrm{x}) \\mathrm{dx}=-2 ...(2)\n\\end{aligned}$\n\nAlso\n$\\int_0^2 x^2 F^{\\prime \\prime}(x) d x=\\left.x^2 F^{\\prime}(x)\\right|_0 ^2-2 \\int_0^2 x^{\\prime} F^{\\prime}(x) d x=40$\n$\\begin{aligned} & =4 F^{\\prime}(2)-2 \\times 6=40 \\\\ & F^{\\prime}(2)=13 \\\\ & \\therefore F^{\\prime}(2)+\\int_0^2 F(x)=13-2=11\\end{aligned}$"
+  }
+}

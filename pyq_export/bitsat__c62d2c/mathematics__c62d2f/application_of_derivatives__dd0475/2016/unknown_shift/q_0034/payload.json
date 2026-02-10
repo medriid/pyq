@@ -1,0 +1,43 @@
+{
+  "index": 34,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2016",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83086701c4b7dd0475",
+    "chapter_name": "Application of Derivatives",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The curve $y=x e^{x}$ has minimum value equal to"
+  },
+  "options": [
+    {
+      "text": "$-\\frac{1}{\\mathrm{e}}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{\\mathrm{e}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\mathrm{e}$",
+      "is_correct": false
+    },
+    {
+      "text": "e",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $y=x e^{x}$. Differentiate both side w.r.t. 'x'.\r\n\r\n$$\r\n\r\n\\Rightarrow \\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\mathrm{e}^{\\mathrm{x}}+\\mathrm{xe}^{\\mathrm{x}}=\\mathrm{e}^{\\mathrm{x}}(1+\\mathrm{x})\r\n\r\n$$\r\n\r\nPut $\\frac{\\mathrm{dy}}{\\mathrm{dx}}=0$\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\Rightarrow \\mathrm{e}^{\\mathrm{x}}(1+\\mathrm{x})=0 \\\\\r\n\r\n\\Rightarrow \\mathrm{x}=-1\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nNow, $\\frac{\\mathrm{d}^{2} \\mathrm{y}}{\\mathrm{dx}^{2}}=\\mathrm{e}^{\\mathrm{x}}+\\mathrm{e}^{\\mathrm{x}}(1+\\mathrm{x})=\\mathrm{e}^{\\mathrm{x}}(\\mathrm{x}+2)$\r\n\r\n$$\r\n\r\n\\left(\\frac{\\mathrm{d}^{2} \\mathrm{y}}{\\mathrm{dx}^{2}}\\right)_{(\\mathrm{x}=-1)}=\\frac{1}{\\mathrm{e}}+0>0\r\n\r\n$$\r\n\r\nHence, $\\mathrm{y}=\\mathrm{xe}^{\\mathrm{x}}$ is minimum function and\r\n\r\n$$\r\n\r\n\\mathrm{y}_{\\min }=-\\frac{1}{\\mathrm{e}} \\text { . }\r\n\r\n$$"
+  }
+}

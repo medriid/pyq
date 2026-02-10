@@ -1,0 +1,43 @@
+{
+  "index": 106,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (12 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254da66d43264e2f6510",
+    "chapter_name": "Sets and Relations",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $A=\\left\\{x \\in z^{+}: x < 10\\right.$ and $x$ is a multiple of 3 or $4\\}$, where $z^{+}$is the set of positive integers, then the total number of symmetric relations on $A$ is"
+  },
+  "options": [
+    {
+      "text": "\n$2^5$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2^{15}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$2^{10}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2^{20}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "A relation on a set A is said to be symmetric iff $(a, b) \\in A \\Rightarrow(b, a) \\in A, \\forall a, b \\in A$\nHere $A=\\{3,4,6,8,9\\}$\nNumber of order pairs of $A \\times A=5 \\times 5=25$\nDivide 25 order pairs of $A \\times A$ in 3 parts as follows :\n$$\n\\begin{aligned}\n& \\text { Part }-A:(3,3),(4,4),(6,6),(8,8),(9,9) \\\\\n& \\text { Part }-B:(3,4),(3,6),(3,8),(3,9),(4,6), \\\\\n& (4,8),(4,9),(6,8),(6,9),(8,9) \\\\\n& \\text { Part-C:(4,3),(6,3),(8,3),(9,3),(6,4),(8,4), } \\\\\n& (9,4),(8,6),(9,6),(9,8)\n\\end{aligned}\n$$\nIn part $-A$, both components of each order pair are same.\nIn part $-B$, both components are different but not two such order pairs are present in which first component of one order pair is the second component of another order pair and vice-versa.\nIn part $-C$, only reverse of the order pairs of part $-B$ are present i.e., if $(a, b)$ is present in part $-B$, then (b, a) will be present in part $-C$ For example $(3,4)$ is present in part $-B$ and $(4,3)$ present in part $-C$.\nNumber of order pair in $A, B$ and $C$ are 5, 10 and 10 respectively.\nIn any symmetric relation on set $A$, if any order pair of part $-B$ is present then its reverse order pair of part $-C$ will must be also present.\nHence number of symmetric relation on set $A$ is equal to the number of all relations on a set $D$, which contains all the order pairs of part $-A$ and part $-B$.\nNow $n(D)=n(A)+n(B)=5+10=15$\nHence number of all relations on set $D=(2)^{15}$\n$\\Rightarrow$ Number of symmetric relations on set $D=(2)^{15}$"
+  }
+}

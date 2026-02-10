@@ -1,0 +1,43 @@
+{
+  "index": 8,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd837f780b3c67d85974",
+    "chapter_name": "Area Under Curves",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The area of the region bounded by the parabola $(y-2)^2=(x-1)$, the tangent to the parabola at the point $(2,3)$ and the $X$-axis is"
+  },
+  "options": [
+    {
+      "text": "\r\n3\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n6\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n9\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n12",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "The equation of the parabola is $y^2-4 y-x+5=0$ The equation of tangent at $(2,3)$ is\r\n$$\r\n\\begin{aligned}\r\n3 y-2(y+3)-\\frac{x+2}{2}+5 & =0 \\\\\r\n2 y-x-4 & =0\r\n\\end{aligned}\r\n$$\r\n<img src=\"assets\\st0008_4ecb10af3323.png\"><br>\r\n$\\therefore$ Required area $A$ is given by\r\n$$\r\n\\begin{aligned}\r\n& A=\\int_0^3\\left(x_2-x_1\\right) d y \\\\\r\n& \\Rightarrow \\quad A=\\int_0^3\\left[\\left\\{(y-2)^2+1\\right\\}-\\{2 y-4\\}\\right] d y \\\\\r\n& \\Rightarrow \\quad A=\\int_0^3\\left(y^2-6 y+9\\right) d y=\\int_0^3(3-y)^2 d y \\\\\r\n& =-\\left[\\frac{(3-y)^3}{3}\\right]_0^3=9 \\\\\r\n&\r\n\\end{aligned}\r\n$$"
+  }
+}

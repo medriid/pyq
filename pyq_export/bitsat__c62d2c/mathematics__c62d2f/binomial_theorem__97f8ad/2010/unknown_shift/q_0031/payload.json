@@ -1,0 +1,43 @@
+{
+  "index": 31,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2010",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7ddf871d2a6297f8ad",
+    "chapter_name": "Binomial Theorem",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "With 17 consonants and 5 vowels the number of words of four letters that can be formed having two different vowels in the middle and one consonant, repeated or different at each end is"
+  },
+  "options": [
+    {
+      "text": "5780",
+      "is_correct": true
+    },
+    {
+      "text": "2890",
+      "is_correct": false
+    },
+    {
+      "text": "5440",
+      "is_correct": false
+    },
+    {
+      "text": "2720",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "The two letters, the first and the last of the four lettered word can be chosen in \\((17)^2\\) ways, as repetition is allowed for consonants. The two vowels in the middle are distinct so that the number of ways of filling up the two places is \\({ }^5 \\mathrm{P}_2=20\\).\nThe no. of different words \\(=(17)^2 \\cdot 20=5780\\)."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd703e2e1b09725915db",
+    "chapter_name": "Mechanical Properties of Fluids",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A glass capillary tube of internal radius $\\mathrm{r}=0.25$ $\\mathrm{mm}$ is immersed in water. The top end of the tube projected by $2 \\mathrm{~cm}$ above the surface of the water. At what angle does the liquid meet the tube? Surface tension of water $=0.7 \\mathrm{~N} / \\mathrm{m}$"
+  },
+  "options": [
+    {
+      "text": "$\\theta=90^{\\circ}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\quad \\theta=70^{\\circ}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\theta=45^{\\circ}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\theta=35^{\\circ}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Water wets glass and so the angle of contact is zero. For full rise, neglecting the small mass in the meniscus\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n2 \\pi \\mathrm{T} &=\\pi \\mathrm{r}^{2} \\mathrm{~h} \\rho \\mathrm{g} \\Rightarrow \\mathrm{h}=\\frac{2 \\mathrm{~T}}{\\mathrm{r} \\rho \\mathrm{g}}\\left[\\because \\text { water wets glass, } \\theta=0^{\\circ}\\right] \\\\\r\n\r\n&=\\frac{2 \\times 007}{0.25 \\times 10^{-3} \\times 1000 \\times 9.8}\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\nAs the tube is only $2 \\mathrm{~cm}$ above the water and so, water will rise by $2 \\mathrm{~cm}$ and meet the tube at an angle such that,\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n2 \\pi r & \\operatorname{T} \\cos \\theta=\\pi r^{2} h^{\\prime} \\rho g \\\\\r\n\r\n\\Rightarrow & 2 T \\cos \\theta=h^{\\prime} r \\rho g \\\\\r\n\r\n\\Rightarrow \\cos \\theta &=\\frac{h^{\\prime} r \\rho g}{2 T} \\\\\r\n\r\n&=\\frac{2 \\times 10^{-2} \\times 0.25 \\times 10^{-3} \\times 1000 \\times 9.8}{2 \\times 0.07}\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\nThe liquid will meet the tube at an angle, $\\theta$ $\\cong 70^{\\circ}$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd839e4041267a866788",
+    "chapter_name": "Differential Equations",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The degree of the differential equation satisfying\r\n\r\n$\\sqrt{1-x^{2}}+\\sqrt{1+y^{2}}=a(x-y)$ is"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": true
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\quad$ Put $x=\\sin \\theta$ and $y=\\sin \\phi$\r\n\r\n$\\Rightarrow \\cos \\theta+\\cos \\phi=a(\\sin \\theta-\\sin \\phi)$\r\n\r\n$\\Rightarrow 2 \\cos$\r\n\r\n$\\begin{aligned} & \\frac{\\theta+\\phi}{2} \\cos \\frac{\\theta-\\phi}{2}=2 a \\cos \\frac{\\theta+\\phi}{2} \\sin \\frac{\\theta-\\phi}{2} \\\\ \\Rightarrow \\cot \\frac{\\theta-\\phi}{2}=a \\Rightarrow \\theta-\\phi=2 \\cot ^{-1} \\mathrm{a} \\\\ \\Rightarrow \\sin ^{-1} \\mathrm{x}-\\sin ^{-1} \\mathrm{y}=2 \\cot ^{-1} \\mathrm{a} \\\\ \\text { Differentiate } \\frac{1}{\\sqrt{1-\\mathrm{x}^{2}}}-\\frac{1}{\\sqrt{1-\\mathrm{y}^{2}}} \\frac{\\mathrm{dy}}{\\mathrm{dx}}=0 \\end{aligned}$\r\n\r\nso the degree is one"
+  }
+}

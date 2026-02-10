@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd839e4041267a866788",
+    "chapter_name": "Differential Equations",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\left(\\frac{d y}{d x}\\right) \\tan x=y \\sec ^2 x+\\sin x$, find general solution"
+  },
+  "options": [
+    {
+      "text": "\r\n$y=\\tan x(\\log |\\operatorname{cosec} x-\\cot x|+\\cos x+c)$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n$y=\\sec ^2 x+\\tan x+c$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$y=\\log |\\sec x+\\tan x|+\\operatorname{cosec} x+c$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$y=\\tan ^2 x+\\sin x+c$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given that\r\n$$\r\n\\begin{aligned}\r\n& \\left(\\frac{d y}{d x}\\right) \\tan x=y \\sec ^2 x+\\sin x \\\\\r\n& \\tan x\\left(\\frac{d y}{d x}\\right)-y \\sec ^2 x=\\sin x \\\\\r\n& \\frac{d y}{d x}+\\left(\\frac{-\\sec ^2 x}{\\tan x}\\right) y=\\frac{\\sin x}{\\tan x} \\\\\r\n& \\text { Here, } P=-\\frac{\\sec ^2 x}{\\tan x} \\text { and } Q=\\cos x \\\\\r\n& \\text { IF }=e^{\\int P d x}=e^{\\int \\frac{-\\sec ^ 2 x}{\\tan x} d x} \\\\\r\n& \\text { IF }=e^{-\\log (\\tan x)}=e^{\\log \\cot x}=\\cot x \\\\\r\n& \\text { Now, } y \\times \\mathrm{IF}=\\int(Q \\times \\mathrm{IF}) d x+C \\\\\r\n& y \\cdot \\cot x=\\int \\cos x \\cdot \\cot x+C \\\\\r\n& y \\cdot \\cot x=\\int \\frac{1-\\sin ^2 x}{\\sin x}+C \\\\\r\n& y \\cdot \\cot x=\\log |\\operatorname{cosec} x-\\cot x|+\\cos x+C\r\n\\end{aligned}\r\n$$"
+  }
+}

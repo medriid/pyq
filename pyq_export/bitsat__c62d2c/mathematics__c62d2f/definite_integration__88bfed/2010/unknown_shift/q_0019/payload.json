@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2010",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83e6f6052b2388bfed",
+    "chapter_name": "Definite Integration",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "\\(\\int 4 \\cos \\left(x+\\frac{\\pi}{6}\\right) \\cos 2 x \\cdot \\cos \\left(\\frac{5 \\pi}{6}+x\\right) d x\\)"
+  },
+  "options": [
+    {
+      "text": "\\(-\\left(x+\\frac{\\sin 4 x}{4}+\\frac{\\sin 2 x}{2}\\right)+c\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(-\\left(x+\\frac{\\sin 4 x}{4}-\\frac{\\sin 2 x}{2}\\right)+c\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(-\\left(x-\\frac{\\sin 4 x}{4}+\\frac{\\sin 2 x}{2}\\right)+c\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(-\\left(x-\\frac{\\sin 4 x}{4}+\\frac{\\cos 2 x}{2}\\right)+c\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\int 4 \\cos \\left(x+\\frac{\\pi}{6}\\right) \\cos 2 x \\cdot \\cos \\left(\\frac{5 \\pi}{6}+x\\right) d x \\\\\n& =2 \\int\\left(\\cos (2 x+\\pi) \\cos \\frac{2 \\pi}{3}\\right) \\cos 2 x d x \\\\\n& =2 \\int\\left(-\\cos 2 x-\\frac{1}{2}\\right) \\cos 2 x d x \\\\\n& =\\int\\left(-2 \\cos ^2 2 x-\\cos 2 x\\right) d x \\\\\n& =-\\int(1+\\cos 4 x+\\cos 2 x) d x \\\\\n& =-x-\\frac{\\sin 4 x}{x}-\\frac{\\sin 2 x}{2}+c\n\\end{aligned}\\)"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 241,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2013 (09 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\vec{a}=2 \\hat{i}-\\hat{j}+\\hat{k}, \\vec{b}=\\hat{i}+2 \\hat{j}-\\hat{k}$ and $\\vec{c}=\\hat{i}+\\hat{j}-2 \\hat{k}$ be three vectors. A vector of the type $\\vec{b}+\\lambda \\vec{c}$ for some scalar $\\lambda$, whose projection on $\\vec{a}$ is of magnitude $\\sqrt{\\frac{2}{3}}$ is :"
+  },
+  "options": [
+    {
+      "text": "\n$2 \\hat{i}+\\hat{j}+5 \\hat{k}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2 \\hat{i}+3 \\hat{j}-3 \\hat{k}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$2 \\hat{i}-\\hat{j}+5 \\hat{k}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n $2 \\hat{i}+3 \\hat{j}+3 \\hat{k}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $\\vec{d}=\\vec{b}+\\lambda \\vec{c}$\n$$\n\\begin{aligned}\n& \\therefore \\vec{d}=\\hat{i}+2 \\hat{j}-\\hat{k}+\\lambda(\\hat{i}+\\hat{j}-2 \\hat{k}) \\\\\n& =(1+\\lambda) \\hat{i}+(2+\\lambda) \\hat{j}-(1+2 \\lambda) \\hat{k}\n\\end{aligned}\n$$\nIf $\\theta$ be the angle between $\\vec{d}$ and $\\vec{a}$, then projection of $\\vec{d}$ or $(\\vec{b}+\\lambda \\vec{c})$ on $\\vec{a}$\n$$\n\\begin{aligned}\n& =|\\vec{d}| \\cos \\theta \\\\\n& =|\\vec{d}|\\left(\\frac{\\vec{d} \\cdot \\vec{a}}{|\\vec{d}||\\vec{a}|}\\right)=\\frac{\\vec{d} \\cdot \\vec{a}}{|\\vec{a}|} \\\\\n& =\\frac{2(\\lambda+1)-(\\lambda+2)-(2 \\lambda+1)}{\\sqrt{4+1+1}} \\\\\n& =\\frac{-\\lambda-1}{\\sqrt{6}}\n\\end{aligned}\n$$\nBut projection of $\\vec{d}$ on $\\vec{a}=\\sqrt{\\frac{2}{3}}$\n$$\n\\therefore-\\frac{\\lambda+1}{\\sqrt{6}}=\\sqrt{\\frac{2}{3}} \\Rightarrow \\frac{\\lambda^2+2 \\lambda+1}{6}=\\frac{2}{3}\n$$\n$$\n\\begin{aligned}\n& \\Rightarrow \\lambda^2+2 \\lambda-3=0 \\Rightarrow \\lambda^2+3 \\lambda-\\lambda-3=0 \\\\\n& \\Rightarrow \\lambda(\\lambda+3)-1(\\lambda+3)=0, \\Rightarrow \\lambda=1,-3\n\\end{aligned}\n$$\nwhen $\\lambda=1$, then $\\vec{b}+\\lambda \\vec{c}=2 \\hat{i}+3 \\hat{j}-3 \\hat{k}$\nwhen $\\lambda=-3$, then $\\vec{b}+\\lambda \\vec{c}=-2 \\hat{i}-\\hat{j}+5 \\hat{k}$"
+  }
+}

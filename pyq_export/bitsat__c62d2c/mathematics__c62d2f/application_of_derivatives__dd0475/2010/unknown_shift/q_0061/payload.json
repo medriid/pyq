@@ -1,0 +1,43 @@
+{
+  "index": 61,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2010",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83086701c4b7dd0475",
+    "chapter_name": "Application of Derivatives",
+    "year": "2010",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let \\(\\mathrm{f}(\\mathrm{x})=\\) \\(\\left\\{\\begin{array}{l}a x^2+1, x > 1 \\\\ x+a, x \\leq 1\\end{array}\\right.\\). Then \\(f(x)\\) is derivable at \\(x=1\\), if"
+  },
+  "options": [
+    {
+      "text": "\\(a=2\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(a=1\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(a=0\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(a=1 / 2\\)",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\operatorname{Lf}^{\\prime}(1)=\\lim _{h \\rightarrow 0} \\frac{f(1-h)-f(1)}{-h} \\\\\n& =\\lim _{h \\rightarrow 0} \\frac{(1-h+a)-(1+a)}{-h}=\\lim _{h \\rightarrow 0} \\frac{-h}{-h}=1 \\\\\n& \\operatorname{Rf}^{\\prime}(1)=\\lim _{h \\rightarrow 0} \\frac{f(1+h)-f(1)}{h} \\\\\n& =\\lim _{h \\rightarrow 0} \\frac{\\left[a(1+h)^2+1\\right]-(1+a)}{h} \\\\\n& =\\lim _{h \\rightarrow 0}(a h+2 a)=2 a\n\\end{aligned}\\)\nSince f' (1) exists, \\(\\therefore L f^{\\prime}(1)=R f^{\\prime}(1) \\Rightarrow a=1 / 2\\)"
+  }
+}

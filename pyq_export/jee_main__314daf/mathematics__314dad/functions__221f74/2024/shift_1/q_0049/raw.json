@@ -1,23 +1,58 @@
 {
-  "_id": "6682bd48ba0e94a3c4025ba7",
-  "type": "numerical",
+  "_id": "6644671b970e6e9ab542d043",
+  "type": "singleCorrect",
   "level": 3,
   "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6a",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-05T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (05 Apr Shift 1)",
+      "title": "JEE Main 2024 (05 Apr Shift 1)"
+    }
+  ],
   "question": {
-    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>…</mo><mo>.</mo><mn>7</mn><mo>}</mo></math> and let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo> </mo></math>denote the power set of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>. If the number of functions <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>:</mo><mi>A</mi><mo>→</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></math> such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>∈</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>,</mo><mo>∀</mo><mi>a</mi><mo>∈</mo><mi>A</mi></math> is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mi>n</mi></msup><mo>,</mo><mi>m</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>∈</mo><mi>N</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> is least, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>+</mo><mi>n</mi></math> is equal to ______.",
+    "text": "Let $A=\\{1,3,7,9,11\\}$ and $B=\\{2,4,5,7,8,10,12\\}$. Then the total number of one-one maps $f: \\mathrm{A} \\rightarrow \\mathrm{B}$, such that $f(1)+f(3)=14$, is :",
     "image": null
   },
-  "options": [],
-  "correctValue": "44",
+  "options": [
+    {
+      "id": "IC4BZ",
+      "text": "480",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "H1p7P",
+      "text": "240",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "XZql6",
+      "text": "120",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "zv3VK",
+      "text": "180",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>…</mo><mo>.</mo><mn>7</mn><mo>}</mo></math></p><p>And <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>:</mo><mi>A</mi><mo>→</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>∈</mo><mi>A</mi></math></p><p>Also <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>∈</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo></math>, that means <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>‘</mo><mi>a</mi><mo>’</mo></math> will be the element of subset as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>:</mo><mi>A</mi><mo>→</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></math>,</p><p>Now, total options for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math> will be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup></math>. (Because <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup></math> subsets contains elements<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>)</p><p>Similarly, for every other element we get, total  <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>×</mo><msup><mn>2</mn><mn>6</mn></msup><mo>×</mo><msup><mn>2</mn><mn>6</mn></msup><mo>×</mo><msup><mn>2</mn><mn>6</mn></msup><mo>×</mo><msup><mn>2</mn><mn>6</mn></msup><mo>×</mo><msup><mn>2</mn><mn>6</mn></msup><mo>×</mo><msup><mn>2</mn><mn>6</mn></msup><mo>=</mo><msup><mn>2</mn><mn>42</mn></msup></math> subsets.</p><p>Now, comparing with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mi>n</mi></msup></math> we get, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mn>2</mn><mo> </mo><mo>&amp;</mo><mo> </mo><mi>n</mi><mo>=</mo><mn>42</mn></math></p><p>Hence,  <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>+</mo><mi>n</mi><mo>=</mo><mn>2</mn><mo>+</mo><mn>42</mn><mo>=</mo><mn>44</mn></math></p>",
+    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/ualR7H5WOb_9GPKPhCt_4ijnviD9CzPasGitjg9u5bs.original.fullsize.png\"><br />$\\begin{aligned}\n& A=\\{1,3,7,9,11\\} \\\\\n& B=\\{2,4,5,7,8,10,12\\} \\\\\n& f(1)+f(3)=14\n\\end{aligned}$\n(i) $2+12$\n(ii) $4+10$\n$2 \\times(2 \\times 5 \\times 4 \\times 3)=240$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "375c8dada15a44d0b59077e28c827b45",
+    "videoId": "b711ee38a94e423a9212b49000d60ea6",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/11ikMWQOaHssx.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/11ikMWQOaHssx.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/jPdmNfqh7gdJu.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/jPdmNfqh7gdJu.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6628114842d540dfcb148ecb",
@@ -35,23 +70,13 @@
     "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
   },
   "syllabusCategory": "noChange",
-  "previousYearPapers": [
-    {
-      "_id": "65c4c0c11d30997d3436bb02",
-      "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-01-30T09:00:00.000Z",
-      "isVisible": true,
-      "shortName": "2024 (30 Jan Shift 1)",
-      "title": "JEE Main 2024 (30 Jan Shift 1)"
-    }
-  ],
   "previousYear": {
-    "_id": "65c4c0c11d30997d3436bb02",
+    "_id": "664466ee278297dee60eda6a",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-01-30T09:00:00.000Z",
+    "heldOn": "2024-04-05T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (30 Jan Shift 1)",
-    "title": "JEE Main 2024 (30 Jan Shift 1)"
+    "shortName": "2024 (05 Apr Shift 1)",
+    "title": "JEE Main 2024 (05 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

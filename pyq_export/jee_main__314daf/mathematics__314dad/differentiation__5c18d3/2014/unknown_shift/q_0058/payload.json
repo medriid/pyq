@@ -1,8 +1,8 @@
 {
   "index": 58,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2014 (09 Apr Online)",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "unknown_shift"
   },
   "question": {
-    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mi>e</mi><mrow><mi>n</mi><mi>x</mi></mrow></msup></math>, then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>d</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>.</mo><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>y</mi><mn>2</mn></msup></mrow></mfrac></math>&nbsp; is equal to :"
+    "text": "Let $f$ and $g$ be two differentiable functions on $R$ such that $f^{\\prime}(x)>0$ and $g^{\\prime}(x) < 0$ for all $x \\in R$. Then for all $\\mathrm{x}$ :"
   },
   "options": [
     {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><msup><mi>e</mi><mrow><mo>-</mo><mi>n</mi><mi>x</mi></mrow></msup></math>",
+      "text": "\n$f(g(x))>f(g(x-1))$\n",
       "is_correct": false
     },
     {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mi>n</mi><msup><mi>e</mi><mrow><mo>-</mo><mi>n</mi><mi>x</mi></mrow></msup></math>",
+      "text": "\n$f(g(x))>f(g(x+1))$\n",
       "is_correct": true
     },
     {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><msup><mi>e</mi><mrow><mi>n</mi><mi>x</mi></mrow></msup></math>",
+      "text": "\n$g(f(x))>g(f(x-1))$\n",
       "is_correct": false
     },
     {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>",
+      "text": "\n$g(f(x)) < g(f(x+1))$",
       "is_correct": false
     }
   ],
@@ -38,6 +38,6 @@
     "B"
   ],
   "solution": {
-    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mi>e</mi><mrow><mi>n</mi><mi>x</mi></mrow></msup><mo>&#160;&#8658;&#160;</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mi>n</mi><msup><mi>e</mi><mrow><mi>n</mi><mi>x</mi></mrow></msup></math>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mo>&#8757;</mo><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><msup><mi>e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup><mo>=</mo><mi>a</mi><msup><mi>e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup></mrow></mfenced></math><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;&#160;</mo><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>d</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><msup><mi>n</mi><mn>2</mn></msup><msup><mi>e</mi><mrow><mi>n</mi><mi>x</mi></mrow></msup></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mi>n</mi><msup><mi>e</mi><mrow><mi>n</mi><mi>x</mi></mrow></msup><mo>&#8658;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>y</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mi>n</mi><msup><mi>e</mi><mrow><mi>n</mi><mi>x</mi></mrow></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><msup><mi>e</mi><mrow><mo>-</mo><mi>n</mi><mi>x</mi></mrow></msup></math><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>y</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mi>d</mi><mrow><mi>d</mi><mi>y</mi></mrow></mfrac><mfenced><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>y</mi></mrow></mfrac></mfenced></math><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mfenced><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>y</mi></mrow></mfrac></mfenced><mo>&#183;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>y</mi></mrow></mfrac></math><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mfenced><mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><msup><mi>e</mi><mrow><mo>-</mo><mi>n</mi><mi>x</mi></mrow></msup></mrow></mfenced><mo>&#183;</mo><mfrac><msup><mi>e</mi><mrow><mo>-</mo><mi>n</mi><mi>x</mi></mrow></msup><mi>n</mi></mfrac></math><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mfenced><mrow><mo>-</mo><mi>n</mi></mrow></mfenced><msup><mi>e</mi><mrow><mo>-</mo><mi>n</mi><mi>x</mi></mrow></msup><mo>&#183;</mo><mfrac><msup><mi>e</mi><mrow><mo>-</mo><mi>n</mi><mi>x</mi></mrow></msup><mi>n</mi></mfrac></math><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><msup><mi>e</mi><mrow><mo>-</mo><mn>2</mn><mi>n</mi><mi>x</mi></mrow></msup></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;&#160;&#160;&#160;</mo><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>d</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>.</mo><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>y</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><msup><mi>n</mi><mn>2</mn></msup><msup><mi>e</mi><mrow><mi>n</mi><mi>x</mi></mrow></msup><mo>&#215;</mo><mfenced><mfrac><mrow><mo>-</mo><msup><mi>e</mi><mrow><mo>-</mo><mn>2</mn><mi>n</mi><mi>x</mi></mrow></msup></mrow><mi>n</mi></mfrac></mfenced></math><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><mi>n</mi><msup><mi>e</mi><mrow><mo>-</mo><mi>n</mi><mi>x</mi></mrow></msup></math>"
+    "text": "Since $f^{\\prime}(x)>0$ and $g^{\\prime}(x) < 0$, therefore $f(x)$ is increasing function and $g(x)$ is decreasing function.\n$\\Rightarrow f(x+1)>f(x)$ and $g(x+1) < g(x)$\n$\\Rightarrow g[f(x+1)] < g[f(x)]$ and $f[g(x+$\n1) $] < f[g(x)]$\nHence option (b) is correct."
   }
 }

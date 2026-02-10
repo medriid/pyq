@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e8356f5bfc7ab78aeb8c",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44d",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2022-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022",
+      "title": "BITSAT 2022"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The value of $\\lim _{x \\rightarrow 0} \\frac{(1+x)^{\\frac{1}{x}}-e+\\frac{1}{2} e x}{x^2}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "QSoSd",
+      "text": "\r\n$\\frac{11}{24} e$\r\n",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "EoOVD",
+      "text": "\r\n$-\\frac{11}{24} e$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "h2m7P",
+      "text": "\r\n$\\frac{e}{24}$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "o1psq",
+      "text": "\r\nNone of these",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $y=(1+x)^{1 / x}$\r\n$\\Rightarrow \\log y=\\frac{1}{x} \\log (1+x)=\\frac{1}{x}\\left[x-\\frac{x^2}{2}+\\frac{x^3}{3}-\\frac{x^4}{4}+\\ldots\\right]$\r\n$=1-\\frac{x}{2}+\\frac{x^2}{3}-\\frac{x^3}{4}+\\ldots$\r\n$\\begin{aligned} y & =e^{\\left(1-\\frac{x}{2}+\\frac{x^2}{3}+\\ldots .\\right)}=e e^{\\left(\\frac{-x}{2}+\\frac{x^2}{3} \\ldots . .\\right)} \\\\ & =e\\left[1+\\left(-\\frac{x}{2}+\\frac{x^2}{3}-\\ldots\\right)+\\frac{1}{2 !}\\left(-\\frac{x}{2}+\\frac{x^2}{3}-\\ldots\\right)^2+\\ldots\\right]\\end{aligned}$\r\n$y-e+\\frac{1}{2} e x=e x^2\\left[\\frac{1}{3}+0(x)+\\frac{1}{2}\\left(-\\frac{1}{2}+0(x)\\right)^2+\\ldots.\\right]$\r\n$[\\because 0(x)$ in terms containing $x]$\r\n$\\lim \\frac{y-e+\\frac{1}{2} e x}{x^2}=e\\left[\\frac{1}{3}+\\frac{1}{8}\\right]=\\frac{11}{24} e$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44d",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2022-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022",
+    "title": "BITSAT 2022"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

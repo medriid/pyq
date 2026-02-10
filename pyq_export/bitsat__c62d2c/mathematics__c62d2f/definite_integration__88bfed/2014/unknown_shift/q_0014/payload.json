@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2014",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83e6f6052b2388bfed",
+    "chapter_name": "Definite Integration",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int_{0}^{10} \\frac{x^{10}}{(10-x)^{10}+x^{10}} d x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "10",
+      "is_correct": false
+    },
+    {
+      "text": "5",
+      "is_correct": true
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{0}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $I=\\int_{0}^{10} \\frac{x^{10}}{(10-x)^{10}+x^{10}} d x$...(1)\r\n\r\n$I=\\int_{0}^{10} \\frac{(10-x)^{10}}{(10-x)^{10}+x^{10}} d x$...(2)\r\n\r\nAdding\r\n\r\n(1) and (2), we get\r\n\r\n$2 I=\\int_{0}^{10} d x \\Rightarrow 2 I=10 \\Rightarrow I=5$"
+  }
+}

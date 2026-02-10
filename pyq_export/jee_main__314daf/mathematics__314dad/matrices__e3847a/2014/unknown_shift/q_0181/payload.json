@@ -1,0 +1,43 @@
+{
+  "index": 181,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2014 (19 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>&nbsp;be any two <math> <mrow> <mn>3</mn> <mo>&#215;</mo> <mn>3</mn> </mrow> </math>&nbsp;matrices. If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>&nbsp;is symmetric and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>&nbsp;is skew symmetric, then the matrix&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mo>-</mo><mi>B</mi><mi>A</mi></math>&nbsp;is&nbsp;"
+  },
+  "options": [
+    {
+      "text": "skew symmetric",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi></math> or <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mo>&#160;</mo><mi>I</mi><mo>,</mo></math>&nbsp;where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi></math>&nbsp;is an identity matrix",
+      "is_correct": false
+    },
+    {
+      "text": "&nbsp;symmetric",
+      "is_correct": true
+    },
+    {
+      "text": "neither symmetric nor skew symmetric",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>A square matrix <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>&nbsp;is said to be a symmetric matrix, if&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>P</mi><mi>T</mi></msup><mo>=</mo><mi>P</mi></math>&nbsp;and it&nbsp;is said to be a skew symmetric matrix, if&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>P</mi><mi>T</mi></msup><mo>=</mo><mo>-</mo><mi>P</mi><mo>.</mo></math></p><p>Given <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>A</mi><mi>T</mi></msup><mo>=</mo><mi>A</mi><mo>,</mo><mo>&#160;</mo><msup><mi>B</mi><mi>T</mi></msup><mo>=</mo><mo>-</mo><mi>B</mi></math></p><p>Now,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mi>A</mi><mi>B</mi><mo>-</mo><mi>B</mi><mi>A</mi></mrow></mfenced><mi>T</mi></msup><mo>=</mo><msup><mfenced><mrow><mi>A</mi><mi>B</mi></mrow></mfenced><mi>T</mi></msup><mo>-</mo><msup><mfenced><mrow><mi>B</mi><mi>A</mi></mrow></mfenced><mi>T</mi></msup></math><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi>B</mi><mi>T</mi></msup><msup><mi>A</mi><mi>T</mi></msup><mo>-</mo><msup><mi>A</mi><mi>T</mi></msup><msup><mi>B</mi><mi>T</mi></msup></math></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mo>-</mo><mi>B</mi><mo>)</mo><mi>A</mi><mo>-</mo><mi>A</mi><mo>(</mo><mo>-</mo><mi>B</mi><mo>)</mo></math></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>A</mi><mi>B</mi><mo>-</mo><mi>B</mi><mi>A</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>A</mi><mi>B</mi><mo>-</mo><mi>B</mi><mi>A</mi></math>&nbsp;is&nbsp;a symmetric matrix.</p>"
+  }
+}

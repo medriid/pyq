@@ -1,0 +1,43 @@
+{
+  "index": 145,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "6160240a212e155ed4960db3",
+    "chapter_name": "Capacitance",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The space between the plates of a parallel plate capacitor is filled with a 'dielectric' whose 'dielectric constant' varies with distance as per the relation:\n$$\n\\mathrm{K}(\\mathrm{x})=\\mathrm{K}_{\\mathrm{o}}+\\lambda \\mathrm{x}(\\lambda=\\mathrm{a} \\text { constant })\n$$\nThe capacitance $\\mathrm{C}$, of the capacitor, would be related to its vacuum capacitance $\\mathrm{C}_{\\mathrm{o}}$ for the relation :"
+  },
+  "options": [
+    {
+      "text": "\n$\\left.\\mathrm{C}=\\frac{\\lambda \\mathrm{d}}{\\ln \\left(1+\\mathrm{K}_{\\mathrm{o}} \\lambda \\mathrm{d}\\right.} \\mathrm{C}_{\\mathrm{o}}\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left.\\mathrm{C}=\\frac{\\lambda}{\\mathrm{d} \\cdot \\ln \\left(1+\\mathrm{K}_{\\mathrm{o}} \\lambda \\mathrm{d}\\right.} \\mathrm{C}_{\\mathrm{o}}\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left.\\mathrm{C}=\\frac{\\lambda \\mathrm{d}}{\\ln \\left(1+\\lambda \\mathrm{d} / \\mathrm{K}_{\\mathrm{o}}\\right.} \\mathrm{C}_{\\mathrm{o}}\\right)$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\left.\\mathrm{C}=\\frac{\\lambda}{\\mathrm{d} . \\ln \\left(1+\\mathrm{K}_{\\mathrm{o}} / \\lambda \\mathrm{d}\\right.} \\mathrm{C}_{\\mathrm{o}}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "The value of dielectric constant is given as,\n$$\n\\begin{aligned}\n&\\mathrm{K}=\\mathrm{K}_0+\\lambda \\mathrm{x} \\\\\n&\\text { And, } \\mathrm{V}=\\int_0^{\\mathrm{d}} \\mathrm{Edr} \\\\\n&\\mathrm{V}=\\int_0^{\\mathrm{d}} \\frac{\\sigma}{\\mathrm{K}} \\mathrm{dx}\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n&=\\sigma \\int_0^{\\mathrm{d}} \\frac{1}{\\left(\\mathrm{~K}_0+\\lambda \\mathrm{x}\\right.} \\mathrm{dx} \\\\\n&=\\frac{\\sigma}{\\lambda}\\left[\\ln \\left(\\mathrm{K}_0+\\lambda \\mathrm{d}-\\ln \\mathrm{K}_0\\right]\\right. \\\\\n&=\\frac{\\sigma}{\\lambda} \\ln \\left(1+\\frac{\\lambda \\mathrm{d}}{\\mathrm{K}_0}\\right)\n\\end{aligned}\n$$\nNow it is given that capacitance of vacuum $=\\mathrm{C}_0$.\nThus, $\\mathrm{C}=\\frac{\\mathrm{Q}}{\\mathrm{V}}$\n$$\n\\begin{aligned}\n&=\\frac{\\sigma . \\mathrm{s}}{\\mathrm{v}}(\\text { Let surface area of plates }=\\mathrm{s}) \\\\\n&=\\frac{\\sigma . \\mathrm{s}}{\\frac{\\sigma}{\\lambda} \\ln \\left(1+\\frac{\\lambda \\mathrm{d}}{\\mathrm{K}_0}\\right)}\n\\end{aligned}\n$$\n$=\\mathrm{s} \\lambda \\cdot \\frac{\\mathrm{d}}{\\mathrm{d}} \\frac{1}{\\ln \\left(1+\\frac{\\lambda \\mathrm{d}}{\\mathrm{K}_0}\\right)}\\left(\\because\\right.$ in vacuum $\\left.\\varepsilon_0=1\\right)$\n$\\mathrm{c}=\\frac{\\lambda \\mathrm{d}}{\\ln \\left(1+\\frac{\\lambda \\mathrm{d}}{\\mathrm{K}_0}\\right)} \\cdot \\mathrm{C}_0 \\quad\\left(\\right.$ here, $\\left.\\mathrm{C}_0=\\frac{\\mathrm{s}}{\\mathrm{d}}\\right)$"
+  }
+}

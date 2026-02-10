@@ -1,0 +1,43 @@
+{
+  "index": 99,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2013 (23 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602541dde7f7e33e7cf4fc",
+    "chapter_name": "Hyperbola",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A tangent to the hyperbola $\\frac{x^2}{4}-\\frac{y^2}{2}=1$ meets $x$-axis at $\\mathrm{P}$ and $y$-axis at $\\mathrm{Q}$. Lines $\\mathrm{PR}$ and $\\mathrm{QR}$ are drawn such that OPRQ is a rectangle (where $\\mathrm{O}$ is the origin). Then $\\mathrm{R}$ lies on :"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{4}{x^2}+\\frac{2}{y^2}=1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{2}{x^2}-\\frac{4}{y^2}=1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{2}{x^2}+\\frac{4}{y^2}=1$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{4}{x^2}-\\frac{2}{y^2}=1$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Equation of the tangent at the point ' $\\theta$ ' is\n$$\n\\begin{aligned}\n& \\frac{x \\sec \\theta}{a}-\\frac{y \\tan \\theta}{b}=1 \\\\\n& \\Rightarrow P=(a \\cos \\theta, 0) \\text { and } Q=(0,-b \\cot \\theta) \\\\\n& \\text { Let } \\mathrm{R} \\text { be }(\\mathrm{h}, \\mathrm{k}) \\Rightarrow \\mathrm{h}=a \\cos \\theta, \\mathrm{k}=-b \\cot \\theta \\\\\n& \\Rightarrow \\quad \\frac{k}{h}=\\frac{-b}{a \\sin \\theta} \\Rightarrow \\sin \\theta=\\frac{-b h}{a k} \\quad \\text { and } \\\\\n& \\cos \\theta=\\frac{h}{a}\n\\end{aligned}\n$$\nBy squaring and adding,\n$$\n\\frac{b^2 h^2}{a^2 k^2}+\\frac{h^2}{a^2}=1\n$$\n<img src=\"assets\\st0099_05c4bc5413df.png\"><br>\n$$\n\\begin{aligned}\n& \\Rightarrow \\frac{b^2}{k^2}+1=\\frac{a^2}{h^2} \\\\\n& \\Rightarrow \\frac{a^2}{h^2}-\\frac{b^2}{k^2}=1\n\\end{aligned}\n$$\nNow, given $\\mathrm{q}^{\\mathrm{n}}$ of hyperbola is $\\frac{x^2}{4}-\\frac{y^2}{2}=1$\n$$\n\\Rightarrow a^2=4, b^2=2\n$$\n$\\therefore$ R lies on $\\frac{a^2}{x^2}-\\frac{b^2}{y^2}=1$ i.e., $\\frac{4}{x^2}-\\frac{2}{y^2}=1$"
+  }
+}

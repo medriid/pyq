@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2014",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd839e4041267a866788",
+    "chapter_name": "Differential Equations",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Solution of differential equation\r\n\r\n$$\r\n\r\nx^{2}=1+\\left(\\frac{x}{y}\\right)^{-1} \\frac{d y}{d x}+\\frac{\\left(\\frac{x}{y}\\right)^{-2}\\left(\\frac{d y}{d x}\\right)^{2}}{2 !}+\\frac{\\left(\\frac{x}{y}\\right)^{-3}\\left(\\frac{d y}{d x}\\right)^{3}}{3 !}+\\ldots \\text { is }\r\n\r\n$$"
+  },
+  "options": [
+    {
+      "text": "$y^{2}=x^{2}\\left(\\ln x^{2}-1\\right)+C$",
+      "is_correct": true
+    },
+    {
+      "text": "$y=x^{2}(\\ln x-1)+C$",
+      "is_correct": false
+    },
+    {
+      "text": "$y^{2}=x(\\ln x-1)+\\mathrm{C}$",
+      "is_correct": false
+    },
+    {
+      "text": "$y=x^{2} e^{x^{2}}+\\mathrm{C}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$x^{2}=e^{\\left(\\frac{x}{y}\\right)^{-1}\\left(\\frac{d y}{d x}\\right)} \\Rightarrow x^{2}=e^{\\left(\\frac{y}{x}\\right)\\left(\\frac{d y}{d x}\\right)}$\r\n\r\n$\\Rightarrow \\ln x^{2}=\\frac{y}{x} \\frac{d y}{d x}$ or $\\int x \\ln x^{2} d x=\\int y d y$\r\n\r\nPut $x^{2}=t \\Rightarrow 2 x d x=d t \\therefore \\frac{1}{2} \\int \\ln t d t=\\frac{y^{2}}{2}$\r\n\r\n$C+t \\ln t-t=y^{2}$ or $y^{2}=x^{2}\\left(\\ln x^{2}-1\\right)+C$"
+  }
+}

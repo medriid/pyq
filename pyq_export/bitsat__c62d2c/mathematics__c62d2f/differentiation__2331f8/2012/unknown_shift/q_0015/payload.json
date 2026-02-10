@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7e2daa1f081e2331f8",
+    "chapter_name": "Differentiation",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For the function\r\n$f(x)=\\frac{x^{100}}{100}+\\frac{x^{99}}{99}+\\ldots \\frac{x^{2}}{2}+x+1$\r\n$\\mathrm{f}^{\\prime}(1)=\\mathrm{mf}^{\\prime}(0),$ where $\\mathrm{m}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "50",
+      "is_correct": false
+    },
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "100",
+      "is_correct": true
+    },
+    {
+      "text": "200",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given, $f(x)=\\frac{x^{100}}{100}+\\frac{x^{99}}{99}+\\ldots+\\frac{x^{2}}{2}+x+1$\r\n$\\Rightarrow \\quad f^{\\prime}(x)=\\frac{100 x^{99}}{100}+\\frac{99 x^{98}}{99}+\\ldots+\\frac{2 x}{2}+1+0$\r\n$\\left[\\because \\mathrm{f}(\\mathrm{x})=\\mathrm{x}^{\\mathrm{n}} \\Rightarrow \\mathrm{f}^{\\prime}(\\mathrm{x})=\\mathrm{nx}^{\\mathrm{n}-1}\\right]$\r\n$\\Rightarrow \\mathrm{f}^{\\prime}(\\mathrm{x})=\\mathrm{x}^{99}+\\mathrm{x}^{98}+\\ldots+\\mathrm{x}+1$ ...(i)\r\nPutting $\\mathrm{x}=1$, we get $f^{\\prime}(1)=\\underbrace{(1)^{99}+1^{98}+\\ldots+1+1}_{100 \\text { times }}=\\underbrace{1+1+1 \\ldots+1+1}_{100 \\text { times }}$\r\n$\\Rightarrow \\quad \\mathrm{f}^{\\prime}(1)=100$ ...(ii)\r\nAgain, putting $\\mathrm{x}=0$, we get $\\mathrm{f}^{\\prime}(0)=0+0+\\ldots+0+1 \\quad \\Rightarrow \\mathrm{f}^{\\prime}(0)=1$ ...(iii)\r\nFrom eqs. (ii) and(iii), we get; $\\mathrm{f}^{\\prime}(1)=100 \\mathrm{f}^{\\prime}(0)$ Hence, $m=100$"
+  }
+}

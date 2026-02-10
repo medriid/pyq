@@ -1,0 +1,43 @@
+{
+  "index": 125,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2021 (22 Jul Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2021",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Four dice are thrown simultaneously and the numbers shown on these dice are recorded in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>&#215;</mo><mn>2</mn></math>&nbsp;matrices. The probability that such formed matrices have all different entries and are non-singular, is:"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>45</mn><mn>162</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>23</mn><mn>81</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>22</mn><mn>81</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>43</mn><mn>162</mn></mfrac></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<blockquote><p>Let, the outcomes of the four dice are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mi>a</mi><mo>,</mo><mo>&#160;</mo><mi>b</mi><mo>,</mo><mo>&#160;</mo><mi>c</mi><mo>,</mo><mo>&#160;</mo><mi>d</mi></mrow></mfenced><mo>.</mo></math></p><p>Then, we have the matrix&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mfenced close=\"]\" open=\"[\"><mtable><mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd></mtr><mtr><mtd><mi>c</mi></mtd><mtd><mi>d</mi></mtd></mtr></mtable></mfenced><mo>.</mo></math></p><p>Also,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"|\" open=\"|\"><mi>A</mi></mfenced><mo>=</mo><mfenced close=\"|\" open=\"|\"><mtable columnalign=\"left\"><mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd></mtr><mtr><mtd><mi>c</mi></mtd><mtd><mi>d</mi></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mfenced close=\"|\" open=\"|\"><mi>A</mi></mfenced><mo>=</mo><mi>a</mi><mi>d</mi><mo>-</mo><mi>b</mi><mi>c</mi></math></p><p>Now, for each of the numbers <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mo>&#160;</mo><mi>b</mi><mo>,</mo><mo>&#160;</mo><mi>c</mi><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mi>d</mi></math>&nbsp;there are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math>&nbsp;possibilities, hence total cases<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>6</mn><mn>4</mn></msup><mo>.</mo></math></p><p>For a non-singular matrix,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"|\" open=\"|\"><mi>A</mi></mfenced><mo>&#8800;</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>a</mi><mi>d</mi><mo>-</mo><mi>b</mi><mi>c</mi><mo>&#8800;</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>a</mi><mi>d</mi><mo>&#8800;</mo><mi>b</mi><mi>c</mi></math></p><p>Also,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mo>&#160;</mo><mi>b</mi><mo>,</mo><mo>&#160;</mo><mi>c</mi><mo>,</mo><mo>&#160;</mo><mi>d</mi></math> are all different numbers from&nbsp;the set&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mn>3</mn><mo>,</mo><mo>&#160;</mo><mn>4</mn><mo>,</mo><mo>&#160;</mo><mn>5</mn><mo>,</mo><mo>&#160;</mo><mn>6</mn><mo>}</mo><mo>,</mo></math>&nbsp;thus we have total&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>P</mi><mn>4</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><mo>=</mo><mfrac><mrow><mn>6</mn><mo>!</mo></mrow><mrow><mfenced><mrow><mn>6</mn><mo>-</mo><mn>4</mn></mrow></mfenced><mo>!</mo></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>6</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>6</mn><mo>&#215;</mo><mn>5</mn><mo>&#215;</mo><mn>4</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>2</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>360</mn><mo>.</mo></math></p><p>Now, for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>d</mi><mo>=</mo><mi>b</mi><mi>c</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi mathvariant=\"normal\">i</mi></mfenced><mo>&#160;</mo><mn>6</mn><mo>&#215;</mo><mn>1</mn><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>3</mn><mo>,</mo></math>&nbsp;here we have two cases possible.</p><p>When&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>d</mi><mo>=</mo><mn>6</mn><mo>&#215;</mo><mn>1</mn><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mi>b</mi><mi>c</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>3</mn><mo>,</mo></math>&nbsp;thus, we can choose&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mi>d</mi></math>&nbsp;in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>P</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts><mo>=</mo><mn>2</mn></math>&nbsp;ways and the same we can do for&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mi>c</mi><mo>,</mo></math>&nbsp;and hence, we have total&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>&#215;</mo><mn>2</mn><mo>=</mo><mn>4</mn></math>&nbsp;ways.</p><p>Similarly, we can take&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>d</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>3</mn><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mi>b</mi><mi>c</mi><mo>=</mo><mn>6</mn><mo>&#215;</mo><mn>1</mn><mo>,</mo></math>&nbsp;and for this also we have total&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>&nbsp;ways.</p><p>Thus, we have total&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>8</mn></math>&nbsp;ways.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>ii</mi></mfenced><mo>&#160;</mo><mn>6</mn><mo>&#215;</mo><mn>2</mn><mo>=</mo><mn>3</mn><mo>&#215;</mo><mn>4</mn><mo>,</mo></math>&nbsp;again&nbsp;here also, we have&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> cases possible.</p><p>Thus, the&nbsp;favourable cases&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>P</mi><mn>4</mn><none></none><mprescripts></mprescripts><none></none><mn>6</mn></mmultiscripts><mo>-</mo><mn>16</mn><mo>=</mo><mn>360</mn><mo>-</mo><mn>16</mn><mo>=</mo><mn>344</mn></math></p><p>And, hence the required probability<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>344</mn><msup><mn>6</mn><mn>4</mn></msup></mfrac><mo>=</mo><mfrac><mn>344</mn><mn>1296</mn></mfrac><mo>=</mo><mfrac><mn>43</mn><mn>162</mn></mfrac><mo>.</mo></math></p></blockquote>"
+  }
+}

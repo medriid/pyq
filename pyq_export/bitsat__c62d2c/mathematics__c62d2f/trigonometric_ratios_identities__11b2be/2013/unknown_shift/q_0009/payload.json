@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2013",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd829c5123da6811b2be",
+    "chapter_name": "Trigonometric Ratios & Identities",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "An object is obseved from the points $A, B$ and C lying in a horizontal straight line which passes directly underneath the object. The angular elevation at $\\mathrm{B}$ is twice that at $\\mathrm{A}$ and at $\\mathrm{C}$ three times that at $\\mathrm{A} .$ It $\\mathrm{AB}=a, \\mathrm{BC}=b$, then the height of the object is"
+  },
+  "options": [
+    {
+      "text": "$\\frac{b}{2 a} \\sqrt{(a+b)(3 b-a)}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{a}{b} \\sqrt{(a+b)(3 b-a)}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\mathrm{a}}{2 \\mathrm{~b}} \\sqrt{(\\mathrm{a}+\\mathrm{b})(3 \\mathrm{~b}-\\mathrm{a})}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{2 a}{b} \\sqrt{(a+b)(3 b-a)}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0009_c5ccde77da4d.png\"><br>\r\n\r\nLet $\\mathrm{ED}=h, \\angle \\mathrm{EAB}=\\alpha$\r\n\r\n$\\therefore \\quad \\angle \\mathrm{EBD}=2 \\alpha, \\angle \\mathrm{ECD}=3 \\alpha$\r\n\r\nNow, $\\angle \\mathrm{DBE}=\\angle \\mathrm{EAB}+\\angle \\mathrm{BEA}$\r\n\r\n$\\Rightarrow \\quad 2 \\alpha=\\alpha+\\angle \\mathrm{BEA}$\r\n\r\n$\\Rightarrow \\quad \\angle \\mathrm{BEA}=\\alpha=\\angle \\mathrm{EAB}$\r\n\r\n$\\Rightarrow \\mathrm{AB}=\\mathrm{EB}=a$\r\n\r\nSimilarly, $\\angle \\mathrm{EBC}=\\alpha$ $\\operatorname{In} \\Delta \\mathrm{EBC}, \\frac{\\mathrm{BC}}{\\sin \\alpha}=\\frac{\\mathrm{EB}}{\\sin \\left(180^{\\circ}-3 \\alpha\\right)}$\r\n\r\n$\\Rightarrow \\frac{b}{\\sin \\alpha}=\\frac{a}{\\sin 3 \\alpha} \\Rightarrow \\frac{a}{b}=\\frac{\\sin 3 \\alpha}{\\sin 3 \\alpha}$\r\n\r\n$\\Rightarrow \\quad \\frac{a}{b}=\\frac{3 \\sin \\alpha-4 \\sin ^{3} \\alpha}{\\sin \\alpha}=3-4 \\sin ^{2} \\alpha$\r\n\r\n$\\Rightarrow 4 \\sin ^{2} \\alpha=3-\\frac{a}{b}=\\frac{3 b-a}{b}$\r\n\r\n$\\Rightarrow \\sin \\alpha=\\sqrt{\\frac{3 b-a}{4 b}}$\r\n\r\nIn $\\Delta \\mathrm{EBD}, \\sin 2 \\alpha=\\frac{E D}{E B}$\r\n\r\n$\\Rightarrow \\quad \\mathrm{ED}=\\mathrm{a} \\cdot 2 \\sin \\alpha \\cdot \\cos \\alpha$\r\n\r\n$\\Rightarrow h=2 a \\sqrt{\\frac{3 b-a}{4 b}}, \\sqrt{1-\\frac{3 b-a}{4 b}}$\r\n\r\n$=2 a \\sqrt{\\frac{3 b-a}{4 b}} \\sqrt{\\frac{b-a}{4 b}}$\r\n\r\n$=\\frac{a}{2 b} \\sqrt{(a+b)(3 b-a)}$"
+  }
+}

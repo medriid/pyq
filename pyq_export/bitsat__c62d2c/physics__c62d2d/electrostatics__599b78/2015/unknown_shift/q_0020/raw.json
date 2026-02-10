@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7c76f5bfc7ab78ae7d0",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d79",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "BITSAT 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "A solid sphere of radius $R$ has a charge $Q$ distributed in its volume with a charge density $\\rho$ $=k r^{a}$, where $k$ and $a$ are constants and $r$ is the distance from its centre. If the electric field at $r=$ $\\frac{R}{2}$ is $\\frac{1}{8}$ times that at $r=R,$ the value of $a$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "sRvWp",
+      "text": "3",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "hjFec",
+      "text": "5",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "F02je",
+      "text": "2",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "TIMuP",
+      "text": "7",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Using Gauss's law, we have\r\n\r\n$$\r\n\r\n\\oint \\vec{E} \\cdot d \\vec{A}=\\frac{1}{\\epsilon_{0}} \\int(\\rho d v)=\\frac{1}{\\epsilon_{0}} \\int_{0}^{R} k r^{a} \\times 4 \\pi r^{2} d r\r\n\r\n$$\r\n\r\nor $E \\times 4 \\pi R^{2}=\\left(\\frac{4 \\pi k}{\\epsilon_{0}}\\right) \\frac{R^{(a+3)}}{(a+3)}$\r\n\r\n$$\r\n\r\n\\therefore \\quad E_{1}=\\frac{k R^{(a+1)}}{\\epsilon_{0}(a+3)}\r\n\r\n$$\r\n\r\nFor $r=\\frac{R}{2} \\cdot E_{2}=\\frac{k\\left(\\frac{R}{2}\\right)^{a+1}}{\\epsilon_{0}(a+3)}$\r\n\r\nGiven, $E_{2}=\\frac{E_{1}}{8}$\r\n\r\nor $\\frac{k\\left(\\frac{R}{2}\\right)^{a+1}}{\\epsilon_{0}(a+3)}=\\frac{1}{8} \\frac{k R^{(a+1)}}{\\epsilon_{0}(a+3)}$\r\n\r\n$$\r\n\r\n\\begin{array}{ll}\r\n\r\n\\therefore & \\quad \\frac{1}{a+1}=\\frac{1}{8} \\\\\r\n\r\n\\text { or } & a=2 .\r\n\r\n\\end{array}\r\n\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d79",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "BITSAT 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

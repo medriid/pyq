@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd74291eeb125c7afd32",
+    "chapter_name": "Vector Algebra",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\vec{a}=\\hat{i}+\\hat{j}+\\hat{k}, \\vec{a} \\cdot \\vec{b}=1$ and $\\vec{a} \\times \\vec{b}=\\vec{j}-\\vec{k}$, then $\\vec{b}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\hat{i}-\\hat{j}+\\hat{k}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 \\hat{j}-\\hat{k}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 \\hat{i}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\hat{i}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given $\\vec{a}=\\hat{i}+\\hat{j}+\\hat{k}, \\vec{a} \\cdot \\vec{b}=1$ and $\\vec{a} \\times \\vec{b}=\\vec{j}-\\vec{k}$,<br />Let $\\bar{b}=b_1 \\hat{i}+b_2 \\hat{j}+b_3 \\widehat{k}$<br />Now, $\\hat{j}-\\widehat{k}=\\bar{a} \\times \\bar{b}=\\left|\\begin{array}{ccc}\\hat{i} & \\hat{j} & \\widehat{k} \\\\ 1 & 1 & 1 \\\\ b_2 & b_2 & b_3\\end{array}\\right|$<br />$\\Rightarrow b_3-b_2=0, b_1-b_3=1, b_2-b_1=-1$<br />$\\Rightarrow b_3=b_2, b_1=b_2+1$<br />Also, $\\bar{a} \\cdot \\bar{b}=1$<br />$\\Rightarrow b_1+b_2+b_3=1$<br />$\\Rightarrow 3 b_2+1=1$<br />$\\Rightarrow b_2=0$<br />$\\Rightarrow b_1=1, b_3=0$<br />Thus, $\\bar{b}=\\hat{i}$"
+  }
+}

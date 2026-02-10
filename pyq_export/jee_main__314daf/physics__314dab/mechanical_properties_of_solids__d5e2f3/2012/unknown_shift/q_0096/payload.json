@@ -1,8 +1,8 @@
 {
   "index": 96,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2012 (07 May Online)",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2012 (19 May Online)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "unknown_shift"
   },
   "question": {
-    "text": "A structural steel rod has a radius of $10 \\mathrm{~mm}$ and length of $1.0 \\mathrm{~m}$. A $100 \\mathrm{kN}$ force stretches it along its length. Young's modulus of structural steel is $2 \\times 10^{11} \\mathrm{Nm}^{-2}$. The percentage strain is about"
+    "text": "A steel wire can sustain $100 \\mathrm{~kg}$ weight without breaking. If the wire is cut into two equal parts, each part can sustain a weight of"
   },
   "options": [
     {
-      "text": "\n$0.16 \\%$\n",
+      "text": "\n$50 \\mathrm{~kg}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$400 \\mathrm{~kg}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$100 \\mathrm{~kg}$\n",
       "is_correct": true
     },
     {
-      "text": "\n$0.32 \\%$\n",
-      "is_correct": false
-    },
-    {
-      "text": "\n$0.08 \\%$\n",
-      "is_correct": false
-    },
-    {
-      "text": "\n$0.24 \\%$",
+      "text": "\n$200 \\mathrm{~kg}$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "A"
+    "C"
   ],
   "solution": {
-    "text": "Given: $F=100 \\mathrm{kN}=10^5 \\mathrm{~N}$\n$$\n\\begin{aligned}\n& \\mathrm{Y}=2 \\times 10^{11} \\mathrm{Nm}^{-2} \\\\\n& \\ell_0=1.0 \\mathrm{~m}\n\\end{aligned}\n$$\nradius $\\mathrm{r}=10 \\mathrm{~mm}=10^{-2} \\mathrm{~m}$\nFrom formula, $Y=\\frac{\\text { Stress }}{\\text { Strain }}$\n$$\n\\Rightarrow \\quad \\text { Strain }=\\frac{\\text { Stress }}{Y}=\\frac{F}{A Y}\n$$\n$$\n\\begin{aligned}\n& =\\frac{10^5}{\\pi r^2 Y}=\\frac{10^5}{3.14 \\times 10^{-4} \\times 2 \\times 10^{11}} \\\\\n& =\\frac{1}{628}\n\\end{aligned}\n$$\nTherefore $\\%$ strain $=\\frac{1}{628} \\times 100=0.16 \\%$"
+    "text": "Breaking force $\\alpha$ area of cross section of wire\nLoad hold by wire is independent of length of the wire."
   }
 }

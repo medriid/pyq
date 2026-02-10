@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e8196f5bfc7ab78aea97",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d7e",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2020-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2020",
+      "title": "BITSAT 2020"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "The domain of the function $f(x)=\\sqrt{x-\\sqrt{1-x^{2}}}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "Fjmry",
+      "text": "$\\left[-1,-\\frac{1}{\\sqrt{2}}\\right] \\cup\\left[\\frac{1}{\\sqrt{2}}, 1\\right]$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "Pg0UO",
+      "text": "[-1,1]",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "XCqrM",
+      "text": "$\\left(-\\infty,-\\frac{1}{2}\\right] \\cup\\left[\\frac{1}{\\sqrt{2}},+\\infty\\right)$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "iJEpf",
+      "text": "$\\left[\\frac{1}{\\sqrt{2}}, 1\\right]$",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "For $f(x)$ to be defined, we must have $x-\\sqrt{1-x^{2}} \\geq 0$ or $\\quad x \\geq \\sqrt{1-x^{2}}>0$\r\n\r\n$\\therefore \\quad x^{2} \\geq 1-x^{2}$ or $x^{2} \\geq \\frac{1}{2}$\r\n\r\nAlso, $1-x^{2} \\geq 0$ or $x^{2} \\leq 1$.\r\n\r\nNow, $x^{2} \\geq \\frac{1}{2} \\Rightarrow\\left(x-\\frac{1}{\\sqrt{2}}\\right)\\left(x+\\frac{1}{\\sqrt{2}}\\right) \\geq 0$\r\n\r\n$\\Rightarrow x \\leq-\\frac{1}{\\sqrt{2}}$ or $x \\geq \\frac{1}{\\sqrt{2}}$\r\n\r\nAlso, $x^{2} \\leq 1 \\Rightarrow(x-1)(x+1) \\leq 0$\r\n\r\n$\\Rightarrow-1 \\leq x \\leq 1$\r\n\r\nThus, $x>0, x^{2} \\geq \\frac{1}{2}$ and $x^{2} \\leq 1$\r\n\r\n$\\Rightarrow x \\in\\left[\\frac{1}{\\sqrt{2}}, 1\\right]$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d7e",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2020-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2020",
+    "title": "BITSAT 2020"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

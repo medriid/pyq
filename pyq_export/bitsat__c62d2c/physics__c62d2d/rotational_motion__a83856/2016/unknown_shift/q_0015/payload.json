@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2016",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd6fb80a936d82a83856",
+    "chapter_name": "Rotational Motion",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A circular disc of radius $\\mathrm{R}$ and thickness $\\frac{R}{6}$ has moment inertia I about an axis passing through its centre perpendicular to its plane. It is melted and recasted into a solid sphere. The moment of inertia of the sphere about its diameter is"
+  },
+  "options": [
+    {
+      "text": "$I$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2 I}{8}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{I}{5}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{I}{10}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "According to problem disc is melted and recasted into a solid sphere so their volume\r\n\r\n$$\r\n\r\n\\begin{array}{c}\r\n\r\n\\text { will be same. } \\\\\r\n\r\nV_{\\text {Disc }}=V_{\\text {Sphere }} \\Rightarrow \\pi R_{\\text {Disc }}^{2} t=\\frac{4}{3} \\pi R_{\\text {Sphere }}^{3} \\\\\r\n\r\n\\Rightarrow \\pi R_{\\text {Disc }}^{2}\\left(\\frac{R_{\\text {Disc }}}{6}\\right)=\\frac{4}{3} \\pi R_{\\text {Sphere }}^{3}\\left[t=\\frac{R_{\\text {Disc }}}{6}, \\text { given }\\right] \\\\\r\n\r\n\\Rightarrow R_{\\text {Disc }}^{3}=8 R_{\\text {Sphere }}^{3} \\Rightarrow R_{\\text {Sphere }}=\\frac{R_{\\text {Disc }}}{2}\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nMoment of inertia of disc\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\nI_{\\text {Disc }}=\\frac{1}{2} M R_{\\text {Disc }}^{2}=I \\text { (given) } \\\\\r\n\r\n\\therefore \\text { M }\\left(R_{\\text {Disc }}\\right)^{2}=2 I\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nMoment of inertia of sphere\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\nI_{\\text {Sphere }}=\\frac{1}{2} M R_{\\text {Sphere }}^{2} \\\\\r\n\r\n=\\frac{2}{5} M\\left(\\frac{R_{\\text {Disc }}}{2}\\right)^{2}=\\frac{M}{10}\\left(R_{\\text {Disc }}\\right)^{2}=\\frac{2 I}{10}=\\frac{I}{5}\r\n\r\n\\end{array}\r\n\r\n$$"
+  }
+}

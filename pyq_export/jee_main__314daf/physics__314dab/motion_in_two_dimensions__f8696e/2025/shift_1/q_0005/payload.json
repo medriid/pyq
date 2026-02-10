@@ -1,8 +1,8 @@
 {
   "index": 5,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (29 Jan Shift 1)",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (7 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Two projectiles are fired with same initial speed from same point on ground at angles of \\(\\left(45^{\\circ}-\\alpha\\right)\\) and \\(\\left(45^{\\circ}+\\alpha\\right)\\), respectively, with the horizontal direction. The ratio of their maximum heights attained is :"
+    "text": "Two projectiles are fired from ground with same initial speeds from same point at angles $\\left(45^{\\circ}+\\alpha\\right)$ and $\\left(45^{\\circ}-\\alpha\\right)$ with horizontal direction. The ratio of their times of flights is"
   },
   "options": [
     {
-      "text": "\\(\\frac{1-\\tan \\alpha}{1+\\tan \\alpha}\\)",
+      "text": "1",
       "is_correct": false
     },
     {
-      "text": "\\(\\frac{1-\\sin 2 \\alpha}{1+\\sin 2 \\alpha}\\)",
+      "text": "$\\frac{1-\\tan \\alpha}{1+\\tan \\alpha}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1+\\sin 2 \\alpha}{1-\\sin 2 \\alpha}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1+\\tan \\alpha}{1-\\tan \\alpha}$",
       "is_correct": true
-    },
-    {
-      "text": "\\(\\frac{1+\\sin 2 \\alpha}{1-\\sin 2 \\alpha}\\)",
-      "is_correct": false
-    },
-    {
-      "text": "\\(\\frac{1+\\sin \\alpha}{1-\\sin \\alpha}\\)",
-      "is_correct": false
     }
   ],
   "correct_answer": [
-    "B"
+    "D"
   ],
   "solution": {
-    "text": "$\\begin{aligned} & \\mathrm{H}_{\\mathrm{Max}}=\\frac{(\\mathrm{u} \\sin \\theta)^2}{2 \\mathrm{~g}} \\\\ & \\frac{\\left(\\mathrm{H}_{\\max }\\right)_1}{\\left(\\mathrm{H}_{\\max }\\right)_2}=\\frac{\\mathrm{u}^2 \\sin ^2(45-\\alpha)}{\\mathrm{u}^2 \\sin ^2(45+\\alpha)} \\\\ & =\\frac{\\left(\\frac{1}{\\sqrt{2}} \\cos \\alpha-\\frac{1}{\\sqrt{2}} \\sin \\alpha\\right)^2}{\\left(\\frac{1}{\\sqrt{2}} \\cos \\alpha+\\frac{1}{\\sqrt{2}} \\sin \\alpha\\right)^2} \\\\ & =\\frac{1-\\sin 2 \\alpha}{1+\\sin 2 \\alpha}\\end{aligned}$"
+    "text": "$\\theta_1=45+\\alpha ; \\theta_2=45-\\alpha$<br/>Time of flight, $\\mathrm{T}=\\frac{2 \\mathrm{v} \\sin \\theta}{\\mathrm{g}}$<br/>$\\frac{\\mathrm{T}_1}{\\mathrm{~T}_2}=\\frac{\\sin (45+\\alpha)}{\\sin (45-\\alpha)}$<br/>$\\frac{\\mathrm{T}_1}{\\mathrm{~T}_2}=\\frac{\\frac{1}{\\sqrt{2}} \\cos \\alpha+\\frac{1}{\\sqrt{2}} \\sin \\alpha}{\\frac{1}{\\sqrt{2}} \\cos \\alpha-\\frac{1}{\\sqrt{2}} \\sin \\alpha}$<br/>$\\frac{\\mathrm{T}_1}{\\mathrm{~T}_2}=\\frac{\\cos \\alpha+\\sin \\alpha}{\\cos \\alpha-\\sin \\alpha}=\\frac{1+\\tan \\alpha}{1-\\tan \\alpha}$"
   }
 }

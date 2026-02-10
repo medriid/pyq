@@ -1,8 +1,8 @@
 {
   "index": 44,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2024 (01 Feb Shift 1)",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "<p>Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>:</mo><mi>R</mi><mo>→</mo><mi>R</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mo>:</mo><mi>R</mi><mo>→</mo><mi>R</mi></math> be defined as <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable equalcolumns=\"true\" equalrows=\"true\"><mtr><mtd><msub><mi>log</mi><mi>e</mi></msub><mi>x</mi><mo>,</mo></mtd><mtd><mi>x</mi><mo>&gt;</mo><mn>0</mn></mtd></mtr><mtr><mtd><msup><mi>e</mi><mrow><mo>−</mo><mi>x</mi></mrow></msup><mo>,</mo></mtd><mtd><mi>x</mi><mo>≤</mo><mn>0</mn></mtd></mtr></mtable></mfenced></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable equalcolumns=\"true\" equalrows=\"true\"><mtr><mtd><mi>x</mi><mo>,</mo></mtd><mtd><mi>x</mi><mo>≥</mo><mn>0</mn></mtd></mtr><mtr><mtd><msup><mi>e</mi><mi>x</mi></msup><mo>,</mo></mtd><mtd><mi>x</mi><mo>&lt;</mo><mn>0</mn></mtd></mtr></mtable></mfenced></math>. Then, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mi>o</mi><mi>f</mi><mo>:</mo><mi>R</mi><mo>→</mo><mi>R</mi></math> is:</p>"
+    "text": "The function $\\text { f: R->R, }$ $f(x)=\\frac{x^2+2 x-15}{x^2-4 x+9}, x \\in \\mathbb{R}$ is"
   },
   "options": [
     {
-      "text": "one-one but not onto",
+      "text": "one-one but not onto.",
       "is_correct": false
     },
     {
-      "text": "neither one-one nor onto",
+      "text": "both one-one and onto.",
+      "is_correct": false
+    },
+    {
+      "text": "onto but not one-one.",
+      "is_correct": false
+    },
+    {
+      "text": "neither one-one nor onto.",
       "is_correct": true
-    },
-    {
-      "text": "onto but not one-one",
-      "is_correct": false
-    },
-    {
-      "text": "both one-one and onto",
-      "is_correct": false
     }
   ],
   "correct_answer": [
-    "B"
+    "D"
   ],
   "solution": {
-    "text": "<p>Given: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable equalcolumns=\"true\" equalrows=\"true\"><mtr><mtd><msub><mi>log</mi><mi>e</mi></msub><mi>x</mi><mo>,</mo></mtd><mtd><mi>x</mi><mo>&gt;</mo><mn>0</mn></mtd></mtr><mtr><mtd><msup><mi>e</mi><mrow><mo>−</mo><mi>x</mi></mrow></msup><mo>,</mo></mtd><mtd><mi>x</mi><mo>≤</mo><mn>0</mn></mtd></mtr></mtable></mfenced></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable equalcolumns=\"true\" equalrows=\"true\"><mtr><mtd><mi>x</mi><mo>,</mo></mtd><mtd><mi>x</mi><mo>≥</mo><mn>0</mn></mtd></mtr><mtr><mtd><msup><mi>e</mi><mi>x</mi></msup><mo>,</mo></mtd><mtd><mi>x</mi><mo>&lt;</mo><mn>0</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>g</mi><mfenced><mrow><mi>f</mi><mfenced><mi>x</mi></mfenced></mrow></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable><mtr><mtd><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>,</mo></mtd><mtd><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>≥</mo><mn>0</mn></mtd></mtr><mtr><mtd><msup><mi>e</mi><mrow><mi>f</mi><mfenced><mi>x</mi></mfenced></mrow></msup><mo>,</mo></mtd><mtd><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>&lt;</mo><mn>0</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>g</mi><mfenced><mrow><mi>f</mi><mfenced><mi>x</mi></mfenced></mrow></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable><mtr><mtd><msup><mi>e</mi><mrow><mo>−</mo><mi>x</mi></mrow></msup><mo>,</mo></mtd><mtd><mfenced close=\"]\"><mrow><mo>−</mo><mi>∞</mi><mo>,</mo><mn>0</mn></mrow></mfenced></mtd></mtr><mtr><mtd><msup><mi>e</mi><mrow><mi>log</mi><mi>x</mi></mrow></msup><mo>,</mo></mtd><mtd><mfenced><mrow><mn>0</mn><mo>,</mo><mn>1</mn></mrow></mfenced></mtd></mtr><mtr><mtd><mi>log</mi><mi>x</mi><mo>,</mo></mtd><mtd><mfenced open=\"[\"><mrow><mn>1</mn><mo>,</mo><mi>∞</mi></mrow></mfenced></mtd></mtr></mtable></mfenced></math></p><p>Graph of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mrow><mi>f</mi><mfenced><mi>x</mi></mfenced></mrow></mfenced></math> is given below:</p><p><img alt=\"\" src=\"assets\\st0044_0ab4450e09aa.png\" style=\"width: 320px; height: 207px;\"/></p><p>Range of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mrow><mi>f</mi><mfenced><mi>x</mi></mfenced></mrow></mfenced><mo>=</mo><mo>[</mo><mn>0</mn><mo>,</mo><mo>∞</mo><mo>)</mo><mo>≠</mo></math>Codomain</p><p>So, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mfenced><mrow><mi>f</mi><mfenced><mi>x</mi></mfenced></mrow></mfenced></math> is many-one and into.</p>"
+    "text": "$f(x)=\\frac{(x+5)(x-3)}{x^2-4 x+9}$<br />$\\begin{aligned} & \\text { Let } g(x)=x^2-4 x+9 \\\\ & D < 0 \\\\ & g(x)>0 \\text { for } x \\in R\\end{aligned}$\n<img src=\"assets\\st0044_a4b32a7bce91.png\"><br />$\\therefore\\left[\\begin{array}{l}\n\\mathrm{f}(-5)=0 \\\\\n\\mathrm{f}(3)=0\n\\end{array}\\right.$<br />So, $\\mathrm{f}(\\mathrm{x})$ is many-one.\nagain,\n$\\begin{aligned}\n& y x^2-4 x y+9 y=x^2+2 x-15 \\\\\n& x^2(y-1)-2 x(2 y+1)+(9 y+15)=0 \\\\\n& \\text { for } \\forall x \\in R \\Rightarrow D \\geq 0 \\\\\n& D=4(2 y+1)^2-4(y-1)(9 y+15) \\geq 0 \\\\\n& 5 y^2+2 y+16 \\leq 0 \\\\\n& (5 y-8)(y+2) \\leq 0\n\\end{aligned}$\n<img src=\"assets\\st0044_ea8a8fe67ca1.png\"><br><img src=\"assets\\st0044_771c41e12849.png\"><br>"
   }
 }

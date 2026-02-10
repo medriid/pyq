@@ -1,0 +1,43 @@
+{
+  "index": 32,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $x=x(y)$ be the solution of the differential equation $y^2 \\mathrm{~d} x+\\left(x-\\frac{1}{y}\\right) \\mathrm{d} y=0$. If $x(1)=1$, then $x\\left(\\frac{1}{2}\\right)$ is :"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{2}+\\mathrm{e}$",
+      "is_correct": false
+    },
+    {
+      "text": "$3+e$",
+      "is_correct": false
+    },
+    {
+      "text": "$3-e$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{3}{2}+e$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& y^2 d x+\\left(x-\\frac{1}{y}\\right) d y=0 \\\\\n& y^2 d x=\\left(\\frac{1}{y}-x\\right) d y \\\\\n& \\Rightarrow y^2 \\frac{d x}{d y}=\\frac{1}{y}-x \\\\\n& \\Rightarrow \\frac{d x}{d y}+\\frac{x}{y^2}=\\frac{1}{y^3} \\\\\n& \\text { I.F. }=e^{\\int \\frac{1}{y^2} d y}=e^{\\frac{-1}{y}}\n\\end{aligned}$\n$\\therefore$ Solution is\n$x e^{\\frac{-1}{y}}=\\int e^{-\\frac{1}{y}} \\times \\frac{1}{y^3} d y+C$\nLet $\\frac{-1}{y}=t$\n$\\begin{aligned}\n& \\Rightarrow \\frac{1}{y^2} d y=d t \\\\\n& \\Rightarrow x e^{-\\frac{1}{y}}=-\\int e^t t d t+C \\\\\n& \\Rightarrow x e^{-\\frac{1}{y}}=-e^t(t-1)+C \\\\\n& \\Rightarrow x e^{-\\frac{1}{y}}=-e^{\\frac{-1}{y}}\\left(\\frac{-1}{y}-1\\right)+C\n\\end{aligned}$\n$x(1)=1$\n$\\Rightarrow e^{-1}=-e^{-1}(-2)+C$\n$\\Rightarrow C=-e^{-1}$\n$\\Rightarrow x=\\frac{1}{y}+1-e^{-1+\\frac{1}{y}}$\n$x\\left(\\frac{1}{2}\\right)=3-e$"
+  }
+}

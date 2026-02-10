@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78b6e5f7d916087e2f",
+    "chapter_name": "Probability",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A six faced die is a biased one. It is thrice more likely to show an odd numbers than show an even number. It is thrown twice. The probability that the sum of the numbers in two throws is even, is"
+  },
+  "options": [
+    {
+      "text": "\r\n$\\frac{5}{9}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$\\frac{5}{8}$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n$\\frac{1}{2}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\nNone of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $P$ be the probability of getting an even number. Then by hypothesis the probability of getting an odd number is $3 P$. Since the events of getting an even number and an odd number are mutually exclusive and exhaustive.\r\n$$\r\n\\therefore \\quad P+3 P=1 \\Rightarrow P=1 / 4\r\n$$\r\nThus, the probability of getting an odd number in a single throw is $\\frac{3}{4}$ and that of an even number is $\\frac{1}{4}$.\r\nIf the die is thrown twice, then the sum of the numbers in two throws is even if both the numbers are even or both are odd.\r\n$$\r\n\\therefore \\text { Required probability }=\\frac{3}{4} \\times \\frac{3}{4}+\\frac{1}{4} \\times \\frac{1}{4}=\\frac{10}{16}=\\frac{5}{8}\r\n$$"
+  }
+}

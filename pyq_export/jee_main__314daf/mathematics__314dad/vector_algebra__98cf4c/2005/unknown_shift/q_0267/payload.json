@@ -1,0 +1,43 @@
+{
+  "index": 267,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "For any vectora a the value of $(\\vec{a} \\times \\hat{i})^2+(\\vec{a} \\times \\hat{j})^2+(\\vec{a} \\times \\hat{k})^2$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$3 \\vec{a}^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\vec{a}^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2 \\vec{a}^2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$4 \\vec{a}^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $\\vec{a}=x \\hat{i}+y \\hat{j}+z \\hat{k}$\n$$\n\\begin{aligned}\n& \\vec{a} \\times \\hat{\\mathbf{i}}=z \\hat{\\mathbf{j}}-y \\hat{\\mathbf{k}} \\\\\n& \\Rightarrow(\\vec{a} \\times \\hat{\\mathbf{i}})^2=y^2+z^2\n\\end{aligned}\n$$\nsimilarly $(\\vec{a} \\times \\hat{j})^2=x^2+z^2$\nand $(\\vec{a} \\times \\hat{k})^2=x^2+y^2 \\Rightarrow(\\vec{a} \\times \\hat{i})^2=y^2+z^2$\nsimilarly $(\\vec{a} \\times \\hat{j})^2=x^2+z^2$\nand $(\\vec{a} \\times \\hat{k})^2=x^2+y^2$\n$$\n\\Rightarrow(\\vec{a} \\times \\hat{i})^2+(\\vec{a} \\times \\hat{j})^2+(\\vec{a} \\times \\hat{k})^2=2\\left(x^2+y^2+z^2\\right)=2 \\vec{a}^2 .\n$$"
+  }
+}

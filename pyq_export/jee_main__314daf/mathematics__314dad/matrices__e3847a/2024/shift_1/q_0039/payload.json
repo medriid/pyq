@@ -1,0 +1,43 @@
+{
+  "index": 39,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2024 (05 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $A$ and $B$ be two square matrices of order 3 such that $|A|=3$ and $|B|=2$. Then $\\left|\\mathrm{A}^{\\mathrm{T}} \\mathrm{A}(\\operatorname{adj}(2 \\mathrm{~A}))^{-1}(\\operatorname{adj}(4 \\mathrm{~B}))(\\operatorname{adj}(\\mathrm{AB}))^{-1} \\mathrm{AA}^{\\mathrm{T}}\\right|$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "108",
+      "is_correct": false
+    },
+    {
+      "text": "32",
+      "is_correct": false
+    },
+    {
+      "text": "81",
+      "is_correct": false
+    },
+    {
+      "text": "64",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & |\\mathrm{A}|=3,|\\mathrm{~B}|=2 \\\\ & \\left|\\mathrm{~A}^{\\mathrm{T}} \\mathrm{A}(\\operatorname{adj}(2 \\mathrm{~A}))^{-1}(\\operatorname{adj}(4 \\mathrm{~B}))(\\operatorname{adj}(\\mathrm{AB}))^{-1} \\mathrm{AA}^{\\mathrm{T}}\\right|\\end{aligned}$\n\\(\\begin{array}{ccc} =3 \\times 3 \\times \\mid \\left(\\operatorname{adj}(2 \\mathrm{~A})^{-1}|\\times| \\operatorname{adj}(4 \\mathrm{~B})| \\times|(\\operatorname{adj}(\\mathrm{AB}))^{-1}\\mid \\times 3 \\times 3\\right. \\\\ \\downarrow \\qquad\\qquad \\downarrow \\qquad\\qquad \\downarrow \\\\ \\frac{1}{|\\operatorname{adj}(2 \\mathrm{~A})|} \\qquad 2^{12} \\times 2^2 \\qquad \\frac{1}{|\\operatorname{adj}(\\mathrm{AB})|} \\end{array}\\)<br />$\\begin{aligned} & =\\frac{1}{2^6|\\operatorname{adj} \\mathrm{A}|} \\quad=\\frac{1}{|\\operatorname{adj} \\mathrm{B} \\cdot \\operatorname{adj} \\mathrm{A}|} \\\\ & =\\frac{1}{2^6 \\cdot 3^2} \\quad=\\frac{1}{2^2 \\cdot 3^2} \\\\ & =3^4 \\cdot \\frac{1}{2^6 \\cdot 3^2} \\cdot 2^{12} \\cdot 2^2 \\cdot \\frac{1}{2^2 \\cdot 3^2}=64 \\\\ & \\end{aligned}$"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eeb2c8b73881fdaea218",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d9760d",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-24T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (24 Jan Shift 2)",
+      "title": "JEE Main 2025 (24 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "For some $\\mathrm{a}, \\mathrm{b}$, let $f(x)=\\left|\\begin{array}{ccc}\\mathrm{a}+\\frac{\\sin x}{x} & 1 & \\mathrm{~b} \\\\ \\mathrm{a} & 1+\\frac{\\sin x}{x} & \\mathrm{~b} \\\\ \\mathrm{a} & 1 & \\mathrm{~b}+\\frac{\\sin x}{x}\\end{array}\\right|, x \\neq 0, \\lim _{x \\rightarrow 0} f(x)=\\lambda+\\mu \\mathrm{a}+\\nu \\mathrm{b}$. Then $(\\lambda+\\mu+\\nu)^2$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "zANVu",
+      "text": "16",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "oTtVu",
+      "text": "25",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "KRXhg",
+      "text": "9",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "69E2p",
+      "text": "36",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow 0}\\left|\\begin{array}{ccc}\na+\\frac{\\sin x}{x} & 1 & b \\\\\na & 1+\\frac{\\sin x}{x} & b \\\\\na & 1 & b+\\frac{\\sin x}{x}\n\\end{array}\\right|=\\lambda+\\mu a+v b$\nAt $\\lim x \\rightarrow 0$,\n$\\begin{aligned}\n& f(x)=\\left|\\begin{array}{ccc}\na+1 & 1 & b \\\\\na & 1+1 & b \\\\\na & 1 & b+1\n\\end{array}\\right|=\\lambda+\\mu a+v b \\\\\n& R_1 \\rightarrow R_1-R_2 \\\\\n& R_2 \\rightarrow R_2-R_3 \\\\\n& \\left|\\begin{array}{ccc}\n1 & -1 & 0 \\\\\n0 & 1 & -1 \\\\\na & 1 & b+1\n\\end{array}\\right|=\\lambda+\\mu a+v b \\\\\n& \\mathrm{C}_2 \\rightarrow \\mathrm{C}_1-\\mathrm{C}_2 \\\\\n& \\left|\\begin{array}{ccc}\n1 & 0 & 0 \\\\\n0 & 1 & -1 \\\\\na & a+1 & b+1\n\\end{array}\\right|=\\lambda+\\mu a+v b \\\\\n& a+b+2=\\lambda+\\mu a+v b \\\\\n& \\lambda=2, \\mu=1, \\quad v=1 \\\\\n& (\\lambda+\\mu+v)=(2+1+1)^2=16\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "d4318d49acb040d3a21dae9516b6d422",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/APm98PBdDA7Tc.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/APm98PBdDA7Tc.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d9760d",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-24T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (24 Jan Shift 2)",
+    "title": "JEE Main 2025 (24 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

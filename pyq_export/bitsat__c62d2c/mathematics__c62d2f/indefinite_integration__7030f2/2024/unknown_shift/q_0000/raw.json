@@ -1,0 +1,63 @@
+{
+  "_id": "67726d0ec49e8ef28ee2b3e7",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6415",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 2)",
+      "title": "BITSAT 2024 (Memory Based Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "$\\int \\frac{x^3-1}{x^3+x} d x=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "lSPJW",
+      "text": "$x+\\log |x|+\\frac{1}{2} \\log \\left(x^2+1\\right)+\\sin ^{-1}(x)+c$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "MHJFV",
+      "text": "$x-\\log |x|+\\frac{1}{2} \\log \\left(x^2+1\\right)-\\sin ^{-1}(x)+c$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "88IEv",
+      "text": "$x+\\log |x|-\\frac{1}{2} \\log \\left(x^2+1\\right)+\\tan ^{-1}(x)+c$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "QxYKL",
+      "text": "$x-\\log |x|+\\frac{1}{2} \\log \\left(x^2+1\\right)-\\tan ^{-1}(x)+c$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$I=\\int\\left(\\frac{x^3-1}{x^3+x}\\right) d x=\\int\\left(1-\\frac{x+1}{x^3+x}\\right) d x$\n$\\begin{aligned}\n& \\Rightarrow I=\\int 1 \\cdot d x-\\int \\frac{(x+1)}{x^3+x} d x \\\\\n& =x-\\int \\frac{(x+1)}{x\\left(x^2+1\\right)} d x\n\\end{aligned}$\n$\\begin{aligned}\n& \\text { Let } \\frac{x+1}{x\\left(x^2+1\\right)}=\\frac{A}{x}+\\frac{B x+C}{x^2+1} \\\\\n& \\Rightarrow(x+1)=A\\left(x^2+1\\right)+(B x+C) x \\\\\n& \\Rightarrow(x+1)=(A+B) x^2+C x+A\n\\end{aligned}$\nOn comparing coefficient, we get\n$\\begin{aligned}\n& A+B=0, C=1, A=1 \\\\\n& \\Rightarrow B=-1 \\\\\n& \\therefore I=x-\\int \\frac{1}{x} d x-\\int \\frac{(1-x)}{x^2+1} d x \\\\\n& \\Rightarrow I=x-\\log |x|-\\int \\frac{1}{x^2+1} d x+\\frac{1}{2} \\int \\frac{2 x}{x^2+1} d x \\\\\n& \\Rightarrow I=x-\\log |x|-\\tan ^{-1} x+\\frac{1}{2} \\log \\left(x^2+1\\right)+c\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6415",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 2)",
+    "title": "BITSAT 2024 (Memory Based Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2021",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd839e4041267a866788",
+    "chapter_name": "Differential Equations",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the slope of the tangent to the curve at any point $\\mathrm{P}(x, y)$ is $\\frac{y}{x}-\\cos ^{2} \\frac{y}{x}$, then the equation of a curve passing through $\\left(1, \\frac{\\pi}{4}\\right)$ is"
+  },
+  "options": [
+    {
+      "text": "$\\tan \\left(\\frac{y}{x}\\right)+\\log x=1$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\tan \\left(\\frac{y}{x}\\right)+\\log y=1$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\tan \\left(\\frac{x}{y}\\right)+\\log x=1$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\tan \\left(\\frac{x}{y}\\right)+\\log y=1$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "According to the condition,\r\n\r\n$\\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\frac{y}{x}-\\cos ^{2} \\frac{y}{x} \\ldots \\text { (i) }$\r\n\r\nThis is a homogeneous differential equation Substituting $y=v x$, we get\r\n\r\n$\\begin{array}{l}\r\n\r\nv+x \\frac{\\mathrm{dv}}{\\mathrm{dx}}=v-\\cos ^{2} v \\\\\r\n\r\n\\Rightarrow x \\frac{\\mathrm{dv}}{\\mathrm{dx}}=-\\cos ^{2} v \\\\\r\n\r\n\\Rightarrow \\int \\sec ^{2} \\mathrm{vdv}=-\\int \\frac{\\mathrm{dx}}{\\mathrm{x}} \\\\\r\n\r\n\\Rightarrow \\tan v=-\\log x+\\mathrm{C} \\\\\r\n\r\n\\Rightarrow \\tan \\frac{y}{x}+\\log x=\\mathrm{C}\r\n\r\n\\end{array}$\r\n\r\nSubstituting $\\mathrm{x}=1, y=\\frac{\\pi}{4}$, we get $\\mathrm{C}=1$\r\n\r\nThus, we get\r\n\r\n$\\tan \\left(\\frac{y}{x}\\right)+\\log x=1$\r\n\r\nwhich is the required solution."
+  }
+}

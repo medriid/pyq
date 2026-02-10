@@ -1,0 +1,24 @@
+{
+  "index": 28,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $A$ be a $3 \\times 3$ matrix such that $X^T A X=O$ for all nonzero $3 \\times 1$ matrices $X=\\left[\\begin{array}{l}x \\\\ y \\\\ z\\end{array}\\right]$. If $\\mathbf{A}\\left[\\begin{array}{l}1 \\\\ 1 \\\\ 1\\end{array}\\right]=\\left[\\begin{array}{c}1 \\\\ 4 \\\\ -5\\end{array}\\right], \\mathbf{A}\\left[\\begin{array}{l}1 \\\\ 2 \\\\ 1\\end{array}\\right]=\\left[\\begin{array}{c}0 \\\\ 4 \\\\ -8\\end{array}\\right]$, and $\\operatorname{det}(\\operatorname{adj}(2(\\mathbf{A}+\\mathbf{1})))-2^\\alpha 3^\\beta 5^\\gamma, \\alpha, \\beta, \\gamma \\in N$, then $\\alpha^2+\\beta^2+\\gamma^2$ is_____."
+  },
+  "options": [],
+  "correct_answer": "44",
+  "solution": {
+    "text": "$\\begin{aligned}\n& X^{\\top} A X=0 \\\\\n& (x y z)\\left[\\begin{array}{lll}\na_1 & a_2 & a_3 \\\\\nb_1 & b_2 & b_3 \\\\\nc_1 & c_2 & c_3\n\\end{array}\\right]\\left[\\begin{array}{l}\nx \\\\\ny \\\\\nz\n\\end{array}\\right]=0 \\\\\n& (x y z)\\left[\\begin{array}{l}\na_1 x+a_2 y+a_3 z \\\\\nb_1 x+b_2 y+b_3 z \\\\\nc_1 x+c_2 y+c_3 z\n\\end{array}\\right]=0 \\\\\n& x\\left(a_1 x+a_2 y+a_3 z\\right)+y\\left(b_1 x+b_2 y+b_3 z\\right) \\\\\n& +z\\left(c_1 x+c_2 y+c_3 z\\right) \\\\\n& a_1=0, b_2=0, c_3=0 \\\\\n& a_2+b_1=0, a_3+c_1=0, b_3+c_2=0 \\\\\n& A=\\text { skew symmetric matrix } \\\\\n& A=\\left[\\begin{array}{ccc}\n0 & x & y \\\\\n-x & 0 & z \\\\\n-y & -z & 0\n\\end{array}\\right] ; A\\left[\\begin{array}{l}\n1 \\\\\n1 \\\\\n1\n\\end{array}\\right]=\\left[\\begin{array}{c}\n1 \\\\\n4 \\\\\n-5\n\\end{array}\\right] \\\\\n& \\Rightarrow\\left[\\begin{array}{ccc}\n0 & x & y \\\\\n-x & 0 & z \\\\\n-y & -z & 0\n\\end{array}\\right]\\left[\\begin{array}{l}\n1 \\\\\n1 \\\\\n1\n\\end{array}\\right]=\\left[\\begin{array}{c}\n1 \\\\\n4 \\\\\n-5\n\\end{array}\\right] \\\\\n& x+y=1 \\\\\n& -x+z=4 \\\\\n& y+z=5 \\\\\n& {\\left[\\begin{array}{ccc}\n0 & x & y \\\\\n-x & 0 & z \\\\\n-y & -z & 0\n\\end{array}\\right]\\left[\\begin{array}{l}\n1 \\\\\n2 \\\\\n1\n\\end{array}\\right]=\\left[\\begin{array}{c}\n1 \\\\\n4 \\\\\n-8\n\\end{array}\\right]} \\\\\n& 2 x+y=0 \\quad x=-1 \\\\\n& -x+z=4 \\quad y=2 \\\\\n& -y-2 z=-8 \\quad z=3\n\\end{aligned}$\n$\\begin{aligned} & A=\\left[\\begin{array}{ccc}0 & -1 & 2 \\\\ 1 & 0 & 3 \\\\ -2 & -3 & 0\\end{array}\\right] \\\\ & 2(A+l)=\\left[\\begin{array}{ccc}2 & -2 & 4 \\\\ 2 & 2 & 6 \\\\ -2 & -6 & 2\\end{array}\\right] \\\\ & 2(A+l)=120 \\\\ & \\Rightarrow \\operatorname{det}(\\operatorname{adj}(2 A+l)) \\\\ & \\quad=120^2=2^6 \\cdot 3^2 \\cdot 5^2 \\\\ & \\therefore \\quad \\alpha=6, \\beta=2, \\gamma=2 \\\\ & \\text { Hence } \\alpha^2+\\beta^2+\\gamma^2=6^2+2^2+2^2=44\\end{aligned}$"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "65b7b87697ae24e9e2db8c91",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "65b7b85fb3be70ed63adbe84",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2023-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Memory Based Paper 1)",
+      "title": "BITSAT 2023 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "For all $n \\in N$, the sum of $\\frac{n^5}{5}+\\frac{n^3}{3}+\\frac{7 n}{15}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "nzE7M",
+      "text": "a negative integer",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "6IIW7",
+      "text": "a whole number",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Jpgr7",
+      "text": " a real number",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "TenjW",
+      "text": "a natural number",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let the statement $\\mathrm{P}(\\mathrm{n})$ be defined as $P(n): \\frac{n^5}{5}+\\frac{n^3}{3}+\\frac{7 n}{15}$ is a natural number for all $n \\in N$ :<br />Step I : For $\\mathrm{n}=1, \\mathrm{P}(1): \\frac{1}{5}+\\frac{1}{3}+\\frac{7}{15}=1 \\in \\mathrm{N}$<br />Hence, it is true for $\\mathrm{n}=1$.<br />Step II : Let it is true for $n=k$,<br />i.e. $\\frac{k^5}{5}+\\frac{k^3}{3}+\\frac{7 k}{15}=\\lambda \\in N$ $\\ldots$ (i)<br />Step III : For $\\mathrm{n}=\\mathrm{k}+1$,<br />$\\frac{(\\mathrm{k}+1)^5}{5}+\\frac{(\\mathrm{k}+1)^3}{3}+\\frac{7(\\mathrm{k}+1)}{15}$<br />$=\\frac{1}{5}\\left(k^5+5 k^4+10 k^3+10 k^2+3 k+1\\right)$ $+\\frac{1}{3}\\left(k^3+3 k^2+3 k+1\\right)+\\frac{7}{15} k+\\frac{7}{15}$<br />$=\\left(\\frac{k^5}{5}+\\frac{k^3}{3}+\\frac{7}{15} k\\right)+\\left(k^4+2 k^3+3 k^2+2 k\\right)$ $+\\frac{1}{5}+\\frac{1}{3}+\\frac{7}{15}$<br />$=\\lambda+\\mathrm{k}^4+2 \\mathrm{k}^3+3 \\mathrm{k}^2+2 \\mathrm{k}+1$ [using equation (i)]<br />which is a natural number, since $\\lambda \\mathrm{k} \\in \\mathrm{N}$. Therefore, $P(k+1)$ is true, when $P(k)$ is true. Hence, from the principle of mathematical induction, the statement is true for all natural numbers $\\mathrm{n}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "65b7b85fb3be70ed63adbe84",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2023-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Memory Based Paper 1)",
+    "title": "BITSAT 2023 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

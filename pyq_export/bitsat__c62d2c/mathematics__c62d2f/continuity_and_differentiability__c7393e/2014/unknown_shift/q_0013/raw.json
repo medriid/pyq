@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7c56f5bfc7ab78ae7b9",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d78",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2014-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014",
+      "title": "BITSAT 2014"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Let $f(x)=\\left\\{\\begin{array}{c}(x-1) \\sin \\frac{1}{x-1} \\text { if } x \\neq 1 \\\\ 0 \\quad \\text { if } x=1\\end{array}\\right.$\r\n\r\nThen which one of the following is true?",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "C1tOh",
+      "text": "$f$ is differentiable at $x=0$ and $x=1$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "6W9zu",
+      "text": "$f$ is differentiable at $x=0$ but not at $x=1$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "pTEaG",
+      "text": "$f$ is differentiable at $x=1$ but not at $x=0$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "RCZCV",
+      "text": "$f$ is neither differentiable at $x=0$ nor at $x=1$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "We have; $f(x)=\\left\\{\\begin{array}{ll}(x-1) \\sin \\left(\\frac{1}{x-1}\\right) & \\text { if } x \\neq 1 \\\\ 0 & \\text { if } x=1\\end{array}\\right.$\r\n\r\n$R f^{\\prime}(1)=\\lim _{h \\rightarrow 0} \\frac{f(1+h)-f(1)}{h}$\r\n\r\n$=\\lim _{h \\rightarrow 0} \\frac{h \\sin \\frac{1}{h}-0}{h}=\\lim _{h \\rightarrow 0} \\sin \\frac{1}{h}$\r\n\r\nwhich does not exist.\r\n\r\n$\\therefore f$ is not differentiable at $x=1$ Also $\\left.f^{\\prime}(0)=\\sin \\frac{1}{(x-1)}-\\frac{x-1}{(x-1)^{2}} \\cos \\left(\\frac{1}{x-1}\\right)\\right]_{x=0}$\r\n\r\n$=-\\sin 1+\\cos 1$\r\n\r\n$\\therefore f$ is differentiable at $x=0$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d78",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2014-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014",
+    "title": "BITSAT 2014"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

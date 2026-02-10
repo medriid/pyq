@@ -1,0 +1,43 @@
+{
+  "index": 170,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602565bccda81624f5a071",
+    "chapter_name": "Area Under Curves",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)$ be a non-negative continuous function such that the area bounded by the curve $y=f(x), x$-axis and the ordinates $x=\\frac{\\pi}{4}$ and $x=\\beta>\\frac{\\pi}{4}$ is $\\left(\\beta \\sin \\beta+\\frac{\\pi}{4} \\cos \\beta+\\sqrt{2} \\beta\\right)$. Then $f\\left(\\frac{\\pi}{2}\\right)$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\left(\\frac{\\pi}{4}+\\sqrt{2}-1\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left(\\frac{\\pi}{4}-\\sqrt{2}+1\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left(1-\\frac{\\pi}{4}-\\sqrt{2}\\right)$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\left(1-\\frac{\\pi}{4}+\\sqrt{2}\\right)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given that $\\int_{\\pi / 4}^\\beta f(x) d x=\\beta \\sin \\beta+\\frac{\\pi}{4} \\cos \\beta+2 \\beta$\nDifferentiating w. r. t $\\beta$\n$f(\\beta)=\\beta \\cos \\beta+\\sin \\beta-\\frac{\\pi}{4} \\sin \\beta+\\sqrt{2}$\n$f\\left(\\frac{\\pi}{2}\\right)=\\left(1-\\frac{\\pi}{4}\\right) \\sin \\frac{\\pi}{2}+\\sqrt{2}=1-\\frac{\\pi}{2}+\\sqrt{2}$."
+  }
+}

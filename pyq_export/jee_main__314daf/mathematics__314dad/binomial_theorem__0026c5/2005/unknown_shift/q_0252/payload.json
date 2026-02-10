@@ -1,0 +1,43 @@
+{
+  "index": 252,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of ${ }^{50} \\mathrm{C}_4+\\sum_{\\mathrm{r}=1}^6{ }^{56-r} \\mathrm{C}_3$ is"
+  },
+  "options": [
+    {
+      "text": "\n${ }^{55} \\mathrm{C}_4$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n${ }^{55} \\mathrm{C}_3$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n${ }^{56} \\mathrm{C}_3$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n${ }^{56} \\mathrm{C}_4$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& { }^{50} \\mathrm{C}_4+\\sum_{\\mathrm{r}=1}^6{ }^{56-r} \\mathrm{C}_3 \\\\\n& \\Rightarrow{ }^{50} \\mathrm{C}_4+\\left[{ }^{55} \\mathrm{C}_3+{ }^{54} \\mathrm{C}_3+{ }^{53} \\mathrm{C}_3+{ }^{52} \\mathrm{C}_3+{ }^{51} \\mathrm{C}_3+{ }^{50} \\mathrm{C}_3\\right] \\\\\n& =\\left({ }^{50} \\mathrm{C}_4+{ }^{50} \\mathrm{C}_3\\right)+{ }^{51} \\mathrm{C}_3+{ }^{52} \\mathrm{C}_3+{ }^{53} \\mathrm{C}_3+{ }^{54} \\mathrm{C}_3+{ }^{55} \\mathrm{C}_3 \\\\\n& \\Rightarrow\\left({ }^{51} \\mathrm{C}+{ }^{51} \\mathrm{C}\\right)+{ }^{52} \\mathrm{C}_3+{ }^{53} \\mathrm{C}_3+{ }^{54} \\mathrm{C}_3+{ }^{55} \\mathrm{C}_3 \\\\\n& \\Rightarrow{ }^{55} \\mathrm{C}_4+{ }^{55} \\mathrm{C}_3={ }^{56} \\mathrm{C}_4 .\n\\end{aligned}\n$$"
+  }
+}

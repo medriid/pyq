@@ -1,8 +1,8 @@
 {
   "index": 58,
-  "type": "numerical",
+  "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2022 (24 Jun Shift 2)",
+  "pyq_info": "JEE Main 2022 (28 Jun Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math>&nbsp;be a parabola with vertex <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>3</mn><mo>,</mo><mn>2</mn></mrow></mfenced></math>&nbsp;and focus <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>4</mn><mo>,</mo><mn>4</mn></mrow></mfenced></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math>&nbsp;be its mirror image with respect to the line <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>6</mn></math>. Then the directrix of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math>&nbsp;is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo></math>&nbsp;_____."
+    "text": "If vertex of parabola is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>2</mn><mo>,</mo><mo>-</mo><mn>1</mn></mrow></mfenced></math>&nbsp;and equation of its directrix is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>-</mo><mn>3</mn><mi>y</mi><mo>=</mo><mn>21</mn></math>, then the length of latus rectum is"
   },
-  "options": [],
-  "correct_answer": "10",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
   "solution": {
-    "text": "<p>Plotting the diagram as per given data we get,</p><p><img src=\"assets\\st0058_21f00803175c.png\" style=\"width: 310px; height: 197px;\" /></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math>: Directrix</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mi>k</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>-</mo><mi>k</mi><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"|\" open=\"|\"><mfrac><mrow><mn>3</mn><mo>+</mo><mn>4</mn><mo>-</mo><mi>K</mi></mrow><msqrt><mn>5</mn></msqrt></mfrac></mfenced><mo>=</mo><msqrt><mn>5</mn></msqrt></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"|\" open=\"|\"><mrow><mn>7</mn><mo>-</mo><mi>k</mi></mrow></mfenced><mo>=</mo><mn>5</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable><mtr><mtd><mn>7</mn><mo>-</mo><mi>K</mi><mo>=</mo><mn>5</mn></mtd><mtd><mn>7</mn><mo>-</mo><mi>K</mi><mo>=</mo><mo>-</mo><mn>5</mn></mtd></mtr><mtr><mtd><mi>k</mi><mo>=</mo><mn>2</mn></mtd><mtd><mi>k</mi><mo>=</mo><mn>12</mn></mtd></mtr><mtr><mtd><mi>Accepted</mi></mtd><mtd><mi>Rejected</mi><mo>&#160;</mo><mi>Passes</mi><mo>&#160;</mo><mi>through</mi><mo>&#160;</mo><mi>focus</mi></mtd></mtr></mtable></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"\"><mtable columnalign=\"left\"><mtr><mtd><msub><mi>D</mi><mn>1</mn></msub><mo>=</mo><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>2</mn></mtd></mtr><mtr><mtd><mo>=</mo><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>6</mn></mtd></mtr><mtr><mtd><msub><mi>D</mi><mn>2</mn></msub><mo>=</mo><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mi>C</mi></mtd></mtr></mtable></mfenced><mo>&#8658;</mo><mi>d</mi><mo>&#8658;</mo><mi>d</mi><mo>&#8658;</mo><mi>c</mi><mo>=</mo><mn>10</mn></math></p>"
+    "text": "<p>Plotting the graph with given data we have,</p><p><img src=\"assets\\st0058_6d67f8982729.png\" style=\"width: 255px; height: 180px;\" /></p><p>We know that, in any parabola, the length of the latus rectum&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mi>a</mi></math>&nbsp;and perpendicular distance from vertex to the directrix&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>a</mi></math></p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfenced close=\"|\" open=\"|\"><mfrac><mrow><mn>8</mn><mo>+</mo><mn>3</mn><mo>-</mo><mn>21</mn></mrow><msqrt><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mfenced><mrow><mo>-</mo><mn>3</mn></mrow></mfenced><mn>2</mn></msup></msqrt></mfrac></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>a</mi><mo>=</mo><mfenced close=\"|\" open=\"|\"><mfrac><mrow><mo>-</mo><mn>10</mn></mrow><mn>5</mn></mfrac></mfenced><mo>=</mo><mn>2</mn></math>&nbsp;</p><p>Therefore, the&nbsp;length of the latus rectum&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>a</mi><mo>=</mo><mn>4</mn><mo>&#215;</mo><mn>2</mn><mo>=</mo><mn>8</mn></math></p>"
   }
 }

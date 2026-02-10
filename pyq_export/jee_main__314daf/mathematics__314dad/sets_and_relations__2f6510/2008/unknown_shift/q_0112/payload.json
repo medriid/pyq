@@ -1,0 +1,43 @@
+{
+  "index": 112,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2008",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254da66d43264e2f6510",
+    "chapter_name": "Sets and Relations",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $R$ be the real line. Consider the following subsets of the plane $R \\times R$.\n$S=\\{(x, y): y=x+1$ and $0 < x < 2\\}, T=\\{(x, y): x-y$ is an integer $\\}$. Which one of the following is true?"
+  },
+  "options": [
+    {
+      "text": "\nneither $S$ nor $T$ is an equivalence relation on $R$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nboth $S$ and $T$ are equivalence relations on $R$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$S$ is an equivalence relation on $R$ but $T$ is not\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{T}$ is an equivalence relation on $\\mathrm{R}$ but $S$ is not",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$$\nT=\\{(x, y): x-y \\in l\\}\n$$\nas $0 \\in \\mathrm{I} \\mathrm{T}$ is a reflexive relation.\nIf $x-y \\in 1 \\Rightarrow y-x \\in I$\n$\\therefore \\mathrm{T}$ is symmetrical also\nIf $x-y=l_1$ and $y-z=l_2$\nThen $x-z=(x-y)+(y-z)=l_1+I_2 \\in I$\n$\\therefore \\mathrm{T}$ is also transitive.\nHence $T$ is an equivalence relation.\nClearly $x \\neq x+1 \\Rightarrow(x, x) \\notin S$\n$\\therefore S$ is not reflexive."
+  }
+}

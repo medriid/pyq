@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83e6f6052b2388bfed",
+    "chapter_name": "Definite Integration",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The integral $\\int \\frac{x^2\\left(x \\sec ^2 x+\\tan x\\right)}{(x \\tan x+1)^2} d x$ is equal to"
+  },
+  "options": [
+    {
+      "text": "$-\\frac{x^2}{x \\tan x+1}+c$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 \\log _e|x \\sin x+\\cos x|+c$",
+      "is_correct": false
+    },
+    {
+      "text": "$-\\frac{x^2}{x \\tan x+1}+2 \\log _e|x \\sin x+\\cos x|+c$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{x^2}{x^2 \\tan x-1}-2 \\log _e|x \\sin x+\\cos x|+c$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "(c) We note that\n$\\frac{d}{d x}(x \\tan x+1)=x \\sec ^2 x+\\tan x$\n$\\therefore$ integrating by parts with $x^2$ as first function, we get\n$\\begin{aligned}\n& I=\\int x^2 \\frac{x \\sec ^2 x+\\tan x}{(x \\tan x+1)^2} d x \\\\\n& =x^2\\left(-\\frac{1}{x \\tan x+1}\\right)-\\int 2 x\\left(-\\frac{1}{x \\tan x+1}\\right) d x \\\\\n& =-\\frac{x^2}{x \\tan x+1}+2 \\int \\frac{x \\cos x}{x \\sin x+\\cos x} d x \\\\\n& =-\\frac{x^2}{x \\tan x+1}+2 \\log _e|x \\sin x+\\cos x|+c \\\\\n& \\quad\\left(\\because \\frac{d}{d x}(x \\sin x+\\cos x)=x \\cos x\\right)\n\\end{aligned}$"
+  }
+}

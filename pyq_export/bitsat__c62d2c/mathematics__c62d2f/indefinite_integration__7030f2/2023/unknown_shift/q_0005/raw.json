@@ -1,0 +1,63 @@
+{
+  "_id": "65b7b87997ae24e9e2db8cb2",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "65b7b85fb3be70ed63adbe84",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2023-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Memory Based Paper 1)",
+      "title": "BITSAT 2023 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "$\\int \\frac{x+3}{(x+4)^2} e^x d x$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "5LxsA",
+      "text": "$e^x\\left(\\frac{1}{x+4}\\right)+C$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "adRcp",
+      "text": "$e^{-x}\\left(\\frac{1}{x+4}\\right)+C$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "TJe30",
+      "text": " $e^{-x}\\left(\\frac{1}{x-4}\\right)+C$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Hr5Xh",
+      "text": "$e^{2 x}\\left(\\frac{1}{x-4}\\right)+C$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Suppose,<br />$I=\\int \\frac{x+3}{(x+4)^2} e^x d x=\\int \\frac{(x+4) 1}{(x+4)^2} e^x d x$<br />$=\\int \\frac{e^x}{(x+4)}-\\int \\frac{e^x}{(x+4)^2} d x$<br />$=\\int e^x\\left(\\frac{1}{(x+4)}-\\frac{1}{(x+4)^2}\\right) d x$<br />$=e^x \\frac{1}{(x+4)}+C$<br />$\\left[\\int e^x\\left\\{f(x)+f^{\\prime}(x)\\right\\} d x=e^x f(x)+C\\right]$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "65b7b85fb3be70ed63adbe84",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2023-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Memory Based Paper 1)",
+    "title": "BITSAT 2023 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

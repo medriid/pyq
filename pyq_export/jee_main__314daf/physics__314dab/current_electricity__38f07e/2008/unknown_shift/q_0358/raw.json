@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d65828",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c8",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2008-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2008",
+      "title": "JEE Main 2008"
+    }
+  ],
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nConsider a block of conducting material of resistivity ' $\\rho$ ' shown in the figure. Current 'l' enters at 'A' and leaves from ' $\\mathrm{D}$ '. We apply superposition principle to find voltage ' $\\Delta \\mathrm{V}$ ' developed between ' $\\mathrm{B}$ ' and ' $\\mathrm{C}$ '. The calculation is done in the following steps:\n(i) Take current 'l' entering from 'A' and assume it to spread over a hemispherical surface in the block.\n(ii) Calculate field $E(r)$ at distance ' $r$ ' from $A$ by using Ohm's law $E=\\rho j$, where $j$ is the current per unit area at ' $r$ '.\n(iii) From the ' $r$ ' dependence of $E(r)$, obtain the potential $V(r)$ at $r$.\n(iv) Repeat (i), (ii) and (iii) for current 'l' leaving ' $D$ ' and superpose results for ' $A$ ' and ' $D$ '.<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/joMS3We4mlhlWypUDNcxyyvMLo5oqRwXhwdOgj_AWmw.original.fullsize.png\"><br><strong>Question:</strong>\n$\\Delta \\mathrm{V}$ measured between $\\mathrm{B}$ and $\\mathrm{C}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "w7UQc",
+      "text": "\n$\\frac{\\rho l}{\\pi a}-\\frac{\\rho l}{\\pi(a+b)}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "QZT1i",
+      "text": "\n$\\frac{\\rho l}{a}-\\frac{\\rho l}{(a+b)}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Njw4p",
+      "text": "\n$\\frac{\\rho l}{2 \\pi a}-\\frac{\\rho l}{2 \\pi(a+b)}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "XM2i7",
+      "text": "\n$\\frac{\\rho l}{2 \\pi(a-b)}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Choosing $A$ as origin,\n$$\n\\begin{gathered}\nE=\\rho j=\\rho \\frac{1}{2 \\pi r^2} \\\\\nV_C-V_B=-\\frac{\\rho l}{2 \\pi} \\int_a^{(a+b)} \\frac{1}{r^2} d r=\\frac{\\rho l}{2 \\pi}\\left[\\frac{1}{(a+b)}-\\frac{1}{a}\\right] \\\\\nV_B-V_C=\\frac{\\rho l}{2 \\pi}\\left[\\frac{1}{a}-\\frac{1}{(a+b)}\\right]\n\\end{gathered}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c8",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2008-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2008",
+    "title": "JEE Main 2008"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

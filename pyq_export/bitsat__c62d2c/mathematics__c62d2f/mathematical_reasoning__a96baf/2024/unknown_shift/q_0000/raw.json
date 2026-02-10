@@ -1,0 +1,63 @@
+{
+  "_id": "67726d19c49e8ef28ee2b43a",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6416",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T19:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 3)",
+      "title": "BITSAT 2024 (Memory Based Paper 3)"
+    }
+  ],
+  "question": {
+    "text": "The Boolean expression $\\sim(p \\vee q) \\vee(\\sim p \\wedge q)$ is equivalent to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "GYJUh",
+      "text": "$p$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "SLhRw",
+      "text": "$q$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "CzZYL",
+      "text": "$\\sim q$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "SGC3l",
+      "text": "$\\sim p$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\text {  Given, } \\sim(p \\vee q) \\vee(\\sim p \\wedge q) \\\\ & \\Rightarrow(\\sim p \\wedge \\sim q) \\vee(\\sim p \\wedge q) \\text { (By De Morgan's Law) } \\\\ & \\Rightarrow \\sim p \\wedge(\\sim q \\vee q) \\text { (Distributive Law) } \\\\ & \\Rightarrow \\sim p \\wedge t \\text { (By complement law, where } t=\\text { tautology) } \\\\ & \\Rightarrow \\sim p \\text { (Identity law) }\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6416",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T19:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 3)",
+    "title": "BITSAT 2024 (Memory Based Paper 3)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

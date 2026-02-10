@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160253f32f74d11258840f1",
+    "chapter_name": "Ellipse",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If the midpoint of a chord of the ellipse $\\frac{x^2}{9}+\\frac{y^2}{4}=1$ is $(\\sqrt{2}, 4 / 3)$, and the length of the chord is $\\frac{2 \\sqrt{\\alpha}}{3}$, then $\\alpha$ is :"
+  },
+  "options": [
+    {
+      "text": "$20$",
+      "is_correct": false
+    },
+    {
+      "text": "$22$",
+      "is_correct": true
+    },
+    {
+      "text": "$18$",
+      "is_correct": false
+    },
+    {
+      "text": "$26$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<img src=\"assets\\st0021_4cc206df0164.png\"><br>\n$\\begin{aligned}\n& E: \\frac{x^2}{9}+\\frac{y^2}{4}=1 \\\\\n& T=S_1 \\\\\n& \\Rightarrow \\frac{\\sqrt{2} x}{9}+\\frac{1}{4}\\left(\\frac{4}{3} y\\right)-1=\\frac{2}{9}+\\frac{16}{9(4)}-1 \\\\\n& \\frac{\\sqrt{2} x}{9}+\\frac{y}{3}=\\frac{2}{9}+\\frac{4}{9} \\\\\n& \\frac{\\sqrt{2} x}{9}+\\frac{y}{3}=\\frac{2}{3} \\quad \\Rightarrow \\sqrt{2 x}+3 y=6\n\\end{aligned}$\nNow point of intersection of chord and ellipse is\n$\\begin{aligned}\n& \\frac{(6-3 y)^2}{18}+\\frac{y^2}{4}=1 \\\\\n& \\frac{(2-y)^2}{2}+\\frac{y^2}{4}=1 \\\\\n& 2\\left(4+y^2-4 y\\right)+y^2=4 \\\\\n& \\Rightarrow 3 y^2-8 y+4=0 \\\\\n& \\Rightarrow y=2, \\frac{2}{3}\n\\end{aligned}$\n\nSo, points are $(0,2)$ are $\\left(2 \\sqrt{2}, \\frac{2}{3}\\right)$\nLength of chord $=\\sqrt{(2 \\sqrt{2})^2+\\left(\\frac{2}{3}-2\\right)^2}$\n$\\begin{aligned}\n& =\\sqrt{8+\\frac{16}{9}} \\\\\n& =\\frac{\\sqrt{88}}{3}=\\frac{2 \\sqrt{22}}{3}\n\\end{aligned}$\n\nOn comparing $\\alpha=22$"
+  }
+}

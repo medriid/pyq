@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d658bb",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c9",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009",
+      "title": "JEE Main 2009"
+    }
+  ],
+  "question": {
+    "text": "Let $a, b, c$ be such that $b(a+c) \\neq 0$. If $\\left|\\begin{array}{ccc}a & a+1 & a-1 \\\\ -b & b+1 & b-1 \\\\ c & c-1 & c+1\\end{array}\\right|+\\left|\\begin{array}{ccc}a+1 & b+1 & c-1 \\\\ a-1 & b-1 & c+1 \\\\ (-1)^{n+2} a & (-1)^{n+1} b & (-1)^n c\\end{array}\\right|=0$, then the value of ' $n$ ' is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "NZ9tP",
+      "text": "\nzero\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Chrzf",
+      "text": "\nany even integer\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "wbcKe",
+      "text": "\nany odd integer\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "3tt4u",
+      "text": "\nany integer",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\left|\\begin{array}{ccc}\na & a+1 & a-1 \\\\\n-b & b+1 & b-1 \\\\\nc & c-1 & c+1\n\\end{array}\\right|+(-1)^n\\left|\\begin{array}{ccc}\na+1 & b+1 & c-1 \\\\\na-1 & b-1 & c+1 \\\\\na & -b & c\n\\end{array}\\right|=\\left|\\begin{array}{ccc}\na & a+1 & a-1 \\\\\n-b & b+1 & b-1 \\\\\nc & c-1 & c+1\n\\end{array}\\right|+(-1)^n\\left|\\begin{array}{cccc}\na+1 & a-1 & a \\\\\nb+1 & b-1 & -b \\\\\nc-1 & c+1 & c\n\\end{array}\\right| \\\\\n& =\\left|\\begin{array}{ccc}\na & a+1 & a-1 \\\\\n-b & b+1 & b-1 \\\\\nc & c-1 & c+1\n\\end{array}\\right|+(-1)^{n+1}\\left|\\begin{array}{ccc}\na+1 & a & a-1 \\\\\nb+1 & -b & b-1 \\\\\nc-1 & c & c+1\n\\end{array}\\right|=\\left|\\begin{array}{ccc}\na & a+1 & a-1 \\\\\n-b & b+1 & b-1 \\\\\nc & c-1 & c+1\n\\end{array}\\right|+(-1)^{n+2}\\left|\\begin{array}{ccc}\na & a+1 & a-1 \\\\\n-b & b+1 & b-1 \\\\\nc & c-1 & c+1\n\\end{array}\\right|\n\\end{aligned}\n$$\nThis is equal to zero only if $n+2$ is odd i.e. $n$ is odd integer.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c9",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009",
+    "title": "JEE Main 2009"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

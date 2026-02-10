@@ -2,7 +2,7 @@
   "index": 7,
   "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (24 Jan Shift 2)",
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "For some $\\mathrm{a}, \\mathrm{b}$, let $f(x)=\\left|\\begin{array}{ccc}\\mathrm{a}+\\frac{\\sin x}{x} & 1 & \\mathrm{~b} \\\\ \\mathrm{a} & 1+\\frac{\\sin x}{x} & \\mathrm{~b} \\\\ \\mathrm{a} & 1 & \\mathrm{~b}+\\frac{\\sin x}{x}\\end{array}\\right|, x \\neq 0, \\lim _{x \\rightarrow 0} f(x)=\\lambda+\\mu \\mathrm{a}+\\nu \\mathrm{b}$. Then $(\\lambda+\\mu+\\nu)^2$ is equal to :"
+    "text": "If the system of equation<br/>$\\begin{aligned}<br/>& 2 x+\\lambda y+3 z=5 \\\\\n& 3 x+2 y-z=7 \\\\\n& 4 x+5 y+\\mu z=9<br/>\\end{aligned}$<br/>has infinitely many solutions, then $\\left(\\lambda^2+\\mu^2\\right)$ is equal to :"
   },
   "options": [
     {
-      "text": "16",
+      "text": "$22$",
+      "is_correct": false
+    },
+    {
+      "text": "$18$",
+      "is_correct": false
+    },
+    {
+      "text": "$26$",
       "is_correct": true
     },
     {
-      "text": "25",
-      "is_correct": false
-    },
-    {
-      "text": "9",
-      "is_correct": false
-    },
-    {
-      "text": "36",
+      "text": "$30$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "A"
+    "C"
   ],
   "solution": {
-    "text": "$\\lim _{x \\rightarrow 0}\\left|\\begin{array}{ccc}\na+\\frac{\\sin x}{x} & 1 & b \\\\\na & 1+\\frac{\\sin x}{x} & b \\\\\na & 1 & b+\\frac{\\sin x}{x}\n\\end{array}\\right|=\\lambda+\\mu a+v b$\nAt $\\lim x \\rightarrow 0$,\n$\\begin{aligned}\n& f(x)=\\left|\\begin{array}{ccc}\na+1 & 1 & b \\\\\na & 1+1 & b \\\\\na & 1 & b+1\n\\end{array}\\right|=\\lambda+\\mu a+v b \\\\\n& R_1 \\rightarrow R_1-R_2 \\\\\n& R_2 \\rightarrow R_2-R_3 \\\\\n& \\left|\\begin{array}{ccc}\n1 & -1 & 0 \\\\\n0 & 1 & -1 \\\\\na & 1 & b+1\n\\end{array}\\right|=\\lambda+\\mu a+v b \\\\\n& \\mathrm{C}_2 \\rightarrow \\mathrm{C}_1-\\mathrm{C}_2 \\\\\n& \\left|\\begin{array}{ccc}\n1 & 0 & 0 \\\\\n0 & 1 & -1 \\\\\na & a+1 & b+1\n\\end{array}\\right|=\\lambda+\\mu a+v b \\\\\n& a+b+2=\\lambda+\\mu a+v b \\\\\n& \\lambda=2, \\mu=1, \\quad v=1 \\\\\n& (\\lambda+\\mu+v)=(2+1+1)^2=16\n\\end{aligned}$"
+    "text": "$\\Delta=0 \\Rightarrow\\left|\\begin{array}{ccc}2 & \\lambda & 3 \\\\ 3 & 2 & -1 \\\\ 4 & 5 & \\mu\\end{array}\\right|=0$<br/>$\\Rightarrow 2(2 \\mu+5)+\\lambda(-4-3 \\mu)+3(7)=0$<br/>$\\Rightarrow 4 \\mu-3 \\lambda \\mu-4 \\lambda+31=0$   ...(1)<br/>$\\begin{aligned}<br/>& \\Delta_3=0 \\Rightarrow\\left|\\begin{array}{lll}<br/>2 & \\lambda & 5 \\\\\n3 & 2 & 7 \\\\\n4 & 5 & 9<br/>\\end{array}\\right|=0 \\\\\n& \\Rightarrow 2(-17)+\\lambda(1)+5(7)=0 \\\\\n& \\Rightarrow \\lambda=-1<br/>\\end{aligned}$<br/>from equation (1)<br/>$4 \\mu+3 \\mu+4+31=0 \\Rightarrow \\mu=-5$<br/>$\\therefore \\lambda^2+\\mu^2=26$"
   }
 }

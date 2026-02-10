@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7794f6528d292916a7",
+    "chapter_name": "Quadratic Equation",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Rational roots of the equation $2 x^4+x^3-11 x^2+$ $x+2=0$ are"
+  },
+  "options": [
+    {
+      "text": "$\\frac{1}{2}$ and 2",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{2}, 2, \\frac{1}{4},-2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}, 2,3,4$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}, 2, \\frac{3}{4},-2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given equation can be reduced to a quadratic equation.\n$\\therefore 2 x^2+x-11+\\frac{1}{x}+\\frac{2}{x^2}=0$\n$\\Rightarrow 2\\left(x^2+\\frac{1}{x^2}\\right)+\\left(x+\\frac{1}{x}\\right)-11=0$\nPut $x+\\frac{1}{x}=y$\n$2\\left(y^2-2\\right)+y-11=0$\n$\\Rightarrow 2 y^2+y-15=0$\n$\\Rightarrow y=-3$ and $\\frac{5}{2}$\n$\\Rightarrow x+\\frac{1}{x}=-3, x+\\frac{1}{x}=\\frac{5}{2}$\n$\\Rightarrow x^2+3 x+1=0,2 x^2-5 x+2=0$\nOnly 2nd equation has rational roots as $\\mathrm{D}=9$ and roots are $\\frac{1}{2}$ and 2 ."
+  }
+}

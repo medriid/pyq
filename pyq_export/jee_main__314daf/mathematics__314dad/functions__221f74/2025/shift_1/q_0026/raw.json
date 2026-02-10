@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eeb8c8b73881fdaea253",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d9760e",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-28T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (28 Jan Shift 1)",
+      "title": "JEE Main 2025 (28 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function defined by\n$f(x)=(2+3 a) x^2+\\left(\\frac{a+2}{a-1}\\right) x+b, a \\neq 1 . \\text { If }$ \n$f(x+\\mathrm{y})=f(x)+f(\\mathrm{y})+1-\\frac{2}{7} x \\mathrm{y}$, then the value of $28 \\sum_{i=1}^5|f(i)|$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "hKQke",
+      "text": "545",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "GxmH7",
+      "text": "715",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "oQDzA",
+      "text": "735",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "HJD4f",
+      "text": "675",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\text { Put } y=0 \\\\ & f(x)=f(0)+f(x)+1-0 \\\\ & f(0)=-1 \\\\ & f(0)=0+0+b \\\\ & \\Rightarrow b=-1 \\\\ & f(-1+1)=f(-1)+f(1)+1+\\frac{2}{7} \\\\ & f(0)=f(-1)+f(1)+\\frac{9}{7}\\end{aligned}$\n$\\begin{aligned}-1=(2+3 a)+\\left(\\frac{a+2}{a-1}\\right)(-1)+b+(2+3 a) & \\\\ & +\\frac{a+2}{a-1}+b+\\frac{9}{7}\\end{aligned}$\n$\\begin{aligned} & -1=4+6 a-2+\\frac{9}{7} \\\\ & -1=2+\\frac{9}{7}+6 a \\\\ & 6 a=-1-2-\\frac{9}{7} \\\\ & a=\\frac{-5}{7} \\\\ & f(x)=\\frac{-x^2}{7}+\\frac{\\frac{9}{7}}{\\frac{-12}{7}} x-1 \\\\ & f(x)=\\frac{-x^2}{7}-\\frac{3}{4} x-1 \\\\ & \\sum_{i=1}^5 f(i)=-\\frac{1}{7}\\left(\\frac{5 \\times 6 \\times 11}{6}\\right)-\\frac{3}{4}\\left(\\frac{5 \\times 6}{2}\\right)-5 \\\\ & =\\frac{-55}{7}-\\frac{45}{4}-5 \\\\ & =\\frac{675}{28} \\\\ & \\Rightarrow 28\\left|\\sum_{i-1}^5 f(i)\\right|=675\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "1be3d534c3d643b18f34c671586fc816",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/IkDzRImKRwzFD.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/IkDzRImKRwzFD.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d9760e",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-28T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (28 Jan Shift 1)",
+    "title": "JEE Main 2025 (28 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

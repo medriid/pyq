@@ -1,0 +1,63 @@
+{
+  "_id": "67726d0ec49e8ef28ee2b3e9",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6415",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 2)",
+      "title": "BITSAT 2024 (Memory Based Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "If $\\frac{d y}{d x}-y \\log _e 2=2^{\\sin x}(\\cos x-1) \\log _e 2$, then $y$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "0vmJm",
+      "text": "$2^{\\sin x}+c 2^x$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "aX56T",
+      "text": "$2^{\\cos x}+c 2^x$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "rRL72",
+      "text": "$2^{\\sin x}+c 2^{-x}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "0dr0H",
+      "text": "$2^{\\cos x}+c 2^{-x}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\frac{d y}{d x}-y \\log _e 2=2^{\\sin x}(\\cos x-1) \\log _e 2$\nThis is linear differential equation\n$\\text { I.F. }=e^{-\\log _e 2 \\int d x}=e^{-x \\log _e 2}=2^{-x}$\nthen general Solution is\n$y 2^{-x}=\\int 2^{-x} 2^{\\sin x}(\\cos x-1) \\log _e 2 d x+c$\nNow let $\\sin x-x=t \\Rightarrow(\\cos x-1) d x=d t$\n$\\begin{aligned}\n& \\therefore y 2^{-x}=\\log _e 2 \\int 2^t d t+c \\\\\n& \\therefore y 2^{-x}=2^t+c \\\\\n& \\therefore y=2^{x+t}+c 2^x \\\\\n& \\therefore y=2^{\\sin x}+c 2^x\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6415",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 2)",
+    "title": "BITSAT 2024 (Memory Based Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

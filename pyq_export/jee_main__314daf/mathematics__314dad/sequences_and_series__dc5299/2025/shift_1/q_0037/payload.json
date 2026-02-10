@@ -1,0 +1,43 @@
+{
+  "index": 37,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (28 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $\\mathrm{T}_{\\mathrm{r}}$ be the $\\mathrm{r}^{\\text {th }}$ term of an A.P. If for some $\\mathrm{m}, \\mathrm{T}_{\\mathrm{m}}=\\frac{1}{25}, \\mathrm{~T}_{25}=\\frac{1}{20}$, and $20 \\sum_{\\mathrm{r}=1}^{25} \\mathrm{~T}_{\\mathrm{r}}=13$, then $5 \\mathrm{~m} \\sum_{\\mathrm{r}=\\mathrm{m}}^{2 \\mathrm{~m}} \\mathrm{~T}_{\\mathrm{r}}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "98",
+      "is_correct": false
+    },
+    {
+      "text": "126",
+      "is_correct": true
+    },
+    {
+      "text": "142",
+      "is_correct": false
+    },
+    {
+      "text": "112",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\mathrm{T}_{\\mathrm{m}}=\\frac{1}{25}, \\mathrm{~T}_{25}=\\frac{1}{20}, 20 \\sum_{\\mathrm{r}=1}^{25} \\mathrm{~T}_{\\mathrm{r}}=13 \\\\\n& \\mathrm{~T}_{\\mathrm{m}}=\\mathrm{a}+(\\mathrm{m}-1) \\mathrm{d}=\\frac{1}{25} \\ldots \\ldots .(1) \\\\\n& \\mathrm{T}_{25}=\\mathrm{a}+24 \\mathrm{~d}=\\frac{1}{20} \\\\\n& 20 \\cdot \\frac{25}{2}\\left[\\mathrm{a}+\\frac{1}{20}\\right]=13 \\Rightarrow \\mathrm{a}=\\frac{1}{500}\n\\end{aligned}$\nalso, $20 \\mathrm{~S}_{25}=20 \\cdot \\frac{25}{2}[2 \\mathrm{a}+24 \\mathrm{~d}]=13 \\Rightarrow \\mathrm{~d}=\\frac{1}{500}$\nfrom (1) $\\frac{1}{500}+\\frac{\\mathrm{m}-1}{500}=\\frac{1}{25} \\Rightarrow \\mathrm{~m}=20$\nNow,\n$5 \\mathrm{~m} \\sum_{\\mathrm{r}=\\mathrm{m}}^{2 \\mathrm{~m}} \\mathrm{~T}_{\\mathrm{r}}=100 \\sum_{\\mathrm{r}=20}^{40} \\mathrm{~T}_{\\mathrm{r}}=126$"
+  }
+}

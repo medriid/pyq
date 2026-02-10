@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eebcc8b73881fdaea274",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d9760e",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-28T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (28 Jan Shift 1)",
+      "title": "JEE Main 2025 (28 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Consider a long thin conducting wire carrying a uniform current I. A particle having mass \" M \" and charge \" $q$ \" is released at a distance \" $a$ \" from the wire with a speed $v_0$ along the direction of current in the wire. The particle gets attracted to the wire due to magnetic force. The particle turns round when it is at distance $x$ from the wire. The value of $x$ is [ $\\mu_0$ is vacuum permeability]",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "bDwYa",
+      "text": "$a e^{-\\frac{4 \\pi \\mathrm{mv}_{\\mathrm{o}}}{\\mathrm{q} \\mu_{\\mathrm{o}} \\mathrm{I}}}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "dF22m",
+      "text": "$a\\left[1-\\frac{\\mathrm{mv}_{\\mathrm{o}}}{2 q \\mu_{\\mathrm{o}} \\mathrm{I}}\\right]$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "2Azxj",
+      "text": "$a\\left[1-\\frac{\\mathrm{mv}}{\\mathrm{q} \\mu_{\\mathrm{o}} \\mathrm{I}}\\right]$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "rF4Dk",
+      "text": "$\\frac{a}{2}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/cqVQBTTu_B8rY6gZGhZFIEatSRNwqYKFvWXGppPLEns.original.fullsize.png\"><br>\n\n\n\n$\\begin{aligned} & A \\rightarrow B \\\\ & \\vec{V}=-v_x \\hat{i}+v_y \\hat{j} \\\\ & \\vec{B}=\\frac{\\mu_0 I}{2 \\pi r}(-\\hat{k}) \\\\ & \\overrightarrow{\\mathrm{F}}=\\mathrm{q}(\\overrightarrow{\\mathrm{v}} \\times \\overrightarrow{\\mathrm{B}})=\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi r}\\left[-\\mathrm{v}_{\\mathrm{x}} \\hat{\\mathrm{j}}-\\mathrm{v}_{\\mathrm{y}} \\hat{\\mathrm{i}}\\right] \\\\ & \\mathrm{a}_{\\mathrm{x}}=-\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\cdot \\frac{v_y}{\\mathrm{r}} \\\\ & \\mathrm{a}_{\\mathrm{y}}=-\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi m} \\cdot \\frac{v_x}{\\mathrm{r}}\\end{aligned}$\n\n\n$\\begin{aligned} & \\frac{\\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_{\\mathrm{x}}}{\\mathrm{dr}}=-\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\frac{\\mathrm{v}_{\\mathrm{y}}}{\\mathrm{r}} \\\\ & \\frac{\\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_{\\mathrm{x}}}{\\mathrm{v}_{\\mathrm{y}}}=-\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\frac{\\mathrm{dr}}{\\mathrm{r}} \\\\ & \\int_0^{\\mathrm{v}_0} \\frac{\\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_{\\mathrm{x}}}{\\sqrt{\\mathrm{v}_0^2-\\mathrm{v}_{\\mathrm{x}}^2}}=-\\frac{\\mu_0 \\mathrm{Iq}^{\\mathrm{x}_1}}{2 \\pi \\mathrm{~m}} \\int_{\\mathrm{a}}^{\\mathrm{dr}} \\frac{\\mathrm{r}}{2} \\\\ & \\text { Let, } \\mathrm{z}^2=\\mathrm{v}_0^2-\\mathrm{v}_{\\mathrm{x}}^2 \\\\ & 2 \\mathrm{zdz}=-2 \\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_{\\mathrm{x}}\\end{aligned}$\n\n\n$\\begin{aligned}\n& \\mathrm{zdz}=-\\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_{\\mathrm{x}} \\\\\n& \\frac{\\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_x}{\\sqrt{\\mathrm{v}_0^2-\\mathrm{v}_{\\mathrm{x}}^2}}=\\frac{-\\mathrm{zdz}}{\\mathrm{z}}=-\\mathrm{dz}\n\\end{aligned}$\nthen integral becomes\n$\\begin{aligned}\n& -\\int_{\\mathrm{v}_0}^0 \\mathrm{dz}=-\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\ln \\frac{\\mathrm{x}_1}{\\mathrm{a}} \\\\\n& \\mathrm{v}_0=-\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\ln \\frac{\\mathrm{x}_1}{\\mathrm{a}}\n\\end{aligned}$\n$\\left.\\mathrm{x}_1=\\mathrm{a} \\mathrm{e}^{-\\frac{2 \\pi \\mathrm{mv}}{\\mu_0}} \\mathrm{H}_0 \\mathrm{q} \\right\\rvert\\, \\ldots \\ldots$\n\nFor B $\\rightarrow$ C\n$\\begin{aligned}\n& \\overrightarrow{\\mathrm{v}}=-v_x \\hat{\\mathrm{i}}-v_y \\hat{\\mathrm{j}} \\\\\n& \\overrightarrow{\\mathrm{~B}}=\\frac{\\mu_0 \\mathrm{I}}{2 \\pi \\mathrm{r}}(-\\hat{\\mathrm{k}}) \\\\\n& \\overrightarrow{\\mathrm{F}}=\\mathrm{q}(\\overrightarrow{\\mathrm{v}} \\times \\overrightarrow{\\mathrm{B}})=\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi r}\\left(-v_x \\hat{j}+v_y \\hat{\\mathrm{i}}\\right)\n\\end{aligned}$\n$\\begin{aligned}\n& \\mathrm{a}_{\\mathrm{x}}=+\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\frac{\\mathrm{v}_{\\mathrm{y}}}{\\mathrm{r}} \\quad \\mathrm{a}_{\\mathrm{y}}=-\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\cdot \\frac{\\mathrm{v}_{\\mathrm{x}}}{\\mathrm{r}} \\\\\n& \\frac{\\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_{\\mathrm{x}}}{\\mathrm{dr}}=\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\frac{\\mathrm{v}_{\\mathrm{y}}}{\\mathrm{r}} \\\\\n& \\int_{v_0}^0 \\frac{\\mathrm{v}_{\\mathrm{x}} \\mathrm{dv}_{\\mathrm{x}}}{\\sqrt{\\mathrm{v}_0^2-\\mathrm{v}_{\\mathrm{x}}^2}}=\\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\int_{\\mathrm{x_1}}^{\\mathrm{x}}\\frac{dr}{r}\n\\end{aligned}$\n$\\begin{aligned}\n& \\frac{\\mu_0 \\mathrm{Iq}}{2 \\pi \\mathrm{~m}} \\ln \\frac{\\mathrm{x}}{\\mathrm{x}_1}=-\\int_0^{\\mathrm{v}_0} \\mathrm{~d} \\mathrm{z}=-\\mathrm{v}_0 \\\\\n& \\mathrm{x}=\\mathrm{x}_1 \\mathrm{e}^{-\\frac{2 \\pi \\mathrm{~m}_0}{\\mu_0 \\mathrm{Iq}}} \\ldots \\ldots \\text { (2) }\n\\end{aligned}$\n\nFrom equation 1 and 2\n$X=a e^{-\\frac{4 \\pi \\mathrm{mv}_0}{\\mu_0 \\mathrm{Iq}}}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "f95203316886481089e4ec3e9754172b",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/3RwYvWJRWf68P.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/3RwYvWJRWf68P.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d9760e",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-28T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (28 Jan Shift 1)",
+    "title": "JEE Main 2025 (28 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

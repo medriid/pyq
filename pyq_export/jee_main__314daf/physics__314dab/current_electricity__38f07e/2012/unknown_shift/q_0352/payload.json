@@ -1,0 +1,43 @@
+{
+  "index": 352,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (12 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602410850888466138f07e",
+    "chapter_name": "Current Electricity",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Three resistors of $4 \\Omega, 6 \\Omega$ and $12 \\Omega$ are connected in parallel and the combination is connected in series with a $1.5 \\mathrm{~V}$ battery of $1 \\Omega$ internal resistance. The rate of Joule heating in the $4 \\Omega$ resistor is"
+  },
+  "options": [
+    {
+      "text": "\n$0.55 \\mathrm{~W}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$0.33 \\mathrm{~W}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$0.25 \\mathrm{~W}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$0.86 \\mathrm{~W}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Resistors $4 \\Omega, 6 \\Omega$ and $12 \\Omega$ are connected in parallel, its equivalent resistance $(R)$ is given by\n\n$$\n\\frac{1}{R}=\\frac{1}{4}+\\frac{1}{6}+\\frac{1}{12} \\Rightarrow R=\\frac{12}{6}=2 \\Omega\n$$\nAgain $R$ is connected to $1.5 \\mathrm{~V}$ battery whose internal resistance $r=1 \\Omega$.\nEquivalent resistance now,\n$$\nR^{\\prime}=2 \\Omega+1 \\Omega=3 \\Omega\n$$\nCurrent, $I_{\\text {total }}=\\frac{V}{R^{\\prime}}=\\frac{1.5}{3}=\\frac{1}{2} \\mathrm{~A}$\n$$\n\\begin{aligned}\n& I_{\\text {total }}=\\frac{1}{2}=3 x+2 x+x=6 x \\\\\n& \\Rightarrow x=\\frac{1}{12}\n\\end{aligned}\n$$\n$\\therefore$ Current through $4 \\Omega$ resistor $=3 x$\n$$\n=3 \\times \\frac{1}{12}=\\frac{1}{4} \\mathrm{~A}\n$$\nTherefore, rate of Joule heating in the $4 \\Omega$ resistor\n$$\n=I^2 R=\\left(\\frac{1}{4}\\right)^2 \\times 4=\\frac{1}{4}=0.25 \\mathrm{~W}\n$$"
+  }
+}

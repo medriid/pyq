@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65a36",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7ce",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2012-05-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (12 May Online)",
+      "title": "JEE Main 2012 (12 May Online)"
+    }
+  ],
+  "question": {
+    "text": "If $P_1$ and $P_2$ are two points on the ellipse $\\frac{x^2}{4}+y^2=1$ at which the tangents are parallel to the chord joining the points $(0,1)$ and $(2,0)$, then the distance between $P_1$ and $P_2$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "I5Qev",
+      "text": "\n$2 \\sqrt{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "fakgH",
+      "text": "\n$\\sqrt{5}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "N8XXk",
+      "text": "\n$2 \\sqrt{3}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "STVCR",
+      "text": "\n$\\sqrt{10}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Any tangent on an ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ is given by\n$$\ny=m x \\pm \\sqrt{a^2 m^2+b^2}\n$$\nHere $a=2, b=1$\n$$\n\\begin{aligned}\n& m=\\frac{1-0}{0-2}=-\\frac{1}{2} \\\\\n& c=\\sqrt{4\\left(-\\frac{1}{2}\\right)^2+1^2}=\\sqrt{2}\n\\end{aligned}\n$$\nSo, $y=-\\frac{1}{2} x \\pm \\sqrt{2}$\nFor ellipse : $\\frac{x^2}{4}+\\frac{y^2}{1}=1$\nWe put $y=-\\frac{1}{2} x+\\sqrt{2}$\n\n$$\n\\begin{aligned}\n& \\therefore \\frac{x^2}{4}+\\left(-\\frac{x}{2}+\\sqrt{2}\\right)^2=1 \\\\\n& \\frac{x^2}{4}+\\left(\\frac{x^2}{4}-2\\left(\\frac{x}{2}\\right) \\sqrt{2}+2\\right)=1 \\\\\n& \\Rightarrow x^2+2 \\sqrt{2} x+2=0 \\\\\n& \\text { or } x^2-2 \\sqrt{2} x+2=0 \\\\\n& \\Rightarrow x=\\sqrt{2} \\text { or }-\\sqrt{2}\n\\end{aligned}\n$$\nIf $x=\\sqrt{2}, y=\\frac{1}{\\sqrt{2}}$ and $x=-\\sqrt{2}, y=-\\frac{1}{\\sqrt{2}}$\n$\\therefore$ Points are $\\left(\\sqrt{2}, \\frac{1}{\\sqrt{2}}\\right),\\left(-\\sqrt{2},-\\frac{1}{\\sqrt{2}}\\right)$\n$$\n\\left.\\therefore P_1 P_2=\\sqrt{\\left\\{\\frac{1}{\\sqrt{2}}-\\left(-\\frac{1}{\\sqrt{2}}\\right)\\right\\}^2+\\left\\{\\sqrt{2}-(-\\sqrt{2}\\}^2\\right.}\\right)\n$$\n\n$$\n=\\sqrt{\\left(\\frac{2}{\\sqrt{2}}\\right)^2+\\left(2 \\sqrt{2}^2\\right.}=\\sqrt{2+8}=\\sqrt{10}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7ce",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2012-05-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (12 May Online)",
+    "title": "JEE Main 2012 (12 May Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

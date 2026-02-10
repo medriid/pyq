@@ -1,0 +1,63 @@
+{
+  "_id": "67726d1cc49e8ef28ee2b451",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6416",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T19:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 3)",
+      "title": "BITSAT 2024 (Memory Based Paper 3)"
+    }
+  ],
+  "question": {
+    "text": "Suppose $p, q, r \\neq 0$ and system of equation\n$\\begin{gathered}\n(p+a) x+b y+c z=0 \\\\\na x+(q+b) y+c z=0\n\\end{gathered}$\n$a x+b y+(r+c) z=0$, has a non-trivial solution, then the value of $\\frac{a}{p}+\\frac{b}{q}+\\frac{c}{r}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "GkqsY",
+      "text": "-1",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "E7SPs",
+      "text": "0",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Z5xKN",
+      "text": "1",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "dMiSr",
+      "text": "2",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $|A|=\\left|\\begin{array}{ccc}p+a & b & c \\\\ a & q+b & c \\\\ a & b & r+c\\end{array}\\right|$\nAlso, given that equations has non trivial solution\n$|A|=0$\n$\\begin{aligned}\n& \\Rightarrow \\quad\\left|\\begin{array}{ccc}\np+a & b & c \\\\\na & q+b & c \\\\\na & b & r+c\n\\end{array}\\right|=0 \\\\\n& \\Rightarrow(p+a)[(q+b)(r+c)-b c]-b[a(r+c)-c a] \\\\\n& +c[a b-a(q+b)]=0 \\\\\n& \\Rightarrow \\quad(p+a)[q r+q c+b r]-b[a r]+c[-a q]=0 \\\\\n& \\Rightarrow \\quad p q r+p q c+p b r+a q r=0\n\\end{aligned}$\nDividing whole equation by $p q r$\n$\\begin{aligned}\n\\Rightarrow & \\frac{p q r}{p q r}+\\frac{p q c}{p q r}+\\frac{p r b}{p q r}+\\frac{q r a}{p q r} & =0 \\\\\n\\Rightarrow & 1+\\frac{c}{r}+\\frac{b}{q}+\\frac{a}{p} & =0 \\\\\n\\Rightarrow & \\frac{a}{p}+\\frac{b}{q}+\\frac{c}{r} & =-1\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6416",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T19:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 3)",
+    "title": "BITSAT 2024 (Memory Based Paper 3)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

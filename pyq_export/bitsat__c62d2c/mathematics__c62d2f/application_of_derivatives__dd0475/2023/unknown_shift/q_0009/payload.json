@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83086701c4b7dd0475",
+    "chapter_name": "Application of Derivatives",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The function $f(x)=\\tan ^{-1}(\\sin x+\\cos x)$ is an increasing function in"
+  },
+  "options": [
+    {
+      "text": "$\\left(\\frac{\\pi}{4}, \\frac{\\pi}{2}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{4}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\left(0, \\frac{\\pi}{2}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Since, $f(x)=\\tan ^{-1}(\\sin x+\\cos x)$<br />$\\therefore \\mathrm{f}^{\\prime}(\\mathrm{x})=\\frac{1}{1+(\\sin \\mathrm{x}+\\cos \\mathrm{x})^2}(\\cos \\mathrm{x}-\\sin \\mathrm{x})$<br />$=\\frac{\\sqrt{2} \\cos \\left(x+\\frac{\\pi}{4}\\right)}{1+(\\sin x+\\cos x)^2}$<br />$f(x)$ is increasing if $f^{\\prime}(x)>0 \\Rightarrow \\cos \\left(x+\\frac{\\pi}{4}\\right)>0$<br />$\\Rightarrow \\quad-\\frac{\\pi}{2} < x+\\frac{\\pi}{4} < \\frac{\\pi}{2} \\Rightarrow-\\frac{3 \\pi}{2} < x+\\frac{\\pi}{4}$"
+  }
+}

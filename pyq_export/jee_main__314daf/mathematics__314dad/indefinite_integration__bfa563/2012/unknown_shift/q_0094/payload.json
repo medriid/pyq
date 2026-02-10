@@ -1,0 +1,43 @@
+{
+  "index": 94,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (26 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$f(x)=\\int \\frac{d x}{\\sin ^6 x}$ is a polynomial of degree"
+  },
+  "options": [
+    {
+      "text": "\n5 in $\\cot x$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n5 in $\\tan x$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n3 in $\\tan x$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n3 in $\\cot x$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $f(x)=\\int \\frac{d x}{\\sin ^6 x}$\n$$\nf(x)=\\int \\operatorname{cosec}^6 x d x\n$$\nFrom reduction formula, we have\n$$\n\\begin{aligned}\n& \\mathrm{I}_{\\mathrm{n}}=\\int \\operatorname{cosec}^n x d x \\\\\n& =-\\frac{\\operatorname{cosec}^{n-2} x \\cot x}{n-1}+\\frac{n-2}{n-1} \\mathrm{I}_{n-2}\n\\end{aligned}\n$$\n\n$$\n\\begin{gathered}\n\\therefore f(x)=-\\frac{\\operatorname{cosec}^4 x \\cot x}{5}+\\frac{4}{5}\\left[\\frac{-\\operatorname{cosec}^2 x \\cot x}{3}+\\frac{2}{3} \\mathrm{I}_2\\right] \\\\\n=-\\frac{\\operatorname{cosec}^4 x \\cot x}{5}-\\frac{4}{15} \\operatorname{cosec}^2 x \\cdot \\cot x+\\frac{8}{15}[-\\cot x] \\\\\n=\\frac{-\\left(1+\\cot ^2 x\\right)^2 \\cdot \\cot x}{5}-\\frac{4}{15}\\left(1+\\cot ^2 x\\right) \\cot x \\\\\n=\\frac{-1}{5}\\left[1+\\cot ^4 x+2 \\cot ^2 x\\right] \\cot x-\\frac{4}{15}[-\\cot x)\\left(\\because \\operatorname{cosec}^2 x=1+\\cot ^2 x\\right) \\\\\n=\\frac{-1}{5}\\left[\\cot x+\\cot ^3 x\\right] \\\\\n\\frac{-4}{15} \\cot ^3 x-\\frac{4}{15} \\cot ^3 x-\\frac{8}{15} \\cot x \\\\\n\\cot x]\n\\end{gathered}\n$$\n\n$$\n\\begin{aligned}\n& =\\frac{-15}{15} \\cot x-\\frac{\\cot ^5 x}{5}-\\frac{10}{15} \\cot ^3 x \\\\\n& =\\frac{-\\cot ^5 x}{5}-\\frac{2}{3} \\cot ^3 x-\\cot x\n\\end{aligned}\n$$\nIt is a polynomial of degree 5 in $\\cot x$."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "648b5a67417cc3fb48d668fd",
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7ee",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2019-01-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2019 (12 Jan Shift 1)",
+      "title": "JEE Main 2019 (12 Jan Shift 1)"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Consider three boxes, each containing <math><mn>10</mn></math> balls labelled <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mi>&#160;</mi><mn>2</mn><mo>,</mo><mi>&#160;</mi><mo>&#8230;</mo><mo>.</mo><mo>,</mo><mi>&#160;</mi><mn>10</mn></math>. Suppose one ball is randomly drawn from each of the boxes. Denote by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>n</mi><mi>i</mi></msub></math>, the label of the ball drawn from the <math><msup><mrow><mi>i</mi></mrow><mrow><mi mathvariant=\"normal\">t</mi><mi mathvariant=\"normal\">h</mi></mrow></msup></math> box, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced separators=\"|\"><mrow><mi>i</mi><mo>=</mo><mn>1</mn><mo>,</mo><mi>&#160;</mi><mn>2</mn><mo>,</mo><mi>&#160;</mi><mn>3</mn></mrow></mfenced></math>. Then, the number of ways in which the balls can be chosen such that <math><msub><mrow><mi>n</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>&#60;</mo><msub><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>&#60;</mo><msub><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></msub></math> is :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "GGZrx",
+      "text": "<math><mn>240</mn></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "a1MFT",
+      "text": "<math><mn>82</mn></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "oyJwc",
+      "text": "<math><mn>120</mn></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "xAKUO",
+      "text": "<math><mn>164</mn></math>",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "<p>Each box contains <math><mn>10</mn></math> balls numbered from <math><mn>1</mn></math> to <math><mn>10</mn></math>.</p><p><math><msub><mrow><mi>n</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>,</mo><mtext>&#8201;</mtext><msub><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>,</mo><mtext>&#8201;</mtext><msub><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></msub></math> are numbers on the balls drawn from the box <math><msub><mrow><mi>B</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>,</mo><mtext>&#8201;</mtext><msub><mrow><mi>B</mi></mrow><mrow><mn>2</mn></mrow></msub></math> and <math><msub><mrow><mi>B</mi></mrow><mrow><mn>3</mn></mrow></msub></math> respectively such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>n</mi><mn>1</mn></msub><mo>&#60;</mo><msub><mi>n</mi><mn>2</mn></msub><mo>&#60;</mo><msub><mi>n</mi><mn>3</mn></msub></math>.</p><p>i.e., all <math><mn>3</mn></math> numbers <math><msub><mrow><mi>n</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>,</mo><mtext>&#8201;</mtext><msub><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>,</mo><mtext>&#8201;</mtext><msub><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></msub></math> must be different and can be arranged only in one way (increasing).</p><p>Now <math><msub><mrow><mi>n</mi></mrow><mrow><mn>1</mn></mrow></msub><mo>,</mo><mtext>&#8201;</mtext><msub><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msub><mo>,</mo><mtext>&#8201;</mtext><msub><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></msub></math> can be selected in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow/><mn>10</mn></msup><msub><mi>C</mi><mn>3</mn></msub></math> ways.</p><p>Hence, total number of ways <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mo>=</mo><mn>10</mn></msup><msub><mi>C</mi><mn>3</mn></msub><mo>.</mo><mn>1</mn><msup><mo>=</mo><mn>10</mn></msup><msub><mi>C</mi><mn>3</mn></msub><mo>=</mo><mfrac><mfenced><mrow><mn>10</mn><mo>!</mo></mrow></mfenced><mrow><mfenced><mrow><mn>3</mn><mo>!</mo></mrow></mfenced><mfenced><mrow><mn>7</mn><mo>!</mo></mrow></mfenced></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>10</mn><mo>&#215;</mo><mn>9</mn><mo>&#215;</mo><mn>8</mn></mrow><mrow><mn>3</mn><mo>&#215;</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mn>120</mn></math>.</p>",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "bfc756e7e92d4bb9ad1bb695b905dde9",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/Ha5p60WiWgUoe.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/Ha5p60WiWgUoe.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main"
+  },
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7ee",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2019-01-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2019 (12 Jan Shift 1)",
+    "title": "JEE Main 2019 (12 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

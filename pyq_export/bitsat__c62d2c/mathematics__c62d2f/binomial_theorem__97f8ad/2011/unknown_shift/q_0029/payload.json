@@ -1,0 +1,43 @@
+{
+  "index": 29,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2011",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7ddf871d2a6297f8ad",
+    "chapter_name": "Binomial Theorem",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The term independent of \\(x\\) in the expansion of \\(\\left(9 \\mathrm{x}-\\frac{1}{3 \\sqrt{\\mathrm{x}}}\\right)^{18}, \\mathrm{x} > 0\\), is a times the corresponding binomial coefficient. Then a is"
+  },
+  "options": [
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "\\(1 / 3\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(-1 / 3\\)",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n\\mathrm{T}_{\\mathrm{r}+1} & ={ }^{18} \\mathrm{C}_{\\mathrm{r}}(9 \\mathrm{x})^{18-\\mathrm{r}}\\left(-\\frac{1}{3 \\sqrt{\\mathrm{x}}}\\right)^{\\mathrm{r}} \\\\\n& =(-\\mathrm{r})^{\\mathrm{r}}{ }^{18} \\mathrm{C}_{\\mathrm{r}} 9^{18-\\frac{3 \\mathrm{r}}{2}} \\mathrm{x}^{18-\\frac{3 \\mathrm{r}}{2}}\n\\end{aligned}\\)\nis independent of \\(\\mathrm{x}\\) provided \\(\\mathrm{r}=12\\) and then \\(\\mathrm{a}=1\\)."
+  }
+}

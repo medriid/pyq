@@ -1,0 +1,43 @@
+{
+  "index": 0,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7324369ff3396e0d92",
+    "chapter_name": "Pair of Lines",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\mathrm{A}(3,2,0), \\mathrm{B}(5,3,2), \\mathrm{C}(-9,6,-3)$ are three points forming a triangle. AD , the bisector of angle BAC meets BC in D. Find the co-ordinates of D."
+  },
+  "options": [
+    {
+      "text": "$\\frac{19}{8}, \\frac{57}{15}, \\frac{57}{15}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{19}{8}, \\frac{57}{16}, \\frac{17}{16}$",
+      "is_correct": true
+    },
+    {
+      "text": "$(2,3,0)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(4,5,6)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Since $A D$ is the bisector of $\\angle B A C$.\n$\\Rightarrow \\frac{\\mathrm{BD}}{\\mathrm{DC}}=\\frac{\\mathrm{AB}}{\\mathrm{AC}}$    ....(i)\nNow,\n$\\mathrm{AB}=\\sqrt{(5-3)^2+(3-2)^2+(2-0)^2}$\n$=\\sqrt{4+1+4}=\\sqrt{9}=3$\n<img src=\"assets\\st0000_88e2e1e27530.png\"/>\n$A C=\\sqrt{(-9-3)^2+(6-2)^2+(-3-0)^2}$\n$=\\sqrt{144+16+9}=13$\n$\\therefore \\quad \\frac{\\mathrm{BD}}{\\mathrm{DC}}=\\frac{3}{13}$\nHence, D divides BC in the ratio $3: 13$\nThe co-ordinates of D are\n$\\left(\\frac{3(-9)+13(5)}{3+13}, \\frac{3(6)+13(3)}{3+13}, \\frac{3(-3)+13(2)}{3+13}\\right)$\n$=\\left(\\frac{19}{8}, \\frac{57}{16}, \\frac{17}{16}\\right)$"
+  }
+}

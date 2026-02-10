@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78b6e5f7d916087e2f",
+    "chapter_name": "Probability",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Bag $P$ contains 6 red and 4 blue balls and bag $Q$ contains 5 red and 6 blue balls. A ball is transferred from bag $P$ to bag $Q$ and then a ball is drawn from bag $Q$. What is the probability that the ball drawn is blue?"
+  },
+  "options": [
+    {
+      "text": "$\\frac{7}{15}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{8}{15}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{4}{19}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{8}{19}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $E_1, E_2$ and $A$ be the events defined as follows:<br />$\\mathrm{E}_1=$ red ball is transferred from bag $\\mathrm{P}$ to bag $\\mathrm{Q}$<br />$\\mathrm{E}_2=$ blue ball is transferred from bag $\\mathrm{P}$ to bag $\\mathrm{Q}$<br />$\\mathrm{A}=$ the ball drawn from bag $\\mathrm{Q}$ is blue<br />As the bag $\\mathrm{P}$ contains 6 red and 4 blue balls,<br />$P\\left(E_1\\right)=\\frac{6}{10}=\\frac{3}{5} \\text { and } P\\left(E_2\\right)=\\frac{4}{10}=\\frac{2}{5}$<br />Note that $E_1$ and $E_2$ are mutually exclusive and exhaustive events.<br />When $E_1$ has occurred i.e., a red ball has already been transferred from bag $P$ to $Q$, then bag $Q$ will contain 6 red and 6 blue balls, So, $P\\left(A \\mid E_1\\right)=$$\\frac{6}{12}=\\frac{1}{2}$<br />When $E_2$ has occurred i.e., a blue ball has already been transferred from bag $P$ to $Q$, then bag $Q$ will contain 5 red and 7 blue balls, So, $P\\left(A \\mid E_2\\right)=$$\\frac{7}{12}$<br />By using law of total probability, we get<br />$P(A)=P\\left(E_1\\right) P\\left(A \\mid E_1\\right)+P\\left(E_2\\right) P\\left(A \\mid E_2\\right)$<br />$=\\frac{3}{5} \\times \\frac{1}{2}+\\frac{2}{5} \\times \\frac{7}{12}=\\frac{8}{15}$"
+  }
+}

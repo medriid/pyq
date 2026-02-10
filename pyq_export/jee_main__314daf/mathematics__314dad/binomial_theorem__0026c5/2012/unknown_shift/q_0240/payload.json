@@ -1,0 +1,43 @@
+{
+  "index": 240,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (12 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of terms in the expansion of $\\left(y^{1 / 5}+x^{1 / 10}\\right)^{55}$, in which powers of $x$ and $y$ are free from radical signs are"
+  },
+  "options": [
+    {
+      "text": "\n$\\operatorname{six}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\ntwelve\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nseven\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nfive",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Given expansion is $\\left(y^{1 / 5}+x^{1 / 10}\\right)^{55}$ The general term is\n$$\nT_{r+1}={ }^{55} \\mathrm{C}_r\\left(y^{1 / 5}\\right)^{55-r} \\cdot\\left(x^{\\frac{1}{10}}\\right)^r\n$$\n\n$T_{r+1}$ would free from radical sign if powers of $y$ and $x$ are integers.\ni.e. $\\frac{55-r}{5}$ and $\\frac{r}{10}$ are integer.\n$\\Rightarrow r$ is multiple of 10 .\nHence, $r=0,10,20,30,40,50$\nIt is an A.P.\nThus, $50=0+(k-1) 10$ $50=10 k-10 \\Rightarrow k=6$\nThus, the six terms of the given expansion in which $x$ and $y$ are free from radical signs."
+  }
+}

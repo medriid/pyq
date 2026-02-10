@@ -1,8 +1,8 @@
 {
   "index": 58,
-  "type": "numerical",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2024 (01 Feb Shift 1)",
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "<p>Let the line of the shortest distance between the lines <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mn>1</mn></msub><mo>:</mo><mover><mi>r</mi><mo>→</mo></mover><mo>=</mo><mfenced><mrow><mover><mi>i</mi><mo>^</mo></mover><mo>+</mo><mn>2</mn><mover><mi>j</mi><mo>^</mo></mover><mo>+</mo><mn>3</mn><mover><mi>k</mi><mo>^</mo></mover></mrow></mfenced><mo>+</mo><mi>λ</mi><mfenced><mrow><mover><mi>i</mi><mo>^</mo></mover><mo>−</mo><mover><mi>j</mi><mo>^</mo></mover><mo>+</mo><mover><mi>k</mi><mo>^</mo></mover></mrow></mfenced></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mn>2</mn></msub><mo>:</mo><mover><mi>r</mi><mo>→</mo></mover><mo>=</mo><mfenced><mrow><mn>4</mn><mover><mi>i</mi><mo>^</mo></mover><mo>+</mo><mn>5</mn><mover><mi>j</mi><mo>^</mo></mover><mo>+</mo><mn>6</mn><mover><mi>k</mi><mo>^</mo></mover></mrow></mfenced><mo>+</mo><mi>μ</mi><mfenced><mrow><mover><mi>i</mi><mo>^</mo></mover><mo>+</mo><mover><mi>j</mi><mo>^</mo></mover><mo>−</mo><mover><mi>k</mi><mo>^</mo></mover></mrow></mfenced></math> intersect <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mn>1</mn></msub></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mn>2</mn></msub></math> at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math> respectively. If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>α</mi><mo>,</mo><mi>β</mi><mo>,</mo><mi>γ</mi></mrow></mfenced></math> is the midpoint of the line segment <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mi>Q</mi></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfenced><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi></mrow></mfenced></math> is equal to___________</p>"
+    "text": "If the shortest distance between the lines\n$\\begin{array}{ll}\nL_1: \\vec{r}=(2+\\lambda) \\hat{i}+(1-3 \\lambda) \\hat{j}+(3+4 \\lambda) \\hat{k}, & \\lambda \\in \\mathbb{R} \\\\\nL_2: \\vec{r}=2(1+\\mu) \\hat{i}+3(1+\\mu) \\hat{j}+(5+\\mu) \\hat{k}, \\quad \\mu \\in \\mathbb{R}\n\\end{array}$\nis $\\frac{m}{\\sqrt{n}}$, where $\\operatorname{gcd}(m, n)=1$, then the value of $m+n$ equals"
   },
-  "options": [],
-  "correct_answer": "21",
+  "options": [
+    {
+      "text": "390",
+      "is_correct": false
+    },
+    {
+      "text": "384",
+      "is_correct": false
+    },
+    {
+      "text": "377",
+      "is_correct": false
+    },
+    {
+      "text": "387",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
   "solution": {
-    "text": "<p>Let point on <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mn>1</mn></msub></math> be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mfenced><mrow><mn>1</mn><mo>+</mo><mi>λ</mi></mrow></mfenced><mover><mi>i</mi><mo>^</mo></mover><mo>+</mo><mfenced><mrow><mn>2</mn><mo>-</mo><mi>λ</mi></mrow></mfenced><mover><mi>j</mi><mo>^</mo></mover><mo>+</mo><mfenced><mrow><mn>3</mn><mo>+</mo><mi>λ</mi></mrow></mfenced><mover><mi>k</mi><mo>^</mo></mover></mrow></mfenced></math> and point on <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mn>2</mn></msub></math> be <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi><mfenced><mrow><mfenced><mrow><mn>4</mn><mo>+</mo><mi>μ</mi></mrow></mfenced><mover><mi>i</mi><mo>^</mo></mover><mo>+</mo><mfenced><mrow><mn>5</mn><mo>+</mo><mi>μ</mi></mrow></mfenced><mover><mi>j</mi><mo>^</mo></mover><mo>+</mo><mfenced><mrow><mn>6</mn><mo>-</mo><mi>μ</mi></mrow></mfenced><mover><mi>k</mi><mo>^</mo></mover></mrow></mfenced></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mover><mrow><mi>P</mi><mi>Q</mi></mrow><mo>→</mo></mover><mo>=</mo><mfenced><mrow><mi>λ</mi><mo>-</mo><mi>μ</mi><mo>-</mo><mn>3</mn></mrow></mfenced><mover><mi>i</mi><mo>^</mo></mover><mo>+</mo><mfenced><mrow><mo>-</mo><mi>λ</mi><mo>-</mo><mi>μ</mi><mo>-</mo><mn>3</mn></mrow></mfenced><mover><mi>j</mi><mo>^</mo></mover><mo>+</mo><mfenced><mrow><mi>λ</mi><mo>+</mo><mi>μ</mi><mo>-</mo><mn>3</mn></mrow></mfenced><mover><mi>k</mi><mo>^</mo></mover></math></p><p>Now, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover><mrow><mi>P</mi><mi>Q</mi></mrow><mo>→</mo></mover><mo> </mo><mo>⊥</mo><mo> </mo><msub><mi>L</mi><mn>1</mn></msub><mo>,</mo><mo> </mo><msub><mi>L</mi><mn>2</mn></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfenced><mrow><mi>λ</mi><mo>-</mo><mi>μ</mi><mo>-</mo><mn>3</mn></mrow></mfenced><mo>+</mo><mfenced><mrow><mi>λ</mi><mo>+</mo><mi>μ</mi><mo>+</mo><mn>3</mn></mrow></mfenced><mo>+</mo><mfenced><mrow><mi>λ</mi><mo>+</mo><mi>μ</mi><mo>-</mo><mn>3</mn></mrow></mfenced><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>3</mn><mi>λ</mi><mo>+</mo><mi>μ</mi><mo>=</mo><mn>3</mn><mo> </mo><mo> </mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mi>i</mi></mfenced></math></p><p>Also, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>λ</mi><mo>-</mo><mi>μ</mi><mo>-</mo><mn>3</mn></mrow></mfenced><mo>+</mo><mfenced><mrow><mo>-</mo><mi>λ</mi><mo>-</mo><mi>μ</mi><mo>-</mo><mn>3</mn></mrow></mfenced><mo>+</mo><mfenced><mrow><mo>-</mo><mi>λ</mi><mo>-</mo><mi>μ</mi><mo>+</mo><mn>3</mn></mrow></mfenced><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mo>-</mo><mi>λ</mi><mo>-</mo><mn>3</mn><mi>μ</mi><mo>=</mo><mn>3</mn><mo> </mo><mo> </mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mrow><mi>i</mi><mi>i</mi></mrow></mfenced></math></p><p>Now, solving above equations we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>3</mn><mi>λ</mi><mo>+</mo><mi>μ</mi><mo>-</mo><mn>3</mn><mi>λ</mi><mo>-</mo><mn>9</mn><mi>μ</mi><mo>=</mo><mn>3</mn><mo>+</mo><mn>9</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mo>-</mo><mn>8</mn><mi>μ</mi><mo>=</mo><mn>12</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>μ</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mn>3</mn></mrow><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>λ</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>P</mi><mo>≡</mo><mfenced><mrow><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>,</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mfrac><mn>9</mn><mn>2</mn></mfrac></mrow></mfenced><mo>,</mo><mo> </mo><mi>Q</mi><mo>≡</mo><mfenced><mrow><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>,</mo><mfrac><mn>7</mn><mn>2</mn></mfrac><mo>,</mo><mfrac><mn>15</mn><mn>2</mn></mfrac></mrow></mfenced></math></p><p>So, mid-point of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mi>Q</mi></math> is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>,</mo><mn>2</mn><mo>,</mo><mn>6</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>2</mn><mfenced><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi></mrow></mfenced><mo>=</mo><mn>2</mn><mfenced><mrow><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mo>+</mo><mn>6</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>2</mn><mfenced><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi></mrow></mfenced><mo>=</mo><mn>21</mn></math></p>"
+    "text": "<img src=\"assets\\st0058_d4dcdfa380fc.png\"><br />Shortes distance (CD) $=\\left|\\frac{\\overline{\\mathrm{AB}} \\cdot \\overrightarrow{\\mathrm{p}} \\times \\overrightarrow{\\mathrm{q}}}{|\\overrightarrow{\\mathrm{p}} \\times \\overrightarrow{\\mathrm{q}}|}\\right|$\n$\\begin{aligned} & =\\left|\\frac{(0 \\hat{\\mathrm{i}}+2 \\hat{\\mathrm{j}}+2 \\hat{\\mathrm{k}}) \\cdot(-15 \\hat{\\mathrm{i}}+7 \\hat{\\mathrm{j}}+9 \\hat{\\mathrm{k}})}{\\sqrt{355}}\\right| \\\\ & =\\frac{0+14+18}{\\sqrt{355}}=\\frac{32}{\\sqrt{355}} \\\\ & \\therefore \\mathrm{m}+\\mathrm{n}=32+355=387\\end{aligned}$"
   }
 }

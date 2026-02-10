@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e77c6f5bfc7ab78ae540",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0cc821b6514e527d73",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009",
+      "title": "BITSAT 2009"
+    }
+  ],
+  "question": {
+    "text": "If \\(\\mathrm{a} > 0, \\mathrm{~b} > 0, \\mathrm{c} > 0\\) are respectively the \\(\\mathrm{pth}, \\mathrm{q}\\) th, rth terms of GP., then the value of the determinant \\(\\left|\\begin{array}{lll}\\log \\mathrm{a} & \\mathrm{p} & 1 \\\\ \\log \\mathrm{b} & \\mathrm{q} & 1 \\\\ \\log \\mathrm{c} & \\mathrm{r} & 1\\end{array}\\right|\\) is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "P2nbS",
+      "text": "0",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "UHCR2",
+      "text": "1",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "alzGR",
+      "text": "-1",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "nQTLX",
+      "text": "None of these",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let \\(A\\) be the 1 st term and \\(\\mathrm{R}\\) the common ratio of G.P., then\n\\(\\begin{aligned}\n& a=T_p=A R^{p-1} \\\\\n& \\therefore \\log \\mathrm{a}=\\log \\mathrm{A}+(\\mathrm{p}-1) \\log \\mathrm{R}\n\\end{aligned}\\)\nSimilarly, \\(\\log \\mathrm{b}=\\log \\mathrm{A}+(\\mathrm{q}-1) \\log \\mathrm{R}\\)\nand \\(\\log \\mathrm{c}=\\log \\mathrm{A}+(\\mathrm{r}-1) \\log \\mathrm{R}\\)\n\\(\\therefore \\Delta=\\left|\\begin{array}{lll}\n\\log A+(p-1) \\log R & p & 1 \\\\\n\\log A+(q-1) \\log R & q & 1 \\\\\n\\log A+(r-1) \\log R & r & 1\n\\end{array}\\right|\\)\nSplit into two determinants and in the first take \\(\\log A\\) common and in the second take \\(\\log \\mathrm{R}\\) common\n\\(\\Delta=\\log A\\left|\\begin{array}{lll}\n1 & p & 1 \\\\\n1 & q & 1 \\\\\n1 & r & 1\n\\end{array}\\right|+\\log R\\left|\\begin{array}{lll}\np-1 & p & 1 \\\\\nq-1 & q & 1 \\\\\nr-1 & r & 1\n\\end{array}\\right|\\)\nApply \\(\\mathrm{C}_1 \\rightarrow \\mathrm{C}_2 \\rightarrow \\mathrm{C}_3\\) in the second\n\\(\\Delta=0+\\log R\\left|\\begin{array}{lll}\n0 & p & 1 \\\\\n0 & q & 1 \\\\\n0 & r & 1\n\\end{array}\\right|=0\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0cc821b6514e527d73",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009",
+    "title": "BITSAT 2009"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

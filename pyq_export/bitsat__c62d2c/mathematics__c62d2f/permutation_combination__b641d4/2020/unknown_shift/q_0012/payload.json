@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2020",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cccd6ab1da4b641d4",
+    "chapter_name": "Permutation Combination",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of possible outcomes in a throw of n ordinary dice in which at least one of the dice shows an odd number is"
+  },
+  "options": [
+    {
+      "text": "$6^{n}-1$",
+      "is_correct": false
+    },
+    {
+      "text": "$3^{n}-1$",
+      "is_correct": false
+    },
+    {
+      "text": "$6^{n}-3^{n}$",
+      "is_correct": true
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Total number of ways $=6 \\times 6 \\times \\ldots \\ldots$ to $n$ times $=6^{n}$ Total number of ways to show only even number $=3 \\times 3 \\times \\ldots \\ldots$ to $n$ times $=3^{n}$\r\n\r\n$\\therefore$ required number of ways $=6^{\\mathrm{n}}-3^{\\mathrm{n}}$"
+  }
+}

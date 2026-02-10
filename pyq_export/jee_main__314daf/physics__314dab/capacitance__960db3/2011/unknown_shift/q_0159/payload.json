@@ -1,0 +1,43 @@
+{
+  "index": 159,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2011",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "6160240a212e155ed4960db3",
+    "chapter_name": "Capacitance",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A resistor 'R' and $2 \\mu \\mathrm{F}$ capacitor in series is connected through a switch to $200 \\mathrm{~V}$ direct supply. Across the capacitor is a neon bulb that lights up at $120 \\mathrm{~V}$. Calculate the value of $R$ to make the bulb light up $5 \\mathrm{~s}$ after the switch has been closed. $\\left(\\log _{10} 2.5=0.4\\right)$"
+  },
+  "options": [
+    {
+      "text": "\n$1.7 \\times 10^5 \\Omega$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2.7 \\times 10^6 \\Omega$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$3.3 \\times 10^7 \\Omega$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$1.3 \\times 10^4 \\Omega$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$V_c=E\\left(1-e^{-t / R c}\\right)$\n$1-e^{-t / R c}=\\frac{120}{200}=\\frac{3}{5}$\n$\\Rightarrow R=\\frac{5}{1.84 \\times 10^{-6}}=2.7 \\times 10^6 \\Omega$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 82,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025537539c1075ba01de6",
+    "chapter_name": "Inverse Trigonometric Functions",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\cos ^{-1} x-\\cos ^{-1} \\frac{y}{2}=\\alpha$, then $4 x^2-4 x y \\cos \\alpha+y^2$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$2 \\sin 2 \\alpha$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n4\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$4 \\sin ^2 \\alpha$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$-4 \\sin ^2 \\alpha$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\cos ^{-1} x-\\cos ^{-1} \\frac{y}{2}=\\alpha \\\\\n& \\cos ^{-1}\\left(\\frac{x y}{2}+\\sqrt{\\left(-x^2\\right)\\left(1-\\frac{y^2}{4}\\right)}\\right)=\\alpha \\\\\n& \\cos ^{-1}\\left(\\frac{x y+\\sqrt{4-y^2-4 x^2+x^2 y^2}}{2}\\right)=\\alpha \\\\\n& \\Rightarrow 4-y^2-4 x^2+x^2 y^2=4 \\cos ^2 \\alpha+x^2 y^2-4 x y \\cos \\alpha \\\\\n& \\Rightarrow 4 x^2+y^2-4 x y \\cos \\alpha=4 \\sin ^2 \\alpha\n\\end{aligned}\n$$"
+  }
+}

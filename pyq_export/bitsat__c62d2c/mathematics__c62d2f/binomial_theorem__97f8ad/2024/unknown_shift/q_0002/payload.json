@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7ddf871d2a6297f8ad",
+    "chapter_name": "Binomial Theorem",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The coefficient of the highest power of $x$ in the expansion of \n$\\left(x+\\sqrt{x^2-1}\\right)^8+\\left(x-\\sqrt{x^2-1}\\right)^8$"
+  },
+  "options": [
+    {
+      "text": "$64$",
+      "is_correct": false
+    },
+    {
+      "text": "$128$",
+      "is_correct": false
+    },
+    {
+      "text": "$256$",
+      "is_correct": true
+    },
+    {
+      "text": "$512$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Since $\\left(x+\\sqrt{x^2-1}\\right)^8+\\left(x-\\sqrt{x^2-1}\\right)^8$\n$\\begin{array}{r}=2\\left\\{{ }^8 C_0 x^8+{ }^8 C_2 x^6\\left(x^2-1\\right)+{ }^8 C_4 x^4\\left(x^2-1\\right)^2\\right. \\\\ \\left.+{ }^8 C_6 x^2\\left(x^2-1\\right)^3+{ }^8 C_8 x^0\\left(x^2-1\\right)^4\\right\\}\\end{array}$\nSo coefficient of highest power of $x$\n$=2\\left\\{{ }^8 C_0+{ }^8 C_2+{ }^8 C_4+{ }^8 C_6+{ }^8 C_8\\right\\}$\n$=(1+1)^8+(1-1)^8=2^8=256$"
+  }
+}

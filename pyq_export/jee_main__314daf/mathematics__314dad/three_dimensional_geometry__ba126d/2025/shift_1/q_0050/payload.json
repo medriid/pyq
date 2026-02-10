@@ -1,0 +1,43 @@
+{
+  "index": 50,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256d4f8c6827c3ba126d",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $\\mathrm{L}_1: \\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}$ and $\\mathrm{L}_2: \\frac{x-2}{3}=\\frac{y-4}{4}=\\frac{z-5}{5}$ be two lines. Then which of the following points lies on the line of the shortest distance between $L_1$ and $L_2$ ?"
+  },
+  "options": [
+    {
+      "text": "$\\left(\\frac{14}{3},-3, \\frac{22}{3}\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\left(-\\frac{5}{3},-7,1\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(2,3, \\frac{1}{3}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\frac{8}{3},-1, \\frac{1}{3}\\right)$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & L_1: \\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4} \\\\ & L_2: \\frac{x-2}{3}=\\frac{y-4}{4}=\\frac{z-5}{5}\\end{aligned}$\n<img src=\"assets\\st0050_705fd468c793.png\"><br>\n$\\begin{aligned}\n& P(2 \\lambda+1,3 \\lambda+2,4 \\lambda+3) \\\\\n& Q(3 \\mu+2,4 \\mu+4,5 \\mu+5)\n\\end{aligned}$\n\nDr's of $P Q < 2 \\lambda-3 \\mu-1,3 \\lambda-4 \\mu-2$,\n$\\begin{aligned}\n& 4 \\lambda-5 \\mu-2> \\\\\n& P Q=\\left|\\begin{array}{lll}\n\\hat{i} & \\hat{j} & \\hat{k} \\\\\n2 & 3 & 4 \\\\\n3 & 4 & 5\n\\end{array}\\right|=-\\hat{i}+2 \\hat{j}-\\hat{k} \\\\\n& \\Rightarrow \\frac{2 \\lambda-3 \\mu-1}{-1}=\\frac{3 \\lambda-4 \\mu-2}{2}=\\frac{4 \\lambda-5 \\mu-2}{-1} \\\\\n& \\Rightarrow \\lambda=\\frac{1}{3} \\mu=\\frac{-1}{6} \\\\\n& \\Rightarrow P\\left(\\frac{5}{3}, 3, \\frac{13}{3}\\right) \\quad Q\\left(\\frac{3}{2}, \\frac{10}{3}, \\frac{25}{6}\\right)\n\\end{aligned}$\nDr's $P Q\\langle 1,-2,1\\rangle$\n$\\therefore \\quad \\text { Line }$\n$\\frac{y-\\frac{5}{3}}{1}=\\frac{y-3}{-2}=\\frac{y-\\frac{13}{3}}{1}$"
+  }
+}

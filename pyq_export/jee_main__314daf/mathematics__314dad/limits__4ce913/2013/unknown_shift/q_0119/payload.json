@@ -1,0 +1,43 @@
+{
+  "index": 119,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2013 (09 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $\\lim _{x \\rightarrow 0} \\frac{1}{x}\\left[\\tan ^{-1}\\left(\\frac{x+1}{2 x+1}\\right)-\\frac{\\pi}{4}\\right]$ is :"
+  },
+  "options": [
+    {
+      "text": "\n1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-\\frac{1}{2}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n2\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n0",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow 0}\\left(\\frac{1}{x}\\right)\\left[\\tan ^{-1}\\left(\\frac{x+1}{2 x+1}\\right)-\\frac{\\pi}{4}\\right]$\n$=\\lim _{x \\rightarrow 0}\\left(\\frac{1}{x}\\right)\\left[\\tan ^{-1}\\left(\\frac{x+1}{2 x+1}\\right)-\\tan ^{-1}(1)\\right]$\n$=\\lim _{x \\rightarrow 0}\\left(\\frac{1}{x}\\right) \\cdot \\tan ^{-1}\\left(\\frac{\\frac{x+1}{2 x+1}-1}{1+\\frac{x+1}{2 x+1}}\\right)$\n$=\\lim _{x \\rightarrow 0} \\frac{1}{x} \\cdot \\tan ^{-1}\\left(\\frac{-x}{3 x+2}\\right)$\n$=-\\lim _{x \\rightarrow 0}\\left[\\frac{\\tan ^{-1}\\left(\\frac{x}{3 x+2}\\right)}{\\frac{x}{3 x+2}} \\times \\frac{1}{3 x+2}\\right]=-\\frac{1}{2}$"
+  }
+}

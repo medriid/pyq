@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd74291eeb125c7afd32",
+    "chapter_name": "Vector Algebra",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "107. $\\hat{\\mathbf{u}}$ and $\\hat{\\mathbf{v}}$ are two non-collinear unit vectors such that $\\left|\\frac{\\hat{\\mathbf{u}}+\\hat{\\mathbf{v}}}{\\mathbf{2}}+\\hat{\\mathbf{u}} \\times \\hat{\\mathbf{v}}\\right|=1$. Then the value of $|\\hat{\\mathbf{u}} \\times \\hat{\\mathbf{v}}|$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\r\n$\\left|\\frac{\\hat{\\mathbf{u}}+\\hat{\\mathbf{v}}}{2}\\right|$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$|\\hat{\\mathbf{u}}+\\hat{\\mathbf{v}}|$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$|\\hat{\\mathbf{u}}-\\hat{\\mathbf{v}}|$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$\\left|\\frac{\\hat{\\mathbf{u}}-\\hat{\\mathbf{v}}}{2}\\right|$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given that, $\\left|\\frac{\\hat{\\mathbf{u}}+\\hat{\\mathbf{v}}}{2}+\\hat{\\mathbf{u}} \\times \\hat{\\mathbf{v}}\\right|=1$\r\n$$\r\n\\begin{array}{ll}\r\n\\Rightarrow & \\left|\\frac{\\hat{\\mathbf{u}}+\\hat{\\mathbf{v}}}{2}+\\hat{\\mathbf{u}} \\times \\hat{\\mathbf{v}}\\right|^2=1 \\\\\r\n\\Rightarrow & \\frac{2+2 \\cos \\theta}{4}+\\sin ^2 \\theta=1 \\\\\r\n & \\quad[\\because \\hat{\\mathbf{u}} \\cdot(\\hat{\\mathbf{u}} \\times \\hat{\\mathbf{v}})=\\hat{\\mathbf{v}}(\\hat{\\mathbf{u}} \\times \\hat{\\mathbf{v}})=0] \\\\\r\n\\Rightarrow & \\cos ^2 \\frac{\\theta}{2}=\\cos 2 \\theta \\\\\r\n\\Rightarrow & \\theta=n \\pi \\pm \\frac{\\theta}{2}, n \\in z \\\\\r\n\\Rightarrow & \\theta=\\frac{2 \\pi}{3}\r\n\\end{array}\r\n$$\r\n$\\Rightarrow \\quad|\\hat{\\mathbf{u}} \\times \\hat{\\mathbf{v}}|=\\sin \\frac{2 \\pi}{3}=\\sin \\frac{\\pi}{3}=\\left|\\frac{\\hat{\\mathbf{u}}-\\hat{\\mathbf{v}}}{2}\\right|$"
+  }
+}

@@ -1,62 +1,62 @@
 {
-  "_id": "6682bd48ba0e94a3c4025ba8",
+  "_id": "66446727970e6e9ab542d0ad",
   "type": "singleCorrect",
-  "level": 2,
+  "level": 3,
   "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6b",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-05T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (05 Apr Shift 2)",
+      "title": "JEE Main 2024 (05 Apr Shift 2)"
+    }
+  ],
   "question": {
-    "text": "If the function <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>:</mo><mfenced close=\"\"><mfenced close=\"]\" open=\"\"><mrow><mo>−</mo><mi>∞</mi><mo>,</mo><mo>−</mo><mn>1</mn></mrow></mfenced></mfenced><mo>→</mo><mfenced close=\"]\" open=\"\"><mfenced><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow></mfenced></mfenced></math> defined by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><msup><mi>e</mi><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></math> is one-one and onto, then the distance of the point <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mn>2</mn><mi>b</mi><mo>+</mo><mn>4</mn><mo>,</mo><mo> </mo><mi>a</mi><mo>+</mo><mn>2</mn></mrow></mfenced></math> from the line <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><msup><mi>e</mi><mrow><mo>−</mo><mn>3</mn></mrow></msup><mi>y</mi><mo>=</mo><mn>4</mn></math> is:",
+    "text": "Let $f, g: \\mathbf{R} \\rightarrow \\mathbf{R}$ be defined as :\n$f(x)=|x-1| \\text { and } g(x)= \\begin{cases}\\mathrm{e}^x, \\text { MARA } & x \\geq 0 \\\\ x+1, & x \\leq 0\\end{cases}$<br />Then the function $f(g(x))$ is",
     "image": null
   },
   "options": [
     {
-      "id": "WR8c4",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>1</mn><mo>+</mo><msup><mi>e</mi><mn>6</mn></msup></msqrt></math>",
+      "id": "FWk9b",
+      "text": "neither one-one nor onto.",
       "image": null,
       "isCorrect": true
     },
     {
-      "id": "7q7vV",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>1</mn><mo>+</mo><msup><mi>e</mi><mn>6</mn></msup></msqrt></math>",
+      "id": "CNPYv",
+      "text": "one-one but not onto.",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "X6NG8",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>1</mn><mo>+</mo><msup><mi>e</mi><mn>6</mn></msup></msqrt></math>",
+      "id": "5aiDp",
+      "text": "onto but not one-one.",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "om5LS",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>1</mn><mo>+</mo><msup><mi>e</mi><mn>6</mn></msup></msqrt></math>",
+      "id": "LeIqW",
+      "text": "both one-one and onto.",
       "image": null,
       "isCorrect": false
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "<p>Given: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><msup><mi>e</mi><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced><mi>x</mi></mfenced><mo>=</mo><msup><mi>e</mi><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>×</mo><mfenced><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced><mi>x</mi></mfenced><mo>=</mo><mn>3</mn><mo>×</mo><msup><mi>e</mi><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>×</mo><mfenced><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>×</mo><mfenced><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfenced></math></p><p>So, for <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>∈</mo><mo>(</mo><mo>-</mo><mo>∞</mo><mo>,</mo><mo>-</mo><mn>1</mn><mo>]</mo></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>'</mo></msup><mfenced><mi>x</mi></mfenced><mo>&gt;</mo><mn>0</mn></math>, hence <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math> is increasing function in given domain,</p><p>Now, finding <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>a</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>x</mi><mo>→</mo><mo>-</mo><mo>∞</mo></mrow></munder><mfenced><msup><mi>e</mi><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>a</mi><mo>=</mo><mn>0</mn></math></p><p>And <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mi>f</mi><mfenced><mrow><mo>-</mo><mn>1</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>b</mi><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>1</mn></mrow></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>b</mi><mo>=</mo><msup><mi>e</mi><mn>3</mn></msup></math></p><p>So, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mn>2</mn><mi>b</mi><mo>+</mo><mn>4</mn><mo>,</mo><mo> </mo><mi>a</mi><mo>+</mo><mn>2</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>P</mi><mo>≡</mo><mfenced><mrow><mn>2</mn><msup><mi>e</mi><mn>3</mn></msup><mo>+</mo><mn>4</mn><mo>,</mo><mo> </mo><mn>2</mn></mrow></mfenced></math></p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/fee53ad0-c982-4d34-9163-0303b3b516c9.png\" style=\"width: 280px; height: 152px;\"/></p><p>Now, finding the distance from the given line we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>d</mi><mo>=</mo><mfrac><mrow><mfenced><mrow><mn>2</mn><msup><mi>e</mi><mn>3</mn></msup><mo>+</mo><mn>4</mn></mrow></mfenced><mo>+</mo><mn>2</mn><msup><mi>e</mi><mrow><mo>−</mo><mn>3</mn></mrow></msup><mo>−</mo><mn>4</mn></mrow><msqrt><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mo>−</mo><mn>6</mn></mrow></msup></msqrt></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>d</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mfenced><mrow><msup><mi>e</mi><mn>3</mn></msup><mo>+</mo><msup><mi>e</mi><mrow><mo>−</mo><mn>3</mn></mrow></msup></mrow></mfenced></mrow><msqrt><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mo>−</mo><mn>6</mn></mrow></msup></msqrt></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>d</mi><mo>=</mo><mfrac><mn>1</mn><msup><mi>e</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup></mfrac><mfrac><mrow><mn>2</mn><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mo>−</mo><mn>6</mn></mrow></msup></mrow></mfenced></mrow><msqrt><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mo>−</mo><mn>6</mn></mrow></msup></msqrt></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>d</mi><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mo>−</mo><mn>6</mn></mrow></msup></msqrt></mrow><msup><mi>e</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>d</mi><mo>=</mo><mn>2</mn><msqrt><mfrac><mn>1</mn><msup><mi>e</mi><mrow><mo>-</mo><mn>6</mn></mrow></msup></mfrac><mo>+</mo><mn>1</mn></msqrt></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>d</mi><mo>=</mo><mn>2</mn><msqrt><mn>1</mn><mo>+</mo><msup><mi>e</mi><mn>6</mn></msup></msqrt></math></p>",
+    "text": "$\\begin{aligned} & f(g(x))=|g(x)-1| \\\\ & f o g\\left[\\begin{array}{cc}\\left|e^x-1\\right| & x \\geq 0 \\\\ |x+1-1| & x \\leq 0\\end{array}\\right. \\\\ & \\text { fog }\\left[\\begin{array}{cc}e^x-1 & x \\geq 0 \\\\ -x & x \\leq 0\\end{array}\\right.\\end{aligned}$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/67p2RyqwuBcCWXIdB0onTLLxuNdUcOlhh0fAx3hYHzc.original.fullsize.png\"><br>",
     "image": null
   },
   "videoSolution": null,
   "syllabusCategory": "noChange",
-  "previousYearPapers": [
-    {
-      "_id": "65c4c0c11d30997d3436bb05",
-      "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-01-31T14:00:00.000Z",
-      "isVisible": true,
-      "shortName": "2024 (31 Jan Shift 2)",
-      "title": "JEE Main 2024 (31 Jan Shift 2)"
-    }
-  ],
   "previousYear": {
-    "_id": "65c4c0c11d30997d3436bb05",
+    "_id": "664466ee278297dee60eda6b",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-01-31T14:00:00.000Z",
+    "heldOn": "2024-04-05T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (31 Jan Shift 2)",
-    "title": "JEE Main 2024 (31 Jan Shift 2)"
+    "shortName": "2024 (05 Apr Shift 2)",
+    "title": "JEE Main 2024 (05 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

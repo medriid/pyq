@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2014",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd742781aed2a1c7393e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathrm{f}(\\mathrm{x})=\\left\\{\\begin{array}{l}\\frac{1-\\sin ^{3} \\mathrm{x}}{3 \\cos ^{2} \\mathrm{x}}, \\mathrm{x}<\\frac{\\pi}{2} \\\\ \\mathrm{p}, \\quad \\mathrm{x}=\\frac{\\pi}{2} \\\\ \\frac{\\mathrm{q}(1-\\sin \\mathrm{x})}{(\\pi-2 \\mathrm{x})^{2}}, \\mathrm{x}>\\frac{\\pi}{2}\\end{array}\\right.$\r\n\r\nIf $f(x)$ is continuous at $x=\\frac{\\pi}{2},(p, q)=$"
+  },
+  "options": [
+    {
+      "text": "(1,4)",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\frac{1}{2}, 2\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\frac{1}{2}, 4\\right)$",
+      "is_correct": true
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\mathrm{f}\\left[(\\pi / 2)^{-}\\right]=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{1-\\sin ^{3}[(\\pi / 2)-\\mathrm{h}]}{3 \\cos ^{2}[(\\pi / 2)-\\mathrm{h}]}$\r\n\r\n$\\quad=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{1-\\cos ^{3} \\mathrm{~h}}{3 \\sin ^{2} \\mathrm{~h}}=\\frac{1}{2}$\r\n\r\n$\\mathrm{f}\\left[(\\pi / 2)^{+}\\right]=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{\\mathrm{q}[1-\\sin \\{(\\pi / 2)+\\mathrm{h}\\}]}{[\\pi-2\\{(\\pi / 2)+\\mathrm{h}\\}]^{2}}$\r\n\r\n$=\\lim _{\\mathrm{h} \\rightarrow 0} \\frac{\\mathrm{q}(1-\\cosh )}{4 \\mathrm{~h}^{2}}=\\frac{\\mathrm{q}}{8}$\r\n\r\n$\\therefore \\mathrm{p}=\\frac{1}{2}=\\frac{\\mathrm{q}}{8} \\Rightarrow \\mathrm{p}=\\frac{1}{2}, \\mathrm{q}=4$"
+  }
+}

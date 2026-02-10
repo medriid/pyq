@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2011",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd789dc466ce4f96734c",
+    "chapter_name": "Limits",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Evaluate \\(\\lim _{x \\rightarrow \\infty} \\frac{\\sqrt{1+\\sin 3 x}-1}{\\ln (1+\\tan 2 x)}\\);"
+  },
+  "options": [
+    {
+      "text": "\\(1 / 2\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(3 / 2\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(3 / 4\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(1 / 4\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\lim _{x \\rightarrow 0} \\frac{\\sqrt{1+\\sin 3 x}-1}{\\ln (1+\\tan 2 x)} \\\\\n= & \\lim _{x \\rightarrow 0} \\frac{(1+\\sin 3 x)-1}{\\{\\sqrt{1+\\sin 3 x+1}) \\ln (1+\\tan 2 x)} \\\\\n= & \\lim _{x \\rightarrow 0} \\frac{1}{(\\sqrt{1+\\sin 3 x}+1)} \\cdot \\frac{\\sin 3 x}{\\ln (1+\\tan 2 x)^{\\frac{1}{\\tan 2 x}}\\times \\frac{1}{\\tan 2 x}}\n\\end{aligned}\\)\n\\(\\begin{aligned} & =\\lim _{x \\rightarrow 0} \\frac{1}{(\\sqrt{1+\\sin 3 x}+1)} \\cdot\\left(\\frac{\\sin 3 x}{3 x}\\right)\\left(\\frac{2 x}{\\tan 2 x}\\right) \\\\ & \\times \\frac{3}{\\tan 2 x} \\cdot \\frac{1}{\\ln (1+\\tan 2 x)^{\\frac{1}{\\tan 2 x}}} \\\\ & =\\left(\\frac{1}{1+1}\\right)(1)(1)\\left(\\frac{3}{2}\\right) \\frac{1}{\\ln e}=\\frac{3}{4} .\\end{aligned}\\)"
+  }
+}

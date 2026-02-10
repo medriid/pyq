@@ -1,33 +1,58 @@
 {
-  "_id": "68542c597c09d044e4c1a186",
-  "type": "numerical",
-  "level": 3,
+  "_id": "68542c597c09d044e4c1a183",
+  "type": "singleCorrect",
+  "level": 1,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "6852f2fe9d87935e0d809787",
+      "_id": "6852f2fe9d87935e0d809788",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-04-04T09:00:00.000Z",
+      "heldOn": "2025-04-07T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (4 Apr Shift 1)",
-      "title": "JEE Main 2025 (4 Apr Shift 1)"
+      "shortName": "2025 (7 Apr Shift 1)",
+      "title": "JEE Main 2025 (7 Apr Shift 1)"
     }
   ],
   "question": {
-    "text": "Two slabs with square cross section of different materials $(1,2)$ with equal sides $(l)$ and thickness $\\mathrm{d}_1$ and $\\mathrm{d}_2$ such that $\\mathrm{d}_2=2 \\mathrm{~d}_1$ and $l \\gt \\mathrm{d}_2$. Considering lower edges of these slabs are fixed to the floor, we apply equal shearing force on the narrow faces. The angle of deformation is $\\theta_2=2 \\theta_1$. If the shear moduli of material 1 is $4 \\times 10^9 \\mathrm{~N} / \\mathrm{m}^2$, then shear moduli of material 2 is $\\mathrm{x} \\times 10^9 \\mathrm{~N} / \\mathrm{m}^2$, where value of $x$ is ________.",
+    "text": "Two wires A and B are made of same material having ratio of lengths $\\frac{L_A}{L_B}=\\frac{1}{3}$ and their diameters ratio $\\frac{d_A}{d_B}=2$. If both the wires are stretched using same force, what would be the ratio of their respective elongations?",
     "image": null
   },
-  "options": [],
-  "correctValue": "1",
+  "options": [
+    {
+      "id": "4BxXw",
+      "text": "$1: 6$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "NPvit",
+      "text": "$1: 12$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "hlxZv",
+      "text": "$3: 4$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "1Yt6m",
+      "text": "$1: 3$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "Deformation angle<br/>$\\begin{aligned}<br/>& 2 \\theta_1=\\theta_2 \\\\\n& \\Rightarrow 2 \\frac{\\sigma_1}{\\eta_1}=\\frac{\\sigma_2}{\\eta_2}<br/>\\end{aligned}$<br/><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/ug-nihWUV__s_XEm2wZ0lcdHnq7CdJTwLfTwUhH2He0.original.fullsize.png\"/><br/>$\\begin{aligned} & \\Rightarrow 2\\left(\\frac{\\mathrm{~F}}{\\ell \\mathrm{~d}_1 \\eta_1}\\right)=\\frac{\\mathrm{F}}{\\ell \\mathrm{d}_2 \\eta_2} \\\\ & \\Rightarrow \\eta_2=\\frac{\\eta_1}{4}=1 \\times 10^9 \\Rightarrow x=1\\end{aligned}$",
+    "text": "$\\frac{\\mathrm{L}_{\\mathrm{A}}}{\\mathrm{L}_{\\mathrm{B}}}=\\frac{1}{3}$ and $\\frac{\\mathrm{d}_{\\mathrm{A}}}{\\mathrm{d}_{\\mathrm{B}}}=2$<br/>$\\Delta \\mathrm{L}_{\\mathrm{A}}=\\frac{\\mathrm{F}_{\\mathrm{A}} \\mathrm{L}_{\\mathrm{A}}}{\\mathrm{A}_{\\mathrm{A}} \\mathrm{Y}_{\\mathrm{A}}}$ and $\\Delta \\mathrm{L}_{\\mathrm{B}}=\\frac{\\mathrm{F}_{\\mathrm{B}} \\mathrm{L}_{\\mathrm{B}}}{\\mathrm{A}_{\\mathrm{B}} \\mathrm{Y}_{\\mathrm{B}}}$<br/>Given, $F_A=F_B$ and $Y_A=Y_B$<br/>$\\frac{\\Delta \\mathrm{L}_{\\mathrm{A}}}{\\Delta \\mathrm{L}_{\\mathrm{B}}}=\\frac{\\frac{\\mathrm{F}_{\\mathrm{A}} \\mathrm{L}_{\\mathrm{A}}}{\\mathrm{A}_{\\mathrm{A}} \\mathrm{Y}_{\\mathrm{A}}}}{\\frac{\\mathrm{F}_{\\mathrm{B}} \\mathrm{L}_{\\mathrm{B}}}{\\mathrm{A}_{\\mathrm{B}} \\mathrm{Y}_{\\mathrm{B}}}}=\\left(\\frac{\\mathrm{L}_{\\mathrm{A}}}{\\mathrm{L}_{\\mathrm{B}}}\\right)\\left(\\frac{\\mathrm{A}_{\\mathrm{B}}}{\\mathrm{A}_{\\mathrm{A}}}\\right)$<br/>$\\frac{\\Delta \\mathrm{L}_{\\mathrm{A}}}{\\Delta \\mathrm{L}_{\\mathrm{B}}}=\\left(\\frac{\\mathrm{L}_{\\mathrm{A}}}{\\mathrm{L}_{\\mathrm{B}}}\\right)\\left(\\frac{\\frac{\\pi}{4} \\mathrm{~d}_{\\mathrm{B}}^2}{\\frac{\\pi}{4} \\mathrm{~d}_{\\mathrm{A}}^2}\\right)=\\left(\\frac{\\mathrm{L}_{\\mathrm{A}}}{\\mathrm{L}_{\\mathrm{B}}}\\right)\\left(\\frac{\\mathrm{d}_{\\mathrm{B}}}{\\mathrm{d}_{\\mathrm{A}}}\\right)^2$<br/>$\\frac{\\Delta \\mathrm{L}_{\\mathrm{A}}}{\\Delta \\mathrm{L}_{\\mathrm{B}}}=\\left(\\frac{1}{3}\\right)\\left(\\frac{1}{2}\\right)^2=\\frac{1}{12}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "d80c87a3d2424f79a72c1b052b27eb0f",
+    "videoId": "880f88288a6b46d59ea596d9ee5fcfb2",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/a8eIvvwBjhTtZ.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/a8eIvvwBjhTtZ.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/q6BCInTcoeGZ8.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/q6BCInTcoeGZ8.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
@@ -46,12 +71,12 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "6852f2fe9d87935e0d809787",
+    "_id": "6852f2fe9d87935e0d809788",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-04-04T09:00:00.000Z",
+    "heldOn": "2025-04-07T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (4 Apr Shift 1)",
-    "title": "JEE Main 2025 (4 Apr Shift 1)"
+    "shortName": "2025 (7 Apr Shift 1)",
+    "title": "JEE Main 2025 (7 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

@@ -1,0 +1,43 @@
+{
+  "index": 5,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd732c864bbbf99596a1",
+    "chapter_name": "Circle",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The locus of the mid-point of the chord if contact of tangents drawn from points lying on the straight line $4 x-5 y=20$ to the circle $x^2+y^2=9$ is"
+  },
+  "options": [
+    {
+      "text": "\r\n$20\\left(x^2+y^2\\right)-36 x+45 y=0$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n$20\\left(x^2+y^2\\right)+36 x-45 y=0$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$36\\left(x^2+y^2\\right)-20 x+45 y=0$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$36\\left(x^2+y^2\\right)+20 x-45 y=0$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $P\\left(t, \\frac{4 t-20}{5}\\right)$ be a point on the line\r\n$4 x-5 y=20$. Then the chord of contact of tangents drawn from $P$ to the circle $x^2+y^2=9$ is\r\n$t x+\\left(\\frac{4 t-20}{5}\\right) y=9\\quad \\quad \\dots(i)$\r\nLet $\\theta(h, k)$ be the mid-point of this chord of contact, then its equation is also $h x+k y=h^2+k^2\\quad \\quad \\dots(ii)$\r\n$\\left[\\right.$ using $\\left.T=S^{\\prime}\\right]$\r\nClearly Eqs. (i) and (ii) represent the same line\r\n$\\begin{aligned}\r\n& \\therefore \\frac{t}{h}=\\frac{4 t-20}{5 k}=\\frac{9}{h^2+k^2} \\\\\r\n& \\Rightarrow \\frac{t}{h}=\\frac{9}{h^2+k^2} \\text { and } \\frac{t}{h}=\\frac{4 t-20}{5 k} \\\\\r\n& \\Rightarrow t=\\frac{9 h}{h^2+k^2} \\text { and } t=\\frac{20 h}{4 h-5 k} \\\\\r\n& \\Rightarrow \\frac{9 h}{h^2+k^2}=\\frac{20 h}{4 h-5 k} \\\\\r\n& \\Rightarrow  h\\left\\{20\\left(h^2+k^2\\right)-36 h+45 k\\right\\}=0 \\\\\r\n& x=0, \\text { or }\\left[20\\left(x^2+y^2\\right)-36 x+45 y\\right]=0\r\n\\end{aligned}$"
+  }
+}

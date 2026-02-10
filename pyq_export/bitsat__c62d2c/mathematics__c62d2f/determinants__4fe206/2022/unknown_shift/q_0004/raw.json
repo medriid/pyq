@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e8366f5bfc7ab78aeb91",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44d",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2022-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022",
+      "title": "BITSAT 2022"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "If $p \\neq a, q \\neq b, r \\neq c$ and the system of equations\r\n$\\begin{aligned}\r\n& p x+a y+a z=0 \\\\\r\n& b x+q y+b z=0 \\\\\r\n& c x+c y+r z=0\r\n\\end{aligned}$\r\nhas a non-trivial solution, then the value of \r\n$\\frac{p}{p-a}+\\frac{q}{q-b}+\\frac{r}{r-c}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "hBFjP",
+      "text": "\r\n$1$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "I7KKS",
+      "text": "\r\n$2$\r\n",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "7SIxc",
+      "text": "\r\n$\\frac{1}{2}$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "tDhce",
+      "text": "\r\n$0$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "As the given system of equations has a non-trivial solution.\r\n$\\Delta=\\left|\\begin{array}{lll}p & a & a \\\\ b & q & b \\\\ c & c & r\\end{array}\\right|=0$\r\nApplying $C_2 \\rightarrow C_2-C_1$ and $C_3 \\rightarrow C_3-C_1$\r\n$\\Delta=\\left|\\begin{array}{ccc}p & a-p & a-p \\\\ b & q-b & 0 \\\\ c & 0 & r-c\\end{array}\\right|=0$\r\nExpanding along $C_3$, we get\r\n$(a-p)\\left|\\begin{array}{cc}b & q-b \\\\ c & 0\\end{array}\\right|+(r-c)\\left|\\begin{array}{cc}p & a-p \\\\ b & q-b\\end{array}\\right|=0$\r\n$\\begin{aligned}\r\n& \\Rightarrow(a-p)(-c)(q-b)+(r-c) \\\\\r\n& \\{p(q-b)-b(a-p)\\}=0 \\\\\r\n& \\Rightarrow \\\\\r\n& (p-a)(q-b) c+p(r-c)(q-b)+b(r-c)(p-a)=0\r\n\\end{aligned}$\r\nDividing by $(p-a)(q-b)(r-c)$, we get\r\n$\\frac{c}{r-c}+\\frac{p}{p-a}+\\frac{b}{q-b}=0$\r\n$\\Rightarrow \\frac{p}{p-a}+\\frac{q}{q-b}+\\frac{r}{r-c}=\\frac{q-b}{q-b}+\\frac{r-c}{r-c}=2$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44d",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2022-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022",
+    "title": "BITSAT 2022"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

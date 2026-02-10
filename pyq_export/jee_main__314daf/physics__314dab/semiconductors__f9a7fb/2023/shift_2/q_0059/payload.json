@@ -1,8 +1,8 @@
 {
   "index": 59,
   "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2023 (29 Jan Shift 2)",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2023 (06 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "<p>For the given logic gates combination, the correct truth table will be</p><p><img alt=\"\" src=\"assets\\qt0059_fcc51bf378f9.png\" style=\"width: 400px; height: 148px;\" /></p>"
+    "text": "<p>Given below are two statements: one is labelled as <strong>Assertion A</strong> and the other is labelled as <strong>Reason R</strong></p><p><strong>Assertion A:</strong> Diffusion current in a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>-</mo><mi>n</mi></math> junction is greater than the drift current in magnitude if the junction is forward biased.</p><p><strong>Reason R:</strong> Diffusion current in a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>-</mo><mi>n</mi></math>&nbsp;junction is form the <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-side to the <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>-side if the junction is forward biased.</p><p>In the light of the above statements, choose the most appropriate answer from the options given below.</p>"
   },
   "options": [
     {
-      "text": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 100px;\">\t<tbody>\t\t<tr>\t\t\t<td><strong>A</strong></td>\t\t\t<td><strong>B</strong></td>\t\t\t<td><strong>X</strong></td>\t\t</tr>\t\t<tr>\t\t\t<td>0</td>\t\t\t<td>0</td>\t\t\t<td>1</td>\t\t</tr>\t\t<tr>\t\t\t<td>0</td>\t\t\t<td>1</td>\t\t\t<td>0</td>\t\t</tr>\t\t<tr>\t\t\t<td>1</td>\t\t\t<td>0</td>\t\t\t<td>0</td>\t\t</tr>\t\t<tr>\t\t\t<td>1</td>\t\t\t<td>1</td>\t\t\t<td>0</td>\t\t</tr>\t</tbody></table>",
+      "text": "Both A and R are correct but R is NOT the correct explanation of A",
       "is_correct": false
     },
     {
-      "text": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 100px;\">\t<tbody>\t\t<tr>\t\t\t<td><strong>A</strong></td>\t\t\t<td><strong>B</strong></td>\t\t\t<td><strong>X</strong></td>\t\t</tr>\t\t<tr>\t\t\t<td>0</td>\t\t\t<td>0</td>\t\t\t<td>0</td>\t\t</tr>\t\t<tr>\t\t\t<td>0</td>\t\t\t<td>1</td>\t\t\t<td>1</td>\t\t</tr>\t\t<tr>\t\t\t<td>1</td>\t\t\t<td>0</td>\t\t\t<td>1</td>\t\t</tr>\t\t<tr>\t\t\t<td>1</td>\t\t\t<td>1</td>\t\t\t<td>0</td>\t\t</tr>\t</tbody></table>",
+      "text": "A is correct but R is not correct",
       "is_correct": true
     },
     {
-      "text": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 100px;\">\t<tbody>\t\t<tr>\t\t\t<td><strong>A</strong></td>\t\t\t<td><strong>B</strong></td>\t\t\t<td><strong>X</strong></td>\t\t</tr>\t\t<tr>\t\t\t<td>0</td>\t\t\t<td>0</td>\t\t\t<td>1</td>\t\t</tr>\t\t<tr>\t\t\t<td>0</td>\t\t\t<td>1</td>\t\t\t<td>0</td>\t\t</tr>\t\t<tr>\t\t\t<td>1</td>\t\t\t<td>0</td>\t\t\t<td>1</td>\t\t</tr>\t\t<tr>\t\t\t<td>1</td>\t\t\t<td>1</td>\t\t\t<td>0</td>\t\t</tr>\t</tbody></table>",
+      "text": "A is not correct but R is correct",
       "is_correct": false
     },
     {
-      "text": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 100px;\">\t<tbody>\t\t<tr>\t\t\t<td><strong>A</strong></td>\t\t\t<td><strong>B</strong></td>\t\t\t<td><strong>X</strong></td>\t\t</tr>\t\t<tr>\t\t\t<td>0</td>\t\t\t<td>0</td>\t\t\t<td>0</td>\t\t</tr>\t\t<tr>\t\t\t<td>0</td>\t\t\t<td>1</td>\t\t\t<td>1</td>\t\t</tr>\t\t<tr>\t\t\t<td>1</td>\t\t\t<td>0</td>\t\t\t<td>1</td>\t\t</tr>\t\t<tr>\t\t\t<td>1</td>\t\t\t<td>1</td>\t\t\t<td>1</td>\t\t</tr>\t</tbody></table>",
+      "text": "Both A and R is correct and R is the correct explanation of A",
       "is_correct": false
     }
   ],
@@ -38,6 +38,6 @@
     "B"
   ],
   "solution": {
-    "text": "<p>A HIGH output (1) results only if all the inputs to the AND gate are HIGH (1). If not all inputs to the AND gate are HIGH, LOW output results.</p><p>But in case of OR Gate, for&nbsp;the output to be 1, at least input one OR two must be 1.</p><p>NOR Gate&nbsp;reverses the logic state.</p><p>Therefore, for all possible combination of inputs, outputs at different stages will look like as given below.</p><p><img alt=\"\" src=\"assets\\st0059_a3c0302c948a.png\" style=\"width: 400px; height: 157px;\" /></p>"
+    "text": "<blockquote><p>The electric current due to the charge concentration gradient is known as&nbsp;diffusion current.When the charge carriers move in a semiconductor due to the applied electric field, the resulting current is known as&nbsp;drift current.&nbsp;If the positive terminal of the battery is connected to the p-type while the negative terminal of the battery is connected to the n-type, the movement of electrons is eased as they can travel to the positive terminal of the battery. This causes an increase in the diffusion current. Hence, the diffusion current is more than the drift current. So, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>&#160;</mo></math>is correct</p><p>In an n-type semiconductor, the concentration of electrons is more than that of the holes. While in a p-type semiconductor, the concentration of holes is more than that of the electrons. During the formation of a p-n junction diffusion and drift are the two processes taking place. When a p-n junction is formed, holes diffuse from the p-side to the n-side while electrons diffuse from the n-side to the p-side. This result due to the concentration gradient across p and n sides, which gives rise to a diffusion current across the junction. The diffusion results in an electric field from&nbsp;p-side to n-side. Thus, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> is incorrect as diffusion current in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>-</mo><mi>n</mi></math> junction is from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>&nbsp;side to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-side.</p></blockquote>"
   }
 }

@@ -1,0 +1,43 @@
+{
+  "index": 19,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2009",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7d211e05bce84fe206",
+    "chapter_name": "Determinants",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If \\(\\mathrm{a} > 0, \\mathrm{~b} > 0, \\mathrm{c} > 0\\) are respectively the \\(\\mathrm{pth}, \\mathrm{q}\\) th, rth terms of GP., then the value of the determinant \\(\\left|\\begin{array}{lll}\\log \\mathrm{a} & \\mathrm{p} & 1 \\\\ \\log \\mathrm{b} & \\mathrm{q} & 1 \\\\ \\log \\mathrm{c} & \\mathrm{r} & 1\\end{array}\\right|\\) is"
+  },
+  "options": [
+    {
+      "text": "0",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "-1",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let \\(A\\) be the 1 st term and \\(\\mathrm{R}\\) the common ratio of G.P., then\n\\(\\begin{aligned}\n& a=T_p=A R^{p-1} \\\\\n& \\therefore \\log \\mathrm{a}=\\log \\mathrm{A}+(\\mathrm{p}-1) \\log \\mathrm{R}\n\\end{aligned}\\)\nSimilarly, \\(\\log \\mathrm{b}=\\log \\mathrm{A}+(\\mathrm{q}-1) \\log \\mathrm{R}\\)\nand \\(\\log \\mathrm{c}=\\log \\mathrm{A}+(\\mathrm{r}-1) \\log \\mathrm{R}\\)\n\\(\\therefore \\Delta=\\left|\\begin{array}{lll}\n\\log A+(p-1) \\log R & p & 1 \\\\\n\\log A+(q-1) \\log R & q & 1 \\\\\n\\log A+(r-1) \\log R & r & 1\n\\end{array}\\right|\\)\nSplit into two determinants and in the first take \\(\\log A\\) common and in the second take \\(\\log \\mathrm{R}\\) common\n\\(\\Delta=\\log A\\left|\\begin{array}{lll}\n1 & p & 1 \\\\\n1 & q & 1 \\\\\n1 & r & 1\n\\end{array}\\right|+\\log R\\left|\\begin{array}{lll}\np-1 & p & 1 \\\\\nq-1 & q & 1 \\\\\nr-1 & r & 1\n\\end{array}\\right|\\)\nApply \\(\\mathrm{C}_1 \\rightarrow \\mathrm{C}_2 \\rightarrow \\mathrm{C}_3\\) in the second\n\\(\\Delta=0+\\log R\\left|\\begin{array}{lll}\n0 & p & 1 \\\\\n0 & q & 1 \\\\\n0 & r & 1\n\\end{array}\\right|=0\\)"
+  }
+}

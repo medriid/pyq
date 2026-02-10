@@ -1,0 +1,24 @@
+{
+  "index": 17,
+  "type": "numerical",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $A=\\left[\\begin{array}{ccc}\\cos \\theta & 0 & -\\sin \\theta \\\\ 0 & 1 & 0 \\\\ \\sin \\theta & 0 & \\cos \\theta\\end{array}\\right]$. If for some $\\theta \\in(0, \\pi)$, $A^2=A^T$, then the sum of the diagonal elements of the matrix $(\\mathrm{A}+\\mathrm{I})^3+(\\mathrm{A}-\\mathrm{I})^3-6 \\mathrm{~A}$ is equal to _____ ."
+  },
+  "options": [],
+  "correct_answer": "6",
+  "solution": {
+    "text": "$\\because \\mathrm{A}$ is orthogonal matrix<br/>$\\begin{aligned}<br/>& \\therefore A^T=A^{-1} \\\\\n& \\Rightarrow A^2=A^{-1} \\left(\\because \\mathrm{A}^2=\\mathrm{A}^{\\mathrm{T}}\\right) \\\\\n& \\Rightarrow A^3=I \\\\\n& \\text { let } B=(A+I)^3+(A-I)^3-6 A \\\\\n& =2\\left(A^3+3 A\\right)-6 A \\\\\n& =2 A^3 \\\\\n& B=2 I=\\left[\\begin{array}{lll}<br/>2 & 0 & 0 \\\\\n0 & 2 & 0 \\\\\n0 & 0 & 2<br/>\\end{array}\\right]<br/>\\end{aligned}$<br/>Now sum of diagonal elements $=2+2+2=6$"
+  }
+}

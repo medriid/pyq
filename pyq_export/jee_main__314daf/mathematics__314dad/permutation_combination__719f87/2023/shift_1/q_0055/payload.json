@@ -1,8 +1,8 @@
 {
   "index": 55,
-  "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2023 (08 Apr Shift 1)",
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2023 (12 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "The number of arrangements of the letters of the word &quot;INDEPENDENCE&quot;&nbsp;in which all the vowels always occur together is"
+    "text": "Let the digits <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mo>&#160;</mo><mi>b</mi><mo>,</mo><mo>&#160;</mo><mi>c</mi></math> be in A.P. Nine-digit numbers&nbsp;are to be formed using each of these three digits&nbsp;thrice such that three consecutive digits are in A.P. at least once. How many such numbers can be&nbsp;formed?"
   },
-  "options": [
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16800</mn></math>",
-      "is_correct": true
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>33600</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18000</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14800</mn></math>",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "A"
-  ],
+  "options": [],
+  "correct_answer": "1260",
   "solution": {
-    "text": "<blockquote><p>There are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;vowels in the given word which are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>E</mi><mo>'</mo><mi>s</mi><mo>&#160;</mo><mo>&#38;</mo><mo>&#8201;</mo><mn>1</mn><mi>I</mi></math>.</p><p>Since they have to always occur together we take&nbsp;them as a single object&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mo>&#160;</mo><mi>E</mi><mo>&#160;</mo><mi>E</mi><mo>&#160;</mo><mi>E</mi><mo>&#160;</mo><mi>I</mi></math>&nbsp;for the time being.</p><p>This single object together with&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>&nbsp;remaining object will account for&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math>&nbsp;objects.</p><p>There&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math>&nbsp;objects in which there are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>N</mi><mo>&#39;</mo><mi>s</mi><mo>&#160;</mo><mo>&#38;</mo><mo>&#8201;</mo><mn>2</mn><mi>D</mi><mo>&#39;</mo><mi>s</mi></math>&nbsp;can be arrangement in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo><mn>2</mn><mo>!</mo></mrow></mfrac></math>&nbsp;ways.</p><p>Corresponding to each of their arrangements the&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>&nbsp;vowels&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mo>,</mo><mi>E</mi><mo>,</mo><mi>E</mi><mo>,</mo><mi>E</mi><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mi>I</mi></math>&nbsp;which can be arranged in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>!</mo></mrow><mrow><mn>4</mn><mo>!</mo></mrow></mfrac></math></p><p>Hence, required number of arrangements.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>8</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo><mn>2</mn><mo>!</mo></mrow></mfrac><mo>&#215;</mo><mfrac><mrow><mn>5</mn><mo>!</mo></mrow><mrow><mn>4</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>16800</mn></math></p><p>Hence this is the correct option.</p></blockquote>"
+    "text": "<p>Three numbers&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mo>&#160;</mo><mi>b</mi><mo>,</mo><mo>&#160;</mo><mi>c</mi></math>&nbsp;are in A.P. ad they are used to making&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>-</mo></math>&nbsp;digit number using each digit thrice such that atleast three consecutive digits are in A.P., So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>a</mi></math>&nbsp;will also be in A.P.</p><p>Now, we have&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>&nbsp;position to put&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi></mrow></mfenced><mo>&#160;</mo><mi>or</mi><mo>&#160;</mo><mfenced><mrow><mi>c</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>a</mi></mrow></mfenced></math>&nbsp;as&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><munder><munder><mrow><mi>_</mi><mo>&#160;</mo><mo>&#160;</mo><mi>_</mi><mo>&#160;</mo><mo>&#160;</mo><mi>_</mi><mo>&#160;</mo><mo>&#160;</mo><mi>_</mi><mo>&#160;</mo><mo>&#160;</mo><mi>_</mi><mo>&#160;</mo><mo>&#160;</mo><mi>_</mi><mo>&#160;</mo><mo>&#160;</mo><mi>_</mi></mrow><mo>&#9183;</mo></munder><mrow><mn>7</mn><mo>&#160;</mo><mi>positions</mi></mrow></munder><mo>&#160;</mo><mo>&#160;</mo><mi>_</mi><mo>&#160;</mo><mo>&#160;</mo><mi>_</mi><mo>&#160;</mo><mo>&#160;</mo></math>.</p><p>Number of such numbers is</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>2</mn></mmultiscripts><mo>&#183;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>7</mn></mmultiscripts><mo>&#183;</mo><mfrac><mrow><mn>6</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo><mo>&#183;</mo><mn>2</mn><mo>!</mo><mo>&#183;</mo><mn>2</mn><mo>!</mo></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1260</mn></math></p>"
   }
 }

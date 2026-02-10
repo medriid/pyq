@@ -1,8 +1,8 @@
 {
   "index": 15,
-  "type": "numerical",
+  "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "An air bubble of radius 1.0 mm is observed at a depth of 20 cm below the free surface of a liquid having surface tension $0.095 \\mathrm{~J} / \\mathrm{m}^2$ and density $10^3 \\mathrm{~kg} / \\mathrm{m}^3$. The difference between pressure inside the bubble and atmospheric pressure is _____ $\\mathrm{N} / \\mathrm{m}^2$. (Take $\\mathrm{g}=10 \\mathrm{~m} / \\mathrm{s}^2$ )"
+    "text": "Two cylindrical vessels of equal cross sectional area of $2 \\mathrm{~m}^2$ contain water up to height 10 m and 6 m , respectively. If the vessels are connected at their bottom then the work done by the force of gravity is : (Density of water is $10^3 \\mathrm{~kg} / \\mathrm{m}^3$ and $\\mathrm{g}=10 \\mathrm{~m} / \\mathrm{s}^2$)"
   },
-  "options": [],
-  "correct_answer": "2190",
+  "options": [
+    {
+      "text": "$1 \\times 10^5 \\mathrm{~J}$",
+      "is_correct": false
+    },
+    {
+      "text": "$4 \\times 10^4 \\mathrm{~J}$",
+      "is_correct": false
+    },
+    {
+      "text": "$6 \\times 10^4 \\mathrm{~J}$",
+      "is_correct": false
+    },
+    {
+      "text": "$8 \\times 10^4 \\mathrm{~J}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
   "solution": {
-    "text": "<img src=\"assets\\st0015_1502421155bd.png\"><br>\n\n$\\Delta \\mathrm{P}=\\mathrm{P}_{\\mathrm{in}}-\\mathrm{P}_0$\n$\\begin{aligned} & =\\rho \\mathrm{gh}+\\frac{2 \\mathrm{~T}}{\\mathrm{R}}=\\frac{1000 \\times 10 \\times 20}{100}+\\frac{2 \\times 0.095}{10^{-3}} \\\\ & =2000+190 \\\\ & =2190\\end{aligned}$"
+    "text": "<img src=\"assets\\st0015_d9ad39b82604.png\"/><br/>$\\begin{aligned} & \\mathrm{U}_1=(\\rho \\mathrm{A} \\times 10) \\mathrm{g} \\times 5+(\\rho \\mathrm{A} 6) \\mathrm{g} \\times 3 \\\\ & \\mathrm{U}_{\\mathrm{i}}=\\rho \\mathrm{Ag}(50+18) \\\\ & \\mathrm{U}_{\\mathrm{i}}=68 \\rho \\mathrm{Ag}\\end{aligned}$<br/>$\\begin{aligned} & U_f=(\\rho A \\times 16) g \\times 4 \\\\ & =(\\rho A g) \\times 64\\end{aligned}$<br/>$\\begin{aligned} & \\omega=\\Delta U=4 \\times \\rho A g \\\\ & =4 \\times 1000 \\times 2 \\times 10=8 \\times 10^4 \\mathrm{~J}\\end{aligned}$"
   }
 }

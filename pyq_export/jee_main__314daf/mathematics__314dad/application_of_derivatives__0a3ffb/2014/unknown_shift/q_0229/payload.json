@@ -1,0 +1,43 @@
+{
+  "index": 229,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (06 Apr)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>&#38;</mo><mo>&#160;</mo><mi>g</mi></math> are differentiable functions in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>[</mo><mn>0</mn><mo>,</mo><mo>&#160;</mo><mn>1</mn><mo>]</mo><mo>&#160;</mo></math>satisfying <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mn>0</mn></mfenced><mo>=</mo><mn>2</mn><mo>=</mo><mi>g</mi><mfenced><mn>1</mn></mfenced><mo>,</mo><mo>&#160;</mo><mi>g</mi><mfenced><mn>0</mn></mfenced><mo>=</mo><mn>0</mn><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mi>f</mi><mfenced><mn>1</mn></mfenced><mo>=</mo><mn>6</mn><mo>,</mo><mo>&#160;</mo></math> then for some <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>&#8712;]0,&#160;1[</mo></math>&nbsp;"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>'</mo></msup><mfenced><mi>c</mi></mfenced><mo>=</mo><msup><mi>g</mi><mo>'</mo></msup><mfenced><mi>c</mi></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>'</mo></msup><mfenced><mi>c</mi></mfenced><mo>=</mo><mn>2</mn><msup><mi>g</mi><mo>'</mo></msup><mfenced><mi>c</mi></mfenced></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mi>f</mi><mo>'</mo></msup><mfenced><mi>c</mi></mfenced><mo>=</mo><msup><mi>g</mi><mo>'</mo></msup><mfenced><mi>c</mi></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mi>f</mi><mo>'</mo></msup><mfenced><mi>c</mi></mfenced><mo>=</mo><mn>3</mn><msup><mi>g</mi><mo>'</mo></msup><mfenced><mi>c</mi></mfenced></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let <math><mi>h</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>=</mo><mi>f</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced><mo>-</mo><mn>2</mn><mi>g</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math> clearly <math><mi>h</mi><mfenced separators=\"|\"><mrow><mn>0</mn></mrow></mfenced><mo>=</mo><mi>h</mi><mfenced separators=\"|\"><mrow><mn>1</mn></mrow></mfenced></math><br /><br />Also <math><mi>h</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math> is continuous and differentiable.<br /><br />Hence <math><mi>h</mi><mfenced separators=\"|\"><mrow><mi>x</mi></mrow></mfenced></math> satisfy all conditions of Rolle&#39;s theorem in <math><mfenced separators=\"|\"><mrow><mn>0</mn><mo>,</mo><mi>&#160;</mi><mn>1</mn></mrow></mfenced></math>. According to Rolle&#39;s theorem there exist atleast one <math><mi>c</mi><mo>&#8712;</mo><mfenced separators=\"|\"><mrow><mn>0</mn><mo>,</mo><mi>&#160;</mi><mn>1</mn></mrow></mfenced></math> such that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>h</mi><mo>'</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mn>0</mn><mo>&#8658;</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>-</mo><mn>2</mn><msup><mi>g</mi><mo>'</mo></msup><mfenced separators=\"|\"><mi>x</mi></mfenced><mo>=</mo><mn>0</mn></math><br /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced separators=\"|\"><mi>c</mi></mfenced><mo>=</mo><mn>2</mn><msup><mi>g</mi><mo>'</mo></msup><mfenced separators=\"|\"><mi>c</mi></mfenced></math>."
+  }
+}

@@ -1,33 +1,58 @@
 {
-  "_id": "67a2ee86c8b73881fdaea0a5",
-  "type": "numerical",
-  "level": 3,
+  "_id": "67a2eeccc8b73881fdaea2f8",
+  "type": "singleCorrect",
+  "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "67a2eb5ca6d4514bf2d97608",
+      "_id": "67a2eb5da6d4514bf2d97610",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-01-22T09:00:00.000Z",
+      "heldOn": "2025-01-29T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (22 Jan Shift 1)",
-      "title": "JEE Main 2025 (22 Jan Shift 1)"
+      "shortName": "2025 (29 Jan Shift 1)",
+      "title": "JEE Main 2025 (29 Jan Shift 1)"
     }
   ],
   "question": {
-    "text": "If $\\sum_{r=0}^5 \\frac{{ }^{11} C_{2r+1}}{2 r+2}=\\frac{\\mathrm{m}}{\\mathrm{n}}, \\operatorname{gcd}(\\mathrm{m}, \\mathrm{n})=1$, then $\\mathrm{m}-\\mathrm{n}$ is equal to _______",
+    "text": "The least value of n for which the number of integral terms in the Binomial expansion of \\((\\sqrt[3]{7}+\\sqrt[12]{11})^{\\mathrm{n}}\\) is 183, is :",
     "image": null
   },
-  "options": [],
-  "correctValue": "2035",
+  "options": [
+    {
+      "id": "7MTBr",
+      "text": "2184",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "PVn9S",
+      "text": "2196",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "QyJdD",
+      "text": "2148",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "JXfrl",
+      "text": "2172",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "$\\begin{aligned}\n& (1+x)^{11}={ }^{11} C_0+{ }^{11} C_1 x+{ }^{11} C_2 x^2+\\cdots+{ }^{11} C_{11} x^{11} \\\\\n& \\int_0^1(1+x)^{11} d x=\\int_0^1\\left({ }^{11} C_0+{ }^{11} C_1 x+{ }^{11} C_2 x^2+\\cdots+{ }^{11} C_{11} x x^{11}\\right) d x \\\\\n& \\left.\\left.\\frac{(1-x)^{12}}{12}\\right|_0 ^1={ }^{11} C_{0 x}+\\frac{{ }^{11} C_1 x^2}{2}+\\frac{{ }^{11} C_2 x}{3}+\\cdots+\\frac{{ }^{11} C_{11} x^{12}}{12}\\right]_0^1 \\\\\n& \\frac{2^{12}-1}{12}=C_0+\\frac{C_1}{2}+\\frac{C_2}{3}+\\cdots+\\frac{C_{11}}{12} \\ldots(1)\n\\end{aligned}$\nNow,\n$\\begin{aligned}\n& \\int_{-1}^0(1+x)^{11} d x=\\int_{-1}^0\\left({ }^{11} C_0+{ }^{11} C_1 x+{ }^{11} C_2 x^2+\\cdots+{ }^{11} C_{11} x^{11}\\right) d x \\\\\n& \\left.\\left.\\frac{(1+x)^{12}}{12}\\right]_{-1}^0={ }^{11} C_0 x+\\frac{{ }^{11} C_1 x^2}{2}+\\frac{{ }^{11} C_2 x^3}{3}+\\cdots+\\frac{{ }^{11} C_{11} x^{12}}{12}\\right]_{-1}^0\n\\end{aligned}$\n$\\frac{1}{12}=C_0-\\frac{C_1}{2}+\\frac{C_2}{3} \\cdots$\n$\\begin{aligned}\n& (1)-(2) \\\\\n& =\\frac{2^{12}-2}{12}=2\\left[\\frac{C_1}{2}+\\frac{C_3}{4}+\\cdots\\right] \\\\\n& \\Rightarrow \\sum_{r=0}^5 \\frac{C_{2 r+1}}{2 r+2}=\\frac{2^{11}-1}{12}=\\frac{2047}{12}=\\frac{m}{n} \\\\\n& =2047-12=2035\n\\end{aligned}$",
+    "text": "$\\begin{aligned}\n& \\text { General term }={ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{r}}\\left\\{7^{1 / 3}\\right\\}^{\\mathrm{n}-\\mathrm{r}}\\left(11^{1 / 12}\\right)^{\\mathrm{r}} \\\\\n& ={ }^{\\mathrm{n}} \\mathrm{C}_{\\mathrm{r}}\\{7\\}^{\\frac{\\mathrm{n}-\\mathrm{r}}{3}}(11)^{\\mathrm{r} / 12}\n\\end{aligned}$\n\nFor integral terms, r must be multiple of 12\n$\\therefore \\mathrm{r}=12 \\mathrm{k}, \\mathrm{k} \\in \\mathrm{~W}$\n\nTotal values of $r=183$\nHence $\\max r=12(182)$\n$=2184$\n\nMin value of $n=2184$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "8ee07f81cddd43d8945730fb4bcb45ec",
+    "videoId": "808f2dac7de4406a8810eb173781526b",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/LYUxm5VXnw9sc.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/LYUxm5VXnw9sc.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/TzQSReA6OKtdk.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/TzQSReA6OKtdk.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
@@ -46,13 +71,13 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "67a2eb5ca6d4514bf2d97608",
+    "_id": "67a2eb5da6d4514bf2d97610",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-01-22T09:00:00.000Z",
+    "heldOn": "2025-01-29T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (22 Jan Shift 1)",
-    "title": "JEE Main 2025 (22 Jan Shift 1)"
+    "shortName": "2025 (29 Jan Shift 1)",
+    "title": "JEE Main 2025 (29 Jan Shift 1)"
   },
-  "evalStatus": "notAttempted",
-  "lastPracticed": null
+  "evalStatus": "correct",
+  "lastPracticed": "2025-02-09T04:52:12.540Z"
 }

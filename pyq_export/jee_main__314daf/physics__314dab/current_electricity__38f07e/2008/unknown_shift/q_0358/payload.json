@@ -1,0 +1,43 @@
+{
+  "index": 358,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2008",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "61602410850888466138f07e",
+    "chapter_name": "Current Electricity",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "<strong>Paragraph:</strong>\nConsider a block of conducting material of resistivity ' $\\rho$ ' shown in the figure. Current 'l' enters at 'A' and leaves from ' $\\mathrm{D}$ '. We apply superposition principle to find voltage ' $\\Delta \\mathrm{V}$ ' developed between ' $\\mathrm{B}$ ' and ' $\\mathrm{C}$ '. The calculation is done in the following steps:\n(i) Take current 'l' entering from 'A' and assume it to spread over a hemispherical surface in the block.\n(ii) Calculate field $E(r)$ at distance ' $r$ ' from $A$ by using Ohm's law $E=\\rho j$, where $j$ is the current per unit area at ' $r$ '.\n(iii) From the ' $r$ ' dependence of $E(r)$, obtain the potential $V(r)$ at $r$.\n(iv) Repeat (i), (ii) and (iii) for current 'l' leaving ' $D$ ' and superpose results for ' $A$ ' and ' $D$ '.<img src=\"assets\\qt0358_7f4668bf5bd6.png\"><br><strong>Question:</strong>\n$\\Delta \\mathrm{V}$ measured between $\\mathrm{B}$ and $\\mathrm{C}$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{\\rho l}{\\pi a}-\\frac{\\rho l}{\\pi(a+b)}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\rho l}{a}-\\frac{\\rho l}{(a+b)}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\rho l}{2 \\pi a}-\\frac{\\rho l}{2 \\pi(a+b)}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{\\rho l}{2 \\pi(a-b)}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Choosing $A$ as origin,\n$$\n\\begin{gathered}\nE=\\rho j=\\rho \\frac{1}{2 \\pi r^2} \\\\\nV_C-V_B=-\\frac{\\rho l}{2 \\pi} \\int_a^{(a+b)} \\frac{1}{r^2} d r=\\frac{\\rho l}{2 \\pi}\\left[\\frac{1}{(a+b)}-\\frac{1}{a}\\right] \\\\\nV_B-V_C=\\frac{\\rho l}{2 \\pi}\\left[\\frac{1}{a}-\\frac{1}{(a+b)}\\right]\n\\end{gathered}\n$$"
+  }
+}

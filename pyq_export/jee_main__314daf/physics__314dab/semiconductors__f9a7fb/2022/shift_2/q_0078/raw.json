@@ -1,37 +1,62 @@
 {
-  "_id": "648b5a6e417cc3fb48d67d42",
+  "_id": "648b5a6d417cc3fb48d67b23",
   "previousYearPapers": [
     {
-      "_id": "62c481f101514d218a7934da",
+      "_id": "63134c746e7bc9b33248370a",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2022-06-28T14:00:00.000Z",
+      "heldOn": "2022-07-27T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2022 (28 Jun Shift 2)",
-      "title": "JEE Main 2022 (28 Jun Shift 2)"
+      "shortName": "2022 (27 Jul Shift 2)",
+      "title": "JEE Main 2022 (27 Jul Shift 2)"
     }
   ],
-  "type": "numerical",
+  "type": "singleCorrect",
   "level": 2,
   "question": {
-    "text": "<p>A Zener of breakdown voltage <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mi>Z</mi></msub><mo>=</mo><mn>8</mn><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></math> and maximum Zener current, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>I</mi><mi>ZM</mi></msub><mo>=</mo><mn>10</mn><mo>&#160;</mo><mi>mA</mi></math> is subjected to an input voltage <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mi>i</mi></msub><mo>=</mo><mn>10</mn><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></math> with series resistance <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mn>100</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></math>. In the given circuit <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mi mathvariant=\"normal\">L</mi></msub></math> represents the variable load resistance. The ratio of maximum and minimum value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mi>L</mi></msub></math> is _____ .</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/e4e916d1-1489-4802-9b5b-fbb0a93297a8-image.png\" style=\"width: 400px; height: 170px;\" /></p>",
+    "text": "For a constant collector-emitter voltage of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></math>, the collector current of a transistor reached to the value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>&#160;</mo><mi>mA</mi></math> from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>&#160;</mo><mi>mA</mi></math>, whereas base current changed from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>&#160;</mo><mi>&#956;</mi><mi mathvariant=\"normal\">A</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>&#160;</mo><mi>&#956;</mi><mi mathvariant=\"normal\">A</mi></math> value. If transistor is in active state, small signal current gain (current amplification factor) will be",
     "image": null
   },
-  "options": [],
-  "correctValue": "2",
+  "options": [
+    {
+      "id": "Blxob",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>240</mn></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "ETybJ",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn></math>",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "Sfoj1",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>0025</mn></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "5hSYy",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn></math>",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<p>Minimum value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mi>L</mi></msub></math>&nbsp;for which the diode is shorted is&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>R</mi><mi>L</mi></msub><mrow><msub><mi>R</mi><mi>L</mi></msub><mo>+</mo><mn>100</mn></mrow></mfrac><mo>&#215;</mo><mn>10</mn><mo>=</mo><mn>8</mn><mo>&#8658;</mo><msub><mi>R</mi><mi>L</mi></msub><mo>=</mo><mn>400</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></math></p><p>For maximum value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mi>L</mi></msub></math>, current through diode is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>&#160;</mo><mi>mA</mi></math></p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>i</mi><mi mathvariant=\"normal\">R</mi></msub><mo>=</mo><msub><mi>i</mi><msub><mi mathvariant=\"normal\">R</mi><mi mathvariant=\"normal\">L</mi></msub></msub><mo>+</mo><msub><mi>I</mi><mi>ZM</mi></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><mn>2</mn><mn>100</mn></mfrac><mo>=</mo><mfrac><mn>8</mn><msub><mi>R</mi><mi mathvariant=\"normal\">L</mi></msub></mfrac><mo>+</mo><mn>10</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mspace linebreak=\"newline\"></mspace><mo>&#8658;</mo><mn>10</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>=</mo><mfrac><mn>8</mn><msub><mi>R</mi><mi mathvariant=\"normal\">L</mi></msub></mfrac><mspace linebreak=\"newline\"></mspace><mo>&#8658;</mo><msub><mi>R</mi><mi mathvariant=\"normal\">L</mi></msub><mo>=</mo><mn>800</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></math></p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>R</mi><mi>Lmax</mi></msub><msub><mi>R</mi><mi>Lmin</mi></msub></mfrac><mo>=</mo><mn>2</mn></math></p>",
+    "text": "<blockquote><p>Given here,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mrow><mi>C</mi><mi>E</mi></mrow></msub><mo>=</mo><mn>8</mn><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></math>,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>I</mi><mi>C</mi></msub><mo>=</mo><mn>6</mn><mo>&#160;</mo><mi>mA</mi></math> from <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>&#160;</mo><mi>mA</mi></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>I</mi><mi>B</mi></msub><mo>=</mo><mn>20</mn><mo>&#160;</mo><mi>&#956;</mi><mi mathvariant=\"normal\">A</mi></math>&nbsp;to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>&#160;</mo><mi>&#956;</mi><mi mathvariant=\"normal\">A</mi></math></p><p>Current gain is the ratio of change in output current divided by change in input current. For common CE (Common Emitter) configuration, it is the ratio of change in collector current divided by change in base current.</p><p>Current gain <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#946;</mi><mrow><mi>a</mi><mi>v</mi></mrow></msub><mo>=</mo><mfrac><mrow><msub><mi>I</mi><mi>C</mi></msub><mmultiscripts><mo>-</mo><mprescripts></mprescripts><none></none><mo>&#39;</mo></mmultiscripts><msub><mi>I</mi><mi>C</mi></msub></mrow><mrow><msub><mi>I</mi><mi>B</mi></msub><mmultiscripts><mo>-</mo><mprescripts></mprescripts><none></none><mo>&#39;</mo></mmultiscripts><msub><mi>I</mi><mi>B</mi></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mfenced><mrow><mn>6</mn><mo>-</mo><mn>4</mn></mrow></mfenced><mo>&#160;</mo><mi>mA</mi></mrow><mrow><mfenced><mrow><mn>25</mn><mo>-</mo><mn>20</mn></mrow></mfenced><mo>&#160;</mo><mi>&#956;A</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>&#160;</mo><mi>mA</mi></mrow><mrow><mn>5</mn><mo>&#160;</mo><mi>&#956;A</mi></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#946;</mi><mi>av</mi></msub><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup><mo>=</mo><mfrac><mn>2000</mn><mn>5</mn></mfrac><mo>=</mo><mn>400</mn></math></p></blockquote>",
     "image": null
   },
   "videoSolution": null,
   "questionLabels": [],
-  "syllabusCategory": "noChange",
+  "syllabusCategory": "outOfSyllabus",
   "previousYear": {
-    "_id": "62c481f101514d218a7934da",
+    "_id": "63134c746e7bc9b33248370a",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2022-06-28T14:00:00.000Z",
+    "heldOn": "2022-07-27T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2022 (28 Jun Shift 2)",
-    "title": "JEE Main 2022 (28 Jun Shift 2)"
+    "shortName": "2022 (27 Jul Shift 2)",
+    "title": "JEE Main 2022 (27 Jul Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

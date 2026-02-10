@@ -1,0 +1,43 @@
+{
+  "index": 226,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2012 (26 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The integrating factor of the differential equation $\\left(x^2-1 \\frac{d y}{d x}+2\\right) x y=x$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{x^2-1}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x^2-1$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{x^2-1}{x}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{x}{x^2-1}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given differential equation is\n$$\n\\begin{aligned}\n& \\left(x^2-1\\right) \\frac{d y}{d x}+2 x y=x \\\\\n& \\Rightarrow \\quad \\frac{d y}{d x}+\\frac{2 x}{x^2-1} \\cdot y=\\frac{x}{x^2-1}\n\\end{aligned}\n$$\nThis is in linear form.\n$$\n\\begin{aligned}\n& \\text { Integrating factor }=\\int \\frac{2 x}{x^2-1} d x=\\int_e \\frac{d t}{t} \\\\\n& \\text { where } \\begin{aligned}\n& =x^2-1 \\\\\n& =e^{\\log t}=x^2-1\n\\end{aligned}\n\\end{aligned}\n$$\nHence, required integrating factor $=x^2-1$."
+  }
+}

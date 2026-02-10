@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7f9d0547b1fbfd5eb1",
+    "chapter_name": "Waves and Sound",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A direct current of $6 \\mathrm{~A}$ is superimposed on an alternating current $I=10 \\sin \\omega t$ flowing through a wire. The effective value of the resulting current will be"
+  },
+  "options": [
+    {
+      "text": "\r\n$5 \\sqrt{2}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$5 \\sqrt{3}$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$9.27$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n$8.37$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Given, $I=6+10 \\sin \\omega t$\r\n$$\r\n\\begin{aligned}\r\nI_{\\mathrm{eft}} & =\\left[\\frac{\\left.\\int_0^T I^2 d t\\right]^{1 / 2}}{\\int_0^T d t}=\\left[\\frac{1}{T} \\int_0^T(6+10 \\sin \\omega t)^2 d t\\right]^{1 / 2}\\right. \\\\\r\n& =\\left[\\frac{1}{T} \\int_0^T\\left(36+120 \\sin \\omega t+100 \\sin ^2 \\omega t\\right) d t\\right]^{1 / 2}\r\n\\end{aligned}\r\n$$\r\nBut as, $\\frac{1}{T} \\int_0^T \\sin \\omega t d t=0$ and $\\frac{1}{T} \\int_0^T \\sin ^2 \\omega t=\\frac{1}{2}$\r\n$$\r\n\\Rightarrow \\quad I_{\\mathrm{eff}}=\\left[36+\\frac{1}{2} \\times 100\\right]^{1 / 2}=9.27\r\n$$\r\nThus, $\\quad I_{\\text {eff }}=9.27 \\mathrm{~A}$."
+  }
+}

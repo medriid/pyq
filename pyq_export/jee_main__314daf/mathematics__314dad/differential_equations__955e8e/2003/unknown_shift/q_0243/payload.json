@@ -1,0 +1,43 @@
+{
+  "index": 243,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2003",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2003",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The solution of the differential equation $\\left(1+y^2\\right)+\\left(x-e^{\\tan ^{-1} y}\\right) \\frac{d y}{d x}=0$, is"
+  },
+  "options": [
+    {
+      "text": "\n$x e^{2 \\tan ^{-1} y}=e^{\\tan ^{-1} y}+k$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$(x-2)=k e^{2 \\tan ^{-1} y}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2 x e^{\\tan ^{-1} y}=e^{2 \\tan ^{-1} y}+k$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$x e^{\\tan ^{-1} y}=\\tan ^{-1} y+k$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$\\left(1+y^2\\right)+\\left(x-e^{\\tan ^{-1} y}\\right) \\frac{d y}{d x}=0$\n$\\left(1+y^2\\right) \\frac{d x}{d y}+x=e^{\\tan ^{-1} y} \\Rightarrow \\frac{d x}{d y}+\\frac{x}{\\left(1+y^2\\right)}=\\frac{e^{\\tan ^{-1} y}}{\\left(1+y^2\\right)}$\nI.F. $=e^{\\int \\frac{1}{\\left(1+y^2\\right)} d y}=e \\tan ^{-1} y$\n$x\\left(e^{\\tan ^{-1} y}\\right)=\\int \\frac{e^{\\tan ^{-1} y}}{1+y} e^{\\tan ^{-1} y d y}$\n$x\\left(e^{\\tan ^{-1} y}\\right)=\\frac{e^{2 \\tan ^{-1} y}}{2}+C \\quad \\therefore 2 x e^{\\tan ^{-1} y}=e^{2 \\tan ^{-1} y}+k$"
+  }
+}

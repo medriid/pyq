@@ -1,0 +1,43 @@
+{
+  "index": 289,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2003",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2003",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x)$ be a function satisfying $f^{\\prime}(x)=f(x)$ with $f(0)=1$ and $g(x)$ be a function that satisfies $f(x)+g(x)=x^2$. Then the value of the integral $\\int_0^1 f(x) g(x) d x$, is"
+  },
+  "options": [
+    {
+      "text": "\n$\\mathrm{e}+\\frac{\\mathrm{e}^2}{2}+\\frac{5}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{e}-\\frac{\\mathrm{e}^2}{2}-\\frac{5}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{e}+\\frac{\\mathrm{e}^2}{2}-\\frac{3}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\mathrm{e}-\\frac{\\mathrm{e}^2}{2}-\\frac{3}{2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $f(x)=e^x$\n$\\therefore \\int_0^1 f(x) g(x) d x=\\int_0^1 e^x\\left(x^2-e^x\\right) d x$\n$=\\int_0^1 x^2 e^x d x-\\int_0^1 e^{2 x} d x$\n$=\\left[\\mathrm{x}^2 \\mathrm{e}^{\\mathrm{x}}\\right]_0^1-2\\left[\\mathrm{xe}^{\\mathrm{x}}-\\mathrm{e}^{\\mathrm{x}}\\right]_0^1-\\frac{1}{2}\\left[\\mathrm{e}^{2 \\mathrm{x}}\\right]$\n$=\\mathrm{e}-\\left[\\frac{\\mathrm{e}^2}{2}-\\frac{1}{2}\\right]-2[\\mathrm{e}-\\mathrm{e}+1]=\\mathrm{e}-\\frac{\\mathrm{e}^2}{2}-\\frac{3}{2}$"
+  }
+}

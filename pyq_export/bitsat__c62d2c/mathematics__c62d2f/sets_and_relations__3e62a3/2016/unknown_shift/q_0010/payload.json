@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2016",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7de14c41a6083e62a3",
+    "chapter_name": "Sets and Relations",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Two finite sets have $m$ and $n$ elements. The number of subsets of the first set is 112 more than that of the second set. The values of $m$ and $n$ respectively are,"
+  },
+  "options": [
+    {
+      "text": "4,7",
+      "is_correct": false
+    },
+    {
+      "text": "7,4",
+      "is_correct": true
+    },
+    {
+      "text": "4,4",
+      "is_correct": false
+    },
+    {
+      "text": "7,7",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$2^{m}-2^{n}=112 \\Rightarrow 2^{n}\\left(2^{m-n}-1\\right)=16.7$\r\n\r\n$\\quad \\therefore \\quad 2^{n}\\left(2^{m-n}-1\\right)=2^{4}\\left(2^{3}-1\\right)$\r\n\r\nComparing we get $n=4$ and $m-n=3$ $\\Rightarrow n=4$ and $m=7$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 160,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2013 (09 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602525fb63982f7225f1d8",
+    "chapter_name": "Quadratic Equation",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The values of ' $a$ ' for which one root of the equation $x^2-(a+1) x+a^2+a-8=0$ exceeds 2 and the other is lesser than 2 , are given by :"
+  },
+  "options": [
+    {
+      "text": "\n$3 < a < 10$",
+      "is_correct": false
+    },
+    {
+      "text": "\n$a \\geq 10$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-2 < a < 3$",
+      "is_correct": true
+    },
+    {
+      "text": "\n$a \\leq-2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\nx^2-(a+1) x+a^2+a-8=0\n$$\nSince roots are different, therefore $\\mathrm{D}>0$\n$$\n\\begin{aligned}\n& \\Rightarrow(a+1)^2-4\\left(a^2+a-8\\right)>0 \\\\\n& \\Rightarrow(a-3)(3 a+1) < 0\n\\end{aligned}\n$$\nThere are two cases arises.\nCase I. $a-3>0$ and $3 a+1 < 0$\n$\\Rightarrow a>3$ and $a < -\\frac{11}{3}$\nHence, no solution in this case\nCase II : $a-3 < 0$ and $3 a+11>0$\n$\\Rightarrow a < 3$ and $a>-\\frac{11}{3}$\n$\\therefore \\quad-\\frac{11}{3} < a < 3 \\Rightarrow-2 < a < 3$"
+  }
+}

@@ -1,62 +1,62 @@
 {
-  "_id": "66446713970e6e9ab542cffb",
+  "_id": "66446761970e6e9ab542d2cb",
   "type": "singleCorrect",
   "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "664466ee278297dee60eda69",
+      "_id": "664466ef278297dee60eda71",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-04-04T14:00:00.000Z",
+      "heldOn": "2024-04-09T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (04 Apr Shift 2)",
-      "title": "JEE Main 2024 (04 Apr Shift 2)"
+      "shortName": "2024 (09 Apr Shift 2)",
+      "title": "JEE Main 2024 (09 Apr Shift 2)"
     }
   ],
   "question": {
-    "text": "For $\\lambda>0$, let $\\theta$ be the angle between the vectors $\\vec{a}=\\hat{i}+\\lambda \\hat{j}-3 \\hat{k}$ and $\\vec{b}=3 \\hat{i}-\\hat{j}+2 \\hat{k}$. If the vectors $\\vec{a}+\\vec{b}$ and $\\vec{a}-\\vec{b}$ are mutually perpendicular, then the value of (14 cos $\\theta)^2$ is equal to",
+    "text": "Let $\\vec{a}=2 \\hat{i}+\\alpha \\hat{j}+\\hat{k}, \\vec{b}=-\\hat{i}+\\hat{k}, \\vec{c}=\\beta \\hat{j}-\\hat{k}$, where $\\alpha$ and $\\beta$ are integers and $\\alpha \\beta=-6$. Let the values of the ordered pair $(\\alpha, \\beta)$, for which the area of the parallelogram of diagonals $\\vec{a}+\\vec{b}$ and $\\vec{b}+\\vec{c}$ is $\\frac{\\sqrt{21}}{2}$, be $\\left(\\alpha_1, \\beta_1\\right)$ and $\\left(\\alpha_2, \\beta_2\\right)$. Then $\\alpha_1^2+\\beta_1^2-\\alpha_2 \\beta_2$ is equal to",
     "image": null
   },
   "options": [
     {
-      "id": "9Tqs3",
-      "text": "50",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "aAJGr",
-      "text": "40",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "5G2ic",
-      "text": "25",
+      "id": "Zl7nq",
+      "text": "19",
       "image": null,
       "isCorrect": true
     },
     {
-      "id": "X65eq",
-      "text": "20",
+      "id": "Rc5cb",
+      "text": "17",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Zzegz",
+      "text": "24",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "5zed0",
+      "text": "21",
       "image": null,
       "isCorrect": false
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "$\\begin{aligned} & (\\vec{a}+\\vec{b}) \\cdot(\\vec{a}-\\vec{b})=0, \\lambda>0 \\\\ & |\\vec{a}|^2-|\\vec{b}|^2=0 \\rightarrow 1+\\lambda^2+9=9+1+4 \\\\ & \\therefore \\lambda=2, \\cos \\theta=\\frac{\\vec{a}-\\vec{b}}{|\\vec{a}| \\cdot|\\vec{b}|}=\\frac{3-\\lambda-6}{\\sqrt{14} \\cdot \\sqrt{14}} \\\\ & 14 \\cos \\theta=3-8=-5 \\\\ & \\therefore(14 \\cos \\theta)^2=25\\end{aligned}$",
+    "text": "$\\begin{aligned} & \\text { Area of parallelogram } \\left.=\\frac{1}{2} \\right\\rvert\\, \\overrightarrow{\\mathrm{d}}_1 \\times \\overrightarrow{\\mathrm{d}}_2 \\\\ & \\mathrm{~A}=\\frac{1}{2}|(\\overrightarrow{\\mathrm{a}}+\\overrightarrow{\\mathrm{b}}) \\times(\\overrightarrow{\\mathrm{b}}+\\overrightarrow{\\mathrm{c}})|=\\frac{\\sqrt{21}}{2} \\\\ & \\text { so, } \\overrightarrow{\\mathrm{a}}+\\overrightarrow{\\mathrm{b}}=\\hat{\\mathrm{i}}+\\alpha \\hat{\\mathrm{j}}+2 \\hat{\\mathrm{k}} \\\\ & \\overrightarrow{\\mathrm{b}}+\\overrightarrow{\\mathrm{c}}=-\\hat{\\mathrm{i}}+\\beta \\hat{\\mathrm{j}} \\\\ & (\\overrightarrow{\\mathrm{a}}+\\overrightarrow{\\mathrm{b}}) \\times(\\overrightarrow{\\mathrm{b}}+\\overrightarrow{\\mathrm{c}})=\\left|\\begin{array}{ccc}\\hat{\\mathrm{i}} & \\hat{\\mathrm{j}} & \\hat{\\mathrm{k}} \\\\ 1 & \\alpha & 2 \\\\ -1 & \\beta & 0\\end{array}\\right|\\end{aligned}$\n$\\begin{aligned}\n& =\\hat{\\mathrm{i}}(-2 \\beta)-\\hat{\\mathrm{j}}(2)+\\hat{\\mathrm{k}}(\\beta+\\alpha) \\\\\n& |(\\overrightarrow{\\mathrm{a}}+\\overrightarrow{\\mathrm{b}}) \\times(\\overrightarrow{\\mathrm{b}}+\\overrightarrow{\\mathrm{c}})|=\\sqrt{4 \\beta^2+4+(\\alpha+\\beta)^2}=\\sqrt{21} \\\\\n& 4 \\beta^2+4+\\alpha^2+\\beta^2+2 \\alpha \\beta=21 \\\\\n& \\alpha^2+5 \\beta^2-12=17 \\\\\n& \\alpha^2+5 \\beta^2=29\n\\end{aligned}$\nand $\\alpha \\beta=-6$\nand given $\\alpha_{\\mathrm{i}} \\beta$ are integers\nso, $\\alpha=-3, \\beta=2$\nor\n$\\begin{aligned}\n& \\alpha=3, \\beta=-2 \\\\\n& \\left(\\alpha_1, \\beta_1\\right)=(-3,2) \\\\\n& \\left(\\alpha_2, \\beta_2\\right)=(3,-2) \\\\\n& \\alpha_1^2+\\beta_1^2-\\alpha_2 \\beta_2=9+4+6=19\n\\end{aligned}$",
     "image": null
   },
   "videoSolution": null,
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "664466ee278297dee60eda69",
+    "_id": "664466ef278297dee60eda71",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-04-04T14:00:00.000Z",
+    "heldOn": "2024-04-09T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (04 Apr Shift 2)",
-    "title": "JEE Main 2024 (04 Apr Shift 2)"
+    "shortName": "2024 (09 Apr Shift 2)",
+    "title": "JEE Main 2024 (09 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

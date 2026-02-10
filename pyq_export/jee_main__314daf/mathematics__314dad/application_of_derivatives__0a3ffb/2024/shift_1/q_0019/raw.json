@@ -1,62 +1,57 @@
 {
-  "_id": "66446742970e6e9ab542d1b1",
-  "type": "singleCorrect",
+  "_id": "66446758970e6e9ab542d277",
+  "type": "numerical",
   "level": 2,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "664466ef278297dee60eda6e",
+      "_id": "664466ef278297dee60eda70",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-04-08T09:00:00.000Z",
+      "heldOn": "2024-04-09T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (08 Apr Shift 1)",
-      "title": "JEE Main 2024 (08 Apr Shift 1)"
+      "shortName": "2024 (09 Apr Shift 1)",
+      "title": "JEE Main 2024 (09 Apr Shift 1)"
     }
   ],
   "question": {
-    "text": "For the function $f(x)=(\\cos x)-x+1, x \\in \\mathbb{R}$, between the following two statements\n(S1) $f(x)=0$ for only one value of $x$ in $[0, \\pi]$.\n(S2) $f(x)$ is decreasing in $\\left[0, \\frac{\\pi}{2}\\right]$ and increasing in $\\left[\\frac{\\pi}{2}, \\pi\\right]$.",
+    "text": "Let the set of all positive values of $\\lambda$, for which the point of local minimum of the function $\\left(1+x\\left(\\lambda^2-x^2\\right)\\right)$ satisfies $\\frac{x^2+x+2}{x^2+5 x+6} < 0$, be $(\\alpha, \\beta)$. Then $\\alpha^2+\\beta^2$ is equal to _________",
     "image": null
   },
-  "options": [
-    {
-      "id": "NCms6",
-      "text": "Both (S1) and (S2) are correct.",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "7Zk7y",
-      "text": "Both (S1) and (S2) are incorrect.",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "gKQ9c",
-      "text": "Only (S2) is correct.",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "GRTHR",
-      "text": "Only (S1) is correct.",
-      "image": null,
-      "isCorrect": true
-    }
-  ],
-  "correctValue": null,
+  "options": [],
+  "correctValue": "39",
   "solution": {
-    "text": "$\\begin{aligned} & f^{\\prime}(x)=\\cos x-x+1 \\\\ & f^{\\prime}(x)=-\\sin x-1\\end{aligned}$\n$\\mathrm{f}$ is decreasing $\\forall \\mathrm{x} \\in \\mathrm{R}$\n$\\begin{aligned} & \\mathrm{f}(\\mathrm{x})=0 \\\\ & \\mathrm{f}(0)=2, \\mathrm{f}(\\pi)=-\\pi\\end{aligned}$\n$\\mathrm{f}$ is strictly decreasing in $[0, \\pi]$ and $\\mathrm{f}(0) . \\mathrm{f}(\\pi) < 0$\n$\\Rightarrow$ only one solution of $\\mathrm{f}(\\mathrm{x})=0$\n$\\mathrm{S} 1$ is correct and $\\mathrm{S} 2$ is incorrect.",
+    "text": "$\\begin{aligned} & \\frac{x^2+x+2}{x^2+5 x+6} < 0 \\\\ & \\Rightarrow \\frac{1}{(x+2)(x+3)} < 0\\end{aligned}$<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/DTWKVEPpoy9UAJOw0XJAu3zFQLpIkgX_2BkhBZ8K30o.original.fullsize.png\"><br />$\\begin{aligned}\n& x \\in(-3,-2) \\ldots \\ldots \\ldots . .(1) \\\\\n& f(x)=1+x\\left(\\lambda^2-x^2\\right)\n\\end{aligned}$<br />Finding local minima\n$f^{\\prime}(x)=\\left(\\lambda^2-x^2\\right)+(-2 x) \\cdot x$\nPut $\\mathrm{f}^{\\prime}(\\mathrm{x})=0$\n$\\begin{aligned}\n& \\Rightarrow \\lambda^2=3 x^2 \\\\\n& \\Rightarrow x= \\pm \\frac{\\lambda}{\\sqrt{3}}\n\\end{aligned}$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/QaJ6UNnAmRG1F2UfM0ZfbS3oldd9AeNxUxM7pM44vTc.original.fullsize.png\">\nWe want local min\n$\\Rightarrow \\mathrm{x}=\\frac{-\\lambda}{\\sqrt{3}}$\nfrom (1)\n$x \\in(-3,-2)$\n$\\begin{aligned} & -3 < \\frac{-\\lambda}{\\sqrt{3}} < -2 \\\\ & 3 \\sqrt{3}>\\lambda>2 \\sqrt{3} \\\\ & \\alpha=2 \\sqrt{3}, \\beta=3 \\sqrt{3} \\\\ & \\alpha^2+\\beta^2=12+27=39\\end{aligned}$",
     "image": null
   },
-  "videoSolution": null,
+  "videoSolution": {
+    "videoId": "97feab1df5fb4ce99596fb800d4001ab",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/ecaPlRNisOI8A.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/ecaPlRNisOI8A.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "664466ef278297dee60eda6e",
+    "_id": "664466ef278297dee60eda70",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-04-08T09:00:00.000Z",
+    "heldOn": "2024-04-09T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (08 Apr Shift 1)",
-    "title": "JEE Main 2024 (08 Apr Shift 1)"
+    "shortName": "2024 (09 Apr Shift 1)",
+    "title": "JEE Main 2024 (09 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

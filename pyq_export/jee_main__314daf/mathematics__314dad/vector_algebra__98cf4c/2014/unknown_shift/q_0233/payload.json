@@ -1,0 +1,43 @@
+{
+  "index": 233,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2014 (11 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $|\\vec{c}|^2=60$ and $\\vec{c} \\times(\\hat{i}+2 \\hat{j}+5 \\hat{k})=\\overrightarrow{0}$, then a value of $\\vec{c} \\cdot(-7 \\hat{i}+2 \\hat{j}+3 \\hat{k})$ is:"
+  },
+  "options": [
+    {
+      "text": "\n$4 \\sqrt{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n12\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n24\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$12 \\sqrt{2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let, $\\vec{c}=a \\hat{i}+b \\hat{j}+c \\hat{k}$\nGiven, $\\vec{c} \\times(\\hat{i}+2 \\hat{j}+5 \\hat{k})=\\overrightarrow{0}$\n$$\n\\begin{aligned}\n&\\Rightarrow\\left|\\begin{array}{ccc}\n\\hat{i} & \\hat{j} & \\hat{k} \\\\\na & b & c \\\\\n1 & 2 & 5\n\\end{array}\\right|=\\overrightarrow{0} \\\\\n&\\Rightarrow(5 b-2 c) \\hat{i}-(5 a-c) \\hat{j}+(2 a-b) \\hat{k} \\\\\n&=0 \\hat{i}+0 \\hat{j}+0 \\hat{k}\n\\end{aligned}\n$$\nComparing both sides, we get $5 b-2 c=0 ; 5 a-c=0 ; 2 a-b=0$ or $5 b=2 c ; 5 a=c ; 2 a=b$\nAlso given $|\\vec{c}|^2=60$\n$$\n\\Rightarrow a^2+b^2+c^2=60\n$$\nPutting the value of $b$ and $c$ in above eqn., we get\n\n$$\n\\begin{aligned}\n&a^2+(2 a)^2+(5 a)^2=60 \\\\\n&\\Rightarrow a^2+4 a^2+25 a^2=60 \\Rightarrow 30 a^2=60 \\\\\n&a^2=2 \\\\\n&a=\\pm \\sqrt{2} ; b=2 \\sqrt{2} ; c=5 \\sqrt{2}\n\\end{aligned}\n$$\nNow, $\\vec{c}=a \\hat{i}+b \\hat{j}+c \\hat{k}$\n$$\n\\therefore \\vec{c}=\\sqrt{2} \\hat{i}+2 \\sqrt{2} \\hat{j}+5 \\sqrt{2} \\hat{k}\n$$\nValue of $\\vec{c} \\cdot(-7 \\hat{i}+2 \\hat{j}+3 \\hat{k})$ is\n$$\n\\begin{aligned}\n&(\\sqrt{2} \\hat{i}+2 \\sqrt{2} \\hat{j}+5 \\sqrt{2} \\hat{k}) \\cdot(-7 \\hat{i}+2 \\hat{j}+3 \\hat{k}) \\\\\n&=-7 \\sqrt{2}+4 \\sqrt{2}+15 \\sqrt{2}=12 \\sqrt{2}\n\\end{aligned}\n$$"
+  }
+}

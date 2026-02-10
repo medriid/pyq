@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd79330945d4a4d10c5e",
+    "chapter_name": "Current Electricity",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Five cells each of emf $E$ and internal resistance $r$ send the same amount of current through an external resistance $R$ whether the cells are connected in parallel or in series. Then the ratio $\\left(\\frac{R}{r}\\right)$ is"
+  },
+  "options": [
+    {
+      "text": "$2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{5}$",
+      "is_correct": false
+    },
+    {
+      "text": "$1$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given : Number of cells, $n=5$, emf of each cell $=E$\nInternal resistance of each cell $=r$\nIn series, current through resistance $R$\n$I=\\frac{n E}{n r+R}=\\frac{5 E}{5 r+R}$\nIn parallel, current through resistance $R$\n$I^{\\prime}=\\frac{E}{\\frac{r}{n}+R}=\\frac{n E}{r+n R}=\\frac{5 E}{r+5 R}$\nAccording to question, $I=I^{\\prime}$\n$\\therefore \\frac{5 E}{5 r+5 R}=\\frac{5 E}{r+5 R} \\Rightarrow 5 r+R=r+5 R$\nor $R=r \\quad \\therefore \\frac{R}{r}=1$"
+  }
+}

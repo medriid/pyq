@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e78c6f5bfc7ab78ae5d0",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d74",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010",
+      "title": "BITSAT 2010"
+    }
+  ],
+  "question": {
+    "text": "If mean of a poisson distribution of a random variable \\(X\\) is 2 , then the value of \\(P(X > 1.5)\\) is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "rifGI",
+      "text": "\\(\\frac{3}{e^2}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "u3YIL",
+      "text": "\\(\\frac{3}{e}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "K0dji",
+      "text": "\\(1-\\frac{3}{e}\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "jNFfP",
+      "text": "\\(1-\\frac{3}{e^2}\\)",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Since, \\(\\mathrm{P}(\\mathrm{X}=\\mathrm{r})=\\frac{e^{-\\lambda} \\lambda^r}{r !}\\) (where \\(\\lambda=\\) mean)\n\\(\\begin{aligned}\n\\therefore \\quad & \\mathrm{P}(\\mathrm{X}=\\mathrm{r} > 1.5)=\\mathrm{P}(2)+\\mathrm{P}(3)+\\ldots \\infty \\\\\n& =1-\\mathrm{P}(\\mathrm{X}=\\mathrm{r} \\leq 1)=1-\\mathrm{P}(0)-\\mathrm{P}(1) \\\\\n& =1-\\left(e^{-2}+\\frac{e^{-2} \\times 2}{1 !}\\right)=1-\\frac{3}{e^2}\n\\end{aligned}\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d74",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010",
+    "title": "BITSAT 2010"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

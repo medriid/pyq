@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e6a",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d9",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (12 Apr Online)",
+      "title": "JEE Main 2014 (12 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "If for a continuous function $\\mathrm{f}(\\mathrm{x})$, $\\int_{-\\pi}^t(f(x)+x d x)=\\pi^2-t^2$, for all $t \\geq-\\pi$, then $\\mathrm{f}\\left(-\\frac{\\pi}{3}\\right)$ is equal to:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "UKqum",
+      "text": "\n$\\pi$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "rwm4S",
+      "text": "\n$\\frac{\\pi}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "2xMeP",
+      "text": "\n$\\frac{\\pi}{3}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "axOmL",
+      "text": "\n$\\frac{\\pi}{6}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $\\int_{-\\pi}^t(f(x)+x) d x=\\pi^2-t^2$\n$$\n\\begin{aligned}\n&\\Rightarrow \\int_{-\\pi}^t f(x) d x+\\int_{-\\pi}^t x d x=\\pi^2-t^2 \\\\\n&\\Rightarrow \\int_{-\\pi}^t f(x) d x+\\left(\\frac{t^2}{2}-\\frac{\\pi^2}{2}\\right)=\\pi^2-t^2 \\\\\n&\\Rightarrow \\int_{-\\pi}^t f(x) d x=\\frac{3}{2}\\left(\\pi^2-t^2\\right)\n\\end{aligned}\n$$\ndifferentiating with respect to $t$\n$\\frac{d}{d t}\\left[\\int_{-\\pi}^t f(x) d x\\right]=\\frac{3}{2} \\frac{d}{d t}\\left(\\pi^2-t^2\\right)$\n$f(t) \\cdot \\frac{d t}{d t}-f(-\\pi) \\frac{d}{d t}(-\\pi)=-3 t$\n$f(t)=-3 t$\n$f\\left(-\\frac{\\pi}{3}\\right)=-3\\left(-\\frac{\\pi}{3}\\right)=\\pi$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d9",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (12 Apr Online)",
+    "title": "JEE Main 2014 (12 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7a66f5bfc7ab78ae6b2",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d76",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2012-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012",
+      "title": "BITSAT 2012"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "Let $f(x+y)=f(x) \\cdot f(y)$ for all $x, y$ where $f(0) \\neq 0$ If $f(5)=2$ and $f^{\\prime}(0)=3,$ then $f^{\\prime}(5)$ is equal to-",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "VlVT8",
+      "text": "6",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "O6ch9",
+      "text": "0",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "h6bv5",
+      "text": "1",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "C5ZIn",
+      "text": "None of these",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$f^{\\prime}(5)=\\lim _{h \\rightarrow 0} \\frac{f(5+h)-f(5)}{h}$\r\n$=\\lim _{h \\rightarrow 0} \\frac{f(5+h)-f(5+0)}{h}$\r\n$=\\lim _{h \\rightarrow 0} \\frac{f(5) \\cdot f(h)-f(5)+f(0)}{h}$\r\n$(\\because f(x+y)=f(x), f(y)$ for all $x, y)$\r\n$=\\left(\\lim _{h \\rightarrow 0} \\frac{f(h)-f(0)}{h}\\right) \\cdot f(5)=f^{\\prime}(0) \\cdot f(5)$\r\n$=3 \\times 2=6$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d76",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2012-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012",
+    "title": "BITSAT 2012"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

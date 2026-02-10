@@ -1,58 +1,33 @@
 {
-  "_id": "67a2ee8dc8b73881fdaea0e3",
-  "type": "singleCorrect",
-  "level": 2,
+  "_id": "67a2eed5c8b73881fdaea34a",
+  "type": "numerical",
+  "level": 3,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "67a2eb5ca6d4514bf2d97609",
+      "_id": "67a2eb5da6d4514bf2d97611",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-01-22T14:00:00.000Z",
+      "heldOn": "2025-01-29T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (22 Jan Shift 2)",
-      "title": "JEE Main 2025 (22 Jan Shift 2)"
+      "shortName": "2025 (29 Jan Shift 2)",
+      "title": "JEE Main 2025 (29 Jan Shift 2)"
     }
   ],
   "question": {
-    "text": "Let $\\mathrm{P}(4,4 \\sqrt{3})$ be a point on the parabola $y^2=4 \\mathrm{a} x$ and PQ be a focal chord of the parabola. If M and $N$ are the foot of perpendiculars drawn from $P$ and $Q$ respectively on the directrix of the parabola, then the area of the quadrilateral PQMN is equal to :",
+    "text": "Let $y^2=12 x$ be the parabola and $S$ be its focus. Let PQ be a focal chord of the parabola such that $(\\mathrm{SP})(\\mathrm{SQ})=\\frac{147}{4}$. Let C be the circle described taking PQ as a diameter. If the equation of a circle $C$ is $64 x^2+64 y^2-\\alpha x-64 \\sqrt{3} y=\\beta$, then $\\beta-\\alpha$ is equal to ________.",
     "image": null
   },
-  "options": [
-    {
-      "id": "7Whq1",
-      "text": "$17 \\sqrt{3}$",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "RD37P",
-      "text": "$\\frac{263 \\sqrt{3}}{8}$",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "bH2zH",
-      "text": "$\\frac{34 \\sqrt{3}}{3}$",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "Hknj9",
-      "text": "$\\frac{343 \\sqrt{3}}{8}$",
-      "image": null,
-      "isCorrect": true
-    }
-  ],
-  "correctValue": null,
+  "options": [],
+  "correctValue": "1328",
   "solution": {
-    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/edKlL4lWS-LQAQVAn9phCsBnVT8hSZBivjity4F1Jc0.original.fullsize.png\"><br>\n\n$\\begin{aligned}\n& (4,4 \\sqrt{3}) \\text { lies on } y^2=4 \\mathrm{ax} \\\\\n& \\Rightarrow 48=4 \\mathrm{a} \\cdot 4 \\\\\n& \\quad 4 \\mathrm{a}=12\n\\end{aligned}$\n$\\Rightarrow y^2=12 x$ is equation of parabola\nNow, parameter of $P$ is $t_1=\\frac{2}{\\sqrt{3}} \\Rightarrow$ Parameters of $Q$ is $\\mathrm{t}_2=-\\frac{\\sqrt{3}}{2} \\Rightarrow \\mathrm{Q}\\left(\\frac{9}{4},-3 \\sqrt{3}\\right)$\nArea of trapezium PQNM\n$\\begin{aligned}\n& =\\frac{1}{2} \\mathrm{MN} \\cdot(\\mathrm{PM}+\\mathrm{QN}) \\\\\n& =\\frac{1}{2} \\mathrm{MN} \\cdot(\\mathrm{PS}+\\mathrm{QS}) \\\\\n& =\\frac{1}{2} \\mathrm{MN} \\cdot \\mathrm{PQ} \\\\\n& =\\frac{1}{2} 7 \\sqrt{3} \\cdot \\frac{49}{4}=(343) \\frac{\\sqrt{3}}{8}\n\\end{aligned}$",
+    "text": "$\\mathrm{y}^2=12 \\mathrm{x} \\quad \\mathrm{a}=3 \\quad \\mathrm{SP} \\times \\mathrm{SQ}=\\frac{147}{4}$\n\nLet $\\mathrm{P}\\left(3 \\mathrm{t}^2, 6 \\mathrm{t}\\right)$ and $\\mathrm{t}_1 \\mathrm{t}_2=-1$\n(ends of focal chord)\nSo, $Q\\left(\\frac{3}{t^2}, \\frac{-6}{t}\\right)$\n$\\begin{aligned}\n& \\mathrm{S}(3,0) \\\\\n& \\mathrm{SP} \\times \\mathrm{SQ}=\\mathrm{PM}_1 \\times \\mathrm{QM}_2\n\\end{aligned}$\n(dist. from directrix)\n$\\begin{aligned}\n& =\\left(3+3 \\mathrm{t}^2\\right)\\left(3+\\frac{3}{\\mathrm{t}^2}\\right)=\\frac{147}{4} \\\\\n& \\Rightarrow \\frac{\\left(1+\\mathrm{t}^2\\right)^2}{\\mathrm{t}^2}=\\frac{49}{12} \\\\\n& \\mathrm{t}^2=\\frac{3}{4}, \\frac{4}{3} \\\\\n& \\mathrm{t}= \\pm \\frac{\\sqrt{3}}{2}, \\pm \\frac{2}{\\sqrt{3}}\n\\end{aligned}$\nconsidering $\\mathrm{t}=\\frac{-\\sqrt{3}}{2}$\n$\\mathrm{P}\\left(\\frac{9}{4},-3 \\sqrt{3}\\right) \\text { and } \\mathrm{Q}(4,4 \\sqrt{3})$\n\nHence, diametric circle:\n$\\begin{aligned}\n& (x-4)\\left(x-\\frac{9}{4}\\right)+(y+3 \\sqrt{3})(y-4 \\sqrt{3})=0 \\\\\n& \\Rightarrow x^2+y^2-\\frac{25}{4} x-\\sqrt{3} y-27=0 \\\\\n& \\Rightarrow \\alpha=400, \\beta=1728 \\\\\n& \\beta-\\alpha=1328\n\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "978d83b869f848c78a0124b7b9991ab9",
+    "videoId": "6a7ca3ce63af4a89b06a4465a8a4c9b7",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/2xYZOYGpoUEvh.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/2xYZOYGpoUEvh.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/E5eiP51zOyI8C.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/E5eiP51zOyI8C.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
@@ -71,12 +46,12 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "67a2eb5ca6d4514bf2d97609",
+    "_id": "67a2eb5da6d4514bf2d97611",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-01-22T14:00:00.000Z",
+    "heldOn": "2025-01-29T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (22 Jan Shift 2)",
-    "title": "JEE Main 2025 (22 Jan Shift 2)"
+    "shortName": "2025 (29 Jan Shift 2)",
+    "title": "JEE Main 2025 (29 Jan Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

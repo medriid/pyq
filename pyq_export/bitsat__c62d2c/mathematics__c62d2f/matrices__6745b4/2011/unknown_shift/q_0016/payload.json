@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2011",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd73e2ff28f7b16745b4",
+    "chapter_name": "Matrices",
+    "year": "2011",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The matrix \\(A^2+4 A-5 I\\), where \\(I\\) is identity matrix and \\(A=\\left[\\begin{array}{cc}1 & 2 \\\\ 4 & -3\\end{array}\\right]\\), equals :"
+  },
+  "options": [
+    {
+      "text": "\\(4\\left[\\begin{array}{ll}2 & 1 \\\\ 2 & 0\\end{array}\\right]\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(4\\left[\\begin{array}{cc}0 & -1 \\\\ 2 & 2\\end{array}\\right]\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(32\\left[\\begin{array}{ll}2 & 1 \\\\ 2 & 0\\end{array}\\right]\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(32\\left[\\begin{array}{ll}1 & 1 \\\\ 1 & 0\\end{array}\\right]\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& A^2+4 A-5 I=A \\times A+4 A-5 I \\\\\n= & {\\left[\\begin{array}{cc}\n1 & 2 \\\\\n4 & -3\n\\end{array}\\right] \\times\\left[\\begin{array}{cc}\n1 & 2 \\\\\n4 & -3\n\\end{array}\\right]+4\\left[\\begin{array}{cc}\n1 & 2 \\\\\n4 & -3\n\\end{array}\\right]-5\\left[\\begin{array}{ll}\n1 & 0 \\\\\n0 & 1\n\\end{array}\\right] } \\\\\n= & {\\left[\\begin{array}{cc}\n9 & -4 \\\\\n-8 & 17\n\\end{array}\\right]+\\left[\\begin{array}{cc}\n4 & 8 \\\\\n16 & -12\n\\end{array}\\right]-\\left[\\begin{array}{cc}\n5 & 0 \\\\\n0 & 5\n\\end{array}\\right] } \\\\\n= & {\\left[\\begin{array}{cc}\n9+4-5 & -4+8-0 \\\\\n-8+16-0 & 17-12-5\n\\end{array}\\right]=\\left[\\begin{array}{cc}\n8 & 4 \\\\\n8 & 0\n\\end{array}\\right] } \\\\\n= & 4\\left[\\begin{array}{cc}\n2 & 1 \\\\\n2 & 0\n\\end{array}\\right]\n\\end{aligned}\\)"
+  }
+}

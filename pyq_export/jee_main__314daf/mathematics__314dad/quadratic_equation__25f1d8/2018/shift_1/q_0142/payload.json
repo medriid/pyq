@@ -1,0 +1,43 @@
+{
+  "index": 142,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 1 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602525fb63982f7225f1d8",
+    "chapter_name": "Quadratic Equation",
+    "year": "2018",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If $\\lambda \\in \\mathrm{R}$ is such that the sum of the cubes of the roots of the equation, $x^2+(2-\\lambda) x+(10-\\lambda)=0$ is minimum, then the magnitude of the difference of the roots of this equation is"
+  },
+  "options": [
+    {
+      "text": "\n20\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$2 \\sqrt{5}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n $2 \\sqrt{7}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$4 \\sqrt{2}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let, the roots of the equation, $x^2+(2-\\lambda) x+(10-\\lambda)=0$ are $\\alpha$ and $\\beta$.\nAlso roots of the given equation are\n$$\n\\frac{\\lambda-2 \\pm \\sqrt{4-4 \\lambda+\\lambda^2-40+4 \\lambda}}{2}=\\frac{\\lambda-2 \\pm \\sqrt{\\lambda^2-36}}{2}\n$$\nThe magnitude of the difference of the roots is $\\left|\\sqrt{\\lambda^2-36}\\right|$\n\nSo, $\\alpha^3+\\beta^3=\\frac{(\\lambda-2)^3}{4}+\\frac{3(\\lambda-2)\\left(\\lambda^2-36\\right)}{4}$\n$$\n\\begin{aligned}\n=\\frac{(\\lambda-2)\\left(4 \\lambda^2-4 \\lambda-104\\right)}{4} \\\\\n=&(\\lambda-2)\\left(\\lambda^2-\\lambda-26\\right)=f(\\lambda)\n\\end{aligned}\n$$\nAs $f(\\lambda)$ attains its minimum value at $\\lambda=4$.\nTherefore, the magintude of the difference of the"
+  }
+}

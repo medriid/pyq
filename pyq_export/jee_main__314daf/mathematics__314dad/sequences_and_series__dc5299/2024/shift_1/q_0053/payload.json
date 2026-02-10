@@ -1,0 +1,43 @@
+{
+  "index": 53,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If the set $R=\\{(a, b): a+5 b=42, a, b \\in \\mathbb{N}\\}$ has $m$ elements and $\\sum_{n=1}^m\\left(1-i^{n !}\\right)=x+i y$, where $i=\\sqrt{-1}$, then the value of $m+x+y$ is"
+  },
+  "options": [
+    {
+      "text": "12",
+      "is_correct": true
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    },
+    {
+      "text": "8",
+      "is_correct": false
+    },
+    {
+      "text": "5",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & a+5 b=42, a, b \\in N \\\\ & a=42-5 b, b=1, a=37 \\\\ & b=2, a=32 \\\\ & b=3, a=27 \\\\ & \\vdots \\\\ & b=8, a=2\\end{aligned}$\n$\\mathrm{R}$ has \" 8 \" elements $\\Rightarrow \\mathrm{m}=8$\n$\\begin{aligned} & \\sum_{n=1}^8\\left(1-i^{n !}\\right)=x+i y \\\\ & \\text { for } n \\geq 4, i^{n !}=1 \\\\ & \\Rightarrow(1-i)+\\left(1-i^{2 !}\\right)+\\left(1-i^{3 !}\\right) \\\\ & =1-I+2+1+1 \\\\ & =5-I=x+i y \\\\ & m+x+y=8+5-1=12\\end{aligned}$"
+  }
+}

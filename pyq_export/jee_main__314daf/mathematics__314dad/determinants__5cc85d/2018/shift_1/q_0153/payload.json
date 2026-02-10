@@ -1,0 +1,43 @@
+{
+  "index": 153,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 1 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2018",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If $f(x)=\\left|\\begin{array}{ccc}\\cos x & x & 1 \\\\ 2 \\sin x & x^2 & 2 x \\\\ \\tan x & x & 1\\end{array}\\right|$, then $\\lim _{x \\rightarrow 0} \\frac{f^{\\prime}(x)}{x}$"
+  },
+  "options": [
+    {
+      "text": "\nExists and is equal to $-2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nDoes not exist\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nExist and is equal to 0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n Exists and is equal to 2",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & f(x)=\\left|\\begin{array}{ccc}\\cos x & x & 1 \\\\ 2 \\sin x & x^2 & 2 x \\\\ \\tan x & x & 1\\end{array}\\right| \\\\=& \\cos x\\left(x^2-2 x^2\\right)-x(2 \\sin x-2 x \\tan x) \\\\=&-x^2 \\cos x-2 x \\sin x+2 x^2 \\tan x \\\\\\left.+2 x \\sin x-x^2 \\tan x\\right) \\\\=& x^2 \\tan x-x^2 \\tan x \\\\ \\Rightarrow & f^{\\prime}(x)=2 x(\\tan x-\\cos x)+x^2\\left(\\sec ^2 x+\\sin x\\right) \\\\ \\therefore & \\lim _{x \\rightarrow 0} \\frac{f^{\\prime}(x)}{x} \\\\=& \\lim _{x \\rightarrow 0} \\frac{2 x(\\tan x-\\cos x)+x^2\\left(\\sec ^2 x+\\sin x\\right)}{x} \\\\=& \\lim _{x \\rightarrow 0}(\\tan x-\\cos x)+x\\left(\\sec ^2 x+\\sin x\\right) \\\\=& 2(0-1)+0=-2 \\\\ \\text { So, } \\lim _{x \\rightarrow 0} \\frac{f^{\\prime}(x)}{x}=-2 \\end{aligned}$"
+  }
+}

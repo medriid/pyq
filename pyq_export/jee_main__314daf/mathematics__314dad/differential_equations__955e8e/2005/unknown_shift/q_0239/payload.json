@@ -1,0 +1,43 @@
+{
+  "index": 239,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $x \\frac{d y}{d x}=y(\\log y-\\log x+1)$, then the solution of the equation is"
+  },
+  "options": [
+    {
+      "text": "\n$y \\log \\left(\\frac{x}{y}\\right)=c x$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$x \\log \\left(\\frac{y}{x}\\right)=c y$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\log \\left(\\frac{y}{x}\\right)=c x$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\log \\left(\\frac{x}{y}\\right)=c y$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\frac{x d y}{d x}=y(\\log y-\\log x+1) \\\\\n& \\frac{d y}{d x}=\\frac{y}{x}\\left(\\log \\left(\\frac{y}{x}\\right)+1\\right)\n\\end{aligned}\n$$\nPut $y=v x$\n$\\frac{d y}{d x}=v+\\frac{x d v}{d x}$\n$\\Rightarrow v+\\frac{x d v}{d x}=v(\\log v+1)$\n$\\frac{x d v}{d x}=v \\log v$\n$\\Rightarrow \\frac{d v}{v \\log v}=\\frac{d x}{x}$\nput $\\log v=z$\n$\\frac{1}{v} d v=d z$\n$\\Rightarrow \\frac{d z}{z}=\\frac{d x}{x}$\n$\\ln z=\\ln x+\\ln c$\n$z=c x$\n$\\log v=c x$\n$\\log \\left(\\frac{y}{x}\\right)=c x$"
+  }
+}

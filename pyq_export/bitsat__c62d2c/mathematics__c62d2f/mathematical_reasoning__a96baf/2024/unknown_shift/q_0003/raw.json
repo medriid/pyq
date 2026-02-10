@@ -1,0 +1,63 @@
+{
+  "_id": "67726d03c49e8ef28ee2b38f",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6414",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 1)",
+      "title": "BITSAT 2024 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Consider the following two propositions:\n$\\mathrm{P}_1: \\sim(p \\rightarrow \\sim q)$\n$P_2:(p \\wedge \\sim q) \\wedge((\\sim p) \\vee q)$\nIf the proposition $p \\rightarrow((\\sim p) \\vee q)$ is evaluated as FALSE, then :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "I2vLS",
+      "text": "$P_1$ is TRUE and $P_2$ is FALSE",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "2ABI3",
+      "text": "$\\mathrm{P}_1$ is FALSE and $\\mathrm{P}_2$ is TRUE",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "NUiWM",
+      "text": "Both $P_1$ and $P_2$ are FALSE",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "g9P9q",
+      "text": "Both $P_1$ and $P_2$ are TRUE",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given propositions $\\mathrm{P}_1: \\sim(\\mathrm{p} \\rightarrow \\sim \\mathrm{q})$\n$\\mathrm{P}_2:(p \\wedge \\sim q) \\wedge((\\sim p) \\vee q)$\nRequired table is shown below.\r\n\\(\\begin{array}{|l|l|l|l|l|l|l|l|l|l|l|}\r\n\\hline \\mathbf{p} & \\mathbf{q} & \\sim p & \\sim q & \\sim p \\vee q & p \\rightarrow(\\sim(p \\vee q) & p \\rightarrow \\sim q & \\sim(p \\rightarrow \\sim q) & p \\wedge \\sim q & p_2 \\\\\r\n\\hline \\text { T } & \\text { T } & \\text { F } & \\text { F } & \\text { T } & \\text { T } & \\text { F } & \\text { T } & \\text { F } & \\text { F } \\\\\r\n\\hline \\text { T } & \\text { F } & \\text { F } & \\text { T } & \\text { F } & \\text { F } & \\text { T } & \\text { F } & \\text { T } & \\text { F } \\\\\r\n\\hline \\text { F } & \\text { T } & \\text { T } & \\text { F } & \\text { T } & \\text { T } & \\text { T } & \\text { F } & \\text { F } & \\text { F } \\\\\r\n\\hline \\text { F } & \\text { F } & \\text { T } & \\text { T } & \\text { T } & \\text { T } & \\text { T } & \\text { F } & \\text { F } & \\text { F } \\\\\r\n\\hline\r\n\\end{array}\\)\r\n\\(p \\rightarrow(\\sim p \\vee q)\\) is \\(F\\) when \\(p\\) is true \\(q\\) is false From table \\(P_1 ~\\&~ P_2\\) both are false",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6414",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 1)",
+    "title": "BITSAT 2024 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7794f6528d292916a7",
+    "chapter_name": "Quadratic Equation",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\alpha$ be a root of the equation $4 x^2+2 x-1=0$, then the other root of the equation is"
+  },
+  "options": [
+    {
+      "text": "\r\n$4 \\alpha^3+2 \\alpha$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$4 \\alpha^2-2 \\alpha$\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n$4 \\alpha^3-3 \\alpha$\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n$4 \\alpha^3+3 \\alpha$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "$4 x^2+2 x-1=0$\r\n$\\therefore \\quad \\alpha+\\beta=-\\frac{1}{2}, \\alpha \\beta=-\\frac{1}{4}$\r\nAlso, $4 \\alpha^2+2 \\alpha-1=0$ as $\\alpha$ is a root and we have to prove that $\\beta=4 \\alpha^3-3 \\alpha$.\r\nNow, $4 \\alpha^3-3 \\alpha=4 \\alpha^2 \\cdot \\alpha-3 \\alpha$\r\n$=\\alpha(1-2 \\alpha)-3 \\alpha=-2 \\alpha^2-2 \\alpha$\r\n$=-\\frac{1}{2}\\left[4 \\alpha^2+4 \\alpha\\right]=-\\frac{1}{2}[1-2 \\alpha+4 \\alpha]$\r\n$=-\\frac{1}{2}(1+2 \\alpha)=-\\frac{1}{2}-\\alpha=\\beta$\r\nNow, $\\alpha+\\beta=-\\frac{1}{2}$\r\n[from Eq. (i)]\r\nHence, $\\beta=4 \\alpha^3-3 \\alpha$."
+  }
+}

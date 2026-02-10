@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2020",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd839e4041267a866788",
+    "chapter_name": "Differential Equations",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The solutions of $(x+y+1) d y=d x$ are"
+  },
+  "options": [
+    {
+      "text": "$x+y+2=C e^{y}$",
+      "is_correct": true
+    },
+    {
+      "text": "$x+y+4=C \\log y$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\quad \\log (x+y+2)=C y$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\log (x+y+2)=C-y$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Putting $x+y+1=u,$ we have $d u=d x+d y$ and the given equation reduces to $u(d u-d x)=$ $d x$\r\n\r\n$\\Rightarrow \\quad \\frac{u d u}{u+1}=d x \\quad \\Rightarrow \\quad u-\\log (u+1)=x$\r\n\r\n$\\Rightarrow \\log (x+y+2)=y+$ constant\r\n\r\n$\\Rightarrow x+y+2=C e^{y}$"
+  }
+}

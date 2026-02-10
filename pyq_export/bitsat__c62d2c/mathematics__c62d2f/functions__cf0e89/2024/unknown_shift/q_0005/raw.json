@@ -1,0 +1,63 @@
+{
+  "_id": "67726d01c49e8ef28ee2b382",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6414",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 1)",
+      "title": "BITSAT 2024 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Let the function $g:(-\\infty, \\infty) \\rightarrow\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ be given by $g(u)=2 \\tan ^{-1}\\left(e^u\\right)-\\frac{\\pi}{2}$. Then, g is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "6qx5W",
+      "text": "even and is strictly increasing in $(0, \\infty)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "UDKcW",
+      "text": "odd and is strictly decreasing in $(-\\infty, \\infty)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "y6tbh",
+      "text": "odd and is strictly increasing in $(-\\infty, \\infty)$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "fs4qQ",
+      "text": "neither even nor odd, but is strictly increasing in $(-\\infty, \\infty)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given that $g(u)=2 \\tan ^{-1}\\left(e^u\\right)-\\frac{\\pi}{2}$\n$\\therefore \\quad g(-u)=2 \\tan ^{-1}\\left(e^{-u}\\right)-\\frac{\\pi}{2}=$\n$2 \\tan ^{-1}\\left(\\frac{1}{e^u}\\right)-\\frac{\\pi}{2}$\n$=2 \\cot ^{-1}\\left(e^u\\right)-\\frac{\\pi}{2}=2\\left[\\frac{\\pi}{2}-\\tan ^{-1}\\left(e^u\\right)\\right]-\\frac{\\pi}{2}$\n$=\\pi-2 \\tan ^{-1}\\left(e^u\\right)-\\frac{\\pi}{2}$\n$=\\frac{\\pi}{2}-2 \\tan ^{-1}\\left(e^u\\right)=-g(u)$\n$\\therefore \\quad g$ is an odd function.\nAlso $g^{\\prime}(u)=\\frac{2 e^u}{1+e^{2 u}}\\gt0, \\forall u \\in(-\\infty, \\infty)$\n$\\therefore g$ is strictly increasing on $(-\\infty, \\infty)$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6414",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 1)",
+    "title": "BITSAT 2024 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

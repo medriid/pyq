@@ -1,0 +1,43 @@
+{
+  "index": 218,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256a3991db50d798cf4c",
+    "chapter_name": "Vector Algebra",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If the position vectors of the vertices $A, B$ and $C$ of a $\\triangle \\mathrm{ABC}$ are respectively $4 \\hat{i}+7 \\hat{j}+8 \\hat{k}, 2 \\hat{i}+3 \\hat{j}+4 \\hat{k}$ and $2 \\hat{i}+5 \\hat{j}+7 \\hat{k}$, then the position vector of the point, where the bisector of $\\angle A$ meets $B C$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{2}(4 \\hat{i}+8 \\hat{j}+11 \\hat{k})$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{3}(6 \\hat{i}+13 \\hat{j}+18 \\hat{k})$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{1}{4}(8 \\hat{i}+14 \\hat{j}+9 \\hat{k})$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{3}(6 \\hat{i}+11 \\hat{j}+15 \\hat{k})$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Suppose angular bisector of $A$ meets $B C$ at $\\mathrm{D}(x, y, z)$\nUsing angular bisector theorem,\n$$\n\\begin{aligned}\n\\frac{A B}{A C} &=\\frac{B D}{D C} \\\\\n\\frac{B D}{D C} &=\\frac{\\sqrt{(4-2)^2+(7-3)^2+(8-4)^2}}{\\sqrt{(4-2)^2+(7-5)^2+(8-7)^2}} \\\\\n&=\\frac{\\sqrt{2^2+4^2+4^2}}{\\sqrt{2^2+2^2+1^2}}=\\frac{6}{3}=2\n\\end{aligned}\n$$\n<img src=\"assets\\st0218_7914047384b7.png\"><br>\n$$\nD(x, y, z)=\\left(\\frac{6}{3}, \\frac{13}{3}, \\frac{18}{3}\\right)\n$$\nTherefore, position vector of point\n$$\nP=\\frac{1}{3}(6 i+13 j+18 k)\n$$"
+  }
+}

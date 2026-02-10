@@ -1,0 +1,43 @@
+{
+  "index": 172,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2013 (09 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $a, b, c$ are sides of a scalene triangle, then the value of $\\left|\\begin{array}{lll}a & b & c \\\\ b & c & a \\\\ c & a & b\\end{array}\\right|$ is :"
+  },
+  "options": [
+    {
+      "text": "\nnon - negative\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nnegative\n",
+      "is_correct": true
+    },
+    {
+      "text": "\npositive\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nnon-positive",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n&\\left|\\begin{array}{lll}\na & b & c \\\\\nb & c & a \\\\\nc & a & b\n\\end{array}\\right|=\\left|\\begin{array}{ccc}\na+b+c & a+b+c & a+b+c \\\\\nb & c & a \\\\\nc & a & b\n\\end{array}\\right| \\\\\n&=(a+b+c)\\left|\\begin{array}{lll}\n1 & 1 & 1 \\\\\nb & c & a \\\\\nc & a & b\n\\end{array}\\right| \\\\\n&=(a+b+c)\\left|\\begin{array}{ccc}\n0 & 0 & 1 \\\\\nb-c & c-a & a \\\\\nc-a & a-b & b\n\\end{array}\\right| \\\\\n&=(a+b+c)\\left[a b+b c+c a-a^2-b^2-c^2\\right] \\\\\n&=-(a+b+c)\\left[(a-b)^2+(b-c)^2+(c-a)^2\\right]\n\\end{aligned}\n$$\nSince $a, b, c$ are sides of $a$ scalene triangle, therefore at least two of the $a, b, c$ will be unequal.\n$\\begin{array}{ll}\\therefore \\quad & (a-b)^2+(b-c)^2+(c-a)^2>0 \\\\ & \\text { Also } a+b+c>0 \\\\ \\therefore \\quad & -(a+b+c)\\left[(a-b)^2+\\right. \\\\ & \\left.(b-c)^2+(c-a)^2\\right] < 0\\end{array}$"
+  }
+}

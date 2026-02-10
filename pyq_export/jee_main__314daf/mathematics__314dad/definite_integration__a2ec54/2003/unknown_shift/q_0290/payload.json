@@ -1,0 +1,43 @@
+{
+  "index": 290,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2003",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2003",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\mathrm{f}(\\mathrm{a}+\\mathrm{b}-\\mathrm{x})=\\mathrm{f}(\\mathrm{x})$ then $\\int_a^b \\mathrm{xf}(\\mathrm{x}) \\mathrm{dx}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{a+b}{2} \\int_a^b f(a+b-x) d x$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{a+b}{2} \\int_a^b f(b-x) d x$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{a+b}{2} \\int_a^b f(x) d x$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{b-a}{2} \\int_a^b f(x) d x$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$I=\\int_a^b x f(x) d x=\\int_a^b(a+b-x) f(a+b-x) d x$\n$=(a+b) \\int_a^b f(a+b-x) d x-\\int_a^b x f(a+b-x) d x$\n$=(a+b) \\int_a^b f(a+b-x) d x-\\int_a^b x f(x) d x$\n$2 I=(a+b) \\int_a^b f(x) d x$\n$I=\\frac{(a+b)}{2} \\int_a^b f(x) d x ; I=\\frac{(a+b)}{2} \\int_a^b f(a+b-x) d x$"
+  }
+}

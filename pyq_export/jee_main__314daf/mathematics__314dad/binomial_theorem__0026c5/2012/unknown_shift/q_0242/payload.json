@@ -1,0 +1,43 @@
+{
+  "index": 242,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (Offline)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $n$ is a positive integer, then $(\\sqrt{3}+1)^{2 n}-(\\sqrt{3}-1)^{2 n}$ is"
+  },
+  "options": [
+    {
+      "text": "\nan irrational number\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nan odd positive integer\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nan even positive integer\n",
+      "is_correct": false
+    },
+    {
+      "text": "\na rational number other than positive integers",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& (\\sqrt{3}+1)^{2 n}-(\\sqrt{3}-1)^{2 n}=\\left[(\\sqrt{3}+1)^2\\right]^n-\\left[(\\sqrt{3}-1)^2\\right]^n=(4+2 \\sqrt{3})^n-(4-2 \\sqrt{3})^n \\\\\n& =2^n\\left[(2+\\sqrt{3})^n-(2-\\sqrt{3})^n\\right] \\\\\n& =2^n\\left\\{\\left[{ }^n C_0 2^n+{ }^n C_1 2^{n-1} \\sqrt{3}+{ }^n C_2 2^{n-2} 3+\\cdots \\cdot\\right]-\\left[{ }^n C_0 2^n-{ }^n C_1 2^{n-1} \\sqrt{3}+{ }^n C_2 2^{n-2} 3-\\cdots \\cdot\\right]\\right\\} \\\\\n& =2^{n+1}\\left[{ }^n C_1 2^{n-1} \\sqrt{3}+{ }^n C_3 2^{n-3} 3 \\sqrt{3}+\\cdots \\cdot\\right]=2^{n+1} \\sqrt{3} \\text { (some integer) }\n\\end{aligned}$\nWhich is irrational"
+  }
+}

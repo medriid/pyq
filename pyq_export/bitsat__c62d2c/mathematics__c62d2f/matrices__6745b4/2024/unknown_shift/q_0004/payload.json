@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd73e2ff28f7b16745b4",
+    "chapter_name": "Matrices",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $A=\\left[\\begin{array}{cc}1 & 0 \\\\ 0 & -1\\end{array}\\right], P=\\left[\\begin{array}{ll}1 & 1 \\\\ 0 & 1\\end{array}\\right]$ and $X=A P A^T$, then $A^T X^{50} A=$"
+  },
+  "options": [
+    {
+      "text": "$\\left[\\begin{array}{ll}0 & 1 \\\\ 1 & 0\\end{array}\\right]$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left[\\begin{array}{cc}2 & 1 \\\\ 0 & -1\\end{array}\\right]$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left[\\begin{array}{cc}25 & 1 \\\\ 1 & -25\\end{array}\\right]$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left[\\begin{array}{cc}1 & 50 \\\\ 0 & 1\\end{array}\\right]$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Since $A A^T=I$ therefore matrix $A$ is orthogonal matrix.\nNow, $A^T X^{50} A=A^T X^{49}\\left(A P A^T\\right) A$\n$=A^T X^{49} A P\\left(A^T A\\right)=A^T X^{49} A P$\n$=A^T X^{48}\\left(A P A^T\\right) A P=A^T X^{48} A P^2 \\ldots \\ldots$.\n$=A^T A P^{50}=I P^{50}=P^{50}$\n$\\because \\quad P=\\left[\\begin{array}{ll}1 & 1 \\\\ 0 & 1\\end{array}\\right] \\Rightarrow P^2=\\left[\\begin{array}{ll}1 & 2 \\\\ 0 & 1\\end{array}\\right]$\n$\\Rightarrow P^3=\\left[\\begin{array}{ll}1 & 3 \\\\ 0 & 1\\end{array}\\right] \\ldots .$.\n$\\Rightarrow \\quad P^{50}=\\left[\\begin{array}{cc}1 & 50 \\\\ 0 & 1\\end{array}\\right]$\nSo, $A^T X^{50} A=P^{50}=\\left[\\begin{array}{cc}1 & 50 \\\\ 0 & 1\\end{array}\\right]$"
+  }
+}

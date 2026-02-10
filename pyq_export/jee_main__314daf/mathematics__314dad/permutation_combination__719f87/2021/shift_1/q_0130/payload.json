@@ -1,0 +1,24 @@
+{
+  "index": 130,
+  "type": "numerical",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (25 Feb Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2021",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The total number of numbers, lying between <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1000</mn></math> that can be formed with the digits <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>,</mo></math> if the repetition of digits is not allowed and numbers are divisible by either <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> or <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>,</mo></math> is"
+  },
+  "options": [],
+  "correct_answer": "32",
+  "solution": {
+    "text": "<p>We need three digits numbers.</p><p>Since&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>15</mn></math></p><p>So, number of possible triplets for multiple of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math>&nbsp;is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn></math></p><p>so <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mo>&#215;</mo><mo>&#8970;</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>&#215;</mo><mn>3</mn><mo>-</mo><mn>1</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mo>&#8970;</mo><mn>2</mn><mo>=</mo><mn>32</mn></math></p><p>Alternate:</p><p>&nbsp;<img src=\"assets\\st0130_de5c703bf49f.png\" style=\"width: 161px; height: 67px;\" /></p><p>divisible by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>=</mo></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>&#215;</mo><mn>3</mn><mo>=</mo><mn>12</mn></math></p><p><img src=\"assets\\st0130_88883d42985f.png\" style=\"width: 97px; height: 61px;\" /></p><p>Divisible by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnalign=\"left\"><mtr><mtd><mn>12</mn><mo>&#8594;</mo><mn>3</mn><mo>,</mo><mo>&#160;</mo><mn>4</mn><mo>,</mo><mo>&#160;</mo><mn>5</mn><mo>&#8594;</mo><mn>3</mn><mo>!</mo><mo>=</mo><mn>6</mn></mtd></mtr><mtr><mtd><mn>15</mn><mo>&#8594;</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mn>3</mn><mo>,</mo><mo>&#160;</mo><mn>4</mn><mo>&#8594;</mo><mn>3</mn><mo>!</mo><mo>=</mo><mn>6</mn></mtd></mtr><mtr><mtd><mn>24</mn><mo>&#8594;</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mn>3</mn><mo>,</mo><mo>&#160;</mo><mn>5</mn><mo>&#8594;</mo><mn>3</mn><mo>!</mo><mo>=</mo><mn>6</mn></mtd></mtr><mtr><mtd><mn>42</mn><mo>&#8594;</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mn>3</mn><mo>&#8594;</mo><menclose notation=\"bottom\"><mn>3</mn><mo>!</mo><mo>=</mo><mn>6</mn></menclose></mtd></mtr></mtable><mspace linebreak=\"newline\"></mspace><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>24</mn></math></p><p>Divisible by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>;</mo><mo>&#160;</mo><mn>4</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>5</mn><mo>;</mo><mo>&#160;</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>;</mo><mo>&#160;</mo><mn>4</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn></math></p><p>Required No. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>24</mn><mo>+</mo><mn>12</mn><mo>-</mo><mn>4</mn><mo>=</mo><mn>32</mn></math></p>"
+  }
+}

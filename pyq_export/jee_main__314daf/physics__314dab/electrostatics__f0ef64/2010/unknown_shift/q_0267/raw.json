@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d658eb",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7ca",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010",
+      "title": "JEE Main 2010"
+    }
+  ],
+  "question": {
+    "text": "Let there be a spherically symmetric charge distribution with charge density varying as $\\rho(r)=\\rho_0\\left(\\frac{5}{4}-\\frac{r}{R}\\right)$ upto $r=R$, and $\\rho(r)=0$ for $r>R$, where $r$ is the distance from the origin. The electric field at a distance $r(r < R)$ from the origin is given by",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "mg4DN",
+      "text": "\n$\\frac{4 \\pi \\rho_0 r}{3 \\varepsilon_0}\\left(\\frac{5}{3}-\\frac{r}{R}\\right)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Hrkf1",
+      "text": "\n$\\frac{\\rho_0 r}{4 \\varepsilon_0}\\left(\\frac{5}{3}-\\frac{r}{R}\\right)$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "SrNZ1",
+      "text": "\n$\\frac{4 \\rho_0 r}{3 \\varepsilon_0}\\left(\\frac{5}{4}-\\frac{r}{R}\\right)$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "x2otT",
+      "text": "\n$\\frac{\\rho_0 r}{3 \\varepsilon_0}\\left(\\frac{5}{4}-\\frac{r}{R}\\right)$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Apply shell theorem the total charge upto distance $r$ can be calculated as followed $d q=4 \\pi r^2 \\cdot d r . \\rho$\n$$\n\\begin{aligned}\n& =4 \\pi r^2 \\cdot d r \\cdot \\rho_0\\left[\\frac{5}{4}-\\frac{r}{R}\\right] \\\\\n& =4 \\pi \\rho_0\\left[\\frac{5}{4} r^2 d r-\\frac{r^3}{R} d r\\right] \\\\\n& \\int d q=q=4 \\pi \\rho_0 \\int_0^r\\left(\\frac{5}{4} r^2 d r-\\frac{r^3}{R} d r\\right) \\\\\n& =4 \\pi \\rho_0\\left[\\frac{5}{4} \\frac{r^3}{3}-\\frac{1}{R} \\frac{r^4}{4}\\right] \\\\\n& E=\\frac{k q}{r^2} \\\\\n& =\\frac{1}{4 \\pi \\varepsilon_0} \\frac{1}{r^2} \\cdot 4 \\pi \\rho_0\\left[\\frac{5}{4}\\left(\\frac{r^3}{3}\\right)-\\frac{r^4}{4 R}\\right] \\\\\n& E=\\frac{\\rho_0 r}{4 \\varepsilon_0}\\left[\\frac{5}{3}-\\frac{r}{R}\\right] \\\\\n&\n\\end{aligned}\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7ca",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010",
+    "title": "JEE Main 2010"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

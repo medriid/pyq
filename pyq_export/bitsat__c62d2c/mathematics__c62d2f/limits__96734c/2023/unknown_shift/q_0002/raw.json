@@ -1,0 +1,63 @@
+{
+  "_id": "65b7b88097ae24e9e2db8cf9",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "65b7b85fb3be70ed63adbe85",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2023-04-15T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Memory Based Paper 2)",
+      "title": "BITSAT 2023 (Memory Based Paper 2)"
+    }
+  ],
+  "question": {
+    "text": "If $f(x)=\\left\\{\\begin{array}{l}x^2-1,0 < x < 2 \\\\ 2 x+3,2 \\leq x < 3\\end{array}\\right.$, then the quadratic equation whose roots are $\\lim _{x \\rightarrow 2^{-}} f(x)$ and $\\lim _{x \\rightarrow 2^{+}} f(x)$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "TtcYV",
+      "text": "$x^2-6 x+9=0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "nhebn",
+      "text": "$x^2-7 x+8=0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "wNXV7",
+      "text": "$x^2-14 x+49=0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "5Eymi",
+      "text": "$x^2-10 x+21=0$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Since, $f(x)= \\begin{cases}x^2-1, & 0 < x < 2 \\\\ 2 x+3, & 2 \\leq x < 3\\end{cases}$<br />Now, $\\lim _{x \\rightarrow 2^{-}} f(x)=\\lim _{x \\rightarrow 2^{-}}\\left(x^2-1\\right)$<br />$\\begin{aligned}<br />& =\\lim _{h \\rightarrow 0}\\left[(2-h)^2-1\\right]=\\lim _{h \\rightarrow 0}\\left[4+h^2-4 h-1\\right] \\\\<br />& =\\lim _{h \\rightarrow 0}\\left[h^2-4 h+3\\right]=0-0+3=3<br />\\end{aligned}$<br />and $\\lim _{x \\rightarrow 2^{+}} f(x)=\\lim _{x \\rightarrow 2^{+}}(2 x+3)$<br />$=\\lim _{h \\rightarrow 0}[2(2+h)+3]=\\lim _{h \\rightarrow 0}[4+2 h+3]=7$<br />Hence the quadratic equation whose roots are 3 and 7 is given by $x^2-(3+7) x+(3+7)=0 \\Rightarrow x^2$ $-10 x+21=0$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "65b7b85fb3be70ed63adbe85",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2023-04-15T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Memory Based Paper 2)",
+    "title": "BITSAT 2023 (Memory Based Paper 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

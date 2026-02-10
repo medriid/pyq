@@ -2,7 +2,7 @@
   "index": 20,
   "type": "singleCorrect",
   "difficulty": 3,
-  "pyq_info": "JEE Main 2025 (22 Jan Shift 2)",
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "If $A$ and $B$ are two events such that $P(A \\cap B)=0.1$, and $P(A \\mid B)$ and $P(B \\mid A)$ are the roots of the equation $12 x^2-7 x+1=0$, then the value of $\\frac{\\mathrm{P}(\\overline{\\mathrm{A}} \\cup \\overline{\\mathrm{B}})}{\\mathrm{P}(\\overline{\\mathrm{A}} \\cap \\overline{\\mathrm{B}})}$ is :"
+    "text": "Let $\\mathrm{A}=\\left[\\mathrm{a}_{i j}\\right]$ be a $2 \\times 2$ matrix such that $\\mathrm{a}_{i j} \\in\\{0,1\\}$ for all $i$ and $j$. Let the random variable X denote the possible values of the determinant of the matrix $A$. Then, the variance of $X$ is :"
   },
   "options": [
     {
-      "text": "$\\frac{4}{3}$",
+      "text": "$\\frac{3}{4}$",
       "is_correct": false
     },
     {
-      "text": "$\\frac{7}{4}$",
+      "text": "$\\frac{5}{8}$",
       "is_correct": false
     },
     {
-      "text": "$\\frac{5}{3}$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{9}{4}$",
+      "text": "$\\frac{3}{8}$",
       "is_correct": true
+    },
+    {
+      "text": "$\\frac{1}{4}$",
+      "is_correct": false
     }
   ],
   "correct_answer": [
-    "D"
+    "C"
   ],
   "solution": {
-    "text": "$P(A \\cap B)=0.1, P(A \\mid B)$ and $P(B \\mid A)$ are the roots of the equation $12 x^2-7 x+1=0$\n$\\begin{aligned}\n& \\Rightarrow \\quad P(A \\mid B) P(B \\mid A)=\\frac{1}{12} \\\\\n& \\Rightarrow \\quad \\frac{P(A \\cap B)}{P(B)} \\times \\frac{P(A \\cap B)}{P(A)}=\\frac{1}{12} \\\\\n& \\Rightarrow \\quad P(A) P(B)=12(0.1)^2 \\\\\n& =0.12\n\\end{aligned}$\n\nAlso, $P(A \\mid B)+P(B \\mid A)=\\frac{7}{12}$\n$\\begin{aligned}\n\\Rightarrow & P(A \\cap B)\\left(\\frac{1}{P(B)}+\\frac{1}{P(A)}\\right)=\\frac{7}{12} \\\\\n\\Rightarrow & P(A)+P(B)=\\frac{7}{12} \\times \\frac{0.12}{0.1} \\\\\n\\Rightarrow & P(A)+P(B)=0.7 \\\\\n& \\frac{P(\\bar{A} \\cup \\bar{B})}{P(\\bar{A} \\cap \\bar{B})}=\\frac{P(\\overline{A \\cap B})}{P(\\overline{A U B})} \\\\\n& =\\frac{1-P(A \\cap B)}{1-P(A \\cup B)} \\\\\n& =\\frac{1-0.1}{1-(0.7-0.1)}=\\frac{0.9}{0.4}=\\frac{9}{4}\n\\end{aligned}$"
+    "text": "$\\begin{array}{|c|c|c|c|}\n\\hline x & 0 & 1 & -1 \\\\\n\\hline P(x) & \\frac{10}{16} & \\frac{3}{16} & \\frac{3}{16} \\\\\n\\hline\n\\end{array}$\n$\\begin{aligned} & \\operatorname{Var}(x)=E\\left(x^2\\right)-[E(x)]^2 \\\\ & =\\sum_{i=1}^3 x_i^2 P\\left(x_i\\right)-(\\mu)^2 \\\\ & =1 \\times \\frac{3}{16}+1 \\times \\frac{3}{16} \\quad[\\mu=0] \\\\ & =\\frac{6}{16}=\\frac{3}{8}\\end{aligned}$"
   }
 }

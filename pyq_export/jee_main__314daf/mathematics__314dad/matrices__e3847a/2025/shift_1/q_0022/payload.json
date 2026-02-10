@@ -1,0 +1,43 @@
+{
+  "index": 22,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $A=\\left[\\begin{array}{cc}\\alpha & -1 \\\\ 6 & \\beta\\end{array}\\right], \\alpha \\gt 0$, such that $\\operatorname{det}(A)=0$ and $\\alpha+\\beta=1$. If I denotes $2 \\times 2$ identity matrix, then the matrix $(1+\\mathrm{A})^8$ is:"
+  },
+  "options": [
+    {
+      "text": "$\\left[\\begin{array}{ll}4 & -1 \\\\ 6 & -1\\end{array}\\right]$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left[\\begin{array}{cc}257 & -64 \\\\ 514 & -127\\end{array}\\right]$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left[\\begin{array}{cc}1025 & -511 \\\\ 2024 & -1024\\end{array}\\right]$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left[\\begin{array}{cc}766 & -255 \\\\ 1530 & -509\\end{array}\\right]$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & |\\mathrm{A}|=0 \\\\ & \\alpha \\beta+6=0 \\\\ & \\alpha \\beta=-6 \\\\ & \\alpha+\\beta=1 \\\\ & \\Rightarrow \\alpha=3, \\beta=-2 \\\\ & \\mathrm{~A}=\\left[\\begin{array}{ll}3 & -1 \\\\ 6 & -2\\end{array}\\right] \\\\ & \\mathrm{A}^2=\\left[\\begin{array}{ll}3 & -1 \\\\ 6 & -2\\end{array}\\right]\\left[\\begin{array}{ll}3 & -1 \\\\ 6 & -2\\end{array}\\right]=\\left[\\begin{array}{ll}3 & -1 \\\\ 6 & -2\\end{array}\\right] \\\\ & \\therefore \\mathrm{A}^2=\\mathrm{A} \\\\ & \\mathrm{A}=\\mathrm{A}^2=\\mathrm{A}^3=\\mathrm{A}^4=\\mathrm{A}^5 \\\\ & (\\mathrm{I}+\\mathrm{A})^8 \\\\ & =\\mathrm{I}+{ }^8 \\mathrm{C}_1 \\mathrm{~A}^7+{ }^8 \\mathrm{C}_2 \\mathrm{~A}^6+\\ldots . .+{ }^8 \\mathrm{C}_8 \\mathrm{~A}^8 \\\\ & =\\mathrm{I}+\\mathrm{A}\\left({ }^8 \\mathrm{C}_1+{ }^8 \\mathrm{C}_2+\\ldots . .+{ }^8 \\mathrm{C}_8\\right) \\\\ & =\\mathrm{I}+\\mathrm{A}\\left(2^8-1\\right) \\\\ & =\\left[\\begin{array}{ll}1 & 0 \\\\ 0 & 1\\end{array}\\right]+\\left[\\begin{array}{cc}765 & -255 \\\\ 1530 & -510\\end{array}\\right]\\end{aligned}$<br/>$=\\left[\\begin{array}{cc}766 & -255 \\\\ 1530 & -509\\end{array}\\right]$"
+  }
+}

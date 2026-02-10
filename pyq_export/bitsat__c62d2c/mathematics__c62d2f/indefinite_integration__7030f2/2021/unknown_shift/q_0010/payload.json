@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2021",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd788eed0f628d7030f2",
+    "chapter_name": "Indefinite Integration",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\int \\frac{e^{x}(1+x)}{\\cos ^{2}\\left(e^{x} x\\right)} \\mathrm{dx}$ equals"
+  },
+  "options": [
+    {
+      "text": "$-\\cot \\left(e x^{x}\\right)+\\mathrm{C}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\tan \\left(x e^{x}\\right)+\\mathrm{C}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\tan \\left(e^{x}\\right)+\\mathrm{C}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\cot \\left(e^{x}\\right)+\\mathrm{C}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\int \\frac{e^{x}(1+x)}{\\cos ^{2}\\left(e^{x} x\\right)} \\mathrm{dx}$\r\n\r\nLet $x e^{x}=t$\r\n\r\n$\\Rightarrow\\left(x e^{x}+e^{x}\\right)=\\frac{\\mathrm{dt}}{\\mathrm{dx}}$\r\n\r\n$\\Rightarrow d x=\\frac{\\mathrm{dt}}{e^{x}(x+1)}$\r\n\r\n$\\therefore \\int \\frac{e^{x}(1+x)}{\\cos ^{2}\\left(e^{x} x\\right)} \\mathrm{dx}=\\int \\frac{e^{x}(1+x)}{\\cos ^{2} t} \\times \\frac{d t}{e^{x}(1+x)}=\\int \\frac{1}{\\cos ^{2} t} \\mathrm{dt}=\\int \\sec ^{2} t \\mathrm{dt}=$$\\tan t+\\mathrm{C}=\\tan \\left(x e^{x}\\right)+\\mathrm{C}$"
+  }
+}

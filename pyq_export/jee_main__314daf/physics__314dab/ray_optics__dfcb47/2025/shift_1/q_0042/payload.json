@@ -1,8 +1,8 @@
 {
   "index": 42,
-  "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Given is a thin convex lens of glass (refractive index $\\mu$ ) and each side having radius of curvature $R$. One side is polished for complete reflection. At what distance from the lens, an object be placed on the optic axis so that the image gets formed on the object itself ?"
+    "text": "Two light beams fall on a transparent material block at point 1 and 2 with angle \\(\\theta_1\\) and \\(\\theta_{2^{\\prime}}\\) respectively, as shown in figure. After refraction, the beams intersect at point 3 which is exactly on the interface at other end of the block. Given : the distance between 1 and 2, \\(\\mathrm{d}=4 \\sqrt{3} \\mathrm{~cm}\\) and \\(\\theta_1=\\theta_2=\\cos ^{-1}\\left(\\frac{\\mathrm{n}_2}{2 \\mathrm{n}_1}\\right)\\), where refractive index of the block \\(\\mathrm{n}_2\\gt\\) refractive index of the outside medium \\(\\mathrm{n}_1\\), then the thickness of the block is ________ cm.\n<img src=\"assets\\qt0042_142e47e80e00.png\"/><br/>"
   },
-  "options": [
-    {
-      "text": "$\\mathrm{R} / \\mu$",
-      "is_correct": false
-    },
-    {
-      "text": "$R /(2 \\mu-3)$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\mu R$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\mathrm{R} /(2 \\mu-1)$",
-      "is_correct": true
-    }
-  ],
-  "correct_answer": [
-    "D"
-  ],
+  "options": [],
+  "correct_answer": "6",
   "solution": {
-    "text": "<img src=\"assets\\st0042_0f2c5b20a310.png\"><br>\n$\\begin{aligned}\n-\\frac{1}{f_{e q}} & =\\frac{2}{f_l}-\\frac{1}{f_m} \\\\\n& =2(\\mu-1) \\frac{2}{R}+\\frac{2}{R} \\\\\n-\\frac{1}{f_{e q}} & =\\frac{2(2 \\mu-1)}{R} \\\\\nf_{e q} & =-\\frac{R}{2(2 \\mu-1)}\n\\end{aligned}$\nFor concave mirror, object should be at $2 f$ for the image to be at same point\n$\\text { Distance }=\\frac{R}{(2 \\mu-1)}$"
+    "text": "<img src=\"assets\\st0042_5c0eb2e6db1c.png\"><br>\n$\\begin{aligned} & n_1 \\times \\frac{n_2}{2 n_1}=n_2 \\sin r \\\\ & \\sin r=\\frac{1}{2}\\end{aligned}$\n$\\begin{aligned} & r=30^{\\circ} \\\\ & \\tan r=\\left(\\frac{d / 2}{t}\\right) \\\\ & t=\\frac{d}{2 \\tan r}=\\frac{d \\sqrt{3}}{2}=\\frac{(4 \\sqrt{3}) \\sqrt{3}}{2} \\\\ & =6 \\mathrm{~cm}\\end{aligned}$"
   }
 }

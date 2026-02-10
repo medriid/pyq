@@ -1,0 +1,43 @@
+{
+  "index": 30,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (23 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If $\\mathrm{A}, \\mathrm{B}$, and $\\left(\\operatorname{adj}\\left(\\mathrm{A}^{-1}\\right)+\\operatorname{adj}\\left(\\mathrm{B}^{-1}\\right)\\right)$ are non-singular matrices of same order, then the inverse of $\\mathrm{A}\\left(\\operatorname{adj}\\left(\\mathrm{A}^{-1}\\right)+\\operatorname{adj}\\left(\\mathrm{B}^{-1}\\right)\\right)^{-1} \\mathrm{~B}$, is equal to"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{AB}^{-1}+\\mathrm{A}^{-1} \\mathrm{~B}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\operatorname{adj}\\left(\\mathrm{B}^{-1}\\right)+\\operatorname{adj}\\left(\\mathrm{A}^{-1}\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{A B^{-1}}{|A|}+\\frac{B A^{-1}}{|B|}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{1}{|A B|}(\\operatorname{adj}(B)+\\operatorname{adj}(A))$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & {\\left[\\mathrm{A}\\left(\\operatorname{adj}\\left(\\mathrm{A}^{-1}\\right)+\\operatorname{adj}\\left(\\mathrm{B}^{-1}\\right)\\right)^{-1} \\cdot \\mathrm{~B}\\right]^{-1}} \\\\ & \\Rightarrow \\mathrm{~B}^{-1} \\cdot\\left(\\operatorname{adj}\\left(\\mathrm{~A}^{-1}\\right)+\\operatorname{adj}\\left(\\mathrm{B}^{-1}\\right)\\right) \\cdot \\mathrm{A}^{-1} \\\\ & \\Rightarrow \\mathrm{~B}^{-1} \\operatorname{adj}\\left(\\mathrm{~A}^{-1}\\right) \\mathrm{A}^{-1}+\\mathrm{B}^{-1}\\left(\\operatorname{adj}\\left(\\mathrm{~B}^{-1}\\right)\\right) \\cdot \\mathrm{A}^{-1} \\\\ & \\Rightarrow \\mathrm{~B}^{-1}\\left|\\mathrm{~A}^{-1}\\right| \\mathrm{I}+\\left|\\mathrm{B}^{-1}\\right| \\mathrm{IA}^{-1} \\\\ & \\Rightarrow \\frac{\\mathrm{~B}^{-1}}{|\\mathrm{~A}|}+\\frac{\\mathrm{A}^{-1}}{|\\mathrm{~B}|} \\\\ & \\Rightarrow \\frac{\\operatorname{adjB}}{|\\mathrm{B}||\\mathrm{A}|}+\\frac{\\operatorname{adj}}{|\\mathrm{A}||\\mathrm{B}|} \\\\ & =\\frac{1}{|\\mathrm{~A}||\\mathrm{B}|}(\\operatorname{adjB}+\\operatorname{adj} \\mathrm{A})\\end{aligned}$"
+  }
+}

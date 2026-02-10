@@ -1,37 +1,62 @@
 {
-  "_id": "648b5a67417cc3fb48d66976",
+  "_id": "648b5a68417cc3fb48d66bbf",
   "previousYearPapers": [
     {
-      "_id": "615d92ecde3d91842a5cf7fe",
+      "_id": "615d92ecde3d91842a5cf806",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2020-09-02T09:00:00.000Z",
+      "heldOn": "2020-09-06T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2020 (02 Sep Shift 1)",
-      "title": "JEE Main 2020 (02 Sep Shift 1)"
+      "shortName": "2020 (06 Sep Shift 1)",
+      "title": "JEE Main 2020 (06 Sep Shift 1)"
     }
   ],
-  "type": "numerical",
+  "type": "singleCorrect",
   "level": 3,
   "question": {
-    "text": "A&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>&#160;</mo><mi>&#956;F</mi></math>&nbsp;capacitor is charged fully by a&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>220</mn><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></math>&nbsp;supply. It is then disconnected from the supply and is connected in series to another uncharged&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mi>&#956;F</mi></math>&nbsp;capacitor. If the energy change during the charge redistribution is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi mathvariant=\"normal\">X</mi><mn>100</mn></mfrac><mo>&#160;</mo><mi mathvariant=\"normal\">J</mi></math>&nbsp;then value of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">X</mi></math>&nbsp;to the nearest integer is :",
+    "text": "<p>For the given input voltage waveform&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">V</mi><mtext>in&#160;</mtext></msub><mo>(</mo><mi mathvariant=\"normal\">t</mi><mo>)</mo><mo>,</mo></math> the output voltage waveform&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">V</mi><mn>0</mn></msub><mo>(</mo><mi mathvariant=\"normal\">t</mi><mo>)</mo><mo>,</mo></math> across the capacitor is correctly depicted by :</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/8f885a41-fe6a-4e65-9c95-f595b3e60890-image.png\" style=\"width: 390px; height: 160px;\" />&nbsp; &nbsp;</p>",
     "image": null
   },
-  "options": [],
-  "correctValue": "4",
+  "options": [
+    {
+      "id": "29L03",
+      "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/cbf13310-bbcd-4d47-8167-3813e7da5d77-image.png\" style=\"width: 295px; height: 170px;\" />&nbsp;&nbsp;",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "l43Uy",
+      "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/0d037371-cd52-4733-aa97-697638d7ce93-image.png\" style=\"width: 280px; height: 171px;\" />&nbsp;&nbsp;&nbsp;",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "9iwgI",
+      "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/9793b169-e1f8-4e8b-8bcb-ed6f757b3a8e-image.png\" style=\"width: 297px; height: 180px;\" />&nbsp;&nbsp;",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "vc30G",
+      "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/0d037371-cd52-4733-aa97-697638d7ce93-image.png\" style=\"width: 280px; height: 171px;\" />&nbsp;",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">C</mi><mn>1</mn></msub><mo>=</mo><mn>5</mn><mi>&#956;</mi><mi mathvariant=\"normal\">F</mi><mo>&#160;&#160;</mo><msub><mi mathvariant=\"normal\">V</mi><mn>1</mn></msub><mo>=</mo><mn>220</mn><mi>Volt</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mo>.</mo><mn>5</mn><mi>&#956;</mi><mi mathvariant=\"normal\">F</mi><mo>&#160;&#160;</mo><msub><mi mathvariant=\"normal\">V</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn></math></p><p>Heat loss;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#916;</mi><mi mathvariant=\"normal\">H</mi><mo>=</mo><msub><mi mathvariant=\"normal\">U</mi><mn>1</mn></msub><mo>-</mo><msub><mi mathvariant=\"normal\">U</mi><mi mathvariant=\"normal\">t</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfrac><mrow><msub><mi mathvariant=\"normal\">C</mi><mn>1</mn></msub><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub></mrow><mrow><msub><mi mathvariant=\"normal\">C</mi><mn>1</mn></msub><mo>+</mo><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub></mrow></mfrac><msup><mfenced><mrow><msub><mi mathvariant=\"normal\">v</mi><mn>1</mn></msub><mo>-</mo><msub><mi mathvariant=\"normal\">v</mi><mn>2</mn></msub></mrow></mfenced><mn>2</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#215;</mo><mfrac><mrow><mn>5</mn><mo>&#215;</mo><mn>2</mn><mo>.</mo><mn>5</mn></mrow><mrow><mo>(</mo><mn>5</mn><mo>+</mo><mn>2</mn><mo>.</mo><mn>5</mn><mo>)</mo></mrow></mfrac><mo>(</mo><mn>220</mn><mo>-</mo><mn>0</mn><msup><mo>)</mo><mn>2</mn></msup><mi>&#956;</mi><mi mathvariant=\"normal\">J</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>5</mn><mrow><mn>2</mn><mo>&#215;</mo><mn>3</mn></mrow></mfrac><mo>&#215;</mo><mn>22</mn><mo>&#215;</mo><mn>22</mn><mo>&#215;</mo><mn>100</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mi mathvariant=\"normal\">J</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>5</mn><mo>&#215;</mo><mn>11</mn><mo>&#215;</mo><mn>22</mn></mrow><mn>3</mn></mfrac><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup><mi mathvariant=\"normal\">J</mi><mo>=</mo><mfrac><mrow><mn>55</mn><mo>&#215;</mo><mn>22</mn></mrow><mn>3</mn></mfrac><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup><mi mathvariant=\"normal\">J</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1210</mn><mn>3</mn></mfrac><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup><mi mathvariant=\"normal\">J</mi><mo>=</mo><mfrac><mn>1210</mn><mn>3</mn></mfrac><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mi mathvariant=\"normal\">J</mi><mo>=</mo><mn>4</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup></math></p><p>According to questions</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>100</mn></mfrac><mo>=</mo><mn>4</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup></math></p><p>so,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>4</mn></math></p>",
+    "text": "<p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/3d951631-ed03-464f-a5af-0aaccec39f57-image.png\" style=\"width: 295px; height: 170px;\" />&nbsp;&nbsp;</p><p>When first pulse is applied the potential across capacitor is given by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><msub><mi>V</mi><mn>0</mn></msub><mfenced><mrow><mn>1</mn><mo>-</mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mi>t</mi><mrow><mi>R</mi><mi>C</mi></mrow></mfrac></mrow></msup></mrow></mfenced></math></p><p>When no pulse is applied, capacitor will discharge like&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><msubsup><mi>V</mi><mn>0</mn><mo>&#39;</mo></msubsup><msup><mi>e</mi><mrow><mi>t</mi><mo>/</mo><mi>R</mi><mi>C</mi></mrow></msup></math>&nbsp;when again, second pulse is applied&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><msub><mi>V</mi><mn>0</mn></msub><mfenced><mrow><mn>1</mn><mo>-</mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mi>t</mi><mrow><mi>R</mi><mi>C</mi></mrow></mfrac></mrow></msup></mrow></mfenced></math></p><p>Using all three equations the correct graph is :</p>",
     "image": null
   },
   "videoSolution": null,
   "questionLabels": [],
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "615d92ecde3d91842a5cf7fe",
+    "_id": "615d92ecde3d91842a5cf806",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2020-09-02T09:00:00.000Z",
+    "heldOn": "2020-09-06T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2020 (02 Sep Shift 1)",
-    "title": "JEE Main 2020 (02 Sep Shift 1)"
+    "shortName": "2020 (06 Sep Shift 1)",
+    "title": "JEE Main 2020 (06 Sep Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

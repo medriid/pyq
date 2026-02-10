@@ -1,0 +1,83 @@
+{
+  "_id": "68542c7a7c09d044e4c1a231",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2ff9d87935e0d80978e",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-08T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (8 Apr Shift 2)",
+      "title": "JEE Main 2025 (8 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $f(x)$ be a positive function and $I_1=\\int_{-\\frac{1}{2}}^1 2 x f(2 x(1-2 x)) d x$ and $I_2=\\int_{-1}^2 f(x(1-x)) d x$. Then the value of $\\frac{I_2}{I_1}$ is equal to ________",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "KxPSN",
+      "text": "9",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "9hBtE",
+      "text": "6",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "gcDSt",
+      "text": "12",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "JPYMd",
+      "text": "4",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & \\mathrm{I}_1=\\int_{-\\frac{1}{2}}^1 2 \\mathrm{xf}(2 \\mathrm{x}(1-2 \\mathrm{x})) \\mathrm{dx} \\\\ & \\Rightarrow 2 \\mathrm{x}=\\mathrm{t} \\Rightarrow 2 \\mathrm{dx}=\\mathrm{dt} \\quad \\Rightarrow \\mathrm{I}_1=\\frac{1}{2} \\int_{-1}^2 \\mathrm{tf}(\\mathrm{t}(1-\\mathrm{t})) \\mathrm{dt} \\\\ & \\Rightarrow 2 \\mathrm{I}_1=\\int_{-1}^2(1-\\mathrm{t}) \\mathrm{f}(1-\\mathrm{t})(1-(1-\\mathrm{t})) \\mathrm{dt} \\\\ & \\Rightarrow 2 \\mathrm{I}_1=\\int_{-1}^2 \\mathrm{f}\\left(\\mathrm{t}(1-\\mathrm{t}) \\mathrm{dt}-\\int_{-1}^2 \\mathrm{tf}(\\mathrm{t}(1-\\mathrm{t}) \\mathrm{dt}\\right. \\\\ & \\Rightarrow 2 \\mathrm{I}_1=\\mathrm{I}_2-2 \\mathrm{I}_1 \\\\ & \\Rightarrow 4 \\mathrm{I}_1=\\mathrm{I}_2 \\\\ & \\Rightarrow \\frac{\\mathrm{I}_2}{\\mathrm{I}_1}=4\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "6a1319df2255471ea62244328836ad3b",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/zJfmQRDGiLY2P.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/zJfmQRDGiLY2P.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2ff9d87935e0d80978e",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-08T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (8 Apr Shift 2)",
+    "title": "JEE Main 2025 (8 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

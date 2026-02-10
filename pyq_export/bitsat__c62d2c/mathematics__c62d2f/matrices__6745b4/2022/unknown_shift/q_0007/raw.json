@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e8356f5bfc7ab78aeb8b",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44d",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2022-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022",
+      "title": "BITSAT 2022"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "$\\text { If }\\left[\\begin{array}{cc}\r\n1 & -\\tan \\theta \\\\\r\n\\tan \\theta & 1\r\n\\end{array}\\right]\\left[\\begin{array}{cc}\r\n1 & \\tan \\theta \\\\\r\n-\\tan \\theta & 1\r\n\\end{array}\\right]^{-1}=\\left[\\begin{array}{cc}\r\na & -b \\\\\r\nb & a\r\n\\end{array}\\right],$ \r\nthen",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "BXgA5",
+      "text": "\r\n$a=1, b=1$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "IqDxC",
+      "text": "\r\n$a=\\sin 2 \\theta, b=\\cos 2 \\theta$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "rQra7",
+      "text": "\r\n$a=\\cos 2 \\theta, b=\\sin 2 \\theta$\r\n",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "3Bl3U",
+      "text": "\r\nNone of these",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given,\r\n$\\left[\\begin{array}{cc}1 & -\\tan \\theta \\\\ \\tan \\theta & 1\\end{array}\\right]\\left[\\begin{array}{cc}1 & \\tan \\theta \\\\ -\\tan \\theta & 1\\end{array}\\right]^{-1}=\\left[\\begin{array}{cc}a & -b \\\\ b & a\\end{array}\\right]$\r\n$\\Rightarrow\\left[\\begin{array}{cc}1 & -\\tan \\theta \\\\ \\tan \\theta & 1\\end{array}\\right] \\cdot \\frac{1}{1+\\tan ^2 \\theta}\\left[\\begin{array}{cc}1 & -\\tan \\theta \\\\ \\tan \\theta & 1\\end{array}\\right]$\r\n$=\\left[\\begin{array}{cc}a & -b \\\\ b & a\\end{array}\\right]$\r\n$\\Rightarrow \\frac{1}{1+\\tan ^2 \\theta}\\left[\\begin{array}{cc}1-\\tan ^2 \\theta & -2 \\tan \\theta \\\\ 2 \\tan \\theta & 1-\\tan ^2 \\theta\\end{array}\\right]=\\left[\\begin{array}{cc}a & -b \\\\ b & a\\end{array}\\right]$\r\n$\\Rightarrow \\quad\\left[\\begin{array}{cc}\\frac{1-\\tan ^2 \\theta}{1+\\tan ^2 \\theta} & \\frac{2 \\tan \\theta}{1+\\tan ^2 \\theta} \\\\ \\frac{2 \\tan \\theta}{1+\\tan ^2 \\theta} & \\frac{1-\\tan ^2 \\theta}{1+\\tan ^2 \\theta}\\end{array}\\right]=\\left[\\begin{array}{cc}a & -b \\\\ b & a\\end{array}\\right]$\r\n$\\Rightarrow\\left[\\begin{array}{cc}\\cos 2 \\theta & -\\sin 2 \\theta \\\\ \\sin 2 \\theta & \\cos 2 \\theta\\end{array}\\right]=\\left[\\begin{array}{cc}a & -b \\\\ b & a\\end{array}\\right]$\r\n$\\Rightarrow \\quad a=\\cos 2 \\theta, b=\\sin 2 \\theta$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44d",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2022-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022",
+    "title": "BITSAT 2022"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

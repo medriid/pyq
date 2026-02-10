@@ -1,0 +1,43 @@
+{
+  "index": 27,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7ddf871d2a6297f8ad",
+    "chapter_name": "Binomial Theorem",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The coefficient of $x^{20}$ in the expansion of\r\n$\\left(1+x^{2}\\right)^{40} \\cdot\\left(x^{2}+2+\\frac{1}{x^{2}}\\right)^{-5}$ is"
+  },
+  "options": [
+    {
+      "text": "${ }^{30} \\mathrm{C}_{10}$",
+      "is_correct": false
+    },
+    {
+      "text": "${ }^{30} \\mathrm{C}_{25}$",
+      "is_correct": true
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Expression $=\\left(1+x^{2}\\right)^{40} \\cdot\\left(x+\\frac{1}{x}\\right)^{-10}$\r\n$=\\left(1+x^{2}\\right)^{30} \\cdot x^{10}$\r\nThe coefficient of $x^{20}$ in $x^{10}\\left(1+x^{2}\\right)^{30}$ $=$ the coefficient of $\\mathrm{x}^{10}$ in $\\left(1+\\mathrm{x}^{2}\\right)^{30}$\r\n$={ }^{30} \\mathrm{C}_{5}={ }^{30} \\mathrm{C}_{30-5}={ }^{30} \\mathrm{C}_{25}$"
+  }
+}

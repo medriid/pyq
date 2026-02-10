@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd829c5123da6811b2be",
+    "chapter_name": "Trigonometric Ratios & Identities",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The sum of all values of $x$ in $[0,2 \\pi]$, for which $\\sin x+\\sin 2 x+\\sin 3 x+\\sin 4 x=0$, is equal to :"
+  },
+  "options": [
+    {
+      "text": "$8 \\pi$",
+      "is_correct": false
+    },
+    {
+      "text": "$11 \\pi$",
+      "is_correct": false
+    },
+    {
+      "text": "$12 \\pi$",
+      "is_correct": false
+    },
+    {
+      "text": "$9 \\pi$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$(\\sin x+\\sin 4 x)+(\\sin 2 x+\\sin 3 x)=0$\n$\\Rightarrow 2 \\sin \\frac{5 x}{2} \\cdot \\cos \\frac{3 x}{2}+2 \\sin \\frac{5 x}{2} \\cdot \\cos \\frac{x}{2}=0$\n$\\Rightarrow 2 \\sin \\frac{5 x}{2}\\left\\{\\cos \\frac{3 x}{2}+\\cos \\frac{x}{2}\\right\\}=0$\n$\\Rightarrow 2 \\sin \\frac{5 x}{2}\\left\\{2 \\cos x \\cos \\frac{x}{2}\\right\\}=0$\n$2 \\sin \\frac{5 x}{2}=0 \\Rightarrow \\frac{5 x}{2}=0, \\pi, 2 \\pi, 3 \\pi, 4 \\pi, 5 \\pi, \\ldots$\n$\\Rightarrow x=0, \\frac{2 \\pi}{5}, \\frac{4 \\pi}{5}, \\frac{6 \\pi}{5}, \\frac{8 \\pi}{5}, 2 \\pi$\n$\\cos \\frac{x}{2}=0 \\Rightarrow \\frac{x}{2}=\\frac{\\pi}{2} \\Rightarrow x=\\pi ;$\n$\\cos x=0 \\Rightarrow x=\\frac{\\pi}{2}, \\frac{3 \\pi}{2}$\nSo, sum $=6 \\pi+\\pi+2 \\pi=9 \\pi$"
+  }
+}

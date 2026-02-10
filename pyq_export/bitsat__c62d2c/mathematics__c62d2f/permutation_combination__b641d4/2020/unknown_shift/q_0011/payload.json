@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2020",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cccd6ab1da4b641d4",
+    "chapter_name": "Permutation Combination",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Total number of ways of selecting 2 white squares on a normal chess board if the squares are not from the same row or column is equal to"
+  },
+  "options": [
+    {
+      "text": "480",
+      "is_correct": false
+    },
+    {
+      "text": "496",
+      "is_correct": false
+    },
+    {
+      "text": "412",
+      "is_correct": false
+    },
+    {
+      "text": "400",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "2 white squares can be selected in ${ }^{32} \\mathrm{C}_{2}$ ways If they belong to some row or same column then $2\\left(8 \\cdot{ }^{4} \\mathrm{C}_{2}\\right)$ ways."
+  }
+}

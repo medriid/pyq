@@ -1,0 +1,58 @@
+{
+  "_id": "66446714970e6e9ab542d002",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda69",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-04T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (04 Apr Shift 2)",
+      "title": "JEE Main 2024 (04 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Consider the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined by $f(x)=\\frac{2 x}{\\sqrt{1+9 x^2}}$. If the composition of $f, \\underbrace{(f \\circ f \\circ f \\circ \\cdots \\circ f)}_{10 \\text { times }}(x)=\\frac{2^{10} x}{\\sqrt{1+9 \\alpha x^2}}$, then the value of $\\sqrt{3 \\alpha+1}$ is equal to ______",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "1024",
+  "solution": {
+    "text": "$\\begin{aligned}\n& f(f(x))=\\frac{2 f(x)}{\\sqrt{1+9 f^2(x)}}=\\frac{4 x}{\\sqrt{1+9 x^2+9.2^2 x^2}} \\\\\n& f(f(f(x)))=\\frac{2^3 x / \\sqrt{1+9 x^2}}{\\sqrt{1+9\\left(1+2^2\\right) \\frac{2^2 x^2}{1+9 x^2}}}=\\frac{2^3 x}{\\sqrt{1+9 x^2\\left(1+2^2+2^4\\right)}}\n\\end{aligned}$\n$\\therefore$ By observation\n$\\begin{aligned}\n& \\alpha=1+2^2+2^4+\\ldots .+2^{18}=1\\left(\\frac{\\left(2^2\\right)^{10}-1}{2^2-1}\\right)=\\frac{2^{20}-1}{3} \\\\\n& 3 \\alpha+1=2^{20} \\rightarrow \\sqrt{3 \\alpha+1}=2^{10}=1024\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "fc8db85121464d10b8370e0ee39b39e8",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/naLJhws95bMBi.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/naLJhws95bMBi.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda69",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-04T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (04 Apr Shift 2)",
+    "title": "JEE Main 2024 (04 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

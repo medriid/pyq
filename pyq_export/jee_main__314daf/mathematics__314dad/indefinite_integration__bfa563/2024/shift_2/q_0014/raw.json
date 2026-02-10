@@ -1,82 +1,37 @@
 {
-  "_id": "6682bd50ba0e94a3c4025bda",
-  "type": "singleCorrect",
-  "level": 2,
+  "_id": "6644674e970e6e9ab542d21b",
+  "type": "numerical",
+  "level": 3,
   "questionLabels": [],
-  "question": {
-    "text": "The integral <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∫</mo><mfrac><mrow><mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>8</mn></msup><mo>-</mo><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup></mrow></mfenced><mi>dx</mi></mrow><mrow><mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>12</mn></msup><mo>+</mo><mn>3</mn><msup><mi mathvariant=\"normal\">x</mi><mn>6</mn></msup><mo>+</mo><mn>1</mn></mrow></mfenced><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup></mfrac></mrow></mfenced></mrow></mfrac></math> is equal to :",
-    "image": null
-  },
-  "options": [
-    {
-      "id": "VH4Ef",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>log</mi><msup><mfenced close=\"|\" open=\"|\"><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup></mfrac></mrow></mfenced></mrow></mfenced><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mo>+</mo><mi mathvariant=\"normal\">C</mi></math>",
-      "image": null,
-      "isCorrect": true
-    },
-    {
-      "id": "ANZ71",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mi mathvariant=\"normal\">e</mi></msub><msup><mfenced><mfenced close=\"|\" open=\"|\"><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup></mfrac></mrow></mfenced></mrow></mfenced></mfenced><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>+</mo><mi mathvariant=\"normal\">C</mi></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "QxNXA",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mi mathvariant=\"normal\">e</mi></msub><mfenced><mfenced close=\"|\" open=\"|\"><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup></mfrac></mrow></mfenced></mrow></mfenced></mfenced><mo>+</mo><mi mathvariant=\"normal\">C</mi></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "X3DJr",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>log</mi><mi mathvariant=\"normal\">e</mi></msub><msup><mfenced><mfenced close=\"|\" open=\"|\"><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup></mfrac></mrow></mfenced></mrow></mfenced></mfenced><mn>3</mn></msup><mo>+</mo><mi mathvariant=\"normal\">C</mi></math>",
-      "image": null,
-      "isCorrect": false
-    }
-  ],
-  "correctValue": null,
-  "solution": {
-    "text": "<p>Let, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">I</mi><mo>=</mo><mo>∫</mo><mfrac><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>8</mn></msup><mo>-</mo><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup></mrow><mrow><mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>12</mn></msup><mo>+</mo><mn>3</mn><msup><mi mathvariant=\"normal\">x</mi><mn>6</mn></msup><mo>+</mo><mn>1</mn></mrow></mfenced><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup></mfrac></mrow></mfenced></mrow></mfrac><mi>dx</mi></math></p><p>Putting, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup></mfrac></mrow></mfenced><mo>=</mo><mi mathvariant=\"normal\">t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup></mfrac></mrow></mfenced><mn>2</mn></msup></mrow></mfrac><mo>·</mo><mfenced><mrow><mn>3</mn><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>-</mo><mfrac><mn>3</mn><msup><mi mathvariant=\"normal\">x</mi><mn>4</mn></msup></mfrac></mrow></mfenced><mi>dx</mi><mo>=</mo><mi>dt</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>6</mn></msup><mo>+</mo><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><msup><mi>x</mi><mn>6</mn></msup></mfrac></mstyle><mo>+</mo><mn>2</mn></mrow></mfenced></mrow></mfrac><mo>·</mo><mfenced><mrow><mn>3</mn><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup><mo>-</mo><mfrac><mn>3</mn><msup><mi mathvariant=\"normal\">x</mi><mn>4</mn></msup></mfrac></mrow></mfenced><mi>dx</mi><mo>=</mo><mi>dt</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><msup><mi mathvariant=\"normal\">x</mi><mn>6</mn></msup><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>12</mn></msup><mo>+</mo><mn>3</mn><msup><mi mathvariant=\"normal\">x</mi><mn>6</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mo>·</mo><mfrac><mrow><mn>3</mn><msup><mi mathvariant=\"normal\">x</mi><mn>6</mn></msup><mo>-</mo><mn>3</mn></mrow><msup><mi mathvariant=\"normal\">x</mi><mn>4</mn></msup></mfrac><mi>dx</mi><mo>=</mo><mi>dt</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mfrac><mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>8</mn></msup><mo>-</mo><msup><mi mathvariant=\"normal\">x</mi><mn>2</mn></msup></mrow></mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>12</mn></msup><mo>+</mo><mn>3</mn><msup><mi mathvariant=\"normal\">x</mi><mn>6</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>dx</mi><mo>=</mo><mfrac><mi>dt</mi><mn>3</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi mathvariant=\"normal\">I</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>∫</mo><mfrac><mn>1</mn><mi mathvariant=\"normal\">t</mi></mfrac><mi>dt</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi mathvariant=\"normal\">I</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>log</mi><mo>|</mo><mi mathvariant=\"normal\">t</mi><mo>|</mo><mo>+</mo><mi mathvariant=\"normal\">C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi mathvariant=\"normal\">I</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>log</mi><mfenced close=\"|\" open=\"|\"><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup></mfrac></mrow></mfenced></mrow></mfenced><mo>+</mo><mi mathvariant=\"normal\">C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi mathvariant=\"normal\">I</mi><mo>=</mo><mi>log</mi><msup><mfenced close=\"|\" open=\"|\"><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfenced><mrow><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi mathvariant=\"normal\">x</mi><mn>3</mn></msup></mfrac></mrow></mfenced></mrow></mfenced><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mo>+</mo><mi mathvariant=\"normal\">C</mi></math></p><p>Hence optin <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi mathvariant=\"normal\">A</mi></mfenced></math> is correct</p>",
-    "image": null
-  },
-  "videoSolution": {
-    "videoId": "5167a96feaad4124be2c1f519b30749f",
-    "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/uF5Egf4qnzMMw.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/uF5Egf4qnzMMw.480.jpeg",
-    "premiumModules": [
-      {
-        "premiumModuleId": "6628114842d540dfcb148ecb",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "64c7e8e829737784b294e469",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
-        "isFree": false
-      }
-    ],
-    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
-  },
-  "syllabusCategory": "noChange",
   "previousYearPapers": [
     {
-      "_id": "65c4c0c01d30997d3436baff",
+      "_id": "664466ef278297dee60eda6f",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-01-27T14:00:00.000Z",
+      "heldOn": "2024-04-08T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (27 Jan Shift 2)",
-      "title": "JEE Main 2024 (27 Jan Shift 2)"
+      "shortName": "2024 (08 Apr Shift 2)",
+      "title": "JEE Main 2024 (08 Apr Shift 2)"
     }
   ],
+  "question": {
+    "text": "If $\\int \\frac{1}{\\sqrt[5]{(x-1)^4(x+3)^6}} \\mathrm{~d} x=\\mathrm{A}\\left(\\frac{\\alpha x-1}{\\beta x+3}\\right)^B+\\mathrm{C}$, where $\\mathrm{C}$ is the constant of integration, then the value of $\\alpha+\\beta+20 \\mathrm{AB}$ is__________",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "7",
+  "solution": {
+    "text": "$\\begin{aligned} & \\int \\frac{1}{\\sqrt[5]{(x-1)^4(x+3)^6}} d x=A\\left(\\frac{\\alpha x-1}{\\beta x+3}\\right)^B+C \\\\ & I=\\int \\frac{1}{(x-1)^{4 / 5}(x+3)^{6 / 5}} d x \\\\ & I=\\int \\frac{1}{\\left(\\frac{x-1}{x+3}\\right)^{4 / 5}(x+3)^2} d x \\\\ & \\left(\\frac{x-1}{x+3}\\right)=t \\Rightarrow \\frac{4}{(x+3)^2} d x=d t \\quad t^{-4 / 5+1} \\\\ & I=\\frac{1}{4} \\int \\frac{1}{t^{4 / 5}} d t=\\frac{1}{4} \\frac{t^{1 / 5}}{1 / 5}+c \\\\ & I=\\frac{5}{4}\\left(\\frac{x-1}{x+3}\\right)^{1 / 5}+C \\\\ & A=\\frac{5}{4} \\quad \\alpha=\\beta=1 \\quad B=\\frac{1}{5} \\\\ & \\alpha+\\beta+20 A B=2+20 \\times \\frac{5}{4} \\times \\frac{1}{5}=7\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "65c4c0c01d30997d3436baff",
+    "_id": "664466ef278297dee60eda6f",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-01-27T14:00:00.000Z",
+    "heldOn": "2024-04-08T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (27 Jan Shift 2)",
-    "title": "JEE Main 2024 (27 Jan Shift 2)"
+    "shortName": "2024 (08 Apr Shift 2)",
+    "title": "JEE Main 2024 (08 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

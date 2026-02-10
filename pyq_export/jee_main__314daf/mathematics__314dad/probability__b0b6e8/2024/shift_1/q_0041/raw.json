@@ -1,48 +1,58 @@
 {
-  "_id": "6682bd5fba0e94a3c4025c3a",
+  "_id": "6644671c970e6e9ab542d04d",
   "type": "singleCorrect",
-  "level": 2,
+  "level": 3,
   "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6a",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-05T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (05 Apr Shift 1)",
+      "title": "JEE Main 2024 (05 Apr Shift 1)"
+    }
+  ],
   "question": {
-    "text": "Two integers <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo> </mo><mtext>and</mtext><mo> </mo><mi>y</mi></math> are chosen with replacement from the set <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>…</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>10</mn><mo>}</mo></math>. Then the probability that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>x</mi><mo>-</mo><mi>y</mi><mo>|</mo><mo>&gt;</mo><mn>5</mn></math> is :",
+    "text": "The coefficients $a, b, c$ in the quadratic equation $a x^2+b x+c=0$ are chosen from the set $\\{1,2,3,4,5,6,7,8\\}$. The probability of this equation having repeated roots is :",
     "image": null
   },
   "options": [
     {
-      "id": "PdP2m",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>30</mn><mn>121</mn></mfrac></math>",
+      "id": "aYG0J",
+      "text": "$\\frac{1}{128}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "QIs2n",
+      "text": "$\\frac{1}{64}$",
       "image": null,
       "isCorrect": true
     },
     {
-      "id": "ecb4f",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>62</mn><mn>121</mn></mfrac></math>",
+      "id": "DaAGE",
+      "text": "$\\frac{3}{256}$",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "5cB92",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>60</mn><mn>121</mn></mfrac></math>",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "khdYN",
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>31</mn><mn>121</mn></mfrac></math>",
+      "id": "bBfad",
+      "text": "$\\frac{3}{128}$",
       "image": null,
       "isCorrect": false
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "<p>Given set is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mn>10</mn></mrow></mfenced></math>.</p><p>So, total number of outcomes are <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>11</mn><mo>×</mo><mn>11</mn></mrow></mfenced><mo>=</mo><mn>121</mn></math></p><p>Favourable outcomes are:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>0</mn><mo>,</mo><mn>6</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>0</mn><mo>,</mo><mn>7</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>0</mn><mo>,</mo><mn>8</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>0</mn><mo>,</mo><mn>9</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>0</mn><mo>,</mo><mn>10</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>1</mn><mo>,</mo><mn>7</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>1</mn><mo>,</mo><mn>8</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>1</mn><mo>,</mo><mn>9</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>1</mn><mo>,</mo><mn>10</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>2</mn><mo>,</mo><mn>8</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>2</mn><mo>,</mo><mn>9</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>2</mn><mo>,</mo><mn>10</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>3</mn><mo>,</mo><mn>9</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>3</mn><mo>,</mo><mn>10</mn></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>4</mn><mo>,</mo><mn>10</mn></mrow></mfenced></math> </p><p>And the same number of elements when <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo> </mo><mtext>and</mtext><mo> </mo><mi>y</mi></math> are interchanged.</p><p>So, the number of favourable outcomes are <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math>.</p><p>So, the required probability is given by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mi>E</mi></mfenced><mo>=</mo><mfrac><mn>30</mn><mn>121</mn></mfrac></math>.</p>",
+    "text": "$\\begin{aligned} & a x^2+b x+c=0 \\\\ & a, b, c \\in\\{1,2,3,4,5,6,7,8\\} \\\\ & \\text { Repeated roots } D=0 \\\\ & \\Rightarrow b^2-4 a c=0 \\Rightarrow b^2=4 a c \\\\ & \\text { Prob }=\\frac{8}{8 \\times 8 \\times 8}=\\frac{1}{64} \\\\ & \\Rightarrow(a, b, c) \\\\ & (1,2,1) ;(2,4,2) ;(1,4,4) ;(4,4,1) ;(3,6,3) ; \\\\ & (2,8,8) ;(8,8,2) ;(4,8,4) \\\\ & 8 \\text { case }\\end{aligned}$",
     "image": null
   },
   "videoSolution": {
-    "videoId": "4e8348a4cbc044ffa7884f2027722339",
+    "videoId": "201a5adf36aa4aea81d858b21ef57314",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/huoLubejs8Gwg.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/huoLubejs8Gwg.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/bhQS8Kk8Z5km6.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/bhQS8Kk8Z5km6.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6628114842d540dfcb148ecb",
@@ -60,23 +70,13 @@
     "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
   },
   "syllabusCategory": "noChange",
-  "previousYearPapers": [
-    {
-      "_id": "65c4c0c11d30997d3436bb02",
-      "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-01-30T09:00:00.000Z",
-      "isVisible": true,
-      "shortName": "2024 (30 Jan Shift 1)",
-      "title": "JEE Main 2024 (30 Jan Shift 1)"
-    }
-  ],
   "previousYear": {
-    "_id": "65c4c0c11d30997d3436bb02",
+    "_id": "664466ee278297dee60eda6a",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-01-30T09:00:00.000Z",
+    "heldOn": "2024-04-05T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (30 Jan Shift 1)",
-    "title": "JEE Main 2024 (30 Jan Shift 1)"
+    "shortName": "2024 (05 Apr Shift 1)",
+    "title": "JEE Main 2024 (05 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

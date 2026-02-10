@@ -1,58 +1,58 @@
 {
-  "_id": "67a2ee8fc8b73881fdaea0f4",
+  "_id": "68542c667c09d044e4c1a1c8",
   "type": "singleCorrect",
-  "level": 1,
+  "level": 3,
   "questionLabels": [],
   "previousYearPapers": [
     {
-      "_id": "67a2eb5ca6d4514bf2d97609",
+      "_id": "6852f2ff9d87935e0d80978c",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2025-01-22T14:00:00.000Z",
+      "heldOn": "2025-04-02T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2025 (22 Jan Shift 2)",
-      "title": "JEE Main 2025 (22 Jan Shift 2)"
+      "shortName": "2025 (2 Apr Shift 2)",
+      "title": "JEE Main 2025 (2 Apr Shift 2)"
     }
   ],
   "question": {
-    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/5FlfMWzwy0aiLAvnj59Jc3GPW697E-n3QryfnQL6ljc.original.fullsize.png\"/><br/>\n\n\n\n\\begin{array}{c|c|c} A & B & Y \\\\\\hline 0 & 0 & 1 \\\\0 & 1 & 1 \\\\1 & 0 & 0 \\\\1 & 1 & 1\\end{array}\n\n\nTo obtain the given truth table, following logic gate should be placed at G:",
+    "text": "In the digital circuit shown in the figure, for the given inputs the P and Q values are :<br/><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/BKSL_LTevT0TaTScfrimmbqvp1sOUyKo0k5HuFgyL2c.original.fullsize.png\"/>",
     "image": null
   },
   "options": [
     {
-      "id": "hNzb5",
-      "text": "OR Gate",
+      "id": "bboCJ",
+      "text": "$P=1, Q=1$",
       "image": null,
       "isCorrect": false
     },
     {
-      "id": "olxNY",
-      "text": "AND Gate",
-      "image": null,
-      "isCorrect": false
-    },
-    {
-      "id": "vv1Lg",
-      "text": "NOR Gate",
+      "id": "2ydD9",
+      "text": "$P=0, Q=0$",
       "image": null,
       "isCorrect": true
     },
     {
-      "id": "TzpsE",
-      "text": "NAND Gate",
+      "id": "h4u4y",
+      "text": "$P=0, Q=1$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "7fxw2",
+      "text": "$P=1, Q=0$",
       "image": null,
       "isCorrect": false
     }
   ],
   "correctValue": null,
   "solution": {
-    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/OaF_pJ0A_vJDbGOpMtI9J9VqVG0P0uPXnDMe6roMjus.original.fullsize.png\"><br>\n\n\n\nFor NOR gate : $\\overline{\\mathrm{A} \\overline{\\mathrm{B}}}=\\overrightarrow{\\mathrm{A}}+\\mathrm{B}$<img src=\"data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABQAAD/4QMvaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzE0NSA3OS4xNjM0OTksIDIwMTgvMDgvMTMtMTY6NDA6MjIgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE5IChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFRDQwREJDRkVFQzAxMUVGOTFFOEJFQjM4QUMyMjI0NCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFRDQwREJEMEVFQzAxMUVGOTFFOEJFQjM4QUMyMjI0NCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkVENDBEQkNERUVDMDExRUY5MUU4QkVCMzhBQzIyMjQ0IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkVENDBEQkNFRUVDMDExRUY5MUU4QkVCMzhBQzIyMjQ0Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+/+4ADkFkb2JlAGTAAAAAAf/bAIQAAgICAgICAgICAgMCAgID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\"><br>",
+    "text": "<img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/tvs3rxSLvtWUptAtc-jmBGCMhfklb07jRBmWQ8okLQk.original.fullsize.png\"/>",
     "image": null
   },
   "videoSolution": {
-    "videoId": "1150eb5580914f5986c459f2faabee85",
+    "videoId": "ab0a749475e6419091f27b38449d8c7d",
     "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/9vmebBxmWeh0P.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/9vmebBxmWeh0P.480.jpeg",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/GtESVac2M6zGr.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/GtESVac2M6zGr.480.jpeg",
     "premiumModules": [
       {
         "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
@@ -71,12 +71,12 @@
   },
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "67a2eb5ca6d4514bf2d97609",
+    "_id": "6852f2ff9d87935e0d80978c",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2025-01-22T14:00:00.000Z",
+    "heldOn": "2025-04-02T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2025 (22 Jan Shift 2)",
-    "title": "JEE Main 2025 (22 Jan Shift 2)"
+    "shortName": "2025 (2 Apr Shift 2)",
+    "title": "JEE Main 2025 (2 Apr Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

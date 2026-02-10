@@ -1,8 +1,8 @@
 {
   "index": 4,
-  "type": "singleCorrect",
+  "type": "numerical",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "The energy of a system is given as $\\mathrm{E}(\\mathrm{t})=\\alpha^3 \\mathrm{e}^{-\\beta t}$, where t is the time and $\\beta=0.3 \\mathrm{~s}^{-1}$. The errors in the measurement of $\\alpha$ and $t$ are $1.2 \\%$ and $1.6 \\%$, respectively. At $t=5 \\mathrm{~s}$, maximum percentage error in the energy is :"
+    "text": "A physical quantity $Q$ is related to four observables $a, b, c, d$ as follows :\n$\\mathrm{Q}=\\frac{\\mathrm{ab}{ }^4}{\\mathrm{~cd}}$\n\nwhere, $\\mathrm{a}=(60 \\pm 3) \\mathrm{Pa} ; \\mathrm{b}=(20 \\pm 0.1) \\mathrm{m} ; \\mathrm{c}=(40 \\pm 0.2) \\mathrm{Nsm}^{-2}$ and $\\mathrm{d}=(50 \\pm 0.1) \\mathrm{m}$, then the percentage error in Q is $\\frac{x}{1000}$, where $x=$ ________ ."
   },
-  "options": [
-    {
-      "text": "$6 \\%$",
-      "is_correct": true
-    },
-    {
-      "text": "$8.4 \\%$",
-      "is_correct": false
-    },
-    {
-      "text": "$11.6 \\%$",
-      "is_correct": false
-    },
-    {
-      "text": "$4 \\%$",
-      "is_correct": false
-    }
-  ],
-  "correct_answer": [
-    "A"
-  ],
+  "options": [],
+  "correct_answer": "7700",
   "solution": {
-    "text": "$\\begin{aligned}\n& d E=3 \\alpha^2 d \\alpha e^{-\\beta t}+\\alpha^3 e^{-\\beta t}(-\\beta) d t \\\\\n& \\frac{d E}{E}=\\frac{3 d \\alpha}{\\alpha}+(-\\beta) d t \\\\\n& \\frac{\\Delta E}{E}=\\frac{3 \\Delta \\alpha}{\\alpha}+\\beta \\Delta t\n\\end{aligned}$\n(\\%) $\\Delta t=1.6 \\% \\times 5=8 \\%$\n$\\%\\left(\\frac{3 \\Delta \\alpha}{\\alpha}\\right)=3 \\times 1.2 \\%=3.6 \\%$\nPutting values we get\n$\\Rightarrow 3.6+8 \\times 0.3=6 \\%$"
+    "text": "$\\begin{aligned} & \\mathrm{Q}=\\frac{\\mathrm{ab}^4}{\\mathrm{~cd}} \\\\ & \\Rightarrow \\frac{\\Delta \\mathrm{Q}}{\\mathrm{Q}} \\times 100=\\left[\\frac{\\Delta \\mathrm{a}}{\\mathrm{a}}+4 \\frac{\\Delta \\mathrm{~b}}{\\mathrm{~b}}+\\frac{\\Delta \\mathrm{c}}{\\mathrm{c}}+\\frac{\\Delta \\mathrm{d}}{\\mathrm{d}}\\right] \\times 100 \\\\ & \\Rightarrow \\frac{\\mathrm{x}}{1000}=\\left[\\frac{3}{60}+4\\left(\\frac{0.1}{20}\\right)+\\left(\\frac{0.2}{40}\\right)+\\frac{0.1}{50}\\right] \\times 100 \\\\ & \\Rightarrow \\mathrm{x}=7700\\end{aligned}$"
   }
 }

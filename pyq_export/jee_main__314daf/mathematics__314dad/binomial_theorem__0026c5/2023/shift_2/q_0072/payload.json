@@ -1,8 +1,8 @@
 {
   "index": 72,
-  "type": "numerical",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2023 (01 Feb Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2023 (08 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "If the term without <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> in the expansion of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><msup><mi>x</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></msup><mo>+</mo><mfrac><mi>&#945;</mi><msup><mi>x</mi><mn>3</mn></msup></mfrac></mrow></mfenced><mn>22</mn></msup></math> is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7315</mn><mo>&#160;</mo></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"|\" close=\"|\"><mi>&#945;</mi></mfenced></math> is equal to _____ ."
+    "text": "The absolute difference of the coefficients of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>10</mn></msup></math>&nbsp;and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>7</mn></msup></math>&nbsp;in the expansion of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>x</mi></mrow></mfrac></mrow></mfenced><mn>11</mn></msup></math> is equal to"
   },
-  "options": [],
-  "correct_answer": "1",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>13</mn><mn>3</mn></msup><mo>-</mo><mn>13</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>11</mn><mn>3</mn></msup><mo>-</mo><mn>11</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>3</mn></msup><mo>-</mo><mn>10</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>3</mn></msup><mo>-</mo><mn>12</mn></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
   "solution": {
-    "text": "<p>General term in the binomial expansion of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><msup><mi>x</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></msup><mo>+</mo><mfrac><mi>&#945;</mi><msup><mi>x</mi><mn>3</mn></msup></mfrac></mrow></mfenced><mn>22</mn></msup></math>&nbsp;is</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mn>22</mn></mmultiscripts><msup><mfenced><msup><mi>x</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></msup></mfenced><mrow><mn>22</mn><mo>-</mo><mi>r</mi></mrow></msup><msup><mfenced><mfrac><mi>&#945;</mi><msup><mi>x</mi><mn>3</mn></msup></mfrac></mfenced><mi>r</mi></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>T</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mn>22</mn></mmultiscripts><msup><mfenced><mi>x</mi></mfenced><mfrac><mrow><mn>44</mn><mo>-</mo><mn>11</mn><mi>r</mi></mrow><mn>3</mn></mfrac></msup><msup><mi>&#945;</mi><mi>r</mi></msup></math></p><p>For term independent of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>,&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>44</mn><mo>-</mo><mn>11</mn><mi>r</mi></mrow><mn>3</mn></mfrac><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>r</mi><mo>=</mo><mn>4</mn></math></p><p>So,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>5</mn></msub><mo>=</mo><mmultiscripts><mi>C</mi><mn>4</mn><none></none><mprescripts></mprescripts><none></none><mn>22</mn></mmultiscripts><msup><mi>&#945;</mi><mn>4</mn></msup><mo>=</mo><mn>7315</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfenced><mfrac><mrow><mn>22</mn><mo>!</mo></mrow><mrow><mn>4</mn><mo>!</mo><mo>&#215;</mo><mn>18</mn><mo>!</mo></mrow></mfrac></mfenced><msup><mi>&#945;</mi><mn>4</mn></msup><mo>=</mo><mn>7315</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>7315</mn><msup><mi>&#945;</mi><mn>4</mn></msup><mo>=</mo><mn>7315</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msup><mi>&#945;</mi><mn>4</mn></msup><mo>=</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfenced close=\"|\" open=\"|\"><mi>&#945;</mi></mfenced><mo>=</mo><mn>1</mn></math></p>"
+    "text": "<blockquote><p>The given expansion is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>x</mi></mrow></mfrac></mrow></mfenced><mn>11</mn></msup></math>.</p><p>The&nbsp;general term in the binomial expansion of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mrow><mi>x</mi><mo>+</mo><mi>a</mi></mrow></mfenced><mi>n</mi></msup></math>&nbsp;is given by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mrow><mi>r</mi><mo>+</mo><mn mathvariant=\"italic\">1</mn></mrow></msub><mo mathvariant=\"italic\">=</mo><mmultiscripts><mi>C</mi><mi>r</mi><none></none><mprescripts></mprescripts><none></none><mi>n</mi></mmultiscripts><msup><mi>x</mi><mrow><mi>n</mi><mo mathvariant=\"italic\">-</mo><mi>r</mi></mrow></msup><msup><mi>a</mi><mi>r</mi></msup></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>T</mi><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mmultiscripts><mi>C</mi><mi>r</mi><none/><mprescripts/><none/><mn>11</mn></mmultiscripts><msup><mfenced><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfenced><mrow><mn>11</mn><mo>-</mo><mi>r</mi></mrow></msup><msup><mfenced><mfrac><mn>1</mn><mrow><mn>2</mn><mi>x</mi></mrow></mfrac></mfenced><mi>r</mi></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mi>r</mi><none/><mprescripts/><none/><mn>11</mn></mmultiscripts><mfenced><msup><mn>2</mn><mrow><mn>11</mn><mo>-</mo><mi>r</mi><mo>-</mo><mi>r</mi></mrow></msup></mfenced><msup><mi>x</mi><mrow><mn>22</mn><mo>-</mo><mn>2</mn><mi>r</mi><mo>-</mo><mi>r</mi></mrow></msup></math></p><p>Now for coefficient&nbsp;of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>7</mn></msup></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>22</mn><mo>-</mo><mn>3</mn><mi>r</mi><mo>=</mo><mn>7</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>r</mi><mo>=</mo><mn>5</mn></math></p><p>Coefficient of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>7</mn></msup></math>&nbsp;is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>5</mn><none/><mprescripts/><none/><mn>11</mn></mmultiscripts><mfenced><msup><mn>2</mn><mrow><mn>11</mn><mo>-</mo><mn>5</mn><mo>&#215;</mo><mn>2</mn></mrow></msup></mfenced></math></p><p>Now for coefficient of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>10</mn></msup><mo>&#8658;</mo><mn>22</mn><mo>-</mo><mn>3</mn><mi>r</mi><mo>=</mo><mn>10</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>r</mi><mo>=</mo><mn>4</mn></math></p><p>Coefficient of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>10</mn></msup></math>&nbsp;is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>4</mn><none/><mprescripts/><none/><mn>11</mn></mmultiscripts><mfenced><msup><mn>2</mn><mrow><mn>11</mn><mo>-</mo><mn>2</mn><mo>&#215;</mo><mn>4</mn></mrow></msup></mfenced></math></p><p>We need the absolute difference, we get it by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"|\" close=\"|\"><mrow><mmultiscripts><mi>C</mi><mn>5</mn><none/><mprescripts/><none/><mn>11</mn></mmultiscripts><mfenced><msup><mn>2</mn><mrow><mn>11</mn><mo>-</mo><mn>5</mn><mo>&#215;</mo><mn>2</mn></mrow></msup></mfenced><mo>-</mo><mmultiscripts><mi>C</mi><mn>4</mn><none/><mprescripts/><none/><mn>11</mn></mmultiscripts><mfenced><msup><mn>2</mn><mrow><mn>11</mn><mo>-</mo><mn>4</mn><mo>&#215;</mo><mn>2</mn></mrow></msup></mfenced></mrow></mfenced></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced open=\"|\" close=\"|\"><mrow><mn>924</mn><mo>-</mo><mn>2640</mn></mrow></mfenced><mo>=</mo><mn>1716</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>12</mn><mn>3</mn></msup><mo>-</mo><mn>12</mn></math></p><p>Hence the absolute difference&nbsp;is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>12</mn><mn>3</mn></msup><mo>-</mo><mn>12</mn></math>.</p></blockquote>"
   }
 }

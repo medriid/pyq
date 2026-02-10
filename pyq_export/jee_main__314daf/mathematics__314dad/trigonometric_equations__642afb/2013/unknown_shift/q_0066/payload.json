@@ -1,8 +1,8 @@
 {
   "index": 66,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2013 (22 Apr Online)",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2013 (23 Apr Online)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "unknown_shift"
   },
   "question": {
-    "text": "The number of solutions of the equation, $\\sin ^{-1} x=2 \\tan ^{-1} x$ (in principal values) is :"
+    "text": "The number of solutions of the equation $\\sin 2 x-2 \\cos x+4 \\sin x=4$ in the interval $[0,5 \\pi]$ is :"
   },
   "options": [
     {
-      "text": "\n1\n",
+      "text": "\n3\n",
       "is_correct": true
+    },
+    {
+      "text": "\n5\n",
+      "is_correct": false
     },
     {
       "text": "\n4\n",
       "is_correct": false
     },
     {
-      "text": "\n2\n",
-      "is_correct": false
-    },
-    {
-      "text": "\n3",
+      "text": "\n6",
       "is_correct": false
     }
   ],
@@ -38,6 +38,6 @@
     "A"
   ],
   "solution": {
-    "text": "Given equation is\n$$\n\\sin ^{-1} x=2 \\tan ^{-1} x\n$$\nNow, this equation has only one solution.\n$$\n\\begin{aligned}\n& \\therefore \\quad \\text { LHS }=\\sin ^{-1} 1=\\frac{\\pi}{2} \\\\\n& \\text { and } \\text { RHS }=2 \\tan ^{-1} 1=2 \\times \\frac{\\pi}{4}=\\frac{\\pi}{2}\n\\end{aligned}\n$$\nAlso, $x=1$ gives angle value as $\\frac{\\pi}{4}$ and $\\frac{5 \\pi}{4}$ $\\frac{5 \\pi}{4}$ is outside the principal value."
+    "text": "$$\n\\text { } \\begin{aligned}\n& \\sin 2 x-2 \\cos x+4 \\sin x=4 \\\\\n& \\Rightarrow 2 \\sin x \\cdot \\cos x-2 \\cos x+4 \\sin x-4=0 \\\\\n& \\Rightarrow(\\sin x-1)(\\cos x-2)=0\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& \\because \\cos x-2 \\neq 0, \\therefore \\sin x=1 \\\\\n& \\therefore \\quad x=\\frac{\\pi}{2}, \\frac{5 \\pi}{2}, \\frac{9 \\pi}{2}\n\\end{aligned}\n$$"
   }
 }

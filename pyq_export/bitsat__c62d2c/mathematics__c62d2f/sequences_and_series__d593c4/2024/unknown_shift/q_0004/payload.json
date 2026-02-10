@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cb79820319dd593c4",
+    "chapter_name": "Sequences and Series",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The sum of the infinite series\n$1+\\frac{5}{6}+\\frac{12}{6^2}+\\frac{22}{6^3}+\\frac{35}{6^4}+\\frac{51}{6^5}+\\frac{70}{6^6}+\\ldots .$. is equal\nto:"
+  },
+  "options": [
+    {
+      "text": "$\\frac{425}{216}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{429}{216}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{288}{125}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{280}{125}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $S=1+\\frac{5}{6}+\\frac{12}{6^2}+\\frac{22}{6^3}+\\frac{35}{6^4}+\\ldots$    .....(i)\n$\\frac{S}{6}=\\frac{1}{6}+\\frac{5}{6^2}+\\frac{12}{6^3}+\\frac{22}{6^4}+\\ldots$  ....(ii)\nOn subtracting (i) from (ii)\n$\\frac{5}{6} S=1+\\frac{4}{6}+\\frac{7}{6^2}+\\frac{10}{6^3}+\\frac{13}{6^4}+\\cdots$\n$\\frac{5}{36} S=\\frac{1}{6}+\\frac{4}{6^2}+\\frac{7}{6^3}+\\frac{10}{6^4}+\\frac{13}{6^5}+\\cdots$\non subtraction\n$\\frac{25}{36} S=1+\\frac{3}{6}+\\frac{3}{6^2}+\\frac{3}{6^3}+\\ldots=\\frac{8}{5}$\n$S=\\frac{8}{5} \\times \\frac{36}{25}=\\frac{288}{125}$"
+  }
+}

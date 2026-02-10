@@ -1,0 +1,83 @@
+{
+  "_id": "68542c877c09d044e4c1a275",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2ff9d87935e0d80978b",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-02T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (2 Apr Shift 1)",
+      "title": "JEE Main 2025 (2 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\mathrm{a} \\in \\mathbf{R}$ and A be a matrix of order $3 \\times 3$ such that $\\operatorname{det}(A)=-4$ and $A+I=\\left[\\begin{array}{lll}1 & a & 1 \\\\ 2 & 1 & 0 \\\\ a & 1 & 2\\end{array}\\right]$, where $I$ is the identity matrix of order $3 \\times 3$.<br/>If $\\operatorname{det}((a+1) \\operatorname{adj}((a-1) A))$ is $2^m 3^n, m, n \\in$ $\\{0,1,2, \\ldots .20\\}$, then $\\mathrm{m}+\\mathrm{n}$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "3FgE3",
+      "text": "14",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "KUOoM",
+      "text": "17",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "bHCf3",
+      "text": "15",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "9gUNl",
+      "text": "16",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\mathrm{A}=\\left[\\begin{array}{lll}1 & \\mathrm{a} & 1 \\\\ 2 & 1 & 0 \\\\ \\mathrm{a} & 1 & 2\\end{array}\\right]-\\mathrm{I}=\\left[\\begin{array}{lll}0 & \\mathrm{a} & 1 \\\\ 2 & 0 & 0 \\\\ \\mathrm{a} & 1 & 1\\end{array}\\right]$<br/>$\\begin{aligned} & |\\mathrm{A}|=-4 \\Rightarrow 2-2 \\mathrm{a}=-4 \\Rightarrow \\mathrm{a}=3 \\\\ & |(\\mathrm{a}+1) \\operatorname{adj}(\\mathrm{a}-1) \\mathrm{A}|=|4 \\operatorname{adj} 3 \\mathrm{~A}| \\\\ & =4^3|\\operatorname{adj} 3 \\mathrm{~A}| \\\\ & =4^3 \\times|3 \\mathrm{~A}|^{3-1}=64|3 \\mathrm{~A}|^2 \\\\ & =64 \\times\\left(3^3\\right)^2|\\mathrm{~A}|^2 \\\\ & =2^6 \\times 3^6 \\times 16 \\\\ & 2^{\\mathrm{m}} \\times 3^{\\mathrm{n}}=2^{10} \\times 3^6 \\\\ & \\therefore \\mathrm{~m}=10, \\mathrm{n}=6 \\\\ & \\Rightarrow \\mathrm{~m}+\\mathrm{n}=16\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "2ef4d3f7c00945a39f2383b588a3d761",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/V5VMYfFQqwEed.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/V5VMYfFQqwEed.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2ff9d87935e0d80978b",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-02T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (2 Apr Shift 1)",
+    "title": "JEE Main 2025 (2 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

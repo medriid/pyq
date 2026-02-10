@@ -1,0 +1,43 @@
+{
+  "index": 345,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256d4f8c6827c3ba126d",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A symmetrical form of the line of intersection of the planes $x=a y+b$ and $z=c y+d$ is"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{x-b}{a}=\\frac{y-1}{1}=\\frac{z-d}{c}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{x-b-a}{a}=\\frac{y-1}{1}=\\frac{z-d-c}{c}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\frac{\\mathrm{x}-\\mathrm{a}}{\\mathrm{b}}=\\frac{\\mathrm{y}-0}{1}=\\frac{\\mathrm{z}-\\mathrm{c}}{\\mathrm{d}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{\\mathrm{x}-\\mathrm{b}-\\mathrm{a}}{\\mathrm{b}}=\\frac{\\mathrm{y}-1}{0}=\\frac{\\mathrm{z}-\\mathrm{d}-\\mathrm{c}}{\\mathrm{d}}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given two planes:\n$$\nx-a y-b=0 \\text { and } c y-z+d=0\n$$\nLet, $l, m, n$ be the direction ratio of the required line. Since the required line is perpendicular to normal of both the plane, therefore $l-a m=0$ and $c m-n=0$ $\\Rightarrow l-a m+0 . n=0$ and $0 . l+c m-n=0$\n$$\n\\therefore \\quad \\frac{l}{a-0}=\\frac{m}{0+1}=\\frac{n}{c-0}\n$$\nHence, d.R of the required line are $a, 1$, $c$.\nHence, options (c) and (d) are rejected. Now, the point $(a+b, 1, c+d)$ satisfy the equation of the two given planes.\n$\\therefore$ Option (b) is correct."
+  }
+}

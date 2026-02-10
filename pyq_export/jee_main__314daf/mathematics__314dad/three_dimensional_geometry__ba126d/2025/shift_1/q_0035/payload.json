@@ -1,8 +1,8 @@
 {
   "index": 35,
   "type": "singleCorrect",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Let $\\mathrm{L}_1: \\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}$ and $\\mathrm{L}_2: \\frac{x-2}{3}=\\frac{y-4}{4}=\\frac{z-5}{5}$ be two lines. Then which of the following points lies on the line of the shortest distance between $L_1$ and $L_2$ ?"
+    "text": "Let \\(\\overrightarrow{\\mathrm{a}}=\\hat{i}+2 \\hat{j}+\\hat{k}\\) and \\(\\quad \\overrightarrow{\\mathrm{b}}=2 \\hat{i}+7 \\hat{j}+3 \\hat{k} . \\quad\\) Let \\(\\mathrm{L}_1: \\overrightarrow{\\mathrm{r}}=(-\\hat{i}+2 \\hat{j}+\\hat{k})+\\lambda \\overrightarrow{\\mathrm{a}}, \\lambda \\in \\mathbf{R}\\) and \\(\\mathrm{L}_2: \\overrightarrow{\\mathrm{r}}=(\\hat{j}+\\hat{k})+\\mu \\overrightarrow{\\mathrm{b}}, \\mu \\in \\mathbf{R}\\) be two lines. If the line \\(\\mathrm{L}_3\\) passes through the point of intersection of \\(\\mathrm{L}_1\\) and \\(L_2\\), and is parallel to \\(\\vec{a}+\\vec{b}\\), then \\(L_3\\) passes through the point :"
   },
   "options": [
     {
-      "text": "$\\left(\\frac{14}{3},-3, \\frac{22}{3}\\right)$",
+      "text": "\\((5,17,4)\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\((2,8,5)\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\((8,26,12)\\)",
       "is_correct": true
     },
     {
-      "text": "$\\left(-\\frac{5}{3},-7,1\\right)$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\left(2,3, \\frac{1}{3}\\right)$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\left(\\frac{8}{3},-1, \\frac{1}{3}\\right)$",
+      "text": "\\((-1,-1,1)\\)",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "A"
+    "C"
   ],
   "solution": {
-    "text": "$\\begin{aligned} & L_1: \\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4} \\\\ & L_2: \\frac{x-2}{3}=\\frac{y-4}{4}=\\frac{z-5}{5}\\end{aligned}$\n<img src=\"assets\\st0035_705fd468c793.png\"><br>\n$\\begin{aligned}\n& P(2 \\lambda+1,3 \\lambda+2,4 \\lambda+3) \\\\\n& Q(3 \\mu+2,4 \\mu+4,5 \\mu+5)\n\\end{aligned}$\n\nDr's of $P Q < 2 \\lambda-3 \\mu-1,3 \\lambda-4 \\mu-2$,\n$\\begin{aligned}\n& 4 \\lambda-5 \\mu-2> \\\\\n& P Q=\\left|\\begin{array}{lll}\n\\hat{i} & \\hat{j} & \\hat{k} \\\\\n2 & 3 & 4 \\\\\n3 & 4 & 5\n\\end{array}\\right|=-\\hat{i}+2 \\hat{j}-\\hat{k} \\\\\n& \\Rightarrow \\frac{2 \\lambda-3 \\mu-1}{-1}=\\frac{3 \\lambda-4 \\mu-2}{2}=\\frac{4 \\lambda-5 \\mu-2}{-1} \\\\\n& \\Rightarrow \\lambda=\\frac{1}{3} \\mu=\\frac{-1}{6} \\\\\n& \\Rightarrow P\\left(\\frac{5}{3}, 3, \\frac{13}{3}\\right) \\quad Q\\left(\\frac{3}{2}, \\frac{10}{3}, \\frac{25}{6}\\right)\n\\end{aligned}$\nDr's $P Q\\langle 1,-2,1\\rangle$\n$\\therefore \\quad \\text { Line }$\n$\\frac{y-\\frac{5}{3}}{1}=\\frac{y-3}{-2}=\\frac{y-\\frac{13}{3}}{1}$"
+    "text": "$\\begin{aligned} & L_1: \\overrightarrow{\\mathrm{r}}=(-\\hat{\\mathrm{i}}+2 \\hat{\\mathrm{j}}+\\hat{\\mathrm{k}})+\\lambda(\\hat{\\mathrm{i}}+2 \\hat{\\mathrm{j}}+\\hat{\\mathrm{k}}) \\\\ & \\Rightarrow \\overrightarrow{\\mathrm{r}}=(\\lambda-1) \\hat{\\mathrm{i}}+2(\\lambda+1) \\hat{\\mathrm{j}}+(\\lambda+1) \\hat{\\mathrm{k}} \\\\ & \\mathrm{L}_2: \\overrightarrow{\\mathrm{r}}=(\\hat{\\mathrm{j}}+\\hat{\\mathrm{k}})+\\mu(2 \\hat{\\mathrm{i}}+7 \\hat{\\mathrm{j}}+3 \\hat{\\mathrm{k}}) \\\\ & \\Rightarrow \\overrightarrow{\\mathrm{r}}=2 \\mu \\hat{\\mathrm{i}}+(1+7 \\mu) \\hat{\\mathrm{j}}+(1+3 \\mu) \\hat{\\mathrm{k}}\\end{aligned}$\n\n\nFor point of intersection equating respective components\n$\\begin{aligned}\n& \\Rightarrow \\lambda-1=2 \\mu \\\\\n& 2(\\lambda+1)=1+7 \\mu \\\\\n& \\lambda+1=1+3 \\mu\n\\end{aligned}$\n\nWe get\n$\\begin{aligned}\n& \\Rightarrow \\lambda=3 \\text { and } \\mu=1 \\\\\n& \\Rightarrow \\vec{a}+\\vec{b}=3 \\hat{i}+9 \\hat{j}+4 \\hat{k}\n\\end{aligned}$\n$\\mathrm{L}_3: \\overrightarrow{\\mathrm{r}}=2 \\hat{\\mathrm{i}}+8 \\hat{\\mathrm{j}}+4 \\hat{\\mathrm{k}}+\\alpha(3 \\hat{\\mathrm{i}}+9 \\hat{\\mathrm{j}}+4 \\hat{\\mathrm{k}})$\n\nFor $\\alpha=2, \\overrightarrow{\\mathrm{r}}=8 \\hat{\\mathrm{i}}+26 \\hat{\\mathrm{j}}+12 \\hat{\\mathrm{k}}$"
   }
 }

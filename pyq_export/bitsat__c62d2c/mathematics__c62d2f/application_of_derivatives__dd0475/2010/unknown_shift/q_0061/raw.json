@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e78a6f5bfc7ab78ae5c1",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d74",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2010-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2010",
+      "title": "BITSAT 2010"
+    }
+  ],
+  "question": {
+    "text": "Let \\(\\mathrm{f}(\\mathrm{x})=\\) \\(\\left\\{\\begin{array}{l}a x^2+1, x > 1 \\\\ x+a, x \\leq 1\\end{array}\\right.\\). Then \\(f(x)\\) is derivable at \\(x=1\\), if",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "WMogt",
+      "text": "\\(a=2\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "cFRdG",
+      "text": "\\(a=1\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "WvAAG",
+      "text": "\\(a=0\\)",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "LSwCz",
+      "text": "\\(a=1 / 2\\)",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\operatorname{Lf}^{\\prime}(1)=\\lim _{h \\rightarrow 0} \\frac{f(1-h)-f(1)}{-h} \\\\\n& =\\lim _{h \\rightarrow 0} \\frac{(1-h+a)-(1+a)}{-h}=\\lim _{h \\rightarrow 0} \\frac{-h}{-h}=1 \\\\\n& \\operatorname{Rf}^{\\prime}(1)=\\lim _{h \\rightarrow 0} \\frac{f(1+h)-f(1)}{h} \\\\\n& =\\lim _{h \\rightarrow 0} \\frac{\\left[a(1+h)^2+1\\right]-(1+a)}{h} \\\\\n& =\\lim _{h \\rightarrow 0}(a h+2 a)=2 a\n\\end{aligned}\\)\nSince f' (1) exists, \\(\\therefore L f^{\\prime}(1)=R f^{\\prime}(1) \\Rightarrow a=1 / 2\\)",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d74",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2010-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2010",
+    "title": "BITSAT 2010"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2021",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7e2daa1f081e2331f8",
+    "chapter_name": "Differentiation",
+    "year": "2021",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "$\\text { If } 2^{x}+2^{y}=2^{x+y} \\text {, then } \\frac{d y}{d x}=$"
+  },
+  "options": [
+    {
+      "text": "$2^{x-y} \\frac{2^{y}-1}{2^{x}-1}$",
+      "is_correct": false
+    },
+    {
+      "text": "$2^{x-y} \\frac{2^{y}-1}{1-2^{x}}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{2^{x}+2^{y}}{2^{x}-2^{y}}$",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "On differentiating\r\n\r\n$\\begin{array}{l}\r\n\r\n2^{x} \\log 2+2^{y} \\log 2 \\cdot \\frac{\\mathrm{dy}}{\\mathrm{dx}} \\\\\r\n\r\n=2^{x} \\cdot 2^{y} \\frac{\\mathrm{dy}}{\\mathrm{dx}} \\cdot \\log 2+2^{y} \\cdot 2^{x} \\log 2 \\\\\r\n\r\n\\Rightarrow 2^{x}+2^{y} \\frac{\\mathrm{dy}}{\\mathrm{dx}}=2^{x+y} \\frac{\\mathrm{dy}}{\\mathrm{dx}}+2^{x+y} \\\\\r\n\r\n\\Rightarrow \\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\frac{2^{x+y}-2^{x}}{2^{y}-2^{x+y}} \\\\\r\n\r\n\\Rightarrow \\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\frac{2^{x}+2^{y}-2^{x}}{2^{y}-2^{x}-2^{y}}=-2^{y-x}\r\n\r\n\\end{array}$"
+  }
+}

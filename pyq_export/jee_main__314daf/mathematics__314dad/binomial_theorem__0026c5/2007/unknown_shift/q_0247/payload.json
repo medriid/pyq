@@ -1,0 +1,43 @@
+{
+  "index": 247,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2007",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2007",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The sum of the series\n${ }^{20} \\mathrm{C}_0-{ }^{20} \\mathrm{C}_1+{ }^{20} \\mathrm{C}_2-{ }^{20} \\mathrm{C}_3+\\ldots-\\ldots+{ }^{20} \\mathrm{C}_{10} \\text { is }$"
+  },
+  "options": [
+    {
+      "text": "\n$-{ }^{20} \\mathrm{C}_{10}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{2}{ }^{20} \\mathrm{C}_{10}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$0$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n${ }^{20} \\mathrm{C}_{10}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$(1+\\mathrm{x})^{20}={ }^{20} \\mathrm{C}_0+{ }^{20} \\mathrm{C}_1 \\mathrm{x}+\\ldots+{ }^{20} \\mathrm{C}_{10} \\mathrm{x}{ }^{10}+\\ldots+{ }^{20} \\mathrm{C}_{20} \\mathrm{x}^{20}$\nput $\\mathrm{x}=-1$,\n$0={ }^{20} \\mathrm{C}_0-{ }^{20} \\mathrm{C}_1+\\ldots-{ }^{20} \\mathrm{C}_9+{ }^{20} \\mathrm{C}_{10}-{ }^{20} \\mathrm{C}_{11}+\\ldots+{ }^{20} \\mathrm{C}_{20}$\n$0=2\\left({ }^{20} \\mathrm{C}_0-{ }^{20} \\mathrm{C}_1+\\ldots-{ }^{20} \\mathrm{C}_9\\right)+{ }^{20} \\mathrm{C}_{10}$\n$\\Rightarrow{ }^{20} \\mathrm{C}_0-{ }^{20} \\mathrm{C}_1+\\ldots+{ }^{20} \\mathrm{C}_{10}=\\frac{1}{2}{ }^{20} \\mathrm{C}_{10}$."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 17,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "For $\\mathrm{a}, \\mathrm{b}>0$, let $f(x)=\\left\\{\\begin{array}{cc}\\frac{\\tan ((\\mathrm{a}+1) x)+\\mathrm{b} \\tan x}{x}, & x < 0 \\\\ 3, & x=0 \\\\ \\frac{\\sqrt{\\mathrm{a} x+\\mathrm{b}^2 x^2}-\\sqrt{\\mathrm{a} x}}{\\mathrm{~b} \\sqrt{\\mathrm{a}} x \\sqrt{x}}, & x>0\\end{array}\\right.$\nbe a continous function at $x=0$. Then $\\frac{\\mathrm{b}}{\\mathrm{a}}$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "6",
+      "is_correct": true
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    },
+    {
+      "text": "5",
+      "is_correct": false
+    },
+    {
+      "text": "8",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned} & \\lim _{x \\rightarrow 0} f(x)=f(0)=3 \\\\ & \\lim _{x \\rightarrow 0^{+}} \\frac{\\sqrt{a x+b^2 x^2}-\\sqrt{a x}}{b \\sqrt{a} x \\sqrt{x}}=3 \\\\ & \\lim _{x \\rightarrow 0^{+}} \\frac{a x+b^2 x^2-a x}{b \\sqrt{a} x^{3 / 2}\\left(\\sqrt{a x+b^2 x^2}+\\sqrt{a x}\\right)} \\\\ & \\lim _{x \\rightarrow 0^{+}} \\frac{b^2}{b \\sqrt{a}\\left(\\sqrt{a+b^2 x}+\\sqrt{a}\\right)} \\\\ & \\frac{b}{\\sqrt{a} \\cdot 2 \\sqrt{a}} \\Rightarrow \\frac{b}{2 a}=3 \\Rightarrow \\frac{b}{a}=6\\end{aligned}$"
+  }
+}

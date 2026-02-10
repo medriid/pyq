@@ -1,57 +1,62 @@
 {
-  "_id": "6682bd51ba0e94a3c4025be3",
-  "type": "numerical",
-  "level": 1,
+  "_id": "66446744970e6e9ab542d1bc",
+  "type": "singleCorrect",
+  "level": 3,
   "questionLabels": [],
-  "question": {
-    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mo>∫</mo><mrow><mo>−</mo><mi>π</mi><mo>/</mo><mn>2</mn></mrow><mrow><mi>π</mi><mo>/</mo><mn>2</mn></mrow></msubsup><mfrac><mrow><mn>8</mn><msqrt><mn>2</mn></msqrt><mi>cos</mi><mi>x</mi><mi>d</mi><mi>x</mi></mrow><mrow><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mi>sin</mi><mi>x</mi></mrow></msup></mrow></mfenced><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>sin</mi><mn>4</mn></msup><mi>x</mi></mrow></mfenced></mrow></mfrac><mo>=</mo><mi>α</mi><mi>π</mi><mo>+</mo><mi>β</mi><msub><mi>log</mi><mi>e</mi></msub><mfenced><mrow><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></mfenced></math>, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>,</mo><mo> </mo><mi>β</mi></math> are integers, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>α</mi><mn>2</mn></msup><mo>+</mo><msup><mi>β</mi><mn>2</mn></msup></math> equals __________",
-    "image": null
-  },
-  "options": [],
-  "correctValue": "8",
-  "solution": {
-    "text": "<p>Given: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><munderover><mo>∫</mo><mrow><mo>−</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow><mfrac><mi>π</mi><mn>2</mn></mfrac></munderover><mfrac><mrow><mn>8</mn><msqrt><mn>2</mn></msqrt><mi>cos</mi><mi>x</mi></mrow><mrow><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mi>sin</mi><mi>x</mi></mrow></msup></mrow></mfenced><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>sin</mi><mn>4</mn></msup><mi>x</mi></mrow></mfenced></mrow></mfrac><mi>d</mi><mi>x</mi><mo> </mo><mo> </mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mi>i</mi></mfenced></math></p><p>Applying <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>d</mo><mi>x</mi><mo>=</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mfenced><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>-</mo><mi>x</mi></mrow></mfenced><mo>d</mo><mi>x</mi></math> rule we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><munderover><mo>∫</mo><mrow><mo>−</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow><mfrac><mi>π</mi><mn>2</mn></mfrac></munderover><mfrac><mrow><mn>8</mn><msqrt><mn>2</mn></msqrt><mi>cos</mi><mi>x</mi><mfenced><msup><mi>e</mi><mrow><mi>sin</mi><mi>x</mi></mrow></msup></mfenced></mrow><mrow><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mi>sin</mi><mi>x</mi></mrow></msup></mrow></mfenced><mfenced><mrow><mn>1</mn><mo>+</mo><msup><mi>sin</mi><mn>4</mn></msup><mi>x</mi></mrow></mfenced></mrow></mfrac><mi>d</mi><mi>x</mi><mo> </mo><mo> </mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mrow><mi>i</mi><mi>i</mi></mrow></mfenced></math></p><p>Adding <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>i</mi></mfenced><mo> </mo><mtext>and</mtext><mo> </mo><mfenced><mrow><mi>i</mi><mi>i</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mn>2</mn><mi>I</mi><mo>=</mo><munderover><mo>∫</mo><mrow><mo>−</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow><mfrac><mi>π</mi><mn>2</mn></mfrac></munderover><mfrac><mrow><mn>8</mn><msqrt><mn>2</mn></msqrt><mi>cos</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>sin</mi><mn>4</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><munderover><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></munderover><mfrac><mrow><mn>8</mn><msqrt><mn>2</mn></msqrt><mi>cos</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>sin</mi><mn>4</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></math></p><p>Putting, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>sin</mi><mi>x</mi><mo>=</mo><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><munderover><mo>∫</mo><mn>0</mn><mn>1</mn></munderover><mfrac><mrow><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>4</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><munderover><mo>∫</mo><mn>0</mn><mn>1</mn></munderover><mfenced><mrow><mfrac><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><msup><mi>t</mi><mn>2</mn></msup></mfrac></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi>t</mi><mn>2</mn></msup></mfrac></mrow></mfrac><mo>−</mo><mfrac><mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><msup><mi>t</mi><mn>2</mn></msup></mfrac></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><msup><mi>t</mi><mn>2</mn></msup></mfrac></mrow></mfrac></mrow></mfenced><mi>d</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><munderover><mo>∫</mo><mn>0</mn><mn>1</mn></munderover><mfenced><mrow><mfrac><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><msup><mi>t</mi><mn>2</mn></msup></mfrac></mrow><mrow><msup><mfenced><mrow><mi>t</mi><mo>−</mo><mfrac><mn>1</mn><mi>t</mi></mfrac></mrow></mfenced><mn>2</mn></msup><mo>+</mo><mn>2</mn></mrow></mfrac><mo>−</mo><mfrac><mfenced><mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><msup><mi>t</mi><mn>2</mn></msup></mfrac></mrow></mfenced><mrow><msup><mfenced><mrow><mi>t</mi><mo>+</mo><mfrac><mn>1</mn><mi>t</mi></mfrac></mrow></mfenced><mn>2</mn></msup><mo>−</mo><mn>2</mn></mrow></mfrac></mrow></mfenced><mi>d</mi><mi>t</mi></math></p><p>Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>−</mo><mfrac><mn>1</mn><mi>t</mi></mfrac><mo>=</mo><mi>z</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>+</mo><mfrac><mn>1</mn><mi>t</mi></mfrac><mo>=</mo><mi>k</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mfenced close=\"]\" open=\"[\"><mrow><munderover><mo>∫</mo><mrow><mo>−</mo><mi>∞</mi></mrow><mn>0</mn></munderover><mfrac><mrow><mi>d</mi><mi>z</mi></mrow><mrow><msup><mi>z</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn></mrow></mfrac><mo>-</mo><munderover><mo>∫</mo><mi>∞</mi><mn>2</mn></munderover><mfrac><mrow><mi>d</mi><mi>k</mi></mrow><mrow><msup><mi>k</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn></mrow></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><msubsup><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac><msup><mi>tan</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mi>z</mi><msqrt><mn>2</mn></msqrt></mfrac></mrow></mfenced><mrow><mo>−</mo><mi>∞</mi></mrow><mn>0</mn></msubsup><mo>−</mo><msubsup><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mn>1</mn><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac><mi>ln</mi><mfenced><mfrac><mrow><mi>k</mi><mo>−</mo><msqrt><mn>2</mn></msqrt></mrow><mrow><mi>k</mi><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></mfrac></mfenced></mrow></mfenced><mi>∞</mi><mn>2</mn></msubsup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mi>π</mi><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac><mo>−</mo><mfrac><mn>1</mn><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac><mfenced close=\"]\" open=\"[\"><mrow><mi>ln</mi><mfrac><mrow><mn>2</mn><mo>−</mo><msqrt><mn>2</mn></msqrt></mrow><mrow><mn>2</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></mfrac></mrow></mfenced></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>I</mi><mo>=</mo><mn>2</mn><mi>π</mi><mo>+</mo><mn>2</mn><mi>log</mi><mfenced><mrow><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></mfenced></math></p><p>Comparing this value with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"[\"><mrow><mi>α</mi><mi>π</mi><mo>+</mo><mi>β</mi><msub><mi>log</mi><mi>e</mi></msub><mfenced><mrow><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></mfenced></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><mi>α</mi><mo>=</mo><mn>2</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⇒</mo><msup><mi>α</mi><mn>2</mn></msup><mo>+</mo><msup><mi>β</mi><mn>2</mn></msup><mo>=</mo><mn>8</mn></math></p>",
-    "image": null
-  },
-  "videoSolution": {
-    "videoId": "1eb8fae9ea304ffba2fcdb57badd81e5",
-    "provider": "vdocipher",
-    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/8fMCIRqmGmASR.480.jpeg",
-    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/8fMCIRqmGmASR.480.jpeg",
-    "premiumModules": [
-      {
-        "premiumModuleId": "6628114842d540dfcb148ecb",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "64c7e8e829737784b294e469",
-        "isFree": false
-      },
-      {
-        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
-        "isFree": false
-      }
-    ],
-    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
-  },
-  "syllabusCategory": "noChange",
   "previousYearPapers": [
     {
-      "_id": "65c4c0c11d30997d3436bb06",
+      "_id": "664466ef278297dee60eda6e",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2024-02-01T09:00:00.000Z",
+      "heldOn": "2024-04-08T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2024 (01 Feb Shift 1)",
-      "title": "JEE Main 2024 (01 Feb Shift 1)"
+      "shortName": "2024 (08 Apr Shift 1)",
+      "title": "JEE Main 2024 (08 Apr Shift 1)"
     }
   ],
+  "question": {
+    "text": "The value of $k \\in \\mathrm{N}$ for which the integral $I_n=\\int_0^1\\left(1-x^k\\right)^n d x, n \\in \\mathbb{N}$, satisfies $147 I_{20}=148 I_{21}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "FusFa",
+      "text": "14",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "R3JJt",
+      "text": "8",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "R2Qvw",
+      "text": "10",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "mF0Ys",
+      "text": "7",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & I_n=\\int_0^1\\left(1-x^k\\right)^n \\cdot 1 d x \\\\ & I_n=\\left(1-x^k\\right)^n \\cdot x-n k \\int_0^1\\left(1-x^k\\right)^{n-1} \\cdot x^{k-1} \\cdot d x \\\\ & I_n=n k \\int_0^1\\left[\\left(1-x^k\\right)^n-\\left(1-x^k\\right)^{n-1}\\right] d x \\\\ & I_n=n k I_n-n k I_n \\\\ & \\frac{I_n}{I_{n-1}}=\\frac{n k}{n k+1} \\\\ & \\frac{I_{21}}{I_{20}}=\\frac{21 k}{1+21 k} \\\\ & =\\frac{147}{148} \\Rightarrow k=7\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "65c4c0c11d30997d3436bb06",
+    "_id": "664466ef278297dee60eda6e",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2024-02-01T09:00:00.000Z",
+    "heldOn": "2024-04-08T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2024 (01 Feb Shift 1)",
-    "title": "JEE Main 2024 (01 Feb Shift 1)"
+    "shortName": "2024 (08 Apr Shift 1)",
+    "title": "JEE Main 2024 (08 Apr Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

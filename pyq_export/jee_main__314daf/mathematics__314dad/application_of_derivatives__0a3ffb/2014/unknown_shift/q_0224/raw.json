@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a64417cc3fb48d65e0c",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92ebde3d91842a5cf7d8",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2014-04-11T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2014 (11 Apr Online)",
+      "title": "JEE Main 2014 (11 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "For the curve $\\mathrm{y}=3 \\sin \\theta \\cos \\theta, \\mathrm{x}=\\mathrm{e}^\\theta \\sin \\theta$, $0 \\leq \\theta \\leq \\pi$, the tangent is parallel to $\\mathrm{x}$-axis when $\\theta$ is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "KeqtB",
+      "text": "\n$\\frac{3 \\pi}{4}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "gnZGd",
+      "text": "\n$\\frac{\\pi}{2}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "JkAAC",
+      "text": "\n$\\frac{\\pi}{4}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "BU8mZ",
+      "text": "\n$\\frac{\\pi}{6}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given, $y=3 \\sin \\theta \\cdot \\cos \\theta$\n$$\n\\begin{aligned}\n&\\frac{d y}{d \\theta}=3[\\sin \\theta(-\\sin \\theta)+\\cos \\theta(\\cos \\theta)] \\\\\n&\\frac{d y}{d \\theta}=3\\left[\\cos ^2 \\theta-\\sin ^2 \\theta\\right]=3 \\cos 2 \\theta . \\\\\n&\\text { and } x=\\mathrm{e}^\\theta \\sin \\theta \\\\\n&\\frac{d x}{d \\theta}=e^\\theta \\cos \\theta+\\sin \\theta e^\\theta \\\\\n&\\frac{d x}{d \\theta}=e^\\theta(\\sin \\theta+\\cos \\theta)\n\\end{aligned}\n$$\nDividing (1) by (2)\n$$\n\\begin{gathered}\n\\frac{d y}{d x}=\\frac{3 \\cos 2 \\theta}{e^\\theta(\\sin \\theta+\\cos \\theta)}=\\frac{3\\left(\\cos ^2 \\theta-\\sin ^2 \\theta\\right)}{e^\\theta(\\sin \\theta+\\cos \\theta)} \\\\\n\\frac{d y}{d x}=\\frac{3(\\cos \\theta+\\sin \\theta)(\\cos \\theta-\\sin \\theta)}{e^\\theta(\\sin \\theta+\\cos \\theta)} \\\\\n\\frac{d y}{d x}=\\frac{3(\\cos \\theta-\\sin \\theta)}{e^\\theta}\n\\end{gathered}\n$$\nGiven tangent is parallel to $x$-axis then\n$\\frac{d y}{d x}=0$\n$0=\\frac{3(\\cos \\theta-\\sin \\theta)}{e^\\theta}$\nor $\\cos \\theta-\\sin \\theta=0 \\Rightarrow \\cos \\theta=\\sin \\theta$\n$\\Rightarrow \\tan \\theta=1 \\Rightarrow \\tan \\theta=\\frac{\\tan \\pi}{4} \\Rightarrow \\theta=\\frac{\\pi}{4}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "outOfSyllabus",
+  "previousYear": {
+    "_id": "615d92ebde3d91842a5cf7d8",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2014-04-11T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2014 (11 Apr Online)",
+    "title": "JEE Main 2014 (11 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

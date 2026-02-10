@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65bf1",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7d2",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-09T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (09 Apr Online)",
+      "title": "JEE Main 2013 (09 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "If the surface area of a sphere of radius $r$ is increasing uniformly at the rate $8 \\mathrm{~cm}^2 / \\mathrm{s}$, then the rate of change of its volume is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "7YMdL",
+      "text": "\nconstant\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "JpzTZ",
+      "text": "\nproportional to $\\sqrt{r}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "vTfso",
+      "text": "\nproportional to $r^2$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "aWr97",
+      "text": "\nproportional to $r$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\mathrm{V}=\\frac{4}{3} \\pi r^3 \\Rightarrow \\frac{d \\mathrm{~V}}{d t}=4 \\pi r^2 \\cdot \\frac{d r}{d t} \\\\\n& \\mathrm{~S}=4 \\pi r^2 \\Rightarrow \\frac{d \\mathrm{~S}}{d t}=8 \\pi r \\cdot \\frac{d r}{d t} \\\\\n& \\Rightarrow 8=8 \\pi r \\frac{d r}{d t} \\Rightarrow \\frac{d r}{d t}=\\frac{1}{\\pi r}\n\\end{aligned}\n$$\nPutting the value of $\\frac{d r}{d t}$ in (i), we get\n$$\n\\frac{d \\mathrm{~V}}{d t}=4 \\pi r^2 \\times \\frac{1}{\\pi r}=4 r\n$$\n$\\Rightarrow \\frac{d \\mathrm{~V}}{d t}$ is proportional to $r$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7d2",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-09T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (09 Apr Online)",
+    "title": "JEE Main 2013 (09 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

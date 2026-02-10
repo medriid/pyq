@@ -1,0 +1,58 @@
+{
+  "_id": "67a2eea9c8b73881fdaea1d2",
+  "type": "numerical",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d9760c",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-24T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (24 Jan Shift 1)",
+      "title": "JEE Main 2025 (24 Jan Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $A$ be a $3 \\times 3$ matrix such that $X^T A X=O$ for all nonzero $3 \\times 1$ matrices $X=\\left[\\begin{array}{l}x \\\\ y \\\\ z\\end{array}\\right]$. If $\\mathbf{A}\\left[\\begin{array}{l}1 \\\\ 1 \\\\ 1\\end{array}\\right]=\\left[\\begin{array}{c}1 \\\\ 4 \\\\ -5\\end{array}\\right], \\mathbf{A}\\left[\\begin{array}{l}1 \\\\ 2 \\\\ 1\\end{array}\\right]=\\left[\\begin{array}{c}0 \\\\ 4 \\\\ -8\\end{array}\\right]$, and $\\operatorname{det}(\\operatorname{adj}(2(\\mathbf{A}+\\mathbf{1})))-2^\\alpha 3^\\beta 5^\\gamma, \\alpha, \\beta, \\gamma \\in N$, then $\\alpha^2+\\beta^2+\\gamma^2$ is_____.",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "44",
+  "solution": {
+    "text": "$\\begin{aligned}\n& X^{\\top} A X=0 \\\\\n& (x y z)\\left[\\begin{array}{lll}\na_1 & a_2 & a_3 \\\\\nb_1 & b_2 & b_3 \\\\\nc_1 & c_2 & c_3\n\\end{array}\\right]\\left[\\begin{array}{l}\nx \\\\\ny \\\\\nz\n\\end{array}\\right]=0 \\\\\n& (x y z)\\left[\\begin{array}{l}\na_1 x+a_2 y+a_3 z \\\\\nb_1 x+b_2 y+b_3 z \\\\\nc_1 x+c_2 y+c_3 z\n\\end{array}\\right]=0 \\\\\n& x\\left(a_1 x+a_2 y+a_3 z\\right)+y\\left(b_1 x+b_2 y+b_3 z\\right) \\\\\n& +z\\left(c_1 x+c_2 y+c_3 z\\right) \\\\\n& a_1=0, b_2=0, c_3=0 \\\\\n& a_2+b_1=0, a_3+c_1=0, b_3+c_2=0 \\\\\n& A=\\text { skew symmetric matrix } \\\\\n& A=\\left[\\begin{array}{ccc}\n0 & x & y \\\\\n-x & 0 & z \\\\\n-y & -z & 0\n\\end{array}\\right] ; A\\left[\\begin{array}{l}\n1 \\\\\n1 \\\\\n1\n\\end{array}\\right]=\\left[\\begin{array}{c}\n1 \\\\\n4 \\\\\n-5\n\\end{array}\\right] \\\\\n& \\Rightarrow\\left[\\begin{array}{ccc}\n0 & x & y \\\\\n-x & 0 & z \\\\\n-y & -z & 0\n\\end{array}\\right]\\left[\\begin{array}{l}\n1 \\\\\n1 \\\\\n1\n\\end{array}\\right]=\\left[\\begin{array}{c}\n1 \\\\\n4 \\\\\n-5\n\\end{array}\\right] \\\\\n& x+y=1 \\\\\n& -x+z=4 \\\\\n& y+z=5 \\\\\n& {\\left[\\begin{array}{ccc}\n0 & x & y \\\\\n-x & 0 & z \\\\\n-y & -z & 0\n\\end{array}\\right]\\left[\\begin{array}{l}\n1 \\\\\n2 \\\\\n1\n\\end{array}\\right]=\\left[\\begin{array}{c}\n1 \\\\\n4 \\\\\n-8\n\\end{array}\\right]} \\\\\n& 2 x+y=0 \\quad x=-1 \\\\\n& -x+z=4 \\quad y=2 \\\\\n& -y-2 z=-8 \\quad z=3\n\\end{aligned}$\n$\\begin{aligned} & A=\\left[\\begin{array}{ccc}0 & -1 & 2 \\\\ 1 & 0 & 3 \\\\ -2 & -3 & 0\\end{array}\\right] \\\\ & 2(A+l)=\\left[\\begin{array}{ccc}2 & -2 & 4 \\\\ 2 & 2 & 6 \\\\ -2 & -6 & 2\\end{array}\\right] \\\\ & 2(A+l)=120 \\\\ & \\Rightarrow \\operatorname{det}(\\operatorname{adj}(2 A+l)) \\\\ & \\quad=120^2=2^6 \\cdot 3^2 \\cdot 5^2 \\\\ & \\therefore \\quad \\alpha=6, \\beta=2, \\gamma=2 \\\\ & \\text { Hence } \\alpha^2+\\beta^2+\\gamma^2=6^2+2^2+2^2=44\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "1a58bd1725fb4eec96c0521324416306",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/kzxe95AuWURyA.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/kzxe95AuWURyA.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d9760c",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-24T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (24 Jan Shift 1)",
+    "title": "JEE Main 2025 (24 Jan Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

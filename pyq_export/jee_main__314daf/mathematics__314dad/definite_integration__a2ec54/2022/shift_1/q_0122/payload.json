@@ -1,0 +1,43 @@
+{
+  "index": 122,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2022 (26 Jul Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602562e745540e79a2ec54",
+    "chapter_name": "Definite Integration",
+    "year": "2022",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mfrac><mrow><mn>2</mn><mi>n</mi></mrow><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msup><mi>k</mi><mn>2</mn></msup></mrow></mfrac></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><msqrt><mfrac><mrow><mn>1</mn><mo>-</mo><mi>cos</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfrac></msqrt><mo>,</mo><mi>x</mi><mo>&#8712;</mo><mfenced><mrow><mn>0</mn><mo>,</mo><mn>1</mn></mrow></mfenced></math>, then:"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt><mi>f</mi><mfenced><mfrac><mi>a</mi><mn>2</mn></mfrac></mfenced><mo>=</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced><mfrac><mi>a</mi><mn>2</mn></mfrac></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mfrac><mi>a</mi><mn>2</mn></mfrac></mfenced><msup><mi>f</mi><mo>'</mo></msup><mfenced><mfrac><mi>a</mi><mn>2</mn></mfrac></mfenced><mo>=</mo><msqrt><mn>2</mn></msqrt></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt><mi>f</mi><mfenced><mfrac><mi>a</mi><mn>2</mn></mfrac></mfenced><mo>=</mo><msup><mi>f</mi><mo>'</mo></msup><mfenced><mfrac><mi>a</mi><mn>2</mn></mfrac></mfenced></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mfrac><mi>a</mi><mn>2</mn></mfrac></mfenced><mo>=</mo><msqrt><mn>2</mn></msqrt><msup><mi>f</mi><mo>'</mo></msup><mfenced><mfrac><mi>a</mi><mn>2</mn></mfrac></mfenced></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<blockquote><p>Given,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><munder><mi>lim</mi><mrow><mi>n</mi><mo>&#8594;</mo><mo>&#8734;</mo></mrow></munder><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mfrac><mrow><mn>2</mn><mi>n</mi></mrow><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msup><mi>k</mi><mn>2</mn></msup></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><munderover><mo>&#8721;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mfrac><mn>2</mn><mrow><mn>1</mn><mo>+</mo><msup><mfenced><mfrac><mi>k</mi><mi>n</mi></mfrac></mfenced><mn>2</mn></msup></mrow></mfrac><mo>=</mo><msubsup><mo>&#8747;</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>2</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>a</mi><mo>=</mo><mn>2</mn><msubsup><mfenced close=\"]\" open=\"[\"><mrow><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi>x</mi></mrow></mfenced><mn>0</mn><mn>1</mn></msubsup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>a</mi><mo>=</mo><mn>2</mn><mfenced close=\"]\" open=\"[\"><mrow><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>4</mn></mfrac><mo>-</mo><mn>0</mn></mrow></mfenced><mo>=</mo><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>2</mn></mfrac></math></p><p>Now,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><msqrt><mfrac><mrow><mn>1</mn><mo>-</mo><mi>cos</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>cos</mi><mi>x</mi></mrow></mfrac></msqrt></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mi>tan</mi><mfenced><mfrac><mi>x</mi><mn>2</mn></mfrac></mfenced><mo>;</mo><mi>x</mi><mo>&#8712;</mo><mfenced><mrow><mn>0</mn><mo>,</mo><mn>1</mn></mrow></mfenced></math></p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mfrac><mi>a</mi><mn>2</mn></mfrac></mfenced><mo>=</mo><mi>f</mi><mfenced><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>4</mn></mfrac></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>f</mi><mfenced><mfrac><mi>&#960;</mi><mn>4</mn></mfrac></mfenced><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>-</mo><mn>1</mn></math></p><p>And&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>&#39;</mo></msup><mfenced><mfrac><mi>&#960;</mi><mn>4</mn></mfrac></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>sec</mi><mn>2</mn></msup><mfenced><mfrac><mi>&#960;</mi><mn>8</mn></mfrac></mfenced><mo>=</mo><mfrac><msqrt><mn>2</mn></msqrt><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn></mrow></mfrac></math></p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>f</mi><mo>&#39;</mo></msup><mfenced><mfrac><mi>&#960;</mi><mn>4</mn></mfrac></mfenced><mo>=</mo><msqrt><mn>2</mn></msqrt><mi>f</mi><mfenced><mfrac><mi>&#960;</mi><mn>4</mn></mfrac></mfenced></math></p></blockquote>"
+  }
+}

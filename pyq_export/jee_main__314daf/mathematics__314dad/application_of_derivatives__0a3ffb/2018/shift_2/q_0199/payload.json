@@ -1,0 +1,43 @@
+{
+  "index": 199,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2018 (15 Apr Shift 2 Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2018",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $f(x)$ be a polynomial of degree 4 having extreme values at $x=1$ and $x=2$.\nIf $\\lim _{x \\rightarrow 0}\\left(\\frac{f(x)}{x^2}+1\\right)=3$ then $f(-1)$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{1}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{3}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{5}{2}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{9}{2}$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\because f(x)$ has extremum values at $x=1$ and $x=2$\n$\\because f^{\\prime}(1)=0$ and $f^{\\prime}(2)=0$\nAs, $f(x)$ is a polynomial of degree 4 .\nSuppose $f(x)=A x^4+B x^3+C x^2+D x+E$\n$$\n\\begin{aligned}\n&\\because \\lim _{x \\rightarrow 0}\\left(\\frac{f(x)}{x^2}+1\\right)=3 \\\\\n&\\Rightarrow \\lim _{x \\rightarrow 0}\\left(\\frac{A x^4+B x^3+C x^2+D x+E}{x^2}+1\\right)=3 \\\\\n&\\Rightarrow \\lim _{x \\rightarrow 0}\\left(A x^2+B x+C+\\frac{D}{x}+\\frac{E}{x^2}+1\\right)=3\n\\end{aligned}\n$$\nAs limit has finite value, so $D=0$ and $E=0$\nNow $A(0)^2+B(0)+C+0+0+1=3$\n$$\n\\begin{aligned}\n&\\Rightarrow c+1=3 \\Rightarrow c=2 \\\\\n&f^{\\prime}(x)=4 A x^3+3 B x^2+2 C x+D \\\\\n&f^{\\prime}(1)=0 \\Rightarrow 4 A(1)+3 B(1)+2 C(1)+D=0\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& \\Rightarrow 4 A+3 B=-4 \\\\\nf^{\\prime}(2)=0 & \\Rightarrow 4 A(8)+3 B(4)+2 C(2)+D=0 \\\\\n& \\Rightarrow 8 A+3 B=-2\n\\end{aligned}\n$$\nFrom equations (1) and (2), we get $A=\\frac{1}{2}$ and $B=-2$\nSo, $f(x)=\\frac{x^4}{2}-2 x^3+2 x^2$\nTherefore, $f(-1)=\\frac{(-1)^4}{2}-2(-1)^3+2(-1)^2$\n$$\n=\\frac{1}{2}+2+2=\\frac{9}{2}\n$$\nHence $f(-1)=\\frac{9}{2}$"
+  }
+}

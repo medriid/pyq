@@ -1,0 +1,43 @@
+{
+  "index": 127,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2005",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "61602543b704e497464ce913",
+    "chapter_name": "Limits",
+    "year": "2005",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\alpha$ and $\\beta$ be the distinct roots of $a x^2+b x+c=0$, then $\\lim _{x \\rightarrow \\alpha} \\frac{1-\\cos \\left(a x^2+b x+c\\right)}{(x-\\alpha)^2}$ is equal to"
+  },
+  "options": [
+    {
+      "text": "\n$\\frac{a^2}{2}(\\alpha-\\beta)^2$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n0\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$-\\frac{a^2}{2}(\\alpha-\\beta)^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\frac{1}{2}(\\alpha-\\beta)^2$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\text { Given limit }=\\lim _{x \\rightarrow \\alpha} \\frac{1-\\cos a(x-\\alpha)(x-\\beta)}{(x-\\alpha)^2}=\\lim _{x \\rightarrow \\alpha} \\frac{2 \\sin ^2\\left(a \\frac{(x-\\alpha)(x-\\beta)}{2}\\right)}{(x-\\alpha)^2} \\\\\n& =\\lim _{x \\rightarrow \\alpha} \\frac{2}{(x-\\alpha)^2} \\times \\frac{\\sin ^2\\left(a \\frac{(x-\\alpha)(x-\\beta)}{2}\\right)}{a^2(x-\\alpha)^2(x-\\beta)^2} \\times \\frac{a^2(x-\\alpha)^2(x-\\beta)^2}{4} \\\\\n& =\\frac{a^2(\\alpha-\\beta)^2}{2} .\n\\end{aligned}\n$$"
+  }
+}

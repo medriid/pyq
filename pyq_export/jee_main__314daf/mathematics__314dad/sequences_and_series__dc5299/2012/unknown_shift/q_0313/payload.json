@@ -1,0 +1,43 @@
+{
+  "index": 313,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2012 (07 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252c346c448f79dc5299",
+    "chapter_name": "Sequences and Series",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The difference between the fourth term and the first term of a Geometrical Progresssion is 52. If the sum of its first three terms is 26 , then the sum of the first six terms of the progression is"
+  },
+  "options": [
+    {
+      "text": "\n63\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n189\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n728\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n364",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $a, a r, a r^2, a r^3, a r^4, a r^5$ be six terms of a G.P. where ' $a$ ' is first term and $\\mathrm{r}$ is common ratio.\nAccording to given conditions, we have $a r^3-a=5 \\Rightarrow a\\left(r^3-1\\right)=52$ and $a+a r+a r^2=26$ $\\Rightarrow a\\left(1+r+r^2\\right)=26$\nTo find: $a\\left(1+r+r^2+r^3+r^4+r^5\\right)$\nConsider\n$$\n\\begin{aligned}\n& a\\left[1+r+r^2+r^3+r^4+r^5\\right] \\\\\n& =a\\left[1+r+r^2+r^3\\left(1+r+r^2\\right)\\right] \\\\\n& =a\\left[1+r+r^2\\right]\\left[1+r^3\\right]\n\\end{aligned}\n$$\nDivide (1) by (2), we get\n$$\n\\frac{r^3-1}{1+r+r^2}=2\n$$\nwe know $r^3-1=(r-1)\\left(1+r+r^2\\right)$\n$$\n\\begin{aligned}\n& \\therefore r-1=2 \\Rightarrow r=3 \\text { and } a=2 \\\\\n& \\therefore \\quad a\\left(1+r+r^2+r^3+r^4+r^5\\right) \\\\\n& \\quad=a\\left(1+r+r^2\\right)\\left(1+r^3\\right) \\\\\n& \\quad=2(1+3+9)(1+27) \\\\\n& \\quad=26 \\times 28=728\n\\end{aligned}\n$$"
+  }
+}

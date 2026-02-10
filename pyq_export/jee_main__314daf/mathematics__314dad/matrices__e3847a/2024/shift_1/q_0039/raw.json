@@ -1,0 +1,83 @@
+{
+  "_id": "6644671d970e6e9ab542d055",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "664466ee278297dee60eda6a",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2024-04-05T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (05 Apr Shift 1)",
+      "title": "JEE Main 2024 (05 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $A$ and $B$ be two square matrices of order 3 such that $|A|=3$ and $|B|=2$. Then $\\left|\\mathrm{A}^{\\mathrm{T}} \\mathrm{A}(\\operatorname{adj}(2 \\mathrm{~A}))^{-1}(\\operatorname{adj}(4 \\mathrm{~B}))(\\operatorname{adj}(\\mathrm{AB}))^{-1} \\mathrm{AA}^{\\mathrm{T}}\\right|$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "8Ipqd",
+      "text": "108",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "GziMS",
+      "text": "32",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "pK6wE",
+      "text": "81",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "V0GKz",
+      "text": "64",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & |\\mathrm{A}|=3,|\\mathrm{~B}|=2 \\\\ & \\left|\\mathrm{~A}^{\\mathrm{T}} \\mathrm{A}(\\operatorname{adj}(2 \\mathrm{~A}))^{-1}(\\operatorname{adj}(4 \\mathrm{~B}))(\\operatorname{adj}(\\mathrm{AB}))^{-1} \\mathrm{AA}^{\\mathrm{T}}\\right|\\end{aligned}$\n\\(\\begin{array}{ccc} =3 \\times 3 \\times \\mid \\left(\\operatorname{adj}(2 \\mathrm{~A})^{-1}|\\times| \\operatorname{adj}(4 \\mathrm{~B})| \\times|(\\operatorname{adj}(\\mathrm{AB}))^{-1}\\mid \\times 3 \\times 3\\right. \\\\ \\downarrow \\qquad\\qquad \\downarrow \\qquad\\qquad \\downarrow \\\\ \\frac{1}{|\\operatorname{adj}(2 \\mathrm{~A})|} \\qquad 2^{12} \\times 2^2 \\qquad \\frac{1}{|\\operatorname{adj}(\\mathrm{AB})|} \\end{array}\\)<br />$\\begin{aligned} & =\\frac{1}{2^6|\\operatorname{adj} \\mathrm{A}|} \\quad=\\frac{1}{|\\operatorname{adj} \\mathrm{B} \\cdot \\operatorname{adj} \\mathrm{A}|} \\\\ & =\\frac{1}{2^6 \\cdot 3^2} \\quad=\\frac{1}{2^2 \\cdot 3^2} \\\\ & =3^4 \\cdot \\frac{1}{2^6 \\cdot 3^2} \\cdot 2^{12} \\cdot 2^2 \\cdot \\frac{1}{2^2 \\cdot 3^2}=64 \\\\ & \\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "1f2c9346822f46879718eee643003ac9",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/ia9TCXPFFcWdQ.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/ia9TCXPFFcWdQ.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "664466ee278297dee60eda6a",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2024-04-05T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (05 Apr Shift 1)",
+    "title": "JEE Main 2024 (05 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

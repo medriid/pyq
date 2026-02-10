@@ -1,8 +1,8 @@
 {
   "index": 14,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (28 Jan Shift 1)",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Three defective oranges are accidently mixed with seven good ones and on looking at them, it is not possible to differentiate between them. Two oranges are drawn at random from the lot. If $x$ denote the number of defective oranges, then the variance of $x$ is"
+    "text": "The probability, of forming a 12 persons committee from 4 engineers, 2 doctors and 10 professors containing at least 3 engineers and at least 1 doctor, is:"
   },
   "options": [
     {
-      "text": "28/75",
+      "text": "$\\frac{129}{182}$",
       "is_correct": true
     },
     {
-      "text": "18/25",
+      "text": "$\\frac{103}{182}$",
       "is_correct": false
     },
     {
-      "text": "$26 / 75$",
+      "text": "$\\frac{17}{26}$",
       "is_correct": false
     },
     {
-      "text": "$14 / 25$",
+      "text": "$\\frac{19}{26}$",
       "is_correct": false
     }
   ],
@@ -38,6 +38,6 @@
     "A"
   ],
   "solution": {
-    "text": "There are 3 bad oranges and 7 good oranges. $\\therefore \\quad X=$ number of bad oranges drawn.\n<img src=\"assets\\st0014_762cc055b23c.png\"><br>\n$\\therefore$ Variance\n$\\begin{aligned}\n& =0^2 \\cdot \\frac{{ }^7 C_2}{{ }^{10} C_2}+1^2 \\cdot\\left(\\frac{3 \\times 7}{{ }^{10} C_2}\\right)+2^2\\left(\\frac{3}{{ }^{10} C_2}\\right) \\\\\n& \\quad-\\left(0+1 \\cdot \\frac{3 \\times 7}{{ }^{10} C_2}+2 \\cdot \\frac{3}{{ }^{10} C_2}\\right)^2 \\\\\n& =\\frac{28}{75}\n\\end{aligned}$"
+    "text": "$\\begin{aligned}<br/>& 3 \\text { engineering }+1 \\text { doctor }+8 \\text { Prof } \\rightarrow{ }^4 \\mathrm{C}_3 \\cdot{ }^2 \\mathrm{C}_1 \\cdot{ }^{10} \\mathrm{C}_8 \\\\\n& =360 \\\\\n& 3 \\text { engineering }+2 \\text { doctors }+7 \\text { Prof } \\rightarrow{ }^4 \\mathrm{C}_3 \\cdot{ }^2 \\mathrm{C}_2 \\cdot{ }^{10} \\mathrm{C}_7 \\\\\n& =480 \\\\\n& 4 \\text { engineering }+1 \\text { doctor }+7 \\text { Prof } \\rightarrow{ }^4 \\mathrm{C}_4 \\cdot{ }^2 \\mathrm{C}_1 \\cdot{ }^{10} \\mathrm{C}_7 \\\\\n& =240 \\\\\n& 4 \\text { engineering }+2 \\text { doctors }+6 \\text { Prof } \\rightarrow{ }^4 \\mathrm{C}_4 \\cdot{ }^2 \\mathrm{C}_2 \\cdot{ }^{10} \\mathrm{C}_6 \\\\\n& =210<br/>\\end{aligned}$<br/>Total $=1290$<br/>Req. probability $=\\frac{1290}{{ }^{16} \\mathrm{C}_{12}}=\\frac{1290}{1820}=\\frac{129}{182}$"
   }
 }

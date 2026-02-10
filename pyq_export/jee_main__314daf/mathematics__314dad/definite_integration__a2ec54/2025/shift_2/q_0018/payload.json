@@ -1,8 +1,8 @@
 {
   "index": 18,
   "type": "singleCorrect",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (3 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "If $\\mathrm{I}=\\int_0^{\\frac{\\pi}{2}} \\frac{\\sin ^{\\frac{3}{2}} x}{\\sin ^{\\frac{3}{2}} x+\\cos ^{\\frac{3}{2}} x} \\mathrm{~d} x$, then $\\int_0^{21} \\frac{x \\sin x \\cos x}{\\sin ^4 x+\\cos ^4 x} \\mathrm{~d} x$ equals :"
+    "text": "The integral $\\int_0^\\pi \\frac{8 x d x}{4 \\cos ^2 x+\\sin ^2 x}$ is equal to"
   },
   "options": [
     {
-      "text": "$\\frac{\\pi^2}{12}$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{\\pi^2}{4}$",
-      "is_correct": false
-    },
-    {
-      "text": "$\\frac{\\pi^2}{16}$",
+      "text": "$2 \\pi^2$",
       "is_correct": true
     },
     {
-      "text": "$\\frac{\\pi^2}{8}$",
+      "text": "$4 \\pi^2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\pi^2$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{3 \\pi^2}{2}$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "C"
+    "A"
   ],
   "solution": {
-    "text": "$\\begin{aligned}\n& I=\\int_0^{\\frac{\\pi}{2}} \\frac{(\\sin x)^{\\frac{3}{2}} d x}{(\\sin x)^{\\frac{3}{2}} x+(\\cos x)^{\\frac{3}{2}}}=\\int_0^{\\frac{\\pi}{2}} \\frac{\\sin ^{\\frac{3}{2}}\\left(\\frac{\\pi}{2}-x\\right) d x}{\\sin ^{\\frac{3}{2}}\\left(\\frac{\\pi}{2}-x\\right)+\\cos ^{\\frac{3}{2}}\\left(\\frac{\\pi}{2}-x\\right)} \\\\\n& \\Rightarrow \\text { Adding } 2 l=\\int_0^{\\frac{\\pi}{2}} \\frac{(\\sin x)^{\\frac{3}{2}}+(\\cos x)^{\\frac{3}{2}}}{(\\sin x)^{\\frac{3}{2}}+(\\cos x)^{\\frac{3}{2}}} d x=\\frac{\\pi}{2} \\\\\n& I_0=\\int_0^{\\frac{\\pi}{2}} \\frac{x \\sin x \\cos x}{\\sin ^4 x+\\cos ^4 x} d x=\\int_0^{\\frac{\\pi}{2}} \\frac{\\left(\\frac{\\pi}{2}-x\\right) \\sin x \\cos x}{(\\sin x)^4+(\\cos x)^4} d x\n\\end{aligned}$\nAdding, $2 I_0=\\int_0^{\\frac{\\pi}{2}} \\frac{\\frac{\\pi}{2}(\\sin x) \\cos x}{\\left(\\sin ^4 x+\\cos ^4 x\\right)} d x$\n$\\Rightarrow I_0=\\frac{\\pi}{4} \\int_0^{\\frac{\\pi}{2}} \\frac{\\tan x\\left(\\sec ^2 x\\right) d x}{1+\\tan ^4 x}$\nput $\\tan ^2 x=t \\Rightarrow 2 \\tan x \\sec ^2 x d x=d t$\n$\\begin{aligned}\n& \\Rightarrow I_0=\\frac{\\pi}{4} \\int_0^{\\infty} \\frac{\\frac{d t}{2}}{\\left(1+t^2\\right)}=\\left.\\frac{\\pi}{8}\\left(\\tan ^{-1} t\\right)\\right|_0 ^{\\infty}=\\frac{\\pi}{8}\\left(\\frac{\\pi}{2}-0\\right) \\\\\n& \\Rightarrow I_0=\\frac{\\pi^2}{16}\n\\end{aligned}$"
+    "text": "$\\begin{aligned}<br/>& I=\\int_0^\\pi \\frac{8 x d x}{4 \\cos ^2 x+\\sin ^2 x} \\\\\n& I=\\int_0^\\pi \\frac{8(\\pi-x) d x}{4 \\cos ^2 x+\\sin ^2 x}<br/>\\end{aligned}$<br/>$2 \\mathrm{I}=8 \\pi \\int_0^\\pi \\frac{d x}{4 \\cos ^2 x+\\sin ^2 x}$<br/>$2 \\mathrm{I}=8 \\pi \\times 2 \\int_0^{\\pi / 2} \\frac{\\sec ^2 x}{4+\\tan ^2 \\mathrm{x}} \\mathrm{dx}$<br/>$\\begin{aligned}<br/>& \\mathrm{I}=8 \\pi \\int_0^{\\infty} \\frac{\\mathrm{dt}}{4+\\mathrm{t}^2}=8 \\pi \\times \\frac{1}{2}\\left(\\tan ^{-1} \\frac{\\mathrm{t}}{2}\\right]_0^{\\infty} \\\\\n& =4 \\pi \\times \\frac{\\pi}{2}=2 \\pi^2<br/>\\end{aligned}$<br/>option (1)"
   }
 }

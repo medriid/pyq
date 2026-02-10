@@ -1,0 +1,58 @@
+{
+  "_id": "68542c7d7c09d044e4c1a240",
+  "type": "numerical",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2ff9d87935e0d80978c",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-02T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (2 Apr Shift 2)",
+      "title": "JEE Main 2025 (2 Apr Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $y=y(x)$ be the solution of the differential equation $\\frac{d y}{d x}+2 y \\sec ^2 x=2 \\sec ^2 x+3 \\tan x \\cdot \\sec ^2 x$ such that $\\mathrm{y}(0)=\\frac{5}{4}$. Then $12\\left(\\mathrm{y}\\left(\\frac{\\pi}{4}\\right)-\\mathrm{e}^{-2}\\right)$ is equal to _______.",
+    "image": null
+  },
+  "options": [],
+  "correctValue": "21",
+  "solution": {
+    "text": "$\\begin{aligned} \\text { I.F. } & =\\mathrm{e}^{\\int 2 \\sec ^2 x d x} \\\\ & =\\mathrm{e}^{2 \\tan x}\\end{aligned}$<br/>Solution of diff. eq.<br/>$\\begin{gathered}y \\cdot e^{2 \\tan x}=\\int e^{2 \\tan x}\\left(2 \\sec ^2 x+3 \\tan x \\cdot \\sec ^2 x\\right) d x \\\\ y \\cdot e^{2 \\tan x}=\\int e^{2 \\tan x} \\cdot\\left(2 \\sec ^2 x\\right) d x+\\int e^{2 \\tan x} \\cdot\\left(3 \\tan x \\cdot \\sec ^2 x\\right) d x\\end{gathered}$<br/>y. $\\mathrm{e}^{2 \\tan x}=\\mathrm{e}^{2 \\tan x} \\cdot 2 \\tan x-\\int \\mathrm{e}^{2 \\tan x} \\cdot 2 \\sec ^2 x \\times 2 \\tan x d x+\\int \\mathrm{e}^{2 \\tan x} \\cdot 3 \\tan x \\cdot \\sec ^2 x d x$<br/>$\\begin{aligned} & y \\cdot e^{2 \\tan x}=2 \\tan x \\cdot e^{2 \\tan x}-\\int \\mathrm{e}^{2 \\tan x} \\cdot \\tan x \\sec ^2 x d x \\\\ & y . e^{2 \\tan x}=2 \\tan x \\cdot e^{2 \\tan x}-\\frac{\\tan x \\cdot e^{2 \\tan x}}{2}+\\frac{e^{2 \\tan x}}{4}+C\\end{aligned}$<br/>$\\begin{aligned} & y=2 \\tan x-\\frac{\\tan x}{2}+\\frac{1}{4}+\\mathrm{Ce}^{-2 \\tan x} \\\\ & x=0, y=\\frac{5}{4} \\\\ & c=1\\end{aligned}$<br/>$\\mathrm{y}\\left(\\frac{\\pi}{4}\\right)=\\frac{7}{4}+\\mathrm{e}^{-2}$<br/>Then $12\\left(y\\left(\\frac{\\pi}{4}\\right)-\\mathrm{e}^{-2}\\right)=12\\left(\\frac{7}{4}\\right)=21$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "7c132277b4344816af2bd87123d9f5e5",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/sVEZd6wydXEsC.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/sVEZd6wydXEsC.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2ff9d87935e0d80978c",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-02T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (2 Apr Shift 2)",
+    "title": "JEE Main 2025 (2 Apr Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

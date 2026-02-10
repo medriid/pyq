@@ -1,0 +1,43 @@
+{
+  "index": 6,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7794f6528d292916a7",
+    "chapter_name": "Quadratic Equation",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Solution of $2^x+2^{|x|} \\geq 2 \\sqrt{2}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\left(-\\infty, \\log _2(\\sqrt{2}+1)\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$(0, \\infty)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(\\frac{1}{2}, \\log _2(\\sqrt{2}-1)\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(-\\infty, \\log _2(\\sqrt{2}-1)\\right] \\cup\\left[\\frac{1}{2}, \\infty\\right)$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$2^x+2^{|x|} \\geq 2 \\sqrt{2}$ ...(i)<br />Case I: $x \\geq 0$, then Eq. (i) becomes<br />$2^x+2^x \\geq 2 \\sqrt{2}$<br />$\\Rightarrow 2^x \\geq \\sqrt{2} \\Rightarrow x \\geq \\frac{1}{2}$<br />Case II: $x < 0$, then Eq. (i) becomes<br />$2^x+2^{-x} \\geq 2 \\sqrt{2}$<br />$\\Rightarrow t+\\frac{1}{t} \\geq 2 \\sqrt{2}$, where $2^x=t$<br />$\\Rightarrow t^2-2 \\sqrt{2} t+1 \\geq 0$<br />$\\Rightarrow x \\leq \\log _2(\\sqrt{2}-1)$<br />Also, $0 < \\sqrt{2}-1 < 1, \\log _2(\\sqrt{2}-1) < 0$.<br />$\\therefore$ The solution is<br />$\\left.\\left(-\\infty, \\log _2(\\sqrt{2}-1)\\right)\\right] \\cup\\left[\\frac{1}{2}, \\infty\\right)$"
+  }
+}

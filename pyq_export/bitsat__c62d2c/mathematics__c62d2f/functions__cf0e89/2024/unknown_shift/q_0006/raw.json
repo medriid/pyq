@@ -1,0 +1,63 @@
+{
+  "_id": "67726d00c49e8ef28ee2b37f",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6414",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 1)",
+      "title": "BITSAT 2024 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "$f(x)=\\sin x+\\cos x, g(x)=x^2-1$, then $g(f(x))$ is invertible if",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "hsE0s",
+      "text": "$\\frac{-\\pi}{4} \\leq x \\leq \\frac{\\pi}{4}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "UpZlv",
+      "text": "$\\frac{-\\pi}{2} \\leq x \\leq 0$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Lltvh",
+      "text": "$\\frac{-\\pi}{2} \\leq x \\leq \\pi$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "xq73q",
+      "text": "$0 \\leq x \\leq \\frac{\\pi}{2}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given that, $f(x)=\\sin x+\\cos x$\n$g(x)=x^2-1$\n$g[f(x)]=(\\sin x+\\cos x)^2-1$\n$=\\sin ^2 x+\\cos ^2 x+2 \\sin x \\cos x-1$\n$=1+\\sin 2 x-1=\\sin 2 x$\n$\\left(\\because \\sin ^2 x+\\cos ^2 x=1, \\sin x=2 \\sin x \\cos x\\right)$\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/bitsat/das8psdkef8Jpeb0nqSuEub-8U_ijwhvC_pHDla6qhI.original.fullsize.png\"/>\nAmong the given options, $\\sin 2 x$ is monotonous\n(here strictly increasing) in $-\\frac{\\pi}{4} \\leq x \\leq \\frac{\\pi}{4}$.\nSo, $g(f(x))$ is invertible in $-\\frac{\\pi}{4} \\leq x \\leq \\frac{\\pi}{4}$.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6414",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 1)",
+    "title": "BITSAT 2024 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

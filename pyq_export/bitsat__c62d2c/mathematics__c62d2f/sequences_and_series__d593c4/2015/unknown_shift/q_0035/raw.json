@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7d06f5bfc7ab78ae81e",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d79",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "BITSAT 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "The value of $\\frac{3}{4}+\\frac{15}{16}+\\frac{63}{64}+\\ldots$ upto n terms is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "EaHne",
+      "text": "$n-\\frac{4^{n}}{3}-\\frac{1}{3}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "xOhdr",
+      "text": "$\\mathrm{n}+\\frac{4^{-\\mathrm{n}}}{3}-\\frac{1}{3}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "eUhrN",
+      "text": "$n+\\frac{4^{n}}{3}-\\frac{1}{3}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "o1T0F",
+      "text": "$\\mathrm{n}-\\frac{4^{-\\mathrm{n}}}{3}+\\frac{1}{3}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Consider $\\frac{3}{4}+\\frac{15}{16}+\\frac{63}{64}+\\ldots$ upto $\\mathrm{n}$ terms\r\n\r\n$=\\frac{2^{2}-1}{2^{2}}+\\frac{2^{4}-1}{2^{4}}+\\frac{2^{6}-1}{2^{6}}$ upto n term\r\n\r\n$=\\left(1-\\frac{1}{2^{2}}\\right)+\\left(1-\\frac{1}{2^{4}}\\right)+\\left(1-\\frac{1}{2^{6}}\\right)+\\ldots$ upton\r\n\r\nterms\r\n\r\n$=(1+1+1+\\ldots .$ upto $\\mathrm{n}$ terms $)$\r\n\r\n$-\\left(\\frac{1}{2^{2}}+\\frac{1}{2^{4}}+\\frac{1}{2^{6}}+\\ldots\\right.$ upto n terms $)$\r\n\r\n$=\\mathrm{n}-\\frac{1}{2^{2}}\\left[\\frac{1-\\left(\\frac{1}{2^{2}}\\right)^{\\mathrm{n}}}{1 \\frac{1}{2^{2}}}\\right]=\\mathrm{n}-\\frac{1}{3}\\left(1-4^{-\\mathrm{n}}\\right)$\r\n\r\n$=\\mathrm{n}+\\frac{4^{-\\mathrm{n}}}{3}-\\frac{1}{3}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d79",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "BITSAT 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

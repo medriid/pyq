@@ -1,8 +1,8 @@
 {
   "index": 113,
-  "type": "numerical",
+  "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2023 (24 Jan Shift 2)",
+  "pyq_info": "JEE Main 2023 (01 Feb Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "If a copper wire is stretched to&nbsp;increase its length by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>%</mo></math>. The percentage increase in resistance of the wire is _____%."
+    "text": "Equivalent resistance between the adjacent corners of a regular <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-sided polygon of uniform wire of resistance <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> would be :"
   },
-  "options": [],
-  "correct_answer": "44",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mi>R</mi></mrow><msup><mi>n</mi><mn>2</mn></msup></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mstyle displaystyle=\"true\"><mi>R</mi></mstyle></mrow><mfenced><mrow><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>n</mi><mn>2</mn></msup><mi>R</mi></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mstyle displaystyle=\"true\"><mi>R</mi></mstyle></mrow><mi>n</mi></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
   "solution": {
-    "text": "<p><img alt=\"\" src=\"assets\\st0113_ff95a3a6a3e0.png\" style=\"width: 450px; height: 87px;\" /></p><p>Before heating, resistance of wire is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>0</mn></msub><mo>=</mo><mfenced><mfrac><mrow><mi>&#961;</mi><msub><mi>l</mi><mn>0</mn></msub></mrow><msub><mi>A</mi><mn>0</mn></msub></mfrac></mfenced></math></p><p>After heating, resistance is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mfrac><mrow><mi>&#961;</mi><mi>l</mi></mrow><mi>A</mi></mfrac></math></p><p>As volume = constant</p><p>Therefore,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>0</mn></msub><msub><mi>l</mi><mn>0</mn></msub><mo>=</mo><mn>1</mn><mo>.</mo><mn>2</mn><msub><mi>l</mi><mn>0</mn></msub><mi>A</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>A</mi><mo>=</mo><mfenced><mfrac><msub><mi>A</mi><mn>0</mn></msub><mrow><mn>1</mn><mo>.</mo><mn>2</mn></mrow></mfrac></mfenced></math></p><p>So,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mfrac><mrow><mi>&#961;</mi><mi>l</mi></mrow><mi>A</mi></mfrac><mspace linebreak=\"newline\"/><mo>=</mo><mfrac><mrow><mi>&#961;</mi><mo>&#215;</mo><mfenced><mrow><mn>1</mn><mo>.</mo><mn>2</mn><msub><mi>l</mi><mn>0</mn></msub></mrow></mfenced></mrow><mfenced><mstyle displaystyle=\"true\"><mfrac><msub><mi>A</mi><mn>0</mn></msub><mrow><mn>1</mn><mo>.</mo><mn>2</mn></mrow></mfrac></mstyle></mfenced></mfrac><mspace linebreak=\"newline\"/><mo>=</mo><mfrac><mrow><mi>&#961;</mi><msub><mi>l</mi><mn>0</mn></msub></mrow><msub><mi>A</mi><mn>0</mn></msub></mfrac><mo>&#215;</mo><mn>1</mn><mo>.</mo><mn>44</mn><mspace linebreak=\"newline\"/><mo>=</mo><mn>1</mn><mo>.</mo><mn>44</mn><mo>&#160;</mo><msub><mi>R</mi><mn>0</mn></msub></math></p><p>Percentage increase in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mi>R</mi><mo>-</mo><msub><mi>R</mi><mn>0</mn></msub></mrow><msub><mi>R</mi><mn>0</mn></msub></mfrac><mo>&#215;</mo><mn>100</mn><mo>=</mo><mn>44</mn><mo>%</mo></math></p>"
+    "text": "<p>Given the total resistance of the wire is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math>. If the polygon has&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>&nbsp;numbers of side, then the resistance&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>r</mi></mfenced></math>, as shown in the following figure,&nbsp;of each side can be written as</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mo>&#160;</mo><mfrac><mi>R</mi><mi>n</mi></mfrac><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>(</mo><mn>1</mn><mo>)</mo></math></p><p style=\"text-align: center;\"><img src=\"assets\\st0113_10f0a77587f8.png\" style=\"width: 300px; height: 342px;\" /></p><p>Among all the resistances, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced></math>&nbsp;resistances are connected in series combination, whereas, their equivalent resistance is connected in parallel with the <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mi>th</mi></msup></math>&nbsp;resistance.&nbsp;The equivalent circuit diagram for the above set of resistances can be depicted as follows:</p><p style=\"text-align: center;\"><img src=\"assets\\st0113_756626241dd5.png\" style=\"width: 500px; height: 169px;\" /></p><p>From the above equivalent circuit diagram, the net equivalent resistance&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><msub><mi>R</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub></mfenced></math>&nbsp;for the entire combination can be calculated as follows-</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtable columnalign=\"right center left\" columnspacing=\"0px\"><mtr><mtd><mfrac><mn>1</mn><msub><mi>R</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub></mfrac></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#160;</mo><mfrac><mn>1</mn><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mstyle displaystyle=\"true\"><mi>r</mi></mstyle></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mi>r</mi></mfrac></mtd></mtr><mtr><mtd></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#160;</mo><mfrac><mn>1</mn><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mstyle displaystyle=\"true\"><mfrac><mi>R</mi><mi>n</mi></mfrac></mstyle></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mstyle displaystyle=\"true\"><mfrac><mi>R</mi><mi>n</mi></mfrac></mstyle></mfrac></mtd></mtr><mtr><mtd></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#160;</mo><mfrac><mi>n</mi><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mstyle displaystyle=\"true\"><mi>R</mi></mstyle></mrow></mfrac><mo>+</mo><mfrac><mi>n</mi><mi>R</mi></mfrac></mtd></mtr><mtr><mtd></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#160;</mo><mfrac><msup><mi>n</mi><mn>2</mn></msup><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mstyle displaystyle=\"true\"><mi>R</mi></mstyle></mrow></mfrac></mtd></mtr><mtr><mtd><msub><mi>R</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#160;</mo><mfrac><mrow><mfenced><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mi>R</mi></mrow><msup><mi>n</mi><mn>2</mn></msup></mfrac></mtd></mtr></mtable></math></p>"
   }
 }

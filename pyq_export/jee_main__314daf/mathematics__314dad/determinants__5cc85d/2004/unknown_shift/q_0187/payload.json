@@ -1,0 +1,43 @@
+{
+  "index": 187,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2004",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025503d0787d29e5cc85d",
+    "chapter_name": "Determinants",
+    "year": "2004",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $a_1, a_2, a_3, \\ldots, a_n, \\ldots$. are in G.P., then the value of the determinant\n$$\n\\left|\\begin{array}{ccc}\n\\log a_n & \\log a_{n+1} & \\log a_{n+2} \\\\\n\\log a_{n+3} & \\log a_{n+4} & \\log a_{n+5} \\\\\n\\log a_{n+6} & \\log a_{n+7} & \\log a_{n+8}\n\\end{array}\\right| \\text {, is }\n$$"
+  },
+  "options": [
+    {
+      "text": "\n0\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$-2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n2\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n1",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& \\left|\\begin{array}{lll}\n\\log a_n & \\log a_{n+1} & \\log a_{n+2} \\\\\n\\log a_{n+3} & \\log a_{n+4} & \\log a_{n+5} \\\\\n\\log a_{n+6} & \\log a_{n+7} & \\log a_{n+8}\n\\end{array}\\right| \\\\\n& C_3 \\rightarrow C_3-C_2, C_2 \\rightarrow C_3-C_1 \\\\\n& =\\left|\\begin{array}{lll}\n\\log a_n & \\log r & \\log r \\\\\n\\log a_{n+3} & \\log r & \\log r \\\\\n\\log a_{n+6} & \\log r & \\log r\n\\end{array}\\right|=0\n\\end{aligned}\n$$\n(where $r$ is a common ratio)."
+  }
+}

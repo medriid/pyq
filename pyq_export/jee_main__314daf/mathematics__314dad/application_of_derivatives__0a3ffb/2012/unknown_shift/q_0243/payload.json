@@ -1,0 +1,43 @@
+{
+  "index": 243,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (19 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255c74f727443f0a3ffb",
+    "chapter_name": "Application of Derivatives",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The weight $W$ of a certain stock of fish is given by $W=n w$, where $n$ is the size of stock and $w$ is the average weight of a fish. If $n$ and $w$ change with time $t$ as $n=2 t^2+3$ and $w=t^2-t+2$, then the rate of change of $W$ with respect to $t$ at $t=1$ is"
+  },
+  "options": [
+    {
+      "text": "\n1\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n8\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n13\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n5",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $\\mathrm{W}=n w$\n$$\n\\Rightarrow \\frac{d W}{d t}=n \\frac{d w}{d t}+w \\cdot \\frac{d n}{d t}\n$$\nGiven : $w=t^2-t+2$ and $n=2 t^2+3$ $\\Rightarrow \\frac{d w}{d t}=2 t-1$ and $\\frac{d n}{d t}=4 t$\n$\\therefore$ Equation (1)\n$$\n\\Rightarrow \\frac{d w}{d t}=\\left(2 t^2+3\\right)(2 t-1)+\\left(t^2-t+2\\right)(4 t)\n$$\nThus, $\\left.\\frac{d W}{d t}\\right|_{t=1}=(2+3)(2-1)+(2)(4)$\n$$\n=5(1)+8=13\n$$"
+  }
+}

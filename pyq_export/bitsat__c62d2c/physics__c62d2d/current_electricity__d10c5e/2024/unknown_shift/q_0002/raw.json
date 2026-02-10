@@ -1,0 +1,63 @@
+{
+  "_id": "67726d11c49e8ef28ee2b400",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6416",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T19:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 3)",
+      "title": "BITSAT 2024 (Memory Based Paper 3)"
+    }
+  ],
+  "question": {
+    "text": "In the given circuit, $E_1=E_2=E_3=2 \\mathrm{~V}$ and $R_1=R_2=4 \\Omega$, then current flowing through the branch $A B$ is\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/bitsat/ezyKE-IOTRn0fQtjMrQqefXc54BO8ateC8lfj65ElqU.original.fullsize.png\"/><br/>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "aDRjq",
+      "text": "zero",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "4l7Zs",
+      "text": "$2 A$ from $A$ and $B$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "rZGpa",
+      "text": "$2 A$ from $B$ to $A$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "VEm6T",
+      "text": "$5 A$ from $B$ to $B$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "The given circuit can be redrawn as,\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/bitsat/XnqLnlC7H6t4kzVS6Mk9vAr4QceBEtSCi9RQdPqWDO8.original.fullsize.png\"/>\nwhere, equivalent emf of the combination,\n$\\begin{aligned}\nE_{\\text {eq }} & =\\frac{E_1 R_1+E_2 R_2}{R_1+R_2} \\\\\n& =\\frac{2 \\times 4+2 \\times 4}{4+4}=2 \\mathrm{~V}\n\\end{aligned}$\nand $R_{e q}=\\frac{R_1 R_2}{R_1+R_2}=\\frac{4 \\times 4}{4+4}=\\frac{16}{8}=2 \\Omega$\nNet emf of the circuit,\n$\\begin{aligned}\nE^{\\prime} & =E_2+E_{\\mathrm{eq}} \\\\\n& =2+2 \\\\\n& =4 \\mathrm{~V}\n\\end{aligned}$\n$\\therefore$ Current flowing through branch $A B$,\n$I=\\frac{E^{\\prime}}{R_{e q}}=\\frac{4}{2}=2 \\mathrm{~A}$\nClearly from figure, it is clear that direction of current is from point $A$ to $B$ clockwise is loop.",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6416",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T19:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 3)",
+    "title": "BITSAT 2024 (Memory Based Paper 3)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

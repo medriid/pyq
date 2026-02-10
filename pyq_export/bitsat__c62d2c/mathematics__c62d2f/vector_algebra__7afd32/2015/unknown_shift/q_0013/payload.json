@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd74291eeb125c7afd32",
+    "chapter_name": "Vector Algebra",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $a, b$ and $c$ be three vectors satisfying $a \\times b=$ $(a \\times c),|a|=|c|=1,|b|=4$ and $|b \\times c|=\\sqrt{15}$. If $b-$\r\n\r\n$2 \\mathrm{c}=\\lambda \\mathrm{a},$ then $\\lambda$ equals"
+  },
+  "options": [
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "-1",
+      "is_correct": false
+    },
+    {
+      "text": "2",
+      "is_correct": false
+    },
+    {
+      "text": "-4",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $\\theta$ be the angle between $\\mathbf{b}$ and $\\mathbf{c}$. Given, $|\\mathrm{b} \\times \\mathrm{c}|=\\sqrt{15}$\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\Rightarrow|\\mathrm{b} \\| \\mathrm{c}| \\sin \\theta=\\sqrt{15} \\\\\r\n\r\n\\Rightarrow \\sin \\theta=\\frac{\\sqrt{15}}{|\\mathrm{~b}| \\mathrm{c} \\mid} \\\\\r\n\r\n\\Rightarrow \\sin \\theta=\\sqrt{\\frac{15}{4 \\times 1}}=\\frac{\\sqrt{15}}{4} \\\\\r\n\r\n\\quad \\therefore \\cos \\theta=\\sqrt{1-\\frac{15}{16}}=\\frac{1}{\\sqrt{16}}=\\frac{1}{4}\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nNow given, $\\mathrm{b}-2 \\mathrm{c}=\\lambda \\mathrm{a} \\Rightarrow\\left|\\mathrm{b}-2 \\mathrm{c}^{2}\\right|=\\mid \\lambda \\mathrm{a}^{2}$\r\n\r\n$$\r\n\r\n\\Rightarrow|\\mathrm{b}|^{2}+4|\\mathrm{c}|-4(\\mathrm{~b} \\cdot \\mathrm{c})=\\lambda^{2}|\\mathrm{a}|^{2}\r\n\r\n$$\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\Rightarrow 16+4-4|\\mathrm{~b} \\| \\mathrm{c}| \\cos \\theta=\\lambda^{2} \\\\\r\n\r\n\\Rightarrow 20-16 \\cos \\theta=\\lambda^{2} \\\\\r\n\r\n\\Rightarrow 20-4=\\lambda^{2} \\Rightarrow \\lambda^{2}=16\\left(\\therefore \\cos \\theta=\\frac{1}{4}\\right) \\\\\r\n\r\n\\Rightarrow \\lambda=\\pm 4\r\n\r\n\\end{array}\r\n\r\n$$"
+  }
+}

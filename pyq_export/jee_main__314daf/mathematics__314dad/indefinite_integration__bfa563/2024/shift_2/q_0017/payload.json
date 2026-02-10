@@ -1,0 +1,24 @@
+{
+  "index": 17,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $\\int \\operatorname{cosec}^5 x d x=\\alpha \\cot x \\operatorname{cosec} x\\left(\\operatorname{cossc}^2 x+\\frac{3}{2}\\right)+\\beta \\log _\\epsilon\\left|\\tan \\frac{x}{2}\\right|+C$\nwhere $\\alpha, \\beta \\in \\mathbb{R}$ and $\\mathrm{C}$ is the constant of integration, then the value of $8(\\alpha+\\beta)$ equals _______"
+  },
+  "options": [],
+  "correct_answer": "1",
+  "solution": {
+    "text": "$\\int \\operatorname{cosec}^3 x \\cdot \\operatorname{cosec}^2 x d x=I$<br />By applying integration by parts\n$\\begin{aligned}\n& I=-\\cot x \\operatorname{cosec}^3 x+\\int \\cot x\\left(-3 \\operatorname{cosec}^2 x \\cot x \\operatorname{cosec} x\\right) d x \\\\\n& I=-\\cot x \\operatorname{cosec}^3 x-3 \\int \\operatorname{cosec}^3 x\\left(\\operatorname{cosec}^2 x-1\\right) d x \\\\\n& I=-\\cot x \\operatorname{cosec}^3 x-3 I+3 \\int \\operatorname{cosec}^3 x d x\n\\end{aligned}$\nlet\n$\\begin{aligned}\n& I_1=\\int \\operatorname{cosec}^3 x d x=-\\operatorname{cosec} x \\cot x-\\int \\cot ^2 x \\operatorname{cosec} x d x \\\\\n& I_1=-\\operatorname{cosec} x \\cot x-\\int\\left(\\operatorname{cosec}^2 x-1\\right) \\operatorname{cosec} x d x\n\\end{aligned}$\n$\\begin{aligned} & 2 I_1=-\\operatorname{cosec} x \\cot x+\\ln \\left|\\tan \\frac{x}{2}\\right| \\\\ & I_1=-\\frac{1}{2} \\operatorname{cosec} x \\cot x+\\frac{1}{2} \\ln \\left|\\tan \\frac{x}{2}\\right| \\\\ & 4 I=-\\cot x \\operatorname{cosec}^3 x-\\frac{3}{2} \\operatorname{cosec} x \\cot x+\\frac{3}{2} \\ln \\left|\\tan \\frac{x}{2}\\right|+4 c \\\\ & I=-\\frac{1}{4} \\operatorname{cosec} x \\cot x\\left(\\operatorname{cosec}^2 x+\\frac{3}{2}\\right)+\\frac{3}{8} \\ln \\left|\\tan \\frac{x}{2}\\right|+c \\\\ & \\therefore \\alpha=\\frac{-1}{4}, \\beta=\\frac{3}{8} \\rightarrow 8(\\alpha+\\beta)=1\\end{aligned}$"
+  }
+}

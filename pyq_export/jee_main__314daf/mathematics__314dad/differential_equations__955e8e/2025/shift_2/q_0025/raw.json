@@ -1,0 +1,83 @@
+{
+  "_id": "67a2eeb0c8b73881fdaea20d",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5da6d4514bf2d9760d",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-24T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (24 Jan Shift 2)",
+      "title": "JEE Main 2025 (24 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "Let $f:(0, \\infty) \\rightarrow \\mathbf{R}$ be a function which is differentiable at all points of its domain and satisfies the condition $x^2 f^{\\prime}(x)=2 x f(x)+3$, with $f(1)=4$. Then $2 f(2)$ is equal to :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "ldgmI",
+      "text": "39",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "iILgb",
+      "text": "19",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "bkZbZ",
+      "text": "29",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "gLTyV",
+      "text": "23",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & x^2 f^{\\prime}(x)-2 x f(x)=3 \\\\ & \\left(\\frac{x^2 f^{\\prime}(x)-2 x f(x)}{\\left(x^2\\right)^2}\\right)=\\frac{3}{\\left(x^2\\right)^2} \\\\ & \\Rightarrow \\frac{d}{d x}\\left(\\frac{f(x)}{x^2}\\right)=\\frac{3}{x^4}\\end{aligned}$\n\n\nIntegrating both sides\n$\\begin{aligned}\n& \\frac{f(x)}{x^2}=-\\frac{1}{x^3}+C \\\\\n& f(x)=-\\frac{1}{x}+C x^2 \\\\\n& \\text { put } x=1 \\\\\n& 4=-1+C \\Rightarrow C=5 \\\\\n& f(x)=-\\frac{1}{x}+5 x^2 \\\\\n& \\text { Now } 2 \\times f(2)=2 \\times\\left[-\\frac{1}{2}+5 \\times 2^2\\right] \\\\\n& =39\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "556cc8241bc443158349de1ae0bf444e",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/m6D5Goj1V91xi.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/m6D5Goj1V91xi.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5da6d4514bf2d9760d",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-24T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (24 Jan Shift 2)",
+    "title": "JEE Main 2025 (24 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

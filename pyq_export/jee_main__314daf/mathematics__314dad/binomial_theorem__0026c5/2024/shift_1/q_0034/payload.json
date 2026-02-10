@@ -1,0 +1,43 @@
+{
+  "index": 34,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (09 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2024",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "The coefficient of $x^{70}$ in $x^2(1+x)^{98}+x^3(1+x)^{97}+x^4(1+x)^{96}+\\ldots+x^{54}(1+x)^{46}$ is ${ }^{99} \\mathrm{C}_{\\mathrm{p}}-{ }^{46} \\mathrm{C}_{\\mathrm{q}}$. Then a possible value of $p+q$ is :"
+  },
+  "options": [
+    {
+      "text": "55",
+      "is_correct": false
+    },
+    {
+      "text": "83",
+      "is_correct": true
+    },
+    {
+      "text": "61",
+      "is_correct": false
+    },
+    {
+      "text": "68",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\begin{aligned}\n& x^2(1+x)^{98}+x^3\\left(1+x^{97}\\right)+x^4(1+x)^{96}+\\ldots \\ldots \\\\\n& x^{54}(1+x)^{46}\n\\end{aligned}$<br />Coeff. of $\\mathrm{x}^{70}:{ }^{98} \\mathrm{C}_{68}+{ }^{97} \\mathrm{C}_{67}+{ }^{96} \\mathrm{C}_{66}+\\ldots \\ldots \\ldots$\n$\\begin{aligned}\n& { }^{47} \\mathrm{C}_{17}+{ }^{46} \\mathrm{C}_{16} \\\\\n& ={ }^{46} \\mathrm{C}_{30}+{ }^{47} \\mathrm{C}_{30}+\\ldots \\ldots \\ldots . .{ }^{98} \\mathrm{C}_{30} \\\\\n& =\\left({ }^{46} \\mathrm{C}_{31}+{ }^{46} \\mathrm{C}_{30}\\right)+{ }^{47} \\mathrm{C}_{30}+\\ldots \\ldots \\ldots .{ }^{98} \\mathrm{C}_{30}-{ }^{46} \\mathrm{C}_{31} \\\\\n& ={ }^{47} \\mathrm{C}_{31}+{ }^{47} \\mathrm{C}_{30}+\\ldots \\ldots \\ldots . .{ }^{98} \\mathrm{C}_{30}-{ }^{46} \\mathrm{C}_{31} \\\\\n& \\ldots \\ldots \\\\\n& ={ }^{99} \\mathrm{C}_{31}-{ }^{46} \\mathrm{C}_{31}={ }^{99} \\mathrm{C}_{\\mathrm{p}}-{ }^{46} \\mathrm{C}_{\\mathrm{q}}\n\\end{aligned}$<br />Possible values of $(p+q)$ are $62,83,99,46$\n$\\Rightarrow p+q=83$"
+  }
+}

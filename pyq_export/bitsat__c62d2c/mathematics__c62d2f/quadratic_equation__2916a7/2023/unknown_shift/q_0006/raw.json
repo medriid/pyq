@@ -1,0 +1,63 @@
+{
+  "_id": "65b7b87697ae24e9e2db8c98",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "65b7b85fb3be70ed63adbe84",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2023-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Memory Based Paper 1)",
+      "title": "BITSAT 2023 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "Solution of $2^x+2^{|x|} \\geq 2 \\sqrt{2}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "QvFCe",
+      "text": "$\\left(-\\infty, \\log _2(\\sqrt{2}+1)\\right)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "YLlkh",
+      "text": "$(0, \\infty)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "uUdi5",
+      "text": "$\\left(\\frac{1}{2}, \\log _2(\\sqrt{2}-1)\\right)$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "pB8Jf",
+      "text": "$\\left(-\\infty, \\log _2(\\sqrt{2}-1)\\right] \\cup\\left[\\frac{1}{2}, \\infty\\right)$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$2^x+2^{|x|} \\geq 2 \\sqrt{2}$ ...(i)<br />Case I: $x \\geq 0$, then Eq. (i) becomes<br />$2^x+2^x \\geq 2 \\sqrt{2}$<br />$\\Rightarrow 2^x \\geq \\sqrt{2} \\Rightarrow x \\geq \\frac{1}{2}$<br />Case II: $x < 0$, then Eq. (i) becomes<br />$2^x+2^{-x} \\geq 2 \\sqrt{2}$<br />$\\Rightarrow t+\\frac{1}{t} \\geq 2 \\sqrt{2}$, where $2^x=t$<br />$\\Rightarrow t^2-2 \\sqrt{2} t+1 \\geq 0$<br />$\\Rightarrow x \\leq \\log _2(\\sqrt{2}-1)$<br />Also, $0 < \\sqrt{2}-1 < 1, \\log _2(\\sqrt{2}-1) < 0$.<br />$\\therefore$ The solution is<br />$\\left.\\left(-\\infty, \\log _2(\\sqrt{2}-1)\\right)\\right] \\cup\\left[\\frac{1}{2}, \\infty\\right)$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "65b7b85fb3be70ed63adbe84",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2023-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Memory Based Paper 1)",
+    "title": "BITSAT 2023 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 39,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2009",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7455ca3b13e5b648ea",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Solution of the differential equation \\(\\frac{d y}{d x}+\\frac{y}{x}=\\sin x\\) is"
+  },
+  "options": [
+    {
+      "text": "\\(x(y+\\cos x)=\\cos x+C\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(x(y-\\cos x)=\\sin x+C\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(x(y+\\cos x)=\\sin x+C\\)",
+      "is_correct": true
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\frac{d y}{d x}+\\frac{1}{x} \\cdot y=\\sin x\\left[\\text { Type } \\frac{d y}{d x}+P y=Q\\right] \\\\\n& e^{\\int P d x}=e^{\\int \\frac{1}{x} d x}=e^{\\log x}=x\n\\end{aligned}\\)\n\\(\\therefore\\) Sol. is \\(\\mathrm{yx}=\\int \\mathrm{x} \\sin \\mathrm{xdx}+\\mathrm{C}\\)\n\\(\\begin{aligned}\n& =x(-\\cos x)-\\int 1 \\cdot(-\\cos x) d x+C \\\\\n& =-x \\cos x+\\sin x+C \\Rightarrow x(y+\\cos x)=\\sin x+C\n\\end{aligned}\\)"
+  }
+}

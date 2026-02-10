@@ -1,0 +1,43 @@
+{
+  "index": 25,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2014",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd744fe496e9e0cf0e89",
+    "chapter_name": "Functions",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathrm{f}: \\mathrm{R} \\rightarrow \\mathrm{R}$ be a function defined by\r\n\r\n$f(x)=\\frac{x-m}{x-n},$ where $m \\neq n,$ then"
+  },
+  "options": [
+    {
+      "text": "$\\mathrm{f}$ is one-one onto",
+      "is_correct": false
+    },
+    {
+      "text": "$\\mathrm{f}$ is one-one into",
+      "is_correct": true
+    },
+    {
+      "text": "$\\mathrm{f}$ is many-one onto",
+      "is_correct": false
+    },
+    {
+      "text": "fis many-one into",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Let $f: R \\rightarrow R$ be a function defined by\r\n\r\n$f(x)=\\frac{x-m}{x-n}$\r\n\r\nFor any $(\\mathrm{x}, \\mathrm{y}) \\in \\mathrm{R}$\r\n\r\nLet $\\mathrm{f}(\\mathrm{x})=\\mathrm{f}(\\mathrm{y})$\r\n\r\n$\\Rightarrow \\frac{x-m}{x-n}=\\frac{y-m}{y-n} \\Rightarrow x=y$\r\n\r\n$\\therefore \\mathrm{f}$ is one $-$ one\r\n\r\nLet $\\alpha \\in \\mathrm{R}$ such that $\\mathrm{f}(\\mathrm{x})=\\alpha$\r\n\r\n$$\r\n\r\n\\Rightarrow \\alpha=\\frac{x-m}{x-n} \\Rightarrow(x-n) \\alpha=x-m\r\n\r\n$$\r\n\r\n$\\Rightarrow x \\alpha-n \\alpha=x-m$\r\n\r\n$$\r\n\r\n\\Rightarrow x \\alpha-x=n \\alpha-m\r\n\r\n$$\r\n\r\n$\\Rightarrow x(\\alpha-1)=n \\alpha-m$\r\n\r\n$\\Rightarrow \\mathrm{x}=\\frac{\\mathrm{n} \\alpha-\\mathrm{m}}{\\alpha-1} \\cdot$ for $\\alpha=1, \\mathrm{x} \\notin \\mathrm{R}$\r\n\r\nSo, $\\mathrm{f}$ is not onto."
+  }
+}

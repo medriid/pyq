@@ -1,0 +1,83 @@
+{
+  "_id": "67a2ee8dc8b73881fdaea0e0",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67a2eb5ca6d4514bf2d97609",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-01-22T14:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (22 Jan Shift 2)",
+      "title": "JEE Main 2025 (22 Jan Shift 2)"
+    }
+  ],
+  "question": {
+    "text": "If $\\int \\mathrm{e}^x\\left(\\frac{x \\sin ^{-1} x}{\\sqrt{1-x^2}}+\\frac{\\sin ^{-1} x}{\\left(1-x^2\\right)^{3 / 2}}+\\frac{x}{1-x^2}\\right) \\mathrm{d} x=\\mathrm{g}(x)+\\mathrm{C}$, where C is the constant of integration, then $g\\left(\\frac{1}{2}\\right)$ equals :",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "ilQIC",
+      "text": "$\\frac{\\pi}{4} \\sqrt{\\frac{e}{3}}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "5J554",
+      "text": "$\\frac{\\pi}{6} \\sqrt{\\frac{e}{3}}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "wnOfK",
+      "text": "$\\frac{\\pi}{4} \\sqrt{\\frac{e}{2}}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "JHtNj",
+      "text": "$\\frac{\\pi}{6} \\sqrt{\\frac{e}{2}}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\frac{d}{d x}\\left(\\frac{x \\cdot \\sin ^{-1} x}{\\sqrt{1-x^2}}\\right)-\\sin ^{-1} x \\cdot\\left(\\frac{1 \\cdot \\sqrt{1-x^2}+\\frac{x \\cdot 2 x}{2 \\sqrt{1-x^2}}}{1-x^2}\\right) \\\\\n& =\\frac{x}{\\sqrt{1-x^2}} \\cdot \\frac{1}{\\sqrt{1-x^2}} \\\\\n& =\\frac{\\sin ^{-1} x}{\\left(1-x^2\\right)^{3 / 2}}+\\frac{x}{1-x^2}\n\\end{aligned}$\n$\\begin{aligned}\n& \\text { Hence, } I=\\int e^x\\left(f(x)+f^{\\prime}(x)\\right) d x \\\\\n& =e^x \\cdot f(x)+C \\\\\n& I=e^x \\cdot \\frac{x \\cdot \\sin ^{-1} x}{\\sqrt{1-x^2}}+C=g(x)+C \\\\\n& \\Rightarrow g(x)=\\frac{x e^x \\sin ^{-1} x}{\\sqrt{1-x^2}} \\text { and } g(1 / 2)=\\frac{\\pi}{6} \\sqrt{\\frac{e}{3}}\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "dc526e901f4f49c9bed10a34d99271b2",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/nW7JsIIYuFDRV.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/nW7JsIIYuFDRV.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67a2eb5ca6d4514bf2d97609",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-01-22T14:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (22 Jan Shift 2)",
+    "title": "JEE Main 2025 (22 Jan Shift 2)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

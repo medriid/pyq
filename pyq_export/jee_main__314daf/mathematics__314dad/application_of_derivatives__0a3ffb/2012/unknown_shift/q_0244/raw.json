@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65a38",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7ce",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2012-05-12T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2012 (12 May Online)",
+      "title": "JEE Main 2012 (12 May Online)"
+    }
+  ],
+  "question": {
+    "text": "If $f(x)=x e^{x(1-x)}, x \\in R$, then $f(x)$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "kiV37",
+      "text": "\ndecreasing on $[-1 / 2,1]$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "bJs4S",
+      "text": "\ndecreasing on $R$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "uR8pR",
+      "text": "\nincreasing on $[-1 / 2,1]$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "nGVbK",
+      "text": "\nincreasing on $R$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$$\n\\begin{aligned}\n& f(x)=x e^{x(1-x)}, x \\in R \\\\\n& f^{\\prime}(x)=e^{x(1-x)} \\cdot\\left[1+x-2 x^2\\right]\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n& =-e^{x(1-x} \\cdot\\left[2 x^2-x-1\\right] \\\\\n& =-2 e^{x(1-x} \\cdot\\left[\\left(x+\\frac{1}{2}\\right)(x-1]\\right) \\\\\n& f^{\\prime}(x)=-2 e^{x(1-x)} A \\\\\n& \\text { where } A=\\left(x+\\frac{1}{2}\\right)(x-1)\n\\end{aligned}\n$$\nNow, exponential function is always $+$ ve and $f^{\\prime}(x)$ will be opposite to the sign of $A$\nwhich is -ve in $\\left[-\\frac{1}{2}, 1\\right]$\nHence, $f^{\\prime}(x)$ is $+$ ve in $\\left[-\\frac{1}{2}, 1\\right]$\n$\\therefore f(x)$ is increasing on $\\left[-\\frac{1}{2}, 1\\right]$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7ce",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2012-05-12T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2012 (12 May Online)",
+    "title": "JEE Main 2012 (12 May Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

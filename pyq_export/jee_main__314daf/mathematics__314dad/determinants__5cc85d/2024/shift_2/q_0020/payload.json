@@ -1,8 +1,8 @@
 {
   "index": 20,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2024 (05 Apr Shift 2)",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (08 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "The values of $m, n$, for which the system of equations\n$\\begin{aligned}\n& x+y+z=4, \\\\\n& 2 x+5 y+5 z=17, \\\\\n& x+2 y+\\mathrm{m} z=\\mathrm{n}\n\\end{aligned}$\nhas infinitely many solutions, satisfy the equation:"
+    "text": "If $\\alpha \\neq \\mathrm{a}, \\beta \\neq \\mathrm{b}, \\gamma \\neq \\mathrm{c}$ and $\\left|\\begin{array}{lll}\\alpha & \\mathrm{b} & \\mathrm{c} \\\\ \\mathrm{a} & \\beta & \\mathrm{c} \\\\ \\mathrm{a} & \\mathrm{b} & \\gamma\\end{array}\\right|=0$, then $\\frac{\\mathrm{a}}{\\alpha-\\mathrm{a}}+\\frac{\\mathrm{b}}{\\beta-\\mathrm{b}}+\\frac{\\gamma}{\\gamma-\\mathrm{c}}$ is equal to:"
   },
   "options": [
     {
-      "text": "$m^2+n^2-m n=39$",
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "0",
       "is_correct": true
     },
     {
-      "text": "$m^2+n^2-m-n=46$",
+      "text": "1",
       "is_correct": false
     },
     {
-      "text": "$m^2+n^2+m+n=64$",
-      "is_correct": false
-    },
-    {
-      "text": "$m^2+n^2+m n=68$",
+      "text": "2",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "A"
+    "B"
   ],
   "solution": {
-    "text": "$\\begin{aligned} & \\mathrm{D}=\\left|\\begin{array}{lll}1 & 1 & 1 \\\\ 2 & 5 & 5 \\\\ 1 & 2 & \\mathrm{~m}\\end{array}\\right|=0 \\Rightarrow \\mathrm{m}=2 \\\\ & \\mathrm{D}_3=\\left|\\begin{array}{ccc}1 & 1 & 4 \\\\ 2 & 5 & 17 \\\\ 1 & 2 & \\mathrm{n}\\end{array}\\right|=0 \\Rightarrow \\mathrm{n}=7\\end{aligned}$"
+    "text": "$\\begin{aligned} & \\mathrm{R}_1 \\rightarrow \\mathrm{R}_1-\\mathrm{R}_2, \\mathrm{R}_2 \\rightarrow \\mathrm{R}_2-\\mathrm{R}_3 \\\\ & \\left|\\begin{array}{ccc}\\alpha-\\mathrm{a} & \\mathrm{b}-\\beta & 0 \\\\ 0 & \\beta-\\mathrm{b} & \\mathrm{c}-\\gamma \\\\ \\mathrm{a} & \\mathrm{b} & \\gamma\\end{array}\\right|=0 \\\\ & (\\alpha-\\mathrm{a})(\\gamma(\\beta-\\mathrm{b})-\\mathrm{b}(\\mathrm{c}-\\gamma))-(\\mathrm{b}-\\beta)(-\\mathrm{a}(\\mathrm{c}-\\gamma))=0 \\\\ & \\gamma(\\alpha-\\mathrm{a})(\\beta-\\mathrm{b})-\\mathrm{b}(\\alpha-\\mathrm{a})(\\mathrm{c}-\\gamma)+\\mathrm{a}(\\mathrm{b}-\\beta)(\\mathrm{c}-\\gamma) \\\\ & \\frac{\\gamma}{\\gamma-\\mathrm{c}}+\\frac{\\mathrm{b}}{\\beta-\\mathrm{b}}+\\frac{\\mathrm{a}}{\\alpha-\\mathrm{a}}=0\\end{aligned}$"
   }
 }

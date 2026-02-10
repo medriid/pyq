@@ -1,8 +1,8 @@
 {
   "index": 144,
-  "type": "numerical",
-  "difficulty": 1,
-  "pyq_info": "JEE Main 2021 (17 Mar Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2021 (01 Sep Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "The electric field in a region is given by&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover><mi>E</mi><mo>&#8594;</mo></mover><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><msub><mi mathvariant=\"italic\">E</mi><mn mathvariant=\"italic\">0</mn></msub><mover><mi mathvariant=\"normal\">i</mi><mo>^</mo></mover><mo>+</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><msub><mi mathvariant=\"italic\">E</mi><mn mathvariant=\"italic\">0</mn></msub><mover><mi mathvariant=\"normal\">j</mi><mo>^</mo></mover></math> with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><mn>4</mn><mo>.</mo><mn>0</mn><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">N</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">C</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>.</mo></math> The flux of this field through a rectangular surface, area <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>4</mn><msup><mrow><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><mn>2</mn></msup></math> parallel to the <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>-</mo><mi>Z</mi></math> plane is _______&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">N</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">C</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>."
+    "text": "<p>A cube is placed inside an electric field,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover accent=\"true\"><mi>E</mi><mo>&#8594;</mo></mover><mo>=</mo><mn>150</mn><msup><mi>y</mi><mn>2</mn></msup><mover><mi mathvariant=\"normal\">j</mi><mo>^</mo></mover></math>&nbsp;The side of the cube is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></math> and is placed in the field as shown in the given figure. The charge inside the cube is:</p><p><img src=\"assets\\qt0144_014ee544bd1f.png\" style=\"width: 200px; height: 155px;\" /></p>"
   },
-  "options": [],
-  "correct_answer": "640",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>.</mo><mn>3</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>11</mn></mrow></msup><mi mathvariant=\"normal\">C</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>.</mo><mn>8</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>11</mn></mrow></msup><mi mathvariant=\"normal\">C</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>.</mo><mn>8</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>12</mn></mrow></msup><mi mathvariant=\"normal\">C</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>.</mo><mn>3</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>12</mn></mrow></msup><mi mathvariant=\"normal\">C</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
   "solution": {
-    "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#981;</mi><mo>=</mo><msub><mi>E</mi><mi mathvariant=\"normal\">x</mi></msub><mi>A</mi><mo>&#8658;</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>&#215;</mo><mn>4</mn><mo>&#215;</mo><msup><mn>10</mn><mn>3</mn></msup><mo>&#215;</mo><mn>0</mn><mo>.</mo><mn>4</mn><mo>=</mo><mn>640</mn><mo>&#160;</mo><mi mathvariant=\"normal\">N</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">m</mi><mn>2</mn></msup><mo>&#160;</mo><msup><mi mathvariant=\"normal\">C</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>"
+    "text": "<p><img src=\"assets\\st0144_57002b05484b.png\" style=\"width: 200px; height: 154px;\" /></p><p>By gauss law <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8750;</mo><mover accent=\"true\"><mi>E</mi><mo>&#8594;</mo></mover><mo>&#183;</mo><mover><mrow><mi>d</mi><mi>s</mi></mrow><mo>&#8594;</mo></mover><mo>=</mo><mfrac><msub><mi>q</mi><mtext>in&#160;</mtext></msub><msub><mi>&#949;</mi><mn>0</mn></msub></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>&#949;</mi><mn>0</mn></msub><mo>(</mo><mn>150</mn><mo>)</mo><mo>(</mo><mn>0</mn><mo>.</mo><mn>5</mn><msup><mo>)</mo><mn>2</mn></msup><mo>&#215;</mo><mo>(</mo><mn>0</mn><mo>.</mo><mn>5</mn><msup><mo>)</mo><mn>2</mn></msup><mo>=</mo><msub><mi>q</mi><mrow><mi>i</mi><mi>n</mi></mrow></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>q</mi><mrow><mi>i</mi><mi>n</mi></mrow></msub><mo>=</mo><mfrac><mrow><mn>8</mn><mo>.</mo><mn>85</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>12</mn></mrow></msup><mo>&#215;</mo><mn>150</mn></mrow><mn>16</mn></mfrac><mo>=</mo><mn>8</mn><mo>.</mo><mn>3</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>11</mn></mrow></msup><mi mathvariant=\"normal\">C</mi></math></p>"
   }
 }

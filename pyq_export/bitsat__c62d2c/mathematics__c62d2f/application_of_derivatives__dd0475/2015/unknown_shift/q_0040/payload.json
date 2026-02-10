@@ -1,0 +1,43 @@
+{
+  "index": 40,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2015",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83086701c4b7dd0475",
+    "chapter_name": "Application of Derivatives",
+    "year": "2015",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If \\(0<x<\\frac{\\pi}{2}\\), then"
+  },
+  "options": [
+    {
+      "text": "\\(\\tan x<x<\\sin x\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(x<\\sin x<\\tan x\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\sin x<\\tan x<x\\)",
+      "is_correct": false
+    },
+    {
+      "text": "None of the above",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let us assume the functions $\\mathrm{f}(\\mathrm{x})$ and $\\mathrm{g}(\\mathrm{x})$ given by $\\mathrm{f}(\\mathrm{x})=\\tan \\mathrm{x}-\\mathrm{x}$ and $\\mathrm{g}(\\mathrm{x})=\\mathrm{x}-\\sin \\mathrm{x},$ for\r\n\r\n$0<\\mathrm{x}<\\frac{\\pi}{2}$\r\n\r\nNow, $\\mathrm{f}^{\\prime}(\\mathrm{x})=\\sec ^{2} \\mathrm{x}-1$ and\r\n\r\n$\\mathrm{g}^{\\prime}(\\mathrm{x})=1-\\cos \\mathrm{x}$\r\n\r\n$\\Rightarrow \\mathrm{f}(\\mathrm{x})>0$ and $\\mathrm{g}^{\\prime}(\\mathrm{x})>0, \\forall \\mathrm{x} \\in\\left(0, \\frac{\\pi}{2}\\right)$\r\n\r\n$\\Rightarrow \\mathrm{f}(\\mathrm{x})>\\mathrm{f}(0)$ and $\\mathrm{g}(\\mathrm{x})>\\mathrm{g}(0) \\forall \\mathrm{x} \\in\\left(0, \\frac{\\pi}{2}\\right)$\r\n\r\n$\\Rightarrow \\quad \\tan \\mathrm{x}-\\mathrm{x}>0$ and $\\mathrm{x}-\\sin \\mathrm{x}>0,$\r\n\r\n$\\forall \\mathrm{x} \\in\\left(0, \\frac{\\pi}{2}\\right)$\r\n\r\n$\\Rightarrow \\quad \\tan \\mathrm{x}>\\mathrm{x}$ and $\\mathrm{x}>\\sin \\mathrm{x}, \\forall \\mathrm{x} \\in\\left(0, \\frac{\\pi}{2}\\right)$\r\n\r\n$\\Rightarrow \\quad \\sin \\mathrm{x}<\\mathrm{x}<\\tan \\mathrm{x}, \\forall \\mathrm{x} \\in\\left(0, \\frac{\\pi}{2}\\right)$"
+  }
+}

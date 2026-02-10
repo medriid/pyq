@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a61417cc3fb48d6552c",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c3",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2003-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2003",
+      "title": "JEE Main 2003"
+    }
+  ],
+  "question": {
+    "text": "The value of $\\lim _{x \\rightarrow 0} \\frac{\\int_0^{x^2} \\sec ^2 t d t}{x \\sin x}$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "zM46h",
+      "text": "\n0\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ljYGS",
+      "text": "\n3\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "C9cBE",
+      "text": "\n2\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "a0s84",
+      "text": "\n1",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\operatorname{Lim}_{x \\rightarrow 0} \\frac{\\frac{d}{d x} \\int_0^{x^2} \\sec ^2 t d t}{\\frac{d}{d x}(x \\sin x)}=\\operatorname{Lim}_{x \\rightarrow 0} \\frac{\\sec ^2 x^2 \\cdot 2 x}{\\sin x+x \\cos x}$\n(by L'Hospital rule)\n$\\operatorname{Lim}_{x \\rightarrow 0} \\frac{2 \\sec ^2 x^2}{\\left(\\frac{\\sin x}{x}+\\cos x\\right)}=\\frac{2 \\times 1}{1+1}=1$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c3",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2003-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2003",
+    "title": "JEE Main 2003"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

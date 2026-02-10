@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2022",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cccd6ab1da4b641d4",
+    "chapter_name": "Permutation Combination",
+    "year": "2022",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of ways of arranging letters of the word HAVANA so that $\\mathrm{V}$ and $\\mathrm{N}$ do not appear together is"
+  },
+  "options": [
+    {
+      "text": "\r\n40\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n60\r\n",
+      "is_correct": false
+    },
+    {
+      "text": "\r\n80\r\n",
+      "is_correct": true
+    },
+    {
+      "text": "\r\n100",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We can arrange the letters $\\mathrm{H}, \\mathrm{A}, \\mathrm{A}, \\mathrm{A}$ in $\\frac{4 !}{3 !}=4$ ways. If one possible arrangement is\r\n$$\r\nX X X X\r\n$$\r\nThen, we can arrange $\\mathrm{V}, \\mathrm{N}$ at any of the two places marked with $\\mathrm{O}$ in the following arrangement\r\n$$\r\n\\mathrm{O} \\times \\mathrm{O} \\times \\mathrm{O} \\times \\mathrm{O} \\times \\mathrm{O}\r\n$$\r\nThus, we can arrange $V$ and $N$ in ${ }^5 P_2=20$ ways. Thus, the number of ways in which letters can be arranged is $4 \\times 20=80$"
+  }
+}

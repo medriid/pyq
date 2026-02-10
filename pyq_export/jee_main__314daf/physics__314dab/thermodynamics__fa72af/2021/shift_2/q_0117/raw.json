@@ -1,37 +1,62 @@
 {
-  "_id": "648b5a6a417cc3fb48d672b5",
+  "_id": "648b5a69417cc3fb48d6703c",
   "previousYearPapers": [
     {
-      "_id": "615d92edde3d91842a5cf80b",
+      "_id": "615d92edde3d91842a5cf813",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2021-02-25T14:00:00.000Z",
+      "heldOn": "2021-03-18T14:00:00.000Z",
       "isVisible": true,
-      "shortName": "2021 (25 Feb Shift 2)",
-      "title": "JEE Main 2021 (25 Feb Shift 2)"
+      "shortName": "2021 (18 Mar Shift 2)",
+      "title": "JEE Main 2021 (18 Mar Shift 2)"
     }
   ],
-  "type": "numerical",
+  "type": "singleCorrect",
   "level": 2,
   "question": {
-    "text": "A reversible heat engine converts one-fourth of the heat input into work. When the temperature of the sink is reduced by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>52</mn><mo>&#160;</mo><mi mathvariant=\"normal\">K</mi><mo>,</mo></math>&nbsp;its efficiency is doubled. The temperature in Kelvin of the source will be ___ .",
+    "text": "An ideal gas in a cylinder is separated by a piston in such a way that the entropy of one part is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub></math>&nbsp;and that of the other part is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub></math>. Given that <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub><mo>&#62;</mo><msub><mi>S</mi><mn>2</mn></msub></math>. If the piston is removed then the total entropy of the system will be:",
     "image": null
   },
-  "options": [],
-  "correctValue": "208",
+  "options": [
+    {
+      "id": "ozgrU",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub><mo>&#215;</mo><msub><mi>S</mi><mn>2</mn></msub></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "hBUR0",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub><mo>-</mo><msub><mi>S</mi><mn>2</mn></msub></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "3CK1k",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>S</mi><mn>1</mn></msub><msub><mrow><mo>&#160;</mo><mi>S</mi></mrow><mn>2</mn></msub></mfrac></math>",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "V8rWW",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub><mo>+</mo><msub><mi>S</mi><mn>2</mn></msub></math>",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
   "solution": {
-    "text": "<p>Efficiency of reversible engine is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#951;</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mi>W</mi><msub><mi>Q</mi><mi>in</mi></msub></mfrac><mo>=</mo><mn>1</mn><mo>-</mo><mfrac><msub><mi>T</mi><mn>2</mn></msub><mrow><mo>&#160;</mo><msub><mi>T</mi><mn>1</mn></msub></mrow></mfrac></math></p><p>From above,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>T</mi><mn>2</mn></msub><mrow><mo>&#160;</mo><msub><mi>T</mi><mn>1</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></math></p><p>When the temperature of the sink is reduced by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>52</mn><mo>&#160;</mo><mi mathvariant=\"normal\">K</mi></math>&nbsp;then its efficiency is doubled.</p><p>Then,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msub><mi>T</mi><mn>2</mn></msub><mo>-</mo><mn>52</mn></mrow><mrow><mo>&#160;</mo><msub><mi>T</mi><mn>1</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfrac><msub><mi>T</mi><mn>2</mn></msub><mrow><mo>&#160;</mo><msub><mi>T</mi><mn>1</mn></msub></mrow></mfrac><mo>-</mo><mfrac><mn>52</mn><mrow><mo>&#160;</mo><msub><mi>T</mi><mn>1</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mspace linebreak=\"newline\"/><mo>&#8658;</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>-</mo><mfrac><mn>52</mn><mrow><mo>&#160;</mo><msub><mi>T</mi><mn>1</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mspace linebreak=\"newline\"/><mo>&#8658;</mo><mfrac><mn>52</mn><mrow><mo>&#160;</mo><msub><mi>T</mi><mn>1</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mspace linebreak=\"newline\"/><mo>&#8658;</mo><msub><mi>T</mi><mn>1</mn></msub><mo>=</mo><mn>52</mn><mo>&#215;</mo><mn>4</mn><mo>=</mo><mn>208</mn><mo>&#160;</mo><mi mathvariant=\"normal\">K</mi></math></p>",
+    "text": "<p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/0c0cdabc-28d6-4e42-8212-f8cafee2d447-image.png\" style=\"width: 196px; height: 121px;\" /><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>;</mo><mo>&#160;</mo><msub><mi>S</mi><mn>1</mn></msub><mo>&#62;</mo><msub><mi>S</mi><mn>2</mn></msub></math></p><p>After piston is removed</p><p><img src=\"https://cdn-question-pool.getmarks.app/pyq/jee_main/83d04b74-7095-45e8-b5be-45cf9db74a24-image.png\" style=\"width: 198px; height: 92px;\" />|<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>;</mo><mo>&#160;</mo><msub><mi>S</mi><mi>total</mi></msub><mo>=</mo><msub><mi>S</mi><mn>1</mn></msub><mo>&#62;</mo><msub><mi>S</mi><mn>2</mn></msub></math></p>",
     "image": null
   },
   "videoSolution": null,
   "questionLabels": [],
-  "syllabusCategory": "outOfSyllabus",
+  "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "615d92edde3d91842a5cf80b",
+    "_id": "615d92edde3d91842a5cf813",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2021-02-25T14:00:00.000Z",
+    "heldOn": "2021-03-18T14:00:00.000Z",
     "isVisible": true,
-    "shortName": "2021 (25 Feb Shift 2)",
-    "title": "JEE Main 2021 (25 Feb Shift 2)"
+    "shortName": "2021 (18 Mar Shift 2)",
+    "title": "JEE Main 2021 (18 Mar Shift 2)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

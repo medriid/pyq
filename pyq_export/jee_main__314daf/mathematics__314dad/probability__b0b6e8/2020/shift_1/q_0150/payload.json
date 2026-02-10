@@ -1,8 +1,8 @@
 {
   "index": 150,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2020 (07 Jan Shift 1)",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2020 (03 Sep Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "An unbiased coin is tossed <math><mn>5</mn></math> times. Suppose that a variable <math><mi>X</mi></math> is assigned the value <math><mi>k</mi></math> when <math><mi>k</mi></math>&nbsp;consecutive heads are obtained for <math><mi>k</mi><mo>=</mo><mn>3</mn><mo>,</mo><mi></mi><mn>4</mn><mo>,</mo><mi></mi><mn>5</mn><mo>,</mo><mi></mi></math> otherwise <math><mi>X</mi></math> takes the value <math><mo>-</mo><mn>1</mn><mo>.</mo></math> Then the expected value of <math><mi>X</mi><mo>,</mo><mi></mi></math> is"
+    "text": "A die is thrown two times and the sum of the scores appearing on the die is observed to be a multiple of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>. Then the conditional probability that the score <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> has appeared at least once is"
   },
   "options": [
     {
-      "text": "<math><mfrac><mrow><mn>3</mn></mrow><mrow><mn>16</mn></mrow></mfrac></math>",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>",
       "is_correct": false
     },
     {
-      "text": "<math><mfrac><mrow><mn>1</mn></mrow><mrow><mn>8</mn></mrow></mfrac></math>",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math>",
       "is_correct": true
-    },
-    {
-      "text": "<math><mo>-</mo><mfrac><mrow><mn>3</mn></mrow><mrow><mn>16</mn></mrow></mfrac></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>8</mn></mrow></mfrac></math>",
-      "is_correct": false
     }
   ],
   "correct_answer": [
-    "B"
+    "D"
   ],
   "solution": {
-    "text": "<p>&nbsp;If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> represents the number of consecutive heads and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mi>k</mi></mfenced></math> is the corresponding probability while an unbiased coin is tossed <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math> times, then</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\t<tbody>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math></td>\t\t</tr>\t\t<tr>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mi>k</mi></mfenced></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><msup><mn>2</mn><mn>5</mn></msup></mfrac></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>12</mn><msup><mn>2</mn><mn>5</mn></msup></mfrac></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>11</mn><msup><mn>2</mn><mn>5</mn></msup></mfrac></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><msup><mn>2</mn><mn>5</mn></msup></mfrac></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><msup><mn>2</mn><mn>5</mn></msup></mfrac></math></td>\t\t\t<td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><msup><mn>2</mn><mn>5</mn></msup></mfrac></math></td>\t\t</tr>\t</tbody></table><p>Now, the expected value of variable <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>&nbsp;is</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mo>-</mo><mn>1</mn></mrow></mfenced><mfrac><mn>1</mn><msup><mn>2</mn><mn>5</mn></msup></mfrac><mo>+</mo><mfenced><mrow><mo>-</mo><mn>1</mn></mrow></mfenced><mfrac><mn>12</mn><msup><mn>2</mn><mn>5</mn></msup></mfrac><mo>+</mo><mfenced><mrow><mo>-</mo><mn>1</mn></mrow></mfenced><mfrac><mn>11</mn><msup><mn>2</mn><mn>5</mn></msup></mfrac><mo>+</mo><mfenced><mn>3</mn></mfenced><mfrac><mn>5</mn><msup><mn>2</mn><mn>5</mn></msup></mfrac><mo>+</mo><mfenced><mn>4</mn></mfenced><mfrac><mn>2</mn><msup><mn>2</mn><mn>5</mn></msup></mfrac><mo>+</mo><mfenced><mn>5</mn></mfenced><mfrac><mn>1</mn><msup><mn>2</mn><mn>5</mn></msup></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><msup><mn>2</mn><mn>5</mn></msup></mfrac><mfenced close=\"]\" open=\"[\"><mrow><mo>-</mo><mn>1</mn><mo>-</mo><mn>12</mn><mo>-</mo><mn>11</mn><mo>+</mo><mn>15</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>5</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>28</mn><mo>-</mo><mn>24</mn></mrow><msup><mn>2</mn><mn>5</mn></msup></mfrac><mo>=</mo><mfrac><mn>4</mn><msup><mn>2</mn><mn>5</mn></msup></mfrac><mo>=</mo><mfrac><mn>1</mn><msup><mn>2</mn><mn>3</mn></msup></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></math></p>"
+    "text": "<p>A die is thrown two times.</p><p>Total number of possible outcomes<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>36</mn></math>.</p><p>Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>&nbsp;is the event that sum of the score appearing on the die is multiple of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>.</p><p>Possible outcomes in favor of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mfenced><mrow><mn>1</mn><mo>,</mo><mo>&#160;</mo><mn>3</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>3</mn><mo>,</mo><mo>&#160;</mo><mn>1</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>2</mn><mo>,</mo><mo>&#160;</mo><mn>2</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>2</mn><mo>,</mo><mo>&#160;</mo><mn>6</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>6</mn><mo>,</mo><mo>&#160;</mo><mn>2</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>3</mn><mo>,</mo><mo>&#160;</mo><mn>5</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>5</mn><mo>,</mo><mo>&#160;</mo><mn>3</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>4</mn><mo>,</mo><mo>&#160;</mo><mn>4</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>6</mn><mo>,</mo><mo>&#160;</mo><mn>6</mn></mrow></mfenced></mrow></mfenced></math>.</p><p>Number of favorable outcomes<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>9</mn></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mi>E</mi></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>.</p><p>Let&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>&nbsp;is the event that at least one&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>&nbsp;appear.</p><p>Possible outcomes in favor of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mfenced><mrow><mn>1</mn><mo>,</mo><mo>&#160;</mo><mn>4</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>4</mn><mo>,</mo><mo>&#160;</mo><mn>1</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>2</mn><mo>,</mo><mo>&#160;</mo><mn>4</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>4</mn><mo>,</mo><mo>&#160;</mo><mn>2</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>3</mn><mo>,</mo><mo>&#160;</mo><mn>4</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>4</mn><mo>,</mo><mo>&#160;</mo><mn>3</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>4</mn><mo>,</mo><mo>&#160;</mo><mn>4</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>4</mn><mo>,</mo><mo>&#160;</mo><mn>5</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>5</mn><mo>,</mo><mo>&#160;</mo><mn>4</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>4</mn><mo>,</mo><mo>&#160;</mo><mn>6</mn></mrow></mfenced><mo>,</mo><mo>&#160;</mo><mfenced><mrow><mn>6</mn><mo>,</mo><mo>&#160;</mo><mn>4</mn></mrow></mfenced></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mo>&#8745;</mo><mi>F</mi><mo>=</mo><mfenced close=\"}\" open=\"{\"><mfenced><mrow><mn>4</mn><mo>,</mo><mo>&#160;</mo><mn>4</mn></mrow></mfenced></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>P</mi><mfenced><mrow><mi>E</mi><mo>&#8745;</mo><mi>F</mi></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>36</mn></mfrac></math>.</p><p>We have to find conditional probability of occurrence of at least one&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>&nbsp;given that sum of scores is multiple of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mi>F</mi><mo>/</mo><mi>E</mi></mrow></mfenced><mo>=</mo><mfrac><mrow><mi>P</mi><mfenced><mrow><mi>E</mi><mo>&#8745;</mo><mi>F</mi></mrow></mfenced></mrow><mrow><mi>P</mi><mfenced><mi>E</mi></mfenced></mrow></mfrac><mo>=</mo><mfrac><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>36</mn></mfrac></mstyle><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>4</mn></mfrac></mstyle></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>9</mn></mfrac></math>.</p>"
   }
 }

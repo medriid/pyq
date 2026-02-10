@@ -1,0 +1,63 @@
+{
+  "_id": "67726d19c49e8ef28ee2b438",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6416",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T19:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 3)",
+      "title": "BITSAT 2024 (Memory Based Paper 3)"
+    }
+  ],
+  "question": {
+    "text": "Let $\\mathbf{a}=\\hat{\\mathbf{i}}-\\hat{\\mathbf{k}}, \\mathbf{b}=x \\hat{\\mathbf{i}}+\\hat{\\mathbf{j}}+(1-x) \\hat{\\mathbf{k}}$ and $\\mathbf{c}=y \\hat{\\mathbf{i}}+x \\hat{\\mathbf{j}}+(1+x-y) \\hat{\\mathbf{k}}$. Then, $[\\mathbf{a} \\mathbf{b} \\mathbf{~ c}]$ depends on",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "HbgKx",
+      "text": "only $y$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ENTQO",
+      "text": "only $x$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "qzRpr",
+      "text": "both $x$ and $y$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "wRNV2",
+      "text": "neither $x$ nor $y$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Here, $[a b c]=|a \\cdot(b \\times c)|$\nNow, according to question,\n$\\begin{aligned}\n{\\left[\\begin{array}{lll}\na & b c\n\\end{array}\\right] } & =\\left|\\begin{array}{ccc}\n1 & 0 & -1 \\\\\nx & 1 & 1 - x \\\\\ny & x & 1+x-y\n\\end{array}\\right| \\\\\n& =1(1+x-y-x(1-x))-1\\left(x^2-y\\right) \\\\\n& =1+x-y-x+x^2-x^2+y \\\\\n& =1 \\\\\n& =\\text { Independent of } x \\text { and } y .\n\\end{aligned}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6416",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T19:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 3)",
+    "title": "BITSAT 2024 (Memory Based Paper 3)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

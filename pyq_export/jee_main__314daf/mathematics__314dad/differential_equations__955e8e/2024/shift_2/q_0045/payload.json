@@ -1,0 +1,24 @@
+{
+  "index": 45,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2024 (04 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160256791c57ed2d7955e8e",
+    "chapter_name": "Differential Equations",
+    "year": "2024",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "Let $y=y(x)$ be the solution of the differential equation $(x+y+2)^2 d x=d y, y(0)=-2$. Let the maximum and minimum values of the function $y=y(x)$ in $\\left[0, \\frac{\\pi}{3}\\right]$ be $\\alpha$ and $\\beta$, respectively. If $(3 \\alpha+\\pi)^2+\\beta^2=\\gamma+\\delta \\sqrt{3}, \\gamma, \\delta \\in \\mathbb{Z}$, then $\\gamma+\\delta$ equals ______"
+  },
+  "options": [],
+  "correct_answer": "31",
+  "solution": {
+    "text": "$\\frac{d y}{d x}=(x+y+2)^2$ ...(1)\n$y(0)=-2$<br />Let $\\mathrm{x}+\\mathrm{y}+2=\\mathrm{v}$\n$1+\\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\frac{\\mathrm{dv}}{\\mathrm{dx}}$\nfrom (1) $\\frac{d v}{d x}=1+v^2$\n$\\begin{aligned}\n& \\int \\frac{d v}{1+v^2}=\\int d x \\\\\n& \\tan ^{-1}(v)=x+C \\\\\n& \\tan ^{-1}(x+y+2)=x+C \\\\\n& \\text { at } x=0 y=-2 \\Rightarrow C=0\n\\end{aligned}$\n$\\begin{aligned}\n& \\Rightarrow \\tan ^{-1}(\\mathrm{x}+\\mathrm{y}+2)=\\mathrm{x} \\\\\n& \\mathrm{y}=\\tan \\mathrm{x}-\\mathrm{x}-2 \\\\\n& \\mathrm{f}(\\mathrm{x})=\\tan \\mathrm{x}-\\mathrm{x}-2, \\mathrm{x} \\in\\left[0, \\frac{\\pi}{3}\\right]\n\\end{aligned}$\n$\\begin{aligned}\n& f^{\\prime}(x)=\\sec ^2 x-1>0 \\Rightarrow f(x) \\uparrow \\\\\n& f_{\\min }=f(0)=-2=\\beta \\\\\n& f_{\\max }=f\\left(\\frac{\\pi}{3}\\right)=\\sqrt{3}-\\frac{\\pi}{3}-2=\\alpha\n\\end{aligned}$\nnow $(3 \\alpha+\\pi)^2+\\beta^2=\\gamma+\\delta \\sqrt{3}$\n$\\begin{aligned}\n& \\Rightarrow(3 \\alpha+\\pi)^2+\\beta^2=(3 \\sqrt{3}-6)^2+4 \\\\\n& \\gamma+\\delta \\sqrt{3}=67-36 \\sqrt{3} \\\\\n& \\Rightarrow \\gamma=67 \\text { and } \\delta=-36 \\Rightarrow \\gamma+\\delta=31\n\\end{aligned}$"
+  }
+}

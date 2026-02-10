@@ -1,0 +1,43 @@
+{
+  "index": 16,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7d211e05bce84fe206",
+    "chapter_name": "Determinants",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The equations $2 x+3 y+4=0 ; 3 x+4 y+6=0$ and $4 x+5 y+8=0$ are"
+  },
+  "options": [
+    {
+      "text": "consistent with unique solution",
+      "is_correct": true
+    },
+    {
+      "text": "inconsistent",
+      "is_correct": false
+    },
+    {
+      "text": "consistent with infinitely many solutions",
+      "is_correct": false
+    },
+    {
+      "text": "None of the above",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Consider first two equations:\r\n$2 x+3 y=-4 \\quad$ and $\\quad 3 x+4 y=-6$\r\nWe have $\\Delta=\\left|\\begin{array}{ll}2 & 3 \\\\ 3 & 4\\end{array}\\right|=-1 \\neq 0$\r\n$$\r\n\\Delta_{\\mathrm{x}}=\\left|\\begin{array}{ll}\r\n-4 & 3 \\\\\r\n-6 & 4\r\n\\end{array}\\right|=2 \\quad \\text { and } \\quad \\Delta_{\\mathrm{y}}=\\left|\\begin{array}{cc}\r\n2 & -4 \\\\\r\n3 & -6\r\n\\end{array}\\right|=0\r\n$$\r\n$\\therefore x=-2$ and $y=0$\r\nNow this solution satisfies the third, so the equations are consistent with unique solution."
+  }
+}

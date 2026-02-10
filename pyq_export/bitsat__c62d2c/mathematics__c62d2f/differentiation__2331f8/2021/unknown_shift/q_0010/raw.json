@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e8286f5bfc7ab78aeb18",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44c",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2021-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2021",
+      "title": "BITSAT 2021"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "$\\text { If } 2^{x}+2^{y}=2^{x+y} \\text {, then } \\frac{d y}{d x}=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "SGOv6",
+      "text": "$2^{x-y} \\frac{2^{y}-1}{2^{x}-1}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "yu0BC",
+      "text": "$2^{x-y} \\frac{2^{y}-1}{1-2^{x}}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "8cogH",
+      "text": "$\\frac{2^{x}+2^{y}}{2^{x}-2^{y}}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "U9WQQ",
+      "text": "None of these",
+      "isCorrect": true,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "On differentiating\r\n\r\n$\\begin{array}{l}\r\n\r\n2^{x} \\log 2+2^{y} \\log 2 \\cdot \\frac{\\mathrm{dy}}{\\mathrm{dx}} \\\\\r\n\r\n=2^{x} \\cdot 2^{y} \\frac{\\mathrm{dy}}{\\mathrm{dx}} \\cdot \\log 2+2^{y} \\cdot 2^{x} \\log 2 \\\\\r\n\r\n\\Rightarrow 2^{x}+2^{y} \\frac{\\mathrm{dy}}{\\mathrm{dx}}=2^{x+y} \\frac{\\mathrm{dy}}{\\mathrm{dx}}+2^{x+y} \\\\\r\n\r\n\\Rightarrow \\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\frac{2^{x+y}-2^{x}}{2^{y}-2^{x+y}} \\\\\r\n\r\n\\Rightarrow \\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\frac{2^{x}+2^{y}-2^{x}}{2^{y}-2^{x}-2^{y}}=-2^{y-x}\r\n\r\n\\end{array}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44c",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2021-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2021",
+    "title": "BITSAT 2021"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

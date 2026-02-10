@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a61417cc3fb48d65530",
+  "type": "singleCorrect",
+  "level": 1,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c3",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2003-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2003",
+      "title": "JEE Main 2003"
+    }
+  ],
+  "question": {
+    "text": "$$\n\\lim _{x \\rightarrow \\frac{\\pi}{2}} \\frac{\\left[1-\\tan \\left(\\frac{x}{2}\\right)\\right][1-\\sin x]}{\\left[1+\\tan \\left(\\frac{x}{2}\\right)\\right]\\left[\\pi-2 x^3\\right]}\n$$\nis",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "XVB7x",
+      "text": "\n$\\infty$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Oonb5",
+      "text": "\n$\\frac{1}{8}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "vaR35",
+      "text": "\n0\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "VRyez",
+      "text": "\n$\\frac{1}{32}$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\lim _{x \\rightarrow \\frac{\\pi}{2}} \\frac{\\tan \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right) \\cdot(1-\\sin x)}{(\\pi-2 x)^3}$\nLet $\\mathrm{x}=\\frac{\\pi}{2}+\\mathrm{y} ; \\mathrm{y} \\rightarrow 0$\n$=\\lim _{y \\rightarrow 0} \\frac{-\\tan \\left(-\\frac{y}{2}\\right) \\cdot(1-\\cos y)}{(-2 y)^3}=\\lim _{y \\rightarrow 0} \\frac{-\\tan \\frac{y}{2} 2 \\sin ^2 \\frac{y}{2}}{(-8) \\cdot \\frac{y^3}{8} \\cdot 8}$\n$=\\lim _{y \\rightarrow 0} \\frac{1}{32} \\frac{\\tan \\frac{y}{2}}{\\left(\\frac{y}{2}\\right)} \\cdot\\left[\\frac{\\sin y / 2}{y / 2}\\right]^2=\\frac{1}{32}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c3",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2003-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2003",
+    "title": "JEE Main 2003"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

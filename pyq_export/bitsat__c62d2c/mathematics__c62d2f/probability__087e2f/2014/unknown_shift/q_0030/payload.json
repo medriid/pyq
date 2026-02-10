@@ -1,0 +1,43 @@
+{
+  "index": 30,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2014",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd78b6e5f7d916087e2f",
+    "chapter_name": "Probability",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A bag contains $n+1$ coins. It is known that one of these coins shows heads on both sides, whereas the other coins are fair. One coin is selected at random and tossed. If the probability that toss results in heads is $\\frac{7}{12},$ then the value of $n$ is."
+  },
+  "options": [
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "4",
+      "is_correct": false
+    },
+    {
+      "text": "5",
+      "is_correct": true
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Let $E_{1}$ denote the event \"a coin with head on both sides is selected\" and $\\mathrm{E}_{2}$ denotes the event \" a fair coin is selected\". Let $A$ be\r\n\r\nthe event \" he toss, results in heads\".\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\therefore \\mathrm{P}\\left(\\mathrm{E}_{1}\\right)=\\frac{1}{n+1}, \\mathrm{P}\\left(\\mathrm{E}_{2}\\right)=\\frac{n}{n+1} \\text { and } \\\\\r\n\r\n\\mathrm{P}\\left(\\frac{\\mathrm{A}}{\\mathrm{E}_{1}}\\right)=1, \\mathrm{P}\\left(\\frac{\\mathrm{A}}{\\mathrm{E}_{2}}\\right)=\\frac{1}{2} \\\\\r\n\r\n\\therefore \\mathrm{P}(\\mathrm{A})=\\mathrm{P}\\left(\\mathrm{E}_{1}\\right) \\mathrm{P}\\left(\\frac{\\mathrm{A}}{\\mathrm{E}_{1}}\\right)+\\mathrm{P}\\left(\\mathrm{E}_{2}\\right) \\mathrm{P}\\left(\\frac{\\mathrm{A}}{\\mathrm{E}_{2}}\\right) \\\\\r\n\r\n\\Rightarrow \\frac{7}{12}=\\frac{1}{n+1} \\times 1+\\frac{n}{n+1} \\times \\frac{1}{2} \\\\\r\n\r\n\\Rightarrow 14 n+14=24+12 n \\Rightarrow n=5\r\n\r\n\\end{array}\r\n\r\n$$"
+  }
+}

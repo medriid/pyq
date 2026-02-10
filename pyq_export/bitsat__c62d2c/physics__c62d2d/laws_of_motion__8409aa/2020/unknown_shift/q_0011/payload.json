@@ -1,0 +1,43 @@
+{
+  "index": 11,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2020",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7991a3d691658409aa",
+    "chapter_name": "Laws of Motion",
+    "year": "2020",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The upper half of an inclined plane with inclination $\\phi$ is perfectlysmooth while the lower halfis rough. A body starting from rest at the top will again come to rest at the bottom if the coefficient of friction for the lower half is given by"
+  },
+  "options": [
+    {
+      "text": "$2 \\cos \\phi$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 \\sin \\phi$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\tan \\phi$",
+      "is_correct": false
+    },
+    {
+      "text": "$2 \\tan \\phi$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Acceleration of block while sliding down upper half $=\\mathrm{g} \\sin \\phi$\r\n\r\nretardation of block while sliding down lower half $=-(\\mathrm{g} \\sin \\phi-\\mu \\mathrm{g} \\cos \\phi)$\r\n\r\nFor the block to come to rest at the bottom, acceleration in I half = retardation in II half.\r\n\r\n$\\mathrm{g} \\sin \\phi=-(\\mathrm{g} \\sin \\phi-\\mu \\mathrm{g} \\cos \\phi)$\r\n\r\n$\\Rightarrow \\mu=2 \\tan \\phi$\r\n\r\nAlternative method: According to work-energy theorem, $\\mathrm{W}=\\Delta \\mathrm{K}=0$\r\n\r\n(Since initial and final speeds are zero)\r\n\r\n$\\therefore$ Work done by friction $+$ Work done by gravity $=0$ i.e., $-(\\mu \\mathrm{mg} \\cos \\phi) \\frac{\\ell}{2}+\\mathrm{mg} \\ell \\sin \\phi=0$\r\n\r\nor $\\frac{\\mu}{2} \\cos \\phi=\\sin \\phi$ or $\\mu=2 \\tan \\phi$"
+  }
+}

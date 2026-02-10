@@ -1,8 +1,8 @@
 {
   "index": 135,
-  "type": "singleCorrect",
+  "type": "numerical",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2021 (24 Feb Shift 1)",
+  "pyq_info": "JEE Main 2021 (26 Feb Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,11 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "If an emitter current is changed by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>&#160;</mo><mi>mA</mi></math>, the collector current changes by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mi>mA</mi></math>. The value of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#946;</mi></math> will be:"
+    "text": "The circuit contains two diodes each with a forward resistance of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></math> and with infinite reverse resistance. If the battery voltage is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></math>, the current through the <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></math> resistance is _______ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>mA</mi></math><p><img src=\"assets\\qt0135_03cd9c841692.png\" style=\"width: 179px; height: 170px;\" /></p>"
   },
-  "options": [
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3.5</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0.5</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0.875</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math>",
-      "is_correct": true
-    }
-  ],
-  "correct_answer": [
-    "D"
-  ],
+  "options": [],
+  "correct_answer": "20",
   "solution": {
-    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>I</mi><mi>&#949;</mi></msub><mo>=</mo><msub><mi>I</mi><mi>C</mi></msub><mo>+</mo><msub><mi>I</mi><mi>B</mi></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#916;</mi><msub><mi>I</mi><mi>&#949;</mi></msub><mo>=</mo><mi>&#916;</mi><msub><mi>I</mi><mi>C</mi></msub><mo>+</mo><mi>&#916;</mi><msub><mi>I</mi><mi>B</mi></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>&#160;</mo><mi>mA</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mi>mA</mi><mo>+</mo><mi>&#916;</mi><msub><mi>I</mi><mi>B</mi></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#916;</mi><msub><mi>I</mi><mi>B</mi></msub><mo>=</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mi>mA</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#946;</mi><mo>=</mo><mfrac><mrow><mi>&#916;</mi><msub><mi>I</mi><mi>C</mi></msub></mrow><mrow><mi>&#916;</mi><msub><mi>I</mi><mi>B</mi></msub></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#946;</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>5</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>5</mn></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>&#946;</mi><mo>=</mo><mn>7</mn></math></p>"
+    "text": "<p><img src=\"assets\\st0135_27435736828a.png\" style=\"width: 206px; height: 169px;\" /></p><p>In this circuit <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>D</mi><mn>1</mn></msub></math> will be forward bias and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>D</mi><mn>2</mn></msub></math>&nbsp;will be revers bias.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo></math> There will be no current through <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>D</mi><mn>2</mn></msub></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>2</mn></msub></math></p><p>Apply KVL in circuit we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>+</mo><mn>6</mn><mo>-</mo><mn>50</mn><mi>i</mi><mo>-</mo><mn>130</mn><mi>i</mi><mo>-</mo><mn>120</mn><mi>i</mi><mo>=</mo><mn>0</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>i</mi><mo>=</mo><mfrac><mn>6</mn><mn>300</mn></mfrac><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi><mo>=</mo><mfrac><mn>6</mn><mn>300</mn></mfrac><mo>&#215;</mo><mn>1000</mn><mo>&#160;</mo><mi>mA</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mn>20</mn><mo>&#160;</mo><mi>mA</mi></math></p>"
   }
 }

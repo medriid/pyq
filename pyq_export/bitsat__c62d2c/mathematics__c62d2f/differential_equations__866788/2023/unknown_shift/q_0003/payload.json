@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd839e4041267a866788",
+    "chapter_name": "Differential Equations",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of solutions of $\\frac{d y}{d x}=\\frac{y+1}{x-1}$, when $y(1)=2$ is"
+  },
+  "options": [
+    {
+      "text": "none",
+      "is_correct": false
+    },
+    {
+      "text": "one",
+      "is_correct": true
+    },
+    {
+      "text": "two",
+      "is_correct": false
+    },
+    {
+      "text": "infinite",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Since, $\\frac{d y}{d x}=\\frac{y+1}{x-1}$<br />$\\Rightarrow \\quad \\frac{d y}{y+1}=\\frac{d x}{x-1}$<br />After integrating on both sides, we have<br />$\\log (y+1)=\\log (x-1)-\\log C$<br />$C(y+1)=(x-1)$<br />$C=\\frac{x-1}{y+1}$<br />If $x=1$, then $y=2$, so $C=0$ <br />Therefore, $x-1=0$ <br />Hence, there is only one solution."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 1,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd788eed0f628d7030f2",
+    "chapter_name": "Indefinite Integration",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The value of $\\int e^{\\tan \\theta}(\\sec \\theta-\\sin \\theta) d \\theta$ is"
+  },
+  "options": [
+    {
+      "text": "$e^{\\tan \\theta} \\sec \\theta+c$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^{\\tan \\theta} \\sin \\theta+c$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^{\\tan \\theta}(\\sec \\theta+\\sin \\theta)+c$",
+      "is_correct": false
+    },
+    {
+      "text": "$e^{\\tan \\theta} \\cos \\theta+c$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Let $I=\\int e^{\\tan \\theta}(\\sec \\theta-\\sin \\theta) d \\theta$\nPut $\\tan \\theta=t \\Rightarrow \\sec ^2 \\theta d \\theta=d t \\Rightarrow d \\theta=\\frac{d t}{1+t^2}$\n$\\Rightarrow I=\\int e^t\\left(\\sqrt{1+t^2}-\\frac{t}{\\sqrt{1+t^2}}\\right) \\frac{d t}{1+t^2}$\n$=\\int e^t\\left(\\frac{1}{\\sqrt{1+t^2}}-\\frac{t}{\\left(1+t^2\\right)^{3 / 2}}\\right) d t$\nIntegrating first part by parts we have,\n$=\\frac{1}{\\sqrt{1+t^2}} e^t+\\int \\frac{t}{\\left(1+t^2\\right)^{3 / 2}} \\cdot e^t d t$\n$-\\int \\frac{t}{\\left(1+t^2\\right)^{3 / 2}} e^t d t+c$\n$=\\frac{e^t}{\\sqrt{1+t^2}}+c=e^{\\tan \\theta} \\cos \\theta+c$"
+  }
+}

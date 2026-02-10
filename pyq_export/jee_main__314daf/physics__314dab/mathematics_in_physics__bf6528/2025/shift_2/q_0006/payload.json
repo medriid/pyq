@@ -2,7 +2,7 @@
   "index": 6,
   "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (22 Jan Shift 2)",
+  "pyq_info": "JEE Main 2025 (23 Jan Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "The maximum percentage error in the measurment of density of a wire is [Given, mass of wire $=(0.60 \\pm 0.003) \\mathrm{g}$\nradius of wire $=(0.50 \\pm 0.01) \\mathrm{cm}$\nlength of wire $=(10.00 \\pm 0.05) \\mathrm{cm}]$"
+    "text": "The energy of a system is given as $\\mathrm{E}(\\mathrm{t})=\\alpha^3 \\mathrm{e}^{-\\beta t}$, where t is the time and $\\beta=0.3 \\mathrm{~s}^{-1}$. The errors in the measurement of $\\alpha$ and $t$ are $1.2 \\%$ and $1.6 \\%$, respectively. At $t=5 \\mathrm{~s}$, maximum percentage error in the energy is :"
   },
   "options": [
     {
-      "text": "8",
-      "is_correct": false
-    },
-    {
-      "text": "5",
+      "text": "$6 \\%$",
       "is_correct": true
     },
     {
-      "text": "4",
+      "text": "$8.4 \\%$",
       "is_correct": false
     },
     {
-      "text": "7",
+      "text": "$11.6 \\%$",
+      "is_correct": false
+    },
+    {
+      "text": "$4 \\%$",
       "is_correct": false
     }
   ],
   "correct_answer": [
-    "B"
+    "A"
   ],
   "solution": {
-    "text": "$\\begin{aligned} & \\mathrm{d}=\\frac{\\mathrm{m}}{\\text { vol. }}=\\frac{\\mathrm{m}}{\\pi \\mathrm{R}^2 \\ell} \\Rightarrow \\frac{\\mathrm{~d} \\rho}{\\rho}=\\frac{\\mathrm{dm}}{\\mathrm{m}}+\\frac{2 \\mathrm{dR}}{\\mathrm{R}}+\\frac{\\mathrm{d} \\ell}{\\ell} \\\\ & \\Rightarrow \\frac{\\mathrm{d} \\rho}{\\rho}=\\left(\\frac{0.003}{0.6}+\\frac{2 \\times 0.01}{0.5}+\\frac{0.05}{10}\\right) 100=5 \\%\\end{aligned}$"
+    "text": "$\\begin{aligned}\n& d E=3 \\alpha^2 d \\alpha e^{-\\beta t}+\\alpha^3 e^{-\\beta t}(-\\beta) d t \\\\\n& \\frac{d E}{E}=\\frac{3 d \\alpha}{\\alpha}+(-\\beta) d t \\\\\n& \\frac{\\Delta E}{E}=\\frac{3 \\Delta \\alpha}{\\alpha}+\\beta \\Delta t\n\\end{aligned}$\n(\\%) $\\Delta t=1.6 \\% \\times 5=8 \\%$\n$\\%\\left(\\frac{3 \\Delta \\alpha}{\\alpha}\\right)=3 \\times 1.2 \\%=3.6 \\%$\nPutting values we get\n$\\Rightarrow 3.6+8 \\times 0.3=6 \\%$"
   }
 }

@@ -2,7 +2,7 @@
   "index": 147,
   "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2020 (08 Jan Shift 2)",
+  "pyq_info": "JEE Main 2020 (04 Sep Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Let <math><mi>A</mi></math> and <math><mi>B</mi></math>, be two events such that the probability that exactly one of them occurs is <math><mfrac><mrow><mn>2</mn></mrow><mrow><mn>5</mn></mrow></mfrac></math>, and the probability that <math><mi>A</mi></math> or <math><mi>B</mi></math>, occurs is <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>, then the probability of both of them occur together is."
+    "text": "In a game two players <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> take turns in throwing a pair of fair dice starting with player <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> and total of scores on the two dice, in each throw is noted. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> wins the game if he throws a total of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> before <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> throws a total of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> wins the game if he throws a total of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math> before <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> throws a total of six. The game stops as soon as either of the players wins. The probability of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> winning the game is :"
   },
   "options": [
     {
-      "text": "<math><mn>0.02</mn></math>",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>31</mn></mfrac></math>",
       "is_correct": false
     },
     {
-      "text": "<math><mn>0.20</mn></math>",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>31</mn><mn>61</mn></mfrac></math>",
       "is_correct": false
     },
     {
-      "text": "<math><mn>0.01</mn></math>",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math>",
       "is_correct": false
     },
     {
-      "text": "<math><mn>0.10</mn></math>",
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>30</mn><mn>61</mn></mfrac></math>",
       "is_correct": true
     }
   ],
@@ -38,6 +38,6 @@
     "D"
   ],
   "solution": {
-    "text": "<math><mi>P</mi></math> (exactly one) <math><mo>=</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mn>5</mn></mrow></mfrac></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>P</mi><mfenced separators=\"|\"><mi>A</mi></mfenced><mo>+</mo><mi>P</mi><mfenced separators=\"|\"><mi>B</mi></mfenced><mo>-</mo><mn>2</mn><mi>P</mi><mfenced separators=\"|\"><mrow><mi>A</mi><mo>&#8745;</mo><mi>B</mi></mrow></mfenced><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>&#160;</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mn>1</mn></mfenced></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced separators=\"|\"><mrow><mi>A</mi><mo>&#8746;</mo><mi>B</mi></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>P</mi><mfenced separators=\"|\"><mi>A</mi></mfenced><mo>+</mo><mi>P</mi><mfenced separators=\"|\"><mi>B</mi></mfenced><mo>-</mo><mi>P</mi><mfenced separators=\"|\"><mrow><mi>A</mi><mo>&#8745;</mo><mi>B</mi></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#160;</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mn>2</mn></mfenced></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mi>P</mi><mfenced><mrow><mi>A</mi><mo>&#8745;</mo><mi>B</mi></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>-</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>=</mo><mfrac><mrow><mn>5</mn><mo>-</mo><mn>4</mn></mrow><mn>10</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac></math>."
+    "text": "<p>Sum <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>&#8594;</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>3</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>)</mo></math><br />Sum <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>&#8594;</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>6</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>6</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>2</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>3</mn><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>(</mo><mi>A</mi><mo>&#160;</mo><mtext>wins</mtext><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>+</mo><mi>P</mi><mo>(</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>)</mo><mo>&#183;</mo><mi>P</mi><mo>(</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>)</mo><mo>&#183;</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>+</mo><mi>P</mi><mo>(</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>)</mo><mi>P</mi><mo>(</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>)</mo><mo>&#183;</mo><mi>P</mi><mo>(</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>)</mo><mo>&#183;</mo><mi>P</mi><mo>(</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>)</mo><mo>&#183;</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>+</mo><mo>&#8230;</mo><mo>&#8230;</mo></math></p><p>We see that this is an infinite G.P. with common ratio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>(</mo><mover><mi>A</mi><mo>&#175;</mo></mover><mo>)</mo><mo>&#215;</mo><mi>P</mi><mo>(</mo><mover><mi>B</mi><mo>&#175;</mo></mover><mo>)</mo></math></p><p>Thus, probability that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi></math> wins <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi mathvariant=\"normal\">A</mi><mo>)</mo></mrow><mrow><mn>1</mn><mo>-</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mover><mi mathvariant=\"normal\">A</mi><mo>&#175;</mo></mover><mo>)</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mover><mi mathvariant=\"normal\">B</mi><mo>&#175;</mo></mover><mo>)</mo></mrow></mfrac></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mfrac><mn>5</mn><mn>36</mn></mfrac><mrow><mn>1</mn><mo>-</mo><mfrac><mn>31</mn><mn>36</mn></mfrac><mo>&#183;</mo><mfrac><mn>30</mn><mn>36</mn></mfrac></mrow></mfrac><mo>=</mo><mfrac><mn>30</mn><mn>61</mn></mfrac></math></p>"
   }
 }

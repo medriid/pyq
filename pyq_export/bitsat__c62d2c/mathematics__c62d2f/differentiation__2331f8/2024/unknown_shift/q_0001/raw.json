@@ -1,0 +1,63 @@
+{
+  "_id": "67726d1ac49e8ef28ee2b442",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6416",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T19:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 3)",
+      "title": "BITSAT 2024 (Memory Based Paper 3)"
+    }
+  ],
+  "question": {
+    "text": "If $x \\sqrt{1+y}+y \\sqrt{1+x}=0$, then $\\frac{d y}{d x}=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "tZQwZ",
+      "text": "$\\frac{x+1}{x}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "it1kS",
+      "text": "$\\frac{1}{1+x}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "769Rn",
+      "text": "$\\frac{-1}{(1+x)^2}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "MnDMk",
+      "text": "$\\frac{x}{1+x}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}\n& \\text {  Given, } x \\sqrt{1+y}+y \\sqrt{1+x}=0 \\\\\n& \\Rightarrow \\quad x \\sqrt{1+y}=-y \\sqrt{1+x} \\\\\n& \\Rightarrow \\quad(x \\sqrt{1+y})^2=(-y \\sqrt{1+x})^2\n\\end{aligned}$\n$\\begin{array}{lr}\n\\Rightarrow & x^2(1+y)=y^2(1+x) \\\\\n\\Rightarrow & x^2-y^2=y^2 x-x^2 y \\\\\n\\Rightarrow & (x-y)(x+y)=x y(y-x) \\\\\n\\Rightarrow & x+y=-x y \\\\\n\\Rightarrow & x+y+x y=0 \\\\\n\\Rightarrow & y=\\frac{-x}{1+x}=-1+\\frac{1}{1+x}\n\\end{array}$\nDifferentiating w.r.t, $x$\n$\\frac{d y}{d x}=-\\frac{1}{(1+x)^2}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6416",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T19:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 3)",
+    "title": "BITSAT 2024 (Memory Based Paper 3)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

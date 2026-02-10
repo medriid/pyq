@@ -1,0 +1,43 @@
+{
+  "index": 229,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2014 (12 Apr Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2014",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $\\left(2+\\frac{x}{3}\\right)^{55}$ is expanded in the ascending powers of $x$ and the coefficients of powers of $x$ in two consecutive terms of the expansion are equal, then these terms are:"
+  },
+  "options": [
+    {
+      "text": "\n$7^{\\text {th }}$ and $8^{\\text {th }}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$8^{\\text {th }}$ and $9^{\\text {th }}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$28^{\\text {th }}$ and $29^{\\text {th }}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$27^{\\text {th }}$ and $28^{\\text {th }}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let $r^{\\text {th }}$ and $(r+1)^{\\text {th }}$ term has equal coefficient\n$$\n\\begin{aligned}\n&\\left(2+\\frac{x}{3}\\right)^{55}=2^{55}\\left(1+\\frac{x}{6}\\right)^{55} \\\\\n&r^{\\text {th }} \\text { term }=2^{5555} C_r\\left(\\frac{x}{6}\\right)^r\n\\end{aligned}\n$$\nCoefficient of $x^r$ is $2^{55}{ }^{55} C_r \\frac{1}{6^r}$\n$$\n(r+1)^{\\text {th }} \\text { term }=2^{5555} C_{r+1}\\left(\\frac{x}{6}\\right)^{r+1}\n$$\nCoefficient of $x^{r+1}$ is $2^{55}{ }^{55} C_{r+1} \\cdot \\frac{1}{6^{r+1}}$\nBoth coefficients are equal\n$$\n2^{5555} C_r \\frac{1}{6^r}=2^{5555} C_{r+1} \\frac{1}{6^{r+1}}\n$$\n\n$$\n\\begin{aligned}\n&\\frac{1}{|r| 55-r}=\\frac{1}{\\lfloor r+1 \\mid 54-r} \\cdot \\frac{1}{6} \\\\\n&6(r+1)=55-r \\\\\n&6 r+6=55-r \\\\\n&7 r=49 \\\\\n&r=7 \\\\\n&(r+1)=8\n\\end{aligned}\n$$\nCoefficient of $7^{\\text {th }}$ and $8^{\\text {th }}$ terms are equal."
+  }
+}

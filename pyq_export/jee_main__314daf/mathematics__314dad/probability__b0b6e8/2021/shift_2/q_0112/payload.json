@@ -1,0 +1,43 @@
+{
+  "index": 112,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2021 (01 Sep Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2021",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "<p>Two squares are chosen at random on a chessboard (see figure). The probability that they have a side in common is :</p><p><img src=\"assets\\qt0112_835c91a4884a.png\" style=\"width: 355px; height: 218px;\" /></p>"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>7</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>7</mn></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>18</mn></mfrac></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<p>Total ways of choosing 2 squares&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi mathvariant=\"normal\">C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>64</mn></mmultiscripts><mo>=</mo><mn>32</mn><mo>&#215;</mo><mn>63</mn></math></p><p>Now,&nbsp;each corners has two neighbours, and each&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn></math> &nbsp;squares across the&nbsp;outer edge of the chess board has <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>&nbsp;neighbours, and remaining <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn></math>&nbsp;squares have four neighbours</p><p>Favorable&nbsp;ways <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced open=\"[\" close=\"]\"><mrow><mn>4</mn><mo>(</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>24</mn><mo>(</mo><mn>3</mn><mo>)</mo><mo>+</mo><mn>36</mn><mo>(</mo><mn>4</mn><mo>)</mo></mrow></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced open=\"[\" close=\"]\"><mn>224</mn></mfenced><mo>=</mo><mn>112</mn><mo>.</mo></math>Since, every pair counted twice.&nbsp;</p><p>Required probability <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>112</mn><mrow><mn>32</mn><mo>&#215;</mo><mn>63</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>18</mn></mfrac></math></p>"
+  }
+}

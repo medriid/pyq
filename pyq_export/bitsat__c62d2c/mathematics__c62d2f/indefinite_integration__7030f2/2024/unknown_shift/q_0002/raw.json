@@ -1,0 +1,63 @@
+{
+  "_id": "67726d01c49e8ef28ee2b385",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6414",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 1)",
+      "title": "BITSAT 2024 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "$\\int \\sqrt{x+\\sqrt{x^2+2}} d x=$",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "MDfnT",
+      "text": "$\\frac{3}{2}(x+\\sqrt{x+2})^{3 / 2}-2\\left(x+\\sqrt{x^2+2}\\right)^{1 / 4}+C$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "MpmwQ",
+      "text": "$\\frac{1}{3}\\left(x+\\sqrt{x^2+2}\\right)^{3 / 2}-2\\left(x+\\sqrt{x^2+2}\\right)^{1 / 4}+C$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "1S03Y",
+      "text": "$\\left(x+\\sqrt{x^2+2}\\right)^{-3 / 2}-2\\left(x+\\sqrt{x^2+2}\\right)^{-1 / 2}+C$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "QmClI",
+      "text": "$\\frac{\\left(x+\\sqrt{x^2+2}\\right)^2-6}{3 \\sqrt{x+\\sqrt{x^2+2}}}+C$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\int \\sqrt{x+\\sqrt{x^2+2}} d x$\n$\\sqrt{x+\\sqrt{x^2+2}}=t \\Rightarrow x+\\sqrt{x^2+2}=t^2$\n$\\sqrt{x^2+2}=t^2-x$\n$\\Rightarrow x^2+2=t^4+x^2-2 t^2 x$\n$\\Rightarrow \\mathrm{x}=\\frac{\\mathrm{t}^4-2}{2 \\mathrm{t}^2} \\Rightarrow \\mathrm{dx}=\\frac{\\mathrm{t}^4+2}{\\mathrm{t}^3} \\mathrm{dt}$\n$\\int \\mathrm{t} \\cdot \\frac{\\mathrm{t}^4+2}{\\mathrm{t}^3} \\mathrm{dt}=\\int\\left(\\mathrm{t}^2+\\frac{2}{\\mathrm{t}^2}\\right) \\mathrm{dt}=\\frac{\\mathrm{t}^3}{3}-\\frac{2}{\\mathrm{t}}+\\mathrm{C}$\n$=\\frac{t^3}{3}-\\frac{2}{t}+C=\\frac{t^4-6}{3 t}+C$\n$=\\frac{\\left(x+\\sqrt{x^2+2}\\right)^2-6}{3 \\sqrt{x+\\sqrt{x^2+2}}}+C$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6414",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 1)",
+    "title": "BITSAT 2024 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,8 +1,8 @@
 {
   "index": 35,
   "type": "singleCorrect",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2024 (29 Jan Shift 2)",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2024 (06 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,30 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "Number of ways of arranging <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> identical books into <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> identical shelves where any number of shelves may remain empty is equal to "
+    "text": "If all the words with or without meaning made using all the letters of the word \"NAGPUR\" are arranged as in a dictionary, then the word at $315^{\\text {th }}$ position in this arrangement is :"
   },
   "options": [
     {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn></math>",
+      "text": "NRAGUP",
       "is_correct": false
     },
     {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn></math>",
+      "text": "NRAPUG",
       "is_correct": false
     },
     {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math>",
-      "is_correct": false
-    },
-    {
-      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math>",
+      "text": "NRAPGU",
       "is_correct": true
+    },
+    {
+      "text": "NRAGPU",
+      "is_correct": false
     }
   ],
   "correct_answer": [
-    "D"
+    "C"
   ],
   "solution": {
-    "text": "<p>We have <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> identical shelves in which any number of shelves can be empty.</p><p>So, we will put <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>,</mo><mo> </mo><mn>2</mn><mo>,</mo><mo> </mo><mn>1</mn><mo>,</mo><mo> </mo><mn>0</mn></math> shelves empty one by one.</p><p>Also, the non-empty shelves won't require internal arrangement as all the shelves are identical.  </p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> Shelf empty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mn>8</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn></mrow></mfenced><mo>→</mo><mn>1</mn></math> way</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> shelf empty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"\"><mtable><mtr><mtd><mo>(</mo><mn>7</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd></mtr><mtr><mtd><mo>(</mo><mn>6</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd></mtr><mtr><mtd><mo>(</mo><mn>5</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd></mtr><mtr><mtd><mo>(</mo><mn>4</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd></mtr></mtable></mfenced><mo>→</mo><mn>4</mn></math> ways</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math> shelf empty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"\"><mtable columnalign=\"left\"><mtr><mtd><mo>(</mo><mn>6</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd><mtd><mo>(</mo><mn>3</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd></mtr><mtr><mtd><mo>(</mo><mn>5</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd><mtd><mo>(</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd></mtr><mtr><mtd><mo>(</mo><mn>4</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></mtd><mtd></mtd></mtr></mtable></mfenced><mo>→</mo><mn>5</mn></math>ways</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math> shelf empty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"\"><mtable columnalign=\"left right\"><mtr><mtd><mo>(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>2</mn><mo>)</mo></mtd><mtd><mo>(</mo><mn>5</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>)</mo></mtd></mtr><mtr><mtd><mo>(</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>)</mo></mtd><mtd></mtd></mtr><mtr><mtd><mo>(</mo><mn>3</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>)</mo></mtd><mtd></mtd></mtr><mtr><mtd><mo>(</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>)</mo></mtd><mtd></mtd></mtr></mtable></mfenced><mo>→</mo><mn>5</mn></math> ways</p><p>Total <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>15</mn></math> ways</p>"
+    "text": "<img src=\"assets\\st0035_56705413b8ef.png\"><br>"
   }
 }

@@ -1,0 +1,43 @@
+{
+  "index": 206,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2006",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2006",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $A$ and $B$ are square matrices of size $n \\times n$ such that $A^2-B^2=(A-B)(A+B)$, then which of the following will be always true?"
+  },
+  "options": [
+    {
+      "text": "\nA = B\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nAB = BA\n",
+      "is_correct": true
+    },
+    {
+      "text": "\neither of A or B is a zero matrix\n",
+      "is_correct": false
+    },
+    {
+      "text": "\neither of A or B is an identity matrix",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$A^2-B^2=(A-B)(A+B)$\n$A^2-B^2=A^2+A B-B A-B^2$\n$\\Rightarrow A B=B A$"
+  }
+}

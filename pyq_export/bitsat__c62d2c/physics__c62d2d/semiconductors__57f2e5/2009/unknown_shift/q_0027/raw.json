@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7756f5bfc7ab78ae502",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0cc821b6514e527d73",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2009-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2009",
+      "title": "BITSAT 2009"
+    }
+  ],
+  "question": {
+    "text": "The truth table given below correspond to the logic gate\n\\begin{tabular}{cc|c}\n$\\mathrm{A}$ & $\\mathrm{B}$ & $\\mathrm{X}$ \\\\\n\\hline 0 & 0 & 1 \\\\\n1 & 0 & 0 \\\\\n0 & 1 & 0 \\\\\n1 & 1 & 0\n\\end{tabular}",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "habga",
+      "text": "$\\mathrm{OR}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "vmdi2",
+      "text": "NOR",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "HlRWa",
+      "text": "AND",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "S4AID",
+      "text": "NAND",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "The given gate is a NOR gate. The output is high, when all inputs are low.\nTruth Table:\n\\begin{tabular}{|c|c|c|}\n\\hline $\\mathbf{A}$ & $\\mathbf{B}$ & $\\mathbf{Y}$ \\\\\n\\hline 0 & 0 & 1 \\\\\n\\hline 1 & 0 & 0 \\\\\n\\hline 0 & 1 & 0 \\\\\n\\hline 1 & 1 & 0 \\\\\n\\hline \\multicolumn{2}{|c|} { Logic Symbols } \\\\\n\\hline\n\\end{tabular}\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/bitsat/SAl1pjY7HKepM_U07OxoNd3okXgOIZ1vojjvHw6KR7A.original.fullsize.png\"><br>\nBoolean expression: $\\overline{\\mathrm{A}+\\mathrm{B}}=\\mathrm{Y}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0cc821b6514e527d73",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2009-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2009",
+    "title": "BITSAT 2009"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

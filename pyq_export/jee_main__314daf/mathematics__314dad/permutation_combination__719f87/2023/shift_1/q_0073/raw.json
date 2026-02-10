@@ -1,37 +1,37 @@
 {
-  "_id": "6557be22d43b5ec151ee54db",
+  "_id": "648b5a6e417cc3fb48d67f46",
   "previousYearPapers": [
     {
-      "_id": "63f499841d196b49d9cd6b0b",
+      "_id": "63f499881d196b49d9cd6b13",
       "examId": "615d76b2c52ffa3c944600df",
-      "heldOn": "2023-01-25T09:00:00.000Z",
+      "heldOn": "2023-02-01T09:00:00.000Z",
       "isVisible": true,
-      "shortName": "2023 (25 Jan Shift 1)",
-      "title": "JEE Main 2023 (25 Jan Shift 1)"
+      "shortName": "2023 (01 Feb Shift 1)",
+      "title": "JEE Main 2023 (01 Feb Shift 1)"
     }
   ],
   "type": "numerical",
   "level": 1,
   "question": {
-    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>7</mn><mo>,</mo><mn>10</mn><mo>,</mo><mn>11</mn></mrow></mfenced></math>. The number of non-empty subsets of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> that have the sum of all elements a multiple of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>, is _____ .",
+    "text": "The number of words, with or without meaning, that can be formed using all the letters of the word ASSASSINATION so that the vowels occur together, is _____ .",
     "image": null
   },
   "options": [],
-  "correctValue": "43",
+  "correctValue": "50400",
   "solution": {
-    "text": "<p>Given set is</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfenced close=\"}\" open=\"{\"><mrow><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>7</mn><mo>,</mo><mn>10</mn><mo>,</mo><mn>11</mn></mrow></mfenced></math></p><p>Elements of the type <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi></math>&nbsp;is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>.</p><p>Elements of the type <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi><mo>+</mo><mn>1</mn></math>&nbsp;are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mn>1</mn><mo>,</mo><mn>7</mn><mo>,</mo><mn>9</mn></mrow></mfenced></math>.</p><p>Elements of the type <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi><mo>+</mo><mn>2</mn></math>&nbsp;are&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"}\" open=\"{\"><mrow><mn>2</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>11</mn></mrow></mfenced></math></p><p>Subset&nbsp;containing one element <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn></math></p><p>Subsets containing two elements&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub></math>&nbsp;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mo>=</mo><mn>9</mn></math></p><p>Subsets containing three elements&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>3</mn></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mo>+</mo><mn>1</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>11</mn></math></p><p>Subsets containing four elements&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>4</mn></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>3</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>3</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mo>+</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mo>=</mo><mn>11</mn></math></p><p>Subsets containing five elements&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>5</mn></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>3</mn></mmultiscripts><mo>&#215;</mo><mn>1</mn><mo>=</mo><mn>9</mn></math></p><p>Subsets containing six elements <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>6</mn></msub><mo>=</mo><mn>1</mn></math></p><p>Subsets containing seven elements&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>7</mn></msub><mo>=</mo><mn>1</mn></math></p><p>Required number</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>11</mn><mo>+</mo><mn>11</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>1</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>43</mn></math></p>",
+    "text": "<p>In the word <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ASSASSINATION</mi></math>, we will treat all the vowels that is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AAAIIO</mi></math> &nbsp;as one letter only.</p><p>Now, we have&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi>AAAIIO</mi></mfenced><mi>SSSSNNT</mi></math></p><p>This has <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>=</mo><mo>(</mo><mn>7</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>1</mn><mo>)</mo></math> letters of which <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">S</mi></math>&nbsp;occurs <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>&nbsp;times, and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">N</mi></math>&nbsp;occur <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>&nbsp;times,</p><p>Thus, the number of ways of&nbsp; arranging these letters <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>8</mn><mo>!</mo></mrow><mrow><mn>4</mn><mo>!</mo><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>840</mn></math>.</p><p>Now, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> vowels in which <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi></math>&nbsp;occurs <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>&#160;</mo></math>times, and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">I</mi></math>&nbsp;occur two times, they&nbsp;can be arranged in&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>60</mn><mo>&#160;</mo><mtext>&#160;ways.&#160;</mtext></math></p><p>&nbsp;Therefore, required number of ways<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&#160;</mo><mo>(</mo><mn>840</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>60</mn><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>50400</mn><mo>.</mo></math></p>",
     "image": null
   },
   "videoSolution": null,
   "questionLabels": [],
   "syllabusCategory": "noChange",
   "previousYear": {
-    "_id": "63f499841d196b49d9cd6b0b",
+    "_id": "63f499881d196b49d9cd6b13",
     "examId": "615d76b2c52ffa3c944600df",
-    "heldOn": "2023-01-25T09:00:00.000Z",
+    "heldOn": "2023-02-01T09:00:00.000Z",
     "isVisible": true,
-    "shortName": "2023 (25 Jan Shift 1)",
-    "title": "JEE Main 2023 (25 Jan Shift 1)"
+    "shortName": "2023 (01 Feb Shift 1)",
+    "title": "JEE Main 2023 (01 Feb Shift 1)"
   },
   "evalStatus": "notAttempted",
   "lastPracticed": null

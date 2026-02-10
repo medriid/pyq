@@ -1,0 +1,43 @@
+{
+  "index": 165,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (19 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0c729476412f48314dab",
+    "subject_name": "Physics",
+    "chapter_id": "616023b36f5a53c6a5d4ce42",
+    "chapter_name": "Laws of Motion",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A block of weight $W$ rests on a horizontal floor with coefficient of static friction $\\mu$. It is desired to make the block move by applying minimum amount of force. The angle $\\theta$ from the horizontal at which the force should be applied and magnitude of the force $F$ are respectively."
+  },
+  "options": [
+    {
+      "text": "\n$\\theta=\\tan ^{-1}(\\mu), F=\\frac{\\mu W}{\\sqrt{1+\\mu^2}}$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$\\theta=\\tan ^{-1}\\left(\\frac{1}{\\mu}\\right), F=\\frac{\\mu W}{\\sqrt{1+\\mu^2}}$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\theta=0, F=\\mu W$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$\\theta=\\tan ^{-1}\\left(\\frac{\\mu}{1+\\mu}\\right), F=\\frac{\\mu W}{1+\\mu}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "Let the force $F$ is applied at an angle $\\theta$ with the horizontal.\n<img src=\"assets\\st0165_f959378e24ae.png\"><br>\nFor horizontal equilibrium, $F \\cos \\theta=\\mu R$\nFor vertical equilibrium, $R+F \\sin \\theta=\\mathrm{mg}$ or, $R=m g-F \\sin \\theta$ Substituting this value of $R$ in eq. (i), we get\n$$\n\\begin{aligned}\n& F \\cos \\theta=\\mu(\\mathrm{mg}-F \\sin \\theta) \\\\\n& =\\mu \\mathrm{mg}-\\mu F \\sin \\theta \\\\\n& \\text { or, } F(\\cos \\theta+\\mu \\sin \\theta)=\\mu \\mathrm{mg} \\\\\n& \\text { or, } \\mathrm{F}=\\frac{\\mu \\mathrm{mg}}{\\cos \\theta+\\mu \\sin \\theta}\n\\end{aligned}\n$$\nFor $F$ to be minimum, the denominator $(\\cos \\theta+\\mu \\sin \\theta)$ should be maximum.\n$$\n\\therefore \\frac{d}{d \\theta}(\\cos \\theta+\\mu \\sin \\theta)=0\n$$\nor, $-\\sin \\theta+\\mu \\cos \\theta=0$\nor, $\\tan \\theta=\\mu$\nor, $\\theta=\\tan ^{-1}(\\mu)$\nThen, $\\sin \\theta=\\frac{\\mu}{\\sqrt{1+\\mu^2}}$ and\n$$\n\\cos \\theta=\\frac{1}{\\sqrt{1+\\mu^2}}\n$$\nHence, $F_{\\text {min }}$\n$$\n=\\frac{\\mu w}{\\frac{1}{\\sqrt{1+\\mu^2}}+\\frac{\\mu^2}{\\sqrt{1+\\mu^2}}}=\\frac{\\mu w}{\\sqrt{1+\\mu^2}}\n$$"
+  }
+}

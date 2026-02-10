@@ -1,0 +1,43 @@
+{
+  "index": 185,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (19 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The number of arrangements that can be formed from the letters $a, b, c, d, e, f$ taken 3 at a time without repetition and each arrangement containing at least one vowel, is"
+  },
+  "options": [
+    {
+      "text": "\n96\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n128\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n24\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n72",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "There are 2 vowels and 4 consonants in the letters $a, b, c, d, e, f$.\nIf we select one vowel, then number of arrangements\n$$\n={ }^2 C_1 \\times{ }^4 C_2 \\times 3 !=2 \\times \\frac{4 \\times 3}{2} \\times 3 \\times 2=72\n$$\nIf we select two vowels, then number of arrangements\n$$\n={ }^2 C_2 \\times{ }^4 C_1 \\times 3 !=1 \\times 4 \\times 6=24\n$$\nHence, total number of arrangements\n$$\n=72+24=96\n$$"
+  }
+}

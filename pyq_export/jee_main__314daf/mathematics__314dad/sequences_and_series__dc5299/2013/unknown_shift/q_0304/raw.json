@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a63417cc3fb48d65bf4",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7d2",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2013-04-09T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2013 (09 Apr Online)",
+      "title": "JEE Main 2013 (09 Apr Online)"
+    }
+  ],
+  "question": {
+    "text": "The sum of the series:\n$1+\\frac{1}{1+2}+\\frac{1}{1+2+3}+\\ldots \\ldots$. upto 10 terms, is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "2I0jj",
+      "text": "\n$\\frac{18}{11}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "YODkl",
+      "text": "\n$\\frac{22}{13}$\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "UjEdr",
+      "text": "\n$\\frac{20}{11}$\n",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "mbwXp",
+      "text": "\n$\\frac{16}{9}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\mathrm{T}_r=\\frac{1}{1+2+3+\\ldots+r}=\\frac{2}{r(r+1)}$\n$\\mathrm{S}_{10}=2 \\sum_{r=1}^{10} \\frac{1}{r(r+1)}=2 \\sum_{r=1}^{10}\\left[\\frac{r+1}{r(r+1)}-\\frac{r}{r(r+1)}\\right]$\n$=2 \\sum_{r=1}^{10}\\left(\\frac{1}{r}-\\frac{1}{r+1}\\right)$\n$=2\\left[\\left(\\frac{1}{1}-\\frac{1}{2}\\right)+\\left(\\frac{1}{2}-\\frac{1}{3}\\right)+\\left(\\frac{1}{3}-\\frac{1}{4}\\right)+\\ldots+\\left(\\frac{1}{10}-\\frac{1}{11}\\right)\\right]$\n$=2\\left[1-\\frac{1}{11}\\right]=2 \\times \\frac{10}{11}=\\frac{20}{11}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "outOfSyllabusButGoodToSolve",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7d2",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2013-04-09T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2013 (09 Apr Online)",
+    "title": "JEE Main 2013 (09 Apr Online)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

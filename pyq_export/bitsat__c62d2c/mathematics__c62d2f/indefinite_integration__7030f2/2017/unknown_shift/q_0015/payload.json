@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2017",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd788eed0f628d7030f2",
+    "chapter_name": "Indefinite Integration",
+    "year": "2017",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8747;</mo><mfrac><mrow><mo>(</mo><msqrt><mi>x</mi></msqrt><msup><mo>)</mo><mn>5</mn></msup><mi>d</mi><mi>x</mi></mrow><mrow><mo>(</mo><msqrt><mi>x</mi></msqrt><msup><mo>)</mo><mn>7</mn></msup><mo>+</mo><msup><mi>x</mi><mn>6</mn></msup></mrow></mfrac><mo>=</mo><mi>&#955;</mi><mi>log</mi><mfenced><mfrac><msup><mi>x</mi><mn>9</mn></msup><mrow><msup><mi>x</mi><mn>9</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac></mfenced><mo>+</mo><mi>C</mi></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>&#955;</mi></math> equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#62;</mo><mn>2</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#60;</mo><mn>2</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#62;</mo><mn>3</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "<p>Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mfenced><msqrt><mi>x</mi></msqrt></mfenced><mn>2</mn></msup><mo>+</mo><msup><mfenced><msqrt><mi>x</mi></msqrt></mfenced><mn>7</mn></msup></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mfenced><msqrt><mi>x</mi></msqrt></mfenced><mn>7</mn></msup><mfenced><mrow><mfrac><mn>1</mn><mrow><mo>(</mo><msqrt><mi>x</mi></msqrt><msup><mo>)</mo><mn>5</mn></msup></mrow></mfrac><mo>+</mo><mn>1</mn></mrow></mfenced></mrow></mfrac></math></p><p>Put <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><msup><mfenced><msqrt><mi>x</mi></msqrt></mfenced><mn>5</mn></msup></mfrac><mo>=</mo><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mo>-</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>&#183;</mo><mfrac><mn>1</mn><mrow><mo>(</mo><msqrt><mi>x</mi></msqrt><msup><mo>)</mo><mn>7</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>t</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>I</mi><mo>=</mo><mo>-</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>&#8747;</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mi>t</mi></mfrac><mo>=</mo><mfrac><mrow><mo>-</mo><mn>2</mn></mrow><mn>5</mn></mfrac><mi>log</mi><mi>t</mi><mo>+</mo><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mo>-</mo><mn>2</mn></mrow><mn>5</mn></mfrac><mi>log</mi><mfenced open=\"[\" close=\"]\"><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><msup><mfenced><msqrt><mi>x</mi></msqrt></mfenced><mn>5</mn></msup></mfrac></mrow></mfenced><mo>+</mo><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>-</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>log</mi><mfenced><mfrac><mrow><msup><mi>x</mi><mrow><mn>5</mn><mo>/</mo><mn>2</mn></mrow></msup><mo>+</mo><mn>1</mn></mrow><msup><mi>x</mi><mrow><mn>5</mn><mo>/</mo><mn>2</mn></mrow></msup></mfrac></mfenced><mo>+</mo><mi>C</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><mi>&#955;</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mn>2</mn></mrow><mn>5</mn></mfrac></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>a</mi><mo>+</mo><mi>&#955;</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>1</mn><mo>&#62;</mo><mn>2</mn></math></p>"
+  }
+}

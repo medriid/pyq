@@ -1,0 +1,43 @@
+{
+  "index": 202,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2008",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2008",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $\\mathbf{A}$ be a square matrix all of whose entries are integers. Then which one of the following is true?"
+  },
+  "options": [
+    {
+      "text": "\nIf $\\operatorname{det} A=\\pm 1$, then $A^{-1}$ exists but all its entries are not necessarily integers\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nIf $\\operatorname{det} A \\neq \\pm 1$, then $A^{-1}$ exists and all its entries are non-integers\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nIf $\\operatorname{det} A=\\pm 1$, then $A^{-1}$ exists and all its entries are integers\n",
+      "is_correct": true
+    },
+    {
+      "text": "\nIf $\\operatorname{det} A=\\pm 1$, then $A^{-1}$ need not exist",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Each entry of $A$ is integer, so the cofactor of every entry is an integer and hence each entry in the adjoint of matrix $A$ is integer.\nNow $\\operatorname{det} A=\\pm 1$ and $A^{-1}=\\frac{1}{\\operatorname{det}(A)}(\\operatorname{adj} A)$\n$\\Rightarrow$ all entries in $\\mathrm{A}^{-1}$ are integers."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 10,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2023 (Memory Based Paper 2)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd744fe496e9e0cf0e89",
+    "chapter_name": "Functions",
+    "year": "2023",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The domain of the function $f(x)=\\sqrt{x-\\sqrt{1-x^2}}$ is"
+  },
+  "options": [
+    {
+      "text": "$\\left[-1,-\\frac{1}{\\sqrt{2}}\\right] \\cup\\left[\\frac{1}{\\sqrt{2}}, 1\\right]$",
+      "is_correct": false
+    },
+    {
+      "text": "$[-1,1]$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left(-\\infty,-\\frac{1}{2}\\right] \\cup\\left[\\frac{1}{\\sqrt{2}},+\\infty\\right)$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\left[\\frac{1}{\\sqrt{2}}, 1\\right]$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "For $f(x)$ to be defined, we must have<br />$x-\\sqrt{1-x^2} \\geq 0 \\text { or } x \\geq \\sqrt{1-x^2}>0 \\text { or } x^2 \\geq 1-x^2$<br />or $x^2 \\geq \\frac{1}{2}$.<br />Now, $x^2 \\geq \\frac{1}{2} \\Rightarrow\\left(x-\\frac{1}{\\sqrt{2}}\\right)\\left(x+\\frac{1}{\\sqrt{2}}\\right) \\geq 0$<br />$\\Rightarrow x \\leq-\\frac{1}{\\sqrt{2}} \\quad \\text { or } \\quad x \\geq \\frac{1}{\\sqrt{2}}$<br />Also, $1-x^2 \\geq 0$ or $x^2 \\leq 1$.<br />Also, $x^2 \\leq 1 \\Rightarrow(x-1)(x+1) \\leq 0 \\Rightarrow-1 \\leq x \\leq 1$<br />Thus, $x>0, x^2 \\geq \\frac{1}{2}$ and $x^2 \\leq 1 \\Rightarrow x \\in\\left[\\frac{1}{\\sqrt{2}}, 1\\right]$"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "index": 18,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7e2daa1f081e2331f8",
+    "chapter_name": "Differentiation",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $f(x+y)=f(x) \\cdot f(y)$ for all $x, y$ where $f(0) \\neq 0$ If $f(5)=2$ and $f^{\\prime}(0)=3,$ then $f^{\\prime}(5)$ is equal to-"
+  },
+  "options": [
+    {
+      "text": "6",
+      "is_correct": true
+    },
+    {
+      "text": "0",
+      "is_correct": false
+    },
+    {
+      "text": "1",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$f^{\\prime}(5)=\\lim _{h \\rightarrow 0} \\frac{f(5+h)-f(5)}{h}$\r\n$=\\lim _{h \\rightarrow 0} \\frac{f(5+h)-f(5+0)}{h}$\r\n$=\\lim _{h \\rightarrow 0} \\frac{f(5) \\cdot f(h)-f(5)+f(0)}{h}$\r\n$(\\because f(x+y)=f(x), f(y)$ for all $x, y)$\r\n$=\\left(\\lim _{h \\rightarrow 0} \\frac{f(h)-f(0)}{h}\\right) \\cdot f(5)=f^{\\prime}(0) \\cdot f(5)$\r\n$=3 \\times 2=6$"
+  }
+}

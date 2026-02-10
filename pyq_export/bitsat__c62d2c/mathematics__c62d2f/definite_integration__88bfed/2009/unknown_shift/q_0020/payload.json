@@ -1,0 +1,43 @@
+{
+  "index": 20,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2009",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd83e6f6052b2388bfed",
+    "chapter_name": "Definite Integration",
+    "year": "2009",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Evaluate : \\(\\int_0^1 \\frac{\\mathrm{dx}}{\\sqrt{2-\\mathrm{x}^2}}\\)."
+  },
+  "options": [
+    {
+      "text": "\\(\\pi / 4\\)",
+      "is_correct": true
+    },
+    {
+      "text": "\\(\\pi\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\pi / 2\\)",
+      "is_correct": false
+    },
+    {
+      "text": "\\(\\pi / 3\\)",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "\\(\\begin{aligned}\n& \\int \\frac{\\mathrm{dx}}{\\sqrt{2-\\mathrm{x}^2}}=\\sin ^{-1} \\frac{\\mathrm{x}}{\\sqrt{2}}+\\mathrm{c} \\\\\n& \\text {So } \\int_0^1 \\frac{\\mathrm{dx}}{\\sqrt{2-\\mathrm{x}^2}}=\\left.\\sin ^{-1} \\frac{\\mathrm{x}}{\\sqrt{2}}\\right|_0 ^1 \\\\\n= & \\sin ^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)+c-\\sin ^{-1}(0)-c=\\frac{\\pi}{4}-0=\\frac{\\pi}{4}\n\\end{aligned}\\)"
+  }
+}

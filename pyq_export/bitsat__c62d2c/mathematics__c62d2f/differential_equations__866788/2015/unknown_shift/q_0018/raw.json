@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7d16f5bfc7ab78ae823",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d79",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "BITSAT 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "If $\\phi(\\mathrm{x})$ is a differential function, then the solution of the differential equation $\\mathrm{dy}+\\left\\{\\mathrm{y} \\phi^{\\prime}(\\mathrm{x})-\\phi(\\mathrm{x})\\right.$\r\n\r\n$\\left.\\phi^{\\prime}(x)\\right\\} d x=0,$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "ufb9a",
+      "text": "$y=\\{\\phi(x)-1\\}+C e^{-\\phi(x)}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "yCvhy",
+      "text": "$y \\phi(x)=\\{\\phi(x)\\}^{2}+C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "GsUMD",
+      "text": "$y e^{\\varphi(x)}=\\phi(x) e^{\\phi(x)}+C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "3mF35",
+      "text": "$y-\\phi(x)=\\phi(x) e^{-\\phi(x)}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Given differential equation is\r\n\r\n$\\mathrm{dy}+\\left\\{y \\phi^{\\prime}(x)-\\phi(x) \\phi^{\\prime}(x)\\right\\} d x=0$\r\n\r\n$\\Rightarrow \\frac{\\mathrm{dy}}{\\mathrm{dx}}+\\phi^{\\prime}(\\mathrm{x}) \\mathrm{y}=\\phi(\\mathrm{x}) \\phi^{\\prime}(\\mathrm{x})$\r\n\r\nwhich is a linear differential equation with $\\quad P=\\phi^{\\prime}(x), Q=\\phi(x) \\cdot \\phi^{\\prime}(x)$ and\r\n\r\n$I \\cdot F=e^{\\int \\phi^{\\prime}(x) d x}=e^{\\phi(x)}$\r\n\r\n$\\therefore$ Solution is $y \\cdot e^{\\phi(x)}=\\int \\phi(x) \\cdot \\phi^{\\prime}(x) e^{\\phi(x)} d x+C$\r\n\r\n$\\Rightarrow y \\cdot e^{\\phi(x)}=\\int \\phi(x) \\cdot e^{\\phi(x)} \\phi^{\\prime}(x) d x+C$\r\n\r\n$\\Rightarrow y \\cdot e^{\\phi(x)}=\\phi(x) e^{\\phi(x)}-\\int \\phi^{\\prime}(x) e^{\\phi(x)} d x+C$\r\n\r\n$\\Rightarrow y \\cdot e^{\\phi(x)}=\\phi(x) e^{\\phi(x)}-e^{\\phi(x)}+C$\r\n\r\n$\\Rightarrow y=\\lceil\\phi(x)-1]+C e^{-\\phi(x)}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d79",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "BITSAT 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,24 @@
+{
+  "index": 9,
+  "type": "numerical",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (24 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255fad49cdbc9bbfa563",
+    "chapter_name": "Indefinite Integration",
+    "year": "2025",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If $\\int \\frac{2 x^2+5 x+9}{\\sqrt{x^2+x+1}} \\mathrm{~d} x=x \\sqrt{x^2+x+1}+\\alpha \\sqrt{x^2+x+1}+\\beta \\log _e\\left|x+\\frac{1}{2}+\\sqrt{x^2+x+1}\\right|+\\mathrm{C}$, where $C$ is the constant of integration, then $\\alpha+2 \\beta$ is equal to $\\qquad$ _______."
+  },
+  "options": [],
+  "correct_answer": "16",
+  "solution": {
+    "text": "$\\begin{aligned} & 2 \\mathrm{x}^2+5 \\mathrm{x}+9=\\mathrm{A}\\left(\\mathrm{x}^2+\\mathrm{x}+1\\right)+\\mathrm{B}(2 \\mathrm{x}+1)+\\mathrm{C} \\\\ & \\mathrm{A}=2 \\quad \\mathrm{~B}=\\frac{3}{2} \\quad \\mathrm{C}=\\frac{11}{2} \\\\ & 2 \\int \\sqrt{\\mathrm{x}^2+\\mathrm{x}+1} \\mathrm{dx}+\\frac{3}{2} \\int \\frac{2 \\mathrm{x}+1}{\\sqrt{\\mathrm{x}^2+\\mathrm{x}+1}} \\mathrm{dx}+\\frac{11}{2} \\int \\frac{\\mathrm{dx}}{\\sqrt{\\mathrm{x}^2+\\mathrm{x}+1}} \\\\ & 2 \\int \\sqrt{\\left(\\mathrm{x}+\\frac{1}{2}\\right)^2+\\left(\\frac{\\sqrt{3}}{2}\\right)^2} \\mathrm{dx}+3 \\sqrt{\\mathrm{x}^2+\\mathrm{x}+1}+\\frac{11}{2} \\int \\frac{\\mathrm{dx}}{\\sqrt{\\left(\\mathrm{x}+\\frac{1}{2}\\right)^2+\\left(\\frac{\\sqrt{3}}{2}\\right)^2}} \\\\ & 2\\left(\\frac{\\mathrm{x}+\\frac{1}{2}}{2} \\sqrt{\\mathrm{x}^2+\\mathrm{x}+1}+\\frac{3}{8} \\ln \\left(\\mathrm{x}+\\frac{1}{2}+\\sqrt{\\mathrm{x}^2+\\mathrm{x}+1}\\right)\\right)+3 \\sqrt{\\mathrm{x}^2+\\mathrm{x}+1} \\\\ & +\\frac{11}{2} \\ell \\mathrm{n}\\left(\\mathrm{x}+\\frac{1}{2}+\\sqrt{\\mathrm{x}^2+\\mathrm{x}+1}\\right)+\\mathrm{C} \\\\ & \\alpha=\\frac{7}{2} \\quad\\beta=\\frac{25}{4} \\\\& \\alpha+2 \\beta=16 \\\\ &  \\end{aligned}$"
+  }
+}

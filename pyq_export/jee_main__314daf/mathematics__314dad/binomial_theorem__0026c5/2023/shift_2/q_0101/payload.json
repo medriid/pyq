@@ -1,0 +1,43 @@
+{
+  "index": 101,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2023 (24 Jan Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025301bea759b280026c5",
+    "chapter_name": "Binomial Theorem",
+    "year": "2023",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mmultiscripts><mi>C</mi><mn>1</mn><none/><mprescripts/><none/><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>+</mo><mn>2</mn><msup><mfenced><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>+</mo><mn>3</mn><msup><mfenced><mmultiscripts><mi>C</mi><mn>3</mn><none/><mprescripts/><none/><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mn>30</mn><msup><mfenced><mmultiscripts><mi>C</mi><mn>30</mn><none/><mprescripts/><none/><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mi>&#945;</mi><mn>60</mn><mo>!</mo></mrow><msup><mfenced><mrow><mn>30</mn><mo>!</mo></mrow></mfenced><mn>2</mn></msup></mfrac></math>, then&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi></math>&nbsp;is equal to&nbsp;"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>Let,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mn>0</mn><msup><mfenced><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>+</mo><mn>1</mn><msup><mfenced><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>+</mo><mn>2</mn><msup><mfenced><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>+</mo><mn>3</mn><msup><mfenced><mmultiscripts><mi>C</mi><mn>3</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mn>30</mn><msup><mfenced><mmultiscripts><mi>C</mi><mn>30</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup></math></p><p>Now rewriting the above expression we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mn>30</mn><msup><mfenced><mmultiscripts><mi>C</mi><mn>30</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>+</mo><mn>29</mn><msup><mfenced><mmultiscripts><mi>C</mi><mn>29</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>+</mo><mn>28</mn><msup><mfenced><mmultiscripts><mi>C</mi><mn>28</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>+</mo><mn>27</mn><msup><mfenced><mmultiscripts><mi>C</mi><mn>27</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><mn>0</mn><msup><mfenced><mmultiscripts><mi>C</mi><mn>0</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup></math></p><p>Now adding both the equation we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>S</mi><mo>=</mo><mn>30</mn><mfenced close=\"]\" open=\"[\"><mrow><msup><mfenced><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>+</mo><msup><mfenced><mmultiscripts><mi>C</mi><mn>1</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>+</mo><msup><mfenced><mmultiscripts><mi>C</mi><mn>2</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>+</mo><msup><mfenced><mmultiscripts><mi>C</mi><mn>3</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><msup><mfenced><mmultiscripts><mi>C</mi><mn>30</mn><none></none><mprescripts></mprescripts><none></none><mn>30</mn></mmultiscripts></mfenced><mn>2</mn></msup></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>S</mi><mo>=</mo><mn>15</mn><mfenced close=\"]\" open=\"[\"><mmultiscripts><mi>C</mi><mn>30</mn><none></none><mprescripts></mprescripts><none></none><mrow><mn>2</mn><mo>&#215;</mo><mn>30</mn></mrow></mmultiscripts></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>S</mi><mo>=</mo><mn>15</mn><mfenced open=\"[\" close=\"]\"><mmultiscripts><mi>C</mi><mn>30</mn><none/><mprescripts/><none/><mn>60</mn></mmultiscripts></mfenced><mo>=</mo><mn>15</mn><mo>&#215;</mo><mfrac><mrow><mn>60</mn><mo>!</mo></mrow><msup><mfenced><mrow><mn>30</mn><mo>!</mo></mrow></mfenced><mn>2</mn></msup></mfrac></math></p><p>Now comparing with&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfrac><mrow><mi>&#945;</mi><mn>60</mn><mo>!</mo></mrow><msup><mfenced><mrow><mn>30</mn><mo>!</mo></mrow></mfenced><mn>2</mn></msup></mfrac></math>,</p><p>We get&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi><mo>=</mo><mn>15</mn></math></p>"
+  }
+}

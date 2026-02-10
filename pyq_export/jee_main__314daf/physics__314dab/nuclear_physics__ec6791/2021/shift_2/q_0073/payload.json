@@ -1,8 +1,8 @@
 {
   "index": 73,
-  "type": "numerical",
+  "type": "singleCorrect",
   "difficulty": 2,
-  "pyq_info": "JEE Main 2021 (25 Jul Shift 2)",
+  "pyq_info": "JEE Main 2021 (01 Sep Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "<p>From the given data, the amount of energy required to break the nucleus of aluminium <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>Al</mi><mprescripts></mprescripts><mn>13</mn><mn>27</mn></mmultiscripts></math> is __________<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">J</mi></math>&nbsp;</p><p>Mass of neutron <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>.</mo><mn>00866</mn><mo>&#160;</mo><mi mathvariant=\"normal\">u</mi></math><br />Mass of proton <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1</mn><mo>.</mo><mn>00726</mn><mo>&#160;</mo><mi mathvariant=\"normal\">u</mi></math><br />Mass of Aluminium nucleus <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>27</mn><mo>.</mo><mn>18846</mn><mo>&#160;</mo><mi mathvariant=\"normal\">u</mi></math><br />(Assume <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>&#160;</mo><mi mathvariant=\"normal\">u</mi></math> corresponds to&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&#160;</mo><mi>J</mi></math> of energy)<br />(Round off to the nearest integer)</p>"
+    "text": "The half life period of a radioactive element <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> is same as the mean life time of another radioactive element <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>.</mo></math> Initially they have the same number of atoms. Then:"
   },
-  "options": [],
-  "correct_answer": "27",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> decay at the same rate always.",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>-will decay faster than <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>.</mo></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>-will decay faster than <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>.</mo></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>&nbsp;have same decay rate initially and later on different decay rate.",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
   "solution": {
-    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#916;</mi><mi>m</mi><mo>=</mo><mfenced><mrow><mi>Z</mi><msub><mi>m</mi><mi mathvariant=\"italic\">P</mi></msub><mo>+</mo><mo>(</mo><mi>A</mi><mo>-</mo><mi>Z</mi><mo>)</mo><msub><mi>m</mi><mi mathvariant=\"italic\">n</mi></msub></mrow></mfenced><mo>-</mo><msub><mi>M</mi><mi>Al</mi></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mo>(</mo><mn>13</mn><mo>&#215;</mo><mn>1</mn><mo>.</mo><mn>00726</mn><mo>+</mo><mn>14</mn><mo>&#215;</mo><mn>1</mn><mo>.</mo><mn>00866</mn><mo>)</mo><mo>-</mo><mn>27</mn><mo>.</mo><mn>18846</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>27</mn><mo>.</mo><mn>21562</mn><mo>-</mo><mn>27</mn><mo>.</mo><mn>18846</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>0</mn><mo>.</mo><mn>02716</mn><mo>&#160;</mo><mi mathvariant=\"normal\">u</mi></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mo>=</mo><mn>27</mn><mo>.</mo><mn>16</mn><mi mathvariant=\"normal\">x</mi><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">J</mi></math></p>"
+    "text": "The formula of half-life in terms of the decay constant,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>t</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msub><mo>=</mo><mfrac><mrow><mn>0</mn><mo>.</mo><mn>693</mn></mrow><msub><mi>&#955;</mi><mi>x</mi></msub></mfrac><mo>=</mo><mfrac><mn>1</mn><msub><mi>&#955;</mi><mi>y</mi></msub></mfrac></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><msub><mi>&#955;</mi><mi>x</mi></msub><mo>=</mo><mn>0</mn><mo>.</mo><mn>693</mn><msub><mi>&#955;</mi><mi>y</mi></msub><mo>&#8658;</mo><mo>&#160;</mo><msub><mi>&#955;</mi><mi>x</mi></msub><mo>&#60;</mo><msub><mi>&#955;</mi><mi>y</mi></msub></math>"
   }
 }

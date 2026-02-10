@@ -1,0 +1,83 @@
+{
+  "_id": "68542c867c09d044e4c1a271",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "6852f2ff9d87935e0d80978b",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2025-04-02T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2025 (2 Apr Shift 1)",
+      "title": "JEE Main 2025 (2 Apr Shift 1)"
+    }
+  ],
+  "question": {
+    "text": "Let $A=\\left[\\begin{array}{cc}\\alpha & -1 \\\\ 6 & \\beta\\end{array}\\right], \\alpha \\gt 0$, such that $\\operatorname{det}(A)=0$ and $\\alpha+\\beta=1$. If I denotes $2 \\times 2$ identity matrix, then the matrix $(1+\\mathrm{A})^8$ is:",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "unx24",
+      "text": "$\\left[\\begin{array}{ll}4 & -1 \\\\ 6 & -1\\end{array}\\right]$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "sHgyw",
+      "text": "$\\left[\\begin{array}{cc}257 & -64 \\\\ 514 & -127\\end{array}\\right]$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "ODkWw",
+      "text": "$\\left[\\begin{array}{cc}1025 & -511 \\\\ 2024 & -1024\\end{array}\\right]$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "XJO6F",
+      "text": "$\\left[\\begin{array}{cc}766 & -255 \\\\ 1530 & -509\\end{array}\\right]$",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned} & |\\mathrm{A}|=0 \\\\ & \\alpha \\beta+6=0 \\\\ & \\alpha \\beta=-6 \\\\ & \\alpha+\\beta=1 \\\\ & \\Rightarrow \\alpha=3, \\beta=-2 \\\\ & \\mathrm{~A}=\\left[\\begin{array}{ll}3 & -1 \\\\ 6 & -2\\end{array}\\right] \\\\ & \\mathrm{A}^2=\\left[\\begin{array}{ll}3 & -1 \\\\ 6 & -2\\end{array}\\right]\\left[\\begin{array}{ll}3 & -1 \\\\ 6 & -2\\end{array}\\right]=\\left[\\begin{array}{ll}3 & -1 \\\\ 6 & -2\\end{array}\\right] \\\\ & \\therefore \\mathrm{A}^2=\\mathrm{A} \\\\ & \\mathrm{A}=\\mathrm{A}^2=\\mathrm{A}^3=\\mathrm{A}^4=\\mathrm{A}^5 \\\\ & (\\mathrm{I}+\\mathrm{A})^8 \\\\ & =\\mathrm{I}+{ }^8 \\mathrm{C}_1 \\mathrm{~A}^7+{ }^8 \\mathrm{C}_2 \\mathrm{~A}^6+\\ldots . .+{ }^8 \\mathrm{C}_8 \\mathrm{~A}^8 \\\\ & =\\mathrm{I}+\\mathrm{A}\\left({ }^8 \\mathrm{C}_1+{ }^8 \\mathrm{C}_2+\\ldots . .+{ }^8 \\mathrm{C}_8\\right) \\\\ & =\\mathrm{I}+\\mathrm{A}\\left(2^8-1\\right) \\\\ & =\\left[\\begin{array}{ll}1 & 0 \\\\ 0 & 1\\end{array}\\right]+\\left[\\begin{array}{cc}765 & -255 \\\\ 1530 & -510\\end{array}\\right]\\end{aligned}$<br/>$=\\left[\\begin{array}{cc}766 & -255 \\\\ 1530 & -509\\end{array}\\right]$",
+    "image": null
+  },
+  "videoSolution": {
+    "videoId": "4a1afa14198844c9bd3d7490e1b6994c",
+    "provider": "vdocipher",
+    "thumbnailLight": "https://d1z78r8i505acl.cloudfront.net/poster/qBLNa8CRfgiLQ.480.jpeg",
+    "thumbnailDark": "https://d1z78r8i505acl.cloudfront.net/poster/qBLNa8CRfgiLQ.480.jpeg",
+    "premiumModules": [
+      {
+        "premiumModuleId": "6788cc0b2dbc1ecacabb7026",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "6628114842d540dfcb148ecb",
+        "isFree": false
+      },
+      {
+        "premiumModuleId": "64c7e8e829737784b294e469",
+        "isFree": false
+      }
+    ],
+    "description": "JEE Main (Imp. PYQs from 2023 - 2019)"
+  },
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "6852f2ff9d87935e0d80978b",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2025-04-02T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2025 (2 Apr Shift 1)",
+    "title": "JEE Main 2025 (2 Apr Shift 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7ca6f5bfc7ab78ae7e4",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d79",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "BITSAT 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 2,
+  "question": {
+    "text": "A direct current of $5 \\mathrm{~A}$ is superposed on an alternating current $I=10 \\sin \\omega t$ flowing through the wire. The effective value of the resulting current will be",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "AEPnP",
+      "text": "$(15 / 2) \\mathrm{A}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "LXQTz",
+      "text": "$5 \\sqrt{3} \\mathrm{~A}$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "vsQlA",
+      "text": "$5 \\sqrt{5} \\mathrm{~A}$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "PPiG1",
+      "text": "$15 \\mathrm{~A}$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Total carrent, $1=(5+10 \\sin \\omega \\mathrm{t})$\r\n\r\n$$\r\n\r\n\\begin{aligned}\r\n\r\n\\Rightarrow I_{\\text {eff }} &=\\left[\\frac{\\int_{0}^{\\mathrm{T}} \\mathrm{I}^{2} \\mathrm{dt}}{\\int_{0}^{\\mathrm{T}} \\mathrm{dt}}\\right]^{1 / 2} \\\\\r\n\r\n&=\\left[\\frac{1}{\\mathrm{~T}} \\int_{0}^{\\mathrm{T}}(5+10 \\sin \\omega \\mathrm{t})^{2} \\mathrm{dt}\\right]^{1 / 2} \\\\\r\n\r\n&=\\left[\\frac{1}{\\mathrm{~T}} \\int_{0}^{\\mathrm{T}}\\left(25+100 \\sin \\omega \\mathrm{t}+100 \\sin ^{2} \\omega \\mathrm{t}\\right)\\right]^{1 / 2} \\\\\r\n\r\n\\text { But, } \\quad \\frac{1}{\\mathrm{~T}} \\int_{0}^{\\mathrm{T}} \\sin \\omega \\mathrm{t} \\mathrm{dt}=0\r\n\r\n\\end{aligned}\r\n\r\n$$\r\n\r\nand\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n\\frac{1}{\\mathrm{~T}} \\int_{0}^{\\mathrm{T}} \\sin ^{2} \\omega \\mathrm{t} \\mathrm{dt}=\\frac{1}{2} \\\\\r\n\r\n\\text { So, } \\mathrm{I}_{\\mathrm{eff}}=\\left[25+\\frac{1}{2} \\times 100\\right]^{1 / 2}=5 \\sqrt{3} \\mathrm{~A}\r\n\r\n\\end{array}\r\n\r\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d79",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "BITSAT 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

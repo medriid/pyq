@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2019",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cccd6ab1da4b641d4",
+    "chapter_name": "Permutation Combination",
+    "year": "2019",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A person writes letter to six friends and addresses the corresponding envelopes. Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> be the numbers of ways so that at least two of the letters are in wrong envelopes and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> be the numbers of ways so that all the letters are in wrong envelopes. Then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>-</mo><mi>y</mi><mo>=</mo></math>"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>719</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>265</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>454</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>720</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Since only one letters can not be in wrong envelope so that at least two letters are in wrong envelope means all the letters are not in right envelopes.<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>x</mi><mo>=</mo><mn>6</mn><mo>!</mo><mo>-</mo><mn>1</mn><mo>=</mo><mn>720</mn><mo>-</mo><mn>1</mn><mo>=</mo><mn>719</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo></math> number of ways, so that all the letters are in wrong envelops</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>6</mn><mo>!</mo><mfenced><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>-</mo><mfrac><mn>1</mn><mrow><mn>3</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>4</mn><mo>!</mo></mrow></mfrac><mo>-</mo><mfrac><mn>1</mn><mrow><mn>5</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>6</mn><mo>!</mo></mrow></mfrac></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>360</mn><mo>-</mo><mn>120</mn><mo>+</mo><mn>30</mn><mo>-</mo><mn>6</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>265</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo><mo>&#160;</mo><mi>x</mi><mo>-</mo><mi>y</mi><mo>=</mo><mn>719</mn><mo>-</mo><mn>265</mn><mo>=</mo><mn>454</mn></math></p>"
+  }
+}

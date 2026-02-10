@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e82d6f5bfc7ab78aeb40",
+  "previousYearPapers": [
+    {
+      "_id": "64c0e679aef333185c6bb44d",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2022-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2022",
+      "title": "BITSAT 2022"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Four holes of radius $5 \\mathrm{~cm}$ are cut from a thin square plate of $20 \\mathrm{~cm}$ and mass $1 \\mathrm{~kg}$. The moment of inertia of the remaining portion about $Z$-axis is\r\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/bitsat/W7qHSyWdsgJLSSdeTM4AeOLtifvChgly7ZgL0_gg0Qc.original.fullsize.png\"><br>",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "fjwQn",
+      "text": "\r\n$15 \\mathrm{~kg}-\\mathrm{m}^2$ \r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "6KkN6",
+      "text": "\r\n$0.37 \\mathrm{~kg}-\\mathrm{m}^2$\r\n",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "QTr8v",
+      "text": "\r\n$0.0017 \\mathrm{~kg}-\\mathrm{m}^2$\r\n",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "L4wKL",
+      "text": "\r\n$0.08 \\mathrm{~kg}-\\mathrm{m}^2$",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Area mass density, $\\sigma=\\frac{M}{16 R^2}$\r\n$$\r\n\\left(\\because \\text { Area }=4 R \\times 4 R=16 R^2\\right)\r\n$$\r\nMass of each hole $m_1=\\sigma \\pi R^2=\\frac{M}{16 R^2} \\pi R^2=\\frac{\\pi M}{16}$\r\nDistance between centre of plate and centre of hole\r\n$$\r\nx=\\frac{\\sqrt{(2 R)^2+(2 R)^2}}{2}=\\frac{2 \\sqrt{2} R}{2} .\r\n$$\r\n<img src=\"https://cdn-question-pool.getmarks.app/pyq/bitsat/48sXRImgpSV6Uufo34i1MCTn62UFM3A0DRF5amDDeHk.original.fullsize.png\"><br>\r\nMoment of inertia of one hole at about Z-axis\r\n$$\r\nI_1=\\frac{1}{2} m_1 R^2+m_1 x^2=\\frac{5 \\pi}{32} M R^2\r\n$$\r\nMoment of inertia of whole plate about Z-axis,\r\n$$\r\nI=\\frac{M(4 R)^2}{6}=\\frac{8}{3} M R^2\r\n$$\r\nRequired moment of Inertia\r\n$$\r\nI_0=I-4 I_1,=\\left[\\frac{8}{3}-4\\left(\\frac{5 \\pi}{32}\\right)\\right] M R^2=\\left[\\frac{8}{3}-\\frac{5 \\pi}{8}\\right] M R^2\r\n$$\r\nGiven, $R=5 \\mathrm{~cm}$ and $M=1 \\mathrm{~kg}$\r\nSo, $I_0=\\left[\\frac{8}{3}-\\frac{5 \\pi}{8}\\right] 1 \\times 25 \\times 10^{-4}=0.0017 \\mathrm{~kg}-\\mathrm{m}^2$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "64c0e679aef333185c6bb44d",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2022-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2022",
+    "title": "BITSAT 2022"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

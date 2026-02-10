@@ -1,0 +1,43 @@
+{
+  "index": 104,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2022 (26 Jun Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "616025721140c15ea0b0b6e8",
+    "chapter_name": "Probability",
+    "year": "2022",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let a biased coin be tossed&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math> times. If the probability of getting&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> heads is equal to the probability of getting&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math> heads, then the probability of getting atmost two heads is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>46</mn><msup><mn>6</mn><mn>4</mn></msup></mfrac></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>275</mn><msup><mn>6</mn><mn>5</mn></msup></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>41</mn><msup><mn>5</mn><mn>5</mn></msup></mfrac></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>36</mn><msup><mn>5</mn><mn>4</mn></msup></mfrac></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mfenced><mrow><mn>4</mn><mo>&#160;</mo><mi>heads</mi></mrow></mfenced><mo>=</mo><mi>P</mi><mfenced><mrow><mn>5</mn><mo>&#160;</mo><mi>heads</mi></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow></mrow><mn>5</mn></msup><msub><mi>C</mi><mn>4</mn></msub><msup><mi>p</mi><mn>4</mn></msup><mi>q</mi><mo>=</mo><msup><mo>&#160;</mo><mn>5</mn></msup><msub><mi>C</mi><mn>5</mn></msub><msup><mi>p</mi><mn>5</mn></msup><mo>&#8658;</mo><mi>p</mi><mo>=</mo><mn>5</mn><mi>q</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mfenced><mi mathvariant=\"normal\">i</mi></mfenced></math></p><p>Also,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>+</mo><mi>q</mi><mo>=</mo><mn>1</mn><mo>&#8658;</mo><mi>q</mi><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>,</mo><mi>p</mi><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></math>&nbsp;(from&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mi mathvariant=\"normal\">i</mi></mfenced></math>)</p><p>So,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>&nbsp;(at most&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>&nbsp;heads)&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mi>P</mi><mfenced><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></mfenced><mo>+</mo><mi>P</mi><mfenced><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mi>P</mi><mfenced><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi>q</mi><mn>5</mn></msup><msup><mo>+</mo><mn>5</mn></msup><msub><mi>C</mi><mn>1</mn></msub><mi>p</mi><msup><mi>q</mi><mn>4</mn></msup><msup><mo>+</mo><mn>5</mn></msup><msub><mi>C</mi><mn>2</mn></msub><msup><mi>p</mi><mn>2</mn></msup><msup><mi>q</mi><mn>3</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mfenced><mfrac><mn>1</mn><mn>6</mn></mfrac></mfenced><mn>5</mn></msup><mo>+</mo><mn>5</mn><mfenced><mfrac><mn>5</mn><mn>6</mn></mfrac></mfenced><msup><mfenced><mfrac><mn>1</mn><mn>6</mn></mfrac></mfenced><mn>4</mn></msup><mo>+</mo><mn>10</mn><msup><mfenced><mfrac><mn>5</mn><mn>6</mn></mfrac></mfenced><mn>2</mn></msup><msup><mfenced><mfrac><mn>1</mn><mn>6</mn></mfrac></mfenced><mn>3</mn></msup></math>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>46</mn><msup><mn>6</mn><mn>4</mn></msup></mfrac></math></p>"
+  }
+}

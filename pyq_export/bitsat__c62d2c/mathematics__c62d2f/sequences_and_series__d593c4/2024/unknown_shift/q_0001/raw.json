@@ -1,0 +1,63 @@
+{
+  "_id": "67726d19c49e8ef28ee2b43b",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "67726ce6d221dc77889e6416",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2024-04-15T19:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2024 (Memory Based Paper 3)",
+      "title": "BITSAT 2024 (Memory Based Paper 3)"
+    }
+  ],
+  "question": {
+    "text": "If $\\sum_{k=1}^n k(k+1)(k-1)=p n^4+q n^3+t n^2+s n$ where $p, q, t$ and $s$ are constants, then the value of $s$ is equal to",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "w75O2",
+      "text": "$-\\frac{1}{4}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "sHPsm",
+      "text": "$-\\frac{1}{2}$",
+      "image": null,
+      "isCorrect": true
+    },
+    {
+      "id": "pzLkS",
+      "text": "$\\frac{1}{2}$",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "iCwci",
+      "text": "$\\frac{1}{4}$",
+      "image": null,
+      "isCorrect": false
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$\\begin{aligned}\n\\text { Let } S & =\\sum_{k=1}^n k(k+1)(k-1) \\\\\n& =\\sum_{k=1}^n k^3-k\n\\end{aligned}$\nWe know that\n$\\sum_{r=1}^P r=\\frac{P(P+1)}{2}$\nand\n$\\sum_{r=1}^P r^3=\\left[\\frac{P(P+1)}{2}\\right]^2$\n$\\begin{aligned}\nS & =\\left[\\frac{n(n+1)}{2}\\right]^2-\\left[\\frac{n(n+1)}{2}\\right] \\\\\n& =\\frac{n(n+1)}{2}\\left[\\frac{n(n+1)}{2}-1\\right] \\\\\n& =\\left(\\frac{n^2+n}{2}\\right)\\left[\\frac{n^2+n-2}{2}\\right] \\\\\n& =\\frac{n^4}{4}+\\frac{n^3}{2}-\\frac{n^2}{4}-\\frac{n}{2}...(i)\n\\end{aligned}$\nNow, by comparing $p n^4+q n^3+t n^2+s n$ with Eq. (i),\n$S=-\\frac{1}{2}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "67726ce6d221dc77889e6416",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2024-04-15T19:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2024 (Memory Based Paper 3)",
+    "title": "BITSAT 2024 (Memory Based Paper 3)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

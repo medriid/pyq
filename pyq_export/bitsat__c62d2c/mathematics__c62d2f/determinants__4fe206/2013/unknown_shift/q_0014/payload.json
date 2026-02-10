@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2013",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7d211e05bce84fe206",
+    "chapter_name": "Determinants",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The determinant $\\left|\\begin{array}{ccc}1 & (x-3) & (x-3)^{2} \\\\ 1 & (x-4) & (x-4)^{2} \\\\ 1 & (x-5) & (x-5)^{2}\\end{array}\\right|$"
+  },
+  "options": [
+    {
+      "text": "3 values of $x$",
+      "is_correct": false
+    },
+    {
+      "text": "2 values of $x$",
+      "is_correct": false
+    },
+    {
+      "text": "1 values of $x$",
+      "is_correct": false
+    },
+    {
+      "text": "No value of $x$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "The given determinant vanishes, i.e.,\r\n\r\n$$\r\n\r\n\\left|\\begin{array}{ccc}\r\n\r\n1 & x-3 & (x-3)^{2} \\\\\r\n\r\n1 & x-4 & (x-4)^{2} \\\\\r\n\r\n1 & x-5 & (x-5)^{2}\r\n\r\n\\end{array}\\right|=0\r\n\r\n$$\r\n\r\nExpanding along $\\mathrm{C}_{1},$ we get\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\n(x-4)(x-5)^{2}-(x-5)(x-4)^{2}-\\left\\{(x-3)(x-5)^{2}\\right. \\\\\r\n\r\n\\left.-(x-5)(x-3)^{2}\\right\\}+(x-3)(x-4)^{2} \\\\\r\n\r\n-(x-4)(x-3)^{2}=0 \\\\\r\n\r\n\\Rightarrow(x-4)(x-5)(x-5-x+4) \\\\\r\n\r\n-(x-3)(x-5)(x-5-x+3) \\\\\r\n\r\n+(x-3)(x-4)(x-4-x+3)=0\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\n$$\r\n\r\n\\Rightarrow-(x-4)(x-5)+2(x-3)(x-5)-(x-3)\r\n\r\n$$\r\n\r\n$(x-4)=0$\r\n\r\n$$\r\n\r\n\\Rightarrow-x^{2}+9 x-20+2 x^{2}-16 x+30-x^{2}+7 x-12=0\r\n\r\n$$\r\n\r\n$\\Rightarrow-32+30=0 \\Rightarrow-2=0$\r\n\r\nWhich is not possible, hence no value of $\\mathrm{x}$ satisfies the given condition."
+  }
+}

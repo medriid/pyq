@@ -1,0 +1,43 @@
+{
+  "index": 26,
+  "type": "singleCorrect",
+  "difficulty": 1,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cccd6ab1da4b641d4",
+    "chapter_name": "Permutation Combination",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "In how many ways can 5 prizes be distributed among 4 boys when every boy can take one or more prizes?"
+  },
+  "options": [
+    {
+      "text": "1024",
+      "is_correct": true
+    },
+    {
+      "text": "625",
+      "is_correct": false
+    },
+    {
+      "text": "120",
+      "is_correct": false
+    },
+    {
+      "text": "600",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "First prize may be given to any one of the 4 boys, hence first prize can be distributed in 4 ways. similarly every one of second, third, fourth and fifth prizes can also be given in 4 ways. the number of ways of their distribution $=4 \\times 4 \\times 4 \\times 4 \\times 4=4^{5}=1024$"
+  }
+}

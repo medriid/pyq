@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2025 (2 Apr Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $\\mathrm{a} \\in \\mathbf{R}$ and A be a matrix of order $3 \\times 3$ such that $\\operatorname{det}(A)=-4$ and $A+I=\\left[\\begin{array}{lll}1 & a & 1 \\\\ 2 & 1 & 0 \\\\ a & 1 & 2\\end{array}\\right]$, where $I$ is the identity matrix of order $3 \\times 3$.<br/>If $\\operatorname{det}((a+1) \\operatorname{adj}((a-1) A))$ is $2^m 3^n, m, n \\in$ $\\{0,1,2, \\ldots .20\\}$, then $\\mathrm{m}+\\mathrm{n}$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "14",
+      "is_correct": false
+    },
+    {
+      "text": "17",
+      "is_correct": false
+    },
+    {
+      "text": "15",
+      "is_correct": false
+    },
+    {
+      "text": "16",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "$\\mathrm{A}=\\left[\\begin{array}{lll}1 & \\mathrm{a} & 1 \\\\ 2 & 1 & 0 \\\\ \\mathrm{a} & 1 & 2\\end{array}\\right]-\\mathrm{I}=\\left[\\begin{array}{lll}0 & \\mathrm{a} & 1 \\\\ 2 & 0 & 0 \\\\ \\mathrm{a} & 1 & 1\\end{array}\\right]$<br/>$\\begin{aligned} & |\\mathrm{A}|=-4 \\Rightarrow 2-2 \\mathrm{a}=-4 \\Rightarrow \\mathrm{a}=3 \\\\ & |(\\mathrm{a}+1) \\operatorname{adj}(\\mathrm{a}-1) \\mathrm{A}|=|4 \\operatorname{adj} 3 \\mathrm{~A}| \\\\ & =4^3|\\operatorname{adj} 3 \\mathrm{~A}| \\\\ & =4^3 \\times|3 \\mathrm{~A}|^{3-1}=64|3 \\mathrm{~A}|^2 \\\\ & =64 \\times\\left(3^3\\right)^2|\\mathrm{~A}|^2 \\\\ & =2^6 \\times 3^6 \\times 16 \\\\ & 2^{\\mathrm{m}} \\times 3^{\\mathrm{n}}=2^{10} \\times 3^6 \\\\ & \\therefore \\mathrm{~m}=10, \\mathrm{n}=6 \\\\ & \\Rightarrow \\mathrm{~m}+\\mathrm{n}=16\\end{aligned}$"
+  }
+}

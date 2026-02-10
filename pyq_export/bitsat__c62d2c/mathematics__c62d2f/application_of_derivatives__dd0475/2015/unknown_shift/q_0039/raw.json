@@ -1,0 +1,63 @@
+{
+  "_id": "64c0e7d56f5bfc7ab78ae83d",
+  "previousYearPapers": [
+    {
+      "_id": "61a8bf0fc821b6514e527d79",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2015-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2015",
+      "title": "BITSAT 2015"
+    }
+  ],
+  "type": "singleCorrect",
+  "level": 3,
+  "question": {
+    "text": "Let $f(x)$ be a polynomial of degree three satisfying $\\mathrm{f}(0)=-1$ and $\\mathrm{f}(1)=0 . \\mathrm{Also}, 0$ is a stationary point of $f(x)$ If $f(x)$ does not have an extremum at $x=0$, then the value of $\\int \\frac{f(x)}{x^{3}-1} d x$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "agQdh",
+      "text": "$\\frac{x^{2}}{2}+C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "2Dphu",
+      "text": "$x+C$",
+      "isCorrect": true,
+      "image": null
+    },
+    {
+      "id": "OnKqu",
+      "text": "$\\frac{x^{3}}{6}+C$",
+      "isCorrect": false,
+      "image": null
+    },
+    {
+      "id": "ItUaB",
+      "text": "None of these",
+      "isCorrect": false,
+      "image": null
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Let $f(x)=a x^{3}+b x^{2}+c x+d$\r\n\r\nPut $x=0$ and $x=1$\r\n\r\nThen, we get $f(0)=-1$ and $f(1)=0$ $\\Rightarrow \\mathrm{d}=-1$ and $\\mathrm{a}+\\mathrm{b}+\\mathrm{c}+\\mathrm{d}=0$\r\n\r\n$\\Rightarrow \\mathrm{a}+\\mathrm{b}+\\mathrm{c}=1$\r\n\r\nIt is given that $x=0$ is a stationary point of $\\mathrm{f}(\\mathrm{x})$, but it is not a point of extremum.\r\n\r\nTherefore, $f(0)=0=f^{\\prime \\prime}(0)$ and $f^{\\prime \\prime \\prime}(0)=0$\r\n\r\nNow, $\\mathrm{f}(\\mathrm{x})=\\mathrm{ax}^{3}+\\mathrm{bx}^{2}+\\mathrm{cx}+\\mathrm{d}$\r\n\r\n$\\Rightarrow f(x)=3 a x^{2}+2 b x+c$\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\nf^{\\prime \\prime}(x)=6 a x+2 b \\text { and } f^{\\prime \\prime}(x)=6 a \\\\\r\n\r\nf^{\\prime}=0, f^{\\prime \\prime}(0)=0 \\text { and } f^{\\prime \\prime \\prime}(0)=0 \\neq 0\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\n$\\Rightarrow c=0, b=0$ and $a \\neq 0$\r\n\r\nFrom Eqs. (i) and (ii), we get $\\mathrm{a}=1, \\mathrm{~b}=\\mathrm{c}=0$ and $\\mathrm{d}=-1$\r\n\r\nPut these values in $\\mathrm{f}(\\mathrm{x})$ we get $f(x)=x^{3}-1$\r\n\r\nHence, $\\int \\frac{\\mathrm{f}(\\mathrm{x})}{\\mathrm{x}^{3}-1} \\mathrm{dx}=\\int \\frac{\\mathrm{x}^{3}-1}{\\mathrm{x}^{3}-1} \\mathrm{~d} \\mathrm{x}=\\int 1 \\mathrm{~d} \\mathrm{x}=\\mathrm{x}+\\mathrm{C}$",
+    "image": null
+  },
+  "videoSolution": null,
+  "questionLabels": [],
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "61a8bf0fc821b6514e527d79",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2015-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2015",
+    "title": "BITSAT 2015"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

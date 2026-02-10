@@ -1,8 +1,8 @@
 {
   "index": 46,
-  "type": "numerical",
+  "type": "singleCorrect",
   "difficulty": 3,
-  "pyq_info": "JEE Main 2022 (25 Jul Shift 1)",
+  "pyq_info": "JEE Main 2022 (29 Jul Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Let <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced open=\"{\" close=\"\"><mtable><mtr><mtd><mfenced open=\"|\" close=\"|\"><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></mfenced><mo>,</mo></mtd><mtd><mi>if</mi><mo>&#160;</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>&#8805;</mo><mn>0</mn></mtd></mtr><mtr><mtd><mfenced open=\"[\" close=\"]\"><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></mfenced><mo>,</mo></mtd><mtd><mi>if</mi><mo>&#160;</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>&#60;</mo><mn>0</mn></mtd></mtr></mtable></mfenced></math>, where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"]\" open=\"[\"><mi>&#945;</mi></mfenced></math> denotes the greatest integer less than or equal to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#945;</mi></math>. Then the number of points in <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> where <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> is not differentiable is _____ ."
+    "text": "The number of points, where the function&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>:</mo><mi>R</mi><mo>&#8594;</mo><mi>R</mi><mo>,</mo><mo>&#160;</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced open=\"|\" close=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mi>cos</mi><mfenced open=\"|\" close=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>2</mn></mrow></mfenced><mi>sin</mi><mfenced open=\"|\" close=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mfenced><mrow><mi>x</mi><mo>-</mo><mn>3</mn></mrow></mfenced><mfenced open=\"|\" close=\"|\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow></mfenced></math>, is NOT differentiable, is"
   },
-  "options": [],
-  "correct_answer": "3",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
   "solution": {
-    "text": "<blockquote><p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable><mtr><mtd><mfenced close=\"|\" open=\"|\"><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></mfenced><mo>,</mo></mtd><mtd><mi>if</mi><mo>&#160;</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>&#8805;</mo><mn>0</mn></mtd></mtr><mtr><mtd><mfenced close=\"]\" open=\"[\"><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></mfenced><mo>,</mo></mtd><mtd><mi>if</mi><mo>&#160;</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>&#60;</mo><mn>0</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced close=\"\" open=\"{\"><mtable><mtr><mtd><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo>,</mo></mtd><mtd><mi>if</mi><mo>&#160;</mo><mi>x</mi><mo>&#8712;</mo><mfenced close=\"]\" open=\"[\"><mrow><mo>&#8722;</mo><mo>&#8734;</mo><mo>,</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></mfenced><mo>&#8746;</mo><mfenced open=\"[\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mo>&#8734;</mo></mrow></mfenced></mtd></mtr><mtr><mtd><mfenced close=\"]\" open=\"[\"><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></mfenced></mtd><mtd><mi>if</mi><mo>&#160;</mo><mi>x</mi><mo>&#8712;</mo><mfenced><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>,</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"\" open=\"{\"><mrow><mtable><mtr><mtd><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>&#8722;</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>5</mn></mtd><mtd><mi>if</mi><mo>&#160;</mo><mi>x</mi><mo>&#8712;</mo><mfenced close=\"]\"><mrow><mo>&#8722;</mo><mo>&#8734;</mo><mo>,</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></mfenced><mo>&#8746;</mo><mfenced open=\"[\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mo>&#8734;</mo></mrow></mfenced></mtd></mtr><mtr><mtd><mn>3</mn></mtd><mtd><mi>x</mi><mo>&#8712;</mo><mfenced><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>,</mo><mfrac><mrow><mn>2</mn><mo>&#8722;</mo><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></mfenced></mtd></mtr><mtr><mtd><mn>2</mn></mtd><mtd><mi>x</mi><mo>&#8712;</mo><mfenced open=\"[\"><mrow><mfrac><mrow><mn>2</mn><mo>&#8722;</mo><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>,</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfenced></mtd></mtr></mtable><mtable equalcolumns=\"true\" equalrows=\"true\"><mtr></mtr><mtr></mtr><mtr></mtr></mtable></mrow></mfenced></math></p><p>Now plotting the graph of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math>&nbsp;we get,</p><p><img src=\"assets\\st0046_2b2f7d71fecb.png\" style=\"width: 390px; height: 249px;\" /></p><p>We can see&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced></math>&nbsp;is not differentiable&nbsp;at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>,</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>&nbsp;(where<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><mn>2</mn><mo>-</mo><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math>)</p></blockquote>"
+    "text": "<blockquote><p>Given,<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfenced close=\"|\" open=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mi>cos</mi><mfenced close=\"|\" open=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>2</mn></mrow></mfenced><mi>sin</mi><mfenced close=\"|\" open=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mfenced><mrow><mi>x</mi><mo>-</mo><mn>3</mn></mrow></mfenced><mfenced close=\"|\" open=\"|\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced close=\"|\" open=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mi>cos</mi><mfenced close=\"|\" open=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>2</mn></mrow></mfenced><mi>sin</mi><mfenced close=\"|\" open=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mfenced><mrow><mi>x</mi><mo>-</mo><mn>3</mn></mrow></mfenced><mfenced close=\"|\" open=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mfenced close=\"|\" open=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>4</mn></mrow></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfenced close=\"|\" open=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mfenced close=\"]\" open=\"[\"><mrow><mi>cos</mi><mfenced close=\"|\" open=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>2</mn></mrow></mfenced><mi>sin</mi><mfenced close=\"|\" open=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mfenced><mrow><mi>x</mi><mo>-</mo><mn>3</mn></mrow></mfenced><mfenced close=\"|\" open=\"|\"><mrow><mi>x</mi><mo>-</mo><mn>4</mn></mrow></mfenced></mrow></mfenced></math></p><p>We know that modulus function is not differentiable at values where modulus function is zero</p><p>So, we can say that function is non-differentiable at&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>&nbsp;and&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>4</mn></math>.</p></blockquote>"
   }
 }

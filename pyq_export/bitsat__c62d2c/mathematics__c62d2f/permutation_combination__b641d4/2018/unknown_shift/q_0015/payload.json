@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2018",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cccd6ab1da4b641d4",
+    "chapter_name": "Permutation Combination",
+    "year": "2018",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If a parallelogram is cut by two sets of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> lines parallel to its sides, then the number of parallelogram thus formed, is"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mi>m</mi></mmultiscripts><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mi>m</mi></mmultiscripts></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfenced><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mrow><mi>m</mi><mo>+</mo><mn>2</mn></mrow></mmultiscripts></mfenced></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mfenced><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mrow><mi>m</mi><mo>+</mo><mn>2</mn></mrow></mmultiscripts></mfenced><mn>2</mn></msup></math>",
+      "is_correct": true
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "<p>The two sets of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> parallel lines along with two sets of two parallel lines of the given parallelogram will form two sets of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced><mrow><mi>m</mi><mo>+</mo><mn>2</mn></mrow></mfenced></math> parallel lines. Each parallelogram is formed by choosing two parallel lines from each of the above</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8756;</mo></math> Total number of parallelograms</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mrow><mi>m</mi><mo>+</mo><mn>2</mn></mrow></mmultiscripts><mo>&#215;</mo><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mrow><mi>m</mi><mo>+</mo><mn>2</mn></mrow></mmultiscripts><mo>=</mo><msup><mfenced><mmultiscripts><mi>C</mi><mn>2</mn><none/><mprescripts/><none/><mrow><mi>m</mi><mo>+</mo><mn>2</mn></mrow></mmultiscripts></mfenced><mn>2</mn></msup></math></p><p>Hence, option (c) is correct.</p>"
+  }
+}

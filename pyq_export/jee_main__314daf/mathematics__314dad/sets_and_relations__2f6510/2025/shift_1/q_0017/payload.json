@@ -2,7 +2,7 @@
   "index": 17,
   "type": "singleCorrect",
   "difficulty": 1,
-  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "pyq_info": "JEE Main 2025 (29 Jan Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "The number of non-empty equivalence relations on the set $\\{1,2,3\\}$ is :"
+    "text": "Define a relation R on the interval \\(\\left[0, \\frac{\\pi}{2}\\right)\\) by \\(x \\mathrm{R} y\\) if and only if \\(\\sec ^2 x-\\tan ^2 y=1\\). Then R is :"
   },
   "options": [
     {
-      "text": "$6$",
+      "text": "both reflexive and transitive but not symmetric",
       "is_correct": false
     },
     {
-      "text": "$5$",
+      "text": "an equivalence relation",
       "is_correct": true
     },
     {
-      "text": "$7$",
+      "text": "reflexive but neither symmetric not transitive",
       "is_correct": false
     },
     {
-      "text": "$4$",
+      "text": "both reflexive and symmetric but not transitive",
       "is_correct": false
     }
   ],
@@ -38,6 +38,6 @@
     "B"
   ],
   "solution": {
-    "text": "Let $R$ be the required relation\n$\\mathrm{A}=\\{(1,1)(2,2),(3,3)\\}$\n(i) $|\\mathrm{R}|=3$, when $\\mathrm{R}=\\mathrm{A}$\n(ii) $|\\mathrm{R}|=5$, e.g. $\\mathrm{R}=\\mathrm{A} \\cup\\{(1,2),(2,1)\\}$\n\nNumber of $R$ can be [3]\n(iii) $\\mathrm{R}=\\{1,2,3\\} \\times\\{1,2,3\\}$\nAns. (5)"
+    "text": "$\\begin{aligned}\n& \\sec ^2 x-\\tan ^2 x=1 \\quad(\\text { on replacing } y \\text { with } x) \\\\\n& \\Rightarrow \\text { Reflexive } \\\\\n& \\sec ^2 x-\\tan ^2 y=1 \\\\\n& \\Rightarrow 1+\\tan ^2 x+1-\\sec ^2 y=1 \\\\\n& \\Rightarrow \\sec ^2 y-\\tan ^2 x=1 \\\\\n& \\Rightarrow \\text { symmetric } \\\\\n& \\sec ^2 x-\\tan ^2 y=1 \\\\\n& \\sec ^2 y-\\tan ^2 z=1\n\\end{aligned}$\n\nAdding both\n\n$\\begin{aligned}\n& \\Rightarrow \\sec ^2 x-\\tan ^2 y+\\sec ^2 y-\\tan ^2 z=1+1 \\\\\n& \\sec ^2 x+1-\\tan ^2 z=2 \\\\\n& \\sec ^2 x-\\tan ^2 z=1 \\\\\n& \\Rightarrow \\text { Transitive }\n\\end{aligned}$\nhence equivalence releation"
   }
 }

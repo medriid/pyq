@@ -1,0 +1,43 @@
+{
+  "index": 34,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2012",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7455ca3b13e5b648ea",
+    "chapter_name": "Three Dimensional Geometry",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "What is the value of $n$ so that the angle between the lines having direction ratios (1,1,1) and $(1,-1, n)$ is $60^{\\circ} ?$"
+  },
+  "options": [
+    {
+      "text": "$\\sqrt{3}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\sqrt{6}$",
+      "is_correct": true
+    },
+    {
+      "text": "3",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "If $\\left(l_{1}, m_{1}, n_{1}\\right)$ and $\\left(l_{2}, m_{2}, n_{2}\\right)$ are the direction ratios then angle between the lines is\r\n$\\cos \\theta=\\frac{l_{1} l_{2}+m_{1} m_{2}+n_{1} n_{2}}{\\sqrt{l_{1}^{2}+m_{1}^{2}+n_{1}^{2}} \\sqrt{l_{2}^{2}+m_{2}^{2}+n_{2}^{2}}}$\r\nHere $l_{1}=1, m_{1}=1, n_{1}=1$ and\r\n$l_{2}=1, m_{2}=-1, n_{2}=n$ and $\\theta=60^{\\circ}$\r\n$\\therefore \\cos 60^{\\circ}=\\frac{1 \\times 1+1 \\times(-1)+1 \\times n}{\\sqrt{h^{2}+1^{2}+1^{2} \\times} \\sqrt{1^{2}+1^{2}+y^{2}}}$\r\n$\\Rightarrow \\frac{1}{2}=\\frac{1}{\\sqrt{3} \\sqrt{2+n^{2}}} \\Rightarrow 3\\left(2+n^{2}\\right)=4 n^{2}$\r\n$\\Rightarrow n^{2}=6 \\Rightarrow n=\\pm \\sqrt{6}$"
+  }
+}

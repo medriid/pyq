@@ -1,0 +1,43 @@
+{
+  "index": 13,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2016",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd7f4ea4ca4e8a493885",
+    "chapter_name": "Electromagnetic Induction",
+    "year": "2016",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "An inductor of inductance $L=400 \\mathrm{mH}$ and resistors of resistance $R_{1}=2 \\Omega$ and $R_{2}=2 \\Omega$ are connected to a battery of emf $12 \\mathrm{~V}$ as shown in the figure. The internal resistance of the battery is negligible. The switch $S$ is closed at $t=0 .$ The potential drop across $L$ as a function of time is\r\n\r\n<img src=\"assets\\qt0013_a1d6664efa64.png\">"
+  },
+  "options": [
+    {
+      "text": "$\\frac{12}{t} e^{-3 t} \\mathrm{~V}$",
+      "is_correct": false
+    },
+    {
+      "text": "$6\\left(1-e^{-t / 0.2}\\right) \\mathrm{V}$",
+      "is_correct": false
+    },
+    {
+      "text": "$12 \\mathrm{e}^{-5 t} \\mathrm{~V}$",
+      "is_correct": true
+    },
+    {
+      "text": "$6 \\mathrm{e}^{-5 t} \\mathrm{~V}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "Growth in current in $L R_{2}$ branch when switch is closed is given by\r\n\r\n$$\r\n\r\n\\begin{array}{l}\r\n\r\ni=\\frac{E}{R_{2}}\\left[1-e^{-R_{2} t / L}\\right] \\\\\r\n\r\n\\Rightarrow \\frac{d i}{d t}=\\frac{E}{R_{2}} \\cdot \\frac{R_{2}}{L} e^{-R_{2} t / L}=\\frac{E}{L} e^{-\\frac{R_{2} t}{L}}\r\n\r\n\\end{array}\r\n\r\n$$\r\n\r\nHence, potential drop across $\\mathbf{L}=\\left(\\frac{E}{L} e^{-R_{2} t / L}\\right) L=E e^{-R_{2} t / L}$\r\n\r\n$=12 e^{-\\frac{2 t}{400 \\times 10^{-3}}}=12 \\mathrm{e}^{-5 t} \\mathrm{~V}$"
+  }
+}

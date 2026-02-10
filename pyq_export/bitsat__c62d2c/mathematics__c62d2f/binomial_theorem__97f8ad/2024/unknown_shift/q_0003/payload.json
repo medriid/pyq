@@ -1,0 +1,43 @@
+{
+  "index": 3,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7ddf871d2a6297f8ad",
+    "chapter_name": "Binomial Theorem",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If the $17^{\\text {th }}$ and the $18^{\\text {th }}$ terms in the expansion of $(2+a)^{50}$ are equal, then the coefficient of $x^{35}$ in the expansion of $(a+x)^{-2}$ is"
+  },
+  "options": [
+    {
+      "text": "$-35$",
+      "is_correct": false
+    },
+    {
+      "text": "$3$",
+      "is_correct": false
+    },
+    {
+      "text": "$36$",
+      "is_correct": false
+    },
+    {
+      "text": "$-36$",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "Given, $17^{\\text {th }}$ and $18^{\\text {th }}$ terms in the expansion $(2+a)^{50}$ are equal\n$\\therefore T_{17}=T_{18}$\n$\\Rightarrow{ }^{50} C_{16}(2)^{34}(a)^{16}={ }^{50} C_{17}(2)^{33}(a)^{17}$\n$\\Rightarrow a=\\frac{{ }^{50} C_{16}}{{ }^{50} C_{17}} \\times 2=1$\n$\\therefore$ Now, coefficient of $x^{35}$ in the expansion\n$(1+x)^{-2}=-36$\n$\\because$ Coefficient of $x^r$ is $(r+1)$ in $(1-x)^{-2}$."
+  }
+}

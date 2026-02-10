@@ -1,0 +1,43 @@
+{
+  "index": 21,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2013",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2c2e8ce0dc8a5c62d2d",
+    "subject_name": "Physics",
+    "chapter_id": "61e7bd707d70b66ab213f490",
+    "chapter_name": "Thermodynamics",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "A Carnot's heat engine works between the temperatures $427^{\\circ} \\mathrm{C}$ and $27^{\\circ} \\mathrm{C}$. What amount of heat should it consume per second to deliver mechanical work at the rate of $1.0 \\mathrm{~kW} ?$"
+  },
+  "options": [
+    {
+      "text": "$0.417 \\mathrm{kcal} / \\mathrm{s}$",
+      "is_correct": true
+    },
+    {
+      "text": "$4.17 \\mathrm{kcal} / \\mathrm{s}$",
+      "is_correct": false
+    },
+    {
+      "text": "$41.7 \\mathrm{kcal} / \\mathrm{s}$",
+      "is_correct": false
+    },
+    {
+      "text": "$0.212 \\mathrm{kcal} / \\mathrm{s}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "The efficiency of the heat engine is\r\n\r\n$$\r\n\r\n\\eta=1-\\frac{T_{2}}{T_{1}}=1-\\left(\\frac{273+27 K}{273+427 K}\\right)=\\frac{4}{7}\r\n\r\n$$\r\n\r\nBut $\\quad \\eta=\\frac{\\mathrm{W}}{\\mathrm{Q}_{1}}$\r\n\r\n$$\r\n\r\n\\therefore \\mathrm{Q}_{1}=\\frac{\\mathrm{W}}{\\eta}=\\frac{1.0 \\mathrm{~kW}}{4 / 7}=1.75 \\mathrm{~kW}=0.417 \\mathrm{kcal} / \\mathrm{s}\r\n\r\n$$\r\n\r\nThus, the engine would require 417 cal of heat per second, to deliver the requisite amount of work."
+  }
+}

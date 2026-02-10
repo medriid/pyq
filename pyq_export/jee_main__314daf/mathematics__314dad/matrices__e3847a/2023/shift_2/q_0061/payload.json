@@ -1,0 +1,43 @@
+{
+  "index": 61,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2023 (10 Apr Shift 2)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160254ef3008156a2e3847a",
+    "chapter_name": "Matrices",
+    "year": "2023",
+    "shift": "shift_2"
+  },
+  "question": {
+    "text": "If <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mn>5</mn><mo>!</mo><mn>6</mn><mo>!</mo><mn>7</mn><mo>!</mo></mrow></mfrac><mfenced close=\"]\" open=\"[\"><mtable columnalign=\"left\"><mtr><mtd><mn>5</mn><mo>!</mo></mtd><mtd><mn>6</mn><mo>!</mo></mtd><mtd><mn>7</mn><mo>!</mo></mtd></mtr><mtr><mtd><mn>6</mn><mo>!</mo></mtd><mtd><mn>7</mn><mo>!</mo></mtd><mtd><mn>8</mn><mo>!</mo></mtd></mtr><mtr><mtd><mn>7</mn><mo>!</mo></mtd><mtd><mn>8</mn><mo>!</mo></mtd><mtd><mn>9</mn><mo>!</mo></mtd></mtr></mtable></mfenced></math>, then <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"|\" close=\"|\"><mrow><mo>adj</mo><mfenced><mrow><mo>adj</mo><mfenced><mrow><mn>2</mn><mi>A</mi></mrow></mfenced></mrow></mfenced></mrow></mfenced></math>&nbsp; is equal to"
+  },
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>20</mn></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>8</mn></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>12</mn></msup></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>16</mn></msup></math>",
+      "is_correct": true
+    }
+  ],
+  "correct_answer": [
+    "D"
+  ],
+  "solution": {
+    "text": "<blockquote><p>Given,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mn>5</mn><mo>!</mo><mn>6</mn><mo>!</mo><mn>7</mn><mo>!</mo></mrow></mfrac><mfenced close=\"]\" open=\"[\"><mtable columnalign=\"left\"><mtr><mtd><mn>5</mn><mo>!</mo></mtd><mtd><mn>6</mn><mo>!</mo></mtd><mtd><mn>7</mn><mo>!</mo></mtd></mtr><mtr><mtd><mn>6</mn><mo>!</mo></mtd><mtd><mn>7</mn><mo>!</mo></mtd><mtd><mn>8</mn><mo>!</mo></mtd></mtr><mtr><mtd><mn>7</mn><mo>!</mo></mtd><mtd><mn>8</mn><mo>!</mo></mtd><mtd><mn>9</mn><mo>!</mo></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfenced close=\"|\" open=\"|\"><mi>A</mi></mfenced><mo>=</mo><mfrac><mn>1</mn><mrow><mn>5</mn><mo>!</mo><mn>6</mn><mo>!</mo><mn>7</mn><mo>!</mo></mrow></mfrac><mfenced close=\"|\" open=\"|\"><mtable columnalign=\"left\"><mtr><mtd><mn>5</mn><mo>!</mo></mtd><mtd><mn>6</mn><mo>!</mo></mtd><mtd><mn>7</mn><mo>!</mo></mtd></mtr><mtr><mtd><mn>6</mn><mo>!</mo></mtd><mtd><mn>7</mn><mo>!</mo></mtd><mtd><mn>8</mn><mo>!</mo></mtd></mtr><mtr><mtd><mn>7</mn><mo>!</mo></mtd><mtd><mn>8</mn><mo>!</mo></mtd><mtd><mn>9</mn><mo>!</mo></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfenced close=\"|\" open=\"|\"><mi>A</mi></mfenced><mo>=</mo><mfrac><mn>1</mn><mrow><mn>5</mn><mo>!</mo><mn>6</mn><mo>!</mo><mn>7</mn><mo>!</mo></mrow></mfrac><mn>5</mn><mo>!</mo><mo>&#215;</mo><mn>6</mn><mo>!</mo><mo>&#215;</mo><mn>7</mn><mo>!</mo><mfenced close=\"|\" open=\"|\"><mtable columnalign=\"left\"><mtr><mtd><mn>1</mn></mtd><mtd><mn>6</mn></mtd><mtd><mn>42</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>7</mn></mtd><mtd><mn>56</mn></mtd></mtr><mtr><mtd><mn>1</mn></mtd><mtd><mn>8</mn></mtd><mtd><mn>72</mn></mtd></mtr></mtable></mfenced></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>|</mo><mi>A</mi><mo>|</mo><mo>=</mo><mn>2</mn></math></p><p>Now using the property of adjoint of matrix we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"|\" open=\"|\"><mrow><mo>adj</mo><mfenced><mrow><mo>adj</mo><mfenced><mi>A</mi></mfenced></mrow></mfenced></mrow></mfenced><mo>=</mo><msup><mfenced close=\"|\" open=\"|\"><mi>A</mi></mfenced><mrow><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><msup><mo>)</mo><mn>2</mn></msup></mrow></msup><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mfenced close=\"|\" open=\"|\"><mrow><mi>k</mi><mi>A</mi></mrow></mfenced><mo>=</mo><msup><mi>k</mi><mi>n</mi></msup><mfenced close=\"|\" open=\"|\"><mi>A</mi></mfenced></math>, where&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>&nbsp;is order of square matrix,</p><p>Now using the above two formula we get,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"|\" open=\"|\"><mrow><mo>adj</mo><mfenced><mrow><mo>adj</mo><mfenced><mrow><mn>2</mn><mi>A</mi></mrow></mfenced></mrow></mfenced></mrow></mfenced><mo>=</mo><msup><mfenced close=\"|\" open=\"|\"><mrow><mn>2</mn><mi>A</mi></mrow></mfenced><mn>4</mn></msup><mo>=</mo><msup><mn>2</mn><mn>12</mn></msup><msup><mfenced close=\"|\" open=\"|\"><mi>A</mi></mfenced><mn>4</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfenced close=\"|\" open=\"|\"><mrow><mo>adj</mo><mfenced><mrow><mo>adj</mo><mfenced><mrow><mn>2</mn><mi>A</mi></mrow></mfenced></mrow></mfenced></mrow></mfenced><mo>=</mo><msup><mn>2</mn><mn>12</mn></msup><mo>&#183;</mo><msup><mn>2</mn><mn>4</mn></msup></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mfenced close=\"|\" open=\"|\"><mrow><mo>adj</mo><mfenced><mrow><mo>adj</mo><mfenced><mrow><mn>2</mn><mi>A</mi></mrow></mfenced></mrow></mfenced></mrow></mfenced><mo>=</mo><msup><mn>2</mn><mn>16</mn></msup></math></p></blockquote>"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "648b5a62417cc3fb48d65793",
+  "type": "singleCorrect",
+  "level": 3,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "615d92eade3d91842a5cf7c6",
+      "examId": "615d76b2c52ffa3c944600df",
+      "heldOn": "2006-04-30T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2006",
+      "title": "JEE Main 2006"
+    }
+  ],
+  "question": {
+    "text": "For natural numbers $m, n$ if $(1-y)^m(1+y)^n=1+a_1 y+a_2 y^2+\\ldots$, and $a_1=a_2=10$ then $(\\mathrm{m}, \\mathrm{n})$ is",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "4Ot3Z",
+      "text": "\n(20, 45)\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "nIlPP",
+      "text": "\n(35, 20)\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "6BwhM",
+      "text": "\n(45, 35)\n",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "fCjd9",
+      "text": "\n(35, 45)",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "$(1-y)^m(1+y)^n=\\left[1-{ }^m C_1 y+{ }^m C_2 y^2-\\ldots\\right]\\left[1+{ }^n C_1 y+{ }^n C_2 y^2+\\ldots\\right]$\n$=1+(n-m)+\\left\\{\\frac{m(m-1)}{2}+\\frac{n(n-1)}{2}-m n\\right\\} y^2+\\ldots .$.\n$\\therefore a_1=n-m=10$ and $a_2=\\frac{m^2+n-m-n-2 m n}{2}=10$\nSo, $n-m=10$ and $(m-n)^2-(m+n)=20 \\quad \\Rightarrow m+n=80$\n$$\n\\therefore \\mathrm{m}=35, \\quad \\mathrm{n}=45\n$$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "615d92eade3d91842a5cf7c6",
+    "examId": "615d76b2c52ffa3c944600df",
+    "heldOn": "2006-04-30T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2006",
+    "title": "JEE Main 2006"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

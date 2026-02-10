@@ -1,0 +1,63 @@
+{
+  "_id": "65b7b87897ae24e9e2db8ca6",
+  "type": "singleCorrect",
+  "level": 2,
+  "questionLabels": [],
+  "previousYearPapers": [
+    {
+      "_id": "65b7b85fb3be70ed63adbe84",
+      "examId": "615d7713c52ffa3c944600e3",
+      "heldOn": "2023-04-15T09:00:00.000Z",
+      "isVisible": true,
+      "shortName": "2023 (Memory Based Paper 1)",
+      "title": "BITSAT 2023 (Memory Based Paper 1)"
+    }
+  ],
+  "question": {
+    "text": "The lines $\\frac{x-2}{1}=\\frac{y-3}{1}=\\frac{z-4}{-k}$ and $\\frac{x-1}{k}=\\frac{y-4}{2}=\\frac{z-5}{1}$ are coplanar if",
+    "image": null
+  },
+  "options": [
+    {
+      "id": "nAidx",
+      "text": "$\\mathrm{k}=3$ or -2",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "MCAwH",
+      "text": "$\\mathrm{k}=0$ or -1",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "Hyf3x",
+      "text": "$\\mathrm{k}=1$ or -1",
+      "image": null,
+      "isCorrect": false
+    },
+    {
+      "id": "iFMCB",
+      "text": "$\\mathrm{k}=0$ or -3",
+      "image": null,
+      "isCorrect": true
+    }
+  ],
+  "correctValue": null,
+  "solution": {
+    "text": "Two planes are coplanar if<br />$\\left|\\begin{array}{ccc}x_2-x_1 & y_2-y_1 & z_2-z_1 \\\\ l_1 & m_1 & n_1 \\\\ l_2 & m_2 & n_2\\end{array}\\right|=0$<br />$\\left|\\begin{array}{ccc}1 & -1 & -1 \\\\ 1 & 1 & -k \\\\ k & 2 & 1\\end{array}\\right|=0$<br />Applying $\\mathrm{C}_2 \\rightarrow \\mathrm{C}_2+\\mathrm{C}_1, \\mathrm{C}_3 \\rightarrow \\mathrm{C}_3+\\mathrm{C}_1$<br />$\\Rightarrow\\left|\\begin{array}{ccc}1 & 0 & 0 \\\\ 1 & 2 & 1-k \\\\ k & k+2 & 1+k\\end{array}\\right|=0$<br />$\\Rightarrow \\quad 1[2+2 k-(k+2)(1-k)]=0$<br />$\\Rightarrow \\quad 2+2 k-\\left(-k^2-k+2\\right)=0$<br />$k^2+3 k=0 \\Rightarrow k(k+3)=0$",
+    "image": null
+  },
+  "videoSolution": null,
+  "syllabusCategory": "noChange",
+  "previousYear": {
+    "_id": "65b7b85fb3be70ed63adbe84",
+    "examId": "615d7713c52ffa3c944600e3",
+    "heldOn": "2023-04-15T09:00:00.000Z",
+    "isVisible": true,
+    "shortName": "2023 (Memory Based Paper 1)",
+    "title": "BITSAT 2023 (Memory Based Paper 1)"
+  },
+  "evalStatus": "notAttempted",
+  "lastPracticed": null
+}

@@ -1,0 +1,43 @@
+{
+  "index": 137,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2012 (07 May Online)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If $x+|y|=2 y$, then $y$ as a function of $x$, at $x=0$ is"
+  },
+  "options": [
+    {
+      "text": "\ndifferentiable but not continuous\n",
+      "is_correct": false
+    },
+    {
+      "text": "\ncontinuous but not differentiable\n",
+      "is_correct": true
+    },
+    {
+      "text": "\ncontinuous as well as differentiable\n",
+      "is_correct": false
+    },
+    {
+      "text": "\nneither continuous nor differentiable",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "Given $x+|y|=2 y$\n$$\n\\begin{aligned}\n& \\Rightarrow \\quad x+y=2 y \\text { or } x-y=2 y \\\\\n& \\Rightarrow \\quad x=y \\text { or } x=3 y\n\\end{aligned}\n$$\nThis represent a straight line which passes through origin.\nHence, $x+|y|=2 y$ is continuous at $x=0$. Now, we check differentiability at $x=0$\n$$\n\\begin{gathered}\nx+|y|=2 y \\Rightarrow x+y=2 y, y \\geq 0 \\\\\nx-y=2 y, y < 0\n\\end{gathered}\n$$\nThus, $f(x)=\\left\\{\\begin{array}{ll}x, & y < 0 \\\\ x / 3, & y \\geq 0\\end{array}\\right\\}$\n\n$$\n\\begin{aligned}\n& \\text { Now, L.H.D. }=\\lim _{h \\rightarrow 0^{-}} \\frac{f(x+h-) f x}{-h}(\\quad) \\\\\n& =\\lim _{h \\rightarrow 0^{-}} \\frac{x+h-x}{-h}=-1 \\\\\n& \\text { R.H.D }=\\lim _{h \\rightarrow 0^{+}} \\frac{f(x+h-) f x}{h}(\\quad) \\\\\n& =\\lim _{h \\rightarrow 0^{+}} \\frac{\\frac{x+h}{3}-\\frac{x}{3}}{h}=\\lim _{h \\rightarrow 0^{+}} \\frac{1}{3}=\\frac{1}{3} \\\\\n&\n\\end{aligned}\n$$\nSince, L.H.D $\\neq$ R.H.D. at $x=0$\n$\\therefore$ given function is not differentiable at $x=0$"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "index": 97,
-  "type": "numerical",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2023 (31 Jan Shift 2)",
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "JEE Main 2023 (11 Apr Shift 2)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,11 +14,30 @@
     "shift": "shift_2"
   },
   "question": {
-    "text": "<p>For the given circuit, in the steady state,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced close=\"|\" open=\"|\"><mrow><msub><mi>V</mi><mi>B</mi></msub><mo>-</mo><msub><mi>V</mi><mi>D</mi></msub></mrow></mfenced><mo>=</mo></math>&nbsp;_____ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">V</mi></math>.</p><p><img src=\"assets\\qt0097_b2dbc17f508f.png\" style=\"width: 400px; height: 398px;\" />&nbsp;</p>"
+    "text": "<img src=\"assets\\qt0097_6e89ca2bfc32.png\" style=\"width: 393px; height: 346px;\" /><br />The current flowing through <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>2</mn></msub></math>&nbsp;is :"
   },
-  "options": [],
-  "correct_answer": "1",
+  "options": [
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math>",
+      "is_correct": false
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math>",
+      "is_correct": true
+    },
+    {
+      "text": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math>",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
   "solution": {
-    "text": "<p><img src=\"assets\\qt0097_b2dbc17f508f.png\" style=\"width: 400px; height: 398px;\" /></p><p>At steady state current will not pass through capacitor, therefore effective resistance between B and C will be only&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>&#160;</mo><mi>&#937;</mi></math>. Modified circuit will be as shown below.</p><p><img src=\"assets\\st0097_77ec1dc460b4.png\" style=\"width: 350px; height: 205px;\" /></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;&#160;</mo><msub><mi>i</mi><mrow><mi>A</mi><mi>B</mi></mrow></msub><mo>=</mo><mfrac><mn>6</mn><mn>3</mn></mfrac><mo>=</mo><mn>2</mn><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math>&nbsp; and&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>i</mi><mrow><mi>A</mi><mi>D</mi></mrow></msub><mo>=</mo><mfrac><mn>6</mn><mn>12</mn></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math></p><p>Applying Kirchoff&#39;s law along path BAD, we get</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;&#160;</mo><msub><mi>V</mi><mi>B</mi></msub><mo>+</mo><mfenced><mrow><mn>2</mn><mo>&#215;</mo><mn>2</mn></mrow></mfenced><mo>-</mo><mfenced><mrow><mn>10</mn><mo>&#215;</mo><mn>0</mn><mo>.</mo><mn>5</mn></mrow></mfenced><mo>=</mo><msub><mi>V</mi><mi>D</mi></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#8658;</mo><mo>&#160;</mo><msub><mi>V</mi><mi>B</mi></msub><mo>-</mo><msub><mi>V</mi><mi>D</mi></msub><mo>=</mo><mn>1</mn><mo>&#160;</mo><mi mathvariant=\"normal\">V</mi></math>.</p>"
+    "text": "<blockquote><p><img src=\"assets\\qt0097_6e89ca2bfc32.png\" style=\"width: 393px; height: 346px;\" /></p><p><img src=\"assets\\st0097_9f2a886b1436.png\" style=\"width: 276px; height: 301px;\" /></p><p><img src=\"assets\\st0097_6e5d2a0cb624.png\" style=\"width: 295px; height: 296px;\" /></p><p>As can be seen from the first circuit above,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>B</mi><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mi>A</mi><mi>B</mi></math>&nbsp;are in series which is in parallel with&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>A</mi></math>. So, the net resistance is</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>&#39;</mo><mo>=</mo><mfrac><mn>6</mn><mn>2</mn></mfrac><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi><mo>=</mo><mn>3</mn><mo>&#160;</mo><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></math>&nbsp;as shown in the second&nbsp;diagram.</p><p>From the second diagram,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mi>C</mi><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mi>C</mi><mi>A</mi></math>&nbsp;is in series which is parallel to&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mi>A</mi></math>. Hence the resistance is</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>&#39;</mo><mo>&#39;</mo><mo>=</mo><mfenced><mfrac><mrow><mn>6</mn><mo>&#215;</mo><mn>3</mn></mrow><mrow><mo>(</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>)</mo></mrow></mfrac></mfenced><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi><mo>=</mo><mn>2</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></math>&nbsp;as shown in third diagram.</p><p>From third diagram, both&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>D</mi><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mi>D</mi><mi>A</mi></math>&nbsp;are in series which is parallel to&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>A</mi></math>.</p><p>The equivalent resistance as can be seen from the above simplified circuit is&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mrow><mi>e</mi><mi>q</mi></mrow></msub><mo>=</mo><mn>2</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></math>.</p><p>&nbsp;The current&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi></math> through battery,&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>=</mo></math>&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>2</mn></mfrac><mo>=</mo><mn>4</mn><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math>.</p><p>From the second&nbsp;diagram,&nbsp;the part <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>D</mi><mi>A</mi><mi>C</mi><mi>D</mi></math>&nbsp;has a resistance of&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>&#160;</mo><mi mathvariant=\"normal\">&#937;</mi></math>, the total current will divide equally between <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>D</mi><mi>A</mi><mi>C</mi><mi>D</mi><mo>&#160;</mo><mo>&#38;</mo><mo>&#160;</mo><mi>E</mi><mi>A</mi></math>. So consider&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>I</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math>&nbsp;flowing through&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>D</mi></math>. Note that&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>I</mi><mn>1</mn></msub></math>&nbsp;will be the same current flowing in the first diagram through&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>D</mi></math>.</p><p>From first diagram, when the resistances are in parallel the current is divided in the inverse ratio. Thus,<br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>&#39;</mo></math> through <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>D</mi><mo>=</mo><mfrac><mn>3</mn><mn>9</mn></mfrac><mo>&#215;</mo><mn>2</mn><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math><br /><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mo>&#39;</mo><mo>&#39;</mo></math> through <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced><mfrac><mn>2</mn><mn>3</mn></mfrac></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&#160;</mo><mi mathvariant=\"normal\">A</mi></math></p></blockquote>"
   }
 }

@@ -1,0 +1,43 @@
+{
+  "index": 14,
+  "type": "singleCorrect",
+  "difficulty": 3,
+  "pyq_info": "BITSAT 2013",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7d1ac70535a1fc1eb1",
+    "chapter_name": "Inverse Trigonometric Functions",
+    "year": "2013",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "The greatest and least values of $\\left(\\sin ^{-1} x\\right)^{2}+\\left(\\cos ^{-1} x\\right)^{2}$ are respectively"
+  },
+  "options": [
+    {
+      "text": "$\\frac{\\pi^{2}}{4}$ and 0",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{\\pi}{2}$ and $\\frac{-\\pi}{2}$",
+      "is_correct": false
+    },
+    {
+      "text": "$\\frac{5 \\pi^{2}}{4}$ and $\\frac{\\pi^{2}}{8}$",
+      "is_correct": true
+    },
+    {
+      "text": "$\\frac{\\pi^{2}}{4}$ and $\\frac{-\\pi^{2}}{4}$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "C"
+  ],
+  "solution": {
+    "text": "We have, $\\left(\\sin ^{-1} x\\right)^{2}+\\left(\\cos ^{-1} x\\right)^{2}$\r\n\r\n$=\\left(\\sin ^{-1} x+\\cos ^{-1} x\\right)^{2}-2 \\sin ^{-1} x \\cdot \\cos ^{-1} x$\r\n\r\n$=\\frac{\\pi^{2}}{4}-2 \\sin ^{-1} x\\left(\\frac{\\pi}{2}-\\sin ^{-1} x\\right)$\r\n\r\n$=\\frac{\\pi^{2}}{4}-\\pi \\sin ^{-1} x+2\\left(\\sin ^{-1} x\\right)^{2}$\r\n\r\n$=2\\left[\\left(\\sin ^{-1} x\\right)^{2}-\\frac{\\pi}{2} \\sin ^{-1} x+\\frac{\\pi^{2}}{8}\\right]$\r\n\r\n$=2\\left[\\left(\\sin ^{-1} x-\\frac{\\pi}{4}\\right)^{2}+\\frac{\\pi^{2}}{16}\\right]$\r\n\r\nThus, the least value is $2\\left(\\frac{\\pi^{2}}{16}\\right)$ i.e. $\\frac{\\pi^{2}}{8}$\r\n\r\nand the greatest value is $2\\left[\\left(\\frac{-\\pi}{2}-\\frac{\\pi}{4}\\right)^{2}+\\frac{\\pi^{2}}{16}\\right]$ i.e. $\\frac{5 \\pi^{2}}{4} .$"
+  }
+}

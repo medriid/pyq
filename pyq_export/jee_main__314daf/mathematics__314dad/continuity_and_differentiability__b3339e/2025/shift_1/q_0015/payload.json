@@ -1,0 +1,43 @@
+{
+  "index": 15,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160255706bc354829b3339e",
+    "chapter_name": "Continuity and Differentiability",
+    "year": "2025",
+    "shift": "shift_1"
+  },
+  "question": {
+    "text": "Let $f(x)$ be a real differentiable function such that $f(0)=1$ and $f(x+y)=f(x) f^{\\prime}(y)+f^{\\prime}(x) f(y)$ for all $x, y \\in \\mathbf{R}$. Then $\\sum_{\\mathrm{n}=1}^{100} \\log _{\\mathrm{e}} f(\\mathrm{n})$ is equal to :"
+  },
+  "options": [
+    {
+      "text": "$2525$",
+      "is_correct": true
+    },
+    {
+      "text": "$5220$",
+      "is_correct": false
+    },
+    {
+      "text": "$2384$",
+      "is_correct": false
+    },
+    {
+      "text": "$2406$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "$\\because f(x+y)=f(x) \\cdot f(y)+f(x) \\cdot f(y), \\forall x, y \\in R$ ....(i)\nAnd $f(0)=1$   ....(ii)\nNow replace $x$ by zero and $y$ by zero we get\n$\\begin{aligned}\n& f(0)=f(0) f(0)+f(0) f(0) \\\\\n& 1=f(0)+f(0) \\\\\n& \\therefore \\quad f^{\\prime}(0)=\\frac{1}{2} ...(iii)\n\\end{aligned}$\nNow replace $y$ by zero in equation (i), we get\n$f(x)=\\frac{1}{2} f(x)+f^{\\prime}(x)$\nor, $\\frac{1}{2} f(x)=f^{\\prime}(x)$\nthen $\\frac{f^{\\prime}(x)}{f(x)}=\\frac{1}{2}$\nhence $\\ln |f(x)|=\\frac{x}{2}+c$\nPut $x=0$, we get $c=0$\n$\\therefore \\quad \\ln |f(x)|=\\frac{x}{2}$\nThen $\\sum_{n=1}^{100} \\ln (f(\\eta))=\\left(\\frac{1}{2}+\\frac{2}{2}+\\frac{3}{2}+\\ldots+\\frac{100}{2}\\right)$\n$=\\frac{5050}{2}=2525$"
+  }
+}

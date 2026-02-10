@@ -1,8 +1,8 @@
 {
   "index": 8,
   "type": "singleCorrect",
-  "difficulty": 2,
-  "pyq_info": "JEE Main 2025 (22 Jan Shift 1)",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2025 (4 Apr Shift 1)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "shift_1"
   },
   "question": {
-    "text": "Using the principal values of the inverse trigonometric functions, the sum of the maximum and the minimum values of $16\\left(\\left(\\sec ^{-1} x\\right)^2+\\left(\\operatorname{cosec}^{-1} x\\right)^2\\right)$ is :"
+    "text": "Considering the principal values of the inverse trigonometric functions, $\\sin ^{-1}\\left(\\frac{\\sqrt{3}}{2} x+\\frac{1}{2} \\sqrt{1-x^2}\\right),-\\frac{1}{2} \\lt x \\lt \\frac{1}{\\sqrt{2}}$, is equal to"
   },
   "options": [
     {
-      "text": "$24 \\pi^2$",
+      "text": "$\\frac{\\pi}{4}+\\sin ^{-1} x$",
       "is_correct": false
     },
     {
-      "text": "$22 \\pi^2$",
+      "text": "$\\frac{\\pi}{6}+\\sin ^{-1} x$",
       "is_correct": true
     },
     {
-      "text": "$31 \\pi^2$",
+      "text": "$\\frac{-5 \\pi}{6}-\\sin ^{-1} x$",
       "is_correct": false
     },
     {
-      "text": "$18 \\pi^2$",
+      "text": "$\\frac{5 \\pi}{6}-\\sin ^{-1} x$",
       "is_correct": false
     }
   ],
@@ -38,6 +38,6 @@
     "B"
   ],
   "solution": {
-    "text": "$\\begin{aligned} & 16\\left(\\sec ^{-1} x\\right)^2+\\left(\\operatorname{cosec}^{-1} x\\right)^2 \\\\ & \\operatorname{Sec}^{-1} x=a \\in[0, \\pi]-\\left\\{\\frac{\\pi}{2}\\right\\} \\\\ & \\operatorname{cosec}^{-1} x=\\frac{\\pi}{2}-a \\\\ & =16\\left[a^2+\\left(\\frac{\\pi}{2}-a\\right)^2\\right]=16\\left[2 a^2-\\pi a+\\frac{\\pi^2}{4}\\right] \\\\ & \\max ]_{a=\\pi}=16\\left[2 \\pi^2-\\pi^2+\\pi \\frac{2}{4}\\right]=20 \\pi^2 \\\\ & \\min ]_{a=\\frac{\\pi}{4}}=16\\left[\\frac{2 \\times \\pi^2}{16}-\\frac{\\pi^2}{4}+\\frac{\\pi^2}{4}\\right]=2 \\pi^2 \\\\ & \\operatorname{Sum}=22 \\pi^2\\end{aligned}$"
+    "text": "$\\begin{aligned} & \\sin ^{-1}\\left(\\frac{\\sqrt{3}}{2} x+\\frac{1}{2} \\sqrt{1-x^2}\\right), \\frac{-1}{2} \\lt x \\lt \\frac{1}{\\sqrt{2}} \\\\ & \\Rightarrow \\text { Let } \\sin ^{-1}(x)=\\theta \\quad \\frac{-\\pi}{6} \\lt \\theta \\lt \\frac{\\pi}{4} \\\\ & \\Rightarrow x=\\sin \\theta, \\text { then } \\\\ & \\Rightarrow \\sin ^{-1}\\left(\\frac{\\sqrt{3}}{2} \\sin \\theta+\\frac{1}{2} \\cos \\theta\\right) \\\\ & \\Rightarrow \\sin ^{-1}\\left(\\sin \\left(\\theta+\\frac{\\pi}{6}\\right)\\right)=\\theta+\\frac{\\pi}{6} \\\\ & \\Rightarrow \\sin ^{-1}(x)+\\frac{\\pi}{6}\\end{aligned}$"
   }
 }

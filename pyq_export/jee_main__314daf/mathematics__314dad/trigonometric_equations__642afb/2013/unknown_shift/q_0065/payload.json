@@ -1,8 +1,8 @@
 {
   "index": 65,
   "type": "singleCorrect",
-  "difficulty": 3,
-  "pyq_info": "JEE Main 2013 (22 Apr Online)",
+  "difficulty": 1,
+  "pyq_info": "JEE Main 2013 (25 Apr Online)",
   "tags": {
     "exam_id": "615f0e999476412f48314daf",
     "exam_name": "JEE Main",
@@ -14,23 +14,23 @@
     "shift": "unknown_shift"
   },
   "question": {
-    "text": "Statement-1: The number of common solutions of the trigonometric equations $2 \\sin ^2 \\theta$ $-\\cos 2 \\theta=0$ and $2 \\cos ^2 \\theta-3 \\sin \\theta=0$ in the interval $[0,2 \\pi]$ is two.\nStatement-2: The number of solutions of the equation, $2 \\cos ^2 \\theta-3 \\sin \\theta=0$ in the interval $[0, \\pi]$ is two."
+    "text": "Let $\\mathrm{A}=\\{\\theta: \\sin (\\theta)=\\tan (\\theta)\\}$ and $\\mathrm{B}=(\\theta: \\cos (\\theta)=$ 1\\} be two sets. Then:"
   },
   "options": [
     {
-      "text": "\nStatement-1 is true; Statement-2 is true; Statement-2 is a correct explanation for statement-1.\n",
+      "text": "\n$\\mathrm{A}=\\mathrm{B}$\n",
       "is_correct": false
     },
     {
-      "text": "\nStatement-1 is true; Statement-2 is true; Statement-2 is not a correct explanation for statement-1.\n",
+      "text": "\n$A \\not \\subset B$\n",
       "is_correct": true
     },
     {
-      "text": "\nStatement-1 is false; Statement-2 is true.\n",
+      "text": "\n$B \\not \\subset A$\n",
       "is_correct": false
     },
     {
-      "text": "\nStatement-1 is true; Statement-2 is false.",
+      "text": "\n$A \\subset B$ and $B-A \\neq \\phi$",
       "is_correct": false
     }
   ],
@@ -38,6 +38,6 @@
     "B"
   ],
   "solution": {
-    "text": "$2 \\sin ^2 \\theta-\\cos 2 \\theta=0$\n$\\Rightarrow 2 \\sin ^2 \\theta-\\left(1-2 \\sin ^2 \\theta\\right)=0$\n$\\Rightarrow 2 \\sin ^2 \\theta-1+2 \\sin ^2 \\theta=0$\n$\\Rightarrow 4 \\sin ^2 \\theta=1 \\Rightarrow \\sin \\theta=\\pm \\frac{1}{2}$\n$\\therefore \\theta=\\frac{\\pi}{4}, \\frac{3 \\pi}{4}, \\frac{5 \\pi}{4}, \\frac{7 \\pi}{4}, \\theta \\in[0,2 \\pi]$\n$\\therefore \\theta=\\frac{\\pi}{6}, \\frac{5 \\pi}{6}, \\frac{7 \\pi}{6}, \\frac{11 \\pi}{6}$\n$$\n\\begin{aligned}\n& \\text { Now } 2 \\cos ^2 \\theta-3 \\sin \\theta=0 \\\\\n\\Rightarrow & 2\\left(1-\\sin ^2 \\theta\\right)-3 \\sin \\theta=0 \\\\\n\\Rightarrow & -2 \\sin ^2 \\theta-3 \\sin \\theta+2=0 \\\\\n\\Rightarrow & -2 \\sin ^2 \\theta-4 \\sin \\theta+\\sin \\theta+2=0 \\\\\n\\Rightarrow & 2 \\sin ^2 \\theta-\\sin \\theta+4 \\sin \\theta-2=0 \\\\\n\\Rightarrow & \\sin \\theta(2 \\sin \\theta-1)+2(2 \\sin \\theta-1)=0 \\\\\n\\Rightarrow & \\sin \\theta=\\frac{1}{2},-2\n\\end{aligned}\n$$\nBut $\\sin \\theta=-2$, is not possible\n$$\n\\therefore \\quad \\sin \\theta=\\frac{1}{2}, \\Rightarrow \\theta=\\frac{\\pi}{6}, \\frac{5 \\pi}{6}\n$$\nHence, there are two common solution, there each of the statement-1 and 2 are true but statement- 2 is not a correct explanation for statement-1."
+    "text": "Let $\\mathrm{A}=\\{\\theta: \\sin \\theta=\\tan \\theta\\}$ and $\\mathrm{B}=\\{\\theta: \\cos \\theta=1\\}$\nNow, $A=\\left\\{\\theta: \\sin \\theta=\\frac{\\sin \\theta}{\\cos \\theta}\\right\\}$ $=\\{\\theta: \\sin \\theta(\\cos \\theta-1)=0\\}$ $=\\{\\theta=0, \\pi, 2 \\pi, 3 \\pi, \\ldots \\ldots\\}$\nFor $\\mathrm{B}: \\cos \\theta=1 \\Rightarrow \\theta=\\pi, 2 \\pi, 4 \\pi, \\ldots \\ldots$\nThis shows that $\\mathrm{A}$ is not contained in B. i.e. $\\mathrm{A} \\not \\subset \\mathrm{B}$. but $\\mathrm{B} \\subset \\mathrm{A}$."
   }
 }

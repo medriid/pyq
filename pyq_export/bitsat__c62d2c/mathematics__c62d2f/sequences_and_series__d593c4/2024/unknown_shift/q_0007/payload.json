@@ -1,0 +1,43 @@
+{
+  "index": 7,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "BITSAT 2024 (Memory Based Paper 1)",
+  "tags": {
+    "exam_id": "61a8a124e8ce0dc8a5c62d2c",
+    "exam_name": "BITSAT",
+    "subject_id": "61a8a2d5e8ce0dc8a5c62d2f",
+    "subject_name": "Mathematics",
+    "chapter_id": "61e7bd7cb79820319dd593c4",
+    "chapter_name": "Sequences and Series",
+    "year": "2024",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "If arithmetic mean of two distinct positive real number $a$ and $b(a \\gt b)$ be twice their geometric mean, then $a: b=$"
+  },
+  "options": [
+    {
+      "text": "$(2+\\sqrt{3}):(2-\\sqrt{3})$",
+      "is_correct": true
+    },
+    {
+      "text": "$(2+\\sqrt{5}):(2-\\sqrt{5})$",
+      "is_correct": false
+    },
+    {
+      "text": "$(2+\\sqrt{2}):(2-\\sqrt{2})$",
+      "is_correct": false
+    },
+    {
+      "text": "None of these",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "A"
+  ],
+  "solution": {
+    "text": "By the given condition,\n$\\frac{a+b}{2}=2 \\sqrt{a b} \\Rightarrow a+b=4 \\sqrt{a b}$\nNow, $(a-b)^2=(a+b)^2-4 a b=16 a b-4 a b=$ $12 a b$\n$\\therefore a-b=\\sqrt{12 a b}=2 \\sqrt{3} \\sqrt{a b}$.\n(Taking + ve sign only as $a \\gt b$)\n$\\therefore \\frac{a+b}{a-b}=\\frac{4 \\sqrt{a b}}{2 \\sqrt{3} \\sqrt{a b}}=\\frac{2}{\\sqrt{3}}$\nBy componendo and dividendo,\n$\\frac{2 a}{2 b}=\\frac{2+\\sqrt{3}}{2-\\sqrt{3}}$ or $\\frac{a}{b}=\\frac{2+\\sqrt{3}}{2-\\sqrt{3}}$"
+  }
+}

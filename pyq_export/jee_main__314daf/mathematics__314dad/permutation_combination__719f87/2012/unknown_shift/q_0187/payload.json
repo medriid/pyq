@@ -1,0 +1,43 @@
+{
+  "index": 187,
+  "type": "singleCorrect",
+  "difficulty": 2,
+  "pyq_info": "JEE Main 2012 (Offline)",
+  "tags": {
+    "exam_id": "615f0e999476412f48314daf",
+    "exam_name": "JEE Main",
+    "subject_id": "615f0d109476412f48314dad",
+    "subject_name": "Mathematics",
+    "chapter_id": "6160252af40fd72adb719f87",
+    "chapter_name": "Permutation Combination",
+    "year": "2012",
+    "shift": "unknown_shift"
+  },
+  "question": {
+    "text": "Let $X=\\{1,2,3,4,5\\}$. The number of different ordered pairs $(Y, Z)$ that can be formed such that $Y \\subseteq X, Z$ $\\subseteq \\mathrm{X}$ and $\\mathrm{Y} \\cap \\mathrm{Z}$ is empty, is"
+  },
+  "options": [
+    {
+      "text": "\n$5^2$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$3^5$\n",
+      "is_correct": true
+    },
+    {
+      "text": "\n$2^5$\n",
+      "is_correct": false
+    },
+    {
+      "text": "\n$5^3$",
+      "is_correct": false
+    }
+  ],
+  "correct_answer": [
+    "B"
+  ],
+  "solution": {
+    "text": "$\\mathrm{Y} \\subseteq \\mathrm{X}, \\mathrm{Z} \\subseteq \\mathrm{X}$\nLet $a \\in X$, then we have following chances that\n(1) $a \\in Y, \\quad a \\in Z$\n(2) $a \\notin Y, \\quad a \\in Z$\n(3) $a \\in Y, \\quad a \\notin Z$\n(4) $a \\notin Y, \\quad a \\notin Z$\nWe require $Y \\cap Z=\\phi$\nHence (2), (3), (4) are chances for '$a$' to satisfy $Y \\cap Z=\\phi$.\n$\\therefore Y \\cap Z=\\phi$ has $3$ chances for $a$.\nHence for five elements of $\\mathrm{X}$, the number of required chances is $3 \\times 3 \\times 3 \\times 3 \\times 3=3^5$"
+  }
+}
